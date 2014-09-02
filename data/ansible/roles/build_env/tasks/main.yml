@@ -1,13 +1,4 @@
 ---
-- name: "Install dev env dependencies"
-  apt: name=dpkg-dev state=latest
-  # TODO: This seems to build some packages every time. Probably a bug in build.sh
-- name: Build local packages
-  command: "./build.sh */ chdir={{ pkg_build_dir }}"
-- name: Populate local repo
-  shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir=/usr/local/tunapanda/packages'
-- name: Add local repo to apt sources
-  apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
 - name: Install Remastersys
   # TODO: This probably doesn't need to be deployed as a package. Just hack it to all live in data/build/remastersys
   # TODO: For custom .debs in general, sign packages and/or figure out why no-debsig isn't sufficient here

@@ -3,9 +3,9 @@
   vars_files: 
     - config.yml
   tasks:
-    - apt: update-cache=yes
-    - when: desktop.enabled
-      include: desktop.yml
+    - shell: "echo Provisioned on $(date) > {{ data_dir }}/provisioning.txt"
   roles:
     - common
+    - { role: desktop, when: desktop.enabled }
+    - { role: wikipedia, when: wikipedia.enabled }
     - { role: build_env, when: build_env.enabled }

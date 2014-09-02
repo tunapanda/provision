@@ -5,3 +5,6 @@ desktop:
     use_gnome2: true
 build_env:
     enabled:    true
+wikipedia:
+    enabled:    true
+    data:       false

@@ -1,4 +1,13 @@
 ---
-- name: "Saying hello"
-  command: echo "HELLO" > /HELLO
-  command: echo "WORLD" >> /HELLO
+- name: "Install local repo dependencies"
+  apt: name=dpkg-dev state=latest
+- name: Build local packages
+  shell: "./build.sh */ chdir={{ pkg_build_dir }}"
+- name: Move built packages to repo
+  shell: 'mv -v {{ pkg_build_dir }}/Packages/*.deb {{ data_dir }}/packages/' 
+- name: Populate local repo
+  shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir={{ data_dir }}/packages'
+- name: Add local repo to apt sources
+  apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
+- name: Update the apt cache unless it was just updated
+  apt: update_cache=yes cache_valid_time=10
