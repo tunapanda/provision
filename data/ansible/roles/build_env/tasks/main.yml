@@ -1,11 +1,14 @@
 ---
-- name: "Set up dev environment"
+- name: "Install dev env dependencies"
   apt: name=dpkg-dev state=latest
-- apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
   # TODO: This seems to build some packages every time. Probably a bug in build.sh
-- command: "./build.sh */ chdir={{ pkg_build_dir }}"
-- shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir=/usr/local/tunapanda/packages'
-- name: Installing remastersys
-  # TODO: Should probably just hack remastersys to have everything in data/build/.... without a package
-  # TODO: sign packages and/or figure out why no-debsig isn't sufficient here
+- name: Build local packages
+  command: "./build.sh */ chdir={{ pkg_build_dir }}"
+- name: Populate local repo
+  shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir=/usr/local/tunapanda/packages'
+- name: Add local repo to apt sources
+  apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
+- name: Install Remastersys
+  # TODO: This probably doesn't need to be deployed as a package. Just hack it to all live in data/build/remastersys
+  # TODO: For custom .debs in general, sign packages and/or figure out why no-debsig isn't sufficient here
   apt: name=tunapanda-remastersys state=latest update_cache=yes dpkg_options='no-debsig' force=yes
