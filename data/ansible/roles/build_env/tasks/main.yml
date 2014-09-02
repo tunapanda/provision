@@ -6,5 +6,6 @@
 - command: "./build.sh */ chdir={{ pkg_build_dir }}"
 - shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir=/usr/local/tunapanda/packages'
 - name: Installing remastersys
+  # TODO: Should probably just hack remastersys to have everything in data/build/.... without a package
   # TODO: sign packages and/or figure out why no-debsig isn't sufficient here
   apt: name=tunapanda-remastersys state=latest update_cache=yes dpkg_options='no-debsig' force=yes
