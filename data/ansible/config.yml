@@ -1,0 +1,7 @@
+---
+data_dir: "/usr/local/tunapanda"
+desktop:
+    enabled:    true
+    use_gnome2: true
+build_env:
+    enabled:    true

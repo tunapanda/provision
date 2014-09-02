@@ -1,0 +1,4 @@
+---
+- name: "Saying hello"
+  command: echo "HELLO" > /HELLO
+  command: echo "WORLD" >> /HELLO

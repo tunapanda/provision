@@ -1,0 +1,11 @@
+---
+- hosts: all
+  vars_files: 
+    - config.yml
+  tasks:
+    - apt: update-cache=yes
+    - when: desktop.enabled
+      include: desktop.yml
+  roles:
+    - common
+    - { role: build_env, when: build_env.enabled }
