@@ -14,6 +14,8 @@ This is still very eary and mostly un-tested. Hopefully it will at least be enou
  * Virtualbox
  * Ansible
 2. Clone this repo
+3. (optional) Modify `data/ansible/config.yml` to enable and disable modules
 3. In the repo dir, run `vagrant up`
+  * *Note:* This starts with a very basic Ubuntu VM and then installs a bunch of stuff e.g. Gnome, so expect the initial provisioning to take a *long* time!
+4. Run `data/build/remastersys/bin/remastersys backup`
 
-*Note:* This starts with a very basic Ubuntu VM and then installs a bunch of stuff e.g. Gnome, so expect the initial provisioning to take a while!
