@@ -4,7 +4,7 @@ desktop:
     enabled:    true
     use_gnome2: true
 build_env:
-    enabled:    true
+    enabled:    yes
 wikipedia:
-    enabled:    true
+    enabled:    false
     data:       false

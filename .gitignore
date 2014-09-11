@@ -1,3 +1,6 @@
+.vagrant
+*.iso
 *.swp
+data/provisioning.txt
 data/packages/*
 !data/packages/README.md

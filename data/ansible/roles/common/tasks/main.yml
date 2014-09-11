@@ -1,6 +1,17 @@
 ---
-- name: "Install local repo dependencies"
+- name: Update the apt cache unless it was just updated
+  apt: update_cache=yes cache_valid_time=10
+- name: Update packages
+  apt: upgrade=yes
+- name: "Install local repo dependencies (debs)"
   apt: name=dpkg-dev state=latest
+- apt: name=rubygems state=latest
+- apt: name=ruby-dev state=latest
+- apt: name=gcc state=latest
+- name: "Install local repo dependencies (gems)"
+#  Dunno why this doesn't work...
+#  gem: name=fpm state=latest user_install=true
+  command: gem install -y fpm creates=/usr/bin/fpm
 - name: Build local packages
   shell: "./build.sh */ chdir={{ pkg_build_dir }}"
 - name: Move built packages to repo

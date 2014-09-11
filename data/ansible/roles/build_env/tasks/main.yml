@@ -1,5 +1,7 @@
 ---
-- name: Install Remastersys
+#- name: Install Remastersys
   # TODO: This probably doesn't need to be deployed as a package. Just hack it to all live in data/build/remastersys
   # TODO: For custom .debs in general, sign packages and/or figure out why no-debsig isn't sufficient here
-  apt: name=tunapanda-remastersys state=latest update_cache=yes dpkg_options='no-debsig' force=yes
+#  apt: name=tunapanda-remastersys state=latest update_cache=yes dpkg_options='no-debsig' force=yes
+- name: Install Casper
+  apt: name=casper state=latest

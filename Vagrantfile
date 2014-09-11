@@ -12,8 +12,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise64"
   #config.vm.provision "shell", path: "script.sh"
   config.vm.synced_folder "data/", "/usr/local/tunapanda/"
+  #config.vm.synced_folder "/Users/brsmith/VirtualBox VMs/vagrant_default_1409592040770_21239/", "/media/vbox"
   config.vm.provision "ansible" do |ansible|
-    ansible.verbose = "vv"
+    ansible.verbose = "vvvv"
     ansible.playbook = "data/ansible/main.yml"
     ansible.sudo = true
   end
