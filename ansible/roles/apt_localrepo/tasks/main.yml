@@ -1,0 +1,22 @@
+- name: "Install local repo dependencies (debs)"
+  apt: name={{ item }} state=latest
+  with_items:
+    - dpkg-dev
+    - rubygems 
+    - ruby-dev 
+    - gcc 
+    - devscripts 
+- name: "Install local repo dependencies (gems)"
+#  TODO: Why doesn't this work?
+#  gem: name=fpm state=latest user_install=true
+  command: gem install -y fpm creates=/usr/bin/fpm
+- name: Build local packages
+  shell: "echo '../../packages' > build_settings_local.d/output_dir.conf ; ./build.sh */ chdir={{ pkg_build_dir }}"
+- name: Move built packages to repo
+  shell: 'cp -v {{ pkg_build_dir }}/Packages/*.deb {{ data_dir }}/packages/' 
+- name: Populate local repo
+  shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir={{ data_dir }}/packages'
+- name: Add local repo to apt sources
+  apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
+- name: Update the apt cache unless it was just updated
+  apt: update_cache=yes cache_valid_time=10

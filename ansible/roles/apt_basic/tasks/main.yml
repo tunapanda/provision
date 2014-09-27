@@ -1,0 +1,6 @@
+---
+- name: Update the apt cache unless it was just updated
+  apt: update_cache=yes cache_valid_time=10
+- name: Upgrade packages
+  apt: upgrade=yes
+#- include: repo.yml
