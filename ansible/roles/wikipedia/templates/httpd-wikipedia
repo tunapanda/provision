@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+	ServerName www.wikipedia.org
+	ServerAlias en.wikipedia.org
+	ServerAlias wikipedia.org
+	ServerAlias wikipedia
+	RewriteEngine on
+	RewriteRule ^/wiki(.)(.*)$ /wp/$1/$1$2.htm [PT]
+	CheckSpelling on
+	ErrorDocument 404 /notfound.html
+
+	DocumentRoot /usr/local/tunapanda/data/wikipedia/
+</VirtualHost>
