@@ -1,0 +1,15 @@
+---
+data_dir: "/usr/local/tunapanda"
+apache_dir: "/etc/apache2/"
+apt_basic:
+    enabled: false
+apt_localrepo:
+    enabled: false
+desktop:
+    enabled:    false
+    use_gnome2: true
+build_env:
+    enabled:    false
+wikipedia:
+    enabled:    true
+    data:       false

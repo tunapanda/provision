@@ -5,7 +5,12 @@
   tasks:
     - shell: "echo Provisioned on $(date) > {{ data_dir }}/provisioning.txt"
   roles:
-    - common
+    - { role: apt_basic, when: apt_basic.enabled }
+    - { role: apt_localrepo, when: apt_localrepo.enabled }
     - { role: desktop, when: desktop.enabled }
     - { role: wikipedia, when: wikipedia.enabled }
     - { role: build_env, when: build_env.enabled }
+    
+  handlers:
+    - name: restart apache
+      service: name=apache2 state=restarted
