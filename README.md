@@ -17,5 +17,5 @@ The idea is to provision, then use that system as a base to create an ISO.
 4. Connect to the VM with `vagrant ssh`
 5. Run `sudo /vagrant/data/build/remastersys/bin/remastersys backup`
 
-If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka `*repo_dir*/data/build` on the host system.
+If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka `*repo_dir*/data/build` on the host system).
 
