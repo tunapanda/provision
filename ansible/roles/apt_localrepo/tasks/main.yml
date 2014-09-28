@@ -11,7 +11,7 @@
 #  gem: name=fpm state=latest user_install=true
   command: gem install -y fpm creates=/usr/bin/fpm
 - name: Build local packages
-  shell: "echo '../../packages' > build_settings_local.d/output_dir.conf ; ./build.sh */ chdir={{ pkg_build_dir }}"
+  shell: "echo 'OUTPUT_DIR=../../packages' > build_settings_local.d/output_dir.conf ; ./build.sh */ chdir={{ pkg_build_dir }}"
 - name: Move built packages to repo
   shell: 'cp -v {{ pkg_build_dir }}/Packages/*.deb {{ data_dir }}/packages/' 
 - name: Populate local repo
