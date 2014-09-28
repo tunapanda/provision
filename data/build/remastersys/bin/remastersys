@@ -36,7 +36,7 @@ then
     apt-get install -y genisoimage
 fi
 
-BASEDIR=/usr/local/tunapanda/build/remastersys
+BASEDIR=/vagrant/data/build/remastersys
 
 . $BASEDIR/etc/remastersys/remastersys.version
 
