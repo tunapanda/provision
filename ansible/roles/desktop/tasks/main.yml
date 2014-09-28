@@ -7,6 +7,6 @@
 - name: Set gnome fallback as default environment
   command: /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
   when: desktop.use_gnome2
-- name: Install custom artwork
-  # TODO: fix signing issue, then remove force=
-  apt: name=tunapanda-artwork state=latest force=yes
+  
+- include: artwork.yaml
+  when: desktop.custom_artwork
