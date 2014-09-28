@@ -15,6 +15,7 @@ The idea is to do an automated provision a VM using [ansible](ansible.com) and [
 4. Do either of the following:
   * *Build ISO as part of provisioning*: 
     1. In the repo dir, edit `config.yml` and set `build_env.auto_iso=true`
+      * **Please take care not to commit the file back to the repo with this option turned on**. Yes, we need a better way of handling it. 
     1. Run `vagrant provision`
   * *Build ISO later*:
     1. Mess around, experiment with the scripts, etc
