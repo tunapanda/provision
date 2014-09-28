@@ -12,8 +12,16 @@ The idea is to do an automated provision a VM using [ansible](ansible.com) and [
 3. (optional) Modify `data/ansible/config.yml` to enable and disable modules
 3. In the repo dir, run `vagrant up`
   * **Note:** This starts with a very basic Ubuntu VM and then installs a bunch of stuff e.g. Gnome, so expect the initial provisioning to take a *long* time!
-4. Connect to the VM with `vagrant ssh`
-5. Run `sudo /vagrant/data/build/remastersys/bin/remastersys backup`
+4. Do either of the following:
+  * *Build ISO as part of provisioning*: 
+    1. In the repo dir, edit `config.yml` and set `build_env.auto_iso=true`
+    1. Run `vagrant provision`
+  * *Build ISO later*:
+    1. Mess around, experiment with the scripts, etc
+    1. Run `vagrant provision`
+    1. Repeat previous steps as necessary
+    1. When you are ready to build the iso, connect to the VM with `vagrant ssh`
+    1. On the VM, run `sudo /vagrant/data/build/remastersys/bin/remastersys backup`
 
 If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka `*repo_dir*/data/build` on the host system).
 
