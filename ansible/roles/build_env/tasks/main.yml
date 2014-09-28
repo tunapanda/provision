@@ -8,3 +8,8 @@
     state=latest
     update_cache=yes
     cache_valid_time=600
+    
+- name: Build ISO (this will take a while!)
+  command: "{{ build_env.remastersys_root }}/bin/remastersys backup"
+  sudo: yes
+  when: build_env.auto_iso

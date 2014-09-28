@@ -9,6 +9,9 @@
     - { role: apt_localrepo, when: apt_localrepo.enabled }
     - { role: desktop, when: desktop.enabled }
     - { role: wikipedia, when: wikipedia.enabled }
+    
+    # Always run this one last, since it will build the ISO
+    # if build_env.auto_iso is enabled in config.yml
     - { role: build_env, when: build_env.enabled }
     
   handlers:
