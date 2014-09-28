@@ -1,4 +1,11 @@
 ---
+- name: Ensuring that Apache is installed
+  apt: 
+    name=apache2 
+    state=latest
+    update_cache=yes
+    cache_valid_time=600
+
 - name: Ensuring that required Apache mods are enabled
   apache2_module: name={{ item }} state=present
   with_items:
