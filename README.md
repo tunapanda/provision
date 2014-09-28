@@ -14,5 +14,8 @@ The idea is to provision, then use that system as a base to create an ISO.
 3. (optional) Modify `data/ansible/config.yml` to enable and disable modules
 3. In the repo dir, run `vagrant up`
   * **Note:** This starts with a very basic Ubuntu VM and then installs a bunch of stuff e.g. Gnome, so expect the initial provisioning to take a *long* time!
-4. Run `data/build/remastersys/bin/remastersys backup`
+4. Connect to the VM with `vagrant ssh`
+5. Run `sudo /vagrant/data/build/remastersys/bin/remastersys backup`
+
+If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka `*repo_dir*/data/build` on the host system.
 
