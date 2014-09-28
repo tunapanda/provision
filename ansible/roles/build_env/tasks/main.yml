@@ -3,4 +3,8 @@
   # TODO: For custom .debs in general, sign packages and/or figure out why no-debsig isn't sufficient here
 #  apt: name=tunapanda-remastersys state=latest update_cache=yes dpkg_options='no-debsig' force=yes
 - name: Install Casper
-  apt: name=casper state=latest
+  apt: 
+    name=casper 
+    state=latest
+    update_cache=yes
+    cache_valid_time=600
