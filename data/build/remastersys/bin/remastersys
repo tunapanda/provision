@@ -46,6 +46,13 @@ if [ "$(whoami)" != "root" ]; then
     exit 1
 fi
 
+if dpkg -l ltsp-livecd
+then
+	LTSPLIVE_INSTALLED_AT_START=true
+else
+	LTSPLIVE_INSTALLED_AT_START=false	
+fi
+
 #create remastersys-firstboot script if it doesn't exist and populate with at least removal of the ubiquity*.desktop file from users Desktop and fix for recovery mode
 fbtest=`grep "REM302" /etc/init.d/remastersys-firstboot`
 
@@ -761,6 +768,13 @@ iso (){
 
 }
 
+cleanup() {
+	if ! $LTSPLIVE_INSTALLED_AT_START
+	then
+		apt-get remove -y ltsp-livecd
+	fi
+}
+
 # check to see if either iso or cdfs options have been invoked and proceed accordingly
 
 if [ "$2" = "iso" ]; then
@@ -771,6 +785,7 @@ else
     cdfs $@
     iso $@
 fi
+cleanup
 
 
 
