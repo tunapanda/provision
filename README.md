@@ -1,9 +1,7 @@
 ## What is it?
 Vagrant + Ansible config for provisioning a virtual machine.
 
-The idea is to provision, then use that system as a base to create an ISO.
-
-**Note:** The data/ dir contains everything needed to provision the server, including .deb packages and ansible plays. The data/ dir is shared to the VM as /usr/local/tunapanda/, which means it will be included in an install ISO made with e.g. remastersys. Result: to update an offline server, just rsync updated content into /usr/local/tunapanda/ and re-run ansible!
+The idea is to do an automated provision a VM using [ansible](ansible.com) and [vagrant](http://www.vagrantup.com), then use that VM as a base to create an ISO using the sadly now quasi-defunct [remastersys](https://en.wikipedia.org/wiki/Remastersys).
 
 ## How do I use it?
 1. Install the dependencies:
