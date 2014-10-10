@@ -5,6 +5,7 @@
   tasks:
     - shell: "echo Provisioned on $(date) > {{ data_dir }}/provisioning.txt"
   roles:
+    - { role: users, when: users.enabled }
     - { role: apt_basic, when: apt_basic.enabled }
     - { role: apt_localrepo, when: apt_localrepo.enabled }
     - { role: desktop, when: desktop.enabled }

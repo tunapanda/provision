@@ -2,6 +2,10 @@
 data_dir: "/usr/local/tunapanda"
 vagrant_share: "/vagrant"
 apache_dir: "/etc/apache2/"
+users:
+    enabled:  true
+    num_students: 20
+    force_student_pw_change: false
 apt_basic:
     enabled:   true
 apt_localrepo:
