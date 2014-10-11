@@ -1,0 +1,4 @@
+#!/bin/bash
+
+logger -t tunapanda 'mounting external data drive to {{ external_data_drive.mountpoint }}'
+mount LABEL={{ external_data_drive.disklabel }} {{ external_data_drive.mountpoint }}

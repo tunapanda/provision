@@ -1,0 +1,5 @@
+---
+external_data_drive:
+  enabled: true
+  disklabel: "TUNAPANDA_DATA"
+  mountpoint: "{{ data_dir }}/data_ext"
