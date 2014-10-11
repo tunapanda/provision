@@ -9,6 +9,7 @@
     - { role: apt_basic, when: apt_basic.enabled }
     - { role: apt_localrepo, when: apt_localrepo.enabled }
     - { role: desktop, when: desktop.enabled }
+    - { role: kalite, when: kalite.enabled }
     - { role: wikipedia, when: wikipedia.enabled }
     
     # Always run this one last, since it will build the ISO
