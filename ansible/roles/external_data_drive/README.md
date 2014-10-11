@@ -17,6 +17,7 @@ end
 
 ## Drive setup
 For this module to work, you will need to do format the USB drive with the expected label:
+
 *Note: these instructions assume that the USB drive is connected to a Linux box or VM*
 
 1. Plug the device in
