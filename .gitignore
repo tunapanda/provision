@@ -3,6 +3,7 @@
 *.iso
 *.swp
 *~
+*.pyc
 data/provisioning.txt
 data/packages/*
 !data/packages/README.md
