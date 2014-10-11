@@ -1,0 +1,1411 @@
+1
+00:00:00,000 --> 00:00:00,690
+   
+
+2
+00:00:00,690 --> 00:00:08,360
+We saw in the last video that
+orthonormal bases make for
+
+3
+00:00:08,360 --> 00:00:11,520
+good coordinate systems,
+coordinate systems where it's
+
+4
+00:00:11,520 --> 00:00:13,180
+easy to figure out
+the coordinates.
+
+5
+00:00:13,180 --> 00:00:20,130
+   
+
+6
+00:00:20,130 --> 00:00:21,900
+That's what we did in
+the last video.
+
+7
+00:00:21,900 --> 00:00:25,300
+Let's see if there are other
+useful reasons to have an
+
+8
+00:00:25,300 --> 00:00:27,330
+orthonormal basis.
+
+9
+00:00:27,330 --> 00:00:30,670
+So we already know, let's say
+I have some subspace V.
+
+10
+00:00:30,670 --> 00:00:39,520
+Let's say V is a
+subspace of Rn.
+
+11
+00:00:39,520 --> 00:00:44,210
+And let's say we have B, which
+is an orthonormal basis.
+
+12
+00:00:44,210 --> 00:00:52,320
+B is equal to v1, v2,
+all the way to vk.
+
+13
+00:00:52,320 --> 00:01:02,820
+And it is an orthonormal basis
+for V, which is just a fancy
+
+14
+00:01:02,820 --> 00:01:06,060
+way of saying that all of these
+vectors have length 1,
+
+15
+00:01:06,060 --> 00:01:08,940
+and they're all orthogonal with
+respect to each other.
+
+16
+00:01:08,940 --> 00:01:12,960
+Now, we've seen many times
+before that if I have just any
+
+17
+00:01:12,960 --> 00:01:19,240
+member of Rn-- So let's say that
+I have some vector x that
+
+18
+00:01:19,240 --> 00:01:26,770
+is a member of Rn, then x can
+be represented as a sum of a
+
+19
+00:01:26,770 --> 00:01:31,880
+member of V, as some vector V
+that is in our subspace, and
+
+20
+00:01:31,880 --> 00:01:34,460
+some vector w, that is
+in the orthogonal
+
+21
+00:01:34,460 --> 00:01:36,020
+complement of our subspace.
+
+22
+00:01:36,020 --> 00:01:38,050
+Let me write that down.
+
+23
+00:01:38,050 --> 00:01:47,740
+Where V is a member of my
+subspace, and w is a member of
+
+24
+00:01:47,740 --> 00:01:50,140
+my subspace's orthogonal
+complement.
+
+25
+00:01:50,140 --> 00:01:52,720
+We saw this when I was doing
+the whole set of videos on
+
+26
+00:01:52,720 --> 00:01:54,370
+orthogonal complements.
+
+27
+00:01:54,370 --> 00:01:57,040
+Now what is this thing
+right here?
+
+28
+00:01:57,040 --> 00:01:58,570
+What is this thing
+right there?
+
+29
+00:01:58,570 --> 00:02:07,740
+By definition, that is the
+projection of x onto V.
+
+30
+00:02:07,740 --> 00:02:11,880
+This would be the projection
+of x onto V's orthogonal
+
+31
+00:02:11,880 --> 00:02:12,700
+complement.
+
+32
+00:02:12,700 --> 00:02:14,940
+And we know in the past,
+that this is not an
+
+33
+00:02:14,940 --> 00:02:17,400
+easy thing to find.
+
+34
+00:02:17,400 --> 00:02:22,690
+Let's say I set up some matrix
+A, that has my basis vectors
+
+35
+00:02:22,690 --> 00:02:27,070
+as the columns-- So if I set
+up some matrix A that looks
+
+36
+00:02:27,070 --> 00:02:34,460
+like this, v1, v2, all the way
+to vk, we learned before that
+
+37
+00:02:34,460 --> 00:02:37,170
+if we wanted to figure out, and
+have a kind of a general
+
+38
+00:02:37,170 --> 00:02:39,375
+way of figuring out what the
+projection is, we learned that
+
+39
+00:02:39,375 --> 00:02:47,670
+the projection of any vector x
+onto V is equal to A times A
+
+40
+00:02:47,670 --> 00:02:53,110
+transpose A inverse,
+times A, times x.
+
+41
+00:02:53,110 --> 00:02:56,300
+And this was a pain
+to figure out.
+
+42
+00:02:56,300 --> 00:02:57,925
+That is a pain to figure out.
+
+43
+00:02:57,925 --> 00:03:01,280
+But let's see if the assumption
+that these guys are
+
+44
+00:03:01,280 --> 00:03:05,910
+orthonormal, or that this is an
+orthonormal set, in any way
+
+45
+00:03:05,910 --> 00:03:07,480
+simplifies this.
+
+46
+00:03:07,480 --> 00:03:08,990
+So the first thing we can
+do is just explore
+
+47
+00:03:08,990 --> 00:03:09,760
+this a little bit.
+
+48
+00:03:09,760 --> 00:03:13,010
+This vector V, this is a member
+of our subspace, which
+
+49
+00:03:13,010 --> 00:03:15,520
+means it could be represented as
+a linear combination of my
+
+50
+00:03:15,520 --> 00:03:17,130
+basis vectors.
+
+51
+00:03:17,130 --> 00:03:25,090
+So I can write x is equal to,
+instead of V, I can write c1
+
+52
+00:03:25,090 --> 00:03:30,110
+times v1, plus c2 times
+v2, all the way to
+
+53
+00:03:30,110 --> 00:03:34,010
+plus ck times vk.
+
+54
+00:03:34,010 --> 00:03:38,840
+This is the same thing as just
+any, or some unique, member of
+
+55
+00:03:38,840 --> 00:03:40,610
+my subspace V.
+
+56
+00:03:40,610 --> 00:03:43,900
+So that's V right there, and you
+can also view this as the
+
+57
+00:03:43,900 --> 00:03:49,170
+projection of x onto
+the subspace V.
+
+58
+00:03:49,170 --> 00:03:52,570
+So x can be represented as some
+member of V, and then
+
+59
+00:03:52,570 --> 00:03:55,490
+some member of V's orthogonal
+complement,
+
+60
+00:03:55,490 --> 00:03:58,050
+plus w right there.
+
+61
+00:03:58,050 --> 00:04:02,340
+Now what happens if we take both
+sides of this equation,
+
+62
+00:04:02,340 --> 00:04:06,480
+if we dot it with one of these
+guys with, let's say, vi?
+
+63
+00:04:06,480 --> 00:04:09,590
+Let's dot both sides of
+this equation with vi.
+
+64
+00:04:09,590 --> 00:04:17,269
+So if I take vi dot x, or vi
+of the ith basis vector up
+
+65
+00:04:17,269 --> 00:04:22,650
+here, the ith basis vector in
+the basis for my subspace B,
+
+66
+00:04:22,650 --> 00:04:23,740
+what am I going to get?
+
+67
+00:04:23,740 --> 00:04:31,700
+This is going to be c1 times
+vi, times v1, plus c2 times
+
+68
+00:04:31,700 --> 00:04:36,860
+vi, times v2, plus you're
+going to keep going.
+
+69
+00:04:36,860 --> 00:04:40,640
+Eventually you'll get to the
+ith term, which will be ci
+
+70
+00:04:40,640 --> 00:04:45,110
+times vi dotted with vi.
+
+71
+00:04:45,110 --> 00:04:48,610
+And then, you know, assuming
+that i isn't 1, 2, or k,
+
+72
+00:04:48,610 --> 00:04:56,030
+eventually we'll get to ck
+times vi dotted with vk.
+
+73
+00:04:56,030 --> 00:04:57,190
+We saw this in the last video.
+
+74
+00:04:57,190 --> 00:04:58,220
+I'm just dotting both sides.
+
+75
+00:04:58,220 --> 00:04:59,890
+But we also have this w term.
+
+76
+00:04:59,890 --> 00:05:06,570
+So then we'll go
+plus vi dot w.
+
+77
+00:05:06,570 --> 00:05:11,460
+Now, you know, just to clarify
+things, in the last video, we
+
+78
+00:05:11,460 --> 00:05:15,820
+assumed that x was inside of the
+subspace, so that x could
+
+79
+00:05:15,820 --> 00:05:17,550
+be represented with
+coordinates here.
+
+80
+00:05:17,550 --> 00:05:20,280
+Now x could be any member of Rn,
+and we're just looking at
+
+81
+00:05:20,280 --> 00:05:21,450
+the projection of x.
+
+82
+00:05:21,450 --> 00:05:23,280
+And because it's any member,
+it's going to be some
+
+83
+00:05:23,280 --> 00:05:26,260
+combination of these guys plus
+some member of B's orthogonal
+
+84
+00:05:26,260 --> 00:05:27,140
+complement.
+
+85
+00:05:27,140 --> 00:05:29,950
+Now when I take the dot product
+of one of my basis
+
+86
+00:05:29,950 --> 00:05:32,290
+vectors, the ith basis vector,
+with both sides of this
+
+87
+00:05:32,290 --> 00:05:35,470
+equation, this side is just
+that, but in the right side
+
+88
+00:05:35,470 --> 00:05:37,160
+something very similar
+happens to what we
+
+89
+00:05:37,160 --> 00:05:39,150
+saw in the last video.
+
+90
+00:05:39,150 --> 00:05:41,540
+What is vi dot v1?
+
+91
+00:05:41,540 --> 00:05:45,320
+Well they're different members
+of this orthonormal set, so
+
+92
+00:05:45,320 --> 00:05:45,930
+they're orthogonal.
+
+93
+00:05:45,930 --> 00:05:50,630
+So that's going to be 0, vi dot
+v2, that's 0, assuming vi
+
+94
+00:05:50,630 --> 00:05:51,720
+doesn't equal 2.
+
+95
+00:05:51,720 --> 00:05:53,960
+vi dot vi is 1.
+
+96
+00:05:53,960 --> 00:05:57,040
+So this term is just going
+to be ci, vi dot
+
+97
+00:05:57,040 --> 00:05:58,600
+vk, that's also 0.
+
+98
+00:05:58,600 --> 00:06:00,570
+It doesn't matter what our
+constant is because 0 times
+
+99
+00:06:00,570 --> 00:06:01,780
+anything is 0.
+
+100
+00:06:01,780 --> 00:06:04,630
+And then what is vi dot w?
+
+101
+00:06:04,630 --> 00:06:09,380
+Well, by definition w is a
+member of our orthogonal
+
+102
+00:06:09,380 --> 00:06:13,420
+complement to V, which means
+it is orthogonal to every
+
+103
+00:06:13,420 --> 00:06:14,270
+member of V.
+
+104
+00:06:14,270 --> 00:06:17,420
+Well this is a member of V, so
+these two guys are orthogonal.
+
+105
+00:06:17,420 --> 00:06:20,080
+So that is also equal to 0.
+
+106
+00:06:20,080 --> 00:06:28,420
+And just like that, you get ci
+is equal to vi times xi.
+
+107
+00:06:28,420 --> 00:06:30,930
+Sorry, times x, just
+like that.
+
+108
+00:06:30,930 --> 00:06:31,600
+So what does this do?
+
+109
+00:06:31,600 --> 00:06:33,260
+This is a kind of a very
+similar result
+
+110
+00:06:33,260 --> 00:06:34,120
+that we got last time.
+
+111
+00:06:34,120 --> 00:06:36,720
+But remember we're not looking
+for-- We're not assuming that
+
+112
+00:06:36,720 --> 00:06:38,200
+x is a member of V.
+
+113
+00:06:38,200 --> 00:06:40,470
+In that case then, you know,
+the ci's would be the
+
+114
+00:06:40,470 --> 00:06:41,390
+coordinates for x.
+
+115
+00:06:41,390 --> 00:06:46,450
+In this case, we're looking for
+the projection of x onto
+
+116
+00:06:46,450 --> 00:06:51,650
+V, or the member of V that is
+kind of x's component in V, or
+
+117
+00:06:51,650 --> 00:06:55,420
+that represents x's
+projection onto V.
+
+118
+00:06:55,420 --> 00:07:06,250
+So if we now want to find the
+projection of x onto V, it's
+
+119
+00:07:06,250 --> 00:07:08,680
+equal to these ci's times
+their respective basis
+
+120
+00:07:08,680 --> 00:07:11,010
+vectors, but now we know
+what the ci's are.
+
+121
+00:07:11,010 --> 00:07:14,650
+They're that basis vector
+times your vector x.
+
+122
+00:07:14,650 --> 00:07:17,210
+So just like that, we get a
+pretty simple way of figuring
+
+123
+00:07:17,210 --> 00:07:19,330
+out the projection onto
+a subspace with
+
+124
+00:07:19,330 --> 00:07:21,155
+an orthonormal basis.
+
+125
+00:07:21,155 --> 00:07:27,570
+So let's see, c1 is just
+going to be v1 dot x.
+
+126
+00:07:27,570 --> 00:07:29,780
+That's c1, and then we're going
+to multiply that times
+
+127
+00:07:29,780 --> 00:07:31,860
+the vector v1.
+
+128
+00:07:31,860 --> 00:07:33,120
+That's a vector too.
+
+129
+00:07:33,120 --> 00:07:37,910
+And then the next, I guess we
+could say, you know, the next
+
+130
+00:07:37,910 --> 00:07:41,890
+coefficient on v2 is going
+to be v2 dot x
+
+131
+00:07:41,890 --> 00:07:44,210
+times the vector v2.
+
+132
+00:07:44,210 --> 00:07:47,760
+And then you're going to
+go all the way to plus
+
+133
+00:07:47,760 --> 00:07:53,790
+vk dot x times vk.
+
+134
+00:07:53,790 --> 00:07:58,130
+And I don't know if you remember
+what we did when we
+
+135
+00:07:58,130 --> 00:08:00,935
+took the projection of
+x onto some line.
+
+136
+00:08:00,935 --> 00:08:04,130
+When we were taking the
+projection of x onto some
+
+137
+00:08:04,130 --> 00:08:10,850
+line, where L is equal to the
+span of some unit vector,
+
+138
+00:08:10,850 --> 00:08:12,360
+where this had a length 1.
+
+139
+00:08:12,360 --> 00:08:15,530
+You know, for t as any real
+number, that's just a line,
+
+140
+00:08:15,530 --> 00:08:16,740
+sum of the span of
+some unit vector.
+
+141
+00:08:16,740 --> 00:08:18,940
+Where we assume this
+has length 1.
+
+142
+00:08:18,940 --> 00:08:22,160
+Then the projection onto a line
+just simplified to the
+
+143
+00:08:22,160 --> 00:08:31,320
+formula x dot-- let me write
+it this way --x dot u times
+
+144
+00:08:31,320 --> 00:08:32,179
+the vector u.
+
+145
+00:08:32,179 --> 00:08:33,890
+This was a projection
+onto a line.
+
+146
+00:08:33,890 --> 00:08:36,690
+Notice when we're dealing with
+an orthonormal basis for a
+
+147
+00:08:36,690 --> 00:08:40,179
+subspace, when you take a
+projection of any vector in Rn
+
+148
+00:08:40,179 --> 00:08:45,670
+onto that subspace, it's
+essentially, you're just
+
+149
+00:08:45,670 --> 00:08:48,320
+finding the projection onto the
+line spanned by each of
+
+150
+00:08:48,320 --> 00:08:49,950
+these vectors, right?
+
+151
+00:08:49,950 --> 00:08:51,950
+x dot v1 times the vector v1.
+
+152
+00:08:51,950 --> 00:08:54,050
+x times v1 times
+the vector v1.
+
+153
+00:08:54,050 --> 00:08:56,890
+You're taking x's projection
+onto the line spanned by each
+
+154
+00:08:56,890 --> 00:08:57,580
+of these guys.
+
+155
+00:08:57,580 --> 00:08:58,830
+That's all it is.
+
+156
+00:08:58,830 --> 00:09:01,990
+But clearly this is a much, much
+simpler way of finding a
+
+157
+00:09:01,990 --> 00:09:06,110
+projection than going through
+this mess of saying A times
+
+158
+00:09:06,110 --> 00:09:11,130
+the inverse of A transpose A,
+times A transpose-- I forgot
+
+159
+00:09:11,130 --> 00:09:14,100
+that A transpose when I wrote
+it the first time --times x.
+
+160
+00:09:14,100 --> 00:09:15,670
+This is clearly a lot easier.
+
+161
+00:09:15,670 --> 00:09:19,670
+But you might say, OK, this is
+easier but you told me that a
+
+162
+00:09:19,670 --> 00:09:22,330
+projection is a linear
+transformation.
+
+163
+00:09:22,330 --> 00:09:24,880
+You've told me it's a linear
+transformation, so I want to
+
+164
+00:09:24,880 --> 00:09:26,630
+figure out the matrix here.
+
+165
+00:09:26,630 --> 00:09:29,180
+So let's see if being
+orthonormal in any way
+
+166
+00:09:29,180 --> 00:09:30,746
+simplifies this.
+
+167
+00:09:30,746 --> 00:09:34,470
+So we could always just figure
+out for any particular x.
+
+168
+00:09:34,470 --> 00:09:37,220
+We can just apply the dot
+product with each of the basis
+
+169
+00:09:37,220 --> 00:09:39,510
+vectors, those will be the
+coefficients, and then apply
+
+170
+00:09:39,510 --> 00:09:41,950
+those coefficients times the
+basis vectors, add them up and
+
+171
+00:09:41,950 --> 00:09:43,000
+you know your projection.
+
+172
+00:09:43,000 --> 00:09:45,280
+But, you know, some of us
+might actually want the
+
+173
+00:09:45,280 --> 00:09:46,350
+transformation matrix.
+
+174
+00:09:46,350 --> 00:09:48,520
+So let's figure out
+what it is.
+
+175
+00:09:48,520 --> 00:09:52,360
+Let me just rewrite what
+we already know.
+
+176
+00:09:52,360 --> 00:09:58,730
+We already know that the
+projection onto any subspace V
+
+177
+00:09:58,730 --> 00:10:06,690
+of x is equal to A times
+A transpose A inverse,
+
+178
+00:10:06,690 --> 00:10:09,650
+times A, times x.
+
+179
+00:10:09,650 --> 00:10:19,100
+And where A's column vectors are
+just the basis vectors v1,
+
+180
+00:10:19,100 --> 00:10:23,010
+v2, all the way to vk.
+
+181
+00:10:23,010 --> 00:10:26,915
+Now, let's see if the assumption
+that these guys are
+
+182
+00:10:26,915 --> 00:10:28,600
+an orthonormal basis,
+let's see if this
+
+183
+00:10:28,600 --> 00:10:30,510
+simplifies it at all.
+
+184
+00:10:30,510 --> 00:10:33,570
+Let's take the case in
+particular of A transpose A.
+
+185
+00:10:33,570 --> 00:10:37,820
+A transpose A is going
+to be equal to what?
+
+186
+00:10:37,820 --> 00:10:41,940
+It's going to be equal
+to A transpose--
+
+187
+00:10:41,940 --> 00:10:43,140
+Let's think about this.
+
+188
+00:10:43,140 --> 00:10:45,000
+These guys are members of
+Rn, so it's going to
+
+189
+00:10:45,000 --> 00:10:49,200
+be an n by k matrix.
+
+190
+00:10:49,200 --> 00:10:53,110
+So this is n by k, this guy
+right here is k by n,
+
+191
+00:10:53,110 --> 00:10:54,960
+times an n by k.
+
+192
+00:10:54,960 --> 00:10:58,880
+We're going to have
+a k by k product.
+
+193
+00:10:58,880 --> 00:11:03,180
+k by n times n by k is
+going to be k by k.
+
+194
+00:11:03,180 --> 00:11:05,145
+A transpose A is going
+to be k by k.
+
+195
+00:11:05,145 --> 00:11:07,520
+And what is it A transpose
+equal to?
+
+196
+00:11:07,520 --> 00:11:10,320
+Well each of these columns
+are going to become rows.
+
+197
+00:11:10,320 --> 00:11:13,570
+So the first row here is going
+to be v1 tranpose.
+
+198
+00:11:13,570 --> 00:11:17,230
+   
+
+199
+00:11:17,230 --> 00:11:20,270
+The second column here is going
+to be v2 transpose.
+
+200
+00:11:20,270 --> 00:11:22,080
+Then you're going to go
+all the way down.
+
+201
+00:11:22,080 --> 00:11:26,850
+The kth column there is going
+to be to vk transpose.
+
+202
+00:11:26,850 --> 00:11:28,120
+Just like that.
+
+203
+00:11:28,120 --> 00:11:30,880
+And then A is, of course,
+this thing right there.
+
+204
+00:11:30,880 --> 00:11:33,500
+So A looks like this.
+
+205
+00:11:33,500 --> 00:11:36,820
+You have v1, like that.
+
+206
+00:11:36,820 --> 00:11:40,010
+You have v2, like that.
+
+207
+00:11:40,010 --> 00:11:45,560
+And then you keep going and you
+have vk, just like that.
+
+208
+00:11:45,560 --> 00:11:47,900
+What's going to happen when
+we take this product?
+
+209
+00:11:47,900 --> 00:11:50,190
+Let's do a couple of
+rows right here.
+
+210
+00:11:50,190 --> 00:11:52,320
+So when I take this product,
+I'm going to
+
+211
+00:11:52,320 --> 00:11:53,530
+get a k by k matrix.
+
+212
+00:11:53,530 --> 00:11:56,370
+Let me write it big so I can
+explain it reasonably.
+
+213
+00:11:56,370 --> 00:11:58,850
+So what's the first row, first
+column going to be?
+
+214
+00:11:58,850 --> 00:12:01,540
+It's going to be this
+row dotted with this
+
+215
+00:12:01,540 --> 00:12:04,610
+column, or v1 dot v1.
+
+216
+00:12:04,610 --> 00:12:08,580
+Well, v1 dot v1, that's
+nice, that's just 1.
+
+217
+00:12:08,580 --> 00:12:10,370
+And then what's the second
+row, second column?
+
+218
+00:12:10,370 --> 00:12:11,310
+Well, that's just going be v2.
+
+219
+00:12:11,310 --> 00:12:13,390
+You're going to get your row
+from this guy and your column
+
+220
+00:12:13,390 --> 00:12:14,400
+from that guy.
+
+221
+00:12:14,400 --> 00:12:17,580
+This row dotted with that
+column, so v2 dot v2, so
+
+222
+00:12:17,580 --> 00:12:18,260
+that's nice.
+
+223
+00:12:18,260 --> 00:12:19,880
+That'll be a 1.
+
+224
+00:12:19,880 --> 00:12:25,070
+And in general, if you're
+finding the Aii or you're
+
+225
+00:12:25,070 --> 00:12:27,220
+finding anything along the
+diagonal, you're going to
+
+226
+00:12:27,220 --> 00:12:30,630
+take, let's say, the ith row
+with the ith column.
+
+227
+00:12:30,630 --> 00:12:32,960
+So you're just going to have 1's
+that go all the way down
+
+228
+00:12:32,960 --> 00:12:34,170
+the diagonal.
+
+229
+00:12:34,170 --> 00:12:35,750
+Now what about everything
+else?
+
+230
+00:12:35,750 --> 00:12:41,190
+Let's say that you're looking
+for this entry right here,
+
+231
+00:12:41,190 --> 00:12:45,720
+which is the first row,
+second column.
+
+232
+00:12:45,720 --> 00:12:49,240
+This guy right here is going to
+be the dot product of v2.
+
+233
+00:12:49,240 --> 00:12:50,220
+This is going to be
+the dot product of
+
+234
+00:12:50,220 --> 00:12:52,190
+this row-- Oh, sorry.
+
+235
+00:12:52,190 --> 00:12:54,820
+The dot product of v1 is going
+to be the dot product of this
+
+236
+00:12:54,820 --> 00:12:58,280
+row, with this column
+right there.
+
+237
+00:12:58,280 --> 00:13:01,890
+So this is going to
+be v1 dot v2.
+
+238
+00:13:01,890 --> 00:13:03,460
+But these two guys are
+orthogonal, so what's that
+
+239
+00:13:03,460 --> 00:13:04,760
+going to be equal to?
+
+240
+00:13:04,760 --> 00:13:07,460
+It's going to be equal to 0.
+
+241
+00:13:07,460 --> 00:13:10,520
+This one right here is going
+to be v1 dot v3.
+
+242
+00:13:10,520 --> 00:13:12,400
+Well that's going to be 0.
+
+243
+00:13:12,400 --> 00:13:16,480
+v1 dot anything other than
+v1 is going to be 0.
+
+244
+00:13:16,480 --> 00:13:19,770
+Similarly, everything here
+in the second row,
+
+245
+00:13:19,770 --> 00:13:21,670
+it's going to be v2.
+
+246
+00:13:21,670 --> 00:13:25,400
+The first column in the second
+row is going to be v2 dot v1,
+
+247
+00:13:25,400 --> 00:13:27,330
+which is clearly 0.
+
+248
+00:13:27,330 --> 00:13:29,580
+And then you have v2
+dot v2, which is 1.
+
+249
+00:13:29,580 --> 00:13:32,130
+And then v2 dot all the rest
+of stuff is going to be 0.
+
+250
+00:13:32,130 --> 00:13:34,210
+They're all orthogonal with
+respect to each other.
+
+251
+00:13:34,210 --> 00:13:38,220
+And so everything else, if your
+row and your column is
+
+252
+00:13:38,220 --> 00:13:40,650
+not the same-- Well, if your
+row and your column is the
+
+253
+00:13:40,650 --> 00:13:43,070
+same, you're going to be dotting
+the same vectors, so
+
+254
+00:13:43,070 --> 00:13:44,480
+you're going to be getting
+1, because all
+
+255
+00:13:44,480 --> 00:13:45,560
+their lengths are 1.
+
+256
+00:13:45,560 --> 00:13:47,990
+But if your row and column are
+not the same, you're going to
+
+257
+00:13:47,990 --> 00:13:50,470
+be taking the dot product of two
+different members of your
+
+258
+00:13:50,470 --> 00:13:52,040
+orthonormal basis.
+
+259
+00:13:52,040 --> 00:13:53,760
+And they're all orthogonal, so
+you're just going to get a
+
+260
+00:13:53,760 --> 00:13:55,010
+bunch of 0's.
+
+261
+00:13:55,010 --> 00:13:58,520
+   
+
+262
+00:13:58,520 --> 00:13:59,660
+Now, what is this?
+
+263
+00:13:59,660 --> 00:14:02,430
+You have 0's everywhere, with
+1's down the diagonal.
+
+264
+00:14:02,430 --> 00:14:05,710
+It's a k by k matrix.
+
+265
+00:14:05,710 --> 00:14:08,220
+This is the identity
+matrix in Rk.
+
+266
+00:14:08,220 --> 00:14:12,060
+   
+
+267
+00:14:12,060 --> 00:14:14,330
+So normally this was
+our definition.
+
+268
+00:14:14,330 --> 00:14:17,730
+This was our definition of, or
+this is our way of finding our
+
+269
+00:14:17,730 --> 00:14:19,780
+transformation matrix
+for the projection
+
+270
+00:14:19,780 --> 00:14:21,820
+of x onto some subspace.
+
+271
+00:14:21,820 --> 00:14:33,770
+But that simply, if we assume
+an orthonormal basis, then A
+
+272
+00:14:33,770 --> 00:14:40,210
+transpose A becomes the k
+by k identity matrix.
+
+273
+00:14:40,210 --> 00:14:42,220
+And so what's the inverse
+of the identity matrix?
+
+274
+00:14:42,220 --> 00:14:47,260
+So A transpose A inverse becomes
+the inverse of the k
+
+275
+00:14:47,260 --> 00:14:50,470
+by k identity matrix,
+which is just the k
+
+276
+00:14:50,470 --> 00:14:52,180
+by k identity matrix.
+
+277
+00:14:52,180 --> 00:14:57,550
+So this simplifies to the
+projection onto V of our
+
+278
+00:14:57,550 --> 00:15:03,610
+vector x, simplifies to A
+times the inverse of the
+
+279
+00:15:03,610 --> 00:15:05,140
+identity matrix-- It was just
+the identity matrix.
+
+280
+00:15:05,140 --> 00:15:10,620
+So it's just A times Ik, times
+A transpose-- I always forget
+
+281
+00:15:10,620 --> 00:15:14,270
+that second A transpose
+right there-- times x.
+
+282
+00:15:14,270 --> 00:15:15,380
+And we could just ignore this.
+
+283
+00:15:15,380 --> 00:15:16,550
+That does nothing to it.
+
+284
+00:15:16,550 --> 00:15:25,080
+So it's just equal to A times A
+transpose, times x, which is
+
+285
+00:15:25,080 --> 00:15:26,740
+a huge simplification.
+
+286
+00:15:26,740 --> 00:15:31,190
+I still have to do a matrix
+product, but finding the
+
+287
+00:15:31,190 --> 00:15:35,200
+transpose of a matrix is
+pretty straightforward.
+
+288
+00:15:35,200 --> 00:15:38,080
+You just switch the rows
+and the columns.
+
+289
+00:15:38,080 --> 00:15:40,960
+First multiplying the transpose
+times A, that's a
+
+290
+00:15:40,960 --> 00:15:41,670
+lot of work.
+
+291
+00:15:41,670 --> 00:15:44,020
+But it's a huge amount
+of work to find the
+
+292
+00:15:44,020 --> 00:15:45,520
+inverse of this thing.
+
+293
+00:15:45,520 --> 00:15:50,310
+But now, since we assumed that
+these columns here form an
+
+294
+00:15:50,310 --> 00:15:52,530
+orthonormal set, this
+just gets reduced to
+
+295
+00:15:52,530 --> 00:15:53,650
+the identity matrix.
+
+296
+00:15:53,650 --> 00:15:57,550
+And the projection of x onto V
+is just equal to A times A
+
+297
+00:15:57,550 --> 00:16:00,890
+transpose, where A is the
+matrix where each of the
+
+298
+00:16:00,890 --> 00:16:07,750
+column vectors are the basis
+vectors for our subspace V.
+
+299
+00:16:07,750 --> 00:16:10,690
+Anyway, hopefully that gives you
+even more appreciation for
+
+300
+00:16:10,690 --> 00:16:11,940
+orthonormal bases.
+
+301
+00:16:11,940 --> 00:16:13,138
+

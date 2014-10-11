@@ -1,0 +1,669 @@
+1
+00:00:06,880 --> 00:00:09,440
+In this video we're going to talk about Eratosthenes
+
+2
+00:00:09,440 --> 00:00:13,169
+who was a Greek scholar that lived about
+two thousand years ago.
+
+3
+00:00:13,169 --> 00:00:16,730
+Eratosthenes found a way, using none of the modern tools that we have,
+
+4
+00:00:16,730 --> 00:00:18,820
+to measure the circumference of the Earth
+
+5
+00:00:18,820 --> 00:00:22,869
+and in this video we're going to see how he
+did this.
+
+6
+00:00:22,869 --> 00:00:25,109
+So the heart of Eratosthenes' measurement
+
+7
+00:00:25,109 --> 00:00:27,229
+is a simple geometry problem.
+
+8
+00:00:27,229 --> 00:00:29,539
+So, consider circle shown here,
+
+9
+00:00:29,539 --> 00:00:34,040
+which has points A and B,
+
+10
+00:00:34,040 --> 00:00:38,060
+and let's say that we know the
+distance that A and B
+
+11
+00:00:38,060 --> 00:00:40,200
+make on the circumference of the circle.
+
+12
+00:00:40,200 --> 00:00:44,320
+So we know the measure of arc AB.
+
+13
+00:00:44,320 --> 00:00:45,810
+Now, the question is,
+
+14
+00:00:45,810 --> 00:00:51,050
+with this knowledge can we determine the circumference of our circle?
+
+15
+00:00:51,050 --> 00:00:52,440
+and i'm sure you all
+
+16
+00:00:52,440 --> 00:00:55,720
+are thinking that the answer is obviously no, because A and B are just two random
+
+17
+00:00:55,720 --> 00:00:57,610
+points on the circle, so
+
+18
+00:00:57,610 --> 00:01:00,610
+just knowing they're distance doesn't help us very much.
+
+19
+00:01:00,610 --> 00:01:05,030
+What we need is some information that makes A and B not just random points on a
+
+20
+00:01:05,030 --> 00:01:06,150
+circle anymore.
+
+21
+00:01:06,150 --> 00:01:07,860
+We need to know the angle
+
+22
+00:01:07,860 --> 00:01:11,460
+that A and B make with the center of the
+circle.
+
+23
+00:01:11,460 --> 00:01:12,799
+Once we know this, we know
+
+24
+00:01:12,799 --> 00:01:15,770
+how far around A and B go around the circle
+
+25
+00:01:15,770 --> 00:01:18,300
+because we know that every circle has
+
+26
+00:01:18,300 --> 00:01:20,140
+in it 360 degrees
+
+27
+00:01:20,140 --> 00:01:23,800
+in one full revolution.
+
+28
+00:01:23,800 --> 00:01:27,280
+So, by knowing theta we know the fraction of the circle
+
+29
+00:01:27,280 --> 00:01:31,220
+that the arc AB takes up and we can simply extrapolate to find the
+
+30
+00:01:31,220 --> 00:01:33,330
+circumference.
+
+31
+00:01:33,330 --> 00:01:37,740
+So let's make this point a little clearer with some concrete examples.
+
+32
+00:01:37,740 --> 00:01:38,960
+Let's look at the circle
+
+33
+00:01:38,960 --> 00:01:40,159
+on the right now
+
+34
+00:01:40,159 --> 00:01:42,869
+and again we have points A
+
+35
+00:01:42,869 --> 00:01:44,229
+and B.
+
+36
+00:01:44,229 --> 00:01:46,630
+And here you can clearly see
+
+37
+00:01:46,630 --> 00:01:49,020
+that the angle that A and B
+
+38
+00:01:49,020 --> 00:01:51,810
+make with the center of the circle is 90 degrees.
+
+39
+00:01:51,810 --> 00:01:55,750
+And since we know that 90 goes into 360 four times
+
+40
+00:01:55,750 --> 00:01:58,780
+arc AB is 1/4 around the circle,
+
+41
+00:01:58,780 --> 00:02:02,880
+meaning that the piece shown here,
+the shaded piece,
+
+42
+00:02:02,880 --> 00:02:05,720
+will fit in the circle four times.
+
+43
+00:02:05,720 --> 00:02:09,310
+So in this case the circumference of the circle is four times the length of
+
+44
+00:02:09,310 --> 00:02:12,779
+arc AB.
+
+45
+00:02:12,779 --> 00:02:16,579
+now let's just try that one home further
+with this other circle again we have
+
+46
+00:02:16,579 --> 00:02:17,909
+point sandy
+
+47
+00:02:17,909 --> 00:02:21,879
+uh... and hear the angolan between
+points in the let's say we measured
+
+48
+00:02:21,879 --> 00:02:22,790
+turns out to be
+
+49
+00:02:22,790 --> 00:02:24,329
+thirty six degrees
+
+50
+00:02:24,329 --> 00:02:28,089
+so since thirty-six goes into three
+hundred sixty ten times
+
+51
+00:02:28,089 --> 00:02:30,989
+we know that ten of these pieces will
+fit in the circle
+
+52
+00:02:30,989 --> 00:02:33,120
+and in this case the circumference is
+
+53
+00:02:33,120 --> 00:02:34,949
+and number of pieces
+
+54
+00:02:34,949 --> 00:02:38,279
+times the length of one piece
+
+55
+00:02:38,279 --> 00:02:39,969
+now in general
+
+56
+00:02:39,969 --> 00:02:45,179
+these are coming to the circle is given
+by the number of pieces we have
+
+57
+00:02:45,179 --> 00:02:47,709
+times the length of one piece
+
+58
+00:02:47,709 --> 00:02:52,129
+and just friends explicitly the number
+of pieces is three hundred and sixty
+
+59
+00:02:52,129 --> 00:02:53,069
+degrees
+
+60
+00:02:53,069 --> 00:02:54,599
+divided by data
+
+61
+00:02:54,599 --> 00:02:57,409
+the angle of the day and be in a percent
+of the circle
+
+62
+00:02:57,409 --> 00:03:00,269
+and length of one piece is simply abt
+
+63
+00:03:00,269 --> 00:03:03,879
+so now if we just know that these two
+things dark a b
+
+64
+00:03:03,879 --> 00:03:06,569
+and the angle in the middle of the
+senate the circle
+
+65
+00:03:06,569 --> 00:03:09,819
+we can determine the circumference and
+this is really the heart to be a tough
+
+66
+00:03:09,819 --> 00:03:11,889
+news as method
+
+67
+00:03:11,889 --> 00:03:14,150
+so now it's a place
+
+68
+00:03:14,150 --> 00:03:17,650
+now we have another circle but this time
+with explicitly identify the circle as
+
+69
+00:03:17,650 --> 00:03:18,629
+the earth
+
+70
+00:03:18,629 --> 00:03:22,179
+uh... and pointed becomes a city
+alexandria
+
+71
+00:03:22,179 --> 00:03:24,609
+mississippian uh... you get
+
+72
+00:03:24,609 --> 00:03:28,329
+and um... this is where you're totally
+slipped
+
+73
+00:03:28,329 --> 00:03:31,579
+point b now becomes the city of saying
+
+74
+00:03:31,579 --> 00:03:36,569
+so in your classes a day it was known
+did the distance between alexandria and
+
+75
+00:03:36,569 --> 00:03:37,449
+saying
+
+76
+00:03:37,449 --> 00:03:39,789
+was about five hundred mice
+
+77
+00:03:39,789 --> 00:03:43,409
+because back then utorrent miles but we
+know the conversion factor so we don't
+
+78
+00:03:43,409 --> 00:03:45,999
+have to worry about the old system of
+units
+
+79
+00:03:45,999 --> 00:03:49,319
+the distance between alexander and
+saying this time in months
+
+80
+00:03:49,319 --> 00:03:50,549
+and now
+
+81
+00:03:50,549 --> 00:03:54,439
+looking back at our previous problem we
+see that all we have to do to figure out
+
+82
+00:03:54,439 --> 00:03:57,119
+the circumference of the earth given
+this information
+
+83
+00:03:57,119 --> 00:04:00,279
+is to figure out the angles that
+alexandria and saying make with the
+
+84
+00:04:00,279 --> 00:04:01,889
+center of the earth
+
+85
+00:04:01,889 --> 00:04:03,719
+and the relieved
+
+86
+00:04:03,719 --> 00:04:07,399
+uh... they really brilliant thing about
+their cousins as method is that he found
+
+87
+00:04:07,399 --> 00:04:09,949
+a nice way to measure this angle
+
+88
+00:04:09,949 --> 00:04:11,859
+so how did he do this
+
+89
+00:04:11,859 --> 00:04:17,539
+it was known that insane there was a
+well along the well such that at noon on
+
+90
+00:04:17,539 --> 00:04:18,910
+the summer solstice
+
+91
+00:04:18,910 --> 00:04:22,449
+you could see the sun's rays light up
+from the bottom of the world
+
+92
+00:04:22,449 --> 00:04:26,009
+and if you can buy this what this means
+is that since as well as such uh... deep
+
+93
+00:04:26,009 --> 00:04:27,129
+thing
+
+94
+00:04:27,129 --> 00:04:30,250
+disney into the sunset is a must have
+been coming into the earth
+
+95
+00:04:30,250 --> 00:04:32,080
+parallel to the world
+
+96
+00:04:32,080 --> 00:04:34,050
+to redraw these arrays uh...
+
+97
+00:04:34,050 --> 00:04:36,460
+miss his son is very far away from the
+earth
+
+98
+00:04:36,460 --> 00:04:38,879
+and because the sun is so far away
+
+99
+00:04:38,879 --> 00:04:44,050
+we can't read there is coming in from
+the sun at different points
+
+100
+00:04:44,050 --> 00:04:48,909
+so here we ground the ray that comes in
+at alexandria and there are a at saint
+
+101
+00:04:48,909 --> 00:04:52,280
+now it's an interesting property of
+reliance
+
+102
+00:04:52,280 --> 00:04:56,749
+if we have these dibrle and shown here
+that you raised
+
+103
+00:04:56,749 --> 00:04:57,689
+and we have
+
+104
+00:04:57,689 --> 00:05:00,069
+the radio station
+
+105
+00:05:00,069 --> 00:05:02,520
+the single to be called beta two
+
+106
+00:05:02,520 --> 00:05:05,639
+is equal to the end of the we're trying
+to find beta one
+
+107
+00:05:05,639 --> 00:05:08,409
+this is something is the fact that you
+might've been exposed to a new job that
+
+108
+00:05:08,409 --> 00:05:13,129
+requires as it's called uh... property
+of corresponding angles
+
+109
+00:05:13,129 --> 00:05:15,489
+because it's pretty easy to prove
+yourself
+
+110
+00:05:15,489 --> 00:05:17,250
+so since we know this
+
+111
+00:05:17,250 --> 00:05:20,909
+now we can transform the heart problem
+of measuring data one
+
+112
+00:05:20,909 --> 00:05:24,009
+to the relatively easier problem of
+measuring putative
+
+113
+00:05:24,009 --> 00:05:25,770
+so i realize that they did too
+
+114
+00:05:25,770 --> 00:05:29,220
+three straight forward towards him and
+on this region
+
+115
+00:05:29,220 --> 00:05:31,210
+we have hit the surface of the earth
+
+116
+00:05:31,210 --> 00:05:34,779
+as one of the important months and then
+the radius
+
+117
+00:05:34,779 --> 00:05:36,400
+get translated into
+
+118
+00:05:36,400 --> 00:05:38,270
+vertical stick
+
+119
+00:05:38,270 --> 00:05:42,379
+and we also have the sun with one of
+interest so this great cast a shadow on
+
+120
+00:05:42,379 --> 00:05:43,460
+the ground
+
+121
+00:05:43,460 --> 00:05:45,749
+and by knowing the length of the shadow
+
+122
+00:05:45,749 --> 00:05:46,860
+and the height of artistic
+
+123
+00:05:46,860 --> 00:05:50,710
+we can construct this triangle and
+simply measure the angle
+
+124
+00:05:50,710 --> 00:05:55,349
+there to all we had to do is look at the
+shadow created optimistically
+
+125
+00:05:55,349 --> 00:05:58,229
+and this is exactly what it does in his
+dad
+
+126
+00:05:58,229 --> 00:06:01,360
+and he measured that the angle data to
+was equal to
+
+127
+00:06:01,360 --> 00:06:04,509
+seven point two degrees
+
+128
+00:06:04,509 --> 00:06:08,279
+so now we have this information the
+angle
+
+129
+00:06:08,279 --> 00:06:09,699
+which is called better now
+
+130
+00:06:09,699 --> 00:06:12,099
+is equal to seven twenty degrees
+
+131
+00:06:12,099 --> 00:06:15,449
+and the measure of the art gave the or
+alexander saying
+
+132
+00:06:15,449 --> 00:06:18,009
+is the five hundred must
+
+133
+00:06:18,009 --> 00:06:21,949
+still with us information now all we
+have to do speed this into the formula
+
+134
+00:06:21,949 --> 00:06:25,729
+that we got earlier pushes recall it c
+equals
+
+135
+00:06:25,729 --> 00:06:28,360
+three hundred fifty degrees divided
+right there
+
+136
+00:06:28,360 --> 00:06:30,199
+times abt
+
+137
+00:06:30,199 --> 00:06:31,729
+so this is very simple to do
+
+138
+00:06:31,729 --> 00:06:34,930
+with morgan seven point two degrees but
+they don't put in five hundred miles
+
+139
+00:06:34,930 --> 00:06:36,460
+arabian
+
+140
+00:06:36,460 --> 00:06:40,220
+and in the end we find it's easy for the
+fifty eight times five hundred miles
+
+141
+00:06:40,220 --> 00:06:42,690
+or twenty five thousand miles
+
+142
+00:06:42,690 --> 00:06:48,539
+so this is our estimate or beer dozens
+estimate for the circumference of the
+
+143
+00:06:48,539 --> 00:06:50,240
+earth call that c
+
+144
+00:06:50,240 --> 00:06:51,660
+nearsightedness
+
+145
+00:06:51,660 --> 00:06:55,520
+and so good to see how simple it was for
+us to get this
+
+146
+00:06:55,520 --> 00:06:57,259
+noticed that
+
+147
+00:06:57,259 --> 00:07:00,490
+according to our modern measurements the
+average circumference of the earth
+
+148
+00:07:00,490 --> 00:07:05,449
+because not a perfect sphere is around
+twenty four thousand nine hundred miles
+
+149
+00:07:05,449 --> 00:07:09,759
+so we're only about two hundred miles
+off with this seemingly primitive method
+
+150
+00:07:09,759 --> 00:07:11,849
+which is about to have a percent
+
+151
+00:07:11,849 --> 00:07:15,830
+so this is a very impressive thing for
+someone who lived so long ago without
+
+152
+00:07:15,830 --> 00:07:21,899
+the access to these tools that we now
+use

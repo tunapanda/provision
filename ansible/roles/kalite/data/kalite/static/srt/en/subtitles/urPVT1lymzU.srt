@@ -1,0 +1,663 @@
+1
+00:00:00,255 --> 00:00:04,853
+if you havent tried already to write your own recursive fibonacci sequence function
+
+2
+00:00:04,853 --> 00:00:08,200
+i really encourage you to do so, or at least to try to do so
+
+3
+00:00:08,200 --> 00:00:10,844
+give it a serious debt before you watch this video
+
+4
+00:00:10,844 --> 00:00:13,862
+but if you have done that, or your feeling lazy
+
+5
+00:00:13,862 --> 00:00:16,370
+i guess you can watch this video
+
+6
+00:00:16,370 --> 00:00:19,435
+and so we're going to try to write a fibonnaci function
+
+7
+00:00:19,435 --> 00:00:25,101
+according to thespecs that i laid out when i first set up the challenge to write a fibonacci function
+
+8
+00:00:25,101 --> 00:00:29,466
+so ill call this fibonacci again fi-bo-nacci
+
+9
+00:00:29,466 --> 00:00:31,267
+fibonacci and it will take it
+
+10
+00:00:31,267 --> 00:00:36,153
+it has a parameter here, n, and it will pass an argument
+
+11
+00:00:36,153 --> 00:00:40,147
+to it to say which term do we want of the fibonacci sequece
+
+12
+00:00:40,147 --> 00:00:42,516
+but here we're going to do it recursively and what we're going to see
+
+13
+00:00:42,516 --> 00:00:45,867
+is that it's actually a very intuitive to write a fibonacci function
+
+14
+00:00:45,867 --> 00:00:48,506
+recursively, al-its like-almost-like
+
+15
+00:00:48,506 --> 00:00:50,828
+magic, and later we will see that it is not necessarily the
+
+16
+00:00:50,828 --> 00:00:53,533
+most efficient way to write the fibonacci function
+
+17
+00:00:53,533 --> 00:00:56,494
+so what im gonna do is, whenever you, whenever you write
+
+18
+00:00:56,494 --> 00:00:58,073
+any recursive program, you really need to think about
+
+19
+00:00:58,073 --> 00:00:59,314
+the base cases
+
+20
+00:00:59,314 --> 00:01:02,044
+really well, and the base cases of the fibonacci sequence
+
+21
+00:01:02,060 --> 00:01:03,764
+theres actually two base cases
+
+22
+00:01:03,779 --> 00:01:06,247
+theres the zeroeth term and the first term
+
+23
+00:01:06,247 --> 00:01:07,933
+and those are really given by definition
+
+24
+00:01:07,933 --> 00:01:08,940
+so lets just say,
+
+25
+00:01:08,940 --> 00:01:11,401
+if, if we want the zeroeth term
+
+26
+00:01:11,401 --> 00:01:13,909
+so if n is equal to zero,
+
+27
+00:01:13,909 --> 00:01:16,185
+if n is equal to zero,
+
+28
+00:01:16,185 --> 00:01:17,933
+well, that means you want the zeroeth term
+
+29
+00:01:17,933 --> 00:01:20,179
+and the zeroeth term is actually zero!
+
+30
+00:01:20,179 --> 00:01:24,265
+and you could say, else if,else if
+
+31
+00:01:24,265 --> 00:01:28,584
+n is equal to one, n is equal to one,
+
+32
+00:01:28,584 --> 00:01:31,742
+then you, then you can return
+
+33
+00:01:31,742 --> 00:01:34,575
+then you can return
+
+34
+00:01:34,575 --> 00:01:36,247
+you can return, one!
+
+35
+00:01:36,247 --> 00:01:39,915
+that is the zero term is zero, the first term in the fibonacci sequence
+
+36
+00:01:39,915 --> 00:01:40,612
+is one.
+
+37
+00:01:40,612 --> 00:01:43,073
+and now here is a little bit of where the magic happens.
+
+38
+00:01:43,073 --> 00:01:48,135
+otherwise, otherwise, return -and now this is really cool here-
+
+39
+00:01:48,135 --> 00:01:53,569
+return to the fibonacci, fib-o-nacci
+
+40
+00:01:53,569 --> 00:01:57,933
+of n minus one,so whenever the previous term in
+
+41
+00:01:57,933 --> 00:02:04,482
+the fibonacci sequence is, plus fibonacci, plus fibonacci,
+
+42
+00:02:04,482 --> 00:02:07,269
+of n minus 2.
+
+43
+00:02:07,269 --> 00:02:10,426
+and i think this should work. and that's why it seems magical.
+
+44
+00:02:10,426 --> 00:02:12,934
+cuz all we're saying is hey look, if you the zero term its zero
+
+45
+00:02:12,934 --> 00:02:15,163
+if you want the first term, its one
+
+46
+00:02:15,163 --> 00:02:16,139
+-lets give some spaces here-
+
+47
+00:02:16,139 --> 00:02:18,739
+if you want the first term, it is one!
+
+48
+00:02:18,739 --> 00:02:21,154
+if you want any other term, -if you want any other term-
+
+49
+00:02:21,154 --> 00:02:23,569
+so else, if you want- this is else if-
+
+50
+00:02:23,569 --> 00:02:26,262
+e-bu- else neither of these is true so neither
+
+51
+00:02:26,262 --> 00:02:29,420
+zero nor one if its some other number, its going to be
+
+52
+00:02:29,420 --> 00:02:31,835
+- and we're going to assume that your inputting some, some
+
+53
+00:02:31,835 --> 00:02:34,000
+non-negative integer over here-
+
+54
+00:02:34,000 --> 00:02:35,550
+right over here-
+
+55
+00:02:35,550 --> 00:02:38,151
+this would break down if you did something non-negative
+
+56
+00:02:38,151 --> 00:02:40,241
+integer over non-negative uh, negative, term
+
+57
+00:02:40,241 --> 00:02:42,934
+but if, assuming you have, uh, a non-negative integer,
+
+58
+00:02:42,934 --> 00:02:44,095
+then you say look!
+
+59
+00:02:44,095 --> 00:02:46,603
+if its not the zeroeth term or the first term
+
+60
+00:02:46,603 --> 00:02:47,267
+then just take
+
+61
+00:02:47,267 --> 00:02:52,408
+the fibonnaci of the, whatever term one term less than it is
+
+62
+00:02:52,408 --> 00:02:54,933
+plus two terms less than that, and you could try it
+
+63
+00:02:54,933 --> 00:02:56,333
+out, for example:
+
+64
+00:02:56,333 --> 00:02:58,363
+lets say you took the fibonacci of 2!
+
+65
+00:02:58,394 --> 00:03:00,767
+or,then, n is not zero
+
+66
+00:03:00,767 --> 00:03:01,975
+then you wont do this
+
+67
+00:03:01,975 --> 00:03:03,275
+n is not one so you wont do this
+
+68
+00:03:03,275 --> 00:03:05,365
+but you'll say return fibonacci of 2 minus 1
+
+69
+00:03:05,365 --> 00:03:06,479
+so thats fibonacci of 1
+
+70
+00:03:06,479 --> 00:03:10,533
+plus fibonacci of 2 minus 2 plus fibonacci of 0.
+
+71
+00:03:10,533 --> 00:03:13,800
+but we know fibonacci of one, evaluates to one
+
+72
+00:03:13,800 --> 00:03:15,953
+fibonacci of zero evaluates to zero
+
+73
+00:03:15,953 --> 00:03:17,718
+so it'll be one plus zero,
+
+74
+00:03:17,718 --> 00:03:18,218
+or,
+
+75
+00:03:18,218 --> 00:03:19,808
+just one!
+
+76
+00:03:19,808 --> 00:03:20,969
+And you can keep going!
+
+77
+00:03:20,969 --> 00:03:22,083
+try fibonacci of 3!
+
+78
+00:03:22,083 --> 00:03:22,966
+it'll work!
+
+79
+00:03:22,966 --> 00:03:25,613
+because we know fibonacci of 0,1,or 2 works
+
+80
+00:03:25,613 --> 00:03:29,281
+cuz fibonacci of 3 will boil down to fibonacci of 2 plus fibonacci of 1.
+
+81
+00:03:29,281 --> 00:03:32,439
+we know that fibonacci of 2 is 1, fibonacci of 1 is 1
+
+82
+00:03:32,439 --> 00:03:33,786
+1+1 is 2
+
+83
+00:03:33,786 --> 00:03:35,133
+so it'll just keep working.
+
+84
+00:03:35,133 --> 00:03:36,133
+now we could try it out
+
+85
+00:03:36,133 --> 00:03:37,780
+let's just save this
+
+86
+00:03:37,780 --> 00:03:40,613
+-actually didn't save the file name called recursive fibonacci-
+
+87
+00:03:40,613 --> 00:03:47,114
+-repeat twice-
+
+88
+00:03:47,114 --> 00:03:50,783
+and now let me actually run the program
+
+89
+00:03:50,783 --> 00:03:52,362
+and all this does is define the function
+
+90
+00:03:52,362 --> 00:03:55,288
+in-in my environment that i actually have to call the function.
+
+91
+00:03:55,288 --> 00:03:56,774
+so let me just run it
+
+92
+00:03:56,774 --> 00:04:03,601
+and let me ask for fibonacci offfff 4.
+
+93
+00:04:03,601 --> 00:04:05,867
+it gave me the right answer.
+
+94
+00:04:05,867 --> 00:04:11,681
+fi-bo-nacci of 10!
+
+95
+00:04:11,681 --> 00:04:13,399
+55, right answer.
+
+96
+00:04:13,399 --> 00:04:17,625
+fibonacci, -i could try simple things, fibonacci of zero
+
+97
+00:04:17,625 --> 00:04:18,800
+of the zero term is zero
+
+98
+00:04:18,800 --> 00:04:21,062
+so it all works out
+
+99
+00:04:21,062 --> 00:04:22,409
+so thats why recursion is kinda magical.
+
+100
+00:04:22,409 --> 00:04:24,638
+and if you wanted to simplify this any more, you might
+
+101
+00:04:24,638 --> 00:04:27,610
+recognize, hey! the zeroeth term of the fibonacci sequence
+
+102
+00:04:27,610 --> 00:04:31,372
+is zero, the first term of the fibonacci sequence is one,
+
+103
+00:04:31,372 --> 00:04:35,273
+so really, its-it-if your asking for the zeroeth or the first term
+
+104
+00:04:35,273 --> 00:04:37,269
+its really the same thing of as that number.
+
+105
+00:04:37,269 --> 00:04:39,684
+so you could actually maybe simplify this a little bit
+
+106
+00:04:39,684 --> 00:04:43,771
+if you assume that someone was going to input a non-negative integer
+
+107
+00:04:43,771 --> 00:04:46,372
+over here, you could say something like-
+
+108
+00:04:46,372 --> 00:04:56,681
+if n, if n is equal to zero or n is equal, or n is equal to 1,
+
+109
+00:04:56,681 --> 00:04:58,678
+- or n is equal to 1,-
+
+110
+00:04:58,678 --> 00:05:01,976
+return, return n!
+
+111
+00:05:01,976 --> 00:05:03,137
+Lets see if this works.
+
+112
+00:05:03,137 --> 00:05:04,762
+lets see if it simplified our code up a little bit
+
+113
+00:05:04,762 --> 00:05:07,409
+so lets try this- save this,
+
+114
+00:05:07,409 --> 00:05:08,291
+and now lets run it,
+
+115
+00:05:08,291 --> 00:05:10,706
+lets run it,
+
+116
+00:05:10,706 --> 00:05:15,443
+alright, and now lets try fi-bo-nacci, fibonacci of 10!
+
+117
+00:05:15,443 --> 00:05:16,418
+it still worked!
+
+118
+00:05:16,418 --> 00:05:20,087
+cuz really, the zeroeth term is zero, and the nth term is
+
+119
+00:05:20,087 --> 00:05:24,127
+or uh the first term is one,-so that works there-
+
+120
+00:05:24,127 --> 00:05:26,449
+or you can even simplify more
+
+121
+00:05:26,449 --> 00:05:30,118
+if n is less than 2! that should also work
+
+122
+00:05:30,118 --> 00:05:32,765
+becuz then if its zero or one your gonna return n, and otherwise
+
+123
+00:05:32,765 --> 00:05:34,298
+your gonnna return to this business
+
+124
+00:05:34,298 --> 00:05:36,016
+so lets try that out.
+
+125
+00:05:36,016 --> 00:05:46,465
+so we ran it, and lets try fibonacci fibonacci of, fibonacci of 10
+
+126
+00:05:46,465 --> 00:05:48,973
+now. it seems that the computer is able to do this
+
+127
+00:05:48,973 --> 00:05:51,200
+really quickly and all of that and all the rest of it
+
+128
+00:05:51,200 --> 00:05:52,533
+but if you really wanna see
+
+129
+00:05:52,533 --> 00:05:56,450
+all the work that's being done, all the calls to fibonacci
+
+130
+00:05:56,450 --> 00:05:57,936
+what you can do is
+
+131
+00:05:57,936 --> 00:05:59,143
+lets put a print in here
+
+132
+00:05:59,143 --> 00:06:02,951
+so that every time fibonacci gets called print, it prints
+
+133
+00:06:02,951 --> 00:06:10,753
+fibonacci it prints the text fibonacci COLON, and then,
+
+134
+00:06:10,753 --> 00:06:14,468
+pl- i'm going to add to that string, to that string of text
+
+135
+00:06:14,468 --> 00:06:16,930
+what, what the argument is.
+
+136
+00:06:16,930 --> 00:06:21,016
+so the argument of this is going to be n,
+
+137
+00:06:21,016 --> 00:06:23,533
+and i wanna make sure that its viewed as a string.
+
+138
+00:06:23,533 --> 00:06:27,007
+So i'll put, i'll put it, im casting it to a string
+
+139
+00:06:27,007 --> 00:06:27,796
+that's essentially just taking
+
+140
+00:06:27,796 --> 00:06:31,094
+an integer and making sure its a string, and when i add it
+
+141
+00:06:31,094 --> 00:06:33,462
+to this string, it'll make it one big string
+
+142
+00:06:33,462 --> 00:06:34,800
+but lets see what this does
+
+143
+00:06:34,800 --> 00:06:36,800
+i'm gonna try it out with lower values first
+
+144
+00:06:36,800 --> 00:06:40,939
+so let me,...., the function is defined
+
+145
+00:06:40,939 --> 00:06:43,354
+Fibonacci,-I can just-
+
+146
+00:06:43,354 --> 00:06:46,651
+let me do Fibonacci off 3
+
+147
+00:06:46,651 --> 00:06:47,951
+so notice,
+
+148
+00:06:47,951 --> 00:06:51,016
+when it called, it called Fibonacci of 3, then to do
+
+149
+00:06:51,016 --> 00:06:53,106
+Fibonacci of 3, it had to call Fibonacci of 2
+
+150
+00:06:53,106 --> 00:06:56,450
+and Fibonacci of 1, and then to do Fibonacci of 2 it
+
+151
+00:06:56,450 --> 00:06:59,468
+had to call Fibonacci, it had to call Fibonacci of zero
+
+152
+00:06:59,468 --> 00:07:02,626
+and Fibonacci of 1. So it had to do all of these calls to
+
+153
+00:07:02,626 --> 00:07:06,063
+Fibonacci, just to calculate the Fibonacci of 3.
+
+154
+00:07:06,063 --> 00:07:07,800
+and then eventually it gave me the answer.
+
+155
+00:07:07,800 --> 00:07:09,867
+If you did like Fibonacci of 10, its gonna go really
+
+156
+00:07:09,867 --> 00:07:12,133
+crazy, so I'm gonna do that
+
+157
+00:07:12,133 --> 00:07:14,608
+let me, let me just do Fibonacci of like 6,
+
+158
+00:07:14,608 --> 00:07:17,023
+and your gonna see how many calls to Fibonacci it had to do
+
+159
+00:07:17,023 --> 00:07:21,435
+so it had to do all of these calls, all of these calls, to fibonacci
+
+160
+00:07:21,435 --> 00:07:24,778
+so it was actually very computationally intensive
+
+161
+00:07:24,778 --> 00:07:25,428
+thing to do.
+
+162
+00:07:25,428 --> 00:07:27,750
+but it, you know, the computer's are super fast, so
+
+163
+00:07:27,750 --> 00:07:30,351
+you dont even notice it. But in the future we're going to talk about
+
+164
+00:07:30,351 --> 00:07:32,441
+a little bit more how do we think about how computationally-intensive
+
+165
+00:07:32,441 --> 00:07:35,459
+different ways of implementing a function,
+
+166
+00:07:35,459 --> 99:59:59,999
+can be.

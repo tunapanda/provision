@@ -1,0 +1,648 @@
+1
+00:00:00,000 --> 00:00:04,250
+In this video we're gonna look an introduction to molecular orbital theory.
+
+2
+00:00:04,250 --> 00:00:08,082
+Now, MO theory involves some very complicated quantum math
+
+3
+00:00:08,082 --> 00:00:11,413
+and I'm going to completely ignore the math and we're just going to try to think about it
+
+4
+00:00:11,413 --> 00:00:14,168
+as simply as possible to see it in pictures.
+
+5
+00:00:14,168 --> 00:00:17,603
+So, when we did mechanisms,
+we thought about electrons as being particles
+
+6
+00:00:17,603 --> 00:00:20,479
+but we can also think about them as being waves,
+
+7
+00:00:20,479 --> 00:00:25,746
+and we know that electrons are found in highest probability in what we call atomic orbitals.
+
+8
+00:00:25,746 --> 00:00:30,336
+When atoms combine to form molecules, those atomic orbitals actually recombine
+
+9
+00:00:30,336 --> 00:00:37,410
+to form what we call molecular orbitals. Combining atomic orbitals together is just like combining waves together, and
+
+10
+00:00:37,410 --> 00:00:41,012
+so we're going to start off with a very simple way of thinking about waves.
+
+11
+00:00:41,012 --> 00:00:44,543
+We could even think about waves like waves in the ocean.
+
+12
+00:00:44,543 --> 00:00:50,667
+So thinking of these horizontal lines as being the average level of my ocean
+
+13
+00:00:50,667 --> 00:00:53,001
+i can go ahead and draw a wave there.
+
+14
+00:00:53,001 --> 00:00:56,944
+And so i have part of the wave above the average level of the ocean
+
+15
+00:00:56,944 --> 00:01:02,335
+i'm going to call that a fase and i'm going to make that a red face like that
+
+16
+00:01:02,335 --> 00:01:05,334
+and then part of the wave is below the average level of the ocean
+
+17
+00:01:05,334 --> 00:01:07,478
+so i'm going to make that the blue fase.
+
+18
+00:01:07,478 --> 00:01:10,334
+So there's one wave. If i were to combine that wave
+
+19
+00:01:10,334 --> 00:01:12,811
+with another wave that looks exactly the same
+
+20
+00:01:12,811 --> 00:01:16,418
+so let's pretend that these two waves are identical
+
+21
+00:01:16,418 --> 00:01:21,876
+this part would be red, and this would be blue
+
+22
+00:01:21,876 --> 00:01:25,185
+if i were to combine these two waves there's a couple of ways to do it:
+
+23
+00:01:25,185 --> 00:01:28,411
+you can think of superimposing these two waves on top of each other
+
+24
+00:01:28,411 --> 00:01:31,814
+and one way to think about that would be to think about vectors
+
+25
+00:01:31,814 --> 00:01:35,190
+so if i thought about a vector in here, for the top wave,
+
+26
+00:01:35,190 --> 00:01:38,600
+-if you've taken a physics class you'll understand everything there is to know about vectors-
+
+27
+00:01:38,600 --> 00:01:43,173
+so here's one vector, and then this vector down here would be going in the same direction,
+
+28
+00:01:43,173 --> 00:01:46,939
+with the same length. If i were to superimpose these two waves on top of each other,
+
+29
+00:01:46,939 --> 00:01:55,666
+these two vectors would add to each other, so we would get another bigger wave here on the right.
+
+30
+00:01:55,666 --> 00:01:59,333
+So, these two vectors are going to add together like that.
+
+31
+00:01:59,333 --> 00:02:02,334
+The same thing happens with the fases in blue
+
+32
+00:02:02,334 --> 00:02:04,375
+This vector would be pointing down this time
+
+33
+00:02:04,375 --> 00:02:07,839
+this would also be pointing down, but if you add up these two waves together
+
+34
+00:02:07,839 --> 00:02:10,286
+if you superimpose them on top of each other
+
+35
+00:02:10,286 --> 00:02:12,860
+these two vectors would add like that, and
+
+36
+00:02:12,860 --> 00:02:17,250
+you would get an even bigger part over here like that.
+
+37
+00:02:17,250 --> 00:02:20,615
+So that would be the product of adding those two waves together
+
+38
+00:02:20,615 --> 00:02:23,279
+they add constructively
+
+39
+00:02:23,279 --> 00:02:27,746
+so over here these would be our two red fases added together
+
+40
+00:02:27,746 --> 00:02:30,667
+and this would be where our blue fases are added together.
+
+41
+00:02:30,667 --> 00:02:33,278
+So we get constructive overlaps.
+
+42
+00:02:33,278 --> 00:02:39,333
+I'll write that: "CONSTRUCTIVE OVERLAP".
+
+43
+00:02:39,333 --> 00:02:45,956
+And so, this is when we added our waves in fase, combined these two waves in fase
+
+44
+00:02:45,956 --> 00:02:47,811
+which means that their colours matched up
+
+45
+00:02:47,811 --> 00:02:52,167
+we combined the two red colours together, and we combined the two blue fases together
+
+46
+00:02:52,167 --> 00:02:55,412
+and that gave us constructive overlap.
+
+47
+00:02:55,412 --> 00:02:57,944
+Let's do another example of adding waves, another very simple one:
+
+48
+00:02:57,944 --> 00:03:05,745
+So we're going to start again with a wave that has parts above the average level of the ocean
+
+49
+00:03:05,745 --> 00:03:09,584
+and then this part is going to be below
+
+50
+00:03:09,584 --> 00:03:12,482
+This time, though, we're going to add something that is the opposite
+
+51
+00:03:12,482 --> 00:03:18,023
+So we're going to start below the average level and we'll finish above. Like that.
+
+52
+00:03:18,023 --> 00:03:21,275
+Let me go ahead and make this one blue now
+
+53
+00:03:21,275 --> 00:03:24,618
+and then this one red over here
+
+54
+00:03:24,618 --> 00:03:27,281
+and so we're going to add these two waves.
+
+55
+00:03:27,281 --> 00:03:29,953
+Once again, vectors help me think about it
+
+56
+00:03:29,953 --> 00:03:32,208
+and so if i think about this first wave
+
+57
+00:03:32,234 --> 00:03:34,875
+this vector would be going up
+
+58
+00:03:34,875 --> 00:03:39,150
+and for the second wave the vector would go in the opposite direction
+
+59
+00:03:39,150 --> 00:03:41,267
+So when i add these 2 vectors together
+
+60
+00:03:41,267 --> 00:03:43,040
+when i superimpose these 2 waves
+
+61
+00:03:43,040 --> 00:03:45,000
+the vectors would cancel each other
+
+62
+00:03:45,000 --> 00:03:47,666
+and you would get destructive overlap.
+
+63
+00:03:47,666 --> 00:03:50,249
+So you would get nothing over here on the right
+
+64
+00:03:50,249 --> 00:03:53,092
+this would be DESTRUCTIVE OVERLAP
+
+65
+00:03:53,092 --> 00:03:55,424
+those two vectors cancelled each other out
+
+66
+00:03:55,424 --> 00:04:01,610
+and the exact same thing happens when you try to combine this part of the wave
+
+67
+00:04:01,610 --> 00:04:05,585
+with this part of the wave, these 2 vectors would cancel each other out in space
+
+68
+00:04:05,585 --> 00:04:07,811
+we get destructive overlap
+
+69
+00:04:07,811 --> 00:04:13,542
+We tried to combine these two waves OUT OF FASE
+
+70
+00:04:13,542 --> 00:04:16,229
+meaning we tried to combine the red with the blue both times, and so
+
+71
+00:04:16,229 --> 00:04:20,551
+since we're combining out of fase, the vectors cancel and give us destructive overlap.
+
+72
+00:04:20,551 --> 00:04:22,817
+So, this is a very simple way of thinking about waves
+
+73
+00:04:22,817 --> 00:04:26,746
+the nice thing about it is that when we combine atomic orbitals
+
+74
+00:04:26,746 --> 00:04:28,545
+we can think about the same thing.
+
+75
+00:04:28,545 --> 00:04:33,000
+We can combine atomic orbitals either "in fase" or "out of fase".
+
+76
+00:04:33,000 --> 00:04:36,744
+Let's go ahead and do that. Let's combine some atomic orbitals and
+
+77
+00:04:36,744 --> 00:04:41,076
+we're going to do so for the simplest atom, which is hydrogen.
+
+78
+00:04:41,076 --> 00:04:45,410
+So, if i take hydrogen with its one valence electron
+
+79
+00:04:45,410 --> 00:04:49,816
+i know that this electron occupies an atomic orbital
+
+80
+00:04:49,816 --> 00:04:53,167
+that shapes like a sphere.
+
+81
+00:04:53,167 --> 00:04:58,548
+So if i were to draw that spherically-shaped atomic orbital
+
+82
+00:04:58,548 --> 00:05:00,966
+I know that hydrogen has a nucleus
+
+83
+00:05:00,966 --> 00:05:05,002
+and i know the most common isotope has only one proton in the nucleus (N.T.: all hydrogen isotopes have only one proton)
+
+84
+00:05:05,002 --> 00:05:07,337
+so that's going to represent the nucleus of hydrogen
+
+85
+00:05:07,337 --> 00:05:11,081
+and then the sphere around it is the atomic orbital of hydrogen, like that.
+
+86
+00:05:11,081 --> 00:05:15,002
+So i'm going to combine that H atom with another H atom, so once again
+
+87
+00:05:15,002 --> 00:05:19,503
+i'm going to think about a nucleus for the H atom
+
+88
+00:05:19,503 --> 00:05:25,079
+and then one valence electron occupies an s-orbital which is shaped like a sphere.
+
+89
+00:05:25,079 --> 00:05:29,925
+All right, let's go ahead and draw this again down here
+
+90
+00:05:29,925 --> 00:05:35,078
+so i'm going to have the nucleus, and i'm going to have the s-orbital
+
+91
+00:05:35,078 --> 00:05:38,917
+and the same thing over here, like that.
+
+92
+00:05:38,917 --> 00:05:43,743
+Now, when i combine my two atomic orbitals together,
+
+93
+00:05:43,743 --> 00:05:58,528
+i know that i can combine them "in fase" and "out of fase".
+
+94
+00:05:58,528 --> 00:06:00,610
+Let's put some colors on here.
+
+95
+00:06:00,610 --> 00:06:05,333
+If i'm going to combine the first two atomic orbitals in fase, i need to make them the same color
+
+96
+00:06:05,333 --> 00:06:09,667
+so i'm going to make these guys red
+
+97
+00:06:09,667 --> 00:06:14,143
+and then down here, i'm going to combine out of fase, so i'm going to use different colors
+
+98
+00:06:14,143 --> 00:06:19,684
+this is going to be red, and this is going to be blue. Like that.
+
+99
+00:06:19,684 --> 00:06:25,233
+Ok. So i know when i combine two waves in fase i got constructive overlap
+
+100
+00:06:25,233 --> 00:06:31,414
+and so when i combine my two atomic orbitals for hydrogen in fase
+
+101
+00:06:31,414 --> 00:06:37,881
+i'm going to have constructing overlap. So let's draw the molecular orbital that is produced.
+
+102
+00:06:37,881 --> 00:06:42,334
+Here's one nucleus, and here's another nucleus.
+
+103
+00:06:42,334 --> 00:06:45,444
+These two atomic orbitals are going to recombine, cease to exist,
+
+104
+00:06:45,444 --> 00:06:48,834
+they're going to produce a molecular orbital
+
+105
+00:06:48,834 --> 00:06:52,077
+an orbital associated with the entire hydrogen molecule
+
+106
+00:06:52,077 --> 00:06:56,788
+so here i have sketched in my molecular orbital on the right
+
+107
+00:06:56,788 --> 00:07:02,164
+These combined in fase, it was constructive overlap, and this is the molecular orbital that results.
+
+108
+00:07:02,164 --> 00:07:08,278
+The atomic orbitals have ceased to exist, they have produced a molecular orbital like that.
+
+109
+00:07:08,278 --> 00:07:12,001
+If i were to draw the dot structure of what's happened
+
+110
+00:07:12,001 --> 00:07:19,877
+you can think that these electrons have been shared to produce a covalent bond
+
+111
+00:07:19,877 --> 00:07:23,278
+between these two H atoms, like that.
+
+112
+00:07:23,278 --> 00:07:27,412
+And so, this is the molecular orbital that is produced as a result of constructive overlap
+
+113
+00:07:27,412 --> 00:07:31,584
+Again, the atomic atoms cease to exist to produce a molecular orbital.
+
+114
+00:07:31,584 --> 00:07:38,050
+And this is a bonding molecular orbital.
+
+115
+00:07:38,081 --> 00:07:43,153
+We know that because the electrons are shared between the two nucleae.
+
+116
+00:07:43,153 --> 00:07:50,478
+The delocalization, the sharing of these electrons, lowers the energy of the hydrogen molecule.
+
+117
+00:07:50,478 --> 00:07:56,078
+A bonding molecular orbital is lower in energy, it's constructively overlapped.
+
+118
+00:07:56,078 --> 00:08:02,875
+If you look down here, we try to combine our 2 atomic s-orbitals out of fase
+
+119
+00:08:02,875 --> 00:08:06,583
+when we try to do that, we get destructive overlap.
+
+120
+00:08:06,583 --> 00:08:13,145
+There is no sharing of electrons between our two nucleae
+
+121
+00:08:13,145 --> 00:08:17,127
+and so we produce what's called a nodal plane between the two nucleae.
+
+122
+00:08:17,142 --> 00:08:22,747
+There's no electron density between the two nucleae, so if i were to draw my molecular orbitals
+
+123
+00:08:22,747 --> 00:08:27,064
+like these, is what you see in most textbooks
+
+124
+00:08:27,064 --> 00:08:33,686
+so this is our red fase, and on the right is the blue fase.
+
+125
+00:08:33,686 --> 00:08:40,583
+So, when you try to combine atomic orbitals out of fase, you produce a molecular orbital
+
+126
+00:08:40,583 --> 00:08:44,542
+but there's no electron density between these two nucleae,
+
+127
+00:08:44,542 --> 00:08:46,655
+so really there's no bond,
+
+128
+00:08:46,655 --> 00:08:59,274
+and so we call this an anti-bonding molecular orbital.
+
+129
+00:08:59,274 --> 00:09:03,641
+So, destructive overlap means there's no electron density between the two nucleae
+
+130
+00:09:03,641 --> 00:09:08,149
+therefore, those two positive charges are exposed to each other
+
+131
+00:09:08,149 --> 00:09:13,190
+and we know like-charges repel, it's like trying to put two magnets together
+
+132
+00:09:13,190 --> 00:09:15,259
+on the same pole, they're going to repel
+
+133
+00:09:15,259 --> 00:09:19,145
+it would take a lot of energy to hold those positive charges together
+
+134
+00:09:19,145 --> 00:09:23,147
+so i like to think about the fact that an anti-bonding molecular orbital
+
+135
+00:09:23,147 --> 00:09:26,843
+is much higher in energy than a bonding molecular orbital.
+
+136
+00:09:26,843 --> 00:09:32,046
+[and repeats the same concept once again]
+
+137
+00:09:32,046 --> 00:09:36,631
+What we see here is: when you combine two atomic orbitals together
+
+138
+00:09:36,631 --> 00:09:43,149
+you produce one bonding molecular orbital and one anti-bonding molecular orbital
+
+139
+00:09:43,149 --> 00:09:47,746
+so, two atomic orbitals combine to form a total of two molecular orbitals.
+
+140
+00:09:47,746 --> 00:09:50,814
+The bonding molecular orbital is lower in energy.
+
+141
+00:09:50,814 --> 00:09:54,749
+The anti-bonding molecular orbital is higher in energy.
+
+142
+00:09:54,749 --> 00:10:02,477
+We could represent that on an energy diagram.
+
+143
+00:10:02,477 --> 00:10:08,078
+So, here's energy.
+
+144
+00:10:08,078 --> 00:10:12,536
+This energy level represents our atomic orbitals.
+
+145
+00:10:12,536 --> 00:10:16,205
+So there's one hydrogen atom with one electron
+
+146
+00:10:16,205 --> 00:10:18,550
+and there's another hydrogen atom with another electron
+
+147
+00:10:18,550 --> 00:10:33,897
+and when those two atomic orbitals combine they form two molecular orbitals
+
+148
+00:10:33,897 --> 00:10:41,058
+The one that's lower in energy, is our bonding molecular orbital.
+
+149
+00:10:41,058 --> 00:10:51,358
+And the one that's higher in energy, is our anti-bonding molecular orbital.
+
+150
+00:10:51,358 --> 00:10:58,478
+So when these two electrons from our atomic orbitals combine,
+
+151
+00:10:58,478 --> 00:11:03,413
+they're going to fill the bonding molecular orbital since is lower in energy
+
+152
+00:11:03,413 --> 00:11:06,745
+this is analogous to electron configurations,
+
+153
+00:11:06,745 --> 00:11:10,409
+electrons are going to fill the lowest energy orbital available
+
+154
+00:11:10,409 --> 00:11:14,883
+and [?] is going to pair up the spins.
+
+155
+00:11:14,883 --> 00:11:20,773
+So these two electrons in the hydrogen atom prefer to occupy the bonding molecular orbital
+
+156
+00:11:20,773 --> 00:11:22,742
+because it's lower in energy.
+
+157
+00:11:22,742 --> 00:11:27,487
+So, the anti-bonding molecular orbital does not have any electrons for this example
+
+158
+00:11:27,487 --> 00:11:34,250
+Of course, it is possible to give an electron in a bonding molecular orbital
+
+159
+00:11:34,250 --> 00:11:38,480
+enough energy where it could jump above to the anti-bonding molecular orbital
+
+160
+00:11:38,480 --> 00:11:43,547
+and that would break the bond between the two hydrogen atoms here.
+
+161
+00:11:43,547 --> 00:11:50,772
+So, hopefully, this video is a nice introduction to the concept of molecular orbital theory
+
+162
+00:11:50,772 --> 00:11:54,772
+we're going to use this concept a few more times to develop more complicated topics of organic chemistry.

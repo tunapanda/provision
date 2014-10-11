@@ -1,0 +1,811 @@
+1
+00:00:00,800 --> 00:00:03,220
+What I want to do in this video is to show that if we start
+
+2
+00:00:03,230 --> 00:00:06,790
+with any arbitrary triangle, this would be the arbitrary triangle
+
+3
+00:00:06,800 --> 00:00:09,670
+that we're starting with starting, that we can always make
+
+4
+00:00:09,680 --> 00:00:13,840
+this the medial triangle of a larger triangle
+
+5
+00:00:13,850 --> 00:00:17,010
+When we say the medial triangle we mean that each of the vertices
+
+6
+00:00:17,020 --> 00:00:19,990
+of this tria, of this triangle will be the midpoint
+
+7
+00:00:20,000 --> 00:00:22,730
+of the sides of a larger triangle
+
+8
+00:00:22,740 --> 00:00:24,450
+I wanted to show you that you can always construct that
+
+9
+00:00:24,460 --> 00:00:27,530
+If you start with this triangle, you can always have this be
+
+10
+00:00:27,540 --> 00:00:30,500
+the medial triangle of larger triangle
+
+11
+00:00:30,510 --> 00:00:34,300
+So to do that, let's draw a line that goes through
+
+12
+00:00:34,310 --> 00:00:39,310
+this point right over here but that's parallel to this line down here
+
+13
+00:00:39,320 --> 00:00:42,240
+So this line and this line up here
+
+14
+00:00:42,250 --> 00:00:44,900
+are going to be are going to be parallel
+
+15
+00:00:44,910 --> 00:00:46,660
+So just like that
+
+16
+00:00:46,670 --> 00:00:48,030
+And immediately we can start to say
+
+17
+00:00:48,040 --> 00:00:50,250
+some interesting things about the angles
+
+18
+00:00:50,260 --> 00:00:52,580
+So if we have a transversal right over here,
+
+19
+00:00:52,590 --> 00:00:54,960
+we can view this side as a transversal
+
+20
+00:00:54,970 --> 00:00:58,030
+of these two parallel lines or this line and this segment
+
+21
+00:00:58,040 --> 00:01:01,600
+We know that alternate interior angles are congruent
+
+22
+00:01:01,610 --> 00:01:04,510
+So that angle is going to be congruent to that angle
+
+23
+00:01:04,520 --> 00:01:07,200
+And we also know that this angle, in blue,
+
+24
+00:01:07,210 --> 00:01:10,750
+is going to be congruent to that angle right over there
+
+25
+00:01:10,760 --> 00:01:13,070
+Now let's do that for the other two sides
+
+26
+00:01:13,080 --> 00:01:17,110
+So let' create, let's create a line that is parallel
+
+27
+00:01:17,120 --> 00:01:19,870
+to this side of the triangle but that goes through
+
+28
+00:01:19,880 --> 00:01:21,750
+this point right over here
+
+29
+00:01:21,760 --> 00:01:27,020
+So let me draw it as well as possible
+
+30
+00:01:27,030 --> 00:01:30,250
+And so these two characters are going to be parallel
+
+31
+00:01:30,260 --> 00:01:32,770
+And you could always construct a line that's parallel to another line
+
+32
+00:01:32,780 --> 00:01:35,740
+that, that goes thru a point that's not on that line
+
+33
+00:01:35,750 --> 00:01:39,470
+And so once again we can use alternate interior angles
+
+34
+00:01:39,480 --> 00:01:42,600
+We know that if this angle right over here
+
+35
+00:01:42,610 --> 00:01:44,220
+Just let's say we have this orange angle,
+
+36
+00:01:44,230 --> 00:01:48,750
+its alternate interior angle is this angle right over there
+
+37
+00:01:48,760 --> 00:01:50,590
+We also have corresponding angles
+
+38
+00:01:50,600 --> 00:01:55,300
+This blue angle corresponds to this angle right over here
+
+39
+00:01:55,310 --> 00:01:59,090
+So it'll correspond to that angle right over there
+
+40
+00:01:59,100 --> 00:02:02,390
+And now let's draw another line that is parallel to
+
+41
+00:02:02,400 --> 00:02:05,280
+this line right over here, parallel to this one right over here
+
+42
+00:02:05,290 --> 00:02:07,060
+but it goes through this vertex,
+
+43
+00:02:07,070 --> 00:02:09,650
+Goes to the vertex that's opposite that line
+
+44
+00:02:09,660 --> 00:02:12,140
+And so Let me just draw it
+
+45
+00:02:12,150 --> 00:02:16,430
+You can always construct these parallel lines, and just like that
+
+46
+00:02:16,440 --> 00:02:17,800
+And let's see what happens
+
+47
+00:02:17,810 --> 00:02:19,670
+So once again, these two lines are parallel
+
+48
+00:02:19,680 --> 00:02:21,900
+So you could view this green line as a transversal
+
+49
+00:02:21,910 --> 00:02:25,380
+If this green line is transversal, this corresponding angle
+
+50
+00:02:25,390 --> 00:02:27,960
+is this angle right over here
+
+51
+00:02:27,970 --> 00:02:32,810
+If we view, if we view this green line as a transversal of both
+
+52
+00:02:32,820 --> 00:02:37,090
+of these pink lines, then this angle corresponds to
+
+53
+00:02:37,100 --> 00:02:39,640
+this angle right over here
+
+54
+00:02:39,930 --> 00:02:42,310
+If we view this yellow line as a transversal
+
+55
+00:02:42,320 --> 00:02:45,780
+of both of these pink lines
+
+56
+00:02:45,790 --> 00:02:47,530
+Actually let's look at, let's look at it this way
+
+57
+00:02:47,540 --> 00:02:51,630
+View the pink line as a transversal of these two yellow lines
+
+58
+00:02:51,640 --> 00:02:54,400
+Then we know that this angle corresponds
+
+59
+00:02:54,410 --> 00:02:56,310
+to this angle right over here
+
+60
+00:02:56,320 --> 00:02:58,330
+And if you view this yellow line
+
+61
+00:02:58,340 --> 00:03:00,640
+as a transversal of these two pink lines
+
+62
+00:03:00,650 --> 00:03:06,540
+Then this angle corresponds to this angle right over here
+
+63
+00:03:06,550 --> 00:03:09,710
+And then the last thing we would have to, the last
+
+64
+00:03:09,720 --> 00:03:13,740
+this we should, we need to think about is, if we think about
+
+65
+00:03:13,750 --> 00:03:18,060
+the two green parallel lines, the two green parallel lines,
+
+66
+00:03:18,070 --> 00:03:22,460
+and you look at the and you view this yellow line as a transversal
+
+67
+00:03:22,470 --> 00:03:27,420
+Then this corresponding angle in orange is right over here
+
+68
+00:03:27,430 --> 00:03:30,060
+This corresponds to that angle
+
+69
+00:03:30,070 --> 00:03:33,540
+Cause this yellow line is a transversal on both of these green lines
+
+70
+00:03:33,550 --> 00:03:36,380
+So what I've just show starting with
+
+71
+00:03:36,390 --> 00:03:39,160
+this inner triangle right over here is that,
+
+72
+00:03:39,170 --> 00:03:42,040
+If I construct these parallel lines in this way,
+
+73
+00:03:42,050 --> 00:03:44,670
+that I now have four triangles,
+
+74
+00:03:44,680 --> 00:03:45,850
+if I include the original one,
+
+75
+00:03:45,860 --> 00:03:47,410
+and they're all going to be similar to each other
+
+76
+00:03:47,420 --> 00:03:48,550
+And we know that they're all similar
+
+77
+00:03:48,560 --> 00:03:50,350
+because they all have the exact same angles
+
+78
+00:03:50,360 --> 00:03:52,300
+You just need two angles to prove similarity
+
+79
+00:03:52,310 --> 00:03:56,150
+but all four of these triangles have the exact three angles
+
+80
+00:03:56,160 --> 00:03:58,400
+Now, the other thing we can show is that they're congruent
+
+81
+00:03:58,410 --> 00:04:00,120
+So all of these four are similar
+
+82
+00:04:00,130 --> 00:04:02,080
+And we also know they're congruent
+
+83
+00:04:02,090 --> 00:04:06,660
+For example, this side right over here in yellow
+
+84
+00:04:06,670 --> 00:04:10,010
+is the side in this triangle between the orange and the green side
+
+85
+00:04:10,020 --> 00:04:11,980
+Is the side between the orange and the green side
+
+86
+00:04:11,990 --> 00:04:14,150
+on this triangle right over here
+
+87
+00:04:14,160 --> 00:04:17,810
+So these two, that we have an angle, a side,
+
+88
+00:04:17,820 --> 00:04:20,340
+and an angle, Angle-Side-Angle congruency
+
+89
+00:04:20,350 --> 00:04:23,410
+So these two are going to be congruent to each other
+
+90
+00:04:23,420 --> 00:04:27,950
+Then over here, the, on this inner triangle, our original triangle,
+
+91
+00:04:27,960 --> 00:04:30,970
+the side that's between the orange and the blue side
+
+92
+00:04:30,980 --> 00:04:33,930
+is going to be congruent to the sides between the orange
+
+93
+00:04:33,940 --> 00:04:35,620
+and the blue side on that triangle
+
+94
+00:04:35,630 --> 00:04:38,100
+Once again, we have Angle-Side-Angle congruency
+
+95
+00:04:38,110 --> 00:04:40,760
+So this is congruent to this which is congruent to that
+
+96
+00:04:40,770 --> 00:04:43,230
+All of these are going to be congruent
+
+97
+00:04:43,240 --> 00:04:48,280
+And by the same exact argument, same exact argument
+
+98
+00:04:48,290 --> 00:04:52,150
+this middle triangle is going to be congruent to this bottom triangle
+
+99
+00:04:52,160 --> 00:04:57,000
+That the, you have an angle, blue angle, purple side, green angle,
+
+100
+00:04:57,010 --> 00:04:59,460
+blue angle, purple side, green angle,
+
+101
+00:04:59,470 --> 00:05:01,190
+they're congruent to each other
+
+102
+00:05:01,200 --> 00:05:04,550
+So, if all of these triangles are congruent to each other
+
+103
+00:05:04,560 --> 00:05:07,180
+So the corresponding sides are equal
+
+104
+00:05:07,190 --> 00:05:10,520
+So if you look at this triangle over here
+
+105
+00:05:10,530 --> 00:05:14,570
+We know that the side between the blue angle,
+
+106
+00:05:14,580 --> 00:05:18,150
+between the blue angle and the green angle is,
+
+107
+00:05:18,160 --> 00:05:21,710
+is going to be equal to this angle right over here,
+
+108
+00:05:21,720 --> 00:05:24,460
+and sorry, it is equal to this length
+
+109
+00:05:24,470 --> 00:05:26,190
+So it's going to be equal to this length
+
+110
+00:05:26,200 --> 00:05:28,660
+between the blue and the green, we have this length
+
+111
+00:05:28,670 --> 00:05:30,190
+Between the blue and the green we have that length
+
+112
+00:05:30,200 --> 00:05:33,300
+Between the blue and the green we have that length right over there
+
+113
+00:05:33,310 --> 00:05:35,330
+So you immediately see that this point
+
+114
+00:05:35,340 --> 00:05:38,230
+and let me label it now, maybe I should have labeled it before
+
+115
+00:05:38,240 --> 00:05:39,490
+If we call that point A,
+
+116
+00:05:39,500 --> 00:05:42,920
+we see that A is the midpoint of, of, we call
+
+117
+00:05:42,930 --> 00:05:46,700
+this point B and call this point C right over here
+
+118
+00:05:46,710 --> 00:05:49,430
+So A is the midpoint of BC
+
+119
+00:05:49,440 --> 00:05:50,560
+So that's fair enough
+
+120
+00:05:50,570 --> 00:05:52,480
+So I was able to construct it in that way
+
+121
+00:05:52,490 --> 00:05:54,830
+Now let's look at the other sides
+
+122
+00:05:54,840 --> 00:05:57,360
+So this green side on all the triangles
+
+123
+00:05:57,370 --> 00:05:58,850
+is the, is the, is the side between
+
+124
+00:05:58,860 --> 00:06:00,950
+the blue and the orange angle
+
+125
+00:06:00,960 --> 00:06:02,880
+So between the blue and the orange angle,
+
+126
+00:06:02,890 --> 00:06:05,040
+you have the green side, between the blue
+
+127
+00:06:05,050 --> 00:06:07,410
+and the orange angle you have the green side
+
+128
+00:06:07,420 --> 00:06:10,410
+So once again, this length is equal to this length
+
+129
+00:06:10,420 --> 00:06:13,220
+and so if we call this point over here D
+
+130
+00:06:13,230 --> 00:06:15,360
+and maybe this point over here E
+
+131
+00:06:15,370 --> 00:06:18,640
+You see that D is the midpoint of BE
+
+132
+00:06:18,650 --> 00:06:21,880
+And then finally, the yellow side is between
+
+133
+00:06:21,890 --> 00:06:23,200
+the green and the orange
+
+134
+00:06:23,210 --> 00:06:25,250
+So between the green and the orange we have a yellow side,
+
+135
+00:06:25,260 --> 00:06:27,170
+between the green and the orange you have a yellow side,
+
+136
+00:06:27,180 --> 00:06:28,730
+all these triangles are congruent
+
+137
+00:06:28,740 --> 00:06:31,220
+So once again, let me call this F,
+
+138
+00:06:31,230 --> 00:06:35,610
+we see that F is the midpoint of EC
+
+139
+00:06:35,620 --> 00:06:38,460
+So we've done what we wanted to do, we've shown
+
+140
+00:06:38,470 --> 00:06:40,760
+that if you start with any arbitrary triangle,
+
+141
+00:06:40,770 --> 00:06:44,370
+triangle ADF, triangle ADF,
+
+142
+00:06:44,380 --> 00:06:50,760
+we can construct a triangle BCE, we can construct, construct
+
+143
+00:06:50,770 --> 00:07:05,950
+a triangle BCE, so that ADF, ADF is triangle BCE's medial triangle
+
+144
+00:07:05,960 --> 00:07:11,710
+And all that means, all that means is that the vertices of ADF sit on
+
+145
+00:07:11,720 --> 00:07:14,350
+the midpoints of BCE
+
+146
+00:07:14,360 --> 00:07:17,440
+So you might say, "Sal, that by itself is interesting but what's
+
+147
+00:07:17,450 --> 00:07:18,690
+the whole point of this?"
+
+148
+00:07:18,700 --> 00:07:21,770
+The whole point of this is actually is I wanted to use this fact
+
+149
+00:07:21,780 --> 00:07:23,360
+that if you give me any triangle,
+
+150
+00:07:23,370 --> 00:07:25,920
+I can make it the medial triangle of a large one
+
+151
+00:07:25,930 --> 00:07:29,820
+To prove that the altitude of this triangle are concurrent
+
+152
+00:07:29,830 --> 00:07:32,840
+And to see that, let me first draw the altitudes
+
+153
+00:07:32,850 --> 00:07:35,730
+So an altitude from vertex A looks like this,
+
+154
+00:07:35,740 --> 00:07:37,970
+it starts with the vertex goes to the opposite side
+
+155
+00:07:37,980 --> 00:07:40,380
+it is perpendicular to the opposite side
+
+156
+00:07:40,390 --> 00:07:44,280
+If I draw an altitude from vertex D, it would look like this
+
+157
+00:07:44,290 --> 00:07:49,360
+And if I draw an altitude from vertex F, it will look like this
+
+158
+00:07:49,370 --> 00:07:53,150
+And what I did, this whole set-up of this video is to show, to prove
+
+159
+00:07:53,160 --> 00:07:57,960
+that this will always, to prove that this will always be concurrent
+
+160
+00:07:57,970 --> 00:08:00,620
+And you might say "wait! we How, how do how do we know
+
+161
+00:08:00,630 --> 00:08:02,210
+that they are concurrent "
+
+162
+00:08:02,220 --> 00:08:03,770
+Well, all you have to do is think about
+
+163
+00:08:03,780 --> 00:08:05,930
+how they interact with the larger triangle
+
+164
+00:08:05,940 --> 00:08:06,940
+How do these altitudes,
+
+165
+00:08:06,950 --> 00:08:09,540
+what are these altitudes of the larger triangle?
+
+166
+00:08:09,550 --> 00:08:13,350
+Well this yellow altitude to the larger triangle, remember,
+
+167
+00:08:13,360 --> 00:08:17,290
+these two yellow lines, line AD and line CE are parallel
+
+168
+00:08:17,300 --> 00:08:20,800
+So, if this is a 90 degree angle, so its, its core,
+
+169
+00:08:20,810 --> 00:08:24,170
+its alternate interior angle is also going to be 90 degrees
+
+170
+00:08:24,180 --> 00:08:27,570
+So this right over here is perpendicular to CE
+
+171
+00:08:27,580 --> 00:08:32,580
+and it bisects CE because we know that ADE is the medial triangle
+
+172
+00:08:32,590 --> 00:08:34,060
+This is the midpoint
+
+173
+00:08:34,070 --> 00:08:36,640
+So this right over here is perpendicular bisector
+
+174
+00:08:36,650 --> 00:08:43,060
+This is a perpendicular bisector, bisector for the larger triangle,
+
+175
+00:08:43,070 --> 00:08:45,920
+for triangle BCE
+
+176
+00:08:45,930 --> 00:08:49,340
+So this altitude for the smaller one is a perpendicular bisector
+
+177
+00:08:49,350 --> 00:08:50,160
+for the larger one
+
+178
+00:08:50,170 --> 00:08:51,870
+We can do that for all of them
+
+179
+00:08:51,880 --> 00:08:54,100
+If this angle right over here is 90 degrees,
+
+180
+00:08:54,110 --> 00:08:56,680
+then this angle right over there is going to be 90 degrees
+
+181
+00:08:56,690 --> 00:08:59,860
+Cause this line is parallel to this, this is a transversal
+
+182
+00:08:59,870 --> 00:09:02,880
+Alternate interior angles are the same
+
+183
+00:09:02,890 --> 00:09:07,110
+So this line right over here, this altitude of the smaller triangle
+
+184
+00:09:07,120 --> 00:09:10,340
+It bisects right at the midpoint of the larger one on this side
+
+185
+00:09:10,350 --> 00:09:12,890
+and it's also a perpendicular bisector
+
+186
+00:09:12,900 --> 00:09:16,140
+So it's a perpendicular bisector of the larger triangle
+
+187
+00:09:16,150 --> 00:09:17,400
+And then finally the same thing
+
+188
+00:09:17,410 --> 00:09:19,750
+is true of this altitude right over here
+
+189
+00:09:19,760 --> 00:09:24,790
+It bisects this side of the larger triangle at a 90 degree angle
+
+190
+00:09:24,800 --> 00:09:26,700
+We know that because these two magenta lines
+
+191
+00:09:26,710 --> 00:09:28,820
+is the way we constructed the larger triangle
+
+192
+00:09:28,830 --> 00:09:29,970
+if they're going to be parallel
+
+193
+00:09:29,980 --> 00:09:32,770
+So once again this is a perpendicular bisector
+
+194
+00:09:32,780 --> 00:09:36,620
+So this whole reason, if you just give me any, any triangle
+
+195
+00:09:36,630 --> 00:09:39,720
+I can take its altitudes and I know that its altitudes are going
+
+196
+00:09:39,730 --> 00:09:41,650
+to intersect in one point
+
+197
+00:09:41,660 --> 00:09:42,670
+They're going to be concurrent
+
+198
+00:09:42,680 --> 00:09:45,720
+Because for any triangle, I can make it the medial triangle
+
+199
+00:09:45,730 --> 00:09:48,100
+of a larger one and then it's altitude will be
+
+200
+00:09:48,110 --> 00:09:50,920
+the perpendicular bisector for the larger triangle
+
+201
+00:09:50,930 --> 00:09:53,670
+And we already know that the perpendicular bisector,
+
+202
+00:09:53,680 --> 00:09:55,790
+is for any triangle, are concurrent
+
+203
+00:09:55,800 --> 00:10:00,370
+They do intersect in exactly, in exactly one point

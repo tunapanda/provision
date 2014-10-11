@@ -1,0 +1,592 @@
+1
+00:00:00,000 --> 00:00:00,620
+   
+
+2
+00:00:00,620 --> 00:00:04,850
+We're told that for the past
+few months, Old Maple Farms
+
+3
+00:00:04,850 --> 00:00:08,690
+has grown about 1,000 more
+apples than their chief rival
+
+4
+00:00:08,690 --> 00:00:11,000
+in the region, River Orchards.
+
+5
+00:00:11,000 --> 00:00:14,180
+Due to cold weather this year,
+the harvests at both farms
+
+6
+00:00:14,180 --> 00:00:15,920
+were down by about a third.
+
+7
+00:00:15,920 --> 00:00:19,050
+However, both farms made up for
+some of the shortfall by
+
+8
+00:00:19,050 --> 00:00:23,980
+purchasing equal quantities
+of apples from farms in
+
+9
+00:00:23,980 --> 00:00:26,540
+neighboring states.
+
+10
+00:00:26,540 --> 00:00:28,950
+What can you say about
+the number of apples
+
+11
+00:00:28,950 --> 00:00:30,130
+available at each farm?
+
+12
+00:00:30,130 --> 00:00:32,800
+Does one farm have more than the
+other, or do they have the
+
+13
+00:00:32,800 --> 00:00:33,670
+same amount?
+
+14
+00:00:33,670 --> 00:00:35,200
+How do I know?
+
+15
+00:00:35,200 --> 00:00:37,410
+So let's define some
+variables here.
+
+16
+00:00:37,410 --> 00:00:57,220
+Let's let M be equal to number
+of apples at Maple Farms. And
+
+17
+00:00:57,220 --> 00:00:58,310
+then who's the other guy?
+
+18
+00:00:58,310 --> 00:00:59,260
+River Orchards.
+
+19
+00:00:59,260 --> 00:01:03,750
+So let's let R be equal
+to the number of
+
+20
+00:01:03,750 --> 00:01:12,030
+apples at River Orchards.
+
+21
+00:01:12,030 --> 00:01:14,690
+So this first sentence, they
+say-- let me do this in a
+
+22
+00:01:14,690 --> 00:01:17,540
+different color-- they say for
+the past few years, Old Maple
+
+23
+00:01:17,540 --> 00:01:22,560
+Farms has grown about 1,000 more
+apples than their chief
+
+24
+00:01:22,560 --> 00:01:25,650
+rival in the region,
+River Orchards.
+
+25
+00:01:25,650 --> 00:01:31,500
+So we could say, hey, Maple is
+approximately Old River, or M
+
+26
+00:01:31,500 --> 00:01:34,680
+is approximately River
+plus 1,000.
+
+27
+00:01:34,680 --> 00:01:37,190
+Or since we don't know the exact
+amount-- it says it's
+
+28
+00:01:37,190 --> 00:01:39,940
+about 1,000 more, so we don't
+know it's exactly 1,000 more--
+
+29
+00:01:39,940 --> 00:01:44,080
+we can just say that in a normal
+year, Old Maple Farms,
+
+30
+00:01:44,080 --> 00:01:49,880
+which we denote by M, has a
+larger amount of apples than
+
+31
+00:01:49,880 --> 00:01:51,170
+River Orchard.
+
+32
+00:01:51,170 --> 00:01:53,750
+So in a normal year, M is
+greater than R, right?
+
+33
+00:01:53,750 --> 00:01:56,620
+It has about 1,000 more apples
+than Old Maple Farms.
+
+34
+00:01:56,620 --> 00:01:59,660
+Now, they say due to cold
+weather this year-- so let's
+
+35
+00:01:59,660 --> 00:02:02,570
+talk about this year now-- the
+harvests at both farms were
+
+36
+00:02:02,570 --> 00:02:03,995
+down about a third.
+
+37
+00:02:03,995 --> 00:02:07,930
+   
+
+38
+00:02:07,930 --> 00:02:09,620
+So this isn't a normal year.
+
+39
+00:02:09,620 --> 00:02:11,660
+Let's talk about what's going
+to happen this year.
+
+40
+00:02:11,660 --> 00:02:13,700
+In this year, each of these
+characters are going to be
+
+41
+00:02:13,700 --> 00:02:15,280
+down by 1/3.
+
+42
+00:02:15,280 --> 00:02:18,710
+Now if I go down by 1/3, that's
+the same thing as being
+
+43
+00:02:18,710 --> 00:02:20,510
+2/3 of what I was before.
+
+44
+00:02:20,510 --> 00:02:21,380
+Let me do an example.
+
+45
+00:02:21,380 --> 00:02:26,700
+If I'm at x, and I take away
+1/3x, I'm left with 2/3x.
+
+46
+00:02:26,700 --> 00:02:29,400
+   
+
+47
+00:02:29,400 --> 00:02:33,800
+So going down by 1/3 is the same
+thing as multiplying the
+
+48
+00:02:33,800 --> 00:02:35,910
+quantity by 2/3.
+
+49
+00:02:35,910 --> 00:02:38,760
+So if we multiply each of these
+quantities by 2/3, we
+
+50
+00:02:38,760 --> 00:02:40,880
+can still hold this inequality,
+because we're
+
+51
+00:02:40,880 --> 00:02:44,010
+doing the same thing to both
+sides of this inequality, and
+
+52
+00:02:44,010 --> 00:02:46,340
+we're multiplying by
+a positive number.
+
+53
+00:02:46,340 --> 00:02:48,680
+If we were multiplying by a
+negative number, we would have
+
+54
+00:02:48,680 --> 00:02:50,460
+to swap the inequality.
+
+55
+00:02:50,460 --> 00:02:54,400
+So we can multiply both
+sides of this by 2/3.
+
+56
+00:02:54,400 --> 00:02:59,525
+So 2/3 of M is still going to
+be greater than 2/3 of R.
+
+57
+00:02:59,525 --> 00:03:02,620
+And you could even draw that in
+a number line if you like.
+
+58
+00:03:02,620 --> 00:03:04,280
+Let's do this in
+a number line.
+
+59
+00:03:04,280 --> 00:03:06,450
+This all might be a little
+intuitive for you, and if it
+
+60
+00:03:06,450 --> 00:03:08,980
+is, I apologize, but if it's
+not, it never hurts.
+
+61
+00:03:08,980 --> 00:03:10,440
+So that's 0 on our
+number line.
+
+62
+00:03:10,440 --> 00:03:15,490
+So in a normal year, M is
+has 1,000 more than R.
+
+63
+00:03:15,490 --> 00:03:18,330
+So in a normal year, M might
+be over here and
+
+64
+00:03:18,330 --> 00:03:20,310
+maybe R is over here.
+
+65
+00:03:20,310 --> 00:03:23,950
+I don't know, let's say
+R is over there.
+
+66
+00:03:23,950 --> 00:03:29,050
+Now, if we take 2/3 of M, that's
+going to stick us some
+
+67
+00:03:29,050 --> 00:03:32,340
+place around, oh, I
+don't know, 2/3
+
+68
+00:03:32,340 --> 00:03:33,840
+is right about there.
+
+69
+00:03:33,840 --> 00:03:40,250
+So this is M-- let me write
+this-- this is 2/3 M.
+
+70
+00:03:40,250 --> 00:03:41,910
+And what's 2/3 of
+R going to be?
+
+71
+00:03:41,910 --> 00:03:45,250
+Well, if you take 2/3 of this,
+you get to right about there,
+
+72
+00:03:45,250 --> 00:03:47,970
+that is 2/3R.
+
+73
+00:03:47,970 --> 00:03:56,360
+So you can see, 2/3R is still
+less than 2/3M, or 2/3M is
+
+74
+00:03:56,360 --> 00:03:59,220
+greater than 2/3R.
+
+75
+00:03:59,220 --> 00:04:04,890
+Now, they say both farms made
+up for some of the shortfall
+
+76
+00:04:04,890 --> 00:04:08,900
+by purchasing equal quantities
+of apples from farms in
+
+77
+00:04:08,900 --> 00:04:10,200
+neighboring states.
+
+78
+00:04:10,200 --> 00:04:21,579
+So let's let a be equal
+to the quantity
+
+79
+00:04:21,579 --> 00:04:26,235
+of apples both purchased.
+
+80
+00:04:26,235 --> 00:04:29,240
+   
+
+81
+00:04:29,240 --> 00:04:30,430
+So they're telling
+us that they both
+
+82
+00:04:30,430 --> 00:04:31,870
+purchased the same amount.
+
+83
+00:04:31,870 --> 00:04:34,840
+So we could add a to both sides
+of this equation and it
+
+84
+00:04:34,840 --> 00:04:36,410
+will not change the
+inequality.
+
+85
+00:04:36,410 --> 00:04:39,670
+As long as you add or subtract
+the same value to both sides,
+
+86
+00:04:39,670 --> 00:04:41,640
+it will not change
+the inequality.
+
+87
+00:04:41,640 --> 00:04:46,000
+So if you add a to both sides,
+you have a plus 2/3M is a
+
+88
+00:04:46,000 --> 00:04:49,150
+greater than 2/3R plus a.
+
+89
+00:04:49,150 --> 00:04:52,980
+This is the amount that Old
+Maple Farms has after
+
+90
+00:04:52,980 --> 00:04:57,080
+purchasing the apples, and this
+is the amount that River
+
+91
+00:04:57,080 --> 00:04:58,380
+Orchards has.
+
+92
+00:04:58,380 --> 00:05:01,440
+So after everything is said
+and done, Old Maple Farms
+
+93
+00:05:01,440 --> 00:05:04,200
+still has more apples, and
+you can see that here.
+
+94
+00:05:04,200 --> 00:05:07,690
+Maple Farms, a normal year, this
+year they only had 2/3 of
+
+95
+00:05:07,690 --> 00:05:10,180
+the production, but then they
+purchased a apples.
+
+96
+00:05:10,180 --> 00:05:14,510
+So let's say a is about, let's
+say that a is that many
+
+97
+00:05:14,510 --> 00:05:18,040
+apples, so they got back
+to their normal amount.
+
+98
+00:05:18,040 --> 00:05:19,810
+So let's say they got back
+to their normal amount.
+
+99
+00:05:19,810 --> 00:05:21,610
+So that's how many apples
+they purchased, so
+
+100
+00:05:21,610 --> 00:05:23,590
+he got back to M.
+
+101
+00:05:23,590 --> 00:05:29,360
+Now, if R, if River Orchards
+also purchased a apples, that
+
+102
+00:05:29,360 --> 00:05:33,110
+same distance, a, if you go
+along here gets you to right
+
+103
+00:05:33,110 --> 00:05:35,370
+about over there.
+
+104
+00:05:35,370 --> 00:05:38,960
+So once again, this is-- let
+me do it a little bit
+
+105
+00:05:38,960 --> 00:05:42,010
+different, because I don't like
+it overlapping, so let me
+
+106
+00:05:42,010 --> 00:05:42,740
+do it like this.
+
+107
+00:05:42,740 --> 00:05:46,260
+So let's say this guy, M-- I
+keep forgetting their names--
+
+108
+00:05:46,260 --> 00:05:50,900
+Old Maple Farms purchases a
+apples, gets them that far.
+
+109
+00:05:50,900 --> 00:05:52,360
+So that's a apples.
+
+110
+00:05:52,360 --> 00:05:55,700
+But River Orchards also
+purchases a apples, so let's
+
+111
+00:05:55,700 --> 00:05:56,700
+add that same amount.
+
+112
+00:05:56,700 --> 00:05:58,700
+I'm just going to copy and paste
+it so it's the exact
+
+113
+00:05:58,700 --> 00:05:59,950
+same amount.
+
+114
+00:05:59,950 --> 00:06:02,310
+   
+
+115
+00:06:02,310 --> 00:06:07,450
+So River Orchards also purchases
+a, so it also
+
+116
+00:06:07,450 --> 00:06:09,470
+purchases that same amount.
+
+117
+00:06:09,470 --> 00:06:12,980
+So when all is said and done,
+River Orchards is going to
+
+118
+00:06:12,980 --> 00:06:16,390
+have this many apples in the
+year that they had less
+
+119
+00:06:16,390 --> 00:06:17,800
+production but they went
+and purchased it.
+
+120
+00:06:17,800 --> 00:06:21,420
+So this, right here, is--
+this value right here
+
+121
+00:06:21,420 --> 00:06:26,120
+is 2/3R plus a.
+
+122
+00:06:26,120 --> 00:06:27,380
+That's what River
+Orchards has.
+
+123
+00:06:27,380 --> 00:06:30,830
+And then Old Maple Farms has
+this value right here, which
+
+124
+00:06:30,830 --> 00:06:34,290
+is 2/3M plus a.
+
+125
+00:06:34,290 --> 00:06:36,590
+Everything said and done,
+Old Maple Farms
+
+126
+00:06:36,590 --> 00:06:38,660
+still has more apples.
+
+127
+00:06:38,660 --> 00:06:38,666
+

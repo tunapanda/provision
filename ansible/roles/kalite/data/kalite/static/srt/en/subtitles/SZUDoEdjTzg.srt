@@ -1,0 +1,143 @@
+1
+99:59:59,999 --> 99:59:59,999
+So where we left off in the last video, Vi and myself had posed a mystery to you. We had talked about
+
+2
+99:59:59,999 --> 99:59:59,999
+Benford's law, and we asked, "What is up with Benford's law?"
+
+3
+99:59:59,999 --> 99:59:59,999
+This idea that if you took just random countries and took their population and took the most significant
+
+4
+99:59:59,999 --> 99:59:59,999
+figures of their population and plotted
+
+5
+99:59:59,999 --> 99:59:59,999
+the numbers, the numbers of countries that their most significant figures were a 1 versus a 2 versus
+
+6
+99:59:59,999 --> 99:59:59,999
+a 3, you just had - it was much more likely that it was a 1.
+
+7
+99:59:59,999 --> 99:59:59,999
+Or that, if you took physical constants of the universe that they're most likely to have 1
+
+8
+99:59:59,999 --> 99:59:59,999
+as their most significant digit.
+
+9
+99:59:59,999 --> 99:59:59,999
+And that - I wish we had more graphs, because graphs are FUN -
+
+10
+99:59:59,999 --> 99:59:59,999
+but if you look at information from the stock market or ANYTHING
+
+11
+99:59:59,999 --> 99:59:59,999
+and it seemed to all follow this curve. And what was EXTREMELY mysterious -
+
+12
+99:59:59,999 --> 99:59:59,999
+and this is where we finished off the last video -
+
+13
+99:59:59,999 --> 99:59:59,999
+if you look at PURE, I would say, compounding phenomenon
+
+14
+99:59:59,999 --> 99:59:59,999
+like, say, the Fibbonaci sequence or powers of 2
+
+15
+99:59:59,999 --> 99:59:59,999
+that exactly fits the Benford distribution.
+
+16
+99:59:59,999 --> 99:59:59,999
+It exactly fits this. If you take all the powers of 2 exactly 30%, or I don't know if a little bit over 30%
+
+17
+99:59:59,999 --> 99:59:59,999
+of those powers of 2, all of those powers of 2 have 1 as their most significant digit.
+
+18
+99:59:59,999 --> 99:59:59,999
+A little bit - what is this? 17? Roughly 17% of all of them have 2 as their most significant digit.
+
+19
+99:59:59,999 --> 99:59:59,999
+Although in this case, there was an infinite number in every test case, so it was harder to graph.
+
+20
+99:59:59,999 --> 99:59:59,999
+But if you wanted to try it out, you could take the first million powers of 2 and then find the percentage
+
+21
+99:59:59,999 --> 99:59:59,999
+and that would probably give you a pretty good approximation of things.
+
+22
+99:59:59,999 --> 99:59:59,999
+So to me that's, like, less mysterious when you're looking at - I mean -
+
+23
+99:59:59,999 --> 99:59:59,999
+on the one hand, wow, this fits exactly with mathematics but that also gives you a really good handle
+
+24
+99:59:59,999 --> 99:59:59,999
+'cuz you realize, alright, there's something here I can actually take a look at.
+
+25
+99:59:59,999 --> 99:59:59,999
+You can take a look at and it becomes something you can dig deeper in.
+
+26
+99:59:59,999 --> 99:59:59,999
+We said in the last video we wanted you to pause it and think deeper
+
+27
+99:59:59,999 --> 99:59:59,999
+because frankly, we had to do the same thing,
+
+28
+99:59:59,999 --> 99:59:59,999
+and a big clue for us was when we looked at a logarithmic scale
+
+29
+99:59:59,999 --> 99:59:59,999
+and we're looking at one right over here, and just to be clear:
+
+30
+99:59:59,999 --> 99:59:59,999
+what's going on in this logarithmic scale is, you see equal spaces on the scale are powers of 10
+
+31
+99:59:59,999 --> 99:59:59,999
+so on a linear scale this would be a 1 and maybe this would be a 2 and then a 3
+
+32
+99:59:59,999 --> 99:59:59,999
+Or if we wanted to say this is a 2, you'd say this is a 1, this is a 10, this would be a 20 and a 30,
+
+33
+99:59:59,999 --> 99:59:59,999
+and so on and so forth, but on a logarithmic scale equal distances are times 10
+
+34
+99:59:59,999 --> 99:59:59,999
+or in this case if we're taking powers of 10
+
+35
+99:59:59,999 --> 99:59:59,999
+so this is 1:10 then 10:100 then 100:1000 and you see how the numbers in between fall out
+
+36
+99:59:59,999 --> 99:59:59,999
+so the space between 1 and 2 is pretty big and the space between 2 and 3 is still pretty big

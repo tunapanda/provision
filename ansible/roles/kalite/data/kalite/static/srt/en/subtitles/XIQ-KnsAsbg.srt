@@ -1,0 +1,826 @@
+1
+00:00:00,960 --> 00:00:01,930
+Welcome back.
+
+2
+00:00:01,930 --> 00:00:05,460
+I'm now going to do some more
+examples of a bit of a review
+
+3
+00:00:05,460 --> 00:00:07,300
+of some of the derivatives
+that we've been seeing.
+
+4
+00:00:07,300 --> 00:00:09,450
+And then I'll introduce you to
+something called the chain rule
+
+5
+00:00:09,450 --> 00:00:13,080
+which expands the universe of
+the types of functions we can
+
+6
+00:00:13,080 --> 00:00:14,290
+take the derivatives of.
+
+7
+00:00:14,290 --> 00:00:18,540
+So in the last presentation, I
+showed you how to function if I
+
+8
+00:00:18,540 --> 00:00:30,270
+had f of x is equal to 10x to
+the seventh plus 6x to the
+
+9
+00:00:30,270 --> 00:00:39,330
+third plus 15x minus
+x to the 16th.
+
+10
+00:00:39,330 --> 00:00:42,160
+To take the derivative of this
+entire function, we take just
+
+11
+00:00:42,160 --> 00:00:43,840
+the derivatives of each
+of the pieces, right?
+
+12
+00:00:43,840 --> 00:00:45,640
+Because you can add them up.
+
+13
+00:00:45,640 --> 00:00:51,560
+So f prime of x in this
+example, is equal to-- and
+
+14
+00:00:51,560 --> 00:00:52,755
+I think you get the hang
+of it at this point.
+
+15
+00:00:52,755 --> 00:00:54,150
+It's actually fairly
+straightforward.
+
+16
+00:00:54,150 --> 00:00:56,480
+We take the 7, multiply
+it by the 10.
+
+17
+00:00:56,480 --> 00:01:01,620
+So we get 70x, then
+1 degree less.
+
+18
+00:01:01,620 --> 00:01:10,940
+So 70x to the sixth plus
+18x squared plus 15.
+
+19
+00:01:10,940 --> 00:01:13,010
+We can kind of view this
+as x to the 1, right?
+
+20
+00:01:13,010 --> 00:01:16,920
+So it's 1 times 15
+times x to the 0.
+
+21
+00:01:16,920 --> 00:01:17,550
+Which is 1.
+
+22
+00:01:17,550 --> 00:01:23,840
+So that's just 15 minus
+16x to the 15th.
+
+23
+00:01:23,840 --> 00:01:25,330
+And I don't want you to
+lose sight of what we're
+
+24
+00:01:25,330 --> 00:01:26,090
+actually doing here.
+
+25
+00:01:26,090 --> 00:01:27,870
+What is f prime of x?
+
+26
+00:01:27,870 --> 00:01:32,770
+This is the function the tells
+us the slope of any point
+
+27
+00:01:32,770 --> 00:01:35,450
+x, along the curve f of x.
+
+28
+00:01:35,450 --> 00:01:37,860
+It's a pretty
+interesting thing.
+
+29
+00:01:37,860 --> 00:01:40,795
+Let me just draw to maybe give
+you a little bit of intuition.
+
+30
+00:01:40,795 --> 00:01:45,300
+32
+00:01:45,3 --> 00:01:47,49
+I don't know what the slope
+of f of x really looks like.
+
+31
+00:01:47,490 --> 00:01:49,560
+And actually, let's pretend
+like this isn't f of x.
+
+32
+00:01:49,560 --> 00:01:51,360
+Let's pretend like this
+is just some arbitrary
+
+33
+00:01:51,360 --> 00:01:53,270
+function I'm drawing.
+
+34
+00:01:53,270 --> 00:01:56,210
+If this is f of x, just some
+curve that does all sorts of
+
+35
+00:01:56,210 --> 00:02:01,430
+crazy things, f prime of x
+tells me the slope at any
+
+36
+00:02:01,430 --> 00:02:02,810
+point along that line.
+
+37
+00:02:02,810 --> 00:02:09,950
+So if I wanted to know the
+slope at this point right here,
+
+38
+00:02:09,950 --> 00:02:13,060
+I could use the derivative
+function to figure out the
+
+39
+00:02:13,060 --> 00:02:15,120
+slope of the tangent line.
+
+40
+00:02:15,120 --> 00:02:18,740
+The tangent line is something
+like that right there.
+
+41
+00:02:18,740 --> 00:02:21,930
+Or if I wanted to figure out
+the slope at this point,
+
+42
+00:02:21,930 --> 00:02:23,890
+once again I'd use the
+derivative function.
+
+43
+00:02:23,890 --> 00:02:26,340
+And it would tell me the
+slope of the tangent
+
+44
+00:02:26,340 --> 00:02:27,100
+line at that point.
+
+45
+00:02:27,100 --> 00:02:29,150
+Which would be
+something like that.
+
+46
+00:02:29,150 --> 00:02:30,960
+So it's a pretty useful thing.
+
+47
+00:02:30,960 --> 00:02:34,900
+And once I give you all the
+tools to analytically solve a
+
+48
+00:02:34,900 --> 00:02:36,560
+whole host of derivatives, then
+we'll actually do a bunch
+
+49
+00:02:36,560 --> 00:02:39,140
+of word problems and
+applications of derivatives.
+
+50
+00:02:39,140 --> 00:02:41,270
+And I think you'll see that
+it's a really, really,
+
+51
+00:02:41,270 --> 00:02:42,700
+really useful concept.
+
+52
+00:02:42,700 --> 00:02:43,600
+So let's move on.
+
+53
+00:02:43,600 --> 00:02:45,960
+I think you get the idea of
+how to do these derivatives
+
+54
+00:02:45,960 --> 00:02:48,610
+of polynomials.
+
+55
+00:02:48,610 --> 00:02:49,760
+Let me erase this.
+
+56
+00:02:49,760 --> 00:02:52,650
+I'm actually using a
+different tool now.
+
+57
+00:02:52,650 --> 00:02:56,110
+So I think it might
+be a bit easier.
+
+58
+00:02:56,110 --> 00:02:57,630
+Let's see, someone
+was calling me.
+
+59
+00:02:57,630 --> 00:03:00,520
+But you're more important so
+I will not answer the phone.
+
+60
+00:03:00,520 --> 00:03:08,440
+63
+00:03:08,44 --> 00:03:11,64
+I'm going to introduce you--
+this tool doesn't have, I
+
+61
+00:03:11,640 --> 00:03:14,330
+don't think it has a
+straight up eraser.
+
+62
+00:03:14,330 --> 00:03:15,230
+Actually, maybe let's see.
+
+63
+00:03:15,230 --> 00:03:16,350
+If I do it like this.
+
+64
+00:03:16,350 --> 00:03:27,480
+68
+00:03:27,48 --> 00:03:28,4
+Oh let me see.
+
+65
+00:03:28,400 --> 00:03:30,900
+70
+00:03:30,9 --> 00:03:32,15
+No that doesn't work.
+
+66
+00:03:32,150 --> 00:03:36,080
+Let me just erase like this,
+the old-fashioned way.
+
+67
+00:03:36,080 --> 00:03:39,530
+73
+00:03:39,53 --> 00:03:41
+You just have to bear with me.
+
+68
+00:03:45,280 --> 00:03:45,900
+This is good.
+
+69
+00:03:45,900 --> 00:03:48,410
+It feels like I'm a real
+teacher with a real chalkboard
+
+70
+00:03:48,410 --> 00:03:49,490
+and a real eraser now.
+
+71
+00:03:49,490 --> 00:03:53,530
+79
+00:03:53,53 --> 00:03:56,75
+This is a lot cleaner than a
+normal chalkboard as well.
+
+72
+00:03:56,750 --> 00:04:00,960
+Bear with me, almost there.
+
+73
+00:04:00,960 --> 00:04:02,630
+I'll figure out a faster
+way to do this over the
+
+74
+00:04:02,630 --> 00:04:04,590
+next couple of videos.
+
+75
+00:04:04,590 --> 00:04:05,210
+It's pretty sad.
+
+76
+00:04:05,210 --> 00:04:07,670
+I'm showing you how to do
+derivatives in calculus, but
+
+77
+00:04:07,670 --> 00:04:10,910
+I don't know how to erase
+a faster way than this.
+
+78
+00:04:10,910 --> 00:04:14,270
+87
+00:04:14,27 --> 00:04:15,56
+There, we're done.
+
+79
+00:04:15,560 --> 00:04:15,900
+OK.
+
+80
+00:04:15,900 --> 00:04:18,290
+So now I'm going show you how
+to solve the derivatives of a
+
+81
+00:04:18,290 --> 00:04:21,360
+slightly more complicated
+type of a function.
+
+82
+00:04:21,360 --> 00:04:23,080
+It's actually not
+more complicated.
+
+83
+00:04:23,080 --> 00:04:24,450
+It's just different.
+
+84
+00:04:24,450 --> 00:04:42,890
+So let's say f of x is equal to
+2x plus 3 to the fifth power.
+
+85
+00:04:42,890 --> 00:04:45,220
+And I want to figure out
+the derivative of this.
+
+86
+00:04:45,220 --> 00:04:46,320
+We're going to use something
+called the chain rule.
+
+87
+00:04:46,320 --> 00:04:49,020
+Because one thing we could do,
+we could just multiply out 2x
+
+88
+00:04:49,020 --> 00:04:50,600
+plus 3 to the fifth power.
+
+89
+00:04:50,600 --> 00:04:54,420
+And if you've ever done
+that, you know it's a pain.
+
+90
+00:04:54,420 --> 00:04:55,540
+So that's not something
+we'd want to do.
+
+91
+00:04:55,540 --> 00:04:57,280
+So we're going to use something
+called the chain rule.
+
+92
+00:04:57,280 --> 00:04:59,390
+And I'm just going to give you
+a bunch of examples before I
+
+93
+00:04:59,390 --> 00:05:01,060
+even show you the definition
+of the chain rule.
+
+94
+00:05:01,060 --> 00:05:02,330
+Because I think this is
+something that you just
+
+95
+00:05:02,330 --> 00:05:04,260
+have to learn by example.
+
+96
+00:05:04,260 --> 00:05:07,110
+So the chain rule just tells us
+that the derivative of let's
+
+97
+00:05:07,110 --> 00:05:10,820
+say this function right here.
+
+98
+00:05:10,820 --> 00:05:14,100
+You take the derivative of the
+subfunctions, and then you can
+
+99
+00:05:17,290 --> 00:05:19,010
+But I think when you introduce
+it formally, it gets
+
+100
+00:05:19,010 --> 00:05:19,890
+more confusing.
+
+101
+00:05:19,890 --> 00:05:23,455
+So what I do, I just take the
+derivative of 2x plus 3 first.
+
+102
+00:05:26,730 --> 00:05:29,510
+So I take the derivative
+of 2x plus 3.
+
+103
+00:05:29,510 --> 00:05:31,350
+What's the derivative
+of 2x plus 3?
+
+104
+00:05:31,350 --> 00:05:32,130
+Well you know that.
+
+105
+00:05:32,130 --> 00:05:36,470
+It's just the derivative
+of 2x, which is 2.
+
+106
+00:05:36,470 --> 00:05:37,860
+And then the
+derivative of 3 is 0.
+
+107
+00:05:37,860 --> 00:05:41,300
+So the derivative of
+2x plus 3 is just 2.
+
+108
+00:05:41,300 --> 00:05:45,030
+And then I'm going to multiply
+that times the derivative
+
+109
+00:05:45,030 --> 00:05:46,150
+of the whole thing.
+
+110
+00:05:46,150 --> 00:05:48,930
+And I just pretend like
+2x plus 3 is just like
+
+111
+00:05:48,930 --> 00:05:51,060
+a variable by itself.
+
+112
+00:05:51,060 --> 00:05:54,620
+So then what's the derivative
+of x to the fifth?
+
+113
+00:05:54,620 --> 00:05:56,630
+Well the derivative of x to the
+fifth-- I'm going to do that in
+
+114
+00:05:56,630 --> 00:06:00,366
+a different color-- the
+derivative of x to the
+
+115
+00:06:00,366 --> 00:06:05,590
+fifth is 5x to the fourth.
+
+116
+00:06:05,590 --> 00:06:13,270
+So it'll be 5 times
+something to the fourth.
+
+117
+00:06:13,270 --> 00:06:15,760
+But here we didn't take the
+derivative of x the fifth.
+
+118
+00:06:15,760 --> 00:06:18,010
+We took the derivative of
+2x plus 3 to the fifth.
+
+119
+00:06:18,010 --> 00:06:20,280
+So we just put the 2x
+plus 3 there instead.
+
+120
+00:06:20,280 --> 00:06:24,230
+134
+00:06:24,23 --> 00:06:26,19
+So what did we do here?
+
+121
+00:06:26,190 --> 00:06:29,290
+We went in the inside of
+the function, and we took
+
+122
+00:06:29,290 --> 00:06:29,860
+the derivative here.
+
+123
+00:06:29,860 --> 00:06:32,570
+And the derivative of
+2x plus 3 was just 2.
+
+124
+00:06:32,570 --> 00:06:35,570
+And then we multiplied
+it by the derivative of
+
+125
+00:06:35,570 --> 00:06:36,460
+the greater function.
+
+126
+00:06:36,460 --> 00:06:38,980
+And we just pretended like the
+2x plus 3 was a variable.
+
+127
+00:06:38,980 --> 00:06:40,120
+It was like x.
+
+128
+00:06:40,120 --> 00:06:44,410
+So instead of 5x to the
+fourth, we got 5 times
+
+129
+00:06:44,410 --> 00:06:46,170
+2x plus 3 to the fourth.
+
+130
+00:06:46,170 --> 00:06:51,540
+And if we just simplify that,
+f prime of x is equal to
+
+131
+00:06:51,540 --> 00:06:58,220
+2 times 5 is 10; 10 times
+2x plus 3 to the fourth.
+
+132
+00:06:58,220 --> 00:07:01,650
+That was a lot simpler than
+multiplying out 2x plus 3 to
+
+133
+00:07:01,650 --> 00:07:04,260
+the fifth power, and then doing
+the derivatives the old way.
+
+134
+00:07:04,260 --> 00:07:06,080
+I know this was probably a
+little confusing to you,
+
+135
+00:07:06,080 --> 00:07:09,270
+so I'm going to try to do
+a couple more examples.
+
+136
+00:07:09,270 --> 00:07:25,570
+Let's say I had g of x is equal
+to x-squared plus 2x plus
+
+137
+00:07:25,570 --> 00:07:30,620
+3 to the eighth power.
+
+138
+00:07:30,620 --> 00:07:36,430
+So g prime of x is going to
+equal-- well what did we say?
+
+139
+00:07:36,430 --> 00:07:38,090
+We take the derivative
+of the inside.
+
+140
+00:07:38,090 --> 00:07:40,260
+This is called the chain rule.
+
+141
+00:07:40,260 --> 00:07:41,410
+What's the derivative
+of the inside?
+
+142
+00:07:41,410 --> 00:07:48,250
+It's 2x plus 2 plus 0, right?
+
+143
+00:07:48,250 --> 00:07:50,190
+And then we take the derivative
+of the whole thing.
+
+144
+00:07:50,190 --> 00:07:53,100
+And we just pretend like this
+whole expression, x-squared
+
+145
+00:07:53,100 --> 00:07:57,540
+plus 2x plus 3 is just kind
+of like the variable x.
+
+146
+00:07:57,540 --> 00:07:59,590
+We know that the derivative
+of x to the eighth is
+
+147
+00:07:59,590 --> 00:08:01,520
+8x to the seventh.
+
+148
+00:08:01,520 --> 00:08:07,410
+So it'll be 8 times
+something to the seventh.
+
+149
+00:08:07,410 --> 00:08:10,580
+And that something is this
+entire expression here, 8 times
+
+150
+00:08:10,580 --> 00:08:15,660
+x-squared plus 2x plus 3.
+
+151
+00:08:15,660 --> 00:08:17,040
+I hope I didn't
+confuse you too much.
+
+152
+00:08:17,040 --> 00:08:18,790
+And you can simplify
+this more in any way.
+
+153
+00:08:18,790 --> 00:08:21,900
+Because it's 2x plus 2 times
+8 times x-squared plus 2x
+
+154
+00:08:21,900 --> 00:08:23,035
+plus 3 to the seventh.
+
+155
+00:08:23,035 --> 00:08:26,300
+To multiply this out, or
+to multiply this out is
+
+156
+00:08:26,300 --> 00:08:27,800
+a huge pain as you know.
+
+157
+00:08:27,800 --> 00:08:30,840
+But we could simplify
+a little bit.
+
+158
+00:08:30,840 --> 00:08:33,630
+Let me draw a divider here.
+
+159
+00:08:33,630 --> 00:08:44,526
+We could say that that equals 8
+times 2x, 16x plus 16 times--
+
+160
+00:08:44,526 --> 00:08:48,300
+I'm making it really messy--
+x-squared plus 2x plus 3
+
+161
+00:08:48,300 --> 00:08:50,610
+to the seventh power.
+
+162
+00:08:50,610 --> 00:08:51,870
+I hope I didn't
+confuse you too much.
+
+163
+00:08:51,870 --> 00:08:53,920
+In the next presentation, I'm
+just going to do a ton of
+
+164
+00:08:53,920 --> 00:08:55,500
+examples using the chain rule.
+
+165
+00:08:55,500 --> 00:08:57,850
+And I think the more examples
+you see, it's going to
+
+166
+00:08:57,850 --> 00:08:58,470
+hit the point home.
+
+167
+00:08:58,470 --> 00:09:00,440
+And then after I've done a
+bunch of examples, then I'm
+
+168
+00:09:00,440 --> 00:09:01,960
+going to give you a
+formal definition.
+
+169
+00:09:01,960 --> 00:09:04,190
+I think that's actually an
+easier way to digest the chain
+
+170
+00:09:04,190 --> 00:09:06,970
+rule than giving you the formal
+definition first, and then
+
+171
+00:09:06,970 --> 00:09:08,440
+showing you a bunch
+of examples.
+
+172
+00:09:08,440 --> 00:09:10,520
+So I'll see you in the
+next presentation.
+
+173
+00:09:10,520 --> 00:09:11,400
+

@@ -1,0 +1,963 @@
+1
+00:00:00,710 --> 00:00:02,175
+Let's do some data sufficiency
+problems.
+
+2
+00:00:02,175 --> 00:00:03,349
+So the first problem, problem
+number one on page 278.
+
+3
+00:00:03,349 --> 00:00:04,415
+It says, how much is 20%
+of a certain number?
+
+4
+00:00:04,415 --> 00:00:05,697
+So we want to know
+20% of a number.
+
+5
+00:00:05,697 --> 00:00:08,480
+Let me just call that x.
+
+6
+00:00:08,480 --> 00:00:09,224
+So what is that?
+
+7
+00:00:09,224 --> 00:00:10,415
+So the first data point they
+give us is that 10% of the
+
+8
+00:00:10,415 --> 00:00:11,381
+number is 5.
+
+9
+00:00:11,381 --> 00:00:12,959
+So we could say that 10%
+times x is equal to 5.
+
+10
+00:00:12,959 --> 00:00:14,023
+Or another way we can just
+write that is 0.1
+
+11
+00:00:14,023 --> 00:00:14,842
+x is equal to 5.
+
+12
+00:00:14,842 --> 00:00:15,679
+And then the second data point,
+I guess you could call
+
+13
+00:00:15,679 --> 00:00:16,578
+it, is 40% of twice the
+number is equal to 40.
+
+14
+00:00:16,578 --> 00:00:17,259
+So 40%, 0.4 times twice the
+number, so times 2x, right?
+
+15
+00:00:17,259 --> 00:00:18,194
+We chose x as our number--
+is equal to 40.
+
+16
+00:00:18,194 --> 00:00:18,975
+So what we have to figure out
+is do either of these data
+
+17
+00:00:18,975 --> 00:00:19,620
+points allow us to
+figure out x?
+
+18
+00:00:19,620 --> 00:00:20,442
+Or maybe we need both of them.
+
+19
+00:00:20,442 --> 00:00:21,213
+Or maybe we can't figure it
+out even with all of this
+
+20
+00:00:21,213 --> 00:00:21,973
+information.
+
+21
+00:00:21,973 --> 00:00:22,976
+Well, this is a simple
+linear equation.
+
+22
+00:00:22,976 --> 00:00:23,834
+A very easy way to think about
+it is you could multiply both
+
+23
+00:00:23,834 --> 00:00:24,780
+sides of this by 2, both
+sides of the equation.
+
+24
+00:00:24,780 --> 00:00:25,745
+And you end up with 0.2 times
+x is equal to 10.
+
+25
+00:00:25,745 --> 00:00:26,560
+Well, that's the same thing
+is saying that 20% of
+
+26
+00:00:26,560 --> 00:00:27,294
+x is equal to 10.
+
+27
+00:00:27,294 --> 00:00:28,130
+So statement one alone is all
+we need to figure out this.
+
+28
+00:00:28,130 --> 00:00:28,964
+Let's see what statement
+two gets us.
+
+29
+00:00:28,964 --> 00:00:29,915
+So if we simplify this
+expression just a little bit,
+
+30
+00:00:29,915 --> 00:00:30,923
+we get 0.4 times 2.
+
+31
+00:00:30,923 --> 00:00:31,945
+We have 0.8 times x
+is equal to 40.
+
+32
+00:00:31,945 --> 00:00:32,892
+And here, instead of multiplying
+both sides of this
+
+33
+00:00:32,892 --> 00:00:33,843
+equation by 2, we could divide
+both sides by 4, right?
+
+34
+00:00:33,843 --> 00:00:34,712
+Because we want to
+get 20% of x.
+
+35
+00:00:34,712 --> 00:00:35,559
+This is 80% of x.
+
+36
+00:00:35,559 --> 00:00:36,573
+So if we divide both sides of
+this by 4, we get what?
+
+37
+00:00:36,573 --> 00:00:37,463
+We got 0.2 x is equal to 10.
+
+38
+00:00:37,463 --> 00:00:38,441
+There you go.
+
+39
+00:00:38,441 --> 00:00:39,478
+20% of x is equal to 10.
+
+40
+00:00:39,478 --> 00:00:40,546
+So either of these alone are
+enough to solve that problem.
+
+41
+00:00:40,546 --> 00:00:41,733
+And I always forget what the
+letters are, but I think that
+
+42
+00:00:41,733 --> 00:00:42,866
+is statement d.
+
+43
+00:00:42,866 --> 00:00:43,581
+Each statement alone
+is sufficient.
+
+44
+00:00:43,581 --> 00:00:44,316
+All right.
+
+45
+00:00:44,316 --> 00:00:44,946
+Problem number two.
+
+46
+00:00:44,946 --> 00:00:45,596
+I don't want to waste too
+much time on that.
+
+47
+00:00:45,596 --> 00:00:46,215
+And I'm trying to do this in
+real time without looking at
+
+48
+00:00:46,215 --> 00:00:46,841
+the answers, because I really
+want you to get a sense of how
+
+49
+00:00:46,841 --> 00:00:47,480
+someone thinks about this
+if they've never
+
+50
+00:00:47,480 --> 00:00:48,176
+seen the problem before.
+
+51
+00:00:48,176 --> 00:00:48,725
+And so I'll ask you to bear with
+me a little bit because
+
+52
+00:00:48,725 --> 00:00:49,318
+maybe I'll get a
+problem wrong.
+
+53
+00:00:49,318 --> 00:00:50,015
+And maybe that'll be instructive
+if I do.
+
+54
+00:00:50,015 --> 00:00:50,591
+OK, They say a thoroughly
+blended biscuit mix includes
+
+55
+00:00:50,591 --> 00:00:51,129
+only flour and baking powder.
+
+56
+00:00:51,929 --> 00:00:52,624
+What is the ratio of the number
+of grams of baking
+
+57
+00:00:52,624 --> 00:00:53,196
+powder to the number
+of grams of flour?
+
+58
+00:00:53,196 --> 00:00:53,831
+So we want to know the ratio
+of baking powder to flour.
+
+59
+00:00:53,831 --> 00:00:54,465
+That's what we need
+to figure out.
+
+60
+00:00:54,465 --> 00:00:55,146
+Now statement number one, they
+tell us exactly 9.9 grams of
+
+61
+00:00:55,146 --> 00:00:55,912
+flour is contained in 10
+grams of this mix.
+
+62
+00:00:55,912 --> 00:00:56,674
+soon.
+
+63
+00:00:56,674 --> 00:00:57,426
+So if there are 9.9 of flour,
+and there's exactly 10, how
+
+64
+00:00:57,426 --> 00:00:58,215
+much baking powder is there?
+
+65
+00:00:58,215 --> 00:00:58,809
+Well, baking powder is going
+to be equal to 10 minus the
+
+66
+00:00:58,809 --> 00:00:59,523
+amount of flour.
+
+67
+00:00:59,523 --> 00:01:00,294
+So it's going to be what?
+
+68
+00:01:00,294 --> 00:01:00,944
+0.1 grams. 9.9, we could say
+that that is equal to flour.
+
+69
+00:01:00,944 --> 00:01:01,715
+So we could easily, just using
+this statement, figure out the
+
+70
+00:01:01,715 --> 00:01:02,348
+ratio, right?
+
+71
+00:01:02,348 --> 00:01:02,931
+The ratio of baking powder to
+flour is 0.1, because we just
+
+72
+00:01:02,931 --> 00:01:03,564
+took 10 minus the amount
+of flour, to 9.9.
+
+73
+00:01:03,564 --> 00:01:04,202
+Or you could say, it's 1:99,
+whatever, however you need it.
+
+74
+00:01:04,202 --> 00:01:04,929
+But that's what's fun about
+these problems. You don't have
+
+75
+00:01:04,929 --> 00:01:05,847
+to figure it out.
+
+76
+00:01:05,847 --> 00:01:06,794
+We just have to say we
+could figure it out.
+
+77
+00:01:06,794 --> 00:01:07,445
+So one is enough by itself.
+
+78
+00:01:07,445 --> 00:01:07,995
+Let's see what statement
+two tells us.
+
+79
+00:01:08,559 --> 00:01:09,059
+I'll do it in a slightly
+different color.
+
+80
+00:01:09,748 --> 00:01:10,296
+Let me scroll down
+a little bit.
+
+81
+00:01:10,296 --> 00:01:10,862
+Statement two says,
+exactly 0.3 gram.
+
+82
+00:01:10,862 --> 00:01:11,429
+I think that's an error
+in the book.
+
+83
+00:01:11,429 --> 00:01:12,031
+It should be grams. Exactly 0.3
+gram of baking powder is
+
+84
+00:01:12,031 --> 00:01:12,625
+contained in 30 grams
+of the mix.
+
+85
+00:01:12,625 --> 00:01:13,229
+So if we have 0.3 baking powder,
+that's grams, and it
+
+86
+00:01:13,229 --> 00:01:13,879
+tells us there's 30
+grams of the mix.
+
+87
+00:01:13,879 --> 00:01:14,472
+So how much flour do we have?
+
+88
+00:01:14,472 --> 00:01:15,058
+What's 30 minus 0.3
+is equal to what?
+
+89
+00:01:15,058 --> 00:01:15,699
+It's equal to 29.7 flour.
+
+90
+00:01:15,699 --> 00:01:16,333
+And so, once again, we can
+easily figure out the ratio of
+
+91
+00:01:16,333 --> 00:01:16,943
+baking powder to flour is
+0.3:29.7, which is, once
+
+92
+00:01:16,943 --> 00:01:17,482
+again, 1:99.
+
+93
+00:01:17,482 --> 00:01:18,263
+But we didn't have to
+figure that out.
+
+94
+00:01:18,263 --> 00:01:18,828
+We just know that
+this is enough.
+
+95
+00:01:18,828 --> 00:01:19,609
+So once again, we know that
+d, each statement alone is
+
+96
+00:01:19,609 --> 00:01:20,193
+sufficient, unless I
+missed something.
+
+97
+00:01:20,193 --> 00:01:20,812
+All right.
+
+98
+00:01:20,812 --> 00:01:21,447
+Problem number three.
+
+99
+00:01:22,042 --> 00:01:22,814
+Let me scroll down
+a little bit.
+
+100
+00:01:22,814 --> 00:01:23,564
+What is the value of the
+absolute value of x?
+
+101
+00:01:23,564 --> 00:01:24,364
+So they want to know the
+absolute value of
+
+102
+00:01:24,364 --> 00:01:25,131
+x is equal to what?
+
+103
+00:01:25,131 --> 00:01:25,781
+And the first statement, they
+tell us is that x is equal to
+
+104
+00:01:25,781 --> 00:01:26,417
+the minus absolute value of x.
+
+105
+00:01:26,417 --> 00:01:27,083
+So what numbers is this true
+for, that the number is equal
+
+106
+00:01:27,083 --> 00:01:27,732
+to the minus absolute value?
+
+107
+00:01:27,732 --> 00:01:28,387
+It's definitely not true for
+positive numbers, right?
+
+108
+00:01:28,387 --> 00:01:28,997
+Put a positive 1 there.
+
+109
+00:01:28,997 --> 00:01:29,730
+1 is not equal to-- the absolute
+value of 1 is 1, so 1
+
+110
+00:01:29,730 --> 00:01:30,361
+is not equal to negative 1.
+
+111
+00:01:30,361 --> 00:01:31,081
+This works for 0, right?
+
+112
+00:01:31,081 --> 00:01:31,697
+0 is equal to negative
+0 is equal to 0.
+
+113
+00:01:31,697 --> 00:01:32,347
+And this works for
+negative numbers.
+
+114
+00:01:32,347 --> 00:01:32,941
+Try it out.
+
+115
+00:01:32,941 --> 00:01:33,676
+Negative 1 is equal to the
+negative absolute value of
+
+116
+00:01:33,676 --> 00:01:34,382
+negative 1.
+
+117
+00:01:34,382 --> 00:01:35,098
+Well, the absolute value of
+negative 1 is 1, so you get
+
+118
+00:01:35,098 --> 00:01:35,940
+negative 1 is equal
+to negative 1.
+
+119
+00:01:35,940 --> 00:01:36,564
+So it works for 0 and
+negative numbers.
+
+120
+00:01:36,564 --> 00:01:37,298
+So all this tells us-- and maybe
+this will help us in
+
+121
+00:01:37,298 --> 00:01:37,929
+conjunction with the second
+part, who knows?
+
+122
+00:01:37,929 --> 00:01:38,644
+This tells us that x is less
+than or equal to 0.
+
+123
+00:01:38,644 --> 00:01:39,265
+It's just a convoluted
+way of saying this.
+
+124
+00:01:39,265 --> 00:01:40,025
+Let's see where that gets us.
+
+125
+00:01:40,025 --> 00:01:40,696
+Now the second statement.
+
+126
+00:01:41,306 --> 00:01:42,097
+Let's see, they say that x
+squared is equal to 4.
+
+127
+00:01:42,877 --> 00:01:43,527
+Well, this tells us that x is
+equal to plus or minus 2.
+
+128
+00:01:43,527 --> 00:01:44,326
+Now, if we were trying to figure
+out what x is equal to,
+
+129
+00:01:44,326 --> 00:01:45,041
+we would actually need both of
+these statements because this
+
+130
+00:01:45,041 --> 00:01:45,771
+statement says that x is
+positive you 2 or negative 2.
+
+131
+00:01:45,771 --> 00:01:46,470
+And then this statement
+says that, oh, x
+
+132
+00:01:46,470 --> 00:01:47,427
+is definitely negative.
+
+133
+00:01:47,427 --> 00:01:48,212
+So if we were trying to figure
+out what the value of x was,
+
+134
+00:01:48,212 --> 00:01:49,107
+we would need both of
+these statements.
+
+135
+00:01:49,107 --> 00:01:49,898
+But notice, they're asking us
+what's the value of the
+
+136
+00:01:49,898 --> 00:01:50,632
+absolute value of x, right?
+
+137
+00:01:50,632 --> 00:01:51,448
+So regardless of whether x is
+positive or negative 2, the
+
+138
+00:01:51,448 --> 00:01:52,108
+absolute value of either
+positive or negative 2 is
+
+139
+00:01:52,108 --> 00:01:52,794
+always going to be equal to 2.
+
+140
+00:01:52,794 --> 00:01:53,510
+So really, this is
+all you need.
+
+141
+00:01:53,510 --> 00:01:54,065
+You only need statement two to
+figure out this problem.
+
+142
+00:01:54,065 --> 00:01:54,912
+And so that is b.
+
+143
+00:01:54,912 --> 00:01:55,760
+You only need statement two.
+
+144
+00:01:55,760 --> 00:01:56,422
+All right.
+
+145
+00:01:56,422 --> 00:01:57,148
+I think I got that one right.
+
+146
+00:01:57,148 --> 00:01:57,828
+Let's see.
+
+147
+00:01:57,828 --> 00:01:58,645
+Problem number four.
+
+148
+00:01:58,645 --> 00:01:59,396
+I'll do it in this
+brownish color.
+
+149
+00:01:59,396 --> 00:02:00,046
+Problem number four.
+
+150
+00:02:00,046 --> 00:02:00,762
+Is r greater than 0.27?
+
+151
+00:02:00,762 --> 00:02:01,497
+Very simple question.
+
+152
+00:02:01,497 --> 00:02:02,249
+Is r greater than
+0.27, they ask?
+
+153
+00:02:02,249 --> 00:02:02,879
+OK, statement one tells us that
+r is greater than 1/4.
+
+154
+00:02:02,879 --> 00:02:03,723
+OK, well, that doesn't really--
+r could still be--
+
+155
+00:02:03,723 --> 00:02:04,624
+this is 0.25, so r could still
+be equal to 0.251, right?
+
+156
+00:02:04,624 --> 00:02:05,524
+It could be 0.251, or
+it could be 0.3.
+
+157
+00:02:05,524 --> 00:02:06,277
+So this really doesn't give
+us any information.
+
+158
+00:02:06,277 --> 00:02:07,094
+We don't know whether r
+is greater than 0.27.
+
+159
+00:02:07,094 --> 00:02:07,745
+Let's see what the second
+statement tells us.
+
+160
+00:02:07,745 --> 00:02:08,440
+The second statement says
+r is equal to 3/10.
+
+161
+00:02:08,440 --> 00:02:09,362
+Well, that is equal to 0.3,
+and that's definitely
+
+162
+00:02:09,362 --> 00:02:10,113
+greater than 0.27.
+
+163
+00:02:10,113 --> 00:02:10,782
+So this is all we need.
+
+164
+00:02:10,782 --> 00:02:11,414
+We just need statement two.
+
+165
+00:02:11,414 --> 00:02:12,044
+Statement one was a
+little useless.
+
+166
+00:02:12,044 --> 00:02:12,673
+So that is-- I always forget
+what letters-- that's b.
+
+167
+00:02:12,673 --> 00:02:13,216
+We only need statement two.
+
+168
+00:02:13,216 --> 00:02:13,722
+All right.
+
+169
+00:02:13,722 --> 00:02:14,225
+How am I doing on time?
+
+170
+00:02:14,225 --> 00:02:14,767
+Oh, I have time.
+
+171
+00:02:14,767 --> 00:02:16,446
+I think I can do a couple more
+problems. These go fast,
+
+172
+00:02:16,446 --> 00:02:17,077
+because you don't have to
+actually do the math.
+
+173
+00:02:17,077 --> 00:02:17,828
+Problem number five.
+
+174
+00:02:17,828 --> 00:02:18,476
+What is the value of the sum of
+a list of n odd integers?
+
+175
+00:02:19,318 --> 00:02:20,096
+OK., and they didn't say
+consecutive, and they didn't
+
+176
+00:02:20,096 --> 00:02:20,789
+say where it starts.
+
+177
+00:02:20,789 --> 00:02:21,394
+It's just n odd integers.
+
+178
+00:02:21,394 --> 00:02:22,044
+Fair enough.
+
+179
+00:02:22,044 --> 00:02:22,629
+OK, one, they tell us
+n is equal to 8.
+
+180
+00:02:22,629 --> 00:02:23,447
+So if I knew that I was going to
+sum eight odd integers, can
+
+181
+00:02:23,447 --> 00:02:24,060
+I know the sum?
+
+182
+00:02:24,060 --> 00:02:24,680
+Well, no.
+
+183
+00:02:24,680 --> 00:02:25,314
+I mean, it could be-- all of
+these could be numbers in the
+
+184
+00:02:25,314 --> 00:02:25,925
+millions, or they could be
+negative, or they could be
+
+185
+00:02:25,925 --> 00:02:26,491
+really small numbers.
+
+186
+00:02:26,491 --> 00:02:27,114
+So that doesn't help me much.
+
+187
+00:02:27,114 --> 00:02:27,709
+Point number two, they say the
+square of the integers on the
+
+188
+00:02:27,709 --> 00:02:28,248
+list is 64.
+
+189
+00:02:28,248 --> 00:02:28,815
+So they're essentially saying
+that n squared is equal to 64.
+
+190
+00:02:28,815 --> 00:02:29,381
+And since we're talking about
+numbers in a list, it can't be
+
+191
+00:02:29,381 --> 00:02:29,981
+negative, so n is equal to 8.
+
+192
+00:02:29,981 --> 00:02:30,595
+So these are really telling me
+the same thing, just this is a
+
+193
+00:02:30,595 --> 00:02:31,346
+little bit more convoluted.
+
+194
+00:02:31,346 --> 00:02:31,896
+But really, they
+don't help out.
+
+195
+00:02:31,896 --> 00:02:32,611
+I could have eight numbers in
+the billions, or I could have
+
+196
+00:02:32,611 --> 00:02:33,139
+eight numbers in the hundreds,
+and so obviously, you're going
+
+197
+00:02:33,139 --> 00:02:33,660
+to get a different sum.
+
+198
+00:02:33,660 --> 00:02:34,225
+I don't think I can figure
+this out anyway.
+
+199
+00:02:34,225 --> 00:02:34,814
+So that's what?
+
+200
+00:02:34,814 --> 00:02:35,442
+That is statement e, that
+together they're not
+
+201
+00:02:35,442 --> 00:02:36,096
+sufficient.
+
+202
+00:02:36,096 --> 00:02:36,763
+So both of these are useless.
+
+203
+00:02:36,763 --> 00:02:37,429
+I still don't know the
+answer, which is e.
+
+204
+00:02:37,429 --> 00:02:38,125
+All right.
+
+205
+00:02:38,125 --> 00:02:38,794
+Well, I think I'm out of time.
+
+206
+00:02:38,794 --> 00:02:39,444
+I just passed the
+10-minute mark.
+
+207
+00:02:39,444 --> 00:02:40,114
+I will continue in
+the next video.
+
+208
+00:02:40,114 --> 00:02:40,810
+See

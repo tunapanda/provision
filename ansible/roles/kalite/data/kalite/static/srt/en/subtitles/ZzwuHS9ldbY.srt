@@ -1,0 +1,958 @@
+1
+00:00:00,000 --> 00:00:00,790
+   
+
+2
+00:00:00,790 --> 00:00:02,876
+Let's learn a little
+bit about springs.
+
+3
+00:00:02,876 --> 00:00:05,100
+So let's say I have a spring.
+
+4
+00:00:05,100 --> 00:00:08,870
+Let me draw the ground so that
+we know what's going on with
+
+5
+00:00:08,870 --> 00:00:09,490
+the spring.
+
+6
+00:00:09,490 --> 00:00:13,280
+So let me see, this
+is the floor.
+
+7
+00:00:13,280 --> 00:00:16,830
+That's the floor, and
+I have a spring.
+
+8
+00:00:16,830 --> 00:00:18,680
+It's along the floor.
+
+9
+00:00:18,680 --> 00:00:21,000
+I'll use a thicker one, just
+to show it's a spring.
+
+10
+00:00:21,000 --> 00:00:24,060
+Let's say the spring looks
+something like this.
+
+11
+00:00:24,060 --> 00:00:26,170
+Whoops, I'm still using
+the line tool.
+
+12
+00:00:26,170 --> 00:00:27,430
+So the spring looks like this.
+
+13
+00:00:27,430 --> 00:00:32,299
+This is my spring, my amazingly
+drawn spring.
+
+14
+00:00:32,299 --> 00:00:36,170
+Let's say at this end it's
+attached to a wall.
+
+15
+00:00:36,170 --> 00:00:38,980
+That's a wall.
+
+16
+00:00:38,980 --> 00:00:41,470
+And so this is a spring when I
+don't have any force acting on
+
+17
+00:00:41,470 --> 00:00:44,880
+it, this is just the natural
+state of the spring.
+
+18
+00:00:44,880 --> 00:00:50,050
+And we could call this, where it
+just naturally rests, this
+
+19
+00:00:50,050 --> 00:00:51,340
+tip of the spring.
+
+20
+00:00:51,340 --> 00:00:57,640
+And let's say that when I were
+to apply a force of 5 Newtons
+
+21
+00:00:57,640 --> 00:01:00,410
+into the spring, it looks
+something like this.
+
+22
+00:01:00,410 --> 00:01:03,210
+Redraw everything.
+
+23
+00:01:03,210 --> 00:01:11,355
+So when I apply a force of 5
+Newtons-- I'll draw the wall
+
+24
+00:01:11,355 --> 00:01:12,700
+in magenta now.
+
+25
+00:01:12,700 --> 00:01:16,180
+   
+
+26
+00:01:16,180 --> 00:01:19,300
+When I apply a force
+of 5 Newtons, the
+
+27
+00:01:19,300 --> 00:01:20,550
+spring looks like this.
+
+28
+00:01:20,550 --> 00:01:25,510
+   
+
+29
+00:01:25,510 --> 00:01:26,880
+It compresses, right?
+
+30
+00:01:26,880 --> 00:01:28,060
+We're all familiar with this.
+
+31
+00:01:28,060 --> 00:01:30,320
+We sit on a bed every
+day or a sofa.
+
+32
+00:01:30,320 --> 00:01:31,620
+So let's say it compresses
+to here.
+
+33
+00:01:31,620 --> 00:01:37,220
+   
+
+34
+00:01:37,220 --> 00:01:40,960
+If this was the normal resting--
+so this is where the
+
+35
+00:01:40,960 --> 00:01:44,000
+spring was when I applied no
+force, but when I applied 5
+
+36
+00:01:44,000 --> 00:01:53,420
+Newtons in that direction, let's
+say that this distance
+
+37
+00:01:53,420 --> 00:02:01,290
+right here is 10 meters.
+
+38
+00:02:01,290 --> 00:02:03,940
+And so a typical question that
+you'll see, and we'll explain
+
+39
+00:02:03,940 --> 00:02:08,759
+how to do it, is a spring
+compresses or elongates when
+
+40
+00:02:08,759 --> 00:02:11,950
+you apply a certain force
+by some distance.
+
+41
+00:02:11,950 --> 00:02:14,010
+How much will it compress when
+you apply a different force?
+
+42
+00:02:14,010 --> 00:02:16,615
+So my question is how much will
+it compress when I apply
+
+43
+00:02:16,615 --> 00:02:19,260
+a 10-Newton force?
+
+44
+00:02:19,260 --> 00:02:22,480
+So your intuition that it'll
+compress more is correct, but
+
+45
+00:02:22,480 --> 00:02:27,220
+is it linear to how much
+I compress it?
+
+46
+00:02:27,220 --> 00:02:30,150
+Is it a square of how
+much I compress it?
+
+47
+00:02:30,150 --> 00:02:32,175
+How does it relate?
+
+48
+00:02:32,175 --> 00:02:34,480
+I think you probably
+could guess.
+
+49
+00:02:34,480 --> 00:02:36,880
+It's actually worth
+an experiment.
+
+50
+00:02:36,880 --> 00:02:39,280
+Or you could just keep
+watching the video.
+
+51
+00:02:39,280 --> 00:02:42,020
+So let's say I apply
+a 10-Newton force.
+
+52
+00:02:42,020 --> 00:02:43,180
+What will the spring
+look like?
+
+53
+00:02:43,180 --> 00:02:44,740
+Well, it'll be more
+compressed.
+
+54
+00:02:44,740 --> 00:02:49,900
+   
+
+55
+00:02:49,900 --> 00:02:55,780
+Drop my force to 10 Newtons.
+
+56
+00:02:55,780 --> 00:02:58,060
+And if this was the natural
+place where the spring would
+
+57
+00:02:58,060 --> 00:03:00,580
+rest, what is this distance?
+
+58
+00:03:00,580 --> 00:03:02,280
+Well, it turns out that
+it is linear.
+
+59
+00:03:02,280 --> 00:03:03,590
+What do I mean by linear?
+
+60
+00:03:03,590 --> 00:03:07,860
+Well, it means that the more
+the force-- it's equally
+
+61
+00:03:07,860 --> 00:03:10,750
+proportional to how much the
+spring will compress.
+
+62
+00:03:10,750 --> 00:03:12,060
+And it actually works
+the other way.
+
+63
+00:03:12,060 --> 00:03:15,040
+If you applied 5 Newtons in this
+direction, to the right,
+
+64
+00:03:15,040 --> 00:03:18,670
+you would have gone 10 meters
+in this direction.
+
+65
+00:03:18,670 --> 00:03:20,940
+So it goes whether you're
+elongating the spring or
+
+66
+00:03:20,940 --> 00:03:24,450
+compressing the spring within
+some reasonable tolerance.
+
+67
+00:03:24,450 --> 00:03:26,620
+We've all had this experience.
+
+68
+00:03:26,620 --> 00:03:29,300
+If you compress something too
+much or you stretch it too
+
+69
+00:03:29,300 --> 00:03:32,070
+much, it doesn't really go back
+to where it was before.
+
+70
+00:03:32,070 --> 00:03:34,430
+But within some reasonable
+tolerance, it's proportional.
+
+71
+00:03:34,430 --> 00:03:35,830
+So what does that mean?
+
+72
+00:03:35,830 --> 00:03:43,990
+That means that the restoring
+force of the spring is minus
+
+73
+00:03:43,990 --> 00:03:47,840
+some number, times the
+displacement of the spring.
+
+74
+00:03:47,840 --> 00:03:49,040
+So what does this mean?
+
+75
+00:03:49,040 --> 00:03:52,110
+So in this example right here,
+what was the displacement of
+
+76
+00:03:52,110 --> 00:03:53,140
+the spring?
+
+77
+00:03:53,140 --> 00:03:56,528
+Well, if we take positive x to
+the right and negative x to
+
+78
+00:03:56,528 --> 00:04:00,980
+the left, the displacement
+of the spring was what?
+
+79
+00:04:00,980 --> 00:04:05,010
+The displacement, in this
+example right here, x is equal
+
+80
+00:04:05,010 --> 00:04:06,090
+to minus 10, right?
+
+81
+00:04:06,090 --> 00:04:08,180
+Because I went 10 to the left.
+
+82
+00:04:08,180 --> 00:04:13,520
+And so it says that the
+restorative force is going to
+
+83
+00:04:13,520 --> 00:04:21,310
+be equal to minus K times
+how much it's
+
+84
+00:04:21,310 --> 00:04:23,260
+distorted times minus 10.
+
+85
+00:04:23,260 --> 00:04:27,470
+So the minuses cancel out,
+so it equals 10K.
+
+86
+00:04:27,470 --> 00:04:30,420
+What's the restorative force
+in this example?
+
+87
+00:04:30,420 --> 00:04:32,210
+Well, you might say, it's 5
+Newtons, just because that's
+
+88
+00:04:32,210 --> 00:04:37,550
+the only force I've drawn here,
+and you would be to some
+
+89
+00:04:37,550 --> 00:04:38,160
+degree correct.
+
+90
+00:04:38,160 --> 00:04:40,260
+And actually, since we're doing
+positive and negative,
+
+91
+00:04:40,260 --> 00:04:43,570
+and this 5 Newton is to the
+left, so to the negative
+
+92
+00:04:43,570 --> 00:04:45,770
+x-direction, actually, I should
+call this minus 5
+
+93
+00:04:45,770 --> 00:04:48,090
+Newtons and I should call this
+minus 10 Newtons, because
+
+94
+00:04:48,090 --> 00:04:50,340
+obviously, these are vectors and
+we're going to the left.
+
+95
+00:04:50,340 --> 00:04:53,630
+I picked the convention that
+to the left means negative.
+
+96
+00:04:53,630 --> 00:04:54,980
+So what's the restorative
+force?
+
+97
+00:04:54,980 --> 00:04:57,820
+Well, in this example-- and we
+assume that K is a positive
+
+98
+00:04:57,820 --> 00:05:00,500
+number for our purposes.
+
+99
+00:05:00,500 --> 00:05:02,370
+In this example, the restorative
+force is a
+
+100
+00:05:02,370 --> 00:05:03,660
+positive number.
+
+101
+00:05:03,660 --> 00:05:05,310
+So what is the restorative
+force?
+
+102
+00:05:05,310 --> 00:05:08,970
+So that's actually the force,
+the counteracting force, of
+
+103
+00:05:08,970 --> 00:05:10,030
+the spring.
+
+104
+00:05:10,030 --> 00:05:12,680
+That's what this formula
+gives us.
+
+105
+00:05:12,680 --> 00:05:15,220
+So if this spring is stationary
+when I apply this
+
+106
+00:05:15,220 --> 00:05:18,030
+5-Newton force, that means that
+there must be another
+
+107
+00:05:18,030 --> 00:05:19,830
+equal and opposite force that's
+
+108
+00:05:19,830 --> 00:05:22,160
+positive 5 Newtons, right?
+
+109
+00:05:22,160 --> 00:05:24,460
+If there weren't, the spring
+would keep compressing.
+
+110
+00:05:24,460 --> 00:05:27,240
+And if the force was more than 5
+Newtons, the spring would go
+
+111
+00:05:27,240 --> 00:05:28,620
+back this way.
+
+112
+00:05:28,620 --> 00:05:32,010
+So the fact that I know that
+when I apply a 5-Newton force
+
+113
+00:05:32,010 --> 00:05:34,920
+to the left, or a negative
+5-Newton force, the spring is
+
+114
+00:05:34,920 --> 00:05:37,130
+no longer moving, it means that
+there must be-- or no
+
+115
+00:05:37,130 --> 00:05:39,830
+longer accelerating, actually,
+it means that there must be an
+
+116
+00:05:39,830 --> 00:05:42,330
+equal and opposite force to
+the right, and that's the
+
+117
+00:05:42,330 --> 00:05:43,650
+restorative force.
+
+118
+00:05:43,650 --> 00:05:47,370
+Another way to think about it is
+if I were to let-- well, I
+
+119
+00:05:47,370 --> 00:05:48,510
+won't go in there now.
+
+120
+00:05:48,510 --> 00:05:50,990
+So in this case, the restorative
+force is 5
+
+121
+00:05:50,990 --> 00:05:52,950
+Newtons, so we can
+solve for K.
+
+122
+00:05:52,950 --> 00:05:56,940
+We could say 5 is
+equal to 10K.
+
+123
+00:05:56,940 --> 00:05:58,110
+Divide both sides by 10.
+
+124
+00:05:58,110 --> 00:05:59,380
+You get K is equal to 1/2.
+
+125
+00:05:59,380 --> 00:06:03,850
+   
+
+126
+00:06:03,850 --> 00:06:06,610
+So now we can use that
+information to figure out what
+
+127
+00:06:06,610 --> 00:06:10,750
+is the displacement
+when I apply a
+
+128
+00:06:10,750 --> 00:06:12,050
+negative 10-Newton force?
+
+129
+00:06:12,050 --> 00:06:15,410
+When I push the spring
+in with 10 Newtons in
+
+130
+00:06:15,410 --> 00:06:16,790
+the leftward direction?
+
+131
+00:06:16,790 --> 00:06:19,050
+So first of all, what's the
+restorative force here?
+
+132
+00:06:19,050 --> 00:06:22,790
+Well, if the spring is no longer
+accelerating in either
+
+133
+00:06:22,790 --> 00:06:25,710
+direction, or the tip of
+the spring is no longer
+
+134
+00:06:25,710 --> 00:06:28,120
+accelerating in either
+direction, we know that the
+
+135
+00:06:28,120 --> 00:06:30,540
+restorative force must be
+counterbalancing this force
+
+136
+00:06:30,540 --> 00:06:32,290
+that I'm compressing
+with, right?
+
+137
+00:06:32,290 --> 00:06:35,810
+The force that the spring wants
+to expand back with is
+
+138
+00:06:35,810 --> 00:06:39,030
+10 Newtons, positive
+10 Newtons, right?
+
+139
+00:06:39,030 --> 00:06:42,550
+And we know the spring constant,
+this K for this
+
+140
+00:06:42,550 --> 00:06:46,780
+spring, for this material,
+whatever it might be, is 1/2.
+
+141
+00:06:46,780 --> 00:06:53,320
+So we know the restorative force
+is equal to 1/2 times
+
+142
+00:06:53,320 --> 00:06:55,280
+the distance, right?
+
+143
+00:06:55,280 --> 00:06:58,940
+And the formula is
+minus K, right?
+
+144
+00:06:58,940 --> 00:07:00,670
+And then, what is
+the restorative
+
+145
+00:07:00,670 --> 00:07:02,340
+force in this example?
+
+146
+00:07:02,340 --> 00:07:06,190
+Well I said it's 10 Newtons, so
+we know that 10 Newtons is
+
+147
+00:07:06,190 --> 00:07:07,440
+equal to minus 1/2x.
+
+148
+00:07:07,440 --> 00:07:09,950
+   
+
+149
+00:07:09,950 --> 00:07:11,750
+And so what is x?
+
+150
+00:07:11,750 --> 00:07:14,030
+Well, multiply both sides
+by minus 1/2, and
+
+151
+00:07:14,030 --> 00:07:15,920
+you get minus 20.
+
+152
+00:07:15,920 --> 00:07:18,455
+I'm sorry, multiply both sides
+by minus 2, you get minus 20
+
+153
+00:07:18,455 --> 00:07:19,705
+is equal to x.
+
+154
+00:07:19,705 --> 00:07:22,900
+   
+
+155
+00:07:22,900 --> 00:07:25,700
+So x goes to the
+left 20 units.
+
+156
+00:07:25,700 --> 00:07:28,390
+So that's all that
+it's telling us.
+
+157
+00:07:28,390 --> 00:07:32,710
+And this law is called Hooke's
+Law, and it's named after--
+
+158
+00:07:32,710 --> 00:07:35,810
+I'll read it-- a physicist in
+the 17th century, a British
+
+159
+00:07:35,810 --> 00:07:39,170
+physicist. And he figured out
+that the amount of force
+
+160
+00:07:39,170 --> 00:07:44,460
+necessary to keep a spring
+compressed is proportional to
+
+161
+00:07:44,460 --> 00:07:46,420
+how much you've compressed it.
+
+162
+00:07:46,420 --> 00:07:48,570
+And that's all that
+this formula says.
+
+163
+00:07:48,570 --> 00:07:51,150
+And that negative number,
+remember, this formula gives
+
+164
+00:07:51,150 --> 00:07:52,710
+us the restorative force.
+
+165
+00:07:52,710 --> 00:07:55,910
+So it says that the force is
+always in the opposite
+
+166
+00:07:55,910 --> 00:07:57,860
+direction of how much
+you displace it.
+
+167
+00:07:57,860 --> 00:08:01,470
+So, for example, if you were
+to displace this spring in
+
+168
+00:08:01,470 --> 00:08:04,590
+this direction, if you were to
+apply a force and x were a
+
+169
+00:08:04,590 --> 00:08:08,620
+positive and you were to go in
+that direction, the force-- no
+
+170
+00:08:08,620 --> 00:08:09,150
+wait, sorry.
+
+171
+00:08:09,150 --> 00:08:11,320
+This is where the
+spring rests.
+
+172
+00:08:11,320 --> 00:08:14,260
+If you were to apply some force
+and take the spring out
+
+173
+00:08:14,260 --> 00:08:18,610
+to here, this negative number
+tells us that the spring will
+
+174
+00:08:18,610 --> 00:08:21,610
+essentially try to pull back
+with the restorative force in
+
+175
+00:08:21,610 --> 00:08:24,190
+the other direction.
+
+176
+00:08:24,190 --> 00:08:26,750
+Let's do one more problem
+and I think this
+
+177
+00:08:26,750 --> 00:08:29,570
+will be clear to you.
+
+178
+00:08:29,570 --> 00:08:33,460
+So let's say I have a spring,
+and all of these problems kind
+
+179
+00:08:33,460 --> 00:08:35,090
+of go along.
+
+180
+00:08:35,090 --> 00:08:40,280
+So let's say when I apply a
+force of 2 Newtons, so this is
+
+181
+00:08:40,280 --> 00:08:44,880
+what I apply when I apply
+a force of 2 Newtons.
+
+182
+00:08:44,880 --> 00:08:46,180
+Well, let's say it this way.
+
+183
+00:08:46,180 --> 00:08:49,740
+Let's say when I stretch
+the spring.
+
+184
+00:08:49,740 --> 00:08:55,650
+Let's say this is the spring,
+and when I apply a force of 2
+
+185
+00:08:55,650 --> 00:09:05,940
+Newtons to the right, the spring
+gets stretched 1 meter.
+
+186
+00:09:05,940 --> 00:09:09,280
+So first of all, let's
+figure out what K is.
+
+187
+00:09:09,280 --> 00:09:14,030
+So if the spring is stretched
+by 1 meter, out here, its
+
+188
+00:09:14,030 --> 00:09:18,650
+restorative force will be 2
+Newtons back this way, right?
+
+189
+00:09:18,650 --> 00:09:22,620
+So its restorative force, this
+2 Newtons, will equal minus K
+
+190
+00:09:22,620 --> 00:09:24,530
+times how much I displaced it.
+
+191
+00:09:24,530 --> 00:09:28,050
+Well I, displaced it by 1 meter,
+so then we multiply
+
+192
+00:09:28,050 --> 00:09:32,380
+both sides by negative 1, and we
+get K is equal to minus 2.
+
+193
+00:09:32,380 --> 00:09:37,350
+So then we can use Hooke's Law
+to note the equation for
+
+194
+00:09:37,350 --> 00:09:40,450
+this-- to figure out the
+restorative force for this
+
+195
+00:09:40,450 --> 00:09:44,110
+particular spring, and
+it would be minus 2x.
+
+196
+00:09:44,110 --> 00:09:46,530
+And then I said, well, how much
+force would I have to
+
+197
+00:09:46,530 --> 00:09:49,730
+apply to distort the
+spring by 2 meters?
+
+198
+00:09:49,730 --> 00:09:52,420
+Well, it's 2 times
+2, it would be 4.
+
+199
+00:09:52,420 --> 00:09:57,330
+4 Newtons to displace it by 2
+meters, and, of course, the
+
+200
+00:09:57,330 --> 00:09:59,580
+restorative force will then be
+in the opposite direction, and
+
+201
+00:09:59,580 --> 00:10:01,620
+that's where we get the
+negative number.
+
+202
+00:10:01,620 --> 00:10:02,800
+Anyway, I've run out of time.
+
+203
+00:10:02,800 --> 00:10:04,860
+I'll see you in the
+next video.
+
+204
+00:10:04,860 --> 00:10:04,900
+

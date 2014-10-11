@@ -1,0 +1,855 @@
+1
+00:00:00,530 --> 00:00:03,570
+I just received this drug calculation problem from a
+
+2
+00:00:03,580 --> 00:00:06,250
+nursing student, and I think it's essential that the nursing
+
+3
+00:00:06,250 --> 00:00:08,890
+students out there are able to do this, just in case I'm the
+
+4
+00:00:08,890 --> 00:00:10,350
+patient receiving the drug.
+
+5
+00:00:10,350 --> 00:00:10,880
+So let's do it.
+
+6
+00:00:10,890 --> 00:00:14,440
+And I think it's an interesting unit conversion problem for
+
+7
+00:00:14,440 --> 00:00:17,010
+pretty much anyone who wants practice with unit conversion.
+
+8
+00:00:17,010 --> 00:00:19,560
+So the question is that we have a doctor.
+
+9
+00:00:19,570 --> 00:00:23,740
+The doctor orders drug x.
+
+10
+00:00:27,050 --> 00:00:29,780
+And this is the dosage that the doctor's requesting.
+
+11
+00:00:29,780 --> 00:00:39,530
+They're saying five milligrams per pound of patient weight-- I'll
+
+12
+00:00:39,530 --> 00:00:46,780
+just write per pound of patient weight-- every twelve hours.
+
+13
+00:00:46,790 --> 00:00:48,700
+This is what we're supposed to do.
+
+14
+00:00:48,710 --> 00:00:58,130
+But our supply of the drug-- it isn't just, you know, not
+
+15
+00:00:58,140 --> 00:00:59,430
+just nuggets and milligrams.
+
+16
+00:00:59,430 --> 00:01:00,340
+It's a solution.
+
+17
+00:01:00,350 --> 00:01:04,200
+There's a certain amount of grams for every milliliter
+
+18
+00:01:04,200 --> 00:01:05,330
+that we have of the solution.
+
+19
+00:01:05,340 --> 00:01:08,180
+It's dissolved in some water.
+
+20
+00:01:08,180 --> 00:01:11,020
+So this is our supply of drug x.
+
+21
+00:01:14,750 --> 00:01:18,060
+We have 0.9-- I'll write a 0 in front.
+
+22
+00:01:18,060 --> 00:01:20,590
+My wife, who is a doctor, says it's essential to write the
+
+23
+00:01:20,590 --> 00:01:21,980
+zero in front of the decimal.
+
+24
+00:01:21,980 --> 00:01:29,910
+We have 0.9 grams per milliliter of solution.
+
+25
+00:01:29,920 --> 00:01:32,820
+So if I were to take one milliliter out of my solution
+
+26
+00:01:32,820 --> 00:01:35,410
+and give it to someone, I'm essentially giving them
+
+27
+00:01:35,420 --> 00:01:38,900
+0.9 grams of this drug.
+
+28
+00:01:38,900 --> 00:01:44,950
+And the final piece of information we're given is that
+
+29
+00:01:44,950 --> 00:01:51,300
+the patient-- they weigh-- and maybe we should say they mass,
+
+30
+00:01:51,310 --> 00:01:53,720
+because kilograms is mass, but we get the idea.
+
+31
+00:01:53,730 --> 00:01:56,790
+The patient is 72.7 kilograms.
+
+32
+00:02:01,590 --> 00:02:03,090
+So there's a couple interesting things here.
+
+33
+00:02:03,090 --> 00:02:06,040
+We have to figure out the dosage in terms of milliliters.
+
+34
+00:02:06,040 --> 00:02:07,750
+We have to-- oh, actually, I didn't even tell
+
+35
+00:02:07,760 --> 00:02:08,580
+you the question.
+
+36
+00:02:08,580 --> 00:02:11,060
+The question is, how many milliliters of solution
+
+37
+00:02:11,060 --> 00:02:15,490
+do we have to give to the patient per dose?
+
+38
+00:02:15,500 --> 00:02:23,410
+So milliliters of solution per dose.
+
+39
+00:02:23,410 --> 00:02:24,740
+That's our question.
+
+40
+00:02:24,750 --> 00:02:25,430
+And there's a couple of things.
+
+41
+00:02:25,430 --> 00:02:29,000
+We have to go from milligrams to grams.
+
+42
+00:02:29,000 --> 00:02:31,280
+And then convert that to milliliters.
+
+43
+00:02:31,280 --> 00:02:33,520
+And then they tell us per pound, but then they gave us
+
+44
+00:02:33,530 --> 00:02:36,470
+the patient's weight, or their mass, in kilograms.
+
+45
+00:02:36,470 --> 00:02:37,820
+So we have to do some conversion there.
+
+46
+00:02:37,830 --> 00:02:41,240
+So I definitely can appreciate how this can be a little
+
+47
+00:02:41,250 --> 00:02:42,900
+daunting and maybe confusing at times.
+
+48
+00:02:42,900 --> 00:02:45,090
+So let's just do it step by step.
+
+49
+00:02:45,090 --> 00:02:47,430
+So the first interesting thing-- and this is just
+
+50
+00:02:47,440 --> 00:02:49,200
+something that you might need to know, or you might have
+
+51
+00:02:49,210 --> 00:02:52,240
+written down on paper, or you might have a calculator that
+
+52
+00:02:52,250 --> 00:02:55,610
+does this-- is just how to convert kilograms to pounds.
+
+53
+00:02:55,610 --> 00:02:57,750
+And it's good to know in general, if you're converting
+
+54
+00:02:57,750 --> 00:03:00,560
+between the metric and the English systems.
+
+55
+00:03:00,560 --> 00:03:05,510
+So 1 kilogram is approximately equal to 2.2 pounds.
+
+56
+00:03:05,520 --> 00:03:08,520
+Not exactly, but that's a pretty good approximation.
+
+57
+00:03:08,520 --> 00:03:12,860
+And one pound-- if you just take one over that-- one pound is
+
+58
+00:03:12,870 --> 00:03:18,550
+approximately equal to 0.45 kilograms.
+
+59
+00:03:18,550 --> 00:03:19,950
+So we'll just put this in a box.
+
+60
+00:03:19,960 --> 00:03:23,240
+This is the only kind of outside conversion information
+
+61
+00:03:23,250 --> 00:03:24,630
+we'll need to do this problem.
+
+62
+00:03:24,630 --> 00:03:26,890
+Everything else, we'll just need a calculator, unless we
+
+63
+00:03:26,900 --> 00:03:29,560
+just want to spend a lot of time doing some arithmetic.
+
+64
+00:03:29,560 --> 00:03:30,200
+So the first thing.
+
+65
+00:03:30,210 --> 00:03:34,490
+Let's figure out our dosage in terms of per kilogram.
+
+66
+00:03:34,500 --> 00:03:36,960
+This is per pound, and we really don't need to
+
+67
+00:03:36,960 --> 00:03:38,200
+know every twelve hours.
+
+68
+00:03:38,210 --> 00:03:41,330
+Because they're saying, how many milliliters of solution
+
+69
+00:03:41,330 --> 00:03:42,950
+do we do per dose?
+
+70
+00:03:42,960 --> 00:03:45,240
+A dose is every twelve hours.
+
+71
+00:03:45,240 --> 00:03:47,690
+So we just really, you know-- the every twelve hours is kind
+
+72
+00:03:47,690 --> 00:03:48,730
+of extra information.
+
+73
+00:03:48,740 --> 00:03:52,720
+So we want to figure out this five milligrams per pound.
+
+74
+00:03:52,720 --> 00:03:57,090
+How do we convert that to how many milligrams per kilogram?
+
+75
+00:03:57,100 --> 00:04:01,170
+So let's do five-- I'll write it down here in magenta--
+
+76
+00:04:01,180 --> 00:04:06,180
+five milligrams per pound.
+
+77
+00:04:06,180 --> 00:04:08,900
+And then we want to convert this to per kilogram.
+
+78
+00:04:08,900 --> 00:04:12,590
+So we can multiply this times the number of pounds per
+
+79
+00:04:12,590 --> 00:04:15,820
+kilogram-- I'll do it in yellow-- times this
+
+80
+00:04:15,830 --> 00:04:17,540
+information up here.
+
+81
+00:04:17,550 --> 00:04:25,300
+Times 2.2 pounds per kilogram.
+
+82
+00:04:25,300 --> 00:04:27,750
+And if you ever get confused-- you know, gee, how did Sal know
+
+83
+00:04:27,750 --> 00:04:31,780
+to multiply by 2.2 instead of dividing by 2.2?
+
+84
+00:04:31,790 --> 00:04:34,350
+Which is the same thing as multiplying by 0.5.
+
+85
+00:04:34,360 --> 00:04:37,290
+You can pay very close attention to the units.
+
+86
+00:04:37,300 --> 00:04:40,230
+Notice, I wrote 2.2 pounds per kilogram.
+
+87
+00:04:40,230 --> 00:04:42,910
+2.2 pounds per 1 kilogram.
+
+88
+00:04:42,910 --> 00:04:45,810
+And you know this'll work out, because you have a pound in
+
+89
+00:04:45,810 --> 00:04:48,180
+the numerator and you have a pound in the denominator.
+
+90
+00:04:48,180 --> 00:04:50,420
+It's called dimensional analysis.
+
+91
+00:04:50,430 --> 00:04:53,490
+If you ever get confused with these things-- and I think,
+
+92
+00:04:53,500 --> 00:04:55,560
+once you do enough practice, you'll find that you won't
+
+93
+00:04:55,560 --> 00:04:56,890
+have to pay too much attention to this.
+
+94
+00:04:56,890 --> 00:04:58,240
+But at first, when you're getting started, just to make
+
+95
+00:04:58,250 --> 00:05:00,360
+sure you're not multiplying or dividing by the wrong
+
+96
+00:05:00,360 --> 00:05:02,250
+thing, just make sure the dimensions cancel out.
+
+97
+00:05:02,250 --> 00:05:05,310
+Pounds in the numerator, pounds in the denominator.
+
+98
+00:05:05,310 --> 00:05:06,350
+So let's do that.
+
+99
+00:05:06,360 --> 00:05:10,110
+Pounds in the numerator, pounds in the denominator cancel out.
+
+100
+00:05:10,110 --> 00:05:12,540
+And you multiply 5 times 2.2.
+
+101
+00:05:15,970 --> 00:05:20,280
+This is equal to-- let's see.
+
+102
+00:05:20,290 --> 00:05:22,850
+five times two is ten.
+
+103
+00:05:22,850 --> 00:05:24,840
+5 times 0.2 is 1.
+
+104
+00:05:24,840 --> 00:05:27,130
+So this is equal to eleven.
+
+105
+00:05:27,130 --> 00:05:30,320
+And then in our numerator, we have milligrams.
+
+106
+00:05:30,330 --> 00:05:35,290
+eleven milligrams per kilogram.
+
+107
+00:05:35,300 --> 00:05:39,160
+So we just converted our dosage information to
+
+108
+00:05:39,160 --> 00:05:40,880
+a pure metric system.
+
+109
+00:05:40,880 --> 00:05:42,750
+It was actually a mix between the metric and the
+
+110
+00:05:42,760 --> 00:05:44,170
+English system before.
+
+111
+00:05:44,180 --> 00:05:45,190
+Now let's see what we can do.
+
+112
+00:05:45,190 --> 00:05:48,120
+Well, let's see if we can get it in terms of how many
+
+113
+00:05:48,130 --> 00:05:51,440
+milliliters we have to deliver per pound.
+
+114
+00:05:51,450 --> 00:05:53,650
+So once again, we want this-- well, actually, let's
+
+115
+00:05:53,660 --> 00:05:54,990
+go to grams first.
+
+116
+00:05:55,000 --> 00:05:56,180
+Because we have milligrams here.
+
+117
+00:05:56,180 --> 00:05:57,300
+We have grams up here.
+
+118
+00:05:57,310 --> 00:06:00,570
+So let's see if we can convert this thing to grams.
+
+119
+00:06:00,570 --> 00:06:02,760
+So just like we did before, we want a milligrams
+
+120
+00:06:02,770 --> 00:06:04,730
+in the denominator.
+
+121
+00:06:04,740 --> 00:06:06,020
+I'll do it in orange.
+
+122
+00:06:06,020 --> 00:06:08,470
+We want a milligrams in the denominator and we want
+
+123
+00:06:08,480 --> 00:06:10,230
+a gram in the numerator.
+
+124
+00:06:10,230 --> 00:06:11,110
+Why did I say that?
+
+125
+00:06:11,120 --> 00:06:13,180
+Because I want this and this to cancel.
+
+126
+00:06:13,180 --> 00:06:15,050
+And I want a grams in the numerator.
+
+127
+00:06:15,050 --> 00:06:18,270
+So how many grams are there per milligram?
+
+128
+00:06:18,270 --> 00:06:19,170
+You can just think it through.
+
+129
+00:06:19,180 --> 00:06:23,500
+There's one gram per one thousand milligrams.
+
+130
+00:06:23,500 --> 00:06:26,150
+Or one thousand milligrams per gram.
+
+131
+00:06:26,160 --> 00:06:28,320
+And you just multiply it out.
+
+132
+00:06:28,320 --> 00:06:32,150
+So the milligrams cancels with the milligrams, and then
+
+133
+00:06:32,160 --> 00:06:38,330
+we get-- this is equal to eleven / one thousand grams per kilogram.
+
+134
+00:06:42,040 --> 00:06:44,790
+So now we have everything in terms of grams, but we want
+
+135
+00:06:44,790 --> 00:06:46,050
+it in terms of milliliters.
+
+136
+00:06:46,060 --> 00:06:48,190
+The question is, how many milliliters of
+
+137
+00:06:48,190 --> 00:06:49,760
+solution per dose?
+
+138
+00:06:49,770 --> 00:06:52,870
+So let me go down here on this line right here.
+
+139
+00:06:52,870 --> 00:06:56,370
+So we had this result.
+
+140
+00:06:56,380 --> 00:07:01,630
+We have eleven / one thousand-- I won't do the division just yet-- grams
+
+141
+00:07:01,630 --> 00:07:04,920
+of drug x per kilogram.
+
+142
+00:07:04,930 --> 00:07:08,240
+This is really just a re-- we've just rewritten
+
+143
+00:07:08,250 --> 00:07:11,100
+this dosage information in different units.
+
+144
+00:07:11,100 --> 00:07:14,820
+And let's see how much solution we need per kilogram.
+
+145
+00:07:14,820 --> 00:07:18,880
+So I want to cancel out the grams here and have
+
+146
+00:07:18,890 --> 00:07:19,910
+a milliliters there.
+
+147
+00:07:19,920 --> 00:07:21,790
+So to cancel out that grams, I'm going to have to have a
+
+148
+00:07:21,790 --> 00:07:24,970
+gram in the denominator and a milliliter in the numerator.
+
+149
+00:07:29,770 --> 00:07:34,440
+So in our solution, how many grams are there per milliliter?
+
+150
+00:07:34,440 --> 00:07:35,060
+Well, they told us.
+
+151
+00:07:35,070 --> 00:07:38,260
+There are 0.9 grams per milliliter.
+
+152
+00:07:38,270 --> 00:07:44,560
+Or for every 1 milliliter, there are 0.9 grams.
+
+153
+00:07:44,560 --> 00:07:45,930
+Notice, I just took the inverse of that.
+
+154
+00:07:45,940 --> 00:07:48,500
+Because we want a milliliter in the numerator, grams in
+
+155
+00:07:48,500 --> 00:07:50,780
+the denominator, so that these two cancel out.
+
+156
+00:07:50,790 --> 00:07:52,800
+And let's do this multiplication now.
+
+157
+00:07:52,810 --> 00:07:54,370
+So our grams cancel out.
+
+158
+00:07:54,370 --> 00:07:55,810
+We have milliliters per kilogram.
+
+159
+00:08:00,700 --> 00:08:01,900
+And then we multiply it out.
+
+160
+00:08:01,910 --> 00:08:05,780
+11/1,000 times 1 over 0.9.
+
+161
+00:08:05,790 --> 00:08:08,100
+So I'll just keep-- let me just write it like this.
+
+162
+00:08:08,100 --> 00:08:17,390
+So there's going to be 11/1,000 times 0.9 milliliters of
+
+163
+00:08:17,390 --> 00:08:19,840
+our solution per kilogram.
+
+164
+00:08:19,850 --> 00:08:21,410
+So we've gotten this far.
+
+165
+00:08:21,410 --> 00:08:24,240
+So this is per kilogram of patient body weight.
+
+166
+00:08:24,250 --> 00:08:27,070
+And then finally, they tell us how many kilograms
+
+167
+00:08:27,070 --> 00:08:28,010
+our patient weighs.
+
+168
+00:08:28,020 --> 00:08:30,190
+So let's do that last multiplication, and then we can
+
+169
+00:08:30,190 --> 00:08:33,220
+actually get our calculator out and do it all at once.
+
+170
+00:08:33,230 --> 00:08:36,130
+So let's multiply this times-- we want to know how many
+
+171
+00:08:36,130 --> 00:08:38,310
+milliliters per patient.
+
+172
+00:08:38,320 --> 00:08:40,280
+We want the kilograms to cancel out.
+
+173
+00:08:40,280 --> 00:08:44,320
+So we want kilograms per patient.
+
+174
+00:08:44,330 --> 00:08:46,140
+Now we're talking about this particular patient.
+
+175
+00:08:46,140 --> 00:08:48,240
+Not every patient is going to be the same
+
+176
+00:08:48,250 --> 00:08:49,390
+number of kilograms.
+
+177
+00:08:49,390 --> 00:08:51,710
+But if we do this, kilograms will cancel out.
+
+178
+00:08:51,720 --> 00:08:54,620
+We'll have milliliters per patient-- milliliters of
+
+179
+00:08:54,620 --> 00:08:58,360
+solution per patient-- which is exactly what we want.
+
+180
+00:08:58,370 --> 00:09:00,850
+We want milliliters of solution per dose per patient.
+
+181
+00:09:00,850 --> 00:09:03,960
+But everything we've assumed so far has been per dose.
+
+182
+00:09:03,960 --> 00:09:06,640
+So how many kilograms does the patient weigh?
+
+183
+00:09:06,640 --> 00:09:12,080
+Well, there's 72.7 kilograms per patient.
+
+184
+00:09:12,090 --> 00:09:13,660
+That's how much the patient weighs.
+
+185
+00:09:13,660 --> 00:09:15,700
+So we just do this final multiplication and
+
+186
+00:09:15,710 --> 00:09:16,290
+we'll be done.
+
+187
+00:09:16,290 --> 00:09:18,960
+So our answer-- and as these two things are going to cancel
+
+188
+00:09:18,970 --> 00:09:24,720
+out-- so our final answer is going to be 11 times 72.7
+
+189
+00:09:24,720 --> 00:09:28,720
+divided by 100 times-- actually, 100 times 0.9 is
+
+190
+00:09:28,730 --> 00:09:29,790
+pretty easy to figure out.
+
+191
+00:09:29,790 --> 00:09:31,070
+That's nine hundred.
+
+192
+00:09:31,080 --> 00:09:35,150
+Divided by nine hundred milliliters per patient.
+
+193
+00:09:35,150 --> 00:09:37,580
+Or you can just say milliliters per dose.
+
+194
+00:09:37,590 --> 00:09:38,500
+However you want to say it.
+
+195
+00:09:38,500 --> 00:09:39,460
+Per dose per patient.
+
+196
+00:09:39,470 --> 00:09:41,720
+Let's get our calculator out and do this.
+
+197
+00:09:41,720 --> 00:09:54,910
+So we have 11 times 72.7 is equal to 799 divided by 900.
+
+198
+00:09:54,910 --> 00:09:58,070
+Is equal to 0.88-- well, we could round up.
+
+199
+00:09:58,080 --> 00:09:59,360
+0.889.
+
+200
+00:09:59,370 --> 00:10:00,690
+Hopefully the doctor won't mind.
+
+201
+00:10:00,690 --> 00:10:04,440
+So that is equal to-- I'll write it in a nice, vibrant
+
+202
+00:10:04,450 --> 00:10:14,830
+color-- 0.889 milliliters of solution per dose.
+
+203
+00:10:14,840 --> 00:10:17,130
+So this is what we're going to give every twelve hours.
+
+204
+00:10:17,130 --> 00:10:19,520
+If they ask, how many total milliliters over the
+
+205
+00:10:19,530 --> 00:10:21,010
+course of two days?
+
+206
+00:10:21,010 --> 00:10:22,530
+We would have to say, oh, there's forty-eight hours.
+
+207
+00:10:22,540 --> 00:10:23,910
+We'd multiply it by four.
+
+208
+00:10:23,910 --> 00:10:26,250
+But that twelve hours was extra information in this problem.
+
+209
+00:10:26,250 --> 00:10:32,750
+But anyway, hopefully this is useful, and it'll ensure that
+
+210
+00:10:32,750 --> 00:10:35,710
+any nurses serving me in the future are giving me
+
+211
+00:10:35,720 --> 00:10:37,030
+my proper dosage.
+
+212
+00:10:37,030 --> 00:10:40,480
+And hopefully, the doctor even got the right dosage to begin
+
+213
+00:10:40,490 --> 00:10:42,050
+with, because otherwise it's all for naught.
+
+214
+00:10:42,050 --> 00:10:43,350
+Anyway.

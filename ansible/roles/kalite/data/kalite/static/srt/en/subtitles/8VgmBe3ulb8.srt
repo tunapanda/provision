@@ -1,0 +1,823 @@
+1
+00:00:00,933 --> 00:00:07,175
+Let's see if we can learn a thing or two about even, even functions and odd functions.
+
+2
+00:00:07,175 --> 00:00:12,190
+Even functions and on the right-hand side over here, we'll talk about odd functions.
+
+3
+00:00:12,190 --> 00:00:17,972
+If we have time we'll talk about functions that are neither even nor odd.
+
+4
+00:00:17,972 --> 00:00:22,036
+So, before I go into kind of a formal definition of even functions,
+
+5
+00:00:22,036 --> 00:00:24,336
+I just want to show you what they look like visually,
+
+6
+00:00:24,336 --> 00:00:26,600
+because I think that's the easiest way to recognize them
+
+7
+00:00:26,600 --> 00:00:31,036
+and then it'll also make a little more sense when we talk about the formal
+
+8
+00:00:31,036 --> 00:00:31,798
+definition of an even function.
+
+9
+00:00:31,798 --> 00:00:36,061
+So, let me draw some coordinate axes here.
+
+10
+00:00:36,061 --> 00:00:40,983
+X-axis and then, -let me see if I can draw that a little straighter.
+
+11
+00:00:40,983 --> 00:00:44,698
+Move this right over here, and that is my y-axis
+
+12
+00:00:44,698 --> 00:00:48,971
+Or I could say y is equal to f(x) axis, just like that.
+
+13
+00:00:48,971 --> 00:00:52,965
+Let me draw the graph of f(x).
+
+14
+00:00:52,965 --> 00:00:58,467
+f(x) is equal to x-squared, or Y is equal to x-squared, either one.
+
+15
+00:00:58,467 --> 00:01:00,442
+So let me draw the first quadrant.
+
+16
+00:01:00,442 --> 00:01:02,215
+It looks like this.
+
+17
+00:01:02,215 --> 00:01:06,867
+And then in the second quadrant it looks like this.
+
+18
+00:01:06,867 --> 00:01:11,448
+It looks like- oh let me try to draw this symmetric.
+
+19
+00:01:11,448 --> 00:01:14,625
+Pretty good job.
+
+20
+00:01:14,625 --> 00:01:19,533
+The f(x) is equal to x squared is an even function.
+
+21
+00:01:19,533 --> 00:01:23,333
+And the way that you recognize it is because it has this symmetry.
+
+22
+00:01:23,333 --> 00:01:25,052
+around the Y-axis.
+
+23
+00:01:25,052 --> 00:01:29,062
+If you take- If you take what's going on, on the right-hand side
+
+24
+00:01:29,062 --> 00:01:33,400
+to the right of the y-axis and you just reflect it over the Y-axis,
+
+25
+00:01:33,400 --> 00:01:36,836
+you get the other side of the function and that's what tells you
+
+26
+00:01:36,836 --> 00:01:38,801
+it is an even function.
+
+27
+00:01:38,801 --> 00:01:41,820
+And I want to show you one interesting property here.
+
+28
+00:01:41,820 --> 00:01:45,348
+If you take any x-value - let's say you take a positive x-value.
+
+29
+00:01:45,348 --> 00:01:48,135
+Let's say you take the value x is equal to two.
+
+30
+00:01:48,135 --> 00:01:51,107
+If you find f(2) you're going to find four.
+
+31
+00:01:51,107 --> 00:01:57,518
+That's going to be four for this particular function for f(x) where two squared is
+
+32
+00:01:57,518 --> 00:01:58,390
+four.
+
+33
+00:01:58,390 --> 00:02:02,733
+And if you took the negative version of two- So if you took negative two
+
+34
+00:02:02,733 --> 00:02:06,293
+If you took negative two and you evaluated the function there,
+
+35
+00:02:06,293 --> 00:02:11,133
+you're also- you are also goint to get four, and this,
+
+36
+00:02:11,133 --> 00:02:14,298
+hopefully, or maybe makes complete sense to you.
+
+37
+00:02:14,298 --> 00:02:17,775
+You're like, "Well Sal, obviously if I reflect this function over
+
+38
+00:02:17,775 --> 00:02:19,807
+the Y-axis, that's going to be the case."
+
+39
+00:02:19,807 --> 00:02:24,126
+Whatever function value I get at the positive value of number,
+
+40
+00:02:24,126 --> 00:02:26,800
+I'm going to get the same function value at the negative value.
+
+41
+00:02:26,800 --> 00:02:31,200
+And this is what kind of leads us to the formal definition.
+
+42
+00:02:31,200 --> 00:02:35,458
+If a function is even, or I could say a function is even
+
+43
+00:02:35,458 --> 00:02:41,448
+if and only if- So it's even. And don't get confused with the term even function
+
+44
+00:02:41,448 --> 00:02:42,981
+and the term even number.
+
+45
+00:02:42,981 --> 00:02:46,650
+They're completely different, um, kind of ideas. So there's- there's not, at
+
+46
+00:02:46,650 --> 00:02:49,436
+least not an obvious connection, that I know of, between even functions
+
+47
+00:02:49,436 --> 00:02:52,315
+and even numbers or odd functions and odd numbers.
+
+48
+00:02:52,315 --> 00:03:01,321
+So you're an even function if and only if, f of- f(x)
+
+49
+00:03:01,321 --> 00:03:04,067
+is equal to f(-x).
+
+50
+00:03:04,067 --> 00:03:06,294
+And the reason why I didn't introduce this from the beginning
+
+51
+00:03:06,294 --> 00:03:08,105
+is because this is really the definiton of even functions.
+
+52
+00:03:08,105 --> 00:03:09,213
+Because when you look at this you are like:
+
+53
+00:03:09,213 --> 00:03:10,675
+Hey, what does this mean?
+
+54
+00:03:10,675 --> 00:03:14,049
+F(x) is equal to f(-x) and all it does mean is this.
+
+55
+00:03:14,049 --> 00:03:18,043
+It means if I would take f(2)- f(2) is 4.
+
+56
+00:03:18,043 --> 00:03:19,808
+So let me show you with the particular case.
+
+57
+00:03:19,808 --> 00:03:25,148
+f(2) is equal to f(-2)- f(-2).
+
+58
+00:03:25,148 --> 00:03:32,467
+And this particular case for f(x)=f(x^2) they are both equal to 4.
+
+59
+00:03:32,467 --> 00:03:37,780
+So really, it's just another way of saying that the function can be reflected
+
+60
+00:03:37,780 --> 00:03:42,145
+or the left side of the function is the reflection of the right side of the function
+
+61
+00:03:42,145 --> 00:03:47,068
+across the vertical axis, across the y-axis.
+
+62
+00:03:47,068 --> 00:03:50,365
+And just to make sure we have a decent understanding here
+
+63
+00:03:50,365 --> 00:03:52,130
+let me draw a few more even functions.
+
+64
+00:03:52,130 --> 00:03:56,800
+And i'm going to draw some fairly wacky things
+
+65
+00:03:56,800 --> 00:03:59,467
+just so you would really kinda learn to visually recognize them.
+
+66
+00:03:59,467 --> 00:04:08,836
+So a function like, let's say like this.
+
+67
+00:04:08,836 --> 00:04:14,933
+Maybe jumps up to here and does something like that.
+
+68
+00:04:14,933 --> 00:04:17,370
+And then on this side it does the same thing.
+
+69
+00:04:17,370 --> 00:04:19,599
+It's the reflection, so it jumps up here.
+
+70
+00:04:19,599 --> 00:04:23,918
+then it goes like this and then it goes like this.
+
+71
+00:04:23,918 --> 00:04:26,519
+And i'm trying to draw so they are the mirror image of eachother.
+
+72
+00:04:26,519 --> 00:04:29,166
+This is an even function.
+
+73
+00:04:29,166 --> 00:04:32,370
+You take what's going on on the right hand side of this function
+
+74
+00:04:32,370 --> 00:04:37,943
+and you literally just reflect it over the y-axis and you get the left hand side of the function.
+
+75
+00:04:37,943 --> 00:04:39,940
+And you could see that even this holds.
+
+76
+00:04:39,940 --> 00:04:41,612
+If I take some value.
+
+77
+00:04:41,612 --> 00:04:46,441
+Let's say that this value right here is... I don't know -- 3.
+
+78
+00:04:46,441 --> 00:04:53,593
+Let's say that the f(3) over here is equal to, let's say that is 5.
+
+79
+00:04:53,593 --> 00:04:55,451
+So this is 5.
+
+80
+00:04:55,451 --> 00:05:02,277
+We see that f(-3) is also going to be equal to 5.
+
+81
+00:05:02,277 --> 00:05:05,853
+And that's what our definition of even function told us.
+
+82
+00:05:05,853 --> 00:05:09,615
+I can draw, let me just draw one more to really make sure.
+
+83
+00:05:09,615 --> 00:05:12,587
+I'll do the axis in that same green colour.
+
+84
+00:05:12,587 --> 00:05:16,767
+Let me do one more like this.
+
+85
+00:05:16,767 --> 00:05:21,921
+And you could have maybe some type of trigonometric looking function.
+
+86
+00:05:21,921 --> 00:05:23,268
+That looks like this.
+
+87
+00:05:23,268 --> 00:05:26,867
+That looks like that.
+
+88
+00:05:26,867 --> 00:05:30,188
+And it keeps going in either direction.
+
+89
+00:05:30,188 --> 00:05:32,835
+So something like this would also be even.
+
+90
+00:05:32,835 --> 00:05:36,782
+So all of these are even functions. Now you are probably thinking.
+
+91
+00:05:36,782 --> 00:05:38,361
+What is an odd function?
+
+92
+00:05:38,361 --> 00:05:41,101
+And let me draw an odd function for you.
+
+93
+00:05:41,101 --> 00:05:44,863
+So let me draw the axis once again.
+
+94
+00:05:44,863 --> 00:05:51,504
+X-axis, y-axis so the f of x-axis and to show you an odd function.
+
+95
+00:05:51,504 --> 00:05:55,869
+I'll give you a particular odd function, maybe the most famous of odd functions.
+
+96
+00:05:55,869 --> 00:05:58,377
+This is probably the most famous of the even functions.
+
+97
+00:05:58,377 --> 00:06:04,368
+And it is f(x) although there are probably other contendors for the most famous odd function.
+
+98
+00:06:04,368 --> 00:06:07,400
+f(x) is equal to x^3.
+
+99
+00:06:07,400 --> 00:06:10,200
+And it looks like and you might have seen the graph of it.
+
+100
+00:06:10,200 --> 00:06:13,516
+If you haven't you can graph it by trying some points.
+
+101
+00:06:13,516 --> 00:06:15,792
+It looks like that.
+
+102
+00:06:15,792 --> 00:06:21,267
+and the way to visually recognize an odd function is you look at what's going on
+
+103
+00:06:21,267 --> 00:06:25,262
+to the right of the y-axis, once again, this is y-axis, this is the x-axis.
+
+104
+00:06:25,262 --> 00:06:27,600
+You have all of this business to the right of the y-axis.
+
+105
+00:06:27,600 --> 00:06:31,535
+If you reflect it over the y-axis you would get something like this.
+
+106
+00:06:31,535 --> 00:06:35,761
+You would get something like this and if the left side of this graph looked like this
+
+107
+00:06:35,761 --> 00:06:37,108
+we would be dealing with an even function.
+
+108
+00:06:37,108 --> 00:06:38,547
+Clearly it doesn't.
+
+109
+00:06:38,547 --> 00:06:42,123
+To make this an odd function we reflected once over the y-axis
+
+110
+00:06:42,123 --> 00:06:46,210
+and then reflected the x-axis or another way to think about it
+
+111
+00:06:46,210 --> 00:06:49,533
+reflected once over the y-axis and then make it negative.
+
+112
+00:06:49,533 --> 00:06:52,851
+Either way it will get you there. Or you could even reflect it over the x-axis
+
+113
+00:06:52,851 --> 00:06:55,933
+and then the y-axis, so you are kinda doing two reflections.
+
+114
+00:06:55,933 --> 00:07:00,374
+So clearly if you take this up here and then you reflect it over the x-axis.
+
+115
+00:07:00,374 --> 00:07:04,933
+You get these values, you get this part of the graph right over here.
+
+116
+00:07:04,933 --> 00:07:08,037
+And if you try to do it with a particular point
+
+117
+00:07:08,037 --> 00:07:11,845
+I'm doing this to kinda hint that with the definition
+
+118
+00:07:11,845 --> 00:07:14,600
+the formal definition of an odd function this is going to be.
+
+119
+00:07:14,600 --> 00:07:17,933
+Let's try a point, let's try 2 again.
+
+120
+00:07:17,933 --> 00:07:20,761
+If you had the point 2, f(2) is 8.
+
+121
+00:07:20,761 --> 00:07:24,848
+So f(2) is equal to 8.
+
+122
+00:07:24,848 --> 00:07:26,520
+Now what happens if we take negative 2.
+
+123
+00:07:26,520 --> 00:07:34,182
+If we take negative 2, f(-2), -2^3 that is just going to be -8.
+
+124
+00:07:34,182 --> 00:07:38,873
+So f(-2) is equal to -8.
+
+125
+00:07:38,873 --> 00:07:41,845
+And in general if we take, let me just write it over here.
+
+126
+00:07:41,845 --> 00:07:47,185
+f(2) so we are just taking one particular example from this particular function.
+
+127
+00:07:47,185 --> 00:07:53,037
+We have, f(2) is equal to, not f(-2).
+
+128
+00:07:53,037 --> 00:07:54,848
+8 does not equal -8.
+
+129
+00:07:54,848 --> 00:07:58,378
+8 is equal to negative of -8.
+
+130
+00:07:58,378 --> 00:07:59,864
+So that's positive 8.
+
+131
+00:07:59,864 --> 00:08:04,043
+So f(2) is equal to the negative of f(-2).
+
+132
+00:08:04,043 --> 00:08:07,702
+We figured out, just I want to make it clear.
+
+133
+00:08:07,702 --> 00:08:10,600
+We figured out f of 2 is 8. 2^3 is 8.
+
+134
+00:08:10,600 --> 00:08:15,839
+We know that f of -2 is -8. -2^3 is -8
+
+135
+00:08:15,839 --> 00:08:20,533
+So you have the negative of -8, negatives cancel out and it works out.
+
+136
+00:08:20,533 --> 00:08:23,176
+So in general, you have an odd function.
+
+137
+00:08:23,176 --> 00:08:25,127
+So here is the definition.
+
+138
+00:08:25,127 --> 00:08:29,446
+You are dealing with an odd function if and only if
+
+139
+00:08:29,446 --> 00:08:36,800
+f of x for all the x's that are defined on that function or for which that function is defined.
+
+140
+00:08:36,800 --> 00:08:42,454
+If f(x) is equal to negative of f(-x) or you'll sometimes see it the other way
+
+141
+00:08:42,454 --> 00:08:47,667
+if you multiply both sides of this equation with -1 you would get
+
+142
+00:08:47,667 --> 00:08:52,201
+negative of f(x) is equal to f(-x)
+
+143
+00:08:52,201 --> 00:08:54,105
+and sometimes you will see when it has swapped around
+
+144
+00:08:54,105 --> 00:08:59,236
+and you will say f of negative x is equal to
+
+145
+00:08:59,236 --> 00:09:03,667
+Let me write that, careful.
+
+146
+00:09:03,667 --> 00:09:06,559
+Is equal to -f(x).
+
+147
+00:09:06,559 --> 00:09:08,600
+I just swapped these two sides.
+
+148
+00:09:08,600 --> 00:09:12,333
+So let me just draw you some more odd functions.
+
+149
+00:09:12,333 --> 00:09:14,980
+Some more odd functions.
+
+150
+00:09:14,980 --> 00:09:17,163
+So I'll do these visually.
+
+151
+00:09:17,163 --> 00:09:21,250
+So, I'll just draw that a little bit cleaner.
+
+152
+00:09:21,250 --> 00:09:24,918
+So if you have a...
+
+153
+00:09:24,918 --> 00:09:29,333
+maybe it looks something... maybe the function does something wacky
+
+154
+00:09:29,333 --> 00:09:33,400
+Maybe it does something wacky like this on the right hand side,
+
+155
+00:09:33,400 --> 00:09:37,452
+If it was even you would reflect it there, but we are going to have and odd function
+
+156
+00:09:37,452 --> 00:09:39,333
+so we are going to reflect it again.
+
+157
+00:09:39,333 --> 00:09:41,312
+So the rest of the function is going to look like this.
+
+158
+00:09:41,312 --> 00:09:43,912
+So what i have drawn, the non-dotted lines
+
+159
+00:09:43,912 --> 00:09:47,488
+this right here is an odd function and you could even look at the definition.
+
+160
+00:09:47,488 --> 00:09:53,667
+If you'd take some value, a, and then you'd take f(a) which would put you up here.
+
+161
+00:09:53,667 --> 00:09:55,336
+this right here would be f(a)
+
+162
+00:09:55,336 --> 00:09:58,333
+if you would take the negative value of that, if you would take -a here
+
+163
+00:09:58,333 --> 00:10:01,652
+-a, f(-a) is gonna be down here.
+
+164
+00:10:01,652 --> 00:10:08,082
+So f(-a) is going to be equal to, it's going to be the same distance
+
+165
+00:10:08,082 --> 00:10:09,241
+from the horizontal axis.
+
+166
+00:10:09,241 --> 00:10:11,400
+It's not compleatly clear the way I drew it just now.
+
+167
+00:10:11,400 --> 00:10:14,005
+So it's maybe gonna be like right over here.
+
+168
+00:10:14,005 --> 00:10:17,674
+So this right over here is going to be f of negative a
+
+169
+00:10:17,674 --> 00:10:22,133
+which is the same distance from the origin is of f of a, it's just the negative
+
+170
+00:10:22,133 --> 00:10:24,501
+It's not, I didn't compleatly draw it to scale.
+
+171
+00:10:24,501 --> 00:10:27,984
+Let me draw one more of these odd functions.
+
+172
+00:10:27,984 --> 00:10:29,330
+I think you might get the point.
+
+173
+00:10:29,330 --> 00:10:31,002
+I shall draw a very simple odd function,
+
+174
+00:10:31,002 --> 00:10:33,649
+just to show you that it doesn't always have to be something crazy.
+
+175
+00:10:33,649 --> 00:10:39,965
+So a very simple odd function, would be y is equal to x.
+
+176
+00:10:39,965 --> 00:10:44,331
+y=x, something like this.
+
+177
+00:10:44,331 --> 00:10:45,677
+Whoops.
+
+178
+00:10:45,677 --> 00:10:49,400
+Y is equal going through the origin.
+
+179
+00:10:49,400 --> 00:10:52,000
+You reflect what's on the right onto to the left, you get that
+
+180
+00:10:52,000 --> 00:10:55,244
+and you reflect it down you get all of this stuff in the third quadrant.
+
+181
+00:10:55,244 --> 00:10:57,659
+So this is also an odd function.
+
+182
+00:10:57,659 --> 00:11:01,333
+Now I wanna leave you with a few things that are not odd functions
+
+183
+00:11:01,333 --> 00:11:04,671
+and at some times might be confused to be odd functions.
+
+184
+00:11:04,671 --> 00:11:12,334
+So you might have something like this where you have a... maybe have a parabola,
+
+185
+00:11:12,334 --> 00:11:15,585
+but it doesn't, it's not symmetric around the y-axis and your temptation might be:
+
+186
+00:11:15,585 --> 00:11:18,650
+Hey, there is this symmetry for this parabola, but it's not
+
+187
+00:11:18,650 --> 00:11:23,733
+it's not being reflected around the y-axis, you don't have a situation here
+
+188
+00:11:23,733 --> 00:11:27,659
+where f of x is equal to f of negative x.
+
+189
+00:11:27,659 --> 00:11:30,678
+So this is not, this is neither.
+
+190
+00:11:30,678 --> 00:11:32,674
+Neither odd nor even.
+
+191
+00:11:32,674 --> 00:11:35,507
+Similary you might see, let's say you see a shifted,
+
+192
+00:11:35,507 --> 00:11:40,667
+a shifted cubic function, so let's say you have something like this.
+
+193
+00:11:40,667 --> 00:11:45,910
+Let's say you have x to the third plus 1.
+
+194
+00:11:45,910 --> 00:11:49,300
+so f(x) is equal to x^3+1.
+
+195
+00:11:49,300 --> 00:11:51,250
+So it might look something like this.
+
+196
+00:11:51,250 --> 00:11:54,501
+And once again you will be tempted to call this an odd function,
+
+197
+00:11:54,501 --> 00:11:58,309
+but because it has shifted up it is no longer an odd function.
+
+198
+00:11:58,309 --> 00:11:59,563
+You could look at that visually.
+
+199
+00:11:59,563 --> 00:12:03,467
+So this is f of x is equal to x^3+1.
+
+200
+00:12:03,467 --> 00:12:07,829
+If you take what's on the right hand side and reflect it onto to the left hand side
+
+201
+00:12:07,829 --> 00:12:11,173
+you would get something like that and then if you reflect that down
+
+202
+00:12:11,173 --> 00:12:12,891
+you would get something like that.
+
+203
+00:12:12,891 --> 00:12:15,678
+So this is not an odd function.
+
+204
+00:12:15,678 --> 00:12:20,926
+You are not... this isn't the left reflection and then the top-bottom reflection
+
+205
+00:12:20,926 --> 00:12:22,922
+of what's going on on the right hand side.
+
+206
+00:12:22,922 --> 00:12:24,501
+This over here actually would be.

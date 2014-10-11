@@ -1,0 +1,131 @@
+1
+99:59:59,999 --> 99:59:59,999
+Given a rectangle with length
+
+2
+99:59:59,999 --> 99:59:59,999
+"a-squared plus 6-a minus 27"
+
+3
+99:59:59,999 --> 99:59:59,999
+and with "a-squared minus 9",
+
+4
+99:59:59,999 --> 99:59:59,999
+write the ratio of the rectangle to its length
+
+5
+99:59:59,999 --> 99:59:59,999
+as a simplified rational expression.
+
+6
+99:59:59,999 --> 99:59:59,999
+So we want the ratio of the width to the length
+
+7
+99:59:59,999 --> 99:59:59,999
+to the length of the rectangle
+
+8
+99:59:59,999 --> 99:59:59,999
+and they give us the expressions for each of these
+
+9
+99:59:59,999 --> 99:59:59,999
+The expression for the width of the rectangle is
+
+10
+99:59:59,999 --> 99:59:59,999
+"a-squared minus 9", so the width is
+
+11
+99:59:59,999 --> 99:59:59,999
+"a-squared minus 9"; we want the ratio
+
+12
+99:59:59,999 --> 99:59:59,999
+of that to the length; the ratio of the width of the
+
+13
+99:59:59,999 --> 99:59:59,999
+rectangle to it's length. The length is given
+
+14
+99:59:59,999 --> 99:59:59,999
+right over there; it is "a-squared plus 6-a minus 27"
+
+15
+99:59:59,999 --> 99:59:59,999
+they want us to simplify this.
+
+16
+99:59:59,999 --> 99:59:59,999
+So the best way to simplify this, whether we're
+
+17
+99:59:59,999 --> 99:59:59,999
+dealing with expressions in the numerator or denominator
+
+18
+99:59:59,999 --> 99:59:59,999
+or just numbers is that we want to factor them
+
+19
+99:59:59,999 --> 99:59:59,999
+and see if they have any common factors
+
+20
+99:59:59,999 --> 99:59:59,999
+and if they do, we might be able to cancel them out
+
+21
+99:59:59,999 --> 99:59:59,999
+So if we factor this top expression over here
+
+22
+99:59:59,999 --> 99:59:59,999
+which was the expression of the width
+
+23
+99:59:59,999 --> 99:59:59,999
+this is of the form "a-squared minus b-squared" where
+
+24
+99:59:59,999 --> 99:59:59,999
+"b-squared" is 9, so this is going to be the same thing as
+
+25
+99:59:59,999 --> 99:59:59,999
+"a plus the sqrt of 9 times a minus the sqrt of 9"
+
+26
+99:59:59,999 --> 99:59:59,999
+so this is "a plus 3 times a minus 3"
+
+27
+99:59:59,999 --> 99:59:59,999
+and I just recognized that from just the pattern
+
+28
+99:59:59,999 --> 99:59:59,999
+if you ever see something "a-squared minus b-squared"
+
+29
+99:59:59,999 --> 99:59:59,999
+it's "a plus b times a minus b"
+
+30
+99:59:59,999 --> 99:59:59,999
+you can verify that for yourself
+
+31
+99:59:59,999 --> 99:59:59,999
+multiply this out; you'll get "a-squared minus b-squared"
+
+32
+99:59:59,999 --> 99:59:59,999
+so the width can be factored into "a plus 3 times a minus 3"
+
+33
+99:59:59,999 --> 99:59:59,999
+so let's see if we can do something for the denominator

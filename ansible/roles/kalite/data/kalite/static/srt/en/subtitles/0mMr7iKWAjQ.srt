@@ -1,0 +1,671 @@
+1
+00:00:01,040 --> 00:00:03,330
+Problem 17.
+
+2
+00:00:05,570 --> 00:00:07,440
+The three dimensional figure above
+
+3
+00:00:07,450 --> 00:00:09,660
+has 2 parallel bases and 18 edges.
+
+4
+00:00:10,430 --> 00:00:13,400
+I could try to draw it, but, well let me draw that.
+
+5
+00:00:14,630 --> 00:00:18,680
+So their bases are both hexagons, essentially.
+
+6
+00:00:18,680 --> 00:00:20,420
+So I have one base that looks like this.
+
+7
+00:00:23,540 --> 00:00:26,460
+I have time so let me draw it properly.
+
+8
+00:00:26,460 --> 00:00:30,060
+So the base in front looks something like this.
+
+9
+00:00:40,090 --> 00:00:43,370
+And then the top base is just a small version,
+
+10
+00:00:43,370 --> 00:00:47,120
+or smaller version, that looks like that. Whoops.
+
+11
+00:00:54,070 --> 00:00:58,360
+And then they draw-- these are the front edges--
+
+12
+00:00:58,360 --> 00:00:59,670
+look something like this.
+
+13
+00:01:07,000 --> 00:01:09,520
+Under the rear edges in a darker color, so you know,
+
+14
+00:01:09,520 --> 00:01:10,760
+that they're in the back.
+
+15
+00:01:14,000 --> 00:01:15,390
+Rear edge.
+
+16
+00:01:15,390 --> 00:01:16,870
+I should have drawn that later,
+
+17
+00:01:16,870 --> 00:01:19,790
+because that's going to switch back to this.
+
+18
+00:01:19,790 --> 00:01:23,230
+And just paint over this,just so you know,these are in front.
+
+19
+00:01:26,250 --> 00:01:27,160
+OK, good enough.
+
+20
+00:01:27,660 --> 00:01:34,040
+And they tell us that this point up here is v.
+
+21
+00:01:34,770 --> 00:01:36,170
+I don't know if that even fit on the video,
+
+22
+00:01:36,170 --> 00:01:38,220
+but hopefully you can see that point up there.
+
+23
+00:01:38,720 --> 00:01:41,460
+The three dimensional figure above has two parallel bases,
+
+24
+00:01:41,460 --> 00:01:43,660
+right,this is one base, that's the other base.
+
+25
+00:01:44,730 --> 00:01:46,290
+Two parallel bases and 18 edges.
+
+26
+00:01:46,290 --> 00:01:49,400
+Line segments are to be drawn connecting vertex v
+
+27
+00:01:49,400 --> 00:01:53,200
+with each of the other 11 vertices.
+
+28
+00:01:53,600 --> 00:01:55,290
+Each of the 11 vertices in the figure.
+
+29
+00:01:55,290 --> 00:01:57,470
+How many of these segments
+
+30
+00:01:57,770 --> 00:02:01,670
+will not lie on an edge of the figure?
+
+31
+00:02:02,550 --> 00:02:05,320
+So an edge of the figure is essentially,
+
+32
+00:02:05,320 --> 00:02:06,960
+well let's see what they're saying.
+
+33
+00:02:07,260 --> 00:02:09,740
+Line segments should be drawn connecting vertex v
+
+34
+00:02:09,740 --> 00:02:11,730
+with each of the other 11 vertices.
+
+35
+00:02:11,730 --> 00:02:13,230
+So what are the other 11 vertices?
+
+36
+00:02:13,230 --> 00:02:19,080
+Let me draw them. Let me do it in a brighter color.
+
+37
+00:02:19,690 --> 00:02:30,040
+There's 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.
+
+38
+00:02:30,680 --> 00:02:33,500
+And they want to know, how many of these segments
+
+39
+00:02:33,880 --> 00:02:37,830
+will not lie on an edge of the figure.
+
+40
+00:02:37,830 --> 00:02:39,790
+And actually I think this is a little ambiguous,
+
+41
+00:02:39,790 --> 00:02:44,390
+because if something is on the face of the figure,on a base.
+
+42
+00:02:44,390 --> 00:02:45,780
+OK, well they're saying the edges.
+
+43
+00:02:45,780 --> 00:02:47,570
+They're defining the edges as the lines.
+
+44
+00:02:47,570 --> 00:02:54,400
+So there's 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+
+45
+00:02:54,400 --> 00:02:56,160
+15, 16, 17, 18 edges.
+
+46
+00:02:56,160 --> 00:02:58,960
+So it can lie on a face and still count.
+
+47
+00:02:58,960 --> 00:03:04,000
+So how many of these line segments can I draw?
+
+48
+00:03:05,050 --> 00:03:09,570
+Well, if I want to draw a line segment with every point
+
+49
+00:03:09,570 --> 00:03:12,710
+on this base that is not on an edge.
+
+50
+00:03:13,430 --> 00:03:14,630
+So this one won't count,
+
+51
+00:03:15,130 --> 00:03:18,110
+because that is on an edge right there. But I can draw 1.
+
+52
+00:03:18,410 --> 00:03:19,710
+Oh, I should use a different color,
+
+53
+00:03:19,710 --> 00:03:21,330
+because this is going to get messy.
+
+54
+00:03:21,730 --> 00:03:26,640
+I can draw 1, 2, 3,
+
+55
+00:03:28,440 --> 00:03:30,170
+because I'm connected to the other 2 with an edge.
+
+56
+00:03:30,170 --> 00:03:31,270
+So I have three there.
+
+57
+00:03:32,030 --> 00:03:37,260
+And then how many can I draw a line segment to in the other
+
+58
+00:03:37,260 --> 00:03:39,680
+that I'm not connected already with an edge?
+
+59
+00:03:39,980 --> 00:03:41,120
+Well the way to think about it is,
+
+60
+00:03:41,120 --> 00:03:44,630
+this point is connected to this only here.
+
+61
+00:03:45,990 --> 00:03:49,410
+So we can't use this as one of the line segments.
+
+62
+00:03:49,410 --> 00:03:52,940
+But then there's 5 other points that it can connect to,
+
+63
+00:03:52,940 --> 00:03:54,110
+where you're not going through an edge.
+
+64
+00:03:54,110 --> 00:04:02,620
+So you're going 1, 2, 3, 4, 5. So there's 5 more.
+
+65
+00:04:02,620 --> 00:04:04,290
+3 plus 5 is equal to 8.
+
+66
+00:04:04,890 --> 00:04:06,780
+And if you wanted to do that even without drawing it
+
+67
+00:04:06,780 --> 00:04:09,290
+you could have said, well, there's two types of vertices.
+
+68
+00:04:09,290 --> 00:04:11,060
+There's the ones that are on the top base,
+
+69
+00:04:11,060 --> 00:04:12,510
+and the ones that are on the bottom base.
+
+70
+00:04:13,000 --> 00:04:15,010
+On the top base, which was the hexagon,
+
+71
+00:04:17,560 --> 00:04:19,270
+this was our point right here.
+
+72
+00:04:19,270 --> 00:04:20,920
+On the top base with the hexagon
+
+73
+00:04:21,220 --> 00:04:25,570
+there are 5 other vertices, 1, 2, 3, 4, 5.
+
+74
+00:04:26,010 --> 00:04:28,150
+But you're connected directly to 2 of them.
+
+75
+00:04:28,450 --> 00:04:29,860
+So there's only going to be 3
+
+76
+00:04:29,860 --> 00:04:32,840
+that you can go where you're not already connected to them.
+
+77
+00:04:33,530 --> 00:04:35,320
+And likewise, on the bottom base,
+
+78
+00:04:36,700 --> 00:04:38,110
+if this was the bottom base,
+
+79
+00:04:40,860 --> 00:04:44,560
+vertex v was only directly connected to this one,right?
+
+80
+00:04:44,560 --> 00:04:46,240
+It had an edge directly to that one.
+
+81
+00:04:46,540 --> 00:04:49,060
+But the other 5, it didn't have a direct edge to.
+
+82
+00:04:49,060 --> 00:04:51,510
+So all of those would have been fair game for the problem.
+
+83
+00:04:51,510 --> 00:04:54,700
+So 5 on the bottom it can connect to, and 3 on the top.
+
+84
+00:04:54,700 --> 00:04:56,590
+And that's where we got our 8 from.
+
+85
+00:04:57,430 --> 00:04:58,400
+Next problem.
+
+86
+00:05:01,910 --> 00:05:04,720
+Alright. This looks like something that I need to draw.
+
+87
+00:05:06,550 --> 00:05:13,640
+That's my x-axis, that's my y-axis.
+
+88
+00:05:13,640 --> 00:05:17,950
+Let me label them, x, y.
+
+89
+00:05:19,030 --> 00:05:20,950
+And then they drew a rectangle
+
+90
+00:05:21,770 --> 00:05:23,710
+that I'll do in a different color.
+
+91
+00:05:23,710 --> 00:05:26,180
+It looked something like this.
+
+92
+00:05:28,180 --> 00:05:31,690
+It looks like that. And then how do they label it?
+
+93
+00:05:32,010 --> 00:05:40,910
+They said that this point, c, is the point 1/2 comma c.
+
+94
+00:05:42,030 --> 00:05:52,590
+This point b is the point minus 1/2 comma b.
+
+95
+00:05:55,040 --> 00:05:57,090
+My microphone is hitting my sweatshirt.
+
+96
+00:05:57,090 --> 00:06:06,630
+And then, let's see, this point here, a, is minus 1/2 a.
+
+97
+00:06:07,230 --> 00:06:12,090
+And then finally, this point here, d, is 1/2 comma d.
+
+98
+00:06:12,090 --> 00:06:13,780
+And then they drew a graph
+
+99
+00:06:14,180 --> 00:06:18,170
+in between this whole thing that intersects.
+
+100
+00:06:18,470 --> 00:06:21,510
+It goes from here, then it starts to flatten out.
+
+101
+00:06:21,510 --> 00:06:23,770
+It's already looking kind like an x cubed graph,
+
+102
+00:06:23,770 --> 00:06:25,550
+if you're familiar with what an x cubed graph looks like.
+
+103
+00:06:25,550 --> 00:06:27,070
+And it goes through that point.
+
+104
+00:06:27,070 --> 00:06:29,860
+Of course there's a point here.OK.
+
+105
+00:06:30,040 --> 00:06:31,940
+Note, figure not drawn to scale.
+
+106
+00:06:31,940 --> 00:06:35,280
+In the figure above, abcd is a rectangle.
+
+107
+00:06:35,280 --> 00:06:40,800
+Points a and c lie on the graph of y equals px cubed.
+
+108
+00:06:42,000 --> 00:06:47,090
+This is y, it looks like,y equals px cubed. Fair enough.
+
+109
+00:06:48,010 --> 00:06:52,640
+Where p is a constant, if the area of abcd is 4,
+
+110
+00:06:52,640 --> 00:06:54,170
+what is the value of p?
+
+111
+00:06:55,020 --> 00:06:59,070
+So area is base times height,right?
+
+112
+00:06:59,070 --> 00:07:01,850
+Can we figure out what the base is? Well sure.
+
+113
+00:07:01,850 --> 00:07:04,640
+We know that this is 1/2,right?
+
+114
+00:07:04,640 --> 00:07:06,000
+because the coordinates of these two,
+
+115
+00:07:06,000 --> 00:07:07,140
+the x coordinate is 1/2.
+
+116
+00:07:07,140 --> 00:07:09,370
+We know that this is minus 1/2,
+
+117
+00:07:09,370 --> 00:07:11,120
+because the coordinates of these two are,
+
+118
+00:07:11,260 --> 00:07:12,790
+the x coordinate's minus 1/2.
+
+119
+00:07:13,020 --> 00:07:17,650
+So if this length is 1/2, and this length is 1/2,
+
+120
+00:07:17,650 --> 00:07:21,410
+we know this entire base is 1,right?
+
+121
+00:07:22,210 --> 00:07:26,200
+So if we know the area is 4 of this entire rectangle,
+
+122
+00:07:27,010 --> 00:07:28,300
+what is this height?
+
+123
+00:07:29,530 --> 00:07:32,350
+This distance is going to have to equal 4.
+
+124
+00:07:32,550 --> 00:07:36,500
+Because 4 times 1 is the area,and 4 times 1 equals 4.
+
+125
+00:07:36,500 --> 00:07:38,980
+So this has to have height 4.
+
+126
+00:07:39,030 --> 00:07:40,800
+And this is symmetric, right?
+
+127
+00:07:42,220 --> 00:07:44,180
+Well, do we know that it's a symmetric?
+
+128
+00:07:49,590 --> 00:07:51,530
+It's a rectangle, points lie on the graph.
+
+129
+00:07:51,730 --> 00:07:53,290
+Do you know how we know it's symetric?
+
+130
+00:07:53,290 --> 00:07:55,630
+Because this is y equals px cubed.
+
+131
+00:07:55,630 --> 00:07:58,440
+And anything that is px cubed would be symmetric like this.
+
+132
+00:08:00,440 --> 00:08:03,280
+At 1/2, whatever pointed it is at c,
+
+133
+00:08:03,280 --> 00:08:05,800
+it would be at a similar point down here.
+
+134
+00:08:07,000 --> 00:08:08,390
+But it would just be on the other side
+
+135
+00:08:08,390 --> 00:08:09,660
+and in the third quadrant.
+
+136
+00:08:09,660 --> 00:08:12,120
+So it's kind of like you're flipping it over the origin.
+
+137
+00:08:12,620 --> 00:08:15,180
+But anyway, so if we assume that that's symetric,
+
+138
+00:08:15,490 --> 00:08:19,370
+then we know that this distance is 2,this distance is minus 2
+
+139
+00:08:20,530 --> 00:08:24,230
+If this distance is 2,then now we know a point on this graph.
+
+140
+00:08:24,230 --> 00:08:27,340
+We know that c must be equal to 2, right?
+
+141
+00:08:27,340 --> 00:08:28,690
+because that's the y coordinate.
+
+142
+00:08:29,030 --> 00:08:30,740
+Now we have a point on the graph,
+
+143
+00:08:30,740 --> 00:08:32,130
+so we can substitute it back in.
+
+144
+00:08:32,630 --> 00:08:34,320
+y equals px cubed.
+
+145
+00:08:34,720 --> 00:08:36,540
+So let's put 2 for our y,
+
+146
+00:08:36,540 --> 00:08:38,480
+because we know that that's a point of the graph,right?
+
+147
+00:08:38,480 --> 00:08:40,970
+We know that point 1/2, 2 is on the graph.
+
+148
+00:08:41,550 --> 00:08:43,950
+So if we put 2 for y,
+
+149
+00:08:43,950 --> 00:08:47,560
+we get 2 is equal to p times the x value.
+
+150
+00:08:47,560 --> 00:08:50,180
+p times 1/2 cubed.
+
+151
+00:08:53,890 --> 00:08:56,680
+So 2 is equal to p over 8.
+
+152
+00:08:58,010 --> 00:09:01,300
+1/3 cubed, oh sorry I can't do math.
+
+153
+00:09:01,300 --> 00:09:09,380
+I did 1/2 over cubed. 1/3 cubed is 27. 3 squared, 9, 27.
+
+154
+00:09:09,380 --> 00:09:14,560
+So p, multiply both sides by 27, is equal to 54.
+
+155
+00:09:15,660 --> 00:09:18,200
+And all we did here is we just said, well,
+
+156
+00:09:18,200 --> 00:09:20,100
+let's figure out what this side is.
+
+157
+00:09:20,100 --> 00:09:21,440
+We know that this side is 1,
+
+158
+00:09:21,440 --> 00:09:23,780
+because we can look at the minus 1/2 and the 1/2.
+
+159
+00:09:23,780 --> 00:09:25,620
+So this side has to be 4.
+
+160
+00:09:25,620 --> 00:09:28,030
+If this side is 4, and it's symmetric,
+
+161
+00:09:28,310 --> 00:09:31,170
+it goes just as much as above the x-axis as below,
+
+162
+00:09:31,170 --> 00:09:31,670
+and we know that
+
+163
+00:09:31,670 --> 00:09:34,420
+because this is an x third,x cubed function.
+
+164
+00:09:34,720 --> 00:09:37,260
+We know that this side must be 2,
+
+165
+00:09:37,260 --> 00:09:39,000
+or that the y coordinate is 2.
+
+166
+00:09:39,010 --> 00:09:41,280
+And then we just substitute into y
+
+167
+00:09:41,280 --> 00:09:44,640
+is equal to px cubed to solve for p.
+
+168
+00:09:45,440 --> 00:09:46,410
+I'll see you soon.

@@ -1,0 +1,311 @@
+1
+00:00:00,730 --> 00:00:04,990
+Quadrilateral ABCD they're telling us it is a rhombus
+
+2
+00:00:05,000 --> 00:00:12,620
+To prove that the area of this rhombus is equal to one half times x AC x BD,
+
+3
+00:00:12,630 --> 00:00:15,400
+essentially proving that the area of a rhombus is one half
+
+4
+00:00:15,410 --> 00:00:18,900
+times the product of the lengths of its diagonals
+
+5
+00:00:18,910 --> 00:00:20,650
+Let' s see what we can do over here
+
+6
+00:00:20,660 --> 00:00:23,780
+There's a bunch of things we know about rhombi
+
+7
+00:00:23,790 --> 00:00:28,130
+All rhombi are parallelograms and there's tons of things that
+
+8
+00:00:28,140 --> 00:00:29,100
+we know about parallelograms
+
+9
+00:00:29,110 --> 00:00:31,630
+First of all, if it's a rhombus, we know that
+
+10
+00:00:31,640 --> 00:00:32,850
+all of the sides are congruent
+
+11
+00:00:32,860 --> 00:00:35,980
+That side length is equal to that side length, is equal to
+
+12
+00:00:35,990 --> 00:00:38,300
+that side length, is equal to that side length
+
+13
+00:00:38,310 --> 00:00:40,820
+Because it's a parallelogram, we know that
+
+14
+00:00:40,830 --> 00:00:42,530
+the diagonals bisect each other
+
+15
+00:00:42,540 --> 00:00:47,370
+Let's call this point over here E
+
+16
+00:00:47,380 --> 00:00:50,400
+We know that BE is going to be equal to ED and
+
+17
+00:00:50,410 --> 00:00:58,170
+we know that AE is equal to EC
+
+18
+00:00:58,180 --> 00:01:01,960
+We also know because this is a rhombus and we proved this
+
+19
+00:01:01,970 --> 00:01:03,550
+in the last video: that the diagonals,
+
+20
+00:01:03,560 --> 00:01:06,540
+not only do they bisect each other, but they're also perpendicular
+
+21
+00:01:06,550 --> 00:01:08,530
+So we know that this is a right angle
+
+22
+00:01:08,540 --> 00:01:09,920
+This is a right angle
+
+23
+00:01:09,930 --> 00:01:13,090
+That is a right angle and then this is a right angle
+
+24
+00:01:13,100 --> 00:01:17,520
+The easiest way to think about it is, if we can show that
+
+25
+00:01:17,530 --> 00:01:23,010
+this triangle ADC is congruent to triangle ABC and
+
+26
+00:01:23,020 --> 00:01:25,650
+if we can figure out the area of one of them, we can just double it
+
+27
+00:01:25,660 --> 00:01:27,570
+The first part is pretty straightforward
+
+28
+00:01:27,580 --> 00:01:39,210
+We know that triangle ADC is going to be congruent to triangle ABC
+
+29
+00:01:39,220 --> 00:01:45,020
+and we know that by side-side-side congruency
+
+30
+00:01:45,030 --> 00:01:47,390
+This side is congruent to that side
+
+31
+00:01:47,400 --> 00:01:49,400
+This side is congruent to that side and
+
+32
+00:01:49,410 --> 00:01:52,010
+they both share AC right over here
+
+33
+00:01:52,020 --> 00:01:54,260
+So, this is by side-side-side
+
+34
+00:01:54,270 --> 00:02:05,050
+Because of that, we know that the area of ABCD is just going to be
+
+35
+00:02:05,060 --> 00:02:13,070
+equal to 2 times the area of, we can pick either one of these, ABC
+
+36
+00:02:16,400 --> 00:02:18,970
+Let me write it this way
+
+37
+00:02:18,980 --> 00:02:27,120
+The area of ABCD is equal to the area of ADC plus the area of ABC
+
+38
+00:02:27,130 --> 00:02:30,480
+but since they're congruent, these 2 are going to be the same thing
+
+39
+00:02:30,490 --> 00:02:34,890
+so it's just going to be 2 times the area of ABC
+
+40
+00:02:34,900 --> 00:02:38,490
+Now what is the area of ABC
+
+41
+00:02:38,500 --> 00:02:42,640
+The area of a triangle is just one half of base times height
+
+42
+00:02:42,650 --> 00:02:52,250
+The area of ABC is just equal to times the base of that triangle
+
+43
+00:02:52,260 --> 00:02:53,240
+times its height
+
+44
+00:02:53,250 --> 00:02:55,740
+What is the length of the base
+
+45
+00:02:55,750 --> 00:02:57,650
+The length of the base is AC
+
+46
+00:02:57,660 --> 00:02:59,750
+I'll color code it
+
+47
+00:02:59,760 --> 00:03:05,420
+The base is AC and then what is the height here
+
+48
+00:03:05,430 --> 00:03:11,170
+We know that this diagonal line over here is a perpendicular bisector
+
+49
+00:03:11,180 --> 00:03:15,720
+so the height is just the distance from BE
+
+50
+00:03:15,730 --> 00:03:21,840
+So, it's AC times BE, that is the height
+
+51
+00:03:21,850 --> 00:03:23,790
+This is an altitude
+
+52
+00:03:23,800 --> 00:03:27,200
+It intersects this base at a 90 degree angle
+
+53
+00:03:27,210 --> 00:03:32,100
+Or we can say BE is the same thing as times BD
+
+54
+00:03:32,110 --> 00:03:42,340
+This is equal to times AC, that's our base
+
+55
+00:03:42,350 --> 00:03:47,040
+Our height is BE, which is times BD
+
+56
+00:03:47,050 --> 00:03:56,170
+So that's the area of just ABC, that broader,
+
+57
+00:03:56,180 --> 00:03:58,520
+larger triangle right up there
+
+58
+00:03:58,530 --> 00:03:59,690
+That half of the rhombus
+
+59
+00:03:59,700 --> 00:04:02,520
+We just said that the area of the whole thing is 2 times that
+
+60
+00:04:02,530 --> 00:04:06,710
+If we go back, if we use both this information and
+
+61
+00:04:06,720 --> 00:04:08,270
+this information right over here
+
+62
+00:04:08,280 --> 00:04:13,520
+We have the area of ABCD is going to be equal to
+
+63
+00:04:13,530 --> 00:04:19,630
+2 times the area of ABC, this thing right over here
+
+64
+00:04:19,640 --> 00:04:25,640
+It is 2 times the area of ABC, right over there
+
+65
+00:04:25,650 --> 00:04:31,430
+So times is , times AC times BD
+
+66
+00:04:31,440 --> 00:04:33,480
+Then you see where this is going
+
+67
+00:04:33,490 --> 00:04:38,860
+2 times is , times AC times BD
+
+68
+00:04:38,870 --> 00:04:40,740
+Fairly straightforward, there's a neat result
+
+69
+00:04:40,750 --> 00:04:42,810
+Actually, I haven't done this in a video
+
+70
+00:04:42,820 --> 00:04:43,850
+I'll do it in the next video
+
+71
+00:04:43,860 --> 00:04:46,380
+There are other ways of finding the areas of parallelograms
+
+72
+00:04:46,390 --> 00:04:49,170
+Generally, it's essentially, base times height
+
+73
+00:04:49,180 --> 00:04:52,750
+But for rhombus, we could do that because it is a parallelogram,
+
+74
+00:04:52,760 --> 00:04:55,300
+but we also have this other neat little result
+
+75
+00:04:55,310 --> 00:04:56,440
+that we proved in this video
+
+76
+00:04:56,450 --> 00:04:58,300
+And if we know that lengths of the diagonals,
+
+77
+00:04:58,310 --> 00:05:03,680
+the area of the rhombus is times the products of the lengths
+
+78
+00:05:03,690 --> 00:05:05,850
+of the diagonals, which is kind of a neat result

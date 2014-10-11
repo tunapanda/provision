@@ -1,0 +1,219 @@
+1
+00:00:04,322 --> 00:00:08,348
+The first well-known cipher – a substitution cipher –
+
+2
+00:00:08,348 --> 00:00:11,761
+was used by Julius Caesar around 58 BC.
+
+3
+00:00:11,761 --> 00:00:14,865
+It is now referred to as the 'Caesar cipher.'
+
+4
+00:00:14,865 --> 00:00:17,601
+Caesar shifted each letter in his military commands
+
+5
+00:00:17,601 --> 00:00:19,937
+in order to make them appear meaningless
+
+6
+00:00:19,937 --> 00:00:22,463
+should the enemy intercept it.
+
+7
+00:00:22,463 --> 00:00:25,180
+Imagine Alice and Bob decided to communicate
+
+8
+00:00:25,180 --> 00:00:26,819
+using the Caesar cipher.
+
+9
+00:00:26,819 --> 00:00:29,371
+First, they would need to agree in advance
+
+10
+00:00:29,371 --> 00:00:31,893
+on a shift to use – say 3.
+
+11
+00:00:31,893 --> 00:00:32,968
+So to encrypt her message,
+
+12
+00:00:32,968 --> 00:00:35,705
+Alice would need to apply a shift of 3
+
+13
+00:00:35,705 --> 00:00:38,272
+to each letter in her original message,
+
+14
+00:00:38,272 --> 00:00:41,090
+So A becomes D – B becomes E –
+
+15
+00:00:41,090 --> 00:00:43,224
+C becomes F – and so on.
+
+16
+00:00:43,224 --> 00:00:45,879
+This unreadable – or 'encrypted' – message
+
+17
+00:00:45,879 --> 00:00:49,225
+is then sent to Bob openly.
+
+18
+00:00:51,103 --> 00:00:54,676
+Then Bob simply subtracts the shift of 3 from each letter,
+
+19
+00:00:54,676 --> 00:00:58,497
+in order to read the original message.
+
+20
+00:00:58,497 --> 00:01:01,863
+Incredibly, this basic cipher was used by military leaders
+
+21
+00:01:01,863 --> 00:01:03,932
+for hundreds of years after Caesar.
+
+22
+00:01:03,932 --> 00:01:07,241
+MOVIE DEPICTION OF CAESAR: "I have fought and won.
+
+23
+00:01:07,241 --> 00:01:10,380
+But I haven't conquered over man's spirit –
+
+24
+00:01:10,380 --> 00:01:13,011
+which is indomitable."
+
+25
+00:01:13,011 --> 00:01:16,660
+However, a lock is only as strong as its weakest point.
+
+26
+00:01:16,660 --> 00:01:18,954
+A lock breaker may look for mechanical flaws –
+
+27
+00:01:18,954 --> 00:01:21,415
+or failing that, extract information –
+
+28
+00:01:21,415 --> 00:01:25,143
+in order to narrow down the correct combination.
+
+29
+00:01:25,143 --> 00:01:26,870
+The processes of lock breaking
+
+30
+00:01:26,870 --> 00:01:29,446
+and code breaking are very similar.
+
+31
+00:01:29,446 --> 00:01:31,123
+The weakness of the Caesar cipher
+
+32
+00:01:31,123 --> 00:01:33,201
+was published 800 years later
+
+33
+00:01:33,201 --> 00:01:36,188
+by an Arab mathematician named 'Al-Kindi.'
+
+34
+00:01:36,188 --> 00:01:38,565
+He broke the Caesar cipher by using a clue
+
+35
+00:01:38,565 --> 00:01:40,372
+based on an important property of
+
+36
+00:01:40,372 --> 00:01:43,278
+the language a message is written in.
+
+37
+00:01:43,278 --> 00:01:45,477
+If you scan text from any book,
+
+38
+00:01:45,477 --> 00:01:47,220
+and count the frequency of each letter,
+
+39
+00:01:47,220 --> 00:01:49,903
+you will find a fairly consistent pattern.
+
+40
+00:01:49,903 --> 00:01:53,626
+For example, these are the letter frequencies of English.
+
+41
+00:01:53,626 --> 00:01:56,908
+This can be thought of as a fingerprint of English.
+
+42
+00:01:56,908 --> 00:01:59,286
+We leave this fingerprint when we communicate,
+
+43
+00:01:59,286 --> 00:02:00,921
+without realizing it.
+
+44
+00:02:00,921 --> 00:02:03,109
+This clue is one of the most valuable tools
+
+45
+00:02:03,109 --> 00:02:05,481
+for a code breaker.
+
+46
+00:02:05,481 --> 00:02:07,993
+To break this cipher, they count up the frequencies
+
+47
+00:02:07,993 --> 00:02:11,288
+of each letter in the encrypted text,
+
+48
+00:02:11,288 --> 00:02:13,967
+and check how far the fingerprint has shifted.
+
+49
+00:02:13,967 --> 00:02:17,183
+For example, if H is the most numerous letter
+
+50
+00:02:17,183 --> 00:02:19,306
+in the encrypted message, instead of E,
+
+51
+00:02:19,306 --> 00:02:22,421
+then the shift was likely 3.
+
+52
+00:02:22,421 --> 00:02:23,949
+So they reverse the shift
+
+53
+00:02:23,949 --> 00:02:26,264
+in order to reveal the original message.
+
+54
+00:02:26,264 --> 00:02:28,014
+This is called 'frequency analysis.'
+
+55
+00:02:28,014 --> 00:02:33,223
+And it was a blow to the security of the Caesar cipher.

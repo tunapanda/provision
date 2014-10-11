@@ -1,0 +1,311 @@
+1
+00:00:00,544 --> 00:00:02,698
+PROBLEM: Joelle is working on a school report
+
+2
+00:00:02,698 --> 00:00:06,163
+in a word processor.
+
+3
+00:00:06,163 --> 00:00:11,102
+She wants to place a figure, which is 13.09 cm wide,
+
+4
+00:00:11,102 --> 00:00:13,590
+so that it appears centered on the page.
+
+5
+00:00:13,590 --> 00:00:17,434
+The width of the page is 21.59 cm.
+
+6
+00:00:17,434 --> 00:00:20,314
+How wide a margin should she leave on the left
+
+7
+00:00:20,314 --> 00:00:22,011
+so that the figure is centered?"
+
+8
+00:00:22,011 --> 00:00:24,098
+So, let's visualize what's going on.
+
+9
+00:00:24,098 --> 00:00:28,175
+We have a page that is 21.59 cm wide.
+
+10
+00:00:28,175 --> 00:00:34,415
+So, this distance right over here is 21.59 cm.
+
+11
+00:00:34,415 --> 00:00:36,812
+So this right over here, that is our page.
+
+12
+00:00:36,812 --> 00:00:38,630
+Let me draw the actual page.
+
+13
+00:00:38,630 --> 00:00:39,504
+Let me draw that in white,
+
+14
+00:00:39,504 --> 00:00:41,480
+since paper tends to be white.
+
+15
+00:00:41,480 --> 00:00:45,992
+So this is her page.
+
+16
+00:00:45,992 --> 00:00:49,517
+It’s 21.59 cm wide.
+
+17
+00:00:49,517 --> 00:00:50,298
+It’s just like that .
+
+18
+00:00:50,298 --> 00:00:52,263
+(That’s a bit of an unusual dimension
+
+19
+00:00:52,263 --> 00:00:53,227
+for a piece of paper.
+
+20
+00:00:53,227 --> 00:00:54,441
+But we'll go with it.)
+
+21
+00:00:54,441 --> 00:00:55,540
+And then she wants to place a figure
+
+22
+00:00:55,540 --> 00:00:59,982
+that is 13.09 cm wide in the center of the page.
+
+23
+00:00:59,982 --> 00:01:01,839
+So the figure --
+
+24
+00:01:01,839 --> 00:01:04,206
+I’ll do it in magenta.
+
+25
+00:01:04,206 --> 00:01:05,799
+That's not magenta --
+
+26
+00:01:05,799 --> 00:01:08,799
+The figure is 13.09 cm.
+
+27
+00:01:08,799 --> 00:01:11,578
+So let’s say that this is the figure right over here.
+
+28
+00:01:11,578 --> 00:01:14,980
+So this is the figure that she wants to place
+
+29
+00:01:14,980 --> 00:01:16,984
+in the middle of the page.
+
+30
+00:01:16,984 --> 00:01:24,262
+So this is 13.09 cm.
+
+31
+00:01:24,262 --> 00:01:25,631
+So the question is, "How wide a margin
+
+32
+00:01:25,631 --> 00:01:27,274
+should she leave on the left,
+
+33
+00:01:27,274 --> 00:01:29,255
+so that the figure is centered?"
+
+34
+00:01:29,255 --> 00:01:30,729
+So they're really asking,
+
+35
+00:01:30,729 --> 00:01:35,067
+"What should this distance be here,
+
+36
+00:01:35,067 --> 00:01:37,484
+so that the figure is centered?"
+
+37
+00:01:37,484 --> 00:01:39,659
+And the key thing is, if the figure is centered,
+
+38
+00:01:39,659 --> 00:01:41,309
+this distance is going to be
+
+39
+00:01:41,309 --> 00:01:42,959
+the same as this distance --
+
+40
+00:01:42,959 --> 00:01:44,843
+so that the figure is right in the middle.
+
+41
+00:01:44,843 --> 00:01:47,831
+Whatever this is, it's going to be the same as this.
+
+42
+00:01:47,831 --> 00:01:49,078
+So one way we could think about it --
+
+43
+00:01:49,078 --> 00:01:50,150
+We could say, "Okay.
+
+44
+00:01:50,150 --> 00:01:57,003
+Let's take 13.09 cm from 21.59 cm."
+
+45
+00:01:57,003 --> 00:02:00,936
+And if we do that, then we'll know how much
+
+46
+00:02:00,936 --> 00:02:04,180
+left over space this plus this combined is.
+
+47
+00:02:04,180 --> 00:02:06,364
+And then, we just want to split that space in half.
+
+48
+00:02:06,364 --> 00:02:08,435
+We want half of it to go on the right side,
+
+49
+00:02:08,435 --> 00:02:10,992
+and we want half of it to go on the left side.
+
+50
+00:02:10,992 --> 00:02:13,558
+So let's see how much the left margin
+
+51
+00:02:13,558 --> 00:02:15,771
+and the right margin combined needs to be.
+
+52
+00:02:15,771 --> 00:02:18,157
+And that's just 21.59 cm –
+
+53
+00:02:18,157 --> 00:02:27,376
+That's just going to be 21.59 cm minus 13.09 cm.
+
+54
+00:02:27,376 --> 00:02:29,618
+And this, we get to – Let’s see.
+
+55
+00:02:29,618 --> 00:02:38,139
+This is 8.50 cm – which is the combined margins –
+
+56
+00:02:38,139 --> 00:02:39,925
+Not just the left or not just the right.
+
+57
+00:02:39,925 --> 00:02:43,906
+This – the left plus the right margin – is 8.50 cm.
+
+58
+00:02:43,906 --> 00:02:47,013
+This is this distance plus this distance.
+
+59
+00:02:47,013 --> 00:02:48,313
+Now, if we want to figure out
+
+60
+00:02:48,313 --> 00:02:49,749
+what the left margin should be –
+
+61
+00:02:49,749 --> 00:02:50,764
+if we want to center it –
+
+62
+00:02:50,764 --> 00:02:52,302
+well, we just want to split this evenly
+
+63
+00:02:52,302 --> 00:02:54,456
+between the left and the right margin.
+
+64
+00:02:54,456 --> 00:02:56,890
+So we just want to divide this by 2.
+
+65
+00:02:56,890 --> 00:03:00,882
+So if you divide 18.50 by 2 –
+
+66
+00:03:00,882 --> 00:03:02,790
+(Or multiply it by 1/2, I guess.
+
+67
+00:03:02,790 --> 00:03:05,686
+That might be a little bit more obvious. Either way.)
+
+68
+00:03:05,686 --> 00:03:08,785
+So if we multiply this by 1/2,
+
+69
+00:03:08,785 --> 00:03:14,904
+we are left with half of 8.50, which is 4.25 cm.
+
+70
+00:03:14,904 --> 00:03:16,387
+So if we want it centered,
+
+71
+00:03:16,387 --> 00:03:19,749
+then this is going to be 4.25 cm.
+
+72
+00:03:19,749 --> 00:03:23,387
+And, of course, this is going to be 4.25 cm, as well.
+
+73
+00:03:23,387 --> 00:03:26,138
+And you see, when you add 4.25 to 4.25,
+
+74
+00:03:26,138 --> 00:03:28,032
+you get 8.50 cm.
+
+75
+00:03:28,032 --> 00:03:30,311
+And when you add that to 13.09,
+
+76
+00:03:30,311 --> 00:03:32,555
+you get the entire width of the piece of paper.
+
+77
+00:03:32,555 --> 00:03:35,082
+So how wide a margin should she leave on the left?
+
+78
+00:03:35,082 --> 00:03:38,682
+4.25 cm.

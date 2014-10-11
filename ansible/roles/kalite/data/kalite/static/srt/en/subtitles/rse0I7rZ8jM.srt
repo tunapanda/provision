@@ -1,0 +1,655 @@
+1
+00:00:00,828 --> 00:00:04,078
+We have been doing a bunch of these videos with these convex lenses,
+
+2
+00:00:04,078 --> 00:00:08,442
+where we where we draw parallel rays and rays that go through the focal point,
+
+3
+00:00:08,442 --> 00:00:12,046
+to figure out what the image of an object might be.
+
+4
+00:00:12,046 --> 00:00:13,758
+What I want to do in this video is to come up with
+
+5
+00:00:13,758 --> 00:00:21,756
+an algebraic relationship between the distance of the object from the convex lens,
+
+6
+00:00:21,756 --> 00:00:26,761
+the distance of the image from the convex lens (usually on the other side)
+
+7
+00:00:26,761 --> 00:00:29,852
+and the focal length.
+
+8
+00:00:29,852 --> 00:00:30,873
+So lets see if we can do this.
+
+9
+00:00:30,873 --> 00:00:37,495
+To save you the pain of having to watch me draw straight lines I drew this ahead of time.
+
+10
+00:00:37,495 --> 00:00:42,710
+And so we can imagine this green thing right here is the object
+
+11
+00:00:42,710 --> 00:00:43,894
+This is the object.
+
+12
+00:00:43,894 --> 00:00:48,626
+And these two little pink points here are the focal points.
+
+13
+00:00:48,626 --> 00:00:50,764
+They are the focal length away.
+
+14
+00:00:50,764 --> 00:00:52,080
+And I did what we always do:
+
+15
+00:00:52,080 --> 00:00:57,862
+I drew one parallel ray from the tip of that arrow to the actual convex lens
+
+16
+00:00:57,862 --> 00:01:01,407
+and it gets refracted, so it goes through the focal point on the right hand side.
+
+17
+00:01:01,407 --> 00:01:02,792
+It goes all the way over there.
+
+18
+00:01:02,792 --> 00:01:07,246
+Then I drew a ray that goes through the focal point on the left hand side
+
+19
+00:01:07,246 --> 00:01:09,814
+and when it gets refracted it becomes parallel.
+
+20
+00:01:09,814 --> 00:01:15,514
+Then it actually intersects with that previous ray, up, right over here,
+
+21
+00:01:15,514 --> 00:01:22,112
+and so this gives us a sense of what the image will look like:
+
+22
+00:01:22,112 --> 00:01:27,179
+It is inverted, it is real and in this case it is larger than the actual object.
+
+23
+00:01:27,179 --> 00:01:29,216
+W\hat I want to do is to come up with a relationship with these values.
+
+24
+00:01:29,216 --> 00:01:31,158
+Lets see if we can label them here,
+
+25
+00:01:31,158 --> 00:01:34,245
+and then just do a little geometry and a little algebra
+
+26
+00:01:34,245 --> 00:01:37,377
+to figure out if there is an algebraic relationship right here.
+
+27
+00:01:37,377 --> 00:01:44,662
+So the first number, the distance of the object. That is this distance from here to here.
+
+28
+00:01:44,662 --> 00:01:47,750
+Or we can just label it here, since it is already drawn for us.
+
+29
+00:01:47,750 --> 00:01:49,064
+This is the distance of the object.
+
+30
+00:01:49,064 --> 00:01:51,429
+This is the way we drew it.
+
+31
+00:01:51,429 --> 00:01:53,341
+This was the parallel light ray.
+
+32
+00:01:53,341 --> 00:02:00,242
+But before it got refracted it traveled the distance from the object to the actual lens.
+
+33
+00:02:00,242 --> 00:02:09,756
+Now the distance from the image to the lens, that is this right over here, this is how far this parallel light ray had to travel.
+
+34
+00:02:09,756 --> 00:02:13,128
+So this is the distance from the image to the lens.
+
+35
+00:02:13,128 --> 00:02:22,086
+Then we have the focal distance; the focal length, and that is just this distance right here.
+
+36
+00:02:22,086 --> 00:02:29,397
+Or we can view it on this side as well. This right here is also our focal length.
+
+37
+00:02:29,397 --> 00:02:31,927
+So I want to come up with some relationship
+
+38
+00:02:31,927 --> 00:02:34,573
+and to do that I am going to draw some triangles here
+
+39
+00:02:34,573 --> 00:02:39,965
+so what we can do is; and the whole strategy, I am going to keep looking for similar triangles
+
+40
+00:02:39,965 --> 00:02:47,113
+and then trying to find a relationship or ratios that relate these three things to each other.
+
+41
+00:02:47,113 --> 00:02:48,979
+So let me find some similar triangles.
+
+42
+00:02:48,979 --> 00:02:53,694
+The best thing I can think of to do is to redraw this triangle over here.
+
+43
+00:02:53,694 --> 00:02:55,408
+Let me just flip it over.
+
+44
+00:02:55,408 --> 00:03:01,553
+Let me just draw the same triangle on the right hand side of this diagram.
+
+45
+00:03:01,553 --> 00:03:08,611
+If i were to draw the same triangle it would look like this.
+
+46
+00:03:08,611 --> 00:03:15,594
+Let me just be clear, this is this triangle right here, I just flipped it over.
+
+47
+00:03:15,594 --> 00:03:18,855
+and so if we want to make sure we are keeping track of the same sides
+
+48
+00:03:18,855 --> 00:03:27,259
+if this length right here is d sub zero [ d0 ] or d nought or sometimes we can call it d zero, whatever we want to call it
+
+49
+00:03:27,259 --> 00:03:36,375
+Then this length up here is also going to be d zero [ d0 ].
+
+50
+00:03:36,375 --> 00:03:40,691
+The reason why I wanted to do that is now we can do something interesting.
+
+51
+00:03:40,691 --> 00:03:43,795
+We can relate this triangle up here to this triangle down here
+
+52
+00:03:43,795 --> 00:03:46,231
+and actually, we can see that they are going to be similar.
+
+53
+00:03:46,231 --> 00:03:49,247
+And then we can relate, we can get some ratios of sides
+
+54
+00:03:49,247 --> 00:03:53,478
+and then what we can do is show that this triangle over here is similar to this triangle over here
+
+55
+00:03:53,490 --> 00:03:57,778
+get a couple more ratios and then we might be able to relate all of these things.
+
+56
+00:03:57,778 --> 00:04:01,496
+The first thing we have to prove to ourselves is that the triangles really are similar.
+
+57
+00:04:01,496 --> 00:04:08,452
+So the first thing to realise is that this angle right here is definitly the same thing as that angle right over there
+
+58
+00:04:08,452 --> 00:04:10,705
+something called opposite angles or vertical angles
+
+59
+00:04:10,705 --> 00:04:15,000
+they are on opppsite sides of lines that are intersecting, so they are going to be equal.
+
+60
+00:04:15,000 --> 00:04:18,956
+Now the next thing, this comes out of the fact that both of these lines
+
+61
+00:04:18,956 --> 00:04:22,615
+this line is parallel to that line over there
+
+62
+00:04:22,615 --> 00:04:27,508
+and you can look at, I guess you can call it alternate interior angles
+
+63
+00:04:27,508 --> 00:04:32,208
+if you look at the angles again with the parallel lines, with the transversal of parallel lines from geometry.
+
+64
+00:04:32,208 --> 00:04:35,534
+We know that this angle, since they are alternate interior angles
+
+65
+00:04:35,534 --> 00:04:41,059
+this angle is going to be the same value as this angle, right.
+
+66
+00:04:41,059 --> 00:04:46,484
+Cause they are both, you can view this line here as a transversal of two parallel lines.
+
+67
+00:04:46,484 --> 00:04:49,913
+These are alternate interior angles, so they will be the same.
+
+68
+00:04:49,913 --> 00:04:56,916
+Now we can make that exact same argument for this angle and this angle.
+
+69
+00:04:56,916 --> 00:05:00,467
+And so what we see is that this triangle up here has the same
+
+70
+00:05:00,467 --> 00:05:04,145
+three angles as this triangle down here.
+
+71
+00:05:04,145 --> 00:05:08,561
+So these two triangles are similar, these are both
+
+72
+00:05:08,561 --> 00:05:11,274
+and this is really more of a review of geometry than optics
+
+73
+00:05:11,274 --> 00:05:16,844
+these are similar triangles.
+
+74
+00:05:16,844 --> 00:05:18,199
+They are similar.
+
+75
+00:05:18,199 --> 00:05:22,796
+Because they are similar the ratios of corresponding sides are going to be the same
+
+76
+00:05:22,796 --> 00:05:25,444
+so d0 corresponds to this,
+
+77
+00:05:25,444 --> 00:05:31,693
+they are both opposite that pink angle.
+
+78
+00:05:31,693 --> 00:05:42,347
+So the ratio of d0 to d1 is, let me write this over here, so the ratio of d0 to d1 ...
+
+79
+00:05:42,347 --> 00:05:45,368
+This is the ratio of corresponding sides, is going to be the same thing.
+
+80
+00:05:45,368 --> 00:05:48,644
+Let me make some labels here. That's going to be the same thing
+
+81
+00:05:48,644 --> 00:05:54,909
+As the ratio of this side right over here, we call that A
+
+82
+00:05:54,909 --> 00:06:01,145
+it is opposite this magenta angle right over here
+
+83
+00:06:01,145 --> 00:06:06,509
+that is going to be the same thing as the ratio of that side to this side over here. To side B.
+
+84
+00:06:06,509 --> 00:06:12,198
+And once again we can keep track of because side B is opposite the magenta angle on this bottom triangle.
+
+85
+00:06:12,198 --> 00:06:17,229
+So that is how we know this side, its corresponding side of the other similar triangle is that one
+
+86
+00:06:17,229 --> 00:06:19,840
+they are both opposite the magenta angles.
+
+87
+00:06:19,840 --> 00:06:27,910
+So we know that d0 to d1 is as A is to B
+
+88
+00:06:27,910 --> 00:06:28,944
+So that is interesting.
+
+89
+00:06:28,944 --> 00:06:33,584
+We have been able to relate these two things to these kind of two arbitrary lengths.
+
+90
+00:06:33,584 --> 00:06:36,434
+We somehow have to connect these two things to the focal length.
+
+91
+00:06:36,434 --> 00:06:39,511
+To connect them to a focal length,
+
+92
+00:06:39,511 --> 00:06:45,777
+What we might want to do is relate A and B, A sits on the same triangle as the focal length right over here.
+
+93
+00:06:45,777 --> 00:06:47,399
+So lets look at this triangle over here.
+
+94
+00:06:47,399 --> 00:06:50,210
+Let me put it in a better colour.
+
+95
+00:06:50,210 --> 00:06:55,101
+So lets look at this triangle over here that I am highlighting in green.
+
+96
+00:06:55,101 --> 00:06:57,082
+This triangle in green.
+
+97
+00:06:57,082 --> 00:07:05,077
+and lets look at that in comparison to this triangle that I am also highlighting in green.
+
+98
+00:07:05,077 --> 00:07:09,168
+Now the first thing that I am going to show you is that these are also similar triangles
+
+99
+00:07:09,168 --> 00:07:14,430
+This angle right over here and this angle are going to be the same.
+
+100
+00:07:14,430 --> 00:07:17,551
+They are opposite angles of intersecting lines.
+
+101
+00:07:17,551 --> 00:07:21,451
+And then we can make a similar argument, alternate interior angles,
+
+102
+00:07:21,451 --> 00:07:23,212
+or there is a couple of arguments we can make,
+
+103
+00:07:23,212 --> 00:07:26,712
+one you can see that this is a right angle over here, this is a right angle,
+
+104
+00:07:26,712 --> 00:07:31,309
+if two angles of two triangles are the same then the third angle also has to be the same.
+
+105
+00:07:31,309 --> 00:07:37,710
+So we can also say that this thing, let me do this in another colour, I don't want to be repetitive too much with the colours,
+
+106
+00:07:37,710 --> 00:07:41,815
+we can say that this thing is going to be the same thing as this thing.
+
+107
+00:07:41,815 --> 00:07:46,060
+Or another way we could have said it is that this line over here,
+
+108
+00:07:46,060 --> 00:07:48,659
+which is kind of represented by the lens
+
+109
+00:07:48,659 --> 00:07:52,137
+or the lens or the line that is parallel to the lens,
+
+110
+00:07:52,167 --> 00:07:55,484
+is parallel to the object over there,
+
+111
+00:07:55,484 --> 00:07:58,091
+and you could make the same alternate interior argument there.
+
+112
+00:07:58,091 --> 00:08:02,493
+But the other thing is just look, I've two triangles, two of the angles in those two triangles are the same so
+
+113
+00:08:02,493 --> 00:08:11,712
+the third angle has to be the same. Now, since all three angles are the same, these are also both similar triangles, so we can do a similar thing
+
+114
+00:08:11,712 --> 00:08:19,635
+we can say A is to B; remember both A and B are opposite the 90 degree side, they are both the hypotenuse of these similar triangles
+
+115
+00:08:19,635 --> 00:08:25,296
+So A is to B as, we can say, this base length right here
+
+116
+00:08:25,296 --> 00:08:29,745
+it got overwritten a little bit, but this base length right over here is f
+
+117
+00:08:29,745 --> 00:08:31,032
+That is our focal legnth.
+
+118
+00:08:31,032 --> 00:08:36,997
+As f in this triangle is related to this length in this triangle
+
+119
+00:08:36,997 --> 00:08:41,454
+they are both opposite that white angle
+
+120
+00:08:41,454 --> 00:08:44,045
+so as f is to this length right over here
+
+121
+00:08:44,045 --> 00:08:45,225
+so what is this length
+
+122
+00:08:45,225 --> 00:08:51,244
+This whole distance is di, but this length is the whole distance minus the focal length
+
+123
+00:08:51,244 --> 00:08:54,100
+this is di minus the focal length
+
+124
+00:08:54,100 --> 00:09:01,016
+so A is to B as f is to di minus the focal length
+
+125
+00:09:01,016 --> 00:09:04,281
+And again we have a relationship between the distance
+
+126
+00:09:04,281 --> 00:09:07,545
+of the object, the distance of the image and the focal length
+
+127
+00:09:07,545 --> 00:09:08,966
+And now all we have to do is a little bit of algebra.
+
+128
+00:09:08,966 --> 00:09:10,319
+This is equal to this, and this is equal to that
+
+129
+00:09:10,319 --> 00:09:13,375
+so this blue thing has to be equal to thist magenta thing
+
+130
+00:09:13,375 --> 00:09:15,300
+and now we just have to do some algebra
+
+131
+00:09:15,300 --> 00:09:16,218
+So lets do that
+
+132
+00:09:16,218 --> 00:09:32,816
+So we got d_0 to d_i is equal to the ratio of the focal length to the difference of the image distance
+
+133
+00:09:32,816 --> 00:09:34,019
+minus the focal length.
+
+134
+00:09:34,019 --> 00:09:39,617
+And here we just have to do some algebra, lets just simplify this, let's cross multiply it
+
+135
+00:09:39,664 --> 00:09:43,021
+lets multiple d_0 times this thing over here
+
+136
+00:09:43,021 --> 00:09:54,009
+we get d0<i>di - d0</i>f [we are just distributing it]
+
+137
+00:09:54,009 --> 00:10:03,914
+Just cross multiplying, which really is just the same thing as multiplying both sides by both denominators.
+
+138
+00:10:04,068 --> 00:10:13,856
+That is going to be equal to di*f.
+
+139
+00:10:13,856 --> 00:10:18,146
+and now we can add this term over here to both sides of this equation.
+
+140
+00:10:18,146 --> 00:10:19,994
+I am just going to switch to a neutral colour.
+
+141
+00:10:19,994 --> 00:10:33,864
+So we get d0<i>di = di</i>f + d0*f.
+
+142
+00:10:33,864 --> 00:10:38,432
+So lets see here we could factor out the f, our focal length
+
+143
+00:10:38,432 --> 00:10:46,402
+so we get d0*di is equal to f(di+d0)
+
+144
+00:10:46,402 --> 00:10:51,569
+and then what can we do, we could divide both sides by f
+
+145
+00:10:51,569 --> 00:10:56,743
+So this will become over f
+
+146
+00:10:56,743 --> 00:11:03,815
+essentially cancelling it out, and then
+
+147
+00:11:03,831 --> 00:11:05,420
+Lets me just re-write what we have here.
+
+148
+00:11:05,420 --> 00:11:16,902
+d0*di / f = di + d0
+
+149
+00:11:16,902 --> 00:11:24,054
+now lets divide both sides by d0*di
+
+150
+00:11:24,054 --> 00:11:26,701
+Cancels out over here,
+
+151
+00:11:26,701 --> 00:11:29,781
+So we are left with on the left hand side
+
+152
+00:11:29,781 --> 00:11:33,879
+one over the focal length is equal to this thing over here
+
+153
+00:11:33,879 --> 00:11:35,590
+and we can separate this thing out
+
+154
+00:11:35,590 --> 00:11:40,542
+this thing over here, this is the same thing, we just separate out the numerators, is the same thing as
+
+155
+00:11:40,542 --> 00:11:46,998
+= di/( d0 x di) + d0/( d0 x di)
+
+156
+00:11:46,998 --> 00:11:53,162
+but the di's cancel out, and we just have a one, here the d0s cancel out and you just have a one
+
+157
+00:11:53,162 --> 00:11:57,550
+So this is equal to one over the distance of the object
+
+158
+00:11:57,550 --> 00:12:02,184
+and this is plus one over the distance of the image.
+
+159
+00:12:02,338 --> 00:12:05,048
+So from the get-go this was a completely valid formula,
+
+160
+00:12:05,048 --> 00:12:06,815
+we actually had acheved what we wanted.
+
+161
+00:12:06,815 --> 00:12:11,687
+But this is a neater formula, you dont have the di's or d0's repeated
+
+162
+00:12:11,687 --> 00:12:15,013
+right here we have an algebraic relationship for a convex mirror
+
+163
+00:12:15,013 --> 00:12:22,482
+that relates the focal length to the distance of the object and the distance of the image.
+
+164
+00:12:22,482 --> 00:12:26,990
+Any way, that is pretty neet how itt came out to be a clean formula.

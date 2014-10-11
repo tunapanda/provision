@@ -1,0 +1,367 @@
+1
+00:00:00,720 --> 00:00:04,136
+When you get into higher mathmatics you might see a professor write something like
+
+2
+00:00:04,136 --> 00:00:08,668
+this on a board like this R with this extra backbone right over here
+
+3
+00:00:08,668 --> 00:00:10,882
+and maybe they write R2
+
+4
+00:00:10,882 --> 00:00:14,468
+or if you're looking at it in a book, it might just be a bolded capital R
+
+5
+00:00:14,468 --> 00:00:17,668
+with a 2 superscript like this
+
+6
+00:00:17,668 --> 00:00:23,670
+and if you see this they are referring to the 2-dimensional real coordinate space..
+
+7
+00:00:23,670 --> 00:00:25,467
+real coordinate space..
+
+8
+00:00:25,467 --> 00:00:30,338
+which sounds very fancy.. real coordinate space
+
+9
+00:00:30,338 --> 00:00:33,735
+but one way to think about it, its really just a 2-dimensional space
+
+10
+00:00:33,735 --> 00:00:37,217
+that you're used to dealing with in your coordinate plane.
+
+11
+00:00:37,217 --> 00:00:43,136
+To go a little more abstract, this isn't necessarily, this visual representation
+
+12
+00:00:43,136 --> 00:00:47,633
+this visual representation is one way to think about this real coordinate space
+
+13
+00:00:47,633 --> 00:00:52,548
+if we were to think about it a little more abstractly, the real R two
+
+14
+00:00:52,548 --> 00:00:56,204
+the 2-dimensional real coordinate space.. let me write this down..
+
+15
+00:00:56,204 --> 00:01:02,737
+the 2-dimensional real coordinate space, and just to break down the notation
+
+16
+00:01:02,737 --> 00:01:06,547
+the 2 tells us how many dimensions we're dealing with, and the R tells us
+
+17
+00:01:06,547 --> 00:01:11,271
+this is a real coordinate space. The 2-dimensional real coordinate space is all
+
+18
+00:01:11,271 --> 00:01:16,069
+the possible real valued 2-tuples.
+
+19
+00:01:16,069 --> 00:01:19,811
+let me write that down.. this is all possible
+
+20
+00:01:19,811 --> 00:01:31,001
+all possible real valued 2-tuples
+
+21
+00:01:31,001 --> 00:01:37,267
+so what is a 2-tuple? Well, a tuple is an ordered list of numbers
+
+22
+00:01:37,267 --> 00:01:41,147
+and since we are talking about real values it's going to be an ordered list of real numbers
+
+23
+00:01:41,147 --> 00:01:44,981
+and a 2-tuple just says it's an ordered list of two numbers.
+
+24
+00:01:44,981 --> 00:01:49,270
+So this is an ordered list of two real valued numbers. Well, that's exactly what we did here
+
+25
+00:01:49,270 --> 00:01:53,870
+when we thought about a 2-dimensional vector. This right over here is a 2-tuple.
+
+26
+00:01:53,870 --> 00:01:56,735
+And this is a real valued 2-tuple. Neither of these have any
+
+27
+00:01:56,735 --> 00:02:01,002
+imaginary parts, so you have a 3 and a 4.. order matters!
+
+28
+00:02:01,002 --> 00:02:04,810
+We view this as a different 2-tuple than say
+
+29
+00:02:04,810 --> 00:02:09,000
+than say, 4, 3.
+
+30
+00:02:09,000 --> 00:02:12,267
+Even if we would try to represent them in our
+
+31
+00:02:12,267 --> 00:02:17,645
+axis right over here, this vector 4, 3 would be four along the horizontal axis
+
+32
+00:02:17,645 --> 00:02:21,971
+and then 3 along the vertical axis.
+
+33
+00:02:21,971 --> 00:02:24,799
+And so it would look something like this. And remember
+
+34
+00:02:24,799 --> 00:02:28,853
+we don't have to draw it just over there, we just care about it's magnitude and direction.
+
+35
+00:02:28,853 --> 00:02:32,251
+We could draw it right over here.
+
+36
+00:02:32,251 --> 00:02:36,318
+This would also be 4, 3.
+
+37
+00:02:36,318 --> 00:02:40,499
+The column vector 4, 3. So when we're talking about R2, we're talking about
+
+38
+00:02:40,499 --> 00:02:44,252
+all of the possible real valued 2-tuples. So all of the
+
+39
+00:02:44,252 --> 00:02:48,186
+possible vectors that you can have where each
+
+40
+00:02:48,186 --> 00:02:52,186
+of it's components, and the components are these numbers right over here,
+
+41
+00:02:52,186 --> 00:02:56,252
+where each of it's components are a real number.
+
+42
+00:02:56,252 --> 00:02:59,651
+So you might have 3, 4. You could have -3, -4.
+
+43
+00:02:59,651 --> 00:03:04,586
+So that would be one, two, three, one, two, three, four.
+
+44
+00:03:04,586 --> 00:03:07,986
+It might look something like.. Actually I should make this scale a little bit bigger
+
+45
+00:03:07,986 --> 00:03:11,987
+so it looks the same, one, two three, four,
+
+46
+00:03:11,987 --> 00:03:15,473
+So it might look something like
+
+47
+00:03:15,473 --> 00:03:18,986
+that, so that would be the vector -3
+
+48
+00:03:18,986 --> 00:03:22,724
+Let me write it a little better than that, -3
+
+49
+00:03:22,724 --> 00:03:27,118
+and -4, so if you were to take all of the possible 2-tuples
+
+50
+00:03:27,118 --> 00:03:30,816
+including the vector zero, zero, so it has no magnitude
+
+51
+00:03:30,816 --> 00:03:35,649
+you could debate what it's direction is right over there, you take all of those
+
+52
+00:03:35,649 --> 00:03:38,892
+combined and then you have created your 2-dimensional
+
+53
+00:03:38,892 --> 00:03:43,253
+real coordinate space, and that is referred to as R2.
+
+54
+00:03:43,253 --> 00:03:46,651
+Now as you could imagine, the fact that we wrote this two here, we had to specify it
+
+55
+00:03:46,651 --> 00:03:49,890
+like hey, could I put a 3 there? And I would say absolutely
+
+56
+00:03:49,890 --> 00:03:53,722
+you could put a 3 there, so R3 would be the
+
+57
+00:03:53,722 --> 00:03:58,318
+3-dimensional real coordinate real space. So 3D real
+
+58
+00:03:58,318 --> 00:04:02,784
+coordinate space.
+
+59
+00:04:02,784 --> 00:04:05,919
+And so you would view this as all the possible real
+
+60
+00:04:05,919 --> 00:04:08,277
+valued 3-tuples
+
+61
+00:04:08,277 --> 00:04:13,116
+real valued 3-tuples.
+
+62
+00:04:13,116 --> 00:04:17,784
+So for example, that would be
+
+63
+00:04:17,784 --> 00:04:21,388
+a member of R3, let me actually label
+
+64
+00:04:21,388 --> 00:04:24,650
+these vectors so we get in the habit of it, so lets say this vector
+
+65
+00:04:24,650 --> 00:04:28,386
+we call this vector x, lets say we have a vector b,
+
+66
+00:04:28,386 --> 00:04:34,859
+that looks like this, -1, 5, 3.
+
+67
+00:04:34,859 --> 00:04:40,027
+Both of these would be members of R3. And if you want to see some fancy notation
+
+68
+00:04:40,027 --> 00:04:44,454
+a member of a set, so this is a member
+
+69
+00:04:44,454 --> 00:04:47,585
+this is a member of R3
+
+70
+00:04:47,585 --> 00:04:51,361
+It is a real valued 3-tuple. Now you say
+
+71
+00:04:51,361 --> 00:04:55,527
+well what would be not a member of R3? Well this right over here isn't a 3-tuple.
+
+72
+00:04:55,527 --> 00:04:59,191
+This right over here is a member of R2, now you might be able to extend it in some way
+
+73
+00:04:59,191 --> 00:05:03,316
+add a zero or something, but formally this is not a 3-tuple.
+
+74
+00:05:03,316 --> 00:05:07,584
+Another thing that would not be a member of R3, lets say someone wanted
+
+75
+00:05:07,584 --> 00:05:11,278
+to make some type of vector that had
+
+76
+00:05:11,278 --> 00:05:15,984
+some imaginary parts in it, so lets say it had i, 0, 1.
+
+77
+00:05:15,984 --> 00:05:18,852
+This is no longer real valued, we have put
+
+78
+00:05:18,852 --> 00:05:23,612
+we have put an imaginary, this number up here has an imaginary
+
+79
+00:05:23,612 --> 00:05:28,820
+part, so this is no longer a real valued 3-tuple.
+
+80
+00:05:28,820 --> 00:05:31,653
+And what's neat about linear algebra is that we don't have to stop
+
+81
+00:05:31,653 --> 00:05:34,585
+there, R3 we can visualize. We can plot these things.
+
+82
+00:05:34,585 --> 00:05:38,569
+We've already, probably in your previous mathematical career, especially if you have some type
+
+83
+00:05:38,569 --> 00:05:42,403
+of a hologram or something, it's not hard to visualize things in three dimensions.
+
+84
+00:05:42,403 --> 00:05:46,518
+But what's neat is that we can keep extending this. We can go to 4, 5, 6, 7
+
+85
+00:05:46,518 --> 00:05:50,321
+20, a 100 dimensions, and obviously there it becomes much harder
+
+86
+00:05:50,321 --> 00:05:54,186
+if not impossible to visualize it, but then we could at least
+
+87
+00:05:54,186 --> 00:05:58,486
+represent it mathematically with a n-tuple vectors,
+
+88
+00:05:58,486 --> 00:06:01,252
+so if we were to talk about a real coordinate space generally,
+
+89
+00:06:01,252 --> 00:06:06,487
+we'll often see the notation Rn, with n as a superscript.
+
+90
+00:06:06,487 --> 00:06:09,263
+So this right over here is a n-dimensional
+
+91
+00:06:09,263 --> 00:06:13,595
+n-dimensional real coordinate space.
+
+92
+00:06:13,595 --> 00:06:17,595
+Real coordinate space.

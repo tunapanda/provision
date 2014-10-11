@@ -1,0 +1,427 @@
+1
+00:00:04,587 --> 00:00:07,362
+After World War II with most of Europe in ruins,
+
+2
+00:00:07,362 --> 00:00:10,948
+tension grew between the Soviet Union and the United States.
+
+3
+00:00:10,948 --> 00:00:14,099
+It was clear that the next global superpower
+
+4
+00:00:14,099 --> 00:00:16,090
+required the ability to both launch and
+
+5
+00:00:16,090 --> 00:00:19,010
+successfully defend nuclear attacks
+
+6
+00:00:19,010 --> 00:00:21,415
+from intercontinental ballistic missiles.
+
+7
+00:00:21,415 --> 00:00:24,017
+In North America the most vulnerable point of attack
+
+8
+00:00:24,017 --> 00:00:25,888
+was over the north pole.
+
+9
+00:00:25,888 --> 00:00:28,285
+So in 1958, a joint effort between
+
+10
+00:00:28,285 --> 00:00:31,253
+United States and Canada was established,
+
+11
+00:00:31,253 --> 00:00:32,534
+known as NORAD, or
+
+12
+00:00:32,534 --> 00:00:35,650
+North American Aerospace Defense Command.
+
+13
+00:00:35,650 --> 00:00:37,564
+An important line of defense with
+
+14
+00:00:37,564 --> 00:00:40,479
+the semi-automatic ground environment.
+
+15
+00:00:40,479 --> 00:00:42,400
+It was an automated system of over
+
+16
+00:00:42,400 --> 00:00:44,866
+100 long-distance radars
+
+17
+00:00:44,866 --> 00:00:47,023
+scattered across North America.
+
+18
+00:00:47,023 --> 00:00:50,191
+They were connected to computerized radar stations
+
+19
+00:00:50,191 --> 00:00:52,179
+that transmitted tracking data
+
+20
+00:00:52,179 --> 00:00:55,293
+using telephone lines or radio waves.
+
+21
+00:00:55,293 --> 00:00:57,330
+All of this radar information was fed
+
+22
+00:00:57,330 --> 00:00:59,309
+into a primary warning center
+
+23
+00:00:59,309 --> 00:01:00,974
+buried a mile deep
+
+24
+00:01:00,974 --> 00:01:03,587
+inside Cheyenne Mountain in Colorado.
+
+25
+00:01:03,587 --> 00:01:06,692
+This application of machine-to-machine communication
+
+26
+00:01:06,692 --> 00:01:08,630
+allowed operators to make
+
+27
+00:01:08,630 --> 00:01:11,307
+split-second decisions using information
+
+28
+00:01:11,307 --> 00:01:15,525
+transmitted and processed automatically by computers.
+
+29
+00:01:15,525 --> 00:01:18,838
+This idea of being on-line was quickly adapted
+
+30
+00:01:18,838 --> 00:01:21,045
+and advanced by universities in the following
+
+31
+00:01:21,045 --> 00:01:22,747
+years as they understood
+
+32
+00:01:22,747 --> 00:01:24,945
+the potential of computer networking.
+
+33
+00:01:24,945 --> 00:01:26,464
+The thing that makes the computer
+
+34
+00:01:26,464 --> 00:01:28,692
+communication network special
+
+35
+00:01:28,692 --> 00:01:31,263
+is that it puts the workers that's
+
+36
+00:01:31,263 --> 00:01:34,037
+the key members that are geographically distributed
+
+37
+00:01:34,037 --> 00:01:35,755
+in touch not only with one another
+
+38
+00:01:35,755 --> 00:01:37,410
+but with the information base
+
+39
+00:01:37,410 --> 00:01:39,284
+with which they work all the time.
+
+40
+00:01:39,284 --> 00:01:40,588
+And this is obviously going to make
+
+41
+00:01:40,588 --> 00:01:42,730
+a tremendous difference in how we
+
+42
+00:01:42,730 --> 00:01:44,672
+plan, organize, and execute
+
+43
+00:01:44,672 --> 00:01:48,257
+almost everything of any intellectual consequence.
+
+44
+00:01:48,257 --> 00:01:50,566
+If we get into a mode in which
+
+45
+00:01:50,566 --> 00:01:53,082
+everything is handled electronically,
+
+46
+00:01:53,082 --> 00:01:54,834
+and your only identification
+
+47
+00:01:54,834 --> 00:01:56,673
+is some little plastic thing you stick into
+
+48
+00:01:56,673 --> 00:01:58,463
+the machinery, then I can image that
+
+49
+00:01:58,463 --> 00:02:00,411
+they want to get that settled up with
+
+50
+00:02:00,411 --> 00:02:02,482
+your bank account, just right now,
+
+51
+00:02:02,482 --> 00:02:04,556
+and put it through all the checks
+
+52
+00:02:04,556 --> 00:02:05,844
+and that would require a network.
+
+53
+00:02:05,844 --> 00:02:08,715
+Money transfers were just one of a growing number
+
+54
+00:02:08,715 --> 00:02:11,127
+of applications which required encryption
+
+55
+00:02:11,127 --> 00:02:13,696
+to remain secure, and as the Internet grew
+
+56
+00:02:13,696 --> 00:02:16,112
+to encompass millions around the world,
+
+57
+00:02:16,112 --> 00:02:18,125
+a new problem emerged.
+
+58
+00:02:18,125 --> 00:02:20,262
+At the time, encryption required
+
+59
+00:02:20,262 --> 00:02:21,829
+two parties to first share
+
+60
+00:02:21,829 --> 00:02:23,604
+a secret random number,
+
+61
+00:02:23,604 --> 00:02:24,848
+known as a key.
+
+62
+00:02:24,848 --> 00:02:26,240
+So how could two people
+
+63
+00:02:26,240 --> 00:02:28,217
+who have never met agree
+
+64
+00:02:28,217 --> 00:02:30,530
+on a secret shared key,
+
+65
+00:02:30,530 --> 00:02:34,144
+without letting Eve who was always listening
+
+66
+00:02:34,144 --> 00:02:36,723
+also obtain a copy?
+
+67
+00:02:37,139 --> 00:02:41,006
+In 1976 Whitfield Diffie and Martin Hellman
+
+68
+00:02:41,006 --> 00:02:44,093
+devised an amazing trick to do this.
+
+69
+00:02:44,093 --> 00:02:45,929
+First, let's explore how this trick
+
+70
+00:02:45,929 --> 00:02:48,338
+is done using colors.
+
+71
+00:02:48,338 --> 00:02:50,260
+How could Alice and Bob agree on a
+
+72
+00:02:50,260 --> 00:02:52,459
+secret color without Eve
+
+73
+00:02:52,459 --> 00:02:53,592
+finding it out?
+
+74
+00:02:53,592 --> 00:02:56,723
+The trick is based on two facts.
+
+75
+00:02:56,723 --> 00:02:59,055
+One, it's easy to mix two colors
+
+76
+00:02:59,055 --> 00:03:01,847
+together to make a third color.
+
+77
+00:03:01,847 --> 00:03:04,763
+And, two, given a mixed color,
+
+78
+00:03:04,763 --> 00:03:07,023
+it's hard to reverse it in order to find
+
+79
+00:03:07,023 --> 00:03:09,919
+the exact original color.
+
+80
+00:03:10,289 --> 00:03:12,418
+This is the basis for a lock:
+
+81
+00:03:12,418 --> 00:03:16,544
+easy in one direction, hard in the reverse direction.
+
+82
+00:03:16,544 --> 00:03:19,995
+This is known as a one-way function.
+
+83
+00:03:19,995 --> 00:03:23,260
+Now, the solution works as follows:
+
+84
+00:03:23,260 --> 00:03:25,673
+first, they agree publicly
+
+85
+00:03:25,673 --> 00:03:29,563
+on a starting color, say yellow.
+
+86
+00:03:29,563 --> 00:03:33,244
+Next, Alice and Bob both randomly select
+
+87
+00:03:33,244 --> 00:03:36,142
+private colors and mix them into
+
+88
+00:03:36,142 --> 00:03:37,678
+the public yellow in order to
+
+89
+00:03:37,678 --> 00:03:40,547
+disguise their private colors.
+
+90
+00:03:40,547 --> 00:03:43,021
+Now, Alice keeps her private color,
+
+91
+00:03:43,021 --> 00:03:45,858
+and sends her mixture to Bob.
+
+92
+00:03:45,858 --> 00:03:48,465
+And Bob keeps his private color
+
+93
+00:03:48,465 --> 00:03:52,015
+and sends his mixture to Alice.
+
+94
+00:03:52,876 --> 00:03:56,114
+Now the heart of the trick.
+
+95
+00:03:56,591 --> 00:03:58,559
+Alice and Bob add their
+
+96
+00:03:58,559 --> 00:04:00,916
+private colors to the other person's
+
+97
+00:04:00,916 --> 00:04:03,184
+mixture, and arrive at a
+
+98
+00:04:03,184 --> 00:04:07,125
+shared secret color.
+
+99
+00:04:08,771 --> 00:04:10,823
+Notice how Eve is
+
+100
+00:04:10,823 --> 00:04:13,074
+unable to determine this exact color
+
+101
+00:04:13,074 --> 00:04:15,246
+since she needs one of their
+
+102
+00:04:15,246 --> 00:04:19,316
+private colors to do so.
+
+103
+00:04:20,962 --> 00:04:23,046
+And that is the trick.
+
+104
+00:04:23,046 --> 00:04:25,133
+Now, to do this with numbers,
+
+105
+00:04:25,133 --> 00:04:27,389
+we need a numerical procedure,
+
+106
+00:04:27,389 --> 00:04:29,278
+which is easy in one direction,
+
+107
+00:04:29,278 --> 00:04:31,153
+and hard in the other.

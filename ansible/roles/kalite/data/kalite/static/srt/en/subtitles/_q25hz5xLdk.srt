@@ -1,0 +1,263 @@
+1
+00:00:00,070 --> 00:00:02,270
+Let's think about how put options can
+
+2
+00:00:02,270 --> 00:00:04,570
+give us leverage on a downside,
+
+3
+00:00:04,570 --> 00:00:06,710
+or should I say a bet that the stock
+
+4
+00:00:06,710 --> 00:00:08,840
+will go down relative to shorting
+
+5
+00:00:08,840 --> 00:00:10,360
+and this one is a little more complicated because
+
+6
+00:00:10,360 --> 00:00:14,110
+shorting is a little bit less intuitive.
+
+7
+00:00:14,110 --> 00:00:17,220
+But if you were to short a stock, in order to short it,
+
+8
+00:00:17,220 --> 00:00:19,150
+you might say"hey, I don't have to put any money up front...
+
+9
+00:00:19,150 --> 00:00:21,760
+"...because I essentially just borrow the stock immediately
+
+10
+00:00:21,760 --> 00:00:24,180
+and then I would sell it for $50..."
+
+11
+00:00:24,180 --> 00:00:27,280
+But the reality is that you do have to put some capital
+
+12
+00:00:27,280 --> 00:00:29,830
+up front because the short can move against you.
+
+13
+00:00:29,830 --> 00:00:31,960
+Usually you have to put at least 50%
+
+14
+00:00:31,960 --> 00:00:34,060
+of the value of the short.
+
+15
+00:00:34,060 --> 00:00:37,020
+So in our "short scenario" you would have to put
+
+16
+00:00:37,020 --> 00:00:41,320
+at least $25 up front and then you would borrow the stock,
+
+17
+00:00:41,320 --> 00:00:45,570
+sell it for $50, so essentially you will have $75
+
+18
+00:00:45,570 --> 00:00:47,420
+to play with that you would eventually have to
+
+19
+00:00:47,420 --> 00:00:51,660
+use to buy back the stock, but the upfront capital is $25.
+
+20
+00:00:51,660 --> 00:00:54,560
+Now in our scenario where the stock went down
+
+21
+00:00:54,560 --> 00:00:56,310
+which was a good thing if you're shorting,
+
+22
+00:00:56,310 --> 00:00:57,690
+you want the stock, that was your bet
+
+23
+00:00:57,690 --> 00:00:58,850
+you want the stock to go down.
+
+24
+00:00:58,850 --> 00:01:01,950
+In this scenario where the stock went down to $20
+
+25
+00:01:01,950 --> 00:01:05,790
+you made a profit of $30.
+
+26
+00:01:05,790 --> 00:01:09,110
+You were able to buy that stock for $20
+
+27
+00:01:09,110 --> 00:01:11,940
+and then give it back to the original person
+
+28
+00:01:11,940 --> 00:01:15,740
+so you were able to keep that $50 although net for that $20
+
+29
+00:01:15,740 --> 00:01:17,320
+so you made $30.
+
+30
+00:01:17,720 --> 00:01:22,140
+So you made $30 on a $25 investment.
+
+31
+00:01:22,140 --> 00:01:29,320
+So your gain -- you make $25 plus another $5
+
+32
+00:01:29,320 --> 00:01:32,520
+so that's a 120% gain.
+
+33
+00:01:32,520 --> 00:01:34,180
+So let me write that down
+
+34
+00:01:34,180 --> 00:01:35,860
+You made a 120% gain.
+
+35
+00:01:35,860 --> 00:01:38,100
+Of course in this scenario you gained
+
+36
+00:01:38,100 --> 00:01:39,360
+when the stock went down.
+
+37
+00:01:39,360 --> 00:01:44,050
+In terms of loss, here, when the stock went up
+
+38
+00:01:44,050 --> 00:01:49,080
+the stock went up to $80 we lost $30 by shorting.
+
+39
+00:01:49,080 --> 00:01:52,640
+We had a 120% loss.
+
+40
+00:01:52,640 --> 00:01:55,450
+So once again 120% loss.
+
+41
+00:01:55,450 --> 00:01:57,860
+So it's important to realize in a short situation,
+
+42
+00:01:57,860 --> 00:01:59,850
+the best thing that can happen for you
+
+43
+00:01:59,850 --> 00:02:01,410
+is your stock goes to 0.
+
+44
+00:02:01,410 --> 00:02:03,220
+In which case you can kind of...
+
+45
+00:02:03,220 --> 00:02:08,010
+buy it back for nothing which means you can keep your $50.
+
+46
+00:02:08,010 --> 00:02:11,600
+So in the best possible scenario you have to put $25 up
+
+47
+00:02:11,600 --> 00:02:14,200
+front you can keep the $50 that you got from
+
+48
+00:02:14,200 --> 00:02:16,430
+borrowing and selling the stock
+
+49
+00:02:16,430 --> 00:02:20,020
+so you can make a 200% return.
+
+50
+00:02:20,020 --> 00:02:21,720
+In the worst case scenario
+
+51
+00:02:21,720 --> 00:02:23,770
+(so the best scenario is this is 200%)
+
+52
+00:02:23,770 --> 00:02:26,760
+this would be infinite.
+
+53
+00:02:26,760 --> 00:02:29,030
+So you have to be very careful while you're shorting.
+
+54
+00:02:29,030 --> 00:02:31,100
+But let's think about the put option.
+
+55
+00:02:31,100 --> 00:02:34,340
+In the put option we only have to put $5 up front
+
+56
+00:02:34,340 --> 00:02:39,850
+to actually buy the put and when the stock went down to $20,
+
+57
+00:02:39,850 --> 00:02:41,440
+when the stock went down to $20
+
+58
+00:02:41,440 --> 00:02:46,400
+we made $15. So this was a 300% gain.
+
+59
+00:02:46,400 --> 00:02:48,170
+And on the other side of the equation
+
+60
+00:02:48,170 --> 00:02:50,520
+when the stock went up the worst we could do
+
+61
+00:02:50,520 --> 00:02:52,160
+was just lose all of our money.
+
+62
+00:02:52,160 --> 00:02:56,040
+So the worst thing we can do is just lose 100%.
+
+63
+00:02:56,040 --> 00:02:59,020
+So once again we were able to multiply,
+
+64
+00:02:59,020 --> 00:03:02,680
+we were able to multiply our gains relative to shorting
+
+65
+00:03:02,680 --> 00:03:05,480
+although it's a little more mixed on the downside
+
+66
+00:03:05,480 --> 00:03:08,250
+because the put gives you a little bit of protection there.

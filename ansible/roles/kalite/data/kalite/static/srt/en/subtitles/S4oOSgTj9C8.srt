@@ -1,0 +1,1155 @@
+1
+00:00:00,000 --> 00:00:00,760
+   
+
+2
+00:00:00,760 --> 00:00:01,360
+Welcome back.
+
+3
+00:00:01,360 --> 00:00:04,290
+We're doing part b and part
+of problem number two.
+
+4
+00:00:04,290 --> 00:00:07,660
+And it says, use a trapezoidal
+sum with 3 subintervals to
+
+5
+00:00:07,660 --> 00:00:09,390
+estimate the average number
+of people waiting in line
+
+6
+00:00:09,390 --> 00:00:11,030
+during the first 4 hours.
+
+7
+00:00:11,030 --> 00:00:13,840
+And so I just took the data
+they gave, graphed it.
+
+8
+00:00:13,840 --> 00:00:15,560
+I did that in the last video.
+
+9
+00:00:15,560 --> 00:00:19,880
+And so, use trapezoidal sum
+with 3 subintervals to estimate
+
+10
+00:00:19,880 --> 00:00:22,140
+the average number of people--
+that sounds very complicated.
+
+11
+00:00:22,140 --> 00:00:25,470
+Like boy, I don't-- that
+sounds-- yeah, you know, I
+
+12
+00:00:25,470 --> 00:00:27,260
+didn't learn trapezoidal
+sums, or however you
+
+13
+00:00:27,260 --> 00:00:27,910
+want to think about it.
+
+14
+00:00:27,910 --> 00:00:28,770
+It could be very confusing.
+
+15
+00:00:28,770 --> 00:00:32,350
+And frankly, I haven't taken
+calculus in 20 years.
+
+16
+00:00:32,350 --> 00:00:33,720
+But you really just have to
+think about what they're
+
+17
+00:00:33,720 --> 00:00:35,370
+saying, and it's
+not that daunting.
+
+18
+00:00:35,370 --> 00:00:37,300
+So what's the average
+value of a function?
+
+19
+00:00:37,300 --> 00:00:39,180
+And you learned
+this in calculus.
+
+20
+00:00:39,180 --> 00:00:40,660
+You might not remember it.
+
+21
+00:00:40,660 --> 00:00:43,640
+   
+
+22
+00:00:43,640 --> 00:00:50,020
+So let's say the average value
+of f is equal to essentially--
+
+23
+00:00:50,020 --> 00:00:53,860
+let's say, between 2 points, b
+and a-- it's the difference
+
+24
+00:00:53,860 --> 00:00:57,230
+between the 2 points divided by
+the area under the
+
+25
+00:00:57,230 --> 00:01:00,780
+curve of f of x.
+
+26
+00:01:00,780 --> 00:01:01,840
+From a to b.
+
+27
+00:01:01,840 --> 00:01:02,190
+Right?
+
+28
+00:01:02,190 --> 00:01:04,470
+That's, I think they call
+that the second fundamental
+
+29
+00:01:04,470 --> 00:01:05,300
+theorem of calculus.
+
+30
+00:01:05,300 --> 00:01:08,180
+Or corollary to the fundamental
+theorem of calculus, whatever.
+
+31
+00:01:08,180 --> 00:01:09,140
+But it makes sense.
+
+32
+00:01:09,140 --> 00:01:09,700
+Right?
+
+33
+00:01:09,700 --> 00:01:13,790
+The average value of a function
+is equal to the area under the
+
+34
+00:01:13,790 --> 00:01:16,210
+curve divided by, you
+could kind of say, the
+
+35
+00:01:16,210 --> 00:01:17,350
+base of the figure.
+
+36
+00:01:17,350 --> 00:01:18,260
+Right?
+
+37
+00:01:18,260 --> 00:01:20,820
+Because another way to think
+about it, if you just took the
+
+38
+00:01:20,820 --> 00:01:26,930
+average value of the function--
+so if the function was, say,
+
+39
+00:01:26,930 --> 00:01:31,310
+this, and you just multiplied
+that average value times the
+
+40
+00:01:31,310 --> 00:01:34,660
+base, you would get the
+same area as the integral.
+
+41
+00:01:34,660 --> 00:01:35,550
+That's another way to view it.
+
+42
+00:01:35,550 --> 00:01:39,460
+You could rewrite
+this as b minus a.
+
+43
+00:01:39,460 --> 00:01:42,540
+The base times the average
+value is the same thing as
+
+44
+00:01:42,540 --> 00:01:43,655
+the area under the curve.
+
+45
+00:01:43,655 --> 00:01:47,010
+   
+
+46
+00:01:47,010 --> 00:01:48,490
+So that's another
+way to view it.
+
+47
+00:01:48,490 --> 00:01:49,670
+So let's just apply that here.
+
+48
+00:01:49,670 --> 00:01:53,670
+Let's use the trapezoidal sum
+to figure out the area under
+
+49
+00:01:53,670 --> 00:01:57,840
+this curve, or an estimate of
+the area under l of t, and then
+
+50
+00:01:57,840 --> 00:01:59,750
+we can divide by b minus a.
+
+51
+00:01:59,750 --> 00:02:02,810
+Or in that case,
+b is 4, a is 0.
+
+52
+00:02:02,810 --> 00:02:06,880
+And we'll have the average
+value of-- over the first 4
+
+53
+00:02:06,880 --> 00:02:08,500
+hours-- of the people in line.
+
+54
+00:02:08,500 --> 00:02:11,760
+So let's do that.
+
+55
+00:02:11,760 --> 00:02:13,350
+Let me erase it.
+
+56
+00:02:13,350 --> 00:02:14,530
+We're actually not going
+to use an interval.
+
+57
+00:02:14,530 --> 00:02:16,120
+We're going to use a
+trapezoidal sum to
+
+58
+00:02:16,120 --> 00:02:18,030
+estimate the integral.
+
+59
+00:02:18,030 --> 00:02:19,610
+So it says, 3 intervals.
+
+60
+00:02:19,610 --> 00:02:22,390
+It says a trapezoidal sum
+with 3 subintervals.
+
+61
+00:02:22,390 --> 00:02:26,570
+Well, I see, there's 3 very
+natural subintervals here.
+
+62
+00:02:26,570 --> 00:02:29,560
+And let me draw them.
+
+63
+00:02:29,560 --> 00:02:32,030
+So this is one.
+
+64
+00:02:32,030 --> 00:02:34,750
+Actually let me-- I'll
+draw the dotted lines.
+
+65
+00:02:34,750 --> 00:02:37,370
+This is one subinterval.
+
+66
+00:02:37,370 --> 00:02:40,600
+This is another subinterval.
+
+67
+00:02:40,600 --> 00:02:41,160
+And there we have it.
+
+68
+00:02:41,160 --> 00:02:42,130
+We have three trapezoids.
+
+69
+00:02:42,130 --> 00:02:45,860
+We have this one, we
+have this one, and we
+
+70
+00:02:45,860 --> 00:02:47,300
+have this trapezoid.
+
+71
+00:02:47,300 --> 00:02:49,150
+So we essentially just have
+to figure out the area of
+
+72
+00:02:49,150 --> 00:02:50,230
+each of these trapezoids.
+
+73
+00:02:50,230 --> 00:02:53,430
+Let me see if I can draw that
+a little bit-- I drew them
+
+74
+00:02:53,430 --> 00:02:55,080
+in different colors, just so
+you can see the trapezoids.
+
+75
+00:02:55,080 --> 00:02:58,660
+So this trapezoid goes goes
+from-- oh, I don't know
+
+76
+00:02:58,660 --> 00:02:59,560
+if I'm doing this right.
+
+77
+00:02:59,560 --> 00:03:00,550
+Let's see.
+
+78
+00:03:00,550 --> 00:03:03,220
+I'll use a line tool.
+
+79
+00:03:03,220 --> 00:03:09,565
+So 1 trapezoid here, and
+another trapezoid there.
+
+80
+00:03:09,565 --> 00:03:11,690
+And then another
+trapezoid there.
+
+81
+00:03:11,690 --> 00:03:13,480
+And I just need to figure out
+the areas of each of these
+
+82
+00:03:13,480 --> 00:03:16,160
+trapezoids, and that's my
+estimate of the area under the
+
+83
+00:03:16,160 --> 00:03:17,860
+curve of l of t, from 0 to 4.
+
+84
+00:03:17,860 --> 00:03:19,480
+And then I just divide
+it by 4, and I'm done.
+
+85
+00:03:19,480 --> 00:03:21,870
+Part b.
+
+86
+00:03:21,870 --> 00:03:25,170
+So what's the area of
+this first trapezoid?
+
+87
+00:03:25,170 --> 00:03:27,110
+Well, what do you do to find
+an area of a trapezoid?
+
+88
+00:03:27,110 --> 00:03:28,900
+It's the base.
+
+89
+00:03:28,900 --> 00:03:32,520
+So this area of the trapezoid
+right here, this first
+
+90
+00:03:32,520 --> 00:03:33,980
+one, is the base.
+
+91
+00:03:33,980 --> 00:03:36,240
+Which is just 1.
+
+92
+00:03:36,240 --> 00:03:39,380
+1 times the average
+of the two heights.
+
+93
+00:03:39,380 --> 00:03:39,690
+Right?
+
+94
+00:03:39,690 --> 00:03:41,830
+So it's the average.
+
+95
+00:03:41,830 --> 00:03:45,470
+Right here it's 120,
+and this is 156.
+
+96
+00:03:45,470 --> 00:03:49,570
+So what's the average
+of 120 and 156?
+
+97
+00:03:49,570 --> 00:03:52,230
+Well, the average of 120
+and 156-- let's see.
+
+98
+00:03:52,230 --> 00:03:59,810
+We get 276 divided by 2 is 138.
+
+99
+00:03:59,810 --> 00:04:03,380
+So it's 1 times 138
+or it's just 138.
+
+100
+00:04:03,380 --> 00:04:06,870
+That's the area of
+that trapezoid.
+
+101
+00:04:06,870 --> 00:04:09,090
+What's the area of this
+trapezoid right here?
+
+102
+00:04:09,090 --> 00:04:10,430
+This bigger one?
+
+103
+00:04:10,430 --> 00:04:12,320
+Well, its base is 2, right?
+
+104
+00:04:12,320 --> 00:04:13,750
+1, 2.
+
+105
+00:04:13,750 --> 00:04:14,450
+Its base is 2.
+
+106
+00:04:14,450 --> 00:04:16,060
+And what's the average value?
+
+107
+00:04:16,060 --> 00:04:17,470
+Well, it's going to
+be the average value
+
+108
+00:04:17,470 --> 00:04:20,670
+between 156 and 176.
+
+109
+00:04:20,670 --> 00:04:23,230
+Or the average value between
+this height and this height.
+
+110
+00:04:23,230 --> 00:04:24,210
+That's an easier one, right?
+
+111
+00:04:24,210 --> 00:04:26,456
+166 is right in between
+those two, and we
+
+112
+00:04:26,456 --> 00:04:27,050
+don't have to do much.
+
+113
+00:04:27,050 --> 00:04:29,650
+So it's 2 times 166.
+
+114
+00:04:29,650 --> 00:04:33,110
+Sorry, 166, not 1.66.
+
+115
+00:04:33,110 --> 00:04:39,130
+And finally, what's the average
+value of this trap-- or what's
+
+116
+00:04:39,130 --> 00:04:42,240
+the area in this trapezoid?
+
+117
+00:04:42,240 --> 00:04:44,260
+Well, the base is 1, right?
+
+118
+00:04:44,260 --> 00:04:46,180
+It's going from 3 to 4.
+
+119
+00:04:46,180 --> 00:04:48,930
+1 times the average value.
+
+120
+00:04:48,930 --> 00:04:52,380
+So 176 and 126.
+
+121
+00:04:52,380 --> 00:04:56,520
+So that is 1/2
+times-- what's 176?
+
+122
+00:04:56,520 --> 00:05:00,430
+Let me use a calculator, just
+so I don't make any mistakes.
+
+123
+00:05:00,430 --> 00:05:03,180
+Trusty TI-85 emulator.
+
+124
+00:05:03,180 --> 00:05:04,130
+Let's see.
+
+125
+00:05:04,130 --> 00:05:08,880
+176 plus 126.
+
+126
+00:05:08,880 --> 00:05:09,980
+Enter.
+
+127
+00:05:09,980 --> 00:05:14,710
+Divided by 2, is equal to 151.
+
+128
+00:05:14,710 --> 00:05:18,090
+So this area right here
+is 1 times 151, or 151.
+
+129
+00:05:18,090 --> 00:05:19,550
+So what's the total area?
+
+130
+00:05:19,550 --> 00:05:23,530
+It's just going to be the
+sum of these 3 trapezoids.
+
+131
+00:05:23,530 --> 00:05:25,340
+So it's the sum of
+those 3 trapezoids.
+
+132
+00:05:25,340 --> 00:05:39,880
+So it's going to be 138
+plus 2 times 166 plus 151.
+
+133
+00:05:39,880 --> 00:05:43,050
+So that's the total area
+under those trapezoids.
+
+134
+00:05:43,050 --> 00:05:46,400
+But then they ask us,
+well, what's the average
+
+135
+00:05:46,400 --> 00:05:47,480
+value of the function?
+
+136
+00:05:47,480 --> 00:05:51,690
+Well, the average value is just
+the area divided by the base.
+
+137
+00:05:51,690 --> 00:05:53,020
+The base is 4, right?
+
+138
+00:05:53,020 --> 00:05:54,900
+From noon to 4:00 p.m.
+
+139
+00:05:54,900 --> 00:05:57,520
+or from time equals
+0 to time equals 4.
+
+140
+00:05:57,520 --> 00:05:59,610
+So we just divide
+this value by 4.
+
+141
+00:05:59,610 --> 00:06:05,670
+So divided by 4, we get 155.25.
+
+142
+00:06:05,670 --> 00:06:08,125
+So they say, use a trapezoidal
+sum with 3 subintervals to
+
+143
+00:06:08,125 --> 00:06:10,550
+estimate the average number of
+people waiting in line during
+
+144
+00:06:10,550 --> 00:06:13,060
+the first 4 hours that the
+tickets were on sale.
+
+145
+00:06:13,060 --> 00:06:17,110
+So the answer to
+part b is 155.25.
+
+146
+00:06:17,110 --> 00:06:18,940
+They don't tell us to round it
+or anything, so I'm assuming
+
+147
+00:06:18,940 --> 00:06:20,620
+that's, you know, if we're
+saying the average number of
+
+148
+00:06:20,620 --> 00:06:22,720
+people, I guess we can
+have a fraction there.
+
+149
+00:06:22,720 --> 00:06:23,375
+So that's reasonable.
+
+150
+00:06:23,375 --> 00:06:25,890
+   
+
+151
+00:06:25,890 --> 00:06:26,630
+Let's see, what part are we?
+
+152
+00:06:26,630 --> 00:06:29,270
+We're on part c.
+
+153
+00:06:29,270 --> 00:06:29,970
+OK.
+
+154
+00:06:29,970 --> 00:06:31,300
+So part c.
+
+155
+00:06:31,300 --> 00:06:33,940
+I think that's going to
+use this graph, too.
+
+156
+00:06:33,940 --> 00:06:36,240
+So let me erase at
+least this top part.
+
+157
+00:06:36,240 --> 00:06:38,960
+   
+
+158
+00:06:38,960 --> 00:06:43,230
+The top part I can erase.
+
+159
+00:06:43,230 --> 00:06:46,280
+I can erase this,
+I can erase that.
+
+160
+00:06:46,280 --> 00:06:49,370
+I want to erase all the
+unnecessary things.
+
+161
+00:06:49,370 --> 00:06:54,550
+Let me see if I can-- let's
+see, I can erase all of that.
+
+162
+00:06:54,550 --> 00:06:55,770
+Just want to make it
+as neat as possible.
+
+163
+00:06:55,770 --> 00:06:57,820
+I think this graph is going
+to come in useful in part
+
+164
+00:06:57,820 --> 00:07:01,470
+c, by just glancing at it.
+
+165
+00:07:01,470 --> 00:07:01,810
+OK.
+
+166
+00:07:01,810 --> 00:07:03,760
+That's good enough, I think.
+
+167
+00:07:03,760 --> 00:07:05,510
+OK, let's do part c.
+
+168
+00:07:05,510 --> 00:07:09,680
+Let me copy and paste it.
+
+169
+00:07:09,680 --> 00:07:13,410
+   
+
+170
+00:07:13,410 --> 00:07:14,070
+Part c.
+
+171
+00:07:14,070 --> 00:07:18,670
+   
+
+172
+00:07:18,670 --> 00:07:20,050
+OK, copied it.
+
+173
+00:07:20,050 --> 00:07:21,005
+Edit, paste.
+
+174
+00:07:21,005 --> 00:07:23,770
+   
+
+175
+00:07:23,770 --> 00:07:24,600
+OK.
+
+176
+00:07:24,600 --> 00:07:27,940
+For t is greater than 0,
+is less than 9, right?
+
+177
+00:07:27,940 --> 00:07:30,840
+What is the fewest number
+of times at which l prime
+
+178
+00:07:30,840 --> 00:07:33,340
+of t must be equal to 0?
+
+179
+00:07:33,340 --> 00:07:35,020
+Give a reason for your answer.
+
+180
+00:07:35,020 --> 00:07:39,180
+So l prime of t, that's
+the derivative of this.
+
+181
+00:07:39,180 --> 00:07:41,780
+When I connected these dots,
+I just kind of wanted to
+
+182
+00:07:41,780 --> 00:07:42,640
+get a shape of the curve.
+
+183
+00:07:42,640 --> 00:07:43,430
+But it's really a curve.
+
+184
+00:07:43,430 --> 00:07:46,090
+It's not like this sharp
+edged line, right?
+
+185
+00:07:46,090 --> 00:07:46,880
+And how do we know
+it's a curve?
+
+186
+00:07:46,880 --> 00:07:48,370
+Because it's differentiable.
+
+187
+00:07:48,370 --> 00:07:49,360
+It's continuous.
+
+188
+00:07:49,360 --> 00:07:50,620
+It's actually twice
+differentiable.
+
+189
+00:07:50,620 --> 00:07:52,800
+Which tells us the
+derivative is continuous.
+
+190
+00:07:52,800 --> 00:07:56,070
+So the real graph of this is
+going to look something--
+
+191
+00:07:56,070 --> 00:07:58,630
+you know, let me do it in
+a bold color like magenta.
+
+192
+00:07:58,630 --> 00:08:00,390
+You know, it might look
+something like this.
+
+193
+00:08:00,390 --> 00:08:03,990
+I don't know, a curve and
+then it maxes out at
+
+194
+00:08:03,990 --> 00:08:05,880
+some point, comes down.
+
+195
+00:08:05,880 --> 00:08:07,530
+Then it comes up like this.
+
+196
+00:08:07,530 --> 00:08:09,750
+And then it, maybe it
+maxes out, and it
+
+197
+00:08:09,750 --> 00:08:12,190
+comes down like that.
+
+198
+00:08:12,190 --> 00:08:14,480
+It'll be a curve, right?
+
+199
+00:08:14,480 --> 00:08:17,190
+Anyway, they say, what is the
+fewest number of times that l
+
+200
+00:08:17,190 --> 00:08:19,940
+prime of t must be equal to 0?
+
+201
+00:08:19,940 --> 00:08:25,100
+Well, what happens when l
+prime of t is equal to 0?
+
+202
+00:08:25,100 --> 00:08:29,560
+That means that we are at
+a local minima or a local
+
+203
+00:08:29,560 --> 00:08:32,470
+maxima, or sometimes
+an inflection point.
+
+204
+00:08:32,470 --> 00:08:34,170
+But we don't know
+that for sure.
+
+205
+00:08:34,170 --> 00:08:38,610
+But at minima and maxima point,
+we know for sure that l
+
+206
+00:08:38,610 --> 00:08:40,400
+prime of t is equal to 0.
+
+207
+00:08:40,400 --> 00:08:41,630
+And so we can just eyeball it.
+
+208
+00:08:41,630 --> 00:08:43,870
+We could look at this graph and
+we could say, well, you know,
+
+209
+00:08:43,870 --> 00:08:47,280
+there has to be a minima point
+someplace in this range.
+
+210
+00:08:47,280 --> 00:08:47,550
+Right?
+
+211
+00:08:47,550 --> 00:08:49,280
+Between here and here.
+
+212
+00:08:49,280 --> 00:08:51,620
+So, you know, the way I
+drew it, it looks like
+
+213
+00:08:51,620 --> 00:08:53,980
+the slope is 0 there.
+
+214
+00:08:53,980 --> 00:08:56,740
+And between here and here, it
+looks like the slope is also
+
+215
+00:08:56,740 --> 00:08:59,420
+going to have to bottom
+out at some point.
+
+216
+00:08:59,420 --> 00:08:59,930
+Like there.
+
+217
+00:08:59,930 --> 00:09:02,380
+And then there's a maximum
+point right-- someplace in
+
+218
+00:09:02,380 --> 00:09:04,590
+this range, and it's
+going to max out.
+
+219
+00:09:04,590 --> 00:09:07,410
+So when I just eyeball it, I
+say, well, I have 2 maximum
+
+220
+00:09:07,410 --> 00:09:10,040
+points, and one minima point,
+so the slope is going to equal
+
+221
+00:09:10,040 --> 00:09:12,750
+0 at at least 3 points, right?
+
+222
+00:09:12,750 --> 00:09:15,520
+But they tell us, give us
+a reason for your answer.
+
+223
+00:09:15,520 --> 00:09:17,210
+Give us a reason.
+
+224
+00:09:17,210 --> 00:09:21,950
+And my reason-- and actually,
+you could use Rolle's Theorem
+
+225
+00:09:21,950 --> 00:09:26,090
+or the mean value theorem, but
+the simplest reason is that
+
+226
+00:09:26,090 --> 00:09:31,210
+here we have 3 sign changes
+in the average velocity.
+
+227
+00:09:31,210 --> 00:09:32,820
+Or the average, not the
+average velocity, the
+
+228
+00:09:32,820 --> 00:09:35,290
+rate-- the l of t.
+
+229
+00:09:35,290 --> 00:09:37,300
+We're not doing velocity
+in this problem.
+
+230
+00:09:37,300 --> 00:09:40,770
+So from here-- let me
+use a thicker line.
+
+231
+00:09:40,770 --> 00:09:41,390
+Use yellow.
+
+232
+00:09:41,390 --> 00:09:44,680
+So from here to here,
+we have a sign change.
+
+233
+00:09:44,680 --> 00:09:46,890
+From here to here, we
+have a sign change.
+
+234
+00:09:46,890 --> 00:09:49,400
+And from here to here, we
+could have a sign change.
+
+235
+00:09:49,400 --> 00:09:52,040
+So what I would write down at
+the AP exam, is, I was like,
+
+236
+00:09:52,040 --> 00:09:56,300
+well, the function is twice
+differentiable, which means
+
+237
+00:09:56,300 --> 00:09:58,360
+its derivative is continuous.
+
+238
+00:09:58,360 --> 00:10:00,620
+So let me write down
+the important points.
+
+239
+00:10:00,620 --> 00:10:01,975
+So derivative is continuous.
+
+240
+00:10:01,975 --> 00:10:06,460
+   
+
+241
+00:10:06,460 --> 00:10:10,380
+And we have 3 sign changes
+in the derivative, right?
+
+242
+00:10:10,380 --> 00:10:14,080
+The derivative is positive over
+this interval, or at least
+
+243
+00:10:14,080 --> 00:10:16,480
+its average is positive,
+then it goes negative.
+
+244
+00:10:16,480 --> 00:10:19,130
+So at some point, since the
+derivative is continuous-- it
+
+245
+00:10:19,130 --> 00:10:21,930
+doesn't jump around-- it had
+to be positive someplace
+
+246
+00:10:21,930 --> 00:10:22,760
+in this range.
+
+247
+00:10:22,760 --> 00:10:24,690
+And you can be more formal
+when you write it.
+
+248
+00:10:24,690 --> 00:10:27,140
+It had to be negative
+someplace in this range.
+
+249
+00:10:27,140 --> 00:10:29,160
+So there had to be a sign
+change, and so it had
+
+250
+00:10:29,160 --> 00:10:30,680
+to pass through 0.
+
+251
+00:10:30,680 --> 00:10:33,160
+And that same argument could
+be used between here and
+
+252
+00:10:33,160 --> 00:10:35,030
+here, and here and here.
+
+253
+00:10:35,030 --> 00:10:36,490
+And that's my answer.
+
+254
+00:10:36,490 --> 00:10:40,260
+And I will continue part d in
+the next video, because I'm
+
+255
+00:10:40,260 --> 00:10:42,570
+already over 10 minutes.

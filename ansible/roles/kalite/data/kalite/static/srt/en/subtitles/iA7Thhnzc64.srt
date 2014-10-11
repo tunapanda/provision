@@ -1,0 +1,535 @@
+1
+00:00:00,590 --> 00:00:04,750
+I want to make a quick clarification to the last video and then think about
+
+2
+00:00:04,780 --> 00:00:09,050
+what friction up to when the block is actually moving
+
+3
+00:00:09,050 --> 00:00:11,870
+In the last video, we started off with a block being stationary
+
+4
+00:00:11,970 --> 00:00:14,080
+We knew that the parallel component
+
+5
+00:00:14,080 --> 00:00:19,410
+of the force of gravity on that block was 49 N downwards, down the slope
+
+6
+00:00:19,590 --> 00:00:23,270
+I went on the block was stationary so there must be an offsetting force
+
+7
+00:00:23,270 --> 00:00:27,330
+then we said, that's the force of friction and it must be 49 N upwards
+
+8
+00:00:27,430 --> 00:00:30,770
+and so they completely net out in that direction
+
+9
+00:00:30,850 --> 00:00:36,700
+Now what we said is keep applying a little bit more force until we can budge
+
+10
+00:00:36,700 --> 00:00:40,320
+this block to start accelerating downwards
+
+11
+00:00:40,320 --> 00:00:46,120
+I said I kept applying a little bit more force until I get to 1 N
+
+12
+00:00:46,270 --> 00:00:48,660
+and then the block started to budge
+
+13
+00:00:48,660 --> 00:00:53,710
+So at that point, when it started to budge, I am applying this 1 N right over here
+
+14
+00:00:53,830 --> 00:01:00,030
+There is already 49 N of force or the component of gravity in this direction
+
+15
+00:01:00,430 --> 00:01:04,340
+Combined, we're providing 50 N to just start budging it
+
+16
+00:01:04,420 --> 00:01:07,040
+to just overcome the force of friction
+
+17
+00:01:07,260 --> 00:01:09,130
+The one thing I want to clarify here is that
+
+18
+00:01:09,130 --> 00:01:12,750
+at the whole time the force of friction was not constant at 49 N
+
+19
+00:01:13,250 --> 00:01:19,160
+When I wasn't messing with this block and the parallel component of force was 49 N
+
+20
+00:01:19,180 --> 00:01:21,610
+then the force of friction was 49 N
+
+21
+00:01:21,630 --> 00:01:24,680
+When I started to press on it, apply a little bit force
+
+22
+00:01:24,680 --> 00:01:27,050
+maybe I applied 1/10 N on top of that
+
+23
+00:01:27,320 --> 00:01:30,520
+then the force of friction was 49.1 N
+
+24
+00:01:30,520 --> 00:01:34,630
+because it was still providing enough force so that this block was not moving
+
+25
+00:01:34,630 --> 00:01:36,790
+Then I applied maybe 1/2 N
+
+26
+00:01:36,820 --> 00:01:40,860
+and so the total force in the downward direction would have been 49.5 N
+
+27
+00:01:40,880 --> 00:01:42,910
+But if it still was not moving
+
+28
+00:01:42,920 --> 00:01:45,870
+then the force of friction was still completely overcoming it
+
+29
+00:01:45,880 --> 00:01:48,910
+So the force of fiction must be 49.5 N
+
+30
+00:01:48,940 --> 00:01:55,240
+All the way up to the combined force in the downward direction being 49.999999 N
+
+31
+00:01:55,300 --> 00:01:59,050
+and then the force of friction was still 49.999999 N
+
+32
+00:01:59,150 --> 00:02:02,780
+All the way until I hit 50 N and the block started to budge
+
+33
+00:02:02,810 --> 00:02:06,810
+which tells us that the force of friction, or at least the force of static friction
+
+34
+00:02:06,980 --> 00:02:10,900
+all of a sudden now couldn't keep up and it started to accelerate downwards
+
+35
+00:02:10,900 --> 00:02:14,340
+So in that static scenario, the force of friction
+
+36
+00:02:14,340 --> 00:02:20,370
+changed as I applied more or less force in this downward direction
+
+37
+00:02:20,610 --> 00:02:23,400
+With that out of the way, let's take a different scenario
+
+38
+00:02:23,400 --> 00:02:25,700
+Let me just redraw that same block
+
+39
+00:02:25,720 --> 00:02:28,890
+since all this is getting messy
+
+40
+00:02:29,780 --> 00:02:33,720
+So we have the same block
+
+41
+00:02:33,730 --> 00:02:37,040
+As we said in the last video, we're now assuming wood on wood
+
+42
+00:02:37,600 --> 00:02:40,380
+So this is the wedge
+
+43
+00:02:40,390 --> 00:02:42,940
+This is the block right over here
+
+44
+00:02:42,950 --> 00:02:53,680
+We know that the component of gravity that is parallel to the plane right there is 49 N
+
+45
+00:02:53,700 --> 00:02:56,310
+We know the component of gravity that's perpendicular to the plane--
+
+46
+00:02:56,310 --> 00:02:58,520
+we figured it out about 2 videos ago--
+
+47
+00:02:58,550 --> 00:03:03,160
+is 49 square root of 3 N
+
+48
+00:03:03,400 --> 00:03:07,760
+We know that this block is not accelerating in this normal direction
+
+49
+00:03:07,950 --> 00:03:11,500
+So there must be some force counteracting gravity in that direction
+
+50
+00:03:11,670 --> 00:03:15,110
+And that's the normal force of the wedge on the block
+
+51
+00:03:15,640 --> 00:03:18,090
+So that is going in that direction
+
+52
+00:03:18,380 --> 00:03:21,830
+at 49 square root of 3 N
+
+53
+00:03:22,020 --> 00:03:25,320
+And now instead of assuming that this block is stationary
+
+54
+00:03:25,340 --> 00:03:27,910
+let's assume that it's moving with a constant velocity
+
+55
+00:03:28,390 --> 00:03:39,000
+So now are dealing with a scenario where the block has a constant velocity
+
+56
+00:03:39,320 --> 00:03:47,180
+And for the sake of this video, we assume that constant velocity is downwards
+
+57
+00:03:47,180 --> 00:03:59,390
+The constant velocity v is equal to--let's say--5 m/s down the wedge or down the ramp
+
+58
+00:03:59,390 --> 00:04:04,540
+or in the direction that is parallel to the surface of the ramp, in this direction
+
+59
+00:04:04,540 --> 00:04:06,920
+right over here. So that's the constant velocity
+
+60
+00:04:07,210 --> 00:04:09,830
+So what are all the forces at play?
+
+61
+00:04:09,860 --> 00:04:11,140
+And be very careful here
+
+62
+00:04:11,140 --> 00:04:14,550
+There might be temptation to say, OK, you know there's a net force here. We're moving
+
+63
+00:04:14,550 --> 00:04:19,020
+So maybe that's the net force causing the movement, but member, this is super important
+
+64
+00:04:19,120 --> 00:04:21,430
+This is Newton's 1st law
+
+65
+00:04:21,440 --> 00:04:26,800
+If you have a net force, if you have an unbalanced force, it'll cause it to accelerate
+
+66
+00:04:27,180 --> 00:04:31,190
+And we are not accelerating here; we have a constant velocity
+
+67
+00:04:31,570 --> 00:04:35,580
+We are not accelerating here
+
+68
+00:04:36,030 --> 00:04:39,660
+So if you're not accelerating in that direction
+
+69
+00:04:39,670 --> 00:04:43,730
+then that means that the force in that direction must be balanced
+
+70
+00:04:43,970 --> 00:04:50,740
+So there must be some force acting in the exactly opposite direction
+
+71
+00:04:50,740 --> 00:04:54,250
+that keeps this thing from accelerating downwards
+
+72
+00:04:54,390 --> 00:04:58,770
+And so it must be exactly 49 N in the opposite direction
+
+73
+00:04:58,970 --> 00:05:02,370
+And as you can imagine, this is the force of friction
+
+74
+00:05:02,640 --> 00:05:06,600
+This right over here is the force of friction
+
+75
+00:05:06,860 --> 00:05:11,170
+And the difference between this video and the last video is last time friction was static
+
+76
+00:05:11,250 --> 00:05:13,950
+even at 49 N, the box was stationary
+
+77
+00:05:13,960 --> 00:05:17,050
+You keep nudging it until you get to 50 N, then it start moving
+
+78
+00:05:17,220 --> 00:05:19,700
+Here we're just jumping into this picture where
+
+79
+00:05:19,700 --> 00:05:23,480
+we just see a box that's moving down the slope at 5 m/s
+
+80
+00:05:23,490 --> 00:05:26,800
+So we don't know how much force it took to overcome static friction
+
+81
+00:05:26,920 --> 00:05:28,030
+But we do know
+
+82
+00:05:28,090 --> 00:05:31,910
+that there is some force of friction that is keeping this box from accelerating
+
+83
+00:05:31,940 --> 00:05:34,280
+keeping it at a constant velocity
+
+84
+00:05:34,400 --> 00:05:38,590
+that is completely negating the parallel component of the force of gravity
+
+85
+00:05:38,590 --> 00:05:41,660
+parallel to the surface of this plane
+
+86
+00:05:41,950 --> 00:05:45,430
+So given this, let's calculate another coefficient of friction
+
+87
+00:05:45,450 --> 00:05:48,000
+but this is going to be the coefficient of kinetic friction
+
+88
+00:05:48,220 --> 00:05:52,390
+because now we're moving down the block. I'll do a video on why
+
+89
+00:05:52,420 --> 00:05:55,390
+sometimes a coefficient of static friction can be different
+
+90
+00:05:55,390 --> 00:05:57,590
+than the coefficient of kinetic friction
+
+91
+00:05:57,990 --> 00:06:05,500
+So the coefficient of kinetic friction, we'll write it as the Greek letter mu
+
+92
+00:06:05,500 --> 00:06:10,150
+with a little k here for kinetic where it's a kind of moving friction
+
+93
+00:06:10,650 --> 00:06:20,510
+It's going to be equal to the magnitude of the force of friction
+
+94
+00:06:20,770 --> 00:06:30,210
+over the magnitude of the normal force
+
+95
+00:06:30,250 --> 00:06:32,380
+And you can derive this experimentally
+
+96
+00:06:32,380 --> 00:06:35,670
+You just observe this whole thing going on and you do the math with this block
+
+97
+00:06:35,690 --> 00:06:38,840
+You knew the a component of gravity that's going in this direction
+
+98
+00:06:42,270 --> 00:06:45,080
+you could figure out this coefficient of kinetic friction
+
+99
+00:06:45,100 --> 00:06:48,870
+What's cool about this is, this is in general going to be true
+
+100
+00:06:48,870 --> 00:06:52,270
+For any two materials that are like this. So you know, maybe this is
+
+101
+00:06:52,300 --> 00:06:54,590
+a certain type of wood on a certain type of wood
+
+102
+00:06:54,590 --> 00:06:56,940
+or a certain type of sandpaper on a certain type of sandpaper
+
+103
+00:06:57,060 --> 00:07:00,840
+whatever you're talking about, and then you can use that to make predictions
+
+104
+00:07:00,940 --> 00:07:04,000
+if the incline was different or the mass was different
+
+105
+00:07:04,360 --> 00:07:06,630
+or even if you are on a different planet
+
+106
+00:07:06,640 --> 00:07:11,130
+or someone was pressing down on this block would change the normal force
+
+107
+00:07:11,390 --> 00:07:15,280
+So given this right here, let's figure out for the sake of doing it
+
+108
+00:07:15,360 --> 00:07:19,570
+the coefficient of kinetic friction here
+
+109
+00:07:19,590 --> 00:07:24,590
+The force of friction here completely offsetting the force of gravity parallel to the surface
+
+110
+00:07:24,790 --> 00:07:26,890
+is 49 N
+
+111
+00:07:26,900 --> 00:07:32,710
+And the normal force here, the force of contact between these two things
+
+112
+00:07:32,710 --> 00:07:39,670
+this block and this wedge, is 49 sqrt of 3 N
+
+113
+00:07:39,690 --> 00:07:42,470
+So we get one over the square root of 3
+
+114
+00:07:42,470 --> 00:07:45,280
+Let's get the calculator out to get the accurate number here
+
+115
+00:07:45,390 --> 00:07:49,300
+So we have one divided by the square root of three
+
+116
+00:07:49,820 --> 00:07:53,480
+which gives us .58
+
+117
+00:07:53,700 --> 00:07:59,350
+0.58 and there's no units here, because the units cancel out. It's a unitless measurement
+
+118
+00:07:59,760 --> 00:08:03,600
+And the interesting thing here is that the coefficient the way I've set up this problem
+
+119
+00:08:03,750 --> 00:08:09,120
+the coefficient of kinetic friction is lower, if we assume the same materials
+
+120
+00:08:09,120 --> 00:08:12,280
+than the coefficient of static friction
+
+121
+00:08:12,320 --> 00:08:15,230
+And for some materials, they might not be that different
+
+122
+00:08:15,230 --> 00:08:20,250
+but for other materials, the kinetic friction can be lower than static friction
+
+123
+00:08:20,270 --> 00:08:25,310
+You never see a situation where the coefficient of static friction is lower than
+
+124
+00:08:25,310 --> 00:08:26,010
+the coefficient of kinetic friction
+
+125
+00:08:26,010 --> 00:08:31,490
+but you do see situations where the coefficient of kinetic friction is lower
+
+126
+00:08:31,490 --> 00:08:34,670
+than the coefficient of static friction that
+
+127
+00:08:34,800 --> 00:08:40,130
+once something is moving for some reason--
+
+128
+00:08:40,130 --> 00:08:43,040
+we'll theorize why that might be--for some reason
+
+129
+00:08:43,060 --> 00:08:46,900
+friction has a little less potent than when something is stationary
+
+130
+00:08:46,900 --> 00:08:48,420
+So we can say this generally
+
+131
+00:08:48,430 --> 00:08:55,870
+coefficient of kinetic friction is less than or equal to the coefficient of static friction
+
+132
+00:08:56,210 --> 00:09:00,690
+It's a little bit easier, or friction provides a little less, or less than
+
+133
+00:09:00,690 --> 00:09:05,510
+or equal to the force when something's moving than when something is stationary
+
+134
+00:09:05,630 --> 00:09:08,320
+I'll think about that a little bit deeper in the next video

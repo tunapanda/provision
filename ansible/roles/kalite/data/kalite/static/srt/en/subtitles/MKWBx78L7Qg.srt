@@ -1,0 +1,579 @@
+1
+00:00:00,274 --> 00:00:01,415
+What we're going to go over
+
+2
+00:00:01,415 --> 00:00:02,564
+in this video is
+
+3
+00:00:02,564 --> 00:00:04,207
+one of the core principles
+
+4
+00:00:04,207 --> 00:00:05,123
+in Calculus,
+
+5
+00:00:05,123 --> 00:00:06,083
+and you're going to use it anytime
+
+6
+00:00:06,083 --> 00:00:07,206
+you take the derivative
+
+7
+00:00:07,206 --> 00:00:08,835
+of anything even reasonably complex.
+
+8
+00:00:08,835 --> 00:00:11,274
+And it's called the chain rule.
+
+9
+00:00:11,274 --> 00:00:12,423
+And when you're first exposed to it
+
+10
+00:00:12,423 --> 00:00:13,667
+it can seem a little daunting
+
+11
+00:00:13,667 --> 00:00:14,753
+and a little bit convoluted,
+
+12
+00:00:14,753 --> 00:00:16,270
+but as you see more and more examples
+
+13
+00:00:16,270 --> 00:00:17,344
+it will start to make sense
+
+14
+00:00:17,344 --> 00:00:18,674
+and hopefully it will even start to seem
+
+15
+00:00:18,674 --> 00:00:21,093
+a little bit simple and intuitive over time.
+
+16
+00:00:21,585 --> 00:00:23,202
+So let's say that I had a function.
+
+17
+00:00:23,202 --> 00:00:25,758
+Let's say I have a function, h of x.
+
+18
+00:00:25,758 --> 00:00:28,207
+And it is equal to,
+
+19
+00:00:28,207 --> 00:00:29,675
+just for example,
+
+20
+00:00:29,675 --> 00:00:31,467
+let's say it's equal to
+
+21
+00:00:31,467 --> 00:00:32,344
+sine of x -
+
+22
+00:00:32,344 --> 00:00:35,869
+let's say it's equal to sine of x,
+
+23
+00:00:35,869 --> 00:00:36,936
+squared.
+
+24
+00:00:36,936 --> 00:00:37,874
+Now I could have written that,
+
+25
+00:00:37,874 --> 00:00:39,004
+I could have written it like this:
+
+26
+00:00:39,004 --> 00:00:40,676
+sine squared of x,
+
+27
+00:00:40,676 --> 00:00:41,734
+but it will be a little bit clearer using,
+
+28
+00:00:41,734 --> 00:00:43,779
+using that type of notation.
+
+29
+00:00:43,779 --> 00:00:45,824
+So let me make it so I have h of x.
+
+30
+00:00:45,824 --> 00:00:47,869
+And what I'm curious about is,
+
+31
+00:00:47,869 --> 00:00:49,748
+what is h prime of x?
+
+32
+00:00:49,748 --> 00:00:51,627
+So I want to know h prime of x,
+
+33
+00:00:51,627 --> 00:00:53,506
+which another way of writing it is
+
+34
+00:00:53,506 --> 00:00:55,067
+the derivative of h
+
+35
+00:00:55,067 --> 00:00:56,672
+with respect to x -
+
+36
+00:00:56,672 --> 00:00:57,936
+these are just different notations -
+
+37
+00:00:57,936 --> 00:01:01,006
+and to do this I am going to use the chain rule.
+
+38
+00:01:01,006 --> 00:01:03,142
+I am going to use the chain rule.
+
+39
+00:01:03,142 --> 00:01:06,007
+The chain rule comes into play any time
+
+40
+00:01:06,007 --> 00:01:08,675
+your function can be viewed as a composition
+
+41
+00:01:08,675 --> 00:01:09,802
+of more than one function,
+
+42
+00:01:09,802 --> 00:01:12,342
+and that might not seem obvious right now
+
+43
+00:01:12,342 --> 00:01:14,942
+but it will hopefully maybe by the end of this video
+
+44
+00:01:14,942 --> 00:01:15,939
+or the next one.
+
+45
+00:01:15,939 --> 00:01:17,161
+Now what I want to do is
+
+46
+00:01:17,161 --> 00:01:21,095
+a little bit of a thought experiment.
+
+47
+00:01:21,095 --> 00:01:23,758
+If I were to ask you what is the derivative,
+
+48
+00:01:23,758 --> 00:01:24,756
+with respect to x,
+
+49
+00:01:24,756 --> 00:01:26,193
+if I were just to apply the derivative operator
+
+50
+00:01:26,193 --> 00:01:29,688
+to x squared with respect to x,
+
+51
+00:01:29,688 --> 00:01:30,828
+what do I get?
+
+52
+00:01:30,828 --> 00:01:31,990
+Well this gives me two x.
+
+53
+00:01:31,990 --> 00:01:34,467
+We've seen that many, many, many, many times.
+
+54
+00:01:34,467 --> 00:01:36,093
+Now what if I were to take the derivative
+
+55
+00:01:36,093 --> 00:01:38,606
+with respect to a of a squared?
+
+56
+00:01:38,606 --> 00:01:40,417
+Well it's the exact same thing.
+
+57
+00:01:40,417 --> 00:01:42,341
+I just swapped an a for the x's.
+
+58
+00:01:42,341 --> 00:01:45,647
+This is still going to be equal to two a.
+
+59
+00:01:45,647 --> 00:01:46,819
+Now I will do something
+
+60
+00:01:46,819 --> 00:01:48,502
+that might be a little bit more bizarre -
+
+61
+00:01:48,502 --> 00:01:50,137
+What if I were to take the derivative
+
+62
+00:01:50,137 --> 00:01:53,401
+with respect to sine of x
+
+63
+00:01:53,401 --> 00:01:55,174
+with respect to sine of x,
+
+64
+00:01:55,174 --> 00:01:58,341
+of sine of x,
+
+65
+00:01:58,341 --> 00:02:01,006
+sine of x, squared?
+
+66
+00:02:01,006 --> 00:02:03,930
+Well, wherever I have the x's up here
+
+67
+00:02:03,930 --> 00:02:04,754
+or the a's over here
+
+68
+00:02:04,754 --> 00:02:06,269
+I just replace it with the sine of x.
+
+69
+00:02:06,269 --> 00:02:10,342
+So this is just going to be two times the thing that I had.
+
+70
+00:02:10,342 --> 00:02:12,274
+So whatever I'm taking the derivative with respect to -
+
+71
+00:02:12,274 --> 00:02:13,273
+here it was with respect to x,
+
+72
+00:02:13,273 --> 00:02:14,530
+here is was with respect to a
+
+73
+00:02:14,530 --> 00:02:16,203
+here's with respect to sine of x.
+
+74
+00:02:16,203 --> 00:02:21,255
+So it's going to be two times sine of x.
+
+75
+00:02:21,255 --> 00:02:23,676
+So the chain rule tells us
+
+76
+00:02:23,676 --> 00:02:25,538
+that this derivative is going to be
+
+77
+00:02:25,538 --> 00:02:29,838
+the derivative of our whole function with respect,
+
+78
+00:02:29,838 --> 00:02:31,939
+or the derivative of this outer function,
+
+79
+00:02:31,939 --> 00:02:35,752
+x squared, the derivative of x squared,
+
+80
+00:02:35,752 --> 00:02:39,269
+the derivative of this outer function
+
+81
+00:02:39,269 --> 00:02:41,538
+with respect to sine of x,
+
+82
+00:02:41,538 --> 00:02:44,269
+so that is going to be two sine of x -
+
+83
+00:02:44,269 --> 00:02:47,073
+two sine of x -
+
+84
+00:02:47,073 --> 00:02:48,347
+so we can view it as the derivative of
+
+85
+00:02:48,347 --> 00:02:50,870
+the outer function with respect to the inner,
+
+86
+00:02:50,870 --> 00:02:52,006
+two sine of x,
+
+87
+00:02:52,006 --> 00:02:54,687
+we can just treat sine of x like it's kind of an "x"
+
+88
+00:02:54,687 --> 00:02:55,795
+and it would have been two x,
+
+89
+00:02:55,795 --> 00:02:57,005
+but instead it's a sine of x.
+
+90
+00:02:57,005 --> 00:02:58,538
+And we say, two sine of x
+
+91
+00:02:58,538 --> 00:03:04,782
+times, times the derivative of sine of x
+
+92
+00:03:04,782 --> 00:03:06,339
+with respect to x -
+
+93
+00:03:06,339 --> 00:03:10,352
+times the derivative of sine of x with respect to x.
+
+94
+00:03:10,352 --> 00:03:11,404
+Well that's more straight forward
+
+95
+00:03:11,404 --> 00:03:12,800
+and a little bit more intuitive.
+
+96
+00:03:12,800 --> 00:03:15,897
+The derivative of sine of x with respect to x,
+
+97
+00:03:15,897 --> 00:03:17,675
+we've seen multiple times,
+
+98
+00:03:17,675 --> 00:03:19,755
+is cosine of x.
+
+99
+00:03:19,755 --> 00:03:21,602
+So times cosine of x.
+
+100
+00:03:21,602 --> 00:03:23,273
+And so there we've applied the chain rule
+
+101
+00:03:23,273 --> 00:03:25,090
+There's the derivative of the outer function
+
+102
+00:03:25,090 --> 00:03:27,041
+with respect to the inner,
+
+103
+00:03:27,041 --> 00:03:28,341
+so derivative of sine of x, squared
+
+104
+00:03:28,341 --> 00:03:29,641
+with respect to sine of x
+
+105
+00:03:29,641 --> 00:03:30,943
+is two sine of x,
+
+106
+00:03:30,943 --> 00:03:33,418
+and then we multiply that times the derivative
+
+107
+00:03:33,418 --> 00:03:36,343
+of sine of x with respect to x.
+
+108
+00:03:36,343 --> 00:03:37,937
+So let me make it clear -
+
+109
+00:03:37,937 --> 00:03:38,937
+this right over here
+
+110
+00:03:38,937 --> 00:03:41,454
+is the derivative -
+
+111
+00:03:41,454 --> 00:03:44,274
+we're taking the derivative of
+
+112
+00:03:44,274 --> 00:03:47,878
+sine of x, squared.
+
+113
+00:03:47,878 --> 00:03:48,780
+So let me make it clear -
+
+114
+00:03:48,780 --> 00:03:50,879
+that's what we're taking the derivative of
+
+115
+00:03:50,879 --> 00:03:55,629
+with respect to sine of x
+
+116
+00:03:55,629 --> 00:03:57,000
+and then we're multiplying that
+
+117
+00:03:57,000 --> 00:03:59,754
+times the derivative of sine of x
+
+118
+00:03:59,754 --> 00:04:03,269
+the derivative of sine of x
+
+119
+00:04:03,269 --> 00:04:06,915
+with respect to x.
+
+120
+00:04:06,915 --> 00:04:08,757
+And this is where it might start making
+
+121
+00:04:08,757 --> 00:04:10,856
+a little bit of intuition.
+
+122
+00:04:10,856 --> 00:04:13,526
+You can't really treat these differentials,
+
+123
+00:04:13,526 --> 00:04:16,196
+this d whatever, this d x, this d sin of x,
+
+124
+00:04:16,196 --> 00:04:18,868
+as a number.
+
+125
+00:04:18,868 --> 00:04:19,910
+And you really can't -
+
+126
+00:04:19,910 --> 00:04:21,498
+the notation makes it look like a fraction
+
+127
+00:04:21,498 --> 00:04:23,086
+because intuitively that's what we're doing.
+
+128
+00:04:23,086 --> 00:04:24,674
+But if you were to treat them like fractions,
+
+129
+00:04:24,674 --> 00:04:28,086
+then you could think about canceling that and that.
+
+130
+00:04:28,086 --> 00:04:29,657
+And once again, this isn't a rigorous thing to do,
+
+131
+00:04:29,657 --> 00:04:31,228
+but it can help with the intuition -
+
+132
+00:04:31,228 --> 00:04:32,801
+and then what you're left with is the derivative
+
+133
+00:04:32,801 --> 00:04:36,737
+of this whole sine of x squared with respect to x.
+
+134
+00:04:36,737 --> 00:04:38,508
+So you're left with,
+
+135
+00:04:38,508 --> 00:04:39,541
+you're left with
+
+136
+00:04:39,541 --> 00:04:43,022
+the derivative of essentially our original function
+
+137
+00:04:43,022 --> 00:04:48,207
+sine of x, squared, with respect to x.
+
+138
+00:04:48,207 --> 00:04:50,363
+Which is exactly what dh/dx is.
+
+139
+00:04:50,363 --> 00:04:53,334
+This right over here is
+
+140
+00:04:53,334 --> 00:04:56,505
+our original function, h.
+
+141
+00:04:56,505 --> 00:04:58,086
+That's our original function, h.
+
+142
+00:04:58,086 --> 00:05:00,136
+So it might seem a little bit daunting now.
+
+143
+00:05:00,136 --> 00:05:01,874
+What I'll do in the next video
+
+144
+00:05:01,874 --> 00:05:03,606
+is another several examples
+
+145
+00:05:03,606 --> 00:05:07,000
+and then we'll try to abstract this a little bit.

@@ -1,0 +1,691 @@
+1
+00:00:01,080 --> 00:00:03,500
+We're on problem 214.
+
+2
+00:00:05,000 --> 00:00:07,410
+Of the 50 researchers in a work group,
+
+3
+00:00:07,830 --> 00:00:13,390
+40% will be assigned to team A. So let's call that team A.
+
+4
+00:00:14,040 --> 00:00:15,870
+Of the 50 researchers working,
+
+5
+00:00:15,870 --> 00:00:18,670
+40% percent will be assigned to team A.
+
+6
+00:00:19,420 --> 00:00:24,020
+So 40% of 50, that's equal to 20 go to team A.
+
+7
+00:00:24,270 --> 00:00:26,620
+And the remaining 60% go to team B.
+
+8
+00:00:26,660 --> 00:00:30,530
+So B gets the remaining 60%, which is 30 people, right?
+
+9
+00:00:30,700 --> 00:00:33,000
+60% percent of 50 is 30.
+
+10
+00:00:33,000 --> 00:00:36,600
+However, 70% of the researchers prefer team A,
+
+11
+00:00:36,720 --> 00:00:38,950
+and 30% prefer team B.
+
+12
+00:00:39,790 --> 00:00:51,910
+So 70%, which is what, 35, prefer A, and 30% prefer team B.
+
+13
+00:00:52,040 --> 00:00:57,770
+So the remainder, which is 15, right, or 30% of 50, prefer B.
+
+14
+00:01:01,110 --> 00:01:04,920
+What is the lowest possible number of researchers who will
+
+15
+00:01:04,920 --> 00:01:08,720
+not be assigned to the team they prefer?
+
+16
+00:01:08,840 --> 00:01:11,030
+So there's a lot of pseudo-double negatives here.
+
+17
+00:01:11,490 --> 00:01:14,000
+What is the lowest possible number of researchers
+
+18
+00:01:15,380 --> 00:01:20,050
+who will not be assigned to the team that they prefer?
+
+19
+00:01:21,000 --> 00:01:23,760
+So this is -- I have to read that a couple of times.
+
+20
+00:01:23,970 --> 00:01:26,320
+What is the lowest number of researchers
+
+21
+00:01:26,320 --> 00:01:31,950
+who will not be assigned to the team they prefer?
+
+22
+00:01:32,390 --> 00:01:33,540
+So essentially they're saying this is the case
+
+23
+00:01:33,540 --> 00:01:36,740
+where most people get the team they prefer, right?
+
+24
+00:01:36,830 --> 00:01:40,030
+Where as many people as possible to get the team they prefer,
+
+25
+00:01:40,160 --> 00:01:42,730
+and then we want the lowest number of people who
+
+26
+00:01:43,070 --> 00:01:45,020
+didn't get the team they prefer.
+
+27
+00:01:45,020 --> 00:01:46,450
+So what's the situation?
+
+28
+00:01:46,720 --> 00:01:50,750
+Well, the best situation is -- let's see, 35 prefer A,
+
+29
+00:01:50,750 --> 00:01:53,370
+so let's say that 20 of them got A.
+
+30
+00:01:56,470 --> 00:02:00,050
+And then 15 fall into this upset category.
+
+31
+00:02:01,880 --> 00:02:06,230
+And likewise, out of these 15 that prefer B, well,
+
+32
+00:02:06,320 --> 00:02:09,040
+I don't know, let's say that all of them got B.
+
+33
+00:02:19,080 --> 00:02:21,600
+All of these got B, but then we have to put another 15 in B,
+
+34
+00:02:21,700 --> 00:02:23,180
+and that's these 15 people.
+
+35
+00:02:23,510 --> 00:02:27,900
+So the best case in this area in which all of these people get B,
+
+36
+00:02:29,920 --> 00:02:31,730
+and 20 of these people get A,
+
+37
+00:02:31,770 --> 00:02:33,920
+but then you've got to stick 15 people of these in B,
+
+38
+00:02:34,050 --> 00:02:36,310
+so those 15 people are going to be upset.
+
+39
+00:02:36,730 --> 00:02:39,000
+And so that is the lowest possible number of researchers
+
+40
+00:02:39,000 --> 00:02:41,380
+who will not be assigned to the team they prefer,
+
+41
+00:02:41,670 --> 00:02:46,350
+so that's these 15. And that's choice A.
+
+42
+00:02:48,990 --> 00:02:50,710
+Problem 215.
+
+43
+00:02:53,020 --> 00:02:58,220
+If m is the average of the first ten positive multiples of 5,
+
+44
+00:02:58,510 --> 00:03:02,870
+m is equal to average of, I don't know,
+
+45
+00:03:02,920 --> 00:03:04,350
+let's call it multiples of 5,
+
+46
+00:03:04,600 --> 00:03:08,050
+and M is the median of the first ten --
+
+47
+00:03:08,050 --> 00:03:14,300
+and this is the first ten -- and M-- big M--
+
+48
+00:03:14,520 --> 00:03:17,730
+is equal to the median of the same thing,
+
+49
+00:03:19,390 --> 00:03:23,630
+what is the value of big M minus small m?
+
+50
+00:03:23,650 --> 00:03:24,700
+So let's just write them out.
+
+51
+00:03:24,710 --> 00:03:25,970
+I think that's the simplest way to do it.
+
+52
+00:03:25,970 --> 00:03:27,800
+The first ten multiples of 5.
+
+53
+00:03:28,410 --> 00:03:36,010
+5, 10 -- the first ten positive multiples of 5.
+
+54
+00:03:36,190 --> 00:03:37,990
+Right, so we won't count 0.
+
+55
+00:03:38,270 --> 00:03:45,510
+5, 10, 15, 20, 25, 30, 35 -- actually,
+
+56
+00:03:45,510 --> 00:03:47,770
+let me write it another way,I know this is a little confusing
+
+57
+00:03:47,830 --> 00:04:02,500
+So this is 5, 10, 15, 20, 25, 30, 35, 40, 45, and 50.
+
+58
+00:04:03,260 --> 00:04:06,210
+And I just thought of writing it that way for a reason.
+
+59
+00:04:06,210 --> 00:04:09,060
+So, first of all, they want a little m, which is the mean.
+
+60
+00:04:10,010 --> 00:04:12,030
+Little m is equal to the average of this.
+
+61
+00:04:12,030 --> 00:04:13,540
+Let me ask you a question.
+
+62
+00:04:13,540 --> 00:04:16,000
+If you average-- so I paired these numbers from the lowest
+
+63
+00:04:16,000 --> 00:04:18,230
+to the highest, second lowest to second highest.
+
+64
+00:04:18,230 --> 00:04:21,400
+If you take the sum of this one and this one, you get 55.
+
+65
+00:04:21,440 --> 00:04:22,650
+This one and this one, you get 55.
+
+66
+00:04:22,860 --> 00:04:24,560
+This one and this one, you get 55.
+
+67
+00:04:25,070 --> 00:04:26,410
+So I think you get the point.
+
+68
+00:04:26,620 --> 00:04:29,190
+The sum of any two of them are 55.
+
+69
+00:04:29,250 --> 00:04:31,000
+So if you take the average of any of these,
+
+70
+00:04:31,000 --> 00:04:35,680
+the average of 5 and 50 is 27.5.
+
+71
+00:04:35,680 --> 00:04:39,380
+And that's going to actually be the average for the whole set
+
+72
+00:04:39,380 --> 00:04:40,580
+because you can pair them up.
+
+73
+00:04:40,580 --> 00:04:43,150
+The average of 25 and 30, 27.5.
+
+74
+00:04:43,150 --> 00:04:46,450
+The average of 20 and 35 is 27.5.
+
+75
+00:04:46,670 --> 00:04:48,050
+And if you don't believe me, I mean,
+
+76
+00:04:48,050 --> 00:04:49,740
+there's a bunch of ways you can think about this.
+
+77
+00:04:49,740 --> 00:04:53,380
+You could say, oh, this is the same thing as 55.
+
+78
+00:04:53,430 --> 00:04:55,170
+If you wanted to figure out the sum of this,
+
+79
+00:04:55,170 --> 00:04:58,060
+you can say if I sum these, it would be 55 times 5.
+
+80
+00:04:58,520 --> 00:05:01,840
+So you'd have-- the sum of all of them would be 55 times 5
+
+81
+00:05:02,220 --> 00:05:05,840
+divided by the total of all of them, which is 10,
+
+82
+00:05:06,380 --> 00:05:09,040
+which is 55 times 1/2, which is 27.5.
+
+83
+00:05:09,860 --> 00:05:11,330
+Anyway, there's a bunch of ways to think about it,
+
+84
+00:05:11,330 --> 00:05:13,290
+but I just wanted to show you a quick way of figuring out the
+
+85
+00:05:13,290 --> 00:05:16,140
+average of the first ten multiples of 5.
+
+86
+00:05:17,060 --> 00:05:18,000
+And then they want to know
+
+87
+00:05:18,000 --> 00:05:21,520
+what is the median of the first ten positive multiples of 5?
+
+88
+00:05:21,520 --> 00:05:24,440
+So the middle numbers-- so there's two middle numbers,
+
+89
+00:05:24,560 --> 00:05:25,470
+these two.
+
+90
+00:05:25,860 --> 00:05:27,310
+So when you have two middle numbers,
+
+91
+00:05:27,450 --> 00:05:29,020
+you take the average of them to get the median.
+
+92
+00:05:29,020 --> 00:05:33,040
+Well, guess what? The average of those two is 27.5.
+
+93
+00:05:33,040 --> 00:05:38,040
+So big M is equal to 27.5.
+
+94
+00:05:38,490 --> 00:05:43,920
+So big M minus small m is 0, and that is choice B.
+
+95
+00:05:45,880 --> 00:05:50,150
+Next question, 216.
+
+96
+00:05:52,000 --> 00:05:58,980
+If m is greater than 0, and x is m% of y--
+
+97
+00:05:59,170 --> 00:06:04,390
+so x is equal to m/100 times y, right?
+
+98
+00:06:04,460 --> 00:06:08,610
+If m is 6%-- and this'll turns into 0.06, right?
+
+99
+00:06:09,620 --> 00:06:20,540
+x is m% of y, then in terms of m, y is what percent of x?
+
+100
+00:06:21,430 --> 00:06:24,400
+OK, so let's multiply both sides of this by 100/m.
+
+101
+00:06:24,590 --> 00:06:28,990
+So you get 100/m x,
+
+102
+00:06:28,990 --> 00:06:34,110
+and 100/m times m/100 is just 1 is equal to y, right?
+
+103
+00:06:34,110 --> 00:06:36,700
+Let me switch the order to so it makes a little more--
+
+104
+00:06:36,710 --> 00:06:43,000
+y is equal to 100/m times x.
+
+105
+00:06:44,320 --> 00:06:48,590
+So if I wanted to write this as a percentage,
+
+106
+00:06:48,590 --> 00:06:51,450
+this right here is going to be some type of decimal number.
+
+107
+00:06:51,720 --> 00:06:54,490
+And so if I have a decimal and I want to multiply,
+
+108
+00:06:54,910 --> 00:06:57,870
+and if I want to express it as a percentage, I mean,
+
+109
+00:06:57,870 --> 00:06:59,190
+if this right here is 1,
+
+110
+00:06:59,630 --> 00:07:02,390
+if I wanted express it as a percentage, it would be 100%.
+
+111
+00:07:02,600 --> 00:07:05,130
+If this right here ends up being 0.2,
+
+112
+00:07:05,150 --> 00:07:07,510
+I would multiply it by 100 and get 20%.
+
+113
+00:07:07,560 --> 00:07:11,020
+So to express this as a percentage, I'd multiply it by 100.
+
+114
+00:07:11,020 --> 00:07:20,030
+So 100/m times 100 is equal to 10,000/m.And that is choice E.
+
+115
+00:07:21,690 --> 00:07:26,310
+10,000 over m%,which is the same thing as 100/m as a decimal.
+
+116
+00:07:28,020 --> 00:07:34,130
+Next question, 217. I'll use green.
+
+117
+00:07:37,780 --> 00:07:40,550
+A certain junior class has 1,000 students,
+
+118
+00:07:40,750 --> 00:07:44,340
+so the junior class has 1,000 students,
+
+119
+00:07:44,900 --> 00:07:47,050
+and a certain senior class has 800 students.
+
+120
+00:07:47,780 --> 00:07:50,560
+So some people dropped out. Maybe they didn't.
+
+121
+00:07:50,560 --> 00:07:52,550
+Maybe it started bigger or smaller.
+
+122
+00:07:52,580 --> 00:07:56,020
+Among these students there 60 sibling pairs.
+
+123
+00:07:56,020 --> 00:07:59,740
+60 siblings-- I already sense a Venn diagram coming--
+
+124
+00:07:59,740 --> 00:08:03,390
+each consisting of 1 junior and 1 senior.
+
+125
+00:08:07,290 --> 00:08:10,790
+If one student is to be selected at random from each class,
+
+126
+00:08:11,110 --> 00:08:15,070
+what is the probability that the two students selected
+
+127
+00:08:15,140 --> 00:08:17,820
+will be a sibling pair?
+
+128
+00:08:18,030 --> 00:08:21,530
+If one student is to be selected at random from each class,
+
+129
+00:08:21,650 --> 00:08:24,030
+what is the probability that the two students will be
+
+130
+00:08:24,030 --> 00:08:25,430
+a sibling pair?
+
+131
+00:08:25,520 --> 00:08:29,330
+OK, so how many sibling pair members are there in each class?
+
+132
+00:08:29,330 --> 00:08:31,380
+Well, there have to be 30 in each class.
+
+133
+00:08:31,620 --> 00:08:35,080
+So there's 30 sibling pair members in that class and
+
+134
+00:08:35,080 --> 00:08:38,770
+there's 30 sibling pair members in that class. OK,
+
+135
+00:08:38,770 --> 00:08:42,230
+so if one student is to be selected at random from each class
+
+136
+00:08:42,430 --> 00:08:44,680
+what is the probability that two students will be a
+
+137
+00:08:44,700 --> 00:08:47,480
+sibling pair? OK, so let's say we pick a student
+
+138
+00:08:47,480 --> 00:08:50,150
+from the junior class first, right?
+
+139
+00:08:50,400 --> 00:08:51,000
+So first of all,
+
+140
+00:08:51,490 --> 00:08:54,800
+what's the chances that they're even part of a sibling pair?
+
+141
+00:08:59,110 --> 00:09:00,030
+Well, that's going to be--
+
+142
+00:09:00,340 --> 00:09:02,760
+there's 30 of them that are part of a pair,
+
+143
+00:09:02,770 --> 00:09:03,770
+and there's 1,000 in the class,
+
+144
+00:09:03,770 --> 00:09:07,990
+so the probability of that happening is 30/1,000,
+
+145
+00:09:08,260 --> 00:09:13,020
+which is the same thing as 3/100, right?
+
+146
+00:09:13,210 --> 00:09:17,060
+That's the probability that we got a part of a pair.
+
+147
+00:09:17,490 --> 00:09:23,080
+Now we're going to go and pick someone from the senior class.
+
+148
+00:09:23,180 --> 00:09:25,910
+If we want to find this guy's sibling,
+
+149
+00:09:25,910 --> 00:09:27,500
+we can't just find another sibling pair,
+
+150
+00:09:27,640 --> 00:09:31,110
+we've got to find this guy's actual sibling. So actually,
+
+151
+00:09:31,150 --> 00:09:33,750
+only one person in the entire senior class is going to be--
+
+152
+00:09:33,750 --> 00:09:36,830
+whoever this person we pick from the junior class,
+
+153
+00:09:37,120 --> 00:09:39,560
+if we did happen to pick one, the only way that we
+
+154
+00:09:39,560 --> 00:09:42,150
+got an actual sibling pair is if we pick that one person in
+
+155
+00:09:42,190 --> 00:09:44,060
+the senior class who is this person's sibling.
+
+156
+00:09:44,550 --> 00:09:49,000
+So there's actually only a1 in 800 chance that we picked them
+
+157
+00:09:49,000 --> 00:09:52,480
+So if we multiply that out, that is equal to 3 over--
+
+158
+00:09:52,810 --> 00:09:56,010
+let's see, what is it? 80,000?
+
+159
+00:09:56,010 --> 00:10:01,050
+3/80,000, which is not one of the choices.
+
+160
+00:10:01,440 --> 00:10:03,010
+So what did I do wrong?
+
+161
+00:10:05,610 --> 00:10:06,080
+Here.
+
+162
+00:10:06,770 --> 00:10:09,810
+So I see 3/40,000, and for some reason,
+
+163
+00:10:09,970 --> 00:10:14,050
+I think maybe I'm not counting two scenarios.
+
+164
+00:10:14,050 --> 00:10:17,320
+There's probably two scenarios in which is this can occur,
+
+165
+00:10:18,200 --> 00:10:18,780
+right?
+
+166
+00:10:18,800 --> 00:10:24,260
+I could have picked-- if I go to the junior class first and
+
+167
+00:10:24,280 --> 00:10:28,510
+there's a 30 in 1,000 chance that I pick the correct sibling,
+
+168
+00:10:29,800 --> 00:10:34,790
+so that's 3 in 100, and then the odds that I take his
+
+169
+00:10:34,830 --> 00:10:39,250
+or her sibling from the senior class is 1 in 800.
+
+170
+00:10:40,010 --> 00:10:42,700
+But maybe then-- let me see if I'm missing some logic here.
+
+171
+00:10:42,930 --> 00:10:46,530
+Maybe I could have picked-- well, instead of me stumbling
+
+172
+00:10:46,690 --> 00:10:47,580
+because I'm already over time,
+
+173
+00:10:47,690 --> 00:10:50,010
+let me continue this in the next video.

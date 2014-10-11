@@ -1,0 +1,323 @@
+1
+00:00:00,976 --> 00:00:04,304
+So we have a function f(x) graphed right over here
+
+2
+00:00:04,304 --> 00:00:08,901
+then we have a bunch of statements about the limit of f(x) as x approaches different values
+
+3
+00:00:08,945 --> 00:00:11,753
+and what I want to do is to figure out which of these statements are true
+
+4
+00:00:11,784 --> 00:00:13,971
+and which of these are false
+
+5
+00:00:13,971 --> 00:00:18,824
+So let's look at this first statement: limit of f(x) as x approaches
+
+6
+00:00:18,824 --> 00:00:23,563
+one from the positive direction is equal to zero
+
+7
+00:00:23,563 --> 00:00:26,303
+So Is this true or false?
+
+8
+00:00:26,979 --> 00:00:30,922
+So let's look at it. So we're talking about as x approaches one
+
+9
+00:00:30,938 --> 00:00:35,139
+from the positive direction, so for values greater than one
+
+10
+00:00:35,232 --> 00:00:39,528
+So as x approaches one from the positive direction what is f(x)?
+
+11
+00:00:39,544 --> 00:00:41,535
+Well, when x is let's say one and a half
+
+12
+00:00:41,535 --> 00:00:47,340
+f(x) is up here; as x gets closer and closer to one, f(x) stays right at one
+
+13
+00:00:47,401 --> 00:00:49,904
+So as x approaches one
+
+14
+00:00:49,904 --> 00:00:54,221
+from the positive direction it looks like the limit of f...
+
+15
+00:00:54,421 --> 00:00:57,784
+...it looks like the limit of f(x) as x approaches one from the positive direction
+
+16
+00:00:57,784 --> 00:01:00,571
+isn't zero - It looks like it is one
+
+17
+00:01:00,571 --> 00:01:04,370
+So this is not, this is not true.
+
+18
+00:01:04,370 --> 00:01:10,704
+This would be true if instead of saying from the positive direction, we said from the negative direction: from the negative direction the function really does look like look like it is...
+
+19
+00:01:10,704 --> 00:01:15,451
+...the value of the function really does look like look like it is approaching zero
+
+20
+00:01:15,451 --> 00:01:21,263
+For approaching one from the negative direction, when x is right over here, this is f(x)...
+
+21
+00:01:21,263 --> 00:01:23,393
+...when x is right over here, this is f(x)...
+
+22
+00:01:23,393 --> 00:01:26,368
+...when x is right over here, this is f(x)
+
+23
+00:01:26,368 --> 00:01:29,587
+and we see that the value of f(x) seems to get closer and closer to zero
+
+24
+00:01:29,626 --> 00:01:33,035
+So this would only be true if we were approaching from the negative direction
+
+25
+00:01:33,035 --> 00:01:36,787
+Next question: limit of f(x) as x approaches zero from the
+
+26
+00:01:36,787 --> 00:01:40,503
+negative direction is the same as limit of f(x) as x approaches zero
+
+27
+00:01:40,503 --> 00:01:43,205
+from the positive direction. Is this statement true?
+
+28
+00:01:44,682 --> 00:01:48,286
+Well, let's look: our function f(x) as we approach zero from the
+
+29
+00:01:48,286 --> 00:01:52,703
+negative direction - I'm using a new color - as we approach zero from the negative direction
+
+30
+00:01:52,703 --> 00:01:57,704
+So, right over here, this is our value of f(x)
+
+31
+00:01:57,723 --> 00:02:09,035
+then as we get closer, this is our value of f(x), as we get even closer, this is our value of f(x). So it seems from the negative direction like it is approaching positive one; from the positive direction
+
+32
+00:02:09,035 --> 00:02:13,035
+when x is greater than zero: let's try it out
+
+33
+00:02:13,035 --> 00:02:16,011
+So if let's say x is one half, this is our f(x)
+
+34
+00:02:16,011 --> 00:02:19,544
+if x is let's say one fourth, this is our f(x)
+
+35
+00:02:19,544 --> 00:02:22,943
+If x is just barely larger than zero, this is our f(x)
+
+36
+00:02:22,974 --> 00:02:28,702
+So it also seems to be approaching f(x)...f(x) is equal to one.
+
+37
+00:02:28,717 --> 00:02:33,454
+So this looks true: they both seems to be approaching a limit of one
+
+38
+00:02:33,454 --> 00:02:37,237
+The limit here is one, so this is absolutely true
+
+39
+00:02:37,237 --> 00:02:44,124
+Now let's look at this statement: the limit of f(x) as x approaches zero from the negative direction is equal to one
+
+40
+00:02:44,140 --> 00:02:46,052
+Well we've already thought about that
+
+41
+00:02:46,081 --> 00:02:48,971
+The limit of f(x) as x approaches from the negative direction...
+
+42
+00:02:48,971 --> 00:02:56,970
+...the limit of f(x) as x approaches zero from the negative direction, we see that we are getting closer and closer to one; as x gets closer and closer to zero
+
+43
+00:02:57,046 --> 00:03:00,739
+f(x) gets closer and closer to one, so this is also true
+
+44
+00:03:01,000 --> 00:03:05,406
+Limit of f(x) as x approaches zero exists
+
+45
+00:03:05,432 --> 00:03:08,662
+Well, it definitely exists - we've already established that it's equal to one
+
+46
+00:03:08,685 --> 00:03:10,152
+so that's true
+
+47
+00:03:10,214 --> 00:03:15,122
+Now, the limit of f(x), as x approaches one, exists - is that true?
+
+48
+00:03:16,598 --> 00:03:19,986
+Well, we already saw that when we were approaching one from the positive direction
+
+49
+00:03:20,055 --> 00:03:22,600
+the limit seems to be approaching one
+
+50
+00:03:22,692 --> 00:03:28,142
+we get when x is a half we get f(x) is one, when x is a little bit more than one, it's one
+
+51
+00:03:28,219 --> 00:03:30,157
+so it seems like we're getting closer and closer to one
+
+52
+00:03:30,210 --> 00:03:31,170
+(Just let me write that down)
+
+53
+00:03:31,208 --> 00:03:38,208
+The limit of f(x) as x approaches one from the positive direction is equal to one
+
+54
+00:03:38,292 --> 00:03:40,415
+And now what's the limit...
+
+55
+00:03:40,438 --> 00:03:45,026
+...the limit of f(x) as x approaches one from the negative direction?
+
+56
+00:03:45,026 --> 00:03:48,375
+Well, here, this is our f(x)...
+
+57
+00:03:48,375 --> 00:03:49,828
+Here, this is our f(x)...
+
+58
+00:03:49,828 --> 00:03:55,743
+It seems like our f(x) is getting closer and closer to zero when we approach one from values less than one
+
+59
+00:03:55,743 --> 00:03:57,750
+So over here it equals zero
+
+60
+00:03:57,750 --> 00:04:01,643
+So if the limit from the right-hand side is a different value
+
+61
+00:04:01,643 --> 00:04:05,292
+than the limit from the left-hand side then the limit does not exist
+
+62
+00:04:05,292 --> 00:04:10,067
+So this is not true
+
+63
+00:04:10,067 --> 00:04:14,301
+Now finally, the limit of f(x) as x approaches 1.5 is equal to one
+
+64
+00:04:14,301 --> 00:04:16,231
+So, right over here
+
+65
+00:04:16,231 --> 00:04:19,974
+So, everything we've been dealing with so far, we've always looked at points of discontinuity
+
+66
+00:04:19,974 --> 00:04:22,929
+or points where maybe the function isn't quite defined
+
+67
+00:04:22,929 --> 00:04:27,396
+but here this is kind of a plain vanilla point; when x is equal to 1.5 that's maybe right over here
+
+68
+00:04:27,396 --> 00:04:31,207
+This is f(1.5); that right over there is the point...
+
+69
+00:04:31,207 --> 00:04:33,345
+Well, this is the value f(1.5)
+
+70
+00:04:33,345 --> 00:04:34,629
+We could say f of...
+
+71
+00:04:34,629 --> 00:04:39,622
+We could see that f(1.5) is equal to one
+
+72
+00:04:39,683 --> 00:04:43,267
+This right here is the point (1.5, 1)
+
+73
+00:04:43,267 --> 00:04:47,935
+and if we approach it from the left-hand side, from values less than it
+
+74
+00:04:47,935 --> 00:04:50,328
+it's one, the limit seems to be one
+
+75
+00:04:50,328 --> 00:04:52,796
+and if we approach from the right-hand side the limit seems to be one
+
+76
+00:04:52,796 --> 00:04:54,572
+So this is a pretty straightforward thing
+
+77
+00:04:54,572 --> 00:04:56,502
+The graph is continuous right there
+
+78
+00:04:56,502 --> 00:05:00,150
+and so really if we just substitute at that point or we just look at the graph
+
+79
+00:05:00,150 --> 00:05:02,587
+the limit is the value of the function there
+
+80
+00:05:02,587 --> 00:05:06,429
+You don't have to have a function be undefined in order to find a limit there
+
+81
+00:05:06,429 --> 00:05:14,992
+So it is indeed the case that the limit of f(x) as x approaches 1.5 is equal to one

@@ -1,0 +1,975 @@
+1
+00:00:00,080 --> 00:00:05,030
+Now on problem 37.
+
+2
+00:00:05,030 --> 00:00:11,640
+And they say what is the value of xy minus yz.
+
+3
+00:00:14,220 --> 00:00:19,030
+Statement one says, y is equal to 2.
+
+4
+00:00:19,330 --> 00:00:20,750
+Well, that by itself doesn't help us.
+
+5
+00:00:20,750 --> 00:00:23,150
+That just tells us 2x minus 2z.
+
+6
+00:00:23,150 --> 00:00:24,690
+So if you don't know what x and z are
+
+7
+00:00:24,690 --> 00:00:26,580
+you can't figure out what this whole thing is
+
+8
+00:00:26,580 --> 00:00:27,600
+if you just know y is equal to 2.
+
+9
+00:00:27,600 --> 00:00:29,010
+So that alone doesn't help.
+
+10
+00:00:29,010 --> 00:00:33,970
+Statement two is x minus z is equal to 5.
+
+11
+00:00:37,420 --> 00:00:39,770
+Now this is interesting because this expression,
+
+12
+00:00:39,770 --> 00:00:40,850
+we can factor out the y.
+
+13
+00:00:40,850 --> 00:00:46,010
+What happens if we factor y out of both of these expressions?
+
+14
+00:00:46,010 --> 00:00:47,430
+I'm going to just rewrite it.
+
+15
+00:00:47,430 --> 00:00:51,320
+xy minus zy-- I just switched the y and z--
+
+16
+00:00:51,320 --> 00:00:56,070
+that equals x minus z times y.
+
+17
+00:00:56,470 --> 00:00:59,620
+Well, we can figure out x minus z from statement number two.
+
+18
+00:00:59,820 --> 00:01:03,090
+x minus z, this is equal 5.
+
+19
+00:01:03,190 --> 00:01:06,030
+And we know what y is equal to from statement one.
+
+20
+00:01:06,030 --> 00:01:08,060
+So y is equal to 2.
+
+21
+00:01:08,060 --> 00:01:10,020
+So we can definitely figure it out
+
+22
+00:01:10,020 --> 00:01:11,670
+as long as we have both statements
+
+23
+00:01:11,670 --> 00:01:14,480
+and we can show that the answer is y is equal to 2.
+
+24
+00:01:14,480 --> 00:01:17,510
+So the answer is, 2 times 5 is 10.
+
+25
+00:01:17,510 --> 00:01:18,300
+But we didn't have to figure it out.
+
+26
+00:01:18,300 --> 00:01:20,270
+We just have to know that we could figure it out
+
+27
+00:01:20,270 --> 00:01:22,380
+if we had both of these data points.
+
+28
+00:01:22,380 --> 00:01:24,850
+One by themselves, you wouldn't be able to solve it.
+
+29
+00:01:24,850 --> 00:01:26,900
+So the answer is C.
+
+30
+00:01:26,900 --> 00:01:30,040
+Both statements together are sufficient but neither alone is.
+
+31
+00:01:30,040 --> 00:01:35,000
+Problem 38.
+
+32
+00:01:35,450 --> 00:01:36,790
+OK, they drew us a picture.
+
+33
+00:01:36,790 --> 00:01:40,200
+Let me see if I can draw that same picture,
+
+34
+00:01:40,200 --> 00:01:42,090
+looks like some type of device.
+
+35
+00:01:42,090 --> 00:01:46,420
+So it looks like that and then they have the other end,
+
+36
+00:01:47,870 --> 00:01:50,050
+and the other end looks like that.
+
+37
+00:01:50,050 --> 00:01:53,210
+There are these handles, or something that looks like handles
+
+38
+00:01:53,210 --> 00:01:55,020
+I haven't read the problem yet.
+
+39
+00:01:55,020 --> 00:02:01,640
+So they say will the first 10 volumes of a 20 volume
+
+40
+00:02:01,640 --> 00:02:06,530
+encyclopedia fit upright in the book rack shown above?
+
+41
+00:02:06,530 --> 00:02:07,270
+So this is a book rack.
+
+42
+00:02:07,270 --> 00:02:08,750
+So I guess the books get stacked that way.
+
+43
+00:02:08,750 --> 00:02:11,740
+And they labeled this right here, this dimension is x.
+
+44
+00:02:11,740 --> 00:02:15,850
+And they're saying, will the first 10 volumes of a 20 volume
+
+45
+00:02:15,850 --> 00:02:19,520
+encyclopedia fit upright in the book rack shown above?
+
+46
+00:02:19,520 --> 00:02:22,550
+So essentially I'm going to put the first 10 in there.
+
+47
+00:02:22,550 --> 00:02:24,720
+So the first statement they say,
+
+48
+00:02:24,720 --> 00:02:27,080
+is that x is equal to 50 centimeters.
+
+49
+00:02:27,780 --> 00:02:30,300
+Well, that doesn't help me because I don't know
+
+50
+00:02:30,300 --> 00:02:34,250
+how big the first 10 volumes of the encyclopedia are.
+
+51
+00:02:34,250 --> 00:02:36,870
+If each of them are, at least the first 10 are,
+
+52
+00:02:36,870 --> 00:02:39,160
+less than 5 centimeters each
+
+53
+00:02:39,160 --> 00:02:40,830
+or on average less than 5 centimeters,
+
+54
+00:02:40,830 --> 00:02:41,870
+then maybe I could fit them.
+
+55
+00:02:41,870 --> 00:02:44,070
+But one by itself doesn't help me.
+
+56
+00:02:44,370 --> 00:02:49,690
+Two: 12 of the volumes
+
+57
+00:02:49,670 --> 00:02:52,090
+have an average thickness of 5 centimeters.
+
+58
+00:02:58,070 --> 00:03:00,830
+Well, that doesn't help me either because remember,
+
+59
+00:03:00,830 --> 00:03:03,170
+they're saying will the first 10 volumes
+
+60
+00:03:03,180 --> 00:03:05,000
+of a 20 volume encyclopedia?
+
+61
+00:03:05,000 --> 00:03:08,980
+Maybe the 12 that have an average thickness of 5 centimeters,
+
+62
+00:03:08,980 --> 00:03:12,550
+maybe those are the volumes 8 through 20
+
+63
+00:03:12,550 --> 00:03:15,950
+and maybe volumes 1 through 7 have an average thickness
+
+64
+00:03:15,950 --> 00:03:18,930
+of 50 centimeters each or 5 million centimeters each.
+
+65
+00:03:19,230 --> 00:03:23,660
+So even both of these conditions combined don't help me know
+
+66
+00:03:23,660 --> 00:03:26,930
+if I can definitely fit the first 10 volumes
+
+67
+00:03:26,930 --> 00:03:29,000
+of the 20 volume encyclopedia.
+
+68
+00:03:29,000 --> 00:03:31,050
+So that is E.
+
+69
+00:03:31,050 --> 00:03:35,040
+Both statements together are still not sufficient.
+
+70
+00:03:35,590 --> 00:03:41,030
+Problem 39.
+
+71
+00:03:41,030 --> 00:03:42,530
+A circular tub--
+
+72
+00:03:42,530 --> 00:03:45,330
+OK, so they've drawn this circular-looking tub.
+
+73
+00:03:45,330 --> 00:03:47,060
+So the top looks like that.
+
+74
+00:03:47,060 --> 00:03:49,720
+And then there's two sides.
+
+75
+00:03:49,720 --> 00:03:53,200
+Let's me see how well I can construct what they've drawn.
+
+76
+00:03:55,060 --> 00:03:59,080
+And the bottom looks something like that.
+
+77
+00:03:59,080 --> 00:04:02,030
+And then they shade in a little area,
+
+78
+00:04:02,800 --> 00:04:09,000
+a strip of this, like that.
+
+79
+00:04:09,200 --> 00:04:12,370
+And they say a circular tub has a painted band
+
+80
+00:04:12,370 --> 00:04:15,000
+has a band painted around its circumference as show above.
+
+81
+00:04:15,000 --> 00:04:18,090
+So this is the painted band around its circumference.
+
+82
+00:04:18,390 --> 00:04:21,360
+What is the surface area of the painted band?
+
+83
+00:04:21,360 --> 00:04:24,940
+And they tell us that the height of the painted band is x.
+
+84
+00:04:24,940 --> 00:04:26,660
+So in order to essentially know the surface area,
+
+85
+00:04:26,660 --> 00:04:29,540
+you'd have to know the height, which is x,
+
+86
+00:04:29,540 --> 00:04:32,230
+times the circumference of the circle,
+
+87
+00:04:32,230 --> 00:04:33,820
+Right? which would be the length.
+
+88
+00:04:33,820 --> 00:04:36,090
+So if you knew the height times circumference of the circle,
+
+89
+00:04:36,090 --> 00:04:37,210
+you'd be able to know the surface area.
+
+90
+00:04:37,210 --> 00:04:38,800
+So they tell us, the first statement,
+
+91
+00:04:39,020 --> 00:04:45,790
+x is equal to 0.5, whatever, meters.
+
+92
+00:04:45,790 --> 00:04:47,030
+So this is in meters.
+
+93
+00:04:47,030 --> 00:04:51,000
+0.5 meters, so that alone doesn't help us.
+
+94
+00:04:51,000 --> 00:04:52,280
+We have to be able to figure out
+
+95
+00:04:52,280 --> 00:04:54,090
+the circumference of this tub
+
+96
+00:04:54,090 --> 00:04:56,000
+in order to really be able to figure out the surface area
+
+97
+00:04:56,000 --> 00:04:57,420
+because the circumference times this height
+
+98
+00:04:57,420 --> 00:04:59,040
+will be the surface area.
+
+99
+00:04:59,040 --> 00:05:02,010
+Point two: they say the height of the tub is one meter.
+
+100
+00:05:02,010 --> 00:05:05,040
+So they're telling us that this is one meter.
+
+101
+00:05:05,040 --> 00:05:06,490
+Well that doesn't help us.
+
+102
+00:05:06,490 --> 00:05:09,120
+That still doesn't tell us how far around the tub goes.
+
+103
+00:05:09,120 --> 00:05:11,670
+If they had given us the diameter or the radius
+
+104
+00:05:11,670 --> 00:05:14,770
+or the circumference then we could've used our basic geometry
+
+105
+00:05:14,780 --> 00:05:16,710
+to figure out the circumference.
+
+106
+00:05:16,710 --> 00:05:17,680
+But they didn't.
+
+107
+00:05:17,680 --> 00:05:20,100
+So either way-- it's a one meter height--
+
+108
+00:05:20,100 --> 00:05:23,190
+both of these combined still do not allow us
+
+109
+00:05:23,190 --> 00:05:27,000
+to figure out the surface area of this green band.
+
+110
+00:05:27,000 --> 00:05:28,080
+E again.
+
+111
+00:05:28,080 --> 00:05:33,000
+Problem 40.
+
+112
+00:05:33,000 --> 00:05:36,040
+What is the value of integer n?
+
+113
+00:05:36,040 --> 00:05:37,660
+And n as an integer.
+
+114
+00:05:37,660 --> 00:05:40,700
+So statement number one:
+
+115
+00:05:40,700 --> 00:05:48,070
+they tell us that n times n plus 1 is equal to 6.
+
+116
+00:05:48,370 --> 00:05:51,630
+Now we should already be able to figure this out
+
+117
+00:05:51,630 --> 00:05:55,020
+because n is an integer, n plus 1 is an integer.
+
+118
+00:05:55,020 --> 00:05:59,230
+So what are the factorizations of 6?
+
+119
+00:05:59,230 --> 00:06:02,000
+You could have 1 times 6.
+
+120
+00:06:02,000 --> 00:06:03,940
+But that doesn't fit n and n plus 1, right?
+
+121
+00:06:03,940 --> 00:06:05,390
+This is n and n plus 5.
+
+122
+00:06:05,390 --> 00:06:09,690
+You have 2 times 3, which work, right.
+
+123
+00:06:09,690 --> 00:06:13,020
+If 2 is n, n plus 1 is 3 and they equal 6.
+
+124
+00:06:13,020 --> 00:06:14,560
+So let me circle that.
+
+125
+00:06:14,960 --> 00:06:16,200
+And then what other factorizations?
+
+126
+00:06:16,200 --> 00:06:19,640
+You don't have any other-- these are all of the factors 6.
+
+127
+00:06:19,790 --> 00:06:22,090
+So just looking at the first statement,
+
+128
+00:06:22,090 --> 00:06:25,010
+you know that n has to be equal to 2.
+
+129
+00:06:25,010 --> 00:06:27,630
+This is the only integer where this is true.
+
+130
+00:06:27,630 --> 00:06:30,680
+Actually, let me take a step back.
+
+131
+00:06:30,680 --> 00:06:33,030
+No, what if n is negative?
+
+132
+00:06:33,030 --> 00:06:35,300
+Because I was assuming it's a positive integer
+
+133
+00:06:35,300 --> 00:06:36,660
+but they didn't say it's a positive integer,
+
+134
+00:06:36,660 --> 00:06:38,090
+so let me think about that.
+
+135
+00:06:39,140 --> 00:06:43,980
+If I did minus 3 times minus 2,
+
+136
+00:06:43,980 --> 00:06:48,060
+that also equals 6 and these are both integers.
+
+137
+00:06:48,060 --> 00:06:50,530
+Huh, OK, so this isn't enough.
+
+138
+00:06:50,530 --> 00:06:52,140
+Because in this case, n could be--
+
+139
+00:06:52,140 --> 00:06:54,200
+could this would be n and this is would be n plus 1--
+
+140
+00:06:54,200 --> 00:06:59,290
+so n is either equal to 2 or n is equal to minus 3.
+
+141
+00:06:59,290 --> 00:07:00,170
+That's a little tricky.
+
+142
+00:07:00,170 --> 00:07:02,340
+The intuition is to just assume that n is positive
+
+143
+00:07:02,340 --> 00:07:04,000
+but it doesn't have to be positive.
+
+144
+00:07:04,000 --> 00:07:07,070
+So n could be 2 or minus 3 here.
+
+145
+00:07:07,070 --> 00:07:08,600
+That's a tricky one.
+
+146
+00:07:08,600 --> 00:07:12,040
+So that one by itself does not help us solve the problem.
+
+147
+00:07:12,040 --> 00:07:15,450
+The second part of it, point two it says,
+
+148
+00:07:15,450 --> 00:07:20,010
+2 to the 2n is equal to 16.
+
+149
+00:07:20,710 --> 00:07:23,990
+And whenever you have these in the SAT or the GMAT
+
+150
+00:07:23,990 --> 00:07:26,570
+or anything whenever you have a variable in the exponent,
+
+151
+00:07:26,570 --> 00:07:30,020
+your goal really is to just get everything in the same base.
+
+152
+00:07:30,020 --> 00:07:33,060
+So we could write the left-hand side the same.
+
+153
+00:07:33,060 --> 00:07:35,420
+So that's 2 to the 2n.
+
+154
+00:07:35,420 --> 00:07:40,880
+And how do we write 16 with the base 2?
+
+155
+00:07:40,880 --> 00:07:42,050
+Well, 16 is just 2 to the fourth, right?
+
+156
+00:07:45,470 --> 00:07:50,390
+And so we get 2n is equal to 4.
+
+157
+00:07:50,390 --> 00:07:53,080
+n is equal to 2.
+
+158
+00:07:53,280 --> 00:08:00,010
+So this statement alone is enough to figure it out.
+
+159
+00:08:00,010 --> 00:08:01,600
+This statement alone is not.
+
+160
+00:08:01,600 --> 00:08:04,210
+So the answer is B.
+
+161
+00:08:06,420 --> 00:08:08,090
+Statement two alone is sufficient.
+
+162
+00:08:08,090 --> 00:08:12,000
+40 is B.
+
+163
+00:08:12,100 --> 00:08:13,610
+And this was tricky because one,
+
+164
+00:08:13,610 --> 00:08:15,420
+you think that 1n alone is sufficient
+
+165
+00:08:15,420 --> 00:08:19,070
+but it is ambiguous because and n could be minus 3.
+
+166
+00:08:19,770 --> 00:08:23,080
+41.
+
+167
+00:08:23,080 --> 00:08:27,780
+41. OK. They've drawn a bunch of, if I see this right,
+
+168
+00:08:27,780 --> 00:08:30,090
+They draw a bunch of-- two lines.
+
+169
+00:08:30,090 --> 00:08:33,050
+Let's see if I can draw this.
+
+170
+00:08:33,050 --> 00:08:36,110
+So a line and then there's a bunch of circles.
+
+171
+00:08:41,380 --> 00:08:51,020
+One circle, two circles they have, and then they keep going.
+
+172
+00:08:54,030 --> 00:08:58,080
+Three circles, and then one more.
+
+173
+00:08:58,080 --> 00:09:02,390
+It's going to be right there. Four circles.
+
+174
+00:09:02,390 --> 00:09:03,250
+I think that's about right.
+
+175
+00:09:03,250 --> 00:09:05,960
+And they say essentially that the circles
+
+176
+00:09:05,960 --> 00:09:08,050
+just keep going on and on.
+
+177
+00:09:08,050 --> 00:09:11,000
+That's what I think the drawing implies.
+
+178
+00:09:11,000 --> 00:09:13,720
+They say the inside of a rectangular carton
+
+179
+00:09:13,720 --> 00:09:30,610
+is 48 centimeters long, 32 centimeters wide
+
+180
+00:09:30,610 --> 00:09:32,040
+and 15 centimeters high
+
+181
+00:09:36,870 --> 00:09:39,030
+OK. So that's the inside.
+
+182
+00:09:39,030 --> 00:09:41,630
+Kind of from the other wall.
+
+183
+00:09:41,630 --> 00:09:43,730
+This is the floor of the inside of the container
+
+184
+00:09:43,730 --> 00:09:46,130
+and then there would be another up here.
+
+185
+00:09:46,130 --> 00:09:48,040
+But I think you get the idea.
+
+186
+00:09:48,240 --> 00:09:50,630
+The carton is filled to capacity with k
+
+187
+00:09:50,630 --> 00:09:54,710
+identical cylindrical cans of fruit that stand upright
+
+188
+00:09:54,710 --> 00:09:57,420
+in rows and columns as indicated in the figure above.
+
+189
+00:09:57,420 --> 00:09:59,450
+OK. So this is like a top view of it.
+
+190
+00:09:59,450 --> 00:10:02,760
+So we could say that this side up here,
+
+191
+00:10:02,760 --> 00:10:06,010
+this is 48 and then this is 32.
+
+192
+00:10:06,010 --> 00:10:09,080
+So we don't care so much about the height, I think.
+
+193
+00:10:09,780 --> 00:10:13,000
+So, let's see, the carton is filled to capacity with k
+
+194
+00:10:13,000 --> 00:10:14,780
+identical cylindrical cans of fruit that stand upright
+
+195
+00:10:14,780 --> 00:10:16,550
+in rows and columns as indicated in figure above.
+
+196
+00:10:16,550 --> 00:10:18,300
+If the cans are 15 centimeters high--
+
+197
+00:10:18,300 --> 00:10:20,780
+OK, so each of the cans are exactly 15 centimeters high.
+
+198
+00:10:20,780 --> 00:10:23,560
+So they literally are exactly as high as the carton.
+
+199
+00:10:23,760 --> 00:10:28,000
+If the cans are 15 centimeters high, what is the value of k?
+
+200
+00:10:28,000 --> 00:10:30,090
+So we have to figure out
+
+201
+00:10:30,100 --> 00:10:35,040
+how many of these cans will fit in this area essentially?
+
+202
+00:10:35,340 --> 00:10:37,720
+And then they tell us point number one:
+
+203
+00:10:38,420 --> 00:10:41,350
+each of the cans have a radius of 4 centimeters.
+
+204
+00:10:41,350 --> 00:10:44,120
+Radius is 4 centimeters.
+
+205
+00:10:44,120 --> 00:10:44,810
+Well,
+
+206
+00:10:44,810 --> 00:10:47,260
+if we know that each of them have a radius of 4 centimeters
+
+207
+00:10:47,260 --> 00:10:49,310
+then we know exactly
+
+208
+00:10:49,310 --> 00:10:52,840
+how much square area each of these circles will take up,
+
+209
+00:10:52,840 --> 00:10:55,060
+assuming that they're packed exactly like this, right?
+
+210
+00:10:55,060 --> 00:10:59,020
+Because if you think about it, what is this area right here?
+
+211
+00:10:59,020 --> 00:11:02,000
+Well, there's a bunch of were different ways
+
+212
+00:11:02,000 --> 00:11:02,840
+you could think about it.
+
+213
+00:11:02,840 --> 00:11:05,910
+The easiest is that if the radius is 4 centimeters,
+
+214
+00:11:05,910 --> 00:11:08,930
+that the diameter right here is 8 centimeters.
+
+215
+00:11:08,930 --> 00:11:11,780
+So if this is 8 and you have a 48 length,
+
+216
+00:11:11,780 --> 00:11:14,430
+you can only do 6 of these, right?
+
+217
+00:11:14,430 --> 00:11:16,010
+6 times 8 is 48.
+
+218
+00:11:16,010 --> 00:11:17,890
+So you can only do 6 that way.
+
+219
+00:11:17,890 --> 00:11:21,700
+And then if the diameter is 8 this way and this length is 32,
+
+220
+00:11:21,700 --> 00:11:23,070
+you can only do 4 this way.
+
+221
+00:11:23,370 --> 00:11:27,340
+So statement number one, alone,
+
+222
+00:11:27,340 --> 00:11:28,690
+is enough to figure out how many you can put.
+
+223
+00:11:28,690 --> 00:11:29,810
+It would actually be 4 times 6.
+
+224
+00:11:29,810 --> 00:11:33,530
+You could put 24, k would be 24 cans that you could fit in.
+
+225
+00:11:33,530 --> 00:11:35,390
+So statement one, alone, is enough.
+
+226
+00:11:35,390 --> 00:11:37,020
+Now what does statement two tell us?
+
+227
+00:11:37,020 --> 00:11:43,950
+6 of the cans sit exactly along the length of the carton.
+
+228
+00:11:47,990 --> 00:11:50,340
+So they're telling us that these cans,
+
+229
+00:11:50,340 --> 00:11:53,450
+there's 6 cans that fit right along the length,
+
+230
+00:11:53,450 --> 00:11:55,020
+which we figured out from statement number one.
+
+231
+00:11:55,020 --> 00:11:57,370
+But that also gives you the same information
+
+232
+00:11:57,370 --> 00:11:58,690
+as statement number one.
+
+233
+00:11:58,690 --> 00:12:03,040
+Because you know that these are cylindrical cans.
+
+234
+00:12:03,540 --> 00:12:07,880
+I think it's a safe assumption to say that these are circles.
+
+235
+00:12:10,090 --> 00:12:12,760
+Yeah. A cylinder, you're assuming that the tops are circles.
+
+236
+00:12:12,760 --> 00:12:15,120
+So if you say that 6 can fit that way,
+
+237
+00:12:15,120 --> 00:12:17,910
+then you know that the diameter of each of them is 8 centimeters
+
+238
+00:12:17,910 --> 00:12:19,630
+and then you can make the same argument
+
+239
+00:12:19,630 --> 00:12:21,870
+that the diameter's 8 centimeters to say
+
+240
+00:12:21,870 --> 00:12:23,650
+that 4 can fit the other way down.
+
+241
+00:12:23,650 --> 00:12:30,000
+So two, alone, is also sufficient by itself.
+
+242
+00:12:30,000 --> 00:12:32,440
+So the answer is, what is that, C?
+
+243
+00:12:32,440 --> 00:12:37,040
+Both statements-- no D, each statement, alone, is sufficient.
+
+244
+00:12:37,340 --> 00:12:39,020
+See you in the next video.

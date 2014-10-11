@@ -1,0 +1,903 @@
+1
+00:00:00,060 --> 00:00:05,010
+We're on problem 198.
+
+2
+00:00:05,010 --> 00:00:16,460
+If 1/2 plus 1/3, plus 1/4 is equal to 13/x,
+
+3
+00:00:16,660 --> 00:00:19,860
+which of the following must be an integer?
+
+4
+00:00:19,860 --> 00:00:21,040
+Fascinating.
+
+5
+00:00:21,040 --> 00:00:22,780
+So let's see what they're saying.
+
+6
+00:00:22,780 --> 00:00:24,690
+I don't know. I'm tempted to just work through this.
+
+7
+00:00:24,690 --> 00:00:26,940
+So if I get a common denominator here,
+
+8
+00:00:26,940 --> 00:00:28,620
+the common denominator is going to be 12.
+
+9
+00:00:28,620 --> 00:00:33,530
+1/2 is 6/12 plus 4/12, plus 3/12.
+
+10
+00:00:33,530 --> 00:00:38,040
+6 plus 4, plus 3, is 13. So, that equals 13/12.
+
+11
+00:00:38,340 --> 00:00:41,000
+So that tell us that x is equal to 13.
+
+12
+00:00:41,000 --> 00:00:41,660
+I'm sorry.
+
+13
+00:00:41,660 --> 00:00:44,090
+That tells us that x is equal to 12.
+
+14
+00:00:44,990 --> 00:00:46,240
+It's the denominator.
+
+15
+00:00:46,740 --> 00:00:48,450
+OK, so they give us a couple of choices.
+
+16
+00:00:48,440 --> 00:00:51,010
+Choice one, x/8.
+
+17
+00:00:51,010 --> 00:00:52,050
+Is that an integer?
+
+18
+00:00:52,050 --> 00:00:54,010
+No, 12 divided by 8 is not an integer.
+
+19
+00:00:54,010 --> 00:00:55,030
+It's 1 and 1/2.
+
+20
+00:00:55,030 --> 00:00:59,000
+Choice two, x divided by 12.
+
+21
+00:00:59,000 --> 00:01:00,010
+Is that an integer?
+
+22
+00:01:00,010 --> 00:01:00,990
+Yeah, sure.
+
+23
+00:01:00,990 --> 00:01:02,620
+I mean 12 divided by 12 is equal to 1.
+
+24
+00:01:02,620 --> 00:01:03,620
+So, that works.
+
+25
+00:01:03,820 --> 00:01:07,300
+Choice three, x divided by 24.
+
+26
+00:01:07,300 --> 00:01:08,770
+No, x is 12.
+
+27
+00:01:08,770 --> 00:01:10,720
+So, x divided by 24 is 1/2.
+
+28
+00:01:10,720 --> 00:01:15,060
+So, two only is the answer, and that is choice B.
+
+29
+00:01:15,060 --> 00:01:18,540
+Problem 199.
+
+30
+00:01:21,540 --> 00:01:25,050
+And they have drawn a graph, which I will draw.
+
+31
+00:01:25,050 --> 00:01:28,610
+So that's a y-axis.
+
+32
+00:01:28,610 --> 00:01:31,020
+And there's an x-axis.
+
+33
+00:01:31,020 --> 00:01:33,070
+And that's y.
+
+34
+00:01:33,070 --> 00:01:36,850
+That is x.
+
+35
+00:01:36,850 --> 00:01:38,880
+See, in the rectangular coordinate system above, the line,
+
+36
+00:01:39,100 --> 00:01:45,100
+y equals x is the perpendicular bisector of segment AB,
+
+37
+00:01:45,100 --> 00:01:45,670
+not shown.
+
+38
+00:01:45,670 --> 00:01:49,080
+OK, so let me draw this y equals x graph.
+
+39
+00:01:49,380 --> 00:01:51,040
+Start there.
+
+40
+00:01:51,540 --> 00:01:51,860
+Nope.
+
+41
+00:01:51,860 --> 00:01:54,080
+I thought I was using the line tool, but I'm not.
+
+42
+00:01:54,080 --> 00:01:56,090
+Let me use the line tool.
+
+43
+00:01:56,890 --> 00:02:01,000
+That's the y equals x graph.
+
+44
+00:02:01,300 --> 00:02:02,980
+y is equal to x.
+
+45
+00:02:02,980 --> 00:02:04,410
+And they draw point A.
+
+46
+00:02:05,210 --> 00:02:06,150
+The place they drew it,
+
+47
+00:02:06,150 --> 00:02:09,640
+it looks like it's roughly at the point 2, 3.
+
+48
+00:02:09,640 --> 00:02:11,050
+I don't know if that's going to become relevant.
+
+49
+00:02:11,050 --> 00:02:15,050
+2, 1, 2, 3.
+
+50
+00:02:15,050 --> 00:02:18,080
+So A looks like it's at the point 2,3.
+
+51
+00:02:18,080 --> 00:02:22,080
+I don't know if we can assume that.
+
+52
+00:02:22,980 --> 00:02:26,430
+The line, y equals x, is a perpendicular bisector of AB,
+
+53
+00:02:26,430 --> 00:02:27,250
+and they don't show us B.
+
+54
+00:02:27,250 --> 00:02:33,010
+And the x-axis is the perpendicular bisector of BC.
+
+55
+00:02:33,010 --> 00:02:34,840
+All right. Not shown.
+
+56
+00:02:34,840 --> 00:02:37,130
+If the coordinates of point A are 2 comma 3--
+
+57
+00:02:37,130 --> 00:02:41,350
+OK, we were right; A is 2 comma 3--
+
+58
+00:02:41,350 --> 00:02:45,030
+what are the coordinates of point C?
+
+59
+00:02:45,030 --> 00:02:47,900
+OK, perpendicular bisector means there's some line
+
+60
+00:02:47,900 --> 00:02:51,210
+that's exactly perpendicular to this line,
+
+61
+00:02:51,420 --> 00:02:53,940
+where it splits it in half. Right?
+
+62
+00:02:53,940 --> 00:02:57,560
+So if you think about it, point A is at 2, 3.
+
+63
+00:02:57,560 --> 00:03:01,250
+So where would B have to be in order for the line between A
+
+64
+00:03:01,250 --> 00:03:03,160
+and B to be perpendicular to this line,
+
+65
+00:03:03,160 --> 00:03:05,050
+and to be split directly in half?
+
+66
+00:03:05,450 --> 00:03:07,110
+Well, it would be at the point--
+
+67
+00:03:07,110 --> 00:03:08,280
+I mean, you could just eyeball it--
+
+68
+00:03:08,280 --> 00:03:10,100
+it'd be at the point 3 comma 2.
+
+69
+00:03:12,010 --> 00:03:16,200
+If we're at the point 3 comma 2, there's a lot of, I guess,
+
+70
+00:03:16,200 --> 00:03:17,730
+intuitive reasons why you could think that
+
+71
+00:03:17,730 --> 00:03:19,860
+this would be the perpendicular bisector.
+
+72
+00:03:21,250 --> 00:03:24,010
+We know y equals x is a perpendicular bisector.
+
+73
+00:03:24,010 --> 00:03:27,010
+The first is, you can see that the slope of this line--
+
+74
+00:03:27,010 --> 00:03:28,190
+you could calculate it if you want--
+
+75
+00:03:28,190 --> 00:03:30,030
+the slope of this line is negative 1.
+
+76
+00:03:30,030 --> 00:03:33,120
+And I don't know if you remember in calculus class,
+
+77
+00:03:33,120 --> 00:03:34,550
+but if you have the slope of one line--
+
+78
+00:03:34,550 --> 00:03:36,380
+so the slope of this line is 1--
+
+79
+00:03:36,780 --> 00:03:38,850
+the slope of a perpendicular line
+
+80
+00:03:38,850 --> 00:03:40,500
+will be the negative inverse of this slope.
+
+81
+00:03:40,500 --> 00:03:42,620
+That's something that, hopefully, you learned in calculus--
+
+82
+00:03:42,620 --> 00:03:44,440
+oh, in algebra a long time ago.
+
+83
+00:03:44,640 --> 00:03:47,250
+So, the negative inverse of 1 is negative 1.
+
+84
+00:03:47,250 --> 00:03:50,440
+So this line has a slope of negative 1.
+
+85
+00:03:50,440 --> 00:03:52,250
+And you could make a bunch of arguments
+
+86
+00:03:52,250 --> 00:03:54,060
+for why it's equidistant.
+
+87
+00:03:54,560 --> 00:03:56,690
+Both of these points are on the same line,
+
+88
+00:03:56,690 --> 00:03:59,040
+and they're equidistant from the point 2 comma 2.
+
+89
+00:03:59,340 --> 00:04:01,800
+So that's why, you know, that it's the bisector,
+
+90
+00:04:01,800 --> 00:04:03,710
+that this distance is equal to this distance.
+
+91
+00:04:03,910 --> 00:04:05,790
+And, frankly, on the GMAT, you're doing it fast.
+
+92
+00:04:05,790 --> 00:04:07,580
+You don't have to do a rigorous proof.
+
+93
+00:04:07,580 --> 00:04:08,320
+You can eyeball it.
+
+94
+00:04:08,320 --> 00:04:09,770
+You could say, oh, you know, those are going to be equal.
+
+95
+00:04:09,770 --> 00:04:10,960
+I'm just going to take the mirror image
+
+96
+00:04:10,960 --> 00:04:11,810
+and go on the other side.
+
+97
+00:04:11,810 --> 00:04:14,000
+So this is point B.
+
+98
+00:04:14,000 --> 00:04:19,300
+And they tell us that the x-axis is a perpendicular
+
+99
+00:04:19,300 --> 00:04:21,590
+bisector of segment BC.
+
+100
+00:04:21,590 --> 00:04:27,400
+OK, so x is going to be perpendicular to this new line.
+
+101
+00:04:27,400 --> 00:04:29,550
+So this new line has to be parallel to the y-axis.
+
+102
+00:04:29,740 --> 00:04:32,010
+So this new line is going to go like that.
+
+103
+00:04:32,010 --> 00:04:34,930
+And whatever the distance is between B and the x-axis
+
+104
+00:04:34,930 --> 00:04:38,080
+has to be the distance between x-axis and C.
+
+105
+00:04:38,380 --> 00:04:41,900
+So B is two above the x-axis,
+
+106
+00:04:41,900 --> 00:04:44,250
+so C is going to be two below the x-axis.
+
+107
+00:04:44,250 --> 00:04:46,030
+So that's where C is.
+
+108
+00:04:46,030 --> 00:04:49,460
+And x, at that point, is equal to 3.
+
+109
+00:04:49,460 --> 00:04:53,090
+And so this y would be equal to negative 2.
+
+110
+00:04:53,790 --> 00:04:55,460
+So what are the coordinates of point C?
+
+111
+00:04:55,460 --> 00:04:56,390
+3, negative 2.
+
+112
+00:04:56,790 --> 00:04:59,040
+And that is choice D.
+
+113
+00:04:59,040 --> 00:05:00,890
+Interesting problem.
+
+114
+00:05:00,890 --> 00:05:07,010
+Problem 200.
+
+115
+00:05:07,010 --> 00:05:09,930
+A store currently charges the same price
+
+116
+00:05:09,930 --> 00:05:11,810
+for each towel that it sells.
+
+117
+00:05:11,820 --> 00:05:17,050
+If the current price of each towel were to increase by $1,
+
+118
+00:05:17,050 --> 00:05:23,340
+10 fewer of the towels could be bought for $120,
+
+119
+00:05:23,340 --> 00:05:24,980
+excluding sales tax.
+
+120
+00:05:35,360 --> 00:05:40,050
+What is the current price of each towel?
+
+121
+00:05:40,750 --> 00:05:44,040
+So let's say the current price of each towel.
+
+122
+00:05:44,440 --> 00:05:46,540
+So if we take 120
+
+123
+00:05:46,540 --> 00:05:49,530
+and we divide it by the current price of each towel,
+
+124
+00:05:49,730 --> 00:05:53,090
+we could buy, I don't know, n towels.
+
+125
+00:05:53,390 --> 00:05:56,670
+Now, they're saying that if we had $120,
+
+126
+00:05:56,970 --> 00:06:00,190
+and if we were to increase the price by $1--
+
+127
+00:06:00,200 --> 00:06:03,820
+so now the new price is p plus 1;
+
+128
+00:06:03,820 --> 00:06:06,170
+now I can't buy n towels anymore--
+
+129
+00:06:06,170 --> 00:06:08,570
+they're saying I can only buy 10 fewer towels.
+
+130
+00:06:08,570 --> 00:06:11,830
+So I can only buy n minus 10 towels.
+
+131
+00:06:11,830 --> 00:06:14,050
+Now we have two equations and two unknowns.
+
+132
+00:06:14,750 --> 00:06:16,540
+Well, they're not linear equations, but I think we
+
+133
+00:06:16,540 --> 00:06:19,010
+should be able to solve them one way or the other.
+
+134
+00:06:19,010 --> 00:06:25,030
+So here we get p times n is equal to 120.
+
+135
+00:06:25,030 --> 00:06:27,710
+And here, let's see, we can multiply--
+
+136
+00:06:27,720 --> 00:06:34,600
+we have 120 is equal to p plus 1, times n minus 10.
+
+137
+00:06:34,600 --> 00:06:51,050
+So that's equal to p times n, minus 10p, plus n, minus 10.
+
+138
+00:06:51,350 --> 00:06:53,720
+And so both of these are equal to 120,
+
+139
+00:06:53,720 --> 00:06:55,600
+so we could set them equal to each other. Right?
+
+140
+00:06:55,600 --> 00:06:57,010
+Both of these are equal to 120.
+
+141
+00:06:57,010 --> 00:06:59,080
+So we could use both of these equations.
+
+142
+00:06:59,080 --> 00:07:09,660
+Say pn is equal to pn minus 10p, plus n, minus 10.
+
+143
+00:07:09,660 --> 00:07:11,080
+So let's see if we can make any headway here.
+
+144
+00:07:16,010 --> 00:07:18,530
+I could subtract pn from both sides.
+
+145
+00:07:18,530 --> 00:07:26,010
+So I get 0 is equal to minus 10p, plus n, minus 10.
+
+146
+00:07:26,010 --> 00:07:29,200
+And let's see, I could add 10p to both sides,
+
+147
+00:07:29,200 --> 00:07:38,000
+and I get 10p is equal to n minus 10.
+
+148
+00:07:38,000 --> 00:07:41,020
+Well, what's n?
+
+149
+00:07:41,320 --> 00:07:43,020
+Actually, I shouldn't have substituted like this.
+
+150
+00:07:43,020 --> 00:07:44,500
+I'm kind of doing it a little messily.
+
+151
+00:07:44,500 --> 00:07:45,810
+But we can do another substitution.
+
+152
+00:07:45,810 --> 00:07:51,080
+n is equal to 120/p, so that should help us.
+
+153
+00:07:51,580 --> 00:07:53,700
+The real way I should have done it is--
+
+154
+00:07:53,700 --> 00:07:55,990
+well, actually, no, this is I think the easiest way to do it.
+
+155
+00:07:55,990 --> 00:07:57,010
+10p.
+
+156
+00:07:57,010 --> 00:07:59,030
+n is 120/p.
+
+157
+00:07:59,030 --> 00:08:01,780
+A lot of times you just have to go forth with the algebra
+
+158
+00:08:01,780 --> 00:08:02,810
+and see what happens.
+
+159
+00:08:02,810 --> 00:08:05,010
+Minus 10.
+
+160
+00:08:05,010 --> 00:08:07,560
+And let's multiply both sides of the equation by p.
+
+161
+00:08:07,570 --> 00:08:09,770
+So you get 10 is equal--
+
+162
+00:08:09,780 --> 00:08:17,540
+sorry, 10p squared is equal to 120 minus 10p.
+
+163
+00:08:17,840 --> 00:08:19,990
+Let's divide both sides by 10 just to get rid of them.
+
+164
+00:08:19,990 --> 00:08:24,080
+So you get p squared is equal to 12, minus p.
+
+165
+00:08:24,680 --> 00:08:26,940
+Let's take these on to the left-hand side.
+
+166
+00:08:26,940 --> 00:08:32,030
+So you get p squared plus p, minus 12, is equal to 0.
+
+167
+00:08:32,030 --> 00:08:33,910
+We have a quadratic.
+
+168
+00:08:33,910 --> 00:08:34,800
+We can just factor it.
+
+169
+00:08:34,800 --> 00:08:41,020
+That is p plus 4, times p minus 3 is equal to 0.
+
+170
+00:08:41,320 --> 00:08:44,020
+What two numbers, when you add them, equal plus 1?
+
+171
+00:08:44,390 --> 00:08:45,980
+The coefficient there.
+
+172
+00:08:45,980 --> 00:08:48,000
+When you multiply them they equal negative 12.
+
+173
+00:08:48,000 --> 00:08:50,010
+That's just practice you got in algebra doing that.
+
+174
+00:08:50,010 --> 00:08:51,680
+So that's p plus 4, times p, minus 3.
+
+175
+00:08:51,680 --> 00:08:57,000
+So p could be minus 4, or p could be equal to 3.
+
+176
+00:08:57,000 --> 00:08:58,410
+And p can't be might minus 4
+
+177
+00:08:58,410 --> 00:08:59,970
+unless he was giving away the towels,
+
+178
+00:08:59,970 --> 00:09:01,690
+he was paying people to take the towels,
+
+179
+00:09:01,690 --> 00:09:02,820
+which isn't the case.
+
+180
+00:09:02,820 --> 00:09:04,980
+We're assuming that price is positive.
+
+181
+00:09:04,980 --> 00:09:07,550
+So the price had to be $3, which, luckily enough,
+
+182
+00:09:07,550 --> 00:09:09,920
+after doing all that algebra, is one of the choices.
+
+183
+00:09:09,990 --> 00:09:12,030
+Choice C.
+
+184
+00:09:12,030 --> 00:09:14,020
+Next question.
+
+185
+00:09:14,020 --> 00:09:15,070
+201.
+
+186
+00:09:15,070 --> 00:09:18,010
+I think I have time to do this one.
+
+187
+00:09:18,010 --> 00:09:20,450
+201.
+
+188
+00:09:20,450 --> 00:09:24,750
+If the sum of n consecutive integers is 0 --
+
+189
+00:09:33,630 --> 00:09:35,370
+this is my ad hoc notation--
+
+190
+00:09:35,770 --> 00:09:38,590
+which of the following must be true?
+
+191
+00:09:38,790 --> 00:09:41,980
+n consecutive integers is 0.
+
+192
+00:09:41,980 --> 00:09:44,920
+n must be an even number.
+
+193
+00:09:50,530 --> 00:09:52,070
+So let's think a lot about, like,
+
+194
+00:09:52,070 --> 00:09:54,870
+our even and odd type of talk.
+
+195
+00:09:54,990 --> 00:10:00,870
+So we know that an even plus an even is even.
+
+196
+00:10:00,970 --> 00:10:05,030
+And we know that an odd plus an odd is also even.
+
+197
+00:10:05,030 --> 00:10:06,900
+And you could prove it to yourself.
+
+198
+00:10:06,900 --> 00:10:07,790
+You could try a bunch of numbers.
+
+199
+00:10:07,790 --> 00:10:10,130
+Or if you just write an odd as 2k plus 1,
+
+200
+00:10:10,130 --> 00:10:13,990
+and you add it to another 2m plus 1, 2k--
+
+201
+00:10:13,990 --> 00:10:17,650
+that becomes 2 times k, plus m, plus 2.
+
+202
+00:10:17,650 --> 00:10:18,950
+So, that's an even number.
+
+203
+00:10:19,000 --> 00:10:20,040
+It's divisible by 2.
+
+204
+00:10:20,340 --> 00:10:22,360
+So an odd plus an odd is even.
+
+205
+00:10:22,360 --> 00:10:25,700
+And so the only way you're going to get an odd number is
+
+206
+00:10:25,700 --> 00:10:30,000
+if you have an even plus an odd.
+
+207
+00:10:30,000 --> 00:10:33,760
+Now, the only way you're going to have an even plus an odd--
+
+208
+00:10:33,760 --> 00:10:37,020
+so we're summing n consecutive numbers.
+
+209
+00:10:37,320 --> 00:10:41,760
+So, I don't know, let's call it number 1, plus number 2,
+
+210
+00:10:41,760 --> 00:10:42,890
+plus number 3.
+
+211
+00:10:42,890 --> 00:10:44,620
+Let's think about it a couple of different ways.
+
+212
+00:10:46,030 --> 00:10:50,730
+If this number is odd, then this number is obviously even,
+
+213
+00:10:50,730 --> 00:10:53,030
+and then this number is odd.
+
+214
+00:10:53,530 --> 00:11:00,720
+Now, if we're taking the sum of an even number, if n is even,
+
+215
+00:11:00,730 --> 00:11:04,430
+we're going to get the same number of evens and odds.
+
+216
+00:11:07,310 --> 00:11:10,000
+So n could be 2.
+
+217
+00:11:10,000 --> 00:11:12,750
+If n could be 2, we're going to have one even and one odd
+
+218
+00:11:12,750 --> 00:11:13,700
+no matter what, right?
+
+219
+00:11:13,700 --> 00:11:14,830
+This could be odd. This could be even.
+
+220
+00:11:14,830 --> 00:11:16,390
+Or this could be even and this could be odd.
+
+221
+00:11:17,000 --> 00:11:20,660
+And if n is 2, which is an even number, we can very easily--
+
+222
+00:11:20,660 --> 00:11:23,370
+you know an odd plus an even is an odd number.
+
+223
+00:11:23,380 --> 00:11:31,020
+So, they say if the sum of n consecutive integers is 0--
+
+224
+00:11:32,870 --> 00:11:33,470
+oh, you know what?
+
+225
+00:11:33,470 --> 00:11:35,360
+I completely missed that point.
+
+226
+00:11:35,360 --> 00:11:37,080
+Let me continue this in the next video.

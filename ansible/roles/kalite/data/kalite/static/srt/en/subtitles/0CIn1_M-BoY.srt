@@ -1,0 +1,771 @@
+1
+00:00:00,020 --> 00:00:02,560
+The home stretch, we're on problem 18.
+
+2
+00:00:02,560 --> 00:00:05,550
+And this diagram actually looks like something that
+
+3
+00:00:05,550 --> 00:00:09,040
+this little tool I'm using is well-suited to draw.
+
+4
+00:00:09,040 --> 00:00:12,180
+Let me try-- I'll draw the one in the back first,
+
+5
+00:00:12,190 --> 00:00:16,040
+so I can do different colors and everything.
+
+6
+00:00:16,040 --> 00:00:21,130
+So I'll do the one in the back in yellow,
+
+7
+00:00:21,140 --> 00:00:23,000
+and it looks something like this.
+
+8
+00:00:23,000 --> 00:00:28,010
+Goes like this, then it switches over like that.
+
+9
+00:00:28,010 --> 00:00:31,530
+And then I'll draw the next one, this orange color,
+
+10
+00:00:31,540 --> 00:00:33,210
+and it looks something--
+
+11
+00:00:33,210 --> 00:00:36,020
+no, I'll do it in a more drastic color.
+
+12
+00:00:36,020 --> 00:00:37,260
+So it does something like this.
+
+13
+00:00:37,260 --> 00:00:41,180
+It goes like this, crosses over, dips down,
+
+14
+00:00:41,180 --> 00:00:43,070
+then it goes over again.
+
+15
+00:00:43,070 --> 00:00:48,340
+And then finally, this last one,
+
+16
+00:00:48,340 --> 00:00:51,050
+and it looks something like this.
+
+17
+00:00:51,050 --> 00:00:55,050
+Crosses over and it goes like that, very pretty.
+
+18
+00:00:55,050 --> 00:01:00,090
+Now let me switch to a smaller-- OK.
+
+19
+00:01:00,090 --> 00:01:03,000
+Why don't we do white, I never write in white.
+
+20
+00:01:03,000 --> 00:01:06,090
+In the figure above--so they say this is the start.
+
+21
+00:01:06,090 --> 00:01:11,430
+And this is step 1.
+
+22
+00:01:11,860 --> 00:01:14,670
+This is step 2.
+
+23
+00:01:14,670 --> 00:01:15,060
+OK, what is this?
+
+24
+00:01:15,060 --> 00:01:18,060
+In the figure above, three wires are braided.
+
+25
+00:01:18,060 --> 00:01:21,300
+That is, by starting in the order A, B, C--
+
+26
+00:01:22,300 --> 00:01:30,330
+OK, so this is A, B, C-- and then the order changes to B
+
+27
+00:01:30,330 --> 00:01:33,760
+right, because the yellow line is B-- A, C.
+
+28
+00:01:33,770 --> 00:01:37,670
+And then we get B, C, A. Right?
+
+29
+00:01:37,670 --> 00:01:40,450
+There's just the order of the strings, left to right.
+
+30
+00:01:40,450 --> 00:01:43,030
+Or the braids, or the wires.
+
+31
+00:01:43,030 --> 00:01:44,050
+OK.
+
+32
+00:01:44,050 --> 00:01:45,950
+That is start with the order A, B, C,
+
+33
+00:01:45,950 --> 00:01:48,560
+the outer left wire is brought over wire B, right?
+
+34
+00:01:48,560 --> 00:01:49,910
+This is brought over wire B,
+
+35
+00:01:49,910 --> 00:01:53,360
+to the middle position forming the order shown in step 1.
+
+36
+00:01:53,360 --> 00:01:55,940
+Than the outer right wire C, this one,
+
+37
+00:01:55,940 --> 00:01:59,790
+is brought to the new middle position shown in step 2
+
+38
+00:01:59,790 --> 00:02:00,270
+and so on.
+
+39
+00:02:00,270 --> 00:02:03,600
+Alternately bringing each new left and each new right
+
+40
+00:02:03,600 --> 00:02:04,070
+wire to the middle.
+
+41
+00:02:04,070 --> 00:02:08,730
+At what numbered step does the braid first
+
+42
+00:02:08,730 --> 00:02:13,000
+repeat the original order A, B, C?
+
+43
+00:02:13,000 --> 00:02:13,890
+So what you do is,
+
+44
+00:02:13,890 --> 00:02:17,290
+you first bring the left over the middle,
+
+45
+00:02:17,290 --> 00:02:18,560
+then you bring the right over the middle,
+
+46
+00:02:18,560 --> 00:02:19,760
+then you bring the left over the middle,
+
+47
+00:02:19,760 --> 00:02:22,030
+then you bring the right over the middle.
+
+48
+00:02:22,030 --> 00:02:24,740
+So at step 3, what do we have to do?
+
+49
+00:02:24,740 --> 00:02:27,070
+So step 1 we brought the left over the middle.
+
+50
+00:02:27,070 --> 00:02:29,380
+So we went from A, B, C.
+
+51
+00:02:29,380 --> 00:02:32,070
+You essentially switch the left and the middle.
+
+52
+00:02:32,070 --> 00:02:35,030
+And then step 2, you switch the right and the middle.
+
+53
+00:02:35,030 --> 00:02:39,040
+So step 3, we switch B and C again.
+
+54
+00:02:39,040 --> 00:02:41,270
+Because we're back on the left-hand side.
+
+55
+00:02:41,270 --> 00:02:44,090
+So you get C, B, A.
+
+56
+00:02:44,090 --> 00:02:45,830
+And then step 4,
+
+57
+00:02:45,830 --> 00:02:48,060
+you're going to switch to the right-hand side.
+
+58
+00:02:48,060 --> 00:02:52,010
+Step 3 we switched these two.
+
+59
+00:02:52,010 --> 00:02:54,040
+Now step 4, we're going to switch these two.
+
+60
+00:02:54,040 --> 00:02:57,090
+So you get C, A, B.
+
+61
+00:02:57,090 --> 00:03:02,000
+Then in step 5, we're back switched on this side.
+
+62
+00:03:02,000 --> 00:03:05,010
+So then you get A, C, B.
+
+63
+00:03:05,010 --> 00:03:06,110
+And then step 6,
+
+64
+00:03:06,110 --> 00:03:07,780
+you're going to switch to the right-hand side again.
+
+65
+00:03:07,780 --> 00:03:10,360
+So you get A, B, C.
+
+66
+00:03:10,360 --> 00:03:12,200
+So by step 6, we repeat.
+
+67
+00:03:12,200 --> 00:03:13,080
+So that's choice D.
+
+68
+00:03:13,080 --> 00:03:15,320
+The hard part here, as far as I'm concerned,
+
+69
+00:03:15,320 --> 00:03:18,000
+is just understanding the problem and their diagram.
+
+70
+00:03:18,000 --> 00:03:19,070
+And then just seeing the pattern that
+
+71
+00:03:19,070 --> 00:03:20,190
+you're just switching the letters.
+
+72
+00:03:20,190 --> 00:03:23,040
+First you switch the left and the middle letter.
+
+73
+00:03:23,040 --> 00:03:24,070
+Then you switch the right and the middle letter.
+
+74
+00:03:24,070 --> 00:03:26,400
+Then you switch the left and the middle letter.
+
+75
+00:03:26,400 --> 00:03:27,560
+Then you switch the right and the middle letter.
+
+76
+00:03:27,560 --> 00:03:29,080
+Until you get back to A, B, C.
+
+77
+00:03:29,080 --> 00:03:30,750
+Next problem.
+
+78
+00:03:32,090 --> 00:03:34,680
+White I don't think is colorful enough.
+
+79
+00:03:34,680 --> 00:03:36,060
+Let me do magenta.
+
+80
+00:03:36,060 --> 00:03:39,040
+19.
+
+81
+00:03:39,040 --> 00:03:42,030
+In a set of 11 different numbers-- they're different-
+
+82
+00:03:42,030 --> 00:03:44,990
+which of the following cannot affect the
+
+83
+00:03:44,990 --> 00:03:46,010
+value of the median?
+
+84
+00:03:49,030 --> 00:03:52,030
+So it's a set of 11 different numbers,
+
+85
+00:03:52,030 --> 00:03:56,020
+they're different, so let's say it's 1 through 11.
+
+86
+00:04:02,340 --> 00:04:05,030
+That's 11 different numbers.
+
+87
+00:04:05,030 --> 00:04:06,360
+And in this case, what's the median?
+
+88
+00:04:06,360 --> 00:04:07,560
+Well we have 5 on this side, 5--
+
+89
+00:04:07,560 --> 00:04:10,360
+the median is this, this is the middle number, right?
+
+90
+00:04:10,360 --> 00:04:12,000
+6 is the middle number.
+
+91
+00:04:12,000 --> 00:04:12,830
+Doubling each number--
+
+92
+00:04:12,830 --> 00:04:14,330
+well, if you double every number,
+
+93
+00:04:14,330 --> 00:04:17,260
+the median's going to become 12, so that's not right.
+
+94
+00:04:17,260 --> 00:04:19,240
+Increasing each number by 10-- once again,
+
+95
+00:04:19,240 --> 00:04:21,520
+if you increase all of these numbers by 10,
+
+96
+00:04:21,520 --> 00:04:23,320
+this number's going to be 16,
+
+97
+00:04:23,320 --> 00:04:25,030
+so you would've changed the median.
+
+98
+00:04:25,030 --> 00:04:30,000
+Increasing the smallest number only.
+
+99
+00:04:30,000 --> 00:04:33,460
+Well, what if you increase the smallest number to,
+
+100
+00:04:33,460 --> 00:04:35,040
+I don't know, 12?
+
+101
+00:04:35,040 --> 00:04:38,490
+So then this 12 would go all the way on the other side
+
+102
+00:04:38,490 --> 00:04:39,060
+right?
+
+103
+00:04:39,060 --> 00:04:41,200
+And then the median would move to 7
+
+104
+00:04:41,200 --> 00:04:43,970
+because you would have to have 5 below the median
+
+105
+00:04:43,970 --> 00:04:45,040
+and 5 above the median.
+
+106
+00:04:45,040 --> 00:04:46,890
+So you can increase that smallest number.
+
+107
+00:04:46,890 --> 00:04:48,990
+But if you increase it by a large enough amount,
+
+108
+00:04:48,990 --> 00:04:51,690
+it kind of goes into the greater than the median column
+
+109
+00:04:51,690 --> 00:04:54,570
+and then the median would have to shift to the right.
+
+110
+00:04:54,570 --> 00:04:57,990
+Try it out, write out the list from 2 to 12,
+
+111
+00:04:57,990 --> 00:05:00,040
+and then the median becomes 7.
+
+112
+00:05:00,040 --> 00:05:03,000
+OK, so we know that choice B is not right.
+
+113
+00:05:03,000 --> 00:05:06,120
+Choice C, increasing-- oh no, that was choice C--
+
+114
+00:05:06,130 --> 00:05:08,700
+choice D, decreasing the largest number only--
+
+115
+00:05:09,710 --> 00:05:11,430
+well, the same argument can apply.
+
+116
+00:05:11,430 --> 00:05:14,540
+We could take the 11 and decrease it down to,
+
+117
+00:05:14,550 --> 00:05:17,060
+I don't know, decrease it to 0.
+
+118
+00:05:17,060 --> 00:05:18,890
+You decrease it to 0, then that'll--
+
+119
+00:05:18,890 --> 00:05:21,310
+and you could list them all out, 0 through 10--
+
+120
+00:05:21,310 --> 00:05:23,800
+and then the median number will shift to 5,
+
+121
+00:05:23,800 --> 00:05:26,220
+so that will change it.
+
+122
+00:05:26,220 --> 00:05:29,030
+E, increasing the largest number only.
+
+123
+00:05:29,030 --> 00:05:29,670
+I can tell you
+
+124
+00:05:29,670 --> 00:05:32,170
+that's the answer from deductive reasoning,
+
+125
+00:05:32,170 --> 00:05:35,650
+but if we just take this 11 and we make it one billion
+
+126
+00:05:36,150 --> 00:05:39,570
+does that change the fact that they're five numbers
+
+127
+00:05:39,570 --> 00:05:41,880
+larger than 6 and five numbers less than 6?
+
+128
+00:05:41,880 --> 00:05:42,390
+Ignore the 0.
+
+129
+00:05:42,390 --> 00:05:44,050
+Five numbers less than 6?
+
+130
+00:05:44,050 --> 00:05:45,030
+No.
+
+131
+00:05:45,030 --> 00:05:47,010
+I can make it into a trillion.
+
+132
+00:05:47,010 --> 00:05:48,480
+I can change it to any number,
+
+133
+00:05:48,480 --> 00:05:51,400
+but the fact remains that I have the same amount
+
+134
+00:05:51,400 --> 00:05:54,030
+of numbers larger than 6 as I do below 6.
+
+135
+00:05:54,030 --> 00:05:57,560
+So choice E cannot affect the value of the median.
+
+136
+00:05:59,040 --> 00:06:01,010
+E.
+
+137
+00:06:01,010 --> 00:06:02,030
+Next problem.
+
+138
+00:06:06,000 --> 00:06:09,030
+OK, something for me to draw.
+
+139
+00:06:09,030 --> 00:06:11,050
+Let's see, they have a 1/4 circle,
+
+140
+00:06:11,050 --> 00:06:12,960
+so I'll just draw a big circle,
+
+141
+00:06:12,960 --> 00:06:15,050
+and I'll just focus on a 1/4 of it.
+
+142
+00:06:22,030 --> 00:06:24,080
+Close enough.
+
+143
+00:06:24,080 --> 00:06:27,070
+That looks like a 1/4 of a circle.
+
+144
+00:06:27,070 --> 00:06:30,060
+They say that-- oh, and there's a rectangle there too
+
+145
+00:06:30,060 --> 00:06:32,050
+fascinating.
+
+146
+00:06:32,050 --> 00:06:34,470
+So this rectangle in this 1/4 circle,
+
+147
+00:06:34,470 --> 00:06:37,090
+so this rectangle could look like this.
+
+148
+00:06:37,090 --> 00:06:41,060
+I know theirs looks taller, but I think this will do.
+
+149
+00:06:41,060 --> 00:06:43,360
+And then I think I'm almost done.
+
+150
+00:06:43,360 --> 00:06:47,050
+I think I'm there, I think I can.
+
+151
+00:06:47,050 --> 00:06:48,930
+And then they shade in some stuff,
+
+152
+00:06:48,930 --> 00:06:51,090
+so if they shaded it, I will shade it.
+
+153
+00:06:51,090 --> 00:06:54,020
+A suitably tasteful color.
+
+154
+00:06:57,030 --> 00:07:00,050
+OK, so I have shaded what they have shaded.
+
+155
+00:07:00,050 --> 00:07:02,020
+And now, what are they saying?
+
+156
+00:07:02,020 --> 00:07:15,070
+They're saying that this is R, C, T, B, S, A.
+
+157
+00:07:15,070 --> 00:07:20,000
+And then they tell us that is a 90 degree angle.
+
+158
+00:07:20,000 --> 00:07:22,130
+And then they tell us that this distance,
+
+159
+00:07:22,130 --> 00:07:25,190
+from here to here, from all the way to the top--
+
+160
+00:07:25,190 --> 00:07:29,060
+so it's essentially the radius of the circle-- is 6.
+
+161
+00:07:29,060 --> 00:07:31,000
+The radius of the circle is 6.
+
+162
+00:07:31,000 --> 00:07:32,110
+In the figure above,
+
+163
+00:07:32,120 --> 00:07:38,330
+arc SBT is 1/4 of a circle with center R and radius 6
+
+164
+00:07:38,330 --> 00:07:39,030
+Fair enough.
+
+165
+00:07:39,030 --> 00:07:45,390
+If the length plus the width of rectangle ABCR is 8--
+
+166
+00:07:45,390 --> 00:07:49,770
+so the length plus the width, so ABCR.
+
+167
+00:07:49,770 --> 00:07:52,010
+So this is the width, this is the length.
+
+168
+00:07:52,010 --> 00:07:57,030
+So L plus W is equal to 8.
+
+169
+00:07:57,030 --> 00:08:01,020
+What is the perimeter of the shaded region?
+
+170
+00:08:01,020 --> 00:08:02,090
+Fascinating.
+
+171
+00:08:02,090 --> 00:08:04,040
+Let's do it step by step.
+
+172
+00:08:04,040 --> 00:08:05,790
+First we can just figure out
+
+173
+00:08:05,790 --> 00:08:08,030
+what this part of the perimeter is.
+
+174
+00:08:08,030 --> 00:08:11,040
+And that's the easiest part, right?
+
+175
+00:08:11,040 --> 00:08:13,030
+Because what's the perimeter of the whole circle?
+
+176
+00:08:13,030 --> 00:08:15,040
+Well, it's the circumference of the whole circle.
+
+177
+00:08:15,040 --> 00:08:18,010
+Circumference is equal to 2 pi r.
+
+178
+00:08:18,010 --> 00:08:20,020
+This is the whole circle we're talking about.
+
+179
+00:08:20,020 --> 00:08:23,250
+So that's equal to 2 pi times 6,
+
+180
+00:08:23,250 --> 00:08:25,000
+so that's equal to 12 pi.
+
+181
+00:08:25,000 --> 00:08:26,370
+This is the circumference of the whole circle,
+
+182
+00:08:26,370 --> 00:08:28,990
+so the circumference of this arc, of this piece,
+
+183
+00:08:28,990 --> 00:08:30,900
+is going to be 1/4 of that,
+
+184
+00:08:30,900 --> 00:08:33,060
+because it's 1/4 of the whole circle.
+
+185
+00:08:33,060 --> 00:08:37,080
+So it's 1/4 of 12 pi, so that's 3 pi.
+
+186
+00:08:37,080 --> 00:08:40,460
+Now, what we need to be able to figure out is L and W
+
+187
+00:08:40,460 --> 00:08:42,350
+because if we can figure out L and W,
+
+188
+00:08:42,350 --> 00:08:47,360
+we can figure out everything else about this circle.
+
+189
+00:08:47,360 --> 00:08:47,950
+And actually,
+
+190
+00:08:47,950 --> 00:08:50,200
+I'm going to continue this problem in the next video,
+
+191
+00:08:50,200 --> 00:08:52,340
+because I think it might get a little involved,
+
+192
+00:08:52,340 --> 00:08:53,680
+and I don't want you to get too confused.
+
+193
+00:08:53,680 --> 00:08:55,010
+I'll see you in the next video.

@@ -1,0 +1,729 @@
+1
+00:00:00,000 --> 00:00:00,500
+   
+
+2
+00:00:00,500 --> 00:00:03,510
+Solve the system of equations
+by substitution.
+
+3
+00:00:03,510 --> 00:00:06,300
+Check your solution by graphing
+the equation.
+
+4
+00:00:06,300 --> 00:00:07,500
+Let's do it by substitution.
+
+5
+00:00:07,500 --> 00:00:10,890
+We know that y is equal to this
+thing over here, and we
+
+6
+00:00:10,890 --> 00:00:14,270
+also know that y is equal
+to this thing over here.
+
+7
+00:00:14,270 --> 00:00:17,270
+So they're going to intersect
+when they both equal the same
+
+8
+00:00:17,270 --> 00:00:20,410
+y, or when this thing is equal
+to this thing, or when
+
+9
+00:00:20,410 --> 00:00:29,540
+negative x squared is equal to
+2x squared plus 3x minus 6.
+
+10
+00:00:29,540 --> 00:00:32,915
+The x value, which these two are
+equal, is going to be the
+
+11
+00:00:32,915 --> 00:00:35,610
+x values where these y's are
+equal, so that's going to be
+
+12
+00:00:35,610 --> 00:00:37,480
+their point of intersection.
+
+13
+00:00:37,480 --> 00:00:39,900
+That will be an x and y
+pair that satisfies
+
+14
+00:00:39,900 --> 00:00:42,070
+both of these equations.
+
+15
+00:00:42,070 --> 00:00:43,600
+Let's solve for x here.
+
+16
+00:00:43,600 --> 00:00:46,270
+A good starting point-- let's
+just add x squared to both
+
+17
+00:00:46,270 --> 00:00:55,990
+sides, and we end up with
+0 is equal to 3x squared
+
+18
+00:00:55,990 --> 00:01:00,010
+plus 3x minus 6.
+
+19
+00:01:00,010 --> 00:01:02,520
+Then, just to simplify this on
+the right hand side, we could
+
+20
+00:01:02,520 --> 00:01:06,030
+divide both sides of the
+equation by 3-- we can divide
+
+21
+00:01:06,030 --> 00:01:11,150
+everything by 3-- and we're
+left with 0 is equal to x
+
+22
+00:01:11,150 --> 00:01:16,500
+squared plus x minus 2.
+
+23
+00:01:16,500 --> 00:01:18,810
+We could do the quadratic
+equation, or complete the
+
+24
+00:01:18,810 --> 00:01:22,840
+square, or all sorts of crazy
+things, but this is actually
+
+25
+00:01:22,840 --> 00:01:27,460
+very factorable-- 0 is equal
+to two numbers, which are 2
+
+26
+00:01:27,460 --> 00:01:28,590
+and negative 1.
+
+27
+00:01:28,590 --> 00:01:30,270
+When you multiply them, you get
+negative 2, and when you
+
+28
+00:01:30,270 --> 00:01:32,130
+add them, you get positive 1.
+
+29
+00:01:32,130 --> 00:01:37,500
+So this is x plus 2
+times x minus 1.
+
+30
+00:01:37,500 --> 00:01:42,430
+That tells us that x plus 2 is
+equal to 0, or x minus 1 could
+
+31
+00:01:42,430 --> 00:01:45,420
+be equal to 0.
+
+32
+00:01:45,420 --> 00:01:47,100
+Subtract 2 from both
+sides of this.
+
+33
+00:01:47,100 --> 00:01:49,210
+You could get x is equal
+to negative 2.
+
+34
+00:01:49,210 --> 00:01:53,890
+Or add 1 to both sides of
+this, x is equal to 1.
+
+35
+00:01:53,890 --> 00:01:58,290
+These are our two solutions-- x
+is equal to negative 2 or x
+
+36
+00:01:58,290 --> 00:02:00,350
+is equal to 1.
+
+37
+00:02:00,350 --> 00:02:01,540
+Let's verify it.
+
+38
+00:02:01,540 --> 00:02:04,750
+When I put x is equal to
+negative 2-- let's do it over
+
+39
+00:02:04,750 --> 00:02:07,670
+here-- what do I get?
+
+40
+00:02:07,670 --> 00:02:10,020
+Negative 2 squared
+is positive 4.
+
+41
+00:02:10,020 --> 00:02:13,160
+And then you put a negative
+there, so it's negative 4--
+
+42
+00:02:13,160 --> 00:02:18,520
+the point here is negative
+2, and then negative 4.
+
+43
+00:02:18,520 --> 00:02:20,540
+That's what happens when you
+put negative 2 there.
+
+44
+00:02:20,540 --> 00:02:22,060
+And then what happens
+when I put 1?
+
+45
+00:02:22,060 --> 00:02:24,370
+1 squared is 1, and then if you
+put a negative there, it's
+
+46
+00:02:24,370 --> 00:02:25,110
+negative 1.
+
+47
+00:02:25,110 --> 00:02:26,630
+So it's 1, negative 1.
+
+48
+00:02:26,630 --> 00:02:29,200
+And so these are both points on
+this equation right here,
+
+49
+00:02:29,200 --> 00:02:30,600
+on this function.
+
+50
+00:02:30,600 --> 00:02:32,610
+If you look at this one over
+here, if you put negative 2
+
+51
+00:02:32,610 --> 00:02:37,080
+over here-- 2 times negative
+2 squared.
+
+52
+00:02:37,080 --> 00:02:38,660
+Negative 2 squared
+is positive 4.
+
+53
+00:02:38,660 --> 00:02:41,140
+2 times positive 4 is 8.
+
+54
+00:02:41,140 --> 00:02:44,535
+3 times negative 2 is negative
+6, so 8 minus 6.
+
+55
+00:02:44,535 --> 00:02:47,470
+   
+
+56
+00:02:47,470 --> 00:02:52,010
+8 minus 6 is 2, and 2 minus
+6 is equal to negative 4.
+
+57
+00:02:52,010 --> 00:02:57,910
+The point negative 2, negative
+4 is on this function.
+
+58
+00:02:57,910 --> 00:02:59,460
+They both share that
+point in common, so
+
+59
+00:02:59,460 --> 00:03:00,980
+they intersect there.
+
+60
+00:03:00,980 --> 00:03:07,400
+If I put 1 into this, I
+get 2 plus 3 minus 6.
+
+61
+00:03:07,400 --> 00:03:12,280
+2 plus 3 is 5, minus 6, when x
+is 1, which is negative 1.
+
+62
+00:03:12,280 --> 00:03:16,600
+The point 1, negative 1 is
+also on this top graph.
+
+63
+00:03:16,600 --> 00:03:19,670
+We can plot these points:
+negative 2 comma negative 4.
+
+64
+00:03:19,670 --> 00:03:23,745
+Negative 2-- 1, 2, 3,
+4-- is right there.
+
+65
+00:03:23,745 --> 00:03:26,010
+That's going to be a point
+of intersection.
+
+66
+00:03:26,010 --> 00:03:27,770
+Then we have the point
+1, negative 1.
+
+67
+00:03:27,770 --> 00:03:33,330
+1, negative 1 is also going
+to be a point of
+
+68
+00:03:33,330 --> 00:03:35,160
+intersection there.
+
+69
+00:03:35,160 --> 00:03:37,550
+Let's graph this second one and
+just verify-- they say,
+
+70
+00:03:37,550 --> 00:03:41,530
+check your solution by graphing
+the equation.
+
+71
+00:03:41,530 --> 00:03:42,530
+Let's graph the first one.
+
+72
+00:03:42,530 --> 00:03:44,770
+This is pretty easy to
+graph-- y is equal
+
+73
+00:03:44,770 --> 00:03:46,430
+to negative x squared.
+
+74
+00:03:46,430 --> 00:03:49,140
+It's going to intersect
+the point 0, 0.
+
+75
+00:03:49,140 --> 00:03:50,910
+It's going to be a
+downward slope,
+
+76
+00:03:50,910 --> 00:03:52,730
+downward opening parabola.
+
+77
+00:03:52,730 --> 00:03:57,390
+   
+
+78
+00:03:57,390 --> 00:04:00,390
+When x is positive or negative
+1, y is going to be negative
+
+79
+00:04:00,390 --> 00:04:03,660
+1, because you square them and
+then you take the negative.
+
+80
+00:04:03,660 --> 00:04:05,820
+When x is positive or negative
+2, y is going
+
+81
+00:04:05,820 --> 00:04:08,030
+to be negative 4.
+
+82
+00:04:08,030 --> 00:04:09,690
+So the graph will look
+something like this--
+
+83
+00:04:09,690 --> 00:04:11,720
+4, 5, 6, 7, 8, 9.
+
+84
+00:04:11,720 --> 00:04:16,800
+The graph will look something
+like that.
+
+85
+00:04:16,800 --> 00:04:19,700
+That is that equation
+right here.
+
+86
+00:04:19,700 --> 00:04:25,100
+This is going to be an upward
+opening parabola, and a quick
+
+87
+00:04:25,100 --> 00:04:28,920
+way-- we could do all of that
+completing the square, but if
+
+88
+00:04:28,920 --> 00:04:32,250
+you think about it, let's just
+apply the quadratic equation
+
+89
+00:04:32,250 --> 00:04:32,820
+right here.
+
+90
+00:04:32,820 --> 00:04:35,140
+I want to show you something,
+a quick way of where the
+
+91
+00:04:35,140 --> 00:04:37,120
+vertex formula comes
+from when you apply
+
+92
+00:04:37,120 --> 00:04:39,190
+the quadratic formula.
+
+93
+00:04:39,190 --> 00:04:41,900
+If you take this, and you wanted
+to find its zeros, you
+
+94
+00:04:41,900 --> 00:04:46,380
+would say x is equal to negative
+b-- which is negative
+
+95
+00:04:46,380 --> 00:04:52,250
+3-- plus or minus the square
+root of b squared-- which is
+
+96
+00:04:52,250 --> 00:04:55,530
+9-- minus 4ac.
+
+97
+00:04:55,530 --> 00:04:59,000
+Minus 4 times 2 times
+negative 6.
+
+98
+00:04:59,000 --> 00:05:01,510
+   
+
+99
+00:05:01,510 --> 00:05:07,780
+All of that over 2 times
+a, or 2 times 2.
+
+100
+00:05:07,780 --> 00:05:10,470
+   
+
+101
+00:05:10,470 --> 00:05:13,260
+Now, we can evaluate this and
+figure out the zeros of this,
+
+102
+00:05:13,260 --> 00:05:15,550
+but the real point why I wanted
+to show you this is
+
+103
+00:05:15,550 --> 00:05:17,780
+because we always have
+two solutions.
+
+104
+00:05:17,780 --> 00:05:19,570
+Let me actually write
+down the quadratic
+
+105
+00:05:19,570 --> 00:05:21,220
+formula here for you.
+
+106
+00:05:21,220 --> 00:05:24,110
+The quadratic formula is
+negative b plus or minus the
+
+107
+00:05:24,110 --> 00:05:30,150
+square root of b squared
+minus 4ac over 2a.
+
+108
+00:05:30,150 --> 00:05:34,050
+You always end up-- or if this
+is a positive number-- with
+
+109
+00:05:34,050 --> 00:05:37,360
+two solutions, and they're
+equal distant.
+
+110
+00:05:37,360 --> 00:05:41,990
+They're this far away, this far
+over 2a away from negative
+
+111
+00:05:41,990 --> 00:05:45,620
+b over 2a-- we could write this
+as negative b over 2a
+
+112
+00:05:45,620 --> 00:05:48,380
+plus or minus the square
+root of b squared
+
+113
+00:05:48,380 --> 00:05:52,210
+minus 4ac over 2a.
+
+114
+00:05:52,210 --> 00:05:55,430
+You have at most two solutions
+that are equal distant from
+
+115
+00:05:55,430 --> 00:05:57,380
+this x value right here.
+
+116
+00:05:57,380 --> 00:06:00,520
+We've seen in multiple videos:
+what is that point that is
+
+117
+00:06:00,520 --> 00:06:02,310
+equidistant from the
+two solutions,
+
+118
+00:06:02,310 --> 00:06:04,400
+that is right in between?
+
+119
+00:06:04,400 --> 00:06:07,170
+That's going to be the line of
+symmetry, or the x value of
+
+120
+00:06:07,170 --> 00:06:08,300
+the vertex.
+
+121
+00:06:08,300 --> 00:06:11,320
+This is where the x value of the
+vertex formula comes from:
+
+122
+00:06:11,320 --> 00:06:16,720
+x val of vertex is negative
+b over 2a.
+
+123
+00:06:16,720 --> 00:06:19,500
+If we wanted to find the vertex,
+the x value of this
+
+124
+00:06:19,500 --> 00:06:21,800
+guy right here, we just take
+negative b-- which is negative
+
+125
+00:06:21,800 --> 00:06:27,200
+3-- over 2 times a, 2
+times 2, which is 4.
+
+126
+00:06:27,200 --> 00:06:29,770
+So, x is equal to negative
+3/4 is the
+
+127
+00:06:29,770 --> 00:06:31,480
+vertex of this parabola.
+
+128
+00:06:31,480 --> 00:06:35,130
+And when x is equal to negative
+3/4, what is y?
+
+129
+00:06:35,130 --> 00:06:37,990
+We could actually-- that's a
+little bit more complicated
+
+130
+00:06:37,990 --> 00:06:41,090
+right here, but I'll
+just go through it.
+
+131
+00:06:41,090 --> 00:06:51,310
+It's going to be 2 times
+9 over 16 minus 9
+
+132
+00:06:51,310 --> 00:06:54,300
+over 4 minus 6.
+
+133
+00:06:54,300 --> 00:06:57,540
+Let me actually get the
+calculator out for this one.
+
+134
+00:06:57,540 --> 00:06:59,850
+It's going to be 18 over 60.
+
+135
+00:06:59,850 --> 00:07:01,240
+Let me just get the calculator
+out, because it will be
+
+136
+00:07:01,240 --> 00:07:03,130
+simpler, and I don't want
+to waste your time doing
+
+137
+00:07:03,130 --> 00:07:04,380
+arithmetic.
+
+138
+00:07:04,380 --> 00:07:06,020
+   
+
+139
+00:07:06,020 --> 00:07:23,530
+It's going to be 18 divided by
+16 minus 9 divided by 4 minus
+
+140
+00:07:23,530 --> 00:07:29,300
+6 is equal to negative 7.125.
+
+141
+00:07:29,300 --> 00:07:33,110
+This is equal to
+negative 7.125.
+
+142
+00:07:33,110 --> 00:07:36,220
+So the vertex occurs when x is
+negative 3/4-- when x is right
+
+143
+00:07:36,220 --> 00:07:42,190
+there-- and y is negative 7.
+
+144
+00:07:42,190 --> 00:07:50,170
+This is essentially 7 1/8, so
+1, 2, 3, 4, 5, 6, 7.125.
+
+145
+00:07:50,170 --> 00:07:52,980
+So it's a little over 7.
+
+146
+00:07:52,980 --> 00:07:58,240
+The vertex of this top graph
+is right over there.
+
+147
+00:07:58,240 --> 00:07:59,630
+It's symmetric around
+the vertex.
+
+148
+00:07:59,630 --> 00:08:02,250
+   
+
+149
+00:08:02,250 --> 00:08:05,610
+That is the line of symmetry,
+and so this top graph is going
+
+150
+00:08:05,610 --> 00:08:06,920
+to look something like this.
+
+151
+00:08:06,920 --> 00:08:11,150
+   
+
+152
+00:08:11,150 --> 00:08:13,100
+Just like that and we're done.
+
+153
+00:08:13,100 --> 00:08:16,160
+We've found our two points of
+intersection, right over there
+
+154
+00:08:16,160 --> 00:08:17,870
+and right over there, and
+when you graph it it
+
+155
+00:08:17,870 --> 00:08:20,490
+looks pretty good.
+
+156
+00:08:20,490 --> 00:08:20,933
+

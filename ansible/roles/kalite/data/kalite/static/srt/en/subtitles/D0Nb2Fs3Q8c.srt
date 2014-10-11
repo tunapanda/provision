@@ -1,0 +1,435 @@
+1
+00:00:00,362 --> 00:00:02,800
+What I want to do in this video is show you that "for" loops
+
+2
+00:00:02,800 --> 00:00:05,675
+aren't the only types of loops you would use,
+
+3
+00:00:05,675 --> 00:00:07,138
+although they probably are the most common.
+
+4
+00:00:07,138 --> 00:00:09,629
+You could also use something like a "while" loop,
+
+5
+00:00:09,752 --> 00:00:12,254
+and maybe the while loop might be more intuitive,
+
+6
+00:00:12,254 --> 00:00:14,530
+at least maybe in the Python context -- you can pick.
+
+7
+00:00:14,530 --> 00:00:16,113
+So I'm going to write the same program.
+
+8
+00:00:16,113 --> 00:00:18,546
+It's going to do the exact same thing, but instead of using
+
+9
+00:00:18,546 --> 00:00:21,100
+a "for" loop I'm going to use a "while" loop.
+
+10
+00:00:21,177 --> 00:00:23,067
+So I'm going to still start with the "'sum' equals zero",
+
+11
+00:00:23,113 --> 00:00:26,177
+but I'm also going to start with "'i' equals zero".
+
+12
+00:00:26,362 --> 00:00:30,372
+So the "while" loop isn't going to automatically define
+
+13
+00:00:30,372 --> 00:00:33,435
+what my "i" values are, and it's not going to automatically
+
+14
+00:00:33,435 --> 00:00:35,543
+change my "i" values or me.
+
+15
+00:00:35,543 --> 00:00:37,471
+I'm going to have to do that for myself,
+
+16
+00:00:37,471 --> 00:00:40,626
+and I want to do the exact same behavior.
+
+17
+00:00:40,703 --> 00:00:43,179
+I'm going to leave my old code down here
+
+18
+00:00:43,179 --> 00:00:45,049
+so you can compare it a little bit, but then I'll delete it
+
+19
+00:00:45,049 --> 00:00:47,533
+because I don't want the same thing to be run twice.
+
+20
+00:00:47,533 --> 00:00:49,412
+So I'm going to set "i" equal to zero,
+
+21
+00:00:49,612 --> 00:00:51,240
+and this is, in case you're curious,
+
+22
+00:00:51,240 --> 00:00:53,633
+the last time in the for loop "i" is only a valid variable inside the loop.
+
+23
+00:00:53,633 --> 00:00:56,216
+Now I'm defining it outside of the loop,
+
+24
+00:00:56,216 --> 00:00:58,253
+so it's actually a global variable.
+
+25
+00:00:58,253 --> 00:00:59,851
+I'm defining it at the highest level.
+
+26
+00:00:59,851 --> 00:01:01,603
+It can be used anywhere inside of the program.
+
+27
+00:01:01,849 --> 00:01:06,061
+And so, over here, let's define a "while" loop.
+
+28
+00:01:07,046 --> 00:01:10,473
+So I'm going to keep doing what's inside of the loop clause,
+
+29
+00:01:10,473 --> 00:01:13,741
+and I'm going to do it while "i" is less than 10.
+
+30
+00:01:13,741 --> 00:01:17,303
+Remember: we want to do it for "i" equals zero, one, two,
+
+31
+00:01:17,303 --> 00:01:20,550
+three, four, five, six, seven, eight, nine: everything up to,
+
+32
+00:01:20,550 --> 00:01:23,867
+but not including ten (zero through nine).
+
+33
+00:01:23,867 --> 00:01:27,191
+So while "i" is less than ten,
+
+34
+00:01:27,191 --> 00:01:29,143
+do what I'm going to put in this clause.
+
+35
+00:01:29,143 --> 00:01:33,089
+Once "i" is not less than ten, or essentially once "i" is equal to ten,
+
+36
+00:01:33,089 --> 00:01:34,101
+don't do it anymore.
+
+37
+00:01:34,101 --> 00:01:37,129
+So it's going to have this same behavior as this right over here,
+
+38
+00:01:37,129 --> 00:01:38,632
+and what I'm going to do is I'm going to say,
+
+39
+00:01:38,632 --> 00:01:42,848
+"'sum' is equal to 'sum' plus 'i'",
+
+40
+00:01:43,663 --> 00:01:45,604
+and then I'm going to print sum.
+
+41
+00:01:45,604 --> 00:01:49,200
+So this is the exact same logic that I had when I wrote the "for" loop,
+
+42
+00:01:49,200 --> 00:01:53,081
+but I'm going to have to add one more line here if I don't want this thing to run forever,
+
+43
+00:01:53,081 --> 00:01:55,165
+because right here in the "for" loop you remember:
+
+44
+00:01:55,165 --> 00:01:57,085
+every time we run this clause here,
+
+45
+00:01:57,085 --> 00:01:58,215
+as we get out of the clause,
+
+46
+00:01:58,215 --> 00:02:01,869
+it will assign "i" to the next element in this list here.
+
+47
+00:02:01,869 --> 00:02:04,668
+Over here, we haven't defined how "i" should change,
+
+48
+00:02:04,668 --> 00:02:08,925
+so what we have to do is: in every loop, we have to increase the value of "i".
+
+49
+00:02:08,925 --> 00:02:14,261
+So we could say "i" is equal to "'i' plus one".
+
+50
+00:02:14,261 --> 00:02:20,341
+I want you to really think about how both of these are equivalent things.
+
+51
+00:02:20,341 --> 00:02:24,010
+"i" started at zero before I even entered into this loop,
+
+52
+00:02:24,410 --> 00:02:28,094
+and then "sum" started at zero for either of these.
+
+53
+00:02:28,094 --> 00:02:29,950
+So you say "sum" is equal to sum plus "i".
+
+54
+00:02:29,950 --> 00:02:31,417
+Well, that's the same: "print 'sum'".
+
+55
+00:02:31,417 --> 00:02:35,067
+Now over here, I will then, once we go through this loop in the "for loop",
+
+56
+00:02:35,067 --> 00:02:38,661
+be assigned to the next element in this list,
+
+57
+00:02:38,661 --> 00:02:41,442
+which is "one". Over here there's nothing to say to do that,
+
+58
+00:02:41,442 --> 00:02:46,108
+so we're just going to say "i" is going to be the previous "i", which is zero, and add one to it.
+
+59
+00:02:46,108 --> 00:02:48,530
+These are equivalent because each of these elements in this list,
+
+60
+00:02:48,530 --> 00:02:50,644
+"the range of ten" the way we define it,
+
+61
+00:02:50,644 --> 00:02:52,348
+are just one more than the previous one.
+
+62
+00:02:52,348 --> 00:02:56,256
+So instead we could say "i" is going to be one more than it was before,
+
+63
+00:02:56,256 --> 00:03:01,434
+and so this should produce the exact same result.
+
+64
+00:03:01,434 --> 00:03:03,201
+Actually, if I don't want to get rid of this code,
+
+65
+00:03:03,201 --> 00:03:05,426
+if I want it there just for future reference, but I don't want
+
+66
+00:03:05,426 --> 00:03:10,000
+the Python interpreter to run it, I could comment them out,
+
+67
+00:03:10,000 --> 00:03:13,067
+and you comment things out by putting a little hash sign there.
+
+68
+00:03:13,067 --> 00:03:15,831
+So a hash sign there literally says,
+
+69
+00:03:15,831 --> 00:03:18,345
+"Hey, interpreter, ignore all of this stuff."
+
+70
+00:03:18,345 --> 00:03:22,449
+It could be useful if you have some code in there that you want to just not be interpreted for now,
+
+71
+00:03:22,449 --> 00:03:24,057
+and maybe you want to save it for later,
+
+72
+00:03:24,057 --> 00:03:27,501
+and it's also useful if you want to tell someone who's actually reading the code,
+
+73
+00:03:27,501 --> 00:03:29,867
+if you want to tell a human being whose reading the code,
+
+74
+00:03:29,867 --> 00:03:32,100
+what this code does.
+
+75
+00:03:32,100 --> 00:03:40,148
+So for example, you could write a little comment here that says,
+
+76
+00:03:40,148 --> 00:03:51,560
+"This while loop calculates the sum of zero through nine,"
+
+77
+00:03:51,560 --> 00:03:55,318
+and you'd say, "including nine."
+
+78
+00:03:55,471 --> 00:03:56,864
+So if someone were to come back later,
+
+79
+00:03:56,864 --> 00:03:59,015
+instead of having them figure out what this says,
+
+80
+00:03:59,015 --> 00:04:00,275
+they could read your comment and say,
+
+81
+00:04:00,275 --> 00:04:02,782
+"Okay, this part of the code right here calculates
+
+82
+00:04:02,782 --> 00:04:09,781
+the sum of zero to nine," and I could say, "and places it ..."
+
+83
+00:04:09,781 --> 00:04:11,148
+So when you put this hash tag,
+
+84
+00:04:11,148 --> 00:04:12,775
+it essentially comments out that line.
+
+85
+00:04:12,775 --> 00:04:15,527
+So if I want to go to another line I have put another hash tag there.
+
+86
+00:04:15,527 --> 00:04:21,533
+"... and places it in the variable 'sum'."
+
+87
+00:04:21,533 --> 00:04:24,058
+So then people know, "Woah, I know what it's doing,
+
+88
+00:04:24,058 --> 00:04:27,029
+and I know that when all is said and done,
+
+89
+00:04:27,029 --> 00:04:30,603
+the sum will be placed in this variable called 'sum'."
+
+90
+00:04:30,603 --> 00:04:32,254
+Anyway, let's run this program.
+
+91
+00:04:32,254 --> 00:04:33,446
+I want to show that it ignores these things.
+
+92
+00:04:33,446 --> 00:04:35,598
+If you wrote this text without a hash tag,
+
+93
+00:04:35,598 --> 00:04:37,457
+the computer, the interpreter, would say,
+
+94
+00:04:37,457 --> 00:04:39,522
+"What is all this? This isn't Python code,"
+
+95
+00:04:39,522 --> 00:04:40,600
+but this is useful for someone else reading,
+
+96
+00:04:40,600 --> 00:04:42,108
+and they'll also ignore this down here.
+
+97
+00:04:42,262 --> 00:04:44,820
+So let's...
+
+98
+00:04:45,097 --> 00:04:49,089
+   
+
+99
+00:04:49,099 --> 00:04:50,027
+...and then let's save it.
+
+100
+00:04:50,667 --> 00:04:52,525
+Let's save it and then let's run it.
+
+101
+00:04:52,525 --> 00:04:54,890
+It gives you the exact same results that we got before.
+
+102
+00:04:56,428 --> 00:04:59,074
+So these are the results that we got before (you might remember) :
+
+103
+00:04:59,074 --> 00:05:02,068
+zero, one, three, six, ten, all the way up to 45.
+
+104
+00:05:02,068 --> 00:05:05,412
+Now let's run this thing assuming that I haven't made any bugs ...
+
+105
+00:05:05,412 --> 00:05:08,833
+... and I get the exact same thing.
+
+106
+00:05:08,833 --> 00:05:10,546
+So this "while" loop is doing the exact same thing.
+
+107
+00:05:10,546 --> 00:05:14,259
+It's just doing a little bit ... it's more explicitly defining "i".
+
+108
+00:05:14,259 --> 00:05:16,256
+It takes you a little bit more code to write it,
+
+109
+00:05:16,256 --> 99:59:59,000
+but it's the exact same behavior.

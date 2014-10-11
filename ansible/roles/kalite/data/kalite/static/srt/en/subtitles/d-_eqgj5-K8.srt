@@ -1,0 +1,583 @@
+1
+00:00:00,533 --> 00:00:08,067
+Let's add something moving with a constant velocity of 5 m/s
+
+2
+00:00:08,067 --> 00:00:10,512
+and we're assuming it's moving to the right
+
+3
+00:00:10,512 --> 00:00:13,533
+just to give us a direction, because this is a vector quantity
+
+4
+00:00:13,533 --> 00:00:16,022
+so it's moving in that direction, right over there
+
+5
+00:00:16,022 --> 00:00:18,506
+And let me plot its velocity against time
+
+6
+00:00:18,506 --> 00:00:24,133
+so this is my velocity
+
+7
+00:00:24,133 --> 00:00:26,759
+I'm actually going to only plot the magnitude of velocity
+
+8
+00:00:26,759 --> 00:00:29,544
+and you can specify that like this: ||v||
+
+9
+00:00:29,544 --> 00:00:33,333
+so this is the magnitude of the velocity
+
+10
+00:00:33,333 --> 00:00:39,600
+And then, on this axis, I am going to plot time
+
+11
+00:00:39,600 --> 00:00:43,200
+So we have a constant velocity of 5 m/s
+
+12
+00:00:43,200 --> 00:00:51,533
+so its magnitude is 5 m/s, and it's constant, it's not changing
+
+13
+00:00:51,533 --> 00:00:54,753
+as the seconds ticks away, the velocity does not change
+
+14
+00:00:54,753 --> 00:00:58,421
+So it's just moving 5 m/s
+
+15
+00:00:58,421 --> 00:01:05,533
+Now, my question to you is: how far does this thing travel after 5 seconds?
+
+16
+00:01:05,533 --> 00:01:12,200
+So after 5 seconds, so this is 1s...2s...3s...4s...5s...right over here
+
+17
+00:01:12,200 --> 00:01:15,400
+So how far did this thing travel after 5 seconds
+
+18
+00:01:15,400 --> 00:01:17,346
+Well we can think about it two ways
+
+19
+00:01:17,346 --> 00:01:30,024
+1) We know that velocity is equal to displacement over change in time
+
+20
+00:01:30,024 --> 00:01:33,920
+and displacement is just change in position
+
+21
+00:01:33,920 --> 00:01:36,867
+so this is change in position over change in time
+
+22
+00:01:36,867 --> 00:01:40,667
+or 2) another way to think about it, if you multiply both sides by change in time
+
+23
+00:01:40,667 --> 00:01:48,133
+you get velocity times change in time, is equal to displacement
+
+24
+00:01:48,133 --> 00:01:50,843
+So what was the displacement over here?
+
+25
+00:01:50,843 --> 00:01:55,425
+Well I know what the velocity is, it's 5 m/s
+
+26
+00:01:55,425 --> 00:01:59,892
+5 m/s, that is the velocity (let me color-code this)
+
+27
+00:01:59,892 --> 00:02:05,533
+And we know what the change in time here is, it is 5 seconds
+
+28
+00:02:05,533 --> 00:02:08,000
+and so you get...the seconds cancel out with seconds...
+
+29
+00:02:08,000 --> 00:02:12,533
+you get 5 *5 = 25 meters
+
+30
+00:02:12,533 --> 00:02:14,252
+And that's pretty straight forward
+
+31
+00:02:14,252 --> 00:02:15,898
+but the slightly more interesting thing is
+
+32
+00:02:15,898 --> 00:02:24,428
+is that's exactly the area under this rectangle right over here
+
+33
+00:02:24,428 --> 00:02:26,267
+And what I want to show you in this video
+
+34
+00:02:26,267 --> 00:02:30,600
+that is in general, if you plot velocity, the magnitude of velocity
+
+35
+00:02:30,600 --> 00:02:32,933
+...so you could say speed versus time...
+
+36
+00:02:32,933 --> 00:02:36,133
+or let me just stay with the *magnitude of the velocity* versus <i>time</i>
+
+37
+00:02:36,133 --> 00:02:41,773
+the area under that curve is going to be the distance traveled (or the displacement)
+
+38
+00:02:41,773 --> 00:02:46,696
+because displacement is just the velocity times the change in time
+
+39
+00:02:46,696 --> 00:02:49,691
+so if you just take out a rectangle right over there
+
+40
+00:02:49,691 --> 00:02:52,687
+So let me draw a slightly different one where velocity is changing
+
+41
+00:02:52,687 --> 00:02:55,933
+so let me draw a different situation where you have a constant acceleration
+
+42
+00:02:55,933 --> 00:03:03,333
+the acceleration over here is going to be 1 m/s/s, so 1 m/s^2
+
+43
+00:03:03,333 --> 00:03:05,482
+and let me draw the same type of graph
+
+44
+00:03:05,482 --> 00:03:08,000
+(although it's going to look a little different now)
+
+45
+00:03:08,000 --> 00:03:11,625
+So this is my velocity axis
+
+46
+00:03:11,625 --> 00:03:13,867
+(I'll give myself a little bit more space)
+
+47
+00:03:13,867 --> 00:03:16,812
+So this is my velocity axis
+
+48
+00:03:16,812 --> 00:03:19,320
+I'm just going to draw the magnitude of the velocity
+
+49
+00:03:19,320 --> 00:03:22,800
+and this right over here is my time axis
+
+50
+00:03:22,800 --> 00:03:26,147
+so this is time, let me mark some stuff off here
+
+51
+00:03:26,147 --> 00:03:31,575
+so...1...2...3...4...5...6...7...8...9...10
+
+52
+00:03:31,575 --> 00:03:37,467
+and...1...2...3...4...5...6...7...8...9...10
+
+53
+00:03:37,467 --> 00:03:41,843
+and the magnitude of the velocity is going to be measured in m/s
+
+54
+00:03:41,843 --> 00:03:47,822
+and the time is going to be measured in seconds
+
+55
+00:03:47,822 --> 00:03:49,533
+So what's going to happen here?
+
+56
+00:03:49,533 --> 00:03:51,400
+Assuming that we start with...
+
+57
+00:03:51,400 --> 00:03:59,221
+so my initial velocity, or I could say the magnitude of my initial velocity
+
+58
+00:03:59,221 --> 00:04:02,951
+so just my initial speed, you could say, this is just a fancy way of saying my initial speed...
+
+59
+00:04:02,951 --> 00:04:04,206
+...is zero
+
+60
+00:04:04,206 --> 00:04:06,783
+So my initial speed is 0
+
+61
+00:04:06,783 --> 00:04:09,533
+so after 1 second, what's going to happen?
+
+62
+00:04:09,533 --> 00:04:12,467
+After 1 second, I'm going 1 m/s faster
+
+63
+00:04:12,467 --> 00:04:15,800
+so now I'm going 1 m/s. After 2 seconds what's happened?
+
+64
+00:04:15,800 --> 00:04:19,067
+Well now I'm going another 1 m/s faster than that
+
+65
+00:04:19,067 --> 00:04:22,133
+After another second, if I go forward in time
+
+66
+00:04:22,133 --> 00:04:25,667
+if change in time is 1 second, then I'm going a second faster than that
+
+67
+00:04:25,667 --> 00:04:30,348
+And if you remember the idea of <i>slope</i> from your Algebra 1 class
+
+68
+00:04:30,348 --> 00:04:34,841
+that's exactly what <i>acceleration</i> is, in this diagram right over here
+
+69
+00:04:34,841 --> 00:04:46,488
+We know that acceleration is equal to...change in velocity over change in time
+
+70
+00:04:46,488 --> 00:04:49,400
+over here change in time is along the x-axis
+
+71
+00:04:49,400 --> 00:04:52,333
+so this right over here is a change in time
+
+72
+00:04:52,333 --> 00:04:55,867
+and this right over here is a change in velocity
+
+73
+00:04:55,867 --> 00:05:01,333
+When we plot velocity (or the magnitude of velocity) relative to time
+
+74
+00:05:01,333 --> 00:05:05,180
+the slope of that line is the acceleration
+
+75
+00:05:05,180 --> 00:05:08,200
+and since we're assuming the acceleration is constant
+
+76
+00:05:08,200 --> 00:05:09,933
+we have a constant slope
+
+77
+00:05:09,933 --> 00:05:12,867
+so we have just a line here, we don't have a curve
+
+78
+00:05:12,867 --> 00:05:15,590
+Now what I want to do is think about a situation
+
+79
+00:05:15,590 --> 00:05:20,775
+let's say that we accelerate at 1 m/s^2...and we do it for
+
+80
+00:05:20,775 --> 00:05:28,098
+so the change in time is going to be 5 seconds
+
+81
+00:05:28,098 --> 00:05:31,349
+and my question to you is: how far have we traveled?
+
+82
+00:05:31,349 --> 00:05:34,667
+Which is a slightly more interesting question than what we've been asking so far
+
+83
+00:05:34,667 --> 00:05:37,600
+So we start off with an initial velocity of 0
+
+84
+00:05:37,600 --> 00:05:42,169
+and then for 5 seconds, we accelerate at 1 m/s^2
+
+85
+00:05:42,169 --> 00:05:46,733
+so 1...2...3...4...5...so this is where we are
+
+86
+00:05:46,733 --> 00:05:49,147
+so after 5 seconds, we know our velocity
+
+87
+00:05:49,147 --> 00:05:53,071
+our velocity is now 5 m/s
+
+88
+00:05:53,071 --> 00:05:56,400
+But how far have we traveled?
+
+89
+00:05:56,400 --> 00:05:59,400
+So we can think about it a little bit visually
+
+90
+00:05:59,400 --> 00:06:02,556
+we could say, look, we could try to draw rectangles over here
+
+91
+00:06:02,556 --> 00:06:06,133
+we were at, maybe right over here we had a velocity of 1 m/s
+
+92
+00:06:06,133 --> 00:06:10,941
+so if I say 1 m/s times a second, that'll give me a little bit of distance...
+
+93
+00:06:10,941 --> 00:06:14,267
+and the next one I have a little bit more of distance...
+
+94
+00:06:14,267 --> 00:06:17,139
+calculated the same way. I could keep drawing these rectangles here
+
+95
+00:06:17,139 --> 00:06:19,135
+But then you're like...Wait! Those rectangles are missing...
+
+96
+00:06:19,135 --> 00:06:23,000
+because I wasn't...for the whole second...I wasn't only going 1 m/s...
+
+97
+00:06:23,000 --> 00:06:27,843
+I <i>kept</i> accelerating, so actually maybe I should split up the rectangles
+
+98
+00:06:27,843 --> 00:06:30,415
+I could split up the rectangles even more
+
+99
+00:06:30,415 --> 00:06:32,165
+So maybe I go, every half-second
+
+100
+00:06:32,165 --> 00:06:34,733
+so on this half-second, I was going at this velocity
+
+101
+00:06:34,733 --> 00:06:36,733
+and I go at that velocity for half a second
+
+102
+00:06:36,733 --> 00:06:39,400
+velocity times the time will give me the displacement
+
+103
+00:06:39,400 --> 00:06:41,467
+and then I do it for the next half second
+
+104
+00:06:41,467 --> 00:06:44,333
+same exact idea here, it'll give me the displacement
+
+105
+00:06:44,333 --> 00:06:46,600
+so on and so forth
+
+106
+00:06:46,600 --> 00:06:49,133
+I think what you see is your getting...
+
+107
+00:06:49,133 --> 00:06:53,467
+is the smaller the rectangles you try to make here
+
+108
+00:06:53,467 --> 00:07:00,662
+the closer you're going to get to the area under this curve
+
+109
+00:07:00,662 --> 00:07:09,556
+And just like the situation here, this area under the curve is going to be the distance traveled
+
+110
+00:07:09,556 --> 00:07:13,533
+and lucky for us, this is just going to be a triangle
+
+111
+00:07:13,533 --> 00:07:16,713
+and we know how to figure out the area for a triangle
+
+112
+00:07:16,713 --> 00:07:24,579
+so the area of a triangle = (1/2) * base * height
+
+113
+00:07:24,579 --> 00:07:26,000
+which hopefully makes sense to you
+
+114
+00:07:26,000 --> 00:07:28,133
+because if you just multiply base * height
+
+115
+00:07:28,133 --> 00:07:32,000
+you get the area for the entire rectangle, and the triangle is exactly half of that
+
+116
+00:07:32,000 --> 00:07:35,667
+So the distance traveled in this situation
+
+117
+00:07:35,667 --> 00:07:37,733
+or I should say the displacement
+
+118
+00:07:37,733 --> 00:07:40,080
+just because we want to make sure we're focused on vectors
+
+119
+00:07:40,080 --> 00:07:42,147
+the displacement here is going to be
+
+120
+00:07:42,147 --> 00:07:45,667
+(or I should say the magnitude of the displacement...which is the same thing as the distance)
+
+121
+00:07:45,667 --> 00:07:55,293
+is going to be 1/2 times the base...which is 5 seconds
+
+122
+00:07:55,293 --> 00:07:59,008
+times the height...which is 5 meters per second
+
+123
+00:07:59,008 --> 00:08:07,385
+...times 5 m/s (let me do that in another color)
+
+124
+00:08:07,385 --> 00:08:09,361
+the seconds cancel out with seconds
+
+125
+00:08:09,361 --> 00:08:13,400
+and we're left with (1/2) * 5 * 5 meters
+
+126
+00:08:13,400 --> 00:08:19,200
+so it's (1/2) * 25, which is equal to 12.5 meters
+
+127
+00:08:19,200 --> 00:08:21,110
+and so there's an interesting thing here
+
+128
+00:08:21,110 --> 00:08:22,908
+there's a couple of interesting things
+
+129
+00:08:22,908 --> 00:08:26,733
+hopefully you realize that if you're plotting velocity versus time
+
+130
+00:08:26,733 --> 00:08:32,267
+1) the area under the curve, given a certain amount of time, tells you how far you have traveled
+
+131
+00:08:32,267 --> 00:08:36,621
+2) the other interesting thing is that the slope of the curve tells you your acceleration
+
+132
+00:08:36,621 --> 00:08:38,362
+What's the slope over here (left)?
+
+133
+00:08:38,362 --> 00:08:41,200
+Well, it's completely flat, and that's because the velocity isn't changing
+
+134
+00:08:41,200 --> 00:08:45,579
+so in this situation, we have a constant acceleration
+
+135
+00:08:45,579 --> 00:08:48,695
+the magnitude of that acceleration is exactly zero
+
+136
+00:08:48,695 --> 00:08:50,762
+our velocity is not changing
+
+137
+00:08:50,762 --> 00:08:54,000
+here (right) we have an acceleration of 1 m/s^2
+
+138
+00:08:54,000 --> 00:08:57,356
+and that's why the slope of this line right over here is 1
+
+139
+00:08:57,356 --> 00:09:00,933
+the other interesting thing, is that even if you have constant acceleration
+
+140
+00:09:00,933 --> 00:09:05,733
+you can still figure out the distance by just taking the area under the curve...like this
+
+141
+00:09:05,733 --> 00:09:09,133
+so we were able to figure out...we were able to get 12.5 meters
+
+142
+00:09:09,133 --> 00:09:11,862
+The last thing I want to introduce you to...
+
+143
+00:09:11,862 --> 00:09:13,400
+(actually let me just do it in the next video)
+
+144
+00:09:13,400 --> 00:09:15,979
+and I'll introduce to you the idea of *average velocity*
+
+145
+00:09:15,979 --> 00:09:18,486
+now that we feel comfortable with the idea that
+
+146
+00:09:18,486 --> 99:59:59,999
+the distance you traveled is the area under this velocity versus time curve

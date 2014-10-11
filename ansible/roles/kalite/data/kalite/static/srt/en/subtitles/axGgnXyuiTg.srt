@@ -1,0 +1,147 @@
+1
+00:00:00,884 --> 00:00:10,217
+In the circle below, central angle GOH has a measure of 3/2 radians.
+
+2
+00:00:10,217 --> 00:00:14,383
+What is the length of arc GH?
+
+3
+00:00:14,383 --> 00:00:17,617
+So let's define some variables that will help us manipulate them a little bit easier.
+
+4
+00:00:17,617 --> 00:00:22,684
+So where is central angle GOH? It's this angle right over here.
+
+5
+00:00:22,684 --> 00:00:35,867
+Let's call that "theta". So let's say that theta is equal to the measure of angle GOH.
+
+6
+00:00:35,867 --> 00:00:40,717
+Now, they're asking us "what's the length of arc GH?"
+
+7
+00:00:40,717 --> 00:00:45,467
+Well arc GH is this, right over here. And let's call that 's'.
+
+8
+00:00:45,467 --> 00:00:54,383
+So let's let s be equal to the length of arc GH.
+
+9
+00:00:54,383 --> 00:00:59,867
+And they also give us the radius 6cm for this circle, but let's just call that 'r' for now
+
+10
+00:00:59,867 --> 00:01:03,613
+so the radius is equal to 6cm.
+
+11
+00:01:03,628 --> 00:01:07,673
+So the first thing that we should think about when we're dealing with arc lengths and radians
+
+12
+00:01:07,673 --> 00:01:12,934
+is 'how do angles measured in radians relate to arc length in particular-
+
+13
+00:01:12,934 --> 00:01:20,733
+how does an angle measured in radians relate to the length of the arc that subtends that angle?'
+
+14
+00:01:20,733 --> 00:01:24,884
+In this case, the length of this arc right over here, arc GH
+
+15
+00:01:24,884 --> 00:01:30,434
+subtends angle theta- subtends central angle GOH.
+
+16
+00:01:30,434 --> 00:01:37,817
+So what's the relationship? Well the definition of radian measure says that an angle measured in radians
+
+17
+00:01:37,817 --> 00:01:46,000
+is the ratio between the length of the arc that subtends that angle, so s
+
+18
+00:01:46,000 --> 00:01:51,234
+and the radius of the circle.
+
+19
+00:01:51,234 --> 00:01:56,367
+If this was a unit circle, then it would just literally be equal to that arc length.
+
+20
+00:01:56,367 --> 00:02:02,918
+If it's not a unit circle, or I guess in all cases, unit circle or not, it's the ratio between the length of the arc
+
+21
+00:02:02,918 --> 00:02:08,017
+that subtends the angle and the radius.
+
+22
+00:02:08,017 --> 00:02:15,567
+Now, given this definition of what a radian is, let's see what we know and what we don't know.
+
+23
+00:02:15,567 --> 00:02:23,134
+And we can manipulate this however we see fit, we could mutiply- you could see this written as if you multiply both sides of this by r
+
+24
+00:02:23,134 --> 00:02:28,983
+you get r theta is equal to s
+
+25
+00:02:28,983 --> 00:02:37,430
+or another way of writing it is you could get s is equal to r times theta.
+
+26
+00:02:37,430 --> 00:02:40,318
+s is equal to r theta
+
+27
+00:02:40,318 --> 00:02:44,484
+And we could have solved this equation or this equation, but for this problem
+
+28
+00:02:44,484 --> 00:02:48,067
+- this one's actually going to be a little bit useful, because this is the unknown, the length of GH
+
+29
+00:02:48,067 --> 00:02:52,817
+we want to know what this is, this is the unknown that they're asking for
+
+30
+00:02:52,817 --> 00:02:56,484
+and this explicitly solves for the unknown, so this has essentially solved it for us.
+
+31
+00:02:56,484 --> 00:02:58,484
+So what else do we know?
+
+32
+00:02:58,484 --> 00:03:01,834
+Well, we know the radius, we know the radius is 6cm.
+
+33
+00:03:01,834 --> 00:03:06,800
+We multiply that times the angle in radians, which is 3/2 radians
+
+34
+00:03:06,800 --> 00:03:15,734
+and we are left with, so s is equal to 6cm times 3/2, and so we are left with, this is going to be equal to
+
+35
+00:03:15,734 --> 00:03:20,717
+6 times 3 is 18 divided by 2 is 9.
+
+36
+00:03:20,717 --> 00:03:25,586
+It's going to be equal to 9cm.
+
+37
+00:03:25,586 --> 00:03:29,586
+And we are done.

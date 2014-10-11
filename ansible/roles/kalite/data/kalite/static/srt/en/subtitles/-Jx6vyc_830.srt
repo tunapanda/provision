@@ -1,0 +1,615 @@
+1
+00:00:00,000 --> 00:00:03,060
+We're on problem 106.
+
+2
+00:00:05,090 --> 00:00:07,870
+The present ratio of students to teachers
+
+3
+00:00:07,870 --> 00:00:10,150
+at a certain school is 30:1.
+
+4
+00:00:10,150 --> 00:00:15,420
+So the ratio of students to teachers is equal to 30:1.
+
+5
+00:00:15,420 --> 00:00:19,710
+If the student enrollment were increased by 50 students,
+
+6
+00:00:19,710 --> 00:00:22,590
+and the number of teachers were increased by 5,
+
+7
+00:00:22,590 --> 00:00:25,980
+the ratio of students to teachers would then be 25:1.
+
+8
+00:00:25,980 --> 00:00:33,400
+So if we increase the students by 50 students,and increase
+
+9
+00:00:33,400 --> 00:00:41,880
+the teachers by 5,the new ratio is going to be 25:1.
+
+10
+00:00:43,370 --> 00:00:47,350
+What is the present number of teachers?
+
+11
+00:00:47,350 --> 00:00:50,880
+Let's just simplify these a little bit.
+
+12
+00:00:50,880 --> 00:00:54,390
+We could cross-multiply. We could just write s over T.
+
+13
+00:00:54,390 --> 00:01:00,530
+30 over 1 is equal to 30,or s is equal to 30T.
+
+14
+00:01:01,430 --> 00:01:02,980
+And let's substitute that into this equation,because we're
+
+15
+00:01:02,980 --> 00:01:05,280
+going to have to solve for the present number of teachers,
+
+16
+00:01:05,280 --> 00:01:06,210
+which is just T.
+
+17
+00:01:07,820 --> 00:01:16,550
+So substitute this here,so we get 30T plus 50,over T plus 5,
+
+18
+00:01:17,550 --> 00:01:20,690
+is equal to-- well,25 over 1,that's just 25.
+
+19
+00:01:21,990 --> 00:01:26,760
+And then let's multiply both sides of this equation by
+
+20
+00:01:26,760 --> 00:01:37,330
+T plus 5,and you get 30T plus 50 is equal to 25T,plus--
+
+21
+00:01:37,330 --> 00:01:46,210
+what's 25 times 5?-- 125. Let's subtract 25T from both sides.
+
+22
+00:01:46,210 --> 00:01:51,780
+You get 5T plus 50 is equal to 125.
+
+23
+00:01:51,780 --> 00:01:57,950
+Subtract 50 from both sides,you get 5T is equal to 75.
+
+24
+00:01:58,920 --> 00:02:10,990
+And then T is equal to 15. 15 times 5 is 50,plus 25,right,75.
+
+25
+00:02:10,990 --> 00:02:15,390
+T is 15. So the answer is E. Next question.
+
+26
+00:02:15,390 --> 00:02:16,740
+I don't want to run out of space,
+
+27
+00:02:16,740 --> 00:02:19,950
+so I'll just do it right here. Problem 107.
+
+28
+00:02:22,410 --> 00:02:30,090
+What is the smallest integer,n,for which 25 to the n is
+
+29
+00:02:30,090 --> 00:02:32,810
+greater than 5 to the 12th?
+
+30
+00:02:32,810 --> 00:02:36,940
+Whenever you see some type of an equation or inequality
+
+31
+00:02:36,940 --> 00:02:39,070
+where the variables are under the exponent,and you're
+
+32
+00:02:39,070 --> 00:02:41,530
+comparing numbers of different bases,your first thing that
+
+33
+00:02:41,530 --> 00:02:43,990
+should register in your brain is how can I get these to be
+
+34
+00:02:43,990 --> 00:02:44,770
+in the same base?
+
+35
+00:02:45,300 --> 00:02:47,340
+And it should be pretty obvious here,because 25 is
+
+36
+00:02:47,340 --> 00:02:49,570
+the same thing as 5 squared,so let's rewrite it that way.
+
+37
+00:02:49,570 --> 00:02:55,270
+This statement is equivalent to saying 5 squared to the n
+
+38
+00:02:55,270 --> 00:02:57,800
+is greater than 5 to the 12th.
+
+39
+00:02:57,800 --> 00:03:02,060
+And 5 squared to the n,that's the same thing as 5 to the 2n,
+
+40
+00:03:02,060 --> 00:03:05,420
+is greater than 5 to the 12th.
+
+41
+00:03:07,340 --> 00:03:13,450
+And this right here is going to be true when 2n is greater
+
+42
+00:03:13,450 --> 00:03:16,020
+than 12,when the exponent up here is greater than the
+
+43
+00:03:16,020 --> 00:03:18,180
+exponent up here. That's when it's going to be true.
+
+44
+00:03:18,180 --> 00:03:22,430
+You divide both sides by 2,and you get is greater than 6.
+
+45
+00:03:24,810 --> 00:03:28,370
+So what is the smallest integer,n,for which 25 to the n
+
+46
+00:03:28,370 --> 00:03:31,090
+is greater than 5 to the 12th?
+
+47
+00:03:31,090 --> 00:03:34,060
+So n has to be greater than 6,so we can't pick choice A,
+
+48
+00:03:34,060 --> 00:03:37,130
+which is 6,because if we pick 6,then we would have 5
+
+49
+00:03:37,130 --> 00:03:40,490
+to the 12th here. And then it would be an inequality,
+
+50
+00:03:40,490 --> 00:03:42,000
+but this is greater than.
+
+51
+00:03:42,000 --> 00:03:45,270
+So the smallest integer,n,now has to be greater than 6,
+
+52
+00:03:45,270 --> 00:03:47,490
+so n has to be 7. So that's choice B.
+
+53
+00:03:49,850 --> 00:03:51,070
+And don't get tricked there.
+
+54
+00:03:51,070 --> 00:03:53,630
+When you get 6 as your answer,you might want to pick A,
+
+55
+00:03:53,630 --> 00:03:55,320
+but n has to be greater than 6.
+
+56
+00:03:55,320 --> 00:03:58,760
+So it's essentially the smallest integer greater than 6,is 7.
+
+57
+00:03:59,940 --> 00:04:01,980
+Problem 108.
+
+58
+00:04:03,700 --> 00:04:08,180
+If x and y are different prime numbers,each greater than 2,
+
+59
+00:04:08,180 --> 00:04:11,640
+which of the following must be true?
+
+60
+00:04:11,640 --> 00:04:15,020
+Each greater than 2,they're both prime numbers.
+
+61
+00:04:15,020 --> 00:04:28,510
+So statement number 1: x plus y cannot equal 91.
+
+62
+00:04:28,510 --> 00:04:29,860
+Let me think about that.
+
+63
+00:04:29,860 --> 00:04:33,210
+If x are y are different prime numbers,each greater than 2,
+
+64
+00:04:33,210 --> 00:04:40,160
+which of the following must be true?x plus y cannot equal 91.
+
+65
+00:04:41,410 --> 00:04:42,500
+Let me think about that a little bit.
+
+66
+00:04:42,880 --> 00:04:46,230
+That means that I can't have two prime numbers that,
+
+67
+00:04:47,060 --> 00:04:51,570
+when I add them together,equal 91. Well,let's think about it.
+
+68
+00:04:51,570 --> 00:04:55,880
+They're greater than 2,and then they're prime.
+
+69
+00:04:55,880 --> 00:04:57,880
+So what do we know about all prime numbers greater than 2?
+
+70
+00:04:58,750 --> 00:05:02,100
+Well,we know that they're both odd.All prime numbers are odd.
+
+71
+00:05:03,110 --> 00:05:04,690
+2 is the only even prime number.
+
+72
+00:05:04,690 --> 00:05:06,580
+So both of these have to be odd.
+
+73
+00:05:06,580 --> 00:05:12,770
+So if I add an odd plus an odd,what do I get?
+
+74
+00:05:12,770 --> 00:05:16,090
+One way to think about it,this might be second nature to you
+
+75
+00:05:16,090 --> 00:05:19,140
+at this point,but an odd number can be written in the form,
+
+76
+00:05:19,140 --> 00:05:22,330
+2 times some integer plus 1.
+
+77
+00:05:22,790 --> 00:05:25,840
+It's some even integer,some even number plus 1.
+
+78
+00:05:25,840 --> 00:05:28,180
+So I could write the first odd number like that.
+
+79
+00:05:28,180 --> 00:05:33,290
+Maybe I'll say this is x. I'm just saying that x is odd.
+
+80
+00:05:33,290 --> 00:05:35,840
+I'm not saying that x is prime,but if you're larger than 2
+
+81
+00:05:35,840 --> 00:05:37,010
+and you're prime,you're going to be odd.
+
+82
+00:05:38,020 --> 00:05:39,080
+Otherwise,you're divisible by 2.
+
+83
+00:05:39,080 --> 00:05:43,240
+And let's say y is equal to 2 times some other integer,plus 1
+
+84
+00:05:44,190 --> 00:05:49,030
+So if you add two odd numbers together,you get 2 times k,
+
+85
+00:05:49,030 --> 00:05:55,460
+plus m,plus 2,which is an even number.
+
+86
+00:05:55,460 --> 00:05:59,150
+When you add two odd numbers,you get an even number.
+
+87
+00:06:01,190 --> 00:06:04,230
+So if you add two prime numbers greater than 2,
+
+88
+00:06:04,230 --> 00:06:07,870
+you're essentially adding two odd numbers greater than 2,
+
+89
+00:06:07,870 --> 00:06:10,190
+so they have to be equal to an even number.
+
+90
+00:06:10,190 --> 00:06:14,460
+So they can't be equal to 91. So statement 1 must be true.
+
+91
+00:06:15,340 --> 00:06:17,350
+Statement 2,let's think about it.
+
+92
+00:06:18,630 --> 00:06:26,470
+Statement 2 tells us,x minus y is even.
+
+93
+00:06:27,620 --> 00:06:31,900
+So once again,x and y are definitely going to be odd numbers.
+
+94
+00:06:31,900 --> 00:06:34,480
+When you add them,you get an even number.
+
+95
+00:06:34,480 --> 00:06:35,560
+What happens when you subtract them?
+
+96
+00:06:35,560 --> 00:06:41,120
+If I were to subtract y from x,what would I get here?
+
+97
+00:06:41,120 --> 00:06:46,680
+If I were to subtract it,I would get 2 times k,minus m,
+
+98
+00:06:50,610 --> 00:06:52,370
+and then the 1 minus 1.
+
+99
+00:06:52,370 --> 00:06:57,170
+But this k minus m is going to still be an integer.
+
+100
+00:06:57,170 --> 00:06:58,120
+These are two integers,
+
+101
+00:06:58,120 --> 00:06:59,120
+so this is still going to be an integer.
+
+102
+00:06:59,120 --> 00:07:02,530
+And they're different prime numbers,so k and m are going to
+
+103
+00:07:02,530 --> 00:07:04,560
+be different,so this isn't going to be equal 0.
+
+104
+00:07:04,560 --> 00:07:08,550
+So the difference has got to be an even integer.
+
+105
+00:07:10,750 --> 00:07:14,630
+It might be a negative even integer,because we don't know
+
+106
+00:07:14,630 --> 00:07:18,280
+that x is necessarily larger than y,but we know that
+
+107
+00:07:18,280 --> 00:07:19,590
+it has to be an even integer.
+
+108
+00:07:21,420 --> 00:07:25,440
+So statement 2 is also correct. Now statement 3.
+
+109
+00:07:28,930 --> 00:07:35,980
+x divided by y is not an integer.
+
+110
+00:07:37,030 --> 00:07:41,740
+Well,we know that x is prime,which means that it only has
+
+111
+00:07:41,740 --> 00:07:44,590
+two factors,1 and itself. And we know that x isn't 2.
+
+112
+00:07:44,590 --> 00:07:46,650
+We know that y is another prime number.
+
+113
+00:07:46,650 --> 00:07:51,420
+Now,if this statement right here-- if x divided by y--
+
+114
+00:07:51,420 --> 00:07:54,890
+if that were an integer,then that means that y divides
+
+115
+00:07:54,890 --> 00:07:59,010
+evenly into x. Which would mean that y is a factor of x.
+
+116
+00:07:59,010 --> 00:08:03,030
+Which would mean that x has a factor other than 1 and itself,
+
+117
+00:08:03,030 --> 00:08:05,070
+which would mean that x is not prime.
+
+118
+00:08:05,070 --> 00:08:07,230
+But they tell us it x is a prime number,
+
+119
+00:08:07,230 --> 00:08:09,290
+and y isn't just the number 1.
+
+120
+00:08:10,340 --> 00:08:13,450
+They're both prime numbers and they're each greater than 2,
+
+121
+00:08:13,450 --> 00:08:14,830
+so y is definitely not 1.
+
+122
+00:08:14,830 --> 00:08:24,340
+So in order for this to be an integer,x could not be prime.
+
+123
+00:08:24,340 --> 00:08:28,520
+Since x is prime,and y is some number greater than 2,
+
+124
+00:08:28,520 --> 00:08:31,250
+we know that this is not an integer.
+
+125
+00:08:31,250 --> 00:08:33,760
+So all three of these statements have to be true.
+
+126
+00:08:33,760 --> 00:08:39,080
+And that's statement E,answer E.
+
+127
+00:08:41,890 --> 00:08:44,740
+Problem 109. Let me do it in a different color.
+
+128
+00:08:47,820 --> 00:08:51,580
+All of the following have the same value except--
+
+129
+00:08:51,580 --> 00:08:54,250
+OK,so we're just going to try to do the math real fast here.
+
+130
+00:08:54,250 --> 00:09:00,740
+1 plus 2,plus 3,plus 4,plus 5,all of that over 3.
+
+131
+00:09:01,380 --> 00:09:07,820
+1 plus 2 is 3,3 plus 3 is 6,6 plus 4 is 10,10 plus 5 is 15,
+
+132
+00:09:07,820 --> 00:09:09,560
+divided by 3,this is equal to 5.
+
+133
+00:09:10,480 --> 00:09:18,470
+B,1/3,times 1,plus 1,plus 1,plus 1,plus 1.
+
+134
+00:09:18,470 --> 00:09:22,730
+That's 1/3 times-- this is 5,so this is equal to 5/3.
+
+135
+00:09:23,910 --> 00:09:26,280
+So after we see the next answer we should know
+
+136
+00:09:26,280 --> 00:09:26,900
+where we're going.
+
+137
+00:09:26,900 --> 00:09:31,160
+So the next answer,we have 1/3 plus itself five times.
+
+138
+00:09:31,660 --> 00:09:35,770
+1/3 plus 1/3,plus 1/3,plus 1/3,plus 1/3.
+
+139
+00:09:35,770 --> 00:09:39,890
+Well,that's five 1/3s,so that's also equal to 5/3.
+
+140
+00:09:39,890 --> 00:09:44,820
+So we should immediately be able to recognize that
+
+141
+00:09:44,820 --> 00:09:46,790
+this is different than the other two.
+
+142
+00:09:46,790 --> 00:09:48,290
+And assuming there's only one answer--
+
+143
+00:09:48,680 --> 00:09:50,930
+they say all the following have the same value except--
+
+144
+00:09:50,930 --> 00:09:52,450
+I think we've done enough math,
+
+145
+00:09:52,450 --> 00:09:54,860
+because we know that B and C are the the same value.
+
+146
+00:09:55,520 --> 00:09:57,210
+And A is already different,
+
+147
+00:09:57,210 --> 00:09:58,630
+so A is probably going to be our choice.
+
+148
+00:09:58,630 --> 00:10:00,580
+And if we kept going,D and E are going to have the same value
+
+149
+00:10:00,580 --> 00:10:03,170
+And just eyeballing it,it does look like that's the case.
+
+150
+00:10:04,260 --> 00:10:06,100
+It definitely looks like that's the case,because
+
+151
+00:10:06,100 --> 00:10:10,860
+if you look at the other two problems,you still get 5/3.
+
+152
+00:10:10,860 --> 00:10:13,320
+And E looks confusing,but the fact that A is already
+
+153
+00:10:13,320 --> 00:10:16,350
+different than B and C tells you that A is the answer.
+
+154
+00:10:16,350 --> 00:10:18,860
+And I'll see you in the next video.

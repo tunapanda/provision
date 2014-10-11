@@ -1,0 +1,403 @@
+1
+00:00:00,561 --> 00:00:01,701
+What I want to do in this video
+
+2
+00:00:01,701 --> 00:00:03,537
+is give you a bunch of properties of limits
+
+3
+00:00:03,537 --> 00:00:05,444
+and we're not going to prove it rigorously here -
+
+4
+00:00:05,444 --> 00:00:07,102
+- in order to have the rigorous proof of these properties
+
+5
+00:00:07,102 --> 00:00:09,409
+we need a rigorous definition of what a limit is
+
+6
+00:00:09,409 --> 00:00:11,035
+and we're not doing that in this tutorial -
+
+7
+00:00:11,035 --> 00:00:14,634
+- we'll do that in the tutorial on the epsilon-delta definition of limit -
+
+8
+00:00:14,634 --> 00:00:17,085
+- but most of these should be fairly intuitive
+
+9
+00:00:17,085 --> 00:00:19,680
+and they're very helpful for simplifying limit problems
+
+10
+00:00:19,680 --> 00:00:20,934
+in the future
+
+11
+00:00:20,934 --> 00:00:24,144
+So let's say we know that the limit of some function
+
+12
+00:00:24,144 --> 00:00:28,824
+f(x) as x approaches c is equal to L
+
+13
+00:00:28,824 --> 00:00:32,533
+and let's say that we also know that the limit of some
+
+14
+00:00:32,533 --> 00:00:36,279
+other function, let's say g(x), as x approaches c
+
+15
+00:00:36,279 --> 00:00:38,976
+is equal to M
+
+16
+00:00:38,976 --> 00:00:42,403
+Now, given that, what would be the limit
+
+17
+00:00:42,403 --> 00:00:49,034
+of f(x) plus g(x) as x approaches c?
+
+18
+00:00:49,710 --> 00:00:51,621
+Well, and you could look at this visually
+
+19
+00:00:51,621 --> 00:00:53,812
+- if you look at the graphs of two arbitrary functions
+
+20
+00:00:53,812 --> 00:00:55,334
+you essentially just add those two functions -
+
+21
+00:00:55,334 --> 00:00:57,993
+it'll be pretty clear that this is going to be equal to -
+
+22
+00:00:57,993 --> 00:00:59,498
+- and once again, I'm not doing a rigorous proof;
+
+23
+00:00:59,498 --> 00:01:01,796
+I'm just really giving you the properties here -
+
+24
+00:01:01,796 --> 00:01:06,386
+- this is going to be the limit of f(x) as x approaches c
+
+25
+00:01:06,386 --> 00:01:11,537
+plus the limit of g(x) as x approaches c
+
+26
+00:01:11,537 --> 00:01:15,098
+which is equal to - well, this right over here is -
+
+27
+00:01:15,098 --> 00:01:16,799
+(we'll do that in that same color)
+
+28
+00:01:17,830 --> 00:01:21,321
+- this right here is just equal to L: it's going to be equal
+
+29
+00:01:21,321 --> 00:01:27,794
+to L plus M - this right over here is equal to M
+
+30
+00:01:27,794 --> 00:01:28,962
+Not too difficult
+
+31
+00:01:28,962 --> 00:01:32,029
+This is often called the Sum Rule
+
+32
+00:01:32,029 --> 00:01:35,160
+or the Sum Property of Limits
+
+33
+00:01:35,160 --> 00:01:36,886
+and we could come up with a very similar one
+
+34
+00:01:36,886 --> 00:01:44,094
+with differences - the limit as x approaches c of f(x) minus g(x)
+
+35
+00:01:44,094 --> 00:01:47,226
+is just going to be L minus M
+
+36
+00:01:47,226 --> 00:01:49,399
+It's just the limit of f(x) as x approaches c
+
+37
+00:01:49,399 --> 00:01:52,393
+minus the limit of g(x) as x approaches c
+
+38
+00:01:52,393 --> 00:01:55,697
+So it's just going to be L minus...
+
+39
+00:01:55,697 --> 00:01:58,693
+L minus M
+
+40
+00:01:58,693 --> 00:02:00,495
+It's often called the Difference Rule
+
+41
+00:02:00,495 --> 00:02:02,634
+or the Difference Property of Limits
+
+42
+00:02:02,634 --> 00:02:04,427
+and these once again are very, very (hopefully)
+
+43
+00:02:04,427 --> 00:02:06,560
+reasonably intuitive
+
+44
+00:02:06,560 --> 00:02:08,822
+Now what happens if you take the product of the functions?
+
+45
+00:02:08,822 --> 00:02:17,027
+The limit of f(x) times g(x) as x approaches c?
+
+46
+00:02:17,027 --> 00:02:19,005
+Well, lucky for us this is going to be equal to
+
+47
+00:02:19,005 --> 00:02:28,360
+the limit of f(x) as x approaches c times the limit of g(x) as x approaches c
+
+48
+00:02:28,360 --> 00:02:31,760
+Lucky for us, this is kind of a fairly intuitive property of limits
+
+49
+00:02:31,760 --> 00:02:34,191
+So in this case this is just going to be equal to -
+
+50
+00:02:34,191 --> 00:02:38,764
+- this is L times M
+
+51
+00:02:38,764 --> 00:02:40,493
+L times...
+
+52
+00:02:40,493 --> 00:02:44,203
+...this is just going to L times M
+
+53
+00:02:44,203 --> 00:02:47,205
+Same thing, if instead of having a function here we had a constant
+
+54
+00:02:47,635 --> 00:02:50,226
+So if we just had the limit -
+
+55
+00:02:50,226 --> 00:02:51,760
+(I'll do that in the same color)
+
+56
+00:02:51,760 --> 00:02:58,564
+- the limit of k times f(x) as x approaches c
+
+57
+00:02:58,564 --> 00:02:59,901
+where k is just some constant
+
+58
+00:02:59,901 --> 00:03:03,230
+This is going to be the same thing as k times the limit
+
+59
+00:03:03,230 --> 00:03:08,653
+of f(x) as x approaches c and that is just equal to...
+
+60
+00:03:08,653 --> 00:03:11,738
+...this is just equal to L...
+
+61
+00:03:11,738 --> 00:03:13,828
+This is equal to L, so this whole thing
+
+62
+00:03:13,828 --> 00:03:17,501
+simplifies to k times...
+
+63
+00:03:17,501 --> 00:03:20,029
+...k times L
+
+64
+00:03:20,029 --> 00:03:22,433
+And we can do the same thing with the differences -
+
+65
+00:03:22,433 --> 00:03:25,255
+- this is often called the Constant Multiple Property -
+
+66
+00:03:25,255 --> 00:03:27,925
+- we can do the same thing with the differences
+
+67
+00:03:27,925 --> 00:03:31,512
+So if we have the limit as x approaches c
+
+68
+00:03:31,512 --> 00:03:35,636
+of f(x) divided by g(x), this is the exact
+
+69
+00:03:35,636 --> 00:03:40,432
+same thing as the limit of f(x) as x approaches c
+
+70
+00:03:40,432 --> 00:03:46,361
+divided by the limit of g(x) as x approaches c
+
+71
+00:03:46,361 --> 00:03:48,440
+which is going to be equal to -
+
+72
+00:03:48,440 --> 00:03:49,433
+- I think you get it now -
+
+73
+00:03:49,433 --> 00:03:56,628
+- this is going to be equal to L over M
+
+74
+00:03:56,628 --> 00:03:59,233
+And finally - this is sometimes called the Quotient Property -
+
+75
+00:03:59,233 --> 00:04:01,961
+- finally, we'll look at the Exponent Property
+
+76
+00:04:01,961 --> 00:04:03,493
+So if I have...
+
+77
+00:04:03,493 --> 00:04:06,493
+...if I have the limit of -
+
+78
+00:04:06,493 --> 00:04:07,628
+- let me write it this way -
+
+79
+00:04:07,628 --> 00:04:09,787
+- of f(x) to some power
+
+80
+00:04:09,787 --> 00:04:10,561
+- and actually let me even
+
+81
+00:04:10,561 --> 00:04:11,709
+write it as a fractional power -
+
+82
+00:04:11,709 --> 00:04:13,162
+to the r over s power,
+
+83
+00:04:13,162 --> 00:04:15,495
+where both r and s are integers -
+
+84
+00:04:15,495 --> 00:04:18,901
+then the limit of f(x) to the r over s power
+
+85
+00:04:18,901 --> 00:04:24,756
+as x approaches c is going to be the exact same
+
+86
+00:04:24,756 --> 00:04:31,828
+thing as the limit of f(x) as x approaches c
+
+87
+00:04:31,828 --> 00:04:33,731
+raised to the r over s power
+
+88
+00:04:33,731 --> 00:04:35,694
+once again, when r and s are both integers
+
+89
+00:04:35,694 --> 00:04:38,366
+and s is not equal to zero, otherwise this exponent
+
+90
+00:04:38,366 --> 00:04:40,094
+would not make much sense
+
+91
+00:04:40,094 --> 00:04:41,660
+and this is the same thing...
+
+92
+00:04:41,660 --> 00:04:44,368
+...this is the same thing as L...
+
+93
+00:04:44,368 --> 00:04:47,028
+...this is the same thing as L to the r over s power
+
+94
+00:04:47,028 --> 00:04:49,893
+This is equal to L to the...
+
+95
+00:04:49,893 --> 00:04:54,590
+...L to the r over s power
+
+96
+00:04:54,590 --> 00:04:56,592
+So, using these we can actually find the limit
+
+97
+00:04:56,592 --> 00:04:58,927
+of many, many, many things and what's neat about it
+
+98
+00:04:58,927 --> 00:05:01,763
+is the properties of limits kind of are the things that
+
+99
+00:05:01,763 --> 00:05:03,510
+you would naturally want to do and if you
+
+100
+00:05:03,510 --> 00:05:04,925
+graph some of these functions actually it
+
+101
+00:05:04,925 --> 00:05:08,000
+turns out to be quite intuitive

@@ -1,0 +1,659 @@
+1
+00:00:00,650 --> 00:00:02,460
+Now this looks like an interesting problem.
+
+2
+00:00:02,470 --> 00:00:06,040
+We have his polygon. It looks like a pentagon right over here,
+
+3
+00:00:06,050 --> 00:00:08,270
+has five sides it's an irregular pentagon; not all
+
+4
+00:00:08,280 --> 00:00:12,110
+the sides looked to be the same length, and the sides are kind of
+
+5
+00:00:12,120 --> 00:00:16,350
+continued on and we have this particular exterior angles of
+
+6
+00:00:16,360 --> 00:00:20,060
+this pentagon and what we're asked is what is the sum of all
+
+7
+00:00:20,070 --> 00:00:23,200
+these exterior angles, and it's kind of daunting 'cause like
+
+8
+00:00:23,210 --> 00:00:24,520
+they don't give us any other information,
+
+9
+00:00:24,530 --> 00:00:26,130
+they don't even give us any particular angles,
+
+10
+00:00:26,140 --> 00:00:28,800
+they don't even give us -- you know they don't start us off anywhere
+
+11
+00:00:28,970 --> 00:00:31,160
+and so what we can do, let's just think about the step by step
+
+12
+00:00:31,170 --> 00:00:33,220
+just based on what we do know.
+
+13
+00:00:33,230 --> 00:00:37,300
+Well we have these exterior angles and these exterior angles
+
+14
+00:00:37,310 --> 00:00:42,310
+they're all, they're each supplementary to some interior angle,
+
+15
+00:00:42,320 --> 00:00:45,510
+so maybe if can express them as the function of the interior angles
+
+16
+00:00:45,520 --> 00:00:48,720
+we can maybe write this problem in a way maybe a little bit
+
+17
+00:00:48,730 --> 00:00:52,150
+more doable so let's write the interior angles over here
+
+18
+00:00:52,160 --> 00:00:56,340
+so let's say we have this we already got to letter we already got to E
+
+19
+00:00:56,350 --> 00:01:01,280
+so let's call this F this interior angle F, let's call this G,
+
+20
+00:01:01,290 --> 00:01:07,210
+let's call this H, let's call this one I, and F let's call this one J
+
+21
+00:01:07,220 --> 00:01:09,860
+And so this some of this particular exterior angles
+
+22
+00:01:09,870 --> 00:01:16,130
+A is now the same thing A is now the same thing as 180 minus G
+
+23
+00:01:16,140 --> 00:01:22,630
+Because A and G are supplementary so A is 180 minus G
+
+24
+00:01:22,640 --> 00:01:27,280
+And then we have plus B but we can write in terms of
+
+25
+00:01:27,290 --> 00:01:30,520
+this interior angle It's gonna be 180 minus H because
+
+26
+00:01:30,530 --> 00:01:33,650
+these two angles once again Are supplementary we do
+
+27
+00:01:33,660 --> 00:01:38,510
+that in a new color So this is going to be 180 minus H
+
+28
+00:01:38,520 --> 00:01:40,290
+and we can do the same thing for each of them
+
+29
+00:01:40,300 --> 00:01:46,290
+C we can write as 180 minus I so plus 180 minus I
+
+30
+00:01:46,300 --> 00:01:51,930
+And then D we can write D we can write as 180 minus J
+
+31
+00:01:51,940 --> 00:01:55,070
+So plus 180 minus J
+
+32
+00:01:55,080 --> 00:01:58,000
+And then finally E I'm running out of colors
+
+33
+00:01:58,010 --> 00:02:05,830
+E we can right as 180 minus F so plus 180 plus 180 minus F
+
+34
+00:02:05,840 --> 00:02:08,770
+And so what we're left with if we add up all the 180s we have
+
+35
+00:02:08,780 --> 00:02:10,640
+We have a 180 five times
+
+36
+00:02:10,650 --> 00:02:16,410
+So this is going to be equal to five times 180
+
+37
+00:02:16,420 --> 00:02:17,920
+which is what like 900
+
+38
+00:02:17,930 --> 00:02:22,550
+and then we have minus G minus H minus I minus J minus F
+
+39
+00:02:22,560 --> 00:02:27,160
+or we could write that as minus, minus I'll try to do the same colors
+
+40
+00:02:27,170 --> 00:02:32,340
+G plus H I'm kind of factoring out this negative sign
+
+41
+00:02:32,350 --> 00:02:38,130
+G plus H we do the same colors G plus that's not the same color
+
+42
+00:02:38,420 --> 00:02:51,110
+G plus H, plus I, plus I, plus J, plus j, plus F, plus F
+
+43
+00:02:51,120 --> 00:02:52,770
+And the whole reason why I did this
+
+44
+00:02:52,780 --> 00:02:55,760
+And why this is interesting now is that we have expressed it
+
+45
+00:02:55,770 --> 00:02:58,240
+The first thing we need to figure out we have expressed it
+
+46
+00:02:58,250 --> 00:03:01,390
+In terms of the sum of the interior angles
+
+47
+00:03:01,400 --> 00:03:04,320
+So this is gonna be 900 minus all of this business
+
+48
+00:03:04,330 --> 00:03:09,010
+So this is this is 900 all of this business
+
+49
+00:03:09,020 --> 00:03:11,440
+Which is the sum of all interior angles
+
+50
+00:03:11,450 --> 00:03:15,010
+So this is the sum of all interior angles
+
+51
+00:03:15,020 --> 00:03:17,250
+So it seems like we've made a little progress if we get
+
+52
+00:03:17,260 --> 00:03:20,030
+at least if we can figure out the sum of the interior angles
+
+53
+00:03:20,040 --> 00:03:22,190
+and to do that part I'll show you a little trick
+
+54
+00:03:22,200 --> 00:03:26,430
+what you want to do is divide this polygon the inside of the polygon
+
+55
+00:03:26,440 --> 00:03:29,260
+into three non over lapping triangles
+
+56
+00:03:29,270 --> 00:03:31,740
+and so we can do that from any side let me just say
+
+57
+00:03:31,750 --> 00:03:35,960
+let's say they are all coming out of that side right over there
+
+58
+00:03:35,970 --> 00:03:39,990
+so there I have divided it let me do this is a in a neutral color
+
+59
+00:03:40,000 --> 00:03:44,850
+I'm doing it in white so so that's one triangle right over here
+
+60
+00:03:44,860 --> 00:03:47,650
+And then let me make another triangle just like that
+
+61
+00:03:47,660 --> 00:03:51,000
+So there you go I've divided it in three non overlapping triangles
+
+62
+00:03:51,010 --> 00:03:53,440
+And the reason why I did that, the reason why this is valuable
+
+63
+00:03:53,450 --> 00:03:57,250
+Is that we know what the sum of the angles of the triangles add up to
+
+64
+00:03:57,260 --> 00:04:00,110
+And so to make that useful we have to express
+
+65
+00:04:00,120 --> 00:04:04,570
+these angles in terms of the sums or in terms of angles
+
+66
+00:04:04,580 --> 00:04:08,140
+that we can figure out based on the fact that the sums of the angles
+
+67
+00:04:08,150 --> 00:04:11,340
+or the measures of an angles in a triangle add up to 180
+
+68
+00:04:11,350 --> 00:04:15,010
+so G is kind of already one of the angles in the triangle
+
+69
+00:04:15,020 --> 00:04:17,380
+F is made up of two angles in the triangle
+
+70
+00:04:17,390 --> 00:04:20,250
+So remember F is this entire angle right over here
+
+71
+00:04:20,260 --> 00:04:23,900
+So let's let's divide F into two other angles
+
+72
+00:04:23,910 --> 00:04:26,000
+Or two other measures of angles I should say
+
+73
+00:04:26,010 --> 00:04:29,490
+So let's call it let's call F is equal to let's say
+
+74
+00:04:29,500 --> 00:04:33,660
+that F is equal to so we've already gone as high as let's see
+
+75
+00:04:33,670 --> 00:04:37,620
+ABCDEFGHIJ we haven't used K yet
+
+76
+00:04:37,630 --> 00:04:40,900
+So let's say that F is equals to K plus L
+
+77
+00:04:40,910 --> 00:04:43,000
+It's equal to the sum of the measures of
+
+78
+00:04:43,010 --> 00:04:45,760
+these two adjacent angles right over here
+
+79
+00:04:45,770 --> 00:04:51,180
+So F is equal to K plus L so that that way we've split it up into
+
+80
+00:04:51,190 --> 00:04:54,110
+Into part into angles of these other triangles
+
+81
+00:04:54,120 --> 00:04:59,840
+And then we can do that with J as well with J as well
+
+82
+00:04:59,850 --> 00:05:02,490
+We can say coz J once again is that whole thing
+
+83
+00:05:02,500 --> 00:05:06,340
+So we could say that K is equal to let's see we already used L
+
+84
+00:05:06,350 --> 00:05:13,380
+So let's say J is equals to M plus N so J is equals to M plus N
+
+85
+00:05:13,390 --> 00:05:16,110
+And then finally we could split up H
+
+86
+00:05:16,120 --> 00:05:18,370
+H is up here remember this is whole thing
+
+87
+00:05:18,380 --> 00:05:22,760
+Let's say that H is the same thing as O plus P plus Q
+
+88
+00:05:22,770 --> 00:05:25,010
+This is O this is P this is Q
+
+89
+00:05:25,020 --> 00:05:27,690
+And once again I wanted to split up these interior angles
+
+90
+00:05:27,700 --> 00:05:31,060
+If they're not already parts of or already an angle of a triangle
+
+91
+00:05:31,070 --> 00:05:34,710
+I wanna split them up into angles that are parts of these triangles
+
+92
+00:05:34,720 --> 00:05:39,290
+So we have H is equal to O plus P plus Q
+
+93
+00:05:39,300 --> 00:05:42,140
+And the reason why that's interesting is now we can write
+
+94
+00:05:42,150 --> 00:05:44,670
+we can write the sum of these interior angles
+
+95
+00:05:44,680 --> 00:05:48,140
+as the sum of a bunch of angles that are part of these triangles
+
+96
+00:05:48,150 --> 00:05:49,860
+and then we could use the fact that those
+
+97
+00:05:49,870 --> 00:05:54,860
+that for any one triangle they add up to 180 degrees so let's do that
+
+98
+00:05:54,870 --> 00:05:57,690
+so this this expression right over here is gonna be G
+
+99
+00:05:57,700 --> 00:06:01,140
+G is that angle right over here we didn't make any substitutions
+
+100
+00:06:01,150 --> 00:06:03,180
+So this is going to be G
+
+101
+00:06:03,190 --> 00:06:04,400
+And you want me to write the whole thing
+
+102
+00:06:04,410 --> 00:06:09,270
+So we have 900, 900 minus and instead of a G
+
+103
+00:06:09,280 --> 00:06:12,050
+Well actually I'm not making a substitution so I can write G
+
+104
+00:06:12,060 --> 00:06:16,400
+Plus instead of an H instead of an H I can write
+
+105
+00:06:16,410 --> 00:06:23,884
+that H is O plus P plus Q plus O plus P plus Q and then plus I
+
+106
+00:06:23,884 --> 00:06:28,915
+plus I, I is sitting right over there, plus I
+
+107
+00:06:28,915 --> 00:06:30,119
+plus J...
+
+108
+00:06:30,119 --> 00:06:33,784
+I kinda messed up the colors, the magenta will go with I
+
+109
+00:06:33,784 --> 00:06:36,210
+and J is the expression right over here,
+
+110
+00:06:36,210 --> 00:06:38,208
+so J is equal to M plus N
+
+111
+00:06:38,208 --> 00:06:41,345
+so plus M plus N instead of righting J right there
+
+112
+00:06:41,345 --> 00:06:44,067
+and then finally we have our F
+
+113
+00:06:44,067 --> 00:06:46,738
+and F, we've already seen,
+
+114
+00:06:46,738 --> 00:06:52,440
+is equal to K plus L, plus K plus L
+
+115
+00:06:52,440 --> 00:06:54,178
+so once again I just rewrote
+
+116
+00:06:54,178 --> 00:06:55,143
+this part right over here
+
+117
+00:06:55,143 --> 00:06:57,200
+in terms of these component agles.
+
+118
+00:06:57,200 --> 00:06:58,768
+And now something very interesting
+
+119
+00:06:58,768 --> 00:06:59,946
+is going to happen
+
+120
+00:06:59,946 --> 00:07:00,999
+because we now
+
+121
+00:07:00,999 --> 00:07:02,149
+what these sums are going to be
+
+122
+00:07:02,149 --> 00:07:04,615
+because we know that G plus K plus O
+
+123
+00:07:04,615 --> 00:07:05,876
+is a 180 degrees.
+
+124
+00:07:05,876 --> 00:07:07,281
+They are the measures of the angle
+
+125
+00:07:07,281 --> 00:07:08,934
+for this first triangle over here
+
+126
+00:07:08,934 --> 00:07:10,740
+for this triangle right over here.
+
+127
+00:07:10,740 --> 00:07:13,866
+So G plus O plus K is a 180 degrees.
+
+128
+00:07:13,866 --> 00:07:17,266
+So G .... let me do this in a new color...
+
+129
+00:07:17,266 --> 00:07:19,525
+so for this triangle right over here
+
+130
+00:07:19,525 --> 00:07:20,739
+this triangle right over here
+
+131
+00:07:20,739 --> 00:07:23,260
+we know that G plus O plus K
+
+132
+00:07:23,260 --> 00:07:25,814
+are going to be equal to 180 degrees.
+
+133
+00:07:25,814 --> 00:07:27,922
+If we cross those out
+
+134
+00:07:27,922 --> 00:07:30,323
+we can write 180 instead
+
+135
+00:07:30,323 --> 00:07:32,056
+and then we also know
+
+136
+00:07:32,056 --> 00:07:33,677
+let me see, I'm definiftely out of colors here...
+
+137
+00:07:33,677 --> 00:07:35,798
+we know that P for this middle triangle
+
+138
+00:07:35,798 --> 00:07:36,911
+right over here
+
+139
+00:07:36,911 --> 00:07:40,206
+we know that P plus L plus M is 180 degrees.
+
+140
+00:07:40,206 --> 00:07:44,996
+So P plus L plus m is 180 degrees.
+
+141
+00:07:44,996 --> 00:07:46,933
+So you take those out and you say,
+
+142
+00:07:46,933 --> 00:07:47,850
+You know that the sum
+
+143
+00:07:47,850 --> 00:07:50,412
+is going to be equal 180 degrees.
+
+144
+00:07:50,412 --> 00:07:51,859
+And then finally,
+
+145
+00:07:51,859 --> 00:07:53,494
+this is the home stretch here,
+
+146
+00:07:53,494 --> 00:07:55,266
+we know that Q plus N plus I
+
+147
+00:07:55,266 --> 00:07:56,765
+is 180 degrees
+
+148
+00:07:56,765 --> 00:07:58,515
+in this last triangle.
+
+149
+00:07:58,515 --> 00:08:00,522
+Q plus N plus I
+
+150
+00:08:00,522 --> 00:08:04,074
+Q plus N plus I is 180 degrees.
+
+151
+00:08:04,074 --> 00:08:07,491
+THose three are also gonna be 180 degrees
+
+152
+00:08:07,491 --> 00:08:09,067
+and so now we know
+
+153
+00:08:09,067 --> 00:08:10,607
+the sum of the interior angles
+
+154
+00:08:10,607 --> 00:08:12,907
+for this irregular pentagon,
+
+155
+00:08:12,907 --> 00:08:14,627
+which is actually true for any pentagon,
+
+156
+00:08:14,627 --> 00:08:16,994
+is 180 plus 180 plus 180,
+
+157
+00:08:16,994 --> 00:08:19,582
+which is 540 degrees.
+
+158
+00:08:19,582 --> 00:08:21,961
+So that whole thing is 540 degrees
+
+159
+00:08:21,961 --> 00:08:22,739
+and if we want to get the sum
+
+160
+00:08:22,739 --> 00:08:24,515
+of the extra angles
+
+161
+00:08:24,515 --> 00:08:26,593
+we just subtract it from 900.
+
+162
+00:08:26,593 --> 00:08:31,594
+So 900 minus 540 is going to be 360 degrees.
+
+163
+00:08:31,594 --> 00:08:33,829
+And we are done. This is equal to 360 degrees.
+
+164
+99:59:59,999 --> 99:59:59,999
+   
+
+165
+00:08:33,829 --> 99:59:59,999
+

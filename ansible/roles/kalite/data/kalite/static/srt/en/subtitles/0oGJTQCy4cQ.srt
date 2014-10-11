@@ -1,0 +1,247 @@
+1
+00:00:00,000 --> 00:00:03,095
+What I want to do in this video is to explore
+
+2
+00:00:03,095 --> 00:00:06,822
+the notion of a matrix outside the context of
+
+3
+00:00:06,822 --> 00:00:10,504
+a surprisingly good movie that involves Keanu Reeves.
+
+4
+00:00:10,504 --> 00:00:11,623
+And it is actually the first of three.
+
+5
+00:00:11,623 --> 00:00:12,317
+I guess we could call
+
+6
+00:00:12,317 --> 00:00:15,087
+the three movies combined 'The Matrices.'
+
+7
+00:00:15,087 --> 00:00:17,782
+And, in fact, there is a relationship between the movie –
+
+8
+00:00:17,782 --> 00:00:19,177
+which is about a virtual reality
+
+9
+00:00:19,177 --> 00:00:21,973
+constructed by super smart computers –
+
+10
+00:00:21,973 --> 00:00:24,968
+and the relation and the notion of what a matrix is
+
+11
+00:00:24,968 --> 00:00:27,008
+when you study it in mathematics,
+
+12
+00:00:27,008 --> 00:00:29,519
+or when you study it in computer science.
+
+13
+00:00:29,550 --> 00:00:32,034
+The connection really is that matrices are used a lot
+
+14
+00:00:32,034 --> 00:00:34,996
+when you are assimilating things or constructing things
+
+15
+00:00:34,996 --> 00:00:39,142
+in computer science –
+
+16
+00:00:39,142 --> 00:00:43,288
+especially in, frankly, computer graphics.
+
+17
+00:00:43,288 --> 00:00:47,435
+Then, the super intelligent robots that made the matrix in the movie Matrix probably using matrixes to in order to do it.
+
+18
+00:00:47,435 --> 00:00:49,844
+If they actually did exist.
+
+19
+00:00:49,844 --> 00:00:52,501
+Now, what is a matrix then?
+
+20
+00:00:52,501 --> 00:00:56,510
+Well, that is a fairly simple answer: its just a rectangular array of numbers.
+
+21
+00:00:56,510 --> 00:01:07,334
+So, for example, this right over here: 1, 0, -7, pi, 5 and ... 11. This is a matrix.
+
+22
+00:01:07,334 --> 00:01:20,751
+This is a matrix where 1, 0, -7, pi ... each of those are entries in the matrix. This matrix right over here has 2 rows and 3 columns.
+
+23
+00:01:20,751 --> 00:01:27,969
+And, because it has 2 rows and 3 columns, people will say that it is a 2 x 3 matrix.
+
+24
+00:01:27,969 --> 00:01:32,929
+Whenever they say ' this is a something by something matrix ', they're telling you that it has 2 rows.
+
+25
+00:01:32,929 --> 00:01:35,242
+So you see the 2 rows right over there and they are telling you
+
+26
+00:01:35,242 --> 00:01:40,733
+And they are telling you that it has has 3 columns, you see the 3 columns right there.
+
+27
+00:01:40,733 --> 00:01:45,743
+I can give you other examples of matrixes. So I could have a 1 x 1 matrix ...
+
+28
+00:01:45,743 --> 00:01:48,505
+So I could have the matrix 1.
+
+29
+00:01:48,505 --> 00:01:52,074
+This right over here is a 1 x1 matrix. It has one row and one column
+
+30
+00:01:52,074 --> 00:02:02,958
+I can have a matrix like this ... 3, 7 and 17. What is this? Well, this has 1 row, this is the one row we see right here.
+
+31
+00:02:02,958 --> 00:02:07,077
+And it has 3 columns, this is a 1 x 3 matrix.
+
+32
+00:02:07,077 --> 00:02:09,655
+I could have a matrix, and I think you see where all of this is going,
+
+33
+00:02:09,655 --> 00:02:13,104
+Figuring out the dimensions of a matrix is not too difficult.
+
+34
+00:02:13,104 --> 00:02:20,235
+I could have a matrix that looks like this, where its 3, 5, 0, 0, -1, -7
+
+35
+00:02:20,235 --> 00:02:22,754
+This 7 is negative 7.
+
+36
+00:02:22,754 --> 00:02:31,324
+This right over here has 3 rows, so its 3 rows and it has 2 columns.
+
+37
+00:02:31,324 --> 00:02:36,503
+So we would call it a 3 by 2 matrix,
+
+38
+00:02:36,503 --> 00:02:46,236
+let me do that in the same colour, we would call it a 3 by 2 matrix, 3 rows, and 2 columns.
+
+39
+00:02:46,236 --> 00:02:51,328
+So fair enough, you know that a matrix is just a rectangular array of numbers,
+
+40
+00:02:51,328 --> 00:02:54,770
+you can say what its dimensions are, you know that each of these numbers,
+
+41
+00:02:54,770 --> 00:02:57,378
+that take one of these positions, we just call these entries,
+
+42
+00:02:57,378 --> 00:02:59,110
+But what are matrixes good for?
+
+43
+00:02:59,110 --> 00:03:04,507
+I still might not be clear what the connection is between this and this right over here.
+
+44
+00:03:04,507 --> 00:03:08,331
+And the most fundamental level well these are just ways to, a compact representation,
+
+45
+00:03:08,331 --> 00:03:11,585
+of a bunch of numbers, its a way of representing information.
+
+46
+00:03:11,585 --> 00:03:18,378
+They become very valuable in computer graphics because these numbers could represent the colour intensity at a certain point
+
+47
+00:03:18,378 --> 00:03:21,176
+They could represent whether or not an object is there at a certain point.
+
+48
+00:03:21,176 --> 00:03:26,578
+And as we develop an algebra around matrixes, and when we talk about developing an algebra around matrixes,
+
+49
+00:03:26,578 --> 00:03:29,437
+We are going to talk about operations that we are going to perform on matrixes.
+
+50
+00:03:29,437 --> 00:03:31,710
+That we would normally perform with numbers.
+
+51
+00:03:31,710 --> 00:03:31,896
+So we are going to learn how or essentially define how to multiply matrixes, add matrixes,
+
+52
+00:03:31,896 --> 00:03:45,436
+How to even take the inverse of a matrix and coming up with an algebra, how we manipulate these things,
+
+53
+00:03:45,436 --> 00:03:49,328
+It'll become very useful in the future when you're trying to write a computer graphics program,
+
+54
+00:03:49,328 --> 00:03:51,105
+or you're trying to do an economics simulation, or a probability simulation,
+
+55
+00:03:51,105 --> 00:03:57,037
+to say oh, I have this matrix that represents where different particles are in space,
+
+56
+00:03:57,037 --> 00:04:01,651
+or this matrix represents the state of some type of game.
+
+57
+00:04:01,651 --> 00:04:06,656
+And I know the algebra of matrixes, and I know ways of doing it very efficiently,
+
+58
+00:04:06,656 --> 00:04:10,100
+So that I can, multiply a bunch of them, or I could come run a simulation,
+
+59
+00:04:10,100 --> 00:04:12,236
+and I could actually come up with useful results.
+
+60
+00:04:12,236 --> 00:04:19,101
+So that's all matrixes are, but as you'll see through this, we can define operations on them.
+
+61
+00:04:19,101 --> 00:04:23,924
+And later on, when you take a linear algebra course in college, you learn a lot more of the depth,
+
+62
+00:04:23,924 --> 00:04:28,293
+of how they can be applied, and what you can use them to represent.

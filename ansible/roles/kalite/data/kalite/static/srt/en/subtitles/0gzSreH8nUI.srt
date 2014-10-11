@@ -1,0 +1,275 @@
+1
+00:00:00,000 --> 00:00:05,371
+I thought I would do some more example problems involving triangles. And so in this first one it says the
+
+2
+00:00:05,371 --> 00:00:13,233
+measure of the largest angle in a triangle is four times the measure of the second largest angle. The
+
+3
+00:00:13,233 --> 00:00:20,283
+smallest angle is ten degrees. What are the measures of all the angles? Well we know one of them, we
+
+4
+00:00:20,283 --> 00:00:22,173
+know it's ten degrees.
+
+5
+00:00:22,173 --> 00:00:25,503
+Let's draw an arbitrary triangle right over here. now let's say that is our triangle.
+
+6
+00:00:25,503 --> 00:00:30,260
+We know the the smallest angle is going to be ten degrees and I'll just say let's just assume that this
+
+7
+00:00:30,260 --> 00:00:36,382
+right over here is the measure of the smallest angle. It's ten degrees. Now let's call the second largest
+
+8
+00:00:36,382 --> 00:00:46,349
+angle, let's call that x. So this is going to be x. And then the first sentence, they say the measure
+
+9
+00:00:46,349 --> 00:00:51,409
+of the largest angle in the triangle is four times, four times the measure of the second largest angle.
+
+10
+00:00:51,409 --> 00:00:59,041
+So if the second largest angle is x, four times that measure is going to be 4x. So the largest angle
+
+11
+00:00:59,041 --> 00:01:05,872
+is going to be 4x. And so, the one thing we know about the measures of the angles inside a triangle is
+
+12
+00:01:05,872 --> 00:01:20,637
+they add up to 180 degrees. So we know that 4x + x + 10 degrees is going to be equal to 180 degrees.
+
+13
+00:01:20,637 --> 00:01:30,993
+And 4x + x, that just gives us 5x. And then we have 5x + 10 is equal to 180 degrees. Subtract 10 from
+
+14
+00:01:30,993 --> 00:01:44,540
+both sides, you get 5x = 170. And so, x = 170 / 5. Let's see, it will go into it 34 times? Let me verify
+
+15
+00:01:44,540 --> 00:01:50,502
+this. So 5 goes into, yeah, it should be 34 times. It's going to go into it twice as many times as 10
+
+16
+00:01:50,502 --> 00:01:56,100
+would go into it. 10 would go into 170 17 times, 5 would go into 170 34 times.
+
+17
+00:01:56,100 --> 00:02:05,097
+So we can verify it. 3 times 5 is 15. Subtract, we get 2. Bring down the 0.
+
+18
+00:02:05,097 --> 00:02:09,822
+5 goes into 20 four times. And then you can have the remainder. 4 times 5 is 20.
+
+19
+00:02:09,822 --> 00:02:13,918
+No remainder. So it's 34 times. X is equal to 34.
+
+20
+00:02:13,918 --> 00:02:21,696
+So the second largest angle has the measure of 34 degrees. This angle up here is going to be 4 times that.
+
+21
+00:02:21,696 --> 00:02:28,034
+So 4 times 34, it's gonna be 120 degrees plus 16 degrees. This is going to be...
+
+22
+00:02:28,034 --> 00:02:34,812
+136 degrees. Is that right? 4 times 4 is 16. 4 times 30 is 120.
+
+23
+00:02:34,812 --> 00:02:37,861
+16 plus 120 is 136 degrees. So we're done.
+
+24
+00:02:37,861 --> 00:02:45,862
+The three measures or the sizes of the three angles are 10 degrees, 34 degrees and 136 degrees.
+
+25
+00:02:45,862 --> 00:02:47,625
+Let's do another one.
+
+26
+00:02:47,625 --> 00:02:50,743
+So let's see. We have a little bit of a drawing here.
+
+27
+00:02:50,743 --> 00:02:54,110
+And what I want to do is, and we could think about different things.
+
+28
+00:02:54,110 --> 00:02:59,310
+We could say, let's solve for x. I'm assuming that 4x is the measure of this angle.
+
+29
+00:02:59,310 --> 00:03:02,374
+2x is the measure of that angle right over there.
+
+30
+00:03:02,374 --> 00:03:08,505
+We can solve for x and if we know x we can figure out what the actual measures of these angles are. Assuming that we can figure out x.
+
+31
+00:03:08,505 --> 00:03:13,759
+And the other thing that they tell us is that this line over here is parallel to this line over here.
+
+32
+00:03:13,759 --> 00:03:19,016
+And it's craftily drawn because it's parallel but one stops here and one sparks up there.
+
+33
+00:03:19,016 --> 00:03:22,616
+So the first thing I want to do, if they're telling us these two lines are parallel,
+
+34
+00:03:22,616 --> 00:03:25,851
+it's probably going to be something involving transversals or something.
+
+35
+00:03:25,851 --> 00:03:29,018
+It might be something involving, the other option is something involving triangles.
+
+36
+00:03:29,018 --> 00:03:32,966
+And at first you might say, wait, is this angle and that angle vertical angle?
+
+37
+00:03:32,966 --> 00:03:35,939
+But we have to be very careful. They are not. These are not the same lines.
+
+38
+00:03:35,939 --> 00:03:42,519
+This line is parallel to that line. This line it's bending right over there.
+
+39
+00:03:42,519 --> 00:03:44,262
+So we can't make any attempt of assumption like that.
+
+40
+00:03:44,262 --> 00:03:48,796
+So the interesting thing, and I'm not sure if this will lead us in the right direction,
+
+41
+00:03:48,796 --> 00:03:52,600
+is to just make it clear that these two are part of parallel lines.
+
+42
+00:03:52,600 --> 00:03:57,739
+So I could continue this line down like this. And I can continue this line up like that.
+
+43
+00:03:57,739 --> 00:04:02,130
+And then that starts to look a little bit more like we're used to when we're dealing with parallel lines.
+
+44
+00:04:02,130 --> 00:04:07,562
+And then this line segment BC or we could even say line BC if we were to continue it on,
+
+45
+00:04:07,562 --> 00:04:11,840
+if we were to continue it on and on even pass D.
+
+46
+00:04:11,840 --> 00:04:16,901
+Then this is clearly a transversal of those two parallel lines. This is clearly a trasnversal.
+
+47
+00:04:16,901 --> 00:04:22,470
+And so if this angle right over here, if this angle right over here is 4x,
+
+48
+00:04:22,470 --> 00:04:27,838
+it has a corresponding angle. Half of the..or maybe most of the work on all these
+
+49
+00:04:27,838 --> 00:04:34,792
+is to try to see the parallel lines and see the transversal and see the things that might be useful for you.
+
+50
+00:04:34,792 --> 00:04:36,746
+So that right there is the transversal.
+
+51
+00:04:36,746 --> 00:04:41,444
+These are the parallel lines, that's one parallel line, that's the other parallel line.
+
+52
+00:04:41,444 --> 00:04:43,934
+You can almost try to zone out all the other stuff in the diagram.
+
+53
+00:04:43,934 --> 00:04:52,294
+And so if this angle right over here is 4x, it has a corresponding angle where the transversal intersects the other parallel line.
+
+54
+00:04:52,294 --> 00:04:55,819
+This right here is its corresponding angle.
+
+55
+00:04:55,819 --> 00:04:58,301
+So let me draw it in the same yellow.
+
+56
+00:04:58,301 --> 00:05:00,446
+So this right here is the corresponding angle.
+
+57
+00:05:00,446 --> 00:05:04,323
+So this will also be, this will also be 4x.
+
+58
+00:05:04,323 --> 00:05:09,861
+And we see that this angle and this angle, this angle has a measure of 4x,
+
+59
+00:05:09,861 --> 00:05:13,791
+this angle has a measure of 2x. We can see that they're supplementary.
+
+60
+00:05:13,791 --> 00:05:18,609
+They're adjacent to each other. The outer sides form a straight angle.
+
+61
+00:05:18,609 --> 00:05:21,758
+So they're supplementary which means that their measure add up to 180 degrees.
+
+62
+00:05:21,758 --> 00:05:26,905
+They go all the way around like that, if you add the two adjacent angles together.
+
+63
+00:05:26,905 --> 00:05:33,147
+So we know that 4x plus 2x needs to be equal to 180 degrees.
+
+64
+00:05:33,147 --> 00:05:36,422
+Or we get 6x is equal to 180 degrees.
+
+65
+00:05:36,422 --> 00:05:40,629
+Divide both sides by 6, you get x is equal to 30.
+
+66
+00:05:40,629 --> 00:05:48,957
+And this angle right over here is 2 times x, so it's going to be 60 degrees.
+
+67
+00:05:48,957 --> 00:05:52,914
+So this angle right over here is going to be 60 degrees.
+
+68
+00:05:52,914 --> 00:06:02,811
+And this angle right over here is 4 times x. So it is 120 degrees.
+
+69
+00:06:02,811 --> 00:06:05,000
+And we're done.

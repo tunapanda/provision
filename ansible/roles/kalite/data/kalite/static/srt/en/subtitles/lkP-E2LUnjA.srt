@@ -1,0 +1,91 @@
+1
+00:00:01,206 --> 00:00:06,557
+On a string instrument, the length of a string "l"
+
+2
+00:00:06,557 --> 00:00:12,773
+varies inversely as the frequency.
+
+3
+00:00:12,773 --> 00:00:36,023
+So, l = k*1/f.
+
+4
+00:00:36,023 --> 00:01:00,189
+An 11-inch string has a frequency of 400 cycles per second
+
+5
+00:01:00,189 --> 00:01:06,106
+So, f = 400 cycles / second
+
+6
+00:01:06,106 --> 00:01:08,556
+Find the constant of proportionality and
+
+7
+00:01:08,556 --> 00:01:15,240
+then find the frequency of a 10 inch string
+
+8
+00:01:15,240 --> 00:01:35,672
+So 11 = k *1/400. So to solve for the constant of proportionality
+
+9
+00:01:35,672 --> 00:01:46,156
+we will mutiply both sides by 400 cycles / second
+
+10
+00:01:46,156 --> 00:02:23,340
+so the left hand side becomes 400 * 11 = 4400 cycles*inches/second
+
+11
+00:02:23,340 --> 00:02:26,589
+4400 cycles*inches/second = k
+
+12
+00:02:26,589 --> 00:02:54,357
+We can say the length = 4400cycles*inches/second * 1/f
+
+13
+00:02:54,357 --> 00:03:01,423
+Now we are taking of a situation where l= 10 inches
+
+14
+00:03:01,423 --> 00:03:24,590
+10 inches = 4400 cycles*inches/second * 1/f
+
+15
+00:03:24,590 --> 00:03:37,940
+We could mutiply both sides by "f" & we can also divide
+
+16
+00:03:37,940 --> 00:03:54,721
+both sides by 10 inches.
+
+17
+00:03:54,721 --> 00:03:56,456
+Left hand side we are left with "f" = frequency
+
+18
+00:03:56,456 --> 00:04:23,123
+Right hand side we have 4400/10 = 440cycles/second
+
+19
+00:04:23,123 --> 00:04:27,940
+So when our string is 10 inches long
+
+20
+00:04:27,940 --> 00:04:30,272
+our frequency has increased to 440 cycles/second
+
+21
+00:04:30,272 --> 00:04:32,706
+So when our string was 11 inches long f= 400cycles/second
+
+22
+00:04:32,706 --> 00:04:38,356
+when our string is shorter at 10 inches our
+
+23
+00:04:38,356 --> 99:59:59,999
+f has increased to 440 cycles/second

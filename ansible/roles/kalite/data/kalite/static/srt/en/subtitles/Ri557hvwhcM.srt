@@ -1,0 +1,1033 @@
+1
+00:00:00,900 --> 00:00:06,040
+So not only can a magnetic field
+exert some force on a
+
+2
+00:00:06,040 --> 00:00:09,230
+moving charge, we're now going
+to learn that a moving charge
+
+3
+00:00:09,230 --> 00:00:12,160
+or a current can actually
+create a magnetic field.
+
+4
+00:00:12,160 --> 00:00:15,010
+So there is some type
+of symmetry here.
+
+5
+00:00:15,010 --> 00:00:18,600
+And as we'll learn later when
+we learn our calculus and we
+
+6
+00:00:18,600 --> 00:00:25,810
+do this in a slightly more
+rigorous way, we'll see that
+
+7
+00:00:25,810 --> 00:00:29,010
+magnetic fields and electric
+fields are actually two sides
+
+8
+00:00:29,010 --> 00:00:32,430
+of the same coin, of
+electromagnetic fields.
+
+9
+00:00:32,430 --> 00:00:33,880
+But anyway, we won't worry
+about that now.
+
+10
+00:00:33,880 --> 00:00:36,260
+And I think it's enough to
+ponder right now that a
+
+11
+00:00:36,260 --> 00:00:39,220
+current can actually induce
+a magnetic field.
+
+12
+00:00:39,220 --> 00:00:40,570
+And actually, just
+a moving electron
+
+13
+00:00:40,570 --> 00:00:42,320
+creates a magnetic field.
+
+14
+00:00:42,320 --> 00:00:45,110
+And it does it in a surface of a
+sphere-- I won't go into all
+
+15
+00:00:45,110 --> 00:00:45,500
+that right now.
+
+16
+00:00:45,500 --> 00:00:47,500
+Because the math gets a little
+bit fancy there.
+
+17
+00:00:47,500 --> 00:00:50,600
+But what you might encounter in
+your standard high school
+
+18
+00:00:50,600 --> 00:00:52,950
+physics class-- that's not
+getting deeply into vector
+
+19
+00:00:52,950 --> 00:00:57,180
+calculus-- is that if you
+just have a wire--
+
+20
+00:00:57,180 --> 00:00:58,820
+let me draw a wire.
+
+21
+00:00:58,820 --> 00:01:00,780
+That's my wire.
+
+22
+00:01:00,780 --> 00:01:10,030
+And it's carrying some current
+I, it turns out that this wire
+
+23
+00:01:10,030 --> 00:01:12,230
+will generate a magnetic
+field.
+
+24
+00:01:12,230 --> 00:01:14,840
+And the shape of that magnetic
+field is going to be
+
+25
+00:01:14,840 --> 00:01:19,960
+co-centric circles
+around this wire.
+
+26
+00:01:19,960 --> 00:01:22,730
+Let me see if I can draw that.
+
+27
+00:01:22,730 --> 00:01:25,730
+So here I'll draw it just like
+how I do when I try to do
+
+28
+00:01:25,730 --> 00:01:29,510
+rotations of solids in
+the calculus video.
+
+29
+00:01:29,510 --> 00:01:34,120
+So the magnetic field would go
+behind and in front and it
+
+30
+00:01:34,120 --> 00:01:37,730
+goes like that.
+
+31
+00:01:37,730 --> 00:01:40,130
+Or another way you can think
+about it is if-- let's go down
+
+32
+00:01:40,130 --> 00:01:42,930
+here-- is on the left
+side of this wire.
+
+33
+00:01:42,930 --> 00:01:45,840
+If you say that the wire's in
+the plane of this video, the
+
+34
+00:01:45,840 --> 00:01:49,110
+magnetic field is popping
+out of your screen.
+
+35
+00:01:52,650 --> 00:01:55,500
+And on this side, on the right
+side, the magnetic field is
+
+36
+00:01:55,500 --> 00:01:57,980
+popping into the screen.
+
+37
+00:01:57,980 --> 00:02:00,000
+It's going into the screen.
+
+38
+00:02:00,000 --> 00:02:01,400
+And you could imagine
+that, right?
+
+39
+00:02:01,400 --> 00:02:04,840
+You could imagine if, on this
+drawing up here, you could say
+
+40
+00:02:04,840 --> 00:02:06,370
+this is where it intersects
+the screen.
+
+41
+00:02:06,370 --> 00:02:09,240
+All of this is kind of
+behind the screen.
+
+42
+00:02:09,240 --> 00:02:11,440
+And all of this is in
+front of the screen.
+
+43
+00:02:11,440 --> 00:02:13,460
+And this is where it's
+popping out.
+
+44
+00:02:13,460 --> 00:02:15,430
+And this is where it's popping
+into the screen.
+
+45
+00:02:15,430 --> 00:02:16,770
+Hopefully that makes a
+little bit of sense.
+
+46
+00:02:16,770 --> 00:02:20,180
+And how did I know that it's
+rotating this way?
+
+47
+00:02:20,180 --> 00:02:22,370
+Well, it actually does come out
+of the cross product when
+
+48
+00:02:22,370 --> 00:02:24,950
+you do it with a regular
+charge and all of that.
+
+49
+00:02:24,950 --> 00:02:26,740
+But we're not going to go
+into that right now.
+
+50
+00:02:26,740 --> 00:02:28,670
+And so there's a different
+right hand rule
+
+51
+00:02:28,670 --> 00:02:29,640
+that you can use.
+
+52
+00:02:29,640 --> 00:02:34,130
+And it's literally you hold
+this wire, or you imagine
+
+53
+00:02:34,130 --> 00:02:37,810
+holding this wire, with your
+right hand with your thumb
+
+54
+00:02:37,810 --> 00:02:39,570
+going in the direction
+of the current.
+
+55
+00:02:39,570 --> 00:02:42,010
+And if you hold this wire with
+your thumb going in the
+
+56
+00:02:42,010 --> 00:02:44,790
+direction of the current, your
+fingers are going to go in the
+
+57
+00:02:44,790 --> 00:02:47,890
+direction of the
+magnetic field.
+
+58
+00:02:47,890 --> 00:02:51,030
+So let me see if I
+can draw that.
+
+59
+00:02:51,030 --> 00:02:52,830
+I will draw it in blue.
+
+60
+00:02:52,830 --> 00:02:58,070
+So if this is my thumb, my thumb
+is going along the top
+
+61
+00:02:58,070 --> 00:03:00,690
+of the wire.
+
+62
+00:03:00,690 --> 00:03:03,045
+And then my hand is curling
+around the wire.
+
+63
+00:03:06,000 --> 00:03:06,700
+Those are my knuckles.
+
+64
+00:03:06,700 --> 00:03:09,380
+Those are the veins
+on my hand.
+
+65
+00:03:09,380 --> 00:03:12,210
+This is my nail.
+
+66
+00:03:12,210 --> 00:03:16,490
+So as you can see, if I was
+holding that same wire-- let
+
+67
+00:03:16,490 --> 00:03:17,760
+me draw the wire.
+
+68
+00:03:17,760 --> 00:03:21,490
+So if I was holding that same
+wire, we see that my thumb is
+
+69
+00:03:21,490 --> 00:03:22,970
+going in the direction
+of the current.
+
+70
+00:03:22,970 --> 00:03:25,910
+So this is a slightly new
+thing to memorize.
+
+71
+00:03:25,910 --> 00:03:27,730
+And what is the magnetic
+field doing?
+
+72
+00:03:27,730 --> 00:03:30,840
+Well, it's going in the
+direction of my fingers.
+
+73
+00:03:30,840 --> 00:03:33,930
+My fingers are popping out
+on this side of the wire.
+
+74
+00:03:33,930 --> 00:03:35,760
+They're coming out on this
+side of the wire.
+
+75
+00:03:35,760 --> 00:03:37,560
+And they're going in, or
+at least my hand is
+
+76
+00:03:37,560 --> 00:03:39,460
+going in, on that side.
+
+77
+00:03:39,460 --> 00:03:42,490
+It's going into the screen.
+
+78
+00:03:42,490 --> 00:03:44,570
+Hopefully that makes sense.
+
+79
+00:03:44,570 --> 00:03:46,070
+Now, how can we quantify?
+
+80
+00:03:46,070 --> 00:03:48,280
+Well, before we quantify, let's
+get a little bit more of
+
+81
+00:03:48,280 --> 00:03:49,890
+the intuition of what's
+happening.
+
+82
+00:03:49,890 --> 00:03:52,730
+It turns out that the closer
+you get to the wire, the
+
+83
+00:03:52,730 --> 00:03:56,290
+stronger the magnetic field, and
+the further you get out,
+
+84
+00:03:56,290 --> 00:03:57,800
+the weaker the magnetic field.
+
+85
+00:03:57,800 --> 00:04:00,510
+And that kind of makes sense
+if you imagine the magnetic
+
+86
+00:04:00,510 --> 00:04:01,760
+field spreading out.
+
+87
+00:04:04,380 --> 00:04:06,460
+I don't want to go into too
+sophisticated analogies.
+
+88
+00:04:06,460 --> 00:04:08,830
+But if you imagine the magnetic
+field spreading out,
+
+89
+00:04:08,830 --> 00:04:10,580
+and as it goes further and
+further out it kind of gets
+
+90
+00:04:10,580 --> 00:04:12,705
+distributed over a wider and
+wider circumference.
+
+91
+00:04:12,705 --> 00:04:15,270
+And actually the formula I'm
+going to give you kind of has
+
+92
+00:04:15,270 --> 00:04:16,870
+a taste for that.
+
+93
+00:04:16,870 --> 00:04:20,450
+So the formula for the magnetic
+field-- and it really
+
+94
+00:04:20,450 --> 00:04:23,110
+is defined with a cross product
+and things like that,
+
+95
+00:04:23,110 --> 00:04:25,920
+but for our purposes we won't
+worry about that.
+
+96
+00:04:25,920 --> 00:04:29,350
+You'll just have to know that
+this is the shape if the
+
+97
+00:04:29,350 --> 00:04:30,950
+current is going in
+that direction.
+
+98
+00:04:30,950 --> 00:04:33,880
+And, of course, if the current
+was going downwards then the
+
+99
+00:04:33,880 --> 00:04:35,550
+magnetic field would just
+reverse directions.
+
+100
+00:04:35,550 --> 00:04:36,640
+But it would still
+be in co-centric
+
+101
+00:04:36,640 --> 00:04:38,220
+circles around the wire.
+
+102
+00:04:38,220 --> 00:04:42,870
+But anyway, what is the
+magnitude of that field?
+
+103
+00:04:42,870 --> 00:04:49,630
+The magnitude of that magnetic
+field is equal to mu-- which
+
+104
+00:04:49,630 --> 00:04:52,240
+is a Greek letter, which I will
+explain in a second--
+
+105
+00:04:52,240 --> 00:04:58,120
+times the current divided
+by 2 pi r.
+
+106
+00:04:58,120 --> 00:05:00,590
+So this has a little bit
+of a feel for what
+
+107
+00:05:00,590 --> 00:05:01,280
+I was saying before.
+
+108
+00:05:01,280 --> 00:05:04,430
+That the further you go out--
+where r is how far you are
+
+109
+00:05:04,430 --> 00:05:09,410
+from the wire-- the further you
+go out, if r gets bigger,
+
+110
+00:05:09,410 --> 00:05:12,750
+the magnitude of the magnetic
+field is going to get weaker.
+
+111
+00:05:12,750 --> 00:05:14,650
+And this 2 pi r, that
+looks a lot like the
+
+112
+00:05:14,650 --> 00:05:16,140
+circumference of a circle.
+
+113
+00:05:16,140 --> 00:05:17,225
+So that gives you
+a taste for it.
+
+114
+00:05:17,225 --> 00:05:20,730
+I know I haven't proved
+anything rigorously.
+
+115
+00:05:20,730 --> 00:05:22,730
+But it at least gives you a
+sense of, look there's a
+
+116
+00:05:22,730 --> 00:05:23,450
+little formula for
+
+117
+00:05:23,450 --> 00:05:24,350
+circumference of a circle here.
+
+118
+00:05:24,350 --> 00:05:25,400
+And that kind of makes
+sense, right?
+
+119
+00:05:25,400 --> 00:05:27,280
+Because the magnetic
+field at that point
+
+120
+00:05:27,280 --> 00:05:29,770
+is kind of a circle.
+
+121
+00:05:29,770 --> 00:05:33,940
+The magnitude is equal at an
+equal radius around that wire.
+
+122
+00:05:33,940 --> 00:05:36,770
+Now what is this mu, this thing
+that looks like a u?
+
+123
+00:05:36,770 --> 00:05:39,380
+Well, that's the permeability
+of the material
+
+124
+00:05:39,380 --> 00:05:40,330
+that the wire's in.
+
+125
+00:05:40,330 --> 00:05:41,990
+So the magnetic field is
+actually going to have a
+
+126
+00:05:41,990 --> 00:05:44,820
+different strength depending on
+whether this wire is going
+
+127
+00:05:44,820 --> 00:05:48,420
+through rubber, whether it's
+going through a vacuum, or
+
+128
+00:05:48,420 --> 00:05:50,840
+air, or metal, or water.
+
+129
+00:05:50,840 --> 00:05:54,400
+And for the purposes of your
+high school physics class, we
+
+130
+00:05:54,400 --> 00:05:56,990
+assume that it's going
+through air normally.
+
+131
+00:05:56,990 --> 00:06:01,930
+And the value for air
+is pretty close to
+
+132
+00:06:01,930 --> 00:06:03,310
+the value for a vacuum.
+
+133
+00:06:03,310 --> 00:06:05,600
+And it's called the permeability
+of a vacuum.
+
+134
+00:06:05,600 --> 00:06:07,410
+And I forget what
+that value is.
+
+135
+00:06:07,410 --> 00:06:08,200
+I could look it up.
+
+136
+00:06:08,200 --> 00:06:09,820
+But it actually turns
+out that your
+
+137
+00:06:09,820 --> 00:06:11,010
+calculator has that value.
+
+138
+00:06:11,010 --> 00:06:12,710
+So let's do a problem,
+just to put some
+
+139
+00:06:12,710 --> 00:06:14,580
+numbers to the formula.
+
+140
+00:06:14,580 --> 00:06:19,460
+So let's say I had this current
+and it is-- I don't
+
+141
+00:06:19,460 --> 00:06:22,032
+know, the current is equal
+to-- I'm going
+
+142
+00:06:22,032 --> 00:06:22,780
+to make up a number.
+
+143
+00:06:22,780 --> 00:06:25,740
+2 amperes.
+
+144
+00:06:25,740 --> 00:06:33,320
+And let's say that I just pick
+a point right here that is--
+
+145
+00:06:33,320 --> 00:06:36,670
+let's say that that's
+3 meters away
+
+146
+00:06:36,670 --> 00:06:37,950
+from the wire in question.
+
+147
+00:06:37,950 --> 00:06:39,980
+So my question to you is what
+is the magnitude in the
+
+148
+00:06:39,980 --> 00:06:43,760
+direction of the magnetic
+field right there?
+
+149
+00:06:43,760 --> 00:06:45,140
+Well, the magnitude is easy.
+
+150
+00:06:45,140 --> 00:06:46,650
+We just substitute
+in this equation.
+
+151
+00:06:46,650 --> 00:06:50,540
+So the magnitude of the magnetic
+field at this point
+
+152
+00:06:50,540 --> 00:06:53,410
+is equal to-- and we assume that
+the wire's going through
+
+153
+00:06:53,410 --> 00:06:57,270
+air or a vacuum-- the
+permeability of free space--
+
+154
+00:06:57,270 --> 00:06:59,770
+that's just a constant, though
+it looks fancy-- times the
+
+155
+00:06:59,770 --> 00:07:04,910
+current times 2 amperes
+divided by 2 pi r.
+
+156
+00:07:04,910 --> 00:07:05,345
+What's r?
+
+157
+00:07:05,345 --> 00:07:07,350
+It's 3 meters.
+
+158
+00:07:07,350 --> 00:07:09,020
+So 2 pi times 3.
+
+159
+00:07:09,020 --> 00:07:13,260
+So it equals the permeability
+of free space.
+
+160
+00:07:13,260 --> 00:07:13,510
+So let's see.
+
+161
+00:07:13,510 --> 00:07:16,630
+The 2 and the 2 cancel
+out over 3 pi.
+
+162
+00:07:16,630 --> 00:07:18,350
+So how do we calculate that?
+
+163
+00:07:18,350 --> 00:07:24,040
+Well, we get out our trusty
+TI-85 calculator.
+
+164
+00:07:24,040 --> 00:07:28,510
+And I think you'll be maybe
+pleasantly surprised or
+
+165
+00:07:28,510 --> 00:07:31,330
+shocked to realize that-- I
+deleted everything just so you
+
+166
+00:07:31,330 --> 00:07:34,280
+can see how I get there--
+that it actually has the
+
+167
+00:07:34,280 --> 00:07:36,640
+permeability of free
+space stored in it.
+
+168
+00:07:36,640 --> 00:07:39,220
+So what you do is you go to
+second and you press constant,
+
+169
+00:07:39,220 --> 00:07:41,330
+which is the 4 button.
+
+170
+00:07:41,330 --> 00:07:43,560
+It's in the built-in
+constants.
+
+171
+00:07:43,560 --> 00:07:44,790
+Let's see, it's not
+one of those.
+
+172
+00:07:44,790 --> 00:07:46,430
+You press more.
+
+173
+00:07:46,430 --> 00:07:48,040
+It's not one of those,
+press more.
+
+174
+00:07:48,040 --> 00:07:49,170
+Oh look at that.
+
+175
+00:07:49,170 --> 00:07:50,700
+Mu nought.
+
+176
+00:07:50,700 --> 00:07:52,270
+The permeability
+of free space.
+
+177
+00:07:52,270 --> 00:07:54,120
+That's what I need.
+
+178
+00:07:54,120 --> 00:07:57,190
+And I have to divide
+it by 3 pi.
+
+179
+00:07:57,190 --> 00:08:00,570
+Divide it by 3-- and
+then where is pi?
+
+180
+00:08:00,570 --> 00:08:01,210
+There it is.
+
+181
+00:08:01,210 --> 00:08:03,000
+It's over the power sign.
+
+182
+00:08:03,000 --> 00:08:05,880
+Divided by 3 pi.
+
+183
+00:08:05,880 --> 00:08:10,480
+It equals 1.3 times 10 to
+the negative seventh.
+
+184
+00:08:10,480 --> 00:08:11,940
+It's going to be teslas.
+
+185
+00:08:11,940 --> 00:08:17,820
+The magnetic field is going to
+be equal to 1.3 times 10 to
+
+186
+00:08:17,820 --> 00:08:20,270
+the minus seventh teslas.
+
+187
+00:08:20,270 --> 00:08:23,290
+So it's a fairly weak
+magnetic field.
+
+188
+00:08:23,290 --> 00:08:27,220
+And that's why you don't have
+metal objects being thrown
+
+189
+00:08:27,220 --> 00:08:31,520
+around by the wires behind
+your television set.
+
+190
+00:08:31,520 --> 00:08:33,650
+But anyway, hopefully that gives
+you a little bit-- and
+
+191
+00:08:33,650 --> 00:08:36,289
+just so you know how it
+all fits together.
+
+192
+00:08:36,289 --> 00:08:40,700
+We're saying that these moving
+charges, not only can they be
+
+193
+00:08:40,700 --> 00:08:42,909
+affected by a magnetic field,
+not only can a current be
+
+194
+00:08:42,909 --> 00:08:45,870
+affected by a magnetic field
+or just a moving charge, it
+
+195
+00:08:45,870 --> 00:08:47,270
+actually creates them.
+
+196
+00:08:47,270 --> 00:08:49,840
+And that kind of creates a
+little bit of symmetry in your
+
+197
+00:08:49,840 --> 00:08:50,270
+head, hopefully.
+
+198
+00:08:50,270 --> 00:08:52,770
+Because that was also true
+of electric field.
+
+199
+00:08:52,770 --> 00:08:57,170
+A charge, a stationary charge,
+is obviously pulled or pushed
+
+200
+00:08:57,170 --> 00:08:58,760
+by a static electric field.
+
+201
+00:08:58,760 --> 00:09:01,910
+And it also creates its own
+static electric field.
+
+202
+00:09:01,910 --> 00:09:03,640
+So it's always in the
+back of your mind.
+
+203
+00:09:03,640 --> 00:09:05,180
+Because if you keep studying
+physics, you're going to
+
+204
+00:09:05,180 --> 00:09:09,000
+actually prove to yourself that
+electric and magnetic
+
+205
+00:09:09,000 --> 00:09:11,790
+fields are two sides
+of the same coin.
+
+206
+00:09:11,790 --> 00:09:14,150
+And it just looks like a
+magnetic field when you're in
+
+207
+00:09:14,150 --> 00:09:15,930
+a different frame of reference,
+When something is
+
+208
+00:09:15,930 --> 00:09:17,020
+whizzing past you.
+
+209
+00:09:17,020 --> 00:09:19,650
+While if you were whizzing along
+with it, then that thing
+
+210
+00:09:19,650 --> 00:09:20,350
+would look static.
+
+211
+00:09:20,350 --> 00:09:21,830
+And then it might look a
+little bit more like an
+
+212
+00:09:21,830 --> 00:09:22,820
+electric field.
+
+213
+00:09:22,820 --> 00:09:25,230
+But anyway, I'll leave
+you there now.
+
+214
+00:09:25,230 --> 00:09:29,160
+And in the next video I will
+show you what happens when we
+
+215
+00:09:29,160 --> 00:09:33,440
+have two wires carrying current
+
+216
+00:09:33,440 --> 00:09:34,660
+parallel to each other.
+
+217
+00:09:34,660 --> 00:09:37,630
+And you might guess that they
+might actually attract or
+
+218
+00:09:37,630 --> 00:09:38,560
+repel each other.
+
+219
+00:09:38,560 --> 00:09:41,450
+Anyway, I'll see you
+in the next video.

@@ -1,0 +1,395 @@
+1
+00:00:00,733 --> 00:00:02,867
+In the last video I challenged you to write
+
+2
+00:00:02,867 --> 00:00:06,933
+multiple Fibonacci functions. The ones that could calculate
+
+3
+00:00:06,933 --> 00:00:09,149
+the "n-th" term of the Fibonacci sequence
+
+4
+00:00:09,149 --> 00:00:12,933
+either iteratively or recursively and I'll do the first shot
+
+5
+00:00:12,933 --> 00:00:15,400
+right over here. And I'll show you over the next few videos
+
+6
+00:00:15,400 --> 00:00:17,667
+that the is really multiple ways of even doing this
+
+7
+00:00:17,667 --> 00:00:19,000
+iteratively.
+
+8
+00:00:19,000 --> 00:00:24,800
+So let's define our function "fibonacci" and it has a peremiter "n".
+
+9
+00:00:24,800 --> 00:00:32,067
+That is what we are going to pass to the function and we know that
+
+10
+00:00:32,067 --> 00:00:36,600
+by definition the first two terms of the Fibonacci sequence are 0 and 1.
+
+11
+00:00:36,600 --> 00:00:41,355
+So let's make a list for ourselves and so this is interesting
+
+12
+00:00:41,355 --> 00:00:43,700
+so this is the first time we are really going to do some,
+
+13
+00:00:43,700 --> 00:00:46,933
+you know, some actual list manipulation in this video.
+
+14
+00:00:46,933 --> 00:00:51,533
+So the terms here, the 0-th term of the fibonacci sequence is 0
+
+15
+00:00:51,533 --> 00:00:53,133
+and the first one is 1.
+
+16
+00:00:53,133 --> 00:00:57,200
+This is by definition. So we're just gonna kinda hardcode that in right there.
+
+17
+00:00:57,200 --> 00:01:03,800
+And then what we're gonna do is, then we're going to construct this list
+
+18
+00:01:03,800 --> 00:01:07,431
+to all of the terms up to and including the "n-th" term.
+
+19
+00:01:07,431 --> 00:01:11,200
+And then return the "n-th" term from that list. And the reason
+
+20
+00:01:11,200 --> 00:01:13,933
+why I'm going to do it this way is that it is able to save up
+
+21
+00:01:13,933 --> 00:01:16,400
+kind of a memory of all the Fibonacci numbers, which is helpul
+
+22
+00:01:16,400 --> 00:01:20,933
+for computing each incremental Fibonacci number. So let's do it this way.
+
+23
+00:01:20,933 --> 00:01:23,867
+I'm gonna use the while-loop. You could do it using the for-loop but for me
+
+24
+00:01:23,867 --> 00:01:25,867
+the while-loop feels a little more natural for this.
+
+25
+00:01:25,867 --> 00:01:29,667
+And actually before I even define the while-loop, I'm gonna set my
+
+26
+00:01:29,667 --> 00:01:35,533
+variable of iteration I should say. I'm gonna set that equal to 0.
+
+27
+00:01:35,533 --> 00:01:37,779
+And your gonna see how this works in a second.
+
+28
+00:01:37,779 --> 00:01:44,933
+So I'm gonna say while "i" is less than or equal to n, so "i" is
+
+29
+00:01:44,933 --> 00:01:49,067
+gonna start at 0 and go up to n. And frankly I shouldn't start
+
+30
+00:01:49,067 --> 00:01:52,133
+at 0. Cause we already have this 0-th term here on the first term here
+
+31
+00:01:52,133 --> 00:01:55,800
+and we want to construct the second, third, fourth all the way
+
+32
+00:01:55,800 --> 00:01:58,700
+to the n-th term. So actually let's start "i" at 2. So we
+
+33
+00:01:58,700 --> 00:02:02,067
+already have the 0-th term in the first term, we then want to
+
+34
+00:02:02,067 --> 00:02:04,733
+construct the second term so thats why we are going to start "i" equals 2
+
+35
+00:02:04,733 --> 00:02:07,533
+all the way up to and including the n-th term.
+
+36
+00:02:07,533 --> 00:02:10,467
+So that's why we say less than or equal to n, we are gonna
+
+37
+00:02:10,467 --> 00:02:13,200
+keep adding terms to this sequence.
+
+38
+00:02:13,200 --> 00:02:20,867
+So while "i" is less than or equal to "n", I'm gonna take this list right here
+
+39
+00:02:20,867 --> 00:02:26,533
+and to the end of that list and this is a built-in function for any list in Python
+
+40
+00:02:26,533 --> 00:02:30,349
+and you're learning it now and you could look it up and actually my IDE
+
+41
+00:02:30,349 --> 00:02:34,800
+tells me how to use it. I can add to the end of that list another term.
+
+42
+00:02:34,800 --> 00:02:38,333
+And that next term I'm going to add at the end of the list is going to be
+
+43
+00:02:38,333 --> 00:02:41,355
+the SUM of the previous 2 terms. So it is going to be
+
+44
+00:02:41,355 --> 00:02:49,947
+terms "i" - 1, so thats the previous term, terms "i"-1 literally refers
+
+45
+00:02:49,947 --> 00:03:01,800
+to the previous term plus terms "i" - 2. So it is essentially going to construct this Fibonacci
+
+46
+00:03:01,800 --> 00:03:06,400
+sequence and build it in this list and then we are going to increment "i".
+
+47
+00:03:06,400 --> 00:03:12,333
+I is equal to "i" + 1. If we never increment "i" then this loop
+
+48
+00:03:12,333 --> 00:03:16,023
+will just keep going on for ever and ever but this way it's gonna keep going
+
+49
+00:03:16,023 --> 00:03:19,533
+up and up until at some point "i" is not going to be less than or equal to "n"
+
+50
+00:03:19,533 --> 00:03:21,667
+and then we are going to break out of the loop. And then
+
+51
+00:03:21,667 --> 00:03:31,600
+when we break out of the loop, we can then return the "n-th"
+
+52
+00:03:31,600 --> 00:03:42,867
+Fibonacci term in the sequence. So we're going to return the "n-th" term in terms.
+
+53
+00:03:42,867 --> 00:03:45,467
+So let's see if this works, let's see if this makes sense.
+
+54
+00:03:45,467 --> 00:03:49,067
+So I'm going to go all the way up to the n-th term.
+
+55
+00:03:49,067 --> 00:03:57,933
+And actually the "n-th" term here, yes this should work cause if I had
+
+56
+00:03:57,933 --> 00:04:03,333
+if this was Fibonacci of 0, I want it to return terms of 0 which is this term over here
+
+57
+00:04:03,333 --> 00:04:07,200
+if it's Fibonacci of 1 I wanna return this term right over here.
+
+58
+00:04:07,200 --> 00:04:11,333
+So it's the first term in terms over here not 0-th but the first.
+
+59
+00:04:11,333 --> 00:04:14,351
+So this feels like it should work and actually even before i run it,
+
+60
+00:04:14,351 --> 00:04:17,440
+i want you to make sure you understand what i've done here with the list.
+
+61
+00:04:17,440 --> 00:04:20,200
+So I'm gonna show you a little bit of example how these lists work.
+
+62
+00:04:20,200 --> 00:04:28,098
+So if I define a list as, I don't know, 1,2. That's my list.
+
+63
+00:04:28,098 --> 00:04:34,067
+And if i then say, it is doing something weird, so I'm gonna define my list as
+
+64
+00:04:34,067 --> 00:04:35,467
+1 coma 2
+
+65
+00:04:35,467 --> 00:04:44,831
+So if i type "a" it is 1,2. If I append "a", a.append.
+
+66
+00:04:44,831 --> 00:04:50,667
+Let's I append a 7 to it then if I look "a" I have a 7 at the end it.
+
+67
+00:04:50,667 --> 00:04:55,067
+If I wanna refer to the elements here a[0] should be the first element.
+
+68
+00:04:55,067 --> 00:05:00,164
+The second element, i've just put 2 in the bracket, should give me the 7.
+
+69
+00:05:00,164 --> 00:05:02,267
+So that is exactly what I'm doing over here.
+
+70
+00:05:02,267 --> 00:05:07,267
+I'm saying terms of "i" - 1, so we're going to add a new term over here
+
+71
+00:05:07,267 --> 00:05:09,400
+so this first time we go through the loop we are going to add a new term
+
+72
+00:05:09,400 --> 00:05:17,997
+and it is going to be the SUM of terms of "i" - 1, so in that first loop "i" is 2
+
+73
+00:05:17,997 --> 00:05:21,829
+"i" - 1 is 1 so terms of 1 + terms of 0.
+
+74
+00:05:21,829 --> 00:05:24,733
+So it is going to be terms of 1 which is + terms of 0.
+
+75
+00:05:24,733 --> 00:05:28,748
+And then it keeps doing that all the way until we construct the n-th term.
+
+76
+00:05:28,748 --> 00:05:32,600
+Well enough talk and I'll step through it a little bit clearer in the next video
+
+77
+00:05:32,600 --> 00:05:35,400
+with the particular example but let's just see what we wrote
+
+78
+00:05:35,400 --> 00:05:38,826
+actually works. So let me run it.
+
+79
+00:05:38,826 --> 00:05:40,667
+All right.
+
+80
+00:05:40,667 --> 00:05:42,333
+Let's see if we get the proper results.
+
+81
+00:05:42,333 --> 00:05:45,933
+Well let's just start at the beginning.
+
+82
+00:05:45,933 --> 00:05:47,333
+Fibonacci of 0 well that looks good.
+
+83
+00:05:47,333 --> 00:05:49,000
+Let's try Fibonacci of 1.
+
+84
+00:05:49,000 --> 00:05:50,267
+That looks good.
+
+85
+00:05:50,267 --> 00:05:52,247
+Fibonacci of 2 that should also be 1.
+
+86
+00:05:52,247 --> 00:05:53,826
+That looks good.
+
+87
+00:05:53,826 --> 00:05:57,867
+Fibonacci of 3 this should be 2 now cause we are taking the SUM of 1 + 1.
+
+88
+00:05:57,867 --> 00:05:58,667
+That works.
+
+89
+00:05:58,667 --> 00:06:00,583
+Let's try the Ficonacci of 10.
+
+90
+00:06:00,583 --> 00:06:01,867
+Hey that looks pretty good.
+
+91
+00:06:01,867 --> 00:06:03,867
+Let's try the Fibonacci of something huge.
+
+92
+00:06:03,867 --> 00:06:05,250
+Fibonacci of a 100.
+
+93
+00:06:05,250 --> 00:06:14,267
+This is a very large number and I'm not going to go into the whole
+
+94
+00:06:14,267 --> 00:06:17,765
+floating kind of the long numbers and super long large ones but let's try
+
+95
+00:06:17,765 --> 00:06:18,867
+something a little bit smaller over here.
+
+96
+00:06:18,867 --> 00:06:20,273
+So let's try Fibonacci of 20.
+
+97
+00:06:20,273 --> 00:06:23,800
+So it looks like it works and you can verify for yourself.
+
+98
+00:06:23,800 --> 00:06:26,333
+So this is just one implementation of it and in the next few I'm gonna try
+
+99
+00:06:26,333 --> 99:59:59,999
+another way to implement it. Maybe I'll do it with a for-loop or we could also do it recursively.

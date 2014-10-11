@@ -1,0 +1,979 @@
+1
+00:00:00,070 --> 00:00:03,200
+Before I go on with problem 143,
+
+2
+00:00:03,200 --> 00:00:05,860
+I actually have a bone to pick with problem 142.
+
+3
+00:00:07,020 --> 00:00:08,620
+We actually went through it correctly,
+
+4
+00:00:08,620 --> 00:00:10,760
+although I probably did a couple of more steps then I had to.
+
+5
+00:00:10,760 --> 00:00:13,460
+Because when I do them in real time my brain wanders.
+
+6
+00:00:13,460 --> 00:00:15,560
+But now that I've had time to sit and look at it a little bit
+
+7
+00:00:15,560 --> 00:00:16,630
+I realize that I think
+
+8
+00:00:16,630 --> 00:00:19,040
+the GMAT people may have made a mistake.
+
+9
+00:00:19,040 --> 00:00:20,690
+So what was the problem?
+
+10
+00:00:20,690 --> 00:00:26,590
+The problem itself was 9 to the x plus 9 to the minus x
+
+11
+00:00:26,880 --> 00:00:28,680
+is equal to b. The problem is,
+
+12
+00:00:28,680 --> 00:00:32,870
+do we have enough information to answer this question?
+
+13
+00:00:32,870 --> 00:00:33,660
+That's how they phrase it.
+
+14
+00:00:33,660 --> 00:00:35,750
+They don't say do you have enough information to say that
+
+15
+00:00:35,750 --> 00:00:36,580
+this is true.
+
+16
+00:00:36,580 --> 00:00:38,160
+They say do we have enough information
+
+17
+00:00:38,160 --> 00:00:39,200
+to answer this question.
+
+18
+00:00:39,200 --> 00:00:42,220
+So if I have enough information to say, no, this is not true.
+
+19
+00:00:42,220 --> 00:00:45,190
+That statement should still be good.
+
+20
+00:00:45,390 --> 00:00:46,830
+So we can ignore statement number 1.
+
+21
+00:00:47,000 --> 00:00:49,480
+In the last video I showed that that was sufficient.
+
+22
+00:00:49,480 --> 00:00:51,380
+I still agree that that is completely sufficient.
+
+23
+00:00:51,380 --> 00:00:53,020
+But let's look at statement number 2.
+
+24
+00:00:54,040 --> 00:00:56,410
+According to the GMAT people,they say that
+
+25
+00:00:56,410 --> 00:00:59,740
+statement number 2 is not sufficient to answer this question.
+
+26
+00:00:59,740 --> 00:01:00,920
+I'll argue that it is.
+
+27
+00:01:00,920 --> 00:01:02,690
+Because they say that statement number 2 says that
+
+28
+00:01:02,690 --> 00:01:05,500
+x is greater than 0, which is equal to b.
+
+29
+00:01:05,900 --> 00:01:08,440
+I take this to mean that x is greater than 0
+
+30
+00:01:08,700 --> 00:01:12,100
+and 0 is equal to b or b is equal to 0.
+
+31
+00:01:12,100 --> 00:01:14,490
+Maybe I'm misunderstanding that,but that's the only way
+
+32
+00:01:14,490 --> 00:01:16,790
+I can think of interpreting this thing.
+
+33
+00:01:16,790 --> 00:01:20,720
+So if b is equal to 0, what is the statement
+
+34
+00:01:20,720 --> 00:01:22,310
+that we're trying to see if we can answer,
+
+35
+00:01:22,310 --> 00:01:23,490
+or the question that we're trying to answer?
+
+36
+00:01:23,490 --> 00:01:24,660
+What does that boil down to?
+
+37
+00:01:24,660 --> 00:01:26,680
+Well then the question boils down to
+
+38
+00:01:26,980 --> 00:01:32,990
+9 to the x plus 9 to the minus x is equal to 0.
+
+39
+00:01:34,020 --> 00:01:39,310
+My question to you is, if I'm taking 9 to any power,
+
+40
+00:01:39,610 --> 00:01:41,310
+to any power whatsoever,
+
+41
+00:01:41,310 --> 00:01:44,170
+can I ever get 0 or a negative number?
+
+42
+00:01:44,170 --> 00:01:45,790
+In fact, the only way I can get to 0 is
+
+43
+00:01:45,790 --> 00:01:49,190
+if I do 9 to the minus infinity power, right?
+
+44
+00:01:49,190 --> 00:01:51,930
+Because that equals 1 over 9 to the infinity.
+
+45
+00:01:51,930 --> 00:01:53,250
+So that might approach 0.
+
+46
+00:01:53,250 --> 00:01:55,130
+But even if I said x was infinity here,
+
+47
+00:01:55,220 --> 00:01:57,700
+on this side I would have 9 to the infinity here.
+
+48
+00:01:57,700 --> 00:02:00,510
+This would be infinity plus 0.
+
+49
+00:02:00,510 --> 00:02:01,800
+So it would still approach infinity.
+
+50
+00:02:01,800 --> 00:02:03,090
+So there's actually no way--
+
+51
+00:02:03,590 --> 00:02:05,110
+and that's the limit and all that,
+
+52
+00:02:05,110 --> 00:02:06,870
+I don't want to get confused-- but there's no way.
+
+53
+00:02:06,870 --> 00:02:07,700
+Some people think, oh,
+
+54
+00:02:07,700 --> 00:02:08,760
+if I'm taking it to a negative exponent,
+
+55
+00:02:08,760 --> 00:02:10,750
+maybe that becomes a negative power.
+
+56
+00:02:10,750 --> 00:02:13,190
+No, a negative exponent just means an inverse.
+
+57
+00:02:13,190 --> 00:02:17,680
+So this could be written as 1 over 9 to the x is equal to 0.
+
+58
+00:02:18,050 --> 00:02:21,860
+So if x becomes a very large number,
+
+59
+00:02:21,860 --> 00:02:24,870
+this becomes very positive and this approaches 0.
+
+60
+00:02:24,870 --> 00:02:29,120
+If x becomes a very, very, very, very small fraction,
+
+61
+00:02:29,120 --> 00:02:33,870
+this number becomes a small number.
+
+62
+00:02:34,000 --> 00:02:36,000
+But then this is the inverse of a small number,
+
+63
+00:02:36,000 --> 00:02:37,210
+so this becomes a large number.
+
+64
+00:02:39,510 --> 00:02:43,720
+Actually, if x becomes negative, these just switch places.
+
+65
+00:02:43,920 --> 00:02:47,830
+This becomes 1 over 9 to the positive x.
+
+66
+00:02:47,830 --> 00:02:48,580
+You got the point.
+
+67
+00:02:48,580 --> 00:02:50,770
+These are just negatives of each other, these exponents.
+
+68
+00:02:50,770 --> 00:02:53,990
+If x was 0, then both of these are equal to 1.
+
+69
+00:02:53,990 --> 00:02:55,510
+So then you get 2 is equal to 0.
+
+70
+00:02:57,010 --> 00:03:00,160
+The way I see it, statement 2 answers our question.
+
+71
+00:03:00,160 --> 00:03:01,730
+But the answer is no,
+
+72
+00:03:01,730 --> 00:03:04,890
+9 to the x plus 9 to the minus x does not equal b
+
+73
+00:03:04,890 --> 00:03:07,020
+because statement 2 says b is equal to 0.
+
+74
+00:03:07,020 --> 00:03:09,450
+But anyway, I don't harp on this too much,
+
+75
+00:03:09,450 --> 00:03:11,620
+but I think they actually made a mistake.
+
+76
+00:03:11,620 --> 00:03:13,870
+Because statement 2, in my mind,answers the question.
+
+77
+00:03:13,870 --> 00:03:16,100
+It just doesn't say that the question is true.
+
+78
+00:03:16,800 --> 00:03:20,100
+Let's move on to the next question. But it's good.
+
+79
+00:03:20,100 --> 00:03:22,950
+I think discussions like that,even though some poor chap--
+
+80
+00:03:22,950 --> 00:03:24,590
+because apparently these are real GMAT questions--
+
+81
+00:03:24,590 --> 00:03:27,370
+some poor chap might have gotten it wrong.
+
+82
+00:03:27,770 --> 00:03:30,730
+But we can use that as a piece of instruction.
+
+83
+00:03:30,730 --> 00:03:32,040
+So anyway, 143.
+
+84
+00:03:32,890 --> 00:03:37,650
+They say if m is greater than 0 and n is greater than 0,
+
+85
+00:03:37,650 --> 00:03:47,420
+is m plus x over n plus x greater than m over n.
+
+86
+00:03:48,020 --> 00:03:48,850
+Interesting.
+
+87
+00:03:48,850 --> 00:03:52,020
+So they're essentially saying,if I have m over n
+
+88
+00:03:52,020 --> 00:03:54,400
+and then I add the same number, we call that x,
+
+89
+00:03:54,400 --> 00:03:56,330
+to both the numerator and the denominator
+
+90
+00:03:56,330 --> 00:04:00,270
+does that make the whole fraction bigger?
+
+91
+00:04:00,870 --> 00:04:02,710
+I'll just give you a little intuition right now.
+
+92
+00:04:05,330 --> 00:04:08,470
+If I had a very small number for x, relative to m and n,
+
+93
+00:04:08,470 --> 00:04:10,100
+it doesn't change the fraction much.
+
+94
+00:04:10,100 --> 00:04:11,490
+Well, let me put it this way.
+
+95
+00:04:11,790 --> 00:04:15,450
+If I had anything, whatever x is, and the larger x is,
+
+96
+00:04:15,450 --> 00:04:17,580
+the more that this fraction is going to approach 1.
+
+97
+00:04:17,580 --> 00:04:20,860
+You think about it, if m is 1, and n is 2,
+
+98
+00:04:20,960 --> 00:04:22,640
+and x is 1 million, and x is 1 million,
+
+99
+00:04:22,840 --> 00:04:26,700
+then that million is going to overpower the m and the n.
+
+100
+00:04:26,700 --> 00:04:28,790
+You probably remember that a little bit from your limits.
+
+101
+00:04:28,790 --> 00:04:29,870
+But I just want to give you that intuition.
+
+102
+00:04:29,870 --> 00:04:33,290
+Regardless of what m and n are,if x gets suitably large,
+
+103
+00:04:33,290 --> 00:04:35,720
+then this will approach 1.
+
+104
+00:04:35,720 --> 00:04:37,130
+But I don't know if that's going to help us.
+
+105
+00:04:37,130 --> 00:04:38,320
+Let's look at the statements.
+
+106
+00:04:39,000 --> 00:04:43,510
+Statement 1, m is less than n.
+
+107
+00:04:45,660 --> 00:04:46,820
+So if m is less than n,
+
+108
+00:04:46,820 --> 00:04:49,520
+this says that this is going to be less than 1.
+
+109
+00:04:49,520 --> 00:04:50,690
+So it's going to be a fraction.
+
+110
+00:04:51,020 --> 00:04:55,590
+I just said that if I add an x to the numerator
+
+111
+00:04:55,590 --> 00:04:57,990
+and the denominator of something, you're going to approach 1.
+
+112
+00:04:58,060 --> 00:04:59,970
+But we have to be careful
+
+113
+00:05:00,070 --> 00:05:02,090
+because they didn't tell us that x is positive.
+
+114
+00:05:02,090 --> 00:05:04,280
+So I might be subtracting x.
+
+115
+00:05:05,300 --> 00:05:07,260
+Maybe this x is a negative 1 million.
+
+116
+00:05:07,260 --> 00:05:08,540
+Let me give you that example.
+
+117
+00:05:08,540 --> 00:05:10,360
+So let's say m is less than n.
+
+118
+00:05:10,360 --> 00:05:14,330
+So let's say that m is equal to 1, n is equal to 2.
+
+119
+00:05:15,000 --> 00:05:17,410
+So we could say if x is 1 million--
+
+120
+00:05:17,410 --> 00:05:19,780
+let's say something similar, let's say x is 100--
+
+121
+00:05:20,080 --> 00:05:25,960
+so m plus x would be 101 and n plus n would be 102.
+
+122
+00:05:26,790 --> 00:05:29,840
+That is easily greater than 1/2.
+
+123
+00:05:30,430 --> 00:05:32,110
+You say, oh, excellent.
+
+124
+00:05:32,110 --> 00:05:33,360
+Statement 1 is sufficient.
+
+125
+00:05:34,360 --> 00:05:35,880
+First of all, that doesn't prove sufficiency,
+
+126
+00:05:35,880 --> 00:05:37,550
+but it's easy to prove that it's not sufficient.
+
+127
+00:05:37,550 --> 00:05:41,390
+Because what if x were minus 100.
+
+128
+00:05:41,790 --> 00:05:45,430
+Then it would be 1 minus 100 would be minus 99.
+
+129
+00:05:46,070 --> 00:05:50,780
+Then 2 minus 100 would be minus 98.
+
+130
+00:05:51,580 --> 00:05:54,490
+Is that a greater than 1/2? Well, no.
+
+131
+00:05:55,000 --> 00:05:56,610
+This is a little over minus 1.
+
+132
+00:05:56,610 --> 00:05:58,280
+So it's actually a negative number.
+
+133
+00:05:58,280 --> 00:05:59,660
+It's going to be less than 1/2.
+
+134
+00:05:59,660 --> 00:06:01,850
+So statement 1 alone is not sufficient.
+
+135
+00:06:01,850 --> 00:06:04,580
+Because I can pick an m and an n using statement number 1,
+
+136
+00:06:04,580 --> 00:06:05,300
+and then an x.
+
+137
+00:06:05,300 --> 00:06:06,680
+I could pick different x's
+
+138
+00:06:06,680 --> 00:06:08,770
+where the statement is either true or not true.
+
+139
+00:06:08,770 --> 00:06:09,970
+This one is not true.
+
+140
+00:06:10,770 --> 00:06:12,150
+I'm trying to cross that out.
+
+141
+00:06:12,150 --> 00:06:13,670
+Let's look at statement number 2.
+
+142
+00:06:15,030 --> 00:06:22,310
+Statement number 2 tells us that x is greater than 0.
+
+143
+00:06:22,810 --> 00:06:26,050
+So let's think about just x being greater than 0 alone.
+
+144
+00:06:26,050 --> 00:06:27,100
+Does that help us?
+
+145
+00:06:27,800 --> 00:06:32,290
+Well, it does help us if m is less than n.
+
+146
+00:06:33,080 --> 00:06:36,240
+Because I just gave the example that if m is less than n--
+
+147
+00:06:36,240 --> 00:06:39,370
+so if you're starting with some fraction that's less than 1--
+
+148
+00:06:42,740 --> 00:06:44,970
+and you add a positive number to both the numerator
+
+149
+00:06:44,970 --> 00:06:46,210
+and the denominator,
+
+150
+00:06:46,210 --> 00:06:49,290
+you're just going to get a little bit closer to 1.
+
+151
+00:06:49,290 --> 00:06:50,040
+So you're actually going to
+
+152
+00:06:50,040 --> 00:06:51,630
+increase the value of that fraction
+
+153
+00:06:52,000 --> 00:06:54,190
+You could test it out on a bunch of different numbers, right?
+
+154
+00:06:54,390 --> 00:06:57,580
+If you add 1 to the numerator and the denominator of 1/2,
+
+155
+00:06:57,580 --> 00:06:58,820
+you get 2/3.
+
+156
+00:06:59,090 --> 00:07:00,860
+If you add another 1, you get 3/4.
+
+157
+00:07:01,080 --> 00:07:04,040
+If you add another 1, you get 4/5.
+
+158
+00:07:04,040 --> 00:07:05,380
+So you see how this continues.
+
+159
+00:07:05,380 --> 00:07:08,360
+As you add more and more to the numerator and the denominator,
+
+160
+00:07:08,360 --> 00:07:09,460
+it approaches 1.
+
+161
+00:07:09,860 --> 00:07:12,450
+This x greater than 0 satisfies our problem
+
+162
+00:07:12,450 --> 00:07:13,950
+with the first statement.
+
+163
+00:07:13,950 --> 00:07:16,170
+Because our first says, oh, what if x is negative?
+
+164
+00:07:16,170 --> 00:07:17,150
+Then it doesn't work.
+
+165
+00:07:17,760 --> 00:07:20,380
+But let's think about whether x greater than 0
+
+166
+00:07:20,380 --> 00:07:22,900
+by itself is enough to answer this question.
+
+167
+00:07:23,000 --> 00:07:25,730
+It works when m is less than n.
+
+168
+00:07:25,730 --> 00:07:27,950
+So it works in conjunction with statement 1.
+
+169
+00:07:28,310 --> 00:07:30,070
+But what if n is greater than m?
+
+170
+00:07:31,200 --> 00:07:37,680
+What if we start with an equation like 4 over 2?
+
+171
+00:07:40,200 --> 00:07:43,570
+4 over 2, is that-- let me make sure I get that--
+
+172
+00:07:46,760 --> 00:07:52,090
+is that less than 4 plus x over 2 plus x
+
+173
+00:07:52,390 --> 00:07:54,920
+for any x greater than 0?
+
+174
+00:07:55,010 --> 00:07:59,820
+Well, let's add 4 to the numerator and the denominator.
+
+175
+00:08:00,420 --> 00:08:04,310
+So then this would be equal to 8 over 6.
+
+176
+00:08:04,310 --> 00:08:06,160
+This number right here is 2.
+
+177
+00:08:06,160 --> 00:08:09,250
+This number right here is 1 1/3.
+
+178
+00:08:10,050 --> 00:08:11,040
+So it's not true.
+
+179
+00:08:12,330 --> 00:08:15,780
+If x is equal to 0, this statement still doesn't work
+
+180
+00:08:16,860 --> 00:08:18,600
+if n is greater than m.
+
+181
+00:08:18,600 --> 00:08:21,050
+So in order for this statement to be true,
+
+182
+00:08:21,050 --> 00:08:22,480
+or in order to answer this question,
+
+183
+00:08:22,780 --> 00:08:26,100
+you actually need both pieces of information.
+
+184
+00:08:26,100 --> 00:08:28,600
+So both statements together are sufficient to
+
+185
+00:08:28,600 --> 00:08:29,670
+answer this question.
+
+186
+00:08:30,590 --> 00:08:35,180
+Next problem, 144.
+
+187
+00:08:35,380 --> 00:08:37,040
+If n as a positive integer--
+
+188
+00:08:37,270 --> 00:08:38,970
+so they tell us n is greater than 0--
+
+189
+00:08:39,830 --> 00:08:43,800
+is 1/10 to the n less than 0.01?
+
+190
+00:08:43,800 --> 00:08:53,210
+So what they're saying is 1/10 to the n less than 0.01.
+
+191
+00:08:53,210 --> 00:08:55,510
+Well, what's 0.01? Well, let me write it out.
+
+192
+00:08:55,510 --> 00:08:56,780
+So this statement,
+
+193
+00:08:56,780 --> 00:09:02,410
+that's another way of saying 1/10 to the n less than--
+
+194
+00:09:02,410 --> 00:09:09,740
+0.01 is 1 over 100, which is the same thing as 1/10 squared.
+
+195
+00:09:13,010 --> 00:09:14,850
+Well let's just think about it a little bit.
+
+196
+00:09:15,460 --> 00:09:16,890
+Let me look at the statements
+
+197
+00:09:16,890 --> 00:09:19,010
+before I go off on my own tangent.
+
+198
+00:09:19,010 --> 00:09:25,900
+So statement 1, they say n is greater than 2.
+
+199
+00:09:26,690 --> 00:09:29,650
+So if n is greater than 2, as n increases,
+
+200
+00:09:29,950 --> 00:09:33,090
+is that going to make this whole number smaller or bigger?
+
+201
+00:09:33,890 --> 00:09:36,050
+Well, if I take a fraction,especially 1/10,
+
+202
+00:09:36,050 --> 00:09:38,140
+and I increase it to more and more powers,
+
+203
+00:09:38,140 --> 00:09:39,330
+I actually end up going more and more
+
+204
+00:09:39,330 --> 00:09:40,640
+behind the decimal point.
+
+205
+00:09:40,640 --> 00:09:44,210
+If n is greater than 2, at n equals 2, you get 0.01.
+
+206
+00:09:44,210 --> 00:09:46,410
+Then if n is equal to 3,
+
+207
+00:09:46,410 --> 00:09:47,640
+although it doesn't have to be an integer.
+
+208
+00:09:47,640 --> 00:09:48,950
+Actually they tell us it's an interger.
+
+209
+00:09:49,080 --> 00:09:51,290
+So if n equals 3, what is it?
+
+210
+00:09:52,440 --> 00:09:54,160
+So they say n has to be at least 3
+
+211
+00:09:54,660 --> 00:09:56,030
+because it's a positive integer.
+
+212
+00:09:56,530 --> 00:10:00,140
+So what's 1/10 to the third power? It's 0.001.
+
+213
+00:10:00,140 --> 00:10:02,200
+That's definitely less than 0.01.
+
+214
+00:10:02,200 --> 00:10:05,940
+What's 1/10 to the fourth power? That's 0.0001.
+
+215
+00:10:06,090 --> 00:10:07,860
+That's definitely less than 0.01.
+
+216
+00:10:08,010 --> 00:10:11,830
+So this statement alone is sufficient to answer the question.
+
+217
+00:10:13,370 --> 00:10:15,090
+Statement 2.
+
+218
+00:10:16,970 --> 00:10:18,450
+Another way you view this is,
+
+219
+00:10:18,450 --> 00:10:22,830
+this inequality could be written as 10 to the minus n
+
+220
+00:10:23,090 --> 00:10:26,630
+is less than 10 squared.
+
+221
+00:10:27,580 --> 00:10:32,620
+Then this is only going to happen if minus--
+
+222
+00:10:33,090 --> 00:10:35,310
+no, actually that's not a good way to go about it.
+
+223
+00:10:35,510 --> 00:10:37,100
+I think the way I explained it the first time
+
+224
+00:10:37,100 --> 00:10:38,750
+is probably the better way. All right.
+
+225
+00:10:38,750 --> 00:10:47,950
+The second statement they say is 1/10 to the n minus 1
+
+226
+00:10:48,960 --> 00:10:52,320
+is less than 0.1.
+
+227
+00:10:53,010 --> 00:10:54,480
+So what we could do here is
+
+228
+00:10:54,480 --> 00:10:57,310
+just multiply both sides of this equation by 1 over 10.
+
+229
+00:10:57,310 --> 00:10:58,230
+What happens?
+
+230
+00:10:58,230 --> 00:11:05,940
+You get 1/10 times 1/10 to the n minus 1 is less than--
+
+231
+00:11:05,940 --> 00:11:08,270
+what's 1/10 times 0.1?
+
+232
+00:11:08,270 --> 00:11:11,310
+Well, it's 0.01, right?
+
+233
+00:11:11,310 --> 00:11:12,520
+It's 1/10 of that.
+
+234
+00:11:13,450 --> 00:11:15,160
+What does this simplify to?
+
+235
+00:11:15,160 --> 00:11:18,730
+You have 1/10 to the first power times 1/10 to the n minus 1.
+
+236
+00:11:18,730 --> 00:11:19,500
+You add the exponents.
+
+237
+00:11:19,500 --> 00:11:21,300
+You could put a first power there.
+
+238
+00:11:22,020 --> 00:11:29,000
+Well, this is equal to 1/10 to the n is less than 0.01.
+
+239
+00:11:29,210 --> 00:11:31,680
+which is the statement that we originally had,
+
+240
+00:11:31,680 --> 00:11:33,300
+1/10 to the n is less than 0.01.
+
+241
+00:11:33,300 --> 00:11:36,060
+So statement 2 is actually equivalent to
+
+242
+00:11:36,060 --> 00:11:38,080
+the original problem statement.
+
+243
+00:11:38,080 --> 00:11:40,400
+So each of these statements,independently,
+
+244
+00:11:40,400 --> 00:11:42,760
+are sufficient to answer the question.
+
+245
+00:11:42,960 --> 00:11:44,890
+See you in the next video.

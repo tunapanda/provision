@@ -1,0 +1,635 @@
+1
+00:00:00,000 --> 00:00:04,981
+What I want to do in this video is revisit some ideas that you've probably taken for granted
+
+2
+00:00:04,981 --> 00:00:10,638
+since the time that you were, like, three or four years old, but hopefully you'll kind of view it in a new light
+
+3
+00:00:10,638 --> 00:00:14,402
+that will help inform us when we think about other types of number systems. So, we have ten digits in our number systems.
+
+4
+00:00:14,402 --> 00:00:22,804
+Let me just start counting. So if I have nothing I use the symbol 0. Then if I have one object
+
+5
+00:00:22,813 --> 00:00:27,669
+I use the symbol 1. Actually, let me draw this out. So nothing, then if I have one thing, I use the symbol 1.
+
+6
+00:00:27,669 --> 00:00:34,387
+If I have two things, I use the the symbol 2. If I have three things, I use the symbol 3. Let me scroll
+
+7
+00:00:34,387 --> 00:00:40,566
+down a little bit so you can see that. If I have four things, I use this symbol right over here. If I
+
+8
+00:00:40,597 --> 00:00:50,922
+have five things, I use this symbol. If I have six things... let's draw it like that... if I have I six things, I use that symbol.
+
+9
+00:00:50,922 --> 00:00:57,740
+If I have seven things, I use that symbol. I know this might be getting a little bit tedious, but this
+
+10
+00:00:57,740 --> 00:01:04,676
+all has a point. If I have eight things, eight things, I use this symbol. And if I have nine things I
+
+11
+00:01:04,676 --> 00:01:23,314
+use this symbol. And then if I have ten things... what symbol do I use? I've already used up my ten digits, we only have ten digits in a base ten
+
+12
+00:01:27,037 --> 00:01:30,698
+system, so we start reusing them. So what we do is we reintroduce this idea of number places. You said
+
+13
+00:01:30,698 --> 00:01:38,654
+that I have one ten and zero ones. So you say you have one ten and zero ones.
+
+14
+00:01:38,654 --> 00:01:45,898
+...and then zero ones. We call this one, we say it's in the ten's place. This is literally saying one,
+
+15
+00:01:45,898 --> 00:01:55,837
+this is saying one tens, this is one tens plus zero ones. So that's what this is saying.
+
+16
+00:01:55,837 --> 00:01:59,629
+But we didn't have to reuse it. We could have had maybe more symbols.
+
+17
+00:01:59,629 --> 00:02:02,974
+Maybe this was a symbol, or instead of, or maybe we would've created a new symbol.
+
+18
+00:02:03,035 --> 00:02:06,982
+Instead of, you know, all of these had their own symbol, so instead of having to reuse the old ones
+
+19
+00:02:06,982 --> 00:02:13,231
+maybe we could've made... the symbol star for ten. And then when you go to eleven we would
+
+20
+00:02:13,231 --> 00:02:17,021
+have had another symbol for that... let me go to eleven, just to hit the point home.
+
+21
+00:02:17,021 --> 00:02:21,946
+So... two, three, four, five, six, seven, eight, nine, ten, eleven.
+
+22
+00:02:21,946 --> 00:02:26,619
+So, eleven in our number system, we say that this is one ten... we say this one ten
+
+23
+00:02:26,619 --> 00:02:35,071
+... let me write it this way... one ten. And then this is also, it's one ten, and then one one.
+
+24
+00:02:35,071 --> 00:02:43,001
+... and then one one. So, it's one ten, plus one one. I know this is kind of strange to see
+
+25
+00:02:43,001 --> 00:02:49,121
+this way, but it represents this number of objects. If we had a base eleven, or I guess we could
+
+26
+00:02:49,151 --> 00:02:51,813
+say base twelve number system, maybe we would have a symbol for this
+
+27
+00:02:51,813 --> 00:02:55,544
+instead of reusing our old digits. Maybe a symbol could have been something wacky
+
+28
+00:02:55,544 --> 00:02:59,464
+... maybe it would've been a smiley face. Who knows what it would've been. And I'll introduce
+
+29
+00:02:59,464 --> 00:03:05,206
+higher number base systems in, kind of, future videos where we see, kind of, the symbols
+
+30
+00:03:05,206 --> 00:03:09,115
+that are actually used. But, what I want to do in this video is think about
+
+31
+00:03:09,115 --> 00:03:12,270
+how would we count, or what symbols would we use
+
+32
+00:03:12,270 --> 00:03:16,152
+if we had fewer digits, and in particular, how would we
+
+33
+00:03:16,152 --> 00:03:19,530
+count things if we only had two digits - if we only had
+
+34
+00:03:19,530 --> 00:03:23,973
+zero and one. Essentially, what we're going to do is think about
+
+35
+00:03:23,973 --> 00:03:27,457
+how we would represent numbers in base two.
+
+36
+00:03:27,457 --> 00:03:30,695
+Our traditional number system is a base ten number system.
+
+37
+00:03:30,695 --> 00:03:33,523
+We have ten digits - zero through nine.
+
+38
+00:03:33,523 --> 00:03:35,877
+How would we count in base two?
+
+39
+00:03:35,877 --> 00:03:38,531
+So, if you have zero things, you'd still probably say
+
+40
+00:03:38,531 --> 00:03:41,295
+"hey, I have zero. I can use the digit zero."
+
+41
+00:03:41,295 --> 00:03:43,540
+If I have one thing, I can still say
+
+42
+00:03:43,540 --> 00:03:45,800
+"hey, I have one thing"... because, we
+
+43
+00:03:45,800 --> 00:03:47,874
+have the digits of zero and one. So, let me make it clear.
+
+44
+00:03:47,935 --> 00:03:54,809
+The digits here, the digits in base two, can be zero or one.
+
+45
+00:03:54,809 --> 00:03:58,477
+So, if I have one thing, I can still use the number one.
+
+46
+00:03:58,492 --> 00:04:02,115
+But, now all of a sudden I have these two objects here,
+
+47
+00:04:02,123 --> 00:04:07,153
+and I'm saying that I'm limited... to only these two digits over here.
+
+48
+00:04:07,184 --> 00:04:09,844
+So, how can I represent it. Well, instead of
+
+49
+00:04:09,844 --> 00:04:13,415
+having a ten's place, I could create a two's place.
+
+50
+00:04:13,415 --> 00:04:16,218
+...and I know it might sound a little bit counter-intuitive but I think you'll
+
+51
+00:04:16,218 --> 00:04:22,718
+get used to it a little bit. So, over here in base ten, we said we had one ten and zero ones.
+
+52
+00:04:22,718 --> 00:04:25,722
+So in base two, why can't we that we have
+
+53
+00:04:25,722 --> 00:04:30,041
+one two - one two - and zero ones.
+
+54
+00:04:30,041 --> 00:04:33,383
+Let me make that clear. So, this right here is saying
+
+55
+00:04:33,383 --> 00:04:39,159
+one two and zero ones.
+
+56
+00:04:39,189 --> 00:04:42,595
+I want to make sure you understand the analogy here.
+
+57
+00:04:42,595 --> 00:04:45,149
+In base ten... let me write a larger number in base ten...
+
+58
+00:04:45,149 --> 00:04:49,266
+...and so if I write the number 256 in base ten...
+
+59
+00:04:49,266 --> 00:04:53,833
+so, this is base ten over here, what does this say?
+
+60
+00:04:53,833 --> 00:04:58,777
+This is saying two hundreds, so, two times a hundred...
+
+61
+00:04:58,777 --> 00:05:03,337
+or, maybe I should write down the word so I don't confuse the symbols...
+
+62
+00:05:03,337 --> 00:05:09,391
+two hundreds plus five times... or maybe I should I say two hundreds
+
+63
+00:05:09,391 --> 00:05:19,917
+plus five tens... two hundreds, plus five tens, plus six ones.
+
+64
+00:05:19,917 --> 00:05:22,133
+That's what I represent here, and the way we know that
+
+65
+00:05:22,133 --> 00:05:25,578
+is that we know that if we go two places to the left, this is the hundreds
+
+66
+00:05:25,578 --> 00:05:31,469
+place, this is the tens place, and this is the ones place.
+
+67
+00:05:31,469 --> 00:05:36,290
+And if you know from your exponents, this is equal to ten times ten.
+
+68
+00:05:36,290 --> 00:05:39,964
+This right here is equal to ten times itself only once
+
+69
+00:05:39,964 --> 00:05:42,473
+and this is equal to ten times itself, I guess
+
+70
+00:05:42,473 --> 00:05:43,958
+you could call it, zero times.
+
+71
+00:05:43,958 --> 00:05:46,650
+Or, if you know your exponents, this is
+
+72
+00:05:46,650 --> 00:05:49,900
+ten to the second power, this is ten to the first power place,
+
+73
+00:05:49,900 --> 00:05:52,209
+and this is ten to the zeroth power place.
+
+74
+00:05:52,209 --> 00:05:53,355
+And if you added another digit here, that
+
+75
+00:05:53,355 --> 00:05:55,055
+would be the thousandths place, which would be
+
+76
+00:05:55,055 --> 00:05:56,848
+ten times ten times ten.
+
+77
+00:05:56,848 --> 00:05:58,871
+We're going to do the exact same thing in base two
+
+78
+00:05:58,871 --> 00:06:00,755
+but, instead of using ten, we're going to
+
+79
+00:06:00,755 --> 00:06:03,407
+use two. So, now this is the two's place.
+
+80
+00:06:03,407 --> 00:06:06,580
+This is the two's place over here. This is the one's place.
+
+81
+00:06:06,580 --> 00:06:09,507
+If we add more digits... let me make it clear...
+
+82
+00:06:09,507 --> 00:06:13,733
+So in base two... let me write a number in base two...
+
+83
+00:06:13,733 --> 00:06:17,356
+remember, in base two I can only use zeros and ones.
+
+84
+00:06:17,356 --> 00:06:22,315
+So, in base two, maybe I have the number 1010.
+
+85
+00:06:22,315 --> 00:06:25,608
+So, when you think about it this way, if this was base ten
+
+86
+00:06:25,608 --> 00:06:29,167
+you would call this the ten's place, the hundred's place, and the thousandth's place.
+
+87
+00:06:29,167 --> 00:06:32,262
+But, this is base two now. So let me be very clear.
+
+88
+00:06:32,262 --> 00:06:35,435
+We are only using two digits. So, in base two
+
+89
+00:06:35,435 --> 00:06:37,928
+this right here is still the one's place
+
+90
+00:06:37,928 --> 00:06:40,731
+now this is going to be the two's place
+
+91
+00:06:40,731 --> 00:06:42,815
+remember, in base ten this was the ten's place, now
+
+92
+00:06:42,815 --> 00:06:44,346
+this is the two's place.
+
+93
+00:06:44,346 --> 00:06:47,577
+Now this would be, and you can take a guess here
+
+94
+00:06:47,577 --> 00:06:49,615
+hundreds was ten times ten.
+
+95
+00:06:49,615 --> 00:06:53,252
+When we go two spaces to the left in base two
+
+96
+00:06:53,252 --> 00:06:55,760
+this should be the two times two's place.
+
+97
+00:06:55,760 --> 00:07:03,695
+Or this is the four's place. This over here is going to be the eight's place.
+
+98
+00:07:03,695 --> 00:07:06,662
+So, if you wanted to kind of think about this in terms
+
+99
+00:07:06,662 --> 00:07:12,564
+of base two, this is one, one eight, plus zero fours,
+
+100
+00:07:12,564 --> 00:07:22,613
+plus one twos, plus zero ones. Plus zero ones.
+
+101
+00:07:22,613 --> 00:07:25,336
+So, if you wanted to represent this exact same number
+
+102
+00:07:25,336 --> 00:07:30,134
+in base ten, it's one eight, plus one two.
+
+103
+00:07:30,149 --> 00:07:34,562
+So, in base ten this would be... let me write it over here...
+
+104
+00:07:34,562 --> 00:07:39,173
+in base ten this would be an eight plus a two, which is just a ten
+
+105
+00:07:39,173 --> 00:07:43,941
+So, this is in base ten. This is how you'd represent
+
+106
+00:07:43,941 --> 00:07:47,517
+what we know as this many things - as ten things.
+
+107
+00:07:47,517 --> 00:07:50,152
+This is how you'd represent it in base two.
+
+108
+00:07:50,152 --> 00:07:53,763
+This is how we know we would represent it in base ten.
+
+109
+00:07:53,763 --> 00:07:56,334
+Now let's continue here, just to make sure we understand things.
+
+110
+00:07:56,334 --> 00:08:01,256
+So, this many objects, well, in base two we have one...
+
+111
+00:08:01,256 --> 00:08:04,708
+if you just have two objects - that's one two and zero ones...
+
+112
+00:08:04,708 --> 00:08:08,795
+now three objects would be one two plus one ones.
+
+113
+00:08:08,795 --> 00:08:11,469
+So, let me do it over here, so this would be one two
+
+114
+00:08:11,469 --> 00:08:13,031
+plus one ones.
+
+115
+00:08:13,031 --> 00:08:18,085
+So, this is three objects in base two.
+
+116
+00:08:18,085 --> 00:08:23,967
+Now when you go to this, so over here we have one four...
+
+117
+00:08:23,967 --> 00:08:25,855
+zero twos and zero ones.
+
+118
+00:08:25,871 --> 00:08:27,924
+So, now we're going to go to the four place.
+
+119
+00:08:27,924 --> 00:08:29,948
+Because we've essentially maxed out everything.
+
+120
+00:08:29,948 --> 00:08:32,402
+If we increment more, we have to go to one more place
+
+121
+00:08:32,402 --> 00:08:34,333
+just like we did in base ten, but now we can only use
+
+122
+00:08:34,333 --> 00:08:35,971
+the digits zero and one.
+
+123
+00:08:35,971 --> 00:08:41,008
+So, now we'll have one four, zero twos, zero ones.
+
+124
+00:08:41,008 --> 00:08:44,069
+Now when we add one more, we're going to add one more one
+
+125
+00:08:44,069 --> 00:08:49,915
+so, now we have one four, zero twos, and one one.
+
+126
+00:08:49,915 --> 00:08:53,215
+and just to be clear, this is this many things.
+
+127
+00:08:53,215 --> 00:08:57,767
+This is this many things in base two, this is the four place
+
+128
+00:08:57,767 --> 00:09:00,006
+one four and one one. If you wanted to convert
+
+129
+00:09:00,006 --> 00:09:02,263
+this into base ten, you'd say look
+
+130
+00:09:02,263 --> 00:09:08,146
+"this is one four, zero twos, and one one."
+
+131
+00:09:08,146 --> 00:09:11,444
+So, if you have a four and a one, we would represent
+
+132
+00:09:11,444 --> 00:09:14,082
+that with a symbol 5 in base ten, but
+
+133
+00:09:14,082 --> 00:09:16,992
+we don't have that symbol to us in base two.
+
+134
+00:09:16,992 --> 00:09:19,602
+Let's go to this. So, now we're going to increment one more.
+
+135
+00:09:19,602 --> 00:09:21,590
+So, how can we represent that in base two?
+
+136
+00:09:21,590 --> 00:09:23,367
+This is definitely, we're going to have one four...
+
+137
+00:09:23,367 --> 00:09:27,163
+and then we're going to have one two... and then
+
+138
+00:09:27,163 --> 00:09:29,257
+we're going to have zero ones.
+
+139
+00:09:29,257 --> 00:09:32,248
+And if you keep it... it's kind of fun counting
+
+140
+00:09:32,248 --> 00:09:34,133
+in base two, you'll start to get the hang of it.
+
+141
+00:09:34,133 --> 00:09:36,587
+So, here we'll have to add one one to this so we
+
+142
+00:09:36,587 --> 00:09:38,610
+get one, one, one.
+
+143
+00:09:38,610 --> 00:09:40,125
+And now when we get to eight, there's no
+
+144
+00:09:40,125 --> 00:09:42,025
+way to kind of increment any of these any
+
+145
+00:09:42,025 --> 00:09:44,518
+higher, so we have to get a new place... we have to go to
+
+146
+00:09:44,518 --> 00:09:46,761
+the eight's place. So, we have one eight...
+
+147
+00:09:46,761 --> 00:09:50,723
+zero fours, zero twos, and zero ones.
+
+148
+00:09:50,723 --> 00:09:52,983
+This right here, it might look like a thousand to you
+
+149
+00:09:52,983 --> 00:09:55,475
+but it would be a thousand if we were in base ten.
+
+150
+00:09:55,475 --> 00:10:02,023
+In base two, this is this many objects. This is eight objects in base two.
+
+151
+00:10:02,023 --> 00:10:04,237
+When you go... when you increment at one, we'll
+
+152
+00:10:04,237 --> 00:10:07,064
+have this many, we'll have one eight, and then we'll have one one.
+
+153
+00:10:07,064 --> 00:10:10,181
+So, it'll be 1001.
+
+154
+00:10:10,181 --> 00:10:15,026
+And then, I'll stop here, at what we consider to be ten objects....
+
+155
+00:10:15,026 --> 00:10:20,485
+in base two, you would say you have one eight, and you would need one two...
+
+156
+00:10:20,485 --> 00:10:23,648
+so zero fours, one two, and zero ones.
+
+157
+00:10:23,648 --> 00:10:28,029
+So, this right here is ten in base two.
+
+158
+00:10:28,029 --> 00:10:30,537
+This is ten in base ten.
+
+159
+00:10:30,583 --> 99:59:59,999
+Hopefully that doesn't confuse you too much.

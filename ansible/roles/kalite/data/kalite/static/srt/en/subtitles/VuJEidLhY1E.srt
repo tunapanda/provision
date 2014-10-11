@@ -1,0 +1,111 @@
+1
+00:00:00,951 --> 00:00:05,695
+Everyone in the kingdom is very impressed with your ability to help with the party planning,
+
+2
+00:00:05,695 --> 00:00:09,364
+everyone except for this gentleman right over here.
+
+3
+00:00:09,364 --> 00:00:15,361
+This is Arbegla, and he is the king's top adviser and also chief party planner,
+
+4
+00:00:15,361 --> 00:00:17,935
+And he seems somewhat threatened by your ability
+
+5
+00:00:17,935 --> 00:00:20,616
+to solve these otherwise unsolvable problems
+
+6
+00:00:20,616 --> 00:00:22,407
+or, at least, from his point of view
+
+7
+00:00:22,407 --> 00:00:24,138
+because he keeps over-ordering or under-ordering
+
+8
+00:00:24,138 --> 00:00:25,536
+things like cupcakes,
+
+9
+00:00:25,536 --> 00:00:27,943
+and so he asks... he says,
+
+10
+00:00:27,943 --> 00:00:29,734
+"King, that cupcake problem was easy."
+
+11
+00:00:29,734 --> 00:00:32,472
+"Ask them about the potato chip issue..."
+
+12
+00:00:32,472 --> 00:00:35,473
+"because we can never get the potato chips right."
+
+13
+00:00:35,473 --> 00:00:39,282
+And so the king says,"Arbegla, that's a good idea. We need to get the potato chips right."
+
+14
+00:00:39,282 --> 00:00:40,691
+So he comes to you and says
+
+15
+00:00:40,691 --> 00:00:44,192
+"How do we figure out, on average, how many potato chips we need to order?"
+
+16
+00:00:44,192 --> 00:00:49,207
+And to do that, we have to figure out, how much, on average does each man and each woman eat?
+
+17
+00:00:49,207 --> 00:00:51,612
+You say, "Well, what about the children?"
+
+18
+00:00:51,612 --> 00:00:55,601
+He says, the king says,"In our kingdom, we forbid the potato chips for children."
+
+19
+00:00:55,601 --> 00:01:01,193
+You say, "Oh well, that's...that's always good. So tell me what happened at the previous parties."
+
+20
+00:01:01,193 --> 00:01:21,472
+And so, the king says ," You might remember, at the last party, in fact the last two parties we had 500 adults, at the last party, 200 of them were men and 300 of them were women, and in total they ate 1200 bags of potato chips."
+
+21
+00:01:21,472 --> 00:01:23,276
+You say, "Well, what about the party before that?"
+
+22
+00:01:23,276 --> 00:01:38,339
+He says," That we had a bigger sque towards women. We only had a 100 men, and 400 women. And THAT time, we actually had fewer bags consumed; 1100 bags of potato chips."
+
+23
+00:01:38,339 --> 00:01:50,471
+So you say, "King and Arbegla, this seems like a fairly straightfoward thing, let me define some variables to represent our unknowns.
+
+24
+00:01:50,471 --> 00:02:15,405
+So you go ahead, and you say, "Lets let m=the number of bags eaten by each man. You could think of it on average, or maybe everyone, all the men in that kingdom are completely identical, or its its the average bags eaten by each man."
+
+25
+00:02:15,405 --> 00:02:34,206
+"And lets let w= the number of bags eaten by each woman. And so with that, these definitions of our variables, lets think about how we can represent this first piece of information. "
+
+26
+00:02:34,206 --> 00:02:51,206
+" In green. Well, let's think about the total number of bags that the men ate. You had 200 men, [Let me scroll over a little bit] and they each ate m bags per man. "
+
+27
+00:02:51,206 --> 00:03:06,135
+"So the man at this first party collectively ate 200 times m bags. If m is 10 bags per man, then this would be 2000. If m was 5 bags per man, then this would be 5000. We don't know what m is, but 200 times m is the total eaten by the man."
+
+28
+00:03:06,135 --> 00:03:10,135
+"How do we figure out, on average, how many potato chips we need to order?"

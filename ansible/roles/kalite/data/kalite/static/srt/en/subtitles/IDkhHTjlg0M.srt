@@ -1,0 +1,579 @@
+1
+00:00:00,860 --> 00:00:02,560
+We're on problem 210.
+
+2
+00:00:03,830 --> 00:00:07,460
+A television manufacturer produces 600 units of a
+
+3
+00:00:07,460 --> 00:00:15,180
+certain model each month at a cost to the manufacturer of
+
+4
+00:00:15,180 --> 00:00:16,280
+$90 per unit.
+
+5
+00:00:20,680 --> 00:00:23,890
+And all of the produced units are sold each month.
+
+6
+00:00:23,900 --> 00:00:27,760
+What is the minimum selling price per unit that will
+
+7
+00:00:27,850 --> 00:00:29,600
+ensure that the monthly profit--
+
+8
+00:00:29,970 --> 00:00:32,790
+revenue from sales minus manufacturer's cost to produce--
+
+9
+00:00:32,930 --> 00:00:39,040
+on the sales of these units will be at least $42,000.
+
+10
+00:00:39,410 --> 00:00:43,020
+OK. So, they want to know the minimum selling price.
+
+11
+00:00:43,020 --> 00:00:46,150
+So, let's call that p.
+
+12
+00:00:46,410 --> 00:00:48,010
+So how much are they going to make per unit?
+
+13
+00:00:48,150 --> 00:00:53,520
+p minus whatever their cost was. p minus $90.
+
+14
+00:00:53,550 --> 00:00:55,400
+That's how much they make per unit.
+
+15
+00:00:55,600 --> 00:00:58,300
+And they do that for 600 units.
+
+16
+00:00:59,610 --> 00:01:03,700
+And they say that this has to be at least $42,000.
+
+17
+00:01:03,700 --> 00:01:08,180
+So, this has to be greater than or equal to 42,000.
+
+18
+00:01:08,970 --> 00:01:18,420
+OK. So we get 600p minus-- what's 9 times 6? It's 54.
+
+19
+00:01:18,780 --> 00:01:22,070
+And then we have one, two, three 0's. 54,000-- Right?
+
+20
+00:01:22,470 --> 00:01:24,590
+9 times 6. Yep.
+
+21
+00:01:25,120 --> 00:01:27,760
+--is greater than or equal to 42,000.
+
+22
+00:01:28,110 --> 00:01:33,870
+So then you get 600p. Let's add 54,000 to both sides.
+
+23
+00:01:33,870 --> 00:01:42,030
+Has to be greater than or equal to 54 plus 42 is 96,000.
+
+24
+00:01:42,730 --> 00:01:46,050
+And just to simplify things, let's divide both sides by 100.
+
+25
+00:01:46,070 --> 00:01:51,430
+So, you get 6p. If you get two 0's here, two 0's here.
+
+26
+00:01:51,450 --> 00:01:56,010
+6p has to be greater than 960.
+
+27
+00:01:56,010 --> 00:01:58,610
+And then p has to be greater than or equal to--
+
+28
+00:01:58,610 --> 00:01:59,660
+we don't have to worry about this because
+
+29
+00:01:59,660 --> 00:02:01,050
+it's a positive number.
+
+30
+00:02:01,700 --> 00:02:07,840
+6 goes into 96, 16 times, so it goes into 960, 160 times.
+
+31
+00:02:08,010 --> 00:02:12,850
+So the minimum selling price is $160 which is choice d.
+
+32
+00:02:15,040 --> 00:02:17,620
+Problem 211.
+
+33
+00:02:19,800 --> 00:02:27,160
+If 4x plus 3y is equal to minus 2,
+
+34
+00:02:27,850 --> 00:02:35,020
+and 3x plus 6 is equal to 0, what is the value of y?
+
+35
+00:02:35,020 --> 00:02:39,010
+Well this is a quick one. 3x would be equal to minus 6.
+
+36
+00:02:39,420 --> 00:02:42,720
+So x is equal to minus 2. Substitute back here.
+
+37
+00:02:42,840 --> 00:02:48,030
+4 times minus 2, minus 8 plus 3y is equal to minus 2.
+
+38
+00:02:48,510 --> 00:02:54,010
+Add 8 to both sides. 3y is equal to minus 2 plus 8.
+
+39
+00:02:54,010 --> 00:03:03,390
+Or 3y is equal to 6.y is equal to 2. And so that is choice e.
+
+40
+00:03:05,370 --> 00:03:11,640
+Problem 212. I'll do it in a different color. 212.
+
+41
+00:03:12,000 --> 00:03:14,800
+The data sets one, two, and three above are ordered from
+
+42
+00:03:14,830 --> 00:03:17,840
+greatest standard deviation to least standard deviation in
+
+43
+00:03:17,870 --> 00:03:20,420
+which of the following? OK.
+
+44
+00:03:20,540 --> 00:03:22,040
+So they want us to order them essentially.
+
+45
+00:03:22,040 --> 00:03:33,670
+Greatest-- So, set one was 72, 73, 74, 75, 76.
+
+46
+00:03:34,900 --> 00:03:44,510
+Set two is 74-- it says 74 a bunch of times-- 74, 74.
+
+47
+00:03:44,680 --> 00:03:55,050
+And then set three has 62, and then 74, 74, 74, and then 89.
+
+48
+00:03:55,530 --> 00:03:58,220
+So, standard deviation is how much, on average,
+
+49
+00:03:58,250 --> 00:04:01,140
+do the numbers vary from the mean.
+
+50
+00:04:02,270 --> 00:04:07,020
+And all of these cases,the mean is 74.I'm just eyeballing it.
+
+51
+00:04:07,360 --> 00:04:12,540
+Let's see 89 is 15 more. Actually here the mean isn't 74.
+
+52
+00:04:13,010 --> 00:04:16,250
+So, first of all, every number here is the mean.
+
+53
+00:04:16,250 --> 00:04:18,110
+So, the standard deviation is actually 0.
+
+54
+00:04:18,210 --> 00:04:21,110
+So this is going to be-- they want to know from greatest
+
+55
+00:04:21,110 --> 00:04:23,510
+standard deviation to least standard deviation.
+
+56
+00:04:23,590 --> 00:04:26,650
+So, 2 is definitely the least standard deviation.
+
+57
+00:04:26,790 --> 00:04:30,520
+So that leaves us with choices either b or d.
+
+58
+00:04:34,030 --> 00:04:34,930
+And now have to figure out
+
+59
+00:04:34,930 --> 00:04:37,070
+which of these have a lower standard deviation.
+
+60
+00:04:37,070 --> 00:04:40,780
+So here we can just eyeball and say the average is 74.
+
+61
+00:04:41,080 --> 00:04:42,580
+If you average this and this you get 74,
+
+62
+00:04:42,580 --> 00:04:46,150
+that and that you get 74. So, what's the difference from 74?
+
+63
+00:04:46,480 --> 00:04:53,510
+Here it's 2.Here it's 1.Here it's 0.Here it's 1. Here it's 2.
+
+64
+00:04:53,620 --> 00:04:54,830
+You just want the magnitude,
+
+65
+00:04:55,000 --> 00:04:57,040
+how far away you are from 74 each time.
+
+66
+00:04:57,490 --> 00:04:58,970
+And if you were to average these numbers,
+
+67
+00:04:58,970 --> 00:05:01,380
+you get 2 plus 1, plus 1 plus 2.
+
+68
+00:05:01,380 --> 00:05:06,010
+That's 6 divided by 5. So, you get 6 over 5.
+
+69
+00:05:06,010 --> 00:05:08,600
+You know they square-- you could even do the variance if
+
+70
+00:05:08,770 --> 00:05:10,000
+you really cared about it, you could square these numbers.
+
+71
+00:05:10,400 --> 00:05:12,300
+But you just want to get some measure of, on average,
+
+72
+00:05:12,400 --> 00:05:14,100
+how far is each of the numbers from the mean.
+
+73
+00:05:14,380 --> 00:05:17,860
+So here's 6 over 5. Let's see 2 plus 1, 3.
+
+74
+00:05:17,860 --> 00:05:19,420
+Yep. 6-- and there's five numbers.
+
+75
+00:05:19,580 --> 00:05:22,040
+And 6 over 5 is the standard deviation there.
+
+76
+00:05:22,240 --> 00:05:25,030
+What's the mean here? This is interesting.
+
+77
+00:05:25,480 --> 00:05:29,180
+So, 74 to 89. Do I have those numbers right? Yeah.
+
+78
+00:05:29,180 --> 00:05:33,520
+to go from 74 to 89 you have to go plus--let me add these up.
+
+79
+00:05:35,900 --> 00:05:41,420
+You get 62-- actually what's the average of 62 and 89?
+
+80
+00:05:44,560 --> 00:05:47,820
+No, it's not 74.
+
+81
+00:05:48,050 --> 00:05:57,360
+Let's see 2 plus 11 is-- well I could just take the average--
+
+82
+00:05:57,690 --> 00:05:59,690
+I just want to figure out the mean as fast as possible.
+
+83
+00:05:59,690 --> 00:06:07,790
+So 89 and 62. 9 plus 2 is 11. 9 plus 6-- 151.
+
+84
+00:06:08,160 --> 00:06:14,530
+You divide that by 2. The mean of these two numbers are 75.5.
+
+85
+00:06:16,130 --> 00:06:18,120
+So, at least if you're trying to figure out the mean,
+
+86
+00:06:19,060 --> 00:06:22,220
+that's going to be the same thing is the mean of--
+
+87
+00:06:23,000 --> 00:06:25,150
+so actually let's just do this. It's 151.
+
+88
+00:06:25,440 --> 00:06:27,210
+Let's just take the average of everything.
+
+89
+00:06:27,210 --> 00:06:30,460
+I tried to be cute, but it's better to just be brute force.
+
+90
+00:06:30,540 --> 00:06:38,050
+So, 62 plus 89 is 151, plus 74 times 3, divided by 5.
+
+91
+00:06:38,050 --> 00:06:48,060
+Let's see. 74 times 3. 4 times 3 is 12. 7 times 3 is 21. 22.
+
+92
+00:06:48,470 --> 00:06:54,040
+And then 222 plus 151 is 3 7 3.
+
+93
+00:06:54,040 --> 00:06:56,440
+And then we're going to divide that by 5.
+
+94
+00:06:56,530 --> 00:07:06,660
+So, 5 goes into 373-- 7 times 5 is 35, 23, 5 goes into 23
+
+95
+00:07:07,000 --> 00:07:09,180
+4 times, 4 times 5 is 20.
+
+96
+00:07:10,290 --> 00:07:15,830
+3. 74.6. So the mean here is 74.6.
+
+97
+00:07:16,640 --> 00:07:18,130
+This is going to have the largest standard deviation
+
+98
+00:07:18,130 --> 00:07:20,770
+because this is 0.6 from the means,
+
+99
+00:07:20,810 --> 00:07:23,430
+this is 0.6 from the mean, this is 0.6 from the mean.
+
+100
+00:07:24,020 --> 00:07:27,630
+This number is 12.6 from the mean.
+
+101
+00:07:28,890 --> 00:07:33,060
+And then this number is 14.4 from the mean.
+
+102
+00:07:33,640 --> 00:07:36,370
+So, if you're to average these numbers,
+
+103
+00:07:36,670 --> 00:07:39,150
+you're going to get a bigger number than 6/5,
+
+104
+00:07:39,460 --> 00:07:45,610
+but let's just confirm it. So, 12.6 plus 14.4-- oh yeah,
+
+105
+00:07:45,630 --> 00:07:47,070
+you're definitely going to get a much bigger number
+
+106
+00:07:47,180 --> 00:07:49,390
+because when you summed all these up, you got a 6.
+
+107
+00:07:49,560 --> 00:07:55,190
+When you just sum up the 12.6 and the 14.4 you get-- 15--
+
+108
+00:07:55,430 --> 00:07:57,500
+you get 27. And then it's going to get to 29.
+
+109
+00:07:57,620 --> 00:07:59,620
+You divide that by 5.
+
+110
+00:07:59,690 --> 00:08:01,210
+The standard deviation here is going to be 4.
+
+111
+00:08:01,310 --> 00:08:04,180
+So, 3 has the largest standard deviation.
+
+112
+00:08:04,200 --> 00:08:08,410
+2 has the least. So, the correct answer is d.
+
+113
+00:08:08,490 --> 00:08:09,590
+I should've been able to eyeball that.
+
+114
+00:08:09,590 --> 00:08:11,470
+I shouldn't have had to go through all that computation.
+
+115
+00:08:11,530 --> 00:08:12,700
+I took too much time.
+
+116
+00:08:12,860 --> 00:08:14,610
+That wouldn't have been acceptable on the GMAT.
+
+117
+00:08:17,130 --> 00:08:19,570
+Problem 213.
+
+118
+00:08:21,360 --> 00:08:25,000
+Which of the following is the lowest positive integer that
+
+119
+00:08:25,000 --> 00:08:27,740
+is the divisible by all of those numbers?
+
+120
+00:08:27,810 --> 00:08:33,010
+So, it's 2, 3, 4, 5, 6, 7, 8, 9.
+
+121
+00:08:33,280 --> 00:08:35,000
+So the lowest positive integer that
+
+122
+00:08:35,000 --> 00:08:37,020
+is divisible by all of those.
+
+123
+00:08:37,620 --> 00:08:41,280
+So, one way to think about it is let's just try to minimize
+
+124
+00:08:41,280 --> 00:08:42,130
+our multiplication.
+
+125
+00:08:43,000 --> 00:08:46,560
+If we're divisible bye 8,
+
+126
+00:08:46,960 --> 00:08:50,850
+then we don't have to worry about 2 and 4.
+
+127
+00:08:51,360 --> 00:08:53,250
+Being divisible by 8 is enough.
+
+128
+00:08:54,550 --> 00:08:56,660
+Likewise if we're divisible by 9,
+
+129
+00:08:56,970 --> 00:08:59,230
+we don't have to worry about being divisible by 3
+
+130
+00:08:59,250 --> 00:09:00,760
+because we're definitely going to be divisible by 3.
+
+131
+00:09:01,890 --> 00:09:03,420
+We need to be divisible by 7.
+
+132
+00:09:04,030 --> 00:09:08,780
+If we're divisible by 6-- well, if we're divisible by 8
+
+133
+00:09:08,780 --> 00:09:12,480
+and 9 then that means we're already divisible by 2 and 3.
+
+134
+00:09:12,630 --> 00:09:15,550
+And if we're divisible by 2 and 3
+
+135
+00:09:15,670 --> 00:09:17,390
+then we don't have to worry about 6.
+
+136
+00:09:18,480 --> 00:09:21,020
+So, we only have to worry about 5, 7, 8, and 9.
+
+137
+00:09:21,100 --> 00:09:23,550
+So what are those numbers when you multiply by each other?
+
+138
+00:09:23,670 --> 00:09:26,900
+So if we do 8 times 9 is 72.
+
+139
+00:09:27,810 --> 00:09:33,630
+8 times 9 is equal to 72, we got rid of those,
+
+140
+00:09:33,630 --> 00:09:38,020
+times 7 is equal to 2 times 7 is 14.
+
+141
+00:09:38,020 --> 00:09:42,850
+7 times 7 is 49, plus 1 is 50. And that times 5.
+
+142
+00:09:45,430 --> 00:09:49,500
+4 times 5 is 20. 5 times 0 is 0. Bring down the 2.
+
+143
+00:09:49,810 --> 00:09:55,390
+5 times 5 is 25. So, it's 2,520. And that is choice c.
+
+144
+00:09:55,510 --> 00:09:56,410
+And I'm out of time.
+
+145
+00:09:56,450 --> 00:09:58,010
+See you in the next video.

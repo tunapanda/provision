@@ -1,0 +1,255 @@
+1
+00:00:00,773 --> 00:00:05,033
+Use substitution to solve for x and y and we have a system of equations here.
+
+2
+00:00:05,033 --> 00:00:13,571
+The first equation is 2y=x+7 and the second equation here is x=y-4.
+
+3
+00:00:13,571 --> 00:00:16,638
+So what we want to do when we say substitution is we want to
+
+4
+00:00:16,638 --> 00:00:19,448
+substitute one of the variables with an expression so that we
+
+5
+00:00:19,448 --> 00:00:22,410
+have an equation in only one variable then we can solve for it.
+
+6
+00:00:22,410 --> 00:00:25,462
+So let me show you what I'm talking about. Let me write this first degree equation.
+
+7
+00:00:25,462 --> 00:00:29,253
+2y=x+7.
+
+8
+00:00:29,253 --> 00:00:36,173
+And we have the second equation over her, that x=y-4.
+
+9
+00:00:36,173 --> 00:00:40,671
+So if we are looking for an x and y that satisfy both constraints, what we can see is, well look,
+
+10
+00:00:40,671 --> 00:00:43,520
+if the x and the y's have to satisfy both restraints,
+
+11
+00:00:43,520 --> 00:00:49,188
+both of these restraints have to be true. So x must be equal to y-4.
+
+12
+00:00:49,188 --> 00:00:52,103
+So anywhere in this top equation where we see an x
+
+13
+00:00:52,103 --> 00:00:59,756
+we say, "Well look, that x by the second constraint has to be equal to y-4.
+
+14
+00:00:59,764 --> 00:01:05,163
+So everywhere we see an x, we can substitute it by a y-4.
+
+15
+00:01:05,168 --> 00:01:09,843
+So let's do that. So if we substitute y-4 for x in this top equation,
+
+16
+00:01:09,843 --> 00:01:14,383
+the top equation becomes 2y is equal to-- instead of an x,
+
+17
+00:01:14,383 --> 00:01:23,683
+the second constraint tells us that x needs to be equal to y-4. So instead of an x, we'll have a y-4.
+
+18
+00:01:23,683 --> 00:01:27,614
+And then we have a plus seven.
+
+19
+00:01:27,614 --> 00:01:32,780
+All I did here was I substituted y-4 for x.
+
+20
+00:01:32,780 --> 00:01:35,169
+The second constraint tells us that we need to do it.
+
+21
+00:01:35,169 --> 00:01:39,244
+y-4 needs to be equal to x, or x needs to be equal to y-4.
+
+22
+00:01:39,244 --> 00:01:42,304
+The value here is now we have an equation.
+
+23
+00:01:42,304 --> 00:01:46,149
+One equation with one variable; we can just solve for y.
+
+24
+00:01:46,176 --> 00:01:54,896
+So we get 2y=y, and then we have minus 4 plus 7 so y+3,
+
+25
+00:01:54,896 --> 00:02:00,594
+we can subtract y from both sides of this equation.
+
+26
+00:02:00,594 --> 00:02:03,718
+The left hand side -- 2y-y is just y.
+
+27
+00:02:03,718 --> 00:02:08,036
+y is equal to-- these cancel out; y is equal to three.
+
+28
+00:02:08,036 --> 00:02:12,022
+And then we can go back and substitute into either of these equations and solve for x.
+
+29
+00:02:12,051 --> 00:02:13,666
+This is easier right over here,
+
+30
+00:02:13,666 --> 00:02:15,452
+so let's substitute right over here.
+
+31
+00:02:15,452 --> 00:02:17,270
+x needs to be equal to y-4.
+
+32
+00:02:17,270 --> 00:02:28,697
+So we can say that x is equal to 3-4, which is equal to -1.
+
+33
+00:02:28,743 --> 00:02:37,172
+So the solution to this system is x=-1, and y=3.
+
+34
+00:02:37,172 --> 00:02:39,778
+And you can verify that this works in this top equation right over here.
+
+35
+00:02:39,778 --> 00:02:46,722
+2*3 is 6, which is indeed equal to -1+7.
+
+36
+00:02:46,722 --> 00:02:49,329
+Now I want to show you that over here we substituted.
+
+37
+00:02:49,329 --> 00:02:51,633
+We had an expression or we had an equation
+
+38
+00:02:51,633 --> 00:02:55,636
+that explicitly solved for x so we were able to substitute the x's.
+
+39
+00:02:55,636 --> 00:02:57,740
+What I want to show you is that we could have done it the other way around.
+
+40
+00:02:57,740 --> 00:03:01,179
+We could have solved for y and then substituted for the y's.
+
+41
+00:03:01,179 --> 00:03:03,013
+So let's do that. We could have substituted
+
+42
+00:03:03,013 --> 00:03:06,131
+from one constraint into the other constraint or vice-versa.
+
+43
+00:03:06,131 --> 00:03:08,532
+Either way, we would have gotten the same exact answer.
+
+44
+00:03:08,532 --> 00:03:12,655
+So instead of saying that x=y-4, in that second equation,
+
+45
+00:03:12,655 --> 00:03:21,175
+if we add 4 to both sides of this equation, we get x+4=y.
+
+46
+00:03:21,175 --> 00:03:24,111
+This and this is the exact same constraint.
+
+47
+00:03:24,111 --> 00:03:27,763
+I just added four to both sides to get this constraint over here.
+
+48
+00:03:27,763 --> 00:03:31,170
+And now since we've solved the equation explicitly for y,
+
+49
+00:03:31,170 --> 00:03:35,304
+we can use the first constraint-- the first equation--
+
+50
+00:03:35,304 --> 00:03:40,234
+and everywhere we see y, we can substitute it with x+4.
+
+51
+00:03:40,234 --> 00:03:43,813
+So it's 2 times--instead of 2 times y-- we can write
+
+52
+00:03:43,813 --> 00:03:47,775
+2(x+4).
+
+53
+00:03:47,775 --> 00:03:52,084
+2(x+4)=x+7.
+
+54
+00:03:52,084 --> 00:03:59,810
+We can distribute this two, so we get 2x+8=x+7.
+
+55
+00:03:59,810 --> 00:04:04,668
+We can subtract x from both sides of this equation,
+
+56
+00:04:04,668 --> 00:04:09,102
+and we can subtract 8 from both sides of this equation. Subtract 8.
+
+57
+00:04:09,116 --> 00:04:13,289
+The left hand side, that cancels out. We're just left with an x.
+
+58
+00:04:13,289 --> 00:04:18,326
+On the right hand side, that cancels out, and we are left with a -1.
+
+59
+00:04:18,326 --> 00:04:22,500
+Then, we can substitute back over here. We have y=x+4,
+
+60
+00:04:22,500 --> 00:04:28,749
+or so y=-1+4, which is equal to 3.
+
+61
+00:04:28,749 --> 00:04:30,742
+So once again we got the same answer,
+
+62
+00:04:30,742 --> 00:04:33,754
+even though this time we substituted for y
+
+63
+00:04:33,754 --> 00:04:35,730
+instead of substituting for x.
+
+64
+00:04:35,730 --> 00:04:38,338
+Hopefully you find that interesting.

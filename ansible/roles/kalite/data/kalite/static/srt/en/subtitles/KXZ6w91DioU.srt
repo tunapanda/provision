@@ -1,0 +1,915 @@
+1
+00:00:00,350 --> 00:00:03,970
+Let's start off with segment AB, so that's point A,
+
+2
+00:00:03,980 --> 00:00:06,760
+this is point B right over here,
+
+3
+00:00:06,770 --> 00:00:10,810
+and lets set up a perpendicular bisector of this segment
+
+4
+00:00:10,820 --> 00:00:14,140
+So it, it will be both perpendicular and it will split
+
+5
+00:00:14,150 --> 00:00:17,750
+the segment in two, so thus we can call that line L,
+
+6
+00:00:17,760 --> 00:00:22,380
+that's going to be a perpendicular, it's a perpendicular bisector,
+
+7
+00:00:22,390 --> 00:00:24,740
+so it's gonna be, it'll intersect in a 90 degree angle
+
+8
+00:00:24,750 --> 00:00:26,160
+and it bisects it
+
+9
+00:00:26,170 --> 00:00:28,200
+This length and this length are equal,
+
+10
+00:00:28,210 --> 00:00:30,720
+and we can even set, let's call this point right over here,
+
+11
+00:00:30,730 --> 00:00:33,360
+let's call that M, maybe M for midpoint
+
+12
+00:00:33,370 --> 00:00:35,620
+What I wanna prove first in this video,
+
+13
+00:00:35,630 --> 00:00:38,420
+is that if we pick an arbitrary point on this line,
+
+14
+00:00:38,430 --> 00:00:41,960
+that is a perpendicular bisector, off AB,
+
+15
+00:00:41,970 --> 00:00:45,210
+then that arbitrary point will be an equal distant from A
+
+16
+00:00:45,220 --> 00:00:46,940
+or the distance from that point to A,
+
+17
+00:00:46,950 --> 00:00:48,880
+will be the same as that distance to the to the point,
+
+18
+00:00:48,890 --> 00:00:50,930
+the same as that distance to the point,
+
+19
+00:00:50,940 --> 00:00:52,990
+same as that distance from that point to B
+
+20
+00:00:53,000 --> 00:00:56,500
+So let me pick an Arbitrary point from this perpendicular bisector,
+
+21
+00:00:56,510 --> 00:01:00,170
+so let's call it, Let's call that arbitrary point C,
+
+22
+00:01:00,180 --> 00:01:02,560
+and so you can imagine, we like to draw a triangle,
+
+23
+00:01:02,570 --> 00:01:05,440
+so let's draw a triangle, where we draw a line from C to A,
+
+24
+00:01:05,450 --> 00:01:08,450
+and then another one from C to B,
+
+25
+00:01:08,460 --> 00:01:11,580
+and since that We can prove that CA is equal to CB,
+
+26
+00:01:11,590 --> 00:01:13,450
+then we've proven what we want to prove,
+
+27
+00:01:13,460 --> 00:01:17,070
+that C is an equal distance from A, as it is from B
+
+28
+00:01:17,080 --> 00:01:19,590
+Well there's a couple of interesting things we see here,
+
+29
+00:01:19,600 --> 00:01:21,660
+we know that AM is equal to MB
+
+30
+00:01:21,670 --> 00:01:24,520
+Now, we also know that CM is equal to itself,
+
+31
+00:01:24,530 --> 00:01:28,210
+Obviously any segment is going to be equal to itself,
+
+32
+00:01:28,220 --> 00:01:31,930
+and we know if this is the right angle, this is also right angled,
+
+33
+00:01:31,940 --> 00:01:35,500
+This line is a perpendicular bisector of AB,
+
+34
+00:01:35,510 --> 00:01:37,720
+and so we have two right triangles
+
+35
+00:01:37,730 --> 00:01:39,410
+And if you don't even have to worry about that they're right
+
+36
+00:01:39,420 --> 00:01:41,880
+Triangles, if you look at triangle AMC,
+
+37
+00:01:41,890 --> 00:01:45,250
+you have this side is congruent to the corresponding
+
+38
+00:01:45,260 --> 00:01:47,420
+side on triangle BMC,
+
+39
+00:01:47,430 --> 00:01:50,670
+then you have an angle in between that corresponds to this
+
+40
+00:01:50,680 --> 00:01:55,990
+angle over here, angle AMC, corresponds to angle BMC,
+
+41
+00:01:56,000 --> 00:01:57,190
+and they're both 90 degrees,
+
+42
+00:01:57,200 --> 00:02:00,080
+So they're congruent, and then you have the side MC,
+
+43
+00:02:00,090 --> 00:02:02,850
+that's on both triangles, and those, those are congruent
+
+44
+00:02:02,860 --> 00:02:06,870
+So we can just use SAS, Side Angle Side congruency,
+
+45
+00:02:06,880 --> 00:02:08,540
+Side Angle Side congruency
+
+46
+00:02:08,550 --> 00:02:17,000
+So, we can write that triangle AMC, AMC is congruent,
+
+47
+00:02:17,010 --> 00:02:22,680
+congruent to triangle BMC, to triangle BMC,
+
+48
+00:02:22,690 --> 00:02:29,740
+by Side Angle Side congruency, Side Angle Side congruency,
+
+49
+00:02:29,750 --> 00:02:31,790
+and so if both, if they are congruent,
+
+50
+00:02:31,800 --> 00:02:34,330
+Then all of the corresponding sides are congruent,
+
+51
+00:02:34,340 --> 00:02:39,150
+and AC corresponds to BC, so these two things must be congruent,
+
+52
+00:02:39,160 --> 00:02:42,420
+this length must be the same as this length right over there,
+
+53
+00:02:42,430 --> 00:02:44,350
+and so we've proven what we wanna prove
+
+54
+00:02:44,360 --> 00:02:49,150
+This arbitrary point C that sits on the perpendicular bisector of AB,
+
+55
+00:02:49,160 --> 00:02:52,850
+is equidistant from both A and B,
+
+56
+00:02:52,860 --> 00:02:55,990
+and I could've known that if I drew my C over here, or here,
+
+57
+00:02:56,000 --> 00:02:57,730
+I would've made the exact same argument,
+
+58
+00:02:57,740 --> 00:03:00,970
+so any C that sits on this line, so that's fair enough,
+
+59
+00:03:00,980 --> 00:03:03,100
+so let me just write it, so this means that
+
+60
+00:03:03,110 --> 00:03:06,960
+AC is equal to, is equal to BC
+
+61
+00:03:06,970 --> 00:03:08,660
+Now let's go the other way around,
+
+62
+00:03:08,670 --> 00:03:13,820
+let's say we find some point that is equidistant from A and B
+
+63
+00:03:13,830 --> 00:03:17,610
+Let's prove that it has to sit on the perpendicular bisector
+
+64
+00:03:17,620 --> 00:03:23,130
+So, let's do this again, so I'll draw like this, so this is my A,
+
+65
+00:03:23,140 --> 00:03:28,960
+This is my B, and let's draw out some point, well call it C again,
+
+66
+00:03:28,970 --> 00:03:32,660
+So let's say that's C right over here, and I'll, maybe I'll draw a C
+
+67
+00:03:32,670 --> 00:03:34,390
+right down here
+
+68
+00:03:34,400 --> 00:03:38,270
+So this is C and we're gonna start from the assumption
+
+69
+00:03:38,280 --> 00:03:40,690
+that C is equidistant from A and B,
+
+70
+00:03:40,700 --> 00:03:44,850
+so CA is going to be equal to CB,
+
+71
+00:03:44,860 --> 00:03:46,550
+this is what we're gonna start of with,
+
+72
+00:03:46,560 --> 00:03:47,940
+this is going to be our assumption,
+
+73
+00:03:47,950 --> 00:03:51,650
+and what we want to prove is, is that C sits
+
+74
+00:03:51,660 --> 00:03:58,220
+On the perpendicular bisector of, the perpendicular bisector of AB
+
+75
+00:03:58,230 --> 00:04:02,410
+So, we've drawn a triangle here, and we've done this before,
+
+76
+00:04:02,420 --> 00:04:05,640
+And we can always drop an altitude, from this side of the triangle
+
+77
+00:04:05,650 --> 00:04:09,730
+right over here, so we can set up a line, right over here,
+
+78
+00:04:09,740 --> 00:04:13,140
+if we draw it like this, so let's call,
+
+79
+00:04:13,150 --> 00:04:15,720
+let's, let's just drop an altitude right over here,
+
+80
+00:04:15,900 --> 00:04:16,590
+though we're really not dropping,
+
+81
+00:04:16,600 --> 00:04:18,860
+we're kind of lifting an altitude in this case,
+
+82
+00:04:18,870 --> 00:04:20,110
+but, if you rotated this around,
+
+83
+00:04:20,120 --> 00:04:21,700
+so that the triangle look like this,
+
+84
+00:04:21,710 --> 00:04:24,120
+so that the triangle look like this,
+
+85
+00:04:24,130 --> 00:04:30,250
+so that this was, so this was B, this is A and that C was up here,
+
+86
+00:04:30,260 --> 00:04:33,470
+you could, you'd really be dropping this altitude,
+
+87
+00:04:33,480 --> 00:04:36,090
+and so you can construct this line,
+
+88
+00:04:36,100 --> 00:04:39,940
+so it, it has that, it is at a right angle with AB, and let me call
+
+89
+00:04:39,950 --> 00:04:42,360
+this, the point in which it intersects M
+
+90
+00:04:42,370 --> 00:04:46,340
+So to prove that C lies on the perpendicular bisector,
+
+91
+00:04:46,350 --> 00:04:48,930
+we really have to show that CM is a segment
+
+92
+00:04:48,940 --> 00:04:52,500
+on the perpendicular bisector, and the way we've constructed it,
+
+93
+00:04:52,510 --> 00:04:55,380
+it is already perpendicular, we really just have to
+
+94
+00:04:55,390 --> 00:04:58,030
+show that it bisects AB
+
+95
+00:04:58,040 --> 00:04:59,970
+So what we have right over here,
+
+96
+00:04:59,980 --> 00:05:02,580
+we have two right angles, this is the right angle here,
+
+97
+00:05:02,590 --> 00:05:04,440
+this one clearly has to be, the way we constructed it,
+
+98
+00:05:04,450 --> 00:05:07,660
+it's, it's at a right angle, and then we know that,
+
+99
+00:05:07,670 --> 00:05:10,280
+we know that CM is going to be equal to,
+
+100
+00:05:10,290 --> 00:05:13,550
+we know that CM is going to be equal to,
+
+101
+00:05:13,560 --> 00:05:15,470
+is going to be equal to itself,
+
+102
+00:05:15,480 --> 00:05:19,140
+and so we know by, this is a right angle, we have a leg
+
+103
+00:05:19,150 --> 00:05:23,320
+and we have a hypotenuse, we know by the RSH postulate,
+
+104
+00:05:23,330 --> 00:05:27,940
+RSH postulate, RSH, we have a right angle,
+
+105
+00:05:27,950 --> 00:05:30,840
+we have one corresponding leg that's congruent
+
+106
+00:05:30,850 --> 00:05:32,150
+to the other corresponding leg,
+
+107
+00:05:32,160 --> 00:05:35,260
+On the other triangle, we have a hypotenuse that's congruent to
+
+108
+00:05:35,270 --> 00:05:36,300
+the other hypotenuse,
+
+109
+00:05:36,310 --> 00:05:38,830
+so that means that our two triangles are congruent,
+
+110
+00:05:38,840 --> 00:05:49,250
+So triangle ACM is congruent to triangle BCM by the RSH postulate,
+
+111
+00:05:49,260 --> 00:05:51,890
+Well if they're congruent, then their corresponding sides
+
+112
+00:05:51,900 --> 00:05:55,540
+are going to be congruent, so that means that AM,
+
+113
+00:05:55,550 --> 00:06:01,440
+so that tells us that AM must be equal to BM,
+
+114
+00:06:01,450 --> 00:06:03,340
+cause they're their corresponding sides,
+
+115
+00:06:03,350 --> 00:06:05,790
+so this side right over here, is going to be congruent to that side,
+
+116
+00:06:05,800 --> 00:06:08,920
+so this really is bisecting AB,
+
+117
+00:06:08,930 --> 00:06:13,290
+so this line MC really is on the perpendicular bisector,
+
+118
+00:06:13,300 --> 00:06:17,460
+it really is a part of the perpendicular bisector,
+
+119
+00:06:17,470 --> 00:06:19,400
+and the whole reason why we're doing this,
+
+120
+00:06:19,410 --> 00:06:22,390
+is now we can do some interesting things with perpendicular bisectors,
+
+121
+00:06:22,400 --> 00:06:24,150
+and points that are equidistant from points,
+
+122
+00:06:24,160 --> 00:06:26,300
+and do them with triangles
+
+123
+00:06:26,310 --> 00:06:28,420
+So this was a new, you know, just to review,
+
+124
+00:06:28,430 --> 00:06:31,430
+we found, hey if any point sits on a perpendicular bisector
+
+125
+00:06:31,440 --> 00:06:34,270
+of a segment, it's equidistant from the end points of a segment,
+
+126
+00:06:34,280 --> 00:06:36,660
+And we went the other way, if any point is equidistant
+
+127
+00:06:36,670 --> 00:06:38,110
+from the end points of a segment,
+
+128
+00:06:38,120 --> 00:06:41,320
+it sits on the perpendicular bisector of that segment
+
+129
+00:06:41,330 --> 00:06:44,890
+So let's apply those ideas to a triangle now,
+
+130
+00:06:44,900 --> 00:06:48,590
+So let me draw myself an arbitrary triangle,
+
+131
+00:06:48,600 --> 00:06:52,500
+I'm trying to draw it fairly large, so let's say that's a triangle
+
+132
+00:06:52,510 --> 00:06:55,890
+of some kind, let me give ourselves some labels to this triangle,
+
+133
+00:06:55,900 --> 00:07:01,830
+it's point A, point B, and point C, we can call this triangle ABC
+
+134
+00:07:01,840 --> 00:07:07,500
+Now, let me just construct the perpendicular bisector of segment AB,
+
+135
+00:07:07,510 --> 00:07:12,270
+so it's going to bisect it, so this distance is going to be equal to
+
+136
+00:07:12,280 --> 00:07:15,220
+this distance, and it's going to be perpendicular,
+
+137
+00:07:15,230 --> 00:07:18,720
+so it looks something like that, and it will be,
+
+138
+00:07:18,730 --> 00:07:21,580
+it will be perpen, actually, let me draw this a little different,
+
+139
+00:07:21,590 --> 00:07:23,560
+coz the way I've drawn this triangle,
+
+140
+00:07:23,700 --> 00:07:26,420
+it's, it's get, it's making us get close to a special case
+
+141
+00:07:26,430 --> 00:07:28,530
+Which we will actually talk about in the next video
+
+142
+00:07:28,540 --> 00:07:30,560
+Let me draw this triangle a little bit differently,
+
+143
+00:07:30,570 --> 00:07:32,810
+let me draw it a little bit
+
+144
+00:07:32,820 --> 00:07:38,960
+Everytime I, okay, and then, let me draw it, let me,
+
+145
+00:07:38,970 --> 00:07:41,620
+okay this one might be a little bit better,
+
+146
+00:07:41,630 --> 00:07:44,450
+and we'll see which special case I was referring to,
+
+147
+00:07:44,460 --> 00:07:45,910
+so let's, this is going to be A,
+
+148
+00:07:45,920 --> 00:07:49,470
+this is going to be B, this is going to be C
+
+149
+00:07:49,480 --> 00:07:51,890
+Now let me take this point, right over here,
+
+150
+00:07:51,900 --> 00:07:55,550
+which is the midpoint of A and B, and draw a perp,
+
+151
+00:07:55,720 --> 00:07:56,900
+then draw the perpendicular bisector,
+
+152
+00:07:56,910 --> 00:07:59,300
+so the perpendicular bisector might look
+
+153
+00:07:59,310 --> 00:08:02,310
+something like that, might look something like that,
+
+154
+00:08:02,320 --> 00:08:04,730
+and I don't want to make it necessarily intersecting C,
+
+155
+00:08:04,740 --> 00:08:06,560
+coz that's not necessarily going to be the case,
+
+156
+00:08:06,560 --> 00:08:09,710
+but this is going to be a 90 degree angle
+
+157
+00:08:09,720 --> 00:08:11,200
+and this length is equal to that length
+
+158
+00:08:11,210 --> 00:08:13,850
+And let me take, let me do the same thing
+
+159
+00:08:13,860 --> 00:08:15,660
+for segment AC right over here,
+
+160
+00:08:15,670 --> 00:08:17,660
+let me take it's midpoint which,
+
+161
+00:08:17,670 --> 00:08:19,170
+if I just roughly draw it, it looks
+
+162
+00:08:19,180 --> 00:08:21,500
+like it's right over there, and then let me draw
+
+163
+00:08:21,510 --> 00:08:25,690
+it's perpendicular bisector, so it would look something like this,
+
+164
+00:08:25,700 --> 00:08:28,140
+it would look something like this
+
+165
+00:08:28,150 --> 00:08:32,700
+So this length right over here, is equal to that length,
+
+166
+00:08:32,710 --> 00:08:35,380
+and we see that they intersect at some point,
+
+167
+00:08:35,390 --> 00:08:40,230
+let's call that point, just for fun, let's call that point O,
+
+168
+00:08:40,240 --> 00:08:43,090
+and now there's some interesting properties of point O,
+
+169
+00:08:43,100 --> 00:08:47,830
+we know that since O sits on AB's perpendicular bisector,
+
+170
+00:08:47,840 --> 00:08:50,520
+we know that the distant, the distance from O to B
+
+171
+00:08:50,530 --> 00:08:53,200
+is going to be the distance from O to A
+
+172
+00:08:53,210 --> 00:08:55,700
+That's what we proved in this first little proof over here,
+
+173
+00:08:55,710 --> 00:09:01,410
+so we know, we know that OA, is going to be equal to OB,
+
+174
+00:09:01,420 --> 00:09:04,190
+well that's kind of neat, but we also know that,
+
+175
+00:09:04,200 --> 00:09:07,020
+coz it's the intersection of this green perpendicular bisector,
+
+176
+00:09:07,030 --> 00:09:08,880
+and this yellow perpendicular bisector,
+
+177
+00:09:09,030 --> 00:09:11,370
+we also know because it sits on the perpendicular bisector
+
+178
+00:09:11,380 --> 00:09:16,810
+of, of, of AC, that is equidistant from A as it is to C,
+
+179
+00:09:16,820 --> 00:09:20,830
+so we know that OA is equal to OC
+
+180
+00:09:20,840 --> 00:09:24,250
+Now, this is interesting, OA is equal to OB,
+
+181
+00:09:24,260 --> 00:09:27,130
+and OA is also equal to OC, so OC and OB
+
+182
+00:09:27,140 --> 00:09:30,720
+have to be the same thing as well, so we also know that OC
+
+183
+00:09:30,730 --> 00:09:35,030
+must be equal to, must be equal to OB,
+
+184
+00:09:35,040 --> 00:09:41,000
+OC must be equal to OB, well if a point is equal, sorry,
+
+185
+00:09:41,100 --> 00:09:43,690
+If a point is equidistant from two other points
+
+186
+00:09:43,700 --> 00:09:45,700
+that sit on either end of a segment,
+
+187
+00:09:45,710 --> 00:09:49,920
+then that point must sit on the perpendicular bisector of that segment,
+
+188
+00:09:49,930 --> 00:09:51,480
+that's that second proof that we did,
+
+189
+00:09:51,490 --> 00:09:57,570
+Right over here, so it must sit on the perpendicular bisector of BC,
+
+190
+00:09:57,580 --> 00:10:02,490
+So if I draw the perpendicular bisector, right over there, then it
+
+191
+00:10:02,500 --> 00:10:07,980
+Will look, it will, this definitely lies on BC's perpendicular,
+
+192
+00:10:07,990 --> 00:10:09,550
+perpendicular bisector
+
+193
+00:10:09,560 --> 00:10:11,930
+And what's neat about this simple little proof
+
+194
+00:10:11,940 --> 00:10:14,920
+that we've set up on this video, is if we've shown,
+
+195
+00:10:14,930 --> 00:10:19,460
+there's a unique point, in this triangle, that is equidistant,
+
+196
+00:10:19,470 --> 00:10:22,030
+from all of the vertices of the triangle,
+
+197
+00:10:22,040 --> 00:10:25,560
+and it sits on the perpendicular bisectors of the three sides,
+
+198
+00:10:25,570 --> 00:10:27,250
+or another way to think of it, we've shown
+
+199
+00:10:27,260 --> 00:10:29,110
+that the perpendicular bisectors of the
+
+200
+00:10:29,120 --> 00:10:33,580
+three sides, intersect at a unique point, that is equidistant
+
+201
+00:10:33,590 --> 00:10:37,420
+from the vertices, and this unique point, on a triangle
+
+202
+00:10:37,430 --> 00:10:43,120
+has a special name, we call O a circumcenter, circumcenter,
+
+203
+00:10:43,130 --> 00:10:49,230
+Circum, circumcenter, and because O is equidistant
+
+204
+00:10:49,240 --> 00:10:53,700
+to the vertices, so this distance, let me do this in a color
+
+205
+00:10:53,710 --> 00:10:54,640
+I haven't used before,
+
+206
+00:10:54,650 --> 00:10:58,960
+this distance right over here, this distance right over here,
+
+207
+00:10:58,970 --> 00:11:01,100
+is equal to that distance right over there,
+
+208
+00:11:01,110 --> 00:11:03,220
+is equal to that distance over there,
+
+209
+00:11:03,230 --> 00:11:06,440
+if we construct a circle that has a center
+
+210
+00:11:06,450 --> 00:11:09,870
+At O, and whose radius, is this orange distance,
+
+211
+00:11:09,880 --> 00:11:12,290
+whose radius is any of this distance over here,
+
+212
+00:11:12,300 --> 00:11:16,570
+will have a circle that goes through all of the vertices of B,
+
+213
+00:11:16,580 --> 00:11:19,460
+oh so all of the vertices of our triangle centered at O,
+
+214
+00:11:19,470 --> 00:11:22,310
+so our circle would look something like this,
+
+215
+00:11:22,320 --> 00:11:26,250
+my best attempt to draw it, and so what we've constructed right here,
+
+216
+00:11:26,260 --> 00:11:28,430
+is one we've shown that we can construct something like this,
+
+217
+00:11:28,440 --> 00:11:31,000
+but we call this thing a circumcircle,
+
+218
+00:11:31,010 --> 00:11:36,740
+circumcircle, and this distance right here, circumradius,
+
+219
+00:11:36,750 --> 00:11:41,540
+circumradius, and once again, we know we can construct it,
+
+220
+00:11:41,550 --> 00:11:45,690
+Coz there is a point here, and it is centered at O, and this circle
+
+221
+00:11:45,700 --> 00:11:49,670
+Because it goes through the vertices of our triangle,
+
+222
+00:11:49,680 --> 00:11:53,600
+all of the vertices of our triangle, we say that it is circumscribe,
+
+223
+00:11:53,610 --> 00:11:57,230
+circumspri, circum, I have trouble saying it, circumscribed,
+
+224
+00:11:57,240 --> 00:12:01,090
+about the triangle, so we can say right over here, that the
+
+225
+00:12:01,100 --> 00:12:06,970
+circle O, the circumcircle O, so circle O, circle O right over here,
+
+226
+00:12:06,980 --> 00:12:17,440
+is circumscribed, circumscribed, about, about triangle ABC,
+
+227
+00:12:17,450 --> 00:12:21,220
+which just means that, all three vertices lie on the circle,
+
+228
+00:12:21,230 --> 00:12:26,430
+and that the circle has it, every point, is the circumradius away,
+
+229
+00:12:26,440 --> 00:12:28,700
+from this circumcenter

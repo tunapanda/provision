@@ -1,0 +1,335 @@
+1
+99:59:59,999 --> 99:59:59,999
+At its core, a bitcoin is just basically a chain
+
+2
+99:59:59,999 --> 99:59:59,999
+of digital signatures that really reflect the coin's path
+
+3
+99:59:59,999 --> 99:59:59,999
+through the bitcoin ecosystem. And here, I think it's actually conceptually
+
+4
+99:59:59,999 --> 99:59:59,999
+easier to think of bitcoins as collective
+
+5
+99:59:59,999 --> 99:59:59,999
+entries into a ledger rather than as a physical
+
+6
+99:59:59,999 --> 99:59:59,999
+coin, because if you think about it, in a ledger, you have a record of
+
+7
+99:59:59,999 --> 99:59:59,999
+transaction histories, which happens with in Bitcoin, whereas with a
+
+8
+99:59:59,999 --> 99:59:59,999
+physical coin, it's more like a memory list, there's no history
+
+9
+99:59:59,999 --> 99:59:59,999
+in a physical coin of where the coin has really been in the past, ok?
+
+10
+99:59:59,999 --> 99:59:59,999
+So, in this context, you can think of a transaction as just a digitally
+
+11
+99:59:59,999 --> 99:59:59,999
+signed declaration by one party
+
+12
+99:59:59,999 --> 99:59:59,999
+of its intent to transfer some bitcoins that they possess to
+
+13
+99:59:59,999 --> 99:59:59,999
+another set of parties. And, when I say that one party possesses a certain number
+
+14
+99:59:59,999 --> 99:59:59,999
+of bitcoins, I really just mean here that there was some previous transaction on record that everybody's agreed to
+
+15
+99:59:59,999 --> 99:59:59,999
+in which the party now transfering the bitcoins was itself the recepient
+
+16
+99:59:59,999 --> 99:59:59,999
+of a previous transfer of those bitcoins. Alright,now I realize it is a bit convoluted,
+
+17
+99:59:59,999 --> 99:59:59,999
+so maybe to help better understand the mechanics of a transaction, I could do an example of what would happen
+
+18
+99:59:59,999 --> 99:59:59,999
+in the context of an actual bitcoin transaction.
+
+19
+99:59:59,999 --> 99:59:59,999
+So let's say we have a party, and let's call her Alice, which is the common
+
+20
+99:59:59,999 --> 99:59:59,999
+name we use for parties in cryptographic schemes, and let's
+
+21
+99:59:59,999 --> 99:59:59,999
+say she wants to transfer some bitcoins to Bob,
+
+22
+99:59:59,999 --> 99:59:59,999
+and let's say she has the intention of wanting to transfer
+
+23
+99:59:59,999 --> 99:59:59,999
+50 bitcoins to Bob
+
+24
+99:59:59,999 --> 99:59:59,999
+Now, remember, that anybody who transacts in the bitcoin ecosystem is not
+
+25
+99:59:59,999 --> 99:59:59,999
+actually not transacting
+
+26
+99:59:59,999 --> 99:59:59,999
+under their real name, their actual name, but rather they are
+
+27
+99:59:59,999 --> 99:59:59,999
+going by a very specific identity, a pseudonym
+
+28
+99:59:59,999 --> 99:59:59,999
+within the bitcoin ecosystem, and that identity, that pseudonym actually
+
+29
+99:59:59,999 --> 99:59:59,999
+corresponds to a public verification key for a digit signature scheme
+
+30
+99:59:59,999 --> 99:59:59,999
+So in this case, let's say Alice's identity in the system
+
+31
+99:59:59,999 --> 99:59:59,999
+is really some public verification key which we'll call
+
+32
+99:59:59,999 --> 99:59:59,999
+"VK of A," Alice's verification key, and
+
+33
+99:59:59,999 --> 99:59:59,999
+in the context of Bob, let's say his public verification key is
+
+34
+99:59:59,999 --> 99:59:59,999
+some "VK sub B." So, these are keys that are used
+
+35
+99:59:59,999 --> 99:59:59,999
+within digital signature schemes, and so we can that Alice
+
+36
+99:59:59,999 --> 99:59:59,999
+has generated this key at some point and that she made it public, and then Bob
+
+37
+99:59:59,999 --> 99:59:59,999
+did the same thing, and so they now both have identities within the system, and these identities
+
+38
+99:59:59,999 --> 99:59:59,999
+are just sequences of numbers that correspond to public
+
+39
+99:59:59,999 --> 99:59:59,999
+keys for verification in the context of a cryptographic digital
+
+40
+99:59:59,999 --> 99:59:59,999
+signature.
+
+41
+99:59:59,999 --> 99:59:59,999
+Now, remember, that these values also correspond to
+
+42
+99:59:59,999 --> 99:59:59,999
+private values. So, each person who's got a public key will have
+
+43
+99:59:59,999 --> 99:59:59,999
+a corresponding private key associated with that public key,
+
+44
+99:59:59,999 --> 99:59:59,999
+and in this case, we'll call
+
+45
+99:59:59,999 --> 99:59:59,999
+the private key, or the secret key, which is in fact a sign-in key
+
+46
+99:59:59,999 --> 99:59:59,999
+in this context, "SK of Alice"
+
+47
+99:59:59,999 --> 99:59:59,999
+and we'll say that Bob's sign-in key
+
+48
+99:59:59,999 --> 99:59:59,999
+is some "SK of Bob."
+
+49
+99:59:59,999 --> 99:59:59,999
+And they're going to basically keep these private.
+
+50
+99:59:59,999 --> 99:59:59,999
+And let's look at Alice herself, who has received
+
+51
+99:59:59,999 --> 99:59:59,999
+in the past, three transactions of bitcoins from other parties:
+
+52
+99:59:59,999 --> 99:59:59,999
+25 bitcoins from Carol, and we'll call Carol "VK of C" to
+
+53
+99:59:59,999 --> 99:59:59,999
+associate that with her key.
+
+54
+99:59:59,999 --> 99:59:59,999
+Let's say she got 20 bitcoins from
+
+55
+99:59:59,999 --> 99:59:59,999
+David, and let's say she got 20 more bitcoins
+
+56
+99:59:59,999 --> 99:59:59,999
+from Ted. So, these
+
+57
+99:59:59,999 --> 99:59:59,999
+bitcoins correspond to different people
+
+58
+99:59:59,999 --> 99:59:59,999
+who provided Alice with bitcoins in the past
+
+59
+99:59:59,999 --> 99:59:59,999
+and so, as you can see, Alice now
+
+60
+99:59:59,999 --> 99:59:59,999
+has an aggregate of 65 (20 + 20 + 25) bitcoins.
+
+61
+99:59:59,999 --> 99:59:59,999
+And so, as a result, she has a sufficient number to
+
+62
+99:59:59,999 --> 99:59:59,999
+be able to transfer 50 of those bitcoins to Bob.
+
+63
+99:59:59,999 --> 99:59:59,999
+So, to start off with, a transaction from Alice to Bob for 50 bitcoins
+
+64
+99:59:59,999 --> 99:59:59,999
+will contain information about these previous transactions.
+
+65
+99:59:59,999 --> 99:59:59,999
+So, each of these previous transactions, where Alice received some bitcoins,
+
+66
+99:59:59,999 --> 99:59:59,999
+these have all been recorded in the bitcoin ecosystem.
+
+67
+99:59:59,999 --> 99:59:59,999
+So, they are going to be made public,
+
+68
+99:59:59,999 --> 99:59:59,999
+just like every other transaction.
+
+69
+99:59:59,999 --> 99:59:59,999
+And so, what Alice can actually do is
+
+70
+99:59:59,999 --> 99:59:59,999
+take some representation of these transactions
+
+71
+99:59:59,999 --> 99:59:59,999
+and include them as part of the new transaction
+
+72
+99:59:59,999 --> 99:59:59,999
+basically as an anchor point, saying "I've received
+
+73
+99:59:59,999 --> 99:59:59,999
+these bitcoins, and now I'm going to transfer
+
+74
+99:59:59,999 --> 99:59:59,999
+some portion of these bitcoins to you, Bob."
+
+75
+99:59:59,999 --> 99:59:59,999
+So, in this context, actually she
+
+76
+99:59:59,999 --> 99:59:59,999
+does not need to include the full transaction details in
+
+77
+99:59:59,999 --> 99:59:59,999
+in the actual transaction record to Bob. What she can instead do
+
+78
+99:59:59,999 --> 99:59:59,999
+is take th transaction details and apply a crytographic cash function
+
+79
+99:59:59,999 --> 99:59:59,999
+to them to get a series of digests for each transaction
+
+80
+99:59:59,999 --> 99:59:59,999
+So, in this case, let's say she gets a digest that corresponds to
+
+81
+99:59:59,999 --> 99:59:59,999
+to the transaction from Carol, she has a digest that corresponds
+
+82
+99:59:59,999 --> 99:59:59,999
+to the digest form David, and she has
+
+83
+99:59:59,999 --> 99:59:59,999
+a digest that corresponds to the digest from Ted.
+
+84
+99:59:59,999 --> 99:59:59,999
+So, basically, include each of these digests into the

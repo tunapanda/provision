@@ -1,0 +1,479 @@
+1
+00:00:00,780 --> 00:00:03,640
+I've drawn an arbitrary triangle right over here
+
+2
+00:00:03,650 --> 00:00:05,950
+And I've also drawn is three medians
+
+3
+00:00:05,960 --> 00:00:10,290
+Median EB median FC and median AD
+
+4
+00:00:10,300 --> 00:00:12,770
+And we know where the three median intersect
+
+5
+00:00:12,780 --> 00:00:16,210
+at point G right over here we call that the centroid
+
+6
+00:00:16,220 --> 00:00:19,710
+What I wanna do in this video is prove to you
+
+7
+00:00:19,720 --> 00:00:24,850
+That centroid is exactly two thirds along the way of each median
+
+8
+00:00:24,860 --> 00:00:27,580
+Or another way to think about it we can pick any one of
+
+9
+00:00:27,590 --> 00:00:29,630
+these medians then let's say let's pick EB
+
+10
+00:00:29,640 --> 00:00:33,500
+What I wanna do is I wanna prove that EG,
+
+11
+00:00:33,510 --> 00:00:38,610
+EG is equal to two times GB two times GB
+
+12
+00:00:38,620 --> 00:00:42,270
+So whatever distance this is it's twice this distance there
+
+13
+00:00:42,280 --> 00:00:46,010
+Or other way to think about it is EG is two thirds along
+
+14
+00:00:46,020 --> 00:00:50,480
+the way of EB and that logic that I'm using to prove this
+
+15
+00:00:50,490 --> 00:00:52,330
+You can use for any of the medians to show
+
+16
+00:00:52,340 --> 00:00:56,050
+That the centroid is exactly two thirds along the way of any median
+
+17
+00:00:56,060 --> 00:01:00,190
+Or divides it to a segment that's twice as long as the other segment
+
+18
+00:01:00,200 --> 00:01:06,540
+And to do that let's focus I wanna focus on triangle A B E
+
+19
+00:01:06,550 --> 00:01:08,590
+Triangle A B E right over here
+
+20
+00:01:08,600 --> 00:01:12,190
+And I'm gonna draw this median as essentially the way
+
+21
+00:01:12,200 --> 00:01:16,090
+So let me draw that way I'm gonna try to color code it similarly
+
+22
+00:01:16,100 --> 00:01:21,190
+So we draw it I'm gonna draw it a little bit flatter than that
+
+23
+00:01:21,200 --> 00:01:25,880
+So it's like that and then we have the two yellow sides
+
+24
+00:01:25,890 --> 00:01:28,270
+So it looks something like this
+
+25
+00:01:28,280 --> 00:01:30,400
+It looks something like that
+
+26
+00:01:30,410 --> 00:01:35,400
+And then we have the centroid right over here at G
+
+27
+00:01:35,410 --> 00:01:40,470
+That is our centroid and then we have this magenta line going to A
+
+28
+00:01:41,010 --> 00:01:43,400
+Let me draw a little bit neater than that
+
+29
+00:01:43,410 --> 00:01:45,300
+We have that line going to A
+
+30
+00:01:45,310 --> 00:01:48,250
+And then we have this blue line going to F right over here
+
+31
+00:01:48,260 --> 00:01:52,160
+We have this blue line going to F
+
+32
+00:01:52,170 --> 00:01:57,280
+And let me label all the points go back to the orange color
+
+33
+00:01:57,290 --> 00:02:03,170
+So this is going to be E, this is going to be B, this is going to be A
+
+34
+00:02:03,180 --> 00:02:05,410
+This is going to be F right over here
+
+35
+00:02:05,420 --> 00:02:07,550
+And just to make sure we have all the same markings
+
+36
+00:02:07,560 --> 00:02:09,800
+That little marking there is that marking
+
+37
+00:02:09,810 --> 00:02:14,090
+These two markings are on this side right over there
+
+38
+00:02:14,100 --> 00:02:16,030
+And the whole way that I'm gonna prove
+
+39
+00:02:16,040 --> 00:02:18,730
+That EG is twice as long as GB is
+
+40
+00:02:18,740 --> 00:02:22,230
+Just to refer the results that we did I think a couple of videos ago
+
+41
+00:02:22,240 --> 00:02:25,650
+That the medians divide in this triangle to just
+
+42
+00:02:25,660 --> 00:02:30,340
+Into six smaller triangles that all have equal area
+
+43
+00:02:30,350 --> 00:02:31,440
+So another way to think about it
+
+44
+00:02:31,450 --> 00:02:34,390
+Is each of these three smaller triangles have equal layer
+
+45
+00:02:34,400 --> 00:02:37,520
+These are three of the total of six smaller triangle
+
+46
+00:02:37,530 --> 00:02:39,710
+So these three all have equal area
+
+47
+00:02:39,720 --> 00:02:42,760
+So let's think about of this triangle right over here
+
+48
+00:02:42,770 --> 00:02:46,760
+Let's think about of this triangle, triangle AGB
+
+49
+00:02:46,770 --> 00:02:50,260
+This is triangle AGB right over there those are same triangles
+
+50
+00:02:50,270 --> 00:02:52,440
+And let's compare that to triangle
+
+51
+00:02:52,450 --> 00:02:56,270
+Let's compare it to triangle EAG right over here
+
+52
+00:02:56,280 --> 00:02:59,040
+Let's compare it to this triangle which is
+
+53
+00:02:59,050 --> 00:03:02,390
+This triangle right over here on the original drawing
+
+54
+00:03:02,400 --> 00:03:08,130
+Now they both have the exact same height if you view EG
+
+55
+00:03:08,140 --> 00:03:12,540
+As their as their base or not I guess their shared base
+
+56
+00:03:12,550 --> 00:03:14,730
+They don't have the exact same base
+
+57
+00:03:14,740 --> 00:03:17,960
+This smaller triangle has the base E oh sorry
+
+58
+00:03:17,970 --> 00:03:20,960
+The smaller orange triangle has GB as its base
+
+59
+00:03:20,970 --> 00:03:24,560
+The larger blue triangle has EG as its base
+
+60
+00:03:24,570 --> 00:03:27,650
+But the definitely have the same height or altitude
+
+61
+00:03:27,660 --> 00:03:29,240
+When you draw it this way
+
+62
+00:03:29,250 --> 00:03:33,570
+So their height in both cases is this right over here
+
+63
+00:03:33,580 --> 00:03:36,570
+Now the other thing that we do know
+
+64
+00:03:36,580 --> 00:03:38,020
+The other thing that we do know
+
+65
+00:03:38,030 --> 00:03:41,090
+Is that this blue triangle EAG
+
+66
+00:03:41,100 --> 00:03:44,360
+Has twice the area of the orange triangle how do we know that?
+
+67
+00:03:44,370 --> 00:03:46,670
+Because it's got two of these triangles in it
+
+68
+00:03:46,680 --> 00:03:50,590
+So one way to think about it is this orange triangle has area X
+
+69
+00:03:50,600 --> 00:03:52,460
+You want me to call it A well I already used A
+
+70
+00:03:52,470 --> 00:03:54,040
+So I'm gonna call it area X
+
+71
+00:03:54,050 --> 00:03:57,440
+Then each of these blue triangles have area X
+
+72
+00:03:57,450 --> 00:04:00,320
+Or you could say this entire blue region
+
+73
+00:04:00,330 --> 00:04:05,710
+This entire blue region has area two X area two X
+
+74
+00:04:05,720 --> 00:04:08,410
+So if you look at this two blue triangles
+
+75
+00:04:08,420 --> 00:04:13,910
+We know that one half times base time height is equal to area
+
+76
+00:04:13,920 --> 00:04:18,800
+So we get one half the base is EG one half
+
+77
+00:04:18,810 --> 00:04:20,190
+I'll do that in green color
+
+78
+00:04:20,200 --> 00:04:27,880
+One half EG times height times this yellow height
+
+79
+00:04:27,890 --> 00:04:30,580
+Is going to be equal to two X
+
+80
+00:04:30,590 --> 00:04:33,040
+Is going to be equal to two X
+
+81
+00:04:33,050 --> 00:04:36,530
+I'm just way I'm just applying the formula for the area of a triangle
+
+82
+00:04:36,540 --> 00:04:40,700
+One half base times height is equals to area this is our area
+
+83
+00:04:40,710 --> 00:04:43,520
+Now let's do the same thing for this orange triangle
+
+84
+00:04:43,530 --> 00:04:47,260
+One half let me scroll a little bit to the right
+
+85
+00:04:47,270 --> 00:04:54,750
+We have one half GB GB times the yellow height
+
+86
+00:04:54,760 --> 00:04:58,330
+Times height is going to be equal to X
+
+87
+00:04:58,340 --> 00:05:01,880
+Is going to be equal to X
+
+88
+00:05:01,890 --> 00:05:04,380
+Well we can substitute if this is equal to X we can
+
+89
+00:05:04,390 --> 00:05:08,310
+We can place this entire expression right over here for X
+
+90
+00:05:08,320 --> 00:05:11,140
+So let's do that we get one half
+
+91
+00:05:11,150 --> 00:05:13,560
+And you might already see where this is going
+
+92
+00:05:13,570 --> 00:05:15,770
+But I won't I won't skip any steps here
+
+93
+00:05:15,780 --> 00:05:24,130
+We get one half time EG times H times H
+
+94
+00:05:24,140 --> 00:05:29,730
+Is equals to two is equals to two time X
+
+95
+00:05:29,740 --> 00:05:31,270
+But instead of X I'm gonna write this here
+
+96
+00:05:31,280 --> 00:05:37,190
+As you can look so two times two times one half times GB
+
+97
+00:05:37,200 --> 00:05:40,860
+Times this length times the base of the smaller triangle
+
+98
+00:05:40,870 --> 00:05:43,730
+Times H times H
+
+99
+00:05:43,740 --> 00:05:46,200
+And now we can just simplify this
+
+100
+00:05:46,210 --> 00:05:49,250
+We have two times one half is just going to be
+
+101
+00:05:49,260 --> 00:05:53,690
+It's just going to be one you can divide both sides by H
+
+102
+00:05:53,700 --> 00:05:57,440
+And we are left with one half EG is equals to GB
+
+103
+00:05:57,450 --> 00:06:00,800
+Or we could write EG over two is equal
+
+104
+00:06:00,810 --> 00:06:02,790
+Let me do this in same color since I've gone this far
+
+105
+00:06:02,800 --> 00:06:04,450
+With the same colors
+
+106
+00:06:04,460 --> 00:06:13,650
+So we can write we can write on half EG, EG is equal to GB
+
+107
+00:06:13,660 --> 00:06:17,660
+Is equal to GB and we're done
+
+108
+00:06:17,670 --> 00:06:20,610
+This is essentially saying that GB is half of EG
+
+109
+00:06:20,620 --> 00:06:25,710
+GB is half of EG so for example if EG is two
+
+110
+00:06:25,720 --> 00:06:28,840
+This is going to be one if EG is four this is going to be two
+
+111
+00:06:28,850 --> 00:06:30,570
+So we've actually proven our result
+
+112
+00:06:30,580 --> 00:06:31,730
+We'll actually let's go back to
+
+113
+00:06:31,740 --> 00:06:33,970
+This is the result we wanted to prove to get to there
+
+114
+00:06:33,980 --> 00:06:36,750
+We just multiply both sides of this equation by two
+
+115
+00:06:36,760 --> 00:06:40,120
+You multiply thisthe left hand side by two you get EG
+
+116
+00:06:40,130 --> 00:06:43,250
+You multiply the right hand side by two you get GB
+
+117
+00:06:43,260 --> 00:06:47,020
+So we've proven the EG is twice GB
+
+118
+00:06:47,030 --> 00:06:49,830
+And you can apply the same logic to any of the medians
+
+119
+00:06:49,840 --> 00:06:51,160
+To show that the centroid
+
+120
+00:06:51,170 --> 00:06:54,920
+Is exactly two thirds along the way of the median.

@@ -1,0 +1,255 @@
+1
+99:59:59,999 --> 99:59:59,999
+in the last video where we launched something at an angle, we figured out the horizontal and vertical
+
+2
+99:59:59,999 --> 99:59:59,999
+components of that launch velocity and we used the vertical components to find out how long that thing
+
+3
+99:59:59,999 --> 99:59:59,999
+is in the air, and we used that time to figure out how far it traveled given a constant horizontal velocity
+
+4
+99:59:59,999 --> 99:59:59,999
+What I want to do in this video is redo apart of that problem, to figure out how long that object stays
+
+5
+99:59:59,999 --> 99:59:59,999
+in the air, and I'm going to do it in a slightly more complected way from what I did in the last video
+
+6
+99:59:59,999 --> 99:59:59,999
+But it is kind of a more powerful way, and we will see that it is more powerful in future videos
+
+7
+99:59:59,999 --> 99:59:59,999
+So in last videos to figure out how long something was in the air, we said look,
+
+8
+99:59:59,999 --> 99:59:59,999
+We are starting and stopping at the same elevation, what ever our vertical velocity is here upwards
+
+9
+99:59:59,999 --> 99:59:59,999
+we are going to have the same magnitude of velocity, but it is going to be downwards
+
+10
+99:59:59,999 --> 99:59:59,999
+we used that insight to figure out the change in velocity and we used that change in velocity,
+
+11
+99:59:59,999 --> 99:59:59,999
+and the constant acceleration due to the force of gravity on an object in free fall,
+
+12
+99:59:59,999 --> 99:59:59,999
+to figure out the time in the air, and it was pretty simple mathematically.
+
+13
+99:59:59,999 --> 99:59:59,999
+And what we are going to do now is derive a formula, that is useful in Physics, but i always like to
+
+14
+99:59:59,999 --> 99:59:59,999
+derive it from scratch, and that's what I'm going to derive over here, and you have seen me
+
+15
+99:59:59,999 --> 99:59:59,999
+derive this formula before. But just to start off we need to remind our self's of that the vertical velocity
+
+16
+99:59:59,999 --> 99:59:59,999
+that we calculated in our last video, was 5 m/s and given that vertical velocity lets figure out how
+
+17
+99:59:59,999 --> 99:59:59,999
+long that thing stays in the air.
+
+18
+99:59:59,999 --> 99:59:59,999
+So our vertical velocity, our velocity in the y direction, is 5m/s and also as a reminder
+
+19
+99:59:59,999 --> 99:59:59,999
+our convection when we are dealing with conventions in 1 dimension, and this is in one direction now
+
+20
+99:59:59,999 --> 99:59:59,999
+since we know it is in the y direction, is positive is up and negative is down when we are dealing with
+
+21
+99:59:59,999 --> 99:59:59,999
+the vertical direction
+
+22
+99:59:59,999 --> 99:59:59,999
+when we are dealing the the horizontal direction positive means to the right, negative means to the
+
+23
+99:59:59,999 --> 99:59:59,999
+left, so just to make sure we have those conventions down
+
+24
+99:59:59,999 --> 99:59:59,999
+So how can we figure out how ling this thing stays in the air, so we can remind our self's that the displacement
+
+25
+99:59:59,999 --> 99:59:59,999
+and every thing we are talking about now, this will apply in any one dimension,
+
+26
+99:59:59,999 --> 99:59:59,999
+The displacement is equal the the average velocity
+
+27
+99:59:59,999 --> 99:59:59,999
+times our change in time
+
+28
+99:59:59,999 --> 99:59:59,999
+and what our average velocity? It is, if we assume constant acceleration,
+
+29
+99:59:59,999 --> 99:59:59,999
+it is our final velocity plus our initial velocity- actually let me write it this way, it will make it a little bit cleaner-
+
+30
+99:59:59,999 --> 99:59:59,999
+it is our initial velocity plus our final velocity divided by two
+
+31
+99:59:59,999 --> 99:59:59,999
+so literary the arithmetic mean of our initial and final velocity
+
+32
+99:59:59,999 --> 99:59:59,999
+and we are going to times that by change in time
+
+33
+99:59:59,999 --> 99:59:59,999
+Now what is our final velocity going to be, our final velocity is the same thing as
+
+34
+99:59:59,999 --> 99:59:59,999
+your initial velocity, plus your acceleration times how much time has passed by
+
+35
+99:59:59,999 --> 99:59:59,999
+this right here is your final velocity, so lets substitute that back into this right over here
+
+36
+99:59:59,999 --> 99:59:59,999
+and what do we get, we get our initial velocity- so our average velocity is now our initial velocity
+
+37
+99:59:59,999 --> 99:59:59,999
+plus our final velocity- the final velocity is this over here-so it's our initial velocity plus the acceleration
+
+38
+99:59:59,999 --> 99:59:59,999
+times the amount of time that passes by all of that divided by 2, and all of this is multiplied by
+
+39
+99:59:59,999 --> 99:59:59,999
+the amount of time that passes by. Once again this is our total displacement. so this part right over
+
+40
+99:59:59,999 --> 99:59:59,999
+here, I'll do it in magenta, we have 2 Vi's, so that simplifies to 2 Vi's- 2 times our initial velocity's
+
+41
+99:59:59,999 --> 99:59:59,999
+and this expression over here, simplifies 2 times Vi divided by two, is our initial viscosity and then
+
+42
+99:59:59,999 --> 99:59:59,999
+we have- well I will just do it all here, then I will multiply it by time after that
+
+43
+99:59:59,999 --> 99:59:59,999
+plus the acceleration times amount of time that passes by, divided by two, and all of this is multiplied
+
+44
+99:59:59,999 --> 99:59:59,999
+by the amount of time that passes by. and this is our total displacement
+
+45
+99:59:59,999 --> 99:59:59,999
+and we are almost done- and if you have to take a physics exam under time presser it's not ridicules
+
+46
+99:59:59,999 --> 99:59:59,999
+to not have to re-derive it every time, but I want to emphasize, that you should realize that these formulas
+
+47
+99:59:59,999 --> 99:59:59,999
+come from almost just common basic since principles and you should be able to derive them.
+
+48
+99:59:59,999 --> 99:59:59,999
+but it is good to mesmerize them if you have a time presser exam
+
+49
+99:59:59,999 --> 99:59:59,999
+So now if we multiply this delta t, you get the total displacement is equal to your initial velocity
+
+50
+99:59:59,999 --> 99:59:59,999
+times your change in time plus, your acceleration over two- you have a delta t times a delta t
+
+51
+99:59:59,999 --> 99:59:59,999
+remember delta just means change in time, triangle just means change in time.
+
+52
+99:59:59,999 --> 99:59:59,999
+so change in time times change in time is change in time squared.
+
+53
+99:59:59,999 --> 99:59:59,999
+And this expression right here this is in some physics books, or in some classes
+
+54
+99:59:59,999 --> 99:59:59,999
+they will just give you this formula, but I wanted to show you that it is derived from very very simple
+
+55
+99:59:59,999 --> 99:59:59,999
+principles, from just displacement is average velocity times change in time, what is average velocity
+
+56
+99:59:59,999 --> 99:59:59,999
+what is final velocity, it is just initial velocity plus acceleration times time and you will get this
+
+57
+99:59:59,999 --> 99:59:59,999
+expression right over here. so I did this to figure out much time we are going to spend in the air, so
+
+58
+99:59:59,999 --> 99:59:59,999
+how do we do that for this particular problem
+
+59
+99:59:59,999 --> 99:59:59,999
+Well we know our initial velocity, that the launch vertical component, because be are just dealing with
+
+60
+99:59:59,999 --> 99:59:59,999
+the verticle component here, and we know our initial velocity, we know the acceleration due to gravity
+
+61
+99:59:59,999 --> 99:59:59,999
+and in this situation we want to figure out when the displacement is going to be
+
+62
+99:59:59,999 --> 99:59:59,999
+and this is going to be a little bit unintuitive, but hopefully it makes sense, when the displacement is
+
+63
+99:59:59,999 --> 99:59:59,999
+going to be 0
+
+64
+99:59:59,999 --> 99:59:59,999
+because there is going to be 2 times when the displacement is going to be 0.

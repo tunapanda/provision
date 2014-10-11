@@ -1,0 +1,531 @@
+1
+00:00:01,680 --> 00:00:05,069
+Imagine we listed all integers in a growing spiral,
+
+2
+00:00:05,069 --> 00:00:07,009
+and colored the prime numbers blue,
+
+3
+00:00:07,009 --> 00:00:10,790
+and left the composite numbers black.
+
+4
+00:00:10,790 --> 00:00:13,040
+One interesting question we may ask is,
+
+5
+00:00:13,040 --> 00:00:14,420
+"How many primes are there
+
+6
+00:00:14,420 --> 00:00:16,020
+compared to composites?"
+
+7
+00:00:16,020 --> 00:00:20,840
+First, let's zoom out to see the big picture.
+
+8
+00:00:20,840 --> 00:00:23,840
+Notice the prime color is dense in the center,
+
+9
+00:00:23,840 --> 00:00:25,970
+and slowly drops off in the distance 
+
+10
+00:00:25,970 --> 00:00:28,250
+but never seems to end.
+
+11
+00:00:28,250 --> 00:00:31,000
+One way I like to think about this is as follows:
+
+12
+00:00:31,000 --> 00:00:32,870
+Imagine there is a tree at the center
+
+13
+00:00:32,870 --> 00:00:35,250
+which is infinitely high.
+
+14
+00:00:35,250 --> 00:00:36,870
+The leaves which drop from this tree
+
+15
+00:00:36,870 --> 00:00:38,820
+represent prime numbers
+
+16
+00:00:38,820 --> 00:00:43,300
+which are scattered unpredictably below 
+
+17
+00:00:43,300 --> 00:00:44,710
+dense near the base of the tree 
+
+18
+00:00:44,710 --> 00:00:46,940
+and as we walk away from the tree,
+
+19
+00:00:46,940 --> 00:00:48,660
+we find fewer leaves 
+
+20
+00:00:48,660 --> 00:00:51,760
+though we always find them.
+
+21
+00:00:51,760 --> 00:00:53,180
+This is exactly what happens
+
+22
+00:00:53,180 --> 00:00:56,010
+when we look at larger and larger integers.
+
+23
+00:00:56,010 --> 00:00:58,750
+We always find more primes 
+
+24
+00:00:58,750 --> 00:01:02,489
+though the number of primes we find gradually drops
+
+25
+00:01:02,489 --> 00:01:04,420
+the further [away from the tree] we look.
+
+26
+00:01:04,420 --> 00:01:06,510
+So let's return to our question.
+
+27
+00:01:06,510 --> 00:01:10,130
+How many primes are there less than some integer 'x?'
+
+28
+00:01:10,130 --> 00:01:11,470
+If we make a table,
+
+29
+00:01:11,470 --> 00:01:14,990
+we see the number of primes is always increasing.
+
+30
+00:01:14,990 --> 00:01:16,140
+Though as we search further,
+
+31
+00:01:16,140 --> 00:01:18,860
+we find fewer and fewer.
+
+32
+00:01:18,860 --> 00:01:20,470
+Let's graph the number of primes
+
+33
+00:01:20,470 --> 00:01:22,390
+found on the vertical axis,
+
+34
+00:01:22,390 --> 00:01:25,439
+and the search size, x, on the horizontal.
+
+35
+00:01:25,439 --> 00:01:28,313
+As we zoom out to include billions of numbers,
+
+36
+00:01:28,313 --> 00:01:31,100
+notice the curve never flat lines.
+
+37
+00:01:31,100 --> 00:01:35,894
+It's always rising, albeit gradually.
+
+38
+00:01:35,894 --> 00:01:38,900
+First, let's think about the density of primes
+
+39
+00:01:38,900 --> 00:01:40,830
+less than some integer x.
+
+40
+00:01:40,830 --> 00:01:43,020
+We can find the density by dividing
+
+41
+00:01:43,020 --> 00:01:47,178
+the number of primes found by the search size.
+
+42
+00:01:47,178 --> 00:01:50,340
+For the first 100 integers, we find 25 primes 
+
+43
+00:01:50,340 --> 00:01:52,971
+therefore, 25% are prime.
+
+44
+00:01:52,971 --> 00:01:57,670
+Of the first 1000 integers, we find 1229 primes 
+
+45
+00:01:57,670 --> 00:02:00,713
+12.29% are prime.
+
+46
+00:02:00,713 --> 00:02:05,682
+Of the first 1 million integers, 7.84% are prime.
+
+47
+00:02:05,682 --> 00:02:12,374
+And the first 100 million integers contain 5.76% prime.
+
+48
+00:02:12,374 --> 00:02:16,030
+As we search further, this density continues to drop 
+
+49
+00:02:16,031 --> 00:02:20,559
+though the speed at which it drops slows down.
+
+50
+00:02:20,559 --> 00:02:24,180
+Here is a graph of the search size on the horizontal axis,
+
+51
+00:02:24,180 --> 00:02:26,479
+and the prime density on the vertical.
+
+52
+00:02:26,479 --> 00:02:28,150
+Notice that as we zoom out,
+
+53
+00:02:28,150 --> 00:02:35,880
+the primes are a vanishing proportion of all integers.
+
+54
+00:02:35,880 --> 00:02:39,743
+Amazingly, we find this formula in nature.
+
+55
+00:02:39,743 --> 00:02:45,109
+We see it in galaxies, storms, flowers 
+
+56
+00:02:45,109 --> 00:02:46,799
+and even inside our bodies 
+
+57
+00:02:46,799 --> 00:02:49,980
+as the design of least resistance 
+
+58
+00:02:49,980 --> 00:02:52,859
+known as the 'logarithmic spiral.'
+
+59
+00:02:52,859 --> 00:02:55,449
+Notice that as the spiral rotates,
+
+60
+00:02:55,449 --> 00:02:58,779
+it gets further and further away from the center.
+
+61
+00:02:58,779 --> 00:03:02,769
+Incredibly, the rotation rate of a logarithmic spiral
+
+62
+00:03:02,769 --> 00:03:07,255
+is related to the density of primes – as follows:
+
+63
+00:03:07,255 --> 00:03:12,389
+We have the number of rotations  – call this 'phi' 
+
+64
+00:03:12,389 --> 00:03:15,730
+and the distance from the center  – call this 'r'.
+
+65
+00:03:15,730 --> 00:03:19,689
+If we graph phi against r, and zoom out,
+
+66
+00:03:19,689 --> 00:03:20,919
+we see they are related
+
+67
+00:03:20,919 --> 00:03:24,562
+according to the natural logarithm.
+
+68
+00:03:24,562 --> 00:03:27,989
+This means the natural logarithm of the distance
+
+69
+00:03:27,989 --> 00:03:30,950
+is related to the number of rotations.
+
+70
+00:03:30,950 --> 00:03:33,989
+The graph of the natural logarithm is commonly written 
+
+71
+00:03:33,989 --> 00:03:36,620
+using the variable names 'y' and 'x' 
+
+72
+00:03:36,620 --> 00:03:40,686
+as y equals the natural logarithm of x [or y = ln(x)].
+
+73
+00:03:40,686 --> 00:03:43,079
+Notice the graph tapers off in the same way
+
+74
+00:03:43,079 --> 00:03:48,010
+the density of primes gradually decreases.
+
+75
+00:03:48,010 --> 00:03:50,219
+The final step is to invert this
+
+76
+00:03:50,219 --> 00:03:55,839
+by changing the y axis to 1/ln(x).
+
+77
+00:03:55,839 --> 00:03:56,807
+And when we zoom out,
+
+78
+00:03:56,807 --> 00:03:59,449
+we find the exact same curve generated
+
+79
+00:03:59,449 --> 00:04:02,287
+when we plot the density of primes.
+
+80
+00:04:02,287 --> 00:04:05,529
+Let's confirm this by overlapping the two plots.
+
+81
+00:04:05,529 --> 00:04:11,459
+In green is a graph of the line y = 1/ln(x).
+
+82
+00:04:11,459 --> 00:04:14,671
+And in red is the plot of prime number density 
+
+83
+00:04:14,671 --> 00:04:15,838
+up to x.
+
+84
+00:04:15,838 --> 00:04:18,560
+As we zoom out, they approach each other.
+
+85
+00:04:18,560 --> 00:04:19,916
+The further we zoom out,
+
+86
+00:04:19,916 --> 00:04:23,126
+the more accurate the green estimate becomes.
+
+87
+00:04:23,126 --> 00:04:24,240
+This is known as
+
+88
+00:04:24,240 --> 00:04:28,133
+the 'asymptotic law of distribution of prime numbers.'
+
+89
+00:04:28,133 --> 00:04:30,830
+We now have a formula to accurately tell us
+
+90
+00:04:30,830 --> 00:04:36,457
+the density of primes  – without counting.
+
+91
+00:04:36,457 --> 00:04:39,620
+The density of primes up to some integer x
+
+92
+00:04:39,620 --> 00:04:45,253
+is approximately 1/(ln(x).
+
+93
+00:04:45,253 --> 00:04:47,949
+So let's say you need to know the density of primes
+
+94
+00:04:47,949 --> 00:04:51,373
+between 1 and 100 trillion. Simple.
+
+95
+00:04:51,373 --> 00:04:57,571
+1/ln(100,000,000,000,000) = 3.1%.
+
+96
+00:04:57,571 --> 00:05:00,300
+Compare this to the actual result
+
+97
+00:05:00,300 --> 00:05:02,180
+from counting all primes –
+
+98
+00:05:02,180 --> 00:05:04,675
+which is 3.2 percent.
+
+99
+00:05:04,675 --> 00:05:06,680
+This is off by 0.1 percent.
+
+100
+00:05:06,680 --> 00:05:09,853
+And as we check larger and larger numbers,
+
+101
+00:05:09,853 --> 00:05:12,496
+the difference approaches zero.
+
+102
+00:05:12,496 --> 00:05:13,830
+Realize now that we can use
+
+103
+00:05:13,830 --> 00:05:15,969
+this formula for prime density
+
+104
+00:05:15,969 --> 00:05:19,267
+to estimate the number of primes up to x.
+
+105
+00:05:19,267 --> 00:05:21,430
+The number of primes is the area under
+
+106
+00:05:21,430 --> 00:05:22,430
+the density curve 
+
+107
+00:05:22,430 --> 00:05:23,610
+for which we can simplify
+
+108
+00:05:23,610 --> 00:05:25,590
+by assuming density is constant.
+
+109
+00:05:25,590 --> 00:05:30,210
+So the number of primes equals size times density –
+
+110
+00:05:30,210 --> 00:05:33,627
+or x/ln(x).
+
+111
+00:05:33,627 --> 00:05:37,392
+This is the prime number theorem.
+
+112
+00:05:37,392 --> 00:05:41,911
+Here is a graph of y = x/ln(x), in blue,
+
+113
+00:05:41,911 --> 00:05:43,099
+and [the line] in yellow is a plot
+
+114
+00:05:43,099 --> 00:05:45,891
+of an actual count of primes.
+
+115
+00:05:45,891 --> 00:05:47,126
+Notice as we zoom out,
+
+116
+00:05:47,126 --> 00:05:52,710
+these lines eventually overlap as we look to infinity.
+
+117
+00:05:52,710 --> 00:05:53,789
+And that is it.
+
+118
+00:05:53,789 --> 00:05:55,919
+We have a formula which tells us approximately
+
+119
+00:05:55,919 --> 00:05:58,680
+how many primes there are up to any value –
+
+120
+00:05:58,680 --> 00:06:00,922
+ no counting needed.
+
+121
+00:06:00,922 --> 00:06:02,370
+For example, let's say we need to know
+
+122
+00:06:02,370 --> 00:06:04,423
+the number of primes less than 100 trillion.
+
+123
+00:06:04,423 --> 00:06:06,909
+100 trillion divided by
+
+124
+00:06:06,909 --> 00:06:11,481
+the natural log of 100 trillion = 3.1 trillion.
+
+125
+00:06:11,481 --> 00:06:13,199
+Compare this to the actual count,
+
+126
+00:06:13,199 --> 00:06:15,765
+which is 3.2 trillion.
+
+127
+00:06:15,765 --> 00:06:19,169
+This is over 99.99 percent accurate –
+
+128
+00:06:19,169 --> 00:06:22,340
+even at this relatively small scale.
+
+129
+00:06:22,340 --> 00:06:23,319
+So to recap:
+
+130
+00:06:23,319 --> 00:06:26,849
+Given a search size up to some integer x,
+
+131
+00:06:26,849 --> 00:06:30,906
+the prime density is about 1/(ln(x).
+
+132
+00:06:30,906 --> 00:06:36,905
+And the number of primes is about x/ln(x).
+
+133
+00:06:36,905 --> 00:06:44,070
+This is the prime number theorem.

@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:05,650
+Determine whether this system has no solutions or infinite solutions.
+
+2
+00:00:05,743 --> 00:00:08,947
+So let's think about how we can go about doing this.
+
+3
+00:00:08,947 --> 00:00:12,829
+So at any point, we might not have to solve this entirely
+
+4
+00:00:12,829 --> 00:00:16,562
+if we somehow get something that is nonsensical which will tell us no solution,
+
+5
+00:00:16,562 --> 00:00:19,847
+or we might have to go further and see if it's one of infinite number solutions.
+
+6
+00:00:19,847 --> 00:00:23,642
+Or it looks like one solution isn't an option here given how this question is phrased.
+
+7
+00:00:23,642 --> 00:00:29,511
+So the way that you'll proceed to solve three equations with three unknowns is you will try to
+
+8
+00:00:29,511 --> 00:00:34,225
+eliminate variables one by one. And so first, we can try to eliminate the x-variables
+
+9
+00:00:34,225 --> 00:00:38,492
+and we could do that, we could essentially create two equations with two unknowns.
+
+10
+00:00:38,492 --> 00:00:43,975
+The two unknowns will be y and z if we could pair up these equations and eliminate x with
+
+11
+00:00:43,975 --> 00:00:50,402
+each of these parings. For example, we could pair the first two, we could pair the last two,
+
+12
+00:00:50,402 --> 00:00:57,549
+and that's all we'd need to have to eliminate the x's and still have two equations that have
+
+13
+00:00:57,590 --> 00:01:00,709
+all of the information of these three equations. But a third paring would be
+
+14
+00:01:00,709 --> 00:01:05,179
+first and the third equation. We only have to do two of these parings.
+
+15
+00:01:05,179 --> 00:01:09,969
+Now, just to show you what I mean by these parings, what I want to do is to take these first two,
+
+16
+00:01:09,969 --> 00:01:13,258
+I'm going to take this first -- I'm going to pair the first paring right over here,
+
+17
+00:01:13,258 --> 00:01:16,708
+and I'm going to use them to eliminate the x-terms.
+
+18
+00:01:16,708 --> 00:01:21,520
+And over here, I have 2x; over here, I have 8x. If I could turn this 2x into a negative 8x,
+
+19
+00:01:21,520 --> 00:01:26,181
+I could add both sides of these equations to each other and the x-terms would cancel out.
+
+20
+00:01:26,181 --> 00:01:36,319
+And so the best way to turn this 2x into a negative 8x is to multiply this top equation times negative 4.
+
+21
+00:01:36,319 --> 00:01:41,269
+When I said multiplying, I said multiplying the whole equation, both sides of it by negative 4.
+
+22
+00:01:41,269 --> 00:01:49,957
+So 2x times negative 4 is negative 8x, negative 4y times negative 4 is plus 16y, or positive 16y,
+
+23
+00:01:49,957 --> 00:01:58,092
+z times negative 4 is negative 4z, and that is equal to 3 times negative 4, which is negative 12.
+
+24
+00:01:58,092 --> 00:02:07,691
+And I can rewrite this equation right over here, it's 8x minus 2y plus 4z is equal to 7,
+
+25
+00:02:07,691 --> 00:02:14,056
+and now I can add these both equations. On the left hand side, these guys cancel out,
+
+26
+00:02:14,056 --> 00:02:19,240
+16y minus 2y, that was the whole point behind multiplying the top equation by negative 4,
+
+27
+00:02:19,240 --> 00:02:26,840
+16y minus 2y is 14y, negative 4z plus 4z -- these guys actually cancel out as well,
+
+28
+00:02:26,840 --> 00:02:31,668
+so actually with that one paring, by multiplying by negative 4, we're actually able to cancel out two variables,
+
+29
+00:02:31,668 --> 00:02:39,169
+so you get 14y is equal to negative 12 plus 7 is equal to negative 5.
+
+30
+00:02:39,169 --> 00:02:44,777
+And you get to actually solve for y, and we don't know if this one will actually have solutions,
+
+31
+00:02:44,777 --> 00:02:49,234
+but if we assume it's going to have a solution, you could actually solve for y right over here,
+
+32
+00:02:49,234 --> 00:02:52,582
+you could divide both sides by 14, but let's worry about that a little bit later.
+
+33
+00:02:52,582 --> 00:02:58,191
+Let's take the second paring right over here. So once we have an 8x, we want to eliminate the x's,
+
+34
+00:02:58,191 --> 00:03:03,149
+so this one you have an 8x here, you have a negative 4x. If you multiply this times two,
+
+35
+00:03:03,149 --> 00:03:06,680
+this is going to become a negative 8x and it can cancel with this top one.
+
+36
+00:03:06,680 --> 00:03:13,522
+So the top equation is 8x minus 2y plus 4z is equal to 7. When I said top equation,
+
+37
+00:03:13,522 --> 00:03:17,561
+I'm talking about this one right over here, the top one in this paring.
+
+38
+00:03:17,561 --> 00:03:27,156
+And this bottom equation, I'm going to multiply times negative 2. Sorry, times positive 2.
+
+39
+00:03:27,156 --> 00:03:33,423
+I'm going to multiply it times positive 2. Negative 4x times positive 2 is negative 8x.
+
+40
+00:03:33,423 --> 00:03:44,139
+So I'm going to multiply by 2. So 2 times negative 4x is negative 8x, 2 times y is plus 2y,
+
+41
+00:03:44,139 --> 00:03:51,720
+2 times negative 2z is negative 4z, and then 2 times negative 14 is negative 28.
+
+42
+00:03:51,720 --> 00:03:55,092
+And now we can add the left hand sides and add the right hand sides --
+
+43
+00:03:55,092 --> 00:04:00,839
+these cancel out, those cancel out, those cancel out, we actually end up with nothing on the left hand side
+
+44
+00:04:00,893 --> 00:04:06,922
+because 0 plus 0 plus 0 and on the right hand side, you get 7 plus negative 28 is negative 21.
+
+45
+00:04:06,922 --> 00:04:13,591
+Well, this is a nonsensical answer; 0 can never equal to negative 21 no matter what x, y, or z you pick,
+
+46
+00:04:13,591 --> 00:04:22,503
+0 can not be equal to negative 21 and that's because these second two equations right over here,
+
+47
+00:04:22,503 --> 00:04:30,096
+if you view them as planes in three-dimensions, these right over here do not intersect.
+
+48
+00:04:30,096 --> 00:04:33,794
+If you visualize them in three-dimensions, they are actually parallel planes.
+
+49
+00:04:33,794 --> 00:04:44,443
+And since these last two definitely do not intersect, we can say this system has no solution.
+
+50
+00:04:44,443 --> 00:04:49,645
+It doesn't matter if this first equation intersects one or both of these, the fact that these two don't intersect
+
+51
+00:04:49,645 --> 00:04:54,816
+tells us that there is no unique point x, y, z coordinate, a point in three-dimensions
+
+52
+00:04:54,816 --> 00:04:58,816
+that satisfies all three of them because there is no unique x, y, z that can satisfy these two because they are parallel planes; they do not intersect.

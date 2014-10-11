@@ -1,0 +1,311 @@
+1
+00:00:00,410 --> 00:00:04,490
+What I want to do now is figure out what's the minimum speed
+
+2
+00:00:04,500 --> 00:00:08,480
+that the car has to be at the top of this loop de loop in order to
+
+3
+00:00:08,480 --> 00:00:13,750
+stay on the track, in order stay in a circular motion, in order to not fall down like this
+
+4
+00:00:13,780 --> 00:00:17,790
+I think we can all appreciate that that is the most difficult part of the loop de loop
+
+5
+00:00:17,910 --> 00:00:20,110
+At least at the bottom half right over here
+
+6
+00:00:20,210 --> 00:00:27,890
+the track itself is actually providing the centripetal force to keep it going in a circle
+
+7
+00:00:27,910 --> 00:00:29,360
+But when you get to the top
+
+8
+00:00:29,360 --> 00:00:35,160
+you now have gravity that is pulling down on the car almost completely
+
+9
+00:00:35,210 --> 00:00:42,980
+and the car will have to maintain some minimum speed in order to stay in its circular path
+
+10
+00:00:43,000 --> 00:00:45,250
+Let's figure out what that minimum speed is
+
+11
+00:00:45,270 --> 00:00:50,540
+To help figure that out, we have to figure out what the radius of this loop de loop is
+
+12
+00:00:50,550 --> 00:00:54,830
+Actually it's not a perfect circle based on this little screen shot that I got here
+
+13
+00:00:54,830 --> 00:00:57,010
+it looks a little bit elliptical
+
+14
+00:00:57,110 --> 00:01:01,460
+but it looks like the radius of curvature right over here is actually
+
+15
+00:01:01,460 --> 00:01:05,660
+smaller than the radius of the curvature of the entire loop de loop
+
+16
+00:01:05,680 --> 00:01:10,170
+So if you made this into a circle, it would actually be even a smaller circle
+
+17
+00:01:10,300 --> 00:01:15,680
+But let's just assume for the sake of our argument right over here
+
+18
+00:01:15,680 --> 00:01:21,870
+this thing is a perfect circle, and if it was a perfect circle, let's think about
+
+19
+00:01:21,890 --> 00:01:27,120
+what that minimum velocity would have to be up here at the top of the loop de loop
+
+20
+00:01:27,550 --> 00:01:33,960
+So we know that the magnitude of your centripetal acceleration is going to be equal to
+
+21
+00:01:33,960 --> 00:01:41,520
+your speed squared divided by the radius of the circle that you are going around
+
+22
+00:01:41,900 --> 00:01:46,580
+Now at this point right over here at the top, which is going to be the hardest point
+
+23
+00:01:47,080 --> 00:01:54,100
+the magnitude of our acceleration, this is going to be 9.81 meters per second squared
+
+24
+00:01:54,440 --> 00:01:59,010
+And the radius we can estimate. I copied and pasted the car and it looks like
+
+25
+00:01:59,010 --> 00:02:05,480
+I can get it to stack on itself 4 times to get the radius of this circle right over here
+
+26
+00:02:05,610 --> 00:02:11,710
+I looked it up on the web and a car size is going to be about 1.5 m high
+
+27
+00:02:11,710 --> 00:02:14,380
+from the bottom of the tires to the top of the car
+
+28
+00:02:14,520 --> 00:02:19,810
+And so it looks like just eyeballing it based on these copying and pasting of the cars
+
+29
+00:02:19,910 --> 00:02:25,250
+the radius of this loop de loop here is 6 m
+
+30
+00:02:25,250 --> 00:02:27,500
+So this right over here is 6 m
+
+31
+00:02:27,540 --> 00:02:31,970
+Actually we could just in the variables
+
+32
+00:02:31,990 --> 00:02:35,090
+just to manipulate so we can solve v
+
+33
+00:02:35,310 --> 00:02:39,110
+We have v squared over r is equal to a
+
+34
+00:02:39,300 --> 00:02:44,790
+and then you multiply both sides by r, you get v squared is equal to a times r
+
+35
+00:02:44,940 --> 00:02:47,280
+And you take the principal square root of both sides
+
+36
+00:02:47,280 --> 00:02:52,130
+You get v = the principal square root of a times r
+
+37
+00:02:52,670 --> 00:02:54,600
+And then if we plug in these numbers
+
+38
+00:02:54,630 --> 00:02:58,350
+this velocity that we have to have in order to stay in the circle
+
+39
+00:02:58,350 --> 00:03:09,210
+is going to be the square root of 9.81 m/s squared times 6 m
+
+40
+00:03:09,230 --> 00:03:13,220
+and you can verify that. These units work out. Meters times meters is meter squared
+
+41
+00:03:13,250 --> 00:03:14,540
+per second squared
+
+42
+00:03:14,590 --> 00:03:17,010
+You take the sqrt of that. You get meters per second
+
+43
+00:03:17,020 --> 00:03:19,670
+Let's get our calculator out to actually calculate this
+
+44
+00:03:20,050 --> 00:03:29,960
+So we are going to get the principal square root of 9.81 times 6 m
+
+45
+00:03:30,170 --> 00:03:32,910
+It gives us--and here's our drumroll
+
+46
+00:03:33,050 --> 00:03:41,800
+7.67. I'll just round it three significant digits, 7.67 meters per second
+
+47
+00:03:42,070 --> 00:03:44,030
+Significant digits in our conversation
+
+48
+00:03:44,030 --> 00:03:49,350
+This is just a very very rough approximation, I am unable to measure this accurately at all
+
+49
+00:03:49,490 --> 00:03:59,280
+but I get a roughly 7.67 meters per second. Approximately 7.7 m/s
+
+50
+00:03:59,570 --> 00:04:03,150
+And just to give you a sense of how that translates into units that we're used to
+
+51
+00:04:03,150 --> 00:04:04,650
+when we're driving cars
+
+52
+00:04:04,870 --> 00:04:13,310
+I'll take 7.7 m/s. If you want to say how many meters you go in an hour
+
+53
+00:04:13,500 --> 00:04:17,610
+well, there's 3600 seconds in an hour
+
+54
+00:04:17,610 --> 00:04:20,180
+and if you want to convert that into kilometers
+
+55
+00:04:20,350 --> 00:04:27,400
+this will be in meters, you divide by 1000. 1 km is equal to 1000 m
+
+56
+00:04:27,830 --> 00:04:33,190
+These units will cancel out. You have meters, meters; seconds, seconds
+
+57
+00:04:33,190 --> 00:04:35,390
+You're left with km/h
+
+58
+00:04:35,700 --> 00:04:37,600
+Let's actually calculate this
+
+59
+00:04:37,630 --> 00:04:39,820
+And so we get our previous answer and we want
+
+60
+00:04:39,820 --> 00:04:43,980
+multiply it times 3600 to figure out how many meters in an hour
+
+61
+00:04:45,040 --> 00:04:48,440
+and then you divide by 1000 to convert to kilometers per hour
+
+62
+00:04:48,980 --> 00:04:50,950
+So you divide by a thousand
+
+63
+00:04:51,240 --> 00:05:01,960
+And we get 27.6 km / h
+
+64
+00:05:01,980 --> 00:05:06,020
+which is surprisingly slow. I would've thought that it would be much much much faster
+
+65
+00:05:06,020 --> 00:05:11,820
+but it turns out it doesn't have to be much much faster. Only 27.6 km/h
+
+66
+00:05:11,830 --> 00:05:14,070
+Now the important thing to keep in mind is
+
+67
+00:05:14,070 --> 00:05:18,510
+this is just fast enough at this point to maintain the circular motion
+
+68
+00:05:18,700 --> 00:05:24,550
+But if this were a perfect circle right over here, and you're going in exactly 27.6 km/h
+
+69
+00:05:24,740 --> 00:05:29,280
+you would not have much traction with the road. If so
+
+70
+00:05:29,360 --> 00:05:33,250
+the car might slip and might not be able to actually maintain its speed
+
+71
+00:05:33,250 --> 00:05:38,670
+So you definitely want your speed to be a good bit larger than this
+
+72
+00:05:38,670 --> 00:05:41,190
+in order to keep a nice margin of safety
+
+73
+00:05:41,190 --> 00:05:47,140
+in order to especially have traction with the actual loop de loop to maintain your speed
+
+74
+00:05:47,400 --> 00:05:51,290
+What I want to do in the next video is actually time the car
+
+75
+00:05:51,300 --> 00:05:54,720
+to figure out how long it takes to do this loop de loop
+
+76
+00:05:54,720 --> 00:05:56,390
+We're gonna assume that it's a circle
+
+77
+00:05:56,390 --> 00:06:01,240
+and we're gonna figure out how fast its actual average velocity was
+
+78
+00:06:01,240 --> 00:06:03,720
+over the course of this loop de loop

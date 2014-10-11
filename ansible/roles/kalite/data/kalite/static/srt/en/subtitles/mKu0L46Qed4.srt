@@ -1,0 +1,135 @@
+1
+99:59:59,999 --> 99:59:59,999
+Solve for x and y and we have the system of equations right here we have 2x-5 is equal to 14
+
+2
+99:59:59,999 --> 99:59:59,999
+and negative 6x + 3y is equal to negative 42.
+
+3
+99:59:59,999 --> 99:59:59,999
+so we could try to solve this by elimination and maybe we want to
+
+4
+99:59:59,999 --> 99:59:59,999
+let's see if we can eliminate our y variables first. We have a 3y here and a negative y up here
+
+5
+99:59:59,999 --> 99:59:59,999
+and we could it won't eliminate if you just add 3y plus negative y
+
+6
+99:59:59,999 --> 99:59:59,999
+that won't eliminate but if we could turn this negative y into a -3y then it would cancel out
+
+7
+99:59:59,999 --> 99:59:59,999
+with the 3y and the best way to turn a negative y into a -3y is to multiply this entire top equation
+
+8
+99:59:59,999 --> 99:59:59,999
+by 3
+
+9
+99:59:59,999 --> 99:59:59,999
+so lets do that, let's multiply then we can get some space over on the left
+
+10
+99:59:59,999 --> 99:59:59,999
+let's multiply this entire top equation
+
+11
+99:59:59,999 --> 99:59:59,999
+by 3 so we're going to multiply by three. So when I multiply 2x by three I get 6x
+
+12
+99:59:59,999 --> 99:59:59,999
+when I multiply -y by three I get -3y and then i multiply 14 by three
+
+13
+99:59:59,999 --> 99:59:59,999
+3 times 14 is 42 right? 3 times 10 is thirty plus 12 is 42
+
+14
+99:59:59,999 --> 99:59:59,999
+and then we can add both of these equations something interesting should already maybe be showing up on
+
+15
+99:59:59,999 --> 99:59:59,999
+your radar but let's add both of these equations. I have the left hand side
+
+16
+99:59:59,999 --> 99:59:59,999
+-6x+6x well those cancel out we get 0
+
+17
+99:59:59,999 --> 99:59:59,999
+we have 3y minus 3y those cancel out so you get another 0
+
+18
+99:59:59,999 --> 99:59:59,999
+and then finally we get -42 plus 42 well that's 0 so we end up with just 0=0
+
+19
+99:59:59,999 --> 99:59:59,999
+which is clearly true which is clearly true, but it's not putting any constraints on the x or y
+
+20
+99:59:59,999 --> 99:59:59,999
+and that's because whenever you have a situation like this where you just get something that's obviously
+
+21
+99:59:59,999 --> 99:59:59,999
+true 0=0, 1=1 or 5=5 what we're dealing with in this situation is where both of our constraints,
+
+22
+99:59:59,999 --> 99:59:59,999
+both of our equations are actually the same equation and this right here is a dependent system
+
+23
+99:59:59,999 --> 99:59:59,999
+this is a dependent system
+
+24
+99:59:59,999 --> 99:59:59,999
+when you see it right over here and you multiply it by 3 you got 6x-3y is equal to 42
+
+25
+99:59:59,999 --> 99:59:59,999
+if we then multiply it by -1 you would get the exact same equation as the second equation
+
+26
+99:59:59,999 --> 99:59:59,999
+you would get -6x plus 3y is equal to -42.
+
+27
+99:59:59,999 --> 99:59:59,999
+Another way to think about it if you want to go from the first equation to the second equation
+
+28
+99:59:59,999 --> 99:59:59,999
+you just multiply both sides of the equation by -3
+
+29
+99:59:59,999 --> 99:59:59,999
+so both of these constraints are the same constraints. they're just kind of a scaled up multiple of eachother
+
+30
+99:59:59,999 --> 99:59:59,999
+so if you were to graph them and I might as well just graph them for you
+
+31
+99:59:59,999 --> 99:59:59,999
+right here, this first equation right here is 2x-y is equal to 14.
+
+32
+99:59:59,999 --> 99:59:59,999
+so you subtract 2x from both sides, and you would get on the left hand side:
+
+33
+99:59:59,999 --> 99:59:59,999
+you're left with just -y on the right hand side you have negative 2x + 14
+
+34
+99:59:59,999 --> 99:59:59,999
+now multiply both sides by negative one and you get y=2x-14

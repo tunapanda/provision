@@ -1,0 +1,127 @@
+1
+00:00:01,667 --> 00:00:09,200
+Factor 25x^2 minus 30x plus 9. So we have a leading coefficient that's not a 1.
+
+2
+00:00:09,200 --> 00:00:16,333
+It doesn't look like there are any common factors both 25 and 30 are divisible by 5. But 9 isn't divisible
+
+3
+00:00:16,333 --> 00:00:23,133
+by 5. So we could factor this by grouping, but if we look a little bit more carefully here. See something
+
+4
+00:00:23,133 --> 00:00:30,733
+interesting. 25 is a perfect square, and so 25x^2 is a perfect square. It's the square of 5x.
+
+5
+00:00:30,733 --> 00:00:37,200
+And then 9 is also a perfect square. It's the square of 3 or actually can also be -3. This could also
+
+6
+00:00:37,200 --> 00:00:43,467
+be the square of -5x. So maybe, just maybe this could be a perfect square. So let's just think about
+
+7
+00:00:43,467 --> 00:00:48,959
+what happens when we take the perfect square of a binomial. Especially when the coefficient on the
+
+8
+00:00:48,959 --> 00:00:57,790
+x term is not a one. We have (ax +b)^2. What will this look like when we expand this into a trinomial?
+
+9
+00:00:57,790 --> 00:01:09,067
+Well this is the same thing as (ax+b) times (ax+b) which is the same thing as ax times ax.
+
+10
+00:01:09,067 --> 00:01:23,133
+ax times ax is the same thing is a^2 x^2 plus ax times b which is abx plus b times ax which is another
+
+11
+00:01:23,133 --> 00:01:38,667
+bax or abx plus b times b. So plus b^2. So this is equal to a^2 x^2 plus these two are the same term
+
+12
+00:01:38,667 --> 00:01:48,467
+plus 2abx plus b^2. So this is what happens when you square a binomial. Now this pattern seems to work
+
+13
+00:01:48,467 --> 00:01:59,067
+out pretty good. Let me rewrite our problem. We have 25^2 minus 30x plus 9 so this is a perfect square.
+
+14
+00:01:59,067 --> 00:02:10,333
+Then that means that the a^2 part is 25 right over here. Then that means that the b^2 part. Let me do
+
+15
+00:02:10,333 --> 00:02:20,600
+this in a different color. The b^2 part is 9. So that tells us that a could be plus or minus 5. And
+
+16
+00:02:20,600 --> 00:02:28,333
+that b could be plus or minus 3. Now lets see if this gels with this middle term.
+
+17
+00:02:28,333 --> 00:02:37,733
+For this middle term to work out. I'm trying to look for a different color. 2ab, this part right over
+
+18
+00:02:37,733 --> 00:02:46,200
+here. 2ab needs to be equal to -30. Or another way, let me write it over here. 2ab needs to be
+
+19
+00:02:46,200 --> 00:02:57,733
+equal to -30 or if we divide both sides by two, ab needs to be equal to -15. So that tells us since the
+
+20
+00:02:57,733 --> 00:03:04,667
+product is negative one has to be positive and one has to be negative. Now lucky for us, the product
+
+21
+00:03:04,667 --> 00:03:10,000
+of 5 and 3 is 15, so if we make one of them positive and one of them negative well get up to -15. So it looks
+
+22
+00:03:10,000 --> 00:03:20,533
+like things are going to work out. So we could select a is equal to positive 5 and b is equal
+
+23
+00:03:20,533 --> 00:03:31,733
+to -3. Those would work out to ab equal -15. Or we could make it a is equal -5 and b is equal to 3.
+
+24
+00:03:31,733 --> 00:03:40,933
+So either of these would work so if we factor this out. Let's do this first one if could be either a
+
+25
+00:03:40,933 --> 00:03:56,400
+is 5, b is -3. So either be (5x -3)^2. A is five b is -3. It could be that or we could switch the signs
+
+26
+00:03:56,400 --> 00:04:07,933
+on the two terms. Or a could be -5 and b could be 3. Or it could be (-5x plus 3)^2. So either of these
+
+27
+00:04:07,933 --> 00:04:15,667
+are possible ways to factor this term out. You might think "How could both of these multiply to the same
+
+28
+00:04:15,667 --> 00:04:22,000
+thing?" Well this term remember this -5x plus three we could factor out a -1. So this is the same thing
+
+29
+00:04:22,000 --> 00:04:32,067
+as -1 times (5x -3) the whole thing squared. And that's the same thing as -1 squared times
+
+30
+00:04:32,067 --> 00:04:42,733
+(5x -3)^2. And -1 squared is clearly equal to 1. So thats why this and this are the same thing. So this
+
+31
+00:04:42,733 --> 00:04:48,667
+comes out to the same thing as (5x -3)^2 which is the same thing as that over there.
+
+32
+00:04:48,667 --> 99:59:59,999
+So either of these are possible answers.

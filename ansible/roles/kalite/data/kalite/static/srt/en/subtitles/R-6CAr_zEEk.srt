@@ -1,0 +1,631 @@
+1
+00:00:00,000 --> 00:00:02,200
+In this first problem over here, we're asked to find out
+
+2
+00:00:02,210 --> 00:00:04,980
+the length of this segment, segment CE.
+
+3
+00:00:06,520 --> 00:00:08,626
+And we have these two parallel lines,
+
+4
+00:00:08,626 --> 00:00:10,732
+AB as parallel to DE.
+
+5
+00:00:10,732 --> 00:00:12,840
+And then we have these two – essentially – transversals
+
+6
+00:00:12,850 --> 00:00:14,440
+that form these two triangles.
+
+7
+00:00:14,450 --> 00:00:15,670
+So let's see what we can do here.
+
+8
+00:00:15,680 --> 00:00:18,060
+So the first thing that might jump out at you
+
+9
+00:00:18,070 --> 00:00:21,100
+is that this angle and this angle are vertical angles.
+
+10
+00:00:21,110 --> 00:00:22,550
+So they are going to be congruent.
+
+11
+00:00:22,560 --> 00:00:24,950
+The other thing that might jump out at you
+
+12
+00:00:24,960 --> 00:00:31,870
+Is that angle CDE is an alternate interior angle with CBA.
+
+13
+00:00:31,880 --> 00:00:34,050
+So we have this transveral right over here,
+
+14
+00:00:34,060 --> 00:00:36,060
+and these are alternate interior angles –
+
+15
+00:00:36,070 --> 00:00:37,900
+and they are going to be congruent.
+
+16
+00:00:37,910 --> 00:00:40,170
+Or you could say that if you continue this transversal,
+
+17
+00:00:40,180 --> 00:00:42,020
+you would have a corresponding angle
+
+18
+00:00:42,030 --> 00:00:43,980
+with CDE right up here.
+
+19
+00:00:43,990 --> 00:00:45,550
+And this one is just vertical.
+
+20
+00:00:45,560 --> 00:00:48,510
+Either way, this angle and this angle are going to be congruent.
+
+21
+00:00:48,520 --> 00:00:50,910
+So we've established that we have two triangles.
+
+22
+00:00:50,920 --> 00:00:54,950
+And they have two corresponding angles which are the same.
+
+23
+00:00:54,960 --> 00:00:58,710
+And that, by itself, is enough to establish similarity.
+
+24
+00:00:58,720 --> 00:01:00,090
+You can actually –
+
+25
+00:01:00,100 --> 00:01:02,300
+We actually could show that this angle and this angle
+
+26
+00:01:02,310 --> 00:01:04,120
+are also congruent by alternate interior angles.
+
+27
+00:01:04,130 --> 00:01:06,010
+But we don't have to.
+
+28
+00:01:06,020 --> 00:01:08,070
+So we already know that they are similar.
+
+29
+00:01:08,080 --> 00:01:11,160
+Actually, we could just say it just by alternate interior angles.
+
+30
+00:01:11,170 --> 00:01:12,820
+These are also going to be congruent.
+
+31
+00:01:12,830 --> 00:01:15,670
+But we already know enough to say that they're similar,
+
+32
+00:01:15,680 --> 00:01:17,170
+even before doing that.
+
+33
+00:01:17,180 --> 00:01:19,130
+So we already know that triangle.
+
+34
+00:01:19,140 --> 00:01:23,250
+I'll try to write it color coded, so that we have
+
+35
+00:01:23,260 --> 00:01:24,730
+the same corresponding vertices.
+
+36
+00:01:24,740 --> 00:01:26,930
+And it's really important to know what angles
+
+37
+00:01:26,940 --> 00:01:28,750
+and what sides correspond to what side,
+
+38
+00:01:28,760 --> 00:01:31,400
+so that you don't mess up your ratios,
+
+39
+00:01:31,410 --> 00:01:34,560
+or so that you do know what is corresponding to what.
+
+40
+00:01:34,570 --> 00:01:47,720
+So we know triangle ABC is similar to triangle –
+
+41
+00:01:47,730 --> 00:01:52,220
+So A – this vertex A – corresponds to vertex E over here –
+
+42
+00:01:52,230 --> 00:01:54,710
+Is similar to vertex E.
+
+43
+00:01:54,720 --> 00:01:56,940
+And then vertex B right over here
+
+44
+00:01:56,950 --> 00:02:03,300
+corresponds to vertex D, EDC.
+
+45
+00:02:03,310 --> 00:02:06,150
+Now what does that do for us?
+
+46
+00:02:06,160 --> 00:02:09,160
+Well that tells us that the ratio of corresponding sides
+
+47
+00:02:09,170 --> 00:02:10,870
+are going to have the same.
+
+48
+00:02:10,880 --> 00:02:12,470
+They're going to be the same.
+
+49
+00:02:12,480 --> 00:02:13,930
+They're going to be some constant value.
+
+50
+00:02:13,940 --> 00:02:15,710
+So we have corresponding side
+
+51
+00:02:15,720 --> 00:02:19,140
+So the ratio for example, the corresponding side for BC
+
+52
+00:02:19,150 --> 00:02:23,600
+Is going to be DC
+
+53
+00:02:23,610 --> 00:02:24,370
+We can see it
+
+54
+00:02:24,380 --> 00:02:26,340
+Just for the way that we've written down the similarity
+
+55
+00:02:26,350 --> 00:02:30,060
+If this is true then BC is the corresponding side to DC
+
+56
+00:02:30,070 --> 00:02:36,310
+So we know that BC, the length of BC over DC
+
+57
+00:02:36,320 --> 00:02:37,390
+Right over here
+
+58
+00:02:37,400 --> 00:02:44,550
+Is going to be equal to the length of,
+
+59
+00:02:44,560 --> 00:02:46,030
+Well, we wanna figure out what CE is,
+
+60
+00:02:46,040 --> 00:02:47,760
+That's what we care about
+
+61
+00:02:47,770 --> 00:02:50,650
+And I'm using BC and DC cause we know those values
+
+62
+00:02:50,660 --> 00:02:53,670
+So BC over DC is going to be equal to
+
+63
+00:02:53,680 --> 00:02:57,250
+A coresponding side to CE
+
+64
+00:02:57,260 --> 00:03:01,180
+The corrresponding side over here is CA
+
+65
+00:03:01,190 --> 00:03:07,230
+Is going to be equal to CA over CE
+
+66
+00:03:07,240 --> 00:03:11,550
+Corresponding sides
+
+67
+00:03:11,560 --> 00:03:14,470
+This is the last and the first, last and the first
+
+68
+00:03:14,480 --> 00:03:16,130
+CA over CE
+
+69
+00:03:16,140 --> 00:03:18,280
+And we know what BC is
+
+70
+00:03:18,290 --> 00:03:21,780
+BC right over here is 5
+
+71
+00:03:21,790 --> 00:03:23,520
+We know what DC is
+
+72
+00:03:23,530 --> 00:03:24,920
+It is 3
+
+73
+00:03:24,930 --> 00:03:28,270
+We know what CA or AC is right over here
+
+74
+00:03:28,280 --> 00:03:29,430
+CA is 4
+
+75
+00:03:29,440 --> 00:03:32,100
+And now we can just solve for CE
+
+76
+00:03:32,110 --> 00:03:33,430
+So we can,
+
+77
+00:03:33,440 --> 00:03:36,080
+There's multiple ways that you can think about this
+
+78
+00:03:36,090 --> 00:03:39,540
+You could cross multiply and you get,
+
+79
+00:03:39,550 --> 00:03:42,390
+Which is really just multiplying both sides by both denominators
+
+80
+00:03:42,400 --> 00:03:45,880
+So you get 5 times the length of CE
+
+81
+00:03:45,890 --> 00:03:49,080
+Is equal to 3 times 4
+
+82
+00:03:49,090 --> 00:03:51,550
+Which is just going to be equal to 12
+
+83
+00:03:51,560 --> 00:03:53,060
+And then we get CE
+
+84
+00:03:53,070 --> 00:03:56,550
+CE is equal to 12 over 5
+
+85
+00:03:56,560 --> 00:04:01,650
+Which is the same thing as 2 and 2 fifths
+
+86
+00:04:01,660 --> 00:04:04,020
+2 and 2 fifths or 2 4
+
+87
+00:04:04,030 --> 00:04:06,700
+This is gonna be 2 and 2 fifths
+
+88
+00:04:06,710 --> 00:04:07,740
+And we're done
+
+89
+00:04:07,750 --> 00:04:10,360
+We're able to use similarity to figure out this side
+
+90
+00:04:10,370 --> 00:04:13,950
+Just knowing that the ratio between corresponding sides
+
+91
+00:04:13,960 --> 00:04:15,320
+Are going to be the same
+
+92
+00:04:15,330 --> 00:04:17,800
+Now let's do this problem right over here
+
+93
+00:04:17,810 --> 00:04:19,280
+Let's do this one.
+
+94
+00:04:19,290 --> 00:04:20,440
+Let me draw a little line here.
+
+95
+00:04:20,450 --> 00:04:21,820
+So this is a different problem now.
+
+96
+00:04:21,830 --> 00:04:27,810
+So in this problem we need to figure out what DE is
+
+97
+00:04:27,820 --> 00:04:29,230
+And we all once again
+
+98
+00:04:29,240 --> 00:04:32,580
+We have these 2 parallel lines like this
+
+99
+00:04:32,590 --> 00:04:35,690
+And so we know corresponding angles are congruent
+
+100
+00:04:35,700 --> 00:04:38,490
+So we know that angle is going to be congruent to that angle
+
+101
+00:04:38,500 --> 00:04:40,750
+Cause you could view this as a transversal,
+
+102
+00:04:40,760 --> 00:04:43,330
+We also know that this angle right over here
+
+103
+00:04:43,340 --> 00:04:48,750
+Is going to be congruent to that angle right over there
+
+104
+00:04:48,760 --> 00:04:52,220
+Once again, corresponding angles for transversal
+
+105
+00:04:52,230 --> 00:04:54,080
+And also in both triangles,
+
+106
+00:04:54,090 --> 00:04:58,250
+So I'm looking at triangles CBD and triangles CAE,
+
+107
+00:04:58,260 --> 00:05:00,530
+They both share this angle up here
+
+108
+00:05:00,540 --> 00:05:04,110
+So we've actually shown,
+
+109
+00:05:04,120 --> 00:05:06,110
+Once again, we could have stopped at two angles
+
+110
+00:05:06,120 --> 00:05:07,250
+But we've actually shown
+
+111
+00:05:07,260 --> 00:05:09,440
+that all three angles of these two triangles,
+
+112
+00:05:09,450 --> 00:05:11,210
+all three of the corresponding angles
+
+113
+00:05:11,220 --> 00:05:13,500
+are congruent to each other
+
+114
+00:05:13,510 --> 00:05:14,780
+So we now know,
+
+115
+00:05:14,790 --> 00:05:17,610
+And once again this is an important thing to do,
+
+116
+00:05:17,620 --> 00:05:18,970
+Is to make sure that you get
+
+117
+00:05:18,980 --> 00:05:20,800
+Is that you write it in the right order
+
+118
+00:05:20,810 --> 00:05:21,870
+when you write your similarity,
+
+119
+00:05:21,880 --> 00:05:33,310
+We now know that triangle CBD is similar
+
+120
+00:05:33,320 --> 00:05:35,600
+Not congruent,
+
+121
+00:05:35,610 --> 00:05:46,560
+It is similar to triangle CAE
+
+122
+00:05:50,060 --> 00:05:52,190
+Which means that the ratio of corresponding sides
+
+123
+00:05:52,200 --> 00:05:53,460
+Are going to be constant
+
+124
+00:05:53,470 --> 00:05:57,330
+So we know for example, that the ratio between CD
+
+125
+00:05:57,340 --> 00:05:58,710
+Is going to be the same
+
+126
+00:05:58,720 --> 00:06:01,250
+That the ratio between CB to CA,
+
+127
+00:06:01,260 --> 00:06:02,980
+Lets write this down,
+
+128
+00:06:02,990 --> 00:06:07,500
+We know that the ratio of CB over CA
+
+129
+00:06:07,510 --> 00:06:14,340
+Is going to be equal to the ratio of CD over CE
+
+130
+00:06:18,040 --> 00:06:19,380
+And we know what CB is,
+
+131
+00:06:19,390 --> 00:06:21,140
+CB over here is 5
+
+132
+00:06:21,150 --> 00:06:23,010
+We know what CA is
+
+133
+00:06:23,020 --> 00:06:24,540
+And we have to be careful here
+
+134
+00:06:24,550 --> 00:06:25,140
+It's not 3
+
+135
+00:06:25,150 --> 00:06:28,570
+CA this entire side is gonna be 5 plus 3
+
+136
+00:06:28,580 --> 00:06:29,870
+So this is going to be 8
+
+137
+00:06:29,880 --> 00:06:31,680
+And we know what CD is
+
+138
+00:06:31,690 --> 00:06:33,740
+CD is going to be 4
+
+139
+00:06:33,750 --> 00:06:36,910
+And so once again, we can cross multiply
+
+140
+00:06:36,920 --> 00:06:42,420
+We have 5 CE, 5 times CE is equal to
+
+141
+00:06:42,430 --> 00:06:46,060
+8 times 4
+
+142
+00:06:46,070 --> 00:06:48,530
+8 times 4 is 32
+
+143
+00:06:48,540 --> 00:06:57,180
+And so CE is equal to 32 over 5
+
+144
+00:06:57,190 --> 00:06:59,500
+Or this is another way to think about that
+
+145
+00:06:59,510 --> 00:07:00,550
+6 and 2 fifths
+
+146
+00:07:00,560 --> 00:07:05,810
+Now we're not done because they didn't ask for what CE is
+
+147
+00:07:05,820 --> 00:07:07,950
+They're asking for just this part right over here
+
+148
+00:07:07,960 --> 00:07:09,060
+They're asking for DE
+
+149
+00:07:09,070 --> 00:07:12,270
+So we know that this entire length, CE right over here
+
+150
+00:07:12,280 --> 00:07:15,310
+This is 6 and two fifths,
+
+151
+00:07:15,320 --> 00:07:17,680
+And so DE right over here,
+
+152
+00:07:17,690 --> 00:07:19,160
+what we actually have to figure out
+
+153
+00:07:19,170 --> 00:07:23,440
+It's going to be this entire length 6 and 2 fifths minus 4
+
+154
+00:07:23,450 --> 00:07:25,480
+Minus CD right over here
+
+155
+00:07:25,490 --> 00:07:29,120
+So it's going to be 2 and 2 fifths
+
+156
+00:07:29,130 --> 00:07:32,320
+6 and 2 fifths minus 4 is 2 and 2 fifths
+
+157
+00:07:32,330 --> 00:07:33,490
+So we're done
+
+158
+00:07:33,500 --> 00:07:36,210
+DE is 2 and 2 fifths

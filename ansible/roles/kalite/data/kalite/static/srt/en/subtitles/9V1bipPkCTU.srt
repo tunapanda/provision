@@ -1,0 +1,619 @@
+1
+00:00:00,655 --> 00:00:03,610
+A proof of work protocol is a vehicle,
+
+2
+00:00:03,610 --> 00:00:05,787
+by which somebody can effectively prove to you
+
+3
+00:00:05,787 --> 00:00:11,226
+they've engaged in a significant amount of computational effort.
+
+4
+00:00:11,226 --> 00:00:14,461
+Proof of work protocols often amount to puzzles.
+
+5
+00:00:14,461 --> 00:00:20,122
+These puzzles can, on the one hand, be challenged and solved
+
+6
+00:00:20,122 --> 00:00:26,098
+and they require some serious computational effort and really can't be short-circuited.
+
+7
+00:00:26,098 --> 00:00:31,059
+But on the other hand, that effort can actually be easily verified.
+
+8
+00:00:31,059 --> 00:00:37,310
+It can be verified in far less time than it took to conduct that effort in the first place.
+
+9
+00:00:38,372 --> 00:00:40,703
+There are numer of applications of such protocols.
+
+10
+00:00:40,703 --> 00:00:46,790
+For example, if you've heard of a bicoin electronic payment system,
+
+11
+00:00:46,790 --> 00:00:50,658
+that system actually leverages a proof of work scheme
+
+12
+00:00:50,658 --> 00:00:56,722
+within the context of creating what are known as transaction block chains.
+
+13
+00:00:57,599 --> 00:01:03,923
+Aside from bitcoin, which is a very recent user of these types of proof of work schemes,
+
+14
+00:01:03,923 --> 00:01:07,709
+these schemes were being proposed in the past for other applications.
+
+15
+00:01:07,709 --> 00:01:10,718
+For example, proof of work schemes have been proposed
+
+16
+00:01:10,718 --> 00:01:14,862
+for doing things like deterring of denial-of-service attacks, or DoS attacks.
+
+17
+00:01:14,862 --> 00:01:18,957
+Here, the idea is that the request to allow you to a particular service
+
+18
+00:01:18,957 --> 00:01:25,233
+would have to solve a very specific computational problem, a proof of work puzzle,
+
+19
+00:01:25,233 --> 00:01:27,510
+before being allowed to use the service.
+
+20
+00:01:27,510 --> 00:01:30,957
+And the idea here is that the computational effort exerted
+
+21
+00:01:30,957 --> 00:01:34,508
+is effectively a way to throttle the requester.
+
+22
+00:01:34,863 --> 00:01:36,623
+The responder can in turn easily check
+
+23
+00:01:36,623 --> 00:01:39,336
+if the requester carried out the requisite work
+
+24
+00:01:39,336 --> 00:01:40,977
+and only if that work was carried out
+
+25
+00:01:40,977 --> 00:01:45,127
+will the responder respond to that request for service.
+
+26
+00:01:45,758 --> 00:01:50,102
+The original application for these types of proof of work protocols,
+
+27
+00:01:50,102 --> 00:01:51,904
+the first place that I've seen it proposed,
+
+28
+00:01:51,904 --> 00:01:56,162
+is in the context of being able to deter spam email.
+
+29
+00:01:56,162 --> 00:01:58,127
+Obviously, we all know what spam email is.
+
+30
+00:01:58,127 --> 00:02:01,290
+These are messages that you don't want in your inbox
+
+31
+00:02:01,290 --> 00:02:04,622
+and maybe come to you in an unsolicited fashion.
+
+32
+00:02:04,622 --> 00:02:11,429
+The idea here is that a proof of work protocol can be tied to a particular email message.
+
+33
+00:02:11,429 --> 00:02:15,644
+This is conceptually like affixing a post SSM to a message,
+
+34
+00:02:16,060 --> 00:02:21,028
+but rather than paying for that stamp using money
+
+35
+00:02:21,028 --> 00:02:24,562
+you are basically paying for that stamp via CPU cycles.
+
+36
+00:02:24,562 --> 00:02:29,208
+For a legitimate centre only sending out a small numer of messages
+
+37
+00:02:29,208 --> 00:02:33,058
+this type of proof of work protocol will not amount to very much.
+
+38
+00:02:33,058 --> 00:02:38,154
+It's gonna be a minor deturn since it's only executed a very small number of times.
+
+39
+00:02:38,154 --> 00:02:42,297
+It's kind of an impediment, but it's not something that is so unreasonable.
+
+40
+00:02:43,159 --> 00:02:45,926
+For a spammer, who might be sending out a lot of messages,
+
+41
+00:02:45,926 --> 00:02:48,963
+maybe hundreds of thousands or millions of messages,
+
+42
+00:02:48,963 --> 00:02:54,490
+it might be prohibitively expensive to repeatedly expand so many CPU cycles
+
+43
+00:02:54,490 --> 00:02:58,015
+after each message and each sender to whom that message is being sent.
+
+44
+00:02:58,646 --> 00:03:03,221
+So far I just gave you a flavour of some of the applications of these proof of work protocols.
+
+45
+00:03:03,221 --> 00:03:06,666
+Let me actually dive into how they work in practice.
+
+46
+00:03:07,127 --> 00:03:09,894
+First of all, the way that I like to think about these protocols
+
+47
+00:03:09,894 --> 00:03:14,863
+is that typically they work in relation to a given challenge string.
+
+48
+00:03:14,863 --> 00:03:20,315
+I would call this challenge string and would label it with the letter "c",
+
+49
+00:03:20,361 --> 00:03:22,816
+so "c" is gonna be kind of a challenge string.
+
+50
+00:03:22,816 --> 00:03:27,225
+What the person trying to engage in the protocol will do,
+
+51
+00:03:27,225 --> 00:03:33,658
+the prover of the work will basically try to come up with the corresponding proof
+
+52
+00:03:34,212 --> 00:03:36,555
+that is tied to this challenge string.
+
+53
+00:03:36,555 --> 00:03:39,812
+It's gonna be kind of response associated with this challenge
+
+54
+00:03:39,812 --> 00:03:44,136
+that has a very specific mathematical property in relations to this challenge.
+
+55
+00:03:44,736 --> 00:03:49,721
+As you pointed out, when I talked about the challenge string, for example in the context of spam,
+
+56
+00:03:49,721 --> 00:03:53,505
+this challenge string might actually represent message.
+
+57
+00:03:53,505 --> 00:03:56,441
+So it's gonna be something very specific to the task at hand.
+
+58
+00:03:57,118 --> 00:04:01,038
+What the prover will do is come up with the response string.
+
+59
+00:04:01,038 --> 00:04:05,651
+Let's call the response string "r".
+
+60
+00:04:07,282 --> 00:04:10,248
+Actually, let's use the letter "p" for it.
+
+61
+00:04:10,633 --> 00:04:13,231
+We can think of it as a proof.
+
+62
+00:04:13,231 --> 00:04:15,558
+A proof or response.
+
+63
+00:04:16,328 --> 00:04:21,570
+The idea is that the prover will come up with this proof or response string
+
+64
+00:04:21,570 --> 00:04:25,891
+and he is to come up with a string such that when you can coordinate the challenge and the response
+
+65
+00:04:25,891 --> 00:04:31,422
+and you take the two together and apply a cryptographic hash function,
+
+66
+00:04:31,422 --> 00:04:36,617
+something like SHA-256 or anything of that nature,
+
+67
+00:04:37,294 --> 00:04:41,467
+if I take the challenge string and the proof string, combine it together
+
+68
+00:04:41,467 --> 00:04:43,360
+and apply the cryptographic hash function,
+
+69
+00:04:43,360 --> 00:04:48,393
+apply these mathematical transformations that represent the cryptographic hash function,
+
+70
+00:04:48,393 --> 00:04:50,133
+I wanna come over the proof string
+
+71
+00:04:50,133 --> 00:04:54,599
+such that the output under this hash function will have a very specific property.
+
+72
+00:04:54,599 --> 00:05:01,278
+The prefix of the output, the first large numeral bits will all be zeros.
+
+73
+00:05:01,278 --> 00:05:07,742
+Let's say the first forty bits, or first thirty bits, or some number of bits will be zero.
+
+74
+00:05:09,895 --> 00:05:13,542
+And the other bits can be whatever they would normally be.
+
+75
+00:05:14,111 --> 00:05:17,569
+Obviously, what we are trying to do here is come up with proof string
+
+76
+00:05:17,569 --> 00:05:19,662
+that has a relationship with the challenge string
+
+77
+00:05:19,662 --> 00:05:22,564
+and that relationship happens to be one that happens
+
+78
+00:05:22,564 --> 00:05:26,703
+or is taken with respect to a particular hash function
+
+79
+00:05:26,703 --> 00:05:32,794
+and really incorporates or considers what the output of the hash function will be
+
+80
+00:05:32,794 --> 00:05:37,092
+when the proof string is concatenated with the challenge string.
+
+81
+00:05:37,754 --> 00:05:40,926
+If you have a good cryptographic hash function
+
+82
+00:05:40,926 --> 00:05:45,010
+then the only known way to find this type of a proof string
+
+83
+00:05:45,010 --> 00:05:49,220
+is to effectively try a lot of different possibilities.
+
+84
+00:05:49,589 --> 00:05:54,258
+Trying a lot diffeent proof strings until you find one that works.
+
+85
+00:05:54,258 --> 00:06:00,766
+If you needed to find an output that contained about forty consecutive zeros in it,
+
+86
+00:06:00,766 --> 00:06:05,730
+that would require to perform about two to the power of forty steps.
+
+87
+00:06:05,730 --> 00:06:09,429
+Two to the power of forty different hash function invocations.
+
+88
+00:06:09,429 --> 00:06:14,215
+If you try two to the forty different strings and one of them would likely work
+
+89
+00:06:14,215 --> 00:06:16,886
+if you tried two to the forty such strings.
+
+90
+00:06:16,886 --> 00:06:23,028
+That would require, just to give you a sense, it's approximately one trillion.
+
+91
+00:06:23,028 --> 00:06:26,859
+So if you try that trillion different strings out and you hash them each,
+
+92
+00:06:26,859 --> 00:06:33,660
+you would likely come up with one string that had the first forty bits being zero.
+
+93
+00:06:33,660 --> 00:06:35,614
+Sometimes it may take a lot less than a trillion steps,
+
+94
+00:06:35,614 --> 00:06:37,758
+sometimes it may take you a little bit more.
+
+95
+00:06:38,204 --> 00:06:41,396
+You may get very lucky, you may get very unlucky.
+
+96
+00:06:41,396 --> 00:06:44,722
+On average, it will take you about one trillion steps
+
+97
+00:06:44,722 --> 00:06:50,790
+to find a string where the first forty bits are equal to zero.
+
+98
+00:06:52,210 --> 00:06:57,230
+It is something that is not easy but it is also not outside the realm of possibility.
+
+99
+00:06:57,346 --> 00:07:01,674
+To find the reason why it's really hard to solve these types of proof of work schemes
+
+100
+00:07:01,674 --> 00:07:05,867
+more efficiently than simply doing brute force, I think it's helpful to recall
+
+101
+00:07:05,867 --> 00:07:11,201
+that the output of a cryptographic hash function looks more or less random.
+
+102
+00:07:11,201 --> 00:07:15,965
+In fact, each output bit looks like a series of coin flips.
+
+103
+00:07:15,965 --> 00:07:19,754
+It is like flipping a coin and if it comes up heads, you would have a zero
+
+104
+00:07:19,754 --> 00:07:22,364
+and if it comes up tails, you can think of it as a one.
+
+105
+00:07:22,364 --> 00:07:23,801
+So what you are really doing is saying:
+
+106
+00:07:23,801 --> 00:07:30,063
+"If I flipped forty coins what are the odds that I would have forty consecutive heads
+
+107
+00:07:30,063 --> 00:07:32,162
+on those forty coin flips."
+
+108
+00:07:32,162 --> 00:07:35,508
+Obviously, that likelihood is very small,
+
+109
+00:07:35,508 --> 00:07:37,859
+but it's not out of the realm of possibility.
+
+110
+00:07:37,859 --> 00:07:40,203
+If you took forty coins
+
+111
+00:07:40,203 --> 00:07:43,595
+and you flipped those forty coins about a trillion times,
+
+112
+00:07:43,595 --> 00:07:50,641
+you would actually expect to see one instance in which all forty coins came up as heads.
+
+113
+00:07:50,641 --> 00:07:53,095
+Out of the trillion tries.
+
+114
+00:07:53,771 --> 00:07:55,812
+One interesting thing with these proof of work schemes
+
+115
+00:07:55,812 --> 00:07:57,994
+is they can be ratcheted up or ratcheted down.
+
+116
+00:07:57,994 --> 00:08:02,744
+For example, let's say you wanna require even more computational heavy lifting
+
+117
+00:08:02,744 --> 00:08:04,974
+to come up with the correct proof string.
+
+118
+00:08:05,205 --> 00:08:10,328
+You want to increase the work that is gonna be proved here.
+
+119
+00:08:10,328 --> 00:08:12,076
+What you can effectively do in that case
+
+120
+00:08:12,076 --> 00:08:15,725
+is you can just increase the requirement on the numer of leading zeros.
+
+121
+00:08:15,725 --> 00:08:17,429
+Every time you add additional zero,
+
+122
+00:08:17,429 --> 00:08:22,281
+you effectively double the computational force power needed on average.
+
+123
+00:08:22,605 --> 00:08:26,653
+That's because you are effectively requiring one more coin to come up heads.
+
+124
+00:08:26,653 --> 00:08:30,393
+That entails doubling the numer of coin flips.
+
+125
+00:08:30,393 --> 00:08:34,334
+If I had forty one coin flips and I required forty one straight heads
+
+126
+00:08:34,334 --> 00:08:39,132
+that would require about twice as much effort as is required with forty straight heads.
+
+127
+00:08:39,132 --> 00:08:43,427
+Likewise, every time you remove a zero from consideration of the requirement
+
+128
+00:08:43,427 --> 00:08:48,491
+that would reduce the computational force power needed to about a half of the one needed previously.
+
+129
+00:08:48,491 --> 00:08:52,796
+So for example, if I only required the first thirty nine bits to be zero
+
+130
+00:08:52,796 --> 00:08:56,211
+that will require about half as many coin flips
+
+131
+00:08:56,211 --> 00:08:59,462
+as required in the first forty bits to be zero.
+
+132
+00:08:59,462 --> 00:09:03,675
+The neat thing is that once you come up with the solution,
+
+133
+00:09:03,675 --> 00:09:10,668
+let's say that somebody tries and they finally come up with a proof string that works,
+
+134
+00:09:10,668 --> 00:09:16,403
+it is very easy to validate that this proof string in fact is a correct proof of work.
+
+135
+00:09:16,403 --> 00:09:18,829
+All you have to do is you take the challenge
+
+136
+00:09:18,829 --> 00:09:22,219
+and you check the proof string and you hash them together.
+
+137
+00:09:22,219 --> 00:09:26,580
+For example, if somebody proposes this one string...
+
+138
+00:09:26,580 --> 00:09:27,832
+let's call it "p prime"
+
+139
+00:09:27,832 --> 00:09:31,100
+...all you do is you take the challenge and you take p prime
+
+140
+00:09:31,100 --> 00:09:34,164
+and you input them into a hash function.
+
+141
+00:09:34,164 --> 00:09:37,286
+You see if the first forty bits are all zero.
+
+142
+00:09:37,286 --> 00:09:43,456
+All this requires you to do is apply hash function once to the concatentaion of c and p prime
+
+143
+00:09:43,456 --> 00:09:48,129
+and you can verify that the output indeed has a requisite numer of zeros in front of it.
+
+144
+00:09:48,129 --> 00:09:52,591
+If you see that the output has the requisite numer of zeros,
+
+145
+00:09:52,591 --> 00:09:55,120
+then you can consider the proof of work valid
+
+146
+00:09:55,120 --> 00:09:57,990
+because you know it must have taken somebody a lot of time,
+
+147
+00:09:57,990 --> 00:09:59,700
+a lot of tries, really,
+
+148
+00:09:59,700 --> 00:10:02,933
+to provide or come up with the string p prime,
+
+149
+00:10:02,933 --> 00:10:05,745
+such that the concatentaion of c and p prime
+
+150
+00:10:06,221 --> 00:10:11,567
+gives you a numer of zeros under the application of this cryptographic hash function.
+
+151
+00:10:11,567 --> 00:10:14,401
+As you can see, these schemes are quite simple
+
+152
+00:10:14,401 --> 00:10:16,332
+but quite clever at the same time.
+
+153
+00:10:16,332 --> 00:10:18,734
+They really amount to coming up with the proof string
+
+154
+00:10:18,734 --> 00:10:23,889
+that has a very specific mathematical relationship with the original challenge string.
+
+155
+00:10:23,889 --> 00:10:30,963
+Hopefully, this video gave you a flavour for the mechanics of how these proof of work protocols work.

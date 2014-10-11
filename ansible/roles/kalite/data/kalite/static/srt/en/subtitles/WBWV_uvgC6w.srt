@@ -1,0 +1,703 @@
+1
+00:00:00,060 --> 00:00:02,850
+We're on problem 148.
+
+2
+00:00:03,650 --> 00:00:06,200
+What is the lowest integer that is the sum of
+
+3
+00:00:06,200 --> 00:00:09,510
+three different primes, each greater than 20?
+
+4
+00:00:09,510 --> 00:00:10,570
+So it's the lowest integer,
+
+5
+00:00:10,570 --> 00:00:13,540
+so we essentially just have to find the three primes above 20
+
+6
+00:00:13,540 --> 00:00:15,250
+So let's see, 21 isn't a prime,
+
+7
+00:00:15,250 --> 00:00:17,880
+22 isn't a prime, 23 is a prime.
+
+8
+00:00:17,880 --> 00:00:24,210
+24, no, 25, no, 26,no, 27, 28, nope.
+
+9
+00:00:24,210 --> 00:00:29,350
+29, that's prime. 30 isn't, 31 is.
+
+10
+00:00:29,350 --> 00:00:36,950
+31 plus 29 is 60 plus 23 is 83, and that is choice E.
+
+11
+00:00:37,460 --> 00:00:40,210
+I hope I haven't missed any primes, no, I don't think I have.
+
+12
+00:00:40,210 --> 00:00:45,540
+24, 25, 26, 27, 28,I think I got all the primes in there.
+
+13
+00:00:45,740 --> 00:00:46,890
+What is the lowest integer of the sum of
+
+14
+00:00:46,890 --> 00:00:48,860
+three different primes, each greater than 20?
+
+15
+00:00:48,860 --> 00:00:52,420
+Yep, that's the answer, E. Problem 149.
+
+16
+00:00:53,040 --> 00:00:58,890
+The average of 6, 8, and 10 equals-- so the average of 6,
+
+17
+00:00:58,890 --> 00:01:02,360
+8,and 10,so first of all,what's the average of 6, 8, and 10?
+
+18
+00:01:02,360 --> 00:01:04,670
+Well, let's just do it. 6 plus 8 plus 10.
+
+19
+00:01:04,870 --> 00:01:07,260
+You could immediately see the average is going to be 8,
+
+20
+00:01:07,260 --> 00:01:08,710
+because you have 8 in the middle,
+
+21
+00:01:08,710 --> 00:01:10,380
+and both of these numbers are 2 away from it.
+
+22
+00:01:10,780 --> 00:01:14,940
+But that divided by 3 is equal to 24 divided by 3
+
+23
+00:01:14,940 --> 00:01:16,210
+is equal to 8.
+
+24
+00:01:19,010 --> 00:01:25,460
+And that's equal to the average of 7 plus 9 plus x over 3,
+
+25
+00:01:25,860 --> 00:01:30,350
+so that tells us to multiply both sides of this equation by 3,
+
+26
+00:01:30,350 --> 00:01:33,540
+that says that 24 is equal to-- what's 7 plus 9?
+
+27
+00:01:33,540 --> 00:01:36,320
+That's 16 plus x.
+
+28
+00:01:36,320 --> 00:01:39,400
+Subtract 16 from both sides,you get x is equal to 8.
+
+29
+00:01:39,400 --> 00:01:40,970
+Choice C.
+
+30
+00:01:41,650 --> 00:01:45,900
+And you could have said, OK, 7 and 9 or both half--
+
+31
+00:01:45,900 --> 00:01:48,000
+8 is in the middle, and they have to average 8,
+
+32
+00:01:48,000 --> 00:01:50,130
+so you might have just been able to eyeball it and say 8,
+
+33
+00:01:50,130 --> 00:01:51,330
+but it didn't take that much math,
+
+34
+00:01:51,330 --> 00:01:55,540
+it's not that much of a shortcut. Problem 150.
+
+35
+00:01:57,020 --> 00:01:59,050
+If x is equal to minus 1,
+
+36
+00:02:00,820 --> 00:02:08,720
+then x to the fourth minus x to the third plus x squared,
+
+37
+00:02:08,720 --> 00:02:12,880
+all of that over x minus 1 is equal to what?
+
+38
+00:02:13,420 --> 00:02:15,480
+x to the fourth is 1.
+
+39
+00:02:15,880 --> 00:02:20,460
+x to the third is minus 1,but then we're going to minus that,
+
+40
+00:02:20,460 --> 00:02:22,640
+so this whole thing is going to be plus 1,
+
+41
+00:02:22,640 --> 00:02:24,850
+and x squared is plus 1.
+
+42
+00:02:24,850 --> 00:02:26,620
+Negative 1 squared is 1.
+
+43
+00:02:27,460 --> 00:02:29,500
+And you have minus 1 minus 1.
+
+44
+00:02:30,010 --> 00:02:34,540
+So in the numerator you have 1, 2, 3, in the denominator
+
+45
+00:02:34,540 --> 00:02:35,550
+you have minus 2.
+
+46
+00:02:35,850 --> 00:02:38,470
+Let's put the minus out front, minus 3/2.
+
+47
+00:02:38,470 --> 00:02:46,260
+That's choice A. Problem 151.
+
+48
+00:02:47,000 --> 00:02:50,260
+A toy store regularly sells all stock
+
+49
+00:02:50,260 --> 00:02:52,640
+at a discount of 20% to 40%.
+
+50
+00:02:56,890 --> 00:03:01,270
+If an additional 25% were deducted from the discount price
+
+51
+00:03:01,270 --> 00:03:02,400
+during a special sale,
+
+52
+00:03:02,400 --> 00:03:07,560
+what would be the lowest possible price of a toy costing $16
+
+53
+00:03:07,560 --> 00:03:08,860
+before any discount?
+
+54
+00:03:08,860 --> 00:03:12,000
+So we want to discount the $16 as much as possible.
+
+55
+00:03:12,670 --> 00:03:16,420
+So they say they're normally discounting 20% to 40%,
+
+56
+00:03:16,420 --> 00:03:18,100
+so if you want to discount this as much as possible,
+
+57
+00:03:18,100 --> 00:03:20,240
+you want to discount this by 40%.
+
+58
+00:03:20,240 --> 00:03:24,490
+So if you discount this by 40%,that's the same thing as
+
+59
+00:03:24,490 --> 00:03:28,560
+saying it's going to be equal to 60% of its original price.
+
+60
+00:03:28,560 --> 00:03:32,100
+So this would be the price after being discounted by 40%,
+
+61
+00:03:35,040 --> 00:03:38,930
+and then we would discount by another 25%.
+
+62
+00:03:40,000 --> 00:03:41,800
+Actually, I think it's easier to go the other way.
+
+63
+00:03:41,800 --> 00:03:43,470
+Well, let's just do it this way.
+
+64
+00:03:43,870 --> 00:03:47,440
+So we discount it by another 25%,
+
+65
+00:03:47,440 --> 00:03:50,270
+so we multiply it by 3/4 again.
+
+66
+00:03:50,770 --> 00:03:53,040
+If you discount by 25%,
+
+67
+00:03:53,040 --> 00:03:55,430
+the price is going to be 3/4 of its original price.
+
+68
+00:03:55,430 --> 00:03:56,960
+Actually, let's do it as fractions.
+
+69
+00:03:56,960 --> 00:03:58,050
+Fractions are always easier.
+
+70
+00:03:58,250 --> 00:04:00,940
+60% percent of your price is 3/5.
+
+71
+00:04:02,520 --> 00:04:05,310
+If you discount by 2/5, or 40%,
+
+72
+00:04:05,310 --> 00:04:07,640
+that's the same thing as multiplying by 3/5,
+
+73
+00:04:07,640 --> 00:04:11,090
+and then we're going to multiply by 3/4.
+
+74
+00:04:12,440 --> 00:04:14,020
+Set 25%.
+
+75
+00:04:14,020 --> 00:04:16,370
+If you're discounting by 25%,that's the same thing as
+
+76
+00:04:16,370 --> 00:04:18,810
+being worth 75% of your original price.
+
+77
+00:04:19,030 --> 00:04:20,590
+So what does that get us?
+
+78
+00:04:22,550 --> 00:04:26,400
+16 divided by 4, 4, you get a 1,
+
+79
+00:04:26,810 --> 00:04:29,360
+and then you have 4 times 3 times 3,
+
+80
+00:04:32,370 --> 00:04:38,640
+4 times 9 is 36, over 5, which is equal to--
+
+81
+00:04:39,560 --> 00:04:45,590
+5 goes into 36 7 and 1/5. So $7.20.
+
+82
+00:04:45,590 --> 00:04:50,780
+And that's choice B. Problem 152.
+
+83
+00:04:52,000 --> 00:04:54,930
+The shaded portion of the rectangular lot
+
+84
+00:04:54,930 --> 00:04:57,470
+shown above represents a flowerbed.
+
+85
+00:04:57,470 --> 00:04:59,930
+OK, so let me draw this rectangular lot.
+
+86
+00:05:05,020 --> 00:05:12,030
+They drew this shaded portion something like that,
+
+87
+00:05:12,030 --> 00:05:14,350
+and I can even color it in.
+
+88
+00:05:19,560 --> 00:05:23,100
+So they say the shaded portion of the rectangular lot shown
+
+89
+00:05:23,100 --> 00:05:24,910
+above represents a flowerbed.
+
+90
+00:05:24,910 --> 00:05:27,470
+If the area of the bed is 24 square yards,
+
+91
+00:05:29,590 --> 00:05:31,560
+and x is equal to y plus 2,
+
+92
+00:05:31,560 --> 00:05:34,450
+so they tell us this side right here is x,
+
+93
+00:05:34,450 --> 00:05:36,680
+which now they're telling us is equal to y plus 2.
+
+94
+00:05:38,030 --> 00:05:41,160
+And this right here is going to be equal to y.
+
+95
+00:05:44,070 --> 00:05:49,170
+Then z equals what? z is this side right there.
+
+96
+00:05:49,870 --> 00:05:52,380
+So if this area is 24,
+
+97
+00:05:52,380 --> 00:05:55,420
+that tells us that x times y times 1/2 is 24.
+
+98
+00:05:55,420 --> 00:05:56,900
+That's the area of that.
+
+99
+00:05:57,070 --> 00:06:00,900
+So 1/2xy is equal to 24.
+
+100
+00:06:01,030 --> 00:06:05,320
+Or you can even say that xy is equal to 48.
+
+101
+00:06:05,320 --> 00:06:07,490
+We know what xy is.
+
+102
+00:06:08,330 --> 00:06:11,860
+We can just substitute for x, so we get y plus 2,
+
+103
+00:06:11,860 --> 00:06:13,870
+that's x, right?
+
+104
+00:06:13,870 --> 00:06:17,920
+X is equal to y plus 2 times y is equal to 48.
+
+105
+00:06:19,010 --> 00:06:27,380
+And so we get y squared plus 2y is equal to 48.
+
+106
+00:06:28,020 --> 00:06:35,590
+Or y squared plus 2y minus 48 is equal to 0.
+
+107
+00:06:36,020 --> 00:06:38,320
+We could factor this quadratic.
+
+108
+00:06:40,320 --> 00:06:42,940
+What two numbers when you multiply is minus 48,
+
+109
+00:06:42,940 --> 00:06:44,120
+and you add you get plus 2?
+
+110
+00:06:44,120 --> 00:06:52,530
+So y plus 8 times y minus 6 is equal to 0,
+
+111
+00:06:53,030 --> 00:06:57,370
+8 times minus 6 is minus 48, and then 8 minus 6 is plus 2,
+
+112
+00:06:57,370 --> 00:07:01,780
+so y could be equal to minus 8 or plus 6, right?
+
+113
+00:07:01,780 --> 00:07:04,460
+Whatever numbers make either of these equal to zero.
+
+114
+00:07:04,460 --> 00:07:06,180
+Well, we can't have a negative distance,
+
+115
+00:07:06,180 --> 00:07:09,200
+so y is not equal to minus 8, so y is equal to 6.
+
+116
+00:07:10,330 --> 00:07:13,180
+y is equal to 6, x is equal to 8.
+
+117
+00:07:15,770 --> 00:07:16,730
+Now, we can just confirm,
+
+118
+00:07:16,730 --> 00:07:19,840
+6 times 8 is 48 times 1/2 is equal to 24.
+
+119
+00:07:19,840 --> 00:07:22,610
+And now we can use the Pythagorean theorem to figure out z.
+
+120
+00:07:22,610 --> 00:07:26,840
+So we'll get z squared is equal to 36.
+
+121
+00:07:26,840 --> 00:07:30,410
+That's y squared plus 64,which is x squared,
+
+122
+00:07:30,410 --> 00:07:33,450
+so z squared is equal to 100.
+
+123
+00:07:33,450 --> 00:07:42,800
+z is equal to 10. Choice E. Problem 153.
+
+124
+00:07:46,050 --> 00:07:49,560
+Jack is now 14 years older than Bill,
+
+125
+00:07:49,600 --> 00:07:52,980
+so Jack is equal to Bill plus 14.
+
+126
+00:07:53,770 --> 00:07:57,460
+If in 10 years Jack will be twice as old as Bill,
+
+127
+00:08:02,650 --> 00:08:06,930
+so 2 times Bill's age, how old will Jack be in 5 years?
+
+128
+00:08:06,930 --> 00:08:10,040
+So they want to know j plus 5.
+
+129
+00:08:10,040 --> 00:08:12,290
+That's how old Jack will be in 5 years.
+
+130
+00:08:12,290 --> 00:08:15,920
+So let's just try to solve for Jack.
+
+131
+00:08:17,320 --> 00:08:20,040
+This top equation tells us that
+
+132
+00:08:22,070 --> 00:08:26,040
+Bill is equal to Jack minus 14,
+
+133
+00:08:26,540 --> 00:08:29,460
+and then we can substitute this in for Bill here.
+
+134
+00:08:29,460 --> 00:08:32,880
+So then this equation will become Jack plus 10
+
+135
+00:08:33,030 --> 00:08:36,530
+is equal to 2 times Jack minus 14.
+
+136
+00:08:36,530 --> 00:08:42,190
+So Jack plus 10 is equal to 2 times Jack minus 28.
+
+137
+00:08:44,360 --> 00:08:46,640
+If we subtract Jack from both sides,
+
+138
+00:08:46,640 --> 00:08:50,220
+you get 10 is equal to Jack minus 28.
+
+139
+00:08:50,520 --> 00:08:55,680
+We can add 28 to both sides, and you get 38 is equal to Jack.
+
+140
+00:08:55,680 --> 00:08:58,610
+So that's how old Jack is now. He's 38 years old.
+
+141
+00:08:58,610 --> 00:09:01,560
+So how old is Jack going to be in 5 years?
+
+142
+00:09:01,560 --> 00:09:07,340
+38 plus 5 is equal to 43 years old.
+
+143
+00:09:07,340 --> 00:09:08,910
+And I've clearly made a mistake,
+
+144
+00:09:09,000 --> 00:09:11,390
+because that's not one of the options.
+
+145
+00:09:11,390 --> 00:09:12,710
+So let's see where I'm made an error.
+
+146
+00:09:13,000 --> 00:09:16,490
+So Jack is now 14 years older than Bill. Fair enough.
+
+147
+00:09:18,090 --> 00:09:21,910
+So in 10 years, Jack will be twice-- oh, I see my mistake.
+
+148
+00:09:21,910 --> 00:09:23,380
+He's going to be twice as old as Bill
+
+149
+00:09:23,380 --> 00:09:24,770
+is going to be in 10 years.
+
+150
+00:09:25,010 --> 00:09:26,900
+That was a bone-headed mistake.
+
+151
+00:09:26,900 --> 00:09:28,260
+So let me clear all of this.
+
+152
+00:09:29,570 --> 00:09:31,330
+That was a bad mistake.
+
+153
+00:09:31,330 --> 00:09:32,540
+I shouldn't have made it.
+
+154
+00:09:34,650 --> 00:09:38,960
+I'm lucky that they didn't have what I put down
+
+155
+00:09:38,960 --> 00:09:40,860
+as one of the choices, and I would've gotten it wrong.
+
+156
+00:09:41,420 --> 00:09:44,270
+All right. So we know that in 10 years,
+
+157
+00:09:44,470 --> 00:09:46,740
+Jack is going to be 2 times
+
+158
+00:09:46,740 --> 00:09:47,990
+what Bill is going to be in 10 years.
+
+159
+00:09:47,990 --> 00:09:49,110
+That was my mistake.
+
+160
+00:09:49,110 --> 00:09:50,860
+So now let's see what we can do.
+
+161
+00:09:51,860 --> 00:09:54,000
+We'll use that same information up there,
+
+162
+00:09:54,000 --> 00:09:57,890
+so Bill is equal to Jack minus 14.
+
+163
+00:09:58,030 --> 00:10:00,320
+Substitute that information here,
+
+164
+00:10:01,170 --> 00:10:07,140
+so we get Jack plus 10 is equal to 2 times Jack minus 14,
+
+165
+00:10:07,140 --> 00:10:08,800
+instead of Bill, plus 10.
+
+166
+00:10:09,430 --> 00:10:14,260
+So you get Jack plus 10 is equal to 2 times Jack.
+
+167
+00:10:14,260 --> 00:10:16,640
+Let's see, minus 14 plus 10,that's minus 4,
+
+168
+00:10:17,080 --> 00:10:22,330
+so Jack plus 10 is equal to 2 times Jack minus 8.
+
+169
+00:10:23,040 --> 00:10:25,600
+Let's subtract Jack from both sides.
+
+170
+00:10:25,600 --> 00:10:29,050
+10 is equal to Jack minus 8.
+
+171
+00:10:29,050 --> 00:10:30,750
+Let's add 8 to both sides.
+
+172
+00:10:30,750 --> 00:10:33,000
+You get 18 is equal to Jack.
+
+173
+00:10:33,000 --> 00:10:35,170
+So that's how old Jack is right now, he's 18.
+
+174
+00:10:35,170 --> 00:10:39,780
+So in five years, Jack is going to be 18 plus 5,
+
+175
+00:10:40,220 --> 00:10:44,240
+which is 23 years old, choice D.
+
+176
+00:10:44,240 --> 00:10:47,000
+And I'm out of time. See you in the next video.

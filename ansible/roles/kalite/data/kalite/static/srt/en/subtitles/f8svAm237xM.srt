@@ -1,0 +1,623 @@
+1
+00:00:00,850 --> 00:00:04,950
+Several videos ago I very quickly went through why Side-Side-Angle
+
+2
+00:00:04,950 --> 00:00:10,083
+is not--why it is not--a valid postulate and what I want to do in this video
+
+3
+00:00:10,083 --> 00:00:13,816
+is explore it a little bit more and its not called angle side side for obvious
+
+4
+00:00:13,816 --> 00:00:17,633
+reasons because then the acronym would make people giggle in Geometry
+
+5
+00:00:17,633 --> 00:00:22,099
+class, and I guess we don't want people giggling while doing Mathematics.
+
+6
+00:00:22,099 --> 00:00:25,824
+So let's just think about a triangle here.
+
+7
+00:00:25,824 --> 00:00:30,216
+So let's say I have a triangle. Let me draw it. Let's say I have a triangle
+
+8
+00:00:30,216 --> 00:00:31,634
+that looks something like this.
+
+9
+00:00:31,634 --> 00:00:33,899
+If I have a triangle that looks something
+
+10
+00:00:33,899 --> 00:00:35,932
+(I have trouble drawing straight triangles)
+
+11
+00:00:35,932 --> 00:00:39,566
+So let's say the triangle looks something like that.
+
+12
+00:00:39,566 --> 00:00:44,349
+It looks like that. And let's say that we found another triangle,
+
+13
+00:00:44,349 --> 00:00:47,768
+we found another triangle that has a congruent side.
+
+14
+00:00:47,768 --> 00:00:51,553
+A side that is congruent to this side over here.
+
+15
+00:00:51,553 --> 00:00:56,147
+That is-- I guess any side on a triangle is next to the other two sides.
+
+16
+00:00:56,647 --> 00:01:00,803
+Next to that is a side that is congruent to this side right over here,
+
+17
+00:01:00,803 --> 00:01:05,762
+and then that side is one of the sides of an angle.
+
+18
+00:01:05,762 --> 00:01:08,995
+So it forms one of the parts of an angle right over here.
+
+19
+00:01:08,995 --> 00:01:11,310
+That other triangle has a congruent angle right over here.
+
+20
+00:01:11,310 --> 00:01:15,271
+So this is the angle that that first side is not a part of.
+
+21
+00:01:15,302 --> 00:01:18,287
+Only the second side is part of this angle.
+
+22
+00:01:18,287 --> 00:01:22,432
+So this is side-side-angle, or you could call it the angle-side-side
+
+23
+00:01:22,432 --> 00:01:24,543
+and then giggle a little about it.
+
+24
+00:01:24,543 --> 00:01:28,679
+Now, how do we know this doesn't buy itself show this is congruent?
+
+25
+00:01:28,679 --> 00:01:32,018
+Well, we would have to show that this could actually imply two different triangles.
+
+26
+00:01:32,018 --> 00:01:34,074
+And to think about that, let's say
+
+27
+00:01:34,074 --> 00:01:36,034
+we know that the angle,
+
+28
+00:01:36,034 --> 00:01:38,974
+we know this other triangle has the same yellow angle there.
+
+29
+00:01:38,974 --> 00:01:41,214
+Which means that the blue side,
+
+30
+00:01:41,214 --> 00:01:44,238
+the blue side has to look something like that.
+
+31
+00:01:44,238 --> 00:01:46,316
+It's going to have to look something like that.
+
+32
+00:01:46,316 --> 00:01:49,467
+Just the way we drew it over here. This side down here--
+
+33
+00:01:49,467 --> 00:01:52,466
+I'll make it a green side--this green side down here
+
+34
+00:01:52,466 --> 00:01:53,783
+we know nothing about.
+
+35
+00:01:53,783 --> 00:01:55,981
+We never said that this is congruent to anything.
+
+36
+00:01:55,981 --> 00:01:57,329
+If we knew, then we could use side-side-side.
+
+37
+00:01:57,329 --> 00:01:59,640
+We only know this side is congruent, this side is congruent,
+
+38
+00:01:59,640 --> 00:02:01,279
+and this angle is congruent.
+
+39
+00:02:01,279 --> 00:02:03,603
+So this green side (I'll draw it as a dotted line),
+
+40
+00:02:03,603 --> 00:02:07,027
+it could be of any length. We don't know what the length is
+
+41
+00:02:07,027 --> 00:02:08,862
+of that green side.
+
+42
+00:02:08,862 --> 00:02:11,839
+Now we have this magenta side, and we have another side
+
+43
+00:02:11,839 --> 00:02:13,658
+that is congruent here.
+
+44
+00:02:13,658 --> 00:02:15,082
+So this thing could pivot over here.
+
+45
+00:02:15,082 --> 00:02:17,795
+We know nothing about this angle so it could form any angle
+
+46
+00:02:17,795 --> 00:02:19,993
+but it does have to get to this other side.
+
+47
+00:02:19,993 --> 00:02:22,445
+So one possibility is that maybe the triangles are congruent.
+
+48
+00:02:22,445 --> 00:02:25,666
+So maybe this side does go down just like that.
+
+49
+00:02:25,666 --> 00:02:28,273
+In which case, we actually would have congruent triangles.
+
+50
+00:02:28,273 --> 00:02:30,682
+But the kind of "A hah!" moment here, or the reason
+
+51
+00:02:30,682 --> 00:02:33,384
+why SSA isn't possible is that this side could also
+
+52
+00:02:33,384 --> 00:02:35,233
+come down like this.
+
+53
+00:02:35,233 --> 00:02:37,631
+It could also come down like this.
+
+54
+00:02:37,631 --> 00:02:40,199
+There are two ways to get down to this base that
+
+55
+00:02:40,199 --> 00:02:42,233
+you want to call that way. It could come down that way
+
+56
+00:02:42,233 --> 00:02:46,182
+or it could kind of come in this way. And so that is why
+
+57
+00:02:46,182 --> 00:02:51,267
+SSA, by itself with no other information, is ambiguous.
+
+58
+00:02:51,267 --> 00:02:53,481
+It does not give you enough information;
+
+59
+00:02:53,481 --> 00:02:55,284
+It does not give you enough information to say that
+
+60
+00:02:55,284 --> 00:02:57,949
+those triangles are definitely the same.
+
+61
+00:02:57,949 --> 00:03:00,167
+Now, there are special cases.
+
+62
+00:03:00,167 --> 00:03:04,502
+So in this situation right over here, our angle, the angle in our
+
+63
+00:03:04,502 --> 00:03:09,622
+SSA, the angle was acute. This is an acute angle right over here.
+
+64
+00:03:09,622 --> 00:03:11,450
+This is an acute angle right over here.
+
+65
+00:03:11,450 --> 00:03:13,586
+And when you have an acute angle as one of the side of
+
+66
+00:03:13,586 --> 00:03:17,655
+your triangle. The other sides could still have an obtuse angle.
+
+67
+00:03:17,655 --> 00:03:20,281
+Remember, acute means less than 90º and obtuse means
+
+68
+00:03:20,281 --> 00:03:22,183
+greater than 90º.
+
+69
+00:03:22,183 --> 00:03:23,989
+So you could still have an obtuse angle, and
+
+70
+00:03:23,989 --> 00:03:26,088
+so that is why this is an option.
+
+71
+00:03:26,088 --> 00:03:28,870
+So one option is you have two other acute angles,
+
+72
+00:03:28,870 --> 00:03:31,866
+so this is also-- it could be acute, this is also acute.
+
+73
+00:03:31,866 --> 00:03:34,016
+Also acute, also acute. But then you have the option
+
+74
+00:03:34,016 --> 00:03:36,683
+where this is even more acute, even narrower, and this becomes
+
+75
+00:03:36,683 --> 00:03:39,033
+an obtuse angle.
+
+76
+00:03:39,033 --> 00:03:41,865
+So that is an obtuse angle, and that is only possible
+
+77
+00:03:41,865 --> 00:03:44,333
+--you can't have two two obtuse angles in the same triangle.
+
+78
+00:03:44,333 --> 00:03:47,733
+You can't have two things that have larger than 90º measure
+
+79
+00:03:47,733 --> 00:03:49,782
+in the same triangle.
+
+80
+00:03:49,782 --> 00:03:53,650
+And so that is why, there is a possibility where if you have
+
+81
+00:03:53,650 --> 00:03:56,749
+another triangle that looks like this.
+
+82
+00:03:56,749 --> 00:03:59,565
+If you have another triangle that looks like this, then
+
+83
+00:03:59,565 --> 00:04:01,574
+And if I were to tell you, and if I were to tell you
+
+84
+00:04:01,574 --> 00:04:05,329
+very clearly that this angle is obtuse,
+
+85
+00:04:05,329 --> 00:04:08,466
+and if I were to tell you this angle right over here is obtuse.
+
+86
+00:04:08,466 --> 00:04:10,932
+And that is the A in the SSA
+
+87
+00:04:10,932 --> 00:04:13,166
+So you have the angle and I'm going to say I have
+
+88
+00:04:13,166 --> 00:04:16,383
+another triangle, where this angle is congruent to that
+
+89
+00:04:16,383 --> 00:04:18,917
+other triangle, some angle in that other triangle.
+
+90
+00:04:18,917 --> 00:04:21,382
+And then one of the sides adjacent to it is congruent.
+
+91
+00:04:21,382 --> 00:04:25,364
+And then the next side over is also congruent.
+
+92
+00:04:25,364 --> 00:04:27,388
+Then, it's not so ambiguous.
+
+93
+00:04:27,388 --> 00:04:29,548
+Because we can try to draw that.
+
+94
+00:04:29,548 --> 00:04:33,066
+So let's draw that same, congruent obtuse angle. Let's draw--
+
+95
+00:04:33,066 --> 00:04:36,198
+We know nothing about this side down here,
+
+96
+00:04:36,198 --> 00:04:38,281
+because we haven't said that that is necessarily congruent.
+
+97
+00:04:38,281 --> 00:04:41,766
+So that could be of any length.
+
+98
+00:04:41,766 --> 00:04:44,699
+We do know that this triangle is going to have the same
+
+99
+00:04:44,699 --> 00:04:47,816
+same length for this side.
+
+100
+00:04:47,816 --> 00:04:52,865
+above the angle, so it looks like this--looks like this.
+
+101
+00:04:52,865 --> 00:04:55,016
+And then we know that this side -- Let me do that in
+
+102
+00:04:55,016 --> 00:04:57,883
+I'll do it in orange. We know that this side is
+
+103
+00:04:57,883 --> 00:05:01,366
+also going to be the same length. And we haven't told you anything
+
+104
+00:05:01,366 --> 00:05:03,132
+about this angle over here.
+
+105
+00:05:03,132 --> 00:05:06,000
+So this side could pivot over here.
+
+106
+00:05:06,000 --> 00:05:07,631
+We could kind of rotate it over here.
+
+107
+00:05:07,631 --> 00:05:10,002
+But there is only one way now that this orange side
+
+108
+00:05:10,002 --> 00:05:12,115
+can reach that green side.
+
+109
+00:05:12,115 --> 00:05:15,017
+Now the only way is this way over here.
+
+110
+00:05:15,017 --> 00:05:17,566
+And we were more constrained, or this case isn't ambiguous
+
+111
+00:05:17,566 --> 00:05:19,948
+because we used up our obtuse angle here.
+
+112
+00:05:19,948 --> 00:05:21,898
+The A here is an obtuse one.
+
+113
+00:05:21,898 --> 00:05:25,832
+And so then, it constrains what the triangle can become.
+
+114
+00:05:25,832 --> 00:05:27,383
+So I don't want to make you say,
+
+115
+00:05:27,383 --> 00:05:30,699
+"Oh, maybe, SSA in general" --if SSA, you do not--
+
+116
+00:05:30,699 --> 00:05:33,832
+do not want to use it as a postulate.
+
+117
+00:05:33,832 --> 00:05:36,317
+I just wanted to make it clear that there is this special case
+
+118
+00:05:36,317 --> 00:05:39,602
+where if you know the A in the SSA is obtuse, then it becomes
+
+119
+00:05:39,602 --> 00:05:42,085
+a little bit less ambiguous.
+
+120
+00:05:42,085 --> 00:05:43,935
+And so finally there is a circumstance where
+
+121
+00:05:43,935 --> 00:05:46,252
+this is an acute angle where it would be ambiguous.
+
+122
+00:05:46,252 --> 00:05:48,568
+You have the obtuse angle and something in between,
+
+123
+00:05:48,568 --> 00:05:50,804
+which is the right angle, where you have
+
+124
+00:05:50,804 --> 00:05:53,734
+the A in SSA is a right angle.
+
+125
+00:05:53,734 --> 00:05:58,466
+So, if you had it like this. If you have a right angle,
+
+126
+00:05:58,466 --> 00:06:01,502
+and you have some base of unknown length,
+
+127
+00:06:01,502 --> 00:06:05,702
+but you fix this length, right over here.
+
+128
+00:06:05,702 --> 00:06:08,385
+If you know that this is fixed because you are saying it is
+
+129
+00:06:08,385 --> 00:06:10,067
+congruent to some other triangle.
+
+130
+00:06:10,067 --> 00:06:12,635
+And if you know that the next length is fixed, and
+
+131
+00:06:12,635 --> 00:06:14,902
+if you think about it this next side is going to be
+
+132
+00:06:14,902 --> 00:06:17,004
+the side opposite the right angle -- It is going to have
+
+133
+00:06:17,004 --> 00:06:18,932
+to be the hypotenuse of the right angle --
+
+134
+00:06:18,932 --> 00:06:21,282
+then you know that the only way you can construct this,
+
+135
+00:06:21,282 --> 00:06:24,385
+and similar to the obtuse case is if -- and if you know
+
+136
+00:06:24,385 --> 00:06:26,866
+the length of this then the only way you could do it,
+
+137
+00:06:26,866 --> 00:06:28,432
+is to bring it down over here.
+
+138
+00:06:28,432 --> 00:06:30,616
+So that actually does lead to another postulate called the
+
+139
+00:06:30,616 --> 00:06:36,917
+right, called the Right Angle Side Hypotenuse postulate.
+
+140
+00:06:36,917 --> 00:06:41,731
+Which is really just a special case of SSA where the angle is.
+
+141
+00:06:41,731 --> 00:06:45,149
+where the angle is actually a right angle
+
+142
+00:06:45,149 --> 00:06:47,582
+and here they wrote first. You can view this as
+
+143
+00:06:47,582 --> 00:06:50,148
+Angle Side Side and they're able to do it because
+
+144
+00:06:50,148 --> 00:06:52,548
+now they can write Right Angle, so it doesn't form that embarassing
+
+145
+00:06:52,548 --> 00:06:56,983
+acronym. And this can also be a little bit common sense
+
+146
+00:06:56,983 --> 00:06:59,749
+because if you know two sides of a right triangle,
+
+147
+00:06:59,749 --> 00:07:01,348
+and we haven't gone into depth with this
+
+148
+00:07:01,348 --> 00:07:02,316
+in the geometry playlist,
+
+149
+00:07:02,316 --> 00:07:04,417
+but you might already be familiar with it.
+
+150
+00:07:04,417 --> 00:07:08,083
+By pythagorean theorem, you can just figure out the third side.
+
+151
+00:07:08,083 --> 00:07:10,532
+So if you have this information about any triangle,
+
+152
+00:07:10,532 --> 00:07:13,132
+you can always figure out the third side, and then you
+
+153
+00:07:13,132 --> 00:07:14,982
+can use Side Side Side.
+
+154
+00:07:14,982 --> 00:07:17,349
+So I just want to show you this special case, but in general,
+
+155
+00:07:17,349 --> 00:07:21,183
+the important thing is that you can't just use SSA
+
+156
+00:07:21,183 --> 99:59:59,999
+unless you have more information.

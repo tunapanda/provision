@@ -1,0 +1,1029 @@
+1
+00:00:00,000 --> 00:00:00,340
+   
+
+2
+00:00:00,340 --> 00:00:03,360
+If I were to walk up to you on
+the street and say you, please
+
+3
+00:00:03,360 --> 00:00:07,450
+tell me what-- so I didn't want
+to write that thick --please
+
+4
+00:00:07,450 --> 00:00:11,710
+tell me what sine
+of pi over 4 is.
+
+5
+00:00:11,710 --> 00:00:14,950
+And, obviously, we're assuming
+we're dealing in radians.
+
+6
+00:00:14,950 --> 00:00:17,510
+You either have that memorized
+or you would draw the
+
+7
+00:00:17,510 --> 00:00:19,920
+unit circle right there.
+
+8
+00:00:19,920 --> 00:00:21,360
+That's not the best
+looking unit circle,
+
+9
+00:00:21,360 --> 00:00:23,080
+but you get the idea.
+
+10
+00:00:23,080 --> 00:00:26,960
+You'd go to pi over 4
+radians, which is the
+
+11
+00:00:26,960 --> 00:00:29,760
+same thing as 45 degrees.
+
+12
+00:00:29,760 --> 00:00:31,840
+You would draw that
+unit radius out.
+
+13
+00:00:31,840 --> 00:00:35,130
+And the sine is defined
+as a y-coordinate
+
+14
+00:00:35,130 --> 00:00:36,250
+on the unit circle.
+
+15
+00:00:36,250 --> 00:00:38,910
+So you would just want to
+know this value right here.
+
+16
+00:00:38,910 --> 00:00:40,210
+And you would
+immediately say OK.
+
+17
+00:00:40,210 --> 00:00:42,630
+This is a 45 degrees.
+
+18
+00:00:42,630 --> 00:00:45,530
+Let me draw the triangle
+a little bit larger.
+
+19
+00:00:45,530 --> 00:00:47,530
+The triangle looks like this.
+
+20
+00:00:47,530 --> 00:00:49,210
+This is 45.
+
+21
+00:00:49,210 --> 00:00:50,900
+That's 45.
+
+22
+00:00:50,900 --> 00:00:53,790
+This is 90.
+
+23
+00:00:53,790 --> 00:00:57,330
+And you can solve a
+45 45 90 triangle.
+
+24
+00:00:57,330 --> 00:00:59,040
+The hypotenuse is 1.
+
+25
+00:00:59,040 --> 00:00:59,960
+This is x.
+
+26
+00:00:59,960 --> 00:01:00,640
+This is x.
+
+27
+00:01:00,640 --> 00:01:01,930
+They're going to be
+the same values.
+
+28
+00:01:01,930 --> 00:01:04,920
+This is an isosceles
+triangle, right?
+
+29
+00:01:04,920 --> 00:01:06,960
+Their base angles are the same.
+
+30
+00:01:06,960 --> 00:01:10,690
+So you say, look. x squared
+plus x squared is equal to 1
+
+31
+00:01:10,690 --> 00:01:12,960
+squared, which is just 1.
+
+32
+00:01:12,960 --> 00:01:15,200
+2x squared is equal to 1.
+
+33
+00:01:15,200 --> 00:01:17,440
+x squared is equal to 1/2.
+
+34
+00:01:17,440 --> 00:01:20,840
+x is equal to the square root
+of 1/2, which is one over
+
+35
+00:01:20,840 --> 00:01:22,780
+the square root of 2.
+
+36
+00:01:22,780 --> 00:01:25,960
+I can put that in rational form
+by multiplying that by the
+
+37
+00:01:25,960 --> 00:01:27,330
+square root of 2 over 2.
+
+38
+00:01:27,330 --> 00:01:31,230
+   
+
+39
+00:01:31,230 --> 00:01:34,950
+And I get x is equal to the
+square root of 2 over 2.
+
+40
+00:01:34,950 --> 00:01:38,770
+So the height here is
+square root of 2 over 2.
+
+41
+00:01:38,770 --> 00:01:40,400
+And if you wanted to know
+this distance too, it would
+
+42
+00:01:40,400 --> 00:01:41,710
+also be the same thing.
+
+43
+00:01:41,710 --> 00:01:43,090
+But we just cared
+about the height.
+
+44
+00:01:43,090 --> 00:01:46,600
+Because the sine value,
+the sine of this, is just
+
+45
+00:01:46,600 --> 00:01:47,920
+this height right here.
+
+46
+00:01:47,920 --> 00:01:49,180
+The y-coordinate.
+
+47
+00:01:49,180 --> 00:01:52,960
+And we got that as the
+square root of 2 over 2.
+
+48
+00:01:52,960 --> 00:01:53,890
+This is all review.
+
+49
+00:01:53,890 --> 00:02:00,210
+We learned this in the
+unit circle video.
+
+50
+00:02:00,210 --> 00:02:02,290
+But what if someone else--
+Let's say on another day, I
+
+51
+00:02:02,290 --> 00:02:08,850
+come up to you and I say you,
+please tell me what the
+
+52
+00:02:08,850 --> 00:02:14,820
+arcsine of the square
+root of 2 over 2 is.
+
+53
+00:02:14,820 --> 00:02:16,190
+What is the arcsine?
+
+54
+00:02:16,190 --> 00:02:16,970
+And you're stumped.
+
+55
+00:02:16,970 --> 00:02:19,180
+You're like I know what the
+sine of an angle is, but this
+
+56
+00:02:19,180 --> 00:02:24,480
+is some new trigonometric
+function that Sal has devised.
+
+57
+00:02:24,480 --> 00:02:27,770
+And all you have to realize,
+when they have this word arc in
+
+58
+00:02:27,770 --> 00:02:29,455
+front of it-- This is also
+sometimes referred to
+
+59
+00:02:29,455 --> 00:02:30,810
+as the inverse sine.
+
+60
+00:02:30,810 --> 00:02:33,960
+This could have just as easily
+been written as: what is
+
+61
+00:02:33,960 --> 00:02:38,420
+the inverse sine of the
+square root of 2 over 2?
+
+62
+00:02:38,420 --> 00:02:42,900
+All this is asking is what
+angle would I have to take the
+
+63
+00:02:42,900 --> 00:02:48,310
+sine of in order to get the
+value square root of 2 over 2.
+
+64
+00:02:48,310 --> 00:02:52,000
+This is also asking what angle
+would I have to take the sine
+
+65
+00:02:52,000 --> 00:02:54,610
+of in order to get square
+root of 2 over 2.
+
+66
+00:02:54,610 --> 00:03:00,220
+I could rewrite either of
+these statements as saying
+
+67
+00:03:00,220 --> 00:03:02,260
+square-- Let me do it.
+
+68
+00:03:02,260 --> 00:03:06,890
+I could rewrite either of these
+statements as saying sine
+
+69
+00:03:06,890 --> 00:03:11,200
+of what is equal to the
+square root of 2 over 2.
+
+70
+00:03:11,200 --> 00:03:14,910
+And this, I think, is a
+much easier question
+
+71
+00:03:14,910 --> 00:03:15,820
+for you to answer.
+
+72
+00:03:15,820 --> 00:03:18,400
+Sine of what is square
+root of 2 over 2?
+
+73
+00:03:18,400 --> 00:03:21,950
+Well I just figured out that
+the sine of pi over 4 is
+
+74
+00:03:21,950 --> 00:03:24,080
+square root of 2 over 2.
+
+75
+00:03:24,080 --> 00:03:28,560
+So, in this case, I know that
+the sine of pi over 4 is equal
+
+76
+00:03:28,560 --> 00:03:30,630
+to square root of 2 over 2.
+
+77
+00:03:30,630 --> 00:03:35,760
+So my question mark is
+equal to pi over 4.
+
+78
+00:03:35,760 --> 00:03:42,400
+Or, I could have rewritten
+this as, the arcsine-- sorry
+
+79
+00:03:42,400 --> 00:03:51,940
+--arcsine of the square root of
+2 over 2 is equal to pi over 4.
+
+80
+00:03:51,940 --> 00:03:56,120
+Now you might say so, just as
+review, I'm giving you a value
+
+81
+00:03:56,120 --> 00:03:58,630
+and I'm saying give me an angle
+that gives me, when I take the
+
+82
+00:03:58,630 --> 00:04:01,490
+sine of that angle that
+gives me that value.
+
+83
+00:04:01,490 --> 00:04:03,030
+But you're like hey Sal.
+
+84
+00:04:03,030 --> 00:04:03,950
+Look.
+
+85
+00:04:03,950 --> 00:04:05,120
+Let me go over here.
+
+86
+00:04:05,120 --> 00:04:06,960
+You're like, look
+pi over 2 worked.
+
+87
+00:04:06,960 --> 00:04:08,540
+45 degrees worked.
+
+88
+00:04:08,540 --> 00:04:11,560
+But I could just keep adding
+360 degrees or I could
+
+89
+00:04:11,560 --> 00:04:13,130
+keep just adding 2 pi.
+
+90
+00:04:13,130 --> 00:04:15,330
+And all of those would work
+because those would all get
+
+91
+00:04:15,330 --> 00:04:18,870
+me to that same point of
+the unit circle, right?
+
+92
+00:04:18,870 --> 00:04:19,960
+And you'd be correct.
+
+93
+00:04:19,960 --> 00:04:23,350
+And so all of those values, you
+would think, would be valid
+
+94
+00:04:23,350 --> 00:04:25,290
+answers for this, right?
+
+95
+00:04:25,290 --> 00:04:27,700
+Because if you take the sine of
+any of those angles-- You could
+
+96
+00:04:27,700 --> 00:04:29,720
+just keep adding 360 degrees.
+
+97
+00:04:29,720 --> 00:04:31,740
+If you take the sine of any
+of them, you would get
+
+98
+00:04:31,740 --> 00:04:33,540
+square root of 2 over 2.
+
+99
+00:04:33,540 --> 00:04:34,370
+And that's a problem.
+
+100
+00:04:34,370 --> 00:04:37,070
+You can't have a function where
+if I take the function-- I
+
+101
+00:04:37,070 --> 00:04:40,340
+can't have a function, f
+of x, where it maps to
+
+102
+00:04:40,340 --> 00:04:42,230
+multiple values, right?
+
+103
+00:04:42,230 --> 00:04:47,490
+Where it maps to pi over 4, or
+it maps to pi over 4 plus 2
+
+104
+00:04:47,490 --> 00:04:52,280
+pi or pi over 4 plus 4 pi.
+
+105
+00:04:52,280 --> 00:04:55,320
+So in order for this to be a
+valid function-- In order for
+
+106
+00:04:55,320 --> 00:04:58,450
+the inverse sine function to
+be valid, I have to
+
+107
+00:04:58,450 --> 00:05:00,340
+restrict its range.
+
+108
+00:05:00,340 --> 00:05:02,660
+And the way that-- We'll
+just restrict its range to
+
+109
+00:05:02,660 --> 00:05:04,710
+the most natural place.
+
+110
+00:05:04,710 --> 00:05:06,990
+So let's restrict its range.
+
+111
+00:05:06,990 --> 00:05:08,910
+Actually, just as a
+side note, what's its
+
+112
+00:05:08,910 --> 00:05:10,120
+domain restricted to?
+
+113
+00:05:10,120 --> 00:05:13,160
+So if I'm taking the
+arcsine of something.
+
+114
+00:05:13,160 --> 00:05:18,320
+So if I'm taking the arcsine of
+x, and I'm saying that that is
+
+115
+00:05:18,320 --> 00:05:21,900
+equal to theta, what's the
+domain restricted to?
+
+116
+00:05:21,900 --> 00:05:24,502
+What are the valid values of x?
+
+117
+00:05:24,502 --> 00:05:27,310
+x could be equal to what?
+
+118
+00:05:27,310 --> 00:05:30,770
+Well if I take the sine of
+any angle, I can only get
+
+119
+00:05:30,770 --> 00:05:33,840
+values between 1 and
+negative 1, right?
+
+120
+00:05:33,840 --> 00:05:37,680
+So x is going to be greater
+than or equal to negative 1 and
+
+121
+00:05:37,680 --> 00:05:39,310
+then less than or equal to 1.
+
+122
+00:05:39,310 --> 00:05:41,570
+That's the domain.
+
+123
+00:05:41,570 --> 00:05:43,930
+Now, in order to make this
+a valid function, I have
+
+124
+00:05:43,930 --> 00:05:45,180
+to restrict the range.
+
+125
+00:05:45,180 --> 00:05:46,360
+The possible values.
+
+126
+00:05:46,360 --> 00:05:47,790
+I have to restrict the range.
+
+127
+00:05:47,790 --> 00:05:50,700
+Now for arcsine, the convention
+is to restrict it to the
+
+128
+00:05:50,700 --> 00:05:52,630
+first and fourth quadrants.
+
+129
+00:05:52,630 --> 00:05:57,210
+To restrict the possible angles
+to this area right here
+
+130
+00:05:57,210 --> 00:05:58,750
+along the unit circle.
+
+131
+00:05:58,750 --> 00:06:03,840
+So theta is restricted to being
+less than or equal to pi over
+
+132
+00:06:03,840 --> 00:06:11,180
+2 and then greater than or
+equal to minus pi over 2.
+
+133
+00:06:11,180 --> 00:06:14,150
+So given that, we now
+understand what arcsine is.
+
+134
+00:06:14,150 --> 00:06:17,110
+Let's do another problem.
+
+135
+00:06:17,110 --> 00:06:20,280
+Clear out some space here.
+
+136
+00:06:20,280 --> 00:06:21,430
+Let me do another arcsine.
+
+137
+00:06:21,430 --> 00:06:30,450
+So let's say I were to ask you
+what the arcsine of minus the
+
+138
+00:06:30,450 --> 00:06:32,390
+square root of 3 over 2 is.
+
+139
+00:06:32,390 --> 00:06:36,480
+   
+
+140
+00:06:36,480 --> 00:06:37,690
+Now you might have
+that memorized.
+
+141
+00:06:37,690 --> 00:06:40,100
+And say, I immediately know
+that sine of x, or sine
+
+142
+00:06:40,100 --> 00:06:41,420
+of theta is square
+root of 3 over 2.
+
+143
+00:06:41,420 --> 00:06:42,220
+And you'd be done.
+
+144
+00:06:42,220 --> 00:06:44,730
+But I don't have
+that memorized.
+
+145
+00:06:44,730 --> 00:06:46,990
+So let me just draw
+my unit circle.
+
+146
+00:06:46,990 --> 00:06:48,480
+And when I'm dealing with
+arcsine, I just have to
+
+147
+00:06:48,480 --> 00:06:53,550
+draw the first and fourth
+quadrants of my unit circle.
+
+148
+00:06:53,550 --> 00:06:54,810
+That's the y-axis.
+
+149
+00:06:54,810 --> 00:06:56,890
+That's my x-axis.
+
+150
+00:06:56,890 --> 00:06:59,690
+x and y.
+
+151
+00:06:59,690 --> 00:07:01,300
+And where am I?
+
+152
+00:07:01,300 --> 00:07:04,360
+If the sine of something is
+minus square root of 3 over 2,
+
+153
+00:07:04,360 --> 00:07:07,760
+that means the y-coordinate on
+the unit circle is minus
+
+154
+00:07:07,760 --> 00:07:09,320
+square root of 3 over 2.
+
+155
+00:07:09,320 --> 00:07:15,020
+So it means we're
+right about there.
+
+156
+00:07:15,020 --> 00:07:18,800
+So this is minus the
+square root of 3 over 2.
+
+157
+00:07:18,800 --> 00:07:20,440
+This is where we are.
+
+158
+00:07:20,440 --> 00:07:24,160
+Now what angle gives me that?
+
+159
+00:07:24,160 --> 00:07:26,090
+Let's think about
+it a little bit.
+
+160
+00:07:26,090 --> 00:07:31,600
+My y-coordinate is minus
+square root of 3 over 2.
+
+161
+00:07:31,600 --> 00:07:33,460
+This is the angle.
+
+162
+00:07:33,460 --> 00:07:36,110
+It's going to be a negative
+angle because we're going
+
+163
+00:07:36,110 --> 00:07:39,130
+below the x-axis in the
+clockwise direction.
+
+164
+00:07:39,130 --> 00:07:44,240
+And to figure out-- Let me just
+draw a little triangle here.
+
+165
+00:07:44,240 --> 00:07:45,520
+Let me pick a better
+color than that.
+
+166
+00:07:45,520 --> 00:07:48,040
+That's a triangle.
+
+167
+00:07:48,040 --> 00:07:52,740
+Let me do it in
+this blue color.
+
+168
+00:07:52,740 --> 00:07:55,680
+So let me zoom up
+that triangle.
+
+169
+00:07:55,680 --> 00:07:56,230
+Like that.
+
+170
+00:07:56,230 --> 00:07:57,950
+This is theta.
+
+171
+00:07:57,950 --> 00:07:58,530
+That's theta.
+
+172
+00:07:58,530 --> 00:08:00,660
+And what's this
+length right here?
+
+173
+00:08:00,660 --> 00:08:03,120
+Well that's the same as
+the y-height, I guess
+
+174
+00:08:03,120 --> 00:08:03,890
+we could call it.
+
+175
+00:08:03,890 --> 00:08:06,020
+Which is square
+root of 3 over 2.
+
+176
+00:08:06,020 --> 00:08:07,560
+It's a minus because
+we're going down.
+
+177
+00:08:07,560 --> 00:08:08,850
+But let's just figure
+out this angle.
+
+178
+00:08:08,850 --> 00:08:11,960
+And we know it's a
+negative angle.
+
+179
+00:08:11,960 --> 00:08:14,540
+So when you see a square root
+of 3 over 2, hopefully you
+
+180
+00:08:14,540 --> 00:08:16,870
+recognize this is a
+30 60 90 triangle.
+
+181
+00:08:16,870 --> 00:08:17,980
+The square root of 3 over 2.
+
+182
+00:08:17,980 --> 00:08:19,950
+This side is 1/2.
+
+183
+00:08:19,950 --> 00:08:21,250
+And then, of course,
+this side is 1.
+
+184
+00:08:21,250 --> 00:08:22,880
+Because this is a unit circle.
+
+185
+00:08:22,880 --> 00:08:24,630
+So its radius is 1.
+
+186
+00:08:24,630 --> 00:08:27,415
+So in a 30 60 90 triangle, the
+side opposite to the square
+
+187
+00:08:27,415 --> 00:08:30,500
+root of 3 over 2 is 60 degrees.
+
+188
+00:08:30,500 --> 00:08:32,610
+This side over here
+is 30 degrees.
+
+189
+00:08:32,610 --> 00:08:35,140
+So we know that our theta
+is-- This is 60 degrees.
+
+190
+00:08:35,140 --> 00:08:36,100
+That's its magnitude.
+
+191
+00:08:36,100 --> 00:08:37,325
+But it's going downwards.
+
+192
+00:08:37,325 --> 00:08:39,970
+So it's minus 60 degrees.
+
+193
+00:08:39,970 --> 00:08:43,180
+So theta is equal to
+minus 60 degrees.
+
+194
+00:08:43,180 --> 00:08:44,630
+But if we're dealing
+in radians, that's
+
+195
+00:08:44,630 --> 00:08:45,210
+not good enough.
+
+196
+00:08:45,210 --> 00:08:52,350
+So we can multiply that times
+100-- sorry --pi radians
+
+197
+00:08:52,350 --> 00:08:54,540
+for every 180 degrees.
+
+198
+00:08:54,540 --> 00:08:56,070
+Degrees cancel out.
+
+199
+00:08:56,070 --> 00:08:59,500
+And we're left with
+theta is equal to minus
+
+200
+00:08:59,500 --> 00:09:04,090
+pi over 3 radians.
+
+201
+00:09:04,090 --> 00:09:10,630
+And so we can say-- We can now
+make the statements that the
+
+202
+00:09:10,630 --> 00:09:16,780
+arcsine of minus square root
+of 3 over 2 is equal to
+
+203
+00:09:16,780 --> 00:09:19,980
+minus pi over 3 radians.
+
+204
+00:09:19,980 --> 00:09:24,680
+Or we could say the inverse
+sign of minus square root
+
+205
+00:09:24,680 --> 00:09:30,840
+of 3 over 2 is equal to
+minus pi over 3 radians.
+
+206
+00:09:30,840 --> 00:09:34,290
+And to confirm this, let's
+just-- Let me get a
+
+207
+00:09:34,290 --> 00:09:35,310
+little calculator out.
+
+208
+00:09:35,310 --> 00:09:38,200
+I put this in radian
+mode already.
+
+209
+00:09:38,200 --> 00:09:39,370
+You can just check that.
+
+210
+00:09:39,370 --> 00:09:41,060
+Per second mode.
+
+211
+00:09:41,060 --> 00:09:43,040
+I'm in radian mode.
+
+212
+00:09:43,040 --> 00:09:45,490
+So I know I'm going to get,
+hopefully, the right answer.
+
+213
+00:09:45,490 --> 00:09:47,840
+And I want to figure
+out the inverse sign.
+
+214
+00:09:47,840 --> 00:09:51,610
+So the inverse sine-- the
+second and the sine button
+
+215
+00:09:51,610 --> 00:09:59,790
+--of the minus square
+root of 3 over 2.
+
+216
+00:09:59,790 --> 00:10:03,800
+It equals minus 1.04.
+
+217
+00:10:03,800 --> 00:10:11,040
+So it's telling me that this is
+equal to minus 1.04 radians.
+
+218
+00:10:11,040 --> 00:10:13,970
+So pi over 3 must
+be equal to 1.04.
+
+219
+00:10:13,970 --> 00:10:16,030
+Let's see if I can
+confirm that.
+
+220
+00:10:16,030 --> 00:10:25,180
+So if I were to write minus pi
+divided by 3, what do I get?
+
+221
+00:10:25,180 --> 00:10:26,670
+I get the exact same value.
+
+222
+00:10:26,670 --> 00:10:28,710
+So my calculator gave me the
+exact same value, but it might
+
+223
+00:10:28,710 --> 00:10:31,240
+have not been that helpful
+because my calculator doesn't
+
+224
+00:10:31,240 --> 00:10:34,520
+tell me that this is
+minus pi over 3.
+
+225
+00:10:34,520 --> 00:10:35,073
+

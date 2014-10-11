@@ -1,0 +1,117 @@
+1
+00:00:00,602 --> 00:00:06,607
+Let's say that I have the Matrix "A" (and we normally denote matrices with bolded capital letters)...
+
+2
+00:00:06,607 --> 00:00:17,139
+So I have the Matrix "A", and it is a 3 by 2 matrix... and so let's say it's
+[1, -2]
+[3, 0]
+[7, 5]
+
+3
+00:00:17,139 --> 00:00:26,802
+It's a 3 by 2 matrix. And what my question to myself, or to you if you're reading, is: What is the transpose of &quot;A&quot;?
+
+4
+00:00:26,802 --> 00:00:35,692
+And so we denote the transpose like this. "A" with this little superscript "T" right over here. And all this is talking about is the Transpose.
+
+5
+00:00:35,692 --> 00:00:48,406
+The transpose of matrix "A". And so your natural question should be: "Well, what does it mean to take the transpose of a matrix?"
+
+6
+00:00:48,406 --> 00:01:07,300
+It sounds very fancy. Well... it is not that fancy. All this means is rows become columns, and you can imagine that when rows become columns, the columns become the rows.
+
+7
+00:01:07,300 --> 00:01:24,073
+What do I mean by that? Well... let's do it right over here. So, if I have 3 rows... so let's be clear this is a (1... 2...) 3 rows.... This is 3 rows by (1...) 2 columns. This is a 3 by 2 matrix.
+
+8
+00:01:24,073 --> 00:01:32,350
+If all the rows are going to become columns, then all of the columns are going to become rows... the transpose is going to become a 2 by 3 matrix.
+
+9
+00:01:32,350 --> 00:01:41,481
+It's going to be 2 rows... the 2 columns are going to become the 2 rows... by 3 columns... these 3 rows are going to become 3 columns.
+
+10
+00:01:41,481 --> 00:01:50,343
+And so, it's going to look something like (let me do it in that blue color...) it's going to have 2 rows now, and it's going to have 3 columns.
+
+11
+00:01:50,343 --> 00:01:55,355
+So I said all the rows became columns, and all of the columns became rows... well, I can view it exactly like that.
+
+12
+00:01:55,355 --> 00:02:04,149
+I have this first row here of [1, -2], I can turn that into my first colum now, of 
+[1]
+[-2].
+
+13
+00:02:04,149 --> 00:02:12,263
+I have the second row... [3, 0], that will be now my second column:
+[3]
+[0].
+
+14
+00:02:12,263 --> 00:02:20,914
+And I have this third row... [7, 5]. Well, that is going to be my third column:
+[7]
+[5].
+
+15
+00:02:20,914 --> 00:02:28,467
+And you could have just as easily viewed it the other way around. You could say, "Look, I have two columns, my first column is:
+[1]
+[3]
+[7]
+
+16
+00:02:28,467 --> 00:02:32,936
+So my first row now is going to be: [1, 3, 7].
+
+17
+00:02:32,936 --> 00:02:38,227
+And then you could say that my second column is:
+[-2]
+[0]
+[5].
+
+18
+00:02:38,227 --> 00:02:43,030
+And so my second row will be [-2, 0, 5].
+
+19
+00:02:43,030 --> 00:02:50,323
+Let's do another example of that... just so that we really make it clear. So let's say we have matrix &quot;B&quot; (once again, bolded, capital letter)...
+
+20
+00:02:50,323 --> 00:03:00,217
+And let's just say it's a really simple 2 by 2 matrix. So it's:
+[-1, 5]
+[pi, 3]
+are it's entries...
+
+21
+00:03:00,217 --> 00:03:15,577
+What is &quot;B&quot; Transpose going to be equal to? Well once again we have two columns and two rows, so if all the rows become columns and all the columns become rows... I'm still going to have a 2 by 2 matrix...
+
+22
+00:03:15,607 --> 00:03:26,136
+But we just have to say, "Look, my first row here is: [-1, 5], so now that's going to be my first column:
+[-1]
+[5].
+
+23
+00:03:26,136 --> 00:03:35,264
+I have my second row here, which is: [pi, 3], so now that's going to become my second column:
+[pi]
+[3].
+
+24
+00:03:35,264 --> 00:03:39,264
+And so, I have taken the transpose. All the rows became columns, and all the columns became rows.

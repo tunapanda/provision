@@ -1,0 +1,135 @@
+1
+00:00:00,766 --> 00:00:04,024
+Twenty teachers were asked about their favorite course.
+
+2
+00:00:04,024 --> 00:00:05,532
+Seven teachers said language.
+
+3
+00:00:05,532 --> 00:00:06,884
+Three teachers said history.
+
+4
+00:00:06,884 --> 00:00:08,164
+Nine teachers said geometry.
+
+5
+00:00:08,164 --> 00:00:09,961
+One teacher said chemistry.
+
+6
+00:00:09,976 --> 00:00:12,459
+Zero teachers said physics.
+
+7
+00:00:12,459 --> 00:00:15,832
+Create a bar chart showing everyone's favorite courses.
+
+8
+00:00:15,832 --> 00:00:18,072
+So we've got the bar chart right over here.
+
+9
+00:00:18,072 --> 00:00:19,660
+Let’s see what we need to plot.
+
+10
+00:00:19,660 --> 00:00:22,034
+So it said zero teachers said physics –
+
+11
+00:00:22,034 --> 00:00:23,251
+which is surprising to me,
+
+12
+00:00:23,251 --> 00:00:25,554
+since physics is arguably my favorite course.
+
+13
+00:00:25,554 --> 00:00:27,668
+But let’s plot what the data has.
+
+14
+00:00:27,668 --> 00:00:28,604
+So physics -
+
+15
+00:00:28,604 --> 00:00:29,714
+Right now looks like
+
+16
+00:00:29,714 --> 00:00:31,162
+it's halfway between zero and one .
+
+17
+00:00:31,162 --> 00:00:33,500
+So I just have to bring the “physics” down to zero.
+
+18
+00:00:33,500 --> 00:00:35,865
+Chemistry... they said –
+
+19
+00:00:35,865 --> 00:00:36,430
+Let's see.
+
+20
+00:00:36,430 --> 00:00:37,486
+One teacher said chemistry.
+
+21
+00:00:37,486 --> 00:00:40,146
+So we've got to bring “chemistry“ up to one.
+
+22
+00:00:40,146 --> 00:00:42,737
+Now nine teachers said geometry.
+
+23
+00:00:42,767 --> 00:00:44,025
+So “geometry”...
+
+24
+00:00:44,025 --> 00:00:46,368
+Let's bring that up to nine.
+
+25
+00:00:46,368 --> 00:00:48,220
+One teacher said chemistry.
+
+26
+00:00:48,220 --> 00:00:49,239
+Oh, I already read that.
+
+27
+00:00:49,239 --> 00:00:50,663
+History. History.
+
+28
+00:00:50,663 --> 00:00:51,872
+Three teachers said history.
+
+29
+00:00:51,872 --> 00:00:55,206
+So, let’s bring “history” up to three.
+
+30
+00:00:55,206 --> 00:00:57,876
+And then language - seven teachers said language.
+
+31
+00:00:57,876 --> 00:01:00,649
+So let's move this up to seven.
+
+32
+00:01:00,649 --> 00:01:02,608
+And I think we --
+
+33
+00:01:02,608 --> 00:01:04,855
+if I didn’t make any careless mistakes, we should be done.
+
+34
+00:01:04,855 --> 00:01:06,430
+Yep, very good.

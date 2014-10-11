@@ -1,0 +1,339 @@
+1
+00:00:00,900 --> 00:00:04,540
+Find the greatest common factor of these monomials.
+
+2
+00:00:04,540 --> 00:00:07,015
+Now the greatest common factor of anything
+
+3
+00:00:07,015 --> 00:00:11,757
+is the largest factor that's divisible into both --
+
+4
+00:00:11,757 --> 00:00:13,540
+if we're just talking about pure numbers:
+
+5
+00:00:13,540 --> 00:00:14,938
+into both numbers,
+
+6
+00:00:14,938 --> 00:00:16,637
+or in this case into both monomials.
+
+7
+00:00:16,637 --> 00:00:18,420
+Now we have to be a little bit careful
+
+8
+00:00:18,420 --> 00:00:20,206
+when we talk about 'greatest'
+
+9
+00:00:20,206 --> 00:00:22,937
+in the context of algebraic expressions like this
+
+10
+00:00:22,937 --> 00:00:25,022
+because it's 'greatest' from the point of view that
+
+11
+00:00:25,022 --> 00:00:27,203
+it includes the most factors
+
+12
+00:00:27,203 --> 00:00:29,869
+for each of these monomials,
+
+13
+00:00:29,869 --> 00:00:32,676
+it's not necessarily the greatest possible number
+
+14
+00:00:32,676 --> 00:00:35,205
+because maybe some of these variables
+
+15
+00:00:35,205 --> 00:00:36,756
+can take on negative values;
+
+16
+00:00:36,756 --> 00:00:38,840
+maybe they are taking on values less than one
+
+17
+00:00:38,840 --> 00:00:41,267
+so if squared they actually become a smaller number
+
+18
+00:00:41,267 --> 00:00:42,537
+but I think,
+
+19
+00:00:42,537 --> 00:00:44,272
+without getting too much into the weeds there,
+
+20
+00:00:44,272 --> 00:00:46,616
+I think if we just kind of run through the process of it
+
+21
+00:00:46,616 --> 00:00:48,520
+you'll understand it a little bit better.
+
+22
+00:00:48,520 --> 00:00:50,420
+So to find the greatest common factor.
+
+23
+00:00:50,420 --> 00:00:51,842
+Let's just essentially break down
+
+24
+00:00:51,842 --> 00:00:53,619
+each of these numbers into
+
+25
+00:00:53,619 --> 00:00:55,876
+what we could call their prime factorization
+
+26
+00:00:55,876 --> 00:00:57,175
+but it's kind of a combination
+
+27
+00:00:57,175 --> 00:00:58,365
+of the prime factorization
+
+28
+00:00:58,365 --> 00:01:00,014
+of the numeric parts of the number
+
+29
+00:01:00,014 --> 00:01:02,837
+plus essentially the factorization of the variable part.
+
+30
+00:01:02,837 --> 00:01:04,607
+So if we wanted to write 10,
+
+31
+00:01:04,607 --> 00:01:08,143
+or if we wanted to write 10cd^2
+
+32
+00:01:08,143 --> 00:01:09,536
+we can rewrite that
+
+33
+00:01:09,536 --> 00:01:12,020
+as the product of the prime factors of 10
+
+34
+00:01:12,020 --> 00:01:14,937
+- which is just 2 * 5 -
+
+35
+00:01:14,937 --> 00:01:16,666
+those are both prime numbers
+
+36
+00:01:16,666 --> 00:01:18,466
+So 10 can be broken down
+
+37
+00:01:18,466 --> 00:01:20,270
+as 2 times 5.
+
+38
+00:01:20,270 --> 00:01:22,870
+C can only be broken down by c.
+
+39
+00:01:22,870 --> 00:01:24,085
+We don't know anything else
+
+40
+00:01:24,085 --> 00:01:26,200
+that c can be broken into.
+
+41
+00:01:26,200 --> 00:01:28,842
+So 2 times 5 times c
+
+42
+00:01:28,842 --> 00:01:31,271
+But then the d^2 can be rewritten
+
+43
+00:01:31,271 --> 00:01:34,453
+as d times d.
+
+44
+00:01:34,661 --> 00:01:36,213
+This is what I mean
+
+45
+00:01:36,213 --> 00:01:38,055
+by writing this monomial
+
+46
+00:01:38,055 --> 00:01:41,126
+as the product of its constituants.
+
+47
+00:01:41,126 --> 00:01:42,949
+For the numeric part of it,
+
+48
+00:01:42,949 --> 00:01:45,129
+it's the constituants of the prime factors
+
+49
+00:01:45,129 --> 00:01:46,656
+and for the rest of it
+
+50
+00:01:46,656 --> 00:01:48,790
+we are just expanding out the exponents.
+
+51
+00:01:48,790 --> 00:01:50,054
+Now, let's do this for
+
+52
+00:01:50,054 --> 00:01:52,653
+25 c to the third, d squared.
+
+53
+00:01:52,653 --> 00:01:55,279
+So 25, that is 5 * 5.
+
+54
+00:01:55,279 --> 00:01:58,390
+So this is equal to 5 * 5.
+
+55
+00:01:58,390 --> 00:02:00,534
+And then c^3, that is
+
+56
+00:02:00,534 --> 00:02:04,390
+c times c times c.
+
+57
+00:02:04,390 --> 00:02:06,790
+And then d-squared,
+
+58
+00:02:06,790 --> 00:02:11,444
+that is d times d.
+
+59
+00:02:11,444 --> 00:02:13,793
+So what is their greatest common factor
+
+60
+00:02:13,793 --> 00:02:15,876
+in this context?
+
+61
+00:02:15,876 --> 00:02:21,123
+Well, they both have at least one 5,
+
+62
+00:02:21,123 --> 00:02:26,395
+and they both have at least one c
+
+63
+00:02:26,395 --> 00:02:31,629
+and then they both have two d's.
+
+64
+00:02:31,629 --> 00:02:34,789
+So the greatest common factor in this context
+
+65
+00:02:34,789 --> 00:02:36,123
+the greatest common factor
+
+66
+00:02:36,123 --> 00:02:37,591
+of these two monomials,
+
+67
+00:02:37,591 --> 00:02:39,789
+will be the factors that they have in common.
+
+68
+00:02:39,789 --> 00:02:41,285
+It will be equal to
+
+69
+00:02:41,285 --> 00:02:43,624
+this five, times
+
+70
+00:02:43,624 --> 00:02:45,480
+we only have one c in common,
+
+71
+00:02:45,480 --> 00:02:48,371
+times - we have two d's in common.
+
+72
+00:02:48,371 --> 00:02:50,125
+So this is equal to
+
+73
+00:02:50,125 --> 00:02:53,876
+5 times c times d-squared.
+
+74
+00:02:53,876 --> 00:02:55,944
+So 5 c d-squared
+
+75
+00:02:55,944 --> 00:02:57,394
+we can view as the greatest --
+
+76
+00:02:57,394 --> 00:02:58,925
+I'll put that in quotes,
+
+77
+00:02:58,925 --> 00:03:00,279
+you know, depending on whether c
+
+78
+00:03:00,279 --> 00:03:01,395
+is negative or positive -
+
+79
+00:03:01,395 --> 00:03:02,701
+and d is greater than
+
+80
+00:03:02,701 --> 00:03:03,998
+or less than zero.
+
+81
+00:03:03,998 --> 00:03:05,623
+But this is the "greatest" common factor
+
+82
+00:03:05,623 --> 00:03:07,225
+of these two monomials.
+
+83
+00:03:07,225 --> 00:03:09,062
+It's devisable into both of them
+
+84
+00:03:09,062 --> 00:03:10,060
+and it uses
+
+85
+00:03:10,060 --> 00:03:11,583
+the most factors possible.

@@ -1,0 +1,1352 @@
+1
+00:00:00,000 --> 00:00:00,740
+   
+
+2
+00:00:00,740 --> 00:00:02,990
+We're on problem 76.
+
+3
+00:00:02,990 --> 00:00:05,400
+It says one bag contains
+2 green
+
+4
+00:00:05,400 --> 00:00:08,870
+marbles and 4 white marbles.
+
+5
+00:00:08,870 --> 00:00:13,690
+So that's one bag, and we have
+2 green and 4 white.
+
+6
+00:00:13,690 --> 00:00:15,740
+And a second bag contains
+3 green
+
+7
+00:00:15,740 --> 00:00:17,595
+marbles and 1 white marble.
+
+8
+00:00:17,595 --> 00:00:19,070
+So here's a second bag.
+
+9
+00:00:19,070 --> 00:00:23,390
+It has 3 green and
+1 white marble.
+
+10
+00:00:23,390 --> 00:00:27,890
+If Trent randomly draws 1 marble
+from each bag, what is
+
+11
+00:00:27,890 --> 00:00:31,550
+the probability that
+they're both green?
+
+12
+00:00:31,550 --> 00:00:33,520
+What's the probability that
+he draws a green marble
+
+13
+00:00:33,520 --> 00:00:35,450
+from this first bag?
+
+14
+00:00:35,450 --> 00:00:38,490
+Let's see, there's
+2 green marbles.
+
+15
+00:00:38,490 --> 00:00:40,000
+Out of a total how
+many marbles?
+
+16
+00:00:40,000 --> 00:00:40,920
+2 plus 4 marbles.
+
+17
+00:00:40,920 --> 00:00:43,010
+There's a total of 6
+marbles in here.
+
+18
+00:00:43,010 --> 00:00:46,526
+So there's a 2/6 or 1/3 chance
+that he draws a green marble
+
+19
+00:00:46,526 --> 00:00:47,970
+out of this bag.
+
+20
+00:00:47,970 --> 00:00:50,850
+And then when he goes to this
+bag, let's say, OK how many
+
+21
+00:00:50,850 --> 00:00:51,900
+green marbles are there?
+
+22
+00:00:51,900 --> 00:00:55,450
+Well there are 3 green marbles
+out of a total
+
+23
+00:00:55,450 --> 00:00:57,350
+possibility of 4 marbles.
+
+24
+00:00:57,350 --> 00:01:00,080
+So there's a 3/4 chance
+that he picks a green
+
+25
+00:01:00,080 --> 00:01:01,630
+marble out of this bag.
+
+26
+00:01:01,630 --> 00:01:05,670
+So the chance that he picks a
+green marble out of both bags
+
+27
+00:01:05,670 --> 00:01:08,180
+is just the 2/6 times the 3/4.
+
+28
+00:01:08,180 --> 00:01:11,920
+That's 1/3 times 3/4.
+
+29
+00:01:11,920 --> 00:01:15,180
+Which is equal to a
+1/4 probability.
+
+30
+00:01:15,180 --> 00:01:16,430
+Next question.
+
+31
+00:01:16,430 --> 00:01:19,510
+   
+
+32
+00:01:19,510 --> 00:01:21,720
+I've decided that it's
+fast when I pre- cut
+
+33
+00:01:21,720 --> 00:01:24,790
+and paste the questions.
+
+34
+00:01:24,790 --> 00:01:27,740
+It took me, like, 18 videos to
+think of that innovation.
+
+35
+00:01:27,740 --> 00:01:28,510
+Anyway.
+
+36
+00:01:28,510 --> 00:01:31,930
+A box contains 7 red
+marbles, no.
+
+37
+00:01:31,930 --> 00:01:38,340
+7 large red marbles, 5-- let me
+see, we have a box-- I have
+
+38
+00:01:38,340 --> 00:01:49,090
+7 large red marbles, 5 large
+yellow marbles, 3 small red
+
+39
+00:01:49,090 --> 00:01:54,520
+marbles, and 5 small
+yellow marbles.
+
+40
+00:01:54,520 --> 00:01:56,990
+If a marble is drawn at
+random, what is the
+
+41
+00:01:56,990 --> 00:01:59,700
+probability that it is yellow?
+
+42
+00:01:59,700 --> 00:02:03,760
+So probability that it is
+yellow, given that it is one
+
+43
+00:02:03,760 --> 00:02:05,010
+of the large marbles.
+
+44
+00:02:05,010 --> 00:02:08,620
+   
+
+45
+00:02:08,620 --> 00:02:10,430
+OK, so this might
+seem difficult.
+
+46
+00:02:10,430 --> 00:02:11,880
+Conditional probability
+and all of that.
+
+47
+00:02:11,880 --> 00:02:14,350
+But all you have to think about
+is, OK, we've picked a
+
+48
+00:02:14,350 --> 00:02:17,290
+marble out of the box
+and it's large.
+
+49
+00:02:17,290 --> 00:02:20,350
+So if I have a large marble
+in my hand, what is the
+
+50
+00:02:20,350 --> 00:02:23,710
+probability that I picked
+a yellow large marble?
+
+51
+00:02:23,710 --> 00:02:25,430
+So the easiest way to think
+about it is just think about
+
+52
+00:02:25,430 --> 00:02:28,160
+the universe of large marbles.
+
+53
+00:02:28,160 --> 00:02:30,650
+We picked 1 of these
+12 marbles here.
+
+54
+00:02:30,650 --> 00:02:32,620
+We picked 1 of the large ones.
+
+55
+00:02:32,620 --> 00:02:36,620
+So we definitely picked
+1 of these 12 marbles.
+
+56
+00:02:36,620 --> 00:02:38,640
+And so what is the probability
+that I picked a
+
+57
+00:02:38,640 --> 00:02:40,190
+yellow large marble?
+
+58
+00:02:40,190 --> 00:02:44,180
+So there's a total of 5
+yellow large marbles.
+
+59
+00:02:44,180 --> 00:02:45,150
+That's what they want to know.
+
+60
+00:02:45,150 --> 00:02:47,270
+Given it was one of large,
+probability of the yellow.
+
+61
+00:02:47,270 --> 00:02:50,320
+So there's 5 yellow
+large marbles.
+
+62
+00:02:50,320 --> 00:02:51,600
+That's these right here.
+
+63
+00:02:51,600 --> 00:02:54,780
+And how many total large marbles
+might I have picked?
+
+64
+00:02:54,780 --> 00:02:57,520
+Well 5 plus 7 is 12.
+
+65
+00:02:57,520 --> 00:03:01,000
+So there's a 5/12 chance that
+I picked a yellow marble,
+
+66
+00:03:01,000 --> 00:03:04,680
+given that I picked 1 of
+the large marbles.
+
+67
+00:03:04,680 --> 00:03:07,250
+Next question.
+
+68
+00:03:07,250 --> 00:03:09,800
+There's a trash truck outside
+making a lot of noise.
+
+69
+00:03:09,800 --> 00:03:11,510
+Hope you don't hear it.
+
+70
+00:03:11,510 --> 00:03:14,510
+Anyway, this has
+a big diagram.
+
+71
+00:03:14,510 --> 00:03:15,510
+Let's see.
+
+72
+00:03:15,510 --> 00:03:20,396
+Jamie will definitely try out--
+this is problem 78-- let
+
+73
+00:03:20,396 --> 00:03:21,630
+me switch to a dark color
+because I'm going to be
+
+74
+00:03:21,630 --> 00:03:22,900
+writing on white.
+
+75
+00:03:22,900 --> 00:03:25,070
+Jamie will definitely
+try out for either
+
+76
+00:03:25,070 --> 00:03:28,310
+basketball or baseball.
+
+77
+00:03:28,310 --> 00:03:30,280
+Basketball or baseball.
+
+78
+00:03:30,280 --> 00:03:31,490
+But not both.
+
+79
+00:03:31,490 --> 00:03:42,600
+The probability that Jamie will
+try out for baseball and
+
+80
+00:03:42,600 --> 00:03:45,780
+try out for catcher is 42%.
+
+81
+00:03:45,780 --> 00:03:49,600
+So this probability is 42%.
+
+82
+00:03:49,600 --> 00:03:51,410
+Baseball and catcher.
+
+83
+00:03:51,410 --> 00:03:53,650
+What is the probability that
+Jamie will try out for
+
+84
+00:03:53,650 --> 00:03:55,410
+basketball?
+
+85
+00:03:55,410 --> 00:03:56,700
+OK, so what have they
+provided us?
+
+86
+00:03:56,700 --> 00:03:58,850
+There's some probability that
+Jamie tries out for
+
+87
+00:03:58,850 --> 00:04:01,000
+basketball, some probability
+that Jamie
+
+88
+00:04:01,000 --> 00:04:03,340
+tries out for baseball.
+
+89
+00:04:03,340 --> 00:04:07,020
+Let's just assign some, let's
+say that this is x.
+
+90
+00:04:07,020 --> 00:04:08,730
+Because that's what we
+want to figure out.
+
+91
+00:04:08,730 --> 00:04:11,180
+And if that probability is x,
+then the probability of trying
+
+92
+00:04:11,180 --> 00:04:14,270
+out for baseball is just
+going to be 1 minus x.
+
+93
+00:04:14,270 --> 00:04:16,170
+And if that's 60%, it's
+going to be 40%.
+
+94
+00:04:16,170 --> 00:04:17,660
+I don't know what it is yet.
+
+95
+00:04:17,660 --> 00:04:22,000
+But then they say, if Jamie is
+trying out for basketball,
+
+96
+00:04:22,000 --> 00:04:24,720
+then there's an 80% chance that
+he tries out for guard
+
+97
+00:04:24,720 --> 00:04:26,920
+and a 20% chance for forward.
+
+98
+00:04:26,920 --> 00:04:29,000
+But, if you said what's the
+probability that he does
+
+99
+00:04:29,000 --> 00:04:33,510
+basketball and forward, it
+would be x times 20%.
+
+100
+00:04:33,510 --> 00:04:36,840
+Maybe there's a 50% chance he
+does basketball and then 20%
+
+101
+00:04:36,840 --> 00:04:38,720
+of those times he would
+be a forward, so it
+
+102
+00:04:38,720 --> 00:04:40,250
+would be a 10% chance.
+
+103
+00:04:40,250 --> 00:04:42,400
+So we do the same logic here.
+
+104
+00:04:42,400 --> 00:04:46,780
+If he tries out for baseball,
+there's a 70% chance he'll try
+
+105
+00:04:46,780 --> 00:04:48,020
+out for catcher.
+
+106
+00:04:48,020 --> 00:04:50,490
+And they already told us that
+the combined probability, the
+
+107
+00:04:50,490 --> 00:04:53,560
+probability that he'll try out
+for baseball and, given that
+
+108
+00:04:53,560 --> 00:04:56,310
+try out for catcher,
+that that is 42%.
+
+109
+00:04:56,310 --> 00:05:03,650
+So we can write that 1 minus
+x, that's this probability,
+
+110
+00:05:03,650 --> 00:05:12,960
+times 70%, times 0.7, is equal
+to 42%, which is 0.42.
+
+111
+00:05:12,960 --> 00:05:19,640
+And then you get 1 minus
+x is equal to what?
+
+112
+00:05:19,640 --> 00:05:22,520
+What's 0.42 divided by 7?
+
+113
+00:05:22,520 --> 00:05:27,050
+Let's see, it's 42 divided
+by 7 would be 6.
+
+114
+00:05:27,050 --> 00:05:28,080
+0.7.
+
+115
+00:05:28,080 --> 00:05:32,450
+It would be 60%.
+
+116
+00:05:32,450 --> 00:05:33,710
+And you can do that division.
+
+117
+00:05:33,710 --> 00:05:37,390
+And it's always good to do a
+reality check and say, OK, 70%
+
+118
+00:05:37,390 --> 00:05:39,350
+of something is 42%.
+
+119
+00:05:39,350 --> 00:05:42,710
+OK, 70% of 60%, yeah
+that makes sense
+
+120
+00:05:42,710 --> 00:05:44,650
+that it would be 42%.
+
+121
+00:05:44,650 --> 00:05:46,240
+Just in case you don't make
+a decimal mistake.
+
+122
+00:05:46,240 --> 00:05:48,200
+So 1 minus x is 60%.
+
+123
+00:05:48,200 --> 00:05:50,640
+This is a 60% probability
+right here
+
+124
+00:05:50,640 --> 00:05:51,940
+going down this chain.
+
+125
+00:05:51,940 --> 00:05:53,560
+And so now maybe you can see it
+a little more concretely,
+
+126
+00:05:53,560 --> 00:05:57,760
+we said, OK, whatever this is
+times the probability that he
+
+127
+00:05:57,760 --> 00:05:59,530
+tries out for catcher, given
+that he's trying out for the
+
+128
+00:05:59,530 --> 00:06:01,725
+baseball team, that's going
+to be equal to 42%.
+
+129
+00:06:01,725 --> 00:06:03,990
+And we've figured this out.
+
+130
+00:06:03,990 --> 00:06:10,100
+Now if this is 60%, 1 minus x,
+then x is-- if this is 60% x
+
+131
+00:06:10,100 --> 00:06:11,220
+is 1 minus that.
+
+132
+00:06:11,220 --> 00:06:13,450
+So x is 40%.
+
+133
+00:06:13,450 --> 00:06:14,300
+And we could have actually
+solved for that.
+
+134
+00:06:14,300 --> 00:06:17,912
+We could have actually said,
+1 minus x is equal to 60%.
+
+135
+00:06:17,912 --> 00:06:22,380
+And then you could have said,
+minus x is equal to minus 40%.
+
+136
+00:06:22,380 --> 00:06:25,920
+Subtract 1 from both sides,
+x is equal to 40%.
+
+137
+00:06:25,920 --> 00:06:27,570
+Anyway that's the question
+they asked us.
+
+138
+00:06:27,570 --> 00:06:29,450
+And what choice was that?
+
+139
+00:06:29,450 --> 00:06:30,380
+What choice?
+
+140
+00:06:30,380 --> 00:06:31,630
+Oh, it doesn't matter.
+
+141
+00:06:31,630 --> 00:06:38,190
+   
+
+142
+00:06:38,190 --> 00:06:40,670
+That was choice A.
+
+143
+00:06:40,670 --> 00:06:43,500
+Two problems left.
+
+144
+00:06:43,500 --> 00:06:46,200
+I'm going to be nostalgic for
+these California standards,
+
+145
+00:06:46,200 --> 00:06:49,130
+Algebra II exams. All right.
+
+146
+00:06:49,130 --> 00:06:52,480
+   
+
+147
+00:06:52,480 --> 00:06:55,360
+Let me copy and paste
+this one in.
+
+148
+00:06:55,360 --> 00:07:01,160
+   
+
+149
+00:07:01,160 --> 00:07:01,610
+All right.
+
+150
+00:07:01,610 --> 00:07:04,400
+A small business owner must hire
+seasonal workers as the
+
+151
+00:07:04,400 --> 00:07:05,770
+need arises.
+
+152
+00:07:05,770 --> 00:07:09,080
+The following list shows the
+number of employees hired
+
+153
+00:07:09,080 --> 00:07:12,860
+monthly for a five-month
+period.
+
+154
+00:07:12,860 --> 00:07:20,480
+If the mean of these data is
+approximately 7, what is the
+
+155
+00:07:20,480 --> 00:07:23,060
+population standard deviation
+for these data?
+
+156
+00:07:23,060 --> 00:07:25,190
+Round the answer to the
+nearest decimal.
+
+157
+00:07:25,190 --> 00:07:25,710
+OK.
+
+158
+00:07:25,710 --> 00:07:27,750
+Standard deviation has all
+sorts of definitions.
+
+159
+00:07:27,750 --> 00:07:30,250
+Well there is one definition
+for it, but I just always
+
+160
+00:07:30,250 --> 00:07:32,090
+think about it is,
+it's the average
+
+161
+00:07:32,090 --> 00:07:33,600
+distance from the average.
+
+162
+00:07:33,600 --> 00:07:35,890
+Or it's the average distance
+from the mean.
+
+163
+00:07:35,890 --> 00:07:39,540
+And if you wanted a visual kind
+of representation of it,
+
+164
+00:07:39,540 --> 00:07:43,990
+let's say that I were to draw--
+this is some type of
+
+165
+00:07:43,990 --> 00:07:50,230
+y-axis there-- and on the x-axis
+I were to draw each of
+
+166
+00:07:50,230 --> 00:07:52,550
+the data points.
+
+167
+00:07:52,550 --> 00:07:55,870
+So this is data point 1,
+this is data point 2.
+
+168
+00:07:55,870 --> 00:07:57,410
+You wouldn't have to do this on
+the problem, but I really
+
+169
+00:07:57,410 --> 00:07:58,860
+want to give you an intuition
+for what the standard
+
+170
+00:07:58,860 --> 00:08:00,660
+deviation is so that you
+don't forget it when
+
+171
+00:08:00,660 --> 00:08:02,210
+you're 32 years old.
+
+172
+00:08:02,210 --> 00:08:02,660
+All right.
+
+173
+00:08:02,660 --> 00:08:06,400
+So the data points go all
+the way from 4 to 13.
+
+174
+00:08:06,400 --> 00:08:08,550
+So let's see, data
+point one is 4.
+
+175
+00:08:08,550 --> 00:08:09,920
+Let's say that this is 4.
+
+176
+00:08:09,920 --> 00:08:11,260
+I just want to give you.
+
+177
+00:08:11,260 --> 00:08:12,460
+So that's 4.
+
+178
+00:08:12,460 --> 00:08:14,030
+Data point two is 13.
+
+179
+00:08:14,030 --> 00:08:16,340
+So maybe 13 will be up here.
+
+180
+00:08:16,340 --> 00:08:19,100
+Data point two is 13.
+
+181
+00:08:19,100 --> 00:08:20,540
+Data point three is 5.
+
+182
+00:08:20,540 --> 00:08:23,470
+That's right around there.
+
+183
+00:08:23,470 --> 00:08:26,090
+Data point four is 6.
+
+184
+00:08:26,090 --> 00:08:29,320
+Maybe it's right there.
+
+185
+00:08:29,320 --> 00:08:31,540
+And data point five is 9.
+
+186
+00:08:31,540 --> 00:08:36,000
+So maybe nine is-- I don't know
+I'm just eyeballing it--
+
+187
+00:08:36,000 --> 00:08:38,909
+maybe 9 is right there.
+
+188
+00:08:38,909 --> 00:08:41,030
+And they're telling us that if
+we average these numbers, our
+
+189
+00:08:41,030 --> 00:08:43,630
+average is 7.
+
+190
+00:08:43,630 --> 00:08:44,790
+So 7 is our average.
+
+191
+00:08:44,790 --> 00:08:46,040
+So this is 7.
+
+192
+00:08:46,040 --> 00:08:49,671
+   
+
+193
+00:08:49,671 --> 00:08:52,720
+So the average is 7.
+
+194
+00:08:52,720 --> 00:08:53,730
+And they didn't have
+to tell you that.
+
+195
+00:08:53,730 --> 00:08:55,390
+They're just trying to
+save you some time.
+
+196
+00:08:55,390 --> 00:08:57,290
+You could have added all of
+these numbers up, and you said
+
+197
+00:08:57,290 --> 00:08:58,590
+OK, I got 7.
+
+198
+00:08:58,590 --> 00:09:00,590
+I'm guessing that we get some
+decimals or something.
+
+199
+00:09:00,590 --> 00:09:02,350
+That's why they said
+approximately 7.
+
+200
+00:09:02,350 --> 00:09:03,800
+But anyway, that's
+the average.
+
+201
+00:09:03,800 --> 00:09:08,410
+So the standard deviation is
+just the average distance from
+
+202
+00:09:08,410 --> 00:09:10,760
+the average, or the average
+distance from the mean.
+
+203
+00:09:10,760 --> 00:09:14,590
+So you say is, and you might
+know it as the square root of
+
+204
+00:09:14,590 --> 00:09:15,720
+variance and all that.
+
+205
+00:09:15,720 --> 00:09:17,490
+And the variance is just
+the square of the
+
+206
+00:09:17,490 --> 00:09:20,070
+distance from the mean.
+
+207
+00:09:20,070 --> 00:09:22,370
+And they just really square it
+so that it stays positive.
+
+208
+00:09:22,370 --> 00:09:25,140
+But if you just say 4 and 7,
+what's the difference, what's
+
+209
+00:09:25,140 --> 00:09:27,150
+the distance between 4 and 7?
+
+210
+00:09:27,150 --> 00:09:29,015
+Well I'll draw it
+with my marker.
+
+211
+00:09:29,015 --> 00:09:33,450
+The distance between
+4 and 7 is 3.
+
+212
+00:09:33,450 --> 00:09:34,660
+Remember we just want to figure
+out the distance.
+
+213
+00:09:34,660 --> 00:09:36,130
+We don't want to know
+which one's bigger.
+
+214
+00:09:36,130 --> 00:09:38,190
+4 is 3 away from 7.
+
+215
+00:09:38,190 --> 00:09:41,940
+That's why sometimes people will
+say, oh OK, the variance
+
+216
+00:09:41,940 --> 00:09:48,100
+is equal to 4 minus
+7, squared.
+
+217
+00:09:48,100 --> 00:09:51,030
+And then that'll give you 9.
+
+218
+00:09:51,030 --> 00:09:53,830
+And then they will say that
+the standard deviation is
+
+219
+00:09:53,830 --> 00:09:57,900
+equal to the square root
+of the variance.
+
+220
+00:09:57,900 --> 00:09:59,810
+Which is equal to 3.
+
+221
+00:09:59,810 --> 00:10:03,700
+But you could have just said
+that the standard deviation is
+
+222
+00:10:03,700 --> 00:10:07,810
+equal to the absolute
+value of 4 minus 7.
+
+223
+00:10:07,810 --> 00:10:09,840
+To me, this is more intuitive
+because we're just saying, OK,
+
+224
+00:10:09,840 --> 00:10:11,750
+how far away is it from 7?
+
+225
+00:10:11,750 --> 00:10:12,920
+I don't care if it's
+above or below.
+
+226
+00:10:12,920 --> 00:10:14,680
+I just want to know the
+distance from it.
+
+227
+00:10:14,680 --> 00:10:18,450
+And then I just want to
+average each of those.
+
+228
+00:10:18,450 --> 00:10:19,020
+Oh I'm sorry.
+
+229
+00:10:19,020 --> 00:10:21,110
+This isn't the standard
+deviation itself.
+
+230
+00:10:21,110 --> 00:10:24,810
+This is each of the terms and
+then we would average them.
+
+231
+00:10:24,810 --> 00:10:26,890
+Anyway, let me erase this
+because I think
+
+232
+00:10:26,890 --> 00:10:28,542
+I'll need that space.
+
+233
+00:10:28,542 --> 00:10:31,510
+The standard deviation, you
+figured this out, you take the
+
+234
+00:10:31,510 --> 00:10:33,500
+sum of these and then
+you average them.
+
+235
+00:10:33,500 --> 00:10:34,990
+I'll show it to you
+in a second.
+
+236
+00:10:34,990 --> 00:10:36,240
+Let me erase this.
+
+237
+00:10:36,240 --> 00:10:41,980
+   
+
+238
+00:10:41,980 --> 00:10:46,870
+I think the proper notation
+would have been, you could
+
+239
+00:10:46,870 --> 00:10:50,350
+have written it as the standard
+deviation is equal to
+
+240
+00:10:50,350 --> 00:10:54,360
+the sum of the differences
+of the data points.
+
+241
+00:10:54,360 --> 00:10:56,480
+You know, there's
+n data points.
+
+242
+00:10:56,480 --> 00:10:57,650
+The n data points.
+
+243
+00:10:57,650 --> 00:11:01,240
+And that we want to take the
+absolute value between each of
+
+244
+00:11:01,240 --> 00:11:03,460
+the data points.
+
+245
+00:11:03,460 --> 00:11:08,130
+Data point i minus the mean.
+
+246
+00:11:08,130 --> 00:11:11,170
+They write mu for the
+mean, or something.
+
+247
+00:11:11,170 --> 00:11:12,550
+It gets complicated.
+
+248
+00:11:12,550 --> 00:11:14,290
+So that's the sum of all of
+them and then you want to
+
+249
+00:11:14,290 --> 00:11:15,720
+divide that by n.
+
+250
+00:11:15,720 --> 00:11:17,080
+So essentially you're
+taking the average
+
+251
+00:11:17,080 --> 00:11:17,840
+distance from the mean.
+
+252
+00:11:17,840 --> 00:11:19,370
+All that might be really
+complicated.
+
+253
+00:11:19,370 --> 00:11:21,580
+You could have written
+variance-- well, anyway.
+
+254
+00:11:21,580 --> 00:11:24,390
+I just want to show you that
+when you do the statistics
+
+255
+00:11:24,390 --> 00:11:26,820
+class, it'll introduce you to
+a lot of things, but at the
+
+256
+00:11:26,820 --> 00:11:28,820
+end, all you care about
+is the average
+
+257
+00:11:28,820 --> 00:11:29,440
+distance from the mean.
+
+258
+00:11:29,440 --> 00:11:33,150
+And I'll show you how easy
+that is to calculate.
+
+259
+00:11:33,150 --> 00:11:35,130
+Everything I've done so far
+this problem you would not
+
+260
+00:11:35,130 --> 00:11:36,800
+have had to do on a real exam.
+
+261
+00:11:36,800 --> 00:11:39,990
+I'm just trying to give a
+little bit of intuition.
+
+262
+00:11:39,990 --> 00:11:45,650
+All right, so the distance
+from 4 to 7 is 3.
+
+263
+00:11:45,650 --> 00:11:48,230
+So the distance from data
+point one is 3.
+
+264
+00:11:48,230 --> 00:11:51,820
+The distance from 13 to 7,
+what's that distance?
+
+265
+00:11:51,820 --> 00:11:52,920
+Well, that's 7.
+
+266
+00:11:52,920 --> 00:11:54,890
+We just care about the
+absolute distance.
+
+267
+00:11:54,890 --> 00:11:56,550
+So then that distance is 7.
+
+268
+00:11:56,550 --> 00:12:00,490
+The distance from 5 to 7 is 2.
+
+269
+00:12:00,490 --> 00:12:03,970
+The distance from 6 to 7 is 1.
+
+270
+00:12:03,970 --> 00:12:06,410
+The distance from 9 to 7 is 2.
+
+271
+00:12:06,410 --> 00:12:09,030
+   
+
+272
+00:12:09,030 --> 00:12:11,060
+So we just want to take
+the average of
+
+273
+00:12:11,060 --> 00:12:12,560
+all of these numbers.
+
+274
+00:12:12,560 --> 00:12:15,430
+Let's see, 3 plus 7 is 10.
+
+275
+00:12:15,430 --> 00:12:18,330
+10 plus 2 is 12.
+
+276
+00:12:18,330 --> 00:12:21,520
+12 plus 1 is 13.
+
+277
+00:12:21,520 --> 00:12:23,420
+Plus 2 is 15.
+
+278
+00:12:23,420 --> 00:12:25,880
+So the sum of these is 15.
+
+279
+00:12:25,880 --> 00:12:27,740
+And I have 5 data points.
+
+280
+00:12:27,740 --> 00:12:29,820
+So divided by 5 is equal to 3.
+
+281
+00:12:29,820 --> 00:12:34,730
+So the standard deviation is
+equal to-- well, that's
+
+282
+00:12:34,730 --> 00:12:40,510
+strange because I got 3 and they
+have an answer, 3.3, so I
+
+283
+00:12:40,510 --> 00:12:42,580
+feel like maybe I
+made a mistake.
+
+284
+00:12:42,580 --> 00:12:44,410
+But, I mean, I'm going
+to go with that.
+
+285
+00:12:44,410 --> 00:12:45,610
+I'm going to go with the 3.3.
+
+286
+00:12:45,610 --> 00:12:52,030
+Maybe, I guess the actual
+mean is probably not 7.
+
+287
+00:12:52,030 --> 00:12:55,340
+So if you used the non-actual
+mean you would have-- let's
+
+288
+00:12:55,340 --> 00:12:56,520
+see what the actual mean is.
+
+289
+00:12:56,520 --> 00:12:58,030
+And once again this is not
+something that you
+
+290
+00:12:58,030 --> 00:12:58,790
+would have to do.
+
+291
+00:12:58,790 --> 00:12:59,150
+Well, anyway.
+
+292
+00:12:59,150 --> 00:13:01,070
+Actually, I just realized
+I've run out of time.
+
+293
+00:13:01,070 --> 00:13:02,540
+So I'll continue this
+in the next video.
+
+294
+00:13:02,540 --> 00:13:03,180
+See you soon.
+
+295
+00:13:03,180 --> 00:13:05,280
+The next video is going
+to be one problem.
+
+296
+00:13:05,280 --> 00:13:06,400
+

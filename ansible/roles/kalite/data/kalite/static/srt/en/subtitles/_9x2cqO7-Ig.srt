@@ -1,0 +1,163 @@
+1
+99:59:59,999 --> 99:59:59,999
+So let's say we've got the curve r, defined-
+
+2
+99:59:59,999 --> 99:59:59,999
+So this is our curve r, it's x of t times i
+
+3
+99:59:59,999 --> 99:59:59,999
+plus y of t times j it's a curve in 2 dimensions
+
+4
+99:59:59,999 --> 99:59:59,999
+on the xy-plane, and let's graph it,
+
+5
+99:59:59,999 --> 99:59:59,999
+just to graph it in a kinda of generalized form.
+
+6
+99:59:59,999 --> 99:59:59,999
+So that's our y-axis, this is our x-axis, our curve
+
+7
+99:59:59,999 --> 99:59:59,999
+r might look something like this, it might look something-
+
+8
+99:59:59,999 --> 99:59:59,999
+Let me draw it a little more of a-
+
+9
+99:59:59,999 --> 99:59:59,999
+Maybe it looks something
+
+10
+99:59:59,999 --> 99:59:59,999
+like this maybe that's just part of it,
+
+11
+99:59:59,999 --> 99:59:59,999
+and as t increases we're going
+
+12
+99:59:59,999 --> 99:59:59,999
+in that direction right over there.
+
+13
+99:59:59,999 --> 99:59:59,999
+What I want to do in this video,
+
+14
+99:59:59,999 --> 99:59:59,999
+and this is really more vector algebra than vector calculus,
+
+15
+99:59:59,999 --> 99:59:59,999
+is think about, at any given point here,
+
+16
+99:59:59,999 --> 99:59:59,999
+whether we can figure out a normal
+
+17
+99:59:59,999 --> 99:59:59,999
+vector, and in particular, a unit normal vector.
+
+18
+99:59:59,999 --> 99:59:59,999
+Obviously we can figure out
+
+19
+99:59:59,999 --> 99:59:59,999
+normal vector, you can just divide it's magnitude and you will
+
+20
+99:59:59,999 --> 99:59:59,999
+get the unit normal vector.
+
+21
+99:59:59,999 --> 99:59:59,999
+So I want to figure out, at any given point, a vector
+
+22
+99:59:59,999 --> 99:59:59,999
+that's popping straight out in that direction, and has
+
+23
+99:59:59,999 --> 99:59:59,999
+a magnitude of 1.
+
+24
+99:59:59,999 --> 99:59:59,999
+So that would be our unit normal vector.
+
+25
+99:59:59,999 --> 99:59:59,999
+And to do that
+
+26
+99:59:59,999 --> 99:59:59,999
+first we will think about what a tangent vector
+
+27
+99:59:59,999 --> 99:59:59,999
+is and from a tangent vector
+
+28
+99:59:59,999 --> 99:59:59,999
+we can figure out the normal vector.
+
+29
+99:59:59,999 --> 99:59:59,999
+It really goes back
+
+30
+99:59:59,999 --> 99:59:59,999
+to what you might have done in Algebra 1 or
+
+31
+99:59:59,999 --> 99:59:59,999
+Algebra 2, if you have the slope of a line the
+
+32
+99:59:59,999 --> 99:59:59,999
+negative reciprocal of that slope is
+
+33
+99:59:59,999 --> 99:59:59,999
+going to be the slope of the perpendicular line.
+
+34
+99:59:59,999 --> 99:59:59,999
+We are going to see a very similar thing
+
+35
+99:59:59,999 --> 99:59:59,999
+when we do it right over here, with the vector-
+
+36
+99:59:59,999 --> 99:59:59,999
+with this vector algebra.
+
+37
+99:59:59,999 --> 99:59:59,999
+So the first think I want to think about
+
+38
+99:59:59,999 --> 99:59:59,999
+how do we construct a tangent line.
+
+39
+99:59:59,999 --> 99:59:59,999
+Well, you can imagine at some t-some t
+
+40
+99:59:59,999 --> 99:59:59,999
+this is what our position vector is going to look like
+
+41
+99:59:59,999 --> 99:59:59,999
+so call that r1-r1 right over there.

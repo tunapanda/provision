@@ -1,0 +1,651 @@
+1
+00:00:01,080 --> 00:00:03,160
+We're on problem 132.
+
+2
+00:00:05,860 --> 00:00:09,810
+If the integer n is greater than 1, is n equal to 2?
+
+3
+00:00:09,810 --> 00:00:12,210
+So they tell us that the integer n is greater than 1,
+
+4
+00:00:13,540 --> 00:00:16,890
+and they ask us, is n equal to 2?
+
+5
+00:00:18,580 --> 00:00:24,300
+Statement 1, n has exactly two positive factors.
+
+6
+00:00:31,030 --> 00:00:33,790
+Well that's certainly true of the number 2.
+
+7
+00:00:34,460 --> 00:00:38,800
+But it's also true of any prime number. I mean n could be 7.
+
+8
+00:00:38,800 --> 00:00:41,380
+7 only has two positive factors, 1 and 7.
+
+9
+00:00:41,380 --> 00:00:44,050
+So it's true of any prime number. So this, by itself,
+
+10
+00:00:44,050 --> 00:00:47,050
+isn't enough information to say that it's definitely 2.
+
+11
+00:00:47,650 --> 00:00:51,590
+Statement 2 tells us the difference of any two distinct
+
+12
+00:00:51,590 --> 00:00:57,140
+positive factors of n is odd. This is interesting.
+
+13
+00:01:05,570 --> 00:01:07,760
+We're just dealing in kind of the positive world.
+
+14
+00:01:16,010 --> 00:01:19,360
+So let's think about it. Just thinking about statement 1,
+
+15
+00:01:19,360 --> 00:01:22,010
+we said, OK, what numbers have only two factors?
+
+16
+00:01:22,010 --> 00:01:24,180
+Well prime numbers only have two factors.
+
+17
+00:01:24,560 --> 00:01:28,080
+This only tells us that n is prime.
+
+18
+00:01:29,110 --> 00:01:31,370
+2 is a prime number, but it's not the only prime number.
+
+19
+00:01:32,690 --> 00:01:36,030
+But for most other prime numbers, what do we know about them?
+
+20
+00:01:36,030 --> 00:01:40,450
+Well they're odd, right? Most prime numbers are odd.
+
+21
+00:01:40,740 --> 00:01:42,420
+Other than 2, what are the other prime numbers?
+
+22
+00:01:42,420 --> 00:01:47,140
+You go to 3, you go to 7, you go to 11, 5.
+
+23
+00:01:47,540 --> 00:01:50,160
+Let me ask you, why are they odd? Because if they were even,
+
+24
+00:01:50,160 --> 00:01:52,370
+they would be divisible by 2 and they wouldn't be prime.
+
+25
+00:01:52,370 --> 00:01:57,030
+So by definition really, every prime number
+
+26
+00:01:57,030 --> 00:02:01,040
+that's not 2 is not divisible by 2 because it's prime.
+
+27
+00:02:01,400 --> 00:02:05,590
+So they have to be odd numbers.So for any other prime number,
+
+28
+00:02:05,590 --> 00:02:10,880
+the number is going to be 1 and itself. So let's call that p.
+
+29
+00:02:11,090 --> 00:02:12,590
+So the difference between the two numbers,
+
+30
+00:02:12,590 --> 00:02:14,010
+and p is going to be an odd number.
+
+31
+00:02:14,400 --> 00:02:17,020
+Every other prime number other than 2 is odd.
+
+32
+00:02:17,020 --> 00:02:19,990
+So the difference between the two, p minus 1.
+
+33
+00:02:19,990 --> 00:02:22,200
+If I take an odd number and I subtract one from it,
+
+34
+00:02:22,690 --> 00:02:27,670
+I get an even number. That's true for any odd number.
+
+35
+00:02:28,010 --> 00:02:31,860
+So every other prime number is odd. And this happens.
+
+36
+00:02:31,860 --> 00:02:33,650
+But they're saying that when I subtract the difference I get
+
+37
+00:02:33,650 --> 00:02:35,190
+an odd, I get an odd number.
+
+38
+00:02:35,190 --> 00:02:37,440
+Well the only number that's true for is 2.
+
+39
+00:02:37,810 --> 00:02:40,010
+Because factors of 2 are 1 and 2.
+
+40
+00:02:40,010 --> 00:02:43,460
+If I subtract 1 from 2, 2 minus 1 is equal to 1.
+
+41
+00:02:43,830 --> 00:02:48,000
+That's because 2 is the only even prime number.
+
+42
+00:02:48,000 --> 00:02:52,180
+So this first statement says we have to be dealing with a
+
+43
+00:02:52,180 --> 00:02:52,750
+prime number.
+
+44
+00:02:53,060 --> 00:02:56,120
+The second statement says, well, the number really has to
+
+45
+00:02:56,120 --> 00:02:59,070
+be an even number if it's going to be prime.
+
+46
+00:02:59,070 --> 00:03:02,820
+Let me think about the other two--
+
+47
+00:03:02,820 --> 00:03:05,690
+if statement 2 alone is enough.
+
+48
+00:03:05,690 --> 00:03:11,460
+The difference of any two positive factors of n is odd,
+
+49
+00:03:12,000 --> 00:03:13,890
+any two positive factors of n.
+
+50
+00:03:13,890 --> 00:03:17,520
+Now this alone doesn't help us because n could be--
+
+51
+00:03:17,520 --> 00:03:19,140
+I don't know-- it could be 1 and 6.
+
+52
+00:03:19,790 --> 00:03:22,480
+The difference between 1 and 6 is 5,so it would satisfy this.
+
+53
+00:03:22,480 --> 00:03:25,450
+So n could be 6 if we just took statement 2.
+
+54
+00:03:26,000 --> 00:03:29,150
+So we really need both. Statement 1 tells us that n is prime.
+
+55
+00:03:29,650 --> 00:03:32,460
+Statement 2 tells us that n has to be even,
+
+56
+00:03:33,290 --> 00:03:36,430
+that it has to be an even number.
+
+57
+00:03:36,620 --> 00:03:40,460
+So frankly, there's only one prime even number,
+
+58
+00:03:40,460 --> 00:03:43,850
+and that's 2. So both statements together are necessary
+
+59
+00:03:43,850 --> 00:03:45,020
+to answer this question.
+
+60
+00:03:46,020 --> 00:03:55,810
+133, every member of a certain club volunteers to contribute
+
+61
+00:03:55,810 --> 00:04:00,050
+equally to the purchase price of a $60 gift certificate.
+
+62
+00:04:01,050 --> 00:04:02,490
+How many members of does a club have?
+
+63
+00:04:02,490 --> 00:04:05,290
+So we want to know-- let's call m for members--
+
+64
+00:04:05,490 --> 00:04:07,020
+how many members does a club have?
+
+65
+00:04:07,740 --> 00:04:12,770
+Question 1, each member's contribution is to be $4.
+
+66
+00:04:14,080 --> 00:04:19,010
+Let's see,it says they contribute equally to a purchase price
+
+67
+00:04:19,010 --> 00:04:21,660
+OK, so the number of members times--
+
+68
+00:04:21,870 --> 00:04:23,490
+and they say every member of a certain club.
+
+69
+00:04:23,490 --> 00:04:24,900
+So now they don't say some members.
+
+70
+00:04:25,580 --> 00:04:29,550
+So m is the number of members,and they contribute equally $4.
+
+71
+00:04:29,720 --> 00:04:31,540
+That's going to be equal to $60.
+
+72
+00:04:31,710 --> 00:04:33,580
+So then you immediately know that you can solve for the
+
+73
+00:04:33,580 --> 00:04:36,070
+number of members. There are 15 members of this club.
+
+74
+00:04:36,070 --> 00:04:37,730
+Maybe I'm missing something.
+
+75
+00:04:37,730 --> 00:04:42,020
+Statement 2, if 5 club members fail to contribute,
+
+76
+00:04:42,880 --> 00:04:48,710
+the share of each contributing member will increase by $2.
+
+77
+00:04:50,520 --> 00:04:56,360
+So that means that if I were to take the amount that 5
+
+78
+00:04:56,360 --> 00:05:00,980
+members were to contribute-- so let's say that the
+
+79
+00:05:00,980 --> 00:05:03,060
+contribution amount is c.
+
+80
+00:05:03,620 --> 00:05:08,960
+So if we take the amount that 5 members would contribute,
+
+81
+00:05:09,470 --> 00:05:17,040
+so 5 times c, and divide it by the remaining members,
+
+82
+00:05:17,040 --> 00:05:23,750
+so divide by m minus 5, that would be that each
+
+83
+00:05:23,750 --> 00:05:27,070
+contributing member will increase by $2.
+
+84
+00:05:28,000 --> 00:05:30,410
+So this is the amount that would have been contributed by
+
+85
+00:05:30,410 --> 00:05:32,060
+those 5 people.
+
+86
+00:05:32,060 --> 00:05:34,840
+Let me make sure that I'm not missing anything.
+
+87
+00:05:40,690 --> 00:05:43,000
+That is going to be equal to $2.
+
+88
+00:05:43,000 --> 00:05:45,790
+So this is the amount that those 5 members would have
+
+89
+00:05:45,790 --> 00:05:46,410
+contributed.
+
+90
+00:05:46,410 --> 00:05:47,740
+If they don't contribute it,
+
+91
+00:05:47,740 --> 00:05:50,430
+it's going to have to be divided by the other members.
+
+92
+00:05:50,430 --> 00:05:53,040
+So however many members there are minus 5.
+
+93
+00:05:53,040 --> 00:05:56,530
+That is going to be-- when you divide the amount divided by
+
+94
+00:05:56,530 --> 00:06:00,030
+who has to pay for it-- is $2 per leftover member.
+
+95
+00:06:00,030 --> 00:06:04,780
+We also know that the members times the contribution for
+
+96
+00:06:04,780 --> 00:06:08,010
+member if everyone pays, is going to be equal to $60.
+
+97
+00:06:08,010 --> 00:06:10,130
+That they give us in the problem statement,
+
+98
+00:06:11,530 --> 00:06:14,540
+that m members are going to contribute equally,
+
+99
+00:06:14,540 --> 00:06:15,970
+and they're going to end up with $60.
+
+100
+00:06:16,270 --> 00:06:19,070
+So actually, we have two linear equations and two unknowns.
+
+101
+00:06:19,070 --> 00:06:22,530
+So statement 2 alone is actually sufficient to
+
+102
+00:06:22,530 --> 00:06:23,030
+solve this problem.
+
+103
+00:06:23,450 --> 00:06:24,970
+If this doesn't look like a linear question,
+
+104
+00:06:24,970 --> 00:06:29,170
+you can just multiply both sides by m minus 5 and you get 5c
+
+105
+00:06:29,170 --> 00:06:32,530
+is equal to 2m minus 10.
+
+106
+00:06:32,530 --> 00:06:35,010
+Now this looks a lot more like a linear equation.
+
+107
+00:06:36,410 --> 00:06:38,590
+Well, actually, this isn't a complete linear equation.
+
+108
+00:06:38,590 --> 00:06:42,510
+But let me solve it just to make the point clear for you.
+
+109
+00:06:42,660 --> 00:06:47,780
+So if I were to say that c-- this isn't a linear equation,
+
+110
+00:06:48,000 --> 00:06:52,030
+so I shouldn't have said that-- c is equal to 60/m.
+
+111
+00:06:52,030 --> 00:06:59,130
+If c is equal to 60/m, so then this turns to 5 times 60.
+
+112
+00:06:59,130 --> 00:07:08,500
+So 300/m is equal to 2m minus 10.Then you are left with what?
+
+113
+00:07:08,500 --> 00:07:09,500
+Multiply both sides by m,
+
+114
+00:07:09,500 --> 00:07:15,010
+you get 300 is equal to 2m squared minus 10m.
+
+115
+00:07:15,010 --> 00:07:18,510
+Divide both sides by 2, you get 150 is equal to
+
+116
+00:07:18,510 --> 00:07:23,000
+m squared minus 10m. Then subtract 150 from both sides.
+
+117
+00:07:23,000 --> 00:07:33,010
+You get m squared minus 10m minus 150 is equal to 0.
+
+118
+00:07:33,010 --> 00:07:38,030
+Then let me see if I can just do this just by factoring it.
+
+119
+00:07:38,030 --> 00:07:50,000
+Minus 150, 30 times 5, no, that's not good. 15 times 10.
+
+120
+00:07:50,580 --> 00:07:57,080
+So if I do m minus 15 times-- no, that doesn't work.
+
+121
+00:07:57,080 --> 00:08:02,600
+15, 25, and 6. I know one of the answers already.
+
+122
+00:08:02,600 --> 00:08:09,050
+I know it's 15. m minus 15 times m plus 10.
+
+123
+00:08:09,050 --> 00:08:11,630
+Oh, actually, I just realized what my mistake was.
+
+124
+00:08:11,630 --> 00:08:13,360
+I went from this step to this step.
+
+125
+00:08:13,360 --> 00:08:17,500
+So I divided both sides by 2. So 300 went into 150.
+
+126
+00:08:17,500 --> 00:08:23,000
+2m squared-- this had to be 5m. That's my mistake. 5m.
+
+127
+00:08:23,000 --> 00:08:25,100
+M squared minus 5m minus 150.
+
+128
+00:08:25,100 --> 00:08:28,990
+So that's m minus 15 times m plus 10 is equal to 0.
+
+129
+00:08:28,990 --> 00:08:33,340
+So that tells us that m is equal to 15 or minus 10.
+
+130
+00:08:34,010 --> 00:08:35,810
+This is actually a quadratic equation.
+
+131
+00:08:36,570 --> 00:08:39,020
+We know that the members can't be negative.
+
+132
+00:08:39,380 --> 00:08:41,060
+There's a positive number of members.
+
+133
+00:08:41,060 --> 00:08:45,070
+So statement 2 alone is enough information to know that there
+
+134
+00:08:45,070 --> 00:08:48,850
+are exactly 15 members in this club. Next problem.
+
+135
+00:08:49,080 --> 00:08:51,400
+It had me stumped there because of my careless mistake
+
+136
+00:08:51,400 --> 00:08:53,880
+there for a second. Next problem.
+
+137
+00:08:58,000 --> 00:09:01,050
+OK, problem 134.
+
+138
+00:09:03,680 --> 00:09:05,340
+So that last one, I don't know if I just said it.
+
+139
+00:09:05,340 --> 00:09:08,630
+Each statement alone is sufficient. So problem 134.
+
+140
+00:09:08,630 --> 00:09:11,980
+If m and n are positive integers,
+
+141
+00:09:11,980 --> 00:09:20,090
+is the square root of n minus m an integer?
+
+142
+00:09:21,090 --> 00:09:24,010
+So m and n are positive integers. OK, so they tell us.
+
+143
+00:09:24,010 --> 00:09:32,660
+Statement 1, they say n is greater than m plus 15.
+
+144
+00:09:35,090 --> 00:09:39,390
+Well you know, n is greater than m plus 15.
+
+145
+00:09:39,390 --> 00:09:45,350
+So if n is exactly 16 greater than m, this is another way of
+
+146
+00:09:45,350 --> 00:09:49,140
+saying that n minus m is greater than 15. That tells that
+
+147
+00:09:49,140 --> 00:09:51,420
+what's under the denominator is greater than 15.
+
+148
+00:09:51,670 --> 00:09:53,910
+Well, if what's under the denominator is 16,
+
+149
+00:09:54,090 --> 00:09:54,940
+then it is an integer.
+
+150
+00:09:54,940 --> 00:09:57,710
+But if it's 17, which also meets this requirement,
+
+151
+00:09:57,710 --> 00:09:58,790
+it's not an integer.
+
+152
+00:09:58,790 --> 00:10:00,550
+So this isn't enough information by itself.
+
+153
+00:10:02,070 --> 00:10:10,660
+Statement 2 says n is equal to m times m plus 1,
+
+154
+00:10:10,660 --> 00:10:14,080
+which is the same thing as m squared plus m.
+
+155
+00:10:14,080 --> 00:10:17,700
+So if we substitute that into this equation,
+
+156
+00:10:18,120 --> 00:10:29,340
+we get the square root of m squared plus m minus m.
+
+157
+00:10:32,300 --> 00:10:34,710
+That's m times m plus 1. It's m squared plus m.
+
+158
+00:10:34,760 --> 00:10:36,000
+This minus m is right there.
+
+159
+00:10:36,000 --> 00:10:38,110
+So that cancels out and we're just left with square root of m
+
+160
+00:10:38,110 --> 00:10:42,360
+squared, which is going to be equal to m,which is an integer.
+
+161
+00:10:42,360 --> 00:10:47,340
+So statement 2 alone is sufficient to say that this would be
+
+162
+00:10:47,340 --> 00:10:51,060
+an integer as long as n is equal to m times m plus 1.
+
+163
+00:10:51,060 --> 00:10:54,010
+I've run out of time. See you in the next video.

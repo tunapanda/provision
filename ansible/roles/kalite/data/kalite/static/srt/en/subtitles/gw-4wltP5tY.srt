@@ -1,0 +1,931 @@
+1
+00:00:00,000 --> 00:00:02,750
+What I want to do in this video is make sure that
+
+2
+00:00:02,780 --> 00:00:04,490
+we are good at picking out what
+
+3
+00:00:04,500 --> 00:00:06,620
+the normal vector to a plane is
+
+4
+00:00:06,650 --> 00:00:09,280
+if we are given the equation for a plane.
+
+5
+00:00:09,320 --> 00:00:13,020
+So, to understand, let's start off with some plane here.
+
+6
+00:00:13,060 --> 00:00:14,830
+Let's start off！！
+
+7
+00:00:14,870 --> 00:00:16,660
+So, this is a plane and I have write part of it,
+
+8
+00:00:16,690 --> 00:00:18,230
+obviously it keeps going in every direction.
+
+9
+00:00:18,270 --> 00:00:20,500
+So let's say that that is our plane.
+
+10
+00:00:20,550 --> 00:00:23,290
+And let's say this is a normal vector to the plane.
+
+11
+00:00:23,330 --> 00:00:25,840
+So, that is our normal vector to the plane.
+
+12
+00:00:25,870 --> 00:00:32,270
+It's given by ai plus bj plus ck.
+
+13
+00:00:32,300 --> 00:00:35,210
+So, that is our normal vector to the plane.
+
+14
+00:00:35,250 --> 00:00:37,920
+And let's say that we have！！ So it's perpendicular
+
+15
+00:00:37,950 --> 00:00:42,020
+to every other vector that's on the plane.
+
+16
+00:00:42,060 --> 00:00:43,870
+Let's say we have some point on the plane.
+
+17
+00:00:43,910 --> 00:00:45,470
+We have some point.
+
+18
+00:00:45,510 --> 00:00:48,250
+It's the ponit x sub p.
+
+19
+00:00:48,290 --> 00:00:49,980
+And I will say p for plane.
+
+20
+00:00:50,020 --> 00:00:54,310
+So it's the point on the plane, xp, yp, zp.
+
+21
+00:00:54,350 --> 00:00:55,870
+If we pick the origin,
+
+22
+00:00:55,910 --> 00:00:57,670
+So let's say that our axes are here.
+
+23
+00:00:57,700 --> 00:01:01,790
+So let me draw, let me draw a cord in axis.
+
+24
+00:01:01,830 --> 00:01:04,350
+So let's say that our cord in axes look like that.
+
+25
+00:01:04,390 --> 00:01:08,320
+This is our z-axis. That is y-axis.
+
+26
+00:01:08,360 --> 00:01:10,710
+And let's say this is our x-axis.
+
+27
+00:01:10,750 --> 00:01:14,730
+Let's say this is our x-axis coming out like this.
+
+28
+00:01:14,770 --> 00:01:16,040
+This is our x-axis.
+
+29
+00:01:16,080 --> 00:01:18,190
+You can specify this as a position vector.
+
+30
+00:01:18,230 --> 00:01:21,290
+There is a position vector. Let me draw it like this.
+
+31
+00:01:21,330 --> 00:01:23,770
+Let me draw it like this.
+
+32
+00:01:23,810 --> 00:01:26,400
+And then it would be behind the plane right over there.
+
+33
+00:01:26,430 --> 00:01:28,330
+You have a position vector.
+
+34
+00:01:28,370 --> 00:01:36,690
+That vector would be xpi plus ypj plus zpk.
+
+35
+00:01:36,730 --> 00:01:39,480
+It specifies this coordinate right here
+
+36
+00:01:39,520 --> 00:01:41,480
+that sits on the plane.
+
+37
+00:01:41,510 --> 00:01:42,680
+Let me call that something.
+
+38
+00:01:42,710 --> 00:01:44,950
+Let me call that position vector. I don't know.
+
+39
+00:01:44,990 --> 00:01:49,630
+Let me call that,P, let me call that, p1.
+
+40
+00:01:49,660 --> 00:01:51,950
+This is a point on the plane.
+
+41
+00:01:52,010 --> 00:01:54,920
+So it is p1.
+
+42
+00:01:54,950 --> 00:01:56,630
+It is equal to this.
+
+43
+00:01:56,670 --> 00:01:59,570
+Now, we could take another point on the plane.
+
+44
+00:01:59,610 --> 00:02:02,910
+This is a particular for.
+
+45
+00:02:02,950 --> 00:02:06,010
+We just say any other point on the plane x, y, z.
+
+46
+00:02:06,050 --> 00:02:07,820
+But we say that x, y, z sits on the plane.
+
+47
+00:02:07,870 --> 00:02:11,760
+So let's say we take this point right over here, x, y, z.
+
+48
+00:02:11,800 --> 00:02:14,410
+That clearly saying logic can be specified
+
+49
+00:02:14,440 --> 00:02:15,730
+by another position vector.
+
+50
+00:02:15,760 --> 00:02:18,690
+We could have a position vector that looks like this,
+
+51
+00:02:18,730 --> 00:02:20,250
+In dotted line,
+
+52
+00:02:20,280 --> 00:02:22,720
+It's going under the plane right over here.
+
+53
+00:02:22,750 --> 00:02:24,310
+And this position vector.
+
+54
+00:02:24,350 --> 00:02:25,560
+I don't know. Let me just call it.
+
+55
+00:02:25,600 --> 00:02:30,020
+Let me just call it p, instead of that particular p1.
+
+56
+00:02:30,040 --> 00:02:35,850
+This would just be xi plus yj plus zk.
+
+57
+00:02:35,890 --> 00:02:38,100
+That the whole reason why I did this setup is
+
+58
+00:02:38,140 --> 00:02:41,910
+because I want to find, given some particular point
+
+59
+00:02:41,950 --> 00:02:44,300
+that I know on the plane and any other xyz
+
+60
+00:02:44,340 --> 00:02:45,670
+that is on the plane,
+
+61
+00:02:45,710 --> 00:02:47,690
+I can find, I can construct a vector
+
+62
+00:02:47,730 --> 00:02:49,230
+that is definitely on the plane.
+
+63
+00:02:49,270 --> 00:02:50,790
+And we have learned this before.
+
+64
+00:02:50,830 --> 00:02:53,080
+We try to figure out what the equations for a plane are.
+
+65
+00:02:53,110 --> 00:02:55,570
+That the vector that is definitely on the plane
+
+66
+00:02:55,600 --> 00:02:57,310
+is going to be the difference of this two vectors.
+
+67
+00:02:57,350 --> 00:02:58,700
+So, I will do that in blue.
+
+68
+00:02:58,740 --> 00:03:01,970
+So if you take the yellow vector, minus the green vector.
+
+69
+00:03:02,010 --> 00:03:03,280
+We will take this position.
+
+70
+00:03:03,320 --> 00:03:05,270
+You will get the vector.
+
+71
+00:03:05,310 --> 00:03:07,000
+If you view it that way,
+
+72
+00:03:07,040 --> 00:03:08,100
+that connects this point to that point.
+
+73
+00:03:08,140 --> 00:03:09,670
+Although you can shift the vector.
+
+74
+00:03:09,710 --> 00:03:10,740
+But you will get a vector
+
+75
+00:03:10,780 --> 00:03:12,380
+that definitely lies along the plane.
+
+76
+00:03:12,420 --> 00:03:13,610
+Even if you！！
+
+77
+00:03:13,640 --> 00:03:15,800
+If you start with one of these points.
+
+78
+00:03:15,840 --> 00:03:17,340
+It will definitely lie along the plane.
+
+79
+00:03:17,380 --> 00:03:19,310
+So, the vector will look like this.
+
+80
+00:03:19,350 --> 00:03:21,900
+And it would be lying along our plane.
+
+81
+00:03:21,940 --> 00:03:25,310
+So this vector lies along our plane.
+
+82
+00:03:25,340 --> 00:03:28,680
+That vector is p minus p1.
+
+83
+00:03:28,720 --> 00:03:31,950
+This is the vector p minus p1.
+
+84
+00:03:31,980 --> 00:03:34,040
+It is this position vector minus
+
+85
+00:03:34,070 --> 00:03:35,390
+that position vector gives you this one.
+
+86
+00:03:35,430 --> 00:03:37,870
+Another way to view this is this green position vector
+
+87
+00:03:37,910 --> 00:03:39,100
+plus that blue position vector
+
+88
+00:03:39,140 --> 00:03:40,110
+that sits on the plane
+
+89
+00:03:40,150 --> 00:03:42,690
+will clearly equal this yellow vector.
+
+90
+00:03:42,730 --> 00:03:45,530
+Right! Heads to tails, clearly equals it.
+
+91
+00:03:45,570 --> 00:03:47,250
+And the whole reason why that I did that is
+
+92
+00:03:47,280 --> 00:03:48,430
+now we can take the dot product
+
+93
+00:03:48,470 --> 00:03:51,280
+between this blue thing and this magenta thing.
+
+94
+00:03:51,320 --> 00:03:52,360
+And we have done this before.
+
+95
+00:03:52,400 --> 00:03:54,080
+And they have to be equal to zero,
+
+96
+00:03:54,130 --> 00:03:55,400
+because this lies on the plane.
+
+97
+00:03:55,440 --> 00:03:58,850
+This is perpendicular to everything that sits the plane.
+
+98
+00:03:58,890 --> 00:04:00,230
+And it equals to zero,
+
+99
+00:04:00,270 --> 00:04:02,660
+and we will get the equation for the plane.
+
+100
+00:04:02,700 --> 00:04:04,100
+But before I do that,
+
+101
+00:04:04,140 --> 00:04:05,300
+let me make sure that we know
+
+102
+00:04:05,340 --> 00:04:07,330
+what the components of the blue vector are.
+
+103
+00:04:07,360 --> 00:04:11,020
+So p minus p1, that's the blue vector.
+
+104
+00:04:11,060 --> 00:04:13,260
+You are just going to subtract each of the components.
+
+105
+00:04:13,300 --> 00:04:14,350
+So it's going to be
+
+106
+00:04:14,380 --> 00:04:29,760
+x minus xpi, plus y, minus ypj, plus z, minus zpk.
+
+107
+00:04:29,800 --> 00:04:32,020
+And we just said, this is in the plane.
+
+108
+00:04:32,060 --> 00:04:34,770
+And this right, the normal vector,
+
+109
+00:04:34,790 --> 00:04:35,730
+is normal to the plane.
+
+110
+00:04:35,770 --> 00:04:36,690
+You take their dot product.
+
+111
+00:04:36,720 --> 00:04:38,460
+is going to be equal to zero.
+
+112
+00:04:38,490 --> 00:04:44,820
+So n dot, this vector,
+
+113
+00:04:44,860 --> 00:04:48,050
+is going to be equal to zero.
+
+114
+00:04:48,080 --> 00:04:51,960
+But it is also equal to this a times this expression.
+
+115
+00:04:52,000 --> 00:04:53,680
+I will do it right over here.
+
+116
+00:04:53,720 --> 00:04:56,400
+So this. I will find some good colors.
+
+117
+00:04:56,440 --> 00:04:58,170
+So, a times that.
+
+118
+00:04:58,210 --> 00:05:06,070
+Which is ax minus axp, plus b times that.
+
+119
+00:05:06,110 --> 00:05:11,030
+So, that is plus by, minus byp.
+
+120
+00:05:11,070 --> 00:05:13,920
+And then, I have to make sure that I have enough colors.
+
+121
+00:05:13,960 --> 00:05:18,060
+And then it's going to be plus that times that.
+
+122
+00:05:18,090 --> 00:05:23,730
+So that's plus cz minus czp.
+
+123
+00:05:23,770 --> 00:05:26,340
+And all of these is equal to zero.
+
+124
+00:05:26,380 --> 00:05:31,120
+Now, what I am going to is: I am going to rewrite this,
+
+125
+00:05:31,140 --> 00:05:33,940
+so we have all of these terms
+
+126
+00:05:33,980 --> 00:05:35,110
+that I am looking for right color.
+
+127
+00:05:35,150 --> 00:05:37,060
+We have all the x terms ax.
+
+128
+00:05:37,090 --> 00:05:39,650
+Remember, this is any x that sits on the plane
+
+129
+00:05:39,690 --> 00:05:40,830
+that will satisfy this.
+
+130
+00:05:40,870 --> 00:05:44,210
+So ax, by, and cz.
+
+131
+00:05:44,240 --> 00:05:45,970
+Let me leave that one the right hand side.
+
+132
+00:05:46,000 --> 00:05:52,860
+So we have ax plus by plus cz is equal to！！
+
+133
+00:05:52,890 --> 00:05:54,080
+And what I want to do is:
+
+134
+00:05:54,130 --> 00:05:56,280
+I am going to subtract each of these from both sides.
+
+135
+00:05:56,320 --> 00:05:57,150
+Another way is:
+
+136
+00:05:57,190 --> 00:05:59,900
+I am going to move them all over to the, let me do it.
+
+137
+00:05:59,940 --> 00:06:01,050
+Not doing too many things.
+
+138
+00:06:01,080 --> 00:06:02,320
+I'm going to move them over
+
+139
+00:06:02,360 --> 00:06:03,350
+to the left hand side. .
+
+140
+00:06:03,390 --> 00:06:06,030
+So I'm going to add positive axp to both sides
+
+141
+00:06:06,070 --> 00:06:08,440
+as equivalent to subtracting negative axp.
+
+142
+00:06:08,480 --> 00:06:13,700
+So, this is going to be positive axp, and then,
+
+143
+00:06:13,740 --> 00:06:16,590
+we are going to have positive byp, plus,
+
+144
+00:06:16,620 --> 00:06:18,720
+we are going to do that in the same green.
+
+145
+00:06:18,760 --> 00:06:23,030
+Plus byp and then finally plus czp,
+
+146
+00:06:23,070 --> 00:06:27,680
+plus czp is going to be equal to that.
+
+147
+00:06:27,750 --> 00:06:29,040
+Now, the whole reason that why I do this！！
+
+148
+00:06:29,090 --> 00:06:30,280
+I have done this in previous video
+
+149
+00:06:30,310 --> 00:06:32,590
+where we were trying to find the formula
+
+150
+00:06:32,630 --> 00:06:34,310
+or we were trying to find the equations of the plane.
+
+151
+00:06:34,350 --> 00:06:35,070
+And now you said that hey!
+
+152
+00:06:35,110 --> 00:06:36,140
+If you have a normal vector,
+
+153
+00:06:36,180 --> 00:06:38,710
+and you are given a point on the plane.
+
+154
+00:06:38,740 --> 00:06:41,740
+We say xp yp zp.
+
+155
+00:06:41,770 --> 00:06:44,930
+We now have a very quick way to figure out the equation.
+
+156
+00:06:44,960 --> 00:06:45,900
+But I want to go the other way.
+
+157
+00:06:45,940 --> 00:06:47,520
+I want you to be able to！！
+
+158
+00:06:47,560 --> 00:06:48,650
+If I were to give you.
+
+159
+00:06:48,680 --> 00:06:50,590
+If I were to give you.
+
+160
+00:06:50,630 --> 00:06:55,260
+If I were to give you an equation for a plane.
+
+161
+00:06:55,290 --> 00:07:02,660
+Where I would to say ax plus by plus cz, is equal to D
+
+162
+00:07:02,690 --> 00:07:04,810
+So, this is a general equation for the plane.
+
+163
+00:07:04,840 --> 00:07:06,230
+If I want to give you this.
+
+164
+00:07:06,270 --> 00:07:07,520
+I want you to be able to figure out
+
+165
+00:07:07,560 --> 00:07:08,810
+the normal vector very quickly.
+
+166
+00:07:08,840 --> 00:07:09,800
+So, how could you do that?
+
+167
+00:07:09,830 --> 00:07:13,580
+Well, this ax plus by plus cz is completely
+
+168
+00:07:13,620 --> 00:07:15,780
+analogous to this part right up over here.
+
+169
+00:07:15,810 --> 00:07:17,690
+Let me rewrite this over here.
+
+170
+00:07:17,720 --> 00:07:18,510
+so that this part becomes clear.
+
+171
+00:07:18,550 --> 00:07:23,820
+This part is ax plus by plus cz is equal
+
+172
+00:07:23,860 --> 00:07:25,630
+to all of these stuff on the right hand side.
+
+173
+00:07:25,670 --> 00:07:27,340
+Sorry, on the left hand side.
+
+174
+00:07:27,370 --> 00:07:29,700
+So, let me copy and paste it.
+
+175
+00:07:29,740 --> 00:07:32,150
+Copy and paste it.
+
+176
+00:07:32,180 --> 00:07:34,920
+So I just essentially flip this expression.
+
+177
+00:07:34,950 --> 00:07:36,970
+But now you see, this all of this.
+
+178
+00:07:37,000 --> 00:07:42,460
+This a has to be this A, this b has to be this B
+
+179
+00:07:42,500 --> 00:07:44,030
+and this c has to be this thing.
+
+180
+00:07:44,070 --> 00:07:45,490
+And D is going to be all this.
+
+181
+00:07:45,530 --> 00:07:46,810
+And this is just going to be a number.
+
+182
+00:07:46,840 --> 00:07:48,620
+This is just going to be a number.
+
+183
+00:07:48,660 --> 00:07:49,530
+assuming you mean that you knew
+
+184
+00:07:49,560 --> 00:07:50,620
+what the normal vector is.
+
+185
+00:07:50,660 --> 00:07:51,600
+What you a,b,and cs are.
+
+186
+00:07:51,640 --> 00:07:52,890
+You know the particular values.
+
+187
+00:07:52,920 --> 00:07:55,640
+So, this is what, this is what D is.
+
+188
+00:07:55,670 --> 00:07:57,880
+So, this is how you can get the equation for a plane.
+
+189
+00:07:57,920 --> 00:07:59,260
+Now, what if I were to give you the equation for a plane.
+
+190
+00:07:59,300 --> 00:08:00,510
+What is a normal vector?
+
+191
+00:08:00,550 --> 00:08:01,700
+Well. We just saw.
+
+192
+00:08:01,740 --> 00:08:03,560
+The normal vector, this a corresponds that A.
+
+193
+00:08:03,600 --> 00:08:04,930
+This b corresponds to that B.
+
+194
+00:08:04,960 --> 00:08:07,190
+That c corresponds to that C.
+
+195
+00:08:07,220 --> 00:08:10,250
+The normal vector to this plane we started off with is,
+
+196
+00:08:10,290 --> 00:08:12,390
+and has the components of a, b, and c.
+
+197
+00:08:12,430 --> 00:08:15,650
+So, if you are given an equation for a plane here.
+
+198
+00:08:15,690 --> 00:08:17,390
+The normal vector.
+
+199
+00:08:17,430 --> 00:08:20,890
+The normal vector to this plane right over here,
+
+200
+00:08:20,930 --> 00:08:28,150
+is going to be Ai plus Bj plus Ck.
+
+201
+00:08:28,190 --> 00:08:30,110
+So it's very easy thing to do
+
+202
+00:08:30,150 --> 00:08:31,840
+if I were to give you an equation of a plane.
+
+203
+00:08:31,870 --> 00:08:33,860
+Let me give you a particular example.
+
+204
+00:08:33,900 --> 00:08:35,110
+If I were to tell you
+
+205
+00:08:35,150 --> 00:08:38,140
+that I have some plane, in three dimensions.
+
+206
+00:08:38,170 --> 00:08:41,070
+Let's say it's negative 3.
+
+207
+00:08:41,110 --> 00:08:42,440
+although we could work for more dimensions.
+
+208
+00:08:42,470 --> 00:08:44,430
+Let's say I have negative 3x,
+
+209
+00:08:44,470 --> 00:08:51,440
+plus the square root of 2, y, minus,
+
+210
+00:08:56,110 --> 00:08:58,280
+So it's crazy, I mean it's not crazy.
+
+211
+00:08:58,320 --> 00:08:59,750
+It should be the plane in three dimensions.
+
+212
+00:08:59,780 --> 00:09:02,870
+And what's the normal vector to this plane?
+
+213
+00:09:02,910 --> 00:09:04,080
+You literally,
+
+214
+00:09:04,120 --> 00:09:06,120
+literally can just pick out these coefficients.
+
+215
+00:09:06,150 --> 00:09:08,490
+You say a normal vector to this plane
+
+216
+00:09:08,530 --> 00:09:18,020
+is negative 3i plus square root of 2 j plus 7 k,
+
+217
+00:09:18,060 --> 00:09:19,820
+and you can ignore the D part there.
+
+218
+00:09:19,850 --> 00:09:21,530
+And the reason why you can just ignore that
+
+219
+00:09:21,570 --> 00:09:23,150
+is that can just shift the plane.
+
+220
+00:09:23,190 --> 00:09:26,370
+but won't fundamentally change how the plane is tilted.
+
+221
+00:09:26,410 --> 00:09:29,900
+So, this normal vector will also normal
+
+222
+00:09:29,940 --> 00:09:34,780
+if this was e, if this was a hundred.
+
+223
+00:09:34,820 --> 00:09:36,450
+It will be normal to all of those planes
+
+224
+00:09:36,490 --> 00:09:37,880
+because all of those planes are shifted
+
+225
+00:09:37,920 --> 00:09:40,910
+but they all have the same inclinations.
+
+226
+00:09:40,950 --> 00:09:42,720
+So it would all come to point at the same directions.
+
+227
+00:09:42,760 --> 00:09:44,730
+So, it would have normal vectors would point
+
+228
+00:09:44,770 --> 00:09:46,030
+in the same direction.
+
+229
+00:09:46,070 --> 00:09:47,720
+So, hopefully you found that vaguely useful.
+
+230
+00:09:47,760 --> 00:09:48,880
+So now build on this,
+
+231
+00:09:48,920 --> 00:09:51,670
+define the distance between any point
+
+232
+00:09:51,710 --> 00:09:53,580
+in three dimensions and some plane,
+
+233
+00:09:53,620 --> 00:09:55,460
+the shortest distance we can get to that plane.

@@ -1,0 +1,1244 @@
+1
+00:00:00,000 --> 00:00:00,710
+   
+
+2
+00:00:00,710 --> 00:00:02,680
+Let's review a little bit of
+everything we learned so far
+
+3
+00:00:02,680 --> 00:00:04,310
+and hopefully it'll make
+everything fit together
+
+4
+00:00:04,310 --> 00:00:04,870
+a little bit better.
+
+5
+00:00:04,870 --> 00:00:07,340
+Then we'll do a bunch of
+calculations with real numbers
+
+6
+00:00:07,340 --> 00:00:09,430
+and I think it'll really
+hit the point home.
+
+7
+00:00:09,430 --> 00:00:10,910
+So, first of all if we're
+dealing with a-- let me
+
+8
+00:00:10,910 --> 00:00:12,570
+actually write down, let
+me make some columns.
+
+9
+00:00:12,570 --> 00:00:16,820
+So if we're dealing with--
+let's see, we could call it the
+
+10
+00:00:16,820 --> 00:00:25,160
+concept and then we'll call it
+whether we're dealing with
+
+11
+00:00:25,160 --> 00:00:34,310
+a population or a sample.
+
+12
+00:00:34,310 --> 00:00:38,280
+So the first statistical
+concept we came up with was the
+
+13
+00:00:38,280 --> 00:00:42,080
+notion of the mean or the
+central tendency and we learned
+
+14
+00:00:42,080 --> 00:00:44,800
+of that was one way to measure
+the average or central
+
+15
+00:00:44,800 --> 00:00:47,570
+tendency of a data set.
+
+16
+00:00:47,570 --> 00:00:50,090
+The other ways were the
+median and the mode.
+
+17
+00:00:50,090 --> 00:00:52,630
+But the mean tends to show up a
+lot more, especially when we
+
+18
+00:00:52,630 --> 00:00:55,050
+start talking about variances
+and, as we'll do in this video,
+
+19
+00:00:55,050 --> 00:00:56,290
+the standard deviation.
+
+20
+00:00:56,290 --> 00:01:00,150
+But the mean of a population we
+learned-- we use the greek
+
+21
+00:01:00,150 --> 00:01:04,380
+letter Mu-- is equal to the sum
+of each of the data points
+
+22
+00:01:04,380 --> 00:01:05,640
+in the population.
+
+23
+00:01:05,640 --> 00:01:06,395
+That's an i.
+
+24
+00:01:06,395 --> 00:01:10,250
+Let me make sure it
+looks like an I.
+
+25
+00:01:10,250 --> 00:01:13,170
+So you're going to sum up
+each of those data points.
+
+26
+00:01:13,170 --> 00:01:16,050
+You're going to start with the
+first one and you're going
+
+27
+00:01:16,050 --> 00:01:17,200
+to go to the nth one.
+
+28
+00:01:17,200 --> 00:01:19,880
+We're assuming that there are n
+data points in the population.
+
+29
+00:01:19,880 --> 00:01:22,410
+And then you divide by the
+total number that you have.
+
+30
+00:01:22,410 --> 00:01:25,160
+And this is like the average
+that you're used to taking
+
+31
+00:01:25,160 --> 00:01:27,550
+before you learned any of
+the statistics stuff.
+
+32
+00:01:27,550 --> 00:01:29,200
+You add up all the data
+points and you divide by
+
+33
+00:01:29,200 --> 00:01:30,690
+the number there are.
+
+34
+00:01:30,690 --> 00:01:32,310
+The sample is the same thing.
+
+35
+00:01:32,310 --> 00:01:35,130
+We just use a slightly
+different terminology.
+
+36
+00:01:35,130 --> 00:01:37,730
+The mean of a sample-- and
+I'll do it in a different
+
+37
+00:01:37,730 --> 00:01:42,730
+color-- just write it as
+x with a line on top.
+
+38
+00:01:42,730 --> 00:01:45,730
+And that's equal to the
+sum of all the data
+
+39
+00:01:45,730 --> 00:01:47,720
+points in the sample.
+
+40
+00:01:47,720 --> 00:01:50,060
+So each of the xi
+in the sample.
+
+41
+00:01:50,060 --> 00:01:51,610
+But we're serving the
+sample is something
+
+42
+00:01:51,610 --> 00:01:52,780
+less than a population.
+
+43
+00:01:52,780 --> 00:01:55,310
+So you start with the
+first one still.
+
+44
+00:01:55,310 --> 00:01:58,520
+And then you go to the lower
+case n where we assume that
+
+45
+00:01:58,520 --> 00:02:01,000
+lowercase n is less
+than the big N.
+
+46
+00:02:01,000 --> 00:02:04,330
+If this was the same thing then
+we're actually taking the
+
+47
+00:02:04,330 --> 00:02:07,320
+average or we're taking the
+mean of the entire population.
+
+48
+00:02:07,320 --> 00:02:08,715
+And then you divide by
+the number of data
+
+49
+00:02:08,715 --> 00:02:09,590
+points you added.
+
+50
+00:02:09,590 --> 00:02:11,960
+You get to n.
+
+51
+00:02:11,960 --> 00:02:15,720
+Then we said OK, how far-- this
+give us the central tendency.
+
+52
+00:02:15,720 --> 00:02:17,230
+It's one measure of
+the central tendency.
+
+53
+00:02:17,230 --> 00:02:19,680
+But what if we wanted to know
+how good of an indicator this
+
+54
+00:02:19,680 --> 00:02:21,720
+is for the population
+or for the sample?
+
+55
+00:02:21,720 --> 00:02:25,650
+Or, on average, how far are the
+data points from this mean?
+
+56
+00:02:25,650 --> 00:02:28,360
+And that's where we came up
+with the concept of variance.
+
+57
+00:02:28,360 --> 00:02:30,930
+And I'll arbitrarily
+switch colors again.
+
+58
+00:02:30,930 --> 00:02:31,300
+Variance.
+
+59
+00:02:31,300 --> 00:02:35,820
+   
+
+60
+00:02:35,820 --> 00:02:40,790
+And in a population the
+variable or the notation for
+
+61
+00:02:40,790 --> 00:02:42,160
+variance is the sigma squared.
+
+62
+00:02:42,160 --> 00:02:44,350
+This means variance.
+
+63
+00:02:44,350 --> 00:02:47,910
+And that is equal to-- you
+take each of the data points.
+
+64
+00:02:47,910 --> 00:02:50,470
+   
+
+65
+00:02:50,470 --> 00:02:53,130
+You find the difference between
+that and the mean that
+
+66
+00:02:53,130 --> 00:02:55,050
+you calculate up there.
+
+67
+00:02:55,050 --> 00:02:57,700
+You square it so you get
+the squared difference.
+
+68
+00:02:57,700 --> 00:03:00,340
+And then you essentially take
+the average of all of these.
+
+69
+00:03:00,340 --> 00:03:02,620
+You take the average of all
+of these squared distances.
+
+70
+00:03:02,620 --> 00:03:08,290
+So that's-- so you take the
+sum from i is equal to 1 to
+
+71
+00:03:08,290 --> 00:03:11,800
+n and you divide it by n.
+
+72
+00:03:11,800 --> 00:03:13,650
+That's the variance.
+
+73
+00:03:13,650 --> 00:03:15,450
+And then the variance of a
+sample mean-- and this was a
+
+74
+00:03:15,450 --> 00:03:18,130
+little bit more interesting
+and we talked a little bit
+
+75
+00:03:18,130 --> 00:03:19,320
+about it in the last video.
+
+76
+00:03:19,320 --> 00:03:22,850
+You actually want to provide
+a-- you want to estimate the
+
+77
+00:03:22,850 --> 00:03:24,760
+variance of the population
+when you're taking the
+
+78
+00:03:24,760 --> 00:03:26,250
+variance of a sample.
+
+79
+00:03:26,250 --> 00:03:29,220
+And in order to provide an
+unbiased estimate you do
+
+80
+00:03:29,220 --> 00:03:31,360
+something very similar
+to here but you end up
+
+81
+00:03:31,360 --> 00:03:32,710
+dividing by n minus 1.
+
+82
+00:03:32,710 --> 00:03:34,340
+So let me write that down.
+
+83
+00:03:34,340 --> 00:03:36,990
+So the variance of a
+population-- I'm sorry, the
+
+84
+00:03:36,990 --> 00:03:40,610
+variance of a sample or samples
+variance or unbiased sample
+
+85
+00:03:40,610 --> 00:03:43,530
+variance if that's why we're
+going to divide by n minus 1.
+
+86
+00:03:43,530 --> 00:03:46,450
+That's denoted by s squared.
+
+87
+00:03:46,450 --> 00:03:49,220
+What you do is you take the
+difference between each of the
+
+88
+00:03:49,220 --> 00:03:53,690
+data points in the sample
+minus the sample mean.
+
+89
+00:03:53,690 --> 00:03:56,080
+We assume that we don't
+know the population mean.
+
+90
+00:03:56,080 --> 00:03:57,520
+Maybe we did.
+
+91
+00:03:57,520 --> 00:04:00,230
+If we knew the population mean
+we actually wouldn't have to do
+
+92
+00:04:00,230 --> 00:04:01,965
+the unbiased thing they were
+going to do here in
+
+93
+00:04:01,965 --> 00:04:02,760
+the denominator.
+
+94
+00:04:02,760 --> 00:04:05,640
+But when you have a sample the
+only way to kind of figure out
+
+95
+00:04:05,640 --> 00:04:08,100
+the population mean is to
+estimate it with sample mean.
+
+96
+00:04:08,100 --> 00:04:11,020
+So we assume that we only
+have the sample mean.
+
+97
+00:04:11,020 --> 00:04:13,410
+And you're going to square
+those and then you're going to
+
+98
+00:04:13,410 --> 00:04:20,550
+sum them up from i is equal to
+1 to i is equal to n because
+
+99
+00:04:20,550 --> 00:04:21,800
+you have n data points.
+
+100
+00:04:21,800 --> 00:04:24,440
+And if you want an unbiased
+estimator you divide
+
+101
+00:04:24,440 --> 00:04:27,100
+by n minus 1.
+
+102
+00:04:27,100 --> 00:04:29,570
+And we talked a little bit
+before why you want this to be
+
+103
+00:04:29,570 --> 00:04:30,880
+a n minus 1 instead of a n.
+
+104
+00:04:30,880 --> 00:04:32,960
+And actually in a couple
+of videos I'll actually
+
+105
+00:04:32,960 --> 00:04:34,290
+prove this to you.
+
+106
+00:04:34,290 --> 00:04:37,470
+One, I'll prove it maybe
+experimentally using Excel and
+
+107
+00:04:37,470 --> 00:04:39,470
+then I'll-- which wouldn't be a
+proof, it'll just give you a
+
+108
+00:04:39,470 --> 00:04:41,330
+little bit of intuition-- and
+then I'll actually prove
+
+109
+00:04:41,330 --> 00:04:42,870
+it a little bit more
+formally later on.
+
+110
+00:04:42,870 --> 00:04:45,110
+But you don't have to
+worry about it right now.
+
+111
+00:04:45,110 --> 00:04:47,620
+The next thing we'll learn is
+something that you've probably
+
+112
+00:04:47,620 --> 00:04:50,880
+heard a lot of, especially
+sometimes in class, teachers
+
+113
+00:04:50,880 --> 00:04:54,580
+talk about the standard
+deviation of a test or-- it's
+
+114
+00:04:54,580 --> 00:04:58,380
+actually probably one of the
+most use words in statistics.
+
+115
+00:04:58,380 --> 00:05:02,900
+I think a lot of people
+unfortunately maybe use it or
+
+116
+00:05:02,900 --> 00:05:06,710
+maybe use it without fully
+appreciating everything
+
+117
+00:05:06,710 --> 00:05:08,240
+that it involves.
+
+118
+00:05:08,240 --> 00:05:12,020
+But the goal we'll eventually
+hopefully appreciate
+
+119
+00:05:12,020 --> 00:05:15,020
+all that involves soon.
+
+120
+00:05:15,020 --> 00:05:21,830
+But the standard deviation--
+and once you know variance it's
+
+121
+00:05:21,830 --> 00:05:23,200
+actually quite straightforward.
+
+122
+00:05:23,200 --> 00:05:26,660
+It's the square root
+of the variance.
+
+123
+00:05:26,660 --> 00:05:31,570
+So the standard deviation of a
+population is written as sigma
+
+124
+00:05:31,570 --> 00:05:35,440
+which is equal to the square
+root of the variance.
+
+125
+00:05:35,440 --> 00:05:37,980
+And now I think you understand
+why a variance is written
+
+126
+00:05:37,980 --> 00:05:39,960
+as sigma squared.
+
+127
+00:05:39,960 --> 00:05:42,680
+And that is equal to just the
+square root of all that.
+
+128
+00:05:42,680 --> 00:05:45,310
+It's equal to the square root--
+I'll probably run out of
+
+129
+00:05:45,310 --> 00:05:46,410
+space-- of all of that.
+
+130
+00:05:46,410 --> 00:05:49,790
+So the sum-- I won't write at
+the top or the bottom, that
+
+131
+00:05:49,790 --> 00:05:58,400
+makes it messy-- if xi minus Mu
+squared, everything over n.
+
+132
+00:05:58,400 --> 00:06:00,560
+And then if you wanted the
+standard deviation of a
+
+133
+00:06:00,560 --> 00:06:04,020
+sample-- and it actually gets a
+little bit interesting because
+
+134
+00:06:04,020 --> 00:06:06,670
+the standard deviation of a
+sample, which is equal to the
+
+135
+00:06:06,670 --> 00:06:10,030
+square root of the variance of
+a sample-- it actually turned
+
+136
+00:06:10,030 --> 00:06:12,770
+out that this is not an
+unbiased estimator for this--
+
+137
+00:06:12,770 --> 00:06:15,150
+and I don't want to get to
+technical for it right now--
+
+138
+00:06:15,150 --> 00:06:18,870
+that this is actually a very
+good estimate of this.
+
+139
+00:06:18,870 --> 00:06:21,370
+The expected value of this
+is going to be this.
+
+140
+00:06:21,370 --> 00:06:26,380
+And I'll go into more depth on
+expected values in the future.
+
+141
+00:06:26,380 --> 00:06:29,230
+But it turns out that this
+is not quite the same
+
+142
+00:06:29,230 --> 00:06:30,940
+expected value as this.
+
+143
+00:06:30,940 --> 00:06:32,790
+But you don't have to
+worry about it for now.
+
+144
+00:06:32,790 --> 00:06:35,740
+So why even talk about
+the standard deviation?
+
+145
+00:06:35,740 --> 00:06:38,320
+Well, one, the units work
+out a little better.
+
+146
+00:06:38,320 --> 00:06:40,310
+If let's say all of our
+data points were measured
+
+147
+00:06:40,310 --> 00:06:41,180
+in meters, right?
+
+148
+00:06:41,180 --> 00:06:44,880
+If we were taking a bunch of
+measurements of length then
+
+149
+00:06:44,880 --> 00:06:47,110
+the units of the variance
+would be meter squared.
+
+150
+00:06:47,110 --> 00:06:47,380
+right?
+
+151
+00:06:47,380 --> 00:06:49,210
+Because we're taking
+meters minus meters.
+
+152
+00:06:49,210 --> 00:06:49,810
+This would be a meter.
+
+153
+00:06:49,810 --> 00:06:50,400
+Then you're squaring.
+
+154
+00:06:50,400 --> 00:06:52,130
+You're getting meters squared.
+
+155
+00:06:52,130 --> 00:06:54,350
+And that's kind of a strange
+concept if you say you know the
+
+156
+00:06:54,350 --> 00:06:57,790
+average dispersion from the
+center is in meter squares.
+
+157
+00:06:57,790 --> 00:07:00,120
+Well first, when you take the
+square root of it you get
+
+158
+00:07:00,120 --> 00:07:02,750
+this-- you get something
+that's again in meters.
+
+159
+00:07:02,750 --> 00:07:05,240
+So you're kind of saying, oh
+well the standard deviation
+
+160
+00:07:05,240 --> 00:07:07,400
+is x or y meters.
+
+161
+00:07:07,400 --> 00:07:09,470
+And then we'll learn a little
+bit it if you can actually
+
+162
+00:07:09,470 --> 00:07:13,320
+model your data as a bell curve
+or if you assume that your data
+
+163
+00:07:13,320 --> 00:07:16,030
+has a distribution of a bell
+curve then this tells you some
+
+164
+00:07:16,030 --> 00:07:20,270
+interesting things about where
+all of the probability of
+
+165
+00:07:20,270 --> 00:07:22,600
+finding someone within one or
+two standard deviations
+
+166
+00:07:22,600 --> 00:07:24,260
+of the of the mean.
+
+167
+00:07:24,260 --> 00:07:26,250
+But anyway, I don't want to
+go to technical right now.
+
+168
+00:07:26,250 --> 00:07:28,910
+Let's just calculate a bunch.
+
+169
+00:07:28,910 --> 00:07:31,380
+Let's calculate.
+
+170
+00:07:31,380 --> 00:07:36,800
+Let's see, if I had numbers
+1, 2, 3, 8, and 7.
+
+171
+00:07:36,800 --> 00:07:38,490
+And let's say that
+this is a population.
+
+172
+00:07:38,490 --> 00:07:40,820
+So what would its mean be?
+
+173
+00:07:40,820 --> 00:07:44,100
+So I have 1 plus 2 plus 3.
+
+174
+00:07:44,100 --> 00:07:46,930
+So it's 3 plus 3 is 6.
+
+175
+00:07:46,930 --> 00:07:49,100
+6 plus 8 is 14.
+
+176
+00:07:49,100 --> 00:07:51,490
+14 plus 7 is 21.
+
+177
+00:07:51,490 --> 00:07:53,620
+So the mean of this
+population-- you sum up
+
+178
+00:07:53,620 --> 00:07:54,450
+all the data points.
+
+179
+00:07:54,450 --> 00:07:58,943
+You get 21 divided by the
+total number of data
+
+180
+00:07:58,943 --> 00:08:01,270
+points, 1, 2, 3, 4, 5.
+
+181
+00:08:01,270 --> 00:08:03,440
+21 divided by 5 which
+is equal to what?
+
+182
+00:08:03,440 --> 00:08:05,960
+4.2.
+
+183
+00:08:05,960 --> 00:08:07,280
+Fair enough.
+
+184
+00:08:07,280 --> 00:08:09,750
+Now we want to figure
+out the variance.
+
+185
+00:08:09,750 --> 00:08:12,600
+And we're assuming that this
+is the entire population.
+
+186
+00:08:12,600 --> 00:08:15,350
+So the variance of this
+population is going to be equal
+
+187
+00:08:15,350 --> 00:08:18,600
+to the sum of the squared
+differences of each of
+
+188
+00:08:18,600 --> 00:08:19,990
+these numbers from 4.2.
+
+189
+00:08:19,990 --> 00:08:22,140
+I'm going to have to
+get my calculator out.
+
+190
+00:08:22,140 --> 00:08:30,720
+So it's going to be 1 minus
+4.2 squared plus 2 minus 4.2
+
+191
+00:08:30,720 --> 00:08:39,940
+squared plus 3 minus 4.2
+squared plus 8 minus
+
+192
+00:08:39,940 --> 00:08:47,342
+4.2 squared plus 7
+minus 4.2 squared.
+
+193
+00:08:47,342 --> 00:08:50,210
+And it's going to be all of
+that-- I know it looks a little
+
+194
+00:08:50,210 --> 00:08:51,990
+bit funny-- divided by the
+number of data points we
+
+195
+00:08:51,990 --> 00:08:55,640
+have-- divided by 5.
+
+196
+00:08:55,640 --> 00:08:59,920
+So let me take the
+calculator out.
+
+197
+00:08:59,920 --> 00:09:02,060
+All right.
+
+198
+00:09:02,060 --> 00:09:03,350
+Here we go.
+
+199
+00:09:03,350 --> 00:09:05,000
+Actually maybe I should
+have used the graphing
+
+200
+00:09:05,000 --> 00:09:08,270
+calculator that I have.
+
+201
+00:09:08,270 --> 00:09:13,030
+Let me see if I can get this
+thing-- if I could get this.
+
+202
+00:09:13,030 --> 00:09:19,780
+   
+
+203
+00:09:19,780 --> 00:09:20,220
+There you go.
+
+204
+00:09:20,220 --> 00:09:22,920
+Yeah, I think the graphing
+one will be better because
+
+205
+00:09:22,920 --> 00:09:25,050
+I can see everything
+that I'm writing.
+
+206
+00:09:25,050 --> 00:09:27,050
+OK, so let me clear this.
+
+207
+00:09:27,050 --> 00:09:43,210
+So I want to take 1 minus 4.2
+squared plus 2 minus 4.2
+
+208
+00:09:43,210 --> 00:09:58,940
+squared plus 3 minus 4.2
+squared plus 8 minus 4.2
+
+209
+00:09:58,940 --> 00:10:01,320
+squared, where I'm just taking
+the sum of the squared
+
+210
+00:10:01,320 --> 00:10:05,910
+distances from the mean
+squared, one more, plus
+
+211
+00:10:05,910 --> 00:10:10,510
+7 minus 4.2 squared.
+
+212
+00:10:10,510 --> 00:10:12,650
+So that's the sum.
+
+213
+00:10:12,650 --> 00:10:13,660
+The sum is 38.8.
+
+214
+00:10:13,660 --> 00:10:18,850
+So the numerator is going to be
+equal to 38.8 divided by 5.
+
+215
+00:10:18,850 --> 00:10:21,410
+So this is the sum of the
+squared distances, right?
+
+216
+00:10:21,410 --> 00:10:24,300
+Each of these-- just so you can
+relate to the formula-- each
+
+217
+00:10:24,300 --> 00:10:28,500
+of that is xi minus
+the mean squared.
+
+218
+00:10:28,500 --> 00:10:32,510
+And so if we take the sum of
+all of them-- this numerator is
+
+219
+00:10:32,510 --> 00:10:39,940
+the sum of each of the xi minus
+the mean squared from
+
+220
+00:10:39,940 --> 00:10:42,810
+i equals 1 to n.
+
+221
+00:10:42,810 --> 00:10:45,230
+And that ended up to be 38.8.
+
+222
+00:10:45,230 --> 00:10:46,550
+And I just calculated
+like that.
+
+223
+00:10:46,550 --> 00:10:48,610
+I just took each to the
+data points minus the mean
+
+224
+00:10:48,610 --> 00:10:51,650
+squared, add them all
+up, and I got 38.8.
+
+225
+00:10:51,650 --> 00:10:53,920
+And I went and divided
+by n which is 5.
+
+226
+00:10:53,920 --> 00:10:56,970
+So this n up here is
+actually also 5.
+
+227
+00:10:56,970 --> 00:10:57,920
+Right?
+
+228
+00:10:57,920 --> 00:11:08,985
+And so 38.8 divided
+by 5 is 7.76.
+
+229
+00:11:08,985 --> 00:11:14,280
+So the variance-- let me scroll
+down a little bit-- the
+
+230
+00:11:14,280 --> 00:11:19,130
+variance is equal to 7.76.
+
+231
+00:11:19,130 --> 00:11:23,020
+Now if this was a sample of a
+larger distribution, if this
+
+232
+00:11:23,020 --> 00:11:26,760
+was a sample-- if the 1, 2,
+3, 8, and 7, weren't the
+
+233
+00:11:26,760 --> 00:11:30,800
+population-- if it was a sample
+from a larger population,
+
+234
+00:11:30,800 --> 00:11:33,470
+instead of dividing by 5 we
+would have divided by 4.
+
+235
+00:11:33,470 --> 00:11:42,180
+And we would have gotten the
+variance as 38.8 divided by n
+
+236
+00:11:42,180 --> 00:11:45,090
+minus 1, which is divided by 4.
+
+237
+00:11:45,090 --> 00:11:47,280
+So then we would have gotten
+the variance-- we would have
+
+238
+00:11:47,280 --> 00:11:50,760
+gotten the sample variance
+9.7 if you divided by n
+
+239
+00:11:50,760 --> 00:11:52,070
+minus 1 instead of n.
+
+240
+00:11:52,070 --> 00:11:53,350
+But anyway, don't worry
+about that right now.
+
+241
+00:11:53,350 --> 00:11:54,530
+That's just a change of n.
+
+242
+00:11:54,530 --> 00:11:56,190
+But once you have the variance,
+it's very easy to figure
+
+243
+00:11:56,190 --> 00:11:57,960
+out the standard deviation.
+
+244
+00:11:57,960 --> 00:11:59,900
+You just take the
+square root of it.
+
+245
+00:11:59,900 --> 00:12:09,710
+The square root of 7.76-- 2.78.
+
+246
+00:12:09,710 --> 00:12:12,900
+Let's say 2.79 is the
+standard deviation.
+
+247
+00:12:12,900 --> 00:12:16,300
+So this gives us some measure
+of, on average, how far
+
+248
+00:12:16,300 --> 00:12:21,040
+the numbers are away from
+the mean which was 4.2.
+
+249
+00:12:21,040 --> 00:12:23,460
+And it gives it in kind
+of the units of the
+
+250
+00:12:23,460 --> 00:12:24,460
+original measurement.
+
+251
+00:12:24,460 --> 00:12:26,050
+Anyway, I'm all out of time.
+
+252
+00:12:26,050 --> 00:12:26,990
+I'll see you in the next video.
+
+253
+00:12:26,990 --> 00:12:32,500
+Or actually, let's figure out--
+we said if this was a sample,
+
+254
+00:12:32,500 --> 00:12:35,700
+if those numbers were sample
+and not the population, that
+
+255
+00:12:35,700 --> 00:12:40,540
+we figured out that the
+sample variance was 9.7.
+
+256
+00:12:40,540 --> 00:12:43,830
+And so then the sample standard
+deviation is just going to
+
+257
+00:12:43,830 --> 00:12:45,690
+be the square root of that.
+
+258
+00:12:45,690 --> 00:12:52,430
+The square root of 9.7
+seven which would be 3.1.
+
+259
+00:12:52,430 --> 00:12:54,450
+3.11.
+
+260
+00:12:54,450 --> 00:12:56,350
+Anyway, hopefully that makes it
+a little bit more concrete.
+
+261
+00:12:56,350 --> 00:12:59,060
+We've been dealing with these
+sigma notation variables
+
+262
+00:12:59,060 --> 00:12:59,940
+and all that so far.
+
+263
+00:12:59,940 --> 00:13:01,630
+So when you actually do it
+with numbers you see it's
+
+264
+00:13:01,630 --> 00:13:03,860
+hopefully not that difficult.
+
+265
+00:13:03,860 --> 00:13:06,060
+Anyway, see you in
+the next video.
+
+266
+00:13:06,060 --> 00:13:06,400
+

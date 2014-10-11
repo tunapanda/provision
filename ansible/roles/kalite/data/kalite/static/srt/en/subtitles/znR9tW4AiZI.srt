@@ -1,0 +1,983 @@
+1
+00:00:00,000 --> 00:00:01,180
+   
+
+2
+00:00:01,180 --> 00:00:03,150
+We're now going to do a few
+examples to actually show
+
+3
+00:00:03,150 --> 00:00:06,320
+you why the trig functions
+are actually useful.
+
+4
+00:00:06,320 --> 00:00:08,760
+So let's get started
+with a problem.
+
+5
+00:00:08,760 --> 00:00:11,065
+Let's say I have this
+right triangle.
+
+6
+00:00:11,065 --> 00:00:15,860
+   
+
+7
+00:00:15,860 --> 00:00:17,040
+That's my right triangle.
+
+8
+00:00:17,040 --> 00:00:20,990
+   
+
+9
+00:00:20,990 --> 00:00:22,470
+There's the right angle.
+
+10
+00:00:22,470 --> 00:00:25,950
+And let's say I know that
+the measure of this angle
+
+11
+00:00:25,950 --> 00:00:31,710
+is pi over 4 radians.
+
+12
+00:00:31,710 --> 00:00:33,980
+And I'll just write
+rad for short.
+
+13
+00:00:33,980 --> 00:00:37,230
+If the measure of this angle is
+pi over 4 radians, and I also
+
+14
+00:00:37,230 --> 00:00:40,900
+know that this side of the
+triangle-- this side right
+
+15
+00:00:40,900 --> 00:00:48,080
+here-- is 10 square roots of 2.
+
+16
+00:00:48,080 --> 00:00:51,970
+So I know this side
+of the triangle.
+
+17
+00:00:51,970 --> 00:00:54,690
+I know this angle, which
+is pi over 4 radians.
+
+18
+00:00:54,690 --> 00:01:00,420
+And now, the question is, what
+is this side of the triangle?
+
+19
+00:01:00,420 --> 00:01:01,410
+I'm going to highlight that.
+
+20
+00:01:01,410 --> 00:01:03,680
+And let me make it in orange.
+
+21
+00:01:03,680 --> 00:01:06,190
+   
+
+22
+00:01:06,190 --> 00:01:07,900
+So let's figure out what
+we know and what we
+
+23
+00:01:07,900 --> 00:01:09,390
+need to figure out.
+
+24
+00:01:09,390 --> 00:01:11,500
+We know the angle,
+pi over 4 radians.
+
+25
+00:01:11,500 --> 00:01:13,970
+And actually, turns out if
+you were to convert that
+
+26
+00:01:13,970 --> 00:01:16,290
+to degrees, it would
+be 45 degrees.
+
+27
+00:01:16,290 --> 00:01:18,120
+And we know-- what
+side is this?
+
+28
+00:01:18,120 --> 00:01:21,440
+This is the hypotenuse
+of the triangle, right?
+
+29
+00:01:21,440 --> 00:01:23,130
+And what are we trying
+to figure out?
+
+30
+00:01:23,130 --> 00:01:26,720
+Are we trying to figure out
+the hypotenuse, the adjacent
+
+31
+00:01:26,720 --> 00:01:30,390
+side to the angle, or the
+opposite side to the angle?
+
+32
+00:01:30,390 --> 00:01:32,540
+Well, this is the hypotenuse,
+we already know that.
+
+33
+00:01:32,540 --> 00:01:33,430
+This is the opposite side.
+
+34
+00:01:33,430 --> 00:01:39,510
+   
+
+35
+00:01:39,510 --> 00:01:41,090
+This is the opposite side.
+
+36
+00:01:41,090 --> 00:01:43,080
+And this yellow side is
+the adjacent side, right?
+
+37
+00:01:43,080 --> 00:01:45,260
+It's just adjacent
+to this angle.
+
+38
+00:01:45,260 --> 00:01:50,150
+So we know the angle, we know
+the hypotenuse, and we want to
+
+39
+00:01:50,150 --> 00:01:52,060
+figure out the adjacent side.
+
+40
+00:01:52,060 --> 00:01:54,240
+So let me ask you a question.
+
+41
+00:01:54,240 --> 00:01:58,910
+What trig function deals
+with the adjacent side
+
+42
+00:01:58,910 --> 00:02:00,360
+and the hypotenuse?
+
+43
+00:02:00,360 --> 00:02:01,620
+Because we have the adjacent
+side is what we want
+
+44
+00:02:01,620 --> 00:02:04,005
+to figure out, and we
+know the hypotenuse.
+
+45
+00:02:04,005 --> 00:02:05,770
+Well, let's write down
+our mnemonic, just in
+
+46
+00:02:05,770 --> 00:02:08,390
+case you forgot it.
+
+47
+00:02:08,390 --> 00:02:08,836
+SOHCAHTOA.
+
+48
+00:02:08,836 --> 00:02:16,820
+   
+
+49
+00:02:16,820 --> 00:02:19,650
+So which one uses
+adjacent and hypotenuse?
+
+50
+00:02:19,650 --> 00:02:19,990
+Right?
+
+51
+00:02:19,990 --> 00:02:21,750
+It's CAH.
+
+52
+00:02:21,750 --> 00:02:24,770
+And CAH, the c is for what?
+
+53
+00:02:24,770 --> 00:02:27,150
+The c is for cosine.
+
+54
+00:02:27,150 --> 00:02:30,980
+Cosine of an angle-- let's just
+call it any angle-- is equal to
+
+55
+00:02:30,980 --> 00:02:35,870
+the adjacent over
+the hypotenuse.
+
+56
+00:02:35,870 --> 00:02:40,460
+So let's use this information
+to try to solve for this orange
+
+57
+00:02:40,460 --> 00:02:42,790
+side, or this yellow side.
+
+58
+00:02:42,790 --> 00:02:48,350
+So we know that cosine of pi
+over 4 radians-- so let's say
+
+59
+00:02:48,350 --> 00:02:55,580
+cosine of pi over 4-- must
+equal this adjacent
+
+60
+00:02:55,580 --> 00:02:56,820
+side right here.
+
+61
+00:02:56,820 --> 00:03:00,190
+Let's just call that
+a. a for adjacent.
+
+62
+00:03:00,190 --> 00:03:04,030
+The adjacent side divided
+by the hypotenuse.
+
+63
+00:03:04,030 --> 00:03:05,540
+The hypotenuse is this side.
+
+64
+00:03:05,540 --> 00:03:07,590
+And in the problem, we
+were given that it's
+
+65
+00:03:07,590 --> 00:03:08,730
+10 square roots of 2.
+
+66
+00:03:08,730 --> 00:03:15,250
+   
+
+67
+00:03:15,250 --> 00:03:17,790
+So we can solve for a by
+multiplying both sides of
+
+68
+00:03:17,790 --> 00:03:20,130
+this equation by 10
+square roots of 2.
+
+69
+00:03:20,130 --> 00:03:22,180
+And we will get--
+because, right?
+
+70
+00:03:22,180 --> 00:03:25,650
+If we just multiply times
+10 square root of 2,
+
+71
+00:03:25,650 --> 00:03:26,580
+these cancel out.
+
+72
+00:03:26,580 --> 00:03:29,650
+And then you get a 10
+square root of 2 here.
+
+73
+00:03:29,650 --> 00:03:37,840
+So you get a is equal to 10
+square roots of 2 times
+
+74
+00:03:37,840 --> 00:03:42,710
+the cosine of pi over 4.
+
+75
+00:03:42,710 --> 00:03:45,860
+Now you're probably saying,
+Sal, this does not look too
+
+76
+00:03:45,860 --> 00:03:50,170
+simple, and I don't know how
+big the cosine of pi over 4 is.
+
+77
+00:03:50,170 --> 00:03:51,450
+What do I do?
+
+78
+00:03:51,450 --> 00:03:54,650
+Well, no one has the trig
+functions, or the values of
+
+79
+00:03:54,650 --> 00:03:56,450
+the trig functions memorized.
+
+80
+00:03:56,450 --> 00:03:57,730
+There's a couple
+of ways to do it.
+
+81
+00:03:57,730 --> 00:04:00,710
+Either I could give you what
+the cosine of pi over 4 is.
+
+82
+00:04:00,710 --> 00:04:02,270
+That's sometimes
+given in a problem.
+
+83
+00:04:02,270 --> 00:04:05,400
+Or you can make sure that your
+calculator is set to radians
+
+84
+00:04:05,400 --> 00:04:09,400
+and you can just type in pi
+divided by 4-- which is roughly
+
+85
+00:04:09,400 --> 00:04:12,530
+0.79-- and then press
+the cosine button.
+
+86
+00:04:12,530 --> 00:04:13,960
+You finally know
+what it's good for.
+
+87
+00:04:13,960 --> 00:04:15,250
+And you'll get a value.
+
+88
+00:04:15,250 --> 00:04:17,370
+Or-- and this is kind of the
+old school way of doing it--
+
+89
+00:04:17,370 --> 00:04:20,554
+there are trig tables where
+you could look up what cosine
+
+90
+00:04:20,554 --> 00:04:22,540
+of pi over 4 is in a table.
+
+91
+00:04:22,540 --> 00:04:25,430
+Since I don't have any of that
+at my disposal right now,
+
+92
+00:04:25,430 --> 00:04:29,040
+I'll just tell you what the
+cosine of pi over 4 is.
+
+93
+00:04:29,040 --> 00:04:35,760
+The cosine of pi over 4 is
+square root of 2 over 2.
+
+94
+00:04:35,760 --> 00:04:39,970
+So a, which is the adjacent
+side-- a for adjacent-- is
+
+95
+00:04:39,970 --> 00:04:46,470
+equal to 10 square roots of 2
+times square root of 2 over 2.
+
+96
+00:04:46,470 --> 00:04:48,750
+Remember, to get the square
+root of 2 over 2, you might
+
+97
+00:04:48,750 --> 00:04:49,330
+be a little confused.
+
+98
+00:04:49,330 --> 00:04:51,210
+You're like, how
+did Sal get that?
+
+99
+00:04:51,210 --> 00:04:54,420
+All I said is, the cosine
+of pi over 4 is square
+
+100
+00:04:54,420 --> 00:04:55,090
+root of 2 over 2.
+
+101
+00:04:55,090 --> 00:04:57,010
+And that's not something that--
+well, actually, this one you
+
+102
+00:04:57,010 --> 00:04:59,420
+might know offhand, because
+of the 45 degree angle.
+
+103
+00:04:59,420 --> 00:05:01,490
+But this isn't something
+that people memorize.
+
+104
+00:05:01,490 --> 00:05:03,275
+This is something you would
+look up, or it's given in
+
+105
+00:05:03,275 --> 00:05:05,660
+the problem, or you'd
+use a calculator for.
+
+106
+00:05:05,660 --> 00:05:07,610
+And a calculator, of course,
+wouldn't give you square
+
+107
+00:05:07,610 --> 00:05:08,020
+root of 2 over 2.
+
+108
+00:05:08,020 --> 00:05:11,910
+It'd give you a decimal
+number that's not obviously
+
+109
+00:05:11,910 --> 00:05:13,180
+square root of 2 over 2.
+
+110
+00:05:13,180 --> 00:05:15,800
+But anyway, I told you that the
+cosine of pi over 4 is the
+
+111
+00:05:15,800 --> 00:05:17,310
+square root of 2 over 2.
+
+112
+00:05:17,310 --> 00:05:20,050
+And so if we multiply, what's
+the square root of 2 over 2?
+
+113
+00:05:20,050 --> 00:05:22,560
+What's the square root of 2
+times the square root of 2?
+
+114
+00:05:22,560 --> 00:05:23,140
+It's 2.
+
+115
+00:05:23,140 --> 00:05:26,690
+So that's 2, and then that
+cancels with that 2.
+
+116
+00:05:26,690 --> 00:05:29,570
+And so everything cancels
+except for the 10.
+
+117
+00:05:29,570 --> 00:05:32,340
+So the adjacent side
+is equal to 10.
+
+118
+00:05:32,340 --> 00:05:35,230
+   
+
+119
+00:05:35,230 --> 00:05:36,140
+Let's do another one.
+
+120
+00:05:36,140 --> 00:05:43,200
+   
+
+121
+00:05:43,200 --> 00:05:45,230
+Let me delete this.
+
+122
+00:05:45,230 --> 00:05:50,260
+   
+
+123
+00:05:50,260 --> 00:05:52,180
+Give me 1 second.
+
+124
+00:05:52,180 --> 00:05:54,550
+I'm actually-- this is one of
+the few modules that I'm not
+
+125
+00:05:54,550 --> 00:05:56,770
+generating the problems on the
+fly, because I need to make
+
+126
+00:05:56,770 --> 00:05:59,200
+sure that I actually have
+the trig function values
+
+127
+00:05:59,200 --> 00:06:00,920
+before I do the problem.
+
+128
+00:06:00,920 --> 00:06:05,820
+So let's say I have
+another right triangle.
+
+129
+00:06:05,820 --> 00:06:07,470
+I probably shouldn't have
+deleted that last one.
+
+130
+00:06:07,470 --> 00:06:11,320
+So let's see, this is
+my right triangle.
+
+131
+00:06:11,320 --> 00:06:13,350
+How much time do I have--
+about 4 minutes left.
+
+132
+00:06:13,350 --> 00:06:14,700
+Should be enough.
+
+133
+00:06:14,700 --> 00:06:16,880
+So this is my right triangle.
+
+134
+00:06:16,880 --> 00:06:23,470
+And I know the angle--
+let's call this--.
+
+135
+00:06:23,470 --> 00:06:29,970
+I know this angle right
+here is 0.54 radians.
+
+136
+00:06:29,970 --> 00:06:38,240
+And I also know that this side
+right here is 3 units long.
+
+137
+00:06:38,240 --> 00:06:42,680
+And I want to figure
+out this side.
+
+138
+00:06:42,680 --> 00:06:45,390
+So what do I know?
+
+139
+00:06:45,390 --> 00:06:49,300
+Well, this side is what side
+relative to the angle?
+
+140
+00:06:49,300 --> 00:06:50,930
+It's the opposite side, right?
+
+141
+00:06:50,930 --> 00:06:52,760
+Because the angle is here, and
+we go opposite the angle.
+
+142
+00:06:52,760 --> 00:06:55,110
+So this is the opposite side.
+
+143
+00:06:55,110 --> 00:06:56,080
+And what's this side?
+
+144
+00:06:56,080 --> 00:06:59,220
+Is this the adjacent side,
+or is it the hypotenuse?
+
+145
+00:06:59,220 --> 00:07:00,370
+Well, this is the
+hypotenuse, right?
+
+146
+00:07:00,370 --> 00:07:02,600
+The long side, and it's
+opposite the right angle.
+
+147
+00:07:02,600 --> 00:07:05,070
+So this is the adjacent side.
+
+148
+00:07:05,070 --> 00:07:08,510
+So what trig function uses
+opposite and adjacent?
+
+149
+00:07:08,510 --> 00:07:10,400
+Let's write down
+SOHCAHTOA again.
+
+150
+00:07:10,400 --> 00:07:10,760
+SOHCAHTOA.
+
+151
+00:07:10,760 --> 00:07:15,220
+   
+
+152
+00:07:15,220 --> 00:07:17,160
+TOA uses opposite and adjacent.
+
+153
+00:07:17,160 --> 00:07:17,420
+OA.
+
+154
+00:07:17,420 --> 00:07:20,620
+   
+
+155
+00:07:20,620 --> 00:07:22,540
+So T for tangent, right?
+
+156
+00:07:22,540 --> 00:07:23,840
+TOA.
+
+157
+00:07:23,840 --> 00:07:30,280
+So tangent is equal to
+opposite over adjacent.
+
+158
+00:07:30,280 --> 00:07:31,520
+So let's use that.
+
+159
+00:07:31,520 --> 00:07:35,040
+So let's take the tangent
+of 0.54 radians.
+
+160
+00:07:35,040 --> 00:07:44,320
+So the tangent of 0.54 will
+equal the side opposite to it.
+
+161
+00:07:44,320 --> 00:07:46,600
+So that's 3, right?
+
+162
+00:07:46,600 --> 00:07:48,070
+The opposite side is 3.
+
+163
+00:07:48,070 --> 00:07:49,750
+Over the adjacent side.
+
+164
+00:07:49,750 --> 00:07:51,550
+Well, once again, the adjacent
+side is what we don't know.
+
+165
+00:07:51,550 --> 00:07:55,520
+So we have to solve for a.
+
+166
+00:07:55,520 --> 00:08:03,020
+So if we multiply both sides
+by a, we get a tan of 0.54--
+
+167
+00:08:03,020 --> 00:08:08,860
+we could do that because we
+know it's not 0-- equals 3.
+
+168
+00:08:08,860 --> 00:08:18,240
+Or a is equal to 3 divided
+by the tangent of 0.54.
+
+169
+00:08:18,240 --> 00:08:22,500
+So once again, I don't have
+memorized what the tangent of
+
+170
+00:08:22,500 --> 00:08:29,770
+0.54 is, but I will tell you
+what it is because you also
+
+171
+00:08:29,770 --> 00:08:30,480
+don't have it memorized.
+
+172
+00:08:30,480 --> 00:08:31,990
+Or you could use a calculator
+to figure it out if you
+
+173
+00:08:31,990 --> 00:08:34,060
+had a radian function.
+
+174
+00:08:34,060 --> 00:08:39,730
+The tangent of 0.54 is equal
+to-- let me make sure
+
+175
+00:08:39,730 --> 00:08:41,080
+I have this right.
+
+176
+00:08:41,080 --> 00:08:41,960
+Oh, right.
+
+177
+00:08:41,960 --> 00:08:45,270
+The tangent of 0.54 is 3/5.
+
+178
+00:08:45,270 --> 00:08:51,830
+So then a is equal
+to 3 over 3/5.
+
+179
+00:08:51,830 --> 00:08:54,500
+   
+
+180
+00:08:54,500 --> 00:08:56,850
+Right, the adjacent side--
+now, once again, how
+
+181
+00:08:56,850 --> 00:08:57,810
+did I get this 3/5?
+
+182
+00:08:57,810 --> 00:08:58,820
+Well, I just told you.
+
+183
+00:08:58,820 --> 00:09:00,200
+Or you can use a calculator
+to know that the
+
+184
+00:09:00,200 --> 00:09:03,250
+tangent of 0.54 is 3/5.
+
+185
+00:09:03,250 --> 00:09:05,130
+And of course, I'm using
+numbers that work out
+
+186
+00:09:05,130 --> 00:09:07,400
+well, just so that the
+fractions all cancel.
+
+187
+00:09:07,400 --> 00:09:09,580
+So we know that the adjacent
+side is equal to-- when you
+
+188
+00:09:09,580 --> 00:09:12,550
+divide by fractions, it's like
+multiplying by the numerator.
+
+189
+00:09:12,550 --> 00:09:14,420
+Multiplying by the inverse.
+
+190
+00:09:14,420 --> 00:09:17,430
+So times 5/3.
+
+191
+00:09:17,430 --> 00:09:20,370
+So the adjacent side
+is equal to 5.
+
+192
+00:09:20,370 --> 00:09:21,120
+There.
+
+193
+00:09:21,120 --> 00:09:21,930
+There you go.
+
+194
+00:09:21,930 --> 00:09:23,870
+So let's just think
+about what I always do.
+
+195
+00:09:23,870 --> 00:09:27,190
+I think about what I have,
+what sides I have, and what
+
+196
+00:09:27,190 --> 00:09:28,210
+side I want to solve for.
+
+197
+00:09:28,210 --> 00:09:30,130
+And in this case, it was the
+opposite side I had, and I
+
+198
+00:09:30,130 --> 00:09:31,740
+wanted to solve for
+the adjacent side.
+
+199
+00:09:31,740 --> 00:09:35,170
+And I said, what trig function
+involves those 2 sides?
+
+200
+00:09:35,170 --> 00:09:36,940
+The opposite and the adjacent.
+
+201
+00:09:36,940 --> 00:09:37,880
+I wrote down SOHCAHTOA.
+
+202
+00:09:37,880 --> 00:09:39,410
+I said, oh, TOA.
+
+203
+00:09:39,410 --> 00:09:40,370
+Opposite and adjacent.
+
+204
+00:09:40,370 --> 00:09:41,320
+That's tan.
+
+205
+00:09:41,320 --> 00:09:43,500
+So I took the tan of the angle.
+
+206
+00:09:43,500 --> 00:09:45,960
+And then I said, the tan of the
+angle is equal to the opposite
+
+207
+00:09:45,960 --> 00:09:47,820
+side divided by the
+adjacent side.
+
+208
+00:09:47,820 --> 00:09:48,780
+That's right here.
+
+209
+00:09:48,780 --> 00:09:50,430
+And then I just solved
+for the adjacent side.
+
+210
+00:09:50,430 --> 00:09:52,740
+And of course, I used a
+calculator, or I told you
+
+211
+00:09:52,740 --> 00:09:55,880
+what the tangent of 0.54 is.
+
+212
+00:09:55,880 --> 00:09:58,110
+I think I'll do a couple more
+of these problems in the next
+
+213
+00:09:58,110 --> 00:09:59,960
+module, but I'm out
+of time for now.
+
+214
+00:09:59,960 --> 00:10:01,480
+Have fun.
+
+215
+00:10:01,480 --> 00:10:02,500
+

@@ -1,0 +1,403 @@
+1
+00:00:00,037 --> 00:00:03,143
+We'll return back to 1770, and look at what
+
+2
+00:00:03,143 --> 00:00:07,173
+Leonard Euler said at the time.
+
+3
+00:00:07,173 --> 00:00:09,332
+"Mathematicians have tried in vain
+
+4
+00:00:09,332 --> 00:00:10,770
+to discover some order
+
+5
+00:00:10,770 --> 00:00:12,375
+in the sequence of prime numbers.
+
+6
+00:00:12,375 --> 00:00:13,828
+But we have every reason to believe
+
+7
+00:00:13,828 --> 00:00:15,035
+that there are some mysteries
+
+8
+00:00:15,035 --> 00:00:18,351
+which the human mind will never penetrate."
+
+9
+00:00:18,351 --> 00:00:19,419
+Okay?
+
+10
+00:00:19,419 --> 00:00:23,422
+And thirty years later, here's a quote from Gauss.
+
+11
+00:00:23,422 --> 00:00:25,578
+"The problem of distinguishing
+
+12
+00:00:25,578 --> 00:00:27,504
+prime numbers from composite numbers,
+
+13
+00:00:27,504 --> 00:00:29,192
+and resolving composite numbers into their
+
+14
+00:00:29,192 --> 00:00:31,313
+prime factors, is known as one of the most
+
+15
+00:00:31,313 --> 00:00:34,769
+important and useful [problems] in the arithmetic.
+
+16
+00:00:34,769 --> 00:00:38,359
+All methods that have been proposed thus far
+
+17
+00:00:38,359 --> 00:00:41,578
+are either restricted to very special cases,
+
+18
+00:00:41,578 --> 00:00:45,042
+or are so difficult that they try the patience
+
+19
+00:00:45,042 --> 00:00:48,026
+of even the practiced calculator.
+
+20
+00:00:48,026 --> 00:00:50,657
+The dignity of science itself seems to require
+
+21
+00:00:50,657 --> 00:00:53,140
+that every possible means be explored
+
+22
+00:00:53,140 --> 00:00:54,501
+for the solution of a problem
+
+23
+00:00:54,501 --> 00:00:58,145
+so elegant and so celebrated."
+
+24
+00:00:58,145 --> 00:00:59,510
+Wow!
+
+25
+00:00:59,510 --> 00:01:01,753
+So these two great thinkers have really
+
+26
+00:01:01,753 --> 00:01:04,561
+set the stage for the challenge ahead of us.
+
+27
+00:01:04,561 --> 00:01:08,308
+And now, I'm going to fast-forward to 2010,
+
+28
+00:01:08,308 --> 00:01:09,561
+and show you a paper
+
+29
+00:01:09,561 --> 00:01:11,573
+that came out of the 'RSA competition' --
+
+30
+00:01:11,573 --> 00:01:14,188
+which is a competition that no longer runs.
+
+31
+00:01:14,188 --> 00:01:16,275
+But the purpose of the competition was
+
+32
+00:01:16,275 --> 00:01:17,759
+to put out a large number and say,
+
+33
+00:01:17,759 --> 00:01:19,707
+"Can anyone factor it?"
+
+34
+00:01:19,707 --> 00:01:23,118
+So in 2010, this winning team
+
+35
+00:01:23,118 --> 00:01:26,500
+factored a 768-bit number.
+
+36
+00:01:26,500 --> 00:01:30,110
+(And that means it was a 232-digit number,
+
+37
+00:01:30,110 --> 00:01:32,179
+if you're thinking in base ten.)
+
+38
+00:01:32,179 --> 00:01:35,865
+So this team -- in 2010 -- they won the competition
+
+39
+00:01:35,865 --> 00:01:39,381
+by factoring a 232-digit number.
+
+40
+00:01:39,381 --> 00:01:44,152
+So that's how far we have come from Euler to --
+
+41
+00:01:44,152 --> 00:01:45,668
+(Or we can go back to Euclid.)
+
+42
+00:01:45,668 --> 00:01:47,424
+But from from Euler to 2010,
+
+43
+00:01:47,424 --> 00:01:49,258
+we're at 232-digit numbers.
+
+44
+00:01:49,258 --> 00:01:51,327
+And here was the answer in their paper.
+
+45
+00:01:51,327 --> 00:01:54,822
+So this was the first prime.
+
+46
+00:01:55,237 --> 00:01:56,855
+This was p1.
+
+47
+00:01:57,163 --> 00:01:59,312
+And this was p2.
+
+48
+00:01:59,312 --> 00:02:03,174
+So this is the state of the art right now.
+
+49
+00:02:03,590 --> 00:02:05,626
+Okay. How did they factor this number?
+
+50
+00:02:05,626 --> 00:02:07,369
+And what are the state-of-the-art techniques?
+
+51
+00:02:07,369 --> 00:02:08,637
+Well, we're going to go back
+
+52
+00:02:08,637 --> 00:02:10,152
+and build from the beginning.
+
+53
+00:02:10,152 --> 00:02:13,766
+And this kind of defines 'computational number theory.'
+
+54
+00:02:13,766 --> 00:02:16,980
+That is the topic of this adventure.
+
+55
+00:02:17,118 --> 00:02:19,726
+So what does computational number theory mean?
+
+56
+00:02:19,726 --> 00:02:23,328
+Well, 'computation' comes from the Greek word for 'gravel.'
+
+57
+00:02:23,328 --> 00:02:25,379
+Stones were used for counting.
+
+58
+00:02:25,379 --> 00:02:27,594
+Computation is any type of calculation --
+
+59
+00:02:27,594 --> 00:02:30,127
+whether you're using stones, or a ruler,
+
+60
+00:02:30,127 --> 00:02:31,978
+or a slide rule, or a calculator,
+
+61
+00:02:31,978 --> 00:02:34,365
+or this cool looking machine --
+
+62
+00:02:34,365 --> 00:02:37,279
+which is Babbage's 'Difference Engine' --
+
+63
+00:02:37,279 --> 00:02:40,657
+which was a hand-powered calculator.
+
+64
+00:02:40,657 --> 00:02:42,311
+It doesn't matter what you're using
+
+65
+00:02:42,311 --> 00:02:44,128
+or [if] you're using a computer -- [or not].
+
+66
+00:02:44,128 --> 00:02:46,058
+You're doing some sort of computation.
+
+67
+00:02:46,058 --> 00:02:48,953
+And now, what kind of computation are we doing?
+
+68
+00:02:48,953 --> 00:02:51,587
+Number theory.
+
+69
+00:02:51,587 --> 00:02:55,271
+And that involves this mysterious distribution
+
+70
+00:02:55,271 --> 00:02:58,392
+of prime numbers -- studying this distribution.
+
+71
+00:02:58,392 --> 00:02:59,731
+And what we're actually looking at
+
+72
+00:02:59,731 --> 00:03:02,107
+is 'multiplicative' number theory --
+
+73
+00:03:02,107 --> 00:03:03,052
+which is questions of
+
+74
+00:03:03,052 --> 00:03:05,493
+"How do you factorize numbers?"
+
+75
+00:03:05,493 --> 00:03:07,401
+"How do you tell me if a number is prime?"
+
+76
+00:03:07,401 --> 00:03:09,331
+-- and so forth.
+
+77
+00:03:09,332 --> 00:03:13,659
+And we begin with a very simple question, or --
+
+78
+00:03:14,075 --> 00:03:16,624
+not a question -- a challenge.
+
+79
+00:03:16,624 --> 00:03:20,061
+We need to build a machine which takes an input --
+
+80
+00:03:20,077 --> 00:03:22,344
+(And that input is some integer, 'x.')
+
+81
+00:03:22,344 --> 00:03:24,929
+And all that machine needs to do
+
+82
+00:03:24,929 --> 00:03:31,533
+is output 'true' or 'false.'
+
+83
+00:03:31,533 --> 00:03:34,329
+And that is the first step.
+
+84
+00:03:34,329 --> 00:03:35,706
+Now we will use the
+
+85
+00:03:35,706 --> 00:03:36,840
+[Khan Academy] computer-science tool
+
+86
+00:03:36,840 --> 00:03:39,939
+to actually build this machine together.
+
+87
+00:03:39,939 --> 00:03:40,981
+And one of the questions
+
+88
+00:03:40,981 --> 00:03:44,596
+that we will be asking is two things --
+
+89
+00:03:44,596 --> 00:03:46,370
+two aspects to this machine.
+
+90
+00:03:46,370 --> 00:03:48,715
+How much time --
+
+91
+00:03:48,715 --> 00:03:49,876
+That's a clock. [CHUCKLES]
+
+92
+00:03:49,876 --> 00:03:53,282
+How much time does it take to get the solution?
+
+93
+00:03:53,282 --> 00:03:56,890
+And how much space does it need?
+
+94
+00:03:56,890 --> 00:03:58,543
+And when I say 'space,'
+
+95
+00:03:58,543 --> 00:03:59,873
+I mean -- for example, in the case of
+
+96
+00:03:59,873 --> 00:04:01,696
+this mechanical calculator -- physical space.
+
+97
+00:04:01,696 --> 00:04:04,082
+How many rooms do we need to hold our machine?
+
+98
+00:04:04,082 --> 00:04:05,798
+Or if we're using a computer,
+
+99
+00:04:05,798 --> 00:04:10,066
+how much memory does it need?
+
+100
+00:04:10,066 --> 00:04:11,566
+So we will be returning
+
+101
+00:04:11,566 --> 00:04:14,000
+to these two ideas as we go.

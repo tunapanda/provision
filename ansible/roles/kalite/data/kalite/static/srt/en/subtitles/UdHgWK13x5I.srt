@@ -1,0 +1,895 @@
+1
+00:00:00,000 --> 00:00:05,687
+I've got a handful of matrices here - I have the matrix A, that's an M by N matrix.
+
+2
+00:00:05,692 --> 00:00:09,913
+You can see it has N columns and M rows.
+
+3
+00:00:09,931 --> 00:00:12,933
+And actually let me throw in one entry there, it might be useful.
+
+4
+00:00:12,933 --> 00:00:14,756
+This is the...
+
+5
+00:00:14,756 --> 00:00:17,748
+This is the Jth column, so the Mth row is gonna look like this
+
+6
+00:00:17,748 --> 00:00:20,692
+A m j. That's that entry right there.
+
+7
+00:00:20,692 --> 00:00:23,475
+And then I have matrix B defined similarly
+
+8
+00:00:23,475 --> 00:00:24,600
+but instead of being an
+
+9
+00:00:24,600 --> 00:00:30,198
+m by n matrix, B is an n by m matrix.
+
+10
+00:00:30,459 --> 00:00:31,852
+So this entry right here
+
+11
+00:00:32,005 --> 00:00:33,600
+let me just, I might
+
+12
+00:00:33,600 --> 00:00:35,000
+I realize this might be useful
+
+13
+00:00:35,000 --> 00:00:36,800
+this is going to be my nth row,
+
+14
+00:00:36,800 --> 00:00:39,311
+this is going to be my jth column
+
+15
+00:00:39,311 --> 00:00:41,842
+And then I also wrote out their transposes
+
+16
+00:00:41,842 --> 00:00:44,333
+so if you look at the transpose of B
+
+17
+00:00:44,333 --> 00:00:47,467
+B was an N by M matrix
+
+18
+00:00:47,467 --> 00:00:51,267
+now the transpose is going to be M by N matrix.
+
+19
+00:00:51,267 --> 00:00:53,667
+And each of its rows become its columns
+
+20
+00:00:53,667 --> 00:00:56,133
+and the same thing I did for A,
+
+21
+00:00:56,133 --> 00:00:57,800
+its transpose is right there
+
+22
+00:00:57,800 --> 00:01:02,137
+A was M by N, the transposes N by M
+
+23
+00:01:02,137 --> 00:01:05,251
+and each of these rows become each of these columns.
+
+24
+00:01:05,251 --> 00:01:06,692
+Now, fair enough.
+
+25
+00:01:06,692 --> 00:01:10,333
+Let's define two new matrices right now.
+
+26
+00:01:10,333 --> 00:01:13,839
+Let's define the matrix C.
+
+27
+00:01:13,839 --> 00:01:15,356
+Let's define the matrix C.
+
+28
+00:01:15,356 --> 00:01:16,513
+Let me do it over here where
+
+29
+00:01:16,513 --> 00:01:17,515
+Let me do it over here
+
+30
+00:01:17,515 --> 00:01:19,933
+I think...I think the real estate well be valuable
+
+31
+00:01:19,933 --> 00:01:21,292
+in this video
+
+32
+00:01:21,323 --> 00:01:22,880
+Let's define my matrix C as being equal to
+
+33
+00:01:23,064 --> 00:01:26,098
+the product of A and B
+
+34
+00:01:26,205 --> 00:01:29,513
+So what's...what are going to be the dimensions of C?
+
+35
+00:01:29,513 --> 00:01:33,089
+Well an M by N matrix times an N by M matrix,
+
+36
+00:01:33,089 --> 00:01:35,086
+these two have to be equal
+
+37
+00:01:35,086 --> 00:01:37,748
+even for the matrix...matrix product to be defined.
+
+38
+00:01:37,748 --> 00:01:38,405
+And it's going to result
+
+39
+00:01:38,482 --> 00:01:40,821
+with an M by N matrix.
+
+40
+00:01:41,052 --> 00:01:43,700
+So it's going to be an M by M matrix.
+
+41
+00:01:43,700 --> 00:01:45,333
+Now's let define another matrix,
+
+42
+00:01:45,333 --> 00:01:47,846
+let's call it D. D...
+
+43
+00:01:47,846 --> 00:01:51,467
+And it's equal to B tranpose
+
+44
+00:01:51,467 --> 00:01:54,885
+B transpose times A transpose.
+
+45
+00:01:54,977 --> 00:01:57,113
+And the dimensions are going to be the same
+
+46
+00:01:57,113 --> 00:02:00,604
+because this is an M by N times an N by M.
+
+47
+00:02:00,604 --> 00:02:02,246
+So these are the same.
+
+48
+00:02:02,246 --> 00:02:04,433
+which is a requirement for this product to be defined
+
+49
+00:02:04,433 --> 00:02:06,224
+and so the dimensions of B
+
+50
+00:02:06,224 --> 00:02:10,652
+are going to be M by M. M by M.
+
+51
+00:02:10,652 --> 00:02:13,817
+So let's explore a little bit what the different entries
+
+52
+00:02:13,817 --> 00:02:16,067
+of C are going to look like.
+
+53
+00:02:16,067 --> 00:02:18,153
+So let me write my matrix C
+
+54
+00:02:18,153 --> 00:02:19,662
+right here.
+
+55
+00:02:19,662 --> 00:02:20,605
+So it's just going to have
+
+56
+00:02:20,605 --> 00:02:21,318
+a bunch of entries
+
+57
+00:02:21,364 --> 00:02:26,007
+C one one, C two two, C one two...
+
+58
+00:02:26,007 --> 00:02:29,291
+all the way to C one M.
+
+59
+00:02:29,291 --> 00:02:31,400
+You can imagine it's cause its an M by N matrix
+
+60
+00:02:31,400 --> 00:02:33,043
+you're going to have C M M over here
+
+61
+00:02:33,043 --> 00:02:36,133
+you know how the...you know how this drill goes.
+
+62
+00:02:36,133 --> 00:02:37,113
+But what I'm curious about is
+
+63
+00:02:37,498 --> 00:02:41,533
+how do we figure out what C...the general C, i, j is?
+
+64
+00:02:41,533 --> 00:02:44,478
+How do we figure out what a particular entry is?
+
+65
+00:02:44,478 --> 00:02:46,013
+We know that C
+
+66
+00:02:46,013 --> 00:02:47,852
+is the products of A and B.
+
+67
+00:02:47,852 --> 00:02:50,385
+So to get to a particular entry in C...
+
+68
+00:02:50,385 --> 00:02:51,585
+and we've seen this before
+
+69
+00:02:51,585 --> 00:02:52,512
+so let's...
+
+70
+00:02:52,681 --> 00:02:54,069
+a particular entry in C
+
+71
+00:02:54,069 --> 00:02:56,436
+so C, i, j
+
+72
+00:02:56,436 --> 00:02:58,001
+it's going to be
+
+73
+00:02:58,001 --> 00:02:59,005
+you can view it as
+
+74
+00:02:59,005 --> 00:03:03,733
+the dot product of the ith row in A
+
+75
+00:03:03,733 --> 00:03:05,783
+the ith row in A
+
+76
+00:03:05,783 --> 00:03:10,357
+with the jth column in B
+
+77
+00:03:10,357 --> 00:03:12,679
+with the jth column in B
+
+78
+00:03:12,679 --> 00:03:14,200
+just like that
+
+79
+00:03:14,200 --> 00:03:16,200
+And what's that going to be equal to?
+
+80
+00:03:16,200 --> 00:03:17,160
+It's going to be equal to
+
+81
+00:03:17,160 --> 00:03:19,171
+A, i,1...
+
+82
+00:03:19,171 --> 00:03:23,151
+A, i, 1 times B, 1, j
+
+83
+00:03:23,151 --> 00:03:25,218
+B, 1, j
+
+84
+00:03:25,218 --> 00:03:27,401
+plus A, i, 2
+
+85
+00:03:27,401 --> 00:03:29,000
+A, i, 2
+
+86
+00:03:29,000 --> 00:03:32,400
+times B, 2, j...B, 2, j
+
+87
+00:03:32,400 --> 00:03:33,559
+and you're just going to keep going
+
+88
+00:03:33,652 --> 00:03:34,774
+until you get to the last term here
+
+89
+00:03:34,774 --> 00:03:36,874
+A, i, n
+
+90
+00:03:36,874 --> 00:03:37,692
+A, i, n
+
+91
+00:03:37,692 --> 00:03:41,031
+times the last term here B, n, j.
+
+92
+00:03:41,031 --> 00:03:42,400
+B, n, j.
+
+93
+00:03:42,400 --> 00:03:43,098
+Fair enough.
+
+94
+00:03:43,098 --> 00:03:46,467
+Now, what about our matrix D...
+
+95
+00:03:46,467 --> 00:03:49,267
+What are its entries going to look like?
+
+96
+00:03:49,267 --> 00:03:52,800
+So D, similarly, it's going to look like
+
+97
+00:03:52,800 --> 00:03:53,733
+you know, you are going to have
+
+98
+00:03:53,733 --> 00:03:55,613
+d 1 1, d 1 2
+
+99
+00:03:55,613 --> 00:03:59,700
+sorry...d, 1, 2, all the way to
+
+100
+00:03:59,700 --> 00:04:02,785
+d 1 m, you're going to have d m n
+
+101
+00:04:02,785 --> 00:04:04,303
+I could keep putting entries here,
+
+102
+00:04:04,472 --> 00:04:05,616
+but I'm curious about just the
+
+103
+00:04:05,616 --> 00:04:07,133
+some general entry here
+
+104
+00:04:07,133 --> 00:04:08,462
+let's say I want to find
+
+105
+00:04:08,462 --> 00:04:13,867
+D sub j i
+
+106
+00:04:13,867 --> 00:04:14,902
+D sub j i
+
+107
+00:04:14,902 --> 00:04:16,154
+That's what I want to find.
+
+108
+00:04:16,154 --> 00:04:17,445
+So I want to find a general way
+
+109
+00:04:17,445 --> 00:04:20,133
+for any particular entry of D.
+
+110
+00:04:20,133 --> 00:04:22,200
+The jth row and the ith column
+
+111
+00:04:22,200 --> 00:04:22,995
+which is a little bit different than
+
+112
+00:04:22,995 --> 00:04:24,354
+the convention we normally use
+
+113
+00:04:24,369 --> 00:04:26,313
+for these letters...but it's fine.
+
+114
+00:04:26,313 --> 00:04:28,287
+The first one is D's row
+
+115
+00:04:28,287 --> 00:04:31,952
+the second one is D's...is this entry's column.
+
+116
+00:04:31,952 --> 00:04:34,367
+So how do we figure that out?
+
+117
+00:04:34,367 --> 00:04:39,290
+So D sub j i
+
+118
+00:04:39,290 --> 00:04:40,400
+It's going to be equal to
+
+119
+00:04:40,400 --> 00:04:41,871
+D is the product of these two guys.
+
+120
+00:04:41,871 --> 00:04:44,279
+So to get the jth row
+
+121
+00:04:44,279 --> 00:04:47,067
+and ith column entry here
+
+122
+00:04:47,067 --> 00:04:48,302
+we essentially take the dot product
+
+123
+00:04:48,302 --> 00:04:50,129
+of the jth row here
+
+124
+00:04:50,129 --> 00:04:54,005
+So we're going to take the dot product of the jth row here.
+
+125
+00:04:54,005 --> 00:04:56,400
+Which is is that right there.
+
+126
+00:04:56,400 --> 00:04:59,067
+With the ith column of A,
+
+127
+00:04:59,067 --> 00:05:01,067
+with the ith column A.
+
+128
+00:05:01,067 --> 00:05:02,831
+which is that right there.
+
+129
+00:05:02,892 --> 00:05:05,133
+So I'm going to take the dot product of that.
+
+130
+00:05:05,133 --> 00:05:07,067
+And you might already see something interesting here.
+
+131
+00:05:07,067 --> 00:05:11,333
+This thing right here is equivalent to
+
+132
+00:05:11,333 --> 00:05:13,933
+that thing right there.
+
+133
+00:05:13,933 --> 00:05:15,373
+And this thing right here
+
+134
+00:05:15,373 --> 00:05:16,800
+is equivalent to that thing right there,
+
+135
+00:05:16,800 --> 00:05:18,333
+because we took the transposes.
+
+136
+00:05:18,333 --> 00:05:19,298
+But let's actually
+
+137
+00:05:19,298 --> 00:05:21,052
+just write it out.
+
+138
+00:05:21,052 --> 00:05:22,821
+So what is this dot product
+
+139
+00:05:22,821 --> 00:05:24,843
+going to be equal to?
+
+140
+00:05:24,843 --> 00:05:25,800
+Well it's going to be
+
+141
+00:05:25,800 --> 00:05:26,853
+B, i, j
+
+142
+00:05:26,853 --> 00:05:27,815
+well let me write it this way
+
+143
+00:05:27,815 --> 00:05:28,989
+it's going to be B i j times
+
+144
+00:05:28,989 --> 00:05:29,658
+A
+
+145
+00:05:29,658 --> 00:05:30,173
+i
+
+146
+00:05:30,173 --> 00:05:31,183
+one.
+
+147
+00:05:31,183 --> 00:05:32,529
+Or we could write it as
+
+148
+00:05:32,529 --> 00:05:37,600
+A i one times B one j.
+
+149
+00:05:37,600 --> 00:05:39,894
+And it's going to be plus B 2 j times
+
+150
+00:05:39,894 --> 00:05:41,217
+A i 2, which is
+
+151
+00:05:41,217 --> 00:05:43,667
+the same thing as A i 2 times B 2 j.
+
+152
+00:05:43,667 --> 00:05:47,556
+A i 2 times B 2 j.
+
+153
+00:05:47,556 --> 00:05:48,400
+And you are going to keep going
+
+154
+00:05:48,400 --> 00:05:52,223
+until you get B n j times A i n.
+
+155
+00:05:52,223 --> 00:05:53,292
+Or, you could write that as
+
+156
+00:05:53,292 --> 00:05:56,267
+A i n times B n j.
+
+157
+00:05:56,267 --> 00:05:58,980
+B n j.
+
+158
+00:05:58,980 --> 00:06:00,333
+Now, notice something.
+
+159
+00:06:00,333 --> 00:06:01,867
+These two things are equivalent.
+
+160
+00:06:01,867 --> 00:06:03,333
+They are completely equivalent statements.
+
+161
+00:06:03,333 --> 00:06:04,131
+The...
+
+162
+00:06:04,131 --> 00:06:08,333
+D sub j i is equivalent to C sub i j.
+
+163
+00:06:08,333 --> 00:06:10,405
+Let me write that.
+
+164
+00:06:10,405 --> 00:06:14,267
+So D....or I could write C sub i j,
+
+165
+00:06:14,267 --> 00:06:15,667
+is equivalent to
+
+166
+00:06:15,667 --> 00:06:18,973
+D sub j i.
+
+167
+00:06:18,973 --> 00:06:20,200
+Or another way you could say it is
+
+168
+00:06:20,200 --> 00:06:22,897
+anything that's at row...
+
+169
+00:06:22,897 --> 00:06:24,667
+all that entries that's at row i
+
+170
+00:06:24,667 --> 00:06:26,403
+column j,
+
+171
+00:06:26,403 --> 00:06:31,175
+in C, is now in row j column i in D.
+
+172
+00:06:31,175 --> 00:06:33,810
+And this is true for all the entries.
+
+173
+00:06:33,810 --> 00:06:37,897
+True for all entries.
+
+174
+00:06:37,897 --> 00:06:39,648
+I stayed as general as possible.
+
+175
+00:06:39,648 --> 00:06:40,975
+So what does this mean?
+
+176
+00:06:40,975 --> 00:06:43,733
+This is the definition of a transpose.
+
+177
+00:06:43,733 --> 00:06:45,733
+So we now get that C
+
+178
+00:06:45,733 --> 00:06:49,400
+C transpose is equal to D.
+
+179
+00:06:49,400 --> 00:06:51,595
+Or you could say that C is equal to
+
+180
+00:06:51,595 --> 00:06:53,604
+D transpose.
+
+181
+00:06:53,604 --> 00:06:54,882
+Now this is pretty interesting,
+
+182
+00:06:54,882 --> 00:06:56,515
+cause how did we define these two?
+
+183
+00:06:56,515 --> 00:07:01,233
+We said that our matrix C
+
+184
+00:07:01,233 --> 00:07:03,278
+is equal to our matrice...
+
+185
+00:07:03,477 --> 00:07:06,481
+our matrice...the matrix product A and B.
+
+186
+00:07:06,481 --> 00:07:07,405
+And we said that D
+
+187
+00:07:07,405 --> 00:07:09,407
+is equal to, our matrix product
+
+188
+00:07:09,407 --> 00:07:12,733
+B transposed times A transposed.
+
+189
+00:07:12,733 --> 00:07:16,000
+I did that...those definitions right there.
+
+190
+00:07:16,000 --> 00:07:17,733
+Here are the definitions.
+
+191
+00:07:17,733 --> 00:07:19,867
+Now we just found out that
+
+192
+00:07:19,867 --> 00:07:23,153
+D is equal to the transpose of C.
+
+193
+00:07:23,153 --> 00:07:26,200
+So we could write that C transpose
+
+194
+00:07:26,200 --> 00:07:29,933
+which is the same thing as A times B
+
+195
+00:07:29,933 --> 00:07:32,800
+transposed, is equal to D.
+
+196
+00:07:32,800 --> 00:07:34,902
+So it is equal to D, which is just
+
+197
+00:07:34,902 --> 00:07:38,060
+B transpose, A transpose.
+
+198
+00:07:38,060 --> 00:07:40,400
+And this is a pretty neat takeaway.
+
+199
+00:07:40,400 --> 00:07:43,425
+This is a pretty neat takeaway here.
+
+200
+00:07:43,425 --> 00:07:47,394
+If I take the product of two matrices, and then
+
+201
+00:07:47,394 --> 00:07:49,600
+transpose it, it's equivalent to
+
+202
+00:07:49,600 --> 00:07:52,735
+switching the order, or transposing them
+
+203
+00:07:52,735 --> 00:07:55,893
+and then taking the product of the reversed order.
+
+204
+00:07:55,893 --> 00:07:58,667
+B transpose, A transpose.
+
+205
+00:07:58,667 --> 00:08:01,234
+Which is a pretty pretty neat takeaway.
+
+206
+00:08:01,234 --> 00:08:03,579
+And you can actually extend this to an arbitrary
+
+207
+00:08:03,579 --> 00:08:06,319
+number of matrices that you are taking the
+
+208
+00:08:06,319 --> 00:08:07,735
+product of. If you're taking...
+
+209
+00:08:07,735 --> 00:08:09,533
+I'm not proving it here, but it's actually
+
+210
+00:08:09,533 --> 00:08:12,733
+a very simple extension from this right now.
+
+211
+00:08:12,733 --> 00:08:15,000
+If you take the matrices, let's say,
+
+212
+00:08:15,000 --> 00:08:18,102
+A...let me do a different...different letters.
+
+213
+00:08:18,102 --> 00:08:23,000
+X Y Z. If you take their product and then
+
+214
+00:08:23,000 --> 00:08:27,333
+transpose it, it's equal to Z transpose, Y transpose,
+
+215
+00:08:27,333 --> 00:08:30,000
+X transpose.
+
+216
+00:08:30,000 --> 00:08:31,733
+I haven't proven this general case
+
+217
+00:08:31,733 --> 00:08:33,556
+and you could keep doing it with 4 or 5
+
+218
+00:08:33,556 --> 00:08:36,800
+or N matrices multiplied by each other.
+
+219
+00:08:36,800 --> 00:08:38,269
+But it generally works.
+
+220
+00:08:38,269 --> 00:08:40,057
+And you could...essentially prove it
+
+221
+00:08:40,057 --> 00:08:42,333
+using what we proved in this video right here.
+
+222
+00:08:42,333 --> 00:08:44,400
+That you take the product of two matrices,
+
+223
+00:08:44,400 --> 00:08:46,067
+take their transposes equal to
+
+224
+00:08:46,067 --> 99:59:59,999
+the product of their transposes in reverse order.

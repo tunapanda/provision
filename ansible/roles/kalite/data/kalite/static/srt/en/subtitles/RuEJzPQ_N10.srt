@@ -1,0 +1,211 @@
+1
+00:00:00,187 --> 00:00:06,669
+Part B. For x is not equal to zero, express f prime of x as a piecewise-defined function.
+
+2
+00:00:06,669 --> 00:00:11,148
+Find the value of x for which f prime of x is equal to negative 3.
+
+3
+00:00:11,148 --> 00:00:16,434
+So the first thing you might be wondering is why did we even have to take out x is equal to zero from the...
+
+4
+00:00:16,434 --> 00:00:19,200
+Or why, Why is the dervative not going to be defined there.
+
+5
+00:00:19,200 --> 00:00:22,748
+And that's just because you're going to see the derivative is going to be something different when we approach
+
+6
+00:00:22,748 --> 00:00:27,154
+x is equal to zero from the left verses when we approach x is equal to zero from the right.
+
+7
+00:00:27,154 --> 00:00:29,069
+And that's why they just took it out of there for us.
+
+8
+00:00:29,069 --> 00:00:32,846
+But let's just figure out what that derivative is for all of the other values for x.
+
+9
+00:00:32,846 --> 00:00:36,375
+So f prime of x is equal to...
+
+10
+00:00:36,375 --> 00:00:41,767
+So for x is less than zero, we're going to take the derivative of this first case...
+
+11
+00:00:41,767 --> 00:00:46,126
+So the derivative of one is just zero, the derivative of negative 2 sine of x...
+
+12
+00:00:46,126 --> 00:00:50,831
+Well the derivative of sine of x is just cosine of x. So it's going to be negative 2 cosine of x.
+
+13
+00:00:50,831 --> 00:01:00,282
+Negative 2 cosine of x, for, for x is less than zero. And then for x is greater than zero...
+
+14
+00:01:00,282 --> 00:01:02,364
+I'll do this in another color, I'll do it in orange...
+
+15
+00:01:02,364 --> 00:01:06,864
+We have this case right over here and we'll just do the chain rule.
+
+16
+00:01:06,864 --> 00:01:13,225
+Derivative of negative 4 x with respect to x is negative 4.
+
+17
+00:01:13,225 --> 00:01:18,136
+And the derivative of e to the negative 4 x with respect to e... wait wait,...
+
+18
+00:01:18,136 --> 00:01:26,234
+The derivative of e to the negative 4 x with respect to negative 4 x is just e to the negative 4 x.... e to the negative 4 x.
+
+19
+00:01:26,234 --> 00:01:31,400
+Sometimes you can say this is the derivative of the inside times the derivative of the outside with respect to the inside.
+
+20
+00:01:31,400 --> 00:01:40,215
+So either way, it's negative 4 e to the negative 4 x for x is greater than zero.
+
+21
+00:01:40,215 --> 00:01:46,990
+So we did the first part: we expressed f prime of x as a piecewise-defined function. It's not... we didn't define the derivative...
+
+22
+00:01:46,990 --> 00:01:52,298
+Actually I forgot a parenthesis here. We didn't derive... we didn't define the derivative when x is equal to zero...
+
+23
+00:01:52,298 --> 00:01:56,477
+Cause it's actually not going to be defined there. Now let's do the second part...
+
+24
+00:01:56,477 --> 00:02:01,513
+Find the value of x for which f prime of x is equal to negative 3.
+
+25
+00:02:01,513 --> 00:02:08,462
+And so, if this wasn't piecewise-defined, you'd just, you'd just very simply just say, oh look, f prime of x is equal to negative 3...
+
+26
+00:02:08,462 --> 00:02:12,425
+You would take whatever f prime of x is equal to and you would do some algebra to solve for it.
+
+27
+00:02:12,425 --> 00:02:19,400
+But here you're like, which case do I use? I don't know if the x that gets us to negative 3 is going to be less than 0 or I don't know if it's going to be greater than 0.
+
+28
+00:02:19,400 --> 00:02:25,652
+So I don't know which case to use. And one thing that they realize is to... is to look at these functions a little bit...
+
+29
+00:02:25,652 --> 00:02:29,015
+...and realize that cosine of x is a bounded function.
+
+30
+00:02:29,015 --> 00:02:40,267
+Cosine of x can only go between positive 1 and negative 1. So negative 2 cosine of x can only go between positive 2 and negative 2.
+
+31
+00:02:40,267 --> 00:02:45,036
+So this can only go between positive 2 and negative 2, so it can never get to negative 3.
+
+32
+00:02:45,036 --> 00:02:51,933
+So if anything is ever going to get to negative 3, it's going to be this part of the derivative or this part of the derivative definition.
+
+33
+00:02:51,933 --> 00:02:54,646
+So it's going to have to be this thing right over here.
+
+34
+00:02:54,646 --> 00:03:00,923
+And hopefully there's some values of x greater than zero where this thing right over here is equal to negative 3.
+
+35
+00:03:00,923 --> 00:03:08,898
+So let's try it out. Negative four e to the negative 4 x needs to be equal to negative 3.
+
+36
+00:03:08,898 --> 00:03:18,348
+We can divide both sides by negative 4, we get e to the negative 4 x is equal to negative 3/4ths divided by negative 4 is 3/4ths.
+
+37
+00:03:18,348 --> 00:03:29,185
+We can take the natural log of both sides and we will get negative 4 x is equal to the natural log of 3/4ths... natural log of 3/4ths.
+
+38
+00:03:29,185 --> 00:03:35,405
+And just to be clear what I did here, I mean you literally could put the natural log here, natural log there, and...
+
+39
+00:03:35,405 --> 00:03:40,215
+you could put the natural log there as well to see that step. The natural... this is saying what power,
+
+40
+00:03:40,215 --> 00:03:45,333
+What power do I have to raise e to, to get e to the negative 4 x. Well obviously I just need to raise
+
+41
+00:03:45,333 --> 00:03:51,379
+e to the just... the negative 4 x power over there. So this, this power is negative 4 x.
+
+42
+00:03:51,379 --> 00:03:58,329
+And then we just took the natural log of the right hand side as well. And then to solve for x you can divide both sides by negative 4.
+
+43
+00:03:58,329 --> 00:04:04,677
+So you get x is equal to... or we... or we could say... we could multiple both sides by negative 1/4th... either way....
+
+44
+00:04:04,677 --> 00:04:11,887
+Negative one fourth natural log of 3/4ths. And what we need to do is verify that this x...
+
+45
+00:04:11,887 --> 00:04:19,400
+So we used this case right over here. We used that case. But we have to make sure that this x, that this, that we can use this case...
+
+46
+00:04:19,400 --> 00:04:24,267
+That this x is greater than zero, and we might be tempted right when we look at this, say wait wait...,
+
+47
+00:04:24,267 --> 00:04:28,867
+This looks like a negative number, But we have to remind ourselves that the natural log of 3/4ths,
+
+48
+00:04:28,867 --> 00:04:35,067
+Since 3/4ths is less than e, the natural log of 3/4ths is going to be a negative number.
+
+49
+00:04:35,067 --> 00:04:43,600
+It's going to be e to some negative exponent. So since this is negative, and ... and this part right over here is negative,
+
+50
+00:04:43,600 --> 00:04:49,985
+So that is also negative, you have a negative times a negative so this right over here is goign to be positive.
+
+51
+00:04:49,985 --> 00:04:56,667
+So this is a positive value right over here, so you would use, you would use, you would use
+
+52
+00:04:56,667 --> 00:05:02,898
+this case right over here so that's our answer: x is equal to negative 1/4th natural log of 3/4ths.
+
+53
+00:05:02,898 --> 00:05:15,236
+Or the derivative we could write f prime of -1/4 times the natural log of 3/4ths is equal to... is equal to negative 3. And we're done.

@@ -1,0 +1,603 @@
+1
+00:00:02,113 --> 00:00:12,051
+Let's say that we have some function f of x, and let me graph an arbitrary f of x... that's my y axis, and that's my x axis...
+
+2
+00:00:12,051 --> 00:00:14,698
+and maybe f of x looks something like that...
+
+3
+00:00:14,698 --> 00:00:23,708
+and what I want to do is approximate f of x with a Taylor Polynomial centered around "x" is equal to "a"
+
+4
+00:00:23,708 --> 00:00:27,237
+so this is the x axis, this is the y axis, so I want a Taylor Polynomial centered around there
+
+5
+00:00:27,237 --> 00:00:33,000
+You've seen how this works; the Taylor Polynomial comes out of the idea
+
+6
+00:00:33,000 --> 00:00:35,968
+that for all of the derivatives up to and including
+
+7
+00:00:35,968 --> 00:00:38,893
+the degree of the polynomial, those derivatives of that polynomial
+
+8
+00:00:38,893 --> 00:00:43,400
+evaluated at "a" should be equal to the derivatives of our function
+
+9
+00:00:43,400 --> 00:00:46,600
+evaluated at "a". And that polynomial evaluated at "a" should also
+
+10
+00:00:46,600 --> 00:00:49,575
+be equal to that function evaluated at "a".
+
+11
+00:00:49,575 --> 00:00:54,265
+So our polynomial, our Taylor Polynomial approximation, would look something like this;
+
+12
+00:00:54,265 --> 00:00:58,909
+So I'll call it p of x, and sometimes you might see a subscript
+
+13
+00:00:58,909 --> 00:01:02,717
+of big N there to say it's an nth degree approximation and sometimes
+
+14
+00:01:02,717 --> 00:01:09,172
+you'll see something like this, something like N comma a to say it's an nth degree approximation centered a
+
+15
+00:01:09,172 --> 00:01:12,377
+at a. Actually I'll write that right now... maybe we'll lose it
+
+16
+00:01:12,377 --> 00:01:14,513
+if we have to keep writing it over and over, but you should assume
+
+17
+00:01:14,513 --> 00:01:18,042
+that it's an nth degree polynomial centered at "a",
+
+18
+00:01:18,042 --> 00:01:21,200
+and it's going to look like this; it is going to be f of "a" plus
+
+19
+00:01:21,200 --> 00:01:28,723
+f prime of a, f prime of a, times x minus a, plus f prime prime of "a"
+
+20
+00:01:28,723 --> 00:01:39,637
+times x minus a squared over (either you could write two or two factorial, there's the same value)
+
+21
+00:01:39,637 --> 00:01:44,374
+I'll write two factorial, you could write divided by one factorial over here if you like.
+
+22
+00:01:44,374 --> 00:01:52,315
+And then plus go to the third derivative of f at a times x minus a to the third power,
+
+23
+00:01:52,315 --> 00:01:56,402
+(I think you see where this is going) over three factorial,
+
+24
+00:01:56,402 --> 00:01:57,981
+and you keep going, I'll go to this line right here, all the way
+
+25
+00:01:57,981 --> 00:02:03,925
+to your nth degree term, which is the nth derivative of f evaluated at a
+
+26
+00:02:03,925 --> 00:02:11,495
+times x minus a to the n over n factorial.
+
+27
+00:02:11,495 --> 00:02:15,674
+And this polynomial right over here, this nth degree polynimal centered at "a",
+
+28
+00:02:15,674 --> 00:02:21,108
+it's definitely f of a is going to be the same, or p of a is going to be the same thing
+
+29
+00:02:21,108 --> 00:02:24,591
+as f of a, and you can verify that, because all of these other terms have
+
+30
+00:02:24,591 --> 00:02:27,267
+an x minus a here, so if you put an a in the polynomial, all of these other
+
+31
+00:02:27,267 --> 00:02:32,253
+terms are going to be zero, and you'll have p of a is equal to f of a, let me write that down
+
+32
+00:02:32,253 --> 00:02:38,523
+: p of a is equal to f of a. And so it might look something like this.
+
+33
+00:02:38,523 --> 00:02:42,867
+It's going to fit the curve better the more of these terms
+
+34
+00:02:42,867 --> 00:02:45,210
+that we actually have. So it might look something like this.
+
+35
+00:02:45,210 --> 00:02:51,533
+I'll try my best to show what it might look like.
+
+36
+00:02:51,533 --> 00:02:54,777
+And what I want to do in this video, since this is all review,
+
+37
+00:02:54,777 --> 00:02:57,795
+I have this polynomial that's approximating this function,
+
+38
+00:02:57,795 --> 00:03:00,767
+the more terms I have the higher degree of this polynomial,
+
+39
+00:03:00,767 --> 00:03:05,133
+the better that it will fit this curve the further that I get away from "a".
+
+40
+00:03:05,133 --> 00:03:08,151
+But what I want to do in this video is think about, if we can bound
+
+41
+00:03:08,151 --> 00:03:13,400
+how good it's fitting this function as we move away
+
+42
+00:03:13,400 --> 00:03:17,904
+from "a". So what I want to do is define a remainder function,
+
+43
+00:03:17,904 --> 00:03:21,387
+or sometimes I've seen textbooks call it an error function.
+
+44
+00:03:21,387 --> 00:03:28,733
+And I'm going to call this, hmm, just so you're consistent with
+
+45
+00:03:28,733 --> 00:03:31,836
+all the different notations you might see in a book... some people will call this
+
+46
+00:03:31,836 --> 00:03:37,316
+a remainder function for an nth degree polynomial centered at "a",
+
+47
+00:03:37,316 --> 00:03:39,963
+sometimes you'll see this as an "error" function,
+
+48
+00:03:39,963 --> 00:03:43,585
+but the "error" function is sometimes avoided because
+
+49
+00:03:43,585 --> 00:03:47,254
+it looks like "expected value" from probability,
+
+50
+00:03:47,254 --> 00:03:50,504
+but you'll see this often, this is e for error, r for remainder
+
+51
+00:03:50,504 --> 00:03:55,520
+and sometimes they will also have the subscripts over there like that,
+
+52
+00:03:55,520 --> 00:03:58,585
+and what we'll do is define this function to be the difference between
+
+53
+00:03:58,585 --> 00:04:05,505
+f of x and our approximation of f of x for any given x.
+
+54
+00:04:05,505 --> 00:04:10,533
+So it's really just going to be (doing the same colors), it's going to be
+
+55
+00:04:10,533 --> 00:04:16,836
+f of x minus p of x. Where this is an nth degree polynomial
+
+56
+00:04:16,836 --> 00:04:22,873
+centered at "a". So for example, if someone were to ask:
+
+57
+00:04:22,873 --> 00:04:26,449
+or if you wanted to visualize, "what are they talking about":
+
+58
+00:04:26,449 --> 00:04:30,800
+if they're saying the error of this nth degree polynomial centered at "a"
+
+59
+00:04:30,800 --> 00:04:35,133
+when we are at x is equal to b. What is this thing equal to,
+
+60
+00:04:35,133 --> 00:04:38,802
+or how should you think about this. Well, if b is right over here,
+
+61
+00:04:38,802 --> 00:04:43,818
+so the error of b is going to be f of b minus the polynomial at b.
+
+62
+00:04:43,818 --> 00:04:47,733
+So, f of be there, the polynomial is right over there, so it will be
+
+63
+00:04:47,733 --> 00:04:50,598
+this distance right over here. So if you measure the error at a,
+
+64
+00:04:50,598 --> 00:04:55,733
+it would actually be zero, because the polynomial and the function
+
+65
+00:04:55,733 --> 00:05:00,257
+are the same there. F of a is equal to p of a, so there error at "a" is equal to zero.
+
+66
+00:05:00,257 --> 00:05:03,415
+Let me actually write that down, because it's an interesting property.
+
+67
+00:05:03,415 --> 00:05:08,988
+It will help us bound it eventually, so let me write that. The error function at "a"
+
+68
+00:05:08,988 --> 00:05:14,839
+, and for the rest of this video you can assume that I could write a subscript for the nth
+
+69
+00:05:14,839 --> 00:05:18,183
+degree polynomial centered at "a". I'm just going to not write that every
+
+70
+00:05:18,183 --> 00:05:23,600
+time just to save ourselves some writing. So the error at "a" is equal to
+
+71
+00:05:23,600 --> 00:05:30,257
+f of a minus p of a, and once again I won't write the sub n and sub a, you can just assume it
+
+72
+00:05:30,257 --> 00:05:33,276
+, this is an nth degree polynomial centered at "a",
+
+73
+00:05:33,276 --> 00:05:37,733
+and these two things are equal to each other. So this is going to be equal to zero
+
+74
+00:05:37,733 --> 00:05:39,453
+, and we see that right over here. The distance between
+
+75
+00:05:39,453 --> 00:05:43,200
+the two functions is zero there. Now let's think about something else.
+
+76
+00:05:43,200 --> 00:05:52,038
+Let's think about what the derivative of the error function evaluated at "a" is.
+
+77
+00:05:52,038 --> 00:06:00,304
+That's going to be the derivative of our function at "a" minus the first deriviative of our polynomial at "a".
+
+78
+00:06:00,304 --> 00:06:05,459
+If we assume that this is higher than degree one, we know that
+
+79
+00:06:05,459 --> 00:06:09,360
+these derivatives are going to be the same at "a". You can try to take the first
+
+80
+00:06:09,360 --> 00:06:12,378
+derivative here. If you take the first derivative of this whole
+
+81
+00:06:12,378 --> 00:06:16,140
+mess, and this is actually why Taylor Polynomials are so useful,
+
+82
+00:06:16,140 --> 00:06:19,066
+is that up to and including the degree of the polynomial,
+
+83
+00:06:19,066 --> 00:06:21,574
+when you evaluate the derivatives of your polynomial at
+
+84
+00:06:21,574 --> 00:06:25,200
+"a" they're going to be the same as the derivatives of the function at "a".
+
+85
+00:06:25,200 --> 00:06:27,982
+That's what makes it start to be a good approximation.
+
+86
+00:06:27,982 --> 00:06:30,733
+But if you took a derivative here, this term right here will disappear,
+
+87
+00:06:30,733 --> 00:06:34,067
+it will go to zero, I'll cross it out for now, this term right over here
+
+88
+00:06:34,067 --> 00:06:37,667
+will be just f prime of "a", and then all of these other terms are going
+
+89
+00:06:37,667 --> 00:06:42,239
+to be left with some type of an x minus a in them. And so when you
+
+90
+00:06:42,239 --> 00:06:44,840
+evaluate it at "a" all the terms with an x minus a disappear because
+
+91
+00:06:44,840 --> 00:06:47,998
+you have an a minus a on them... this one already disappeared,
+
+92
+00:06:47,998 --> 00:06:53,338
+and you're literally just left with p prime of a will equal to f prime of a.
+
+93
+00:06:53,338 --> 00:06:56,264
+And we've seen that before. So let me write that.
+
+94
+00:06:56,264 --> 00:07:00,258
+So because we know that p prime of a is equal to f prime of a
+
+95
+00:07:00,258 --> 00:07:06,109
+when we evaluate the error function, the derivative of the error function at "a"
+
+96
+00:07:06,109 --> 00:07:10,939
+that also is going to be equal to zero. And this general property
+
+97
+00:07:10,939 --> 00:07:16,048
+right over here, is true up to and including n. So let me write this down.
+
+98
+00:07:16,048 --> 00:07:21,527
+So, we already know that p of a is equal to f of a, we already know that
+
+99
+00:07:21,527 --> 00:07:25,846
+p prime of a is equal to f prime of a, this really comes straight
+
+100
+00:07:25,846 --> 00:07:29,376
+out of the definition of polynomials, and this is going to be true
+
+101
+00:07:29,376 --> 00:07:35,970
+all the way until the nth derivative of our polynomial is evaluated at "a",
+
+102
+00:07:35,970 --> 00:07:39,639
+not everywhere, just evaluated at "a", is going to be equal to the nth
+
+103
+00:07:39,639 --> 00:07:44,800
+derivative of our function evaluated at "a".
+
+104
+00:07:44,800 --> 00:07:48,045
+So what that tells us is that we could keep doing this with the error function
+
+105
+00:07:48,045 --> 00:07:53,200
+all the way to the nth derivative of the error function evaluated at "a"
+
+106
+00:07:53,200 --> 00:07:59,237
+is going to be equal to the nth derivative of f evaluated at "a" minus
+
+107
+00:07:59,237 --> 00:08:03,370
+the nth derivative of our polynomial evaluated at "a".
+
+108
+00:08:03,370 --> 00:08:06,063
+And we already said that these are going to be equal to each other
+
+109
+00:08:06,063 --> 00:08:08,385
+up to the nth derivative when we evaluate them at "a".
+
+110
+00:08:08,385 --> 00:08:12,333
+So these are all going to be equal to zero. So this is an interesting property.
+
+111
+00:08:12,333 --> 00:08:16,977
+but it's also going to be useful when we start to try to bound this error function.
+
+112
+00:08:16,977 --> 00:08:19,577
+And that's the whole point of where I'm trying to go with this video, and
+
+113
+00:08:19,577 --> 00:08:20,924
+probably the next video
+
+114
+00:08:20,924 --> 00:08:24,000
+We're going to bound it so we know how good of an estimate we have
+
+115
+00:08:24,000 --> 00:08:28,262
+especially as we go further and further from where we are centered...
+
+116
+00:08:28,262 --> 00:08:30,584
+from where our approximation is centered.
+
+117
+00:08:30,584 --> 00:08:33,927
+Now let's think about when we take a derivative beyond that.
+
+118
+00:08:33,927 --> 00:08:36,899
+Let's think about what happens when we take the (n+1)th derivative.
+
+119
+00:08:36,899 --> 00:08:49,392
+What is the (n+1)th derivative of our error function. And not even
+
+120
+00:08:49,392 --> 00:08:51,203
+if I'm just evaluating at "a". If I just say generally, the error function
+
+121
+00:08:51,203 --> 00:08:54,872
+e of x... what's the n+1th derivative of it. Well, it's going to be the
+
+122
+00:08:54,872 --> 00:09:01,513
+n+1th derivative of our function minus the n+1th derivative of...
+
+123
+00:09:01,513 --> 00:09:14,051
+we're not just evaluating at "a" here either, let me write an x there...
+
+124
+00:09:14,051 --> 00:09:15,723
+of our function... I'm literally just taking the n+1th derivative of
+
+125
+00:09:15,723 --> 00:09:20,692
+both sides of this equation right over here.
+
+126
+00:09:20,692 --> 00:09:23,061
+So it's literally the n+1th derivative of our function minus
+
+127
+00:09:23,061 --> 00:09:26,729
+the n+1th derivative of our nth degree polynomial.
+
+128
+00:09:26,729 --> 00:09:33,800
+The n+1th derivative of our nth degree polynomial.
+
+129
+00:09:33,800 --> 00:09:35,467
+Once again, I could write an n here, I could write an a here to show
+
+130
+00:09:35,467 --> 00:09:39,082
+it's an nth degree centered at "a".
+
+131
+00:09:39,082 --> 00:09:45,584
+Now, what is the n+1th derivative of an nth degree polynomial?
+
+132
+00:09:45,584 --> 00:09:53,667
+If you want some hints, take the second derivative of y equal to x.
+
+133
+00:09:53,667 --> 00:09:56,497
+It's a first degree polynomial... take the second derivative, you're going to get
+
+134
+00:09:56,497 --> 00:10:01,931
+a zero. Take the 3rd derivative of y equal x squared.
+
+135
+00:10:01,931 --> 00:10:07,600
+The first derivative is 2x, the second derivative is 2, the third derivative is zero.
+
+136
+00:10:07,600 --> 00:10:11,776
+In general, if you take an n+1th derivative, of an nth degree polynomial,
+
+137
+00:10:11,776 --> 00:10:14,191
+and you can prove it for yourself, you can even prove it generally,
+
+138
+00:10:14,191 --> 00:10:19,857
+but I think it might make a little sense to you, it's going to be equal to zero.
+
+139
+00:10:19,857 --> 00:10:25,867
+So this thing right here, this is an n+1th derivative of an nth degree polynomial.
+
+140
+00:10:25,867 --> 00:10:38,804
+This is going to be equal to zero. So the n+1th derivative of our error function,
+
+141
+00:10:38,804 --> 00:10:41,637
+or our remainder function you could call it, is equal to
+
+142
+00:10:41,637 --> 00:10:51,297
+the n+1th derivative of our function. What we can continue in the next video,
+
+143
+00:10:51,297 --> 00:10:57,984
+is figure out, at least can we bound this, and if we're able to bound this,
+
+144
+00:10:57,984 --> 00:11:00,724
+if we're able to figure out an upper bound on its magnitude,
+
+145
+00:11:00,724 --> 00:11:04,393
+actually what we want to do is bound its overall magnitude, to bound
+
+146
+00:11:04,393 --> 00:11:06,993
+its absolute value.
+
+147
+00:11:06,993 --> 00:11:11,405
+If we can determine that it is less than or equal to some value m...
+
+148
+00:11:11,405 --> 00:11:15,260
+if we can actually bound it, maybe we can do a bit of calculus,
+
+149
+00:11:15,260 --> 00:11:17,333
+we can keep integrating it, and maybe we can go back to
+
+150
+00:11:17,333 --> 00:11:20,321
+the original function, and maybe we can bound that in some way.
+
+151
+00:11:20,321 --> 99:59:59,999
+If we do know some type of bound like this over here, so I'll take that up in the next video.

@@ -1,0 +1,483 @@
+1
+00:00:00,706 --> 00:00:02,098
+Let's do a few more examples
+
+2
+00:00:02,098 --> 00:00:04,247
+with the ideal gas equation.
+
+3
+00:00:04,247 --> 00:00:07,856
+So we have pressure times volume is equal to
+
+4
+00:00:07,856 --> 00:00:10,766
+the number of molecules we have in moles
+
+5
+00:00:10,766 --> 00:00:13,264
+times the ideal gas constant
+
+6
+00:00:13,264 --> 00:00:15,759
+times temperature in Kelvin.
+
+7
+00:00:15,759 --> 00:00:17,406
+And I just got a comment on one of the videos
+
+8
+00:00:17,406 --> 00:00:19,217
+saying it made sense
+
+9
+00:00:19,217 --> 00:00:20,274
+except for the fact that
+
+10
+00:00:20,274 --> 00:00:24,797
+R seems kind of like this mysterious thing in here.
+
+11
+00:00:24,797 --> 00:00:25,680
+And the way you think about R--
+
+12
+00:00:25,680 --> 00:00:27,222
+let me rearrange this a little bit.
+
+13
+00:00:27,222 --> 00:00:27,596
+Let me write it as
+
+14
+00:00:27,596 --> 00:00:33,544
+pressure times volume is equal to R times nT.
+
+15
+00:00:33,544 --> 00:00:34,473
+So we've established,
+
+16
+00:00:34,473 --> 00:00:36,182
+or hopefully we've established, the intuition
+
+17
+00:00:36,182 --> 00:00:37,823
+that the pressure times the volume
+
+18
+00:00:37,823 --> 00:00:39,392
+should be proportional to
+
+19
+00:00:39,392 --> 00:00:42,808
+essentially the total energy we have in the system.
+
+20
+00:00:42,808 --> 00:00:45,363
+Temperature is average energy,
+
+21
+00:00:45,363 --> 00:00:47,710
+or energy per molecule,
+
+22
+00:00:47,710 --> 00:00:49,677
+and this is the total number molecules we had.
+
+23
+00:00:49,677 --> 00:00:52,206
+What R is, the ideal gas constant is,
+
+24
+00:00:52,206 --> 00:00:53,941
+essentially it takes us to a world
+
+25
+00:00:53,941 --> 00:00:56,106
+this is when you multiply moles times Kelvin,
+
+26
+00:00:56,106 --> 00:00:58,776
+you get mole Kelvin.
+
+27
+00:00:58,776 --> 00:01:00,277
+And with pressure times volume,
+
+28
+00:01:00,277 --> 00:01:02,993
+it's force per area times the volume.
+
+29
+00:01:02,993 --> 00:01:05,036
+You get force times distance,
+
+30
+00:01:05,036 --> 00:01:07,651
+or force times one dimension of distance,
+
+31
+00:01:07,651 --> 00:01:08,657
+which is joules,
+
+32
+00:01:08,657 --> 00:01:10,909
+so this is in joules.
+
+33
+00:01:10,909 --> 00:01:13,787
+So what the ideal gas constant essentially does
+
+34
+00:01:13,787 --> 00:01:14,940
+is it converts--
+
+35
+00:01:14,940 --> 00:01:17,466
+we know that this is proportional to this,
+
+36
+00:01:17,466 --> 00:01:20,880
+but it sets the exact constant of proportionality
+
+37
+00:01:20,880 --> 00:01:23,415
+and it also makes sure we get the units right,
+
+38
+00:01:23,415 --> 00:01:24,580
+so that's all it is.
+
+39
+00:01:24,580 --> 00:01:26,478
+It just helps us translate from
+
+40
+00:01:26,478 --> 00:01:29,050
+a world dealing with moles and Kelvins
+
+41
+00:01:29,050 --> 00:01:30,713
+to a world dealing with,
+
+42
+00:01:30,713 --> 00:01:33,502
+well, in this case, atmospheres and liters,
+
+43
+00:01:33,502 --> 00:01:37,545
+or bars and meters cubed,
+
+44
+00:01:37,545 --> 00:01:39,168
+or kilopascals and meters cubed.
+
+45
+00:01:39,168 --> 00:01:40,344
+But no matter
+
+46
+00:01:40,344 --> 00:01:41,800
+what the units of the pressure and the volume are,
+
+47
+00:01:41,800 --> 00:01:43,802
+the whole unit of pressure times volume
+
+48
+00:01:43,802 --> 00:01:45,074
+is going to be joules.
+
+49
+00:01:45,074 --> 00:01:46,558
+So it's just a translation between the two
+
+50
+00:01:46,558 --> 00:01:48,476
+and we know that they're proportional.
+
+51
+00:01:48,476 --> 00:01:50,869
+Now, with that said, let's do some more problems.
+
+52
+00:01:50,869 --> 00:01:54,901
+So let's say we want to know
+
+53
+00:01:54,901 --> 00:01:56,497
+how many grams of oxygen.
+
+54
+00:01:56,497 --> 00:02:00,228
+So we want to know grams of O2.
+
+55
+00:02:00,228 --> 00:02:04,632
+So how many grams of O2
+
+56
+00:02:04,632 --> 00:02:10,237
+are in a 300-milliliter container
+
+57
+00:02:10,237 --> 00:02:14,205
+that has a pressure of 12 atmospheres
+
+58
+00:02:14,205 --> 00:02:20,311
+and the temperature is 10 degrees Celsius?
+
+59
+00:02:20,311 --> 00:02:22,044
+So let's just break out
+
+60
+00:02:22,044 --> 00:02:23,655
+Well, we've already broken out
+
+61
+00:02:23,655 --> 00:02:25,277
+our ideal gas equation.
+
+62
+00:02:25,277 --> 00:02:28,299
+So let's see, pressure is 12 atmospheres.
+
+63
+00:02:28,299 --> 00:02:31,387
+So we can say 12.
+
+64
+00:02:31,387 --> 00:02:32,902
+I'll keep the units there.
+
+65
+00:02:32,902 --> 00:02:35,879
+12 atmospheres times the volume.
+
+66
+00:02:35,879 --> 00:02:37,273
+The volume should be in liters,
+
+67
+00:02:37,273 --> 00:02:39,785
+so this is 300 milliliters,
+
+68
+00:02:39,785 --> 00:02:43,385
+or 300 thousandths or 3 tenths.
+
+69
+00:02:43,385 --> 00:02:48,176
+So that's 0.3 liters.
+
+70
+00:02:48,176 --> 00:02:53,242
+300 one thousandths of a liter is 0.3 liters.
+
+71
+00:02:53,242 --> 00:02:54,810
+And that is equal to
+
+72
+00:02:54,810 --> 00:02:57,234
+the number of moles we have of this,
+
+73
+00:02:57,234 --> 00:02:58,120
+and that's what we need to figure out.
+
+74
+00:02:58,120 --> 00:02:59,429
+If we know the number of moles,
+
+75
+00:02:59,429 --> 00:03:01,745
+we know the number of grams.
+
+76
+00:03:01,745 --> 00:03:04,405
+So this is equal to n times R.
+
+77
+00:03:04,405 --> 00:03:05,944
+Now which R should we use?
+
+78
+00:03:05,944 --> 00:03:08,668
+We're dealing with liters and atmospheres.
+
+79
+00:03:08,668 --> 00:03:10,265
+We'll deal with this one.
+
+80
+00:03:10,265 --> 00:03:14,243
+Liters, atmospheres, mole-Kelvin, 0.082.
+
+81
+00:03:14,243 --> 00:03:16,437
+Times 0.082.
+
+82
+00:03:16,437 --> 00:03:17,422
+And what's our temperature?
+
+83
+00:03:17,422 --> 00:03:19,090
+It's 10 degrees Celsius.
+
+84
+00:03:19,090 --> 00:03:20,758
+We always have to do everything in Kelvin.
+
+85
+00:03:20,758 --> 00:03:25,221
+So it's 283 degrees Kelvin.
+
+86
+00:03:25,221 --> 00:03:28,441
+So all we have to solve for is n.
+
+87
+00:03:28,441 --> 00:03:30,322
+We just have to divide both sides of this equation
+
+88
+00:03:30,322 --> 00:03:31,881
+by this right here,
+
+89
+00:03:31,881 --> 00:03:37,573
+and so we have n is equal to 12 atmospheres--
+
+90
+00:03:37,573 --> 00:03:39,215
+I'm just swapping the sides--
+
+91
+00:03:39,215 --> 00:03:41,236
+times 0.3 liters
+
+92
+00:03:41,236 --> 00:03:47,490
+divided by 0.082 times 283 degrees.
+
+93
+00:03:47,490 --> 00:03:49,235
+That is equal to---
+
+94
+00:03:49,235 --> 00:03:50,980
+Our answer will be in moles.
+
+95
+00:03:50,980 --> 00:03:52,586
+And if you want to verify that,
+
+96
+00:03:52,586 --> 00:03:54,586
+you can plug in all the units
+
+97
+00:03:54,586 --> 00:03:58,444
+and use units for the ideal gas constant.
+
+98
+00:03:58,444 --> 00:04:01,303
+The number of moles we're dealing with,
+
+99
+00:04:01,303 --> 00:04:11,698
+so it's 12 times 0.3 divided by 0.082 divided by 283
+
+100
+00:04:11,698 --> 00:04:22,622
+is equal to 0.155 moles.
+
+101
+00:04:22,622 --> 00:04:24,666
+Now how many grams
+
+102
+00:04:24,666 --> 00:04:31,444
+are in one mole of an oxygen molecule?
+
+103
+00:04:31,444 --> 00:04:35,902
+So one mole of O2,
+
+104
+00:04:35,902 --> 00:04:39,635
+well, we know oxygen's atomic mass.
+
+105
+00:04:39,635 --> 00:04:40,980
+It's 16.
+
+106
+00:04:40,980 --> 00:04:43,914
+One molecule of oxygen, of gaseous oxygen,
+
+107
+00:04:43,914 --> 00:04:46,327
+has two atoms in it,
+
+108
+00:04:46,327 --> 00:04:50,378
+so it has an atomic mass of 32.
+
+109
+00:04:50,378 --> 00:04:52,885
+32 atomic mass units.
+
+110
+00:04:52,885 --> 00:04:56,024
+So it's molar mass, it's mass per mole,
+
+111
+00:04:56,024 --> 00:04:58,666
+is going to be 32 grams.
+
+112
+00:04:58,666 --> 00:04:59,660
+Now we don't have one mole.
+
+113
+00:04:59,660 --> 00:05:02,121
+We have 0.155 moles.
+
+114
+00:05:02,121 --> 00:05:04,001
+So to figure out how many grams we have,
+
+115
+00:05:04,001 --> 00:05:21,219
+we multiply 32 grams per mole times 0.155 moles,
+
+116
+00:05:21,219 --> 00:05:23,341
+and we'll get our answer.
+
+117
+00:05:23,341 --> 00:05:24,612
+So let's do that.
+
+118
+00:05:24,612 --> 00:05:35,839
+So we have 32 times 0.155 is equal to 4.96 grams,
+
+119
+00:05:35,839 --> 00:05:37,184
+or roughly 5 grams.
+
+120
+00:05:37,184 --> 00:05:39,851
+So we have approximately
+
+121
+00:05:39,851 --> 99:59:59,999
+5 grams of molecular oxygen.

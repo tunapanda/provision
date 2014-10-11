@@ -1,0 +1,185 @@
+1
+00:00:00,262 --> 00:00:02,703
+Let's define some sets.
+
+2
+00:00:02,703 --> 00:00:13,036
+Let's say the set A is composed of 
+the numbers 1, 3, 5, 7 and 18
+
+3
+00:00:13,036 --> 00:00:25,371
+Let's say the set B is composed of 1, 7, and 18
+
+4
+00:00:25,371 --> 00:00:38,581
+and let's say that the set C is composed of 18, 7, 1, and 19.
+
+5
+00:00:38,581 --> 00:00:42,582
+What I want to start thinking about in this 
+video is the notion of a subset.
+
+6
+00:00:42,582 --> 00:00:47,414
+The first question is: Is B a subset of A?
+
+7
+00:00:48,829 --> 00:00:50,872
+What does a subset mean?
+
+8
+00:00:50,872 --> 00:00:56,319
+It's a subset if every member of the set 
+is also a member of the other set.
+
+9
+00:00:56,319 --> 00:01:04,195
+We can write that B is a subset of A, this is the notation.
+
+10
+00:01:04,195 --> 00:01:06,600
+B is a subset of A.
+
+11
+00:01:06,600 --> 00:01:09,426
+B is a subset, let me write that down.
+
+12
+00:01:09,426 --> 00:01:14,717
+B is subset of A.
+
+13
+00:01:14,717 --> 00:01:18,881
+Every element of B is a member of A.
+
+14
+00:01:18,881 --> 00:01:23,717
+We can go even further and say B is a "strict" subset of A
+
+15
+00:01:23,717 --> 00:01:27,230
+because B is a subset of A, but it does not equal A
+
+16
+00:01:27,230 --> 00:01:30,633
+which means that there are things in A that are not in B.
+
+17
+00:01:30,633 --> 00:01:37,477
+So we could go even further and say that B is a strict, or sometimes a "proper" subset of A.
+
+18
+00:01:38,768 --> 00:01:45,768
+You can almost imagine that this is a less than or equal sign, and then you cross out the equal part of the sign.
+
+19
+00:01:45,768 --> 00:01:47,706
+So this means a strict subset
+
+20
+00:01:47,706 --> 00:01:54,293
+which means that everything that is in B is a member of A, but everything that is in A is not a member of B.
+
+21
+00:01:54,323 --> 00:02:03,364
+B is a strict subset or proper subset.
+
+22
+00:02:03,364 --> 00:02:09,189
+For example, we can write that A is a subset of A.
+
+23
+00:02:09,189 --> 00:02:15,771
+In fact, every set is a subset of itself because everyone of its members is a member of A.
+
+24
+00:02:15,771 --> 00:02:21,297
+We cannot write that A is a strict subset of A.
+
+25
+00:02:21,297 --> 00:02:25,697
+This right over here is false.
+
+26
+00:02:25,697 --> 00:02:28,771
+Let's give ourselves a little bit more practice.
+
+27
+00:02:28,771 --> 00:02:40,430
+Can we write that B is a subset of C?
+
+28
+00:02:40,430 --> 00:02:48,231
+Let's see. C contains 1, 7, 18, so every member of B is indeed a member of C
+
+29
+00:02:48,231 --> 00:02:51,364
+so this right here is true.
+
+30
+00:02:51,364 --> 00:03:05,090
+Can we write that C is a subset of A?
+
+31
+00:03:05,090 --> 00:03:07,935
+Every element of C needs to be in A.
+
+32
+00:03:07,935 --> 00:03:19,425
+A has 18, 7, 1, but it does not have 19, 
+so once again, this is false.
+
+33
+00:03:19,425 --> 00:03:27,955
+We could write that B is a subset of C, or we 
+could even write that B is a strict subset of C.
+
+34
+00:03:28,570 --> 00:03:34,027
+We can also reverse the way we write this, and then we're really just talking about supersets.
+
+35
+00:03:34,027 --> 00:03:42,762
+We could reverse this notation and 
+say that A is a superset of B.
+
+36
+00:03:42,762 --> 00:03:45,678
+This is just another way of saying that B is a subset of A.
+
+37
+00:03:45,678 --> 00:03:53,248
+The way you can think about this is 
+A contains every element that is in B.
+
+38
+00:03:53,248 --> 00:03:57,101
+It might contain more or it might contain every element.
+
+39
+00:03:57,101 --> 00:04:02,575
+You can view this as the equal symbol 
+if this was greater or equal to (≥)
+
+40
+00:04:02,575 --> 00:04:04,434
+they're not quite exactly the same thing
+
+41
+00:04:04,434 --> 00:04:13,034
+but we know already that we can also 
+write that A is a strict superset of B
+
+42
+00:04:13,034 --> 00:04:17,099
+which means that A everything that B has, and then some.
+
+43
+00:04:17,099 --> 00:04:19,301
+A is not equivalent to B.
+
+44
+00:04:19,301 --> 00:04:23,301
+So hopefully this familiarizes you with the notions of 
+subsets and supersets and strict subsets.

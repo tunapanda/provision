@@ -1,0 +1,783 @@
+1
+00:00:00,000 --> 00:00:02,850
+I've been doing a bunch of videos about logarithmic scale
+
+2
+00:00:02,850 --> 00:00:07,432
+and we've also -- unfortunately -- had many notable earthquakes this year
+
+3
+00:00:07,432 --> 00:00:10,025
+so I thought I would do a video on the Richter Scale,
+
+4
+00:00:10,025 --> 00:00:14,862
+which is a way to measure - which is a way to measure earthquake magnitudes.
+
+5
+00:00:14,862 --> 00:00:19,074
+And just to be clear, although we associate the Richter Scale as the way we measure earthquakes now
+
+6
+00:00:19,074 --> 00:00:23,245
+the one we actually use now is the Moment Magnitude Scale,
+
+7
+00:00:23,245 --> 00:00:28,276
+and the reason why most people don't make a huge differentiation between the two is that
+
+8
+00:00:28,276 --> 00:00:32,648
+the Moment Magnitude scale was calibrated to the Richter Scale
+
+9
+00:00:32,648 --> 00:00:35,156
+for the whole reason why we moved to the Moment Magnitude Scale
+
+10
+00:00:35,156 --> 00:00:40,438
+is that the Richter Scale starts to kind of max out at around magnitude 7 earthqukes.
+
+11
+00:00:40,438 --> 00:00:44,972
+So this gives us a much better way to measure things that are above a magnitude 7.
+
+12
+00:00:44,972 --> 00:00:49,568
+So this right here is a picture of Charles Richter, he's passed away,
+
+13
+00:00:49,568 --> 00:00:53,734
+but this is from an interview that he gave, and it's interesting because it kinda
+
+14
+00:00:53,734 --> 00:00:57,265
+gives the rationale for how he came up with the Richter Scale.
+
+15
+00:00:57,265 --> 00:01:01,638
+"I found a paper by Professor K. Wadati of Japan in which he compared
+
+16
+00:01:01,638 --> 00:01:07,562
+large earthquakes by plotting the maximum ground motion against the distance to the epicenter."
+
+17
+00:01:07,562 --> 00:01:10,785
+So this Professor K. Wadati would -- you could imagine --
+
+18
+00:01:10,785 --> 00:01:14,205
+he did a plot like this, where this is distance -- distance --
+
+19
+00:01:14,205 --> 00:01:19,049
+So if you have an earthquake someplace, you aren't always sitting right on top of the epicenter
+
+20
+00:01:19,049 --> 00:01:20,257
+where you measure it.
+
+21
+00:01:20,257 --> 00:01:22,080
+You might be sitting over here. You're actually measure --
+
+22
+00:01:22,080 --> 00:01:25,179
+your measuring stations might be some distance away.
+
+23
+00:01:25,179 --> 00:01:28,245
+So he looks at how far the measuring station was and then he looks at
+
+24
+00:01:28,245 --> 00:01:33,562
+the ground motion at the measuring station. So that would be some earthquake over there.
+
+25
+00:01:33,562 --> 00:01:37,193
+A relatively -- let's say that's a relatively medium earthquake.
+
+26
+00:01:37,193 --> 00:01:39,112
+This right over here would be a weak earthquake
+
+27
+00:01:39,112 --> 00:01:40,920
+because you're close to the earthquake
+
+28
+00:01:40,920 --> 00:01:44,359
+and it still didn't move the ground much. So I mean this is the magnitude,
+
+29
+00:01:44,359 --> 00:01:46,264
+this axis is the magnitude.
+
+30
+00:01:46,264 --> 00:01:47,883
+How much the ground is moving.
+
+31
+00:01:47,883 --> 00:01:51,100
+And then for example, this would be a very strong earthquake.
+
+32
+00:01:51,100 --> 00:01:53,926
+And then Charles Richter said in the interview:
+
+33
+00:01:53,926 --> 00:01:55,908
+"I tried a similar procedure for our stations,
+
+34
+00:01:55,908 --> 00:01:58,685
+but the range between the largest and smallest magnitudes seemed
+
+35
+00:01:58,685 --> 00:02:01,288
+unmanageably large."
+
+36
+00:02:01,288 --> 00:02:04,622
+So what he's saying is when he tried to plot it like Professor Wadati,
+
+37
+00:02:04,622 --> 00:02:08,454
+he found that: Ok you can put -- you get some earthquakes that you can plot around here,
+
+38
+00:02:08,454 --> 00:02:13,609
+but no matter how you create a linear scale, no matter how you do a linear scale over here,
+
+39
+00:02:13,609 --> 00:02:15,745
+if you want any resolution down here,
+
+40
+00:02:15,745 --> 00:02:18,663
+the stronger earthquakes go off the charts, or maybe off the page.
+
+41
+00:02:18,663 --> 00:02:22,216
+So the stronger earthquakes you might have to start plotting here, or here,
+
+42
+00:02:22,216 --> 00:02:25,096
+or maybe they don't even fit on the page.
+
+43
+00:02:25,096 --> 00:02:29,019
+And so he says "Dr. Bino Gutenburg --" And they were all working at CalTech when
+
+44
+00:02:29,019 --> 00:02:33,856
+they came up with the Richter Scale. "Dr. Bino Gutenburg then made the natural suggestion
+
+45
+00:02:33,856 --> 00:02:41,931
+to plot the amplitudes logarithmically. I was -- I was lucky because logarithmic plots are a device of the devil."
+
+46
+00:02:41,931 --> 00:02:45,567
+And I'm not really sure what he means when he says they were "a device of the devil,"
+
+47
+00:02:45,567 --> 00:02:49,616
+I'm assuming he means that they're kind of magical, that all of a sudden you can take these things,
+
+48
+00:02:49,616 --> 00:02:52,062
+that you want your resolution down here
+
+49
+00:02:52,062 --> 00:02:54,493
+or you want to be able to tell the difference between these weak earthquakes,
+
+50
+00:02:54,493 --> 00:02:57,558
+but at the same time you want to be able to compare them to the large earthquakes.
+
+51
+00:02:57,558 --> 00:03:01,837
+And he thought -- I guess he viewed them as a bit of a magical instrument.
+
+52
+00:03:01,837 --> 00:03:06,577
+And we say that they are logarithmic -- or he plotted them on a logarithmic scale --
+
+53
+00:03:06,577 --> 00:03:11,078
+what essentially it is he's saying -- is essentially taking the logarithm of the
+
+54
+00:03:11,078 --> 00:03:13,593
+magnitude of every one of those earthquakes.
+
+55
+00:03:13,593 --> 00:03:15,815
+So if you're measuring the earthquake, maybe on the
+
+56
+00:03:15,815 --> 00:03:19,235
+seismograph, so this is before the earthquake, then the earthquake hits,
+
+57
+00:03:19,235 --> 00:03:24,454
+and then the earthquake stops and then you measure the amplitude of this earthquake.
+
+58
+00:03:24,454 --> 00:03:27,780
+If you just plotted them linearly, you'd have the problem that he saw
+
+59
+00:03:27,780 --> 00:03:32,125
+or if you tried to plot them the way that Professor Wadati did you'd have that problem,
+
+60
+00:03:32,125 --> 00:03:35,358
+but what he did is that he measures this now and he plots the logarithm --
+
+61
+00:03:35,358 --> 00:03:41,734
+the logarithm of that, and so what happens is that you get a scale that is plotted -- or that you
+
+62
+00:03:41,734 --> 00:03:44,500
+get a logarithmic scale, for lack of a better word.
+
+63
+00:03:44,500 --> 00:03:47,819
+But what I want to do in this video is think about what implication that has
+
+64
+00:03:47,819 --> 00:03:51,821
+for the magnitude of earthquakes, especially some of the earthquakes that we have seen lately.
+
+65
+00:03:51,821 --> 00:03:57,023
+So this right here is the earthquake that occured August 23rd on the East Coast of the United States
+
+66
+00:03:57,023 --> 00:03:59,825
+and it wasn't that strong of an earthquake, it was a 5.8,
+
+67
+00:03:59,825 --> 00:04:02,688
+that's not a small earthquake, you would definitely feel it, it's a good bit of shaking
+
+68
+00:04:02,688 --> 00:04:04,809
+it could even cause some minor damage.
+
+69
+00:04:04,809 --> 00:04:08,282
+But the reason why it's notable is because it happened in a part of the world
+
+70
+00:04:08,282 --> 00:04:10,930
+that does not see earthquakes too frequently.
+
+71
+00:04:10,930 --> 00:04:14,462
+So let's just take that on our scale. I'm going to go down way over here.
+
+72
+00:04:14,462 --> 00:04:16,666
+So I'm going to do our scale over here.
+
+73
+00:04:16,666 --> 00:04:17,993
+So let's just put that as a 5.8.
+
+74
+00:04:18,009 --> 00:04:19,641
+I'm going to call this a 5.8.
+
+75
+00:04:19,641 --> 00:04:22,921
+So if you shake your seat fairly fairly vigorously, it might help you
+
+76
+00:04:22,921 --> 00:04:26,048
+know what it felt like on top of that earthquake,
+
+77
+00:04:26,048 --> 00:04:28,904
+so this is 2011 East Coast Earthquake.
+
+78
+00:04:28,904 --> 00:04:36,769
+And then probably the most famous earthquake in the United States is the one that occurred
+
+79
+00:04:36,769 --> 00:04:41,960
+at Loma Prieta over here about 40 or 50 miles south of
+
+80
+00:04:41,960 --> 00:04:44,839
+San Francisco -- and this is damage caused in San Francisco,
+
+81
+00:04:44,839 --> 00:04:49,622
+a freeway collapsed right over here, and this whole area actually became very nice after they removed
+
+82
+00:04:49,622 --> 00:04:51,527
+this freeway.
+
+83
+00:04:51,527 --> 00:04:55,729
+But you can imagine how powerful this was, that it was able to cause this type of damage this far away
+
+84
+00:04:55,729 --> 00:04:59,862
+And actually I live right over here, so I'm glad I wasn't around
+
+85
+00:04:59,862 --> 00:05:03,044
+or I wasn't in the Bay Area during that earthquake.
+
+86
+00:05:03,044 --> 00:05:07,037
+But that earthquake, I've -- depending on how you measure it -- is a 7.0. So that earthquake measured
+
+87
+00:05:07,037 --> 00:05:11,496
+at a 7.0,
+
+88
+00:05:11,496 --> 00:05:13,400
+so let's call this this over here is 7.
+
+89
+00:05:13,400 --> 00:05:17,649
+Let's do that in a color you're going to see. So that earthquake
+
+90
+00:05:17,649 --> 00:05:20,482
+was a 7.
+
+91
+00:05:20,482 --> 00:05:25,730
+Loma Prietta. That's in the San Francisco Bay area, and that earthquake was in
+
+92
+00:05:25,730 --> 00:05:28,911
+1989, it happened actually right before the World Series.
+
+93
+00:05:28,911 --> 00:05:32,997
+And then in 2011 an very unfortunate
+
+94
+00:05:32,997 --> 00:05:35,784
+earthquake in japan, the tohoku earthquake,
+
+95
+00:05:35,784 --> 00:05:39,313
+Right over here, this circle shows the magnitude of the earthquake,
+
+96
+00:05:39,313 --> 00:05:41,055
+it was off the coast of Japan
+
+97
+00:05:41,055 --> 00:05:42,912
+All of these were the after shocks,
+
+98
+00:05:42,912 --> 00:05:45,281
+and the damage it caused was actually the tsunami it caused
+
+99
+00:05:45,281 --> 00:05:48,485
+and the damage it did to the Fukushima Nuclear Power Plant
+
+100
+00:05:48,485 --> 00:05:53,083
+well sometimes it's called 8.9 or 9.0,
+
+101
+00:05:53,083 --> 00:05:56,426
+let's just call that a 9.0 for simplicity.
+
+102
+00:05:56,426 --> 00:06:01,581
+So this is almost 6 and this would be 7 and at 8 would get us almost over there and
+
+103
+00:06:01,581 --> 00:06:10,498
+so 9.0 is right over there, so this is 2011 Japan -- the earthquake in Japan.
+
+104
+00:06:10,498 --> 00:06:16,163
+And the greatest earthquake ever recorded was the Chilean earthquake in
+
+105
+00:06:16,163 --> 00:06:20,575
+1960, that was a 9.5, so 9.5
+
+106
+00:06:20,575 --> 00:06:23,803
+would stick us right over here.
+
+107
+00:06:23,803 --> 00:06:29,631
+And this is the 1960 earthquake in Chile.
+
+108
+00:06:29,631 --> 00:06:31,349
+And to just give us a sense, you know
+
+109
+00:06:31,349 --> 00:06:33,323
+when you look at this, if this was a linear scale,
+
+110
+00:06:33,323 --> 00:06:35,459
+you'd say that the Chilean earthquake was
+
+111
+00:06:35,459 --> 00:06:40,776
+a little bit than twice as bad as the East Coast earthquake, and that doesn't seem as bad
+
+112
+00:06:40,776 --> 00:06:43,841
+until you realize that it isn't a linear scale, it's a logarithmic scale
+
+113
+00:06:43,841 --> 00:06:53,710
+and the way that you interpret it is thinking about how many powers of ten one of these earthquakes
+
+114
+00:06:53,710 --> 00:06:55,312
+is from another.
+
+115
+00:06:55,312 --> 00:06:57,263
+So you can view these as powers of 10.
+
+116
+00:06:57,263 --> 00:07:06,922
+So if you take -- go from 5.8 to 7.0, that was 1.2 difference, but remember this is a logarithmic scale
+
+117
+00:07:06,922 --> 00:07:08,919
+and I encourage you to watch the videos we made
+
+118
+00:07:08,919 --> 00:07:10,800
+on the logarithmic scale.
+
+119
+00:07:10,800 --> 00:07:15,026
+On a logarithmic scale, a fixed distance is not a fixed amount of movement
+
+120
+00:07:15,026 --> 00:07:17,557
+or change on that scale
+
+121
+00:07:17,557 --> 00:07:20,784
+it's not kinda a fixed linear distance,
+
+122
+00:07:20,784 --> 00:07:23,037
+it's actually a scaling factor.
+
+123
+00:07:23,037 --> 00:07:25,382
+And you're not scaling by 1.2 right over here.
+
+124
+00:07:25,382 --> 00:07:27,634
+You're scaling by 10 to the 1.2 power.
+
+125
+00:07:27,634 --> 00:07:31,442
+So this is times 10 to the 1.2 power.
+
+126
+00:07:31,442 --> 00:07:36,899
+Let me get my calculator right over here and let's figure
+
+127
+00:07:36,899 --> 00:07:38,478
+what that is.
+
+128
+00:07:38,478 --> 00:07:40,196
+So you can imagine what it's going to be:
+
+129
+00:07:40,196 --> 00:07:42,379
+10 to the first power is 10. An then you have .2.
+
+130
+00:07:42,379 --> 00:07:46,396
+So it's gonna be, let's do it.
+
+131
+00:07:46,396 --> 00:07:52,247
+10 to the 1.2 power. It's 15.8, so it's roughly 16 times stronger.
+
+132
+00:07:52,247 --> 00:07:55,034
+So whatever shaking there was just felt on the east cost
+
+133
+00:07:55,034 --> 00:07:57,797
+and maybe some of you watching this might have felt it.
+
+134
+00:07:57,797 --> 00:08:01,373
+Loma Prieta earthquake was 16 times stronger.
+
+135
+00:08:01,373 --> 00:08:08,107
+Let me write this: it is 16 times stronger than the one
+
+136
+00:08:08,107 --> 00:08:09,848
+we've just had in the east cost.
+
+137
+00:08:09,848 --> 00:08:11,265
+So that's a dramatic difference.
+
+138
+00:08:11,265 --> 00:08:13,099
+Even though this caused some damage
+
+139
+00:08:13,099 --> 00:08:17,650
+and this kind of shaking on, you know, on a pretty good scale
+
+140
+00:08:17,650 --> 00:08:21,388
+imagine 16 times as much shaking and how much damage would that cause.
+
+141
+00:08:21,388 --> 00:08:23,432
+I've actually just met a reporter who told me that
+
+142
+00:08:23,432 --> 00:08:25,591
+she was in her backyard in the Loma Prieta earthquake
+
+143
+00:08:25,591 --> 00:08:27,333
+not too far from where I live now
+
+144
+00:08:27,333 --> 00:08:29,724
+and she says "all the cars were like jumping up and down"
+
+145
+00:08:29,724 --> 00:08:32,511
+so it was a massive earthquake.
+
+146
+00:08:32,511 --> 00:08:34,438
+Now let's think about the japanese earthquake.
+
+147
+00:08:34,438 --> 00:08:36,667
+We could think about how much stronger was it than Loma Prieta?
+
+148
+00:08:36,667 --> 00:08:39,059
+So remember: you don't just think of this as:
+
+149
+00:08:39,059 --> 00:08:42,913
+"oh, it's just you know - this is just 2 times stronger".
+
+150
+00:08:42,913 --> 00:08:45,235
+It's 10 to the second times stronger
+
+151
+00:08:45,235 --> 00:08:47,047
+and we know how to figure that out.
+
+152
+00:08:47,047 --> 00:08:48,834
+10 to the second power is a 100.
+
+153
+00:08:48,834 --> 00:08:52,248
+So this right over here, so cars were jumping up and down at Loma Prieta earthquake.
+
+154
+00:08:52,248 --> 00:08:59,957
+The japanese earthquake was 100 times stronger than Loma Prieta.
+
+155
+00:08:59,957 --> 00:09:02,650
+And if you compare to the East Cost earthquake
+
+156
+00:09:02,650 --> 00:09:09,222
+it'd be 16 00 times the East Cost earthquake that occured
+
+157
+00:09:09,222 --> 00:09:11,079
+in August of 2011.
+
+158
+00:09:11,079 --> 00:09:13,680
+So massive earthquake.
+
+159
+00:09:13,680 --> 00:09:15,770
+And just to get a sense of how much stronger
+
+160
+00:09:15,770 --> 00:09:17,906
+the chilean earthquake was at 1960...
+
+161
+00:09:17,906 --> 00:09:21,551
+and there are some fascinating outcomes of the japanese earthquake.
+
+162
+00:09:21,551 --> 00:09:24,802
+It was estimated that Japan over the course of earthquake
+
+163
+00:09:24,802 --> 00:09:29,028
+got 13 feet wider.
+
+164
+00:09:29,028 --> 00:09:35,808
+So this is doing something to the actual shape of a huge island
+
+165
+00:09:35,808 --> 00:09:39,361
+and of top of that it's estimated that because of the shaking
+
+166
+00:09:39,361 --> 00:09:42,449
+and the distortions in Earth caused by that shaking
+
+167
+00:09:42,449 --> 00:09:46,490
+That the day on Earth got one milionth of a second shorter.
+
+168
+00:09:46,490 --> 00:09:48,603
+Little over milionth of the second shorter.
+
+169
+00:09:48,603 --> 00:09:50,437
+So you might say: "hey it's only milionth of a second".
+
+170
+00:09:50,437 --> 00:09:53,479
+But I say, hey look! It actually changed the day of the Earth,
+
+171
+00:09:53,479 --> 00:09:55,545
+the very fundamental thing and it actually matter
+
+172
+00:09:55,545 --> 00:09:58,425
+when people send thing to space and probes into Mars
+
+173
+00:09:58,425 --> 00:10:02,326
+that they're able to know that our day just got milionth of a second shorter.
+
+174
+00:10:02,326 --> 00:10:05,298
+So this was already a massive quake
+
+175
+00:10:05,298 --> 00:10:09,826
+and the chilean earthquake is going to be 10 to the 0.5 times stronger
+
+176
+00:10:09,826 --> 00:10:11,985
+than that. So let's get out calculator out.
+
+177
+00:10:11,985 --> 00:10:14,307
+So you can really view it as a square root of 10.
+
+178
+00:10:14,307 --> 00:10:17,604
+So 10 to the 0.5 is the same thing as 10 to the one half.
+
+179
+00:10:17,604 --> 00:10:21,273
+Which is the same thing as square root of 10.
+
+180
+00:10:21,273 --> 00:10:23,154
+Which is 3.16.
+
+181
+00:10:23,154 --> 00:10:28,262
+So the strongest earthquake on record was 3.16 times stronger
+
+182
+00:10:28,262 --> 00:10:30,399
+than the japanese earthquake
+
+183
+00:10:30,399 --> 00:10:32,326
+the one that shortened the day of the planet
+
+184
+00:10:32,326 --> 00:10:35,530
+the one that made Japan 13 feet wider.
+
+185
+00:10:35,530 --> 00:10:40,592
+And so this was, if you want to compare it to the East Cost earthquake
+
+186
+00:10:40,592 --> 00:10:46,281
+this would be almost or about 5000 times stronger,
+
+187
+00:10:46,281 --> 00:10:48,115
+so massive earthquake.
+
+188
+00:10:48,115 --> 00:10:51,714
+So one: hopefuly that gives you a sense of what Richter scale
+
+189
+00:10:51,714 --> 00:10:54,036
+is all about and also gives you sense of how massive
+
+190
+00:10:54,036 --> 00:10:56,080
+some of these supermassive earthquakes are.
+
+191
+00:10:56,080 --> 00:10:58,657
+And you can also appreciate what Charles Richter first problem was.
+
+192
+00:10:58,657 --> 00:11:01,072
+If you want to plot all of these on the same linear plot
+
+193
+00:11:01,072 --> 00:11:07,249
+you'd have to stick this one - 5000 further along an axis
+
+194
+00:11:07,249 --> 00:11:09,106
+than you would have to stick this one.
+
+195
+00:11:09,106 --> 00:11:12,705
+And this one itself it's still a pretty big earthquake
+
+196
+00:11:12,705 --> 99:59:59,999
+so this would have to be 5000 times further than some of the earthquakes

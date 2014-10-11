@@ -1,0 +1,203 @@
+1
+00:00:00,000 --> 00:00:01,803
+So let's think about how
+
+2
+00:00:01,803 --> 00:00:03,809
+we could find the slope of the tangent line
+
+3
+00:00:03,809 --> 00:00:07,024
+to this curve right over here, so what I've drawn in red-
+
+4
+00:00:07,024 --> 00:00:11,801
+at the point x=a. We've already seen this with the definition of the derivative.
+
+5
+00:00:11,801 --> 00:00:16,073
+We can try to find a general function that gives us the slope of the tangent line at any point
+
+6
+00:00:16,073 --> 00:00:22,439
+So let's see we have some arbitrary point - let's define some arbitrary point x right over here
+
+7
+00:00:22,439 --> 00:00:31,468
+then this would be the point (x,f(x)) and then we could take some x+h - so let's say that this right over here
+
+8
+00:00:31,468 --> 00:00:36,601
+is the point x+h, so this point
+
+9
+00:00:36,601 --> 00:00:44,437
+would be (x+h,f(x+h)), we can find the slope of
+
+10
+00:00:44,437 --> 00:00:47,607
+the secant line, that goes between these two points,
+
+11
+00:00:47,607 --> 00:00:50,076
+so that would be your change in your vertical,
+
+12
+00:00:50,076 --> 00:00:54,637
+which would be f(x+h), f of x plus h,
+
+13
+00:00:54,637 --> 00:01:03,111
+minus f(x), minus f(x), over the change in the horizontal,
+
+14
+00:01:03,111 --> 00:01:09,397
+which would be x+h minus x, minus x;
+
+15
+00:01:09,397 --> 00:01:15,202
+and these two x's cancel, so this would be the slope of this secant line,
+
+16
+00:01:15,202 --> 00:01:20,072
+and if we wanna find the slope of the tangent line at x - the slope of the tangent line at x-
+
+17
+00:01:20,072 --> 00:01:24,008
+we would just take the limit - the limit of this expression -
+
+18
+00:01:24,008 --> 00:01:32,067
+as h approaches 0, as h approaches 0, this point moves toward x, and that slope of the
+
+19
+00:01:32,067 --> 00:01:35,898
+secant line between these two is going to approximate the slope of the tangent at x
+
+20
+00:01:35,898 --> 00:01:44,028
+And so this right over here - this we would say is equal to f'(x) [f-prime of x]
+
+21
+00:01:44,028 --> 00:01:50,537
+This is still - this is a function of x! You give me an arbitrary x, where the derivative is defined,
+
+22
+00:01:50,537 --> 00:01:55,733
+I'm gonna plug it into this, whatever this ends up being, it might be some clean algebraic expression,
+
+23
+00:01:55,733 --> 00:01:59,204
+and then I'm gonna give you a number. So, for example, if you wanted to find
+
+24
+00:01:59,204 --> 00:02:05,334
+you, you could calculate this somehow or you could even leave it in this form, and then if you wanted f'(a)
+
+25
+00:02:05,334 --> 00:02:10,702
+[f-prime of a], you would just substitute a into your function definition,
+
+26
+00:02:10,702 --> 00:02:15,870
+and you would say, well that's going to be the limit as h approaches 0
+
+27
+00:02:15,870 --> 00:02:21,536
+of every place you see an x or every place you see an a. I'll stay in this colour for now...
+
+28
+00:02:21,536 --> 00:02:33,069
+Blank plus h minus, minus - minus f of blank, minus f of blank - all of that over
+
+29
+00:02:33,069 --> 00:02:41,340
+all of that over h. And I left those blank so I could write the a - I could write the a in red.
+
+30
+00:02:41,340 --> 00:02:44,343
+Notice every place where I had an x before, it's now an a.
+
+31
+00:02:44,343 --> 00:02:52,069
+So this is the derivative evaluated at a. So this is one way to find the slope of the tangent line when x=a.
+
+32
+00:02:52,069 --> 00:02:58,800
+Another way - this often viewed as the alternate form of the derivative - would be to do it directly.
+
+33
+00:02:58,800 --> 00:03:07,340
+So this is the point (a,f(a)), let's just take another arbitrary point [unintelligible] someplace -
+
+34
+00:03:07,340 --> 00:03:13,588
+so let's say this is the value x - this point right over here on the function would be (x,f(x)) -
+
+35
+00:03:13,588 --> 00:03:20,876
+So what's the slope of the secant line between these two points? It would be the change in the vertical,
+
+36
+00:03:20,876 --> 00:03:29,200
+which would be f(x) minus f(a) - minus f(a)- over a change in the horizontal.
+
+37
+00:03:29,200 --> 00:03:36,422
+Over x-a. So let me do that in a purple colour - over x minus a.
+
+38
+00:03:36,422 --> 00:03:42,870
+Now, how could we get a better approximation of the slope of the tangent line here?
+
+39
+00:03:42,870 --> 00:03:48,085
+Well, we could take the limit as x approaches a, as x gets closer and closer and closer to a,
+
+40
+00:03:48,085 --> 00:03:54,000
+the secant line slope is going to better and better and better approximate the slope of the tangent line.
+
+41
+00:03:54,000 --> 00:03:58,252
+This tangent line that I have in red here. So we would wanna take the limit
+
+42
+00:03:58,252 --> 00:04:06,276
+the limit - as, as x approaches a here. Either way, we're doing a very similar -
+
+43
+00:04:06,276 --> 00:04:10,475
+we're doing the exact same thing - we're finding the - we're taking the s- we're, we're having an expression
+
+44
+00:04:10,475 --> 00:04:16,866
+for the slope of a secant line, and then we're bringing those x values of those points closer and closer together,
+
+45
+00:04:16,866 --> 00:04:21,808
+closer and closer together, so the slopes of those secant lines better and better and better
+
+46
+00:04:21,808 --> 00:04:24,753
+approximate that slope of the tangent line.
+
+47
+00:04:24,753 --> 00:04:29,936
+And at the limit, it does become the slope of the tangent line, that is the derivative of - that is the definition of
+
+48
+00:04:29,936 --> 00:04:36,067
+so this is the cl- the more kind of standard definition of the derivative, if would give you your derivative as a function
+
+49
+00:04:36,067 --> 00:04:41,200
+of x, and then you can then input your x if you wan- your, your uh - the particular value of x, or you can
+
+50
+00:04:41,200 --> 00:04:47,869
+use the alternate form of the derivative - if you know that hey, look, I'm just looking to find the derivative exactly at a,
+
+51
+00:04:47,869 --> 00:04:51,869
+I don't need a general function of f, then you could do this. But they're doing the same thing.

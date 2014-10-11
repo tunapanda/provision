@@ -1,0 +1,303 @@
+1
+00:00:00,000 --> 00:00:06,243
+In the last video we studied a super simplified economy that only sold one good or service.
+
+2
+00:00:06,320 --> 00:00:11,668
+But now let's think about things a little bit more generally a little bit, you know, more complex economies.
+
+3
+00:00:11,668 --> 00:00:17,319
+And let's say that in year one economists have determined
+
+4
+00:00:17,319 --> 00:00:24,570
+that the level of prices of goods and services produced in that economy is a 100.
+
+5
+00:00:24,589 --> 00:00:28,660
+So they've esencially just multiplied and divided it by right numbers
+
+6
+00:00:28,660 --> 00:00:32,431
+so that their index that they generate just says that is 100.
+
+7
+00:00:32,431 --> 00:00:34,916
+And they do this so that they can measure the prices
+
+8
+00:00:34,916 --> 00:00:37,882
+in other years relative to year one.
+
+9
+00:00:37,882 --> 00:00:43,325
+So let's say in year two using their index,
+
+10
+00:00:43,325 --> 00:00:47,944
+they realise that prices are now 110.
+
+11
+00:00:47,944 --> 00:00:50,280
+Now this is not a simple thing to do.
+
+12
+00:00:50,280 --> 00:00:53,475
+This would have been a very simple thing to do if there was only one good
+
+13
+00:00:53,475 --> 00:00:56,848
+or service in the economy, like our last example - apples.
+
+14
+00:00:56,848 --> 00:01:01,189
+You could have just taken the price of apples that went from 50 cents to 55 cents.
+
+15
+00:01:01,189 --> 00:01:05,808
+In real world this is not a simple thing to do. You have gazillion goods and services.
+
+16
+00:01:05,808 --> 00:01:08,889
+Some prices go up, some prices go down.
+
+17
+00:01:08,889 --> 00:01:11,569
+The quantities of the goods and services change in fact.
+
+18
+00:01:11,569 --> 00:01:16,291
+They might be goods and services that are offered in year one but don't exist any more in year two
+
+19
+00:01:16,291 --> 00:01:19,816
+There are goods and services in year two that didn't exist in year one.
+
+20
+00:01:19,816 --> 00:01:23,645
+But for the sake of this video let's just assume that economists are able to say this
+
+21
+00:01:23,645 --> 00:01:26,854
+If you call the generell level of prices a 100 in year one
+
+22
+00:01:26,854 --> 00:01:32,991
+it's now a 110 or in other way that think about there're things of gotten 10 % more expensive.
+
+23
+00:01:32,991 --> 00:01:37,655
+Now if we assuming that we had we know this relationship it's one again it's an easy thing
+
+24
+00:01:37,655 --> 00:01:41,989
+to figure out and it actually turns out there is no perfect way to do this
+
+25
+00:01:41,989 --> 00:01:46,999
+How can we figure out the relationship between real GDP and nominal GDP?
+
+26
+00:01:46,999 --> 00:01:52,588
+And remember whenever we talk about real GDP so we talk about real GDP in year two
+
+27
+00:01:52,588 --> 00:01:57,125
+So real GDP in year two.
+
+28
+00:01:57,125 --> 00:02:03,227
+Whatever you talk about real GDP you're talking about GDP in terms of the prices in some base year.
+
+29
+00:02:03,227 --> 00:02:11,498
+So in this example we think about real GDP in year two in terms of year one dollars.
+
+30
+00:02:11,498 --> 00:02:16,174
+So whatever were goods and services that we produced in year two,
+
+31
+00:02:16,174 --> 00:02:20,448
+we're going to think about, what if they were in the same prices as in year one.
+
+32
+00:02:20,448 --> 00:02:23,726
+That would give us the real GDP in year two.
+
+33
+00:02:23,726 --> 00:02:26,704
+So one what we think about it really just a ratio
+
+34
+00:02:26,704 --> 00:02:30,693
+So the ratio, so let's me write, nominal GDP,
+
+35
+00:02:30,693 --> 00:02:35,109
+so this is GDP in year two measured in year two dollars,
+
+36
+00:02:35,109 --> 00:02:39,746
+devided by, I guess we call this as proportion really,
+
+37
+00:02:39,746 --> 00:02:53,491
+devided by a real GDP in year two and is measured in year one dollars.
+
+38
+00:02:53,524 --> 00:02:59,060
+Well, that's going to be the same thing as the ratio of the prices between year two and year one.
+
+39
+00:02:59,060 --> 00:03:08,337
+This is going to be the ratio of, we use the syndicate right over here, 110 to 100.
+
+40
+00:03:08,352 --> 00:03:10,809
+I want you to sitting thing about this for second.
+
+41
+00:03:10,809 --> 00:03:14,563
+It's just saying "Look, the same goods, these are measuring the same goods and services
+
+42
+00:03:14,563 --> 00:03:22,522
+The real GDP is mesauring them in year one prices. The nominal GDP is mesauring them in year two prices.
+
+43
+00:03:22,522 --> 00:03:26,257
+So things got 10 % more expensive between year one and year two.
+
+44
+00:03:26,257 --> 00:03:29,724
+The nominal GDP should be 10 % larger than real GDP.
+
+45
+00:03:29,724 --> 00:03:32,058
+We should have in exactly same ratios.
+
+46
+00:03:32,058 --> 00:03:36,063
+And now we can manipuliate this thing using any type of algebra that we want.
+
+47
+00:03:36,063 --> 00:03:44,474
+For example we could say "Well, nominal GDP not that's right nominal now, but this is right a kind of specify that exaclly we're talking about
+
+48
+00:03:44,474 --> 00:03:47,191
+This is a nominal GDP of year two
+
+49
+00:03:47,191 --> 00:03:54,977
+So now we could say nominal GDP is equal to we can multiplay boatsides times that's the real GDP.
+
+50
+00:03:54,977 --> 00:04:04,794
+It's equal to 110 over 100 times the real GDP.
+
+51
+00:04:04,824 --> 00:04:12,724
+Remember it's real GDP in year two measured in year one dollars.
+
+52
+00:04:12,724 --> 00:04:19,200
+Or we can measure, we can devide, we can devide boatsides of this equation by this 110 over 100
+
+53
+00:04:19,200 --> 00:04:40,270
+and then we get nominal GDP in year two devided by 110 is egual to real GDP.
+
+54
+00:04:40,270 --> 00:04:45,597
+This is nominal GDP in year two.
+
+55
+00:04:45,597 --> 00:04:50,263
+And writing in this way the kind of feels like you're taking nominal GDP in year two
+
+56
+00:04:50,263 --> 00:04:53,667
+and prices have increased, there would be the generall increase in the level od prices
+
+57
+00:04:53,667 --> 00:04:57,921
+that's cold price infaltion. We see that right over here and now we're deflating it
+
+58
+00:04:57,921 --> 00:05:02,857
+to get real GDP. We're dividing it by the ratio of the prices.
+
+59
+00:05:02,857 --> 00:05:05,789
+We're dividing it esencially by how much the prices have gone.
+
+60
+00:05:05,789 --> 00:05:09,524
+I guess that's say the ratio between the year two prices and year one prices.
+
+61
+00:05:09,524 --> 00:05:13,425
+This quantity right over here is 1.1
+
+62
+00:05:13,425 --> 00:05:17,836
+So another way you could think we're deflating the nominal GDP in year two
+
+63
+00:05:17,836 --> 00:05:26,009
+to get the real GDP in year two or getting it in, remember this is in year one prices.
+
+64
+00:05:26,009 --> 00:05:33,476
+And because od that this number right over here, this number right over here is refered to as the deflator
+
+65
+00:05:33,476 --> 00:05:38,546
+This is our GDP deflator.
+
+66
+00:05:38,546 --> 00:05:47,318
+You pick up base year and in this case was year one that base year could be 1985 it could be 2006, and also it could be anything.
+
+67
+00:05:47,318 --> 00:05:50,632
+Your GDP deflator is going to be relative to that base year.
+
+68
+00:05:50,632 --> 00:05:56,145
+Well, that base year was a 100, your deflator, was gonna say, how much things are now in this year?
+
+69
+00:05:56,145 --> 00:06:01,657
+And you can even go backwords in time. Year 0 that deflator might be even 1985 because maybe things are going cheaper.
+
+70
+00:06:01,657 --> 00:06:04,528
+Or you could actually had prices go down
+
+71
+00:06:04,528 --> 00:06:08,991
+You could actually had deflation, so maybe in year two your deflator would be 98.
+
+72
+00:06:08,991 --> 00:06:10,799
+But the reason why it's called the deflator
+
+73
+00:06:10,799 --> 00:06:13,924
+it's because generally you have infaltion's time goes on
+
+74
+00:06:13,924 --> 00:06:16,797
+and generally you're going to be defalting your nominal GDP
+
+75
+00:06:16,797 --> 00:06:20,141
+You're going divideing it by value gradeor than one
+
+76
+00:06:20,141 --> 00:06:24,141
+It's going to be something over 100 divided by 100, which is your base year to get your real GDP.

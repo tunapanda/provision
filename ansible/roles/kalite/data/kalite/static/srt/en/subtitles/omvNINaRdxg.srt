@@ -1,0 +1,659 @@
+1
+00:00:00,600 --> 00:00:04,933
+Let's say I'm walking along some trail and there's some trees on the side of the road,
+
+2
+00:00:04,933 --> 00:00:10,133
+and let's just say that these are some plants and these are the barks of the trees,
+
+3
+00:00:10,133 --> 00:00:11,667
+and maybe I should do it in brown, but you get the idea.
+
+4
+00:00:11,667 --> 00:00:14,533
+These are some plants that are along the side of the road,
+
+5
+00:00:14,533 --> 00:00:17,600
+or at least the stem of the plant or the bark of the tree.
+
+6
+00:00:17,600 --> 00:00:19,533
+And in the background I have some mountains,
+
+7
+00:00:19,533 --> 00:00:21,667
+maybe those mountains are several miles away,
+
+8
+00:00:21,667 --> 00:00:23,800
+and so I have some mountains in the background.
+
+9
+00:00:23,800 --> 00:00:27,067
+We know just from experience that if I'm walking
+
+10
+00:00:27,067 --> 00:00:29,333
+(let me draw myself over here)
+
+11
+00:00:29,333 --> 00:00:33,467
+we know that if I'm walking this way,
+
+12
+00:00:33,467 --> 00:00:36,933
+the trees look like they're going past me much faster,
+
+13
+00:00:36,933 --> 00:00:39,533
+much faster than the mountains.
+
+14
+00:00:39,533 --> 00:00:42,200
+Like if I'm going past just one tree after another then
+
+15
+00:00:42,200 --> 00:00:44,467
+they'll just whiz pasts me, maybe if I'm running
+
+16
+00:00:44,467 --> 00:00:47,800
+but the mountains don't seem to be moving that quickly
+
+17
+00:00:47,800 --> 00:00:51,467
+And this idea that if you change your position,
+
+18
+00:00:51,467 --> 00:00:54,667
+the things that are closer to you seem to move more
+
+19
+00:00:54,667 --> 00:00:56,867
+than the things that are further than you
+
+20
+00:00:56,867 --> 00:01:02,867
+This idea, or this, I guess, this property, is called parallax.
+
+21
+00:01:02,867 --> 00:01:04,800
+And what we're going to do
+
+22
+00:01:04,800 --> 00:01:06,933
+in this video, and maybe it's especially obvious if
+
+23
+00:01:06,933 --> 00:01:08,867
+you're driving in a car, then the things closer to you
+
+24
+00:01:08,867 --> 00:01:11,600
+are whizzing by you, maybe the curb of the street
+
+25
+00:01:11,600 --> 00:01:13,800
+or whatever, while the things that are further away
+
+26
+00:01:13,800 --> 00:01:16,600
+don't seem to be whizzing by as fast
+
+27
+00:01:16,600 --> 00:01:18,467
+What I want to do in this video is think about how
+
+28
+00:01:18,467 --> 00:01:22,000
+we can use parallax to figure out how far certain stars are.
+
+29
+00:01:22,000 --> 00:01:23,467
+And what I want to emphasize, is that
+
+30
+00:01:23,467 --> 00:01:26,200
+this method is only good for relatively close stars.
+
+31
+00:01:26,200 --> 00:01:29,267
+We don't have instruments sensitive enough yet
+
+32
+00:01:29,267 --> 00:01:33,333
+to use parallax to measure stars that are really, really, far away
+
+33
+00:01:33,333 --> 00:01:35,600
+But to think about how this is done, how we use
+
+34
+00:01:35,600 --> 00:01:38,933
+stellar parallax (so let me write stellar up here)
+
+35
+00:01:38,933 --> 00:01:41,667
+How we use stellar parallax, the parallax of stars
+
+36
+00:01:41,667 --> 00:01:43,733
+to figure out how far away they are
+
+37
+00:01:43,733 --> 00:01:46,267
+Let's think a little bit about our solar system
+
+38
+00:01:46,267 --> 00:01:51,133
+So here is our Sun in the solar system
+
+39
+00:01:51,133 --> 00:01:55,000
+And here is Earth at one point in the year
+
+40
+00:01:55,000 --> 00:01:57,600
+And what I want to do is, and let's just say that
+
+41
+00:01:57,600 --> 00:02:00,867
+this is the north pole kind of popping out of the screen right here
+
+42
+00:02:00,867 --> 00:02:04,467
+and so the Earth is rotating in that direction
+
+43
+00:02:04,467 --> 00:02:07,400
+And I also want to think about the star that is
+
+44
+00:02:07,400 --> 00:02:09,400
+obviously outside of our solar system
+
+45
+00:02:09,400 --> 00:02:12,667
+and I'm really underestimating the distance to this star
+
+46
+00:02:12,667 --> 00:02:15,600
+As we'll see, or as you might already know
+
+47
+00:02:15,600 --> 00:02:18,933
+the distance to the nearest star from our solar system
+
+48
+00:02:18,933 --> 00:02:25,933
+is 250,000 times the distance between the earth and the sun
+
+49
+00:02:25,933 --> 00:02:27,800
+So if I wanted to draw this to scale, first of all
+
+50
+00:02:27,800 --> 00:02:30,667
+the Earth would be this unnoticeable dot here,
+
+51
+00:02:30,667 --> 00:02:32,867
+but you would also, whatever this distance is
+
+52
+00:02:32,867 --> 00:02:36,467
+you would have to multiply this by 250,000 to get
+
+53
+00:02:36,467 --> 00:02:38,867
+the distance to this nearest star.
+
+54
+00:02:38,867 --> 00:02:42,267
+Anyway, with that said, let's think about what
+
+55
+00:02:42,267 --> 00:02:45,533
+that star would look like from the surface of the Earth.
+
+56
+00:02:45,533 --> 00:02:48,200
+So let me pick a point on the surface, maybe we're
+
+57
+00:02:48,200 --> 00:02:49,867
+talking about North America, or right there in the
+
+58
+00:02:49,867 --> 00:02:51,800
+Northern Hemisphere.
+
+59
+00:02:51,800 --> 00:02:54,000
+So let's take that little patch of land, and think about
+
+60
+00:02:54,000 --> 00:02:56,467
+how the position of that star would look.
+
+61
+00:02:56,467 --> 00:02:59,000
+So that's the patch of land, maybe this is my house
+
+62
+00:02:59,000 --> 00:03:02,000
+right over here, jutting out the side of the Earth
+
+63
+00:03:02,000 --> 00:03:04,267
+maybe this is me standing, I'm drawing everything sideways
+
+64
+00:03:04,267 --> 00:03:07,867
+because I'm trying to hold this perspective, so
+
+65
+00:03:07,867 --> 00:03:12,000
+this is me looking up.
+
+66
+00:03:12,000 --> 00:03:14,000
+And, let's say at this point in time, the way I've drawn
+
+67
+00:03:14,000 --> 00:03:17,600
+this patch, the Sun will just be coming over the horizon.
+
+68
+00:03:17,600 --> 00:03:21,400
+So the Sun, this is essentially at sunrise. So let me
+
+69
+00:03:21,400 --> 00:03:24,600
+do my best to drawing the Sun from my point of view.
+
+70
+00:03:24,600 --> 00:03:28,000
+It looks like, remember the Earth is rotating in this way
+
+71
+00:03:28,000 --> 00:03:33,333
+it's rotating, the way I've drawn it, it's rotating counterclockwise.
+
+72
+00:03:33,333 --> 00:03:36,133
+But from the surface of the Earth, it would like the
+
+73
+00:03:36,133 --> 00:03:39,533
+Sun is coming up here, it's rising in the East.
+
+74
+00:03:39,533 --> 00:03:43,333
+But right at that dawn, on this day, when the Earth
+
+75
+00:03:43,333 --> 00:03:46,733
+is right over here, what would that star look like?
+
+76
+00:03:46,733 --> 00:03:50,333
+Well the star, so if we look at this version of the Earth
+
+77
+00:03:50,333 --> 00:03:55,533
+these stars are kind of skewed a little bit.
+
+78
+00:03:55,533 --> 00:03:58,267
+Not straight up, straight up would be this direction
+
+79
+00:03:58,267 --> 00:04:00,867
+from the point of view of my house. It is now skewed
+
+80
+00:04:00,867 --> 00:04:03,467
+a little bit closer to the Sun, so if you go in this
+
+81
+00:04:03,467 --> 00:04:05,800
+zoomed in version, straight up would look something
+
+82
+00:04:05,800 --> 00:04:08,333
+like that. And maybe, based on my measurement, it
+
+83
+00:04:08,333 --> 00:04:16,133
+would look like the star is right over there. So it's
+
+84
+00:04:16,133 --> 00:04:19,267
+a little bit skewed towards where the Sun is rising,
+
+85
+00:04:19,267 --> 00:04:23,133
+towards the East, relative to straight up. Now, let's
+
+86
+00:04:23,133 --> 00:04:26,133
+fast forward six months, so that the Earth is on the
+
+87
+00:04:26,133 --> 00:04:28,600
+other side of its orbit from the Sun. So let's fast
+
+88
+00:04:28,600 --> 00:04:33,600
+forward six months. We're over here, and let's wait
+
+89
+00:04:33,600 --> 00:04:37,800
+for a time of day, where we are essentially, that
+
+90
+00:04:37,800 --> 00:04:41,000
+little patch of the Earth is pointed in the same direction
+
+91
+00:04:41,000 --> 00:04:46,333
+at least in our galaxy, maybe. So it's pointing in the
+
+92
+00:04:46,333 --> 00:04:48,800
+same direction, and if you think about it, if we go back
+
+93
+00:04:48,800 --> 00:04:52,600
+to this patch of Earth, now the Earth is still rotating
+
+94
+00:04:52,600 --> 00:04:57,467
+on that direction, but now the Sun is on the West, the
+
+95
+00:04:57,467 --> 00:04:59,800
+Sun is going to be right over here, maybe I'll do it
+
+96
+00:04:59,800 --> 00:05:02,533
+like this, just to make it clear. I'll draw this side
+
+97
+00:05:02,533 --> 00:05:04,600
+of the Sun with this greenish color, obviously the Sun
+
+98
+00:05:04,600 --> 00:05:08,133
+is not green, but it'll make clear that the sun is going
+
+99
+00:05:08,133 --> 00:05:13,600
+to be over here. The patch is going to be turning away
+
+100
+00:05:13,600 --> 00:05:17,133
+from the Sun, so it'll look to that observer on Earth like
+
+101
+00:05:17,133 --> 00:05:20,133
+the Sun is setting, so it will look like the Sun is going
+
+102
+00:05:20,133 --> 00:05:23,600
+down over the horizon. But the important thing is, once
+
+103
+00:05:23,600 --> 00:05:26,267
+we're at this point in the year, what will that star
+
+104
+00:05:26,267 --> 00:05:29,600
+look like? Well if we have this large diagram, we see
+
+105
+00:05:29,600 --> 00:05:36,867
+that the star is now, relative to straight up, a little
+
+106
+00:05:36,867 --> 00:05:40,267
+bit to the West now, a little bit more now on the side
+
+107
+00:05:40,267 --> 00:05:45,000
+of that setting sun. So the star would now look like
+
+108
+00:05:45,000 --> 00:05:50,133
+it's right there. And if we have good enough instruments,
+
+109
+00:05:50,133 --> 00:05:54,867
+we can measure the angle between where the star was
+
+110
+00:05:54,867 --> 00:05:59,200
+six months ago, and where it is now. And let's call
+
+111
+00:05:59,200 --> 00:06:02,267
+that angle, well I'll call that angle, two times theta.
+
+112
+00:06:02,267 --> 00:06:04,333
+And the reason why I call it two times theta, we could
+
+113
+00:06:04,333 --> 00:06:07,333
+call that angle relative, we could call theta the angle
+
+114
+00:06:07,333 --> 00:06:12,800
+between the star and being straight up. So this would
+
+115
+00:06:12,800 --> 00:06:16,667
+be theta, and that would be theta. And I care about that,
+
+116
+00:06:16,667 --> 00:06:19,533
+because if I know theta, and if I know the distance from
+
+117
+00:06:19,533 --> 00:06:22,867
+the Earth to the Sun, I can then use a little bit of
+
+118
+00:06:22,867 --> 00:06:26,133
+trigonometry to figure out the distance to that star
+
+119
+00:06:26,133 --> 00:06:28,333
+Because if you think about it, this theta right over
+
+120
+00:06:28,333 --> 00:06:31,533
+here is the same as this angle. So if this is straight up
+
+121
+00:06:31,533 --> 00:06:34,667
+that is looking straight up into the night sky, this
+
+122
+00:06:34,667 --> 00:06:38,600
+would be the angle theta. If you know that angle,
+
+123
+00:06:38,600 --> 00:06:42,867
+from basic trigonometry, or even basic geometry, if
+
+124
+00:06:42,867 --> 00:06:45,467
+you say this is a right angle right over here, this
+
+125
+00:06:45,467 --> 00:06:51,533
+would be 90 minus theta. And then you could use some
+
+126
+00:06:51,533 --> 00:06:55,667
+basic trigonometry. If you know this distance right
+
+127
+00:06:55,667 --> 00:06:59,000
+here, and you're trying to figure out this distance
+
+128
+00:06:59,000 --> 00:07:01,533
+the distance to that nearest star. So this is what we're
+
+129
+00:07:01,533 --> 00:07:04,667
+trying to figure out. We could say, "Look, we need
+
+130
+00:07:04,667 --> 00:07:06,533
+a trigonometric function that deals with the opposite
+
+131
+00:07:06,533 --> 00:07:10,200
+angle, the opposite angle of what we know (we know
+
+132
+00:07:10,200 --> 00:07:14,333
+this thing right over here) and the adjacent angle
+
+133
+00:07:14,333 --> 00:07:16,867
+(we already know this thing right over here). So let
+
+134
+00:07:16,867 --> 00:07:20,467
+me call this the Earth-Sun distance, or let me just
+
+135
+00:07:20,467 --> 00:07:25,733
+call this d. And we want to figure out x. So with some
+
+136
+00:07:25,733 --> 00:07:28,267
+basic trigonometry, and you might want to do this if
+
+137
+00:07:28,267 --> 00:07:30,267
+you forget the basic trigonometric function.
+
+138
+00:07:30,267 --> 00:07:35,933
+SOH CAH TOA. Sin is opposite over hypotenuse,
+
+139
+00:07:35,933 --> 00:07:40,000
+cosine is adjacent over hypotenuse, tangent is opposite
+
+140
+00:07:40,000 --> 00:07:43,800
+over adjacent. So the tangent function deals with the
+
+141
+00:07:43,800 --> 00:07:48,200
+two sides of this right triangle that we can now deal with.
+
+142
+00:07:48,200 --> 00:07:54,933
+So we can say that the tangent of 90 minus theta, this
+
+143
+00:07:54,933 --> 00:08:01,067
+angle right over here, tangent of that angle right over here,
+
+144
+00:08:01,067 --> 00:08:06,333
+Let me write it over here, tangent of ninety minus theta,
+
+145
+00:08:06,333 --> 00:08:09,200
+that angle right over there, is equal to the opposite
+
+146
+00:08:09,200 --> 00:08:16,133
+side, is equal to x, over the adjacent side, over "d".
+
+147
+00:08:16,133 --> 00:08:18,000
+Or another way, if you assumed that we know
+
+148
+00:08:18,000 --> 00:08:22,267
+the distance to the sun you multiply both side times that distance,
+
+149
+00:08:22,267 --> 00:08:28,467
+you get "d" times the tangent of ninety minus theta is equal
+
+150
+00:08:28,467 --> 00:08:32,733
+to "x". And you can figure out the distance from our
+
+151
+00:08:32,733 --> 00:08:36,600
+solar system to that star. Now I want to make it very,
+
+152
+00:08:36,600 --> 00:08:40,600
+very, very clear. These are huge distances. I did not
+
+153
+00:08:40,600 --> 00:08:44,333
+draw this to scale. The distance to the nearest star
+
+154
+00:08:44,333 --> 00:08:48,533
+is actually 250,000 times the distance to our sun.
+
+155
+00:08:48,533 --> 00:08:52,867
+So this angle is going to be super, super, super super small.
+
+156
+00:08:52,867 --> 00:08:54,933
+So you need yo have very good instruments even to
+
+157
+00:08:54,933 --> 00:08:58,600
+measure, even to observe the stellar parallax to the nearest
+
+158
+00:08:58,600 --> 00:09:02,133
+stars. And we're constantly launching, or having better
+
+159
+00:09:02,133 --> 00:09:04,867
+instruments, and actually the Europeans right now are
+
+160
+00:09:04,867 --> 00:09:08,133
+in the process of a mission called GAIA to measure these
+
+161
+00:09:08,133 --> 00:09:11,000
+with enough accuracy that we can start to measure the
+
+162
+00:09:11,000 --> 00:09:14,800
+accurate distance to stars several tens of thousands of
+
+163
+00:09:14,800 --> 00:09:17,267
+light years away. So that'll start to get us a very
+
+164
+00:09:17,267 --> 00:09:21,667
+accurate map of a significant chunk of our galaxy, which
+
+165
+00:09:21,667 --> 99:59:59,999
+is about a hundred thousand light years in diameter.

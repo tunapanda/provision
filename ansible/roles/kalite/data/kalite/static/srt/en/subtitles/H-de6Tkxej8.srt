@@ -1,0 +1,203 @@
+1
+00:00:06,267 --> 00:00:08,800
+Lets say we have one ray over here that starts at point A and then goes through point B, and so we could
+
+2
+00:00:09,467 --> 00:00:12,933
+call this ray (we could call, let me draw that a little bit straighter) we could call this ray AB. Ray AB
+
+3
+00:00:16,333 --> 00:00:18,867
+starts at A or has a vertex at A and lets say that there is also a ray AC. So lets say that C is sitting
+
+4
+00:00:21,333 --> 00:00:25,600
+right over there and then i can draw another ray that goes through C, so this is ray AC. and what's interesting
+
+5
+00:00:32,200 --> 00:00:35,733
+about these two rays is that they have the exact same vertex. (they have the exact same vertex at A)
+
+6
+00:00:40,467 --> 00:00:43,600
+and in general what we have when we have two rays with the exact same vertex, you have an angle. and
+
+7
+00:00:47,467 --> 00:00:50,600
+you've probably, you're probably already reasonably familiar with the concept of an angle which i believe
+
+8
+00:00:53,133 --> 00:00:55,800
+comes from the latin for corner, which makes sense this looks a little bit like a corner right over
+
+9
+00:00:58,200 --> 00:01:00,600
+here that we see at point A and, but the geometric definition, or the one you are more likely to see
+
+10
+00:01:04,267 --> 00:01:07,667
+is when two rays share a common vertex. and that common vertex is actually called the vertex of the angle.
+
+11
+00:01:12,667 --> 00:01:16,533
+so A is vertex. Not only is it the vertex of each of these rays, ray AB and ray AC, it is also the vertex
+
+12
+00:01:19,933 --> 00:01:24,667
+of, of the angle. so the next thing i want to think about is how do we label, how do we label an angle
+
+13
+00:01:28,467 --> 00:01:31,333
+you might be tempted to just label it angle A, but i'll show you in a second why that's not going to
+
+14
+00:01:35,600 --> 00:01:39,800
+be so clear to someone based on where, where our angle is actually sitting. so the way that you specify
+
+15
+00:01:42,267 --> 00:01:46,600
+an angle, and hopefully this will make sense in a second, is that you say ANGLE, (this is the symbol
+
+16
+00:01:52,733 --> 00:01:58,200
+for angle) and it actually looks strangely similar to this angle right over here, but this little pointy
+
+17
+00:02:00,933 --> 00:02:05,333
+thing almost looks like a less than sign, but it's not quite. its flat on the bottom right over here.
+
+18
+00:02:07,800 --> 00:02:09,800
+this is the symbol for angle, you would say angle BAC, BAC, or you could say angle CAB, or angle CAB.
+
+19
+00:02:10,600 --> 00:02:13,133
+and either case there kind of specifying this corner, or sometimes you could view it as this opening
+
+20
+00:02:15,467 --> 00:02:16,933
+right over here. and the important thing to realize is that you have the vertex in the middle of the
+
+21
+00:02:19,867 --> 00:02:21,467
+letters. and you might be saying why go through the trouble of listing all three of these letters, why
+
+22
+00:02:24,200 --> 00:02:27,133
+can't i just call this angle A. and to see that, let me show you another diagram. and although the geometric
+
+23
+00:02:27,133 --> 00:02:36,600
+definition involves, two rays that have the same vertex
+
+24
+00:02:36,600 --> 00:02:39,667
+in practice, you are going to see many angles
+
+25
+00:02:39,667 --> 00:02:50,467
+made of line and line segments
+
+26
+00:02:50,467 --> 00:02:54,267
+Lets say I have one line segment like that, let me
+
+27
+00:02:54,267 --> 00:03:07,800
+label it DE, and lets also have line segment, FG
+
+28
+00:03:07,800 --> 00:03:15,000
+and lets say the point where the two line segments interact
+
+29
+00:03:15,000 --> 00:03:20,533
+is H, how could we specify this angle right over here
+
+30
+00:03:20,533 --> 00:03:27,800
+can we call it as angle H, if we say it as angle H,
+
+31
+00:03:27,800 --> 00:03:45,000
+it could be this angle, that angle or this angle over here
+
+32
+00:03:45,000 --> 00:03:49,467
+it could be this angle over here. The only way to specify
+
+33
+00:03:49,467 --> 00:03:54,867
+which can we are talking about is to give 3 letters
+
+34
+00:03:54,867 --> 00:04:01,467
+if you want to talk about this angle, you will call it
+
+35
+00:04:01,467 --> 00:04:12,400
+angle EHG, or could call it angle GHE,
+
+36
+00:04:12,400 --> 00:04:18,933
+if you wanted this angle over here, you could call it
+
+37
+00:04:18,933 --> 00:04:40,867
+angle DHG, or angle GHD. i think you get the point.
+
+38
+00:04:40,867 --> 00:04:45,600
+this angle is angle FHE or EHF and this is angle FHD or
+
+39
+00:04:45,600 --> 00:04:54,533
+DHF. now are are clear which angle you are referring to.
+
+40
+00:04:54,533 --> 00:04:58,467
+So now we have a general idea what an angle is and how
+
+41
+00:04:58,467 --> 00:05:02,933
+we denote it with symbols, it does not look like
+
+42
+00:05:02,933 --> 00:05:13,267
+all angles look the same. Some are more open than others
+
+43
+00:05:13,267 --> 00:05:19,133
+So for example, let us take two angles here,
+
+44
+00:05:19,133 --> 00:05:58,933
+angle BAC, and let's say over here, I have angle XYZ
+
+45
+00:05:58,933 --> 00:06:06,333
+when you look at these angle XYZ is more open
+
+46
+00:06:06,333 --> 00:06:15,800
+while this angle is more closed, compared to the other angle
+
+47
+00:06:15,800 --> 00:06:22,267
+when we measure angles, we must measure it on how open
+
+48
+00:06:22,267 --> 00:06:32,000
+or closed they are. The measure of angle XYZ, is greater
+
+49
+00:06:32,000 --> 00:06:38,133
+than the measure of the angle ABC.
+
+50
+00:06:38,133 --> 00:06:44,533
+Any measure of angles, is based on how open, or closed
+
+51
+00:06:44,533 --> 99:59:59,999
+they are which we will see in the next vidoes

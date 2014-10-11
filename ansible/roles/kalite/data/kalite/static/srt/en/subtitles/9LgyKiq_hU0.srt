@@ -1,0 +1,891 @@
+1
+00:00:00,155 --> 00:00:02,700
+Now that we know a little bit about lists,
+
+2
+00:00:02,700 --> 00:00:04,200
+I thought I would use this video
+
+3
+00:00:04,200 --> 00:00:07,733
+to introduce you to loops, and, in particular, for loops
+
+4
+00:00:07,733 --> 00:00:09,636
+(and if we have time we might do other types of loops).
+
+5
+00:00:09,636 --> 00:00:11,229
+But before we even do that,
+
+6
+00:00:11,229 --> 00:00:14,436
+I want to introduce you to a built-in Python function
+
+7
+00:00:14,436 --> 00:00:16,241
+called "range()" -- and when I say "built in,"
+
+8
+00:00:16,241 --> 00:00:18,015
+it means it comes with Python.
+
+9
+00:00:18,015 --> 00:00:20,454
+And it's really a way to generate lists
+
+10
+00:00:20,454 --> 00:00:22,754
+-- lists that have integers that increment.
+
+11
+00:00:22,754 --> 00:00:27,538
+So, for example, if I just say, range of six [range(6)]
+
+12
+00:00:27,600 --> 00:00:31,277
+it generates a list from 0 through 5.
+
+13
+00:00:31,338 --> 00:00:35,595
+So it's six elements, up to, but not including six.
+
+14
+00:00:35,595 --> 00:00:37,225
+If I wanted to include six
+
+15
+00:00:37,225 --> 00:00:39,625
+I would have to do range of seven [range(7)].
+
+16
+00:00:39,625 --> 00:00:43,041
+And then I go all the way up to but not including 7
+
+17
+00:00:43,041 --> 00:00:44,625
+but I get six in there.
+
+18
+00:00:44,625 --> 00:00:46,148
+If I want to have 1 through 6 --
+
+19
+00:00:46,148 --> 00:00:47,841
+I don't want to have that 0 there --
+
+20
+00:00:47,841 --> 00:00:50,379
+I could do range starting at 1
+
+21
+00:00:50,379 --> 00:00:53,979
+and including 1 up to but not including 7.
+
+22
+00:00:54,041 --> 00:00:56,297
+So the first item here will be included,
+
+23
+00:00:56,297 --> 00:00:59,200
+the last item here will not be included.
+
+24
+00:00:59,200 --> 00:01:03,344
+And then we get -- there we go, we get 1 2 3 4 5 6.
+
+25
+00:01:03,344 --> 00:01:04,749
+And what's cool about
+
+26
+00:01:04,749 --> 00:01:07,200
+these Integrated Development Environments,
+
+27
+00:01:07,200 --> 00:01:09,400
+these I.D.E.s, this PyScripter that I'm running
+
+28
+00:01:09,400 --> 00:01:12,395
+is that when I type in a function that it recognizes,
+
+29
+00:01:12,395 --> 00:01:13,877
+it actually will tell me a little bit,
+
+30
+00:01:13,877 --> 00:01:15,990
+something about that function, in case you forget it.
+
+31
+00:01:15,990 --> 00:01:18,062
+So I don't know if you can read this here, but it says,
+
+32
+00:01:18,062 --> 00:01:19,800
+"range([start,] stop, [step])"
+
+33
+00:01:19,800 --> 00:01:23,400
+so you can also, if you want, tell it, how much to int--
+
+34
+00:01:23,400 --> 00:01:25,795
+So right now, the default is to increment by 1 each time.
+
+35
+00:01:25,795 --> 00:01:26,295
+It says,
+
+36
+00:01:26,295 --> 00:01:28,825
+"Hey, I can tell you to increment by a -different- number!"
+
+37
+00:01:28,825 --> 00:01:31,182
+So, lets say you have a range,
+
+38
+00:01:31,182 --> 00:01:38,277
+so you start at 0, you want to go up to 8.
+
+39
+00:01:38,277 --> 00:01:42,118
+And I want to go up by 2 instead of 1.
+
+40
+00:01:42,118 --> 00:01:44,700
+So then I went [0, 2, 4, 6] and I
+
+41
+00:01:44,700 --> 00:01:46,544
+-- I should have said it more precisely.
+
+42
+00:01:46,544 --> 00:01:48,077
+Up to but not INCLUDING 8
+
+43
+00:01:48,077 --> 00:01:50,102
+-- the upper part of the range, you don't include it.
+
+44
+00:01:50,102 --> 00:01:53,233
+So it goes up to that and it increments it by 2,
+
+45
+00:01:53,233 --> 00:01:55,010
+so you could do it like that
+
+46
+00:01:55,010 --> 00:01:59,920
+or maybe you want to start at 3
+
+47
+00:01:59,920 --> 00:02:06,677
+and you want to go up to but not including 31
+
+48
+00:02:06,677 --> 00:02:10,975
+and you want to go up by steps of 3, there you go.
+
+49
+00:02:10,975 --> 00:02:14,425
+[?] up to but not including 31.
+
+50
+00:02:14,425 --> 00:02:15,959
+So it can generate a whole bunch of lists
+
+51
+00:02:15,959 --> 00:02:18,734
+and the reason why this is useful is that
+
+52
+00:02:18,734 --> 00:02:20,892
+we can use these inside of loops.
+
+53
+00:02:20,892 --> 00:02:22,466
+And so the first type of loop
+
+54
+00:02:22,466 --> 00:02:24,241
+I'm going to introduce you to is a "for" loop
+
+55
+00:02:24,241 --> 00:02:25,656
+So this is the interpreter down here,
+
+56
+00:02:25,656 --> 00:02:27,841
+here I'm going to actually write a program.
+
+57
+00:02:27,841 --> 00:02:30,087
+So, this program is really just to show you
+
+58
+00:02:30,087 --> 00:02:31,318
+what a "for" loop does.
+
+59
+00:02:31,318 --> 00:02:35,297
+So I could say "for i" and i is this variable
+
+60
+00:02:35,297 --> 00:02:39,200
+that's often used in "for" loops and iterative loops
+
+61
+00:02:39,200 --> 00:02:40,666
+and iterative means
+
+62
+00:02:40,666 --> 00:02:41,456
+you keep doing something over and over again.
+
+63
+00:02:41,456 --> 00:02:45,667
+"for i in" and let me do a simple one, "in range,"
+
+64
+00:02:45,667 --> 00:02:48,195
+and I'm just gonna say, 5, "range(5)"
+
+65
+00:02:48,195 --> 00:02:51,487
+So this will generate a list, [0, 1, 2, 3, 4],
+
+66
+00:02:51,487 --> 00:02:54,533
+so "for i in range(5)" and this colon says,
+
+67
+00:02:54,533 --> 00:02:56,408
+"Now we're going to have a sub-clause
+
+68
+00:02:56,408 --> 00:02:58,882
+of what to do on each of those iterations."
+
+69
+00:02:58,882 --> 00:03:02,764
+Let's just print out what i is.
+
+70
+00:03:02,764 --> 00:03:04,995
+And so before we even see what this is going to do,
+
+71
+00:03:04,995 --> 00:03:05,887
+let's just think about it.
+
+72
+00:03:05,887 --> 00:03:09,515
+It's saying, "for each time we go through this loop,"
+
+73
+00:03:09,515 --> 00:03:13,359
+"for each of the things in the range,"
+
+74
+00:03:13,359 --> 00:03:15,029
+"make i refer to them,"
+
+75
+00:03:15,029 --> 00:03:16,655
+and then each of those loops is going to
+
+76
+00:03:16,655 --> 00:03:17,867
+refer to a different one,
+
+77
+00:03:17,867 --> 00:03:19,067
+"and then you want to print it out."
+
+78
+00:03:19,067 --> 00:03:19,933
+So let's just try this out.
+
+79
+00:03:19,933 --> 00:03:23,092
+So let me save this program, and now let me run it.
+
+80
+00:03:23,092 --> 00:03:24,641
+So there you go.
+
+81
+00:03:24,641 --> 00:03:26,943
+What it did is, it created a loop,
+
+82
+00:03:26,943 --> 00:03:29,031
+so each time it goes to the loop
+
+83
+00:03:29,031 --> 00:03:31,759
+it assigns i to a different element in this list.
+
+84
+00:03:31,759 --> 00:03:35,477
+As you remember, this list was [0, 1, 2, 3, 4]
+
+85
+00:03:35,477 --> 00:03:38,397
+(Did I say 0,1,2,3,4,5 before?
+
+86
+00:03:38,397 --> 00:03:42,241
+No, it's just 0,1,2,3,4 -- up to but not including 5.)
+
+87
+00:03:42,241 --> 00:03:44,790
+So each time you go through the loop,
+
+88
+00:03:44,790 --> 00:03:48,108
+i goes through each of those items
+
+89
+00:03:48,108 --> 00:03:51,795
+and this program just says, "Print out that i."
+
+90
+00:03:51,795 --> 00:03:54,282
+So the first time we go to the loop, i = 0 so it prints it [0] out.
+
+91
+00:03:54,282 --> 00:03:56,059
+Then it prints out 1, then it prints a 2,
+
+92
+00:03:56,059 --> 00:03:58,236
+then it prints a 3, then it prints a 4
+
+93
+00:03:58,236 --> 00:04:00,425
+So it just keeps going through it that many times.
+
+94
+00:04:00,425 --> 00:04:04,043
+If we said this was "for range(10):",
+
+95
+00:04:04,043 --> 00:04:05,723
+now let's run this program.
+
+96
+00:04:05,723 --> 00:04:07,713
+Let's see, it'll print...
+
+97
+00:04:07,713 --> 00:04:09,092
+1 through 9.
+
+98
+00:04:09,092 --> 00:04:11,087
+It'll print 1 through 9.
+
+99
+00:04:11,087 --> 00:04:13,082
+Or, I should say, 0 through 9!
+
+100
+00:04:13,082 --> 00:04:14,554
+'Cause that's the first element in this list.
+
+101
+00:04:14,554 --> 00:04:16,113
+But you can do more interesting things.
+
+102
+00:04:16,113 --> 00:04:22,441
+Let's say that you wanted to take the sum of 0 through 9.
+
+103
+00:04:22,441 --> 00:04:26,282
+So what you could do is define another variable here.
+
+104
+00:04:26,282 --> 00:04:29,123
+So before I do anything the sum is just going to be 0.
+
+105
+00:04:29,123 --> 00:04:30,928
+And then what you could say is,
+
+106
+00:04:30,928 --> 00:04:35,595
+"each time you go through the loop, why don't you..."
+
+107
+00:04:35,595 --> 00:04:40,125
+"add to sum, define it to be the previous sum
+
+108
+00:04:40,125 --> 00:04:44,718
+plus what i is in this part of the loop."
+
+109
+00:04:44,718 --> 00:04:46,885
+And just so we can keep track of it,
+
+110
+00:04:46,885 --> 00:04:52,590
+I then want to print the sum.
+
+111
+00:04:52,590 --> 00:04:54,898
+And let's see what this thing does.
+
+112
+00:04:54,898 --> 00:05:01,175
+So save it and then let me run it.
+
+113
+00:05:01,175 --> 00:05:04,298
+So there you go.
+
+114
+00:05:04,298 --> 00:05:05,352
+The first time you went through the loop,
+
+115
+00:05:05,352 --> 00:05:09,313
+sum is 0 and i is 0, you add 'em together
+
+116
+00:05:09,313 --> 00:05:10,667
+you print the sum, and you get 0.
+
+117
+00:05:10,667 --> 00:05:12,085
+The next time you go to the loop,
+
+118
+00:05:12,085 --> 00:05:14,118
+i is 1. We add that to the previous sum (0),
+
+119
+00:05:14,118 --> 00:05:15,831
+print it, you get 1.
+
+120
+00:05:15,831 --> 00:05:19,252
+The next time through the loop, i is now going to be 2.
+
+121
+00:05:19,252 --> 00:05:21,877
+Add that to the previous sum, 2 + 1, you get 3.
+
+122
+00:05:21,877 --> 00:05:23,131
+Next time through the loop,
+
+123
+00:05:23,131 --> 00:05:26,369
+i is 3, add that to previous sum, you get 6.
+
+124
+00:05:26,369 --> 00:05:31,292
+So the sum of all of the numbers, 0 through 9, is 45.
+
+125
+00:05:31,292 --> 00:05:36,175
+So just that, that's kind of a useful program.
+
+126
+00:05:36,175 --> 00:05:37,810
+And just to make the point a little bit clearer,
+
+127
+00:05:37,810 --> 00:05:41,892
+let me actually walk you through this
+
+128
+00:05:41,892 --> 00:05:47,467
+On my little drawing tablet.
+
+129
+00:05:47,467 --> 00:05:50,600
+Paste my code, that I just wrote up here.
+
+130
+00:05:50,600 --> 00:05:56,164
+And let's just think about what this is doing.
+
+131
+00:05:56,164 --> 00:05:58,190
+So, we have a couple of variables here.
+
+132
+00:05:58,190 --> 00:06:04,231
+We start off with this variable "sum" that is set to 0.
+
+133
+00:06:04,231 --> 00:06:07,677
+There's two ways to visualize variables.
+
+134
+00:06:07,677 --> 00:06:09,182
+A common way to visualize
+
+135
+00:06:09,182 --> 00:06:10,365
+(this isn't necessarily wrong,
+
+136
+00:06:10,365 --> 00:06:11,856
+it's sometimes an easier way to think about it)
+
+137
+00:06:11,856 --> 00:06:13,631
+is to view them as buckets.
+
+138
+00:06:13,631 --> 00:06:16,074
+But in Python, the really correct way
+
+139
+00:06:16,074 --> 00:06:17,296
+(and you saw that with lists)
+
+140
+00:06:17,311 --> 00:06:19,102
+is to view them as referring to something
+
+141
+00:06:19,102 --> 00:06:21,600
+So, if you view them as buckets you can say,
+
+142
+00:06:21,600 --> 00:06:23,221
+okay, from the get-go,
+
+143
+00:06:23,221 --> 00:06:26,400
+the number in the "sum" bucket is 0.
+
+144
+00:06:26,400 --> 00:06:28,326
+But the reality is that
+
+145
+00:06:28,326 --> 00:06:32,790
+the variable "sum" is now referring to the numeric literal,
+
+146
+00:06:32,790 --> 00:06:36,605
+the actual number 0, sitting in memory someplace.
+
+147
+00:06:36,605 --> 00:06:38,995
+Now we enter into the "for" loop.
+
+148
+00:06:38,995 --> 00:06:40,679
+And what the for loop says is
+
+149
+00:06:40,679 --> 00:06:45,475
+let's iteratively assign i to each of the elements
+
+150
+00:06:45,475 --> 00:06:48,195
+in the list generated by range(10)
+
+151
+00:06:48,195 --> 00:06:49,559
+So let's be clear,
+
+152
+00:06:49,559 --> 00:06:52,702
+if we call this, right over here, range of 10,
+
+153
+00:06:52,702 --> 00:07:05,467
+this will generate a list that looks like this:
+
+154
+00:07:05,467 --> 00:07:07,500
+... up to but not including 10,
+
+155
+00:07:07,500 --> 00:07:09,425
+this is ten elements right over here.
+
+156
+00:07:09,425 --> 00:07:11,210
+And then we go into the "for" loop.
+
+157
+00:07:11,210 --> 00:07:15,031
+So the first time we go through the for loop...
+
+158
+00:07:15,031 --> 00:07:16,723
+I'll think about it two different ways.
+
+159
+00:07:16,723 --> 00:07:21,400
+So I'll, 1.) I'll think about it the "bucket" way.
+
+160
+00:07:21,400 --> 00:07:23,366
+So we have this variable i,
+
+161
+00:07:23,366 --> 00:07:26,025
+it can actually only be used inside of this clause
+
+162
+00:07:26,025 --> 00:07:27,446
+(we'll talk more about scope,
+
+163
+00:07:27,446 --> 00:07:29,236
+or where a variable can be used,
+
+164
+00:07:29,236 --> 00:07:31,518
+but this i variable is only good inside of this clause.
+
+165
+00:07:31,518 --> 00:07:33,100
+The sum variable, the way I've defined it,
+
+166
+00:07:33,100 --> 00:07:34,298
+I can use it anywhere --
+
+167
+00:07:34,298 --> 00:07:35,908
+outside the clause or inside the clause,
+
+168
+00:07:35,908 --> 00:07:37,625
+because it was defined outside of the clause.)
+
+169
+00:07:37,625 --> 00:07:39,015
+So you have your "i"
+
+170
+00:07:39,015 --> 00:07:40,477
+So this, if you think of it as a bucket
+
+171
+00:07:40,477 --> 00:07:45,067
+the first iteration is assigned to this first item over here.
+
+172
+00:07:45,067 --> 00:07:47,431
+So i is going to be 0.
+
+173
+00:07:47,431 --> 00:07:49,669
+The reality, the better way to think about it,
+
+174
+00:07:49,669 --> 00:07:53,062
+is i is actually referring to this first element
+
+175
+00:07:53,062 --> 00:07:54,708
+our first time through the loop.
+
+176
+00:07:54,708 --> 00:07:58,400
+And then we go through the loop, and it says "sum + i"
+
+177
+00:07:58,400 --> 00:08:01,600
+well sum is 0 and i is 0, you add 'em together, you get 0.
+
+178
+00:08:01,600 --> 00:08:04,498
+So sum is still going to be 0, or still referring to 0.
+
+179
+00:08:04,498 --> 00:08:11,621
+And then it prints the sum out, this line over here.
+
+180
+00:08:11,621 --> 00:08:16,626
+It says, "Okay, the sum right now is just 0,"
+
+181
+00:08:16,626 --> 00:08:17,862
+and it printed it out.
+
+182
+00:08:17,862 --> 00:08:20,364
+Then it goes back to the for loop and it says,
+
+183
+00:08:20,364 --> 00:08:22,933
+"Look, are there any more elements that I can assign i to?"
+
+184
+00:08:22,933 --> 00:08:23,859
+Well, sure there are!
+
+185
+00:08:23,859 --> 00:08:25,323
+There's all of these that we have to go through.
+
+186
+00:08:25,323 --> 00:08:28,866
+So then it makes i the next element in the sequence,
+
+187
+00:08:28,866 --> 00:08:31,841
+so now i is going to be the next element
+
+188
+00:08:31,841 --> 00:08:32,920
+in the sequence,
+
+189
+00:08:32,920 --> 00:08:35,068
+or another way to think about it is in the "i" bucket,
+
+190
+00:08:35,068 --> 00:08:36,677
+if you want to view them as buckets,
+
+191
+00:08:36,677 --> 00:08:39,902
+i is now set equal to 1. And now we run this again.
+
+192
+00:08:39,902 --> 00:08:44,300
+And we say, "Okay, sum is 0, plus i. i is 1.
+
+193
+00:08:44,300 --> 00:08:54,682
+So sum is now going to refer to 1."
+
+194
+00:08:54,682 --> 00:08:59,040
+And when you print sum, it will now print 1.
+
+195
+00:08:59,040 --> 00:09:01,424
+Then, the for loop will say,
+
+196
+00:09:01,424 --> 00:09:03,092
+"Are there any more elements
+
+197
+00:09:03,092 --> 00:09:06,545
+in this list over here to assign i to?"
+
+198
+00:09:06,545 --> 00:09:07,632
+Well, sure there are!
+
+199
+00:09:07,632 --> 00:09:09,842
+There's all of these others, so let's keep going!
+
+200
+00:09:09,842 --> 00:09:15,942
+So now, i can now be equal to (or can refer to) 2.
+
+201
+00:09:15,942 --> 00:09:18,156
+So if you think of it as a bucket, i is now 2,
+
+202
+00:09:18,156 --> 00:09:20,199
+or you can say i is now referring to 2
+
+203
+00:09:20,199 --> 00:09:21,981
+(and you can ignore these right over here).
+
+204
+00:09:21,981 --> 00:09:24,955
+And we go through the loop again; sum is now 1,
+
+205
+00:09:24,955 --> 00:09:29,527
+1 + i, i is now 2; 1 + 2 is 3.
+
+206
+00:09:29,527 --> 00:09:32,044
+So sum is now going to be 3
+
+207
+00:09:32,044 --> 00:09:33,223
+this time through the loop.
+
+208
+00:09:33,223 --> 00:09:39,876
+So sum is now referring to 3, you print sum, you get 3.
+
+209
+00:09:39,876 --> 00:09:42,158
+And you keep going all the way,
+
+210
+00:09:42,158 --> 00:09:43,824
+i is going to keep referring to
+
+211
+00:09:43,824 --> 00:09:45,893
+as we go through the loop,
+
+212
+00:09:45,893 --> 00:09:47,142
+the loop will keep going
+
+213
+00:09:47,142 --> 00:09:50,977
+as there's more things that i can refer to,
+
+214
+00:09:50,977 --> 00:09:52,248
+that we can keep incrementing i
+
+215
+00:09:52,248 --> 00:09:54,489
+to these other values over here.
+
+216
+00:09:54,489 --> 00:09:56,368
+And eventually, i is going to be 9,
+
+217
+00:09:56,368 --> 00:09:58,109
+we're going to evaluate this,
+
+218
+00:09:58,109 --> 00:09:59,158
+and the for loop says,
+
+219
+00:09:59,158 --> 00:10:01,454
+"Hey, is there anything left in this list that i can be?"
+
+220
+00:10:01,454 --> 00:10:03,670
+And you're like, "No! There isn't anything left in this list!"
+
+221
+00:10:03,670 --> 00:10:05,411
+And then the loop is going to be done,
+
+222
+00:10:05,411 --> 00:10:07,507
+and we'll break out to it and the program will stop.
+
+223
+00:10:07,507 --> 12:38:41,731
+And that's exactly what we saw happening when we ran the program over here.

@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:03,189
+If we want to get the upside of owning a stock
+
+2
+00:00:03,189 --> 00:00:07,300
+while still mitigating the downside in case the stock price goes down
+
+3
+00:00:07,300 --> 00:00:11,861
+We saw that we could buy a stock and an appropriate put option
+
+4
+00:00:11,861 --> 00:00:14,959
+so that when the stock goes below some price
+
+5
+00:00:14,959 --> 00:00:18,389
+the put option starts to have value and so it mitigates our downside
+
+6
+00:00:18,389 --> 00:00:23,351
+And just as a review, these payoff diagrams are the values of, or at least the one on the left,
+
+7
+00:00:23,351 --> 00:00:26,143
+is the value of holdings at some future date
+
+8
+00:00:26,143 --> 00:00:31,547
+and we are defining that date to be the maturity date of the options under question
+
+9
+00:00:31,547 --> 00:00:35,152
+Now, and this one over here is the profit at that maturity date
+
+10
+00:00:35,152 --> 00:00:39,230
+and that's why we are subtracting the actual costs to enter the position on this one on the right
+
+11
+00:00:39,230 --> 00:00:47,380
+Now the question I want to answer in this video is, "How can we get the same payoff diagram without buying either stocks or puts?"
+
+12
+00:00:47,380 --> 00:00:52,310
+and as a bit of a clue, think about what happens if we were to just buy a call option
+
+13
+00:00:52,310 --> 00:00:53,614
+actually let me do it in that same color
+
+14
+00:00:53,614 --> 00:00:58,079
+So if you were to just have a call option, the payoff diagram would look like this.
+
+15
+00:00:58,079 --> 00:01:01,396
+You would never exercise the call option at expiration
+
+16
+00:01:01,396 --> 00:01:04,723
+unless, and we're assuming this is at expiration or at maturity,
+
+17
+00:01:04,723 --> 00:01:12,397
+but if the stock price goes above $50, you would then exercise your option to buy it at $50
+
+18
+00:01:12,397 --> 00:01:16,749
+So then it starts to have value as the stock price goes above $50
+
+19
+00:01:16,749 --> 00:01:21,997
+If the stock price goes to $60, you would exercise your option to buy at $50 and then you could sell at $60
+
+20
+00:01:21,997 --> 00:01:24,063
+and you would make $10
+
+21
+00:01:24,063 --> 00:01:27,047
+So you start to get some of the upside
+
+22
+00:01:27,047 --> 00:01:31,115
+So how can we shift this graph up to get exactly the same payoff diagram?
+
+23
+00:01:31,115 --> 00:01:40,191
+Well, we could have a call option and we could own something that would essentially shift this entire graph up by $50
+
+24
+00:01:40,191 --> 00:01:58,014
+So we could have, essentially, a $50 bond, or a bond that is worth, let me write it this way, a bond that is worth $50 at option expiration
+
+25
+00:01:58,014 --> 00:02:02,164
+So if there's some interest we're getting, we might be able to buy it for a little bit less
+
+26
+00:02:02,164 --> 00:02:06,180
+If there's zero interest, then it's pretty much like cash and we would pay $50 for it
+
+27
+00:02:06,180 --> 00:02:13,030
+But the payoff diagram for a bond that will be worth $50 at this date, at maturity, or at expiration
+
+28
+00:02:13,030 --> 00:02:16,997
+The payoff diagram for just the bond would look like this. It would just a straight line.
+
+29
+00:02:16,997 --> 00:02:20,047
+It's guaranteed to pay you $50
+
+30
+00:02:20,047 --> 00:02:29,412
+So if you own the bond and the call option, below $50 the call option is worthless, so you're just going to have the bond over here
+
+31
+00:02:29,412 --> 00:02:35,031
+And then, above $50, you still have the bond, but now the call option is worth something
+
+32
+00:02:35,031 --> 00:02:37,397
+So you have the value of the bond plus the call option
+
+33
+00:02:37,397 --> 00:02:42,747
+So at $60, the call option is worth $10. The bond is worth $50. The combination is worth $60
+
+34
+00:02:42,747 --> 00:02:46,496
+And so the combination of the call option plus the bond, you see it here on the left,
+
+35
+00:02:46,496 --> 00:02:52,130
+it's actually going to have the same payoff diagram as the stock plus the put
+
+36
+00:02:52,130 --> 00:02:57,880
+So you have the situation here that the stock plus an appropriately priced put
+
+37
+00:02:57,880 --> 00:03:01,580
+or a put with the appropriate strike price is going to be the same thing
+
+38
+00:03:01,580 --> 00:03:10,249
+when it comes to payoff at a future date, at expiration, as a bond plus a call option
+
+39
+00:03:10,249 --> 00:03:13,329
+And this right here is called "Put-Call Parity"
+
+40
+00:03:13,329 --> 00:03:16,747
+and it shows the relationship between all of these different securities
+
+41
+00:03:16,747 --> 00:03:31,310
+and if any of these prices start to, kind of, not make this thing hold true, there might be an arbitrage opportunity, but we'll cover that in future videos.

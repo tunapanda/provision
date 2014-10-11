@@ -1,0 +1,499 @@
+1
+00:00:00,654 --> 00:00:05,403
+Factor twenty seven x to the sixth plus one twenty five
+
+2
+00:00:05,403 --> 00:00:07,999
+So this is a pretty interesting problem and frankly
+
+3
+00:00:07,999 --> 00:00:09,195
+the only way to do this
+
+4
+00:00:09,195 --> 00:00:11,904
+is if you recognize it as a special form
+
+5
+00:00:11,904 --> 00:00:12,907
+and what I want to do
+
+6
+00:00:12,907 --> 00:00:15,400
+is kind of show you the special form right first
+
+7
+00:00:15,400 --> 00:00:17,615
+and then we can kind of pattern match.
+
+8
+00:00:17,615 --> 00:00:19,156
+So the special form is
+
+9
+00:00:19,156 --> 00:00:20,526
+if I were to take
+
+10
+00:00:20,526 --> 00:00:22,601
+and this is really something you need to know
+
+11
+00:00:22,601 --> 00:00:25,876
+and I'd argue whether you really need to know this
+
+12
+00:00:25,876 --> 00:00:27,349
+but actually to do this problem
+
+13
+00:00:27,349 --> 00:00:28,538
+it's something you need to know
+
+14
+00:00:28,538 --> 00:00:29,801
+and that's if you have
+
+15
+00:00:29,801 --> 00:00:33,609
+a squared minus a b plus b squared
+
+16
+00:00:33,609 --> 00:00:36,840
+and you multiply that times a plus b
+
+17
+00:00:36,840 --> 00:00:38,409
+let's think about what we're going to get
+
+18
+00:00:38,409 --> 00:00:40,040
+So we're gonna take a product right here
+
+19
+00:00:40,040 --> 00:00:40,965
+we're multiplying
+
+20
+00:00:40,965 --> 00:00:43,048
+so let's do some algebraic multiplication
+
+21
+00:00:43,048 --> 00:00:46,215
+so let's multiply b times b squared is b to the third
+
+22
+00:00:46,215 --> 00:00:51,290
+b times negative a b is negative a b squared
+
+23
+00:00:51,290 --> 00:00:55,577
+b times a squared is a squared b
+
+24
+00:00:55,577 --> 00:00:58,810
+Now let's multiply this top term times a
+
+25
+00:00:58,810 --> 00:01:02,293
+a times b squared is a b squared
+
+26
+00:01:02,293 --> 00:01:08,718
+a times negative a b is negative a squared b
+
+27
+00:01:08,718 --> 00:01:12,190
+and then a times a squared is a to the third
+
+28
+00:01:12,190 --> 00:01:14,813
+and then we just have to add up all of the terms
+
+29
+00:01:14,813 --> 00:01:16,272
+We have a negative a squared b -
+
+30
+00:01:16,272 --> 00:01:17,662
+Oh, we have a positive a squared b
+
+31
+00:01:17,662 --> 00:01:19,170
+and a negative a squared b
+
+32
+00:01:19,170 --> 00:01:20,005
+so these guys cancel out
+
+33
+00:01:20,005 --> 00:01:21,903
+we have a negative a b squared
+
+34
+00:01:21,903 --> 00:01:23,623
+and a positive a b squared
+
+35
+00:01:23,623 --> 00:01:25,174
+These guys cancel out.
+
+36
+00:01:25,174 --> 00:01:26,470
+So all we're left with is
+
+37
+00:01:26,470 --> 00:01:28,114
+an a to the third here
+
+38
+00:01:28,114 --> 00:01:29,577
+a to the third
+
+39
+00:01:29,577 --> 00:01:33,497
+and then plus, plus this b to the third
+
+40
+00:01:33,497 --> 00:01:35,004
+plus this b to the third
+
+41
+00:01:35,004 --> 00:01:36,582
+Or another way to think about it
+
+42
+00:01:36,582 --> 00:01:38,217
+if someone gives you a to the third
+
+43
+00:01:38,217 --> 00:01:39,876
+plus b to the third
+
+44
+00:01:39,876 --> 00:01:42,867
+this can be factored into these two expressions
+
+45
+00:01:42,867 --> 00:01:44,065
+That can be factored into
+
+46
+00:01:44,065 --> 00:01:46,558
+a plus b times
+
+47
+00:01:46,558 --> 00:01:51,615
+a squared minus a b plus b squared
+
+48
+00:01:51,615 --> 00:01:53,712
+So this is essentially the special form
+
+49
+00:01:53,712 --> 00:01:55,664
+If you have a sum of cubes
+
+50
+00:01:55,664 --> 00:02:00,167
+it can be factored out as the sum of the cube roots
+
+51
+00:02:00,167 --> 00:02:03,184
+plus- er, the sum of the cube roots times
+
+52
+00:02:03,184 --> 00:02:04,752
+this expression right here
+
+53
+00:02:04,752 --> 00:02:06,346
+and we just showed that it works
+
+54
+00:02:06,346 --> 00:02:08,834
+So let's see if we have that special form here
+
+55
+00:02:08,834 --> 00:02:12,897
+Well 27 is definitely the cube of three
+
+56
+00:02:12,897 --> 00:02:14,965
+three to the third power is twenty seven
+
+57
+00:02:14,965 --> 00:02:18,547
+x to the sixth is also the cube of x squared
+
+58
+00:02:18,547 --> 00:02:21,155
+if you raise x to the sixth to the one third power
+
+59
+00:02:21,155 --> 00:02:23,030
+you get x squared
+
+60
+00:02:23,030 --> 00:02:25,595
+So this first term right over here can be rewritten
+
+61
+00:02:25,595 --> 00:02:29,351
+as three x squared to the third power
+
+62
+00:02:29,351 --> 00:02:31,266
+and the second term right here-
+
+63
+00:02:31,266 --> 00:02:33,272
+that's five to the third power
+
+64
+00:02:33,272 --> 00:02:35,383
+so plus five to the third power
+
+65
+00:02:35,383 --> 00:02:37,772
+And this might be a little bit confusing for you
+
+66
+00:02:37,772 --> 00:02:40,487
+so just let's - never hurts to review
+
+67
+00:02:40,487 --> 00:02:42,291
+let's multiply three x squared times
+
+68
+00:02:42,291 --> 00:02:46,319
+three x squared times three x squared
+
+69
+00:02:46,319 --> 00:02:48,525
+that is literally equal to three times three
+
+70
+00:02:48,525 --> 00:02:52,075
+times three times x squared times x squared
+
+71
+00:02:52,075 --> 00:02:53,617
+times x squared
+
+72
+00:02:53,617 --> 00:02:56,529
+that's this part right here is twenty seven
+
+73
+00:02:56,529 --> 00:02:58,385
+x squared times x squared is x to the fourth
+
+74
+00:02:58,385 --> 00:03:01,548
+times x squared is x to the sixth
+
+75
+00:03:01,548 --> 00:03:02,926
+Or you could just raise both of these to
+
+76
+00:03:02,926 --> 00:03:04,218
+the third power
+
+77
+00:03:04,218 --> 00:03:05,427
+three to the third is twenty seven
+
+78
+00:03:05,427 --> 00:03:07,145
+x squared to the third power -
+
+79
+00:03:07,145 --> 00:03:09,172
+you take an exponent to an exponent
+
+80
+00:03:09,172 --> 00:03:10,274
+and you're gonna take the product
+
+81
+00:03:10,274 --> 00:03:11,275
+of the exponents
+
+82
+00:03:11,275 --> 00:03:12,877
+so it'll be x to the two times three or
+
+83
+00:03:12,877 --> 00:03:15,476
+x to the sixth power
+
+84
+00:03:15,476 --> 00:03:18,086
+So now we know that we have this pattern
+
+85
+00:03:18,086 --> 00:03:19,685
+So we can just use this
+
+86
+00:03:19,685 --> 00:03:21,312
+We have the sum of cubes
+
+87
+00:03:21,312 --> 00:03:23,566
+So just by using this pattern right over here
+
+88
+00:03:23,566 --> 00:03:25,312
+that means that we can factor it as
+
+89
+00:03:25,312 --> 00:03:27,708
+this is going to be equal to
+
+90
+00:03:27,708 --> 00:03:31,111
+three x squared
+
+91
+00:03:31,111 --> 00:03:32,454
+that's our a let me make it clear
+
+92
+00:03:32,454 --> 00:03:34,754
+this right here is our a
+
+93
+00:03:34,754 --> 00:03:36,967
+this right here is our b
+
+94
+00:03:36,967 --> 00:03:38,392
+so it's going to be a plus b
+
+95
+00:03:38,392 --> 00:03:42,178
+so it's going to be three x squared plus
+
+96
+00:03:42,178 --> 00:03:43,322
+b
+
+97
+00:03:43,322 --> 00:03:46,981
+plus five times a squared
+
+98
+00:03:46,981 --> 00:03:48,400
+a squared
+
+99
+00:03:48,400 --> 00:03:49,355
+let me do this in a new color
+
+100
+00:03:49,355 --> 00:03:52,356
+so three x squared squared
+
+101
+00:03:52,356 --> 00:03:54,269
+let's start thinking about that for a second
+
+102
+00:03:54,269 --> 00:03:56,339
+three x squared squared
+
+103
+00:03:56,339 --> 00:03:57,903
+well that's going to be nine
+
+104
+00:03:57,903 --> 00:03:59,563
+x to the fourth
+
+105
+00:03:59,563 --> 00:04:02,176
+so it's going to be times nine x to the fourth
+
+106
+00:04:02,176 --> 00:04:05,169
+minus the product of these two things
+
+107
+00:04:05,169 --> 00:04:08,589
+so minus the product of five and three x squared
+
+108
+00:04:08,589 --> 00:04:11,996
+so minus fifteen x squared
+
+109
+00:04:11,996 --> 00:04:14,018
+and then finally plus b squared
+
+110
+00:04:14,018 --> 00:04:15,162
+b is five
+
+111
+00:04:15,162 --> 00:04:17,163
+so it's going to be five squared
+
+112
+00:04:17,163 --> 00:04:19,228
+so plus twenty five
+
+113
+00:04:19,228 --> 00:04:20,177
+when I said b is
+
+114
+00:04:20,177 --> 00:04:22,705
+this is b - not the whole five to the third
+
+115
+00:04:22,705 --> 00:04:24,067
+and when I say a just this part is a
+
+116
+00:04:24,067 --> 00:04:26,101
+And we're done
+
+117
+00:04:26,101 --> 00:04:26,961
+and we could
+
+118
+00:04:26,961 --> 00:04:28,916
+I won't explain it in detail in this video
+
+119
+00:04:28,916 --> 00:04:29,835
+but this right here
+
+120
+00:04:29,835 --> 00:04:31,485
+if we're thinking about real numbers
+
+121
+00:04:31,485 --> 00:04:33,954
+we can't actually factor this any more
+
+122
+00:04:33,954 --> 00:04:35,414
+so we are done factoring this
+
+123
+00:04:35,414 --> 00:04:37,189
+And remember this is really just a very
+
+124
+00:04:37,189 --> 00:04:40,498
+very very special case of being able to recognize
+
+125
+00:04:40,498 --> 00:04:45,026
+the sum of cubes

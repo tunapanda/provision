@@ -1,0 +1,227 @@
+1
+00:00:00,236 --> 00:00:03,918
+This right here is our derivative intuition module.
+
+2
+00:00:03,918 --> 00:00:08,150
+It was contributed by Ben Eater, and it is a pretty intresting module.
+
+3
+00:00:08,150 --> 00:00:16,333
+What is cool about it is it really helps to conceptualize what a derivative is all about.
+
+4
+00:00:16,333 --> 00:00:19,969
+All it really is [derivatives] is the slope of the tangent line at any point.
+
+5
+00:00:19,969 --> 00:00:26,146
+So in this exercise over here they have graphed f(x) = 2x^3
+
+6
+00:00:26,146 --> 00:00:29,914
+So this is 2x^3 over here
+
+7
+00:00:29,914 --> 00:00:34,482
+and what we need to do is to move these orange dots up and down
+
+8
+00:00:34,482 --> 00:00:39,641
+so these orange dots right now show a line so when I highlight that orange dot,
+
+9
+00:00:39,641 --> 00:00:42,678
+you see the line down here become orange.
+
+10
+00:00:42,678 --> 00:00:47,800
+And right now the dot is on zero as the slope of the line right here is zero
+
+11
+00:00:47,800 --> 00:00:50,800
+but we see that that line is definitely not the tangent,
+
+12
+00:00:50,800 --> 00:00:56,333
+the slope at that point is definitely not zero.
+
+13
+00:00:56,333 --> 00:01:01,231
+So what we need to do is move this so it becomes pretty close,
+
+14
+00:01:01,231 --> 00:01:05,785
+or as close as we can eye-ball it to the slope of the tangent line.
+
+15
+00:01:05,785 --> 00:01:10,403
+and so that looks about right, as it looks about right.
+
+16
+00:01:10,403 --> 00:01:14,867
+It looks pretty close to the slope of the line at that point.
+
+17
+00:01:14,867 --> 00:01:21,913
+And you can even see while I do it up here, you see d/df of f(x) at -2
+
+18
+00:01:21,913 --> 00:01:27,626
+So the derivative at f equal to negative 2 what is the derivartive there
+
+19
+00:01:27,641 --> 00:01:30,318
+that is the slope, so by putting it all the way up here I am saying
+
+20
+00:01:30,318 --> 00:01:33,190
+that the slope is equal to 24 at that point.
+
+21
+00:01:33,190 --> 00:01:37,000
+So that is my approximation, eye-balling it like that.
+
+22
+00:01:37,000 --> 00:01:42,333
+Lets do this point right here. It looks like the slope is decressing
+
+23
+00:01:42,333 --> 00:01:45,000
+a little bit but it is still very positive
+
+24
+00:01:45,000 --> 00:01:48,133
+so mayby the slope is around 14 or 15
+
+25
+00:01:48,133 --> 00:01:52,800
+and then here, once again the slope has decressed but it is still reasonbly positive
+
+26
+00:01:52,800 --> 00:01:55,566
+the slope looks like it is about 5.
+
+27
+00:01:55,566 --> 00:01:58,036
+So our slope is drcressing
+
+28
+00:01:58,036 --> 00:02:01,400
+right over here the slope dose look like it is about zero (0)
+
+29
+00:02:01,400 --> 00:02:05,354
+it looks like an inflection point actully, so our slope is zero right there.
+
+30
+00:02:05,354 --> 00:02:08,785
+You can see that the derivative at f(0) is 0 which just means
+
+31
+00:02:08,785 --> 00:02:14,733
+that this fancy notation to say that the slope of the tangent line / curve at this point is zero
+
+32
+00:02:14,733 --> 00:02:17,400
+it is flat there, you can see that it realy is flat
+
+33
+00:02:17,400 --> 00:02:21,467
+and you go over here, and we want to find the derivative at
+
+34
+00:02:21,467 --> 00:02:28,964
+f(1) and so again it looks like the slope is increasing.
+
+35
+00:02:28,964 --> 00:02:36,031
+So this interesting, up here the slope was very positive but it was decressing as we went over here
+
+36
+00:02:36,031 --> 00:02:38,109
+notice how it is getting flatter and flatter
+
+37
+00:02:38,125 --> 00:02:41,067
+but it goes to zero and now the slope is incressing again
+
+38
+00:02:41,067 --> 00:02:43,561
+so at this point we want to make a tangent,
+
+39
+00:02:43,561 --> 00:02:47,333
+and notice that the slope has gone up relative to where we were at one
+
+40
+00:02:47,333 --> 00:02:50,467
+so that looks like the slope right over there
+
+41
+00:02:50,467 --> 00:02:52,333
+and we do the slope over there
+
+42
+00:02:52,333 --> 00:02:56,667
+and if we get pretty close it will actully draw the curve of the derivative
+
+43
+00:02:56,667 --> 00:02:58,561
+So there you go
+
+44
+00:02:58,561 --> 00:03:02,200
+and so we didn't find the derivative at evey point in the curve
+
+45
+00:03:02,200 --> 00:03:06,000
+we found it just at these special points we have the orange dots for
+
+46
+00:03:06,000 --> 00:03:10,404
+but since we gots the orange dots close enough to the actual derivative
+
+47
+00:03:10,404 --> 00:03:15,651
+just by eye-balling it to try and find, trying to look at what the slope of the tangent line is.
+
+48
+00:03:15,651 --> 00:03:20,226
+It says, ok you have done it right and it then drew the whole slope of the derivative
+
+49
+00:03:20,226 --> 00:03:23,821
+and what the entire derivative is saying, is at any point this is the slope of the tangent line.
+
+50
+00:03:23,821 --> 00:03:28,000
+So even though you didn't move a dot around at
+
+51
+00:03:28,000 --> 00:03:32,477
+-0.5 if you go right up here that looks like it is around 2.5.
+
+52
+00:03:32,477 --> 00:03:37,475
+So this will be a little bit over 1, this looks like that will be the slope of the tangent line right over there.
+
+53
+00:03:37,475 --> 00:03:45,000
+Or if we went all the way over to -2.25, the slope will be aproximatly
+
+54
+00:03:45,000 --> 00:03:47,648
+30 right over there, so once you have the curve
+
+55
+00:03:47,648 --> 00:03:50,333
+you now have the slope of the tangent line
+
+56
+00:03:50,333 --> 00:03:54,267
+or if you have the slope of the curve at every point we see over here.
+
+57
+00:03:54,267 --> 99:59:59,999
+So this is just a pretty neat exercise.

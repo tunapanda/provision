@@ -1,0 +1,339 @@
+1
+00:00:00,000 --> 00:00:03,569
+Lets do another one of these dependent probability problems
+
+2
+00:00:03,577 --> 00:00:06,115
+You have 4 coins in a bag
+
+3
+00:00:06,115 --> 00:00:12,199
+3 of them are unfair in that they have a 45% chance of
+
+4
+00:00:12,199 --> 00:00:14,560
+coming up tails when flipped
+
+5
+00:00:14,560 --> 00:00:16,214
+the rest are fair
+
+6
+00:00:16,214 --> 00:00:20,437
+so for the rest of them they have a 50% chance of tails or 50% chance of coming heads
+
+7
+00:00:20,529 --> 00:00:25,852
+You randomly choose one coin from the bag and flip it 4 times
+
+8
+00:00:25,906 --> 00:00:30,352
+What is the percent probability of coming 4 heads
+
+9
+00:00:30,352 --> 00:00:32,329
+So lets think about it
+
+10
+00:00:32,329 --> 00:00:37,083
+when we put our hand in the bag and and we take one of the coins out
+
+11
+00:00:37,091 --> 00:00:40,514
+there is some probability that we get an unfair coin
+
+12
+00:00:40,514 --> 00:00:50,145
+and 3 of the 4 coins are unfair so there is a 3/4 probability that we get an unfair coin
+
+13
+00:00:50,145 --> 00:00:57,760
+and there is only one of the 4 coins which is fair so there is a 1/4 probability
+
+14
+00:00:57,760 --> 00:01:00,006
+that i get a fair coin
+
+15
+00:01:00,045 --> 00:01:04,922
+now, given that I have so unfair-- Lets remind ourselves
+
+16
+00:01:04,922 --> 00:01:11,937
+a unfair coin has a 45% chance of coming up tails so this means that I have a 45% chance
+
+17
+00:01:11,952 --> 00:01:15,906
+of tails which also means -- we have to be careful here
+
+18
+00:01:15,906 --> 00:01:17,529
+because they are asking us about heads
+
+19
+00:01:17,529 --> 00:01:19,891
+If I have a 45% chance of getting tails that means
+
+20
+00:01:19,891 --> 00:01:24,799
+I have a 55% chance of getting heads, right?
+
+21
+00:01:24,799 --> 00:01:27,175
+when I have a 100% chance of getting on of these 2
+
+22
+00:01:27,175 --> 00:01:31,252
+If its 45% for tails then 100 - 45 is 55 for heads
+
+23
+00:01:31,283 --> 00:01:41,160
+For the fair coin I have a 50% chance of tails and 50% for heads
+
+24
+00:01:41,160 --> 00:01:42,445
+fair enough
+
+25
+00:01:42,445 --> 00:01:44,699
+now I want to know in either of these senarios
+
+26
+00:01:44,699 --> 00:01:47,891
+what is the percent probability of getting 4 heads
+
+27
+00:01:47,891 --> 00:01:53,475
+so if given--I have got the unfair coin the probability of getting
+
+28
+00:01:53,475 --> 00:01:57,722
+4 heads is going to be 55% for each of those flips
+
+29
+00:01:57,722 --> 00:02:01,914
+so the probability of getting exactly 4 heads is going to be
+
+30
+00:02:01,914 --> 00:02:12,052
+0.55 times 0.55 times 0.55 times 0.55 and so the probability
+
+31
+00:02:12,052 --> 00:02:17,514
+of picking an unfair coin and getting 4 heads in a row
+
+32
+00:02:17,514 --> 00:02:22,068
+is going to be equal 3/4 times all of this business over here
+
+33
+00:02:22,068 --> 00:02:28,868
+so thats 3/4 times and this is 0.55 times itself times 4 times
+
+34
+00:02:28,868 --> 00:02:35,268
+so I could write it as 0.55 to the 4th power
+
+35
+00:02:35,268 --> 00:02:37,891
+And we will get the calculator out in a second
+
+36
+00:02:37,891 --> 00:02:40,129
+and actually calculate what this is
+
+37
+00:02:40,129 --> 00:02:42,337
+now lets do the same thing for the fair coin
+
+38
+00:02:42,337 --> 00:02:43,991
+If I did pick a fair coin
+
+39
+00:02:43,991 --> 00:02:47,060
+the probability of getting heads four times in a row
+
+40
+00:02:47,060 --> 00:02:55,091
+is going to be 0.5 times 0.5 times 0.5 times 0.5
+
+41
+00:02:55,091 --> 00:03:05,129
+or the probability of getting the fair coin which is 1/4 chance and getting 4 heads in the row is going to be
+
+42
+00:03:05,129 --> 00:03:13,006
+1/4 times all of this so its going to be 1/4 times -- this is just 0.5 times itself 4 times so that's
+
+43
+00:03:13,006 --> 00:03:16,391
+so thats 0.5 to the 4th power
+
+44
+00:03:16,391 --> 00:03:19,952
+so lets get the calculator out to caculate one of these
+
+45
+00:03:19,952 --> 00:03:30,522
+so we get 3 divided by 4 times -- and it knows when I do the multiplication
+
+46
+00:03:30,522 --> 00:03:32,806
+its not in the denominator here
+
+47
+00:03:32,806 --> 00:03:35,422
+so its 3/4 times -- and I will just do it in parentheces
+
+48
+00:03:35,429 --> 00:03:38,345
+not to do in parenthesies because it the order of operation
+
+49
+00:03:38,345 --> 00:03:47,160
+so .55 to the fourth power is equal to 0. -- let me write it down
+
+50
+00:03:47,160 --> 00:03:50,752
+take it off the screen so that I can write properly
+
+51
+00:03:50,752 --> 00:03:53,437
+actually let me do both of these calculations
+
+52
+00:03:53,437 --> 00:03:55,122
+so this probability is that one right over there
+
+53
+00:03:55,122 --> 00:04:03,814
+and then this one down here is 1 divided by 4 times .5 to the 4th power
+
+54
+00:04:03,814 --> 00:04:06,760
+so its equal to that right over there
+
+55
+00:04:06,760 --> 00:04:08,568
+and so lets be clear
+
+56
+00:04:08,568 --> 00:04:14,968
+the probability of picking the unfair coin and then getting 4 heads in a row
+
+57
+00:04:14,968 --> 00:04:20,075
+is this top number its like roughly 6.9% chance
+
+58
+00:04:20,075 --> 00:04:23,637
+that you get the unfair coin and then get 4 heads in a row
+
+59
+00:04:23,637 --> 00:04:27,191
+the probability that you get the fair coin and then get 4 heads in a row
+
+60
+00:04:27,191 --> 00:04:31,099
+is even lower -- its only a 1.6% chance
+
+61
+00:04:31,099 --> 00:04:35,437
+now the probability of getting 4 heads in a row either way is going to be
+
+62
+00:04:35,437 --> 00:04:39,643
+the sum of this and this or the sum of that and that
+
+63
+00:04:39,643 --> 00:04:42,574
+which is going to be --let me get my calculator out
+
+64
+00:04:42,574 --> 00:04:46,381
+so its going to be equal to I could just take the previous Ans
+
+65
+00:04:46,381 --> 00:04:48,312
+let me just e type it so that I don't confuse you
+
+66
+00:04:48,358 --> 00:05:08,274
+so .015625 + .0686296875 -- I am going to round it anyway
+
+67
+00:05:08,274 --> 00:05:09,789
+wont matter too much
+
+68
+00:05:09,789 --> 00:05:14,036
+so if I take the sum -- let me take this of screen so I can still see
+
+69
+00:05:14,036 --> 00:05:15,428
+and that let me write it
+
+70
+00:05:15,428 --> 00:05:24,720
+so what I got here this one is 0.068629 -- I willl round it 7
+
+71
+00:05:24,720 --> 00:05:32,320
+and this down here was 0.015625
+
+72
+00:05:32,320 --> 00:05:34,036
+and when you add these 2 up
+
+73
+00:05:34,036 --> 00:05:37,182
+because we just care about getting 4 heads either way
+
+74
+00:05:37,182 --> 00:05:40,266
+there is a probability of getting it this way, the unfair coin
+
+75
+00:05:40,266 --> 00:05:42,397
+this is the probability of getting it with the fair coin
+
+76
+00:05:42,397 --> 00:05:46,382
+we want it either way so lets add the 2 which we have already
+
+77
+00:05:46,382 --> 00:05:48,974
+done on our calculator so if you add that number to that number
+
+78
+00:05:48,974 --> 00:05:56,513
+you get 0.08425 -- its keeps going -- I am just going to round it
+
+79
+00:05:56,513 --> 00:06:11,443
+so this is equal to8.425% or 8.43% chance of getting 4 heads in a row
+
+80
+00:06:11,443 --> 00:06:14,420
+and once again that's a slightly
+
+81
+00:06:14,420 --> 00:06:17,536
+higher number than if all the coins were fair
+
+82
+00:06:17,536 --> 00:06:22,105
+because there's a 3/4 chance that I get a coin that has
+
+83
+00:06:22,105 --> 00:06:24,243
+a better than even chance of getting heads
+
+84
+00:06:24,243 --> 00:06:27,066
+so thats why this number is going to be a little bit higher than the
+
+85
+00:06:27,066 --> 00:06:33,697
+probability if I had a fair coin of just getting 4 heads in a row

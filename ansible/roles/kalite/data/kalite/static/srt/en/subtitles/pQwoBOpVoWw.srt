@@ -1,0 +1,211 @@
+1
+00:00:01,200 --> 00:00:13,067
+In the last video we saw that choice A is true. Now lets see if B, C, and D are also true. So choice B they're telling us that the argument, let me rewrite it over here in another color.
+
+2
+00:00:13,067 --> 00:00:27,667
+That choice B, the argument of z - z^1 is equal to the argument of z- z^2. Now lets think about this
+
+3
+00:00:27,667 --> 00:00:34,867
+a little bit. We already did some work we simplified what (z - z^1) is equal to. It's equal to T times
+
+4
+00:00:34,867 --> 00:00:45,667
+Z^2 - Z^1. So this is equivalent to saying that the argument of T times Z^2 minus Z^1, I'm just leveraging
+
+5
+00:00:45,667 --> 00:00:50,533
+some of the algebra that we already did. Because this thing is the same thing as what's inside of the
+
+6
+00:00:50,533 --> 00:00:59,667
+absolute value sign which is the same thing as this thing over here. So the argument in T time Z^2 minus
+
+7
+00:00:59,667 --> 00:01:05,067
+z^1 is equal to, so I'm just rewriting statement B. Statement B is saying that this should be equal to
+
+8
+00:01:05,067 --> 00:01:13,800
+the argument of... now what's (z minus z^2? z minus z^2 we've figured out was this thing right over here.
+
+9
+00:01:13,800 --> 00:01:22,000
+Actually it's this thing right over here. It's equal to this thing right over here. And we could rewrite
+
+10
+00:01:22,000 --> 00:01:28,933
+this thing as being equal to... I'm running out of real estate here. But we could rewrite this thing
+
+11
+00:01:28,933 --> 00:01:43,400
+right here as being equal to 1 minus T, I'm just factoring out the (1 minus t) times (z^1 minus z^2). (z^1
+
+12
+00:01:43,400 --> 00:01:53,667
+minus z^2). Or, so we could get it in the same form here let's multiply this times -1 and this times -1
+
+13
+00:01:53,667 --> 00:01:59,333
+So I'm multiplying by -1 twice so I'm not changing the number. So this is going to be equal to, or the
+
+14
+00:01:59,333 --> 00:02:07,800
+statement is claiming this is equal to the argument of T minus 1. Let me write it a little bit neater
+
+15
+00:02:07,800 --> 00:02:19,733
+than that. So the claim is that this should be equal to the argument of (t minus 1) times (z^2 minus z^1).
+
+16
+00:02:19,733 --> 00:02:25,533
+So lets think about this and just remember all I did is I multiplied this by negative one and this by
+
+17
+00:02:25,533 --> 00:02:30,867
+negative one if I multiply 2 things by negative one it's equivalent to multiplying by negative one twice.
+
+18
+00:02:30,867 --> 00:02:37,267
+Which is just multiplying it by one so I was able to swap both of these. So, is this true? Is it true
+
+19
+00:02:37,267 --> 00:02:43,667
+that the argument of T times (z^2 minus z^1), is it true that that's the same thing as the argument of
+
+20
+00:02:43,667 --> 00:02:51,800
+t minus 1 times (z^2 minus z^1). So let's think about this a little bit. Let's draw an Argand Diagram.
+
+21
+00:02:51,800 --> 00:03:04,667
+Here... that's the imaginary axis, this is the real axis. And, let's draw the vectored Z^2 minus Z^1
+
+22
+00:03:04,667 --> 00:03:12,544
+so let's say that this here is the vector and lets draw the vector Z^2 minus Z^1
+
+23
+00:03:12,877 --> 00:03:21,200
+now what would T times Z^2 minus Z^1 look like? Well T, we learned, is between zero and 1. So, it's going
+
+24
+00:03:21,200 --> 00:03:28,200
+to be a scaled down version of Z^2 minus Z^1. So this right here, so who knows what it is? This right
+
+25
+00:03:28,200 --> 00:03:38,467
+here would be T times Z^2 minus Z^1. Now what would T minus 1 times Z^2 minus Z^1 look like? Well T minus
+
+26
+00:03:38,467 --> 00:03:47,267
+1 if you remember T is between zero and 1. So T is less than 1. So T minus one, this right here is going
+
+27
+00:03:47,267 --> 00:03:54,133
+to be a negative number. It's going to be a negative number. So we're going to be scaling it by a negative
+
+28
+00:03:54,133 --> 00:04:00,267
+number. So we're going to be scaling Z^2 minus Z^1 by a negative number. So this thing right over here.
+
+29
+00:04:00,267 --> 00:04:14,933
+(t-1) times (z^2 minus z^1) is going to look like this. This is (t minus 1) times (z^2 minus z^1). Now
+
+30
+00:04:14,933 --> 00:04:24,467
+the arguments are just the angles between each of these numbers and the real axis so the argument for
+
+31
+00:04:24,467 --> 00:04:30,800
+this thing right over here is going to be this angle is going to be 5 right over so I could call that
+
+32
+00:04:30,800 --> 00:04:39,533
+5. But what's the argument for this thing? It's going to be that plus pi or plus 180 degrees. We have
+
+33
+00:04:39,533 --> 00:04:48,000
+to go all the way around. So they are not the same angle. Whatever number this is, right over here,
+
+34
+00:04:48,000 --> 00:04:54,933
+this number is going to be plus pi, or you can even go minus pi. But they're definitely not
+
+35
+00:04:54,933 --> 00:05:06,267
+going to be the same angle. So we can cross out, choice B as an option. Now that we're in this mode
+
+36
+00:05:06,267 --> 00:05:10,800
+let's see if we can tackle choice D because it looks very similar. And then I'll probably do
+
+37
+00:05:10,800 --> 00:05:16,467
+choice C in the next video because I don't want to spend too much time in each video. So what is choice
+
+38
+00:05:16,467 --> 00:05:22,533
+D telling us? Let me write it down here. Choice D is telling us... so we don't know, we have to see
+
+39
+00:05:22,533 --> 00:05:34,267
+if it's true that the Argument of (z minus z^1) is equal to the argument of (z^2 minus z^1)
+
+40
+00:05:34,267 --> 00:05:43,200
+So let's think a little bit about this right now. So, once again, we've already figured out what (z minus
+
+41
+00:05:43,200 --> 00:05:47,600
+z^1) is equal to. It's equal to this business over here. So this statement is equivalent
+
+42
+00:05:47,600 --> 00:05:55,800
+to the statement that the argument of (z minus z^1) which is (t times z^2 minus z^1) leveraging the algebra
+
+43
+00:05:55,800 --> 00:06:07,733
+from the last video. (t time z^2 minus z^1). Is this equal to the argument of (z^2 minus z^1)? Well once
+
+44
+00:06:07,733 --> 00:06:16,000
+again let's draw our Argand Diagram. Actually we could leverage the same Argand Diagram in green. We
+
+45
+00:06:16,000 --> 00:06:28,733
+have (z^2 minus z^1) its argument would be this angle right over here. It would be this angle five. This
+
+46
+00:06:28,733 --> 00:06:34,867
+is (z^2 minus z^1) That's that angle. (t times z^2 minus z^1) is just going to be the scaled down version
+
+47
+00:06:34,867 --> 00:06:41,400
+of it what we have in orange. Now clearly T is positive so it's not pointing in another direction
+
+48
+00:06:41,400 --> 00:06:48,400
+this is just a scaled down version of this. This vector and this vector, or this complex number
+
+49
+00:06:48,400 --> 00:06:55,067
+and this complex number are going to point in the same direction. So their angles are the same. This
+
+50
+00:06:55,067 --> 00:07:01,467
+orange vector is this here or this orange complex number is this right over here. This is
+
+51
+00:07:01,467 --> 00:07:08,667
+(t times z^2 minus z^1) and the green one, just to be clear is (z^2 minus z^1) is that. They're clearly
+
+52
+00:07:08,667 --> 00:07:16,400
+in the same direction, they clearly have the same argument. So choice D is another correct choice.
+
+53
+00:07:16,400 --> 99:59:59,999
+Now I'm going to leave you there. In the next video we're going to see if choice C works.

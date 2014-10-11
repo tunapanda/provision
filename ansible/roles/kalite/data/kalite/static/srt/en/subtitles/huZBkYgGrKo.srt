@@ -1,0 +1,335 @@
+1
+00:00:00,000 --> 00:00:06,133
+Suppose marketing experts have determined the relationship between the selling price of an item
+
+2
+00:00:06,133 --> 00:00:14,452
+and the cost of an item can be represented by the linear equation q = -30s + 800,
+
+3
+00:00:14,452 --> 00:00:19,092
+where q is the quantity sold in a year and s is the selling price.
+
+4
+00:00:19,092 --> 00:00:23,748
+If the cost to produce the item is $20,
+
+5
+00:00:23,748 --> 00:00:27,513
+so the cost to produce an item is $20,
+
+6
+00:00:27,513 --> 00:00:33,154
+what is the selling price that optimizes the yearly, the yearly, profit?
+
+7
+00:00:33,154 --> 00:00:36,333
+So what's the profit going to be? So let me write this down.
+
+8
+00:00:36,333 --> 00:00:42,852
+So a yearly profit is going to be the quantity, is going to be, the quantity that we sell in a year,
+
+9
+00:00:42,852 --> 00:00:45,815
+it's going to be the quantity that we sell in a year,
+
+10
+00:00:45,815 --> 00:00:53,348
+times, times, the price that we sell it at, price, times the price that we sell it at,
+
+11
+00:00:53,348 --> 00:01:00,252
+minus the cost of us actually producing that item, and in this case they tell us it is $20.
+
+12
+00:01:00,252 --> 00:01:05,871
+So for example, if we sell two items, if q is 2 and we sell them for $25,
+
+13
+00:01:05,871 --> 00:01:11,067
+we're gonna make $5 on each item, 'cause it cost each of them cost us 5, $20 to produce,
+
+14
+00:01:11,067 --> 00:01:13,744
+so 25 minus 20 will be 5.
+
+15
+00:01:13,744 --> 00:01:20,098
+If we sell two items at that price it'll be 2 times 5 or we'll have a profit of $10.
+
+16
+00:01:20,098 --> 00:01:23,475
+So what, how can we figure out how to maximize this profit?
+
+17
+00:01:23,475 --> 00:01:27,559
+Well they gave us the quantity as a function of selling price,
+
+18
+00:01:27,559 --> 00:01:31,675
+so we could, we could express the entire profit as a function of selling price.
+
+19
+00:01:31,675 --> 00:01:42,744
+So we could say, we can substitute q is equal to -30 s plus 800 right over, right over here.
+
+20
+00:01:42,744 --> 00:01:44,644
+And let's be very clear what this is telling us.
+
+21
+00:01:44,644 --> 00:01:50,718
+This is telling us that if the selling price increases, then this will become a larger negative number
+
+22
+00:01:50,718 --> 00:01:55,071
+so we're going to sell fewer, we're gonna sell a smaller quantity.
+
+23
+00:01:55,071 --> 00:01:58,400
+And actually if you believe this, and if you actually made the selling price zero,
+
+24
+00:01:58,400 --> 00:02:04,118
+if you just gave away this product, it tells us that we would sell at most 800.
+
+25
+00:02:04,148 --> 00:02:07,062
+So it might not be a perfect model but let's just use this for,
+
+26
+00:02:07,062 --> 00:02:10,548
+you know some marketing experts have told us this, so let's just use it.
+
+27
+00:02:10,548 --> 00:02:21,938
+So if we substitute -30 s plus 800 for q, we get -30 s plus 800 times s minus 20,
+
+28
+00:02:21,938 --> 00:02:26,795
+times, and this is in a different shade of yellow, times s minus 20.
+
+29
+00:02:26,795 --> 00:02:30,729
+This is profit as a function of selling price.
+
+30
+00:02:30,729 --> 00:02:34,652
+And now we can just, let me be very careful here, let me be very care--
+
+31
+00:02:34,652 --> 00:02:38,313
+This is just, this is q right here, and so this whole thing is q.
+
+32
+00:02:38,313 --> 00:02:43,010
+Wanna make sure we're multiplying this whole expression times this entire expression right over there,
+
+33
+00:02:43,010 --> 00:02:44,687
+and so let's do that.
+
+34
+00:02:44,687 --> 00:02:47,390
+So this is going to be equal to,
+
+35
+00:02:47,436 --> 00:02:50,282
+this is going to be equal to -30 s.
+
+36
+00:02:50,282 --> 00:02:54,313
+So let me just distribute it out. This is going to be -30 s,
+
+37
+00:02:54,313 --> 00:02:59,205
+times s minus 20, times this whole thing, we're taking this whole term,
+
+38
+00:02:59,205 --> 00:03:01,590
+we're first multiplying it times -30 s.
+
+39
+00:03:01,590 --> 00:03:07,390
+And then we're gonna take this whole term and then multiply it by 800, s minus 20.
+
+40
+00:03:07,390 --> 00:03:11,990
+And so this gives us, this is equal to -30 s times s, we have to distribute again,
+
+41
+00:03:11,990 --> 00:03:24,898
+-30 s squared, -30 s times -20, is going to be positive, positive, positive 600 s.
+
+42
+00:03:24,898 --> 00:03:29,185
+And then we have 800 times s, so that's plus 800 s,
+
+43
+00:03:29,185 --> 00:03:36,487
+and then 800 times -20, so that is -8 times 2 is 16,
+
+44
+00:03:36,487 --> 00:03:40,600
+and we have one, two, three zeros, one, two, three, zeros.
+
+45
+00:03:40,600 --> 00:03:44,215
+And if we simplify we can add these two terms right over here.
+
+46
+00:03:44,215 --> 00:03:52,852
+We get -30 s squared plus 1400 s minus 16000.
+
+47
+00:03:52,852 --> 00:03:59,513
+So we now, we've now expressed, we've now expressed, our profit as a function of selling price.
+
+48
+00:03:59,513 --> 00:04:01,979
+And this is actually going to be a downward opening parabola,
+
+49
+00:04:01,979 --> 00:04:06,333
+and we can tell that because the coefficient on the second degree term,
+
+50
+00:04:06,333 --> 00:04:08,359
+on the quadratic term, is negative.
+
+51
+00:04:08,359 --> 00:04:13,692
+So if we were to graph this, if we were to graph this...
+
+52
+00:04:13,692 --> 00:04:17,646
+So over here--let me draw a better graph than that.
+
+53
+00:04:17,646 --> 00:04:20,508
+Over here, this axis right here is going to be the selling price,
+
+54
+00:04:20,508 --> 00:04:22,969
+And this is profit which is a function of selling price.
+
+55
+00:04:22,969 --> 00:04:29,769
+This graph, this equation right over here, is going to look like this, is going to look something like this.
+
+56
+00:04:29,769 --> 00:04:33,748
+We already saw the selling price--let me write, just write it this way.
+
+57
+00:04:33,748 --> 00:04:38,985
+So let me just--is going to look something like this.
+
+58
+00:04:38,985 --> 00:04:42,636
+I don't know what the exact equation is gonna look like, but it's gonna be downward opening.
+
+59
+00:04:42,636 --> 00:04:46,159
+And what we wanna do is maximize the profit.
+
+60
+00:04:46,159 --> 00:04:49,415
+We wanna find this maximum point right over here.
+
+61
+00:04:49,415 --> 00:04:54,287
+You could do it with calculus, if you had, if you had calculus at your, at your, at your fingertips.
+
+62
+00:04:54,287 --> 00:04:57,754
+Or you could just recognize this is the vertex of the parabola.
+
+63
+00:04:57,754 --> 00:05:01,185
+And you could, you could figure out the vertex by putting in the vertex form,
+
+64
+00:05:01,185 --> 00:05:04,979
+but the fastest way is to just know that the normally the x coordinate,
+
+65
+00:05:04,979 --> 00:05:11,231
+or the s coordinate, the s coordinate, of the vertex is going to be -b over 2 a.
+
+66
+00:05:11,231 --> 00:05:13,944
+And if we wanna figure out what -b over 2 a is,
+
+67
+00:05:13,944 --> 00:05:18,759
+we just take the--this is the b right over here so it's a -b
+
+68
+00:05:18,759 --> 00:05:26,390
+so it's -1400 over 2 a, over 2 times -30,
+
+69
+00:05:26,390 --> 00:05:32,575
+which is equal to -1400 over -60.
+
+70
+00:05:32,575 --> 00:05:36,513
+Negatives cancel out, we could divide the numerator and the denominator by 10.
+
+71
+00:05:36,513 --> 00:05:40,210
+So this is the same thing as a 140 over 6.
+
+72
+00:05:40,210 --> 00:05:46,348
+We can divide the numerator and the denominator by 3, or by, by 2.
+
+73
+00:05:46,348 --> 00:05:51,571
+And you get 70, you get 70 over 3.
+
+74
+00:05:51,741 --> 00:05:56,913
+And then we can just divide that, so 3 goes into 70,
+
+75
+00:05:56,913 --> 00:06:00,536
+3 goes into 7 two times, 2 times 3 is 6.
+
+76
+00:06:00,536 --> 00:06:06,298
+Subtract, you get a difference of 1, bring down the zero, 3 goes into 10 three times,
+
+77
+00:06:06,298 --> 00:06:11,013
+3 times 3 is 9, subtract, you have, bring down, you get a 1.
+
+78
+00:06:11,013 --> 00:06:15,067
+Now we're in the decimals, we bring down another zero, it becomes a 10 again,
+
+79
+00:06:15,129 --> 00:06:18,625
+3 goes into 10 three times, I think you see where this is going.
+
+80
+00:06:18,625 --> 00:06:25,662
+It's 23.3 repeating times. If we just keep doing this, we'll just keep getting more, more, more threes.
+
+81
+00:06:25,662 --> 00:06:30,141
+Or if we just wanted to round to the nearest penny, since we're talking about selling something,
+
+82
+00:06:30,141 --> 00:06:38,748
+this optimal profit, this optimal profit, will happen at a selling price of $23 and 30,
+
+83
+00:06:38,748 --> 00:06:42,329
+$23 and 33 cents.
+
+84
+00:06:42,329 --> 99:59:59,999
+That will optimize the yearly profit.

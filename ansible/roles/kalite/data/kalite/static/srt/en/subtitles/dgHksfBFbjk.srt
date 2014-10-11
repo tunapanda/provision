@@ -1,0 +1,531 @@
+1
+00:00:00,590 --> 00:00:02,520
+So we have this rectangle right over here,
+
+2
+00:00:02,530 --> 00:00:04,870
+we call it, the length of AB is equal to 1
+
+3
+00:00:04,880 --> 00:00:07,690
+So that's labeled right over there, AB is equal to 1
+
+4
+00:00:07,700 --> 00:00:13,330
+And they tell us that BE and BD trisect angle ABC
+
+5
+00:00:13,340 --> 00:00:20,300
+So BE and BD trisect angle ABC
+
+6
+00:00:20,310 --> 00:00:25,930
+So trisect means dividing it into 3 equal angles
+
+7
+00:00:25,940 --> 00:00:28,960
+So that means that this angel, is equal to this angle,
+
+8
+00:00:28,970 --> 00:00:30,530
+is equal to that angle
+
+9
+00:00:30,540 --> 00:00:31,830
+What they want us to figure out is,
+
+10
+00:00:31,840 --> 00:00:37,650
+what is the perimeter of triangle BED, triangle BED
+
+11
+00:00:37,660 --> 00:00:41,260
+So it's kinda this middle triangle and the rectangle right over here
+
+12
+00:00:41,270 --> 00:00:43,870
+So at first it seems like a pretty hard problem,
+
+13
+00:00:43,880 --> 00:00:46,250
+because you're like, what is the width of this rectangle
+
+14
+00:00:46,260 --> 00:00:49,320
+how can I start on this, they've given only one side here
+
+15
+00:00:49,330 --> 00:00:51,220
+They've actually given us a lot of information,
+
+16
+00:00:51,230 --> 00:00:53,240
+given that we do know that this is a rectangle
+
+17
+00:00:53,250 --> 00:00:55,940
+We have four sides and then we have four angles,
+
+18
+00:00:55,950 --> 00:00:58,520
+the sides are all parallel to each other
+
+19
+00:00:58,530 --> 00:01:00,510
+and the angels are all 90 degrees,
+
+20
+00:01:00,520 --> 00:01:01,990
+which is more than enough information
+
+21
+00:01:02,000 --> 00:01:04,060
+to know that this is definitely a rectangle
+
+22
+00:01:04,070 --> 00:01:05,420
+And so one thing we do know that,
+
+23
+00:01:05,430 --> 00:01:07,890
+the opposite sides of a rectangle are the same length
+
+24
+00:01:07,900 --> 00:01:12,470
+This side is 1, then this side over there is 1
+
+25
+00:01:12,480 --> 00:01:15,610
+The other thing we know is that this angle is trisected
+
+26
+00:01:15,620 --> 00:01:17,570
+Now we know what the measure of this angle is
+
+27
+00:01:17,580 --> 00:01:20,110
+It was a right angle, it was a 90 degrees angle
+
+28
+00:01:20,120 --> 00:01:22,080
+So this divide into 3 equal parts,
+
+29
+00:01:22,090 --> 00:01:25,000
+that tells us that this angle is 30 degrees
+
+30
+00:01:25,010 --> 00:01:27,380
+this angle right over is 30 degrees
+
+31
+00:01:27,390 --> 00:01:30,940
+and this angle right over here is 30 degrees
+
+32
+00:01:30,950 --> 00:01:34,570
+And now we see we're dealing with a couple of 30, 60, 90 triangles
+
+33
+00:01:34,580 --> 00:01:40,320
+So this is other side over here needs to be 60 degrees
+
+34
+00:01:40,330 --> 00:01:43,240
+So that side right over there needs to be 60 degrees
+
+35
+00:01:43,250 --> 00:01:46,850
+This triangle over here, you have 30, you have 90,
+
+36
+00:01:46,860 --> 00:01:50,080
+so this was one have to be 60 degrees, you have to add up to 180
+
+37
+00:01:50,090 --> 00:01:51,870
+30, 60, 90 triangle
+
+38
+00:01:51,880 --> 00:01:53,590
+30, 60, 90 triangle,
+
+39
+00:01:53,600 --> 00:01:55,470
+and you can also figure out the measure of this triangle
+
+40
+00:01:55,480 --> 00:01:57,940
+although its not gonna be a right triangle
+
+41
+00:01:57,950 --> 00:02:00,720
+But knowing what we know about 30, 60, 90 triangles,
+
+42
+00:02:00,730 --> 00:02:02,300
+if we just have one side of them
+
+43
+00:02:02,310 --> 00:02:04,500
+we can actually figure out the other sides
+
+44
+00:02:04,510 --> 00:02:08,030
+So for example, here, we have the shortest side,
+
+45
+00:02:08,040 --> 00:02:11,660
+we have the side opposite of 30 degree side,
+
+46
+00:02:11,670 --> 00:02:14,450
+now whatever, if the 30 degree side is 1
+
+47
+00:02:14,460 --> 00:02:17,870
+then the 60 degree side is gonna be squared 3 times that
+
+48
+00:02:17,880 --> 00:02:20,780
+So this length right over here is gonna be squared to 3
+
+49
+00:02:20,790 --> 00:02:23,210
+And that's pretty useful because now we've figured out
+
+50
+00:02:23,220 --> 00:02:27,500
+the length of the entire base of this rectangle right over there
+
+51
+00:02:27,510 --> 00:02:29,950
+Now we just used our knowledge of 30, 60, 90 triangles
+
+52
+00:02:29,960 --> 00:02:31,960
+if you see, if that was a little bit mysterious,
+
+53
+00:02:31,970 --> 00:02:32,900
+how I come up with that
+
+54
+00:02:32,910 --> 00:02:34,450
+I encourage you to watch that video
+
+55
+00:02:34,460 --> 00:02:40,210
+We know that 30, 60, 90 triangles,
+
+56
+00:02:40,220 --> 00:02:45,360
+there side are in the range of 1 to the square root of 3 to 2
+
+57
+00:02:45,370 --> 00:02:47,950
+So this is 1 this is a 30 degree side
+
+58
+00:02:47,960 --> 00:02:49,990
+this is gonna be square root of 3 times that
+
+59
+00:02:50,000 --> 00:02:53,090
+and the hypotenuse right over here is going to be 2 times that
+
+60
+00:02:53,100 --> 00:02:56,790
+So this length over here is going to be 2 times,
+
+61
+00:02:56,800 --> 00:03:00,280
+the side right over here, so 2 times 1 is just 2
+
+62
+00:03:00,290 --> 00:03:02,290
+So that's pretty interesting, let's see if we can do something
+
+63
+00:03:02,300 --> 00:03:04,370
+similar with this side right over here
+
+64
+00:03:04,380 --> 00:03:07,570
+Here the 1 is not the side opposite of the 30 degree side
+
+65
+00:03:07,580 --> 00:03:11,390
+Here the 1 is the side opposite of the 60 degree side
+
+66
+00:03:11,550 --> 00:03:14,730
+This is the 1 opposite the 60 degree side
+
+67
+00:03:14,740 --> 00:03:19,540
+So once again, if we multiply this side by square root of 3,
+
+68
+00:03:19,550 --> 00:03:21,850
+we should get this side right over here
+
+69
+00:03:21,860 --> 00:03:25,570
+This is the 60, remember this 1, so right over here, this 1,
+
+70
+00:03:25,580 --> 00:03:27,500
+this is the 60 degree side,
+
+71
+00:03:27,510 --> 00:03:32,270
+so this has to be 1 over square root of 3 of this side
+
+72
+00:03:32,280 --> 00:03:35,200
+Let me write this down 1 over the square root of 3
+
+73
+00:03:35,210 --> 00:03:39,130
+And the whole reason, why I was able to get this is well
+
+74
+00:03:39,140 --> 00:03:42,130
+whatever this side is I multiply it by the square root of 3
+
+75
+00:03:42,140 --> 00:03:43,940
+I should get this side right over here,
+
+76
+00:03:43,950 --> 00:03:47,240
+I should get the 60 degree side, the beside the 60 degree angle
+
+77
+00:03:47,250 --> 00:03:51,180
+or if I take the 60 degree side if I divide it by the square root of 3
+
+78
+00:03:51,190 --> 00:03:54,320
+I should get the shortest side, the 30 degree side
+
+79
+00:03:54,330 --> 00:03:57,380
+I start with the 60 degree side, divided by square root of 3,
+
+80
+00:03:57,390 --> 00:03:59,370
+I get that right over there
+
+81
+00:03:59,380 --> 00:04:02,260
+And then the hypotenuse is always gonna be twice
+
+82
+00:04:02,270 --> 00:04:06,950
+the length of the side opposite the 30 degree angle
+
+83
+00:04:06,960 --> 00:04:08,880
+So this is a side opposite the 30 degree angle,
+
+84
+00:04:08,890 --> 00:04:11,110
+the hypotenuse is always twice that
+
+85
+00:04:11,140 --> 00:04:13,150
+So this is a side opposite the 30 degree angle,
+
+86
+00:04:13,160 --> 00:04:15,070
+the hypotenuse is always twice that
+
+87
+00:04:15,080 --> 00:04:18,780
+It is gonna be 2 over the square root of 3
+
+88
+00:04:18,790 --> 00:04:19,870
+So we're doing pretty good,
+
+89
+00:04:19,880 --> 00:04:22,200
+we have to figure out the perimeter of this inner triangle
+
+90
+00:04:22,210 --> 00:04:22,770
+right over here
+
+91
+00:04:22,780 --> 00:04:24,650
+We already figured out one length is 2,
+
+92
+00:04:24,660 --> 00:04:27,110
+we figure out another length is 2 over square roots of 3
+
+93
+00:04:27,120 --> 00:04:30,530
+And then, all we have to really figure out is what ED is
+
+94
+00:04:30,540 --> 00:04:32,760
+And we can do that it's because AD
+
+95
+00:04:32,770 --> 00:04:35,020
+is gonna be the same thing as BC
+
+96
+00:04:35,250 --> 00:04:37,180
+We know that this entire length,
+
+97
+00:04:37,190 --> 00:04:40,250
+we're dealing with a rectangle is the square root of 3
+
+98
+00:04:40,260 --> 00:04:43,490
+This entire length, the entire length of the square root of 3
+
+99
+00:04:43,500 --> 00:04:47,170
+if this part, this AE is 1 over square root of 3,
+
+100
+00:04:47,180 --> 00:04:51,160
+then this length right over here, ED is gonna be square root of 3
+
+101
+00:04:51,170 --> 00:04:53,630
+minus 1 over the square root of 3
+
+102
+00:04:53,640 --> 00:04:56,750
+That length minus that length over there
+
+103
+00:04:56,760 --> 00:04:58,810
+And now to find the perimeter is pretty straight forward,
+
+104
+00:04:58,820 --> 00:05:01,070
+we just have to add these things up and simplify it
+
+105
+00:05:01,080 --> 00:05:05,580
+So it's gonna be two, so let me write this perimeter
+
+106
+00:05:05,590 --> 00:05:11,670
+of triangle BED is equal to, this is sort of, perimeter
+
+107
+00:05:11,680 --> 00:05:13,890
+I just didn't feel writing the whole word,
+
+108
+00:05:13,900 --> 00:05:16,770
+is equal to two over the square root of 3
+
+109
+00:05:16,780 --> 00:05:23,030
+plus square root of 3 minus 1 over the square root of 3,
+
+110
+00:05:23,040 --> 00:05:26,830
+minus 1 over the square root of 3 plus 2
+
+111
+00:05:26,840 --> 00:05:29,320
+And now this just boils down to simplifying radicals
+
+112
+00:05:29,330 --> 00:05:30,490
+you can take a calculator out
+
+113
+00:05:30,500 --> 00:05:33,030
+and get some type of decimal approximation for it
+
+114
+00:05:33,040 --> 00:05:35,670
+Let's see, we have two square root of 3 minus one square root of 3,
+
+115
+00:05:35,680 --> 00:05:40,080
+that'll leave us with one, one over the square root of 3
+
+116
+00:05:40,090 --> 00:05:43,630
+2 square of 1/3, I should say, 2 over square root of 3
+
+117
+00:05:43,640 --> 00:05:46,200
+minus 1 over square root of 3, 1 over square root of 3,
+
+118
+00:05:46,210 --> 00:05:50,600
+and then we have plus the square root of 3 plus 2
+
+119
+00:05:50,610 --> 00:05:53,010
+Now let's see I can rationalize this
+
+120
+00:05:53,020 --> 00:05:54,280
+if I multiply the numerator
+
+121
+00:05:54,290 --> 00:05:56,040
+and the denominator by the square root of 3
+
+122
+00:05:56,050 --> 00:05:58,250
+This would get me the square root of 3
+
+123
+00:05:58,260 --> 00:06:01,300
+over 3 plus the square root of 3
+
+124
+00:06:01,490 --> 00:06:06,670
+which is, I can rewrite that as, plus 3 square root of 3 over 3
+
+125
+00:06:06,680 --> 00:06:09,420
+Right I just multiplied this 3 over 3
+
+126
+00:06:09,430 --> 00:06:16,090
+Plus 2 and so this give us, this is the drum roll part now
+
+127
+00:06:16,100 --> 00:06:19,160
+so 1 square root of 3 plus 3 square root of 3
+
+128
+00:06:19,250 --> 00:06:26,040
+and all that over 3 gives us 4 square roots of 3 over 3 plus 2
+
+129
+00:06:26,050 --> 00:06:27,160
+Where you can put the 2 first,
+
+130
+00:06:27,170 --> 00:06:30,010
+some people like to write the non-irrational part
+
+131
+00:06:30,020 --> 00:06:31,570
+before the irrational part
+
+132
+00:06:31,580 --> 00:06:35,110
+But we're done we figured out the perimeter
+
+133
+00:06:35,120 --> 00:06:39,380
+of this inner triangle BED, right there

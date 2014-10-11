@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:07,507
+Let's see if we can take the integral of cosine of 5x over e to the sine of 5x dx.
+
+2
+00:00:07,507 --> 00:00:12,440
+And there's a crow squawking outside of my window so I'll try to stay focused.
+
+3
+00:00:12,440 --> 00:00:17,591
+So let's think about whether u-substitution might be appropriate. Your first temptation might to said,
+
+4
+00:00:17,591 --> 00:00:24,427
+"Hey, maybe we let u equal sine of 5x, and if u is equal to sine of 5x,
+
+5
+00:00:24,427 --> 00:00:28,204
+we have something that is pretty close to du up here." Let's verify that.
+
+6
+00:00:28,204 --> 00:00:33,967
+So du could be equal to -- so du/dx (derivative of u with respect to x),
+
+7
+00:00:33,967 --> 00:00:37,957
+well we just use the chain rule. Derivative of 5x is 5,
+
+8
+00:00:37,957 --> 00:00:43,880
+times the derivative of sine of 5x with respect to 5x, that's just going to be cosine of 5x.
+
+9
+00:00:43,880 --> 00:00:48,257
+If we want to write this in differential form, which is useful when we do our u-substitution,
+
+10
+00:00:48,257 --> 00:00:54,404
+we could say that du is equal to 5 cosine 5x.
+
+11
+00:00:54,404 --> 00:01:00,616
+Now when you look over here, we don't have quite du there. We have just cosine of 5x dx--
+
+12
+00:01:00,616 --> 00:01:05,420
+sorry, I need cosine of 5x dx, just like that. So when you look over here,
+
+13
+00:01:05,420 --> 00:01:10,032
+you have a cosine of 5x dx, but we don't have a 5 cosine of 5x dx,
+
+14
+00:01:10,032 --> 00:01:17,634
+but we know how to solve that. We can multiply by 5 and divide by 5.
+
+15
+00:01:17,634 --> 00:01:22,741
+1/5 times 5 is just going to be 1. So we haven't changed the value of the expression.
+
+16
+00:01:22,741 --> 00:01:31,679
+But when we do it this way, we see pretty clearly, we have our u and we have our du.
+
+17
+00:01:31,679 --> 00:01:36,209
+Our du is 5 -- let me circle that and let me do that in that blue color --
+
+18
+00:01:36,209 --> 00:01:45,374
+is 5 cosine of 5x dx. So we can rewrite this entire expression as --
+
+19
+00:01:45,374 --> 00:01:49,548
+I'll do that 1/5 in purple -- this is going to be equal to 1/5 --
+
+20
+00:01:49,548 --> 00:01:52,370
+I hope you don't hear that crow outside; he's getting quite obnoxious --
+
+21
+00:01:52,370 --> 00:02:03,735
+1/5 times the integral of, well all this stuff in blue is my du,
+
+22
+00:02:03,735 --> 00:02:15,546
+and then that is over e to the u. So how do we take the anti-derivative of this?
+
+23
+00:02:15,546 --> 00:02:20,391
+Well, you might be tempted to -- well, what would you do here?
+
+24
+00:02:20,391 --> 00:02:24,821
+Well, we're still not quite ready to simply take the anti-derivative here.
+
+25
+00:02:24,821 --> 00:02:28,490
+If I were to rewrite this, I could rewrite this as (this is equal to)
+
+26
+00:02:28,490 --> 00:02:42,577
+1/5 times the integral of e to the negative u du.
+
+27
+00:02:42,577 --> 00:02:45,926
+And so, what might jump out of you is maybe we do another substitution,
+
+28
+00:02:45,926 --> 00:02:51,198
+and we already use the letter u, so maybe we might use w. We'll do some "w-substitution."
+
+29
+00:02:51,198 --> 00:02:56,657
+And you might be able to do this in your head, but we'll do w-substitution just to make it a little bit clearer.
+
+30
+00:02:56,657 --> 00:02:59,753
+So let's -- this would've been really useful if this was just e to the u,
+
+31
+00:02:59,753 --> 00:03:02,362
+because we know the anti-derivative of e to the u. It's just e to the u.
+
+32
+00:03:02,362 --> 00:03:07,263
+So let's just try to get it in terms of the form of e to the negative something.
+
+33
+00:03:07,263 --> 00:03:16,355
+So let's set -- and I'm running out of colors here -- w equal to negative u.
+
+34
+00:03:16,355 --> 00:03:23,094
+And in that case, then dw (derivative of w with respect to u) is negative 1,
+
+35
+00:03:23,094 --> 00:03:26,080
+or if we were to write that statement in differential form,
+
+36
+00:03:26,080 --> 00:03:33,172
+dw is equal to du times negative 1 is negative du.
+
+37
+00:03:33,172 --> 00:03:39,273
+So this right over here would be our w, and do we have a dw here?
+
+38
+00:03:39,273 --> 00:03:42,301
+Well we just have du; we don't have a negative du there.
+
+39
+00:03:42,301 --> 00:03:47,034
+But we can create a negative du by multiplying this inside by negative 1,
+
+40
+00:03:47,034 --> 00:03:49,608
+but then also multiplying the outside by negative 1.
+
+41
+00:03:49,608 --> 00:03:52,843
+Negative 1 times negative 1 is positive 1; we haven't changed the value.
+
+42
+00:03:52,843 --> 00:03:55,731
+We have to do both of these in order for it to make sense.
+
+43
+00:03:55,731 --> 00:04:01,918
+Or I could do it like this. So negative 1 over here, and a negative 1 right over there.
+
+44
+00:04:01,918 --> 00:04:07,062
+And if we do it in that form, then this negative 1 times du --
+
+45
+00:04:07,062 --> 00:04:15,019
+that's the same thing as negative du -- this is this right over here.
+
+46
+00:04:15,019 --> 00:04:18,981
+And so we can rewrite our integral -- it's going to be equal to --
+
+47
+00:04:18,981 --> 00:04:28,478
+now it's going to be negative 1/5 -- trying to use the colors as best as I can --
+
+48
+00:04:28,478 --> 00:04:34,954
+times the indefinite integral of e to the -- well instead of negative u, we could right w.
+
+49
+00:04:34,954 --> 00:04:47,040
+E to the w. And instead of du times negative 1 or negative du, we can write "dw."
+
+50
+00:04:47,040 --> 00:04:52,421
+Now this simplifies things a good bit. We know what the anti-derivative of this in terms of w.
+
+51
+00:04:52,421 --> 00:05:08,358
+This is going to be equal to negative 1/5 e to the w, and then we might have some constant there,
+
+52
+00:05:08,358 --> 00:05:15,113
+so I just do a plus C. And now we just have to all of our un-substituting.
+
+53
+00:05:15,113 --> 00:05:19,968
+So we know that w is equal to negative u, so we could write that --
+
+54
+00:05:19,968 --> 00:05:33,613
+so this is equal to negative 1/5 -- I want to stay true to my colors -- e to the negative u,
+
+55
+00:05:33,613 --> 00:05:38,694
+that's what w is equal to, plus C. But we're still not done un-substituting.
+
+56
+00:05:38,694 --> 00:05:46,646
+We know that u is equal to sine of 5x. So we can write this as being equal to
+
+57
+00:05:46,646 --> 00:06:05,192
+negative 1/5 times e to the negative u, which is negative u is sine of 5x,
+
+58
+00:06:05,192 --> 00:06:13,463
+and then finally, we have our plus C. Now, there was a simpler way that we could've done this
+
+59
+00:06:13,463 --> 00:06:17,118
+by just doing one substitution. But then you kind of have to look ahead a little bit
+
+60
+00:06:17,118 --> 00:06:24,033
+and realize that it was not trivial to take -- not to bad to take your anti-derivative of e to the negative u.
+
+61
+00:06:24,033 --> 00:06:27,921
+The inside that you might of have although you shouldn't really hold yourself
+
+62
+00:06:27,921 --> 00:06:30,184
+when you feel too bad when you didn't see that inside.
+
+63
+00:06:30,184 --> 00:06:35,242
+We could've rewritten that original integral -- let me rewrite it --
+
+64
+00:06:35,242 --> 00:06:49,579
+it's cosine of 5x over e to the sine of 5x dx. We could've written this entire integral as being equal to
+
+65
+00:06:49,579 --> 00:06:59,816
+cosine of 5x times e to the negative sine of 5x dx. And in this situation, we could've said
+
+66
+00:06:59,816 --> 00:07:05,192
+u to be equal to negative of 5x, and say well, if u is equal to --
+
+67
+00:07:05,192 --> 00:07:16,250
+or negative sine of 5x, then du is going to be equal to negative 5 cosine of 5x,
+
+68
+00:07:16,250 --> 00:07:20,831
+and we don't have a negative 5 -- oh, dx, we don't have a negative 5 here,
+
+69
+00:07:20,831 --> 00:07:26,843
+but we can construct one by putting negative 5 there, then multiplying by negative 1/5,
+
+70
+00:07:26,843 --> 00:07:31,238
+and then that would've immediately simplified this integral right over here to be equal to
+
+71
+00:07:31,238 --> 00:07:45,065
+negative 1/5 times the integral of -- well, we have our du -- let me do this in a different color --
+
+72
+00:07:45,065 --> 00:07:52,751
+that's the negative 5 -- let me do it this way -- negative 5 cosine of 5x dx.
+
+73
+00:07:52,751 --> 00:08:00,732
+So that is our du -- I'm just changing the order of multiplication -- times e to the u.
+
+74
+00:08:00,732 --> 00:08:06,366
+This whole thing now is u this second time around. So if we did it this way, with just one substitution,
+
+75
+00:08:06,366 --> 00:08:11,162
+we could've immediately gotten to the result that we wanted. You take the anti-derivative of this --
+
+76
+00:08:11,162 --> 00:08:14,736
+I'll do it in one color now, just 'cause I think you get the idea -- this is equal to
+
+77
+00:08:14,736 --> 00:08:24,883
+negative 1/5 e to the u plus C. u is equal to negative sine of 5x,
+
+78
+00:08:24,883 --> 00:08:34,898
+so this is equal to negative 1/5 e to the negative sine of 5x plus C. And we're done.
+
+79
+00:08:34,898 --> 00:08:40,024
+So this one is faster; it's simpler, and over time, you might even start being able to do this in your head.
+
+80
+00:08:40,024 --> 00:08:44,557
+This top one, you still didn't mess up by just setting u equal to sine of 5x;
+
+81
+00:08:44,557 --> 00:08:49,247
+we just have to do an extra substitution in order to work it through all the way.
+
+82
+00:08:49,247 --> 00:08:53,247
+And I was able to do this video despite the crowing crow outside -- or squawking crow.

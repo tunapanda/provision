@@ -1,0 +1,787 @@
+1
+00:00:00,842 --> 00:00:02,187
+Let's learn a little bit about fluids
+
+2
+00:00:02,187 --> 00:00:06,621
+so - you probably have some notion of what a fluid is,
+
+3
+00:00:06,621 --> 00:00:09,575
+but let's talk about it in the physics sense or
+
+4
+00:00:09,575 --> 00:00:11,088
+maybe even in the chemistry sense
+
+5
+00:00:11,103 --> 00:00:13,295
+depending on what context you are watching this video-
+
+6
+00:00:13,295 --> 00:00:15,943
+So a fluid is anything that takes the shape of it's container
+
+7
+00:00:15,943 --> 00:00:22,154
+for example if I had a glass sphere
+
+8
+00:00:25,784 --> 00:00:31,295
+Let's say I completely fill this glass sphere with water
+
+9
+00:00:31,372 --> 00:00:33,401
+I was going to say we were in a zero gravity environment,
+
+10
+00:00:33,431 --> 00:00:34,550
+but you really don't need that
+
+11
+00:00:34,642 --> 00:00:38,629
+let's say that every cubic centimeter
+
+12
+00:00:38,629 --> 00:00:40,846
+or cubic meter of this glass sphere is filled with water
+
+13
+00:00:40,846 --> 00:00:46,656
+and let's say it's not of glass, let's say it's a rubber sphere
+
+14
+00:00:46,656 --> 00:00:48,827
+if I were to change the shape of that sphere
+
+15
+00:00:48,827 --> 00:00:52,046
+but not change the volume
+
+16
+00:00:52,046 --> 00:00:53,792
+If I were to change the shape of the sphere so
+
+17
+00:00:53,792 --> 00:00:55,459
+it looks like this now
+
+18
+00:00:55,459 --> 00:00:58,006
+the water would just change its shape
+
+19
+00:00:58,006 --> 00:01:00,345
+with the container
+
+20
+00:01:04,206 --> 00:01:06,886
+in this case I have green water
+
+21
+00:01:06,994 --> 00:01:11,307
+and the same is also true if that was oxygen
+
+22
+00:01:11,307 --> 00:01:13,153
+if that was just some gas, right?
+
+23
+00:01:13,339 --> 00:01:16,109
+It would fill the container and in this situation
+
+24
+00:01:16,109 --> 00:01:19,509
+it would also fill the the newly shaped container.
+
+25
+00:01:19,509 --> 00:01:26,864
+So a fluid, in general, takes the shape of the container.
+
+26
+00:01:31,664 --> 00:01:34,193
+I just gave you two examples of fluids:
+
+27
+00:01:34,193 --> 00:01:38,142
+You have liquids
+
+28
+00:01:38,880 --> 00:01:41,957
+and you have gases. Those are two types
+
+29
+00:01:41,957 --> 00:01:44,896
+of fluid. Both of those things take the shape of their container.
+
+30
+00:01:44,896 --> 00:01:47,745
+What's the difference between a liquid and a gas, then?
+
+31
+00:01:47,745 --> 00:01:50,979
+Well, a gas is compressible,
+
+32
+00:01:53,394 --> 00:01:56,527
+which means that I could actually decrease
+
+33
+00:01:56,527 --> 00:01:58,727
+the volume of this container
+
+34
+00:01:58,727 --> 00:02:02,496
+and the gas would just become denser within the container.
+
+35
+00:02:02,496 --> 00:02:03,756
+So you can think of it as...
+
+36
+00:02:03,756 --> 00:02:06,662
+if I blew air into a balloon, you could squeeze
+
+37
+00:02:06,662 --> 00:02:08,377
+that balloon a little bit. There's air in there.
+
+38
+00:02:08,377 --> 00:02:10,211
+I mean at somepoint the pressure might get high
+
+39
+00:02:10,211 --> 00:02:12,490
+enough to pop the balloon, but you can squeeze it.
+
+40
+00:02:12,490 --> 00:02:16,244
+While a liquid is incompressible.
+
+41
+00:02:21,044 --> 00:02:22,703
+And how do I know a liquid is incompressible?
+
+42
+00:02:22,703 --> 00:02:25,437
+Well, imagine the same balloon filled with water-
+
+43
+00:02:25,437 --> 00:02:26,777
+completely filled with water.
+
+44
+00:02:26,777 --> 00:02:29,573
+If you squeeze on that balloon from every side
+
+45
+00:02:29,573 --> 00:02:34,847
+let's say i have this ballon and it's is filled with water.
+
+46
+00:02:34,847 --> 00:02:36,513
+If you squeezed on this balloon
+
+47
+00:02:36,513 --> 00:02:38,175
+from every side, you would not be able to
+
+48
+00:02:38,175 --> 00:02:40,144
+change the volume of this balloon. No matter what you
+
+49
+00:02:40,175 --> 00:02:43,625
+do you will not be able to change the volume of this ballon.
+
+50
+00:02:43,625 --> 00:02:45,594
+No matter how much force or pressure you put
+
+51
+00:02:45,594 --> 00:02:47,779
+from any side on it.
+
+52
+00:02:47,779 --> 00:02:53,487
+If this was filled with gas- magenta ballon for gas-
+
+53
+00:02:53,487 --> 00:02:55,362
+you actually could decrease the volume by just increasing
+
+54
+00:02:55,362 --> 00:02:59,589
+the pressure on all sides of the balloon
+
+55
+00:02:59,589 --> 00:03:01,123
+you could acutally squeeze it and make the entire
+
+56
+00:03:01,123 --> 00:03:02,871
+volume smaller. So that's the difference between
+
+57
+00:03:02,871 --> 00:03:05,540
+a liquid and a gas: gas is compressible, liquid isn't.
+
+58
+00:03:05,540 --> 00:03:07,079
+we'll learn later that you can
+
+59
+00:03:07,079 --> 00:03:09,207
+actually turn a liquid into a gas, and a gas into a liquid
+
+60
+00:03:09,207 --> 00:03:11,426
+and a liquid into a solid, we'll learn all about that
+
+61
+00:03:11,426 --> 00:03:14,621
+later, but this is a pretty good working definition
+
+62
+00:03:14,621 --> 00:03:18,238
+so let's use that and now we're going to actually just focus on
+
+63
+00:03:18,238 --> 00:03:21,488
+the liquids to see if we can learn a little bit about liquid motion
+
+64
+00:03:21,488 --> 00:03:31,445
+or maybe even fluid motion in general. Let me draw something else
+
+65
+00:03:31,445 --> 00:03:37,726
+So let's say i had a situation, say I had this
+
+66
+00:03:37,726 --> 00:03:40,955
+weird shaped object that tends so show up in a lot
+
+67
+00:03:40,955 --> 00:03:43,745
+of physics books, which i'll draw. This weird
+
+68
+00:03:43,745 --> 00:03:47,744
+shaped container which is relatively narrow here
+
+69
+00:03:47,744 --> 00:03:56,619
+and it goes, and kind of U-turns and turns into a much larger opening
+
+70
+00:03:58,804 --> 00:04:04,672
+Let's say that the area of this opening is A1
+
+71
+00:04:04,672 --> 00:04:08,244
+and the area of this opening is A2.
+
+72
+00:04:08,244 --> 00:04:09,432
+This one is bigger.
+
+73
+00:04:09,432 --> 00:04:14,589
+And let's fill this thing with some liquid
+
+74
+00:04:14,604 --> 00:04:16,781
+which will be blue.
+
+75
+00:04:18,116 --> 00:04:20,616
+So that's my liquid.
+
+76
+00:04:22,735 --> 00:04:23,989
+Let's fill it with some liquid....
+
+77
+00:04:23,989 --> 00:04:26,550
+Let me see if this tool...
+
+78
+00:04:26,550 --> 00:04:27,881
+There you go! Look at that!
+
+79
+00:04:27,881 --> 00:04:29,794
+I've filled it with liquid, so quickly.
+
+80
+00:04:29,794 --> 00:04:30,754
+Alright.
+
+81
+00:04:30,754 --> 00:04:35,926
+And this is liquid, this is not just a fluid, and what's the important thing
+
+82
+00:04:35,926 --> 00:04:39,442
+about liquid? It's incompressible. So let's take what we
+
+83
+00:04:39,442 --> 00:04:44,943
+know about force actually about work and see
+
+84
+00:04:44,943 --> 00:04:49,629
+if we can come up with any rules about force and pressure with liquids at the center of it.
+
+85
+00:04:49,629 --> 00:04:53,912
+so what do we know about work? Work is force times distance.
+
+86
+00:04:53,912 --> 00:04:56,629
+We can also kind of view this as the energy put into the system.
+
+87
+00:04:56,629 --> 00:04:58,080
+I'll write down here.
+
+88
+00:04:58,080 --> 00:05:03,491
+So, work is equal to force times distance.
+
+89
+00:05:03,491 --> 00:05:05,558
+and we learned in the mechanical advantage etc.
+
+90
+00:05:05,558 --> 00:05:12,496
+that the work in is equal to work out
+
+91
+00:05:12,496 --> 00:05:13,788
+right?
+
+92
+00:05:13,788 --> 00:05:15,860
+the force times the distance you put into a system
+
+93
+00:05:15,860 --> 00:05:17,928
+is equal to the force times the distance you put out of it.
+
+94
+00:05:17,928 --> 00:05:19,711
+and you migh want to review the work chapter for that
+
+95
+00:05:19,711 --> 00:05:22,492
+but that's just the law of conservation of energy
+
+96
+00:05:22,492 --> 00:05:24,655
+because work in is just the energy that you're putting into a system
+
+97
+00:05:24,655 --> 00:05:26,027
+it's measured in joules
+
+98
+00:05:26,027 --> 00:05:28,126
+and work out is just the energy that comes out of a system.
+
+99
+00:05:28,126 --> 00:05:31,479
+And that's just saying that no energy is destroyed or created.
+
+100
+00:05:31,479 --> 00:05:33,861
+It just turns into different forms.
+
+101
+00:05:33,861 --> 00:05:35,409
+So, let's just use this stuff here:
+
+102
+00:05:35,409 --> 00:05:37,226
+the force times distance in is equal to
+
+103
+00:05:37,226 --> 00:05:39,044
+force times distance out.
+
+104
+00:05:39,044 --> 00:05:44,454
+Force in times distance in
+
+105
+00:05:44,454 --> 00:05:51,078
+is equal to force out times distance out.
+
+106
+00:05:51,078 --> 00:05:53,176
+Allright, so let's say that
+
+107
+00:05:53,176 --> 00:05:55,777
+I pressed with some force
+
+108
+00:05:55,777 --> 00:05:57,624
+on this entire surface.
+
+109
+00:05:57,624 --> 00:06:01,940
+So lets' say I have a piston
+
+110
+00:06:01,940 --> 00:06:08,378
+let's say I have a magenta piston right here
+
+111
+00:06:08,378 --> 00:06:13,659
+and I push down on this magenta piston
+
+112
+00:06:13,659 --> 00:06:15,922
+So, I pushed down on this
+
+113
+00:06:15,922 --> 00:06:20,371
+with a force of F1
+
+114
+00:06:20,371 --> 00:06:24,944
+and let's say I push it a distance of D1
+
+115
+00:06:24,944 --> 00:06:27,093
+That's it's initial position
+
+116
+00:06:27,093 --> 00:06:29,810
+and that's it's final position
+
+117
+00:06:29,810 --> 00:06:30,725
+I'll do it in ...
+
+118
+00:06:30,725 --> 00:06:32,176
+(the harder part of this video is picking the colors)
+
+119
+00:06:32,176 --> 00:06:33,787
+So let's say after I've pushed it
+
+120
+00:06:33,787 --> 00:06:36,228
+the piston goes this far.
+
+121
+00:06:36,228 --> 00:06:39,223
+So this is the distance that I pushed it.
+
+122
+00:06:39,223 --> 00:06:41,441
+This is D1.
+
+123
+00:06:41,441 --> 00:06:42,257
+The water is here
+
+124
+00:06:42,257 --> 00:06:46,142
+and I pushed the water down D1 meters, right ?
+
+125
+00:06:46,142 --> 00:06:47,841
+So, in this situation, my work is
+
+126
+00:06:47,841 --> 00:06:50,944
+F1 times D1, right ?
+
+127
+00:06:50,944 --> 00:06:52,659
+But let me ask a question:
+
+128
+00:06:52,659 --> 00:06:55,760
+how much water did I displace?
+
+129
+00:06:55,760 --> 00:06:57,891
+How much total water did I displace?
+
+130
+00:06:57,891 --> 00:06:59,661
+Well, this volume, right?
+
+131
+00:06:59,661 --> 00:07:00,757
+I took this entire volume
+
+132
+00:07:00,757 --> 00:07:01,987
+and pushed it down.
+
+133
+00:07:01,987 --> 00:07:04,143
+So, what's the volume right there,
+
+134
+00:07:04,143 --> 00:07:05,629
+that I displaced?
+
+135
+00:07:05,629 --> 00:07:09,077
+The volume there is going to be...
+
+136
+00:07:09,077 --> 00:07:14,560
+The volume displaced
+
+137
+00:07:14,560 --> 00:07:16,840
+has to equal this distance
+
+138
+00:07:16,840 --> 00:07:20,540
+(this is like a cylinder of liquid)
+
+139
+00:07:20,540 --> 00:07:22,837
+so this distance times this area, right?
+
+140
+00:07:22,837 --> 00:07:24,460
+... times the area of the container at that point.
+
+141
+00:07:24,460 --> 00:07:25,687
+I will assume that it is constant at that point
+
+142
+00:07:25,687 --> 00:07:27,757
+and that it changes just after that.
+
+143
+00:07:27,757 --> 00:07:36,743
+So, it equals area 1 times distance 1, right?
+
+144
+00:07:36,743 --> 00:07:41,112
+We also know that liquid has to go some place.
+
+145
+00:07:41,112 --> 00:07:43,079
+What do we know about liquids?
+
+146
+00:07:43,079 --> 00:07:44,972
+You can't compress it.
+
+147
+00:07:44,972 --> 00:07:47,593
+You can't change it's total volume.
+
+148
+00:07:47,593 --> 00:07:49,127
+So all of that volume is going to
+
+149
+00:07:49,127 --> 00:07:50,871
+have to go some place else.
+
+150
+00:07:50,871 --> 00:07:52,541
+This is where the liquid was.
+
+151
+00:07:52,541 --> 00:07:55,541
+The liquid is going to rise some level.
+
+152
+00:07:55,541 --> 00:07:57,711
+Let's say it gets to this level.
+
+153
+00:07:57,711 --> 00:08:00,859
+This is it's new level.
+
+154
+00:08:00,859 --> 00:08:05,192
+It's going to change some distance here.
+
+155
+00:08:07,161 --> 00:08:09,162
+And how do you know what distance that is going to be?
+
+156
+00:08:09,162 --> 00:08:11,130
+Well, the volume that it changes here
+
+157
+00:08:11,130 --> 00:08:13,244
+has to go some place.
+
+158
+00:08:13,244 --> 00:08:14,678
+That's going to push on that,
+
+159
+00:08:14,678 --> 00:08:15,945
+that's all going to push
+
+160
+00:08:15,945 --> 00:08:17,623
+That liquid has to go some place
+
+161
+00:08:17,623 --> 00:08:18,860
+essentially, it's going to end up
+
+162
+00:08:18,860 --> 00:08:20,280
+it might not be the exact same molecules
+
+163
+00:08:20,280 --> 00:08:21,654
+but that might displace some liquid here
+
+164
+00:08:21,654 --> 00:08:22,898
+that is going to displace some liquid here
+
+165
+00:08:22,898 --> 00:08:24,064
+here, and here, and here, and here
+
+166
+00:08:24,064 --> 00:08:25,792
+all the way until the liquid up here
+
+167
+00:08:25,792 --> 00:08:27,846
+gets displaced and gets pushed upward.
+
+168
+00:08:27,846 --> 00:08:29,679
+So the volume that you're pushing down here
+
+169
+00:08:29,679 --> 00:08:32,559
+is the same volume that goes up right here.
+
+170
+00:08:32,559 --> 00:08:35,192
+And so, what's the change in volume?
+
+171
+00:08:35,192 --> 00:08:40,629
+How much volume did you push up here?
+
+172
+00:08:40,629 --> 00:08:42,108
+Well, this volume here is going to be
+
+173
+00:08:42,108 --> 00:08:46,526
+the distance 2 times this larger area.
+
+174
+00:08:46,526 --> 00:08:48,310
+So we could say:
+
+175
+00:08:48,310 --> 00:08:50,440
+volume 2 is going to be equal to
+
+176
+00:08:50,440 --> 00:08:53,754
+the distance 2 times this larger area.
+
+177
+00:08:53,754 --> 00:08:57,672
+And we know that this liquid is incompressible,
+
+178
+00:08:57,672 --> 00:09:01,613
+so this volume has to be the same as this volume, right?
+
+179
+00:09:01,613 --> 00:09:04,979
+So we know that these two quantities
+
+180
+00:09:04,979 --> 00:09:06,107
+are equal to each other.
+
+181
+00:09:06,107 --> 00:09:10,289
+So area 1 times distance 1
+
+182
+00:09:10,289 --> 00:09:11,809
+(this area times this distance)
+
+183
+00:09:11,809 --> 00:09:14,755
+is going to be equal to
+
+184
+00:09:14,755 --> 00:09:18,140
+this area times this distance
+
+185
+00:09:18,140 --> 00:09:20,859
+(area 2 times distance 2).
+
+186
+00:09:20,859 --> 00:09:22,762
+So, let's see what we can do:
+
+187
+00:09:22,762 --> 00:09:25,645
+We know this: the force in times distance in
+
+188
+00:09:25,645 --> 00:09:28,996
+in equal to the force out times the distance out
+
+189
+00:09:28,996 --> 00:09:30,106
+Let's take this equation...
+
+190
+00:09:30,106 --> 00:09:31,245
+(I'm gonna switch back to green
+
+191
+00:09:31,245 --> 00:09:34,243
+so we don't lose track of things)
+
+192
+00:09:34,243 --> 00:09:36,373
+... and divide both sides by...
+
+193
+00:09:36,373 --> 00:09:38,577
+(let's just rewrite it)
+
+194
+00:09:38,577 --> 00:09:41,856
+So, let's say I rewrote each input force...
+
+195
+00:09:41,856 --> 00:09:43,229
+Actually, I'm much out of time
+
+196
+00:09:43,229 --> 00:09:44,754
+so I'll continue this into the next video.
+
+197
+00:09:44,754 --> 00:09:46,000
+See you soon.

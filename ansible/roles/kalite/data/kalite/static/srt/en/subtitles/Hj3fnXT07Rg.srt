@@ -1,0 +1,328 @@
+1
+00:00:00,831 --> 00:00:02,793
+So, first let's step back,
+
+2
+00:00:02,793 --> 00:00:04,870
+and think about what we mean when we say
+
+3
+00:00:04,870 --> 00:00:07,608
+'make an algorithm more efficient'
+
+4
+00:00:07,608 --> 00:00:11,193
+We have to think abstractly, meaning we don't care about
+
+5
+00:00:11,193 --> 00:00:12,955
+the machine running our algorithm anymore –
+
+6
+00:00:12,955 --> 00:00:15,671
+whether we wrote it to run on this little old Nintendo,
+
+7
+00:00:15,671 --> 00:00:19,487
+or on an ENIAC, which is much slower.
+
+8
+00:00:19,487 --> 00:00:22,748
+Both of these computers could run our algorithm.
+
+9
+00:00:22,748 --> 00:00:26,687
+We don't want to think about the machine anymore.
+
+10
+00:00:26,687 --> 00:00:30,316
+What we do want to focus on is two things:
+
+11
+00:00:30,316 --> 00:00:33,208
+we need to understand what we mean by 'size',
+
+12
+00:00:33,208 --> 00:00:37,473
+what is the size that our algorithm requires,
+
+13
+00:00:37,473 --> 00:00:42,513
+and time, how long it takes to solve a problem.
+
+14
+00:00:42,513 --> 00:00:45,578
+We really need to nail down these two concepts.
+
+15
+00:00:45,578 --> 00:00:48,087
+Now, to do so, I want to convince you that
+
+16
+00:00:48,087 --> 00:00:53,139
+a computer is equivalent to what you could do
+
+17
+00:00:53,139 --> 00:00:55,451
+with a pencil, a large stack of paper,
+
+18
+00:00:55,451 --> 00:00:58,624
+and a very simple calculator.
+
+19
+00:00:58,624 --> 00:01:01,323
+A modern computer is very similar to this.
+
+20
+00:01:01,323 --> 00:01:05,091
+Instead of paper, it uses digital memory,
+
+21
+00:01:05,091 --> 00:01:06,214
+and it has a Central Processing Unit
+
+22
+00:01:06,214 --> 00:01:08,157
+which contains something called an 'ALU' –
+
+23
+00:01:08,157 --> 00:01:09,998
+which I'll explain in a second –
+
+24
+00:01:09,998 --> 00:01:11,761
+which is its calculator.
+
+25
+00:01:11,761 --> 00:01:13,151
+And it can access a calculator, say,
+
+26
+00:01:13,151 --> 00:01:14,889
+a billion times per second,
+
+27
+00:01:14,889 --> 00:01:17,681
+and basically run though very simple steps.
+
+28
+00:01:17,681 --> 00:01:19,009
+And that's all a computer is.
+
+29
+00:01:19,009 --> 00:01:20,928
+There's no magic.
+
+30
+00:01:20,928 --> 00:01:25,955
+Now lets quickly cover time or, you might call 'speed',
+
+31
+00:01:25,955 --> 00:01:29,030
+how quickly our algorithm executes,
+
+32
+00:01:29,030 --> 00:01:33,228
+and we need to develop a very abstract measure for this,
+
+33
+00:01:33,228 --> 00:01:36,842
+because every computer runs at different speeds –
+
+34
+00:01:36,842 --> 00:01:38,316
+as you know.
+
+35
+00:01:38,316 --> 00:01:40,176
+Remember, a computer is reading
+
+36
+00:01:40,176 --> 00:01:44,428
+from some list of very basic instructions.
+
+37
+00:01:44,428 --> 00:01:48,816
+And it has access to a really primitive calculator
+
+38
+00:01:49,678 --> 00:01:51,127
+which you can use,
+
+39
+00:01:51,775 --> 00:01:56,128
+and it is called the ALU, and the ALU is inside
+
+40
+00:01:56,375 --> 00:02:00,970
+the CPU, and the ALU is the Arithmetic and Logic Unit.
+
+41
+00:02:00,970 --> 00:02:05,163
+So it can do very basic things, like 'Add',
+
+42
+00:02:05,563 --> 00:02:08,770
+or it can subtract, if you provide it.
+
+43
+00:02:10,247 --> 00:02:14,016
+It can also do very basic logic operations, like
+
+44
+00:02:14,016 --> 00:02:17,039
+'AND', and 'OR'.
+
+45
+00:02:17,818 --> 00:02:22,772
+So the ALU is that tiny calculator that
+the computer has access to
+
+46
+00:02:22,795 --> 00:02:27,033
+and think of it as basically
+answering very simple questions.
+
+47
+00:02:27,033 --> 00:02:30,350
+That's all the little calculator can do, and
+
+48
+00:02:31,428 --> 00:02:34,697
+here is a instruction set list, to give you an example,
+
+49
+00:02:34,697 --> 00:02:37,648
+this is from a micro-controller, but it applies to anything.
+
+50
+00:02:37,648 --> 00:02:44,925
+On the left hand column you see 'ADDWF', and the description tells us what that operation does.
+
+51
+00:02:44,925 --> 00:02:52,418
+It takes f and d, and it adds W to f.
+
+52
+00:02:52,418 --> 00:02:59,527
+And here is 'DECF', that's 'decrement f', so 'subtract 1 from f'.
+
+53
+00:02:59,527 --> 00:03:05,156
+Or 'MOVF', that is going to move 'f' into a new location.
+
+54
+00:03:05,156 --> 00:03:09,277
+Now, what's the most important here is this column, 'Cycles'.
+
+55
+00:03:09,277 --> 00:03:14,689
+Notice these operations, these primitive operations, they all take aproximately
+
+56
+00:03:14,689 --> 00:03:23,470
+one or two cycles. Another way of saying this
+is that all of these operations
+
+57
+00:03:23,470 --> 00:03:29,574
+take a constant amount of time,
+so they'll never hang or
+
+58
+00:03:29,574 --> 00:03:31,524
+repeat over and over and over.
+
+59
+00:03:31,524 --> 00:03:33,669
+You can send any of these insctructions and
+
+60
+00:03:33,669 --> 00:03:37,475
+you'll get an answer in one cycle.
+Ok, 'cycle'
+
+61
+00:03:37,475 --> 00:03:41,458
+is not 'seconds'.
+'Cycle' is relative. for example:
+
+62
+00:03:41,458 --> 00:03:46,492
+'Cycle', in the ENIAC, the computer could do
+
+63
+00:03:46,492 --> 00:03:50,072
+5,000 operations per second.
+
+64
+00:03:50,072 --> 00:03:52,687
+And remember, a computer is
+powered by a clock,
+
+65
+00:03:52,687 --> 00:03:56,941
+which is basically a toggle going back
+and forward, back and forward,
+
+66
+00:03:56,941 --> 00:03:59,841
+and however fast they can do that toggling
+
+67
+00:03:59,841 --> 00:04:02,424
+that's how many cycles I can operate on.
+
+68
+00:04:02,424 --> 00:04:06,045
+So, a modern computer could do much faster,
+
+69
+00:04:06,045 --> 00:04:09,058
+let's say 10 to the power of 10 per second,
+
+70
+00:04:09,058 --> 00:04:12,669
+or it could even do a trillion cycles per second.
+
+71
+00:04:12,669 --> 00:04:17,808
+So know we can summarize, when we talk
+about time or speed of an algorithm,
+
+72
+00:04:17,808 --> 00:04:25,672
+we are not talking about 'seconds', we refer
+to 'number of primitive steps'.
+
+73
+00:04:25,672 --> 00:04:31,424
+We say 'primitive steps' because we assume
+
+74
+00:04:31,424 --> 00:04:36,609
+each primitive step takes a constant amount of time.
+
+75
+00:04:36,609 --> 00:04:44,620
+So, simple calculations will take, 
+let's say, one step.
+
+76
+00:04:44,620 --> 00:04:49,508
+But when we have a computer running complex steps,
+
+77
+00:04:49,508 --> 00:04:51,936
+such as our algorithm we wrote, it's going to take
+
+78
+00:04:51,936 --> 00:04:58,569
+many steps, right? There is no 'Tell me
+if it's Prime' operation in the computer chip.
+
+79
+00:04:58,569 --> 00:05:02,569
+The compute chip can only do those very simple things
+like you do on a piece of paper.

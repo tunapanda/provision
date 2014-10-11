@@ -1,0 +1,731 @@
+1
+00:00:00,880 --> 00:00:05,000
+Problem 77.
+
+2
+00:00:05,670 --> 00:00:12,000
+If Miss Smith's income was 20% more for 1991 than it was for
+
+3
+00:00:12,000 --> 00:00:14,380
+1990, how much was her income in 1991?
+
+4
+00:00:23,000 --> 00:00:31,400
+Let's call it income 1991, is 20% more than 1990.
+
+5
+00:00:31,400 --> 00:00:38,390
+So that means 1.2 times income in 1990. I hope you get that.
+
+6
+00:00:38,460 --> 00:00:40,640
+If something is 20% more than something else,
+
+7
+00:00:40,640 --> 00:00:42,250
+it's going to be 1.2 times that.
+
+8
+00:00:42,360 --> 00:00:47,020
+12 is 20% more than 10. And 12 is 1.2 times 10.
+
+9
+00:00:47,520 --> 00:00:49,980
+Or you could view it as income plus 20% of income,
+
+10
+00:00:49,980 --> 00:00:51,820
+which is 1.2 times income. Either way.
+
+11
+00:00:52,060 --> 00:00:53,060
+So let's see what they tell us.
+
+12
+00:00:53,560 --> 00:00:55,060
+Well, what do we have to figure out?
+
+13
+00:00:55,740 --> 00:00:57,870
+OK, we were trying to figure out this,
+
+14
+00:00:57,870 --> 00:01:01,030
+income in 1991. Statement number one.
+
+15
+00:01:01,530 --> 00:01:06,020
+Miss Smith's income for the first six months of 1990 was
+
+16
+00:01:06,020 --> 00:01:10,890
+$17,500, and the income for the last six months of 1990
+
+17
+00:01:10,890 --> 00:01:13,040
+was $20,000.
+
+18
+00:01:14,690 --> 00:01:18,820
+So they're telling that she made $17,500 in the first six
+
+19
+00:01:18,820 --> 00:01:23,570
+months of 1990, and her income for the last six months of
+
+20
+00:01:23,570 --> 00:01:27,640
+1990 was $20,000. Well,
+
+21
+00:01:27,640 --> 00:01:30,020
+they're essentially telling us the total income for 1990.
+
+22
+00:01:30,620 --> 00:01:31,660
+The first six months and the last six months.
+
+23
+00:01:31,660 --> 00:01:33,000
+There are 12 months in a year.
+
+24
+00:01:33,000 --> 00:01:38,050
+So her total income for 1990 was $37,500.
+
+25
+00:01:38,650 --> 00:01:41,160
+That equals income for 1990.
+
+26
+00:01:42,000 --> 00:01:45,640
+So clearly, if we know this is this, we just multiply that
+
+27
+00:01:45,640 --> 00:01:49,020
+times 1.2, and we get the income for 1991.
+
+28
+00:01:49,020 --> 00:01:51,730
+So this statement alone is sufficient.
+
+29
+00:01:52,080 --> 00:01:54,070
+Let's see what they give us for statement number two.
+
+30
+00:01:55,070 --> 00:02:01,240
+Miss Smith's income for 1991 was $7,500 greater than for 1990
+
+31
+00:02:01,240 --> 00:02:11,000
+So they say income of 1991 was $7,500, so it equals income
+
+32
+00:02:11,000 --> 00:02:21,800
+for 1990 plus $7,500. Well,
+
+33
+00:02:21,800 --> 00:02:24,910
+this alone does help us,because they've already given us this
+
+34
+00:02:24,910 --> 00:02:27,490
+So we have two linear equations, right?
+
+35
+00:02:27,490 --> 00:02:29,640
+This is one linear equation and two unknowns.
+
+36
+00:02:29,640 --> 00:02:32,600
+This is another linear equation and two unknowns.
+
+37
+00:02:32,800 --> 00:02:35,000
+So we have two linear equations and two unknowns.
+
+38
+00:02:35,000 --> 00:02:35,950
+We can solve this.
+
+39
+00:02:35,950 --> 00:02:38,390
+Probably the easiest way is just to substitute,
+
+40
+00:02:38,390 --> 00:02:40,590
+depending on what you want to solve for.
+
+41
+00:02:40,590 --> 00:02:41,690
+But we've done that multiple times.
+
+42
+00:02:41,690 --> 00:02:44,950
+You could substitute 1.2 times 1990 here,
+
+43
+00:02:44,950 --> 00:02:47,000
+and then solve for it. Or you could do the other way.
+
+44
+00:02:47,200 --> 00:02:50,780
+You could divide by 1.2 here and then substitute it there.
+
+45
+00:02:50,780 --> 00:02:53,000
+But either way, this is trivial algebra, hopefully,
+
+46
+00:02:53,000 --> 00:02:54,000
+by this point, to solve.
+
+47
+00:02:54,000 --> 00:02:56,570
+But this and this is definitely enough information
+
+48
+00:02:59,800 --> 00:02:59,950
+to solve the problem. So two equations with two unknowns.
+
+49
+00:02:59,950 --> 00:03:03,880
+And you can do that in your spare time if you don't
+
+50
+00:03:03,880 --> 00:03:04,580
+believe me.
+
+51
+00:03:05,580 --> 00:03:16,020
+So both statements alone are sufficient for this one. 78.
+
+52
+00:03:16,020 --> 00:03:19,260
+In the figure above-- so I think I have to draw.
+
+53
+00:03:22,020 --> 00:03:27,550
+This is the y-axis, and that's the x-axis.
+
+54
+00:03:27,850 --> 00:03:31,050
+And then they have a line. Let's see what I can do.
+
+55
+00:03:31,050 --> 00:03:33,570
+The line looks something like that.
+
+56
+00:03:35,070 --> 00:03:38,550
+And then they tell us-- what do they tell us?
+
+57
+00:03:38,550 --> 00:03:43,000
+This, of course, is y. This is x.
+
+58
+00:03:43,000 --> 00:03:50,540
+And then they say this is P. And this right here is Q.
+
+59
+00:03:51,540 --> 00:03:56,550
+And then they draw this. They call this point right here R.
+
+60
+00:03:57,050 --> 00:04:04,010
+And they draw-- that's like that.And this Q is at point c, d.
+
+61
+00:04:04,010 --> 00:04:09,060
+And P is at point a, b.
+
+62
+00:04:09,060 --> 00:04:12,880
+And then they say, in the figure above, segments PR and
+
+63
+00:04:12,880 --> 00:04:16,050
+QR-- so let me draw that out a little bit better.
+
+64
+00:04:19,510 --> 00:04:23,840
+--are each parallel to one of the rectangular coordinate axes
+
+65
+00:04:23,840 --> 00:04:25,030
+OK, fair enough.
+
+66
+00:04:25,030 --> 00:04:29,740
+This is parallel to the y-axis, PR is parallel to the x-axis.
+
+67
+00:04:29,740 --> 00:04:35,040
+Fair enough. Is the ratio of the length of QR:PR equal to 1?
+
+68
+00:04:35,040 --> 00:04:39,150
+So is the ratio of QR:PR equal to 1?
+
+69
+00:04:39,150 --> 00:04:44,680
+So they want to know QR/PR, is that equal to 1?
+
+70
+00:04:47,500 --> 00:04:50,470
+And immediately this should trigger something from Algebra 1.
+
+71
+00:04:50,470 --> 00:04:51,540
+They're asking you, essentially,
+
+72
+00:04:51,540 --> 00:04:55,380
+is the slope of this line equal to 1? Right?
+
+73
+00:04:55,380 --> 00:05:00,140
+Is the ratio of QR:PR, so rise over run, is the slope of this
+
+74
+00:05:00,140 --> 00:05:04,080
+line equal to 1? So let's see what we can do.
+
+75
+00:05:04,080 --> 00:05:09,000
+And slope is just change in y over change in x.
+
+76
+00:05:09,000 --> 00:05:10,550
+So what's this point, first of all?
+
+77
+00:05:10,550 --> 00:05:12,320
+You actually don't have to know anything about slope.
+
+78
+00:05:12,320 --> 00:05:14,000
+I don't want to make you feel like you have to
+
+79
+00:05:14,000 --> 00:05:17,020
+memorize some formulas. What's this point going to be?
+
+80
+00:05:17,020 --> 00:05:20,470
+So it's going to be-- actually, let's do it even better.
+
+81
+00:05:20,570 --> 00:05:24,220
+What is the length of QR going to be?
+
+82
+00:05:24,220 --> 00:05:26,000
+I haven't looked at any of the data points right now.
+
+83
+00:05:26,000 --> 00:05:28,030
+What is length of QR?
+
+84
+00:05:28,530 --> 00:05:29,850
+Well, it's going to be this height.
+
+85
+00:05:29,850 --> 00:05:34,500
+So it's this y, which is d, minus this y.
+
+86
+00:05:34,500 --> 00:05:37,030
+This y is going to be b, right?
+
+87
+00:05:37,030 --> 00:05:40,930
+Because all of this is y is equal to b, right here.
+
+88
+00:05:40,930 --> 00:05:44,030
+So QR is going to be equal to d minus b.
+
+89
+00:05:44,030 --> 00:05:51,080
+And PR is the length on the x-axis. It's going to be this x.
+
+90
+00:05:52,000 --> 00:05:56,370
+What is this x? Well, this x is right here, c. x equal to c.
+
+91
+00:05:56,370 --> 00:05:59,110
+It's going to be this x minus this x.
+
+92
+00:05:59,110 --> 00:06:02,050
+Well, here, x is equal to a.
+
+93
+00:06:02,850 --> 00:06:09,480
+And so the ratio is equal to d minus b, over c minus a.
+
+94
+00:06:09,480 --> 00:06:13,040
+Which is,if you remember,the formula for the slope of a line.
+
+95
+00:06:13,040 --> 00:06:22,280
+You just take the y1 minus y2, over x1 minus x2.
+
+96
+00:06:22,280 --> 00:06:25,030
+But we didn't have to memorize that. It's intuition.
+
+97
+00:06:28,070 --> 00:06:32,010
+So the point right here R,See the x-coordinate is c and the y-coordinate is b.
+
+98
+00:06:32,010 --> 00:06:33,600
+So hopefully that gives you intuition.
+
+99
+00:06:33,600 --> 00:06:34,670
+Now let's look at the statements.
+
+100
+00:06:34,670 --> 00:06:36,440
+You wouldn't have to do that on the real GMAT.
+
+101
+00:06:36,440 --> 00:06:38,020
+That would all be a waste of time.
+
+102
+00:06:38,620 --> 00:06:42,850
+Statement number one tells us, c is equal to 3 and
+
+103
+00:06:42,850 --> 00:06:43,830
+d is equal to 4.
+
+104
+00:06:44,530 --> 00:06:48,020
+So that by itself, that just gives us the first part of this.
+
+105
+00:06:48,020 --> 00:06:51,180
+That doesn't help us figure out this entire ratio.
+
+106
+00:06:51,180 --> 00:06:53,190
+So this by itself isn't that useful.
+
+107
+00:06:53,190 --> 00:06:55,020
+Maybe in conjunction with what else they give us.
+
+108
+00:06:55,020 --> 00:06:56,040
+Statement two.
+
+109
+00:06:56,040 --> 00:07:01,460
+a is equal to minus 2, and b is equal to minus 1.
+
+110
+00:07:01,680 --> 00:07:03,690
+Well, if you used both of these statements together,
+
+111
+00:07:03,690 --> 00:07:05,030
+then we have everything here.
+
+112
+00:07:06,030 --> 00:07:11,880
+We have d, we have b, we have c, and we have a.
+
+113
+00:07:11,880 --> 00:07:13,000
+So we can solve it.
+
+114
+00:07:13,200 --> 00:07:18,820
+So both statements together are sufficient for knowing
+
+115
+00:07:18,820 --> 00:07:21,220
+whether the ratio of QR:PR is 1.
+
+116
+00:07:21,220 --> 00:07:26,000
+Or essentially, is the slope of this line equal to 1?
+
+117
+00:07:26,000 --> 00:07:33,800
+Next problem, 79.
+
+118
+00:07:33,990 --> 00:07:38,280
+While on a straight road, car x and car y are travelling at
+
+119
+00:07:38,280 --> 00:07:39,660
+different constant rates.
+
+120
+00:07:39,660 --> 00:07:44,850
+If car x is now 1 mile ahead of car y, how many minutes
+
+121
+00:07:44,850 --> 00:07:49,000
+from now will car x be 2 miles ahead of car y?
+
+122
+00:07:53,610 --> 00:08:03,050
+So x is here. y is here. And they're going at constant rates.
+
+123
+00:08:04,000 --> 00:08:04,290
+1 mile.
+
+124
+00:08:04,290 --> 00:08:06,720
+So they've been traveling for some amount of time and x is 1
+
+125
+00:08:06,720 --> 00:08:07,390
+mile ahead.
+
+126
+00:08:07,390 --> 00:08:10,410
+And they're saying how long is it going to be before x is--
+
+127
+00:08:10,410 --> 00:08:12,570
+how many minutes before x is 2 miles ahead?
+
+128
+00:08:12,570 --> 00:08:13,830
+And they're at constant rates.
+
+129
+00:08:13,830 --> 00:08:16,730
+So if they started off-- and let's just think about it-- if
+
+130
+00:08:16,730 --> 00:08:18,680
+they started off at the same point and it took 10 minutes
+
+131
+00:08:18,680 --> 00:08:22,220
+for x to get 1 mile ahead, it would take another 10 minutes
+
+132
+00:08:22,220 --> 00:08:24,350
+for it to get 2 miles. Well, that's how I'm thinking about.
+
+133
+00:08:24,350 --> 00:08:27,090
+Let's see what they give us for the statements.
+
+134
+00:08:27,090 --> 00:08:33,010
+Statement number one.Car x is traveling at 50 miles per hour,
+
+135
+00:08:33,010 --> 00:08:34,800
+and car y is travelling at 40 miles per hour.
+
+136
+00:08:34,800 --> 00:08:36,850
+Well, that seems to be pretty good information.
+
+137
+00:08:44,520 --> 00:08:49,000
+So essentially, car y is moving away from car x at what?
+
+138
+00:08:49,000 --> 00:08:52,010
+It's moving away 50 minus 40 miles per hour.
+
+139
+00:08:52,010 --> 00:08:57,300
+So from car y's point of view, car x is always pulling away
+
+140
+00:08:57,300 --> 00:09:01,560
+at 10 miles per hour. Right? Does that make sense?
+
+141
+00:09:01,560 --> 00:09:03,680
+If car x was going at 40 miles per hour,
+
+142
+00:09:03,680 --> 00:09:05,380
+you wouldn't be pulling away at all.
+
+143
+00:09:05,380 --> 00:09:07,020
+If it was going at 41 miles per hour,
+
+144
+00:09:07,020 --> 00:09:09,500
+it'd be pulling away at a increment of 1 mile per hour.
+
+145
+00:09:09,800 --> 00:09:12,880
+And as long as we're not approaching the speed of light,
+
+146
+00:09:12,880 --> 00:09:15,500
+we can assume Newtonian classical physics,
+
+147
+00:09:15,500 --> 00:09:17,670
+and we could just take the difference between the two.
+
+148
+00:09:18,550 --> 00:09:24,430
+So how long does it take for it to pull away another mile?
+
+149
+00:09:24,430 --> 00:09:27,010
+Well, if you're going 10 miles per hour, relative to
+
+150
+00:09:27,010 --> 00:09:30,370
+something else, how many minutes does it take to go a mile?
+
+151
+00:09:30,370 --> 00:09:31,800
+Well, one, you know you can figure that out.
+
+152
+00:09:31,800 --> 00:09:33,070
+But let me figure that out for you.
+
+153
+00:09:34,070 --> 00:09:37,030
+So you know distance is equal to rate times time.
+
+154
+00:09:37,030 --> 00:09:39,610
+So if your distance you want to know is 1 mile,
+
+155
+00:09:39,610 --> 00:09:49,640
+and your rate is equal to 10 miles per hour, times time,
+
+156
+00:09:49,640 --> 00:09:50,630
+what's the time going to be equal to?
+
+157
+00:09:50,630 --> 00:09:59,070
+Time is going to be equal to 1/10 of an hour, or 6 minutes.
+
+158
+00:09:59,070 --> 00:10:02,010
+So that's the answer to number one. One alone is sufficient.
+
+159
+00:10:02,010 --> 00:10:04,110
+Or the answer to number 79, one alone is sufficient.
+
+160
+00:10:04,110 --> 00:10:07,550
+Let's see what they give us for number two. Statement two.
+
+161
+00:10:08,060 --> 00:10:14,710
+3 minutes ago, car x was 1/2 mile ahead of car y. OK.
+
+162
+00:10:14,710 --> 00:10:22,030
+So 3 minutes ago, the state of affairs was this: y was here,
+
+163
+00:10:22,030 --> 00:10:28,000
+x was here. And it was a 1/2 mile difference.
+
+164
+00:10:28,000 --> 00:10:29,100
+So what does that tell us?
+
+165
+00:10:29,100 --> 00:10:31,000
+That's actually pretty good information too.
+
+166
+00:10:31,000 --> 00:10:34,060
+3 minutes ago, car x was 1/2 mile ahead of car y.
+
+167
+00:10:34,060 --> 00:10:37,130
+Now car x is 1 mile ahead.
+
+168
+00:10:37,130 --> 00:10:53,510
+So in 3 minutes, x pulls away by 1/2 a mile, right?
+
+169
+00:10:53,630 --> 00:10:55,080
+And they're going at constant velocities.
+
+170
+00:10:55,080 --> 00:10:57,770
+So the relative velocities between the two don't change.
+
+171
+00:10:57,770 --> 00:11:01,870
+So if it takes 3 minutes for x to pull away by 1/2 a mile,
+
+172
+00:11:01,870 --> 00:11:05,790
+it would take 6 minutes for x to pull away by a mile, right?
+
+173
+00:11:05,790 --> 00:11:06,730
+You just multiply them by 2.
+
+174
+00:11:06,730 --> 00:11:09,130
+They're all going at the same constant velocity.
+
+175
+00:11:09,130 --> 00:11:17,070
+So in 6 minutes, x pulls away by 1 mile.
+
+176
+00:11:17,070 --> 00:11:19,410
+And that's actually what they're asking.
+
+177
+00:11:19,410 --> 00:11:21,540
+Because they say how many more minutes does it take x to pull
+
+178
+00:11:21,540 --> 00:11:22,530
+away by another mile?
+
+179
+00:11:22,530 --> 00:11:25,000
+They've probably been traveling for 6 minutes already, and
+
+180
+00:11:25,000 --> 00:11:27,450
+then in another 6 minutes x would pull away by another mile.
+
+181
+00:11:27,450 --> 00:11:30,760
+So two alone is also sufficient. So each of them
+
+182
+00:11:30,760 --> 00:11:33,130
+independently are good enough to answer this question.
+
+183
+00:11:33,130 --> 00:11:35,020
+See you in the next video.

@@ -1,0 +1,135 @@
+1
+00:00:00,260 --> 00:00:05,367
+So we've got the equation x^2 + y^2 = 1,
+
+2
+00:00:05,367 --> 00:00:07,287
+I guess we could call it a relationship.
+
+3
+00:00:07,287 --> 00:00:12,300
+And if we were to graph all the points x and y that satisfy this relationship
+
+4
+00:00:12,300 --> 00:00:16,290
+we get a unit circle like this.
+
+5
+00:00:16,290 --> 00:00:18,168
+And what I'm curious about in this video is
+
+6
+00:00:18,168 --> 00:00:20,592
+how we can figure out the slope of the tangent line
+
+7
+00:00:20,592 --> 00:00:23,286
+at any point of this unit circle.
+
+8
+00:00:23,286 --> 00:00:26,435
+And what immediately might be jumping out in your brain
+
+9
+00:00:26,435 --> 00:00:29,762
+is well, a circle defined this way, this isn't a function
+
+10
+00:00:29,762 --> 00:00:33,035
+it's not y explicitly defined as a function of x
+
+11
+00:00:33,035 --> 00:00:37,433
+for any x value you actually have 2 possible y's
+
+12
+00:00:37,433 --> 00:00:40,666
+that satisfy this relationship right over here.
+
+13
+00:00:40,666 --> 00:00:43,684
+So you might be tempted to maybe split this up
+
+14
+00:00:43,684 --> 00:00:46,597
+into two separate functions of x.
+
+15
+00:00:46,597 --> 00:00:52,967
+You could say y is equal to the positive square root of 1-x^2
+
+16
+00:00:52,967 --> 00:00:58,923
+and you could say y is equal to the negative square root of 1-x^2
+
+17
+00:00:58,923 --> 00:01:01,632
+take the derivatives of each of these separately
+
+18
+00:01:01,632 --> 00:01:04,113
+and you would be able to find the derivative
+
+19
+00:01:04,113 --> 00:01:07,010
+for any x, or the derivative of the slope
+
+20
+00:01:07,010 --> 00:01:09,102
+of the tangent line at any point.
+
+21
+00:01:09,102 --> 00:01:11,033
+But what I want to do in this video,
+
+22
+00:01:11,033 --> 00:01:13,103
+is literally leverage the chain rule
+
+23
+00:01:13,103 --> 00:01:15,240
+to take the derivative implicitly
+
+24
+00:01:15,240 --> 00:01:20,369
+so that I don't have to explicitly define y as a function of x either way.
+
+25
+00:01:20,369 --> 00:01:23,033
+And the way we do that is literally just apply
+
+26
+00:01:23,033 --> 00:01:26,597
+the derivative operator to both sides of this equation
+
+27
+00:01:26,597 --> 00:01:30,167
+and then apply what we know about the chain rule.
+
+28
+00:01:30,167 --> 00:01:34,103
+Because we're not explicitly defining y as a function of x
+
+29
+00:01:34,103 --> 00:01:37,694
+and explicitly getting y = f'(x)
+
+30
+00:01:37,694 --> 00:01:38,833
+they call this,
+
+31
+00:01:38,833 --> 00:01:41,436
+which is really just an application of the chain rule,
+
+32
+00:01:41,436 --> 00:01:47,820
+we call it implicit differentiation - Implicit Differentiation.
+
+33
+00:01:47,820 --> 00:01:50,500
+And what I want you to keep in the back of your mind
+
+34
+00:01:50,500 --> 00:01:55,099
+the entire time, is it is just an application of the chain rule.

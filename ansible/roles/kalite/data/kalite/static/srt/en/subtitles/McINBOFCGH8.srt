@@ -1,0 +1,319 @@
+1
+00:00:00,000 --> 00:00:06,667
+In the last video we showed that the ratios of the sides of a 30-60-90 triangle are, if we assume the
+
+2
+00:00:06,667 --> 00:00:11,702
+longest side is X, the hypotenuse is X, then the shortest side is X over 2, and the side in between,
+
+3
+00:00:11,702 --> 00:00:15,587
+the side that is opposite the 60 degree side is the square root of three times x over 2.
+
+4
+00:00:15,587 --> 00:00:22,087
+Another way to think of it is if the shortest side is one, and I'll do the shortest side then the medium
+
+5
+00:00:22,087 --> 00:00:27,133
+side than the longest side. So if the side opposite the 30 degree side is 1 then the side opposite the
+
+6
+00:00:27,133 --> 00:00:32,333
+60 degree side is the square root of three times that. So it's going to be square root of three and then
+
+7
+00:00:32,333 --> 00:00:37,000
+the hypotenuse is going to be twice that. In the last video we started with x and we said that the 30
+
+8
+00:00:37,000 --> 00:00:42,267
+degree side is X over 2, but if the 30 degree side is one, then it is going to twice that so this is
+
+9
+00:00:42,267 --> 00:00:48,200
+going to be 2. This right here is the side opposite the 30 degree side, opposite the 60 degree side,
+
+10
+00:00:48,200 --> 00:00:51,533
+and then the hypotenuse, opposite the 90 degree side.
+
+11
+00:00:51,533 --> 00:00:56,933
+And so in general, if you see and triangle that has those ratios, you say hey, that's a 30-60-90 triangle.
+
+12
+00:00:56,933 --> 00:01:03,933
+Or if you see a triangle that you know is a 30-60-90 triangle you cold say, Hey!, I know how to figure out
+
+13
+00:01:03,933 --> 00:01:08,133
+out one of the sides, based on this ratio right over here, and just as an example:
+
+14
+00:01:08,133 --> 00:01:16,267
+If you see a triangle that looks like this, where the sides are 2, 2 square root 3, and 4.
+
+15
+00:01:16,267 --> 00:01:20,133
+Once again the ratio of 2 to 2 square root of 3 is 1 to square root of 3.
+
+16
+00:01:20,133 --> 00:01:25,400
+The ratio of 2:4, is the same thing as 1:2, this right here must be a 30-60-90 triangle.
+
+17
+00:01:25,400 --> 00:01:30,867
+What I want to introduce you to in this video is another important type of triangle that shows up alot
+
+18
+00:01:30,867 --> 00:01:36,867
+in geometry, and a lot in trigonometry. And this is a 45-45-90 triangle.
+
+19
+00:01:36,867 --> 00:01:41,333
+Or another way to think about it is, if I have a right triangle that is also isosceles
+
+20
+00:01:41,333 --> 00:01:45,000
+,so a right triangle that is also isosceles.
+
+21
+00:01:45,000 --> 00:01:47,733
+You obviosly can't have a right triangle that is equilateral,
+
+22
+00:01:47,733 --> 00:01:51,667
+because an equilateral triangle has all, all of their angles have to be 60 degrees.
+
+23
+00:01:51,667 --> 00:01:56,067
+But you can have a right angle, you can have a right triangle that is isosceles.
+
+24
+00:01:56,067 --> 00:02:03,933
+An isosceles, let me write this, this is a right isosceles, i-sos-ce-les triangle.
+
+25
+00:02:03,933 --> 00:02:07,533
+And, if it's isosceles that means 2 of the sides are equal.
+
+26
+00:02:07,533 --> 00:02:10,867
+So, these are the 2 sides that are equal.
+
+27
+00:02:10,867 --> 00:02:15,667
+And then if the 2 sides are equal we have proved to ourselves, that the base angles are equal.
+
+28
+00:02:15,667 --> 00:02:20,467
+If we call the measure of these base angles X, now we know that X+X+90
+
+29
+00:02:20,467 --> 00:02:26,067
+have to be equal to 180. X plus X plus 90, need to be equal to 180.
+
+30
+00:02:26,067 --> 00:02:31,000
+Or if we subtract 90 from both sides, you get X plus X is equal to 90.
+
+31
+00:02:31,000 --> 00:02:39,067
+Or 2X is equal to 90, OR if you divide both sides by 2, you get X is equal to 45 degrees.
+
+32
+00:02:39,067 --> 00:02:44,533
+So a right isosceles triangle can also be called, and this is the more typical name for it:
+
+33
+00:02:44,533 --> 00:02:55,185
+It can also be called a 45-45-90 triangle.
+
+34
+00:02:55,185 --> 00:02:58,267
+And what i want to do with this video, is to come up with the ratios for the sides
+
+35
+00:02:58,267 --> 00:03:02,067
+of a 45-45-90 triangle, just like we did for a 30-60-90 triangle.
+
+36
+00:03:02,067 --> 00:03:03,600
+And this one is actually more straight forward.
+
+37
+00:03:03,600 --> 00:03:08,667
+Because in a 45-45-90 triangle, if we call each of, if we call one of
+
+38
+00:03:08,667 --> 00:03:11,333
+the legs X, the other leg is also going to be X.
+
+39
+00:03:11,333 --> 00:03:14,333
+and then we can use the pythagorean theorem to figure out the length
+
+40
+00:03:14,333 --> 00:03:15,733
+of the hypotenuse.
+
+41
+00:03:15,733 --> 00:03:18,698
+So the length of the hypotenuse, let's call that C.
+
+42
+00:03:18,698 --> 00:03:27,467
+So we get, X squared + X squared, that's the square of both of the legs.
+
+43
+00:03:27,467 --> 00:03:30,600
+so when we sum those up that's going to have to be equal to C squared.
+
+44
+00:03:30,600 --> 00:03:33,333
+This is just straight out of the pythagorean theorem.
+
+45
+00:03:33,333 --> 00:03:38,467
+So we get 2X squared is equal to C squared, C squared.
+
+46
+00:03:38,467 --> 00:03:42,867
+We can take the principle root of both sides of that.
+
+47
+00:03:42,867 --> 00:03:46,200
+I want to change it to yellow, and it's not letting me,, ok.
+
+48
+00:03:46,200 --> 00:03:50,133
+Ok, to C squared, now let's take the principle root of both sides of that.
+
+49
+00:03:50,133 --> 00:03:52,533
+Principle root of both sides.
+
+50
+00:03:52,533 --> 00:03:55,467
+The left hand side, you get, principle root of 2 is just square root of 2.
+
+51
+00:03:55,467 --> 00:03:58,533
+And then principle root of X squared is just going to be X.
+
+52
+00:03:58,533 --> 00:04:05,667
+So you're going to have X times the square root of 2 is equal to, C.
+
+53
+00:04:05,667 --> 00:04:09,267
+So if you have a right isosceles triangle, whatever the two legs are,
+
+54
+00:04:09,267 --> 00:04:11,933
+they're gonna have the same length, that's why it's isosceles.
+
+55
+00:04:11,933 --> 00:04:14,867
+The hypotenuse is going to be square root of 2 times that.
+
+56
+00:04:14,867 --> 00:04:19,000
+So C is equal to, X times the square root of 2.
+
+57
+00:04:19,000 --> 00:04:22,867
+So for example, if you have a triangle that looks like this.
+
+58
+00:04:22,867 --> 00:04:24,933
+Let me draw it in a slightly different way.
+
+59
+00:04:24,933 --> 00:04:28,800
+It's good to have to orient ourselves in different ways everytime.
+
+60
+00:04:28,800 --> 00:04:33,933
+So if we see a triangle that is a 90 degree, 45, and 45 like this,
+
+61
+00:04:33,933 --> 00:04:36,667
+And you really jst have to know two of these angles to know what the other one
+
+62
+00:04:36,667 --> 00:04:38,800
+is going to be.
+
+63
+00:04:38,800 --> 00:04:41,800
+And if i told you that this side right over here is 3.
+
+64
+00:04:41,800 --> 00:04:44,267
+Actually, I don't even have to tell you that this other side is going to be 3.
+
+65
+00:04:44,267 --> 00:04:47,933
+This is an isosceles triangle, so the two legs are going to be the same.
+
+66
+00:04:47,933 --> 00:04:50,600
+And you wont even have to apply the pythagorean theorem if you know this,
+
+67
+00:04:50,600 --> 00:04:52,267
+And this is a good one to know,
+
+68
+00:04:52,267 --> 00:04:54,467
+That the hypotenuse here, the side opposite the 90 degree side,
+
+69
+00:04:54,467 --> 00:04:58,667
+is just going to be the square root of 2 times the length of either of the legs.
+
+70
+00:04:58,667 --> 00:05:02,200
+So its going to be 3 times the square root of 2.
+
+71
+00:05:02,200 --> 00:05:07,667
+So the ratio of the sides and the hypotenuse, in a 45-45-90 triangle,
+
+72
+00:05:07,667 --> 00:05:10,133
+or a right isosceles triangle.
+
+73
+00:05:10,133 --> 00:05:13,200
+The ratio of the sides are: one of the legs can be 1,
+
+74
+00:05:13,200 --> 00:05:16,267
+then the other leg is going to have the same measure, the same length.
+
+75
+00:05:16,267 --> 00:05:20,133
+And then the hypotenuse is going to be the square root of 2 times either of those.
+
+76
+00:05:20,133 --> 00:05:22,867
+One to one to square root of two.
+
+77
+00:05:22,867 --> 00:05:29,600
+So this is 45-45-90, let me write, this is 45-45-90.
+
+78
+00:05:29,600 --> 00:05:34,533
+That's the ratios. And just as a review, if you have a 30-60-90
+
+79
+00:05:34,533 --> 00:05:39,467
+the ratios were one to square root of three to two.
+
+80
+00:05:39,467 --> 99:59:59,999
+And now we will apply this in a bunch of problems.

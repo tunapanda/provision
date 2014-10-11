@@ -1,0 +1,947 @@
+1
+00:00:00,060 --> 00:00:03,232
+What I want to do with this video is start with some point that's
+
+2
+00:00:03,263 --> 00:00:05,895
+not on the plane, or not necessarily on the plane.
+
+3
+00:00:05,971 --> 00:00:09,656
+So let me draw a point right over here
+
+4
+00:00:09,656 --> 00:00:12,467
+and let's say the coordinates of that point are x-naught
+
+5
+00:00:12,467 --> 00:00:16,867
+x-sub-zero, y-sub-zero and z-sub-zero.
+
+6
+00:00:16,867 --> 00:00:19,733
+Or it could be specified as a position vector.
+
+7
+00:00:19,733 --> 00:00:21,933
+I could draw the position vector like this.
+
+8
+00:00:21,933 --> 00:00:25,170
+So the position vector, let me draw a better dotted line
+
+9
+00:00:25,170 --> 00:00:29,000
+so the position vector for this could be x-naught i
+
+10
+00:00:29,000 --> 00:00:33,067
+plus y-naught-j, plus z-naught-k
+
+11
+00:00:33,067 --> 00:00:35,533
+specifies this coordinate right over here.
+
+12
+00:00:35,533 --> 00:00:39,333
+What I want to do is find the distance between this point
+
+13
+00:00:39,333 --> 00:00:41,733
+and the plane. And obviously there could be a lot of distances
+
+14
+00:00:41,733 --> 00:00:44,350
+I could find the distance between this point and that point
+
+15
+00:00:44,350 --> 00:00:47,345
+And this point and this point, and this point and this point
+
+16
+00:00:47,345 --> 00:00:48,467
+And when I say I want to find the distance,
+
+17
+00:00:48,467 --> 00:00:50,600
+I want to find the minimum distance
+
+18
+00:00:50,600 --> 00:00:53,429
+and you're actually going to get the minimum distance when
+
+19
+00:00:53,429 --> 00:00:57,267
+you go the perpendicular distance to the plane
+
+20
+00:00:57,267 --> 00:00:59,095
+or the normal distance to the plane.
+
+21
+00:00:59,095 --> 00:01:02,133
+We'll hopefully see that visually as we try to figure out
+
+22
+00:01:02,133 --> 00:01:03,855
+how to calculate the distance.
+
+23
+00:01:03,855 --> 00:01:06,339
+So the first thing we do, let's just construct
+
+24
+00:01:06,339 --> 00:01:09,428
+a vector between this point that's off the plane and some
+
+25
+00:01:09,428 --> 00:01:10,800
+point that's on the plane.
+
+26
+00:01:10,800 --> 00:01:12,353
+And we already have a point from the last video
+
+27
+00:01:12,353 --> 00:01:15,533
+that's on the plane: x-sub-p, y-sub-p, z-sub-p.
+
+28
+00:01:15,533 --> 00:01:21,270
+So let's construct a vector. Let's construct this orange vector
+
+29
+00:01:21,270 --> 00:01:23,429
+that starts on the plane.
+
+30
+00:01:23,429 --> 00:01:27,841
+its tail is on the plane, and it goes off the plane
+
+31
+00:01:27,841 --> 00:01:35,133
+to this vector, to this position x-naught, y-naught, z-naught.
+
+32
+00:01:35,133 --> 00:01:39,683
+So what would be, how could we specify this vector
+
+33
+00:01:39,683 --> 00:01:40,751
+right over here?
+
+34
+00:01:40,751 --> 00:01:43,867
+Well, that vector, let me call that vector, well
+
+35
+00:01:43,867 --> 00:01:46,133
+let me call that vector--what letters have I not used yet?
+
+36
+00:01:46,133 --> 00:01:48,400
+let me call that vector f.
+
+37
+00:01:48,400 --> 00:01:54,000
+Vector f is just going to be this yellow position vector
+
+38
+00:01:54,000 --> 00:01:56,425
+minus this green position vector.
+
+39
+00:01:56,425 --> 00:02:00,512
+So it's going to be--the x component is going to be
+
+40
+00:02:00,512 --> 00:02:01,733
+the difference in the x-coordinates.
+
+41
+00:02:01,733 --> 00:02:03,182
+The y-coordinate is going to be the difference in the
+
+42
+00:02:03,182 --> 00:02:04,018
+y-coordinates.
+
+43
+00:02:04,018 --> 00:02:08,867
+It's going to be x-naught minus x-sub-p.
+
+44
+00:02:08,867 --> 00:02:16,667
+I subtracted the x coordinates i plus y-naught minus y-p j
+
+45
+00:02:16,667 --> 00:02:21,084
+plus, I'll go to the next line, plus z-naught
+
+46
+00:02:21,084 --> 00:02:23,933
+minus z p k.
+
+47
+00:02:23,933 --> 00:02:26,733
+So fair enough. That's just some vector that comes
+
+48
+00:02:26,733 --> 00:02:30,200
+off of the plane and onto this point.
+
+49
+00:02:30,200 --> 00:02:34,867
+And what we want to find out is this distance.
+
+50
+00:02:34,867 --> 00:02:37,333
+We want to find out this distance in yellow. The distance
+
+51
+00:02:37,333 --> 00:02:40,600
+that if I were to take a normal off of the plane and go straight
+
+52
+00:02:40,600 --> 00:02:42,600
+to the point. That's going to be the shortest distance.
+
+53
+00:02:42,600 --> 00:02:44,420
+And actually we can see it visually now.
+
+54
+00:02:44,420 --> 00:02:46,603
+Because, if you look at--we can actually form
+
+55
+00:02:46,603 --> 00:02:48,133
+a right triangle now.
+
+56
+00:02:48,133 --> 00:02:50,760
+So this base of the right triangle is along the plane
+
+57
+00:02:50,760 --> 00:02:53,333
+This side is normal to the plane
+
+58
+00:02:53,333 --> 00:02:55,102
+So this is a right angle.
+
+59
+00:02:55,102 --> 00:02:56,100
+And you can see
+
+60
+00:02:56,100 --> 00:02:59,769
+if I take any point, any other point on the plane,
+
+61
+00:02:59,769 --> 00:03:03,867
+it will form a hypotenuse on a right triangle.
+
+62
+00:03:03,867 --> 00:03:06,733
+And obviously, the shortest side here, the shortest
+
+63
+00:03:06,733 --> 00:03:08,267
+way to get to the plane,
+
+64
+00:03:08,267 --> 00:03:09,753
+is going to be this distance right here
+
+65
+00:03:09,753 --> 00:03:11,400
+as opposed to the hypotenuse.
+
+66
+00:03:11,400 --> 00:03:15,133
+This side will always be shorter than that side.
+
+67
+00:03:15,133 --> 00:03:17,933
+So given that we know this vector here, how can we
+
+68
+00:03:17,933 --> 00:03:24,684
+figure out this length here in blue?
+
+69
+00:03:24,684 --> 00:03:27,842
+Well, we could figure out the magnitude of this vector.
+
+70
+00:03:27,842 --> 00:03:31,200
+So the length of this side right here is going
+
+71
+00:03:31,200 --> 00:03:35,000
+to be the magnitude of this vector f.
+
+72
+00:03:35,000 --> 00:03:36,467
+That will give us this length.
+
+73
+00:03:36,467 --> 00:03:38,175
+But we want this blue length.
+
+74
+00:03:38,175 --> 00:03:39,200
+Well, we could think about it.
+
+75
+00:03:39,200 --> 00:03:42,099
+If this was some angle (I know the writing's getting small)
+
+76
+00:03:42,099 --> 00:03:44,000
+if this was some angle theta, we could
+
+77
+00:03:44,000 --> 00:03:45,867
+use some pretty straight up,
+
+78
+00:03:45,867 --> 00:03:49,933
+pretty straightforward trigonometry.
+
+79
+00:03:49,933 --> 00:03:52,867
+If the distance under question is d, you could say
+
+80
+00:03:52,867 --> 00:03:59,667
+cosine of theta is equal to the adjacent side
+
+81
+00:03:59,667 --> 00:04:00,667
+over the hypotenuse.
+
+82
+00:04:00,667 --> 00:04:06,600
+or, is equal to d, d is the adjacent side, over the hypotenuse
+
+83
+00:04:06,600 --> 00:04:08,175
+Well, the hypotenuse is the magnitude of
+
+84
+00:04:08,175 --> 00:04:12,517
+this vector f.
+
+85
+00:04:12,517 --> 00:04:16,348
+Or we could say, the magnitude of the vector f
+
+86
+00:04:16,348 --> 00:04:18,252
+times the cosine of theta
+
+87
+00:04:18,252 --> 00:04:20,333
+(I'm just multiplying both sides times the magnitude
+
+88
+00:04:20,333 --> 00:04:22,177
+of vector f)
+
+89
+00:04:22,177 --> 00:04:25,533
+is equal to d.
+
+90
+00:04:25,533 --> 00:04:26,681
+So that's still, well you might say
+
+91
+00:04:26,681 --> 00:04:30,800
+well, Sal, we know what f is.
+
+92
+00:04:30,800 --> 00:04:31,604
+We could figure that out.
+
+93
+00:04:31,604 --> 00:04:33,763
+We could figure out its magnitude.
+
+94
+00:04:33,763 --> 00:04:35,667
+But we don't know what theta is.
+
+95
+00:04:35,667 --> 00:04:38,067
+How do we figure out what theta is?
+
+96
+00:04:38,067 --> 00:04:40,267
+And to do that, let's just think about it a little bit
+
+97
+00:04:40,267 --> 00:04:44,200
+This angle, this angle theta, is the same angle
+
+98
+00:04:44,200 --> 00:04:47,733
+so this distance here isn't necessarily the same as the
+
+99
+00:04:47,733 --> 00:04:49,867
+length of the normal vector, but it's definitely
+
+100
+00:04:49,867 --> 00:04:52,432
+going in the same direction.
+
+101
+00:04:52,432 --> 00:04:55,867
+So this angle here is the same thing as the angle between
+
+102
+00:04:55,867 --> 00:04:59,514
+this vector and the normal vector.
+
+103
+00:04:59,514 --> 00:05:02,733
+And so you might remember from earlier linear algebra
+
+104
+00:05:02,733 --> 00:05:05,760
+when we talk about the dot products of two vectors
+
+105
+00:05:05,760 --> 00:05:08,600
+it involves something with the cosine of the angle between them
+
+106
+00:05:08,600 --> 00:05:11,867
+And to make that fresh in your mind, let's divide
+
+107
+00:05:11,867 --> 00:05:14,133
+let's multiply and divide
+
+108
+00:05:14,133 --> 00:05:17,200
+both sides, let me multiply and divide the left side
+
+109
+00:05:17,200 --> 00:05:20,180
+of this equation by the magnitude of the normal vector.
+
+110
+00:05:20,180 --> 00:05:21,600
+So I'm obviously not changing its value.
+
+111
+00:05:21,600 --> 00:05:24,000
+I'm multiplying and dividing by the same number.
+
+112
+00:05:24,000 --> 00:05:25,683
+So I'm going to multiply by the magnitude
+
+113
+00:05:25,683 --> 00:05:26,682
+of the normal vector
+
+114
+00:05:26,682 --> 00:05:31,933
+and I'm going to divide by the magnitude of the normal vector.
+
+115
+00:05:31,933 --> 00:05:34,200
+So I'm essentially multiplying by 1.
+
+116
+00:05:34,200 --> 00:05:36,667
+So I have not changed this. But when you do it
+
+117
+00:05:36,667 --> 00:05:38,467
+in this, it might ring a bell
+
+118
+00:05:38,467 --> 00:05:41,000
+This expression up here,
+
+119
+00:05:41,000 --> 00:05:42,867
+this expression right here
+
+120
+00:05:42,867 --> 00:05:46,133
+is the dot product of the normal vector
+
+121
+00:05:46,133 --> 00:05:50,467
+and this vector right here, f.
+
+122
+00:05:50,467 --> 00:05:52,733
+So this right here is the dot product.
+
+123
+00:05:52,733 --> 00:05:57,000
+This is n dot f up here.
+
+124
+00:05:57,000 --> 00:05:59,422
+It's equal to the product of their magnitudes times
+
+125
+00:05:59,422 --> 00:06:01,604
+the cosine of the angle between them.
+
+126
+00:06:01,604 --> 00:06:03,933
+So the distance, that shortest distance we care about,
+
+127
+00:06:03,933 --> 00:06:06,200
+is the dot product between this vector
+
+128
+00:06:06,200 --> 00:06:09,933
+the normal vector divided by the magnitude
+
+129
+00:06:09,933 --> 00:06:17,667
+of the normal vector.
+
+130
+00:06:17,667 --> 00:06:19,507
+So let's do that. Let's take the dot product
+
+131
+00:06:19,507 --> 00:06:21,533
+between the normal and this.
+
+132
+00:06:21,533 --> 00:06:23,067
+And we already figured out in the last video
+
+133
+00:06:23,067 --> 00:06:24,755
+the normal vector.
+
+134
+00:06:24,755 --> 00:06:26,752
+If you have the equation of a plane, the normal vector
+
+135
+00:06:26,752 --> 00:06:28,533
+is literally, the components are just the
+
+136
+00:06:28,533 --> 00:06:30,400
+coefficients on the x, y, and z terms
+
+137
+00:06:30,400 --> 00:06:32,267
+So this is the normal vector right over here.
+
+138
+00:06:32,267 --> 00:06:33,509
+So let's take
+
+139
+00:06:33,509 --> 00:06:34,600
+let's literally take
+
+140
+00:06:34,600 --> 00:06:36,179
+the dot product.
+
+141
+00:06:36,179 --> 00:06:41,845
+So n dot f is going to be equal to
+
+142
+00:06:41,845 --> 00:06:46,000
+A times x-naught minus x-p
+
+143
+00:06:46,000 --> 00:06:49,020
+So it's going to be equal to, I'll do that in pink
+
+144
+00:06:49,020 --> 00:06:53,867
+So it's going to be A x-naught minus A x-p
+
+145
+00:06:53,867 --> 00:06:57,681
+and then, plus B times the y component here
+
+146
+00:06:57,681 --> 00:07:01,800
+so plus B y-naught, I'm just distributing the B
+
+147
+00:07:01,800 --> 00:07:06,179
+minus B y-p, and then plus
+
+148
+00:07:06,179 --> 00:07:07,867
+(I'll get another color here)
+
+149
+00:07:07,867 --> 00:07:11,333
+C (that's too close a color)
+
+150
+00:07:11,333 --> 00:07:14,467
+plus C times the z component.
+
+151
+00:07:14,467 --> 00:07:22,533
+So, plus C z-naught minus C z-p
+
+152
+00:07:22,533 --> 00:07:24,755
+And all of that over the magnitude of the
+
+153
+00:07:24,755 --> 00:07:26,267
+normal vector.
+
+154
+00:07:26,267 --> 00:07:28,600
+So what's the magnitude of the normal vector going to be?
+
+155
+00:07:28,600 --> 00:07:30,867
+It's just the square root of the normal vector
+
+156
+00:07:30,867 --> 00:07:32,467
+dotted with itself.
+
+157
+00:07:32,467 --> 00:07:35,133
+So this is just each of these guys squared, added to themselves
+
+158
+00:07:35,133 --> 00:07:37,067
+and then take the square root.
+
+159
+00:07:37,067 --> 00:07:42,067
+So the square root is (and I can make a nicer looking radical
+
+160
+00:07:42,067 --> 00:07:43,533
+sign than that)
+
+161
+00:07:43,533 --> 00:07:47,418
+So it's the square root of A-squared plus B-squared
+
+162
+00:07:47,418 --> 00:07:51,017
+plus C-squared.
+
+163
+00:07:51,017 --> 00:07:52,933
+Now what does this up here simplify to?
+
+164
+00:07:52,933 --> 00:07:54,400
+Let me just re-write this.
+
+165
+00:07:54,400 --> 00:07:58,354
+So this is the distance in question. This right here is
+
+166
+00:07:58,354 --> 00:07:59,771
+equal to the distance.
+
+167
+00:07:59,771 --> 00:08:01,512
+So let's see if we can simplify it.
+
+168
+00:08:01,512 --> 00:08:03,765
+So first we can take all of the terms
+
+169
+00:08:03,765 --> 00:08:05,600
+with the x-naught, these are involved
+
+170
+00:08:05,600 --> 00:08:07,178
+with the point that sits off the plane
+
+171
+00:08:07,178 --> 00:08:10,104
+and remember x-naught, y-naught, and z-naught sit off the plane
+
+172
+00:08:10,104 --> 00:08:18,091
+so this is Ax-naught plus B y-naught plus C z-naught
+
+173
+00:08:18,091 --> 00:08:21,533
+and then what are these terms equal to?
+
+174
+00:08:21,533 --> 00:08:23,867
+A x-p
+
+175
+00:08:23,867 --> 00:08:30,421
+negative A x-p minus B y-p minus C z-p
+
+176
+00:08:30,421 --> 00:08:31,605
+and if you remember up here,
+
+177
+00:08:31,605 --> 00:08:34,467
+D in the equation of a plane
+
+178
+00:08:34,467 --> 00:08:36,200
+D when we started in the last video
+
+179
+00:08:36,200 --> 00:08:38,867
+when we tried to figure out what the normal to a plane is
+
+180
+00:08:38,867 --> 00:08:44,000
+D is this point x-p sits on the plane, D is
+
+181
+00:08:44,000 --> 00:08:50,000
+A x-p plus B y-p plus C z-p
+
+182
+00:08:50,000 --> 00:08:51,853
+or another way you could say it is
+
+183
+00:08:51,853 --> 00:08:57,751
+negative D would be negative A (and it's just
+
+184
+00:08:57,751 --> 00:08:59,600
+the difference between lower case and upper case
+
+185
+00:08:59,600 --> 00:09:02,667
+here, right. We see that lower case a is the same as this upper case A)
+
+186
+00:09:02,667 --> 00:09:10,800
+So it's negative A x-p minus B y-p minus C z-p
+
+187
+00:09:10,800 --> 00:09:12,267
+I'm just using what we got from the last video.
+
+188
+00:09:12,267 --> 00:09:15,733
+This is what D is, so negative D is just this business.
+
+189
+00:09:15,733 --> 00:09:17,933
+And that's exactly what we have over here.
+
+190
+00:09:17,933 --> 00:09:22,271
+negative A x-p, negative B y-p, negative C z-p.
+
+191
+00:09:22,271 --> 00:09:26,000
+So all of this term, this term, and this term,
+
+192
+00:09:26,000 --> 00:09:28,842
+simplifies to a minus D.
+
+193
+00:09:28,842 --> 00:09:32,933
+And remember, this negative capital D, this is the
+
+194
+00:09:32,933 --> 00:09:34,867
+D from the equation of the plane
+
+195
+00:09:34,867 --> 00:09:37,133
+NOT the distance d.
+
+196
+00:09:37,133 --> 00:09:39,500
+So this is the numerator of our distance
+
+197
+00:09:39,500 --> 00:09:41,267
+and then the denominator of our distance
+
+198
+00:09:41,267 --> 00:09:46,768
+is just the square root of A-squared plus B-squared
+
+199
+00:09:46,768 --> 00:09:48,267
+plus C-squared.
+
+200
+00:09:48,267 --> 00:09:49,764
+And we're done!
+
+201
+00:09:49,764 --> 00:09:52,333
+This tells us the distance between any point and a plane
+
+202
+00:09:52,333 --> 00:09:54,600
+And this is a pretty intuitive formula here.
+
+203
+00:09:54,600 --> 00:09:55,733
+Because all we're doing--
+
+204
+00:09:55,733 --> 00:09:58,355
+if we have some
+
+205
+00:09:58,355 --> 00:10:00,267
+Let me give you an example.
+
+206
+00:10:00,267 --> 00:10:09,467
+If I have the plane 1x minus 2y plus 3z is equal to five
+
+207
+00:10:09,467 --> 00:10:11,103
+so that's some plane.
+
+208
+00:10:11,103 --> 00:10:15,000
+and let me pick some point that's not on the plane
+
+209
+00:10:15,000 --> 00:10:23,333
+So let's say I have the point 2,3, (and let me make sure
+
+210
+00:10:23,333 --> 00:10:25,133
+this is not on the plane
+
+211
+00:10:25,133 --> 00:10:29,400
+so it's 2 minus six is negative, yes, let me just pick
+
+212
+00:10:29,400 --> 00:10:32,200
+a random 1. So this is definitely not on the plane
+
+213
+00:10:32,200 --> 00:10:37,867
+because we have 2 minus six plus 3, that gives us negative 1
+
+214
+00:10:37,867 --> 00:10:40,533
+which is not 5, so this is definitely not on the plane)
+
+215
+00:10:40,533 --> 00:10:43,355
+We can find the distance between this point and the plane
+
+216
+00:10:43,355 --> 00:10:45,352
+using the formula we just derived.
+
+217
+00:10:45,352 --> 00:10:48,133
+We literally just evaluate it at
+
+218
+00:10:48,133 --> 00:10:49,800
+so this will just be
+
+219
+00:10:49,800 --> 00:11:04,184
+1 times 2 minus 2 times (I'm going to fill it in)
+
+220
+00:11:04,184 --> 00:11:09,467
+plus 3 times something minus 5
+
+221
+00:11:09,467 --> 00:11:11,939
+All of that over (and I haven't put these guys in,
+
+222
+00:11:11,939 --> 00:11:13,588
+let me do that right now)
+
+223
+00:11:13,588 --> 00:11:19,667
+So 1 times 2 minus 2 times 3 plus 3 times 1
+
+224
+00:11:19,667 --> 00:11:22,533
+minus 5 (kind of bringing it over to the left hand side)
+
+225
+00:11:22,533 --> 00:11:27,533
+all of that over the square root
+
+226
+00:11:27,533 --> 00:11:32,533
+of 1 squared (which is 1) plus negative 2 squared (which is 4)
+
+227
+00:11:32,533 --> 00:11:36,133
+plus 3 squared (which is 9)
+
+228
+00:11:36,133 --> 00:11:38,015
+so it's going to be equal to
+
+229
+00:11:38,015 --> 00:11:44,000
+let's see, this is 2 minus 6 (or negative 6)
+
+230
+00:11:44,000 --> 00:11:48,067
+and then you have plus 3, minus 5
+
+231
+00:11:48,067 --> 00:11:52,333
+so this is what, this is 5, 2 plus 3 is 5
+
+232
+00:11:52,333 --> 00:11:54,200
+minus 5, so those two just cancel out
+
+233
+00:11:54,200 --> 00:11:58,467
+so this is negative 6 over
+
+234
+00:11:58,467 --> 00:12:01,467
+the square root of 5 plus 9 is 14
+
+235
+00:12:01,467 --> 00:12:04,184
+over the square root of 14.
+
+236
+00:12:04,184 --> 00:12:06,533
+And you're done.
+
+237
+00:12:06,533 --> 99:59:59,999
+So hopefully you find that useful and hopefully you can apply that in other example problems

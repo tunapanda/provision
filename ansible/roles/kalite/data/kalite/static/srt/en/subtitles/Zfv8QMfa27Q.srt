@@ -1,0 +1,99 @@
+1
+00:00:00,535 --> 00:00:05,718
+And we begin with a very simple question, or --
+
+2
+00:00:05,718 --> 00:00:07,649
+not a question -- a challenge.
+
+3
+00:00:07,649 --> 00:00:11,645
+We need to build a machine which takes an input --
+
+4
+00:00:11,645 --> 00:00:13,937
+(And that input is some integer, 'x.')
+
+5
+00:00:13,937 --> 00:00:16,350
+And all that machine needs to do
+
+6
+00:00:16,350 --> 00:00:22,648
+is output 'true' or 'false.'
+
+7
+00:00:22,648 --> 00:00:25,484
+And that is the first step.
+
+8
+00:00:25,484 --> 00:00:26,904
+Now we will use the
+
+9
+00:00:26,904 --> 00:00:28,236
+[Khan Academy] computer-science tool
+
+10
+00:00:28,236 --> 00:00:31,188
+to actually build this machine together.
+
+11
+00:00:31,188 --> 00:00:32,364
+And one of the questions
+
+12
+00:00:32,364 --> 00:00:35,803
+that we will be asking is two things --
+
+13
+00:00:35,803 --> 00:00:37,596
+two aspects to this machine.
+
+14
+00:00:37,596 --> 00:00:40,111
+How much time --
+
+15
+00:00:40,127 --> 00:00:41,547
+That's a clock. [CHUCKLES]
+
+16
+00:00:41,547 --> 00:00:44,545
+How much time does it take to get the solution?
+
+17
+00:00:44,545 --> 00:00:47,860
+And how much space does it need?
+
+18
+00:00:47,860 --> 00:00:49,373
+And when I say 'space,'
+
+19
+00:00:49,373 --> 00:00:50,664
+I mean -- for example, in the case of
+
+20
+00:00:50,664 --> 00:00:53,088
+this mechanical calculator -- physical space.
+
+21
+00:00:53,088 --> 00:00:55,624
+How many rooms do we need to hold our machine?
+
+22
+00:00:55,624 --> 00:00:57,729
+Or if we're using a computer,
+
+23
+00:00:57,729 --> 00:01:00,998
+how much memory does it need?
+
+24
+00:01:00,998 --> 00:01:02,354
+So we will be returning
+
+25
+00:01:02,354 --> 00:01:04,167
+to these two ideas as we go.

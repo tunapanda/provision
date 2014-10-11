@@ -1,0 +1,1270 @@
+1
+00:00:00,000 --> 00:00:00,560
+   
+
+2
+00:00:00,560 --> 00:00:03,820
+You sample 36 apples from
+your farm's harvest of
+
+3
+00:00:03,820 --> 00:00:06,070
+over 200,000 apples.
+
+4
+00:00:06,070 --> 00:00:12,330
+The mean weight of the sample
+is 112 grams with a 40 gram
+
+5
+00:00:12,330 --> 00:00:15,070
+sample standard deviation.
+
+6
+00:00:15,070 --> 00:00:19,720
+What is the probability that the
+mean weight of all 200,000
+
+7
+00:00:19,720 --> 00:00:23,760
+apples is within 100
+and 124 grams?
+
+8
+00:00:23,760 --> 00:00:24,810
+Let's think about what
+they're asking.
+
+9
+00:00:24,810 --> 00:00:28,120
+So there's some distribution of
+all of the weights of all
+
+10
+00:00:28,120 --> 00:00:30,990
+200,000 apples or there's
+more than 200,000.
+
+11
+00:00:30,990 --> 00:00:33,800
+We don't even know how many
+apples, just a huge number.
+
+12
+00:00:33,800 --> 00:00:38,390
+So there's some population
+distribution of weights.
+
+13
+00:00:38,390 --> 00:00:40,430
+Maybe it looks something
+like that.
+
+14
+00:00:40,430 --> 00:00:42,840
+It will have a mean weight.
+
+15
+00:00:42,840 --> 00:00:44,350
+It has a mean weight.
+
+16
+00:00:44,350 --> 00:00:47,170
+We don't know what that mean
+weight is, and it also has a
+
+17
+00:00:47,170 --> 00:00:49,350
+population standard deviation.
+
+18
+00:00:49,350 --> 00:00:52,240
+So this might be one standard
+deviation above the population
+
+19
+00:00:52,240 --> 00:00:54,630
+mean, that would be one standard
+deviation below.
+
+20
+00:00:54,630 --> 00:00:58,280
+And we'll say this distance
+right here is the population
+
+21
+00:00:58,280 --> 00:00:59,840
+standard deviation.
+
+22
+00:00:59,840 --> 00:01:03,280
+Both of these are parameters
+that we do not know of the
+
+23
+00:01:03,280 --> 00:01:04,720
+entire population.
+
+24
+00:01:04,720 --> 00:01:11,210
+This is the population
+distribution right over there.
+
+25
+00:01:11,210 --> 00:01:13,800
+Now, we know from our experience
+with the last few
+
+26
+00:01:13,800 --> 00:01:18,620
+videos that you can repeatedly
+take samples, or if you kind
+
+27
+00:01:18,620 --> 00:01:21,570
+of visualize, repeatingly take
+samples of a certain size-- in
+
+28
+00:01:21,570 --> 00:01:24,750
+this video we're going to focus
+on sample sizes of 36.
+
+29
+00:01:24,750 --> 00:01:28,270
+And you keep taking the means of
+those sample size, and you
+
+30
+00:01:28,270 --> 00:01:31,130
+plot the frequency with which
+you get those means, you would
+
+31
+00:01:31,130 --> 00:01:33,020
+eventually get something
+called the sampling
+
+32
+00:01:33,020 --> 00:01:34,790
+distribution of the
+sample mean.
+
+33
+00:01:34,790 --> 00:01:36,280
+Let me write this down.
+
+34
+00:01:36,280 --> 00:01:44,200
+The sampling distribution
+of the sample mean.
+
+35
+00:01:44,200 --> 00:01:46,070
+So that might look something
+like this.
+
+36
+00:01:46,070 --> 00:01:47,690
+I'll try to draw it a little
+bit bigger since we're
+
+37
+00:01:47,690 --> 00:01:49,830
+probably going to use this
+one a little bit more.
+
+38
+00:01:49,830 --> 00:01:52,690
+It is going to be pretty close
+to a normal distribution.
+
+39
+00:01:52,690 --> 00:01:56,550
+   
+
+40
+00:01:56,550 --> 00:02:01,850
+It's going to have some mean,
+and we specify that-- let me
+
+41
+00:02:01,850 --> 00:02:03,270
+draw it down here.
+
+42
+00:02:03,270 --> 00:02:06,250
+It has mean when we show that
+this is the mean of the
+
+43
+00:02:06,250 --> 00:02:07,680
+sampling distribution.
+
+44
+00:02:07,680 --> 00:02:10,090
+And we know that the mean of
+the sampling distribution,
+
+45
+00:02:10,090 --> 00:02:13,130
+that the means of all of your
+means, or of the actual
+
+46
+00:02:13,130 --> 00:02:16,010
+distribution of means, is
+actually going to be your
+
+47
+00:02:16,010 --> 00:02:17,480
+original population mean.
+
+48
+00:02:17,480 --> 00:02:20,760
+So this is going to be your
+population mean over here.
+
+49
+00:02:20,760 --> 00:02:24,360
+And it also has some
+standard deviation.
+
+50
+00:02:24,360 --> 00:02:30,860
+So maybe this is a standard
+deviation above the mean, this
+
+51
+00:02:30,860 --> 00:02:35,240
+is a standard deviation below
+the mean, right over there.
+
+52
+00:02:35,240 --> 00:02:40,270
+And we can specify that by the
+standard deviation of the
+
+53
+00:02:40,270 --> 00:02:42,590
+sampling distribution
+of the means.
+
+54
+00:02:42,590 --> 00:02:47,780
+And we know that this can
+be a given, or I guess
+
+55
+00:02:47,780 --> 00:02:51,120
+approximated, because for fairly
+large samples this
+
+56
+00:02:51,120 --> 00:02:52,230
+gives a pretty good indicator.
+
+57
+00:02:52,230 --> 00:02:53,720
+There's a couple of correction
+factors if you
+
+58
+00:02:53,720 --> 00:02:55,540
+get to smaller samples.
+
+59
+00:02:55,540 --> 00:03:02,430
+But this is going to be our
+population standard deviation
+
+60
+00:03:02,430 --> 00:03:05,600
+divided by the square root--
+and we saw this in the last
+
+61
+00:03:05,600 --> 00:03:08,990
+two videos-- divided by the
+square root of the number of
+
+62
+00:03:08,990 --> 00:03:11,590
+samples we have when we
+calculate each of those means.
+
+63
+00:03:11,590 --> 00:03:15,500
+And we know in this example that
+we are taking 36 samples.
+
+64
+00:03:15,500 --> 00:03:18,030
+So this is the square
+root of 36.
+
+65
+00:03:18,030 --> 00:03:19,880
+This is a sampling distribution
+of the sample
+
+66
+00:03:19,880 --> 00:03:23,990
+mean-- let me write it over
+here-- 4n equals 36.
+
+67
+00:03:23,990 --> 00:03:28,410
+For each of our sample buckets
+or baskets to have 36 items
+
+68
+00:03:28,410 --> 00:03:29,720
+and then we take their mean.
+
+69
+00:03:29,720 --> 00:03:33,210
+And then that is essentially
+each of those means is a
+
+70
+00:03:33,210 --> 00:03:35,820
+sample from this distribution
+right over here.
+
+71
+00:03:35,820 --> 00:03:38,100
+The means are the sample from
+this-- the things that we're
+
+72
+00:03:38,100 --> 00:03:42,570
+using to calculate the samples
+are samples, or the things
+
+73
+00:03:42,570 --> 00:03:44,720
+that were used to calculating
+the means are
+
+74
+00:03:44,720 --> 00:03:45,670
+samples from that.
+
+75
+00:03:45,670 --> 00:03:47,840
+Hopefully that isn't
+too confusing.
+
+76
+00:03:47,840 --> 00:03:49,490
+But this isn't the first
+time we've seen it.
+
+77
+00:03:49,490 --> 00:03:52,890
+Anyway, this distribution's
+standard deviation is going to
+
+78
+00:03:52,890 --> 00:03:55,650
+be the standard deviation of
+this population standard
+
+79
+00:03:55,650 --> 00:04:00,670
+deviation divided by 6.
+
+80
+00:04:00,670 --> 00:04:01,710
+But we still don't know this.
+
+81
+00:04:01,710 --> 00:04:03,650
+We still don't know this
+parameter up here.
+
+82
+00:04:03,650 --> 00:04:06,600
+Now with that said let's
+refocus on what they're
+
+83
+00:04:06,600 --> 00:04:08,390
+actually asking us.
+
+84
+00:04:08,390 --> 00:04:10,270
+They want to know the
+probability that the mean
+
+85
+00:04:10,270 --> 00:04:13,460
+weight of all 200,000 apples.
+
+86
+00:04:13,460 --> 00:04:16,370
+Well the mean weight of all
+200,000 apples is that
+
+87
+00:04:16,370 --> 00:04:17,920
+parameter right over there.
+
+88
+00:04:17,920 --> 00:04:20,870
+And they want to know what is a
+probably that it is between
+
+89
+00:04:20,870 --> 00:04:27,020
+100 and 124 grams. So they're
+actually asking us if
+
+90
+00:04:27,020 --> 00:04:31,630
+something is between 100 and 124
+grams it is within 12 of
+
+91
+00:04:31,630 --> 00:04:33,070
+our sample mean.
+
+92
+00:04:33,070 --> 00:04:33,510
+Right?
+
+93
+00:04:33,510 --> 00:04:34,430
+That's all they're saying.
+
+94
+00:04:34,430 --> 00:04:38,100
+What is a probability that this
+thing is within 12 of our
+
+95
+00:04:38,100 --> 00:04:39,950
+sample mean?
+
+96
+00:04:39,950 --> 00:04:42,770
+Because if you're less than 12
+or if you're 12 less you're
+
+97
+00:04:42,770 --> 00:04:43,410
+going to get to 100.
+
+98
+00:04:43,410 --> 00:04:46,400
+If you're 12 more you're
+going to get to 124.
+
+99
+00:04:46,400 --> 00:04:51,450
+So what they're asking us is
+what is the probability that
+
+100
+00:04:51,450 --> 00:04:54,640
+our population mean, this
+parameter, this unknown
+
+101
+00:04:54,640 --> 00:05:04,440
+parameter, is within 12 of the
+mean of our one sample.
+
+102
+00:05:04,440 --> 00:05:07,350
+   
+
+103
+00:05:07,350 --> 00:05:10,850
+Now if I told you that I'm
+within 5 feet of you, then
+
+104
+00:05:10,850 --> 00:05:13,270
+that also means that you're
+within 5 feet of me.
+
+105
+00:05:13,270 --> 00:05:17,280
+So this is the exact same thing
+as the probability that
+
+106
+00:05:17,280 --> 00:05:27,620
+the sample mean is within
+12 of the actual mean.
+
+107
+00:05:27,620 --> 00:05:29,440
+I really you to-- this
+should make sense.
+
+108
+00:05:29,440 --> 00:05:33,700
+If I said what's the probability
+that I'm either 5
+
+109
+00:05:33,700 --> 00:05:36,680
+behind you or 5 ahead of you,
+that's the same thing as a
+
+110
+00:05:36,680 --> 00:05:40,880
+probability that you're either
+5 behind me or 5 behind you.
+
+111
+00:05:40,880 --> 00:05:42,760
+This is asking what's the
+probability that we're 12
+
+112
+00:05:42,760 --> 00:05:45,730
+apart, or what's the probability
+that I am within
+
+113
+00:05:45,730 --> 00:05:47,120
+12 feet of you.
+
+114
+00:05:47,120 --> 00:05:49,280
+And this is the probability
+that you're
+
+115
+00:05:49,280 --> 00:05:50,070
+within 12 feet of me.
+
+116
+00:05:50,070 --> 00:05:52,970
+They're asking the
+exact same thing.
+
+117
+00:05:52,970 --> 00:05:55,960
+But when you phrase it this way
+it might dawn on you that
+
+118
+00:05:55,960 --> 00:05:58,910
+you might be able to use the
+sampling distribution of the
+
+119
+00:05:58,910 --> 00:05:59,980
+sampling mean.
+
+120
+00:05:59,980 --> 00:06:03,220
+There's some unknown mean here,
+which is the same thing
+
+121
+00:06:03,220 --> 00:06:04,390
+as this value right here.
+
+122
+00:06:04,390 --> 00:06:06,620
+So this thing-- let me make it
+very clear-- this is also the
+
+123
+00:06:06,620 --> 00:06:09,750
+same thing because this
+value and this value
+
+124
+00:06:09,750 --> 00:06:10,910
+are the same thing.
+
+125
+00:06:10,910 --> 00:06:13,090
+This is exactly the same thing
+as asking what is the
+
+126
+00:06:13,090 --> 00:06:21,430
+probability that our one sample
+mean is within 12 of
+
+127
+00:06:21,430 --> 00:06:25,710
+the actual mean of the sampling
+distribution.
+
+128
+00:06:25,710 --> 00:06:28,080
+So we're just saying what's the
+probability that that one
+
+129
+00:06:28,080 --> 00:06:31,530
+sample mean we have is
+within 12 of this
+
+130
+00:06:31,530 --> 00:06:34,710
+actual sampling mean.
+
+131
+00:06:34,710 --> 00:06:37,240
+At this point your brain should
+be reading that gee, if
+
+132
+00:06:37,240 --> 00:06:40,340
+I could figure out how many
+standard deviations that is,
+
+133
+00:06:40,340 --> 00:06:42,390
+how many standard deviations
+away that is on this
+
+134
+00:06:42,390 --> 00:06:46,200
+distribution, I can then use a
+Z-table to actually figure out
+
+135
+00:06:46,200 --> 00:06:46,890
+the probability.
+
+136
+00:06:46,890 --> 00:06:48,610
+And that's exactly what
+we're going to do.
+
+137
+00:06:48,610 --> 00:06:51,800
+But there's one slight
+complication here.
+
+138
+00:06:51,800 --> 00:06:54,670
+We don't know the actual
+standard deviation of the
+
+139
+00:06:54,670 --> 00:06:56,030
+sampling distribution.
+
+140
+00:06:56,030 --> 00:06:58,030
+We just know that it's
+this thing right over
+
+141
+00:06:58,030 --> 00:06:59,800
+here divided by 6.
+
+142
+00:06:59,800 --> 00:07:01,270
+But we don't know this thing.
+
+143
+00:07:01,270 --> 00:07:02,980
+So what we're going to
+do is get our best
+
+144
+00:07:02,980 --> 00:07:04,210
+estimate of this thing.
+
+145
+00:07:04,210 --> 00:07:07,880
+So we need a good estimator
+for the actual population
+
+146
+00:07:07,880 --> 00:07:09,150
+standard deviation.
+
+147
+00:07:09,150 --> 00:07:10,730
+What's our best estimate
+of that?
+
+148
+00:07:10,730 --> 00:07:12,400
+What's going to be our sample
+standard deviation?
+
+149
+00:07:12,400 --> 00:07:16,360
+We sampled 36 things,
+and we had a sample
+
+150
+00:07:16,360 --> 00:07:18,670
+distribution of 40.
+
+151
+00:07:18,670 --> 00:07:23,450
+So we have a sample distribution
+of-- let
+
+152
+00:07:23,450 --> 00:07:24,610
+me write this way.
+
+153
+00:07:24,610 --> 00:07:28,400
+This is going to be
+approximately equal to our
+
+154
+00:07:28,400 --> 00:07:33,040
+sample distribution or sample
+standard deviation, which we
+
+155
+00:07:33,040 --> 00:07:34,020
+got to be 40.
+
+156
+00:07:34,020 --> 00:07:37,620
+So we literally just took-- we
+found the mean of our 36
+
+157
+00:07:37,620 --> 00:07:40,810
+apples, mean weight was 112
+grams. Then we found the
+
+158
+00:07:40,810 --> 00:07:44,000
+square distance from each of the
+apples' weights to this.
+
+159
+00:07:44,000 --> 00:07:46,330
+Took the average of those.
+
+160
+00:07:46,330 --> 00:07:47,880
+Well we didn't take the straight
+up average, we
+
+161
+00:07:47,880 --> 00:07:49,060
+divided by n minus 1.
+
+162
+00:07:49,060 --> 00:07:51,040
+We learned all of this many,
+many videos ago.
+
+163
+00:07:51,040 --> 00:07:52,480
+And then we took the square
+root of that.
+
+164
+00:07:52,480 --> 00:07:55,080
+This gave us the sample standard
+deviation, it is our
+
+165
+00:07:55,080 --> 00:07:56,980
+best estimator for this.
+
+166
+00:07:56,980 --> 00:07:59,850
+So if this is our best estimator
+for that, our best
+
+167
+00:07:59,850 --> 00:08:03,610
+estimator for this thing right
+here is going to be equal to
+
+168
+00:08:03,610 --> 00:08:07,890
+our sample standard deviation
+divided by 6, which is equal
+
+169
+00:08:07,890 --> 00:08:11,720
+to 40 over 6, which is
+equal to-- let's get
+
+170
+00:08:11,720 --> 00:08:15,390
+our calculator out.
+
+171
+00:08:15,390 --> 00:08:22,570
+So if we have 40 divided by
+6, we have 6.6-- I'll
+
+172
+00:08:22,570 --> 00:08:24,940
+just write down 6.67.
+
+173
+00:08:24,940 --> 00:08:28,470
+So this thing right
+here is 6.67.
+
+174
+00:08:28,470 --> 00:08:31,890
+So our best estimate of the
+standard deviation of the
+
+175
+00:08:31,890 --> 00:08:36,159
+sample distribution of the
+sample mean is 6.67.
+
+176
+00:08:36,159 --> 00:08:39,950
+So this distance right
+here is 6.67.
+
+177
+00:08:39,950 --> 00:08:43,500
+So how many standard deviations
+is 12 if you look
+
+178
+00:08:43,500 --> 00:08:45,450
+at this distribution
+right over here?
+
+179
+00:08:45,450 --> 00:08:48,640
+Well we just divide
+12 by 6.67.
+
+180
+00:08:48,640 --> 00:08:52,070
+So let me get the calculator
+back up.
+
+181
+00:08:52,070 --> 00:08:55,890
+So if we have 12-- I'll just
+divide it by that 6.--
+
+182
+00:08:55,890 --> 00:09:00,650
+actually this exact number--
+12 divided by-- answer just
+
+183
+00:09:00,650 --> 00:09:04,490
+means the last answer we got--
+that gives us 1.8 exactly.
+
+184
+00:09:04,490 --> 00:09:06,000
+The numbers just happened
+to work out well.
+
+185
+00:09:06,000 --> 00:09:09,580
+So this is completely analogous
+to saying what is
+
+186
+00:09:09,580 --> 00:09:18,440
+the probability that our one
+sample mean is within 1.8
+
+187
+00:09:18,440 --> 00:09:19,870
+standard deviations.
+
+188
+00:09:19,870 --> 00:09:20,640
+Let me write it this way.
+
+189
+00:09:20,640 --> 00:09:24,410
+It was in 1.8 standard
+deviations of the sample
+
+190
+00:09:24,410 --> 00:09:31,570
+mean-- within 1.8 of these--
+of our actual mean of our
+
+191
+00:09:31,570 --> 00:09:33,370
+sampling distribution.
+
+192
+00:09:33,370 --> 00:09:36,030
+So we're literally
+just asking that.
+
+193
+00:09:36,030 --> 00:09:38,500
+So if you look at this
+distribution up here, within
+
+194
+00:09:38,500 --> 00:09:41,270
+1.8 standard deviations, this
+is one standard deviation,
+
+195
+00:09:41,270 --> 00:09:44,000
+another 0.8 would maybe get
+us right about there.
+
+196
+00:09:44,000 --> 00:09:49,280
+And we're within 1.8 above and
+1.8 below, so this is 1.8
+
+197
+00:09:49,280 --> 00:09:51,580
+standard deviations above the
+mean, this is 1.8 standard
+
+198
+00:09:51,580 --> 00:09:53,110
+deviations below the mean.
+
+199
+00:09:53,110 --> 00:09:54,780
+So we're just going to say
+what's the probability when we
+
+200
+00:09:54,780 --> 00:09:57,930
+just took this one sample of 36
+apples that we lie in this
+
+201
+00:09:57,930 --> 00:09:59,180
+space over here?
+
+202
+00:09:59,180 --> 00:10:02,860
+   
+
+203
+00:10:02,860 --> 00:10:05,600
+And to figure this out what I'm
+going to do is I'm going
+
+204
+00:10:05,600 --> 00:10:08,980
+to use our Z-table to figure
+out essentially
+
+205
+00:10:08,980 --> 00:10:11,030
+this space over here.
+
+206
+00:10:11,030 --> 00:10:13,600
+Just what's the probability
+of being 12 above it.
+
+207
+00:10:13,600 --> 00:10:17,180
+And then we can just double it
+because a normal distribution
+
+208
+00:10:17,180 --> 00:10:18,410
+is symmetric.
+
+209
+00:10:18,410 --> 00:10:19,720
+So let's go to our Z-table.
+
+210
+00:10:19,720 --> 00:10:23,640
+So what's the probability of
+being between the mean and 1.8
+
+211
+00:10:23,640 --> 00:10:25,370
+standard deviations
+above the mean?
+
+212
+00:10:25,370 --> 00:10:31,700
+So if you just go straight to
+your Z-table, 1.80 is this
+
+213
+00:10:31,700 --> 00:10:32,580
+right over here.
+
+214
+00:10:32,580 --> 00:10:35,030
+Now you get this
+0.9641 number.
+
+215
+00:10:35,030 --> 00:10:36,410
+But be very careful.
+
+216
+00:10:36,410 --> 00:10:39,710
+This 0.9641 number that gives
+you-- so if I draw a normal
+
+217
+00:10:39,710 --> 00:10:42,910
+distribution-- let me draw a
+better normal distribution.
+
+218
+00:10:42,910 --> 00:10:46,760
+If I draw a normal distribution
+like that, and
+
+219
+00:10:46,760 --> 00:10:51,450
+this is our mean, this 0.9641
+number tells us the
+
+220
+00:10:51,450 --> 00:10:54,130
+probability that we are less
+than 1.8 standard deviations
+
+221
+00:10:54,130 --> 00:10:54,770
+above the mean.
+
+222
+00:10:54,770 --> 00:10:59,800
+So this is 1.8 standard
+deviations up here, then this
+
+223
+00:10:59,800 --> 00:11:01,360
+is our mean right over here.
+
+224
+00:11:01,360 --> 00:11:09,980
+This is giving us this entire
+area right over there.
+
+225
+00:11:09,980 --> 00:11:16,770
+So if I want just this area
+right here, what I need to do
+
+226
+00:11:16,770 --> 00:11:23,410
+is from this value, from this
+0.9641, I need to subtract
+
+227
+00:11:23,410 --> 00:11:26,680
+this, the probability that
+you're essentially directly
+
+228
+00:11:26,680 --> 00:11:27,860
+less than the mean.
+
+229
+00:11:27,860 --> 00:11:28,720
+And that is this.
+
+230
+00:11:28,720 --> 00:11:32,930
+This is the probability that
+you're less than the mean, or
+
+231
+00:11:32,930 --> 00:11:37,230
+you're less than the mean plus
+0 standard deviations.
+
+232
+00:11:37,230 --> 00:11:41,880
+So this value right
+here is 0.50.
+
+233
+00:11:41,880 --> 00:11:45,720
+This whole area that I
+just showed you right
+
+234
+00:11:45,720 --> 00:11:50,460
+over there is 0.9641.
+
+235
+00:11:50,460 --> 00:11:57,150
+So this area right over here
+is going to be 0.9641 minus
+
+236
+00:11:57,150 --> 00:12:04,040
+0.5, which is going to
+be equal to 0.4641.
+
+237
+00:12:04,040 --> 00:12:08,770
+So this area right here, just
+what's in the magenta.
+
+238
+00:12:08,770 --> 00:12:15,670
+Just between there and
+there is 0.4641.
+
+239
+00:12:15,670 --> 00:12:16,940
+Let me make sure I
+got that right.
+
+240
+00:12:16,940 --> 00:12:18,730
+0.4641.
+
+241
+00:12:18,730 --> 00:12:20,915
+And if I want this entire
+area I just double it.
+
+242
+00:12:20,915 --> 00:12:23,230
+If I want to include this
+as well, I just
+
+243
+00:12:23,230 --> 00:12:24,240
+have to double that.
+
+244
+00:12:24,240 --> 00:12:27,490
+So let me get my calculator
+out, let me get the trusty
+
+245
+00:12:27,490 --> 00:12:28,110
+calculator.
+
+246
+00:12:28,110 --> 00:12:41,110
+So we're going to have 0.4641
+times 2 is equal to 0.9282.
+
+247
+00:12:41,110 --> 00:12:49,530
+So this whole area right over
+here is equal to 0.9282.
+
+248
+00:12:49,530 --> 00:12:50,870
+So we did something neat.
+
+249
+00:12:50,870 --> 00:12:55,880
+The probability that the--
+remember that well, we're
+
+250
+00:12:55,880 --> 00:12:56,570
+answering right here.
+
+251
+00:12:56,570 --> 00:12:59,470
+The probably that our sample
+mean just happens to be within
+
+252
+00:12:59,470 --> 00:13:02,620
+1.8 standard deviations--
+remember, that was 1.8
+
+253
+00:13:02,620 --> 00:13:05,500
+standard deviations of the
+sample means from the actual
+
+254
+00:13:05,500 --> 00:13:09,920
+mean is 0.9282, or there's
+a 92.82% chance.
+
+255
+00:13:09,920 --> 00:13:13,860
+But that's also saying that
+there's a 92.82% chance that
+
+256
+00:13:13,860 --> 00:13:19,230
+the actual mean is within 12 of
+our measured sample mean.
+
+257
+00:13:19,230 --> 00:13:20,900
+And that is neat.
+
+258
+00:13:20,900 --> 00:13:23,180
+Because for the first time
+ever-- we started with very
+
+259
+00:13:23,180 --> 00:13:24,020
+little information.
+
+260
+00:13:24,020 --> 00:13:28,700
+We just started with a little
+sample over here.
+
+261
+00:13:28,700 --> 00:13:30,800
+And we were able to get as much
+information about that
+
+262
+00:13:30,800 --> 00:13:31,930
+sample as possible.
+
+263
+00:13:31,930 --> 00:13:40,850
+But we can now say that there's
+a 92.82% chance that
+
+264
+00:13:40,850 --> 00:13:45,280
+the actual mean is within 12
+of the mean we measured.
+
+265
+00:13:45,280 --> 00:13:52,720
+That the actual mean is between
+100 and 124, or that
+
+266
+00:13:52,720 --> 00:13:57,260
+we're 92.82% confident that
+the actual mean is in the
+
+267
+00:13:57,260 --> 00:14:00,670
+range between 100 and
+124 grams. I think
+
+268
+00:14:00,670 --> 00:14:02,660
+that's pretty neat.
+
+269
+00:14:02,660 --> 00:14:02,667
+

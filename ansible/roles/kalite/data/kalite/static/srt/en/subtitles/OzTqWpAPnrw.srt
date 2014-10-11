@@ -1,0 +1,587 @@
+1
+00:00:00,540 --> 00:00:04,020
+We're on problem 116.
+
+2
+00:00:04,540 --> 00:00:12,610
+What is the value of a plus b squared? Statement 1.
+
+3
+00:00:13,810 --> 00:00:20,060
+Statement 1 tells us that a times b is equal to 0.
+
+4
+00:00:20,680 --> 00:00:24,740
+That, to me, seems fairly useless.
+
+5
+00:00:24,740 --> 00:00:26,840
+Let me see, what if we expand that out.
+
+6
+00:00:26,840 --> 00:00:33,090
+That's equal to to a squared plus 2ab plus b squared.
+
+7
+00:00:33,830 --> 00:00:37,030
+This is the same thing. I just expanded out a plus b squared.
+
+8
+00:00:37,220 --> 00:00:38,750
+And so they're giving us a piece.
+
+9
+00:00:38,750 --> 00:00:41,890
+They're telling us that this term right here is going to be
+
+10
+00:00:41,890 --> 00:00:43,580
+equal to 0. If ab is equal to 0,
+
+11
+00:00:43,580 --> 00:00:45,470
+this term right here is going to be equal to 0.
+
+12
+00:00:45,710 --> 00:00:48,000
+But we still don't know what a squared and b squared are.
+
+13
+00:00:48,100 --> 00:00:53,020
+So statement 1 by itself: not so useful. Statement 2.
+
+14
+00:00:54,020 --> 00:01:01,850
+a minus b squared is equal to 36. This is interesting.
+
+15
+00:01:02,000 --> 00:01:05,080
+So let's expand this out a little bit.
+
+16
+00:01:06,000 --> 00:01:08,660
+So this tells us-- so you might want to say,
+
+17
+00:01:08,660 --> 00:01:12,620
+oh that means that a minus b is plus or minus 6.
+
+18
+00:01:12,620 --> 00:01:15,020
+But actually I don't think that is going to help you as much.
+
+19
+00:01:15,020 --> 00:01:17,570
+Well actually, that could help you as well.
+
+20
+00:01:18,080 --> 00:01:20,590
+But the way I'm thinking about it is, let's expand this out.
+
+21
+00:01:20,590 --> 00:01:36,070
+We get a squared minus 2ab plus b squared is equal to 36.
+
+22
+00:01:37,070 --> 00:01:40,070
+So, by itself the statement isn't that useful.
+
+23
+00:01:40,070 --> 00:01:42,120
+I mean, even hereŁŹthe statement says that if you
+
+24
+00:01:42,120 --> 00:01:43,310
+were to take the square root of both sides,
+
+25
+00:01:43,310 --> 00:01:45,480
+it tells us that the difference between a and b
+
+26
+00:01:45,480 --> 00:01:48,010
+is either positive 6 or negative 6.
+
+27
+00:01:48,010 --> 00:01:49,100
+If you took the square root of both sides.
+
+28
+00:01:49,100 --> 00:01:50,840
+So statement 2 by itself is kind of useless.
+
+29
+00:01:50,840 --> 00:01:52,430
+But if you use them together,
+
+30
+00:01:52,860 --> 00:01:55,010
+you expand out statement 2 you get this.
+
+31
+00:01:55,010 --> 00:01:57,720
+Now if we also take in statement 1 and say, oh,
+
+32
+00:01:57,720 --> 00:02:00,400
+ab is equal to 0. So then that is equal to 0.
+
+33
+00:02:00,860 --> 00:02:06,060
+And we're left with a squared plus b squared is equal to 36.
+
+34
+00:02:06,860 --> 00:02:09,710
+And if a squared plus b squared is equal to 36, then we
+
+35
+00:02:09,710 --> 00:02:14,190
+know that this a squared plus b squared is also equal to 36.
+
+36
+00:02:14,860 --> 00:02:25,710
+So that tells us that a plus b squared is equal to 36 as well
+
+37
+00:02:25,710 --> 00:02:28,470
+So both statements together are sufficient.
+
+38
+00:02:28,520 --> 00:02:29,680
+And this is interesting.
+
+39
+00:02:29,680 --> 00:02:31,630
+Because if you think about it, it makes a lot of sense.
+
+40
+00:02:31,630 --> 00:02:34,050
+This statement tells us that the difference between a and
+
+41
+00:02:34,050 --> 00:02:37,250
+b-- and this is all a waste of time, but I just want to give
+
+42
+00:02:37,250 --> 00:02:40,500
+you some intuition-- this tells us that a minus b is
+
+43
+00:02:40,500 --> 00:02:43,030
+equal to plus or minus 6.
+
+44
+00:02:43,430 --> 00:02:45,730
+So it tells you that the difference between a and b is
+
+45
+00:02:45,730 --> 00:02:47,150
+either positive 6 or minus 6.
+
+46
+00:02:47,150 --> 00:02:49,660
+So one is 6 bigger than the other but we don't know which
+
+47
+00:02:49,660 --> 00:02:50,180
+way it goes.
+
+48
+00:02:50,920 --> 00:02:55,000
+This statement tells us that one of them is equal to 0.
+
+49
+00:02:55,000 --> 00:02:56,870
+Both of them aren't going to be equal to 0 because there's
+
+50
+00:02:56,870 --> 00:02:58,030
+a 6 difference.
+
+51
+00:02:58,030 --> 00:03:02,580
+So if one of them is equal to 0, then the other one is
+
+52
+00:03:02,580 --> 00:03:04,380
+either going to be plus or minus 6.
+
+53
+00:03:07,530 --> 00:03:11,160
+If we look at this statement, one of these numbers is 0.
+
+54
+00:03:11,160 --> 00:03:13,410
+The other one is plus or minus 6. But it doesn't matter.
+
+55
+00:03:13,550 --> 00:03:17,100
+If one is 0 and one is plus 6, and you square it, you get 36.
+
+56
+00:03:17,100 --> 00:03:20,540
+If one is 0 and the other is minus 6,you square it,you get 36
+
+57
+00:03:20,540 --> 00:03:22,260
+So anyway, just want to give you that little intuition.
+
+58
+00:03:22,260 --> 00:03:25,960
+But the correct answer is that both statements together are
+
+59
+00:03:25,960 --> 00:03:27,620
+necessary to solve this problem.
+
+60
+00:03:30,920 --> 00:03:36,320
+117. The more connections you can make while doing these math
+
+61
+00:03:36,320 --> 00:03:38,650
+problems, the better you'll be, really the better off
+
+62
+00:03:38,650 --> 00:03:43,600
+you'll be in life, I think. It will all start making sense.
+
+63
+00:03:43,900 --> 00:03:47,000
+All right, they've drawn this thing.
+
+64
+00:03:52,040 --> 00:03:55,730
+And then they draw this down like that.
+
+65
+00:03:59,080 --> 00:04:08,010
+Let's see. This is L, M, N and K.
+
+66
+00:04:09,550 --> 00:04:13,240
+In the figure above, what is the ratio of KN to MN?
+
+67
+00:04:13,240 --> 00:04:18,290
+So they want to know the ratio of this side, KN to MN.
+
+68
+00:04:25,010 --> 00:04:27,810
+Fair enough. OK.
+
+69
+00:04:27,810 --> 00:04:31,530
+Statement number 1 tells us the perimeter of rectangle
+
+70
+00:04:31,530 --> 00:04:44,450
+KLMN is 30 meters. So this is a rectangle, right?
+
+71
+00:04:44,450 --> 00:04:48,260
+So that tells us that-- let's put it in terms of the things
+
+72
+00:04:48,260 --> 00:04:52,520
+that we care about-- that 2 times MN-- because MN and KL
+
+73
+00:04:52,520 --> 00:04:54,220
+are going to be the same length, since it's a rectangle.
+
+74
+00:04:54,220 --> 00:05:01,740
+So this tells us that 2 times MN plus 2 times KN--
+
+75
+00:05:01,740 --> 00:05:04,480
+because KN and LM are the same length.
+
+76
+00:05:04,480 --> 00:05:06,740
+So let's just put it in the terms of the things we care about
+
+77
+00:05:07,070 --> 00:05:14,110
+Plus 2 times KN is equal to 30. That's the perimeter.
+
+78
+00:05:14,110 --> 00:05:16,470
+Twice this plus twice this. That's the perimeter.
+
+79
+00:05:16,470 --> 00:05:19,050
+You could say that plus that plus that plus that.
+
+80
+00:05:19,350 --> 00:05:24,260
+But this keeps it in terms of that. So I think we can solve.
+
+81
+00:05:24,260 --> 00:05:30,280
+Let's divide both sides by 2.
+
+82
+00:05:30,280 --> 00:05:41,720
+You get MN plus KN is equal to 30. And actually, yeah,
+
+83
+00:05:41,720 --> 00:05:44,410
+you still can't figure out the ratio between the two.
+
+84
+00:05:45,320 --> 00:05:48,580
+You just know that the sum of the two are equal to 30.
+
+85
+00:05:49,540 --> 00:05:51,000
+Let's look at statement 2.
+
+86
+00:05:52,360 --> 00:05:54,010
+You can't figure out the ratio from this.
+
+87
+00:05:54,010 --> 00:06:01,030
+Statement 2 tells us the three small rectangles have the same
+
+88
+00:06:01,030 --> 00:06:02,780
+dimensions.
+
+89
+00:06:07,170 --> 00:06:10,290
+This is interesting. So that's telling us.
+
+90
+00:06:10,590 --> 00:06:12,870
+Well that's interesting.
+
+91
+00:06:13,000 --> 00:06:18,970
+Because that tells us that this distance and this
+
+92
+00:06:18,970 --> 00:06:21,020
+distance have to be the same.
+
+93
+00:06:21,020 --> 00:06:27,360
+That tells us that-- and if this distance and this
+
+94
+00:06:27,360 --> 00:06:32,660
+distance are the same, then this distance right there is
+
+95
+00:06:32,660 --> 00:06:36,690
+twice this distance. How did I get that?
+
+96
+00:06:36,860 --> 00:06:40,080
+Well this distance is twice each of this these distances.
+
+97
+00:06:40,590 --> 00:06:46,010
+This longer side of this horizontal rectangle is twice this.
+
+98
+00:06:46,010 --> 00:06:48,060
+And this is the same thing as this.
+
+99
+00:06:48,570 --> 00:06:50,690
+So for all of these rectangles,
+
+100
+00:06:50,690 --> 00:06:55,390
+their ratio of their sides is 1:2. So
+
+101
+00:06:55,390 --> 00:07:00,040
+let's create a unit called the short side of this rectangle.
+
+102
+00:07:00,650 --> 00:07:02,740
+So how many units long is MN?
+
+103
+00:07:03,000 --> 00:07:07,090
+Well MN is going to be, this side right here is going to be
+
+104
+00:07:07,090 --> 00:07:12,880
+two of those units long. So, 1, 2, and then 3.
+
+105
+00:07:15,100 --> 00:07:17,840
+We figured that out because the long side of this is
+
+106
+00:07:17,840 --> 00:07:19,120
+twice as long as the short side.
+
+107
+00:07:19,120 --> 00:07:21,400
+So if we were measuring these in terms of the short sides of
+
+108
+00:07:21,400 --> 00:07:29,040
+the rectangle,MN is 3 of them and then KN is 2 of them. 1, 2.
+
+109
+00:07:29,040 --> 00:07:35,000
+So the ratio of KN to MN, it doesn't matter what units you
+
+110
+00:07:35,000 --> 00:07:37,000
+measure in, you just want to get the ratio.
+
+111
+00:07:37,000 --> 00:07:41,090
+So the ratio is going to be equal to 2 to 3.
+
+112
+00:07:42,000 --> 00:07:46,020
+So statement 2 alone is sufficient to solve this problem.
+
+113
+00:07:47,500 --> 00:07:48,800
+Next question.
+
+114
+00:07:50,620 --> 00:08:00,060
+118. If n is a positive integer, is 150 over n an integer?
+
+115
+00:08:00,060 --> 00:08:04,030
+So it's essentially asking us, is n divisible into 150?
+
+116
+00:08:04,650 --> 00:08:08,060
+That's the only way that 150 over n is going to be an integer
+
+117
+00:08:08,060 --> 00:08:14,020
+Statement number 1 tells us that n is less than 7.
+
+118
+00:08:14,020 --> 00:08:19,030
+Now if every number less than 7 is divisible into 150,
+
+119
+00:08:19,030 --> 00:08:23,080
+then we're all set. Because we know it's positive as well.
+
+120
+00:08:24,000 --> 00:08:31,030
+And 1 works. 2 works, 75. 3 works, 50.
+
+121
+00:08:31,730 --> 00:08:37,440
+4-- let's see 4 goes into 100 and then does it go into 50?
+
+122
+00:08:37,440 --> 00:08:40,580
+4 goes into 50-- no it doesn't go into 50.
+
+123
+00:08:40,580 --> 00:08:42,040
+So 4 does not work.
+
+124
+00:08:42,040 --> 00:08:46,090
+So just by telling us that n is less than 7 does not solve
+
+125
+00:08:46,090 --> 00:08:46,380
+the problem.
+
+126
+00:08:46,380 --> 00:08:50,340
+Because if n was 4, 4 does not go into 150 evenly.
+
+127
+00:08:50,340 --> 00:08:52,450
+It goes into it-- no, I'm not going to figure it out.
+
+128
+00:08:53,090 --> 00:09:01,000
+4 goes into it-- it goes in 25, 25 plus 12, 37.5 times.
+
+129
+00:09:01,000 --> 00:09:02,320
+So that doesn't do us any good.
+
+130
+00:09:02,400 --> 00:09:07,010
+Statement 1 by itself isn't that useful. Statement 2.
+
+131
+00:09:07,010 --> 00:09:12,040
+n is a prime number. n is prime.
+
+132
+00:09:12,640 --> 00:09:15,180
+So this statement by itself is not useful.
+
+133
+00:09:15,180 --> 00:09:18,780
+Because, I mean n could be a prime number larger than 150.
+
+134
+00:09:19,090 --> 00:09:23,060
+So that by itself doesn't tell us that we definitely can get
+
+135
+00:09:23,060 --> 00:09:26,810
+an integer. And n could easily be 1 or 3, which would allow it.
+
+136
+00:09:26,810 --> 00:09:28,290
+So n doesn't tell you one way or
+
+137
+00:09:28,290 --> 00:09:30,100
+another whether this is an integer.
+
+138
+00:09:30,340 --> 00:09:32,920
+But if you combine the two statements, if you say that n
+
+139
+00:09:32,920 --> 00:09:35,990
+is a prime number that has to be less than 7,
+
+140
+00:09:35,990 --> 00:09:40,010
+then we can take 4 out of the picture. Because 4 isn't prime.
+
+141
+00:09:40,010 --> 00:09:44,700
+And then you put 5 there. 5 definitely does go into 150.
+
+142
+00:09:45,090 --> 00:09:49,830
+And then 6, 6 does go into 150. It goes into 120.
+
+143
+00:09:49,830 --> 00:09:52,300
+And then 30 leftover, so 6 goes one twice.
+
+144
+00:09:52,300 --> 00:09:57,530
+So all of the prime numbers less than 7are divisible into 150
+
+145
+00:09:57,530 --> 00:10:00,650
+So both statements combined are sufficient
+
+146
+00:10:00,650 --> 00:10:02,000
+to answer this question.
+
+147
+00:10:02,000 --> 00:10:03,080
+See you in the next video.

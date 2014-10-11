@@ -1,0 +1,175 @@
+1
+00:00:00,055 --> 00:00:09,762
+Let z1 and z2 be two distinct complex numbers, and let z = (1-t) z1 + t z2, for some real number with
+
+2
+00:00:09,762 --> 00:00:18,581
+t being between 0 and 1. If Arg (w) denotes the principal argument of a nonzero complex number w, then you know
+
+3
+00:00:18,581 --> 00:00:24,593
+the argument is the angle of, kinda, the position vector specifiying the complex number in the complex plane,
+
+4
+00:00:24,620 --> 00:00:32,751
+and the real axis. Let me just draw that. So if we do an Argand diagram. This is the imaginary axis,
+
+5
+00:00:32,751 --> 00:00:41,360
+and this is the real axis. If this our complex number, if that is z, its argument, the argument of z is going to be
+
+6
+00:00:41,360 --> 00:00:50,777
+this angle right over here. So phi = Arg (z). That's all they're telling us in the second part.
+
+7
+00:00:50,777 --> 00:00:56,944
+Now, let's go through each of these and see (inaudible) are true, and just to be clear
+
+8
+00:00:56,944 --> 00:00:58,929
+this is one of those problems where more than one of these choices might be correct, so lets see if they are true.
+
+9
+00:00:58,929 --> 00:01:13,660
+So let's first figure out what |z-z1| is. So |z-z1|, is going to be, so let me write. This is going to be, lets do the z part
+
+10
+00:01:13,660 --> 00:01:21,528
+first. Let me write in the same colors. So if I would just focus on the z, first, z is this thing up here
+
+11
+00:01:21,528 --> 00:01:37,626
+and let me distribute the z1. So it's z1 - t z1 + t z2, and from that we want to subtract z1.
+
+12
+00:01:37,626 --> 00:01:49,576
+So from that we want to subtract z1, so minus z1. And that and that cancel out, and let's see we have, we can
+
+13
+00:01:49,576 --> 00:02:12,527
+factor out a t over here, so this is going to be equal to, |t (z2 - z1)|. So that is |z - z1|, this first term over here.
+
+14
+00:02:12,527 --> 00:02:26,511
+Let's figure out, |z - z2|. I'm going to color code it. |z - z2| is equal to, well z is just this thing up here
+
+15
+00:02:26,511 --> 00:02:38,360
+let me just write it out, so it is (1-t) z1 + t z2, that's z. And from that we want to subtract z2. So
+
+16
+00:02:38,360 --> 00:02:49,427
+|(1-t) z1 + t z2 - z2|. So, what can we do over here? We can take a t-1 out from over here, we can factor out
+
+17
+00:02:49,427 --> 00:03:05,095
+the z2 out of these two terms. So this is going to be equal to the magnitude of (1-t) z1, thats this term right over here,
+
+18
+00:03:05,095 --> 00:03:22,143
+plus, let me do it in another color, plus (t-1) z2. The magnitude of this part over here
+
+19
+00:03:22,143 --> 00:03:27,893
+is this thing over there. Now let's see what happens when we add this thing to this thing.
+
+20
+00:03:27,893 --> 00:03:32,177
+That's what choice A is doing, we're adding this thing to this thing. Let's see if we can simplify it.
+
+21
+00:03:32,177 --> 00:03:48,844
+So, this becomes, |t (z2 - z1)| plus, I'll do the whole thing here in magenta, plus this thing over here.
+
+22
+00:03:48,844 --> 00:03:54,246
+And this thing over here, actually before I even write it out, how can we simplify that?
+
+23
+00:03:54,246 --> 00:03:59,545
+Well I have a 1-t and a t-1, well I'll just write it out here. But I'm going to change it up a little bit.
+
+24
+00:03:59,545 --> 00:04:11,076
+So this is equal to, the magnitude of (1-t) z1, and so that I have a 1-t here, I'm just going to put a negative out front.
+
+25
+00:04:11,076 --> 00:04:20,077
+So -(1-t), I just swap 'em, -(1-t) is the same thing as positive (t-1), z2.
+
+26
+00:04:20,077 --> 00:04:25,526
+And then this thing over here, since I have the (1-t) out there, this becomes the magnitude of,
+
+27
+00:04:25,526 --> 00:04:39,511
+I'm just factoring out the (1-t), |(1-t)(z1-z2)|. So we have this thing, let me copy and paste it,
+
+28
+00:04:39,511 --> 00:04:48,242
+so, copy and paste, we have this thing plus this thing. This is what this expression A has simplified to.
+
+29
+00:04:48,242 --> 00:04:59,326
+Now let's see if we can simplify that even more! So t is just a scalar, and t is between 0 and 1.
+
+30
+00:04:59,326 --> 00:05:05,177
+They told us that over here, t is between 0 and 1. So this is positive, this right here is a positive value,
+
+31
+00:05:05,177 --> 00:05:15,626
+and then this right here is going to be a positive value. t is greater than 0, and it is less than 1.
+
+32
+00:05:15,626 --> 00:05:20,293
+So this is also going to be a positive value. And these are just scalars. So this is going to be the same thing,
+
+33
+00:05:20,293 --> 00:05:26,293
+these are just scaling the magnitude. So this is going to be the same thing, these are positive values. So
+
+34
+00:05:26,293 --> 00:05:38,511
+this is going to be, actually let me not skip a step. This is going to be the same thing as |t| |z2-z1|,
+
+35
+00:05:38,511 --> 00:06:00,576
+'cause this is just scaling it, plus the |1-t||z1-z2|. Now let me be clear, |z1-z2| is going to be equal to |z2-z1|.
+
+36
+00:06:00,576 --> 00:06:06,293
+These vectors are just pointing in different directions, or these complex numbers, one is just the negative of the other
+
+37
+00:06:06,293 --> 00:06:11,827
+but their absolute values, or their magnitudes, are going to be the same. So let me write |z2-z1| there.
+
+38
+00:06:11,827 --> 00:06:23,544
+The reason why I'm doing it, is so I get the same thing here, and I can factor it out. So |z2-z1|, it's the same thing as |z1-z2|
+
+39
+00:06:23,544 --> 00:06:28,226
+'cause we're not, it's just going in the other direction. Now, what can we do here?
+
+40
+00:06:28,226 --> 00:06:37,610
+Well, | t |, remember t is positive, so this is just going to be equal to t. |1-t|, once again that's positive, so that's
+
+41
+00:06:37,610 --> 00:06:57,938
+just going to be 1-t. So we can factor, this business out, so we're going to get t + (1-t), times |z2-z1|.
+
+42
+00:06:57,999 --> 00:07:06,326
+Now the t's cancel out here, we just got a 1 out front, so this is just equal to |z2-z1|. So
+
+43
+00:07:06,326 --> 00:07:13,960
+we see that choice A does work. This plus this, does indeed equal that. I'm going to leave you there,
+
+44
+00:07:13,960 --> 00:07:17,960
+and in the next video we're going to try out some of these other possibilities, to see if they might also be true.

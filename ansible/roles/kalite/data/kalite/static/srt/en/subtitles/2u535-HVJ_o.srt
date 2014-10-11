@@ -1,0 +1,387 @@
+1
+00:00:03,135 --> 00:00:06,734
+We define the equation of the plane containing the straight line that goes the equation, right over here
+
+2
+00:00:06,734 --> 00:00:16,000
+and this plane has to be perpendicular to the plane containing the straight lines x/3 = y/4 = z/2 and
+
+3
+00:00:16,000 --> 00:00:21,223
+also it has the line x/4 = y/2 = z/3.
+
+4
+00:00:21,223 --> 00:00:30,667
+Now just to visualize this properly, let me draw the planes. So the first plane in question that we
+
+5
+00:00:30,667 --> 00:00:37,407
+defined the equation of, let me draw it, let me draw it like this.
+
+6
+00:00:37,407 --> 00:00:42,133
+I am going to try and do this problem using vector notations
+
+7
+00:00:42,133 --> 00:00:45,467
+because it is easier in my mind to manipulate vectors in a way that you can find
+
+8
+00:00:45,467 --> 00:00:49,400
+perpendicular vectors and equations of planes...There's other ways that you can do this problem.
+
+9
+00:00:49,400 --> 00:00:52,467
+SO we define the equation of this plane right here.
+
+10
+00:00:52,467 --> 00:01:01,333
+Now we know this plane contains this line and this line, if we look over here, contains this point (0,0,0)
+
+11
+00:01:01,333 --> 00:01:09,219
+If x, y and z all equal to 0 then all sides of this equation are zero. So it contains
+
+12
+00:01:09,219 --> 00:01:15,813
+the point (0,0,0) or you can view it as if it contains the position vector (0,0,0)
+
+13
+00:01:15,813 --> 00:01:23,011
+and it also contains the point (2,3,4) because if x=2, y=3 and z=4
+
+14
+00:01:23,011 --> 00:01:24,800
+then all of these are going to be equal to 1.
+
+15
+00:01:24,800 --> 00:01:34,482
+So it also contains the point where the position vector, we can say, (2,3,4)
+
+16
+00:01:34,482 --> 00:01:40,067
+So if we wanted to draw this line, 2 points specify the line so this line would look
+
+17
+00:01:40,067 --> 00:01:48,298
+like that. But if wanted to look at a vector that this plane contains, it would be the vector
+
+18
+00:01:48,298 --> 00:01:55,728
+that goes from (0,0,0,) to (2,3,4) which really is the position vector (2,3,4)
+
+19
+00:01:55,728 --> 00:01:59,333
+and I am gonna write it in the (i,j,k) notation just to make it clear that this is a vector.
+
+20
+00:01:59,333 --> 00:02:13,143
+So this vector that lies in the plane in question is the vector 2i +3j + 4k, i just wrote it
+
+21
+00:02:13,143 --> 00:02:17,867
+in the unit vector notation and will call this the vector a. Vector a is equal to that
+
+22
+00:02:17,867 --> 00:02:24,219
+and I will write a over here. Now we need to figure out the equation of this line
+
+23
+00:02:24,219 --> 00:02:33,554
+and the best way to do it, is if I can find another vector in this plane
+
+24
+00:02:33,554 --> 00:02:39,312
+then I can find a normal vector in this plane and then using a normal vector
+
+25
+00:02:39,312 --> 00:02:42,400
+and some arbitrary other vector in this plane, I can then figure out the equation of this line
+
+26
+00:02:42,400 --> 00:02:46,800
+because the normal vector dotted that arbitrary other vector has to be equal to zero.
+
+27
+00:02:46,800 --> 00:02:53,267
+Now if none of that makes sense, maybe as we go through this problem, it will make more sense.
+
+28
+00:02:53,267 --> 00:03:01,557
+Now what I am gonna do is use these other vectors that are implicitly defined by these lines to
+
+29
+00:03:01,557 --> 00:03:07,733
+figure out another vector in this plane over here. So let me draw
+
+30
+00:03:07,733 --> 00:03:13,733
+what I am talking about. So let me draw this other plane and I will draw it in white. And this other
+
+31
+00:03:13,733 --> 00:03:18,867
+plane also contains (0,0,0). Actually both of these lines contain (0,0,0).
+
+32
+00:03:18,867 --> 00:03:26,611
+So let me draw it over here. I think what I just said, if I do step by step
+
+33
+00:03:26,611 --> 00:03:33,229
+it will make a lot more sense. So the other plane, that one comes vertically over this plane and it
+
+34
+00:03:33,229 --> 00:03:40,334
+goes vertically below as well. And we see here that the plane that contains these two lines
+
+35
+00:03:40,334 --> 00:03:47,067
+is perpendicular to this, they are perpendicular to each other. Now this blue line over here contains
+
+36
+00:03:47,067 --> 00:03:53,467
+the point (0,0,0) and the point (3,4,2), same logic that we took to get to this point over here.
+
+37
+00:03:53,467 --> 00:03:57,800
+If this is (3,4,2) they all equal 1, the equality holds.
+
+38
+00:03:57,800 --> 00:04:03,733
+So let me just draw some arbitrary place, so (3,4,2). Now let me be clear,
+
+39
+00:04:03,733 --> 00:04:09,533
+we havent even defined the coordinate axes, we do not really know what angle we are looking at it from,
+
+40
+00:04:09,533 --> 00:04:11,600
+this is only for visualization purposes. So this line right over here,
+
+41
+00:04:11,600 --> 00:04:16,400
+I can draw will look something like this. It would look something like that.
+
+42
+00:04:16,400 --> 00:04:21,410
+It sits on that white plane. Let me do the same thing for this magenta line.
+
+43
+00:04:21,410 --> 00:04:28,400
+The magenta line also contains the point (0,0,0) but it also contains the point (4,2,3)
+
+44
+00:04:28,400 --> 00:04:30,071
+SO let me just draw it over here.
+
+45
+00:04:30,071 --> 00:04:36,550
+SO, (4,2,3), so that's the magenta line.
+
+46
+00:04:36,550 --> 00:04:44,133
+You wouldn't even see it if this was transparent, it would just keep going down like that.
+
+47
+00:04:44,133 --> 00:04:47,200
+Now, I am gonna try to explain how I am gonna tackle this problem again.
+
+48
+00:04:47,200 --> 00:04:53,533
+I am going to use vectors to find, that are implicitly defined by this blue line and this magenta line.
+
+49
+00:04:53,533 --> 00:04:59,200
+I am gonna take a cross product of those two vectors to find a vector that is normal to this entire
+
+50
+00:04:59,200 --> 00:05:04,600
+white plane and that vector has to sit in this perpendicular plane, and then I can
+
+51
+00:05:04,600 --> 00:05:10,637
+use that vector and vector a to figure out a normal vector for this plane and then I will be able to
+
+52
+00:05:10,637 --> 00:05:13,144
+figure out the equation of this plane.
+
+53
+00:05:13,144 --> 00:05:16,867
+So let me just do it. So what's a vector?
+
+54
+00:05:16,867 --> 00:05:19,808
+What are the two vectors that sit in this white plane? Well the point (0,0,0)
+
+55
+00:05:19,808 --> 00:05:24,545
+the position vector (0,0,0) and the position vector (4,2,3) is in this plane
+
+56
+00:05:24,545 --> 00:05:41,542
+so the vector p = 4i + 2j + 3k is also in this white plane.
+
+57
+00:05:41,542 --> 00:05:48,648
+I am really just subtracting this position vector from that position vector to get this
+
+58
+00:05:48,648 --> 00:05:51,200
+position vector, which clearly sits in this plane.
+
+59
+00:05:51,200 --> 00:05:55,067
+This vector starts from origin, goes to (4,2,3), this plane contains the origin
+
+60
+00:05:55,067 --> 00:06:02,138
+is clearly sitting in this plane, and by that same logic, I can figure out a vector, actually the position
+
+61
+00:06:02,138 --> 00:06:13,733
+vector itself that sits on this plane. I will call that c= 3i + 4j +2k. The
+
+62
+00:06:13,733 --> 00:06:15,815
+fact that everything is at the origin kinda simplifies everything.
+
+63
+00:06:15,815 --> 00:06:18,733
+The position vectors themselves sit on the plane.
+
+64
+00:06:18,733 --> 00:06:24,197
+If this wasnt sitting on the origin, we wouldn't have been able to do that.
+
+65
+00:06:24,197 --> 00:06:26,933
+We would have had to subtract between these two vectors or between two other points
+
+66
+00:06:26,933 --> 00:06:32,719
+to actually get vectors on this plane. But with that out of the way, I could take the cross
+
+67
+00:06:32,719 --> 00:06:47,557
+product of b and c and that will give us some vector that is perpendicular to both b and c
+
+68
+00:06:47,557 --> 00:06:52,333
+which means it is perpendicular or it is normal to this entire white plane
+
+69
+00:06:52,333 --> 00:07:00,560
+which means it must sit in this yellow plane. So I am gonna find a normal vector in the yellow plane,
+
+70
+00:07:00,560 --> 00:07:02,333
+just like that.
+
+71
+00:07:02,333 --> 00:07:11,067
+Lets call that vector d. SO the cross product of b and c is just, this is how I remember it.
+
+72
+00:07:11,067 --> 00:07:18,200
+the determinant, you take i, j, k, it has been discussed in a lot more depth in linear algebra.
+
+73
+00:07:18,200 --> 00:07:27,216
+playlist. The determinant of that. The next row is the determinant of vector b so it 4, 2 and 3. And
+
+74
+00:07:27,216 --> 00:07:33,555
+then the next row is that of vector c, so it is 3,4 and 2
+
+75
+00:07:33,555 --> 00:07:42,936
+and so this is going to be equal to, let's think about that.
+
+76
+00:07:42,936 --> 00:07:49,043
+So for i, cross out that column and that row. SO its 2 times 2 minus 3 times 4
+
+77
+00:07:49,043 --> 00:08:00,200
+SO that's 4 minus 12. So its -8i minus, remember we have to swap signs, plus-minus-plus
+
+78
+00:08:00,200 --> 00:08:01,884
+when you are taking the determinant.
+
+79
+00:08:01,884 --> 00:08:11,467
+So you ignore the j, so its 4 times 2 = 8 minus 3 times 3 which is -1.
+
+80
+00:08:11,467 --> 00:08:21,333
+So this would be a -1 here but there is already a negative here so its a +1j.
+
+81
+00:08:21,333 --> 00:08:24,933
+And then finally the k, you cross out that column.
+
+82
+00:08:24,933 --> 00:08:39,067
+4 times 4 is 16. 16 -6 =10. So plus 10. Let me be sure I got that correct.
+
+83
+00:08:39,067 --> 00:08:46,814
+So the first one, I always have to make sure, so i I got yup, 4-12 = -8 and negative j ...
+
+84
+00:08:46,814 --> 00:08:53,548
+4 times 2 is 8 minus 9 = -1 but j has a negative so that's right.
+
+85
+00:08:53,548 --> 00:09:04,333
+And then k, 4 times 4 is 16. 16 -6 = 10. So that looks right. So plus...plus 10k.
+
+86
+00:09:04,333 --> 00:09:07,294
+So this vector right here is the vector d.
+
+87
+00:09:07,294 --> 00:09:14,144
+I just figured it out. Now if we take the cross product of d with vector a
+
+88
+00:09:14,144 --> 00:09:19,647
+the vector that was....you can kinda view it as lying along this line over here, then we will
+
+89
+00:09:19,647 --> 00:09:23,333
+get a vector that is normal to this plane.
+
+90
+00:09:23,333 --> 00:09:33,301
+We can call that vector n, for normal, that is normal to this yellow plane
+
+91
+00:09:33,301 --> 00:09:36,064
+that will actually sit on this white plane.
+
+92
+00:09:36,064 --> 00:09:39,800
+So lets figure it out, we will see in a few steps, probably in the next video why is that
+
+93
+00:09:39,800 --> 00:09:48,649
+actually useful. So lets take, lets find what is d cross a...
+
+94
+00:09:48,649 --> 00:10:06,800
+this is equal to our normal vector which is = same thing. i..j...k. We are gonna take d
+
+95
+00:10:06,800 --> 00:10:17,133
+which is -8, 1, 10 and take the cross of that and vector a which is 2,3,4.
+
+96
+00:10:17,133 --> 00:10:23,967
+and we will get, actually, I will continue this in the next video so that I do not make these videos
+
+97
+00:10:23,967 --> 99:59:59,999
+too long.

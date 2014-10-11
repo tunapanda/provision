@@ -1,0 +1,655 @@
+1
+00:00:00,000 --> 00:00:01,740
+Say you're me and you're in math class
+
+2
+00:00:01,740 --> 00:00:03,608
+and you're doodling a flowery petaly things,
+
+3
+00:00:03,608 --> 00:00:05,907
+if you want something with lots of overlapping petals
+
+4
+00:00:05,907 --> 00:00:07,641
+you're probably following a loose sort of rule
+
+5
+00:00:07,641 --> 00:00:09,293
+that goes something like this:
+
+6
+00:00:09,293 --> 00:00:12,358
+Add new petals where there are gaps between old petals.
+
+7
+00:00:12,358 --> 00:00:14,459
+You can try doing this precisely starting with
+
+8
+00:00:14,459 --> 00:00:16,858
+some number of petals, say 5,
+
+9
+00:00:16,858 --> 00:00:18,552
+then add another layer in between.
+
+10
+00:00:18,552 --> 00:00:20,757
+But in the next layer you have to add 10,
+
+11
+00:00:20,757 --> 00:00:21,925
+and the next has 20.
+
+12
+00:00:22,025 --> 00:00:23,575
+The inconvenient part of this is that
+
+13
+00:00:23,575 --> 00:00:25,642
+you have to finish a layer before everything is even.
+
+14
+00:00:25,642 --> 00:00:28,329
+Ideally you'd have a rule that just let's you add petals
+
+15
+00:00:28,329 --> 00:00:29,663
+until you get bored.
+
+16
+00:00:29,663 --> 00:00:31,194
+Now imagine you're a plant and
+
+17
+00:00:31,194 --> 00:00:33,334
+you want to grow in a way that spreads out your leaves
+
+18
+00:00:33,334 --> 00:00:35,784
+to catch the most possible sunlight.
+
+19
+00:00:35,784 --> 00:00:38,218
+Unfortunately, and I hope I'm not presuming too much
+
+20
+00:00:38,288 --> 00:00:41,753
+in thinking that, as a plant, you're not very smart.
+
+21
+00:00:41,753 --> 00:00:43,923
+You don't know how to add numbers to create a series,
+
+22
+00:00:43,923 --> 00:00:45,421
+you don't know geometry and proportions,
+
+23
+00:00:45,421 --> 00:00:48,888
+and can't draw spirals or rectangles, or slug cats,
+
+24
+00:00:48,888 --> 00:00:51,838
+but maybe you could follow one simple rule.
+
+25
+00:00:51,838 --> 00:00:53,269
+Botanists have noticed that plants
+
+26
+00:00:53,269 --> 00:00:55,301
+seem to be fairly consistent, when it comes to
+
+27
+00:00:55,301 --> 00:00:57,653
+the angle between one leaf and the next.
+
+28
+00:00:57,653 --> 00:00:59,231
+So let's see what you could do with that.
+
+29
+00:00:59,231 --> 00:01:00,595
+So you grow your first leaf
+
+30
+00:01:00,595 --> 00:01:01,788
+and if you didn't change angle at all,
+
+31
+00:01:01,788 --> 00:01:04,176
+then the next leaf you grow would directly above it.
+
+32
+00:01:04,207 --> 00:01:05,190
+So that's no good because
+
+33
+00:01:05,190 --> 00:01:06,655
+it blocks out all the light, or something.
+
+34
+00:01:06,655 --> 00:01:07,955
+You can go 180 degrees,
+
+35
+00:01:07,955 --> 00:01:10,870
+to have the next leaf directly opposite, which seems ideal.
+
+36
+00:01:10,870 --> 00:01:12,504
+Only once you go 180 again
+
+37
+00:01:12,504 --> 00:01:14,488
+the third leaf is right over the first.
+
+38
+00:01:14,488 --> 00:01:16,287
+In fact, any fraction of a circle,
+
+39
+00:01:16,287 --> 00:01:18,054
+with a whole number as a base, is going to have
+
+40
+00:01:18,054 --> 00:01:20,483
+complete overlap, after that number of turns.
+
+41
+00:01:20,483 --> 00:01:22,521
+And unlike when you're doodling, as a plant
+
+42
+00:01:22,521 --> 00:01:24,235
+you're not smart enough to see
+
+43
+00:01:24,235 --> 00:01:25,289
+you've gone all the way around and
+
+44
+00:01:25,289 --> 00:01:27,588
+should now switch to adding things in between.
+
+45
+00:01:27,588 --> 00:01:30,922
+If you try and postpone the overlap by making the fraction really small
+
+46
+00:01:30,938 --> 00:01:33,358
+you just get a ton of overlapping in the beginning
+
+47
+00:01:33,358 --> 00:01:36,316
+and waste all this space, which is completely disastrous.
+
+48
+00:01:36,316 --> 00:01:38,239
+Or maybe other fractions are good,
+
+49
+00:01:38,239 --> 00:01:40,267
+the kind that positions leaves in a starlike pattern.
+
+50
+00:01:40,267 --> 00:01:41,969
+It'll be a while before it overlaps,
+
+51
+00:01:41,969 --> 00:01:45,172
+and the leafs will be more evenly spaced in the mean time.
+
+52
+00:01:45,172 --> 00:01:48,747
+But what if there're a fraction that never completely overlapped?
+
+53
+00:01:48,747 --> 00:01:51,629
+For any rational fraction, eventually the star will close,
+
+54
+00:01:51,629 --> 00:01:53,674
+but what if you use an irrational number?
+
+55
+00:01:53,674 --> 00:01:56,834
+The kind of number that can't be expressed as whole numbered ratio.
+
+56
+00:01:56,834 --> 00:01:59,528
+What if you used the most irrational number?
+
+57
+00:01:59,528 --> 00:02:01,943
+If you think it's weird to say that one irrational number
+
+58
+00:02:01,943 --> 00:02:03,770
+is more irrational than another...
+
+59
+00:02:03,770 --> 00:02:05,612
+Well you might wanna become a number theorist.
+
+60
+00:02:05,612 --> 00:02:07,461
+If you're a number theorist, you might tell us that
+
+61
+00:02:07,461 --> 00:02:10,311
+phi is the most irrational number, or you might say
+
+62
+00:02:10,311 --> 00:02:13,313
+that's like saying of all the integers, 1 is the integeriest,
+
+63
+00:02:13,313 --> 00:02:14,958
+or you might disagree completely.
+
+64
+00:02:14,958 --> 00:02:16,380
+But anyway, phi ...
+
+65
+00:02:16,380 --> 00:02:18,161
+is more than one, but less than two;
+
+66
+00:02:18,161 --> 00:02:20,861
+more than 3/2, less than 5/3;
+
+67
+00:02:20,861 --> 00:02:24,262
+greater than 8/5, but 13/8 is too big.
+
+68
+00:02:24,262 --> 00:02:26,513
+21/13 just a little to small and
+
+69
+00:02:26,513 --> 00:02:30,117
+34/21 is even close than too big and so on.
+
+70
+00:02:30,117 --> 00:02:34,059
+Each pair of adjacent Fibonacci numbers creates a ratio
+
+71
+00:02:34,059 --> 00:02:37,295
+that gets closer and closer to phi as numbers increase.
+
+72
+00:02:37,295 --> 00:02:40,210
+Those are the same numbers on the sides of these squares.
+
+73
+00:02:40,210 --> 00:02:42,425
+Now stop being a number theorist and
+
+74
+00:02:42,425 --> 00:02:43,795
+start being a plant again.
+
+75
+00:02:43,795 --> 00:02:45,467
+You put your first leaf somewhere
+
+76
+00:02:45,467 --> 00:02:49,181
+and the second leaf at an angle that is 1 phi-th of a circle,
+
+77
+00:02:49,181 --> 00:02:51,294
+which, depending on whether you going one way or the other,
+
+78
+00:02:51,294 --> 00:02:57,008
+could be about 225,5 degrees or about 137,5. Great!
+
+79
+00:02:57,008 --> 00:02:59,121
+Your second leaf is pretty far from the first,
+
+80
+00:02:59,121 --> 00:03:00,491
+gets lots of space and sun.
+
+81
+00:03:00,491 --> 00:03:03,323
+And now let's add the next one of the phi-th of a circle away,
+
+82
+00:03:03,323 --> 00:03:07,036
+and again, and again... You can see how new leaves tend to
+
+83
+00:03:07,036 --> 00:03:09,798
+pop up in the spaces left between old leaves,
+
+84
+00:03:09,798 --> 00:03:11,525
+but it never quite fills things evenly,
+
+85
+00:03:11,525 --> 00:03:13,610
+so there's always room for one more leaf,
+
+86
+00:03:13,610 --> 00:03:15,607
+without having to do a whole new layer.
+
+87
+00:03:15,607 --> 00:03:18,813
+It's very practical, and as a plant you probably like this.
+
+88
+00:03:18,813 --> 00:03:21,006
+It would also be a good way to give lots of room
+
+89
+00:03:21,006 --> 00:03:22,875
+to see pods and petals and stuff.
+
+90
+00:03:22,875 --> 00:03:24,705
+As a plant that follows this scheme,
+
+91
+00:03:24,705 --> 00:03:26,273
+you'd be at an advantage.
+
+92
+00:03:26,273 --> 00:03:27,937
+Where do the spirals come in?
+
+93
+00:03:27,937 --> 00:03:30,315
+Let's doodle a pinecone using the same method.
+
+94
+00:03:30,315 --> 00:03:32,591
+By the way, you can make your own phi angle-a-tron
+
+95
+00:03:32,591 --> 00:03:34,886
+by dog-earing a corner of your notebook.
+
+96
+00:03:34,886 --> 00:03:36,837
+If you folded is so the edges are on a line,
+
+97
+00:03:36,837 --> 00:03:40,552
+you have 45 degrees plus 90, which is 135,
+
+98
+00:03:40,552 --> 00:03:42,656
+pretty close to 137,5.
+
+99
+00:03:42,656 --> 00:03:45,447
+If you're careful you can slip in a couple more degrees.
+
+100
+00:03:45,447 --> 00:03:47,948
+Detach your angle-a-tron and you're good to go.
+
+101
+00:03:47,948 --> 00:03:50,611
+Add each new pineconey thing a phi-angle around,
+
+102
+00:03:50,611 --> 00:03:53,062
+and make them a little farther out each time,
+
+103
+00:03:53,062 --> 00:03:54,245
+which you can keep track of
+
+104
+00:03:54,245 --> 00:03:56,381
+by marking the distance on your angle-a-tron.
+
+105
+00:03:56,381 --> 00:03:59,051
+Check it out, the spirals form by themselves.
+
+106
+00:03:59,051 --> 00:04:02,635
+And if you count the number of arms, look, it's 5 and 8.
+
+107
+00:04:02,635 --> 00:04:04,501
+If you're wondering why spirals would form
+
+108
+00:04:04,501 --> 00:04:06,979
+and why always with (phi)bonacci numbers,
+
+109
+00:04:06,979 --> 00:04:08,989
+you could morph back into a number theorist
+
+110
+00:04:08,989 --> 00:04:10,127
+or geometer, or something.
+
+111
+00:04:10,127 --> 00:04:11,595
+Here's just a little bit of intuition:
+
+112
+00:04:11,595 --> 00:04:13,419
+One simple way to doodle a flowers is
+
+113
+00:04:13,419 --> 00:04:15,092
+to start with a certain number of petals, say 5.
+
+114
+00:04:15,092 --> 00:04:16,997
+And when you go back around, add the next layer
+
+115
+00:04:16,997 --> 00:04:18,930
+close to the first but bigger.
+
+116
+00:04:18,930 --> 00:04:22,080
+Each layer adds 5 new petals and the 5 arms spiral out.
+
+117
+00:04:22,080 --> 00:04:23,539
+Looks pretty spiraly to me.
+
+118
+00:04:23,539 --> 00:04:26,012
+Now go back to phi. You put out 3 petals
+
+119
+00:04:26,012 --> 00:04:27,334
+before you go back around.
+
+120
+00:04:27,334 --> 00:04:29,237
+And if I make them really wide
+
+121
+00:04:29,237 --> 00:04:30,917
+the next lap adds 3 petals that
+
+122
+00:04:30,917 --> 00:04:33,503
+overlap a bunch with the first, and so on...
+
+123
+00:04:33,503 --> 00:04:35,596
+If I started with skinnier petals though
+
+124
+00:04:35,596 --> 00:04:37,421
+the second time you go around
+
+125
+00:04:37,421 --> 00:04:38,804
+it doesn't quite overlap so much and
+
+126
+00:04:38,804 --> 00:04:41,145
+it takes 8 petals before it goes around twice
+
+127
+00:04:41,145 --> 00:04:43,047
+and they overlap enough for you to see the spirals.
+
+128
+00:04:43,047 --> 00:04:45,762
+So this time I get 8 and 13.
+
+129
+00:04:45,762 --> 00:04:46,930
+I mean none of the spirals
+
+130
+00:04:46,930 --> 00:04:49,346
+are actually physically there, on any of these plants.
+
+131
+00:04:49,346 --> 00:04:51,071
+It's just the plant bits are close enough
+
+132
+00:04:51,071 --> 00:04:52,697
+that you can see the pattern.
+
+133
+00:04:52,697 --> 00:04:53,819
+So all a plant needs to do
+
+134
+00:04:53,819 --> 00:04:55,929
+to get awesome Fibonacci numbers of spirals
+
+135
+00:04:55,929 --> 00:05:00,346
+is add new bits at a 137.5 degree angles.
+
+136
+00:05:00,346 --> 00:05:03,111
+The rest takes care of itself.
+
+137
+00:05:03,111 --> 00:05:05,382
+That the Fibonacci series is in so many things
+
+138
+00:05:05,382 --> 00:05:07,179
+really says less about those things
+
+139
+00:05:07,179 --> 00:05:08,611
+and more about mathematics.
+
+140
+00:05:08,611 --> 00:05:10,313
+I mean, that's what mathematics is all about:
+
+141
+00:05:10,313 --> 00:05:12,012
+simple rules, complex consequences.
+
+142
+00:05:12,012 --> 00:05:14,578
+A process so easy that even a plant can do it,
+
+143
+00:05:14,578 --> 00:05:18,013
+can turn it into these amazing structures all around us.
+
+144
+00:05:18,020 --> 00:05:20,267
+Just like a few simple postulates can give us
+
+145
+00:05:20,267 --> 00:05:22,362
+an incredibly powerful geometry.
+
+146
+00:05:22,362 --> 00:05:24,362
+I mean that's all assuming that a plant can do it!
+
+147
+00:05:24,362 --> 00:05:26,261
+But measuring the angles between plant bits
+
+148
+00:05:26,261 --> 00:05:28,095
+you can see that they obviously do do it.
+
+149
+00:05:28,095 --> 00:05:28,871
+Somehow.
+
+150
+00:05:28,871 --> 00:05:30,496
+I mean it's not like they have angle-a-trons.
+
+151
+00:05:30,496 --> 00:05:32,046
+But plants have been around a long time,
+
+152
+00:05:32,046 --> 00:05:33,231
+and have had a lot of practice,
+
+153
+00:05:33,231 --> 00:05:35,596
+so that probably explains everything.
+
+154
+00:05:35,596 --> 00:05:37,679
+And thus we always get spirals
+
+155
+00:05:37,679 --> 00:05:40,206
+of 5 and 8 on this flower, 5 and 8 on this artichoke,
+
+156
+00:05:40,206 --> 00:05:41,845
+5 and 8 on this pinecone.
+
+157
+00:05:41,845 --> 00:05:46,860
+Even this cauliflower has 1,2,3,4,5,6,7... um...
+
+158
+00:05:46,860 --> 00:05:51,661
+Anyway we always get 1,2,3,4,5,6,7... huh..
+
+159
+00:05:51,661 --> 00:05:53,854
+And 1,2,3,4!...
+
+160
+00:05:53,854 --> 00:05:56,893
+It's easy to dismiss these as mutant anomalies.
+
+161
+00:05:56,893 --> 00:05:58,759
+But just because they're different and unusual
+
+162
+00:05:58,759 --> 00:06:00,045
+doesn't mean we should ignore them.
+
+163
+00:06:00,045 --> 00:06:04,045
+4,7,11... What could does these numbers mean?
+
+164
+00:06:04,045 --> 00:06:12,955
+Maybe things aren't as simple as I thought...

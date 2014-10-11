@@ -1,0 +1,667 @@
+1
+00:00:00,850 --> 00:00:03,030
+We're on problem 99.
+
+2
+00:00:04,030 --> 00:00:06,700
+And I like these that don't have a lot of words in them.
+
+3
+00:00:06,700 --> 00:00:09,280
+m does not equal n. We have to prove that.
+
+4
+00:00:09,280 --> 00:00:11,410
+Is it true that m does not equal n?
+
+5
+00:00:12,510 --> 00:00:20,040
+Statement number 1 says that m plus n is less than 0.
+
+6
+00:00:20,840 --> 00:00:22,550
+Well, let's see, what does this tell us?
+
+7
+00:00:23,000 --> 00:00:28,040
+This just tells us that m is less than negative n.
+
+8
+00:00:28,040 --> 00:00:30,080
+It still doesn't tell us anything.
+
+9
+00:00:32,190 --> 00:00:39,880
+Maybe negative n is-- well,let's say, if m is equal to n,
+
+10
+00:00:39,880 --> 00:00:45,160
+which is equal to negative 10, then this would hold true,
+
+11
+00:00:45,160 --> 00:00:48,370
+right? Because negative 10 plus negative 10 is minus 20,
+
+12
+00:00:48,370 --> 00:00:51,520
+which is less than 0. So this still doesn't prove anything.
+
+13
+00:00:51,520 --> 00:00:53,200
+Or, of course, I could have two different numbers.
+
+14
+00:00:53,200 --> 00:00:57,000
+I could have m being minus 5, and n being minus 1. And
+
+15
+00:00:57,000 --> 00:00:59,440
+when you add them together you get minus 6, both less than 0.
+
+16
+00:00:59,440 --> 00:01:01,350
+So it still doesn't tell us anything about whether m does
+
+17
+00:01:01,350 --> 00:01:11,040
+not equal n. Statement two. m times n is less than 0.
+
+18
+00:01:11,640 --> 00:01:15,490
+Now, this is interesting. m times n is less than 0.
+
+19
+00:01:15,490 --> 00:01:20,520
+So that tells us that one is positive and one is negative.
+
+20
+00:01:21,220 --> 00:01:24,460
+The only way you can multiply two numbers and get something
+
+21
+00:01:24,460 --> 00:01:33,160
+less than 0 is one positive and one negative.
+
+22
+00:01:34,010 --> 00:01:36,670
+And it doesn't say equal 0, so they both can't equal 0.
+
+23
+00:01:37,390 --> 00:01:39,290
+And so, when you multiply two numbers and you get a negative
+
+24
+00:01:39,290 --> 00:01:41,140
+number, they have to be different numbers,
+
+25
+00:01:41,140 --> 00:01:43,460
+because one has to be positive and one has to be negative.
+
+26
+00:01:43,460 --> 00:01:45,700
+Try it out with as many things as you want.
+
+27
+00:01:45,700 --> 00:01:48,900
+But you know from your basic negative multiplication rules
+
+28
+00:01:48,900 --> 00:01:51,690
+that the only way to get a negative as a product of two
+
+29
+00:01:51,690 --> 00:01:53,020
+numbers is one positive, one negative.
+
+30
+00:01:53,020 --> 00:01:56,000
+So this is all we need to know to know that m and n are
+
+31
+00:01:56,000 --> 00:01:58,150
+different, because one's positive and one's negative.
+
+32
+00:01:58,650 --> 00:02:02,140
+I said that about five times. Problem 100.
+
+33
+00:02:03,070 --> 00:02:06,400
+And you didn't need statement one. Problem 100.
+
+34
+00:02:06,400 --> 00:02:09,000
+When a player in a certain game tossed a coin a number of
+
+35
+00:02:09,000 --> 00:02:12,860
+times, four more heads than tails resulted.
+
+36
+00:02:13,080 --> 00:02:16,480
+So heads is equal to tails plus 4.
+
+37
+00:02:17,660 --> 00:02:20,400
+Heads or tails resulted each time the player tossed the coin.
+
+38
+00:02:20,400 --> 00:02:24,000
+Fair enough. How many times did heads result?
+
+39
+00:02:24,000 --> 00:02:27,610
+So essentially the problem description just tells us that
+
+40
+00:02:27,610 --> 00:02:29,470
+heads is equal to tails plus 4.
+
+41
+00:02:29,870 --> 00:02:33,510
+And that heads plus tails is just all of the tosses.
+
+42
+00:02:34,070 --> 00:02:35,630
+So statement number one says,
+
+43
+00:02:35,630 --> 00:02:38,000
+the player tossed the coin 24 times.
+
+44
+00:02:38,000 --> 00:02:43,880
+So that's what I just said. Heads plus tails is equal to 24.
+
+45
+00:02:44,870 --> 00:02:47,510
+And so this is enough information by itself to know
+
+46
+00:02:47,510 --> 00:02:49,150
+how many times did heads result.
+
+47
+00:02:49,150 --> 00:02:53,900
+Because we could rewrite this top equation as heads minus
+
+48
+00:02:53,900 --> 00:02:55,380
+tails is equal to 4. And
+
+49
+00:02:55,380 --> 00:02:58,660
+if you wanted to solve it, you'd get 2 heads is equal to 28.
+
+50
+00:02:58,660 --> 00:03:00,360
+Heads is equal to 14.
+
+51
+00:03:00,360 --> 00:03:02,040
+All of that would have been a waste of time as soon as you
+
+52
+00:03:02,040 --> 00:03:05,060
+saw that you had two linear equations and two unknowns.
+
+53
+00:03:05,060 --> 00:03:06,410
+You could have said, oh, I have enough information to
+
+54
+00:03:06,410 --> 00:03:09,180
+solve for any of the variables. This is a 4.
+
+55
+00:03:09,980 --> 00:03:14,800
+So statement one by itself is enough. Statement two.
+
+56
+00:03:15,830 --> 00:03:19,030
+The players received 3 points each time heads resulted and 1
+
+57
+00:03:19,030 --> 00:03:22,070
+point each time tails resulted, for a total of 52 points.
+
+58
+00:03:22,870 --> 00:03:27,190
+So he got 3 points for every head-- that's how many points
+
+59
+00:03:27,190 --> 00:03:30,710
+he got for all the heads-- plus 1 point for each tail.
+
+60
+00:03:30,710 --> 00:03:32,620
+So that's how many points he got for all the tails.
+
+61
+00:03:32,620 --> 00:03:35,810
+And that equals 52. So once again,
+
+62
+00:03:35,810 --> 00:03:37,930
+this is providing us with another linear equation.
+
+63
+00:03:37,930 --> 00:03:40,740
+So now we have two linear equations with two unknowns.
+
+64
+00:03:40,740 --> 00:03:44,000
+I'm not even looking at what they gave us in statement one.
+
+65
+00:03:44,000 --> 00:03:47,100
+So just using these two, we have enough information to
+
+66
+00:03:47,100 --> 00:03:49,670
+solve the problem. You can do it the exact same way.
+
+67
+00:03:49,670 --> 00:03:51,040
+This is what you learned in algebra 1.
+
+68
+00:03:51,840 --> 00:03:56,510
+So, each statement independently is sufficient to
+
+69
+00:03:56,510 --> 00:03:57,580
+solve the problem.
+
+70
+00:03:58,530 --> 00:04:04,750
+Problem 101. We've already done 100 problems. 101.
+
+71
+00:04:05,090 --> 00:04:08,380
+Once you get going, these get kind of fun.
+
+72
+00:04:08,380 --> 00:04:14,480
+If s is the infinite sequence--OK, so it's like s1
+
+73
+00:04:14,480 --> 00:04:16,090
+is equal to 9.
+
+74
+00:04:17,090 --> 00:04:24,940
+s2 is equal to 99. s3 is equal to three 9's. I get it.
+
+75
+00:04:27,500 --> 00:04:34,000
+And the kth s is equal to 10 to the k minus 1.
+
+76
+00:04:34,260 --> 00:04:37,120
+This is the third one. 10 to the third is 1000 minus 1.
+
+77
+00:04:37,120 --> 00:04:40,020
+10 squared is 100 minus 1. Right. So it all works.
+
+78
+00:04:40,020 --> 00:04:42,270
+All right, that's what they told us.
+
+79
+00:04:42,270 --> 00:04:47,820
+Is every term in s divisible by the prime number, p?
+
+80
+00:04:54,770 --> 00:04:58,320
+Well, it depends what p is. And frankly,
+
+81
+00:04:59,000 --> 00:05:01,280
+if just the first term is divisible by p,
+
+82
+00:05:01,280 --> 00:05:03,890
+all of them are going to be divisible by p. Why is that?
+
+83
+00:05:03,890 --> 00:05:08,010
+Because all of the terms are divisible by the first term,or 9
+
+84
+00:05:08,010 --> 00:05:11,350
+So if p goes into 9, it's going to go into all of these
+
+85
+00:05:11,350 --> 00:05:14,010
+terms, because 9 goes into all of them.
+
+86
+00:05:14,310 --> 00:05:16,690
+So we just have to say, does p go into 9?
+
+87
+00:05:16,690 --> 00:05:19,080
+It's a much simpler way of thinking about the problem.
+
+88
+00:05:19,880 --> 00:05:24,640
+Statement number one says, p is greater than 2.
+
+89
+00:05:24,640 --> 00:05:29,220
+So does every prime number greater than 2 go into 9?
+
+90
+00:05:29,220 --> 00:05:33,500
+Well, no. 5, 7. These don't go into 9. 3 goes into 9.
+
+91
+00:05:33,500 --> 00:05:38,070
+So we still don't know whether p goes into 9. Statement two.
+
+92
+00:05:39,070 --> 00:05:43,670
+At least one term in the sequence, s, is divisible by p.
+
+93
+00:05:54,030 --> 00:05:56,880
+If we knew that it was this term, if we knew that the
+
+94
+00:05:56,880 --> 00:06:00,070
+first term was divisible by p, we would be all set.
+
+95
+00:06:00,720 --> 00:06:05,250
+But we don't know whether it's just the first term.
+
+96
+00:06:05,250 --> 00:06:10,000
+For example, p could be 11. What if p is 11?
+
+97
+00:06:10,000 --> 00:06:16,100
+If p is 11, then it goes into this term. It goes into the 99.
+
+98
+00:06:16,300 --> 00:06:21,040
+But it won't go into the first term. It won't go into 9.
+
+99
+00:06:21,840 --> 00:06:26,820
+So 11 is an example where it holds for case two,
+
+100
+00:06:26,990 --> 00:06:28,420
+but it doesn't hold for the whole question.
+
+101
+00:06:28,420 --> 00:06:30,010
+It's not divisible into every term.
+
+102
+00:06:30,510 --> 00:06:35,000
+Or we could say that if p was equal to 3-- well,
+
+103
+00:06:35,000 --> 00:06:36,290
+of course, that'll go into everyone.
+
+104
+00:06:36,290 --> 00:06:39,600
+So statement two by itself actually doesn't help us any.
+
+105
+00:06:39,600 --> 00:06:42,960
+And actually, both of these numbers satisfy both statements.
+
+106
+00:06:42,960 --> 00:06:45,850
+And so, if you pick 11, it doesn't work.
+
+107
+00:06:45,850 --> 00:06:49,660
+If you pick 3, it does work. So both statements combined
+
+108
+00:06:49,660 --> 00:06:52,040
+still do not give us enough information.
+
+109
+00:06:54,030 --> 00:07:00,010
+Problem 102. I have got to do some drawing.
+
+110
+00:07:00,010 --> 00:07:06,080
+OK, so I have a quadrilateral here. Let's see. That's RU.
+
+111
+00:07:06,080 --> 00:07:10,500
+And then go up there. And then go flat to there.
+
+112
+00:07:11,090 --> 00:07:13,050
+And then come down like that.
+
+113
+00:07:13,650 --> 00:07:19,090
+And then they draw an altitude here. All righty.
+
+114
+00:07:19,090 --> 00:07:28,610
+OK, so this an R. This is a W. This is a U. A T. And an S.
+
+115
+00:07:28,610 --> 00:07:31,060
+They're saying the height of this is 60 meters.
+
+116
+00:07:31,060 --> 00:07:34,420
+This length is 45 meters.
+
+117
+00:07:34,420 --> 00:07:38,040
+And they're saying this right here, this length is 15 meters.
+
+118
+00:07:38,840 --> 00:07:44,290
+Fair enough. Quadrilateral RSTU, shown above,
+
+119
+00:07:44,290 --> 00:07:46,020
+is a site plan for a parking lot,
+
+120
+00:07:46,020 --> 00:07:50,650
+in which side RU is parallel to side ST.
+
+121
+00:07:50,650 --> 00:07:54,000
+OK, so this and this are parallel.
+
+122
+00:07:54,000 --> 00:07:57,490
+What is the area of the parking lot?
+
+123
+00:07:57,490 --> 00:08:00,670
+So, immediately I can figure out the area of this triangle,
+
+124
+00:08:00,670 --> 00:08:02,480
+right? Base times height, times 1/2.
+
+125
+00:08:02,480 --> 00:08:04,060
+So I can figure out this area immediately.
+
+126
+00:08:04,860 --> 00:08:11,000
+I can immediately figure out this square region right here.
+
+127
+00:08:11,000 --> 00:08:14,020
+Because I know it's 60 by 45. And so the question is,
+
+128
+00:08:14,020 --> 00:08:16,640
+can I figure out this triangular region right here?
+
+129
+00:08:17,080 --> 00:08:19,100
+Well, I don't know what this distance is.
+
+130
+00:08:19,100 --> 00:08:20,940
+If I knew what this distance is, then I could say base
+
+131
+00:08:20,940 --> 00:08:23,080
+times 60, times 1/2, and figure this out.
+
+132
+00:08:23,080 --> 00:08:25,970
+So this right here is what matters.
+
+133
+00:08:25,970 --> 00:08:28,040
+That's the crux of the issue right there.
+
+134
+00:08:28,540 --> 00:08:34,540
+So statement number one tells us that RU is 80 meters.
+
+135
+00:08:34,540 --> 00:08:38,430
+RU is equal to 80. I think this gets us there, right?
+
+136
+00:08:38,430 --> 00:08:45,610
+Because think about it, if this whole thing is 80 meters,
+
+137
+00:08:45,610 --> 00:08:47,360
+I can figure out that. How can I figure out that?
+
+138
+00:08:47,360 --> 00:08:51,450
+Because I have 15 here. I have this length is 45.
+
+139
+00:08:52,090 --> 00:08:55,590
+So this length is going to be 80 minus 45, minus 15.
+
+140
+00:08:55,870 --> 00:08:59,040
+And what is that? 60. So 80 minus 60. So this will be 20.
+
+141
+00:08:59,040 --> 00:09:01,720
+And so just with statement one, I can figure out this
+
+142
+00:09:01,720 --> 00:09:03,010
+length right here.
+
+143
+00:09:03,010 --> 00:09:05,980
+And I'm done because this triangle is this base times
+
+144
+00:09:05,980 --> 00:09:07,230
+this height, times 1/2.
+
+145
+00:09:07,230 --> 00:09:10,610
+This rectangle is this base times this height.
+
+146
+00:09:10,610 --> 00:09:14,000
+And then this triangle is 20 times 60, times 1/2.
+
+147
+00:09:14,500 --> 00:09:16,040
+So I have enough information to figure out the area just
+
+148
+00:09:16,040 --> 00:09:20,080
+with statement one. Now statement two.
+
+149
+00:09:20,080 --> 00:09:35,030
+TU is equal to 20 square roots of 10 meters.
+
+150
+00:09:35,030 --> 00:09:37,630
+Well, this is enough information, too. Think about it.
+
+151
+00:09:37,630 --> 00:09:41,380
+This is a right triangle right here. This height is 60.
+
+152
+00:09:41,840 --> 00:09:43,890
+And remember, if we can figure out-- let me switch colors--
+
+153
+00:09:43,890 --> 00:09:46,430
+if we figure out the base, we're going to be set.
+
+154
+00:09:46,430 --> 00:09:47,900
+So we could do Pythagorean Theorem.
+
+155
+00:09:47,900 --> 00:09:53,420
+So we could say, the based squared plus 60 squared is
+
+156
+00:09:53,420 --> 00:09:55,110
+equal to this number squared.
+
+157
+00:09:55,110 --> 00:10:03,000
+And that number squared is what? 400 times 10. So it's 4,000.
+
+158
+00:10:03,000 --> 00:10:06,130
+So you get B squared is equal to 4,000 minus 3,600,
+
+159
+00:10:06,130 --> 00:10:09,450
+which equals 400. So B is equal to 20 again.
+
+160
+00:10:09,630 --> 00:10:12,490
+So this actually also gives you the information that this
+
+161
+00:10:12,490 --> 00:10:13,660
+base right here is equal to 20.
+
+162
+00:10:13,660 --> 00:10:16,620
+And then, like I showed in the previous statement, that's all
+
+163
+00:10:16,620 --> 00:10:19,490
+you need to figure out the area of the entire parking lot.
+
+164
+00:10:19,490 --> 00:10:22,350
+So statement two alone is also sufficient.
+
+165
+00:10:22,350 --> 00:10:25,640
+So either of these statements alone are sufficient to tell us
+
+166
+00:10:25,640 --> 00:10:26,800
+the area of the parking lot.
+
+167
+00:10:26,900 --> 00:10:28,060
+See you in the next video.

@@ -1,0 +1,247 @@
+1
+00:00:01,050 --> 00:00:05,084
+So we have matrix D and matrix B and they ask, is DB defined?
+
+2
+00:00:05,084 --> 00:00:07,813
+Is the product D times B defined?
+
+3
+00:00:07,813 --> 00:00:11,299
+D times B is going to be defined, is if--
+
+4
+00:00:11,299 --> 00:00:13,637
+Let me make this very clear.
+
+5
+00:00:13,637 --> 00:00:14,962
+This is how I think about it.
+
+6
+00:00:14,962 --> 00:00:18,029
+Let me copy and paste it, so I can do this on my scratch pad.
+
+7
+00:00:18,737 --> 00:00:20,738
+To answer that question--
+
+8
+00:00:20,738 --> 00:00:22,886
+Let me get out my scratch pad over here.
+
+9
+00:00:23,410 --> 00:00:26,498
+Let me paste the question right here.
+
+10
+00:00:26,498 --> 00:00:30,442
+Let's think about these 2 matrices.
+
+11
+00:00:30,472 --> 00:00:33,465
+First, we have matix D.
+
+12
+00:00:34,096 --> 00:00:36,721
+I'll do it as a nice bold D here.
+
+13
+00:00:36,721 --> 00:00:38,884
+It has three rows and three columns.
+
+14
+00:00:38,884 --> 00:00:41,346
+It is a three by three matrix.
+
+15
+00:00:41,346 --> 00:00:45,228
+Then you want to multiply that times matix B.
+
+16
+00:00:45,765 --> 00:00:51,595
+Matrix B is a two by two matrix.
+
+17
+00:00:51,595 --> 00:00:55,217
+The only way that we know to define matrix multiplication
+
+18
+00:00:55,217 --> 00:00:58,167
+is if these middle two numbers are the same.
+
+19
+00:00:58,167 --> 00:01:01,926
+If the number of columns D has is equal to
+
+20
+00:01:01,926 --> 00:01:03,911
+the number of rows B has.
+
+21
+00:01:03,911 --> 00:01:06,442
+In this case they clearly do not equal each other,
+
+22
+00:01:06,442 --> 00:01:10,187
+so matrix multiplication is not defined here.
+
+23
+00:01:10,187 --> 00:01:15,097
+Let's go back there and say no, no DB is not defined.
+
+24
+00:01:15,404 --> 00:01:18,151
+Let's do a few more of these examples.
+
+25
+00:01:19,182 --> 00:01:23,198
+We have a two by one-- We could view this as a two by one matrix,
+
+26
+00:01:23,198 --> 00:01:25,223
+or we could view this as a column vector.
+
+27
+00:01:25,223 --> 00:01:27,484
+This is another two by one matrix, or column vector.
+
+28
+00:01:27,484 --> 00:01:28,967
+Is C plus B defined?
+
+29
+00:01:29,167 --> 00:01:34,209
+Matrix addition is defined if both matrices have the exact same dimensions,
+
+30
+00:01:34,209 --> 00:01:36,972
+and these two matrices do have the exact same dimensions.
+
+31
+00:01:36,972 --> 00:01:38,741
+The reason why is because with matrix addition
+
+32
+00:01:38,741 --> 00:01:40,659
+you just add every corresponding term.
+
+33
+00:01:40,659 --> 00:01:42,055
+With the sum the top--
+
+34
+00:01:42,055 --> 00:01:44,722
+It will actually be 4+0 over -2+0,
+
+35
+00:01:44,722 --> 00:01:48,030
+which is still going to be the same thing as this up here.
+
+36
+00:01:48,030 --> 00:01:50,448
+But what their asking is just to find absolutely
+
+37
+00:01:50,448 --> 00:01:54,178
+that these both are two by one matrices.
+
+38
+00:01:54,178 --> 00:01:56,295
+So yes it is defined.
+
+39
+00:01:56,295 --> 00:01:57,649
+Let's do one more.
+
+40
+00:01:58,711 --> 00:02:02,308
+Once again their asking us is the product A times E defined?
+
+41
+00:02:02,308 --> 00:02:06,432
+Here you have a two by two matrix.
+
+42
+00:02:06,432 --> 00:02:08,726
+Let me copy and paste this so we can make
+
+43
+00:02:08,726 --> 00:02:11,692
+sure we know what we are talking about.
+
+44
+00:02:13,092 --> 00:02:14,578
+Let's get my scratch pad out.
+
+45
+00:02:17,041 --> 00:02:22,711
+This top matrix right over here, matrix A,
+
+46
+00:02:22,711 --> 00:02:25,449
+is a two by two matrix.
+
+47
+00:02:25,633 --> 00:02:30,884
+Matrix E-- Were gonna multiply it times matrix E,
+
+48
+00:02:30,884 --> 00:02:34,398
+which has one row and two columns.
+
+49
+00:02:34,398 --> 00:02:39,669
+In this scenario, once again, the number of columns
+
+50
+00:02:39,669 --> 00:02:44,589
+matrix A has is two and the number of rows matrix E has is one.
+
+51
+00:02:44,589 --> 00:02:47,044
+This will not be defined.
+
+52
+00:02:47,044 --> 00:02:49,706
+These two things have to be the same for them to be defined.
+
+53
+00:02:49,706 --> 00:02:52,318
+Now, what is interesting is, if you did it the other way around--
+
+54
+00:02:52,318 --> 00:03:00,742
+If you took E times A-- Let's check if this would be defined.
+
+55
+00:03:00,742 --> 00:03:05,629
+Matrix E is one by two, one row by two columns.
+
+56
+00:03:05,629 --> 00:03:11,526
+Matrix A is a two by two, two rows and two columns.
+
+57
+00:03:11,526 --> 00:03:13,453
+This would have been defined.
+
+58
+00:03:13,453 --> 00:03:16,567
+Matrix E has two columns which is exactly
+
+59
+00:03:16,567 --> 00:03:19,410
+the same number of rows that matrix A has.
+
+60
+00:03:19,410 --> 00:03:23,193
+This really hits home that the order matters when you multiply matrices.
+
+61
+00:03:23,193 --> 00:03:27,017
+For the sake of this question, is AE defined, no it isn't.
+
+62
+00:03:27,017 --> 00:03:29,869
+We can check our answer, no it isn't.

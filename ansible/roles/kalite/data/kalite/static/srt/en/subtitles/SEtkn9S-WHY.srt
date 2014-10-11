@@ -1,0 +1,663 @@
+1
+00:00:00,060 --> 00:00:03,030
+We're on problem 138.
+
+2
+00:00:03,030 --> 00:00:05,660
+At a loading dock, each worker on the night crew
+
+3
+00:00:05,660 --> 00:00:09,650
+loaded 3/4 as many boxes as each worker on the day crew.
+
+4
+00:00:10,090 --> 00:00:14,040
+So that means that the boxes per night crew worker
+
+5
+00:00:14,040 --> 00:00:18,890
+is equal to 3/4 the number of boxes per day crew worker.
+
+6
+00:00:18,890 --> 00:00:19,650
+Fair enough.
+
+7
+00:00:19,950 --> 00:00:25,520
+If the night crew has 4/5 as many workers as the day crew--
+
+8
+00:00:32,010 --> 00:00:34,470
+the number of night crew workers is going to be
+
+9
+00:00:34,470 --> 00:00:38,330
+4/5 times the number of day crew workers.Fair enough.
+
+10
+00:00:38,930 --> 00:00:41,350
+What fraction of all the boxes loaded
+
+11
+00:00:41,350 --> 00:00:43,810
+by the two crews did the day crew load?
+
+12
+00:00:44,000 --> 00:00:46,380
+So, how many boxes will the day crew load?
+
+13
+00:00:46,380 --> 00:00:50,880
+The day crew is going to load the number of day crew workers
+
+14
+00:00:51,380 --> 00:00:54,440
+times the boxes per day crew worker.
+
+15
+00:00:55,340 --> 00:00:56,580
+And they want to know
+
+16
+00:00:56,880 --> 00:00:59,780
+what fraction of all of the boxes loaded is this?
+
+17
+00:00:59,780 --> 00:01:01,350
+So that'll be the numerator,
+
+18
+00:01:01,350 --> 00:01:03,160
+and the denominator will be all the boxes loaded.
+
+19
+00:01:03,160 --> 00:01:04,760
+So all the boxes loaded are going to be the
+
+20
+00:01:04,760 --> 00:01:06,520
+boxes loaded by the day crew.
+
+21
+00:01:06,520 --> 00:01:09,910
+So that's the number of workers times the boxes per worker,
+
+22
+00:01:10,650 --> 00:01:13,350
+plus the number of boxes loaded by the night crew.
+
+23
+00:01:13,650 --> 00:01:16,590
+That's going to be the number of night crew workers
+
+24
+00:01:16,790 --> 00:01:20,150
+times the number of boxes per night crew worker.
+
+25
+00:01:21,540 --> 00:01:23,000
+And to simplify this,
+
+26
+00:01:23,000 --> 00:01:26,120
+if we could just substitute these variables with things
+
+27
+00:01:26,120 --> 00:01:28,860
+that look a lot more like that. And lo and behold,
+
+28
+00:01:28,860 --> 00:01:32,280
+we have easy substitutions to tell us what b sub n is,
+
+29
+00:01:32,280 --> 00:01:33,800
+the boxes per night crew worker.
+
+30
+00:01:33,800 --> 00:01:37,360
+And they tell us what the number of night crew workers are
+
+31
+00:01:37,360 --> 00:01:38,620
+in terms of the day crew workers.
+
+32
+00:01:38,620 --> 00:01:40,480
+So let's just substitute. So this is equal to
+
+33
+00:01:41,410 --> 00:01:45,240
+day crew workers times boxes per day crew worker,
+
+34
+00:01:45,540 --> 00:01:50,640
+divided by day crew workers times boxes per day crew workers,
+
+35
+00:01:50,640 --> 00:01:55,560
+plus, what is the number of night crew workers?
+
+36
+00:01:55,960 --> 00:02:00,650
+It's w sub n, but that's the same thing as 4/5 w sub d.
+
+37
+00:02:05,340 --> 00:02:08,540
+And then what are the number of boxes per night crew worker?
+
+38
+00:02:08,540 --> 00:02:11,120
+That's 3/4 times the boxes per day crew worker.
+
+39
+00:02:16,040 --> 00:02:17,960
+The 4's cancel out.
+
+40
+00:02:19,750 --> 00:02:20,580
+Actually, we could simplify this.
+
+41
+00:02:20,580 --> 00:02:22,060
+We can divide the top and the bottom
+
+42
+00:02:22,060 --> 00:02:31,060
+by this w sub d times b sub d, and you get 1 over 1 plus--
+
+43
+00:02:31,060 --> 00:02:33,900
+all of these cancel and you're just left with 3/5.
+
+44
+00:02:35,680 --> 00:02:44,170
+That's equal to 1 over 8/5,which is equal to 5/8.
+
+45
+00:02:44,170 --> 00:02:54,040
+And that is choice E. Next problem, 139.
+
+46
+00:02:55,880 --> 00:03:04,360
+A restaurant meal costs $35.50 and there is no tax.
+
+47
+00:03:04,360 --> 00:03:06,820
+If the tip was more than 10%
+
+48
+00:03:06,820 --> 00:03:15,600
+but less than 15% of the cost of the meal,
+
+49
+00:03:15,600 --> 00:03:17,390
+then the total amount must have been--
+
+50
+00:03:17,390 --> 00:03:21,000
+So what's the range for the tip? 10% of $35.50.
+
+51
+00:03:21,040 --> 00:03:23,620
+That's just going to be $3.55.
+
+52
+00:03:25,670 --> 00:03:29,150
+And 15%-- there's a couple ways you can think about it.
+
+53
+00:03:29,150 --> 00:03:32,240
+You could say it's half more than this,right?
+
+54
+00:03:32,240 --> 00:03:33,470
+What's half of this?
+
+55
+00:03:33,470 --> 00:03:39,830
+Half of this is $1.77 1/2.
+
+56
+00:03:43,090 --> 00:03:44,440
+I think that's right.
+
+57
+00:03:49,330 --> 00:03:51,660
+Really, you can't get a half-cent. Is that right?
+
+58
+00:03:51,660 --> 00:03:53,210
+2 times that, you get 2.
+
+59
+00:03:53,210 --> 00:03:56,290
+And 2 times 70 is $1.40.
+
+60
+00:03:57,480 --> 00:03:59,060
+Right, so this would be 5%.
+
+61
+00:03:59,060 --> 00:04:01,220
+I just took half of this That's how people do it.
+
+62
+00:04:01,220 --> 00:04:02,220
+Half of 10%.
+
+63
+00:04:02,620 --> 00:04:03,540
+If where you live,
+
+64
+00:04:03,540 --> 00:04:07,640
+the tax is 10%, but I don't want to get into that.
+
+65
+00:04:07,640 --> 00:04:18,070
+So if you add this to this, you get 4, 5, 12, 13, and 5.
+
+66
+00:04:19,770 --> 00:04:27,430
+So the tip is going to be between $3.55 and $5.33,
+
+67
+00:04:27,430 --> 00:04:28,480
+I guess we could say.
+
+68
+00:04:29,530 --> 00:04:32,430
+And so the total bill, that's what they want to know,
+
+69
+00:04:32,430 --> 00:04:33,590
+we just add both of these.
+
+70
+00:04:33,590 --> 00:04:38,750
+So at minimum, you're going to pay what's this plus $35?
+
+71
+00:04:38,750 --> 00:04:49,380
+So $35.50 and $3.55. 5, 10, 9. $39.05.
+
+72
+00:04:51,170 --> 00:04:55,030
+And at the high end,you have $35.50.
+
+73
+00:04:55,030 --> 00:04:58,980
+And then you have $5.33.
+
+74
+00:05:00,020 --> 00:05:07,380
+And that is equal to 3, 8, 0, 1, 4.
+
+75
+00:05:07,980 --> 00:05:13,620
+So your total bill is going to be between $39 and $41.
+
+76
+00:05:13,920 --> 00:05:15,680
+And that is exactly choice B.
+
+77
+00:05:16,470 --> 00:05:17,490
+They just round up.
+
+78
+00:05:17,490 --> 00:05:20,040
+They say $41 is here and $39 is here.
+
+79
+00:05:20,040 --> 00:05:21,410
+If it's between these 2 numbers,
+
+80
+00:05:21,410 --> 00:05:23,260
+it's definitely between $39 and $41.
+
+81
+00:05:23,260 --> 00:05:30,280
+And that's choice B. Problem 140.
+
+82
+00:05:32,050 --> 00:05:34,190
+In a weightlifting competition,
+
+83
+00:05:34,190 --> 00:05:38,230
+the total weight of Joe's two lifts was 750.
+
+84
+00:05:38,230 --> 00:05:44,620
+So l1, his first lift plus the second lift was 750 pounds.
+
+85
+00:05:46,030 --> 00:05:49,730
+If twice the weight of the first lift was 300--
+
+86
+00:05:55,540 --> 00:05:59,640
+If 2 times the first lift was equal to 300 more
+
+87
+00:05:59,640 --> 00:06:01,300
+than the weight of his second lift,
+
+88
+00:06:08,520 --> 00:06:11,270
+what was the weight in pounds of his first lift?
+
+89
+00:06:12,200 --> 00:06:14,880
+So we just want to solve for l1.
+
+90
+00:06:15,070 --> 00:06:18,410
+So this top equation we can rewrite as
+
+91
+00:06:18,410 --> 00:06:23,260
+l2 is equal to 750 minus l1.
+
+92
+00:06:23,260 --> 00:06:25,060
+Then we can substitute that here.
+
+93
+00:06:25,060 --> 00:06:31,360
+So then you get 2 times l1 is equal to 300 plus l2,
+
+94
+00:06:31,360 --> 00:06:35,850
+which is this, plus 750 minus l1.
+
+95
+00:06:36,010 --> 00:06:37,850
+Add l1 to both sides.
+
+96
+00:06:37,850 --> 00:06:41,650
+You get 3 l1 is equal to 300 plus 750.
+
+97
+00:06:42,020 --> 00:06:44,550
+That's 1,050.
+
+98
+00:06:44,850 --> 00:06:47,860
+And 3 goes into 1,050--
+
+99
+00:06:48,060 --> 00:06:55,200
+3 times 3 is 9, 15, 3 goes into 15 5 times, so it's 350.
+
+100
+00:06:55,200 --> 00:07:01,690
+So his first lift was 350 pounds. And that's choice D.
+
+101
+00:07:04,040 --> 00:07:07,240
+Problem 141.
+
+102
+00:07:09,680 --> 00:07:13,640
+A club collected exactly $599 from its members.
+
+103
+00:07:14,870 --> 00:07:17,890
+If each member contributed at least $12,
+
+104
+00:07:17,890 --> 00:07:21,810
+what is the greatest number of members the club could have?
+
+105
+00:07:26,010 --> 00:07:28,410
+So the more that each member contributed,
+
+106
+00:07:28,410 --> 00:07:32,060
+the smaller you the number of people in the club.
+
+107
+00:07:32,260 --> 00:07:34,790
+If each member contributed at least $12--
+
+108
+00:07:35,390 --> 00:07:37,920
+so what is the greatest number of members
+
+109
+00:07:37,920 --> 00:07:38,980
+the club could have?
+
+110
+00:07:39,010 --> 00:07:43,210
+So if they all contributed exactly $12--
+
+111
+00:07:49,740 --> 00:07:56,250
+12 goes into 600 50 times.
+
+112
+00:07:57,760 --> 00:08:02,960
+So if this number were $600, you could say
+
+113
+00:08:04,260 --> 00:08:12,850
+if $600 were collected in increments of at least $12,
+
+114
+00:08:12,850 --> 00:08:15,190
+then you could have at most 50 people.
+
+115
+00:08:18,580 --> 00:08:21,590
+But we don't have $600.
+
+116
+00:08:21,590 --> 00:08:25,500
+$600 would be 50 times 12. We have $599.
+
+117
+00:08:27,970 --> 00:08:32,860
+$599 can be done by at most not 50 people,
+
+118
+00:08:32,860 --> 00:08:35,220
+but at most 49 people.
+
+119
+00:08:36,880 --> 00:08:38,880
+Let's think about it. Let's make sure that that's right.
+
+120
+00:08:39,330 --> 00:08:42,390
+So my answer is 49,which is C.
+
+121
+00:08:43,650 --> 00:08:46,090
+And let's think about how much money would be left over,
+
+122
+00:08:46,090 --> 00:08:47,760
+so 49 times 12.
+
+123
+00:08:47,760 --> 00:08:50,740
+This is just a reality check. 49 times 12.
+
+124
+00:08:50,740 --> 00:08:52,640
+2 times 9 is 18.
+
+125
+00:08:53,000 --> 00:08:58,520
+2 times 4 is 8 plus 1 is 9. 0, 49.
+
+126
+00:08:58,520 --> 00:09:05,500
+8, 18, 588.
+
+127
+00:09:05,900 --> 00:09:10,490
+So if you have 49 people,and they all contribute $12 exactly,
+
+128
+00:09:10,490 --> 00:09:14,030
+you'll raise $588.
+
+129
+00:09:15,000 --> 00:09:17,190
+And then you could have had a couple of other people,
+
+130
+00:09:17,490 --> 00:09:21,010
+you could have had 11 other people who instead of $12,
+
+131
+00:09:21,010 --> 00:09:24,180
+they paid $13. And that's how you get to $599,
+
+132
+00:09:24,180 --> 00:09:25,550
+because they say at least $12.
+
+133
+00:09:25,550 --> 00:09:29,150
+You can't have 50 people,because 50 people,
+
+134
+00:09:29,150 --> 00:09:30,650
+if they contribute at least $12,
+
+135
+00:09:30,650 --> 00:09:33,150
+you would have to raise at least $600.
+
+136
+00:09:33,150 --> 00:09:35,210
+So it can't be 50, so the answer is 49.
+
+137
+00:09:35,210 --> 00:09:38,590
+And you might say why did you go immediately to $600?
+
+138
+00:09:38,590 --> 00:09:39,910
+And a lot of times on the GMAT,
+
+139
+00:09:39,910 --> 00:09:42,790
+where they have these numbers that are 12 and 599--
+
+140
+00:09:42,790 --> 00:09:43,490
+those are strange numbers.
+
+141
+00:09:43,490 --> 00:09:45,980
+You say 599 is awfully close to 600.
+
+142
+00:09:46,010 --> 00:09:48,550
+Let's see if I can use that information to
+
+143
+00:09:48,550 --> 00:09:50,770
+deduce something interesting about this problem.
+
+144
+00:09:51,000 --> 00:09:56,210
+Anyway, next problem, 142.
+
+145
+00:09:58,020 --> 00:10:03,680
+Of the 3,600 employees of Company x, 1/3 are clerical.
+
+146
+00:10:03,680 --> 00:10:07,980
+So clerical is equal to 1/3 times 3,600,
+
+147
+00:10:08,450 --> 00:10:10,430
+which is equal to 1,200.
+
+148
+00:10:11,020 --> 00:10:14,720
+If the clerical staff were to be reduced by 1/3,
+
+149
+00:10:14,720 --> 00:10:18,290
+what percentage of the total number of remaining employees
+
+150
+00:10:18,450 --> 00:10:20,070
+would then be clerical?
+
+151
+00:10:20,070 --> 00:10:23,000
+Ok, we're going to reduce the clerical staff by 1/3,
+
+152
+00:10:23,000 --> 00:10:24,950
+so how many people are we going to get rid of?
+
+153
+00:10:24,950 --> 00:10:28,850
+So 1/3 of 1,200 is what? It's 400.
+
+154
+00:10:29,020 --> 00:10:36,700
+So the clerical staff is now going to be 1,200 minus 1/3,
+
+155
+00:10:36,700 --> 00:10:39,360
+minus 400, which is equal to 800.
+
+156
+00:10:39,360 --> 00:10:42,990
+So what proportion is this of the remaining employees?
+
+157
+00:10:42,990 --> 00:10:44,850
+So clerical is 800,
+
+158
+00:10:44,850 --> 00:10:46,950
+and how many remaining employees are there?
+
+159
+00:10:46,950 --> 00:10:48,600
+Are there 3,600?
+
+160
+00:10:48,600 --> 00:10:52,630
+No, we've gotten rid of 400 employees who were clerical.
+
+161
+00:10:52,630 --> 00:10:54,980
+So now we have 3,200 employees.
+
+162
+00:10:55,880 --> 00:11:02,150
+3,600 minus 400, so that is equal to 1/4.
+
+163
+00:11:03,560 --> 00:11:09,650
+And that's A, 25%. Problem 143.
+
+164
+00:11:11,550 --> 00:11:12,540
+Actually, I'm out of time.
+
+165
+00:11:12,540 --> 00:11:13,790
+I'll continue this in the next video.
+
+166
+00:11:13,790 --> 00:11:14,700
+See you soon.

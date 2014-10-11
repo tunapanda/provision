@@ -1,0 +1,631 @@
+1
+00:00:01,391 --> 00:00:02,752
+Congratulations!
+
+2
+00:00:02,752 --> 00:00:05,529
+We've reached a branching point in our lesson.
+
+3
+00:00:05,529 --> 00:00:08,182
+Now, a few different ideas have been introduced.
+
+4
+00:00:08,182 --> 00:00:10,387
+So it's important to orient ourselves here
+
+5
+00:00:10,387 --> 00:00:13,040
+before moving forward in various directions.
+
+6
+00:00:13,040 --> 00:00:15,697
+Now, what motivated this lesson?
+
+7
+00:00:15,697 --> 00:00:18,198
+Well, we learned about RSA encryption.
+
+8
+00:00:18,198 --> 00:00:21,602
+And RSA depended on two things:
+
+9
+00:00:21,602 --> 00:00:25,731
+1) that prime factorization is difficult.
+
+10
+00:00:25,731 --> 00:00:28,820
+So, if I multiply two big primes together –
+
+11
+00:00:28,820 --> 00:00:31,590
+p1 and p2 – and I give you n,
+
+12
+00:00:31,590 --> 00:00:35,339
+I can trust or feel secure in knowing that
+
+13
+00:00:35,339 --> 00:00:37,962
+you'll take a long time to find those primes –
+
+14
+00:00:37,962 --> 00:00:41,235
+and maybe more than your lifetime.
+
+15
+00:00:41,235 --> 00:00:44,202
+Also, 2) RSA requires that
+
+16
+00:00:44,202 --> 00:00:47,799
+those large primes I generated be easy –
+
+17
+00:00:47,799 --> 00:00:51,032
+meaning I could just quickly generate a large prime.
+
+18
+00:00:52,941 --> 00:00:55,695
+So let's return to the first problem:
+
+19
+00:00:55,695 --> 00:00:57,298
+difficulty of prime factorization.
+
+20
+00:00:57,298 --> 00:00:59,919
+Well, what is it about prime factorization –
+
+21
+00:00:59,919 --> 00:01:02,089
+or just prime numbers, themselves –
+
+22
+00:01:02,089 --> 00:01:04,739
+which makes problems hard?
+
+23
+00:01:04,739 --> 00:01:07,542
+And to find out, we began with a core problem.
+
+24
+00:01:07,542 --> 00:01:10,536
+Given x, is x prime or composite?
+
+25
+00:01:10,536 --> 00:01:12,338
+– which is a primality test.
+
+26
+00:01:12,338 --> 00:01:13,506
+Now we ended up building
+
+27
+00:01:13,506 --> 00:01:15,620
+some solutions to this problem.
+
+28
+00:01:15,620 --> 00:01:17,797
+And in doing so, we realized that
+
+29
+00:01:17,797 --> 00:01:21,152
+this problem was computationally expensive.
+
+30
+00:01:21,152 --> 00:01:24,672
+That is, there is no instant solution to this problem.
+
+31
+00:01:24,672 --> 00:01:27,790
+As our input number grew, the amount of time –
+
+32
+00:01:27,790 --> 00:01:29,963
+or the amount of steps involved
+
+33
+00:01:29,963 --> 00:01:31,762
+for our algorithm to find a solution –
+
+34
+00:01:31,762 --> 00:01:33,819
+also grew.
+
+35
+00:01:33,819 --> 00:01:35,050
+And how much it grew
+
+36
+00:01:35,050 --> 00:01:37,553
+we actually understand better now –
+
+37
+00:01:37,553 --> 00:01:39,300
+because we can predict this search space
+
+38
+00:01:39,300 --> 00:01:40,870
+using the prime number theorem.
+
+39
+00:01:40,870 --> 00:01:43,431
+Though, the real issue can be thought of
+
+40
+00:01:43,431 --> 00:01:45,832
+as a graph, where, on the vertical axis,
+
+41
+00:01:45,832 --> 00:01:48,874
+we have the number of steps our algorithm takes.
+
+42
+00:01:48,874 --> 00:01:50,633
+(Or you can just think of it as time.)
+
+43
+00:01:50,633 --> 00:01:53,345
+and on the x-axis is the input size.
+
+44
+00:01:53,345 --> 00:01:57,818
+And as input size increased, so did time.
+
+45
+00:01:57,818 --> 00:01:59,390
+And the problem we had is that
+
+46
+00:01:59,390 --> 00:02:02,213
+the shape of this curve is unacceptable.
+
+47
+00:02:02,213 --> 00:02:05,962
+Because, in our case, once n hit even 20 digits,
+
+48
+00:02:05,962 --> 00:02:08,157
+we can no longer solve the problem –
+
+49
+00:02:08,157 --> 00:02:09,439
+in the worst case.
+
+50
+00:02:09,439 --> 00:02:11,572
+And if we threw an input hundreds of digits long
+
+51
+00:02:11,572 --> 00:02:14,810
+at our algorithm, we can all agree it would not work.
+
+52
+00:02:14,810 --> 00:02:16,442
+In our case, it would crash.
+
+53
+00:02:16,442 --> 00:02:19,030
+So it's practically impossible
+
+54
+00:02:19,030 --> 00:02:21,037
+to check if a large input is prime,
+
+55
+00:02:21,037 --> 00:02:23,142
+using our current strategies.
+
+56
+00:02:23,142 --> 00:02:27,064
+Now let's return to the first point – factorization.
+
+57
+00:02:27,064 --> 00:02:28,001
+Realize –
+
+58
+00:02:28,001 --> 00:02:30,571
+based on our current understanding in this lesson –
+
+59
+00:02:30,571 --> 00:02:34,400
+factorization has to be harder than a primality test.
+
+60
+00:02:37,768 --> 00:02:39,950
+That is, there are more steps involved
+
+61
+00:02:39,950 --> 00:02:42,920
+in finding the prime factorization of some number,
+
+62
+00:02:42,920 --> 00:02:45,770
+versus just telling me if a number is prime.
+
+63
+00:02:45,770 --> 00:02:49,209
+Since, remember, factorization requires us to find
+
+64
+00:02:49,209 --> 00:02:52,890
+all the prime factors for some input n.
+
+65
+00:02:55,074 --> 00:02:58,020
+Whereas a primality test only requires
+
+66
+00:02:58,020 --> 00:03:00,463
+that we find one divisor.
+
+67
+00:03:02,278 --> 00:03:05,810
+And a nice reminder of this is that some users
+
+68
+00:03:05,810 --> 00:03:08,287
+have actually turned these primality tests
+
+69
+00:03:08,287 --> 00:03:10,847
+into prime factorization algorithms,
+
+70
+00:03:10,847 --> 00:03:14,618
+simply by repeating after it finds its first divisor.
+
+71
+00:03:14,618 --> 00:03:17,880
+So the primarily test is just kind of a subroutine
+
+72
+00:03:17,880 --> 00:03:21,475
+inside the main factorization algorithm.
+
+73
+00:03:24,472 --> 00:03:26,310
+So if we return to this graph,
+
+74
+00:03:26,310 --> 00:03:27,976
+a factorization algorithm would be
+
+75
+00:03:27,976 --> 00:03:30,238
+something like this.
+
+76
+00:03:30,238 --> 00:03:33,738
+As input grows, our factorization algorithm
+
+77
+00:03:33,738 --> 00:03:37,609
+would be above this primarily-test line.
+
+78
+00:03:37,609 --> 00:03:39,252
+And realize that, in any situation,
+
+79
+00:03:39,252 --> 00:03:41,140
+we always have a computational limit –
+
+80
+00:03:41,140 --> 00:03:42,930
+that is the number of primitive steps
+
+81
+00:03:42,930 --> 00:03:46,538
+we can calculate – which is based on our
+
+82
+00:03:46,538 --> 00:03:49,010
+computing power in any given situation –
+
+83
+00:03:49,010 --> 00:03:51,223
+and the amount of time we have.
+
+84
+00:03:51,223 --> 00:03:54,510
+And you can think of this as a horizontal line –
+
+85
+00:03:54,510 --> 00:03:56,489
+or a threshold – on this graph.
+
+86
+00:03:56,489 --> 00:03:59,629
+Anything above this line is out of reach –
+
+87
+00:03:59,629 --> 00:04:01,370
+not feasible to solve.
+
+88
+00:04:01,370 --> 00:04:03,260
+And in this lesson, we were limited by
+
+89
+00:04:03,260 --> 00:04:05,879
+the Rover's on-board computer,
+
+90
+00:04:05,879 --> 00:04:07,410
+which was fairly slow –
+
+91
+00:04:07,410 --> 00:04:09,466
+which is why we couldn't run primality tests
+
+92
+00:04:09,466 --> 00:04:12,080
+on numbers with even 20 digits.
+
+93
+00:04:12,080 --> 00:04:15,172
+However, even if we had, say, a thousand computers,
+
+94
+00:04:15,172 --> 00:04:17,989
+running for a year, this would simply just push this
+
+95
+00:04:17,989 --> 00:04:22,962
+horizontal line up to some other threshold.
+
+96
+00:04:22,962 --> 00:04:26,021
+And this would allow us to run tests on larger numbers.
+
+97
+00:04:26,021 --> 00:04:27,001
+But as you can see,
+
+98
+00:04:27,001 --> 00:04:29,589
+we would always hit some limit
+
+99
+00:04:29,589 --> 00:04:31,311
+where the input is large enough
+
+100
+00:04:31,311 --> 00:04:34,434
+that we can no longer solve the problems again.
+
+101
+00:04:37,217 --> 00:04:41,049
+Now, this leads to many interesting question paths.
+
+102
+00:04:41,049 --> 00:04:46,117
+However, I'll identify the two I'm going to explore next.
+
+103
+00:04:46,117 --> 00:04:49,479
+First of all, so far I have not been very precise
+
+104
+00:04:49,479 --> 00:04:51,453
+about these growth curves.
+
+105
+00:04:51,453 --> 00:04:53,900
+Though, it would be helpful if –
+
+106
+00:04:53,900 --> 00:04:56,599
+Imagine for any algorithm you give me –
+
+107
+00:04:56,599 --> 00:04:58,422
+no matter what it's trying to solve –
+
+108
+00:04:58,422 --> 00:05:01,650
+and no matter what machine it's even running on –
+
+109
+00:05:01,650 --> 00:05:04,849
+we could draw some corresponding
+
+110
+00:05:04,849 --> 00:05:06,791
+growth curve on this graph,
+
+111
+00:05:06,791 --> 00:05:11,175
+simply by looking at the description of the algorithm.
+
+112
+00:05:11,175 --> 00:05:15,103
+If we could do this, we could identify categories
+
+113
+00:05:15,103 --> 00:05:17,529
+of certain growth shapes –
+
+114
+00:05:17,529 --> 00:05:20,751
+which tell us how difficult a problem will be to solve.
+
+115
+00:05:20,751 --> 00:05:23,094
+And, in this way, we could understand an algorithm
+
+116
+00:05:23,094 --> 00:05:25,638
+before we even run it.
+
+117
+00:05:25,638 --> 00:05:27,608
+That's very important to think about.
+
+118
+00:05:27,608 --> 00:05:30,332
+And you could hand me your algorithm –
+
+119
+00:05:30,332 --> 00:05:32,016
+written on a piece of paper –
+
+120
+00:05:32,016 --> 00:05:34,062
+and I could look at it, and say,
+
+121
+00:05:34,062 --> 00:05:36,593
+"Uh, I know this algorithm is not solvable
+
+122
+00:05:36,593 --> 00:05:38,423
+with the input size needed."
+
+123
+00:05:38,423 --> 00:05:42,485
+And this leads us to a lesson on time complexity –
+
+124
+00:05:42,485 --> 00:05:46,688
+an incredibly important conceptual tool we will need.
+
+125
+00:05:46,688 --> 00:05:47,425
+And if you've ever heard,
+
+126
+00:05:47,425 --> 00:05:49,150
+"Oh, this runs in polynomial time,
+
+127
+00:05:49,150 --> 00:05:50,435
+or exponential time,"
+
+128
+00:05:50,435 --> 00:05:53,309
+these are terms which come out of time complexity.
+
+129
+00:05:53,309 --> 00:05:55,595
+Next, many of you have been wondering,
+
+130
+00:05:55,595 --> 00:05:57,935
+"Well how are we generating these
+
+131
+00:05:57,935 --> 00:05:59,671
+random primes in practice?"
+
+132
+00:05:59,671 --> 00:06:02,191
+– the second point I made about RSA.
+
+133
+00:06:02,191 --> 00:06:03,576
+Well, let's just walk through it quickly.
+
+134
+00:06:03,576 --> 00:06:06,919
+To generate a large random prime number
+
+135
+00:06:06,919 --> 00:06:08,803
+hundreds of digits long,,
+
+136
+00:06:08,803 --> 00:06:10,763
+we need to follow these instructions:
+
+137
+00:06:10,763 --> 00:06:14,386
+Generate a random number.
+
+138
+00:06:14,386 --> 00:06:16,499
+Test if its prime.
+
+139
+00:06:16,499 --> 00:06:18,332
+If it's prime, we're done.
+
+140
+00:06:18,332 --> 00:06:21,591
+If not, try again until we hit a prime.
+
+141
+00:06:21,591 --> 00:06:23,588
+Now, in this three-step procedure,
+
+142
+00:06:23,588 --> 00:06:25,343
+what's most important is the second step:
+
+143
+00:06:25,343 --> 00:06:26,431
+Test if its prime.
+
+144
+00:06:26,431 --> 00:06:29,059
+If we can't do that step, this won't work.
+
+145
+00:06:29,059 --> 00:06:32,139
+So, how is this working today?
+
+146
+00:06:32,139 --> 00:06:34,802
+Well, it's based on a subtle alteration
+
+147
+00:06:34,802 --> 00:06:37,206
+to our problem definition –
+
+148
+00:06:37,206 --> 00:06:40,862
+and more importantly the use of randomness.
+
+149
+00:06:40,862 --> 00:06:45,022
+And this leads us to another lesson on random algorithms.
+
+150
+00:06:45,022 --> 00:06:46,759
+And now, finally, if there any other
+
+151
+00:06:46,759 --> 00:06:49,337
+lingering question paths you have,
+
+152
+00:06:49,337 --> 00:06:50,460
+please post them below,
+
+153
+00:06:50,460 --> 00:06:52,415
+and we can plan lessons.
+
+154
+00:06:52,415 --> 00:06:54,240
+For example, there is some deeper mathematics
+
+155
+00:06:54,240 --> 00:06:56,539
+we have yet to explore, in order to speed up
+
+156
+00:06:56,539 --> 00:06:59,671
+our existing trial-division primality tests.
+
+157
+00:06:59,671 --> 00:07:01,791
+And, what else are you thinking of?
+
+158
+00:07:01,791 --> 00:07:02,620
+Please share below.

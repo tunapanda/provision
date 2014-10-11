@@ -1,0 +1,523 @@
+1
+00:00:00,000 --> 00:00:03,410
+I thought I would do another example of partial quotient method
+
+2
+00:00:03,410 --> 00:00:04,580
+for long division
+
+3
+00:00:04,580 --> 00:00:07,180
+So there actually has some positives to do
+
+4
+00:00:07,180 --> 00:00:08,510
+It's actually kind of fun to do
+
+5
+00:00:08,510 --> 00:00:10,780
+So let's say I want to do something really hairy
+
+6
+00:00:10,780 --> 00:00:18,270
+like 291 divided into-- let me just throw some digits over here-
+
+7
+00:00:18,270 --> 00:00:21,690
+actually let's stole another digit right over here-
+
+8
+00:00:21,690 --> 00:00:25,260
+So this is- how many times does 291 go into- what is this-
+
+9
+00:00:25,260 --> 00:00:29,540
+9,873,952
+
+10
+00:00:29,540 --> 00:00:31,740
+And to just kind of get our bearings
+
+11
+00:00:31,740 --> 00:00:34,940
+we know what 291 times 1 is. That's pretty easy
+
+12
+00:00:34,940 --> 00:00:38,750
+291 times 1 is clearly just 291
+
+13
+00:00:38,750 --> 00:00:44,890
+We know what 291 times 10 is. That's clearly 2,910
+
+14
+00:00:44,890 --> 00:00:46,960
+Let's get some stuff in between here
+
+15
+00:00:46,960 --> 00:00:49,060
+that will help us to try to approximate
+
+16
+00:00:49,060 --> 00:00:53,470
+how many times 291 goes into this crazy thing over here
+
+17
+00:00:53,470 --> 00:00:56,800
+So let's just pick- in the last example I picked 2 and 5-
+
+18
+00:00:56,800 --> 00:00:58,790
+you could just pick 3 and 6 if you want
+
+19
+00:00:58,790 --> 00:01:00,790
+You could pick 2 and 7. You could pick whatever you want
+
+20
+00:01:00,790 --> 00:01:01,880
+You could even just do 1
+
+21
+00:01:01,880 --> 00:01:03,300
+one of them, one of the above
+
+22
+00:01:03,300 --> 00:01:10,910
+Let's just say 291 times- let's try 3 out. 291 times 3
+
+23
+00:01:10,910 --> 00:01:12,410
+So I could do this in my head
+
+24
+00:01:12,410 --> 00:01:14,330
+or I could just make sure I don't make a mistake
+
+25
+00:01:14,330 --> 00:01:15,460
+Let me do it right over here
+
+26
+00:01:15,460 --> 00:01:23,100
+So 291 times 3 is- 1 times 3 is 3. 9 times 3 is 27
+
+27
+00:01:23,100 --> 00:01:27,560
+2 times 3 is 6. 6 plus 2 is 8
+
+28
+00:01:27,560 --> 00:01:31,340
+So this is equal to 873
+
+29
+00:01:31,340 --> 00:01:33,980
+It's actually strange that 873 showed up over there
+
+30
+00:01:33,980 --> 00:01:36,480
+My brain is doing strange things in the back ground
+
+31
+00:01:36,480 --> 00:01:37,020
+But anyway
+
+32
+00:01:37,020 --> 00:01:39,700
+that has actually no relevance to the actual solution of this problem
+
+33
+00:01:39,700 --> 00:01:49,180
+And let's also try 291 times 6. Let's figure out what that is
+
+34
+00:01:49,180 --> 00:01:51,570
+So 291 times 6
+
+35
+00:01:51,570 --> 00:01:53,420
+It's actually going to be this thing times 2
+
+36
+00:01:53,420 --> 00:01:56,660
+But I'll just calculate it. 291 times 6-
+
+37
+00:01:56,660 --> 00:02:03,720
+1 times 6 is 6. 9 times 6 is 54. 2 times 6 is 12, plus 5 is 17
+
+38
+00:02:03,720 --> 00:02:09,410
+So it's 1746
+
+39
+00:02:09,410 --> 00:02:10,580
+And you might say, Sal
+
+40
+00:02:10,580 --> 00:02:13,250
+why did you go through the trouble of figuring out this and this?
+
+41
+00:02:13,250 --> 00:02:16,420
+And I'm just using these as some of the approximation tools
+
+42
+00:02:16,420 --> 00:02:17,060
+when we try to figure out
+
+43
+00:02:17,060 --> 00:02:20,280
+how many times 291 goes through this whole crazy mess
+
+44
+00:02:20,280 --> 00:02:22,860
+So first of all, let's just look at this whole thing
+
+45
+00:02:22,860 --> 00:02:25,380
+This is 9873952
+
+46
+00:02:25,380 --> 00:02:31,760
+So let's just say, how many times does 291 go into 9,000,000?
+
+47
+00:02:31,760 --> 00:02:36,430
+So 291 times 3 would be 873
+
+48
+00:02:36,430 --> 00:02:40,860
+We want to have a bunch of zeros after the 873
+
+49
+00:02:40,860 --> 00:02:43,600
+So think of it this way- I'm picking 873
+
+50
+00:02:43,600 --> 00:02:46,970
+because its leading digit is as closer than 9 as possible
+
+51
+00:02:46,970 --> 00:02:49,420
+But it's definitely lower than the 9
+
+52
+00:02:49,420 --> 00:02:56,090
+So you say, okay, 873- and I'm going to have 1,2,3,4 zeros behind it
+
+53
+00:02:56,090 --> 00:02:59,320
+So 291 times 3 would give me 873
+
+54
+00:02:59,320 --> 00:03:06,560
+But I have to multiply- times 3 with 1,2,3,4 zeros to get this number
+
+55
+00:03:06,560 --> 00:03:10,080
+8.73 million
+
+56
+00:03:10,080 --> 00:03:11,770
+I have to multiply by 30,000
+
+57
+00:03:11,770 --> 00:03:16,290
+But I got this straight from this idea, that 291 times 3 is 873
+
+58
+00:03:16,290 --> 00:03:20,620
+So let's subtract this right over here. Let's subtract this
+
+59
+00:03:20,620 --> 00:03:27,610
+2 minus 0 is 2. 5, 9, 3, 7 minus 3 is 4, 8 minus 7 is 1
+
+60
+00:03:27,610 --> 00:03:30,280
+9 minus 8 is 1
+
+61
+00:03:30,280 --> 00:03:35,850
+So now we are left with 1,143,952
+
+62
+00:03:35,850 --> 00:03:40,140
+So which of these just gets us right under that?
+
+63
+00:03:40,140 --> 00:03:45,140
+So let's see, if we want to go to-
+
+64
+00:03:45,140 --> 00:03:47,820
+we can't go straight to 1746
+
+65
+00:03:47,820 --> 00:03:49,580
+That would be too big over here
+
+66
+00:03:49,580 --> 00:03:51,430
+We might want to do 873 again
+
+67
+00:03:51,430 --> 00:03:57,480
+But this time we are going to do 873,000
+
+68
+00:03:57,480 --> 00:04:03,280
+That is equal to 3- and then you have 1,2,3 zeros. So 1,2,3
+
+69
+00:04:03,280 --> 00:04:08,310
+3 times 291 is 873. 3000, is 873000
+
+70
+00:04:08,310 --> 00:04:10,200
+Let me write this a little bit neater
+
+71
+00:04:10,200 --> 00:04:16,940
+My handwriting is- so this is going to be 3000
+
+72
+00:04:16,940 --> 00:04:19,520
+3000 times 291
+
+73
+00:04:19,520 --> 00:04:23,510
+Let me make sure. This is a 2 right over here. 2 minus 0 is 2
+
+74
+00:04:23,510 --> 00:04:26,990
+And then you subtract again
+
+75
+00:04:26,990 --> 00:04:34,180
+2 minus 0 is 2. 5 minus 0 is 5. 9 minus 0 is 9. 3 minus 3 is 0
+
+76
+00:04:34,180 --> 00:04:37,560
+And then you have 4 minus 7
+
+77
+00:04:37,560 --> 00:04:40,920
+The way I like to do it when I have to start regrouping and borrowing
+
+78
+00:04:40,920 --> 00:04:42,860
+is making sure I go from the left
+
+79
+00:04:42,860 --> 00:04:47,310
+So this 1, I could borrow from there. So this becomes 11
+
+80
+00:04:47,310 --> 00:04:50,430
+And then the 4, I can borrow 1 from here
+
+81
+00:04:50,430 --> 00:04:53,250
+So that becomes a 10, and this becomes a 14
+
+82
+00:04:53,250 --> 00:04:58,420
+So 14 minus 7 is 7. 10 minus 8 is 2
+
+83
+00:04:58,420 --> 00:05:04,690
+Now 270,952. What's right below that?
+
+84
+00:05:04,690 --> 00:05:08,270
+So it seems we can get pretty close if we do 291 times 6
+
+85
+00:05:08,270 --> 00:05:14,300
+If we do a 1746, and then add two zeros to it
+
+86
+00:05:14,300 --> 00:05:17,890
+This is going to be times 6 with two zeros
+
+87
+00:05:17,890 --> 00:05:20,210
+So this is times 600
+
+88
+00:05:20,210 --> 00:05:22,880
+Once again, you subtract
+
+89
+00:05:22,880 --> 00:05:24,950
+We see I'm only using the 6 and 3
+
+90
+00:05:24,950 --> 00:05:26,260
+because I figured those out ahead of time
+
+91
+00:05:26,260 --> 00:05:27,790
+so I didn't have to do any extra math
+
+92
+00:05:27,790 --> 00:05:34,950
+2 minus 0 is 2. 5 minus 0 is 5. 9 minus 6 is 3. 0 minus 4--
+
+93
+00:05:34,950 --> 00:05:38,460
+Well, there are a couple of ways you can think about doing this
+
+94
+00:05:38,460 --> 00:05:41,130
+You could borrow from here. That will become a 6
+
+95
+00:05:41,130 --> 00:05:44,660
+This becomes a 10. 10 minus 4 is 6
+
+96
+00:05:44,660 --> 00:05:47,190
+Now this one is lower, so it has to borrow as well
+
+97
+00:05:47,190 --> 00:05:51,120
+Make this into a 16. 16 minus 7-
+
+98
+00:05:51,120 --> 00:05:53,290
+I have multiple of videos on how to borrow
+
+99
+00:05:53,290 --> 00:05:54,760
+if I'm doing that part too fast
+
+100
+00:05:54,760 --> 00:05:57,260
+But the idea here is to show you a different way of long division
+
+101
+00:05:57,260 --> 00:05:59,610
+So 16 minus 7 is 9
+
+102
+00:05:59,610 --> 00:06:02,680
+So now, 96,352
+
+103
+00:06:02,680 --> 00:06:03,960
+And once again
+
+104
+00:06:03,960 --> 00:06:07,300
+it looks like the 873 is about the closest we can get
+
+105
+00:06:07,300 --> 00:06:11,040
+So let me put a 873 over here with 2 zeros
+
+106
+00:06:11,040 --> 00:06:15,450
+So that would literally be 291 times 3 with 2 zeros
+
+107
+00:06:15,450 --> 00:06:19,840
+Times 300. And so once again, we want to subtract here
+
+108
+00:06:19,840 --> 00:06:26,130
+2 minus 0- you get a 2. 5. 0. Make this a 16. Make this an 8
+
+109
+00:06:26,130 --> 00:06:28,480
+16 minus 7 is 9
+
+110
+00:06:28,480 --> 00:06:31,830
+And then we have to get close to 9,052
+
+111
+00:06:31,830 --> 00:06:35,450
+Once again, that 873- those digits look pretty good
+
+112
+00:06:35,450 --> 00:06:40,800
+873- we still want to multiply 3, and then 10
+
+113
+00:06:40,800 --> 00:06:43,730
+So this is going to be times 30 right over here
+
+114
+00:06:43,730 --> 00:06:50,330
+We subtract again. 2 minus 0 is 2. 5 minus 3 is 2
+
+115
+00:06:50,330 --> 00:06:52,850
+And then you have 90 minus 87 is 3
+
+116
+00:06:52,850 --> 00:06:54,290
+I'm doing the subtraction a little fast
+
+117
+00:06:54,290 --> 00:06:56,580
+just so we can get the general idea
+
+118
+00:06:56,580 --> 00:07:00,310
+Then we have to go into 322. How can we get close to that?
+
+119
+00:07:00,310 --> 00:07:03,230
+Well, actually 291 is pretty darn close to that
+
+120
+00:07:03,230 --> 00:07:05,880
+So it's 291. You go into it one time
+
+121
+00:07:05,880 --> 00:07:14,290
+1 times 291 is 291. 2 minus 1 is 1. 32 minus 29 is 3
+
+122
+00:07:14,290 --> 00:07:15,720
+So you have a remainder of 31
+
+123
+00:07:15,720 --> 00:07:20,010
+291 cannot go into 31 any more. So that's our remainder
+
+124
+00:07:20,010 --> 00:07:23,290
+But how many times does it actually go into this big beastly number?
+
+125
+00:07:23,290 --> 00:07:26,340
+This 9,873,952
+
+126
+00:07:26,340 --> 00:07:29,180
+Well, there, we just have to add up all of these right over here
+
+127
+00:07:29,180 --> 00:07:31,410
+30000 plus 3000- we could even do it in our head
+
+128
+00:07:31,410 --> 00:07:41,910
+30000 plus 3000 is 33,000. 33600. 33900. 33931
+
+129
+00:07:41,910 --> 00:07:45,720
+33,931
+
+130
+00:07:45,720 --> 00:07:49,550
+And we're done, assuming I haven't made some silly mistake
+
+131
+00:07:49,550 --> 00:07:55,580
+291 goes into this thing 33,931 times with a remainder of 31

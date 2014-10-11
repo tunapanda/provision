@@ -1,0 +1,343 @@
+1
+00:00:00,302 --> 00:00:04,574
+Let's think about the situation when we have a completely fair coin here
+
+2
+00:00:04,574 --> 00:00:09,497
+let me draw, I'll assume it's a quarter or something, so this is a quarter,
+
+3
+00:00:09,497 --> 00:00:15,163
+let me draw a faint attempt at a profile of George Washington, well that will do.
+
+4
+00:00:15,163 --> 00:00:19,435
+It's a fair coin and we're gonna flip it a bunch of times and figure out the different probabilities.
+
+5
+00:00:19,435 --> 00:00:21,867
+So let's start with a straight forward one.
+
+6
+00:00:21,867 --> 00:00:27,000
+Let's just flip it once, so with one flip of the coin, what's the probability of getting heads?
+
+7
+00:00:27,000 --> 00:00:32,667
+Well, there's 2 equally likely possibilities and the one with heads is 1 of those 2
+
+8
+00:00:32,667 --> 00:00:35,667
+equally likely possibilities, so there's a one half chance.
+
+9
+00:00:35,667 --> 00:00:39,497
+Same thing if we would of asked what is the probability of getting tails?
+
+10
+00:00:39,497 --> 00:00:45,906
+There are two equally likely possibilities and one of those gives us tails, so one half.
+
+11
+00:00:45,906 --> 00:00:50,375
+And so this is one thing to realize: if you take the probabilities of heads plus the
+
+12
+00:00:50,498 --> 00:00:54,869
+probabilities of tails, you get one half plus one half, which is one,
+
+13
+00:00:54,869 --> 00:01:00,767
+and this is generally too: the sum of the probabilities of all of the possible events
+
+14
+00:01:00,767 --> 00:01:05,733
+should be equal to 1, and that makes sense, 'cause you're taking, you're adding up
+
+15
+00:01:05,733 --> 00:01:10,240
+all of these fractions , the numerator and then add up to all of the possible events
+
+16
+00:01:10,240 --> 00:01:13,770
+the denominator is always all the possible events, so you'll have all the possible events
+
+17
+00:01:13,770 --> 00:01:17,113
+over all the possible events when you add all of these things up.
+
+18
+00:01:17,113 --> 00:01:18,600
+Now let's take it up a notch.
+
+19
+00:01:18,600 --> 00:01:24,300
+Let's figure out the probability of ... I'm going to take this coin and I'm going to flip it twice.
+
+20
+00:01:24,438 --> 00:01:28,840
+... the probability of getting a heads and then getting another heads.
+
+21
+00:01:28,840 --> 00:01:32,183
+The probability of getting a head and then another head.
+
+22
+00:01:32,183 --> 00:01:33,855
+There's two ways to think about it .
+
+23
+00:01:33,855 --> 00:01:37,268
+One way is just to think about all of the different possibilities:
+
+24
+00:01:37,468 --> 00:01:39,899
+I could get a head on the first flip and a head on the second flip,
+
+25
+00:01:40,733 --> 00:01:43,793
+head on the first flip, tail on the second flip,
+
+26
+00:01:43,793 --> 00:01:47,601
+I could get tails on the first flip , heads on the second flip,
+
+27
+00:01:47,601 --> 00:01:54,521
+or I could get tails on both flips. So there's four distinct equally likely possibilities.
+
+28
+00:01:54,521 --> 00:01:57,911
+Four distinct equally likely outcomes here. And one way to think about it
+
+29
+00:01:57,911 --> 00:02:01,998
+is on the first flip I have 2 possibilities, on the second flip I have another 2 possibilities,
+
+30
+00:02:01,998 --> 00:02:07,200
+I could have heads or tails, heads or tails, and so I have 4 possibilities for each of
+
+31
+00:02:07,200 --> 00:02:10,543
+these possibilities, for each of these two I have 2 possibilities here.
+
+32
+00:02:10,543 --> 00:02:14,200
+So either way I have 4 equally likely possibilities.
+
+33
+00:02:14,338 --> 00:02:17,390
+And how many of those meet our constraints?
+
+34
+00:02:17,834 --> 00:02:22,585
+Well we have it right over here, this one right over here having 2 heads meet our constraints.
+
+35
+00:02:22,985 --> 00:02:28,815
+So this is ... and there's only one of those possibilities, I've only circled one
+
+36
+00:02:28,935 --> 00:02:32,000
+of these four scenarios, so there is a one forth chance of that happening.
+
+37
+00:02:32,000 --> 00:02:36,967
+Another way you could think about this, and this is because these are INDEPENDENT EVENTS
+
+38
+00:02:36,967 --> 00:02:41,982
+and this is a very important idea to understand in probability. We'll also study scenarios
+
+39
+00:02:41,982 --> 00:02:45,558
+that are not independent, but these are independent events.
+
+40
+00:02:45,558 --> 00:02:50,852
+What happens in the first flip, in no way affects what happens in the second flip,
+
+41
+00:02:50,852 --> 00:02:53,467
+and this is actually one thing that many people don't realize.
+
+42
+00:02:53,467 --> 00:02:55,914
+There's something called "The Gambler's Fallacy" when someone thinks:
+
+43
+00:02:55,914 --> 00:02:59,072
+"If I got a bunch of Heads in a row, then all of a sudden becomes more likely
+
+44
+00:02:59,072 --> 00:03:03,667
+on the next flip to get a tails. That is not the case. Every flip is an independent event.
+
+45
+00:03:03,667 --> 00:03:07,199
+What happenned in the past in these flips does not affect the probabilities
+
+46
+00:03:07,199 --> 00:03:10,914
+going forward. So the probability of getting a head on the first flip
+
+47
+00:03:10,914 --> 00:03:15,067
+in no way ... or the fact that you got a heads on the first flip, in no way affects
+
+48
+00:03:15,067 --> 00:03:17,230
+that you got a heads on the second flip.
+
+49
+00:03:17,230 --> 00:03:20,528
+So if you make that assumption, you could say that the probability of getting
+
+50
+00:03:20,528 --> 00:03:24,568
+heads and heads, or heads and then heads is going to be the same thing as getting
+
+51
+00:03:24,568 --> 00:03:29,600
+probability ... as the probability of getting heads on the first flip
+
+52
+00:03:29,600 --> 00:03:34,067
+times the probability of getting heads on the second flip.
+
+53
+00:03:34,067 --> 00:03:37,710
+And we know that the probability of getting heads on the first flip is 1/2,
+
+54
+00:03:37,710 --> 00:03:41,054
+and the probability of getting heads on the second flip is 1/2,
+
+55
+00:03:41,054 --> 00:03:45,001
+and so we have one half times one half, which is is equal to one forth,
+
+56
+00:03:45,001 --> 00:03:48,391
+which is exactly what we got when we tried out all of the different scenarios,
+
+57
+00:03:48,391 --> 00:03:50,667
+all of the equally likely possibilities.
+
+58
+00:03:50,667 --> 00:03:53,314
+Let's take it up another notch.
+
+59
+00:03:53,314 --> 00:03:58,067
+Let's figure out the probability ... and we kind of bit ignoring tails, so...
+
+60
+00:03:58,067 --> 00:04:00,327
+let's pace on the tension to tails,
+
+61
+00:04:00,327 --> 00:04:06,666
+the probability of getting tails, and then heads and then tails. So this exact series of events.
+
+62
+00:04:10,985 --> 00:04:13,910
+I'm saying this exact order: the first flip is a tails,
+
+63
+00:04:13,910 --> 00:04:17,533
+second flip is a heads and then third flip is a tail.
+
+64
+00:04:17,533 --> 00:04:22,316
+Once again these are all independent events: the fact that I got tails on the first flip
+
+65
+00:04:22,316 --> 00:04:25,400
+in no way affects the probability of getting a heads on the second flip
+
+66
+00:04:25,400 --> 00:04:29,142
+and that in no way affects the probability of getting a tails on the third flip.
+
+67
+00:04:29,142 --> 00:04:32,304
+So, because these are independent events we can say it is the same thing as
+
+68
+00:04:32,366 --> 00:04:37,316
+the probability of getting tails on the first flip, times the probability of getting
+
+69
+00:04:37,316 --> 00:04:42,146
+heads on the second flip, times the probability of getting tails on the third flip.
+
+70
+00:04:42,146 --> 00:04:47,267
+And we know these are all independent events, so this right over here is one half
+
+71
+00:04:47,267 --> 00:04:54,041
+times one half, times one half. 1/2 times 1/2 is one fourth,
+
+72
+00:04:54,564 --> 00:04:59,933
+1/4 times 1/2 is equal to one eighth. So this is equal to one eighth.
+
+73
+00:04:59,933 --> 00:05:03,601
+And we can verify. Let's try all of the different scenarios again.
+
+74
+00:05:03,601 --> 00:05:06,730
+So you could get heads, heads, heads,
+
+75
+00:05:06,945 --> 00:05:09,458
+you could get heads, heads, tails,
+
+76
+00:05:09,643 --> 00:05:12,920
+you could get heads, tails, heads,
+
+77
+00:05:13,112 --> 00:05:16,116
+you could get heads, tails, tails,
+
+78
+00:05:16,193 --> 00:05:21,968
+you can get tails, heads, heads,
+
+79
+00:05:21,968 --> 00:05:24,383
+this is a little tricky sometimes, you want to make sure you're being
+
+80
+00:05:24,383 --> 00:05:33,299
+exhaustive in all the different possibilities here, you could get tails, heads, tails,
+
+81
+00:05:33,299 --> 00:05:36,643
+you could get tails, tails, heads,
+
+82
+00:05:36,643 --> 00:05:39,383
+or you could get tails, tails, tails.
+
+83
+00:05:39,383 --> 00:05:45,043
+And what we see here is that we got exactly eight equally likely possibilities
+
+84
+00:05:45,335 --> 00:05:49,785
+We have eight equally likely possibilities, and the tail, head, tail
+
+85
+00:05:49,785 --> 00:05:53,733
+is exactly one of them. It is this possibility right over here.
+
+86
+00:05:53,733 --> 00:05:57,733
+So it is one of eight equally likely possibilities.

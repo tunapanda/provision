@@ -1,0 +1,295 @@
+1
+00:00:01,184 --> 00:00:04,807
+All the problems we've been dealing with so far have essentially
+
+2
+00:00:04,807 --> 00:00:11,494
+been happening in one dimension. You could go forward or backwards.
+
+3
+00:00:11,494 --> 00:00:14,027
+or right or left, or you could go up or down.
+
+4
+00:00:14,150 --> 00:00:19,900
+What I want to talk about in this video is what happens when we have two dimensions
+
+5
+00:00:19,900 --> 00:00:25,333
+or three or four, or really an arbitrary number of dimensions
+
+6
+00:00:25,333 --> 00:00:27,333
+although if we're dealing with mechanics
+
+7
+00:00:27,333 --> 00:00:30,906
+we normally don't have to go more than three dimensions.
+
+8
+00:00:30,906 --> 00:00:33,878
+But we're going to deal with more than one dimension, or two dimensions,
+
+9
+00:00:33,878 --> 00:00:36,711
+we're also going to be dealing with two-dimensional vectors.
+
+10
+00:00:36,711 --> 00:00:38,522
+I just want to make sure that through this video
+
+11
+00:00:38,522 --> 00:00:41,540
+that we understand at least the basics of two-dimensional vectors.
+
+12
+00:00:41,540 --> 00:00:45,859
+Remember, a vector is something that has both magnitude and direction.
+
+13
+00:00:45,859 --> 00:00:47,970
+The first thing I want to do is give you a visual understanding
+
+14
+00:00:48,001 --> 00:00:52,000
+of how vectors in two dimensions would add.
+
+15
+00:00:52,000 --> 00:00:56,660
+So let's say that I have a vector here that is Vector A,
+
+16
+00:00:56,660 --> 00:01:02,844
+and once again, its magnitude is specified by the length of this arrow
+
+17
+00:01:02,890 --> 00:01:09,095
+Its direction by the direction of the arrow, so it's going in that direction.
+
+18
+00:01:09,126 --> 00:01:15,117
+I have another vector, called Vector B
+
+19
+00:01:15,117 --> 00:01:16,045
+It looks like this,
+
+20
+00:01:16,045 --> 00:01:19,528
+What I want to do in this video is to think about what happens when I add
+
+21
+00:01:19,528 --> 00:01:23,940
+Vector A to Vector B. So there's a couple of things to think about when you visually depict vectors
+
+22
+00:01:23,940 --> 00:01:26,912
+The important thing is for example, Vector A, that you get the length right,
+
+23
+00:01:26,912 --> 00:01:31,510
+and also get the direction right. Where you draw it doesn't matter,
+
+24
+00:01:31,510 --> 00:01:35,597
+So this could be Vector A, and this could also be Vector A.
+
+25
+00:01:35,597 --> 00:01:40,380
+Notice, it has the same length, and also the same direction.
+
+26
+00:01:40,380 --> 00:01:41,727
+I could draw it up here, or there; it does not matter.
+
+27
+00:01:41,727 --> 00:01:48,182
+I could draw Vector B over here
+
+28
+00:01:48,182 --> 00:01:50,200
+It's still Vector B; it still has the same magnitude,
+
+29
+00:01:50,200 --> 00:01:51,711
+and the same direction.
+
+30
+00:01:51,711 --> 00:01:56,866
+We're not saying its tail has to start at the same place that Vector A's tail starts.
+
+31
+00:01:56,866 --> 00:01:59,200
+I could draw Vector B over here
+
+32
+00:01:59,200 --> 00:02:03,600
+So I can always have the same vector, but I can shift it around.
+
+33
+00:02:03,600 --> 00:02:08,569
+As long as it has the same magnitude, the same length, and the same direction.
+
+34
+00:02:08,569 --> 00:02:12,656
+And the whole reason I'm doing that is because the way to visually add vectors,
+
+35
+00:02:12,656 --> 00:02:14,281
+If I wanted to add Vector A,
+
+36
+00:02:14,281 --> 00:02:20,922
+plus Vector B,
+
+37
+00:02:20,922 --> 00:02:23,662
+and I'll show you how to do it more analytically,
+
+38
+00:02:23,662 --> 00:02:25,380
+in a future video
+
+39
+00:02:25,380 --> 00:02:32,300
+I can literally draw Vector A,
+
+40
+00:02:32,300 --> 00:02:39,312
+And then I can draw Vector B, but I put the tail of Vector B to the head of Vector A.
+
+41
+00:02:39,312 --> 00:02:44,142
+I shift it so it's tail is right at the head of Vector A.
+
+42
+00:02:44,142 --> 00:02:48,461
+so it will look something like this.
+
+43
+00:02:48,461 --> 00:02:52,200
+And then if you go from the tail of A,
+
+44
+00:02:52,200 --> 00:02:56,774
+all the way to the head of B,
+
+45
+00:02:56,774 --> 00:03:00,303
+and you call that Vector C,
+
+46
+00:03:00,303 --> 00:03:06,061
+That is the sum of A and B.
+
+47
+00:03:06,061 --> 00:03:07,966
+And it should make sense.
+
+48
+00:03:07,966 --> 00:03:11,000
+If you think about it, let's say these were displacement vectors,
+
+49
+00:03:11,000 --> 00:03:14,514
+so A shows you're being displaced this much in this direction
+
+50
+00:03:14,514 --> 00:03:18,600
+B shows you're being displaced this much in this direction, the length of B in this direction
+
+51
+00:03:18,600 --> 00:03:23,244
+And if I were to say you have a displacement of A
+
+52
+00:03:23,244 --> 00:03:25,380
+And then you have a displacement of B,
+
+53
+00:03:25,380 --> 00:03:27,067
+what is your total displacement?
+
+54
+00:03:27,067 --> 00:03:30,733
+So you would have to be shifted this far in this direction,
+
+55
+00:03:30,733 --> 00:03:33,693
+and then shifted this far in this direction
+
+56
+00:03:33,693 --> 00:03:37,780
+so the net amount that you've been shifting is this far in this direction
+
+57
+00:03:37,780 --> 00:03:40,845
+This would the be the sum of those.
+
+58
+00:03:40,845 --> 00:03:47,532
+Now we can use that same idea to break down a vector in two dimensions,
+
+59
+00:03:47,532 --> 00:03:53,430
+and I'll give you a sense of what that means in a second,
+
+60
+00:03:53,430 --> 00:04:04,251
+If I have Vector A, let's call this Vector X
+
+61
+00:04:04,251 --> 00:04:09,498
+I could say that Vector X is going to be the sum of
+
+62
+00:04:09,498 --> 00:04:12,935
+This vector right here in green,
+
+63
+00:04:12,935 --> 00:04:15,467
+and this vector in red
+
+64
+00:04:15,467 --> 00:04:19,667
+Notice, if X starts at the tail of the green vector,
+
+65
+00:04:19,667 --> 00:04:22,920
+and goes all the way to the head of the magenta vector,
+
+66
+00:04:22,920 --> 00:04:25,985
+and if the magenta vector starts at the head of the green vector,
+
+67
+00:04:25,985 --> 00:04:32,161
+and then finishes at where Vector X finishes,
+
+68
+00:04:32,161 --> 00:04:38,988
+Hopefully from this explanation right here, you can see
+
+69
+00:04:38,988 --> 00:04:42,331
+green vector plus magenta vector gives us this X vector
+
+70
+00:04:42,331 --> 00:04:48,647
+I put the head of the green vector to the tail of this magenta vector
+
+71
+00:04:48,647 --> 00:04:52,641
+but the whole reason why I did this is that
+
+72
+00:04:52,641 --> 00:04:55,567
+if I can express X as the sum of these two vectors
+
+73
+00:04:55,567 --> 00:04:58,028
+it then breaks down X into it's vertical component
+
+74
+00:04:58,028 --> 99:59:59,999
+and it's horizontal component

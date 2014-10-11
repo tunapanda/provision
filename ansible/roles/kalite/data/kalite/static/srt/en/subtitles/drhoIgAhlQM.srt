@@ -1,0 +1,179 @@
+1
+00:00:00,496 --> 00:00:06,573
+We are asked to find the cube root of -343
+or another way to think about it
+
+2
+00:00:06,573 --> 00:00:09,973
+is some number that when I multiply it
+by itself three times,
+
+3
+00:00:09,973 --> 00:00:13,373
+I am going to get -343
+or another way to view it it
+
+4
+00:00:13,373 --> 00:00:20,539
+this is the same thing
+as -343 to the 1/3 power
+
+5
+00:00:20,539 --> 00:00:24,085
+and the best way to do this is,
+to really just try to factor this out
+
+6
+00:00:24,085 --> 00:00:27,973
+so the first thing that we could do--
+so let me just factor -343
+
+7
+00:00:27,973 --> 00:00:31,046
+so the first thing I would like to do
+is just to factor out the -1
+
+8
+00:00:31,046 --> 00:00:37,249
+so it is same thing as -1 times 343
+and lets just think about this
+
+9
+00:00:37,249 --> 00:00:39,293
+is it divisible by 2? No.
+
+10
+00:00:39,293 --> 00:00:42,913
+Is it divisible by 3?
+See the digits do not add up
+
+11
+00:00:42,913 --> 00:00:47,103
+to a multiple of 3 they add up
+to 10 so it is not divisible by 3.
+
+12
+00:00:47,103 --> 00:00:49,645
+Not divisible by 4 since it's odd.
+
+13
+00:00:49,645 --> 00:00:52,927
+Not divisible by 5
+because it doesn't end with 5 or 0.
+
+14
+00:00:52,927 --> 00:00:55,748
+It is not divisible by 6
+because it's not divisible by 2 or 3.
+
+15
+00:00:55,748 --> 00:00:58,316
+Is it divisible by 7?
+Let's check this out.
+
+16
+00:00:58,316 --> 00:01:02,124
+So 7 goes into 343.
+
+17
+00:01:02,124 --> 00:01:08,124
+7 goes into 34 four times,
+4 times 7 is 28.
+
+18
+00:01:08,674 --> 00:01:13,671
+34 - 28 is going to be 6 bring down 3.
+
+19
+00:01:14,111 --> 00:01:17,340
+7 goes into 63 exactly 9 times.
+
+20
+00:01:17,340 --> 00:01:18,362
+So then we end up...
+
+21
+00:01:18,562 --> 00:01:21,587
+9 times 7 is 63, no remainder.
+
+22
+00:01:21,587 --> 00:01:24,725
+So this is going to be 7 times 49,
+
+23
+00:01:25,045 --> 00:01:30,540
+and we know that 49 is same thing
+as 7 times 7 so how can we rewrite this?
+
+24
+00:01:30,540 --> 00:01:33,188
+This is the same thing as taking...
+
+25
+00:01:33,768 --> 00:01:36,556
+It is the same thing as taking
+the cube root...
+
+26
+00:01:36,556 --> 00:01:39,025
+The cube root of -1...
+
+27
+00:01:39,025 --> 00:01:45,674
+of -1 times 7 times 7 times 7
+which is the same thing
+
+28
+00:01:45,674 --> 00:01:55,385
+as the cube root of -1
+times the cube root of 7 times 7 times 7
+
+29
+00:01:55,385 --> 00:01:58,501
+now what is the cube root of -1?
+
+30
+00:01:58,501 --> 00:02:04,047
+Well, -1 times itself three times is -1
+so this right here is -1.
+
+31
+00:02:04,047 --> 00:02:09,394
+You could verify,
+-1 times -1 times -1 is indeed -1
+
+32
+00:02:09,394 --> 00:02:11,025
+this becomes positive 1.
+
+33
+00:02:11,025 --> 00:02:13,443
+Multiply by -1 again you get -1.
+
+34
+00:02:13,443 --> 00:02:15,102
+So this is -1,
+
+35
+00:02:15,102 --> 00:02:19,132
+and then this over here
+the cube root of 7 times 7 times 7.
+
+36
+00:02:19,132 --> 00:02:21,022
+Well, that's just going to be 7,
+
+37
+00:02:21,022 --> 00:02:26,422
+7 multiplied by itself three times
+gives us 7 times 7 times 7 or 343.
+
+38
+00:02:26,929 --> 00:02:31,304
+So it's going to be -1 times 7
+which is the same thing as -7.
+
+39
+00:02:31,474 --> 00:02:35,507
+So our answer is -7,
+and we are done.

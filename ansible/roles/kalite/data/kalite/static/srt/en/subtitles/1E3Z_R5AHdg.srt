@@ -1,0 +1,375 @@
+1
+00:00:00,450 --> 00:00:02,610
+What I want to do in this video is think about
+
+2
+00:00:02,610 --> 00:00:06,900
+the two different ways of interpreting lowercase g
+
+3
+00:00:07,020 --> 00:00:14,380
+as we talked about before. Many textbooks would give you either 9.81 m/s^2
+
+4
+00:00:14,380 --> 00:00:17,070
+downward or towards the Earth's center
+
+5
+00:00:17,150 --> 00:00:20,950
+or sometimes give you a negative quantity that signifies the direction
+
+6
+00:00:20,950 --> 00:00:25,260
+essentially downward, -9.81 m/s^2
+
+7
+00:00:25,270 --> 00:00:29,100
+And probably the most typical way to interpret this value
+
+8
+00:00:29,100 --> 00:00:44,680
+as the acceleration due to gravity near Earth's surface
+
+9
+00:00:45,850 --> 00:00:49,510
+for an object in freefall--this is what we're gonna focus on in this video
+
+10
+00:00:49,910 --> 00:00:56,120
+For an object freefall
+
+11
+00:00:56,600 --> 00:00:59,350
+and the reason why I am stressing this last part
+
+12
+00:00:59,500 --> 00:01:05,240
+is because we know many objects that are near the surface of the Earth
+
+13
+00:01:05,240 --> 00:01:07,000
+that are not in freefall
+
+14
+00:01:07,000 --> 00:01:12,170
+For example, I'm near the surface of the Earth right now and I am not in freefall
+
+15
+00:01:12,360 --> 00:01:15,610
+What's happening to me right now is I'm sitting in the chair
+
+16
+00:01:15,640 --> 00:01:21,490
+And so this is my chair
+
+17
+00:01:21,490 --> 00:01:24,500
+and this is me
+
+18
+00:01:24,500 --> 00:01:27,240
+Let's say the chair is supporting all my weight
+
+19
+00:01:27,570 --> 00:01:29,810
+My legs are flying in the air
+
+20
+00:01:29,850 --> 00:01:33,000
+So this is me and so what's happening right now?
+
+21
+00:01:33,030 --> 00:01:37,270
+If I were in freefall, I would be accelerating towards the center of the Earth
+
+22
+00:01:37,270 --> 00:01:40,500
+at 9.81 m/s squared
+
+23
+00:01:40,600 --> 00:01:46,780
+But what's happening is is all the force due to gravity
+
+24
+00:01:46,780 --> 00:01:54,200
+is being completely offset by the normal force from the surface of the chair onto my pants
+
+25
+00:01:54,790 --> 00:02:01,890
+And so this is normal force. I'll make them both as vectors
+
+26
+00:02:01,910 --> 00:02:10,430
+So the net force in my situation is equal to zero, especially in this vertical direction
+
+27
+00:02:10,600 --> 00:02:13,260
+Because the net force is equal to zero
+
+28
+00:02:13,270 --> 00:02:18,140
+I am not accelerating towards the center of the Earth. I am not in freefall
+
+29
+00:02:18,290 --> 00:02:24,480
+And because this 9.81 m/s^2 still seems relevant to my situation
+
+30
+00:02:24,480 --> 00:02:28,400
+I'll talk about that in a second, but I'm not an object in freefall
+
+31
+00:02:28,470 --> 00:02:30,850
+Another way to interpret this
+
+32
+00:02:30,850 --> 00:02:34,290
+it's not as the acceleration due to gravity near Earth's surface
+
+33
+00:02:34,290 --> 00:02:36,740
+for an object in freefall. Although it is that
+
+34
+00:02:36,840 --> 00:02:42,750
+A maybe more general way to interpret this, is the Earth's gravitational field--
+
+35
+00:02:42,900 --> 00:02:46,510
+or it's really the average acceleration
+
+36
+00:02:46,510 --> 00:02:49,780
+because it actually changes slightly throughout the surface of the Earth
+
+37
+00:02:49,800 --> 00:03:02,290
+But another way to view this as the average gravitational field at Earth's surface
+
+38
+00:03:02,830 --> 00:03:06,630
+I'll talk about what a field means in the physics context in a second
+
+39
+00:03:06,650 --> 00:03:14,380
+Field. The average gravitational field at Earth's surface
+
+40
+00:03:14,380 --> 00:03:17,880
+This is a little bit more of a abstract thing. We'll talk about that in a second
+
+41
+00:03:17,960 --> 00:03:24,080
+But it does help us think about how g is related this scenario where I'm not an object in freefall
+
+42
+00:03:24,440 --> 00:03:27,660
+A field when you think of it in the physics context--
+
+43
+00:03:27,660 --> 00:03:31,140
+slightly more abstract a notion in the mathematics context
+
+44
+00:03:31,170 --> 00:03:32,940
+But in the physics context
+
+45
+00:03:32,940 --> 00:03:38,270
+a field is something that associates a quantity with every point in space
+
+46
+00:03:38,300 --> 00:03:47,950
+So this is just a quantity is with every point in space
+
+47
+00:03:48,100 --> 00:03:51,830
+And it can actually be a scalar quantity, in which case we call this a scalar field
+
+48
+00:03:51,840 --> 00:03:53,640
+There's just value
+
+49
+00:03:54,020 --> 00:03:57,530
+Or it could be a vector quantity with the magnitude and the direction
+
+50
+00:03:57,530 --> 00:03:59,570
+associated with every point in space
+
+51
+00:03:59,570 --> 00:04:02,000
+in which case we're dealing with a vector field
+
+52
+00:04:02,240 --> 00:04:08,400
+And the reason why this is called a field is because it's near Earth's surface
+
+53
+00:04:08,420 --> 00:04:14,180
+if you give me a mass--so for example, maybe my mass is in kilograms
+
+54
+00:04:14,180 --> 00:04:21,020
+If you're near Earth's surface, you give me a mass. Let's say that mass is 10 kg
+
+55
+00:04:21,140 --> 00:04:27,950
+You can use g to figure out the actual force on that--of gravity on that object
+
+56
+00:04:27,950 --> 00:04:30,630
+at that point in space
+
+57
+00:04:31,010 --> 00:04:35,270
+So for example, if this has a mass of 10 kg
+
+58
+00:04:35,270 --> 00:04:37,640
+This is the surface of the Earth
+
+59
+00:04:37,670 --> 00:04:39,170
+That's the center of the Earth
+
+60
+00:04:39,170 --> 00:04:44,520
+So it actually associates a vector quantity whose direction is towards the center of the Earth
+
+61
+00:04:44,690 --> 00:04:51,710
+and the magnitude of this vector quantity is going to be the mass times g
+
+62
+00:04:51,860 --> 00:04:58,540
+This already specified the direction. You can say 9.81 m/s^2 towards the center of the Earth
+
+63
+00:04:58,740 --> 00:05:07,770
+And so in the situation it would be 10 kg times 9.81 m/s^2
+
+64
+00:05:07,790 --> 00:05:19,110
+which is approximately 98.1 kg m / s^2
+
+65
+00:05:19,110 --> 00:05:24,490
+which is the unit of force, or 98.1 N
+
+66
+00:05:24,700 --> 00:05:28,080
+And this thing might not be in freefall. So this is why it becomes
+
+67
+00:05:28,270 --> 00:05:32,910
+why g is relevant even in a situation where the object isn't in freefall
+
+68
+00:05:33,050 --> 00:05:43,980
+g has given us the force per unit mass of gravity on an object near the surface of the Earth
+
+69
+00:05:44,290 --> 00:05:49,830
+So let me think about it. So this is the average gravitational field
+
+70
+00:05:49,850 --> 00:05:55,010
+What it's giving is force per mass
+
+71
+00:05:55,010 --> 00:06:00,100
+So if you give me a mass near Earth's surface, whether it's an object in freefall or not
+
+72
+00:06:00,380 --> 00:06:04,970
+you multiply that mass times g because it's giving you force per mass
+
+73
+00:06:05,050 --> 00:06:10,040
+And it would give you the force of gravity acting on that object
+
+74
+00:06:10,040 --> 00:06:12,690
+near the surface of the Earth whether or not it's in freefall
+
+75
+00:06:12,690 --> 00:06:14,870
+So I just want to make this little distinction
+
+76
+00:06:14,870 --> 00:06:18,950
+because although g tends to be referred to this way right over here
+
+77
+00:06:18,950 --> 00:06:22,200
+sometime you might encounter this and say, no no no no no
+
+78
+00:06:22,350 --> 00:06:25,390
+but g is relevant even when it's not in freefall
+
+79
+00:06:25,390 --> 00:06:30,960
+You obviously can't say that my acceleration when I'm sitting in my chair is 9.81 m/s^2
+
+80
+00:06:30,960 --> 00:06:33,860
+towards the center of the Earth. I'm not accelerating towards the center of the Earth
+
+81
+00:06:34,170 --> 00:06:38,690
+And so they'll say, no no no no. You can't just call this acceleration
+
+82
+00:06:38,690 --> 00:06:43,810
+It is the acceleration when an object is in freefall near the surface of the Earth
+
+83
+00:06:43,810 --> 00:06:49,470
+If you don't have air resistance, if the net force is the force of gravity
+
+84
+00:06:49,490 --> 00:06:51,780
+then this really would be the object's acceleration
+
+85
+00:06:52,100 --> 00:06:56,320
+But it becomes relevant--we know a lot of objects are not in freefall
+
+86
+00:06:56,320 --> 00:06:59,840
+And the object in freefall doesn't stay in freefall for long because it'll hit something
+
+87
+00:07:00,180 --> 00:07:03,710
+But we know that now g is actually relevant to all objects
+
+88
+00:07:03,710 --> 00:07:06,690
+It tells us the force per mass
+
+89
+00:07:06,710 --> 00:07:11,010
+It's tempting to call it always acceleration because of the units of an acceleration
+
+90
+00:07:11,030 --> 00:07:14,820
+But even when you talk about in terms of the gravitational field, it's still the same quantity
+
+91
+00:07:14,820 --> 00:07:18,930
+It still has the exact same unit, the same magnitude
+
+92
+00:07:19,030 --> 00:07:21,990
+and the same direction. It's just a different way of viewing it
+
+93
+00:07:22,140 --> 00:07:24,520
+Here acceleration for an object in freefall
+
+94
+00:07:24,560 --> 00:07:29,240
+Here, something to multiply by mass to figure out the force due to gravity

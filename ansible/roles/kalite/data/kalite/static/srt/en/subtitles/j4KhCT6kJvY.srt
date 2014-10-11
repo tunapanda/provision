@@ -1,0 +1,107 @@
+1
+00:00:00,573 --> 00:00:05,756
+The solution was found by another British mathematician and cryptographer Clifford Cocks.
+
+2
+00:00:05,756 --> 00:00:13,956
+Cocks needed to construct a special kind of one-way function, called the trapdoor one-way function.
+
+3
+00:00:13,971 --> 00:00:19,422
+This is a function that is easy to compute in one direction, yet difficult to reverse,
+
+4
+00:00:19,422 --> 00:00:23,202
+unless you have special information called the trap door.
+
+5
+00:00:27,616 --> 00:00:29,895
+For this he turned to modular exponentiation,
+
+6
+00:00:29,895 --> 00:00:35,381
+which we introduced as clock arithmetic in the Diffie-Hellman key exchange as follows:
+
+7
+00:00:35,381 --> 00:00:39,209
+Take a number, raise it to some exponent,
+
+8
+00:00:39,209 --> 00:00:43,122
+divide by the modulus and output the ramainder.
+
+9
+00:00:43,122 --> 00:00:46,668
+This could be used to encrypt a message as follows:
+
+10
+00:00:46,668 --> 00:00:51,068
+Imagine Bob has a message, which is converted into a number m.
+
+11
+00:00:51,068 --> 00:00:57,028
+He then multiplies his number by itself e times, where e is a public exponent.
+
+12
+00:00:57,028 --> 00:01:04,118
+Then he divides the result by random number N and outputs the remainder of the division.
+
+13
+00:01:04,118 --> 00:01:06,914
+This results in some number c.
+
+14
+00:01:06,914 --> 00:01:09,499
+This calculation is easy to perform.
+
+15
+00:01:09,499 --> 00:01:16,798
+However, given only c, e and N, it is much more difficult to determine which m was used,
+
+16
+00:01:16,798 --> 00:01:19,882
+because we'll have to resort in some form of trial and error.
+
+17
+00:01:19,882 --> 00:01:27,122
+So this is our one-way function, that we can apply to m, easy to perform, but difficult to reverse. It is our mathematical lock.
+
+18
+00:01:34,535 --> 00:01:37,666
+Now, what about the key?
+
+19
+00:01:37,666 --> 00:01:43,744
+The key is the trap door, some piece of information, that makes it easy to reverse the encryption.
+
+20
+00:01:43,744 --> 00:01:47,952
+We need to raise c to some other exponent, say d,
+
+21
+00:01:47,952 --> 00:01:54,300
+which will undo the initial operation applied to m and return the original message m.
+
+22
+00:01:54,300 --> 00:02:01,036
+So both operations together is the same as m to the power of e, all raised to the power of d,
+
+23
+00:02:01,036 --> 00:02:05,326
+which is the same as m to the power of e times d,
+
+24
+00:02:05,326 --> 00:02:08,827
+e is the encryption d is the decryption.
+
+25
+00:02:08,827 --> 00:02:16,827
+Therefore we need a way for Alice to construct e and d, which makes it difficult for anyone else to find d.
+
+26
+00:02:16,827 --> 00:02:21,623
+This requires a second one-way function, which is used for generating d
+
+27
+00:02:21,623 --> 00:02:25,000
+and for this he looked back to Euclid...

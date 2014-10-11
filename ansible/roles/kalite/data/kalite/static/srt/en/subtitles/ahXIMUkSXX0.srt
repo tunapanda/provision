@@ -1,0 +1,759 @@
+1
+00:00:00,401 --> 00:00:01,743
+Say you're me and you're in math class.
+
+2
+00:00:01,743 --> 00:00:02,890
+And your teacher's talking about –
+
+3
+00:00:02,890 --> 00:00:04,525
+Well, who knows what your teacher's talking about.
+
+4
+00:00:04,525 --> 00:00:05,906
+Probably a good time to start doodling.
+
+5
+00:00:05,906 --> 00:00:07,207
+And you're feeling spirally today.
+
+6
+00:00:07,207 --> 00:00:08,138
+So, yeah.
+
+7
+00:00:08,138 --> 00:00:09,763
+Oh, and because of overcrowding in your school,
+
+8
+00:00:09,763 --> 00:00:12,203
+your math class is taking place in Green House #3.
+
+9
+00:00:12,203 --> 00:00:13,167
+Plants.
+
+10
+00:00:13,167 --> 00:00:14,395
+Anyway, you've decided there are
+
+11
+00:00:14,395 --> 00:00:16,039
+three basic types of spirals.
+
+12
+00:00:16,039 --> 00:00:17,491
+There's the kind where, as you spiral out,
+
+13
+00:00:17,491 --> 00:00:18,374
+you keep the same distance.
+
+14
+00:00:18,374 --> 00:00:19,191
+Or you could start big,
+
+15
+00:00:19,191 --> 00:00:20,672
+but make it tighter and tighter as you go around –
+
+16
+00:00:20,672 --> 00:00:22,199
+in which case the spiral ends.
+
+17
+00:00:22,199 --> 00:00:23,657
+Or you could start tight,
+
+18
+00:00:23,657 --> 00:00:25,239
+but make the spiral bigger as you go out.
+
+19
+00:00:25,239 --> 00:00:26,466
+The first kind is good if you really
+
+20
+00:00:26,466 --> 00:00:28,001
+want to fill up a page with lines –
+
+21
+00:00:28,001 --> 00:00:29,430
+or if you want to draw curled up snakes.
+
+22
+00:00:29,430 --> 00:00:31,396
+You can start with a wonky shape to spiral around.
+
+23
+00:00:31,396 --> 00:00:33,131
+But you've noticed that as you spiral out,
+
+24
+00:00:33,131 --> 00:00:34,512
+it gets rounder and rounder.
+
+25
+00:00:34,512 --> 00:00:35,670
+Probably something to do with how
+
+26
+00:00:35,670 --> 00:00:37,552
+the ratio between two different numbers approaches 1
+
+27
+00:00:37,552 --> 00:00:38,387
+as you repeatedly add the same number to both.
+
+28
+00:00:38,387 --> 00:00:39,805
+But you can bring the wonk back
+
+29
+00:00:39,805 --> 00:00:41,361
+by exaggerating the bumps –
+
+30
+00:00:41,361 --> 00:00:43,548
+and it gets all optical illusiony.
+
+31
+00:00:43,548 --> 00:00:44,934
+Anyway, you're not sure what
+
+32
+00:00:44,934 --> 00:00:46,087
+the second kind of spiral's good for.
+
+33
+00:00:46,087 --> 00:00:47,289
+But I guess it's a good way to draw
+
+34
+00:00:47,289 --> 00:00:48,661
+snuggled up 'slug cats' –
+
+35
+00:00:48,661 --> 00:00:49,679
+which are a species you've invented
+
+36
+00:00:49,679 --> 00:00:52,737
+just to keep this kind of spiral from feeling useless.
+
+37
+00:00:52,737 --> 00:00:55,256
+This third spiral, however, is good for all sorts of things.
+
+38
+00:00:55,256 --> 00:00:57,426
+You could draw a snail, or a nautilus shell –
+
+39
+00:00:57,426 --> 00:00:58,767
+an elephant with a curled up trunk,
+
+40
+00:00:58,767 --> 00:01:00,408
+the horns of a sheep,a fern frond,
+
+41
+00:01:00,408 --> 00:01:03,435
+a cochlea in an inner ear diagram – an ear itself,
+
+42
+00:01:03,435 --> 00:01:05,307
+Those other spirals can't help but be jealous
+
+43
+00:01:05,307 --> 00:01:07,384
+of this clearly superior kind of spiral.
+
+44
+00:01:07,384 --> 00:01:09,044
+Better draw more slug cats.
+
+45
+00:01:09,044 --> 00:01:11,354
+Here's one way to draw a really perfect spiral:
+
+46
+00:01:11,354 --> 00:01:12,410
+Start with one square –
+
+47
+00:01:12,410 --> 00:01:14,745
+and draw another next to it that is the same height.
+
+48
+00:01:14,745 --> 00:01:17,325
+Make the next square with it next to both together –
+
+49
+00:01:17,325 --> 00:01:19,213
+that is, each side is length 2.
+
+50
+00:01:19,213 --> 00:01:20,653
+The next square has length 3.
+
+51
+00:01:20,653 --> 00:01:23,189
+The entire outside shape will always be a rectangle.
+
+52
+00:01:23,189 --> 00:01:25,835
+Keep spiraling around, adding bigger and bigger squares.
+
+53
+00:01:25,835 --> 00:01:29,397
+This one has side length [COUNTS TO] 13 –
+
+54
+00:01:29,397 --> 00:01:31,739
+and now, 21.
+
+55
+00:01:31,739 --> 00:01:32,323
+Once you do that,
+
+56
+00:01:32,323 --> 00:01:34,370
+you can add a curve going through each square,
+
+57
+00:01:34,370 --> 00:01:36,324
+arcing from one corner to the opposite corner.
+
+58
+00:01:36,324 --> 00:01:38,882
+Resist the urge to zip quickly across the diagonal
+
+59
+00:01:38,882 --> 00:01:40,655
+if you want a nice smooth spiral.
+
+60
+00:01:40,655 --> 00:01:42,078
+Have you ever looked at the spirally pattern
+
+61
+00:01:42,078 --> 00:01:43,594
+on a pine cone and thought:
+
+62
+00:01:43,594 --> 00:01:45,264
+"Hey! There sure are spirals on this pine cone!"?
+
+63
+00:01:45,264 --> 00:01:47,333
+(I don't know why there are pine cones in your greenhouse.
+
+64
+00:01:47,333 --> 00:01:48,663
+Maybe the greenhouse is in a forest.)
+
+65
+00:01:48,663 --> 00:01:49,725
+Anyway, there are spirals.
+
+66
+00:01:49,725 --> 00:01:51,047
+And there's not just one, either.
+
+67
+00:01:51,047 --> 00:01:53,326
+There are [COUNTS TO] 8 going this way.
+
+68
+00:01:53,326 --> 00:01:55,315
+Or you could look at the spirals going the other way,
+
+69
+00:01:55,315 --> 00:01:59,091
+and there's [COUNTS TO] 13.
+
+70
+00:01:59,091 --> 00:02:00,208
+Look familiar?
+
+71
+00:02:00,208 --> 00:02:02,817
+8 and 13 are both numbers in the 'Fibonacci series.'
+
+72
+00:02:02,817 --> 00:02:05,195
+That's the one where you start by adding 1 and 1 to get 2 –
+
+73
+00:02:05,195 --> 00:02:06,353
+then 1 and 2 to get 3.
+
+74
+00:02:06,353 --> 00:02:07,570
+2 and 3 to get 5.
+
+75
+00:02:07,570 --> 00:02:08,417
+3 + 5 is 8.
+
+76
+00:02:08,417 --> 00:02:10,127
+5 + 8 is 13.
+
+77
+00:02:10,127 --> 00:02:11,070
+And so on.
+
+78
+00:02:11,070 --> 00:02:13,185
+Some people think that instead of starting by adding 1 + 1,
+
+79
+00:02:13,185 --> 00:02:15,533
+you should start with 0 and 1.
+
+80
+00:02:15,533 --> 00:02:16,658
+0 + 1 = 1.
+
+81
+00:02:16,658 --> 00:02:17,358
+1 + 1 = 2.
+
+82
+00:02:17,358 --> 00:02:18,412
+2 + 1 = 3.
+
+83
+00:02:18,412 --> 00:02:21,558
+And it continues on the same way as starting with 1 + 1.
+
+84
+00:02:21,558 --> 00:02:23,711
+Or I guess you could start with 1 + 0
+
+85
+00:02:23,711 --> 00:02:24,761
+and that would work, too.
+
+86
+00:02:24,761 --> 00:02:27,397
+Or why not go back one more to -1, and so on?
+
+87
+00:02:27,397 --> 00:02:29,282
+Anyway, if you're into the Fibonacci series,
+
+88
+00:02:29,282 --> 00:02:30,753
+you probably have a bunch of it memorized.
+
+89
+00:02:30,753 --> 00:02:32,901
+I mean, you've got to know 1, 1, 2, 3, 5.
+
+90
+00:02:32,901 --> 00:02:34,455
+Finish off the single digits with 8.
+
+91
+00:02:34,455 --> 00:02:36,440
+And, ooh, 13. How spooky!
+
+92
+00:02:36,440 --> 00:02:37,691
+And once you're memorizing double digits,
+
+93
+00:02:37,691 --> 00:02:40,327
+you might as well know 21, 34, 55, 89 –
+
+94
+00:02:40,327 --> 00:02:42,296
+so that whenever someone turns a Fibonacci number,
+
+95
+00:02:42,296 --> 00:02:44,318
+you can say, "Happy Fib-birthday!"
+
+96
+00:02:44,318 --> 00:02:48,426
+And then, isn't it interesting that 144, 233, 377 ... ?
+
+97
+00:02:48,426 --> 00:02:50,204
+(But 610 breaks that pattern.
+
+98
+00:02:50,204 --> 00:02:51,338
+So you better know that one too.)
+
+99
+00:02:51,338 --> 00:02:53,474
+And – oh my goodness – 987 is a neat number.
+
+100
+00:02:53,474 --> 00:02:55,757
+And well, you see how these things get out of hand.
+
+101
+00:02:55,757 --> 00:02:56,978
+Anyway, 'tis the season for
+
+102
+00:02:56,978 --> 00:02:58,837
+decorative scented pine cones.
+
+103
+00:02:58,837 --> 00:03:00,514
+And if you're putting glitter-glue spirals on your pine cones –
+
+104
+00:03:00,514 --> 00:03:01,849
+uh, during math class –
+
+105
+00:03:01,849 --> 00:03:03,550
+you might notice that the number of spirals are 5 and 8 –
+
+106
+00:03:03,550 --> 00:03:05,352
+or 3 and 5 –
+
+107
+00:03:05,352 --> 00:03:06,951
+a or 3 and 5 again –
+
+108
+00:03:06,951 --> 00:03:07,782
+5 and 8.
+
+109
+00:03:07,782 --> 00:03:09,323
+This one was 8 and 13.
+
+110
+00:03:09,323 --> 00:03:10,891
+And one Fibonacci pine cone is one thing.
+
+111
+00:03:10,891 --> 00:03:11,943
+But all of them?
+
+112
+00:03:11,943 --> 00:03:13,555
+What is up with that?
+
+113
+00:03:13,555 --> 00:03:15,467
+This pine cone has this wumpy, weird part.
+
+114
+00:03:15,467 --> 00:03:16,437
+Maybe that messes it up.
+
+115
+00:03:16,437 --> 00:03:18,132
+Let's count the top. 5 and 8.
+
+116
+00:03:18,132 --> 00:03:20,169
+Now let's check out the bottom. 8 and 13.
+
+117
+00:03:20,169 --> 00:03:22,816
+If you wanted to draw a mathematically realistic pine cone,
+
+118
+00:03:22,816 --> 00:03:24,806
+you might start by drawing 5 spirals going one way,
+
+119
+00:03:24,806 --> 00:03:26,389
+and 8 going the other.
+
+120
+00:03:26,389 --> 00:03:27,941
+I'm going to mark out starting and ending points
+
+121
+00:03:27,941 --> 00:03:29,881
+for my spirals first – as a guide –
+
+122
+00:03:29,881 --> 00:03:31,111
+and then draw the arms –
+
+123
+00:03:31,111 --> 00:03:32,557
+8 one way and 5 the other.
+
+124
+00:03:32,557 --> 00:03:34,444
+Now I can fill in the little pine coney things.
+
+125
+00:03:34,444 --> 00:03:36,323
+So there are Fibonacci numbers in pine cones.
+
+126
+00:03:36,323 --> 00:03:37,802
+But are there Fibonacci numbers
+
+127
+00:03:37,802 --> 00:03:39,112
+in other things that start with 'pine?'
+
+128
+00:03:39,112 --> 00:03:40,721
+Let's count the spirals on this thing.
+
+129
+00:03:40,721 --> 00:03:43,170
+[COUNTS TO] 8.
+
+130
+00:03:43,170 --> 00:03:46,986
+And [COUNTS TO] 13.
+
+131
+00:03:46,986 --> 00:03:48,495
+The leaves are hard to keep track of.
+
+132
+00:03:48,495 --> 00:03:49,996
+But they're in spirals too –
+
+133
+00:03:49,996 --> 00:03:51,064
+of Fibonacci numbers.
+
+134
+00:03:51,064 --> 00:03:52,800
+What if we looked at these really tight spirals
+
+135
+00:03:52,800 --> 00:03:54,004
+going almost straight up?
+
+136
+00:03:54,004 --> 00:03:59,565
+[COUNTS TO] 21 –
+
+137
+00:03:59,565 --> 00:04:00,956
+a Fibonacci number.
+
+138
+00:04:00,956 --> 00:04:02,789
+Can we find a third spiral on this pine cone?
+
+139
+00:04:02,789 --> 00:04:04,418
+Sure. Go down like this and –
+
+140
+00:04:04,418 --> 00:04:09,939
+[COUNTS TO] 21.
+
+141
+00:04:09,939 --> 00:04:11,328
+But that's only a couple of examples.
+
+142
+00:04:11,328 --> 00:04:13,299
+How about this thing I found on the side of the road?
+
+143
+00:04:13,299 --> 00:04:14,551
+I don't know what it is.
+
+144
+00:04:14,551 --> 00:04:15,921
+It probably starts with 'pine' though...
+
+145
+00:04:15,921 --> 00:04:17,044
+5 and 8.
+
+146
+00:04:17,044 --> 00:04:18,546
+Let's see how far the conspiracy goes.
+
+147
+00:04:18,546 --> 00:04:19,774
+What else has spirals in it?
+
+148
+00:04:19,774 --> 00:04:20,995
+This artichoke has 5 and 8.
+
+149
+00:04:20,995 --> 00:04:22,894
+So does this artichoke-looking flower thing.
+
+150
+00:04:22,894 --> 00:04:24,642
+And this cactus fruit does, too.
+
+151
+00:04:24,642 --> 00:04:26,546
+Here's an orange cauliflower with 5 and 8.
+
+152
+00:04:26,546 --> 00:04:28,012
+And a green one with 5 and 8.
+
+153
+00:04:28,012 --> 00:04:29,140
+I mean 5 and 8.
+
+154
+00:04:29,140 --> 00:04:31,438
+Oh, it's actually 5 and 8.
+
+155
+00:04:31,438 --> 00:04:33,153
+Maybe plants just like these numbers, though.
+
+156
+00:04:33,153 --> 00:04:35,703
+Doesn't mean it has anything to do with Fibonacci, does it?
+
+157
+00:04:35,703 --> 00:04:37,097
+So let's go for some higher numbers.
+
+158
+00:04:37,097 --> 00:04:38,260
+We're going to need some flowers.
+
+159
+00:04:38,260 --> 00:04:39,519
+I think this is a flower.
+
+160
+00:04:39,519 --> 00:04:40,686
+It's got 13 and 21.
+
+161
+00:04:40,686 --> 00:04:41,797
+These daisies are hard to count.
+
+162
+00:04:41,797 --> 00:04:43,385
+But they have 21 and 34.
+
+163
+00:04:43,385 --> 00:04:45,104
+Now, let's bring in the big guns.
+
+164
+00:04:45,104 --> 00:04:54,842
+[COUNTS TO] 34.
+
+165
+00:04:54,842 --> 00:05:02,796
+And [COUNTS TO] 55.
+
+166
+00:05:02,812 --> 00:05:04,117
+I promise this is a random flower –
+
+167
+00:05:04,117 --> 00:05:05,792
+and I didn't pick it out specially to trick you
+
+168
+00:05:05,792 --> 00:05:07,869
+into thinking there are Fibonacci numbers in things.
+
+169
+00:05:07,869 --> 00:05:09,232
+But you should really count for yourself
+
+170
+00:05:09,232 --> 00:05:11,255
+next time you see something spirally.
+
+171
+00:05:11,255 --> 00:05:12,458
+There are even Fibonacci numbers in
+
+172
+00:05:12,458 --> 00:05:14,634
+how the leaves are arranged on this stalk.
+
+173
+00:05:14,634 --> 00:05:15,368
+Or this one.
+
+174
+00:05:15,368 --> 00:05:16,927
+Or the Brussels sprouts on this stalk
+
+175
+00:05:16,927 --> 00:05:19,039
+are a beautiful, delicious 3 and 5.
+
+176
+00:05:19,039 --> 00:05:20,473
+Fibonacci is even in the arrangement
+
+177
+00:05:20,473 --> 00:05:21,882
+of the petals on this rose.
+
+178
+00:05:21,882 --> 00:05:23,692
+And some flowers have shown Fibonacci numbers
+
+179
+00:05:23,692 --> 00:05:25,901
+as high as 144.
+
+180
+00:05:25,901 --> 00:05:28,091
+It's seems pretty cosmic and wondrous,
+
+181
+00:05:28,091 --> 00:05:30,315
+but the cool thing about the Fibonacci series and spiral
+
+182
+00:05:30,315 --> 00:05:32,788
+is not that it's this big, complicated, mystical, magical,
+
+183
+00:05:32,788 --> 00:05:34,339
+super math thing, beyond the comprehension
+
+184
+00:05:34,339 --> 00:05:35,409
+of our puny human minds,
+
+185
+00:05:35,409 --> 00:05:37,313
+that shows up mysteriously everywhere.
+
+186
+00:05:37,313 --> 00:05:39,591
+We'll find that these numbers aren't weird at all.
+
+187
+00:05:39,591 --> 00:05:42,553
+In fact, it would be weird if they weren't there.
+
+188
+00:05:42,553 --> 00:05:44,816
+The cool thing about it is that these incredibly
+
+189
+00:05:44,816 --> 00:05:46,515
+intricate patterns can result
+
+190
+00:05:46,515 --> 00:05:49,499
+from utterly simple beginnings.

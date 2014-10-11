@@ -1,0 +1,263 @@
+1
+00:00:00,871 --> 00:00:03,032
+Let's generalize the mathematics that we've
+
+2
+00:00:03,032 --> 00:00:04,603
+been doing in the last few videos
+
+3
+00:00:04,603 --> 00:00:06,638
+to calculate the real return, and maybe we'll come up
+
+4
+00:00:06,638 --> 00:00:10,213
+with some interesting formulas or some simple approximations
+
+5
+00:00:10,213 --> 00:00:13,375
+So we've been doing is we've been, at least in the first video
+
+6
+00:00:13,375 --> 00:00:14,993
+we converted everything to today's dollars
+
+7
+00:00:14,993 --> 00:00:17,722
+so the actual dollar return in today's dollars
+
+8
+00:00:17,722 --> 00:00:23,206
+is the amount that we got, or the net dollar return
+
+9
+00:00:23,206 --> 00:00:25,554
+and the net dollar return is the amount
+
+10
+00:00:25,554 --> 00:00:28,067
+that we originally invested
+
+11
+00:00:28,067 --> 00:00:30,745
+compounded by the nominal interest rate and
+
+12
+00:00:30,745 --> 00:00:32,576
+here we're assuming we're writing as a decimal
+
+13
+00:00:32,576 --> 00:00:34,156
+so in the example we've been using
+
+14
+00:00:34,156 --> 00:00:38,816
+it was 10%, so this is going to be 0.10
+
+15
+00:00:38,816 --> 00:00:41,500
+or this whole value is going to be 1.10.
+
+16
+00:00:41,500 --> 00:00:44,019
+and so this is how much we're going to get
+
+17
+00:00:44,019 --> 00:00:46,688
+after a year has past. So in our example
+
+18
+00:00:46,688 --> 00:00:52,389
+this was $110, $100 compounded by 1.1
+
+19
+00:00:52,389 --> 00:00:55,575
+and then from that you want to subtract how much we invested
+
+20
+00:00:55,575 --> 00:01:00,951
+in today's dollars. Well we originally invested P dollars a year ago
+
+21
+00:01:00,951 --> 00:01:05,085
+and in today's dollars, we just need to grow it by the rate of inflation
+
+22
+00:01:05,085 --> 00:01:06,647
+and in the examples we've been doing,
+
+23
+00:01:06,647 --> 00:01:11,274
+we assume the rate of inflation is 2%, so that would be 0.02
+
+24
+00:01:11,274 --> 00:01:13,639
+So this, this expression right over here is
+
+25
+00:01:13,639 --> 00:01:17,953
+actually the dollar return in today's dollars
+
+26
+00:01:17,953 --> 00:01:21,119
+it's this value right here that we calculated in the first video
+
+27
+00:01:21,119 --> 00:01:23,413
+and to calculate the real return, we want the dollar
+
+28
+00:01:23,413 --> 00:01:28,853
+return in today's dollars divided by the investment in today's dollars
+
+29
+00:01:28,853 --> 00:01:31,464
+and once again, this is the investment in today's dollars
+
+30
+00:01:31,464 --> 00:01:33,485
+it's the amount we invested originally
+
+31
+00:01:33,485 --> 00:01:39,154
+grown by inflation.
+
+32
+00:01:39,154 --> 00:01:43,889
+And this right over here gives us the real return.
+
+33
+00:01:43,889 --> 00:01:46,430
+Now one thing we can do right off the bat to simplify this
+
+34
+00:01:46,430 --> 00:01:48,625
+is that we have everything in the numerator,
+
+35
+00:01:48,625 --> 00:01:50,805
+and everything in the denominator is divisible by P
+
+36
+00:01:50,805 --> 00:01:53,812
+So let's divide the numerator and the denominator by P
+
+37
+00:01:53,812 --> 00:01:57,715
+Simplify it a little bit, just like that
+
+38
+00:01:57,715 --> 00:02:00,412
+and then we get, we get, in the numerator
+
+39
+00:02:00,412 --> 00:02:06,873
+we get 1 + N - 1 + i , I'll write it like that still
+
+40
+00:02:06,873 --> 00:02:15,766
+all of that over 1 + i , is = to R
+
+41
+00:02:15,766 --> 00:02:19,133
+and I'm giving some space here because one simplification I can do here
+
+42
+00:02:19,133 --> 00:02:22,817
+is, I can add 1 to both sides of this equation
+
+43
+00:02:22,817 --> 00:02:24,944
+so if I add a 1 on the right hand side
+
+44
+00:02:24,944 --> 00:02:27,035
+I have to add a 1 on the left hand side.
+
+45
+00:02:27,035 --> 00:02:32,664
+But a 1 is the same thing as a 1 + i over a 1+ i
+
+46
+00:02:32,664 --> 00:02:36,797
+this is completely identical, cause this is dividing the same
+
+47
+00:02:36,797 --> 00:02:39,146
+thing by itself, so this is going to be a 1
+
+48
+00:02:39,146 --> 00:02:42,978
+So we're adding a 1 on the left, we're adding a 1 on the right
+
+49
+00:02:42,978 --> 00:02:45,834
+and the reason why I did that is it comes up with an interesting
+
+50
+00:02:45,834 --> 00:02:47,980
+simplification, we have the same denominator here
+
+51
+00:02:47,980 --> 00:02:53,561
+if I add the numerators, 1 + i + 1 + N - 1 + i
+
+52
+00:02:53,561 --> 00:02:56,258
+So this and this are going to cancel out
+
+53
+00:02:56,258 --> 00:02:59,842
+and we're going to be left with, in the numerator
+
+54
+00:02:59,842 --> 00:03:02,677
+we're just left with a 1 + the nominal interest rate
+
+55
+00:03:02,677 --> 00:03:08,523
+in the denominator, we just have a 1 + the rate of inflation
+
+56
+00:03:08,523 --> 00:03:12,562
+is equal to 1 + the real interest rate
+
+57
+00:03:12,562 --> 00:03:16,677
+and then we can multiply both sides times the 1 + i
+
+58
+00:03:16,677 --> 00:03:22,194
+multiply both sides times the 1 + i
+
+59
+00:03:22,194 --> 00:03:23,674
+and we get an interesting result
+
+60
+00:03:23,674 --> 00:03:25,914
+and to some degree this is a common sense result
+
+61
+00:03:25,914 --> 00:03:28,067
+and I want to show you this is completely consistent
+
+62
+00:03:28,067 --> 00:03:30,579
+with everything so far, these guys cancel out
+
+63
+00:03:30,579 --> 00:03:34,013
+and that you get when you compound by the nominal interest rate
+
+64
+00:03:34,013 --> 00:03:37,469
+that's the same thing as growing the real growth
+
+65
+00:03:37,469 --> 00:03:41,006
+and then that compounded by the rate of inflation
+
+66
+00:03:41,006 --> 99:59:59,999
+Which actually makes a ton of sense.

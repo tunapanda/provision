@@ -1,0 +1,403 @@
+1
+00:00:00,000 --> 00:00:02,799
+You go for a job interview.
+
+2
+00:00:03,282 --> 00:00:05,719
+And the first thing your interviewer says is,
+
+3
+00:00:05,719 --> 00:00:09,701
+"Look you have great work experience, you seem like a nice young person,
+
+4
+00:00:10,167 --> 00:00:14,449
+but what I really care about is your logical reasoning capabilities."
+
+5
+00:00:14,449 --> 00:00:19,088
+So what she says is, "Just sit down, I'm going to ask you a question about some math expressions."
+
+6
+00:00:19,088 --> 00:00:23,384
+And you say, "Sure shot away, give me some questions about math expressions."
+
+7
+00:00:23,399 --> 00:00:30,387
+And she says, "Alright so you have two integers, integer 'a' and integer 'b.'"
+
+8
+00:00:30,387 --> 00:00:37,661
+And she tells you that integer 'a' is greater than zero and integer 'b' is less than zero.
+
+9
+00:00:37,661 --> 00:00:48,601
+Then, she says that we also know that 'a' over 'b' is greater than 'a' times 'b.'
+
+10
+00:00:48,601 --> 00:00:57,390
+So then she says tell me some interesting things about 'a' and 'b' and 'a' over 'b' and 'a' times 'b.'
+
+11
+00:00:57,390 --> 00:00:59,544
+And you say, "Okay, I'll give my best shot"
+
+12
+00:00:59,544 --> 00:01:04,423
+And I encourage you to actually pause now and try to think about how these things might relate
+
+13
+00:01:04,423 --> 00:01:09,177
+or how 'b' might be constrained or 'a' might be constrained and then unpause it.
+
+14
+00:01:09,177 --> 00:01:12,691
+So, I've assumed you've unpaused it so let's think about this a little bit.
+
+15
+00:01:13,045 --> 00:01:17,418
+So the first thing, we know 'a' is positive and 'b' is negative.
+
+16
+00:01:17,418 --> 00:01:21,487
+So if I take a positive divided by a negative what am I going to get?
+
+17
+00:01:21,487 --> 00:01:25,806
+Well this right over here, a positive divided by a negative is going to be a negative.
+
+18
+00:01:25,806 --> 00:01:28,745
+What happens if I take a positive times a negative?
+
+19
+00:01:28,745 --> 00:01:30,930
+Well 'ab' is also going to be a negative.
+
+20
+00:01:30,930 --> 00:01:33,245
+A postive times a negative is also a negative.
+
+21
+00:01:33,245 --> 00:01:37,136
+So really what we're saying is that we have two negative quantities and
+
+22
+00:01:37,136 --> 00:01:40,275
+this one over here is greater than that one.
+
+23
+00:01:40,275 --> 00:01:43,056
+So let's visualize that on a number line.
+
+24
+00:01:43,056 --> 00:01:44,971
+Let's visualize that on a number line.
+
+25
+00:01:44,971 --> 00:01:47,684
+So let's say that this right over here is zero
+
+26
+00:01:47,684 --> 00:01:51,802
+this right over here is the positive direction, this is the negative direction.
+
+27
+00:01:51,802 --> 00:01:55,146
+We know both of these are negative, but 'a' over 'b' is larger.
+
+28
+00:01:55,146 --> 00:01:58,753
+So 'a' over 'b' is going to be to the right of 'a' times 'b.'
+
+29
+00:01:58,753 --> 00:02:02,575
+So, we know that 'a' over 'b'
+
+30
+00:02:02,575 --> 00:02:05,041
+'a' over 'b,' it has to be negative.
+
+31
+00:02:05,041 --> 00:02:07,279
+It has to be to the left of zero.
+
+32
+00:02:07,279 --> 00:02:11,670
+'a' over 'b' is going to be to the right of 'a' times 'b.'
+
+33
+00:02:11,670 --> 00:02:16,633
+To the right of 'a' times 'b.'
+
+34
+00:02:16,633 --> 00:02:19,105
+So one way to think about it is that they're both negative, but
+
+35
+00:02:19,105 --> 00:02:21,645
+'a' over 'b' is going to be less negative
+
+36
+00:02:21,645 --> 00:02:23,052
+or another way of thinking about it,
+
+37
+00:02:23,052 --> 00:02:25,345
+it's going to have a smaller absolute value.
+
+38
+00:02:25,345 --> 00:02:28,981
+it's distance from zero, which is another way of thinking about absolute value,
+
+39
+00:02:28,981 --> 00:02:31,096
+it's distance to the left of zero
+
+40
+00:02:31,096 --> 00:02:34,592
+is less than 'a' times 'b's distance to the left of zero
+
+41
+00:02:34,669 --> 00:02:36,399
+but because they're both negative
+
+42
+00:02:36,399 --> 00:02:38,576
+and we'll talking about distances from the left of zero
+
+43
+00:02:38,576 --> 00:02:41,957
+the one that has the smaller distance to the left of zero is less negative
+
+44
+00:02:41,957 --> 00:02:44,830
+and therefore is a greater number.
+
+45
+00:02:44,830 --> 00:02:46,495
+So, so far your interviewer seems impressed
+
+46
+00:02:46,495 --> 00:02:47,734
+so that was pretty good,
+
+47
+00:02:47,734 --> 00:02:52,210
+you were able to get a lot of clues just out of this little bit of information that I gave you.
+
+48
+00:02:52,210 --> 00:02:55,922
+But tell me more about what 'b' has to be and
+
+49
+00:02:55,922 --> 00:02:58,956
+whether we can constrain it in some way.
+
+50
+00:02:58,956 --> 00:03:01,774
+And you say, well okay, well we got some clues here
+
+51
+00:03:01,774 --> 00:03:04,208
+the fact that this absolute value right over here
+
+52
+00:03:04,208 --> 00:03:06,557
+is going to be less than this absolute value
+
+53
+00:03:06,557 --> 00:03:12,332
+we know that the absolute value of 'a' over 'b' is going to be less than 'a' times 'b,'
+
+54
+00:03:12,332 --> 00:03:14,126
+the absolute value of 'a' times 'b,'
+
+55
+00:03:14,126 --> 00:03:20,371
+Once again, it's going to be not as far left of zero as 'a' times 'b.'
+
+56
+00:03:20,371 --> 00:03:22,264
+So that is how we can make that statement, but
+
+57
+00:03:22,310 --> 00:03:26,371
+let's manipulate, algebraically manipulate this inequality here.
+
+58
+00:03:26,371 --> 00:03:29,289
+We could multiply both sides times 'b.'
+
+59
+00:03:29,289 --> 00:03:33,522
+So let's do that, let's multiply both sides by 'b',
+
+60
+00:03:33,522 --> 00:03:37,864
+'b' is less than zero, 'b' is less than zero.
+
+61
+00:03:37,864 --> 00:03:43,505
+So if your multiplying both sides of an inequality by something less than zero, it swaps the inequality.
+
+62
+00:03:43,505 --> 00:03:45,558
+So let me, that's why I got rid of it, I'm going to rewrite it.
+
+63
+00:03:45,558 --> 00:03:50,485
+So 'b' times 'a' over 'b' is going to be negative.
+
+64
+00:03:50,638 --> 00:03:55,567
+We know it's going to be negative, so its going to be less than 'ab' times 'b.'
+
+65
+00:03:55,567 --> 00:03:57,605
+If we just multiply it out, these cancel out.
+
+66
+00:03:57,605 --> 00:04:02,942
+We get 'a' is less than 'a' times 'b' squared.
+
+67
+00:04:02,942 --> 00:04:06,343
+Well now if we want to simplify, we can divide both sides by 'a'
+
+68
+00:04:06,343 --> 00:04:10,013
+and since 'a' is greater than zero it does not change the inequality
+
+69
+00:04:10,013 --> 00:04:12,343
+so we divide both sides by 'a.'
+
+70
+00:04:12,343 --> 00:04:15,892
+This becomes one and this becomes 'b' squared.
+
+71
+00:04:15,892 --> 00:04:23,192
+So we're left with one is less than 'b' squared
+
+72
+00:04:23,192 --> 00:04:26,523
+or another way we can think about this is,
+
+73
+00:04:26,538 --> 00:04:33,592
+well we can say if one is less than 'b' squared that means that 'b,'
+
+74
+00:04:33,592 --> 00:04:37,879
+let's be careful here, that means that the ABSOLUTE VALUE of 'b'
+
+75
+00:04:37,879 --> 00:04:40,244
+is going to be greater than one.
+
+76
+00:04:40,244 --> 00:04:44,301
+This means that the absolute value of 'b' is greater than one.
+
+77
+00:04:44,301 --> 00:04:50,169
+So you say, "Wait Sal, how did you get from that to that right there?"
+
+78
+00:04:50,169 --> 00:04:52,222
+Well just think about this a little bit,
+
+79
+00:04:52,222 --> 00:04:55,016
+if I square something and if its greater than one,
+
+80
+00:04:55,031 --> 00:05:00,679
+so that means that either 'b' is less than negative one because if it was negative one and
+
+81
+00:05:00,679 --> 00:05:02,193
+you squared it you would get one
+
+82
+00:05:02,193 --> 00:05:04,154
+and if it was greater than negative one
+
+83
+00:05:04,154 --> 00:05:06,022
+or just directly greater than negative one.
+
+84
+00:05:06,022 --> 00:05:09,458
+If it was negative 0.99 than when you squared it,
+
+85
+00:05:09,458 --> 00:05:13,213
+it would also be something less than one.
+
+86
+00:05:13,213 --> 00:05:14,328
+So that doesn't work.
+
+87
+00:05:14,328 --> 00:05:20,850
+So 'b' has to be less than negative one or 'b' has to be greater than one
+
+88
+00:05:20,850 --> 00:05:24,684
+and because for the same exact logic if it was exactly equal to one
+
+89
+00:05:24,684 --> 00:05:26,306
+if you squared it, this would be equal.
+
+90
+00:05:26,306 --> 00:05:30,242
+If it was 0.5 then 'b' squared would be 0.25 which wouldn't be greater than.
+
+91
+00:05:30,242 --> 00:05:32,924
+So you know both of these are true
+
+92
+00:05:32,924 --> 00:05:37,843
+This is another way of saying the absolute value of 'b' is greater than one.
+
+93
+00:05:37,843 --> 00:05:42,427
+Now we have our other constraint that 'b' is less than zero.
+
+94
+00:05:42,427 --> 00:05:46,538
+So since we know that 'b' is less than zero we can take this out of the picture
+
+95
+00:05:46,538 --> 00:05:48,760
+and if the absolute value of 'b' is greater than one
+
+96
+00:05:48,760 --> 00:05:52,480
+and 'b' is less than zero, then we know that 'b' has to be less than
+
+97
+00:05:52,480 --> 00:05:55,214
+'b' has to be less than negative one.
+
+98
+00:05:55,352 --> 00:05:58,834
+So, wherever negative one is 'b' is going to be less than that.
+
+99
+00:05:58,834 --> 00:06:00,580
+And the interviewer's very impressed,
+
+100
+00:06:00,580 --> 00:06:03,366
+and she says "Look you've done very good reasoning here
+
+101
+00:06:03,474 --> 00:06:07,000
+I think you deserve the job."

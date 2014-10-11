@@ -1,0 +1,1724 @@
+1
+00:00:00,000 --> 00:00:00,670
+   
+
+2
+00:00:00,670 --> 00:00:03,870
+Welcome to the video on
+the Taylor Theorem and
+
+3
+00:00:03,870 --> 00:00:05,330
+Taylor polynomials.
+
+4
+00:00:05,330 --> 00:00:07,190
+And we've actually
+already touched on this.
+
+5
+00:00:07,190 --> 00:00:10,980
+When we did the videos on
+approximating functions with
+
+6
+00:00:10,980 --> 00:00:13,430
+polynomials, we used Maclaurin
+series, which is actually a
+
+7
+00:00:13,430 --> 00:00:16,060
+special case of the Taylor
+polynomial or the
+
+8
+00:00:16,060 --> 00:00:16,940
+Taylor Theorem.
+
+9
+00:00:16,940 --> 00:00:19,980
+And we just pick, we
+approximate the function
+
+10
+00:00:19,980 --> 00:00:23,630
+around x equals 0 when we
+did the Maclaurin series.
+
+11
+00:00:23,630 --> 00:00:25,680
+But in general, you could
+approximate a function
+
+12
+00:00:25,680 --> 00:00:26,890
+around any value.
+
+13
+00:00:26,890 --> 00:00:30,090
+And if you do it around
+something other than 0, it's
+
+14
+00:00:30,090 --> 00:00:31,980
+kind of the more general
+case, and we're dealing
+
+15
+00:00:31,980 --> 00:00:33,680
+with the Taylor polynomial.
+
+16
+00:00:33,680 --> 00:00:34,640
+So what is that?
+
+17
+00:00:34,640 --> 00:00:36,680
+Let me just write the
+definition down, and then we'll
+
+18
+00:00:36,680 --> 00:00:39,110
+do a couple of examples, and
+then we'll graph it to
+
+19
+00:00:39,110 --> 00:00:40,280
+get the intuition.
+
+20
+00:00:40,280 --> 00:00:42,550
+So a Taylor polynomial says
+that if I have a differentiable
+
+21
+00:00:42,550 --> 00:00:51,860
+function f of x, and I want
+to approximate it with a
+
+22
+00:00:51,860 --> 00:00:57,120
+polynomial at c, so at some
+value of x equals c, I want to
+
+23
+00:00:57,120 --> 00:00:58,370
+approximate this function.
+
+24
+00:00:58,370 --> 00:01:00,070
+So let me just draw a quick and
+dirty one, and we'll actually
+
+25
+00:01:00,070 --> 00:01:02,310
+draw an accurate one later.
+
+26
+00:01:02,310 --> 00:01:06,980
+So let's say that that's
+my axes, this is my
+
+27
+00:01:06,980 --> 00:01:10,610
+function f of x.
+
+28
+00:01:10,610 --> 00:01:14,260
+So I could pick some value
+c, some value x is equal to
+
+29
+00:01:14,260 --> 00:01:17,730
+c, maybe it's right there.
+
+30
+00:01:17,730 --> 00:01:18,970
+So that's c.
+
+31
+00:01:18,970 --> 00:01:21,540
+And I would want to approximate
+it, I would want to create a
+
+32
+00:01:21,540 --> 00:01:25,280
+polynomial that can approximate
+the function around this point.
+
+33
+00:01:25,280 --> 00:01:29,520
+And the Taylor Theorem tells us
+that the Taylor polynomial to
+
+34
+00:01:29,520 --> 00:01:33,160
+approximate this is, and then
+I'll give you the intuition
+
+35
+00:01:33,160 --> 00:01:34,950
+for it in a second.
+
+36
+00:01:34,950 --> 00:01:36,030
+p of x.
+
+37
+00:01:36,030 --> 00:01:37,420
+And this looks really
+complicated, but when you
+
+38
+00:01:37,420 --> 00:01:40,510
+do some examples, you'll
+see it's not so bad.
+
+39
+00:01:40,510 --> 00:01:57,710
+p of x is equal to f of c plus
+f prime of c times x minus c
+
+40
+00:01:57,710 --> 00:02:04,470
+plus f prime prime of c over,
+they say 2 factorial, which is
+
+41
+00:02:04,470 --> 00:02:07,080
+just 2, but OK, I'll
+write 2 factorial.
+
+42
+00:02:07,080 --> 00:02:08,940
+They do that so that you see
+the pattern that emerges.
+
+43
+00:02:08,940 --> 00:02:11,850
+This is over 1 factorial,
+really, and this is over
+
+44
+00:02:11,850 --> 00:02:15,030
+0 factorial, really.
+
+45
+00:02:15,030 --> 00:02:21,240
+Times x minus c squared plus,
+I'm already running out of
+
+46
+00:02:21,240 --> 00:02:25,970
+space, f the third derivative,
+I think at this point people
+
+47
+00:02:25,970 --> 00:02:31,210
+just write a 3 in parentheses,
+of the function evaluated at c
+
+48
+00:02:31,210 --> 00:02:37,770
+over 3 factorial times x minus
+c to the third, and you could
+
+49
+00:02:37,770 --> 00:02:39,030
+just keep adding terms.
+
+50
+00:02:39,030 --> 00:02:42,570
+You could go on like
+this for infinity.
+
+51
+00:02:42,570 --> 00:02:45,640
+But let me give you the
+intuition of what this is.
+
+52
+00:02:45,640 --> 00:02:47,470
+Let me just show you, just
+to hit the point home.
+
+53
+00:02:47,470 --> 00:02:52,590
+Then you could plus the fourth
+derivative of the function
+
+54
+00:02:52,590 --> 00:02:59,190
+evaluated at c times over 4
+factorial times x minus
+
+55
+00:02:59,190 --> 00:03:01,070
+c to the fourth.
+
+56
+00:03:01,070 --> 00:03:02,950
+Now what's the intuition?
+
+57
+00:03:02,950 --> 00:03:06,440
+So first of all, what happens
+to this polynomial at c?
+
+58
+00:03:06,440 --> 00:03:09,110
+So what's p of c?
+
+59
+00:03:09,110 --> 00:03:15,700
+p of c is equal to-- if p of c,
+everywhere where you see an x
+
+60
+00:03:15,700 --> 00:03:18,390
+here, you have to
+put a c, right?
+
+61
+00:03:18,390 --> 00:03:20,960
+So this term would be c minus
+c, so that would go to
+
+62
+00:03:20,960 --> 00:03:22,790
+zero, or it would be 0.
+
+63
+00:03:22,790 --> 00:03:25,470
+This term would be c
+minus c, it would be 0.
+
+64
+00:03:25,470 --> 00:03:28,030
+This term would be c minus
+c, so it would be 0.
+
+65
+00:03:28,030 --> 00:03:29,490
+This term would
+be c minus c, 0.
+
+66
+00:03:29,490 --> 00:03:31,310
+And all you'd be left
+with is this f of c.
+
+67
+00:03:31,310 --> 00:03:33,910
+   
+
+68
+00:03:33,910 --> 00:03:35,150
+So great.
+
+69
+00:03:35,150 --> 00:03:38,750
+We already know that, at least
+at the value of c, the
+
+70
+00:03:38,750 --> 00:03:40,590
+polynomial is equal
+to the function.
+
+71
+00:03:40,590 --> 00:03:42,340
+So it's going to
+intersect this line.
+
+72
+00:03:42,340 --> 00:03:42,730
+Right?
+
+73
+00:03:42,730 --> 00:03:46,380
+And actually, if we just had a
+Taylor polynomial with just
+
+74
+00:03:46,380 --> 00:03:47,800
+that first term, what
+would it look like?
+
+75
+00:03:47,800 --> 00:03:49,940
+Well, it would just be a
+horizontal line right there.
+
+76
+00:03:49,940 --> 00:03:53,150
+So it would be a pretty
+bad approximation.
+
+77
+00:03:53,150 --> 00:03:55,260
+But, what does this
+second term do us?
+
+78
+00:03:55,260 --> 00:03:56,900
+Because we know that if
+we just evaluated c.
+
+79
+00:03:56,900 --> 00:03:58,830
+All these other terms
+just drop out.
+
+80
+00:03:58,830 --> 00:04:00,610
+So what do they do for us?
+
+81
+00:04:00,610 --> 00:04:04,280
+Well, the second term actually
+ensures that the derivative of
+
+82
+00:04:04,280 --> 00:04:08,030
+this polynomial, evaluated at
+c, is equal to the derivative
+
+83
+00:04:08,030 --> 00:04:10,100
+of this function,
+evaluated at c.
+
+84
+00:04:10,100 --> 00:04:11,235
+What do I mean there?
+
+85
+00:04:11,235 --> 00:04:14,580
+Well, what's p prime of x?
+
+86
+00:04:14,580 --> 00:04:19,410
+p prime of x is equal to, well,
+this is just a constant term.
+
+87
+00:04:19,410 --> 00:04:22,030
+It might look like a function,
+but it's a function evaluated
+
+88
+00:04:22,030 --> 00:04:24,210
+at c, so it's just
+a constant term.
+
+89
+00:04:24,210 --> 00:04:25,850
+And so, that's 0.
+
+90
+00:04:25,850 --> 00:04:26,640
+And then, what is this?
+
+91
+00:04:26,640 --> 00:04:28,590
+What's the derivative of this?
+
+92
+00:04:28,590 --> 00:04:32,965
+Well, we could use, this is
+a constant term, and the
+
+93
+00:04:32,965 --> 00:04:34,910
+derivative of this is just 1.
+
+94
+00:04:34,910 --> 00:04:37,630
+So you could almost just view
+this as f prime of c times x,
+
+95
+00:04:37,630 --> 00:04:40,630
+minus f prime of c times c
+which is a constant, whatever.
+
+96
+00:04:40,630 --> 00:04:47,390
+So the derivative of this
+expression is f of c, and then
+
+97
+00:04:47,390 --> 00:04:50,610
+plus the derivative of this
+expression, and that's
+
+98
+00:04:50,610 --> 00:04:51,310
+equal to what?
+
+99
+00:04:51,310 --> 00:04:56,010
+2 times 2 divided by 2
+factorial, which is just 1.
+
+100
+00:04:56,010 --> 00:05:02,130
+So it's f prime prime of
+c, times x minus c, and
+
+101
+00:05:02,130 --> 00:05:04,310
+then plus, let's see.
+
+102
+00:05:04,310 --> 00:05:07,890
+3 over 3 factorial, so that's
+3 over 6, we'll just have
+
+103
+00:05:07,890 --> 00:05:10,220
+a 2 in the denominator.
+
+104
+00:05:10,220 --> 00:05:15,820
+f prime prime prime of
+c over, what was it, 2
+
+105
+00:05:15,820 --> 00:05:19,636
+times x minus c squared--
+
+106
+00:05:19,636 --> 00:05:21,520
+And you don't have to
+worry about all of this.
+
+107
+00:05:21,520 --> 00:05:22,630
+And then, we could
+just keep going.
+
+108
+00:05:22,630 --> 00:05:24,380
+But I wanted just to
+show you one thing.
+
+109
+00:05:24,380 --> 00:05:27,560
+What is t prime at c?
+
+110
+00:05:27,560 --> 00:05:28,740
+t prime at c.
+
+111
+00:05:28,740 --> 00:05:31,580
+What is the derivative
+of this polynomial when
+
+112
+00:05:31,580 --> 00:05:34,660
+you evaluate it at c?
+
+113
+00:05:34,660 --> 00:05:38,650
+Well, when you put c into this
+derivative function, all these
+
+114
+00:05:38,650 --> 00:05:40,180
+other terms are going to drop
+off, and you're just
+
+115
+00:05:40,180 --> 00:05:42,440
+left with this one.
+
+116
+00:05:42,440 --> 00:05:42,640
+Right?
+
+117
+00:05:42,640 --> 00:05:45,930
+Because this x minus c--
+sorry, just had some walnuts.
+
+118
+00:05:45,930 --> 00:05:47,730
+I should have some
+water with it.
+
+119
+00:05:47,730 --> 00:05:50,970
+If you put the c
+here, they drop out.
+
+120
+00:05:50,970 --> 00:05:54,420
+So the derivative of this
+function evaluated at c,
+
+121
+00:05:54,420 --> 00:06:01,000
+is equal to f prime of c.
+
+122
+00:06:01,000 --> 00:06:05,610
+So as you can see, what's neat
+about this Taylor polynomial
+
+123
+00:06:05,610 --> 00:06:10,540
+is, it's equal to the function
+at c, its derivative is equal
+
+124
+00:06:10,540 --> 00:06:14,570
+to the function at c, the
+second derivative is equal
+
+125
+00:06:14,570 --> 00:06:15,590
+to the function at c.
+
+126
+00:06:15,590 --> 00:06:19,820
+And every term you add to the
+Taylor polynomial actually
+
+127
+00:06:19,820 --> 00:06:25,100
+makes it so that that term,
+derivative, of the polynomial
+
+128
+00:06:25,100 --> 00:06:28,190
+evaluated at c, is
+equal to the function.
+
+129
+00:06:28,190 --> 00:06:29,570
+Hope I didn't confuse you.
+
+130
+00:06:29,570 --> 00:06:33,440
+The big picture is, the whole
+thinking behind, I guess, what
+
+131
+00:06:33,440 --> 00:06:36,470
+Taylor thought of, was, wow.
+
+132
+00:06:36,470 --> 00:06:41,270
+If this function is infinitely
+differentiable, meaning that I
+
+133
+00:06:41,270 --> 00:06:43,960
+can take the first, second,
+third, fourth, you know, all
+
+134
+00:06:43,960 --> 00:06:48,460
+the way to infinity derivative
+of this function, I could
+
+135
+00:06:48,460 --> 00:06:51,550
+construct a polynomial like
+this, and i can just keep going
+
+136
+00:06:51,550 --> 00:06:55,960
+by adding more and more terms,
+so that this polynomial's, you
+
+137
+00:06:55,960 --> 00:06:59,350
+know, zeroth derivative, which
+is means the function, the 0,
+
+138
+00:06:59,350 --> 00:07:02,300
+first, second, third, fourth,
+all of this polynomial's
+
+139
+00:07:02,300 --> 00:07:05,610
+derivatives are going to
+be equal to the function.
+
+140
+00:07:05,610 --> 00:07:06,835
+At least around that point.
+
+141
+00:07:06,835 --> 00:07:09,020
+And actually, we'll see that
+there's actually a whole class
+
+142
+00:07:09,020 --> 00:07:11,820
+of functions, that the Taylor
+polynomial, if you were to take
+
+143
+00:07:11,820 --> 00:07:16,960
+the infinite series, is
+actually equal to that
+
+144
+00:07:16,960 --> 00:07:18,180
+function at all points.
+
+145
+00:07:18,180 --> 00:07:18,640
+But anyway.
+
+146
+00:07:18,640 --> 00:07:20,730
+And actually, I talk a little
+bit about that when I prove
+
+147
+00:07:20,730 --> 00:07:24,490
+that e to the i pi is equal to
+negative 1, which to me was the
+
+148
+00:07:24,490 --> 00:07:28,080
+most amazing result
+in mathematics.
+
+149
+00:07:28,080 --> 00:07:29,350
+Whatever, whatever.
+
+150
+00:07:29,350 --> 00:07:31,650
+This might have been a little
+confusing for you, so let's
+
+151
+00:07:31,650 --> 00:07:33,810
+do a particular example.
+
+152
+00:07:33,810 --> 00:07:36,500
+   
+
+153
+00:07:36,500 --> 00:07:38,805
+The particulars are
+always the more fun.
+
+154
+00:07:38,805 --> 00:07:41,450
+   
+
+155
+00:07:41,450 --> 00:07:43,580
+I think when you see me do
+an example, you'll see
+
+156
+00:07:43,580 --> 00:07:45,430
+that it's not so bad.
+
+157
+00:07:45,430 --> 00:07:47,285
+I'm even going to erase
+this fourth term.
+
+158
+00:07:47,285 --> 00:07:51,560
+   
+
+159
+00:07:51,560 --> 00:07:57,630
+So let's approximate, I
+don't know, cosine of x.
+
+160
+00:07:57,630 --> 00:08:00,154
+So let's say that f of x
+is equal to, let me do
+
+161
+00:08:00,154 --> 00:08:01,520
+it in a different color.
+
+162
+00:08:01,520 --> 00:08:06,310
+We want to approximate f of x
+is equal to cosine of access.
+
+163
+00:08:06,310 --> 00:08:07,600
+And let's pick some
+arbitrary number.
+
+164
+00:08:07,600 --> 00:08:09,650
+Let's not pick some number
+that works well with
+
+165
+00:08:09,650 --> 00:08:10,550
+trigonometric functions.
+
+166
+00:08:10,550 --> 00:08:14,200
+Let's pick around, let's
+say c is equal to 2.
+
+167
+00:08:14,200 --> 00:08:15,710
+No, 1.
+
+168
+00:08:15,710 --> 00:08:22,380
+So we're going to approximate
+cosine of x around 1.
+
+169
+00:08:22,380 --> 00:08:25,100
+So what is the Taylor
+approximation, or the
+
+170
+00:08:25,100 --> 00:08:26,300
+Taylor polynomial?
+
+171
+00:08:26,300 --> 00:08:29,770
+Well, we could just
+chug through this one.
+
+172
+00:08:29,770 --> 00:08:33,280
+p of x, I'll do it in yellow.
+
+173
+00:08:33,280 --> 00:08:37,830
+p of x is equal to f of c.
+
+174
+00:08:37,830 --> 00:08:45,090
+So the function evaluated at c
+is just cosine of 1, right?
+
+175
+00:08:45,090 --> 00:08:48,560
+plus s prime of c.
+
+176
+00:08:48,560 --> 00:08:51,410
+Well, what is the
+derivative of cosine of x?
+
+177
+00:08:51,410 --> 00:08:54,360
+It's minus sine of x, right?
+
+178
+00:08:54,360 --> 00:08:56,820
+Minus sine of x, and we
+want to evaluate it at c.
+
+179
+00:08:56,820 --> 00:09:04,770
+So it's minus sine of 1,
+right? c is one, that's
+
+180
+00:09:04,770 --> 00:09:06,390
+we're approximating around.
+
+181
+00:09:06,390 --> 00:09:10,210
+Times x minus c.
+
+182
+00:09:10,210 --> 00:09:15,320
+And then, plus the
+second derivative of x.
+
+183
+00:09:15,320 --> 00:09:16,150
+So what's the
+second derivative?
+
+184
+00:09:16,150 --> 00:09:18,140
+What's going to be the
+derivative of minus sine,
+
+185
+00:09:18,140 --> 00:09:21,180
+which is minus cosine of x?
+
+186
+00:09:21,180 --> 00:09:23,380
+So it's minus cosine.
+
+187
+00:09:23,380 --> 00:09:25,920
+But we're evaluating it at c,
+so there's actually going
+
+188
+00:09:25,920 --> 00:09:27,080
+to be a number, right?
+
+189
+00:09:27,080 --> 00:09:28,910
+So c is 1.
+
+190
+00:09:28,910 --> 00:09:31,920
+Cosine of 1.
+
+191
+00:09:31,920 --> 00:09:35,570
+Over 2, right?
+
+192
+00:09:35,570 --> 00:09:37,420
+2 factorial is just 2.
+
+193
+00:09:37,420 --> 00:09:42,030
+Times x minus 1 squared,
+oh, sorry, this should
+
+194
+00:09:42,030 --> 00:09:44,500
+be a one, right?
+
+195
+00:09:44,500 --> 00:09:46,480
+I said, c is equal to 1.
+
+196
+00:09:46,480 --> 00:09:49,040
+Times x minus 1 squared.
+
+197
+00:09:49,040 --> 00:09:50,220
+Let's keep going.
+
+198
+00:09:50,220 --> 00:09:53,540
+Plus the third derivative,
+plus, what's the third
+
+199
+00:09:53,540 --> 00:09:55,590
+derivative of cosine?
+
+200
+00:09:55,590 --> 00:09:58,160
+Well, it's the derivative
+of minus cosine, so
+
+201
+00:09:58,160 --> 00:09:59,820
+that's plus sign.
+
+202
+00:09:59,820 --> 00:10:04,380
+So plus sine evaluated at 1.
+
+203
+00:10:04,380 --> 00:10:06,790
+Sine of 1.
+
+204
+00:10:06,790 --> 00:10:12,656
+Divided by 3 factorial,
+so that's 6 over 6 times
+
+205
+00:10:12,656 --> 00:10:16,850
+x minus 3 to third.
+
+206
+00:10:16,850 --> 00:10:22,330
+Sorry, my brain is really,
+I ate too many walnuts.
+
+207
+00:10:22,330 --> 00:10:27,500
+Undo, edit, undo. x minus
+1 to the third, right?
+
+208
+00:10:27,500 --> 00:10:31,540
+And then, let's do one
+more term, just for fun.
+
+209
+00:10:31,540 --> 00:10:33,740
+So then we're going to take the
+fourth derivative, which is the
+
+210
+00:10:33,740 --> 00:10:37,260
+derivative of the third
+derivative, so the third
+
+211
+00:10:37,260 --> 00:10:39,057
+derivative was positive sine,
+so now we're going
+
+212
+00:10:39,057 --> 00:10:41,910
+to be plus cosine.
+
+213
+00:10:41,910 --> 00:10:47,160
+Plus cosine evaluated at
+1 over 4 factorial--
+
+214
+00:10:47,160 --> 00:10:47,790
+what's 4 factorial?
+
+215
+00:10:47,790 --> 00:10:50,180
+It's 3 factorial times 4.
+
+216
+00:10:50,180 --> 00:10:52,590
+So over 24.
+
+217
+00:10:52,590 --> 00:10:55,290
+Times x minus 1 to the fourth.
+
+218
+00:10:55,290 --> 00:10:56,240
+And we could just keep going.
+
+219
+00:10:56,240 --> 00:11:00,590
+The fifth derivative over 5
+evaluated at 1, over 5
+
+220
+00:11:00,590 --> 00:11:03,450
+factorial times x minus 1 to
+the fifth, and just keep
+
+221
+00:11:03,450 --> 00:11:04,800
+adding, but then it will
+take us forever, et
+
+222
+00:11:04,800 --> 00:11:06,380
+cetera, et cetera.
+
+223
+00:11:06,380 --> 00:11:08,660
+So, what does this
+thing look like?
+
+224
+00:11:08,660 --> 00:11:10,730
+And what I'm going to do, is
+I'm going to show you how
+
+225
+00:11:10,730 --> 00:11:13,710
+this polynomial develops
+as we add terms.
+
+226
+00:11:13,710 --> 00:11:14,540
+So let's see.
+
+227
+00:11:14,540 --> 00:11:19,510
+I have this graphing calculator
+that I-- so this thing I
+
+228
+00:11:19,510 --> 00:11:25,960
+got from, just to give them
+credit, it's my.hrw.com.
+
+229
+00:11:25,960 --> 00:11:28,930
+And this is the graph
+of cosine of x.
+
+230
+00:11:28,930 --> 00:11:31,030
+So just the first term here.
+
+231
+00:11:31,030 --> 00:11:32,120
+Cosine of 1.
+
+232
+00:11:32,120 --> 00:11:34,780
+If we were to just to graph the
+first term of this polynomial,
+
+233
+00:11:34,780 --> 00:11:36,810
+what does it look like?
+
+234
+00:11:36,810 --> 00:11:43,510
+So I'll just type in cosine
+of 1, and graph it.
+
+235
+00:11:43,510 --> 00:11:44,110
+So there you go.
+
+236
+00:11:44,110 --> 00:11:45,590
+Just the first term
+of the polynomial.
+
+237
+00:11:45,590 --> 00:11:49,110
+If all of these terms weren't
+here, the polynomial would
+
+238
+00:11:49,110 --> 00:11:50,030
+just be a constant, right?
+
+239
+00:11:50,030 --> 00:11:51,800
+Cosine of one.
+
+240
+00:11:51,800 --> 00:11:54,510
+And it's a pretty bad
+approximation, but at least
+
+241
+00:11:54,510 --> 00:11:56,240
+it equals the function
+at this point.
+
+242
+00:11:56,240 --> 00:11:59,490
+So it gives a something.
+
+243
+00:11:59,490 --> 00:12:00,690
+But let's add some terms.
+
+244
+00:12:00,690 --> 00:12:02,290
+Let's add the
+second term to it.
+
+245
+00:12:02,290 --> 00:12:03,980
+So what was the second term?
+
+246
+00:12:03,980 --> 00:12:08,390
+It was sine of 1 minus sine
+of 1 times x minus 1.
+
+247
+00:12:08,390 --> 00:12:09,210
+Let me add that.
+
+248
+00:12:09,210 --> 00:12:23,650
+   
+
+249
+00:12:23,650 --> 00:12:25,840
+Graph it.
+
+250
+00:12:25,840 --> 00:12:26,960
+There you go.
+
+251
+00:12:26,960 --> 00:12:27,790
+So this is neat.
+
+252
+00:12:27,790 --> 00:12:30,060
+So when you just added 2
+terms, what did we say?
+
+253
+00:12:30,060 --> 00:12:37,330
+The polynomial will be equal to
+the function at x equals 1.
+
+254
+00:12:37,330 --> 00:12:40,380
+And now the slope is also
+equal to the function.
+
+255
+00:12:40,380 --> 00:12:43,160
+The slope of the polynomial is
+also equal to the slope of the
+
+256
+00:12:43,160 --> 00:12:44,840
+function at x is equal to 1.
+
+257
+00:12:44,840 --> 00:12:46,190
+So this is a better
+approximation.
+
+258
+00:12:46,190 --> 00:12:51,550
+At least if we stay pretty
+close to our chosen c, it's
+
+259
+00:12:51,550 --> 00:12:55,490
+a decent approximation
+for the function.
+
+260
+00:12:55,490 --> 00:12:58,620
+Obviously, if we get far away,
+out here, this is a horrible
+
+261
+00:12:58,620 --> 00:12:59,840
+approximation for the function.
+
+262
+00:12:59,840 --> 00:13:01,200
+But let's keep adding terms.
+
+263
+00:13:01,200 --> 00:13:04,000
+As you can see, I just want
+to show you that I'm just
+
+264
+00:13:04,000 --> 00:13:07,950
+typing in the actual terms.
+
+265
+00:13:07,950 --> 00:13:09,850
+So let me type in
+the next term.
+
+266
+00:13:09,850 --> 00:13:12,830
+just so you believe
+that I'm doing it.
+
+267
+00:13:12,830 --> 00:13:15,050
+So the next term,
+we'll have to see it.
+
+268
+00:13:15,050 --> 00:13:16,050
+Let me type it in.
+
+269
+00:13:16,050 --> 00:13:27,440
+So the next term is minus
+cosine of 1 divided by 2
+
+270
+00:13:27,440 --> 00:13:35,420
+times x minus 1 squared.
+
+271
+00:13:35,420 --> 00:13:38,660
+And let me graph it.
+
+272
+00:13:38,660 --> 00:13:39,600
+OK.
+
+273
+00:13:39,600 --> 00:13:42,220
+So now, just to show you, I
+just typed in the second
+
+274
+00:13:42,220 --> 00:13:45,980
+term, and now let's
+look at the graph.
+
+275
+00:13:45,980 --> 00:13:47,970
+Now this is neat, right?
+
+276
+00:13:47,970 --> 00:13:50,720
+So the first term got us a
+horizontal line that just
+
+277
+00:13:50,720 --> 00:13:53,220
+intersected the point at cosine
+of 1, and it was a really
+
+278
+00:13:53,220 --> 00:13:54,190
+bad approximation.
+
+279
+00:13:54,190 --> 00:13:56,590
+Then the second term made sure
+that at least the first
+
+280
+00:13:56,590 --> 00:13:57,910
+derivative was the same.
+
+281
+00:13:57,910 --> 00:14:00,760
+And so then we, the line was
+just essentially the tangent
+
+282
+00:14:00,760 --> 00:14:02,210
+line, we only had 2 terms.
+
+283
+00:14:02,210 --> 00:14:06,320
+Now the third term makes sure
+that the second derivative of
+
+284
+00:14:06,320 --> 00:14:11,980
+our polynomial at x equals 1 is
+equal to the second derivative
+
+285
+00:14:11,980 --> 00:14:14,810
+of the polynomial
+of the function.
+
+286
+00:14:14,810 --> 00:14:19,100
+And notice that this
+green graph is concave
+
+287
+00:14:19,100 --> 00:14:20,390
+downwards, right?
+
+288
+00:14:20,390 --> 00:14:25,110
+Which means that, and so
+is the function at 1.
+
+289
+00:14:25,110 --> 00:14:26,270
+So this is this is pretty neat.
+
+290
+00:14:26,270 --> 00:14:28,350
+We're getting a little bit, so
+it's kind of approximating
+
+291
+00:14:28,350 --> 00:14:30,060
+the curve here.
+
+292
+00:14:30,060 --> 00:14:31,060
+It's getting a
+little bit better.
+
+293
+00:14:31,060 --> 00:14:32,950
+Remember when we went
+out far to the left?
+
+294
+00:14:32,950 --> 00:14:34,910
+Starting to approximate the
+function better around here.
+
+295
+00:14:34,910 --> 00:14:36,310
+It's closer, at least.
+
+296
+00:14:36,310 --> 00:14:36,520
+Right?
+
+297
+00:14:36,520 --> 00:14:38,560
+The last time, the line just
+went up, and here it was a
+
+298
+00:14:38,560 --> 00:14:40,350
+really bad approximation.
+
+299
+00:14:40,350 --> 00:14:42,080
+But let's add another term.
+
+300
+00:14:42,080 --> 00:14:43,120
+Let's add our third term.
+
+301
+00:14:43,120 --> 00:14:46,860
+Our third term, I can see
+it, it's right there.
+
+302
+00:14:46,860 --> 00:14:56,870
+So plus sine of 1 divided
+by 6 times x minus 1
+
+303
+00:14:56,870 --> 00:14:59,950
+to the third power.
+
+304
+00:14:59,950 --> 00:15:01,860
+Just to show you, I just
+typed it in, right there.
+
+305
+00:15:01,860 --> 00:15:06,090
+   
+
+306
+00:15:06,090 --> 00:15:09,060
+Let me graph it.
+
+307
+00:15:09,060 --> 00:15:10,590
+That is neat.
+
+308
+00:15:10,590 --> 00:15:16,240
+Just with three terms on our
+polynomial, well, actually,
+
+309
+00:15:16,240 --> 00:15:18,860
+that's the fourth
+term, officially.
+
+310
+00:15:18,860 --> 00:15:22,040
+But the first term was
+essentially-- well,
+
+311
+00:15:22,040 --> 00:15:23,280
+you get the point.
+
+312
+00:15:23,280 --> 00:15:25,270
+But we're already starting
+to approximate this
+
+313
+00:15:25,270 --> 00:15:26,960
+pretty well, right?
+
+314
+00:15:26,960 --> 00:15:33,320
+Now the third derivative of the
+polynomial is equal to the
+
+315
+00:15:33,320 --> 00:15:36,330
+third derivative of the
+function at the point x is
+
+316
+00:15:36,330 --> 00:15:38,530
+equal to 1, and we haven't even
+studied third derivatives.
+
+317
+00:15:38,530 --> 00:15:41,770
+That's kind of like the
+concativity of the
+
+318
+00:15:41,770 --> 00:15:43,490
+derivative, or whatever.
+
+319
+00:15:43,490 --> 00:15:44,990
+But as we can see,
+it approximates the
+
+320
+00:15:44,990 --> 00:15:45,970
+function even better.
+
+321
+00:15:45,970 --> 00:15:48,290
+Obviously, though, when we
+go further away, it starts
+
+322
+00:15:48,290 --> 00:15:49,000
+to break down again.
+
+323
+00:15:49,000 --> 00:15:50,600
+But pretty close.
+
+324
+00:15:50,600 --> 00:15:52,150
+If all you saw is from
+here to here, it would be
+
+325
+00:15:52,150 --> 00:15:53,880
+hard to tell them apart.
+
+326
+00:15:53,880 --> 00:15:57,180
+Let's add that last
+term we calculated.
+
+327
+00:15:57,180 --> 00:15:58,780
+And this should be pretty neat.
+
+328
+00:15:58,780 --> 00:15:59,520
+Let's see.
+
+329
+00:15:59,520 --> 00:16:01,650
+The last term.
+
+330
+00:16:01,650 --> 00:16:07,730
+Plus cosine sign of
+1 divided by 24.
+
+331
+00:16:07,730 --> 00:16:11,870
+And notice, every term, the
+scaling factor, right?
+
+332
+00:16:11,870 --> 00:16:15,830
+Here's 1, then 1/2, then
+1/6, 1/24-- it becomes
+
+333
+00:16:15,830 --> 00:16:17,160
+a smaller impact on it.
+
+334
+00:16:17,160 --> 00:16:20,220
+And it only starts to matter as
+you move really, really far
+
+335
+00:16:20,220 --> 00:16:22,090
+away from your chosen c.
+
+336
+00:16:22,090 --> 00:16:24,450
+In this case 1, right.
+
+337
+00:16:24,450 --> 00:16:27,130
+The further out you go,
+when you're close to your
+
+338
+00:16:27,130 --> 00:16:28,720
+point that you've picked.
+
+339
+00:16:28,720 --> 00:16:31,040
+these other terms don't
+matter much, right?
+
+340
+00:16:31,040 --> 00:16:33,460
+Because you're doing 1/24,
+and then 1 over 5 factorial,
+
+341
+00:16:33,460 --> 00:16:34,090
+et cetera et cetera.
+
+342
+00:16:34,090 --> 00:16:37,400
+But as you get further and
+further away, these terms
+
+343
+00:16:37,400 --> 00:16:39,400
+become more significant, right?
+
+344
+00:16:39,400 --> 00:16:42,790
+As x gets further and further
+away from 1, and then that's
+
+345
+00:16:42,790 --> 00:16:44,400
+where these start to play in,
+and you see that in
+
+346
+00:16:44,400 --> 00:16:45,710
+the approximation.
+
+347
+00:16:45,710 --> 00:16:48,330
+Anyway, let me graph it.
+
+348
+00:16:48,330 --> 00:17:00,450
+So cosine of 1 divided by 24
+times x minus 1 to the fourth.
+
+349
+00:17:00,450 --> 00:17:01,400
+Let me graph it.
+
+350
+00:17:01,400 --> 00:17:05,240
+   
+
+351
+00:17:05,240 --> 00:17:06,220
+Even neater!
+
+352
+00:17:06,220 --> 00:17:08,470
+And if you have some spare
+time, you might just want to
+
+353
+00:17:08,470 --> 00:17:10,050
+keep adding terms to this.
+
+354
+00:17:10,050 --> 00:17:12,110
+So that's all the
+Taylor polynomial is.
+
+355
+00:17:12,110 --> 00:17:13,440
+And I realize, this is
+probably one of longest
+
+356
+00:17:13,440 --> 00:17:14,370
+videos I've done.
+
+357
+00:17:14,370 --> 00:17:15,790
+I'm pushing 17 minutes.
+
+358
+00:17:15,790 --> 00:17:17,870
+It's a little confusing at
+first, because it gives you
+
+359
+00:17:17,870 --> 00:17:20,730
+this huge formula, and they
+give you the c, and you're
+
+360
+00:17:20,730 --> 00:17:22,710
+like, what is that c, and how
+do I take the derivative?
+
+361
+00:17:22,710 --> 00:17:24,600
+But when you actually try to
+chug through it, you just
+
+362
+00:17:24,600 --> 00:17:25,770
+have to realize, oh.
+
+363
+00:17:25,770 --> 00:17:30,760
+All this is, is saying, we are
+constructing a polynomial that,
+
+364
+00:17:30,760 --> 00:17:35,450
+at some point c that we've
+picked, this polynomial's
+
+365
+00:17:35,450 --> 00:17:38,740
+zeroth, first, second, third,
+fourth, fifth, and so on-th
+
+366
+00:17:38,740 --> 00:17:42,040
+derivative is going to be
+equal to our function.
+
+367
+00:17:42,040 --> 00:17:45,586
+And actually, if we did 10
+terms, or if we did all of the
+
+368
+00:17:45,586 --> 00:17:48,170
+derivatives, these would start
+to actually equal each other.
+
+369
+00:17:48,170 --> 00:17:49,730
+So hopefully that
+didn't confuse you.
+
+370
+00:17:49,730 --> 00:17:53,980
+I know when you see the formula
+at first, it can be kind of
+
+371
+00:17:53,980 --> 00:17:57,770
+daunting, and especially,
+sometimes it's even more
+
+372
+00:17:57,770 --> 00:17:59,600
+daunting when someone
+even explains it to you.
+
+373
+00:17:59,600 --> 00:18:01,420
+But hopefully that gave
+you some intuition.
+
+374
+00:18:01,420 --> 00:18:03,640
+If it didn't,
+ignore this video.
+
+375
+00:18:03,640 --> 00:18:05,142
+See you soon.

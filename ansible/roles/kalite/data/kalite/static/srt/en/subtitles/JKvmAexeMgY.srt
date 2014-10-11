@@ -1,0 +1,135 @@
+1
+00:00:00,185 --> 00:00:03,727
+f of x is equal to 7x minus 5
+
+2
+00:00:03,727 --> 00:00:08,478
+g of x is equal to x to the third power plus 4x
+
+3
+00:00:08,478 --> 00:00:13,788
+and then they ask us to find f times g of x
+
+4
+00:00:13,788 --> 00:00:18,882
+so the first thing to realize is that this notation, f times g of x,
+
+5
+00:00:18,882 --> 00:00:23,930
+is just referring to a function that is the product of f of x and g of x
+
+6
+00:00:23,930 --> 00:00:30,900
+so by definition, this notation just means f of x times g of x
+
+7
+00:00:30,900 --> 00:00:35,138
+and then we just have to substitute f of x with this definition and g of x with this definition
+
+8
+00:00:35,138 --> 00:00:38,862
+and then multiply out these algebraic expressions
+
+9
+00:00:38,862 --> 00:00:44,810
+so f of x is right over there and g of x is right over there
+
+10
+00:00:44,810 --> 00:00:46,403
+so lets do it
+
+11
+00:00:46,403 --> 00:00:56,292
+so this is going to be equal to, switch back to the orange color, is going to be equal to f of x which is 7x minus five times g of x
+
+12
+00:00:56,292 --> 00:01:03,595
+and g of x is x to the third power plus 4x
+
+13
+00:01:03,595 --> 00:01:10,071
+and you could, if we were multiplying two expressions that each have two terms, you could use FOIL if you like
+
+14
+00:01:10,071 --> 00:01:14,490
+i don't like using FOIL becuase you might forget what it's even about
+
+15
+00:01:14,490 --> 00:01:18,452
+FOIL is really just using the distributive property twice
+
+16
+00:01:18,452 --> 00:01:21,900
+so, for example, you take this expression, whatever you have out here
+
+17
+00:01:21,900 --> 00:01:26,825
+if you had a 9 out here or an "a" or an "x" or anything, now you have 7x minus 5
+
+18
+00:01:26,825 --> 00:01:32,333
+if your multipling it times this expression you would multiply this times each term over here
+
+19
+00:01:32,333 --> 00:01:35,898
+so when you multuply 7x minus 5 times x to the third
+
+20
+00:01:35,898 --> 00:01:42,518
+you get, and i'll write it this way, you get x to the third times, acutally let me write it the other way
+
+21
+00:01:42,518 --> 00:01:59,615
+you get 7x minus five times x to the third and then you have plus 7x minus 5 times 4x
+
+22
+00:01:59,615 --> 00:02:02,379
+and now we can do the distributive property again
+
+23
+00:02:02,379 --> 00:02:06,821
+we're not normally used to seeing the things we distributed on the right hand side but it's the same exact idea.
+
+24
+00:02:06,821 --> 00:02:08,611
+we could put x to the third here as well
+
+25
+00:02:08,611 --> 00:02:14,390
+now when we distribute, you multiply x to the third times 7x and times negative 5
+
+26
+00:02:14,390 --> 00:02:20,036
+x to the third times 7x is 7x to the fourth power
+
+27
+00:02:20,036 --> 00:02:24,438
+x to the third times negative 5 is minus 5x to the third
+
+28
+00:02:24,438 --> 00:02:33,667
+and then you do it over here, you distribute the 4x times 7x is plus 28x squared
+
+29
+00:02:33,667 --> 00:02:39,819
+4x times negative 5 is minus 20x
+
+30
+00:02:39,819 --> 00:02:41,549
+and lets see if we can simplify this
+
+31
+00:02:41,549 --> 00:02:47,203
+we only have one fourth degree term, one third degree term, one second degree term, and one first degree term
+
+32
+00:02:47,203 --> 00:02:49,256
+so actually you can't simplify this anymore and we're done!
+
+33
+00:02:49,256 --> 00:02:52,472
+this is the product of those two function definitions
+
+34
+00:02:52,472 --> 00:03:00,503
+this is f times g of x. it is a new function created by multiplying the other two functions.

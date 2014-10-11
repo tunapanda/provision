@@ -1,0 +1,407 @@
+1
+00:00:00,060 --> 00:00:01,930
+Problem 15.
+
+2
+00:00:01,930 --> 00:00:07,490
+A restaurant is advertising 3-item combination specials
+
+3
+00:00:07,490 --> 00:00:11,600
+that must include a main dish, a vegetable, and a drink.
+
+4
+00:00:11,600 --> 00:00:13,890
+OK, so you have to have at least one of these.
+
+5
+00:00:13,890 --> 00:00:16,100
+So what are they going to ask us?
+
+6
+00:00:16,100 --> 00:00:18,500
+How many 3-item combinations
+
+7
+00:00:18,500 --> 00:00:28,450
+include a soft drink and a corn?
+
+8
+00:00:28,450 --> 00:00:31,100
+So let's reread what the conditions are.
+
+9
+00:00:31,100 --> 00:00:33,430
+A restaurant is advertising 3-item combination specials
+
+10
+00:00:33,430 --> 00:00:38,190
+that must include a main dish, a vegetable, and a drink.
+
+11
+00:00:38,190 --> 00:00:40,770
+So you pick one from each of these buckets.
+
+12
+00:00:40,770 --> 00:00:43,200
+So they're already picking two of the buckets for us.
+
+13
+00:00:43,200 --> 00:00:49,960
+It includes a soft drink, and it has to include a corn.
+
+14
+00:00:49,960 --> 00:00:53,070
+So they've essentially already picked our choices
+
+15
+00:00:53,070 --> 00:00:55,830
+from this bucket and that bucket right there.
+
+16
+00:00:55,830 --> 00:00:58,280
+And they're saying, how many combinations are left?
+
+17
+00:00:58,280 --> 00:01:00,120
+Well, we only have two choices.
+
+18
+00:01:00,120 --> 00:01:04,040
+We only have freedom when it comes to picking the main dish.
+
+19
+00:01:04,040 --> 00:01:05,440
+Because the problem has already picked
+
+20
+00:01:05,440 --> 00:01:07,670
+for us our vegetable and our drink,
+
+21
+00:01:07,670 --> 00:01:08,960
+the corn and the soft drink.
+
+22
+00:01:08,960 --> 00:01:11,310
+And so there's only two possible main dishes,
+
+23
+00:01:11,310 --> 00:01:14,140
+so those are the 3-item combinations
+
+24
+00:01:14,140 --> 00:01:16,220
+that include a soft drink and a corn.
+
+25
+00:01:16,220 --> 00:01:19,140
+There's two possible ones, chicken and beef.
+
+26
+00:01:19,140 --> 00:01:20,180
+So it's two.
+
+27
+00:01:20,180 --> 00:01:21,600
+Just to make sure you understand that,
+
+28
+00:01:21,600 --> 00:01:23,930
+what are the two combinations, just to make it explicit?
+
+29
+00:01:23,930 --> 00:01:28,700
+Well, one combination is chicken, corn, and soft drink.
+
+30
+00:01:28,700 --> 00:01:29,000
+Right?
+
+31
+00:01:29,000 --> 00:01:31,400
+They're forcing the corn and the soft drink on us.
+
+32
+00:01:31,400 --> 00:01:35,930
+And then the other combination is beef, corn, and soft drink
+
+33
+00:01:35,930 --> 00:01:37,060
+That's the second combination,
+
+34
+00:01:37,060 --> 00:01:39,250
+because they're forcing the corn and the soft drink on us.
+
+35
+00:01:39,250 --> 00:01:41,170
+So there's two combinations.
+
+36
+00:01:41,170 --> 00:01:42,240
+But the way I just thought about
+
+37
+00:01:42,240 --> 00:01:44,870
+that is this thing has been constrained for us,
+
+38
+00:01:44,870 --> 00:01:46,770
+the vegetable and the drink, so you can ignore it.
+
+39
+00:01:46,770 --> 00:01:49,150
+And so how many combinations of main dishes are there?
+
+40
+00:01:49,150 --> 00:01:49,750
+Well, there's two.
+
+41
+00:01:49,750 --> 00:01:50,510
+I just counted them.
+
+42
+00:01:50,510 --> 00:01:51,430
+Chicken and beef.
+
+43
+00:01:51,430 --> 00:01:53,490
+Problem 16.
+
+44
+00:01:53,490 --> 00:01:59,140
+Donald priced six personal Compact Disc players.
+
+45
+00:01:59,140 --> 00:02:01,830
+And they wrote the CD right there.
+
+46
+00:02:01,830 --> 00:02:03,760
+The prices are shown below.
+
+47
+00:02:03,760 --> 00:02:06,190
+OK, so these are six CD players.
+
+48
+00:02:06,190 --> 00:02:08,480
+What is the median price?
+
+49
+00:02:08,480 --> 00:02:11,220
+So the trick of this problem is just knowing
+
+50
+00:02:11,220 --> 00:02:12,330
+what median means.
+
+51
+00:02:12,330 --> 00:02:14,730
+Median literally means the middle price.
+
+52
+00:02:14,730 --> 00:02:17,320
+So if I were to put all of these numbers in order,
+
+53
+00:02:17,320 --> 00:02:19,690
+which I'm going to do right now,
+
+54
+00:02:19,690 --> 00:02:21,580
+the median is going to be the middle number.
+
+55
+00:02:21,580 --> 00:02:22,310
+So let's put them in order.
+
+56
+00:02:22,310 --> 00:02:23,780
+What's the smallest number here?
+
+57
+00:02:23,780 --> 00:02:24,970
+21.
+
+58
+00:02:24,970 --> 00:02:26,860
+Cross that out.
+
+59
+00:02:26,860 --> 00:02:28,740
+And then we have another 21.
+
+60
+00:02:28,740 --> 00:02:30,450
+So let me write that down.
+
+61
+00:02:30,450 --> 00:02:33,150
+I'll cross that out, make sure I know I used it.
+
+62
+00:02:33,150 --> 00:02:36,910
+The next largest number is 23.
+
+63
+00:02:36,910 --> 00:02:38,810
+So let me cross that out.
+
+64
+00:02:38,810 --> 00:02:43,300
+The next largest number is 25.
+
+65
+00:02:43,300 --> 00:02:44,850
+Cross that out.
+
+66
+00:02:44,850 --> 00:02:46,730
+Next largest number is 31.
+
+67
+00:02:46,730 --> 00:02:48,770
+Cross that out.
+
+68
+00:02:48,770 --> 00:02:52,430
+And then the next number is 39.
+
+69
+00:02:52,430 --> 00:02:54,360
+So what is the middle number here?
+
+70
+00:02:54,360 --> 00:02:56,850
+Well, you see we have six numbers,
+
+71
+00:02:56,850 --> 00:02:58,650
+and, actually, there is no middle number.
+
+72
+00:02:58,650 --> 00:03:00,050
+If we have an even number of numbers,
+
+73
+00:03:00,050 --> 00:03:01,490
+there's no single middle number.
+
+74
+00:03:01,490 --> 00:03:04,410
+There's two numbers that we can kind of view as the middle.
+
+75
+00:03:04,410 --> 00:03:06,700
+These two numbers here are the middle.
+
+76
+00:03:06,700 --> 00:03:07,000
+Right?
+
+77
+00:03:07,000 --> 00:03:09,050
+I can't say 23 by itself is the middle,
+
+78
+00:03:09,050 --> 00:03:12,700
+because there's two above it and three below it.
+
+79
+00:03:12,700 --> 00:03:14,490
+And I can't say 25 is the middle,
+
+80
+00:03:14,490 --> 00:03:16,910
+because there's two below it and three above it.
+
+81
+00:03:16,910 --> 00:03:20,780
+So when you have an even number of, I guess, data,
+
+82
+00:03:20,780 --> 00:03:23,640
+like you have right here, you pick the middle two.
+
+83
+00:03:23,640 --> 00:03:26,620
+If I had the numbers 1, 2, and 3,
+
+84
+00:03:26,620 --> 00:03:29,890
+then I could just pick the 2.
+
+85
+00:03:29,890 --> 00:03:32,110
+But if I have 1, 2, 3, and 4,
+
+86
+00:03:32,110 --> 00:03:34,360
+I have to pick the middle two numbers.
+
+87
+00:03:34,360 --> 00:03:38,070
+So here I pick the middle two numbers, and I need a median.
+
+88
+00:03:38,070 --> 00:03:41,080
+And so what I do is I average these middle two numbers.
+
+89
+00:03:41,080 --> 00:03:43,440
+I take the mean, or I go right in between them.
+
+90
+00:03:43,440 --> 00:03:46,410
+So what's exactly in between 23 and 25?
+
+91
+00:03:46,410 --> 00:03:47,650
+Well, you can do that in your head.
+
+92
+00:03:47,650 --> 00:03:48,810
+It's going to be 24.
+
+93
+00:03:48,810 --> 00:03:50,970
+But if you can't do it in your head,
+
+94
+00:03:50,970 --> 00:03:52,900
+you literally would just add those two numbers,
+
+95
+00:03:52,900 --> 00:03:56,580
+23 plus 25, and then divide by 2.
+
+96
+00:03:56,580 --> 00:04:02,890
+So this is going to be equal to 48 divided by 2,which is $24
+
+97
+00:04:02,890 --> 00:04:03,900
+And I just explained that to you,
+
+98
+00:04:03,900 --> 00:04:05,600
+and just in case you got the situation
+
+99
+00:04:05,600 --> 00:04:07,460
+where these are some weird decimal numbers,
+
+100
+00:04:07,460 --> 00:04:09,190
+or these were much larger numbers,
+
+101
+00:04:09,190 --> 00:04:10,010
+where you couldn't just say, hey,
+
+102
+00:04:10,010 --> 00:04:13,630
+24 is right in between those two guys right there.

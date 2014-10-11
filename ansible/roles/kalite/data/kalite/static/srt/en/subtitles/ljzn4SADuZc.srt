@@ -1,0 +1,99 @@
+1
+99:59:59,999 --> 99:59:59,999
+Let's try to come up with a mathematically rigorous definition for what this statement means.
+
+2
+99:59:59,999 --> 99:59:59,999
+The statement that f(x) as x approaches c is equal to L
+
+3
+99:59:59,999 --> 99:59:59,999
+So let's say that this means that you can get
+
+4
+99:59:59,999 --> 99:59:59,999
+you can get f(x)
+
+5
+99:59:59,999 --> 99:59:59,999
+as close to L as you want
+
+6
+99:59:59,999 --> 99:59:59,999
+I'll put that in quotes right over here...
+
+7
+99:59:59,999 --> 99:59:59,999
+but as close as you want
+
+8
+99:59:59,999 --> 99:59:59,999
+by getting x sufficiently close
+
+9
+99:59:59,999 --> 99:59:59,999
+to c, so another way of saying this is if you tell me
+
+10
+99:59:59,999 --> 99:59:59,999
+"hey I want to get my f(x) to be within 0.5 of this limit", then you're telling me if this
+
+11
+99:59:59,999 --> 99:59:59,999
+limit is actually true, then you should be able to hand me a value around
+
+12
+99:59:59,999 --> 99:59:59,999
+c that if x is within that range, that f(x) is definitely going to be as close to L as I desire.
+
+13
+99:59:59,999 --> 99:59:59,999
+So let me draw that out to make it a little bit clearer and I'm gonna zoom in
+
+14
+99:59:59,999 --> 99:59:59,999
+and I'll draw another diagram. So let's say that...
+
+15
+99:59:59,999 --> 99:59:59,999
+that is my y-axis and I'm gonna zoom in
+
+16
+99:59:59,999 --> 99:59:59,999
+and I'll draw a slightly different function just so that we can
+
+17
+99:59:59,999 --> 99:59:59,999
+focus on what's going on around here, the range
+
+18
+99:59:59,999 --> 99:59:59,999
+is around c and the range is around L
+
+19
+99:59:59,999 --> 99:59:59,999
+so that's x
+
+20
+99:59:59,999 --> 99:59:59,999
+right over here is y
+
+21
+99:59:59,999 --> 99:59:59,999
+this is c, and let's just say
+
+22
+99:59:59,999 --> 99:59:59,999
+our function is doing something like
+
+23
+99:59:59,999 --> 99:59:59,999
+doing something like --let's see I don't want it to be defined
+
+24
+99:59:59,999 --> 99:59:59,999
+at c, at least just for the--. It could be, you could always find the limit even
+
+25
+99:59:59,999 --> 99:59:59,999
+when it's undefined. But let's just say our function looks something like that.

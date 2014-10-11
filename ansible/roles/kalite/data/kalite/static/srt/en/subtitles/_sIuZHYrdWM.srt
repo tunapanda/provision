@@ -1,0 +1,119 @@
+1
+00:00:00,969 --> 00:00:02,864
+Factor out the greatest common factor.
+
+2
+00:00:02,864 --> 00:00:07,610
+And the expression it gives us is 4x^4 y + 8x^3 y.
+
+3
+00:00:07,610 --> 00:00:09,440
+When they say to factor out the greatest common factor,
+
+4
+00:00:09,440 --> 00:00:11,948
+they're essentially telling us to find the greatest common factor of
+
+5
+00:00:11,948 --> 00:00:18,507
+4x^4 y and 8x^3 y and factor it out of this expression, kind of undistribute it.
+
+6
+00:00:18,507 --> 00:00:24,036
+And to find that greatest common factor, now I always put it in quotes when we speak in kind of algebraic terms.
+
+7
+00:00:24,036 --> 00:00:27,190
+Because we don't really know what "x" and "y" are - whether they're positive or negative,
+
+8
+00:00:27,190 --> 00:00:29,369
+or whether they are greater than or less than 1.
+
+9
+00:00:29,369 --> 00:00:32,109
+So it's not always going to be the greatest absolute number,
+
+10
+00:00:32,109 --> 00:00:38,168
+but it's kind of the greatest and it contains the most terms of these two expressions, these two monomials.
+
+11
+00:00:38,168 --> 00:00:46,281
+So if we were to essentially factor out 4x^4 y, it would look like this.
+
+12
+00:00:46,281 --> 00:00:59,865
+We do the prime factorization of 4, which is just 2 times 2, times x^4, which is "x" times "x" times "x" times "x",
+
+13
+00:00:59,865 --> 00:01:06,302
+times "y", and we just kind of expanded it out as the product of its basic constituents.
+
+14
+00:01:06,302 --> 00:01:24,302
+Now let's do the same thing for 8x^3, so we have in this situation 8x^3 y.
+
+15
+00:01:24,302 --> 00:01:28,369
+So the prime factorization of 8 is 2 times 2 times 2.
+
+16
+00:01:28,369 --> 00:01:31,969
+It's 2 times 2 times 2.
+
+17
+00:01:31,969 --> 00:01:36,782
+Prime, or I should say, the factorization of x^3, the expansion of it,
+
+18
+00:01:36,782 --> 00:01:42,303
+is just "x" times "x" times "x", x multiplied by itself 3 times.
+
+19
+00:01:42,303 --> 00:01:46,969
+And then we are multiplying everything by "y" here.
+
+20
+00:01:46,969 --> 00:01:51,702
+So what factors are common to both of these? And you want to I include as many as possible to find
+
+21
+00:01:51,702 --> 00:01:54,369
+this "greatest common factor".
+
+22
+00:01:54,369 --> 00:01:57,443
+So we have 2 2's here, 3 2's here,
+
+23
+00:01:57,443 --> 00:02:02,025
+so we only have 2 2's in common in both of them.
+
+24
+00:02:02,025 --> 00:02:06,970
+We have 4 "x"s here, only 3 "x"s here, so we only have three "x"s in common.
+
+25
+00:02:06,970 --> 00:02:10,042
+3 "x"s and 3 "x"s.
+
+26
+00:02:10,042 --> 00:02:14,842
+We have a "y" here and a "y" here, so "y" is common to both, to both expressions,
+
+27
+00:02:14,842 --> 00:02:24,036
+So the greatest common factor here is going to be 2 times 2 times "x" times "x" times "x"
+
+28
+00:02:24,036 --> 00:02:31,503
+times "y", or 4x^3, 4x^3 y.
+
+29
+00:02:31,503 --> 00:02:33,643
+So this is what we want to factor out.
+
+30
+00:02:33,643 --> 00:02:37,643
+So that means that we can write this as

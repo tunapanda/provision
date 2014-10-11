@@ -1,0 +1,399 @@
+1
+00:00:00,315 --> 00:00:02,123
+Let's say you're me and you're in math class
+
+2
+00:00:02,123 --> 00:00:03,964
+and you're supposed to be learning trigonometry
+
+3
+00:00:03,964 --> 00:00:05,622
+but you're having trouble paying attention because
+
+4
+00:00:05,622 --> 00:00:07,879
+is boring and stupid. This is not your fault.
+
+5
+00:00:07,879 --> 00:00:09,307
+It's not even your teacher's fault.
+
+6
+00:00:09,322 --> 00:00:12,576
+It's pi's fault, because pi is wrong.
+
+7
+00:00:12,622 --> 00:00:15,999
+I don't mean that pi is incorrect. The ratio of a circle's diameter
+
+8
+00:00:15,999 --> 00:00:18,011
+is still 3,14 and so on.
+
+9
+00:00:18,011 --> 00:00:21,231
+I mean that pi, as a concept, is a terrible mistake
+
+10
+00:00:21,231 --> 00:00:23,754
+that has gone uncorrected for thousends of years.
+
+11
+00:00:23,754 --> 00:00:26,587
+The problem with pi and pie days is the same as the problem with
+
+12
+00:00:26,587 --> 00:00:30,815
+Columbus and Columbus day. Sure Christopher Columbus was a real person who did some stuff,
+
+13
+00:00:30,815 --> 00:00:34,249
+but everything you learn about him in school is worked and overemphasised.
+
+14
+00:00:34,249 --> 00:00:39,281
+He didn't discover America, he didn't discover the world was round, and he was a bit of a jerk.
+
+15
+00:00:39,281 --> 00:00:41,539
+So why do we celebrate Columbus day?
+
+16
+00:00:41,539 --> 00:00:44,180
+Same with pi. You learn in school that pi is the all important
+
+17
+00:00:44,180 --> 00:00:47,401
+circle constant, and had to memorize a whole bunch of equations involving it.
+
+18
+00:00:47,401 --> 00:00:50,503
+Because that's the way it's been taught for a very long time.
+
+19
+00:00:50,503 --> 00:00:53,858
+If you found any of this equations confusing, it's not your fault,
+
+20
+00:00:53,858 --> 00:00:55,738
+it's just that pi is wrong.
+
+21
+00:00:55,738 --> 00:00:57,317
+Let me show you what I mean.
+
+22
+00:00:57,317 --> 00:00:59,530
+Radians, good system for meassuring angles when
+
+23
+00:00:59,530 --> 00:01:02,347
+it comes to mathematics. It should make sense, but it doesn't
+
+24
+00:01:02,347 --> 00:01:04,069
+because pi messes it up.
+
+25
+00:01:04,069 --> 00:01:06,124
+For example, how much pi is this?
+
+26
+00:01:06,124 --> 00:01:09,915
+You might think this should be one pi, but it's not.
+
+27
+00:01:09,915 --> 00:01:13,778
+The full 360° of pie is actually 2pi.
+
+28
+00:01:13,778 --> 00:01:14,846
+What?
+
+29
+00:01:14,846 --> 00:01:16,815
+Say I ask you how much pie you want, and you say pi/8.
+
+30
+00:01:16,815 --> 00:01:19,668
+You'd think that should be an eight of a pie, but it's not.
+
+31
+00:01:19,668 --> 00:01:21,663
+It's a sixteenth of a pie.
+
+32
+00:01:21,663 --> 00:01:23,254
+That's confusing.
+
+33
+00:01:23,439 --> 00:01:26,356
+You may be thinking, come on Vi, it's a simple conversion,
+
+34
+00:01:26,356 --> 00:01:30,581
+all you have to do is divide by 2. Or multiply by 2 if you're going the other way.
+
+35
+00:01:30,581 --> 00:01:33,901
+So you just have to make sure... you pay... attention... to which way you star...
+
+36
+00:01:33,901 --> 00:01:36,247
+No! You're making excuses for pi.
+
+37
+00:01:36,247 --> 00:01:39,590
+Mathemathics should be as elegant and beautiful as possible.
+
+38
+00:01:39,590 --> 00:01:42,543
+When you complicate something that should be as simple as
+
+39
+00:01:42,543 --> 00:01:44,468
+1 pi equals 1 pie
+
+40
+00:01:44,468 --> 00:01:48,600
+by adding all this conversions, something gets lost in translation.
+
+41
+00:01:48,600 --> 00:01:51,620
+But Vi, you ask, is there a better way?
+
+42
+00:01:51,620 --> 00:01:53,975
+Well for this particular example there's an easy answer
+
+43
+00:01:53,975 --> 00:01:57,324
+for what you'd have to do to make a pie be one pi instead of 2pi.
+
+44
+00:01:57,324 --> 00:02:01,484
+You can redefine pi to be 2pi. Or 6,28 and so on.
+
+45
+00:02:01,484 --> 00:02:05,635
+But I don't want to redefine pi because that would be confusing.
+
+46
+00:02:05,635 --> 00:02:07,410
+So let's use a different letter: tau.
+
+47
+00:02:07,410 --> 00:02:09,716
+Because tau looks kind of like pi.
+
+48
+00:02:09,716 --> 00:02:13,319
+A full circle would be one tau, a half circle would be a half tau. Or tau/2.
+
+49
+00:02:13,319 --> 00:02:18,973
+And if you want 1/16 of this pie, you want tau/16.
+
+50
+00:02:18,973 --> 00:02:21,047
+That would be simple.
+
+51
+00:02:21,047 --> 00:02:25,414
+But Vi, you say, that seems rather arbitrary. Sure tau makes radians easier
+
+52
+00:02:25,414 --> 00:02:29,543
+but it would be annoying to have to convert between tau and pi everytime you wanna work in radians.
+
+53
+00:02:29,543 --> 00:02:33,414
+True, but the way of mathematics is to make stuff up and see what happens.
+
+54
+00:02:33,414 --> 00:02:36,068
+So let's see what happens if we use tau in other equations.
+
+55
+00:02:36,068 --> 00:02:40,752
+Math classes make you memorize stuff like this, so you can draw graph like this.
+
+56
+00:02:40,752 --> 00:02:43,951
+I mean, sure you can derive this values everytime, but you don't,
+
+57
+00:02:43,951 --> 00:02:49,515
+because is easier to just memorize it, or use your calculator, because pi and radians are confusing.
+
+58
+00:02:49,515 --> 00:02:54,080
+This appaling notation makes us forget what the sin wave actually represents,
+
+59
+00:02:54,080 --> 00:02:58,075
+which is how high this point is when gone whoever far around this unit circle.
+
+60
+00:02:58,075 --> 00:03:01,418
+When your radians are notated horrificly, all of trigonometry
+
+61
+00:03:01,418 --> 00:03:05,115
+becomes ugly. But it doesn't have to be this way.
+
+62
+00:03:05,115 --> 00:03:06,667
+What if we use tau?
+
+63
+00:03:06,667 --> 00:03:09,299
+Let's make a sin wave starting with tau at zero.
+
+64
+00:03:09,299 --> 00:03:12,025
+The height of sin(tau) is also 0.
+
+65
+00:03:12,025 --> 00:03:14,876
+At tau/4 we've gone a quarter of the way around the circle.
+
+66
+00:03:14,876 --> 00:03:18,926
+The height, or y value at this point is so obviously one when you don't
+
+67
+00:03:18,926 --> 00:03:24,405
+have to do the extra step -- the "in your head" conversion of pi/2 is actually a quarter of a circle.
+
+68
+00:03:24,405 --> 00:03:27,749
+Tau/2, half a circle around, back at zero.
+
+69
+00:03:27,749 --> 00:03:30,907
+3/4 of tau, 3/4 of the way around, -1.
+
+70
+00:03:30,907 --> 00:03:33,751
+A full turn brings us all the way back to zero. And bam!
+
+71
+00:03:33,751 --> 00:03:36,204
+That just make sense. Why?
+
+72
+00:03:36,204 --> 00:03:38,755
+Because we don't make circles using a diameter,
+
+73
+00:03:38,755 --> 00:03:40,837
+we make circle using a radius.
+
+74
+00:03:40,837 --> 00:03:43,273
+The length of the radius is the fundamental thing that
+
+75
+00:03:43,273 --> 00:03:46,312
+determines the circunference of a circle, so why
+
+76
+00:03:46,312 --> 00:03:50,580
+would we define the circle constant as a ratio of the diameter to the circunference.
+
+77
+00:03:50,580 --> 00:03:55,593
+Defining it by ratio of the radius of the circunference makes much more sense.
+
+78
+00:03:55,593 --> 00:03:57,364
+And that's how you get our lovely tau.
+
+79
+00:03:57,364 --> 00:04:00,046
+There's a boat load of important equations and identities where
+
+80
+00:04:00,046 --> 00:04:03,878
+2pi shows up, which could and should be simplified to tau.
+
+81
+00:04:03,878 --> 00:04:06,248
+But Vi, you say, what about e to the i pi?
+
+82
+00:04:06,248 --> 00:04:09,168
+Are you really suggesting we ruin it by making it
+
+83
+00:04:09,168 --> 00:04:12,037
+e to the i tau/2 equals -1?
+
+84
+00:04:12,037 --> 00:04:14,421
+To which I respond, who do you think I am?!
+
+85
+00:04:14,421 --> 00:04:18,611
+I would never suggest doing something so ghastly as killing Euler's identity.
+
+86
+00:04:18,611 --> 00:04:20,905
+Which, by the way, comes from the Euler's formula, which
+
+87
+00:04:20,905 --> 00:04:24,568
+is e to the i theta equals cos theta plus i sin theta.
+
+88
+00:04:24,568 --> 00:04:27,037
+Let's replace theta with tau.
+
+89
+00:04:27,037 --> 00:04:30,741
+It's easy to remember that the sin or y value of a full tau turn
+
+90
+00:04:30,741 --> 00:04:34,845
+of a unit circle is zero. So this is all zero.
+
+91
+00:04:34,845 --> 00:04:38,091
+Cos of a full turn is the x value, which is 1.
+
+92
+00:04:38,091 --> 00:04:41,703
+So check this out, e to the i tau equals one.
+
+93
+00:04:41,703 --> 00:04:43,262
+What now!
+
+94
+00:04:43,262 --> 00:04:46,274
+If you're still not convinced, I recomend reading the Tau manifesto
+
+95
+00:04:46,274 --> 00:04:48,974
+by Michel Hartl, who does a pretty through job addressing
+
+96
+00:04:48,974 --> 00:04:51,846
+every posible complains at tauday.com.
+
+97
+00:04:51,846 --> 00:04:54,081
+If you still want to celebrate pie day, that's fine.
+
+98
+00:04:54,081 --> 00:04:56,078
+You can have your pie and eat it.
+
+99
+00:04:56,078 --> 00:05:03,278
+But I hope you all join me on June 28th, because I'll be making tau and eating too.
+
+100
+00:05:12,432 --> 00:05:16,368
+I've got pie here and pie there, I'm pie-winning.

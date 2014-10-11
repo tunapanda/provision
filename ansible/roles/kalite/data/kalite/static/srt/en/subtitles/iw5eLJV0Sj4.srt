@@ -1,0 +1,195 @@
+1
+99:59:59,999 --> 99:59:59,999
+The goal of this video is to try to figure out
+
+2
+99:59:59,999 --> 99:59:59,999
+the antiderivative of ln(x), and is not completly
+
+3
+99:59:59,999 --> 99:59:59,999
+obvious how to aproach this at first, even if were to I told you
+
+4
+99:59:59,999 --> 99:59:59,999
+to use integration by parts, you would say:
+
+5
+99:59:59,999 --> 99:59:59,999
+'Wait, wait. Integration by parts you are looking for
+
+6
+99:59:59,999 --> 99:59:59,999
+the antiderivative of something that con be expressed
+
+7
+99:59:59,999 --> 99:59:59,999
+as a product of two functions, it looks like I only have one function'
+
+8
+99:59:59,999 --> 99:59:59,999
+but it might become a little bit more obvious
+
+9
+99:59:59,999 --> 99:59:59,999
+i I were to rewright this as the integral of ln(x)
+
+10
+99:59:59,999 --> 99:59:59,999
+times one dx, now you have the product of two functions
+
+11
+99:59:59,999 --> 99:59:59,999
+one is a function of x, it actually not dependent of x
+
+12
+99:59:59,999 --> 99:59:59,999
+it's always gonna be 1, but you could have f(x) = 1
+
+13
+99:59:59,999 --> 99:59:59,999
+And now it might become more obvious to use integration by parts
+
+14
+99:59:59,999 --> 99:59:59,999
+Integration by parts tells us that, if we have an integral
+
+15
+99:59:59,999 --> 99:59:59,999
+that can be veiwed as the product of one function
+
+16
+99:59:59,999 --> 99:59:59,999
+and the derivative of another function
+
+17
+99:59:59,999 --> 99:59:59,999
+this is really just the reverse product rule
+
+18
+99:59:59,999 --> 99:59:59,999
+we've shown that multiple time already, this is gonna
+
+19
+99:59:59,999 --> 99:59:59,999
+be equal to the product of both functions
+
+20
+99:59:59,999 --> 99:59:59,999
+f(x) times g(x) minus the antiderivative of
+
+21
+99:59:59,999 --> 99:59:59,999
+instead of having f and g' we are gonna have
+
+22
+99:59:59,999 --> 99:59:59,999
+f' and g, so f'(x) times g(x) dx
+
+23
+99:59:59,999 --> 99:59:59,999
+And we've seen this multiple times so when you
+
+24
+99:59:59,999 --> 99:59:59,999
+so when you figure it out what should be f and what should be g
+
+25
+99:59:59,999 --> 99:59:59,999
+for f you want to figure it out something that is easy
+
+26
+99:59:59,999 --> 99:59:59,999
+to take the derivative of and it simplifies the things, possibly
+
+27
+99:59:59,999 --> 99:59:59,999
+if you are taking the derivative of it, and for g'(x)
+
+28
+99:59:59,999 --> 99:59:59,999
+you want to find something where it's easy to take the antiderivative of it
+
+29
+99:59:59,999 --> 99:59:59,999
+so, a good candidate for f(x) is ln(x)
+
+30
+99:59:59,999 --> 99:59:59,999
+if you take the derivative of it is 1/x
+
+31
+99:59:59,999 --> 99:59:59,999
+so lets say that f(x) = ln(x), then f'(x) = 1/x
+
+32
+99:59:59,999 --> 99:59:59,999
+and lets set g'(x) = 1 that means g(x) could be equal to x
+
+33
+99:59:59,999 --> 99:59:59,999
+so lets go back right over here so this is going to be equal to
+
+34
+99:59:59,999 --> 99:59:59,999
+this is going to be equal to f(x) times g(x)
+
+35
+99:59:59,999 --> 99:59:59,999
+f(x) time g(x) is x ln(x), so g(x) is x and f(x) is ln(x)
+
+36
+99:59:59,999 --> 99:59:59,999
+I just like writing the x infront of the ln(x)
+
+37
+99:59:59,999 --> 99:59:59,999
+to avoid ambiguity so this is x ln(x) minus
+
+38
+99:59:59,999 --> 99:59:59,999
+the antiderivative of f'(x), which is 1/x times g(x) which is x
+
+39
+99:59:59,999 --> 99:59:59,999
+dx
+
+40
+99:59:59,999 --> 99:59:59,999
+well what's this gonna be equal to? all we have inside the integral
+
+41
+99:59:59,999 --> 99:59:59,999
+this is just 1/x time x which is just equal to 1
+
+42
+99:59:59,999 --> 99:59:59,999
+so this simplifies quite nicely, this is going to end up equaling
+
+43
+99:59:59,999 --> 99:59:59,999
+x ln(x) minus the antiderivtive of just dx
+
+44
+99:59:59,999 --> 99:59:59,999
+or the integral of 1 dx is just minus x
+
+45
+99:59:59,999 --> 99:59:59,999
+and this is just the an antiderivative of this, if we want to
+
+46
+99:59:59,999 --> 99:59:59,999
+write the entire class of antiderivaives we just have to add plus c here
+
+47
+99:59:59,999 --> 99:59:59,999
+And we are done! we figured out the antiderivative
+
+48
+99:59:59,999 --> 99:59:59,999
+of ln(x) and I encourage you to take the derivative of this
+
+49
+99:59:59,999 --> 99:59:59,999
+for this part you are gonna use the product rule

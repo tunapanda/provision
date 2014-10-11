@@ -1,0 +1,75 @@
+1
+00:00:00,839 --> 00:00:06,644
+The function f(x) is defined as f(x) = 49 - (x ^2).
+
+2
+00:00:06,644 --> 00:00:09,646
+Find the value of f(5).
+
+3
+00:00:09,646 --> 00:00:10,949
+So whenever you're dealing with a function,
+
+4
+00:00:10,949 --> 00:00:12,373
+you take your input -- in this case,
+
+5
+00:00:12,373 --> 00:00:14,573
+our input is going to be our 5.
+
+6
+00:00:14,573 --> 00:00:17,062
+We input it into our little function box,
+
+7
+00:00:17,062 --> 00:00:20,371
+and we need to get our output.
+
+8
+00:00:20,371 --> 00:00:23,111
+And they define the function box here as
+
+9
+00:00:23,111 --> 00:00:25,648
+whatever your input is, take that, square it,
+
+10
+00:00:25,648 --> 00:00:28,302
+and then subtract it from 49.
+
+11
+00:00:28,302 --> 00:00:31,013
+So f(5) ...
+
+12
+00:00:31,013 --> 00:00:32,583
+Every time I see an x here,
+
+13
+00:00:32,583 --> 00:00:35,752
+since f(x) is equal to this, every time I see an x,
+
+14
+00:00:35,752 --> 00:00:37,487
+I would replace it with the input.
+
+15
+00:00:37,487 --> 00:00:41,560
+So f(5) is going to be equal to 49 minus ...
+
+16
+00:00:41,560 --> 00:00:45,315
+instead of writing x^2, I would write 5^2.
+
+17
+00:00:45,315 --> 00:00:49,622
+So this is equal to 49 – 25.
+
+18
+00:00:49,622 --> 00:00:55,902
+And 49 - 25 is equal to 24.
+
+19
+00:00:55,902 --> 00:00:57,322
+And we are done.

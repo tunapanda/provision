@@ -1,0 +1,865 @@
+1
+00:00:00,000 --> 00:00:00,690
+   
+
+2
+00:00:00,690 --> 00:00:01,410
+Welcome back.
+
+3
+00:00:01,410 --> 00:00:05,400
+I'm just continuing on with
+hopefully giving you, one, how
+
+4
+00:00:05,400 --> 00:00:07,660
+to actually solve indefinite
+integrals and also giving you a
+
+5
+00:00:07,660 --> 00:00:10,950
+sense of why you solve
+it the way you do.
+
+6
+00:00:10,950 --> 00:00:16,150
+And I think that's often
+missing in some textbooks.
+
+7
+00:00:16,150 --> 00:00:17,780
+But anyway, let's say that this
+is the distance and let me give
+
+8
+00:00:17,780 --> 00:00:21,250
+you a formula, actually, for
+the distance, just for fun.
+
+9
+00:00:21,250 --> 00:00:23,200
+Oh, my phone is ringing.
+
+10
+00:00:23,200 --> 00:00:26,590
+Let me lower the volume,
+because you're more important.
+
+11
+00:00:26,590 --> 00:00:30,610
+So, let's say that the
+distance, s -- this time I'll
+
+12
+00:00:30,610 --> 00:00:34,845
+write it as a function -- let's
+say the distance is -- I said
+
+13
+00:00:34,845 --> 00:00:40,220
+it started at five, so let's
+say it's 2t -- let's say this
+
+14
+00:00:40,220 --> 00:00:42,440
+is actually a cubic function.
+
+15
+00:00:42,440 --> 00:00:47,290
+You're not only accelerating,
+your rate of acceleration
+
+16
+00:00:47,290 --> 00:00:47,970
+is increasing.
+
+17
+00:00:47,970 --> 00:00:50,300
+I think, actually, the rate
+of acceleration, if I'm not
+
+18
+00:00:50,300 --> 00:00:52,340
+mistaken, is actually called
+jerk, but I might have
+
+19
+00:00:52,340 --> 00:00:54,330
+to Wikipedia that.
+
+20
+00:00:54,330 --> 00:00:57,690
+Let's say its 2t to
+the third plus 5.
+
+21
+00:00:57,690 --> 00:01:00,240
+   
+
+22
+00:01:00,240 --> 00:01:08,980
+And let's say I wanted to know
+how far I travel between t
+
+23
+00:01:08,980 --> 00:01:17,540
+equals 2 seconds and
+t equals 5 seconds.
+
+24
+00:01:17,540 --> 00:01:18,100
+Right?
+
+25
+00:01:18,100 --> 00:01:20,130
+I'm not looking for the total
+distance I've traveled.
+
+26
+00:01:20,130 --> 00:01:23,570
+I just want to know how far do
+I travel between time equals 2
+
+27
+00:01:23,570 --> 00:01:25,790
+seconds and time
+equal 5 seconds.
+
+28
+00:01:25,790 --> 00:01:26,040
+Right?
+
+29
+00:01:26,040 --> 00:01:30,610
+So this might be
+2 and this is 5.
+
+30
+00:01:30,610 --> 00:01:33,082
+So an easy way to do that is
+I could just evaluate this
+
+31
+00:01:33,082 --> 00:01:36,920
+function at t equals 5 -- let
+me use a different color.
+
+32
+00:01:36,920 --> 00:01:39,750
+I think it's getting messy --
+I could just evaluate this
+
+33
+00:01:39,750 --> 00:01:40,910
+function at t equals 5.
+
+34
+00:01:40,910 --> 00:01:44,890
+   
+
+35
+00:01:44,890 --> 00:01:53,200
+If t equals 5, 5 to the third
+power is 125, 250, it's 255,
+
+36
+00:01:53,200 --> 00:01:58,640
+so the object has gone 255
+feet at t equals 5, right?
+
+37
+00:01:58,640 --> 00:02:04,070
+And then, at time equals 2,
+the object has gone how far?
+
+38
+00:02:04,070 --> 00:02:05,110
+2 to the third is 8.
+
+39
+00:02:05,110 --> 00:02:05,550
+16.
+
+40
+00:02:05,550 --> 00:02:07,180
+It's gone 21 feet.
+
+41
+00:02:07,180 --> 00:02:09,590
+Right?
+
+42
+00:02:09,590 --> 00:02:12,450
+To figure out how far I
+travelled between time equals 2
+
+43
+00:02:12,450 --> 00:02:18,720
+and time equals 5, I just say s
+of 5 minus s of 2, right?
+
+44
+00:02:18,720 --> 00:02:22,825
+How far did I go after 5
+seconds minus how far I
+
+45
+00:02:22,825 --> 00:02:24,000
+already was after 2 seconds.
+
+46
+00:02:24,000 --> 00:02:33,520
+And this is just 255 minus
+21 and that's, what, 234.
+
+47
+00:02:33,520 --> 00:02:36,480
+234 feet is how far I
+travelled between 2
+
+48
+00:02:36,480 --> 00:02:38,070
+seconds and 5 seconds.
+
+49
+00:02:38,070 --> 00:02:39,040
+Interesting.
+
+50
+00:02:39,040 --> 00:02:40,950
+And I think you're starting to
+get a little intuition about
+
+51
+00:02:40,950 --> 00:02:43,420
+why we evaluated that previous
+indefinite integral in the
+
+52
+00:02:43,420 --> 00:02:45,120
+previous video the way we did.
+
+53
+00:02:45,120 --> 00:02:47,820
+So let's actually draw the
+derivative of this function.
+
+54
+00:02:47,820 --> 00:02:49,220
+So what's the derivative?
+
+55
+00:02:49,220 --> 00:02:53,950
+So let me just call
+that v of t, I guess.
+
+56
+00:02:53,950 --> 00:02:56,690
+v of t is just the derivative,
+right, because it's the rate
+
+57
+00:02:56,690 --> 00:02:59,420
+of change of distance
+with respect to time.
+
+58
+00:02:59,420 --> 00:03:05,530
+3 times 2 is 6t squared and the
+constant disappears, right?
+
+59
+00:03:05,530 --> 00:03:07,010
+So it's just 6t squared.
+
+60
+00:03:07,010 --> 00:03:08,140
+And that makes sense, right?
+
+61
+00:03:08,140 --> 00:03:10,010
+Because your velocity doesn't
+care about where you
+
+62
+00:03:10,010 --> 00:03:11,500
+started off from, right?
+
+63
+00:03:11,500 --> 00:03:13,210
+You're going to be the same
+velocity if you started
+
+64
+00:03:13,210 --> 00:03:15,010
+from 10 feet or if you
+started from 2 feet.
+
+65
+00:03:15,010 --> 00:03:17,520
+Your velocity doesn't really
+matter about where your
+
+66
+00:03:17,520 --> 00:03:18,710
+starting position is.
+
+67
+00:03:18,710 --> 00:03:20,420
+So let's graph this.
+
+68
+00:03:20,420 --> 00:03:20,570
+See?
+
+69
+00:03:20,570 --> 00:03:23,250
+You're actually learning
+a little physics while
+
+70
+00:03:23,250 --> 00:03:24,310
+you're learning calculus.
+
+71
+00:03:24,310 --> 00:03:25,800
+Actually, I think it's silly
+that they're taught as
+
+72
+00:03:25,800 --> 00:03:26,630
+two separate classes.
+
+73
+00:03:26,630 --> 00:03:29,060
+I think physics and calculus
+should just be one
+
+74
+00:03:29,060 --> 00:03:30,960
+fun 2-hour class.
+
+75
+00:03:30,960 --> 00:03:33,330
+But I'll talk about
+that at another time.
+
+76
+00:03:33,330 --> 00:03:36,040
+   
+
+77
+00:03:36,040 --> 00:03:38,100
+So, going back to this.
+
+78
+00:03:38,100 --> 00:03:38,730
+Let me graph that.
+
+79
+00:03:38,730 --> 00:03:39,090
+6t squared.
+
+80
+00:03:39,090 --> 00:03:41,120
+Well, that's just going
+to look like a parabola.
+
+81
+00:03:41,120 --> 00:03:42,110
+Right?
+
+82
+00:03:42,110 --> 00:03:45,440
+It's going to look
+something like this.
+
+83
+00:03:45,440 --> 00:03:46,970
+This is t.
+
+84
+00:03:46,970 --> 00:03:49,090
+This is the velocity.
+
+85
+00:03:49,090 --> 00:03:53,990
+And now, if we just had this
+velocity graph, if we didn't
+
+86
+00:03:53,990 --> 00:03:57,320
+know all of this over
+here and I asked you the
+
+87
+00:03:57,320 --> 00:03:58,070
+same question, though.
+
+88
+00:03:58,070 --> 00:04:02,370
+I said, how far does this
+thing travel between 2
+
+89
+00:04:02,370 --> 00:04:08,420
+seconds and 5 seconds?
+
+90
+00:04:08,420 --> 00:04:08,815
+Right?
+
+91
+00:04:08,815 --> 00:04:12,270
+   
+
+92
+00:04:12,270 --> 00:04:14,990
+Well, I could do it the way
+that we learned in the previous
+
+93
+00:04:14,990 --> 00:04:19,230
+video where I draw a bunch of
+small rectangles, each of a
+
+94
+00:04:19,230 --> 00:04:23,530
+really small width, and I
+multiply it times its
+
+95
+00:04:23,530 --> 00:04:27,565
+instantaneous velocity at
+that exact moment, right?
+
+96
+00:04:27,565 --> 00:04:30,630
+   
+
+97
+00:04:30,630 --> 00:04:35,350
+And then I sum up all of those
+rectangles -- look how pretty
+
+98
+00:04:35,350 --> 00:04:40,350
+that is -- I sum up all
+of the rectangles.
+
+99
+00:04:40,350 --> 00:04:45,930
+And I'll get a pretty good
+approximation for how far
+
+100
+00:04:45,930 --> 00:04:48,850
+I've travelled between
+2 and 5 seconds.
+
+101
+00:04:48,850 --> 00:04:54,070
+Because remember, the area of
+each of these rectangles
+
+102
+00:04:54,070 --> 00:04:57,960
+represents how far I
+traveled in that little
+
+103
+00:04:57,960 --> 00:04:59,960
+amount of time, dt.
+
+104
+00:04:59,960 --> 00:05:05,310
+Because time times a constant
+velocity is equal to distance.
+
+105
+00:05:05,310 --> 00:05:17,480
+But as you can see this also
+tells me the area between
+
+106
+00:05:17,480 --> 00:05:20,130
+t equals 2 and t equals 5.
+
+107
+00:05:20,130 --> 00:05:23,440
+So, not only did I figure out
+the distance between how far I
+
+108
+00:05:23,440 --> 00:05:27,280
+traveled from 2 seconds to 5
+seconds, I also figured out the
+
+109
+00:05:27,280 --> 00:05:31,060
+area under this curve from
+2 seconds to 5 seconds.
+
+110
+00:05:31,060 --> 00:05:38,580
+So, interestingly enough, if I
+just changed this from a to b,
+
+111
+00:05:38,580 --> 00:05:41,920
+and, in general, if you want to
+figure out the area under a
+
+112
+00:05:41,920 --> 00:05:51,680
+curve from a to b, it's just
+the indefinite integral from a
+
+113
+00:05:51,680 --> 00:05:53,790
+to b -- actually, from b to a.
+
+114
+00:05:53,790 --> 00:05:55,650
+The b should be the larger one.
+
+115
+00:05:55,650 --> 00:05:56,920
+b to a.
+
+116
+00:05:56,920 --> 00:05:59,090
+I guess a to b, depending
+on how you say it.
+
+117
+00:05:59,090 --> 00:06:00,360
+Let me write that in a
+different color because I
+
+118
+00:06:00,360 --> 00:06:02,100
+think I'm making it messier.
+
+119
+00:06:02,100 --> 00:06:04,950
+From a to b of this
+velocity function.
+
+120
+00:06:04,950 --> 00:06:10,460
+So, in this case, 6t
+squared d t, right?
+
+121
+00:06:10,460 --> 00:06:13,200
+If these weren't 2 and 5,
+if this was just a and b.
+
+122
+00:06:13,200 --> 00:06:16,370
+And the way you evaluate this
+is you figure out the
+
+123
+00:06:16,370 --> 00:06:21,760
+antiderivative of this inside
+function, and then you evaluate
+
+124
+00:06:21,760 --> 00:06:25,010
+the antiderivative at b,
+and then from that, you
+
+125
+00:06:25,010 --> 00:06:28,040
+subtract it out at a.
+
+126
+00:06:28,040 --> 00:06:32,590
+So in this case, the
+antiderivative of this is 2t to
+
+127
+00:06:32,590 --> 00:06:40,900
+the third and we evaluated at
+b, and we evaluated at a.
+
+128
+00:06:40,900 --> 00:06:42,770
+Actually, let me stick
+to the old numbers.
+
+129
+00:06:42,770 --> 00:06:46,510
+We evaluated it at 5 and
+you evaluated it at 2.
+
+130
+00:06:46,510 --> 00:06:51,240
+So if you evaluated
+it at 5, that's 255.
+
+131
+00:06:51,240 --> 00:06:52,750
+If you evaluate it
+at 2, that's 21.
+
+132
+00:06:52,750 --> 00:06:55,020
+So you're doing the exact same
+thing we did here when we
+
+133
+00:06:55,020 --> 00:06:57,480
+actually had this graph.
+
+134
+00:06:57,480 --> 00:07:01,560
+So I did all of this, not to
+confuse you further, but really
+
+135
+00:07:01,560 --> 00:07:04,580
+just to give you an intuition
+of why one, why the
+
+136
+00:07:04,580 --> 00:07:08,290
+antiderivative is the area
+under the curve, and then two,
+
+137
+00:07:08,290 --> 00:07:21,390
+why-- let's say that a, b-- and
+then why we evaluate
+
+138
+00:07:21,390 --> 00:07:23,560
+it this way.
+
+139
+00:07:23,560 --> 00:07:25,950
+You might see this
+in your books.
+
+140
+00:07:25,950 --> 00:07:29,040
+   
+
+141
+00:07:29,040 --> 00:07:32,560
+This is just saying, if I want
+to figure out the area under a
+
+142
+00:07:32,560 --> 00:07:37,820
+curve from a to b of f of
+x, that we figure out
+
+143
+00:07:37,820 --> 00:07:38,600
+the antiderivative.
+
+144
+00:07:38,600 --> 00:07:42,660
+This capital F is just
+the antiderivative.
+
+145
+00:07:42,660 --> 00:07:45,740
+We just figure out the
+antiderivative and we evaluated
+
+146
+00:07:45,740 --> 00:07:49,940
+at b and we evaluated at a, and
+then we subtract
+
+147
+00:07:49,940 --> 00:07:50,540
+the difference.
+
+148
+00:07:50,540 --> 00:07:51,680
+And that's what we
+did here, right?
+
+149
+00:07:51,680 --> 00:07:53,150
+This is what we did here
+intuitively when we
+
+150
+00:07:53,150 --> 00:07:56,110
+worked with distance.
+
+151
+00:07:56,110 --> 00:07:58,220
+The derivative and the
+antiderivative don't only apply
+
+152
+00:07:58,220 --> 00:08:00,020
+to distance and velocity.
+
+153
+00:08:00,020 --> 00:08:03,870
+But I did this to give you an
+intuition of why this works
+
+154
+00:08:03,870 --> 00:08:07,690
+and why the antiderivative
+is the area under a curve.
+
+155
+00:08:07,690 --> 00:08:10,710
+So let me clear this up and
+just rewrite that last thing
+
+156
+00:08:10,710 --> 00:08:13,490
+I wrote, but maybe a
+little bit cleaner.
+
+157
+00:08:13,490 --> 00:08:17,680
+   
+
+158
+00:08:17,680 --> 00:08:18,650
+OK.
+
+159
+00:08:18,650 --> 00:08:24,380
+So let's say that F of x with a
+big, fat capital F is equal to
+
+160
+00:08:24,380 --> 00:08:30,440
+-- actually, let me do it a
+better way -- let me say that
+
+161
+00:08:30,440 --> 00:08:36,930
+the derivative of big fat F
+of x is equal to f of x.
+
+162
+00:08:36,930 --> 00:08:39,200
+Right?
+
+163
+00:08:39,200 --> 00:08:40,920
+I think, actually, this is the
+fundamental theorem of
+
+164
+00:08:40,920 --> 00:08:43,450
+calculus, but I don't want to
+throw out things without
+
+165
+00:08:43,450 --> 00:08:43,920
+knowing for sure.
+
+166
+00:08:43,920 --> 00:08:46,170
+I have to go make sure.
+
+167
+00:08:46,170 --> 00:08:47,770
+See, I haven't done
+math in a long time.
+
+168
+00:08:47,770 --> 00:08:50,230
+I'm giving you all this based
+on intuition, not necessarily
+
+169
+00:08:50,230 --> 00:08:52,400
+what I'm reading.
+
+170
+00:08:52,400 --> 00:08:56,020
+So the derivative of big F is
+small f, and all we're saying
+
+171
+00:08:56,020 --> 00:09:06,470
+is that if we take the integral
+of small f of x from a to b,
+
+172
+00:09:06,470 --> 00:09:13,480
+dx, that this is big F, it's
+antiderivative, at b minus
+
+173
+00:09:13,480 --> 00:09:16,320
+the antiderivative at a.
+
+174
+00:09:16,320 --> 00:09:18,190
+In the next presentation,
+I'll use this.
+
+175
+00:09:18,190 --> 00:09:19,846
+This is actually pretty easy
+to use once you know how
+
+176
+00:09:19,846 --> 00:09:20,580
+to use antiderivatives.
+
+177
+00:09:20,580 --> 00:09:22,990
+And we did these three videos
+really just to give you -- or
+
+178
+00:09:22,990 --> 00:09:25,165
+actually, is this the third or
+the second -- just to give you
+
+179
+00:09:25,165 --> 00:09:28,720
+an intuition of why this is,
+because I think that's really
+
+180
+00:09:28,720 --> 00:09:30,830
+important if you're ever going
+to really use calculus in your
+
+181
+00:09:30,830 --> 00:09:33,160
+life or write a computer
+program or whatever.
+
+182
+00:09:33,160 --> 00:09:36,280
+And in the next couple videos
+I'll actually apply this to a
+
+183
+00:09:36,280 --> 00:09:38,640
+bunch of problems and you'll
+hopefully see that it's a
+
+184
+00:09:38,640 --> 00:09:42,860
+pretty straightforward
+thing to actually compute.
+
+185
+00:09:42,860 --> 00:09:44,880
+I'll see you in the
+next presentation.
+
+186
+00:09:44,880 --> 00:09:45,200
+

@@ -1,0 +1,379 @@
+1
+00:00:00,580 --> 00:00:06,933
+Let's do a couple of excercises from our probability one module. We have a bag with nine red marbles,
+
+2
+00:00:06,933 --> 00:00:13,793
+two blue marbles, and three green marbles in it. What is the probability of randomly selecting a
+
+3
+00:00:13,793 --> 00:00:22,571
+non-blue marble from the bag? So lets draw this bag here. So that's my bag. We're going to assume that
+
+4
+00:00:22,617 --> 00:00:30,790
+it's a transparent bag. That looks like a vase. We have nine red marbles. So we draw nine red marbles.
+
+5
+00:00:30,790 --> 00:00:40,867
+One, two, three, four, five, six, seven, eight, nine red marbles. That looks some kind of orangesh but
+
+6
+00:00:40,867 --> 00:00:49,165
+does the job. Two blue marbles. So we have one blue marble. Two blue marbles. And then we have three
+
+7
+00:00:49,227 --> 00:00:57,667
+green marbles. Three green marbles. Let me draw those three...One, two, three. What is the probability
+
+8
+00:00:57,852 --> 00:01:02,200
+of randomly selecting a non-blue marble from the bag? We mix them all up,
+
+9
+00:01:02,200 --> 00:01:06,038
+and we have an equal probability of selecting any one of these. And the way you just think
+
+10
+00:01:06,038 --> 00:01:12,427
+about it is: What fraction of all of the possible events meet our constraints. So lets just think about
+
+11
+00:01:12,581 --> 00:01:18,141
+all of the possible events first. How many different possible marbles can we take out? Thats just the
+
+12
+00:01:18,325 --> 00:01:22,524
+total number of marbles their are. There are one, two, three, four, five, six, seven, eight, nine , ten,
+
+13
+00:01:22,524 --> 00:01:35,109
+eleven, twelve, thirteen, fourteen possible marbles. So this is the number of possibilities. And then
+
+14
+00:01:35,109 --> 00:01:38,917
+we just have to think what fraction of those possibilities meet our constraints?
+
+15
+00:01:38,917 --> 00:01:44,118
+The other way you could have gotten fourteen was by taking 9 + 2 + 3. So what number
+
+16
+00:01:44,118 --> 00:01:48,600
+of the possiblities meet our constraints. And remember our constraint is selecting a non-blue
+
+17
+00:01:48,600 --> 00:01:59,769
+marble from the bag. Another way of thinking about it is a red or a green marble. So how many non-blue
+
+18
+00:01:59,769 --> 00:02:03,530
+marbles are there? Well there's a couple of ways of think about it. You could say there is 14
+
+19
+00:02:03,530 --> 00:02:12,772
+total marbles: two are blue, so there are going to be 14 minus 2 which is 12 non-blue marbles.
+
+20
+00:02:12,772 --> 00:02:22,942
+Or, you could just count them: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. So there are twelve non-blue marbles.
+
+21
+00:02:22,942 --> 00:02:30,280
+So that's the number of non-blue, so these are the possibilities that meet our constraints
+
+22
+00:02:30,280 --> 00:02:37,524
+over all of the possibilities. And then, if we want to- this isn't in lowest simplified... this isn't in simplified
+
+23
+00:02:37,524 --> 00:02:41,936
+form right here, since both 12 and 14 are divisible by 2- lets divide both the numerator
+
+24
+00:02:41,936 --> 00:02:49,273
+and the denominator by 2 and you get 6 over 7. So we have a six-seventh chance of
+
+25
+00:02:49,273 --> 00:02:54,958
+selecting a non-blue marble from the bag. Let's do another one.
+
+26
+00:02:55,127 --> 00:03:00,667
+If a number is randomly chosen from the following list, what is the probability
+
+27
+00:03:00,667 --> 00:03:08,175
+that the number is a multiple of five? So once again, we want to find the fraction of
+
+28
+00:03:08,175 --> 00:03:14,128
+the total possibilities that meet our constraint. And our constraint is being a multiple of five. So
+
+29
+00:03:14,236 --> 00:03:22,942
+how many total possibilities are there? Let's think about that. Total possibilities... How many
+
+30
+00:03:22,942 --> 00:03:29,583
+do we have? That's just the total number of numbers we have to pick from. So that's just 1, 2, 3, 4, 5, 6,
+
+31
+00:03:29,583 --> 00:03:37,600
+7, 8, 9, 10, 11, 12. So there are 12 possibilites. We have an equal chance of picking anyone of these 12.
+
+32
+00:03:37,600 --> 00:03:41,611
+Now, which of these twelve are a multiple of five?
+
+33
+00:03:41,611 --> 00:03:47,509
+So let's we do this in a different color, so let me pick out the multiples of five.
+
+34
+00:03:47,509 --> 00:03:53,175
+32 is not a multiple of five, 49 is not a multiple of five, 55 is a multiple of five.
+
+35
+00:03:53,175 --> 00:03:57,912
+Really we're just looking for the numbers that in the ones place either have a five or a zero.
+
+36
+00:03:57,912 --> 00:04:06,875
+55 is a multiple of five, 30 is a multiple of 5, that's 6 times 5, 55 is 11 times 5, not 56, not 28,
+
+37
+00:04:06,875 --> 00:04:16,441
+This is clearly 5 times 10, this is 8 times 5, this is the same number again, also 8 times 5,
+
+38
+00:04:16,441 --> 00:04:23,593
+so all of these are multiples of 5, 45, that's a 9 times 5, 3 not a multiple of 5, 25 clearly 5 times 5.
+
+39
+00:04:23,593 --> 00:04:28,934
+So I circled all the multiples of 5. So, of all the possibilities, the ones that meet
+
+40
+00:04:28,934 --> 00:04:36,907
+our constraint of being a multiple of five, there are : 1, 2, 3, 4, 5, 6, 7 possibilities.
+
+41
+00:04:37,245 --> 00:04:45,605
+So 7 meet our constraint.
+
+42
+00:04:45,605 --> 00:04:52,943
+So, in this example, the probability of selecting a number that is a multiple of 5, is seven twelves.
+
+43
+00:04:52,943 --> 00:04:57,365
+Let's do another one.
+
+44
+00:04:57,672 --> 00:05:07,943
+The circumference of a circle is 36 pi. Let's draw this. So the circle looks like...
+
+45
+00:05:07,943 --> 00:05:11,844
+I can draw a neater circle than that. So let's say the circle loks something like that.
+
+46
+00:05:11,844 --> 00:05:17,400
+And its circumference, we have to be carefull here, they're giving us interesting... so circumference ...
+
+47
+00:05:17,400 --> 00:05:28,000
+the circumference is 36 pi, then they tell us that contained in that circle is a smaller circle
+
+48
+00:05:28,000 --> 00:05:34,182
+with area 16 pi. So inside the bigger circle we have a smaller circle that has...
+
+49
+00:05:34,182 --> 00:05:38,918
+this guy right over here that has an area of 16 pi.
+
+50
+00:05:38,918 --> 00:05:44,584
+A point is selected at random from inside the larger circle, so we're gonna randomly select some point in
+
+51
+00:05:44,584 --> 00:05:51,600
+this larger circle. What is the probability that the point also lies in this smaller circle?
+
+52
+00:05:51,600 --> 00:05:54,959
+So here's a little bit interesting, 'cause you actually have an infinite number of points in both of
+
+53
+00:05:55,021 --> 00:06:03,532
+these circles, because it's ... it's not kind of separate balls or marbles, like we saw in the first example,
+
+54
+00:06:03,532 --> 00:06:07,854
+or separate numbers. There's actually an infinite number of points you could pick here, and so
+
+55
+00:06:08,023 --> 00:06:12,912
+when we talk about the probability that the point also lies in this smaller circle, we're really thinking
+
+56
+00:06:12,912 --> 00:06:18,439
+about the percentage of the points in the larger circle, that are also in the smaller circle.
+
+57
+00:06:18,439 --> 00:06:23,501
+Or another way to think about it is the probability that the point is also ... the probability
+
+58
+00:06:23,501 --> 00:06:27,867
+that if we'll pick a point from this larger circle, the probability that's also in the smaller circle
+
+59
+00:06:27,867 --> 00:06:32,933
+is really just going to be the percentage of the larger circle that is the smaller circle. I know that
+
+60
+00:06:33,243 --> 00:06:37,247
+might sound confusing, but we really just have to figure out the areas for both of them, and it's just
+
+61
+00:06:37,247 --> 00:06:42,918
+really going to be the ratio. So let's think about that: So there's a temptation to just use this 36 pi up here,
+
+62
+00:06:42,995 --> 00:06:48,285
+but we have to remember: this was the circumference and we need to figure out the area of both of these
+
+63
+00:06:48,439 --> 00:06:54,463
+circles. And so for area we need to know the radius 'cause area's pi*R squared, so we can figure out the
+
+64
+00:06:54,710 --> 00:06:58,563
+radius from the circumference by saying, well circumference is equal to
+
+65
+00:06:58,810 --> 00:07:03,987
+two times pi times the radius of the circle, or if you say 36 pi, which we
+
+66
+00:07:04,156 --> 00:07:07,209
+were told this is the circumference, is equal to two times pi times
+
+67
+00:07:07,424 --> 00:07:14,400
+the radius. We can divide both sides by 2pi , and on the left hand side,
+
+68
+00:07:14,400 --> 00:07:20,575
+36 divided by 2 is 18, the pi's cancel out... we get our radius is being
+
+69
+00:07:20,575 --> 00:07:26,067
+equal to 18, for this larger circle. This larger circle has a radius of 18.
+
+70
+00:07:26,067 --> 00:07:31,396
+So if we want to know it's area, it's area it's going to be pi*R sqared.
+
+71
+00:07:31,396 --> 00:07:38,067
+Which is equal to pi times 18 square. Let's figure out what 18 square is.
+
+72
+00:07:38,067 --> 00:07:49,043
+18 times 18: 8 times 8 is 64, 8 times 1 is 8, plus 6 is 14, and then we have
+
+73
+00:07:49,043 --> 00:07:53,408
+that zero there 'cause we're not in the ten's place, 1 times 8 is 8,
+
+74
+00:07:53,408 --> 00:08:00,003
+1 times 1 is 1, and really this is a 10 times a 10, that's why gives us 100.
+
+75
+00:08:00,003 --> 00:08:08,409
+Anyway... 4 plus 0 is a 4, 4 plus 8 is a 12, and then 1 plus 1 plus 1 is 3,
+
+76
+00:08:08,409 --> 00:08:18,300
+so thet's 324. So the area here is equal to pi times 324, or we could say 324 pi.
+
+77
+00:08:18,300 --> 00:08:23,400
+So the area of the entire larger circle, the part that I shaded in yellow,
+
+78
+00:08:23,400 --> 00:08:27,000
+including what's kind of under this orange circle, if you want to
+
+79
+00:08:27,000 --> 00:08:32,650
+view it that way, this area right over here is equal to 324pi.
+
+80
+00:08:32,650 --> 00:08:38,316
+So the probability that a point that we select from
+
+81
+00:08:38,316 --> 00:08:41,400
+this larger circle is also in the smaller circle is really
+
+82
+00:08:41,400 --> 00:08:44,817
+just a percentage of the larger circle that is the smaller circle
+
+83
+00:08:44,817 --> 00:08:51,783
+so our probability... I'll just write it like this, the probability of ... that the point is
+
+84
+00:08:51,783 --> 00:08:55,917
+also lies in the smaller circle .. so all of that stuff I'll put it ... the probability
+
+85
+00:08:55,917 --> 00:09:01,396
+of that is going to be equal to the percentage of this larger circle that it is the smaller one
+
+86
+00:09:01,396 --> 00:09:05,400
+so that's going to be... well... the fraction of the larger circle's area that is the
+
+87
+00:09:05,400 --> 00:09:15,026
+smaller circle's area. So it's going to be 16pi over 324pi.
+
+88
+00:09:15,841 --> 00:09:22,202
+And the pi's cancel out and both of them are divisible by 4 , if we divide the
+
+89
+00:09:22,202 --> 00:09:28,711
+numerator by 4 we get 4, if we divide the denominator by 4, what do we get?
+
+90
+00:09:28,780 --> 00:09:33,533
+4 goes in 320, 80 times and goes into 4 once, so we get an 81.
+
+91
+00:09:33,533 --> 00:09:37,733
+So the probability ... I didn't even draw this to scale, this area is actually much smaller
+
+92
+00:09:37,733 --> 00:09:43,192
+when you do it to scale... The probability that you... if you are to randomly select a point
+
+93
+00:09:43,192 --> 00:09:47,533
+from a larger circle that also lies in the smaller one is the ratio of the areas
+
+94
+00:09:47,533 --> 00:09:50,112
+the ratio of the smaller circle to the larger one
+
+95
+00:09:50,112 --> 00:09:55,398
+and that is four eighty ones, I guess is the best way to say it.

@@ -1,0 +1,115 @@
+1
+00:00:00,813 --> 00:00:06,267
+so we're in the home stretch, let's see if part C is true. We're running out of real estate, so let me
+
+2
+00:00:06,267 --> 00:00:13,800
+copy and paste it. Actually maybe i can do it over here to the left, i have some doodles here, let me
+
+3
+00:00:13,800 --> 00:00:18,600
+clear those out. let's see if we can do it here to the left
+
+4
+00:00:18,600 --> 00:00:23,533
+Part C. So we have this determinate, and it's claiming it equals 0
+
+5
+00:00:23,533 --> 00:00:28,467
+Let's see if that's true, so we can actually try to multiply these out and see if anything interesting happens
+
+6
+00:00:28,467 --> 00:00:35,905
+but we could even better leverage some of the albegra we;ve already done for Part A
+
+7
+00:00:35,905 --> 00:00:46,467
+In part A, we figured out... we figured out that z minus z1 is equal to T times Z two minus Z one
+
+8
+00:00:51,067 --> 00:00:57,400
+So this thing right overe here... this is the same thing as T times Z two minus z one
+
+9
+00:00:57,400 --> 00:00:59,667
+The reason why that's interesting is I have z two minus z one
+
+10
+00:00:59,667 --> 00:01:01,800
+here, so I'm starting to have similar things
+
+11
+00:01:01,800 --> 00:01:08,011
+and then this thing over here... so if I take the conjugate of each of these... if I take the conjugate
+
+12
+00:01:08,011 --> 00:01:13,400
+of each of these... if I take the conjugate of z minus the conjugate of z one, this is going to be equal
+
+13
+00:01:13,400 --> 00:01:21,531
+to T times the conjugate of Z2 minus the conjugate of Z1, and i know that because when i do this, I'm
+
+14
+00:01:21,531 --> 00:01:27,333
+swapping all the signs on the imaginary parts of the complex numbers. So if you were to go through this
+
+15
+00:01:27,333 --> 00:01:31,800
+entire process, just swapping the imaginary parts of the complex number. The end result
+
+16
+00:01:31,800 --> 00:01:38,133
+would have its imaginary parts swapped, and that's exactly what we have over here. We have the imaginary
+
+17
+00:01:38,133 --> 00:01:39,867
+parts swapped over here.
+
+18
+00:01:39,867 --> 00:01:45,000
+so if you want to work it out, set this equal to A plus B I or set this equal to A one plus B one. you
+
+19
+00:01:45,000 --> 00:01:46,371
+can work it out
+
+20
+00:01:46,371 --> 00:01:51,133
+but i think it's a pretty intuitive idea, that we're just making all of the... We're just swapping the
+
+21
+00:01:51,133 --> 00:01:55,008
+signs of all the imaginary parts of these complex numbers.
+
+22
+00:01:55,008 --> 00:02:04,641
+Now with this said, this determinate becomers pretty simple. This becomes T times z two minus z1. this
+
+23
+00:02:04,641 --> 00:02:18,321
+becomes T times... T times the conjugate of Z2-Z1 this down here is Z2-Z1 and then this over here
+
+24
+00:02:18,321 --> 00:02:25,400
+is the conjugate of Z2-Z1. So what is this determinate, It's going to be this times this, so it's T
+
+25
+00:02:25,400 --> 00:02:34,559
+times Z2 minus Z1 times z2 minus z1, times the conjugate of those, so it;s that times that
+
+26
+00:02:34,559 --> 00:02:49,993
+minus this times this, so minus t Z2-Z1 times the conjugate of Z2 minus the conjugate of Z1. Now this
+
+27
+00:02:49,993 --> 00:02:55,533
+is exactly equal to this, these things are obviously going to cancel out, and we're clearly going to
+
+28
+00:02:55,533 --> 00:03:05,067
+get 0, so C is also true, so the correct answers to this original problem. The correct answers were
+
+29
+00:03:05,067 --> 99:59:59,999
+A,C, and D

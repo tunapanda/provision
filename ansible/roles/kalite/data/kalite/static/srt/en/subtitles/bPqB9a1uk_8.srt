@@ -1,0 +1,671 @@
+1
+00:00:00,780 --> 00:00:03,060
+So far we've learned what a complex number is; we've even
+
+2
+00:00:03,060 --> 00:00:04,050
+learned how to graph it.
+
+3
+00:00:04,050 --> 00:00:06,160
+And we learned how to add, subtract, and multiply it.
+
+4
+00:00:06,160 --> 00:00:08,630
+Where I left off in the last video was, how do we divide
+
+5
+00:00:08,640 --> 00:00:10,180
+two complex numbers.
+
+6
+00:00:10,180 --> 00:00:13,100
+So I said, let's say I have one complex numbers, zone.
+
+7
+00:00:13,100 --> 00:00:17,540
+And that equals a plus b i.
+
+8
+00:00:17,550 --> 00:00:18,960
+i.
+
+9
+00:00:18,960 --> 00:00:22,130
+And I want to divide that by ztwo.
+
+10
+00:00:22,140 --> 00:00:25,970
+Which is, c plus d i.
+
+11
+00:00:25,980 --> 00:00:27,510
+So let me ask you a question.
+
+12
+00:00:27,510 --> 00:00:29,380
+And I touched on this in the last video.
+
+13
+00:00:29,390 --> 00:00:33,030
+And let me do it in a different color over here.
+
+14
+00:00:33,030 --> 00:00:40,790
+We know that a plus b times a minus b is equal to a
+
+15
+00:00:40,790 --> 00:00:42,080
+squared minus b squared.
+
+16
+00:00:42,090 --> 00:00:45,390
+And you can multiply it out, in case you're not sure.
+
+17
+00:00:45,390 --> 00:00:49,740
+Remember, it's just a times a plus b times a minus
+
+18
+00:00:49,750 --> 00:00:57,530
+a times b, plus a times a, and you'll get this.
+
+19
+00:00:57,540 --> 00:00:58,890
+But you know how to do this, anyway.
+
+20
+00:00:58,900 --> 00:01:01,000
+There's a review of it, if you need to do it.
+
+21
+00:01:01,000 --> 00:01:05,670
+So, given that, what is c plus d?
+
+22
+00:01:05,680 --> 00:01:09,140
+What happens if we do something very similar
+
+23
+00:01:09,150 --> 00:01:10,660
+with a complex number?
+
+24
+00:01:10,670 --> 00:01:20,450
+If we say c plus d i times c minus d i.
+
+25
+00:01:20,450 --> 00:01:22,730
+Well, in this case a is c.
+
+26
+00:01:22,730 --> 00:01:24,200
+And b is d i, right?
+
+27
+00:01:24,200 --> 00:01:29,550
+So this is just going to be equal to c squared
+
+28
+00:01:29,560 --> 00:01:33,290
+minus d i squared.
+
+29
+00:01:33,290 --> 00:01:36,960
+d i squared.
+
+30
+00:01:36,960 --> 00:01:44,190
+And that equals c squared minus d squared i squared.
+
+31
+00:01:44,200 --> 00:01:50,270
+And that equals c squared minus d squared.
+
+32
+00:01:50,280 --> 00:01:52,060
+And i squared is negative one, right?
+
+33
+00:01:52,060 --> 00:01:53,860
+So this is going to be multiplied by negative one, so
+
+34
+00:01:53,870 --> 00:01:55,150
+it cancels out this negative.
+
+35
+00:01:55,150 --> 00:01:58,140
+So you get c squared plus d squared.
+
+36
+00:01:58,150 --> 00:01:59,500
+That's interesting.
+
+37
+00:01:59,510 --> 00:02:03,340
+When I multiply a complex number times this other number,
+
+38
+00:02:03,340 --> 00:02:07,260
+which is very similar to it, but it's kind of the imaginary
+
+39
+00:02:07,260 --> 00:02:09,370
+part, goes in the other direction.
+
+40
+00:02:09,380 --> 00:02:13,510
+When I multiply the two, I get a completely real number.
+
+41
+00:02:13,520 --> 00:02:15,590
+All of the i's disappear.
+
+42
+00:02:15,590 --> 00:02:19,510
+And, in general, this number -- if we call this -- well, in our
+
+43
+00:02:19,520 --> 00:02:28,340
+example this was ztwo, so if we say that ztwo equals c plus d i,
+
+44
+00:02:28,340 --> 00:02:33,650
+the quantity c minus d i is called its conjugate.
+
+45
+00:02:33,660 --> 00:02:35,320
+And that's just good terminology to know.
+
+46
+00:02:35,330 --> 00:02:40,550
+And the sign for conjugate is that line over the top.
+
+47
+00:02:40,560 --> 00:02:42,840
+So the conjugate of ztwo is c minus d i.
+
+48
+00:02:42,840 --> 00:02:47,830
+Or you could say, the conjugate of c minus d i
+
+49
+00:02:47,840 --> 00:02:50,610
+is equal to c plus d i.
+
+50
+00:02:50,610 --> 00:02:51,820
+Or you could say it the other way around.
+
+51
+00:02:51,830 --> 00:02:58,020
+The conjugate of c plus d i is equal to c minus d i.
+
+52
+00:02:58,030 --> 00:03:01,250
+And notice, we're just switching the direction in
+
+53
+00:03:01,250 --> 00:03:04,120
+the imaginary -- along the imaginary axis, when we take
+
+54
+00:03:04,120 --> 00:03:05,510
+the conjugate of something.
+
+55
+00:03:05,520 --> 00:03:08,700
+With that said, let me erase that and go back
+
+56
+00:03:08,710 --> 00:03:09,690
+to our original problem.
+
+57
+00:03:09,690 --> 00:03:12,000
+Because the conjugate is the tool we're going
+
+58
+00:03:12,000 --> 00:03:16,040
+to use to divide this.
+
+59
+00:03:16,050 --> 00:03:18,810
+So we know when we multiply an imaginary number times its
+
+60
+00:03:18,810 --> 00:03:21,990
+conjugate, we get a real number.
+
+61
+00:03:22,000 --> 00:03:25,200
+And we know, also, if we multiply -- we can multiply
+
+62
+00:03:25,210 --> 00:03:26,800
+anything by one, and we get the same number.
+
+63
+00:03:26,800 --> 00:03:31,370
+So let's multiply the numerator and denominator of this
+
+64
+00:03:31,370 --> 00:03:35,620
+expression by the conjugate of the denominator.
+
+65
+00:03:35,620 --> 00:03:38,620
+So let me do that.
+
+66
+00:03:38,620 --> 00:03:41,690
+So the conjugate of the denominator is going
+
+67
+00:03:41,700 --> 00:03:46,550
+to be c minus d i.
+
+68
+00:03:46,560 --> 00:03:49,250
+So c minus d i over c minus d i.
+
+69
+00:03:49,250 --> 00:03:51,790
+So this was c plud d i, so this is its conjugate.
+
+70
+00:03:51,800 --> 00:03:54,010
+And so what do we get?
+
+71
+00:03:54,020 --> 00:03:59,720
+So in the numerator, we get a c -- I don't want to run out of
+
+72
+00:03:59,720 --> 00:04:09,870
+space, I always do -- a c, so a times c, minus a d i, minus a d
+
+73
+00:04:09,880 --> 00:04:15,940
+i -- these i's are looking funny -- this is an i.
+
+74
+00:04:15,940 --> 00:04:23,060
+Plus b c i; plus b c i.
+
+75
+00:04:23,070 --> 00:04:26,810
+And then the last term, we have a plus b minus b.
+
+76
+00:04:26,810 --> 00:04:29,430
+So it's minus b d i squared.
+
+77
+00:04:29,440 --> 00:04:35,560
+Minus b d i squared.
+
+78
+00:04:35,570 --> 00:04:37,130
+All of that.
+
+79
+00:04:37,140 --> 00:04:39,880
+And this is a plus b times a minus b.
+
+80
+00:04:39,880 --> 00:04:41,240
+So it's equal to a squared minus b squared.
+
+81
+00:04:41,250 --> 00:04:44,680
+So this is going to be equal to -- and it this will become
+
+82
+00:04:44,680 --> 00:04:46,410
+second nature to you after a while, but you might want
+
+83
+00:04:46,420 --> 00:04:48,100
+to just multiply it out.
+
+84
+00:04:48,110 --> 00:04:54,470
+This equals c squared plus d squared.
+
+85
+00:04:54,470 --> 00:04:55,470
+And don't take my word for it.
+
+86
+00:04:55,480 --> 00:04:57,290
+Actually, algebraically, multiply this out and just
+
+87
+00:04:57,300 --> 00:04:59,320
+realize you can only add real parts to real parts and
+
+88
+00:04:59,320 --> 00:05:00,810
+imaginary parts to imaginary parts.
+
+89
+00:05:00,810 --> 00:05:02,490
+So let me simplify that.
+
+90
+00:05:02,500 --> 00:05:05,390
+That equals -- let's see, the real parts.
+
+91
+00:05:05,390 --> 00:05:08,380
+This is real, a c.
+
+92
+00:05:08,380 --> 00:05:11,530
+And this is minus b d i squared.
+
+93
+00:05:11,540 --> 00:05:13,860
+So the i squared is minus one.
+
+94
+00:05:13,870 --> 00:05:16,480
+So it switches the sign here, so it becomes plus b d.
+
+95
+00:05:16,480 --> 00:05:18,040
+And we can get rid of d i.
+
+96
+00:05:18,050 --> 00:05:23,050
+So the real parts are, a c plus b d.
+
+97
+00:05:23,050 --> 00:05:26,610
+That's that, and that.
+
+98
+00:05:26,610 --> 00:05:29,920
+And then the imaginary parts are plus -- this one's
+
+99
+00:05:29,920 --> 00:05:39,410
+positive, so I'll put one first -- b c minus a d i, all of that
+
+100
+00:05:39,410 --> 00:05:43,670
+over c squared plus d squared.
+
+101
+00:05:43,680 --> 00:05:45,760
+And that still might not look like a complex number to you.
+
+102
+00:05:45,760 --> 00:05:48,180
+But then we can separate them out and we could say well,
+
+103
+00:05:48,180 --> 00:05:56,510
+that equals a c plus b d over c squared plus d squared.
+
+104
+00:05:56,520 --> 00:05:58,620
+And that's the real part.
+
+105
+00:05:58,620 --> 00:06:07,710
+Plus b c minus a d over c squared plus d squared.
+
+106
+00:06:07,720 --> 00:06:10,350
+And that times i, and that's the imaginary part.
+
+107
+00:06:10,360 --> 00:06:15,420
+So you can't merge, when you're adding and subtracting, the
+
+108
+00:06:15,430 --> 00:06:16,920
+real part to the imaginary part.
+
+109
+00:06:16,920 --> 00:06:20,290
+But you can most definitely scale an imaginary
+
+110
+00:06:20,300 --> 00:06:21,410
+number by a real number.
+
+111
+00:06:21,410 --> 00:06:22,370
+And that's essentially what we're doing.
+
+112
+00:06:22,370 --> 00:06:24,230
+We're multiplying one over c squared plus d
+
+113
+00:06:24,240 --> 00:06:25,890
+squared times this.
+
+114
+00:06:25,890 --> 00:06:28,810
+So, division might seem a little complicated when I
+
+115
+00:06:28,810 --> 00:06:29,600
+write it all in variables.
+
+116
+00:06:29,610 --> 00:06:32,070
+But let me give you an example and you will hopefully see that
+
+117
+00:06:32,070 --> 00:06:35,560
+it -- with real numbers, and -- not real numbers, with
+
+118
+00:06:35,560 --> 00:06:37,920
+actual numbers, I should be careful with what I say.
+
+119
+00:06:37,930 --> 00:06:43,680
+Let's say I have one plus two i.
+
+120
+00:06:43,680 --> 00:06:48,430
+And I want to divide that by, I don't know, let's divide it by,
+
+121
+00:06:48,430 --> 00:06:51,190
+I'm going to pick a random number.
+
+122
+00:06:51,190 --> 00:06:54,510
+two plus threei.
+
+123
+00:06:54,520 --> 00:06:55,430
+And so what do we do?
+
+124
+00:06:55,430 --> 00:07:00,340
+We multiply it times the conjugate of the denominator.
+
+125
+00:07:00,350 --> 00:07:04,720
+two minus threei over -- over itself, right?
+
+126
+00:07:04,730 --> 00:07:06,050
+Because then we're not changing the number.
+
+127
+00:07:06,060 --> 00:07:08,300
+This is just one, this simplifies to one.
+
+128
+00:07:08,300 --> 00:07:11,540
+It equals -- the bottom, we can multiply it out.
+
+129
+00:07:11,540 --> 00:07:13,070
+But hopefully it's second nature to you.
+
+130
+00:07:13,070 --> 00:07:18,070
+It equals four plus nine, right?
+
+131
+00:07:18,080 --> 00:07:21,820
+Because that's just a squared plus b squared.
+
+132
+00:07:21,820 --> 00:07:22,480
+Right?
+
+133
+00:07:22,490 --> 00:07:24,730
+Well, I mean, it's a squared minus b squared, but then the
+
+134
+00:07:24,730 --> 00:07:27,100
+i's, when you multiply, and it becomes a negative number.
+
+135
+00:07:27,100 --> 00:07:29,000
+Try it out if you don't believe me.
+
+136
+00:07:29,000 --> 00:07:32,120
+And then the top, we get one times two is two.
+
+137
+00:07:32,130 --> 00:07:36,490
+one times minus threei is minus threei.
+
+138
+00:07:36,500 --> 00:07:42,100
+And you have twoi times two, which is plus fouri.
+
+139
+00:07:42,100 --> 00:07:45,160
+And then you have twoi times minus threei.
+
+140
+00:07:45,160 --> 00:07:48,060
+So that's minus six.
+
+141
+00:07:48,060 --> 00:07:50,680
+Minus sixi squared.
+
+142
+00:07:50,690 --> 00:07:51,940
+Well, what does i squared equal?
+
+143
+00:07:51,940 --> 00:07:53,590
+That equals negative one.
+
+144
+00:07:53,600 --> 00:07:56,890
+So negative one times negative six.
+
+145
+00:07:56,890 --> 00:07:59,600
+Get rid of the i squared and this becomes a positive.
+
+146
+00:07:59,610 --> 00:08:00,890
+So then, what are our real parts?
+
+147
+00:08:00,890 --> 00:08:03,980
+Our real parts are two and six.
+
+148
+00:08:03,990 --> 00:08:07,240
+so two plus six is eight.
+
+149
+00:08:07,240 --> 00:08:08,500
+And what are our imaginary parts?
+
+150
+00:08:08,500 --> 00:08:11,290
+Minus threei plus fouri.
+
+151
+00:08:11,300 --> 00:08:13,170
+So that's just plus onei, right?
+
+152
+00:08:13,180 --> 00:08:15,430
+Minus three plus four is positive one.
+
+153
+00:08:15,430 --> 00:08:17,700
+So it's just plus onei.
+
+154
+00:08:17,700 --> 00:08:19,790
+Over thirteen.
+
+155
+00:08:19,800 --> 00:08:22,170
+Or we could write that as -- if we wanted to write that in the
+
+156
+00:08:22,170 --> 00:08:30,420
+traditional complex form -- is eight / thirteen plus one over thirteeni.
+
+157
+00:08:30,420 --> 00:08:33,730
+So when I divided one complex number by another, I got
+
+158
+00:08:33,740 --> 00:08:35,080
+another complex number.
+
+159
+00:08:35,080 --> 00:08:37,270
+And an interesting exercise for you to do is, pick some
+
+160
+00:08:37,270 --> 00:08:38,830
+random complex numbers.
+
+161
+00:08:38,840 --> 00:08:42,480
+Plot them out on complex plane, and see what happens when you
+
+162
+00:08:42,490 --> 00:08:44,570
+multiply them, when you divide them, when you add them,
+
+163
+00:08:44,570 --> 00:08:45,670
+when you subtract them.
+
+164
+00:08:45,670 --> 00:08:48,480
+And when you scale them.
+
+165
+00:08:48,490 --> 00:08:49,900
+Or when you take the conjugate.
+
+166
+00:08:49,900 --> 00:08:51,980
+And that'll give you a better intuition of what's going
+
+167
+00:08:51,990 --> 00:08:53,300
+on with these numbers.
+
+168
+00:08:53,300 --> 00:08:57,400
+Anyway, I will see you in the next video.

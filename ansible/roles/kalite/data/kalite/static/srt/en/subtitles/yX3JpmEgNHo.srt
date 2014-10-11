@@ -1,0 +1,171 @@
+1
+99:59:59,999 --> 99:59:59,999
+Part D- Find the average rate of change of "F" on the interval from x is greater than or equal to -4
+
+2
+99:59:59,999 --> 99:59:59,999
+is less than equal to x which is less than or equal to 3 so really the interval, whether you picked or not, is right here
+
+3
+99:59:59,999 --> 99:59:59,999
+right over here. And they say there is no Point C between in that interval where "F" prime is, you
+
+4
+99:59:59,999 --> 99:59:59,999
+see, equal to the average rate of change. Explain why the statement does not contradict the mean value
+
+5
+99:59:59,999 --> 99:59:59,999
+here. Fascinating! Alright... let's do this first part first- The average rate of change of "F" on the
+
+6
+99:59:59,999 --> 99:59:59,999
+interval, sounds like a very fancy thing, but the average rate of change on the interval is really just
+
+7
+99:59:59,999 --> 99:59:59,999
+the slope of the line that connects the end points of the interval. So this right over here is the end
+
+8
+99:59:59,999 --> 99:59:59,999
+points and let's figure out the slope of this line. So going from this point to that point are a change in x (this is a color you are not likely to see).
+
+9
+99:59:59,999 --> 99:59:59,999
+Our change in x over here... is equal to 7. You get that by taking 3 - - 4 or you could just count: 1,2,3,4,5,6,7-
+
+10
+99:59:59,999 --> 99:59:59,999
+Our change in x and our change in y, when we run over 7, when we go 7 to the right, our change in y... equals
+
+11
+99:59:59,999 --> 99:59:59,999
+-2. We went from -1 to -3 which is equal to -2. So slope.... which is change- in- y/ change-in-x (rise/run),
+
+12
+99:59:59,999 --> 99:59:59,999
+is equal to 7 / -2. Or it is the other way around- change in y is -2 / 7 so negative two sevenths. And that's
+
+13
+99:59:59,999 --> 99:59:59,999
+all it is. You could kind of think of it in a more fancy sense, but you are going to get the same answer
+
+14
+99:59:59,999 --> 99:59:59,999
+if you said, "Oh WOW loook- the average rate of change of "F" on the interval (well the rate of change)
+
+15
+99:59:59,999 --> 99:59:59,999
+of "F" is "F" prime of x. That is the rate of change of xf at any point of x. If you were want to find
+
+16
+99:59:59,999 --> 99:59:59,999
+the average value of this, over the interval, you would integrate it from our starting point from -4
+
+17
+99:59:59,999 --> 99:59:59,999
+to 3 (dx), then you would divide it by your change in x, so then when you divide it, you would have it
+
+18
+99:59:59,999 --> 99:59:59,999
+over 1 / 7. But then this part right over here is going to be the same thing as "F" of 3 - "F" of 4, and
+
+19
+99:59:59,999 --> 99:59:59,999
+then this over here you a 7 in the denominator. SO this is really just your change in x, which is my
+
+20
+99:59:59,999 --> 99:59:59,999
+definition or how we actually set up this average right over here, and this over here is just your change
+
+21
+99:59:59,999 --> 99:59:59,999
+in y. So it really is just a slope between the end point. SO we did the first part- the average rate
+
+22
+99:59:59,999 --> 99:59:59,999
+of change of "F" onto the interval is -2 / 7. Now, let's look at the second part, they say there is no point
+
+23
+99:59:59,999 --> 99:59:59,999
+see in that interval from which "F" primacy is equal to the average rate of change. Explain why the statement
+
+24
+99:59:59,999 --> 99:59:59,999
+does not contradict the mean value theorem. The mean value theorem, as a little bit of review..., it says
+
+25
+99:59:59,999 --> 99:59:59,999
+that if we have some type of an interval (so let me draw some axis right over here) if you have an
+
+26
+99:59:59,999 --> 99:59:59,999
+interval (and I'll draw my interval like this) and over that interval has a deferential function....so
+
+27
+99:59:59,999 --> 99:59:59,999
+maybe my function looks like this. It says that there is at least one point C on that interval where
+
+28
+99:59:59,999 --> 99:59:59,999
+the derivative at that point c is equal to the average rate of change. So the way I've drawn it right over here
+
+29
+99:59:59,999 --> 99:59:59,999
+the average rate of change of this function (I'll do it in magenta right over here) and the mean value
+
+30
+99:59:59,999 --> 99:59:59,999
+theorem says that if this is a deferential here is at least one Point C in this interval where I have the
+
+31
+99:59:59,999 --> 99:59:59,999
+same slope, where the tangid line has the same slope, where the derivative is the same as the
+
+32
+99:59:59,999 --> 99:59:59,999
+slope as the average slope. And you can see here that it is probably over here where you have a lot of
+
+33
+99:59:59,999 --> 99:59:59,999
+points or less. If you think about it, it is kind of intuitive that at some point here we obviously have a
+
+34
+99:59:59,999 --> 99:59:59,999
+larger slope and over here we have a smaller slope and since it is deferential our derivative is continuous
+
+35
+99:59:59,999 --> 99:59:59,999
+so at some the slope has to get to do the exactly what the average slope is. Lets look at this little
+
+36
+99:59:59,999 --> 99:59:59,999
+conundrum right over here. Why is there not a Point C where "F" primacy is equal to the average rate
+
+37
+99:59:59,999 --> 99:59:59,999
+of change. And you can even verify that because from -4 to 0 our slope is positive and then the slope
+
+38
+99:59:59,999 --> 99:59:59,999
+just jumps down to a negative which is 2 and or -2 it never goes down to -2. This is not a derferential
+
+39
+99:59:59,999 --> 99:59:59,999
+problem where x = 0 our slope jumps here and because it is not deferential the mean value theorem does
+
+40
+99:59:59,999 --> 99:59:59,999
+not apply. And you can imagine that if it had some continuous derivative then you would find a pint.
+
+41
+99:59:59,999 --> 99:59:59,999
+If it looked something like this instead I'll continue over here... the slope would be the same as the average slope
+
+42
+99:59:59,999 --> 99:59:59,999
+and right over there, it is really because "F" is not deferential over the entire interval. It does
+
+43
+99:59:59,999 --> 99:59:59,999
+not have a continuous derivative because it jumps straight down to -2 right over here it does not go continuously through all the values in between.

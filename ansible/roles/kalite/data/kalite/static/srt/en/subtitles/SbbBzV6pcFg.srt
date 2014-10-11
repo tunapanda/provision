@@ -1,0 +1,399 @@
+1
+00:00:07,773 --> 00:00:09,106
+This is a quadrotor
+
+2
+00:00:09,106 --> 00:00:12,553
+It's called a quadrotor because it has four propellers that spin & generate thrust
+
+3
+00:00:12,553 --> 00:00:17,105
+This is the pilot controlling a vehicle with a radio transmitter
+
+4
+00:00:17,105 --> 00:00:20,553
+That's pretty neat.But if we take a short trip across the street
+
+5
+00:00:20,553 --> 00:00:27,113
+Of course looking both ways before we cross
+
+6
+00:00:27,113 --> 00:00:30,022
+We come to this place for this quadrotor can fly by itself
+
+7
+00:00:30,022 --> 00:00:32,604
+without any human help at all
+
+8
+00:00:32,604 --> 00:00:35,207
+We don't even need a pilot
+
+9
+00:00:35,207 --> 00:00:38,058
+This flying robot can operate with extreme precision
+
+10
+00:00:38,058 --> 00:00:39,922
+in tight indoor spaces
+
+11
+00:00:39,922 --> 00:00:42,089
+It can do some other pretty neat stuff as well
+
+12
+00:00:42,089 --> 00:00:43,871
+So if you're wondering how to make robots fly
+
+13
+00:00:43,871 --> 00:00:45,474
+You've come to the right place
+
+14
+00:00:45,474 --> 00:00:47,522
+Indoor Flying Robots!
+
+15
+00:00:47,522 --> 00:00:48,722
+A crash course
+
+16
+00:00:48,722 --> 00:00:52,456
+Maybe crash course isn't the right term
+
+17
+00:00:52,456 --> 00:00:54,571
+Indoor Flying Robots!
+
+18
+00:00:54,571 --> 00:01:02,538
+An expedited learning experience
+
+19
+00:01:02,538 --> 00:01:04,570
+To figure how to make robots fly
+
+20
+00:01:04,570 --> 00:01:06,855
+we'll need to understand the basic physics of quadrotors
+
+21
+00:01:06,855 --> 00:01:08,889
+How humans pilot them
+
+22
+00:01:08,889 --> 00:01:10,904
+How we can use a computer to achieve the same task
+
+23
+00:01:10,904 --> 00:01:14,038
+And why the resulting flying robots can do more complex things
+
+24
+00:01:14,038 --> 00:01:16,871
+First let's take a quick look at the physics behind
+
+25
+00:01:16,871 --> 00:01:19,071
+how the quadrotor flies
+
+26
+00:01:19,071 --> 00:01:21,370
+When the propellers spin they push downward on the air around
+
+27
+00:01:21,370 --> 00:01:24,871
+Newton's third law tells us that the air applies in an equal & opposite
+
+28
+00:01:24,871 --> 00:01:27,004
+reaction force on the propeller.When this lifting force
+
+29
+00:01:27,004 --> 00:01:29,856
+equals that of gravity the quadrotor achieves hoverflight
+
+30
+00:01:29,856 --> 00:01:32,471
+In order to bank one propeller spins slightly faster
+
+31
+00:01:32,471 --> 00:01:34,671
+than the opposite one
+
+32
+00:01:34,671 --> 00:01:36,638
+This introduces a horizontal force in addition to the one opposing gravity
+
+33
+00:01:36,638 --> 00:01:38,204
+And the vehicle moves sideways
+
+34
+00:01:38,204 --> 00:01:40,139
+That's great, but it didn't tell us how the quadrotor
+
+35
+00:01:40,139 --> 00:01:41,504
+can rotate about it's vertical axis
+
+36
+00:01:41,504 --> 00:01:45,154
+It turns out that newton's third law also applies to rotational force
+
+37
+00:01:45,154 --> 00:01:46,439
+called 'Torque'
+
+38
+00:01:46,439 --> 00:01:48,116
+When this two propellers spin they apply a torque to the air
+
+39
+00:01:49,793 --> 00:01:51,524
+in the clockwise direction, the air applies in equal and opposite reaction torque
+
+40
+00:01:53,255 --> 00:01:54,988
+pushing the vehicle in a counterclockwise direction meanwhile the other two
+
+41
+00:01:54,988 --> 00:01:57,505
+motors spin in the other direction plus the reaction torque
+
+42
+00:01:57,505 --> 00:01:59,273
+pushes the vehicle clockwise
+
+43
+00:01:59,273 --> 00:02:01,622
+When all four motors are turned on the rotational force
+
+44
+00:02:01,622 --> 00:02:04,004
+remember they are called 'Torque' s -balance each other
+
+45
+00:02:04,004 --> 00:02:06,588
+In flight the vehicle turns by spinning two motors even so
+
+46
+00:02:06,588 --> 00:02:08,721
+slightly faster than the other two
+
+47
+00:02:08,721 --> 00:02:12,404
+That went on the basic physics of how quadrotor flies
+
+48
+00:02:12,404 --> 00:02:14,904
+But before we can fly it robotically we need to know
+
+49
+00:02:14,904 --> 00:02:18,639
+how to control it. First let's figure out how a human would do that
+
+50
+00:02:18,639 --> 00:02:21,492
+The task can be broken down into four keysteps
+
+51
+00:02:21,492 --> 00:02:23,889
+First, the pilot uses his eyes to observe the vehicle
+
+52
+00:02:23,889 --> 00:02:26,704
+and figure out where it is and in which direction it's pointing
+
+53
+00:02:26,704 --> 00:02:29,554
+In this example let's say the pilot sees that the quadrotor is sinking
+
+54
+00:02:29,554 --> 00:02:32,738
+Next, the pilot has to decide what control commands to give the vehicle
+
+55
+00:02:32,738 --> 00:02:35,804
+In this case, the pilot has to stop the vehicle from sinking
+
+56
+00:02:35,804 --> 00:02:38,356
+And thus decides to increase the speed of all four propellers
+
+57
+00:02:38,356 --> 00:02:41,286
+To tell the quadrotor what is decided on the pilot uses a radio transmitter
+
+58
+00:02:41,286 --> 00:02:44,588
+which is basically a fancy remote control
+
+59
+00:02:44,588 --> 00:02:46,621
+Finally the quadrotor listens for the radio commands
+
+60
+00:02:46,621 --> 00:02:48,972
+and adjust the speed of each motor accordingly.
+
+61
+00:02:48,972 --> 00:02:52,304
+Now let's see how each of these forces have to change in order to
+
+62
+00:02:52,304 --> 00:02:54,371
+fly the quadrotor robotically
+
+63
+00:02:54,371 --> 00:02:56,588
+In the first step, we use specialized cameras for vision
+
+64
+00:02:56,588 --> 00:02:59,037
+and set up the pilot's eyes. The camera shine infrared light
+
+65
+00:02:59,037 --> 00:03:02,639
+which bounces off of more reflective markers on the vehicle
+
+66
+00:03:02,639 --> 00:03:04,204
+and go back to the camera
+
+67
+00:03:04,204 --> 00:03:06,940
+A camera from the side point of view can tell how far the marker is
+
+68
+00:03:06,940 --> 00:03:10,203
+in the vertical direction and one horizontal direction
+
+69
+00:03:10,203 --> 00:03:13,407
+And a camera from the top point of view can tell how far the marker is in both
+
+70
+00:03:13,407 --> 00:03:16,172
+horizontal directions. Using some slightly more complicated mathematcs
+
+71
+00:03:16,172 --> 00:03:19,171
+we can use the points of view from 12 different cameras
+
+72
+00:03:19,171 --> 00:03:23,306
+To determine the exact three dimensional position of the markers
+
+73
+00:03:23,306 --> 00:03:26,739
+This process is executed many times for second to track the position
+
+74
+00:03:26,739 --> 00:03:29,192
+of the markers and pass the quadrotor in real time
+
+75
+00:03:29,192 --> 00:03:31,888
+In step two, we use a computer to handle the control commands
+
+76
+00:03:31,888 --> 00:03:35,203
+in stead of the pilots brain. The computer program consists of a
+
+77
+00:03:35,203 --> 00:03:37,671
+couple hundred lines of C++ code written by grad students
+
+78
+00:03:37,671 --> 00:03:40,522
+who really don't get out much. It does essentially the same thing
+
+79
+00:03:40,522 --> 00:03:43,554
+as the pilot using the observed position of the quadrotor to evaluate
+
+80
+00:03:43,554 --> 00:03:47,054
+control commands. Only it does so in a much faster and less dramatic fshion
+
+81
+00:03:47,054 --> 00:03:58,504
+In step three, the system uses a similar radio transmitter except a smaller one
+
+82
+00:03:58,504 --> 00:04:01,104
+without any switches or control sticks.
+
+83
+00:04:01,104 --> 00:04:03,903
+Step four is exactly as the same as before. The quadrotor listens for
+
+84
+00:04:03,903 --> 00:04:06,872
+radio commands and adjust the speed of each motor accordingly.
+
+85
+00:04:06,872 --> 00:04:10,170
+So we've updated all four steps in order to make the quadrotor
+
+86
+00:04:10,170 --> 00:04:13,420
+fly entirely by itself. Now all we need is for our grad students
+
+87
+00:04:13,420 --> 00:04:18,104
+to press the go button and voila. One of the reasons the robot
+
+88
+00:04:18,104 --> 00:04:22,086
+fly more precisely than the human pilot is because this loop of information
+
+89
+00:04:22,086 --> 00:04:25,593
+called a 'Feedback Control Loop' can be executed much more quickly by computers
+
+90
+00:04:25,593 --> 00:04:29,253
+In this case 200 times per second. This allows the researchers
+
+91
+00:04:29,253 --> 00:04:33,177
+to do cool things with these indoor flying robots. For instance,
+
+92
+00:04:33,177 --> 00:04:36,927
+fly six of them at once but why not ten
+
+93
+00:04:36,927 --> 00:04:39,644
+They can teach the vehicles how to switch out their old batteries
+
+94
+00:04:39,644 --> 00:04:43,794
+for new ones automically or stop propeller for swing
+
+95
+00:04:43,794 --> 00:04:54,962
+They can even do flips like this one or this one or this one
+
+96
+00:04:54,962 --> 00:04:57,379
+And the fun doesn't stop with quadrotors. The same technology
+
+97
+00:04:57,379 --> 00:05:01,110
+can be applied to rig the shape into three wing aircraft. One more
+
+98
+00:05:01,110 --> 00:05:12,982
+conventional fixed wing vehicles like this one, this one and this one
+
+99
+00:05:12,982 --> 00:05:16,314
+that can even fly in loops. Well hopefully you've learn the basics of how to make
+
+100
+00:05:16,314 --> 00:05:25,978
+robots fly. This concludes the crash course--I, I mean the expedited learning experience

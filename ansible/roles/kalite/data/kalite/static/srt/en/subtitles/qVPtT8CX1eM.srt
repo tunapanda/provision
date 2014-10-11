@@ -1,0 +1,627 @@
+1
+00:00:00,870 --> 00:00:02,950
+We're on problem 129.
+
+2
+00:00:05,530 --> 00:00:07,430
+If n is a positive integer,
+
+3
+00:00:07,430 --> 00:00:10,790
+is the value of b minus a at least-- OK, so let's see.
+
+4
+00:00:10,790 --> 00:00:16,430
+So n is positive. n positive integer. And they're saying,
+
+5
+00:00:16,430 --> 00:00:22,270
+is the value of b minus a at least twice the value?
+
+6
+00:00:22,270 --> 00:00:27,700
+So that's greater than or equal to twice the value of 3
+
+7
+00:00:27,700 --> 00:00:34,000
+to the n minus 2 to the n. That's what we need to test.
+
+8
+00:00:35,000 --> 00:00:43,000
+Statement 1 tells us, a is equal to 2 to the n plus 1.
+
+9
+00:00:45,000 --> 00:00:47,140
+And b-- this is still statement 1--
+
+10
+00:00:47,140 --> 00:00:51,030
+is equal to 3 to the n plus 1.
+
+11
+00:00:51,030 --> 00:00:53,190
+So let's think about this a little bit.
+
+12
+00:00:54,820 --> 00:00:57,470
+So let's substitute this into this equation.
+
+13
+00:00:57,470 --> 00:01:07,530
+So you get 3 to the n plus 1 minus 2 to the n plus 1 is
+
+14
+00:01:07,530 --> 00:01:09,970
+greater than or equal to-- and let's multiply this out.
+
+15
+00:01:09,970 --> 00:01:17,120
+2 times 3 to the n minus 2 times 2 to the n.
+
+16
+00:01:17,120 --> 00:01:19,180
+So what's 2 times 2 to the n?
+
+17
+00:01:19,880 --> 00:01:21,790
+Well, that's just 2 to the n plus 1.
+
+18
+00:01:25,010 --> 00:01:26,840
+2 times 2 to the n is 2 to the n plus 1,
+
+19
+00:01:26,840 --> 00:01:29,050
+and there's a minus sign. That's where I got it from.
+
+20
+00:01:29,050 --> 00:01:30,970
+So interesting. Just like that,
+
+21
+00:01:30,970 --> 00:01:32,800
+we have a minus 2 to the n plus 1 on both sides.
+
+22
+00:01:32,800 --> 00:01:36,500
+So we can just add 2 to the n plus 1 from both sides to
+
+23
+00:01:36,500 --> 00:01:40,000
+cancel them out. So we get rid of that, get rid of that.
+
+24
+00:01:40,000 --> 00:01:45,520
+And then our statement boils down to, is 3 to the n plus 1
+
+25
+00:01:46,090 --> 00:01:52,140
+greater than or equal to 2 times 3 to the n?
+
+26
+00:01:52,140 --> 00:01:58,050
+We could rewrite 3 to the n plus 1 as 3 times 3 to the n.
+
+27
+00:01:58,050 --> 00:02:00,690
+And we're testing whether that's greater than 2
+
+28
+00:02:00,690 --> 00:02:02,070
+times 3 to the n.
+
+29
+00:02:02,670 --> 00:02:05,440
+And they tell us that n is a positive number.
+
+30
+00:02:05,440 --> 00:02:06,390
+But that actually doesn't matter.
+
+31
+00:02:06,610 --> 00:02:09,030
+Because we have 3 to the n on both sides.
+
+32
+00:02:09,030 --> 00:02:11,600
+Even if you rose this to a negative exponent,
+
+33
+00:02:11,600 --> 00:02:13,030
+you would still have a positive number.
+
+34
+00:02:13,030 --> 00:02:15,530
+So you could divide both sides by 3 to the n and the
+
+35
+00:02:15,530 --> 00:02:17,340
+statement boils down to 3 is greater than 2,
+
+36
+00:02:17,340 --> 00:02:19,000
+which is absolutely correct.
+
+37
+00:02:19,000 --> 00:02:24,130
+So statement 1 is enough information to say whether
+
+38
+00:02:24,130 --> 00:02:25,000
+this statement is true or not.
+
+39
+00:02:25,000 --> 00:02:26,370
+And it actually proves that it's true.
+
+40
+00:02:27,010 --> 00:02:29,030
+Let's look at statement number two.
+
+41
+00:02:29,030 --> 00:02:33,940
+Statement number two tells us that n is equal to 3.
+
+42
+00:02:37,540 --> 00:02:38,440
+So let's see.
+
+43
+00:02:38,440 --> 00:02:41,440
+If we look at the original statement, if n is equal to 3,
+
+44
+00:02:41,440 --> 00:02:45,110
+then we have to say-- This is what the statement reduces to.
+
+45
+00:02:45,110 --> 00:02:51,010
+It reduces to, b minus a is greater than or equal to 2
+
+46
+00:02:51,010 --> 00:02:55,030
+times 3 to the third power. So that's 27.
+
+47
+00:02:55,030 --> 00:02:59,170
+Minus 2 to the third power. Well, 2 to the third is 8.
+
+48
+00:02:59,370 --> 00:03:03,730
+So it reduces to, b minus a is greater than or equal to-- 27
+
+49
+00:03:03,730 --> 00:03:07,100
+minus 8 is 19. Times 2 is 38. Well, I don't know.
+
+50
+00:03:07,900 --> 00:03:10,130
+They don't tell us anything else about b, or a, or anything.
+
+51
+00:03:10,130 --> 00:03:12,820
+So this is a useless statement. And actually,
+
+52
+00:03:12,820 --> 00:03:14,580
+going through this was a little bit of a waste of time.
+
+53
+00:03:14,580 --> 00:03:16,300
+You could have just said, hey, they told me what n is.
+
+54
+00:03:16,300 --> 00:03:18,130
+I can come up with a number here, but that still
+
+55
+00:03:18,130 --> 00:03:20,630
+doesn't give me any information over what b or a is.
+
+56
+00:03:20,630 --> 00:03:24,000
+So statement 1, alone, is sufficient to answer this question.
+
+57
+00:03:24,000 --> 00:03:25,900
+And 2 is not.
+
+58
+00:03:28,050 --> 00:03:33,070
+Let me go to sky blue. Problem 130.
+
+59
+00:03:34,570 --> 00:03:38,180
+The inflation index for the year 1989,
+
+60
+00:03:38,180 --> 00:03:43,820
+relative to the year 1970, was 3.56. Indicating that,
+
+61
+00:03:43,820 --> 00:03:47,630
+on average, for each dollar spent in 1970 for goods,
+
+62
+00:03:47,630 --> 00:03:52,000
+3.56 had to be spent for the same goods in 1989.
+
+63
+00:03:52,000 --> 00:03:56,360
+Let me write that down. 1970, $1.00.
+
+64
+00:04:03,100 --> 00:04:10,150
+In 1989, that same thing would cost $3.59. Oh, $3.56.
+
+65
+00:04:10,150 --> 00:04:15,110
+I'm getting my 6's and 9's confused. $3.56 had to be spent.
+
+66
+00:04:15,110 --> 00:04:18,400
+If the price of a model K mixer increased precisely
+
+67
+00:04:18,400 --> 00:04:20,170
+according to the inflation index,
+
+68
+00:04:20,170 --> 00:04:22,740
+what was the price of the mixer in 1970?
+
+69
+00:04:22,740 --> 00:04:28,070
+So we want to know the mixer K in 1970.
+
+70
+00:04:28,570 --> 00:04:32,000
+So statement number one. The price of the model K mixer
+
+71
+00:04:32,000 --> 00:04:41,110
+was $102.4 more in 1989 than 1970. So let's call this, K.
+
+72
+00:04:41,110 --> 00:04:42,700
+We're trying to figure out K 70.
+
+73
+00:04:44,060 --> 00:04:47,040
+That's what we're trying to figure out. Mixer K in 1970.
+
+74
+00:04:47,040 --> 00:04:50,660
+So they say the price of the model K mixer was
+
+75
+00:04:50,660 --> 00:04:54,580
+$102.40 more in 1989 than 1970.
+
+76
+00:04:54,580 --> 00:05:02,150
+So this, essentially, tells us that mixer K in 1989,
+
+77
+00:05:03,150 --> 00:05:14,030
+minus mixer K in 1970, is equal to $102.40.
+
+78
+00:05:15,030 --> 00:05:16,940
+But we also have other information.
+
+79
+00:05:16,940 --> 00:05:21,670
+We know that mixer K, it went exactly with inflation,
+
+80
+00:05:21,670 --> 00:05:23,000
+the increase in inflation price.
+
+81
+00:05:25,000 --> 00:05:36,050
+So mixer K in 1989, is equal to 3.56 times mixer K in 1970.
+
+82
+00:05:36,050 --> 00:05:37,830
+Well, how do we know that?
+
+83
+00:05:37,830 --> 00:05:40,170
+Because they told us that mixer K, the price of it,
+
+84
+00:05:40,170 --> 00:05:42,230
+increased directly with this inflation.
+
+85
+00:05:43,780 --> 00:05:48,190
+Pretty much anything that went with inflation was worth 3.56
+
+86
+00:05:48,190 --> 00:05:50,000
+times more in 1989.
+
+87
+00:05:50,860 --> 00:05:56,020
+So mixer K in '89 is 3.56 times more than it was in 1970.
+
+88
+00:05:56,020 --> 00:05:58,270
+So now, we have this linear equation,
+
+89
+00:05:58,270 --> 00:05:59,730
+which was given in the problem statement.
+
+90
+00:05:59,730 --> 00:06:01,540
+And we have this linear equation.
+
+91
+00:06:01,540 --> 00:06:03,560
+So we have two equations and two unknowns.
+
+92
+00:06:03,560 --> 00:06:06,000
+So we actually have enough information just with
+
+93
+00:06:06,000 --> 00:06:08,180
+statement 1 to solve the problem.
+
+94
+00:06:08,180 --> 00:06:10,430
+And I'm actually not even going to go into it because it
+
+95
+00:06:10,430 --> 00:06:11,490
+would be a waste of time.
+
+96
+00:06:11,820 --> 00:06:13,520
+Hopefully, we're getting into the rhythm of this.
+
+97
+00:06:13,520 --> 00:06:16,000
+Two linear equations, two unknowns, enough information.
+
+98
+00:06:16,000 --> 00:06:18,480
+If they're quadratic or something, then you'd have to
+
+99
+00:06:18,480 --> 00:06:20,020
+dig a little bit deeper.
+
+100
+00:06:21,170 --> 00:06:23,470
+Or if they're somehow parallel equations, but I wouldn't
+
+101
+00:06:23,470 --> 00:06:27,740
+worry about that too much on the GMAT. Statement number two.
+
+102
+00:06:28,000 --> 00:06:32,100
+The price of the model K mixer was $142.40 in 1989.
+
+103
+00:06:32,100 --> 00:06:40,480
+So they're telling us that K in 1989 was 142.40
+
+104
+00:06:40,480 --> 00:06:43,170
+Well, this is definitely enough information,
+
+105
+00:06:43,170 --> 00:06:47,280
+because we already have this equation. The '89 price,
+
+106
+00:06:47,280 --> 00:06:54,010
+which is 142.40, is equal to 3.56 times the 1970 price.
+
+107
+00:06:54,010 --> 00:06:57,430
+So you just divide this by 3.56 and you have your answer.
+
+108
+00:06:57,430 --> 00:06:59,790
+So each statement, independently,
+
+109
+00:06:59,790 --> 00:07:01,710
+is enough to solve this problem.
+
+110
+00:07:05,040 --> 00:07:11,700
+Problem 131. Is 5 to the k less than a thousand?
+
+111
+00:07:19,400 --> 00:07:25,910
+Statement number one tells us that 5 to the k plus 1 is
+
+112
+00:07:25,910 --> 00:07:27,650
+greater than 3,000.
+
+113
+00:07:27,650 --> 00:07:29,150
+I already have a sense this isn't going to help us,
+
+114
+00:07:29,150 --> 00:07:31,830
+because it's essentially setting a lower bound on 5.
+
+115
+00:07:31,830 --> 00:07:35,640
+So let me just explain it. So 5 to the k plus 1.
+
+116
+00:07:35,640 --> 00:07:38,040
+That's the same thing as 5 to the k times 5.
+
+117
+00:07:38,740 --> 00:07:42,010
+So that's equal to 5 times 5 to the k.
+
+118
+00:07:42,010 --> 00:07:43,690
+You could view this as 5 to the first power.
+
+119
+00:07:43,690 --> 00:07:45,350
+Then, you would add the exponents to get here.
+
+120
+00:07:46,000 --> 00:07:49,000
+And that, they say, is greater than 3,000.
+
+121
+00:07:49,000 --> 00:07:53,900
+You divide both sides by 5 and you get 5 to the k--
+
+122
+00:07:53,900 --> 00:07:58,000
+that's a k-- is greater than 600. That doesn't help us.
+
+123
+00:07:58,000 --> 00:08:02,220
+5 to the k could be 6,000. Well, 5 to the k could be 700,
+
+124
+00:08:02,220 --> 00:08:05,550
+in which case this would be true. 5 to the k could be 7,000.
+
+125
+00:08:05,550 --> 00:08:06,710
+In which case, this wouldn't be true.
+
+126
+00:08:06,710 --> 00:08:10,090
+So statement 1, by itself, isn't enough information.
+
+127
+00:08:11,090 --> 00:08:12,970
+Statement number two tells us,
+
+128
+00:08:14,570 --> 00:08:25,340
+5 to the k minus 1 is equal to 5 to the k minus 500.
+
+129
+00:08:26,080 --> 00:08:30,690
+This is interesting. Let's see what we can do here.
+
+130
+00:08:31,620 --> 00:08:33,090
+Let's get all the k's on one side.
+
+131
+00:08:33,090 --> 00:08:37,020
+So this is the same thing as 5 to the k minus 1 minus 5 to
+
+132
+00:08:37,020 --> 00:08:42,830
+the k is equal to minus 500.
+
+133
+00:08:45,570 --> 00:08:50,000
+Well, this is the same thing as 1/5, or 5 to the negative 1.
+
+134
+00:08:50,000 --> 00:08:55,020
+Let me write that. 5 to the negative 1 times 5 to the k.
+
+135
+00:08:55,020 --> 00:09:00,020
+Then, minus 5 to the k is equal to minus 500.
+
+136
+00:09:00,020 --> 00:09:03,010
+Let's factor 5 to the k out of this.
+
+137
+00:09:03,010 --> 00:09:10,570
+So you get 5 to the k times--5 to the negative 1, that's 1/5.
+
+138
+00:09:11,570 --> 00:09:15,390
+Minus 1-- we factored a 5 to the k out there-- is
+
+139
+00:09:15,390 --> 00:09:17,230
+equal to minus 500.
+
+140
+00:09:19,020 --> 00:09:25,040
+And let's see what we can do. 5 to the k. 1/5 minus 1.
+
+141
+00:09:25,040 --> 00:09:30,810
+That's minus 4/5,right?Times minus 4/5 is equal to minus 500.
+
+142
+00:09:30,810 --> 00:09:32,710
+We can get rid of the minus sign on both sides.
+
+143
+00:09:32,710 --> 00:09:34,140
+Multiply both sides by negative 1.
+
+144
+00:09:34,140 --> 00:09:36,870
+And then, we can multiply both sides by 5/4.
+
+145
+00:09:36,870 --> 00:09:43,670
+So we get 5 to the k is equal to 500 times what? 5/4.
+
+146
+00:09:46,800 --> 00:09:57,000
+And that is what? That's 125. 2,500 divided by 4.
+
+147
+00:09:57,000 --> 00:10:03,760
+2,500 divided by 4.I want to say it's 475. Is that-- 5/4. No.
+
+148
+00:10:03,760 --> 00:10:07,210
+So each fourth is 125 and you have another.
+
+149
+00:10:07,210 --> 00:10:09,000
+So it's equal to 625.
+
+150
+00:10:10,000 --> 00:10:13,030
+Even if I just got my math wrong, that doesn't matter.
+
+151
+00:10:13,030 --> 00:10:15,400
+Because they just want to know whether 5 to the k is less
+
+152
+00:10:15,400 --> 00:10:17,810
+than a thousand. And it definitely is.
+
+153
+00:10:17,830 --> 00:10:22,150
+Even if my math-- 500 times 5/4-- 1/4 of 500 is 125.
+
+154
+00:10:24,020 --> 00:10:33,200
+125 times 5. So we'll have one more of those. 625.
+
+155
+00:10:33,200 --> 00:10:39,550
+So statement 2, alone, is sufficient to answer the question.
+
+156
+00:10:39,550 --> 00:10:43,490
+Statement 1 was kind of useless. I've run out of time.
+
+157
+00:10:43,490 --> 00:10:45,030
+See you in the next video.

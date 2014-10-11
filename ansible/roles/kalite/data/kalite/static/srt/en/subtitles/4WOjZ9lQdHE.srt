@@ -1,0 +1,759 @@
+1
+00:00:00,850 --> 00:00:04,670
+We're on problem 201 which I had continued in the last video,
+
+2
+00:00:04,670 --> 00:00:07,100
+but, frankly, I had bad reading comprehension.
+
+3
+00:00:07,100 --> 00:00:08,400
+I had read the first statement wrong,
+
+4
+00:00:08,410 --> 00:00:10,900
+and I went down an incorrect path.
+
+5
+00:00:11,340 --> 00:00:12,380
+So let me read it correctly.
+
+6
+00:00:12,440 --> 00:00:15,270
+If the sum of n consecutive integers is 0,
+
+7
+00:00:15,380 --> 00:00:17,000
+which of the following must be true?
+
+8
+00:00:17,030 --> 00:00:20,530
+So I have n numbers in the row, and their sum has to be 0.
+
+9
+00:00:20,820 --> 00:00:22,630
+So, first of all, that tells us that some of them have to
+
+10
+00:00:22,710 --> 00:00:24,940
+be positive and some of them have to be negative.
+
+11
+00:00:25,170 --> 00:00:26,430
+And they're consecutive, right?
+
+12
+00:00:26,670 --> 00:00:28,350
+So if we put this as 0--
+
+13
+00:00:28,610 --> 00:00:31,170
+let's think about how we can even construct this,
+
+14
+00:00:31,170 --> 00:00:32,450
+how this could ever happen.
+
+15
+00:00:33,000 --> 00:00:37,110
+n consecutive numbers, the sum being 0.
+
+16
+00:00:41,370 --> 00:00:43,070
+Really in order to do that--
+
+17
+00:00:43,770 --> 00:00:45,970
+and they're consecutive, which is a trick.
+
+18
+00:00:48,020 --> 00:00:55,090
+If a is one of the numbers, then, really,
+
+19
+00:00:55,230 --> 00:00:58,030
+negative a has to be one of the numbers as well.
+
+20
+00:00:58,030 --> 00:00:59,380
+And why is that?
+
+21
+00:00:59,460 --> 00:01:03,420
+You might say, oh well why can't I have some other set of
+
+22
+00:01:03,610 --> 00:01:05,770
+negative numbers that offset a? Well,
+
+23
+00:01:05,790 --> 00:01:08,210
+the key here is that we're dealing with consecutive numbers.
+
+24
+00:01:08,210 --> 00:01:10,090
+Because those other negative numbers are going to have to
+
+25
+00:01:10,170 --> 00:01:12,270
+offset all of the other positive numbers in between.
+
+26
+00:01:12,820 --> 00:01:16,180
+Maybe I should do this with more abstract.
+
+27
+00:01:16,180 --> 00:01:18,050
+Let's say that n is equal to 1.
+
+28
+00:01:19,790 --> 00:01:22,680
+The sum of n consecutive integers is 0.
+
+29
+00:01:22,900 --> 00:01:25,590
+So, first of all, can n equal 1? Well sure.
+
+30
+00:01:25,890 --> 00:01:31,680
+Only if that one integer is 0. Now what if n is equal to 2?
+
+31
+00:01:32,030 --> 00:01:34,740
+Can n equal 2? Well let's think about it.
+
+32
+00:01:35,480 --> 00:01:37,740
+We have to add one integer to thisŁŹ
+
+33
+00:01:37,740 --> 00:01:40,000
+and they're integers right?
+
+34
+00:01:40,000 --> 00:01:43,650
+So if we add one integer-if we add any positive integer here,
+
+35
+00:01:43,650 --> 00:01:49,010
+a, then the sum is going to be 0 plus a.
+
+36
+00:01:49,010 --> 00:01:52,690
+If you're going to cross the negative boundary,
+
+37
+00:01:52,720 --> 00:01:55,740
+if you're going to cross 0, 0 has to be one of your integers.
+
+38
+00:01:56,590 --> 00:01:58,310
+So that's always going to be counted.
+
+39
+00:01:58,460 --> 00:02:00,040
+So, in order to get into negative a,
+
+40
+00:02:00,410 --> 00:02:02,740
+you need to have at least three integers.
+
+41
+00:02:04,420 --> 00:02:08,730
+So, if I said that n is equal to 3, you could do 1,
+
+42
+00:02:08,800 --> 00:02:11,010
+0, and minus 1.
+
+43
+00:02:11,790 --> 00:02:14,510
+Now, if n is equal to 4, can I just add one number?
+
+44
+00:02:14,510 --> 00:02:16,510
+Can I add either 2 or negative 2?
+
+45
+00:02:16,510 --> 00:02:18,650
+No, that'll change the sum again.
+
+46
+00:02:19,070 --> 00:02:23,410
+So I have to add a 2 and a minus 2.
+
+47
+00:02:24,000 --> 00:02:26,440
+So I think you could see here that there's a pattern because
+
+48
+00:02:26,510 --> 00:02:29,270
+0 is always going to be one of the integers and
+
+49
+00:02:29,270 --> 00:02:30,950
+it's symmetric on the right- or left-hand side.
+
+50
+00:02:31,000 --> 00:02:35,550
+We're always going to have an odd number of integers
+
+51
+00:02:35,560 --> 00:02:37,900
+we're summing up. So we know that n is odd.
+
+52
+00:02:42,540 --> 00:02:45,140
+So, we know statement one. They say statement one, n even.
+
+53
+00:02:45,450 --> 00:02:46,300
+That's not true.
+
+54
+00:02:46,420 --> 00:02:48,420
+We actually can't construct it with n as even.
+
+55
+00:02:48,660 --> 00:02:52,760
+Statement two says, n is odd which we've just shown.
+
+56
+00:02:53,840 --> 00:02:55,360
+And then statement three is,
+
+57
+00:02:55,690 --> 00:03:00,080
+the average of the n integers is 0. Well sure.
+
+58
+00:03:01,160 --> 00:03:08,070
+What's the average?It's the sum of the integers divided by n.
+
+59
+00:03:08,570 --> 00:03:11,730
+Well, they're telling us that the sum of the integers is 0.
+
+60
+00:03:12,590 --> 00:03:13,900
+So 0 divided by anything,
+
+61
+00:03:13,900 --> 00:03:16,380
+as long as we don't have zero integers, is 0.
+
+62
+00:03:17,400 --> 00:03:22,760
+So two and three are both correct. So the choice is e.
+
+63
+00:03:24,020 --> 00:03:25,150
+Next question.
+
+64
+00:03:28,010 --> 00:03:29,500
+202.
+
+65
+00:03:38,030 --> 00:03:46,570
+In the formula, v is equal to 1 over 2r cubed.
+
+66
+00:03:46,630 --> 00:03:51,730
+If r is halved, then v is multiplied by what?
+
+67
+00:03:51,840 --> 00:03:55,000
+The easiest thing I always find to do in this is take numbers
+
+68
+00:03:55,450 --> 00:03:57,760
+So let's say, if r is 2 what happens?
+
+69
+00:03:57,760 --> 00:04:00,610
+And let's halve it when r equals 1 and see what happens to v.
+
+70
+00:04:00,770 --> 00:04:02,900
+We can do it analytically, but this is, frankly,
+
+71
+00:04:03,140 --> 00:04:04,040
+the easiest way to do it.
+
+72
+00:04:04,040 --> 00:04:05,870
+So you can say when r is equal to 2,
+
+73
+00:04:05,870 --> 00:04:11,180
+v is equal to 1 over 2 times 2,is 4,to the third power is 64.
+
+74
+00:04:11,490 --> 00:04:16,100
+And then when r is 1, you get 1 over-- let's see,
+
+75
+00:04:16,100 --> 00:04:18,110
+2 times 1 is 2 to the third power.
+
+76
+00:04:18,220 --> 00:04:22,010
+So you get 1/8. So what happened to v?
+
+77
+00:04:22,010 --> 00:04:30,020
+We, essentially, multiplied that by 8. So that is choice b.
+
+78
+00:04:30,020 --> 00:04:33,800
+To go from 1/64 to 1/8 you have to multiply by 8.
+
+79
+00:04:33,950 --> 00:04:36,890
+You can view 1/8 as the same thing as 8/64
+
+80
+00:04:36,940 --> 00:04:38,030
+if that clarifies it at all.
+
+81
+00:04:38,410 --> 00:04:41,140
+I always find it easier to deal with actual physical numbers
+
+82
+00:04:41,270 --> 00:04:43,400
+where they say, if you change this variable by a
+
+83
+00:04:43,440 --> 00:04:46,010
+factor of 5 what happened to that variable?
+
+84
+00:04:46,010 --> 00:04:47,080
+So easy to just-- well anyway.
+
+85
+00:04:47,880 --> 00:04:51,130
+It could get very confusing if you try to do an r1 and an r2,
+
+86
+00:04:51,370 --> 00:04:54,080
+and r1 is 2 times r2 and all that.
+
+87
+00:04:55,220 --> 00:04:58,340
+Next question. 203.
+
+88
+00:05:02,000 --> 00:05:04,280
+A certain bakery has six employees.
+
+89
+00:05:05,000 --> 00:05:10,380
+It pays annual salaries of $14,000 to each of two employees.
+
+90
+00:05:13,030 --> 00:05:15,340
+$16,000 to one employee.
+
+91
+00:05:17,410 --> 00:05:20,570
+And $17,000 to each of the remaining three employees.
+
+92
+00:05:22,660 --> 00:05:28,380
+The average annual salary of these employees is closest to
+
+93
+00:05:28,510 --> 00:05:29,980
+which of the following? So,
+
+94
+00:05:29,980 --> 00:05:33,040
+we have to take the sum of all their salaries and divide by 6
+
+95
+00:05:33,040 --> 00:05:38,450
+So it'll be 2 times 14, plus 1 times 16-- which is 16,
+
+96
+00:05:39,020 --> 00:05:44,000
+plus 3 times 17, and we divide it by 6.
+
+97
+00:05:44,000 --> 00:05:51,020
+2 times 14 is 28, plus 16, plus 51, all of that over 6.
+
+98
+00:05:51,020 --> 00:05:52,740
+Let's see, what is that equal to?
+
+99
+00:05:52,770 --> 00:06:02,400
+28, 16, 51, 8 plus 6 is 14, 14 plus 1 is 15, 1 plus 2 is 3,
+
+100
+00:06:02,830 --> 00:06:09,510
+3 plus 1 is 4, 4 plus 5 is 9. This was 8 plus 6.
+
+101
+00:06:09,600 --> 00:06:15,000
+So, it's 95 divided by 6. Sorry, 95 divided by 6.
+
+102
+00:06:15,000 --> 00:06:17,000
+I think my brain was computing ahead of me
+
+103
+00:06:17,060 --> 00:06:22,770
+because 96 divided by 6 is equal to 16.
+
+104
+00:06:23,350 --> 00:06:28,470
+So this number is going to be just under 16. It's 15 and 5/6.
+
+105
+00:06:28,820 --> 00:06:32,440
+So they want to get an approximate, as close as-- oh,
+
+106
+00:06:32,440 --> 00:06:34,430
+actually they have a lot of numbers that are really close.
+
+107
+00:06:34,430 --> 00:06:39,230
+Let me make sure that I get it right.
+
+108
+00:06:39,800 --> 00:06:42,770
+So, 6 goes into 95-- if they didn't have numbers that
+
+109
+00:06:42,770 --> 00:06:44,330
+weren't close, I wouldn't do this.
+
+110
+00:06:44,350 --> 00:06:46,540
+6 goes into 95, 6 into 9, 6.
+
+111
+00:06:46,880 --> 00:06:52,050
+35, goes 5 times, 5 times 6 is 30, remainder of 5.
+
+112
+00:06:52,650 --> 00:06:55,060
+Actually let's keep going because we want a decimal.
+
+113
+00:06:55,790 --> 00:06:58,730
+We're doing it in thousands So, bring down a 0.
+
+114
+00:06:58,740 --> 00:07:04,110
+6 goes into 50 8 times. 8 times 6 is 48.
+
+115
+00:07:04,350 --> 00:07:07,150
+Remember, we were dealing in thousands when I said 16,
+
+116
+00:07:07,150 --> 00:07:10,080
+that was thousands. So, now we're at 15.8 thousand.
+
+117
+00:07:10,940 --> 00:07:15,580
+So 8 times 48, 20, 6 goes into 20 3 times.
+
+118
+00:07:16,500 --> 00:07:18,300
+I think that's close enough to what we need.
+
+119
+00:07:18,530 --> 00:07:21,070
+So it's going to be roughly $15,800.
+
+120
+00:07:21,590 --> 00:07:26,040
+Or 15.8 thousands. And that is choice C.
+
+121
+00:07:27,690 --> 00:07:29,390
+At first I said maybe we can approximate,
+
+122
+00:07:29,390 --> 00:07:31,830
+and they had 16,000 there, but then I saw the 15,800
+
+123
+00:07:32,340 --> 00:07:34,410
+so we should do a little bit more math.
+
+124
+00:07:34,600 --> 00:07:35,900
+We don't want to get too careless.
+
+125
+00:07:37,130 --> 00:07:40,280
+Next problem. 204.
+
+126
+00:07:43,000 --> 00:07:48,410
+If x is equal to the sum of the even integers from 40 to
+
+127
+00:07:48,600 --> 00:07:49,490
+60 inclusive.
+
+128
+00:07:58,690 --> 00:08:00,190
+This is my ad hoc notation.
+
+129
+00:08:00,530 --> 00:08:04,190
+And y is the number of even integers.
+
+130
+00:08:08,860 --> 00:08:12,150
+Let's see, if x is equal to the sum of the even integers
+
+131
+00:08:12,160 --> 00:08:15,880
+from 40 to 60, inclusive, so it includes 40 and 60,
+
+132
+00:08:18,330 --> 00:08:21,730
+and y is the number of even integers from 40 to 60 inclusive,
+
+133
+00:08:22,140 --> 00:08:26,440
+what is the value of x plus y?
+
+134
+00:08:30,000 --> 00:08:32,370
+The number-- y is an easy thing.
+
+135
+00:08:32,430 --> 00:08:35,000
+How many integers are there between 40 and 60,
+
+136
+00:08:35,000 --> 00:08:35,960
+if you include both of them?
+
+137
+00:08:37,590 --> 00:08:39,640
+This is always a tricky thing to think about.
+
+138
+00:08:39,650 --> 00:08:44,810
+But, if you think about it, if I said the numbers 1,2, and 3,
+
+139
+00:08:44,930 --> 00:08:46,690
+how many integers are there here?
+
+140
+00:08:46,910 --> 00:08:49,020
+Well, clearly, you can count them. 1, 2, and 3.
+
+141
+00:08:49,470 --> 00:08:53,000
+But if you wanted a quick way you could say 3 minus--
+
+142
+00:08:53,100 --> 00:08:57,310
+if I just took the endpoint minus the starting point,
+
+143
+00:08:58,260 --> 00:09:02,020
+I would get these integers. Then I want to add 1.
+
+144
+00:09:02,380 --> 00:09:05,300
+If I want to know how integers are there between 60 and 40,
+
+145
+00:09:05,300 --> 00:09:07,450
+I would say 60 minus 40.
+
+146
+00:09:07,760 --> 00:09:12,810
+And that'll give me 41,42, 43, 44, all the way to 59, and 60.
+
+147
+00:09:13,000 --> 00:09:15,590
+And then I have to add 1 because we're including 40 as well.
+
+148
+00:09:16,110 --> 00:09:21,790
+So y is equal to 21. Now let's think about,
+
+149
+00:09:22,560 --> 00:09:28,880
+is there an easy way to add up all of the integers between 40
+
+150
+00:09:28,920 --> 00:09:31,790
+and-- all of the even, oh no, no sorry.
+
+151
+00:09:32,700 --> 00:09:36,850
+y is the number of even integers from 40 to 60.
+
+152
+00:09:36,850 --> 00:09:39,870
+So that's not right. So, even integers.
+
+153
+00:09:39,900 --> 00:09:43,010
+Frankly,it might just be easier to-let's just write them out.
+
+154
+00:09:43,010 --> 00:09:56,070
+40, 42, 44, 46, 48, 50, 52, 54, 56, 58, and 60.
+
+155
+00:09:56,070 --> 00:10:05,020
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. 11 intergers. So that's y.
+
+156
+00:10:05,020 --> 00:10:09,010
+And we need to take the sum of all of these.
+
+157
+00:10:09,010 --> 00:10:11,030
+So there's a couple of ways we could think about it.
+
+158
+00:10:11,030 --> 00:10:17,570
+You could view this as 40 plus 0, 40 plus 2,
+
+159
+00:10:17,570 --> 00:10:23,400
+40 plus 3, and so forth. All the way to 40 plus 8.
+
+160
+00:10:23,630 --> 00:10:27,490
+And so if you wanted to add up at least up to this point,
+
+161
+00:10:27,800 --> 00:10:29,850
+it's a pretty straightforward way of doing it.
+
+162
+00:10:29,950 --> 00:10:34,370
+You could just say, there's 1, 2, 3, 4, 5 of them.
+
+163
+00:10:34,370 --> 00:10:39,470
+So it's equal to 40 times 5. That adds up all the 40's.
+
+164
+00:10:39,600 --> 00:10:42,030
+Plus 2, plus 4, plus 6, plus 8.
+
+165
+00:10:42,030 --> 00:10:48,820
+So 2 plus 4 is 6, plus 6 is 12, plus 8 is 20. So, plus 20.
+
+166
+00:10:48,900 --> 00:10:56,060
+So, that's 40 times 5 is what? 200 plus 20 is equal to 220.
+
+167
+00:10:56,370 --> 00:10:58,000
+And you use the same logic here.
+
+168
+00:10:58,000 --> 00:11:06,000
+This is 50 plus 0, 50 plus 2, all the way to 50 plus 10.
+
+169
+00:11:06,000 --> 00:11:10,390
+And how many are there? There's 1, 2, 3, 4, 5, 6.
+
+170
+00:11:10,570 --> 00:11:20,200
+So, it's equal to 6 times 50, plus 2 plus 4 is 6,
+
+171
+00:11:20,280 --> 00:11:26,100
+plus 6 is 12, plus 8 is 20. Which we actually already knew.
+
+172
+00:11:26,200 --> 00:11:28,000
+We already calculated it there. It was 20.
+
+173
+00:11:28,000 --> 00:11:32,330
+Because these don't contribute to the-- oh no, no plus 10.
+
+174
+00:11:32,380 --> 00:11:36,000
+Sorry, plus 10. Don't want to get careless. Plus 10.
+
+175
+00:11:36,000 --> 00:11:38,430
+Because there's six of these.
+
+176
+00:11:38,430 --> 00:11:42,030
+There's plus 0, plus 2, plus 4, plus 6, plus 8, plus 10.
+
+177
+00:11:42,030 --> 00:11:44,550
+So, it's 20 plus 10 is 30.
+
+178
+00:11:45,220 --> 00:11:48,470
+2 plus 4 plus 6 plus 8 plus 10 is 30.
+
+179
+00:11:48,500 --> 00:11:57,030
+So,6 times 5 is 300,plus 30 is equal to 330. So,330 plus 220.
+
+180
+00:11:57,030 --> 00:12:00,560
+These numbers have a strange pattern that-- well
+
+181
+00:12:00,770 --> 00:12:03,510
+there is a formula if you want to add the first n numbers,
+
+182
+00:12:03,510 --> 00:12:06,110
+but they've changed it a little bit by talking about
+
+183
+00:12:06,110 --> 00:12:08,080
+even numbers so I wanted to do it manually.
+
+184
+00:12:09,030 --> 00:12:15,060
+So you go 0, 5, 5. So 550 is the sum.
+
+185
+00:12:15,060 --> 00:12:19,430
+And then we know that y-- this is x. x is equal to 550.
+
+186
+00:12:19,610 --> 00:12:22,020
+And y is equal to 11. We figured that out before.
+
+187
+00:12:22,020 --> 00:12:30,030
+So x plus y is equal to 550, plus 11 which is equal to 561,
+
+188
+00:12:30,030 --> 00:12:33,550
+which is, thank goodness, actually one of the choices.
+
+189
+00:12:33,650 --> 00:12:35,080
+That's choice D.
+
+190
+00:12:35,040 --> 00:12:37,050
+See you in the next video.

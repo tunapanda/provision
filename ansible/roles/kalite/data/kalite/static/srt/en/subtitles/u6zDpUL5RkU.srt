@@ -1,0 +1,903 @@
+1
+00:00:00,590 --> 00:00:03,880
+Let's do some equations that deal with absolute values.
+
+2
+00:00:03,880 --> 00:00:05,119
+And just as a bit of a review,
+
+3
+00:00:05,119 --> 00:00:07,650
+when you take the absolute value of a number.
+
+4
+00:00:07,650 --> 00:00:10,680
+Let's say I take the absolute value of -1.
+
+5
+00:00:10,680 --> 00:00:12,263
+What you're really doing is
+
+6
+00:00:12,263 --> 00:00:16,090
+you're saying, how far is that number from 0?
+
+7
+00:00:16,090 --> 00:00:20,620
+And in the case of -1, if we draw a number line right there
+
+8
+00:00:20,620 --> 00:00:23,310
+-- that's a very badly
+drawn number line.
+
+9
+00:00:23,310 --> 00:00:26,230
+If we draw a number line right there, that's 0.
+
+10
+00:00:26,230 --> 00:00:28,470
+You have a -1 right there.
+
+11
+00:00:28,470 --> 00:00:30,230
+Well, it's 1 away from 0.
+
+12
+00:00:30,230 --> 00:00:33,250
+So the absolute value of -1 is 1.
+
+13
+00:00:33,250 --> 00:00:38,850
+And the absolute value of 1 is also 1 away from 0.
+
+14
+00:00:38,850 --> 00:00:40,610
+It's also equal to 1.
+
+15
+00:00:40,610 --> 00:00:43,500
+So on some level, absolute value is the distance from 0.
+
+16
+00:00:43,500 --> 00:00:45,587
+But another, I guess simpler way to think of it,
+
+17
+00:00:45,587 --> 00:00:48,600
+it always results in the positive version of the number.
+
+18
+00:00:48,600 --> 00:00:59,360
+The absolute value of -7,346 is equal to 7,346.
+
+19
+00:00:59,360 --> 00:01:00,779
+So with that in mind, let's try to
+
+20
+00:01:00,779 --> 00:01:05,050
+solve some equations with absolute values in them.
+
+21
+00:01:05,050 --> 00:01:06,675
+So let's say I have the equation
+
+22
+00:01:06,675 --> 00:01:14,500
+the absolute value of x -5 is equal to 10.
+
+23
+00:01:14,500 --> 00:01:15,895
+And one way you can interpret this,
+
+24
+00:01:15,895 --> 00:01:18,161
+and I want you to think about this, this is actually saying
+
+25
+00:01:18,161 --> 00:01:23,120
+that the distance between x and 5 is equal to 10.
+
+26
+00:01:23,120 --> 00:01:26,750
+So how many numbers that are exactly 10 away from 5?
+
+27
+00:01:26,750 --> 00:01:29,430
+And you can already think of the solution to this equation,
+
+28
+00:01:29,430 --> 00:01:31,960
+but I'll show you how to solve it systematically.
+
+29
+00:01:31,960 --> 00:01:36,510
+Now this is going to be true in two situations.
+
+30
+00:01:36,510 --> 00:01:41,800
+Either x -5 is equal to +10.
+
+31
+00:01:41,800 --> 00:01:44,630
+If this evaluates out to +10,
+
+32
+00:01:44,630 --> 00:01:46,610
+then when you take the absolute value of it,
+
+33
+00:01:46,610 --> 00:01:48,380
+you're going to get +10.
+
+34
+00:01:48,380 --> 00:01:53,130
+Or x - 5 might evaluate to -10.
+
+35
+00:01:53,130 --> 00:01:58,700
+If x - 5 evaluated to -10, when you take the absolute value of it,
+
+36
+00:01:58,700 --> 00:01:59,950
+you would get 10 again.
+
+37
+00:01:59,950 --> 00:02:04,280
+So x - 5 could also be equal to -10.
+
+38
+00:02:04,280 --> 00:02:07,730
+Both of these would satisfy this equation.
+
+39
+00:02:07,730 --> 00:02:08,958
+Now, to solve this one,
+
+40
+00:02:08,958 --> 00:02:11,500
+add 5 to both sides of this equation.
+
+41
+00:02:11,500 --> 00:02:14,160
+You get x is equal to 15.
+
+42
+00:02:14,160 --> 00:02:17,830
+To solve this one, add 5 to both sides of this equation.
+
+43
+00:02:17,830 --> 00:02:20,900
+x is equal to -5.
+
+44
+00:02:20,900 --> 00:02:21,963
+So our solution,
+
+45
+00:02:21,963 --> 00:02:24,910
+there's two x's that satisfy this equation.
+
+46
+00:02:24,910 --> 00:02:26,890
+x could be 15.
+
+47
+00:02:26,890 --> 00:02:29,502
+15 - 5 is 10, take the absolute value,
+
+48
+00:02:29,502 --> 00:02:32,690
+you're going to get 10, or x could be -5.
+
+49
+00:02:32,690 --> 00:02:36,060
+- 5 minus 5 is -10.
+
+50
+00:02:36,060 --> 00:02:39,020
+Take the absolute value, you get 10.
+
+51
+00:02:39,020 --> 00:02:41,632
+And notice, both of these numbers
+
+52
+00:02:41,632 --> 00:02:45,750
+are exactly 10 away from the number 5.
+
+53
+00:02:45,750 --> 00:02:48,050
+Let's do another one of these.
+
+54
+00:02:48,050 --> 00:02:51,130
+Let's do another one.
+
+55
+00:02:51,130 --> 00:02:52,182
+Let's say we have
+
+56
+00:02:52,182 --> 00:02:58,580
+the absolute value of x + 2 is equal to 6.
+
+57
+00:02:58,580 --> 00:02:59,610
+So what does that tell us?
+
+58
+00:02:59,610 --> 00:03:03,132
+That tells us that either x + 2,
+
+59
+00:03:03,132 --> 00:03:07,030
+that the thing inside the absolute value sign, is equal to 6.
+
+60
+00:03:07,030 --> 00:03:10,380
+Or the thing inside of the absolute value sign,
+
+61
+00:03:10,380 --> 00:03:12,050
+the x + 2, could also be -6.
+
+62
+00:03:12,050 --> 00:03:13,910
+If this whole thing evaluated to -6,
+
+63
+00:03:13,910 --> 00:03:16,210
+you take the absolute value, you'd get 6.
+
+64
+00:03:16,210 --> 00:03:20,340
+So, or x + 2 could equal -6.
+
+65
+00:03:20,340 --> 00:03:22,880
+And then if you subtract 2 from both sides of this equation,
+
+66
+00:03:22,880 --> 00:03:25,850
+you get x could be equal to 4.
+
+67
+00:03:25,850 --> 00:03:29,780
+If you subtract 2 from both sides of this equation,
+
+68
+00:03:29,780 --> 00:03:33,690
+you get x could be equal to -8.
+
+69
+00:03:33,690 --> 00:03:37,240
+So these are the two solutions to the equation.
+
+70
+00:03:37,240 --> 00:03:39,740
+And just to kind of have it gel in your mind,
+
+71
+00:03:39,740 --> 00:03:42,500
+that absolute value, you can kind of view it as a distance,
+
+72
+00:03:42,500 --> 00:03:43,940
+you could rewrite this problem
+
+73
+00:03:43,940 --> 00:03:50,410
+as the absolute value of x minus -2 is equal to 6.
+
+74
+00:03:50,410 --> 00:03:52,759
+And so this is asking me,
+
+75
+00:03:52,759 --> 00:03:57,590
+what are the x's that are exactly 6 away from -2?
+
+76
+00:03:57,590 --> 00:03:59,168
+Remember, up here we said,
+
+77
+00:03:59,168 --> 00:04:03,560
+what are the x's that are exactly 10 away from +5?
+
+78
+00:04:03,560 --> 00:04:05,990
+Whatever number you're subtracting from +5,
+
+79
+00:04:05,990 --> 00:04:08,560
+these are both 10 away from +5.
+
+80
+00:04:08,560 --> 00:04:09,515
+This is asking,
+
+81
+00:04:09,515 --> 00:04:13,080
+what is exactly 6 away from -2?
+
+82
+00:04:13,080 --> 00:04:15,510
+And it's going to be 4, or -8.
+
+83
+00:04:15,510 --> 00:04:17,959
+You could try those numbers out for yourself.
+
+84
+00:04:17,959 --> 00:04:20,459
+Let's do another one of these.
+
+85
+00:04:20,459 --> 00:04:25,330
+Let's do another one, and we'll do it in purple.
+
+86
+00:04:25,330 --> 00:04:30,190
+Let's say we have the absolute value of 4x.
+
+87
+00:04:30,190 --> 00:04:31,430
+I'm going to change this problem up a little bit.
+
+88
+00:04:31,430 --> 00:04:33,390
+4x -1.
+
+89
+00:04:33,390 --> 00:04:36,583
+The absolute value of 4x -1, is equal to--
+
+90
+00:04:36,583 --> 00:04:40,200
+actually, I'll just keep it-- is equal to 19.
+
+91
+00:04:40,200 --> 00:04:41,769
+So, just like the last few problems,
+
+92
+00:04:41,769 --> 00:04:47,640
+4x -1 could be equal to 19.
+
+93
+00:04:47,640 --> 00:04:51,670
+Or 4x -1 might evaluate to -19.
+
+94
+00:04:51,670 --> 00:04:53,130
+Because then when you take the absolute value,
+
+95
+00:04:53,130 --> 00:04:54,800
+you're going to get 19 again.
+
+96
+00:04:54,800 --> 00:04:59,100
+Or 4x -1 could be equal to -19.
+
+97
+00:04:59,100 --> 00:05:00,970
+Then you just solve these two equations.
+
+98
+00:05:00,970 --> 00:05:02,945
+Add 1 to both sides of this equation--
+
+99
+00:05:02,945 --> 00:05:04,274
+we could do them simultaneous, even.
+
+100
+00:05:04,274 --> 00:05:08,510
+Add 1 to both sides of this, you get 4x is equal to 20.
+
+101
+00:05:08,510 --> 00:05:11,005
+Add 1 to both sides of this equation,
+
+102
+00:05:11,005 --> 00:05:15,340
+you get 4x is equal to -18.
+
+103
+00:05:15,340 --> 00:05:20,210
+Divide both sides of this by 4, you get x is equal to 5.
+
+104
+00:05:20,210 --> 00:05:23,920
+Divide both sides of this by 4, you get x is equal to -18/4,
+
+105
+00:05:23,920 --> 00:05:31,770
+which is equal to -9/2.
+
+106
+00:05:31,770 --> 00:05:35,730
+So both of these x values satisfy the equation.
+
+107
+00:05:35,730 --> 00:05:36,587
+Try it out.
+
+108
+00:05:36,587 --> 00:05:39,580
+-9/2 x 4.
+
+109
+00:05:39,580 --> 00:05:41,570
+This will become a -18.
+
+110
+00:05:41,570 --> 00:05:44,200
+-18 minus 1 is -19.
+
+111
+00:05:44,200 --> 00:05:46,740
+Take the absolute value, you get 19.
+
+112
+00:05:46,740 --> 00:05:49,920
+You put a 5 here, 4 x 5 is 20.
+
+113
+00:05:49,920 --> 00:05:51,960
+Minus 1 is +19.
+
+114
+00:05:51,960 --> 00:05:53,260
+So you take the absolute value.
+
+115
+00:05:53,260 --> 00:05:55,920
+Once again, you'll get a 19.
+
+116
+00:05:55,920 --> 00:05:58,580
+Let's try to graph one of these, just for fun.
+
+117
+00:05:58,580 --> 00:05:59,283
+So let's say
+
+118
+00:05:59,283 --> 00:06:04,990
+I have y is equal to the absolute value of x +3.
+
+119
+00:06:04,990 --> 00:06:07,840
+So this is a function, or a graph,
+
+120
+00:06:07,840 --> 00:06:09,410
+with an absolute value in it.
+
+121
+00:06:09,410 --> 00:06:11,820
+So let's think about two scenarios.
+
+122
+00:06:11,820 --> 00:06:13,136
+There's one scenario
+
+123
+00:06:13,136 --> 00:06:16,430
+where the thing inside of the absolute value is positive.
+
+124
+00:06:16,430 --> 00:06:18,873
+So you have the scenario where x + 3
+
+125
+00:06:18,873 --> 00:06:23,420
+I'll write it over here: x + 3 is > 0.
+
+126
+00:06:23,420 --> 00:06:29,370
+And then you have the scenario where x +3 is < 0.
+
+127
+00:06:29,370 --> 00:06:32,658
+When x +3 is > 0,
+
+128
+00:06:32,658 --> 00:06:36,490
+this graph, or this line--or I guess we can't call it a line--
+
+129
+00:06:36,490 --> 00:06:41,690
+this function, is the same thing as y is equal to x +3.
+
+130
+00:06:41,690 --> 00:06:44,370
+If this thing over here is > 0,
+
+131
+00:06:44,370 --> 00:06:46,750
+then the absolute value sign is irrelevant.
+
+132
+00:06:46,750 --> 00:06:48,780
+So then this thing is the same thing
+
+133
+00:06:48,780 --> 00:06:50,280
+as y is equal to x +3.
+
+134
+00:06:50,280 --> 00:06:52,590
+But when is x +3 > 0?
+
+135
+00:06:52,590 --> 00:06:56,366
+Well, if you subtract 3 from both sides,
+
+136
+00:06:56,366 --> 00:06:59,910
+you get x is > -3.
+
+137
+00:06:59,910 --> 00:07:02,249
+So when x is > -3,
+
+138
+00:07:02,249 --> 00:07:08,460
+this graph is going to look just like y is equal to x +3.
+
+139
+00:07:08,460 --> 00:07:11,500
+Now, when x +3 is < 0.
+
+140
+00:07:11,500 --> 00:07:13,328
+When the situation where this--
+
+141
+00:07:13,328 --> 00:07:16,509
+the inside of our absolute value sign--is negative,
+
+142
+00:07:16,509 --> 00:07:20,356
+in that situation this equation is going to be
+
+143
+00:07:20,356 --> 00:07:26,250
+y is equal to the negative of x +3.
+
+144
+00:07:26,250 --> 00:07:27,540
+How can I say that?
+
+145
+00:07:27,540 --> 00:07:30,520
+Well, look, if this is going to
+be a negative number, if x
+
+146
+00:07:30,520 --> 00:07:33,060
+plus 3 is going to be a negative
+number-- that's what
+
+147
+00:07:33,060 --> 00:07:36,010
+we're assuming here-- if it's
+going to be a negative number,
+
+148
+00:07:36,010 --> 00:07:38,090
+then when you take the absolute
+value of a negative
+
+149
+00:07:38,090 --> 00:07:40,050
+number, you're going to
+make it positive.
+
+150
+00:07:40,050 --> 00:07:43,280
+That's just like multiplying
+it by negative 1.
+
+151
+00:07:43,280 --> 00:07:45,870
+If you know you're taking the
+absolute value of a negative
+
+152
+00:07:45,870 --> 00:07:48,890
+number, it's just like
+multiplying it by negative 1,
+
+153
+00:07:48,890 --> 00:07:51,010
+because you're going to
+make it positive.
+
+154
+00:07:51,010 --> 00:07:53,870
+And this is going to
+be the situation.
+
+155
+00:07:53,870 --> 00:07:55,840
+x plus 3 is less than 0.
+
+156
+00:07:55,840 --> 00:07:59,850
+If we subtract 3 from both
+sides, when x is less than
+
+157
+00:07:59,850 --> 00:08:01,280
+negative 3.
+
+158
+00:08:01,280 --> 00:08:03,920
+So when x is less than negative
+3, the graph will
+
+159
+00:08:03,920 --> 00:08:05,040
+look like this.
+
+160
+00:08:05,040 --> 00:08:08,280
+When x is greater than negative
+3, the graph will
+
+161
+00:08:08,280 --> 00:08:09,600
+look like that.
+
+162
+00:08:09,600 --> 00:08:11,300
+So let's see what that
+would make the
+
+163
+00:08:11,300 --> 00:08:13,670
+entire graph look like.
+
+164
+00:08:13,670 --> 00:08:21,520
+Let me draw my axes.
+
+165
+00:08:21,520 --> 00:08:26,070
+That's my x-axis, that's
+my y-axis.
+
+166
+00:08:26,070 --> 00:08:29,090
+So just let me multiply this
+out, just so we have it in mx
+
+167
+00:08:29,090 --> 00:08:29,870
+plus b form.
+
+168
+00:08:29,870 --> 00:08:36,070
+So this is equal to negative
+x minus 3.
+
+169
+00:08:36,070 --> 00:08:37,409
+So let's just figure out
+what this graph would
+
+170
+00:08:37,409 --> 00:08:38,620
+look like in general.
+
+171
+00:08:38,620 --> 00:08:42,020
+Negative x minus 3.
+
+172
+00:08:42,020 --> 00:08:47,380
+The y-intercept is negative
+3, so 1, 2, 3.
+
+173
+00:08:47,380 --> 00:08:51,060
+And negative x means it
+slopes downward, has a
+
+174
+00:08:51,060 --> 00:08:52,290
+downward slope of 1.
+
+175
+00:08:52,290 --> 00:08:53,540
+So it would look like this.
+
+176
+00:08:56,840 --> 00:09:02,830
+The x-intercept would be
+at x is equal to--.
+
+177
+00:09:02,830 --> 00:09:07,740
+So if you say y is equal to 0,
+that would happen when x is
+
+178
+00:09:07,740 --> 00:09:08,575
+equal to negative 3.
+
+179
+00:09:08,575 --> 00:09:10,380
+So it's going to go
+through that line,
+
+180
+00:09:10,380 --> 00:09:11,920
+that point right there.
+
+181
+00:09:11,920 --> 00:09:14,190
+And the graph, if we didn't
+have this constraint right
+
+182
+00:09:14,190 --> 00:09:15,600
+here, would look something
+like this.
+
+183
+00:09:19,890 --> 00:09:22,760
+That's if we didn't constrain
+it to a certain interval on
+
+184
+00:09:22,760 --> 00:09:23,880
+the x-axis.
+
+185
+00:09:23,880 --> 00:09:27,080
+Now this graph, what
+does it look like?
+
+186
+00:09:27,080 --> 00:09:27,480
+Let's see.
+
+187
+00:09:27,480 --> 00:09:31,810
+It has its y-intercept
+at positive 3.
+
+188
+00:09:31,810 --> 00:09:33,230
+Just like that.
+
+189
+00:09:33,230 --> 00:09:35,260
+And where's its x-intecept?
+
+190
+00:09:35,260 --> 00:09:37,970
+When y is equal to 0,
+x is negative 3.
+
+191
+00:09:37,970 --> 00:09:39,760
+So it also goes through that
+point right there, and it has
+
+192
+00:09:39,760 --> 00:09:40,620
+a slope of 1.
+
+193
+00:09:40,620 --> 00:09:43,710
+So it would look something
+like this.
+
+194
+00:09:43,710 --> 00:09:45,330
+That's what this graph
+looks like.
+
+195
+00:09:45,330 --> 00:09:48,100
+Now, what we figured out is
+that this absolute value
+
+196
+00:09:48,100 --> 00:09:52,030
+function, it looks like this
+purple graph when x is less
+
+197
+00:09:52,030 --> 00:09:53,830
+than negative 3.
+
+198
+00:09:53,830 --> 00:09:57,070
+So when x is less than negative
+3-- that's x is equal
+
+199
+00:09:57,070 --> 00:09:59,593
+to negative 3 right there-- when
+x is less than negative
+
+200
+00:09:59,593 --> 00:10:03,170
+3, it looks like this
+purple graph.
+
+201
+00:10:03,170 --> 00:10:04,570
+Right there.
+
+202
+00:10:04,570 --> 00:10:07,390
+So that's when x is less
+than negative 3.
+
+203
+00:10:07,390 --> 00:10:10,830
+But when x is greater than
+negative 3, it looks like the
+
+204
+00:10:10,830 --> 00:10:12,160
+green graph.
+
+205
+00:10:12,160 --> 00:10:14,640
+It looks like that.
+
+206
+00:10:14,640 --> 00:10:17,480
+So this graph looks like
+this strange v.
+
+207
+00:10:17,480 --> 00:10:21,430
+When x is greater than negative
+3, this is positive.
+
+208
+00:10:21,430 --> 00:10:24,950
+So we have the graph of-- we
+have a positive slope.
+
+209
+00:10:24,950 --> 00:10:28,270
+But then when x is less than
+negative 3, we're essentially
+
+210
+00:10:28,270 --> 00:10:30,550
+taking the negative of the
+function, if you want to view
+
+211
+00:10:30,550 --> 00:10:32,280
+it that way, and so we have
+this negative slope.
+
+212
+00:10:32,280 --> 00:10:35,060
+So you kind of have this
+v-shaped function, this
+
+213
+00:10:35,060 --> 00:10:38,250
+v-shaped graph, which is
+indicative of an absolute
+
+214
+00:10:38,250 --> 00:10:39,950
+value function.

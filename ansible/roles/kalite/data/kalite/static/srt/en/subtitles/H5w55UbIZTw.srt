@@ -1,0 +1,934 @@
+1
+00:00:00,000 --> 00:00:00,730
+   
+
+2
+00:00:00,730 --> 00:00:04,360
+Joelle has two after-school
+jobs, babysitting and working
+
+3
+00:00:04,360 --> 00:00:05,990
+at her parents' grocery store.
+
+4
+00:00:05,990 --> 00:00:09,290
+Working at the grocery pays
+her $12 an hour, and
+
+5
+00:00:09,290 --> 00:00:11,740
+babysitting pays her
+$9.50 an hour.
+
+6
+00:00:11,740 --> 00:00:14,170
+Last week she worked
+19 hours in total.
+
+7
+00:00:14,170 --> 00:00:15,800
+That looks like a
+statement that
+
+8
+00:00:15,800 --> 00:00:17,000
+could lead to an equation.
+
+9
+00:00:17,000 --> 00:00:20,320
+Last week she worked
+19 hours in total.
+
+10
+00:00:20,320 --> 00:00:23,320
+And she earned $56 more at the
+grocery store than she did
+
+11
+00:00:23,320 --> 00:00:23,850
+babysitting.
+
+12
+00:00:23,850 --> 00:00:25,390
+That looks like another
+statement
+
+13
+00:00:25,390 --> 00:00:26,620
+that could be an equation.
+
+14
+00:00:26,620 --> 00:00:31,090
+She earned $56 more at the
+grocery store than she did
+
+15
+00:00:31,090 --> 00:00:32,200
+babysitting.
+
+16
+00:00:32,200 --> 00:00:35,220
+And then they ask us, how
+many hours did she
+
+17
+00:00:35,220 --> 00:00:37,440
+work at each job?
+
+18
+00:00:37,440 --> 00:00:40,330
+So they want to know--
+so let's define
+
+19
+00:00:40,330 --> 00:00:42,410
+some variables here.
+
+20
+00:00:42,410 --> 00:00:48,490
+Let's define time babysitting,
+so t sub b, as equal to hours
+
+21
+00:00:48,490 --> 00:00:49,740
+babysitting.
+
+22
+00:00:49,740 --> 00:00:56,110
+   
+
+23
+00:00:56,110 --> 00:01:00,476
+And let's define t sub g as
+hours at the grocery.
+
+24
+00:01:00,476 --> 00:01:07,650
+   
+
+25
+00:01:07,650 --> 00:01:11,640
+So they want us to figure out
+what was t sub b and t sub g,
+
+26
+00:01:11,640 --> 00:01:13,400
+what were the hours of
+babysitting and what were the
+
+27
+00:01:13,400 --> 00:01:14,700
+hours at the grocery?
+
+28
+00:01:14,700 --> 00:01:18,150
+Now, they tell us that she
+worked 19 hours total.
+
+29
+00:01:18,150 --> 00:01:20,660
+So that blue statement says that
+the sum of these two is
+
+30
+00:01:20,660 --> 00:01:22,310
+going to be 19.
+
+31
+00:01:22,310 --> 00:01:25,940
+So the time she worked
+babysitting plus the time she
+
+32
+00:01:25,940 --> 00:01:31,900
+worked at the grocery store is
+going to be equal to 19 hours.
+
+33
+00:01:31,900 --> 00:01:32,890
+Now the other statement.
+
+34
+00:01:32,890 --> 00:01:35,000
+This by itself obviously we
+can't solve for these.
+
+35
+00:01:35,000 --> 00:01:36,370
+We need another constraint.
+
+36
+00:01:36,370 --> 00:01:39,770
+They said that she earned $56
+more at the grocery store then
+
+37
+00:01:39,770 --> 00:01:41,480
+she did babysitting.
+
+38
+00:01:41,480 --> 00:01:43,880
+So let me define two more
+variables here.
+
+39
+00:01:43,880 --> 00:01:52,020
+So this is the pay babysitting,
+her total pay
+
+40
+00:01:52,020 --> 00:01:53,910
+babysitting.
+
+41
+00:01:53,910 --> 00:01:58,940
+And let's say P sub g
+is equal to the pay
+
+42
+00:01:58,940 --> 00:02:01,370
+at the grocery store.
+
+43
+00:02:01,370 --> 00:02:03,220
+Now, what are these terms?
+
+44
+00:02:03,220 --> 00:02:05,570
+I mean, if we just look at this
+second statement right
+
+45
+00:02:05,570 --> 00:02:08,160
+there, we'll just say, OK, the
+pay at babysitting, she earned
+
+46
+00:02:08,160 --> 00:02:11,320
+$56 more at the grocery than
+she did babysitting.
+
+47
+00:02:11,320 --> 00:02:14,350
+So this second statement tells
+us that, well, I guess the
+
+48
+00:02:14,350 --> 00:02:18,960
+pay-- let me write it over
+here-- the pay babysitting,
+
+49
+00:02:18,960 --> 00:02:21,260
+she earned $56 more at the
+grocery than she did
+
+50
+00:02:21,260 --> 00:02:21,780
+babysitting.
+
+51
+00:02:21,780 --> 00:02:26,500
+So if we take babysitting and
+add $56, that will get us to
+
+52
+00:02:26,500 --> 00:02:28,910
+how much she earned at
+the grocery store.
+
+53
+00:02:28,910 --> 00:02:31,690
+That's what that second
+statement is telling us. $56
+
+54
+00:02:31,690 --> 00:02:33,260
+more at the grocery
+than babysitting.
+
+55
+00:02:33,260 --> 00:02:35,160
+So if you add these two,
+you get the grocery.
+
+56
+00:02:35,160 --> 00:02:36,700
+Now, this still isn't cool.
+
+57
+00:02:36,700 --> 00:02:40,370
+We have one, two, three,
+four unknowns
+
+58
+00:02:40,370 --> 00:02:41,410
+and only two equations.
+
+59
+00:02:41,410 --> 00:02:42,580
+That's not going to help us.
+
+60
+00:02:42,580 --> 00:02:45,970
+But what will help us we can
+express these two variables in
+
+61
+00:02:45,970 --> 00:02:49,360
+terms of these two variables,
+and then we have two equations
+
+62
+00:02:49,360 --> 00:02:51,300
+with two unknowns, so we can
+solve them the way we've
+
+63
+00:02:51,300 --> 00:02:53,670
+solved all systems
+of equations.
+
+64
+00:02:53,670 --> 00:02:56,340
+Now the other information they
+give us is the rate, how much
+
+65
+00:02:56,340 --> 00:02:57,750
+she earned per hour.
+
+66
+00:02:57,750 --> 00:03:00,950
+Working at the grocery, she
+makes $12 per hour.
+
+67
+00:03:00,950 --> 00:03:04,290
+Babysitting, she makes
+$9.50 per hour.
+
+68
+00:03:04,290 --> 00:03:06,890
+So what is going to be
+her pay babysitting?
+
+69
+00:03:06,890 --> 00:03:08,150
+Let me write this over here.
+
+70
+00:03:08,150 --> 00:03:13,320
+Her pay babysitting-- I'll do
+it in this color-- her pay
+
+71
+00:03:13,320 --> 00:03:17,570
+babysitting is going to
+be equal to the time
+
+72
+00:03:17,570 --> 00:03:19,370
+babysitting, right?
+
+73
+00:03:19,370 --> 00:03:22,620
+The time babysitting times how
+much she gets paid per hour.
+
+74
+00:03:22,620 --> 00:03:25,090
+The time babysitting is how many
+hours, times how much she
+
+75
+00:03:25,090 --> 00:03:25,900
+gets paid per hour.
+
+76
+00:03:25,900 --> 00:03:27,030
+It tells us right there.
+
+77
+00:03:27,030 --> 00:03:30,040
+She gets paid $9.50 per
+hour babysitting.
+
+78
+00:03:30,040 --> 00:03:33,830
+So times $9.50.
+
+79
+00:03:33,830 --> 00:03:36,150
+That is what her pay
+babysitting is.
+
+80
+00:03:36,150 --> 00:03:38,870
+And then, same argument, what's
+her pay working at the
+
+81
+00:03:38,870 --> 00:03:40,370
+grocery store?
+
+82
+00:03:40,370 --> 00:03:42,970
+Her total pay working at
+the grocery store.
+
+83
+00:03:42,970 --> 00:03:46,320
+Her pay at the grocery is going
+to be equal to the time
+
+84
+00:03:46,320 --> 00:03:50,910
+at the grocery times the rate
+that she gets paid at the
+
+85
+00:03:50,910 --> 00:03:53,050
+grocery. $12 per hour.
+
+86
+00:03:53,050 --> 00:03:55,630
+So times $12 per hour.
+
+87
+00:03:55,630 --> 00:03:58,320
+And this hopefully
+is intuitive.
+
+88
+00:03:58,320 --> 00:04:01,430
+If I'm making $12 per hour and
+I work for, I don't know, 3
+
+89
+00:04:01,430 --> 00:04:03,900
+hours, I'm going to make $36.
+
+90
+00:04:03,900 --> 00:04:05,390
+I would just multiply
+these two.
+
+91
+00:04:05,390 --> 00:04:09,460
+If I worked 2 hours at $9.50,
+I'm going to make $19.
+
+92
+00:04:09,460 --> 00:04:10,150
+That's all this is.
+
+93
+00:04:10,150 --> 00:04:11,280
+A total pay.
+
+94
+00:04:11,280 --> 00:04:14,060
+So now we can take these two
+expressions-- we could take
+
+95
+00:04:14,060 --> 00:04:17,040
+this expression and this
+expression-- and substitute it
+
+96
+00:04:17,040 --> 00:04:20,779
+back into that equation right
+there, and then we'll have an
+
+97
+00:04:20,779 --> 00:04:24,190
+equation that's only in terms
+of the time babysitting and
+
+98
+00:04:24,190 --> 00:04:25,400
+the time at the grocery store.
+
+99
+00:04:25,400 --> 00:04:26,510
+So let's do that.
+
+100
+00:04:26,510 --> 00:04:30,940
+So this first term right here,
+her total pay babysitting,
+
+101
+00:04:30,940 --> 00:04:32,710
+that is this expression
+right there.
+
+102
+00:04:32,710 --> 00:04:34,200
+So let me write it right here.
+
+103
+00:04:34,200 --> 00:04:36,420
+So $9.50 times the
+time babysitting.
+
+104
+00:04:36,420 --> 00:04:41,130
+So I'll just write 9.5 times
+time babysitting-- that's this
+
+105
+00:04:41,130 --> 00:04:48,670
+term right here-- plus 56 is
+equal to the pay that she got
+
+106
+00:04:48,670 --> 00:04:51,460
+at the grocery, which is 12
+times the time at the grocery.
+
+107
+00:04:51,460 --> 00:04:55,080
+   
+
+108
+00:04:55,080 --> 00:04:57,980
+And now we need to solve for
+both of these variables.
+
+109
+00:04:57,980 --> 00:04:59,680
+We have two equations
+and two unknowns.
+
+110
+00:04:59,680 --> 00:05:02,670
+This is just straightforward
+algebra at this point.
+
+111
+00:05:02,670 --> 00:05:04,060
+So let's do it.
+
+112
+00:05:04,060 --> 00:05:06,950
+So the easiest way to do this
+might just be to do straight
+
+113
+00:05:06,950 --> 00:05:09,750
+up substitution cause we have
+all these crazy numbers here.
+
+114
+00:05:09,750 --> 00:05:12,870
+Let's just solve for the time at
+the babysitting in terms of
+
+115
+00:05:12,870 --> 00:05:14,330
+the time at the grocery.
+
+116
+00:05:14,330 --> 00:05:19,140
+So if you take this top
+equation-- let me write it
+
+117
+00:05:19,140 --> 00:05:23,210
+over here-- so the time
+babysitting plus the time at
+
+118
+00:05:23,210 --> 00:05:25,800
+the grocery is equal to 19.
+
+119
+00:05:25,800 --> 00:05:32,250
+If you subtract the time at the
+grocery from both sides,
+
+120
+00:05:32,250 --> 00:05:35,680
+you get the time babysitting
+is equal to-- these cancel
+
+121
+00:05:35,680 --> 00:05:38,920
+out-- 19 minus the time
+at the grocery.
+
+122
+00:05:38,920 --> 00:05:41,700
+So we solved for the time
+babysitting in terms of the
+
+123
+00:05:41,700 --> 00:05:42,570
+time at the grocery.
+
+124
+00:05:42,570 --> 00:05:46,063
+So everywhere we see the time
+babysitting, we can substitute
+
+125
+00:05:46,063 --> 00:05:49,540
+it with this expression
+right here.
+
+126
+00:05:49,540 --> 00:05:51,250
+That's what t sub b is.
+
+127
+00:05:51,250 --> 00:05:53,370
+That is what the time
+babysitting is.
+
+128
+00:05:53,370 --> 00:05:54,290
+So let's do that.
+
+129
+00:05:54,290 --> 00:05:59,900
+So this equation becomes 9.5
+times the time babysitting,
+
+130
+00:05:59,900 --> 00:06:03,780
+which we just figured out from
+this top equation is 19 minus
+
+131
+00:06:03,780 --> 00:06:11,290
+the time at the grocery, plus
+56, is equal to 12 times the
+
+132
+00:06:11,290 --> 00:06:13,010
+time at the grocery.
+
+133
+00:06:13,010 --> 00:06:15,890
+And now we just have to solve
+for the time at the grocery.
+
+134
+00:06:15,890 --> 00:06:21,650
+So 9.5 times 19.
+
+135
+00:06:21,650 --> 00:06:22,770
+That's a little bit of hairy.
+
+136
+00:06:22,770 --> 00:06:26,470
+Let me just do it over here, on
+the right side right here.
+
+137
+00:06:26,470 --> 00:06:32,430
+So if I have 19 times 9.5.
+
+138
+00:06:32,430 --> 00:06:36,320
+5 times 9 is 45.
+
+139
+00:06:36,320 --> 00:06:41,440
+1 times 5 is 5, plus 4, is 9.
+
+140
+00:06:41,440 --> 00:06:43,420
+And then we have a 0 here.
+
+141
+00:06:43,420 --> 00:06:46,410
+9 times 9 is 81.
+
+142
+00:06:46,410 --> 00:06:51,520
+9 times 1 is 9, plus 8, is 17.
+
+143
+00:06:51,520 --> 00:06:53,160
+So 5 plus 0 is 5.
+
+144
+00:06:53,160 --> 00:06:55,110
+9 plus 1 is 10.
+
+145
+00:06:55,110 --> 00:06:56,980
+1 plus 7 is 8.
+
+146
+00:06:56,980 --> 00:06:59,290
+You just have a 1 there, and you
+have one number behind the
+
+147
+00:06:59,290 --> 00:07:00,030
+decimal point.
+
+148
+00:07:00,030 --> 00:07:02,130
+So it's 180.5.
+
+149
+00:07:02,130 --> 00:07:11,350
+So 9.5 times 19 is 180.5 minus
+9.5 times the time at the
+
+150
+00:07:11,350 --> 00:07:18,830
+grocery, plus 56, is
+equal to 12 times
+
+151
+00:07:18,830 --> 00:07:20,380
+the time at the grocery.
+
+152
+00:07:20,380 --> 00:07:24,780
+Now what's 180.5 plus 56?
+
+153
+00:07:24,780 --> 00:07:29,060
+So 180 plus 50-- let's add just
+those two terms-- 180.5
+
+154
+00:07:29,060 --> 00:07:31,410
+plus 56, just to simplify it.
+
+155
+00:07:31,410 --> 00:07:35,300
+180 plus 50 would be 230.
+
+156
+00:07:35,300 --> 00:07:46,810
+So this'll be 236.5 minus 9.5
+times the time at the grocery,
+
+157
+00:07:46,810 --> 00:07:50,400
+is equal to 12 times the
+time at the grocery.
+
+158
+00:07:50,400 --> 00:07:52,740
+Now we can add the time at the
+grocery to both sides of this
+
+159
+00:07:52,740 --> 00:07:54,270
+equation, or the 9.5.
+
+160
+00:07:54,270 --> 00:07:55,000
+So let's do that.
+
+161
+00:07:55,000 --> 00:08:04,800
+Plus 9.5 times the time at the
+grocery is equal-- or plus 9.5
+
+162
+00:08:04,800 --> 00:08:05,820
+times time at the grocery.
+
+163
+00:08:05,820 --> 00:08:08,470
+Just adding it to both sides
+of that equation.
+
+164
+00:08:08,470 --> 00:08:11,030
+And we are left with-- the
+left-hand side, that cancels
+
+165
+00:08:11,030 --> 00:08:17,830
+out-- we just have 236.5 is
+equal to, 12 plus 9 is 21, so
+
+166
+00:08:17,830 --> 00:08:19,880
+this is going to be 21.5.
+
+167
+00:08:19,880 --> 00:08:25,810
+It's equal to 21.5 times the
+time she spent at the grocery.
+
+168
+00:08:25,810 --> 00:08:28,500
+So now we can just divide both
+sides of this equation by
+
+169
+00:08:28,500 --> 00:08:30,970
+21.5, and we've figured
+out how long she
+
+170
+00:08:30,970 --> 00:08:32,970
+spent at the grocery.
+
+171
+00:08:32,970 --> 00:08:34,230
+Let's do that.
+
+172
+00:08:34,230 --> 00:08:38,309
+Divide both sides by 21.5.
+
+173
+00:08:38,309 --> 00:08:39,460
+So that cancels out.
+
+174
+00:08:39,460 --> 00:08:42,309
+The time she spent at the
+grocery is going to be equal
+
+175
+00:08:42,309 --> 00:08:43,940
+to that thing.
+
+176
+00:08:43,940 --> 00:08:45,440
+And let's see what that is.
+
+177
+00:08:45,440 --> 00:08:56,420
+We get 21.5 goes into 236.5.
+
+178
+00:08:56,420 --> 00:08:58,860
+Let's multiply both of
+these numbers by 10.
+
+179
+00:08:58,860 --> 00:09:04,165
+So this is the same thing
+as 215 going into 2,365.
+
+180
+00:09:04,165 --> 00:09:06,200
+The decimal goes right there.
+
+181
+00:09:06,200 --> 00:09:09,270
+215 goes into 236 one time.
+
+182
+00:09:09,270 --> 00:09:13,060
+1 times 215 is 215.
+
+183
+00:09:13,060 --> 00:09:15,730
+And then we can subtract-- let
+me scroll down more-- this
+
+184
+00:09:15,730 --> 00:09:17,910
+problem is hairier than
+I thought it would be.
+
+185
+00:09:17,910 --> 00:09:21,000
+So 36 minus 15 is 21.
+
+186
+00:09:21,000 --> 00:09:24,400
+So 21-- bring down the 5-- and
+lucky for us that's pretty
+
+187
+00:09:24,400 --> 00:09:24,890
+straightforward.
+
+188
+00:09:24,890 --> 00:09:27,290
+215 goes into 215 one time.
+
+189
+00:09:27,290 --> 00:09:29,890
+1 times 215 is 215.
+
+190
+00:09:29,890 --> 00:09:30,660
+Subtract.
+
+191
+00:09:30,660 --> 00:09:32,030
+You get no remainder.
+
+192
+00:09:32,030 --> 00:09:36,590
+So the time at the grocery
+store is 11, or 11 hours.
+
+193
+00:09:36,590 --> 00:09:39,260
+Now we can go and substitute
+back to figure out her time
+
+194
+00:09:39,260 --> 00:09:40,250
+babysitting.
+
+195
+00:09:40,250 --> 00:09:43,050
+We know that the time
+babysitting is equal to 19
+
+196
+00:09:43,050 --> 00:09:44,510
+minus the time at the grocery.
+
+197
+00:09:44,510 --> 00:09:47,210
+In this case, it's
+19 minus 11.
+
+198
+00:09:47,210 --> 00:09:48,500
+We just figured that out.
+
+199
+00:09:48,500 --> 00:09:50,790
+19 minus 11 is 8.
+
+200
+00:09:50,790 --> 00:09:55,880
+So her time babysitting, she
+spent 8 hours babysitting.
+
+201
+00:09:55,880 --> 00:09:57,190
+And we are done.
+
+202
+00:09:57,190 --> 00:09:59,490
+They both add up to 19, and you
+could make sure that they
+
+203
+00:09:59,490 --> 00:10:00,700
+also verify.
+
+204
+00:10:00,700 --> 00:10:02,230
+That also works out for
+the second equation.
+
+205
+00:10:02,230 --> 00:10:03,933
+

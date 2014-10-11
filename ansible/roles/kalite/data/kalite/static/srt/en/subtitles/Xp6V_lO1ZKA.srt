@@ -1,0 +1,907 @@
+1
+00:00:00,000 --> 00:00:03,907
+Let's now tackle a classic thought experiment in probability
+
+2
+00:00:03,907 --> 00:00:06,490
+called the Monty Hall problem.
+
+3
+00:00:06,490 --> 00:00:08,189
+And it's called the Monty Hall problem because
+
+4
+00:00:08,189 --> 00:00:10,270
+Monty Hall was the game show host
+
+5
+00:00:10,270 --> 00:00:11,861
+in Let's Make a Deal where
+
+6
+00:00:11,861 --> 00:00:14,554
+they would set up a situation very similar to
+
+7
+00:00:14,554 --> 00:00:15,890
+the Monty Hall problem
+
+8
+00:00:15,890 --> 00:00:17,319
+that we're about to say.
+
+9
+00:00:17,319 --> 00:00:19,675
+So let's say that on the show, you're presented with
+
+10
+00:00:19,675 --> 00:00:20,694
+three curtains.
+
+11
+00:00:20,694 --> 00:00:21,672
+So you're the contestant
+
+12
+00:00:21,672 --> 00:00:23,541
+this little character right over there
+
+13
+00:00:23,541 --> 00:00:25,368
+You're presented with three curtains:
+
+14
+00:00:25,368 --> 00:00:27,292
+curtain number one, curtain number two, and
+
+15
+00:00:27,292 --> 00:00:29,456
+curtain number three.
+
+16
+00:00:29,456 --> 00:00:31,769
+And you're told that behind one of these three curtains
+
+17
+00:00:31,769 --> 00:00:33,588
+there is a fabulous prize.
+
+18
+00:00:33,588 --> 00:00:35,723
+Something that you really want, a car, or a vacation
+
+19
+00:00:35,723 --> 00:00:37,906
+or some type of large amount of cash.
+
+20
+00:00:37,906 --> 00:00:40,108
+And then behind the other two,
+
+21
+00:00:40,108 --> 00:00:41,624
+and we don't know which they are,
+
+22
+00:00:41,624 --> 00:00:43,756
+there is something that you do not want,
+
+23
+00:00:43,756 --> 00:00:45,923
+say a new pet goat, an ostrich,
+
+24
+00:00:45,923 --> 00:00:48,120
+or something like that, or beachball,
+
+25
+00:00:48,120 --> 00:00:50,468
+something that is not as good as the cash prize.
+
+26
+00:00:50,468 --> 00:00:52,178
+And so your goal is to try to find
+
+27
+00:00:52,178 --> 00:00:53,528
+the cash prize.
+
+28
+00:00:53,528 --> 00:00:55,273
+And they say: "guess which one"
+
+29
+00:00:55,273 --> 00:00:56,989
+or "which one you would like to select".
+
+30
+00:00:56,989 --> 00:00:58,641
+And so let's say that you select
+
+31
+00:00:58,641 --> 00:00:59,842
+door number one,
+
+32
+00:00:59,842 --> 00:01:00,992
+or curtain number one,
+
+33
+00:01:00,992 --> 00:01:03,660
+then the Monty Hall and Let's Make a Deal crew
+
+34
+00:01:03,660 --> 00:01:05,980
+will make it a little more interesting.
+
+35
+00:01:05,980 --> 00:01:07,723
+They won't just show you whether or not you won,
+
+36
+00:01:07,723 --> 00:01:11,029
+They'll then show you one of the other two doors,
+
+37
+00:01:11,029 --> 00:01:12,728
+or one of the other two curtains.
+
+38
+00:01:12,728 --> 00:01:14,893
+And they'll show you one of the other two curtains that does not
+
+39
+00:01:14,893 --> 00:01:16,323
+have the prize.
+
+40
+00:01:16,323 --> 00:01:17,848
+And no matter which one you pick,
+
+41
+00:01:17,848 --> 00:01:18,525
+there will always be at least
+
+42
+00:01:18,525 --> 00:01:21,049
+one other curtain that does not have the prize.
+
+43
+00:01:21,049 --> 00:01:22,193
+There might be two if you pick right,
+
+44
+00:01:22,193 --> 00:01:23,472
+but there will always be
+
+45
+00:01:23,472 --> 00:01:24,414
+at least one other curtain
+
+46
+00:01:24,414 --> 00:01:25,795
+that does not have the prize.
+
+47
+00:01:25,795 --> 00:01:27,432
+And then they will show it to you.
+
+48
+00:01:27,432 --> 00:01:28,898
+And so let's say that they
+
+49
+00:01:28,898 --> 00:01:29,593
+show you curtain number three,
+
+50
+00:01:29,593 --> 00:01:33,541
+and that curtain number three has the goat.
+
+51
+00:01:33,541 --> 00:01:35,344
+And then they will ask you,
+
+52
+00:01:35,344 --> 00:01:42,031
+do you want to switch to curtain number two,
+
+53
+00:01:42,031 --> 00:01:43,749
+and the question here is,
+
+54
+00:01:43,749 --> 00:01:45,095
+does it make a difference?
+
+55
+00:01:45,095 --> 00:01:46,798
+Are you better off holding fast,
+
+56
+00:01:46,798 --> 00:01:49,950
+sticking to your guns, staying with your original guess,
+
+57
+00:01:49,950 --> 00:01:51,844
+or are you better off switching
+
+58
+00:01:51,844 --> 00:01:53,748
+to whatever curtain is left,
+
+59
+00:01:53,748 --> 00:01:55,401
+or does it not matter,
+
+60
+00:01:55,401 --> 00:01:57,166
+it's just random probability and
+
+61
+00:01:57,166 --> 00:01:58,177
+it's not going to make a difference
+
+62
+00:01:58,177 --> 00:01:59,729
+whether you switch or not.
+
+63
+00:01:59,729 --> 00:02:01,530
+So that is the brain teaser.
+
+64
+00:02:01,530 --> 00:02:04,678
+Start - pause the video now,
+
+65
+00:02:04,678 --> 00:02:05,883
+I encourage you to think about it.
+
+66
+00:02:05,883 --> 00:02:07,102
+In the next video,
+
+67
+00:02:07,102 --> 00:02:08,967
+we will start to analyze the solution
+
+68
+00:02:08,967 --> 00:02:10,529
+a little bit deeper.
+
+69
+00:02:10,529 --> 00:02:12,367
+Whether it makes any difference at all.
+
+70
+00:02:13,780 --> 00:02:15,624
+So now I've assumed that you've unpaused it,
+
+71
+00:02:15,624 --> 00:02:17,027
+that you've thought deeply about it,
+
+72
+00:02:17,027 --> 00:02:18,915
+perhaps you have an opinion about it,
+
+73
+00:02:18,915 --> 00:02:20,336
+now let's work it through a little bit.
+
+74
+00:02:20,336 --> 00:02:21,368
+And at any point,
+
+75
+00:02:21,368 --> 00:02:22,537
+I encourage you to pause it,
+
+76
+00:02:22,537 --> 00:02:23,299
+and kind of extrapolate beyond
+
+77
+00:02:23,299 --> 00:02:25,202
+what I've already talked about.
+
+78
+00:02:25,202 --> 00:02:27,420
+So let's think about the game show from
+
+79
+00:02:27,420 --> 00:02:29,249
+the show's point of view.
+
+80
+00:02:29,249 --> 00:02:30,735
+So the show knows
+
+81
+00:02:30,735 --> 00:02:32,061
+where there is a goat and
+
+82
+00:02:32,061 --> 00:02:33,119
+where there isn't a goat.
+
+83
+00:02:33,119 --> 00:02:34,320
+So that's door number one,
+
+84
+00:02:34,320 --> 00:02:37,913
+door number two, and door number three.
+
+85
+00:02:37,913 --> 00:02:39,983
+So let's say that our prize is
+
+86
+00:02:39,983 --> 00:02:42,130
+right over here.
+
+87
+00:02:42,130 --> 00:02:45,037
+So our prize is the car.
+
+88
+00:02:45,037 --> 00:02:46,931
+Our prize is the car and we have
+
+89
+00:02:46,931 --> 00:02:50,006
+a goat over here, goat over here and
+
+90
+00:02:50,006 --> 00:02:52,632
+over here we also have, we have two goats
+
+91
+00:02:52,632 --> 00:02:54,200
+in this situation.
+
+92
+00:02:54,200 --> 00:02:56,069
+So what are we going to do as a game show
+
+93
+00:02:56,069 --> 00:02:57,051
+remember, the contestants don't know this
+
+94
+00:02:57,051 --> 00:02:58,316
+we know this.
+
+95
+00:02:58,316 --> 00:03:01,101
+So the contestant picks door number one
+
+96
+00:03:01,101 --> 00:03:02,633
+right over here,
+
+97
+00:03:02,633 --> 00:03:04,186
+then we can't lift door number two
+
+98
+00:03:04,186 --> 00:03:05,548
+cause there's a car back there.
+
+99
+00:03:05,548 --> 00:03:06,787
+We're going to lift door number three
+
+100
+00:03:06,787 --> 00:03:08,735
+and we're going to expose
+
+101
+00:03:08,735 --> 00:03:10,094
+we're going to expose
+
+102
+00:03:10,094 --> 00:03:11,503
+this goat, in which case it probably
+
+103
+00:03:11,503 --> 00:03:14,879
+would be good for the person to switch.
+
+104
+00:03:14,879 --> 00:03:19,651
+If the person picks door number two,
+
+105
+00:03:19,651 --> 00:03:21,537
+then, we as the game show,
+
+106
+00:03:21,537 --> 00:03:23,635
+can show either door number one or
+
+107
+00:03:23,635 --> 00:03:25,271
+door number three,
+
+108
+00:03:25,271 --> 00:03:26,597
+and then it actually does not make sense
+
+109
+00:03:26,597 --> 00:03:28,204
+for the person to switch.
+
+110
+00:03:28,204 --> 00:03:30,431
+If they picked door number three,
+
+111
+00:03:30,431 --> 00:03:33,823
+then we have to show door number one
+
+112
+00:03:33,823 --> 00:03:35,500
+because we can't pick door number two
+
+113
+00:03:35,500 --> 00:03:38,669
+and in that case, it actually makes a lot of sense
+
+114
+00:03:38,669 --> 00:03:41,584
+for the person to switch.
+
+115
+00:03:41,584 --> 00:03:42,940
+Now, with that out of the way,
+
+116
+00:03:42,940 --> 00:03:44,334
+let's think of the probabilities
+
+117
+00:03:44,334 --> 00:03:46,007
+given the two strategies.
+
+118
+00:03:46,007 --> 00:03:47,705
+So if you don't switch,
+
+119
+00:03:47,705 --> 00:03:50,913
+Don't switch
+
+120
+00:03:50,913 --> 00:03:53,032
+Or another way to think about this strategy is
+
+121
+00:03:53,032 --> 00:03:54,412
+you always stick to your guns
+
+122
+00:03:54,412 --> 00:03:56,620
+you always stick to your first guess.
+
+123
+00:03:56,620 --> 00:03:57,957
+Well, in that situation,
+
+124
+00:03:57,957 --> 00:03:59,807
+what is your probability,
+
+125
+00:03:59,807 --> 00:04:01,866
+what is your probability of winning.
+
+126
+00:04:01,866 --> 00:04:03,792
+Well, there are three doors,
+
+127
+00:04:03,792 --> 00:04:05,790
+the prize is equally likely to be
+
+128
+00:04:05,790 --> 00:04:07,290
+behind any of them,
+
+129
+00:04:07,290 --> 00:04:08,800
+so there are three possibilities.
+
+130
+00:04:08,800 --> 00:04:10,332
+One has the outcome that you desire.
+
+131
+00:04:10,332 --> 00:04:12,305
+The probability of winning will be one third
+
+132
+00:04:12,305 --> 00:04:14,256
+if you don't switch.
+
+133
+00:04:14,256 --> 00:04:18,763
+Likewise, your probability of losing
+
+134
+00:04:18,763 --> 00:04:20,492
+well, there are two ways you can lose
+
+135
+00:04:20,492 --> 00:04:21,298
+out of three possibilities,
+
+136
+00:04:21,298 --> 00:04:23,025
+going to be two thirds.
+
+137
+00:04:23,025 --> 00:04:24,377
+And these are the only possibilities,
+
+138
+00:04:24,377 --> 00:04:25,365
+and these add up to one over here.
+
+139
+00:04:25,365 --> 00:04:27,712
+So don't switch, one third chance of winning.
+
+140
+00:04:27,712 --> 00:04:30,803
+Now let's think about the switching situation.
+
+141
+00:04:30,803 --> 00:04:35,082
+So let's say always, when you always switch
+
+142
+00:04:35,082 --> 00:04:39,361
+let's think about how this might play out.
+
+143
+00:04:39,361 --> 00:04:43,930
+What is your probability of winning;
+
+144
+00:04:43,930 --> 00:04:45,585
+and before we can think about that,
+
+145
+00:04:45,585 --> 00:04:47,194
+think about how you would win
+
+146
+00:04:47,194 --> 00:04:48,791
+if you always switched.
+
+147
+00:04:48,791 --> 00:04:50,878
+So if you picked wrong the first time,
+
+148
+00:04:50,878 --> 00:04:52,708
+if you picked wrong the first time,
+
+149
+00:04:52,708 --> 00:04:54,324
+they're going to show you this
+
+150
+00:04:54,324 --> 00:04:55,494
+so you should always switch.
+
+151
+00:04:55,494 --> 00:04:56,673
+So if you picked door number one,
+
+152
+00:04:56,673 --> 00:04:58,226
+they're going to show you door number three
+
+153
+00:04:58,226 --> 00:04:59,729
+you should switch!
+
+154
+00:04:59,729 --> 00:05:00,846
+If you picked wrong door number three,
+
+155
+00:05:00,846 --> 00:05:02,913
+they're going to show you door number one
+
+156
+00:05:02,913 --> 00:05:04,539
+you should switch!
+
+157
+00:05:04,539 --> 00:05:06,955
+If you picked wrong and switch,
+
+158
+00:05:06,955 --> 00:05:09,739
+you will always win!
+
+159
+00:05:09,739 --> 00:05:11,646
+Let me write this down.
+
+160
+00:05:11,646 --> 00:05:12,919
+And this insight actually came from
+
+161
+00:05:12,919 --> 00:05:14,614
+one of the middle school students
+
+162
+00:05:14,614 --> 00:05:15,573
+in the summer camp that
+
+163
+00:05:15,573 --> 00:05:16,402
+Khan Academy's running,
+
+164
+00:05:16,402 --> 00:05:17,371
+it's actually a fabulous way
+
+165
+00:05:17,402 --> 00:05:18,966
+to think about this.
+
+166
+00:05:18,966 --> 00:05:19,981
+So if you pick wrong,
+
+167
+00:05:19,981 --> 00:05:22,253
+so if it's step one: initial pick is wrong
+
+168
+00:05:22,253 --> 00:05:27,583
+Initial pick is wrong.
+
+169
+00:05:27,583 --> 00:05:28,753
+So you pick one of the two
+
+170
+00:05:28,753 --> 00:05:29,885
+wrong doors.
+
+171
+00:05:29,885 --> 00:05:31,315
+And then step two, you always switch
+
+172
+00:05:31,315 --> 00:05:35,903
+You always switch.
+
+173
+00:05:35,903 --> 00:05:38,196
+You will land on the car,
+
+174
+00:05:38,196 --> 00:05:39,786
+because if you pick one of the wrong doors,
+
+175
+00:05:39,786 --> 00:05:41,919
+they have to show the other wrong door,
+
+176
+00:05:41,919 --> 00:05:44,064
+and so if you switch you are going to end up
+
+177
+00:05:44,064 --> 00:05:45,637
+on the right answer.
+
+178
+00:05:45,637 --> 00:05:47,184
+So what is the probability of winning
+
+179
+00:05:47,184 --> 00:05:48,320
+if you always switch?
+
+180
+00:05:48,320 --> 00:05:49,474
+Well, it's going to be the probability
+
+181
+00:05:49,474 --> 00:05:51,151
+that you initially picked wrong.
+
+182
+00:05:51,151 --> 00:05:52,330
+Well, what's the probability that you
+
+183
+00:05:52,330 --> 00:05:53,917
+initially picked wrong?
+
+184
+00:05:53,917 --> 00:05:55,841
+Well, there are two out of three ways
+
+185
+00:05:55,841 --> 00:05:57,259
+to initially pick wrong.
+
+186
+00:05:57,259 --> 00:05:59,480
+So you actually have a two-thirds chance
+
+187
+00:05:59,480 --> 00:06:00,735
+of winning.
+
+188
+00:06:00,735 --> 00:06:01,847
+There's a two-thirds chance you
+
+189
+00:06:01,847 --> 00:06:02,579
+are going to pick wrong,
+
+190
+00:06:02,579 --> 00:06:04,783
+and are going to switch into the right one.
+
+191
+00:06:04,783 --> 00:06:07,723
+Likewise, what's your probability of losing?
+
+192
+00:06:07,723 --> 00:06:09,390
+What's your probability of losing, given
+
+193
+00:06:09,390 --> 00:06:11,852
+that you're always going to switch?
+
+194
+00:06:11,852 --> 00:06:13,838
+Well, the way that you would lose is
+
+195
+00:06:13,838 --> 00:06:17,177
+you pick right,
+
+196
+00:06:17,177 --> 00:06:19,801
+you pick correctly,
+
+197
+00:06:19,801 --> 00:06:21,256
+in step two they're going to show an empty,
+
+198
+00:06:21,256 --> 00:06:23,539
+they're going to show one of the two empty,
+
+199
+00:06:23,539 --> 00:06:24,980
+or non-prized doors,
+
+200
+00:06:24,980 --> 00:06:26,487
+and then in step three you are going to
+
+201
+00:06:26,487 --> 00:06:29,705
+switch into the other empty,
+
+202
+00:06:29,705 --> 00:06:34,120
+Switch into the other empty door.
+
+203
+00:06:34,120 --> 00:06:35,797
+But either way, you are definitely going to switch,
+
+204
+00:06:35,797 --> 00:06:36,980
+so the only way to lose if you're
+
+205
+00:06:36,980 --> 00:06:37,972
+always going to switch
+
+206
+00:06:37,972 --> 00:06:40,410
+is to pick right the first time.
+
+207
+00:06:40,426 --> 00:06:42,631
+Well what's the probability of you
+
+208
+00:06:42,631 --> 00:06:44,104
+picking right the first time?
+
+209
+00:06:44,104 --> 00:06:46,044
+Well that is only one-third.
+
+210
+00:06:46,044 --> 00:06:47,707
+So what you see here is sometimes
+
+211
+00:06:47,707 --> 00:06:48,607
+counterintuitive, but hopefully
+
+212
+00:06:48,607 --> 00:06:50,476
+this makes sense as to why it isn't.
+
+213
+00:06:50,476 --> 00:06:53,361
+You have a one-third chance of winning
+
+214
+00:06:53,361 --> 00:06:54,918
+if you stick to your guns,
+
+215
+00:06:54,918 --> 00:06:56,620
+and a two-thirds chance of winning
+
+216
+00:06:56,620 --> 00:06:58,228
+if you always switch.
+
+217
+00:06:58,228 --> 00:06:59,973
+Another way to think about it is,
+
+218
+00:06:59,973 --> 00:07:02,069
+when you first make your initial pick,
+
+219
+00:07:02,069 --> 00:07:06,961
+there's a one-third chance that it's there,
+
+220
+00:07:06,961 --> 00:07:10,494
+and there's a two-thirds chance
+
+221
+00:07:10,494 --> 00:07:12,565
+that it's in one of the other two doors.
+
+222
+00:07:12,565 --> 00:07:14,114
+And they're going to empty out
+
+223
+00:07:14,114 --> 00:07:15,247
+one of them, so when you switch,
+
+224
+00:07:15,247 --> 00:07:16,767
+you essentially are capturing that
+
+225
+00:07:16,767 --> 00:07:18,461
+two-third probability.
+
+226
+00:07:18,461 --> 00:07:20,208
+And we see that right there.
+
+227
+00:07:20,208 --> 99:59:59,999
+So hopefully you enjoyed that.

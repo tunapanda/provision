@@ -1,0 +1,31 @@
+1
+00:00:00,067 --> 00:00:06,177
+As a birthday gift, Zoey gave her niece an electronic piggy bank that displays the total amount of money
+
+2
+00:00:06,177 --> 00:00:10,031
+in the bank as well as the tottal number of coins
+
+3
+00:00:10,031 --> 00:00:17,267
+After depositing some number of nickels and quarters only so we have only nickels and quarters, the display read.
+
+4
+00:00:17,267 --> 00:00:20,852
+Money $2 Number of coins 16
+
+5
+00:00:20,852 --> 99:59:59,999
+How many nickels and quarters did Zoey put in the bank
+
+6
+99:59:59,999 --> 99:59:59,999
+So lets define some variables here lets let n= the number of nickels and lets let q be
+
+7
+99:59:59,999 --> 99:59:59,999
+= to the number of quarters the number of quarters
+
+8
+99:59:59,999 --> 99:59:59,999
+the number of quarters so how many many total coins do well it's gonna be the number of nickels + the number of quarters

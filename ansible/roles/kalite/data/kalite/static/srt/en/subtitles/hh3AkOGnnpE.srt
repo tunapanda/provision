@@ -1,0 +1,151 @@
+1
+00:00:00,456 --> 00:00:02,970
+It was pointed out in the comments for the last video where
+
+2
+00:00:02,970 --> 00:00:06,264
+I defined this insertion sort that I didn't necessarily
+
+3
+00:00:06,264 --> 00:00:09,376
+have to do this break, the logic, and this is one of those
+
+4
+00:00:09,376 --> 00:00:12,190
+examples that sometimes when you just program something and
+
+5
+00:00:12,190 --> 00:00:14,605
+the way that your brain is at least thinking about it
+
+6
+00:00:14,605 --> 00:00:17,903
+you don't always do it in maybe the most elegant way
+
+7
+00:00:17,903 --> 00:00:20,782
+and that commenter was right. There was a slightly more,
+
+8
+00:00:20,782 --> 00:00:25,150
+or a lot more elegant way to do this insertion sort.
+
+9
+00:00:25,150 --> 00:00:27,354
+So, over here if we go into the WHILE loop,
+
+10
+00:00:27,354 --> 00:00:28,489
+I have this WHILE loop
+
+11
+00:00:28,489 --> 00:00:32,578
+happening WHILE I is greater than or equal to zero
+
+12
+00:00:32,578 --> 00:00:36,107
+But then, I want to essentially BREAK out of that WHILE loop
+
+13
+00:00:36,107 --> 00:00:46,928
+if the variable value is not less than the I-th element in list
+
+14
+00:00:46,928 --> 00:00:51,246
+So, one way to do this, cause I'm just defining the parameters
+
+15
+00:00:51,246 --> 00:00:56,262
+on when to do this WHILE loop. Instead of this IF the value is
+
+16
+00:00:56,262 --> 00:00:58,259
+less than the I-th element, do this, otherwise
+
+17
+00:00:58,259 --> 00:01:00,908
+BREAK, what I could've of done, and is actually the more
+
+18
+00:01:00,908 --> 00:01:03,925
+elegant way to do this, WHILE I is greater than or equal
+
+19
+00:01:03,925 --> 00:01:16,510
+to zero AND value is less than than I-th element in list
+
+20
+00:01:16,510 --> 00:01:23,168
+so now I know that value is less than the I-th element of the
+
+21
+00:01:23,168 --> 00:01:25,937
+list, and I will execute this code over here, so I know that this
+
+22
+00:01:25,937 --> 00:01:30,860
+is going to be true. I know that this is going to be true and I can
+
+23
+00:01:30,860 --> 00:01:37,118
+I can auto take all of these one level back and then I don't have
+
+24
+00:01:37,118 --> 00:01:40,405
+to do an ELSE and I don't have to BREAK out of the loop anymore
+
+25
+00:01:40,405 --> 00:01:44,513
+so that should simplify the program a good bit. But, let's verify
+
+26
+00:01:44,513 --> 00:01:49,608
+for ourselves that this actually works, so let me save it. And then
+
+27
+00:01:49,608 --> 00:01:59,689
+let me run it, looks like its...let me define a list, so let me call
+
+28
+00:01:59,689 --> 00:02:10,212
+it, I'll just call it C is equal to one, five, six, seven
+
+29
+00:02:10,212 --> 00:02:17,578
+two, four, fourteen and two. So let's just define that and let's try
+
+30
+00:02:17,578 --> 00:02:23,820
+our insertion sort. Insertion sort on C, let's see what we get.
+
+31
+00:02:23,820 --> 00:02:28,040
+So let's see, let's print C now and there you go.
+
+32
+00:02:28,040 --> 00:02:30,967
+It sorted it. So thank you for the comment.
+
+33
+00:02:30,967 --> 00:02:33,786
+I think this does simplify it a little bit and
+
+34
+00:02:33,786 --> 00:02:36,944
+it shows that sometimes you always have to question
+
+35
+00:02:36,944 --> 00:02:39,191
+especially if you have a WHILE statement, is there a better
+
+36
+00:02:39,191 --> 00:02:43,014
+way instead of using a BREAK because I'm putting a condition
+
+37
+00:02:43,014 --> 00:02:45,581
+on a reason to BREAK out of the WHILE loop, why don't I
+
+38
+00:02:45,581 --> 99:59:59,999
+implicitly just put it up here.

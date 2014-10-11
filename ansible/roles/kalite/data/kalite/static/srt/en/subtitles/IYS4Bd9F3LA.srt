@@ -1,0 +1,327 @@
+1
+99:59:59,999 --> 99:59:59,999
+Let's say you and I are playing a game
+
+2
+99:59:59,999 --> 99:59:59,999
+where we're trying to figure out how
+
+3
+99:59:59,999 --> 99:59:59,999
+far a ball is being thrown into the
+
+4
+99:59:59,999 --> 99:59:59,999
+air, or how fast we're throwing
+
+5
+99:59:59,999 --> 99:59:59,999
+that ball into the air, and what we do
+
+6
+99:59:59,999 --> 99:59:59,999
+is one of us has a ball, and the other
+
+7
+99:59:59,999 --> 99:59:59,999
+one has a stopwatch over here
+
+8
+99:59:59,999 --> 99:59:59,999
+so, this is my best attempt, it looks
+
+9
+99:59:59,999 --> 99:59:59,999
+more like a cat than a stopwatch,
+
+10
+99:59:59,999 --> 99:59:59,999
+but I think you get the idea.
+
+11
+99:59:59,999 --> 99:59:59,999
+So what we do is one of us throws the
+
+12
+99:59:59,999 --> 99:59:59,999
+ball, and the other one times how
+
+13
+99:59:59,999 --> 99:59:59,999
+long it's in the air.
+
+14
+99:59:59,999 --> 99:59:59,999
+Now, what we do is we're going
+
+15
+99:59:59,999 --> 99:59:59,999
+to use that time in the air to figure
+
+16
+99:59:59,999 --> 99:59:59,999
+out how fast the ball was thrown straight
+
+17
+99:59:59,999 --> 99:59:59,999
+up, and how long it was in the air
+
+18
+99:59:59,999 --> 99:59:59,999
+and how high it got.
+
+19
+99:59:59,999 --> 99:59:59,999
+There is going to be one assumption
+
+20
+99:59:59,999 --> 99:59:59,999
+I make here, and in fact this is an assumption
+
+21
+99:59:59,999 --> 99:59:59,999
+that we're going to make in all of these
+
+22
+99:59:59,999 --> 99:59:59,999
+projectile/motion type problems, is that
+
+23
+99:59:59,999 --> 99:59:59,999
+air resistance is negligible.
+
+24
+99:59:59,999 --> 99:59:59,999
+And for something like – if this is a
+
+25
+99:59:59,999 --> 99:59:59,999
+baseball or something like that –
+
+26
+99:59:59,999 --> 99:59:59,999
+that's a pretty good approximation,
+
+27
+99:59:59,999 --> 99:59:59,999
+so we're not going to get the
+
+28
+99:59:59,999 --> 99:59:59,999
+exact answer and I encourage you
+
+29
+99:59:59,999 --> 99:59:59,999
+to experiment on your own – or even
+
+30
+99:59:59,999 --> 99:59:59,999
+to see what air resistance does
+
+31
+99:59:59,999 --> 99:59:59,999
+relative to your calculations,
+
+32
+99:59:59,999 --> 99:59:59,999
+but we're going to assume for this type of
+
+33
+99:59:59,999 --> 99:59:59,999
+projectile/motion, and really all of the
+
+34
+99:59:59,999 --> 99:59:59,999
+future ones, or at least in the
+
+35
+99:59:59,999 --> 99:59:59,999
+basic physics playlist, we're going
+
+36
+99:59:59,999 --> 99:59:59,999
+to assume that air resistance
+
+37
+99:59:59,999 --> 99:59:59,999
+is negligible.
+
+38
+99:59:59,999 --> 99:59:59,999
+And what that does for us, is that we can
+
+39
+99:59:59,999 --> 99:59:59,999
+assume that the time up – that the time
+
+40
+99:59:59,999 --> 99:59:59,999
+for the ball to go up to its peak hight –
+
+41
+99:59:59,999 --> 99:59:59,999
+is the same thing as the time
+
+42
+99:59:59,999 --> 99:59:59,999
+that it takes to go down.
+
+43
+99:59:59,999 --> 99:59:59,999
+If you look at this previous video,
+
+44
+99:59:59,999 --> 99:59:59,999
+where we plotted displacement versus
+
+45
+99:59:59,999 --> 99:59:59,999
+time, you see after two seconds,
+
+46
+99:59:59,999 --> 99:59:59,999
+the ball went from being on the ground,
+
+47
+99:59:59,999 --> 99:59:59,999
+or, I guess, the thrower's hand,
+
+48
+99:59:59,999 --> 99:59:59,999
+all the way to it's peak hight,
+
+49
+99:59:59,999 --> 99:59:59,999
+and in the next two seconds,
+
+50
+99:59:59,999 --> 99:59:59,999
+it took that same amount of time
+
+51
+99:59:59,999 --> 99:59:59,999
+to go back to the ground, which
+
+52
+99:59:59,999 --> 99:59:59,999
+makes sense: whatever the
+
+53
+99:59:59,999 --> 99:59:59,999
+initial velocity is, it takes half the
+
+54
+99:59:59,999 --> 99:59:59,999
+time to go to zero, and then
+
+55
+99:59:59,999 --> 99:59:59,999
+it take that same amount of time to
+
+56
+99:59:59,999 --> 99:59:59,999
+now be accelerated in the downward
+
+57
+99:59:59,999 --> 99:59:59,999
+direction, back to that same magnitude
+
+58
+99:59:59,999 --> 99:59:59,999
+of velocity, but now in the downward
+
+59
+99:59:59,999 --> 99:59:59,999
+direction.
+
+60
+99:59:59,999 --> 99:59:59,999
+So let's play around with some numbers
+
+61
+99:59:59,999 --> 99:59:59,999
+here, just so we get a little
+
+62
+99:59:59,999 --> 99:59:59,999
+bit more of a concrete sense.
+
+63
+99:59:59,999 --> 99:59:59,999
+So, let's say I throw a ball in the air,
+
+64
+99:59:59,999 --> 99:59:59,999
+and you measure, using the
+
+65
+99:59:59,999 --> 99:59:59,999
+stopwatch, that the ball
+
+66
+99:59:59,999 --> 99:59:59,999
+is in the air for five seconds.
+
+67
+99:59:59,999 --> 99:59:59,999
+So how do we figure out how fast
+
+68
+99:59:59,999 --> 99:59:59,999
+I threw the ball?
+
+69
+99:59:59,999 --> 99:59:59,999
+Well, the first thing we can do
+
+70
+99:59:59,999 --> 99:59:59,999
+is that we can say, look, if the
+
+71
+99:59:59,999 --> 99:59:59,999
+total time in the air was five seconds,
+
+72
+99:59:59,999 --> 99:59:59,999
+that means that the time, let me write it,
+
+73
+99:59:59,999 --> 99:59:59,999
+well, that means that the
+
+74
+99:59:59,999 --> 99:59:59,999
+change in time to go up during the
+
+75
+99:59:59,999 --> 99:59:59,999
+first half of, I guess, the ball's time in
+
+76
+99:59:59,999 --> 99:59:59,999
+the air, is going to be 2.5 seconds.
+
+77
+99:59:59,999 --> 99:59:59,999
+And which tells us that over this
+
+78
+99:59:59,999 --> 99:59:59,999
+2.5 seconds, we went from our
+
+79
+99:59:59,999 --> 99:59:59,999
+initial velocity, whatever it was,
+
+80
+99:59:59,999 --> 99:59:59,999
+we went from our initial velocity
+
+81
+99:59:59,999 --> 99:59:59,999
+to our final velocity, which is the
+
+82
+99:59:59,999 --> 99:59:59,999
+velocity of zero meters per second.

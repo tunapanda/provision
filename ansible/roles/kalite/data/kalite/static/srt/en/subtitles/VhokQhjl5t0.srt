@@ -1,0 +1,67 @@
+1
+99:59:59,999 --> 99:59:59,999
+Las funciones son algo que, la primera vez que lo aprendí,
+
+2
+99:59:59,999 --> 99:59:59,999
+era como que había una combinación de:
+
+3
+99:59:59,999 --> 99:59:59,999
+uno, estoy confuso y al mismo tiempo, ¿cual es
+
+4
+99:59:59,999 --> 99:59:59,999
+el objetivo de aprender esto?
+
+5
+99:59:59,999 --> 99:59:59,999
+Así que espero que, al menos en esta conferencia de introducción, podamos
+
+6
+99:59:59,999 --> 99:59:59,999
+y para uié podría ser útil.
+
+7
+99:59:59,999 --> 99:59:59,999
+Así que vamos a empezar con
+
+8
+99:59:59,999 --> 99:59:59,999
+el concepto general de función
+
+9
+99:59:59,999 --> 99:59:59,999
+Una función es algo a lo que le puedes dar una entrada
+
+10
+99:59:59,999 --> 99:59:59,999
+-y vamos a empezar con una sola variable, pero en realidad se le pueden
+
+11
+99:59:59,999 --> 99:59:59,999
+dar variables múltiples- le damos una variable a una función
+
+12
+99:59:59,999 --> 99:59:59,999
+vamos a llamar a esa variable x.
+
+13
+99:59:59,999 --> 99:59:59,999
+No se si está familiarizado con el
+
+14
+99:59:59,999 --> 99:59:59,999
+concepto de una caja negra.
+
+15
+99:59:59,999 --> 99:59:59,999
+Una caja negra es un tipo caja, en la que usted no sabe lo que hay dentro,
+
+16
+99:59:59,999 --> 99:59:59,999
+pero si pones algo en ella, como esta x, vamos a
+
+17
+99:59:59,999 --> 99:59:59,999
+lo que sale es lo que llamamos f de x

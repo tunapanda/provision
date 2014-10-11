@@ -1,0 +1,270 @@
+1
+00:00:03,980 --> 00:00:08,244
+Now Shannon had just finished developing
+his theories related to cryptography,
+
+2
+00:00:08,355 --> 00:00:13,822
+and, therefore, was well aware that human
+communication was a mix of randomness
+
+3
+00:00:13,911 --> 00:00:16,360
+and statistical dependencies.
+
+4
+00:00:16,420 --> 00:00:22,311
+Letters in our messages were obviously
+dependent on previous letters, to some extent.
+
+5
+00:00:25,020 --> 00:00:28,561
+And in 1949, he published
+a groundbreaking paper,
+
+6
+00:00:28,666 --> 00:00:31,600
+"A Mathematical Theory of Communication."
+
+7
+00:00:31,733 --> 00:00:36,990
+And in it, he uses Markov models as the basis
+for how we can think about communication.
+
+8
+00:00:37,150 --> 00:00:39,111
+And he starts with a toy example.
+
+9
+00:00:39,280 --> 00:00:44,311
+Imagine you encounter a bunch of text written
+in an alphabet of 'A', 'B' and 'C'.
+
+10
+00:00:44,333 --> 00:00:46,600
+Perhaps you know nothing
+about this language.
+
+11
+00:00:46,644 --> 00:00:51,100
+But you notice A's seem to clump
+together, while B's and C's do not.
+
+12
+00:00:51,177 --> 00:00:55,840
+He then shows that you could design
+a machine to generate similar looking text,
+
+13
+00:00:55,888 --> 00:00:57,580
+using a 'Markov chain'.
+
+14
+00:00:57,666 --> 00:01:01,300
+And he starts off with
+a zeroth order approximation
+
+15
+00:01:01,355 --> 00:01:03,810
+which means we just independently
+select each symbol -
+
+16
+00:01:03,844 --> 00:01:06,688
+A, B, or B - at random, 
+and form a sequence.
+
+17
+00:01:06,770 --> 00:01:11,111
+However, notice that this sequence
+doesn't look like the original.
+
+18
+00:01:11,630 --> 00:01:14,955
+He shows then you could do a bit
+better with a first order approximation,
+
+19
+00:01:15,044 --> 00:01:17,844
+where the letters are
+chosen independently,
+
+20
+00:01:17,880 --> 00:01:22,044
+but according to the probability of each
+letter occurring in the original sequence.
+
+21
+00:01:22,060 --> 00:01:25,422
+So this is slightly better,
+as A's are now more likely,
+
+22
+00:01:25,444 --> 00:01:28,430
+But it still doesn't capture
+much structure.
+
+23
+00:01:32,431 --> 00:01:34,273
+The next step is key.
+
+24
+00:01:34,422 --> 00:01:40,080
+A second-order approximation takes into
+account each pair of letters which can occur.
+
+25
+00:01:40,147 --> 00:01:42,570
+And in this case,
+we need three states.
+
+26
+00:01:42,640 --> 00:01:45,888
+The first state represents
+all pairs which begin with 'A',
+
+27
+00:01:46,022 --> 00:01:48,020
+the second, all pairs that begin with 'B',
+
+28
+00:01:48,066 --> 00:01:51,088
+and the third state,
+all pairs that begin with 'C'.
+
+29
+00:01:51,133 --> 00:01:54,750
+And notice now that
+the 'A' cup has many 'AA' pairs,
+
+30
+00:01:54,820 --> 00:01:57,422
+which makes sense, 
+since the conditional probability
+
+31
+00:01:57,444 --> 00:02:01,910
+of an 'A' after an 'A' is higher
+in our original message.
+
+32
+00:02:01,970 --> 00:02:06,577
+Now we can generate a sequence using
+this second-order model easily, as follows:
+
+33
+00:02:06,610 --> 00:02:08,995
+We start anywhere and pick a tile
+
+34
+00:02:08,990 --> 00:02:12,377
+and we write down or output the first letter
+
+35
+00:02:12,460 --> 00:02:15,666
+and move to the cup defined
+by the second letter.
+
+36
+00:02:15,755 --> 00:02:20,133
+Then we pick a new tile
+and repeat this process indefinitely.
+
+37
+00:02:21,070 --> 00:02:25,444
+Notice that this sequence is starting
+to look very similar to the original message,
+
+38
+00:02:25,480 --> 00:02:30,133
+because this model is capturing
+the conditional dependencies between letters.
+
+39
+00:02:32,488 --> 00:02:36,170
+And if we want to do even better,
+we could move to a third-order approximation,
+
+40
+00:02:36,222 --> 00:02:39,880
+which takes into account groups
+of three letters - or 'trigrams'.
+
+41
+00:02:40,057 --> 00:02:42,218
+And in this case,
+we would need 9 states.
+
+42
+00:02:44,888 --> 00:02:50,333
+But next, Shannon applies this exact
+same logic to actual English text
+
+43
+00:02:50,822 --> 00:02:56,155
+using statistics that were known
+for letters, pairs, trigrams, etc.
+
+44
+00:02:56,279 --> 00:02:58,595
+And he shows the same progression from
+
+45
+00:02:58,644 --> 00:03:01,870
+0th order random letters, to 1st-order,
+
+46
+00:03:01,930 --> 00:03:05,777
+2nd-order, and 3rd-order sequences.
+
+47
+00:03:06,620 --> 00:03:11,533
+He then goes on and tries the same thing
+using words instead of letters.
+
+48
+00:03:11,850 --> 00:03:15,688
+And he writes,
+"The resemblance to ordinary English text
+
+49
+00:03:15,840 --> 00:03:19,111
+increases quite noticeably at each depth."
+
+50
+00:03:19,460 --> 00:03:22,733
+Indeed, these machines were
+producing meaningless text,
+
+51
+00:03:22,777 --> 00:03:26,733
+though they contained approximately
+the same statistical structure
+
+52
+00:03:26,797 --> 00:03:29,129
+you'd seen in actual English.
+
+53
+00:03:31,937 --> 00:03:36,284
+Shannon then proceeds to define
+a quantitative measure of information
+
+54
+00:03:36,422 --> 00:03:40,000
+as he realizes that the amount
+of information in some message
+
+55
+00:03:40,310 --> 00:03:43,733
+must be tied up
+in the design of the machine
+
+56
+00:03:43,822 --> 00:03:48,130
+which could be used to generate
+similar-looking sequences.
+
+57
+00:03:51,360 --> 00:03:54,577
+Which brings us to his concept of entropy.

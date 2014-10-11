@@ -1,0 +1,735 @@
+1
+00:00:00,560 --> 00:00:03,050
+We're on problem 84.
+
+2
+00:00:04,590 --> 00:00:06,660
+On a company-sponsored cruise,
+
+3
+00:00:06,660 --> 00:00:10,390
+2/3 of the passengers were company employees,
+
+4
+00:00:10,390 --> 00:00:13,010
+and the remaining passengers were their guests.
+
+5
+00:00:13,010 --> 00:00:20,380
+So we could say, employees is equal to 2/3 of passengers.
+
+6
+00:00:20,380 --> 00:00:24,990
+And I guess we could also say that guests are equal to 1/3
+
+7
+00:00:24,990 --> 00:00:28,000
+of passengers. The remainder are guests.
+
+8
+00:00:28,000 --> 00:00:31,740
+If 3/4 of the company employee passengers were managers,
+
+9
+00:00:31,750 --> 00:00:36,620
+what was the number of company employee passengers who were
+
+10
+00:00:36,620 --> 00:00:38,910
+not managers? OK.
+
+11
+00:00:38,910 --> 00:00:42,010
+So the second statement, in at least the problem statement,
+
+12
+00:00:42,010 --> 00:00:54,260
+it says if 3/4 of the company employee passengers were
+
+13
+00:00:54,260 --> 00:01:04,900
+managers-- so 3/4 of E were managers,if I read that statement
+
+14
+00:01:09,360 --> 00:01:11,940
+what was the number of company employee passengers
+
+15
+00:01:11,940 --> 00:01:14,540
+who were not managers?
+
+16
+00:01:14,540 --> 00:01:22,010
+So essentially, they want to know what 1/4 of E is, right?
+
+17
+00:01:22,010 --> 00:01:23,470
+This is what they're asking.
+
+18
+00:01:23,370 --> 00:01:27,300
+Because they want to know, what were the number of
+
+19
+00:01:27,300 --> 00:01:28,990
+company employee passengers that were not managers?
+
+20
+00:01:28,990 --> 00:01:32,020
+And 3/4 were managers, 1/4 were not managers.
+
+21
+00:01:32,020 --> 00:01:35,290
+So if we could figure out P,we would be able to figure out E,
+
+22
+00:01:35,290 --> 00:01:37,060
+and we'd be able to figure out 1/4 E.
+
+23
+00:01:37,060 --> 00:01:41,970
+If we were able to figure out guests, we could then use that
+
+24
+00:01:41,970 --> 00:01:44,760
+to figure out P, which we could use to figure out E,
+
+25
+00:01:44,760 --> 00:01:46,180
+which we could then figure out 1/4 E.
+
+26
+00:01:46,180 --> 00:01:47,590
+So that's how we should be thinking about it,
+
+27
+00:01:47,590 --> 00:01:50,010
+not that we should be spending that much time on it.
+
+28
+00:01:50,010 --> 00:01:53,470
+Problem number one. There were 690 passengers.
+
+29
+00:01:53,470 --> 00:01:57,750
+690 is equal to P. Well, we'd be done, right?
+
+30
+00:01:57,750 --> 00:01:59,660
+Because E is equal to 2/3 P,
+
+31
+00:02:00,130 --> 00:02:02,730
+and then we want to know what 1/4 E is.
+
+32
+00:02:02,730 --> 00:02:09,880
+So the non-manager employees would be 1/4 times E,
+
+33
+00:02:09,880 --> 00:02:14,650
+which is just 2/3 times P. Times 690.
+
+34
+00:02:14,650 --> 00:02:17,500
+And that would be our answer. So one alone is sufficient.
+
+35
+00:02:18,080 --> 00:02:21,340
+And then statement number two. There were 230 passengers
+
+36
+00:02:21,340 --> 00:02:24,110
+who were guests of the company employees.
+
+37
+00:02:24,310 --> 00:02:31,000
+So they're essentially saying that guests are equal to 230.
+
+38
+00:02:31,000 --> 00:02:32,450
+And then we could use this information,
+
+39
+00:02:32,450 --> 00:02:34,650
+that guests are just 1/3 of P.
+
+40
+00:02:38,000 --> 00:02:39,720
+And then, of course, from there you could solve.
+
+41
+00:02:39,720 --> 00:02:42,140
+You could multiply 3 times both sides of the equation to
+
+42
+00:02:42,140 --> 00:02:46,430
+figure out that P is equal to 690.
+
+43
+00:02:46,430 --> 00:02:49,050
+Which is the same information that they gave in one,
+
+44
+00:02:49,050 --> 00:02:51,010
+which was enough to solve the problem.
+
+45
+00:02:51,200 --> 00:02:54,330
+So two alone is also sufficient. So
+
+46
+00:02:54,330 --> 00:02:59,030
+they are each independently sufficient to solve the problem.
+
+47
+00:02:59,030 --> 00:03:02,030
+That problem is confusing, just with the language.
+
+48
+00:03:02,030 --> 00:03:05,620
+Company, employee, manager,passenger, guest.
+
+49
+00:03:05,620 --> 00:03:08,390
+It was very confusing. 85.
+
+50
+00:03:08,390 --> 00:03:15,040
+In the x-y plane, does the point 4 comma 12 lie on line k?
+
+51
+00:03:15,040 --> 00:03:18,510
+OK, this is interesting. So let me draw a line k,
+
+52
+00:03:18,510 --> 00:03:22,390
+and I'll worry about the point 4 comma 12 later.So let's see.
+
+53
+00:03:22,390 --> 00:03:25,060
+Let me look at the points that they do say lie on k.
+
+54
+00:03:25,060 --> 00:03:29,560
+So if this is the x-axis,that's the y-axis.
+
+55
+00:03:29,560 --> 00:03:34,300
+Statement one tells us that the point 1, 7 lies on k.
+
+56
+00:03:34,300 --> 00:03:40,240
+So the point 1 comma 7 lies on k.
+
+57
+00:03:43,550 --> 00:03:47,200
+And then they also tell us that the point--- that alone
+
+58
+00:03:47,200 --> 00:03:50,230
+isn't going let me know if the point 4 comma 12 lies on it.
+
+59
+00:03:50,230 --> 00:03:56,040
+So 1, 2, 3, 4. 4 comma 12. It might be up here.
+
+60
+00:03:57,700 --> 00:04:00,020
+This is the point that we care about. If you can see that.
+
+61
+00:04:00,370 --> 00:04:03,010
+Let me scroll down. 4 comma 12.
+
+62
+00:04:03,010 --> 00:04:05,880
+So if the line looks like that, maybe it goes through,
+
+63
+00:04:05,880 --> 00:04:06,850
+but the line could be like that.
+
+64
+00:04:06,850 --> 00:04:08,530
+So statement number one alone isn't enough.
+
+65
+00:04:08,880 --> 00:04:11,490
+Statement number two says the point minus 2 comma 2.
+
+66
+00:04:19,890 --> 00:04:22,240
+x is minus 2, y is positive 2.
+
+67
+00:04:23,840 --> 00:04:29,590
+So they're saying that lies on it. Eyeballing this line,
+
+68
+00:04:29,590 --> 00:04:33,000
+k, it seems like 4 comma 12 could very well lie on it.
+
+69
+00:04:33,000 --> 00:04:35,390
+But we have to do a little bit of math to figure it out.
+
+70
+00:04:35,390 --> 00:04:37,370
+So first of all, just statement two by itself
+
+71
+00:04:37,370 --> 00:04:39,440
+doesn't help us, because this line could go anywhere.
+
+72
+00:04:39,550 --> 00:04:43,000
+You need two points to just know what the line is.
+
+73
+00:04:43,000 --> 00:04:45,360
+And so how do we figure out if the point 4 comma
+
+74
+00:04:45,360 --> 00:04:47,060
+12 is on this line?
+
+75
+00:04:48,060 --> 00:04:52,030
+Well, the easiest way to do it is to figure out the slope--
+
+76
+00:04:52,030 --> 00:04:53,740
+well, I don't know if it's the easiest way, but it's the way
+
+77
+00:04:53,740 --> 00:04:56,020
+I would think about doing it--is to figure out the slope of
+
+78
+00:04:56,020 --> 00:04:59,270
+the line, and then extend that slope here and see if the
+
+79
+00:04:59,270 --> 00:05:01,040
+point 4 comma 12 lies on it.
+
+80
+00:05:01,640 --> 00:05:04,020
+So let's see, what's the slope of this line?
+
+81
+00:05:04,020 --> 00:05:11,020
+So when we went up 7 minus 2. So the rise is 5.
+
+82
+00:05:11,020 --> 00:05:17,540
+When you go up 5, we went over how much? 1 minus minus 2.
+
+83
+00:05:17,540 --> 00:05:19,370
+We went over 3, right?
+
+84
+00:05:19,540 --> 00:05:22,570
+So for every 3 that you move over, you go up 5.
+
+85
+00:05:22,570 --> 00:05:24,540
+That's the easiest way to think about it.
+
+86
+00:05:25,090 --> 00:05:29,190
+So we're going from x is equal to 1 to x is equal to 4,
+
+87
+00:05:29,190 --> 00:05:31,800
+so we're going to the right by 3.
+
+88
+00:05:32,560 --> 00:05:34,410
+And so we should be going up 5.
+
+89
+00:05:34,600 --> 00:05:37,940
+So 5 plus 7, sure enough,is equal to 12.
+
+90
+00:05:38,680 --> 00:05:40,940
+So if you just extend the slope,
+
+91
+00:05:40,940 --> 00:05:46,060
+it does hit the point 4 comma 12.Well,actually you know what?
+
+92
+00:05:46,730 --> 00:05:50,480
+I just wasted a lot of your time, because we just have to
+
+93
+00:05:50,480 --> 00:05:53,330
+know whether the data is sufficient to answer the question.
+
+94
+00:05:53,330 --> 00:05:55,580
+We don't have to prove that the question is true.
+
+95
+00:05:55,580 --> 00:05:59,570
+I've just proven to you that 4 common 12 does lie on the line
+
+96
+00:05:59,570 --> 00:06:01,510
+But you could have just said,oh, well, you know what?
+
+97
+00:06:01,510 --> 00:06:05,060
+Statement number one gives me a point on the line.
+
+98
+00:06:05,060 --> 00:06:08,100
+That alone isn't enough to solve the problem.
+
+99
+00:06:08,100 --> 00:06:12,080
+Statement number two gives me another point.
+
+100
+00:06:13,380 --> 00:06:15,790
+And then at this point, if you're really taking the GMAT
+
+101
+00:06:15,790 --> 00:06:18,100
+and time matters, you just say, hey, I got two
+
+102
+00:06:18,100 --> 00:06:18,980
+points for this line.
+
+103
+00:06:19,010 --> 00:06:21,370
+Two points is everything I need to know about a line.
+
+104
+00:06:21,370 --> 00:06:23,880
+Once I know two points on a line, I can figure out if any
+
+105
+00:06:23,880 --> 00:06:25,740
+other point is on that line. I'm done.
+
+106
+00:06:25,740 --> 00:06:28,420
+Both statements combined are sufficient.
+
+107
+00:06:28,420 --> 00:06:30,070
+You wouldn't have to do all of this stuff that I did,
+
+108
+00:06:30,070 --> 00:06:31,020
+which would waste your time.
+
+109
+00:06:31,020 --> 00:06:34,410
+But just to prove to you that you could figure it,I did that.
+
+110
+00:06:34,410 --> 00:06:36,830
+But anyway.I have to admit I did waste your time a little bit
+
+111
+00:06:36,830 --> 00:06:38,760
+You should just immediately say,oh,I got two points on a line
+
+112
+00:06:38,760 --> 00:06:43,040
+Once I have two points, I can completely figure out if any
+
+113
+00:06:43,040 --> 00:06:47,220
+other point lies on that line. 86.
+
+114
+00:06:56,450 --> 00:07:01,740
+So we have circular garden K,and then we have circular garden
+
+115
+00:07:01,740 --> 00:07:03,060
+let's see,what does it say?
+
+116
+00:07:03,060 --> 00:07:06,590
+It is 1/2 the length of the edge that surrounds circular
+
+117
+00:07:06,590 --> 00:07:13,510
+garden G. So this is circular garden G. This is K. This is G.
+
+118
+00:07:13,510 --> 00:07:16,090
+So they're saying the length of the edging that surrounds
+
+119
+00:07:16,090 --> 00:07:20,840
+circular garden K is 1/2 the length of the edging that
+
+120
+00:07:20,840 --> 00:07:22,230
+surrounds circular garden G.
+
+121
+00:07:22,230 --> 00:07:26,120
+So we could say circumference of K-- right, that's the edging
+
+122
+00:07:26,120 --> 00:07:32,020
+that surrounds it--is equal to 1/2 the circumference of G.
+
+123
+00:07:32,020 --> 00:07:37,160
+Fair enough. What is the area of garden K?
+
+124
+00:07:37,160 --> 00:07:41,040
+Assume that the edging has negligible width.
+
+125
+00:07:41,040 --> 00:07:43,590
+Well, a couple of things.
+
+126
+00:07:43,590 --> 00:07:46,000
+If we know the circumference,we know the area, right?
+
+127
+00:07:46,000 --> 00:07:49,070
+Because the circumference is 2 pi r, and once we know r,
+
+128
+00:07:49,070 --> 00:07:50,910
+area is pi r squared.
+
+129
+00:07:50,910 --> 00:07:54,060
+So if we can figure out the circumference of K,
+
+130
+00:07:54,060 --> 00:07:55,470
+then we know its area.
+
+131
+00:07:55,470 --> 00:07:58,200
+And likewise, if we know anything about the radius,
+
+132
+00:07:58,200 --> 00:08:02,590
+or the diameter, or the area of G, we can figure out its
+
+133
+00:08:02,590 --> 00:08:04,780
+circumference. We know its area. We can use the formula,
+
+134
+00:08:04,780 --> 00:08:11,110
+area equals pi r squared to figure out what r is.
+
+135
+00:08:11,110 --> 00:08:13,080
+And then once you figure out what r is, you could just
+
+136
+00:08:13,080 --> 00:08:16,020
+figure out that circumference is equal to 2 pi r.
+
+137
+00:08:16,020 --> 00:08:18,300
+So if you have any of this information, you're able to
+
+138
+00:08:18,300 --> 00:08:19,800
+figure out any of the rest of it.
+
+139
+00:08:19,990 --> 00:08:25,280
+So statement number one says,the area of G is equal to 25
+
+140
+00:08:25,280 --> 00:08:28,190
+pi square meters. So let me write it.
+
+141
+00:08:31,050 --> 00:08:34,300
+So immediately you should say,hey, if I know the area of G,
+
+142
+00:08:34,300 --> 00:08:36,000
+I can figure out the radius of G.
+
+143
+00:08:36,000 --> 00:08:38,000
+And if I know the radius of G,
+
+144
+00:08:38,000 --> 00:08:39,710
+I can figure out the circumference of G.
+
+145
+00:08:39,710 --> 00:08:42,150
+If I know the circumference of G, I can figure out the
+
+146
+00:08:42,150 --> 00:08:43,010
+circumference of K.
+
+147
+00:08:43,010 --> 00:08:45,920
+If I know the circumference of K I can figure out the radius
+
+148
+00:08:45,920 --> 00:08:49,780
+of K, and if I know the radius of K, I know the area of K.
+
+149
+00:08:49,780 --> 00:08:51,450
+You shouldn't have to calculate any of that.
+
+150
+00:08:51,450 --> 00:08:55,310
+So this is enough. This is sufficient. Statement two.
+
+151
+00:08:55,310 --> 00:08:57,590
+And maybe I'll do that for you, just to show you that it
+
+152
+00:08:57,990 --> 00:09:00,730
+can be done. But hopefully it's making some sense.
+
+153
+00:09:01,010 --> 00:09:04,760
+The edging around G is 10 pi meters long.
+
+154
+00:09:04,760 --> 00:09:08,300
+So they're actually telling us that the circumference of G is
+
+155
+00:09:08,300 --> 00:09:09,050
+equal to 10 pi.
+
+156
+00:09:09,550 --> 00:09:11,580
+So this is even easier. They're giving us this.
+
+157
+00:09:11,580 --> 00:09:15,430
+That means the circumference of K is 5 pi, which means that
+
+158
+00:09:15,630 --> 00:09:19,130
+we can figure out the radius of K and we could
+
+159
+00:09:19,130 --> 00:09:19,970
+figure out the area.
+
+160
+00:09:19,970 --> 00:09:23,070
+So this is also sufficient to solve the problem.
+
+161
+00:09:23,870 --> 00:09:25,460
+And just so you don't take my word for it,
+
+162
+00:09:25,460 --> 00:09:27,060
+let me just show you how quickly you could figure it out.
+
+163
+00:09:27,560 --> 00:09:33,390
+If the area of G is 25 pi, that means that pi times the
+
+164
+00:09:33,390 --> 00:09:36,450
+radius squared of G is equal to 25 pi.
+
+165
+00:09:37,090 --> 00:09:39,780
+That means that the radius is equal to 5, right?
+
+166
+00:09:39,990 --> 00:09:42,400
+Cancel out the pi on both sides. r is equal to 5.
+
+167
+00:09:42,400 --> 00:09:43,790
+That means the radius is 5.
+
+168
+00:09:43,790 --> 00:09:47,020
+That means the circumference is 2 pi times this.
+
+169
+00:09:47,020 --> 00:09:51,470
+So that means that the circumference of G is equal to
+
+170
+00:09:51,470 --> 00:09:55,220
+2 pi times 5, which is 10 pi, which is exactly what
+
+171
+00:09:55,220 --> 00:09:56,530
+statement two told us.
+
+172
+00:09:56,530 --> 00:09:58,330
+And then from there, we could figure out the circumference
+
+173
+00:09:58,330 --> 00:09:59,580
+of K, which is 1/2 of that.
+
+174
+00:09:59,580 --> 00:10:03,070
+So circumference of K is equal to 5 pi.
+
+175
+00:10:04,070 --> 00:10:06,470
+And then we know that 2 pi times the radius of K
+
+176
+00:10:06,470 --> 00:10:09,870
+is equal to 5 pi. Divide both sides by pi.
+
+177
+00:10:09,870 --> 00:10:12,020
+We know that the radius is equal to 5/2.
+
+178
+00:10:12,020 --> 00:10:15,960
+And then the area of K would be pi times this squared.
+
+179
+00:10:15,960 --> 00:10:19,980
+So it would be pi times 25/4, and we'd be done.
+
+180
+00:10:19,980 --> 00:10:21,570
+But all of this was a waste of time.
+
+181
+00:10:21,570 --> 00:10:25,300
+I just wanted to show you that once you have the radius or
+
+182
+00:10:25,300 --> 00:10:27,680
+the circumference, or the area of either of these,
+
+183
+00:10:27,680 --> 00:10:29,080
+you're able to figure out everything else.
+
+184
+00:10:29,080 --> 00:10:33,000
+And I'm out of time. See you in the next video.

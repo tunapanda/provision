@@ -1,0 +1,736 @@
+1
+00:00:00,000 --> 00:00:00,850
+   
+
+2
+00:00:00,850 --> 00:00:01,060
+Let's
+
+3
+00:00:01,060 --> 00:00:06,420
+continue on with our study of
+rotation of functions around
+
+4
+00:00:06,420 --> 00:00:09,375
+the x, and we'll soon
+see the y-axis as well.
+
+5
+00:00:09,375 --> 00:00:12,040
+So let's do a slightly harder
+example than what we've been
+
+6
+00:00:12,040 --> 00:00:15,360
+doing, but I think it might be
+obvious how to approach it.
+
+7
+00:00:15,360 --> 00:00:21,300
+So there's my y-axis, there's
+my x-axis, and in a couple of--
+
+8
+00:00:21,300 --> 00:00:24,290
+I think it was two problems
+ago-- we figured out if we had
+
+9
+00:00:24,290 --> 00:00:27,530
+the function y is equal to
+square root of x-- let me try
+
+10
+00:00:27,530 --> 00:00:33,210
+to draw it-- so this is y
+equals square root of x-- if we
+
+11
+00:00:33,210 --> 00:00:37,460
+were rotate that around the
+x-axis, what the volume would
+
+12
+00:00:37,460 --> 00:00:41,410
+be between two points, let's
+say 0 and some other point.
+
+13
+00:00:41,410 --> 00:00:42,940
+Now let's just pick an
+arbitrary point 1.
+
+14
+00:00:42,940 --> 00:00:45,390
+I think you know how to
+do that at this point.
+
+15
+00:00:45,390 --> 00:00:48,320
+Now let's make it a slightly
+more difficult problem.
+
+16
+00:00:48,320 --> 00:00:51,785
+Let's say I were to also
+draw the function y is
+
+17
+00:00:51,785 --> 00:00:52,760
+equal to x squared.
+
+18
+00:00:52,760 --> 00:00:56,115
+So that looks-- if this is 1,
+they both meet at 1, right?
+
+19
+00:00:56,115 --> 00:01:00,900
+Because square root of 1 is 1,
+and 1 squared is 1, so that
+
+20
+00:01:00,900 --> 00:01:02,380
+would look something like this.
+
+21
+00:01:02,380 --> 00:01:07,150
+   
+
+22
+00:01:07,150 --> 00:01:08,750
+They should be actually
+symetric around y
+
+23
+00:01:08,750 --> 00:01:11,650
+equals x, but anyway.
+
+24
+00:01:11,650 --> 00:01:16,010
+So say y equals x squared
+looks like that.
+
+25
+00:01:16,010 --> 00:01:19,940
+So my question now is, what
+is the volume if I were to
+
+26
+00:01:19,940 --> 00:01:22,490
+take this figure and
+rotate it around?
+
+27
+00:01:22,490 --> 00:01:23,530
+So what do I mean?
+
+28
+00:01:23,530 --> 00:01:33,940
+So this area here, if I were to
+rotate that about the x-axis,
+
+29
+00:01:33,940 --> 00:01:35,150
+what would the volume be?
+
+30
+00:01:35,150 --> 00:01:38,350
+So now, what we did just with
+the square root of x, we had
+
+31
+00:01:38,350 --> 00:01:39,730
+like a solid cup, right?
+
+32
+00:01:39,730 --> 00:01:40,840
+It would look
+something like this.
+
+33
+00:01:40,840 --> 00:01:44,200
+It would be like a cup, and it
+was solid, we were just trying
+
+34
+00:01:44,200 --> 00:01:45,500
+to figure out the volume of it.
+
+35
+00:01:45,500 --> 00:01:47,730
+Hopefully that made
+sense to you.
+
+36
+00:01:47,730 --> 00:01:51,610
+Now it's going to be kind of a
+hollowed-out cup, because we
+
+37
+00:01:51,610 --> 00:01:54,400
+have this inside function, and
+so the inside of the cup
+
+38
+00:01:54,400 --> 00:01:56,940
+is going to be empty.
+
+39
+00:01:56,940 --> 00:01:57,910
+Hopefully that makes
+a little sense.
+
+40
+00:01:57,910 --> 00:02:00,250
+Remember you're just taking
+this and then you're rotating
+
+41
+00:02:00,250 --> 00:02:03,290
+it around the x-axis.
+
+42
+00:02:03,290 --> 00:02:05,390
+Well, the way to think about
+it-- especially if you having
+
+43
+00:02:05,390 --> 00:02:07,590
+trouble visualizing--
+actually, the solution might
+
+44
+00:02:07,590 --> 00:02:09,040
+help you visualize it.
+
+45
+00:02:09,040 --> 00:02:11,640
+The volume of this figure,
+which I'm having trouble
+
+46
+00:02:11,640 --> 00:02:15,180
+drawing, it will be the
+volume formed by the
+
+47
+00:02:15,180 --> 00:02:19,885
+outside rotation of this y
+equals square root of x.
+
+48
+00:02:19,885 --> 00:02:20,980
+We'll do that in the yellow.
+
+49
+00:02:20,980 --> 00:02:24,630
+   
+
+50
+00:02:24,630 --> 00:02:27,740
+It'll be the volume formed when
+that is rotated around, and
+
+51
+00:02:27,740 --> 00:02:31,770
+then the whole solid volume
+minus the volume when
+
+52
+00:02:31,770 --> 00:02:35,950
+minus this volume.
+
+53
+00:02:35,950 --> 00:02:43,420
+So if we took the y equals x
+squared, y equals x squared
+
+54
+00:02:43,420 --> 00:02:46,060
+would look something like that,
+and then if you rotated it
+
+55
+00:02:46,060 --> 00:02:50,780
+around the axis, it would
+look something like that.
+
+56
+00:02:50,780 --> 00:02:52,870
+I don't know if you've ever
+been to Morocco, but they have
+
+57
+00:02:52,870 --> 00:02:56,020
+these tajin plates that the
+tops look a lot like that.
+
+58
+00:02:56,020 --> 00:02:56,730
+Well, you probably haven't.
+
+59
+00:02:56,730 --> 00:02:57,920
+Well, anyway.
+
+60
+00:02:57,920 --> 00:02:59,230
+It would look
+something like that.
+
+61
+00:02:59,230 --> 00:03:05,200
+So if we subtract out this
+volume when it's rotated around
+
+62
+00:03:05,200 --> 00:03:08,480
+from the volume of y equals
+square root of x, when that's
+
+63
+00:03:08,480 --> 00:03:10,340
+rotated, we'll get this figure
+that we're trying to figure
+
+64
+00:03:10,340 --> 00:03:12,230
+out, this area when
+it's rotated around.
+
+65
+00:03:12,230 --> 00:03:15,070
+And that should be intuitive
+for you, hopefully, because
+
+66
+00:03:15,070 --> 00:03:17,260
+when we just did area under a
+curve, that's how we would
+
+67
+00:03:17,260 --> 00:03:18,660
+figure out the area
+of this green area.
+
+68
+00:03:18,660 --> 00:03:21,140
+We would figure out the area
+under square root of x, and
+
+69
+00:03:21,140 --> 00:03:24,900
+we'd subtract out the area
+under y equals x squared.
+
+70
+00:03:24,900 --> 00:03:28,400
+   
+
+71
+00:03:28,400 --> 00:03:32,690
+This time, we're going to say
+the volume of the revolution of
+
+72
+00:03:32,690 --> 00:03:35,950
+y equals square root of x minus
+the volume of the revolution
+
+73
+00:03:35,950 --> 00:03:37,340
+of y equals x squared.
+
+74
+00:03:37,340 --> 00:03:41,260
+So let's do the problem.
+
+75
+00:03:41,260 --> 00:03:52,280
+So the total volume-- let me do
+a good color, that looks good--
+
+76
+00:03:52,280 --> 00:03:56,250
+total volume is going to be
+equal to the volume formed when
+
+77
+00:03:56,250 --> 00:04:01,810
+we rotate y equals square
+root of x around the x-axis.
+
+78
+00:04:01,810 --> 00:04:04,010
+I said from 0 to 1, and
+that's because I picked
+
+79
+00:04:04,010 --> 00:04:05,440
+where they meet.
+
+80
+00:04:05,440 --> 00:04:08,570
+Sometimes in a book, or on an
+exam, they'll just say, oh, you
+
+81
+00:04:08,570 --> 00:04:12,350
+know, the area between y equals
+x squared and y equals square
+
+82
+00:04:12,350 --> 00:04:13,980
+of x, we're going to rotate
+that around and you have
+
+83
+00:04:13,980 --> 00:04:16,880
+to figure out, well they
+intersected at 1, and you can
+
+84
+00:04:16,880 --> 00:04:19,270
+just set the equations equal to
+each other to figure that out.
+
+85
+00:04:19,270 --> 00:04:20,960
+We're going from 0 to
+1, because they also
+
+86
+00:04:20,960 --> 00:04:22,550
+intersect at 0.
+
+87
+00:04:22,550 --> 00:04:24,910
+0 squared is the same thing
+as square root of 0.
+
+88
+00:04:24,910 --> 00:04:27,150
+We're going from 0 to
+1, and so what's the
+
+89
+00:04:27,150 --> 00:04:30,280
+volume of the larger?
+
+90
+00:04:30,280 --> 00:04:33,720
+Or I guess the y equals square
+root of x rotated around?
+
+91
+00:04:33,720 --> 00:04:36,800
+I always forget the formula,
+that's why I always redraw a
+
+92
+00:04:36,800 --> 00:04:43,660
+disk, so if that's the radius
+of my disk, the disk is going
+
+93
+00:04:43,660 --> 00:04:46,700
+to come around like that, so
+we know that the radius is a
+
+94
+00:04:46,700 --> 00:04:50,910
+function of the disk, and
+that's, of course, the dx
+
+95
+00:04:50,910 --> 00:04:54,160
+is the depth of the disk.
+
+96
+00:04:54,160 --> 00:04:58,290
+So the radius is the function
+which, for the outside one, is
+
+97
+00:04:58,290 --> 00:05:04,360
+square root of x, and we know
+area of this disk is pi r
+
+98
+00:05:04,360 --> 00:05:11,010
+squared, so we square the
+radius, take a pi outside, and
+
+99
+00:05:11,010 --> 00:05:13,990
+then we multiply that times the
+width, so that's where we
+
+100
+00:05:13,990 --> 00:05:15,750
+get our dx, and of course we
+sum them all up and that's
+
+101
+00:05:15,750 --> 00:05:18,510
+where we get the integral.
+
+102
+00:05:18,510 --> 00:05:20,520
+I'm going to do it as
+two separate integrals.
+
+103
+00:05:20,520 --> 00:05:22,870
+Some people will put them both
+within the same integral, but I
+
+104
+00:05:22,870 --> 00:05:26,420
+really want to hit the point
+home that this is the volume of
+
+105
+00:05:26,420 --> 00:05:30,410
+the outside surface, formed by
+the outside surface or the cup,
+
+106
+00:05:30,410 --> 00:05:35,800
+minus the volume formed by
+the the inside function.
+
+107
+00:05:35,800 --> 00:05:42,840
+It's going to be minus pi--
+still going to be from 0 to 1--
+
+108
+00:05:42,840 --> 00:05:45,950
+I drew fairly huge integral
+signs, I don't know why-- and
+
+109
+00:05:45,950 --> 00:05:46,655
+what's the inside function?
+
+110
+00:05:46,655 --> 00:05:49,740
+It's x squared, and that's
+going to be the radius of its
+
+111
+00:05:49,740 --> 00:05:54,030
+own disks, if that's the
+radius that's the disk, dx
+
+112
+00:05:54,030 --> 00:06:01,520
+is the width, so it'll be x
+squared, squared, times dx.
+
+113
+00:06:01,520 --> 00:06:02,800
+So let's see if we
+can figure that out.
+
+114
+00:06:02,800 --> 00:06:06,940
+So, volume equals--
+let's take the pis out.
+
+115
+00:06:06,940 --> 00:06:09,290
+I think you'll see that that
+pi is applying to everything,
+
+116
+00:06:09,290 --> 00:06:12,920
+so we can take the pi out.
+
+117
+00:06:12,920 --> 00:06:19,310
+And then, times the integral,
+and now we can merge them
+
+118
+00:06:19,310 --> 00:06:24,170
+back, because integrals
+are additive like that.
+
+119
+00:06:24,170 --> 00:06:25,600
+You'll see what I'm
+talking about.
+
+120
+00:06:25,600 --> 00:06:26,720
+This integral is
+the same thing.
+
+121
+00:06:26,720 --> 00:06:28,090
+So what's square
+root of x squared?
+
+122
+00:06:28,090 --> 00:06:30,800
+Well that's just x.
+
+123
+00:06:30,800 --> 00:06:33,390
+And what's x squared, squared?
+
+124
+00:06:33,390 --> 00:06:34,780
+That's x to the fourth, right?
+
+125
+00:06:34,780 --> 00:06:36,760
+You multiply the exponents,
+exponent rules.
+
+126
+00:06:36,760 --> 00:06:38,520
+We have a minus sign here.
+
+127
+00:06:38,520 --> 00:06:45,070
+Minus x to the fourth, all that
+times dx, we've got that pi on
+
+128
+00:06:45,070 --> 00:06:49,430
+the outside, that equals--
+let's keep our pi
+
+129
+00:06:49,430 --> 00:06:51,040
+on the outside.
+
+130
+00:06:51,040 --> 00:06:54,310
+We're going to have to evaluate
+the antiderivative at 1 and 0.
+
+131
+00:06:54,310 --> 00:06:57,360
+So what's the
+antiderivative of x?
+
+132
+00:06:57,360 --> 00:07:07,230
+Well, that's x squared over
+2, minus-- what's the
+
+133
+00:07:07,230 --> 00:07:08,730
+antiderivative of
+x to the fourth?
+
+134
+00:07:08,730 --> 00:07:11,140
+Well, it's x to
+the fifth over 5.
+
+135
+00:07:11,140 --> 00:07:14,010
+That's hopefully
+second nature to you.
+
+136
+00:07:14,010 --> 00:07:18,640
+x to the fifth over 5, and
+we're going to evaluate
+
+137
+00:07:18,640 --> 00:07:20,530
+that at 1 and 0.
+
+138
+00:07:20,530 --> 00:07:21,122
+1 and 0.
+
+139
+00:07:21,122 --> 00:07:23,100
+We're going to subtract them.
+
+140
+00:07:23,100 --> 00:07:25,260
+Fundamental theorem
+of calculus.
+
+141
+00:07:25,260 --> 00:07:27,700
+So that equals-- I'm going to
+switch colors to avoid
+
+142
+00:07:27,700 --> 00:07:34,520
+monotony-- that equals pi
+times, let's evaluate it at 1,
+
+143
+00:07:34,520 --> 00:07:42,960
+so it's 1/2 minus 1/5 and when
+you evaluate it at 0, it's 0
+
+144
+00:07:42,960 --> 00:07:46,710
+minus 0, so when you evaluate
+0, you get nothing.
+
+145
+00:07:46,710 --> 00:07:48,940
+And so what's 1/2 minus 1/5?
+
+146
+00:07:48,940 --> 00:07:57,250
+That's pi times 2, get a common
+denominator of 10, 5/2 is 1/2
+
+147
+00:07:57,250 --> 00:08:03,690
+minus 2/10 is 1/5, so this
+equals, this would be 3,
+
+148
+00:08:03,690 --> 00:08:07,190
+so we get 3pi over 10.
+
+149
+00:08:07,190 --> 00:08:08,710
+That's the volume formed.
+
+150
+00:08:08,710 --> 00:08:11,660
+So it's almost easier to
+figure out the volume of
+
+151
+00:08:11,660 --> 00:08:13,660
+this figure than to draw it.
+
+152
+00:08:13,660 --> 00:08:16,670
+Anyway, I think I'll leave you
+there with this video, and in
+
+153
+00:08:16,670 --> 00:08:18,610
+the next video, we're
+going to start rotating
+
+154
+00:08:18,610 --> 00:08:19,510
+around the y-axis.
+
+155
+00:08:19,510 --> 00:08:21,110
+See you soon.
+
+156
+00:08:21,110 --> 00:08:21,400
+

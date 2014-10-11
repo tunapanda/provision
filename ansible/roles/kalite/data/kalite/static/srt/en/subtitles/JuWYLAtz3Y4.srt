@@ -1,0 +1,679 @@
+1
+00:00:00,463 --> 00:00:01,938
+In the last video
+
+2
+00:00:01,938 --> 00:00:05,638
+I talked about how bitcoin transactions are really incorporated
+
+3
+00:00:05,638 --> 00:00:09,438
+into a global and a publicly accessible ledger of sorts
+
+4
+00:00:09,438 --> 00:00:12,281
+that we call the transaction block chain.
+
+5
+00:00:12,281 --> 00:00:16,380
+This work is actually carried out by nodes in the Bitcoin network
+
+6
+00:00:16,380 --> 00:00:19,410
+that are known as bitcoin miners.
+
+7
+00:00:19,410 --> 00:00:21,234
+There is a reward for all that effort,
+
+8
+00:00:21,234 --> 00:00:26,577
+especially since some of the computational heavy lifting is done by these bitcoin miners.
+
+9
+00:00:26,577 --> 00:00:31,430
+They are basically awarded a certain numer of bitcoins for their efforts.
+
+10
+00:00:31,430 --> 00:00:33,741
+This happens by the miners effectively constructing
+
+11
+00:00:33,741 --> 00:00:36,815
+what is called a coinbase transaction.
+
+12
+00:00:36,815 --> 00:00:41,303
+They basically assign themselves bitcoins within that transaction.
+
+13
+00:00:41,303 --> 00:00:48,487
+In a sense, bitcoins are effectively generated almost out of thin air during this process.
+
+14
+00:00:48,487 --> 00:00:52,278
+Of course, if you see something like that, that may raise in your mind the question
+
+15
+00:00:52,278 --> 00:00:56,470
+of whether there is ever an upper limit to the Bitcoin money supply.
+
+16
+00:00:56,470 --> 00:00:58,065
+And fortunately the answer...
+
+17
+00:00:58,065 --> 00:01:00,883
+Maybe not so fortunately, depending on your viewpoint.
+
+18
+00:01:00,883 --> 00:01:03,414
+...the answer to that question is actually yes.
+
+19
+00:01:03,414 --> 00:01:13,162
+The Bitcoin system is actually designed so that there can be at most 21 mln bitcoins ever generated.
+
+20
+00:01:13,162 --> 00:01:18,951
+That's the maximum numer of bitcoins that can ever come up in the system.
+
+21
+00:01:18,951 --> 00:01:24,246
+Beyond that point, no more new bitcoins will ever be accepted or generated or allowed to be generated.
+
+22
+00:01:24,246 --> 00:01:28,565
+As a result, nodes from that point onward,
+
+23
+00:01:28,565 --> 00:01:30,935
+once 21 mln bitcoins have been generated,
+
+24
+00:01:30,935 --> 00:01:36,440
+will no longer get a reward for complementing the transaction block chain.
+
+25
+00:01:36,440 --> 00:01:38,464
+The bitcoin miners who do all this effort
+
+26
+00:01:38,464 --> 00:01:42,735
+are not gonna get guaranteed award for doing that effort.
+
+27
+00:01:42,735 --> 00:01:46,477
+And keep in mind, that because every transaction in the Bitcoin system is public
+
+28
+00:01:46,477 --> 00:01:51,402
+and the nodes in the system actually know how many coins have been generated
+
+29
+00:01:51,402 --> 00:01:53,742
+it's possible to really enforce this limits
+
+30
+00:01:53,742 --> 00:01:57,342
+on the total numer of bitcoins created.
+
+31
+00:01:57,342 --> 00:02:00,422
+There are two points I wanna make regarding this particular limit.
+
+32
+00:02:00,422 --> 00:02:03,223
+First of all, even after it is reached
+
+33
+00:02:03,223 --> 00:02:07,675
+we will still gonna need to do what bitcoin mining does today.
+
+34
+00:02:07,675 --> 00:02:12,011
+That involves things like incorporating transactions into transaction blocks
+
+35
+00:02:12,011 --> 00:02:17,306
+and incorporating these transaction blocks into transaction block chains and so on.
+
+36
+00:02:17,306 --> 00:02:21,706
+If you think about it, once the 21 mln coin limit is reached
+
+37
+00:02:21,706 --> 00:02:25,642
+these nodes don't get that automatic reward of bitcoins
+
+38
+00:02:25,642 --> 00:02:27,647
+for performing this extra effort.
+
+39
+00:02:27,647 --> 00:02:31,307
+You may be wondering what incentive is there for these nodes
+
+40
+00:02:31,307 --> 00:02:34,242
+to engage in this additional effort.
+
+41
+00:02:34,242 --> 00:02:35,916
+I mean, why are they doing this sort of thing
+
+42
+00:02:35,916 --> 00:02:40,111
+if they are not gonna get bitcoins as the guarantee for doing that work.
+
+43
+00:02:40,111 --> 00:02:45,785
+At this point the hope is that when we reach the 21 mln bitcoin limit
+
+44
+00:02:45,785 --> 00:02:47,636
+or as we get closer and closer to it,
+
+45
+00:02:47,636 --> 00:02:51,301
+the transaction fees will play a more prominent role
+
+46
+00:02:51,301 --> 00:02:56,385
+in a nodes decision to be a bitcoin mining node.
+
+47
+00:02:56,385 --> 00:03:03,182
+In particular, the idea here is that we hope the transaction fees will be enough of an incentive
+
+48
+00:03:03,182 --> 00:03:05,384
+and more and more people will
+
+49
+00:03:05,384 --> 00:03:08,139
+in general, I think hopefully at this point will be using bitcoins,
+
+50
+00:03:08,139 --> 00:03:13,687
+so as a result, I think there is an expectation or it's not unreasonable to think
+
+51
+00:03:13,687 --> 00:03:16,366
+that as more and more people use bitcoins
+
+52
+00:03:16,366 --> 00:03:18,260
+there will be more and more transactions
+
+53
+00:03:18,260 --> 00:03:21,983
+and as a result, more and more opportunity to make money out of the transaction fees.
+
+54
+00:03:21,983 --> 00:03:24,789
+It turns out that in the context of bitcoin mining
+
+55
+00:03:24,789 --> 00:03:27,039
+a lot of the heavy lifting is in this proof of work piece,
+
+56
+00:03:27,039 --> 00:03:31,355
+not in being able to incorporate all these transactions into a transaction block.
+
+57
+00:03:31,355 --> 00:03:34,580
+Even if there is a lot of transactions in a transaction block
+
+58
+00:03:34,580 --> 00:03:39,291
+it's not that much more effort for the miners to really incorporate those extra transactions.
+
+59
+00:03:39,291 --> 00:03:42,275
+If they are getting all these extra transaction fees
+
+60
+00:03:42,275 --> 00:03:44,895
+then that might be a good incentive for them.
+
+61
+00:03:44,895 --> 00:03:51,360
+It's also worth noting that transaction fees are actually set by the pair in Bitcoin.
+
+62
+00:03:51,360 --> 00:03:57,645
+The pair is gonna have their honours of setting the fee appropriately,
+
+63
+00:03:57,645 --> 00:04:04,110
+so that the nodes in the Bitcoin network are incentivised to add that pair's transactions
+
+64
+00:04:04,110 --> 00:04:06,949
+to their transaction blocks.
+
+65
+00:04:08,110 --> 00:04:09,809
+Hopefully, that makes some sense.
+
+66
+00:04:09,809 --> 00:04:13,971
+The second point I wanna make regarding this limit of 21 mln bitcoins
+
+67
+00:04:13,971 --> 00:04:18,358
+is that really Bitcoin does allow for fractional coins.
+
+68
+00:04:18,358 --> 00:04:20,449
+We haven't really talked much about that in this video
+
+69
+00:04:20,449 --> 00:04:25,669
+since I've really implicitly talked only about the idea of coins being these whole entities
+
+70
+00:04:25,669 --> 00:04:27,713
+like Alice transferring ten coins to Bob
+
+71
+00:04:27,713 --> 00:04:29,511
+or twenty five coins to Bob.
+
+72
+00:04:30,049 --> 00:04:35,013
+But it turns out you can actually have coins that are fractional.
+
+73
+00:04:35,013 --> 00:04:40,615
+In fact, the smallest possible unit in Bitcoin is a very small numer.
+
+74
+00:04:40,615 --> 00:04:49,260
+It's 0.00000001 bitcoins.
+
+75
+00:04:49,260 --> 00:04:52,930
+This is one hundred milionth of a bitcoin.
+
+76
+00:04:52,930 --> 00:04:59,958
+Just as an FYI, this is known as a Satoshi.
+
+77
+00:04:59,958 --> 00:05:04,769
+This name actually comes from the name Satoshi Nakamoto.
+
+78
+00:05:04,769 --> 00:05:09,480
+Satoshi Nakamoto is the pseudonim of the inventor of bitcoin.
+
+79
+00:05:09,480 --> 00:05:13,338
+Nobody actually is sure that there is somebody named Satoshi Nakamoto,
+
+80
+00:05:13,338 --> 00:05:19,406
+but as far as anybody can tell, the only person who's ever taken credit for the invention of bitcoin
+
+81
+00:05:19,406 --> 00:05:21,490
+is the Satoshi Nakamoto name.
+
+82
+00:05:21,490 --> 00:05:24,564
+It's unlikely there is actually a person behind that name
+
+83
+00:05:24,564 --> 00:05:28,514
+but it's more likely it's some kind of a group or something of that nature.
+
+84
+00:05:28,961 --> 00:05:33,893
+Aside from that, there are actually a couple of other additional controls that I wanna mention.
+
+85
+00:05:33,893 --> 00:05:39,017
+They are built in the Bitcoin for keeping the growth of that money supply in check.
+
+86
+00:05:39,017 --> 00:05:42,627
+First of all, the reward provided to bitcoin miners
+
+87
+00:05:42,627 --> 00:05:46,071
+actually decreases over time.
+
+88
+00:05:46,687 --> 00:05:53,100
+If you were aware, when Bitcoin began, which was around January of 2009,
+
+89
+00:05:53,100 --> 00:06:01,488
+at that time the reward for a bitcoin miner to do their effort was 50 bitcoins.
+
+90
+00:06:01,488 --> 00:06:04,289
+The way that the reward structure is set up
+
+91
+00:06:04,289 --> 00:06:07,184
+is that every 210,000 blocks,
+
+92
+00:06:07,184 --> 00:06:10,859
+so when you get to 210,000th block period,
+
+93
+00:06:10,859 --> 00:06:13,610
+when 210,000 new blocks are generated,
+
+94
+00:06:13,610 --> 00:06:18,259
+the reward size actually gets cut in half.
+
+95
+00:06:18,259 --> 00:06:22,230
+What that means is that once 210,000 blocks are generated
+
+96
+00:06:22,230 --> 00:06:25,366
+the reward goes from 50 bitcoins to 25 bitcoins,
+
+97
+00:06:25,366 --> 00:06:29,301
+then from 25 to 12.5 and so on and so forth.
+
+98
+00:06:29,301 --> 00:06:37,310
+It does take approximately four years to generate 210,000 blocks.
+
+99
+00:06:37,310 --> 00:06:41,869
+I'll talk a little bit later where this four years numbers come from.
+
+100
+00:06:41,869 --> 00:06:45,753
+Right now, when I'm recording this video it's May 2013,
+
+101
+00:06:45,753 --> 00:06:48,941
+the current award is actually no longer 50 bitcoins.
+
+102
+00:06:48,941 --> 00:06:55,226
+The current award now is 25 bitcoins per mining operation.
+
+103
+00:06:55,226 --> 00:06:58,413
+It's gonna go down by half in approximately four years
+
+104
+00:06:58,413 --> 00:07:08,081
+and that's just gonna keep happening until around the year 2140.
+
+105
+00:07:08,081 --> 00:07:16,495
+In 2140 we will expect that the entire bitcoin supply will have been generated.
+
+106
+00:07:16,495 --> 00:07:20,522
+So it is unlikely we will be generating bitcoins after 2140.
+
+107
+00:07:20,522 --> 00:07:26,980
+2140 is the point at which all bitcoins will have been generated.
+
+108
+00:07:32,256 --> 00:07:35,193
+The last way to limit the generation of bitcoins
+
+109
+00:07:35,193 --> 00:07:41,633
+is to actually calibrate the difficulty of solving that proof of work protocol at a global level.
+
+110
+00:07:41,633 --> 00:07:45,713
+I was gonna point out another functionality that Bitcoin has built into it
+
+111
+00:07:45,713 --> 00:07:53,035
+is that for every 2,016 blocks that are generated
+
+112
+00:07:53,035 --> 00:07:56,713
+the network basically estimates the time that it took to generate those blocks.
+
+113
+00:07:56,713 --> 00:07:59,783
+It looks at how long did it take to generate the first of these block
+
+114
+00:07:59,783 --> 00:08:01,927
+and how lond did it take to generate the last of these blocks
+
+115
+00:08:01,927 --> 00:08:04,709
+and then measures that amount of time.
+
+116
+00:08:04,709 --> 00:08:06,199
+If that amount of time
+
+117
+00:08:06,199 --> 00:08:16,983
+is something significantly bigger than two weeks
+
+118
+00:08:18,506 --> 00:08:22,571
+then the proof of work protocol will be simplified.
+
+119
+00:08:22,571 --> 00:08:26,268
+It will be calibrated so that it's easier to generate the blocks.
+
+120
+00:08:26,268 --> 00:08:32,903
+On the flip side, let's say it took a lot less than two weeks to generate these 2,016 blocks.
+
+121
+00:08:32,903 --> 00:08:38,137
+In that case, the proof of work will be again calibrated to be made more difficult.
+
+122
+00:08:38,137 --> 00:08:46,932
+The goal is, we want it to be the case it takes about two weeks to generate 2,016 blocks.
+
+123
+00:08:46,932 --> 00:08:52,743
+About 14 days to generate 2,016 blocks.
+
+124
+00:08:53,729 --> 00:08:57,143
+To get a better sense for why that numer is the way it is
+
+125
+00:08:57,143 --> 00:09:05,332
+you could see that, let's say it takes about two weeks to generate 2,016 blocks.
+
+126
+00:09:05,332 --> 00:09:08,936
+What that actually will imply is that it takes about ten minutes
+
+127
+00:09:08,936 --> 00:09:11,398
+before the proof of work is actually solved
+
+128
+00:09:11,398 --> 00:09:18,935
+and a new transaction block is folded into the overall transaction block chain.
+
+129
+00:09:18,935 --> 00:09:28,346
+You can actually work out that if it took ten minutes to come up with one new block at the global level
+
+130
+00:09:28,346 --> 00:09:32,960
+and you multiply that by six to get the numer of blocks generated per hour,
+
+131
+00:09:32,960 --> 00:09:34,934
+so you get six blocks per hour,
+
+132
+00:09:34,934 --> 00:09:36,882
+or really six new proofs of work per hour,
+
+133
+00:09:36,882 --> 00:09:40,515
+which in turn would lead to six new transaction blocks per hour,
+
+134
+00:09:40,515 --> 00:09:44,497
+you multiply that by 24 hours per day
+
+135
+00:09:45,082 --> 00:09:47,322
+and you multiply that by 14 days
+
+136
+00:09:47,322 --> 00:09:50,918
+and you will find that when you multiply these things together
+
+137
+00:09:50,918 --> 00:09:55,297
+you will get the numer 2,016.
+
+138
+00:09:55,297 --> 00:09:57,909
+So, you can get the sense where this numer comes from.
+
+139
+00:09:57,909 --> 00:10:02,731
+I wanna make one last final claryfing remark regarding this proof of work.
+
+140
+00:10:02,731 --> 00:10:09,710
+Since solving the proof of work requires a bitcoin mining node to come up with the proof string,
+
+141
+00:10:09,710 --> 00:10:12,970
+which it currently does through some type of excessive search,
+
+142
+00:10:12,970 --> 00:10:16,558
+as you increase the numer of bitcoin mining nodes on a network,
+
+143
+00:10:16,558 --> 00:10:21,444
+the proof of work will be solved faster.
+
+144
+00:10:22,414 --> 00:10:24,725
+I don't mean faster for a particular node,
+
+145
+00:10:24,725 --> 00:10:26,942
+I mean faster at the level of the entire network.
+
+146
+00:10:26,942 --> 00:10:31,532
+In other words, it will take less time before at least one node comes up with the solution,
+
+147
+00:10:31,532 --> 00:10:34,760
+because these nodes are all working on same problem concurrently.
+
+148
+00:10:34,760 --> 00:10:43,379
+I also wanna mention quickly that even though different bitcoin mining nodes are all validating
+
+149
+00:10:43,379 --> 00:10:47,741
+either the exactly same set of transactions
+
+150
+00:10:47,741 --> 00:10:50,551
+or maybe largely overlapping set of transactions,
+
+151
+00:10:50,551 --> 00:10:55,922
+they are all solving entirely different proof of work protocols when they are doing this sort of thing.
+
+152
+00:10:55,922 --> 00:11:02,532
+The reason for that is that each node inserts its own coinbase or generational transaction
+
+153
+00:11:02,532 --> 00:11:06,949
+into the block that it's working on to award itself coins.
+
+154
+00:11:06,949 --> 00:11:10,995
+This generational or coinbase transaction is unique to each node.
+
+155
+00:11:10,995 --> 00:11:15,999
+As a result, the challenge string for which each bitcoin mining node
+
+156
+00:11:15,999 --> 00:11:18,773
+is seeking the corresponding proof of work
+
+157
+00:11:18,773 --> 00:11:23,806
+will be different for each bitcoin mining node.
+
+158
+00:11:23,806 --> 00:11:28,478
+Essentially, what you have is that because you have a cryptographic hash function being used in the process
+
+159
+00:11:28,478 --> 00:11:32,542
+just this one difference, the fact that just this one piece is different
+
+160
+00:11:32,542 --> 00:11:37,235
+completely randomizes the proof of work problem that results.
+
+161
+00:11:37,235 --> 00:11:40,167
+That makes it likely that across the entire network
+
+162
+00:11:40,167 --> 00:11:43,407
+the solutions are likely to be widely distributed
+
+163
+00:11:43,407 --> 00:11:45,726
+and we can expect that if we have enough nodes
+
+164
+00:11:45,726 --> 00:11:49,611
+one node will come up with the solution in about ten minutes.
+
+165
+00:11:49,611 --> 00:11:52,570
+At least one node will do it
+
+166
+00:11:52,600 --> 00:11:54,518
+and once one node comes up with the solution
+
+167
+00:11:54,518 --> 00:11:58,164
+everyone else can proceed from that point onward with the new chain.
+
+168
+00:11:58,164 --> 00:12:02,692
+As you can see, the Bitcoin protocol takes a numer of measures,
+
+169
+00:12:02,692 --> 00:12:07,681
+implements a numer of mechanisms to both limit the total numer of bitcoins
+
+170
+00:12:07,681 --> 00:12:12,810
+as well as he ray in which these bitcoins are ultimately generated.

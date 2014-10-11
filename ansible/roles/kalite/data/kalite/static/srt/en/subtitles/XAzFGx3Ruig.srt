@@ -1,0 +1,215 @@
+1
+00:00:01,080 --> 00:00:04,835
+Someone walks up to you on the street and says two thousand, nine hundred and forty-three.
+
+2
+00:00:04,835 --> 00:00:07,490
+Quick! Is this divisible by nine? It's a matter of life and death!
+
+3
+00:00:07,490 --> 00:00:10,575
+And you could say "well I can do this fairly quickly
+
+4
+00:00:10,575 --> 00:00:13,993
+to figure out whether this is divisible by nine, I just have to add up the digits
+
+5
+00:00:13,993 --> 00:00:17,278
+and figure out if the sum of the digits is multiple
+
+6
+00:00:17,278 --> 00:00:21,081
+of nine or whether it is divisible by nine."
+
+7
+00:00:21,081 --> 00:00:26,549
+Let's do that. Two plus nine plus four plus three.
+
+8
+00:00:26,549 --> 00:00:35,157
+Two plus nine is eleven. Eleven plus four is fifteen. Fifteen plus three is eighteen. And eighteen is definitely divisible by nine.
+
+9
+00:00:35,157 --> 00:00:37,907
+So this is going to be divisible by nine.
+
+10
+00:00:37,907 --> 00:00:42,245
+And if you're unsure whether eighteen is divisible by nine, you can apply the same rule again.
+
+11
+00:00:42,245 --> 00:00:48,547
+One plus eight is equal to nine. So that's definitely (repeated) by nine.
+
+12
+00:00:48,547 --> 00:00:53,996
+And so the person can go save their life or whoever's life they are trying to save with that information.
+
+13
+00:00:53,996 --> 00:01:01,161
+But this might lead you thinking how nice and useful this is. Why did that work? Does this work for all numbers or for only nine?
+
+14
+00:01:01,161 --> 00:01:07,879
+I don't think this works for eight, or seven or eleven or seventeen. Why does this work for nine?
+
+15
+00:01:07,879 --> 00:01:10,947
+This actually also works for three but we'll think about that in a future video.
+
+16
+00:01:10,947 --> 00:01:15,497
+To realize that, we just have to rewrite two thousand, nine hundred and forty-three.
+
+17
+00:01:15,497 --> 00:01:25,946
+So the two in 2943 in the thousands place so we can literally rewrite it as 2 x 1000.
+
+18
+00:01:25,946 --> 00:01:32,165
+The nine is in the hundreds place so we can literally re-write it as 9 x 100.
+
+19
+00:01:32,165 --> 00:01:41,159
+The four is in the tens place so literally the same thing as 4 x 10. And now finally we have our three in the ones place.
+
+20
+00:01:41,159 --> 00:01:44,497
+We can write it as 3 x 1 or just three.
+
+21
+00:01:44,497 --> 00:01:48,347
+So this says two thousand, nine hundred, forty and three.
+
+22
+00:01:48,347 --> 00:01:59,082
+Now we can re-write each of these things as thousands, hundreds, tens as the sum of one plus something that is divisible by nine.
+
+23
+00:01:59,082 --> 00:02:04,554
+So, a thousand, I can re-write as one plus nine-hundred ninety nine.
+
+24
+00:02:04,554 --> 00:02:10,917
+I can re-write a hundred as one plus ninety-nine.
+
+25
+00:02:10,917 --> 00:02:16,252
+I can re-write ten as one plus nine.
+
+26
+00:02:16,252 --> 00:02:22,082
+And so two times a thousand is the same thing as two times one plus nine-hundred ninety nine.
+
+27
+00:02:22,082 --> 00:02:26,223
+Nine times a hundred is the same thing as nine times one plus ninety-nine.
+
+28
+00:02:26,223 --> 00:02:31,021
+Four times ten is the same thing as four times one plus nine.
+
+29
+00:02:31,021 --> 00:02:33,751
+And I have this plus three over here.
+
+30
+00:02:33,751 --> 00:02:44,014
+But now I can distribute, I can say that, well, this over here is the same as two times one which is two plus two times nine-hundred and ninety-nine.
+
+31
+00:02:44,014 --> 00:02:53,547
+This thing, right over here, is the same thing as nine times one. Just to be clear doing this, I'm distributing the two over the first parentheses, these first two terms.
+
+32
+00:02:53,547 --> 00:03:00,215
+Then the nine, I'm going to distribute again. It's going to be nine times one plus nine times ninety-nine.
+
+33
+00:03:00,215 --> 00:03:15,947
+And then, over here I'm going to distribute the four. Four times one so plus four and then four times nine so plus four times nine.
+
+34
+00:03:15,947 --> 00:03:20,480
+And then finally, I have this positive three, this plus three right over here.
+
+35
+00:03:20,480 --> 00:03:24,619
+Now I'm just going to re-arrange this addition. So I'm just going to take all the terms
+
+36
+00:03:24,619 --> 00:03:29,014
+and multiplying by nine hundred ninety nine. And I'm going to do that in orange.
+
+37
+00:03:29,014 --> 00:03:34,818
+So I'll do this term, this term and this term right over here.
+
+38
+00:03:34,818 --> 00:03:43,416
+And so I have two times nine hundred and ninety-nine plus that nine times ninety-nine plus four times nine.
+
+39
+00:03:43,416 --> 00:03:59,280
+So that are those three terms and then I have plus two plus nine plus four and plus three.
+
+40
+00:03:59,280 --> 00:04:04,080
+This is just the sum of our digits. This is what we did up here.
+
+41
+00:04:04,080 --> 00:04:10,966
+And you might see where all of this is going. This orange stuff here, is this divisible by nine?
+
+42
+00:04:10,966 --> 00:04:14,903
+Well it sure would definitely! Nine nine nine that's divisible by nine.
+
+43
+00:04:14,903 --> 00:04:17,474
+So anything this multiplying this by divisible of nine.
+
+44
+00:04:17,474 --> 00:04:21,160
+This is divisible by nine. This is definitely divisible by nine.
+
+45
+00:04:21,160 --> 00:04:24,592
+Ninety nine. Regardless of whatever is being multiplying by nine.
+
+46
+00:04:24,592 --> 00:04:29,640
+Whatever is multiplying by nine. Whatever is multiplying by ninety nine is divisible by nine.
+
+47
+00:04:29,640 --> 00:04:31,453
+Because ninety nine is divisible by nine.
+
+48
+00:04:31,453 --> 00:04:33,746
+So this works out. And same thing over here.
+
+49
+00:04:33,746 --> 00:04:38,226
+You are always going to be multiplying by a multiple of nine.
+
+50
+00:04:38,226 --> 00:04:43,965
+So all of this business right over here is definitely going to be divisible by nine.
+
+51
+00:04:43,965 --> 00:04:50,084
+and so all for whole thing, and I all did was rewrote 2943 like this right over here.
+
+52
+00:04:50,084 --> 00:04:55,069
+In order for whole thing to be divisible by nine. This part definitely is divisible by nine.
+
+53
+00:04:55,069 --> 00:05:00,139
+In order for the whole thing does the rest of the sum and it has to be divisible by nine as well.
+
+54
+00:05:00,139 --> 00:05:08,449
+So in order this whole thing, all of this has to be divisible by nine.

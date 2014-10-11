@@ -1,0 +1,535 @@
+1
+00:00:01,368 --> 00:00:08,563
+You are by now probably used to the idea of measuring angles in degrees.
+
+2
+00:00:08,563 --> 00:00:13,156
+We use it in everyday language, we've done some examples on........
+
+3
+00:00:13,156 --> 00:00:17,672
+where if you had an angle like that, you might call that a 30 degree
+
+4
+00:00:17,672 --> 00:00:23,722
+30 degree angle if you had an angle like this call that a 90 degree angle
+
+5
+00:00:23,722 --> 00:00:26,582
+you'd often use a symbol just like that.
+
+6
+00:00:26,582 --> 00:00:32,261
+If you were to go a 180 degrees, you'd essentially form a straight line.
+
+7
+00:00:32,261 --> 00:00:41,650
+You go 360 degrees, you've essentially done one full rotation
+
+8
+00:00:41,650 --> 00:00:45,130
+and if you watch figure skating on the olympics and someone does a rotation they say
+
+9
+00:00:45,130 --> 00:00:50,942
+"Oh! they did a 360" or espescially in some type of some skateboarding competitions and things like that.
+
+10
+00:00:50,942 --> 00:00:54,389
+But the one thing to realize is that it might not be obvious from the get-go
+
+11
+00:00:54,389 --> 00:00:57,655
+but this whole notion of degrees, this is a human constructed system.
+
+12
+00:00:57,655 --> 00:01:00,539
+this is not the only way that you can measure angles.
+
+13
+00:01:00,539 --> 00:01:02,277
+And if you think about it yourselves,
+
+14
+00:01:02,277 --> 00:01:06,200
+Why do we call a full rotation 360 degrees?
+
+15
+00:01:06,200 --> 00:01:08,730
+And there's some possible theories and I encourage you to think about them,
+
+16
+00:01:08,730 --> 00:01:13,429
+Why does 360 degrees show up in our culture as a full rotation?
+
+17
+00:01:13,429 --> 00:01:16,829
+Well, there's a couple of theories there...
+
+18
+00:01:16,829 --> 00:01:20,393
+One is ancient calenders and even our calenders close to this,
+
+19
+00:01:20,393 --> 00:01:24,949
+but ancient calenders were based on 360 days in a year
+
+20
+00:01:24,949 --> 00:01:28,430
+Some ancient astronomers observed that things seemed to move
+
+21
+00:01:28,430 --> 00:01:32,437
+one 360th of the sky per day.
+
+22
+00:01:32,437 --> 00:01:35,807
+Another theory is that the ancient babylonians
+
+23
+00:01:35,807 --> 00:01:40,343
+liked equilateral triangles a lot and they had a base 60 number system.
+
+24
+00:01:40,343 --> 00:01:42,890
+So they had 60 symbols, we only have 10.
+
+25
+00:01:42,890 --> 00:01:44,753
+We have a base 10 and they had 60.
+
+26
+00:01:44,753 --> 00:01:48,996
+So in our system we like to divide things under ten, they liked to divide under 60.
+
+27
+00:01:48,996 --> 00:01:54,612
+So if you were to, if you had a circle and you divided it into 6 equilateral triangles.
+
+28
+00:01:54,612 --> 00:01:59,572
+And each of those equilateral triangles you divided into 60 sections
+
+29
+00:01:59,572 --> 00:02:02,120
+cause you have a base 60 number system.
+
+30
+00:02:02,120 --> 00:02:06,104
+And you might end up with 360 degrees.
+
+31
+00:02:06,104 --> 00:02:10,336
+What I want to think about in this video is an alternate way of measuring angles.
+
+32
+00:02:10,336 --> 00:02:14,876
+And that alternate way, even though it might not seem intuitive to you from the get-go
+
+33
+00:02:14,876 --> 00:02:17,809
+in some ways is much more mathematically pure,
+
+34
+00:02:17,809 --> 00:02:22,326
+than degrees. It's not based on the cultural artifacts of base 60 number system
+
+35
+00:02:22,326 --> 00:02:24,276
+or, astronomical patterns.
+
+36
+00:02:24,276 --> 00:02:29,717
+To some degree an alien on another planet would not use degrees,
+
+37
+00:02:29,717 --> 00:02:33,353
+especially if degrees are motivated by astronomical phenomena
+
+38
+00:02:33,353 --> 00:02:37,021
+But they might use what we are going to define as a radian.
+
+39
+00:02:37,021 --> 00:02:43,009
+Tere's a certain degree of purity here, Radians.
+
+40
+00:02:43,009 --> 00:02:47,268
+So, lets just cut to the cheese and define what a radian is,
+
+41
+00:02:47,268 --> 00:02:52,828
+so let me draw a circle here, my best attempt at drawing a circle.
+
+42
+00:02:52,828 --> 00:02:56,806
+Not bad, and let me draw,
+
+43
+00:02:56,806 --> 00:03:01,683
+centre of the circle and now let me draw this radius,
+
+44
+00:03:01,683 --> 00:03:03,343
+and lets say that this radius,
+
+45
+00:03:03,343 --> 00:03:06,210
+you might already notice that this word radius is very close to the word radian.
+
+46
+00:03:06,210 --> 00:03:08,178
+And that's not a coincidence.
+
+47
+00:03:08,178 --> 00:03:12,833
+So let's say that this radius, the circle has a radius of length r.
+
+48
+00:03:12,833 --> 00:03:16,505
+Now lets construct an angle, I'll call that angle theta.
+
+49
+00:03:16,505 --> 00:03:18,631
+So lets construct an angle theta.
+
+50
+00:03:18,631 --> 00:03:23,037
+So let's call this this angle right over here theta and
+
+51
+00:03:23,037 --> 00:03:29,653
+let's just say for the sake of argument that this angle is just the exact right measure,
+
+52
+00:03:29,653 --> 00:03:34,580
+so that if you look at the arc that subtends this angle,
+
+53
+00:03:34,580 --> 00:03:36,855
+That seems like a very fancy word.
+
+54
+00:03:36,855 --> 00:03:42,456
+So let me draw the angle, so if you look at the arc that subtends the angle
+
+55
+00:03:42,456 --> 00:03:43,855
+that seems like a fancy word
+
+56
+00:03:43,855 --> 00:03:50,609
+and that's just talking about the arc along the circle that intersects the sides of theses two angles
+
+57
+00:03:50,609 --> 00:03:55,748
+So this arc right over here subtends angle, this is the angle theta.
+
+58
+00:03:55,748 --> 00:04:03,516
+So let me write this down, subtends this arc, subtends angle theta.
+
+59
+00:04:03,516 --> 00:04:06,812
+Lets say theta's exactly the right size, so this arc is also the same length as the radius of the circle
+
+60
+00:04:06,812 --> 00:04:13,789
+so this arc is also of length r.
+
+61
+00:04:13,789 --> 00:04:19,572
+So given that if you were to find a new type of angle measurement and,
+
+62
+00:04:19,572 --> 00:04:24,684
+you wanted to call it a radian which is very close to a radius.
+
+63
+00:04:24,684 --> 00:04:28,943
+How many radians would you define this angle to be ?
+
+64
+00:04:28,943 --> 00:04:36,071
+Well, the most obvious one, if you kind of view a radian as another way of saying radiusss or I guess a radii...
+
+65
+00:04:36,071 --> 00:04:41,674
+Well, you say look, this is subtended by an arc of one radius.
+
+66
+00:04:41,674 --> 00:04:45,985
+So why don't we this right over here one radian?
+
+67
+00:04:45,985 --> 00:04:48,306
+Why don't we call this one radian?
+
+68
+00:04:48,306 --> 00:04:50,827
+Which is exactly how a radian is defined,
+
+69
+00:04:50,827 --> 00:04:54,061
+When you have a circle and you have an angle of one radian,
+
+70
+00:04:54,061 --> 00:04:58,827
+the arc that subtends it is exactly one radius long.
+
+71
+00:04:58,827 --> 00:05:03,913
+Which you can imagine might be a little useful as we start to interpret more and more types of circles,
+
+72
+00:05:03,913 --> 00:05:08,259
+When you give in degrees, you have to do math and you have to think about the circumference and all of that
+
+73
+00:05:08,259 --> 00:05:11,512
+To think about how many radiuses are subtending an angle.
+
+74
+00:05:11,512 --> 00:05:18,515
+Here the angle in radians tells you exactly how many arc length is subtending the angle.
+
+75
+00:05:18,515 --> 00:05:22,553
+So let's do a couple of broad experiments here.
+
+76
+00:05:22,553 --> 00:05:29,128
+So, given that what would be the angle in radians if we were to go,
+
+77
+00:05:29,128 --> 00:05:38,745
+so let me draw another circle here.....
+
+78
+00:05:38,745 --> 00:05:42,197
+that's the center, start right over there.
+
+79
+00:05:42,197 --> 00:05:46,977
+So what would happen if I had an angle, what angle if I were to measure in radian,
+
+80
+00:05:46,977 --> 00:05:52,316
+what angle would this be in radian? You can almost think of it as radiussssss.....
+
+81
+00:05:52,316 --> 00:05:55,199
+So what would that angle be? Going one full revolution,
+
+82
+00:05:55,199 --> 00:05:58,557
+In degrees that would be 360 degrees. What would you, based on this definition,
+
+83
+00:05:58,557 --> 00:06:01,585
+What would this be in radians?
+
+84
+00:06:01,585 --> 00:06:10,567
+Well, lets think about the arc that subtends this angle is the entire circumference of this circle.
+
+85
+00:06:10,567 --> 00:06:19,483
+Its the entire circumference of this circle.
+
+86
+00:06:19,483 --> 00:06:24,731
+Well what's the circumference of a circle in terms of radiussss?
+
+87
+00:06:24,731 --> 00:06:31,593
+So if this is length r, what's the circumference of the circle in terms of r?
+
+88
+00:06:31,593 --> 00:06:37,855
+Well we know that it's gonna be 2 pi r.
+
+89
+00:06:37,855 --> 00:06:43,485
+So going back to this angle, how many... whats the length of the arc that subtends this angle?
+
+90
+00:06:43,485 --> 00:06:48,108
+How many radiusss? Well, it's two pi radiussss....
+
+91
+00:06:48,108 --> 00:06:57,785
+Its two pi times r. So this angle right over here , this angle, I'll call this a different.. lets call this angle x.
+
+92
+00:06:57,785 --> 00:07:02,339
+x in this case is going to be two pi radians.
+
+93
+00:07:02,339 --> 00:07:08,607
+And it is subtended by an arc of length two pi radiussss....
+
+94
+00:07:08,607 --> 00:07:14,938
+If the radius was one unit then this would be two pi times one, two pi radiusss...
+
+95
+00:07:14,938 --> 00:07:23,780
+So, given that, lets start to think about how we can convert radians and degrees and vice versa.
+
+96
+00:07:23,780 --> 00:07:26,932
+If I were to have, and we can just follow up over here.
+
+97
+00:07:26,932 --> 00:07:38,370
+To do one full revolution, that is two pi radians, how many degrees is this going to be equal to?
+
+98
+00:07:38,370 --> 00:07:47,064
+Well we already know this. A full revolution in degrees is 360 degrees.
+
+99
+00:07:47,064 --> 00:07:50,077
+Well I could either write degrees or I could use this degree notation there,
+
+100
+00:07:50,077 --> 00:07:55,482
+Actually let me write the word degrees. It might make thing a bit clearer that we're kind of using units in both cases.
+
+101
+00:07:55,482 --> 00:08:00,070
+Now if we wanted to simplify this a little bit, we could divide both sides by 2,
+
+102
+00:08:00,070 --> 00:08:06,429
+in which case we would get on the left hand side, we would get pi radians would be equal to how many degrees?
+
+103
+00:08:06,429 --> 00:08:11,563
+Welll, it'd be equal to 180 degrees.
+
+104
+00:08:11,563 --> 00:08:20,049
+180 degrees and I could write it that way or I could write it that way.
+
+105
+00:08:20,049 --> 00:08:22,707
+And you see over here, this is a 180 degrees and
+
+106
+00:08:22,707 --> 00:08:29,863
+you also see if you were to draw a circle around here you've got halfway around the circle
+
+107
+00:08:29,863 --> 00:08:38,329
+so the arc length or the arc that subtends the angle is half the circumference, half the circumference or pi radiusss...
+
+108
+00:08:38,329 --> 00:08:41,853
+So we call this pi radians. pi radians is a 180 degrees.
+
+109
+00:08:41,853 --> 00:08:45,919
+And from this we can come up with conversions.
+
+110
+00:08:45,919 --> 00:08:50,590
+So one radian would be how many degrees?
+
+111
+00:08:50,590 --> 00:08:56,703
+Well to do that, we just have to divide both sides by pi and on the left hand side you'd be left with one,
+
+112
+00:08:56,703 --> 00:09:00,526
+I'll just write it singular now, one radian is equal to,
+
+113
+00:09:00,526 --> 00:09:04,862
+I'm just dividing both sides, let me make it clear what I'm doing here just to show you it not voodoo.
+
+114
+00:09:04,862 --> 00:09:10,131
+So, I'm just dividing both sides by pi here. On the left hand side we're left with one
+
+115
+00:09:10,131 --> 00:09:14,898
+and on the right hand side we're left with 180 over pi degrees.
+
+116
+00:09:14,898 --> 00:09:24,063
+So 1 radian = 180 over pi degrees.
+
+117
+00:09:24,063 --> 00:09:27,055
+Which is starting to make an interesting way to convert them.
+
+118
+00:09:27,055 --> 00:09:31,923
+Let's think about it the other way, if I were to have one degree, how many radians is that?
+
+119
+00:09:31,923 --> 00:09:38,125
+Well, let's start off with, let me rewrite this thing over here.
+
+120
+00:09:38,125 --> 00:09:50,125
+We said, pi radians is equal to 180 degrees.
+
+121
+00:09:50,125 --> 00:09:53,708
+So now we want to think about one degree. So let's solve for one degree,
+
+122
+00:09:53,708 --> 00:09:56,943
+we could divide both sides by 180.
+
+123
+00:09:56,943 --> 00:10:01,217
+We are left with pi over 180 radians is equal to 1 degree.
+
+124
+00:10:01,217 --> 00:10:10,590
+So pi over 180 radians is equal to one degree.
+
+125
+00:10:10,590 --> 00:10:13,977
+This might seem confusing and daunting and it was for me the first time ......
+
+126
+00:10:13,977 --> 00:10:17,212
+Specially because we're not exposed to this in our everyday life.
+
+127
+00:10:17,212 --> 00:10:20,987
+What we're gonna see over the next few examples is that as long as we keep in mind,
+
+128
+00:10:20,987 --> 00:10:25,395
+this whole idea that two pi radians is equal to 360 degrees or pi radians is equal to 180 degrees,
+
+129
+00:10:25,395 --> 00:10:29,134
+which is the two things that I do keep in my mind.
+
+130
+00:10:29,134 --> 00:10:32,119
+We can always re derive these two things.
+
+131
+00:10:32,119 --> 00:10:35,872
+You might say, "Hey how do I remember if its pi over 180 or 180 over pi?"
+
+132
+00:10:35,872 --> 00:10:42,940
+To convert the two things, well just remember and which is hopefully intuitive that two pi radians = 360 degrees.
+
+133
+00:10:42,940 --> 00:10:45,539
+And we'll work through a bunch of examples in the next video,
+
+134
+00:10:45,539 --> 00:10:49,539
+to just make sure that we're used to converting one way or the other. ENDSs.

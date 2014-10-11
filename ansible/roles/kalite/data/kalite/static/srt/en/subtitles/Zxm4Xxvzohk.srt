@@ -1,0 +1,372 @@
+1
+00:00:01,701 --> 00:00:04,794
+Consider the following story:
+
+2
+00:00:04,794 --> 00:00:07,379
+Bob is in the room and he has two coins.
+
+3
+00:00:07,379 --> 00:00:12,846
+One fair coin and one double-sided coin.
+
+4
+00:00:12,846 --> 00:00:16,586
+He picks one at random,
+
+5
+00:00:16,586 --> 00:00:19,484
+flips it,
+
+6
+00:00:19,484 --> 00:00:22,857
+and shouts the result. "Heads!"
+
+7
+00:00:22,857 --> 00:00:27,263
+Now what is the probability 
+that he flipped the fair coin?
+
+8
+00:00:27,263 --> 00:00:29,375
+To answer this question, we need only
+
+9
+00:00:29,375 --> 00:00:32,507
+rewind and grow a tree.
+
+10
+00:00:32,507 --> 00:00:35,593
+The first event he picks one of two coins.
+
+11
+00:00:35,593 --> 00:00:37,738
+So our tree grows two branches
+
+12
+00:00:37,738 --> 00:00:39,822
+leading to two equally likely outcomes -
+
+13
+00:00:39,822 --> 00:00:42,291
+fair or unfair.
+
+14
+00:00:42,291 --> 00:00:46,082
+The next event, he flips the coin, we grow again.
+
+15
+00:00:46,082 --> 00:00:48,197
+If he had the fair coin, we know this flip can result
+
+16
+00:00:48,197 --> 00:00:50,272
+in two equally likely outcomes -
+
+17
+00:00:50,272 --> 00:00:52,171
+heads and tails.
+
+18
+00:00:52,171 --> 00:00:56,610
+While the unfair coin results in 
+two outcomes - both heads.
+
+19
+00:00:56,610 --> 00:00:58,488
+Our tree is finished.
+
+20
+00:00:58,488 --> 00:00:59,983
+And we see it has four leaves,
+
+21
+00:00:59,983 --> 00:01:02,494
+representing four equally likely outcomes.
+
+22
+00:01:02,494 --> 00:01:05,490
+The final step - new evidence.
+
+23
+00:01:05,490 --> 00:01:07,484
+He says: "Heads!"
+
+24
+00:01:07,484 --> 00:01:11,008
+Whenever we gain evidence, 
+we must trim our tree.
+
+25
+00:01:11,008 --> 00:01:12,978
+We cut any branch leading to tails
+
+26
+00:01:12,978 --> 00:01:15,634
+because we know tails did not occur.
+
+27
+00:01:15,634 --> 00:01:16,850
+And that is it.
+
+28
+00:01:16,850 --> 00:01:19,945
+So the probability that he chose the fair coin
+
+29
+00:01:19,945 --> 00:01:22,684
+is the one fair outcome leading to heads
+
+30
+00:01:22,684 --> 00:01:26,237
+divided by the three possible
+outcomes leading to heads
+
+31
+00:01:26,237 --> 00:01:29,801
+or - one-third.
+
+32
+00:01:29,801 --> 00:01:31,633
+What happens if he flips again
+
+33
+00:01:31,633 --> 00:01:34,214
+and reports: "Heads!" ?
+
+34
+00:01:34,214 --> 00:01:37,515
+Remember, after each event our tree grows.
+
+35
+00:01:37,515 --> 00:01:40,857
+The fair coins leaves result in
+two equally likely outcomes -
+
+36
+00:01:40,857 --> 00:01:43,089
+heads and tails.
+
+37
+00:01:43,089 --> 00:01:47,004
+The unfair coin leaves result 
+in two equally likely outcomes -
+
+38
+00:01:47,004 --> 00:01:49,311
+heads and heads.
+
+39
+00:01:49,311 --> 00:01:53,077
+After we hear the second "Heads!",
+
+40
+00:01:53,077 --> 00:01:55,860
+we cut any braches leading to tails.
+
+41
+00:01:55,860 --> 00:01:59,064
+Therefore the probability the coin is fair
+
+42
+00:01:59,064 --> 00:02:01,122
+after two heads in a row
+
+43
+00:02:01,122 --> 00:02:03,578
+is the one fair outcome leading to heads,
+
+44
+00:02:03,578 --> 00:02:09,348
+divided by all possible outcomes leading to heads.
+
+45
+00:02:09,348 --> 00:02:11,880
+Or - one-fifth.
+
+46
+00:02:11,880 --> 00:02:14,020
+Notice our confindence in the fair coins is dropping
+
+47
+00:02:14,020 --> 00:02:15,769
+as more heads occur -
+
+48
+00:02:15,769 --> 00:02:19,201
+though, realize it will never reach zero.
+
+49
+00:02:19,201 --> 00:02:20,817
+No matter how many flips occur,
+
+50
+00:02:20,817 --> 00:02:26,641
+we can be never be 100 % certain the coin is unfair.
+
+51
+00:02:26,641 --> 00:02:32,473
+In fact, all conditional probability questions 
+can be solved by growing trees.
+
+52
+00:02:32,473 --> 00:02:34,808
+Lets do one more to be sure.
+
+53
+00:02:34,808 --> 00:02:36,931
+Bob has three coins.
+
+54
+00:02:36,931 --> 00:02:43,613
+Two are fair.
+
+55
+00:02:43,613 --> 00:02:48,471
+One is biased - which is weighted to land
+
+56
+00:02:48,471 --> 00:02:50,700
+heads two-thirds of the time, and tails one-third.
+
+57
+00:02:50,700 --> 00:02:57,399
+He choses the coin at random, and flips it.
+
+58
+00:02:57,399 --> 00:02:58,751
+"Heads!"
+
+59
+00:02:58,751 --> 00:03:03,446
+Now, what is the probability he chose the biased coin?
+
+60
+00:03:03,446 --> 00:03:07,156
+Lets rewind and build a tree.
+
+61
+00:03:07,156 --> 00:03:09,969
+The first event - choosing the coin -
+
+62
+00:03:09,969 --> 00:03:12,970
+can lead to three equally likely outcomes:
+
+63
+00:03:12,970 --> 00:03:16,342
+fair coin, fair coin and unfair coin.
+
+64
+00:03:16,342 --> 00:03:20,789
+The next event, the coin is flipped.
+
+65
+00:03:20,789 --> 00:03:24,625
+Each fair coin leads to two equally likely leaves -
+
+66
+00:03:24,625 --> 00:03:27,729
+heads and tails.
+
+67
+00:03:27,729 --> 00:03:31,852
+The biased coin leads to three equally likely leaves -
+
+68
+00:03:31,852 --> 00:03:37,012
+two representing heads, and one representing tails.
+
+69
+00:03:37,012 --> 00:03:40,657
+Now the trick is to always make sure our tree is balanced _
+
+70
+00:03:40,657 --> 00:03:44,796
+meaning an equal amount of leaves growing out of each branch.
+
+71
+00:03:44,796 --> 00:03:50,266
+To do this, we simply scale up the number 
+of branches to the least common multiple.
+
+72
+00:03:50,266 --> 00:03:52,979
+For two and three, this is six.
+
+73
+00:04:01,165 --> 00:04:03,429
+And finally we label our leaves.
+
+74
+00:04:03,429 --> 00:04:06,792
+The fair coin now splits into 
+six equally likely leaves -
+
+75
+00:04:06,792 --> 00:04:09,238
+three heads and three tails.
+
+76
+00:04:09,238 --> 00:04:13,578
+For the biased coin, we now have 
+two tail leaves and four head leaves -
+
+77
+00:04:13,578 --> 00:04:15,238
+and that is it.
+
+78
+00:04:16,545 --> 00:04:19,698
+When Bob shouts the result, "Heads!",
+
+79
+00:04:19,698 --> 00:04:24,120
+this new evindence allows us 
+to trim all branches leading to tails,
+
+80
+00:04:24,120 --> 00:04:26,600
+since tails did not occur.
+
+81
+00:04:26,600 --> 00:04:32,317
+So the probability that he chose 
+the biased coin, given heads occur?
+
+82
+00:04:32,317 --> 00:04:35,597
+Well, four leaves can come from the biased coin,
+
+83
+00:04:35,597 --> 00:04:39,270
+divided by all possible leaves.
+
+84
+00:04:39,270 --> 00:04:43,456
+Four divided by ten - or 40%.
+
+85
+00:04:43,456 --> 00:04:46,337
+When in doubt, it's always possible to answer
+
+86
+00:04:46,337 --> 00:04:49,965
+conditional probability questions by base theorem.
+
+87
+00:04:49,965 --> 00:04:52,477
+It tells us the probability of event A
+
+88
+00:04:52,477 --> 00:04:55,193
+given some new evidence B.
+
+89
+00:04:55,193 --> 00:04:57,805
+Though if you forgot it, no worries.
+
+90
+00:04:57,805 --> 00:05:01,805
+You need only know how to grow 
+stories with trimmed trees.

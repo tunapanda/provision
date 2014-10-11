@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:06,460
+I'm going to do a quick argument or proof, as to why the diagonals of a rhombus are perpendicular.
+
+2
+00:00:06,521 --> 00:00:12,252
+So remember, a rhombus is just a parallelogram, where all four sides are equal.
+
+3
+00:00:12,268 --> 00:00:17,918
+In fact, if all four sides are equal, it has to be a parallelogram. Just to make things clear,
+
+4
+00:00:17,979 --> 00:00:22,668
+some rhombuses are squares, but not all of them, because you could have a rhombus like this,
+
+5
+00:00:22,668 --> 00:00:29,231
+that comes in where the angles aren't 90°. But squares are rhombuses, because all squares
+
+6
+00:00:29,231 --> 00:00:34,071
+they have 90° angles, that's not what makes them a rhombus, but all of the sides are equal.
+
+7
+00:00:34,071 --> 00:00:39,502
+So all squares are rhombuses, but not all rhombuses are squares. Now, with that said,
+
+8
+00:00:39,502 --> 00:00:43,940
+let's think about the diagonals of a rhombus, to think about that a little bit clearer,
+
+9
+00:00:44,002 --> 00:00:47,056
+I'm going to draw the dia- I'm going to draw the rhombus really as kind of,
+
+10
+00:00:47,056 --> 00:00:50,448
+I'm going to rotate it a little bit, so it looks a little bit like a diamond shape.
+
+11
+00:00:50,756 --> 00:00:56,687
+But notice, I'm not really changing the properties of the rhombus, I'm just changing
+
+12
+00:00:56,687 --> 00:01:01,033
+its orientation a little bit. I'm just changing its orientation.
+
+13
+00:01:01,079 --> 00:01:07,940
+So, a rhombus, by definition, the four sides are going to be equal. Now, let me draw one of its
+
+14
+00:01:07,973 --> 00:01:10,965
+diagonals, and the way I drew it right here is kind of a diamond.
+
+15
+00:01:11,042 --> 00:01:15,480
+One of its diagonals will be right along the horizontal, right like that.
+
+16
+00:01:15,557 --> 00:01:19,776
+Now this triangle on the top and the triangle on the bottom both share this side.
+
+17
+00:01:19,853 --> 00:01:23,406
+So that side is obviously is going to be the same length for both of these triangles.
+
+18
+00:01:23,537 --> 00:01:28,299
+In the other two sides of the triangles are also the same thing, they're sides of the actual rhombus.
+
+19
+00:01:28,299 --> 00:01:32,991
+So all three sides of this top triangle and the bottom triangle are the same.
+
+20
+00:01:33,160 --> 00:01:37,637
+So this top triangle and this bottom triangle are congruent.
+
+21
+00:01:37,660 --> 00:01:42,283
+They are congruent triangles. If you go back to your 9th grade Geometry unit, you'd use
+
+22
+00:01:42,283 --> 00:01:48,013
+the Side-Side-Side (SSS) theorem: if three sides are congruent, then the triangles themselves are congruent.
+
+23
+00:01:48,152 --> 00:01:53,960
+That also means all of the angles in the triangle are congruent. So the angle that is opposite this side,
+
+24
+00:01:53,960 --> 00:02:01,060
+this shared side, right over here will be congruent to the corresponding angle in the other triangle.
+
+25
+00:02:01,060 --> 00:02:07,990
+The angle opposite this side would be the same thing as that. Now, both of these triangles are also
+
+26
+00:02:07,990 --> 00:02:13,052
+isosceles triangles, so their base angles are going to be the same. So that's one base
+
+27
+00:02:13,052 --> 00:02:17,290
+angle, that's the other base angle. This is an upside down isosceles triangle,
+
+28
+00:02:17,290 --> 00:02:23,113
+this is a right-side-up one. And so, if these two are the same then these are also going to be the same.
+
+29
+00:02:23,113 --> 00:02:26,567
+They are going to be the same to each other, because this is an isosceles triangle.
+
+30
+00:02:26,567 --> 00:02:30,960
+And, they're also going to be the same to these other characters, down here, because these are
+
+31
+00:02:30,960 --> 00:02:38,138
+congruent triangles. Now, if we take an altitude... No, actually I don't have to talk about that
+
+32
+00:02:38,138 --> 00:02:42,846
+since, I don't think that will be relevant when we actually prove what we want to prove.
+
+33
+00:02:42,846 --> 00:02:50,077
+If we take an altitude from each of these vertices, down to this side, so an altitude by definition.
+
+34
+00:02:50,077 --> 00:02:58,862
+An altitude by definition is going to be perpendicular down here. Now, an isosceles triangle is perfectly
+
+35
+00:02:58,862 --> 00:03:05,269
+symmetrical. If you drop an altitude from the the top, or the unique angle, or the unique vertex
+
+36
+00:03:05,269 --> 00:03:11,800
+in an isosceles triangle you will split it into two symmetric right triangles. Two right triangles
+
+37
+00:03:11,800 --> 00:03:21,785
+that are essentially the mirror images of each other. You will also bisect the opposite side.
+
+38
+00:03:22,062 --> 00:03:26,518
+This altitude is, in fact, a median of the triangle. Now, we could do it on the other side,
+
+39
+00:03:26,703 --> 00:03:37,518
+the same exact thing is going to happen. We are bisecting this side over here, this is a right angle.
+
+40
+00:03:37,918 --> 00:03:42,881
+And so essentially, the combination of these two altitudes is really just a diagonal of
+
+41
+00:03:42,912 --> 00:03:47,789
+this rhombus, and it's at a right angle to the other diagonal of the rhombus.
+
+42
+00:03:47,804 --> 00:03:53,593
+And it bisects that other diagonal of the rhombus. We can make the exact same argument over here.
+
+43
+00:03:53,593 --> 00:04:02,654
+You could think of an isosceles triangle, over here. This is an altitude of it, it splits it into
+
+44
+00:04:02,654 --> 00:04:08,920
+two symmetric right triangles, it bisects the opposite side, it's essentially a median of that triangle.
+
+45
+00:04:08,920 --> 00:04:16,436
+Any isosceles triangle, of that side equal to that side, if you drop an altitude, these two triangles are
+
+46
+00:04:16,436 --> 00:04:23,261
+going to be symmetric, and you will have bisected the opposite side. So, by the same argument, that side
+
+47
+00:04:23,261 --> 00:04:30,326
+is equal to that side. So the two diagonals of any rhombus are perpendicular to each other
+
+48
+00:04:30,372 --> 00:04:36,795
+and they bisect each other. Anyway, hopefully you found that useful.

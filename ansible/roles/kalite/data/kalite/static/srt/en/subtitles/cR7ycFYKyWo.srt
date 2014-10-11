@@ -1,0 +1,751 @@
+1
+00:00:07,669 --> 00:00:09,442
+What I want to do in this video
+
+2
+00:00:09,442 --> 00:00:10,862
+is think a little bit about
+
+3
+00:00:10,862 --> 00:00:14,711
+how the unemployment rate is actually computed
+
+4
+00:00:14,711 --> 00:00:16,977
+by the bureau of labor statistics.
+
+5
+00:00:16,977 --> 00:00:18,597
+So to figure that out, let's just start off
+
+6
+00:00:18,597 --> 00:00:22,992
+with the entire US population. So let me
+
+7
+00:00:22,992 --> 00:00:27,976
+draw a big circle here that represents the entire US population.
+
+8
+00:00:27,976 --> 00:00:33,293
+US population, and right now, if my numbers are correct
+
+9
+00:00:33,293 --> 00:00:39,509
+the latest numbers are 304,000,000 people.
+
+10
+00:00:39,509 --> 00:00:45,008
+Now, not all of those 304 million people are capable of working
+
+11
+00:00:45,008 --> 00:00:49,659
+including my 2 1/2 year old son, or my new born daughter,
+
+12
+00:00:49,659 --> 00:00:52,109
+so, you have to think, when you think of unemployment
+
+13
+00:00:52,109 --> 00:00:55,859
+you want to think about the percentage of these people that are actually old enough
+
+14
+00:00:55,859 --> 00:00:59,144
+to work, that actually can be employed theoretically.
+
+15
+00:00:59,144 --> 00:01:02,193
+So let's take a subset of that US population
+
+16
+00:01:02,193 --> 00:01:04,223
+and let's think about who's essentially an adult
+
+17
+00:01:04,223 --> 00:01:05,920
+who's working age?
+
+18
+00:01:05,920 --> 00:01:09,959
+So this subset right over here is 16 years
+
+19
+00:01:09,959 --> 00:01:14,100
+and older. So people who can legally work
+
+20
+00:01:14,100 --> 00:01:17,959
+and the numbers I have here, this is 100
+
+21
+00:01:17,959 --> 00:01:24,634
+sorry, this right here is 237,000,000 people
+
+22
+00:01:24,649 --> 00:01:28,859
+Now, we can't just say all of these people could possibly work
+
+23
+00:01:28,859 --> 00:01:30,645
+because a lot of them are in college
+
+24
+00:01:30,645 --> 00:01:33,643
+some of them are in high school, some of them might not have
+
+25
+00:01:33,643 --> 00:01:36,232
+the ability to work, some of them might be retired,
+
+26
+00:01:36,232 --> 00:01:37,796
+so what we want to do is take a subset of this
+
+27
+00:01:37,796 --> 00:01:40,976
+population that is essentially you could say,
+
+28
+00:01:40,976 --> 00:01:44,597
+part of the labor force, in that they are working
+
+29
+00:01:44,597 --> 00:01:48,277
+or they are actively looking for work.
+
+30
+00:01:48,277 --> 00:01:51,743
+Let me draw that right over here.
+
+31
+00:01:51,743 --> 00:01:57,026
+So this right over here is the labor force.
+
+32
+00:01:57,026 --> 00:02:00,318
+So these are not retirees, or people who are in college
+
+33
+00:02:00,318 --> 00:02:02,459
+those people would be sitting right over there
+
+34
+00:02:02,459 --> 00:02:04,509
+assuming they are 16 years or older.
+
+35
+00:02:04,509 --> 00:02:11,893
+The labor force, this is working and actively looking for work
+
+36
+00:02:11,893 --> 00:02:15,376
+and we'll think about what actively looking for work means
+
+37
+00:02:15,376 --> 00:02:17,226
+in a little bit more depth in a few minutes.
+
+38
+00:02:17,226 --> 00:02:22,810
+Actively looking for work.
+
+39
+00:02:22,810 --> 00:02:25,394
+And that number, if my numbers are correct,
+
+40
+00:02:25,394 --> 00:02:27,535
+is right around 154,000,000. Although the numbers
+
+41
+00:02:27,535 --> 00:02:29,690
+here are not so important, the more important thing
+
+42
+00:02:29,690 --> 00:02:33,709
+is the idea of how the unemployment rate itself is calculated.
+
+43
+00:02:33,709 --> 00:02:36,943
+And then so within the labor force, you have a subset
+
+44
+00:02:36,943 --> 00:02:39,462
+So this is working and actively looking for work.
+
+45
+00:02:39,462 --> 00:02:44,904
+So you have a subset of the labor force that is actively looking for work.
+
+46
+00:02:44,904 --> 00:02:47,801
+So they don't have a job, but they're actively looking.
+
+47
+00:02:47,801 --> 00:02:54,645
+So this right here is unemployed
+
+48
+00:02:54,645 --> 00:02:58,776
+and actively looking, this actively looking
+
+49
+00:02:58,776 --> 00:03:02,942
+is probably more important than you might realize at first.
+
+50
+00:03:02,942 --> 00:03:05,442
+And this number, let's just say for the sake of argument
+
+51
+00:03:05,442 --> 00:03:09,644
+this is sitting around 15,000,000 people.
+
+52
+00:03:09,644 --> 00:03:13,060
+So if you have a job, you're right over here,
+
+53
+00:03:13,060 --> 00:03:16,042
+if you don't have a job, but are actively looking
+
+54
+00:03:16,042 --> 00:03:18,042
+you're going to be right over here.
+
+55
+00:03:18,042 --> 00:03:19,792
+What we're going to see in a little bit is
+
+56
+00:03:19,792 --> 00:03:23,176
+if you have, if you don't have a job, but you are
+
+57
+00:03:23,176 --> 00:03:25,259
+not actively looking, you could be working
+
+58
+00:03:25,259 --> 00:03:28,644
+you would actually be sitting out here.
+
+59
+00:03:28,644 --> 00:03:30,894
+This is going to be interesting when we think of trends
+
+60
+00:03:30,894 --> 00:03:33,688
+and the unemployment rate, when it goes up or down.
+
+61
+00:03:33,688 --> 00:03:36,175
+But just to see how the unemployment is calculated
+
+62
+00:03:36,175 --> 00:03:38,143
+let's use, let's do it for this example.
+
+63
+00:03:38,143 --> 00:03:45,844
+So the unemployment rate
+
+64
+00:03:45,844 --> 00:03:50,060
+is literally just the number of unemployed,
+
+65
+00:03:50,060 --> 00:03:52,977
+over the entire labor force.
+
+66
+00:03:52,977 --> 00:03:55,042
+So in this situation, it would be
+
+67
+00:03:55,042 --> 00:03:58,958
+15,000,000, so that's just the number of unemployed
+
+68
+00:03:58,958 --> 00:04:02,793
+and actively looking, over the entire labor force
+
+69
+00:04:02,793 --> 00:04:10,042
+Over 154,000,000. So if we get my handy TI 85 out
+
+70
+00:04:10,042 --> 00:04:13,092
+that gives us in this example right over here
+
+71
+00:04:13,092 --> 00:04:19,259
+and unemployment rate of 15 divided by 154 million.
+
+72
+00:04:19,259 --> 00:04:25,359
+So it's about 9.7, if we write it as a decimal, it would be 0.097
+
+73
+00:04:25,359 --> 00:04:28,742
+if we write it as a percentage, this would be 9.7%
+
+74
+00:04:28,742 --> 00:04:35,825
+so this is approximately 9.7%.
+
+75
+00:04:35,825 --> 00:04:39,126
+Now I told you that the details are going to be important
+
+76
+00:04:39,126 --> 00:04:41,543
+And the reason why they are is interesting things happen
+
+77
+00:04:41,543 --> 00:04:44,143
+when people stop looking for work, or when they
+
+78
+00:04:44,143 --> 00:04:46,592
+start looking for work.
+
+79
+00:04:46,592 --> 00:04:49,585
+So I said "unemployed and actively looking"
+
+80
+00:04:49,585 --> 00:04:51,359
+puts you in this bucket over here.
+
+81
+00:04:51,359 --> 00:04:52,645
+If you're unemployed, if you don't have a job
+
+82
+00:04:52,645 --> 00:04:54,259
+and you're not actively looking
+
+83
+00:04:54,259 --> 00:04:56,560
+you're actually not in the labor force.
+
+84
+00:04:56,560 --> 00:04:59,395
+And so you might be saying, "Sal, what does it mean
+
+85
+00:04:59,395 --> 00:05:01,775
+to be actively looking for work?"
+
+86
+00:05:01,775 --> 00:05:04,226
+And this means that you've looked for a job
+
+87
+00:05:04,226 --> 00:05:06,309
+or you're actively searching in the past
+
+88
+00:05:06,309 --> 00:05:08,909
+We'll do this in a new color
+
+89
+00:05:08,909 --> 00:05:13,861
+in the past 4 weeks
+
+90
+00:05:13,861 --> 00:05:19,459
+And you might say "Sal, how do they know whether these 15 million people,
+
+91
+00:05:19,459 --> 00:05:23,473
+have actively searched for jobs in the past 4 weeks?"
+
+92
+00:05:23,473 --> 00:05:25,155
+And the answer is they do a survey.
+
+93
+00:05:25,155 --> 00:05:28,459
+They're not going to survey every human being in the labor force
+
+94
+00:05:28,459 --> 00:05:30,311
+or the US population, or all 15 million
+
+95
+00:05:30,311 --> 00:05:33,759
+that are unemployed, that would be logistically impossible
+
+96
+00:05:33,759 --> 00:05:35,310
+what they do is they do a survey
+
+97
+00:05:35,310 --> 00:05:38,559
+and right now they do about 60,000 every month
+
+98
+00:05:38,559 --> 00:05:40,227
+and they essentially ask them,
+
+99
+00:05:40,227 --> 00:05:41,093
+are you employed?
+
+100
+00:05:41,093 --> 00:05:41,978
+are you unemployed?
+
+101
+00:05:41,978 --> 00:05:44,525
+if you are unemployed, have you looked for a job
+
+102
+00:05:44,525 --> 00:05:46,477
+in the past 4 weeks?
+
+103
+00:05:46,477 --> 00:05:48,560
+If you have looked for a job in the past 4 weeks
+
+104
+00:05:48,560 --> 00:05:51,394
+as an unemployed person, you'd get thrown into this bucket
+
+105
+00:05:51,394 --> 00:05:54,106
+right here, you're actively looking, you're still part of the labor force
+
+106
+00:05:54,106 --> 00:05:57,643
+but if you've got so discouraged that you're no longer
+
+107
+00:05:57,643 --> 00:06:00,543
+looking for work, maybe you've given up
+
+108
+00:06:00,543 --> 00:06:02,876
+then you get thrown out of here, you get thrown
+
+109
+00:06:02,876 --> 00:06:07,959
+out of the labor force. And that is what most people
+
+110
+00:06:07,959 --> 00:06:10,343
+don't realize, when things get bad enough
+
+111
+00:06:10,343 --> 00:06:11,965
+and people get really discouraged,
+
+112
+00:06:11,965 --> 00:06:14,317
+you have people not going,
+
+113
+00:06:14,317 --> 00:06:17,679
+you have people actually exiting the entire labor force
+
+114
+00:06:17,679 --> 00:06:19,644
+and see how that affects the numbers
+
+115
+00:06:19,644 --> 00:06:22,310
+imagine a situation, so this is the unemployment rate
+
+116
+00:06:22,310 --> 00:06:25,526
+right now, there's 15,000,000 who are unemployed
+
+117
+00:06:25,526 --> 00:06:28,358
+and actively looking for work. Let's say that this
+
+118
+00:06:28,358 --> 00:06:30,709
+is just a horrible recession or depression
+
+119
+00:06:30,709 --> 00:06:33,776
+and 5,000,000 of these people get so
+
+120
+00:06:33,776 --> 00:06:36,993
+discouraged, they don't, in the last 4 weeks
+
+121
+00:06:36,993 --> 00:06:39,108
+they do not look for work anymore.
+
+122
+00:06:39,108 --> 00:06:42,409
+So they've maybe stopped altogether or they want to take a break
+
+123
+00:06:42,409 --> 00:06:45,377
+so what we're gonna do, is we're going to take
+
+124
+00:06:45,377 --> 00:06:48,426
+5,000,000 people out of this bucket over here,
+
+125
+00:06:48,426 --> 00:06:51,358
+so we're going to take 5,000,000 people and move them
+
+126
+00:06:51,358 --> 00:06:54,678
+out over here. Outside of the labor force.
+
+127
+00:06:54,678 --> 00:06:56,626
+If you did that what happens?
+
+128
+00:06:56,626 --> 00:07:00,175
+Well now, the number, the official unemployed number
+
+129
+00:07:00,175 --> 00:07:04,101
+is now going to be 10,000,000
+
+130
+00:07:04,101 --> 00:07:06,292
+and what's the labor force number?
+
+131
+00:07:06,292 --> 00:07:09,608
+Remember, they went completely out of this green circle over here
+
+132
+00:07:09,608 --> 00:07:11,226
+So they also left the labor force,
+
+133
+00:07:11,226 --> 00:07:16,026
+so the labor force number is now 149,000,000
+
+134
+00:07:16,026 --> 00:07:20,743
+So in this bad situation, where people have left the labor force
+
+135
+00:07:20,743 --> 00:07:23,893
+the unemployment rate would now be 10 million people
+
+136
+00:07:23,893 --> 00:07:26,042
+unemployed and actively looking for work
+
+137
+00:07:26,042 --> 00:07:29,810
+over a labor force of 149,000,000.
+
+138
+00:07:29,810 --> 00:07:32,926
+The labor force has shrunk because they're so discouraged
+
+139
+00:07:32,926 --> 00:07:35,811
+so what do we get there as our unemployment rate?
+
+140
+00:07:35,811 --> 00:07:40,493
+We have 10 divided by 149
+
+141
+00:07:40,493 --> 00:07:44,008
+it gives us 6.7%
+
+142
+00:07:44,008 --> 00:07:47,943
+So this is fascinating, if things get bad enough
+
+143
+00:07:47,943 --> 00:07:50,609
+and people actually exit the labor force
+
+144
+00:07:50,609 --> 00:07:53,425
+then the unemployment rate could actually go down
+
+145
+00:07:53,425 --> 00:07:56,059
+because the labor force is shrinking.
+
+146
+00:07:56,059 --> 00:07:57,654
+The other thing could also happen,
+
+147
+00:07:57,654 --> 00:08:01,358
+maybe things get really good and you have
+
+148
+00:08:01,358 --> 00:08:06,708
+10,000,000 people who are sitting out here
+
+149
+00:08:06,708 --> 00:08:08,709
+they're either marginally attached to workers,
+
+150
+00:08:08,709 --> 00:08:11,376
+which are people who are hoping to get a job,
+
+151
+00:08:11,376 --> 00:08:13,227
+but haven't looked for a job in the past 4 weeks
+
+152
+00:08:13,227 --> 00:08:15,175
+or they could be discouraged workers
+
+153
+00:08:15,175 --> 00:08:19,209
+who would mind working, but they've given up altogether looking
+
+154
+00:08:19,209 --> 00:08:21,726
+but you can imagine when the economy gets good
+
+155
+00:08:21,726 --> 00:08:23,676
+let's say we're starting from this baseline
+
+156
+00:08:23,676 --> 00:08:25,727
+here, the economy gets good, and all these people
+
+157
+00:08:25,727 --> 00:08:28,560
+who are unemployed, but not part of the labor force,
+
+158
+00:08:28,560 --> 00:08:31,893
+all of a sudden start looking for work.
+
+159
+00:08:31,893 --> 00:08:34,700
+So then they'd be part of the official unemployed
+
+160
+00:08:34,700 --> 00:08:39,109
+So 10,000,000 would grow to 20,000,000
+
+161
+00:08:39,109 --> 00:08:41,609
+So now this number is 20 million, and this green area
+
+162
+00:08:41,609 --> 00:08:43,859
+would go up by 10 million,
+
+163
+00:08:43,859 --> 00:08:46,227
+so now this would be 159 million,
+
+164
+00:08:46,227 --> 00:08:49,125
+so in this situation, the official unemployed would be
+
+165
+00:08:49,125 --> 00:08:52,625
+20 million, and the entire labor force would be
+
+166
+00:08:52,625 --> 00:08:57,760
+159 million, and now you get a situation
+
+167
+00:08:57,760 --> 00:09:02,844
+so you have 20 divided by 159 million,
+
+168
+00:09:02,844 --> 00:09:07,188
+which is 12.6%
+
+169
+00:09:07,188 --> 00:09:09,744
+Approximately 12.6%
+
+170
+00:09:09,744 --> 00:09:11,276
+So the whole point of this video,
+
+171
+00:09:11,276 --> 00:09:12,894
+I'm not saying that the unemployment rate is
+
+172
+00:09:12,894 --> 00:09:14,644
+the way it's calculated is wrong, or that it's
+
+173
+00:09:14,644 --> 00:09:16,276
+supposed to be misleading,
+
+174
+00:09:16,276 --> 00:09:18,644
+I just want to give you a little bit of nuance
+
+175
+00:09:18,644 --> 00:09:21,144
+that it doesn't always give the complete picture
+
+176
+00:09:21,144 --> 00:09:23,059
+in particular, that one number, just this
+
+177
+00:09:23,059 --> 00:09:24,976
+and there's other unemployment rates that give
+
+178
+00:09:24,976 --> 00:09:26,694
+a little bit more nuance here, but this one
+
+179
+00:09:26,694 --> 00:09:30,042
+headline unemployment rate that's typically given on the news
+
+180
+00:09:30,042 --> 00:09:32,792
+doesn't capture the whole story, in particular
+
+181
+00:09:32,792 --> 00:09:35,292
+it doesn't capture the people who might be exiting
+
+182
+00:09:35,292 --> 00:09:38,676
+the labor force when things are bad, so in that situation
+
+183
+00:09:38,676 --> 00:09:40,279
+the unemployment rate would probably be
+
+184
+00:09:40,279 --> 00:09:43,125
+understating how bad things are.
+
+185
+00:09:43,125 --> 00:09:46,309
+And it also doesn't capture the people who are entering the labor force
+
+186
+00:09:46,309 --> 00:09:48,101
+in that situation the unemployment rate
+
+187
+00:09:48,101 --> 00:09:50,523
+would probably make things look worse than they are
+
+188
+00:09:50,523 --> 00:09:52,823
+when things might actually be improving.

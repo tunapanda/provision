@@ -1,0 +1,403 @@
+1
+00:00:00,000 --> 00:00:06,162
+Solve this system. And here we have three equations with three unknowns.
+
+2
+00:00:06,162 --> 00:00:08,625
+And just so you have a way to visualize this,
+
+3
+00:00:08,625 --> 00:00:11,852
+each of these equations would actually be a plane in three dimensions.
+
+4
+00:00:11,852 --> 00:00:15,921
+And so you're actually trying to figure out where three planes in three dimensions intersect.
+
+5
+00:00:15,921 --> 00:00:18,867
+I won't go into the details here, I'll focus more on the mechanics,
+
+6
+00:00:18,867 --> 00:00:22,800
+but you can imagine if I were to draw a three dimensional space over here.
+
+7
+00:00:22,800 --> 00:00:28,667
+Now all of a sudden we'll have an x, y, and z axes.
+
+8
+00:00:28,667 --> 00:00:31,123
+So you can imagine that maybe this first plane
+
+9
+00:00:31,123 --> 00:00:33,133
+and I'm not drawing it the may it might actually look.
+
+10
+00:00:33,133 --> 00:00:35,733
+It might look something like that. (I'm just drawing part of the plane.)
+
+11
+00:00:35,733 --> 00:00:38,733
+And maybe this plane over here.
+
+12
+00:00:38,733 --> 00:00:46,200
+It intersects right over there and it comes popping out like this and then it goes behind it like that.
+
+13
+00:00:46,200 --> 00:00:48,867
+It keeps going in every direction, I'm just drawing part of the plane.
+
+14
+00:00:48,867 --> 00:00:52,800
+And maybe this plane over here, maybe it does something like this.
+
+15
+00:00:52,800 --> 00:00:56,200
+Maybe it intersects over here and over here.
+
+16
+00:00:56,200 --> 00:01:00,933
+And so it pops out like that and then it goes below it like that
+
+17
+00:01:00,933 --> 00:01:04,400
+and then it goes like that. I'm just doing this for visualization purposes.
+
+18
+00:01:04,400 --> 00:01:08,800
+And so the intersection of this plane - the x, y and z coordinates that would satisfy
+
+19
+00:01:08,800 --> 00:01:13,067
+all three of these constraints the way I drew them - would be right over here.
+
+20
+00:01:13,067 --> 00:01:19,333
+So that's what we're looking for. And a lot of times these three equations with three unknown systems
+
+21
+00:01:19,333 --> 00:01:25,400
+will be inconsistent. You won't have a solution here, because it's very possible to have three planes
+
+22
+00:01:25,400 --> 00:01:29,467
+that all don't intersect in one place. A very simple example of that is
+
+23
+00:01:29,467 --> 00:01:33,800
+well, one, they could all be parallel to each other, or they could intersect each other but maybe they
+
+24
+00:01:33,800 --> 00:01:41,467
+intersect each other in kind of a triangle, so maybe one plane looks like that, then another plane maybe
+
+25
+00:01:41,467 --> 00:01:48,800
+pops out like that, goes underneath. And then maybe the third plane cuts in.
+
+26
+00:01:48,800 --> 00:01:52,333
+It does something like this: where it goes into that plane
+
+27
+00:01:52,333 --> 00:01:56,933
+and keeps going out like that, but it intersects this plane over here.
+
+28
+00:01:56,933 --> 00:02:01,067
+So you see kind of forms a triangle and they don't all intersect in one point
+
+29
+00:02:01,067 --> 00:02:05,200
+so in this situation, you would have an inconsistent system. So with that out of the way, let's try to
+
+30
+00:02:05,200 --> 00:02:11,467
+actually solve this system. And the trick here is to try to eliminate one variable at a time from all
+
+31
+00:02:11,467 --> 00:02:17,133
+of the equations, making sure that you have the information from all three equations here
+
+32
+00:02:17,133 --> 00:02:20,733
+so what we're going to do is we could maybe - it looks like the easiest to eliminate
+
+33
+00:02:20,733 --> 00:02:23,267
+since we have a positive y and a negative y and then another positive y
+
+34
+00:02:23,267 --> 00:02:26,533
+it seems like we can eliminate the Ys.
+
+35
+00:02:26,533 --> 00:02:30,133
+We can add these two equations and come up with another equation
+
+36
+00:02:30,133 --> 00:02:34,280
+that will only be in terms of x and z. And then we could use these two equations
+
+37
+00:02:34,280 --> 00:02:38,467
+to come up with another equation that will only be in terms of x and z.
+
+38
+00:02:38,467 --> 00:02:43,400
+But it will have all of the x and z constraint information embedded in it because
+
+39
+00:02:43,400 --> 00:02:49,333
+we're using all three equations. So let's do that. So first let's add these two equations right over here.
+
+40
+00:02:49,333 --> 00:02:54,467
+So we have x plus y minus three z is equal to negative ten.
+
+41
+00:02:54,467 --> 00:03:03,333
+And x minus y plus two z is equal to three. So over here if we want to eliminate y, we can literally
+
+42
+00:03:03,333 --> 00:03:10,733
+just add these two equations. So on the left hand side, x plus x is two x. Y plus negative y cancels out
+
+43
+00:03:10,733 --> 00:03:16,067
+And then negative three z plus two z - that gives us just a negative z
+
+44
+00:03:16,067 --> 00:03:21,800
+and then we have negative ten plus three, which is negative seven.
+
+45
+00:03:21,800 --> 00:03:23,625
+So using these two equations we got
+
+46
+00:03:23,625 --> 00:03:28,867
+two x minus z is equal to negative seven - just adding these two equations.
+
+47
+00:03:28,867 --> 00:03:33,533
+Now let's do these two equatons. And we can reuse this equation as long as
+
+48
+00:03:33,533 --> 00:03:38,133
+we're using new information here. Now we're using the extra constraint of this bottom equation.
+
+49
+00:03:38,133 --> 00:03:43,467
+So we have x minus y plus two z is equal to three.
+
+50
+00:03:43,467 --> 00:03:52,600
+And we have two x plus y minus z is equal to negative six.
+
+51
+00:03:52,600 --> 00:03:56,400
+If we want to eliminate the Ys, we can just add these two equations.
+
+52
+00:03:56,400 --> 00:04:05,267
+So x plus two x is three x. Negative y plus y cancels out. Two z minus z - well that is just z.
+
+53
+00:04:05,267 --> 00:04:09,800
+And that is going to be equal to three plus negative six, which is negative three.
+
+54
+00:04:09,800 --> 00:04:17,867
+So if I add these two equations, I get three x plus z is equal to negative three. Now I have a system
+
+55
+00:04:17,867 --> 00:04:23,133
+of two equations with two unknowns. This is a little bit more traditional of a problem. So let me write
+
+56
+00:04:23,133 --> 00:04:32,067
+them over here. So we have two x minus z is equal to negative seven. And then we have three x plus z
+
+57
+00:04:32,067 --> 00:04:37,800
+is equal to negative three and the way this problem is set up, it gets pretty simple pretty fast, because
+
+58
+00:04:37,800 --> 00:04:42,467
+if we just add these two equations, the Zs cancel out. Otherwise if it didn't happen so naturally, we'd
+
+59
+00:04:42,467 --> 00:04:46,800
+have to multiply one of these equations, or maybe both of them, by some scaling factor.
+
+60
+00:04:46,800 --> 00:04:50,800
+But we can just add these two equations up.
+
+61
+00:04:50,800 --> 00:04:56,800
+On the left hand side, two x plus three x is five x. Negative z plus z cancels out.
+
+62
+00:04:56,800 --> 00:05:01,800
+Negative seven plus negative three - that is equal to negative ten.
+
+63
+00:05:01,800 --> 00:05:06,800
+Divide both sides of this equation by five and
+
+64
+00:05:06,800 --> 00:05:13,200
+we get x is equal to negative two. Now we can substitute back to find the other variables.
+
+65
+00:05:13,200 --> 00:05:17,800
+Maybe we can substitute back into this equation to figure out what z must be equal to.
+
+66
+00:05:17,800 --> 00:05:25,333
+So we have two times x. Two times negative two minus z is equal to negative seven.
+
+67
+00:05:25,333 --> 00:05:29,400
+Or negative four minus z is equal to negative seven.
+
+68
+00:05:29,400 --> 00:05:34,067
+We can add four to both sides of this equation and then we get
+
+69
+00:05:34,067 --> 00:05:40,133
+negative z is equal to negative seven plus four, which is negative three.
+
+70
+00:05:40,133 --> 00:05:46,533
+Multiply or divide both sides by negative one and you get z is equal to three. And now we can go and
+
+71
+00:05:46,533 --> 00:05:52,467
+substitute back into one of these original equations. So we have x. We know x is negative two.
+
+72
+00:05:52,467 --> 00:05:59,200
+So we have negative two plus y, minus three times z.
+
+73
+00:05:59,200 --> 00:06:02,133
+Well, we know z is three (so minus three times three)
+
+74
+00:06:02,133 --> 00:06:06,067
+should all be equal to negative ten. And now we just solve for y.
+
+75
+00:06:06,067 --> 00:06:14,400
+So we get negative two plus y minus nine is equal to negative ten. And so negative two minus nine,
+
+76
+00:06:14,400 --> 00:06:15,800
+that's negative eleven. So we have
+
+77
+00:06:15,800 --> 00:06:23,000
+y minus eleven is equal to negative ten. And then we can add eleven to both
+
+78
+00:06:23,000 --> 00:06:31,533
+sides of this equation. And we get y is equal to negative ten plus eleven, which is one.
+
+79
+00:06:31,533 --> 00:06:32,933
+So we're done!
+
+80
+00:06:32,933 --> 00:06:37,200
+We've got x is equal to negative two. Z is equal to three and y is equal to one.
+
+81
+00:06:37,200 --> 00:06:39,333
+Now I can actually go back and check it.
+
+82
+00:06:39,333 --> 00:06:43,600
+Verify that this x, y and z works for all three constraints
+
+83
+00:06:43,600 --> 00:06:47,400
+that this three dimensional coordinate lies on all three planes.
+
+84
+00:06:47,400 --> 00:06:52,333
+So let's try it out. We've got x is negative two, z is three, y is one.
+
+85
+00:06:52,333 --> 00:06:57,067
+So if we substituted - let me do it into each of them - so in this first equation
+
+86
+00:06:57,067 --> 00:07:03,733
+that means that we have negative two plus one (remember y was equal to one).
+
+87
+00:07:03,733 --> 00:07:09,000
+Let me write it over here - y is equal to one, x is equal to negative two, z is equal to three.
+
+88
+00:07:09,000 --> 00:07:12,600
+That was the result we got. Yup, that's the result we got.
+
+89
+00:07:12,600 --> 00:07:17,067
+So when we test it into this first one, you have negative two plus one minus three times three.
+
+90
+00:07:17,067 --> 00:07:22,800
+So minus nine. This should be equal to negative ten. And it is.
+
+91
+00:07:22,800 --> 00:07:26,533
+Negative two plus one is negative one, minus nine is negative ten.
+
+92
+00:07:26,533 --> 00:07:30,133
+So it works for the first one. Let's try it for the second equation right over here.
+
+93
+00:07:30,133 --> 00:07:41,785
+So we have negative two minus y (so, minus one) plus two times z (so, z is three, so two times three)
+
+94
+00:07:41,785 --> 00:07:45,382
+So, plus six needs to be equal to three.
+
+95
+00:07:45,382 --> 00:07:48,733
+So this is negative three plus six, which is indeed equal to three.
+
+96
+00:07:48,733 --> 00:07:53,000
+So this satisifies the second equation. And then we have the last one right over here!
+
+97
+00:07:53,000 --> 00:07:58,405
+We have two times x, so two times negative two, which is negative four. Negative four.
+
+98
+00:07:58,405 --> 00:08:06,733
+Plus y, so plus one. Minus z, so minus three. Minus three.
+
+99
+00:08:06,733 --> 00:08:14,600
+Needs to be equal to negative six. Negative four plus one is negative three,
+
+100
+00:08:14,600 --> 00:08:18,133
+and then you subtract three again. It equals negative six.
+
+101
+00:08:18,133 --> 00:08:22,133
+So it satisfies all three equations, so we can feel pretty good about our answer.

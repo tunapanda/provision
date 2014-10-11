@@ -1,0 +1,259 @@
+1
+00:00:01,267 --> 00:00:07,267
+This video is on Perimeter and Area
+
+2
+00:00:07,267 --> 00:00:17,133
+Perimeter on the left and Area on the right.
+
+3
+00:00:17,133 --> 00:00:21,533
+Perimeter is the distance to go around something.
+
+4
+00:00:21,533 --> 00:00:25,733
+If you were to put a fence around or measure something
+
+5
+00:00:25,733 --> 00:00:31,533
+If you were to put a tape around a figure,
+
+6
+00:00:31,533 --> 00:00:36,400
+if i have a rectangle, and the rectangle is a figure
+
+7
+00:00:36,400 --> 00:00:44,867
+that has 4 sides and four right angles,
+
+8
+00:00:44,867 --> 00:00:48,200
+This has 4 right angles and 4 sides and the
+
+9
+00:00:48,200 --> 00:00:55,867
+opposite sides are equal in length.
+
+10
+00:00:55,867 --> 00:01:02,867
+I will label the points ABCD, let us say we
+
+11
+00:01:02,867 --> 00:01:13,533
+know the following AB = 7, and BC = 5
+
+12
+00:01:13,533 --> 00:01:23,733
+We want to know what is the perimeter of ABCD
+
+13
+00:01:23,733 --> 00:01:29,667
+Perimeter of rectangle ABCD = the sum of the lengths of the sides
+
+14
+00:01:29,667 --> 00:01:33,533
+If I were to build a fence on the plot of this land
+
+15
+00:01:33,533 --> 00:01:37,933
+I need to measure the length of the sides,
+
+16
+00:01:37,933 --> 00:01:46,533
+we know this length AB is 7, this length isBC 5,
+
+17
+00:01:46,533 --> 00:01:57,200
+DC is going to be same as Ab = 7 and DA is going
+
+18
+00:01:57,200 --> 00:02:06,800
+to be the same length as BC = 5.
+
+19
+00:02:06,800 --> 00:02:10,467
+So we have 7+5+7+5 = 24, perimeter is 24
+
+20
+00:02:10,467 --> 00:02:23,400
+We can go the other way around, lets say we have a square
+
+21
+00:02:23,400 --> 00:02:27,800
+A square has 4 sides and 4 right angles and
+
+22
+00:02:27,800 --> 00:02:44,467
+all sides are equal. let me draw a square, this is ABCD
+
+23
+00:02:44,467 --> 00:02:58,400
+and this square has a perimeter of 36
+
+24
+00:02:58,400 --> 00:03:01,600
+Given that what is the length of each side.
+
+25
+00:03:01,600 --> 00:03:05,800
+All sides are of equal length, let us call x as the length of a side
+
+26
+00:03:05,800 --> 00:03:16,733
+AB = x, BC=x, CD = x, DA = x
+
+27
+00:03:16,733 --> 00:03:20,533
+If we want to figure the perimeter it will be x+x+x+x
+
+28
+00:03:20,533 --> 00:03:31,600
+x+x+x+x = 4x = 36
+
+29
+00:03:31,600 --> 00:03:35,200
+To solve this 4 times something = 36
+
+30
+00:03:35,200 --> 00:03:43,200
+divide both sides by 4, we get x = 9
+
+31
+00:03:43,200 --> 00:03:53,800
+This is a 9 by 9 square.That is perimeter
+
+32
+00:03:53,800 --> 00:03:59,667
+Area is a measure of how much space this thing take
+
+33
+00:03:59,667 --> 00:04:06,267
+One way to think is if I have a 1 by 1 square,
+
+34
+00:04:06,267 --> 00:04:13,800
+for a rectangle you need to specify 2 dimensions as
+
+35
+00:04:13,800 --> 00:04:16,733
+the other sides will be the same, for rectangle we
+
+36
+00:04:16,733 --> 00:04:23,333
+say it is a 5 by 7 rectangle.
+
+37
+00:04:23,333 --> 00:04:36,400
+If one side is 1 in a square, all sides are 1
+
+38
+00:04:36,400 --> 00:04:43,933
+Area of any figure is how many 1by 1 square can you fit on that figure
+
+39
+00:04:43,933 --> 00:04:48,600
+If we go back to that rectangle and I want to find the area
+
+40
+00:04:48,600 --> 00:04:52,533
+of this rectangle and the notation to be used is
+
+41
+00:04:52,533 --> 00:05:01,333
+put it in brackets area of rectangle ABCD =<ABCD>
+
+42
+00:05:01,333 --> 00:05:06,000
+it is the number of 1 by 1 squares we can fit in this rectangle
+
+43
+00:05:06,000 --> 00:05:15,400
+Lets try doing it , we have 5 - 1by 1 squares this way
+
+44
+00:05:15,400 --> 00:05:32,733
+and 7 - 1by 1 squares this way,
+
+45
+00:05:32,733 --> 00:05:40,600
+Going along one of the sides we can put 7 , over here
+
+46
+00:05:40,600 --> 00:05:56,400
+we can put 5 rows, this is 1 each and adds upto 5
+
+47
+00:05:56,400 --> 00:06:01,667
+and this is 1 each adds upto 7
+
+48
+00:06:01,667 --> 00:06:11,867
+We can actually count the number of 1 by 1 squares
+
+49
+00:06:11,867 --> 00:06:23,533
+we have 5 rows and 7 columns, we have 35 squares
+
+50
+00:06:23,533 --> 00:06:28,067
+So the area of this figure is 35 .
+
+51
+00:06:28,067 --> 00:06:31,333
+So the general method is take one dimension and
+
+52
+00:06:31,333 --> 00:06:33,933
+multiply by the other dimension
+
+53
+00:06:33,933 --> 00:06:44,867
+If i have a rectangle of dimension 1/2 by 2,
+
+54
+00:06:44,867 --> 00:06:51,000
+we can just multiply these two 1/2 * 2 = 1
+
+55
+00:06:51,000 --> 00:07:10,333
+In this dimension i can only fit half a square
+
+56
+00:07:10,333 --> 00:07:14,333
+When we add 2 halves, we get 1
+
+57
+00:07:14,333 --> 00:07:17,200
+Now what about area of the square.
+
+58
+00:07:17,200 --> 00:07:21,200
+Square is a special case where length and width are the same
+
+59
+00:07:21,200 --> 00:07:32,867
+So if have a square and lets call it XYZS,
+
+60
+00:07:32,867 --> 00:07:38,867
+i want to find the area and i know XS = 2, i want to
+
+61
+00:07:38,867 --> 00:07:48,867
+find the area of XYZS = < XYZS>
+
+62
+00:07:48,867 --> 00:07:52,267
+We know all the sides are equal,
+
+63
+00:07:52,267 --> 00:07:56,600
+It is a special case of a rectangle, we know if this is 2
+
+64
+00:07:56,600 --> 00:08:00,867
+this also is 2 So we just multiple 2 by 2 = 2 * 2 = 4
+
+65
+00:08:00,867 --> 00:08:21,200
+And you can see you can fit 4 - 1 by 1 squares in this

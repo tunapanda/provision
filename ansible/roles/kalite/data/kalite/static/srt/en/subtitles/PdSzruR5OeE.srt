@@ -1,0 +1,709 @@
+1
+00:00:00,000 --> 00:00:00,640
+   
+
+2
+00:00:00,640 --> 00:00:03,560
+Most of what we do early on
+when we first learn about
+
+3
+00:00:03,560 --> 00:00:06,720
+calculus is to use limits.
+
+4
+00:00:06,720 --> 00:00:10,440
+We use limits to figure out
+derivatives of functions.
+
+5
+00:00:10,440 --> 00:00:13,720
+   
+
+6
+00:00:13,720 --> 00:00:16,800
+In fact, the definition
+of a derivative uses
+
+7
+00:00:16,800 --> 00:00:18,120
+the notion of a limit.
+
+8
+00:00:18,120 --> 00:00:22,030
+It's a slope around the point
+as we take the limit of
+
+9
+00:00:22,030 --> 00:00:24,390
+points closer and closer
+to the point in question.
+
+10
+00:00:24,390 --> 00:00:27,110
+And you've seen that many,
+many, many times over.
+
+11
+00:00:27,110 --> 00:00:29,790
+In this video I guess we're
+going to do it in the
+
+12
+00:00:29,790 --> 00:00:30,630
+opposite direction.
+
+13
+00:00:30,630 --> 00:00:39,130
+We're going to use derivatives
+to figure out limits.
+
+14
+00:00:39,130 --> 00:00:43,360
+And in particular, limits that
+end up in indeterminate form.
+
+15
+00:00:43,360 --> 00:00:46,550
+And when I say by indeterminate
+form I mean that when we just
+
+16
+00:00:46,550 --> 00:00:51,550
+take the limit as it is, we end
+up with something like 0/0, or
+
+17
+00:00:51,550 --> 00:00:55,450
+infinity over infinity, or
+negative infinity over
+
+18
+00:00:55,450 --> 00:00:57,870
+infinity, or maybe negative
+infinity over negative
+
+19
+00:00:57,870 --> 00:01:00,330
+infinity, or positive infinity
+over negative infinity.
+
+20
+00:01:00,330 --> 00:01:05,190
+All of these are indeterminate,
+undefined forms.
+
+21
+00:01:05,190 --> 00:01:08,290
+And to do that we're going
+to use l'Hopital's rule.
+
+22
+00:01:08,290 --> 00:01:17,730
+   
+
+23
+00:01:17,730 --> 00:01:19,490
+And in this video I'm just
+going to show you what
+
+24
+00:01:19,490 --> 00:01:23,010
+l'Hoptial's rule says and how
+to apply it because it's fairly
+
+25
+00:01:23,010 --> 00:01:25,480
+straightforward, and it's
+actually a very useful tool
+
+26
+00:01:25,480 --> 00:01:27,510
+sometimes if you're in some
+type of a math competition and
+
+27
+00:01:27,510 --> 00:01:31,270
+they ask you to find a
+difficult limit that when you
+
+28
+00:01:31,270 --> 00:01:33,310
+just plug the numbers in you
+get something like this.
+
+29
+00:01:33,310 --> 00:01:37,270
+L'Hopital's rule is normally
+what they are testing you for.
+
+30
+00:01:37,270 --> 00:01:40,290
+And in a future video I might
+prove it, but that gets a
+
+31
+00:01:40,290 --> 00:01:40,975
+little bit more involved.
+
+32
+00:01:40,975 --> 00:01:44,870
+The application is actually
+reasonably straightforward.
+
+33
+00:01:44,870 --> 00:01:50,780
+So what l'Hopital's rule tells
+us that if we have-- and I'll
+
+34
+00:01:50,780 --> 00:01:53,940
+do it in abstract form first,
+but I think when I show you
+
+35
+00:01:53,940 --> 00:01:56,080
+the example it will
+all be made clear.
+
+36
+00:01:56,080 --> 00:02:11,050
+That if the limit as x roaches
+c of f of x is equal to 0, and
+
+37
+00:02:11,050 --> 00:02:20,100
+the limit as x approaches c of
+g of x is equal to 0, and-- and
+
+38
+00:02:20,100 --> 00:02:30,620
+this is another and-- and the
+limit as x approaches c of f
+
+39
+00:02:30,620 --> 00:02:38,160
+prime of x over g prime of
+x exists and it equals L.
+
+40
+00:02:38,160 --> 00:02:40,600
+then-- so all of these
+conditions have to be met.
+
+41
+00:02:40,600 --> 00:02:44,050
+This is the indeterminate
+form of 0/0, so this
+
+42
+00:02:44,050 --> 00:02:45,560
+is the first case.
+
+43
+00:02:45,560 --> 00:02:55,380
+Then we can say that the
+limit as x approaches c of
+
+44
+00:02:55,380 --> 00:03:03,070
+f of x over g of x is also
+going to be equal to L.
+
+45
+00:03:03,070 --> 00:03:05,810
+So this might seem a little bit
+bizarre to you right now, and
+
+46
+00:03:05,810 --> 00:03:07,220
+I'm actually going to write the
+other case, and then
+
+47
+00:03:07,220 --> 00:03:07,750
+I'll do an example.
+
+48
+00:03:07,750 --> 00:03:09,710
+We'll do multiple examples
+and the examples are going
+
+49
+00:03:09,710 --> 00:03:10,580
+to make it all clear.
+
+50
+00:03:10,580 --> 00:03:13,040
+So this is the first case and
+the example we're going to
+
+51
+00:03:13,040 --> 00:03:16,650
+do is actually going to be
+an example of this case.
+
+52
+00:03:16,650 --> 00:03:24,390
+Now the other case is if the
+limit as x approaches c of f of
+
+53
+00:03:24,390 --> 00:03:32,960
+x is equal to positive or
+negative infinity, and the
+
+54
+00:03:32,960 --> 00:03:39,470
+limit as x approaches c of g of
+x is equal to positive or
+
+55
+00:03:39,470 --> 00:03:46,280
+negative infinity, and the
+limit of I guess you could say
+
+56
+00:03:46,280 --> 00:03:51,220
+the quotient of the derivatives
+exists, and the limit as x
+
+57
+00:03:51,220 --> 00:03:56,200
+approaches c of f prime of x
+over g prime of x
+
+58
+00:03:56,200 --> 00:03:57,410
+is equal to L.
+
+59
+00:03:57,410 --> 00:04:01,860
+Then we can make this
+same statement again.
+
+60
+00:04:01,860 --> 00:04:06,070
+Let me just copy that out.
+
+61
+00:04:06,070 --> 00:04:10,220
+Edit, copy, and then
+let me paste it.
+
+62
+00:04:10,220 --> 00:04:13,450
+So in either of these two
+situations just to kind of make
+
+63
+00:04:13,450 --> 00:04:15,520
+sure you understand what you're
+looking at, this is the
+
+64
+00:04:15,520 --> 00:04:18,300
+situation where if you just
+tried to evaluate this limit
+
+65
+00:04:18,300 --> 00:04:21,880
+right here you're going to
+get f of c, which is 0.
+
+66
+00:04:21,880 --> 00:04:25,990
+Or the limit as x approaches c
+of f of x over the limit as
+
+67
+00:04:25,990 --> 00:04:27,480
+x approaches c of g of x.
+
+68
+00:04:27,480 --> 00:04:30,550
+That's going to give you 0/0.
+
+69
+00:04:30,550 --> 00:04:32,440
+And so you say, hey, I don't
+know what that limit is?
+
+70
+00:04:32,440 --> 00:04:33,600
+But this says, well, look.
+
+71
+00:04:33,600 --> 00:04:37,440
+If this limit exists, I could
+take the derivative of each
+
+72
+00:04:37,440 --> 00:04:41,020
+of these functions and then
+try to evaluate that limit.
+
+73
+00:04:41,020 --> 00:04:44,220
+And if I get a number, if that
+exists, then they're going
+
+74
+00:04:44,220 --> 00:04:45,980
+to be the same limit.
+
+75
+00:04:45,980 --> 00:04:48,710
+This is a situation where when
+we take the limit we get
+
+76
+00:04:48,710 --> 00:04:52,060
+infinity over infinity, or
+negative infinity or positive
+
+77
+00:04:52,060 --> 00:04:54,070
+infinity over positive
+or negative infinity.
+
+78
+00:04:54,070 --> 00:04:57,030
+So these are the two
+indeterminate forms.
+
+79
+00:04:57,030 --> 00:04:59,410
+And to make it all clear let
+me just show you an example
+
+80
+00:04:59,410 --> 00:05:03,610
+because I think this will make
+things a lot more clear.
+
+81
+00:05:03,610 --> 00:05:08,910
+So let's say we are trying
+to find the limit-- I'll
+
+82
+00:05:08,910 --> 00:05:10,610
+do this in a new color.
+
+83
+00:05:10,610 --> 00:05:13,830
+Let me do it in this
+purplish color.
+
+84
+00:05:13,830 --> 00:05:17,420
+Let's say we wanted to find
+the limit as x approaches
+
+85
+00:05:17,420 --> 00:05:23,160
+0 of sine of x over x.
+
+86
+00:05:23,160 --> 00:05:27,430
+Now if we just view this, if we
+just try to evaluate it at 0 or
+
+87
+00:05:27,430 --> 00:05:30,410
+take the limit as we approach 0
+in each of these functions,
+
+88
+00:05:30,410 --> 00:05:33,180
+we're going to get something
+that looks like 0/0.
+
+89
+00:05:33,180 --> 00:05:35,370
+Sine of 0 is 0.
+
+90
+00:05:35,370 --> 00:05:39,620
+Or the limit as x approaches
+0 of sine of x is 0.
+
+91
+00:05:39,620 --> 00:05:42,120
+And obviously, as x approaches
+0 of x, that's also
+
+92
+00:05:42,120 --> 00:05:43,140
+going to be 0.
+
+93
+00:05:43,140 --> 00:05:45,100
+So this is our
+indeterminate form.
+
+94
+00:05:45,100 --> 00:05:48,180
+And if you want to think about
+it, this is our f of x, that
+
+95
+00:05:48,180 --> 00:05:51,240
+f of x right there
+is the sine of x.
+
+96
+00:05:51,240 --> 00:05:55,510
+And our g of x, this g of
+x right there for this
+
+97
+00:05:55,510 --> 00:06:00,070
+first case, is the x.
+
+98
+00:06:00,070 --> 00:06:07,170
+g of x is equal to x and f
+of x is equal to sine of x.
+
+99
+00:06:07,170 --> 00:06:10,130
+And notice, well, we definitely
+know that this meets the
+
+100
+00:06:10,130 --> 00:06:11,520
+first two constraints.
+
+101
+00:06:11,520 --> 00:06:14,970
+The limit as x, and in
+this case, c is 0.
+
+102
+00:06:14,970 --> 00:06:19,540
+The limit as x approaches 0 of
+sine of sine of x is 0, and
+
+103
+00:06:19,540 --> 00:06:24,030
+the limit as x approaches
+0 of x is also equal to 0.
+
+104
+00:06:24,030 --> 00:06:26,180
+So we get our
+indeterminate form.
+
+105
+00:06:26,180 --> 00:06:29,340
+So let's see, at least, whether
+this limit even exists.
+
+106
+00:06:29,340 --> 00:06:32,100
+If we take the derivative of f
+of x and we put that over the
+
+107
+00:06:32,100 --> 00:06:35,900
+derivative of g of x, and take
+the limit as x approaches 0
+
+108
+00:06:35,900 --> 00:06:38,400
+in this case, that's our c.
+
+109
+00:06:38,400 --> 00:06:40,530
+Let's see if this limit exists.
+
+110
+00:06:40,530 --> 00:06:44,600
+So I'll do that in the blue.
+
+111
+00:06:44,600 --> 00:06:48,160
+So let me write the derivatives
+of the two functions.
+
+112
+00:06:48,160 --> 00:06:50,720
+So f prime of x.
+
+113
+00:06:50,720 --> 00:06:53,590
+If f of x is sine of x,
+what's f prime of x?
+
+114
+00:06:53,590 --> 00:06:55,480
+Well, it's just cosine of x.
+
+115
+00:06:55,480 --> 00:06:57,390
+You've learned that many times.
+
+116
+00:06:57,390 --> 00:07:01,215
+And if g of x is x,
+what is g prime of x?
+
+117
+00:07:01,215 --> 00:07:02,150
+That's super easy.
+
+118
+00:07:02,150 --> 00:07:06,280
+The derivative of x is just 1.
+
+119
+00:07:06,280 --> 00:07:13,690
+Let's try to take the limit as
+x approaches 0 of f prime of x
+
+120
+00:07:13,690 --> 00:07:17,000
+over g prime of x-- over
+their derivatives.
+
+121
+00:07:17,000 --> 00:07:19,390
+So that's going to be the
+limit as x approaches 0
+
+122
+00:07:19,390 --> 00:07:25,620
+of cosine of x over 1.
+
+123
+00:07:25,620 --> 00:07:28,650
+I wrote that 1 a
+little strange.
+
+124
+00:07:28,650 --> 00:07:30,170
+And this is pretty
+straightforward.
+
+125
+00:07:30,170 --> 00:07:30,990
+What is this going to be?
+
+126
+00:07:30,990 --> 00:07:33,610
+Well, as x approaches 0
+of cosine of x, that's
+
+127
+00:07:33,610 --> 00:07:37,290
+going to be equal to 1.
+
+128
+00:07:37,290 --> 00:07:39,320
+And obviously, the limit as
+x approaches 0 of 1, that's
+
+129
+00:07:39,320 --> 00:07:40,900
+also going to be equal to 1.
+
+130
+00:07:40,900 --> 00:07:46,470
+So in this situation we just
+saw that the limit as x
+
+131
+00:07:46,470 --> 00:07:49,820
+approaches-- our c
+in this case is 0.
+
+132
+00:07:49,820 --> 00:07:54,590
+As x approaches 0 of f
+prime of x over g prime
+
+133
+00:07:54,590 --> 00:07:56,240
+of x is equal to 1.
+
+134
+00:07:56,240 --> 00:07:59,060
+This limit exists and it
+equals 1, so we've met
+
+135
+00:07:59,060 --> 00:08:00,580
+all of the conditions.
+
+136
+00:08:00,580 --> 00:08:02,500
+This is the case
+we're dealing with.
+
+137
+00:08:02,500 --> 00:08:06,700
+Limit as x approaches 0 of
+sine of x is equal to 0.
+
+138
+00:08:06,700 --> 00:08:10,650
+Limit as z approaches 0
+of x is also equal to 0.
+
+139
+00:08:10,650 --> 00:08:14,500
+The limit of the derivative of
+sine of x over the derivative
+
+140
+00:08:14,500 --> 00:08:17,490
+of x, which is cosine of x over
+1-- we found this
+
+141
+00:08:17,490 --> 00:08:21,000
+to be equal to 1.
+
+142
+00:08:21,000 --> 00:08:24,610
+All of these top conditions
+are met, so then we know
+
+143
+00:08:24,610 --> 00:08:26,480
+this must be the case.
+
+144
+00:08:26,480 --> 00:08:34,500
+That the limit as x approaches
+0 of sine of x over x
+
+145
+00:08:34,500 --> 00:08:36,690
+must be equal to 1.
+
+146
+00:08:36,690 --> 00:08:42,510
+It must be the same limit as
+this value right here where we
+
+147
+00:08:42,510 --> 00:08:46,120
+take the derivative of the
+f of x and of the g of x.
+
+148
+00:08:46,120 --> 00:08:48,430
+I'll do more examples in the
+next few videos and I think
+
+149
+00:08:48,430 --> 00:08:50,760
+it'll make it a lot
+more concrete.
+
+150
+00:08:50,760 --> 00:08:51,000
+

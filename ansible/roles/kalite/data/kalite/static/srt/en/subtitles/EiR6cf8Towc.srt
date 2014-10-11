@@ -1,0 +1,615 @@
+1
+00:00:00,000 --> 00:00:03,267
+One thing you'll hear or see referred to a lot
+
+2
+00:00:03,267 --> 00:00:04,948
+is something called a flowchart
+
+3
+00:00:04,948 --> 00:00:05,902
+either in computer science,
+
+4
+00:00:05,902 --> 00:00:06,839
+so really when people talk about
+
+5
+00:00:06,839 --> 00:00:09,693
+any type of algorithm or process.
+
+6
+00:00:09,693 --> 00:00:10,531
+So what I thought I would do is
+
+7
+00:00:10,531 --> 00:00:11,757
+for every program I write—
+
+8
+00:00:11,757 --> 00:00:12,982
+is I'll do a simple flowchart.
+
+9
+00:00:12,982 --> 00:00:14,144
+Maybe I won't do it for every one,
+
+10
+00:00:14,144 --> 00:00:15,567
+but I'll start with some of the basic ones.
+
+11
+00:00:15,567 --> 00:00:16,693
+Just so we understand that
+
+12
+00:00:16,693 --> 00:00:18,852
+a flowchart really isn't anything fancy.
+
+13
+00:00:18,852 --> 00:00:20,550
+So in this factorial program
+
+14
+00:00:20,550 --> 00:00:21,839
+that we had been looking at
+
+15
+00:00:21,839 --> 00:00:23,838
+in the last couple of videos—
+
+16
+00:00:23,838 --> 00:00:27,267
+any flowchart you're just going to be a kind of starting point
+
+17
+00:00:27,267 --> 00:00:29,528
+which is really started, I guess,
+
+18
+00:00:29,528 --> 00:00:31,982
+depicted with a circle or an oval of some kind.
+
+19
+00:00:31,982 --> 00:00:33,852
+So we start, you can kind of view as
+
+20
+00:00:33,852 --> 00:00:34,998
+we starting at this line
+
+21
+00:00:34,998 --> 00:00:37,225
+above this assignment of the number
+
+22
+00:00:37,225 --> 00:00:40,252
+where we actually ask for input from the user.
+
+23
+00:00:40,252 --> 00:00:42,544
+And then, after that,
+
+24
+00:00:42,544 --> 00:00:44,821
+we ask for input from the user.
+
+25
+00:00:44,821 --> 00:00:45,867
+This line right here.
+
+26
+00:00:45,867 --> 00:00:48,867
+We are asking for input from the user.
+
+27
+00:00:48,867 --> 00:00:51,107
+So this right over here.
+
+28
+00:00:51,107 --> 00:00:54,544
+And we will depict that by a parallelogram.
+
+29
+00:00:54,544 --> 00:00:56,680
+So that is input from the user,
+
+30
+00:00:56,680 --> 00:00:57,704
+and then we could just say
+
+31
+00:00:57,704 --> 00:01:03,702
+"number equals user input".
+
+32
+00:01:03,702 --> 00:01:05,016
+And you can be a little bit loosey-goosey
+
+33
+00:01:05,016 --> 00:01:06,016
+with the terminology here,
+
+34
+00:01:06,016 --> 00:01:06,996
+you're really just trying to say
+
+35
+00:01:06,996 --> 00:01:08,393
+what you're doing in this step.
+
+36
+00:01:08,393 --> 00:01:09,853
+The parallelogram tells us that
+
+37
+00:01:09,853 --> 00:01:12,021
+we are somehow interfacing with the user.
+
+38
+00:01:12,021 --> 00:01:14,373
+We're either taking something from the user
+
+39
+00:01:14,373 --> 00:01:16,381
+or we're outputting something to the user.
+
+40
+00:01:16,381 --> 00:01:19,157
+So here, we're saying user input is equal to number.
+
+41
+00:01:19,157 --> 00:01:22,175
+We're assigning number as the user input.
+
+42
+00:01:22,175 --> 00:01:25,867
+Then, the next thing we do is just a straight up operation.
+
+43
+00:01:25,867 --> 00:01:30,218
+We just set product to be equal to 1, so we just set.
+
+44
+00:01:30,264 --> 00:01:33,367
+And there we just do that in a rectangle,
+
+45
+00:01:33,367 --> 00:01:36,015
+"product equals 1",
+
+46
+00:01:36,015 --> 00:01:40,390
+product is equal to 1.
+
+47
+00:01:40,390 --> 00:01:43,491
+And then, something interesting is going to happen.
+
+48
+00:01:43,491 --> 00:01:46,518
+We enter into our for loop.
+
+49
+00:01:46,518 --> 00:01:48,015
+And we start with—
+
+50
+00:01:48,015 --> 00:01:48,997
+and what I'm going to do here is
+
+51
+00:01:48,997 --> 00:01:50,396
+I'm going to write it a little bit different
+
+52
+00:01:50,396 --> 00:01:52,003
+than we wrote it over here—
+
+53
+00:01:52,003 --> 00:01:54,995
+so we do is we start a—
+
+54
+00:01:54,995 --> 00:01:56,038
+what we are doing is
+
+55
+00:01:56,038 --> 00:01:58,372
+we are going to start our for loop
+
+56
+00:01:58,372 --> 00:01:59,992
+essentially with an assignment
+
+57
+00:01:59,992 --> 00:02:01,190
+where we assign—
+
+58
+00:02:01,190 --> 00:02:02,523
+for loop is really a bunch of things
+
+59
+00:02:02,523 --> 00:02:03,821
+happening at the same time.
+
+60
+00:02:03,821 --> 00:02:07,533
+It assigns i to the first number in the sequence
+
+61
+00:02:07,533 --> 00:02:09,836
+or it tests whether it can assign i
+
+62
+00:02:09,836 --> 00:02:11,367
+to the first number in the sequence.
+
+63
+00:02:11,367 --> 00:02:12,482
+If it can,
+
+64
+00:02:12,482 --> 00:02:13,400
+then it proceeds.
+
+65
+00:02:13,400 --> 00:02:14,267
+If it can't,
+
+66
+00:02:14,267 --> 00:02:16,301
+then it breaks out of the for loop.
+
+67
+00:02:16,301 --> 00:02:18,529
+So let me put it this way.
+
+68
+00:02:18,529 --> 00:02:22,831
+I will do kind of a test case right over here.
+
+69
+00:02:22,831 --> 00:02:31,544
+So "items left in sequence".
+
+70
+00:02:31,544 --> 00:02:32,977
+And when I'm referring to the sequence
+
+71
+00:02:32,977 --> 00:02:34,236
+I'm talking about this sequence here—
+
+72
+00:02:34,236 --> 00:02:35,667
+the range of our number.
+
+73
+00:02:35,667 --> 00:02:37,640
+In the example I gave in the last video
+
+74
+00:02:37,640 --> 00:02:39,000
+the number was 3.
+
+75
+00:02:39,000 --> 00:02:40,867
+So items left in this sequence.
+
+76
+00:02:40,867 --> 00:02:43,533
+I know it's hard to read right over here.
+
+77
+00:02:43,533 --> 00:02:44,981
+If there are—so let's say that
+
+78
+00:02:44,981 --> 00:02:47,200
+there are items left in the sequence.
+
+79
+00:02:47,200 --> 00:02:50,400
+So if there are items left in the sequence.
+
+80
+00:02:50,400 --> 00:02:51,572
+So we'll just say
+
+81
+00:02:51,572 --> 00:02:53,221
+"i is equal to next item"
+
+82
+00:02:53,221 --> 00:02:54,267
+i is equal to next...
+
+83
+00:02:54,267 --> 00:02:57,888
+i is euqal to the next item.
+
+84
+00:02:57,888 --> 00:02:58,667
+If there are—
+
+85
+00:02:58,667 --> 00:03:01,069
+well, i'll just hold off for the case
+
+86
+00:03:01,069 --> 00:03:03,000
+where there are no items left in the sequence—
+
+87
+00:03:03,000 --> 00:03:04,738
+but let's say that there are.
+
+88
+00:03:04,738 --> 00:03:06,200
+"i is equal to the next item"
+
+89
+00:03:06,200 --> 00:03:08,151
+And then we also define—
+
+90
+00:03:08,151 --> 00:03:10,929
+we define product
+
+91
+00:03:10,929 --> 00:03:11,982
+to be
+
+92
+00:03:11,982 --> 00:03:13,236
+we define product
+
+93
+00:03:13,236 --> 00:03:14,933
+actually I want to do these in blue
+
+94
+00:03:14,933 --> 00:03:17,379
+just our regular...
+
+95
+00:03:17,379 --> 00:03:18,876
+Se let me write this
+
+96
+00:03:18,876 --> 00:03:20,021
+is "YES".
+
+97
+00:03:20,021 --> 00:03:21,642
+If there are items in the sequence,
+
+98
+00:03:21,642 --> 00:03:28,385
+then "i is equal to the next item"
+
+99
+00:03:28,385 --> 00:03:30,267
+that's one operation we do.
+
+100
+00:03:30,267 --> 00:03:32,400
+And then we reset product—
+
+101
+00:03:32,400 --> 00:03:36,308
+we reassign product to be equal to
+
+102
+00:03:36,308 --> 00:03:38,333
+what the former value of the product was
+
+103
+00:03:38,333 --> 00:03:46,698
+times i + 1.
+
+104
+00:03:46,698 --> 00:03:51,538
+And at this point, we essentially—
+
+105
+00:03:51,538 --> 00:03:54,241
+we loop back to this test over here.
+
+106
+00:03:54,241 --> 00:03:56,692
+So at this point, we loop back—
+
+107
+00:03:56,692 --> 00:03:58,548
+I'll try to write it neatly—
+
+108
+00:03:58,548 --> 00:04:00,379
+we loop back to—
+
+109
+00:04:00,379 --> 00:04:02,384
+let me do it right over here—
+
+110
+00:04:02,384 --> 00:04:05,236
+we loop back to this point in the program.
+
+111
+00:04:05,236 --> 00:04:07,067
+That's why it is called a loop.
+
+112
+00:04:07,067 --> 00:04:10,822
+Because after you perform this operation—
+
+113
+00:04:10,822 --> 00:04:12,308
+this is embedded in the loop—
+
+114
+00:04:12,308 --> 00:04:13,548
+you go back to the beginning
+
+115
+00:04:13,548 --> 00:04:16,000
+to see if there is any more of the loop to do.
+
+116
+00:04:16,000 --> 00:04:18,984
+So you go back to the beginning before the loop
+
+117
+00:04:18,984 --> 00:04:21,991
+and you say "Hey, are there any items in the sequence?"
+
+118
+00:04:21,991 --> 00:04:23,600
+and this should be a question mark over here.
+
+119
+00:04:23,600 --> 00:04:25,933
+This kind of question mark decision points
+
+120
+00:04:25,933 --> 00:04:27,889
+are usually specified with this diamond.
+
+121
+00:04:27,889 --> 00:04:30,234
+If there is another item in the sequence
+
+122
+00:04:30,234 --> 00:04:31,523
+then i is equal to the next item
+
+123
+00:04:31,523 --> 00:04:32,529
+and product is equal to
+
+124
+00:04:32,529 --> 00:04:33,841
+what product was times i + 1.
+
+125
+00:04:33,841 --> 00:04:35,000
+So we go to the next
+
+126
+00:04:35,000 --> 00:04:36,800
+"Are there items left in the sequence?"
+
+127
+00:04:36,800 --> 00:04:37,851
+And at some point
+
+128
+00:04:37,851 --> 00:04:39,995
+there won't be any items left in the sequence.
+
+129
+00:04:39,995 --> 00:04:41,108
+So there won't be—
+
+130
+00:04:41,108 --> 00:04:42,383
+at some point there won't be
+
+131
+00:04:42,383 --> 00:04:44,073
+any items left in the sequence.
+
+132
+00:04:44,073 --> 00:04:45,395
+And we could go to the right
+
+133
+00:04:45,395 --> 00:04:50,395
+or I'll just break out of it down here.
+
+134
+00:04:50,395 --> 00:04:53,333
+And now we've broken out of this for loop.
+
+135
+00:04:53,333 --> 00:04:55,133
+We've boken out of this for loop.
+
+136
+00:04:55,133 --> 00:04:56,529
+And then, the next thing we do
+
+137
+00:04:56,529 --> 00:04:57,856
+once we're done with our for loop
+
+138
+00:04:57,856 --> 00:05:00,702
+is we just print the value of product.
+
+139
+00:05:00,702 --> 00:05:02,800
+We just output the value of product.
+
+140
+00:05:02,800 --> 00:05:04,739
+So that is an interaction with the user.
+
+141
+00:05:04,739 --> 00:05:07,867
+So we are literally just outputting the value of product.
+
+142
+00:05:07,867 --> 00:05:09,933
+So we output—
+
+143
+00:05:09,933 --> 00:05:13,467
+"output product"
+
+144
+00:05:13,467 --> 00:05:15,667
+and we are done!
+
+145
+00:05:15,667 --> 00:05:17,068
+And I can write "end"
+
+146
+00:05:17,068 --> 00:05:19,533
+for the end of our program,
+
+147
+00:05:19,533 --> 00:05:21,702
+and the program will stop running.
+
+148
+00:05:21,702 --> 00:05:22,548
+"end".
+
+149
+00:05:22,548 --> 00:05:25,404
+So this is just a simple flowchart for this simple program.
+
+150
+00:05:25,404 --> 00:05:26,867
+And hopefully it helps you appreciate that
+
+151
+00:05:26,867 --> 00:05:29,073
+one little understanding of the program itself
+
+152
+00:05:29,073 --> 00:05:31,133
+if the last two videos didn't help too much,
+
+153
+00:05:31,133 --> 00:05:33,133
+and also gives you a simple understanding
+
+154
+00:05:33,133 --> 00:05:36,025
+of how to write a flowchart.

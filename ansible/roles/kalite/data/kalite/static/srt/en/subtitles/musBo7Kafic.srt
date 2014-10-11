@@ -1,0 +1,399 @@
+1
+00:00:03,736 --> 00:00:06,049
+We begin with a problem.
+
+2
+00:00:06,049 --> 00:00:07,761
+[WIND BLOWING]
+
+3
+00:00:14,514 --> 00:00:16,356
+Alice and Bob live in tree forts,
+
+4
+00:00:16,356 --> 00:00:18,135
+which are far apart,
+
+5
+00:00:18,135 --> 00:00:20,931
+with no line of sight between them.
+
+6
+00:00:20,931 --> 00:00:23,273
+And they need to communicate.
+
+7
+00:00:23,273 --> 00:00:25,054
+So they decide to run a wire
+
+8
+00:00:25,054 --> 00:00:26,737
+between the two houses.
+
+9
+00:00:39,945 --> 00:00:41,651
+They pull the wire tight,
+
+10
+00:00:41,651 --> 00:00:44,973
+and attach a tin can to each end –
+
+11
+00:00:52,215 --> 00:00:53,899
+allowing them to send their voices
+
+12
+00:00:53,899 --> 00:00:55,884
+faintly along the wire.
+
+13
+00:00:58,915 --> 00:01:01,515
+[BOB - MUFFLED] "Hello?"
+
+14
+00:01:01,515 --> 00:01:05,573
+[ALICE - MUFFLED] Hello? I can't hear you.
+
+15
+00:01:05,581 --> 00:01:08,688
+[BOB - MUFFLED] I can hear you, but just barely.
+
+16
+00:01:08,688 --> 00:01:14,591
+[ALICE - MUFFLED] 1. 2. 3. 4. 5.
+
+17
+00:01:14,591 --> 00:01:18,299
+However, there is a problem:
+
+18
+00:01:18,299 --> 00:01:20,682
+'noise.'
+
+19
+00:01:20,682 --> 00:01:22,255
+Whenever there is a high wind,
+
+20
+00:01:22,255 --> 00:01:24,170
+it becomes impossible to hear
+
+21
+00:01:24,170 --> 00:01:26,927
+the signal over the noise.
+
+22
+00:01:28,897 --> 00:01:30,259
+So they need a way to increase
+
+23
+00:01:30,259 --> 00:01:32,439
+the energy level of the signal,
+
+24
+00:01:32,439 --> 00:01:34,931
+to separate it from the noise.
+
+25
+00:01:34,931 --> 00:01:37,126
+This gives Bob an idea.
+
+26
+00:01:40,446 --> 00:01:42,859
+They can simply pluck the wire,
+
+27
+00:01:42,859 --> 00:01:46,599
+which is much easier to detect over the noise.
+
+28
+00:01:46,599 --> 00:01:48,979
+But this leads to a new problem.
+
+29
+00:01:48,979 --> 00:01:53,165
+How do they encode their messages as plucks?
+
+30
+00:01:56,571 --> 00:01:57,979
+Well, since they want to play
+
+31
+00:01:57,979 --> 00:02:00,140
+board games across a distance,
+
+32
+00:02:00,140 --> 00:02:03,270
+they tackle the most common messages first –
+
+33
+00:02:03,270 --> 00:02:06,075
+the outcome of two dice rolls.
+
+34
+00:02:06,075 --> 00:02:08,630
+In this case, the messages they are sending
+
+35
+00:02:08,630 --> 00:02:10,869
+can be thought of as a selection
+
+36
+00:02:10,869 --> 00:02:13,840
+from a finite number of 'symbols' –
+
+37
+00:02:13,840 --> 00:02:17,090
+in this case, the eleven possible numbers,
+
+38
+00:02:17,090 --> 00:02:19,997
+which we call a 'discrete source.'
+
+39
+00:02:23,962 --> 00:02:27,455
+At first, they decide to use the simplest method.
+
+40
+00:02:27,455 --> 00:02:30,610
+They send the result as the number of plucks.
+
+41
+00:02:30,610 --> 00:02:33,803
+So, to send a '3,' they send three plucks.
+
+42
+00:02:33,803 --> 00:02:35,626
+'9' is nine plucks.
+
+43
+00:02:35,626 --> 00:02:38,176
+And '12' is twelve plucks.
+
+44
+00:02:38,176 --> 00:02:40,510
+However, they soon realize that this takes
+
+45
+00:02:40,510 --> 00:02:43,262
+much longer than it needs to.
+
+46
+00:02:44,416 --> 00:02:48,476
+From practice, they find that their maximum pluck speed
+
+47
+00:02:48,476 --> 00:02:50,919
+is two plucks per second.
+
+48
+00:02:50,919 --> 00:02:53,769
+Any faster, and they will get confused.
+
+49
+00:02:53,769 --> 00:02:57,340
+So two plucks per second can be thought of as the 'rate' –
+
+50
+00:02:57,340 --> 00:03:00,736
+or 'capacity' – for sending information in this way.
+
+51
+00:03:00,736 --> 00:03:05,841
+[SOUND OF PLUCKING]
+
+52
+00:03:05,841 --> 00:03:06,945
+And it turns out that
+
+53
+00:03:06,945 --> 00:03:09,745
+the most common roll is a 7 –
+
+54
+00:03:09,745 --> 00:03:14,355
+so it takes 3.5 seconds to send the number 7.
+
+55
+00:03:14,355 --> 00:03:20,173
+[THE SOUND OF 7 PLUCKS]
+
+56
+00:03:21,775 --> 00:03:24,486
+Alice then realizes they can do much better
+
+57
+00:03:24,486 --> 00:03:27,429
+if they change their coding strategy.
+
+58
+00:03:27,429 --> 00:03:29,894
+She realizes that the odds of each number being sent
+
+59
+00:03:29,894 --> 00:03:31,704
+[follow] a simple pattern.
+
+60
+00:03:31,704 --> 00:03:33,853
+There is one way to roll a 2.
+
+61
+00:03:33,853 --> 00:03:35,879
+[There are] two ways to roll a 3.
+
+62
+00:03:35,879 --> 00:03:38,020
+Three ways to roll a 4.
+
+63
+00:03:38,020 --> 00:03:40,330
+Four ways to roll a 5.
+
+64
+00:03:40,330 --> 00:03:42,618
+Five ways to roll a 6.
+
+65
+00:03:42,618 --> 00:03:44,724
+And six ways to roll a 7 –
+
+66
+00:03:44,724 --> 00:03:46,277
+the most common [result].
+
+67
+00:03:46,277 --> 00:03:48,597
+And five ways to roll an 8.
+
+68
+00:03:48,597 --> 00:03:50,319
+Four ways for a 9 –
+
+69
+00:03:50,319 --> 00:03:53,728
+and so on, back to one way for a 12.
+
+70
+00:03:53,728 --> 00:03:54,886
+This is a graph showing
+
+71
+00:03:54,886 --> 00:03:57,927
+the number of ways each result can occur.
+
+72
+00:03:57,927 --> 00:04:00,089
+And the pattern is obvious.
+
+73
+00:04:00,089 --> 00:04:02,141
+So now, let's change the graph to
+
+74
+00:04:02,141 --> 00:04:05,359
+'number of plucks versus each symbol.'
+
+75
+00:04:05,359 --> 00:04:06,799
+She proceeds by mapping
+
+76
+00:04:06,799 --> 00:04:08,110
+the most common number –
+
+77
+00:04:08,110 --> 00:04:12,009
+7 – to the shortest signal – one pluck.
+
+78
+00:04:12,009 --> 00:04:14,230
+[SOUND OF ONE PLUCK]
+
+79
+00:04:14,230 --> 00:04:17,125
+She then proceeds to the next most probable number.
+
+80
+00:04:17,125 --> 00:04:20,076
+And if there is a tie, she picks one at random.
+
+81
+00:04:20,076 --> 00:04:22,959
+In this case, she selects 6 to be two plucks,
+
+82
+00:04:22,959 --> 00:04:25,427
+and then 8 to be three plucks,
+
+83
+00:04:25,427 --> 00:04:28,232
+and then back to 5 to be four plucks,
+
+84
+00:04:28,232 --> 00:04:30,344
+and 9 is five plucks,
+
+85
+00:04:30,344 --> 00:04:33,793
+and back and forth, until we reach 12,
+
+86
+00:04:33,793 --> 00:04:36,403
+which is assigned to 11 plucks.
+
+87
+00:04:36,403 --> 00:04:39,444
+Now, the most common number, 7,
+
+88
+00:04:39,444 --> 00:04:41,800
+can be sent in less than a second –
+
+89
+00:04:41,800 --> 00:04:43,788
+a huge improvement.
+
+90
+00:04:43,788 --> 00:04:46,050
+This simple change allows them to send
+
+91
+00:04:46,050 --> 00:04:51,964
+more information in the same amount of time, on average.
+
+92
+00:04:51,964 --> 00:04:54,440
+In fact, this coding strategy is optimal
+
+93
+00:04:54,440 --> 00:04:56,020
+for this simple example –
+
+94
+00:04:56,020 --> 00:04:57,649
+in that it's impossible for you
+
+95
+00:04:57,649 --> 00:05:00,030
+to come up with a shorter method
+
+96
+00:05:00,030 --> 00:05:04,671
+of sending two dice rolls – using identical plucks.
+
+97
+00:05:04,671 --> 00:05:08,715
+However, after playing with the wire for some time,
+
+98
+00:05:08,715 --> 00:05:11,094
+Bob hits on a new idea.
+
+99
+00:05:11,094 --> 00:05:13,094
+[PLUCKING SOUNDS BEING PLAYED BACKWARDS]
+
+100
+00:05:27,270 --> 00:05:32,057
+[PLUCKS SHOWN IN SLOW MOTION – NO SOUND]

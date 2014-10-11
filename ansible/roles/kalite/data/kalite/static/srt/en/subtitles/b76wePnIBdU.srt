@@ -1,0 +1,195 @@
+1
+00:00:00,000 --> 00:00:03,485
+Let's say that we have the indefinite integral,
+
+2
+00:00:03,485 --> 00:00:18,636
+and the function is 3x^2 plus 2x times e to the x^3 plus x^2 dx.
+
+3
+00:00:18,636 --> 00:00:22,756
+So how would we go about solving this? So first when you look at it,
+
+4
+00:00:22,756 --> 00:00:27,102
+it seems like a really complicated integral; we have this polynomial right over here
+
+5
+00:00:27,102 --> 00:00:31,825
+being multiplied by this exponential expression and over here, the exponent,
+
+6
+00:00:31,825 --> 00:00:36,172
+we essentially have another polynomial. It seems kind of crazy.
+
+7
+00:00:36,172 --> 00:00:42,403
+And the key intuition here, the key inside is that you might want to use a technique here called
+
+8
+00:00:42,403 --> 00:00:50,163
+u-substitution. And I'll tell you in a second how I would recognize that we have to use u-substitution,
+
+9
+00:00:50,163 --> 00:00:53,573
+and over time, you might even be able to do this type of thing in your head.
+
+10
+00:00:53,573 --> 00:00:59,498
+U-substitution is essentially unwinding the chain rule. In the chain rule --
+
+11
+00:00:59,498 --> 00:01:03,767
+I'll go in more depth in another video where I really talk about that intuition.
+
+12
+00:01:03,767 --> 00:01:09,172
+But the way I'd think about it is, well I have this crazy exponent right over here,
+
+13
+00:01:09,172 --> 00:01:16,895
+I have x^3 plus x^2. And this thing right over here happens to be the derivative of
+
+14
+00:01:16,895 --> 00:01:23,486
+x^3 plus x^2. The derivative of x^3 is 3x^2; derivative of x^2 is 2x,
+
+15
+00:01:23,486 --> 00:01:27,822
+which is a huge clue to me that I could use u-substitution.
+
+16
+00:01:27,822 --> 00:01:33,047
+So what I do here is, this thing where this little expression here where I also see its derivative
+
+17
+00:01:33,047 --> 00:01:43,044
+being multiplied, I can set that equal to u. So I can say, "u is equal to x^3 plus x^2."
+
+18
+00:01:43,044 --> 00:01:46,903
+Now what is going to be the derivative of u with respect to x?
+
+19
+00:01:46,903 --> 00:01:56,887
+du/dx (well, we've done this multiple times) is going to be 3x^2 plus 2x,
+
+20
+00:01:56,887 --> 00:02:03,497
+and now we can write this in differential form. And du/dx isn't really a fraction
+
+21
+00:02:03,497 --> 00:02:08,700
+of differential of u divided by differential of x, it really is a form of notation.
+
+22
+00:02:08,700 --> 00:02:12,372
+But it is often useful to kind of pretend it's a fraction.
+
+23
+00:02:12,372 --> 00:02:16,500
+And you could kind of view this, if you want to just get a du,
+
+24
+00:02:16,500 --> 00:02:21,980
+if you just want this in differential form over here, how much does u change for given change in x,
+
+25
+00:02:21,994 --> 00:02:32,771
+you can multiply both sides times dx. And so if we were to pretend it's a fraction,
+
+26
+00:02:32,771 --> 00:02:35,856
+and it will give you the correct differential form,
+
+27
+00:02:35,856 --> 00:02:49,103
+you're going to be left with du is equal to 3x^2 plus 2x dx.
+
+28
+00:02:49,103 --> 00:02:54,350
+Now why is this over here, why did I go through the trouble of doing that?
+
+29
+00:02:54,350 --> 00:03:01,171
+Well we see we have a 3x^2 plus 2x, and it's being multiplied by a dx right over here.
+
+30
+00:03:01,171 --> 00:03:08,695
+I could rewrite this original integral as the integral of -- let me do that in that color --
+
+31
+00:03:08,695 --> 00:03:20,196
+of 3x^2 plus 2x times dx times e -- let me do that in that other color --
+
+32
+00:03:20,196 --> 00:03:28,891
+times e to the x^3 plus x^2. Now, what's interesting about this,
+
+33
+00:03:28,891 --> 00:03:35,771
+well this stuff that I have in magenta here is exactly equal to du.
+
+34
+00:03:35,771 --> 00:03:41,561
+And then this stuff I have up here, x^3 plus x^2, that is what I said what u equaled to.
+
+35
+00:03:41,561 --> 00:03:46,169
+That is going to be equal to u. So I could rewrite my entire integral --
+
+36
+00:03:46,169 --> 00:03:49,700
+and now you might recognize why this might simplify things a good bit --
+
+37
+00:03:49,700 --> 00:03:53,222
+it's going to be equal to, and what I'm going to do is I'm going to change the order.
+
+38
+00:03:53,222 --> 00:03:57,297
+I'm going to put the du, this entire du, I'm going to stick it on the other side here
+
+39
+00:03:57,297 --> 00:04:01,704
+so it looks like more of the standard form that we're used to seeing in our indefinite integrals in,
+
+40
+00:04:01,704 --> 00:04:15,495
+so it's going to be, we're going to have our du times e to the u.
+
+41
+00:04:15,495 --> 00:04:20,892
+And so what would the anti-derivative of this be in terms of u?
+
+42
+00:04:20,892 --> 00:04:25,958
+Well, the derivative of e^u is e^u; the anti-derivative of e^u is e^u.
+
+43
+00:04:25,958 --> 00:04:32,412
+So it's going to be equal to e^u, now there's a possibility that there's some type of constant
+
+44
+00:04:32,425 --> 00:04:38,292
+factor here, so let me write that. So plus C. And now, to get it in terms of x,
+
+45
+00:04:38,292 --> 00:04:43,096
+we just have to un-substitute the u. We know what u is equal to.
+
+46
+00:04:43,096 --> 00:04:47,030
+So we could say that this is going to be equal to e -- instead of writing u,
+
+47
+00:04:47,030 --> 00:05:00,349
+we could say u is x^3 plus x^2. And then we have our plus C. And we are done!
+
+48
+00:05:00,349 --> 00:05:04,084
+We've found the anti-derivative. And I encourage you to take the derivative of this,
+
+49
+00:05:04,084 --> 00:05:08,084
+and I think you will find yourself using the chain rule and getting right back to what we had over here.

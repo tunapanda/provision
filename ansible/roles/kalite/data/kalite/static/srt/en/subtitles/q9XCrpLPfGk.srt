@@ -1,0 +1,171 @@
+1
+00:00:01,067 --> 00:00:08,600
+The perimeter of a rectangular fence measures 0.72 kilometers. The length of the fenced area is
+
+2
+00:00:08,600 --> 00:00:17,867
+160 meters. What is its width? Now the first thing that jumps out is that they're giving us different units.
+
+3
+00:00:17,867 --> 00:00:23,067
+They're giving us the perimeter in terms of kilometers and the length in terms of meters.
+
+4
+00:00:23,067 --> 00:00:28,933
+I am assuming that they want the width in meters because that's what they're giving us the length in.
+
+5
+00:00:28,933 --> 00:00:41,667
+Convert the perimeter into meters. So we have the perimeter P is equal to 0.72 kilometers which I'll write km for short. Kilometers.
+
+6
+00:00:41,667 --> 00:00:45,800
+1000 meters. That's what the prefix "kilo" means.
+
+7
+00:00:45,800 --> 00:00:50,267
+And so we can say that for every 1 kilometer we have a 1000 meters.
+
+8
+00:00:54,652 --> 00:01:00,733
+And you might say so how do you know to multiply it by a 1000 instead of divide by a 1000?
+
+9
+00:01:00,733 --> 00:01:03,333
+One way to think about it and this is probably the best way to think about it is
+
+10
+00:01:03,333 --> 00:01:11,200
+a kilometer is a huge bunch of meters, its actually 1000 meters. So if I am converting kilometers into meters
+
+11
+00:01:11,200 --> 00:01:19,467
+I should have a much larger number whatever my number is in kilometers it should be a much larger number in meters.
+
+12
+00:01:19,467 --> 00:01:27,733
+And also if you care about Dimensional Analysis, the dimensions cancel out here too. We have km in the numerator, km in the denominator.
+
+13
+00:01:27,733 --> 00:01:34,667
+So you multiply it, you have 0.72 times a 1000 m and to multiply anything times a 1000 or
+
+14
+00:01:34,667 --> 00:01:42,000
+any power of 10 if I multiply it by 10 I'll move the decimal to the right one space
+
+15
+00:01:42,000 --> 00:01:45,133
+that would be multiplying it by 10 , it would be 7.2,
+
+16
+00:01:45,133 --> 00:01:48,000
+multiplying it by a 100 would give us 72.
+
+17
+00:01:48,000 --> 00:01:55,319
+If we are multiplying by a 1000 that would give us 720.
+
+18
+00:01:55,319 --> 00:02:04,845
+So this is going to be equal to 720 m. So that is the perimeter.
+
+19
+00:02:04,845 --> 00:02:16,789
+Now let's remind ourselves what the perimeter even is then hopefully we can figure out the width.
+
+20
+00:02:16,789 --> 00:02:22,269
+And they tell us that the length is 160 m. So let's say that that's this dimension over here.
+
+21
+00:02:22,269 --> 00:02:30,867
+The length (l) is 160 m. Its a rectangle so these sides are both the same length.
+
+22
+00:02:30,867 --> 00:02:36,467
+And our width is what we need to solve for so that's our width (w) and this is also our width.
+
+23
+00:02:36,467 --> 00:02:41,667
+And the perimeter is the measure going around it. So the perimeter is going to be
+
+24
+00:02:41,667 --> 00:02:47,267
+this length plus this width plus that same length again plus that width over there.
+
+25
+00:02:47,267 --> 00:03:03,800
+Or the perimeter (P) is equal to the length (l) plus the width (w) plus the length (l) plus the width (w)
+
+26
+00:03:03,800 --> 00:03:07,400
+We know what the length is so then the perimeter would be equal to
+
+27
+00:03:07,400 --> 00:03:23,662
+160 m plus w plus 160 m plus w. And then we know what the perimeter is. That's actually 720 m.
+
+28
+00:03:23,662 --> 00:03:37,130
+So 720 m is equal to 160 m plus w plus 160 m plus w. Now there's a bunch of different ways to solve for w.
+
+29
+00:03:37,130 --> 00:03:44,421
+One way is to just add the width plus the length once, that's going to add up to half of the perimeter.
+
+30
+00:03:44,421 --> 00:03:51,155
+So if I just go half way around the rectangle that's going to add up to half the perimeter.
+
+31
+00:03:51,155 --> 00:04:08,067
+So w plus 160 m should be equal to one half of the perimeter which is one half times 720 m.
+
+32
+00:04:08,067 --> 00:04:30,025
+Or w plus 160 m is equal to 720 divided by 2 which is 360 m. And so now you have w plus 160 m is 360 m.
+
+33
+00:04:30,025 --> 00:04:42,800
+So we could now subtract 160 from both sides to solve for it. Something plus 160 is 360,
+
+34
+00:04:42,800 --> 00:04:49,576
+you could in your head say, well, that something must be 200. 200 plus 160 is 360.
+
+35
+00:04:49,576 --> 00:04:57,703
+The width (w) is 200 m. Or if you want to do it a little bit more formally you subtract 160 m
+
+36
+00:04:57,703 --> 00:05:09,081
+from both sides of this equation and you are left with the width (w) is equal to 200 m.
+
+37
+00:05:09,081 --> 00:05:13,353
+We've solved the problem. The other way is you could actually go straight from this equation.
+
+38
+00:05:13,353 --> 00:05:30,667
+So we get 720 is 160 plus 160 (320) and width (w) plus width (w) or 2 times the width (2w).
+
+39
+00:05:30,667 --> 00:05:37,781
+Anything plus itself is just 2 times that anything. Now if this plus 320 is equal to 720,
+
+40
+00:05:37,781 --> 00:05:46,001
+what plus 320 is 720? Well this thing must be equal to 400. Or, formally,
+
+41
+00:05:46,001 --> 00:05:57,936
+subtract 320 from both sides of this. And you would get 400 is equal to 2w.
+
+42
+00:05:57,936 --> 00:06:04,344
+So if 2 times something is equal to 400 that something must be 200.
+
+43
+00:06:04,344 --> 99:59:59,999
+Or you can divide both sides of this equation by 2. Either way you will get the width is equal to 200 m.

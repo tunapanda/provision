@@ -1,0 +1,579 @@
+1
+00:00:02,100 --> 00:00:05,300
+Hello. In this series of presentations, I'm gonna try
+
+2
+00:00:05,300 --> 00:00:11,200
+to teach you everything you need to know about triangles and angles and parallel lines
+
+3
+00:00:11,200 --> 00:00:18,800
+and this is probably the highest-yield information that you could ever learn, especially in terms of the standardized tests.
+
+4
+00:00:18,800 --> 00:00:22,300
+And then when we've learned all the rules we'll play something I call the Angle Game,
+
+5
+00:00:22,300 --> 00:00:25,600
+which is essentially what the SAT makes you do over and over again.
+
+6
+00:00:25,600 --> 00:00:29,100
+So let's start with some basics.You know what an angles is.
+
+7
+00:00:29,100 --> 00:00:35,300
+Well actually maybe you don't know what an angle is.
+
+8
+00:00:35,300 --> 00:00:46,000
+If I have two lines...
+
+9
+00:00:46,000 --> 00:00:48,800
+and they intersect at some point,
+
+10
+00:00:48,800 --> 00:00:55,900
+the angle is a measure of exactly how wide the intersection is between those two lines.
+
+11
+00:00:55,900 --> 00:01:05,500
+So this is the angle. An angle is how wide those two lines open up.
+
+12
+00:01:05,500 --> 00:01:12,600
+And they're measured either in degrees or radiants. And for the sake of most geometry classes we'll use degrees.
+
+13
+00:01:12,600 --> 00:01:16,300
+When we start doing Trigonometry we'll use radiants.
+
+14
+00:01:16,300 --> 00:01:21,700
+And you're probably familiar with this. Zero degrees would be two lines on top of each other...
+
+15
+00:01:21,700 --> 00:01:27,700
+this if I were to just eyeball it looks like 45 degrees.
+
+16
+00:01:27,700 --> 00:01:38,800
+If I had the lines even wider apart, like that, that's 90 degrees.
+
+17
+00:01:38,800 --> 00:01:41,400
+And 90 degree lines are also called perpendicular, because
+
+18
+00:01:41,400 --> 00:01:45,200
+they are, I feel like saying because they are perpendicular,
+
+19
+00:01:45,200 --> 00:01:49,900
+but because one is going completely vertical while the other is going horizontal.
+
+20
+00:01:49,900 --> 00:01:56,400
+Wow, it's actually amazingly difficult to find the exact right wording.
+
+21
+00:01:56,400 --> 00:02:03,500
+But I think you get the idea. By definition, perpendicular lines are 90 degrees apart from each other.
+
+22
+00:02:03,500 --> 00:02:07,700
+And you've seen this all the time in things like squares or rectangles.
+
+23
+00:02:07,700 --> 00:02:18,800
+A rectangle is made up of a bunch of perpendicular lines, or lines at 90 degree angles.
+
+24
+00:02:18,800 --> 00:02:23,700
+The way you draw a 90 degree angle is you draw a little box like that.
+
+25
+00:02:23,700 --> 00:02:29,300
+That's the same thing as doing this.
+
+26
+00:02:29,300 --> 00:02:49,700
+And you could even get wider angles. If you go above 90 degrees... this could be, I don't know, 135 degrees
+
+27
+00:02:49,700 --> 00:02:59,100
+If you ever want to really measure the angles you could use a protractor.
+
+28
+00:02:59,100 --> 00:03:10,400
+Then if you had it so wide that the two lines are actually almost forming a line...
+
+29
+00:03:10,400 --> 00:03:21,600
+that's 180 degrees. And then you could keep going.
+
+30
+00:03:21,600 --> 00:03:36,900
+If this angle is 135 degrees...
+
+31
+00:03:36,900 --> 00:03:55,800
+There are 360 degrees in a circle. So this magenta angle would be 360 - 135 degrees
+
+32
+00:03:55,800 --> 00:04:05,400
+that's 225 degrees.
+
+33
+00:04:05,400 --> 00:04:12,100
+So you know degrees in a circle are 360 degrees, this is important to know.
+
+34
+00:04:12,100 --> 00:04:17,400
+It's also important to know that if you go halfway around a circle,
+
+35
+00:04:17,400 --> 00:04:20,400
+that's 180 degrees.
+
+36
+00:04:20,400 --> 00:04:21,400
+Like if you viewed the
+pivot point as like,
+
+37
+00:04:21,400 --> 00:04:22,100
+let's say, right here.
+
+38
+00:04:22,100 --> 00:04:23,200
+I mean it looks like just
+one line and it really is.
+
+39
+00:04:23,200 --> 00:04:24,400
+But that's 180 degrees.
+
+40
+00:04:24,400 --> 00:04:27,600
+And then if you go quarter
+way around the circle,
+
+41
+00:04:27,600 --> 00:04:31,800
+that's 90 degrees.
+
+42
+00:04:31,800 --> 00:04:32,900
+All right?
+
+43
+00:04:32,900 --> 00:04:34,100
+Hopefully you're getting
+a bit of an intuition
+
+44
+00:04:34,100 --> 00:04:35,600
+for what an angle is.
+
+45
+00:04:35,600 --> 00:04:40,400
+So now I will teach you
+a bunch of very useful
+
+46
+00:04:40,400 --> 00:04:44,500
+rules for angles.
+
+47
+00:04:44,500 --> 00:04:50,300
+Clear this.
+
+48
+00:04:50,300 --> 00:04:50,800
+So let me redraw.
+
+49
+00:04:50,800 --> 00:04:54,300
+So if I had a line like this.
+
+50
+00:04:54,300 --> 00:04:56,900
+I like using the colors, just
+so I think it keeps you from
+
+51
+00:04:56,900 --> 00:05:04,100
+getting completely bored.
+
+52
+00:05:04,100 --> 00:05:06,477
+And it might not be completely
+intuitive what I'm doing, but
+
+53
+00:05:06,477 --> 00:05:11,400
+let's add an angle like that.
+
+54
+00:05:11,400 --> 00:05:14,800
+And so, let's just say-- you
+know, I'm not measuring these
+
+55
+00:05:14,800 --> 00:05:19,400
+exactly-- let's say that
+this is 30 degrees.
+
+56
+00:05:19,400 --> 00:05:27,300
+We know that if we go all the
+way around the circle, we know
+
+57
+00:05:27,300 --> 00:05:29,800
+that that's 360 degrees.
+
+58
+00:05:29,800 --> 00:05:30,600
+Right?
+
+59
+00:05:30,600 --> 00:05:33,300
+And that's a very ugly
+looking around the circle
+
+60
+00:05:33,300 --> 00:05:36,100
+angle that I drew.
+
+61
+00:05:36,100 --> 00:05:40,100
+So then we also know
+that this angle right
+
+62
+00:05:40,100 --> 00:05:44,600
+here is 330 degrees.
+
+63
+00:05:44,600 --> 00:05:45,300
+Right?
+
+64
+00:05:45,300 --> 00:05:48,800
+Because this angle plus this
+magenta angle is going to
+
+65
+00:05:48,800 --> 00:05:50,300
+equal the whole circle.
+
+66
+00:05:50,300 --> 00:05:53,300
+So this is equal
+to 330 degrees.
+
+67
+00:05:53,300 --> 00:05:56,400
+So remember that.
+
+68
+00:05:56,400 --> 00:05:58,500
+The angles in a circle--
+or there are 360
+
+69
+00:05:58,500 --> 00:06:01,300
+degrees in a circle.
+
+70
+00:06:01,300 --> 00:06:05,500
+I don't know if you remember.
+
+71
+00:06:05,500 --> 00:06:06,200
+You probably don't.
+
+72
+00:06:06,200 --> 00:06:07,400
+This was probably
+before you were born.
+
+73
+00:06:07,400 --> 00:06:08,900
+But there used to be a game
+called 720, and it was a
+
+74
+00:06:08,900 --> 00:06:10,900
+skateboarding game--
+it was a video game.
+
+75
+00:06:10,900 --> 00:06:14,100
+And the 720 was essentially
+you were trying to jump
+
+76
+00:06:14,100 --> 00:06:16,500
+your skateboard and
+spin around twice.
+
+77
+00:06:16,500 --> 00:06:18,500
+And that's 720 degrees.
+
+78
+00:06:18,500 --> 00:06:22,600
+If you go around a circle
+twice that's 720 degrees.
+
+79
+00:06:22,600 --> 00:06:24,300
+If you just jump and
+spin around once, you
+
+80
+00:06:24,300 --> 00:06:26,700
+went 360 degrees.
+
+81
+00:06:26,700 --> 00:06:29,700
+So you've probably heard this
+in just popular culture.
+
+82
+00:06:29,700 --> 00:06:31,200
+But anyway.
+
+83
+00:06:31,200 --> 00:06:32,900
+So 360 degrees in a circle.
+
+84
+00:06:32,900 --> 00:06:35,800
+And you could imagine half
+a circle is 180 degrees.
+
+85
+00:06:35,800 --> 00:06:40,200
+So the other important thing to
+realize is, like we said, if
+
+86
+00:06:40,200 --> 00:06:43,700
+we go halfway around the
+circle it's 180 degrees.
+
+87
+00:06:43,700 --> 00:06:50,900
+But if we have two angles that
+add up to that-- so let's say.
+
+88
+00:06:50,900 --> 00:06:53,700
+I don't know if these lines are
+thick enough for you to see.
+
+89
+00:06:53,700 --> 00:06:58,100
+Let me draw something thicker.
+
+90
+00:06:58,100 --> 00:06:59,700
+It doesn't look ideal,
+but you get the idea.
+
+91
+00:06:59,700 --> 00:07:11,600
+So if we have this
+angle, let's call it x.
+
+92
+00:07:11,600 --> 00:07:19,500
+And then this angle is y.
+
+93
+00:07:19,500 --> 00:07:24,000
+What do we know about the
+relationship between x and y?
+
+94
+00:07:24,000 --> 00:07:28,300
+Well, we know that the entire
+angle is half of a circle.
+
+95
+00:07:28,300 --> 00:07:28,800
+Right?
+
+96
+00:07:28,800 --> 00:07:31,700
+So that's 180 degrees.
+
+97
+00:07:31,700 --> 00:07:34,500
+That's 180 degrees,
+this entire angle.
+
+98
+00:07:34,500 --> 00:07:42,600
+So what are angles x and
+y going to add up to?
+
+99
+00:07:42,600 --> 00:07:44,900
+I'm trying to stay
+color consistent.
+
+100
+00:07:44,900 --> 00:07:51,100
+x plus y are going to
+equal-- I'm color blind,
+
+101
+00:07:51,100 --> 00:07:54,800
+I think-- 180 degrees.
+
+102
+00:07:54,800 --> 00:08:00,400
+Or you could write y is
+equal to 180 minus x.
+
+103
+00:08:00,400 --> 00:08:05,000
+Or x is equal to 180 minus y.
+
+104
+00:08:05,000 --> 00:08:09,100
+But if x plus y are equal to
+180 degrees-- and you can see
+
+105
+00:08:09,100 --> 00:08:11,900
+that it makes sense that they
+do-- if you add the two angles
+
+106
+00:08:11,900 --> 00:08:14,900
+you go halfway around a circle.
+
+107
+00:08:14,900 --> 00:08:20,400
+Then that tells us that x and y
+are-- and this is a fancy word,
+
+108
+00:08:20,400 --> 00:08:22,900
+and it's just good to commit
+this to memory-- they are
+
+109
+00:08:22,900 --> 00:08:36,300
+supplementary angles.
+
+110
+00:08:36,300 --> 00:08:39,800
+That's when you add
+to 180 degrees.
+
+111
+00:08:39,800 --> 00:08:45,700
+Now what if we had
+this situation.
+
+112
+00:08:45,700 --> 00:08:48,600
+Oh my God, that was horrible.
+
+113
+00:08:48,600 --> 00:08:53,100
+Undo.
+
+114
+00:08:53,100 --> 00:08:57,000
+Let's say I had this situation.
+
+115
+00:08:57,000 --> 00:08:57,800
+Let's see.
+
+116
+00:08:57,800 --> 00:09:00,300
+I draw two perpendicular lines.
+
+117
+00:09:00,300 --> 00:09:00,900
+Right?
+
+118
+00:09:00,900 --> 00:09:03,200
+So this is going a quarter
+way around the circle.
+
+119
+00:09:03,200 --> 00:09:03,700
+All right.
+
+120
+00:09:03,700 --> 00:09:09,400
+Let's say this entire angle
+here-- I'm drawing it really
+
+121
+00:09:09,400 --> 00:09:10,600
+big-- that's 90 degrees.
+
+122
+00:09:10,600 --> 00:09:11,100
+Right?
+
+123
+00:09:11,100 --> 00:09:12,300
+They're perpendicular.
+
+124
+00:09:12,300 --> 00:09:19,700
+And now if I had two
+angles within that.
+
+125
+00:09:19,700 --> 00:09:21,600
+So now if I have two angles
+here-- so let's say that this
+
+126
+00:09:21,600 --> 00:09:27,200
+is x and this is y-- what
+do x and y add up to?
+
+127
+00:09:27,200 --> 00:09:32,200
+Well, x plus y is 90.
+
+128
+00:09:32,200 --> 00:09:38,900
+And we can say that x and
+y are complementary.
+
+129
+00:09:38,900 --> 00:09:43,000
+And it's important to not get
+confused between the two.
+
+130
+00:09:43,000 --> 00:09:48,200
+Just remember complementary
+means two angles add up to 90
+
+131
+00:09:48,200 --> 00:09:50,500
+degrees, supplementary means
+that two angles add
+
+132
+00:09:50,500 --> 99:59:59,999
+up to 180 degrees.

@@ -1,0 +1,835 @@
+1
+00:00:00,000 --> 00:00:03,020
+In the last video we figured out the probability of
+
+2
+00:00:03,020 --> 00:00:04,770
+getting exactly three heads,
+
+3
+00:00:05,370 --> 00:00:08,380
+when we have five flips of a fair coin.
+
+4
+00:00:08,380 --> 00:00:09,820
+What I want to do in this video is
+
+5
+00:00:09,820 --> 00:00:12,330
+think about it in a slightly more general way.
+
+6
+00:00:12,330 --> 00:00:14,410
+We will start assuming a fair coin although
+
+7
+00:00:14,410 --> 00:00:16,700
+we will surely see we don't have to make that assumption.
+
+8
+00:00:16,700 --> 00:00:19,780
+But what I want to do is to figure out the probability
+
+9
+00:00:19,780 --> 00:00:30,900
+of getting K heads in N flips of the fair coin.
+
+10
+00:00:34,900 --> 00:00:36,960
+So the first thing to think about is just
+
+11
+00:00:36,960 --> 00:00:38,760
+how many possibilities there are.
+
+12
+00:00:38,760 --> 00:00:40,630
+Well there are going to be n flips.
+
+13
+00:00:42,630 --> 00:00:45,090
+So literally, there is the first flip, second flip,third flip,
+
+14
+00:00:45,290 --> 00:00:47,590
+all the way to the nth flip.
+
+15
+00:00:47,590 --> 00:00:49,570
+And this is a fair coin, so each of these flips
+
+16
+00:00:49,570 --> 00:00:53,360
+contain two equally likely possibilities.
+
+17
+00:00:53,360 --> 00:00:55,200
+So the total number of possibilities is going to be
+
+18
+00:00:55,200 --> 00:00:58,760
+2 times 2 times 2. . . n times.
+
+19
+00:00:58,760 --> 00:01:02,520
+So this is going to be equal to 2 to the nth possibilities.
+
+20
+00:01:06,320 --> 00:01:09,680
+Now let's think about how many of those equally likely,
+
+21
+00:01:09,680 --> 00:01:11,380
+these are all equally likely possibilities.
+
+22
+00:01:11,380 --> 00:01:12,440
+This is a fair coin.
+
+23
+00:01:12,440 --> 00:01:13,840
+Let's think about how many of those
+
+24
+00:01:13,840 --> 00:01:19,440
+equally likely possibilities involve k heads.
+
+25
+00:01:21,340 --> 00:01:23,080
+Well, just like we did for the case
+
+26
+00:01:23,080 --> 00:01:25,630
+where we thought about three heads.
+
+27
+00:01:27,630 --> 00:01:30,850
+We say "Well look, the first of those k heads,
+
+28
+00:01:32,550 --> 00:01:36,170
+how many different buckets could it fall into?"
+
+29
+00:01:36,170 --> 00:01:38,750
+Well the first of the k heads could fall into
+
+30
+00:01:39,050 --> 00:01:41,900
+n different buckets, right?
+
+31
+00:01:41,900 --> 00:01:43,620
+It could be the first flip, second flip,
+
+32
+00:01:43,620 --> 00:01:45,180
+all the way to the nth flip.
+
+33
+00:01:45,180 --> 00:01:47,560
+Then the second of those k heads,
+
+34
+00:01:47,560 --> 00:01:49,780
+we don't know exactly how many k is.
+
+35
+00:01:49,780 --> 00:01:52,200
+We will have n minus 1 possibilities.
+
+36
+00:01:54,700 --> 00:01:56,940
+And then the third of those k heads will have
+
+37
+00:01:56,940 --> 00:01:58,540
+n minus 2 possibilities,
+
+38
+00:01:58,540 --> 00:02:00,850
+since two of these buckets are already taken up.
+
+39
+00:02:00,850 --> 00:02:02,270
+And we will do this until
+
+40
+00:02:02,270 --> 00:02:05,240
+we have essentially counted for all of the k heads.
+
+41
+00:02:05,240 --> 00:02:08,250
+So this would go down all the way to,
+
+42
+00:02:08,750 --> 00:02:12,030
+we will multiply. The number of things
+
+43
+00:02:12,030 --> 00:02:14,500
+we're multiplying is going to be k,
+
+44
+00:02:14,500 --> 00:02:17,300
+one for each of the k heads.
+
+45
+00:02:17,300 --> 00:02:20,240
+So this is one, two, three,
+
+46
+00:02:20,240 --> 00:02:25,490
+and then you are going to all the way to n minus k minus 1.
+
+47
+00:02:25,490 --> 00:02:27,870
+And you could try this out in the case of five.
+
+48
+00:02:27,870 --> 00:02:30,890
+When n was five and k was three,
+
+49
+00:02:30,890 --> 00:02:36,400
+this resulted in five times four times,
+
+50
+00:02:36,400 --> 00:02:38,970
+actually we just have to go, times three,
+
+51
+00:02:38,970 --> 00:02:41,320
+actually that was this term right over here.
+
+52
+00:02:41,320 --> 00:02:44,010
+So I am doing a case that is a little bit longer,
+
+53
+00:02:44,010 --> 00:02:45,900
+where k is a slightly larger number
+
+54
+00:02:45,900 --> 00:02:49,760
+because this right over here is five minus two
+
+55
+00:02:49,760 --> 00:02:50,740
+that is this one over here.
+
+56
+00:02:50,740 --> 00:02:52,880
+Just not to confuse you,
+
+57
+00:02:52,880 --> 00:02:53,880
+let me write it like this.
+
+58
+00:02:56,780 --> 00:02:59,950
+So you'll have n spots for that first head.
+
+59
+00:02:59,950 --> 00:03:02,260
+N minus one spots for that second head.
+
+60
+00:03:02,260 --> 00:03:05,120
+And then you keep going and you are going to have
+
+61
+00:03:05,520 --> 00:03:08,790
+a total of these k things you will multiply
+
+62
+00:03:08,790 --> 00:03:10,770
+and that last one is going to have n-(k-1) possibllities.
+
+63
+00:03:16,810 --> 00:03:19,180
+And now hopefully it'll map a little better to the one
+
+64
+00:03:19,180 --> 00:03:22,080
+where we had five flips and three heads
+
+65
+00:03:22,080 --> 00:03:25,740
+because here there were five possibilities for the first head
+
+66
+00:03:25,740 --> 00:03:28,340
+four possibilities for the second head, and since n is 5,
+
+67
+00:03:31,540 --> 00:03:33,410
+5-2 is three possibilities for the last head.
+
+68
+00:03:33,410 --> 00:03:35,950
+So this actually works.This is the number of spots
+
+69
+00:03:36,150 --> 00:03:39,030
+where - or the numbers of ways that we could put,
+
+70
+00:03:39,230 --> 00:03:42,290
+that we can stick those heads in those,
+
+71
+00:03:42,290 --> 00:03:45,770
+or that we can put three heads into
+
+72
+00:03:45,770 --> 00:03:47,770
+five different possible buckets.
+
+73
+00:03:47,770 --> 00:03:49,660
+Now just like the last video,
+
+74
+00:03:49,660 --> 00:03:51,730
+we don't want to overcount things
+
+75
+00:03:51,730 --> 00:03:53,400
+because we don't care about the order.
+
+76
+00:03:53,400 --> 00:03:59,020
+We don't want to differentiate one ordering of heads
+
+77
+00:03:59,020 --> 00:04:00,240
+- and I am just going to use these letters
+
+78
+00:04:00,240 --> 00:04:01,420
+to differentiate the different heads -
+
+79
+00:04:01,420 --> 00:04:04,690
+We don't want to differentiate this from this
+
+80
+00:04:05,090 --> 00:04:11,160
+from this: Heads A, Heads B, or any of the other orderings of this.
+
+81
+00:04:11,160 --> 00:04:13,540
+So what we need to do is we need to divide this.
+
+82
+00:04:13,540 --> 00:04:15,510
+We need divide these numbers so that
+
+83
+00:04:15,510 --> 00:04:17,770
+we don't count all of these different orderings.
+
+84
+00:04:17,770 --> 00:04:20,460
+We need divide these by the different ways
+
+85
+00:04:20,460 --> 00:04:22,480
+that you can order k things,
+
+86
+00:04:22,480 --> 00:04:24,980
+the different ways that you can order k things.
+
+87
+00:04:24,980 --> 00:04:28,710
+So if you have k things, so you know, one thing, two things,
+
+88
+00:04:28,710 --> 00:04:32,100
+all the way to k things. How many ways can you order it?
+
+89
+00:04:32,400 --> 00:04:36,200
+Well, the first thing can be in k different positions.
+
+90
+00:04:37,700 --> 00:04:42,320
+Or maybe I'll do it like this. Maybe I will do it thing 1,
+
+91
+00:04:42,820 --> 00:04:49,000
+T for thing,thing 1, thing 2, thing 3, all the way to thing k.
+
+92
+00:04:49,000 --> 00:04:50,520
+How mant different ways can you order it?
+
+93
+00:04:50,520 --> 00:04:53,600
+Well thing 1 can be in k different positions.
+
+94
+00:04:53,600 --> 00:04:58,170
+Then thing 2 would be in k minus 1 positions.
+
+95
+00:04:58,170 --> 00:05:00,580
+And then all the way down to the last one
+
+96
+00:05:00,580 --> 00:05:02,100
+is only going to have 1 position.
+
+97
+00:05:02,100 --> 00:05:07,920
+So this is going to be k times k minus 1, times k minus 2,
+
+98
+00:05:07,920 --> 00:05:11,860
+all the way down to 1.
+
+99
+00:05:12,060 --> 00:05:15,350
+And in the example where we had three heads in five flips,
+
+100
+00:05:15,350 --> 00:05:18,470
+was three times two all the way down to 1 - 3 times 2 times 1.
+
+101
+00:05:18,470 --> 00:05:21,340
+And so is there a simpler way that we can write this?
+
+102
+00:05:21,340 --> 00:05:23,310
+Well this expression right over here,
+
+103
+00:05:25,310 --> 00:05:29,020
+this is the same thing as k factorial
+
+104
+00:05:29,020 --> 00:05:31,950
+and if you haven't have heard what a factorial is,
+
+105
+00:05:31,950 --> 00:05:33,950
+it's exactly this thing right over here.
+
+106
+00:05:33,950 --> 00:05:40,040
+K! (k factorial) literally means k times k minus 1 times k minus 2,
+
+107
+00:05:41,740 --> 00:05:43,490
+all the way down to 1.
+
+108
+00:05:45,980 --> 00:05:48,470
+So for example, 2! is equal to 2 times 1.
+
+109
+00:05:57,760 --> 00:05:58,760
+So, and actually it's a fun thing to play with,
+
+110
+00:05:58,760 --> 00:06:02,290
+factorials get large, very very very very fast.
+
+111
+00:06:02,290 --> 00:06:04,550
+So anyway, the denominator right over here
+
+112
+00:06:04,550 --> 00:06:06,590
+can be rewritten as k factorial.
+
+113
+00:06:09,590 --> 00:06:12,050
+And there is any way to rewrite this numerator
+
+114
+00:06:12,050 --> 00:06:13,700
+in terms of factorials.
+
+115
+00:06:13,700 --> 00:06:18,060
+So if we were to write n!, let me see how we can write this.
+
+116
+00:06:18,060 --> 00:06:20,290
+If we are going to write n!,
+
+117
+00:06:20,290 --> 00:06:21,850
+let me get some real estate over here.
+
+118
+00:06:22,650 --> 00:06:29,690
+So n! would be equal to n times n minus 1, times n minus 2,
+
+119
+00:06:29,690 --> 00:06:37,470
+all the way down to 1, that's kind of what we want.
+
+120
+00:06:37,470 --> 00:06:39,390
+We just want the first k terms of it.
+
+121
+00:06:41,390 --> 00:06:43,990
+So what if we divide this by,
+
+122
+00:06:43,990 --> 00:06:49,120
+so let's divide this by (n-k)!
+
+123
+00:06:53,020 --> 00:06:55,830
+So let's think about what that is going to do.
+
+124
+00:06:55,830 --> 00:07:01,720
+If we have (n-k)! that is the same thing as,
+
+125
+00:07:01,720 --> 00:07:03,640
+I have to do a little bit of algebraic manipulation here
+
+126
+00:07:03,640 --> 00:07:05,220
+right over here,
+
+127
+00:07:05,220 --> 00:07:08,410
+that is the same thing as n minus k,
+
+128
+00:07:24,950 --> 00:07:28,700
+all the way down to 1. When you divide this,
+
+129
+00:07:28,700 --> 00:07:30,280
+the 1 is going to cancel out,
+
+130
+00:07:30,680 --> 00:07:32,000
+and what you may or may not have realized is that
+
+131
+00:07:32,000 --> 00:07:34,270
+- and you can work out the math - everything is going to
+
+132
+00:07:34,270 --> 00:07:37,600
+cancel out here until you are just left with, up here,
+
+133
+00:07:39,600 --> 00:07:44,630
+everything from n times n minus 1 to n - (k - 1).
+
+134
+00:07:45,130 --> 00:07:49,080
+Because if you expand this out,
+
+135
+00:07:49,080 --> 00:07:51,150
+if you distribute this negative number,
+
+136
+00:07:51,150 --> 00:07:53,630
+this is the same thing as n minus k plus 1.
+
+137
+00:07:53,630 --> 00:07:57,890
+So n minus k plus 1 is the integer that's one larger
+
+138
+00:07:57,890 --> 00:07:59,330
+than this right over here.
+
+139
+00:07:59,330 --> 00:08:02,910
+So if you divide out, this would cancel with something up here.
+
+140
+00:08:02,910 --> 00:08:04,180
+This would cancel somnething up here.
+
+141
+00:08:04,180 --> 00:08:05,690
+This would cancel something up here.
+
+142
+00:08:05,690 --> 00:08:07,120
+And we are going to be the left with
+
+143
+00:08:07,120 --> 00:08:09,270
+is exactly this thing over here.
+
+144
+00:08:09,270 --> 00:08:13,160
+And if you don't believe me, we can actually try it out.
+
+145
+00:08:13,160 --> 00:08:21,720
+So let's think about 5! over (5-3)!
+
+146
+00:08:24,520 --> 00:08:28,990
+so this is going to be 5 times 4 times 3 times 2 times 1.
+
+147
+00:08:28,990 --> 00:08:31,700
+So all of that stuff over there, all the way down to 1,
+
+148
+00:08:32,000 --> 00:08:38,140
+over 5 minus 3 is 2, over 2!, 2 times 1. 2 cancels with 2,
+
+149
+00:08:38,140 --> 00:08:40,150
+1 cancels with 1.You don't have to worry about that,
+
+150
+00:08:40,150 --> 00:08:42,480
+and you are just left with 5 times 4 times 3,
+
+151
+00:08:42,480 --> 00:08:48,860
+exactly what we had up here, 5 times 4 times 3.
+
+152
+00:08:49,160 --> 00:08:51,740
+And so, in general, if you wanted to figure out
+
+153
+00:08:51,740 --> 00:08:55,910
+the number of ways to stick 2 things in 5 chairs,
+
+154
+00:08:55,910 --> 00:08:59,640
+and you don't care about differentiating between those 2 things.
+
+155
+00:08:59,640 --> 00:09:05,890
+You are going to have this expression right over here,
+
+156
+00:09:05,890 --> 00:09:10,060
+which is the same thing as this right over here.
+
+157
+00:09:10,060 --> 00:09:17,300
+So you are going to have n!/(n-k)!
+
+158
+00:09:17,300 --> 00:09:18,390
+and then you are going to divide it
+
+159
+00:09:18,390 --> 00:09:20,140
+by this expression right over here,
+
+160
+00:09:20,140 --> 00:09:22,710
+which we have already said the same thing as k!.
+
+161
+00:09:22,710 --> 00:09:26,220
+So you are also going to divide it by k!.
+
+162
+00:09:26,220 --> 00:09:28,860
+And then you have a generalized way of
+
+163
+00:09:28,860 --> 00:09:32,730
+figuring out the number of ways you can stick 2 things,
+
+164
+00:09:32,730 --> 00:09:34,580
+or the number of ways actually I should say
+
+165
+00:09:34,580 --> 00:09:36,310
+the number of ways you can stick k things
+
+166
+00:09:36,310 --> 00:09:38,410
+in n different buckets,
+
+167
+00:09:38,410 --> 00:09:41,790
+k heads in n different flips.
+
+168
+00:09:41,790 --> 00:09:43,920
+And so another way of writing,
+
+169
+00:09:43,920 --> 00:09:47,490
+this is actually a generalized formula for binomial coefficients.
+
+170
+00:09:47,490 --> 00:09:50,340
+So another way to write this is the number of ways
+
+171
+00:09:52,240 --> 00:09:55,750
+given that you have n buckets,
+
+172
+00:09:57,450 --> 00:09:59,390
+you can put k things in them
+
+173
+00:09:59,390 --> 00:10:01,410
+without having to differentiate it.
+
+174
+00:10:01,410 --> 00:10:03,260
+Or another way to think about it is
+
+175
+00:10:03,260 --> 00:10:06,370
+if you have n buckets or n flips
+
+176
+00:10:06,370 --> 00:10:11,040
+and you want to choose k of them to be heads,
+
+177
+00:10:11,040 --> 00:10:12,550
+or you want to choose k of them in some way
+
+178
+00:10:12,550 --> 00:10:14,240
+but you dom't want to differentiate.
+
+179
+00:10:14,540 --> 00:10:16,400
+So all of these are generailized ways
+
+180
+00:10:16,400 --> 00:10:18,210
+for binomial coefficient.
+
+181
+00:10:18,210 --> 00:10:21,190
+So going back to the original problem:
+
+182
+00:10:21,190 --> 00:10:24,890
+what is the probability of getting k heads
+
+183
+00:10:24,890 --> 00:10:26,490
+in n flips of the fair coin?
+
+184
+00:10:26,490 --> 00:10:30,220
+Well there are 2 to the nth equally likely possibilities.
+
+185
+00:10:30,220 --> 00:10:31,680
+So let's wrtite this down.
+
+186
+00:10:31,680 --> 00:10:34,420
+So the probablity of 2 to the nth of the equally
+
+187
+00:10:34,420 --> 00:10:35,850
+likely possibilities
+
+188
+00:10:35,850 --> 00:10:38,540
+and how many of those possibilities resulte
+
+189
+00:10:38,540 --> 00:10:40,950
+in exactly k heads?
+
+190
+00:10:40,950 --> 00:10:43,730
+Well we just figure that out in during this video.
+
+191
+00:10:43,730 --> 00:10:45,600
+That's the number of possibilities.
+
+192
+00:10:52,050 --> 00:10:56,450
+Now probability of a OK idea to memorize this.
+
+193
+00:10:56,450 --> 00:10:58,140
+But I'll just tell you frankly, you know,
+
+194
+00:10:58,140 --> 00:11:00,050
+the only reason why I still know how to do this
+
+195
+00:11:00,050 --> 00:11:02,510
+20 years after first seeing this or whenever I first saw it
+
+196
+00:11:02,510 --> 00:11:04,520
+is that I actually just like just to reason it through
+
+197
+00:11:04,520 --> 00:11:06,600
+every time, I like just to figure it out.
+
+198
+00:11:06,600 --> 00:11:10,340
+OK, I have got five flips, three of them need to be heads.
+
+199
+00:11:10,340 --> 00:11:12,850
+The first of those heads can be in five different buckets
+
+200
+00:11:12,850 --> 00:11:14,130
+that next in the four different buckets
+
+201
+00:11:14,130 --> 00:11:15,780
+and next was in three different buckets
+
+202
+00:11:15,780 --> 00:11:18,490
+and then of course I don't want to differentiate
+
+203
+00:11:18,490 --> 00:11:20,600
+between all of the different ways
+
+204
+00:11:23,300 --> 00:11:25,550
+that I can rearrange 3 different things.
+
+205
+00:11:25,550 --> 00:11:30,420
+So I have to make sure that I divided by 3!
+
+206
+00:11:30,420 --> 00:11:32,620
+by 3 times 2 times 1.
+
+207
+00:11:32,620 --> 00:11:34,360
+I want to make sure that I divided by
+
+208
+00:11:34,360 --> 00:11:35,340
+all of the different ways
+
+209
+00:11:35,340 --> 00:11:38,330
+that I can arrange three different things.

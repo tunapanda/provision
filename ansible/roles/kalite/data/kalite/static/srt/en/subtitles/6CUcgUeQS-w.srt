@@ -1,0 +1,215 @@
+1
+00:00:00,745 --> 00:00:03,989
+Let's say that you dont' like company ABCD
+
+2
+00:00:03,989 --> 00:00:07,107
+that's right now trading for 50 dollars a share
+
+3
+00:00:07,107 --> 00:00:10,291
+but you don't have the stomach to short the stock
+
+4
+00:00:10,291 --> 00:00:14,048
+because there's a possibility that you could lose an infinite amount of money
+
+5
+00:00:14,048 --> 00:00:15,072
+if you short it
+
+6
+00:00:15,072 --> 00:00:17,554
+you still have an option
+
+7
+00:00:17,554 --> 00:00:19,156
+quite literally you still have an option
+
+8
+00:00:19,156 --> 00:00:21,548
+you can buy a put option
+
+9
+00:00:21,548 --> 00:00:24,033
+once again we're dealing with the American variation
+
+10
+00:00:24,033 --> 00:00:26,610
+and just like an American call option
+
+11
+00:00:26,610 --> 00:00:33,314
+an American put option gives you the right to exercise the option any time before the expiration date
+
+12
+00:00:33,314 --> 00:00:38,684
+a European call or put option you can only exercise on the expiration date
+
+13
+00:00:38,684 --> 00:00:40,635
+and the situation with the put option
+
+14
+00:00:40,635 --> 00:00:45,681
+a call option gave you the right to buy the stock at a specified price
+
+15
+00:00:45,681 --> 00:00:47,903
+a put option is the opposite
+
+16
+00:00:47,903 --> 00:00:52,361
+it gives you the right to sell the stock at a specified price
+
+17
+00:00:52,361 --> 00:00:56,680
+so this little made up put option I've constructed right here
+
+18
+00:00:56,680 --> 00:01:01,463
+is maybe being sold on an exchange for five dollars per option
+
+19
+00:01:01,463 --> 00:01:10,333
+and it gives you the right to sell company ABCD at 40 dollars a share
+
+20
+00:01:10,333 --> 00:01:12,957
+any time over the next month
+
+21
+00:01:12,957 --> 00:01:14,722
+and let's see how, if you were to buy this
+
+22
+00:01:14,722 --> 00:01:18,553
+how this really is a bet that the company would go down
+
+23
+00:01:18,553 --> 00:01:21,618
+so let's imagine the scenario where the company does what you expect
+
+24
+00:01:21,618 --> 00:01:25,055
+it goes down and one month later
+
+25
+00:01:25,055 --> 00:01:26,239
+it keeps going down
+
+26
+00:01:26,239 --> 00:01:28,491
+you're like, I better use it today, because it's going to expire
+
+27
+00:01:28,491 --> 00:01:30,001
+if I don't use it today
+
+28
+00:01:30,001 --> 00:01:34,018
+so you exercise the option right over there
+
+29
+00:01:34,018 --> 00:01:38,128
+and so what this allows you to do is sell the stock at 40 dollars
+
+30
+00:01:38,128 --> 00:01:41,402
+and if you don't own it, that's ok, because you can go and buy the stock
+
+31
+00:01:41,402 --> 00:01:42,609
+right now on the market
+
+32
+00:01:42,609 --> 00:01:44,420
+you knew it was going to get cheaper
+
+33
+00:01:44,420 --> 00:01:45,929
+so you can buy it for 20 dollars
+
+34
+00:01:45,929 --> 00:01:49,296
+and then exercise your option and sell it for 40
+
+35
+00:01:49,296 --> 00:01:52,663
+so you're buying at 20, and immediately selling for 40
+
+36
+00:01:52,663 --> 00:01:54,776
+so you're gonna be making 20 dollars
+
+37
+00:01:54,776 --> 00:01:58,236
+and then if you subtract out the price that you had to pay for the option
+
+38
+00:01:58,236 --> 00:02:01,878
+you're going to have a 15 dollar profit
+
+39
+00:02:01,878 --> 00:02:05,220
+you're going to have a 15 dollar profit over here
+
+40
+00:02:05,220 --> 00:02:08,222
+let me scroll over to the right so you have some space
+
+41
+00:02:08,222 --> 00:02:11,717
+and this is of course the situation with the put option
+
+42
+00:02:11,717 --> 00:02:14,142
+this is the put option
+
+43
+00:02:14,142 --> 00:02:17,137
+and if your bet goes against you
+
+44
+00:02:17,137 --> 00:02:19,088
+and the stock actually goes up
+
+45
+00:02:19,088 --> 00:02:23,058
+it's not gonna be like a short position where you can lose an unlimited amount of money
+
+46
+00:02:23,058 --> 00:02:27,679
+in that situation let's say the stock just keeps going up and up and up
+
+47
+00:02:27,679 --> 00:02:31,162
+well, any point above 40 dollars, it's like, you know
+
+48
+00:02:31,162 --> 00:02:33,577
+there's no point in me exercising the option
+
+49
+00:02:33,577 --> 00:02:35,295
+so you just let it expire
+
+50
+00:02:35,295 --> 00:02:39,475
+so in that situation you just wasted your money buying the actual option
+
+51
+00:02:39,475 --> 00:02:44,142
+so you just lose the actual 5 dollars
+
+52
+00:02:44,142 --> 00:02:47,578
+even that stock were to go up to a gazillion dollars
+
+53
+00:02:47,578 --> 00:02:51,340
+you're not required to buy it back like you would if you were shorting it
+
+54
+00:02:51,340 --> 00:02:53,931
+you can just let the option expire

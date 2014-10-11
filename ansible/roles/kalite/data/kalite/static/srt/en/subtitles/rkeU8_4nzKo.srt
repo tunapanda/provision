@@ -1,0 +1,1229 @@
+1
+00:00:00,000 --> 00:00:00,750
+   
+
+2
+00:00:00,750 --> 00:00:02,790
+I've been asked to do some
+more limit problems.
+
+3
+00:00:02,790 --> 00:00:04,430
+So let's do some more.
+
+4
+00:00:04,430 --> 00:00:04,860
+So let's see.
+
+5
+00:00:04,860 --> 00:00:06,150
+What's the first
+problem I have?
+
+6
+00:00:06,150 --> 00:00:19,330
+It says the limit as x
+approaches 0 of x minus 2 times
+
+7
+00:00:19,330 --> 00:00:26,970
+the absolute value of x over
+the absolute value of x.
+
+8
+00:00:26,970 --> 00:00:29,730
+Now what immediately confuses
+most people is this
+
+9
+00:00:29,730 --> 00:00:30,780
+absolute value thing.
+
+10
+00:00:30,780 --> 00:00:32,960
+Because how do you
+deal with it?
+
+11
+00:00:32,960 --> 00:00:34,490
+Because you can't
+just subtract.
+
+12
+00:00:34,490 --> 00:00:36,410
+If this was an x, it would
+be a simple problem.
+
+13
+00:00:36,410 --> 00:00:37,560
+Because then you could
+just simplify it.
+
+14
+00:00:37,560 --> 00:00:40,490
+You could subtract this 2x from
+this x and then divide by x.
+
+15
+00:00:40,490 --> 00:00:41,550
+And you'd get an answer.
+
+16
+00:00:41,550 --> 00:00:43,740
+But this has an absolute
+value, so you can't just
+
+17
+00:00:43,740 --> 00:00:45,540
+directly manipulate it.
+
+18
+00:00:45,540 --> 00:00:48,630
+Well what if we're able to get
+rid of this absolute value?
+
+19
+00:00:48,630 --> 00:00:49,620
+How do we do that?
+
+20
+00:00:49,620 --> 00:00:53,340
+Well, in order for this limit
+to exist-- in order for
+
+21
+00:00:53,340 --> 00:00:54,250
+this limit-- I don't know.
+
+22
+00:00:54,250 --> 00:00:56,870
+Let's say it equals l, right?
+
+23
+00:00:56,870 --> 00:00:58,820
+And l is what we
+have to solve for.
+
+24
+00:00:58,820 --> 00:01:02,390
+In order for that limit to
+exist, then the limit to x
+
+25
+00:01:02,390 --> 00:01:05,230
+approaches 0 also has to
+exist from the positive
+
+26
+00:01:05,230 --> 00:01:06,180
+and the negative sides.
+
+27
+00:01:06,180 --> 00:01:07,040
+What do I mean?
+
+28
+00:01:07,040 --> 00:01:10,380
+Well that means that
+this must also be true.
+
+29
+00:01:10,380 --> 00:01:15,570
+The limit as x approaches 0
+from the right-hand side, from
+
+30
+00:01:15,570 --> 00:01:23,300
+positive numbers, of x minus 2
+times the absolute value of x
+
+31
+00:01:23,300 --> 00:01:27,210
+over the absolute value of
+x has to be equal to l.
+
+32
+00:01:27,210 --> 00:01:33,240
+And then we also know that the
+limit as x approaches 0 from
+
+33
+00:01:33,240 --> 00:01:38,060
+the negative side of the same
+function, 2 times absolute
+
+34
+00:01:38,060 --> 00:01:42,680
+value of x over the absolute
+value of x, is also going
+
+35
+00:01:42,680 --> 00:01:43,830
+to be equal to l, right?
+
+36
+00:01:43,830 --> 00:01:47,360
+If this-- If we-- As we
+approach 0 from the left,
+
+37
+00:01:47,360 --> 00:01:48,255
+we get some number.
+
+38
+00:01:48,255 --> 00:01:51,790
+And as we approach 0 from the
+right, we get the same number,
+
+39
+00:01:51,790 --> 00:01:54,540
+then we know that no matter
+what direction we approach 0
+
+40
+00:01:54,540 --> 00:01:58,140
+from, which is this situation,
+we approach that number.
+
+41
+00:01:58,140 --> 00:01:59,385
+So let's figure out
+these two limits.
+
+42
+00:01:59,385 --> 00:02:01,250
+And if they have the same
+answer, then we have the answer
+
+43
+00:02:01,250 --> 00:02:03,100
+to our original problem.
+
+44
+00:02:03,100 --> 00:02:05,990
+So how can we simplify this
+as x approaches 0 from
+
+45
+00:02:05,990 --> 00:02:08,180
+the positive side?
+
+46
+00:02:08,180 --> 00:02:13,590
+Well that's the same thing as
+the limit as x approaches
+
+47
+00:02:13,590 --> 00:02:14,840
+0 from the positive side.
+
+48
+00:02:14,840 --> 00:02:17,750
+Well if we know we're
+approaching 0 from the positive
+
+49
+00:02:17,750 --> 00:02:19,210
+side, what do we know about x?
+
+50
+00:02:19,210 --> 00:02:21,500
+We know that x is
+positive, right?
+
+51
+00:02:21,500 --> 00:02:23,530
+It's approaching
+from the right.
+
+52
+00:02:23,530 --> 00:02:25,440
+So if x is positive, we
+can get rid of these
+
+53
+00:02:25,440 --> 00:02:26,450
+absolute value signs.
+
+54
+00:02:26,450 --> 00:02:32,470
+So we just get x
+minus 2x over x.
+
+55
+00:02:32,470 --> 00:02:38,070
+And so that equals the limit
+as x approaches 0 from
+
+56
+00:02:38,070 --> 00:02:39,270
+the positive side.
+
+57
+00:02:39,270 --> 00:02:39,590
+Let's see.
+
+58
+00:02:39,590 --> 00:02:42,760
+That's x minus 2x.
+
+59
+00:02:42,760 --> 00:02:46,310
+This is minus x, right?
+
+60
+00:02:46,310 --> 00:02:47,150
+x minus x.
+
+61
+00:02:47,150 --> 00:02:53,430
+And then minus x divided
+by x is minus 1.
+
+62
+00:02:53,430 --> 00:02:55,590
+So the limit as x approaches
+0 from the positive
+
+63
+00:02:55,590 --> 00:02:56,420
+side of minus 1.
+
+64
+00:02:56,420 --> 00:02:58,120
+Well that's just going
+to equal minus 1.
+
+65
+00:02:58,120 --> 00:03:05,120
+   
+
+66
+00:03:05,120 --> 00:03:05,480
+OK.
+
+67
+00:03:05,480 --> 00:03:07,970
+Now let's take this case down
+here when we're approaching
+
+68
+00:03:07,970 --> 00:03:09,700
+from the negative side.
+
+69
+00:03:09,700 --> 00:03:12,830
+   
+
+70
+00:03:12,830 --> 00:03:15,400
+So how can we think about this?
+
+71
+00:03:15,400 --> 00:03:22,240
+What is the absolute value of
+x if x is a negative number?
+
+72
+00:03:22,240 --> 00:03:25,930
+Well the absolute value of x,
+if x is a negative number,
+
+73
+00:03:25,930 --> 00:03:29,440
+is going to be the
+negative of x, right?
+
+74
+00:03:29,440 --> 00:03:33,490
+If x-- Think of it this way: if
+x is negative 1, when we take
+
+75
+00:03:33,490 --> 00:03:35,680
+the absolute value of x, we're
+essentially just multiplying
+
+76
+00:03:35,680 --> 00:03:37,610
+x times negative 1 again.
+
+77
+00:03:37,610 --> 00:03:45,160
+So another way to rewrite this
+is: this is equal to the limit
+
+78
+00:03:45,160 --> 00:03:52,060
+as x approaches 0 from
+the negative side of
+
+79
+00:03:52,060 --> 00:03:58,670
+x minus 2 times what?
+
+80
+00:03:58,670 --> 00:04:01,650
+The absolute value of x is the
+same thing as negative x.
+
+81
+00:04:01,650 --> 00:04:04,540
+   
+
+82
+00:04:04,540 --> 00:04:06,000
+Hopefully that makes
+sense to you, right?
+
+83
+00:04:06,000 --> 00:04:08,070
+If we're dealing with negative
+numbers, then taking the
+
+84
+00:04:08,070 --> 00:04:11,160
+absolute value of a negative
+number is the same thing as
+
+85
+00:04:11,160 --> 00:04:13,710
+multiplying that negative
+number times the negative to
+
+86
+00:04:13,710 --> 00:04:17,690
+essentially make it into a
+positive number, right?
+
+87
+00:04:17,690 --> 00:04:19,626
+And then, of course, the
+absolute value of x in the
+
+88
+00:04:19,626 --> 00:04:21,450
+denominator, since we're
+dealing with a negative number,
+
+89
+00:04:21,450 --> 00:04:23,260
+is also equal to negative x.
+
+90
+00:04:23,260 --> 00:04:26,420
+   
+
+91
+00:04:26,420 --> 00:04:28,040
+And let's see if we
+can simplify that.
+
+92
+00:04:28,040 --> 00:04:33,800
+So that means that the limit
+as x approaches 0 from the
+
+93
+00:04:33,800 --> 00:04:36,380
+negative side-- Let's see.
+
+94
+00:04:36,380 --> 00:04:39,600
+I get x minus 2
+times negative x.
+
+95
+00:04:39,600 --> 00:04:41,230
+So these negatives cancel out.
+
+96
+00:04:41,230 --> 00:04:45,380
+So I get x plus 2x, right?
+
+97
+00:04:45,380 --> 00:04:48,495
+So I get 3x over minus x.
+
+98
+00:04:48,495 --> 00:04:56,680
+   
+
+99
+00:04:56,680 --> 00:05:00,450
+That equals minus 3.
+
+100
+00:05:00,450 --> 00:05:02,100
+So this is interesting.
+
+101
+00:05:02,100 --> 00:05:05,200
+I am approaching a different
+number when I approach it
+
+102
+00:05:05,200 --> 00:05:06,950
+from the left-hand side.
+
+103
+00:05:06,950 --> 00:05:10,500
+When I approached this function
+from the left-hand side or
+
+104
+00:05:10,500 --> 00:05:11,850
+from the right-hand side.
+
+105
+00:05:11,850 --> 00:05:15,160
+So it looks like this
+limit doesn't exist.
+
+106
+00:05:15,160 --> 00:05:15,880
+Let's confirm that.
+
+107
+00:05:15,880 --> 00:05:22,680
+Let me actually-- Let me see if
+I can-- Let me get the graphing
+
+108
+00:05:22,680 --> 00:05:25,250
+calculator and confirm.
+
+109
+00:05:25,250 --> 00:05:26,640
+Let me type it in.
+
+110
+00:05:26,640 --> 00:05:32,636
+So x minus-- I'll show you
+what I'm doing --x-- so you
+
+111
+00:05:32,636 --> 00:05:38,110
+don't get bored --minus
+absolute value of x.
+
+112
+00:05:38,110 --> 00:05:43,080
+And what am I-- Divided by
+the absolute value of x.
+
+113
+00:05:43,080 --> 00:05:48,240
+   
+
+114
+00:05:48,240 --> 00:05:49,130
+Let's see.
+
+115
+00:05:49,130 --> 00:05:51,770
+Graph.
+
+116
+00:05:51,770 --> 00:05:53,570
+And what does it have here?
+
+117
+00:05:53,570 --> 00:05:54,170
+Zoom out.
+
+118
+00:05:54,170 --> 00:06:01,030
+   
+
+119
+00:06:01,030 --> 00:06:03,530
+So this is-- Is this right?
+
+120
+00:06:03,530 --> 00:06:08,250
+x minus the absolute
+value of x-- Oh, sorry.
+
+121
+00:06:08,250 --> 00:06:10,390
+It's x minus 2 times the
+absolute value of x.
+
+122
+00:06:10,390 --> 00:06:15,050
+   
+
+123
+00:06:15,050 --> 00:06:16,170
+Graph.
+
+124
+00:06:16,170 --> 00:06:18,190
+There you go.
+
+125
+00:06:18,190 --> 00:06:19,100
+Even the-- oh.
+
+126
+00:06:19,100 --> 00:06:20,690
+I don't think you
+can see it yet.
+
+127
+00:06:20,690 --> 00:06:24,060
+--the graphing calculator
+confirms the work we did.
+
+128
+00:06:24,060 --> 00:06:25,900
+Although it connects them and
+it makes you think the it
+
+129
+00:06:25,900 --> 00:06:26,710
+somehow approaches here.
+
+130
+00:06:26,710 --> 00:06:28,490
+But that's just because
+it picks points and
+
+131
+00:06:28,490 --> 00:06:29,880
+just plots them.
+
+132
+00:06:29,880 --> 00:06:32,220
+So as you see, as you approach
+from the right-hand side, you
+
+133
+00:06:32,220 --> 00:06:36,020
+approach negative 1, right?
+
+134
+00:06:36,020 --> 00:06:37,790
+Well actually you're at
+negative 1 the whole time
+
+135
+00:06:37,790 --> 00:06:38,770
+on the right-hand side.
+
+136
+00:06:38,770 --> 00:06:40,210
+And as you approach from
+the left-hand side, you
+
+137
+00:06:40,210 --> 00:06:41,410
+approach negative 3.
+
+138
+00:06:41,410 --> 00:06:44,090
+So the limit does not
+exist at x is equal 0.
+
+139
+00:06:44,090 --> 00:06:47,290
+You would say l is undefined.
+
+140
+00:06:47,290 --> 00:06:50,700
+You know, there's a little
+dirty secret about limits.
+
+141
+00:06:50,700 --> 00:06:53,270
+It's not a dirty secret, but
+in theory you should never
+
+142
+00:06:53,270 --> 00:06:54,260
+get a limit problem wrong.
+
+143
+00:06:54,260 --> 00:06:55,170
+And why?
+
+144
+00:06:55,170 --> 00:06:57,510
+Well you should be able to
+solve it analytically.
+
+145
+00:06:57,510 --> 00:06:59,860
+But if you don't know how to
+solve it analytically, just
+
+146
+00:06:59,860 --> 00:07:02,080
+put it really really
+small numbers here.
+
+147
+00:07:02,080 --> 00:07:06,810
+Try out-- If you put
+in-- Try 0.0001.
+
+148
+00:07:06,810 --> 00:07:10,870
+Try numbers that are just
+slightly larger then whatever
+
+149
+00:07:10,870 --> 00:07:12,210
+your limit number is.
+
+150
+00:07:12,210 --> 00:07:13,410
+And then slightly smaller.
+
+151
+00:07:13,410 --> 00:07:15,630
+And then, just numerically, if
+you have a calculator, see
+
+152
+00:07:15,630 --> 00:07:16,370
+what it's approaching.
+
+153
+00:07:16,370 --> 00:07:18,370
+And sometimes you don't
+even need a calculator.
+
+154
+00:07:18,370 --> 00:07:20,740
+You could probably calculate
+this in your head with 0.01
+
+155
+00:07:20,740 --> 00:07:22,160
+or something like that.
+
+156
+00:07:22,160 --> 00:07:23,875
+Anyway, let's do
+another problem.
+
+157
+00:07:23,875 --> 00:07:27,470
+   
+
+158
+00:07:27,470 --> 00:07:29,390
+Invert colors.
+
+159
+00:07:29,390 --> 00:07:30,140
+OK.
+
+160
+00:07:30,140 --> 00:07:43,900
+So let's do the limit
+as x approaches 0 of
+
+161
+00:07:43,900 --> 00:07:50,800
+sine of 5x over 2x.
+
+162
+00:07:50,800 --> 00:07:54,000
+Now this looks a lot
+like sine of x over x.
+
+163
+00:07:54,000 --> 00:07:55,750
+And we know sine of x over x.
+
+164
+00:07:55,750 --> 00:07:57,280
+What is that?
+
+165
+00:07:57,280 --> 00:07:59,630
+And if you don't believe me,
+watch the videos where we prove
+
+166
+00:07:59,630 --> 00:08:02,520
+it using the squeeze theorem.
+
+167
+00:08:02,520 --> 00:08:05,130
+We proved that the limit as
+x approaches 0 of sine of
+
+168
+00:08:05,130 --> 00:08:09,440
+x over x is equal to 1.
+
+169
+00:08:09,440 --> 00:08:11,065
+Now this looks
+almost like that.
+
+170
+00:08:11,065 --> 00:08:13,165
+It would be great if we
+could get it into that form
+
+171
+00:08:13,165 --> 00:08:14,040
+and then we'd be done.
+
+172
+00:08:14,040 --> 00:08:16,350
+So how can we do that?
+
+173
+00:08:16,350 --> 00:08:18,000
+Well let's try to substitute.
+
+174
+00:08:18,000 --> 00:08:20,413
+Let's try to get a single
+variable here instead of
+
+175
+00:08:20,413 --> 00:08:21,560
+a 5 times a variable.
+
+176
+00:08:21,560 --> 00:08:26,610
+So let's make a
+substitution in magenta.
+
+177
+00:08:26,610 --> 00:08:30,880
+And say that a is equal to 5x.
+
+178
+00:08:30,880 --> 00:08:34,440
+And then that also means that--
+So divide both sides by 5 and
+
+179
+00:08:34,440 --> 00:08:37,640
+we get x is equal to a over 5.
+
+180
+00:08:37,640 --> 00:08:40,050
+So let's make that
+substitution and do this.
+
+181
+00:08:40,050 --> 00:08:44,500
+So this-- The limit as x
+approaches 0 would be
+
+182
+00:08:44,500 --> 00:08:46,050
+the same thing as what?
+
+183
+00:08:46,050 --> 00:08:50,080
+If approaches-- As x approaches
+0 here, a is also going
+
+184
+00:08:50,080 --> 00:08:51,720
+to approach 0, right?
+
+185
+00:08:51,720 --> 00:08:55,450
+So this is the same thing as
+the limit as a approaches 0.
+
+186
+00:08:55,450 --> 00:08:57,675
+Or you could view it this
+way: as a approaches 0, x
+
+187
+00:08:57,675 --> 00:08:58,720
+is still approaching 0.
+
+188
+00:08:58,720 --> 00:09:01,490
+Maybe at 1/5 the pace,
+but it's the same thing.
+
+189
+00:09:01,490 --> 00:09:09,730
+[SIDE COMMENTS]
+
+190
+00:09:09,730 --> 00:09:10,150
+OK.
+
+191
+00:09:10,150 --> 00:09:16,510
+Anyway, this should say the
+limit is a approaches 0, right?
+
+192
+00:09:16,510 --> 00:09:18,920
+And hopefully you're satisfied
+that the limit as a approaches
+
+193
+00:09:18,920 --> 00:09:21,790
+0 is the same-- That x is
+still approaching 0, right?
+
+194
+00:09:21,790 --> 00:09:24,180
+Because if a approaches
+0 here, that's going
+
+195
+00:09:24,180 --> 00:09:25,610
+to make x approach 0.
+
+196
+00:09:25,610 --> 00:09:27,680
+So it's the limit as a
+approaches 0 of sine
+
+197
+00:09:27,680 --> 00:09:34,080
+of a over 2 times x.
+
+198
+00:09:34,080 --> 00:09:35,770
+But x is a over 5.
+
+199
+00:09:35,770 --> 00:09:39,490
+So it's 2 times a over 5.
+
+200
+00:09:39,490 --> 00:09:49,000
+And so that is equal to the
+limit as a approaches 0
+
+201
+00:09:49,000 --> 00:09:56,600
+of sine of a over 2/5 a.
+
+202
+00:09:56,600 --> 00:09:57,660
+Well that's the same thing.
+
+203
+00:09:57,660 --> 00:09:59,730
+We could take this out.
+
+204
+00:09:59,730 --> 00:10:01,870
+We could take this 1 over
+2/5-- right, it's in
+
+205
+00:10:01,870 --> 00:10:02,810
+the denominator --out.
+
+206
+00:10:02,810 --> 00:10:04,240
+This is just a constant
+term, so we can take
+
+207
+00:10:04,240 --> 00:10:04,910
+it out of the limit.
+
+208
+00:10:04,910 --> 00:10:06,410
+And obviously if we're taking
+it out of the denominator,
+
+209
+00:10:06,410 --> 00:10:07,190
+it flips, right?
+
+210
+00:10:07,190 --> 00:10:11,970
+Because this is just
+1 over 2/5 or 5/2.
+
+211
+00:10:11,970 --> 00:10:16,520
+So that equals 5/2-- right, I
+just took this out of the
+
+212
+00:10:16,520 --> 00:10:20,230
+denominator and it flips,
+right, because it's 1 over 2/5
+
+213
+00:10:20,230 --> 00:10:26,040
+--times the limit as
+a approaches 0 of
+
+214
+00:10:26,040 --> 00:10:30,840
+sine of a over a.
+
+215
+00:10:30,840 --> 00:10:33,980
+And now that looks an
+awful lot like this.
+
+216
+00:10:33,980 --> 00:10:35,810
+It's just we have an a instead
+of an x, but that doesn't
+
+217
+00:10:35,810 --> 00:10:36,730
+make a difference.
+
+218
+00:10:36,730 --> 00:10:38,670
+So this is equal to 1.
+
+219
+00:10:38,670 --> 00:10:45,570
+So this whole thing, since this
+is equal to 1, is equal to 5/2.
+
+220
+00:10:45,570 --> 00:10:48,430
+And, once again, if you get
+this answer and you're not so
+
+221
+00:10:48,430 --> 00:10:52,180
+sure, take your calculator
+out and try-- calculate.
+
+222
+00:10:52,180 --> 00:10:56,750
+What is the sine
+of 5 times 0.001?
+
+223
+00:10:56,750 --> 00:11:04,190
+So sine of 0.005 divided by
+2 times 0.001, so 0.002.
+
+224
+00:11:04,190 --> 00:11:06,290
+If you take that, you're going
+to get a number that's awfully
+
+225
+00:11:06,290 --> 00:11:07,360
+close to this number.
+
+226
+00:11:07,360 --> 00:11:08,800
+This is approximate.
+
+227
+00:11:08,800 --> 00:11:10,180
+This is exactly 2.5.
+
+228
+00:11:10,180 --> 00:11:12,490
+You're probably going
+to get like 2.49999 or
+
+229
+00:11:12,490 --> 00:11:14,690
+something like that.
+
+230
+00:11:14,690 --> 00:11:15,600
+So let's do another one.
+
+231
+00:11:15,600 --> 00:11:20,770
+   
+
+232
+00:11:20,770 --> 00:11:22,440
+OK.
+
+233
+00:11:22,440 --> 00:11:30,970
+So I have the limit as x
+approaches 0-- this one looks a
+
+234
+00:11:30,970 --> 00:11:33,590
+lot like the previous one,
+although we have some exponents
+
+235
+00:11:33,590 --> 00:11:40,820
+here --of sine squared
+of x over x squared.
+
+236
+00:11:40,820 --> 00:11:43,040
+And that almost looks like
+sine of x over x, but I
+
+237
+00:11:43,040 --> 00:11:44,060
+have these squared terms.
+
+238
+00:11:44,060 --> 00:11:45,720
+What can I do?
+
+239
+00:11:45,720 --> 00:11:46,740
+Well this is the same thing.
+
+240
+00:11:46,740 --> 00:11:49,620
+This is sine of x
+squared over x squared.
+
+241
+00:11:49,620 --> 00:11:55,720
+So this is the same thing as
+the limit as x approaches 0
+
+242
+00:11:55,720 --> 00:12:03,380
+of sine of x over
+x squared, right?
+
+243
+00:12:03,380 --> 00:12:06,230
+If you were to take this out,
+you'd square the numerator,
+
+244
+00:12:06,230 --> 00:12:07,480
+square the denominator,
+and you'd get this.
+
+245
+00:12:07,480 --> 00:12:10,050
+If you took-- If you
+wanted to change this.
+
+246
+00:12:10,050 --> 00:12:11,950
+I won't say simplify.
+
+247
+00:12:11,950 --> 00:12:13,770
+Well now this is interesting.
+
+248
+00:12:13,770 --> 00:12:17,180
+Well this 2 is-- This
+is a constant term.
+
+249
+00:12:17,180 --> 00:12:18,770
+This isn't going to
+change with the limit.
+
+250
+00:12:18,770 --> 00:12:21,130
+So essentially, we can say,
+well this is going to be equal
+
+251
+00:12:21,130 --> 00:12:30,050
+to the limit as x approaches 0
+of sine of x over x, the
+
+252
+00:12:30,050 --> 00:12:31,240
+whole thing squared.
+
+253
+00:12:31,240 --> 00:12:31,770
+And how is that?
+
+254
+00:12:31,770 --> 00:12:34,280
+I couldn't have done this if
+there was an x here, right,
+
+255
+00:12:34,280 --> 00:12:36,000
+because that would have
+changed the limit.
+
+256
+00:12:36,000 --> 00:12:37,790
+But this is a constant term.
+
+257
+00:12:37,790 --> 00:12:42,790
+So this-- The base is the only
+thing that's going to change as
+
+258
+00:12:42,790 --> 00:12:44,610
+I take-- as x approaches 0.
+
+259
+00:12:44,610 --> 00:12:47,870
+So I can take the limit
+within the base, I guess you
+
+260
+00:12:47,870 --> 00:12:49,040
+could say, and get here.
+
+261
+00:12:49,040 --> 00:12:52,300
+And now we're back to what we
+proved in a previous video.
+
+262
+00:12:52,300 --> 00:12:54,280
+What is the limit as
+x approaches 0 of
+
+263
+00:12:54,280 --> 00:12:55,430
+sine of x over x?
+
+264
+00:12:55,430 --> 00:12:55,950
+Right.
+
+265
+00:12:55,950 --> 00:12:59,000
+It's 1.
+
+266
+00:12:59,000 --> 00:13:00,810
+So what's 1 squared?
+
+267
+00:13:00,810 --> 00:13:02,350
+It is 1.
+
+268
+00:13:02,350 --> 00:13:03,740
+There you go.
+
+269
+00:13:03,740 --> 00:13:05,820
+And I've taken 13
+minutes of your time.
+
+270
+00:13:05,820 --> 00:13:08,330
+Hopefully you've found
+it vaguely Useful.
+
+271
+00:13:08,330 --> 00:13:09,000
+

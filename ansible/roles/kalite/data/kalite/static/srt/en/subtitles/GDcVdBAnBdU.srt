@@ -1,0 +1,255 @@
+1
+00:00:00,000 --> 00:00:05,000
+Quadrilateral ABCD is a rhombus
+
+2
+00:00:05,010 --> 00:00:08,760
+What they want us to prove is that their diagonals are perpendicular,
+
+3
+00:00:08,770 --> 00:00:11,580
+that AC is perpendicular to BD
+
+4
+00:00:11,590 --> 00:00:14,170
+Let's think about everything we know about a rhombus
+
+5
+00:00:14,180 --> 00:00:17,400
+First of all, a rhombus is a special case of a parallelogram
+
+6
+00:00:17,410 --> 00:00:20,770
+In a parallelogram, the opposite sides are parallel
+
+7
+00:00:20,780 --> 00:00:22,390
+That side is parallel to that side
+
+8
+00:00:22,400 --> 00:00:24,900
+These 2 sides are parallel
+
+9
+00:00:24,910 --> 00:00:28,090
+In a rhombus, not only are the opposite sides parallel,
+
+10
+00:00:28,100 --> 00:00:31,690
+but also all the sides have equal length
+
+11
+00:00:31,700 --> 00:00:36,560
+This side is equal to this side, which is equal to that side,
+
+12
+00:00:36,570 --> 00:00:38,960
+which is equal to that side right over there
+
+13
+00:00:38,970 --> 00:00:41,610
+There's other interesting things we know about
+
+14
+00:00:41,620 --> 00:00:43,780
+the diagonals of a parallelogram,
+
+15
+00:00:43,790 --> 00:00:46,090
+which we know all rhombi are parallelograms
+
+16
+00:00:46,100 --> 00:00:48,720
+The other way around is not necessarily true
+
+17
+00:00:48,730 --> 00:00:52,560
+We know that for any parallelogram, and a rhombus is a parallelogram,
+
+18
+00:00:52,570 --> 00:00:55,590
+that the diagonals bisect each other
+
+19
+00:00:55,600 --> 00:00:59,640
+For example, let me label this point in the center, point E
+
+20
+00:00:59,650 --> 00:01:04,390
+We know that AE is going to be equal to EC,
+
+21
+00:01:04,400 --> 00:01:06,250
+I'll put 2 slashes right over there
+
+22
+00:01:06,260 --> 00:01:13,350
+We also know that EB is going to be equal to ED
+
+23
+00:01:13,360 --> 00:01:18,840
+This is all of what we know, when someone just says that ABCD is a
+
+24
+00:01:18,850 --> 00:01:22,040
+rhombus, based on other things that we've proven to ourselves
+
+25
+00:01:22,050 --> 00:01:26,840
+Now we're gonna prove that AC is perpendicular to BD
+
+26
+00:01:26,850 --> 00:01:29,010
+An interesting way to prove it,
+
+27
+00:01:29,020 --> 00:01:30,930
+and you can look at it just by eyeballing it,
+
+28
+00:01:30,940 --> 00:01:34,510
+is if we can show that this triangle is congruent to this triangle
+
+29
+00:01:34,520 --> 00:01:38,360
+and that these 2 angles right over here correspond to each other
+
+30
+00:01:38,370 --> 00:01:40,840
+then they have to be the same and they'll be supplementary
+
+31
+00:01:40,850 --> 00:01:43,270
+and they'll be 90 degrees so let's just prove it to ourselves
+
+32
+00:01:43,280 --> 00:01:47,940
+The first thing we see is we have a side, a side, and a side
+
+33
+00:01:47,950 --> 00:01:50,270
+A side a side and a side
+
+34
+00:01:50,280 --> 00:01:55,500
+So we can see that triangle, let me write here with a new color,
+
+35
+00:01:55,510 --> 00:02:09,810
+ABE is congruent to triangle CBE
+
+36
+00:02:19,620 --> 00:02:21,650
+Once we know that,
+
+37
+00:02:21,660 --> 00:02:24,550
+we know that all the corresponding angles are congruent
+
+38
+00:02:24,560 --> 00:02:32,650
+In particular, we know that angle AEB is going to be congruent
+
+39
+00:02:32,660 --> 00:02:42,370
+to angle CEB because they are corresponding angles
+
+40
+00:02:42,380 --> 00:02:48,440
+of congruent triangles
+
+41
+00:02:48,450 --> 00:02:52,050
+This angle right over here is going to be equal to
+
+42
+00:02:52,060 --> 00:02:53,450
+that angle over there
+
+43
+00:02:53,460 --> 00:02:55,660
+We also that they're supplementary
+
+44
+00:03:02,510 --> 00:03:03,340
+Let me write it this way
+
+45
+00:03:03,350 --> 00:03:06,240
+They're congruent and they are supplementary
+
+46
+00:03:06,250 --> 00:03:11,350
+These 2 are gonna have the same measure and
+
+47
+00:03:11,360 --> 00:03:13,280
+they need to add up to 180 degrees
+
+48
+00:03:13,290 --> 00:03:15,970
+If I have 2 things that are the same thing and
+
+49
+00:03:15,980 --> 00:03:18,180
+add up to 180 degrees, what does that tell me?
+
+50
+00:03:18,190 --> 00:03:25,750
+That tells me that the measure of angle AEB is equal to
+
+51
+00:03:25,760 --> 00:03:31,640
+the measure of angle CEB which must be equal to 90 degrees
+
+52
+00:03:31,650 --> 00:03:34,730
+They're the same measure and they're supplementary
+
+53
+00:03:34,740 --> 00:03:37,640
+This is a right angle and then, this is a right angle
+
+54
+00:03:37,650 --> 00:03:39,360
+Obviously, this is a right angle
+
+55
+00:03:39,370 --> 00:03:41,320
+This angle down here is a vertical angle,
+
+56
+00:03:41,330 --> 00:03:42,270
+that's gonna be a right angle
+
+57
+00:03:42,280 --> 00:03:44,720
+This is a right angle this over here is gonna be a vertical angle
+
+58
+00:03:44,730 --> 00:03:48,850
+You see the diagonals intersect at a 90 degree angle
+
+59
+00:03:48,860 --> 00:03:49,940
+so we've just proved
+
+60
+00:03:49,950 --> 00:03:51,330
+This is interesting
+
+61
+00:03:51,340 --> 00:03:53,990
+A parallelogram, the diagonals bisect each other
+
+62
+00:03:54,000 --> 00:03:57,490
+For a rhombus, where all the sides are equal,
+
+63
+00:03:57,500 --> 00:03:59,870
+we've shown that not only do they bisect each other
+
+64
+00:03:59,880 --> 00:04:02,810
+but they're perpendicular bisectors of each other

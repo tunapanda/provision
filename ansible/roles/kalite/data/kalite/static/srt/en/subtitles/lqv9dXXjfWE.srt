@@ -1,0 +1,823 @@
+1
+00:00:00,090 --> 00:00:04,220
+We're on problem 148.
+
+2
+00:00:06,420 --> 00:00:09,440
+What is the tens digit of positive integer x.
+
+3
+00:00:09,440 --> 00:00:10,960
+We want to know the tens digit.
+
+4
+00:00:13,020 --> 00:00:16,470
+Statement one tells us x divided by 100
+
+5
+00:00:16,580 --> 00:00:19,170
+has a remainder of 30.
+
+6
+00:00:19,170 --> 00:00:22,990
+Well, then we know the tens digit is 3, right?
+
+7
+00:00:23,010 --> 00:00:27,990
+Because, let's say 30 divided by 100 has remainder of 30
+
+8
+00:00:27,990 --> 00:00:29,910
+and its tens digit is 3.
+
+9
+00:00:30,030 --> 00:00:33,220
+130 divided by 100 has a remainder of 30
+
+10
+00:00:33,220 --> 00:00:34,680
+and its remainder is 3.
+
+11
+00:00:34,680 --> 00:00:37,490
+And I can make an argument that any number,
+
+12
+00:00:37,490 --> 00:00:40,660
+when you divide it by 100 that has a remainder of 30,
+
+13
+00:00:40,660 --> 00:00:42,840
+its tens digit is going to be 3.
+
+14
+00:00:42,840 --> 00:00:46,810
+In fact, that number is going to be 3, 0.
+
+15
+00:00:46,810 --> 00:00:48,500
+And its going to have a bunch of other digits here,
+
+16
+00:00:48,500 --> 00:00:48,870
+there, there.
+
+17
+00:00:48,870 --> 00:00:50,140
+And if you just divide this by 100,
+
+18
+00:00:50,140 --> 00:00:52,000
+you're going to be left over with 30.
+
+19
+00:00:52,010 --> 00:00:54,100
+So statement one is sufficient to figure out
+
+20
+00:00:54,100 --> 00:00:55,990
+what the tens digit of the number is.
+
+21
+00:00:57,000 --> 00:00:58,390
+Statement two.
+
+22
+00:01:00,000 --> 00:01:03,770
+So we could write x divided by 110
+
+23
+00:01:04,280 --> 00:01:09,770
+has a remainder equal to 30.
+
+24
+00:01:09,770 --> 00:01:11,500
+Well, this is a little different case.
+
+25
+00:01:12,010 --> 00:01:15,750
+So, definitely, when 30 is divided by 110 the remainder is 30,
+
+26
+00:01:15,950 --> 00:01:17,270
+because it goes into it 0 times.
+
+27
+00:01:17,270 --> 00:01:19,240
+So the remainder is 30.
+
+28
+00:01:19,240 --> 00:01:21,550
+And then the tens digit is 3.
+
+29
+00:01:22,050 --> 00:01:24,270
+So let's see, I'm going to try to find other numbers
+
+30
+00:01:24,270 --> 00:01:26,860
+when they're divided by 110 its remainder is 30
+
+31
+00:01:26,860 --> 00:01:28,450
+but its tens digit is something else.
+
+32
+00:01:28,450 --> 00:01:31,410
+So let's see. 140.
+
+33
+00:01:31,410 --> 00:01:35,750
+If I divide that by 110, I'm left with a remainder of 30.
+
+34
+00:01:38,030 --> 00:01:40,110
+But its tens digit is what?
+
+35
+00:01:40,110 --> 00:01:43,210
+Its tens digit is 4, right?
+
+36
+00:01:43,210 --> 00:01:44,550
+I shouldn't draw an arrow here.
+
+37
+00:01:44,550 --> 00:01:48,370
+If I did-- let's see, I go up one more-- 250.
+
+38
+00:01:48,770 --> 00:01:52,560
+250, you divide it by 110, its remainder is 30.
+
+39
+00:01:52,560 --> 00:01:53,980
+But its tens digit is 5.
+
+40
+00:01:54,750 --> 00:01:56,890
+So this statement gives me no information.
+
+41
+00:01:56,890 --> 00:01:59,560
+Saying that the remainder is 30 still gives me no information
+
+42
+00:01:59,560 --> 00:02:01,280
+The tens digit can be any of these numbers,
+
+43
+00:02:01,280 --> 00:02:03,020
+or a bunch more if I just kept going.
+
+44
+00:02:03,020 --> 00:02:05,990
+So statement one is sufficient to answer this question.
+
+45
+00:02:07,050 --> 00:02:09,850
+Question 149.
+
+46
+00:02:13,000 --> 00:02:19,690
+If x, y, and z are positive integers, is x minus y odd?
+
+47
+00:02:20,570 --> 00:02:22,000
+In order for this to happen,
+
+48
+00:02:22,000 --> 00:02:24,190
+one of these have to be odd and one have to be even.
+
+49
+00:02:24,190 --> 00:02:25,520
+And you can just think about that.
+
+50
+00:02:25,520 --> 00:02:28,470
+If you take the difference,or really the sum,
+
+51
+00:02:28,470 --> 00:02:31,100
+of two numbers, the only way that that difference
+
+52
+00:02:31,100 --> 00:02:34,460
+or sum is going to be odd is if one is odd and one is even.
+
+53
+00:02:35,000 --> 00:02:36,310
+So let's think about that.
+
+54
+00:02:36,310 --> 00:02:37,580
+Let's look at the statements.
+
+55
+00:02:37,580 --> 00:02:39,310
+Just going to see if they give us any information.
+
+56
+00:02:39,310 --> 00:02:43,540
+They say that x is equal to z squared.
+
+57
+00:02:44,630 --> 00:02:47,820
+Well, that gives me no information about y.
+
+58
+00:02:47,820 --> 00:02:48,890
+And it gives me, actually,
+
+59
+00:02:48,890 --> 00:02:50,950
+very little information about x just yet.
+
+60
+00:02:50,950 --> 00:02:53,110
+I mean, it tells me that x is a perfect square,
+
+61
+00:02:53,110 --> 00:02:55,040
+but a perfect square could be odd or even, right?
+
+62
+00:02:55,040 --> 00:02:56,980
+It could be 16, it could be 9.
+
+63
+00:02:57,000 --> 00:03:01,060
+16's an even perfect square,9 is an odd one.
+
+64
+00:03:01,060 --> 00:03:03,470
+So this doesn't give me much information by itself.
+
+65
+00:03:03,470 --> 00:03:05,470
+Let's see what statement two tells us.
+
+66
+00:03:05,470 --> 00:03:13,880
+Statement two says that y is equal to z minus 1 squared.
+
+67
+00:03:14,020 --> 00:03:16,780
+So this statement, by itself,is kind of like statement one.
+
+68
+00:03:16,780 --> 00:03:19,530
+It just tells me that y is a perfect square of some integer,
+
+69
+00:03:19,720 --> 00:03:20,560
+right?
+
+70
+00:03:20,560 --> 00:03:22,800
+Because z is an integer, so z minus 1 is an integer.
+
+71
+00:03:22,800 --> 00:03:23,990
+So it just tells you y is a perfect square.
+
+72
+00:03:23,990 --> 00:03:25,600
+And a perfect square could be even or odd.
+
+73
+00:03:26,040 --> 00:03:28,940
+But if we take both of these together,
+
+74
+00:03:28,940 --> 00:03:30,860
+then something interesting happens.
+
+75
+00:03:30,860 --> 00:03:34,220
+For example, if we assume that z is odd,
+
+76
+00:03:34,220 --> 00:03:36,370
+then its square will also be odd, right?
+
+77
+00:03:36,370 --> 00:03:39,220
+3 squared is 9, 7 squared is 49.
+
+78
+00:03:39,220 --> 00:03:41,860
+So if z is odd, then x is odd.
+
+79
+00:03:42,030 --> 00:03:46,130
+And then z minus 1 would be even and then y would be even.
+
+80
+00:03:46,130 --> 00:03:48,310
+So one would be odd, one would be even.
+
+81
+00:03:48,310 --> 00:03:49,080
+And you could do the other way.
+
+82
+00:03:49,080 --> 00:03:51,460
+You could say if z is even, x is even.
+
+83
+00:03:51,460 --> 00:03:54,090
+And if z is even, then z minus one is odd.
+
+84
+00:03:54,090 --> 00:03:55,420
+And y is odd.
+
+85
+00:03:55,420 --> 00:03:56,700
+And I can prove it to you mathematically.
+
+86
+00:03:56,700 --> 00:03:59,720
+Let's write this and substitute for z.
+
+87
+00:03:59,720 --> 00:04:06,170
+So x minus y becomes z squared minus z minus 1 squared.
+
+88
+00:04:06,170 --> 00:04:13,500
+And so this becomes z squared minus z squared minus 2z plus 1
+
+89
+00:04:13,700 --> 00:04:18,950
+And that equals z squared minus z squared
+
+90
+00:04:19,050 --> 00:04:21,930
+plus 2z, right?
+
+91
+00:04:21,930 --> 00:04:23,170
+Distribute the negative sign.
+
+92
+00:04:23,170 --> 00:04:25,150
+Plus 2z minus 1.
+
+93
+00:04:25,150 --> 00:04:31,790
+The z squares cancel out and we're left with 2z minus 1.
+
+94
+00:04:31,790 --> 00:04:34,010
+If we use both statements,x minus y
+
+95
+00:04:34,010 --> 00:04:35,750
+simplifies to 2z minus 1.
+
+96
+00:04:36,010 --> 00:04:38,380
+They told us that z is a positive integer.
+
+97
+00:04:38,780 --> 00:04:41,860
+So this-- this part of the statement right here--
+
+98
+00:04:41,860 --> 00:04:42,720
+has to be even.
+
+99
+00:04:42,720 --> 00:04:43,840
+It's a multiple of 2.
+
+100
+00:04:43,840 --> 00:04:45,120
+So this is even.
+
+101
+00:04:45,520 --> 00:04:47,930
+And if you subtract 1 from an even number,
+
+102
+00:04:47,930 --> 00:04:50,550
+this whole expression has to be odd.
+
+103
+00:04:50,850 --> 00:04:54,300
+So both statements together are sufficient to say that
+
+104
+00:04:54,300 --> 00:04:56,750
+x minus y is odd.
+
+105
+00:04:58,000 --> 00:05:03,210
+Next problem. This one looks hairy. 150.
+
+106
+00:05:05,000 --> 00:05:07,520
+Henry purchased three items during a sale.
+
+107
+00:05:07,520 --> 00:05:11,070
+He received a 20% discount off the regular price
+
+108
+00:05:11,070 --> 00:05:12,660
+of the most expensive item
+
+109
+00:05:12,750 --> 00:05:16,860
+and a 10% discount off the regular price of the other two.
+
+110
+00:05:16,860 --> 00:05:20,140
+Was the total amount of the three discounts greater than
+
+111
+00:05:20,140 --> 00:05:23,140
+15% of the sum of the regular price? OK.
+
+112
+00:05:23,140 --> 00:05:25,610
+So what was the total amount of the three discounts?
+
+113
+00:05:25,610 --> 00:05:33,250
+It was 20% times-- let's just call it item one--
+
+114
+00:05:33,250 --> 00:05:40,670
+20% times item one plus 10% times item too,
+
+115
+00:05:40,970 --> 00:05:44,430
+plus 10% times item three.
+
+116
+00:05:47,510 --> 00:05:49,150
+And I'm assuming this is the most expensive.
+
+117
+00:05:49,150 --> 00:05:50,780
+Let's just say this is the second most, I guess.
+
+118
+00:05:50,780 --> 00:05:52,200
+This is third most expensive.
+
+119
+00:05:52,200 --> 00:05:53,620
+Maybe they're the same price, I don't know.
+
+120
+00:05:54,550 --> 00:05:56,890
+This is the total discount. This isn't what he paid.
+
+121
+00:05:56,890 --> 00:05:58,450
+This is the discount on item one.
+
+122
+00:05:58,450 --> 00:05:59,330
+The discount on item two.
+
+123
+00:05:59,330 --> 00:06:01,250
+I'm not saying what they actually paid for item two.
+
+124
+00:06:01,250 --> 00:06:02,740
+So what the question is,
+
+125
+00:06:02,740 --> 00:06:04,500
+was a total amount of the three discounts,
+
+126
+00:06:04,500 --> 00:06:10,190
+that's this number,greater than 15% of the sum
+
+127
+00:06:10,190 --> 00:06:11,380
+of the regular prices.
+
+128
+00:06:11,380 --> 00:06:14,620
+So they're saying, was that greater than 15% of I1,
+
+129
+00:06:15,790 --> 00:06:19,280
+plus I2, plus I3.
+
+130
+00:06:19,280 --> 00:06:21,020
+And I think we can simplify this.
+
+131
+00:06:21,020 --> 00:06:23,380
+Because if we distribute this right-hand side,
+
+132
+00:06:23,380 --> 00:06:34,320
+you get 0.15 times I1 plus 0.15 times I2 plus 0.15 times I3.
+
+133
+00:06:35,010 --> 00:06:40,700
+And let's see, if we subtract out 0.15 I1 from both sides,
+
+134
+00:06:40,700 --> 00:06:49,030
+you get point-- let's see, 0.2 minus 0.15 is 0.05 I1.
+
+135
+00:06:49,030 --> 00:06:50,760
+And I want to keep everything positive,
+
+136
+00:06:50,760 --> 00:06:53,430
+so let me subtract these from the right-hand side.
+
+137
+00:06:53,430 --> 00:06:55,580
+So I'm going to subtract 0.1 I2 from--
+
+138
+00:06:55,980 --> 00:06:59,520
+I'm going to subtract these from both sides of the equation.
+
+139
+00:06:59,520 --> 00:07:06,210
+So that's going to be greater than 0.15 I2 minus 0.1 I2.
+
+140
+00:07:06,210 --> 00:07:10,850
+So that's 0.05 I2.
+
+141
+00:07:11,350 --> 00:07:13,910
+Plus, and now to do the same thing for I3.
+
+142
+00:07:13,910 --> 00:07:15,650
+0.15, 0.1.
+
+143
+00:07:15,650 --> 00:07:21,990
+So I'm going to subtract 0.1 from 0.15. So 0.05 I3.
+
+144
+00:07:22,010 --> 00:07:24,710
+All I did, going from this to this,
+
+145
+00:07:24,710 --> 00:07:26,610
+is I just distributed the 0.15
+
+146
+00:07:26,610 --> 00:07:29,780
+and I subtracted and added to simplify it a little bit.
+
+147
+00:07:29,780 --> 00:07:31,210
+And, actually, this is interesting, too,
+
+148
+00:07:31,210 --> 00:07:33,130
+because I just have these 0.05's everywhere.
+
+149
+00:07:33,130 --> 00:07:34,280
+That's a positive number.
+
+150
+00:07:34,280 --> 00:07:35,690
+And I was able to do that because I just added
+
+151
+00:07:35,690 --> 00:07:37,080
+and subtracted from both sides.
+
+152
+00:07:37,080 --> 00:07:39,450
+But if I multiply or divide by a positive number,
+
+153
+00:07:39,450 --> 00:07:41,950
+then I don't have to change the inequality,and you could say,
+
+154
+00:07:41,950 --> 00:07:44,740
+let's just divide both sides of this equation by 0.05.
+
+155
+00:07:44,740 --> 00:07:47,470
+Or the equivalent is to multiply both sides by 20.
+
+156
+00:07:47,470 --> 00:07:53,390
+But then we're left with I1 is greater than I2 plus I3.
+
+157
+00:07:53,390 --> 00:07:55,260
+And I think this simplification,
+
+158
+00:07:55,260 --> 00:07:57,260
+without having read the statements, was worth it.
+
+159
+00:07:57,260 --> 00:07:58,910
+Because we went from something very convoluted
+
+160
+00:07:58,910 --> 00:08:00,830
+in a very convoluted problem statement
+
+161
+00:08:01,070 --> 00:08:02,720
+to something very simple.
+
+162
+00:08:02,720 --> 00:08:06,940
+So, essentially, they're asking us was the price of I1,
+
+163
+00:08:07,040 --> 00:08:08,960
+was the price of item one,
+
+164
+00:08:09,160 --> 00:08:12,400
+greater than the price of item 2 plus item 3.
+
+165
+00:08:13,000 --> 00:08:14,370
+If we can answer this question,
+
+166
+00:08:14,370 --> 00:08:15,790
+we can answer the harder question.
+
+167
+00:08:16,000 --> 00:08:17,660
+So statement number one.
+
+168
+00:08:18,020 --> 00:08:21,290
+The regular price of the most expensive item was $50.
+
+169
+00:08:21,290 --> 00:08:24,510
+I1 was equal to $50.
+
+170
+00:08:25,020 --> 00:08:27,780
+And the regular price for the next most expensive item was
+
+171
+00:08:27,780 --> 00:08:30,950
+$20. So I2 was equal to $20.
+
+172
+00:08:31,010 --> 00:08:32,580
+So now the question boils down to,
+
+173
+00:08:32,580 --> 00:08:37,670
+was $50 greater than $20 plus the third most expensive item.
+
+174
+00:08:37,670 --> 00:08:39,480
+Well, I don't know, depends.
+
+175
+00:08:39,480 --> 00:08:42,450
+Well, actually, this answers our question, right?
+
+176
+00:08:42,450 --> 00:08:43,900
+Because I was about to say,
+
+177
+00:08:43,900 --> 00:08:46,510
+well the third most expensive item, maybe it's $30.
+
+178
+00:08:46,510 --> 00:08:49,650
+But by definition, we know that it's not $30. Why?
+
+179
+00:08:49,650 --> 00:08:52,130
+Because it was the third most expensive item.
+
+180
+00:08:52,130 --> 00:08:54,490
+The second most expensive item is $20.
+
+181
+00:08:54,490 --> 00:08:57,780
+So this thing has to be less than $20
+
+182
+00:08:57,780 --> 00:09:01,440
+if we are to consider it the third most expensive item.
+
+183
+00:09:01,440 --> 00:09:04,180
+So if this thing is less than $20,
+
+184
+00:09:04,180 --> 00:09:07,450
+then the right-hand side of the equation is definitely--
+
+185
+00:09:07,450 --> 00:09:08,970
+it's going to actually be less than $40.
+
+186
+00:09:08,970 --> 00:09:10,600
+So this is definitely going to be less than $50,
+
+187
+00:09:10,600 --> 00:09:11,850
+so this is going to be true.
+
+188
+00:09:11,850 --> 00:09:14,890
+So it turns out that statement one by itself is sufficient.
+
+189
+00:09:14,890 --> 00:09:16,050
+Because you just have to realize that
+
+190
+00:09:16,050 --> 00:09:19,820
+I3 has to be less than $20 if I2 is equal to $20.
+
+191
+00:09:20,030 --> 00:09:21,840
+Statement two.
+
+192
+00:09:22,020 --> 00:09:26,560
+The regular price of the least expensive item was $15.
+
+193
+00:09:26,560 --> 00:09:28,880
+So let's see. That statement by itself,
+
+194
+00:09:28,880 --> 00:09:34,670
+we get I1 is greater than I2 plus $15,
+
+195
+00:09:34,670 --> 00:09:36,670
+where this is the least expensive item.
+
+196
+00:09:36,670 --> 00:09:40,530
+So just looking at this, we know this is going to be $15,
+
+197
+00:09:40,530 --> 00:09:43,710
+this is going to be more than $15-- yeah, this is hard.
+
+198
+00:09:43,710 --> 00:09:49,730
+You can't say anything about this, because maybe I1 is $17.
+
+199
+00:09:51,310 --> 00:09:53,760
+Maybe I2 is $16 plus $15.
+
+200
+00:09:53,760 --> 00:09:55,650
+And in this case, it would not be the case.
+
+201
+00:09:55,650 --> 00:10:01,140
+Or maybe I1 is $170 and I2 is $16 plus $15,
+
+202
+00:10:01,140 --> 00:10:02,400
+in which case it would be the case.
+
+203
+00:10:02,400 --> 00:10:04,260
+So statement two, by itself,isn't sufficient.
+
+204
+00:10:04,560 --> 00:10:06,150
+So the answer to this is a.
+
+205
+00:10:06,250 --> 00:10:09,690
+Statement one alone is sufficient to answer this question.
+
+206
+00:10:09,890 --> 00:10:11,610
+See you in the next video.

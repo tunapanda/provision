@@ -1,0 +1,167 @@
+1
+99:59:59,999 --> 99:59:59,999
+In a regular tetrahedron, and that is just a 4-sided polyhedron, and it's regular so all of its sides
+
+2
+99:59:59,999 --> 99:59:59,999
+and all of its faces will be the same. The centers of the 4 faces are the vertices of a smaller tetrahedron.
+
+3
+99:59:59,999 --> 99:59:59,999
+The ratio of the volume of the smaller tetrahedron to that of the larger tetrahedron is m over n where
+
+4
+99:59:59,999 --> 99:59:59,999
+m and n are relatively prime, positive integers. Find m plus n. So let's just draw this regular tetrahedron
+
+5
+99:59:59,999 --> 99:59:59,999
+first. So this is a regular tetrahedron. So in order to have 4 equal sides, or 4 equal faces I should
+
+6
+99:59:59,999 --> 99:59:59,999
+say in 3 dimensions it needs to look like this, essentially needs to be 4 triangles. So we have 1 triangle,
+
+7
+99:59:59,999 --> 99:59:59,999
+just like that. And we have another triangle like that. Then we have another triangle in the back, so
+
+8
+99:59:59,999 --> 99:59:59,999
+this is another triangle in the back, and we have a triangle as the base. This is a regular tetrahedron
+
+9
+99:59:59,999 --> 99:59:59,999
+where each of these faces are going to be equilateral triangles. Each of these faces are equilateral
+
+10
+99:59:59,999 --> 99:59:59,999
+triangles. So if you look, so this length is the same as that length, fair enough. So that is our regular
+
+11
+99:59:59,999 --> 99:59:59,999
+tetrahedron. Now they say that the centers of the 4 faces, so let's look at the centers of the 4 faces.
+
+12
+99:59:59,999 --> 99:59:59,999
+Let's say that this is the center of one face. This is the center of another face. Back here is the center
+
+13
+99:59:59,999 --> 99:59:59,999
+of the face that we can't see, that's behind these two faces, and that this is the center... this right
+
+14
+99:59:59,999 --> 99:59:59,999
+here let's say is the center of the base. The center of the 4 faces are the vertices of a smaller tetrahedron.
+
+15
+99:59:59,999 --> 99:59:59,999
+So we can connect them to get a smaller tetrahedron, so along. So we have this one going along the center of
+
+16
+99:59:59,999 --> 99:59:59,999
+this face to the center of the base. Going from the center of the base to the center of this face over
+
+17
+99:59:59,999 --> 99:59:59,999
+here. We have this line, you connect those. We have one of the face of the smaller tetrahedron you go
+
+18
+99:59:59,999 --> 99:59:59,999
+like that. You have kind of the top, if you flipped it over you would have the base
+
+19
+99:59:59,999 --> 99:59:59,999
+of the smaller tetrahedron. If you connected those in the back.
+
+20
+99:59:59,999 --> 99:59:59,999
+You would have the two faces that you can't see, that face and that face.
+
+21
+99:59:59,999 --> 99:59:59,999
+Now they want us to essentially figure out the volume of the smaller
+
+22
+99:59:59,999 --> 99:59:59,999
+tetrahedron, this magenta tetrahedron, to this yellow one over here
+
+23
+99:59:59,999 --> 99:59:59,999
+And you might already be racking your brain how do you figure out the volume
+
+24
+99:59:59,999 --> 99:59:59,999
+of a tetrahedron and what not and all of that,
+
+25
+99:59:59,999 --> 99:59:59,999
+But the important thing to realize, the important thing to realize
+
+26
+99:59:59,999 --> 99:59:59,999
+if you take two similar, really two similar objects
+
+27
+99:59:59,999 --> 99:59:59,999
+and if you just know the ratio of one of their dimensions
+
+28
+99:59:59,999 --> 99:59:59,999
+and assuming that all of their dimensions have the same ratio
+
+29
+99:59:59,999 --> 99:59:59,999
+And it is the case in this right over here. Then the volume
+
+30
+99:59:59,999 --> 99:59:59,999
+will be the cube of the ratios of one of their sides.
+
+31
+99:59:59,999 --> 99:59:59,999
+So let me show this to you right over here, let me depict it.
+
+32
+99:59:59,999 --> 99:59:59,999
+So if we let's say let's say that this length right over here, let's call that
+
+33
+99:59:59,999 --> 99:59:59,999
+length big, for the big tetrahedron. And let's find the corresponding edge
+
+34
+99:59:59,999 --> 99:59:59,999
+of the small tetrahedron. So let's say that we have
+
+35
+99:59:59,999 --> 99:59:59,999
+another side of this small tetrahedron. Let's call that length small.
+
+36
+99:59:59,999 --> 99:59:59,999
+If we know the ratio of length big to length small. If we know,
+
+37
+99:59:59,999 --> 99:59:59,999
+if we know the ratio of length big to length small we could figure out
+
+38
+99:59:59,999 --> 99:59:59,999
+the ratio of the big tetrahedron, we can figure out the ratio of the
+
+39
+99:59:59,999 --> 99:59:59,999
+big tetrahedron to the small tetrahedron
+
+40
+99:59:59,999 --> 99:59:59,999
+to the volume of the big tetrahedron to the volume of the small tetrahedron
+
+41
+99:59:59,999 --> 99:59:59,999
+by just cubing this ratio, by just cubing this ratio.
+
+42
+99:59:59,999 --> 99:59:59,999
+And we can do that because these are completely similar in every direction and every dimension.

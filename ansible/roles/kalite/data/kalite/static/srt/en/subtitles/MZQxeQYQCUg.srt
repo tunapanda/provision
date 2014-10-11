@@ -1,0 +1,107 @@
+1
+00:00:00,853 --> 00:00:10,003
+Payoff diagrams are a way of depicting what option or set of options or options combined with other securities are worth at option expiration.
+
+2
+00:00:10,003 --> 00:00:15,937
+What you do is plot it based on the value on the underlying stock price, and I have two different plots here.
+
+3
+00:00:15,937 --> 00:00:24,254
+One that you might see more in an academic setting or a textbook, and one that you might see more if you look up payoff diagrams on the internet people actually trading options.
+
+4
+00:00:24,254 --> 00:00:31,921
+But they're very similar; this one just worries about the actual value of the options at expirations and this worries about the profit and loss.
+
+5
+00:00:31,921 --> 00:00:37,037
+So this one will incorporate what you paid for the option, this will not. This just says what it is worth.
+
+6
+00:00:37,037 --> 00:00:48,170
+WIth that said, we have company ABCD trading at $50 per share. And then we have a call option with a $50 strike price, or $50 exercise price, trading at $10.
+
+7
+00:00:48,170 --> 00:01:00,253
+Which tells us that the owner of that option has the right but not the obligation to buy Company ABCD stock at $50 per share up to expiration, assuming it's an American option.
+
+8
+00:01:00,253 --> 00:01:03,687
+If it was a European option, it would be on expiration.
+
+9
+00:01:03,687 --> 00:01:11,837
+So what is the value of this option at expiration? So this is value at expiration.
+
+10
+00:01:11,837 --> 00:01:19,003
+So if the stock is worth less than $50, the owner wouldn't execute it. They wouldn't exercise the option.
+
+11
+00:01:19,003 --> 00:01:26,188
+So the option would be worthless. It would be worthless. They would just let it expire. No reason to actually exercise the option.
+
+12
+00:01:26,188 --> 00:01:37,488
+Now, if the underlying stock price is worth more than the $50, if its $51 then you would exercise it, because now the option is worth $1. You can buy something for $50 and now sell it for $51.
+
+13
+00:01:37,488 --> 00:01:48,970
+So its now worth $1. If the underlying stock price is $60, of course you would exercise it [as] its now worth $10. Because you can buy something for $50 and you can immediately sell it at $60.
+
+14
+00:01:48,970 --> 00:01:52,020
+We're saying that the underlying stock price is $60, so it would be worth $10.
+
+15
+00:01:52,020 --> 00:01:57,220
+And so you have a payoff diagram that looks something like this: a kind of hockey sticks.
+
+16
+00:01:57,220 --> 00:02:03,220
+Below $50 its worthless, and then above $50 all of a sudden it becomes worth something.
+
+17
+00:02:03,220 --> 00:02:09,453
+Now if you do it in the profit and loss model all you have to do is incorporate what you actually paid for the option.
+
+18
+00:02:09,453 --> 00:02:20,720
+So in this situation below $50 you still would not actually exercise your option because why would you pay $50 for something that is actually trading for less than $50?
+
+19
+00:02:20,720 --> 00:02:27,488
+But you would say "Hey, I would have had to take a $10 loss because I paid $10 for that option"
+
+20
+00:02:27,488 --> 00:02:40,320
+So up until $50 your profit is -$10, you have lost $10 dollars, you have lost the price of the option.
+
+21
+00:02:40,320 --> 00:02:40,820
+Because you wouldn't exercise it.
+
+22
+00:02:40,820 --> 00:02:46,488
+Then all of a sudden the stock price goes above $50 you would exercise it but you would still have a negative profit because you still haven't made up the price of the option.
+
+23
+00:02:46,488 --> 00:03:02,170
+All the way up until $60, at $60 per share for the underlying stock price you could exercise the option: buy the stock at $50, sell it at $60, you would make $10 doing that but of course you had to spend $10 on the option so there you would break even.
+
+24
+00:03:02,170 --> 00:03:08,370
+But then as you get above a $60 stock price at majority, then all of a sudden you start to make money.
+
+25
+00:03:08,370 --> 00:03:14,520
+So these are both legitimate payoff diagrams for a call option, for this call option right over here.
+
+26
+00:03:14,520 --> 00:03:16,270
+They're just different ways of viewing it.
+
+27
+00:03:16,270 --> 00:03:19,904
+This is the value of the options, this incorporates the actual cost of it.

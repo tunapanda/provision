@@ -1,0 +1,587 @@
+1
+00:00:01,133 --> 00:00:02,670
+Now, let's do something pretty interesting, this
+
+2
+00:00:02,670 --> 00:00:04,933
+in some degree will be one of the easiest functions to find
+
+3
+00:00:04,933 --> 00:00:07,407
+the maclaurin series representation of
+
+4
+00:00:07,407 --> 00:00:11,192
+let's try to approximate e^x
+
+5
+00:00:11,192 --> 00:00:13,200
+f(x) is equal to e^x
+
+6
+00:00:13,200 --> 00:00:14,861
+and what makes this really simple
+
+7
+00:00:14,861 --> 00:00:16,000
+is when you take the derivative
+
+8
+00:00:16,000 --> 00:00:17,333
+and frankly this is one of the amazing things
+
+9
+00:00:17,333 --> 00:00:18,867
+about the number e
+
+10
+00:00:18,867 --> 00:00:20,067
+is that when you take the derivative
+
+11
+00:00:20,067 --> 00:00:23,568
+of e^x, you get e^x
+
+12
+00:00:23,568 --> 00:00:25,867
+so this is equal to f ' (x)
+
+13
+00:00:25,867 --> 00:00:29,200
+this is equal to f 2nd derivative of x
+
+14
+00:00:29,200 --> 00:00:31,933
+this is equal to f 3rd derivative of x
+
+15
+00:00:31,933 --> 00:00:34,102
+this is equal to the nth derivative of x
+
+16
+00:00:34,102 --> 00:00:36,270
+it's always equal to e^x
+
+17
+00:00:36,270 --> 00:00:40,867
+that's the first mind-blowing thing about e
+
+18
+00:00:40,867 --> 00:00:42,867
+you can just keep taking it's derivative
+
+19
+00:00:42,867 --> 00:00:44,443
+the slope at any point on that curve
+
+20
+00:00:45,021 --> 00:00:48,762
+is the same as the value of the point on that curve
+
+21
+00:00:48,762 --> 00:00:50,533
+that's kind of crazy
+
+22
+00:00:50,533 --> 00:00:51,432
+with that said
+
+23
+00:00:51,432 --> 00:00:52,933
+let's take its maclaurin representation
+
+24
+00:00:52,933 --> 00:00:54,067
+so we have to find
+
+25
+00:00:54,067 --> 00:00:56,610
+f(0), f ' (0), the 2nd derivative of 0
+
+26
+00:00:56,610 --> 00:00:59,188
+and when we take e^0
+
+27
+00:00:59,188 --> 00:01:01,733
+e^0 is just equal to one
+
+28
+00:01:01,733 --> 00:01:04,267
+and so this is going to be equal to f(0)
+
+29
+00:01:04,267 --> 00:01:07,595
+this is going to be equal to f ' (0) it's going to be
+
+30
+00:01:07,595 --> 00:01:10,194
+equal to any of the derivatives evaluated
+
+31
+00:01:14,086 --> 00:01:17,200
+the nth derivative is going to be valued at zero
+
+32
+00:01:17,200 --> 00:01:20,467
+and that's what makes the Maclaurin series
+
+33
+00:01:20,467 --> 00:01:23,000
+fairly straightforward
+
+34
+00:01:23,000 --> 00:01:24,200
+if I want to approximate
+
+35
+00:01:24,200 --> 00:01:27,669
+e^x using a maclaurin series
+
+36
+00:01:27,669 --> 00:01:28,722
+so e^x
+
+37
+00:01:28,722 --> 00:01:30,467
+and I'll put a little approximately over here
+
+38
+00:01:30,467 --> 00:01:31,672
+and we'll get closer and closer
+
+39
+00:01:31,672 --> 00:01:34,691
+to the real e^x and as we keep adding more and more terms
+
+40
+00:01:34,691 --> 00:01:37,231
+especially if we add an infinite number of terms
+
+41
+00:01:37,231 --> 00:01:38,590
+it would look like this:
+
+42
+00:01:38,590 --> 00:01:41,680
+f(0) and we do it in
+
+43
+00:01:41,680 --> 00:01:44,467
+what colors did I use for cosine and sine?
+
+44
+00:01:44,467 --> 00:01:46,754
+pink and green
+
+45
+00:01:47,754 --> 00:01:49,954
+I'll use the yellow here
+
+46
+00:01:51,000 --> 00:01:53,600
+f(0) is 1
+
+47
+00:01:53,600 --> 00:01:55,467
+plus f ' (0) times x
+
+48
+00:01:55,467 --> 00:01:57,333
+f ' (0) is also one
+
+49
+00:01:57,333 --> 00:01:58,508
+plus x
+
+50
+00:01:59,400 --> 00:02:01,067
+plus this is also one
+
+51
+00:02:01,067 --> 00:02:03,518
+so x^2 / 2!
+
+52
+00:02:06,318 --> 00:02:08,476
+all of these things are going to be one
+
+53
+00:02:08,476 --> 00:02:09,533
+this is one
+
+54
+00:02:09,533 --> 00:02:10,733
+this is one
+
+55
+00:02:10,733 --> 00:02:11,933
+when we're taking about e^x
+
+56
+00:02:11,933 --> 00:02:13,267
+so you go to the third term
+
+57
+00:02:13,267 --> 00:02:14,667
+this is one
+
+58
+00:02:14,667 --> 00:02:17,067
+you just have x^3 / 3!
+
+59
+00:02:17,067 --> 00:02:19,467
+plus x^3 / 3!
+
+60
+00:02:19,467 --> 00:02:20,800
+and I think you see the pattern here
+
+61
+00:02:20,800 --> 00:02:22,200
+we just keep adding terms
+
+62
+00:02:22,200 --> 00:02:22,942
+x^4 / 4!
+
+63
+00:02:22,942 --> 00:02:31,667
+plus x^5 / 5! plus x^6 over 6!
+
+64
+00:02:31,667 --> 00:02:34,200
+and something pretty neat is starting
+
+65
+00:02:34,200 --> 00:02:35,800
+to emerge
+
+66
+00:02:35,800 --> 00:02:38,000
+this is just really cool
+
+67
+00:02:38,000 --> 00:02:40,357
+that e^x can be approximated by
+
+68
+00:02:40,357 --> 00:02:44,026
+1 plus x plus x^2 / 2!
+
+69
+00:02:44,026 --> 00:02:45,933
+plus x^3 / 3!
+
+70
+00:02:45,933 --> 00:02:48,133
+once again, e^x is starting to look like
+
+71
+00:02:48,133 --> 00:02:49,467
+a pretty cool thing
+
+72
+00:02:49,467 --> 00:02:51,758
+this also leads to other interesting results
+
+73
+00:02:51,758 --> 00:02:54,684
+like if you want to approximate e
+
+74
+00:02:54,684 --> 00:02:58,600
+you just evaluate this as x is equal to one
+
+75
+00:02:58,600 --> 00:03:06,533
+so this is, well, so you just say e is e ^ 1
+
+76
+00:03:06,533 --> 00:03:08,000
+and this is going to be approximately equal
+
+77
+00:03:08,000 --> 00:03:10,682
+to this polynomial evaluated at 1
+
+78
+00:03:10,682 --> 00:03:13,067
+if x is 1 here, then we make x equal to one
+
+79
+00:03:13,067 --> 00:03:13,667
+over here
+
+80
+00:03:13,667 --> 00:03:18,241
+so it will be, one plus one
+
+81
+00:03:18,256 --> 00:03:21,590
+plus one over 2!
+
+82
+00:03:21,590 --> 00:03:24,933
+plus one over 3!
+
+83
+00:03:24,933 --> 00:03:27,800
+plus one over 4!
+
+84
+00:03:27,800 --> 00:03:30,744
+and so on and so forth all the way into infinity
+
+85
+00:03:30,744 --> 00:03:33,467
+and you could also do this as one
+
+86
+00:03:33,467 --> 00:03:35,933
+over 1 ! as well
+
+87
+00:03:35,933 --> 00:03:39,103
+but what's really cool is that
+
+88
+00:03:39,103 --> 00:03:41,267
+this is another way to represent e
+
+89
+00:03:41,267 --> 00:03:42,467
+it shows that e
+
+90
+00:03:42,467 --> 00:03:43,608
+once again shows up as
+
+91
+00:03:43,608 --> 00:03:49,133
+kind of 2 + 1/2 + 1/6
+
+92
+00:03:49,133 --> 00:03:51,271
+if you keep doing this, you get close
+
+93
+00:03:51,271 --> 00:03:53,121
+to the number e
+
+94
+00:03:54,429 --> 00:03:56,193
+but that by itself isn't the only
+
+95
+00:03:56,193 --> 00:03:58,353
+fascinating thing
+
+96
+00:03:58,353 --> 00:04:00,200
+if we look back at the Maclaurin Representation
+
+97
+00:04:00,200 --> 00:04:02,400
+of these other functions.
+
+98
+00:04:02,400 --> 00:04:03,533
+cosine (x)
+
+99
+00:04:03,533 --> 00:04:06,600
+let me copy and paste cosine(x)
+
+100
+00:04:06,600 --> 00:04:09,867
+so, cosine (x) right up here
+
+101
+00:04:09,867 --> 00:04:14,026
+let me do my best to copy and paste the whole thing
+
+102
+00:04:18,272 --> 00:04:24,600
+so that is cosine(x) and let's do the same thing
+
+103
+00:04:24,600 --> 00:04:27,773
+for sine(x) that we did last video
+
+104
+00:04:27,773 --> 00:04:30,887
+so the sine of x
+
+105
+00:04:31,533 --> 00:04:37,825
+let me copy and paste that
+
+106
+00:04:40,533 --> 00:04:44,770
+so do we see any relationship between
+
+107
+00:04:44,770 --> 00:04:46,348
+these approximations?
+
+108
+00:04:46,348 --> 00:04:48,067
+so before, you probably would have
+
+109
+00:04:48,067 --> 00:04:49,181
+guessed there's some relationship
+
+110
+00:04:49,181 --> 00:04:50,342
+between cosine and sine
+
+111
+00:04:50,342 --> 00:04:52,733
+but what about e^x?
+
+112
+00:04:52,733 --> 00:04:54,429
+so what you see here
+
+113
+00:04:54,429 --> 00:04:58,144
+is that cosine(x) looks a lot like this term
+
+114
+00:04:58,144 --> 00:05:00,800
+plus this term, although we probably want
+
+115
+00:05:00,800 --> 00:05:02,347
+to put a negative out front here
+
+116
+00:05:02,347 --> 00:05:04,400
+so we have a negative version of this term
+
+117
+00:05:04,400 --> 00:05:04,900
+right here
+
+118
+00:05:04,900 --> 00:05:06,200
+plus this term right here
+
+119
+00:05:06,200 --> 00:05:09,200
+plus a negative version of this term
+
+120
+00:05:09,200 --> 00:05:11,067
+right over here
+
+121
+00:05:11,067 --> 00:05:14,667
+and sine (x) looks just like
+
+122
+00:05:14,667 --> 00:05:19,019
+this term plus a negative version of
+
+123
+00:05:19,019 --> 00:05:21,527
+this term
+
+124
+00:05:21,527 --> 00:05:23,533
+plus this term
+
+125
+00:05:23,533 --> 00:05:24,600
+plus a negative version of the next term
+
+126
+00:05:25,172 --> 00:05:27,200
+so if we could somehow reconcile the
+
+127
+00:05:27,200 --> 00:05:30,067
+negatives in some interesting way
+
+128
+00:05:30,067 --> 00:05:31,800
+it looks like e^x
+
+129
+00:05:31,800 --> 00:05:34,867
+at least the polynomial representation
+
+130
+00:05:34,867 --> 00:05:36,271
+of e^x
+
+131
+00:05:36,271 --> 00:05:39,336
+is somehow related to a combination
+
+132
+00:05:39,336 --> 00:05:41,533
+of the polynomial representations of
+
+133
+00:05:41,533 --> 00:05:43,423
+cosine of x and sine of x
+
+134
+00:05:43,423 --> 00:05:44,467
+so this is starting to get
+
+135
+00:05:44,467 --> 00:05:46,200
+really really really cool
+
+136
+00:05:46,200 --> 00:05:47,400
+we're starting to see a connection
+
+137
+00:05:47,400 --> 00:05:48,764
+between something related to
+
+138
+00:05:48,764 --> 00:05:50,180
+compound interests
+
+139
+00:05:50,180 --> 00:05:52,400
+or a function whose derivative
+
+140
+00:05:52,400 --> 00:05:53,802
+is always equal to that function
+
+141
+00:05:53,802 --> 00:05:55,544
+and these things that come out of the unit circle
+
+142
+00:05:55,544 --> 00:05:57,680
+and oscillatory motion and all kinds of things
+
+143
+00:05:57,680 --> 00:06:00,267
+there starts to seem a kind of pure
+
+144
+00:06:00,267 --> 00:06:01,867
+connectiveness there. but i'll leave you
+
+145
+00:06:01,867 --> 00:06:03,276
+there on that video and in the next video
+
+146
+00:06:03,276 --> 00:06:07,333
+I'll show you how to reconcile these three
+
+147
+00:06:07,333 --> 99:59:59,999
+fascinating functions

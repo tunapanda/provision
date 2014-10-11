@@ -1,0 +1,487 @@
+1
+00:00:00,060 --> 00:00:05,060
+Let's say I have some object that's traveling in a circular path just like this.
+
+2
+00:00:05,060 --> 00:00:09,690
+And what I've drawn here is its velocity vector at different points along that path.
+
+3
+00:00:09,690 --> 00:00:16,220
+So this right over here is going to be v one, velocity vector one,
+
+4
+00:00:16,230 --> 00:00:19,030
+and this is going to be velocity vector two,
+
+5
+00:00:19,030 --> 00:00:22,440
+and this right over here is going to be velocity vector three.
+
+6
+00:00:22,440 --> 00:00:25,820
+and we're going to assume in this video is the magnitude
+
+7
+00:00:25,820 --> 00:00:29,800
+of the velocity vectors is constant or another way to think about this
+
+8
+00:00:29,800 --> 00:00:31,260
+is that the speed is constant.
+
+9
+00:00:31,260 --> 00:00:34,510
+So I'll just say, lower case V without the arrow on
+
+10
+00:00:34,510 --> 00:00:38,020
+top so this is going to be a scaler quantity, I'll call this the speed
+
+11
+00:00:38,040 --> 00:00:40,720
+or you could call this the magnitude of these vectors, and
+
+12
+00:00:40,720 --> 00:00:43,110
+this is going to be constant, so this is going to be
+
+13
+00:00:43,110 --> 00:00:48,600
+equal to the magnitude of vector one, which is equal to the magnitude of vector two.
+
+14
+00:00:48,620 --> 00:00:53,590
+The direction is clearly changing but the magnitude is going to be the same, which is
+
+15
+00:00:53,590 --> 00:00:57,640
+equal to the magnitude the magnitude of vector three
+
+16
+00:00:57,640 --> 00:01:02,850
+We're going to assume that it is traveling in a path, a circle with radius r.
+
+17
+00:01:02,850 --> 00:01:05,960
+What I'm going to do is I'm going to draw a position vector at each point
+
+18
+00:01:05,980 --> 00:01:18,110
+Let's call r one, over there; that's position vector one, r one.
+
+19
+00:01:18,120 --> 00:01:21,070
+That is position vector r two.
+
+20
+00:01:21,090 --> 00:01:26,000
+So the position is clearly changing, that's position vector r two,
+
+21
+00:01:26,000 --> 00:01:29,100
+and that is position vector r three
+
+22
+00:01:29,100 --> 00:01:32,690
+but the magnitude of our position vectors are clearly the same,
+
+23
+00:01:32,690 --> 00:01:35,940
+and I'm going to call the magnitude of out position vectors, r.
+
+24
+00:01:35,940 --> 00:01:39,300
+That's just the radius of the circle; it's this distance right over here.
+
+25
+00:01:39,300 --> 00:01:44,110
+So R is equal to the magnitude of R one, which is equal to the magnitude of R two,
+
+26
+00:01:44,110 --> 00:01:48,970
+which is equal to the magnitude of R three.
+
+27
+00:01:48,970 --> 00:01:52,670
+Now what I what to do in this video is to prove to you visually that
+
+28
+00:01:52,670 --> 00:01:59,750
+given this radius and given this speed that the magnitude of the centripetal acceleration,
+
+29
+00:01:59,770 --> 00:02:02,510
+and I'll just write that as A, sub C.
+
+30
+00:02:02,510 --> 00:02:05,650
+I don't have an arrow on top, so this is an scalar quantity.
+
+31
+00:02:05,650 --> 00:02:09,170
+So the magnitude of the centripetal acceleration, is going to be
+
+32
+00:02:09,170 --> 00:02:14,940
+equal to our speed squared, our constant speed squared, divided by,
+
+33
+00:02:14,940 --> 00:02:18,870
+divided by the radius of the circle this is what I want you
+
+34
+00:02:18,870 --> 00:02:24,600
+I want you to feel good that this is indeed the case by the end of this video.
+
+35
+00:02:24,600 --> 00:02:28,590
+And to understand that, what I want to do, is I want to re-plot these
+
+36
+00:02:28,590 --> 00:02:31,730
+these velocity vectors on another circle,
+
+37
+00:02:31,730 --> 00:02:34,780
+and just think about how the vectors themselves are changing.
+
+38
+00:02:34,780 --> 00:02:43,500
+So let's copy and paste this, so let me copy and paste V one, so copy and paste so that is V
+
+39
+00:02:43,500 --> 00:02:46,900
+actually and want to do it from the center, so that is V one,
+
+40
+00:02:46,900 --> 00:02:56,230
+the same thing for V two. So, let me copy and paste it. That is V two
+
+41
+00:02:56,240 --> 00:02:59,950
+and then let me do it also for V three.
+
+42
+00:02:59,950 --> 00:03:06,630
+So, V three I'll just get the vector part of the label. So, copy and paste it.
+
+43
+00:03:06,630 --> 00:03:12,190
+That right over there is vector, V three and let me clean this up a little bit.
+
+44
+00:03:12,190 --> 00:03:16,770
+just do that we don't, so that's clearly Vtwo, I don't think we have to label anymore
+
+45
+00:03:16,770 --> 00:03:20,750
+we know that Vtwo is in orange, we know that Vtwo is in orange.
+
+46
+00:03:20,750 --> 00:03:24,200
+And what is the radius of this circle going to be right over here?
+
+47
+00:03:24,200 --> 00:03:29,700
+Well, the radius of this circle is going to be the magnitude of the velocity vectors,
+
+48
+00:03:29,700 --> 00:03:35,080
+and we already know the magnitude of the velocity vectors is this quantity V. The scaler quantity.
+
+49
+00:03:35,080 --> 00:03:38,630
+So the radius of this circle is V,
+
+50
+00:03:38,630 --> 00:03:44,220
+the radius of this circle we already know is equal to R.
+
+51
+00:03:44,220 --> 00:03:52,170
+And just as the velocity vectors, what's giving us the change in position vector over time.
+
+52
+00:03:52,170 --> 00:03:56,850
+What's the vector that's going to give us the change in our velocity vector over time?
+
+53
+00:03:56,870 --> 00:03:59,040
+Well that's going to be our acceleration vectors.
+
+54
+00:03:59,040 --> 00:04:08,640
+So you will have some acceleration we will call this A1, we will call this A2
+
+55
+00:04:08,640 --> 00:04:11,730
+And I'll call this A3
+
+56
+00:04:11,750 --> 00:04:14,850
+and I want to make sure you get the analogy that's going on here.
+
+57
+00:04:14,850 --> 00:04:19,170
+As we go around the circle the position vector, first they point out to the left,
+
+58
+00:04:19,170 --> 00:04:27,510
+then the upper, up, kind of the 11:00 position or I guess the top, the top left, then to the top
+
+59
+00:04:27,510 --> 00:04:31,110
+So it's pointing to these different positions like a hand in a clock.
+
+60
+00:04:31,110 --> 00:04:33,390
+And what's moving it along there, is
+
+61
+00:04:33,390 --> 00:04:37,920
+the change in the position vector over time which are these velocity vectors.
+
+62
+00:04:37,960 --> 00:04:42,700
+Over here the velocity vectors are moving around like the hands of a clock.
+
+63
+00:04:42,700 --> 00:04:49,040
+And what is doing the moving around, are these acceleration vectors
+
+64
+00:04:49,040 --> 00:04:51,150
+and over here the velocity vectors,
+
+65
+00:04:51,150 --> 00:04:55,060
+they are tangential to the radius, or sorry, they are tangential to
+
+66
+00:04:55,060 --> 00:04:58,030
+the path which is a circle, they are perpendicular to the radius.
+
+67
+00:04:58,030 --> 00:05:00,120
+you learn that in geometry,
+
+68
+00:05:00,120 --> 00:05:05,320
+that a line that is tangent to a circle is perpendicular to a radius
+
+69
+00:05:05,320 --> 00:05:08,000
+and it is also going to be the same thing right over here.
+
+70
+00:05:08,000 --> 00:05:09,740
+And just going back to what we learned,
+
+71
+00:05:09,740 --> 00:05:12,070
+when we learned about the intuition of centripetal acceleration
+
+72
+00:05:12,070 --> 00:05:15,030
+if you look at A1 right over here and you translate
+
+73
+00:05:15,030 --> 00:05:19,010
+this vector it will be going just like that, it will be going towards the center.
+
+74
+00:05:19,010 --> 00:05:22,820
+A2, once again is going towards the center.
+
+75
+00:05:22,820 --> 00:05:27,850
+A3, if you translate that, that is going towards the center.
+
+76
+00:05:27,850 --> 00:05:32,100
+So all of these are actually center seeking vectors, you see that right over here.
+
+77
+00:05:32,100 --> 00:05:36,110
+So all of these are actually centripetal acceleration vectors right over here.
+
+78
+00:05:36,110 --> 00:05:38,580
+Here we're talking about just the magnitude of it.
+
+79
+00:05:38,580 --> 00:05:40,970
+And we are going to assume that these all have the same
+
+80
+00:05:40,970 --> 00:05:44,450
+magnitude, so we are going to assume that our centripetal,
+
+81
+00:05:44,450 --> 00:05:48,460
+they all have a magnitude of what we call A sub C. So that's the magnitude,
+
+82
+00:05:48,460 --> 00:05:54,210
+it's equal to the magnitude of A1, that vector it's equal to the magnitude of A2,
+
+83
+00:05:54,210 --> 00:05:58,290
+and it's equal to the magnitude of A3.
+
+84
+00:05:58,290 --> 00:06:03,740
+Now, what I want to think about is how long is it going to take to get to
+
+85
+00:06:03,740 --> 00:06:07,420
+this point on this circle to the point on that circle right over there.
+
+86
+00:06:07,420 --> 00:06:11,580
+So, the way to think about it is, what is the length of the arc that it traveled.
+
+87
+00:06:11,580 --> 00:06:17,880
+The length of this arc that it traveled right over there that's 1/4 around the circle
+
+88
+00:06:17,880 --> 00:06:20,620
+it's going to be 1/4 of the circumference.
+
+89
+00:06:20,620 --> 00:06:25,530
+The circumference is 2pi(r) it is going to be 1/4 of that.
+
+90
+00:06:25,530 --> 00:06:30,040
+So, that is the length of the arc, that is the length of the arc.
+
+91
+00:06:30,040 --> 00:06:32,250
+and then how long will it take to go that?
+
+92
+00:06:32,250 --> 00:06:38,140
+Well you would divide the length of your path divided by the actual speed,
+
+93
+00:06:38,140 --> 00:06:41,670
+the actual thing that's nudging it along that path so you want to divide
+
+94
+00:06:41,670 --> 00:06:45,740
+that by your actual, the magnitude of your velocity or your speed.
+
+95
+00:06:45,740 --> 00:06:47,830
+This is the magnitude of velocity, not velocity.
+
+96
+00:06:47,830 --> 00:06:50,250
+This is not a vector right over here, this is a scaler.
+
+97
+00:06:50,250 --> 00:06:54,990
+So this is going to be the time, the time to travel along that path.
+
+98
+00:06:54,990 --> 00:06:57,630
+Now, the time to travel along this path is going to be
+
+99
+00:06:57,640 --> 00:07:00,710
+exact the same amount of time it takes to travel along this path.
+
+100
+00:07:00,710 --> 00:07:02,560
+For the velocity vector,
+
+101
+00:07:02,560 --> 00:07:05,130
+so this is for the position vector to travel like that,
+
+102
+00:07:05,130 --> 00:07:07,690
+this is for the velocity vector to travel like that.
+
+103
+00:08:08,500 --> 00:08:13,830
+so we can set these two things equally to each other, so we get on this side we get
+
+104
+00:08:13,830 --> 00:08:29,310
+1/4 2(pi)r over V is equal to 1/4 2(pi)V over the magnitude of our acceleration vector
+
+105
+00:08:29,310 --> 00:08:34,270
+and now we can simplify it a little bit. We can divide both sides by 1/4 get rid of that.
+
+106
+00:08:34,270 --> 00:08:37,210
+We can divide both sides by 2pi, get rid of that.
+
+107
+00:08:37,210 --> 00:08:43,440
+Let me re-write it, so then we get r/V is equal to V over the centripetal acceleration.
+
+108
+00:08:43,440 --> 00:08:45,250
+And now you can cross-multiply,
+
+109
+00:08:45,250 --> 00:08:51,720
+and so you get v times v so I'm just multiplying, cross multiplying over here
+
+110
+00:08:51,720 --> 00:08:56,350
+V times V you get Vsquared is equal to AC times R.
+
+111
+00:08:56,350 --> 00:08:58,830
+Cross-multiplying remember is just the same thing
+
+112
+00:08:58,830 --> 00:09:01,430
+as multiplying both sides by both denominators.
+
+113
+00:09:01,430 --> 00:09:04,170
+By multiplying both sides times V and AC
+
+114
+00:09:04,170 --> 00:09:08,250
+times V and AC, so it's not some magical thing,
+
+115
+00:09:08,250 --> 00:09:11,840
+if you multiply both sides times V and AC these V'a cancel
+
+116
+00:09:11,840 --> 00:09:22,360
+out, these AC's cancel out, you get V times V is Vsquared is equal to A sub C times R.
+
+117
+00:09:22,360 --> 00:09:25,780
+And now to solve for the magnitude of our centripetal acceleration,
+
+118
+00:09:26,030 --> 00:09:30,350
+you just divide both sides by r.
+
+119
+00:09:30,370 --> 00:09:34,400
+And I guess we've earned the drumroll now
+
+120
+00:09:34,500 --> 00:09:37,500
+We're left with the magnitude of our centripetal acceleration.
+
+121
+00:09:37,560 --> 00:09:43,030
+It's equal to the constant magnitude of our velocity, i.e. our speed
+
+122
+00:09:43,030 --> 00:09:47,200
+divided by the radius of the circle and we're done

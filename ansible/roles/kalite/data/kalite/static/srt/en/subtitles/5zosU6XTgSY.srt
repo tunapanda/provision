@@ -1,0 +1,1391 @@
+1
+00:00:01,467 --> 00:00:08,200
+What I want to explore in this video is given some length of string or line or some line segment right here B
+
+2
+00:00:08,200 --> 00:00:14,000
+can I set up an A, so that the ratio of A to B
+
+3
+00:00:14,000 --> 00:00:19,933
+is equal to the ratio of the sum of these two to the longer side
+
+4
+00:00:19,933 --> 00:00:24,000
+so its equal to ratio of A plus B to A
+
+5
+00:00:24,000 --> 00:00:25,733
+so I want to sit and think about this for a little bit
+
+6
+00:00:25,733 --> 00:00:30,533
+I wanna see is, can I construct some A that's on this ratio, this perfect ratio
+
+7
+00:00:30,533 --> 00:00:33,267
+I am somehow refering to here
+
+8
+00:00:33,267 --> 00:00:36,067
+so that the ratio of the longer side, to the shorter side
+
+9
+00:00:36,067 --> 00:00:40,733
+is equal to the ratio of the whole thing to the longer side
+
+10
+00:00:40,733 --> 00:00:43,067
+and lets just assume we can find a ratio like that
+
+11
+00:00:43,067 --> 00:00:46,467
+and we'll call it, we'll call it φ (Phi). We'll use the greek letter phi
+
+12
+00:00:46,467 --> 00:00:48,133
+for that ratio over there
+
+13
+00:00:48,133 --> 00:00:51,800
+so lets see what we can learn about this special ratio phi.
+
+14
+00:00:51,800 --> 00:00:56,667
+Well, phi is equal to A over B, which is equal to A plus B over A
+
+15
+00:00:56,667 --> 00:00:59,600
+we know that A plus B over A is the same thing as
+
+16
+00:00:59,600 --> 00:01:04,667
+A over A plus B over A
+
+17
+00:01:04,667 --> 00:01:06,400
+A over A is just one
+
+18
+00:01:06,400 --> 00:01:11,200
+and B over A is just the inverse this statement right over here
+
+19
+00:01:11,200 --> 00:01:14,600
+so B over A, this thing right over here is phi
+
+20
+00:01:14,600 --> 00:01:19,933
+so B over A is just going to be 1 over phi. This is going to be 1 over phi.
+
+21
+00:01:19,933 --> 00:01:22,867
+So this is interesting, we've now set up a number
+
+22
+00:01:22,867 --> 00:01:24,600
+which is, we're gonna call this special ratio
+
+23
+00:01:24,600 --> 00:01:32,467
+phi, is equal to 1 plus 1 over phi
+
+24
+00:01:32,467 --> 00:01:36,000
+well just that is kind of a neat statement over there
+
+25
+00:01:36,000 --> 00:01:38,800
+first of all is you subtract 1 from both sides of this
+
+26
+00:01:38,800 --> 00:01:42,933
+you get phi minus 1 is equal to its inverse
+
+27
+00:01:42,933 --> 00:01:45,600
+that seems to be a pretty neat property of any number
+
+28
+00:01:45,600 --> 00:01:48,800
+that if I just subtract 1 from it, I get its multiplicative inverse
+
+29
+00:01:48,800 --> 00:01:52,200
+And so that already that seems intriguing.
+
+30
+00:01:52,200 --> 00:01:54,800
+but then even this statement over here is kind of interesting
+
+31
+00:01:54,800 --> 00:01:58,933
+because you've redefined phi in terms of 1 plus 1 over phi
+
+32
+00:01:58,933 --> 00:02:00,267
+so we can acutally think of it this way
+
+33
+00:02:00,267 --> 00:02:07,200
+we could say, that phi is equal to 1 plus 1 over
+
+34
+00:02:07,200 --> 00:02:09,667
+phi, but instead of writing phi, we say wait
+
+35
+00:02:09,667 --> 00:02:13,995
+phi is just 1 plus 1 over, 1 plus 1 over
+
+36
+00:02:14,179 --> 00:02:18,856
+and instead of saying phi. that's just 1 plus 1 over
+
+37
+00:02:19,018 --> 00:02:22,640
+and I could just write phi again, or I could just keep on going
+
+38
+00:02:22,640 --> 00:02:24,451
+i could just keep on going like this forever
+
+39
+00:02:24,451 --> 00:02:27,563
+I could say that's 1 over, 1 plus 1 over
+
+40
+00:02:27,563 --> 00:02:30,628
+and just keep on going on and on and on forever.
+
+41
+00:02:30,628 --> 00:02:32,532
+and this is a recursive definition of a function
+
+42
+00:02:32,532 --> 00:02:35,225
+were a func..were a recursive definition of a variable
+
+43
+00:02:35,225 --> 00:02:37,640
+was defined in terms of itself
+
+44
+00:02:37,640 --> 00:02:40,427
+but even this seems like a pretty neat property
+
+45
+00:02:40,427 --> 00:02:41,820
+but we want to get a little bit further into
+
+46
+00:02:41,820 --> 00:02:44,374
+we actually want to figure out what phi is
+
+47
+00:02:44,374 --> 00:02:47,671
+what is the value of phi this weird number this weird ratio
+
+48
+00:02:47,671 --> 00:02:49,947
+that we are beginning to explore
+
+49
+00:02:49,947 --> 00:02:54,312
+so lets see if we can turn it into a quadratic equation that we can solve
+
+50
+00:02:54,312 --> 00:02:56,913
+using fairly traditional methods
+
+51
+00:02:56,913 --> 00:02:59,328
+and the easiet way to do that is to multiply both sides
+
+52
+00:02:59,328 --> 00:03:01,800
+of this equation by phi
+
+53
+00:03:01,800 --> 00:03:05,513
+and then you get phi squared
+
+54
+00:03:07,144 --> 00:03:11,400
+plus, or phi squared is equal to phi
+
+55
+00:03:11,400 --> 00:03:14,000
+phi plus 1
+
+56
+00:03:14,000 --> 00:03:17,733
+phi squared is equal to phi plus 1
+
+57
+00:03:17,733 --> 00:03:20,200
+and then, actually im going to take a little bit of a side here
+
+58
+00:03:20,200 --> 00:03:21,467
+because even this is interesting
+
+59
+00:03:21,467 --> 00:03:23,333
+because of then if we take the square rot of both sides
+
+60
+00:03:23,333 --> 00:03:28,400
+of this, you get, scroll down a bit, you get phi is equal to
+
+61
+00:03:28,400 --> 00:03:31,267
+the square root of, and ill just switch the order here
+
+62
+00:03:31,267 --> 00:03:34,867
+the square root of 1 plus, the square root of 1 plus
+
+63
+00:03:34,867 --> 00:03:35,733
+phi
+
+64
+00:03:35,733 --> 00:03:38,133
+so once again we can set up another recursive definition
+
+65
+00:03:38,133 --> 00:03:43,067
+phi is equal to the square root of 1 plus phi
+
+66
+00:03:43,067 --> 00:03:44,733
+and i could write phi there, but hey
+
+67
+00:03:44,733 --> 00:03:46,000
+phi is equal to the square root of
+
+68
+00:03:46,000 --> 00:03:49,600
+1 plus, is equal to the square root of 1 plus
+
+69
+00:03:49,600 --> 00:03:52,000
+and i could write phi there, but hey phi is just equal to
+
+70
+00:03:52,000 --> 00:03:53,733
+the square root of 1 plus
+
+71
+00:03:53,733 --> 00:03:55,067
+square root of 1 plus
+
+72
+00:03:55,067 --> 00:03:57,333
+and you could just keep on going on and on like this forever
+
+73
+00:03:57,333 --> 00:03:58,600
+so even this is neat
+
+74
+00:03:58,600 --> 00:04:00,400
+the same number that can be expressed this way
+
+75
+00:04:00,400 --> 00:04:02,333
+the same number were if i just subtract one from it
+
+76
+00:04:02,333 --> 00:04:03,667
+you get it's inverse
+
+77
+00:04:03,667 --> 00:04:07,667
+it can also be expressed in this kind of recursive square roots
+
+78
+00:04:07,667 --> 00:04:09,533
+underneath each other
+
+79
+00:04:09,533 --> 00:04:12,267
+so this is already seeming, starting to get very very intriguing
+
+80
+00:04:12,713 --> 00:04:14,400
+well lets get back to business
+
+81
+00:04:14,608 --> 00:04:17,333
+lets actually solve for this, this magic number
+
+82
+00:04:17,333 --> 00:04:20,600
+this magic, this magic ratio that we started thinking about
+
+83
+00:04:20,600 --> 00:04:22,933
+and, and really from a very simple idea
+
+84
+00:04:22,933 --> 00:04:24,467
+that the ratio of the longer side
+
+85
+00:04:24,467 --> 00:04:28,333
+to the shorther is equal to reatio of the sum of the two
+
+86
+00:04:28,333 --> 00:04:30,200
+to the longer side
+
+87
+00:04:30,200 --> 00:04:32,467
+so lets just solve this as a traditional quadratic
+
+88
+00:04:32,467 --> 00:04:34,067
+lets get everything on the left hand side
+
+89
+00:04:34,067 --> 00:04:36,533
+so we are going to subtract phi plus 1 from both sides
+
+90
+00:04:36,533 --> 00:04:38,400
+and we get phi squared
+
+91
+00:04:38,400 --> 00:04:40,995
+minus phi, minus 1
+
+92
+00:04:41,102 --> 00:04:43,667
+is equal to zero
+
+93
+00:04:43,667 --> 00:04:47,800
+and we can solve for a phi now using the quadratic formula
+
+94
+00:04:47,800 --> 00:04:49,333
+which we've proven in other videos
+
+95
+00:04:49,333 --> 00:04:51,533
+you can prove using completing the square
+
+96
+00:04:51,533 --> 00:04:52,733
+but the qaurdatic formula
+
+97
+00:04:52,733 --> 00:04:56,467
+you say negative B, negative B is the coefficient
+
+98
+00:04:56,467 --> 00:04:57,733
+on this term right here
+
+99
+00:04:57,733 --> 00:04:59,067
+so let me just write down
+
+100
+00:04:59,067 --> 00:05:00,000
+A is equal to 1
+
+101
+00:05:00,000 --> 00:05:01,600
+that's the coefficient on this term
+
+102
+00:05:01,600 --> 00:05:03,267
+B is equal to negative 1
+
+103
+00:05:03,267 --> 00:05:04,933
+that's the coefficient on this term
+
+104
+00:05:04,933 --> 00:05:06,600
+c is equal to negative 1
+
+105
+00:05:06,600 --> 00:05:09,467
+that's the coefficient that's really the constant term right over there
+
+106
+00:05:09,467 --> 00:05:12,133
+so the solutions to this - phi
+
+107
+00:05:12,133 --> 00:05:14,400
+we are actually only gonna care about the positive solution
+
+108
+00:05:14,400 --> 00:05:15,667
+cause we're thinking about a positive
+
+109
+00:05:15,667 --> 00:05:18,133
+both of, if we go to our original problem here
+
+110
+00:05:18,133 --> 00:05:20,333
+we're assuming that these are both positive distances
+
+111
+00:05:20,333 --> 00:05:22,200
+so we care about the positve value over here
+
+112
+00:05:22,523 --> 00:05:26,267
+we get phi is equal to
+
+113
+00:05:26,267 --> 00:05:27,067
+I'll do it in orange
+
+114
+00:05:27,067 --> 00:05:29,867
+negative B, well negative negative 1 is 1
+
+115
+00:05:29,867 --> 00:05:32,490
+plus or minus the square root of
+
+116
+00:05:32,982 --> 00:05:35,400
+B squared, B squared is going to be 1
+
+117
+00:05:36,123 --> 00:05:38,663
+minus 4AC
+
+118
+00:05:38,663 --> 00:05:41,200
+A is 1, C is negative 1
+
+119
+00:05:41,200 --> 00:05:43,333
+so negative 4 times negative 1 is positive 4
+
+120
+00:05:43,333 --> 00:05:47,267
+so 1 plus 4 all of that over 2A
+
+121
+00:05:47,267 --> 00:05:50,200
+so A is 1, so all of that over 2
+
+122
+00:05:50,200 --> 00:05:52,933
+so phi is equal to 2, and once again we only care about
+
+123
+00:05:52,933 --> 00:05:54,333
+the positve solution here
+
+124
+00:05:54,333 --> 00:05:56,400
+this is going be the square root of 5
+
+125
+00:05:56,400 --> 00:05:57,800
+you've have 1 minus the square of 5
+
+126
+00:05:57,800 --> 00:05:59,025
+you're gonna get a negative in the numerator
+
+127
+00:05:59,041 --> 00:06:01,071
+so we only care about the positive solution
+
+128
+00:06:01,071 --> 00:06:04,308
+1 plus the square root of 5
+
+129
+00:06:04,308 --> 00:06:04,810
+over 2
+
+130
+00:06:04,810 --> 00:06:06,600
+so this seems like a pretty
+
+131
+00:06:06,600 --> 00:06:09,354
+pretty interesting, interesting number
+
+132
+00:06:09,508 --> 00:06:11,000
+lets actually take a calculator out
+
+133
+00:06:11,000 --> 00:06:13,759
+and see if we can get the first, the first few places
+
+134
+00:06:13,836 --> 00:06:16,590
+of this magic number phi
+
+135
+00:06:16,718 --> 00:06:19,333
+so let me get my calculator out
+
+136
+00:06:19,333 --> 00:06:21,133
+and lets just actually evaluate it
+
+137
+00:06:21,133 --> 00:06:22,867
+and you might recognize that square root of phi
+
+138
+00:06:22,867 --> 00:06:24,400
+is an irrational number
+
+139
+00:06:24,400 --> 00:06:26,800
+and so this actually, this whole thing is going to be an irrational number
+
+140
+00:06:26,800 --> 00:06:28,800
+but I'll prove that in another video
+
+141
+00:06:28,800 --> 00:06:30,467
+which means its never repeats,
+
+142
+00:06:30,467 --> 00:06:31,933
+it goes on and on and on forever
+
+143
+00:06:31,933 --> 00:06:33,067
+but lets actually evaluate it
+
+144
+00:06:33,067 --> 00:06:36,667
+so its 1 plus the square root of 5
+
+145
+00:06:36,667 --> 00:06:39,067
+1 plus the square root of 5
+
+146
+00:06:39,067 --> 00:06:42,000
+divided by 2
+
+147
+00:06:42,000 --> 00:06:42,500
+so it this
+
+148
+00:06:42,500 --> 00:06:45,933
+1,6180339
+
+149
+00:06:45,933 --> 00:06:49,667
+so let me put that aside, put that aside
+
+150
+00:06:49,667 --> 00:06:51,533
+and let me write it down
+
+151
+00:06:51,533 --> 00:06:53,133
+and this is where it starts to get really interesting
+
+152
+00:06:53,133 --> 00:06:54,067
+and mysterious
+
+153
+00:06:54,067 --> 00:06:55,733
+so this number right over here
+
+154
+00:06:55,733 --> 00:07:02,867
+is 1,618033988....
+
+155
+00:07:02,867 --> 00:07:04,867
+and it just keeps on going on and on and on
+
+156
+00:07:04,867 --> 00:07:07,667
+keeps on never terminating, never repeating
+
+157
+00:07:07,667 --> 00:07:09,333
+so that by itself, hey its this cool number
+
+158
+00:07:09,333 --> 00:07:12,133
+its this ratio that has all of this neat properties
+
+159
+00:07:12,133 --> 00:07:13,400
+which are pretty crazy
+
+160
+00:07:13,400 --> 00:07:14,867
+any way that you express it
+
+161
+00:07:14,867 --> 00:07:18,533
+but whats really neat is if we revisit this thing right over here
+
+162
+00:07:18,533 --> 00:07:21,533
+because what is 1 over phi going to be?
+
+163
+00:07:21,533 --> 00:07:27,102
+so, 1 over phi, 1 over phi. which we sometimes denote
+
+164
+00:07:27,102 --> 00:07:30,498
+with a capital phi (Φ)
+
+165
+00:07:30,498 --> 00:07:32,225
+we already know, 1 over phi
+
+166
+00:07:32,225 --> 00:07:33,400
+is just phi minus 1
+
+167
+00:07:33,400 --> 00:07:35,600
+so we actually, we can do this in our heads
+
+168
+00:07:35,600 --> 00:07:37,400
+one over this is just going to be
+
+169
+00:07:37,400 --> 00:07:42,000
+0,618033988
+
+170
+00:07:42,000 --> 00:07:44,600
+It don't know, there something wacky about that
+
+171
+00:07:44,600 --> 00:07:47,133
+that the inverse of the number is really just the decimals
+
+172
+00:07:47,133 --> 00:07:49,400
+left over after you get rid of the one
+
+173
+00:07:49,400 --> 00:07:52,667
+that by itself is kind of a crazy idea
+
+174
+00:07:52,667 --> 00:07:54,000
+but it gets even crazier!
+
+175
+00:07:54,000 --> 00:07:56,067
+because this number is showing up everywhere
+
+176
+00:07:56,067 --> 00:07:58,800
+and as you might imagine from the title of this video
+
+177
+00:07:58,800 --> 00:08:00,800
+this phi right over here
+
+178
+00:08:00,800 --> 00:08:03,467
+this is called the golden raito
+
+179
+00:08:03,467 --> 00:08:04,933
+this is the golden ratio
+
+180
+00:08:04,933 --> 00:08:06,600
+and it shows up everywhere
+
+181
+00:08:06,600 --> 00:08:09,200
+"Golden Ratio"
+
+182
+00:08:09,200 --> 00:08:11,333
+it shows up in art, it shows up in music
+
+183
+00:08:11,333 --> 00:08:13,333
+it shows up in nature
+
+184
+00:08:13,333 --> 00:08:15,533
+and just as to get an idea of were it shows up in nature
+
+185
+00:08:15,533 --> 00:08:17,867
+it shows up in very pure ideas
+
+186
+00:08:17,867 --> 00:08:19,533
+so if I were to just draw
+
+187
+00:08:19,533 --> 00:08:21,600
+if I were to draw a perfect star
+
+188
+00:08:21,600 --> 00:08:24,267
+if i were to draw a regular star like this
+
+189
+00:08:24,267 --> 00:08:26,333
+let me just draw it like this
+
+190
+00:08:26,333 --> 00:08:28,600
+draw it right over here
+
+191
+00:08:28,600 --> 00:08:30,115
+so this is just a regular star
+
+192
+00:08:30,115 --> 00:08:31,267
+all the lengths are equal
+
+193
+00:08:31,267 --> 00:08:35,267
+all the, let me draw it a little bit better than that
+
+194
+00:08:35,267 --> 00:08:38,000
+so if I just draw a star like this right over here
+
+195
+00:08:38,000 --> 00:08:41,000
+or sometimes this would be called a pentagram
+
+196
+00:08:41,000 --> 00:08:43,933
+some amazing things start to happen here
+
+197
+00:08:43,933 --> 00:08:49,800
+the ratio of this pink side to this blue length
+
+198
+00:08:49,800 --> 00:08:52,667
+right over here, thats the golden ratio
+
+199
+00:08:52,667 --> 00:08:58,400
+the ratio of this magenta to this pink, is the golden raito
+
+200
+00:08:58,400 --> 00:09:00,200
+as it should, by definition
+
+201
+00:09:00,200 --> 00:09:05,533
+now the ratio of this magenta to this orange
+
+202
+00:09:05,533 --> 00:09:07,200
+is also the golden raito
+
+203
+00:09:07,200 --> 00:09:09,600
+it just keeps on showing up in a ton of different ways
+
+204
+00:09:09,600 --> 00:09:11,600
+when you look at a pentagram like this
+
+205
+00:09:11,600 --> 00:09:13,667
+if you look at something like a pentagon
+
+206
+00:09:13,667 --> 00:09:15,333
+a regular pentagon
+
+207
+00:09:15,333 --> 00:09:19,000
+were all the angles are the same and all the sides are the same
+
+208
+00:09:19,000 --> 00:09:21,267
+a regular pentagon
+
+209
+00:09:21,267 --> 00:09:22,733
+if you take any of the diagonals
+
+210
+00:09:22,733 --> 00:09:25,667
+of a regular pentagon
+
+211
+00:09:25,667 --> 00:09:29,000
+so right over here, so if you take this diagonal right over here
+
+212
+00:09:29,000 --> 00:09:31,333
+the ratio of this green side to
+
+213
+00:09:31,333 --> 00:09:32,733
+and what I am talking about the diagonals
+
+214
+00:09:32,733 --> 00:09:34,400
+the ones that actaully aren't one of the edges
+
+215
+00:09:34,400 --> 00:09:36,267
+the ratio of any of the diagonals
+
+216
+00:09:36,267 --> 00:09:39,200
+to any of the sides, is once again
+
+217
+00:09:39,200 --> 00:09:40,933
+this golden ratio
+
+218
+00:09:40,933 --> 00:09:43,200
+so it keeps showing up, on and on and on
+
+219
+00:09:43,200 --> 00:09:44,333
+and we can do interesting things
+
+220
+00:09:44,333 --> 00:09:45,800
+with the golden ratio
+
+221
+00:09:45,800 --> 00:09:47,533
+let's say we had a rectangle
+
+222
+00:09:47,533 --> 00:09:50,544
+were the ratio of the width to the height is the golden ratio
+
+223
+00:09:50,544 --> 00:09:53,590
+so lets try that out
+
+224
+00:09:53,590 --> 00:09:56,467
+so lets say this is its height
+
+225
+00:09:56,467 --> 00:09:58,133
+this is it's width
+
+226
+00:09:58,133 --> 00:09:59,733
+and that the ratio
+
+227
+00:09:59,733 --> 00:10:02,533
+so lets call this A, lets call this B
+
+228
+00:10:02,533 --> 00:10:06,200
+and the ratio of A to B is equal to phi
+
+229
+00:10:06,200 --> 00:10:09,133
+it's that 1,61.. so on and so forth
+
+230
+00:10:09,133 --> 00:10:10,800
+and let me scroll down a little bit
+
+231
+00:10:10,800 --> 00:10:12,800
+so that is going to be equal to phi
+
+232
+00:10:12,800 --> 00:10:15,000
+so thats, you know maybe thats something
+
+233
+00:10:15,000 --> 00:10:16,867
+interesting to do, maybe thats a nice looking rectangle
+
+234
+00:10:16,867 --> 00:10:18,067
+of some sort
+
+235
+00:10:18,067 --> 00:10:19,533
+but let me put out a square here
+
+236
+00:10:19,533 --> 00:10:23,667
+so let me separate this into a B by B square
+
+237
+00:10:23,667 --> 00:10:26,200
+so this is a B by B square right over here
+
+238
+00:10:26,200 --> 00:10:28,513
+and then, actually let me do a little bit
+
+239
+00:10:29,175 --> 00:10:31,333
+let me draw it a little bit differently
+
+240
+00:10:31,333 --> 00:10:35,867
+this rectangle, it isn't exactly the way I would want to draw it
+
+241
+00:10:35,867 --> 00:10:39,267
+so the ratio might look a little bit like this
+
+242
+00:10:39,267 --> 00:10:42,400
+so the ratio of the width to the length
+
+243
+00:10:42,400 --> 00:10:44,867
+or the width to the height, is going to be the golden ratio
+
+244
+00:10:44,867 --> 00:10:48,267
+so A over B is going to be
+
+245
+00:10:48,267 --> 00:10:49,800
+that golden ratio
+
+246
+00:10:49,800 --> 00:10:52,200
+and let me separate out a little B by B square
+
+247
+00:10:52,200 --> 00:10:53,733
+over here
+
+248
+00:10:53,733 --> 00:10:56,600
+a little B by B square
+
+249
+00:10:56,600 --> 00:10:58,667
+this has width B as well
+
+250
+00:10:58,667 --> 00:11:00,267
+and so this distance right over here
+
+251
+00:11:00,267 --> 00:11:03,400
+is going to be A minus B
+
+252
+00:11:03,400 --> 00:11:07,000
+so now it is a B by A minus B square
+
+253
+00:11:07,000 --> 00:11:10,267
+so we have a...actually I should say
+
+254
+00:11:10,267 --> 00:11:11,600
+we have a B by B square
+
+255
+00:11:11,600 --> 00:11:12,533
+right over here
+
+256
+00:11:12,533 --> 00:11:13,733
+this is B by B
+
+257
+00:11:13,733 --> 00:11:16,733
+and then were left with a B by A minus B rectangle
+
+258
+00:11:16,733 --> 00:11:18,800
+now wouldnt it be cool if this is also
+
+259
+00:11:18,800 --> 00:11:22,267
+this was also the golden ratio?
+
+260
+00:11:22,267 --> 00:11:23,492
+and so lets try it out
+
+261
+00:11:23,492 --> 00:11:27,400
+lets find the ratio of B to A minus B
+
+262
+00:11:27,400 --> 00:11:30,933
+So the ratio of B to A minus B
+
+263
+00:11:30,933 --> 00:11:32,267
+well that is going to be equal to
+
+264
+00:11:32,267 --> 00:11:36,333
+1 over the ratio of A minus B to B
+
+265
+00:11:36,333 --> 00:11:38,600
+I just took the reciprocal of this right over here
+
+266
+00:11:38,600 --> 00:11:40,533
+and this is just going to be equal to
+
+267
+00:11:40,533 --> 00:11:45,575
+1 over A over B minus 1
+
+268
+00:11:45,682 --> 00:11:48,000
+right, I just rewrote this right there
+
+269
+00:11:48,000 --> 00:11:50,133
+and that is just going to be equal to 1 over
+
+270
+00:11:50,533 --> 00:11:55,000
+phi, the ratio of A to B we said by definition was phi
+
+271
+00:11:55,000 --> 00:11:56,733
+phi minus 1
+
+272
+00:11:56,733 --> 00:11:58,600
+but what is phi minus 1?
+
+273
+00:11:58,600 --> 00:12:00,533
+Well phi minus 1 is 1 over phi!
+
+274
+00:12:00,533 --> 00:12:01,800
+It's this cool number
+
+275
+00:12:01,800 --> 00:12:03,400
+So this is equal to 1 over
+
+276
+00:12:03,400 --> 00:12:05,333
+1 over 1 over phi
+
+277
+00:12:05,333 --> 00:12:08,133
+which is once again just equal to phi
+
+278
+00:12:08,133 --> 00:12:10,867
+So once again, the ratio of this smaller rectangle
+
+279
+00:12:10,867 --> 00:12:12,600
+of it's height to it's width
+
+280
+00:12:12,600 --> 00:12:14,800
+is once again, this golden raito
+
+281
+00:12:14,800 --> 00:12:16,800
+this number that keeps showing up
+
+282
+00:12:16,800 --> 00:12:18,400
+and then we can do the same thing again
+
+283
+00:12:18,400 --> 00:12:23,667
+we can separate this into an A minus B by A minus B square
+
+284
+00:12:23,667 --> 00:12:24,867
+Just like that
+
+285
+00:12:24,867 --> 00:12:26,867
+and then we'll have another "Golden Rectangle"
+
+286
+00:12:26,867 --> 00:12:28,267
+sometimes it's called, right over there
+
+287
+00:12:28,267 --> 00:12:29,667
+and then we can separate that in to
+
+288
+00:12:29,667 --> 00:12:31,000
+a square
+
+289
+00:12:31,000 --> 00:12:32,933
+and another golden rectangle
+
+290
+00:12:32,933 --> 00:12:35,000
+and we can separate that in to a square
+
+291
+00:12:35,000 --> 00:12:37,954
+and then another golden rectangle
+
+292
+00:12:38,077 --> 00:12:39,667
+actually, let me do it like this
+
+293
+00:12:39,667 --> 00:12:41,600
+it will be better
+
+294
+00:12:41,600 --> 00:12:46,533
+so let me separate, let me do the square up here
+
+295
+00:12:46,533 --> 00:12:50,400
+so this is an A minus B by A minus B square
+
+296
+00:12:50,400 --> 00:12:53,267
+and then we have another golden rectangle right over here
+
+297
+00:12:53,267 --> 00:12:57,267
+I could put a square right in there, we'll have another golden rectangle
+
+298
+00:12:57,267 --> 00:12:59,267
+that we can put in another square right over there
+
+299
+00:12:59,267 --> 00:13:01,333
+you have another golden rectangle...I think you see
+
+300
+00:13:01,333 --> 00:13:02,333
+were this is going
+
+301
+00:13:02,333 --> 00:13:04,133
+another square and another golden rectangle
+
+302
+00:13:04,133 --> 00:13:06,933
+Which by itself starts to create a cool design that we can keep
+
+303
+00:13:06,933 --> 00:13:08,667
+kind of circling in and in and in
+
+304
+00:13:08,667 --> 00:13:11,000
+and then if we actually draw an arc here
+
+305
+00:13:11,000 --> 00:13:12,600
+something kind of cool happens
+
+306
+00:13:12,600 --> 00:13:15,200
+if we have an arc that kinda traces these things out
+
+307
+00:13:15,200 --> 00:13:17,933
+We have something, a pattern that you might have seen
+
+308
+00:13:17,933 --> 00:13:20,400
+many times before
+
+309
+00:13:20,400 --> 00:13:22,867
+and that pattern does not look too different from
+
+310
+00:13:22,867 --> 00:13:24,000
+what you might see in something like
+
+311
+00:13:24,000 --> 00:13:26,467
+a nautilus shell
+
+312
+00:13:26,467 --> 00:13:28,133
+and it shows up all over the place in nature
+
+313
+00:13:28,133 --> 00:13:28,800
+and that makes sense
+
+314
+00:13:28,800 --> 00:13:31,600
+because just the way cells construct themselves
+
+315
+00:13:31,600 --> 00:13:33,400
+it kinda makes sense to be the same
+
+316
+00:13:33,400 --> 00:13:35,067
+at different scales, and the ratio from one scale
+
+317
+00:13:35,067 --> 00:13:36,800
+to the next is maybe the same as
+
+318
+00:13:36,800 --> 00:13:38,933
+kinda the constituent ratios
+
+319
+00:13:38,933 --> 00:13:41,533
+This right here, and it shows up all over art
+
+320
+00:13:41,533 --> 00:13:43,067
+a lot of Leonardo da Vinci's paintings
+
+321
+00:13:43,067 --> 00:13:46,533
+He never, well, not explicity stated it but there's a lot of
+
+322
+00:13:46,533 --> 00:13:47,733
+interesing ratios in them.
+
+323
+00:13:47,733 --> 00:13:49,400
+But Salvador Dali, this painting right here
+
+324
+00:13:49,400 --> 00:13:51,000
+"The sacrement of the last supper"
+
+325
+00:13:51,000 --> 00:13:53,400
+he explicity used the golden ratio
+
+326
+00:13:53,400 --> 00:13:57,267
+So the actual ratio of the width to the height
+
+327
+00:13:57,267 --> 00:13:58,400
+is the golden ratio
+
+328
+00:13:58,400 --> 00:14:00,133
+so this is a golden rectangle
+
+329
+00:14:00,133 --> 00:14:02,733
+And also there's all sort of ratios and I'll invite you
+
+330
+00:14:02,733 --> 00:14:04,600
+to explore it, the ratios of the different parts in the tables
+
+331
+00:14:04,600 --> 00:14:06,467
+to were it sits in the painting
+
+332
+00:14:06,467 --> 00:14:07,667
+is the golden ratio
+
+333
+00:14:07,667 --> 00:14:08,800
+it shows up a ton in this painting
+
+334
+00:14:08,800 --> 00:14:12,067
+and then he does have the pentagons over here
+
+335
+00:14:12,067 --> 00:14:15,400
+and we know that the ratio of the diagonal to the sides of the pentagon
+
+336
+00:14:15,400 --> 00:14:17,800
+are also the golden ratio
+
+337
+00:14:17,800 --> 00:14:20,000
+and so he just tought it was a really cool thing
+
+338
+00:14:20,000 --> 00:14:21,200
+and theres all sort of neat things
+
+339
+00:14:21,200 --> 00:14:22,933
+that if you find, you know where these two
+
+340
+00:14:22,933 --> 00:14:25,000
+guys are bowing down are
+
+341
+00:14:25,000 --> 00:14:26,733
+if you draw that line right over here
+
+342
+00:14:26,733 --> 00:14:28,467
+this is the golden ratio
+
+343
+00:14:28,467 --> 00:14:30,133
+the ratio of this length right over here
+
+344
+00:14:30,133 --> 00:14:33,000
+to that length over there, once again the golden ratio
+
+345
+00:14:33,000 --> 00:14:35,333
+It just keeps showing up in this painting
+
+346
+00:14:35,333 --> 00:14:36,733
+So it's a really really really cool thing
+
+347
+00:14:36,733 --> 00:14:39,333
+and I really encourage you to explore this further
+
+348
+00:14:39,333 --> 99:59:59,999
+cause it's kind of exciting

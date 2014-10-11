@@ -1,0 +1,419 @@
+1
+99:59:59,999 --> 99:59:59,999
+I've drawn a crazy looking function here in yellow
+
+2
+99:59:59,999 --> 99:59:59,999
+and what I want to think about is
+
+3
+99:59:59,999 --> 99:59:59,999
+when this function takes on maximum values
+
+4
+99:59:59,999 --> 99:59:59,999
+and minimum values.
+
+5
+99:59:59,999 --> 99:59:59,999
+And for the sake of this video,
+
+6
+99:59:59,999 --> 99:59:59,999
+we can assume that the graph of this function
+
+7
+99:59:59,999 --> 99:59:59,999
+just keeps getting lower and lower and lower
+
+8
+99:59:59,999 --> 99:59:59,999
+as x becomes more and more negative,
+
+9
+99:59:59,999 --> 99:59:59,999
+and lower and lower and lower as x goes beyond
+
+10
+99:59:59,999 --> 99:59:59,999
+the interval that I've depicted right over here.
+
+11
+99:59:59,999 --> 99:59:59,999
+So what is the maximum value that this function takes on?
+
+12
+99:59:59,999 --> 99:59:59,999
+Well, we can eyeball that. It looks like it's at this point,
+
+13
+99:59:59,999 --> 99:59:59,999
+it looks like it's at that point right over there.
+
+14
+99:59:59,999 --> 99:59:59,999
+So we would call this a global maximum.
+
+15
+99:59:59,999 --> 99:59:59,999
+The function never takes on a value larger than this
+
+16
+99:59:59,999 --> 99:59:59,999
+So we can say that we have a global maximum at the
+
+17
+99:59:59,999 --> 99:59:59,999
+point x-nought. Because f(x)-nought is greater than
+
+18
+99:59:59,999 --> 99:59:59,999
+equal to f(x) for any other x
+
+19
+99:59:59,999 --> 99:59:59,999
+in the domain.
+
+20
+99:59:59,999 --> 99:59:59,999
+And that's pretty obvious when you look at it like this.
+
+21
+99:59:59,999 --> 99:59:59,999
+Now do we have a global minimum point
+
+22
+99:59:59,999 --> 99:59:59,999
+the way that I've drawn it? Well no,
+
+23
+99:59:59,999 --> 99:59:59,999
+this function can take on arbitrarily negative values
+
+24
+99:59:59,999 --> 99:59:59,999
+it approaches negative infinity as x approaches
+
+25
+99:59:59,999 --> 99:59:59,999
+negative infinity. It approaches negative infinity as
+
+26
+99:59:59,999 --> 99:59:59,999
+x approaches positive infinity.
+
+27
+99:59:59,999 --> 99:59:59,999
+So we have, let me write this down, we have
+
+28
+99:59:59,999 --> 99:59:59,999
+no global minimum. Now let me ask you a question.
+
+29
+99:59:59,999 --> 99:59:59,999
+Do we have local minima, or local maxima?
+
+30
+99:59:59,999 --> 99:59:59,999
+When I say minima, it's just the plural of minimum.
+
+31
+99:59:59,999 --> 99:59:59,999
+And maxima is just the plural of maximum.
+
+32
+99:59:59,999 --> 99:59:59,999
+So do we have a local minima here, or a local minimum here?
+
+33
+99:59:59,999 --> 99:59:59,999
+Well, a local minimum you can imagine means that
+
+34
+99:59:59,999 --> 99:59:59,999
+the value of that funtion is lower than the points around it
+
+35
+99:59:59,999 --> 99:59:59,999
+SO right over here it looks like we have a local minimum.
+
+36
+99:59:59,999 --> 99:59:59,999
+We have a local minimum.
+
+37
+99:59:59,999 --> 99:59:59,999
+And I'm not giving you a very rigorous definition here,
+
+38
+99:59:59,999 --> 99:59:59,999
+but one way to think about it is, we can say that
+
+39
+99:59:59,999 --> 99:59:59,999
+we have a local minimum point at x-one, is if we have
+
+40
+99:59:59,999 --> 99:59:59,999
+a region around x-one where f(x)-one is less than f(x)
+
+41
+99:59:59,999 --> 99:59:59,999
+for any x in this region right over here. And it's pretty
+
+42
+99:59:59,999 --> 99:59:59,999
+easy to eyeball too. This is a low point for any
+
+43
+99:59:59,999 --> 99:59:59,999
+values of f around it.
+
+44
+99:59:59,999 --> 99:59:59,999
+Right over there.
+
+45
+99:59:59,999 --> 99:59:59,999
+Now do we have any other local minima?
+
+46
+99:59:59,999 --> 99:59:59,999
+Well it doesn't like we do.
+
+47
+99:59:59,999 --> 99:59:59,999
+Now what about local maxima?
+
+48
+99:59:59,999 --> 99:59:59,999
+Well, this one right over here, let me do it in purple.
+
+49
+99:59:59,999 --> 99:59:59,999
+I don't want to get people confused, actually,
+
+50
+99:59:59,999 --> 99:59:59,999
+let me do it in this color.
+
+51
+99:59:59,999 --> 99:59:59,999
+This point right over here looks like a local
+
+52
+99:59:59,999 --> 99:59:59,999
+maximum. Not lox, that would have to deal with salmon.
+
+53
+99:59:59,999 --> 99:59:59,999
+Local maximum, right over there.
+
+54
+99:59:59,999 --> 99:59:59,999
+So we can say at the point x-one, sorry, at the
+
+55
+99:59:59,999 --> 99:59:59,999
+point x-two, we have a local maximum point at x-two,
+
+56
+99:59:59,999 --> 99:59:59,999
+because f(x)-two is larger than f(x) for any x around
+
+57
+99:59:59,999 --> 99:59:59,999
+a neighborhood around x-two.
+
+58
+99:59:59,999 --> 99:59:59,999
+I"m not being very rigorous,
+
+59
+99:59:59,999 --> 99:59:59,999
+but you can see it just by looking at it.
+
+60
+99:59:59,999 --> 99:59:59,999
+So that's fair enough. We've identified all of the
+
+61
+99:59:59,999 --> 99:59:59,999
+maxima and minima, often called the extrema,
+
+62
+99:59:59,999 --> 99:59:59,999
+for this function.
+
+63
+99:59:59,999 --> 99:59:59,999
+Now how can we identify those if we knew something
+
+64
+99:59:59,999 --> 99:59:59,999
+about the derivative of the function?
+
+65
+99:59:59,999 --> 99:59:59,999
+Well, let's look at the derivative at each of these points.
+
+66
+99:59:59,999 --> 99:59:59,999
+So at this first point right over here, if I were to try
+
+67
+99:59:59,999 --> 99:59:59,999
+to visualize the tangent line,
+
+68
+99:59:59,999 --> 99:59:59,999
+let me do that in a better color than brown.
+
+69
+99:59:59,999 --> 99:59:59,999
+If I were to try to visualize the tangent line, it
+
+70
+99:59:59,999 --> 99:59:59,999
+would look something like that. So the slope here is a zero.
+
+71
+99:59:59,999 --> 99:59:59,999
+So we would say that f-prime of x-nought is equal
+
+72
+99:59:59,999 --> 99:59:59,999
+to zero.
+
+73
+99:59:59,999 --> 99:59:59,999
+The slope of the tangent line at this point is zero.
+
+74
+99:59:59,999 --> 99:59:59,999
+What about over here? Well, once again, the tangent line
+
+75
+99:59:59,999 --> 99:59:59,999
+would look something like that.
+
+76
+99:59:59,999 --> 99:59:59,999
+So once again we would say f-prime at x-one is equal
+
+77
+99:59:59,999 --> 99:59:59,999
+to zero.
+
+78
+99:59:59,999 --> 99:59:59,999
+What about over here? Well, here, the tangent line
+
+79
+99:59:59,999 --> 99:59:59,999
+is actually not well-defined. We have a positive slope
+
+80
+99:59:59,999 --> 99:59:59,999
+going into it and it immediately jumps into being
+
+81
+99:59:59,999 --> 99:59:59,999
+a negative slope.
+
+82
+99:59:59,999 --> 99:59:59,999
+So over here, f-prime of x-two is not defined.
+
+83
+99:59:59,999 --> 99:59:59,999
+Let me just write "undefined."
+
+84
+99:59:59,999 --> 99:59:59,999
+So we have an interesting, and once again, I'm not
+
+85
+99:59:59,999 --> 99:59:59,999
+rigorously proving it to you. I just want you to get the
+
+86
+99:59:59,999 --> 99:59:59,999
+intutiion here. We see that if we have some type of extrema,
+
+87
+99:59:59,999 --> 99:59:59,999
+And we're not talking about when x is at an endpoint of
+
+88
+99:59:59,999 --> 99:59:59,999
+an interval, just to be claerwhat I"m talking about.
+
+89
+99:59:59,999 --> 99:59:59,999
+when I'm talking about x as an endpoint of an interval.
+
+90
+99:59:59,999 --> 99:59:59,999
+We're saying that, let's say that the function is,
+
+91
+99:59:59,999 --> 99:59:59,999
+let's say we have an interval from there,
+
+92
+99:59:59,999 --> 99:59:59,999
+so let's say that a function starts right over there and then keeps going.
+
+93
+99:59:59,999 --> 99:59:59,999
+This would be a maximum point, but it would be an endpoint.
+
+94
+99:59:59,999 --> 99:59:59,999
+We're not talking about endpoints right now.
+
+95
+99:59:59,999 --> 99:59:59,999
+We're talking about when we have points in between,
+
+96
+99:59:59,999 --> 99:59:59,999
+or when our interval is infinite.
+
+97
+99:59:59,999 --> 99:59:59,999
+So we're not talking about points like that, or points like
+
+98
+99:59:59,999 --> 99:59:59,999
+this.
+
+99
+99:59:59,999 --> 99:59:59,999
+We're talking about points in between.
+
+100
+99:59:59,999 --> 99:59:59,999
+So if you have a point inside of an interval.
+
+101
+99:59:59,999 --> 99:59:59,999
+It's going to be a mimum or maximum, and we see the
+
+102
+99:59:59,999 --> 99:59:59,999
+intuition here.
+
+103
+99:59:59,999 --> 99:59:59,999
+So, non-endpoint min or max at x is equal to a,
+
+104
+99:59:59,999 --> 99:59:59,999
+so you know if you have a minimum or maximum point,
+
+105
+99:59:59,999 --> 99:59:59,999
+at some point x is equal to a, and x is at the endpoint

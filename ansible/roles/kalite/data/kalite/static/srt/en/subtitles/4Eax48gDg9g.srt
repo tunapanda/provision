@@ -1,0 +1,47 @@
+1
+00:00:00,629 --> 00:00:07,222
+PROBLEM: "Simplify the expression 28(b to the 6th)
+divided by 7b." (b to the 6th == b^6)
+
+2
+00:00:07,222 --> 00:00:15,412
+Well, this is the same thing as 28 over 7 times b^6 over b. [Or (28/7)(b*6/b)]
+
+3
+00:00:15,412 --> 00:00:21,619
+and I did it this way so that we would have 
+(b^6)/(b to some other power).
+
+4
+00:00:21,619 --> 00:00:25,379
+– and this is over b – which is the same thing 
+as b to the first. (b to the first == b^1)
+
+5
+00:00:25,379 --> 00:00:28,333
+And we can simplify this 
+using exponent properties.
+
+6
+00:00:28,333 --> 00:00:32,982
+And 28/7 we can clearly simplify 
+because 28 is divisible by 7.
+
+7
+00:00:32,982 --> 00:00:39,266
+28 ÷ 7 is just 4. 
+So that [part] is just 4.
+
+8
+00:00:39,266 --> 00:00:45,799
+And then b^6 ÷ b^1,
+that's just going to be b^(6 - 1).
+
+9
+00:00:45,799 --> 00:00:50,923
+So [4] times b^(6 - 1), or b^5.
+
+10
+00:00:50,923 --> 00:00:55,089
+So [putting it all together,] our answer is 4b^5.
+[So our answer is 4b to the 5th.]

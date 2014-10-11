@@ -1,0 +1,651 @@
+1
+00:00:00,000 --> 00:00:03,100
+We're on problem 70.
+
+2
+00:00:06,030 --> 00:00:17,350
+If x plus 5 is greater than 2,and x minus 3 is less than 7,
+
+3
+00:00:17,350 --> 00:00:20,380
+the value of x must be between which of the following pairs
+
+4
+00:00:20,380 --> 00:00:22,240
+of numbers? Well for this top one,
+
+5
+00:00:22,240 --> 00:00:24,990
+let's just subtract 5 from both sides of this equation.
+
+6
+00:00:24,990 --> 00:00:29,150
+If you subtract 5 from both sides,you get x is greater than,
+
+7
+00:00:29,150 --> 00:00:32,430
+what's 2 minus 5,x is greater than minus 3.
+
+8
+00:00:33,410 --> 00:00:34,160
+For this bottom one,
+
+9
+00:00:34,160 --> 00:00:36,200
+let's add four to both sides of the equation.
+
+10
+00:00:36,200 --> 00:00:37,890
+So x minus 3--
+
+11
+00:00:37,890 --> 00:00:40,060
+sorry,let's add 3 to both sides of this equation.
+
+12
+00:00:40,060 --> 00:00:45,380
+So x minus 3 plus 3,that's x,is less than,what's 7 plus 3?
+
+13
+00:00:45,380 --> 00:00:49,880
+10. So x is greater than minus 3--
+
+14
+00:00:49,880 --> 00:00:51,110
+I just wrote this the other way around--
+
+15
+00:00:51,110 --> 00:00:53,320
+and it's less than 10.
+
+16
+00:00:57,590 --> 00:00:59,410
+So that's A.
+
+17
+00:01:01,080 --> 00:01:06,910
+Problem 71,a gym class can be divided into 8 teams
+
+18
+00:01:06,910 --> 00:01:09,820
+with an equal number of players on each team--
+
+19
+00:01:09,820 --> 00:01:12,610
+8,that means you get an equal number--
+
+20
+00:01:13,770 --> 00:01:17,110
+or into 12 teams with an equal number on each team.
+
+21
+00:01:20,250 --> 00:01:20,960
+Fair enough.
+
+22
+00:01:20,960 --> 00:01:24,770
+What is the lowest possible number of students in the class?
+
+23
+00:01:24,770 --> 00:01:26,760
+So essentially it's saying,that the number of students
+
+24
+00:01:26,760 --> 00:01:29,450
+in the classes is divisible by both 8 and 12.
+
+25
+00:01:29,450 --> 00:01:31,660
+So what they want to know is,what's the smallest number
+
+26
+00:01:31,660 --> 00:01:33,910
+that's divisible by both 8 and 12.
+
+27
+00:01:33,910 --> 00:01:36,290
+That's the least common multiple of 8 and 12.
+
+28
+00:01:36,290 --> 00:01:38,350
+That might ring a bell from middle school.
+
+29
+00:01:38,350 --> 00:01:41,070
+So what's the smallest number that's divisible by 8 and 12?
+
+30
+00:01:41,070 --> 00:01:44,460
+So let's think about 8's multiples. 8 is indivisible by 12.
+
+31
+00:01:44,460 --> 00:01:47,810
+16 is indivisible by 12. What about 24?
+
+32
+00:01:47,810 --> 00:01:50,250
+Well yeah,sure,24 is divisible by 12.
+
+33
+00:01:50,250 --> 00:01:53,580
+So the least common multiple is 24,which is B.
+
+34
+00:01:53,580 --> 00:01:58,030
+Clearly you can divide a gym class into 3 groups of 8,
+
+35
+00:01:58,030 --> 00:02:03,680
+or 2 groups of 12. 72.
+
+36
+00:02:06,810 --> 00:02:11,180
+At least 2/3 of the 40 members of a committee
+
+37
+00:02:11,180 --> 00:02:14,870
+must vote in favor of a resolution for it to pass.
+
+38
+00:02:24,520 --> 00:02:28,360
+What is the greatest number of members who could vote against
+
+39
+00:02:28,360 --> 00:02:32,290
+the resolution and still have it pass?
+
+40
+00:02:32,290 --> 00:02:35,130
+So essentially they're saying,what is the least number
+
+41
+00:02:35,130 --> 00:02:38,340
+that we need to have it pass,and then 40 minus that is the
+
+42
+00:02:38,340 --> 00:02:40,010
+greatest number that could vote against it.
+
+43
+00:02:40,010 --> 00:02:42,220
+So we have to have at least 2/3 of 40.
+
+44
+00:02:42,220 --> 00:02:49,740
+So what's 2/3 times 40? Well that's equal to 80/3.
+
+45
+00:02:49,740 --> 00:02:53,790
+That's 3 goes into 80,let's figure it out.
+
+46
+00:02:53,790 --> 00:02:59,140
+3 goes into 8 2 times. 2 times 3 is 6,20.
+
+47
+00:02:59,140 --> 00:03:03,720
+3 goes into 20 6 times. 6 times 3 is 18.
+
+48
+00:03:05,190 --> 00:03:07,340
+You bring down a 2 and then a 0.
+
+49
+00:03:07,340 --> 00:03:09,810
+So it's going to just keep repeating.
+
+50
+00:03:09,810 --> 00:03:13,520
+So you have to have at least 26.6 people vote for it.
+
+51
+00:03:13,520 --> 00:03:17,950
+But clearly you can't have a 0.6 person vote for it.
+
+52
+00:03:17,950 --> 00:03:20,330
+26 people isn't going to be good enough.
+
+53
+00:03:20,330 --> 00:03:22,090
+So you need at least 27 people.
+
+54
+00:03:26,980 --> 00:03:28,760
+So if 27 are going to vote for,
+
+55
+00:03:28,760 --> 00:03:29,950
+how many going to vote against?
+
+56
+00:03:29,950 --> 00:03:37,620
+Well that means 40 minus 27,that means 13 against,which is E.
+
+57
+00:03:37,620 --> 00:03:39,980
+That is the greatest number.
+
+58
+00:03:39,980 --> 00:03:43,050
+Because if a larger number voted against it,
+
+59
+00:03:43,050 --> 00:03:47,110
+you would have less people voting for it. Problem 73.
+
+60
+00:03:51,750 --> 00:03:53,530
+In the Johnson's monthly budget,
+
+61
+00:03:53,530 --> 00:03:57,510
+the dollar amounts allocated to household expenses,food--
+
+62
+00:03:57,510 --> 00:04:00,790
+so I'll say h for household expenses,f for food--
+
+63
+00:04:00,790 --> 00:04:09,230
+and miscellaneous items,are in the ratio of 5:2:1--
+
+64
+00:04:09,230 --> 00:04:13,310
+fair enough-- respectively. If the total amount
+
+65
+00:04:13,310 --> 00:04:17,580
+allocated to these three categories is $1,800,
+
+66
+00:04:17,580 --> 00:04:20,080
+so $1,800 is the total,
+
+67
+00:04:20,080 --> 00:04:22,930
+what is the amount allocated to food?
+
+68
+00:04:22,930 --> 00:04:24,510
+So we could view it this way.
+
+69
+00:04:26,700 --> 00:04:29,410
+So food is going to be twice times miscellaneous,
+
+70
+00:04:29,410 --> 00:04:30,680
+and household items is going to be equal to
+
+71
+00:04:30,680 --> 00:04:31,860
+5 times the miscellaneous.
+
+72
+00:04:40,850 --> 00:04:45,340
+So we could say that household plus food plus miscellaneous
+
+73
+00:04:45,340 --> 00:04:48,620
+is going to be equal to $1,800 This ratio tells us that
+
+74
+00:04:48,620 --> 00:04:50,190
+food is 2 times miscellaneous,
+
+75
+00:04:50,190 --> 00:04:52,300
+household is 5 times miscellaneous.
+
+76
+00:04:52,300 --> 00:04:53,830
+So let's just substitute that in.
+
+77
+00:04:53,830 --> 00:04:57,410
+5 times miscellaneous plus 2 times miscellaneous
+
+78
+00:04:57,410 --> 00:05:00,290
+plus miscellaneous is equal to $1,800
+
+79
+00:05:01,420 --> 00:05:04,480
+Let's see,5 plus 2 is 7 plus 1 is 8.
+
+80
+00:05:04,480 --> 00:05:07,460
+8 times miscellaneous is equal to $1,800
+
+81
+00:05:08,480 --> 00:05:13,010
+So m is equal to $1,800 over 8.
+
+82
+00:05:13,010 --> 00:05:16,030
+Let's see,what does that turn into?
+
+83
+00:05:16,030 --> 00:05:24,760
+That is equal to 900 over 4,which is equal to 450 over 2.
+
+84
+00:05:24,760 --> 00:05:27,290
+That's how my brain works,I have to go in steps.
+
+85
+00:05:27,290 --> 00:05:33,440
+What's 450 divided by 2? That's 225. That's miscellaneous.
+
+86
+00:05:33,440 --> 00:05:35,520
+They want to know how much is allocated to food.
+
+87
+00:05:35,520 --> 00:05:37,210
+Well,food is 2 times miscellaneous.
+
+88
+00:05:40,030 --> 00:05:47,030
+So 2 times 225 is equal to,we're back at 450.
+
+89
+00:05:47,030 --> 00:05:49,680
+And that is choice D.
+
+90
+00:05:51,970 --> 00:06:00,500
+Problem 74. There are 4 more women than men
+
+91
+00:06:00,500 --> 00:06:02,880
+on Centerville's Board of Education.
+
+92
+00:06:02,880 --> 00:06:07,100
+So 4 more women,so women is equal to men plus 4.
+
+93
+00:06:07,100 --> 00:06:11,300
+If there are 10 members on the board,how many are women?
+
+94
+00:06:11,300 --> 00:06:16,620
+So we know that men plus women is equal to 10.
+
+95
+00:06:18,010 --> 00:06:19,590
+We want to solve for women.
+
+96
+00:06:19,590 --> 00:06:22,730
+So let me solve for men here,then substitute there.
+
+97
+00:06:22,730 --> 00:06:25,710
+So you get men is equal to 10 minus the women.
+
+98
+00:06:25,710 --> 00:06:28,660
+We could substitute that back there.
+
+99
+00:06:28,660 --> 00:06:32,850
+We get women is equal to m,or the men,
+
+100
+00:06:32,850 --> 00:06:38,010
+which we just figured out is 10 minus the women plus 4.
+
+101
+00:06:40,800 --> 00:06:44,780
+My brain was jumping ahead. So let's add w to both sides.
+
+102
+00:06:44,780 --> 00:06:51,180
+So you get 2w is equal to 10 plus 4,which is equal to 14.
+
+103
+00:06:51,180 --> 00:06:54,060
+w is equal to 7.
+
+104
+00:06:54,060 --> 00:06:55,990
+There are seven women on the board,so that's D.
+
+105
+00:06:58,420 --> 00:06:59,620
+Problem 75.
+
+106
+00:06:59,620 --> 00:07:02,230
+After this video,I think I'm going to call it for a night
+
+107
+00:07:02,230 --> 00:07:04,540
+and go watch a movie or something. 75.
+
+108
+00:07:06,910 --> 00:07:11,250
+Leona bought a 1 year $10,000 certificate of deposit
+
+109
+00:07:11,250 --> 00:07:14,060
+that pays interest at an annual rate of 8%.
+
+110
+00:07:14,060 --> 00:07:21,240
+So 1 year,$10,000,and it paid a rate of 8%.
+
+111
+00:07:23,590 --> 00:07:27,690
+Compounded semi-annually,what was the total amount of
+
+112
+00:07:27,690 --> 00:07:30,830
+interest paid on the certificate at maturity?
+
+113
+00:07:30,830 --> 00:07:33,710
+So when you say compound semi-annually,
+
+114
+00:07:33,710 --> 00:07:37,470
+that means you collect half of the interest every half year.
+
+115
+00:07:37,470 --> 00:07:40,890
+That's something I don't know if the GMAT,
+
+116
+00:07:40,890 --> 00:07:42,050
+they should be expecting you to know that,
+
+117
+00:07:42,050 --> 00:07:44,190
+it's something you probably would learn in business school.
+
+118
+00:07:44,190 --> 00:07:52,420
+But anyway,so after 6 months you're going to
+
+119
+00:07:52,420 --> 00:07:56,820
+get 4% on the original amount.
+
+120
+00:07:56,820 --> 00:07:58,460
+So you're going to have $10,000 dollars.
+
+121
+00:07:58,460 --> 00:08:01,600
+And you're going to 4% percent of this.
+
+122
+00:08:01,600 --> 00:08:06,030
+So they're going to owe you-- compounded semi-annually,
+
+123
+00:08:06,030 --> 00:08:07,110
+what was the total amount of interest paid
+
+124
+00:08:07,110 --> 00:08:09,140
+on the certificate at maturity?
+
+125
+00:08:09,140 --> 00:08:17,040
+So they're going to pay you $10,000 times half of it,
+
+126
+00:08:17,040 --> 00:08:20,390
+because only six months have gone by.8% is for the full year.
+
+127
+00:08:20,390 --> 00:08:22,720
+So for half the year,you're going to get times 4%.
+
+128
+00:08:25,660 --> 00:08:30,250
+So let's see,$10,000 times 4%,what is that?
+
+129
+00:08:30,250 --> 00:08:36,260
+$10,000 times 0.04.
+
+130
+00:08:37,510 --> 00:08:41,470
+Let's look at it this way,4 times $10,000 is $40,000.
+
+131
+00:08:41,470 --> 00:08:45,730
+We have two numbers behind the decimal place,so it's $400.
+
+132
+00:08:46,400 --> 00:08:48,540
+So they're going to pay you $400.
+
+133
+00:08:48,540 --> 00:08:58,680
+So then you can view it essentially, they owe you $10,400.
+
+134
+00:08:58,680 --> 00:09:00,050
+That's essentially how much they borrowed.
+
+135
+00:09:00,050 --> 00:09:01,280
+Because they're not going to give it to you just then.
+
+136
+00:09:01,280 --> 00:09:02,780
+You're going to get all your money back at the end.
+
+137
+00:09:02,780 --> 00:09:06,790
+So at the end,they're going to have to pay you another 4%.
+
+138
+00:09:08,090 --> 00:09:10,820
+But this time,it's not going to be off of the $10,000.
+
+139
+00:09:10,820 --> 00:09:18,780
+It's going to be off of the $10,400. So $10,400 times 0.04.
+
+140
+00:09:18,780 --> 00:09:24,020
+4 times 0 is 0. 4 times 0 is 0. 4 times 4 is 16.
+
+141
+00:09:24,700 --> 00:09:29,390
+4 times 0 is 0 plus 1 is 1. 4 times 1 is 4.
+
+142
+00:09:30,470 --> 00:09:32,100
+Then we have two numbers behind the decimal point.
+
+143
+00:09:32,100 --> 00:09:35,980
+So now they're going to pay you $416,the second payment.
+
+144
+00:09:35,980 --> 00:09:38,710
+What was the total amount of interest?
+
+145
+00:09:38,710 --> 00:09:46,080
+So it's going to be $416 plus $400,which is $816,
+
+146
+00:09:51,660 --> 00:09:52,960
+which is choice C.
+
+147
+00:09:52,960 --> 00:09:55,120
+I'm a little surprised that they expect you to know
+
+148
+00:09:55,120 --> 00:09:57,310
+what compounding semi-annually means.
+
+149
+00:09:57,310 --> 00:09:58,880
+But since it's there,I guess you should know it.
+
+150
+00:09:58,880 --> 00:10:00,920
+When it compound semi-annually,
+
+151
+00:10:00,920 --> 00:10:04,170
+it means that each semi-annual point in time,
+
+152
+00:10:04,170 --> 00:10:06,800
+you divide the annual interest rate by 2,
+
+153
+00:10:06,800 --> 00:10:08,420
+and you get that much.
+
+154
+00:10:08,420 --> 00:10:11,240
+But then the next interest you get is off of,
+
+155
+00:10:11,240 --> 00:10:13,540
+not just the initial amount,
+
+156
+00:10:13,540 --> 00:10:16,120
+but the initial amount plus the previous interest,
+
+157
+00:10:16,120 --> 00:10:17,240
+because they haven't paid you yet.
+
+158
+00:10:17,240 --> 00:10:19,460
+But anyway,I hope you don't find that too confusing.
+
+159
+00:10:19,460 --> 00:10:21,010
+You might want to look it up on the internet.
+
+160
+00:10:21,010 --> 00:10:23,320
+You could also compound monthly,or daily,or continuously.
+
+161
+00:10:23,320 --> 00:10:25,070
+I actually have a couple of videos on the Khan Academy.
+
+162
+00:10:25,070 --> 00:10:26,980
+But anyway,I'm all out of time,
+
+163
+00:10:26,980 --> 00:10:28,500
+so I'll see you in the next video.

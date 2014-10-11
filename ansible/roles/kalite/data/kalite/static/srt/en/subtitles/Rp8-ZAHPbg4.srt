@@ -1,0 +1,167 @@
+1
+00:00:02,011 --> 00:00:05,150
+Euler continued to investigate the properties of numbers –
+
+2
+00:00:05,150 --> 00:00:09,007
+specifically the distribution of prime numbers.
+
+3
+00:00:09,007 --> 00:00:10,919
+One important function he defined
+
+4
+00:00:10,919 --> 00:00:12,733
+is called the 'phi function.'
+
+5
+00:00:12,733 --> 00:00:15,885
+It measures the breakability of a number.
+
+6
+00:00:15,885 --> 00:00:17,879
+So, given a number, say, 'n,'
+
+7
+00:00:17,879 --> 00:00:21,439
+it outputs how many integers are less than or equal to n
+
+8
+00:00:21,439 --> 00:00:24,921
+that do not share any common factors with n.
+
+9
+00:00:24,921 --> 00:00:28,375
+For example, if we want to find the phi of 8,
+
+10
+00:00:28,375 --> 00:00:30,868
+we look at all values from 1 to 8,
+
+11
+00:00:30,883 --> 00:00:32,983
+and then we count how many integers
+
+12
+00:00:32,983 --> 00:00:35,954
+8 does not share a factor greater than 1 with.
+
+13
+00:00:35,954 --> 00:00:37,371
+Notice, 6 is not counted,
+
+14
+00:00:37,371 --> 00:00:39,302
+because 6 and 8 share the factor 2,
+
+15
+00:00:39,302 --> 00:00:42,002
+while 1, 3, 5 and 7 are all counted,
+
+16
+00:00:42,002 --> 00:00:44,528
+because they only share the factor 1.
+
+17
+00:00:44,528 --> 00:00:48,855
+Therefore, phi(8) = 4.
+
+18
+00:00:48,855 --> 00:00:50,271
+What's interesting is that
+
+19
+00:00:50,271 --> 00:00:54,523
+calculating the Phi function is hard, except in one case.
+
+20
+00:00:54,523 --> 00:00:56,061
+Look at this graph.
+
+21
+00:00:56,061 --> 00:01:01,307
+It is a plot of values of phi over integers from 1 to 1000.
+
+22
+00:01:01,307 --> 00:01:04,891
+Now, notice any predictable pattern?
+
+23
+00:01:04,891 --> 00:01:07,749
+The straight line of points along the top
+
+24
+00:01:07,749 --> 00:01:11,016
+represents all the prime numbers.
+
+25
+00:01:11,016 --> 00:01:14,463
+Since prime numbers have no factors greater than 1,
+
+26
+00:01:14,463 --> 00:01:19,991
+the phi of any prime number, 'p,' is simply p-1.
+
+27
+00:01:19,991 --> 00:01:22,616
+To calculate phi of 7 – a prime number –
+
+28
+00:01:22,616 --> 00:01:24,984
+we count all integers except 7 –
+
+29
+00:01:24,984 --> 00:01:27,575
+since none of them share a factor with 7.
+
+30
+00:01:27,575 --> 00:01:31,536
+Phi of 7 = 6.
+
+31
+00:01:31,536 --> 00:01:37,905
+So if you are asked to find phi of 21,377, a prime number,
+
+32
+00:01:37,905 --> 00:01:41,356
+you would only need to subtract 1 to get the solution –
+
+33
+00:01:41,356 --> 00:01:44,132
+21,376.
+
+34
+00:01:44,132 --> 00:01:48,090
+phi of any prime is easy to compute.
+
+35
+00:01:48,090 --> 00:01:50,766
+This leads to an interesting result, based on the fact that
+
+36
+00:01:50,766 --> 00:01:53,875
+the phi function is also 'multiplicative.'
+
+37
+00:01:53,875 --> 00:02:00,899
+That is, phi(A x B)=phi(A) x Phi(B).
+
+38
+00:02:00,899 --> 00:02:02,792
+If we know some number, N,
+
+39
+00:02:02,792 --> 00:02:06,666
+is the product of two primes, P1 and P2,
+
+40
+00:02:06,666 --> 00:02:09,627
+then phi of N is just the value of
+
+41
+00:02:09,627 --> 00:02:13,434
+phi for each prime multiplied together, –
+
+42
+00:02:13,434 --> 00:02:17,057
+or (P1 - 1) x (P2 - 1).

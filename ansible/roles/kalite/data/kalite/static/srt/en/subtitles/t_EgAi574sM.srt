@@ -1,0 +1,639 @@
+1
+00:00:00,000 --> 00:00:04,200
+What I wanna do on this video, for some triangle we're gonna focused
+
+2
+00:00:04,210 --> 00:00:07,680
+on this larger triangle over heretriangle ABC
+
+3
+00:00:07,690 --> 00:00:11,690
+What I wanna do is prove that circumcenter,
+
+4
+00:00:11,700 --> 00:00:15,020
+remember the circumcenter is the intersection
+
+5
+00:00:15,030 --> 00:00:16,820
+of it's perpendicular bisectors
+
+6
+00:00:16,830 --> 00:00:21,920
+The circumcenter for this triangle, the centroid of this triangle,
+
+7
+00:00:21,930 --> 00:00:24,040
+the centroid is the intersection of it's medians,
+
+8
+00:00:24,050 --> 00:00:28,720
+and the orthocenter, that's the intersection of it's altitudes
+
+9
+00:00:28,730 --> 00:00:35,460
+all sit on the same line, or that OI right over here really a line segment
+
+10
+00:00:35,470 --> 00:00:39,200
+Or that OG and GI are really just 2 segments
+
+11
+00:00:39,210 --> 00:00:44,810
+that make up these 2 line segments which is part of the euler line
+
+12
+00:00:44,820 --> 00:00:48,900
+And to do that, I've set up a medial triangle right over here,
+
+13
+00:00:48,910 --> 00:00:53,130
+triangle FED, or actually I should say, triangle DEF,
+
+14
+00:00:53,140 --> 00:00:56,760
+whch is the medial triangle for ABC
+
+15
+00:00:56,770 --> 00:00:58,670
+And there's already a bunch of things
+
+16
+00:00:58,680 --> 00:01:00,670
+that we know about medial triangle
+
+17
+00:01:00,680 --> 00:01:02,640
+and we've proven this in previous videos
+
+18
+00:01:02,650 --> 00:01:07,010
+One thing we know, is the medial triangle DEF,
+
+19
+00:01:07,040 --> 00:01:11,300
+DEF is going to be similar to the larger triangle
+
+20
+00:01:11,310 --> 00:01:13,410
+the triangle that is a medial triangle of,
+
+21
+00:01:13,420 --> 00:01:18,000
+it is of, and ratio from the larger triangle to the smaller triangle
+
+22
+00:01:18,010 --> 00:01:19,760
+it's a 2 to 1 ratio
+
+23
+00:01:19,770 --> 00:01:21,780
+And this is really important to proof
+
+24
+00:01:21,790 --> 00:01:24,630
+When two triangles are similar with the given ratio,
+
+25
+00:01:24,640 --> 00:01:28,360
+that means if you take the distance between any 2 corresponding parts
+
+26
+00:01:28,370 --> 00:01:32,690
+of the two similar triangles that ratio will be 2 to 1
+
+27
+00:01:32,700 --> 00:01:35,920
+Now the other relationship that we've already shown,
+
+28
+00:01:35,930 --> 00:01:38,350
+the other relationship between the medial triangle,
+
+29
+00:01:38,360 --> 00:01:40,440
+and the triangle that is the medial triangle
+
+30
+00:01:40,450 --> 00:01:43,590
+of is that we've shown the orthocenter
+
+31
+00:01:43,600 --> 00:01:52,130
+of the medial center of the larger triangle
+
+32
+00:01:52,140 --> 00:01:55,110
+So one way to think about it is Point O,
+
+33
+00:01:55,120 --> 00:01:58,810
+we already mentioned is the circumcenter of the larger triangle
+
+34
+00:01:58,820 --> 00:02:05,560
+It is also the, it is also the orthocenter of the smaller triangle,
+
+35
+00:02:05,570 --> 00:02:06,880
+we actually wrote it of here
+
+36
+00:02:06,890 --> 00:02:12,110
+so Point O noticed it is on this perpendicular bisector,
+
+37
+00:02:12,120 --> 00:02:14,880
+you know, I should do a bunch of other ones of this dark grey color
+
+38
+00:02:14,890 --> 00:02:18,640
+but I didn't wanna make this diagram too messy
+
+39
+00:02:18,650 --> 00:02:21,220
+But this is the circumcenter of the larger triangle
+
+40
+00:02:57,120 --> 00:03:04,560
+Now in order to prove that OG and I all sit on the same line
+
+41
+00:03:04,570 --> 00:03:07,030
+or the same segment in this case
+
+42
+00:03:07,040 --> 00:03:10,860
+What I'm going to do, I wanna prove,
+
+43
+00:03:10,870 --> 00:03:16,100
+I'm going to prove that triangle FOG,
+
+44
+00:03:16,110 --> 00:03:19,360
+I'm going to prove that triangle FOG,
+
+45
+00:03:19,370 --> 00:03:25,420
+is similar to, is similar to triangle CIG,
+
+46
+00:03:25,430 --> 00:03:29,180
+is similar to triangle CIG
+
+47
+00:03:29,190 --> 00:03:32,090
+Because if I can prove that, then their corresponding angles
+
+48
+00:03:32,100 --> 00:03:33,290
+are going to be equivalent,
+
+49
+00:03:33,300 --> 00:03:35,690
+you could say this is angle is going to be equal
+
+50
+00:03:35,700 --> 00:03:36,940
+to those angle over here
+
+51
+00:03:36,950 --> 00:03:39,760
+And so OI would have to be a transversal,
+
+52
+00:03:39,770 --> 00:03:42,270
+cause we're goiong to see these two lines here are parallel
+
+53
+00:03:42,280 --> 00:03:45,390
+or if these two triangles are similar,
+
+54
+00:03:45,400 --> 00:03:47,830
+just remember that someone's look at our triangle here
+
+55
+00:03:47,840 --> 00:03:49,330
+and this triangles over there
+
+56
+00:03:49,340 --> 00:03:51,400
+If they truly are similar then this angle
+
+57
+00:03:51,410 --> 00:03:52,780
+is going to be equal to that angle
+
+58
+00:03:52,790 --> 00:03:53,740
+which would mean that,
+
+59
+00:03:53,750 --> 00:03:56,180
+so these are really would be vertical angles
+
+60
+00:03:56,190 --> 00:03:58,970
+and so this really would be real line
+
+61
+00:03:58,980 --> 00:04:01,270
+So let's go the actual proof
+
+62
+00:04:01,280 --> 00:04:05,550
+So maybe, I don't need those to highlight it over here
+
+63
+00:04:05,560 --> 00:04:07,620
+So one thing and I've hinted about this already,
+
+64
+00:04:07,630 --> 00:04:12,390
+we know that this line over here, we can call this like XC
+
+65
+00:04:12,400 --> 00:04:15,580
+we know this is perpendicular like AB
+
+66
+00:04:15,590 --> 00:04:20,290
+it is an altitude, and we also know that FY right over here
+
+67
+00:04:20,300 --> 00:04:25,320
+is perpendicular to AB, it is a perpendicular bi-sector
+
+68
+00:04:25,330 --> 00:04:28,390
+So they both form the same angle with a transversal
+
+69
+00:04:28,400 --> 00:04:29,950
+you can view AB as a transversal
+
+70
+00:04:29,960 --> 00:04:33,240
+so they must be parallel, so we know that FY,
+
+71
+00:04:33,250 --> 00:04:39,110
+FY is parallel to XC, to XC
+
+72
+00:04:39,120 --> 00:04:39,350
+segment FY is parallel to XC,
+
+73
+00:04:39,360 --> 00:04:41,980
+segment FY is parallel to segment XC
+
+74
+00:04:41,990 --> 00:04:46,740
+And we can write it; this guy is parallel to that guy there
+
+75
+00:04:46,750 --> 00:04:51,490
+And that's useful because we know that alternate interior angles
+
+76
+00:04:51,500 --> 00:04:54,700
+of a transversal, when a transversal intersects two parallel
+
+77
+00:04:54,710 --> 00:04:56,070
+lines are congruent
+
+78
+00:04:56,080 --> 00:05:02,670
+So we know, we know that this angle, so we know that FC is a line
+
+79
+00:05:02,680 --> 00:05:06,740
+it is a median of this larger triangle, triangle ABC
+
+80
+00:05:06,900 --> 00:05:09,900
+So you have a line intersecting two parallel lines,
+
+81
+00:05:09,910 --> 00:05:12,860
+alternate interior angels are congruent
+
+82
+00:05:12,870 --> 00:05:15,890
+So that angle is gonna be congruent to that angle
+
+83
+00:05:15,900 --> 00:05:24,160
+So you could say angle OFG is congruent to angle,
+
+84
+00:05:24,170 --> 00:05:27,720
+so it's OFG, it's congruent to angel ICG,
+
+85
+00:05:27,730 --> 00:05:34,140
+to ICG, now the other, the other thing we know,
+
+86
+00:05:34,150 --> 00:05:38,280
+this is a property, this is a property of medians is that
+
+87
+00:05:38,290 --> 00:05:41,910
+a median splits up or should I say the centroid,
+
+88
+00:05:41,920 --> 00:05:45,690
+splits the median in to two segments that have a ratio of two to one
+
+89
+00:05:45,700 --> 00:05:47,360
+or another way to think about this is a centroid
+
+90
+00:05:47,370 --> 00:05:50,830
+is two thirds along the median
+
+91
+00:05:50,840 --> 00:05:53,590
+So we know we've proven this on a previous video
+
+92
+00:05:53,600 --> 00:06:02,330
+We know that CG, CG is a equal to 2 times GF, 2 times GF
+
+93
+00:06:02,340 --> 00:06:03,610
+and I think you see where you are going,
+
+94
+00:06:03,620 --> 00:06:06,710
+we have an angle, I've shown you that the ratio of this side
+
+95
+00:06:06,720 --> 00:06:09,480
+to this side is 2 to 1 and that's just the property
+
+96
+00:06:09,490 --> 00:06:10,830
+of centroids and medians
+
+97
+00:06:10,840 --> 00:06:16,850
+And now if we can show you the ratio of his side CI is FO is 2 to 1
+
+98
+00:06:16,860 --> 00:06:20,240
+that we have two corresponding sides where the ratio is 2 to 1,
+
+99
+00:06:20,250 --> 00:06:22,100
+and we have the angle and between this congruent,
+
+100
+00:06:22,110 --> 00:06:25,920
+and we have the SAS singularity to show that these two triangles
+
+101
+00:06:25,930 --> 00:06:28,570
+are actually similar, so let's actually think about that
+
+102
+00:06:28,580 --> 00:06:34,180
+CI is the distance between, CI is the between the larger triangle's
+
+103
+00:06:34,190 --> 00:06:40,210
+point C orthocenter of the larger triangle
+
+104
+00:06:40,220 --> 00:06:41,830
+Well what is FO?
+
+105
+00:06:41,840 --> 00:06:47,220
+Well F is a corresponding point to point C on the medial triangle
+
+106
+00:06:47,230 --> 00:06:51,630
+and we make sure that we specify the similarity with the right, F,
+
+107
+00:06:51,640 --> 00:06:54,040
+F corresponds to point C
+
+108
+00:06:54,050 --> 00:06:59,370
+So FO is the distance between F on the smaller medial triangle
+
+109
+00:06:59,380 --> 00:07:03,130
+and the smaller medial triangle's orthocenter
+
+110
+00:07:03,140 --> 00:07:04,810
+So this is the distance between C
+
+111
+00:07:04,820 --> 00:07:06,740
+and the orthocenter of the larger triangle
+
+112
+00:07:06,750 --> 00:07:09,560
+This is the distance between the corresponding
+
+113
+00:07:09,570 --> 00:07:10,990
+side of the medial triangle
+
+114
+00:07:11,000 --> 00:07:13,070
+and the smaller medial triangle and it's orthocenter
+
+115
+00:07:13,080 --> 00:07:16,190
+So this is the same corresponding distance
+
+116
+00:07:16,200 --> 00:07:18,740
+on the larger triangle and the medial triangle,
+
+117
+00:07:18,750 --> 00:07:21,820
+and we already know that they're similar with the ratio of 2 to 1
+
+118
+00:07:21,830 --> 00:07:25,820
+And so the corresponding distances between any 2 points
+
+119
+00:07:25,830 --> 00:07:28,560
+on the two same triangle are gonna have the same ratio
+
+120
+00:07:28,570 --> 00:07:32,750
+So because of that similarity, because of the similarity
+
+121
+00:07:32,760 --> 00:07:39,500
+we know that CI, CI is gonna be equal to 2 times FO
+
+122
+00:07:39,510 --> 00:07:43,440
+I wanna emphasize this; C is the corresponding point to F,
+
+123
+00:07:43,450 --> 00:07:46,080
+when we look at both of these similar triangles,
+
+124
+00:07:46,090 --> 00:07:48,600
+I is the orthocenter of the larger triangle,
+
+125
+00:07:48,610 --> 00:07:50,560
+O is the orthocenter of the smaller triangle
+
+126
+00:07:50,570 --> 00:07:52,470
+You're taking a corresponding point
+
+127
+00:07:52,480 --> 00:07:54,270
+to the orthocenter of the larger triangle,
+
+128
+00:07:54,280 --> 00:07:58,320
+corresponding point of the smaller triangle
+
+129
+00:07:58,330 --> 00:08:00,710
+The triangles are similar to the ratios of 2 to 1
+
+130
+00:08:00,720 --> 00:08:04,930
+so the ratio of this length to this length is going to be 2 to 1
+
+131
+00:08:04,940 --> 00:08:07,910
+So we've shown, we've shown the ratio
+
+132
+00:08:07,920 --> 00:08:12,380
+of this side to this side is 2 to 1
+
+133
+00:08:12,450 --> 00:08:17,730
+We've shown the ratio if this side to side is also to 2 to 1
+
+134
+00:08:17,740 --> 00:08:20,370
+We've shown the angle in between are,
+
+135
+00:08:20,380 --> 00:08:24,080
+the angle between them is congruent
+
+136
+00:08:24,090 --> 00:08:26,950
+So we have proven by SAS similarity,
+
+137
+00:08:26,960 --> 00:08:33,540
+so it goes down a little bit, so by, by SAS similarity,
+
+138
+00:08:33,550 --> 00:08:40,110
+not congruency, similarity we've proven that triangle FOG
+
+139
+00:08:40,120 --> 00:08:43,360
+is similar to CIG
+
+140
+00:08:43,370 --> 00:08:46,350
+And so we know corresponding triangles are congruent,
+
+141
+00:08:46,360 --> 00:08:51,910
+we know that angle CIG correspond to angle FOG
+
+142
+00:08:51,920 --> 00:08:57,450
+so those are going to be congruent, and we also know that angle CGI,
+
+143
+00:08:57,460 --> 00:09:00,660
+angle CGI, let me do this a new color,
+
+144
+00:09:00,670 --> 00:09:04,460
+angle CGI corresponds to angel OGF
+
+145
+00:09:04,470 --> 00:09:07,270
+so they're also going to be congruent
+
+146
+00:09:07,280 --> 00:09:09,360
+So you can look at the different ways of these angle
+
+147
+00:09:09,370 --> 00:09:12,140
+and this angle are the same you can now view OI
+
+148
+00:09:12,150 --> 00:09:15,670
+as a true line as a transversal of these two parallel lines
+
+149
+00:09:15,680 --> 00:09:17,390
+So that let's you know that's a one line
+
+150
+00:09:17,400 --> 00:09:18,920
+or you can look these two over here,
+
+151
+00:09:18,930 --> 00:09:21,240
+so look these two angles are equivalent
+
+152
+00:09:21,250 --> 00:09:23,070
+so these must be vertical angles,
+
+153
+00:09:23,080 --> 00:09:26,800
+so this must actually be, this actually must be the same line
+
+154
+00:09:26,810 --> 00:09:29,290
+The angle that this is approaching, this,
+
+155
+00:09:29,300 --> 00:09:32,290
+this median is the same angle that is leaving
+
+156
+00:09:32,300 --> 00:09:35,840
+So these are all, these are definitely on the same line
+
+157
+00:09:35,850 --> 00:09:38,310
+So it's a very simple proof, once again,
+
+158
+00:09:38,320 --> 00:09:42,260
+from a very profound idea, the orthocenter,
+
+159
+00:09:42,270 --> 00:09:45,930
+the centroid and the median of any triangle
+
+160
+00:09:45,940 --> 00:09:49,320
+all sit on this magical euler's line

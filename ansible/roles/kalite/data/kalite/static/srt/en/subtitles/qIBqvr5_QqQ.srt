@@ -1,0 +1,371 @@
+1
+99:59:59,999 --> 99:59:59,999
+In this video I will attempt to prove or -actually in the next several
+
+2
+99:59:59,999 --> 99:59:59,999
+videos attempt to prove a special case version
+
+3
+99:59:59,999 --> 99:59:59,999
+of stokes' theorem or essentially stokes'
+
+4
+99:59:59,999 --> 99:59:59,999
+theorem for a special case and I'm doing this
+
+5
+99:59:59,999 --> 99:59:59,999
+because that the proof will be a little bit
+
+6
+99:59:59,999 --> 99:59:59,999
+simpler but at the same time it's pretty convincing
+
+7
+99:59:59,999 --> 99:59:59,999
+and the special case we're going to assume is
+
+8
+99:59:59,999 --> 99:59:59,999
+that the surface we're dealing with is function
+
+9
+99:59:59,999 --> 99:59:59,999
+of x and y so if you give me any particular x and y
+
+10
+99:59:59,999 --> 99:59:59,999
+it only determines one point on that surface
+
+11
+99:59:59,999 --> 99:59:59,999
+so a surface like this would be the case
+
+12
+99:59:59,999 --> 99:59:59,999
+so it's kind of a mapping of this region of the x y
+
+13
+99:59:59,999 --> 99:59:59,999
+plane into three demensions so for any x y we can
+
+14
+99:59:59,999 --> 99:59:59,999
+figure out the height so essentially z is going to be a function of
+
+15
+99:59:59,999 --> 99:59:59,999
+x and y and we can get a point on the surface
+
+16
+99:59:59,999 --> 99:59:59,999
+so this proof would not apply to a surface
+
+17
+99:59:59,999 --> 99:59:59,999
+that's like a sphere or something like that where any
+
+18
+99:59:59,999 --> 99:59:59,999
+point on the x y plane could actually determine two
+
+19
+99:59:59,999 --> 99:59:59,999
+points on our surface but this is a pretty good start
+
+20
+99:59:59,999 --> 99:59:59,999
+the other thing that we are going to assume, we are going to assume
+
+21
+99:59:59,999 --> 99:59:59,999
+that z which is essentially a function of x and y
+
+22
+99:59:59,999 --> 99:59:59,999
+and that this function of x and y has continuous
+
+23
+99:59:59,999 --> 99:59:59,999
+second order derivatives so continuous
+
+24
+99:59:59,999 --> 99:59:59,999
+second derivatives and the reason why I'm
+
+25
+99:59:59,999 --> 99:59:59,999
+going to make that assumption
+
+26
+99:59:59,999 --> 99:59:59,999
+is it's going to help us in our proof later on
+
+27
+99:59:59,999 --> 99:59:59,999
+it's going to allow us to say " that the partial of our surface
+
+28
+99:59:59,999 --> 99:59:59,999
+or the partial of z with respect to x and then taking the derivative of that
+
+29
+99:59:59,999 --> 99:59:59,999
+with respect to y is going to be the same as
+
+30
+99:59:59,999 --> 99:59:59,999
+the partial of z with respect to y and taking the n
+
+31
+99:59:59,999 --> 99:59:59,999
+derivative of that with respect to x
+
+32
+99:59:59,999 --> 99:59:59,999
+and in order to be able to make this statement we have to
+
+33
+99:59:59,999 --> 99:59:59,999
+assume that z or or z right over here z is a function of
+
+34
+99:59:59,999 --> 99:59:59,999
+x and y has continuous second order derivatives
+
+35
+99:59:59,999 --> 99:59:59,999
+and over here we've just written our vector field f
+
+36
+99:59:59,999 --> 99:59:59,999
+that we're going to deal with when we're trying
+
+37
+99:59:59,999 --> 99:59:59,999
+to play with stokes' theorem
+
+38
+99:59:59,999 --> 99:59:59,999
+and we'll assume that it has continuous first-order
+
+39
+99:59:59,999 --> 99:59:59,999
+derivatives now with that out of the way
+
+40
+99:59:59,999 --> 99:59:59,999
+let's think about what stokes' theorem tells us,
+
+41
+99:59:59,999 --> 99:59:59,999
+and then we'll think about for this particular case
+
+42
+99:59:59,999 --> 99:59:59,999
+how we can write it out and hopefully
+
+43
+99:59:59,999 --> 99:59:59,999
+we will see the two things are equal!
+
+44
+99:59:59,999 --> 99:59:59,999
+so let me write it out
+
+45
+99:59:59,999 --> 99:59:59,999
+so stoke's theorem tells us that
+
+46
+99:59:59,999 --> 99:59:59,999
+if x dot dr over some path
+
+47
+99:59:59,999 --> 99:59:59,999
+and the path that we care about is essentially
+
+48
+99:59:59,999 --> 99:59:59,999
+this path right over here I'll do it in blue
+
+49
+99:59:59,999 --> 99:59:59,999
+it's this path right over here
+
+50
+99:59:59,999 --> 99:59:59,999
+this is the boundary this is the boundary
+
+51
+99:59:59,999 --> 99:59:59,999
+of our surface
+
+52
+99:59:59,999 --> 99:59:59,999
+so this is c right over here
+
+53
+99:59:59,999 --> 99:59:59,999
+stokes' theorem tells us that this should be the same
+
+54
+99:59:59,999 --> 99:59:59,999
+thing this should be equivalent to the surface
+
+55
+99:59:59,999 --> 99:59:59,999
+integral over our surface
+
+56
+99:59:59,999 --> 99:59:59,999
+--over our surface of curl of f--- curl of f DOT ds
+
+57
+99:59:59,999 --> 99:59:59,999
+dot- dotted with the surface itself
+
+58
+99:59:59,999 --> 99:59:59,999
+and so in this video I want to focus
+
+59
+99:59:59,999 --> 99:59:59,999
+or probably this and the next video
+
+60
+99:59:59,999 --> 99:59:59,999
+I want to focus on the second half
+
+61
+99:59:59,999 --> 99:59:59,999
+I want to focus this I want to see how we
+
+62
+99:59:59,999 --> 99:59:59,999
+can express this given the assumptions
+
+63
+99:59:59,999 --> 99:59:59,999
+we've made and then after that we're going to
+
+64
+99:59:59,999 --> 99:59:59,999
+see how we can express this given the same assumptions
+
+65
+99:59:59,999 --> 99:59:59,999
+and then hopefully we'll find that we get them to
+
+66
+99:59:59,999 --> 99:59:59,999
+be equal to each other!
+
+67
+99:59:59,999 --> 99:59:59,999
+so let's just start figuring out what the curl
+
+68
+99:59:59,999 --> 99:59:59,999
+of f is equal to
+
+69
+99:59:59,999 --> 99:59:59,999
+so the curl of f
+
+70
+99:59:59,999 --> 99:59:59,999
+the curl of f
+
+71
+99:59:59,999 --> 99:59:59,999
+is equal to
+
+72
+99:59:59,999 --> 99:59:59,999
+you can view it as the dell operator crossed
+
+73
+99:59:59,999 --> 99:59:59,999
+with our vector field f which is equal to
+
+74
+99:59:59,999 --> 99:59:59,999
+can write our components so i- let's do it in different colors-
+
+75
+99:59:59,999 --> 99:59:59,999
+i, j and k components
+
+76
+99:59:59,999 --> 99:59:59,999
+i j and k components and then I need to
+
+77
+99:59:59,999 --> 99:59:59,999
+write my dell operator or my partial
+
+78
+99:59:59,999 --> 99:59:59,999
+operator or my partial operator as I guess I could call them
+
+79
+99:59:59,999 --> 99:59:59,999
+so the partial with respect to x
+
+80
+99:59:59,999 --> 99:59:59,999
+the partial with respect to y
+
+81
+99:59:59,999 --> 99:59:59,999
+the partial with respect to z
+
+82
+99:59:59,999 --> 99:59:59,999
+and then I have to write i, j and k
+
+83
+99:59:59,999 --> 99:59:59,999
+components of my vector field f
+
+84
+99:59:59,999 --> 99:59:59,999
+and I will do that in gre- well, I'll do that in blue
+
+85
+99:59:59,999 --> 99:59:59,999
+and so we have p which is a function of x y and z
+
+86
+99:59:59,999 --> 99:59:59,999
+q which is a function of x y and z
+
+87
+99:59:59,999 --> 99:59:59,999
+and r which is a function of x y and z
+
+88
+99:59:59,999 --> 99:59:59,999
+and so this is going to evaluate as
+
+89
+99:59:59,999 --> 99:59:59,999
+it's going to be i* so blank out that column that row
+
+90
+99:59:59,999 --> 99:59:59,999
+it's going to be the partial of r with respect to y
+
+91
+99:59:59,999 --> 99:59:59,999
+minus the partial of q with respect to z
+
+92
+99:59:59,999 --> 99:59:59,999
+and then checkerboard pattern
+
+93
+99:59:59,999 --> 99:59:59,999
+minus j and then times the partial of r

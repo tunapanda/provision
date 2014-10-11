@@ -1,0 +1,131 @@
+1
+99:59:59,999 --> 99:59:59,999
+What I want to do in this video is find out if there is any fast way
+
+2
+99:59:59,999 --> 99:59:59,999
+to figure out the sum of the roots of any polynomial
+
+3
+99:59:59,999 --> 99:59:59,999
+And there actually is and that's why I'm doing this video
+
+4
+99:59:59,999 --> 99:59:59,999
+So lets start with a second degree polynomial
+
+5
+99:59:59,999 --> 99:59:59,999
+so lets say it's x squared plus a one x plus a two is equal to zero
+
+6
+99:59:59,999 --> 99:59:59,999
+so this is just a standard quadratic equation right here, second degree equation
+
+7
+99:59:59,999 --> 99:59:59,999
+and you might be saying hey but you put the coefficent
+
+8
+99:59:59,999 --> 99:59:59,999
+on the x term equal to one
+
+9
+99:59:59,999 --> 99:59:59,999
+and in general you can always convert any polynomial
+
+10
+99:59:59,999 --> 99:59:59,999
+and I'll do it with a second degree but if you have
+
+11
+99:59:59,999 --> 99:59:59,999
+A x squared plus B x plus C is equal to 0
+
+12
+99:59:59,999 --> 99:59:59,999
+then you can just divide both sides of this equation by A
+
+13
+99:59:59,999 --> 99:59:59,999
+and you're going to have something that's in this form
+
+14
+99:59:59,999 --> 99:59:59,999
+where the coefficent on the x squared term
+
+15
+99:59:59,999 --> 99:59:59,999
+is going to be equal to one.
+
+16
+99:59:59,999 --> 99:59:59,999
+And you can do that with any polynomial that's set equal to 0
+
+17
+99:59:59,999 --> 99:59:59,999
+so with that out of the way let's think about what the
+
+18
+99:59:59,999 --> 99:59:59,999
+sum of the roots of this are going to be
+
+19
+99:59:59,999 --> 99:59:59,999
+so this is a second degree polynomial
+
+20
+99:59:59,999 --> 99:59:59,999
+it's a quadratic equation, so it'll have two roots
+
+21
+99:59:59,999 --> 99:59:59,999
+they can be real or complex
+
+22
+99:59:59,999 --> 99:59:59,999
+so let's call the roots R one and R two
+
+23
+99:59:59,999 --> 99:59:59,999
+and that tells us that these are roots that
+
+24
+99:59:59,999 --> 99:59:59,999
+X minus R 1 times X minus R 2
+
+25
+99:59:59,999 --> 99:59:59,999
+is going to be equal to 0
+
+26
+99:59:59,999 --> 99:59:59,999
+and if we multiply this out we get
+
+27
+99:59:59,999 --> 99:59:59,999
+X times X is X squared
+
+28
+99:59:59,999 --> 99:59:59,999
+X times negative R2 is negative R2X
+
+29
+99:59:59,999 --> 99:59:59,999
+and then we have negative R1 times X and negative R1X
+
+30
+99:59:59,999 --> 99:59:59,999
+and then we have negative R1 times negative R2
+
+31
+99:59:59,999 --> 99:59:59,999
+which is plus R1R2 is equal to 0
+
+32
+99:59:59,999 --> 99:59:59,999
+and we can simplify this middle term a little bit
+
+33
+99:59:59,999 --> 99:59:59,999
+it becomes x squared minus R1 plus R2

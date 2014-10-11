@@ -1,0 +1,1352 @@
+1
+00:00:00,000 --> 00:00:01,100
+   
+
+2
+00:00:01,100 --> 00:00:03,320
+This video here is a
+groundbreaking video
+
+3
+00:00:03,320 --> 00:00:05,340
+for multiple reasons.
+
+4
+00:00:05,340 --> 00:00:09,910
+One, I'm going to introduce you
+to the variance of a sample,
+
+5
+00:00:09,910 --> 00:00:11,750
+which is interesting
+it in its own right.
+
+6
+00:00:11,750 --> 00:00:14,520
+And I'm attempting to
+record this video in HD.
+
+7
+00:00:14,520 --> 00:00:16,370
+And hopefully you can see
+it bigger and clearer
+
+8
+00:00:16,370 --> 00:00:17,030
+than ever before.
+
+9
+00:00:17,030 --> 00:00:19,150
+But we'll see how
+all of that goes.
+
+10
+00:00:19,150 --> 00:00:22,060
+So this is a bit of an
+experiment, so bear with me.
+
+11
+00:00:22,060 --> 00:00:25,180
+But so, just before we go into
+the variance of a sample, I
+
+12
+00:00:25,180 --> 00:00:28,090
+think it's instructive to
+review the variance
+
+13
+00:00:28,090 --> 00:00:28,870
+of a population.
+
+14
+00:00:28,870 --> 00:00:32,180
+And we can compare
+their formulas.
+
+15
+00:00:32,180 --> 00:00:34,790
+The variance of a population--
+And it's this greek
+
+16
+00:00:34,790 --> 00:00:36,100
+letter sigma.
+
+17
+00:00:36,100 --> 00:00:37,420
+Lowercase sigma squared.
+
+18
+00:00:37,420 --> 00:00:38,500
+That means variance.
+
+19
+00:00:38,500 --> 00:00:41,010
+I know it's weird that
+a variable already
+
+20
+00:00:41,010 --> 00:00:41,710
+has a square in it.
+
+21
+00:00:41,710 --> 00:00:42,840
+You're not squaring
+the variable.
+
+22
+00:00:42,840 --> 00:00:44,240
+This is the variable.
+
+23
+00:00:44,240 --> 00:00:45,780
+Sigma squared mean variance.
+
+24
+00:00:45,780 --> 00:00:46,840
+Actually, let me
+write that down.
+
+25
+00:00:46,840 --> 00:00:48,005
+That equals variance.
+
+26
+00:00:48,005 --> 00:00:51,550
+   
+
+27
+00:00:51,550 --> 00:00:55,430
+And that is equal to-- You
+take each data point-- And
+
+28
+00:00:55,430 --> 00:00:58,800
+we'll call them x sub i.
+
+29
+00:00:58,800 --> 00:01:01,700
+You take each data of point,
+find out how far it is from the
+
+30
+00:01:01,700 --> 00:01:08,750
+mean of the population, you
+square it, and then you take
+
+31
+00:01:08,750 --> 00:01:11,160
+the average of all of those.
+
+32
+00:01:11,160 --> 00:01:12,900
+So you take the average,
+you sum them all up.
+
+33
+00:01:12,900 --> 00:01:14,200
+You go from i is equal to 1.
+
+34
+00:01:14,200 --> 00:01:17,700
+So from the first point, all
+the way to the nth point.
+
+35
+00:01:17,700 --> 00:01:19,940
+And then, to average,
+you sum them all up and
+
+36
+00:01:19,940 --> 00:01:21,970
+then you divide by n.
+
+37
+00:01:21,970 --> 00:01:25,970
+So the variance is the average
+of these squared distances
+
+38
+00:01:25,970 --> 00:01:27,390
+of each point from the mean.
+
+39
+00:01:27,390 --> 00:01:29,700
+And just to give you the
+intuition again, it essentially
+
+40
+00:01:29,700 --> 00:01:32,920
+says, on average, roughly how
+far away are each of the
+
+41
+00:01:32,920 --> 00:01:34,420
+points from the middle.
+
+42
+00:01:34,420 --> 00:01:36,250
+That's the best way to
+think about the variance.
+
+43
+00:01:36,250 --> 00:01:37,640
+Now what if we're
+dealing-- This was for
+
+44
+00:01:37,640 --> 00:01:39,140
+a population, right?
+
+45
+00:01:39,140 --> 00:01:42,050
+And we said if we wanted to
+figure out the variance of
+
+46
+00:01:42,050 --> 00:01:44,580
+men's heights in the country,
+it'd be very hard to
+
+47
+00:01:44,580 --> 00:01:46,480
+figure out the variance
+for the population.
+
+48
+00:01:46,480 --> 00:01:48,910
+You would have to go and,
+essentially, measure
+
+49
+00:01:48,910 --> 00:01:49,790
+everyone's height.
+
+50
+00:01:49,790 --> 00:01:51,360
+250 million people.
+
+51
+00:01:51,360 --> 00:01:55,080
+Or what if it's for some
+population where it's just
+
+52
+00:01:55,080 --> 00:01:56,860
+completely impossible to
+have the data or some
+
+53
+00:01:56,860 --> 00:01:57,640
+random variable.
+
+54
+00:01:57,640 --> 00:01:59,100
+And we'll go more
+into that later.
+
+55
+00:01:59,100 --> 00:02:02,660
+So a lot of times you actually
+want to estimate this variance
+
+56
+00:02:02,660 --> 00:02:04,690
+by taking the variance
+of a sample.
+
+57
+00:02:04,690 --> 00:02:07,420
+Same way that you could never
+get the mean of a population,
+
+58
+00:02:07,420 --> 00:02:09,570
+but maybe you want to estimate
+it by getting the
+
+59
+00:02:09,570 --> 00:02:11,064
+mean of a sample.
+
+60
+00:02:11,064 --> 00:02:13,890
+And we learned that
+in that first video.
+
+61
+00:02:13,890 --> 00:02:17,520
+If this is-- If that's
+the whole population.
+
+62
+00:02:17,520 --> 00:02:20,280
+That's millions of data points,
+or even data points in the
+
+63
+00:02:20,280 --> 00:02:21,870
+future that you'll never be
+able to get because it's
+
+64
+00:02:21,870 --> 00:02:23,290
+a random variable.
+
+65
+00:02:23,290 --> 00:02:24,243
+So this is the population.
+
+66
+00:02:24,243 --> 00:02:26,920
+   
+
+67
+00:02:26,920 --> 00:02:32,390
+You might just want to estimate
+things by looking at a sample.
+
+68
+00:02:32,390 --> 00:02:35,020
+And this is actually what
+most of inferential
+
+69
+00:02:35,020 --> 00:02:36,360
+statistics is all about.
+
+70
+00:02:36,360 --> 00:02:38,720
+Figuring out descriptive
+statistics about the sample
+
+71
+00:02:38,720 --> 00:02:40,890
+and make inferences
+about the population.
+
+72
+00:02:40,890 --> 00:02:44,610
+Let me try this drug on 100
+people and if it seems to have
+
+73
+00:02:44,610 --> 00:02:46,880
+statistically significant
+results, this drug will
+
+74
+00:02:46,880 --> 00:02:48,850
+probably work on the
+population as a whole.
+
+75
+00:02:48,850 --> 00:02:49,800
+So that's what it's all about.
+
+76
+00:02:49,800 --> 00:02:51,920
+So it's really important to
+understand this notion of a
+
+77
+00:02:51,920 --> 00:02:53,580
+sample versus a population.
+
+78
+00:02:53,580 --> 00:02:57,510
+And being able to find
+statistics on a sample that,
+
+79
+00:02:57,510 --> 00:03:00,160
+for the most part, can describe
+the population or help us
+
+80
+00:03:00,160 --> 00:03:03,720
+estimate, they call it,
+parameters for the population.
+
+81
+00:03:03,720 --> 00:03:07,330
+So what's the mean of a-- Let
+me rewrite these definitions.
+
+82
+00:03:07,330 --> 00:03:08,830
+What's the mean
+of a population?
+
+83
+00:03:08,830 --> 00:03:09,940
+I'll do that purple.
+
+84
+00:03:09,940 --> 00:03:11,630
+Purple for population.
+
+85
+00:03:11,630 --> 00:03:13,680
+The mean of a population.
+
+86
+00:03:13,680 --> 00:03:19,700
+You just take each of the data
+points in the population, x i.
+
+87
+00:03:19,700 --> 00:03:21,850
+You sum them up.
+
+88
+00:03:21,850 --> 00:03:23,830
+You start with the first data
+point and you go all the
+
+89
+00:03:23,830 --> 00:03:25,620
+way to the nth data point.
+
+90
+00:03:25,620 --> 00:03:26,740
+And you divide by n.
+
+91
+00:03:26,740 --> 00:03:27,800
+You sum them all up
+and divide by n.
+
+92
+00:03:27,800 --> 00:03:28,920
+That's the mean.
+
+93
+00:03:28,920 --> 00:03:30,500
+So then you plug it
+into this formula.
+
+94
+00:03:30,500 --> 00:03:33,060
+And you can see how far each
+point is from that central
+
+95
+00:03:33,060 --> 00:03:34,270
+point, from that mean.
+
+96
+00:03:34,270 --> 00:03:36,260
+And you get the variance.
+
+97
+00:03:36,260 --> 00:03:39,670
+Now what happens if we
+do it for a sample?
+
+98
+00:03:39,670 --> 00:03:43,350
+Well, if we want to estimate
+the mean of a population by
+
+99
+00:03:43,350 --> 00:03:46,600
+somehow calculating a mean for
+a sample, the best thing I can
+
+100
+00:03:46,600 --> 00:03:49,170
+think of-- And really these are
+kind of engineered formulas.
+
+101
+00:03:49,170 --> 00:03:51,140
+These are human beings saying,
+well what is the best
+
+102
+00:03:51,140 --> 00:03:51,710
+way to sample it?
+
+103
+00:03:51,710 --> 00:03:54,550
+Well all we can do is really
+take an average of our sample.
+
+104
+00:03:54,550 --> 00:03:56,820
+And that's the sample mean.
+
+105
+00:03:56,820 --> 00:03:58,920
+And we learned in the first
+video that that notation--
+
+106
+00:03:58,920 --> 00:04:00,450
+The formula is almost
+identical of this.
+
+107
+00:04:00,450 --> 00:04:01,540
+It's just the
+notation's different.
+
+108
+00:04:01,540 --> 00:04:04,990
+Instead of writing mu, you
+write x with a line over it.
+
+109
+00:04:04,990 --> 00:04:08,620
+Sample mean is equal to-- Once
+again, you take each of the
+
+110
+00:04:08,620 --> 00:04:12,100
+data points now in the sample,
+not in the whole population.
+
+111
+00:04:12,100 --> 00:04:16,370
+You sum them up from the
+first one and then to
+
+112
+00:04:16,370 --> 00:04:17,380
+the nth one, right?
+
+113
+00:04:17,380 --> 00:04:20,640
+They're saying that there are
+n data points in this sample.
+
+114
+00:04:20,640 --> 00:04:23,390
+And then you divide it by the
+number of data points you have.
+
+115
+00:04:23,390 --> 00:04:24,320
+Fair enough.
+
+116
+00:04:24,320 --> 00:04:25,660
+It's really the same formula.
+
+117
+00:04:25,660 --> 00:04:27,500
+The way I took the mean of a
+population, I said, well, if I
+
+118
+00:04:27,500 --> 00:04:29,590
+just have a sample, let me just
+take the mean the same way.
+
+119
+00:04:29,590 --> 00:04:32,560
+And it's probably a good
+estimate of the mean
+
+120
+00:04:32,560 --> 00:04:33,930
+of the population.
+
+121
+00:04:33,930 --> 00:04:36,340
+Now it gets interesting when
+we talk about variance.
+
+122
+00:04:36,340 --> 00:04:39,250
+So your natural reaction is
+OK, I have this sample.
+
+123
+00:04:39,250 --> 00:04:43,260
+If I want to estimate the
+variance of the population, why
+
+124
+00:04:43,260 --> 00:04:45,230
+don't I just apply this same
+formula essentially
+
+125
+00:04:45,230 --> 00:04:46,150
+to the sample?
+
+126
+00:04:46,150 --> 00:04:49,330
+So I could say-- And this is
+actually a sample variance.
+
+127
+00:04:49,330 --> 00:04:54,570
+They use the formula s squared.
+
+128
+00:04:54,570 --> 00:04:58,220
+So sigma is kind of the greek
+letter equivalent of s.
+
+129
+00:04:58,220 --> 00:04:59,980
+So now when we're dealing
+with the sample, we
+
+130
+00:04:59,980 --> 00:05:01,000
+just write the s there.
+
+131
+00:05:01,000 --> 00:05:02,320
+So this is sample variance.
+
+132
+00:05:02,320 --> 00:05:03,070
+Let me write that down.
+
+133
+00:05:03,070 --> 00:05:03,950
+Sample variance.
+
+134
+00:05:03,950 --> 00:05:11,860
+   
+
+135
+00:05:11,860 --> 00:05:15,870
+This is-- So we might just say,
+well maybe a good way to take
+
+136
+00:05:15,870 --> 00:05:17,340
+the sample variance is
+do it the same way.
+
+137
+00:05:17,340 --> 00:05:23,670
+Let's take the distance of each
+of the points in the sample.
+
+138
+00:05:23,670 --> 00:05:26,600
+Find out how far it is
+from our sample mean.
+
+139
+00:05:26,600 --> 00:05:29,230
+Here we used the population
+mean, but now we'll just use
+
+140
+00:05:29,230 --> 00:05:31,450
+the sample mean because
+that's all we can have.
+
+141
+00:05:31,450 --> 00:05:33,160
+We don't know what the
+population mean is
+
+142
+00:05:33,160 --> 00:05:35,510
+without looking at the
+whole population.
+
+143
+00:05:35,510 --> 00:05:36,400
+Take the square of that.
+
+144
+00:05:36,400 --> 00:05:38,160
+That makes it positive and
+it has other properties,
+
+145
+00:05:38,160 --> 00:05:40,160
+which we'll go over later.
+
+146
+00:05:40,160 --> 00:05:42,730
+And then take the average of
+all of these squared distances.
+
+147
+00:05:42,730 --> 00:05:44,970
+So you take it from--
+You sum them all up.
+
+148
+00:05:44,970 --> 00:05:47,430
+And there's n of them
+to some up, right?
+
+149
+00:05:47,430 --> 00:05:48,400
+Lowercase n.
+
+150
+00:05:48,400 --> 00:05:51,820
+And you divide by lowercase n.
+
+151
+00:05:51,820 --> 00:05:53,230
+And you say, well this
+is a good estimate.
+
+152
+00:05:53,230 --> 00:05:55,580
+Well whatever this variance is,
+that might be a good estimate
+
+153
+00:05:55,580 --> 00:05:56,720
+for the population whole.
+
+154
+00:05:56,720 --> 00:06:00,620
+Actually this is what some
+people often refer to when they
+
+155
+00:06:00,620 --> 00:06:01,980
+talk about sample variance.
+
+156
+00:06:01,980 --> 00:06:05,260
+And sometimes it'll actually
+be referred to as this.
+
+157
+00:06:05,260 --> 00:06:07,520
+They'll put a little
+lowercase n there.
+
+158
+00:06:07,520 --> 00:06:09,840
+And the reason why they do that
+is because we divided by n.
+
+159
+00:06:09,840 --> 00:06:11,840
+And you say, Sal what's
+the problem here?
+
+160
+00:06:11,840 --> 00:06:14,000
+And the problem-- And I'll give
+you the intuition because this
+
+161
+00:06:14,000 --> 00:06:16,180
+is actually something that
+used to boggle my mind.
+
+162
+00:06:16,180 --> 00:06:19,340
+And I'm still frankly
+struggling with the
+
+163
+00:06:19,340 --> 00:06:21,530
+intuition behind it.
+
+164
+00:06:21,530 --> 00:06:24,510
+Well I have the intuition, but
+more of kind of rigorously
+
+165
+00:06:24,510 --> 00:06:26,950
+proving it to myself that
+this is definitely the case.
+
+166
+00:06:26,950 --> 00:06:28,280
+But think about this.
+
+167
+00:06:28,280 --> 00:06:29,905
+If I have a bunch of
+numbers, and I'll draw
+
+168
+00:06:29,905 --> 00:06:32,740
+a number line here.
+
+169
+00:06:32,740 --> 00:06:35,740
+If I draw a number line here--
+So let's say you know that--
+
+170
+00:06:35,740 --> 00:06:39,430
+And let's say I have a bunch
+of numbers in my population.
+
+171
+00:06:39,430 --> 00:06:41,660
+So let's say-- I'm just going
+to randomly put a bunch
+
+172
+00:06:41,660 --> 00:06:44,280
+numbers in my population.
+
+173
+00:06:44,280 --> 00:06:45,928
+And the ones to the right
+are bigger than the
+
+174
+00:06:45,928 --> 00:06:46,355
+ones to the left.
+
+175
+00:06:46,355 --> 00:06:48,900
+   
+
+176
+00:06:48,900 --> 00:06:52,990
+And if I were to take a sample
+of them, maybe I take--
+
+177
+00:06:52,990 --> 00:06:54,820
+The sample, it's random.
+
+178
+00:06:54,820 --> 00:06:56,210
+You actually want to
+take a random sample.
+
+179
+00:06:56,210 --> 00:06:57,320
+You don't want to be
+skewed in any way.
+
+180
+00:06:57,320 --> 00:07:02,900
+So maybe I take this one,
+this one, this one,
+
+181
+00:07:02,900 --> 00:07:05,420
+and that one, right?
+
+182
+00:07:05,420 --> 00:07:07,480
+And then if I were to take the
+mean of that number, that
+
+183
+00:07:07,480 --> 00:07:08,460
+number, that number,
+that number.
+
+184
+00:07:08,460 --> 00:07:09,320
+It will be someplace
+in the middle.
+
+185
+00:07:09,320 --> 00:07:11,010
+It might be someplace
+over there.
+
+186
+00:07:11,010 --> 00:07:13,240
+And then if I wanted to figure
+out the sample variance using
+
+187
+00:07:13,240 --> 00:07:16,780
+this formula, I'd say OK this
+distance squared plus this
+
+188
+00:07:16,780 --> 00:07:21,060
+distance squared plus this
+distance squared plus that
+
+189
+00:07:21,060 --> 00:07:23,520
+distance squared and
+average them all out.
+
+190
+00:07:23,520 --> 00:07:24,700
+And then I would
+get this number.
+
+191
+00:07:24,700 --> 00:07:27,820
+And that probably would be a
+pretty good approximation for
+
+192
+00:07:27,820 --> 00:07:30,260
+the variance of this
+entire population.
+
+193
+00:07:30,260 --> 00:07:32,070
+The population of the mean
+is probably going to
+
+194
+00:07:32,070 --> 00:07:33,030
+be-- I don't know.
+
+195
+00:07:33,030 --> 00:07:35,020
+It might be pretty
+close to this.
+
+196
+00:07:35,020 --> 00:07:37,150
+If we actually took all of the
+data points and averaged them,
+
+197
+00:07:37,150 --> 00:07:39,060
+maybe they're like
+here someplace.
+
+198
+00:07:39,060 --> 00:07:40,660
+And then if you figure out the
+variance, it probably would be
+
+199
+00:07:40,660 --> 00:07:43,590
+pretty close to the average of
+all of these lines, right?
+
+200
+00:07:43,590 --> 00:07:46,810
+All of the sample variance
+distances, right?
+
+201
+00:07:46,810 --> 00:07:47,250
+Fair enough.
+
+202
+00:07:47,250 --> 00:07:47,900
+So you say, hey Sal.
+
+203
+00:07:47,900 --> 00:07:49,710
+This looks pretty good now.
+
+204
+00:07:49,710 --> 00:07:51,940
+But there's one little catch.
+
+205
+00:07:51,940 --> 00:07:54,560
+What if-- There's always a
+probability that instead of
+
+206
+00:07:54,560 --> 00:07:56,990
+picking these kind of fairly
+well-distributed numbers in my
+
+207
+00:07:56,990 --> 00:08:00,800
+sample, what if I happen to
+pick this number, this number,
+
+208
+00:08:00,800 --> 00:08:03,920
+and that number as my-- and
+let's say that number
+
+209
+00:08:03,920 --> 00:08:05,400
+as my sample?
+
+210
+00:08:05,400 --> 00:08:08,370
+Well whatever your sample
+is, your sample mean is
+
+211
+00:08:08,370 --> 00:08:10,210
+always going to be in
+the middle of it, right?
+
+212
+00:08:10,210 --> 00:08:12,960
+So in this case, your sample
+mean might be right here.
+
+213
+00:08:12,960 --> 00:08:15,010
+So all of these numbers, you
+might say OK this number is not
+
+214
+00:08:15,010 --> 00:08:17,810
+too far from that number, that
+number's not too far, and then
+
+215
+00:08:17,810 --> 00:08:19,100
+that number's not too far.
+
+216
+00:08:19,100 --> 00:08:21,790
+So your sample variance, when
+you do it this way, might
+
+217
+00:08:21,790 --> 00:08:23,610
+turn out a little bit low.
+
+218
+00:08:23,610 --> 00:08:26,920
+Because all of these numbers,
+they're pretty-- they're,
+
+219
+00:08:26,920 --> 00:08:28,920
+almost by definition, going to
+be pretty close to the
+
+220
+00:08:28,920 --> 00:08:30,350
+mean of each other.
+
+221
+00:08:30,350 --> 00:08:34,600
+But in this case, your sample
+is kind of skewed and the
+
+222
+00:08:34,600 --> 00:08:37,980
+actual mean of the population
+is out here someplace.
+
+223
+00:08:37,980 --> 00:08:40,800
+So the actual variance of the
+sample, if you had actually
+
+224
+00:08:40,800 --> 00:08:43,670
+known the mean-- I know this
+is all a little confusing.
+
+225
+00:08:43,670 --> 00:08:44,980
+If you had actually known
+the mean, you would
+
+226
+00:08:44,980 --> 00:08:46,830
+have said oh wow.
+
+227
+00:08:46,830 --> 00:08:48,386
+You would have found these
+distances, which would
+
+228
+00:08:48,386 --> 00:08:51,320
+have been a lot more.
+
+229
+00:08:51,320 --> 00:08:53,640
+The whole point of what I'm
+saying is, when you take a
+
+230
+00:08:53,640 --> 00:08:58,280
+sample, there's some chance
+that your sample mean is pretty
+
+231
+00:08:58,280 --> 00:09:00,380
+close to the population
+mean, right?
+
+232
+00:09:00,380 --> 00:09:02,610
+Maybe your sample mean is
+here and your population
+
+233
+00:09:02,610 --> 00:09:03,360
+mean is here.
+
+234
+00:09:03,360 --> 00:09:05,770
+And then this formula will
+probably work out pretty well,
+
+235
+00:09:05,770 --> 00:09:07,770
+at least given your sample data
+points and figuring out
+
+236
+00:09:07,770 --> 00:09:09,280
+what the variance is.
+
+237
+00:09:09,280 --> 00:09:14,240
+But there's a reasonable chance
+that your sample mean-- Your
+
+238
+00:09:14,240 --> 00:09:16,730
+sample is always going to be
+within your data sample, right?
+
+239
+00:09:16,730 --> 00:09:18,740
+It's always going to be the
+center of your data sample.
+
+240
+00:09:18,740 --> 00:09:21,470
+But it's completely possible
+that the population mean is
+
+241
+00:09:21,470 --> 00:09:22,590
+outside of your data sample.
+
+242
+00:09:22,590 --> 00:09:24,750
+It might have just been you
+just happen to pick ones
+
+243
+00:09:24,750 --> 00:09:28,110
+that don't contain the
+actual population mean.
+
+244
+00:09:28,110 --> 00:09:31,670
+And then this sample variance
+calculated this way will
+
+245
+00:09:31,670 --> 00:09:34,990
+actually underestimate the
+actual population
+
+246
+00:09:34,990 --> 00:09:36,240
+variance, right?
+
+247
+00:09:36,240 --> 00:09:38,230
+Because they're always going to
+be closer to their own mean
+
+248
+00:09:38,230 --> 00:09:39,960
+than they are to the
+population mean.
+
+249
+00:09:39,960 --> 00:09:43,460
+And if you're understanding,
+frankly, even like 10%
+
+250
+00:09:43,460 --> 00:09:45,770
+of this, you are a very
+advanced statistics student.
+
+251
+00:09:45,770 --> 00:09:49,120
+But I'm saying all of this to
+just give you, hopefully, some
+
+252
+00:09:49,120 --> 00:09:53,500
+intuition to realize that this
+will often underestimate.
+
+253
+00:09:53,500 --> 00:09:57,240
+This formula will often
+underestimate the actual
+
+254
+00:09:57,240 --> 00:09:59,110
+population variance.
+
+255
+00:09:59,110 --> 00:10:01,420
+And there's a formula, and
+this is actually proven more
+
+256
+00:10:01,420 --> 00:10:04,740
+rigorously than I will do it,
+that is considered to be a
+
+257
+00:10:04,740 --> 00:10:08,000
+better, or they'll call it an
+unbiased, estimate of the
+
+258
+00:10:08,000 --> 00:10:09,030
+population variance.
+
+259
+00:10:09,030 --> 00:10:11,390
+Or the unbiased
+sample variance.
+
+260
+00:10:11,390 --> 00:10:14,160
+And sometimes it's just denoted
+by the s squared again.
+
+261
+00:10:14,160 --> 00:10:18,930
+Sometimes it's denoted by
+this s n minus 1 squared.
+
+262
+00:10:18,930 --> 00:10:20,720
+And I'll show you why.
+
+263
+00:10:20,720 --> 00:10:22,340
+It's almost the same thing.
+
+264
+00:10:22,340 --> 00:10:24,730
+You take each of the data
+points, figure out how far they
+
+265
+00:10:24,730 --> 00:10:28,170
+are from the sample mean.
+
+266
+00:10:28,170 --> 00:10:28,900
+You square them.
+
+267
+00:10:28,900 --> 00:10:31,830
+And then you take the average
+of those squared, except
+
+268
+00:10:31,830 --> 00:10:33,430
+for one slight difference.
+
+269
+00:10:33,430 --> 00:10:35,720
+i equals 1 to i equals n.
+
+270
+00:10:35,720 --> 00:10:39,370
+Instead of dividing by n,
+you divide by a slightly
+
+271
+00:10:39,370 --> 00:10:41,920
+smaller number.
+
+272
+00:10:41,920 --> 00:10:44,350
+You divide by n minus 1.
+
+273
+00:10:44,350 --> 00:10:46,880
+So when you divide my n minus
+1 instead of dividing by
+
+274
+00:10:46,880 --> 00:10:49,590
+n, you're going to get a
+slightly larger number here.
+
+275
+00:10:49,590 --> 00:10:51,060
+And it turns out that
+this is actually a
+
+276
+00:10:51,060 --> 00:10:52,260
+much better estimate.
+
+277
+00:10:52,260 --> 00:10:54,810
+And one day I'm going to write
+a computer program to at least
+
+278
+00:10:54,810 --> 00:10:57,430
+prove it to myself
+experimentally that this is a
+
+279
+00:10:57,430 --> 00:11:01,750
+better estimate of the
+population variance.
+
+280
+00:11:01,750 --> 00:11:03,430
+And you would calculate
+it the same way.
+
+281
+00:11:03,430 --> 00:11:05,270
+You just divide by n minus 1.
+
+282
+00:11:05,270 --> 00:11:07,450
+The other way to think about
+it-- And actually, no.
+
+283
+00:11:07,450 --> 00:11:08,340
+I'm all out of time.
+
+284
+00:11:08,340 --> 00:11:09,500
+I'll leave you there now.
+
+285
+00:11:09,500 --> 00:11:10,710
+And then in the next video,
+we'll do a couple of
+
+286
+00:11:10,710 --> 00:11:12,590
+calculations just so you
+don't get too overwhelmed
+
+287
+00:11:12,590 --> 00:11:13,270
+with these ideas.
+
+288
+00:11:13,270 --> 00:11:14,810
+Because we're getting a
+little bit abstract.
+
+289
+00:11:14,810 --> 00:11:16,660
+See you in the next video.
+
+290
+00:11:16,660 --> 00:11:17,000
+

@@ -1,0 +1,151 @@
+1
+00:00:01,333 --> 00:00:05,133
+A thermometer in a science lab displays the temperature in both Celsius and Fahrenheit.
+
+2
+00:00:05,133 --> 00:00:08,733
+If the mercury in the thermometer rises to 56 degrees Fahrenheit,
+
+3
+00:00:08,733 --> 00:00:13,344
+what is the corresponding Celsius termperature?
+
+4
+00:00:14,267 --> 00:00:18,800
+And then they give us the two formulas - if we know the Celsius temperature, how do we figure out
+
+5
+00:00:18,800 --> 00:00:23,667
+the Fahrenheit temperature, or if we know the Fahrenheit temperature how do we figure out the Celsius temperature.
+
+6
+00:00:23,667 --> 00:00:27,667
+And these are actually derived from each other, and you'll learn more about that when you do algebra,
+
+7
+00:00:27,667 --> 00:00:32,133
+and we also - maybe in another video - will explain how you do derive them,
+
+8
+00:00:32,133 --> 00:00:34,400
+and this is kind of interesting, involves a little bit of algebra.
+
+9
+00:00:34,400 --> 00:00:37,333
+But they gave us the formula, so they really just want us to apply it,
+
+10
+00:00:37,333 --> 00:00:40,333
+and, maybe, make sure we understand which one we should apply.
+
+11
+00:00:40,333 --> 00:00:45,600
+Well, they're giving us the Fahrenheit temperature here, so F is equal to 56,
+
+12
+00:00:45,600 --> 00:00:50,467
+and they're asking us for the Celsius temperature, so we need to figure out what the Celsius temperature is.
+
+13
+00:00:51,667 --> 00:00:55,333
+Well, in this one over here, if you know the Fahrenheit temperature
+
+14
+00:00:55,333 --> 00:00:57,333
+you can solve for the Celsius termperature.
+
+15
+00:00:57,333 --> 00:00:58,733
+So let's use this, right over here.
+
+16
+00:00:58,733 --> 00:01:04,933
+Our Celsius temperature is going to be (5 / 9) times the Fahrenheit temperature.
+
+17
+00:01:04,933 --> 00:01:11,267
+- the Fahrenheit temperature is 56 degrees Fahrenheit - minus 32.
+
+18
+00:01:13,452 --> 00:01:18,041
+Well 56 minus 32 is 24, so this is going to be equal to
+
+19
+00:01:18,718 --> 00:01:24,975
+(5 / 9) times 24, and this is the same thing as
+
+20
+00:01:25,267 --> 00:01:29,400
+5 times 24, all over 9.
+
+21
+00:01:29,400 --> 00:01:33,400
+And before multiplying out 5 times 24 we can divide
+
+22
+00:01:33,400 --> 00:01:37,267
+the numerator and the denominator by 3, so lets do that.
+
+23
+00:01:37,267 --> 00:01:41,267
+If we divide the numerator and denominator by 3 we're not changing the value.
+
+24
+00:01:41,267 --> 00:01:45,600
+24 divided by 3 is 8, 9 divided by 3 is 3.
+
+25
+00:01:45,600 --> 00:01:51,067
+So it becomes 5 times 8, which is 40, over 3, degrees.
+
+26
+00:01:51,067 --> 00:01:56,067
+And if we want to write this as a number which makes a little bit more sense,
+
+27
+00:01:56,067 --> 00:02:01,867
+in terms of temperature, lets divide 3 into 40 to get the number of degrees we have.
+
+28
+00:02:01,867 --> 00:02:09,467
+3 goes into 4 one time, with a remainder of 1, carry the 1 down and bring down the zero.
+
+29
+00:02:09,467 --> 00:02:14,600
+3 goes into 10 three times, with a remainder of 1, carry the 1 again,
+
+30
+00:02:14,600 --> 00:02:19,933
+then you could bring down another zero - we now have a decimal point over here.
+
+31
+00:02:19,933 --> 00:02:25,467
+3 goes into ten 3 times, so this 3 is going to repeat forever.
+
+32
+00:02:25,467 --> 00:02:30,333
+So you could view this as equal 13.333... -
+
+33
+00:02:30,333 --> 00:02:34,667
+it'll just keep repeating, this line on top means repeating - degrees Celsius.
+
+34
+00:02:34,667 --> 00:02:38,133
+Or, you could say that 3 goes into 40
+
+35
+00:02:38,133 --> 00:02:42,467
+13 times with a remainder of 1.
+
+36
+00:02:42,467 --> 00:02:47,800
+So you could say that this is also equal to 13, remainder 1.
+
+37
+00:02:47,800 --> 00:02:51,467
+So 13 and one third degrees Celsius.
+
+38
+00:02:51,467 --> 00:02:57,267
+Either way it works, but that's our Celsius temperature when our Fahrenheit temperature is 56 degrees.

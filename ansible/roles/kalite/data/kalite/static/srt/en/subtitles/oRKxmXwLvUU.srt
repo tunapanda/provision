@@ -1,0 +1,951 @@
+1
+00:00:00,856 --> 00:00:03,395
+Now that we know a little bit about vectors and scalars ...
+
+2
+00:00:03,425 --> 00:00:07,225
+... let's try to apply what we know about them for some pretty common problems ...
+
+3
+00:00:07,256 --> 00:00:08,908
+... you'd have once in physics class ...
+
+4
+00:00:08,954 --> 00:00:11,200
+... but they are also common problems you would see in your everyday life ...
+
+5
+00:00:11,246 --> 00:00:13,031
+... because you're trying to figure out how far you have gone ...
+
+6
+00:00:13,092 --> 00:00:17,200
+... or how fast you are going or how long it might take you to get to some place.
+
+7
+00:00:17,277 --> 00:00:24,431
+So first I have: If Shantanu was able to travel 5 kilometer north in 1 hour ...
+
+8
+00:00:24,492 --> 00:00:28,292
+... in his car, what was his average velocity?
+
+9
+00:00:28,308 --> 00:00:32,559
+So let's just review a little bit about what we know about vectors and scalars.
+
+10
+00:00:32,575 --> 00:00:37,810
+So they are giving us that he was able to travel 5 kilometer to the north
+
+11
+00:00:37,871 --> 00:00:40,390
+So they gave us a magnitude ...
+
+12
+00:00:40,436 --> 00:00:45,677
+... that's the 5 kilometer ... that's the size of how far he moved.
+
+13
+00:00:45,708 --> 00:00:47,518
+And they also gave a direction.
+
+14
+00:00:47,548 --> 00:00:51,871
+So he moved a distance of 5 km. Distance is the scalar ...
+
+15
+00:00:51,933 --> 00:00:55,569
+... but if they give the direction too you get the displacement.
+
+16
+00:00:55,631 --> 00:00:57,592
+So, this right here is a vector quantity.
+
+17
+00:00:57,623 --> 00:01:00,990
+He was displaced 5 kilometers to the north.
+
+18
+00:01:01,159 --> 00:01:03,625
+And he did it in 1 hour in his car.
+
+19
+00:01:03,656 --> 00:01:06,002
+What was his average velocity?
+
+20
+00:01:06,033 --> 00:01:09,825
+So velocity ... and there is many ways you might see it defined.
+
+21
+00:01:09,856 --> 00:01:12,369
+But velocity - once again - is a vector quantity.
+
+22
+00:01:12,523 --> 00:01:16,092
+And the way that we differentiate between vector and scalar quantities ...
+
+23
+00:01:16,138 --> 00:01:18,885
+... is that we put little arrows on top of vector quantities.
+
+24
+00:01:19,050 --> 00:01:22,000
+Normally they are bolded ... you can have a type face ...
+
+25
+00:01:22,015 --> 00:01:23,623
+... and they have an arrow on the top of it.
+
+26
+00:01:23,638 --> 00:01:24,230
+But this tells you ...
+
+27
+00:01:24,245 --> 00:01:28,652
+... that not only do I care about the value of this thing or I care about the size of this thing ...
+
+28
+00:01:28,698 --> 00:01:30,877
+... I also care about its direction.
+
+29
+00:01:30,888 --> 00:01:35,369
+The arrow isn't a direction ... it just tells you that it is a vector quantity.
+
+30
+00:01:35,862 --> 00:01:41,508
+So the velocity of something is its change in position, ...
+
+31
+00:01:41,554 --> 00:01:44,575
+... including the direction of its change in postition.
+
+32
+00:01:44,621 --> 00:01:49,323
+So you can say its displacement ...
+
+33
+00:01:49,338 --> 00:01:52,657
+... and the letter for displacement is "s" ...
+
+34
+00:01:52,703 --> 00:01:54,252
+... and that its a vector quantity.
+
+35
+00:01:54,298 --> 00:01:56,031
+So that is displacement.
+
+36
+00:01:56,046 --> 00:01:57,323
+And you might be wondering: ...
+
+37
+00:01:57,338 --> 00:02:01,146
+... why dont they use "d" for displacement?
+
+38
+00:02:01,177 --> 00:02:03,954
+That seems like a much more natural first letter.
+
+39
+00:02:03,985 --> 00:02:05,610
+And my best sense of that is ...
+
+40
+00:02:05,656 --> 00:02:07,356
+... once you start doing calculus, ...
+
+41
+00:02:07,402 --> 00:02:10,006
+... you start using "d" for something very different ...
+
+42
+00:02:10,021 --> 00:02:11,556
+... you use it for the derivative operator.
+
+43
+00:02:11,587 --> 00:02:14,231
+And that's so that the "d"s don't get confused ...
+
+44
+00:02:14,277 --> 00:02:16,505
+... and thats why we use "s" for displacement.
+
+45
+00:02:16,536 --> 00:02:18,456
+If someone has a better explanation of that ...
+
+46
+00:02:18,518 --> 00:02:22,195
+... feel free to comment on this video ...
+
+47
+00:02:22,210 --> 00:02:25,495
+... and i'll add another video explaining that better explanation.
+
+48
+00:02:25,568 --> 00:02:32,329
+So velocity is your displacement over time.
+
+49
+00:02:32,405 --> 00:02:36,895
+If i wanted to write an analogous thing for the scalar quantities ...
+
+50
+00:02:36,941 --> 00:02:39,802
+... I could write that speed ...
+
+51
+00:02:39,864 --> 00:02:43,187
+... and I'll write out the words, so you don't get confused with displacement ...
+
+52
+00:02:43,233 --> 00:02:44,864
+... or maybe I will write rate.
+
+53
+00:02:44,910 --> 00:02:48,295
+Rate is another way that - sometimes - people write speed.
+
+54
+00:02:48,325 --> 00:02:49,664
+So this is the vector version ...
+
+55
+00:02:49,679 --> 00:02:50,743
+... if you care about direction.
+
+56
+00:02:50,790 --> 00:02:52,269
+If you don't care about direction ...
+
+57
+00:02:52,285 --> 00:02:53,977
+... you would have your rate.
+
+58
+00:02:54,500 --> 00:02:58,192
+So this is rate ... or speed ...
+
+59
+00:02:59,023 --> 00:03:01,531
+... is equal to the distance that you travel ...
+
+60
+00:03:02,254 --> 00:03:03,833
+... the distance that you travel ...
+
+61
+00:03:03,879 --> 00:03:06,336
+... over some time.
+
+62
+00:03:06,382 --> 00:03:07,682
+So these two ...
+
+63
+00:03:07,713 --> 00:03:08,782
+... you could call them formulas ...
+
+64
+00:03:08,813 --> 00:03:10,109
+... or you can call them definitions ...
+
+65
+00:03:10,140 --> 00:03:12,880
+... although I would think they are pretty intuitive for you.
+
+66
+00:03:12,896 --> 00:03:14,027
+How fast something is going ...
+
+67
+00:03:14,042 --> 00:03:16,975
+... you say how far did it go over some period of time.
+
+68
+00:03:17,021 --> 00:03:18,752
+These are essentially saying the same thing.
+
+69
+00:03:18,767 --> 00:03:20,729
+This is when you care about directions ...
+
+70
+00:03:20,759 --> 00:03:22,305
+... so you're dealing with vector quantities.
+
+71
+00:03:22,352 --> 00:03:25,236
+This is where you're not so conscientious about directon ...
+
+72
+00:03:25,252 --> 00:03:27,275
+... and so you use distance, which is scalar ...
+
+73
+00:03:27,321 --> 00:03:29,205
+... and you use rate or speed, which is scalar.
+
+74
+00:03:29,221 --> 00:03:31,921
+And here you use displacement and you use velocity.
+
+75
+00:03:32,013 --> 00:03:33,190
+Now with that out of the way ...
+
+76
+00:03:33,190 --> 00:03:36,059
+... let's figure out what his average velocity was.
+
+77
+00:03:36,075 --> 00:03:39,098
+And this key word average is interesting.
+
+78
+00:03:39,390 --> 00:03:41,705
+Because it's possible that his velocity was changing ...
+
+79
+00:03:41,767 --> 00:03:43,575
+... over that whole time period.
+
+80
+00:03:43,605 --> 00:03:45,059
+But for the sake of simplicity ...
+
+81
+00:03:45,075 --> 00:03:45,886
+... we're going to assume ...
+
+82
+00:03:45,902 --> 00:03:47,313
+... that it was kind of a constant velocity ...
+
+83
+00:03:47,359 --> 00:03:50,475
+... or what we are calculating is going to be his average velocity.
+
+84
+00:03:50,521 --> 00:03:51,421
+But don't worry about it.
+
+85
+00:03:51,452 --> 00:03:54,675
+You can just assume that it wasn't changing over that time period.
+
+86
+00:03:54,721 --> 00:03:58,436
+So, his velocity ... is ...
+
+87
+00:03:58,452 --> 00:04:01,875
+... his displacement was 5 kilometers to the north ...
+
+88
+00:04:01,905 --> 00:04:07,129
+So his displacement ... The displacement was 5 kilometers ...
+
+89
+00:04:07,159 --> 00:04:08,659
+I'll write just a big capital.
+
+90
+00:04:08,721 --> 00:04:09,729
+Well, let me just write it out ...
+
+91
+00:04:09,775 --> 00:04:11,752
+... 5 kilometers north.
+
+92
+00:04:12,752 --> 00:04:17,036
+Over the amount of time it took him.
+
+93
+00:04:17,082 --> 00:04:17,905
+And let me make it clear ...
+
+94
+00:04:17,952 --> 00:04:21,990
+... this is change in time.
+
+95
+00:04:22,067 --> 00:04:23,382
+Sometimes ...
+
+96
+00:04:23,413 --> 00:04:25,467
+... - this is also a change in time - ...
+
+97
+00:04:25,482 --> 00:04:27,475
+... sometimes you'll just see a "t" written there.
+
+98
+00:04:27,490 --> 00:04:31,298
+Sometimes you'll see someone actually put this little triangle ...
+
+99
+00:04:31,329 --> 00:04:32,244
+... the character "delta" ...
+
+100
+00:04:32,290 --> 00:04:33,159
+... in front of it.
+
+101
+00:04:33,190 --> 00:04:35,459
+Which expicitly means "change in".
+
+102
+00:04:35,475 --> 00:04:38,021
+It looks like a very fancy mathematics when you see that.
+
+103
+00:04:38,129 --> 00:04:43,336
+But a triangle in front of something litterally means "change in".
+
+104
+00:04:43,382 --> 00:04:44,821
+So this is change in time.
+
+105
+00:04:44,867 --> 00:04:46,829
+So he goes 5 kilometers north ...
+
+106
+00:04:46,875 --> 00:04:48,359
+... and it took him 1 hour.
+
+107
+00:04:48,390 --> 00:04:51,321
+So the change in time was 1 hour.
+
+108
+00:04:51,367 --> 00:04:53,082
+So let me write that over here.
+
+109
+00:04:53,082 --> 00:04:55,459
+... so over 1 hour ....
+
+110
+00:04:55,998 --> 00:04:57,621
+So this is equal to ...
+
+111
+00:04:57,652 --> 00:05:00,921
+... if you just look at the numerical part of it ....
+
+112
+00:05:00,982 --> 00:05:03,436
+... it is 5 over 1 ...
+
+113
+00:05:03,498 --> 00:05:06,382
+... let me just write it out ... 5 over 1 ...
+
+114
+00:05:06,998 --> 00:05:07,821
+... kilometers ...
+
+115
+00:05:07,882 --> 00:05:11,629
+... and you can treat the units the same way you would treat the quantities in a fraction.
+
+116
+00:05:11,705 --> 00:05:21,021
+5 over 1 kilometers per hour.
+
+117
+00:05:21,144 --> 00:05:25,475
+And then ... to the north.
+
+118
+00:05:25,967 --> 00:05:27,944
+Or you could say this is the same thing as ...
+
+119
+00:05:28,005 --> 00:05:30,829
+... 5 kilometers per hour north.
+
+120
+00:05:31,059 --> 00:05:43,467
+So this is 5 kilometers per hour to the north.
+
+121
+00:05:43,944 --> 00:05:45,952
+So that's his average velocity!
+
+122
+00:05:46,013 --> 00:05:47,621
+5 kilometers per hour ...
+
+123
+00:05:47,652 --> 00:05:48,767
+... and you have to be careful ...
+
+124
+00:05:48,798 --> 00:05:51,021
+... you have to say to the north if you want velocity.
+
+125
+00:05:51,079 --> 00:05:52,675
+If someone just said 5 kilometers per hour ...
+
+126
+00:05:52,705 --> 00:05:54,366
+... they're giving you a speed ...
+
+127
+00:05:54,397 --> 00:05:55,170
+... or rate ...
+
+128
+00:05:55,216 --> 00:05:56,331
+... or scalar quantity.
+
+129
+00:05:56,362 --> 00:06:00,308
+You have to give the direction for it to be a vector quantity.
+
+130
+00:06:00,339 --> 00:06:01,901
+You could do the same thing if someone just said: ...
+
+131
+00:06:01,962 --> 00:06:04,708
+... what was his average speed over that time?
+
+132
+00:06:04,754 --> 00:06:05,962
+You could have said:
+
+133
+00:06:06,024 --> 00:06:10,831
+Well, his average speed or his rate would be the distance he travels ....
+
+134
+00:06:10,862 --> 00:06:13,485
+... we don't care about the direction now ...
+
+135
+00:06:13,562 --> 00:06:15,262
+... it's 5 kilometers ...
+
+136
+00:06:15,385 --> 00:06:17,716
+... and he does it in 1 hour.
+
+137
+00:06:17,747 --> 00:06:21,201
+His change in time is 1 hour.
+
+138
+00:06:21,370 --> 00:06:28,147
+So this is same thing as 5 kilometers per hour.
+
+139
+00:06:28,208 --> 00:06:28,985
+So once again:
+
+140
+00:06:29,016 --> 00:06:31,162
+We're only giving the magnitude here.
+
+141
+00:06:31,208 --> 00:06:32,739
+This is a scalar quantitiy.
+
+142
+00:06:32,785 --> 00:06:36,008
+If you want the vector you have to do the "north" as well.
+
+143
+00:06:36,039 --> 00:06:36,847
+Now you might be saying:
+
+144
+00:06:36,878 --> 00:06:38,608
+Hey, in the previous video ...
+
+145
+00:06:38,624 --> 00:06:41,062
+... we talked about things in the term of meters per second.
+
+146
+00:06:41,124 --> 00:06:43,547
+Here I gave you kilometers ...
+
+147
+00:06:43,608 --> 00:06:46,262
+... or kilometers depending on how you want to pronounce it ...
+
+148
+00:06:46,324 --> 00:06:47,793
+... kilometers per hour.
+
+149
+00:06:47,854 --> 00:06:49,447
+What if someone want it in meters per second ...
+
+150
+00:06:49,524 --> 00:06:53,547
+... or what if I just wanted to understand how many meters he travels in a second?
+
+151
+00:06:53,593 --> 00:06:56,401
+And there it just becomes a unit conversion problem.
+
+152
+00:06:56,447 --> 00:06:59,070
+And I figure it does not to hurt to work on that right now.
+
+153
+00:06:59,101 --> 00:07:01,124
+So if we wanted to do this to meters per second.
+
+154
+00:07:01,170 --> 00:07:02,670
+How would we do it?
+
+155
+00:07:02,731 --> 00:07:07,262
+Well, a first step is to think about how many meters we are traveling in an hour.
+
+156
+00:07:07,385 --> 00:07:09,804
+So let's take that 5 kilometers per hour ...
+
+157
+00:07:09,851 --> 00:07:14,504
+... and we want to convert it to meters.
+
+158
+00:07:14,581 --> 00:07:17,097
+So, I put meters in the numerator ...
+
+159
+00:07:17,128 --> 00:07:18,704
+... and I put kilometers in the denominator.
+
+160
+00:07:18,766 --> 00:07:19,651
+And the reason why I do that ...
+
+161
+00:07:19,697 --> 00:07:22,551
+... is because the kilometers will cancel out with the kilometers.
+
+162
+00:07:22,612 --> 00:07:25,051
+And how many meters are there per kilometer?
+
+163
+00:07:25,112 --> 00:07:29,381
+Well, there's 1000 meters for every one kilometer.
+
+164
+00:07:29,412 --> 00:07:31,928
+1000 meters for every one kilometer
+
+165
+00:07:31,943 --> 00:07:35,889
+And I set this up right here, so that the kilometers cancel out.
+
+166
+00:07:35,935 --> 00:07:37,774
+So these two characters cancel out.
+
+167
+00:07:37,835 --> 00:07:41,889
+And if you multiply you get 5 ...
+
+168
+00:07:41,935 --> 00:07:44,666
+... and then the only unit you have in ...
+
+169
+00:07:44,728 --> 00:07:46,981
+... oh, I should say 5000 ...
+
+170
+00:07:47,012 --> 00:07:49,297
+... so you have 5 times 1000 ....
+
+171
+00:07:49,343 --> 00:07:51,120
+... so this is ... so let me write this ...
+
+172
+00:07:51,166 --> 00:07:53,681
+... 5 times ... I'll do it in the same color ....
+
+173
+00:07:53,697 --> 00:07:56,504
+... 5 times 1000, so I just multiplied the numbers.
+
+174
+00:07:56,535 --> 00:07:59,343
+When you multiply something you can switch around the order.
+
+175
+00:07:59,358 --> 00:08:01,181
+Multiplication is communitativ ...
+
+176
+00:08:01,212 --> 00:08:03,466
+... I always have trouble pronouncing that in associative ...
+
+177
+00:08:03,497 --> 00:08:05,012
+... and then in the units ...
+
+178
+00:08:05,058 --> 00:08:07,097
+... in the numerator you have meters ...
+
+179
+00:08:07,143 --> 00:08:11,028
+... and in the denominator you have hours.
+
+180
+00:08:11,074 --> 00:08:13,666
+Meters per hour.
+
+181
+00:08:13,712 --> 00:08:23,012
+And so this is equal to 5000 meters per hour.
+
+182
+00:08:23,043 --> 00:08:23,635
+And you might say:
+
+183
+00:08:23,666 --> 00:08:25,070
+Hey Sal, you know, ... I could have ... you know, ...
+
+184
+00:08:25,093 --> 00:08:28,193
+... I know that 5 kilometers is the same thing as 5000 meters.
+
+185
+00:08:28,224 --> 00:08:29,924
+I could do that in my head.
+
+186
+00:08:30,031 --> 00:08:31,362
+And you probably could.
+
+187
+00:08:31,408 --> 00:08:33,320
+But this canceling out dimension ...
+
+188
+00:08:33,351 --> 00:08:35,881
+... or what it is often called "dimensional analysis" right here ...
+
+189
+00:08:35,912 --> 00:08:38,916
+... can get useful once you started doing really, really complicated things ...
+
+190
+00:08:38,978 --> 00:08:41,724
+... with less intuitiv units than something like this.
+
+191
+00:08:41,754 --> 00:08:45,039
+But you should always do an intuitiv gut check, right here.
+
+192
+00:08:45,085 --> 00:08:48,970
+You know that, if you do 5 kilometers in an hour that's a ton of meters, right?
+
+193
+00:08:49,001 --> 00:08:52,516
+So you should get a larger number if you're talking about meters per hour.
+
+194
+00:08:52,962 --> 00:08:54,985
+And now, when we want to go to seconds ...
+
+195
+00:08:55,016 --> 00:08:56,562
+... let's do an intuitiv gut check.
+
+196
+00:08:56,593 --> 00:08:59,708
+If something is traveling a certian amount an hour, ...
+
+197
+00:08:59,724 --> 00:09:02,439
+... it should travel a much smaller amount in a second ...
+
+198
+00:09:02,454 --> 00:09:05,185
+... or, you know, 1/3600 of an hour ...
+
+199
+00:09:05,201 --> 00:09:08,454
+... because that's how many seconds there are in an hour.
+
+200
+00:09:08,501 --> 00:09:11,247
+So that's your gut check. We should get a smaller number than this ....
+
+201
+00:09:11,278 --> 00:09:13,501
+... when we want to say meters per second.
+
+202
+00:09:13,578 --> 00:09:15,724
+But let's actually do it with dimensional analysis.
+
+203
+00:09:16,001 --> 00:09:20,439
+So we want to cancel out the hours and we want to be left with seconds in the denominator.
+
+204
+00:09:20,485 --> 00:09:23,031
+So the best way to cancel this hours in the denominator ...
+
+205
+00:09:23,062 --> 00:09:27,654
+... is by having hours in the numerator.
+
+206
+00:09:27,701 --> 00:09:31,693
+So you have hours per seconds.
+
+207
+00:09:32,170 --> 00:09:34,239
+So, how many hours are there per second?
+
+208
+00:09:34,285 --> 00:09:35,631
+Or another way to think about it: ...
+
+209
+00:09:35,678 --> 00:09:37,747
+... one hour - think about the larger unit - ...
+
+210
+00:09:37,793 --> 00:09:39,785
+... one hour is how many seconds?
+
+211
+00:09:39,801 --> 00:09:44,378
+Well, you have 60 seconds per minute ....
+
+212
+00:09:44,516 --> 00:09:48,847
+... times 60 minutes per second ...
+
+213
+00:09:48,908 --> 00:09:54,762
+... the minutes canc... oh Sorry! ... times 60 minutes per hour, I should say ...
+
+214
+00:09:54,793 --> 00:09:56,524
+... the minutes cancel out ....
+
+215
+00:09:56,539 --> 00:09:59,562
+...60 times 60 is 3600 ...
+
+216
+00:09:59,593 --> 00:10:03,878
+...seconds per hour.
+
+217
+00:10:04,216 --> 00:10:05,978
+Or if you flip it ...
+
+218
+00:10:06,054 --> 00:10:09,401
+... so you can say this is 3600 seconds for every 1 hour.
+
+219
+00:10:09,416 --> 00:10:10,978
+Or if you flip them, you would get ...
+
+220
+00:10:11,008 --> 00:10:16,524
+... 1 over 3600 hours - or hour - per second.
+
+221
+00:10:16,878 --> 00:10:18,670
+Or hours per second, depending on how you want to do it.
+
+222
+00:10:18,716 --> 00:10:25,154
+So one hour is the same thing as 3600 seconds.
+
+223
+00:10:25,170 --> 00:10:28,054
+And so now this hour cancels out with that hour ...
+
+224
+00:10:28,070 --> 00:10:32,662
+... and then you multiply or appropiatly divide the numbers right here.
+
+225
+00:10:32,678 --> 00:10:40,854
+And you get ... this is equal to 5000 over 3600 ...
+
+226
+00:10:40,901 --> 00:10:47,801
+... meters per ... all you have left in the denominator here is second ....
+
+227
+00:10:47,816 --> 00:10:50,670
+... meters per second.
+
+228
+00:10:50,701 --> 00:10:54,231
+And if we divide both, the numerator and the denominator ...
+
+229
+00:10:54,308 --> 00:10:57,747
+... I can do this by hand but just because this video is already getting a little bit long ...
+
+230
+00:10:57,778 --> 00:11:03,816
+... let me get my trusty calculator out ...
+
+231
+00:11:03,831 --> 00:11:05,578
+... just for the sake of time ...
+
+232
+00:11:05,608 --> 00:11:08,662
+... 5000 divided by 3600 ...
+
+233
+00:11:08,708 --> 00:11:11,870
+... which should be really the same thing as 50 divided by 36 ...
+
+234
+00:11:11,901 --> 00:11:18,754
+... that is 1.3 ... i'll just round it over here ... 1.39.
+
+235
+00:11:18,801 --> 00:11:33,408
+This is equal to 1.39 meters per second.
+
+236
+00:11:33,424 --> 00:11:35,708
+So Shantanu was traveling quite slow in his car.
+
+237
+00:11:35,724 --> 00:11:37,501
+And well, we knew that just by looking at this.
+
+238
+00:11:37,531 --> 00:11:43,939
+5 kilometers per hour, that's pretty much ... just like the car roll pretty slowly.

@@ -1,0 +1,1327 @@
+1
+00:00:00,333 --> 00:00:03,000
+Let's say I have some type of a block here
+
+2
+00:00:03,000 --> 00:00:05,800
+This block has a mass of 'm'
+
+3
+00:00:05,800 --> 00:00:10,067
+So the mass of this block is equal to 'm'
+
+4
+00:00:10,067 --> 00:00:14,067
+And it's sitting on this (you can view this as) an incline plane
+
+5
+00:00:14,067 --> 00:00:16,333
+or a ramp or some type of wedge
+
+6
+00:00:16,333 --> 00:00:19,867
+And we want to think about what might happen to this block
+
+7
+00:00:19,867 --> 00:00:23,133
+We'll start thinking about the different forces that might keep it in place
+
+8
+00:00:23,133 --> 00:00:25,194
+or not keep it in place
+
+9
+00:00:25,194 --> 00:00:27,191
+and all of the rest
+
+10
+00:00:27,191 --> 00:00:28,867
+So the one thing we do know is
+
+11
+00:00:28,867 --> 00:00:32,267
+if this whole setup is near the surface of the Earth
+
+12
+00:00:32,267 --> 00:00:35,267
+We'll assume that it is for the sake of this video
+
+13
+00:00:35,267 --> 00:00:38,067
+There will be the force of gravity
+
+14
+00:00:38,067 --> 00:00:41,933
+trying to bring or attract this mass
+
+15
+00:00:41,933 --> 00:00:44,200
+towards the center of the Earth
+
+16
+00:00:44,200 --> 00:00:45,467
+and vice versa the center of the Earth
+
+17
+00:00:45,467 --> 00:00:47,400
+towards this mass
+
+18
+00:00:47,400 --> 00:00:50,933
+So we're going to have some force gravity
+
+19
+00:00:50,933 --> 00:00:53,267
+Let me start at the center of this mass right over here
+
+20
+00:00:53,267 --> 00:00:57,267
+You're going to have the force of gravity
+
+21
+00:00:57,267 --> 00:01:00,267
+The force due to gravity is going to be equal to
+
+22
+00:01:00,267 --> 00:01:04,333
+the gravitational field near the surface of the Earth
+
+23
+00:01:04,333 --> 00:01:07,000
+we'll call that 'g'
+
+24
+00:01:07,000 --> 00:01:11,067
+'g' times the mass
+
+25
+00:01:11,067 --> 00:01:15,200
+Let me just write it as the mass times the gravitational field
+
+26
+00:01:15,200 --> 00:01:17,533
+near the surface of the Earth
+
+27
+00:01:17,533 --> 00:01:19,533
+and it's going to be downwards
+
+28
+00:01:19,533 --> 00:01:21,333
+we know that, or at least
+
+29
+00:01:21,333 --> 00:01:23,533
+towards the center of the Earth
+
+30
+00:01:23,533 --> 00:01:25,667
+Now what else is going to be happening here?
+
+31
+00:01:25,667 --> 00:01:27,330
+Well, it's a little bit confusing because
+
+32
+00:01:27,330 --> 00:01:31,267
+you can't say the normal force is acting directly against
+
+33
+00:01:31,267 --> 00:01:32,867
+this force over here
+
+34
+00:01:32,867 --> 00:01:35,533
+Because remember the normal force acts
+
+35
+00:01:35,533 --> 00:01:37,733
+perpendicular to a surface
+
+36
+00:01:37,733 --> 00:01:40,333
+So over here the surface is not perpendicular
+
+37
+00:01:40,333 --> 00:01:42,000
+to the force of gravity
+
+38
+00:01:42,000 --> 00:01:44,002
+So we have to think about it a little bit differently
+
+39
+00:01:44,002 --> 00:01:47,000
+than we would if this were sitting on level ground
+
+40
+00:01:47,000 --> 00:01:48,800
+The one thing that we can do
+
+41
+00:01:48,800 --> 00:01:50,333
+and frankly that we should do
+
+42
+00:01:50,333 --> 00:01:52,600
+is maybe we can break up this force
+
+43
+00:01:52,600 --> 00:01:54,200
+the force due to gravity
+
+44
+00:01:54,200 --> 00:01:56,267
+We can break it up into components
+
+45
+00:01:56,267 --> 00:01:59,333
+that are either perpendicular to the surface
+
+46
+00:01:59,333 --> 00:02:02,200
+or that are parallel to the surface
+
+47
+00:02:02,200 --> 00:02:03,867
+and then, we can use those to figure out
+
+48
+00:02:03,867 --> 00:02:05,267
+what's likely to happen
+
+49
+00:02:05,267 --> 00:02:08,733
+what are the potentially netting forces
+
+50
+00:02:08,733 --> 00:02:10,733
+or balancing forces over here
+
+51
+00:02:10,733 --> 00:02:12,702
+Let's see if we can do that
+
+52
+00:02:12,702 --> 00:02:15,133
+Let's see if we can break this force vector
+
+53
+00:02:15,133 --> 00:02:16,333
+the force due to gravity
+
+54
+00:02:16,333 --> 00:02:21,933
+into a component that is perpendicular to the surface
+
+55
+00:02:21,933 --> 00:02:23,848
+of this ramp
+
+56
+00:02:23,848 --> 00:02:26,000
+And also, another component that is parallel
+
+57
+00:02:26,000 --> 00:02:28,538
+to the surface of this ramp
+
+58
+00:02:28,538 --> 00:02:30,733
+I'll do that in a different color
+
+59
+00:02:30,733 --> 00:02:35,667
+That is parallel to the surface of this ramp
+
+60
+00:02:35,667 --> 00:02:37,467
+This is a little bit of unconventional notation
+
+61
+00:02:37,467 --> 00:02:39,800
+but we'll call this one over here
+
+62
+00:02:39,800 --> 00:02:43,133
+the force due to gravity that is
+
+63
+00:02:43,133 --> 00:02:45,733
+perpendicular to the ramp
+
+64
+00:02:45,733 --> 00:02:47,133
+with that little upside T
+
+65
+00:02:47,133 --> 00:02:48,333
+I'm saying it's perpendicular
+
+66
+00:02:48,333 --> 00:02:49,733
+Because it shows a line that is perpendicular
+
+67
+00:02:49,733 --> 00:02:52,267
+to this bottom line (this horizontal line)
+
+68
+00:02:52,267 --> 00:02:54,400
+And this blue thing over here
+
+69
+00:02:54,400 --> 00:02:56,533
+I'm going to call this the force
+
+70
+00:02:56,533 --> 00:02:58,492
+or the part of force
+
+71
+00:02:58,492 --> 00:02:59,867
+due to gravity
+
+72
+00:02:59,867 --> 00:03:01,800
+that is parallel
+
+73
+00:03:01,800 --> 00:03:04,000
+I'm just doing those two upward vertical bars
+
+74
+00:03:04,000 --> 00:03:06,867
+to show something that is parallel
+
+75
+00:03:06,867 --> 00:03:08,467
+to the surface
+
+76
+00:03:08,467 --> 00:03:09,800
+So this is the component of force that is
+
+77
+00:03:09,800 --> 00:03:10,667
+perpendicular
+
+78
+00:03:10,667 --> 00:03:12,867
+component of force that is parallel
+
+79
+00:03:12,867 --> 00:03:14,667
+So let's see if we can use a little bit of
+
+80
+00:03:14,667 --> 00:03:16,467
+geometry and trigonometry
+
+81
+00:03:16,467 --> 00:03:19,400
+given that this wedge is at a
+
+82
+00:03:19,400 --> 00:03:25,000
+theta degree incline relative to the horizontal
+
+83
+00:03:25,000 --> 00:03:27,067
+If you were to measure this angle right over here
+
+84
+00:03:27,067 --> 00:03:28,600
+you would get theta
+
+85
+00:03:28,600 --> 00:03:30,667
+So, in future videos we'll make it more concrete
+
+86
+00:03:30,667 --> 00:03:33,133
+like 30 degrees or 45 degrees or whatever
+
+87
+00:03:33,133 --> 00:03:34,733
+But let's just keep it general
+
+88
+00:03:34,733 --> 00:03:36,000
+if this is theta
+
+89
+00:03:36,000 --> 00:03:39,000
+let's figure out what these components of the
+
+90
+00:03:39,000 --> 00:03:42,067
+gravitational force are going to be
+
+91
+00:03:42,067 --> 00:03:44,400
+Well we can break out geometry over here
+
+92
+00:03:44,400 --> 00:03:48,933
+This, I'm assuming is a right angle
+
+93
+00:03:48,933 --> 00:03:50,467
+and so, if this is a right angle
+
+94
+00:03:50,467 --> 00:03:53,133
+we know that the sums of the angles in a triangle
+
+95
+00:03:53,133 --> 00:03:55,533
+will add up to 180
+
+96
+00:03:55,533 --> 00:03:59,600
+so, if this angle, this angle, and this 90 degrees
+
+97
+00:03:59,600 --> 00:04:01,733
+(Right angles are 90 degrees)
+
+98
+00:04:01,733 --> 00:04:03,786
+add up to 180
+
+99
+00:04:03,786 --> 00:04:05,365
+that means that this one and this one
+
+100
+00:04:05,365 --> 00:04:08,467
+need to add up to 90 degrees
+
+101
+00:04:08,467 --> 00:04:10,533
+or this is theta
+
+102
+00:04:10,533 --> 00:04:14,467
+this angle right over here is going to be
+
+103
+00:04:14,467 --> 00:04:17,207
+90 minus theta
+
+104
+00:04:17,207 --> 00:04:19,333
+Now, the other thing that you may or may not remember
+
+105
+00:04:19,333 --> 00:04:20,733
+from geometry class is
+
+106
+00:04:20,733 --> 00:04:24,333
+if I have two parallel lines here
+
+107
+00:04:24,333 --> 00:04:31,133
+I'm going to assume this line is parallel to this line
+
+108
+00:04:31,133 --> 00:04:34,133
+and then I have a transversal
+
+109
+00:04:34,133 --> 00:04:35,333
+So a let's say I have a line
+
+110
+00:04:35,333 --> 00:04:37,267
+that goes like this
+
+111
+00:04:37,267 --> 00:04:40,056
+We know from basic geometry that
+
+112
+00:04:40,056 --> 00:04:42,867
+this angle is going to be equal to this angle
+
+113
+00:04:42,867 --> 00:04:44,468
+It's comes from alternate interior angles
+
+114
+00:04:44,468 --> 00:04:47,254
+And, we prove it in the geometry module
+
+115
+00:04:47,254 --> 00:04:49,333
+or in the geometry videos
+
+116
+00:04:49,333 --> 00:04:50,412
+Hopefully, this makes a little bit of
+
+117
+00:04:50,412 --> 00:04:51,533
+intuitive sense
+
+118
+00:04:51,533 --> 00:04:52,533
+and we could even think about
+
+119
+00:04:52,533 --> 00:04:53,667
+how these angles would change as
+
+120
+00:04:53,667 --> 00:04:55,333
+the transversal changes and all of the rest
+
+121
+00:04:55,333 --> 00:04:56,733
+But, the parallel lines makes
+
+122
+00:04:56,733 --> 00:04:57,800
+this angle similar to that angle
+
+123
+00:04:57,800 --> 00:04:59,333
+or actually, makes it identical
+
+124
+00:04:59,333 --> 00:05:01,333
+it's congruent
+
+125
+00:05:01,333 --> 00:05:02,600
+this angle is going to be the same measure
+
+126
+00:05:02,600 --> 00:05:04,000
+as that angle
+
+127
+00:05:04,000 --> 00:05:07,641
+So can we apply that anywhere over here?
+
+128
+00:05:07,641 --> 00:05:10,333
+Well we have (and it's not obvious)
+
+129
+00:05:10,333 --> 00:05:12,610
+This line is perpendicular to the surface
+
+130
+00:05:12,610 --> 00:05:14,133
+of the Earth
+
+131
+00:05:14,133 --> 00:05:17,067
+right over here that I'm knid of shading in blue
+
+132
+00:05:17,067 --> 00:05:19,867
+and so is this force vector
+
+133
+00:05:19,867 --> 00:05:21,467
+it is also perpendicular to the surface of the Earth
+
+134
+00:05:21,467 --> 00:05:24,127
+So this line over here
+
+135
+00:05:24,127 --> 00:05:26,267
+and this line over here in magenta
+
+136
+00:05:26,267 --> 00:05:29,267
+are going to be parallel
+
+137
+00:05:29,267 --> 00:05:30,333
+(I can even draw that)
+
+138
+00:05:30,333 --> 00:05:33,267
+That line and that line are both parallel
+
+139
+00:05:33,267 --> 00:05:35,366
+When you look at it that way
+
+140
+00:05:35,366 --> 00:05:36,600
+you'll see that this big line over here
+
+141
+00:05:36,600 --> 00:05:38,570
+can be viewed as a transversal
+
+142
+00:05:38,570 --> 00:05:42,000
+Or you can have this angle and this angle
+
+143
+00:05:42,000 --> 00:05:43,933
+are going to be congruent
+
+144
+00:05:43,933 --> 00:05:46,533
+They're going to be alternate interior angles
+
+145
+00:05:46,533 --> 00:05:48,467
+So this angle and this angle
+
+146
+00:05:48,467 --> 00:05:50,133
+by the exact same idea here
+
+147
+00:05:50,133 --> 00:05:52,000
+it just looks a little more confusing here
+
+148
+00:05:52,000 --> 00:05:53,267
+because I have all sorts of things
+
+149
+00:05:53,267 --> 00:05:56,067
+But this line and this line are parallel
+
+150
+00:05:56,067 --> 00:05:58,267
+You can view this right over here as a
+
+151
+00:05:58,267 --> 00:05:59,467
+transversal
+
+152
+00:05:59,467 --> 00:06:01,667
+So this and this are congruent angles
+
+153
+00:06:01,667 --> 00:06:03,800
+So this is 90 minus theta degress
+
+154
+00:06:03,800 --> 00:06:07,067
+This too will be 90 minus theta degress
+
+155
+00:06:07,067 --> 00:06:11,267
+90 minus theta degrees
+
+156
+00:06:11,267 --> 00:06:14,933
+Now, given that can we figure out this angle
+
+157
+00:06:14,933 --> 00:06:16,867
+Well one thing, we're assuming that this
+
+158
+00:06:16,867 --> 00:06:18,800
+yellow force vector right here
+
+159
+00:06:18,800 --> 00:06:21,200
+We're assuming that it is perpendicular to the surface
+
+160
+00:06:21,200 --> 00:06:22,600
+of this plane
+
+161
+00:06:22,600 --> 00:06:24,667
+or perpendicular to the surface of this ramp
+
+162
+00:06:24,667 --> 00:06:26,533
+So that's perpendicular
+
+163
+00:06:26,533 --> 00:06:28,667
+This right here is 90 minus theta
+
+164
+00:06:28,667 --> 00:06:32,133
+So what is this angle right here
+
+165
+00:06:32,133 --> 00:06:33,800
+going to be equal to?
+
+166
+00:06:33,800 --> 00:06:35,733
+This angle (let me do it in green)
+
+167
+00:06:35,733 --> 00:06:38,533
+What is this angle up here going to be equal to?
+
+168
+00:06:38,533 --> 00:06:40,733
+So this angle plus 90 minus theta plus 90
+
+169
+00:06:40,733 --> 00:06:44,000
+must be equal to 180
+
+170
+00:06:44,000 --> 00:06:46,667
+or this angle plus 90 minus theta
+
+171
+00:06:46,667 --> 00:06:50,133
+(Let me write this down I don't
+
+172
+00:06:50,133 --> 00:06:52,267
+want to do too much by head)
+
+173
+00:06:52,267 --> 00:06:53,267
+So let's just call it x
+
+174
+00:06:53,267 --> 00:06:54,733
+So x plus 90 minus theta
+
+175
+00:06:54,733 --> 00:06:58,600
+plus this 90 degrees right over here
+
+176
+00:06:58,600 --> 00:07:02,200
+needs to be equal to 180 degrees
+
+177
+00:07:02,200 --> 00:07:04,667
+We can, let's see
+
+178
+00:07:04,667 --> 00:07:06,467
+We can subtract 180 degrees
+
+179
+00:07:06,467 --> 00:07:07,800
+from both sides
+
+180
+00:07:07,800 --> 00:07:09,200
+So if you subtract 90 twice
+
+181
+00:07:09,200 --> 00:07:10,733
+you're subtracting 180 degrees
+
+182
+00:07:10,733 --> 00:07:13,600
+you get x minus theta is equal to 0
+
+183
+00:07:13,600 --> 00:07:14,100
+or x is equal to theta
+
+184
+00:07:14,100 --> 00:07:18,133
+so whatever the inclination of the plane is
+
+185
+00:07:18,133 --> 00:07:19,400
+or of this ramp
+
+186
+00:07:19,400 --> 00:07:21,933
+that is also going to be this angle right over here
+
+187
+00:07:21,933 --> 00:07:23,600
+and the value to that is that
+
+188
+00:07:23,600 --> 00:07:26,333
+now we can use our basic trigonometry to
+
+189
+00:07:26,333 --> 00:07:30,200
+figure out this component and this component
+
+190
+00:07:30,200 --> 00:07:32,333
+of the force of gravity
+
+191
+00:07:32,333 --> 00:07:33,867
+and to see that a little bit clearer
+
+192
+00:07:33,867 --> 00:07:36,533
+let me shift this force vector down over here
+
+193
+00:07:36,533 --> 00:07:38,267
+the parallel component
+
+194
+00:07:38,267 --> 00:07:39,933
+let me shift it over here
+
+195
+00:07:39,933 --> 00:07:41,800
+and you can see the perpendicular component
+
+196
+00:07:41,800 --> 00:07:43,200
+plus the parallel component
+
+197
+00:07:43,200 --> 00:07:46,533
+is equal to the total force due to gravity
+
+198
+00:07:46,533 --> 00:07:47,933
+and you should also see that this is a right triangle
+
+199
+00:07:47,933 --> 00:07:51,067
+that I have set up over here
+
+200
+00:07:51,067 --> 00:07:52,933
+this is parallel to the plane
+
+201
+00:07:52,933 --> 00:07:55,000
+this is perpendicular to the plane
+
+202
+00:07:55,000 --> 00:07:57,067
+and so we can use basic trigonometry
+
+203
+00:07:57,067 --> 00:07:58,400
+to figure out the magnitudes
+
+204
+00:07:58,400 --> 00:08:00,333
+of the perpendicular force due to gravity and
+
+205
+00:08:00,333 --> 00:08:02,867
+the parallel force due to gravity
+
+206
+00:08:02,867 --> 00:08:04,000
+So the magnitude
+
+207
+00:08:04,000 --> 00:08:05,667
+(let's think about it a little bit)
+
+208
+00:08:05,667 --> 00:08:08,733
+the magnitude of the perpendicular force
+
+209
+00:08:08,733 --> 00:08:12,867
+due to gravity
+
+210
+00:08:12,867 --> 00:08:14,933
+I should say
+
+211
+00:08:14,933 --> 00:08:16,333
+the component of gravity that is
+
+212
+00:08:16,333 --> 00:08:19,800
+perpendicular to the ramp
+
+213
+00:08:19,800 --> 00:08:21,000
+the magnitude of that vector
+
+214
+00:08:21,000 --> 00:08:22,271
+A lot of fancy notation
+
+215
+00:08:22,271 --> 00:08:23,467
+but it's really just the length of
+
+216
+00:08:23,467 --> 00:08:25,057
+this vector right over here
+
+217
+00:08:25,057 --> 00:08:27,067
+so the magnitude of this
+
+218
+00:08:27,067 --> 00:08:29,133
+over the hypotenuse
+
+219
+00:08:29,133 --> 00:08:31,200
+of this right triangle
+
+220
+00:08:31,200 --> 00:08:33,200
+Well what is the hypotenuse of this right triangle
+
+221
+00:08:33,200 --> 00:08:34,533
+Well it's going to be the magnitude of the total
+
+222
+00:08:34,533 --> 00:08:39,933
+gravitational force
+
+223
+00:08:39,933 --> 00:08:42,067
+(I guess you can that)
+
+224
+00:08:42,067 --> 00:08:45,600
+So you can say that is 'mg'
+
+225
+00:08:45,600 --> 00:08:48,467
+We could write it like this
+
+226
+00:08:48,467 --> 00:08:50,067
+but that is really the
+
+227
+00:08:50,067 --> 00:08:51,933
+(Well I can write it like that)
+
+228
+00:08:51,933 --> 00:08:54,333
+And so this is going to be equal to what?
+
+229
+00:08:54,333 --> 00:08:54,833
+We have the
+
+230
+00:08:54,833 --> 00:08:59,733
+(if we're looking at this angle right here)
+
+231
+00:08:59,733 --> 00:09:01,933
+we have the adjacent over the hypotenuse
+
+232
+00:09:01,933 --> 00:09:03,800
+Remember
+
+233
+00:09:03,800 --> 00:09:05,867
+(Let's do this in a new color)
+
+234
+00:09:05,867 --> 00:09:08,333
+Soh Cah Toa
+
+235
+00:09:08,333 --> 00:09:11,067
+Cosine is adjacent over hypotenuse
+
+236
+00:09:11,067 --> 00:09:13,400
+So this is equal to cosine of the angle
+
+237
+00:09:13,400 --> 00:09:16,400
+so cosine of theta is equal to
+
+238
+00:09:16,400 --> 00:09:18,867
+the adjacent over the hypotenuse
+
+239
+00:09:18,867 --> 00:09:22,000
+so if you multiply both side by the magnitude
+
+240
+00:09:22,000 --> 00:09:24,267
+of the hypotenuse
+
+241
+00:09:24,267 --> 00:09:27,000
+you get the component of our vector
+
+242
+00:09:27,000 --> 00:09:28,733
+that is perpendicular to the surface
+
+243
+00:09:28,733 --> 00:09:31,000
+of the plane
+
+244
+00:09:31,000 --> 00:09:35,533
+is equal to the magnitude of the force due to gravity
+
+245
+00:09:35,533 --> 00:09:38,133
+the magnitude of the force due to gravity
+
+246
+00:09:38,133 --> 00:09:40,667
+times the cosine of theta
+
+247
+00:09:40,667 --> 00:09:43,733
+We'll apply this in the next video
+
+248
+00:09:43,733 --> 00:09:46,267
+just so you can make the numbers a little more concrete
+
+249
+00:09:46,267 --> 00:09:48,467
+sometimes just the notation makes it confusing
+
+250
+00:09:48,467 --> 00:09:50,533
+you'll see it's actually pretty straight forward
+
+251
+00:09:50,533 --> 00:09:53,133
+and then this second thing
+
+252
+00:09:53,133 --> 00:09:54,467
+we could use the same logic
+
+253
+00:09:54,467 --> 00:09:57,667
+we have, if we think about the parallel vector
+
+254
+00:09:57,667 --> 00:09:59,733
+right over here
+
+255
+00:09:59,733 --> 00:10:02,000
+the magniude of the force of the component
+
+256
+00:10:02,000 --> 00:10:04,333
+of the force due to gravity that is parallel to the plane
+
+257
+00:10:04,333 --> 00:10:07,867
+over the magnitude of the force due to gravity
+
+258
+00:10:07,867 --> 00:10:11,267
+which is the magnitude of 'mg'
+
+259
+00:10:11,267 --> 00:10:15,200
+that is going to be equal to what?
+
+260
+00:10:15,200 --> 00:10:18,733
+Well we have, this is the opposite side of the angle
+
+261
+00:10:18,733 --> 00:10:22,267
+and then, so then the blue is the opposite side
+
+262
+00:10:22,267 --> 00:10:23,533
+or at least its length
+
+263
+00:10:23,533 --> 00:10:25,200
+is the opposite side of the angle
+
+264
+00:10:25,200 --> 00:10:27,800
+and then right over here
+
+265
+00:10:27,800 --> 00:10:29,733
+this magnitude of 'mg'
+
+266
+00:10:29,733 --> 99:59:59,999
+that is the hypotenuse
+
+267
+99:59:59,999 --> 99:59:59,999
+and so you have the opposite over the hypotenuse
+
+268
+99:59:59,999 --> 99:59:59,999
+Opposite over hypotenuse
+
+269
+99:59:59,999 --> 99:59:59,999
+sine of an angle is opposite over hypotenuse
+
+270
+99:59:59,999 --> 99:59:59,999
+so this is going to be equal to the sine of theta
+
+271
+99:59:59,999 --> 99:59:59,999
+this is equal to the sine of theta
+
+272
+99:59:59,999 --> 99:59:59,999
+or you multiply both sides times
+
+273
+99:59:59,999 --> 99:59:59,999
+the magnitude of the force due to gravity
+
+274
+99:59:59,999 --> 99:59:59,999
+and you get the component of the force
+
+275
+99:59:59,999 --> 99:59:59,999
+due to gravity that is parallel
+
+276
+99:59:59,999 --> 99:59:59,999
+that is parallel to the ramp
+
+277
+99:59:59,999 --> 99:59:59,999
+is going to be the force due to gravity total
+
+278
+99:59:59,999 --> 99:59:59,999
+times sine of theta
+
+279
+99:59:59,999 --> 99:59:59,999
+(times sine of theta)
+
+280
+99:59:59,999 --> 99:59:59,999
+and hopefully you should see where this
+
+281
+99:59:59,999 --> 99:59:59,999
+came from
+
+282
+99:59:59,999 --> 99:59:59,999
+because if you ever have to derive this again
+
+283
+99:59:59,999 --> 99:59:59,999
+when you're 30 years after you took
+
+284
+99:59:59,999 --> 99:59:59,999
+a calculus or physics class
+
+285
+99:59:59,999 --> 99:59:59,999
+you should be able to do it
+
+286
+99:59:59,999 --> 99:59:59,999
+but if you know this right here
+
+287
+99:59:59,999 --> 99:59:59,999
+if you know this right here
+
+288
+99:59:59,999 --> 99:59:59,999
+and this right here
+
+289
+99:59:59,999 --> 99:59:59,999
+we can all of a sudden
+
+290
+99:59:59,999 --> 99:59:59,999
+start breaking down the forces
+
+291
+99:59:59,999 --> 99:59:59,999
+into things that are useful to us
+
+292
+99:59:59,999 --> 99:59:59,999
+because we could say
+
+293
+99:59:59,999 --> 99:59:59,999
+hey look this isn't moving down into this plane
+
+294
+99:59:59,999 --> 99:59:59,999
+so maybe there's some normal force
+
+295
+99:59:59,999 --> 99:59:59,999
+that's completely netting it out
+
+296
+99:59:59,999 --> 99:59:59,999
+in this example
+
+297
+99:59:59,999 --> 99:59:59,999
+and maybe if there's nothing to keep it up
+
+298
+99:59:59,999 --> 99:59:59,999
+if there's no friction
+
+299
+99:59:59,999 --> 99:59:59,999
+maybe this thing will start accelerating due to the
+
+300
+99:59:59,999 --> 99:59:59,999
+parallel force
+
+301
+99:59:59,999 --> 99:59:59,999
+and we'll a lot more about that
+
+302
+99:59:59,999 --> 99:59:59,999
+and if you ever forget these
+
+303
+99:59:59,999 --> 99:59:59,999
+think about them intuitively
+
+304
+99:59:59,999 --> 99:59:59,999
+you don't even need to go throught
+
+305
+99:59:59,999 --> 99:59:59,999
+this whole parallel line and transversal
+
+306
+99:59:59,999 --> 99:59:59,999
+and all that
+
+307
+99:59:59,999 --> 99:59:59,999
+if this angle went down to zero
+
+308
+99:59:59,999 --> 99:59:59,999
+then we'll be talking about
+
+309
+99:59:59,999 --> 99:59:59,999
+essentially a flat surface
+
+310
+99:59:59,999 --> 99:59:59,999
+there is no inclination there
+
+311
+99:59:59,999 --> 99:59:59,999
+and if this angle goes down to zero
+
+312
+99:59:59,999 --> 99:59:59,999
+then all of the force should be
+
+313
+99:59:59,999 --> 99:59:59,999
+acting perpendicular
+
+314
+99:59:59,999 --> 99:59:59,999
+to the surface of the plane
+
+315
+99:59:59,999 --> 99:59:59,999
+so if this went to zerop
+
+316
+99:59:59,999 --> 99:59:59,999
+the perpendicular force should be the same
+
+317
+99:59:59,999 --> 99:59:59,999
+as the total gravitational force
+
+318
+99:59:59,999 --> 99:59:59,999
+and that's why it's cosine of theta
+
+319
+99:59:59,999 --> 99:59:59,999
+because cosine of zero right now
+
+320
+99:59:59,999 --> 99:59:59,999
+is 1
+
+321
+99:59:59,999 --> 99:59:59,999
+and so these would equal each other
+
+322
+99:59:59,999 --> 99:59:59,999
+and if this equalled zero then
+
+323
+99:59:59,999 --> 99:59:59,999
+the parallel component of gravity should go to zero
+
+324
+99:59:59,999 --> 99:59:59,999
+because gravity will only be acting downward
+
+325
+99:59:59,999 --> 99:59:59,999
+and once again
+
+326
+99:59:59,999 --> 99:59:59,999
+if sine of theta is zero
+
+327
+99:59:59,999 --> 99:59:59,999
+so the force of gravity that's parallel
+
+328
+99:59:59,999 --> 99:59:59,999
+will go to zero
+
+329
+99:59:59,999 --> 99:59:59,999
+so if you ever forget
+
+330
+99:59:59,999 --> 99:59:59,999
+just do that little intuitive thought process
+
+331
+99:59:59,999 --> 99:59:59,999
+and you'll remember which one is sine
+
+332
+99:59:59,999 --> 99:59:59,999
+and which one is cosine

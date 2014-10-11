@@ -1,0 +1,419 @@
+1
+00:00:00,683 --> 00:00:12,203
+Let's say that f(x) is equal to x^2 + x - 6/x - 2.
+
+2
+00:00:12,203 --> 00:00:15,934
+And we're curious about what the limit of f(x)
+
+3
+00:00:15,934 --> 00:00:21,202
+as x approaches 2 is equal to.
+
+4
+00:00:21,202 --> 00:00:23,937
+Now, the first attempt that you might want to do,
+
+5
+00:00:23,937 --> 00:00:25,770
+right when you see something like this,
+
+6
+00:00:25,770 --> 00:00:28,138
+is just see what happens, what is f(2)?
+
+7
+00:00:28,138 --> 00:00:29,468
+Now, this won't always be the limit,
+
+8
+00:00:29,468 --> 00:00:30,869
+even if it is defined.
+
+9
+00:00:30,869 --> 00:00:32,285
+But it is a good place to start,
+
+10
+00:00:32,285 --> 00:00:35,205
+just to see if something reasonable could pop out.
+
+11
+00:00:35,205 --> 00:00:38,600
+So looking at it this way, if we just evaluate f(2),
+
+12
+00:00:38,600 --> 00:00:42,681
+in our numerator, we're going to get 2^2 + 2 - 6.
+
+13
+00:00:42,681 --> 00:00:44,940
+So, that's going to be 4 + 2, which is 6, - 6.
+
+14
+00:00:44,940 --> 00:00:46,763
+So you're going to get 0 in the numerator,
+
+15
+00:00:46,763 --> 00:00:49,334
+and you're going to get 0 in the denominator.
+
+16
+00:00:49,334 --> 00:00:54,017
+So, we don't have – the function is not defined at x = 2.
+
+17
+00:00:54,017 --> 00:00:58,302
+WRITING: f not defined.
+
+18
+00:00:58,302 --> 00:00:59,930
+So there's no simple thing there.
+
+19
+00:00:59,930 --> 00:01:02,801
+Even if this did evaluate, if it was a continuous function,
+
+20
+00:01:02,801 --> 00:01:05,798
+then actually the limit would be whatever the function is.
+
+21
+00:01:05,798 --> 00:01:07,333
+But that isn't necessarily the case.
+
+22
+00:01:07,333 --> 00:01:10,337
+But we see very clearly that the function is not defined here.
+
+23
+00:01:10,337 --> 00:01:12,004
+So, let's see if we can simplify this.
+
+24
+00:01:12,004 --> 00:01:14,229
+And we'll also try to graph it in some way.
+
+25
+00:01:14,229 --> 00:01:16,474
+So one thing that might have jumped out at your head is
+
+26
+00:01:16,474 --> 00:01:19,006
+you might want to factor this expression on top.
+
+27
+00:01:19,006 --> 00:01:20,343
+So, if we want to rewrite this,
+
+28
+00:01:20,343 --> 00:01:22,272
+we could rewrite the top expression –
+
+29
+00:01:22,272 --> 00:01:24,873
+(And this just goes back to your Algebra I.)
+
+30
+00:01:24,873 --> 00:01:28,640
+Two numbers whose product is -6 and whose sum is +3 –
+
+31
+00:01:28,640 --> 00:01:31,334
+Well, that could be + 3 and -2.
+
+32
+00:01:31,334 --> 00:01:40,977
+So this could be x + 3 × x - 2, all of that over x - 2.
+
+33
+00:01:40,977 --> 00:01:43,670
+So, as long as x does not equal 2,
+
+34
+00:01:43,670 --> 00:01:46,560
+these two things will cancel out.
+
+35
+00:01:46,560 --> 00:01:50,735
+So we could say this is equal to x + 3
+
+36
+00:01:50,735 --> 00:01:58,409
+for all x's except for x = 2, as long as x does not equal 2.
+
+37
+00:01:58,409 --> 00:02:00,143
+So that's another way of looking at it.
+
+38
+00:02:00,143 --> 00:02:02,229
+Now, another way we could rewrite our f(x) –
+
+39
+00:02:02,229 --> 00:02:04,605
+(I'll do it in blue, just to change the colors.)
+
+40
+00:02:04,605 --> 00:02:07,419
+– we could rewrite f(x) – this is the exact same function –
+
+41
+00:02:07,419 --> 00:02:14,424
+f(x) is equal to x + 3 when x does not equal 2.
+
+42
+00:02:14,424 --> 00:02:20,499
+And we could even say it's undefined when x = 2.
+
+43
+00:02:20,499 --> 00:02:24,337
+So given this definition, it becomes much clearer to us
+
+44
+00:02:24,337 --> 00:02:26,937
+how we can actually graph f(x).
+
+45
+00:02:26,937 --> 00:02:29,424
+So let's try to do it.
+
+46
+00:02:29,424 --> 00:02:33,336
+DRAWING: (So that is not anywhere near being a straight line.
+
+47
+00:02:33,336 --> 00:02:34,919
+That is much better.)
+
+48
+00:02:34,919 --> 00:02:37,237
+Let's call this the y axis.
+
+49
+00:02:37,237 --> 00:02:38,462
+We'll call it y = f(x).
+
+50
+00:02:38,462 --> 00:02:41,320
+And then let's, over here, let me make
+
+51
+00:02:41,320 --> 00:02:44,659
+a horizontal line that is my x axis.
+
+52
+00:02:44,659 --> 00:02:48,334
+So defined this way, f(x) = x + 3.
+
+53
+00:02:48,334 --> 00:02:53,984
+So if this is 1, 2, 3, we have a y-intercept at 3,
+
+54
+00:02:53,984 --> 00:02:55,885
+and then the slope is 1.
+
+55
+00:02:55,885 --> 00:03:00,591
+But it's defined for all x's except for x = 2.
+
+56
+00:03:00,591 --> 00:03:04,081
+So this is x = 1, this is x = 2.
+
+57
+00:03:04,081 --> 00:03:07,480
+So when x = 2, it is undefined.
+
+58
+00:03:07,480 --> 00:03:08,791
+So let me make sure I can –
+
+59
+00:03:08,791 --> 00:03:11,460
+So it's undefined right over there.
+
+60
+00:03:11,460 --> 00:03:16,825
+DRAWING: So it's undefined right over there.
+
+61
+00:03:16,825 --> 00:03:22,598
+So this is what f(x) looks like.
+
+62
+00:03:22,598 --> 00:03:25,204
+Now, given this, let's try to answer our question.
+
+63
+00:03:25,204 --> 00:03:28,236
+What is the limit of f(x) as x approaches 2?
+
+64
+00:03:28,236 --> 00:03:30,483
+Well, we could look at this graphically.
+
+65
+00:03:30,483 --> 00:03:33,819
+As x approaches 2 from lower values than 2 –
+
+66
+00:03:33,819 --> 00:03:37,332
+(So this, right over here, is x = 2.)
+
+67
+00:03:37,332 --> 00:03:40,735
+If we get to maybe, let's say this is 1.7,
+
+68
+00:03:40,735 --> 00:03:43,572
+we see that our f(x) is right over there.
+
+69
+00:03:43,572 --> 00:03:46,822
+If we get to 1. 9, our f(x) is right over there.
+
+70
+00:03:46,822 --> 00:03:52,014
+So it seems to be approaching this value right over there.
+
+71
+00:03:52,014 --> 00:03:56,475
+Similarly, as we approach 2 from values greater than it,
+
+72
+00:03:56,475 --> 00:04:00,178
+if we're at like – I don't know – this could be, like, 2.5 –
+
+73
+00:04:00,178 --> 00:04:02,264
+our f(x) is right over there.
+
+74
+00:04:02,264 --> 00:04:06,934
+If we get even closer to 2, our f(x) is right over there.
+
+75
+00:04:06,934 --> 00:04:10,422
+And once again, we look like we are approaching this value.
+
+76
+00:04:10,422 --> 00:04:11,534
+Or, another way of thinking about it,
+
+77
+00:04:11,534 --> 00:04:13,868
+if we ride this line from the positive direction,
+
+78
+00:04:13,868 --> 00:04:16,842
+we seem to be approaching this value for f(x).
+
+79
+00:04:16,842 --> 00:04:19,257
+If we ride this line from the negative direction –
+
+80
+00:04:19,257 --> 00:04:20,674
+from values less than 2 –
+
+81
+00:04:20,674 --> 00:04:24,936
+we seem to be approaching this value right over here.
+
+82
+00:04:24,936 --> 00:04:31,074
+And this is essentially the value of x + 3 if we set x = 2.
+
+83
+00:04:31,074 --> 00:04:33,201
+So, this is essentially going to be –
+
+84
+00:04:33,201 --> 00:04:36,204
+this value right over here is equal to 5
+
+85
+00:04:36,204 --> 00:04:37,744
+if we just look at it visually.
+
+86
+00:04:37,744 --> 00:04:43,532
+If we just graphed a line with slope 1, with a y-intercept of 3,
+
+87
+00:04:43,532 --> 00:04:45,799
+this value right over here is 5.
+
+88
+00:04:45,799 --> 00:04:50,732
+Now, we can also try to do this numerically.
+
+89
+00:04:50,732 --> 00:04:52,531
+So let's try to do that.
+
+90
+00:04:52,531 --> 00:04:55,314
+So, if this is our function definition –
+
+91
+00:04:55,314 --> 00:05:00,417
+completely identical to our original definition,
+
+92
+00:05:00,417 --> 00:05:04,106
+then we just try values as x gets closer and closer to 2.
+
+93
+00:05:04,106 --> 00:05:05,837
+So let's try values less than 2.
+
+94
+00:05:05,837 --> 00:05:08,263
+So, 1.99999 –
+
+95
+00:05:08,263 --> 00:05:09,124
+(This is almost obvious.)
+
+96
+00:05:09,124 --> 00:05:16,194
+1.999 + 3, well that gets you pretty darned close to 5.
+
+97
+00:05:16,194 --> 00:05:18,344
+If I put even more 9's here, and get even closer to 2,
+
+98
+00:05:18,344 --> 00:05:20,400
+we'd get even closer to 5 here.
+
+99
+00:05:20,400 --> 00:05:23,859
+If we approach 2 from the positive direction –
+
+100
+00:05:23,859 --> 00:05:26,582
+And then, once again, we're getting
+
+101
+00:05:26,582 --> 00:05:29,159
+closer and closer to 5 from the positive direction.
+
+102
+00:05:29,159 --> 00:05:32,326
+If we were even closer to 2, we'd be even closer to 5.
+
+103
+00:05:32,326 --> 00:05:34,118
+So, whether we look at it numerically,
+
+104
+00:05:34,118 --> 00:05:36,828
+or we look at it graphically, it looks pretty clear
+
+105
+00:05:36,828 --> 00:05:43,185
+that the limit here is going to be equal to 5.

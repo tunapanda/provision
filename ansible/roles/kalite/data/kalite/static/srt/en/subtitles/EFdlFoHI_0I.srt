@@ -1,0 +1,279 @@
+1
+00:00:00,441 --> 00:00:07,657
+In this video and in the next few videos we'll actually be doing a bunch of calculations about this data set right over here.
+
+2
+00:00:07,657 --> 00:00:12,608
+And hopefully just going through those calculations will give you an intuitive sense of what the analysis
+
+3
+00:00:12,608 --> 00:00:18,941
+of variance is all about. Now the first thing I wanna do in this video is calculate the total sum of
+
+4
+00:00:18,941 --> 00:00:27,455
+squares. So I call that 'SST'. Sum of squares total. And you could view it as really the numerator when
+
+5
+00:00:27,455 --> 00:00:31,576
+you calculate the variance. So we're just gonna take the distance between of each of these data points
+
+6
+00:00:31,576 --> 00:00:36,078
+and the mean of all of these data points, square them and just take that sum, we'll not really divide
+
+7
+00:00:36,078 --> 00:00:40,732
+by the degree of freedom, which you normally do if you're calculating sample variance.
+
+8
+00:00:40,763 --> 00:00:45,279
+Now what is this going to be? Well the first thing we got to do is we have to figure out the mean of
+
+9
+00:00:45,279 --> 00:00:49,692
+all of this stuff over here. And I'm actually gonna call that the grand mean.
+
+10
+00:00:49,692 --> 00:00:53,359
+I'm gonna call that the grand mean. And let me show you in a second that it's the same thing as the mean
+
+11
+00:00:53,359 --> 00:00:59,013
+of the means of each of these data sets. So let's calculate the grand means.
+
+12
+00:00:59,013 --> 00:01:16,152
+So that's gonna be 3 plus 2 plus 1. 3 plus 2 plus 1 plus 5 plus 3 plus 4 plus 5 plus 6 plus 7 ... plus 5 plus 6 plus 7.
+
+13
+00:01:16,152 --> 00:01:22,102
+And then we have nine data points here. We have nine data points so we're gonna divide by nine and then
+
+14
+00:01:22,102 --> 00:01:30,354
+this is gonna be equal to '...'. 3 plus 2 plus 1 is 6. 6 plus, let me just.. er so these are 6. 5 plus
+
+15
+00:01:30,385 --> 00:01:43,944
+3 plus 4 is, that's 12. And then 5 plus 6 plus seven is 18. And then 6 plus 12 is 18, plus another 18 is 36
+
+16
+00:01:43,944 --> 00:01:50,241
+divided by nine is equal to 4. Let me show you that that's the exact same thing as the mean of the means.
+
+17
+00:01:50,302 --> 00:01:57,056
+So this, the mean of this group one over here, that's seen in green, the mean of group one over here
+
+18
+00:01:57,056 --> 00:02:03,856
+is 3 plus 2 plus 1, that's 6 right over here, divided by 3 data points, so that would be equal to 2.
+
+19
+00:02:03,856 --> 00:02:12,677
+The mean of group 2, the sum here is 12, we saw that right over here: 5 plus 3 plus 4 is 12, divided
+
+20
+00:02:12,677 --> 00:02:21,846
+by 3 is 4, cause we have three data points. And then the mean of group 3, 5 plus 6 plus 7
+
+21
+00:02:21,846 --> 00:02:27,256
+is 18 divided by 3 is 6. So if you're gonna take the mean of the means
+
+22
+00:02:27,256 --> 00:02:31,015
+which is in another way this grand mean, you have 2 plus 4 plus 6
+
+23
+00:02:31,015 --> 00:02:35,892
+which is 12 divided by 3 means here and once again you'd get 4.
+
+24
+00:02:35,892 --> 00:02:38,933
+So you can view this the mean of all of the data and all of the groups
+
+25
+00:02:38,933 --> 00:02:43,600
+or the mean of the means of each of these groups. But either way now that we've calculated it
+
+26
+00:02:43,600 --> 00:02:48,836
+we can actually figure out the total sum of squares. So let's do that.
+
+27
+00:02:48,836 --> 00:02:57,887
+So it's going to be equal to: 3 minus 4, the 4 is this 4 right over here, squared plus
+
+28
+00:02:57,887 --> 00:03:05,667
+2 minus 4 squared plus 1 minus 4 squared, now I'll do these guys over here in purple,
+
+29
+00:03:05,667 --> 00:03:16,031
+plus 5 minus 4 squared plus 3 minus 4 squared plus 4 minus 4 squared
+
+30
+00:03:16,031 --> 00:03:20,667
+I'll just scroll over here a little bit, plus 4 minus 4 squared. Now we only have three left.
+
+31
+00:03:20,667 --> 00:03:32,887
+Plus 5 minus 4 squared plus 6 minus 4 squared plus 7 minus 4 squared. Now what does this give us?
+
+32
+00:03:32,887 --> 00:03:38,436
+So up here this first is gonna be equal to, 3 minus 4 the difference is 1, you square it,
+
+33
+00:03:38,436 --> 00:03:42,200
+you're gonna get, er, it's actually a negative 1, you square it you get one.
+
+34
+00:03:42,200 --> 00:03:51,000
+Plus, you get negative 2 squared is 4 plus negative 3 squared. Negative 3 squared is 9.
+
+35
+00:03:51,000 --> 00:03:57,698
+And then we have here in the magenta: 5 minus 4 is 1, squared is still 1. 3 minus 4 squared is 1 you
+
+36
+00:03:57,698 --> 00:04:03,210
+square it again you still get 1 and 4 minus 4 is just a 0. So we can ... let me just write a 0 here
+
+37
+00:04:03,210 --> 00:04:06,985
+just to show you that we actually calculated that. And then we have these last 3 data points.
+
+38
+00:04:06,985 --> 00:04:16,667
+5 minus 4 squared, that's one. 6 minus 4 squared, that is 4, it's 2 squared. And then plus 7 minus 4 is 3
+
+39
+00:04:16,667 --> 00:04:24,952
+squared is 9. So what's this going to be equal to. So I have 1 plus 4 plus 9.
+
+40
+00:04:25,629 --> 00:04:33,436
+1 plus 4 plus 9 right over here, that's 5 plus 9. This right over here is 14, right?
+
+41
+00:04:33,436 --> 00:04:39,638
+5 plus ..., yep, 14. And we also have another 14 right over here cause we have a 1 plus 4 plus 9
+
+42
+00:04:39,638 --> 00:04:43,632
+so that right over there is also 14. And then we have 2 over here. So it's gonna be
+
+43
+00:04:43,632 --> 00:04:55,056
+28, 14 times 2, 14 plus 14 is 28, plus 2 is 30. Is equal to 30. So our total sum of squares
+
+44
+00:04:55,056 --> 00:04:59,561
+And actually if we wanted the variance here we would divide this by the degrees of freedom.
+
+45
+00:04:59,561 --> 00:05:05,551
+And these are multiple times the degrees of freedom here. So let's say, let's say that we have
+
+46
+00:05:05,551 --> 00:05:11,031
+so we know we have m groups over here, so let me just write this m. And, I'm not gonna
+
+47
+00:05:11,031 --> 00:05:14,236
+prove things rigorously here but I want you to show, I wanna show you
+
+48
+00:05:14,236 --> 00:05:18,740
+where some of these strange formulas that show up in statistics would actually come from
+
+49
+00:05:18,740 --> 00:05:25,667
+without proving it rigorously, more to give you the intuition. So we have m groups here
+
+50
+00:05:25,667 --> 00:05:34,344
+and each group here has n members. So how many total members do we have here?
+
+51
+00:05:34,344 --> 00:05:41,498
+Well we have m times n or 9, right? 3 times 3 total members. So degrees of freedom, we remember, you
+
+52
+00:05:41,498 --> 00:05:47,800
+have this many, however many data points you have minus 1 degrees of freedom. Because if you know
+
+53
+00:05:47,800 --> 00:05:52,800
+if you knew the mean of means, if you know the mean of means, if you assume you knew that
+
+54
+00:05:52,800 --> 00:05:59,323
+then you only would, would only n, only, er, hehe. 9 minus 1, only 8 of these were going to give you
+
+55
+00:05:59,323 --> 00:06:04,471
+new information because if you know that you could calculate the last, or it really wouldn't have to be the
+
+56
+00:06:04,471 --> 00:06:09,824
+last one if you have the other 8 you can calculate this one. If you have 8 of them you could always calculate
+
+57
+00:06:09,824 --> 00:06:16,600
+the 9th one using the mean of means. So one way to think about it is that theres only 8 independent
+
+58
+00:06:16,600 --> 00:06:22,883
+measurements here. Or if you want to talk in terms of general, you want to talk in general, there are
+
+59
+00:06:22,883 --> 00:06:30,397
+m times n, so that is total number of samples, minus 1 degrees of freedom.
+
+60
+00:06:33,720 --> 00:06:41,810
+And if you're actually calculating the variance here we would just divide 30 by m times n minus 1.
+
+61
+00:06:41,810 --> 00:06:47,077
+Or this is another way of saying 8 degrees of freedom for this exact example. You take 30
+
+62
+00:06:47,077 --> 00:06:53,000
+divided by 8 and you actually have the variance for this entire group, the group of 9 [...].
+
+63
+00:06:53,000 --> 00:06:58,533
+I'll leave you here in this video. In the next video we're gonna try to figure out how much of this total
+
+64
+00:06:58,533 --> 00:07:08,333
+variance, how much of this total squared sum, total variation, comes from the variation
+
+65
+00:07:08,333 --> 00:07:14,313
+within each of these groups versus the variation between the groups. And I think you'll
+
+66
+00:07:14,313 --> 00:07:19,667
+get a sense of where this whole analysis of variance is coming from. Look there is the variance
+
+67
+00:07:19,667 --> 00:07:24,800
+of this entire sample of nine but some of that variance, if these groups are different in some way,
+
+68
+00:07:24,800 --> 00:07:31,267
+might come from the variation from being in different groups versus the variation from being within a
+
+69
+00:07:31,267 --> 00:07:34,564
+group. We're gonna calculate those two things and we're going to see that they're going to add up
+
+70
+00:07:34,579 --> 99:59:59,999
+to the total square sum variation.

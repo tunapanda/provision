@@ -1,0 +1,671 @@
+1
+00:00:00,000 --> 00:00:05,380
+We're on problem 65.
+
+2
+00:00:05,380 --> 00:00:16,410
+They wrote 2, 4, 6, 8, n, 3, 5, 7, and 9.
+
+3
+00:00:16,410 --> 00:00:19,460
+And they tell us, in the list above, if n is an integer
+
+4
+00:00:19,460 --> 00:00:23,610
+between 1 and 10, inclusive-- so that means n could be 1,
+
+5
+00:00:23,610 --> 00:00:27,600
+and it could be 10, or any number inbetween,
+
+6
+00:00:27,600 --> 00:00:33,700
+and it's an integer-- then the median must be-- the median,
+
+7
+00:00:33,700 --> 00:00:35,930
+right, not the mean, the median.
+
+8
+00:00:35,930 --> 00:00:38,010
+So the median means the middle number, right?
+
+9
+00:00:38,010 --> 00:00:43,330
+Let's put all the other numbers in order.
+
+10
+00:00:43,330 --> 00:01:01,770
+So we have 2, 3, 4, 5, 6, 7, 8, 9.
+
+11
+00:01:01,770 --> 00:01:03,770
+And they're essentially saying that
+
+12
+00:01:03,770 --> 00:01:05,970
+n could be anywhere in this.
+
+13
+00:01:05,970 --> 00:01:08,240
+It could be a 1 here, it could be right here,
+
+14
+00:01:08,240 --> 00:01:12,740
+it could be another 2, it doesn't tell us.
+
+15
+00:01:12,740 --> 00:01:13,480
+It could be any number,
+
+16
+00:01:13,480 --> 00:01:15,130
+it could be 2, could be another 3, could be 10.
+
+17
+00:01:15,130 --> 00:01:15,860
+We don't know.
+
+18
+00:01:15,860 --> 00:01:18,030
+But before we stick n in here, let's figure out
+
+19
+00:01:18,030 --> 00:01:19,360
+what the middle is.
+
+20
+00:01:19,360 --> 00:01:22,270
+Right here we have eight numbers,
+
+21
+00:01:22,270 --> 00:01:25,350
+so the middle of the range is actually--
+
+22
+00:01:25,350 --> 00:01:29,450
+there is no middle number-- but when we add n,
+
+23
+00:01:29,450 --> 00:01:30,540
+there will be a middle number.
+
+24
+00:01:30,540 --> 00:01:31,750
+So let's just think about it for a little bit.
+
+25
+00:01:31,750 --> 00:01:39,100
+If n is 5 or less, so n goes into this bucket,
+
+26
+00:01:39,100 --> 00:01:42,270
+n goes someplace here, then what happens?
+
+27
+00:01:42,270 --> 00:01:44,640
+Then what becomes the middle number?
+
+28
+00:01:44,640 --> 00:01:48,560
+If n is 5 or less, then we'll have n here.
+
+29
+00:01:48,560 --> 00:01:51,710
+And n might be 5, n might go right here.
+
+30
+00:01:51,710 --> 00:01:53,020
+But what becomes the middle number?
+
+31
+00:01:53,020 --> 00:01:55,520
+Then we have 1, 2, 3, 4 on this side of the middle number,
+
+32
+00:01:55,520 --> 00:01:58,500
+and we have 1, 2, 3, 4 on that side of the number.
+
+33
+00:01:58,500 --> 00:02:03,390
+So then, the median, which is the middle number, becomes 5.
+
+34
+00:02:03,390 --> 00:02:05,940
+That's if n is 5 or less.
+
+35
+00:02:05,940 --> 00:02:09,010
+If n is less than or equal to 5,
+
+36
+00:02:09,010 --> 00:02:12,970
+then we know that the median will be equal to 5.
+
+37
+00:02:12,970 --> 00:02:15,400
+Now let's do the opposite thought experiment.
+
+38
+00:02:15,400 --> 00:02:18,130
+What if n is 6 or more?
+
+39
+00:02:18,130 --> 00:02:20,600
+What if n is greater than or equal to 6?
+
+40
+00:02:20,600 --> 00:02:22,450
+So it goes someplace over here,
+
+41
+00:02:22,450 --> 00:02:24,210
+so n will go someplace here.
+
+42
+00:02:24,210 --> 00:02:26,070
+Could be 6, I might have to put it right there.
+
+43
+00:02:26,070 --> 00:02:29,870
+But wherever I put it on the side, I'll have 4 to the right
+
+44
+00:02:29,870 --> 00:02:32,950
+of 6, and I'll have 4 to the left of 6.
+
+45
+00:02:32,950 --> 00:02:36,400
+n isn't on this side anymore, 4 to the left of 6.
+
+46
+00:02:36,400 --> 00:02:40,180
+So then the median would be 6.
+
+47
+00:02:40,180 --> 00:02:43,090
+And either of these cases have to be true for n.
+
+48
+00:02:43,090 --> 00:02:47,930
+So the median is either 5 or 6, and that is choice B.
+
+49
+00:02:47,930 --> 00:02:51,750
+Problem 66.
+
+50
+00:02:51,750 --> 00:02:53,320
+I like this brownish color.
+
+51
+00:02:53,320 --> 00:03:01,940
+Reminds me of when I was in middle school math competitions.
+
+52
+00:03:01,940 --> 00:03:11,830
+4u7, n23, 162.
+
+53
+00:03:11,830 --> 00:03:19,090
+And you add them all together, you get one 1,222.
+
+54
+00:03:19,090 --> 00:03:20,850
+And what they want to know is,
+
+55
+00:03:20,850 --> 00:03:22,280
+if n and u represent single digits
+
+56
+00:03:22,280 --> 00:03:24,130
+in the correctly worked computation above,
+
+57
+00:03:24,130 --> 00:03:27,040
+what is the value of n plus u?
+
+58
+00:03:27,040 --> 00:03:29,990
+So the best thing to do is to try to work these out,
+
+59
+00:03:29,990 --> 00:03:30,870
+and see what happens.
+
+60
+00:03:30,870 --> 00:03:35,610
+So 7 plus 3 is 10, plus 2 is 12.
+
+61
+00:03:35,610 --> 00:03:37,770
+So you would write a 2 here,
+
+62
+00:03:37,770 --> 00:03:40,230
+which they already wrote, and carry a 1.
+
+63
+00:03:40,230 --> 00:03:42,680
+And now we have 1 plus u--
+
+64
+00:03:42,680 --> 00:03:43,690
+let me write this down--
+
+65
+00:03:43,690 --> 00:03:51,650
+1 plus u plus 2 plus 6 is equal to,
+
+66
+00:03:51,650 --> 00:03:54,270
+well, it's either going to be equal to 2,
+
+67
+00:03:54,270 --> 00:03:56,580
+or some digit and a 2.
+
+68
+00:03:56,580 --> 00:03:58,000
+So let's just think about it a little bit.
+
+69
+00:03:58,000 --> 00:04:03,340
+1 plus u plus 2 plus 6, that's equal to u plus 9.
+
+70
+00:04:03,340 --> 00:04:08,590
+u plus 9 is going to have to equal something.
+
+71
+00:04:08,590 --> 00:04:14,630
+So if u is 9, and it has to be something that ends with a 2.
+
+72
+00:04:14,630 --> 00:04:20,000
+And remember, u can only be between 0 and 9.
+
+73
+00:04:20,000 --> 00:04:22,480
+It's a digit, it has to be an integer, it has to be a digit.
+
+74
+00:04:22,480 --> 00:04:25,150
+So let's think about it a little bit.
+
+75
+00:04:25,150 --> 00:04:27,120
+It has to be something that ends in a 2.
+
+76
+00:04:27,120 --> 00:04:31,350
+So the only next thing above 9 that ends as a 2 is 12.
+
+77
+00:04:31,350 --> 00:04:34,850
+Because you can't get to 22.
+
+78
+00:04:34,850 --> 00:04:36,530
+To get to 22, you would have to add 13,
+
+79
+00:04:36,530 --> 00:04:37,770
+and u can't be 13.
+
+80
+00:04:37,770 --> 00:04:42,340
+So this has to be a 12, so u has to be equal to 3.
+
+81
+00:04:42,340 --> 00:04:44,770
+That's the only possibility that'll give you something
+
+82
+00:04:44,770 --> 00:04:45,850
+that ends in a 2.
+
+83
+00:04:45,850 --> 00:04:48,260
+So if we assume that u is 3,
+
+84
+00:04:48,260 --> 00:04:53,300
+then we have 1 plus 3 plus 2 plus 6, which is 12,
+
+85
+00:04:53,300 --> 00:05:03,780
+carry the 1, you get 1 plus 4 plus n plus 1 is equal to 12.
+
+86
+00:05:03,780 --> 00:05:07,640
+So you get 1 plus 4 plus 1.
+
+87
+00:05:07,640 --> 00:05:12,290
+That's 6, plus n is equal to 12, and n would be equal to 6.
+
+88
+00:05:12,290 --> 00:05:15,170
+And they want to know what n plus u is.
+
+89
+00:05:15,170 --> 00:05:17,890
+So n plus u, 6 plus 3.
+
+90
+00:05:17,890 --> 00:05:18,860
+That's equal to 9.
+
+91
+00:05:18,860 --> 00:05:23,950
+And that is choice B, 9.
+
+92
+00:05:23,950 --> 00:05:27,340
+67.
+
+93
+00:05:27,340 --> 00:05:36,090
+Look at that, this is a dense looking one,
+
+94
+00:05:36,090 --> 00:05:37,820
+but let me write down the little equation they wrote on top.
+
+95
+00:05:37,820 --> 00:05:47,340
+r is equal to 400 times d plus s minus p,
+
+96
+00:05:47,340 --> 00:05:50,520
+all of that over p.
+
+97
+00:05:50,520 --> 00:05:56,080
+If stock is sold three months after it is purchased,
+
+98
+00:05:56,080 --> 00:06:00,120
+the formula above relates p, d, s, and r,
+
+99
+00:06:00,120 --> 00:06:02,500
+where p is the purchase price of the stock.
+
+100
+00:06:02,500 --> 00:06:04,030
+That's the purchase price.
+
+101
+00:06:04,030 --> 00:06:06,950
+d is the amount of any dividend received.
+
+102
+00:06:06,950 --> 00:06:08,150
+Fair enough.
+
+103
+00:06:08,150 --> 00:06:10,510
+s is the selling price of the stock,
+
+104
+00:06:10,510 --> 00:06:14,540
+and r is the yield of the investment as a percent.
+
+105
+00:06:14,540 --> 00:06:16,380
+Fair enough.
+
+106
+00:06:16,380 --> 00:06:21,980
+If Rose purchased $400 worth of stock-- so p is equal to
+
+107
+00:06:21,980 --> 00:06:27,430
+$400-- received a $5 dividend-- so d is equal to
+
+108
+00:06:27,430 --> 00:06:35,630
+$5-- and sold the stock for $420, for three months after
+
+109
+00:06:35,630 --> 00:06:37,540
+purchasing-- so this formula applies,
+
+110
+00:06:37,540 --> 00:06:39,800
+because this is the formula for selling after three months--
+
+111
+00:06:39,800 --> 00:06:40,900
+what was the
+
+112
+00:06:40,900 --> 00:06:42,990
+yield of her investment, according to the formula?
+
+113
+00:06:42,990 --> 00:06:44,580
+Assuming she paid no commissions.
+
+114
+00:06:44,580 --> 00:06:46,610
+We just substitute in.
+
+115
+00:06:46,610 --> 00:06:47,600
+So let's see.
+
+116
+00:06:47,600 --> 00:06:57,540
+The yield would be equal to 400 times 5 plus 420 minus 400,
+
+117
+00:06:57,540 --> 00:07:01,470
+p is 400, all of that over 420.
+
+118
+00:07:01,470 --> 00:07:06,810
+That is equal to 420 minus 400 is 20, plus 5 is 25.
+
+119
+00:07:06,810 --> 00:07:17,810
+400 times 25 over-- this shouldn't be 420, this is p.
+
+120
+00:07:17,810 --> 00:07:19,300
+The price you paid was 400.
+
+121
+00:07:19,300 --> 00:07:22,290
+25 over 400.
+
+122
+00:07:22,290 --> 00:07:26,420
+I just substituted these values into this equation.
+
+123
+00:07:26,420 --> 00:07:31,530
+This cancels out, and I'm just left with a yield of 25,
+
+124
+00:07:31,530 --> 00:07:32,990
+and it's probably in terms of percent.
+
+125
+00:07:32,990 --> 00:07:34,290
+Yep, 25%.
+
+126
+00:07:34,290 --> 00:07:36,020
+E.
+
+127
+00:07:36,020 --> 00:07:38,300
+All right, problem 68.
+
+128
+00:07:38,300 --> 00:07:40,290
+Let's switch colors.
+
+129
+00:07:40,290 --> 00:07:43,520
+68.
+
+130
+00:07:43,520 --> 00:07:47,790
+The temperatures in degree Celsius recorded at 6:00
+
+131
+00:07:47,790 --> 00:07:52,520
+in the morning in various parts of a certain country were
+
+132
+00:07:52,520 --> 00:07:54,270
+10 degrees,
+
+133
+00:07:54,270 --> 00:07:56,290
+I'm not going to write all of it, 5,
+
+134
+00:07:56,290 --> 00:08:02,410
+minus 2, minus 1, minus 5, and 15.
+
+135
+00:08:02,410 --> 00:08:06,140
+What is the median of these temperatures?
+
+136
+00:08:06,140 --> 00:08:07,930
+The median just means the middle.
+
+137
+00:08:07,930 --> 00:08:10,480
+Don't confuse that with the average, which is the mean.
+
+138
+00:08:10,480 --> 00:08:12,330
+Or the mean, which is the average.
+
+139
+00:08:12,330 --> 00:08:13,410
+Median means middle,
+
+140
+00:08:13,410 --> 00:08:14,930
+so let's just put them in order and figure out the middle.
+
+141
+00:08:14,930 --> 00:08:18,720
+So the smallest of these numbers is minus 5, cross it out.
+
+142
+00:08:18,720 --> 00:08:22,110
+Then we have minus 2, cross it out.
+
+143
+00:08:22,110 --> 00:08:25,130
+Then we have minus 1, cross it out.
+
+144
+00:08:25,130 --> 00:08:31,640
+Then we have 5, cross it out, then we have 10, cross it out.
+
+145
+00:08:31,640 --> 00:08:33,300
+Then we have 15.
+
+146
+00:08:33,310 --> 00:08:37,880
+So this is interesting about median.
+
+147
+00:08:37,880 --> 00:08:39,880
+If there is no true middle number,
+
+148
+00:08:39,890 --> 00:08:42,050
+you have three on this side of negative 1,
+
+149
+00:08:42,050 --> 00:08:44,610
+or negative 1 and less, and you have three on that side,
+
+150
+00:08:44,610 --> 00:08:45,290
+so there's no middle number,
+
+151
+00:08:45,290 --> 00:08:46,870
+because we have an even number of numbers.
+
+152
+00:08:46,870 --> 00:08:49,460
+So what you want to do is, you take the two middle numbers,
+
+153
+00:08:49,460 --> 00:08:52,450
+which are negative 1 and 5, and you average them.
+
+154
+00:08:52,450 --> 00:08:58,980
+So it's negative 1 plus 5 over 2, which equals 4 over 2,
+
+155
+00:08:58,980 --> 00:09:01,060
+which is equal to 2.
+
+156
+00:09:01,060 --> 00:09:04,290
+2 degrees Celsius, which is choice C.
+
+157
+00:09:04,290 --> 00:09:06,790
+Problem 69.
+
+158
+00:09:06,790 --> 00:09:19,130
+If y times 3x minus 5 over 2 is equal to y,
+
+159
+00:09:19,130 --> 00:09:25,290
+and y does not equal 0, then x is equal to what?
+
+160
+00:09:25,290 --> 00:09:27,570
+Well the simplest thing, since y doesn't equal 0,
+
+161
+00:09:27,570 --> 00:09:29,720
+we can divide both sides of this equation by y.
+
+162
+00:09:29,720 --> 00:09:32,510
+You divide both sides by y. y divided by y is 1,
+
+163
+00:09:32,510 --> 00:09:34,390
+y divided by y is 1.
+
+164
+00:09:34,390 --> 00:09:40,340
+So then we're left with 3x minus 5 over 2 is equal to 1.
+
+165
+00:09:40,340 --> 00:09:46,000
+Multiply both sides by 2, you get 3x minus 5 is equal to 2.
+
+166
+00:09:46,000 --> 00:09:50,440
+Add 5 to both sides, 3x is equal to 7.
+
+167
+00:09:50,440 --> 00:09:55,390
+And you get x is equal to 7 over 3, which is choice C.
+
+168
+00:09:55,390 --> 00:10:00,090
+And I'm out of time, so I'll see you in the next video.

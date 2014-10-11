@@ -1,0 +1,719 @@
+1
+00:00:00,090 --> 00:00:03,430
+We're on problem 103.
+
+2
+00:00:06,150 --> 00:00:14,040
+And it says, if n and k are greater than 0,
+
+3
+00:00:14,740 --> 00:00:16,850
+is n over k an integer?
+
+4
+00:00:19,400 --> 00:00:22,440
+So essentially they're asking, is k divisible into n.
+
+5
+00:00:22,860 --> 00:00:28,800
+So let's see, statement 1 says, n and k are both integers.
+
+6
+00:00:33,510 --> 00:00:35,100
+And that's good that they told me that,
+
+7
+00:00:35,100 --> 00:00:36,430
+because I was assuming it incorrectly.
+
+8
+00:00:38,750 --> 00:00:40,350
+So they're saying n and k are both integers.
+
+9
+00:00:40,350 --> 00:00:41,810
+Well that still doesn't help me much.
+
+10
+00:00:41,810 --> 00:00:46,880
+n could be 2 and k could be 100. And 2 over 100, is 1/50.
+
+11
+00:00:46,880 --> 00:00:50,370
+That's not an integer.Although n could be 4 and k could be 2.
+
+12
+00:00:50,370 --> 00:00:52,120
+And that would be an integer. 4 over 2 is 2.
+
+13
+00:00:52,120 --> 00:00:55,060
+So statement 1 by itself doesn't help me.
+
+14
+00:00:55,660 --> 00:01:02,090
+Statement 2 says n squared and k squared are both integers.
+
+15
+00:01:08,850 --> 00:01:11,070
+Well once again, I don't see as helping me much.
+
+16
+00:01:12,000 --> 00:01:15,650
+If n and k are both integers, of course when you square them
+
+17
+00:01:15,650 --> 00:01:16,380
+they're going to integers.
+
+18
+00:01:16,380 --> 00:01:18,540
+You take any integer and you square it you get an integer.
+
+19
+00:01:18,540 --> 00:01:20,720
+You take any other integer and you square
+
+20
+00:01:20,720 --> 00:01:21,320
+it you get an integer.
+
+21
+00:01:21,320 --> 00:01:28,510
+So this actually gives me no new information relative to 1.
+
+22
+00:01:29,070 --> 00:01:31,220
+So, I'm just trying to see if I'm missing something.
+
+23
+00:01:31,220 --> 00:01:33,290
+But as far as I can tell it's E.
+
+24
+00:01:33,290 --> 00:01:35,530
+Both statements together are not sufficient
+
+25
+00:01:35,530 --> 00:01:37,080
+to answer this question.
+
+26
+00:01:38,000 --> 00:01:43,650
+I mean, I can give you a case. n could be 4, k could be 2.
+
+27
+00:01:44,090 --> 00:01:47,020
+And then, n over k would be an integer.
+
+28
+00:01:47,330 --> 00:01:50,010
+And both of these would satisfy both of these conditions.
+
+29
+00:01:50,010 --> 00:01:52,070
+Or it could be, 2 and 4.
+
+30
+00:01:52,570 --> 00:01:55,180
+In which case, n over k aren't integers.
+
+31
+00:01:55,410 --> 00:01:57,570
+They don't actually differentiate between n and k at all.
+
+32
+00:01:58,250 --> 00:01:59,000
+So it's E.
+
+33
+00:01:59,300 --> 00:02:02,130
+Next problem. 104.
+
+34
+00:02:03,400 --> 00:02:07,700
+If the average arithmetic mean of six numbers is 75,
+
+35
+00:02:07,700 --> 00:02:10,440
+how many of the numbers are equal to 75?
+
+36
+00:02:13,400 --> 00:02:15,470
+OK, so six numbers are equal to 75.
+
+37
+00:02:15,470 --> 00:02:18,090
+How many of them are equal to 75?
+
+38
+00:02:23,090 --> 00:02:25,090
+Let me go scroll down a little bit.
+
+39
+00:02:26,090 --> 00:02:29,810
+The first statement says, none of the six numbers
+
+40
+00:02:30,000 --> 00:02:40,260
+is less than 75. So none less than 75.
+
+41
+00:02:40,080 --> 00:02:43,860
+So this is interesting. If I have six numbers.
+
+42
+00:02:43,860 --> 00:02:50,010
+And their average is 75 and none of them are less than 75,
+
+43
+00:02:50,010 --> 00:02:58,010
+they essentially all have to be 75.
+
+44
+00:02:58,010 --> 00:03:02,020
+Let's say the first number is 75.
+
+45
+00:03:02,020 --> 00:03:05,830
+Now let's just say that I had some number above 75in the list
+
+46
+00:03:05,830 --> 00:03:08,920
+Let's just say for argument that there was a 76 in the list.
+
+47
+00:03:08,920 --> 00:03:11,070
+It doesn't have to be an integer. They're not assuming that.
+
+48
+00:03:11,270 --> 00:03:14,340
+But let's say I had 76 in the list. In order for the average
+
+49
+00:03:14,340 --> 00:03:17,620
+to be 75, I would have to offset this number that's one
+
+50
+00:03:17,620 --> 00:03:21,050
+more than 75 with another number that's one less than 75.
+
+51
+00:03:21,050 --> 00:03:25,040
+But they told us that none of the numbers are less than 75.
+
+52
+00:03:25,450 --> 00:03:28,590
+So if I have a number greater than 75, I have to have a
+
+53
+00:03:28,590 --> 00:03:30,640
+corresponding number less than 75,
+
+54
+00:03:30,640 --> 00:03:35,150
+or several of them to balance off that number.
+
+55
+00:03:35,150 --> 00:03:36,900
+Or you could have several balancing several.
+
+56
+00:03:36,900 --> 00:03:38,020
+It can get complicated.
+
+57
+00:03:38,020 --> 00:03:41,000
+But the general idea is, is that if no numbers are less
+
+58
+00:03:41,000 --> 00:03:44,450
+than 75, you can't have any numbers greater than 75 either.
+
+59
+00:03:44,660 --> 00:03:51,020
+So this actually tells you that all six are 75.
+
+60
+00:03:51,020 --> 00:03:54,000
+So statement 1 alone is sufficient.
+
+61
+00:03:54,000 --> 00:04:01,180
+Statement 2 says, none of the six numbers is greater than 75.
+
+62
+00:04:01,180 --> 00:04:05,570
+Well it's the same argument. If I have a number,
+
+63
+00:04:05,570 --> 00:04:07,040
+let's call it a.
+
+64
+00:04:07,540 --> 00:04:10,290
+Let's say it's one of the numbers that's in my list.
+
+65
+00:04:10,290 --> 00:04:12,000
+And it's greater than 75.
+
+66
+00:04:12,000 --> 00:04:14,910
+In order to average down to 75, I'm going to have to
+
+67
+00:04:14,910 --> 00:04:18,480
+have-- well let's say a is less than 75.
+
+68
+00:04:18,480 --> 00:04:20,010
+Because we're using statement number 2.
+
+69
+00:04:20,010 --> 00:04:23,830
+If a is less than 75--let's say 75 is here in the number line
+
+70
+00:04:23,830 --> 00:04:27,910
+I'm just doing ad hoc diagrams. So a is less than 75.
+
+71
+00:04:27,910 --> 00:04:31,190
+In order for the whole group to average to 75, I have to
+
+72
+00:04:31,190 --> 00:04:34,410
+have some number that's bigger than 75 to balance off the a.
+
+73
+00:04:34,410 --> 00:04:35,580
+Let's call that b.
+
+74
+00:04:35,580 --> 00:04:38,430
+But they're saying that we have no numbers greater than 75.
+
+75
+00:04:38,430 --> 00:04:40,380
+So we have no numbers greater than 75.
+
+76
+00:04:40,380 --> 00:04:43,210
+We can't have any numbers less than 75 either and all the
+
+77
+00:04:43,210 --> 00:04:45,560
+numbers have to be equal to 75. All six of them.
+
+78
+00:04:45,560 --> 00:04:47,570
+So once again 2 is also sufficient.
+
+79
+00:04:47,570 --> 00:04:51,410
+So each of these statements, independently, are sufficient
+
+80
+00:04:51,410 --> 00:04:52,980
+to answer this question. Actually
+
+81
+00:04:52,980 --> 00:04:57,000
+they both answer the question that all six are equal to 75.
+
+82
+00:04:57,070 --> 00:04:58,600
+That was interesting.
+
+83
+00:05:02,860 --> 00:05:17,450
+Problem 105. Is the absolute value of x equal to y minus z?OK
+
+84
+00:05:17,450 --> 00:05:23,040
+Absolute value of x equal to y minus z. All right.
+
+85
+00:05:23,040 --> 00:05:28,480
+So in statement number 1, they tell us that x plus
+
+86
+00:05:28,480 --> 00:05:32,670
+y is equal to z.
+
+87
+00:05:35,430 --> 00:05:37,710
+So let's see if we can do some substitution.
+
+88
+00:05:37,710 --> 00:05:39,400
+z is equal to x plus y.
+
+89
+00:05:39,640 --> 00:05:42,720
+So if we substitute z into this top equation we get the
+
+90
+00:05:42,720 --> 00:05:50,650
+absolute value of x is equal to y minus x plus y.
+
+91
+00:05:51,740 --> 00:05:54,450
+So that means that the absolute value of x is equal
+
+92
+00:05:54,450 --> 00:05:57,980
+to y minus x minus y.
+
+93
+00:05:58,890 --> 00:06:01,540
+And that says that the absolute value of x is equal
+
+94
+00:06:01,540 --> 00:06:04,030
+to minus x. Because the y's cancel out.
+
+95
+00:06:04,670 --> 00:06:06,110
+Well I don't know if this is true still.
+
+96
+00:06:06,110 --> 00:06:08,510
+This would apply to any negative number.
+
+97
+00:06:08,510 --> 00:06:11,700
+If I have a negative 1, negative 1 absolute value is 1.
+
+98
+00:06:11,700 --> 00:06:14,310
+And negative negative 1 is 1 as well.
+
+99
+00:06:14,310 --> 00:06:16,790
+So this would apply if x is 0 or some negative number.
+
+100
+00:06:16,790 --> 00:06:19,730
+But they don't tell us that.So we don't know if this is true.
+
+101
+00:06:20,330 --> 00:06:24,710
+Statement 2 tells us-- well there you go-- statement 2
+
+102
+00:06:24,710 --> 00:06:26,960
+tells us that x is less than 0.
+
+103
+00:06:27,860 --> 00:06:30,520
+So this tells us x is definitely a negative number.
+
+104
+00:06:30,520 --> 00:06:35,320
+And if you put any negative number into this, which we got
+
+105
+00:06:35,320 --> 00:06:39,580
+from this condition and this condition, if you put this
+
+106
+00:06:39,580 --> 00:06:42,330
+into that, you know this is true for any negative number.
+
+107
+00:06:43,000 --> 00:06:45,440
+The absolute value of any negative number is the
+
+108
+00:06:45,440 --> 00:06:46,610
+opposite of that number.
+
+109
+00:06:47,080 --> 00:06:48,390
+So you need both of these statements.
+
+110
+00:06:48,390 --> 00:06:50,000
+And obviously statement 2 alone is useless.
+
+111
+00:06:50,000 --> 00:06:52,050
+Because if you just say x is less than 0, you don't know
+
+112
+00:06:52,050 --> 00:06:55,060
+anything about y or z without this condition right here.
+
+113
+00:06:55,860 --> 00:06:57,920
+So both statements together are sufficient.
+
+114
+00:06:57,920 --> 00:07:02,000
+But individually, they are reasonably useless.
+
+115
+00:07:02,000 --> 00:07:05,010
+106. We're getting up there.
+
+116
+00:07:07,540 --> 00:07:11,780
+What was the total amount of revenue that a theater
+
+117
+00:07:11,780 --> 00:07:15,450
+received from the sale of 400 tickets, some of which were
+
+118
+00:07:15,450 --> 00:07:18,660
+sold at x percent of full price and the rest of which
+
+119
+00:07:18,660 --> 00:07:20,910
+were sold at full price?
+
+120
+00:07:23,290 --> 00:07:27,570
+So let's say we have the reduced price tickets and the
+
+121
+00:07:27,570 --> 00:07:28,050
+full price.
+
+122
+00:07:28,050 --> 00:07:31,470
+So R is the number of reduced price tickets and F is the
+
+123
+00:07:31,470 --> 00:07:34,990
+number of full price tickets. So R plus F.
+
+124
+00:07:35,090 --> 00:07:40,070
+So the the total number of tickets was 400.
+
+125
+00:07:40,070 --> 00:07:42,450
+What was the total amount of revenue?
+
+126
+00:07:42,450 --> 00:07:46,870
+And then the total amount of revenue generated is going to be
+
+127
+00:07:46,870 --> 00:07:54,720
+equal to the price of full price times the full price tickets
+
+128
+00:07:54,720 --> 00:08:00,000
+So P times F where P is the price of full priced.
+
+129
+00:08:00,000 --> 00:08:04,570
+Plus the number of reduced tickets and that's sold at x
+
+130
+00:08:04,570 --> 00:08:10,710
+percent of the full price tickets. Whatever x is. x percent.
+
+131
+00:08:10,710 --> 00:08:12,930
+we'll convert it to a decimal at the appropriate time.
+
+132
+00:08:12,930 --> 00:08:16,710
+So this is what the initial problem description tells us.
+
+133
+00:08:16,710 --> 00:08:19,450
+That the total number of tickets is 400 and then
+
+134
+00:08:19,450 --> 00:08:23,570
+whatever-- of its x percentage of P-- so whatever the full
+
+135
+00:08:23,570 --> 00:08:26,470
+price is times the full price tickets plus-- this would be
+
+136
+00:08:26,470 --> 00:08:28,460
+the reduced price times the reduced price tickets-- equals
+
+137
+00:08:28,460 --> 00:08:33,060
+the total revenue.Now let's see if we can figure this one out
+
+138
+00:08:33,060 --> 00:08:37,060
+x is equal to 50.
+
+139
+00:08:37,510 --> 00:08:40,040
+Well this by itself just tells us that this is p
+
+140
+00:08:40,040 --> 00:08:44,120
+over 2 right here. This x is 0.5. It's 50%.
+
+141
+00:08:44,120 --> 00:08:45,710
+Remember they said x percent.
+
+142
+00:08:45,710 --> 00:08:50,540
+So this just makes this equation, it turns it into,
+
+143
+00:08:50,540 --> 00:09:00,510
+0.5 times P times R plus P times F is equal to the revenue.
+
+144
+00:09:01,070 --> 00:09:05,590
+And we still have one, two, three unknowns and two equations.
+
+145
+00:09:05,590 --> 00:09:07,370
+So that by itself isn't enough.
+
+146
+00:09:10,400 --> 00:09:13,530
+We actually have four unknowns. R, P, F and revenue.
+
+147
+00:09:13,530 --> 00:09:15,170
+Four unknowns, two equations. Not good enough.
+
+148
+00:09:15,470 --> 00:09:19,030
+2, full price tickets sold for $20 each.
+
+149
+00:09:19,530 --> 00:09:23,030
+So the price of a full price ticket is $20.
+
+150
+00:09:23,630 --> 00:09:24,760
+So now, this is interesting.
+
+151
+00:09:24,760 --> 00:09:27,880
+Now we could take this and substitute it into this equation.
+
+152
+00:09:27,880 --> 00:09:31,050
+Because we now know what the price is, the P variable.
+
+153
+00:09:31,850 --> 00:09:35,570
+And so if we use both of these conditions, we have 50% of a
+
+154
+00:09:35,570 --> 00:09:38,420
+full price-- well, that's $10-- times the number of
+
+155
+00:09:38,420 --> 00:09:42,570
+reduced price tickets plus $20, times the number of full
+
+156
+00:09:42,570 --> 00:09:51,000
+price tickets, is equal to the revenue generated.
+
+157
+00:09:51,600 --> 00:09:54,510
+And then we know that a total of 400 tickets are sold.
+
+158
+00:09:57,790 --> 00:09:59,070
+R plus F is equal to 400.
+
+159
+00:09:59,480 --> 00:10:04,000
+Well even now, we still just don't have enough information.
+
+160
+00:10:04,000 --> 00:10:08,400
+They would have to tell us either R or F.
+
+161
+00:10:08,400 --> 00:10:10,890
+Or they would have to tell us the total amount of revenue
+
+162
+00:10:10,890 --> 00:10:14,210
+generated in order for us-- well, actually that's what
+
+163
+00:10:14,210 --> 00:10:14,750
+they want to figure out.
+
+164
+00:10:14,750 --> 00:10:16,460
+They want to know the total amount of revenue.
+
+165
+00:10:16,860 --> 00:10:21,560
+So in order to figure that out, we would have to have at
+
+166
+00:10:21,560 --> 00:10:23,750
+least one more condition to solve for R.
+
+167
+00:10:23,750 --> 00:10:25,820
+And then be able to solve for F.
+
+168
+00:10:26,830 --> 00:10:28,100
+We have to know R or F to figure out the revenue.
+
+169
+00:10:28,100 --> 00:10:30,390
+Let me just make sure I'm not missing something here.
+
+170
+00:10:30,590 --> 00:10:33,750
+Yeah, there's no other way to just-- you can't just separate
+
+171
+00:10:33,750 --> 00:10:36,000
+out an R plus F. So I'm going to say that E,
+
+172
+00:10:36,000 --> 00:10:38,000
+both statements together are not sufficient.
+
+173
+00:10:40,430 --> 00:10:41,620
+I'm pretty sure I'm right.
+
+174
+00:10:41,620 --> 00:10:43,070
+I'm don't think I'm missing anything right here.
+
+175
+00:10:43,870 --> 00:10:45,820
+Some of which were sold at x percent of full price and the
+
+176
+00:10:45,820 --> 00:10:51,010
+rest were sold at full price,which is $20. So R plus F is 40.
+
+177
+00:10:51,010 --> 00:10:56,030
+And then we have 10R is equal to revenue. Yeah.
+
+178
+00:10:56,630 --> 00:10:59,510
+We have three unknowns and two equations,two linear equations
+
+179
+00:10:59,510 --> 00:11:02,750
+Not good enough. Next problem. Oh, I'm over time.
+
+180
+00:11:02,750 --> 00:11:04,050
+See you in the next video.

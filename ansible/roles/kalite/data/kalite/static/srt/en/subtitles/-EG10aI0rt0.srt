@@ -1,0 +1,179 @@
+1
+00:00:00,501 --> 00:00:04,771
+Lets say we have the relationship y is equal to cosine of five x minus three y
+
+2
+00:00:04,771 --> 00:00:09,571
+and what I want to find is the rate of which y is changing with respect to x
+
+3
+00:00:09,571 --> 00:00:11,036
+and we'll assume that y is a function of x
+
+4
+00:00:11,036 --> 00:00:13,639
+So lets do what weve always been doing
+
+5
+00:00:13,639 --> 00:00:20,372
+lets apply the derivative operator to both sides of this equation
+
+6
+00:00:20,372 --> 00:00:26,236
+On the left side of the equation, right here, we get dy/dx is equal to
+
+7
+00:00:26,236 --> 00:00:29,835
+Now here on the right hand side were going to apply the chain rule
+
+8
+00:00:29,835 --> 00:00:42,502
+The derivative of the cosine of something with respect to that something is going to be equal to negative sine of that something
+
+9
+00:00:42,502 --> 00:00:46,169
+so negative sine of five x minus three y
+
+10
+00:00:46,169 --> 00:00:50,372
+and then we have to multiply that by the derivative of that something with respect to x.
+
+11
+00:00:50,372 --> 00:00:53,370
+So whats the derivative of that something with respect to x?
+
+12
+00:00:53,370 --> 00:00:58,917
+Well the derivative of five x with respect to x is five
+
+13
+00:00:58,917 --> 00:01:08,146
+and the derivative of negative three y with respect to x is negative three times dy/dx
+
+14
+00:01:08,146 --> 00:01:12,305
+The negative three times the derivative of y with respect to x
+
+15
+00:01:12,305 --> 00:01:15,003
+and now we just need to solve for dy/dx
+
+16
+00:01:15,003 --> 00:01:19,336
+As you can see with some of these implicit differentiation problems, this is the hard part
+
+17
+00:01:19,336 --> 00:01:23,840
+Actually let me make that dy/dx the same color, so we can keep track of it easier
+
+18
+00:01:24,117 --> 00:01:29,762
+So this is going to be dy/dx and then I can close the parentheses
+
+19
+00:01:30,596 --> 00:01:35,009
+So how can we do it? Its just going to be a little bit of algebra to work through
+
+20
+00:01:35,224 --> 00:01:35,224
+Well we can distribute the sine of five x minus 3 y, so let me rewrite everything
+
+21
+00:01:35,224 --> 00:01:47,600
+You can distribute the sine of five x minus three y - you get, let me rewrite everything. You're going to get dy/dx. Your distribute the negative sine, youre going to have five x minus three y
+
+22
+00:01:59,904 --> 00:02:07,971
+all of this, so youre going to have negative five times the sine of five
+
+23
+00:02:07,971 --> 00:02:13,036
+x minus three y and then youre going have the negative times the negative
+
+24
+00:02:13,036 --> 00:02:19,170
+You end up with a positive and so youre going to end up with plus three
+
+25
+00:02:19,170 --> 00:02:26,504
+times the sine of five x minus three y
+
+26
+00:02:26,504 --> 00:02:33,670
+dy/dx
+
+27
+00:02:33,670 --> 00:02:40,104
+Now what we can do is subtract three sine of five x minus three y from both sides
+
+28
+00:02:40,104 --> 00:02:45,102
+So, this is essentially one dy/dx
+
+29
+00:02:45,102 --> 00:02:49,004
+So if we subtract this from both sides we are left with
+
+30
+00:02:49,004 --> 00:02:51,837
+So one the left side were going to have a one dy/dx
+
+31
+00:02:51,837 --> 00:02:56,005
+and were going to subtract from that three sine of five x minus three y dy/dx's
+
+32
+00:02:56,005 --> 00:03:01,037
+Youre going to have one minus three
+
+33
+00:03:01,037 --> 00:03:03,253
+Ill keep the color for three for fun
+
+34
+00:03:03,253 --> 00:03:10,168
+three sine of five x minus three y dy/dx's
+
+35
+00:03:10,168 --> 00:03:15,037
+on the left hand side
+
+36
+00:03:15,037 --> 00:03:19,042
+is going to be equal to
+
+37
+00:03:19,042 --> 00:03:23,038
+well we subtracted thsi from both sides, so on the right hand side this is going to go away
+
+38
+00:03:23,038 --> 00:03:32,921
+So were just going to be left with a negative five sine of five x minus three y
+
+39
+00:03:32,921 --> 00:03:35,438
+and were in the home stretch now! To solve for dy/dx
+
+40
+00:03:35,438 --> 00:03:39,669
+You just have to divide both sides of the equation by this and we are left with
+
+41
+00:03:39,669 --> 00:03:44,168
+dy/dx is equal to
+
+42
+00:03:44,168 --> 00:03:48,171
+this thing, negative five times the sine
+
+43
+00:03:48,171 --> 00:03:51,904
+of five x minus three y
+
+44
+00:03:51,904 --> 00:04:01,770
+all of that over one minus three sine
+
+45
+00:04:01,770 --> 00:04:05,770
+of five x minus three y and we are done

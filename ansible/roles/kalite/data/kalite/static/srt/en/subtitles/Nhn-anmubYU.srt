@@ -1,0 +1,811 @@
+1
+00:00:02,120 --> 00:00:02,760
+Good morning.
+
+2
+00:00:02,770 --> 00:00:03,715
+im a nerd
+
+3
+00:00:03,715 --> 00:00:04,660
+Actually I don't know what time it is for you,
+
+4
+00:00:04,660 --> 00:00:05,670
+it's morning for me.
+
+5
+00:00:05,670 --> 00:00:09,480
+Welcome to the presentation on slope and y-intercept.
+
+6
+00:00:09,490 --> 00:00:12,740
+This presentation isn't going to teach you how to solve for
+
+7
+00:00:12,740 --> 00:00:15,750
+slope and y-intercept, but hopefully it will give you
+
+8
+00:00:15,750 --> 00:00:18,650
+a good intuition of what slope and y-intercept is.
+
+9
+00:00:18,660 --> 00:00:21,370
+And we're going to do something a little bit different
+
+10
+00:00:21,370 --> 00:00:22,790
+this time as opposed to what we normally do.
+
+11
+00:00:22,800 --> 00:00:23,870
+We're not going to use the chalkboard, we're actually
+
+12
+00:00:23,870 --> 00:00:27,470
+going to go on to the Khan academy website and use the
+
+13
+00:00:27,480 --> 00:00:30,200
+graph of a line exercise to get a little bit of an intuition
+
+14
+00:00:30,210 --> 00:00:32,810
+for what slope and y-intercept is.
+
+15
+00:00:32,810 --> 00:00:35,410
+So when the application starts off, it starts with the
+
+16
+00:00:35,420 --> 00:00:38,350
+equation y equals onex plus one.
+
+17
+00:00:38,350 --> 00:00:40,810
+So that's the same thing as y equals x plus one.
+
+18
+00:00:40,820 --> 00:00:42,780
+But we see that the slope here is one.
+
+19
+00:00:42,780 --> 00:00:44,560
+If you looked at the introduction to graphing that
+
+20
+00:00:44,570 --> 00:00:46,420
+I talked about, the slope is the same thing is the
+
+21
+00:00:46,420 --> 00:00:49,300
+coefficient on the x term.
+
+22
+00:00:49,310 --> 00:00:52,900
+And if you see here, whenever we move over
+
+23
+00:00:52,900 --> 00:00:55,590
+by one, we move up by one.
+
+24
+00:00:55,600 --> 00:00:57,700
+And I'm going to do another module on that slope is
+
+25
+00:00:57,710 --> 00:01:00,060
+actually rise over run.
+
+26
+00:01:00,070 --> 00:01:03,500
+So it's for every amount you rise, how much do you
+
+27
+00:01:03,500 --> 00:01:04,970
+have to run to get that?
+
+28
+00:01:04,980 --> 00:01:07,930
+And rise just means how much do you change in y, run means
+
+29
+00:01:07,930 --> 00:01:09,300
+how much do you change in x.
+
+30
+00:01:09,310 --> 00:01:14,060
+So here rise over run is just one, and y-intercept is where
+
+31
+00:01:14,060 --> 00:01:16,540
+you intercept the y-axis.
+
+32
+00:01:16,540 --> 00:01:20,140
+Now, as I change the slope and the y-intercept for this graph,
+
+33
+00:01:20,150 --> 00:01:21,750
+I think it's going to make a little bit more sense to you.
+
+34
+00:01:21,760 --> 00:01:25,430
+Watch what happens when the slope goes from one to three / two.
+
+35
+00:01:25,430 --> 00:01:27,960
+So three / two is the same thing is one and one / two.
+
+36
+00:01:27,960 --> 00:01:29,810
+So notice it got steeper.
+
+37
+00:01:29,820 --> 00:01:32,440
+And if I increase the slope more it gets steeper even
+
+38
+00:01:32,450 --> 00:01:35,520
+more, and y equals twox.
+
+39
+00:01:35,530 --> 00:01:37,950
+If I increase any more five / two is two and one / two.
+
+40
+00:01:37,950 --> 00:01:40,190
+So the more I increase the slope, I think you
+
+41
+00:01:40,200 --> 00:01:40,930
+see what's happening.
+
+42
+00:01:40,930 --> 00:01:42,360
+This thing jumps around.
+
+43
+00:01:42,370 --> 00:01:44,020
+I should fix that.
+
+44
+00:01:44,030 --> 00:01:45,090
+Let me move it back.
+
+45
+00:01:45,090 --> 00:01:50,390
+And actually, the goal is to make the line go through
+
+46
+00:01:50,400 --> 00:01:51,480
+those two blue points.
+
+47
+00:01:51,480 --> 00:01:54,890
+That's the goal of I guess you'd call it the game.
+
+48
+00:01:54,900 --> 00:01:57,060
+I don't like how this thing jumps around though.
+
+49
+00:01:57,060 --> 00:01:58,820
+That was interesting, let me go back there.
+
+50
+00:02:01,420 --> 00:02:04,450
+y equals zerox plus one.
+
+51
+00:02:04,450 --> 00:02:07,790
+We could have rewritten this as just y equals one, because zerox
+
+52
+00:02:07,790 --> 00:02:08,680
+is the same things as zero.
+
+53
+00:02:08,690 --> 00:02:10,720
+And notice it's a completely flat line.
+
+54
+00:02:10,720 --> 00:02:13,180
+No matter what x is y is one.
+
+55
+00:02:13,180 --> 00:02:14,570
+And that makes sense because this equation would
+
+56
+00:02:14,580 --> 00:02:17,740
+just be y equals one.
+
+57
+00:02:17,750 --> 00:02:20,180
+Now I've been showing you what happens to the slope.
+
+58
+00:02:20,180 --> 00:02:22,380
+Now notice we have a negative slope.
+
+59
+00:02:22,390 --> 00:02:24,550
+The slope is now downwards sloping.
+
+60
+00:02:24,560 --> 00:02:27,610
+It's downward sloping at a slope of one / two.
+
+61
+00:02:27,610 --> 00:02:31,010
+Because let's say the rise in this situation is negative
+
+62
+00:02:31,020 --> 00:02:32,800
+one, and the run is two.
+
+63
+00:02:32,810 --> 00:02:36,490
+So that's why we get negative one over two.
+
+64
+00:02:36,500 --> 00:02:38,870
+And we had just been doing slope so far and I think you
+
+65
+00:02:38,870 --> 00:02:42,150
+get the idea that as we decrease slope, it's going to
+
+66
+00:02:42,160 --> 00:02:45,620
+push the line further and further-- it's going to
+
+67
+00:02:45,630 --> 00:02:46,710
+slope downward even more.
+
+68
+00:02:46,710 --> 00:02:50,480
+I hate to use a word in its own definition, but I think you
+
+69
+00:02:50,490 --> 00:02:52,020
+see that now in the picture.
+
+70
+00:02:52,030 --> 00:02:53,520
+Now let's put up the y-intercept a little bit.
+
+71
+00:02:53,520 --> 00:02:54,450
+And this is even more interesting.
+
+72
+00:02:54,460 --> 00:02:59,970
+So y-intercept-- oh boy, how did that happen, that was
+
+73
+00:02:59,970 --> 00:03:03,750
+strange --y-intercept--
+
+74
+00:03:03,750 --> 00:03:08,810
+Notice, negative onex plus two, so the slope is negative one but it
+
+75
+00:03:08,810 --> 00:03:10,400
+intersects the y-axis at two.
+
+76
+00:03:10,410 --> 00:03:13,600
+Now if we increase y-intercept by one more it's just going
+
+77
+00:03:13,610 --> 00:03:15,560
+to push this line up one.
+
+78
+00:03:15,560 --> 00:03:17,650
+Let's do that.
+
+79
+00:03:17,660 --> 00:03:17,930
+See.
+
+80
+00:03:17,930 --> 00:03:21,100
+Oh, this is actually increasing it by increments of one / two.
+
+81
+00:03:21,110 --> 00:03:23,680
+Let's do another one, I just want to see what happens
+
+82
+00:03:23,680 --> 00:03:24,520
+on another graph.
+
+83
+00:03:24,530 --> 00:03:27,660
+It actually depends on the actual problem.
+
+84
+00:03:27,660 --> 00:03:29,340
+OK, this is interesting.
+
+85
+00:03:29,340 --> 00:03:30,120
+OK, this is the same thing.
+
+86
+00:03:30,130 --> 00:03:31,590
+We start at the same point.
+
+87
+00:03:31,590 --> 00:03:37,020
+Let's actually try to figure out the equation of a line that
+
+88
+00:03:37,030 --> 00:03:39,120
+goes through these two points.
+
+89
+00:03:39,120 --> 00:03:40,150
+Well, let's see.
+
+90
+00:03:40,150 --> 00:03:41,880
+It looks like the y-intercept if is going to have to
+
+91
+00:03:41,880 --> 00:03:43,960
+be a little bit lower.
+
+92
+00:03:43,960 --> 00:03:45,960
+I do not get why it would do that.
+
+93
+00:03:49,770 --> 00:03:54,230
+It just brings the line down as we lower the y-intercept.
+
+94
+00:03:54,240 --> 00:03:56,520
+And let's see I think the slope needs to be higher, because
+
+95
+00:03:56,520 --> 00:03:58,090
+those two points, the line that goes through them is
+
+96
+00:03:58,090 --> 00:04:00,260
+definitely steeper.
+
+97
+00:04:00,270 --> 00:04:01,970
+I apologize for this thing acting up like.
+
+98
+00:04:01,970 --> 00:04:04,520
+That looks like about the right slope.
+
+99
+00:04:04,530 --> 00:04:08,310
+The slope is like that, and these two points are connected.
+
+100
+00:04:08,310 --> 00:04:10,230
+Yeah, I think that looks like the right slope, but the
+
+101
+00:04:10,240 --> 00:04:11,460
+y-intercept has to be lower.
+
+102
+00:04:16,120 --> 00:04:17,860
+Almost there, I think.
+
+103
+00:04:20,560 --> 00:04:21,680
+There you go!
+
+104
+00:04:21,680 --> 00:04:24,960
+So the equation of this line is seven / fourx.
+
+105
+00:04:24,970 --> 00:04:28,400
+So 7/4, that's the same thing as like 1.75.
+
+106
+00:04:28,410 --> 00:04:33,350
+So the slope of this line slopes faster than one / one and
+
+107
+00:04:33,360 --> 00:04:34,540
+you can kind of see that.
+
+108
+00:04:34,540 --> 00:04:36,290
+I'll show you how to figure out all this, I just want to give
+
+109
+00:04:36,300 --> 00:04:38,980
+you an intuitive sense of what sloping and y-intercept is.
+
+110
+00:04:38,980 --> 00:04:42,510
+And it intersects the y-axis at negative thirteen / four.
+
+111
+00:04:42,510 --> 00:04:45,190
+That's a little more than three, which you can-- negative
+
+112
+00:04:45,200 --> 00:04:47,850
+three --which you can see right there.
+
+113
+00:04:47,860 --> 00:04:50,880
+Let's see if we can do another one.
+
+114
+00:04:50,880 --> 00:04:53,110
+And if you want, we can assign this module to you and you can
+
+115
+00:04:53,120 --> 00:04:55,370
+play with it just like I'm doing right here.
+
+116
+00:04:55,370 --> 00:04:58,280
+So let's see, the line that we want to get will go
+
+117
+00:04:58,290 --> 00:04:59,310
+something like that.
+
+118
+00:04:59,310 --> 00:05:02,530
+Looks like the current line's slope is a little too high.
+
+119
+00:05:02,540 --> 00:05:04,120
+Let me lower the slope a little bit.
+
+120
+00:05:04,120 --> 00:05:05,410
+That looks about right.
+
+121
+00:05:05,420 --> 00:05:09,130
+seven / eight, so that means for every eight you move to the right
+
+122
+00:05:09,130 --> 00:05:10,560
+you're going to move seven up.
+
+123
+00:05:10,570 --> 00:05:12,780
+And I'm going to draw that better in another module.
+
+124
+00:05:12,790 --> 00:05:16,470
+This module I'm kind of doing on the fly, so I apologize.
+
+125
+00:05:16,470 --> 00:05:18,910
+I do every model on the fly so I guess I really
+
+126
+00:05:18,920 --> 00:05:20,380
+should apologize.
+
+127
+00:05:20,380 --> 00:05:24,340
+But you're not paying for this, so I shouldn't apologize.
+
+128
+00:05:24,350 --> 00:05:27,230
+Oh, I distracted very easily.
+
+129
+00:05:27,240 --> 00:05:29,170
+Let's see, let's move this line up.
+
+130
+00:05:29,180 --> 00:05:30,660
+And you do that just by the y-intercept.
+
+131
+00:05:30,660 --> 00:05:32,850
+You can see shifting the y-intercept up just shifts
+
+132
+00:05:32,860 --> 00:05:33,880
+the line straight up.
+
+133
+00:05:33,880 --> 00:05:36,190
+It doesn't change the inclination of the line.
+
+134
+00:05:36,190 --> 00:05:38,090
+The slope changes the inclination of the line.
+
+135
+00:05:41,130 --> 00:05:42,180
+There we go.
+
+136
+00:05:42,180 --> 00:05:46,370
+The equation of this line is seven / eightx plus thirteen / four.
+
+137
+00:05:46,380 --> 00:05:49,050
+Let's see if what I said about slope is right if we move.
+
+138
+00:05:49,060 --> 00:05:51,630
+If we run eight, we should rise seven.
+
+139
+00:05:51,630 --> 00:05:52,030
+So let's see.
+
+140
+00:05:52,040 --> 00:05:53,070
+Run eight.
+
+141
+00:05:53,070 --> 00:06:02,070
+one, two, three, four, five, six, seven, eight.
+
+142
+00:06:02,080 --> 00:06:03,780
+So that gets us right there.
+
+143
+00:06:03,790 --> 00:06:06,660
+And then we should rise seven.
+
+144
+00:06:06,670 --> 00:06:14,920
+one, two, three, four, five, six, seven.
+
+145
+00:06:14,930 --> 00:06:16,740
+Well that actually gets us those exact points.
+
+146
+00:06:16,740 --> 00:06:18,240
+And we're back on the line again.
+
+147
+00:06:18,250 --> 00:06:21,170
+I'm going to draw another thing like that for you so if you get
+
+148
+00:06:21,170 --> 00:06:23,230
+confused don't lose heart.
+
+149
+00:06:23,240 --> 00:06:26,360
+Let's do one more.
+
+150
+00:06:26,370 --> 00:06:27,800
+OK.
+
+151
+00:06:27,800 --> 00:06:29,080
+Where's the other dot?
+
+152
+00:06:29,080 --> 00:06:31,550
+I don't know.
+
+153
+00:06:31,560 --> 00:06:33,610
+Let me see.
+
+154
+00:06:33,610 --> 00:06:34,860
+The other dot doesn't exist.
+
+155
+00:06:34,870 --> 00:06:37,170
+I gotta fix all these bugs in this thing.
+
+156
+00:06:37,170 --> 00:06:37,540
+Oh there.
+
+157
+00:06:37,540 --> 00:06:37,820
+Good.
+
+158
+00:06:37,820 --> 00:06:38,430
+It showed up.
+
+159
+00:06:38,430 --> 00:06:39,000
+It showed up.
+
+160
+00:06:39,010 --> 00:06:39,840
+Excellent.
+
+161
+00:06:39,850 --> 00:06:41,080
+OK, so look.
+
+162
+00:06:41,080 --> 00:06:43,510
+We have to make the line go through these two points.
+
+163
+00:06:43,520 --> 00:06:45,900
+It looks like the slope is negative, definitely.
+
+164
+00:06:45,910 --> 00:06:49,110
+Not that negative, it's like a fractional negative slope.
+
+165
+00:06:49,120 --> 00:06:51,720
+And it'll intercept the y-axis somewhere around here.
+
+166
+00:06:51,720 --> 00:06:54,390
+The y-intercept is going to be like seven and something.
+
+167
+00:06:54,390 --> 00:06:55,350
+seven and change.
+
+168
+00:06:55,360 --> 00:06:56,910
+So first of all let's get this slope down.
+
+169
+00:06:56,910 --> 00:06:57,100
+Oh boy.
+
+170
+00:06:57,110 --> 00:07:00,410
+This thing is going to jump around again.
+
+171
+00:07:00,410 --> 00:07:02,410
+Notice y equals zero, x plus one.
+
+172
+00:07:02,410 --> 00:07:05,010
+If we increase the slope.
+
+173
+00:07:05,010 --> 00:07:07,290
+This thing is doing all sorts-- I haven't seen this application
+
+174
+00:07:07,300 --> 00:07:11,120
+in a while, so I must've written it when I had inferior
+
+175
+00:07:11,120 --> 00:07:15,170
+programming skills, let me keep --OK, that slope
+
+176
+00:07:15,180 --> 00:07:16,160
+might be right.
+
+177
+00:07:16,160 --> 00:07:17,950
+Let's bring the line up higher.
+
+178
+00:07:21,550 --> 00:07:26,190
+No, it still seems like my slope-- see the y-intercept,
+
+179
+00:07:26,190 --> 00:07:27,200
+I'm raising the line.
+
+180
+00:07:30,160 --> 00:07:31,820
+Oh good, I got it exactly right.
+
+181
+00:07:31,820 --> 00:07:32,610
+And I was right.
+
+182
+00:07:32,620 --> 00:07:36,300
+The slope is negative, because you can see it slopes downward.
+
+183
+00:07:36,310 --> 00:07:38,700
+But it's not sloping downward that fast.
+
+184
+00:07:38,700 --> 00:07:41,120
+And that make sense, that the slope is negative one / three.
+
+185
+00:07:41,120 --> 00:07:49,840
+And that makes sense because if we run three, one, two, three, we rise
+
+186
+00:07:49,850 --> 00:07:53,050
+negative one, we rise negative one.
+
+187
+00:07:53,060 --> 00:07:53,540
+Right there.
+
+188
+00:07:53,540 --> 00:07:55,930
+So that's why the slope is negative one / three.
+
+189
+00:07:55,930 --> 00:07:58,510
+And then the y-intercept is twenty-two / three.
+
+190
+00:07:58,520 --> 00:08:00,160
+Well that's seven and one / three.
+
+191
+00:08:00,170 --> 00:08:03,640
+And right there, we intercept the y-axis one / three of the
+
+192
+00:08:03,640 --> 00:08:06,840
+way between seven and eight.
+
+193
+00:08:06,850 --> 00:08:10,010
+Well I think that should at least give you a little bit of
+
+194
+00:08:10,010 --> 00:08:14,590
+an intuition on what slope and y-intercept are and you can
+
+195
+00:08:14,600 --> 00:08:16,830
+have this module assigned for you, so you could play
+
+196
+00:08:16,830 --> 00:08:17,530
+with it yourself.
+
+197
+00:08:17,540 --> 00:08:19,930
+And I'm going to do some more models where you actually
+
+198
+00:08:19,930 --> 00:08:22,630
+calculate slope and y-intercept and hopefully give you even
+
+199
+00:08:22,640 --> 00:08:24,810
+though further intuition on what they are.
+
+200
+00:08:24,810 --> 00:08:28,840
+So I hope you have fun playing around with this stuff.
+
+201
+00:08:28,850 --> 00:08:30,990
+I remember I was very excited when I first learned
+
+202
+00:08:31,000 --> 00:08:32,880
+this stuff, because it's very visual.
+
+203
+00:08:32,880 --> 00:08:34,860
+So, have fun.

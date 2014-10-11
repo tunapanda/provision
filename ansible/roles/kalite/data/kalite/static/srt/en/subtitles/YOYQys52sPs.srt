@@ -1,0 +1,259 @@
+1
+99:59:59,999 --> 99:59:59,999
+now know how to find the areas of rectangles.
+
+2
+99:59:59,999 --> 99:59:59,999
+What I want to do in this video, is think about how we can find the areas of triangles.
+
+3
+99:59:59,999 --> 99:59:59,999
+so we are starting here with a right triangle. It has 90 degree angle. Triangle A B C
+
+4
+99:59:59,999 --> 99:59:59,999
+so lets think about how we can find its area. Maybe we can construct a rectangle out of triangle ABC
+
+5
+99:59:59,999 --> 99:59:59,999
+and if we can construct a reactangle out of it, maybe we can somehow
+
+6
+99:59:59,999 --> 99:59:59,999
+find our area of part of that rectangle and the best way to construct our rectangle is to really duplicate
+
+7
+99:59:59,999 --> 99:59:59,999
+ABC
+
+8
+99:59:59,999 --> 99:59:59,999
+and then flip it over and put it right on top this. So just to verify that it will definitely be a rectangle
+
+9
+99:59:59,999 --> 99:59:59,999
+so we know that this is 90 degrees right over here. Let's say that this is x degrees right over there
+
+10
+99:59:59,999 --> 99:59:59,999
+we have x plus 90 plus this thing have to be equal to 180.
+
+11
+99:59:59,999 --> 99:59:59,999
+so this thing and this thing have to add up to 90 so let's just call this 90-x.
+
+12
+99:59:59,999 --> 99:59:59,999
+now lets flip this thing and rotate it around.
+
+13
+99:59:59,999 --> 99:59:59,999
+so that it will look like this.
+
+14
+99:59:59,999 --> 99:59:59,999
+so that you would have another triangle that would look just like this:
+
+15
+99:59:59,999 --> 99:59:59,999
+where now this right angle on the flip version, is that right angle right over there
+
+16
+99:59:59,999 --> 99:59:59,999
+this right angle right over here, this angle right over here, this x is now this angle right over there
+
+17
+99:59:59,999 --> 99:59:59,999
+and this 90-x is now this angle right over there. now you can see x+90 -x that will give you a right
+
+18
+99:59:59,999 --> 99:59:59,999
+angle
+
+19
+99:59:59,999 --> 99:59:59,999
+and that will gives you a right angle, and you have four sides and four right angles you are definitely
+
+20
+99:59:59,999 --> 99:59:59,999
+dealing with a rectangle.
+
+21
+99:59:59,999 --> 99:59:59,999
+and this rectangle has two of our original triangles in it.
+
+22
+99:59:59,999 --> 99:59:59,999
+So we can write that the area of triangle of ABC.
+
+23
+99:59:59,999 --> 99:59:59,999
+So the area of triangle ABC, thats what the brackets mean. Area of triangle ABC
+
+24
+99:59:59,999 --> 99:59:59,999
+is going to be equal to 1/2 times the area of our entire rectangle
+
+25
+99:59:59,999 --> 99:59:59,999
+let me add another point here, let me call this: D, its going to be 1/2 the are of the rectangle.
+
+26
+99:59:59,999 --> 99:59:59,999
+ABCD, and we know how to find the area of rectangle ABCD, its going to be equal to.
+
+27
+99:59:59,999 --> 99:59:59,999
+Its going to be equal to the base of the rectangle. So this is going to be equal to 1/2 times this par.
+
+28
+99:59:59,999 --> 99:59:59,999
+let me use this in a different color, the area of ABCD is equal to the base of the width of the rectangle
+
+29
+99:59:59,999 --> 99:59:59,999
+so thats just the length of BC, I'm just putting this in parenthessis.
+
+30
+99:59:59,999 --> 99:59:59,999
+BC is just the length of this length segment and I'm just putting it into parenthesis.
+
+31
+99:59:59,999 --> 99:59:59,999
+so that we don't get the letters jumbled up. So its going to be this width or this base right here
+
+32
+99:59:59,999 --> 99:59:59,999
+times the height of the rectangle. So times AD, sorry, times AB.
+
+33
+99:59:59,999 --> 99:59:59,999
+so this base times this height is gives us the area of our entire rectangle
+
+34
+99:59:59,999 --> 99:59:59,999
+And the area of our right triangle is half of that. So there we have it, 1/2 times times this base, times t
+
+35
+99:59:59,999 --> 99:59:59,999
+this height.
+
+36
+99:59:59,999 --> 99:59:59,999
+is the area of a right triangle. So in general if you ever have a right triangle and this is a right
+
+37
+99:59:59,999 --> 99:59:59,999
+angle right over there. You need one right angle in order for it be a right triangle and this
+
+38
+99:59:59,999 --> 99:59:59,999
+base has length B and this side over here has side h, so you know that the area
+
+39
+99:59:59,999 --> 99:59:59,999
+the area is going to be equal to 1/2 times the base times the base of the triangle
+
+40
+99:59:59,999 --> 99:59:59,999
+thats the base of the triangle bc.
+
+41
+99:59:59,999 --> 99:59:59,999
+times the height of the triangle. so you can view it this way if you look at the actual letter points
+
+42
+99:59:59,999 --> 99:59:59,999
+or just view these mesasures as the base times the height. 1/2 base times height
+
+43
+99:59:59,999 --> 99:59:59,999
+and we only know if this works for a right triangle. now let's think about it for other types of triangle that aren't
+
+44
+99:59:59,999 --> 99:59:59,999
+necessarily right triangles.
+
+45
+99:59:59,999 --> 99:59:59,999
+So here I have a kind of a arbritrary triangle bc. and to approach figure out its area
+
+46
+99:59:59,999 --> 99:59:59,999
+what I want to do is split this up into two right triangles. so what I'm going to do is drop
+
+47
+99:59:59,999 --> 99:59:59,999
+a perpendicular from b. so i'm just going to literally, and if this was an actual structure you would just literally drop something straight down from here, and that line is
+
+48
+99:59:59,999 --> 99:59:59,999
+going to be perpendicular to this base right over here. to ac let me call that point
+
+49
+99:59:59,999 --> 99:59:59,999
+let me call that point d, and whats useful here is that now that we have constructed we turned that one
+
+50
+99:59:59,999 --> 99:59:59,999
+triangle into two right triangles. So, we can say that the area
+
+51
+99:59:59,999 --> 99:59:59,999
+of triangle ABC thats what we want to figure out is equal to the area of this character
+
+52
+99:59:59,999 --> 99:59:59,999
+right here. So its equal to the area of triangle ABD.
+
+53
+99:59:59,999 --> 99:59:59,999
+ABD plus the area of triangle, plus the area of this magenta triangle, of BCD.
+
+54
+99:59:59,999 --> 99:59:59,999
+BCD
+
+55
+99:59:59,999 --> 99:59:59,999
+And this is useful becuase we know how to find the area of right triangles
+
+56
+99:59:59,999 --> 99:59:59,999
+and this is 90 degrees, this is also going to be 90 degrees.
+
+57
+99:59:59,999 --> 99:59:59,999
+the area of ABD is 1/2 Base times Height.
+
+58
+99:59:59,999 --> 99:59:59,999
+So its going to be 1/2 times AD times the height
+
+59
+99:59:59,999 --> 99:59:59,999
+which is going to be the length of BD right over here, assuming that we can figure this out
+
+60
+99:59:59,999 --> 99:59:59,999
+so this times that length. So BD, thats the area of the blue triangle.
+
+61
+99:59:59,999 --> 99:59:59,999
+and now if and now I can find the lengrth of the magenta triangle.
+
+62
+99:59:59,999 --> 99:59:59,999
+well once again its a right triangle its going to be 1/2, times the length of this base,
+
+63
+99:59:59,999 --> 99:59:59,999
+right over here which is DC
+
+64
+99:59:59,999 --> 99:59:59,999
+the length of segment DC times the length of BD again.
+
+65
+99:59:59,999 --> 99:59:59,999
+Times the length of segment bd. Now you can factor out a 1/2

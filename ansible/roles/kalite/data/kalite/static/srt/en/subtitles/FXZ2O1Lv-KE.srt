@@ -1,0 +1,1318 @@
+1
+00:00:00,000 --> 00:00:00,360
+   
+
+2
+00:00:00,360 --> 00:00:02,960
+In the last video, we learned
+about what is, quite
+
+3
+00:00:02,960 --> 00:00:05,340
+possibly, the most profound
+idea in statistics.
+
+4
+00:00:05,340 --> 00:00:06,780
+And that's the central
+limit theorem.
+
+5
+00:00:06,780 --> 00:00:08,930
+And the reason why it's so neat
+is we can start with any
+
+6
+00:00:08,930 --> 00:00:12,010
+distribution that has a well
+defined mean and variance.
+
+7
+00:00:12,010 --> 00:00:13,950
+Actually I made this--
+I wrote the standard
+
+8
+00:00:13,950 --> 00:00:14,850
+deviation in the last few.
+
+9
+00:00:14,850 --> 00:00:16,640
+That should be the mean.
+
+10
+00:00:16,640 --> 00:00:18,670
+And let's say it
+has some variance.
+
+11
+00:00:18,670 --> 00:00:19,620
+I could write it like that.
+
+12
+00:00:19,620 --> 00:00:21,890
+Or I could write the
+standard deviation there.
+
+13
+00:00:21,890 --> 00:00:24,420
+But as long as it has a well
+defined mean and standard
+
+14
+00:00:24,420 --> 00:00:27,830
+deviation, I don't care what
+the distribution looks like.
+
+15
+00:00:27,830 --> 00:00:30,170
+What I can do is take
+samples, in the last
+
+16
+00:00:30,170 --> 00:00:31,920
+video, of say size 4.
+
+17
+00:00:31,920 --> 00:00:35,600
+So in that means I take,
+literally, four instances
+
+18
+00:00:35,600 --> 00:00:36,910
+of this random variable.
+
+19
+00:00:36,910 --> 00:00:38,040
+This is one example.
+
+20
+00:00:38,040 --> 00:00:39,550
+I take their mean.
+
+21
+00:00:39,550 --> 00:00:42,850
+And I consider this the sample
+mean from my first trial.
+
+22
+00:00:42,850 --> 00:00:44,840
+Or, you could almost say,
+for my first sample.
+
+23
+00:00:44,840 --> 00:00:46,430
+I know it's very confusing
+because you can
+
+24
+00:00:46,430 --> 00:00:47,860
+consider that a sample.
+
+25
+00:00:47,860 --> 00:00:48,970
+The set to be a sample.
+
+26
+00:00:48,970 --> 00:00:51,760
+Or you can consider each of its
+members of the-- Each member
+
+27
+00:00:51,760 --> 00:00:52,680
+of the set as a sample.
+
+28
+00:00:52,680 --> 00:00:54,540
+So that can be a little
+bit confusing there.
+
+29
+00:00:54,540 --> 00:00:55,900
+But I have this
+first sample mean.
+
+30
+00:00:55,900 --> 00:00:57,650
+And then I keep doing
+that over and over.
+
+31
+00:00:57,650 --> 00:01:00,370
+In my second sample,
+my sample size is 4.
+
+32
+00:01:00,370 --> 00:01:03,110
+I got four instances of
+this random variable.
+
+33
+00:01:03,110 --> 00:01:03,830
+I average them.
+
+34
+00:01:03,830 --> 00:01:05,650
+I have another sample mean.
+
+35
+00:01:05,650 --> 00:01:09,230
+And the cool thing about the
+central limit theorem is, as I
+
+36
+00:01:09,230 --> 00:01:11,990
+keep plotting the frequency
+distribution of my sample
+
+37
+00:01:11,990 --> 00:01:15,570
+means, it starts to approach
+something that approximates
+
+38
+00:01:15,570 --> 00:01:16,980
+the normal distribution.
+
+39
+00:01:16,980 --> 00:01:19,420
+And it's going to do a better
+job of approximating that
+
+40
+00:01:19,420 --> 00:01:22,710
+normal distribution
+as n gets larger.
+
+41
+00:01:22,710 --> 00:01:25,760
+And just so we have a little
+terminology on our belt, this
+
+42
+00:01:25,760 --> 00:01:30,610
+frequency distribution right
+here that I plotted out.
+
+43
+00:01:30,610 --> 00:01:34,830
+Or here or up here, that
+I started plotting out.
+
+44
+00:01:34,830 --> 00:01:37,950
+That is called-- And it's kind
+of confusing because we use
+
+45
+00:01:37,950 --> 00:01:39,360
+the word sample so much.
+
+46
+00:01:39,360 --> 00:01:48,340
+That is called the
+sampling distribution
+
+47
+00:01:48,340 --> 00:01:52,340
+of the sample mean.
+
+48
+00:01:52,340 --> 00:01:53,650
+And let's dissect
+this a little bit.
+
+49
+00:01:53,650 --> 00:01:55,840
+Just so that this long
+description of this
+
+50
+00:01:55,840 --> 00:01:58,720
+distribution starts to make
+a little bit of sense.
+
+51
+00:01:58,720 --> 00:02:01,980
+When we say it's the sampling
+distribution, that's telling us
+
+52
+00:02:01,980 --> 00:02:05,190
+that it's being derived from--
+It's the distribution of some
+
+53
+00:02:05,190 --> 00:02:08,430
+statistic, which in this case,
+happens to be the sample mean.
+
+54
+00:02:08,430 --> 00:02:11,390
+And we're driving it from
+samples of an original
+
+55
+00:02:11,390 --> 00:02:12,050
+distribution.
+
+56
+00:02:12,050 --> 00:02:15,080
+So each of these-- So
+this is my first sample.
+
+57
+00:02:15,080 --> 00:02:16,540
+My sample size is 4.
+
+58
+00:02:16,540 --> 00:02:18,540
+I'm using the
+statistic the mean.
+
+59
+00:02:18,540 --> 00:02:19,710
+I actually could have done
+it with other things.
+
+60
+00:02:19,710 --> 00:02:23,990
+I could have done the mode or
+the range or other statistics.
+
+61
+00:02:23,990 --> 00:02:28,710
+But the sampling distribution
+of the sample mean is
+
+62
+00:02:28,710 --> 00:02:29,660
+the most common one.
+
+63
+00:02:29,660 --> 00:02:33,460
+Is probably in my mind the best
+place to start learning about
+
+64
+00:02:33,460 --> 00:02:34,550
+the central limit theorem.
+
+65
+00:02:34,550 --> 00:02:37,020
+And even, frankly,
+sampling distribution.
+
+66
+00:02:37,020 --> 00:02:38,140
+So that's what it's called.
+
+67
+00:02:38,140 --> 00:02:40,060
+And just as a little bit of
+background-- And I'll prove
+
+68
+00:02:40,060 --> 00:02:42,360
+this to you experimentally,
+not mathematically.
+
+69
+00:02:42,360 --> 00:02:45,480
+But I think the experimental
+is, on some levels, more
+
+70
+00:02:45,480 --> 00:02:46,850
+satisfying than statistics.
+
+71
+00:02:46,850 --> 00:02:53,000
+That this will have the same
+mean as your original
+
+72
+00:02:53,000 --> 00:02:56,240
+distribution right here.
+
+73
+00:02:56,240 --> 00:02:57,960
+So it has the same mean.
+
+74
+00:02:57,960 --> 00:02:59,770
+But we'll see in the next video
+that this is actually going
+
+75
+00:02:59,770 --> 00:03:01,910
+to be-- It's going to
+start approximating a
+
+76
+00:03:01,910 --> 00:03:03,120
+normal distribution.
+
+77
+00:03:03,120 --> 00:03:04,840
+Even though my original
+distribution that this is
+
+78
+00:03:04,840 --> 00:03:07,370
+kind of generated from is
+completely non-normal.
+
+79
+00:03:07,370 --> 00:03:10,950
+So let's do that with
+this app right here.
+
+80
+00:03:10,950 --> 00:03:13,910
+And just to give proper credit
+where credit is due, this is--
+
+81
+00:03:13,910 --> 00:03:15,420
+I think it was developed
+at Rice University.
+
+82
+00:03:15,420 --> 00:03:23,270
+This is from
+onlinestatbook.com.
+
+83
+00:03:23,270 --> 00:03:25,240
+And this is their app, which I
+think is really neat app
+
+84
+00:03:25,240 --> 00:03:27,980
+because it really helps you to
+visualize what a sampling
+
+85
+00:03:27,980 --> 00:03:30,240
+distribution of the
+sample mean is.
+
+86
+00:03:30,240 --> 00:03:33,540
+So I can literally create my
+own custom distribution here.
+
+87
+00:03:33,540 --> 00:03:35,860
+So let me make something
+kind of crazy.
+
+88
+00:03:35,860 --> 00:03:40,510
+So you can do this in theory
+with a discrete or a continuous
+
+89
+00:03:40,510 --> 00:03:42,710
+probability density function.
+
+90
+00:03:42,710 --> 00:03:45,320
+But what they have here could
+take on 1 of 32 values.
+
+91
+00:03:45,320 --> 00:03:47,440
+And I'm just going to set the
+different probabilities of
+
+92
+00:03:47,440 --> 00:03:49,590
+getting any of those 32 values.
+
+93
+00:03:49,590 --> 00:03:52,255
+So clearly this right here is
+not a normal distribution.
+
+94
+00:03:52,255 --> 00:03:55,335
+It looks a little bit bimodal,
+but it doesn't have long tails.
+
+95
+00:03:55,335 --> 00:03:58,050
+But what I want to do is first
+just use a simulation to
+
+96
+00:03:58,050 --> 00:04:01,170
+understand, or to better
+understand, what the sampling
+
+97
+00:04:01,170 --> 00:04:02,710
+distribution is all about.
+
+98
+00:04:02,710 --> 00:04:05,200
+So what I'm going to do
+I'm going to take-- We'll
+
+99
+00:04:05,200 --> 00:04:06,870
+start with 5 at a time.
+
+100
+00:04:06,870 --> 00:04:09,940
+So my sample size
+is going to be 5.
+
+101
+00:04:09,940 --> 00:04:12,153
+And so when I click animate,
+what it's going to do is it's
+
+102
+00:04:12,153 --> 00:04:15,300
+going to take five samples
+from this probability
+
+103
+00:04:15,300 --> 00:04:16,760
+distribution function.
+
+104
+00:04:16,760 --> 00:04:18,410
+It's going to take five samples
+and you're going to see
+
+105
+00:04:18,410 --> 00:04:19,770
+them when I click animate.
+
+106
+00:04:19,770 --> 00:04:22,230
+It's going to average them and
+plot the average down here.
+
+107
+00:04:22,230 --> 00:04:23,110
+And then I'm going
+to click it again.
+
+108
+00:04:23,110 --> 00:04:24,350
+It's going to do it again.
+
+109
+00:04:24,350 --> 00:04:25,000
+So there you go.
+
+110
+00:04:25,000 --> 00:04:26,450
+I got five samples from there.
+
+111
+00:04:26,450 --> 00:04:27,550
+It averaged them.
+
+112
+00:04:27,550 --> 00:04:29,370
+And it hit there.
+
+113
+00:04:29,370 --> 00:04:30,980
+What did I just do?
+
+114
+00:04:30,980 --> 00:04:32,860
+I clicked-- Oh.
+
+115
+00:04:32,860 --> 00:04:33,740
+I wanted to clear that.
+
+116
+00:04:33,740 --> 00:04:36,270
+Let me make this
+bottom one none.
+
+117
+00:04:36,270 --> 00:04:37,250
+So let me do that over again.
+
+118
+00:04:37,250 --> 00:04:39,600
+So I'm going to
+take 5 at a time.
+
+119
+00:04:39,600 --> 00:04:41,780
+So I took five samples
+from up here.
+
+120
+00:04:41,780 --> 00:04:42,860
+And then it took its mean.
+
+121
+00:04:42,860 --> 00:04:44,250
+And plotted the mean there.
+
+122
+00:04:44,250 --> 00:04:45,930
+Let me do it again.
+
+123
+00:04:45,930 --> 00:04:48,340
+Five samples from this
+probability distribution
+
+124
+00:04:48,340 --> 00:04:49,950
+function, plotted
+it right there.
+
+125
+00:04:49,950 --> 00:04:52,810
+I could keep doing-- It'll take
+some time, but, as you can see,
+
+126
+00:04:52,810 --> 00:04:54,380
+I plotted it right there.
+
+127
+00:04:54,380 --> 00:04:56,180
+Now, I could do this
+a thousand times.
+
+128
+00:04:56,180 --> 00:04:56,870
+It's going to take forever.
+
+129
+00:04:56,870 --> 00:04:59,320
+Let's say I just wanted
+to do it 1,000 times.
+
+130
+00:04:59,320 --> 00:05:01,260
+So it's-- This program, just
+to be clear, it's actually
+
+131
+00:05:01,260 --> 00:05:02,370
+generating the random numbers.
+
+132
+00:05:02,370 --> 00:05:04,370
+This isn't like a
+rigged program.
+
+133
+00:05:04,370 --> 00:05:06,580
+It's actually going to generate
+the random numbers according
+
+134
+00:05:06,580 --> 00:05:08,690
+to this probability
+distribution function.
+
+135
+00:05:08,690 --> 00:05:11,180
+It's going to take five at
+a time, find their means
+
+136
+00:05:11,180 --> 00:05:12,030
+and plot the means.
+
+137
+00:05:12,030 --> 00:05:14,900
+So if I click 10,000, it's
+going to do that 10,000 times.
+
+138
+00:05:14,900 --> 00:05:17,630
+So it's going to take 5 numbers
+from here 10,000 times.
+
+139
+00:05:17,630 --> 00:05:21,000
+And find their means
+10,000 times.
+
+140
+00:05:21,000 --> 00:05:22,650
+And then plot the
+10,000 means here.
+
+141
+00:05:22,650 --> 00:05:25,010
+So let's do that.
+
+142
+00:05:25,010 --> 00:05:25,660
+So there you go.
+
+143
+00:05:25,660 --> 00:05:29,190
+Notice, it's already looking a
+lot like a normal distribution.
+
+144
+00:05:29,190 --> 00:05:32,000
+And, like I said, the
+original mean of my crazy
+
+145
+00:05:32,000 --> 00:05:34,500
+distribution here was 14.45.
+
+146
+00:05:34,500 --> 00:05:38,120
+And the mean of, after doing
+10,000 samples or 10,000
+
+147
+00:05:38,120 --> 00:05:40,980
+trials, my mean here is 14.42.
+
+148
+00:05:40,980 --> 00:05:43,680
+So I'm already getting pretty
+close to the mean there.
+
+149
+00:05:43,680 --> 00:05:44,980
+My standard deviation,
+you might notice,
+
+150
+00:05:44,980 --> 00:05:45,920
+is less than that.
+
+151
+00:05:45,920 --> 00:05:47,790
+We'll talk about that
+in a future video.
+
+152
+00:05:47,790 --> 00:05:49,200
+And this skew and kurtosis.
+
+153
+00:05:49,200 --> 00:05:52,600
+These are ideas-- These are
+things that help us measure
+
+154
+00:05:52,600 --> 00:05:54,790
+how normal a distribution is.
+
+155
+00:05:54,790 --> 00:05:56,650
+And I've talked a little
+bit about it in the past.
+
+156
+00:05:56,650 --> 00:05:59,360
+And let me actually just
+diverge a little bit.
+
+157
+00:05:59,360 --> 00:06:01,200
+Just so it's interesting.
+
+158
+00:06:01,200 --> 00:06:03,150
+And they're fairly
+straightforward concepts.
+
+159
+00:06:03,150 --> 00:06:06,175
+Skew literally tells-- So
+if this is-- Let me do
+
+160
+00:06:06,175 --> 00:06:08,700
+it in a different color.
+
+161
+00:06:08,700 --> 00:06:11,570
+If this is a perfect normal
+distribution, and clearly
+
+162
+00:06:11,570 --> 00:06:14,800
+my drawing is very
+far from perfect.
+
+163
+00:06:14,800 --> 00:06:17,960
+If that's a perfect
+distribution, this would
+
+164
+00:06:17,960 --> 00:06:19,670
+have a skew of 0.
+
+165
+00:06:19,670 --> 00:06:21,890
+If you have a positive skew,
+that means you have a
+
+166
+00:06:21,890 --> 00:06:24,430
+larger right tail than you
+would've otherwise expect.
+
+167
+00:06:24,430 --> 00:06:27,520
+So something with a positive
+skew might look like this.
+
+168
+00:06:27,520 --> 00:06:29,830
+It would have a large
+tail to the right.
+
+169
+00:06:29,830 --> 00:06:34,320
+So this would be a positive
+skew, which makes it a
+
+170
+00:06:34,320 --> 00:06:36,860
+little less than ideal
+for normal distribution.
+
+171
+00:06:36,860 --> 00:06:38,100
+And a negative skew
+would look like this.
+
+172
+00:06:38,100 --> 00:06:40,470
+It has a long tail to the left.
+
+173
+00:06:40,470 --> 00:06:43,220
+So negative skew might
+look like that.
+
+174
+00:06:43,220 --> 00:06:44,820
+So that is a negative skew.
+
+175
+00:06:44,820 --> 00:06:46,880
+If you have trouble remembering
+it, just remember which
+
+176
+00:06:46,880 --> 00:06:47,910
+direction the tail is going.
+
+177
+00:06:47,910 --> 00:06:49,820
+This tail is going towards
+the negative direction.
+
+178
+00:06:49,820 --> 00:06:51,730
+This tail is going to
+the positive direction.
+
+179
+00:06:51,730 --> 00:06:54,040
+So something has no skew, that
+means that it's nice and
+
+180
+00:06:54,040 --> 00:06:56,120
+symmetrical around its mean.
+
+181
+00:06:56,120 --> 00:06:58,950
+Now kurtosis, which sounds like
+a very fancy word, is similarly
+
+182
+00:06:58,950 --> 00:07:01,750
+not that fancy of an idea.
+
+183
+00:07:01,750 --> 00:07:03,640
+Kurtosis.
+
+184
+00:07:03,640 --> 00:07:06,690
+So, once again, if I were
+to draw a perfect normal
+
+185
+00:07:06,690 --> 00:07:10,120
+distribution-- Remember, there
+is no one normal distribution.
+
+186
+00:07:10,120 --> 00:07:11,500
+You could have different
+means and different
+
+187
+00:07:11,500 --> 00:07:14,560
+standard deviations.
+
+188
+00:07:14,560 --> 00:07:16,850
+Let's say that's a perfect
+normal distribution.
+
+189
+00:07:16,850 --> 00:07:21,910
+If I have positive kurtosis,
+what's going to happen is, I'm
+
+190
+00:07:21,910 --> 00:07:23,970
+going to have fatter tails.
+
+191
+00:07:23,970 --> 00:07:25,390
+Let me draw it a little
+nicer than that.
+
+192
+00:07:25,390 --> 00:07:28,290
+I'm going to have fatter
+tails, but I'm going to
+
+193
+00:07:28,290 --> 00:07:30,960
+have a more pointy peak.
+
+194
+00:07:30,960 --> 00:07:32,230
+I didn't have to draw
+it that pointy.
+
+195
+00:07:32,230 --> 00:07:33,320
+Let me draw it like this.
+
+196
+00:07:33,320 --> 00:07:36,590
+I'm going to have fatter tails,
+and I'm going to have a
+
+197
+00:07:36,590 --> 00:07:39,390
+more pointy peak than
+a normal distribution.
+
+198
+00:07:39,390 --> 00:07:41,810
+So this, right here,
+is positive kurtosis.
+
+199
+00:07:41,810 --> 00:07:45,180
+So something that has positive
+kurtosis, depending on how
+
+200
+00:07:45,180 --> 00:07:47,530
+positive it is, it tells you
+it's a little bit more pointy
+
+201
+00:07:47,530 --> 00:07:49,400
+than a real normal
+distribution.
+
+202
+00:07:49,400 --> 00:07:51,260
+Positive kurtosis.
+
+203
+00:07:51,260 --> 00:07:55,220
+And negative kurtosis has
+smaller tails, but it's
+
+204
+00:07:55,220 --> 00:07:57,250
+smoother near the middle.
+
+205
+00:07:57,250 --> 00:07:58,500
+So it's like this.
+
+206
+00:07:58,500 --> 00:08:02,140
+So something like this would
+have negative kurtosis.
+
+207
+00:08:02,140 --> 00:08:05,030
+   
+
+208
+00:08:05,030 --> 00:08:06,670
+So maybe in future videos,
+we'll explore that
+
+209
+00:08:06,670 --> 00:08:07,610
+in more detail.
+
+210
+00:08:07,610 --> 00:08:09,840
+But in the context of the
+simulation, it's just
+
+211
+00:08:09,840 --> 00:08:12,220
+telling us how normal
+this distribution is.
+
+212
+00:08:12,220 --> 00:08:15,240
+So when our sample size was n
+equal 5, and we did 10,000
+
+213
+00:08:15,240 --> 00:08:17,700
+trials, we got pretty close
+to a normal distribution.
+
+214
+00:08:17,700 --> 00:08:20,965
+Let's do another 10,000 trials
+just to see what happens.
+
+215
+00:08:20,965 --> 00:08:23,070
+It looks even more like
+a normal distribution.
+
+216
+00:08:23,070 --> 00:08:24,875
+Our mean is now the
+exact same number.
+
+217
+00:08:24,875 --> 00:08:26,510
+But we still have a
+little bit of skew and a
+
+218
+00:08:26,510 --> 00:08:27,930
+little bit of kurtosis.
+
+219
+00:08:27,930 --> 00:08:29,640
+Now let's see what happens if
+we were to do the same thing
+
+220
+00:08:29,640 --> 00:08:31,510
+with a larger sample size.
+
+221
+00:08:31,510 --> 00:08:33,530
+And we could actually do
+them simultaneously.
+
+222
+00:08:33,530 --> 00:08:35,050
+So here's n equal 5.
+
+223
+00:08:35,050 --> 00:08:37,780
+Let's do here n equals 25.
+
+224
+00:08:37,780 --> 00:08:39,680
+Let's let me clear them.
+
+225
+00:08:39,680 --> 00:08:41,620
+I'm going to do the sample--
+sampling distribution
+
+226
+00:08:41,620 --> 00:08:43,140
+of the sample mean.
+
+227
+00:08:43,140 --> 00:08:44,890
+As I'm going to run 10,000
+trials-- So I'll do one
+
+228
+00:08:44,890 --> 00:08:47,410
+animated trial, just so you
+remember what's going on.
+
+229
+00:08:47,410 --> 00:08:49,640
+So I'm literally taking first
+5 samples from up here.
+
+230
+00:08:49,640 --> 00:08:50,620
+Find their mean.
+
+231
+00:08:50,620 --> 00:08:53,020
+Now I'm taking 25
+samples from up here.
+
+232
+00:08:53,020 --> 00:08:55,370
+Find it's mean.
+
+233
+00:08:55,370 --> 00:08:56,850
+And then plotting it down here.
+
+234
+00:08:56,850 --> 00:08:58,660
+So here the sample size is 25.
+
+235
+00:08:58,660 --> 00:08:59,160
+Here it's 5.
+
+236
+00:08:59,160 --> 00:09:01,060
+I'll do it one more time.
+
+237
+00:09:01,060 --> 00:09:03,270
+I take 5, get the
+mean, plot it.
+
+238
+00:09:03,270 --> 00:09:07,830
+Take 25, get the mean, and
+then plot it down there.
+
+239
+00:09:07,830 --> 00:09:09,710
+This is a larger sample size.
+
+240
+00:09:09,710 --> 00:09:12,750
+Now that thing that I just did,
+I'm going to do 10,000 times.
+
+241
+00:09:12,750 --> 00:09:15,520
+   
+
+242
+00:09:15,520 --> 00:09:17,640
+And that's interest-- Remember,
+our first distribution was just
+
+243
+00:09:17,640 --> 00:09:21,010
+this really crazy, very
+non-normal distribution.
+
+244
+00:09:21,010 --> 00:09:23,190
+But once we did it-- whoops.
+
+245
+00:09:23,190 --> 00:09:24,720
+I didn't want to
+make it that big.
+
+246
+00:09:24,720 --> 00:09:28,620
+But once we-- Scroll
+up a little bit.
+
+247
+00:09:28,620 --> 00:09:29,990
+So here, what's interesting.
+
+248
+00:09:29,990 --> 00:09:31,520
+They both look a little normal.
+
+249
+00:09:31,520 --> 00:09:33,580
+But if you look at the skew
+and the kurtosis when our
+
+250
+00:09:33,580 --> 00:09:36,310
+sample size is larger,
+it's more normal.
+
+251
+00:09:36,310 --> 00:09:40,000
+This has a lower skew than when
+our sample size was only 5.
+
+252
+00:09:40,000 --> 00:09:43,390
+And it has a less negative
+kurtosis then when our
+
+253
+00:09:43,390 --> 00:09:44,290
+sample size was 5.
+
+254
+00:09:44,290 --> 00:09:47,420
+So this is a more
+normal distribution.
+
+255
+00:09:47,420 --> 00:09:49,700
+And, one thing that we're going
+to explore further in a future
+
+256
+00:09:49,700 --> 00:09:53,420
+video, is not only is it more
+normal in it's shape, but it's
+
+257
+00:09:53,420 --> 00:09:55,700
+also tighter fit
+around the mean.
+
+258
+00:09:55,700 --> 00:09:58,500
+And you can even think about
+why that kind of make sense.
+
+259
+00:09:58,500 --> 00:10:01,710
+When you're sample size is
+larger, your odds of getting
+
+260
+00:10:01,710 --> 00:10:03,720
+really far away from
+the mean is lower.
+
+261
+00:10:03,720 --> 00:10:06,070
+Because it's very low
+likelihood if you're taking 25
+
+262
+00:10:06,070 --> 00:10:08,210
+samples or 100 samples that
+you're just going to get a
+
+263
+00:10:08,210 --> 00:10:10,470
+bunch of stuff way out here, a
+bunch of stuff way out here.
+
+264
+00:10:10,470 --> 00:10:13,010
+You're very likely to get a
+reasonable spread of things.
+
+265
+00:10:13,010 --> 00:10:15,230
+So it makes sense that your
+mean-- your sample mean is
+
+266
+00:10:15,230 --> 00:10:17,710
+less likely to be far
+away from the mean.
+
+267
+00:10:17,710 --> 00:10:19,110
+We're going to talk a
+little bit more about
+
+268
+00:10:19,110 --> 00:10:19,920
+that in the future.
+
+269
+00:10:19,920 --> 00:10:22,410
+But hopefully this kind
+of satisfies you, at
+
+270
+00:10:22,410 --> 00:10:23,120
+least experimentally.
+
+271
+00:10:23,120 --> 00:10:25,700
+I haven't proven it to you with
+mathematical rigor, which
+
+272
+00:10:25,700 --> 00:10:27,240
+hopefully we'll do
+in the future.
+
+273
+00:10:27,240 --> 00:10:29,290
+But hopefully this satisfies
+you, at least experimentally,
+
+274
+00:10:29,290 --> 00:10:31,610
+that the central limit theorem
+really does apply to
+
+275
+00:10:31,610 --> 00:10:32,290
+any distribution.
+
+276
+00:10:32,290 --> 00:10:34,170
+I mean this is a
+crazy distribution.
+
+277
+00:10:34,170 --> 00:10:38,090
+I encourage you to use this
+applet at onlinestatbook.com
+
+278
+00:10:38,090 --> 00:10:40,400
+and experiment with other
+crazy distributions to
+
+279
+00:10:40,400 --> 00:10:41,500
+believe for yourself.
+
+280
+00:10:41,500 --> 00:10:44,390
+But the interesting things are
+that we're approaching a normal
+
+281
+00:10:44,390 --> 00:10:48,320
+distribution, but as my sample
+size got larger, it's a better
+
+282
+00:10:48,320 --> 00:10:51,100
+fit for normal distribution.
+
+283
+00:10:51,100 --> 00:10:51,585
+

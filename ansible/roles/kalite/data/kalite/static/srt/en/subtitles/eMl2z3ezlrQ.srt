@@ -1,0 +1,367 @@
+1
+00:00:00,163 --> 00:00:02,208
+Based on the examples in the last video
+
+2
+00:00:02,208 --> 00:00:07,764
+let's see if we can come up with some rules of thumb for figuring out how many significant figures,
+
+3
+00:00:07,764 --> 00:00:08,957
+or how many significant digits,
+
+4
+00:00:08,957 --> 00:00:11,912
+there are in a number - or a measurement.
+
+5
+00:00:11,912 --> 00:00:16,834
+So the first thing that is pretty obvious is that any non-zero digit,
+
+6
+00:00:16,834 --> 00:00:19,574
+and any of the zero digits in between are significant.
+
+7
+00:00:19,574 --> 00:00:24,375
+Really the 7 and the 5 here are significant and the zero's in between them, it's also going to be significant.
+
+8
+00:00:24,375 --> 00:00:37,763
+So let's write this over here: so, any non-zero digits and zero's in between
+
+9
+00:00:37,763 --> 00:00:43,677
+are going to be significant. That's pretty straightforward.
+
+10
+00:00:43,677 --> 00:00:49,436
+Now the zero's that are not in between non-zero digits, these become a little bit more confusing.
+
+11
+00:00:49,436 --> 00:00:52,315
+So let's just make sure we can rule out some of them.
+
+12
+00:00:52,315 --> 00:00:56,542
+So you can always rule out - when you're thinking about significant figures -
+
+13
+00:00:56,542 --> 00:00:57,875
+the leading zero's.
+
+14
+00:00:57,875 --> 00:01:00,169
+And when I talk about leading zero's, I'm talking about the zero's
+
+15
+00:01:00,169 --> 00:01:03,507
+that come before your non-zero digit.
+
+16
+00:01:03,507 --> 00:01:06,897
+So these are leading zero's here, these are leading zero's.
+
+17
+00:01:06,897 --> 00:01:11,169
+There's no leading zero's here, no leading zero's in this one, this one, and this one.
+
+18
+00:01:11,169 --> 00:01:15,349
+But in any situation, the leading zero's are not significant.
+
+19
+00:01:15,349 --> 00:01:25,429
+So leading zero's not significant.
+
+20
+00:01:25,429 --> 00:01:30,907
+And so the last question, all you have left, I mean, you only have non-zero digits
+
+21
+00:01:30,907 --> 00:01:33,044
+and zero's in between; you could have some leading zero's
+
+22
+00:01:33,044 --> 00:01:34,668
+which you've already said are not significant.
+
+23
+00:01:34,668 --> 00:01:39,637
+And so the only thing left that you have to figure out is what do you do with the trailing zero's,
+
+24
+00:01:39,637 --> 00:01:46,510
+the zero's behind the last non-zero, or to the right of, the last non-zero digit.
+
+25
+00:01:46,510 --> 00:01:51,665
+So that these trailing zero's here, there's actually two trailing zero's over,
+
+26
+00:01:51,665 --> 00:01:54,406
+and then there is three trailing zero's over here.
+
+27
+00:01:54,406 --> 00:02:01,502
+So let me make a little... so trailing zero's.
+
+28
+00:02:01,502 --> 00:02:02,669
+What do we do with them?
+
+29
+00:02:02,669 --> 00:02:05,643
+So the easy way to think about is, if you have a decimal,
+
+30
+00:02:05,643 --> 00:02:10,009
+if there is a decimal anywhere in your number, count them.
+
+31
+00:02:10,009 --> 00:02:15,581
+If you have a decimal count them as significant.
+
+32
+00:02:15,581 --> 00:02:20,597
+they are significant. Count them as significant.
+
+33
+00:02:20,597 --> 00:02:25,659
+If there is no decimal anywhere in the number,
+
+34
+00:02:25,659 --> 00:02:27,563
+then it's kind of ambiguous.
+
+35
+00:02:27,563 --> 00:02:29,978
+You're kind of not sure, and this is the situation.
+
+36
+00:02:29,978 --> 00:02:33,662
+So clearly, over here, there's a decimal in the number
+
+37
+00:02:33,662 --> 00:02:37,269
+so you count the trailing zeros - these are adding to the precision.
+
+38
+00:02:37,269 --> 00:02:40,984
+Over here, there's a decimal so you count the trailing zero.
+
+39
+00:02:40,984 --> 00:02:43,260
+There's a decimal here so you count the trailing zero's.
+
+40
+00:02:43,260 --> 00:02:45,349
+There are no trailing zero's here.
+
+41
+00:02:45,349 --> 00:02:49,669
+And over here, well the way I later put a decimal here,
+
+42
+00:02:49,669 --> 00:02:54,312
+here you would count it, so if you have a decimal there you would count all five.
+
+43
+00:02:54,312 --> 00:02:59,978
+If you didn't have the decimal, if you just had 37,000 like that
+
+44
+00:02:59,978 --> 00:03:04,343
+it's ambiguous, and if someone doesn't give you more information
+
+45
+00:03:04,343 --> 00:03:08,987
+you're best assumption is probably that they just measured to the nearest thousand,
+
+46
+00:03:08,987 --> 00:03:11,210
+that they didn't measure exactly to the one and just happened
+
+47
+00:03:11,210 --> 00:03:13,586
+to get exactly on 37,000.
+
+48
+00:03:13,586 --> 00:03:16,510
+So if there's no decimal, let me write it this way,
+
+49
+00:03:16,510 --> 00:03:23,662
+it's ambiguous, which means that you're really not sure what it means,
+
+50
+00:03:23,662 --> 00:03:27,333
+it's not clear what it means, and you're proabably safer assuming
+
+51
+00:03:27,333 --> 00:03:35,644
+to not count the trailing zero's.
+
+52
+00:03:35,644 --> 00:03:38,568
+If someone really does measure, if you were to really measure something
+
+53
+00:03:38,568 --> 00:03:43,260
+to the exact one, then you should put a decimal at the end like that.
+
+54
+00:03:43,260 --> 00:03:46,862
+And there is a notation for specifying:
+
+55
+00:03:46,862 --> 00:03:49,669
+let's say you do measure - let me do a different number -
+
+56
+00:03:49,669 --> 00:03:53,848
+let's say you do measure 56,000
+
+57
+00:03:53,848 --> 00:03:59,003
+and there is a notation for specifying that 6 definitely is the last significant digit
+
+58
+00:03:59,003 --> 00:04:01,975
+and sometimes you'll see a bar put over the 6,
+
+59
+00:04:01,975 --> 00:04:04,576
+sometimes you'll see a bar put under the 6.
+
+60
+00:04:04,576 --> 00:04:07,642
+And that could be useful, because maybe, you're last
+
+61
+00:04:07,642 --> 00:04:09,671
+significant digit is this zero over here,
+
+62
+00:04:09,671 --> 00:04:13,492
+maybe you were able to measure to the 100's with a reasonable level of precision.
+
+63
+00:04:13,492 --> 00:04:16,511
+And so then you would write something like,
+
+64
+00:04:16,511 --> 00:04:19,901
+you'd still write 56,000,
+
+65
+00:04:19,901 --> 00:04:22,641
+but then you would put the bar above that zero
+
+66
+00:04:22,641 --> 00:04:26,681
+or the bar below that zero to say that that was the last significat digit.
+
+67
+00:04:26,681 --> 00:04:30,582
+So if you saw something like this, you would say 3 significant digits.
+
+68
+00:04:30,582 --> 00:04:35,646
+This isn't used so frequently. A better way to show that you've measured
+
+69
+00:04:35,646 --> 00:04:40,012
+to 3 significant digits would be to write it in scientific notation.
+
+70
+00:04:40,012 --> 00:04:41,187
+There's a whole video on that.
+
+71
+00:04:41,187 --> 00:04:43,167
+But to write this in scientific notation,
+
+72
+00:04:43,167 --> 00:04:51,637
+you could write this as 5.60 times 10 to the fourth power, right?
+
+73
+00:04:51,637 --> 00:04:55,335
+Cause if you multiply this by 10 to the fourth
+
+74
+00:04:55,335 --> 00:04:57,054
+you'd move this decimal over four spaces
+
+75
+00:04:57,054 --> 00:04:59,003
+and get us to 56,000.
+
+76
+00:04:59,003 --> 00:05:02,000
+So 5.60 times 10 to the fourth;
+
+77
+00:05:02,000 --> 00:05:03,124
+and if this confuses you,
+
+78
+00:05:03,124 --> 00:05:05,319
+watch the video on scientific notation.
+
+79
+00:05:05,319 --> 00:05:06,991
+Hopefully it will clarify things a little bit.
+
+80
+00:05:06,991 --> 00:05:10,010
+But when you write a number in scientific notation,
+
+81
+00:05:10,010 --> 00:05:12,426
+it makes it very clear about your precision
+
+82
+00:05:12,426 --> 00:05:14,400
+and how many significant digits you're dealing with.
+
+83
+00:05:14,400 --> 00:05:17,054
+So instead of doing this notation that's a little bit outdated,
+
+84
+00:05:17,054 --> 00:05:18,601
+I haven't seen it used much,
+
+85
+00:05:18,601 --> 00:05:21,666
+with these bars below or above the high significant digit,
+
+86
+00:05:21,666 --> 00:05:23,988
+instead you can represent it with a decimal
+
+87
+00:05:23,988 --> 00:05:26,018
+in scientific notation
+
+88
+00:05:26,018 --> 00:05:31,000
+and then it's very clear you have 3 significant digits.
+
+89
+00:05:31,000 --> 00:05:31,976
+So hopefully that helps you out.
+
+90
+00:05:31,976 --> 00:05:33,133
+In the next couple of videos,
+
+91
+00:05:33,133 --> 00:05:36,109
+we'll explore a little bit more why significant digits are important
+
+92
+00:05:36,109 --> 99:59:59,999
+especially when you do calculations with multiple measurements.

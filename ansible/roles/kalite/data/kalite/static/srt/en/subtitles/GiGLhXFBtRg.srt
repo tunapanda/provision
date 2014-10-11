@@ -1,0 +1,619 @@
+1
+00:00:00,640 --> 00:00:03,480
+I wanna do a quick refresher on medians of triangles
+
+2
+00:00:03,490 --> 00:00:07,200
+also explore interesting property of them that would be useful,
+
+3
+00:00:07,210 --> 00:00:11,680
+think,to a future problem so let me just draw an arbitrary,
+
+4
+00:00:11,690 --> 00:00:16,400
+an arbitrary triangle over here, now that's good enough
+
+5
+00:00:16,410 --> 00:00:19,020
+Now a median of the triangle, and we'll see the median,
+
+6
+00:00:19,030 --> 00:00:22,300
+a triangle has 3 of them, it's just a line that connects
+
+7
+00:00:22,310 --> 00:00:26,500
+a vertex of a triangle with the midpoint of the opposite sides,
+
+8
+00:00:26,510 --> 00:00:29,550
+so the opposite sides midpoint looks like right about there,
+
+9
+00:00:29,560 --> 00:00:35,020
+this length is equal to the length, and so this is a median,
+
+10
+00:00:35,030 --> 00:00:36,180
+close enough
+
+11
+00:00:36,190 --> 00:00:38,800
+And of course we have 3 vertexes, we'll have 3 medians
+
+12
+00:00:38,810 --> 00:00:41,140
+if start at this vertex, we wanna go to the midpoint
+
+13
+00:00:41,150 --> 00:00:44,630
+of the opposite side, it looks like it's right about there
+
+14
+00:00:44,640 --> 00:00:48,370
+so this blue line over here is another median
+
+15
+00:00:48,380 --> 00:00:50,910
+It's not a completely straight line but you get the idea
+
+16
+00:00:50,920 --> 00:00:53,590
+And we can also do it from this point, right over here,
+
+17
+00:00:53,600 --> 00:00:57,860
+draw a line from this vertex to the mid point of the opposite side
+
+18
+00:00:57,870 --> 00:01:00,240
+let's see the midpoint of the opposite side is there
+
+19
+00:01:00,250 --> 00:01:02,800
+And we draw a line, each of these;
+
+20
+00:01:02,810 --> 00:01:04,950
+I can draw a straighter "line" than that
+
+21
+00:01:05,560 --> 00:01:10,580
+We draw, well think you get the idea
+
+22
+00:01:10,590 --> 00:01:13,770
+These are all medians of this triangle
+
+23
+00:01:13,780 --> 00:01:16,060
+And what's next about medians,
+
+24
+00:01:16,070 --> 00:01:20,610
+is that all 3 medians always intersect in one point
+
+25
+00:01:20,620 --> 00:01:22,610
+And that by itself is a pretty neat property
+
+26
+00:01:22,620 --> 00:01:26,170
+That one point that they intersect is a called a centroid
+
+27
+00:01:26,570 --> 00:01:28,340
+It's called a centroid, it's called the centroid
+
+28
+00:01:28,350 --> 00:01:32,040
+And if this was a physical triangle, let's say you made it out of iron,
+
+29
+00:01:32,050 --> 00:01:35,720
+and if you were to toss it, or even before you toss it,
+
+30
+00:01:35,730 --> 00:01:37,670
+the centroid would actually be the center of mass
+
+31
+00:01:37,680 --> 00:01:39,930
+Let's say this is an iron triangle,
+
+32
+00:01:39,940 --> 00:01:42,570
+lets say right here this is an iron triangle,
+
+33
+00:01:42,580 --> 00:01:45,690
+that has it's centroid right over here,
+
+34
+00:01:45,730 --> 00:01:50,040
+then this iron's triangle center of mass would be the centroid is,
+
+35
+00:01:50,050 --> 00:01:53,490
+assuming the uniform density, and if you would have thrown,
+
+36
+00:01:53,500 --> 00:01:57,830
+it would have rotate, it would have rotate around this points,
+
+37
+00:01:57,840 --> 00:02:03,100
+around, around, assuming it had some a rotational motion
+
+38
+00:02:03,200 --> 00:02:07,620
+around that centroid, around the center mass
+
+39
+00:02:07,630 --> 00:02:10,300
+But anyway the point of this video is not to focus on physics
+
+40
+00:02:10,310 --> 00:02:12,200
+and throwing iron, triangles
+
+41
+00:02:12,210 --> 00:02:15,610
+The point here is, I wanna show you a neat properties of medians
+
+42
+00:02:15,620 --> 00:02:20,350
+and the property is the distance from, if you pick any median
+
+43
+00:02:20,360 --> 00:02:24,240
+the distance from the centroid to the midpoint of the opposite side
+
+44
+00:02:24,250 --> 00:02:27,550
+so this distance is gonna be half of this distance
+
+45
+00:02:27,560 --> 00:02:32,280
+So this distance right here is A, then this distance right here is 2A
+
+46
+00:02:32,290 --> 00:02:33,940
+Or another way to think about this,
+
+47
+00:02:33,950 --> 00:02:37,440
+this distance is 2/3 of the length of the entire median
+
+48
+00:02:37,450 --> 00:02:42,230
+And this distance right here is 1/3 of the length of the entire median
+
+49
+00:02:42,240 --> 00:02:43,970
+And let's just prove it for ourselves,
+
+50
+00:02:43,980 --> 00:02:46,940
+just so you don't have to take things, take things on faith
+
+51
+00:02:46,950 --> 00:02:49,650
+And to do that I'll draw an arbitrary triangle,
+
+52
+00:02:49,660 --> 00:02:52,130
+I'll do a 2 dimensional triangle, I'll even do a 3 dimensions,
+
+53
+00:02:52,140 --> 00:02:54,670
+at least in my mind it makes the math,
+
+54
+00:02:54,680 --> 00:02:56,800
+it makes the math a little bit easier
+
+55
+00:02:56,810 --> 00:02:58,850
+In general whenever you take a,
+
+56
+00:02:58,860 --> 00:03:00,660
+Whenever you have N dimensional
+
+57
+00:03:00,670 --> 00:03:03,060
+that you embed on an N +1 dimension,
+
+58
+00:03:03,070 --> 00:03:05,410
+it makes the math a little bit easier
+
+59
+00:03:05,640 --> 00:03:08,360
+That actually tetrahedron problem we did,
+
+60
+00:03:08,370 --> 00:03:10,070
+you can actually embed a four dimension
+
+61
+00:03:10,080 --> 00:03:11,170
+that would make the math easier,
+
+62
+00:03:11,180 --> 00:03:14,100
+it's much harder to visualize because I didn't do it that way
+
+63
+00:03:14,110 --> 00:03:16,050
+So lets just have an arbitrary triangle,
+
+64
+00:03:16,060 --> 00:03:20,650
+let's say it has a vertex there, a vertex there and a vertex there
+
+65
+00:03:20,660 --> 00:03:22,810
+I'm not making any assumptions about the triangle
+
+66
+00:03:22,820 --> 00:03:25,130
+I'm not saying its an isosceles and equilateral, anything,
+
+67
+00:03:25,140 --> 00:03:26,940
+its just an arbitrary triangle
+
+68
+00:03:26,950 --> 00:03:32,010
+8And so lets say its coordinate, lets say its coordinate right over here is,
+
+69
+00:03:32,020 --> 00:03:37,870
+I call this the X-axis, this is the X-axis, this the Y-axis and the Z-axis,
+
+70
+00:03:37,880 --> 00:03:40,160
+I know some of you are already used to swapping these two axis
+
+71
+00:03:40,170 --> 00:03:42,930
+but it doesn't make a different so lets call this coordinator right here
+
+72
+00:03:42,940 --> 00:03:47,570
+A, 0, 0 so it's A along the X-axis
+
+73
+00:03:47,580 --> 00:03:51,790
+Let's call this coordinate 0, B, 0
+
+74
+00:03:51,800 --> 00:03:57,470
+Let's call this coordinate up here 0, 0, 0, C
+
+75
+00:03:57,480 --> 00:04:00,350
+So if you connect the points, you're gonna have a triangle
+
+76
+00:04:01,410 --> 00:04:06,790
+You're going to have a triangle just like that
+
+77
+00:04:06,800 --> 00:04:10,310
+Now the centroid of a triangle especially in 3 dimensions
+
+78
+00:04:10,320 --> 00:04:11,920
+the centroid of is going to be the average,
+
+79
+00:04:11,930 --> 00:04:16,090
+the average of the coordinates of the vertexes
+
+80
+00:04:16,100 --> 00:04:22,740
+or the coordinate of the centroid, the coordinate of the centorid here
+
+81
+00:04:22,750 --> 00:04:25,650
+its just gonna be the average of the coordinates of the vertexes
+
+82
+00:04:25,660 --> 00:04:28,320
+So the coordinate right this over here is gonna be,
+
+83
+00:04:28,330 --> 00:04:31,940
+so for the x coordinate we have 0, 0, 0 + A
+
+84
+00:04:31,950 --> 00:04:35,500
+so we have 3 coordinates they add up to A so we have to divide up by 3 so its
+
+85
+00:04:35,510 --> 00:04:37,420
+A over 3
+
+86
+00:04:37,430 --> 00:04:42,930
+The Y coordinate is gonna be B+0+B+0 they add to B, but we have 3 off them
+
+87
+00:04:42,940 --> 00:04:47,230
+And the same thing we do it for the for the Z coordinate,
+
+88
+00:04:47,240 --> 00:04:50,360
+the average is gonna C, it's C over 3 and
+
+89
+00:04:50,370 --> 00:04:53,730
+I'm not proving anything to right here, you can verify it for yourself,
+
+90
+00:04:53,740 --> 00:04:58,290
+but its going to be the average, figuring out what this line is,
+
+91
+00:04:58,920 --> 00:05:00,310
+this ine is and this line is
+
+92
+00:05:00,320 --> 00:05:03,530
+This centroid or the center of this mass of this triangle,
+
+93
+00:05:03,540 --> 00:05:04,340
+if it had some
+
+94
+00:05:04,350 --> 00:05:07,360
+mass is just the average of these coordinates
+
+95
+00:05:07,370 --> 00:05:10,270
+Now what we wanna do is use this information,
+
+96
+00:05:10,280 --> 00:05:12,260
+let's just use this coordinate
+
+97
+00:05:12,270 --> 00:05:15,410
+and compare just using the distance formula,
+
+98
+00:05:15,420 --> 00:05:19,190
+lets compare this distance, lets compare this distance
+
+99
+00:05:19,200 --> 00:05:26,140
+up here in orange to this distance down here, down here in yellow
+
+100
+00:05:26,150 --> 00:05:28,600
+And remember this point down here, this is the point
+
+101
+00:05:28,610 --> 00:05:33,280
+the median of this, of this bottom side right over here, so the median of this bottom side
+
+102
+00:05:33,290 --> 00:05:36,670
+Is just gonna be the average of the these two points
+
+103
+00:05:36,680 --> 00:05:38,650
+and so the X coordinates 0 plus A
+
+104
+00:05:38,660 --> 00:05:42,630
+B + 0 over 2 is gonna be B over 2
+
+105
+00:05:42,640 --> 00:05:47,340
+And then it has no Z coordinates so it's just gonna be 0
+
+106
+00:05:47,350 --> 00:05:49,170
+0 + 0 over 2 = 0
+
+107
+00:05:49,180 --> 00:05:52,150
+So we know the coordinates for this point, that point and that point
+
+108
+00:05:52,160 --> 00:05:53,610
+so we can calculate the yellow distance
+
+109
+00:05:53,620 --> 00:05:56,460
+and we can calculate the orange distance
+
+110
+00:05:56,580 --> 00:05:58,570
+So lets calculate the orange distance
+
+111
+00:05:58,580 --> 00:06:03,770
+So that is gonna be equal to the square root of, square root,
+
+112
+00:06:03,780 --> 00:06:06,820
+The orange disntace is going to be the square root of,
+
+113
+00:06:06,830 --> 00:06:09,620
+which we'll take the difference of each of these point square
+
+114
+00:06:09,630 --> 00:06:12,830
+so it's A over 3 minus 0 squared,
+
+115
+00:06:12,840 --> 00:06:15,830
+that's gonna be A square over nine over 9
+
+116
+00:06:15,840 --> 00:06:21,580
+so that's gonna plus B over three minus 0 square over 9,
+
+117
+00:06:21,610 --> 00:06:31,680
+plus C over 3, minus C which is negative 2/3, that's negative 2/3
+
+118
+00:06:31,690 --> 00:06:35,680
+and we want to square that, so we're gonna have positive
+
+119
+00:06:35,750 --> 00:06:41,320
+4 over 9 positive C square, did I do that right?
+
+120
+00:06:41,330 --> 00:06:48,070
+C over 3, so 1/3 minus 1 is negative 2/3, so this is negative 2/3 C,
+
+121
+00:06:48,080 --> 00:06:51,390
+you square it, you're gonna get 4 9 C squar
+
+122
+00:06:51,400 --> 00:06:54,650
+So that's the orange distance, now let's calculate,
+
+123
+00:06:54,660 --> 00:06:56,390
+and if we wanna do it we can actually,
+
+124
+00:06:56,400 --> 00:06:59,320
+we can express it a little simpler than this ,
+
+125
+00:06:59,330 --> 00:07:01,720
+this is the same thing as a square root
+
+126
+00:07:01,730 --> 00:07:08,540
+of A square + B square + 4 C square over the square root of 9,
+
+127
+00:07:08,550 --> 00:07:14,580
+which is just, that's just equal to that's just, the equal to 3
+
+128
+00:07:15,060 --> 00:07:18,170
+So lets do the same thing with the yellow distance
+
+129
+00:07:18,210 --> 00:07:26,360
+so if gona be equal to have A over 2 - A over 3
+
+130
+00:07:26,370 --> 00:07:28,720
+so 1/2 minuses 1/3 that's the same thing
+
+131
+00:07:28,730 --> 00:07:39,730
+as 3/6 minuses 2/6 so 1/6 A square over 36
+
+132
+00:07:39,740 --> 00:07:44,360
+B over 2 minus B over 3 is B over 6, you square it,
+
+133
+00:07:44,370 --> 00:07:48,090
+you got plus B square over 36
+
+134
+00:07:48,100 --> 00:07:50,690
+An then finally you have 0 minus C over 3
+
+135
+00:07:50,700 --> 00:07:55,370
+over square, that's gonna be a C square over nine
+
+136
+00:07:55,380 --> 00:07:56,840
+that's when we get a common denominator
+
+137
+00:07:56,850 --> 00:08:04,610
+C square over nine is the same things as plus 4 C square over 36
+
+138
+00:08:04,620 --> 00:08:08,250
+and we can rewrite this as a square root of
+
+139
+00:08:08,260 --> 00:08:14,940
+A + B square + Four C square over 9
+
+140
+00:08:14,950 --> 00:08:17,210
+So you can see this distance right here,
+
+141
+00:08:17,220 --> 00:08:19,950
+if you multiply this orange distance by 1/2
+
+142
+00:08:19,960 --> 00:08:23,080
+you're going to get, so if you multiply by 1/2
+
+143
+00:08:23,090 --> 00:08:26,370
+or you divide it by 2, so if you multiply by 1/2
+
+144
+00:08:26,380 --> 00:08:28,110
+you get the yellow distance
+
+145
+00:08:28,120 --> 00:08:30,540
+So this is always gonna be twice the disntsaces
+
+146
+00:08:30,550 --> 00:08:33,100
+So we do this in the most general possible way,
+
+147
+00:08:33,110 --> 00:08:35,480
+we assume nothing about this triangle
+
+148
+00:08:35,490 --> 00:08:38,510
+Remember that little property the centroid,
+
+149
+00:08:38,520 --> 00:08:40,340
+the if the intersection of the medians,
+
+150
+00:08:40,350 --> 00:08:44,020
+if the intersection happens 2/3s along every median
+
+151
+00:08:44,030 --> 00:08:47,740
+2/3s away from the vertex or 1/3 away
+
+152
+00:08:47,750 --> 00:08:52,360
+of the length of median away from the midpoint of the opposite side
+
+153
+00:08:52,370 --> 00:08:54,680
+We can use this property in,
+
+154
+00:08:54,690 --> 00:08:56,140
+well we can use it in a bunch of problems
+
+155
+00:08:56,150 --> 00:08:58,350
+Anyway, I hope you found that interesting

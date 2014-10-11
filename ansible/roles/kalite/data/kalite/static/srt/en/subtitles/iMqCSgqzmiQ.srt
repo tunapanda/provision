@@ -1,0 +1,571 @@
+1
+00:00:03,529 --> 00:00:05,454
+Hey everybody, it's LeBron here.
+
+2
+00:00:05,454 --> 00:00:07,696
+I got a quick brain teaser for you.
+
+3
+00:00:07,696 --> 00:00:11,076
+What are the odds of making 10 free throws in a row?
+
+4
+00:00:11,076 --> 00:00:13,971
+Here's my good friend Sal with the answer.
+
+5
+00:00:13,987 --> 00:00:18,005
+That's a great question, LeBron, and I think the answer might surprise you.
+
+6
+00:00:18,005 --> 00:00:21,065
+So, I looked up your career free-throw percentage
+
+7
+00:00:21,157 --> 00:00:25,262
+and you are right at around, 75%, which is a little bit higher
+
+8
+00:00:25,354 --> 00:00:28,657
+than my free-throw percentage. And one way to interpret that: if we
+
+9
+00:00:28,657 --> 00:00:32,749
+have a million LeBron James, and you can imagine any large number
+
+10
+00:00:32,764 --> 00:00:34,983
+of LeBron James is taking a free throw.
+
+11
+00:00:34,998 --> 00:00:36,859
+Let's say, this line represents all of the
+
+12
+00:00:36,859 --> 00:00:38,990
+LeBron James' that take that first free-throw
+
+13
+00:00:38,990 --> 00:00:41,955
+Let's call that free throw number 1
+
+14
+00:00:41,955 --> 00:00:48,633
+We would expect, on average, that 75% of them would make that first free-throw.
+
+15
+00:00:48,663 --> 00:00:53,061
+So, let me draw 75%, so this is about halfway. So this would be 25,
+
+16
+00:00:53,077 --> 00:00:55,753
+This would get us for 75. So we would expect
+
+17
+00:00:55,753 --> 00:00:59,352
+75% of them would make that first
+
+18
+00:00:59,352 --> 00:01:00,688
+free-throw.
+
+19
+00:01:00,688 --> 00:01:05,752
+75%, and then the other 25% we would expect on average
+
+20
+00:01:05,752 --> 00:01:07,742
+would miss that first free-throw.
+
+21
+00:01:07,742 --> 00:01:09,923
+Now, what we care about are the ones that keep making the
+
+22
+00:01:09,923 --> 00:01:10,805
+free-throws.
+
+23
+00:01:10,805 --> 00:01:12,479
+We want ten in a row!
+
+24
+00:01:12,479 --> 00:01:15,450
+So, let's just focus on the 75% that made the first one.
+
+25
+00:01:15,450 --> 00:01:18,681
+Some of these 25% might make some free-throws going forward.
+
+26
+00:01:18,681 --> 00:01:19,996
+But we don't care about them anymore.
+
+27
+00:01:19,996 --> 00:01:21,750
+They are kind of out-of-the-game!
+
+28
+00:01:21,750 --> 00:01:23,681
+So, let's go to free-throw number two.
+
+29
+00:01:23,727 --> 00:01:26,038
+Free throw ... number two.
+
+30
+00:01:26,241 --> 00:01:30,119
+What percentage of the folks who made of the Lebron James-es,
+
+31
+00:01:30,119 --> 00:01:31,988
+that made the first free-throw,
+
+32
+00:01:31,988 --> 00:01:34,027
+what percentage would we expect to make the second one?
+
+33
+00:01:34,027 --> 00:01:37,025
+And we're going to assume, whether or not you made the first one,
+
+34
+00:01:37,025 --> 00:01:39,652
+has no bearing on the probability of you on making the second,
+
+35
+00:01:39,652 --> 00:01:41,706
+that this continues to be the probability
+
+36
+00:01:41,706 --> 00:01:44,552
+of a Lebron James making a given free throw.
+
+37
+00:01:44,583 --> 00:01:49,464
+So we would expect 75% of these Lebron James' to also make the second one.
+
+38
+00:01:49,464 --> 00:01:53,118
+We are going to take 75 percent of 75 percent.
+
+39
+00:01:53,118 --> 00:01:56,399
+So this is about half of that 75%; this would be a quarter,
+
+40
+00:01:56,399 --> 00:02:01,103
+this would be three fourths, which is about 75%, which is exactly 75%.
+
+41
+00:02:01,103 --> 00:02:02,953
+So right over here.
+
+42
+00:02:02,953 --> 00:02:06,639
+This represents the ones that made the first one,
+
+43
+00:02:06,639 --> 00:02:08,462
+how many also made the second one.
+
+44
+00:02:08,462 --> 00:02:10,774
+So you could say that the percentage of the Lebron James-es
+
+45
+00:02:10,789 --> 00:02:12,366
+that we would expect on average
+
+46
+00:02:12,366 --> 00:02:14,498
+to make the first two free-throws.
+
+47
+00:02:14,498 --> 00:02:21,263
+This is...This is the length right over here is 75 percent of 75%.
+
+48
+00:02:21,263 --> 00:02:24,567
+75% of this 75% right over there.
+
+49
+00:02:24,567 --> 00:02:27,560
+And I think you might began to see a pattern emerging,
+
+50
+00:02:27,560 --> 00:02:31,606
+Let's go to the 3rd free-throw: free throw number 3.
+
+51
+00:02:31,606 --> 00:02:33,599
+So what percentage of these folks are going to
+
+52
+00:02:33,599 --> 00:02:34,606
+make the third one?
+
+53
+00:02:34,606 --> 00:02:36,977
+Well, 75% of them are going to make the 3rd one.
+
+54
+00:02:36,977 --> 00:02:41,837
+So, 75% of them are going to make the 3rd one.
+
+55
+00:02:41,945 --> 00:02:43,460
+What is this going to be?
+
+56
+00:02:43,491 --> 00:02:44,914
+This is going to be
+
+57
+00:02:44,914 --> 00:02:49,416
+75 percent, 75 percent of this number,
+
+58
+00:02:49,416 --> 00:02:56,964
+of this length, which is 75% of 75%.
+
+59
+00:02:56,964 --> 00:02:59,914
+And it if you would go all the way to free throw #10,
+
+60
+00:02:59,914 --> 00:03:01,568
+and I think you see the pattern here,
+
+61
+00:03:01,568 --> 00:03:05,710
+(if we are going all the way to Free Throw #10), so I am just skipping a bunch,
+
+62
+00:03:05,710 --> 00:03:09,194
+we are going to get some very, very, very small fraction
+
+63
+00:03:09,194 --> 00:03:11,335
+that had made all ten,
+
+64
+00:03:11,335 --> 00:03:15,624
+is essentially going to be 75% times 75% times 75%...
+
+65
+00:03:15,624 --> 00:03:20,865
+10 times: 75% being multiplied repeatedly 10 times.
+
+66
+00:03:20,865 --> 00:03:23,541
+So this is going to be what we have left off with,
+
+67
+00:03:23,541 --> 00:03:27,024
+this is going to be 75%, times 75%
+
+68
+00:03:27,024 --> 00:03:29,779
+(and let me copy and paste this)
+
+69
+00:03:29,779 --> 00:03:32,876
+(so it doesn't take forever.)
+
+70
+00:03:32,876 --> 00:03:38,742
+(So... copy, and then paste it. So times out)
+
+71
+00:03:38,742 --> 00:03:40,150
+(I will put the multiplication signs on later)
+
+72
+00:03:40,150 --> 00:03:49,622
+(that's four... that's six... that's eight..)
+
+73
+00:03:49,622 --> 00:03:54,126
+(...and then: that IS ten. Right over there,)
+
+74
+00:03:54,126 --> 00:03:56,664
+(let me throw the multiplication signs in there, so)
+
+75
+00:03:56,664 --> 00:04:00,567
+(times, times, times, times...)
+
+76
+00:04:00,567 --> 00:04:03,298
+So this little fraction that made all ten of them
+
+77
+00:04:03,298 --> 00:04:05,389
+is going to be equaled to this value right over here.
+
+78
+00:04:05,389 --> 00:04:09,877
+75 of... let's see: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10:
+
+79
+00:04:09,877 --> 00:04:13,940
+75 percent being repeatedly multiplied 10 times.
+
+80
+00:04:13,940 --> 00:04:16,188
+Now, this would obviously be taken me forever
+
+81
+00:04:16,203 --> 00:04:18,755
+to do it by hand. And even on a calculator,
+
+82
+00:04:18,755 --> 00:04:20,101
+if I would have punched all of these in,
+
+83
+00:04:20,101 --> 00:04:20,924
+I might made mistake(s).
+
+84
+00:04:20,924 --> 00:04:24,004
+But lucky for us: there is a mathematical operator
+
+85
+00:04:24,004 --> 00:04:26,605
+that is essentially repeated multiplications.
+
+86
+00:04:26,605 --> 00:04:28,551
+And that's taking an exponent.
+
+87
+00:04:28,551 --> 00:04:30,914
+So another way- another way of writing that,
+
+88
+00:04:30,914 --> 00:04:33,136
+(right over there), we could write that as:
+
+89
+00:04:33,136 --> 00:04:37,313
+75 percent to the... tenth power,
+
+90
+00:04:37,313 --> 00:04:40,377
+repeatedly multiplying 75% ten times-
+
+91
+00:04:40,377 --> 00:04:42,292
+these are the SAME expression(s).
+
+92
+00:04:42,292 --> 00:04:47,013
+And 75 percent, the word "per-cent",
+
+93
+00:04:48,351 --> 00:04:50,698
+literally means "per hundred."
+
+94
+00:04:50,698 --> 00:04:52,832
+You might recognize the root word, "cent,"
+
+95
+00:04:52,832 --> 00:04:54,163
+from things like "century,"
+
+96
+00:04:54,163 --> 00:04:57,472
+100 years in a century, 100 cents in a dollar,
+
+97
+00:04:57,472 --> 00:04:59,218
+so this literally means "per hundred."
+
+98
+00:04:59,218 --> 00:05:03,594
+So we could write this as "75 over 100 to the 10th power,"
+
+99
+00:05:03,594 --> 00:05:09,801
+which is the same thing as 0.75 to the tenth power.
+
+100
+00:05:09,801 --> 00:05:11,074
+And let's get out calculator out
+
+101
+00:05:11,074 --> 00:05:13,127
+and see what this evaluates to.
+
+102
+00:05:13,127 --> 00:05:18,091
+So, 0.75 to the... tenth power,
+
+103
+00:05:18,091 --> 00:05:21,536
+gets us to: .056,
+
+104
+00:05:21,536 --> 00:05:23,559
+and I'll just round to the nearest hundreds,
+
+105
+00:05:23,559 --> 00:05:25,228
+so if we'd round to the nearest hundreds,
+
+106
+00:05:25,228 --> 00:05:29,555
+that gets us to .06.
+
+107
+00:05:29,555 --> 00:05:36,594
+So this is roughly equaled to (if we round to the nearest hundreds): 0.06
+
+108
+00:05:36,594 --> 00:05:39,134
+which is equaled to, roughly when we round,
+
+109
+00:05:39,134 --> 00:05:41,172
+a 6 percent probability of
+
+110
+00:05:41,172 --> 00:05:43,651
+making ten free-throws in a row! :-)
+
+111
+00:05:43,651 --> 00:05:45,855
+Which even though you have quite a high free throw percentage,
+
+112
+00:05:45,855 --> 00:05:48,047
+this is not that high of a probability.
+
+113
+00:05:48,047 --> 00:05:51,774
+It's a little bit better than a one-in-twenty chance. :D
+
+114
+00:05:51,774 --> 00:05:55,160
+Now: what I want to throw out there for everyone else watching this,
+
+115
+00:05:55,160 --> 00:05:59,299
+is to think about how we can make a general statement about anybody,
+
+116
+00:05:59,299 --> 00:06:01,122
+if that anybody has some free throw percentages,
+
+117
+00:06:01,122 --> 00:06:02,530
+and wants to say: what's the probability of
+
+118
+00:06:02,530 --> 00:06:03,230
+making 10 in a row?
+
+119
+00:06:03,230 --> 00:06:04,084
+How can we say that?
+
+120
+00:06:04,099 --> 00:06:07,324
+Well, I think we saw the pattern right over here.
+
+121
+00:06:07,324 --> 00:06:14,183
+The probability... of making, let's call it "n,"
+
+122
+00:06:14,183 --> 00:06:16,483
+where "n" is the number of free-throws we care about,
+
+123
+00:06:16,483 --> 00:06:21,108
+n free-throws in a row,
+
+124
+00:06:21,108 --> 00:06:24,224
+for somebody, and we are not just talking about LeBron here,
+
+125
+00:06:24,224 --> 00:06:28,265
+is going to be their free throw percentage,
+
+126
+00:06:28,265 --> 00:06:30,812
+and this case, Lebron's is 75%,
+
+127
+00:06:30,812 --> 00:06:34,078
+to the number of free throws we want to get in a row.
+
+128
+00:06:34,078 --> 00:06:35,917
+So to the, n-th power.
+
+129
+00:06:35,917 --> 00:06:38,396
+For example: you might want to play around
+
+130
+00:06:38,396 --> 00:06:39,696
+with your own free throw percentages.
+
+131
+00:06:39,696 --> 00:06:41,396
+if your free-throw percentage is, let's say,
+
+132
+00:06:41,396 --> 00:06:44,208
+60 percent, which is the same thing as .6.
+
+133
+00:06:44,208 --> 00:06:46,488
+So let's say you have a 60% free-throw percentage,
+
+134
+00:06:46,488 --> 00:06:47,788
+and you want to see the probability of
+
+135
+00:06:47,788 --> 00:06:48,980
+getting five in a row,
+
+136
+00:06:48,980 --> 00:06:52,125
+you would take that to the fifth power.
+
+137
+00:06:52,125 --> 00:06:53,625
+And you'd get- what looks like,
+
+138
+00:06:53,625 --> 00:06:54,525
+if you round it to the nearest hundredth,
+
+139
+00:06:54,525 --> 00:06:56,087
+would be about 8%.
+
+140
+00:06:56,087 --> 00:06:57,879
+So I encourage you to try this
+
+141
+00:06:57,879 --> 00:06:59,687
+with different free-throw percentages,
+
+142
+00:06:59,687 --> 00:07:01,387
+and different numbers of free throws
+
+143
+00:07:01,387 --> 00:07:05,085
+that you are attempting to get in a row.

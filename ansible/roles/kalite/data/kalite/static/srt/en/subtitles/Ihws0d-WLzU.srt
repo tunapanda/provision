@@ -1,0 +1,811 @@
+1
+00:00:00,553 --> 00:00:02,140
+In the last video we did some examples
+
+2
+00:00:02,140 --> 00:00:03,474
+were we had one digit
+
+3
+00:00:03,474 --> 00:00:04,672
+repeating on and on forever
+
+4
+00:00:04,672 --> 00:00:06,410
+and we were able to convert those into fractions.
+
+5
+00:00:06,410 --> 00:00:08,073
+In this video,
+
+6
+00:00:08,073 --> 00:00:10,139
+we want to tackle something a little bit more interesting
+
+7
+00:00:10,139 --> 00:00:13,299
+which is multiple digits repeating on and on forever.
+
+8
+00:00:13,299 --> 00:00:18,951
+So let's say I had 0.36 repeating,
+
+9
+00:00:18,951 --> 00:00:20,742
+which is the same thing as --
+
+10
+00:00:20,742 --> 00:00:22,889
+since the bar is over the three <u>and</u> the six,
+
+11
+00:00:22,889 --> 00:00:26,340
+both of those repeat: 3 6, 3 6, 3 6...
+
+12
+00:00:26,340 --> 00:00:29,752
+and it just keeps going on and on like that forever.
+
+13
+00:00:29,752 --> 00:00:31,876
+Now the key to doing this type of problem is
+
+14
+00:00:31,876 --> 00:00:33,571
+instead of multiplying --
+
+15
+00:00:33,571 --> 00:00:34,871
+like we did in the last video:
+
+16
+00:00:34,871 --> 00:00:36,380
+we said "this is equal to x".
+
+17
+00:00:36,380 --> 00:00:38,066
+Instead of just multiplying it by 10,
+
+18
+00:00:38,066 --> 00:00:40,073
+ten would only shift it one over
+
+19
+00:00:40,073 --> 00:00:41,629
+We want to shift it over enough
+
+20
+00:00:41,629 --> 00:00:43,405
+so that we can kind of...
+
+21
+00:00:43,405 --> 00:00:45,299
+so that when we line them up,
+
+22
+00:00:45,299 --> 00:00:48,575
+the decimal parts will still line up with each other.
+
+23
+00:00:48,575 --> 00:00:49,887
+And to do that,
+
+24
+00:00:49,887 --> 00:00:51,557
+we want to actually shift the decimal space
+
+25
+00:00:51,557 --> 00:00:53,136
+2 to the right.
+
+26
+00:00:53,136 --> 00:00:55,275
+And to shift it 2 to the right,
+
+27
+00:00:55,275 --> 00:00:58,736
+we have to multiply it by 100, or 10^2.
+
+28
+00:00:58,736 --> 00:01:02,673
+So, 100x is going to be equal to what?
+
+29
+00:01:02,673 --> 00:01:04,402
+We are shifting this two to the right:
+
+30
+00:01:04,402 --> 00:01:06,226
+One... two...
+
+31
+00:01:06,226 --> 00:01:10,625
+So 100x is going to be equal to...
+
+32
+00:01:10,625 --> 00:01:12,333
+The decimal is going to be there now,
+
+33
+00:01:12,333 --> 00:01:17,000
+so, its going to be 36.36...36...36...
+
+34
+00:01:17,000 --> 00:01:19,022
+and on and on forever.
+
+35
+00:01:19,022 --> 00:01:20,829
+And then let me rewrite x over here,
+
+36
+00:01:20,829 --> 00:01:22,748
+we are going to subtract that from the 100x.
+
+37
+00:01:22,748 --> 00:01:29,739
+X is equal to 0.363636... repeating on and on forever.
+
+38
+00:01:29,739 --> 00:01:31,888
+And notice when we multiply it by 100,
+
+39
+00:01:31,888 --> 00:01:34,466
+the 3's and the 6's still line up with each other.
+
+40
+00:01:34,466 --> 00:01:36,136
+When we align the decimals,
+
+41
+00:01:36,136 --> 00:01:38,051
+you want to make sure that the decimals
+
+42
+00:01:38,051 --> 00:01:39,889
+line up appropriately.
+
+43
+00:01:39,889 --> 00:01:41,467
+And the reason why this is valuable
+
+44
+00:01:41,467 --> 00:01:43,301
+is that now, when we subtract x from 100x,
+
+45
+00:01:43,301 --> 00:01:46,005
+the repeating parts will cancel out.
+
+46
+00:01:46,005 --> 00:01:47,969
+So, let's subtract.
+
+47
+00:01:47,969 --> 00:01:50,467
+Let us subtract these two things.
+
+48
+00:01:50,467 --> 00:01:53,346
+On the left-hand side we have 100x - x,
+
+49
+00:01:53,346 --> 00:01:56,306
+so that gives us 99x.
+
+50
+00:01:56,306 --> 00:01:58,827
+And then on the right-hand side,
+
+51
+00:01:58,827 --> 00:02:00,557
+this part cancels out with that part,
+
+52
+00:02:00,557 --> 00:02:03,937
+and we are just left with 36.
+
+53
+00:02:03,937 --> 00:02:07,747
+We can divide both sides by 99,
+
+54
+00:02:07,747 --> 00:02:14,274
+and we are left with x = 36 / 99
+
+55
+00:02:14,274 --> 00:02:16,410
+and both the numerator and the denominator
+
+56
+00:02:16,410 --> 00:02:20,404
+is divisible by 9, so we can reduce this.
+
+57
+00:02:20,404 --> 00:02:23,075
+If we divide the numerator by 9 we get 4,
+
+58
+00:02:23,075 --> 00:02:25,572
+and the denominator by 9, we get 11.
+
+59
+00:02:25,572 --> 00:02:29,335
+So 0.363636 forever and forever repeating
+
+60
+00:02:29,335 --> 00:02:31,936
+is four elevenths.
+
+61
+00:02:31,936 --> 00:02:34,337
+Now let's do another interesting one.
+
+62
+00:02:34,337 --> 00:02:36,053
+Let's say we have...
+
+63
+00:02:36,053 --> 00:02:37,645
+- and I will just set it equal to x -
+
+64
+00:02:37,645 --> 00:02:40,967
+let's say we have the number
+
+65
+00:02:40,967 --> 00:02:45,343
+the number 0.714,
+
+66
+00:02:45,343 --> 00:02:48,743
+and the 14 is repeating.
+
+67
+00:02:48,743 --> 00:02:50,801
+so this the same thing,
+
+68
+00:02:50,801 --> 00:02:52,645
+so notice the 714 isn't going to repeat,
+
+69
+00:02:52,645 --> 00:02:54,561
+just the 14 is going to repeat.
+
+70
+00:02:54,561 --> 00:03:00,939
+So this is 0.714, 14, 14... on and on and on.
+
+71
+00:03:00,939 --> 00:03:03,202
+So lets set this equal to X.
+
+72
+00:03:03,202 --> 00:03:06,396
+Now you might be tempted to multiply this by 1000,
+
+73
+00:03:06,396 --> 00:03:12,616
+to get the decimal all the way clear of 714.
+
+74
+00:03:12,616 --> 00:03:14,547
+But you actually don't want to do that.
+
+75
+00:03:14,547 --> 00:03:15,802
+You want to shift it just enough
+
+76
+00:03:15,802 --> 00:03:17,971
+so that the repeating pattern can be
+
+77
+00:03:17,971 --> 00:03:21,979
+right under itself, when you do the subtraction.
+
+78
+00:03:21,979 --> 00:03:23,498
+So again in this situation,
+
+79
+00:03:23,498 --> 00:03:24,260
+even though we have 3 numbers
+
+80
+00:03:24,260 --> 00:03:25,782
+behind the decimal point,
+
+81
+00:03:25,782 --> 00:03:27,442
+because only two of them are repeating
+
+82
+00:03:27,442 --> 00:03:30,408
+we only want to multiply it by 10^2.
+
+83
+00:03:30,408 --> 00:03:33,079
+So once again, you want to multiply it by 100.
+
+84
+00:03:33,079 --> 00:03:36,245
+So you get 100x = ...
+
+85
+00:03:36,245 --> 00:03:38,251
+- we're moving the decimal two to the right -
+
+86
+00:03:38,251 --> 00:03:39,517
+One..., two...
+
+87
+00:03:39,517 --> 00:03:52,940
+So, it's going to be 71.414141 and on and on.
+
+88
+00:03:52,940 --> 00:03:55,054
+And then let me rewrite x below this.
+
+89
+00:03:55,054 --> 00:04:00,340
+we have x = 0.1714, 14, 14 ...
+
+90
+00:04:00,340 --> 00:04:03,115
+And notice: now, the 14, 14, 14's
+
+91
+00:04:03,115 --> 00:04:05,449
+are lined up right below each other.
+
+92
+00:04:05,449 --> 00:04:08,179
+so it is going to work out when we subtract.
+
+93
+00:04:08,179 --> 00:04:10,196
+So, let's subtract these things:
+
+94
+00:04:10,196 --> 00:04:13,796
+100x - x = 99x,
+
+95
+00:04:13,796 --> 00:04:16,340
+and this is going to be equal to...
+
+96
+00:04:16,340 --> 00:04:20,256
+these 14, 14's are going to cancel those 14, 14's
+
+97
+00:04:20,256 --> 00:04:23,391
+and we have 71.4 - .7
+
+98
+00:04:23,391 --> 00:04:24,854
+we can do this in our head
+
+99
+00:04:24,854 --> 00:04:26,526
+or we can borrow if you like:
+
+100
+00:04:26,526 --> 00:04:28,659
+this could be fourteen, this is a zero,
+
+101
+00:04:28,659 --> 00:04:32,644
+so you have 14 - 7 = 7
+
+102
+00:04:32,644 --> 00:04:34,812
+and then 70 minus 0.
+
+103
+00:04:34,812 --> 00:04:39,415
+So, you have 99x = 70.7.
+
+104
+00:04:39,415 --> 00:04:41,782
+And then we can divide both sides by 99;
+
+105
+00:04:41,782 --> 00:04:44,008
+you could see that also something strange is happening
+
+106
+00:04:44,008 --> 00:04:45,183
+because we still have a decimal,
+
+107
+00:04:45,183 --> 00:04:46,855
+but we can fix that up in the end.
+
+108
+00:04:46,855 --> 00:04:51,112
+So, lets divide both sides by ninety-nine:
+
+109
+00:04:51,112 --> 00:04:55,683
+You get x = 70.7 / 99.
+
+110
+00:04:55,683 --> 00:04:57,601
+Now, obviously, we have not converted this
+
+111
+00:04:57,601 --> 00:04:58,925
+into a pure fraction yet.
+
+112
+00:04:58,925 --> 00:05:00,527
+We still have a decimal in the numerator.
+
+113
+00:05:00,527 --> 00:05:02,279
+But that is pretty easy to fix:
+
+114
+00:05:02,279 --> 00:05:03,802
+you just have to multiply the numerator
+
+115
+00:05:03,802 --> 00:05:05,530
+and the denominator by ten
+
+116
+00:05:05,530 --> 00:05:06,934
+to get rid of this decimal.
+
+117
+00:05:06,934 --> 00:05:08,758
+So lets multiply the numerator by ten
+
+118
+00:05:08,758 --> 00:05:10,731
+and the denominator by ten.
+
+119
+00:05:10,731 --> 00:05:19,790
+and so we get 707 / 990.
+
+120
+00:05:19,790 --> 00:05:22,089
+Let's do one more example.
+
+121
+00:05:22,089 --> 00:05:27,199
+Let's say we have something like
+
+122
+00:05:27,199 --> 00:05:32,795
+3.257 repeating,
+
+123
+00:05:32,795 --> 00:05:35,790
+and we want to covert this into a fraction.
+
+124
+00:05:35,790 --> 00:05:39,171
+so once again, we set this equal to X,
+
+125
+00:05:39,171 --> 00:05:40,342
+and notice: this is going to be
+
+126
+00:05:40,342 --> 00:05:42,595
+3.257, 257, 257...
+
+127
+00:05:42,595 --> 00:05:44,870
+The 257 is going to repeat on and on and on.
+
+128
+00:05:44,870 --> 00:05:46,867
+Since we have three digits that are repeating,
+
+129
+00:05:46,867 --> 00:05:50,431
+we want to think about a thousand x,
+
+130
+00:05:50,431 --> 00:05:52,592
+10 to the 3rd power times x
+
+131
+00:05:52,592 --> 00:05:54,681
+and that will let us shift it just right
+
+132
+00:05:54,681 --> 00:05:57,351
+so that the repeating parts can cancel out.
+
+133
+00:05:57,351 --> 00:06:02,803
+so 1,000x is going to be equal to what?
+
+134
+00:06:02,803 --> 00:06:04,460
+We're going to shift the decimal to the right,
+
+135
+00:06:04,460 --> 00:06:06,680
+1, 2, 3...
+
+136
+00:06:06,680 --> 00:06:10,532
+so it' s going to be 3,257 point...
+
+137
+00:06:10,532 --> 00:06:12,508
+and then the 257 keeps repeating:
+
+138
+00:06:12,508 --> 00:06:18,465
+257, 257, 257 keeps going on and on forever.
+
+139
+00:06:18,465 --> 00:06:21,195
+And then we are going to subtract X from that.
+
+140
+00:06:21,195 --> 00:06:22,436
+so here is x;
+
+141
+00:06:22,436 --> 00:06:24,201
+x is equal to 3.
+
+142
+00:06:24,201 --> 00:06:25,282
+- You want to make sure
+
+143
+00:06:25,282 --> 00:06:26,337
+you have your decimals lined up -
+
+144
+00:06:26,337 --> 00:06:31,460
+3.257 257 257 . . .
+
+145
+00:06:31,460 --> 00:06:33,337
+keeps going on forever.
+
+146
+00:06:33,337 --> 00:06:35,059
+Notice when we multiply it by 1,000
+
+147
+00:06:35,059 --> 00:06:37,795
+it allowed us to line up the 257's
+
+148
+00:06:37,795 --> 00:06:38,993
+so that when we subtract,
+
+149
+00:06:38,993 --> 00:06:41,130
+the repeating part cancels out.
+
+150
+00:06:41,130 --> 00:06:43,326
+So let's do that subtraction.
+
+151
+00:06:43,326 --> 00:06:44,427
+On the left-hand side
+
+152
+00:06:44,427 --> 00:06:46,527
+a thousand of something minus One of that something,
+
+153
+00:06:46,527 --> 00:06:49,435
+You are left with 999 of that something.
+
+154
+00:06:49,435 --> 00:06:50,748
+is equal to
+
+155
+00:06:50,748 --> 00:06:53,433
+- this part is going to cancel out with that part -
+
+156
+00:06:53,433 --> 00:06:55,276
+is going to be equal to..
+
+157
+00:06:55,276 --> 00:06:57,891
+Let's see, 7 - 3 = 4,
+
+158
+00:06:57,891 --> 00:07:01,932
+and then you have this 5 and the 2 and the 3.
+
+159
+00:07:01,932 --> 00:07:07,260
+So you have 999x = 3,254.
+
+160
+00:07:07,260 --> 00:07:16,214
+And then you can divide both sides of this by 999.
+
+161
+00:07:16,214 --> 00:07:23,762
+And you are left with x = 3,254 / 999.
+
+162
+00:07:23,762 --> 00:07:25,666
+Obviously this is improper fraction
+
+163
+00:07:25,666 --> 00:07:27,765
+the numerator is larger than the denominator.
+
+164
+00:07:27,765 --> 00:07:30,682
+You could convert this to a proper fraction if you like,
+
+165
+00:07:30,682 --> 00:07:32,517
+You could just try to figure out
+
+166
+00:07:32,517 --> 00:07:36,766
+what the 0,257 repeating forever part is equal to
+
+167
+00:07:36,766 --> 00:07:39,218
+and have 3 being the whole number part
+
+168
+00:07:39,218 --> 00:07:40,412
+of the mixed fraction,
+
+169
+00:07:40,412 --> 00:07:43,477
+or you can just divide 999 into 3254.
+
+170
+00:07:43,477 --> 00:07:45,930
+Actually we can do that pretty straightforward:
+
+171
+00:07:45,930 --> 00:07:47,681
+it goes into it three times,
+
+172
+00:07:47,681 --> 00:07:49,640
+and the remainder, ...
+
+173
+00:07:49,640 --> 00:07:53,360
+well let me just do it to go through the motions:
+
+174
+00:07:53,360 --> 00:07:56,682
+999 goes into 3254...
+
+175
+00:07:56,682 --> 00:07:58,609
+it will go into it 3 times,
+
+176
+00:07:58,609 --> 00:08:01,438
+we know that because this is originally 3.257
+
+177
+00:08:01,438 --> 00:08:03,529
+so we are just going to find out the remainder.
+
+178
+00:08:03,529 --> 00:08:06,269
+So, 3 x 9 = 27,
+
+179
+00:08:06,269 --> 00:08:10,532
+we add the 2's, so we have 29
+
+180
+00:08:10,532 --> 00:08:13,179
+3 x 9 = 27,
+
+181
+00:08:13,179 --> 00:08:15,469
+we add the 2's, so we have 29
+
+182
+00:08:15,469 --> 00:08:16,756
+so we are left with,
+
+183
+00:08:16,756 --> 00:08:18,196
+if we subtract,
+
+184
+00:08:18,196 --> 00:08:19,962
+if we re-group, or borrow,
+
+185
+00:08:19,962 --> 00:08:21,610
+however we want to call it,
+
+186
+00:08:21,610 --> 00:08:23,412
+this could be 14,
+
+187
+00:08:23,412 --> 00:08:25,107
+this could be a 4,
+
+188
+00:08:25,107 --> 00:08:27,731
+(I'll use a new color)
+
+189
+00:08:27,731 --> 00:08:29,611
+this would be a 4,
+
+190
+00:08:29,611 --> 00:08:31,864
+and then the 4 is still smaller than this 9,
+
+191
+00:08:31,864 --> 00:08:33,607
+so we need to re-group again
+
+192
+00:08:33,607 --> 00:08:36,268
+so this could be 14 and this could be 1,
+
+193
+00:08:36,268 --> 00:08:38,678
+but this is still smaller then this 9 right over here,
+
+194
+00:08:38,678 --> 00:08:40,270
+so we re-group it again,
+
+195
+00:08:40,270 --> 00:08:43,198
+this would be 11 and then this is a 2,
+
+196
+00:08:43,198 --> 00:08:46,179
+14 - 7 = 7,
+
+197
+00:08:46,179 --> 00:08:48,864
+14 - 9 = 5,
+
+198
+00:08:48,864 --> 00:08:51,869
+11 - 9 = 2,
+
+199
+00:08:51,869 --> 00:08:54,763
+so we are left with
+
+200
+00:08:54,763 --> 00:08:56,610
+did I do that right? - Yep
+
+201
+00:08:56,610 --> 00:08:58,117
+so this is going to be equal to
+
+202
+00:08:58,117 --> 00:09:03,262
+3 and 257 over 999.
+
+203
+00:09:03,262 --> 00:09:04,700
+And we are done.

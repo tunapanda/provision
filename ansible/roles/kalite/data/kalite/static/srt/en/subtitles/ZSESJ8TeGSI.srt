@@ -1,0 +1,47 @@
+1
+99:59:59,999 --> 99:59:59,999
+Consider the polynomials: P of x is equal to x to the 6th minus x to the 5th minus x to the 3rd minus
+
+2
+99:59:59,999 --> 99:59:59,999
+x squared minus x and q of x is equal to x to the fourth minus x to the third minus x squared minus
+
+3
+99:59:59,999 --> 99:59:59,999
+one.
+
+4
+99:59:59,999 --> 99:59:59,999
+Given that z-one, z-two, z-three, and z-four are the roots of q of x equals zero, find p of z-one plus
+
+5
+99:59:59,999 --> 99:59:59,999
+p of z-two plus p of z-three plus p of z four.
+
+6
+99:59:59,999 --> 99:59:59,999
+So a good place to start, and if you knew this you might have already realized this, is that if these
+
+7
+99:59:59,999 --> 99:59:59,999
+guys are the roots of q of x equals zero, that means that q of z-one is equal to q of z-two which is
+
+8
+99:59:59,999 --> 99:59:59,999
+equal to q of z-three which is equal to q of z-four which is equal to zero. They're the roots, they're
+
+9
+99:59:59,999 --> 99:59:59,999
+solutions to this equation here. Now given that, and we want to evaluate p of z-one plus p of z-two,
+
+10
+99:59:59,999 --> 99:59:59,999
+it seems like it would be useful if we can express p of x in terms of q of x because then when we evaluate
+
+11
+99:59:59,999 --> 99:59:59,999
+these, the parts that would q of z-one or z-two or whatever would evaluate to zero. So let's try to do t
+
+12
+99:59:59,999 --> 99:59:59,999
+that over there. So the first thing I'm going to try to do, I'm going to try to express these higher d

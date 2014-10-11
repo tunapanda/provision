@@ -1,0 +1,391 @@
+1
+00:00:00,000 --> 00:00:04,720
+We're on problem 226
+
+2
+00:00:04,720 --> 00:00:07,190
+In the figure above-- let me draw the figure above
+
+3
+00:00:07,190 --> 00:00:10,550
+So I have a line there
+
+4
+00:00:10,550 --> 00:00:13,020
+then I have another line that's like that
+
+5
+00:00:13,020 --> 00:00:17,230
+and then this is a triangle like that, and then
+
+6
+00:00:17,230 --> 00:00:20,430
+they draw another line that goes straight down like that
+
+7
+00:00:20,430 --> 00:00:25,730
+And they call this right here z degrees, this is y degrees
+
+8
+00:00:25,730 --> 00:00:27,580
+this is x degrees
+
+9
+00:00:27,580 --> 00:00:29,460
+They tell us that these are right angles
+
+10
+00:00:29,460 --> 00:00:30,310
+Fair enough
+
+11
+00:00:30,310 --> 00:00:32,500
+In the figure above, if z is equal to 50
+
+12
+00:00:32,500 --> 00:00:34,890
+so that is equal to 50 degreeS
+
+13
+00:00:34,890 --> 00:00:39,160
+then x plus y is equal to what?
+
+14
+00:00:39,160 --> 00:00:42,090
+Well if z is 50-- well, first of all
+
+15
+00:00:42,090 --> 00:00:43,560
+we know since these are both right angles
+
+16
+00:00:43,560 --> 00:00:48,460
+both of these lines are going to be parallel, right?
+
+17
+00:00:48,460 --> 00:00:49,570
+Both of those lines are parallel
+
+18
+00:00:49,570 --> 00:00:52,610
+And so you can view this green line as a
+
+19
+00:00:52,610 --> 00:00:56,280
+transversal of the parallel
+
+20
+00:00:56,280 --> 00:00:59,250
+And so, z and y are corresponding angles
+
+21
+00:00:59,250 --> 00:01:00,750
+so y is also going to be 50
+
+22
+00:01:00,750 --> 00:01:02,040
+That should make a little intuitive sense
+
+23
+00:01:02,040 --> 00:01:04,510
+but you could watch the Khan Academy geometry videos
+
+24
+00:01:04,510 --> 00:01:05,470
+if that doesn't make sense
+
+25
+00:01:05,470 --> 00:01:07,070
+But just eyeballing it looks right, too
+
+26
+00:01:07,070 --> 00:01:10,040
+but that's a property of transversals and parallel lines
+
+27
+00:01:10,040 --> 00:01:14,410
+And if that's true, then what is this angle right here?
+
+28
+00:01:14,410 --> 00:01:22,170
+Well, 50 plus 90 plus this angle is equal to 180, right?
+
+29
+00:01:22,170 --> 00:01:28,610
+So we could say 50 plus 90 plus theta is equal to 180
+
+30
+00:01:28,610 --> 00:01:34,320
+So you get 140 plus theta is equal to 180
+
+31
+00:01:34,320 --> 00:01:35,900
+Subtract 140 from both sides
+
+32
+00:01:35,900 --> 00:01:40,520
+so theta is equal to 40 degrees
+
+33
+00:01:40,520 --> 00:01:43,290
+So this angle right here is 40 degrees
+
+34
+00:01:43,290 --> 00:01:44,350
+What's x?
+
+35
+00:01:44,350 --> 00:01:45,360
+Well, they're supplementary
+
+36
+00:01:45,360 --> 00:01:46,570
+They have to add up
+
+37
+00:01:46,570 --> 00:01:49,740
+They have to add up to be 180, right?
+
+38
+00:01:49,740 --> 00:01:51,140
+This whole angle's 180
+
+39
+00:01:51,140 --> 00:01:53,430
+So that whole angle is 180, this is 40
+
+40
+00:01:53,430 --> 00:01:57,150
+then x has to be 140 degrees
+
+41
+00:01:57,150 --> 00:02:00,500
+So they wanted to know what x plus y is?
+
+42
+00:02:00,500 --> 00:02:06,280
+Well x is 140, y is 50, so 140 plus 50 is 190 degrees
+
+43
+00:02:06,280 --> 00:02:09,530
+And that is not one of the choices
+
+44
+00:02:09,530 --> 00:02:13,090
+So I must have -- oh, I see my mistake
+
+45
+00:02:13,090 --> 00:02:14,490
+This angle right here
+
+46
+00:02:14,490 --> 00:02:15,970
+actually, we're still completely fine
+
+47
+00:02:15,970 --> 00:02:18,710
+This angle right here isn't y
+
+48
+00:02:18,710 --> 00:02:20,760
+This angle right here is y
+
+49
+00:02:20,760 --> 00:02:22,950
+But everything we did so far still holds
+
+50
+00:02:22,950 --> 00:02:25,640
+If this angle is 50, this angle is still 50
+
+51
+00:02:25,640 --> 00:02:27,800
+since it's a corresponding angle, right?
+
+52
+00:02:27,800 --> 00:02:32,540
+And if that's 50, this is 90, then this is 40, x is 140
+
+53
+00:02:32,540 --> 00:02:34,200
+Now we just have to figure out what y is
+
+54
+00:02:34,200 --> 00:02:38,660
+Well, y is supplementary with this angle right here, right?
+
+55
+00:02:38,660 --> 00:02:42,650
+So y plus this angle that I used to think was y
+
+56
+00:02:42,650 --> 00:02:45,340
+until I looked closely at the drawing
+
+57
+00:02:45,340 --> 00:02:49,270
+y plus 50 has to be equal to 180 degrees, right?
+
+58
+00:02:49,270 --> 00:02:52,210
+Because it's complementary with this 50 degree angle
+
+59
+00:02:52,210 --> 00:02:55,630
+So y is equal to 130
+
+60
+00:02:55,630 --> 00:03:01,740
+So x plus y is equal to 140 plus 130
+
+61
+00:03:01,740 --> 00:03:08,640
+which is equal to 270 degrees, and that's choice D
+
+62
+00:03:08,640 --> 00:03:13,120
+Problem 227
+
+63
+00:03:13,120 --> 00:03:15,440
+Looks like they've drawn another coordinate axis
+
+64
+00:03:15,440 --> 00:03:17,330
+which I'll draw
+
+65
+00:03:17,330 --> 00:03:20,930
+Nope, that's not what I want to draw with
+
+66
+00:03:20,930 --> 00:03:25,040
+I'll draw with that
+
+67
+00:03:25,040 --> 00:03:29,620
+OK, and then they have a line that comes down
+
+68
+00:03:29,620 --> 00:03:33,450
+something like that
+
+69
+00:03:33,450 --> 00:03:35,190
+And they mark it off
+
+70
+00:03:35,190 --> 00:03:38,360
+They say that this is-- let me see how they mark it off
+
+71
+00:03:38,360 --> 00:03:44,440
+They say that this is the point 1, this is the point 2
+
+72
+00:03:44,440 --> 00:03:45,730
+They don't write the 2 there
+
+73
+00:03:45,730 --> 00:03:46,880
+They call this line l
+
+74
+00:03:46,880 --> 00:03:48,750
+This is the origin
+
+75
+00:03:48,750 --> 00:03:51,690
+This is the x-axis and that is the y-axis
+
+76
+00:03:51,690 --> 00:03:53,790
+And they say in the coordinate system above
+
+77
+00:03:53,790 --> 00:04:00,230
+which of the following is the equation of line l?
+
+78
+00:04:00,230 --> 00:04:01,570
+Well, if we just eyeball it--
+
+79
+00:04:01,570 --> 00:04:02,750
+I mean, they don't say it explicitly
+
+80
+00:04:02,750 --> 00:04:05,410
+but it looks like this is intersecting at y is equal to 2
+
+81
+00:04:05,410 --> 00:04:08,840
+and this is intersecting at y is equal to 3
+
+82
+00:04:08,840 --> 00:04:11,590
+I guess that's a safe assumption
+
+83
+00:04:11,590 --> 00:04:13,570
+So how do we set up this equation?
+
+84
+00:04:13,570 --> 00:04:15,650
+Well, you just have to figure out the slope of the
+
+85
+00:04:15,650 --> 00:04:16,540
+y-intercept
+
+86
+00:04:16,540 --> 00:04:18,390
+We already know the y-intercept, right?
+
+87
+00:04:18,390 --> 00:04:23,230
+It intersects-- when x is 0-- so y of 0
+
+88
+00:04:23,230 --> 00:04:28,010
+When x is 0, y is equal to 2, so that's the y-intercept
+
+89
+00:04:28,010 --> 00:04:30,430
+and now we just have to figure out the slope
+
+90
+00:04:30,430 --> 00:04:32,370
+Well, let's think about the slope
+
+91
+00:04:32,370 --> 00:04:34,650
+If we take this point--
+
+92
+00:04:34,650 --> 00:04:38,230
+well, I'll do it the formal way, right?
+
+93
+00:04:38,230 --> 00:04:43,820
+The slope is equal to change in y over change in x
+
+94
+00:04:43,820 --> 00:04:45,090
+So let's take this as the end point
+
+95
+00:04:45,090 --> 00:04:48,480
+This is 3 comma 0, [PHONE RINGS]
+
+96
+00:04:48,480 --> 00:04:51,070
+and let's see who's on the phone
+
+97
+00:04:51,070 --> 00:04:53,560
+If it's someone-- oh, I'll take that call
+
+98
+00:04:53,560 --> 00:04:55,000
+I'll continue this in the next video

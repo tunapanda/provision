@@ -1,0 +1,675 @@
+1
+00:00:00,610 --> 00:00:03,580
+Welcome to this presentation on logarithm properties.
+
+2
+00:00:03,580 --> 00:00:05,960
+Now this is going to be a very hands-on presentation.
+
+3
+00:00:05,960 --> 00:00:08,570
+If you don't believe that one of these properties are true
+
+4
+00:00:08,580 --> 00:00:11,830
+and you want them proved, I've made three or four videos
+
+5
+00:00:11,830 --> 00:00:13,048
+that actually prove these properties.
+
+6
+00:00:13,048 --> 00:00:15,890
+But what I'm going to do is I'm going to show the properties and then show you how they can be used.
+
+7
+00:00:15,900 --> 00:00:17,510
+It's going to be little more hands-on.
+
+8
+00:00:17,510 --> 00:00:22,606
+So let's just do a little bit of a review of just what a logarithm is.
+
+9
+00:00:23,190 --> 00:00:28,725
+So if I say that "a"... oh that's not the right...
+
+10
+00:00:28,725 --> 00:00:29,225
+Let's see.
+
+11
+00:00:29,225 --> 00:00:31,930
+I want to change-- There you go.
+
+12
+00:00:31,940 --> 00:00:35,240
+Let's say I say that a-- Let me start over.
+
+13
+00:00:35,250 --> 00:00:41,700
+a to the b is equal to c.
+
+14
+00:00:41,710 --> 00:00:44,650
+So if we-- a to the b power is equal to c.
+
+15
+00:00:44,650 --> 00:00:47,410
+So another way to write this exact same relationship instead
+
+16
+00:00:47,420 --> 00:00:49,960
+of writing the exponent, is to write it as a logarithm.
+
+17
+00:00:49,960 --> 00:00:57,530
+So we can say that the logarithm base a of
+
+18
+00:00:57,540 --> 00:01:02,030
+c is equal to b.
+
+19
+00:01:02,504 --> 00:01:06,963
+So this are essentially saying the same thing, they just have different kind of results.
+
+20
+00:01:06,963 --> 00:01:09,700
+In one, you know a and b and you're kind of getting c.
+
+21
+00:01:09,700 --> 00:01:12,010
+That's what exponentiation does for you.
+
+22
+00:01:12,010 --> 00:01:14,240
+And the second one, you know a and you know that when
+
+23
+00:01:14,250 --> 00:01:16,340
+you raise it to some power you get c.
+
+24
+00:01:16,340 --> 00:01:18,040
+And then you figure out what b is.
+
+25
+00:01:18,040 --> 00:01:20,540
+So they're the exact same relationship, just stated
+
+26
+00:01:20,540 --> 00:01:22,080
+in a different way.
+
+27
+00:01:22,090 --> 00:01:24,900
+Now I will introduce you to some interesting
+
+28
+00:01:24,900 --> 00:01:25,960
+logarithm properties.
+
+29
+00:01:25,960 --> 00:01:30,470
+And they actually just fall out of this relationship and
+
+30
+00:01:30,480 --> 00:01:32,730
+the regular exponent rules.
+
+31
+00:01:32,730 --> 00:01:36,850
+So the first is that the logarithm-- Let me do
+
+32
+00:01:36,860 --> 00:01:39,340
+a more cheerful color.
+
+33
+00:01:39,340 --> 00:01:45,250
+The logarithm, let's say, of any base-- So let's just call
+
+34
+00:01:45,260 --> 00:01:47,180
+the base-- Let's say b for base.
+
+35
+00:01:47,180 --> 00:01:57,800
+Logarithm base b of a plus logarithm base b of c-- and
+
+36
+00:01:57,810 --> 00:01:59,760
+this only works if we have the same bases.
+
+37
+00:01:59,760 --> 00:02:01,790
+So that's important to remember.
+
+38
+00:02:01,790 --> 00:02:12,770
+That equals the logarithm of base b of a times c.
+
+39
+00:02:12,780 --> 00:02:14,650
+Now what does this mean and how can we use it?
+
+40
+00:02:14,650 --> 00:02:18,300
+Or let's just even try it out with some,
+
+41
+00:02:18,310 --> 00:02:19,620
+well I don't know, examples.
+
+42
+00:02:19,620 --> 00:02:22,850
+So this is saying that-- I'll switch to another color.
+
+43
+00:02:22,860 --> 00:02:25,380
+Let's make mauve my-- Mauve-- I don't know.
+
+44
+00:02:25,380 --> 00:02:26,720
+I never know how to say that properly.
+
+45
+00:02:26,720 --> 00:02:29,460
+Let's make that my example color.
+
+46
+00:02:29,460 --> 00:02:40,900
+So let's say logarithm of base two of-- I don't know --of eight
+
+47
+00:02:40,910 --> 00:02:51,160
+plus logarithm base two of-- I don't know let's say --thirty-two.
+
+48
+00:02:53,022 --> 00:02:58,429
+So, in theory, this should equal, if we believe this
+
+49
+00:02:58,429 --> 00:03:05,490
+property, this should equal logarithm base two of what?
+
+50
+00:03:05,500 --> 00:03:07,900
+Well we say eight times thirty-two.
+
+51
+00:03:07,900 --> 00:03:17,650
+So eight times thirty-two is two hundred and forty plus sixteen, two hundred and fifty-six.
+
+52
+00:03:17,650 --> 00:03:18,490
+Well let's see if that's true.
+
+53
+00:03:18,500 --> 00:03:20,730
+Just trying out this number and this is really isn't a proof.
+
+54
+00:03:20,740 --> 00:03:22,860
+But it'll give you a little bit of an intuition, I think, for
+
+55
+00:03:22,860 --> 00:03:23,980
+what's going on around you.
+
+56
+00:03:23,990 --> 00:03:26,330
+So log-- So this is-- We just used our property.
+
+57
+00:03:26,340 --> 00:03:28,470
+This little property that I presented to you.
+
+58
+00:03:28,470 --> 00:03:29,870
+And let's just see if it works out.
+
+59
+00:03:29,880 --> 00:03:31,850
+So log base two of eight.
+
+60
+00:03:31,860 --> 00:03:34,510
+two to what power is equal to eight?
+
+61
+00:03:34,520 --> 00:03:38,950
+Well two to the third power is equal to eight, right?
+
+62
+00:03:38,960 --> 00:03:41,300
+So this term right here, that equals three, right?
+
+63
+00:03:41,310 --> 00:03:44,810
+Log base two of eight is equal to three.
+
+64
+00:03:44,810 --> 00:03:48,400
+two to what power is equal to thirty-two?
+
+65
+00:03:48,400 --> 00:03:48,780
+Let's see.
+
+66
+00:03:48,780 --> 00:03:50,570
+two to the fourth power is sixteen.
+
+67
+00:03:50,580 --> 00:03:53,290
+two to the fifth power is thirty-two.
+
+68
+00:03:53,300 --> 00:03:58,400
+So this right here is two to the-- This is five, right?
+
+69
+00:03:58,400 --> 00:04:02,740
+And two to the what power is equal to two hundred and fifty-six?
+
+70
+00:04:02,750 --> 00:04:05,880
+Well if you're a computer science major, you'll
+
+71
+00:04:05,880 --> 00:04:07,200
+know that immediately.
+
+72
+00:04:07,210 --> 00:04:10,460
+That a bite can have two hundred and fifty-six values in it.
+
+73
+00:04:10,460 --> 00:04:12,420
+So it's two to the eighth power.
+
+74
+00:04:12,430 --> 00:04:15,510
+But if you don't know that, you could multiply it out yourself.
+
+75
+00:04:15,520 --> 00:04:16,700
+But this is eight.
+
+76
+00:04:16,700 --> 00:04:18,480
+And I'm not doing it just because I knew that three
+
+77
+00:04:18,490 --> 00:04:19,460
+plus five is equal to eight.
+
+78
+00:04:19,470 --> 00:04:21,220
+I'm doing this independently.
+
+79
+00:04:21,230 --> 00:04:22,290
+So this is equal to eight.
+
+80
+00:04:22,300 --> 00:04:28,520
+But it does turn out that three plus five is equal to eight.
+
+81
+00:04:28,520 --> 00:04:32,160
+This may seem like magic to you or it may seem obvious.
+
+82
+00:04:32,170 --> 00:04:35,550
+And for those of you who it might seem a little obvious,
+
+83
+00:04:35,560 --> 00:04:43,310
+you're probably thinking, well two to the third times two to the
+
+84
+00:04:43,310 --> 00:04:49,490
+fifth is equal to two to the three plus five, right?
+
+85
+00:04:49,500 --> 00:04:51,790
+This is just an exponent rule.
+
+86
+00:04:51,800 --> 00:04:52,670
+What do they call this?
+
+87
+00:04:52,670 --> 00:04:54,740
+The additive exponent prop-- I don't know.
+
+88
+00:04:54,750 --> 00:04:56,220
+I don't know the names of things.
+
+89
+00:04:56,220 --> 00:04:59,910
+And that equals two to eight, two to the eighth.
+
+90
+00:04:59,920 --> 00:05:03,160
+And that's exactly what we did here, right?
+
+91
+00:05:03,160 --> 00:05:07,062
+On this side, we had two the third times two to fifth essentially,
+
+92
+00:05:07,062 --> 00:05:09,720
+and on this side you have them added to each other.
+
+93
+00:05:09,720 --> 00:05:12,840
+And what makes the logarithms interesting is and why-- It's
+
+94
+00:05:12,850 --> 00:05:13,970
+a little confusing at first.
+
+95
+00:05:13,970 --> 00:05:15,610
+And you can watch the proofs if you really want kind of
+
+96
+00:05:15,620 --> 00:05:18,440
+a rigorous-- my proofs aren't rigorous.
+
+97
+00:05:18,440 --> 00:05:19,930
+But if you want kind of a better explanation
+
+98
+00:05:19,930 --> 00:05:21,350
+of how this works.
+
+99
+00:05:21,360 --> 00:05:23,480
+But this should hopefully give you an tuition for why this
+
+100
+00:05:23,480 --> 00:05:25,320
+property holds, right?
+
+101
+00:05:25,320 --> 00:05:27,320
+Because when you multiply two numbers of the
+
+102
+00:05:27,320 --> 00:05:29,250
+same base, right?
+
+103
+00:05:29,260 --> 00:05:31,710
+Two exponential expressions of the same base, you
+
+104
+00:05:31,720 --> 00:05:33,550
+can add their exponents.
+
+105
+00:05:33,560 --> 00:05:37,050
+Similarly, when you have the log of two numbers multiplied
+
+106
+00:05:37,050 --> 00:05:41,700
+by each other, that's equivalent to the log of each
+
+107
+00:05:41,700 --> 00:05:43,510
+of the numbers added to each other.
+
+108
+00:05:43,520 --> 00:05:45,800
+This is the same property.
+
+109
+00:05:45,810 --> 00:05:49,930
+If you don't believe me, watch the proof videos.
+
+110
+00:05:49,930 --> 00:05:56,360
+So let's do a-- Let me show you another log property.
+
+111
+00:05:56,370 --> 00:05:58,220
+It's pretty much the same one.
+
+112
+00:05:58,230 --> 00:05:59,390
+I almost view them the same.
+
+113
+00:05:59,390 --> 00:06:10,440
+So this is log base b of a minus log base b of c
+
+114
+00:06:10,440 --> 00:06:17,030
+is equal to log base b of-- well I ran out.
+
+115
+00:06:17,040 --> 00:06:19,290
+I'm running out of space --a divided by c.
+
+116
+00:06:19,290 --> 00:06:21,540
+That says a divided by c.
+
+117
+00:06:21,540 --> 00:06:25,230
+And we can, once again, try it out with some numbers.
+
+118
+00:06:25,240 --> 00:06:28,610
+I use two a lot just because two is an easy number to
+
+119
+00:06:28,620 --> 00:06:29,790
+figure out the powers.
+
+120
+00:06:29,790 --> 00:06:30,740
+But let's use a different number.
+
+121
+00:06:30,750 --> 00:06:41,190
+Let's say log base three of-- I don't know --log base three of--
+
+122
+00:06:41,190 --> 00:06:44,810
+well you know, let's make it interesting --log base three of
+
+123
+00:06:44,810 --> 00:06:56,920
+one / nine minus log base three of eighty-one.
+
+124
+00:06:56,930 --> 00:07:02,490
+So this property tells us-- This is the same thing as--
+
+125
+00:07:02,500 --> 00:07:04,180
+Well I'm ending up with a big number.
+
+126
+00:07:04,180 --> 00:07:12,990
+Log base three of one / nine divided by eighty-one.
+
+127
+00:07:12,990 --> 00:07:15,880
+So that's the same thing as one / nine times one / eighty-one.
+
+128
+00:07:15,880 --> 00:07:19,690
+I used two large numbers for my example, but
+
+129
+00:07:19,700 --> 00:07:21,310
+we'll move forward.
+
+130
+00:07:21,310 --> 00:07:21,740
+So let's see.
+
+131
+00:07:21,750 --> 00:07:25,690
+nine times eight is seven hundred and twenty, right?
+
+132
+00:07:25,690 --> 00:07:27,180
+nine times-- Right.
+
+133
+00:07:27,180 --> 00:07:28,560
+nine times eight is seven hundred and twenty.
+
+134
+00:07:28,570 --> 00:07:31,020
+So this is one / seven hundred and twenty-nine.
+
+135
+00:07:31,030 --> 00:07:37,850
+So this is log base three over one / seven hundred and twenty-nine.
+
+136
+00:07:37,860 --> 00:07:42,160
+So what-- What does-- three to what power is equal to one / nine?
+
+137
+00:07:42,160 --> 00:07:45,330
+Well three squared is equal to nine, right?
+
+138
+00:07:45,330 --> 00:07:48,060
+So three-- So we know that if three squared is equal to nine, then we
+
+139
+00:07:53,250 --> 00:07:56,940
+know that three to the negative two is equal to one / nine, right?
+
+140
+00:07:56,940 --> 00:07:58,180
+The negative just inverts it.
+
+141
+00:07:58,180 --> 00:08:02,150
+So this is equal to negative two, right?
+
+142
+00:08:02,160 --> 00:08:06,110
+And then minus-- three to what power is equal eighty-one?
+
+143
+00:08:06,120 --> 00:08:07,870
+three to the third power is twenty-seven.
+
+144
+00:08:07,870 --> 00:08:11,380
+So three to the fourth power.
+
+145
+00:08:11,380 --> 00:08:15,860
+So we have minus two minus four is equal to-- Well, we could
+
+146
+00:08:15,870 --> 00:08:16,700
+do it a couple of ways.
+
+147
+00:08:16,700 --> 00:08:20,510
+Minus two minus four is equal to minus six.
+
+148
+00:08:20,520 --> 00:08:23,270
+And now we just have to confirm that three to the minus sixth
+
+149
+00:08:23,270 --> 00:08:26,070
+power is equal to one / seven hundred and twenty-nine.
+
+150
+00:08:26,070 --> 00:08:26,880
+So that's my question.
+
+151
+00:08:26,880 --> 00:08:34,410
+Is three to the minus sixth power, is that equal to seven-- one / seven hundred and twenty-nine?
+
+152
+00:08:34,420 --> 00:08:36,890
+Well that's the same thing as saying three to sixth power is
+
+153
+00:08:36,890 --> 00:08:40,100
+equal to seven hundred and twenty-nine, because that's all the negative exponent
+
+154
+00:08:40,110 --> 00:08:41,750
+does is inverts it.
+
+155
+00:08:41,750 --> 00:08:42,580
+Let's see.
+
+156
+00:08:42,590 --> 00:08:44,870
+We could multiply that out, but that should be the case.
+
+157
+00:08:44,870 --> 00:08:46,470
+Because, well, we could look here.
+
+158
+00:08:46,480 --> 00:08:47,320
+But let's see.
+
+159
+00:08:47,320 --> 00:08:52,620
+three to the third power-- This would be three to the third power
+
+160
+00:08:52,620 --> 00:08:57,440
+times three to the third power is equal to twenty-seven times twenty-seven.
+
+161
+00:08:57,450 --> 00:08:58,530
+That looks pretty close.
+
+162
+00:08:58,530 --> 00:09:00,890
+You can confirm it with a calculator if you
+
+163
+00:09:00,890 --> 00:09:02,330
+don't believe me.
+
+164
+00:09:02,340 --> 00:09:04,940
+Anyway, that's all the time I have in this video.
+
+165
+00:09:04,940 --> 00:09:07,490
+In the next video, I'll introduce you to the last
+
+166
+00:09:07,500 --> 00:09:08,670
+two logarithm properties.
+
+167
+00:09:08,670 --> 00:09:12,480
+And, if we have time, maybe I'll do examples with
+
+168
+00:09:12,490 --> 00:09:13,440
+the leftover time.
+
+169
+00:09:13,440 --> 00:09:15,110
+I'll see you soon.

@@ -1,0 +1,405 @@
+1
+00:00:01,311 --> 00:00:04,666
+Now to recap,
+we are checking if some number 'n'
+
+2
+00:00:04,777 --> 00:00:08,422
+is prime, by doing a trial division.
+
+3
+00:00:08,543 --> 00:00:12,088
+Here is the square root of 'n'.
+And here is 3.
+
+4
+00:00:12,520 --> 00:00:15,644
+Starting at 3 and we are
+hopping along by 2
+
+5
+00:00:15,710 --> 00:00:17,733
+up until the square root of 'n'
+
+6
+00:00:17,750 --> 00:00:21,266
+and at each point in the way
+checking if that number divided 'n'.
+
+7
+00:00:21,288 --> 00:00:25,822
+Now so far, people have been trying
+to reduce the number of steps we take
+
+8
+00:00:25,860 --> 00:00:30,422
+by perhaps starting later
+and taking larger steps.
+
+9
+00:00:30,640 --> 00:00:32,319
+Now I just want to pause here.
+
+10
+00:00:32,466 --> 00:00:35,880
+And let's think about
+what is the ideal case
+
+11
+00:00:35,887 --> 00:00:37,734
+for a trial division algorithm.
+
+12
+00:00:37,734 --> 00:00:40,159
+What is the best we could possibly do,
+
+13
+00:00:40,159 --> 00:00:42,936
+if we got very creative in our stepping?
+
+14
+00:00:42,936 --> 00:00:48,044
+Well, remember. Any number 'n'
+has some prime factorization.
+
+15
+00:00:48,451 --> 00:00:52,577
+Right? And let's say
+the square root of 'n' is here.
+
+16
+00:00:53,276 --> 00:00:57,422
+We actually only need
+to step on prime numbers.
+
+17
+00:00:57,422 --> 00:00:59,468
+That would be the best we could do –
+
+18
+00:00:59,460 --> 00:01:02,777
+because we know if we step only on primes,
+
+19
+00:01:02,944 --> 00:01:07,577
+we will eventually find a factor
+– a prime factor – if it's a composite.
+
+20
+00:01:07,688 --> 00:01:10,888
+The question now is
+how efficient is this method,
+
+21
+00:01:10,933 --> 00:01:13,690
+because it seems like
+we have a perfect solution now,
+
+22
+00:01:13,690 --> 00:01:16,422
+if we wrote a new algorithm,
+
+23
+00:01:16,511 --> 00:01:20,555
+which first just called the sieve.
+
+24
+00:01:21,244 --> 00:01:24,400
+Let's say the new algorithm
+is calculating if 'n' is prime.
+
+25
+00:01:24,511 --> 00:01:28,644
+It could call the sieve
+and generate a nice long list of primes for us.
+
+26
+00:01:29,030 --> 00:01:32,555
+And then, we would have our trial division
+
+27
+00:01:32,888 --> 00:01:35,733
+which would use this list of primes,
+
+28
+00:01:35,755 --> 00:01:39,066
+so it could hop along and hit only primes –
+
+29
+00:01:39,466 --> 00:01:43,311
+up until the square root of 'n'
+– wherever that is.
+
+30
+00:01:44,370 --> 00:01:46,844
+So, what's wrong with this?
+
+31
+00:01:46,933 --> 00:01:51,577
+Well we can visualize the time complexity
+or the number of steps taken.
+
+32
+00:01:51,650 --> 00:01:53,511
+And remember, I did so by...
+
+33
+00:01:53,644 --> 00:01:59,244
+I coded up this algorithm
+and I put in a step counter inside each loop.
+
+34
+00:01:59,383 --> 00:02:01,686
+So, we have –
+
+35
+00:02:01,680 --> 00:02:05,488
+Let's just say step++ means step + 1 here.
+
+36
+00:02:05,577 --> 00:02:10,110
+And inside this other loop,
+there's also a step counter...
+
+37
+00:02:10,354 --> 00:02:11,800
+step++
+
+38
+00:02:12,060 --> 00:02:16,311
+So, these are all constant operations
+checking if – and marking.
+
+39
+00:02:16,533 --> 00:02:19,330
+So we just have a step counter
+inside each loop.
+
+40
+00:02:19,420 --> 00:02:22,288
+And now, here is a comparison.
+
+41
+00:02:22,355 --> 00:02:25,410
+On the far left is our
+old trial-division method.
+
+42
+00:02:25,415 --> 00:02:27,722
+In the middle is our algorithm,
+
+43
+00:02:27,722 --> 00:02:31,651
+just calling the sieve
+to generate all primes up to 'n'.
+
+44
+00:02:31,651 --> 00:02:34,119
+And on the right is this proposal,
+
+45
+00:02:34,119 --> 00:02:36,444
+where we just call the sieve to generate
+
+46
+00:02:36,444 --> 00:02:38,987
+primes up to the square root of 'n' –
+
+47
+00:02:38,987 --> 00:02:43,475
+and then call trial division
+just on those primes.
+
+48
+00:02:43,475 --> 00:02:47,726
+And let's see what happens with small input.
+
+49
+00:02:47,726 --> 00:02:52,865
+As we can see initially,
+the sieve takes many steps.
+
+50
+00:02:52,865 --> 00:02:55,585
+So, even in the modified version
+on the right,
+
+51
+00:02:55,666 --> 00:02:58,733
+is actually slower than trial division –
+
+52
+00:02:58,810 --> 00:03:03,955
+and as the input grows, the number of steps
+in the sieve grows even faster.
+
+53
+00:03:04,275 --> 00:03:06,470
+So let's just forget the middle
+
+54
+00:03:06,470 --> 00:03:08,733
+and compare trial division
+
+55
+00:03:08,777 --> 00:03:11,730
+versus the sieve up to
+the square root of n + trial division.
+
+56
+00:03:11,840 --> 00:03:17,777
+And here, we can see the old trial-division
+method is much more efficient.
+
+57
+00:03:18,022 --> 00:03:21,840
+The number of steps in our sieve
+to square root of 'n' + trial division
+
+58
+00:03:21,866 --> 00:03:24,040
+is growing much faster.
+
+59
+00:03:24,047 --> 00:03:27,710
+So, it is actually not an improvement.
+
+60
+00:03:27,710 --> 00:03:29,953
+And below, is the program I used
+
+61
+00:03:29,953 --> 00:03:31,962
+to do this comparison.
+
+62
+00:03:31,962 --> 00:03:33,359
+And there is a recording
+
+63
+00:03:33,359 --> 00:03:35,220
+explaining how I set it up.
+
+64
+00:03:35,220 --> 00:03:36,967
+But now you maybe wondering,
+
+65
+00:03:36,967 --> 00:03:41,511
+"Well, what if we calculated
+the primes in advance?"
+
+66
+00:03:41,755 --> 00:03:47,066
+So, the first step would be to,
+let's say, build an array of primes
+
+67
+00:03:48,330 --> 00:03:51,800
+and store it on a hard drive.
+
+68
+00:03:52,470 --> 00:03:56,711
+And then, our algorithm
+would just do trial division,
+
+69
+00:03:57,111 --> 00:03:59,977
+and it would know how to hop on primes only,
+
+70
+00:04:00,100 --> 00:04:04,511
+because it would be reading
+from this proposed prime list.
+
+71
+00:04:05,133 --> 00:04:10,970
+And perhaps our prime list stores all primes
+up to 20 digits, or even 100 digits.
+
+72
+00:04:11,222 --> 00:04:13,070
+Why can't we do this?
+
+73
+00:04:13,070 --> 00:04:18,623
+Well, the problem
+is limitations in memory
+
+74
+00:04:18,623 --> 00:04:20,721
+when we enumerate lists of numbers,
+
+75
+00:04:20,721 --> 00:04:22,369
+which we'll explore next.
+
+76
+00:04:22,369 --> 00:04:25,644
+And, just for example,
+let's say we were doing this by hand.
+
+77
+00:04:25,688 --> 00:04:27,510
+We calculate 5 was prime.
+
+78
+00:04:27,510 --> 00:04:31,422
+We write 5 on a piece of paper
+and we store it in a filing cabinet.
+
+79
+00:04:31,488 --> 00:04:34,911
+Then we get 7.
+We store that in a filing cabinet.
+
+80
+00:04:34,950 --> 00:04:39,933
+and 9... or 11....Sorry.
+...into the filing cabinet.
+
+81
+00:04:39,970 --> 00:04:42,796
+And then we have a filing
+cabinet full of prime numbers.
+
+82
+00:04:42,796 --> 00:04:46,711
+This is our... Think of it as a prime array.
+
+83
+00:04:48,511 --> 00:04:51,400
+Now, how big would
+this filing cabinet be if,
+
+84
+00:04:51,404 --> 00:04:54,166
+say, we wanted all primes up to 20 digits?
+
+85
+00:04:54,166 --> 00:04:56,938
+– or all primes up to 100 digits long?
+
+86
+00:04:57,066 --> 00:05:02,844
+Could we even store
+this array on a hard drive?
+
+87
+00:05:04,644 --> 00:05:08,170
+And understand why this
+actually isn't possible,
+
+88
+00:05:08,172 --> 00:05:10,494
+we have to dive a little deeper into
+
+89
+00:05:10,555 --> 00:05:14,260
+how large does this actually grow
+– this prime array –
+
+90
+00:05:14,351 --> 00:05:20,333
+and what is the size limitation of modern-day
+and even future computer hardware?

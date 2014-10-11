@@ -1,0 +1,421 @@
+1
+00:00:00,180 --> 00:00:04,190
+I'm going to construct a sequence where
+I start with some number ,,
+
+2
+00:00:04,190 --> 00:00:06,180
+let's say I start with the number a ,,
+
+3
+00:00:06,250 --> 00:00:08,610
+and then each successive term of the
+sequence,
+
+4
+00:00:08,610 --> 00:00:10,020
+I'm gonna to multiply the pre ,,
+
+5
+00:00:10,250 --> 00:00:12,720
+to get each successive term of the
+sequence,
+
+6
+00:00:12,720 --> 00:00:16,980
+I'm gonna multiply the previous term
+by some fixed non zero number.
+
+7
+00:00:16,980 --> 00:00:18,080
+And I'm gonna call that r.
+
+8
+00:00:18,080 --> 00:00:20,370
+So the next term is going to be a ,,
+
+9
+00:00:20,780 --> 00:00:23,100
+is going to be a times r.
+
+10
+00:00:23,380 --> 00:00:25,740
+And then the term after that I'm gonna
+apply ,,
+
+11
+00:00:25,740 --> 00:00:27,880
+I'm going to multiply
+this thing times r.
+
+12
+00:00:27,880 --> 00:00:29,580
+So it's going to be a ,,
+
+13
+00:00:29,580 --> 00:00:30,870
+if you took ,, if you multiply a r
+times r,
+
+14
+00:00:30,870 --> 00:00:34,140
+that's going to be a r ,,
+
+15
+00:00:34,910 --> 00:00:40,260
+a r squared. And then if you were
+to multiply this turned ,,
+
+16
+00:00:40,720 --> 00:00:45,440
+term times r, you would get
+a times r to the third power.
+
+17
+00:00:45,440 --> 00:00:48,310
+And you could keep
+going on and on and on and on.
+
+18
+00:00:48,310 --> 00:00:53,120
+And this type of sequence ,,
+
+19
+00:00:53,520 --> 00:00:54,220
+or
+
+20
+00:01:00,450 --> 00:01:01,550
+this type of progression ,,
+
+21
+00:01:01,580 --> 00:01:02,330
+is called a geometric ,,
+
+22
+00:01:02,330 --> 00:01:03,110
+geometric sequence or progression ,,
+
+23
+00:01:03,110 --> 00:01:05,019
+geometric sequence. You
+start with some first value.
+
+24
+00:01:05,019 --> 00:01:06,620
+Let me circle that in a different color,
+
+25
+00:01:06,620 --> 00:01:07,730
+since I already used the green.
+
+26
+00:01:07,730 --> 00:01:09,900
+So you start with some first value.
+
+27
+00:01:09,970 --> 00:01:11,200
+And then each success ,,
+
+28
+00:01:11,200 --> 00:01:12,380
+to get each successive term,
+
+29
+00:01:12,750 --> 00:01:13,970
+you multiply by this fixed number.
+
+30
+00:01:14,980 --> 00:01:17,510
+And in this case,
+
+31
+00:01:18,720 --> 00:01:19,790
+this fixed number is r.
+
+32
+00:01:19,790 --> 00:01:22,570
+And so we call our common ratio ,,
+
+33
+00:01:22,570 --> 00:01:26,140
+our common ratio. Why is it called
+a common ratio?
+
+34
+00:01:26,140 --> 00:01:28,530
+Well take any two successive terms.
+
+35
+00:01:28,600 --> 00:01:29,400
+Take this term and this term,
+
+36
+00:01:29,400 --> 00:01:32,170
+and divide this term by
+this term right over here.
+
+37
+00:01:32,170 --> 00:01:35,380
+a r to the third divided by a r squared.
+
+38
+00:01:35,600 --> 00:01:39,320
+So if you find the ratio
+between these two things a ,,
+
+39
+00:01:40,540 --> 00:01:41,780
+Let me rewrite this. Same colors.
+
+40
+00:01:41,780 --> 00:01:44,280
+So if you took a r to the third power,
+
+41
+00:01:44,520 --> 00:01:48,570
+and were to divide it by
+the term before it ,,
+
+42
+00:01:49,400 --> 00:01:52,530
+so if you were divide
+it by a r squared,
+
+43
+00:01:53,550 --> 00:01:57,440
+what are you gonna be left with?
+
+44
+00:01:57,710 --> 00:02:00,090
+Well, a divided by a is 1.
+
+45
+00:02:00,090 --> 00:02:02,880
+r to the third divided by r squared
+is just going to be r.
+
+46
+00:02:02,880 --> 00:02:05,670
+And this is true if you divide any term
+by the term before it.
+
+47
+00:02:05,720 --> 00:02:07,220
+Or if you find the
+ratio between any term and the
+
+48
+00:02:07,220 --> 00:02:08,270
+term before it, it's going to be r.
+
+49
+00:02:08,270 --> 00:02:12,060
+And so that's why it's called
+a common ratio.
+
+50
+00:02:12,090 --> 00:02:14,580
+And so let's ,, go look some ,,
+
+51
+00:02:14,580 --> 00:02:17,890
+look at some examples of
+geometric sequences.
+
+52
+00:02:17,890 --> 00:02:20,410
+So if I start with the number ,,
+
+53
+00:02:20,410 --> 00:02:23,390
+if I start with the number 5 ,,
+
+54
+00:02:23,390 --> 00:02:26,280
+so my a is five ,, and then each time,
+
+55
+00:02:26,280 --> 00:02:26,740
+I'm gonna multiply ,,
+
+56
+00:02:26,800 --> 00:02:31,560
+I'm going to multiply by ,,
+
+57
+00:02:32,110 --> 00:02:34,040
+I don't know ,, Let's say I multiply by
+1/7.
+
+58
+00:02:34,040 --> 00:02:38,130
+So then the next term is going to be
+5 over 7 ,,
+
+59
+00:02:38,130 --> 00:02:41,830
+5 over 7. What's the next term going to
+be?
+
+60
+00:02:42,100 --> 00:02:46,650
+Well, I'm going to multiply
+this thing times one_seventh.
+
+61
+00:02:47,180 --> 00:02:50,370
+So that's going to be
+5 7ths times one 7th is 5 49ths.
+
+62
+00:02:50,370 --> 00:02:57,400
+So it's going to be 5 over ,,
+
+63
+00:02:58,940 --> 00:03:01,950
+5 over 7 squared ,,
+
+64
+00:03:02,960 --> 00:03:06,960
+or 49. If I'm oh ,, were to multiply
+this times 1 7th,
+
+65
+00:03:06,960 --> 00:03:09,940
+what am I going to get?
+
+66
+00:03:10,140 --> 00:03:13,130
+And I'll just change the notation.
+
+67
+00:03:13,130 --> 00:03:14,710
+I'll just get 5 times,
+
+68
+00:03:15,060 --> 00:03:19,820
+I don't actually know in my head what
+7 to the third power is.
+
+69
+00:03:19,820 --> 00:03:21,420
+I guess I could calculate it.
+
+70
+00:03:22,090 --> 00:03:25,560
+Two hundred and eighty plus 63 ,,
+
+71
+00:03:25,590 --> 00:03:32,190
+Let's see. So that would
+be see 7 times 40 is 280.
+
+72
+00:03:32,190 --> 00:03:35,410
+7 times 9 is 63. So you're going to
+get to 343,
+
+73
+00:03:35,410 --> 00:03:37,200
+I believe. Let's see.
+
+74
+00:03:37,200 --> 00:03:45,430
+Did I do that right? 7 times 280 plus
+63 is 343.
+
+75
+00:03:45,600 --> 00:03:48,710
+And you can just keep going.
+
+76
+00:03:48,710 --> 00:03:53,080
+So this right over here is an example
+of a geometric ,,
+
+77
+00:03:53,080 --> 00:03:54,270
+of a geometric sequence.
+
+78
+00:03:54,270 --> 00:03:54,870
+Started with some first value,
+
+79
+00:03:54,870 --> 00:03:57,280
+and each successive value I
+multiplied by 1 7th.
+
+80
+00:03:57,280 --> 00:04:00,410
+1 7th is the common ratio here.
+
+81
+00:04:00,440 --> 00:04:04,230
+Let me give you another one.
+
+82
+00:04:04,230 --> 00:04:05,150
+Let's say I have this.
+
+83
+00:04:05,150 --> 00:04:07,450
+Let's say I have 3.
+And then let's say I have 6.
+
+84
+00:04:07,450 --> 00:04:08,910
+And let's say I have 12.
+
+85
+00:04:09,060 --> 00:04:12,340
+Then I have 24. Then I have 48.
+
+86
+00:04:12,360 --> 00:04:13,900
+Is this a geometric series?
+
+87
+00:04:13,900 --> 00:04:17,140
+And if it is, what is
+the common ratio here?
+
+88
+00:04:17,140 --> 00:04:19,529
+Well, you could figure out
+the common ratio by just taking any two
+
+89
+00:04:19,529 --> 00:04:20,890
+successive terms and dividing.
+
+90
+00:04:21,060 --> 00:04:22,840
+Well first you could ,,
+
+91
+00:04:22,990 --> 00:04:25,240
+you could try it with two terms.
+
+92
+00:04:25,240 --> 00:04:27,230
+So 12 divided by 6 is 2.
+
+93
+00:04:27,230 --> 00:04:28,630
+So we have to multiply by 2.
+
+94
+00:04:28,630 --> 00:04:31,040
+To go from 12 to 24, you multiplied by
+2.
+
+95
+00:04:31,040 --> 00:04:36,890
+To go from 24 to 48, you have
+to multiply by 2.
+
+96
+00:04:36,960 --> 00:04:37,030
+To

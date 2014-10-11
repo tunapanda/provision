@@ -1,0 +1,331 @@
+1
+00:00:00,469 --> 00:00:03,487
+We've already been exposed to points and lines
+
+2
+00:00:03,487 --> 00:00:06,007
+Now, let's think about planes
+
+3
+00:00:06,007 --> 00:00:11,674
+and you can view planes as really a flat surface that exists in three dimensions
+
+4
+00:00:11,674 --> 00:00:13,604
+that goes off in every direction.
+
+5
+00:00:13,604 --> 00:00:14,745
+So for example,
+
+6
+00:00:14,745 --> 00:00:17,401
+if I have a flat surface like this,
+
+7
+00:00:17,401 --> 00:00:21,076
+and it's not curved and it just keeps going on and on and on
+
+8
+00:00:21,076 --> 00:00:23,271
+in every direction
+
+9
+00:00:23,271 --> 00:00:24,268
+Now the question is,
+
+10
+00:00:24,268 --> 00:00:27,321
+&quot;How do you specify a plane?&quot;
+
+11
+00:00:27,321 --> 00:00:28,213
+Well, you might say-
+
+12
+00:00:28,213 --> 00:00:29,282
+well, let's see
+
+13
+00:00:29,282 --> 00:00:30,338
+let's think about it a little bit.
+
+14
+00:00:30,338 --> 00:00:35,152
+Could I specify a plane with one point right over here?
+
+15
+00:00:35,152 --> 00:00:38,802
+Let's call that point A. Would that alone be able to specify a plane?
+
+16
+00:00:38,802 --> 00:00:43,579
+Well, there's an infinite number of planes that could go through that point
+
+17
+00:00:43,579 --> 00:00:46,910
+I could have a plane that goes like this
+
+18
+00:00:46,910 --> 00:00:50,238
+where that point A sits on that plane,
+
+19
+00:00:50,238 --> 00:00:52,341
+I could have a plane like that,
+
+20
+00:00:52,341 --> 00:00:55,157
+or I could have a plane like this,
+
+21
+00:00:55,157 --> 00:00:59,538
+I could have a plane like this, where point A sits on it as well
+
+22
+00:00:59,538 --> 00:01:01,337
+Also, I can have a plane like that
+
+23
+00:01:01,337 --> 00:01:03,569
+and I could just keep rotating around A
+
+24
+00:01:03,569 --> 00:01:08,492
+So one point by itself does not seem to be sufficient to define a plane.
+
+25
+00:01:08,492 --> 00:01:12,567
+Well, what about 2 points? Let's say I had a point B
+
+26
+00:01:12,567 --> 00:01:15,492
+right over here. Well, notice, the way I drew this
+
+27
+00:01:15,492 --> 00:01:18,314
+point A and B, they would define a line
+
+28
+00:01:18,314 --> 00:01:22,005
+For example, they would define this line right over here
+
+29
+00:01:22,005 --> 00:01:23,902
+So they would define, could define
+
+30
+00:01:23,902 --> 00:01:26,411
+this line right over here
+
+31
+00:01:26,411 --> 00:01:27,738
+but both of these points, and in fact
+
+32
+00:01:27,738 --> 00:01:31,910
+this entire line, exists on both of these planes that I just drew
+
+33
+00:01:31,910 --> 00:01:33,743
+and I could keep rotating these planes
+
+34
+00:01:33,743 --> 00:01:36,159
+I could have a plane that looks like this,
+
+35
+00:01:36,159 --> 00:01:41,827
+I could have a plane that looks like this, that both of these points actually sit on
+
+36
+00:01:41,827 --> 00:01:44,405
+I'm essentially just rotating around this line
+
+37
+00:01:44,405 --> 00:01:47,571
+that is defined by both of these points
+
+38
+00:01:47,571 --> 00:01:50,152
+So two points does not seem to be sufficient.
+
+39
+00:01:50,152 --> 00:01:53,205
+Let's try three.
+
+40
+00:01:53,205 --> 00:01:57,143
+So there's no way that I could- well, let's be careful here
+
+41
+00:01:57,143 --> 00:02:01,492
+I could put a third point right over here, point C
+
+42
+00:02:01,492 --> 00:02:04,472
+And C sits on that line and C sits on all of these planes
+
+43
+00:02:04,472 --> 00:02:08,602
+so it doesn't seem like just a random third point is sufficient
+
+44
+00:02:08,602 --> 00:02:12,243
+to define, to pick out any one of these planes.
+
+45
+00:02:12,243 --> 00:02:13,906
+Well, what if we make the constraint
+
+46
+00:02:13,906 --> 00:02:16,820
+that the three points are not all on the same line?
+
+47
+00:02:16,820 --> 00:02:19,730
+Obviously, two points will always define a line,
+
+48
+00:02:19,730 --> 00:02:21,878
+but what if the three points are not collinear?
+
+49
+00:02:21,878 --> 00:02:23,904
+So instead of picking C as a point,
+
+50
+00:02:23,904 --> 00:02:29,604
+what if we pick- is there any way to pick a point D that is not on this line
+
+51
+00:02:29,604 --> 00:02:33,608
+that is on more than one of these planes?
+
+52
+00:02:33,608 --> 00:02:34,072
+Well, no!
+
+53
+00:02:34,072 --> 00:02:35,337
+If I say- well, let's see
+
+54
+00:02:35,337 --> 00:02:38,271
+the point D- let's say point D is right over here
+
+55
+00:02:38,271 --> 00:02:40,003
+so it sits on this plane right over here
+
+56
+00:02:40,003 --> 00:02:41,827
+(one of the first ones that I drew)
+
+57
+00:02:41,827 --> 00:02:44,003
+So point D sits on that plane
+
+58
+00:02:44,003 --> 00:02:48,930
+Between point D, A, and B, there's only one plane that all three of those points sit on.
+
+59
+00:02:48,930 --> 00:02:54,826
+So a plane is defined by three noncollinear points.
+
+60
+00:02:54,826 --> 00:02:57,325
+So D, A, and B, you see,
+
+61
+00:02:57,325 --> 00:02:59,075
+do not sit on the same line.
+
+62
+00:02:59,075 --> 00:03:00,824
+A and B can sit on the same line,
+
+63
+00:03:00,824 --> 00:03:02,336
+D and A can sit on the same line,
+
+64
+00:03:02,336 --> 00:03:04,154
+D and B can sit on the same line,
+
+65
+00:03:04,154 --> 00:03:09,005
+but A, B, and D does not sit on- they are noncollinear.
+
+66
+00:03:09,005 --> 00:03:12,672
+So for example, right over here in this diagram,
+
+67
+00:03:12,672 --> 00:03:16,237
+we have a plane- this plane is labeled S
+
+68
+00:03:16,237 --> 00:03:18,731
+but another way that we can specify plane S
+
+69
+00:03:18,731 --> 00:03:19,336
+is we could say
+
+70
+00:03:19,336 --> 00:03:21,322
+plane
+
+71
+00:03:21,322 --> 00:03:25,074
+And we just have to find the three noncollinear points on that plane
+
+72
+00:03:25,074 --> 00:03:31,819
+So we could call this plane "AJB"
+
+73
+00:03:31,819 --> 00:03:40,135
+We could call it plane &quot;JBW&quot;
+
+74
+00:03:40,135 --> 00:03:41,874
+We could call it plane- and I could keep going
+
+75
+00:03:41,874 --> 00:03:47,244
+plane "WJA"
+
+76
+00:03:47,244 --> 00:03:50,522
+But I could NOT specify this plane uniquely by saying-
+
+77
+00:03:50,522 --> 00:03:57,273
+so I could not say plane &quot;ABW&quot;
+
+78
+00:03:57,273 --> 00:03:58,667
+And the reason why I can't do this is 'cause
+
+79
+00:03:58,667 --> 00:04:01,067
+A, B, and W are all on the same line
+
+80
+00:04:01,067 --> 00:04:03,412
+and this line sits on an infinite number of planes
+
+81
+00:04:03,412 --> 00:04:05,070
+I could keep rotating around the line
+
+82
+00:04:05,070 --> 00:04:06,577
+just as we did over here
+
+83
+00:04:06,577 --> 00:04:10,577
+It does not specify only one plane.

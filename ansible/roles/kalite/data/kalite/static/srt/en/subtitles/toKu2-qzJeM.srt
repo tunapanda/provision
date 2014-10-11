@@ -1,0 +1,439 @@
+1
+00:00:00,075 --> 00:00:01,264
+So in my last video,
+
+2
+00:00:01,264 --> 00:00:02,646
+I joked about folding and cutting
+
+3
+00:00:02,646 --> 00:00:03,914
+spheres instead of paper.
+
+4
+00:00:03,914 --> 00:00:05,375
+But then I thought, why not?
+
+5
+00:00:05,375 --> 00:00:06,720
+I mean, finite symmetry groups
+
+6
+00:00:06,720 --> 00:00:08,797
+on the Euclidean plane are fun and all.
+
+7
+00:00:08,804 --> 00:00:10,563
+But there are really only two types:
+
+8
+00:00:10,563 --> 00:00:12,305
+some amount of mirror lines around a point,
+
+9
+00:00:12,305 --> 00:00:14,563
+and some amount of rotations around a point.
+
+10
+00:00:14,563 --> 00:00:16,554
+Spherical patterns are much more fun.
+
+11
+00:00:16,554 --> 00:00:18,321
+And I happen to be a huge fan of some of
+
+12
+00:00:18,321 --> 00:00:22,443
+these symmetry groups – maybe just a little bit.
+
+13
+00:00:22,443 --> 00:00:23,865
+Although snowflakes are actually
+
+14
+00:00:23,865 --> 00:00:25,002
+three dimensional. (3-D.)
+
+15
+00:00:25,002 --> 00:00:26,250
+This snowflake doesn't just have
+
+16
+00:00:26,250 --> 00:00:27,442
+lines of mirror symmetry –
+
+17
+00:00:27,442 --> 00:00:29,389
+but planes of mirror symmetry.
+
+18
+00:00:29,389 --> 00:00:31,529
+And there's one more mirror plane –
+
+19
+00:00:31,529 --> 00:00:33,998
+the one going flat through the snowflake –
+
+20
+00:00:33,998 --> 00:00:36,389
+because one side of the paper mirrors the other.
+
+21
+00:00:36,389 --> 00:00:37,750
+And you can imagine that snowflake
+
+22
+00:00:37,750 --> 00:00:38,827
+suspended in this sphere –
+
+23
+00:00:38,827 --> 00:00:41,021
+so that we can draw the mirror lines more easily.
+
+24
+00:00:41,021 --> 00:00:43,114
+Now this sphere has the same symmetry
+
+25
+00:00:43,114 --> 00:00:45,183
+as this 3-D paper snowflake.
+
+26
+00:00:45,183 --> 00:00:46,497
+If you're studying group theory,
+
+27
+00:00:46,497 --> 00:00:48,446
+you could label this with group theory stuff.
+
+28
+00:00:48,446 --> 00:00:48,918
+But whatever.
+
+29
+00:00:48,918 --> 00:00:50,619
+I'm going to fold this sphere on these lines,
+
+30
+00:00:50,619 --> 00:00:52,092
+and then cut it – and that will give me
+
+31
+00:00:52,092 --> 00:00:53,437
+something with the same symmetry
+
+32
+00:00:53,437 --> 00:00:55,075
+as a paper snowflake – except on this sphere.
+
+33
+00:00:55,075 --> 00:00:55,789
+And it's a mess.
+
+34
+00:00:55,789 --> 00:00:57,137
+So let's glue it to another sphere.
+
+35
+00:00:57,137 --> 00:01:00,110
+And now it's perfect and beautiful in every way.
+
+36
+00:01:00,110 --> 00:01:02,580
+But the point is it's equivalent to this snowflake –
+
+37
+00:01:02,580 --> 00:01:04,431
+as far as symmetry is concerned.
+
+38
+00:01:04,431 --> 00:01:06,963
+Okay, so that's your regular old six-fold snowflake.
+
+39
+00:01:06,963 --> 00:01:09,208
+But I've seen pictures of twelve-fold snowflakes.
+
+40
+00:01:09,208 --> 00:01:10,399
+How do they work?
+
+41
+00:01:10,399 --> 00:01:11,785
+Sometimes stuff goes a little oddly
+
+42
+00:01:11,785 --> 00:01:13,842
+at the very beginning of snowflake formation,
+
+43
+00:01:13,842 --> 00:01:15,553
+and two snowflakes sprout, basically,
+
+44
+00:01:15,553 --> 00:01:17,949
+on top of each other – but turned 30 degrees.
+
+45
+00:01:17,949 --> 00:01:19,518
+If you think of them as one flat thing,
+
+46
+00:01:19,518 --> 00:01:20,864
+it has twelve-fold symmetry.
+
+47
+00:01:20,864 --> 00:01:23,040
+But in 3-D, it's not really true.
+
+48
+00:01:23,040 --> 00:01:24,569
+The layers make it so there's
+
+49
+00:01:24,569 --> 00:01:26,192
+not a plane of symmetry here.
+
+50
+00:01:26,192 --> 00:01:27,968
+See. The branch on the left is on top.
+
+51
+00:01:27,968 --> 00:01:29,037
+While in the mirror image,
+
+52
+00:01:29,037 --> 00:01:30,846
+the branch on the right is on top.
+
+53
+00:01:30,846 --> 00:01:31,981
+So, is it just the same symmetry
+
+54
+00:01:31,981 --> 00:01:33,651
+as a normal six-fold snowflake?
+
+55
+00:01:33,651 --> 00:01:35,879
+What about that seventh plane of symmetry?
+
+56
+00:01:35,879 --> 00:01:37,271
+But no, through this plane,
+
+57
+00:01:37,271 --> 00:01:39,156
+one side doesn't mirror the other.
+
+58
+00:01:39,156 --> 00:01:41,117
+There's no extra plane of symmetry.
+
+59
+00:01:41,117 --> 00:01:42,612
+But there's something cooler –
+
+60
+00:01:42,612 --> 00:01:44,422
+rotational symmetry.
+
+61
+00:01:44,422 --> 00:01:45,786
+If you rotate this around this line,
+
+62
+00:01:45,786 --> 00:01:47,209
+you get the same thing –
+
+63
+00:01:47,209 --> 00:01:48,894
+the branch on the left is still on top.
+
+64
+00:01:48,894 --> 00:01:50,645
+If you imagine it floating in a sphere,
+
+65
+00:01:50,645 --> 00:01:52,329
+you can draw the mirror lines,
+
+66
+00:01:52,329 --> 00:01:53,937
+and then you have twelve points
+
+67
+00:01:53,937 --> 00:01:55,313
+of rotational symmetry.
+
+68
+00:01:55,313 --> 00:01:57,673
+So I can fold, then slit it, so I can [indistinct]
+
+69
+00:01:57,673 --> 00:01:59,411
+around the rotation point.
+
+70
+00:01:59,411 --> 00:02:00,764
+And cut out each 'sphereflake'
+
+71
+00:02:00,764 --> 00:02:04,209
+with the same symmetry as this. Perfect.
+
+72
+00:02:04,209 --> 00:02:04,993
+And you can fold spheres
+
+73
+00:02:04,993 --> 00:02:06,816
+other ways to get others patterns.
+
+74
+00:02:06,816 --> 00:02:08,993
+Okay. What about fancier stuff like this?
+
+75
+00:02:08,993 --> 00:02:10,446
+Well, all I need to do is figure out
+
+76
+00:02:10,446 --> 00:02:11,700
+the symmetry to fold it.
+
+77
+00:02:11,700 --> 00:02:13,061
+So, say we have a cube.
+
+78
+00:02:13,061 --> 00:02:14,669
+What are the planes of symmetry?
+
+79
+00:02:14,669 --> 00:02:16,307
+It's symmetric around this way,
+
+80
+00:02:16,307 --> 00:02:18,169
+and this way, and this way.
+
+81
+00:02:18,169 --> 00:02:19,499
+Anything else?
+
+82
+00:02:19,499 --> 00:02:21,668
+How about diagonally across this way?
+
+83
+00:02:21,668 --> 00:02:23,867
+But in the end, we have all the fold lines.
+
+84
+00:02:23,867 --> 00:02:24,953
+And now, we just need to fold
+
+85
+00:02:24,953 --> 00:02:26,494
+the sphere along those lines
+
+86
+00:02:26,494 --> 00:02:28,671
+to get just one little triangle thing.
+
+87
+00:02:28,671 --> 00:02:29,525
+And once we do,
+
+88
+00:02:29,525 --> 00:02:31,169
+we can unfold it to get something
+
+89
+00:02:31,169 --> 00:02:32,545
+with the same symmetry as a cube.
+
+90
+00:02:32,545 --> 00:02:34,026
+And, of course, you have to do something
+
+91
+00:02:34,026 --> 00:02:35,061
+with tetrahedral symmetry,
+
+92
+00:02:35,061 --> 00:02:36,530
+as long as you're there.
+
+93
+00:02:36,530 --> 00:02:37,551
+And, of course, you really
+
+94
+00:02:37,551 --> 00:02:38,575
+want to do icosahedral.
+
+95
+00:02:38,575 --> 00:02:39,988
+But the plastic is thick and imperfect,
+
+96
+00:02:39,988 --> 00:02:41,005
+and a complete mess.
+
+97
+00:02:41,005 --> 00:02:41,851
+So who knows what's going on.
+
+98
+00:02:41,851 --> 00:02:43,366
+But at least you could try some other ones
+
+99
+00:02:43,366 --> 00:02:45,704
+with rotational symmetry and other stuff –
+
+100
+00:02:45,704 --> 00:02:46,573
+and make a mess.
+
+101
+00:02:46,573 --> 00:02:47,750
+And soon, you're going to want to fold and cut
+
+102
+00:02:47,750 --> 00:02:49,742
+the very fabric of space itself to get awesome
+
+103
+00:02:49,742 --> 00:02:51,067
+infinite 3-D symmetry groups,
+
+104
+00:02:51,067 --> 00:02:52,839
+such as the one water molecules follow
+
+105
+00:02:52,839 --> 00:02:55,784
+when they pack together into solid ice crystals.
+
+106
+00:02:55,784 --> 00:02:56,586
+And before you know it,
+
+107
+00:02:56,586 --> 00:02:58,006
+you'll be playing with multidimensional
+
+108
+00:02:58,006 --> 00:02:58,998
+quasi-crystallography,
+
+109
+00:02:58,998 --> 00:03:00,420
+or lie algebras or something.
+
+110
+00:03:00,420 --> 00:03:02,925
+So you should probably just stop now.

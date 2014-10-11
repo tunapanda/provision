@@ -1,0 +1,211 @@
+1
+00:00:00,858 --> 00:00:04,590
+The members of a distinguished committee were choosing a president
+
+2
+00:00:04,590 --> 00:00:07,858
+and each member gave one vote to one of the
+
+3
+00:00:07,858 --> 00:00:14,507
+27 candidates. So each member gave one vote to one of the 27 candidates
+
+4
+00:00:14,507 --> 00:00:16,340
+so it looks like they all got at least one vote
+
+5
+00:00:16,340 --> 00:00:21,275
+For each candidate, the exact percentage of votes the candidate got
+
+6
+00:00:21,275 --> 00:00:27,041
+was smaller by at least 1 than the number of votes for that candidate.
+
+7
+00:00:27,041 --> 00:00:30,590
+Let me underline that. It's kind of a confusing statement.
+
+8
+00:00:30,590 --> 00:00:37,040
+For each candidate, the exact percentage of votes the candidate got
+
+9
+00:00:37,040 --> 00:00:41,908
+was smaller by at least one than the number of votes for that candidate.
+
+10
+00:00:41,908 --> 00:00:47,757
+was smaller by at least one than the number of votes for that candidate
+
+11
+00:00:47,757 --> 00:00:53,576
+What is the smallest possible number of members of the committe?
+
+12
+00:00:53,576 --> 00:00:58,058
+So, let's define some variables here. Maybe we can get our heads around this.
+
+13
+00:00:58,058 --> 00:01:02,758
+let's just say that "m" is equal to the number of members of the committee
+
+14
+00:01:02,758 --> 00:01:10,610
+members thats equal to members. and lets just think about each candidate
+
+15
+00:01:10,610 --> 00:01:15,076
+let's say that, we just have 27 candidates but lets just pick some arbitrary candidate "i"
+
+16
+00:01:15,076 --> 00:01:17,592
+so then "i" can be any number from 1-27.
+
+17
+00:01:17,592 --> 00:01:18,975
+any integer.
+
+18
+00:01:18,975 --> 00:01:22,407
+so, candidate "i." This sentence right here, let me write it in blue
+
+19
+00:01:22,407 --> 00:01:33,891
+since i underlined it in blue. Candidate C sub-"i" equals the number of votes for the "i"-th candidate
+
+20
+00:01:33,891 --> 00:01:40,924
+Now, let's see if we can do something with what i underlined.
+
+21
+00:01:40,924 --> 00:01:43,876
+The exact percentage of votes the candidate got was sma-
+
+22
+00:01:43,876 --> 00:01:46,008
+So lets just, the exact percentage of votes the candidate got would be
+
+23
+00:01:46,008 --> 00:01:51,308
+The votes he got (or she got) divided by the total number of members
+
+24
+00:01:51,308 --> 00:01:54,158
+Now, this will give you a decimal
+
+25
+00:01:54,158 --> 00:01:57,221
+If you want it as a percentage, if you want it as a percentage
+
+26
+00:01:57,221 --> 00:01:59,325
+you want to multiply it by 100
+
+27
+00:01:59,325 --> 00:02:01,425
+so times 100 so thats this part
+
+28
+00:02:01,425 --> 00:02:04,241
+the exact percentage of votes the candidate got
+
+29
+00:02:04,241 --> 00:02:05,558
+so, thats this right here
+
+30
+00:02:05,558 --> 00:02:11,097
+was smaller by at least 1 than the number of votes for that candidate
+
+31
+00:02:11,097 --> 00:02:15,991
+so smaller than- smaller by at least 1
+
+32
+00:02:15,991 --> 00:02:19,426
+so the number of votes for the candidate is "C" sub-"i"
+
+33
+00:02:19,426 --> 00:02:24,659
+and its smaller, its not less than or equal to the number of votes they got
+
+34
+00:02:24,659 --> 00:02:25,559
+its less--
+
+35
+00:02:25,559 --> 00:02:30,042
+its smaller than or -- its less than or equal to one less than the number of votes they got
+
+36
+00:02:30,042 --> 00:02:31,459
+at least one less
+
+37
+00:02:31,459 --> 00:02:34,459
+was smaller by at least one
+
+38
+00:02:34,459 --> 00:02:36,225
+so we're gonna put the minus 1 here
+
+39
+00:02:36,225 --> 00:02:39,726
+so this tells us that the percentage of votes that any candidate got
+
+40
+00:02:39,726 --> 00:02:43,277
+is less than the number of votes they got minus one
+
+41
+00:02:43,277 --> 00:02:45,209
+which is really what that sentence is saying
+
+42
+00:02:45,209 --> 00:02:48,759
+which is really the hardest part: understanding what that sentence is saying
+
+43
+00:02:48,759 --> 00:02:52,709
+Now what is the smallest possible number of members on the committee?
+
+44
+99:59:59,999 --> 99:59:59,999
+Now think about it, we want to minimize the number of members
+
+45
+99:59:59,999 --> 99:59:59,999
+So we really want to minimize, the number of votes that each candidate gets.
+
+46
+99:59:59,999 --> 99:59:59,999
+So let's just think about, the minimum number of votes,
+
+47
+99:59:59,999 --> 99:59:59,999
+the minimum votes per candidate.
+
+48
+99:59:59,999 --> 99:59:59,999
+So can we have 0 votes for each candidate?
+
+49
+99:59:59,999 --> 99:59:59,999
+Well they tell us here, they say each member gave one vote to one of the 27 candidates,
+
+50
+99:59:59,999 --> 99:59:59,999
+So everyone got at least 1 vote.
+
+51
+99:59:59,999 --> 99:59:59,999
+So no, we cannot have 0 votes.
+
+52
+99:59:59,999 --> 99:59:59,999
+Can we have 1 vote per candidate?
+
+53
+99:59:59,999 --> 99:59:59,999
+It seems fair, that they each got at least 1 vote, but if we look over here,

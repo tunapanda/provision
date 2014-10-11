@@ -1,0 +1,103 @@
+1
+99:59:59,999 --> 99:59:59,999
+So now we're going to take the derivative of the sine of
+
+2
+99:59:59,999 --> 99:59:59,999
+the natural log of x squared, so now we have a function
+
+3
+99:59:59,999 --> 99:59:59,999
+thats the composite of a function thats a composite of another function
+
+4
+99:59:59,999 --> 99:59:59,999
+So one way you could think of it: if you set f(x)
+
+5
+99:59:59,999 --> 99:59:59,999
+equal to sine of x and g of x
+
+6
+99:59:59,999 --> 99:59:59,999
+g of x being the natural log of x
+
+7
+99:59:59,999 --> 99:59:59,999
+the natural log of x, and lets say
+
+8
+99:59:59,999 --> 99:59:59,999
+h of x equaling x squared
+
+9
+99:59:59,999 --> 99:59:59,999
+then this thing right here is the exact same thing as
+
+10
+99:59:59,999 --> 99:59:59,999
+take the derivative with respect to x
+
+11
+99:59:59,999 --> 99:59:59,999
+f of g of h of x
+
+12
+99:59:59,999 --> 99:59:59,999
+and what I want to do is kind of think of how I want to do it in my head
+
+13
+99:59:59,999 --> 99:59:59,999
+not having to write all of the chain rule notation, so the way I would think
+
+14
+99:59:59,999 --> 99:59:59,999
+about this if I were doing this in my head is the derivative of this outer function of f with respect to the level of composition directly below it
+
+15
+99:59:59,999 --> 99:59:59,999
+so the derivative of sine of x is consine of x
+
+16
+99:59:59,999 --> 99:59:59,999
+but instead of it being cosine of x it's going to be cosine of whatever was inside of here, so it's going to be cosine of
+
+17
+99:59:59,999 --> 99:59:59,999
+natural log, cosine of natural log of x sqaured
+
+18
+99:59:59,999 --> 99:59:59,999
+and so you could really view this, this part that I just
+
+19
+99:59:59,999 --> 99:59:59,999
+wrote right over here as f prime of g of h of x
+
+20
+99:59:59,999 --> 99:59:59,999
+if you want to keep track of things
+
+21
+99:59:59,999 --> 99:59:59,999
+Just took the derivative of the outer with respect to whatever was inside of it
+
+22
+99:59:59,999 --> 99:59:59,999
+have to take the derivative of the inside with respect to x, but now we have
+
+23
+99:59:59,999 --> 99:59:59,999
+another composite function, so we're going to multiply this times-we're going to do the chain rule
+
+24
+99:59:59,999 --> 99:59:59,999
+again, the derivative of, we're going to take the derivative of
+
+25
+99:59:59,999 --> 99:59:59,999
+ln with respect to x squared
+
+26
+99:59:59,999 --> 99:59:59,999
+so the derivative of ln x is 1 over x, but now we have

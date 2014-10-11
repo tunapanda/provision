@@ -1,0 +1,419 @@
+1
+00:00:00,589 --> 00:00:02,763
+Let’s verify that the margin mechanics
+
+2
+00:00:02,763 --> 00:00:05,904
+and the marking to market of the futures contract
+
+3
+00:00:05,904 --> 00:00:08,772
+actually gets both the seller and the buyer
+
+4
+00:00:08,772 --> 00:00:10,242
+what they originally wanted,
+
+5
+00:00:10,242 --> 00:00:12,703
+which is that they don't have to be susceptible
+
+6
+00:00:12,703 --> 00:00:15,703
+to the volatility in apple prices.
+
+7
+00:00:15,703 --> 00:00:18,897
+They both wanted to, effectively,
+
+8
+00:00:18,897 --> 00:00:20,917
+sell the apples for 20 cents a pound,
+
+9
+00:00:20,917 --> 00:00:23,424
+or buy the apples for 20 cents a pound.
+
+10
+00:00:23,424 --> 00:00:24,385
+And they didn't want to,
+
+11
+00:00:24,385 --> 00:00:26,311
+in the farmers case, go out of business
+
+12
+00:00:26,311 --> 00:00:28,190
+if they could only sell the apples for 10 cents a pound –
+
+13
+00:00:28,190 --> 00:00:30,477
+or in the pie company’s case, go out of business
+
+14
+00:00:30,477 --> 00:00:33,800
+if they have to buy the apples for 30 cents a pound.
+
+15
+00:00:33,800 --> 00:00:36,265
+So let’s verify that this works out.
+
+16
+00:00:36,265 --> 00:00:38,075
+So they originally had a contract price
+
+17
+00:00:38,075 --> 00:00:39,744
+of $200 dollars for 1000 pounds.
+
+18
+00:00:39,744 --> 00:00:42,297
+So this is essentially 20 cents a pound.
+
+19
+00:00:42,297 --> 00:00:43,643
+20 cents a pound.
+
+20
+00:00:43,643 --> 00:00:45,755
+And as we said in the previous video,
+
+21
+00:00:45,755 --> 00:00:48,333
+as the futures contract delivery price,
+
+22
+00:00:48,333 --> 00:00:49,602
+changes day by day –
+
+23
+00:00:49,602 --> 00:00:51,583
+as we get closer and closer
+
+24
+00:00:51,583 --> 00:00:53,864
+to the actual delivery date,
+
+25
+00:00:53,864 --> 00:00:55,984
+what happens is that we transfer money
+
+26
+00:00:55,984 --> 00:00:57,699
+between the buyer’s margin account
+
+27
+00:00:57,699 --> 00:00:59,260
+and the seller’s margin account.
+
+28
+00:00:59,260 --> 00:01:00,652
+As the price of –
+
+29
+00:01:00,652 --> 00:01:03,409
+As the delivery price in the futures contract goes down,
+
+30
+00:01:03,409 --> 00:01:06,708
+in order to mark the delivery prices down –
+
+31
+00:01:06,708 --> 00:01:07,638
+so, in order to mark it down
+
+32
+00:01:07,638 --> 00:01:11,211
+from $200 to $190 dollars to $185 dollars –
+
+33
+00:01:11,211 --> 00:01:12,741
+This guy keeps getting a better deal
+
+34
+00:01:12,741 --> 00:01:14,117
+on the actual delivery price,
+
+35
+00:01:14,117 --> 00:01:15,847
+so to make things fair,
+
+36
+00:01:15,847 --> 00:01:18,097
+he has to transfer the same amount of money
+
+37
+00:01:18,097 --> 00:01:20,609
+to the margin account of the seller.
+
+38
+00:01:20,609 --> 00:01:22,718
+So let’s imagine two scenarios.
+
+39
+00:01:22,718 --> 00:01:24,218
+Let's say that eventually –
+
+40
+00:01:24,218 --> 00:01:26,284
+as we approach November 15th –
+
+41
+00:01:26,284 --> 00:01:28,137
+(Remember this is the delivery date.)
+
+42
+00:01:28,137 --> 00:01:30,608
+– the future's contract delivery price
+
+43
+00:01:30,608 --> 00:01:32,108
+is going to approach the market price.
+
+44
+00:01:32,108 --> 00:01:33,531
+You can imagine, right when we're like
+
+45
+00:01:33,531 --> 00:01:35,061
+a second before the delivery date
+
+46
+00:01:35,061 --> 00:01:36,888
+the futures contract and the market price
+
+47
+00:01:36,888 --> 00:01:38,218
+aren’t going to be that different.
+
+48
+00:01:38,218 --> 00:01:43,731
+Let's say that this goes all the way down to $100 dollars.
+
+49
+00:01:43,731 --> 00:01:46,307
+So in that whole process, this futures contract
+
+50
+00:01:46,307 --> 00:01:48,422
+keeps getting marked down to $100 dollars.
+
+51
+00:01:48,422 --> 00:01:51,502
+So on that day, it is true
+
+52
+00:01:51,502 --> 00:01:54,773
+that the seller will sell $1000 pounds of apples
+
+53
+00:01:54,773 --> 00:01:57,031
+to the buyer for only $100.
+
+54
+00:01:57,031 --> 00:01:59,113
+You might say, “Hey wait. What'd the seller get out of this?
+
+55
+00:01:59,113 --> 00:02:03,254
+He’s only getting 10 cents per pound for his apples.
+
+56
+00:02:03,254 --> 00:02:04,554
+This was what he feared!
+
+57
+00:02:04,554 --> 00:02:07,120
+He is susceptible to the volatility of the market prices.”
+
+58
+00:02:07,120 --> 00:02:09,375
+But remember, because of this marking to market,
+
+59
+00:02:09,375 --> 00:02:12,750
+and because of the margin transfers here,
+
+60
+00:02:12,750 --> 00:02:14,657
+as this delivery price went down
+
+61
+00:02:14,657 --> 00:02:16,846
+from $200 dollars to $100 dollars,
+
+62
+00:02:16,846 --> 00:02:18,061
+there would have been a transfer –
+
+63
+00:02:18,061 --> 00:02:20,038
+from this guy's margin account
+
+64
+00:02:20,038 --> 00:02:22,509
+to this guy's margin account –
+
+65
+00:02:22,509 --> 00:02:25,837
+of 100 dollars.
+
+66
+00:02:25,837 --> 00:02:27,550
+So instead of just getting the $100 dollars
+
+67
+00:02:27,550 --> 00:02:29,045
+for that thousand pounds of apples,
+
+68
+00:02:29,045 --> 00:02:31,966
+because this seller had this futures contract,
+
+69
+00:02:31,966 --> 00:02:33,374
+he would have also gotten
+
+70
+00:02:33,374 --> 00:02:36,172
+another $100 transferred into his margin account.
+
+71
+00:02:36,172 --> 00:02:41,301
+So, the true economic value he gets is $200 dollars –
+
+72
+00:02:41,301 --> 00:02:42,499
+no matter what –
+
+73
+00:02:42,499 --> 00:02:44,168
+for his 1000 pounds of apples –
+
+74
+00:02:44,168 --> 00:02:45,632
+or 20 cents a pound.
+
+75
+00:02:45,632 --> 00:02:47,456
+You can imagine the other scenario.
+
+76
+00:02:47,456 --> 00:02:49,026
+What if the delivery price –
+
+77
+00:02:49,026 --> 00:02:51,207
+as we get closer and closer to delivery date –
+
+78
+00:02:51,207 --> 00:02:52,499
+goes up?
+
+79
+00:02:52,499 --> 00:02:54,787
+– if it goes to $300?
+
+80
+00:02:54,787 --> 00:02:57,478
+– $300 per 1000 pounds?
+
+81
+00:02:57,478 --> 00:02:58,452
+Well, you might say, “Hey!
+
+82
+00:02:58,452 --> 00:03:00,043
+The seller’s going to get a bonanza.
+
+83
+00:03:00,043 --> 00:03:01,026
+And this guy's going to go out of business –
+
+84
+00:03:01,134 --> 00:03:02,027
+because he's going to be
+
+85
+00:03:02,027 --> 00:03:04,828
+essentially paying 30 cents a pound!”
+
+86
+00:03:04,828 --> 00:03:06,089
+But you’ve got to remember.
+
+87
+00:03:06,089 --> 00:03:09,165
+If the price goes up, and it becomes
+
+88
+00:03:09,165 --> 00:03:10,465
+more and more favorable to the seller –
+
+89
+00:03:10,465 --> 00:03:12,098
+because of the margin mechanics,
+
+90
+00:03:12,098 --> 00:03:14,385
+the seller would have to transfer $100
+
+91
+00:03:14,385 --> 00:03:17,707
+as the price moves up –
+
+92
+00:03:17,707 --> 00:03:19,831
+to the buyer –
+
+93
+00:03:19,831 --> 00:03:21,021
+to his margin account.
+
+94
+00:03:21,021 --> 00:03:22,209
+And so, even though this guy
+
+95
+00:03:22,209 --> 00:03:24,467
+has to pay $300 dollars per [1000 pounds] –
+
+96
+00:03:24,467 --> 00:03:25,361
+because that's where the market price
+
+97
+00:03:25,361 --> 00:03:26,650
+eventually ended up –
+
+98
+00:03:26,650 --> 00:03:28,763
+he would get $100 dollars from the seller.
+
+99
+00:03:28,763 --> 00:03:33,028
+So, effectively, he would still only have to pay $200 dollars.
+
+100
+00:03:33,028 --> 00:03:35,247
+And even though this guy’s selling it for $300,
+
+101
+00:03:35,247 --> 00:03:37,497
+he actually had to pay another $100 dollars.
+
+102
+00:03:37,497 --> 00:03:40,995
+So net, he's really only getting $200 for it.
+
+103
+00:03:40,995 --> 00:03:42,076
+So no matter how you look at it,
+
+104
+00:03:42,076 --> 00:03:44,999
+both parties are transacting at $200 dollars,
+
+105
+00:03:44,999 --> 00:03:46,658
+or 20 cents a pound.

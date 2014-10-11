@@ -1,0 +1,127 @@
+1
+00:00:02,067 --> 00:00:04,333
+Let us say this triangle over here is an equilateral triangle
+
+2
+00:00:04,333 --> 00:00:06,533
+which means all of the sides are of equal length
+
+3
+00:00:06,533 --> 00:00:08,600
+Let us say the length of this side is "s",
+
+4
+00:00:08,600 --> 00:00:11,533
+what i want to do is to come up with a way to
+
+5
+00:00:11,533 --> 00:00:15,333
+find out the area of this equilateral triangle
+
+6
+00:00:15,333 --> 00:00:18,800
+as a function of "s". To do this i am going to
+
+7
+00:00:18,800 --> 00:00:21,333
+split this equilateral triangle into 2
+
+8
+00:00:21,333 --> 00:00:29,400
+I am going to drop a line from this top vertex, which
+
+9
+00:00:29,400 --> 00:00:33,800
+divides the triangle into 2. This angle is equal to that angle
+
+10
+00:00:33,800 --> 00:00:41,800
+we proved all these in an earlier video
+
+11
+00:00:41,800 --> 00:00:45,400
+In a regular equilateral triangle all of the angles are equal
+
+12
+00:00:45,400 --> 00:00:56,000
+60 degrees, this is 60, this is 60 and this one up here
+
+13
+00:00:56,000 --> 00:01:04,533
+is 60 split into 2, each angle 30 degrees each
+
+14
+00:01:04,533 --> 00:01:09,000
+and the other thing we know is the altitude will bisect
+
+15
+00:01:09,000 --> 00:01:21,200
+this length into equal parts. Now if the entire length
+
+16
+00:01:21,200 --> 00:01:25,667
+was "s", all three sides will have the same length,
+
+17
+00:01:25,667 --> 00:01:32,067
+then each of these is "s/2" If this length is known we can
+
+18
+00:01:32,067 --> 00:01:43,333
+find out this side. The reason why we need to know this is
+
+19
+00:01:43,333 --> 00:01:51,200
+the area of a triangle is 1/2 * base * height.
+
+20
+00:01:51,200 --> 00:02:02,733
+If this is 's/2", the side over here is √3s/2
+
+21
+00:02:02,733 --> 00:02:17,733
+In a 30:60:90 triangle if the side opposite to 30 degrees is 1
+
+22
+00:02:17,733 --> 00:02:22,200
+the side opposite to 60 degrees is going to be √3
+
+23
+00:02:22,200 --> 00:02:29,400
+and the side opposite 90 degrees is 2 times it.
+
+24
+00:02:29,400 --> 00:02:46,933
+In this case the side opposite to 30 degrees is "s/2"
+
+25
+00:02:46,933 --> 00:02:49,000
+side opposite 60 degrees will be √3s/2
+
+26
+00:02:49,000 --> 00:02:50,333
+Now we need to figure out what the area of the triangle is.
+
+27
+00:02:50,333 --> 00:02:54,067
+The area of a triangle is 1/2 * base * height of the triangle.
+
+28
+00:02:54,067 --> 00:03:01,067
+The base of the triangle is "s". The height of the triangle is √3s/2
+
+29
+00:03:01,067 --> 00:03:23,800
+so area = 1/2 * s * √3s/2 = √(3s<i>s)/(2</i>2)
+
+30
+00:03:23,800 --> 00:03:27,867
+So we if we an equilateral triangle with each side = 1,
+
+31
+00:03:27,867 --> 00:03:30,267
+the area is √3/4. If we have a equilateral triangle with each
+
+32
+00:03:30,267 --> 99:59:59,999
+side = 2 the are will be √(3 2<i>2)/(2</i>2) = √3

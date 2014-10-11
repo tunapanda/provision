@@ -1,0 +1,199 @@
+1
+00:00:01,000 --> 00:00:06,525
+The height of a triangle is 4 inches less than the length of the base.
+
+2
+00:00:06,525 --> 00:00:11,355
+The area of the triangle is 30 in^2. Find the height and base.
+
+3
+00:00:11,355 --> 00:00:17,601
+Use the formula A=1/2 base times height for the area of a triangle.
+
+4
+00:00:17,601 --> 00:00:26,680
+Ok. So let's think about it a little bit. Let me draw a triangle here.
+
+5
+00:00:26,680 --> 00:00:30,511
+So this is our triangle and let's say the length of this bottom side, that's the base, lets call that 'b'.
+
+6
+00:00:30,511 --> 00:00:34,760
+And then this is the height, this is the height, right over here.
+
+7
+00:00:34,760 --> 00:00:41,267
+And then the area is equal to one-half base times height. A = 1/2 b h .
+
+8
+00:00:41,267 --> 00:00:50,085
+Now this first sentence is telling us that height of a triangle is 4 inches less than the length of the base.
+
+9
+00:00:50,085 --> 00:00:56,200
+So the height is equal to the base minus 4. That's what the first sentence tells us.
+
+10
+00:00:56,200 --> 00:01:17,667
+The area of the triangle is 30 inches^2. So if we take one-half the base times height we will get 30 inches^2. Or we can say that 30 inches^2 is equal to one-half times the base times the height.
+
+11
+00:01:17,667 --> 00:01:23,200
+Now instead of putting that 'h' in for height we know that the height is the same thing as 4 less than
+
+12
+00:01:23,200 --> 00:01:25,751
+the base. So let's just put that in there.
+
+13
+00:01:25,751 --> 00:01:28,840
+And then let's see what we get in here.
+
+14
+00:01:28,840 --> 00:01:36,867
+I'll put this in yellow. We get 30 equals one half b/2 times b-4
+
+15
+00:01:36,867 --> 00:02:06,067
+Now let's distribute the b, so 30 is equal to b squared over 2- be careful. b/2 times b is just b squared over 2- and then b/2 times -4 is -2b
+
+16
+00:02:06,067 --> 00:02:10,566
+now just to get rid of this fraction here, let's multiply both sides of the equation by two
+
+17
+00:02:10,566 --> 00:02:18,333
+So let's multiply that side by 2 and that side by two. On the left hand side you get 60
+
+18
+00:02:18,333 --> 00:02:25,267
+on the right hand side, 2 times b^2/2 equals b squared, -2b times 2 is -4b
+
+19
+00:02:25,267 --> 00:02:34,000
+And now we have a quadratic here, and the best way to solve a quadratic is to get all of the terms on
+
+20
+00:02:34,000 --> 00:02:39,733
+one side of the equation and have them equal 0. So let's subtract 60 from both sides of the equation.
+
+21
+00:02:39,733 --> 00:02:54,133
+And we get 0 is equal to b squared minus 4 b minus 60. So what we need to do is factor this thing right
+
+22
+00:02:54,133 --> 00:03:00,800
+now, and then know that if we have the product of some things and that equals zero, that means that either
+
+23
+00:03:00,800 --> 00:03:08,546
+one or both of those thing need to be equal to zero, so we need factor b squared minus 4b minus 60. So
+
+24
+00:03:08,546 --> 00:03:29,333
+what we want to find 2 numbers whose sum is -4 and whose product is -60. Now given that the product is
+
+25
+00:03:29,333 --> 00:03:37,667
+negative, we know that they will have different signs. And this tells us that their absolute value will
+
+26
+00:03:37,667 --> 00:03:46,333
+be four apart. So let's look at the factors of 60: 1 and 60 are too far apart. If you made one of them
+
+27
+00:03:46,333 --> 00:03:55,467
+negative, you would get positive 59 or negative 59 as a sum. 2 and 30, still to far apart. 3 and 20,
+
+28
+00:03:55,467 --> 00:04:04,645
+still to far apart. If you made one of them negative, you would either get negative 17 or positive 17.
+
+29
+00:04:04,645 --> 00:04:10,311
+Then you could have 4 and 15- still to far apart. If you made one of them negative, you would either
+
+30
+00:04:10,311 --> 00:04:20,133
+get -11 or positive 11. Then you have 5 and 12- still too far apart, you could either have positive 7
+
+31
+00:04:20,133 --> 00:04:31,467
+or negative 7. Now you have 6 and 10: now this looks interesting. They are 4 apart, and we want the larger
+
+32
+00:04:31,467 --> 00:04:37,667
+number to be negative so that their sum is negative. So if we make it 6 and negative 10, their sum will
+
+33
+00:04:37,667 --> 00:04:48,667
+be negative 4, and their product is -60. So that works. So you can say that this is equal to b+6 times
+
+34
+00:04:48,667 --> 00:05:06,133
+b-10. Let me be careful. This b over here is different than the b that we are using in the equation. I
+
+35
+00:05:06,133 --> 00:05:12,733
+just used this b to say look, we are looking for 2 numbers that add up to this second term. It's a different
+
+36
+00:05:12,733 --> 00:05:28,533
+'b.' I could have used x and y. In fact let me do it that way. now x plus y = -4, and x times y is -60.
+
+37
+00:05:28,533 --> 00:05:46,558
+so we have b + x times b + y. x is six and y is negative 10. You could also solve this by grouping. We
+
+38
+00:05:46,558 --> 00:05:59,400
+know that either b + 6 is equal to zero, or b - 10 = 0. If we subtract 6 from both side of the equation
+
+39
+00:05:59,400 --> 00:06:07,293
+you get b = -6, and if you subtract be from both sides of this equation you get b = 10. The other way
+
+40
+00:06:07,293 --> 00:06:26,473
+to solve this is break up this -4b into its consitutents. So you could have broken this up into 0 = b
+
+41
+00:06:26,473 --> 00:06:39,000
+squared, and you could have broken if up into +6b -10b, and then factor is by grouping. Group these first
+
+42
+00:06:39,000 --> 00:06:45,200
+two terms, group these second two terms. Just add them together. the first one you can factor out a b
+
+43
+00:06:45,200 --> 00:06:55,533
+to you have b times b + 6, the second one you have factor out a negative 10, to -10 times b + 6 all of
+
+44
+00:06:55,533 --> 00:07:11,133
+that is equal to zero, now factor out a b + 6. Then you get 0 = b-10 times b+6. We are just factoring
+
+45
+00:07:11,133 --> 00:07:29,800
+out this out of the expression. Either way, the solutions are b = -6 or b = 10. remember, this is a word
+
+46
+00:07:29,800 --> 00:07:39,267
+problem. We have to think about whether this makes sense in the context of the actual problem. We are
+
+47
+00:07:39,267 --> 00:07:54,667
+talking about lengths of triangles, we cannot have a negative length. So we can cross out -6 and we
+
+48
+00:07:54,667 --> 00:08:08,803
+are left with 1 solution. The only possible base is 10. They say "find the height and the base." So the
+
+49
+00:08:08,803 --> 00:08:15,885
+base is 10 and the height is 4 inches less, so the height is 6. And then you can verify. The area is
+
+50
+00:08:15,885 --> 99:59:59,999
+6 times 10 times 1/2, which is 30.

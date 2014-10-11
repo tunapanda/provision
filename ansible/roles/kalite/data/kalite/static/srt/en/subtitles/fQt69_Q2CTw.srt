@@ -1,0 +1,367 @@
+1
+00:00:00,385 --> 00:00:02,740
+In the last video we figured out that
+
+2
+00:00:02,740 --> 00:00:07,467
+given a takeoff velocity of 280 km/h
+
+3
+00:00:07,467 --> 00:00:09,605
+and if we have a positive value for any of these vectors
+
+4
+00:00:09,605 --> 00:00:12,800
+we assume that it's in the forward direction for the runway
+
+5
+00:00:12,800 --> 00:00:20,533
+Given this takeoff velocity, and a constant acceleration of 1 m/s^2
+
+6
+00:00:20,533 --> 00:00:28,292
+we figured out that it would take an Airbus A380 about 78 seconds to take off
+
+7
+00:00:28,292 --> 00:00:30,267
+What I want to figure out in this video
+
+8
+00:00:30,267 --> 00:00:31,881
+is that given all these numbers
+
+9
+00:00:31,881 --> 00:00:34,366
+how long of a runway does it need?
+
+10
+00:00:34,366 --> 00:00:36,037
+Which is a very important question
+
+11
+00:00:36,037 --> 00:00:41,800
+if you want to build a runway that can at least allow Airbus A380 to take off
+
+12
+00:00:41,800 --> 00:00:43,467
+you probably want it to be a little longer than that
+
+13
+00:00:43,467 --> 00:00:46,133
+just in case it takes a little bit longer than expected to take off
+
+14
+00:00:46,133 --> 00:00:51,618
+But what is the minimum length of the runway, given these numbers
+
+15
+00:00:51,618 --> 00:00:54,200
+so we want to figure out the displacement
+
+16
+00:00:54,200 --> 00:01:00,200
+or how far does this plane travel, as it's accelerating at 1 m/s^2
+
+17
+00:01:00,200 --> 00:01:11,800
+to 280 km/h...or to 78 m/s...I converted it right over here
+
+18
+00:01:11,800 --> 00:01:17,600
+as it accelerates to 78 m/s
+
+19
+00:01:17,600 --> 00:01:20,318
+how much land does this thing cover?
+
+20
+00:01:20,318 --> 00:01:23,569
+So we can say, so let's call this the displacement
+
+21
+00:01:23,569 --> 00:01:26,216
+is going to be equal to...
+
+22
+00:01:26,216 --> 00:01:31,800
+So displacement is equal to...you can view it as Velocity times Time
+
+23
+00:01:31,800 --> 00:01:34,779
+but the velocity here is changing
+
+24
+00:01:34,779 --> 00:01:37,292
+if we just had a constant velocity for this entire time
+
+25
+00:01:37,292 --> 00:01:40,333
+we could just multiply that times however long it's traveling
+
+26
+00:01:40,333 --> 00:01:42,067
+and it would give us the displacement
+
+27
+00:01:42,067 --> 00:01:44,200
+But here our velocity is changing
+
+28
+00:01:44,200 --> 00:01:46,400
+but lucky for us, we learned...
+
+29
+00:01:46,400 --> 00:01:54,600
+(I would encourage you to watch the video on average velocity for constant acceleration)
+
+30
+00:01:54,600 --> 00:01:58,000
+but if you have constant acceleration
+
+31
+00:01:58,000 --> 00:02:02,600
+and that is what we are assuming in this example
+
+32
+00:02:02,600 --> 00:02:06,933
+If you assume that your acceleration is constant
+
+33
+00:02:06,933 --> 00:02:10,400
+then you could come up with something called an *average velocity*
+
+34
+00:02:10,400 --> 00:02:13,508
+And the average velocity...if your acceleration is constant...
+
+35
+00:02:13,508 --> 00:02:16,467
+if and only if your acceleration is constant
+
+36
+00:02:16,467 --> 00:02:23,733
+then your average velocity will be the average of your final velocity and your initial velocity
+
+37
+00:02:23,733 --> 00:02:27,590
+and so in this situation, what is our average velocity?
+
+38
+00:02:27,590 --> 00:02:29,908
+well our average velocity, let's do it in m/s
+
+39
+00:02:29,908 --> 00:02:32,067
+is going to be our final velocity, which is
+
+40
+00:02:32,067 --> 00:02:34,200
+(let me calculate it down here)
+
+41
+00:02:34,200 --> 00:02:36,667
+so our average velocity in this example
+
+42
+00:02:36,667 --> 00:02:39,242
+Velocity_average in this example...
+
+43
+00:02:39,242 --> 00:02:43,200
+is going to be our final example...78 m/s
+
+44
+00:02:43,200 --> 00:02:47,067
+plus our initial velocity,. But what's our initial velocity?
+
+45
+00:02:47,067 --> 00:02:49,000
+We're assuming we're starting at a standstill
+
+46
+00:02:49,000 --> 00:02:50,829
+...plus 0...
+
+47
+00:02:50,829 --> 00:02:52,533
+all of that over 2
+
+48
+00:02:52,533 --> 00:02:55,000
+So our average velocity in this situation
+
+49
+00:02:55,000 --> 00:02:59,200
+78 divided by 2 is 39 m/s
+
+50
+00:02:59,200 --> 00:03:01,600
+and the value of an average velocity
+
+51
+00:03:01,600 --> 00:03:08,975
+in this situation, in any situation
+
+52
+00:03:08,975 --> 00:03:10,614
+the value of an average velocity
+
+53
+00:03:10,614 --> 00:03:12,467
+is that we could figure out our displacement
+
+54
+00:03:12,467 --> 00:03:22,014
+by multiplying our *average velocity* times the <i>time</i> that goes by
+
+55
+00:03:22,014 --> 00:03:24,846
+times the change in time
+
+56
+00:03:24,846 --> 00:03:28,200
+So we know the change in time is 78 seconds...
+
+57
+00:03:28,200 --> 00:03:34,990
+we know our average velocity here is 39 m/s...
+
+58
+00:03:34,990 --> 00:03:38,733
+(just the average of 0 and 78..39 m/s)
+
+59
+00:03:38,733 --> 00:03:40,800
+Another way to think about it
+
+60
+00:03:40,800 --> 00:03:43,333
+if you want to think about the distance traveled
+
+61
+00:03:43,333 --> 00:03:44,955
+this plane is constantly accelerating
+
+62
+00:03:44,955 --> 00:03:46,952
+so let me draw a little graph here
+
+63
+00:03:46,952 --> 00:03:52,455
+this plane's velocity-time graph will look something like this
+
+64
+00:03:52,455 --> 00:03:56,667
+so this is time...and this is velocity right over here
+
+65
+00:03:56,667 --> 00:04:00,067
+this plane has a constant acceleration starting with 0 velocity
+
+66
+00:04:00,067 --> 00:04:01,813
+it has a constant acceleration
+
+67
+00:04:01,813 --> 00:04:04,267
+this slope right here is its constant acceleration
+
+68
+00:04:04,267 --> 00:04:07,455
+it should actually be a slope of 1, given the numbers in this example
+
+69
+00:04:07,455 --> 00:04:09,359
+And the distance traveled
+
+70
+00:04:09,359 --> 00:04:13,600
+is the area under this curve, up to 78 seconds
+
+71
+00:04:13,600 --> 00:04:16,372
+because that's how long it takes for it to take off
+
+72
+00:04:16,372 --> 00:04:19,867
+so the distance traveled is this area right over here
+
+73
+00:04:19,867 --> 00:04:21,467
+(which we will cover in another video)
+
+74
+00:04:21,467 --> 00:04:23,400
+Or let me give you the intuition of why that works...
+
+75
+00:04:23,400 --> 00:04:26,867
+why distance is area under a velocity-time line
+
+76
+00:04:26,867 --> 00:04:31,023
+What an average velocity is, is some velocity
+
+77
+00:04:31,023 --> 00:04:34,367
+and in this case it's exactly right between our two...
+
+78
+00:04:34,367 --> 00:04:36,573
+our final and initial velocities
+
+79
+00:04:36,573 --> 00:04:38,467
+But if you take that average velocity
+
+80
+00:04:38,467 --> 00:04:40,149
+for the same amount of time
+
+81
+00:04:40,149 --> 00:04:44,733
+you would get the exact same area under the curve
+
+82
+00:04:44,733 --> 00:04:47,200
+or you would get the exact same distance
+
+83
+00:04:47,200 --> 00:04:51,200
+So our average velocity is 39 m/s times 78 seconds
+
+84
+00:04:51,200 --> 00:04:55,453
+and let's just get our calculator out for this
+
+85
+00:04:55,453 --> 00:05:04,867
+we have 39*78...gives us 3042
+
+86
+00:05:04,867 --> 00:05:08,067
+so this gives us 3042...
+
+87
+00:05:08,067 --> 00:05:11,867
+and then m/s times second just leaves us with meters
+
+88
+00:05:11,867 --> 00:05:16,488
+so you need a runway of over 3000 meters
+
+89
+00:05:16,488 --> 00:05:18,555
+for one of these suckers to take off
+
+90
+00:05:18,555 --> 00:05:24,406
+or over 3 kilometers, which is about 1.8 or 1.9 miles
+
+91
+00:05:24,406 --> 00:05:26,240
+just for this guy to take off
+
+92
+00:05:26,240 --> 99:59:59,999
+which I think is pretty fascinating

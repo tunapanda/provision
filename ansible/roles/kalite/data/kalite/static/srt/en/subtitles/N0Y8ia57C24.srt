@@ -1,0 +1,735 @@
+1
+00:00:01,333 --> 00:00:03,733
+In this video we are hopefully going to understand why the
+
+2
+00:00:03,733 --> 00:00:11,733
+complex form of the - why the <i>exponential</i> form of a complex number is actually useful.
+
+3
+00:00:11,733 --> 00:00:15,267
+So lets say we wanted to find- so lets say we want to solve the
+
+4
+00:00:15,267 --> 00:00:18,933
+equation x to the third power is equal to 1.
+
+5
+00:00:18,933 --> 00:00:25,133
+So we want to find all of the real and/or complex roots of this equation right over here,
+
+6
+00:00:25,133 --> 00:00:28,667
+this is the same thing as x to the third minus one is equal to zero.
+
+7
+00:00:28,667 --> 00:00:31,733
+So we are looking for all of the real and complex roots of this.
+
+8
+00:00:31,733 --> 00:00:35,733
+And there are ways to do this without exponential form of a complex number,
+
+9
+00:00:35,733 --> 00:00:39,667
+but what the- the technique we are gonna see in this video can be applied if
+
+10
+00:00:39,667 --> 00:00:43,133
+this is x to the fifth minus one or x to the thirteenth minus one,
+
+11
+00:00:43,133 --> 00:00:46,933
+and its also gonna show us kind of the- the patterns that emerge
+
+12
+00:00:46,933 --> 00:00:50,000
+when you start looking at things on an argand diagram.
+
+13
+00:00:50,000 --> 00:00:56,133
+So to do this, lets think about, lets think about the exponential representation of 1.
+
+14
+00:00:56,133 --> 00:01:00,400
+So lets just say z is equal to 1. 1 is a complex number it is a real number,
+
+15
+00:01:00,400 --> 00:01:04,067
+a real numb-, all real numbers are also complex numbers, they are a subset.
+
+16
+00:01:04,067 --> 00:01:08,067
+They're, they are in the complex plane, they just dont have an imaginary,
+
+17
+00:01:08,067 --> 00:01:10,426
+They just don't have an imaginary part.
+
+18
+00:01:10,426 --> 00:01:16,600
+So lets draw this on an argand diagram, so that's my real axis,
+
+19
+00:01:16,600 --> 00:01:24,800
+this is my imaginary axis, this is my imaginary axis, and so, this is
+
+20
+00:01:24,800 --> 00:01:30,133
+the real, this the imaginary, and if I wanted to represent z equals 1,
+
+21
+00:01:30,133 --> 00:01:34,667
+it only has a real part. So let me just draw 1 all around:
+
+22
+00:01:34,667 --> 00:01:44,733
+-1, -1, z, z looks like this: z would look like, z would look like that.
+
+23
+00:01:44,733 --> 00:01:48,533
+A position vector that just goes to 1,0. One way to view it:
+
+24
+00:01:48,533 --> 00:01:54,467
+This is the same thing as equal to 1 plus, 1 plus zero i.
+
+25
+00:01:54,467 --> 00:01:59,133
+Now, lets put this in exponential form. Well its magnitude is
+
+26
+00:01:59,133 --> 00:02:04,333
+pretty straightforward, the magnitude of z is just the length of this vector,
+
+27
+00:02:04,333 --> 00:02:07,000
+or its the absolute value of 1, and well, that's- that's just going to be,
+
+28
+00:02:07,000 --> 00:02:14,733
+that's just going to be 1. Now whats the argument? Whats the argument of z?
+
+29
+00:02:14,733 --> 00:02:19,867
+Whats the angle that this vector makes,with the positive real axis?
+
+30
+00:02:19,867 --> 00:02:22,667
+Whats on the positive real axis? Its a real number.
+
+31
+00:02:22,667 --> 00:02:27,467
+So it has no angle. So its the arg of z is 0.
+
+32
+00:02:27,467 --> 00:02:32,000
+So that might not be to interesting so far, we just wrote, we just figured out that
+
+33
+00:02:32,000 --> 00:02:40,667
+1 could be equal to, 1 is equal to 1 times e to the 0i.
+
+34
+00:02:40,667 --> 00:02:43,867
+0i. And this is kind of obvious. e to the 0, this is just going
+
+35
+00:02:43,867 --> 00:02:48,133
+to be 0, 0 times i is 0, e to the 0 is just going to be 1 times 1 is equal to 1.
+
+36
+00:02:48,133 --> 00:02:52,733
+Not a big deal there. But what IS neat, is that this argument,
+
+37
+00:02:52,733 --> 00:02:56,467
+you could view it as 0 radians, or you could go all the way around
+
+38
+00:02:56,467 --> 00:02:59,067
+and add 2pi to it and get to the same point.
+
+39
+00:02:59,067 --> 00:03:03,467
+You can go all the way around, and add 2pi and get to the same point.
+
+40
+00:03:03,467 --> 00:03:08,733
+So the argument of our complex number, or the number 1, really,
+
+41
+00:03:08,733 --> 00:03:14,667
+could also be an angle of 2pi, or an angle of 4pi, or an angle of 6pi,
+
+42
+00:03:14,667 --> 00:03:18,933
+or angle of 8pi, so we can write 1, we can write 1 as-
+
+43
+00:03:18,933 --> 00:03:22,600
+we could also write it as 1 times e, I won't write the 1 anymore,
+
+44
+00:03:22,600 --> 00:03:31,000
+1 times e, to the 2pi i, or 1 times e to the 4- to the 4pi i.
+
+45
+00:03:31,000 --> 00:03:35,000
+And the reason why this is interesting, is in this equation,
+
+46
+00:03:35,000 --> 00:03:37,533
+this equation right here can be written in multiple ways.
+
+47
+00:03:37,533 --> 00:03:41,600
+It can be written as x to the third is equal to 1.
+
+48
+00:03:41,600 --> 00:03:44,133
+x to the third is equal to 1. It could be written as
+
+49
+00:03:44,133 --> 00:03:50,267
+x to the third is equal to e to the 2pi i, e to the 2pi i.
+
+50
+00:03:50,267 --> 00:03:55,333
+Or, it could be written as x to the third is equal to e to the 4pi i.
+
+51
+00:03:55,333 --> 00:04:00,641
+e to the 4pi i. And this is interesting, we are gonna see this in a second,
+
+52
+00:04:00,641 --> 00:04:05,733
+lets take both sides of all these equations to the 1/3 power to solve for x.
+
+53
+00:04:05,733 --> 00:04:09,600
+So to the 1/3 , we are gonna take that to the 1/3, we are
+
+54
+00:04:09,600 --> 00:04:11,800
+gonna do that same thing over here, we are just taking
+
+55
+00:04:11,800 --> 00:04:15,667
+everything to the 1/3 power, to solve for the x's in each
+
+56
+00:04:15,667 --> 00:04:17,667
+of these equations.
+
+57
+00:04:17,667 --> 00:04:20,400
+To the 1/3 power. So this first equation over here becomes
+
+58
+00:04:20,400 --> 00:04:26,067
+x is equal to 1 to the 1/3 power, which is just equal to 1.
+
+59
+00:04:26,067 --> 00:04:28,933
+Now whats this second equation become? This second
+
+60
+00:04:28,933 --> 00:04:32,667
+equation, x is equal to e to the- well this is just going to be
+
+61
+00:04:32,667 --> 00:04:41,933
+the 2pi over 3i power. e to the 2pi over 3i power.
+
+62
+00:04:41,933 --> 00:04:46,667
+And then this equation over here is going to be, so x is going to be equal to,
+
+63
+00:04:46,667 --> 00:04:49,667
+obviously the 3 to the 1/3, that just becomes x to the 1,
+
+64
+00:04:49,667 --> 00:04:54,533
+x is going to be- let me do that same blue- x over here
+
+65
+00:04:54,533 --> 00:05:03,067
+is going to be equal to e to the 4 pi over 3. The 4pi over 3i.
+
+66
+00:05:03,067 --> 00:05:07,333
+So lets think about- lets think about this for a little bit.
+
+67
+00:05:07,333 --> 00:05:11,667
+What is this- so we could- so immediately, whats the argument here?
+
+68
+00:05:11,667 --> 00:05:15,333
+So let me- let me write- let me- these are 3 different roots
+
+69
+00:05:15,333 --> 00:05:19,267
+let me call them x sub 1, x sub 2, and x sub 3.
+
+70
+00:05:19,267 --> 00:05:22,933
+So these are three different numbers. One of the roots is 1,
+
+71
+00:05:22,933 --> 00:05:26,600
+that's pretty clear over here. 1 is one of the cubed roots of
+
+72
+00:05:26,600 --> 00:05:29,467
+itself, but these are other numbers, and these are going
+
+73
+00:05:29,467 --> 00:05:33,600
+to be complex numbers. So lets- lets visualize these numbers a little bit.
+
+74
+00:05:33,600 --> 00:05:38,533
+So what is the argument? So for all of these- so the magnitude of
+
+75
+00:05:38,533 --> 00:05:42,600
+x sub 2- the magnitude of x sub 2 is still clearly 1.
+
+76
+00:05:42,600 --> 00:05:45,462
+Its the coefficient out in front of the e, its clearly 1.
+
+77
+00:05:45,462 --> 00:05:49,067
+The magnitude of x sub 3 - we're gonna do that same color-
+
+78
+00:05:49,067 --> 00:05:53,600
+the magnitude of x sub 3 is also clearly going to be 1.
+
+79
+00:05:53,600 --> 00:05:58,133
+But what is the argument of x sub 2? What is φ?
+
+80
+00:05:58,133 --> 00:06:01,733
+What is the argument? Well its 2pi over 3.
+
+81
+00:06:01,733 --> 00:06:06,600
+Its 2pi over 3. So how we draw, how would we draw x sub 2?
+
+82
+00:06:06,600 --> 00:06:11,000
+So the angle is 2pi over 3- I always, its easier for me to
+
+83
+00:06:11,000 --> 00:06:16,000
+visualize in degrees- so 2pi is 360 degrees, 360 degrees
+
+84
+00:06:16,000 --> 00:06:20,933
+divided by 3 is 120 degrees. So this is going to be 120 degrees
+
+85
+00:06:20,933 --> 00:06:25,333
+is sixty short of- so its going to look like this.
+
+86
+00:06:25,333 --> 00:06:27,733
+It is going to look like this.
+
+87
+00:06:27,733 --> 00:06:32,333
+Just like this. This is- so this angle right here, its argument is going to be
+
+88
+00:06:32,333 --> 00:06:37,400
+100, 120 degrees which is the same thing as 2pi,
+
+89
+00:06:37,400 --> 00:06:41,267
+as 2pi over 3, and its going to have the exact same length.
+
+90
+00:06:41,267 --> 00:06:42,400
+So let me do this in the same color.
+
+91
+00:06:42,400 --> 00:06:47,400
+So this is x sub 1, so that is this green color right over here.
+
+92
+00:06:47,400 --> 00:06:51,200
+x sub 2 is this magenta one, right over here, and they
+
+93
+00:06:51,200 --> 00:06:53,400
+all have the same magnitude, so we really just rotated-
+
+94
+00:06:53,400 --> 00:06:56,333
+we rotated 120 degrees. And what about x sub 3?
+
+95
+00:06:56,333 --> 00:06:57,333
+Whats its argument?
+
+96
+00:06:57,333 --> 00:07:00,133
+Whats x sub 3's argument?
+
+97
+00:07:00,133 --> 00:07:04,800
+Its argument is 4pi, 4pi over 3.
+
+98
+00:07:04,800 --> 00:07:10,267
+That's the same thing as 720 degrees over 3, if we were
+
+99
+00:07:10,267 --> 00:07:11,933
+to put it into degrees, and so
+
+100
+00:07:11,933 --> 00:07:15,800
+3 goes into 720, 3 goes into 720,
+
+101
+00:07:15,800 --> 00:07:17,600
+3 goes into 720- what is it?
+
+102
+00:07:17,600 --> 00:07:24,333
+240? 720...is uh 240. Right, I should have known that.
+
+103
+00:07:24,333 --> 00:07:28,400
+So 240 degrees, we are gonna go 180 degrees, and then
+
+104
+00:07:28,400 --> 00:07:32,267
+go another 60 degrees. So its going to be right over here.
+
+105
+00:07:32,267 --> 00:07:34,733
+Its going to be right over here.
+
+106
+00:07:34,733 --> 00:07:37,733
+So let me draw it like this:
+
+107
+00:07:37,733 --> 00:07:40,000
+its going to right, over here.
+
+108
+00:07:40,000 --> 00:07:44,067
+So this is going to be, that angle right over there is
+
+109
+00:07:44,067 --> 00:07:49,400
+4pi over 3 radians. 4pi over 3 radians, which is equal to-
+
+110
+00:07:49,400 --> 00:07:54,133
+which is equal to 240 degrees. And once again, it has the
+
+111
+00:07:54,133 --> 00:07:55,733
+same magnitude.
+
+112
+00:07:55,733 --> 00:07:58,267
+So what we just saw is, that when I take the cubed roots
+
+113
+00:07:58,267 --> 00:08:01,733
+of this real number, I'm essentially taking the entire
+
+114
+00:08:01,733 --> 00:08:06,600
+- I guess we could call it the entire circle, or the entire 360 degrees,
+
+115
+00:08:06,600 --> 00:08:09,400
+or the entire 2pi radians- and I'm dividing it into,
+
+116
+00:08:09,400 --> 00:08:13,000
+into angle- into 3 essentially.
+
+117
+00:08:13,000 --> 00:08:15,400
+This is 1/3, then we have another 120 degrees,
+
+118
+00:08:15,400 --> 00:08:17,733
+and then we have another 120 degrees.
+
+119
+00:08:17,733 --> 00:08:20,733
+And so you kind of see the pattern of where all of the roots are.
+
+120
+00:08:20,733 --> 00:08:22,333
+And in case you are still not satisfied-
+
+121
+00:08:22,333 --> 00:08:25,000
+you're just like, "well, you know that you said you would find complex roots or
+
+122
+00:08:25,000 --> 00:08:28,800
+Yeah, you know, I- I'm not used to this, or this is actually
+
+123
+00:08:28,800 --> 00:08:34,067
+being complex numbers. I want- I actually want it to be in the form a+bi."
+
+124
+00:08:34,067 --> 00:08:36,467
+We can easilly figure this out from this over here.
+
+125
+00:08:36,467 --> 00:08:43,200
+So x sub 2, x sub 2 is going to be equal to- its going to be equal to
+
+126
+00:08:43,200 --> 00:08:52,733
+the cosine, the cos(2pi/3) + i*sin(2pi/3).
+
+127
+00:08:52,733 --> 00:08:57,600
+Sine of 2pi over 3. And if you look at this over here,
+
+128
+00:08:57,600 --> 00:08:59,467
+we can figure out what those things are going to be.
+
+129
+00:08:59,467 --> 00:09:01,533
+This is the angle right over here.
+
+130
+00:09:01,533 --> 00:09:04,933
+If this angle right over here is 60 degrees, which it is
+
+131
+00:09:04,933 --> 00:09:08,467
+because this up here is 30 degrees, and this- the hypotenuse
+
+132
+00:09:08,467 --> 00:09:11,333
+or the length is 1, then this over here is the
+
+133
+00:09:11,333 --> 00:09:14,467
+square root of 3/2 and then this distance right over here
+
+134
+00:09:14,467 --> 00:09:19,800
+is -1/2. So x sub 2 is going to be equal to,
+
+135
+00:09:19,800 --> 00:09:22,067
+is going to be equal to,
+
+136
+00:09:22,067 --> 00:09:27,733
+cos(2pi/3) is -1/2. Did I do that right?
+
+137
+00:09:27,733 --> 00:09:34,067
+Yep, -1/2 + i*sin(2pi/3), thats this height over here
+
+138
+00:09:34,067 --> 00:09:37,800
+which is square root of 3/2i.
+
+139
+00:09:37,800 --> 00:09:40,733
+So thats x sub 2, and we can do the exact same thing
+
+140
+00:09:40,733 --> 00:09:44,267
+with x sub 3. x sub 3 is going to be equal to
+
+141
+00:09:44,267 --> 00:09:48,200
+its x value, or I should say its real value is going to be
+
+142
+00:09:48,200 --> 00:09:51,800
+the exact same thing, its going to be -1/2.
+
+143
+00:09:51,800 --> 00:09:56,400
+And then it's y, its, um, its imaginary value,
+
+144
+00:09:56,400 --> 00:09:59,067
+so this angle right over here, is also- its just from the
+
+145
+00:09:59,067 --> 00:10:02,667
+negative real axis down to the real vector is going to be
+
+146
+00:10:02,667 --> 00:10:05,867
+negative 60 degrees, so this height right over here is going to be
+
+147
+00:10:05,867 --> 00:10:13,133
+negative square root 3/2. So its -1/2 minus the square root of 3/2i.
+
+148
+00:10:13,133 --> 00:10:18,267
+So using this technique, we were able to find the three roots,
+
+149
+00:10:18,267 --> 00:10:20,933
+the three complex roots of 1.
+
+150
+00:10:20,933 --> 00:10:22,400
+This is one of them.
+
+151
+00:10:22,400 --> 00:10:24,333
+This is another one.
+
+152
+00:10:24,333 --> 00:10:27,867
+and of course 1 is one of them as well.
+
+153
+00:10:27,867 --> 00:10:28,733
+Where did we do that?
+
+154
+00:10:28,733 --> 00:10:30,333
+1 is one of them as well.
+
+155
+00:10:30,333 --> 00:10:32,400
+And you can use this exact same technique if you were finding the
+
+156
+00:10:32,400 --> 00:10:36,467
+4th root, we would take the 300- or 2pi radians, 360 degrees,
+
+157
+00:10:36,467 --> 00:10:39,133
+and divide it into 4, and so it would actually be this:
+
+158
+00:10:39,133 --> 00:10:43,000
+it would be i, it would be -1, and it would be -i.
+
+159
+00:10:43,000 --> 00:10:45,267
+And we know, if you take i to the 4th, you get 1,
+
+160
+00:10:45,267 --> 00:10:48,600
+if you take -i to the 4th, you get 1,
+
+161
+00:10:48,600 --> 00:10:51,133
+and if you take -1 to the 4th you get 1,
+
+162
+00:10:51,133 --> 00:10:52,733
+And if you take 1 to the 4th you get 1.
+
+163
+00:10:52,733 --> 00:10:53,933
+So you could do this- you could find
+
+164
+00:10:53,933 --> 00:10:56,000
+the 8th roots of 1 using this technique.
+
+165
+00:10:56,000 --> 00:10:58,933
+Now the other question that might be popping into your mi-
+
+166
+00:10:58,933 --> 00:11:02,333
+brain is why did I stop at e to the 4pi i?
+
+167
+00:11:02,333 --> 00:11:05,467
+Why didn't I go on, why didn't I go on and say, well
+
+168
+00:11:05,467 --> 00:11:08,467
+is equal to e to the 6pi i, and look for another root?
+
+169
+00:11:08,467 --> 00:11:12,333
+And so if I did that, if I did that, if I said x to the 3rd, lets say
+
+170
+00:11:12,333 --> 00:11:15,133
+I wanted to find a 4th root here maybe, x to the 3rd is
+
+171
+00:11:15,133 --> 00:11:18,667
+equal to e to the 6pi i.
+
+172
+00:11:18,667 --> 00:11:21,733
+And I take both sides of this equation to the 1/3 power.
+
+173
+00:11:21,733 --> 00:11:22,933
+So I would get x is equal to-
+
+174
+00:11:22,933 --> 00:11:25,733
+taking this to the 1/3, I would get e to the 2pi,
+
+175
+00:11:25,733 --> 00:11:28,400
+I would get e to the 2pi i.
+
+176
+00:11:28,400 --> 00:11:30,267
+Well whats e to the 2pi i?
+
+177
+00:11:30,267 --> 00:11:33,067
+e to the 2pi i would just get us back to 1.
+
+178
+00:11:33,067 --> 00:11:34,933
+So when I added 2pi again it just gets us
+
+179
+00:11:34,933 --> 00:11:36,667
+back to this root again.
+
+180
+00:11:36,667 --> 00:11:40,000
+And if I- if I took e to the 6pi- if I took e to the 8pi
+
+181
+00:11:40,000 --> 00:11:41,800
+I would get this root again. So you're gonna get
+
+182
+00:11:41,800 --> 00:11:45,467
+only three roots, if you're- if you're taking- if you're taking-
+
+183
+00:11:45,467 --> 00:11:49,600
+well if- if you're- if you're finding the third root of something.
+
+184
+00:11:49,600 --> 99:59:59,999
+Anything beyond that it just becomes redundant.

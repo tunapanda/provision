@@ -1,0 +1,671 @@
+1
+00:00:00,560 --> 00:00:07,150
+All right we're on problem 113 on page 287.
+
+2
+00:00:07,450 --> 00:00:11,050
+So they've drawn this thing. Let me see if I could draw it.
+
+3
+00:00:11,470 --> 00:00:16,500
+So we have a right triangle in the center. So that's the side.
+
+4
+00:00:16,500 --> 00:00:24,080
+That's the other side, and then the base. Right triangle.
+
+5
+00:00:24,530 --> 00:00:27,740
+And then they drew some squares on every side of
+
+6
+00:00:27,740 --> 00:00:28,500
+that triangle.
+
+7
+00:00:28,500 --> 00:00:35,540
+Let me see if I can do that. That's one square.
+
+8
+00:00:38,750 --> 00:00:40,230
+Well, I don't know how I'm going to draw the other square
+
+9
+00:00:40,230 --> 00:00:41,740
+because I don't know how to draw an angled one.
+
+10
+00:00:41,740 --> 00:00:47,010
+I'll just draw the lines. That's the other square.
+
+11
+00:00:47,010 --> 00:00:48,700
+And the last one.
+
+12
+00:00:48,700 --> 00:00:51,530
+I'll just draw in some lines something like this.
+
+13
+00:00:52,530 --> 00:01:00,880
+It comes up like that, like that and like that.
+
+14
+00:01:00,880 --> 00:01:02,010
+So that's what they have.
+
+15
+00:01:02,010 --> 00:01:09,140
+And they call this A, this B, C, D, and they tell us that
+
+16
+00:01:09,140 --> 00:01:14,080
+this is a right angle. They say, in the figure above,
+
+17
+00:01:14,080 --> 00:01:21,310
+if the area of triangular region D is 4,
+
+18
+00:01:21,740 --> 00:01:27,580
+what is the length of a side of square region A?
+
+19
+00:01:31,470 --> 00:01:37,000
+So all of these are-- well, they don't tell us that this
+
+20
+00:01:37,000 --> 00:01:38,690
+and this are a square region just yet,
+
+21
+00:01:38,690 --> 00:01:41,020
+but they tell us this is a square region.
+
+22
+00:01:41,340 --> 00:01:44,410
+So the length of this side-- if we know the length of this
+
+23
+00:01:44,410 --> 00:01:49,000
+side and that side, then we can figure out the length of
+
+24
+00:01:49,000 --> 00:01:51,570
+the hypotenuse of this right triangle, so that's all we need.
+
+25
+00:01:51,850 --> 00:01:57,450
+And let's see, let's call this length right here little b.
+
+26
+00:01:57,450 --> 00:01:59,430
+And let's call this length little c.
+
+27
+00:01:59,990 --> 00:02:04,290
+So we already know that, if we know the area of this triangle
+
+28
+00:02:04,290 --> 00:02:06,840
+is 4, we know that little b times little c,
+
+29
+00:02:06,840 --> 00:02:12,150
+so height times base times 1/2, is equal to 4.
+
+30
+00:02:12,250 --> 00:02:16,080
+But that also tells us that b be times little c is equal to 8
+
+31
+00:02:16,880 --> 00:02:19,040
+I don't know that does for us. Let's read the statements.
+
+32
+00:02:19,040 --> 00:02:25,010
+Statement number 1. The area of square region B is 9.
+
+33
+00:02:25,250 --> 00:02:29,040
+So B is equal to 9. Well, that's useful.
+
+34
+00:02:29,690 --> 00:02:33,330
+If the area of this region, and it's a square, is 9,
+
+35
+00:02:33,330 --> 00:02:35,020
+what's each of the sides going to be?
+
+36
+00:02:35,020 --> 00:02:37,720
+The sides are going to be the square root of that.
+
+37
+00:02:38,000 --> 00:02:40,050
+Little b is going to be equal to 3.
+
+38
+00:02:41,140 --> 00:02:45,370
+If little b is equal to 3,then the area of this is 3 times 3.
+
+39
+00:02:45,370 --> 00:02:47,530
+We can do that because it's a square, which would be 9.
+
+40
+00:02:47,770 --> 00:02:51,760
+So if little b is 3, then what is C? Well,
+
+41
+00:02:51,760 --> 00:02:59,020
+then we get that C is equal to 8/3 using this information.
+
+42
+00:02:59,020 --> 00:03:01,760
+And we got that, remember, just based on the fact that
+
+43
+00:03:01,760 --> 00:03:06,050
+the area of this triangle right here is 4.
+
+44
+00:03:06,510 --> 00:03:11,020
+So little b times little c times 1/2 would equal to 4.
+
+45
+00:03:11,020 --> 00:03:13,870
+So, if we know what little b and we know what little c is,
+
+46
+00:03:13,870 --> 00:03:16,200
+then we can solve for-- let's call that little a.
+
+47
+00:03:16,200 --> 00:03:18,450
+And little a is what the whole point was about.
+
+48
+00:03:18,450 --> 00:03:21,400
+What is the length of a side of the square region A?
+
+49
+00:03:21,400 --> 00:03:26,410
+So we could just solve for b squared plus c squared is
+
+50
+00:03:26,410 --> 00:03:28,500
+equal to a squared, right?
+
+51
+00:03:28,500 --> 00:03:30,680
+This squared soon. plus this squared is equal to the
+
+52
+00:03:30,680 --> 00:03:31,970
+hypotenuse squared.
+
+53
+00:03:32,450 --> 00:03:34,170
+And we just solve for a and we'd be done.
+
+54
+00:03:34,170 --> 00:03:36,420
+So statement one alone is sufficient.
+
+55
+00:03:36,420 --> 00:03:38,860
+And this is really messy, especially taking an 8/3
+
+56
+00:03:38,860 --> 00:03:40,490
+squared and all that, so I'm not going to do it.
+
+57
+00:03:40,490 --> 00:03:42,930
+And it would be a waste of time on the GMAT anyway.
+
+58
+00:03:43,000 --> 00:03:44,030
+Let's look at statement number two.
+
+59
+00:03:48,210 --> 00:03:52,210
+The area of square region C is 64/9,
+
+60
+00:03:52,210 --> 00:03:55,020
+so C is equal to 64 over 9.
+
+61
+00:03:55,020 --> 00:03:57,890
+So this is kind of very similar to the information
+
+62
+00:03:57,890 --> 00:03:58,710
+they gave us in statement one.
+
+63
+00:03:59,080 --> 00:04:02,440
+If the area of this is 64/9 and this is a square region,
+
+64
+00:04:02,440 --> 00:04:05,700
+then the length of each of its sides, or in this case, little
+
+65
+00:04:05,700 --> 00:04:08,660
+c, the length of little c is just going to be the square
+
+66
+00:04:08,660 --> 00:04:12,080
+root of that. So little c is going to be 8/3,
+
+67
+00:04:12,080 --> 00:04:13,570
+which is exactly what we figured out here.
+
+68
+00:04:13,570 --> 00:04:15,790
+And then we could use this information that we got from
+
+69
+00:04:15,790 --> 00:04:19,560
+the problem statement that b times c is going to be equal
+
+70
+00:04:19,560 --> 00:04:22,080
+to 8, and we got that from the fact that the area of this
+
+71
+00:04:22,080 --> 00:04:23,390
+triangle is 4.
+
+72
+00:04:23,390 --> 00:04:29,620
+So we use that and we can figure out that b times 8/3 is
+
+73
+00:04:29,620 --> 00:04:33,380
+equal to 8. And then you get b is equal to 3,
+
+74
+00:04:33,380 --> 00:04:37,010
+and then you apply this again to solve for a.
+
+75
+00:04:37,010 --> 00:04:40,040
+So each of the statements one and two are each individually
+
+76
+00:04:40,040 --> 00:04:42,070
+sufficient to answer this question.
+
+77
+00:04:43,770 --> 00:04:47,050
+Next problem. 114.
+
+78
+00:04:50,650 --> 00:04:54,460
+If x is to be selected at random from set T, what is the
+
+79
+00:04:54,460 --> 00:05:04,040
+probability that 1/4x minus 5 is less than or equal to 0?
+
+80
+00:05:04,040 --> 00:05:07,690
+Let's simplify this real fast. That means that what's the
+
+81
+00:05:07,690 --> 00:05:11,030
+probably that 1/4x is less than 5?
+
+82
+00:05:11,030 --> 00:05:13,000
+And that means what's the probability?
+
+83
+00:05:13,000 --> 00:05:14,490
+Let's multiply both sides by 4.
+
+84
+00:05:14,490 --> 00:05:16,440
+I just added 5 to both sides here.
+
+85
+00:05:16,440 --> 00:05:18,370
+And let's multiply both sides by 4.
+
+86
+00:05:18,370 --> 00:05:20,800
+And we don't have to change the inequality since 4 is a
+
+87
+00:05:20,800 --> 00:05:21,640
+positive number.
+
+88
+00:05:21,640 --> 00:05:23,740
+So it's the same thing as what's the probability that x
+
+89
+00:05:23,740 --> 00:05:25,060
+is less than 20?
+
+90
+00:05:25,060 --> 00:05:27,990
+And I like this a lot more because it's just simple and
+
+91
+00:05:27,990 --> 00:05:31,530
+it lets my brain grasp the problem better.
+
+92
+00:05:31,530 --> 00:05:34,090
+Now, what are the statements they give us?
+
+93
+00:05:34,090 --> 00:05:41,430
+Statement one: T is a set of 8 integers. T has 8 integers.
+
+94
+00:05:46,020 --> 00:05:48,650
+That by itself doesn't help me because I don't know what
+
+95
+00:05:48,650 --> 00:05:49,730
+those eight integers look like.
+
+96
+00:05:49,730 --> 00:05:54,220
+I mean, maybe all eight could be larger than 20,
+
+97
+00:05:55,230 --> 00:05:58,000
+in which case, it would be impossible to find one that's
+
+98
+00:05:58,000 --> 00:06:00,390
+less than or equal to 20, or maybe all 8 are less than 20,
+
+99
+00:06:00,390 --> 00:06:02,010
+in which case, you would have 100% chance.
+
+100
+00:06:02,010 --> 00:06:06,440
+So statement one by itself is fairly useless. Statement two.
+
+101
+00:06:07,090 --> 00:06:21,080
+T is contained in the set of integers from 1 to 25.
+
+102
+00:06:21,080 --> 00:06:29,890
+So that also doesn't help me. So T within 1 to 25.
+
+103
+00:06:29,890 --> 00:06:32,630
+So they're essentially telling us that every number in T is
+
+104
+00:06:32,630 --> 00:06:33,920
+between this range.
+
+105
+00:06:33,920 --> 00:06:36,780
+But if we just take statement two alone, they're not telling
+
+106
+00:06:36,780 --> 00:06:39,480
+us, first of all, how many numbers are in T.
+
+107
+00:06:39,480 --> 00:06:41,750
+Statement one tells us that,but statement two doesn't tell us
+
+108
+00:06:41,750 --> 00:06:44,600
+And then even if we knew how many numbers were in T,
+
+109
+00:06:44,600 --> 00:06:46,400
+we don't know where they're distributed.
+
+110
+00:06:46,400 --> 00:06:49,740
+Maybe all of the numbers in T are less than 20,
+
+111
+00:06:49,740 --> 00:06:52,190
+in which case, there is 100% chance that you would select one
+
+112
+00:06:52,190 --> 00:06:57,490
+that was less than 20.But maybe 4 of them are greater than 20
+
+113
+00:06:58,160 --> 00:07:00,590
+you Maybe you have 21, 22, 23, 24.
+
+114
+00:07:00,590 --> 00:07:02,480
+And four of them are less than 20,
+
+115
+00:07:02,480 --> 00:07:05,810
+or maybe something in between. So given that,
+
+116
+00:07:05,810 --> 00:07:08,890
+you still don't know where T is distributed relative to 20.
+
+117
+00:07:08,890 --> 00:07:12,850
+So I say that we still don't have enough information, even
+
+118
+00:07:12,850 --> 00:07:16,030
+with both of these statements, to solve this problem.
+
+119
+00:07:16,030 --> 00:07:20,160
+Next question. 115.
+
+120
+00:07:20,160 --> 00:07:23,240
+It takes the most confidence to choose that E,
+
+121
+00:07:23,240 --> 00:07:26,000
+to say that one cannot solve this problem.
+
+122
+00:07:26,000 --> 00:07:30,500
+115. I'm always second-guessing myself. I'm like, well,
+
+123
+00:07:30,500 --> 00:07:32,530
+let me make sure I haven't missed some piece of information.
+
+124
+00:07:32,530 --> 00:07:34,050
+No, but I'm pretty confident here. All right.
+
+125
+00:07:34,050 --> 00:07:42,980
+115. If Sarah's age is exactly twice Bill's age,
+
+126
+00:07:43,490 --> 00:07:47,060
+what is Sarah's age? They want to know Sarah's age.
+
+127
+00:07:47,440 --> 00:07:52,040
+S for Sarah's age. Let me scroll down a little bit.
+
+128
+00:07:52,840 --> 00:07:56,130
+Problem statement number one says four years ago,
+
+129
+00:07:56,130 --> 00:07:59,410
+Sarah's age was exactly three times Bill's age.
+
+130
+00:07:59,410 --> 00:08:03,570
+So Sarah's age four years ago, so Sarah minus 4.
+
+131
+00:08:03,570 --> 00:08:04,810
+S is Sarah's age today.
+
+132
+00:08:04,810 --> 00:08:11,890
+So Sarah minus 4 was exactly three times Bill's age,
+
+133
+00:08:12,090 --> 00:08:18,670
+so was three times Bill's age then, so B minus 4, right?
+
+134
+00:08:18,670 --> 00:08:20,890
+Sarah's age four years ago was three times Bill's
+
+135
+00:08:20,890 --> 00:08:23,000
+age four years ago. Fair enough.
+
+136
+00:08:23,000 --> 00:08:25,820
+So just with this and this, can I solve for S? Well, sure.
+
+137
+00:08:25,820 --> 00:08:28,840
+I have two linear equations and two unknowns,
+
+138
+00:08:29,660 --> 00:08:31,570
+so I can solve for either variable.
+
+139
+00:08:31,570 --> 00:08:36,180
+And to prove it to you,I'll do it, although this, once again,
+
+140
+00:08:36,170 --> 00:08:41,010
+is a waste of time from the point of view of the GMAT.
+
+141
+00:08:41,010 --> 00:08:46,380
+S is equal to 3B minus 8.
+
+142
+00:08:46,380 --> 00:08:50,430
+And then B-- from there we get B is equal to S/2,
+
+143
+00:08:50,450 --> 00:08:56,010
+so S is equal to 3, right? I just divide 2 into both sides.
+
+144
+00:08:56,010 --> 00:09:05,900
+So 3S/2 minus 8. What can I do here? So I have 1 and 1/2 S.
+
+145
+00:09:05,900 --> 00:09:08,240
+I could subtract it from both sides. I'll have minus--
+
+146
+00:09:08,240 --> 00:09:13,020
+I'm doing it fast just to-- minus 1/2S is equal to minus 8.
+
+147
+00:09:13,020 --> 00:09:16,080
+And then multiply both sides by minus 2,
+
+148
+00:09:16,080 --> 00:09:19,320
+and you get Sarah is 16 years old. And you're done.
+
+149
+00:09:19,320 --> 00:09:20,890
+But you didn't have to do any of this.
+
+150
+00:09:20,890 --> 00:09:22,530
+That was all a waste of time.
+
+151
+00:09:22,530 --> 00:09:25,610
+You just had to see that you had two linear equations and two
+
+152
+00:09:25,610 --> 00:09:29,010
+unknowns,which is enough to solve for either of the variables
+
+153
+00:09:30,010 --> 00:09:35,800
+Statement two tells us, eight years from now, Sarah's age
+
+154
+00:09:35,800 --> 00:09:40,030
+will be exactly 1.5 times Bill's age. So, same thing.
+
+155
+00:09:40,030 --> 00:09:46,080
+Sarah's age eight years from now is going to be equal to 1
+
+156
+00:09:46,080 --> 00:09:53,800
+and 1/2 times Bill's age eight years from now. Same thing.
+
+157
+00:09:53,800 --> 00:09:57,370
+We have two linear equations, one that they gave in the
+
+158
+00:09:57,370 --> 00:09:59,370
+problem statement and one they gave in statement two,
+
+159
+00:09:59,370 --> 00:10:00,460
+and two unknowns.
+
+160
+00:10:00,460 --> 00:10:03,340
+No reason why you can't solve for both variables.
+
+161
+00:10:03,340 --> 00:10:05,890
+And you might want to do it for yourself just as an exercise.
+
+162
+00:10:05,890 --> 00:10:08,010
+But you'd do it the same way you did it right here.
+
+163
+00:10:08,010 --> 00:10:10,430
+I always find substitution to be the easiest, especially
+
+164
+00:10:10,430 --> 00:10:14,080
+when one of the equations is really easy to manipulate.
+
+165
+00:10:15,130 --> 00:10:17,490
+So each statement individually is sufficient
+
+166
+00:10:17,490 --> 00:10:19,010
+to solve this problem.
+
+167
+00:10:19,010 --> 00:10:24,810
+Next problem. 116. Oh, I just realized I'm out of time.
+
+168
+00:10:24,810 --> 00:10:27,020
+I'll do 116 in the next video. See you soon.

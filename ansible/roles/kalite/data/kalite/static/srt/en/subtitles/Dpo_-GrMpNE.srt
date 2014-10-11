@@ -1,0 +1,179 @@
+1
+00:00:01,267 --> 00:00:08,406
+Use a calcuator to find log base e of 67 to the nearest thousandth
+
+2
+00:00:08,406 --> 00:00:12,133
+So just as a reminder, e is one of these crazy numbers that shows up
+
+3
+00:00:12,133 --> 00:00:18,971
+in natures and finance and all these things and it is approximately equal to 2.71 and it just keeps on and on
+
+4
+00:00:18,971 --> 00:00:25,031
+so you could view log
+
+5
+00:00:25,031 --> 00:00:27,818
+base is as 67 and you say "What does 'e' mean?" Well, e is just a number
+
+6
+00:00:27,818 --> 00:00:31,231
+just like pi is just a number
+
+7
+00:00:31,231 --> 00:00:32,903
+This is really the same thing as saying log base 2.71 and teh actual number
+
+8
+00:00:32,903 --> 00:00:36,734
+so you have to write all the digits that just keep on going forever
+
+9
+00:00:36,734 --> 00:00:40,240
+and never repeat- of 67. So what power do I have to raise e to
+
+10
+00:00:40,240 --> 00:00:43,491
+to get to 67? So another way of saying that is that if this is
+
+11
+00:00:43,491 --> 00:00:50,302
+equal to x, e to the x is equal to 67, we need to figure out what x is
+
+12
+00:00:50,302 --> 00:00:56,819
+Now, traditionally, you will never see people write log base e even though
+
+13
+00:00:56,819 --> 00:01:01,231
+e is one of the most common bases to take a log of
+
+14
+00:01:01,231 --> 00:01:04,667
+so the reason you wouldn't see log base e written this way
+
+15
+00:01:04,667 --> 00:01:08,333
+is that log base e is the natural logarithm
+
+16
+00:01:08,333 --> 00:01:12,267
+and I think that's used because e shows up so many times in nature.
+
+17
+00:01:12,267 --> 00:01:17,933
+So log base e of 67, another way of saying that- or seeing that- and the more typical
+
+18
+00:01:17,933 --> 00:01:24,242
+way of seeing that is the natural log. This is ln (I think this is from french or something)
+
+19
+00:01:24,242 --> 00:01:30,233
+So this is the same thing as saying log base e
+
+20
+00:01:30,233 --> 00:01:33,067
+of 67. This is saying that exact same thing.
+
+21
+00:01:33,067 --> 00:01:38,313
+So what power do I have to raise e to to get 67. When you see this 'ln', is literally means
+
+22
+00:01:38,313 --> 00:01:42,307
+'log base e'. Now, they let us use a calculator and that's good
+
+23
+00:01:42,307 --> 00:01:46,556
+because I don't know off the top of my head what power you
+
+24
+00:01:46,556 --> 00:01:50,736
+have to raise 2.71 and so forth to to get 67.
+
+25
+00:01:50,736 --> 00:01:54,567
+So we'll get our calculator out. So we'll get our TI-85 out.
+
+26
+00:01:54,567 --> 00:01:58,333
+And different calculators will have different ways of doing it.
+
+27
+00:01:58,333 --> 00:02:02,133
+If you have a graphing calulator like this, you can literally type in the
+
+28
+00:02:02,133 --> 00:02:05,267
+statement, natural log of 67 and evaluate it.
+
+29
+00:02:05,267 --> 00:02:11,239
+So here, this is the button for natural log, 'log naturale (fr),' maybe.
+
+30
+00:02:11,239 --> 00:02:15,070
+Ln of 67, and then you press 'enter' and it will give you the answer.
+
+31
+00:02:15,070 --> 00:02:18,000
+If you don't have a graphing calculator, you might have to press 67
+
+32
+00:02:18,000 --> 00:02:23,067
+and then press 'ln' to give you the answer. But if you have
+
+33
+00:02:23,067 --> 00:02:26,933
+a graphing calculator you can jsut type it in the same
+
+34
+00:02:26,933 --> 00:02:29,560
+way as you would write it out.
+
+35
+00:02:29,560 --> 00:02:32,400
+So 4.20469... and we want to roud to the nearest thousandth.
+
+36
+00:02:32,400 --> 00:02:36,133
+So this is the thousandth place, this 4, the digit after that is 5
+
+37
+00:02:36,133 --> 00:02:38,267
+or larger, it's a 6, so we are going to round up.
+
+38
+00:02:38,267 --> 00:02:49,067
+So this is approximately equal to 4.205
+
+39
+00:02:49,067 --> 00:02:53,933
+and it actualy makes a lot of sense, because we know that e is greater than 2
+
+40
+00:02:53,933 --> 00:02:58,200
+and it is less than 3
+
+41
+00:02:58,200 --> 00:03:03,740
+and if you think about 2 to the 4th power, that gets you to 16
+
+42
+00:03:03,740 --> 00:03:08,894
+and 3 to the fourth power gets you to 81.
+
+43
+00:03:08,894 --> 00:03:13,562
+67 is between 16 and 81, and e is between 2 and 3
+
+44
+00:03:13,562 --> 00:03:16,650
+so at least if feels right
+
+45
+00:03:16,650 --> 99:59:59,999
+that 2.71^4 should get you pretty close to 3^4.

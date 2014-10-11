@@ -1,0 +1,479 @@
+1
+00:00:00,000 --> 00:00:04,467
+So I've drawn an arbitrary triangle,
+
+2
+00:00:04,467 --> 00:00:07,800
+that we will assume is NOT an equilateral triangle,
+
+3
+00:00:07,800 --> 00:00:12,000
+and let's draw some of the interesting properties of this triangle.
+
+4
+00:00:12,000 --> 00:00:15,452
+So let's first start with the perpendicular bisectors.
+
+5
+00:00:15,452 --> 00:00:18,815
+So let's say this is the midpoint of this side,
+
+6
+00:00:18,815 --> 00:00:23,092
+so, let me draw it a little bit closer to the midpoint, it looks like right about there.
+
+7
+00:00:23,092 --> 00:00:26,885
+So this length is equal to this length right over here.
+
+8
+00:00:26,885 --> 00:00:30,000
+And so let me draw a perpendicular bisector.
+
+9
+00:00:30,000 --> 00:00:34,364
+So the perpendicular bisector would look something like that, for that side.
+
+10
+00:00:34,364 --> 00:00:36,636
+Now let me do it on this side.
+
+11
+00:00:36,636 --> 00:00:40,097
+So, just trying to eyeball it, this looks roughly like the midpoint.
+
+12
+00:00:40,097 --> 00:00:43,200
+So this length is going to be equal to this length.
+
+13
+00:00:43,200 --> 00:00:46,733
+And then, once again, let me draw a perpendicular bisector.
+
+14
+00:00:46,733 --> 00:00:49,467
+So, it's going to go at a 90 degree angle.
+
+15
+00:00:49,467 --> 00:00:51,821
+I can draw a straighter line than that.
+
+16
+00:00:51,821 --> 00:00:54,400
+That looks pretty good...
+
+17
+00:00:54,400 --> 00:00:56,067
+and it is perpendicular.
+
+18
+00:00:56,067 --> 00:00:59,600
+And then, you could imagine, I will do it with this side, with side AB.
+
+19
+00:00:59,600 --> 00:01:01,467
+That looks like the midpoint.
+
+20
+00:01:01,467 --> 00:01:05,000
+This length is going to be equal to that length.
+
+21
+00:01:05,000 --> 00:01:09,450
+And then if we draw a perpendicular,
+
+22
+00:01:09,450 --> 00:01:11,933
+(my best attempt to draw this),
+
+23
+00:01:11,933 --> 00:01:14,000
+it looks something like that,
+
+24
+00:01:14,000 --> 00:01:16,133
+and we've already learned that these three lines
+
+25
+00:01:16,133 --> 00:01:18,733
+will definitely intersect in a unique point,
+
+26
+00:01:18,733 --> 00:01:22,200
+right over there, which we call the circumcenter.
+
+27
+00:01:22,200 --> 00:01:24,185
+So let me write it.
+
+28
+00:01:24,185 --> 00:01:27,600
+So this is our circumcenter.
+
+29
+00:01:27,600 --> 00:01:31,267
+This is nothing new.
+
+30
+00:01:31,267 --> 00:01:34,000
+Now let's draw the medians.
+
+31
+00:01:34,000 --> 00:01:37,600
+The medians go from each of the vertices to the,
+
+32
+00:01:37,600 --> 00:01:40,933
+to the midpoint of the opposite side.
+
+33
+00:01:40,933 --> 00:01:42,067
+So let me draw,
+
+34
+00:01:42,067 --> 00:01:44,267
+so this is a median,
+
+35
+00:01:44,267 --> 00:01:47,000
+this is a median...
+
+36
+00:01:47,000 --> 00:01:50,000
+this is a median,
+
+37
+00:01:50,000 --> 00:01:54,487
+and then this is...
+
+38
+00:01:54,487 --> 00:01:58,333
+and all the errors in my drawing will start to become apparent,
+
+39
+00:01:58,333 --> 00:02:00,533
+now that I'm trying to do multiple things with it,
+
+40
+00:02:00,533 --> 00:02:04,933
+but we know all of the medians intersect at the centroid.
+
+41
+00:02:04,933 --> 00:02:08,738
+So this right over here is the centroid.
+
+42
+00:02:08,738 --> 00:02:11,990
+Now let's draw the altitudes of this triangle.
+
+43
+00:02:11,990 --> 00:02:13,934
+So let's draw the altitudes.
+
+44
+00:02:13,934 --> 00:02:16,406
+So I'm gonna drop a perpendicular right over here.
+
+45
+00:02:16,406 --> 00:02:18,667
+This is one altitude.
+
+46
+00:02:18,667 --> 00:02:21,239
+I will draw another altitude.
+
+47
+00:02:21,239 --> 00:02:25,077
+So remember, it's just gonna go down like this.
+
+48
+00:02:25,077 --> 00:02:27,407
+Draw another altitude, it'd look something like that.
+
+49
+00:02:27,407 --> 00:02:30,989
+And then I can draw another altitude from this side,
+
+50
+00:02:30,989 --> 00:02:34,739
+and we know it's going to intersect at this unique point right over here.
+
+51
+00:02:34,739 --> 00:02:37,157
+So I'll try to draw it as neatly as I can.
+
+52
+00:02:37,157 --> 00:02:38,667
+And this is going to be perpendicular,
+
+53
+00:02:38,667 --> 00:02:40,489
+although the way I've drawn it doesn't necessarily look that way.
+
+54
+00:02:40,489 --> 00:02:48,202
+And we know that this thing is called an orthocenter.
+
+55
+00:02:48,202 --> 00:02:50,575
+Now, the whole reason why I'm doing this,
+
+56
+00:02:50,575 --> 00:02:53,335
+and this is frankly kind of a mind-boggling idea...
+
+57
+00:02:53,335 --> 00:02:56,668
+It's neat enough that each of these points even exists,
+
+58
+00:02:56,668 --> 00:02:59,601
+that the three altitudes will intersect in one point,
+
+59
+00:02:59,601 --> 00:03:01,735
+the three medians intersect in one point,
+
+60
+00:03:01,735 --> 00:03:03,740
+and they have all these neat properties,
+
+61
+00:03:03,740 --> 00:03:05,929
+and that the three perpendicular bisectors intersect in one point.
+
+62
+00:03:05,929 --> 00:03:07,928
+That by itself is neat enough.
+
+63
+00:03:07,928 --> 00:03:09,329
+But what's really neat,
+
+64
+00:03:09,329 --> 00:03:11,654
+and it's maybe not completely apparent by the way I drew it,
+
+65
+00:03:11,654 --> 00:03:12,863
+because I just drew it freehand,
+
+66
+00:03:12,863 --> 00:03:18,664
+is that these three points will definitely be on the same line.
+
+67
+00:03:18,664 --> 00:03:21,261
+If this was an equilateral triangle, they would actually be the same point.
+
+68
+00:03:21,261 --> 00:03:24,406
+But for any other triangle, they will be different points
+
+69
+00:03:24,406 --> 00:03:26,997
+and they will be on the same line,
+
+70
+00:03:26,997 --> 00:03:28,154
+which is just kind of crazy,
+
+71
+00:03:28,154 --> 00:03:29,906
+because obviously two points define a line,
+
+72
+00:03:29,906 --> 00:03:32,663
+but three points being on the same line is kind of a...
+
+73
+00:03:32,663 --> 00:03:36,071
+you know, it seems like a very unlikely thing,
+
+74
+00:03:36,071 --> 00:03:36,997
+if you were to just guess it.
+
+75
+00:03:36,997 --> 00:03:40,262
+And I'll just try to draw as best as I can.
+
+76
+00:03:40,262 --> 00:03:41,863
+If you were to draw this with a straight-edged ruler,
+
+77
+00:03:41,863 --> 00:03:43,404
+it would come out a lot cleaner,
+
+78
+00:03:43,404 --> 00:03:48,129
+but these, all three points sit on this unique line.
+
+79
+00:03:48,129 --> 00:03:50,129
+You know, it seems there's something special or magical about it.
+
+80
+00:03:50,129 --> 00:03:52,128
+And because it's something special or magical,
+
+81
+00:03:52,128 --> 00:03:53,724
+there's one famous mathematician
+
+82
+00:03:53,724 --> 00:03:57,459
+who tends to get all of the most special mathematical things named after him,
+
+83
+00:03:57,459 --> 00:03:59,926
+because he's the guy who's really explored these things,
+
+84
+00:03:59,926 --> 00:04:05,527
+and we call this the Euler line.
+
+85
+00:04:05,527 --> 00:04:13,331
+And I say that Leonhard Euler
+
+86
+00:04:13,331 --> 00:04:20,592
+gets all of the cool and magical, mystical things named after him
+
+87
+00:04:20,592 --> 00:04:25,568
+because he is also responsible for Euler's identity,
+
+88
+00:04:25,568 --> 00:04:29,657
+which is: e^(iπ)=-1
+
+89
+00:04:29,657 --> 00:04:31,818
+And we prove this in the calculus playlist.
+
+90
+00:04:31,818 --> 00:04:33,150
+And if none of this makes any sense to you,
+
+91
+00:04:33,150 --> 00:04:35,126
+don't worry, we're only in geometry right now.
+
+92
+00:04:35,126 --> 00:04:36,484
+But he gets to have all of them.
+
+93
+00:04:36,484 --> 00:04:43,124
+This is a magical thing because "e" comes out of compound interest, and exponential growth and decay;
+
+94
+00:04:43,124 --> 00:04:47,732
+"i" squared is negative one, it seems this very bizarre, imaginary number;
+
+95
+00:04:47,732 --> 00:04:52,256
+π ("pi") is the ratio of the circumference of a circle to its diameter,
+
+96
+00:04:52,256 --> 00:04:54,151
+and -1 is, well, negative one.
+
+97
+00:04:54,151 --> 00:04:57,323
+And so, Euler showed that there's a lot of reason to believe
+
+98
+00:04:57,323 --> 00:05:02,569
+that these four numbers that come from all of these different, weird realities of the world
+
+99
+00:05:02,569 --> 00:05:05,068
+are connected in this very tight way,
+
+100
+00:05:05,068 --> 00:05:10,068
+and he also showed that these special points are all on the same line,
+
+101
+00:05:10,068 --> 00:05:13,855
+which tells us something kind of crazy and mystical about our reality.
+
+102
+00:05:13,855 --> 00:05:16,105
+And if that is not enough for you,
+
+103
+00:05:16,105 --> 00:05:19,057
+if you take the midpoint on the Euler line,
+
+104
+00:05:19,057 --> 00:05:21,694
+between the orthocenter and the circumcenter
+
+105
+00:05:21,694 --> 00:05:24,521
+(and I'm not going to prove it here, I'm just going to give you a little bit of a tidbit of it)
+
+106
+00:05:24,521 --> 00:05:27,856
+If you take the midpoint between the orthocenter and the circumcenter,
+
+107
+00:05:27,856 --> 00:05:31,125
+so I'm gonna try to look at it roughly,
+
+108
+00:05:31,125 --> 00:05:32,656
+so it looks like it's right about there.
+
+109
+00:05:32,656 --> 00:05:35,606
+So this length is going to be equal to this length.
+
+110
+00:05:35,606 --> 00:05:38,942
+This point that sits on the Euler line
+
+111
+00:05:38,942 --> 00:05:43,272
+is going to be the center of something called the 9-point circle,
+
+112
+00:05:43,272 --> 00:05:46,689
+which intersects this triangle at nine points.
+
+113
+00:05:46,689 --> 00:05:49,272
+And we'll see, these nine kind of interesting points.
+
+114
+00:05:49,272 --> 00:05:51,457
+So let me label that as well.
+
+115
+00:05:51,457 --> 00:05:55,023
+So it's cool enough that these three special points are on the Euler line,
+
+116
+00:05:55,023 --> 00:05:56,258
+but there are actually four special points,
+
+117
+00:05:56,258 --> 00:05:58,656
+and actually there are a few more than that, that are kind of interesting.
+
+118
+00:05:58,656 --> 00:06:05,356
+So that orange point is the center of the 9-point circle.
+
+119
+00:06:05,356 --> 00:06:08,939
+And maybe I'll do another video just on that.
+
+120
+00:06:08,939 --> 00:06:12,030
+So anyway, hopefully you found that kind of interesting.

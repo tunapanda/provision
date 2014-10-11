@@ -1,0 +1,339 @@
+1
+00:00:00,733 --> 00:00:03,266
+hhhhhhhh
+
+2
+00:00:03,266 --> 00:00:05,800
+We know that quadrilateral ABCD over here is a parallelogram.
+
+3
+00:00:05,800 --> 00:00:11,146
+And what I want to discuss in this video is a general way of finding the area of a parallelogram.
+
+4
+00:00:11,146 --> 00:00:16,068
+In the last video we talked about a particular way of finding a area of a rhombus.
+
+5
+00:00:16,068 --> 00:00:18,021
+You can take half the product of it's diagonals.
+
+6
+00:00:18,021 --> 00:00:20,735
+And a rhombus is a parallelogram, but you can't just generally take
+
+7
+00:00:20,735 --> 00:00:24,933
+the product of the half the product of the diagonals of any parallelogram
+
+8
+00:00:24,933 --> 00:00:28,333
+It has to be a rhombus. So now were just going to talk about the parallelograms.
+
+9
+00:00:28,333 --> 00:00:30,975
+So what do we know about parallelograms?
+
+10
+00:00:30,975 --> 00:00:33,333
+Well we know the opposite sides are parallel.
+
+11
+00:00:33,333 --> 00:00:37,800
+That side is parallel to that side and this side is parallel to this side.
+
+12
+00:00:37,800 --> 00:00:40,867
+And we also know that opposite sides are congruent.
+
+13
+00:00:40,867 --> 00:00:43,236
+So this length is equal to this length.
+
+14
+00:00:43,236 --> 00:00:47,647
+And this length is equal to this length over here.
+
+15
+00:00:47,647 --> 00:00:49,600
+Now if we draw a diagonal.
+
+16
+00:00:49,600 --> 00:00:51,966
+I'll draw a diagonal. A, C
+
+17
+00:00:51,966 --> 00:00:56,133
+We can split our parallelogram into two triangles.
+
+18
+00:00:56,133 --> 00:00:59,559
+We've proven this multiple times that these two triangles are congruent.
+
+19
+00:00:59,559 --> 00:01:02,400
+We can do it in a pretty straightforward way.
+
+20
+00:01:02,400 --> 00:01:07,067
+We can look, obviously A,D is equal to B,C.
+
+21
+00:01:07,067 --> 00:01:09,667
+We have D,C is equal to A,B.
+
+22
+00:01:09,667 --> 00:01:13,561
+And then both of these triangles share this third side right over here.
+
+23
+00:01:13,561 --> 00:01:16,800
+They both share A,C.
+
+24
+00:01:16,800 --> 00:01:20,133
+So we can say triangle, I'll write this in yellow.
+
+25
+00:01:20,133 --> 00:01:27,400
+So we can say triangle ADC is congruent to triangle, so we want to get this right.
+
+26
+00:01:27,400 --> 00:01:32,067
+So it's going to be congruent to triangle, I said ADC.
+
+27
+00:01:32,067 --> 00:01:41,133
+So I went along this double magenta slash first, then the pink, and then I went the last one.
+
+28
+00:01:41,133 --> 00:01:47,133
+So I'm going to say CBA because I went the double magenta then pink then the last one.
+
+29
+00:01:47,133 --> 00:01:50,829
+So CBA, triangle CBA.
+
+30
+00:01:50,829 --> 00:01:55,733
+And this is by Side Side Side (SSS) congruency.
+
+31
+00:01:55,733 --> 00:01:58,867
+All three sides, they have three corresponding sides that are congruent to each other.
+
+32
+00:01:58,867 --> 00:02:01,000
+So the triangles are congruent to each other.
+
+33
+00:02:01,000 --> 00:02:04,645
+And what that tells us is that the areas of these two triangles are going to be the same.
+
+34
+00:02:04,814 --> 00:02:11,467
+So if I want to find the area, the area of ABCD, the whole parallelogram.
+
+35
+00:02:11,467 --> 00:02:22,933
+It's going to be equal to the area of triangle ADC plus the area of CBA.
+
+36
+00:02:22,933 --> 00:02:27,467
+But the area of CBA is the same thing as the area of ADC.
+
+37
+00:02:27,467 --> 00:02:30,400
+Because they are congruent by Side Side Side (SSS).
+
+38
+00:02:30,400 --> 00:02:35,156
+So this is just going to be two times the area of triangle ADC.
+
+39
+00:02:35,156 --> 00:02:40,200
+Which is convenient for us because we know how to find the areas of triangles.
+
+40
+00:02:40,200 --> 00:02:44,606
+The area of triangles is literally just one half times base times height.
+
+41
+00:02:44,606 --> 00:02:48,867
+So it's one half times base times height of this triangle.
+
+42
+00:02:49,436 --> 00:02:52,533
+And we are given the base of ADC.
+
+43
+00:02:52,533 --> 00:02:54,800
+It is this length right over here.
+
+44
+00:02:54,800 --> 00:02:58,200
+It is DC. You could view it as the base of the entire parallelogram.
+
+45
+00:02:58,200 --> 00:02:59,908
+And if you wanted to figure out the height,
+
+46
+00:02:59,908 --> 00:03:03,267
+we could draw an altitude down like this.
+
+47
+00:03:03,267 --> 00:03:08,314
+So this is perpendicular. We could call that the height right over there.
+
+48
+00:03:08,314 --> 00:03:14,815
+So if you want the total area of parallelogram ABCD,
+
+49
+00:03:14,815 --> 00:03:18,600
+It is equal to two times one half times base times height.
+
+50
+00:03:18,600 --> 00:03:20,933
+Well two times one half is just 1.
+
+51
+00:03:20,933 --> 00:03:23,467
+So you're just left with base times height.
+
+52
+00:03:23,467 --> 00:03:31,000
+So it's just b times this height over here. Base times height.
+
+53
+00:03:31,000 --> 00:03:35,000
+So thats a neat result and you might've guessed that this would be the case.
+
+54
+00:03:35,000 --> 00:03:37,533
+But if you want to find out the area of any parallelogram
+
+55
+00:03:37,533 --> 00:03:39,200
+and if you can figure out the height
+
+56
+00:03:39,200 --> 00:03:47,667
+it is literally, you just take one of the bases because opposite sides are equal times the height.
+
+57
+00:03:47,667 --> 00:03:49,400
+So thats one way you could of found the area.
+
+58
+00:03:49,400 --> 00:03:52,000
+Or you could've multiplied, the other way to think about it
+
+59
+00:03:52,000 --> 00:03:58,554
+is if I were to turn the parallelogram over, it would look something like this...
+
+60
+00:04:00,769 --> 00:04:03,762
+So if I were to rotate it like that.
+
+61
+00:04:04,562 --> 00:04:10,808
+Stand it on this side, so this would be point A
+
+62
+00:04:13,338 --> 00:04:15,267
+This would be point D.
+
+63
+00:04:15,267 --> 00:04:16,713
+This would be point C.
+
+64
+00:04:16,713 --> 00:04:18,600
+And this would be point B.
+
+65
+00:04:18,600 --> 00:04:24,290
+You could also do it this way, you could say it would be the area of this would be base times height.
+
+66
+00:04:24,290 --> 00:04:28,000
+So you could say h times DC.
+
+67
+00:04:28,000 --> 00:04:34,553
+So you could say this is going to be equal to h times the length of DC.
+
+68
+00:04:35,338 --> 00:04:38,622
+That's one way to do it, that's this base times this height.
+
+69
+00:04:38,622 --> 00:04:48,817
+Or you could say it's equal to AD times
+
+70
+00:04:48,817 --> 00:04:53,350
+I'll call this altitude right here h2.
+
+71
+00:04:53,350 --> 00:04:57,067
+Maybe I'll call this h1.
+
+72
+00:04:57,067 --> 00:04:59,723
+So you could take this base times this height.
+
+73
+00:04:59,723 --> 00:05:06,643
+Or you could take this base times this height right over here.
+
+74
+00:05:06,643 --> 00:05:09,067
+This is h2. Either way.
+
+75
+00:05:09,067 --> 00:05:11,133
+So if someone were to give you a parallelogram.
+
+76
+00:05:11,133 --> 00:05:13,467
+Just to make things clear.
+
+77
+00:05:13,467 --> 00:05:17,000
+Obviously you'd have to be able to figure out the height.
+
+78
+00:05:17,000 --> 00:05:18,667
+So if someone were to give you a parallelogram like this,
+
+79
+00:05:18,667 --> 00:05:20,800
+they were to tell you this is a parallelogram.
+
+80
+00:05:20,800 --> 00:05:23,059
+If they were to tell you this length right over here is 5.
+
+81
+00:05:23,567 --> 00:05:28,333
+And if they were to tell you that this distance is 6.
+
+82
+00:05:28,333 --> 00:05:31,720
+Then the area of this parallelogram would literally be 5 times 6.
+
+83
+00:05:31,720 --> 00:05:34,067
+I drew the altitude outside the parallelogram.
+
+84
+00:05:34,067 --> 00:05:37,200
+I could've drawn it right over here as well, that would also be 6.
+
+85
+00:05:37,200 --> 99:59:59,999
+So the area of this parallelogram would be 30.

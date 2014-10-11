@@ -1,0 +1,723 @@
+1
+00:00:00,083 --> 00:00:03,044
+Let's do a little bit of probability with playing cards
+
+2
+00:00:03,044 --> 00:00:05,055
+For the sake of this video we're going to assume
+
+3
+00:00:05,055 --> 00:00:07,057
+that our deck has no jokers in it.
+
+4
+00:00:07,059 --> 00:00:09,027
+You could do the same problems with the joker,
+
+5
+00:00:09,030 --> 00:00:11,034
+you'll just get slightly different numbers.
+
+6
+00:00:11,034 --> 00:00:13,027
+So with that out of the way
+
+7
+00:00:13,027 --> 00:00:15,007
+Let's first just think about
+
+8
+00:00:15,007 --> 00:00:17,862
+how many cards we have in a standard playing deck?
+
+9
+00:00:17,862 --> 00:00:21,086
+so you have four suits
+
+10
+00:00:21,086 --> 00:00:25,518
+and the suits are: the spades, the diamonds, the clubs
+
+11
+00:00:25,518 --> 00:00:27,023
+and the hearts.
+
+12
+00:00:27,023 --> 00:00:28,024
+You have four suits
+
+13
+00:00:28,024 --> 00:00:31,059
+and then in each of those suits you have thirteen different
+
+14
+00:00:31,059 --> 00:00:34,010
+types of cards or sometimes it's called the rank.
+
+15
+00:00:34,010 --> 00:00:44,057
+So each suit has thirteen types of cards
+
+16
+00:00:44,057 --> 00:00:47,041
+You have the ace, then you have the two, the three,
+
+17
+00:00:47,041 --> 00:00:52,073
+the four, the five, the six, seven, eight, nine, ten
+
+18
+00:00:52,073 --> 00:00:55,588
+and then you have the jack, the king and the queen.
+
+19
+00:00:55,588 --> 00:00:57,518
+And that is thirteen cards
+
+20
+00:00:57,518 --> 00:01:01,013
+So you can have for each suit you can have
+
+21
+00:01:01,013 --> 00:01:03,096
+any of these, for any of these you can have any of the suits
+
+22
+00:01:03,096 --> 00:01:05,082
+So you can a jack of diamonds, a jack of clubs
+
+23
+00:01:05,082 --> 00:01:08,660
+a jack of spades or a jack of hearts.
+
+24
+00:01:08,660 --> 00:01:10,475
+So if you just multiply these two things
+
+25
+00:01:10,475 --> 00:01:12,762
+you could take a deck of playing cards and actually
+
+26
+00:01:12,762 --> 00:01:14,062
+count them, take up the jokers and count them.
+
+27
+00:01:14,062 --> 00:01:16,061
+But if you just multiply this, you have four suits
+
+28
+00:01:16,061 --> 00:01:18,096
+each of those suits has thirteen types
+
+29
+00:01:18,096 --> 00:01:21,073
+so you're gonna have 4 times 13 cards
+
+30
+00:01:21,073 --> 00:01:24,084
+or you gonna have 52 cards in a standard playing deck.
+
+31
+00:01:24,084 --> 00:01:26,088
+Another way you can say it is like: look, there is thirteen
+
+32
+00:01:26,088 --> 00:01:28,044
+of these ranks or types
+
+33
+00:01:28,044 --> 00:01:30,001
+and each of those come in four different suits,
+
+34
+00:01:30,001 --> 00:01:33,065
+13 times 4 once again you'd have gotten 52 cards.
+
+35
+00:01:33,065 --> 00:01:36,013
+Now that out of the way, let's think about the probabilities
+
+36
+00:01:36,013 --> 00:01:37,266
+of different events.
+
+37
+00:01:37,266 --> 00:01:38,751
+So let's say I shuffled that deck,
+
+38
+00:01:38,751 --> 00:01:40,369
+I shuffled it really, really well.
+
+39
+00:01:40,369 --> 00:01:43,033
+And then I randomly picked a card from that deck.
+
+40
+00:01:43,033 --> 00:01:47,043
+And I want to think about what is the probability that I pick
+
+41
+00:01:47,043 --> 00:01:50,049
+what is the probability that I pick a jack?
+
+42
+00:01:50,049 --> 00:01:53,072
+Well, how many equally likely events are there?
+
+43
+00:01:53,072 --> 00:01:57,036
+Well, I can pick anyone of those 52 cards, so there's
+
+44
+00:01:57,036 --> 00:02:00,059
+52 possibilities for when I pick that card.
+
+45
+00:02:00,059 --> 00:02:04,050
+And how many of those 52 possibilities are jacks?
+
+46
+00:02:04,050 --> 00:02:07,070
+Well, you have the jack of spades, the jack of diamonds
+
+47
+00:02:07,070 --> 00:02:10,033
+the jack of clubs and the jack of hearts.
+
+48
+00:02:10,033 --> 00:02:12,026
+There's four jacks
+
+49
+00:02:12,026 --> 00:02:14,013
+There's four jacks in that deck.
+
+50
+00:02:14,013 --> 00:02:17,094
+So it is 4 over 52, these are both divisible by four
+
+51
+00:02:17,094 --> 00:02:19,072
+Four divided by four is one
+
+52
+00:02:19,072 --> 00:02:22,095
+52 divided by 4 is 13.
+
+53
+00:02:22,727 --> 00:02:26,018
+Now let's think about
+
+54
+00:02:26,018 --> 00:02:29,041
+the probability, so I will, you know, we're gonna start over
+
+55
+00:02:29,041 --> 00:02:31,079
+I'm gonna put that jack back in, I'm gonna reshuffle the deck
+
+56
+00:02:31,079 --> 00:02:34,006
+So once again I still have 52 cards.
+
+57
+00:02:34,006 --> 00:02:37,055
+So what's the probability that I get a hearts?
+
+58
+00:02:37,055 --> 00:02:40,013
+What's the probability that I randomly picked a card from
+
+59
+00:02:40,013 --> 00:02:43,465
+a shuffled deck and it is a hearts? Its suit is a heart.
+
+60
+00:02:43,465 --> 00:02:47,076
+Well once again, there's 52 possible cards I could pick from
+
+61
+00:02:47,076 --> 00:02:51,063
+52 possible, equally likely events that we're dealing with
+
+62
+00:02:51,063 --> 00:02:55,041
+And how many of those have our hearts?
+
+63
+00:02:55,041 --> 00:02:58,027
+Well, essentially thirteen of them are hearts. For each
+
+64
+00:02:58,027 --> 00:03:00,823
+of those suits you have thirteen types so there's thirteen
+
+65
+00:03:00,823 --> 00:03:03,480
+hearts in that deck, there thirteen diamonds in that deck
+
+66
+00:03:03,480 --> 00:03:06,874
+there thirteen spades in that deck, there thirteen clubs in that deck.
+
+67
+00:03:06,874 --> 00:03:10,992
+So the 13 of the 52 would result in hearts.
+
+68
+00:03:10,992 --> 00:03:14,868
+And both of those are divisible by 13, this is the same
+
+69
+00:03:14,868 --> 00:03:19,010
+thing as one forth. One in four times I'll pick it out
+
+70
+00:03:19,010 --> 00:03:21,684
+or I'll have one forth probability of getting a hearts
+
+71
+00:03:21,684 --> 00:03:24,014
+when I go to that, when I randomly pick a card
+
+72
+00:03:24,014 --> 00:03:24,971
+from that shuffled deck.
+
+73
+00:03:25,111 --> 00:03:27,069
+Now let's do some things a little bit more interesting
+
+74
+00:03:27,069 --> 00:03:31,006
+or maybe it's a little obvious: what's the probability
+
+75
+00:03:31,006 --> 00:03:41,644
+that I pick something that is a jack and it is a hearts?
+
+76
+00:03:41,644 --> 00:03:44,092
+Well, if you're reasonably familiar with cards, you'll know
+
+77
+00:03:44,092 --> 00:03:47,083
+that there's actually one card that is both jack and a heart
+
+78
+00:03:47,083 --> 00:03:49,071
+It is literally jack of hearts.
+
+79
+00:03:49,071 --> 00:03:51,066
+So we're saying what is the probability we picked exactly the card
+
+80
+00:03:51,066 --> 00:03:53,042
+jack of hearts?
+
+81
+00:03:53,042 --> 00:03:59,058
+Well, there's only one event, one card that meets these criteria
+
+82
+00:03:59,058 --> 00:04:02,052
+right over here and there's 52 possible cards.
+
+83
+00:04:02,052 --> 00:04:05,559
+So there's a 1 in 52 chance that I pick the jack of hearts
+
+84
+00:04:05,575 --> 00:04:08,736
+something that is both a jack and it's a heart.
+
+85
+00:04:08,903 --> 00:04:11,953
+Now let's do something a little more interesting.
+
+86
+00:04:11,953 --> 00:04:15,077
+What is the probability, you may want to pause this and think
+
+87
+00:04:15,077 --> 00:04:18,010
+about this a little bit before I give you the answer, what is the
+
+88
+00:04:18,010 --> 00:04:22,044
+probability of, so I once again have a deck of 52 cards, I shuffle it
+
+89
+00:04:22,044 --> 00:04:25,052
+randomly pick a card from that deck, what is the probability that
+
+90
+00:04:25,052 --> 00:04:31,023
+that card I picked from that deck is jack or a heart?
+
+91
+00:04:31,023 --> 00:04:35,061
+So it could be the jack of hearts or it could be the jack of diamonds
+
+92
+00:04:35,061 --> 00:04:38,081
+or could be the jack of spades or it could be the queen of hearts
+
+93
+00:04:38,081 --> 00:04:41,036
+or it could be two of hearts. So what is the probability of this?
+
+94
+00:04:41,036 --> 00:04:44,041
+And this is a little bit more of an interesting thing, because it's
+
+95
+00:04:44,041 --> 00:04:50,022
+we know first of all that there are 52 possibilities
+
+96
+00:04:50,022 --> 00:04:53,043
+but how many of those possibilities meet the criteria
+
+97
+00:04:53,043 --> 00:04:56,072
+meet these conditions, that it is a jack or a heart.
+
+98
+00:04:56,072 --> 00:05:00,000
+And to understand that I'll draw a Venn diagram.
+
+99
+00:05:00,000 --> 00:05:02,066
+Sounds kind of fancy, but nothing fancy here.
+
+100
+00:05:02,066 --> 00:05:05,045
+So imagine that this rectangle I'm drawing here represents
+
+101
+00:05:05,045 --> 00:05:08,072
+all of the outcomes. So if you want you can imagine it has
+
+102
+00:05:08,072 --> 00:05:14,011
+area of 52. So this is 52 possible outcomes, now how many of
+
+103
+00:05:14,011 --> 00:05:16,556
+those outcomes result in a jack?
+
+104
+00:05:16,556 --> 00:05:19,311
+So we already learned this, one out of thirteen of those outcomes
+
+105
+00:05:19,311 --> 00:05:24,893
+result in a jack. So I can draw a little circle here with that area
+
+106
+00:05:24,893 --> 00:05:26,541
+and I'm approximating
+
+107
+00:05:26,541 --> 00:05:28,091
+that represents the probability of a jack.
+
+108
+00:05:28,091 --> 00:05:32,061
+So that should be roughly 1/13 or 4/52 of this area
+
+109
+00:05:32,061 --> 00:05:37,030
+right over here. So I'll just draw it like this. So this right over here
+
+110
+00:05:37,030 --> 00:05:45,025
+is probability of a jack. It is four, there's four possible
+
+111
+00:05:45,025 --> 00:05:53,090
+cards out of the fifty two. So that's 4/52 or 1/13.
+
+112
+00:05:53,090 --> 00:05:56,047
+Now what's the probability of getting a hearts?
+
+113
+00:05:56,047 --> 00:05:59,056
+Well, I'll draw another circle here, that represents that.
+
+114
+00:05:59,056 --> 00:06:03,054
+13 out of 52, 13 out of these 52 cards represent a heart.
+
+115
+00:06:03,054 --> 00:06:07,011
+And actually one of them represents both a heart and a jack.
+
+116
+00:06:07,011 --> 00:06:10,728
+So I'll actually overlap them and hopefully this will make sense
+
+117
+00:06:10,728 --> 00:06:12,808
+in a second.
+
+118
+00:06:12,808 --> 00:06:17,093
+So there's actually thirteen cards that are heart.
+
+119
+00:06:17,093 --> 00:06:21,087
+So this is the number of hearts.
+
+120
+00:06:21,087 --> 00:06:24,094
+And actually let me right that top thing that way as well.
+
+121
+00:06:24,094 --> 00:06:29,017
+It makes it a little bit clear, we were actually looking at -- clear that
+
+122
+00:06:29,017 --> 00:06:39,002
+-- so the number of jacks. And of course this overlap
+
+123
+00:06:39,002 --> 00:06:42,056
+right here is the number of jacks and hearts. The number
+
+124
+00:06:42,063 --> 00:06:45,041
+of items out of this 52 that are both a jack and a heart.
+
+125
+00:06:45,041 --> 00:06:49,013
+It is in both sets here it is in this green circle and it is in
+
+126
+00:06:49,013 --> 00:06:53,062
+this orange circle. So this right over here I'm going to do that in yellow
+
+127
+00:06:53,062 --> 00:06:55,096
+since I did that problem in yellow.
+
+128
+00:06:55,096 --> 00:06:58,038
+This right over here is a number of jack and hearts
+
+129
+00:06:58,038 --> 00:07:01,065
+so let me draw a little arrow there. It's getting a little cluttered
+
+130
+00:07:01,065 --> 00:07:03,081
+I've actually should've drawn it little bit bigger.
+
+131
+00:07:03,081 --> 00:07:10,060
+The number of jacks and hearts.
+
+132
+00:07:10,060 --> 00:07:13,448
+And that's an overlap over there, so what's the probability
+
+133
+00:07:13,448 --> 00:07:15,074
+of getting a jack or a heart?
+
+134
+00:07:15,074 --> 00:07:19,071
+So if you think about it the probability is going to be the number of
+
+135
+00:07:19,071 --> 00:07:23,043
+events that meet this conditions over the total number of events.
+
+136
+00:07:23,043 --> 00:07:25,004
+Yeah, we already know the total number of events are 52.
+
+137
+00:07:25,004 --> 00:07:26,083
+But how many meet this conditions?
+
+138
+00:07:26,083 --> 00:07:29,044
+So it's going to be the number, it's going to be
+
+139
+00:07:29,044 --> 00:07:32,045
+you could say: well look, the green circle right there says the number
+
+140
+00:07:32,045 --> 00:07:36,003
+that gives us the jack and the orange circle tells us the number
+
+141
+00:07:36,003 --> 00:07:38,049
+that gives us a heart. So you might wanna say
+
+142
+00:07:38,049 --> 00:07:43,000
+well, why don't we add up the green and the orange,
+
+143
+00:07:43,000 --> 00:07:45,085
+but if you did that you'd be double-counting.
+
+144
+00:07:45,085 --> 00:07:51,000
+Cause if you add it up, if just did four plus thirteen
+
+145
+00:07:51,000 --> 00:07:52,070
+what are we saying?
+
+146
+00:07:52,070 --> 00:07:57,039
+We're saying that there are four jacks and we're saying
+
+147
+00:07:57,039 --> 00:08:00,010
+that there thirteen hearts.
+
+148
+00:08:00,010 --> 00:08:03,077
+But in both of these we're, in both when we're doing it this way
+
+149
+00:08:03,077 --> 00:08:06,042
+in both cases we're counting the jack of hearts.
+
+150
+00:08:06,042 --> 00:08:09,043
+We're putting jack of hearts here and we're putting a jack of hearts here
+
+151
+00:08:09,043 --> 00:08:12,023
+So we're counting jack of hearts twice, even though there's only
+
+152
+00:08:12,023 --> 00:08:17,008
+one card there. So you'd have to subtract out where they're common.
+
+153
+00:08:17,008 --> 00:08:22,016
+You'd have to subtract out the item that is both the jack
+
+154
+00:08:22,016 --> 00:08:23,056
+and a heart.
+
+155
+00:08:23,056 --> 00:08:25,017
+So you'd subtract out a one.
+
+156
+00:08:25,017 --> 00:08:26,075
+Another way to think about it is
+
+157
+00:08:26,075 --> 00:08:33,865
+You really want to figure out the total area here.
+
+158
+00:08:33,865 --> 00:08:36,060
+Let me zoom in. I'll generalize it a little bit.
+
+159
+00:08:36,060 --> 00:08:38,076
+So if you have one circle like that and then you have another
+
+160
+00:08:38,076 --> 00:08:42,492
+overlapping circle like that. And you want to figure the total area
+
+161
+00:08:42,492 --> 00:08:46,069
+of both of the circles combined. You'll look at the area
+
+162
+00:08:46,069 --> 00:08:53,011
+of this circle and then you could add it to the area of this circle.
+
+163
+00:08:53,011 --> 00:08:56,693
+But when you do that, you'll see that when you add the two areas
+
+164
+00:08:56,693 --> 00:08:59,016
+you're counting this area twice.
+
+165
+00:08:59,016 --> 00:09:02,029
+So in order to only count that area once, you have to subtract
+
+166
+00:09:02,029 --> 00:09:04,045
+that area from the sum.
+
+167
+00:09:04,045 --> 00:09:09,095
+So if this area, if this is, if this area has A, this area is B
+
+168
+00:09:09,095 --> 00:09:15,025
+And the intersection, where they overlap is C
+
+169
+00:09:15,025 --> 00:09:22,042
+the combined area is going to be A plus B minus where they overlap
+
+170
+00:09:22,042 --> 00:09:24,002
+minus C.
+
+171
+00:09:24,002 --> 00:09:25,073
+So that's the same thing over here.
+
+172
+00:09:25,073 --> 00:09:28,008
+We're counting all the jacks and that includes the jack of hearts
+
+173
+00:09:28,008 --> 00:09:31,012
+we're counting all the hearts and that includes the jack of hearts.
+
+174
+00:09:31,012 --> 00:09:35,015
+So we counted the jack of hearts twice, so we have to subtract one out of that.
+
+175
+00:09:35,015 --> 00:09:37,663
+So it's going to be four plus thirteen minus one.
+
+176
+00:09:37,663 --> 00:09:46,015
+Or this is going to be 16/52. And both of those things are divisible
+
+177
+00:09:46,015 --> 00:09:48,028
+by four.
+
+178
+00:09:48,028 --> 00:09:50,049
+So this is going to be the same thing as
+
+179
+00:09:50,049 --> 00:09:54,028
+if I divided sixteen by four you get four, fifty two divided by four
+
+180
+00:09:54,028 --> 00:09:55,079
+is thirteen.
+
+181
+00:09:55,079 --> 00:10:01,477
+So this is, there's 4/13 chance that you get a jack or a hearts.

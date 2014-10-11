@@ -1,0 +1,435 @@
+1
+00:00:00,000 --> 00:00:07,010
+We are told that triangle ABC has perimeter p and inradius r
+
+2
+00:00:07,140 --> 00:00:11,640
+and then they want us to find the area of ABC in terms of p and r
+
+3
+00:00:11,720 --> 00:00:15,080
+so we know that perimeters are just the sum of the sides of the triangle
+
+4
+00:00:15,200 --> 00:00:18,270
+or how long of length will have to be if you wanna to go around the triangle
+
+5
+00:00:18,430 --> 00:00:21,170
+and let's just remind ourselves what the inradius is
+
+6
+00:00:21,290 --> 00:00:26,940
+if we take the angle bisectors of each of these vertexes
+
+7
+00:00:27,050 --> 00:00:28,700
+each of these angles right over here
+
+8
+00:00:28,840 --> 00:00:31,140
+so bisectors that right over there
+
+9
+00:00:31,250 --> 00:00:33,330
+and then bisector that right over there
+
+10
+00:00:33,460 --> 00:00:35,840
+this angle is going to be equal to that angle
+
+11
+00:00:35,950 --> 00:00:38,590
+this angle is going to be equal to that angle
+
+12
+00:00:38,710 --> 00:00:42,310
+and then this angle is going to be equal to that angle there
+
+13
+00:00:42,430 --> 00:00:47,030
+and the point where those angle bisectors intersect
+
+14
+00:00:47,130 --> 00:00:50,050
+that right over there is our incenter
+
+15
+00:00:50,150 --> 00:00:53,210
+and it is equal distant from all of the three sides
+
+16
+00:00:53,320 --> 00:00:57,280
+and the distance from those sides that's the inradius
+
+17
+00:00:57,400 --> 00:00:59,460
+so let me draw the inradius
+
+18
+00:00:59,570 --> 00:01:01,250
+so when you find the distance between the point and the line
+
+19
+00:01:01,360 --> 00:01:02,530
+you wanna drop a perpendicular
+
+20
+00:01:02,640 --> 00:01:05,170
+so this length right over here is the inradius
+
+21
+00:01:05,300 --> 00:01:08,440
+this length right over here is the inradius
+
+22
+00:01:08,560 --> 00:01:11,920
+and this length right over here is the inradius
+
+23
+00:01:12,050 --> 00:01:16,910
+and if you want you could draw a incircle here with the center at the incenter
+
+24
+00:01:17,030 --> 00:01:20,690
+and with the radius r and that circle would look something like this
+
+25
+00:01:20,820 --> 00:01:23,180
+we don't have to actually draw for this problem
+
+26
+00:01:23,320 --> 00:01:25,400
+so you could draw a circle that looks something like that
+
+27
+00:01:25,520 --> 00:01:27,890
+then we call that the incircle
+
+28
+00:01:28,010 --> 00:01:30,400
+so let's think about how we can find the area here
+
+29
+00:01:30,520 --> 00:01:32,840
+especially in terms of this inradius
+
+30
+00:01:32,970 --> 00:01:36,500
+well the cool thing about the inradius is this it looks like the altitude
+
+31
+00:01:36,650 --> 00:01:39,370
+well this looks like the altitude for this triangle right over here
+
+32
+00:01:39,480 --> 00:01:44,570
+triangle A let's label the center let's call it I for incenter
+
+33
+00:01:44,780 --> 00:01:49,410
+so r is this r right over here is the altitude of triangle AIC
+
+34
+00:01:49,520 --> 00:01:52,770
+this r is the altitude of triangle BIC
+
+35
+00:01:52,890 --> 00:01:54,860
+and this r which we didn't label
+
+36
+00:01:54,980 --> 00:01:59,240
+that r right over there is the altitude of triangle AIB
+
+37
+00:01:59,350 --> 00:02:04,670
+and so we could find the area of each of those triangles in terms of both r and their basis
+
+38
+00:02:04,780 --> 00:02:08,140
+maybe if we sum up the area of all the triangles
+
+39
+00:02:08,280 --> 00:02:11,310
+we can get something in terms of our perimeter and our inradius
+
+40
+00:02:11,400 --> 00:02:12,990
+so let's just try to do this
+
+41
+00:02:13,120 --> 00:02:18,880
+so the area of the entire triangle the area of ABC is going to be equal to
+
+42
+00:02:18,990 --> 00:02:19,920
+and I will color code this
+
+43
+00:02:20,030 --> 00:02:24,160
+this is going to be equal to the area of AIC
+
+44
+00:02:24,280 --> 00:02:32,960
+so that's what I am shading here in magenta is going to be euqal to the area of AIC
+
+45
+00:02:33,070 --> 00:02:38,520
+plus the area of BIC which is this triangle right over here
+
+46
+00:02:38,640 --> 00:02:42,040
+I will show you that in a different color I have already used blue
+
+47
+00:02:42,160 --> 00:02:44,530
+so let me do that in orange
+
+48
+00:02:44,680 --> 00:02:51,700
+plus the area of BIC so that's this area right over here
+
+49
+00:02:51,820 --> 00:02:57,410
+so plus the area of BIC and then finally plus the area
+
+50
+00:02:57,530 --> 00:03:02,510
+I will do this in let's see I will use this pink color
+
+51
+00:03:02,640 --> 00:03:11,560
+plus the area of AIB that is the area AIB
+
+52
+00:03:11,690 --> 00:03:13,290
+take the sum of the areas of these three triangles
+
+53
+00:03:13,430 --> 00:03:15,540
+you've got the area of the larger triangle
+
+54
+00:03:15,670 --> 00:03:21,720
+Now AIC the area of AIC is going to be equal to one half base times height
+
+55
+00:03:21,840 --> 00:03:27,480
+so this is going to be one half the basis of the length of AC one half AC
+
+56
+00:03:27,600 --> 00:03:30,000
+times the height times this altitude right over here
+
+57
+00:03:30,110 --> 00:03:32,520
+which is just going to be r times r
+
+58
+00:03:32,630 --> 00:03:34,380
+that's the area of AIC
+
+59
+00:03:34,530 --> 00:03:43,000
+and then the area of BIC is going to be one half the base which is BC
+
+60
+00:03:43,110 --> 00:03:45,650
+times a height which is r
+
+61
+00:03:45,770 --> 00:03:49,960
+and then plus the area of AIB this one right over here is going to be
+
+62
+00:03:50,060 --> 00:03:54,430
+one half the base which is the length of the side AB
+
+63
+00:03:54,560 --> 00:04:00,200
+AB times a height which is oneeagain r
+
+64
+00:04:00,350 --> 00:04:03,900
+and over here we can fetch out one half r for all of these terms
+
+65
+00:04:04,020 --> 00:04:16,410
+and you get one half r times AC plus BC plus AB
+
+66
+00:04:16,500 --> 00:04:17,990
+and I think you see where this is going
+
+67
+00:04:18,110 --> 00:04:24,720
+plus that's the different shade of pink plus AB
+
+68
+00:04:24,840 --> 00:04:33,080
+Now what is AC plus BC plus AB
+
+69
+00:04:33,190 --> 00:04:39,250
+well that's going to be the perimeter p if you just take the sum of the sides
+
+70
+00:04:39,360 --> 00:04:42,200
+that is the perimeter of p and it looks like we are done
+
+71
+00:04:42,320 --> 00:04:53,790
+the area of our triangle of ABC is equal to one half times r times the perimeter
+
+72
+00:04:53,900 --> 00:04:54,770
+which is kind of a neat result
+
+73
+00:04:54,880 --> 00:04:59,950
+one half times the inradius times the perimeter of the triangle
+
+74
+00:05:00,060 --> 00:05:04,530
+or sometimes we will see it written like this is equal to r times p over s
+
+75
+00:05:04,640 --> 00:05:07,750
+oh sorry p over 2
+
+76
+00:05:07,850 --> 00:05:10,250
+and this term right over here the perimeter divided by 2
+
+77
+00:05:10,370 --> 00:05:19,370
+is sometimes called semi perimeter and sometimes it is denoted by s
+
+78
+00:05:19,490 --> 00:05:22,740
+so sometimes you will see the area is equal to r times s
+
+79
+00:05:22,850 --> 00:05:27,270
+where s is the semi perimeter it's the perimeter divided by 2
+
+80
+00:05:27,390 --> 00:05:29,020
+I firstly like this way a little bit more
+
+81
+00:05:29,120 --> 00:05:31,360
+because I remember that p is the perimeter
+
+82
+00:05:31,460 --> 00:05:34,820
+this is useful because obviously now if someone gives you inradius and a perimeter
+
+83
+00:05:34,930 --> 00:05:36,760
+you can figure out the area of a triangle
+
+84
+00:05:36,880 --> 00:05:39,570
+or someone gives you the area of the triangle and the perimeter
+
+85
+00:05:39,680 --> 00:05:40,810
+you can get the inradius of it
+
+86
+00:05:40,930 --> 00:05:44,130
+if given any two of these variables you can always get the third
+
+87
+00:05:44,260 --> 00:05:47,810
+so for example if someone if this was a triangle right over here
+
+88
+00:05:47,920 --> 00:05:50,890
+which is the most famous of the right triangles
+
+89
+00:05:51,030 --> 00:05:55,480
+if I have a triangle that has length 3 4 and 5
+
+90
+00:05:55,600 --> 00:05:56,610
+we know this is a right triangle
+
+91
+00:05:56,700 --> 00:05:59,130
+you can verify this from the pythagorean theorem
+
+92
+00:05:59,250 --> 00:06:03,460
+and someone says what is the inradius of this triangle right over here
+
+93
+00:06:03,570 --> 00:06:05,670
+well we can figure out the area pretty easily
+
+94
+00:06:05,790 --> 00:06:10,020
+we know that this is a right triangle 3 squared plus 4 squared is equal to 5 squared
+
+95
+00:06:10,140 --> 00:06:16,490
+so the area is going to be equal to 3 times 4 times one half
+
+96
+00:06:16,610 --> 00:06:18,870
+so 3 times 4 times one half is 6
+
+97
+00:06:18,990 --> 00:06:26,630
+and the perimeter here is going to be equal to 3 plus 4 which is 7 plus 5 is 12
+
+98
+00:06:26,750 --> 00:06:31,910
+and so we have the area so let's write this
+
+99
+00:06:32,030 --> 00:06:37,490
+the area is equal to one half times the inradius times the perimeter
+
+100
+00:06:37,610 --> 00:06:44,720
+so here we have 12 is equal to one half times the inradius times the perimeter
+
+101
+00:06:44,840 --> 00:06:48,050
+so we have oh sorry we have 6 let me write this
+
+102
+00:06:48,150 --> 00:06:55,140
+the area 6 6 is equal to one half times the inradius times 12
+
+103
+00:06:55,260 --> 00:06:58,110
+and so in this situation one half times 12 is 6
+
+104
+00:06:58,220 --> 00:07:03,620
+6 is equal to 6r divide both sides by 6 you get r is equal to 1
+
+105
+00:07:03,740 --> 00:07:08,210
+so if you want to draw the inradius for this one which is kind of a neat result
+
+106
+00:07:08,340 --> 00:07:13,890
+so let me draw some angle bisectors here
+
+107
+00:07:14,030 --> 00:07:17,810
+this 3-4-5 right triangle has inradius of 1
+
+108
+00:07:17,920 --> 00:07:21,010
+so this distance equals this distance which is equal to this distance
+
+109
+00:07:21,120 --> 00:07:27,210
+which is equal to 1 just kind of a neat result

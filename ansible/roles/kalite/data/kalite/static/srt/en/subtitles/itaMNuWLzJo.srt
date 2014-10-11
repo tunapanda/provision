@@ -1,0 +1,463 @@
+1
+00:00:10,588 --> 00:00:12,788
+When we observe the physical world,
+
+2
+00:00:12,788 --> 00:00:15,528
+we find random fluctuations everywhere.
+
+3
+00:00:21,990 --> 00:00:24,717
+We can generate truly random numbers
+
+4
+00:00:24,717 --> 00:00:28,327
+by measuring random fluctuations known as noise.
+
+5
+00:00:28,635 --> 00:00:31,932
+When we measure this noise, known as sampling,
+
+6
+00:00:31,932 --> 00:00:33,866
+we can obtain numbers.
+
+7
+00:00:35,558 --> 00:00:36,869
+For example,
+
+8
+00:00:36,869 --> 00:00:40,644
+if we measure the electric current of TV static over time,
+
+9
+00:00:40,644 --> 00:00:43,422
+we'll generate a truly random sequence.
+
+10
+00:00:45,760 --> 00:00:48,002
+We can visualize this random sequence
+
+11
+00:00:48,002 --> 00:00:50,747
+by drawing a path that changes direction
+
+12
+00:00:50,747 --> 00:00:52,261
+according to each number,
+
+13
+00:00:52,261 --> 00:00:53,949
+known as a random walk.
+
+14
+00:00:54,903 --> 00:00:57,879
+Notice the lack of pattern at all scales,
+
+15
+00:00:57,879 --> 00:00:59,188
+at each point in the sequence,
+
+16
+00:00:59,188 --> 00:01:04,135
+the next move is always unpredictable.
+
+17
+00:01:04,135 --> 00:01:07,812
+Random processes are said to be nondeterministic,
+
+18
+00:01:07,812 --> 00:01:11,129
+since they're impossible to determine in advance.
+
+19
+00:01:11,744 --> 00:01:14,610
+Machines, on the other hand, are deterministic.
+
+20
+00:01:14,610 --> 00:01:18,248
+Their operation is predictable and repeatable.
+
+21
+00:01:18,248 --> 00:01:21,314
+In 1946, John von Neumann was involved
+
+22
+00:01:21,314 --> 00:01:23,946
+in running computations for the military,
+
+23
+00:01:23,946 --> 00:01:27,030
+specifically involved in the design of the hydrogen bomb.
+
+24
+00:01:28,907 --> 00:01:30,998
+Using a computer called the ENIAC,
+
+25
+00:01:30,998 --> 00:01:33,036
+he planned to repeatedly calculate
+
+26
+00:01:33,036 --> 00:01:36,914
+the approximations of the processes involved in nuclear fusion.
+
+27
+00:01:36,914 --> 00:01:39,296
+However, this required quick access
+
+28
+00:01:39,296 --> 00:01:41,093
+to randomly generated numbers
+
+29
+00:01:41,093 --> 00:01:43,706
+that could be repeated, if needed.
+
+30
+00:01:43,706 --> 00:01:46,379
+However, the ENIAC had very limited internal memory,
+
+31
+00:01:46,379 --> 00:01:50,153
+storing long random sequences was not possible.
+
+32
+00:01:50,153 --> 00:01:52,476
+So, Neumann developed an algorithm
+
+33
+00:01:52,476 --> 00:01:54,541
+to mechanically simulate
+
+34
+00:01:54,541 --> 00:01:58,260
+the scrambling aspect of randomness as follows:
+
+35
+00:01:58,260 --> 00:02:01,986
+First, select a truly random number called the seed,
+
+36
+00:02:01,986 --> 00:02:04,369
+this number can come from the measurement of noise,
+
+37
+00:02:04,369 --> 00:02:07,232
+or the current time in milliseconds.
+
+38
+00:02:07,232 --> 00:02:11,544
+Next, the seed is provided as input to a simple calculation.
+
+39
+00:02:11,544 --> 00:02:14,513
+Multiply the seed by itself,
+
+40
+00:02:14,513 --> 00:02:18,013
+and then output the middle of this result.
+
+41
+00:02:18,013 --> 00:02:20,892
+Then, you use the output as the next seed,
+
+42
+00:02:20,892 --> 00:02:24,264
+and repeat the process as many times as needed.
+
+43
+00:02:26,295 --> 00:02:28,894
+This is known as the middle-square's method,
+
+44
+00:02:28,894 --> 00:02:31,696
+and it's just the first in the long line of
+
+45
+00:02:31,696 --> 00:02:34,204
+pseudorandom number generators.
+
+46
+00:02:34,204 --> 00:02:35,992
+The randomness of the sequence is dependent
+
+47
+00:02:35,992 --> 00:02:39,498
+on the randomness of the initial seed only.
+
+48
+00:02:39,498 --> 00:02:41,636
+Same seed, same sequence.
+
+49
+00:02:41,636 --> 00:02:45,635
+So what're the differences between a randomly generated
+
+50
+00:02:45,635 --> 00:02:48,202
+versus the pseudorandomly generated sequence.
+
+51
+00:02:51,264 --> 00:02:54,605
+Let's represent each sequence as random walk.
+
+52
+00:02:58,051 --> 00:03:01,675
+They seem similar, until we speed things up.
+
+53
+00:03:02,918 --> 00:03:06,420
+The pseudorandom sequence must eventually repeat.
+
+54
+00:03:06,420 --> 00:03:09,684
+This occurs when the algorithm reaches a seed
+
+55
+00:03:09,684 --> 00:03:11,263
+it has previously used,
+
+56
+00:03:11,263 --> 00:03:13,019
+and the cycle repeats.
+
+57
+00:03:13,019 --> 00:03:16,697
+The length before pseudorandom sequence repeats
+
+58
+00:03:16,697 --> 00:03:18,990
+is called the period.
+
+59
+00:03:18,990 --> 00:03:24,505
+The period is strictly limited by the length of the initial seed.
+
+60
+00:03:24,505 --> 00:03:26,990
+For example, if we use a 2-digit seed,
+
+61
+00:03:26,990 --> 00:03:31,008
+then an algorithm can produce at most 100 numbers
+
+62
+00:03:31,008 --> 00:03:35,390
+before reusing a seed, and repeating the cycle.
+
+63
+00:03:35,390 --> 00:03:39,220
+A 3-digit seed can expand pass a thousand numbers
+
+64
+00:03:39,220 --> 00:03:41,309
+before repeating its cycle.
+
+65
+00:03:41,309 --> 00:03:45,312
+And a 4-digit seed can expand pass 10,000 numbers
+
+66
+00:03:45,362 --> 00:03:46,935
+before repeating.
+
+67
+00:03:46,935 --> 00:03:49,337
+Though, if we use a seed large enough,
+
+68
+00:03:49,337 --> 00:03:53,984
+the sequence can expand into trillions and trillions of digits
+
+69
+00:03:53,984 --> 00:03:56,704
+before repeating.
+
+70
+00:03:56,704 --> 00:03:59,955
+Though the key difference is important,
+
+71
+00:03:59,955 --> 00:04:02,026
+when you generate numbers pseudorandomly,
+
+72
+00:04:02,026 --> 00:04:05,841
+there're many sequences which cannot occur.
+
+73
+00:04:05,841 --> 00:04:07,339
+For example,
+
+74
+00:04:07,339 --> 00:04:11,844
+if Alice generates a truly random sequence of 20 shifts,
+
+75
+00:04:11,844 --> 00:04:14,504
+it's equivalent to a uniform selection
+
+76
+00:04:14,504 --> 00:04:17,883
+from the stack of all possible sequences of shifts.
+
+77
+00:04:17,883 --> 00:04:22,179
+This stack contains 26 to the power of 20 pages,
+
+78
+00:04:22,179 --> 00:04:24,639
+which is astronomical in size.
+
+79
+00:04:24,639 --> 00:04:27,390
+If we stood at the bottom, and shined the light upwards,
+
+80
+00:04:27,390 --> 00:04:30,395
+a person at the top would not see the light
+
+81
+00:04:30,395 --> 00:04:33,356
+for around 200 million years.
+
+82
+00:04:33,356 --> 00:04:37,943
+Compare this to Alice generating a 20-digit pseudorandom sequence
+
+83
+00:04:37,943 --> 00:04:40,961
+using a 4-digit random seed.
+
+84
+00:04:40,961 --> 00:04:44,143
+Now this is equivalent to a uniform selection
+
+85
+00:04:44,143 --> 00:04:48,136
+from 10,000 possible initial seeds,
+
+86
+00:04:48,136 --> 00:04:52,740
+meaning she can only generate 10,000 different sequences,
+
+87
+00:04:52,740 --> 00:04:57,122
+which is a vanishingly small fraction of all possible sequences.
+
+88
+00:04:57,122 --> 00:05:00,873
+When we move from random to pseudorandom shifts,
+
+89
+00:05:00,873 --> 00:05:06,224
+we shrink the key space into a much, much smaller seed space.
+
+90
+00:05:06,224 --> 00:05:09,220
+So for a pseudorandom sequence to be
+
+91
+00:05:09,220 --> 00:05:12,982
+indistinguishable from a randomly generated sequence,
+
+92
+00:05:12,982 --> 00:05:15,699
+it must be impractical for a computer
+
+93
+00:05:15,699 --> 00:05:19,194
+to try all seeds and look for a match.
+
+94
+00:05:19,194 --> 00:05:22,807
+This leads to an important distinction in computer science
+
+95
+00:05:22,807 --> 00:05:25,264
+between what's possible versus
+
+96
+00:05:25,414 --> 00:05:29,246
+what's possible in a reasonable amount of time.
+
+97
+00:05:29,296 --> 00:05:32,189
+We use the same logic when we buy a bike lock.
+
+98
+00:05:32,189 --> 00:05:36,002
+We know that anybody can simply try all possible combinations
+
+99
+00:05:36,002 --> 00:05:38,421
+until they find a match and it opens.
+
+100
+00:05:38,421 --> 00:05:40,706
+But it would take them days to do so.
+
+101
+00:05:40,706 --> 00:05:45,348
+So for 8 hours, we assume it's practically safe.
+
+102
+00:05:46,502 --> 00:05:48,833
+With pseudorandom generators,
+
+103
+00:05:48,833 --> 00:05:54,078
+the security increases as the length of the seed increases.
+
+104
+00:05:54,078 --> 00:05:56,450
+If the most powerful computer
+
+105
+00:05:56,450 --> 00:06:00,443
+would take hundreds of years to run through all seeds,
+
+106
+00:06:00,443 --> 00:06:04,425
+then we safely can assume it's practically secure,
+
+107
+00:06:04,425 --> 00:06:06,515
+instead of perfectly secure.
+
+108
+00:06:08,069 --> 00:06:09,744
+As computers get faster,
+
+109
+00:06:09,744 --> 00:06:13,874
+the seed size must increase accordingly.
+
+110
+00:06:13,874 --> 00:06:17,664
+Pseudorandomness frees Alice and Bob from having to
+
+111
+00:06:17,664 --> 00:06:22,064
+share their entire random shift sequences in advance.
+
+112
+00:06:22,064 --> 00:06:25,516
+Instead, they shared relatively short random seed,
+
+113
+00:06:25,516 --> 00:06:29,055
+and expand it into the same random-looking sequence
+
+114
+00:06:29,055 --> 00:06:31,683
+when needed.
+
+115
+00:06:31,683 --> 00:06:32,893
+But, what happens
+
+116
+00:06:32,893 --> 00:06:39,461
+if they can never meet to share this random seed？

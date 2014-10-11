@@ -1,0 +1,803 @@
+1
+00:00:00,551 --> 00:00:03,607
+PROBLEM: "Express the rational number 19/27
+
+2
+00:00:03,607 --> 00:00:06,538
+(or 19 27ths) as a terminating decimal
+
+3
+00:00:06,538 --> 00:00:08,666
+or a decimal that eventually repeats.
+
+4
+00:00:08,666 --> 00:00:10,371
+Include only the first six digits
+
+5
+00:00:10,371 --> 00:00:12,651
+of the decimal in your answer."
+
+6
+00:00:12,651 --> 00:00:14,599
+Let me give this a shot.
+
+7
+00:00:14,599 --> 00:00:18,791
+So we want to express 19/27 –
+
+8
+00:00:18,791 --> 00:00:23,654
+which is the same thing as 19 ÷ 27 – as a decimal.
+
+9
+00:00:23,654 --> 00:00:26,349
+So let's divide 27 into 19.
+
+10
+00:00:26,349 --> 00:00:29,485
+So 27 going into 19.
+
+11
+00:00:29,485 --> 00:00:31,264
+And we know it's going to involve some decimals
+
+12
+00:00:31,264 --> 00:00:33,707
+over here, because 27 is larger than 19,
+
+13
+00:00:33,707 --> 00:00:36,291
+and it doesn't divide perfectly.
+
+14
+00:00:36,291 --> 00:00:38,131
+So let's get into this.
+
+15
+00:00:38,131 --> 00:00:39,305
+So 27 doesn't go into 1.
+
+16
+00:00:39,305 --> 00:00:40,923
+It doesn't go into 19.
+
+17
+00:00:40,923 --> 00:00:43,994
+It does go into 190.
+
+18
+00:00:43,994 --> 00:00:47,224
+And it looks like 27 is roughly 30.
+
+19
+00:00:47,224 --> 00:00:48,794
+It's a little less than 30.
+
+20
+00:00:48,794 --> 00:00:50,430
+30 times 6 would be 180.
+
+21
+00:00:50,430 --> 00:00:53,132
+So let's go with it going 6 times.
+
+22
+00:00:53,132 --> 00:00:54,045
+Let's see if that works out.
+
+23
+00:00:54,045 --> 00:00:57,402
+Well, 6 × 7 is 42.
+
+24
+00:00:57,402 --> 00:01:01,604
+6 × 2 is 12, + 4 is 16.
+
+25
+00:01:01,604 --> 00:01:06,365
+And when we subtract, 190 - 162 is going to get us –
+
+26
+00:01:06,365 --> 00:01:08,942
+Actually, we could've had another 27 in there.
+
+27
+00:01:08,942 --> 00:01:10,716
+Because when we subtract –
+
+28
+00:01:10,716 --> 00:01:12,510
+So we get a 10 from the 10's place.
+
+29
+00:01:12,510 --> 00:01:13,966
+So that becomes 8 10's.
+
+30
+00:01:13,966 --> 00:01:15,751
+This became 28.
+
+31
+00:01:15,751 --> 00:01:17,522
+So we could have put one more 27 in there.
+
+32
+00:01:17,522 --> 00:01:19,143
+So let's do that.
+
+33
+00:01:19,143 --> 00:01:22,476
+So let's put one more 27 in there.
+
+34
+00:01:22,476 --> 00:01:24,328
+So 7 27's.
+
+35
+00:01:24,328 --> 00:01:26,923
+7 × 7 is 49.
+
+36
+00:01:26,923 --> 00:01:31,190
+7 × 2 is 14, + 4 is 18.
+
+37
+00:01:31,190 --> 00:01:33,459
+And now our remainder is 1.
+
+38
+00:01:33,459 --> 00:01:37,859
+We can bring down another 0.
+
+39
+00:01:37,859 --> 00:01:39,912
+27 goes into 10 0 times.
+
+40
+00:01:39,912 --> 00:01:42,146
+0 × 27 is 0. [Not "10," as Sal states by mistake.]
+
+41
+00:01:42,146 --> 00:01:44,102
+Subtract – we have a remainder of 10.
+
+42
+00:01:44,102 --> 00:01:46,694
+But now, we have to bring down another 0.
+
+43
+00:01:46,694 --> 00:01:51,014
+So let's bring down this 0 right over here.
+
+44
+00:01:51,014 --> 00:01:56,494
+So now, 27 goes into 100 3 times.
+
+45
+00:01:56,494 --> 00:02:05,944
+3 × 27 is 60 + 21, is 81.
+
+46
+00:02:05,944 --> 00:02:09,154
+And then we subtract: 100 - 81.
+
+47
+00:02:09,154 --> 00:02:10,436
+Well, we could take 100 from
+
+48
+00:02:10,436 --> 00:02:13,331
+the 100's place, and make it 10 10's.
+
+49
+00:02:13,331 --> 00:02:15,390
+And then we could take 1 of those 10's from
+
+50
+00:02:15,390 --> 00:02:18,139
+the 10's place and turn it into 10 1's.
+
+51
+00:02:18,139 --> 00:02:22,386
+And so 9 10's minus 8 10's is equal to 1 10.
+
+52
+00:02:22,386 --> 00:02:24,719
+And then 10 -1 is 9.
+
+53
+00:02:24,719 --> 00:02:25,616
+So it's equal to 19.
+
+54
+00:02:25,616 --> 00:02:26,291
+You probably –
+
+55
+00:02:26,291 --> 00:02:28,343
+You might have been able to do that in your head.
+
+56
+00:02:28,343 --> 00:02:29,254
+And then we have –
+
+57
+00:02:29,254 --> 00:02:30,732
+And I see something interesting here –
+
+58
+00:02:30,732 --> 00:02:33,593
+because when we bring down our next 0,
+
+59
+00:02:33,593 --> 00:02:34,899
+we see 190 again.
+
+60
+00:02:34,899 --> 00:02:36,814
+We saw 190 up here.
+
+61
+00:02:36,814 --> 00:02:38,329
+But let's just keep going.
+
+62
+00:02:38,329 --> 00:02:40,572
+So 27 goes into 190 –
+
+63
+00:02:40,572 --> 00:02:42,654
+And we already played this game.
+
+64
+00:02:42,654 --> 00:02:44,551
+It goes into it 7 times.
+
+65
+00:02:44,551 --> 00:02:48,283
+7 × 27 – we already figured out – was 189.
+
+66
+00:02:48,283 --> 00:02:49,146
+We subtracted.
+
+67
+00:02:49,146 --> 00:02:50,591
+We had a remainder of 1.
+
+68
+00:02:50,591 --> 00:02:54,013
+Then we brought down another 0.
+
+69
+00:02:54,013 --> 00:02:57,307
+We said 27 goes into 10 0 times.
+
+70
+00:02:57,307 --> 00:02:59,068
+0 × 27 is 0.
+
+71
+00:02:59,068 --> 00:03:00,261
+Subtract.
+
+72
+00:03:00,261 --> 00:03:01,641
+Then you have –
+
+73
+00:03:01,641 --> 00:03:02,945
+We still have the 10,
+
+74
+00:03:02,945 --> 00:03:07,298
+but we've got to bring down another 0.
+
+75
+00:03:07,298 --> 00:03:09,083
+So you have 27, which goes into 100 –
+
+76
+00:03:09,083 --> 00:03:10,438
+(We've already done this.)
+
+77
+00:03:10,438 --> 00:03:11,599
+–3 times.
+
+78
+00:03:11,599 --> 00:03:13,750
+So you see something happening here.
+
+79
+00:03:13,750 --> 00:03:16,671
+It's 0.703703.
+
+80
+00:03:16,671 --> 00:03:18,947
+And we're just going to keep repeating 703.
+
+81
+00:03:18,947 --> 00:03:27,218
+This is going to be equal to 0.703703703703 –
+
+82
+00:03:27,218 --> 00:03:29,718
+on and on and on forever.
+
+83
+00:03:29,718 --> 00:03:32,267
+So the notation for representing
+
+84
+00:03:32,267 --> 00:03:34,419
+a repeating decimal like this
+
+85
+00:03:34,419 --> 00:03:36,405
+is to write the numbers that repeat –
+
+86
+00:03:36,405 --> 00:03:38,547
+in this case 7, 0, and 3 –
+
+87
+00:03:38,547 --> 00:03:40,057
+and then you put a line over all of
+
+88
+00:03:40,057 --> 00:03:40,999
+the repeating decimal numbers
+
+89
+00:03:40,999 --> 00:03:41,789
+to indicate that they repeat.
+
+90
+00:03:41,789 --> 00:03:44,984
+So you put a line over the 7, the 0, and the 3,
+
+91
+00:03:44,984 --> 00:03:47,130
+which means that the 703 will keep
+
+92
+00:03:47,130 --> 00:03:49,423
+repeating on and on and on.
+
+93
+00:03:49,423 --> 00:03:52,871
+So let's actually input it into the answer box now.
+
+94
+00:03:52,871 --> 00:04:02,107
+So it's 0.703703.
+
+95
+00:04:02,107 --> 00:04:03,341
+And they tell us to include only
+
+96
+00:04:03,341 --> 00:04:05,838
+the first six digits of the decimal in your answer.
+
+97
+00:04:05,838 --> 00:04:07,636
+And they don't tell us to round or approximate –
+
+98
+00:04:07,636 --> 00:04:10,196
+because, obviously, if they said to round
+
+99
+00:04:10,196 --> 00:04:13,957
+that final sixth decimal place,
+
+100
+00:04:13,957 --> 00:04:15,017
+then you would round it up from 6 to 7,
+
+101
+00:04:15,017 --> 00:04:16,107
+because the next digit is a 7.
+
+102
+00:04:16,107 --> 00:04:17,485
+But they don't ask us to round.
+
+103
+00:04:17,485 --> 00:04:19,337
+They just say, "Include only the first six digits
+
+104
+00:04:19,337 --> 00:04:20,988
+of the decimal in your answer."
+
+105
+00:04:20,988 --> 00:04:23,135
+So that should do the trick.
+
+106
+00:04:23,135 --> 00:04:24,604
+And it did.
+
+107
+99:59:59,999 --> 99:59:59,999
+Exprese el numero racional 19/27
+
+108
+99:59:59,999 --> 99:59:59,999
+(o diecinueve veinticieteavos) en su forma decimal
+
+109
+99:59:59,999 --> 99:59:59,999
+o como un decimal que se repite indefinidamente
+
+110
+99:59:59,999 --> 99:59:59,999
+Incluyendo solamente los seis primeros digitos
+
+111
+99:59:59,999 --> 99:59:59,999
+del decimal en tu respuesta
+
+112
+99:59:59,999 --> 99:59:59,999
+Dejame dare una pista
+
+113
+99:59:59,999 --> 99:59:59,999
+Entonces queremos
+
+114
+99:59:59,999 --> 99:59:59,999
+lo cual es igual a 19 entre 27 en decimal
+
+115
+99:59:59,999 --> 99:59:59,999
+Asi que dividimos 27 entre 19
+
+116
+99:59:59,999 --> 99:59:59,999
+y Sabes que esto involucra algunos decimales
+
+117
+99:59:59,999 --> 99:59:59,999
+y no se divide perfectamente
+
+118
+99:59:59,999 --> 99:59:59,999
+Asi que veamos que pasa
+
+119
+99:59:59,999 --> 99:59:59,999
+El 27 no va a 1
+
+120
+99:59:59,999 --> 99:59:59,999
+tampoco va al 19
+
+121
+99:59:59,999 --> 99:59:59,999
+El se divide en 190
+
+122
+99:59:59,999 --> 99:59:59,999
+y vemos que el 27 en muy cercano al 30
+
+123
+99:59:59,999 --> 99:59:59,999
+Es un poco menor que 30
+
+124
+99:59:59,999 --> 99:59:59,999
+30 veces 6 seria 180
+
+125
+99:59:59,999 --> 99:59:59,999
+Asi que lo haremos 6 veces
+
+126
+99:59:59,999 --> 99:59:59,999
+Veamos si eso funciona
+
+127
+99:59:59,999 --> 99:59:59,999
+Bueno, 6 por 7 es 42
+
+128
+99:59:59,999 --> 99:59:59,999
+6 por 2 es 12
+
+129
+99:59:59,999 --> 99:59:59,999
+mas 4 es 16
+
+130
+99:59:59,999 --> 99:59:59,999
+y si restamos,
+
+131
+99:59:59,999 --> 99:59:59,999
+190-162 esto nos va a dar
+
+132
+99:59:59,999 --> 99:59:59,999
+de hecho no podemos tener 27 aqui
+
+133
+99:59:59,999 --> 99:59:59,999
+Porque cuando restamos
+
+134
+99:59:59,999 --> 99:59:59,999
+Asi que tenemos 10 del decimo lugar
+
+135
+99:59:59,999 --> 99:59:59,999
+Asi que se convierte en 8 decimos
+
+136
+99:59:59,999 --> 99:59:59,999
+Esto de convierte en 28
+
+137
+99:59:59,999 --> 99:59:59,999
+Asi que podemos tener un 27 mas aqui
+
+138
+99:59:59,999 --> 99:59:59,999
+Asi que lo haces
+
+139
+99:59:59,999 --> 99:59:59,999
+Asi que ponemos un 27 más aqui
+
+140
+99:59:59,999 --> 99:59:59,999
+Asi que 7 veinticieteavos
+
+141
+99:59:59,999 --> 99:59:59,999
+7 por 7 es 49
+
+142
+99:59:59,999 --> 99:59:59,999
+7 por 2 es 14, mas 4 es 18
+
+143
+99:59:59,999 --> 99:59:59,999
+Y ahora nuestro acarreo es 1
+
+144
+99:59:59,999 --> 99:59:59,999
+Podemos bajar otro 0
+
+145
+99:59:59,999 --> 99:59:59,999
+27 se divide entre 100 partes
+
+146
+99:59:59,999 --> 99:59:59,999
+0 por 27 es 0 (no "10", como Sal estado por error)
+
+147
+99:59:59,999 --> 99:59:59,999
+Restamos- podemos tener un acarreo de 10
+
+148
+99:59:59,999 --> 99:59:59,999
+Pero ahora tenemos que bajar otro cero
+
+149
+99:59:59,999 --> 99:59:59,999
+Asi que bajamos otro cero por aqui
+
+150
+99:59:59,999 --> 99:59:59,999
+Y ahora, 27 se vuelte 100, 3 veces
+
+151
+99:59:59,999 --> 99:59:59,999
+3 por 27 es 60
+
+152
+99:59:59,999 --> 99:59:59,999
+mas 21 es 81
+
+153
+99:59:59,999 --> 99:59:59,999
+y entonces restamos: cien menos ochenta y uno
+
+154
+99:59:59,999 --> 99:59:59,999
+Bien, podriamos tomar 100 de
+
+155
+99:59:59,999 --> 99:59:59,999
+del centecimo lugar
+
+156
+99:59:59,999 --> 99:59:59,999
+y tomamos 10 del decimo lugar
+
+157
+99:59:59,999 --> 99:59:59,999
+y entonces podriamos tomas uno de eso decimos de el decimo lugar
+
+158
+99:59:59,999 --> 99:59:59,999
+Asi que 9 decimos menos 8 decimas es igual a un decimo
+
+159
+99:59:59,999 --> 99:59:59,999
+y entonce diez menos uno es nueve
+
+160
+99:59:59,999 --> 99:59:59,999
+y eso es igual a 19
+
+161
+99:59:59,999 --> 99:59:59,999
+Probablemente seas capaza de hacerlo mentalmente
+
+162
+99:59:59,999 --> 99:59:59,999
+y entonces tenemos
+
+163
+99:59:59,999 --> 99:59:59,999
+Algo muy interesante
+
+164
+99:59:59,999 --> 99:59:59,999
+porque entonces bajamos el siguiente cero
+
+165
+99:59:59,999 --> 99:59:59,999
+y vemos el 190 otra vez
+
+166
+99:59:59,999 --> 99:59:59,999
+vemos el el 190 aqui arriba
+
+167
+99:59:59,999 --> 99:59:59,999
+Pero seguimos haciendolo
+
+168
+99:59:59,999 --> 99:59:59,999
+asi que el 27 cabe en el 190
+
+169
+99:59:59,999 --> 99:59:59,999
+y ya hemos jugado este juego
+
+170
+99:59:59,999 --> 99:59:59,999
+7 por 27 - que ya hemoss calculado, era 189
+
+171
+99:59:59,999 --> 99:59:59,999
+restamos
+
+172
+99:59:59,999 --> 99:59:59,999
+y nos sobra 1
+
+173
+99:59:59,999 --> 99:59:59,999
+Entonces bajamos otro cero
+
+174
+99:59:59,999 --> 99:59:59,999
+entonces decimos que el 27 se va a las decimas, cero veces
+
+175
+99:59:59,999 --> 99:59:59,999
+0 por 27 es cero
+
+176
+99:59:59,999 --> 99:59:59,999
+Restamos
+
+177
+99:59:59,999 --> 99:59:59,999
+Entonces tienes
+
+178
+99:59:59,999 --> 99:59:59,999
+Aun tenemos el 10
+
+179
+99:59:59,999 --> 99:59:59,999
+pero tenemos que bajar otro 0
+
+180
+99:59:59,999 --> 99:59:59,999
+Asi que si tienes 27 el cual se divide en 100
+
+181
+99:59:59,999 --> 99:59:59,999
+( ya hemos hecho esto=
+
+182
+99:59:59,999 --> 99:59:59,999
+3 veces
+
+183
+99:59:59,999 --> 99:59:59,999
+Y ves que algo esta pasando aqui
+
+184
+99:59:59,999 --> 99:59:59,999
+es 0.703703
+
+185
+99:59:59,999 --> 99:59:59,999
+Y solo estaremos repitiendo 703
+
+186
+99:59:59,999 --> 99:59:59,999
+y esto sera igual a 0.703703703703
+
+187
+99:59:59,999 --> 99:59:59,999
+y asi y asi y asi por siempre
+
+188
+99:59:59,999 --> 99:59:59,999
+Asi que la notacion para representar
+
+189
+99:59:59,999 --> 99:59:59,999
+yna repeticion decimal como esta
+
+190
+99:59:59,999 --> 99:59:59,999
+es escribier los numeros que se repiten
+
+191
+99:59:59,999 --> 99:59:59,999
+en este caso siente, cero y 3
+
+192
+99:59:59,999 --> 99:59:59,999
+y entonces pones una linea sobre toso ellos
+
+193
+99:59:59,999 --> 99:59:59,999
+los numero decimales que se repiten
+
+194
+99:59:59,999 --> 99:59:59,999
+para indicar que ellos que repiten
+
+195
+99:59:59,999 --> 99:59:59,999
+Entonce pones una line sobre el siete, el cero y el 3
+
+196
+99:59:59,999 --> 99:59:59,999
+lo cual indica que el 703 se estar
+
+197
+99:59:59,999 --> 99:59:59,999
+repitiendo una y otra vez
+
+198
+99:59:59,999 --> 99:59:59,999
+Asi que de hecho ahora los ponemos en una caja de respuesta.
+
+199
+99:59:59,999 --> 99:59:59,999
+Asi que es 0.703703.
+
+200
+99:59:59,999 --> 99:59:59,999
+y nos decicen que hay que incluir solamente
+
+201
+99:59:59,999 --> 99:59:59,999
+los primeros seis decimales en tu respuesta

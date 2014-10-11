@@ -1,0 +1,583 @@
+1
+00:00:00,380 --> 00:00:04,260
+Let's do another example where we're projecting something and it lands at a different level
+
+2
+00:00:04,300 --> 00:00:06,740
+Let's also figure out some other interesting things. We'll figure out
+
+3
+00:00:06,930 --> 00:00:09,670
+what the actual velocity vector is when it's landing
+
+4
+00:00:09,670 --> 00:00:12,300
+So both its magnitude and direction
+
+5
+00:00:12,340 --> 00:00:16,910
+Let's say we're launching something from ground level
+
+6
+00:00:17,240 --> 00:00:20,830
+and we're going to launch it at a pretty step angle over here
+
+7
+00:00:21,120 --> 00:00:39,920
+Let's say we launch it with an angle of 80 degrees
+
+8
+00:00:39,940 --> 00:00:44,860
+and it is going to be going at 30 meters per second
+
+9
+00:00:44,880 --> 00:00:48,050
+So that's the length of the vector; that's the magnitude of that vector
+
+10
+00:00:48,080 --> 00:00:50,640
+And let's say we want to make it land on this landing
+
+11
+00:00:50,650 --> 00:01:03,110
+And this landing over here has a height of 10 meters
+
+12
+00:01:03,150 --> 00:01:13,250
+So what I want to do first of all is figure out how far along the landing do I actually land?
+
+13
+00:01:13,270 --> 00:01:16,330
+And maybe I'll add some other information right here
+
+14
+00:01:16,340 --> 00:01:20,170
+From the launching point to the beginning of the landing--
+
+15
+00:01:20,170 --> 00:01:24,260
+let's say this right over here is 2 meters
+
+16
+00:01:24,280 --> 00:01:27,910
+So we just want to know how far along the landing do we land
+
+17
+00:01:27,920 --> 00:01:35,420
+So like we did before, we want to break this vector into its horizontal and vertical components
+
+18
+00:01:35,440 --> 00:01:37,210
+I'm gonna go a little bit faster in this video
+
+19
+00:01:37,210 --> 00:01:39,240
+hopefully we're getting hold of this type of thing
+
+20
+00:01:39,880 --> 00:01:46,020
+So the vertical component of our velocity
+
+21
+00:01:46,170 --> 00:01:50,900
+is going to be equal to the magnitude of our total velocity 30 m/s
+
+22
+00:02:01,540 --> 00:02:06,610
+And the horizontal component of our velocity is going to be
+
+23
+00:02:13,480 --> 00:02:19,250
+Again cosine is adjacent over hypotenuse
+
+24
+00:02:19,350 --> 00:02:23,780
+I'm gonna skipping steps. In the last two videos I go into this in a much more detail
+
+25
+00:02:23,910 --> 00:02:30,050
+So how much time do we spend in the air?
+
+26
+00:02:30,570 --> 00:02:37,940
+So once again, in the last few videos, we saw that we can look at our displacement
+
+27
+00:02:39,090 --> 00:02:43,330
+If we want to figure out time in the air, we know that displacement is equal to
+
+28
+00:02:43,550 --> 00:02:47,140
+the initial velocity times time--
+
+29
+00:02:47,500 --> 00:02:55,500
+let me write change in time, that's technically more correct
+
+30
+00:02:55,950 --> 00:03:03,070
+plus acceleration times change in time squared over two
+
+31
+00:03:03,450 --> 00:03:06,440
+Now in our situation, we know what our initial velocity is
+
+32
+00:03:06,440 --> 00:03:08,690
+We're talking about the vertical direction right over here
+
+33
+00:03:08,710 --> 00:03:10,820
+So our initial velocity is going to be this
+
+34
+00:03:10,820 --> 00:03:12,630
+We're trying to figure out how much time in the air
+
+35
+00:03:12,630 --> 00:03:14,710
+and then the vertical component determines that
+
+36
+00:03:14,730 --> 00:03:17,390
+because at some point when it hits back to the ground
+
+37
+00:03:17,390 --> 00:03:20,720
+it's not going to be traveling anymore, so that's what determines this time in the air
+
+38
+00:03:20,910 --> 00:03:25,360
+So we know the acceleration. Remember the convention when we're dealing with the
+
+39
+00:03:25,460 --> 00:03:29,350
+vertical dimension is, up is positive, down is negative
+
+40
+00:03:29,500 --> 00:03:33,530
+So this is -9.8 m/s squared
+
+41
+00:03:33,890 --> 00:03:37,430
+And then what is the total displacement that we're gonna have?
+
+42
+00:03:37,460 --> 00:03:39,430
+Well, we're starting at ground level
+
+43
+00:03:39,460 --> 00:03:41,500
+And we're just talking about the vertical, remember that
+
+44
+00:03:41,500 --> 00:03:43,960
+So our total displacement is going to be 10 m
+
+45
+00:03:43,990 --> 00:03:46,330
+So this value right here is going to be 10 m
+
+46
+00:04:09,080 --> 00:04:13,560
+Times our change in time
+
+47
+00:04:13,570 --> 00:04:31,120
+So this is -9.8 divided by 2, so it's -4.9 m/s squared, times delta t squared
+
+48
+00:04:31,150 --> 00:04:33,920
+And then we can subtract 10 from both sides and write this into a
+
+49
+00:04:33,920 --> 00:04:36,660
+traditional quadratic equation form
+
+50
+00:04:36,680 --> 00:04:55,030
+So we get -4.9 times delta t squared + 29.54 times delta t -10 is equal to zero
+
+51
+00:04:55,390 --> 00:04:58,980
+And then we can use the quadratic formula to find the roots of this
+
+52
+00:04:59,010 --> 00:05:04,210
+So the delta t's that satisfy this quadratic equation are going to be negative B
+
+53
+00:05:04,630 --> 00:05:07,780
+So -29.54
+
+54
+00:05:10,490 --> 00:05:14,030
+of 29.54 squared, B squared
+
+55
+00:05:14,640 --> 00:05:25,960
+-4 times A which is -4.9, the negative times and negative is positive, so it's +4 times +4.9
+
+56
+00:05:26,210 --> 00:05:30,000
+times--I shouldn't have jumped so fast to get rid of the negatives
+
+57
+00:05:30,000 --> 00:05:38,000
+So it's gonna be -4 times A which is -4.9, times C which is -10
+
+58
+00:05:38,000 --> 00:05:45,550
+So just A times C, -4.9 times -10
+
+59
+00:05:45,570 --> 00:05:48,900
+These two guys, their signs are gonna cancel out
+
+60
+00:05:48,940 --> 00:05:58,190
+All of that over 2A, over -4.9 times 2, so -9.8
+
+61
+00:05:58,550 --> 00:06:01,600
+And like we saw in the last video, we want a positive value for this
+
+62
+00:06:01,600 --> 00:06:04,790
+and negative time is nonsensical. That's kind of going into the past
+
+63
+00:06:05,010 --> 00:06:07,020
+So we want a positive value
+
+64
+00:06:07,050 --> 00:06:11,340
+And since we have a negative in the denominator, we want have a negative value up here
+
+65
+00:06:11,480 --> 00:06:14,900
+And if we already have a negative value here and if we subtract from that negative value
+
+66
+00:06:14,900 --> 00:06:16,700
+we'll definitely have a negative value here
+
+67
+00:06:16,740 --> 00:06:19,470
+Then you divide by a negative value. You'll get a positive value
+
+68
+00:06:19,470 --> 00:06:22,250
+So we can really focus on the subtracting the radical
+
+69
+00:06:22,560 --> 00:06:24,890
+You can try it out. If you try the positive version
+
+70
+00:06:24,890 --> 00:06:27,450
+you'll get a negative value for this entire thing
+
+71
+00:06:28,040 --> 00:06:30,600
+You can try that out after this video
+
+72
+00:06:30,600 --> 00:06:32,690
+just to verify that that will get a nonsensical answer
+
+73
+00:06:32,690 --> 00:06:35,180
+So let's use the negative right over here. So we have
+
+74
+00:06:35,420 --> 00:06:45,200
+-29.54 - square root of
+
+75
+00:06:45,220 --> 00:07:00,620
+29.54 squared -4 times (-4.9)ĄÁ(-10) which is 49, times 49
+
+76
+00:07:00,780 --> 00:07:09,360
+Actually I should add some parentheses. Okay
+
+77
+00:07:10,250 --> 00:07:14,910
+Times 49. So this right over here would give me the numerator if I evaluate this
+
+78
+00:07:15,500 --> 00:07:22,110
+We've got a negative value, and I divide that by -9.8
+
+79
+00:07:22,890 --> 00:07:31,350
+Gives me 5.67 second
+
+80
+00:07:31,500 --> 00:07:35,790
+And you can keep the units in there and make sure the dimensional analysis works
+
+81
+00:07:35,870 --> 00:07:37,550
+You'll find that it does
+
+82
+00:07:37,700 --> 00:07:47,420
+So our total time in the air is 5.67 seconds
+
+83
+00:07:47,610 --> 00:07:51,790
+Now what I want to do, the whole point of this, is to figure out
+
+84
+00:07:51,790 --> 00:07:55,200
+how far along the this landing we land
+
+85
+00:07:55,490 --> 00:07:58,890
+Well, the horizontal component of our velocity is right over here
+
+86
+00:07:59,220 --> 00:08:05,870
+We know that our displacement in the horizontal direction
+
+87
+00:08:05,890 --> 00:08:09,460
+will be our velocity in the horizontal direction--
+
+88
+00:08:09,460 --> 00:08:11,170
+it's a constant velocity
+
+89
+00:08:11,170 --> 00:08:14,050
+So it's the same thing as our average velocity in the horizontal direction
+
+90
+00:08:14,270 --> 00:08:20,100
+Times the change in time
+
+91
+00:08:33,570 --> 00:08:38,250
+I won't write the unit. This is m/s times s and it'll give us the answer in m
+
+92
+00:08:48,610 --> 00:08:52,200
+Gives us 29.53 m
+
+93
+00:08:52,650 --> 00:09:04,580
+So our total horizontal traveling displacement is 29.53 m
+
+94
+00:09:04,600 --> 00:09:11,270
+It's a vector. That is our horizontal displacement, which is 29.53 m
+
+95
+00:09:11,690 --> 00:09:15,040
+Now we've done a lot of deconstructing vectors
+
+96
+00:09:15,040 --> 00:09:17,840
+What I'm interesting in this video is to construct a vector
+
+97
+00:09:17,940 --> 00:09:21,870
+So we know our horizontal displacement; we also know our vertical displacement
+
+98
+00:09:21,890 --> 00:09:23,910
+It's positive 10 m
+
+99
+00:09:23,930 --> 00:09:25,700
+So what's our total displacement?
+
+100
+00:09:25,720 --> 00:09:27,160
+Let me write this down
+
+101
+00:09:27,180 --> 00:09:34,860
+So we have a horizontal displacement of 29.53 m
+
+102
+00:09:34,980 --> 00:09:42,330
+and we have a vertical displacement of +10 m
+
+103
+00:09:42,350 --> 00:09:48,420
+So what is our total displacement?
+
+104
+00:09:48,430 --> 00:09:51,070
+We can use the Pythagorean theorem here
+
+105
+00:09:51,090 --> 00:09:53,740
+The square of the magnitude of our total displacement is
+
+106
+00:09:53,740 --> 00:09:56,130
+going to be equal to the sum of these two squares
+
+107
+00:09:56,300 --> 00:09:59,160
+This is just the Pythagorean theorem
+
+108
+00:09:59,180 --> 00:10:06,440
+So let me write it over here. So this is the magnitude of our displacement right over here
+
+109
+00:10:06,730 --> 00:10:26,060
+The magnitude of our total displacement squared is going to be equal to 10^2 +29.53^2
+
+110
+00:10:26,080 --> 00:10:30,100
+To solve for this, we just take the square root of both sides
+
+111
+00:10:30,100 --> 00:10:34,560
+If we just take the square root of both sides
+
+112
+00:10:34,730 --> 00:10:37,990
+we will get the magnitude of our total displacement--
+
+113
+00:10:38,000 --> 00:10:40,390
+let's get the calculator out to do that
+
+114
+00:10:40,740 --> 00:10:43,730
+So the magnitude of our total displacement is
+
+115
+00:10:44,320 --> 00:10:49,370
+the square root of 10^2 is just 100 + 29--
+
+116
+00:10:49,410 --> 00:10:51,830
+I can use all this information
+
+117
+00:10:51,830 --> 00:10:58,590
+I'll use the Ans, which literally means the previous answer which is 29.53
+
+118
+00:10:58,830 --> 00:11:00,410
+squared
+
+119
+00:11:00,870 --> 00:11:09,360
+Gives us a total displacement of 31.18 m
+
+120
+00:11:09,400 --> 00:11:14,660
+Of course it's a vector. This is only the magnitude. We also need the direction
+
+121
+00:11:14,990 --> 00:11:19,640
+So one way to specify direction is to give you the angle with the horizontal
+
+122
+00:11:19,660 --> 00:11:22,120
+And let's call that angle theta
+
+123
+00:11:22,190 --> 00:11:27,410
+And once again we can use our trig functions over here
+
+124
+00:11:27,410 --> 00:11:30,190
+We can use pretty much any of the trig functions
+
+125
+00:11:30,390 --> 00:11:37,230
+But we know the opposite side is 10; we know the hypotenuse here is 31.18
+
+126
+00:11:37,250 --> 00:11:40,320
+So why not use sine? Sine is opposite over hypotenuse
+
+127
+00:11:40,510 --> 00:11:51,780
+So we know the sin of theta is going to be equal to 10/31.18
+
+128
+00:11:51,800 --> 00:11:54,200
+Or if you want solve for theta
+
+129
+00:11:54,860 --> 00:11:58,790
+you take the arcsine or the inverse sine of both sides
+
+130
+00:11:58,820 --> 00:12:12,900
+Theta is equal to the inverse sine, or arcsin of 10 / 31.18
+
+131
+00:12:12,930 --> 00:12:16,390
+Once again get the calculator out to figure out that value
+
+132
+00:12:16,400 --> 00:12:20,340
+I'll take the inverse sine--this is the same thing as arcsin
+
+133
+00:12:20,340 --> 00:12:25,080
+This says, give me the angle. When I take its sine, I get this value
+
+134
+00:12:25,350 --> 00:12:33,850
+So the inverse sine of 10 divided by our previous answer 31.18
+
+135
+00:12:33,850 --> 00:12:35,810
+is equal to--
+
+136
+00:12:36,160 --> 00:12:40,460
+This says, give me the angle whose sine is 10/31.18
+
+137
+00:12:55,300 --> 00:12:59,750
+Here we've constructed a vector. We took its vertical component and its horizontal component
+
+138
+00:12:59,850 --> 00:13:02,790
+and we're able to figure out the total vectors
+
+139
+00:13:02,900 --> 00:13:07,670
+This projectile in this situation, its total placement--just to make it clear
+
+140
+00:13:07,820 --> 00:13:15,510
+Its path will look something like this
+
+141
+00:13:15,550 --> 00:13:18,150
+And we've just calculated its total displacement
+
+142
+00:13:24,630 --> 00:13:27,660
+And I realize that when I started this problem, I asked you
+
+143
+00:13:27,720 --> 00:13:30,750
+I think I was asking, how far along the platform
+
+144
+00:13:30,940 --> 00:13:33,980
+We figured out its total horizontal displacement
+
+145
+00:13:34,130 --> 00:13:38,740
+So if you want to know how far along the platform, the platform starts 2 m to the right
+
+146
+00:13:38,890 --> 00:13:44,520
+so it's really 27.53 m along the platform is where it lands

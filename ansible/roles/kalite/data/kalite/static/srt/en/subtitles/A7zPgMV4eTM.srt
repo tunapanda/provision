@@ -1,0 +1,371 @@
+1
+00:00:00,840 --> 00:00:02,811
+So we've got two figures right over here,
+
+2
+00:00:02,811 --> 00:00:04,072
+and I want to think about
+
+3
+00:00:04,072 --> 00:00:07,545
+how much space they take up on your screen.
+
+4
+00:00:07,545 --> 00:00:13,296
+And this idea of how much space something takes up on a surface
+
+5
+00:00:13,296 --> 00:00:15,001
+is area.
+
+6
+00:00:15,001 --> 00:00:16,603
+So, right when you look at it,
+
+7
+00:00:16,603 --> 00:00:19,162
+it looks pretty clear that this purple figure
+
+8
+00:00:19,162 --> 00:00:21,672
+takes up more space on my screen
+
+9
+00:00:21,672 --> 00:00:23,341
+than this blue figure,
+
+10
+00:00:23,341 --> 00:00:25,139
+but how do we actually measure it?
+
+11
+00:00:25,139 --> 00:00:28,861
+How do we actually know how much more area
+
+12
+00:00:28,861 --> 00:00:30,631
+this purple figure takes up
+
+13
+00:00:30,631 --> 00:00:32,553
+than this blue one?
+
+14
+00:00:32,553 --> 00:00:33,922
+Well, one way to do it
+
+15
+00:00:33,922 --> 00:00:37,131
+would be to define a unit amount of area.
+
+16
+00:00:37,131 --> 00:00:41,681
+So, for example, I could create a square over here,
+
+17
+00:00:41,681 --> 00:00:44,347
+This square, whatever units we're using,
+
+18
+00:00:44,347 --> 00:00:46,213
+we could say its [area is] one unit,
+
+19
+00:00:46,213 --> 00:00:49,306
+Its width right over here is one unit,
+
+20
+00:00:49,306 --> 00:00:54,103
+and its height over here is one unit.
+
+21
+00:00:54,103 --> 00:00:59,647
+We could call this a unit square.
+
+22
+00:00:59,647 --> 00:01:03,330
+So, one way to measure the area of these figures
+
+23
+00:01:03,330 --> 00:01:08,074
+is to figure out how many unit squares I could cover this thing with
+
+24
+00:01:08,074 --> 00:01:11,553
+without overlapping and while staying in the boundaries.
+
+25
+00:01:11,553 --> 00:01:12,562
+So let's try to do that.
+
+26
+00:01:12,562 --> 00:01:13,967
+Let's try to cover each of these
+
+27
+00:01:13,967 --> 00:01:14,978
+with unit squares,
+
+28
+00:01:14,978 --> 00:01:17,968
+and then essentially, we'll have a measure of area.
+
+29
+00:01:17,968 --> 00:01:20,655
+So I'll start with this blue one.
+
+30
+00:01:20,655 --> 00:01:21,444
+So we could put
+
+31
+00:01:21,444 --> 00:01:26,038
+1, 2
+
+32
+00:01:26,038 --> 00:01:31,764
+3, 4
+
+33
+00:01:31,764 --> 00:01:33,161
+5
+
+34
+00:01:33,161 --> 00:01:35,542
+5 unit squares.
+
+35
+00:01:35,542 --> 00:01:36,919
+Let me write this down.
+
+36
+00:01:36,919 --> 00:01:38,666
+So we [have] got
+
+37
+00:01:38,666 --> 00:01:43,684
+1, 2, 3, 4, 5 unit squares --
+
+38
+00:01:43,684 --> 00:01:44,560
+and I could draw the boundary
+
+39
+00:01:44,560 --> 00:01:45,726
+between those unit squares
+
+40
+00:01:45,726 --> 00:01:47,804
+a little bit clearer --
+
+41
+00:01:47,804 --> 00:01:51,169
+so we have 5 unit squares.
+
+42
+00:01:51,169 --> 00:01:53,146
+And so we could say that this figure
+
+43
+00:01:53,146 --> 00:01:55,795
+right over here has an area -
+
+44
+00:01:55,795 --> 00:01:57,769
+the area is five.
+
+45
+00:01:57,769 --> 00:01:59,249
+We could say five unit squares,
+
+46
+00:01:59,249 --> 00:02:00,558
+but the more typical way of saying it
+
+47
+00:02:00,558 --> 00:02:07,143
+is that you have 5 square units.
+
+48
+00:02:07,143 --> 00:02:08,511
+That's the area over here.
+
+49
+00:02:08,511 --> 00:02:11,290
+Now let's do the same thing with this purple figure.
+
+50
+00:02:11,290 --> 00:02:13,888
+So with the purple figure, I could put
+
+51
+00:02:13,888 --> 00:02:20,053
+1, 2, 3
+
+52
+00:02:20,053 --> 00:02:27,140
+4, 5, 6
+
+53
+00:02:27,140 --> 00:02:35,602
+7, 8, 9,
+
+54
+00:02:35,602 --> 00:02:38,837
+10. 10 of these unit squares I can cover.
+
+55
+00:02:38,837 --> 00:02:40,018
+They're not overlapping,
+
+56
+00:02:40,018 --> 00:02:41,115
+or I'm trying pretty close
+
+57
+00:02:41,115 --> 00:02:42,273
+to not make them overlap,
+
+58
+00:02:42,273 --> 00:02:43,666
+but you see you can fit ten of them,
+
+59
+00:02:43,666 --> 00:02:45,739
+and let me draw the boundary between them,
+
+60
+00:02:45,739 --> 00:02:48,659
+so you can see a little bit clearer.
+
+61
+00:02:48,659 --> 00:02:53,794
+So, that's the boundary between my unit squares.
+
+62
+00:02:53,794 --> 00:02:56,522
+Between my unit squares.
+
+63
+00:02:56,522 --> 00:02:57,800
+So, there you go,
+
+64
+00:02:57,800 --> 00:02:59,068
+and we can count them.
+
+65
+00:02:59,068 --> 00:03:03,736
+1 , 2 , 3 , 4 , 5 , 6 , 7
+
+66
+00:03:03,736 --> 00:03:06,351
+8 , 9 , 10
+
+67
+00:03:06,351 --> 00:03:07,293
+So we could say the area --
+
+68
+00:03:07,293 --> 00:03:09,779
+and let me divide these with the black boundary too,
+
+69
+00:03:09,779 --> 00:03:12,160
+it makes things a little bit clearer than blue --
+
+70
+00:03:12,990 --> 00:03:15,651
+So the area here for the purple figure
+
+71
+00:03:15,651 --> 00:03:25,907
+we could say is equal to 10 square units.
+
+72
+00:03:25,907 --> 00:03:26,817
+So what we have here -
+
+73
+00:03:26,817 --> 00:03:28,792
+we have an idea of how much space
+
+74
+00:03:28,792 --> 00:03:32,611
+something takes up on a surface,
+
+75
+00:03:32,611 --> 00:03:33,520
+and you could eyeball it, say,
+
+76
+00:03:33,520 --> 00:03:34,589
+"Hey this takes up more space."
+
+77
+00:03:34,589 --> 00:03:36,941
+But now we've come up with a way of measuring it.
+
+78
+00:03:36,941 --> 00:03:39,504
+We can define a unit square
+
+79
+00:03:39,504 --> 00:03:41,235
+-- here it's a 1 unit by 1 unit --
+
+80
+00:03:41,235 --> 00:03:43,268
+in the future we'll see that it could be
+
+81
+00:03:43,268 --> 00:03:48,180
+a unit centimeter, a 1 centimeter by 1 centimeter square;
+
+82
+00:03:48,180 --> 00:03:50,331
+it could be a 1 meter by 1 meter square;
+
+83
+00:03:50,331 --> 00:03:53,397
+it could be a 1 foot by 1 foot square;
+
+84
+00:03:53,397 --> 00:03:54,858
+but then we can use that
+
+85
+00:03:54,858 --> 00:03:57,653
+to actually measure the area of things.
+
+86
+00:03:57,653 --> 00:04:00,273
+This thing has an area of 5 square units;
+
+87
+00:04:00,273 --> 00:04:02,403
+this thing has an area of 10 square units.
+
+88
+00:04:02,403 --> 00:04:04,141
+So this one we can actually say
+
+89
+00:04:04,141 --> 00:04:06,485
+has twice the area -
+
+90
+00:04:06,485 --> 00:04:08,961
+the purple figure had twice the area -
+
+91
+00:04:08,961 --> 00:04:10,048
+it's 10 square units -
+
+92
+00:04:10,048 --> 00:04:11,680
+as the blue figure.
+
+93
+00:04:11,680 --> 00:04:15,221
+It takes up twice the amount of space on the screen.

@@ -1,0 +1,1123 @@
+1
+99:59:59,999 --> 99:59:59,999
+PROBLEM: “The circle, x^2 + y^2 - 8x = 0,
+
+2
+99:59:59,999 --> 99:59:59,999
+and the hyperbola, (x^2/9) – (y^2/4) = 1,
+
+3
+99:59:59,999 --> 99:59:59,999
+intersect at the points a and b.”
+
+4
+99:59:59,999 --> 99:59:59,999
+In Problem 46, they tell us the equation –
+
+5
+99:59:59,999 --> 99:59:59,999
+or they want to find the equation of the circle
+
+6
+99:59:59,999 --> 99:59:59,999
+with ab as its diameter.
+
+7
+99:59:59,999 --> 99:59:59,999
+So, let’s think about –
+
+8
+99:59:59,999 --> 99:59:59,999
+Let's visualize the circle and the hyperbola.
+
+9
+99:59:59,999 --> 99:59:59,999
+The equation of the circle, x^2 + y^2 - 8x = 0 …
+
+10
+99:59:59,999 --> 99:59:59,999
+(Let me write it this way.)
+
+11
+99:59:59,999 --> 99:59:59,999
+This can be rewritten as x^2 - 8x + y^2 = 0.
+
+12
+99:59:59,999 --> 99:59:59,999
+You can add 16 to both sides.
+
+13
+99:59:59,999 --> 99:59:59,999
+And I’m doing that to complete the square for the x term.
+
+14
+99:59:59,999 --> 99:59:59,999
+So plus 16/
+
+15
+99:59:59,999 --> 99:59:59,999
+This over here becomes (x-4)^2 + y^2 = 16.
+
+16
+99:59:59,999 --> 99:59:59,999
+And so, the circle’s going to look something like this.
+
+17
+99:59:59,999 --> 99:59:59,999
+That's my x axis.
+
+18
+99:59:59,999 --> 99:59:59,999
+That's my y axis.
+
+19
+99:59:59,999 --> 99:59:59,999
+It's center is at 4, 0.
+
+20
+99:59:59,999 --> 99:59:59,999
+So 1, 2, 3, 4.
+
+21
+99:59:59,999 --> 99:59:59,999
+4, 0.
+
+22
+99:59:59,999 --> 99:59:59,999
+And It's radius is 4.
+
+23
+99:59:59,999 --> 99:59:59,999
+Its radius squared is 16.
+
+24
+99:59:59,999 --> 99:59:59,999
+So its radius is 4.
+
+25
+99:59:59,999 --> 99:59:59,999
+So let me go 1, 2, 3, 4.
+
+26
+99:59:59,999 --> 99:59:59,999
+1, 2, 3, 4.
+
+27
+99:59:59,999 --> 99:59:59,999
+Let me go up four:
+
+28
+99:59:59,999 --> 99:59:59,999
+1, 2, 3, 4.
+
+29
+99:59:59,999 --> 99:59:59,999
+So, all of these points –
+
+30
+99:59:59,999 --> 99:59:59,999
+that point, that point, that point, and that point –
+
+31
+99:59:59,999 --> 99:59:59,999
+are all going to be on the circle.
+
+32
+99:59:59,999 --> 99:59:59,999
+(Let me draw that a little bit neater.)
+
+33
+99:59:59,999 --> 99:59:59,999
+That point, that point, and that point
+
+34
+99:59:59,999 --> 99:59:59,999
+are all going to be on our circle.
+
+35
+99:59:59,999 --> 99:59:59,999
+So my circle’s going to look something like this.
+
+36
+99:59:59,999 --> 99:59:59,999
+It's not drawn as neatly as it could be,
+
+37
+99:59:59,999 --> 99:59:59,999
+but I think you get the general idea.
+
+38
+99:59:59,999 --> 99:59:59,999
+This is our circle.
+
+39
+99:59:59,999 --> 99:59:59,999
+Then they have a hyperbola,
+
+40
+99:59:59,999 --> 99:59:59,999
+x^2/9 – y^2/4 = 1
+
+41
+99:59:59,999 --> 99:59:59,999
+This hyperbola is going to open to the left and the right,
+
+42
+99:59:59,999 --> 99:59:59,999
+since our x term is positive.
+
+43
+99:59:59,999 --> 99:59:59,999
+It's going to look something like this.
+
+44
+99:59:59,999 --> 99:59:59,999
+You can actually figure out the assymptote.
+
+45
+99:59:59,999 --> 99:59:59,999
+Actually, let me just do that.
+
+46
+99:59:59,999 --> 99:59:59,999
+Let me solve for y.
+
+47
+99:59:59,999 --> 99:59:59,999
+So you get –
+
+48
+99:59:59,999 --> 99:59:59,999
+If you – you would get –
+
+49
+99:59:59,999 --> 99:59:59,999
+Let me write it this way.
+
+50
+99:59:59,999 --> 99:59:59,999
+-y^2/4 = -x^2/9 + 1.
+
+51
+99:59:59,999 --> 99:59:59,999
+I just subtracted x^2/9 from both sides.
+
+52
+99:59:59,999 --> 99:59:59,999
+And then we would get –
+
+53
+99:59:59,999 --> 99:59:59,999
+Let’s multiply both sides by negative 4.
+
+54
+99:59:59,999 --> 99:59:59,999
+You get y^2 = (4/9)x^2 - 4.
+
+55
+99:59:59,999 --> 99:59:59,999
+Or y is equal to …
+
+56
+99:59:59,999 --> 99:59:59,999
+And now this will just be the positive part over here.
+
+57
+99:59:59,999 --> 99:59:59,999
+But I’m doing that so that we can understand its asymptotes.
+
+58
+99:59:59,999 --> 99:59:59,999
+y is equal to the square root of (4/9)x^2 – 4.
+
+59
+99:59:59,999 --> 99:59:59,999
+So, as x gets larger, and larger, and larger,
+
+60
+99:59:59,999 --> 99:59:59,999
+this term right here is going to stop mattering so much.
+
+61
+99:59:59,999 --> 99:59:59,999
+So as x approaches infinity –
+
+62
+99:59:59,999 --> 99:59:59,999
+As x approaches infinity, this is going to approach
+
+63
+99:59:59,999 --> 99:59:59,999
+the square root of 4 over 9x^2.
+
+64
+99:59:59,999 --> 99:59:59,999
+This constant’s not going to matter much.
+
+65
+99:59:59,999 --> 99:59:59,999
+And so, it's going to approach –
+
+66
+99:59:59,999 --> 99:59:59,999
+This thing right over here is going to be (2/3)x.
+
+67
+99:59:59,999 --> 99:59:59,999
+So it's going to –
+
+68
+99:59:59,999 --> 99:59:59,999
+If you imagine a slope –
+
+69
+99:59:59,999 --> 99:59:59,999
+Let’s see.
+
+70
+99:59:59,999 --> 99:59:59,999
+2/3rds.
+
+71
+99:59:59,999 --> 99:59:59,999
+If you go –
+
+72
+99:59:59,999 --> 99:59:59,999
+If you run 3, you rise 2.
+
+73
+99:59:59,999 --> 99:59:59,999
+So it's going to –
+
+74
+99:59:59,999 --> 99:59:59,999
+The asymptote is going to look like that.
+
+75
+99:59:59,999 --> 99:59:59,999
+It’s going to approach that line over there.
+
+76
+99:59:59,999 --> 99:59:59,999
+And, it's going to be symmetric – so it's also going to approach –
+
+77
+99:59:59,999 --> 99:59:59,999
+So three and two.
+
+78
+99:59:59,999 --> 99:59:59,999
+So it’s also going to approach that line over there.
+
+79
+99:59:59,999 --> 99:59:59,999
+And, if we want to see where it intersects the x-axis, you just set x –
+
+80
+99:59:59,999 --> 99:59:59,999
+– you just set y = 0.
+
+81
+99:59:59,999 --> 99:59:59,999
+You get x^2/9 = 1.
+
+82
+99:59:59,999 --> 99:59:59,999
+So x = +/- 3.
+
+83
+99:59:59,999 --> 99:59:59,999
+So the positive intersection is going to be over there.
+
+84
+99:59:59,999 --> 99:59:59,999
+So our hyperbola on the right side’s going to look something like –
+
+85
+99:59:59,999 --> 99:59:59,999
+something like that.
+
+86
+99:59:59,999 --> 99:59:59,999
+It's also going to show up on the left side.
+
+87
+99:59:59,999 --> 99:59:59,999
+But that's less interesting,
+
+88
+99:59:59,999 --> 99:59:59,999
+because it’s not doing anything with the circle.
+
+89
+99:59:59,999 --> 99:59:59,999
+Now, they told us that the hyperbola and the circle
+
+90
+99:59:59,999 --> 99:59:59,999
+intersect at the points a and b.
+
+91
+99:59:59,999 --> 99:59:59,999
+So this, right here, is the point a.
+
+92
+99:59:59,999 --> 99:59:59,999
+This, right here, is the point b.
+
+93
+99:59:59,999 --> 99:59:59,999
+In this question, we want the equation of the circle with
+
+94
+99:59:59,999 --> 99:59:59,999
+ab as its diameter.
+
+95
+99:59:59,999 --> 99:59:59,999
+So ab – with ab – with ab as the diameter.
+
+96
+99:59:59,999 --> 99:59:59,999
+(I could have drawn that a little bit straighter.)
+
+97
+99:59:59,999 --> 99:59:59,999
+So the equation of that circle right over there.
+
+98
+99:59:59,999 --> 99:59:59,999
+So essentially, we just need to figure out,
+
+99
+99:59:59,999 --> 99:59:59,999
+“Where does this hyperbola intersect this circle?”
+
+100
+99:59:59,999 --> 99:59:59,999
+Now, if we can –
+
+101
+99:59:59,999 --> 99:59:59,999
+The easiest way to do this is to –
+
+102
+99:59:59,999 --> 99:59:59,999
+Well, we have two constraints here.
+
+103
+99:59:59,999 --> 99:59:59,999
+Let's solve for y^2 for the circle,
+
+104
+99:59:59,999 --> 99:59:59,999
+and then we can substitute that in for y^2, right here,
+
+105
+99:59:59,999 --> 99:59:59,999
+and see what x values they intersect at.
+
+106
+99:59:59,999 --> 99:59:59,999
+And then we want the x value out here.
+
+107
+99:59:59,999 --> 99:59:59,999
+So, something that looks like this value
+
+108
+99:59:59,999 --> 99:59:59,999
+is the one we want to use.
+
+109
+99:59:59,999 --> 99:59:59,999
+Then we can figure out the y value.
+
+110
+99:59:59,999 --> 99:59:59,999
+The y value is going to be the radius of our circle.
+
+111
+99:59:59,999 --> 99:59:59,999
+The x value comma 0 will be the center.
+
+112
+99:59:59,999 --> 99:59:59,999
+And then we'll have our equation.
+
+113
+99:59:59,999 --> 99:59:59,999
+So let's do that.
+
+114
+99:59:59,999 --> 99:59:59,999
+So this up here, we have –
+
+115
+99:59:59,999 --> 99:59:59,999
+(Let me do it in yellow.)
+
+116
+99:59:59,999 --> 99:59:59,999
+So if we subtract x^2 and -8x from both sides,
+
+117
+99:59:59,999 --> 99:59:59,999
+the equation of the circle can be rewritten as y^2 is equal to –
+
+118
+99:59:59,999 --> 99:59:59,999
+I’m going to add 8x to both sides.
+
+119
+99:59:59,999 --> 99:59:59,999
+So it’s 8x …
+
+120
+99:59:59,999 --> 99:59:59,999
+and then subtract negative x^2 from –
+
+121
+99:59:59,999 --> 99:59:59,999
+or subtract export from both sides et
+
+122
+99:59:59,999 --> 99:59:59,999
+8x - x^2.
+
+123
+99:59:59,999 --> 99:59:59,999
+I really just moved that and that
+
+124
+99:59:59,999 --> 99:59:59,999
+over to the right hand side of the equation.
+
+125
+99:59:59,999 --> 99:59:59,999
+Now I can take this and substitute for y^2
+
+126
+99:59:59,999 --> 99:59:59,999
+in the equation of the hyperbola.
+
+127
+99:59:59,999 --> 99:59:59,999
+So the hyperbola’s is equation is x^2/9 - y^2/4 = 1.
+
+128
+99:59:59,999 --> 99:59:59,999
+But instead of writing a y^2 over there,
+
+129
+99:59:59,999 --> 99:59:59,999
+we know that it has to satisfy this equation, as well.
+
+130
+99:59:59,999 --> 99:59:59,999
+So for y^2, I’m going to put in 8x - x^2.
+
+131
+99:59:59,999 --> 99:59:59,999
+And let's see if we can solve –
+
+132
+99:59:59,999 --> 99:59:59,999
+Let's see if we can't solve this right here.
+
+133
+99:59:59,999 --> 99:59:59,999
+This is just a straight up quadratic equation,
+
+134
+99:59:59,999 --> 99:59:59,999
+although it might not look like it just yet.
+
+135
+99:59:59,999 --> 99:59:59,999
+Let’s simplify this.
+
+136
+99:59:59,999 --> 99:59:59,999
+So this tells us that x^2/9 – 8x/4 –
+
+137
+99:59:59,999 --> 99:59:59,999
+So -2x …
+
+138
+99:59:59,999 --> 99:59:59,999
+… plus x^2/ 4 … plus x^2/4.
+
+139
+99:59:59,999 --> 99:59:59,999
+(I just distributed, essentially,
+
+140
+99:59:59,999 --> 99:59:59,999
+the -1/4th over both of these terms.)
+
+141
+99:59:59,999 --> 99:59:59,999
+… is equal to 1.
+
+142
+99:59:59,999 --> 99:59:59,999
+And let's see, we can multiply the whole thing times 36,
+
+143
+99:59:59,999 --> 99:59:59,999
+to get rid of these fractions, because that’s 4 × 9.
+
+144
+99:59:59,999 --> 99:59:59,999
+So 36 ÷ 9 = 4.
+
+145
+99:59:59,999 --> 99:59:59,999
+So this is 4x^2-36 × 2 (is 72).
+
+146
+99:59:59,999 --> 99:59:59,999
+72x …
+
+147
+99:59:59,999 --> 99:59:59,999
+… plus 36/4 is 9 …
+
+148
+99:59:59,999 --> 99:59:59,999
+… plus nine 9x^2 = 36
+
+149
+99:59:59,999 --> 99:59:59,999
+These two terms right here, we can add them.
+
+150
+99:59:59,999 --> 99:59:59,999
+We get 13x^2 -72x.
+
+151
+99:59:59,999 --> 99:59:59,999
+And then we could subtract 36 from both sides
+
+152
+99:59:59,999 --> 99:59:59,999
+So [continuing] -36 = 0.
+
+153
+99:59:59,999 --> 99:59:59,999
+So now we just have a straight-up quadratic equation.
+
+154
+99:59:59,999 --> 99:59:59,999
+We just have to find the x's – find the roots.
+
+155
+99:59:59,999 --> 99:59:59,999
+So let’s use the quadratic formula here.
+
+156
+99:59:59,999 --> 99:59:59,999
+So x is going to be equal to negative b.
+
+157
+99:59:59,999 --> 99:59:59,999
+So that's negative negative 72.
+
+158
+99:59:59,999 --> 99:59:59,999
+So that’s 72 ... plus or minus the square root of 72^2.
+
+159
+99:59:59,999 --> 99:59:59,999
+(I’ll just write that.)
+
+160
+99:59:59,999 --> 99:59:59,999
+72 × 72 – 4 × a × c.
+
+161
+99:59:59,999 --> 99:59:59,999
+c is -36.
+
+162
+99:59:59,999 --> 99:59:59,999
+So that negative, you could just put it out here,
+
+163
+99:59:59,999 --> 99:59:59,999
+and you just put the 36 out back.
+
+164
+99:59:59,999 --> 99:59:59,999
+And then all of that – all of that over 2 × a.
+
+165
+99:59:59,999 --> 99:59:59,999
+And then all of that –
+
+166
+99:59:59,999 --> 99:59:59,999
+All of that over all of that that over 26.
+
+167
+99:59:59,999 --> 99:59:59,999
+So the hard part is really to simplify this.
+
+168
+99:59:59,999 --> 99:59:59,999
+But it looks like we have some interesting stuff going on.
+
+169
+99:59:59,999 --> 99:59:59,999
+So let me rewrite this part over here.
+
+170
+99:59:59,999 --> 99:59:59,999
+So 72 –
+
+171
+99:59:59,999 --> 99:59:59,999
+Let me write it over here.
+
+172
+99:59:59,999 --> 99:59:59,999
+72 × 72 is the same thing as –
+
+173
+99:59:59,999 --> 99:59:59,999
+This is the same thing as (2 × 36)(2 × 36), right?
+
+174
+99:59:59,999 --> 99:59:59,999
+Each of those are 72.
+
+175
+99:59:59,999 --> 99:59:59,999
+That’s the same thing as 72 × 72.
+
+176
+99:59:59,999 --> 99:59:59,999
+And then, we’re adding to that 4 × 36 × 13.
+
+177
+99:59:59,999 --> 99:59:59,999
+4 × 36 × 13.
+
+178
+99:59:59,999 --> 99:59:59,999
+And we're taking the square root of this whole thing.
+
+179
+99:59:59,999 --> 99:59:59,999
+I’m just doing the work out here, so we don't
+
+180
+99:59:59,999 --> 99:59:59,999
+waste this real estate over here.
+
+181
+99:59:59,999 --> 99:59:59,999
+Now. We can factor out a 4 ×36.
+
+182
+99:59:59,999 --> 99:59:59,999
+This is 4, and this is a 36.
+
+183
+99:59:59,999 --> 99:59:59,999
+So this is equal to –
+
+184
+99:59:59,999 --> 99:59:59,999
+I know it’s getting –
+
+185
+99:59:59,999 --> 99:59:59,999
+(Let me write it a little bit neater.)
+
+186
+99:59:59,999 --> 99:59:59,999
+This is equal to the square root of –
+
+187
+99:59:59,999 --> 99:59:59,999
+We can take 4 × 36 …
+
+188
+99:59:59,999 --> 99:59:59,999
+And actually, a 4 × 36 is one 144.
+
+189
+99:59:59,999 --> 99:59:59,999
+I’ll just right 4 × 36 right here.
+
+190
+99:59:59,999 --> 99:59:59,999
+4 × 36.
+
+191
+99:59:59,999 --> 99:59:59,999
+Now over here, we used both 2’s and a 36,
+
+192
+99:59:59,999 --> 99:59:59,999
+so we have a 36 left.
+
+193
+99:59:59,999 --> 99:59:59,999
+We used this 4 × 36.
+
+194
+99:59:59,999 --> 99:59:59,999
+So we have +13.
+
+195
+99:59:59,999 --> 99:59:59,999
+So this becomes the square root of 4 times –
+
+196
+99:59:59,999 --> 99:59:59,999
+4 × 36 = 144.
+
+197
+99:59:59,999 --> 99:59:59,999
+36 + 13 = 49.
+
+198
+99:59:59,999 --> 99:59:59,999
+So, we're lucky that it actually worked out
+
+199
+99:59:59,999 --> 99:59:59,999
+to two perfect squares.
+
+200
+99:59:59,999 --> 99:59:59,999
+So this is the square root of 144 times the square root of 49,
+
+201
+99:59:59,999 --> 99:59:59,999
+which is 12 × 7.
+
+202
+99:59:59,999 --> 99:59:59,999
+Or, this is equal to 84.
+
+203
+99:59:59,999 --> 99:59:59,999
+So this over here – this business over here –
+
+204
+99:59:59,999 --> 99:59:59,999
+simplifies to 72 +/- 84.
+
+205
+99:59:59,999 --> 99:59:59,999
+This whole thing over here simplifies to 84.
+
+206
+99:59:59,999 --> 99:59:59,999
+All of that over 26.
+
+207
+99:59:59,999 --> 99:59:59,999
+Now if we subtract 84 …
+
+208
+99:59:59,999 --> 99:59:59,999
+if we were to subtract 84, we would get something over here
+
+209
+99:59:59,999 --> 99:59:59,999
+that doesn't make sense in this context.
+
+210
+99:59:59,999 --> 99:59:59,999
+We're looking for something –
+
+211
+99:59:59,999 --> 99:59:59,999
+a positive x value.
+
+212
+99:59:59,999 --> 99:59:59,999
+So let's only consider – let's only consider –
+
+213
+99:59:59,999 --> 99:59:59,999
+Let's only consider the +84, and see what we get.
+
+214
+99:59:59,999 --> 99:59:59,999
+So the first thing to do –
+
+215
+99:59:59,999 --> 99:59:59,999
+Actually, let me just divide the numerator
+
+216
+99:59:59,999 --> 99:59:59,999
+and the denominator by 2.
+
+217
+99:59:59,999 --> 99:59:59,999
+So, this is the same thing as (36 + 42)/13.
+
+218
+99:59:59,999 --> 99:59:59,999
+And this is the same thing as 78 ÷ 13.
+
+219
+99:59:59,999 --> 99:59:59,999
+And it looks like 78 is divisible by 13.
+
+220
+99:59:59,999 --> 99:59:59,999
+78 ÷ 13 = 6.
+
+221
+99:59:59,999 --> 99:59:59,999
+This is equal to 6.
+
+222
+99:59:59,999 --> 99:59:59,999
+So the x coordinate here is 6.
+
+223
+99:59:59,999 --> 99:59:59,999
+It's right there.
+
+224
+99:59:59,999 --> 99:59:59,999
+So it's 6.
+
+225
+99:59:59,999 --> 99:59:59,999
+We don't know what the y coordinate is, so let's do that.
+
+226
+99:59:59,999 --> 99:59:59,999
+It's pretty easy to solve.
+
+227
+99:59:59,999 --> 99:59:59,999
+We could substitute x = 6 into any of these equations.
+
+228
+99:59:59,999 --> 99:59:59,999
+This one is probably easier right over here.
+
+229
+99:59:59,999 --> 99:59:59,999
+So we get y^2 = 8 × 6 ... is 48 …
+
+230
+99:59:59,999 --> 99:59:59,999
+minus 48 – 36, which is equal to 12.
+
+231
+99:59:59,999 --> 99:59:59,999
+And so y is equal to the square root of 12.
+
+232
+99:59:59,999 --> 99:59:59,999
+We could simplify that radical if we wanted.
+
+233
+99:59:59,999 --> 99:59:59,999
+But we know the point now.
+
+234
+99:59:59,999 --> 99:59:59,999
+It’s 6 comma the square root –
+
+235
+99:59:59,999 --> 99:59:59,999
+Sorry.
+
+236
+99:59:59,999 --> 99:59:59,999
+This point over here is 6, 0 – but the actual intersect –
+
+237
+99:59:59,999 --> 99:59:59,999
+The center is 6, 0.
+
+238
+99:59:59,999 --> 99:59:59,999
+But the actual intersection point is going to be 6 …
+
+239
+99:59:59,999 --> 99:59:59,999
+… is going to be 6 comma positive square root of 12
+
+240
+99:59:59,999 --> 99:59:59,999
+(And I should say this is a positive
+
+241
+99:59:59,999 --> 99:59:59,999
+or negative square root of 12.)
+
+242
+99:59:59,999 --> 99:59:59,999
+And this over here is going to be 6,
+
+243
+99:59:59,999 --> 99:59:59,999
+negative square root of 12.
+
+244
+99:59:59,999 --> 99:59:59,999
+This right here is 6, 0.
+
+245
+99:59:59,999 --> 99:59:59,999
+That's the center of our circle.
+
+246
+99:59:59,999 --> 99:59:59,999
+So what's the equation of this new circle going to be?
+
+247
+99:59:59,999 --> 99:59:59,999
+What's the equation of this new circle going to be?
+
+248
+99:59:59,999 --> 99:59:59,999
+Well, we know its center.
+
+249
+99:59:59,999 --> 99:59:59,999
+It’s center is at 6, 0.
+
+250
+99:59:59,999 --> 99:59:59,999
+It’s center is at 6, 0.
+
+251
+99:59:59,999 --> 99:59:59,999
+Let me write it down here.
+
+252
+99:59:59,999 --> 99:59:59,999
+Its center is at 6, 0.
+
+253
+99:59:59,999 --> 99:59:59,999
+So, it's going to be (x-6)^2 + (y-0)^2 =
+
+254
+99:59:59,999 --> 99:59:59,999
+the radius squared (r^2).
+
+255
+99:59:59,999 --> 99:59:59,999
+Now what’s the radius?
+
+256
+99:59:59,999 --> 99:59:59,999
+The radius is this height right over here.
+
+257
+99:59:59,999 --> 99:59:59,999
+Or it's just equal to the y value at the intersection.
+
+258
+99:59:59,999 --> 99:59:59,999
+It’s the square root of 12.
+
+259
+99:59:59,999 --> 99:59:59,999
+Now this is going to be the radius squared
+
+260
+99:59:59,999 --> 99:59:59,999
+The square root of 12^2 = 12.
+
+261
+99:59:59,999 --> 99:59:59,999
+So the equation is going to be x - 6.
+
+262
+99:59:59,999 --> 99:59:59,999
+And let’s see what form they have right here.
+
+263
+99:59:59,999 --> 99:59:59,999
+So they actually multiple everything out.
+
+264
+99:59:59,999 --> 99:59:59,999
+So let’s just do that.
+
+265
+99:59:59,999 --> 99:59:59,999
+So this is going to be x^2 - 12x + 36 + y^2 = 12.
+
+266
+99:59:59,999 --> 99:59:59,999
+And then we could subtract 12 from both sides –
+
+267
+99:59:59,999 --> 99:59:59,999
+subtract 12 from both sides.
+
+268
+99:59:59,999 --> 99:59:59,999
+and we get x^2 - 12x + 24 + y^2 = 0.
+
+269
+99:59:59,999 --> 99:59:59,999
+And let’s see which of the choices –
+
+270
+99:59:59,999 --> 99:59:59,999
+Let’s see which of the choices match that.
+
+271
+99:59:59,999 --> 99:59:59,999
+Let me copy it.
+
+272
+99:59:59,999 --> 99:59:59,999
+And then let me paste it up here.
+
+273
+99:59:59,999 --> 99:59:59,999
+Let me paste it up here.
+
+274
+99:59:59,999 --> 99:59:59,999
+And it looks like we have an x^2, positive y^2,
+
+275
+99:59:59,999 --> 99:59:59,999
+-12x, and then a +24.
+
+276
+99:59:59,999 --> 99:59:59,999
+-12x, +24.
+
+277
+99:59:59,999 --> 99:59:59,999
+So it looks like our answer is A.
+
+278
+99:59:59,999 --> 99:59:59,999
+Did I do that right?
+
+279
+99:59:59,999 --> 99:59:59,999
+x^2 - 12x + 24 …
+
+280
+99:59:59,999 --> 99:59:59,999
+Yep.
+
+281
+99:59:59,999 --> 99:59:59,999
+Our answer is A.

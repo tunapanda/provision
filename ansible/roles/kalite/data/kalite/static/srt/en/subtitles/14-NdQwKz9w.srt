@@ -1,0 +1,763 @@
+1
+00:00:00,000 --> 00:00:01,839
+So say you're me and you're in math class
+
+2
+00:00:01,839 --> 00:00:03,246
+and you're trying to ignore the teacher and
+
+3
+00:00:03,246 --> 00:00:05,647
+doodle fibbonachi spirals while simultaneously trying to
+
+4
+00:00:05,647 --> 00:00:06,981
+fend off the local greenery,
+
+5
+00:00:06,981 --> 00:00:08,174
+only if you become interested in
+
+6
+00:00:08,174 --> 00:00:09,681
+something the teacher said by accident.
+
+7
+00:00:09,681 --> 00:00:11,922
+And so you draw too many squares to start with.
+
+8
+00:00:11,922 --> 00:00:13,743
+So you cross them out, but you crossed out too many,
+
+9
+00:00:13,743 --> 00:00:15,411
+and then the teacher gets back on track and
+
+10
+00:00:15,411 --> 00:00:16,600
+the moment is over, so...
+
+11
+00:00:16,600 --> 00:00:19,518
+Oh well, might as well try to do the spiral from here.
+
+12
+00:00:19,518 --> 00:00:21,062
+So you make a 3 by 3 square,
+
+13
+00:00:21,062 --> 00:00:22,490
+and here's a 4 by 4
+
+14
+00:00:22,490 --> 00:00:24,323
+and then 7 and then 11...
+
+15
+00:00:24,323 --> 00:00:26,541
+This works, as in you got a spiral of squares,
+
+16
+00:00:26,541 --> 00:00:27,750
+so you write down the numbers.
+
+17
+00:00:27,750 --> 00:00:29,969
+1, 3, 4, 7, 11, 18.
+
+18
+00:00:29,969 --> 00:00:31,833
+is kind of like the Fibonacci series,
+
+19
+00:00:31,833 --> 00:00:33,631
+because 1 + 3 is 4
+
+20
+00:00:33,631 --> 00:00:35,494
+3 + 4 is 7 and so on
+
+21
+00:00:35,494 --> 00:00:37,047
+Or maybe you start as 2 + 1
+
+22
+00:00:37,047 --> 00:00:38,513
+or -1 + 2
+
+23
+00:00:38,513 --> 00:00:40,495
+Either way is a perfectly good series,
+
+24
+00:00:40,495 --> 00:00:42,395
+and it's got another similarity
+
+25
+00:00:42,395 --> 00:00:44,079
+with the Fibonacci series.
+
+26
+00:00:44,079 --> 00:00:47,646
+The ratios of consecutive numbers also approach phi.
+
+27
+00:00:47,646 --> 00:00:50,365
+Ok, so a lot of plants have Fibonacci numbers of spirals,
+
+28
+00:00:50,365 --> 00:00:51,839
+but to understand how they do it
+
+29
+00:00:51,839 --> 00:00:53,506
+we can learn from the exceptions.
+
+30
+00:00:53,506 --> 00:00:55,993
+This pinecone that has 7 spirals one way
+
+31
+00:00:55,993 --> 00:00:58,403
+and 11 the other, might be showing Lucas numbers.
+
+32
+00:00:58,403 --> 00:01:00,170
+And since Fibonacci numbers and Lucas numbers
+
+33
+00:01:00,170 --> 00:01:02,233
+are related, maybe that explains it.
+
+34
+00:01:02,233 --> 00:01:04,771
+One theory was that plants get Fibonacci numbers
+
+35
+00:01:04,771 --> 00:01:06,486
+by always growing new parts
+
+36
+00:01:06,486 --> 00:01:08,510
+a phi-th of a circle all around.
+
+37
+00:01:08,510 --> 00:01:10,483
+What angle will give Lucas numbers?
+
+38
+00:01:10,483 --> 00:01:12,788
+In this pinecone, each new pinecony thing
+
+39
+00:01:12,788 --> 00:01:15,040
+is about a 100 degrees around from the last.
+
+40
+00:01:15,040 --> 00:01:17,344
+We're going to need a Lucas angle-a-tron.
+
+41
+00:01:17,344 --> 00:01:19,452
+It's easy to get a 90 degree angle-a-tron,
+
+42
+00:01:19,452 --> 00:01:21,220
+and if I take a third of a third of that,
+
+43
+00:01:21,220 --> 00:01:23,978
+that's a ninth of 90 which is another 10 degrees.
+
+44
+00:01:23,978 --> 00:01:24,791
+There.
+
+45
+00:01:24,791 --> 00:01:26,599
+Now you can use it to get spiral patterns
+
+46
+00:01:26,599 --> 00:01:28,626
+like what you see on a Lucas number plants.
+
+47
+00:01:28,626 --> 00:01:30,721
+It's an easy way to grow Lucas spirals
+
+48
+00:01:30,721 --> 00:01:32,663
+if plants have an internal angle-a-tron.
+
+49
+00:01:32,663 --> 00:01:35,545
+Thing is, a hundred is pretty far from 137.5.
+
+50
+00:01:35,545 --> 00:01:37,780
+If plants were somehow meassuring angles,
+
+51
+00:01:37,780 --> 00:01:39,548
+you'd think the anomalous ones
+
+52
+00:01:39,548 --> 00:01:42,289
+would show angles close to a phi-th of a circle,
+
+53
+00:01:42,304 --> 00:01:44,073
+not jump all the way to 100.
+
+54
+00:01:44,073 --> 00:01:46,015
+Maybe I believe different species
+
+55
+00:01:46,015 --> 00:01:47,209
+use different angles,
+
+56
+00:01:47,209 --> 00:01:48,872
+but two pinecones from the same tree,
+
+57
+00:01:48,872 --> 00:01:50,811
+two spirals on the same cauliflower?
+
+58
+00:01:50,811 --> 00:01:52,461
+And that's not the only exception.
+
+59
+00:01:52,461 --> 00:01:54,759
+A lot of plants don't grow spirally at all.
+
+60
+00:01:54,759 --> 00:01:57,366
+Like this thing with leaves growing opposite from each other.
+
+61
+00:01:57,366 --> 00:01:59,132
+And some plants have alternating leaves,
+
+62
+00:01:59,132 --> 00:02:00,641
+180 degrees from each other,
+
+63
+00:02:00,641 --> 00:02:03,326
+which is far from both phi and Lucas angles.
+
+64
+00:02:03,326 --> 00:02:05,021
+And you could say that these don't count,
+
+65
+00:02:05,021 --> 00:02:07,168
+because they have fundamentally different growth pattern
+
+66
+00:02:07,168 --> 00:02:08,912
+and they are different in class of plant or something.
+
+67
+00:02:08,912 --> 00:02:10,910
+But wouldn't it be even better if there were
+
+68
+00:02:10,910 --> 00:02:13,225
+one simple reason for all of these things?
+
+69
+00:02:13,225 --> 00:02:14,952
+These variations are good clue that
+
+70
+00:02:14,952 --> 00:02:16,816
+maybe these plants get this angle
+
+71
+00:02:16,816 --> 00:02:19,518
+and Fibonacci number as a consequence of
+
+72
+00:02:19,518 --> 00:02:21,659
+some other process and not just because
+
+73
+00:02:21,659 --> 00:02:23,603
+it mathematically optimises sunlight exposure.
+
+74
+00:02:23,603 --> 00:02:25,040
+If this sun is right over head
+
+75
+00:02:25,040 --> 00:02:26,376
+which pretty much never is and
+
+76
+00:02:26,376 --> 00:02:28,632
+if the plants are perfectly facing straight up which they aren't.
+
+77
+00:02:28,632 --> 00:02:29,815
+So how do they do it?
+
+78
+00:02:29,815 --> 00:02:31,235
+Well you could try observing them,
+
+79
+00:02:31,235 --> 00:02:32,574
+that would be like science.
+
+80
+00:02:32,574 --> 00:02:35,356
+If you zoom in on the tip of a plant, the growing part,
+
+81
+00:02:35,356 --> 00:02:36,916
+there's this part called the meristem.
+
+82
+00:02:36,916 --> 00:02:38,965
+That's where new plant bits form.
+
+83
+00:02:38,965 --> 00:02:40,731
+The biggest plant bits were
+
+84
+00:02:40,731 --> 00:02:42,708
+the first to form of the meristem,
+
+85
+00:02:42,708 --> 00:02:44,590
+and the little ones around the center are newer.
+
+86
+00:02:44,590 --> 00:02:45,839
+As the plant grows
+
+87
+00:02:45,839 --> 00:02:48,142
+they get pushed away from the meristem
+
+88
+00:02:48,142 --> 00:02:49,692
+but they all started there.
+
+89
+00:02:49,692 --> 00:02:51,357
+The important part is that
+
+90
+00:02:51,357 --> 00:02:52,789
+the science observer would see
+
+91
+00:02:52,789 --> 00:02:54,354
+the plant bits pushing away
+
+92
+00:02:54,354 --> 00:02:55,440
+not just from the meristem
+
+93
+00:02:55,440 --> 00:02:56,723
+but from each other.
+
+94
+00:02:56,723 --> 00:02:58,388
+A couple physicists want to try this thing
+
+95
+00:02:58,388 --> 00:03:00,608
+where they drop drops of a magnetized liquid
+
+96
+00:03:00,608 --> 00:03:02,242
+in a dish of oil.
+
+97
+00:03:02,242 --> 00:03:04,057
+The drops repelled each other
+
+98
+00:03:04,057 --> 00:03:05,249
+kind of like plant bits do and
+
+99
+00:03:05,249 --> 00:03:06,866
+were attracted to the edge of the dish
+
+100
+00:03:06,866 --> 00:03:08,955
+just like a plant bits move away from the center.
+
+101
+00:03:08,955 --> 00:03:10,525
+The first couple drops would head
+
+102
+00:03:10,525 --> 00:03:11,979
+in opposite direction from each other,
+
+103
+00:03:11,979 --> 00:03:13,786
+but then the third was repelled by both,
+
+104
+00:03:13,786 --> 00:03:17,722
+but pushed farther by the more recent and closer drop.
+
+105
+00:03:17,728 --> 00:03:20,639
+It and each new drop would set off at a phi angle
+
+106
+00:03:20,639 --> 00:03:22,554
+relative to the drop before
+
+107
+00:03:22,554 --> 00:03:25,618
+and the drops ended up forming Fibonacci number spirals.
+
+108
+00:03:25,618 --> 00:03:27,123
+So all the plant would need to do
+
+109
+00:03:27,123 --> 00:03:28,367
+to get Fibonacci number spirals, is
+
+110
+00:03:28,367 --> 00:03:30,250
+to figure out how to make the plant bits repel each other.
+
+111
+00:03:30,250 --> 00:03:31,589
+We don't know all the details.
+
+112
+00:03:31,589 --> 00:03:32,647
+But here is what we do know.
+
+113
+00:03:32,647 --> 00:03:34,842
+There is the hormone that tells plant bits to grow.
+
+114
+00:03:34,842 --> 00:03:37,332
+A plant bit might use up the hormone around it.
+
+115
+00:03:37,332 --> 00:03:38,566
+But there is more further away,
+
+116
+00:03:38,566 --> 00:03:39,677
+so it will grow in that direction.
+
+117
+00:03:39,677 --> 00:03:41,765
+That makes plant bits move out from the meristem
+
+118
+00:03:41,765 --> 00:03:43,199
+after they form.
+
+119
+00:03:43,199 --> 00:03:45,752
+Meanwhile the meristem keeps forming new plant bits
+
+120
+00:03:45,771 --> 00:03:48,504
+and they're gonna grow in places that aren't too crowded
+
+121
+00:03:48,504 --> 00:03:50,672
+because that's where there's the most growth hormone.
+
+122
+00:03:50,672 --> 00:03:52,700
+This leaves them to move further out
+
+123
+00:03:52,700 --> 00:03:55,575
+into the space left by the other outward moving plant bits.
+
+124
+00:03:55,583 --> 00:03:57,560
+And once everything get locked into a pattern
+
+125
+00:03:57,560 --> 00:03:58,571
+it's hard to get out of it,
+
+126
+00:03:58,571 --> 00:04:00,702
+because there's no way for this plant bit
+
+127
+00:04:00,702 --> 00:04:02,798
+to wander off unless there were empty space
+
+128
+00:04:02,798 --> 00:04:05,480
+with a trail of plant hormone to lead it out of its spot,
+
+129
+00:04:05,480 --> 00:04:06,233
+but if there were
+
+130
+00:04:06,233 --> 00:04:08,243
+all the nearer plant bits would use up the hormone
+
+131
+00:04:08,243 --> 00:04:09,830
+in grow to fill out in space.
+
+132
+00:04:09,830 --> 00:04:11,165
+Mathematicians and programmers
+
+133
+00:04:11,165 --> 00:04:12,493
+was made their own simulations
+
+134
+00:04:12,493 --> 00:04:13,709
+and found the same thing.
+
+135
+00:04:13,709 --> 00:04:14,901
+The best way to fit new things in
+
+136
+00:04:14,901 --> 00:04:16,298
+with the most space
+
+137
+00:04:16,298 --> 00:04:17,398
+has some pop-up at that angle,
+
+138
+00:04:17,398 --> 00:04:19,053
+not because plant knows about the angle,
+
+139
+00:04:19,053 --> 00:04:20,184
+but because that's where
+
+140
+00:04:20,184 --> 00:04:21,431
+the most hormone has build up.
+
+141
+00:04:21,431 --> 00:04:23,808
+Once it gets started, it's the self-perpetuating cycle.
+
+142
+00:04:23,808 --> 00:04:25,681
+All that these flower bits are doing
+
+143
+00:04:25,681 --> 00:04:27,423
+is growing where there is most room for them.
+
+144
+00:04:27,423 --> 00:04:29,247
+The rest happens auto-math-ically.
+
+145
+00:04:29,247 --> 00:04:31,248
+It's not weird that all these plants
+
+146
+00:04:31,248 --> 00:04:32,721
+show Fibonacci numbers,
+
+147
+00:04:32,721 --> 00:04:34,318
+it would be weird if they didn't.
+
+148
+00:04:34,318 --> 00:04:36,266
+It had to be this way.
+
+149
+00:04:36,266 --> 00:04:38,130
+The best thing about that theory
+
+150
+00:04:38,130 --> 00:04:40,842
+is that it explains why Lucas pinecones would happen.
+
+151
+00:04:40,842 --> 00:04:43,197
+If something goes a bit differently in the very beginning
+
+152
+00:04:43,197 --> 00:04:46,337
+the meristem will settle into a different but stable pattern
+
+153
+00:04:46,346 --> 00:04:48,748
+of where there's the most room to add new plant bits.
+
+154
+00:04:48,748 --> 00:04:50,430
+That is 100 degrees away.
+
+155
+00:04:50,430 --> 00:04:52,420
+It even explains alternating leaf patterns.
+
+156
+00:04:52,420 --> 00:04:54,062
+If the leaves are far enough apart,
+
+157
+00:04:54,062 --> 00:04:55,998
+relative to how much growth hormone they like,
+
+158
+00:04:55,998 --> 00:04:57,740
+that these leaves don't have
+
+159
+00:04:57,740 --> 00:04:59,311
+any repelling force with each other,
+
+160
+00:04:59,311 --> 00:05:01,274
+and all these leaves care about is
+
+161
+00:05:01,274 --> 00:05:04,061
+being farthest away from the two above and below it,
+
+162
+00:05:04,061 --> 00:05:06,030
+which makes 180 degrees optimal.
+
+163
+00:05:06,030 --> 00:05:07,400
+And when leaves grow in pairs
+
+164
+00:05:07,400 --> 00:05:09,098
+that are opposite each other
+
+165
+00:05:09,098 --> 00:05:10,846
+the answer where there's most room
+
+166
+00:05:10,846 --> 00:05:12,255
+for both of those leaves
+
+167
+00:05:12,255 --> 00:05:14,327
+is at 90 degrees from the one below it.
+
+168
+00:05:14,327 --> 00:05:15,604
+And if you look hard
+
+169
+00:05:15,604 --> 00:05:17,302
+you can discover even more unusual patterns.
+
+170
+00:05:17,302 --> 00:05:19,330
+The dots on the neck of this whatever it is
+
+171
+00:05:19,330 --> 00:05:21,405
+come in spirals of 14 and 22
+
+172
+00:05:21,405 --> 00:05:23,178
+which may be as like doubled a Lucas numbers,
+
+173
+00:05:23,178 --> 00:05:24,662
+and this pinecone has 6 and 10 -
+
+174
+00:05:24,662 --> 00:05:25,961
+doubled Fibonacci numbers.
+
+175
+00:05:25,961 --> 00:05:28,194
+So how is the pineapple like a pinecone,
+
+176
+00:05:28,194 --> 00:05:30,179
+what do daisies and brussels
+
+177
+00:05:30,179 --> 00:05:31,511
+perhaps have in common?
+
+178
+00:05:31,511 --> 00:05:34,466
+Is not the numbers they show, it's how they grow.
+
+179
+00:05:34,466 --> 00:05:36,744
+This pattern is not just useful, not just beautiful.
+
+180
+00:05:36,744 --> 00:05:38,306
+It's inevitable.
+
+181
+00:05:38,306 --> 00:05:41,576
+This is why science and mathematics are still much fun.
+
+182
+00:05:41,576 --> 00:05:44,430
+You discover things that seem impossible to be true
+
+183
+00:05:44,430 --> 00:05:45,579
+and then get to figure out
+
+184
+00:05:45,579 --> 00:05:47,596
+why it's impossible for them not to be.
+
+185
+00:05:47,596 --> 00:05:49,843
+To get this far in our understanding of these things
+
+186
+00:05:49,843 --> 00:05:52,138
+it took the combined effort of mathematicians,
+
+187
+00:05:52,138 --> 00:05:53,720
+physicists, botanists and biochemists,
+
+188
+00:05:53,720 --> 00:05:55,133
+and we've certainly learned a lot,
+
+189
+00:05:55,133 --> 00:05:56,663
+but there's much more to be discovered.
+
+190
+00:05:56,663 --> 00:05:58,568
+May be you should keep doodling in math class?
+
+191
+00:05:58,568 --> 00:06:07,242
+You can help figure it out.

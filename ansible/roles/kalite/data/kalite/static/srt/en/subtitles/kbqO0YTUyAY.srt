@@ -1,0 +1,317 @@
+1
+00:00:00,500 --> 00:00:06,085
+Once again we have three identical objects
+
+2
+00:00:06,085 --> 00:00:10,033
+they all have the same mass,
+but we don't know what the mass is.
+
+3
+00:00:10,033 --> 00:00:13,005
+But we do know that if you total up their mass,
+
+4
+00:00:13,005 --> 00:00:16,488
+it is the same exact mass 
+as these nine objects.
+
+5
+00:00:16,488 --> 00:00:19,633
+and each of these 9 masses
+have a mass of exactly 1 kilogram.
+
+6
+00:00:19,633 --> 00:00:22,014
+So we have a total of 9 kg on this side,
+
+7
+00:00:22,014 --> 00:00:24,300
+and over here we have 3 objects that all have the same mass
+
+8
+00:00:24,300 --> 00:00:27,030
+but we don't know what that mass is,
+we are just calling that mass 'X'.
+
+9
+00:00:27,030 --> 00:00:29,909
+What I want to do is to tackle this a bit more symbolically.
+
+10
+00:00:29,909 --> 00:00:37,100
+In the last video, we said "hey, why don't we just multiply 1/3 of this and 1/3 of that?"
+
+11
+00:00:37,100 --> 00:00:40,367
+and then we would keep things balanced.
+
+12
+00:00:40,367 --> 00:00:44,500
+keeping 1/3 of the same mass, so this total is the same as this one.
+
+13
+00:00:44,500 --> 00:00:46,813
+and that is why the scale is balanced.
+
+14
+00:00:46,813 --> 00:00:50,343
+Now, let's think about how we can represent this symbolically.
+
+15
+00:00:50,343 --> 00:00:52,567
+The first thing I want you to think about is:
+
+16
+00:00:52,567 --> 00:00:56,833
+Can we set up an equation
+
+17
+00:00:56,833 --> 00:01:01,813
+that expresses these 3 things of mass 'X'
+
+18
+00:01:01,813 --> 00:01:05,900
+and that in total their mass is equal to
+the total mass over here.
+
+19
+00:01:05,900 --> 00:01:07,698
+Can we express that as an equation?
+
+20
+00:01:07,698 --> 00:01:08,952
+I will give you a few seconds to do it...
+
+21
+00:01:08,952 --> 00:01:11,367
+[silence]
+
+22
+00:01:11,367 --> 00:01:14,432
+Let's think about it.
+Over here, we have 3 thing with mass 'X'
+
+23
+00:01:14,432 --> 00:01:22,087
+so their total mass we could write as
+X + X + X
+
+24
+00:01:22,087 --> 00:01:26,414
+And over here, we have nine things 
+with a mass of one kilogram,
+
+25
+00:01:26,414 --> 00:01:39,620
+which we could write as
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1.
+
+26
+00:01:39,620 --> 00:01:42,296
+And actually, this is a mathematical representation
+
+27
+00:01:42,296 --> 00:01:45,036
+We set it up as an equation, so
+it is an algebraic representation.
+
+28
+00:01:45,036 --> 00:01:48,220
+It is not the simplest possible way to do it, 
+but it is reasonable.
+
+29
+00:01:48,220 --> 00:01:54,835
+I we want, we could say: "If have an X plus another X plus another X, I have 3 X's."
+
+30
+00:01:54,835 --> 00:01:59,479
+So I could re-write this as 3X
+and 3X will be equal to...
+
+31
+00:01:59,479 --> 00:02:04,819
+--If I sum up all these ones over here,
+we have 9 of them,
+
+32
+00:02:04,819 --> 00:02:07,220
+So I have 3X = 9.
+
+33
+00:02:07,220 --> 00:02:11,832
+Let me make sure that is right
+[counts to 9]
+
+34
+00:02:11,832 --> 00:02:13,554
+So that is how we would set up.
+
+35
+00:02:13,554 --> 00:02:17,287
+The next question is: 
+What could we do mathematically
+
+36
+00:02:17,287 --> 00:02:21,213
+to either one of these equations
+(but we will focus on this one)
+
+37
+00:02:21,213 --> 00:02:25,954
+What could we do mathematically
+in order to solve for the X
+
+38
+00:02:25,954 --> 00:02:29,572
+Or to figure out what that mystery mass actually is?
+
+39
+00:02:29,572 --> 00:02:31,420
+I will give you another second or two to think about it.
+
+40
+00:02:31,420 --> 00:02:33,754
+[silence]
+
+41
+00:02:33,754 --> 00:02:36,584
+When we did it the last time, with the scales,
+
+42
+00:02:36,584 --> 00:02:40,354
+we said "We have 3 of these X's here.
+We want to have just 1 X here,"
+
+43
+00:02:40,354 --> 00:02:43,887
+So we could say "whatever this X is, 
+if the scales stay balanced,
+
+44
+00:02:43,887 --> 00:02:46,244
+It will be the same as what we have there."
+
+45
+00:02:46,244 --> 00:02:50,220
+There might be a temptation to subtract 2 of the X's from this side,
+
+46
+00:02:50,220 --> 00:02:53,287
+but that will not help us,
+we can even see that mathematically over here,
+
+47
+00:02:53,287 --> 00:02:55,578
+if we subtracted 2 X's from both sides,
+
+48
+00:02:55,578 --> 00:03:01,554
+on the left-hand side we would have 3x - 2x,
+and on the right you would have 9 - 2x
+
+49
+00:03:01,554 --> 00:03:03,241
+And you would be left with:
+
+50
+00:03:03,241 --> 00:03:05,888
+3 of something minus 2 of something is 1 of something
+
+51
+00:03:05,888 --> 00:03:08,906
+so you would have 1x there, if you get rid of 2 of them,
+
+52
+00:03:08,906 --> 00:03:11,832
+but on the right-hand side, you will get
+9 minus 2 X's.
+
+53
+00:03:11,832 --> 00:03:15,554
+So the X's still don't help you out,
+you still have this mystery mass on the right-hand side.
+
+54
+00:03:15,554 --> 00:03:19,754
+That doesn't help, so instead what we say is 
+- and we did this the last time -
+
+55
+00:03:19,754 --> 00:03:22,560
+We said "what if we took a third of these things?"
+
+56
+00:03:22,560 --> 00:03:24,835
+If we take 1/3 of these things 
+and we take 1/3 of those things,
+
+57
+00:03:24,835 --> 00:03:29,897
+we should still get the same mass on both sides
+because the original things had the same mass.
+
+58
+00:03:29,897 --> 00:03:32,220
+The equivalent of doing this mathematically 
+is to say
+
+59
+00:03:32,220 --> 00:03:35,563
+"Why don't we multiply both sides by one-third?"
+
+60
+00:03:35,563 --> 00:03:38,164
+Or another way to say it is
+"we can divide both sides by three"
+
+61
+00:03:38,164 --> 00:03:41,739
+Multiplying by 1/3 is the same thing as dividing by 3.
+
+62
+00:03:41,739 --> 00:03:44,572
+So we multiply both sides by one-third.
+
+63
+00:03:44,572 --> 00:03:48,420
+When you multiply by one-third, visually, 
+over here, if you had 3 X's
+
+64
+00:03:48,420 --> 00:03:51,354
+and you multiplied by 1/3,
+you would have only one X left.
+
+65
+00:03:51,354 --> 00:03:59,247
+If you have 9 of these 1 kg boxes, and you multiply by 1/3, you will have 3 left.
+
+66
+00:03:59,247 --> 00:04:04,487
+Over here you can even visually divide by 3
+- which is the same as multiplying by 1/3 -
+
+67
+00:04:04,487 --> 00:04:15,408
+-- so you divide by 3 -
+you have an X is equal to 1 + 1 + 1. X = 3.
+
+68
+00:04:15,408 --> 00:04:18,620
+Or you see here that X = 3.
+
+69
+00:04:18,620 --> 00:04:22,887
+Over here you do the math:
+1/3 * 3 = 1 and you're left with one X
+
+70
+00:04:22,887 --> 00:04:29,898
+so you are left with
+X = 9 * 1/3, or you can do 9 divided by 3,
+
+71
+00:04:29,898 --> 00:04:36,687
+which is equal to 3.

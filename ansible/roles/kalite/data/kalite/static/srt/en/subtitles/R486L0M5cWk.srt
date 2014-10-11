@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:01,513
+Let's say we had to figure out
+
+2
+00:00:01,513 --> 00:00:05,478
+how many times 16 goes into 1,388.
+
+3
+00:00:05,478 --> 00:00:07,660
+And what I want to do is first think about how we
+
+4
+00:00:07,660 --> 00:00:13,555
+traditionally solve a problem like this, and then introduce another method that allows for a little bit more approximation.
+
+5
+00:00:13,555 --> 00:00:17,807
+So traditionally you would say, well sixteen does not go into one any times,
+
+6
+00:00:17,807 --> 00:00:21,146
+so then you move over one spot, and then how many times does it go into 13?
+
+7
+00:00:21,146 --> 00:00:25,079
+Well it still does not go into 13, and then you go all the way into 138.
+
+8
+00:00:25,079 --> 00:00:29,008
+And then you say, well, sixteen does go into 138, but how many times does
+
+9
+00:00:29,008 --> 00:00:34,663
+it go into 138? And you might try nine first, and I'll do all my arithmetic on the
+
+10
+00:00:34,663 --> 00:00:48,823
+right side so you ight say 16 times 9, 6 times 9 is 54, 1 times 9 is nine,
+
+11
+00:00:48,823 --> 00:00:57,163
+plus five is fourteen, so that's a hundred and forty-four times, but still, that's larger than a 138.
+
+12
+00:00:57,163 --> 00:01:01,481
+So it's going to go into it eight times, eight times is going to be less than 138,
+
+13
+00:01:01,481 --> 00:01:04,740
+so we stick the eight here. And notice to do this little trial and error here
+
+14
+00:01:04,740 --> 00:01:09,477
+I had to make sure I got the right exact answer with that eight right over here. Then when we say eight
+
+15
+00:01:09,477 --> 00:01:17,490
+times six is 48, and then eight times one is eight, plus four, is twelve.
+
+16
+00:01:17,490 --> 00:01:25,893
+So eight times sixteen is 128, so when I subtract, I get the remainder from 138, so I get a remainder
+
+17
+00:01:25,893 --> 00:01:30,062
+of eight minus eight is zero, 3-2 is 1, and these cancel out.
+
+18
+00:01:30,062 --> 00:01:33,852
+So I have a remainder of ten, but I still have a remainder of eight so I bring
+
+19
+00:01:33,852 --> 00:01:37,063
+that down and I have a hundred and eight. And then I do the same thing again.
+
+20
+00:01:37,063 --> 00:01:40,288
+Let me get rid of this so everyone doesn't get distracted, we say how many times does
+
+21
+00:01:40,288 --> 00:01:46,415
+sixteen go into 108? And you can approximate and say well, it's definitely not eight times, eight times
+
+22
+00:01:46,415 --> 00:01:50,647
+is 128, is it, maybe, seven times?, and you might do a little math on the side,
+
+23
+00:01:50,647 --> 00:02:04,270
+so its 16 times 7, 6 times 7 is 42, one times 7 is seven plus four is eleven, so you get 112. So that's
+
+24
+00:02:04,270 --> 00:02:08,543
+still to large, so that's going to be six, but notice, we had to do this little sidework on the side
+
+25
+00:02:08,543 --> 00:02:14,072
+right over here to come up--to realize it wasn't seven, we know six is the largest how many times it
+
+26
+00:02:14,072 --> 00:02:22,402
+can go into 108 without going over it. So 6 times 6 is 36,carry the three and regroup the 3 depending
+
+27
+00:02:22,402 --> 00:02:30,126
+on how you think about it. 6 times 1 is 6 plus 3 is 9, plus six is -- or plus six is nine/ Then you subtract
+
+28
+00:02:30,126 --> 00:02:36,295
+again, eight minus six is two, and then you could just say ten minus nine is one, or you can even borrow,
+
+29
+00:02:36,295 --> 00:02:41,915
+you could make this ten and then this goes away, 10-9 is 1, so then you have 12. And for not going
+
+30
+00:02:41,915 --> 00:02:44,980
+into decimals, you're kind of done, because 16 does not go into 12,
+
+31
+00:02:44,980 --> 00:02:57,890
+so 16 goes into 1388 eighty-six times with a remainder of 12. And that's all a decent way of doing it.
+
+32
+00:02:57,890 --> 00:03:00,537
+And that's the way you traditionally know how to do it, but what I wanna do is to
+
+33
+00:03:00,537 --> 00:03:04,345
+introduce another, maybe a little more interesting way to solve a long division problem.
+
+34
+00:03:04,345 --> 00:03:13,912
+So once again, 16 goes into 1388. What we're going to do is give us a much more leeway
+
+35
+00:03:13,912 --> 00:03:18,277
+for approximation or for essentially guessing. And what we want to do is just guess
+
+36
+00:03:18,277 --> 00:03:25,197
+we are going to make guesses for how many times 16 goes into the numbers without overestimating,
+
+37
+00:03:25,197 --> 00:03:30,816
+without jumping too high. And now we're going to talk, we're not just going to think about 1 or 13 or 139.
+
+38
+00:03:30,816 --> 00:03:35,971
+We are going to think about the whole number as a whole, and before we do that I am going to get
+
+39
+00:03:35,971 --> 00:03:39,268
+two things out of the way, just because it will help us. I am just going to remind ourselves
+
+40
+00:03:39,268 --> 00:03:44,098
+what 16 times 2 and 16 times 5 are. I am just picking these as random numbers that we can use
+
+41
+00:03:44,098 --> 00:03:47,627
+to approximate. You do not have to use 2 and 5, you can use any numbers.
+
+42
+00:03:47,627 --> 00:03:52,643
+Maybe I'll show other examples there. So 16 times 2, we know, is 32.
+
+43
+00:03:52,643 --> 00:04:02,209
+16 times 5 is 50+30 which is 80. Let's just keep these two results in mind while we try
+
+44
+00:04:02,209 --> 00:04:05,878
+to tackle this right over here. So the first thing to think about is the best guess
+
+45
+00:04:05,878 --> 00:04:13,275
+for how many times does 16 go into 1388. Or another way to think about, how many times
+
+46
+00:04:13,275 --> 00:04:18,881
+does 16 go into a thousand, let's just do something as a very rough approximation.
+
+47
+00:04:18,881 --> 00:04:27,240
+Well, we know it is not going to be 100, because 100 times 16 would be 1600.
+
+48
+00:04:27,240 --> 00:04:32,395
+You just roll those two zeros at the end of it. And you say how many times does it go into a thousand.
+
+49
+00:04:32,395 --> 00:04:43,076
+We know 16 times 5 is 80. We know that 16 times 50 would be 800. Let's use that.
+
+50
+00:04:43,076 --> 00:04:47,395
+I'm using 5 instead of 2, I'm multiplying it by another 10 to get to 50,
+
+51
+00:04:47,395 --> 00:04:53,200
+because 800 is a lot closer than 320 to 1000 that we care about.
+
+52
+00:04:53,200 --> 00:05:02,535
+We could say, well, 16 times 50 will get us to 800. Once again, how do I know that?
+
+53
+00:05:02,535 --> 00:05:10,383
+Well, 16 times 5, I know, is 80, so 16 times 50, I have multiplied by 10, is 800.
+
+54
+00:05:10,383 --> 00:05:20,925
+And then I just subtract. 8-0 is 8, and then you can say 13-5 is 588.
+
+55
+00:05:20,925 --> 00:05:27,194
+Now we ask ourselves, how many times does 16 go into 588? How close can we get to that.
+
+56
+00:05:27,194 --> 00:05:30,817
+And let's just assume that we only know the stuff right over here, or we can multiply 16
+
+57
+00:05:30,817 --> 00:05:35,228
+times a multiple of 10. So 800 would once again be too big.
+
+58
+00:05:35,228 --> 00:05:43,773
+Let's just go with 320 right over here. We know that 16 times 2 is 32
+
+59
+00:05:43,773 --> 00:05:54,965
+so 16 times 20 is going to be 320. I just multiplied 2 times 10 which would give our product to times 10.
+
+60
+00:05:54,965 --> 00:06:04,857
+So we can subtract this right over here. 8-0 is 8, 8-2 is 6 and then 5-3 is 2.
+
+61
+00:06:04,857 --> 00:06:13,356
+Now I'm left with 268 and we say, how many times does 16 go into 268.
+
+62
+00:06:13,356 --> 00:06:21,204
+Let's see, 800 is too big, even 320 is now too big. Well, we could say, let's see 10 times 16
+
+63
+00:06:21,204 --> 00:06:25,476
+results in 160. Let's just try that out. We do not even have to get the right exact answer.
+
+64
+00:06:25,476 --> 00:06:28,216
+We do not have to get the highest multiple that is less than 268. We just have to make sure
+
+65
+00:06:28,216 --> 00:06:38,015
+that we are still within 268. If we multiply, we do a new color over here, 16 times 10 we get 160.
+
+66
+00:06:38,015 --> 00:06:52,086
+160 we subtract again. 8-0 is 8, 6-6 is 0 and 2-1 is 1. We are left with how many times does 16 go into 108.
+
+67
+00:06:52,086 --> 00:06:57,659
+And we can go back to..., we know 16 times 5 is 80. So let's just try out 5.
+
+68
+00:06:57,659 --> 00:07:08,062
+16 times 5 is 80, we subtract right over here. 8-0 is 8, 10-8 is 2, so we are left with 28.
+
+69
+00:07:08,062 --> 00:07:13,681
+Now it is pretty simple. How many times does 16 go into 28? Well it only goes into it one time.
+
+70
+00:07:13,681 --> 00:07:24,083
+Then when you subtract 16 from 28, 8-6 is 2 and 2-1 is 1. You are left with a remainder of 12.
+
+71
+00:07:24,083 --> 00:07:27,892
+We might say how do we know how many times does 16 go into 1388?
+
+72
+00:07:27,892 --> 00:07:36,483
+Well it goes 50 times plus 20 times plus 10 times plus 5 times plus 1 time.
+
+73
+00:07:36,483 --> 00:07:40,198
+That is going to be, you could just add up all of these things on the right hand side.
+
+74
+00:07:40,198 --> 00:07:50,368
+That is going to be 50 plus 20 is 70, plus 10 is 80, plus 5 is 85 plus 1 is 86. So there we have it.
+
+75
+00:07:50,368 --> 00:07:55,152
+It went into it 86 times with a remainder of 12.
+
+76
+00:07:55,152 --> 00:07:58,263
+What's cool about this method is that every step, I could put 60 over here
+
+77
+00:07:58,263 --> 00:08:04,161
+and I could do the math correctly. Or I could have picked my two multiples to be 16 times 6 and 16 times 3
+
+78
+00:08:04,161 --> 00:08:07,760
+and I would get different results here, but at the end I would still have gotten the right answers.
+
+79
+00:08:07,760 --> 00:08:10,082
+So what it does is give us some methods so that we are always thinking about,
+
+80
+00:08:10,082 --> 00:08:16,746
+we are kind of biting away chunks of what we are dividing into. So first we bit off an 800 piece chunk.
+
+81
+00:08:16,746 --> 00:08:24,177
+Then we bit off a 320 piece chunk, and we keep going until we cannot divide by 16 anymore.
+
+82
+00:08:24,177 --> 00:08:25,918
+Hopefully you found that kind of interesting.

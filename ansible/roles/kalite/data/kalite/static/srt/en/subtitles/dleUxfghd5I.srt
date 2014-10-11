@@ -1,0 +1,215 @@
+1
+00:00:04,377 --> 00:00:09,047
+Up until the 1970's, cryptography had been based on symmetric keys.
+
+2
+00:00:09,047 --> 00:00:12,476
+That is, the sender encrypts their message using a specific key
+
+3
+00:00:12,506 --> 00:00:15,610
+and the receiver decrypts using an identical key.
+
+4
+00:00:18,163 --> 00:00:22,303
+As you may recall, encryption is a mapping from some message,
+
+5
+00:00:22,303 --> 00:00:25,794
+using a specific key, to a cyphertext message.
+
+6
+00:00:27,516 --> 00:00:31,511
+To decrypt the cyphertext you use the same key to reverse the mapping.
+
+7
+00:00:32,418 --> 00:00:35,280
+So for Alice and Bob to communicate securely,
+
+8
+00:00:35,280 --> 00:00:38,440
+they must first share identical keys.
+
+9
+00:00:38,440 --> 00:00:41,827
+However establishing a shared key is often impossible,
+
+10
+00:00:41,827 --> 00:00:44,140
+if Alice and Bob can't physically meet,
+
+11
+00:00:44,140 --> 00:00:48,427
+or requires extra communications overhead, when using the Diffie-Hellman key exchange.
+
+12
+00:00:48,489 --> 00:00:53,960
+Plus, if Alice needs to communicate with multiple people, perhaps she's a bank,
+
+13
+00:00:54,007 --> 00:00:59,900
+then she's going to have to exchange distinct keys with each person.
+
+14
+00:01:03,023 --> 00:01:05,792
+Now she'll have to manage all of these keys
+
+15
+00:01:05,808 --> 00:01:10,120
+and send thousands of messages just to establish them.
+
+16
+00:01:12,228 --> 00:01:14,827
+Could there be a simpler way?
+
+17
+00:01:15,181 --> 00:01:18,837
+In 1970 James Ellis a British engineer and mathematician
+
+18
+00:01:18,837 --> 00:01:21,921
+was working on an idea for non-secret encryption.
+
+19
+00:01:22,029 --> 00:01:25,759
+It's based on a simple yet clever concept.
+
+20
+00:01:25,759 --> 00:01:29,250
+Lock and unlock are inverse operations.
+
+21
+00:01:29,250 --> 00:01:31,629
+Alice could buy a lock, keep the key
+
+22
+00:01:31,629 --> 00:01:35,396
+and send the opened lock to Bob.
+
+23
+00:01:35,411 --> 00:01:39,495
+Bob then locks his message and sends it back to Alice.
+
+24
+00:01:39,495 --> 00:01:42,267
+No keys are exchanged.
+
+25
+00:01:42,421 --> 00:01:45,657
+This means she could publish the lock widely
+
+26
+00:01:45,657 --> 00:01:48,841
+and let anyone in the world use it to send her a message.
+
+27
+00:01:53,209 --> 00:01:57,209
+And she now only needs to keep track of a single key.
+
+28
+00:02:01,161 --> 00:02:03,144
+Ellis never arrived at a mathematical solution,
+
+29
+00:02:03,144 --> 00:02:06,676
+though he added an intuitive sense of how it should work.
+
+30
+00:02:07,045 --> 00:02:11,042
+The idea is based on splitting a key into two parts:
+
+31
+00:02:11,042 --> 00:02:13,997
+an encryption key and a decryption key.
+
+32
+00:02:13,997 --> 00:02:18,471
+The decryption key performs the inverse or undo operation,
+
+33
+00:02:18,471 --> 00:02:21,686
+which was applied by the encryption key.
+
+34
+00:02:21,717 --> 00:02:26,838
+To see how inverse keys could work, let's do a simplified example with colours.
+
+35
+00:02:28,299 --> 00:02:31,413
+How could Bob send Alice a specific colour
+
+36
+00:02:31,413 --> 00:02:35,229
+without Eve, who is always listening, intercepting it?
+
+37
+00:02:35,229 --> 00:02:39,494
+The inverse of some colour is called the complementary colour,
+
+38
+00:02:39,510 --> 00:02:47,397
+which when added to it produces white, undoing the effect of the first colour.
+
+39
+00:02:48,197 --> 00:02:52,461
+In this example we assume that mixing colours is a one-way function,
+
+40
+00:02:52,508 --> 00:02:58,160
+because it's fast to mix colours and output a third and it's much slower to undo.
+
+41
+00:03:01,314 --> 00:03:07,484
+Alice first generates her private key by randomly selecting a colour, say red.
+
+42
+00:03:07,484 --> 00:03:11,826
+Next, assume Alice uses a secret colour machine
+
+43
+00:03:11,826 --> 00:03:14,333
+to find the exact complement of her red,
+
+44
+00:03:14,333 --> 00:03:16,951
+and nobody else has acces to this.
+
+45
+00:03:16,951 --> 00:03:22,675
+This results in cyan, which she sends to Bob as her public key.
+
+46
+00:03:22,906 --> 00:03:26,758
+Let's say Bob wants to send a secret yellow to Alice.
+
+47
+00:03:26,758 --> 00:03:32,373
+He mixes this with her public colour and sends the resulting mixture back to Alice.
+
+48
+00:03:32,373 --> 00:03:37,024
+Now, Alice ads her private colour to Bob's mixture.
+
+49
+00:03:37,239 --> 00:03:40,504
+This undoes the effect of her public colour,
+
+50
+00:03:40,504 --> 00:03:42,982
+leaving her with Bob's secret colour.
+
+51
+00:03:42,982 --> 00:03:45,628
+Notice Eve has no easy way to find Bob's yellow,
+
+52
+00:03:45,628 --> 00:03:48,856
+since she needs Alice's private red to do so.
+
+53
+00:03:48,856 --> 00:03:50,878
+This is how it should work.
+
+54
+00:03:50,878 --> 00:03:54,878
+However, a mathematical solution was needed to make this work in practice.

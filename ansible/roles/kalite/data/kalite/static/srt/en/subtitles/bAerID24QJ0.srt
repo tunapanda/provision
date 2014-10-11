@@ -1,0 +1,663 @@
+1
+00:00:01,539 --> 00:00:04,377
+welcome to level one linear equations
+
+2
+00:00:04,377 --> 00:00:06,201
+let's start doing some problems
+
+3
+00:00:06,201 --> 00:00:12,264
+so let's say i had the equation 5 (that's a big fat 5).
+
+4
+00:00:12,264 --> 00:00:16,463
+5x equals 20
+
+5
+00:00:16,463 --> 00:00:18,802
+so at first this might look a little unfamiliar to you
+
+6
+00:00:18,802 --> 00:00:22,204
+but if I rephrase this, you'll realize this is pretty easy problem
+
+7
+00:00:22,204 --> 00:00:31,540
+all this is is, it's the same thing as saying this is 5 times questionmark
+
+8
+00:00:31,540 --> 00:00:33,410
+equals 20
+
+9
+00:00:33,410 --> 00:00:35,120
+and the reason why we notation a little bit
+
+10
+00:00:35,120 --> 00:00:37,456
+we write the 5 next to the x
+
+11
+00:00:38,129 --> 00:00:38,802
+because when you write a number right next to a variable you assume that you're multiplying them.
+
+12
+00:00:39,623 --> 00:00:44,033
+so this is saying 5 times x
+
+13
+00:00:44,033 --> 00:00:45,124
+so instead of a questionmark
+
+14
+00:00:45,124 --> 00:00:46,409
+we're writing an x
+
+15
+00:00:46,409 --> 00:00:48,203
+so five times x is equal to 20
+
+16
+00:00:48,203 --> 00:00:51,803
+now most of you can do that all in your head
+
+17
+00:00:51,803 --> 00:00:53,909
+you can say well what number times 5 is equal to 20?
+
+18
+00:00:53,909 --> 00:00:56,033
+well, it equals 4
+
+19
+00:00:56,033 --> 00:00:58,957
+but we can do it systematically just in case
+
+20
+00:00:58,957 --> 00:01:01,282
+that 5 is a more complicated number
+
+21
+00:01:01,282 --> 00:01:05,905
+so let me make my pen a little thinner. ok.
+
+22
+00:01:05,905 --> 00:01:06,954
+so rewriting it
+
+23
+00:01:06,954 --> 00:01:12,619
+if I had 5 x equals 20
+
+24
+00:01:12,619 --> 00:01:15,404
+we could do 2 things and they're essentially the same thing
+
+25
+00:01:15,404 --> 00:01:21,201
+we could say we just divide both sides of this equation by 5
+
+26
+00:01:21,201 --> 00:01:24,623
+in which case the left hand side those two fives will cancel out
+
+27
+00:01:24,623 --> 00:01:25,622
+we'll get x
+
+28
+00:01:25,622 --> 00:01:27,124
+and then the right hand side
+
+29
+00:01:27,124 --> 00:01:28,708
+20 divided by 5
+
+30
+00:01:28,708 --> 00:01:30,407
+is 4. And we've solved it.
+
+31
+00:01:30,407 --> 00:01:33,366
+Another way to do it and this is actually the exact same
+
+32
+00:01:33,366 --> 00:01:34,457
+way we are just phrasing it a little different
+
+33
+00:01:34,457 --> 00:01:37,457
+if you said 5 x
+
+34
+00:01:37,457 --> 00:01:39,625
+equals 20
+
+35
+00:01:39,625 --> 00:01:42,036
+instead of dividing by 5 we could multiply
+
+36
+00:01:42,036 --> 00:01:45,202
+by one fifth
+
+37
+00:01:45,202 --> 00:01:47,700
+and if you look at that you could realize that
+
+38
+00:01:47,700 --> 00:01:49,801
+multiplying by one fifth is the same thing
+
+39
+00:01:49,801 --> 00:01:51,704
+as dividing by five
+
+40
+00:01:51,704 --> 00:01:54,602
+if you know the difference between dividing and multiplying fractions.
+
+41
+00:01:54,602 --> 00:01:55,949
+and then that gets the same thing
+
+42
+00:01:55,949 --> 00:01:56,874
+one fifth times 5 is 1
+
+43
+00:01:56,874 --> 00:01:59,373
+so you're left with an x
+
+44
+00:01:59,373 --> 00:02:02,037
+equals 4
+
+45
+00:02:02,037 --> 00:02:05,705
+i tend to focus a little bit more on this
+
+46
+00:02:05,705 --> 00:02:07,282
+because when we start having fractions instead of a five
+
+47
+00:02:07,282 --> 00:02:08,867
+it's easier to just think about multiplying
+
+48
+00:02:08,867 --> 00:02:10,408
+by the reciprocle
+
+49
+00:02:10,408 --> 00:02:14,404
+actually let's do one of those right now
+
+50
+00:02:14,404 --> 00:02:20,373
+so let's say I had negative 3 over 4
+
+51
+00:02:20,373 --> 00:02:22,957
+times x
+
+52
+00:02:23,372 --> 00:02:25,456
+equals
+
+53
+00:02:25,456 --> 00:02:30,203
+10 over 13
+
+54
+00:02:30,203 --> 00:02:31,309
+now this is a harder problem
+
+55
+00:02:31,309 --> 00:02:32,623
+I can't do this one in my head
+
+56
+00:02:32,623 --> 00:02:35,036
+We're saying negative three fourths
+
+57
+00:02:35,036 --> 00:02:37,623
+times some number x
+
+58
+00:02:37,623 --> 00:02:40,120
+is equal to 10 over 13
+
+59
+00:02:40,120 --> 00:02:41,122
+if someone came to you on the street
+
+60
+00:02:41,122 --> 00:02:43,292
+and asked you that I think you'd be like me
+
+61
+00:02:43,292 --> 00:02:46,209
+you'd be pretty .. ah... stumped.
+
+62
+00:02:46,209 --> 00:02:48,303
+but let's work it out algebraically
+
+63
+00:02:48,303 --> 00:02:49,707
+well, we'll do the same thing
+
+64
+00:02:49,707 --> 00:02:53,200
+we multiply both sides by the coefficient
+
+65
+00:02:53,200 --> 00:02:54,100
+on x
+
+66
+00:02:54,100 --> 00:02:55,041
+So the coefficient, all that is
+
+67
+00:02:55,041 --> 00:02:57,117
+all that fancy word means
+
+68
+00:02:57,117 --> 00:03:00,907
+is the number that's being multiplied by x
+
+69
+00:03:00,907 --> 00:03:02,702
+so what's the coefficient, the reciprocal
+
+70
+00:03:02,702 --> 00:03:04,373
+of minus three fourths? well,
+
+71
+00:03:04,373 --> 00:03:09,540
+it's minus 4 over 3
+
+72
+00:03:09,540 --> 00:03:13,206
+times... and dot is another way to use times....
+
+73
+00:03:13,206 --> 00:03:15,116
+and you're probably wondering why in algebra
+
+74
+00:03:15,116 --> 00:03:18,409
+there are all these other conventions for doing times
+
+75
+00:03:18,409 --> 00:03:20,288
+as opposed to just a traditional multiplication sign
+
+76
+00:03:20,288 --> 00:03:26,803
+and the main reason I think it's just a regular multiplication sign just gets confused with the variable x so they thought
+
+77
+00:03:26,803 --> 00:03:28,507
+of either using a dot
+
+78
+00:03:28,568 --> 00:03:31,693
+if you're multiplying two constants
+
+79
+00:03:31,832 --> 00:03:35,829
+or just writing it next to a variable to imply you're multiplying a variable
+
+80
+00:03:35,952 --> 00:03:37,764
+so if we multiply the left hand side by negative four thirds
+
+81
+00:03:37,764 --> 00:03:38,768
+we also have to do the same thing
+
+82
+00:03:38,768 --> 00:03:41,022
+to the right hand side
+
+83
+00:03:41,022 --> 00:03:42,595
+minus four thirds
+
+84
+00:03:42,595 --> 00:03:45,006
+the left hand side the minus four thirds and three fourths,
+
+85
+00:03:45,006 --> 00:03:46,502
+they cancel out
+
+86
+00:03:46,502 --> 00:03:47,866
+you could work it out on your own to see that they do
+
+87
+00:03:47,866 --> 00:03:50,125
+they equal one so we're just left with x
+
+88
+00:03:50,125 --> 00:03:52,874
+x is equal to
+
+89
+00:03:52,874 --> 00:03:54,708
+10 times minus 4
+
+90
+00:03:54,708 --> 00:03:56,803
+is minus 40
+
+91
+00:03:56,803 --> 00:03:59,625
+13 times 3
+
+92
+00:03:59,625 --> 00:04:00,904
+well that's equal to 39
+
+93
+00:04:00,950 --> 00:04:04,659
+so you get x is equal to minus 40 over 39
+
+94
+00:04:04,906 --> 00:04:11,302
+and I like to leave my fractions improper cause it's easier to deal with them
+
+95
+00:04:11,302 --> 00:04:16,311
+but you could also... if you wanted to write that as a mixed number
+
+96
+00:04:16,311 --> 00:04:19,800
+minus 1 and one thirthyninth
+
+97
+00:04:19,800 --> 00:04:22,206
+i tend to keep it like this though
+
+98
+00:04:22,206 --> 00:04:24,204
+let's check to make sure that's right
+
+99
+00:04:24,204 --> 00:04:27,285
+the cool thing about algebra is you can always get your answer and put it back into the orgiginal equation
+
+100
+00:04:27,285 --> 00:04:29,540
+to make sure you're right
+
+101
+00:04:29,540 --> 00:04:31,043
+so the original equation was
+
+102
+00:04:31,043 --> 00:04:35,209
+minus three fourths times x
+
+103
+00:04:35,209 --> 00:04:39,456
+and here we'll substitute the x back into the equation
+
+104
+00:04:39,456 --> 00:04:43,121
+where we saw x we'll now put our answer
+
+105
+00:04:43,121 --> 00:04:46,836
+so it's minus 40 over 39
+
+106
+00:04:47,128 --> 00:04:53,000
+and our original equation said that that equals to 10 over 13
+
+107
+00:04:53,000 --> 00:04:57,534
+well. and once again when I just write the three fourths times right next to the parenthesis like that
+
+108
+00:04:57,534 --> 00:05:00,041
+that's another way of writing times
+
+109
+00:05:00,041 --> 00:05:02,003
+so
+
+110
+00:05:02,003 --> 00:05:05,039
+minus 3 times minus 40
+
+111
+00:05:05,039 --> 00:05:11,007
+is minus 100 ... actually we could do something a little simpler
+
+112
+00:05:11,007 --> 00:05:16,210
+this 4 becomes a 1 and this becomes a 10
+
+113
+00:05:16,210 --> 00:05:21,802
+and if you remember how when you're multiplying fractions you can simplify it like that
+
+114
+00:05:21,802 --> 00:05:30,706
+so it actually becomes plus 30 (because we have a minus times a minus is plus) and 3 times 10
+
+115
+00:05:30,706 --> 00:05:31,541
+over
+
+116
+00:05:31,541 --> 00:05:34,507
+the 4 is now a 1 so all is left is 39
+
+117
+00:05:34,507 --> 00:05:36,304
+and 30 over 39
+
+118
+00:05:36,304 --> 00:05:37,700
+if we divide the top and the bottom
+
+119
+00:05:37,700 --> 00:05:39,622
+by 3
+
+120
+00:05:39,622 --> 00:05:41,626
+we get 10 over 13
+
+121
+00:05:42,133 --> 00:05:43,901
+which is the same thing
+
+122
+00:05:43,901 --> 00:05:46,636
+which the equation said it would be
+
+123
+00:05:46,636 --> 00:05:50,008
+so we know that we got the right answer
+
+124
+00:05:50,008 --> 00:05:52,373
+let's do one more problem
+
+125
+00:05:53,234 --> 00:05:59,599
+minus 5 sixths
+
+126
+00:05:59,599 --> 00:06:00,618
+x
+
+127
+00:06:00,618 --> 00:06:01,701
+is equal to
+
+128
+00:06:01,701 --> 00:06:03,005
+7 eights
+
+129
+00:06:03,005 --> 00:06:03,908
+and if you wanna try this problem yourself
+
+130
+00:06:03,908 --> 00:06:05,705
+now is a good time to pause
+
+131
+00:06:05,705 --> 00:06:08,000
+And I'm gonna start doing the problem right now
+
+132
+00:06:08,000 --> 00:06:10,209
+So, same thing
+
+133
+00:06:10,209 --> 00:06:12,368
+What's the reciprocal of minus 5 sixths?
+
+134
+00:06:12,368 --> 00:06:15,705
+Well, it's minus 6 over 5
+
+135
+00:06:15,705 --> 00:06:17,351
+We multiply that
+
+136
+00:06:17,351 --> 00:06:18,620
+If we do it on the left hand side
+
+137
+00:06:18,620 --> 00:06:21,706
+we have to do it on the right hand side as well
+
+138
+00:06:21,706 --> 00:06:23,617
+minus 6 over 5
+
+139
+00:06:23,617 --> 00:06:25,876
+the left hand side the minus 6 over 5
+
+140
+00:06:25,876 --> 00:06:27,802
+and minus 5 sixths cancel out
+
+141
+00:06:27,802 --> 00:06:30,118
+we're just left with x
+
+142
+00:06:30,118 --> 00:06:32,627
+and the right hand side
+
+143
+00:06:32,627 --> 00:06:33,826
+we have
+
+144
+00:06:33,826 --> 00:06:38,455
+well we can divide both 6 and the 8 by 2
+
+145
+00:06:38,455 --> 00:06:40,711
+so that makes negative 3
+
+146
+00:06:40,711 --> 00:06:43,002
+and this becomes 4
+
+147
+00:06:43,002 --> 00:06:47,541
+7 times negative 3 is minus 21
+
+148
+00:06:47,541 --> 00:06:50,404
+over 20
+
+149
+00:06:50,404 --> 00:06:52,702
+and assuming I haven't made any careless mistakes
+
+150
+00:06:52,702 --> 00:06:54,207
+that should be right
+
+151
+00:06:54,207 --> 00:06:55,712
+actually let's just check that real fast
+
+152
+00:06:55,712 --> 00:06:57,803
+so minus 5 sixths
+
+153
+00:06:57,803 --> 00:07:00,620
+times minus 21 over 20
+
+154
+00:07:00,620 --> 00:07:03,302
+well
+
+155
+00:07:03,302 --> 00:07:04,802
+that equals
+
+156
+00:07:04,802 --> 00:07:07,374
+we could make this 5 a 1 and turn this into a 4
+
+157
+00:07:07,374 --> 00:07:10,802
+make this into a 2
+
+158
+00:07:10,802 --> 00:07:12,802
+make this into a 7
+
+159
+00:07:12,802 --> 00:07:15,008
+negative times negative is positive
+
+160
+00:07:15,008 --> 00:07:16,120
+so 7
+
+161
+00:07:16,120 --> 00:07:18,118
+2 times 4 is 8!
+
+162
+00:07:18,118 --> 00:07:19,903
+and that's what we said we would get
+
+163
+00:07:19,903 --> 00:07:21,302
+so we got it right
+
+164
+00:07:21,302 --> 00:07:23,040
+I think you're ready at this point
+
+165
+00:07:23,040 --> 00:07:25,002
+to try some level 1 equations
+
+166
+00:07:25,002 --> 00:07:27,400
+Have fun!

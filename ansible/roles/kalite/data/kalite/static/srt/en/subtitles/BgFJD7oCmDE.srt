@@ -1,0 +1,163 @@
+1
+00:00:04,947 --> 00:00:08,157
+A strong cipher is one which disguises your fingerprint.
+
+2
+00:00:08,957 --> 00:00:10,840
+To make a lighter fingerprint
+
+3
+00:00:10,840 --> 00:00:14,274
+is to flatten this distribution of letter frequencies.
+
+4
+00:00:17,597 --> 00:00:18,935
+By the mid 15th century,
+
+5
+00:00:18,935 --> 00:00:21,266
+we had advanced the polyalphabetic ciphers
+
+6
+00:00:21,266 --> 00:00:23,357
+to accomplish this.
+
+7
+00:00:23,357 --> 00:00:28,167
+Imagine Alice and Bob shared a secret shift word.
+
+8
+00:00:28,167 --> 00:00:30,766
+First, Alice converts the word into numbers
+
+9
+00:00:30,766 --> 00:00:33,223
+according of the letter position in the alphabet.
+
+10
+00:00:33,223 --> 00:00:37,830
+Next, this sequence of numbers is repeated along the message.
+
+11
+00:00:39,476 --> 00:00:41,981
+Then each letter in the message is encrypted
+
+12
+00:00:41,981 --> 00:00:44,160
+by shifting according to the number below it.
+
+13
+00:00:45,129 --> 00:00:48,809
+Now, she's using multiple shifts instead of a single shift
+
+14
+00:00:48,809 --> 00:00:53,637
+across the message as Caesar had done before.
+
+15
+00:00:53,637 --> 00:00:56,626
+Then, the encrypted message is sent openly to Bob.
+
+16
+00:00:58,488 --> 00:01:01,626
+Bob decrypts the message by subtracting the shifts
+
+17
+00:01:01,626 --> 00:01:04,859
+according to the secret word he also has a copy of.
+
+18
+00:01:06,121 --> 00:01:08,042
+Now imagine a codebreaker, Eve,
+
+19
+00:01:08,042 --> 00:01:10,173
+intercepts a series of messages
+
+20
+00:01:10,173 --> 00:01:12,642
+and calculates the letter frequencies,
+
+21
+00:01:13,673 --> 00:01:18,043
+she'll find a flatter distribution or a lighter fingerprint,
+
+22
+00:01:18,043 --> 00:01:20,592
+so how could she break this?
+
+23
+00:01:22,546 --> 00:01:26,169
+Remember, codebreakers look for information leaked,
+
+24
+00:01:26,169 --> 00:01:29,382
+the same as finding a partial fingerprint.
+
+25
+00:01:29,382 --> 00:01:32,411
+Any time there's a differential in letter frequencies,
+
+26
+00:01:32,411 --> 00:01:34,929
+a leak of information occurs.
+
+27
+00:01:36,129 --> 00:01:39,826
+This difference is caused by repetition in the encrypted message.
+
+28
+00:01:41,703 --> 00:01:45,911
+In this case, Alice's cipher contains a repeating code word.
+
+29
+00:01:47,219 --> 00:01:51,096
+To break the encryption, Eve would first need to determine
+
+30
+00:01:51,096 --> 00:01:55,567
+the length of the shift word used, not the word itself.
+
+31
+00:01:55,567 --> 00:01:56,922
+She'll need to go through
+
+32
+00:01:56,922 --> 00:02:00,487
+and check the frequency distribution of different intervals.
+
+33
+00:02:00,487 --> 00:02:04,430
+When she checks the frequency distribution of every fifth letter,
+
+34
+00:02:04,430 --> 00:02:07,648
+the fingerprint will reveal itself.
+
+35
+00:02:07,648 --> 00:02:10,144
+The problem now, is to break five Caesar ciphers
+
+36
+00:02:10,144 --> 00:02:12,821
+in a repeating sequence.
+
+37
+00:02:12,821 --> 00:02:14,726
+Individually, this is a trivial task
+
+38
+00:02:14,726 --> 00:02:17,136
+as we have seen before,
+
+39
+00:02:17,136 --> 00:02:19,740
+the added strength of the cipher is the time taken
+
+40
+00:02:19,740 --> 00:02:22,909
+to determine the length of shift word used.
+
+41
+00:02:22,909 --> 00:02:26,909
+The longer the shift word, the stronger the cipher.

@@ -1,0 +1,323 @@
+1
+00:00:01,138 --> 00:00:05,317
+We are asked to find the cube root of -512
+
+2
+00:00:05,317 --> 00:00:08,615
+Or another way to think about it is if I have some number
+
+3
+00:00:08,615 --> 00:00:12,934
+and it is equal to the cube root of -512
+
+4
+00:00:12,934 --> 00:00:17,533
+This just means if I take that number and I raise it to the to the third power
+
+5
+00:00:17,533 --> 00:00:22,867
+then I get -512. And if doesn't jump out at you immediately
+
+6
+00:00:22,867 --> 00:00:29,667
+what this is the cube of or what we have to raise to the third power to get -512
+
+7
+00:00:29,667 --> 00:00:33,400
+the best thing to do, is just to do a prime factorization of it.
+
+8
+00:00:33,400 --> 00:00:38,243
+And before we do a prime factorization of it and to see which of these factors show up at least 3 times,
+
+9
+00:00:38,243 --> 00:00:41,308
+lets at least think about the negative part a little bit.
+
+10
+00:00:41,308 --> 00:00:45,467
+So negative 512 thats the same thing, so let me re-write the expression
+
+11
+00:00:45,467 --> 00:00:51,664
+this is the same thing as the cube root of negative 1 times 512.
+
+12
+00:00:51,664 --> 00:00:54,822
+Which is the same thing as the cube root,
+
+13
+00:00:54,822 --> 00:01:04,333
+which is the same thing as the cube root of -1 times the cube root of 512
+
+14
+00:01:04,333 --> 00:01:06,804
+and this one is pretty straight forward to answer.
+
+15
+00:01:06,804 --> 00:01:09,600
+What number, when I raise it to the third power, do I get -1?
+
+16
+00:01:09,600 --> 00:01:12,795
+Well I get -1! This right here is -1
+
+17
+00:01:12,795 --> 00:01:20,000
+-1 to the third power is equal to -1 time-1 times -1, which is equal to -1
+
+18
+00:01:20,000 --> 00:01:23,200
+So the cube root of -1 is -1
+
+19
+00:01:23,200 --> 00:01:28,133
+So it becomes -1 times, times this business right here
+
+20
+00:01:28,133 --> 00:01:33,400
+Times the cube root, cube root of 512 and lets think of what this might be
+
+21
+00:01:33,400 --> 00:01:35,782
+So, so lets do the prime factorization
+
+22
+00:01:35,782 --> 00:01:41,000
+So 512 is 2 times 256
+
+23
+00:01:41,000 --> 00:01:46,138
+256 is 2 times 128
+
+24
+00:01:46,138 --> 00:01:49,575
+128 is 2 times 64
+
+25
+00:01:49,575 --> 00:01:50,736
+We already see a 2 three times
+
+26
+00:01:50,736 --> 00:01:56,727
+64 is 2 times 32
+
+27
+00:01:56,727 --> 00:01:57,933
+32 is 2 times 16
+
+28
+00:01:57,933 --> 00:01:59,652
+We're getting a lot of twos here
+
+29
+00:01:59,652 --> 00:02:04,250
+16 is 2 times 8
+
+30
+00:02:04,250 --> 00:02:09,823
+8 is 2 times 4
+
+31
+00:02:09,823 --> 00:02:11,200
+And 4 is 2 times 2
+
+32
+00:02:11,200 --> 00:02:11,992
+So we got a lot of twos
+
+33
+00:02:11,992 --> 00:02:13,185
+If you multiply
+
+34
+00:02:13,185 --> 00:02:18,800
+So essentially if you multiply two 1, 2, 3, 4, 5, 6, 7, 8, 9 times
+
+35
+00:02:18,800 --> 00:02:21,200
+You are going to get 512
+
+36
+00:02:21,200 --> 00:02:23,012
+Or 2 to the 9th power is 512
+
+37
+00:02:23,012 --> 00:02:25,867
+And that by itself should give you a clue of what the cube root is
+
+38
+00:02:25,867 --> 00:02:28,610
+But another way to think about it is
+
+39
+00:02:28,610 --> 00:02:29,749
+Can we find
+
+40
+00:02:29,749 --> 00:02:31,139
+There is definetly 3 twos here
+
+41
+00:02:31,139 --> 00:02:33,786
+But can we find 3 groups of 2
+
+42
+00:02:33,786 --> 00:02:34,900
+Or can we
+
+43
+00:02:34,900 --> 00:02:35,867
+We can also find
+
+44
+00:02:35,867 --> 00:02:37,640
+Look at it this way
+
+45
+00:02:37,640 --> 00:02:41,800
+We can find three groups of two 2s over here
+
+46
+00:02:41,800 --> 00:02:43,724
+So that's 2 times 2 is 4
+
+47
+00:02:43,724 --> 00:02:44,699
+2 times 2 is 4
+
+48
+00:02:44,699 --> 00:02:48,600
+So definitely 4 multiplied by itself 3 times is divisible into this
+
+49
+00:02:48,600 --> 00:02:55,000
+But even better it looks like we can get three groups of three twos
+
+50
+00:02:55,000 --> 00:02:59,791
+So one group, two groups and three groups
+
+51
+00:03:01,806 --> 00:03:02,996
+So each of these groups
+
+52
+00:03:02,996 --> 00:03:05,400
+2 times 2 times 2, that's 8
+
+53
+00:03:05,400 --> 00:03:06,712
+That is 8
+
+54
+00:03:06,712 --> 00:03:08,244
+And this is 2 times 2 times 2, thats eight
+
+55
+00:03:08,244 --> 00:03:10,473
+And this is also 2 times 2 times 2
+
+56
+00:03:10,473 --> 00:03:11,402
+So that's 8
+
+57
+00:03:11,402 --> 00:03:14,932
+So we could write 512 as being equal to
+
+58
+00:03:14,932 --> 00:03:18,200
+8 times 8 times 8
+
+59
+00:03:18,200 --> 00:03:20,733
+And so we can re-write this expression right over here
+
+60
+00:03:20,733 --> 00:03:24,823
+As the cube root of 8 times 8 times 8
+
+61
+00:03:24,823 --> 00:03:26,200
+And so this is equal to
+
+62
+00:03:26,200 --> 00:03:28,074
+this is equal to -1
+
+63
+00:03:28,074 --> 00:03:29,653
+Or I'll just put a negitave sign here
+
+64
+00:03:29,653 --> 00:03:36,267
+-1 times the cube root, the cube root of 8 times 8 times 8
+
+65
+00:03:36,267 --> 00:03:37,734
+So we are asking the question
+
+66
+00:03:37,734 --> 00:03:40,400
+What number can we multiply by itself 3 times
+
+67
+00:03:40,400 --> 00:03:42,981
+Or to the third power to get 512
+
+68
+00:03:42,981 --> 00:03:45,000
+Which is the same thing as 8 times 8 times 8
+
+69
+00:03:45,000 --> 00:03:46,975
+Well clearly this is 8
+
+70
+00:03:46,975 --> 00:03:48,136
+So the answer
+
+71
+00:03:48,136 --> 00:03:50,458
+This part right over here is just going to simplifly to eight
+
+72
+00:03:50,458 --> 00:03:52,467
+And so our answer to this
+
+73
+00:03:52,467 --> 00:03:58,400
+The cube root of -512 is -8
+
+74
+00:03:58,400 --> 00:03:59,792
+And we are done
+
+75
+00:03:59,792 --> 00:04:01,139
+And you can verify this
+
+76
+00:04:01,139 --> 00:04:03,786
+Multiply -8 times itself 3 times
+
+77
+00:04:03,786 --> 00:04:05,133
+Well lets just do it
+
+78
+00:04:05,133 --> 00:04:08,988
+-8 times -8 times -8
+
+79
+00:04:08,988 --> 00:04:11,728
+-8 times -8 is positive 64
+
+80
+00:04:11,728 --> 00:04:14,235
+You multiply that times negative 8
+
+81
+00:04:14,235 --> 00:04:18,000
+You get -512

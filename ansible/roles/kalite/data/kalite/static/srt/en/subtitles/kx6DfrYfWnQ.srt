@@ -1,0 +1,403 @@
+1
+00:00:00,667 --> 00:00:01,400
+what I want to do in this video is make it clear
+
+2
+00:00:01,400 --> 00:00:04,200
+the distinction between
+
+3
+00:00:04,200 --> 00:00:07,200
+an I-terative, or I should say iterative,
+
+4
+00:00:07,200 --> 00:00:08,400
+I always pronounce it wrong
+
+5
+00:00:08,400 --> 00:00:10,800
+iterative function definition
+
+6
+00:00:10,800 --> 00:00:15,667
+and a recursive function definition
+
+7
+00:00:15,667 --> 00:00:21,267
+We'll do it really by... Just kinda understanding where the iteration is happening over here
+
+8
+00:00:21,267 --> 00:00:24,133
+and where the recursion is happening here on the right.
+
+9
+00:00:24,133 --> 00:00:28,333
+So when we start off we see that product is set to be equal to 1
+
+10
+00:00:28,333 --> 00:00:36,533
+and then we enter our for loop and the for loop really is the meat of this iterative function definition.
+
+11
+00:00:36,533 --> 00:00:40,333
+And understanding what's happening in the for loop let's... Let me make a little table here.
+
+12
+00:00:40,333 --> 00:00:49,641
+So I'm gonna make a table for the value of our variable i and I'll also figure out what the value of
+
+13
+00:00:49,641 --> 00:00:54,200
+product times i plus 1,
+
+14
+00:00:54,200 --> 00:00:59,400
+'cos every interation to this for loop we are going to evaluate this business right over here
+
+15
+00:00:59,400 --> 00:01:07,133
+and then I'm going to make a column for the new value of our product, the new value of our product.
+
+16
+00:01:07,133 --> 00:01:11,800
+Let me underline these things and then we have the new value of our product.
+
+17
+00:01:11,800 --> 00:01:17,733
+So we learned in many videos ago that in Python we say for i in range.
+
+18
+00:01:17,733 --> 00:01:20,067
+This range part right over here...
+
+19
+00:01:20,067 --> 00:01:26,400
+This range part right over here returns a list and it returns a list of the number of elements
+
+20
+00:01:26,400 --> 00:01:29,733
+that we have passed number... We passed into it right over here.
+
+21
+00:01:29,733 --> 00:01:32,333
+So if we assume and I should have said it from the getgo
+
+22
+00:01:32,333 --> 00:01:35,800
+Let's assume that we are calling just to make something specific,
+
+23
+00:01:35,800 --> 00:01:45,333
+let's say this is the result of a call of factorial of 3.
+
+24
+00:01:45,333 --> 00:01:51,933
+So the argument that we passed this factorial is 3 so the variable number will refer to 3.
+
+25
+00:01:51,933 --> 00:01:58,800
+So when you call range of number it will literally return a list: 0, 1, 2.
+
+26
+00:01:58,800 --> 00:02:03,733
+So 3 elements starting at 0, the last element is 3 minus 1. It is 2.
+
+27
+00:02:03,733 --> 00:02:09,600
+And so each loop through this for loop i is going to be assigned to each successive element
+
+28
+00:02:09,600 --> 00:02:10,667
+in this list.
+
+29
+00:02:10,667 --> 00:02:14,933
+So on the first time through this for loop i is going to be assigned to 0.
+
+30
+00:02:14,933 --> 00:02:18,133
+So our i is going to refer to 0.
+
+31
+00:02:18,133 --> 00:02:25,800
+And then product times i plus 1, well in this first loop product appeared before we even entered the
+
+32
+00:02:25,800 --> 00:02:28,400
+loop, product was defined to be 1.
+
+33
+00:02:28,400 --> 00:02:36,667
+So product is going to be 1 and it is 1 times -- I don't want to do it in that colour, I'll just do it
+
+34
+00:02:36,667 --> 00:02:47,667
+in mag... I'll do it in magenta -- 1 times i which is 0. 1 times 0 plus 1.
+
+35
+00:02:47,667 --> 00:02:53,533
+Plus 1 and this... and then our new value of product is essentially this evaluated,
+
+36
+00:02:53,533 --> 00:02:54,667
+we have it right over here.
+
+37
+00:02:54,667 --> 00:02:56,667
+Product is equal to all of this business.
+
+38
+00:02:56,667 --> 00:03:01,933
+So our new value is 1 times 0 plus 1 and that's just 1 times 1 and that's just going to be 1.
+
+39
+00:03:01,933 --> 00:03:05,467
+That's all we had inside the for loop clause,
+
+40
+00:03:05,467 --> 00:03:08,533
+'cos that was the only stuff that was indented within this for loop
+
+41
+00:03:08,533 --> 00:03:16,467
+and then so we go back up and we are going to iterate through the next iteration of our loop.
+
+42
+00:03:16,467 --> 00:03:19,667
+I guess you could say and now i is going to be assigned to 1.
+
+43
+00:03:19,667 --> 00:03:22,667
+So now i is going to be 1.
+
+44
+00:03:22,667 --> 00:03:25,800
+This expression over here, we are going to take our old product.
+
+45
+00:03:25,800 --> 00:03:40,329
+So product is still 1, so product is 1 and it is going to be times i which is now 1 plus 1.
+
+46
+00:03:40,329 --> 00:03:42,267
+And what's this going to be equal to?
+
+47
+00:03:42,267 --> 00:03:48,333
+Well if you evaluate all of this you get 1 times 2 so now the new value for product is 2.
+
+48
+00:03:48,333 --> 00:03:52,867
+After our second iteration through the loop our second pass through the loop.
+
+49
+00:03:52,867 --> 00:04:00,267
+Now it will go back to the beginning of the for loop and i will be assigned to the next element in the list
+
+50
+00:04:00,267 --> 00:04:02,600
+It will be now assigned to 2.
+
+51
+00:04:02,600 --> 00:04:06,333
+So i is now 2. This thing over here, we are going to take...
+
+52
+00:04:06,333 --> 00:04:08,933
+This is going to be product. Product is now 2.
+
+53
+00:04:08,933 --> 00:04:23,600
+So it's going to be 2 times i, well i is now 2 plus 1 and so what is this, it's 2 times 3 or 6.
+
+54
+00:04:23,600 --> 00:04:30,092
+Or 6 and then it will go and we'll say okay, can we assign i to any more elements in this?
+
+55
+00:04:30,092 --> 00:04:36,785
+No we have run out of elements so we break out of the for loop and we just return the product.
+
+56
+00:04:36,785 --> 00:04:41,800
+Or the variable product, what it's referring to and that's what I should really say.
+
+57
+00:04:41,800 --> 00:04:46,600
+We should return the value that the product is referring to and that value is 6.
+
+58
+00:04:46,600 --> 00:04:50,067
+So when you call factorial 3 it will return 6.
+
+59
+00:04:50,067 --> 00:04:59,821
+So if you were to say factorial, if you say factorial of 3 plus factorial of 3
+
+60
+00:04:59,821 --> 00:05:05,600
+and you were to evaluate this expression this expression would evaluate to 6
+
+61
+00:05:05,600 --> 00:05:10,098
+and this expression over here would evaluate to 6 because that is what the function would return
+
+62
+00:05:10,098 --> 00:05:13,867
+and then if you add those up they would evaluate to 12.
+
+63
+00:05:13,867 --> 00:05:16,067
+So this is why we call it iterative.
+
+64
+00:05:16,067 --> 00:05:22,467
+We kept iterating trough this same set of instructions and now let's compare the recursive definition.
+
+65
+00:05:22,467 --> 00:05:24,867
+And this one is a little bit more fun in a lot of ways.
+
+66
+00:05:24,867 --> 00:05:27,800
+Once again we are going to call factorial of 3.
+
+67
+00:05:27,800 --> 00:05:30,600
+Factorial of 3.
+
+68
+00:05:30,600 --> 00:05:34,600
+So 3 is our argument. That's the value that number will refer to and it will take on
+
+69
+00:05:34,600 --> 00:05:36,933
+and says if number is less than or equal to 1.
+
+70
+00:05:36,933 --> 00:05:38,800
+Well 3 is not less than or equal to 1.
+
+71
+00:05:38,800 --> 00:05:40,667
+So we are not gonna do this part over here.
+
+72
+00:05:40,667 --> 00:05:41,867
+We are going to do the else clause.
+
+73
+00:05:41,867 --> 00:05:48,933
+So we are going to return number. We are going to want to return number times factorial of all of this.
+
+74
+00:05:48,933 --> 00:05:57,200
+So this is going to evaluate to number which is 3. That's the argument we passed.
+
+75
+00:05:57,200 --> 00:06:07,867
+Times factorial of number minus 1.
+
+76
+00:06:07,867 --> 00:06:11,200
+Well number minus 1 is going to evaluate to 2. 3 minus 1 is 2.
+
+77
+00:06:11,200 --> 00:06:13,102
+So times factorial of 2.
+
+78
+00:06:13,118 --> 00:06:15,800
+Well that's just another function called a factorial so we go back.
+
+79
+00:06:15,800 --> 00:06:19,133
+Okay, factorial but now the argument is 2. so the number is 2.
+
+80
+00:06:19,133 --> 00:06:21,800
+We go here. If number is less than or equal to 1 we do this,
+
+81
+00:06:21,800 --> 00:06:24,867
+but the number isn't less than or equal to 1. It's 2. So now we do else.
+
+82
+00:06:24,867 --> 00:06:30,333
+So what we now want to return is the number times the factorial number minus 1.
+
+83
+00:06:30,333 --> 00:06:31,600
+Well in this situation...
+
+84
+00:06:31,600 --> 00:06:38,000
+In this situation the number is now 2 and we are gonna want to multiply that times the factorial...
+
+85
+00:06:38,000 --> 00:06:43,933
+times the factorial of 2 minus 1.
+
+86
+00:06:43,933 --> 00:06:45,467
+Well 2 minus 1 is just 1.
+
+87
+00:06:45,467 --> 00:06:47,400
+Times the factorial of 1.
+
+88
+00:06:47,400 --> 00:06:52,533
+Well we just made another function call so the interpreter kinda has to remember that we made this
+
+89
+00:06:52,533 --> 00:06:55,467
+whole series of function calls and has to keep digging deeper and deeper and deeper.
+
+90
+00:06:55,467 --> 00:06:57,800
+So now we have called factorial of 1.
+
+91
+00:06:57,800 --> 00:07:02,200
+Factorial of 1. What is the argument? Number is referring to 1.
+
+92
+00:07:02,200 --> 00:07:04,067
+If number is less than or equal to 1.
+
+93
+00:07:04,067 --> 00:07:05,800
+Number is less than or equal to 1.
+
+94
+00:07:05,800 --> 00:07:08,595
+Now this is what we call a base case. We are kinda going down to it.
+
+95
+00:07:08,595 --> 00:07:11,733
+So the number is less than or equal to 1. Return 1.
+
+96
+00:07:11,733 --> 00:07:16,733
+So in this situation, when we call factorial 1 it literally returns 1.
+
+97
+00:07:16,733 --> 00:07:23,333
+And so we now know that factorial of 2 evaluates to 2 times 1.
+
+98
+00:07:23,333 --> 00:07:36,200
+So this evaluates to 2 and now we know factorial of 3 evaluates to 3 times 2 which will evaluate to 6.
+
+99
+00:07:36,200 --> 00:07:39,800
+So very different ways of thinking about it, but getting the exact same result.
+
+100
+00:07:39,800 --> 00:07:44,090
+Once again if you take factorial of 3 plus factorial 3, it doesn't matter which way we implement it.
+
+101
+00:07:44,090 --> 00:07:48,000
+We'll get 6 plus 6, or 12.

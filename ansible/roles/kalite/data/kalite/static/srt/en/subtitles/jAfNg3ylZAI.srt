@@ -1,0 +1,423 @@
+1
+00:00:00,437 --> 00:00:05,262
+What I want to do in this video is familiarize 
+ourselves with the notion of a set
+
+2
+00:00:05,262 --> 00:00:08,999
+and also perform some operations on sets.
+
+3
+00:00:08,999 --> 00:00:13,103
+A set is really just a collection of distinct objects.
+
+4
+00:00:13,103 --> 00:00:15,500
+For example, I can have a set
+
+5
+00:00:15,500 --> 00:00:18,250
+let's call this set X.
+
+6
+00:00:18,250 --> 00:00:21,372
+I'll deal with numbers right now, 
+but a set could contain anything.
+
+7
+00:00:21,372 --> 00:00:28,104
+It could contain colours, people, 
+other sets, cars, farm animals
+
+8
+00:00:28,104 --> 00:00:32,104
+but numbers will be easy to deal with 
+just because they're numbers.
+
+9
+00:00:32,104 --> 00:00:34,248
+So let's say I have a set X.
+
+10
+00:00:34,248 --> 00:00:36,574
+It has the distinct objects in it
+
+11
+00:00:36,574 --> 00:00:44,170
+the number 3, 12, 5, and 13.
+
+12
+00:00:44,170 --> 00:00:46,263
+That right there is a set.
+
+13
+00:00:46,263 --> 00:00:50,000
+I could have another set,
+let's call that set Y.
+
+14
+00:00:50,000 --> 00:00:50,999
+I didn't have to call it Y
+
+15
+00:00:50,999 --> 00:00:54,503
+I could have called it A, I could have called it Sal, 
+I could have called it a bunch of different things
+
+16
+00:00:54,503 --> 00:00:55,926
+but I'll just call it Y.
+
+17
+00:00:55,957 --> 00:01:00,705
+And let's say that set Y is a collection 
+of the distinct objects
+
+18
+00:01:00,705 --> 00:01:08,288
+the number 14, 15, 6, and 3.
+
+19
+00:01:08,288 --> 00:01:11,621
+So those are just two set definitions.
+
+20
+00:01:11,621 --> 00:01:13,970
+The way that we typically do it in mathematics
+
+21
+00:01:13,970 --> 00:01:19,571
+is we put these little curly brackets around the 
+objects that are separated by commas.
+
+22
+00:01:19,571 --> 00:01:22,370
+Now let's do some basic operations on sets.
+
+23
+00:01:22,370 --> 00:01:27,304
+The first operation that I will do is called "intersection".
+
+24
+00:01:27,304 --> 00:01:36,950
+We would say X intersect Y, the intersection of X and Y
+
+25
+00:01:36,950 --> 00:01:39,700
+X intersect Y.
+
+26
+00:01:39,700 --> 00:01:45,718
+The way I think about it is this is going to yield another set
+
+27
+00:01:45,718 --> 00:01:50,817
+that contains the elements that are in both X and Y.
+
+28
+00:01:50,817 --> 00:01:57,084
+I often view this intersection symbol here as "and".
+
+29
+00:01:57,084 --> 00:02:00,760
+So all of the things that are in X and in Y.
+
+30
+00:02:00,760 --> 00:02:03,204
+What are those things going to be?
+
+31
+00:02:03,204 --> 00:02:06,227
+Let's look at both sets X and Y.
+
+32
+00:02:06,227 --> 00:02:11,768
+The number 3 is in set X, is it in set Y as well?
+
+33
+00:02:11,768 --> 00:02:19,560
+Sure, it's in both, so it will be in the intersection of X and Y.
+
+34
+00:02:19,560 --> 00:02:25,925
+The number 12 is in set X but it isn't in set Y
+so we're not going to include that.
+
+35
+00:02:25,925 --> 00:02:29,434
+The number 5 is in X but not in Y
+
+36
+00:02:29,434 --> 00:02:36,109
+and then we have the number 13 that is in X but not in Y.
+
+37
+00:02:36,109 --> 00:02:42,016
+And so the intersection between X and Y 
+is the set that has only has one object in it
+
+38
+00:02:42,016 --> 00:02:44,448
+it only has the number 3.
+
+39
+00:02:44,448 --> 00:02:49,951
+So we are done. The intersection between X and Y is 3.
+
+40
+00:02:49,951 --> 00:02:53,550
+Another common operation on sets is "union".
+
+41
+00:02:53,550 --> 00:03:00,545
+You could have the union of X and Y.
+
+42
+00:03:00,545 --> 00:03:05,028
+People often view this as "or".
+
+43
+00:03:05,028 --> 00:03:09,998
+We're thinking about all of the elements that are in X or Y.
+
+44
+00:03:09,998 --> 00:03:14,501
+You can imagine that we're bringing 
+these two sets together.
+
+45
+00:03:17,762 --> 00:03:21,281
+The key here is that a set is a collection of distinct objects
+
+46
+00:03:21,281 --> 00:03:25,743
+and the way we're conceptualizing things 
+right here, this is the number 3
+
+47
+00:03:25,743 --> 00:03:29,027
+this isn't someboy's score on a test 
+or the number of apples they have
+
+48
+00:03:29,027 --> 00:03:33,028
+so there you could have multiple people 
+with the same number of apples
+
+49
+00:03:33,028 --> 00:03:35,828
+here we're talking about the object of the number 3
+
+50
+00:03:35,828 --> 00:03:37,827
+so we can only have a 3 once.
+
+51
+00:03:37,827 --> 00:03:42,785
+But a 3 is in X or Y, so I'll put a 3 there.
+
+52
+00:03:42,785 --> 00:03:45,452
+A 12 is in X or Y
+
+53
+00:03:45,452 --> 00:03:48,567
+a 5 is in X or Y
+
+54
+00:03:48,567 --> 00:03:49,968
+13 is in X or Y
+
+55
+00:03:49,968 --> 00:03:53,709
+and just to simplify things, we really don't care 
+about order if we're just talking about a set
+
+56
+00:03:53,709 --> 00:03:56,771
+I've just put all of the things that are in set X here
+
+57
+00:03:56,771 --> 00:03:59,605
+and now let's see what we have to add from set Y.
+
+58
+00:03:59,605 --> 00:04:02,568
+We haven't put a 14 yet, so let's put a 14.
+
+59
+00:04:02,568 --> 00:04:05,570
+We haven't put a 15 yet
+
+60
+00:04:05,570 --> 00:04:07,503
+we haven't put the 6 yet
+
+61
+00:04:07,503 --> 00:04:09,636
+and we already have a 3 in our set.
+
+62
+00:04:09,636 --> 00:04:13,188
+So that's the union of X and Y.
+
+63
+00:04:13,188 --> 00:04:19,048
+One way to visual sets and visuals intersections 
+and unions and more complicated things
+
+64
+00:04:19,048 --> 00:04:21,484
+is using a Vien Diagram.
+
+65
+00:04:21,484 --> 00:04:29,573
+Let's say this whole box is the set of all numbers.
+
+66
+00:04:29,573 --> 00:04:34,949
+We have set X, I'll just draw a circle here
+
+67
+00:04:34,949 --> 00:04:38,352
+and I can even draw the elements of set X
+
+68
+00:04:38,352 --> 00:04:46,217
+so you have 3, 5, 12, and 13.
+
+69
+00:04:46,217 --> 00:04:50,066
+And then we can draw set Y.
+
+70
+00:04:50,066 --> 00:04:54,041
+Notice that I drew a little overlap here 
+because they overlap at 3.
+
+71
+00:04:54,041 --> 00:04:57,951
+3 is an element in both set X and set Y.
+
+72
+00:04:57,951 --> 00:05:04,183
+Set Y also has the numbers 14, 15, and 6.
+
+73
+00:05:04,183 --> 00:05:10,485
+When we're talking about X "intersect" Y, we're talking about where the two sets overlap.
+
+74
+00:05:10,485 --> 00:05:13,136
+So that's this region right over here.
+
+75
+00:05:13,136 --> 00:05:17,018
+The only place that they overlap is at the number 3
+
+76
+00:05:17,018 --> 00:05:21,350
+so that's X intersect Y.
+
+77
+00:05:21,350 --> 00:05:25,350
+Then X union Y is the combination of these two sets
+
+78
+00:05:25,350 --> 00:05:32,683
+so X union Y is literally everything 
+right here that we are combining.
+
+79
+00:05:32,683 --> 00:05:37,885
+Let's do one more example just so we make sure we understand intersection and union.
+
+80
+00:05:37,885 --> 00:05:47,837
+Let's say that I have set A and set A has 
+the numbers 11, 4, 12, and 7 in it
+
+81
+00:05:47,837 --> 00:06:01,817
+and I have set B and it has the numbers 
+13, 4, 12, 10 and 3 in it.
+
+82
+00:06:01,817 --> 00:06:17,530
+First of all, let's think about what 
+A "intersect" B is going to be equal to.
+
+83
+00:06:18,084 --> 00:06:21,087
+It's the things that are in both sets.
+
+84
+00:06:21,087 --> 00:06:25,753
+I have an 11 here but I don't have an 11 there so that doesn't make the intersection.
+
+85
+00:06:25,753 --> 00:06:32,631
+I have a 4 here and I also have a 4 here so 4 is in A and B.
+
+86
+00:06:32,631 --> 00:06:34,161
+I'll put a 4 here.
+
+87
+00:06:34,161 --> 00:06:38,829
+The number 12 is in A and B, so I'll put a 12 here.
+
+88
+00:06:38,829 --> 00:06:46,816
+Number 7 is only in A and the numbers 13, 10 
+and 3 are only in B so we're done!
+
+89
+00:06:46,816 --> 00:06:52,485
+The set of 4 and 12 is the intersection of sets A and B.
+
+90
+00:06:52,485 --> 00:06:55,428
+If we wanted to, we could even label this as a new set.
+
+91
+00:06:55,428 --> 00:07:00,696
+We could say set C is the intersection of A and B
+and it's this set right over here.
+
+92
+00:07:00,696 --> 00:07:02,484
+Now let's think about union.
+
+93
+00:07:02,484 --> 00:07:14,031
+Let's think about A union B.
+
+94
+00:07:14,031 --> 00:07:19,291
+What are all the elements that are in A or B?
+
+95
+00:07:19,291 --> 00:07:21,436
+We can just put all the elements in A
+
+96
+00:07:21,436 --> 00:07:25,435
+11, 4, 12, 7
+
+97
+00:07:25,435 --> 00:07:29,171
+and put the things in B that aren't already in A.
+
+98
+00:07:29,171 --> 00:07:35,561
+So 13, (we already put the 4 and the 12), 10, and a 3.
+
+99
+00:07:35,561 --> 00:07:40,095
+I could write this in any order I want, we don't care 
+about order if we're thinking about a set.
+
+100
+00:07:40,095 --> 00:07:44,000
+So this right here is the union.

@@ -1,0 +1,767 @@
+1
+00:00:00,560 --> 00:00:02,460
+We're on 121.
+
+2
+00:00:05,590 --> 00:00:17,880
+It says, if x/2 is equal to 3/y, is x less than y?
+
+3
+00:00:19,460 --> 00:00:24,450
+So this is essentially saying that x times y is equal to 6.
+
+4
+00:00:24,450 --> 00:00:27,210
+I just cross multiplied. Or you could do that step by step.
+
+5
+00:00:27,210 --> 00:00:30,020
+Multiply both sides by 2. Then, multiply both sides by y.
+
+6
+00:00:30,020 --> 00:00:31,060
+And you get xy is equal to 6.
+
+7
+00:00:31,060 --> 00:00:34,660
+And they want to know whether x is less than y.
+
+8
+00:00:35,040 --> 00:00:45,050
+Statement 1 says, y is greater than or equal to 3.
+
+9
+00:00:46,230 --> 00:00:50,060
+If y is greater than or equal to 3, what does that mean?
+
+10
+00:00:50,060 --> 00:00:57,120
+So let's think about this. x is equal to 6 divided by y.
+
+11
+00:00:57,120 --> 00:01:03,480
+If y is greater than or equal to 3-- so if it's 3,
+
+12
+00:01:03,480 --> 00:01:06,640
+that's the largest that x can be if y is 3.
+
+13
+00:01:06,640 --> 00:01:10,640
+If y is any larger number, then x will only be smaller.
+
+14
+00:01:10,640 --> 00:01:15,980
+So x will be less than or equal to 6/3.
+
+15
+00:01:15,980 --> 00:01:19,000
+Or x will be less than or equal to 2.
+
+16
+00:01:19,000 --> 00:01:21,530
+And just, I want you to understand why I said that.
+
+17
+00:01:21,530 --> 00:01:24,180
+Think about this. It says, y is greater than or equal to 3.
+
+18
+00:01:24,180 --> 00:01:27,010
+If y is 3, x is going to be 2.
+
+19
+00:01:27,010 --> 00:01:31,530
+If y is 4, x is going to be 1 and 1/2.
+
+20
+00:01:31,530 --> 00:01:34,230
+If y is 6, x is going to be 1.
+
+21
+00:01:34,230 --> 00:01:38,040
+So the highest value for x happens when y is equal to 3.
+
+22
+00:01:38,040 --> 00:01:40,750
+And then, as y gets larger and larger, x just gets smaller.
+
+23
+00:01:41,070 --> 00:01:46,540
+So y being greater than or equal to 3 says that x is less
+
+24
+00:01:46,540 --> 00:01:50,070
+than or equal to 2. So statement 1, alone,
+
+25
+00:01:50,070 --> 00:01:54,120
+is sufficient to say that x is less than y.
+
+26
+00:01:54,120 --> 00:01:55,500
+If x is less than 2 and y is greater than 3,
+
+27
+00:01:55,500 --> 00:01:57,070
+then x is definitely less than y.
+
+28
+00:01:57,070 --> 00:02:02,400
+Statement 2 tells us, y is less than or equal to 4.
+
+29
+00:02:05,660 --> 00:02:07,090
+So this is interesting.
+
+30
+00:02:08,020 --> 00:02:12,370
+It's really just the inverse of this statement right here.
+
+31
+00:02:12,370 --> 00:02:14,330
+Now, you're saying, instead of y being greater than a certain
+
+32
+00:02:14,330 --> 00:02:16,490
+number, y is less than a certain number.
+
+33
+00:02:16,490 --> 00:02:19,400
+So if you think about it this way-- so let's go
+
+34
+00:02:19,400 --> 00:02:21,280
+back to this equation.
+
+35
+00:02:23,800 --> 00:02:34,040
+If y is 4, x is going to be-- let's do a little table. y, x.
+
+36
+00:02:34,040 --> 00:02:39,050
+If y is equal to 4, x is equal to 1.5.
+
+37
+00:02:39,050 --> 00:02:43,000
+If y is equal to 3, x is equal to 2.
+
+38
+00:02:43,000 --> 00:02:47,460
+If y is equal to 2, then x is equal to 3.
+
+39
+00:02:47,460 --> 00:02:50,880
+So actually, this constraint, I can pick a bunch of
+
+40
+00:02:50,880 --> 00:02:53,040
+different y's that meet this constraint.
+
+41
+00:02:53,040 --> 00:02:56,590
+But it still doesn't tell me about anything whether x is
+
+42
+00:02:56,590 --> 00:02:59,400
+greater than or less than y. Here, x is less than y.
+
+43
+00:02:59,700 --> 00:03:03,020
+And here, x is greater than y. So this statement is useless.
+
+44
+00:03:03,020 --> 00:03:07,430
+So statement 1, alone, is sufficient to answer this question.
+
+45
+00:03:07,430 --> 00:03:12,030
+Statement 2 doesn't help us much. 122.
+
+46
+00:03:14,030 --> 00:03:18,670
+If v and w are different integers, does v equal 0?
+
+47
+00:03:22,410 --> 00:03:25,000
+Different integers. Remember, it says, different.
+
+48
+00:03:25,000 --> 00:03:34,410
+They say that vw is equal to v squared.
+
+49
+00:03:39,010 --> 00:03:40,800
+Now, let's think about this.
+
+50
+00:03:41,460 --> 00:03:46,020
+This doesn't tell me for sure that v is equal to 0.
+
+51
+00:03:46,020 --> 00:03:49,640
+And, in fact, as long as-- well, let's think about this.
+
+52
+00:03:49,640 --> 00:03:55,060
+The only way that this could be true is if v is equal to 0,
+
+53
+00:03:55,490 --> 00:03:58,870
+that's one case. Now, if v does not equal to 0--
+
+54
+00:03:58,870 --> 00:04:04,990
+So if v does not equal to 0, then this case implies what?
+
+55
+00:04:05,070 --> 00:04:07,880
+That soon. w equals v. Think about it.
+
+56
+00:04:07,880 --> 00:04:10,650
+If v doesn't equal 0, we can divide both sides by v.
+
+57
+00:04:10,650 --> 00:04:12,700
+Because we know we're not dividing by 0.
+
+58
+00:04:12,700 --> 00:04:16,840
+You divide both sides by v,you get, on the left-hand side, w.
+
+59
+00:04:16,840 --> 00:04:18,010
+Because this v cancels out.
+
+60
+00:04:18,010 --> 00:04:21,000
+And then v squared divided by v, you get v.
+
+61
+00:04:24,000 --> 00:04:26,030
+And so you are left with--
+
+62
+00:04:26,030 --> 00:04:28,500
+Well, I want to be careful here, though.
+
+63
+00:04:28,500 --> 00:04:35,270
+Because w would have to equal v. And
+
+64
+00:04:35,270 --> 00:04:38,000
+they already told us that w and v are two different numbers.
+
+65
+00:04:38,000 --> 00:04:43,640
+So we know that this situation-- if w equals v,
+
+66
+00:04:43,640 --> 00:04:45,030
+then v does not equal 0.
+
+67
+00:04:45,490 --> 00:04:48,070
+But they tell us in the problem statement that w and v
+
+68
+00:04:48,070 --> 00:04:49,570
+are two different integers.
+
+69
+00:04:49,570 --> 00:04:52,020
+They tell us that w does not equal v.
+
+70
+00:04:52,020 --> 00:04:55,550
+So we know that the only way that this could be satisfied,
+
+71
+00:04:55,550 --> 00:05:01,010
+if w does not equal v, is if v is equal to 0.
+
+72
+00:05:01,010 --> 00:05:05,010
+So statement 1, alone, is sufficient to answer this question.
+
+73
+00:05:05,010 --> 00:05:09,450
+Statement 2. w is equal to 2.
+
+74
+00:05:12,020 --> 00:05:14,770
+Well, that doesn't do anything for me.
+
+75
+00:05:14,770 --> 00:05:19,560
+I mean w could be 2 and v could be 0. Or v could be 3.
+
+76
+00:05:20,380 --> 00:05:22,450
+All they told us was that v and w are different integers
+
+77
+00:05:22,450 --> 00:05:24,000
+and that they don't equal each other.
+
+78
+00:05:24,000 --> 00:05:26,240
+So this doesn't help me at all in determining whether
+
+79
+00:05:26,240 --> 00:05:29,410
+v is equal to 0. So statement 1, alone, is sufficient.
+
+80
+00:05:32,030 --> 00:05:34,100
+I just want to make sure I got that first part right.
+
+81
+00:05:34,100 --> 00:05:35,690
+I mean the only way that this is true,
+
+82
+00:05:35,690 --> 00:05:38,400
+this is true if v is equal to 0.
+
+83
+00:05:38,660 --> 00:05:42,020
+Or it's true if w is equal to v.
+
+84
+00:05:42,020 --> 00:05:47,600
+Either of those cases are true. That's the only way it works.
+
+85
+00:05:48,130 --> 00:05:51,790
+And we know w does not equal v. So v has to be equal to 0.
+
+86
+00:05:55,020 --> 00:05:56,750
+What are we on? 123.
+
+87
+00:06:00,060 --> 00:06:15,040
+What is the value of 36,500 times 1.05 to the nth power?
+
+88
+00:06:15,040 --> 00:06:19,050
+All right, statement number 1 tells us,
+
+89
+00:06:19,050 --> 00:06:25,470
+n squared minus 5n plus 6 is equal to 0.
+
+90
+00:06:25,950 --> 00:06:28,170
+So we could solve for n. There will be two solutions.
+
+91
+00:06:28,170 --> 00:06:34,350
+So this is n minus 2 times n minus 3. I just factored it.
+
+92
+00:06:34,350 --> 00:06:36,830
+I said, what two numbers, when I multiply them,
+
+93
+00:06:36,830 --> 00:06:39,380
+equal positive 6? So I said, minus 2, minus 3.
+
+94
+00:06:39,380 --> 00:06:41,050
+And when you add them become minus 5.
+
+95
+00:06:41,050 --> 00:06:43,250
+That's why I picked the minuses, as opposed to plus 2
+
+96
+00:06:43,250 --> 00:06:46,040
+and plus 3 or some other combination. Equals 0.
+
+97
+00:06:46,470 --> 00:06:50,280
+So statement 1 tells us that n is equal to 2 or
+
+98
+00:06:50,280 --> 00:06:54,120
+n is equal to 3. So statement 1, by itself, isn't enough.
+
+99
+00:06:54,120 --> 00:06:55,000
+Because I don't know whether
+
+100
+00:06:55,000 --> 00:06:56,930
+I should put a 2 here or a 3 here.
+
+101
+00:06:56,930 --> 00:06:59,060
+So I can't determine this value just yet.
+
+102
+00:06:59,060 --> 00:07:07,060
+Statement 2 tells us, n minus 2 does not equal 0.
+
+103
+00:07:07,600 --> 00:07:10,840
+This statement, by itself, is fairly useless.
+
+104
+00:07:10,840 --> 00:07:14,420
+Because it just tells me that n does not equal 2.
+
+105
+00:07:14,420 --> 00:07:16,030
+So n could be any other number.
+
+106
+00:07:16,030 --> 00:07:17,010
+So I don't know what number to put here.
+
+107
+00:07:17,010 --> 00:07:19,830
+But used in conjunction, these two statements--
+
+108
+00:07:19,830 --> 00:07:22,440
+statement 1 says that n is either 2 or 3.
+
+109
+00:07:22,440 --> 00:07:24,120
+Statement 2 says, well, it's not 2.
+
+110
+00:07:24,420 --> 00:07:25,980
+So if you use both of these together,
+
+111
+00:07:25,980 --> 00:07:27,760
+we know that n is equal to 3.
+
+112
+00:07:28,070 --> 00:07:30,000
+And then we can, obviously, solve this problem.
+
+113
+00:07:30,000 --> 00:07:34,010
+Taking 1.05 to the third power and multiplying by 36,500,
+
+114
+00:07:34,330 --> 00:07:38,470
+which I won't do because it would be a waste of time. 124.
+
+115
+00:07:43,020 --> 00:07:46,860
+In the rectangular coordinate system above--let me draw that.
+
+116
+00:07:46,860 --> 00:07:53,450
+They have the y-axis. They have the x-axis.
+
+117
+00:07:54,730 --> 00:07:56,250
+Then, they draw on a triangle.
+
+118
+00:07:56,250 --> 00:08:01,470
+I'll do that in a different color. That and like that.
+
+119
+00:08:04,020 --> 00:08:14,020
+And the letters are O, P, you and Q.
+
+120
+00:08:14,020 --> 00:08:18,180
+In the rectangular coordinate system above, if OP is less
+
+121
+00:08:18,180 --> 00:08:22,010
+than PQ-- so OP is less than PQ. Let me write that down.
+
+122
+00:08:22,490 --> 00:08:31,370
+OP is less than PQ. Is the area of OPQ greater than 48?
+
+123
+00:08:31,370 --> 00:08:36,200
+So we want to know, is area greater than 48?
+
+124
+00:08:36,200 --> 00:08:37,920
+OP is less than PQ.
+
+125
+00:08:37,920 --> 00:08:40,400
+So the way I drew this actually isn't right.
+
+126
+00:08:40,400 --> 00:08:43,010
+It's probably a little bit shifted to the left a little bit.
+
+127
+00:08:43,010 --> 00:08:46,760
+But fair enough. We can visualize. We can imagine that.
+
+128
+00:08:47,570 --> 00:08:48,950
+So let's see. Statement number 1.
+
+129
+00:08:48,950 --> 00:08:53,000
+The coordinates of point P are 6 comma 8.
+
+130
+00:08:53,000 --> 00:09:00,450
+So this is 6 comma 8. Let's see. That tells us the height.
+
+131
+00:09:00,450 --> 00:09:02,160
+When we figure out the area of a triangle,
+
+132
+00:09:02,160 --> 00:09:04,140
+we need to know the base times the height.
+
+133
+00:09:04,140 --> 00:09:07,070
+And then multiply that times 1/2.
+
+134
+00:09:07,980 --> 00:09:10,360
+The height of this triangle is the y-coordinate,
+
+135
+00:09:10,360 --> 00:09:14,590
+which is 8. So the altitude of this triangle is 8.
+
+136
+00:09:14,590 --> 00:09:16,640
+So we have the height, but we still don't know the distance
+
+137
+00:09:16,640 --> 00:09:18,020
+from O to Q.
+
+138
+00:09:18,020 --> 00:09:21,590
+So statement 1, by itself, isn't much information.
+
+139
+00:09:21,590 --> 00:09:26,010
+So that tells that the point was 6, 8. That P was 6, 8.
+
+140
+00:09:26,010 --> 00:09:32,080
+Statement 2 says, the coordinates of point Q are 13 comma 0.
+
+141
+00:09:33,040 --> 00:09:35,000
+Well, this is helpful. 13 comma 0.
+
+142
+00:09:35,000 --> 00:09:38,080
+So this distance right here is 13.
+
+143
+00:09:38,080 --> 00:09:40,000
+So by itself, that's useless.
+
+144
+00:09:40,000 --> 00:09:42,810
+Because if I didn't have the height, I still wouldn't be
+
+145
+00:09:42,810 --> 00:09:45,410
+able to figure out the area of this triangle.
+
+146
+00:09:45,410 --> 00:09:47,390
+But now, if I use both statements,
+
+147
+00:09:47,390 --> 00:09:49,130
+I know the base times the height.
+
+148
+00:09:49,130 --> 00:09:51,820
+So the area is going to be the base times the height times1/2
+
+149
+00:09:51,820 --> 00:09:56,010
+So 8 times 1/2 is 4. Times 13 is 52.
+
+150
+00:09:56,440 --> 00:10:01,050
+And so 52 is clearly greater than 48. Let me make sure.
+
+151
+00:10:01,050 --> 00:10:03,640
+Because I didn't use this information.
+
+152
+00:10:05,070 --> 00:10:08,660
+I didn't use that information at all.
+
+153
+00:10:11,410 --> 00:10:15,230
+Let's see. Let me think about it. Actually, no.
+
+154
+00:10:15,230 --> 00:10:18,430
+I think I'm wrong.I think statement 1,alone, might be enough.
+
+155
+00:10:18,430 --> 00:10:21,580
+Let's assume that we don't have-- these are tricky.
+
+156
+00:10:22,080 --> 00:10:24,070
+Let's assume that we don't have statement 2 there.
+
+157
+00:10:25,070 --> 00:10:27,550
+Let me see if I can figure out whether the area is greater
+
+158
+00:10:27,550 --> 00:10:29,080
+than 48 without it.
+
+159
+00:10:30,080 --> 00:10:35,730
+Let me see. Yeah, I think I'm wrong. I caught myself.
+
+160
+00:10:35,730 --> 00:10:39,510
+OK, so if this is 6 comma 8,
+
+161
+00:10:39,510 --> 00:10:42,540
+the area of this triangle right here,
+
+162
+00:10:42,540 --> 00:10:45,000
+well, this distance right here is going to be 6.
+
+163
+00:10:47,660 --> 00:10:51,630
+This distance right here is 6. 6 comma 8. Right.
+
+164
+00:10:51,630 --> 00:10:57,560
+OK, so the area of this triangle is 6 times 8. 48 times 1/2.
+
+165
+00:10:57,560 --> 00:11:00,050
+So the area of this triangle is 24.
+
+166
+00:11:00,540 --> 00:11:03,780
+But they told us that OP is less than PQ.
+
+167
+00:11:03,780 --> 00:11:08,350
+That this distance is less than this distance.
+
+168
+00:11:08,350 --> 00:11:10,290
+Maybe I should draw it like that, so you can kind of see it.
+
+169
+00:11:11,090 --> 00:11:13,860
+And the only way that this distance is less than this
+
+170
+00:11:13,860 --> 00:11:20,010
+distance is if this distance is less than this distance.
+
+171
+00:11:20,470 --> 00:11:25,030
+This is a tricky problem. This has to be less than this.
+
+172
+00:11:25,700 --> 00:11:26,740
+Q has to be further away.
+
+173
+00:11:26,740 --> 00:11:28,530
+Because that's the only way you're going to get this
+
+174
+00:11:28,530 --> 00:11:30,530
+altitude to be longer than this altitude.
+
+175
+00:11:30,530 --> 00:11:33,000
+Because you're assuming that Q is along the axes.
+
+176
+00:11:33,000 --> 00:11:35,080
+So that's the only thing that you can shift back and forth.
+
+177
+00:11:36,080 --> 00:11:39,600
+So if this distance is larger than this distance,
+
+178
+00:11:39,600 --> 00:11:42,640
+then the area of this triangle is going to be at least 24.
+
+179
+00:11:42,640 --> 00:11:46,020
+So the area is going to be greater than 48.
+
+180
+00:11:46,020 --> 00:11:50,420
+So actually, all you needed was statement 1
+
+181
+00:11:50,420 --> 00:11:53,530
+to solve this problem. That's all you needed.
+
+182
+00:11:53,530 --> 00:11:56,010
+Statement 1 gave you enough information.
+
+183
+00:11:56,010 --> 00:11:59,350
+Statement 2 does not, by itself, give you enough
+
+184
+00:11:59,350 --> 00:12:01,800
+information because you don't know how high P is.
+
+185
+00:12:01,800 --> 00:12:04,110
+It could be really low down here, in which case the area
+
+186
+00:12:04,110 --> 00:12:05,080
+is going to be less than 48.
+
+187
+00:12:05,080 --> 00:12:07,000
+It could be really high, in which case the area would be
+
+188
+00:12:07,000 --> 00:12:07,810
+greater than 48.
+
+189
+00:12:07,810 --> 00:12:11,000
+But anyway, see, I almost got that one wrong.
+
+190
+00:12:11,000 --> 00:12:12,870
+But I'll leave you there. I'll see you in the next video.
+
+191
+00:12:12,870 --> 00:12:15,910
+Statement 1, alone, was sufficient for this one.
+
+192
+00:12:15,910 --> 00:12:17,000
+See soon.

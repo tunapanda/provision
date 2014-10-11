@@ -1,0 +1,1059 @@
+1
+00:00:00,500 --> 00:00:03,620
+It always helps me to see a lot of examples of something so I
+
+2
+00:00:03,620 --> 00:00:05,910
+figured it wouldn't hurt to do more scientific
+
+3
+00:00:05,920 --> 00:00:06,980
+notation examples.
+
+4
+00:00:06,980 --> 00:00:09,910
+So I'm just going to write a bunch of numbers and then write
+
+5
+00:00:09,920 --> 00:00:11,390
+them in scientific notation.
+
+6
+00:00:11,390 --> 00:00:14,170
+And hopefully this'll cover almost every case you'll ever
+
+7
+00:00:14,170 --> 00:00:16,150
+see and then at the end of this video, we'll actually do some
+
+8
+00:00:16,160 --> 00:00:18,420
+computation with them to just make sure that we can
+
+9
+00:00:18,420 --> 00:00:20,950
+do computation with scientific notation.
+
+10
+00:00:20,960 --> 00:00:24,830
+Let me just write down a bunch of numbers.
+
+11
+00:00:24,830 --> 00:00:28,370
+0.00852.
+
+12
+00:00:28,370 --> 00:00:29,630
+That's my first number.
+
+13
+00:00:29,640 --> 00:00:39,440
+My second number is seven trillion, twelve billion.
+
+14
+00:00:39,440 --> 00:00:42,030
+I'm just arbitrarily stopping the zeroes.
+
+15
+00:00:42,030 --> 00:00:50,600
+The next number is 0.0000000 I'll just draw a couple more.
+
+16
+00:00:50,610 --> 00:00:55,630
+If I keep saying zero, you might find that annoying.
+
+17
+00:00:55,640 --> 00:01:01,250
+five hundred The next number -- right here, there's a
+
+18
+00:01:01,250 --> 00:01:02,570
+decimal right there.
+
+19
+00:01:02,570 --> 00:01:09,080
+The next number I'm going to do is the number seven hundred and twenty-three.
+
+20
+00:01:09,090 --> 00:01:11,960
+The next number I'll do -- I'm having a lot of seven's here.
+
+21
+00:01:11,960 --> 00:01:13,250
+Let's do 0.6.
+
+22
+00:01:13,260 --> 00:01:16,290
+And then let's just do one more just for, just to make sure
+
+23
+00:01:19,980 --> 00:01:21,580
+we've covered all of our bases.
+
+24
+00:01:21,590 --> 00:01:26,630
+Let's say we do eight hundred and twenty-three and then let's throw some -- an
+
+25
+00:01:26,640 --> 00:01:29,640
+arbitrary number of zero's there.
+
+26
+00:01:29,640 --> 00:01:33,450
+So this first one, right here, what we do if we want to write
+
+27
+00:01:33,450 --> 00:01:35,900
+in scientific notation, we want to figure out the largest
+
+28
+00:01:35,900 --> 00:01:38,080
+exponent of ten that fits into it.
+
+29
+00:01:38,090 --> 00:01:40,300
+So we go to its first non-zero term, which
+
+30
+00:01:40,310 --> 00:01:41,230
+is that right there.
+
+31
+00:01:41,230 --> 00:01:45,240
+We count how many positions to the right of the decimal point
+
+32
+00:01:49,060 --> 00:01:51,550
+So it's going to be equal to this.
+
+33
+00:01:51,560 --> 00:01:54,230
+So it's going to be equal to eight -- that's that guy
+
+34
+00:01:54,230 --> 00:01:56,370
+right there -- 0.52.
+
+35
+00:01:56,370 --> 00:01:58,210
+So everything after that first term is going to
+
+36
+00:01:58,210 --> 00:01:59,170
+be behind the decimal.
+
+37
+00:01:59,180 --> 00:02:03,330
+So 0.52 times 10 to the number of terms we have.
+
+38
+00:02:03,340 --> 00:02:04,510
+One, two, three.
+
+39
+00:02:04,510 --> 00:02:07,380
+ten to the minus three.
+
+40
+00:02:07,390 --> 00:02:09,430
+Another way to think of it: this is a little bit more.
+
+41
+00:02:09,430 --> 00:02:12,270
+This is like eight one / two thousands, right?
+
+42
+00:02:12,280 --> 00:02:13,420
+Each of these is thousands.
+
+43
+00:02:13,430 --> 00:02:15,280
+We have eight one / two of them.
+
+44
+00:02:15,280 --> 00:02:16,510
+Let's do this one.
+
+45
+00:02:16,520 --> 00:02:17,890
+Let's see how many zero's we have.
+
+46
+00:02:17,900 --> 00:02:23,610
+We have three, six, nine, twelve.
+
+47
+00:02:23,620 --> 00:02:26,620
+So we want to do -- again, we start with our largest
+
+48
+00:02:26,620 --> 00:02:27,710
+term that we have.
+
+49
+00:02:27,720 --> 00:02:29,320
+Our largest non-zero term.
+
+50
+00:02:29,330 --> 00:02:30,740
+In this case, it's going to be the term all
+
+51
+00:02:30,750 --> 00:02:31,430
+the way to the left.
+
+52
+00:02:31,430 --> 00:02:32,890
+That's our seven.
+
+53
+00:02:32,900 --> 00:02:35,560
+So it's going to be 7.012.
+
+54
+00:02:35,560 --> 00:02:40,950
+It's going to be equal to 7.012 times 10 to the what?
+
+55
+00:02:40,960 --> 00:02:45,340
+Well it's going to be times ten to the one with this many zero's.
+
+56
+00:02:45,340 --> 00:02:46,290
+So how many things?
+
+57
+00:02:46,300 --> 00:02:48,300
+We had a one here.
+
+58
+00:02:48,300 --> 00:02:56,690
+Then we had one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve zero's.
+
+59
+00:02:56,690 --> 00:02:57,480
+I want to be very clear.
+
+60
+00:02:57,490 --> 00:02:58,590
+You're not just counting the zero's.
+
+61
+00:02:58,590 --> 00:03:02,850
+You're counting everything after this first
+
+62
+00:03:02,860 --> 00:03:03,720
+term right there.
+
+63
+00:03:03,720 --> 00:03:07,540
+So it would be equivalent to a one followed by twelve zero's.
+
+64
+00:03:07,550 --> 00:03:11,360
+So it's times ten to the twelfth.
+
+65
+00:03:11,360 --> 00:03:12,010
+Just like that.
+
+66
+00:03:12,020 --> 00:03:12,780
+Not too difficult.
+
+67
+00:03:12,780 --> 00:03:14,620
+Let's do this one right here.
+
+68
+00:03:14,620 --> 00:03:16,640
+So we go behind our decimal point.
+
+69
+00:03:16,650 --> 00:03:18,520
+We find the first non-zero number.
+
+70
+00:03:18,520 --> 00:03:19,970
+That's our five.
+
+71
+00:03:19,970 --> 00:03:21,600
+It's going to be equal to five.
+
+72
+00:03:21,610 --> 00:03:24,790
+There's nothing to the right of it, so it's 5.00 if we wanted
+
+73
+00:03:24,800 --> 00:03:26,700
+to add some precision to it.
+
+74
+00:03:26,710 --> 00:03:30,870
+But it's five times and then how many numbers to the right, or
+
+75
+00:03:30,870 --> 00:03:32,770
+behind to the right of the decimal will do we have?
+
+76
+00:03:32,780 --> 00:03:40,740
+We have one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, and we
+
+77
+00:03:40,750 --> 00:03:42,810
+have to include this one, fourteen.
+
+78
+00:03:42,810 --> 00:03:47,680
+five times ten to the minus fourteenth power.
+
+79
+00:03:47,690 --> 00:03:50,620
+Now this number, it might be a little overkill to write this
+
+80
+00:03:50,630 --> 00:03:52,660
+in scientific notation, but it never hurts to get
+
+81
+00:03:52,660 --> 00:03:53,690
+the practice.
+
+82
+00:03:53,690 --> 00:03:56,480
+So what's the largest ten that goes into this?
+
+83
+00:03:56,490 --> 00:03:58,630
+Well, one hundred will go into this.
+
+84
+00:03:58,630 --> 00:04:02,140
+And you could figure out one hundred or ten squared by saying, "OK, this
+
+85
+00:04:02,150 --> 00:04:06,990
+is our largest term." And then we have two zero's behind it
+
+86
+00:04:06,990 --> 00:04:11,200
+because we can say one hundred will go into seven hundred and twenty-three.
+
+87
+00:04:11,210 --> 00:04:17,060
+So this is going to be equal to 7.23 times, we could say times
+
+88
+00:04:17,060 --> 00:04:19,980
+one hundred, but we want to stay in scientific notation, so I'll
+
+89
+00:04:19,990 --> 00:04:22,230
+write times ten squared.
+
+90
+00:04:22,240 --> 00:04:24,360
+Now we have this character right here.
+
+91
+00:04:24,360 --> 00:04:25,950
+What's our first non-zero term?
+
+92
+00:04:25,950 --> 00:04:29,300
+It's that one right there, so it's going to be six times and
+
+93
+00:04:29,310 --> 00:04:31,300
+then how many terms do we have to the right of the decimal?
+
+94
+00:04:31,300 --> 00:04:32,350
+We have only one.
+
+95
+00:04:32,350 --> 00:04:34,290
+So times ten to the minus one.
+
+96
+00:04:34,300 --> 00:04:36,520
+That makes a lot of sense because that's essentially
+
+97
+00:04:36,520 --> 00:04:39,160
+equal to six divided by ten because ten to the minus
+
+98
+00:04:39,170 --> 00:04:42,500
+1 is 1/10 which is 0.6.
+
+99
+00:04:42,500 --> 00:04:44,110
+One more.
+
+100
+00:04:44,120 --> 00:04:45,760
+Let me throw some commas here just to make this a
+
+101
+00:04:45,760 --> 00:04:48,510
+little easier to look at.
+
+102
+00:04:48,520 --> 00:04:50,600
+So let's take our largest value right there.
+
+103
+00:04:50,610 --> 00:04:53,790
+We have our eight.
+
+104
+00:04:53,790 --> 00:04:59,220
+This is going to be 8.23 -- we don't have to add the other
+
+105
+00:04:59,220 --> 00:05:03,240
+stuff because everything else is a zero -- times ten to the --
+
+106
+00:05:03,250 --> 00:05:06,060
+we just count how many terms are after the eight.
+
+107
+00:05:06,060 --> 00:05:12,940
+So we have one, two, three, four, five, six, seven, eight, nine, ten.
+
+108
+00:05:12,950 --> 00:05:15,160
+8.23 times 10 to the 10.
+
+109
+00:05:15,170 --> 00:05:16,290
+I think you get the idea now.
+
+110
+00:05:16,290 --> 00:05:17,580
+It's pretty straightforward.
+
+111
+00:05:17,580 --> 00:05:20,850
+And more than just being able to calculate this, which is a
+
+112
+00:05:20,860 --> 00:05:23,190
+good skill by itself, I want you to understand why
+
+113
+00:05:23,190 --> 00:05:23,930
+this is the case.
+
+114
+00:05:23,930 --> 00:05:25,800
+Hopefully that last video explained it.
+
+115
+00:05:25,810 --> 00:05:28,370
+And if it doesn't, just multiply this out.
+
+116
+00:05:28,380 --> 00:05:31,420
+Literally multiply 8.23 times 10 to the 10 and
+
+117
+00:05:31,430 --> 00:05:32,760
+you will get this number.
+
+118
+00:05:32,760 --> 00:05:34,180
+Maybe you could try it with something smaller
+
+119
+00:05:34,180 --> 00:05:35,030
+than ten to the ten.
+
+120
+00:05:35,040 --> 00:05:36,100
+Maybe ten to the fifth.
+
+121
+00:05:36,110 --> 00:05:38,130
+And well, you'll get a different number but
+
+122
+00:05:38,130 --> 00:05:40,970
+you'll end up with five digits after the eight.
+
+123
+00:05:40,980 --> 00:05:45,170
+But anyway, let me do a couple more computation examples.
+
+124
+00:05:45,180 --> 00:05:54,790
+Let's say we had the numbers -- let me just make something
+
+125
+00:05:54,790 --> 00:05:58,410
+really small -- 0.0000064.
+
+126
+00:05:58,410 --> 00:06:00,050
+Let me make a large number.
+
+127
+00:06:00,060 --> 00:06:03,100
+Let's say I have that number and I want to multiply it.
+
+128
+00:06:03,100 --> 00:06:06,440
+I want to multiply it by -- let's say I have a really large
+
+129
+00:06:06,440 --> 00:06:11,600
+number -- three two -- I'm just going to throw a bunch of zero's here.
+
+130
+00:06:11,610 --> 00:06:12,520
+I don't know when I'm going to stop.
+
+131
+00:06:12,520 --> 00:06:13,890
+Let's say I stop there.
+
+132
+00:06:13,890 --> 00:06:15,550
+So this one, you can multiply out.
+
+133
+00:06:15,560 --> 00:06:18,640
+But it's a little difficult.
+
+134
+00:06:18,640 --> 00:06:20,670
+But let's put it into scientific notation.
+
+135
+00:06:20,680 --> 00:06:23,080
+One, it'll be easier to represent these numbers and
+
+136
+00:06:23,080 --> 00:06:25,790
+then hopefully you'll see that the multiplication actually
+
+137
+00:06:25,800 --> 00:06:27,720
+gets simplified as well.
+
+138
+00:06:27,720 --> 00:06:30,540
+So this top guy right here, how can we write him in
+
+139
+00:06:30,550 --> 00:06:31,110
+scientific notation?
+
+140
+00:06:31,110 --> 00:06:37,550
+It would be 6.4 times 10 to the what?
+
+141
+00:06:37,560 --> 00:06:40,430
+one, two, three, four, five, six.
+
+142
+00:06:40,430 --> 00:06:41,430
+I have to include the six.
+
+143
+00:06:41,430 --> 00:06:43,470
+So times ten to the minus six.
+
+144
+00:06:43,480 --> 00:06:45,790
+And what can this one be written as?
+
+145
+00:06:45,800 --> 00:06:47,920
+This one is going to be 3.2.
+
+146
+00:06:47,930 --> 00:06:51,140
+And then you count how many digits are after the three.
+
+147
+00:06:53,560 --> 00:06:59,320
+one, two, three, four, five, six, seven, eight, nine, ten, eleven.
+
+148
+00:06:59,320 --> 00:07:02,740
+So 3.2 times 10 to the 11th.
+
+149
+00:07:02,750 --> 00:07:06,180
+So if we multiply these two things, this is equivalent to six
+
+150
+00:07:06,180 --> 00:07:12,640
+-- let me do it in a different color -- 6.4 times 10 to
+
+151
+00:07:12,640 --> 00:07:21,570
+the minus 6 times 3.2 times 10 to the 11th.
+
+152
+00:07:21,580 --> 00:07:26,150
+Which we saw in the last video is equivalent to 6.4 times 3.2.
+
+153
+00:07:26,160 --> 00:07:29,350
+I'm just changing the order of our multiplication.
+
+154
+00:07:29,360 --> 00:07:36,550
+Times ten to the minus six times ten to the eleventh power.
+
+155
+00:07:36,560 --> 00:07:38,300
+And now what will this be equal to?
+
+156
+00:07:38,300 --> 00:07:40,480
+Well, to do this, I don't want to use a calculator.
+
+157
+00:07:40,490 --> 00:07:42,520
+So let's just calculate it.
+
+158
+00:07:42,520 --> 00:07:47,820
+So 6.4 times 3.2.
+
+159
+00:07:47,820 --> 00:07:49,440
+Let's ignore the decimals for a second.
+
+160
+00:07:49,440 --> 00:07:50,620
+We'll worry about that at the end.
+
+161
+00:07:50,630 --> 00:07:55,050
+So two times four is eight, two times six is twelve.
+
+162
+00:07:55,060 --> 00:07:57,760
+Nowhere to carry the one, so it's just one hundred and twenty-eight.
+
+163
+00:07:57,760 --> 00:07:58,800
+Put a zero down there.
+
+164
+00:07:58,810 --> 00:08:02,290
+three times four is twelve, carry the one.
+
+165
+00:08:02,290 --> 00:08:04,360
+three times six is eighteen.
+
+166
+00:08:04,370 --> 00:08:08,310
+You've got a one there, so it's one hundred and ninety-two.
+
+167
+00:08:08,310 --> 00:08:08,680
+Right?
+
+168
+00:08:08,690 --> 00:08:09,500
+Yeah.
+
+169
+00:08:09,500 --> 00:08:09,660
+one hundred and ninety-two.
+
+170
+00:08:09,670 --> 00:08:13,920
+You had them up and you get eight, four, one plus nine is ten.
+
+171
+00:08:13,920 --> 00:08:14,580
+Carry the one.
+
+172
+00:08:14,580 --> 00:08:15,760
+You get two.
+
+173
+00:08:15,770 --> 00:08:17,910
+Now, we just have to count the numbers behind
+
+174
+00:08:17,920 --> 00:08:19,120
+the decimal point.
+
+175
+00:08:19,120 --> 00:08:21,260
+We have one number there, we have another number there.
+
+176
+00:08:21,270 --> 00:08:23,030
+We have two numbers behind the decimal point,
+
+177
+00:08:23,040 --> 00:08:25,110
+so you count one, two.
+
+178
+00:08:25,120 --> 00:08:34,870
+So 6.4 times 3.2 is equal to 20.48 times 10 to the -- we
+
+179
+00:08:34,870 --> 00:08:37,910
+have the same base here, so we can just add the exponents.
+
+180
+00:08:37,920 --> 00:08:40,440
+So what's minus six plus eleven?
+
+181
+00:08:40,450 --> 00:08:45,820
+So that's ten to the fifth power, right?
+
+182
+00:08:45,830 --> 00:08:46,170
+Right.
+
+183
+00:08:46,170 --> 00:08:47,570
+Minus six and eleven.
+
+184
+00:08:47,580 --> 00:08:49,030
+ten to the fifth power.
+
+185
+00:08:49,030 --> 00:08:50,680
+And so the next question, you might say, "I'm done.
+
+186
+00:08:50,690 --> 00:08:52,940
+I've done the computation." And you have.
+
+187
+00:08:52,940 --> 00:08:55,020
+And this is a valid answer.
+
+188
+00:08:55,020 --> 00:08:58,260
+But the next question is is this in scientific notation?
+
+189
+00:08:58,260 --> 00:09:01,160
+And if you wanted to be a real stickler about it, it's not in
+
+190
+00:09:01,170 --> 00:09:03,520
+scientific notation because we have something here that could
+
+191
+00:09:03,520 --> 00:09:06,130
+maybe be simplified a little bit.
+
+192
+00:09:06,130 --> 00:09:09,090
+We could write this -- let me do it this way.
+
+193
+00:09:09,100 --> 00:09:10,960
+Let me divide this by ten.
+
+194
+00:09:10,960 --> 00:09:13,950
+So any number we can multiply and divide by ten.
+
+195
+00:09:13,950 --> 00:09:16,120
+So we could rewrite it this way.
+
+196
+00:09:16,120 --> 00:09:19,600
+We could write one / ten on this side and then we can multiply
+
+197
+00:09:19,610 --> 00:09:21,260
+times ten on that side, right?
+
+198
+00:09:21,260 --> 00:09:22,890
+That shouldn't change the number.
+
+199
+00:09:22,900 --> 00:09:24,640
+You divide by ten and multiply it by ten.
+
+200
+00:09:24,640 --> 00:09:27,760
+That's just like multiplying by one or dividing by one.
+
+201
+00:09:27,760 --> 00:09:33,000
+So if you divide this side by 10, you get 2.048.
+
+202
+00:09:33,000 --> 00:09:36,260
+You multiply that side by ten and you get times ten to
+
+203
+00:09:36,270 --> 00:09:38,720
+the -- times ten is just times ten to the first.
+
+204
+00:09:38,730 --> 00:09:39,770
+You can just add the exponents.
+
+205
+00:09:39,770 --> 00:09:41,190
+Times ten to the sixth.
+
+206
+00:09:41,200 --> 00:09:44,270
+And now, if you're a stickler about it, this is good
+
+207
+00:09:44,270 --> 00:09:48,830
+scientific notation right there.
+
+208
+00:09:48,840 --> 00:09:50,610
+Now, I've done a lot of multiplication.
+
+209
+00:09:50,620 --> 00:09:54,500
+Let's do some division.
+
+210
+00:09:54,500 --> 00:09:57,000
+Let's divide this guy by that guy.
+
+211
+00:09:57,000 --> 00:10:04,970
+So if we have 3.2 times 10 to the eleventh power divided by
+
+212
+00:10:04,980 --> 00:10:09,600
+6.4 times 10 to the minus six, what is this equal to?
+
+213
+00:10:09,600 --> 00:10:13,940
+Well, this is equal to 3.2 over 6.4.
+
+214
+00:10:13,940 --> 00:10:16,290
+We can just separate them out because it's associative.
+
+215
+00:10:16,290 --> 00:10:23,200
+So, it's this times ten to the eleventh over ten to
+
+216
+00:10:23,210 --> 00:10:24,280
+the minus six, right?
+
+217
+00:10:24,280 --> 00:10:25,520
+If you multiply these two things, you'll
+
+218
+00:10:25,520 --> 00:10:26,910
+get that right there.
+
+219
+00:10:26,920 --> 00:10:30,120
+So 3.2 over 6.4.
+
+220
+00:10:30,120 --> 00:10:32,010
+This is just equal to 0.5, right?
+
+221
+00:10:32,020 --> 00:10:36,150
+32 is half of 64 or 3.2 is half of 6.4, so this
+
+222
+00:10:36,160 --> 00:10:38,130
+is 0.5 right there.
+
+223
+00:10:38,130 --> 00:10:39,340
+And what is this?
+
+224
+00:10:39,350 --> 00:10:43,100
+This is ten to the eleventh over ten to the minus six.
+
+225
+00:10:43,100 --> 00:10:45,700
+So when you have something in the denominator, you
+
+226
+00:10:45,700 --> 00:10:46,610
+could write it this way.
+
+227
+00:10:46,620 --> 00:10:51,500
+This is equivalent to ten to the eleventh over ten to the minus six.
+
+228
+00:10:51,500 --> 00:10:56,060
+It's equal to ten to the eleventh times ten to the
+
+229
+00:10:56,070 --> 00:10:58,790
+minus six to the minus one.
+
+230
+00:10:58,790 --> 00:11:03,040
+Or this is equal to ten to the eleventh times ten to the sixth.
+
+231
+00:11:03,050 --> 00:11:04,600
+And what did I do just there?
+
+232
+00:11:04,610 --> 00:11:07,130
+This is one over ten to the minus six.
+
+233
+00:11:07,130 --> 00:11:09,570
+So one over something is just that something to the
+
+234
+00:11:09,580 --> 00:11:10,490
+negative one power.
+
+235
+00:11:10,500 --> 00:11:12,270
+And then I multiplied the exponents.
+
+236
+00:11:12,270 --> 00:11:14,100
+You can think of it that way and so this would be equal
+
+237
+00:11:21,620 --> 00:11:26,360
+the same bases, ten in this case, and you're dividing them,
+
+238
+00:11:26,360 --> 00:11:29,390
+you just take the one the numerator and you subtract the
+
+239
+00:11:29,390 --> 00:11:30,210
+exponent in the denominator.
+
+240
+00:11:30,220 --> 00:11:35,000
+So it's eleven minus minus six, which is eleven plus six,
+
+241
+00:11:35,000 --> 00:11:36,890
+which is equal to seventeen.
+
+242
+00:11:36,900 --> 00:11:41,200
+So this division problem ended up being equal to
+
+243
+00:11:41,210 --> 00:11:46,280
+0.5 times 10 to the 17th.
+
+244
+00:11:46,280 --> 00:11:49,140
+Which is the correct answer, but if you wanted to be a
+
+245
+00:11:49,140 --> 00:11:51,390
+stickler and put it into scientific notation, we want
+
+246
+00:11:51,400 --> 00:11:54,180
+something maybe greater than one right here.
+
+247
+00:11:54,190 --> 00:11:55,790
+So the way we can do that, let's multiply
+
+248
+00:11:55,790 --> 00:11:59,410
+it by ten on this side.
+
+249
+00:11:59,410 --> 00:12:02,980
+And divide by ten on this side or multiply by one / ten.
+
+250
+00:12:02,990 --> 00:12:04,870
+Remember, we're not changing the number if you multiply
+
+251
+00:12:04,870 --> 00:12:06,640
+by ten and divide by ten.
+
+252
+00:12:06,650 --> 00:12:08,940
+We're just doing it to different parts of the product.
+
+253
+00:12:08,950 --> 00:12:15,620
+So this side is going to become five -- I'll do it in pink -- ten
+
+254
+00:12:15,620 --> 00:12:20,910
+times 0.5 is 5, times 10 to the 17th divided by 10.
+
+255
+00:12:20,920 --> 00:12:24,180
+That's the same thing as ten to the seventeenth times ten
+
+256
+00:12:24,190 --> 00:12:25,640
+to the minus one, right?
+
+257
+00:12:25,640 --> 00:12:27,110
+That's ten to the minus one.
+
+258
+00:12:27,120 --> 00:12:29,320
+So it's equal to ten to the sixteenth power.
+
+259
+00:12:29,320 --> 00:12:31,920
+Which is the answer when you divide these two
+
+260
+00:12:35,330 --> 00:12:36,480
+guys right there.
+
+261
+00:12:36,490 --> 00:12:39,740
+So hopefully these examples have filled in all of the
+
+262
+00:12:39,750 --> 00:12:42,250
+gaps or the uncertain scenarios dealing with
+
+263
+00:12:42,250 --> 00:12:43,250
+scientific notation.
+
+264
+00:12:43,250 --> 00:12:46,210
+If I haven't covered something, feel free to write a comment on
+
+265
+00:12:46,220 --> 00:12:48,500
+this video or pop me an e-mail.

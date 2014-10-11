@@ -1,0 +1,723 @@
+1
+00:00:01,035 --> 00:00:05,936
+I have a report now that they are sending a new rover to Mars,
+
+2
+00:00:05,936 --> 00:00:09,203
+and we are responsible for doing one thing –
+
+3
+00:00:09,203 --> 00:00:13,349
+which is programming the algorithm inside the rover
+
+4
+00:00:13,349 --> 00:00:15,236
+which checks if numbers are prime.
+
+5
+00:00:15,236 --> 00:00:18,486
+Because let's say our rover is communicating using RSA.
+
+6
+00:00:18,486 --> 00:00:23,322
+It needs an algorithm inside that can do a primality test.
+
+7
+00:00:23,322 --> 00:00:26,019
+Now, when you a design a rover,
+
+8
+00:00:26,019 --> 00:00:27,769
+or anything to go into space, you have to
+
+9
+00:00:27,769 --> 00:00:30,570
+be very efficient in <i>every</i> way.
+
+10
+00:00:30,570 --> 00:00:33,866
+So the components used have to be very light,
+
+11
+00:00:33,866 --> 00:00:38,759
+the amount of power every subsystem uses has to be minimal.
+
+12
+00:00:38,759 --> 00:00:42,552
+You have to be saving energy and mass at
+
+13
+00:00:42,552 --> 00:00:45,167
+every point in the design process.
+
+14
+00:00:45,167 --> 00:00:48,134
+So, we have our work cut out for us
+
+15
+00:00:48,134 --> 00:00:50,751
+because we have to be able to deal with numbers
+
+16
+00:00:50,751 --> 00:00:53,914
+up to this size...
+
+17
+00:00:53,914 --> 00:00:57,068
+... and it has to do it very fast.
+
+18
+00:00:57,068 --> 00:01:01,821
+So if we give it a very small input, let's say just 90 –
+
+19
+00:01:01,836 --> 00:01:05,352
+it should be able to calculate that almost as fast
+
+20
+00:01:05,352 --> 00:01:07,851
+as this entire number.
+
+21
+00:01:07,851 --> 00:01:10,385
+So as the input grows, we don't want to see
+
+22
+00:01:10,385 --> 00:01:12,478
+any of this noticeable slow-down.
+
+23
+00:01:13,463 --> 00:01:15,605
+Now, I want to analyze the user questions,
+
+24
+00:01:15,605 --> 00:01:18,892
+or the ideas users had, which were really good.
+
+25
+00:01:18,892 --> 00:01:20,307
+From a mathematical standpoint.
+
+26
+00:01:20,307 --> 00:01:24,606
+We are checking if <i>n</i> is <i>prime</i> or <i>composite</i>.
+
+27
+00:01:24,606 --> 00:01:26,988
+So given some number <i>n</i>, think of
+
+28
+00:01:26,988 --> 00:01:29,523
+the space of all possible <i>n</i>s,
+
+29
+00:01:29,523 --> 00:01:32,038
+and say if <i>n</i> is 100, then this space
+
+30
+00:01:32,038 --> 00:01:33,883
+is 2 to 100.
+
+31
+00:01:33,883 --> 00:01:35,687
+And what our algorithm is doing,
+
+32
+00:01:35,687 --> 00:01:37,504
+is it's searching this space.
+
+33
+00:01:37,996 --> 00:01:41,156
+Okay, so you can think of algorithms as searching a space,
+
+34
+00:01:41,156 --> 00:01:44,978
+and at each point it's asking – think of it as a step –
+
+35
+00:01:44,978 --> 00:01:47,774
+– a primitive step – it's asking a question.
+
+36
+00:01:47,774 --> 00:01:51,869
+And it's actually a composite test, the question...
+
+37
+00:01:51,869 --> 00:01:56,650
+so say we're at number <i>a</i>, we would say in the
+
+38
+00:01:56,650 --> 00:02:00,141
+trial division method is <i>n</i> divided by <i>a</i>?,
+
+39
+00:02:00,141 --> 00:02:02,275
+and we just try this, we drop <i>a</i> here and
+
+40
+00:02:02,275 --> 00:02:04,624
+we try if <i>n</i> divides <i>a</i> and we see
+
+41
+00:02:04,624 --> 00:02:09,091
+if the remainder is zero, which means <i>a</i> is a divisor of <i>n</i>
+
+42
+00:02:09,091 --> 00:02:10,641
+then we can say,
+
+43
+00:02:10,641 --> 00:02:15,675
+"Ah! We are 100% sure it's composite."
+
+44
+00:02:17,244 --> 00:02:21,192
+Otherwise, at each step, we aren't quite sure –
+
+45
+00:02:21,192 --> 00:02:23,274
+it might be prime, but we're not sure –
+
+46
+00:02:23,274 --> 00:02:26,952
+so we continue searching until we hit the end.
+
+47
+00:02:26,952 --> 00:02:31,260
+And remember our wall in this case was at the square root of <i>n</i>.
+
+48
+00:02:31,260 --> 00:02:34,976
+The worst case situation occurs when <i>n</i>'s prime,
+
+49
+00:02:34,976 --> 00:02:37,643
+we search all the way to the square root of <i>n</i>
+
+50
+00:02:37,643 --> 00:02:38,744
+and then we can say,
+
+51
+00:02:38,744 --> 00:02:42,445
+"Ah! It is prime! And we are 100% sure."
+
+52
+00:02:42,445 --> 00:02:45,463
+So in the case where <i>n</i> is even a multiple of two primes,
+
+53
+00:02:45,463 --> 00:02:45,963
+so 7
+
+54
+00:02:45,963 --> 00:02:46,761
+so 7 • 7
+
+55
+00:02:46,761 --> 00:02:48,313
+so 7 • 7 = 49
+
+56
+00:02:48,313 --> 00:02:50,660
+If we throw 49 into our algorithm,
+
+57
+00:02:50,660 --> 00:02:54,322
+the worst case occurs, we go all the way until
+
+58
+00:02:54,322 --> 00:02:55,971
+the square root of <i>n</i>.
+
+59
+00:02:55,971 --> 00:02:59,489
+So the first set of questions,
+
+60
+00:02:59,489 --> 00:03:01,755
+from, for example, TheFourthDimension asks:
+
+61
+00:03:03,063 --> 00:03:05,653
+*"Once we rule out 2 as not divisible, then*
+
+62
+00:03:05,653 --> 00:03:09,086
+*all multiples of 2 could be ruled out.*
+
+63
+00:03:09,086 --> 00:03:09,841
+*The same for 3*
+
+64
+00:03:09,841 --> 00:03:10,341
+*The same for 3, 4*
+
+65
+00:03:10,341 --> 00:03:11,026
+*The same for 3, 4, 5*
+
+66
+00:03:11,026 --> 00:03:12,253
+*The same for 3, 4, 5, etc.*
+
+67
+00:03:12,253 --> 00:03:14,506
+So that's a really great point –
+
+68
+00:03:14,506 --> 00:03:17,818
+our old algorithm was stepping along one at a time,
+
+69
+00:03:17,818 --> 00:03:24,111
+but we could be using patterns we know about composite numbers
+
+70
+00:03:24,111 --> 00:03:29,552
+such as, we know, for sure, that if a number's divisible by 2,
+
+71
+00:03:29,552 --> 00:03:30,769
+then it's composite –
+
+72
+00:03:30,769 --> 00:03:32,761
+if it's greater than 2, so 2's prime,
+
+73
+00:03:32,761 --> 00:03:33,696
+but then we can say,
+
+74
+00:03:33,696 --> 00:03:36,106
+4 is composite...
+
+75
+00:03:37,213 --> 00:03:40,012
+Oh, I missed 5 here, sorry about that.
+
+76
+00:03:40,012 --> 00:03:40,583
+4
+
+77
+00:03:40,583 --> 00:03:41,278
+4, 6
+
+78
+00:03:41,278 --> 00:03:43,527
+4, 6, 8
+
+79
+00:03:43,527 --> 00:03:44,544
+4, 6, 8, 10 ...
+
+80
+00:03:44,544 --> 00:03:47,635
+And instead, we can take a step like this:
+
+81
+00:03:47,635 --> 00:03:48,250
+3
+
+82
+00:03:48,250 --> 00:03:49,154
+3, 5
+
+83
+00:03:49,154 --> 00:03:50,203
+3, 5, 7
+
+84
+00:03:50,203 --> 00:03:51,654
+3, 5, 7, 9 ...
+
+85
+00:03:51,654 --> 00:03:54,486
+So, one category of questions –
+
+86
+00:03:54,486 --> 00:03:57,253
+they all try to reduce this space,
+
+87
+00:03:57,253 --> 00:04:00,169
+so if we eliminate all the even numbers,
+
+88
+00:04:00,169 --> 00:04:03,036
+now the check space, instead of being up to the square root of <i>n</i>,
+
+89
+00:04:03,036 --> 00:04:06,102
+is the square root of <i>n</i> divided by 2.
+
+90
+00:04:06,102 --> 00:04:09,337
+And, we can find other patterns in composite numbers
+
+91
+00:04:09,337 --> 00:04:12,103
+to try to make this even smaller.
+
+92
+00:04:12,103 --> 00:04:15,892
+The other type of question concerns the case
+
+93
+00:04:15,892 --> 00:04:17,969
+where we find a composite witness,
+
+94
+00:04:17,969 --> 00:04:22,753
+that is we find an <i>a</i> that allows us to say we know <i>n</i> is composite.
+
+95
+00:04:22,753 --> 00:04:23,894
+lola said,
+
+96
+00:04:23,894 --> 00:04:26,336
+*"Wouldn't leaving the loop as soon we find*
+
+97
+00:04:26,336 --> 00:04:29,469
+*primeCheck == false cut down on some of the time?"*
+
+98
+00:04:29,469 --> 00:04:32,054
+And yes, that's totally correct, and
+
+99
+00:04:32,054 --> 00:04:34,086
+it's something we want to do.
+
+100
+00:04:34,086 --> 00:04:37,604
+As soon as we are searching along using some step,
+
+101
+00:04:37,604 --> 00:04:40,157
+defined by whatever pattern you're using,
+
+102
+00:04:40,157 --> 00:04:43,057
+we find a composite witness,
+
+103
+00:04:43,057 --> 00:04:46,948
+that means it passes our test and we say 100% composite,
+
+104
+00:04:46,948 --> 00:04:48,635
+we should halt early.
+
+105
+00:04:48,635 --> 00:04:50,369
+We stop and say, "Uh, we're done."
+
+106
+00:04:50,369 --> 00:04:52,552
+We won't continue searching.
+
+107
+00:04:52,552 --> 00:04:56,002
+And, this halting early is great, except
+
+108
+00:04:56,002 --> 00:04:59,059
+it doesn't help us in the worst case,
+
+109
+00:04:59,059 --> 00:05:01,661
+which is: if <i>n</i> is prime,
+
+110
+00:05:04,031 --> 00:05:06,607
+then the early halting won't help us.
+
+111
+00:05:07,269 --> 00:05:10,348
+And now we can visualize how these improvements
+
+112
+00:05:10,348 --> 00:05:13,984
+allow us to reduce the space, thus preventing
+
+113
+00:05:13,984 --> 00:05:18,712
+as many checks happening inside the computer
+
+114
+00:05:18,712 --> 00:05:20,860
+(which, depending on our computer)
+
+115
+00:05:20,860 --> 00:05:22,898
+will reduce the amount of <i>time</i> it takes.
+
+116
+00:05:23,483 --> 00:05:26,732
+So now I can show you the visualization I've set up below,
+
+117
+00:05:26,732 --> 00:05:29,364
+which allows us to compare two algorithms based on
+
+118
+00:05:29,364 --> 00:05:32,614
+how many steps occur during their execution.
+
+119
+00:05:32,614 --> 00:05:35,764
+On the left is Algorithm A, which is trial division,
+
+120
+00:05:35,764 --> 00:05:38,997
+which checks from 2 to the square root of <i>n</i>.
+
+121
+00:05:38,997 --> 00:05:42,398
+And on the right is Algorithm B, which is,
+
+122
+00:05:42,398 --> 00:05:44,213
+let's just say our "improved algorithm,"
+
+123
+00:05:44,213 --> 00:05:50,264
+and in this case, I've applied the check if it's divisible by 2,
+
+124
+00:05:50,264 --> 00:05:52,847
+so we only do half as many steps,
+
+125
+00:05:52,847 --> 00:05:56,847
+and I also terminate early in this Algorithm B.
+
+126
+00:05:56,847 --> 00:06:00,385
+So it's not perfect, I've just applied a few user modifications,
+
+127
+00:06:00,385 --> 00:06:03,488
+so we can see what happens, and now I'm gonna
+
+128
+00:06:03,488 --> 00:06:05,498
+just play with this to show you it.
+
+129
+00:06:06,929 --> 00:06:10,106
+Here we can see, as I scroll, we see Algorithm A.
+
+130
+00:06:10,106 --> 00:06:13,021
+We have the output, whether it's composite or prime,
+
+131
+00:06:13,021 --> 00:06:16,259
+and at the bottom, you'll see the number of steps.
+
+132
+00:06:16,259 --> 00:06:19,655
+So the first thing to notice is on the right-hand side,
+
+133
+00:06:19,655 --> 00:06:22,289
+every other number takes only one step,
+
+134
+00:06:22,289 --> 00:06:25,780
+and we know why that is, because if it's an even number,
+
+135
+00:06:25,780 --> 00:06:28,020
+such as this, it will quit.
+
+136
+00:06:28,020 --> 00:06:31,338
+So our old algorithm took 314 steps,
+
+137
+00:06:31,338 --> 00:06:33,878
+and our new algorithm only took 1 step
+
+138
+00:06:33,878 --> 00:06:35,664
+because it checked if it was divisible by 2,
+
+139
+00:06:35,664 --> 00:06:39,279
+so that seems like a really nice optimization.
+
+140
+00:06:39,279 --> 00:06:42,446
+However, as we build our input, you'll notice
+
+141
+00:06:42,446 --> 00:06:47,379
+the steps increase and the bar grows
+
+142
+00:06:47,379 --> 00:06:52,282
+and turns red once we approach the region
+
+143
+00:06:52,282 --> 00:06:53,533
+where we're going to crash.
+
+144
+00:06:53,533 --> 00:06:55,449
+So this red line up here is **STEP LIMIT** –
+
+145
+00:06:55,449 --> 00:06:58,181
+if your bar hits there, we fail,
+
+146
+00:06:58,181 --> 00:06:59,941
+which means our rover would break,
+
+147
+00:06:59,941 --> 00:07:02,545
+and in this case, the browser will actually crash,
+
+148
+00:07:02,545 --> 00:07:03,874
+so I'll try to get close to it.
+
+149
+00:07:03,874 --> 00:07:06,839
+So I'm close to it now, and it's running very slow,
+
+150
+00:07:06,839 --> 00:07:09,723
+I can feel that my browser is just about to crash
+
+151
+00:07:09,723 --> 00:07:11,523
+and give me the circle of death.
+
+152
+00:07:12,569 --> 00:07:16,547
+But notice our improved algorithm took only 2 steps in that case,
+
+153
+00:07:16,547 --> 00:07:19,388
+but remember the worst case.
+
+154
+00:07:19,973 --> 00:07:24,055
+So I have a few large prime numbers saved here for example.
+
+155
+00:07:24,055 --> 00:07:25,967
+We have to be able to handle any case,
+
+156
+00:07:25,967 --> 00:07:27,482
+we don't know what we're throwing at our algorithm.
+
+157
+00:07:27,482 --> 00:07:30,883
+So if I throw a large prime at it, look what happens:
+
+158
+00:07:31,821 --> 00:07:33,884
+Algorithm B, as we know, is taking
+
+159
+00:07:33,884 --> 00:07:36,684
+half as many steps in the worst case,
+
+160
+00:07:36,684 --> 00:07:40,128
+but it's still taking many steps here.
+
+161
+00:07:40,128 --> 00:07:42,301
+Because it's the worst case, right?
+
+162
+00:07:42,301 --> 00:07:44,800
+So, we're getting close to crashing here,
+
+163
+00:07:44,800 --> 00:07:46,750
+and this is not a very long prime.
+
+164
+00:07:46,750 --> 00:07:49,034
+We're still way under 15 digits.
+
+165
+00:07:49,034 --> 00:07:56,052
+And when I put this 12 digit prime into our algorithm
+
+166
+00:07:58,036 --> 00:07:59,485
+let's see what happens:
+
+167
+00:07:59,824 --> 00:08:03,720
+It's lagging; maybe it's going to crash...
+
+168
+00:08:03,720 --> 00:08:04,620
+look what happened:
+
+169
+00:08:04,620 --> 00:08:07,105
+both algorithms went <i>way</i> overboard,
+
+170
+00:08:07,105 --> 00:08:09,054
+so it didn't work.
+
+171
+00:08:09,054 --> 00:08:12,787
+Our improved algorithm is not good enough yet.
+
+172
+00:08:12,787 --> 00:08:14,787
+But now we have an understanding of
+
+173
+00:08:14,787 --> 00:08:16,137
+what we're trying to improve,
+
+174
+00:08:16,137 --> 00:08:19,021
+which is "number of steps in the worst case."
+
+175
+00:08:19,021 --> 00:08:22,734
+And we also have this cool tool, which allows us to
+
+176
+00:08:22,734 --> 00:08:25,438
+visualize how fast it's growing –
+
+177
+00:08:25,438 --> 00:08:28,637
+how fast the number of steps grows as our input grows.
+
+178
+00:08:28,637 --> 00:08:32,323
+And below, I'll explain how I set this up,
+
+179
+00:08:32,323 --> 00:08:34,985
+so you can set up your algorithm
+
+180
+00:08:34,985 --> 00:08:37,400
+and compare it with the base case,
+
+181
+00:08:37,400 --> 00:08:39,261
+and see how much better you can do.

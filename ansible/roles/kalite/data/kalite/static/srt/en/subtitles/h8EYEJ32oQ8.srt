@@ -1,0 +1,303 @@
+1
+99:59:59,999 --> 99:59:59,999
+We will now begin our journey into the world of Statistics, which is really a way
+
+2
+99:59:59,999 --> 99:59:59,999
+to understand, or get our head around, data.
+
+3
+99:59:59,999 --> 99:59:59,999
+So Statistics is all about data.
+
+4
+99:59:59,999 --> 99:59:59,999
+And as we begin our journey into the world of Statistics,
+
+5
+99:59:59,999 --> 99:59:59,999
+we will be doing a lot of what we can call "Descriptive Statistics."
+
+6
+99:59:59,999 --> 99:59:59,999
+If we have a bunch of data and want to tell something about all of that data, without giving them all of the data--
+
+7
+99:59:59,999 --> 99:59:59,999
+Can we somehow describe it with a smaller set of numbers?
+
+8
+99:59:59,999 --> 99:59:59,999
+So that's what we're going to focus on.
+
+9
+99:59:59,999 --> 99:59:59,999
+Then once we build our tool kit on the Descriptive Statistics,
+
+10
+99:59:59,999 --> 99:59:59,999
+then we can start to make inferences about that data, start to make conclusions, start to make judgements, and we'll start to do a lot of "Inferential Statistics" -- make inferences.
+
+11
+99:59:59,999 --> 99:59:59,999
+So with that out of the way, let's think about how we can describe data.
+
+12
+99:59:59,999 --> 99:59:59,999
+Let's say we have a set of numbers, we can consider this to be "data".
+
+13
+99:59:59,999 --> 99:59:59,999
+Maybe we're measuring the heights of our plants in our garden.
+
+14
+99:59:59,999 --> 99:59:59,999
+Let's say we have 6 plants and the heights are:
+
+15
+99:59:59,999 --> 99:59:59,999
+4 inches, 3 inches, 1 inch, 6 inches, and another one is 1 inch and another is 7 inches.
+
+16
+99:59:59,999 --> 99:59:59,999
+Let's say someone in another room, not looking at your plants, asks:
+
+17
+99:59:59,999 --> 99:59:59,999
+"How tall are your plants?" And they only want to hear one number that somehow represents all the different heights of your plants.
+
+18
+99:59:59,999 --> 99:59:59,999
+How would you do that?
+
+19
+99:59:59,999 --> 99:59:59,999
+Well, you'd say how can I find that? Maybe I want a typical number? Maybe I want the number that somehow represents the middle?
+
+20
+99:59:59,999 --> 99:59:59,999
+Maybe I want the most frequent number? Maybe I want a number that represents the center of all of these numbers?
+
+21
+99:59:59,999 --> 99:59:59,999
+If you said any of those things, you would actually have done the same things
+
+22
+99:59:59,999 --> 99:59:59,999
+that the people who came up with the descriptive statistics said.
+
+23
+99:59:59,999 --> 99:59:59,999
+They said, "Well... how can we do it?"
+
+24
+99:59:59,999 --> 99:59:59,999
+We'll start by thinking of the idea of Average. In every-day terminology, "average" has a very particular meaning, as we'll see. When many people talk about average they're talking about the "arithmetic mean", which we'll see shortly.
+
+25
+99:59:59,999 --> 99:59:59,999
+But in Statistics, average means something more general:
+
+26
+99:59:59,999 --> 99:59:59,999
+It really means, give me a "typical" or give me a "middle" number, or... these are "or"s. It's really an attempt to find a measure of "Central Tendency".
+
+27
+99:59:59,999 --> 99:59:59,999
+So once again, you have a bunch of numbers, you're somehow trying to represent these with one number (the average) that is somehow typical or middle or center of these numbers.
+
+28
+99:59:59,999 --> 99:59:59,999
+And as we'll see, there are many of types of averages.
+
+29
+99:59:59,999 --> 99:59:59,999
+The first is the one, which you are probably most familiar with. It's the one when people talk about the average on this exam or the average height, and that's the arithmetic mean.
+
+30
+99:59:59,999 --> 99:59:59,999
+I'll write it in yellow. "Arithmetic mean".
+
+31
+99:59:59,999 --> 99:59:59,999
+When Arithmetic is a noun, we call (pronounce) it Uh-rith'-me-tik. When it's an adjective like this, we call (pronounce) it Eh'-rith-me'-tik.
+
+32
+99:59:59,999 --> 99:59:59,999
+This is really just the sum of all the numbers divided by....
+
+33
+99:59:59,999 --> 99:59:59,999
+- And this is a human-constructed definition, that we've found useful -
+
+34
+99:59:59,999 --> 99:59:59,999
+the sum of all the numbers divided by the number of numbers we have.
+
+35
+99:59:59,999 --> 99:59:59,999
+So, what is the arithmetic mean of this data set?
+
+36
+99:59:59,999 --> 99:59:59,999
+Well, Let's just compute it. it's going to be 4 + 3 + 1 + 6 + 1 + 7 over the number of data points we have. So, we have 6 data points, so we're gonna divide by 6.
+
+37
+99:59:59,999 --> 99:59:59,999
+And we get: 4 +3 = 7 +1 = 8 +6 = 14 +1 = 15 +7 = 22. Let me do that one more time... we have 7, 8, 14, 15, 22. All of that over 6.
+
+38
+99:59:59,999 --> 99:59:59,999
+And we could write this as a mixed number. 6 goes into 22 3 times with a remainder of 4. So it's 3 and 4/6ths which is the same as 3 and 2/3rds. We could write this as a decimal : 3.6 repeating.
+
+39
+99:59:59,999 --> 99:59:59,999
+We can write it any one of those ways 
+but this is kind of a representative number,
+this is trying to get at a "central tendency".
+
+40
+99:59:59,999 --> 99:59:59,999
+Once again these are human constructed. 
+It's not like someone just found some
+
+41
+99:59:59,999 --> 99:59:59,999
+religious document that said, "This is the way 
+that the Arithmetic Mean must be defined."
+
+42
+99:59:59,999 --> 99:59:59,999
+It is not as pure of a computation as say, as in the discovery of the circle resulting from the observation of the Weltlalls.
+
+43
+99:59:59,999 --> 99:59:59,999
+It is a human construction that we consider useful.
+
+44
+99:59:59,999 --> 99:59:59,999
+Well, there are other ways to measure an average to find a "typical" or average.
+
+45
+99:59:59,999 --> 99:59:59,999
+The other, very typical way is the median value), and I write in pink median.
+
+46
+99:59:59,999 --> 99:59:59,999
+And median means for the average number.
+
+47
+99:59:59,999 --> 99:59:59,999
+If you arrange all your numbers and find the mean, which is the median.
+
+48
+99:59:59,999 --> 99:59:59,999
+So what is the median of this data set?
+
+49
+99:59:59,999 --> 99:59:59,999
+So what is the median of this data set?
+
+50
+99:59:59,999 --> 99:59:59,999
+We haben1 another 1, 3, 4, 6, and a seventh What is the middle number?
+
+51
+99:59:59,999 --> 99:59:59,999
+We see that we have to pay an even number of, as there is no middle number, there are two middle numbers.
+
+52
+99:59:59,999 --> 99:59:59,999
+, the 3 and the 4
+
+53
+99:59:59,999 --> 99:59:59,999
+And in the case where you have two middle numbers, you take the middle between the two figures,
+
+54
+99:59:59,999 --> 99:59:59,999
+ie the arithmetic mean of these two numbers, in order to find the median.
+
+55
+99:59:59,999 --> 99:59:59,999
+The median is in the middle DVON 3 and 4, that is 3.5. In this case, the median is therefore 3.5.
+
+56
+99:59:59,999 --> 99:59:59,999
+So if you have an even number of numbers, the median is the arithmetic mean of the two middle numbers.
+
+57
+99:59:59,999 --> 99:59:59,999
+If you have an odd number of numbers, it is somewhat easier.
+
+58
+99:59:59,999 --> 99:59:59,999
+this I'll give you a different amount of data.
+
+59
+99:59:59,999 --> 99:59:59,999
+This is the amount of data and I have already ordered:
+
+60
+99:59:59,999 --> 99:59:59,999
+Our data volume is 0,0,7, 50,10.000, and 1,000,000.
+
+61
+99:59:59,999 --> 99:59:59,999
+A crazy amount of data. In this situation, which is the median?
+
+62
+99:59:59,999 --> 99:59:59,999
+We have 5 numbers, an odd number. It's easy to dig out the We have 5 numbers, an odd number. It's easy to dig out the middle number.
+
+63
+99:59:59,999 --> 99:59:59,999
+The mean is the number that is greater than two of the numbers, and smaller than the other two.
+
+64
+99:59:59,999 --> 99:59:59,999
+This is exactly the middle. In this case our median 50th
+
+65
+99:59:59,999 --> 99:59:59,999
+Now, the third measure of a central cover is the least frequently used: the mode.
+
+66
+99:59:59,999 --> 99:59:59,999
+It sounds very complex, but it appears that it is the most fundamental idea: The mode is the most frequently occurring number in a data set.
+
+67
+99:59:59,999 --> 99:59:59,999
+And what is the mode? If all values ​​occur only once, there is no modal.
+
+68
+99:59:59,999 --> 99:59:59,999
+But what is the mode in our data-set? We only have a 4, a 3, but we have 2 ones, we have a 6 and a 7
+
+69
+99:59:59,999 --> 99:59:59,999
+The most frequently occurring number is the first So is the mode of the first
+
+70
+99:59:59,999 --> 99:59:59,999
+We see that the different types to determine eien average, in very different ways and we will see in the study of statistics,
+
+71
+99:59:59,999 --> 99:59:59,999
+that it is good for different things.
+
+72
+99:59:59,999 --> 99:59:59,999
+This is the most widely used for many different things,
+
+73
+99:59:59,999 --> 99:59:59,999
+, the median is important when you have a lot of crazy numbers to calm the arithmetic mean.
+
+74
+99:59:59,999 --> 99:59:59,999
+The mode can also be useful in such situations where a value occurs more than once.
+
+75
+99:59:59,999 --> 99:59:59,999
+OK, the time being it would be. In the next video we will explore the deeper statistics.

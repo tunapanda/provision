@@ -1,0 +1,1005 @@
+1
+00:00:00,000 --> 00:00:00,720
+   
+
+2
+00:00:00,720 --> 00:00:02,540
+I received a problem
+from Bradley.
+
+3
+00:00:02,540 --> 00:00:04,220
+I don't know his last name.
+
+4
+00:00:04,220 --> 00:00:05,300
+I'm assuming it's a he.
+
+5
+00:00:05,300 --> 00:00:06,050
+I don't know where he lives.
+
+6
+00:00:06,050 --> 00:00:07,670
+But the problem he
+gave is interesting.
+
+7
+00:00:07,670 --> 00:00:08,980
+And I don't think I've
+covered this before.
+
+8
+00:00:08,980 --> 00:00:10,090
+So I think it's worth covering.
+
+9
+00:00:10,090 --> 00:00:13,730
+So the problem he gave, if I
+read his note properly, is
+
+10
+00:00:13,730 --> 00:00:25,310
+this: 3 sine squared of x is
+equal to 1 plus cosine of x.
+
+11
+00:00:25,310 --> 00:00:27,730
+So at first cut, this seems
+like a difficult problem.
+
+12
+00:00:27,730 --> 00:00:29,270
+How do I-- You
+can't solve for x.
+
+13
+00:00:29,270 --> 00:00:31,350
+You would have arcsines
+and the square roots
+
+14
+00:00:31,350 --> 00:00:32,950
+and cosines et cetera.
+
+15
+00:00:32,950 --> 00:00:33,500
+Et cetera.
+
+16
+00:00:33,500 --> 00:00:36,070
+So the way I approached this
+is-- Any time that if I see a
+
+17
+00:00:36,070 --> 00:00:39,880
+cosine x here but then I see a
+sine squared x here, I start
+
+18
+00:00:39,880 --> 00:00:42,860
+thinking of what trig
+identities are at my disposal.
+
+19
+00:00:42,860 --> 00:00:45,970
+And what trig identities
+involve a sine squared x?
+
+20
+00:00:45,970 --> 00:00:48,280
+Well the most basic trig
+identity, and this comes out
+
+21
+00:00:48,280 --> 00:00:51,420
+of the unit circle definition
+of trig functions, is that
+
+22
+00:00:51,420 --> 00:00:58,530
+sine squared x plus cosine
+squared x is equal to 1.
+
+23
+00:00:58,530 --> 00:01:01,510
+And that comes out of the fact
+that the equation of a circle
+
+24
+00:01:01,510 --> 00:01:04,500
+is x squared plus y squared is
+equal to the radius squared.
+
+25
+00:01:04,500 --> 00:01:05,100
+But it's the unit circle.
+
+26
+00:01:05,100 --> 00:01:06,650
+It's equal to 1 squared.
+
+27
+00:01:06,650 --> 00:01:07,170
+But anyway.
+
+28
+00:01:07,170 --> 00:01:09,200
+Hopefully you have this
+memorized if you've already
+
+29
+00:01:09,200 --> 00:01:11,410
+been watching the trig videos.
+
+30
+00:01:11,410 --> 00:01:13,070
+So what does sine
+squared x equal?
+
+31
+00:01:13,070 --> 00:01:14,280
+Well let's solve for it.
+
+32
+00:01:14,280 --> 00:01:23,270
+So sine squared x is equal to 1
+minus cosine squared x, right?
+
+33
+00:01:23,270 --> 00:01:27,700
+So we could substitute this
+term right here with this.
+
+34
+00:01:27,700 --> 00:01:28,630
+And what does that get us?
+
+35
+00:01:28,630 --> 00:01:30,880
+Well we're just playing around
+at this point, but at least
+
+36
+00:01:30,880 --> 00:01:34,620
+that way, everything is
+in terms of cosine of x.
+
+37
+00:01:34,620 --> 00:01:35,310
+So let's do that.
+
+38
+00:01:35,310 --> 00:01:35,860
+Let's substitute.
+
+39
+00:01:35,860 --> 00:01:39,680
+So we get 3 times
+sine squared of x.
+
+40
+00:01:39,680 --> 00:01:41,520
+We just showed that sine
+squared of x is the same thing
+
+41
+00:01:41,520 --> 00:01:43,075
+as 1 minus cosine squared of x.
+
+42
+00:01:43,075 --> 00:01:49,120
+   
+
+43
+00:01:49,120 --> 00:01:53,730
+Is equal to 1 plus cosine of x.
+
+44
+00:01:53,730 --> 00:01:55,560
+We can simplify a little bit.
+
+45
+00:01:55,560 --> 00:02:05,480
+3 minus 3 cosine squared of x
+is equal to 1 plus cosine of x.
+
+46
+00:02:05,480 --> 00:02:05,910
+I don't know.
+
+47
+00:02:05,910 --> 00:02:07,990
+Just for kicks, let's put
+everything onto the right
+
+48
+00:02:07,990 --> 00:02:09,550
+side of the equation.
+
+49
+00:02:09,550 --> 00:02:11,620
+And you'll see it
+wasn't just for kicks.
+
+50
+00:02:11,620 --> 00:02:12,870
+0-- right?
+
+51
+00:02:12,870 --> 00:02:15,230
+I'm just going to --is equal
+to-- let's put this onto
+
+52
+00:02:15,230 --> 00:02:20,150
+the right side --3
+cosine squared x.
+
+53
+00:02:20,150 --> 00:02:21,810
+And then-- Let's see.
+
+54
+00:02:21,810 --> 00:02:23,940
+We have to subtract
+3 from this side.
+
+55
+00:02:23,940 --> 00:02:25,570
+Well let's just
+write the cosine x.
+
+56
+00:02:25,570 --> 00:02:27,260
+Plus cosine x.
+
+57
+00:02:27,260 --> 00:02:30,400
+And then 1 minus 3 is minus 2.
+
+58
+00:02:30,400 --> 00:02:31,910
+Let me make sure I didn't
+make a careless mistake.
+
+59
+00:02:31,910 --> 00:02:32,870
+We have negative 3 here.
+
+60
+00:02:32,870 --> 00:02:35,493
+We added 3 cosine x--
+3 cosine squared of x
+
+61
+00:02:35,493 --> 00:02:36,960
+to both sides, right?
+
+62
+00:02:36,960 --> 00:02:38,500
+We subtracted 3
+from both sides.
+
+63
+00:02:38,500 --> 00:02:41,360
+Minus 2 and this cosine
+x is this cosine x.
+
+64
+00:02:41,360 --> 00:02:43,950
+Now what can we do?
+
+65
+00:02:43,950 --> 00:02:46,410
+Well this is where it
+gets interesting.
+
+66
+00:02:46,410 --> 00:02:50,740
+Because this looks an awful lot
+like a quadratic equation
+
+67
+00:02:50,740 --> 00:02:57,920
+except for the fact that
+instead of having ax squared
+
+68
+00:02:57,920 --> 00:03:02,400
+plus bx plus c, we have
+a cosine squared x.
+
+69
+00:03:02,400 --> 00:03:04,360
+So instead of just having an
+x squared, we have a whole
+
+70
+00:03:04,360 --> 00:03:05,940
+cosine of x squared.
+
+71
+00:03:05,940 --> 00:03:07,470
+So what do I mean by that?
+
+72
+00:03:07,470 --> 00:03:08,720
+Let me make a substitution.
+
+73
+00:03:08,720 --> 00:03:12,760
+And then I think it'll
+all become clear to you.
+
+74
+00:03:12,760 --> 00:03:16,030
+Let's make the substitution
+that a-- and I'm just picking
+
+75
+00:03:16,030 --> 00:03:21,430
+the letter a arbitrarily
+--is equal to cosine of x.
+
+76
+00:03:21,430 --> 00:03:23,836
+So if we were to take the
+cosine x's of this and replace
+
+77
+00:03:23,836 --> 00:03:25,450
+them with a, what do we get?
+
+78
+00:03:25,450 --> 00:03:26,760
+And I'm just going to
+switch it around.
+
+79
+00:03:26,760 --> 00:03:28,790
+So I want to put the
+0 on that side.
+
+80
+00:03:28,790 --> 00:03:30,340
+Equal 0.
+
+81
+00:03:30,340 --> 00:03:32,875
+So we get 3-- Well
+cosine squared x.
+
+82
+00:03:32,875 --> 00:03:36,040
+That's the same thing as
+cosine of x squared, right?
+
+83
+00:03:36,040 --> 00:03:47,840
+So we get 3a squared plus
+a minus 2 is equal to 0.
+
+84
+00:03:47,840 --> 00:03:49,870
+Well now we have a
+pure quadratic.
+
+85
+00:03:49,870 --> 00:03:54,500
+And we can solve it using
+the quadratic equation.
+
+86
+00:03:54,500 --> 00:03:56,690
+So what's the
+quadratic equation?
+
+87
+00:03:56,690 --> 00:03:58,760
+Let me write it up here.
+
+88
+00:03:58,760 --> 00:04:02,080
+Negative b plus or minus
+the square root of b
+
+89
+00:04:02,080 --> 00:04:04,700
+squared minus 4ac.
+
+90
+00:04:04,700 --> 00:04:06,560
+All of that over 2a.
+
+91
+00:04:06,560 --> 00:04:08,550
+So what are the roots
+of this equation?
+
+92
+00:04:08,550 --> 00:04:10,400
+Well what's minus-- And
+remember this a is
+
+93
+00:04:10,400 --> 00:04:11,440
+different than this a.
+
+94
+00:04:11,440 --> 00:04:13,040
+Maybe I shouldn't have
+used a as a letter.
+
+95
+00:04:13,040 --> 00:04:15,410
+But these-- a, b, and c in
+the quadratic equation
+
+96
+00:04:15,410 --> 00:04:16,460
+represent the coefficients.
+
+97
+00:04:16,460 --> 00:04:19,360
+So this is a.
+
+98
+00:04:19,360 --> 00:04:21,500
+b is 1.
+
+99
+00:04:21,500 --> 00:04:23,340
+And c is just minus 2.
+
+100
+00:04:23,340 --> 00:04:26,080
+So what are the roots of this?
+
+101
+00:04:26,080 --> 00:04:29,780
+So the a's that solve
+this. a can equal--
+
+102
+00:04:29,780 --> 00:04:30,780
+And I know I confused you.
+
+103
+00:04:30,780 --> 00:04:32,190
+I could-- Let me actually
+write it different.
+
+104
+00:04:32,190 --> 00:04:35,630
+Let's make this, instead of
+a is equal to cosine x, let
+
+105
+00:04:35,630 --> 00:04:37,610
+me say that-- I don't know.
+
+106
+00:04:37,610 --> 00:04:39,540
+Let me pick a good letter
+that's not involved in
+
+107
+00:04:39,540 --> 00:04:41,540
+the-- Let me say d.
+
+108
+00:04:41,540 --> 00:04:45,920
+So 3d squared plus
+d minus is 2.
+
+109
+00:04:45,920 --> 00:04:49,250
+So now the a's, b's and c's are
+definitely the coefficients.
+
+110
+00:04:49,250 --> 00:04:53,390
+So the solutions to this are
+d-- because I didn't want to
+
+111
+00:04:53,390 --> 00:04:57,060
+use a, b, or c --d is
+equal to minus b.
+
+112
+00:04:57,060 --> 00:04:58,350
+Well, b is 1.
+
+113
+00:04:58,350 --> 00:04:59,730
+Minus 1.
+
+114
+00:04:59,730 --> 00:05:01,600
+And if this is completely
+foreign to you, you should
+
+115
+00:05:01,600 --> 00:05:05,010
+review the videos on
+the quadratic equation.
+
+116
+00:05:05,010 --> 00:05:07,560
+Minus b squared.
+
+117
+00:05:07,560 --> 00:05:09,690
+Well that's 1 squared.
+
+118
+00:05:09,690 --> 00:05:12,030
+Minus 4ac.
+
+119
+00:05:12,030 --> 00:05:18,220
+So minus 4 times a,
+times 3, times c.
+
+120
+00:05:18,220 --> 00:05:20,590
+Well c is minus 2, right?
+
+121
+00:05:20,590 --> 00:05:22,630
+So we get a-- That
+minus cancels there.
+
+122
+00:05:22,630 --> 00:05:23,780
+And we have a 2 there.
+
+123
+00:05:23,780 --> 00:05:28,550
+All of that over 2 times a. a
+is 3, so we have it over 6.
+
+124
+00:05:28,550 --> 00:05:31,700
+So this equals minus 1
+plus or minus the square
+
+125
+00:05:31,700 --> 00:05:32,250
+root-- What is this?
+
+126
+00:05:32,250 --> 00:05:33,480
+4 times 3 times 2.
+
+127
+00:05:33,480 --> 00:05:35,240
+24 plus 1.
+
+128
+00:05:35,240 --> 00:05:35,900
+25.
+
+129
+00:05:35,900 --> 00:05:35,950
+Oh.
+
+130
+00:05:35,950 --> 00:05:37,820
+This works out cleanly.
+
+131
+00:05:37,820 --> 00:05:39,290
+Over 6.
+
+132
+00:05:39,290 --> 00:05:46,160
+So that equals minus 1
+plus or minus 5 over 6.
+
+133
+00:05:46,160 --> 00:05:47,480
+And so what are the roots?
+
+134
+00:05:47,480 --> 00:05:51,760
+The roots are-- What's
+minus 1 minus 5?
+
+135
+00:05:51,760 --> 00:05:53,670
+That's minus 6 over 6.
+
+136
+00:05:53,670 --> 00:05:55,510
+So it's minus 1.
+
+137
+00:05:55,510 --> 00:05:57,420
+What's the other one?
+
+138
+00:05:57,420 --> 00:05:59,850
+Minus 1 plus 5 is 4.
+
+139
+00:05:59,850 --> 00:06:03,840
+4 over 6 is 2/3.
+
+140
+00:06:03,840 --> 00:06:05,260
+So the solution is to
+the equation-- Let me
+
+141
+00:06:05,260 --> 00:06:06,490
+clear up some space.
+
+142
+00:06:06,490 --> 00:06:12,210
+Hopefully it'll let me
+clear up some space here.
+
+143
+00:06:12,210 --> 00:06:15,150
+   
+
+144
+00:06:15,150 --> 00:06:15,600
+Let me see.
+
+145
+00:06:15,600 --> 00:06:18,170
+What was I doing?
+
+146
+00:06:18,170 --> 00:06:18,580
+Oh.
+
+147
+00:06:18,580 --> 00:06:21,780
+Maybe I want to leave--
+I can get rid of this.
+
+148
+00:06:21,780 --> 00:06:24,210
+You know the identity.
+
+149
+00:06:24,210 --> 00:06:28,380
+And you also know the
+quadratic formula.
+
+150
+00:06:28,380 --> 00:06:28,840
+Let's see.
+
+151
+00:06:28,840 --> 00:06:30,310
+Actually, let me get
+rid of this too.
+
+152
+00:06:30,310 --> 00:06:33,860
+Clear up a bunch of space.
+
+153
+00:06:33,860 --> 00:06:36,410
+I wanted to leave this here
+because this showed how this
+
+154
+00:06:36,410 --> 00:06:39,380
+turned into a quadratic, but
+instead of having it in terms
+
+155
+00:06:39,380 --> 00:06:43,560
+of just a variable, we have
+it in terms of cosine of x.
+
+156
+00:06:43,560 --> 00:06:45,550
+And then we made this d
+is equal to cosine of x.
+
+157
+00:06:45,550 --> 00:06:47,030
+Anyway.
+
+158
+00:06:47,030 --> 00:06:50,970
+So the solution to this
+equation is that quadratic.
+
+159
+00:06:50,970 --> 00:06:57,080
+Is d is equal to minus
+1 or 2/3, right?
+
+160
+00:06:57,080 --> 00:06:59,700
+But, of course, we made the
+substitution long ago that
+
+161
+00:06:59,700 --> 00:07:01,500
+d is equal to cosine of x.
+
+162
+00:07:01,500 --> 00:07:06,240
+So the solution to this
+equation, in terms of x, is the
+
+163
+00:07:06,240 --> 00:07:07,840
+solution to this equation.
+
+164
+00:07:07,840 --> 00:07:17,500
+Cosine of x is equal to minus 1
+or cosine of x is equal to 2/3.
+
+165
+00:07:17,500 --> 00:07:18,850
+Well this one's easy, right?
+
+166
+00:07:18,850 --> 00:07:23,590
+x is equal to
+arccosine of minus 1.
+
+167
+00:07:23,590 --> 00:07:25,690
+I always forget if there's two
+c's when you do arccosine.
+
+168
+00:07:25,690 --> 00:07:30,330
+Anyway, so what-- At what
+degree or radian value does the
+
+169
+00:07:30,330 --> 00:07:33,020
+cosine of x equal minus 1?
+
+170
+00:07:33,020 --> 00:07:35,040
+Well it's at pi, right?
+
+171
+00:07:35,040 --> 00:07:39,895
+So x could equal pi, which
+is also or 180 degrees.
+
+172
+00:07:39,895 --> 00:07:42,650
+   
+
+173
+00:07:42,650 --> 00:07:44,390
+This one is not as easy.
+
+174
+00:07:44,390 --> 00:07:47,010
+I think I will have to use
+a calculator for this.
+
+175
+00:07:47,010 --> 00:07:49,330
+Unless I'm-- whoops.
+
+176
+00:07:49,330 --> 00:07:52,520
+So you may not realize it,
+but Google is actually
+
+177
+00:07:52,520 --> 00:07:55,110
+a calculator.
+
+178
+00:07:55,110 --> 00:07:59,540
+And a far more advanced
+calculator than most.
+
+179
+00:07:59,540 --> 00:08:01,555
+So we could use Google
+to figure out the
+
+180
+00:08:01,555 --> 00:08:03,660
+arccosine of 2/3.
+
+181
+00:08:03,660 --> 00:08:05,790
+Let's do that.
+
+182
+00:08:05,790 --> 00:08:08,090
+Arccosine-- and I don't
+know if I'm spelling it
+
+183
+00:08:08,090 --> 00:08:11,230
+right --of 2 over 3.
+
+184
+00:08:11,230 --> 00:08:21,370
+Google tells us that it's
+0.841 and a bunch of numbers.
+
+185
+00:08:21,370 --> 00:08:27,160
+So x is equal to
+arccosine of 2 over 3.
+
+186
+00:08:27,160 --> 00:08:35,070
+So x is equal to 0.84106.
+
+187
+00:08:35,070 --> 00:08:35,950
+Let's see if they work.
+
+188
+00:08:35,950 --> 00:08:38,660
+Let's, just for fun, let's
+just see if this one works.
+
+189
+00:08:38,660 --> 00:08:42,180
+Let's see if we substitute
+pi into this equation we
+
+190
+00:08:42,180 --> 00:08:44,320
+get the correct answer.
+
+191
+00:08:44,320 --> 00:08:46,810
+Well what's sine of pi?
+
+192
+00:08:46,810 --> 00:08:49,240
+Let me erase all of this
+is so we can check it.
+
+193
+00:08:49,240 --> 00:08:50,140
+I'm only going to check pi.
+
+194
+00:08:50,140 --> 00:08:51,680
+The 0.84.
+
+195
+00:08:51,680 --> 00:08:52,220
+And I don't know.
+
+196
+00:08:52,220 --> 00:08:52,800
+That's messy.
+
+197
+00:08:52,800 --> 00:08:54,870
+But you could do that
+in your own time.
+
+198
+00:08:54,870 --> 00:08:58,318
+So let's check pi.
+
+199
+00:08:58,318 --> 00:08:59,480
+x equals-- No.
+
+200
+00:08:59,480 --> 00:09:00,680
+That's not what I wanted to do.
+
+201
+00:09:00,680 --> 00:09:06,590
+   
+
+202
+00:09:06,590 --> 00:09:09,030
+So what is-- Let's make
+sure this works with pi.
+
+203
+00:09:09,030 --> 00:09:17,510
+3 sine squared of pi is equal
+to 1 plus cosine of pi.
+
+204
+00:09:17,510 --> 00:09:18,900
+Well what's sine of pi?
+
+205
+00:09:18,900 --> 00:09:24,570
+This is equal to 3
+sine of pi squared.
+
+206
+00:09:24,570 --> 00:09:27,760
+This is equal to 1
+plus cosine of pi.
+
+207
+00:09:27,760 --> 00:09:29,940
+Well sine of pi is 0, right?
+
+208
+00:09:29,940 --> 00:09:32,320
+The y-value when you
+go 180 degrees is 0.
+
+209
+00:09:32,320 --> 00:09:34,180
+So this is 0.
+
+210
+00:09:34,180 --> 00:09:36,360
+And what's cosine of pi?
+
+211
+00:09:36,360 --> 00:09:37,890
+Cosine of pi is negative 1.
+
+212
+00:09:37,890 --> 00:09:39,100
+So 1 plus minus 1.
+
+213
+00:09:39,100 --> 00:09:40,400
+Well this is true.
+
+214
+00:09:40,400 --> 00:09:41,790
+So pi worked in that equation.
+
+215
+00:09:41,790 --> 00:09:46,600
+I think if you substitute
+that 0841068 whatever, you'd
+
+216
+00:09:46,600 --> 00:09:47,990
+also find that that works.
+
+217
+00:09:47,990 --> 00:09:49,550
+So thanks Bradley
+for sending this.
+
+218
+00:09:49,550 --> 00:09:51,430
+I thought this was a neat
+problem because it looks
+
+219
+00:09:51,430 --> 00:09:52,660
+like it's trigonometry.
+
+220
+00:09:52,660 --> 00:09:54,190
+And it was trigonometry but
+you had to know a little
+
+221
+00:09:54,190 --> 00:09:54,840
+bit of identities.
+
+222
+00:09:54,840 --> 00:09:58,020
+And then you had to recognize
+it as a quadratic equation.
+
+223
+00:09:58,020 --> 00:10:00,590
+I will see you in
+a future video.

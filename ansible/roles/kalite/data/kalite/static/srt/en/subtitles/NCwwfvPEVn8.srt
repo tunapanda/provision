@@ -1,0 +1,807 @@
+1
+00:00:00,000 --> 00:00:01,806
+In the last video, we figured out
+
+2
+00:00:01,806 --> 00:00:05,203
+how to construct a unit normal vector to a surface,
+
+3
+00:00:05,203 --> 00:00:09,007
+and so now we can use that back in our original surface integral
+
+4
+00:00:09,007 --> 00:00:10,694
+to try to simplify it a little bit —
+
+5
+00:00:10,694 --> 00:00:13,069
+or at least give us a clue of how we can calculate these things —
+
+6
+00:00:13,069 --> 00:00:17,804
+and also think about different ways to represent this type of a surface integral.
+
+7
+00:00:17,804 --> 00:00:22,239
+So, if we just substitute what we came up with as our unit normal vector,
+
+8
+00:00:22,239 --> 00:00:24,801
+we will get...
+
+9
+00:00:24,801 --> 00:00:28,138
+So, once again, it's the surface integral of
+
+10
+00:00:28,138 --> 00:00:33,804
+F · (dot) (all of this business),
+
+11
+00:00:33,804 --> 00:00:35,067
+and I'm gonna write it all in white,
+
+12
+00:00:35,067 --> 00:00:36,471
+just so it doesn't take me too much time.
+
+13
+00:00:36,471 --> 00:00:38,802
+So, ru × rv — the partial of r with respect to u
+
+14
+00:00:38,802 --> 00:00:42,879
+crossed with the partial of r with respect to v —
+
+15
+00:00:42,879 --> 00:00:45,587
+over |ru × rv|, the magnitude of the same thing:
+
+16
+00:00:45,587 --> 00:00:51,469
+partial of r with respect to u, crossed with partial of r with respect to v.
+
+17
+00:00:51,469 --> 00:00:53,736
+And now, we've played with dS a lot.
+
+18
+00:00:53,736 --> 00:00:55,736
+We know that another way to write dS —
+
+19
+00:00:55,736 --> 00:00:58,296
+and I gave the intuition for that, hopefully, several videos ago,
+
+20
+00:00:58,296 --> 00:01:00,615
+when we first explored what a surface integral was all about —
+
+21
+00:01:00,615 --> 00:01:07,601
+we know that dS can be represented as |ru × rv| du dv:
+
+22
+00:01:07,601 --> 00:01:13,880
+the magnitude of the partial of r with respect to u, crossed with the partial of r with respect to v, du dv.
+
+23
+00:01:13,880 --> 00:01:17,213
+And obviously the du dv can be written as dv du.
+
+24
+00:01:17,213 --> 00:01:22,803
+You could write it as dA, a little chunk of area in the uv-plane, or in the uv-domain.
+
+25
+00:01:22,803 --> 00:01:25,547
+And actually, since now this integral is in terms of (u,v),
+
+26
+00:01:25,547 --> 00:01:27,214
+we're no longer taking a surface integral;
+
+27
+00:01:27,214 --> 00:01:30,614
+we're now taking a double integral over the uv-domain.
+
+28
+00:01:30,614 --> 00:01:33,004
+So you could say, kind of a region in (u,v).
+
+29
+00:01:33,004 --> 00:01:33,879
+So this is gonna...
+
+30
+00:01:33,879 --> 00:01:39,135
+I'll say R to say that it's a region in the uv-plane that we're now thinking about.
+
+31
+00:01:39,135 --> 00:01:40,546
+But there's probably a huge...
+
+32
+00:01:40,546 --> 00:01:42,212
+or there should be, or I'm guessing,
+
+33
+00:01:42,212 --> 00:01:44,802
+there's a huge simplification that's popping out at you right now.
+
+34
+00:01:44,802 --> 00:01:47,687
+We're dividing by the magnitude of the cross product of these two vectors,
+
+35
+00:01:47,687 --> 00:01:52,469
+and then we're multiplying by the magnitude of the cross product of these two vectors.
+
+36
+00:01:52,469 --> 00:01:53,962
+Those are just scalar quantities.
+
+37
+00:01:53,962 --> 00:01:55,879
+You divide by something and multiply by something...
+
+38
+00:01:55,879 --> 00:01:57,202
+Well, that's just the same thing as
+
+39
+00:01:57,202 --> 00:01:59,054
+multiplying or dividing by 1.
+
+40
+00:01:59,054 --> 00:02:01,261
+So, these two characters cancel out,
+
+41
+00:02:01,261 --> 00:02:04,852
+and our integral simplifies to ∫ ∫ F · (ru × rv) du dv —
+
+42
+00:02:04,852 --> 00:02:07,344
+the double integral over that region,
+
+43
+00:02:07,344 --> 00:02:09,928
+the corresponding region R in the uv-plane,
+
+44
+00:02:09,928 --> 00:02:15,707
+of our vector field F, dotted with
+
+45
+00:02:15,707 --> 00:02:16,901
+this cross product ru × rv.
+
+46
+00:02:16,901 --> 00:02:18,847
+This (ru × rv) is going to give us a vector right over here.
+
+47
+00:02:18,847 --> 00:02:20,347
+That's going to give us a vector.
+
+48
+00:02:20,347 --> 00:02:22,377
+It gives us actually a normal vector,
+
+49
+00:02:22,377 --> 00:02:23,385
+and then when we divide by its magnitude |ru × rv|,
+
+50
+00:02:24,393 --> 00:02:25,402
+it gives you a unit normal vector.
+
+51
+00:02:25,402 --> 00:02:29,178
+So this, you're going to take the dot product of F with
+
+52
+00:02:29,178 --> 00:02:41,221
+the partial of r with respect to u, crossed with the partial of r with respect to v, du dv.
+
+53
+00:02:41,221 --> 00:02:45,533
+(Let me scroll over to the right a little bit.)
+
+54
+00:02:45,533 --> 00:02:47,457
+And we'll see in a few videos from now
+
+55
+00:02:47,457 --> 00:02:50,671
+that this is essentially how we go about actually calculating these things.
+
+56
+00:02:50,671 --> 00:02:53,188
+If you have a parametrization, you can then get everything
+
+57
+00:02:53,188 --> 00:02:56,724
+in terms of a double integral, in terms of (u,v), this way.
+
+58
+00:02:56,724 --> 00:02:57,522
+Now, the last thing I want to do is
+
+59
+00:02:57,522 --> 00:03:00,790
+explore another way that you'll see a surface integral like this written.
+
+60
+00:03:00,790 --> 00:03:03,925
+It all comes from really writing this part in a different way,
+
+61
+00:03:03,925 --> 00:03:05,390
+but hopefully it gives you a little bit more intuition
+
+62
+00:03:05,390 --> 00:03:07,056
+of what this thing is even saying.
+
+63
+00:03:07,056 --> 00:03:12,424
+So I'm just going to rewrite this chunk right over here.
+
+64
+00:03:12,424 --> 00:03:14,005
+I'm just going to rewrite that chunk.
+
+65
+00:03:14,005 --> 00:03:16,088
+And I'm going to use slightly different notation,
+
+66
+00:03:16,088 --> 00:03:18,505
+because it'll hopefully help make a little bit more sense.
+
+67
+00:03:18,505 --> 00:03:20,856
+So the partial of r with respect to u,
+
+68
+00:03:20,856 --> 00:03:25,789
+I can write as ∂r/∂u,
+
+69
+00:03:25,789 --> 00:03:27,457
+and we're taking the cross product
+
+70
+00:03:27,457 --> 00:03:30,590
+— let me make my 'u's a little bit more 'u'-like, so we don't confuse them with 'v's —
+
+71
+00:03:30,590 --> 00:03:37,389
+and we're taking the cross product of that, with ∂r/∂v.
+
+72
+00:03:37,389 --> 00:03:39,522
+So, very small changes in our vector,
+
+73
+00:03:39,522 --> 00:03:42,457
+in our parametrization, our position vector,
+
+74
+00:03:42,457 --> 00:03:43,757
+given a small change in v.
+
+75
+00:03:43,757 --> 00:03:45,522
+Very small changes in the vector,
+
+76
+00:03:45,522 --> 00:03:47,255
+given a small change in u.
+
+77
+00:03:47,255 --> 00:03:49,854
+And then we're multiplying that times du dv.
+
+78
+00:03:49,854 --> 00:03:56,005
+We're multiplying that times du dv.
+
+79
+00:03:56,005 --> 00:03:58,922
+Now, du and dv are just scalar quantities.
+
+80
+00:03:58,922 --> 00:04:00,755
+They're infinitesimally small,
+
+81
+00:04:00,755 --> 00:04:02,789
+but for the sake of this argument,
+
+82
+00:04:02,789 --> 00:04:03,757
+you can just view the...
+
+83
+00:04:03,757 --> 00:04:05,854
+they're not vectors, they're just scalar quantities.
+
+84
+00:04:05,854 --> 00:04:08,522
+And so, you can essentially include them,
+
+85
+00:04:08,522 --> 00:04:10,587
+you know, if you have the cross product...
+
+86
+00:04:10,587 --> 00:04:14,854
+if you have x(a×b), you know, a × b (a cross b),
+
+87
+00:04:14,854 --> 00:04:18,123
+times some scalar value — I don't know, 'x' —
+
+88
+00:04:18,123 --> 00:04:23,339
+you could rewrite this as (xa)×b,
+
+89
+00:04:23,339 --> 00:04:28,657
+or, you could write this as a×(xb),
+
+90
+00:04:28,657 --> 00:04:31,392
+because x is just a scalar value. It's just a number.
+
+91
+00:04:31,392 --> 00:04:32,674
+So, we can do the same thing over here.
+
+92
+00:04:32,674 --> 00:04:35,339
+We can rewrite all of this business as...
+
+93
+00:04:35,339 --> 00:04:37,190
+and I'm going to group the du, with
+
+94
+00:04:37,190 --> 00:04:41,190
+where we have ∂u in the denominator,
+
+95
+00:04:41,190 --> 00:04:42,458
+and I'll do the same thing with the 'v's.
+
+96
+00:04:42,458 --> 00:04:45,589
+And so, you'll get:
+
+97
+00:04:45,589 --> 00:04:52,316
+∂r/∂u times du (times that scalar) —
+
+98
+00:04:52,316 --> 00:04:53,840
+so, that'll give us a vector —
+
+99
+00:04:53,840 --> 00:05:06,120
+and we're going to cross that with ∂r/∂v dv.
+
+100
+00:05:06,120 --> 00:05:09,931
+Now, these might look notationally like two different things,
+
+101
+00:05:09,931 --> 00:05:11,527
+but that just comes from the necessity of,
+
+102
+00:05:11,527 --> 00:05:14,005
+when we take partial derivatives, to say,
+
+103
+00:05:14,005 --> 00:05:15,004
+"Oh no, this is, you know,
+
+104
+00:05:15,004 --> 00:05:17,128
+this vector function is defined,
+
+105
+00:05:17,128 --> 00:05:18,861
+it's a function of multiple variables,
+
+106
+00:05:18,861 --> 00:05:20,062
+and this is taking a derivative
+
+107
+00:05:20,062 --> 00:05:21,595
+with respect to only one of them."
+
+108
+00:05:21,595 --> 00:05:23,529
+So, this is how much does our vector change,
+
+109
+00:05:23,529 --> 00:05:26,086
+when you have a very small change in u.
+
+110
+00:05:26,086 --> 00:05:29,327
+But this is also an infinitesimally small change in u over here;
+
+111
+00:05:29,327 --> 00:05:31,337
+we're just using slightly different notation.
+
+112
+00:05:31,337 --> 00:05:32,421
+So, for the sake...
+
+113
+00:05:32,421 --> 00:05:34,337
+and this is a little bit loosey-goosey mathematics,
+
+114
+00:05:34,337 --> 00:05:35,726
+but it'll hopefully give you the intuition
+
+115
+00:05:35,726 --> 00:05:39,009
+for why this thing can be written in a different way:
+
+116
+00:05:39,009 --> 00:05:41,669
+these are essentially the same quantity.
+
+117
+00:05:41,669 --> 00:05:44,345
+So, if you divide by something and multiply by something,
+
+118
+00:05:44,345 --> 00:05:45,837
+you can cancel them out.
+
+119
+00:05:45,837 --> 00:05:48,061
+You divide by something, multiply by something,
+
+120
+00:05:48,061 --> 00:05:49,337
+you can cancel them out,
+
+121
+00:05:49,337 --> 00:05:53,127
+and all you're left with, then, is
+
+122
+00:05:53,127 --> 00:05:55,528
+∂r, the differential of r,
+
+123
+00:05:55,528 --> 00:05:57,862
+and since we lost the information that it's in the u-direction,
+
+124
+00:05:57,862 --> 00:06:00,728
+I'll write here ∂r u, the differential of r in the u-direction.
+
+125
+00:06:00,728 --> 00:06:02,421
+I don't want you to get the notation confused.
+
+126
+00:06:02,421 --> 00:06:05,504
+This is just a differential, this is just how much r changed.
+
+127
+00:06:05,504 --> 00:06:09,129
+This is not ∂r/∂u, the partial derivative of r with respect to u.
+
+128
+00:06:09,129 --> 00:06:11,462
+This, right over here (∂r/∂u), is how much does r change,
+
+129
+00:06:11,462 --> 00:06:14,929
+given, per unit change, per small change in u.
+
+130
+00:06:14,929 --> 00:06:18,262
+This one (∂r u) just says, a differential in the direction of,
+
+131
+00:06:18,262 --> 00:06:21,505
+I guess, as u changes, this is how much,
+
+132
+00:06:21,505 --> 00:06:23,728
+that infinitely small change that just r changes.
+
+133
+00:06:23,728 --> 00:06:27,004
+This isn't change in r with respect to change in u.
+
+134
+00:06:27,004 --> 00:06:34,596
+And we're going to cross that with ∂r v, the partial of r in the v-direction.
+
+135
+00:06:34,596 --> 00:06:37,196
+Now, this right over here, let's just conceptualize this.
+
+136
+00:06:37,196 --> 00:06:39,690
+And this goes back to our original visions
+
+137
+00:06:39,690 --> 00:06:41,796
+of what a surface integral was all about.
+
+138
+00:06:41,796 --> 00:06:44,089
+If we're on a surface — and I'll draw a surface;
+
+139
+00:06:44,089 --> 00:06:47,528
+let me draw another surface, I won't use the one that I had already drawn on —
+
+140
+00:06:47,528 --> 00:06:48,860
+if we draw a surface,
+
+141
+00:06:48,860 --> 00:06:51,727
+and for a very small change in u,
+
+142
+00:06:51,727 --> 00:06:52,862
+and we're not gonna think about the rate;
+
+143
+00:06:52,862 --> 00:06:55,755
+we're just thinking about kind of the change in r,
+
+144
+00:06:55,755 --> 00:06:57,861
+you're going in that direction,
+
+145
+00:06:57,861 --> 00:07:00,929
+so this thing, if that thing looks like this,
+
+146
+00:07:00,929 --> 00:07:05,004
+this is actually kind of a distance moved on the surface,
+
+147
+00:07:05,004 --> 00:07:06,712
+because it's just, it's not,
+
+148
+00:07:06,712 --> 00:07:07,785
+remember, this isn't the derivative ∂r/∂u,
+
+149
+00:07:07,785 --> 00:07:09,210
+this is the differential ∂r.
+
+150
+00:07:09,210 --> 00:07:11,838
+So it's just a small change along the surface,
+
+151
+00:07:11,838 --> 00:07:13,129
+that's that over there.
+
+152
+00:07:13,129 --> 00:07:16,590
+And then this is a small change when you change v,
+
+153
+00:07:16,590 --> 00:07:18,922
+so it's also a change along the surface.
+
+154
+00:07:18,922 --> 00:07:21,194
+When you take the cross product of these two things,
+
+155
+00:07:21,194 --> 00:07:23,027
+you get a vector that is orthogonal,
+
+156
+00:07:23,027 --> 00:07:31,219
+you get a vector that is normal to the surface,
+
+157
+00:07:31,234 --> 00:07:35,938
+and its magnitude — and we saw this when we first learned about cross products —
+
+158
+00:07:35,938 --> 00:07:38,945
+its magnitude is equal to the area that's kind of,
+
+159
+00:07:38,945 --> 00:07:41,856
+that is defined by these two vectors.
+
+160
+00:07:41,856 --> 00:07:49,391
+So, its magnitude is equal to area.
+
+161
+00:07:49,391 --> 00:07:51,320
+So, in a lot of ways, you can really think of it,
+
+162
+00:07:51,320 --> 00:07:56,790
+you really could think of it as a unit normal vector n times dS.
+
+163
+00:07:56,790 --> 00:07:58,855
+And so, the way that we would, I guess,
+
+164
+00:07:58,855 --> 00:08:01,020
+notationally do this, is we can call this,
+
+165
+00:08:01,020 --> 00:08:02,322
+because this is kind of a dS,
+
+166
+00:08:02,322 --> 00:08:03,938
+but it's a vector version of the dS.
+
+167
+00:08:03,938 --> 00:08:06,323
+Over here, this is just an area right over here.
+
+168
+00:08:06,323 --> 00:08:08,388
+This is just a scalar value.
+
+169
+00:08:08,388 --> 00:08:13,311
+But now, we have a vector that points normally from the surface,
+
+170
+00:08:13,311 --> 00:08:16,594
+but its magnitude is the same thing as that dS
+
+171
+00:08:16,594 --> 00:08:17,978
+that we were just talking about.
+
+172
+00:08:17,978 --> 00:08:20,259
+So we can call this thing right over here
+
+173
+00:08:20,259 --> 00:08:21,927
+(∂r u × ∂r v), we can call this dS,
+
+174
+00:08:21,927 --> 00:08:23,608
+and the key difference here is
+
+175
+00:08:23,608 --> 00:08:24,859
+this is a vector now,
+
+176
+00:08:24,859 --> 00:08:28,192
+so we'll call it dS with a little vector over it,
+
+177
+00:08:28,192 --> 00:08:29,690
+to know that this is this thing (∂r u × ∂r v),
+
+178
+00:08:29,690 --> 00:08:32,733
+this isn't the scalar dS that is just concerned with the area.
+
+179
+00:08:32,733 --> 00:08:34,532
+But when you view things this way —
+
+180
+00:08:34,532 --> 00:08:38,934
+we just saw that this entire thing simplifies to dS —
+
+181
+00:08:38,934 --> 00:08:43,066
+then our whole surface integral can be rewritten,
+
+182
+00:08:43,066 --> 00:08:44,428
+instead of writing it like this,
+
+183
+00:08:44,428 --> 00:08:49,077
+we can write it as ∫ ∫ F · (∂r u × ∂r v),
+
+184
+00:08:49,077 --> 00:08:51,207
+the surface integral —
+
+185
+00:08:51,207 --> 00:08:53,798
+those integral signs were too fancy —
+
+186
+00:08:53,798 --> 00:08:58,686
+the surface integral of F, dot,
+
+187
+00:08:58,686 --> 00:09:00,934
+instead of saying a normal vector times a scalar quantity,
+
+188
+00:09:00,934 --> 00:09:02,739
+that little chunk of area on the surface,
+
+189
+00:09:02,739 --> 00:09:07,534
+we can now just call that the vector differential dS.
+
+190
+00:09:07,534 --> 00:09:09,999
+And I want to make it clear, these are two different things:
+
+191
+00:09:09,999 --> 00:09:12,019
+this is a vector, this is how we would,
+
+192
+00:09:12,019 --> 00:09:13,866
+this is essentially what we're calling it (∂r u × ∂r v).
+
+193
+00:09:13,866 --> 00:09:16,731
+This right over here (ndS) is a scalar times a normal vector.
+
+194
+00:09:16,731 --> 00:09:17,938
+So these are three different ways
+
+195
+00:09:17,938 --> 00:09:19,533
+of really representing the same thing.
+
+196
+00:09:19,533 --> 00:09:21,798
+And in different contexts, you will see different things,
+
+197
+00:09:21,798 --> 00:09:23,519
+depending on what, I guess, the author,
+
+198
+00:09:23,519 --> 00:09:24,731
+or whoever is trying to communicate,
+
+199
+00:09:24,731 --> 00:09:26,684
+is trying to communicate.
+
+200
+00:09:26,684 --> 00:09:27,866
+This right over here —
+
+201
+00:09:27,866 --> 00:09:30,101
+∫ ∫ F · (ru × rv) du dv — is the one that we'll use most frequently,
+
+202
+00:09:30,101 --> 00:09:34,101
+as we actually try to calculate these surface integrals.

@@ -1,0 +1,939 @@
+1
+00:00:01,062 --> 00:00:03,398
+What I want to do in this video is to expose you
+
+2
+00:00:03,398 --> 00:00:06,530
+and introduce you to the idea
+
+3
+00:00:06,530 --> 00:00:08,678
+to what a computer program is.
+
+4
+00:00:08,678 --> 00:00:09,880
+And just in case you want to follow along
+
+5
+00:00:09,880 --> 00:00:11,422
+I highly recommend you do that
+
+6
+00:00:11,422 --> 00:00:12,981
+because the real way to learn computer science
+
+7
+00:00:12,981 --> 00:00:14,927
+is to really fiddle with things yourself.
+
+8
+00:00:14,927 --> 00:00:17,581
+This is a Python environment
+
+9
+00:00:17,581 --> 00:00:20,731
+so I'm going to be doing a lot of the programming in Python.
+
+10
+00:00:20,731 --> 00:00:24,009
+And right here, this environment is called PyScripter.
+
+11
+00:00:24,009 --> 00:00:27,071
+P-Y-S-C-R-I-P-T-E-R.
+
+12
+00:00:27,071 --> 00:00:29,949
+It's free. It's an open-source piece of software.
+
+13
+00:00:29,949 --> 00:00:32,587
+And I'm using Python..Python...
+
+14
+00:00:32,587 --> 00:00:34,526
+I believe I'm using Python 2.6 or 2.7.
+
+15
+00:00:34,526 --> 00:00:36,373
+As long as you are using Python 2
+
+16
+00:00:36,373 --> 00:00:38,630
+your examples will be the same as mine,
+
+17
+00:00:38,630 --> 00:00:40,070
+they work the same way.
+
+18
+00:00:40,070 --> 00:00:41,440
+But If you're using Python 3
+
+19
+00:00:41,440 --> 00:00:43,375
+you are going to have to use slightly different variations
+
+20
+00:00:43,375 --> 00:00:45,499
+every now and then to make it work properly.
+
+21
+00:00:45,499 --> 00:00:48,941
+I'll try to make notes for those when they occur.
+
+22
+00:00:48,941 --> 00:00:51,930
+So let's just start writing ourselves a computer program.
+
+23
+00:00:51,945 --> 00:00:52,828
+What's cool about this is,
+
+24
+00:00:52,828 --> 00:00:54,917
+we can write our computer program right here.
+
+25
+00:00:54,917 --> 00:00:57,838
+And really we are just editing text in a file.
+
+26
+00:00:57,838 --> 00:00:59,299
+That's all it is.
+
+27
+00:00:59,299 --> 00:01:00,783
+It's a set of instructions
+
+28
+00:01:00,783 --> 00:01:02,934
+and the computer is going to start for the most part.
+
+29
+00:01:02,934 --> 00:01:05,333
+At the top of this file and just go down
+
+30
+00:01:05,333 --> 00:01:07,013
+and read these instructions.
+
+31
+00:01:07,013 --> 00:01:08,364
+Although you will later on
+
+32
+00:01:08,364 --> 00:01:09,439
+that there's a way to tell the computer
+
+33
+00:01:09,439 --> 00:01:12,797
+to jump around and to loop around within the instructions,
+
+34
+00:01:12,797 --> 00:01:15,909
+so that it can do things over and over again or skip other thing.
+
+35
+00:01:15,956 --> 00:01:19,288
+With that said, let's write ourselves a simple program
+
+36
+00:01:19,334 --> 00:01:20,215
+and while we do this,
+
+37
+00:01:20,215 --> 00:01:22,491
+we will expose ourselves to some of the core concepts
+
+38
+00:01:22,491 --> 00:01:24,813
+that exist within a computer program.
+
+39
+00:01:24,813 --> 00:01:29,824
+Let me write a very very simple computer program.
+
+40
+00:01:29,824 --> 00:01:32,163
+So one very simple computer program
+
+41
+00:01:32,163 --> 00:01:34,756
+would literally just be an expression.
+
+42
+00:01:34,756 --> 00:01:41,410
+So let me just write 'print 3+7',
+
+43
+00:01:41,410 --> 00:01:44,797
+so it's literally just going to take 3+7 and print it.
+
+44
+00:01:44,797 --> 00:01:46,757
+It's going to pass it to the print function
+
+45
+00:01:46,757 --> 00:01:48,292
+which comes with Python.
+
+46
+00:01:48,292 --> 00:01:51,909
+Maybe I will write it like this: print(3+7)
+
+47
+00:01:51,909 --> 00:01:54,495
+Let's save this file. So there's literally only one..
+
+48
+00:01:54,495 --> 00:01:56,090
+if you think about it, only one command
+
+49
+00:01:56,090 --> 00:01:58,117
+here on the top line here. That says print 3+7.
+
+50
+00:01:58,117 --> 00:01:59,200
+Actually, let's add another command,
+
+51
+00:01:59,200 --> 00:02:02,346
+just so you can see that it's going to go top down.
+
+52
+00:02:02,346 --> 00:02:07,293
+Let me add another one: print(2-1)
+
+53
+00:02:07,293 --> 00:02:15,607
+and then let's do: print("this is a chunk of text")
+
+54
+00:02:15,607 --> 00:02:18,302
+Let's see what this computer program right here
+
+55
+00:02:18,302 --> 00:02:20,133
+is going to do.
+
+56
+00:02:20,133 --> 00:02:21,757
+So let me save it.
+
+57
+00:02:21,757 --> 00:02:23,361
+So let me save it.
+
+58
+00:02:23,361 --> 00:02:28,317
+I saved it as the file "testarea.py". Tells a... a...That's a...
+
+59
+00:02:28,317 --> 00:02:31,796
+The .py extension signifies it is a Python file.
+
+60
+00:02:31,811 --> 00:02:33,675
+Now let me run the program.
+
+61
+00:02:33,722 --> 00:02:35,970
+What's nice about this development environment,
+
+62
+00:02:36,047 --> 00:02:38,716
+this IDE or Integrated Development Environment,
+
+63
+00:02:38,716 --> 00:02:42,282
+is that you can kind of type and run your program in the same place.
+
+64
+00:02:42,343 --> 00:02:43,790
+It also color-codes your text,
+
+65
+00:02:43,790 --> 00:02:46,259
+so you can see what's a function, what's not a function,
+
+66
+00:02:46,259 --> 00:02:47,082
+the different data-types...
+
+67
+00:02:47,082 --> 00:02:48,658
+we will talk about more data types in the future.
+
+68
+00:02:48,658 --> 00:02:51,876
+Let's just run this program to see what happens.
+
+69
+00:02:51,876 --> 00:02:53,565
+So there we go, we ran it!
+
+70
+00:02:53,565 --> 00:02:56,117
+So it printed 10 [ten], then it printed 1 [one],
+
+71
+00:02:56,117 --> 00:02:58,549
+then it printed "this is a chunk of text"
+
+72
+00:02:58,549 --> 00:03:00,245
+So it did exactly what we told it to do.
+
+73
+00:03:00,245 --> 00:03:01,284
+And it did it in the order.
+
+74
+00:03:01,284 --> 00:03:05,779
+It started up here, it evaluated 3+7 as equal to 10 [ten]
+
+75
+00:03:05,779 --> 00:03:07,768
+and it printed it, it printed 10 [ten] here.
+
+76
+00:03:07,768 --> 00:03:11,603
+and then it printed 2-1,
+
+77
+00:03:11,603 --> 00:03:13,340
+and then it printed "this is a chunk of text"
+
+78
+00:03:13,340 --> 00:03:15,584
+Now one thing I want to introduce you to, fairly early on,
+
+79
+00:03:15,600 --> 00:03:17,314
+it's the idea of data types.
+
+80
+00:03:17,314 --> 00:03:19,193
+So even when you saw this example,
+
+81
+00:03:19,193 --> 00:03:21,034
+you might have the gut feeling that
+
+82
+00:03:21,034 --> 00:03:22,333
+look, there is something kind of different
+
+83
+00:03:22,333 --> 00:03:27,089
+about a 3 [three] or 2 [two] or 1 [one] or 7 [seven] and this chunk of text.
+
+84
+00:03:27,089 --> 00:03:31,664
+This is a number...I feel like, I can just kind of add numbers.
+
+85
+00:03:31,664 --> 00:03:34,331
+They're representing some type of quantity.
+
+86
+00:03:34,331 --> 00:03:38,707
+While this over here is representing a chunk of text.
+
+87
+00:03:38,707 --> 00:03:40,392
+And your intuition would be right.
+
+88
+00:03:40,392 --> 00:03:42,772
+These are different data types.
+
+89
+00:03:42,772 --> 00:03:46,305
+The 3 [three] and 7 [seven] and 1 [one] ... these are numerical literals.
+
+90
+00:03:46,305 --> 00:03:49,238
+In this particular case, they are integers.
+
+91
+00:03:49,238 --> 00:03:51,502
+And you can..in this one over here,
+
+92
+00:03:51,548 --> 00:03:53,159
+this is actually a String,
+
+93
+00:03:53,159 --> 00:03:55,436
+which is a word you hear a lot in computer science.
+
+94
+00:03:55,436 --> 00:03:59,059
+this is really..referring to a string...of characters.
+
+95
+00:03:59,182 --> 00:04:02,323
+and in Python we can actually ask
+
+96
+00:04:02,323 --> 00:04:03,832
+what are the types of these things.
+
+97
+00:04:03,832 --> 00:04:05,342
+So you can pass them to the function "type"
+
+98
+00:04:05,342 --> 00:04:10,562
+so now it should print the type of 3+7, not just 10.
+
+99
+00:04:10,577 --> 00:04:14,561
+Let's try that. I'll just print 2-1 to just show you the difference.
+
+100
+00:04:14,653 --> 00:04:19,379
+Then I'll print the type of this chunk of text.
+
+101
+00:04:19,379 --> 00:04:21,667
+The type of this chunk of text.
+
+102
+00:04:21,667 --> 00:04:24,522
+And so let's save it. I just type CTRL+S,
+
+103
+00:04:24,522 --> 00:04:27,086
+That's a shortcut to save this.
+
+104
+00:04:27,086 --> 00:04:29,800
+and then I'll try to run this program.
+
+105
+00:04:29,800 --> 00:04:31,325
+So there you go.
+
+106
+00:04:31,325 --> 00:04:32,579
+It evaluates this statement.
+
+107
+00:04:32,579 --> 00:04:35,296
+To evaluate this, it starts at the inner parenthesis.
+
+108
+00:04:35,296 --> 00:04:39,471
+3+7 is 10. Then it tries to take the type of 10,
+
+109
+00:04:39,471 --> 00:04:42,833
+which is a type int, then it prints that type int.
+
+110
+00:04:42,833 --> 00:04:44,513
+You see it right here. It says type 'int'.
+
+111
+00:04:44,513 --> 00:04:46,824
+int is short for Integer.
+
+112
+00:04:46,824 --> 00:04:48,397
+Then it says print(2-1).
+
+113
+00:04:48,397 --> 00:04:50,052
+It does that on this line right here,
+
+114
+00:04:50,052 --> 00:04:51,230
+prints 1,
+
+115
+00:04:51,230 --> 00:04:54,709
+and then it prints the type of this whole thing right over here.
+
+116
+00:04:54,709 --> 00:04:56,206
+So instead of printing itself,
+
+117
+00:04:56,206 --> 00:05:00,198
+it prints its type. And its type is a String.
+
+118
+00:05:00,198 --> 00:05:02,068
+Now the next thing I want to introduce you to
+
+119
+00:05:02,068 --> 00:05:04,722
+as we just fiddle our way experimenting with programs
+
+120
+00:05:04,722 --> 00:05:07,265
+is the idea of a Variable.
+
+121
+00:05:07,265 --> 00:05:10,206
+Because one of the things is we are going to want
+
+122
+00:05:10,206 --> 00:05:12,706
+to store these things in different places.
+
+123
+00:05:12,706 --> 00:05:14,418
+We will learn in future videos that in Python
+
+124
+00:05:14,418 --> 00:05:16,823
+it's more like we will have labels for these things,
+
+125
+00:05:16,823 --> 00:05:18,781
+and the labels can change.
+
+126
+00:05:18,781 --> 00:05:20,966
+Let's see, or we can put them in different types of labels.
+
+127
+00:05:20,966 --> 00:05:25,843
+So let's write a completely different program using variables.
+
+128
+00:05:25,843 --> 00:05:27,592
+So let's ... What's cool about Python
+
+129
+00:05:27,592 --> 00:05:29,740
+some people don't like it, is
+
+130
+00:05:29,740 --> 00:05:34,640
+you can put any type of data in any type of variable.
+
+131
+00:05:34,640 --> 00:05:40,730
+So you can say a=3+5,
+
+132
+00:05:40,730 --> 00:05:51,323
+then we can say b=a*a-a-1
+
+133
+00:05:51,323 --> 00:05:53,267
+[note: * means "times", it is used for multiplication.]
+
+134
+00:05:53,267 --> 00:06:03,133
+and then you can say c=a*b
+
+135
+00:06:03,133 --> 00:06:05,733
+Then you can have something like...
+
+136
+00:06:05,733 --> 00:06:12,216
+I will put some space here just to make it a little bit cleaner.
+
+137
+00:06:12,216 --> 00:06:14,120
+c = a*b
+
+138
+00:06:14,120 --> 00:06:20,227
+Then we can say, let's print c.
+
+139
+00:06:20,227 --> 00:06:22,550
+So if you want, you can go ahead
+
+140
+00:06:22,550 --> 00:06:24,124
+and try to figure out what c is going to look like
+
+141
+00:06:24,124 --> 00:06:25,733
+or we can just run this program.
+
+142
+00:06:25,733 --> 00:06:27,000
+So let's run the program first
+
+143
+00:06:27,000 --> 00:06:28,294
+and then we can go back to see
+
+144
+00:06:28,294 --> 00:06:29,768
+if it actually did the right thing.
+
+145
+00:06:29,768 --> 00:06:31,558
+So I'm going to save the program,
+
+146
+00:06:31,558 --> 00:06:34,553
+and now I'm going to run it.
+
+147
+00:06:34,553 --> 00:06:38,733
+We got 440 for c. Let's see if that makes sense.
+
+148
+00:06:38,733 --> 00:06:43,749
+So 3+5 is 8. So the label "a" will refer to 8.
+
+149
+00:06:43,749 --> 00:06:46,684
+So any place in the program, until we redefine "a",
+
+150
+00:06:46,684 --> 00:06:51,333
+any time you use "a", it's going to say: a is 8. a is referring to 8.
+
+151
+00:06:51,333 --> 00:06:53,352
+So when you go down over here, we're defining "b"
+
+152
+00:06:53,352 --> 00:06:57,146
+it'll say OK, a*a. It uses order of operations.
+
+153
+00:06:57,146 --> 00:06:59,515
+So in order of operations, you do your multiplications first.
+
+154
+00:06:59,515 --> 00:07:03,133
+Especially when you're comparing against subtraction.
+
+155
+00:07:03,133 --> 00:07:05,600
+So a*a that's going to be 64.
+
+156
+00:07:05,600 --> 00:07:14,678
+Then we have 64 - a is 64 - 8, is 56. Minus 1 is 55.
+
+157
+00:07:14,678 --> 00:07:21,313
+So "b" is 55. And "c" is going to be a...which is 8.... times 55...
+
+158
+00:07:21,313 --> 00:07:26,067
+And 8 times 55 is indeed 440.
+
+159
+00:07:26,067 --> 00:07:28,267
+So it all worked out.
+
+160
+00:07:28,267 --> 00:07:32,525
+So maybe you want to see what happens
+
+161
+00:07:32,525 --> 00:07:33,788
+when you get different "a"s.
+
+162
+00:07:33,788 --> 00:07:35,134
+You can try that out.
+
+163
+00:07:35,134 --> 00:07:38,037
+you can just change what happens here for the different a's.
+
+164
+00:07:38,037 --> 00:07:40,800
+So maybe we'll have a is equal to ...
+
+165
+00:07:40,800 --> 00:07:44,673
+Let's make it equal to -6
+
+166
+00:07:44,673 --> 00:07:48,714
+Now let's run our program to see what happens.
+
+167
+00:07:48,714 --> 00:07:51,388
+We get -246. And you can verify it by yourself.
+
+168
+00:07:51,388 --> 00:07:54,454
+You go line by line, and have these variables refer to
+
+169
+00:07:54,454 --> 00:07:56,530
+what they are defined to be referring to,
+
+170
+00:07:56,530 --> 00:07:59,877
+and see if you get this response right over here.
+
+171
+00:07:59,877 --> 00:08:02,822
+Now, if programs were just a bunch of commands
+
+172
+00:08:02,822 --> 00:08:05,111
+and you just always go straight through,
+
+173
+00:08:05,111 --> 00:08:07,592
+you wouldn't be able to do really interesting things.
+
+174
+00:08:07,592 --> 00:08:09,783
+So to do really interesting things you are going to
+
+175
+00:08:09,783 --> 00:08:13,032
+start seeing things like Conditionals and Loops.
+
+176
+00:08:13,032 --> 00:08:15,548
+And Conditionals and Loops are something like
+
+177
+00:08:15,548 --> 00:08:16,489
+Let's do it like this
+
+178
+00:08:16,489 --> 00:08:20,416
+So...if....so I'll just leave that stuff over there.
+
+179
+00:08:20,416 --> 00:08:35,042
+And we'll say "if (a<0):". Maybe we will print(c)
+
+180
+00:08:35,042 --> 00:08:50,000
+And If or "else:", print ... or otherwise ...we'll print (c-a).
+
+181
+00:08:50,000 --> 00:08:52,406
+So this is interesting. You might already have a gut
+
+182
+00:08:52,406 --> 00:08:54,333
+for what's going to happen here. Let's save it.
+
+183
+00:08:54,333 --> 00:08:56,548
+It's amazing how much you can get done
+
+184
+00:08:56,548 --> 00:08:58,379
+with just these conditionals. So this is saying
+
+185
+00:08:58,379 --> 00:09:00,421
+if "a" is less than 0, do this,
+
+186
+00:09:00,421 --> 00:09:03,526
+Otherwise if "a" is not less than 0, do this over here.
+
+187
+00:09:03,526 --> 00:09:06,099
+So notice we are not going just straight down.
+
+188
+00:09:06,099 --> 00:09:09,512
+Depending on whether "a" is less than 0 or not,
+
+189
+00:09:09,512 --> 00:09:11,874
+it's going to either execute this line,
+
+190
+00:09:11,874 --> 00:09:13,932
+or it's going to execute this line.
+
+191
+00:09:13,932 --> 00:09:17,604
+And the way that Python knew to only execute this line,
+
+192
+00:09:17,604 --> 00:09:21,342
+if "a" was less than 0 is it's indented here.
+
+193
+00:09:21,342 --> 00:09:23,364
+And the indent is part of this clause.
+
+194
+00:09:23,364 --> 00:09:25,539
+The way it knows that there are new clauses forming right here
+
+195
+00:09:25,539 --> 00:09:27,554
+is this colon right over here.
+
+196
+00:09:27,554 --> 00:09:29,782
+And then the way to know what to execute
+
+197
+00:09:29,782 --> 00:09:32,326
+If none of these happens
+
+198
+00:09:32,326 --> 00:09:35,471
+If "a" is not less than 0, then it's within this "else" clause.
+
+199
+00:09:35,471 --> 00:09:37,880
+And If you want to do something else after this,
+
+200
+00:09:37,880 --> 00:09:40,163
+regardless of whether "a" is less than 0 or not,
+
+201
+00:09:40,163 --> 00:09:41,865
+You can just take it out of the clause
+
+202
+00:09:41,865 --> 00:09:43,982
+by getting rid of the indentation.
+
+203
+00:09:43,982 --> 00:09:45,733
+So now we can just print
+
+204
+00:09:45,733 --> 00:09:50,321
+"we are done with the program".
+
+205
+00:09:50,321 --> 00:09:53,276
+Actually, let's do add some other stuff in this clause.
+
+206
+00:09:53,276 --> 00:09:58,120
+So let's print here "a<0".
+
+207
+00:09:58,120 --> 00:10:00,400
+So notice: this is not going to be evaluated.
+
+208
+00:10:00,400 --> 00:10:02,442
+We have this inside of a string,
+
+209
+00:10:02,442 --> 00:10:04,317
+so it is just going to print that thing.
+
+210
+00:10:04,317 --> 00:10:13,820
+And then over here we will say print("a is not less than 0")
+
+211
+00:10:13,820 --> 00:10:18,021
+This is an interesting program. Let's just run it now. Alright.
+
+212
+00:10:18,021 --> 00:10:22,829
+Let's hope it runs. I saved it. Now let's run the program.
+
+213
+00:10:22,829 --> 00:10:26,467
+And it says, it printed "a<0",
+
+214
+00:10:26,467 --> 00:10:29,769
+-- so we could scroll up a little bit --
+
+215
+00:10:29,769 --> 00:10:33,642
+It printed...so this is, we run the program..it printed 'a<0'.
+
+216
+00:10:33,642 --> 00:10:36,343
+so it shows we are inside of this clause.
+
+217
+00:10:36,343 --> 00:10:41,589
+Then it printed this. Then it printed "c", which is -246.
+
+218
+00:10:41,589 --> 00:10:43,200
+It does not execute this,
+
+219
+00:10:43,200 --> 00:10:46,722
+because this needed to be executed only if a was not less than 0.
+
+220
+00:10:46,722 --> 00:10:48,208
+But then it breaks out of this clause
+
+221
+00:10:48,208 --> 00:10:49,578
+and prints this no matter what:
+
+222
+00:10:49,578 --> 00:10:51,250
+"we are done with the program"
+
+223
+00:10:51,250 --> 00:10:53,386
+Let's just change "a" to try to see
+
+224
+00:10:53,386 --> 00:10:55,067
+if we can get this other clause to break.
+
+225
+00:10:55,067 --> 00:10:57,241
+Let's make "a" greater than 0.
+
+226
+00:10:57,241 --> 00:11:04,468
+So let's make "a" equal to 9 and now let's run the program.
+
+227
+00:11:04,468 --> 00:11:08,467
+So there. "a" is 9. So it says "is a less than 0?".
+
+228
+00:11:08,467 --> 00:11:09,952
+Well, 9 is not less than 0.
+
+229
+00:11:09,952 --> 00:11:11,175
+So it's not going to execute this.
+
+230
+00:11:11,175 --> 00:11:13,413
+It's going to go to the else clause.
+
+231
+00:11:13,413 --> 00:11:15,382
+So it's going to print "a is not less than 0"
+
+232
+00:11:15,382 --> 00:11:19,196
+which it did over here. Then it printed c-a
+
+233
+00:11:19,196 --> 00:11:22,107
+which is 630. It breaks out of that clause.
+
+234
+00:11:22,107 --> 00:11:24,559
+And regardless of whether "a" is less than 0 or not,
+
+235
+00:11:24,559 --> 00:11:28,102
+it prints "we are done with the program".

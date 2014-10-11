@@ -1,0 +1,455 @@
+1
+00:00:00,733 --> 00:00:03,151
+Is the system of linear equations below
+
+2
+00:00:03,151 --> 00:00:06,313
+dependent or independent, and they gave us
+
+3
+00:00:06,313 --> 00:00:07,575
+two equations right here.
+
+4
+00:00:07,575 --> 00:00:09,677
+Before I tackle this specific problem,
+
+5
+00:00:09,677 --> 00:00:11,812
+let's just do a little bit of review of what
+
+6
+00:00:11,812 --> 00:00:13,025
+dependent or independent means.
+
+7
+00:00:13,041 --> 00:00:14,629
+And actually, I'll compare that to
+
+8
+00:00:14,629 --> 00:00:16,860
+consistent and inconsistent.
+
+9
+00:00:16,860 --> 00:00:18,538
+So, just to start off with, if we're dealing
+
+10
+00:00:18,538 --> 00:00:21,906
+with systems of linear equations in two dimensions,
+
+11
+00:00:21,906 --> 00:00:23,767
+there's only three possibilities
+
+12
+00:00:23,767 --> 00:00:26,427
+that the lines, or the equations,
+
+13
+00:00:26,427 --> 00:00:28,564
+can have relative to each other. So let me
+
+14
+00:00:28,564 --> 00:00:30,015
+draw the three possibilities. Let me draw
+
+15
+00:00:30,015 --> 00:00:35,032
+three coordinate axes. So that's my first x-axis
+
+16
+00:00:35,032 --> 00:00:37,964
+and y-axis, so x and y. Let me draw another
+
+17
+00:00:37,964 --> 00:00:44,918
+one. And that is x, and that is y. Let me draw
+
+18
+00:00:44,918 --> 00:00:47,169
+one more, because there's only three possibilities
+
+19
+00:00:47,169 --> 00:00:50,323
+in two dimensions, x and y, if we're dealing with
+
+20
+00:00:50,323 --> 00:00:54,933
+linear equations, x and y. So you can have
+
+21
+00:00:54,933 --> 00:00:58,215
+the situation where the lines just intersect in
+
+22
+00:00:58,215 --> 00:01:03,231
+one point, so you can have one line like that,
+
+23
+00:01:03,231 --> 00:01:04,938
+and maybe the other line does something
+
+24
+00:01:04,938 --> 00:01:08,378
+like that, and they intersect at one point.
+
+25
+00:01:08,378 --> 00:01:10,350
+You could have the situation where the two
+
+26
+00:01:10,350 --> 00:01:13,477
+lines are parallel. So you could have the situation
+
+27
+00:01:13,477 --> 00:01:15,923
+actually let me draw it over here, where
+
+28
+00:01:15,923 --> 00:01:17,815
+you have one line that goes like that, and
+
+29
+00:01:17,815 --> 00:01:19,605
+the other line has the same slope, but
+
+30
+00:01:19,605 --> 00:01:21,421
+it's shifted, it has a different y-intercept,
+
+31
+00:01:21,421 --> 00:01:23,733
+so maybe it looks like this, and you have no points
+
+32
+00:01:23,733 --> 00:01:26,021
+of intersection. And then you could have the
+
+33
+00:01:26,021 --> 00:01:29,554
+situation where they're actually the same line,
+
+34
+00:01:29,554 --> 00:01:31,513
+so that both lines have the same slope
+
+35
+00:01:31,513 --> 00:01:34,420
+and the same y-intercept. So really, they are
+
+36
+00:01:34,420 --> 00:01:38,005
+the same line, they intersect on infinite number
+
+37
+00:01:38,005 --> 00:01:39,900
+of points. Every point on either of those lines
+
+38
+00:01:39,900 --> 00:01:42,718
+is also a point on the other line. So just to give
+
+39
+00:01:42,718 --> 00:01:45,431
+you a little bit of the terminology here, and
+
+40
+00:01:45,431 --> 00:01:49,175
+we learned this in the last video, this type of
+
+41
+00:01:49,175 --> 00:01:51,159
+system, where they don't intersect,
+
+42
+00:01:51,159 --> 00:01:53,467
+where you have no solutions, this is an
+
+43
+00:01:53,467 --> 00:01:59,429
+inconsistent system.
+
+44
+00:01:59,429 --> 00:02:01,329
+And by definition, or I guess just taking the
+
+45
+00:02:01,329 --> 00:02:03,154
+opposite of inconsistent, both of these
+
+46
+00:02:03,154 --> 00:02:06,082
+would be considered consistent. Both of these
+
+47
+00:02:06,082 --> 00:02:08,467
+are consistent.
+
+48
+00:02:08,467 --> 00:02:10,344
+But then, within consistent, there's obviously
+
+49
+00:02:10,344 --> 00:02:12,498
+a difference, here we only have one
+
+50
+00:02:12,498 --> 00:02:14,092
+solution, these are two different lines
+
+51
+00:02:14,092 --> 00:02:15,985
+that intersect at one place. And here,
+
+52
+00:02:15,985 --> 00:02:19,082
+they're essentially the same exact line.
+
+53
+00:02:19,082 --> 00:02:20,975
+And so we differentiate between these two
+
+54
+00:02:20,975 --> 00:02:23,314
+scenarios by calling this one over here
+
+55
+00:02:23,314 --> 00:02:32,340
+independent, and this one over here dependent.
+
+56
+00:02:32,340 --> 00:02:34,719
+So independent, both lines are doing their own
+
+57
+00:02:34,719 --> 00:02:37,298
+thing, they're not dependent on each other,
+
+58
+00:02:37,298 --> 00:02:39,323
+they're not the same line. They will intersect
+
+59
+00:02:39,323 --> 00:02:41,226
+at one place. Dependent, they're
+
+60
+00:02:41,226 --> 00:02:43,436
+the exact same line, any point that satisfies
+
+61
+00:02:43,436 --> 00:02:44,964
+one line will satisfy the other.
+
+62
+00:02:44,964 --> 00:02:46,262
+Any point that satisfies one equation,
+
+63
+00:02:46,262 --> 00:02:49,738
+will satisfy the other. So with that said,
+
+64
+00:02:49,738 --> 00:02:53,679
+let's see if this system of linear equations
+
+65
+00:02:53,679 --> 00:02:55,759
+right here is dependent or independent.
+
+66
+00:02:55,759 --> 00:02:57,329
+So they're kinda having us assume that
+
+67
+00:02:57,329 --> 00:02:58,862
+it's going to be consistent. That we're either
+
+68
+00:02:58,862 --> 00:03:00,898
+going to intersect at one place, or we're
+
+69
+00:03:00,898 --> 00:03:02,218
+going to intersect at an infinite number
+
+70
+00:03:02,218 --> 00:03:05,067
+of places. And the easiest way to do this,
+
+71
+00:03:05,067 --> 00:03:07,800
+we already have this second equation here,
+
+72
+00:03:07,800 --> 00:03:09,693
+it's already in slope-intercept form,
+
+73
+00:03:09,693 --> 00:03:13,432
+we know the slope is -2, the y-intercept is 8.
+
+74
+00:03:13,432 --> 00:03:17,138
+Let's put this first equation up here in
+
+75
+00:03:17,138 --> 00:03:18,525
+slope-intercept form and see if it has
+
+76
+00:03:18,525 --> 00:03:20,425
+a different slope or a different intercept,
+
+77
+00:03:20,425 --> 00:03:22,569
+or maybe it's the same line. So we have
+
+78
+00:03:22,569 --> 00:03:27,419
+4x plus 2y is equal to 16.
+
+79
+00:03:27,419 --> 00:03:29,723
+We can subtract 4x from both sides,
+
+80
+00:03:29,723 --> 00:03:31,513
+what we want to do is isolate the y on the
+
+81
+00:03:31,513 --> 00:03:35,082
+left hand side. So let's subtract 4x from
+
+82
+00:03:35,082 --> 00:03:39,051
+both sides. The left hand side we are
+
+83
+00:03:39,051 --> 00:03:41,759
+just left with a 2y, and then the right hand side,
+
+84
+00:03:41,759 --> 00:03:45,918
+we have a -4x plus 16. I
+
+85
+00:03:45,918 --> 00:03:48,107
+just wrote the -4 in front of the 16
+
+86
+00:03:48,107 --> 00:03:49,941
+just so that we have it in the traditional
+
+87
+00:03:49,941 --> 00:03:52,021
+slope-intercept form. And now we can
+
+88
+00:03:52,021 --> 00:03:54,144
+divide both sides of this equation by 2,
+
+89
+00:03:54,144 --> 00:03:56,759
+so that we can isolate the y on the left-hand side.
+
+90
+00:03:56,759 --> 00:03:58,733
+Divide both sides by 2, we are left with
+
+91
+00:03:58,733 --> 00:04:04,334
+y is equal to -4 divided by 2 is -2x
+
+92
+00:04:04,334 --> 00:04:08,269
+plus 16 over 2, plus 8. So all I did is
+
+93
+00:04:08,269 --> 00:04:10,717
+algebraically manipulated this top equation
+
+94
+00:04:10,717 --> 00:04:12,997
+up here, and when I did that, when I solved
+
+95
+00:04:12,997 --> 00:04:16,185
+essentially for y, I got this right over here,
+
+96
+00:04:16,185 --> 00:04:17,882
+which is the exact same thing as the
+
+97
+00:04:17,882 --> 00:04:20,400
+second equation. We have the exact same
+
+98
+00:04:20,400 --> 00:04:24,667
+slope, -2, -2, and we have the exact
+
+99
+00:04:24,667 --> 00:04:27,139
+same y-intercept, 8 and 8. If I were
+
+100
+00:04:27,139 --> 00:04:31,713
+to graph these equations, that's my
+
+101
+00:04:31,713 --> 00:04:36,308
+x axis, and that is my y-axis,
+
+102
+00:04:36,308 --> 00:04:39,641
+both of them have a y-intercept at 8
+
+103
+00:04:39,641 --> 00:04:41,179
+and have a slope of -2.
+
+104
+00:04:41,179 --> 00:04:43,087
+So they look something, I'm just drawing
+
+105
+00:04:43,087 --> 00:04:44,518
+an approximation of it, but they would look
+
+106
+00:04:44,518 --> 00:04:48,359
+something like that. So maybe this is the graph of
+
+107
+00:04:48,359 --> 00:04:51,215
+this equation right here, this first equation.
+
+108
+00:04:51,215 --> 00:04:52,596
+And then the second equation will be
+
+109
+00:04:52,596 --> 00:04:54,390
+the exact same graph, it has the exact
+
+110
+00:04:54,390 --> 00:04:56,944
+same y-intercept and the exact same slope.
+
+111
+00:04:56,944 --> 00:05:00,740
+So clearly these two lines are dependent.
+
+112
+00:05:00,740 --> 00:05:03,708
+Dependent. They have an infinite number
+
+113
+00:05:03,708 --> 00:05:06,354
+of points that are common to both of them
+
+114
+00:05:06,354 --> 99:59:59,999
+because they're the same line.

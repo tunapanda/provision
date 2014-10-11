@@ -1,0 +1,591 @@
+1
+00:00:00,800 --> 00:00:02,400
+What I wanna do in this video is introduce you
+
+2
+00:00:02,400 --> 00:00:07,895
+to what I think is one of the neatest ideas in computer science
+
+3
+00:00:07,895 --> 00:00:09,400
+and that is recursion.
+
+4
+00:00:09,400 --> 00:00:12,051
+So the way we define this factorial function
+
+5
+00:00:12,051 --> 00:00:14,467
+in the last two videos is actually an iterative definition.
+
+6
+00:00:14,467 --> 00:00:18,467
+We're iterating through different values
+
+7
+00:00:18,467 --> 00:00:20,733
+for this variable "i", and then we're essentially
+
+8
+00:00:20,733 --> 00:00:22,067
+taking those value adding one then
+
+9
+00:00:22,067 --> 00:00:24,706
+multipling those times over our original "product".
+
+10
+00:00:24,706 --> 00:00:26,633
+And when we keep iterating through all of that,
+
+11
+00:00:26,633 --> 00:00:29,800
+our eventual product has all the values from one
+
+12
+00:00:29,800 --> 00:00:32,333
+through the number multiplied by each other
+
+13
+00:00:32,333 --> 00:00:34,200
+and they're all sitting in this variable "product".
+
+14
+00:00:34,200 --> 00:00:36,467
+What I'm gonna do here is rewrite this program.
+
+15
+00:00:36,467 --> 00:00:39,753
+What's cool about functions, I'm gonna rewrite this function,
+
+16
+00:00:39,753 --> 00:00:41,267
+what's cool about functions are...
+
+17
+00:00:41,267 --> 00:00:44,533
+This function, we just say: "Look, it returns a factorial of a number".
+
+18
+00:00:44,606 --> 00:00:47,000
+We don't care how this is actually written.
+
+19
+00:00:47,000 --> 00:00:49,067
+And so, anything that's using this function,
+
+20
+00:00:49,067 --> 00:00:50,573
+no matter how I implemented it,
+
+21
+00:00:50,573 --> 00:00:52,152
+as long as I implemented it correctly,
+
+22
+00:00:52,152 --> 00:00:53,638
+it shouldn't worry about it.
+
+23
+00:00:53,638 --> 00:00:55,200
+So as long as I implemented this, the inside,
+
+24
+00:00:55,200 --> 00:00:57,067
+the guts of this function right,
+
+25
+00:00:57,067 --> 00:00:59,067
+even if I do it in a very different way,
+
+26
+00:00:59,067 --> 00:01:01,200
+it shouldn't affect the behaviour
+
+27
+00:01:01,200 --> 00:01:02,933
+of any of the functions that called it.
+
+28
+00:01:02,933 --> 00:01:05,733
+So, let's go ahead and try to define this
+
+29
+00:01:05,733 --> 00:01:07,333
+function recursively.
+
+30
+00:01:07,333 --> 00:01:09,333
+And I think you're gonna find this
+
+31
+00:01:09,333 --> 00:01:10,798
+slightly fascinating.
+
+32
+00:01:10,798 --> 00:01:12,632
+So, I'm gonna do it a little bit different.
+
+33
+00:01:12,632 --> 00:01:15,133
+We're gonna get some conditionals in here as well,
+
+34
+00:01:15,133 --> 00:01:16,696
+so I'm gonna say...
+
+35
+00:01:16,696 --> 00:01:21,000
+Some way recursion is really deep and complicated
+
+36
+00:01:21,000 --> 00:01:23,400
+and in some levels, it's way simpler than anything else.
+
+37
+00:01:23,400 --> 00:01:26,467
+So let me put all of this stuff down there...
+
+38
+00:01:26,467 --> 00:01:29,699
+So, I'm gonna say: "Look, if the number..."
+
+39
+00:01:29,699 --> 00:01:31,045
+You always wanna think about a base case.
+
+40
+00:01:31,045 --> 00:01:35,733
+What's the situation where the smallest values
+
+41
+00:01:35,733 --> 00:01:38,133
+we can put into for number, that will give us
+
+42
+00:01:38,133 --> 00:01:39,733
+a decent response?
+
+43
+00:01:39,733 --> 00:01:40,612
+So, we'll say: "Look.
+
+44
+00:01:40,612 --> 00:01:49,738
+If number is less than or equal to 1.
+
+45
+00:01:49,738 --> 00:01:52,400
+So, if it is less than or equal to 1,
+
+46
+00:01:52,400 --> 00:01:54,869
+let's just return, then it's factorial is...
+
+47
+00:01:54,869 --> 00:01:55,933
+let's just return one.
+
+48
+00:01:55,933 --> 00:01:57,748
+As if you wanna have the same behaviour
+
+49
+00:01:57,748 --> 00:01:58,600
+as the old function.
+
+50
+00:01:58,600 --> 00:02:00,667
+The old function, regardless of wether we put
+
+51
+00:02:00,667 --> 00:02:02,600
+a one there, a zero there, actually you can put
+
+52
+00:02:02,600 --> 00:02:05,733
+a -1 or -2 there, it always gave us the factorial
+
+53
+00:02:05,733 --> 00:02:07,600
+being equal to 1.
+
+54
+00:02:07,600 --> 00:02:09,467
+So, that's exactly what we're doing over here.
+
+55
+00:02:09,467 --> 00:02:11,533
+We're returning 1 if the number is less than one.
+
+56
+00:02:11,533 --> 00:02:14,133
+And this also defines our base case.
+
+57
+00:02:14,133 --> 00:02:17,200
+I can even label it here.
+
+58
+00:02:17,200 --> 00:02:20,667
+This is our base case.
+
+59
+00:02:20,667 --> 00:02:22,333
+And you will see what I mean for a second
+
+60
+00:02:22,333 --> 00:02:23,569
+by a base case.
+
+61
+00:02:23,569 --> 00:02:25,667
+And this is, what I'm about to do now,
+
+62
+00:02:25,667 --> 00:02:27,867
+this is the really exciting part about recursion.
+
+63
+00:02:27,867 --> 00:02:32,533
+If the number is not less than or equal to one,
+
+64
+00:02:32,533 --> 00:02:35,000
+so I can write elif,
+
+65
+00:02:35,000 --> 00:02:38,569
+let me write else actually.
+
+66
+00:02:38,569 --> 00:02:40,933
+So if the number is not less than or equal to one,
+
+67
+00:02:40,933 --> 00:02:43,267
+I'm gonna return something different.
+
+68
+00:02:43,267 --> 00:02:45,001
+And what I'm gonna return is
+
+69
+00:02:45,001 --> 00:02:54,660
+that number times the factorial of one less than that number.
+
+70
+00:02:54,660 --> 00:02:57,867
+Now, the reason why this is fascinating and cool,
+
+71
+00:02:57,867 --> 00:03:00,837
+and all the rest, is that I've just defined something
+
+72
+00:03:00,837 --> 00:03:02,733
+using that something.
+
+73
+00:03:02,733 --> 00:03:05,333
+So I've just defined a function called "factorial"
+
+74
+00:03:05,333 --> 00:03:08,333
+and I've defineded it using the definition of
+
+75
+00:03:08,333 --> 00:03:09,568
+the function factorial.
+
+76
+00:03:09,568 --> 00:03:11,133
+It is referring to itself.
+
+77
+00:03:11,133 --> 00:03:13,000
+This is what recursive functions do.
+
+78
+00:03:13,000 --> 00:03:15,267
+But if you think about it, and I'll diagram it out
+
+79
+00:03:15,267 --> 00:03:16,333
+in more detail in the next video
+
+80
+00:03:16,333 --> 00:03:17,834
+so it makes a little bit more sense,
+
+81
+00:03:17,834 --> 00:03:20,086
+it should kind of work.
+
+82
+00:03:20,086 --> 00:03:23,151
+'cause if you put a 1 or a 0 in for number
+
+83
+00:03:23,151 --> 00:03:24,823
+it'll just return 1.
+
+84
+00:03:24,823 --> 00:03:26,933
+What happens if number is 2?
+
+85
+00:03:26,933 --> 00:03:29,333
+Well, if number is 2, it'll say:
+
+86
+00:03:29,333 --> 00:03:31,418
+"Look, number is less than one, so I'll go over here."
+
+87
+00:03:31,418 --> 00:03:32,161
+So it says:
+
+88
+00:03:32,161 --> 00:03:37,723
+"It'll return 2 times factorial of 2-1."
+
+89
+00:03:37,723 --> 00:03:39,667
+Or factorial of 1.
+
+90
+00:03:39,667 --> 00:03:41,267
+Then it'll call factorial again,
+
+91
+00:03:41,267 --> 00:03:43,600
+and factorial of 1 is just 1.
+
+92
+00:03:43,600 --> 00:03:45,267
+So it'll return 2 times 1.
+
+93
+00:03:45,267 --> 00:03:46,533
+So, that'll work out for 2.
+
+94
+00:03:46,533 --> 00:03:48,000
+Try it for 3.
+
+95
+00:03:48,000 --> 00:03:50,267
+If you do factorial of 3,
+
+96
+00:03:50,267 --> 00:03:52,200
+it'll go down to this clause over here,
+
+97
+00:03:52,200 --> 00:03:53,867
+'casue 3 is nos less than or equal than 1,
+
+98
+00:03:53,867 --> 00:03:58,333
+and it'll return 3 times the factorial of 3-1,
+
+99
+00:03:58,333 --> 00:03:59,955
+which is 2. The factorial of 2.
+
+100
+00:03:59,955 --> 00:04:02,133
+And we now that it'll return the right answer
+
+101
+00:04:02,133 --> 00:04:03,667
+for factorial of 2, so it'll return
+
+102
+00:04:03,667 --> 00:04:06,800
+3 times 2, which is 6, which is the factorial of 3.
+
+103
+00:04:06,800 --> 00:04:08,467
+So hopefully you're getting the gist of it.
+
+104
+00:04:08,467 --> 00:04:10,467
+Factorial of 4 is going to work for the exact same reason.
+
+105
+00:04:10,467 --> 00:04:12,867
+It's gonna boil down to to 4 times the factorial of 3.
+
+106
+00:04:12,867 --> 00:04:15,025
+We know that it works for the factorial of 3.
+
+107
+00:04:15,025 --> 00:04:17,200
+And just to prove to you that I'm not doing
+
+108
+00:04:17,200 --> 00:04:19,200
+some type of crazy voodoo, and that
+
+109
+00:04:19,200 --> 00:04:20,600
+this will actually work,
+
+110
+00:04:20,600 --> 00:04:22,084
+let's try to run the program.
+
+111
+00:04:22,084 --> 00:04:24,600
+Let's try to run the program right here.
+
+112
+00:04:24,600 --> 00:04:27,933
+So, this is some stuff I was doing before hand,
+
+113
+00:04:27,933 --> 00:04:29,533
+let's get rid of that.
+
+114
+00:04:29,533 --> 00:04:31,836
+So, let's just run the program.
+
+115
+00:04:31,836 --> 00:04:33,415
+So, all I've done is I've redefined
+
+116
+00:04:33,415 --> 00:04:35,400
+the factorial function, but
+
+117
+00:04:35,400 --> 00:04:37,733
+I've redefined it recursively.
+
+118
+00:04:37,733 --> 00:04:41,000
+I don't wanna have to change the comments, so
+
+119
+00:04:41,000 --> 00:04:42,169
+let me save it and
+
+120
+00:04:42,169 --> 00:04:45,133
+let's run, let's interpretate this program,
+
+121
+00:04:45,133 --> 00:04:46,467
+let's execute it and see if it does
+
+122
+00:04:46,467 --> 00:04:48,600
+what we need it to do.
+
+123
+00:04:48,600 --> 00:04:49,948
+All right!
+
+124
+00:04:50,087 --> 00:04:51,867
+So they're prompting us for something,
+
+125
+00:04:51,867 --> 00:04:53,756
+let's say the factorial of 5.
+
+126
+00:04:53,756 --> 00:04:55,667
+120.
+
+127
+00:04:55,667 --> 00:04:58,667
+So, once again, our factorial program
+
+128
+00:04:58,667 --> 00:04:59,800
+no matter what we put in there,
+
+129
+00:04:59,800 --> 00:05:01,000
+it gives us the right answer.
+
+130
+00:05:01,000 --> 00:05:02,486
+But what's really cool is that it's now
+
+131
+00:05:02,486 --> 00:05:03,671
+doing it recursevly.
+
+132
+00:05:03,671 --> 00:05:05,000
+When I do factorial of 6,
+
+133
+00:05:05,000 --> 00:05:06,666
+say: "Ok, factorial of 6.
+
+134
+00:05:06,666 --> 00:05:08,667
+Is 6 less than or equal than 1?"
+
+135
+00:05:08,667 --> 00:05:09,824
+No, it's not.
+
+136
+00:05:09,824 --> 00:05:11,600
+So it goes to this else clause right over here.
+
+137
+00:05:11,600 --> 00:05:12,600
+So, then it says:
+
+138
+00:05:12,600 --> 00:05:14,839
+"Return 6 times the factorial of 5."
+
+139
+00:05:14,839 --> 00:05:17,164
+Ok, let me remember, 6 times
+
+140
+00:05:17,164 --> 00:05:18,764
+the factorial of 5 was...
+
+141
+00:05:18,949 --> 00:05:20,533
+I forgot what the factorial of 5 is!
+
+142
+00:05:20,533 --> 00:05:21,867
+Well, the factorial of 5 is going to be
+
+143
+00:05:21,867 --> 00:05:23,454
+5 times the factorial of 4.
+
+144
+00:05:23,454 --> 00:05:25,933
+And so, then that factorial of 4 is
+
+145
+00:05:25,933 --> 00:05:27,200
+4 times the factorial of 3,
+
+146
+00:05:27,200 --> 00:05:29,067
+all the way down to the factorial of 1, which is 1.
+
+147
+00:05:29,067 --> 00:05:30,768
+And so, it'll actually return 6 times
+
+148
+00:05:30,768 --> 00:05:34,768
+5 times 4 times 3 times 2 times 1.

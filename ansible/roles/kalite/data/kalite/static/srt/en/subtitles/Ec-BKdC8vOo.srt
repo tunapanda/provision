@@ -1,0 +1,1443 @@
+1
+00:00:00,900 --> 00:00:06,060
+Let A=(0,0) and B=(b,2) be points on the coordinate plane.
+
+2
+00:00:06,060 --> 00:00:10,930
+Let ABCDEF be a convex Equilateral hexagon.
+
+3
+00:00:10,930 --> 00:00:15,430
+So convex means it's not concave,a concave hexagon would look like this
+
+4
+00:00:15,430 --> 00:00:19,220
+so that's two sides, three, four, five, six,
+
+5
+00:00:19,220 --> 00:00:20,580
+this would be a concave hexagon,
+
+6
+00:00:20,580 --> 00:00:21,740
+this is going to be popped out
+
+7
+00:00:21,740 --> 00:00:24,130
+and all the sides are going to be equal,
+
+8
+00:00:24,130 --> 00:00:25,750
+so it's equilateral hexagon.
+
+9
+00:00:25,750 --> 00:00:27,660
+They're not telling us it's a regular hexagon,
+
+10
+00:00:27,660 --> 00:00:30,740
+so we don't know that all of the angles are going to be the same
+
+11
+00:00:30,740 --> 00:00:32,490
+but all the sides will be the same.
+
+12
+00:00:35,190 --> 00:00:38,550
+then they show us a bunch of sides that are parallel to each other
+
+13
+00:00:38,550 --> 00:00:40,310
+and that the y-coordinates of its vertices are
+
+14
+00:00:40,310 --> 00:00:45,270
+distinct elements of the set 0,2,4,6,8,10.
+
+15
+00:00:45,270 --> 00:00:48,330
+The area of the hexagon can be written in the form m square root of n
+
+16
+00:00:48,330 --> 00:00:49,770
+where m and n are positive integers
+
+17
+00:00:49,770 --> 00:00:52,780
+and n is not divisible by the square of any prime.
+
+18
+00:00:52,780 --> 00:00:54,460
+That's just a fancy way of saying that
+
+19
+00:00:54,460 --> 00:00:56,720
+we've simplified this radical as much as possible.
+
+20
+00:00:56,720 --> 00:00:59,680
+Find m plus n.
+
+21
+00:00:59,680 --> 00:01:01,800
+So really the first part let's just make sure
+
+22
+00:01:01,800 --> 00:01:03,290
+we can visualize this hexagon.
+
+23
+00:01:03,290 --> 00:01:07,410
+So let me draw, we know one point one vertex for sure zero zero,
+
+24
+00:01:07,410 --> 00:01:13,520
+so let me draw my x-axis, that is my x-axis right over there
+
+25
+00:01:13,520 --> 00:01:18,650
+and then my y axis, my y axis will look like that.
+
+26
+00:01:18,650 --> 00:01:23,960
+y axis, we know that the vertex A sits at the point (0,0),
+
+27
+00:01:23,960 --> 00:01:25,820
+that is the vertex A.
+
+28
+00:01:25,820 --> 00:01:29,610
+Now we know that all the vertices have y-coordinates that
+
+29
+00:01:29,610 --> 00:01:32,290
+are either zero two four six eight ten,
+
+30
+00:01:32,290 --> 00:01:33,790
+and they're distinct members of the set
+
+31
+00:01:33,790 --> 00:01:38,000
+which means no two of the vertices share the same y-coordinates.
+
+32
+00:01:38,000 --> 00:01:40,270
+They are not going to be on the same horizontal line.
+
+33
+00:01:40,270 --> 00:01:41,600
+So let me draw these words on lines.
+
+34
+00:01:41,600 --> 00:01:43,560
+With the x-axis is a zero
+
+35
+00:01:43,900 --> 00:01:46,230
+then you have Y is equal to two,
+
+36
+00:01:46,590 --> 00:01:52,190
+then you have four, and you have six, and then you have eight,
+
+37
+00:01:52,190 --> 00:01:56,720
+and then you have ten up here.
+
+38
+00:01:56,720 --> 00:02:00,790
+Now B we already know. So first we've already used up the zero for A,
+
+39
+00:02:00,790 --> 00:02:02,830
+A is already using up the zero.
+
+40
+00:02:02,830 --> 00:02:06,990
+B uses up the two they tell us, that the y-coordinate of B is two.
+
+41
+00:02:06,990 --> 00:02:09,430
+The y-coordinate of B is two, so we use that as well
+
+42
+00:02:09,430 --> 00:02:12,830
+let me see if I can draw a B over here.
+
+43
+00:02:12,830 --> 00:02:16,580
+Let me see if I can draw a B sits on the horizontal some place,
+
+44
+00:02:16,580 --> 00:02:22,910
+and we - the hexagon has side length s
+
+45
+00:02:22,910 --> 00:02:25,240
+we don't know what that length is but they're all the same,
+
+46
+00:02:25,240 --> 00:02:28,030
+so let's call this s, it can help me think about it,
+
+47
+00:02:28,030 --> 00:02:31,900
+now that I know that this is equilateral hexagon,
+
+48
+00:02:31,900 --> 00:02:34,360
+all the sides are going to be the same length,
+
+49
+00:02:34,360 --> 00:02:36,210
+and so we're going to go out here,
+
+50
+00:02:36,210 --> 00:02:39,190
+we're going to go out here the (b,2),
+
+51
+00:02:39,190 --> 00:02:43,180
+we don't know what b is but that is our vertex B.
+
+52
+00:02:43,180 --> 00:02:46,520
+Now F is the other vertex that is connected to A.
+
+53
+00:02:46,520 --> 00:02:50,160
+F cannot sit on this horizontal, cannot sit on y is equal to two,
+
+54
+00:02:50,160 --> 00:02:52,220
+it can't sit on y is equal to six
+
+55
+00:02:52,220 --> 00:02:53,680
+because this distance would be super far,
+
+56
+00:02:53,680 --> 00:02:56,990
+clearly much further than this distance over here
+
+57
+00:02:56,990 --> 00:02:58,900
+where actually you could have that,
+
+58
+00:02:58,900 --> 00:03:02,680
+but then you wouldn't be able to draw a really a convex hexagon.
+
+59
+00:03:02,680 --> 00:03:09,170
+so y,the next vertex is just going to have to sit on this horizontal,
+
+60
+00:03:09,170 --> 00:03:11,050
+so it's going to be s away,
+
+61
+00:03:11,050 --> 00:03:16,540
+so it's going to be s away, maybe it will be something like that,
+
+62
+00:03:16,540 --> 00:03:18,410
+something like that, so let me draw it,
+
+63
+00:03:18,410 --> 00:03:22,620
+so that is the next vertex, that is vertex F Right?
+
+64
+00:03:22,630 --> 00:03:25,730
+Because we're going ABCDEF and then back to A.
+
+65
+00:03:25,730 --> 00:03:27,660
+Fair enough, now what about vertex C.
+
+66
+00:03:27,660 --> 00:03:30,060
+well vertex C can't be on the four horizontal
+
+67
+00:03:30,060 --> 00:03:32,400
+so it gonna have to be on the six horizontal.
+
+68
+00:03:32,400 --> 00:03:37,360
+So vertex C is going to have to be some place like that,
+
+69
+00:03:37,360 --> 00:03:40,110
+Some place like that, that's vertex C.
+
+70
+00:03:40,110 --> 00:03:43,550
+Once again that length is s, this length is s,
+
+71
+00:03:43,550 --> 00:03:45,760
+now what about vertex E?
+
+72
+00:03:45,760 --> 00:03:48,800
+can't be on the six horizontal now already taken up by vertex C
+
+73
+00:03:48,800 --> 00:03:51,080
+so the four and the six are already taken up,
+
+74
+00:03:51,080 --> 00:03:54,690
+so has to be at the at the eight horizontal.
+
+75
+00:03:54,690 --> 00:03:56,490
+And so this is length s.
+
+76
+00:03:56,490 --> 00:03:59,240
+And we also know that we're going back to the origin now.
+
+77
+00:03:59,240 --> 00:04:01,210
+so this is vertex E right here,
+
+78
+00:04:01,210 --> 00:04:04,040
+we know that we're going back to the origin,
+
+79
+00:04:04,040 --> 00:04:06,480
+not to the origin we are going back to the same x value,
+
+80
+00:04:06,480 --> 00:04:08,400
+this is going to be on the y intercept
+
+81
+00:04:08,400 --> 00:04:11,050
+and the reason why we know that is this is length s,
+
+82
+00:04:11,050 --> 00:04:14,040
+and this is length s and they both have to,
+
+83
+00:04:14,040 --> 00:04:16,900
+both of these diagonals travel the same,
+
+84
+00:04:16,900 --> 00:04:20,660
+they travel the same vertical distance, this base is four,
+
+85
+00:04:20,660 --> 00:04:23,940
+this base is four,so you can kind of view this is two right triangles,
+
+86
+00:04:23,940 --> 00:04:27,110
+both of them have base four and hypotenuse s,
+
+87
+00:04:27,110 --> 00:04:29,220
+and so they share this side right over here
+
+88
+00:04:29,220 --> 00:04:32,010
+so they both - this one goes out to the left that distance
+
+89
+00:04:32,010 --> 00:04:34,400
+and this one is going to come back that distance.
+
+90
+00:04:34,400 --> 00:04:36,870
+Now by the same logic over here,
+
+91
+00:04:36,870 --> 00:04:38,890
+this guy's going to have to come back
+
+92
+00:04:38,890 --> 00:04:41,180
+so he's - we can now use the ten coordinate,
+
+93
+00:04:41,180 --> 00:04:46,490
+the ten y horizontal or the y coordinate of ten
+
+94
+00:04:46,490 --> 00:04:50,900
+that's the only one we haven't used yet for D,
+
+95
+00:04:50,900 --> 00:04:52,340
+and since we came out,
+
+96
+00:04:52,340 --> 00:04:55,470
+when we had a diagonal of length s,
+
+97
+00:04:55,470 --> 00:04:57,250
+traveling four up,
+
+98
+00:04:57,250 --> 00:05:00,770
+this time same logic, we had a diagonal length s,
+
+99
+00:05:00,770 --> 00:05:03,490
+it traveled up four over here and moved out this distance
+
+100
+00:05:03,490 --> 00:05:06,440
+then we go back at the other direction and traveling up four,
+
+101
+00:05:06,440 --> 00:05:09,070
+and you're gonna go back in the same direction
+
+102
+00:05:09,070 --> 00:05:11,870
+so this is going to be directly on top of B.
+
+103
+00:05:11,870 --> 00:05:16,680
+so the coordinate for D is actually going to be b comma ten,
+
+104
+00:05:16,680 --> 00:05:18,420
+the y coordinate here is ten.
+
+105
+00:05:18,420 --> 00:05:20,970
+And there we have our hexagon,
+
+106
+00:05:20,970 --> 00:05:24,080
+we're done drawing our actual hexagon.
+
+107
+00:05:24,080 --> 00:05:26,780
+and all this parallel line information they told us is that
+
+108
+00:05:26,780 --> 00:05:28,750
+AB is parallel to DE,
+
+109
+00:05:28,750 --> 00:05:33,280
+so AB is parallel to DE and this is kind of obvious here.
+
+110
+00:05:34,410 --> 00:05:36,250
+BC is parallel to EF,
+
+111
+00:05:36,250 --> 00:05:42,340
+BC is parallel to EF.
+
+112
+00:05:42,340 --> 00:05:46,560
+and they say CD is parallel to FA, so CD
+
+113
+00:05:46,560 --> 00:05:50,460
+is parallel to FA and the way we drew it looks pretty clear
+
+114
+00:05:50,460 --> 00:05:52,510
+that is the case.
+
+115
+00:05:52,510 --> 00:05:54,530
+Now we define the area,
+
+116
+00:05:54,530 --> 00:05:56,820
+we defined the area of this hexagon
+
+117
+00:05:56,820 --> 00:05:59,430
+and it seems like a good starting point,
+
+118
+00:05:59,430 --> 00:06:02,340
+would be to figure out what s is
+
+119
+00:06:02,340 --> 00:06:03,890
+and to figure out what s is,
+
+120
+00:06:03,890 --> 00:06:05,960
+it's really going to be a function of
+
+121
+00:06:05,960 --> 00:06:08,360
+how much we've inclined this thing. So let's -
+
+122
+00:06:08,360 --> 00:06:11,490
+let's draw, you can see that this is an equiangular hexagon
+
+123
+00:06:11,490 --> 00:06:14,580
+that this is kind of skewed, is kind of, we distorted a little bit
+
+124
+00:06:14,580 --> 00:06:16,770
+but all the sides are of the same length.
+
+125
+00:06:16,770 --> 00:06:18,510
+So let's just call this theta,
+
+126
+00:06:18,510 --> 00:06:21,220
+let's call that angle right over there theta,
+
+127
+00:06:21,220 --> 00:06:23,570
+and they tell us that the angle FAB is 120 degrees,
+
+128
+00:06:23,570 --> 00:06:26,260
+FAB is a hundred and twenty degrees
+
+129
+00:06:26,260 --> 00:06:28,410
+that is a hundred and twenty degrees.
+
+130
+00:06:28,410 --> 00:06:30,960
+So this angle over here on the left,
+
+131
+00:06:30,960 --> 00:06:35,420
+this angle over here on the left is going to be 180 minus one twenty,
+
+132
+00:06:35,420 --> 00:06:38,400
+minus theta. So 180 minus one twenty is sixty
+
+133
+00:06:38,400 --> 00:06:40,960
+So this single over here sixty minus theta.
+
+134
+00:06:40,960 --> 00:06:44,440
+The reason I did that is because we have some information,
+
+135
+00:06:44,440 --> 00:06:47,250
+we know that we traveled up four over here,
+
+136
+00:06:47,250 --> 00:06:50,000
+and we know that we traveled up two over here
+
+137
+00:06:50,000 --> 00:06:52,260
+and maybe we could use that information to solve for s
+
+138
+00:06:52,260 --> 00:06:55,290
+because s is the hypotenuse of both of these right triangles
+
+139
+00:06:55,290 --> 00:06:57,430
+that I just constructed. Let me draw them.
+
+140
+00:06:57,430 --> 00:07:00,500
+So this right triangle right over here I could draw like this,
+
+141
+00:07:00,500 --> 00:07:03,020
+I could draw like this. So I have s,
+
+142
+00:07:03,020 --> 00:07:07,840
+I have theta and I have 2,that's this right triangle right over here.
+
+143
+00:07:07,840 --> 00:07:11,000
+This right triangle looks like this,
+
+144
+00:07:11,000 --> 00:07:13,490
+it looks like this, this is,
+
+145
+00:07:13,490 --> 00:07:17,050
+this angle is sixty minus theta,
+
+146
+00:07:17,050 --> 00:07:20,730
+and this height over here is four
+
+147
+00:07:20,730 --> 00:07:24,830
+So let's see what we can do to solve for s.
+
+148
+00:07:24,830 --> 00:07:27,380
+This triangle on the left or is on the right over here,
+
+149
+00:07:27,380 --> 00:07:28,470
+this triangle says that
+
+150
+00:07:28,470 --> 00:07:29,780
+If we take the sine of theta,
+
+151
+00:07:29,780 --> 00:07:34,000
+the sine of theta is equal to the opposite over the hypotenuse,
+
+152
+00:07:34,000 --> 00:07:38,160
+is equal to two over s, this triangle tells us that the sine,
+
+153
+00:07:38,160 --> 00:07:40,910
+remember this hypotenuse over here is also s,
+
+154
+00:07:40,910 --> 00:07:43,310
+the sine of sixty minus theta,
+
+155
+00:07:43,310 --> 00:07:49,150
+the sine of sixty minus theta is equal to four over s.
+
+156
+00:07:49,150 --> 00:07:51,550
+And if you want set these equal to each other
+
+157
+00:07:51,550 --> 00:07:53,080
+we could multiply this guy two on both sides.
+
+158
+00:07:53,080 --> 00:07:56,840
+You can see two sine of theta is equal to four over s,
+
+159
+00:07:56,840 --> 00:07:59,560
+Sine of sixty minus theta is also equal to four over s,
+
+160
+00:07:59,570 --> 00:08:01,310
+we can set them equal to each other.
+
+161
+00:08:01,310 --> 00:08:05,090
+So we have two sine of theta, two,
+
+162
+00:08:05,090 --> 00:08:10,070
+we have two sine two sine of theta is
+
+163
+00:08:10,070 --> 00:08:16,360
+equal to sine of sixty minus theta.
+
+164
+00:08:16,360 --> 00:08:18,190
+and then we could use some of our trig identities
+
+165
+00:08:18,190 --> 00:08:22,790
+we know the sine of a minus b is the same thing,
+
+166
+00:08:22,790 --> 00:08:25,460
+the sine of a minus b this is equal to
+
+167
+00:08:25,460 --> 00:08:30,660
+the sine of a times the cosine of b,
+
+168
+00:08:30,660 --> 00:08:33,190
+or I should say theta in this case,
+
+169
+00:08:33,190 --> 00:08:36,120
+So sine of sixty cos theta, minus,
+
+170
+00:08:36,120 --> 00:08:37,760
+this is just a standard trig identity
+
+171
+00:08:37,760 --> 00:08:41,220
+So it's a difference, sum and difference identity,
+
+172
+00:08:41,220 --> 00:08:44,000
+minus cosine of sixty,
+
+173
+00:08:44,000 --> 00:08:47,790
+minus cosine of sixty times the sine of theta,
+
+174
+00:08:47,790 --> 00:08:51,610
+times the sine of theta and all this is equal to two sine of theta.
+
+175
+00:08:51,610 --> 00:08:55,920
+two sine of theta. well sine of sixty degrees
+
+176
+00:08:55,920 --> 00:08:58,450
+this is the square root of three over two,
+
+177
+00:08:58,450 --> 00:09:00,950
+square root of three over two.
+
+178
+00:09:00,950 --> 00:09:05,150
+Cosine of sixty degrees is one-half, is one-half.
+
+179
+00:09:05,150 --> 00:09:08,680
+So we could add one half sine theta to both sides of this
+
+180
+00:09:08,680 --> 00:09:09,600
+and what are we going to get.
+
+181
+00:09:09,600 --> 00:09:11,820
+So we are going to add one-half sine theta,
+
+182
+00:09:11,820 --> 00:09:13,580
+then this guy's going to go away
+
+183
+00:09:13,580 --> 00:09:16,250
+and then you add one-half sine of theta to two sine of theta
+
+184
+00:09:16,250 --> 00:09:18,890
+which is really four half sine of theta,
+
+185
+00:09:18,890 --> 00:09:23,550
+so that's going to be five halves sine of theta,
+
+186
+00:09:23,550 --> 00:09:27,400
+so let me add one-half sine of theta, that's five -
+
+187
+00:09:27,400 --> 00:09:30,880
+five halves sine of theta
+
+188
+00:09:30,880 --> 00:09:33,310
+is equal to square root of three over two cosine of theta,
+
+189
+00:09:33,310 --> 00:09:38,170
+square root of three over two cosine of theta.
+
+190
+00:09:38,170 --> 00:09:40,920
+right? I added one half sine of theta to both sides of this
+
+191
+00:09:40,930 --> 00:09:44,110
+to get this I can multiply both sides by two just to simplify it.
+
+192
+00:09:44,110 --> 00:09:47,170
+So I get five sine of theta
+
+193
+00:09:47,170 --> 00:09:51,410
+five sine of theta is equal to the square root of three cosine of theta
+
+194
+00:09:51,410 --> 00:09:54,010
+Now I want to use that identity sine squared theta plus
+
+195
+00:09:54,010 --> 00:09:55,800
+cosine squared theta is equal to one.
+
+196
+00:09:55,800 --> 00:09:57,600
+So let me just square both sides that
+
+197
+00:09:57,600 --> 00:09:59,260
+will also help us with this radical
+
+198
+00:09:59,260 --> 00:10:03,400
+So we'll get twenty five sine squared of theta is
+
+199
+00:10:03,400 --> 00:10:05,060
+equal to square three cosine squared of theta,
+
+200
+00:10:06,360 --> 00:10:08,220
+Instead of writing cosine squared of theta,
+
+201
+00:10:08,220 --> 00:10:12,920
+let's just write that's one minus sine squared of theta. Right?
+
+202
+00:10:12,920 --> 00:10:15,880
+cosine squared theta is one minus sine squared of theta
+
+203
+00:10:15,880 --> 00:10:16,930
+Just squared both sides.
+
+204
+00:10:16,930 --> 00:10:18,950
+So let me just write what I just did,
+
+205
+00:10:18,950 --> 00:10:25,540
+I just squared both sides and so we get twenty five sine squared theta
+
+206
+00:10:25,540 --> 00:10:30,110
+is equal to three minus three sine squared theta
+
+207
+00:10:30,110 --> 00:10:32,650
+and we can add three sine squared theta to both sides
+
+208
+00:10:32,650 --> 00:10:37,340
+we get twenty eight sine squared theta is equal to three,
+
+209
+00:10:37,340 --> 00:10:44,160
+or that the sine squared theta,home stretch,to three over twenty eight
+
+210
+00:10:44,160 --> 00:10:46,760
+Or we could even write that sine of theta,
+
+211
+00:10:47,590 --> 00:10:52,850
+sine of theta is equal to the square root of three over twenty eight.
+
+212
+00:10:52,850 --> 00:10:55,930
+So it's equal to the square root of three over twenty eight
+
+213
+00:10:55,930 --> 00:10:58,990
+now we can simplify that twenty eight is four times seven
+
+214
+00:10:58,990 --> 00:11:00,150
+so we can take it out,
+
+215
+00:11:00,150 --> 00:11:01,750
+but that's good enough for now that'll,
+
+216
+00:11:01,750 --> 00:11:03,740
+that may be you know we'll simplify it
+
+217
+00:11:03,740 --> 00:11:06,000
+later if we have to sometimes it's easier to deal with.
+
+218
+00:11:06,000 --> 00:11:08,640
+So let's see, over here we have we have the sine of theta
+
+219
+00:11:08,640 --> 00:11:13,860
+now we can relate that actually to s over here we know that,
+
+220
+00:11:13,860 --> 00:11:15,490
+we know that before I messed with this thing,
+
+221
+00:11:15,490 --> 00:11:20,100
+we know that the sine of theta is equal to two over s,
+
+222
+00:11:20,100 --> 00:11:24,790
+or that s over two is equal to one over sine of theta,
+
+223
+00:11:24,790 --> 00:11:28,440
+or that s is equal to two over the sine of theta.
+
+224
+00:11:28,440 --> 00:11:30,170
+Well we know what sine of theta is,
+
+225
+00:11:30,170 --> 00:11:32,400
+it is square root of three over twenty eight.
+
+226
+00:11:32,400 --> 00:11:35,000
+so s is equal to two divided by sine of theta,
+
+227
+00:11:35,000 --> 00:11:38,210
+that's like multiplying by the inverse of sine of theta,
+
+228
+00:11:38,210 --> 00:11:43,810
+so that's two times the square root of twenty eight over three,
+
+229
+00:11:43,810 --> 00:11:48,990
+twenty eight over three so that is we figured out our s,
+
+230
+00:11:48,990 --> 00:11:51,640
+two times this thing over here.
+
+231
+00:11:51,640 --> 00:11:55,890
+Now given that we know s let's see how we can figure out the area.
+
+232
+00:11:55,890 --> 00:11:58,220
+Well what immediately pops out
+
+233
+00:11:58,220 --> 00:12:02,480
+is that we have this triangle over here,
+
+234
+00:12:02,480 --> 00:12:05,080
+that has height or I should say maybe it's base
+
+235
+00:12:05,080 --> 00:12:07,530
+if you view it sideways, its base is eight,
+
+236
+00:12:07,530 --> 00:12:09,630
+its base is eight,
+
+237
+00:12:09,630 --> 00:12:13,070
+and this distance right over here we should be able to figure out,
+
+238
+00:12:13,070 --> 00:12:16,370
+we should be able to figure out using the Pythagorean theorem,
+
+239
+00:12:16,370 --> 00:12:20,560
+because we know that this distance right over here is four,
+
+240
+00:12:20,560 --> 00:12:22,720
+We know that this distance is four.
+
+241
+00:12:22,720 --> 00:12:25,670
+We know that this distance, the hypotenuse is s,
+
+242
+00:12:25,670 --> 00:12:28,380
+so we could call this the height of it right over here
+
+243
+00:12:28,380 --> 00:12:29,880
+we could say that h squared,
+
+244
+00:12:31,150 --> 00:12:34,560
+h squared plus four squared plus sixteen is equal to
+
+245
+00:12:34,560 --> 00:12:37,470
+the hypotenuse squared, equal to s squared.
+
+246
+00:12:37,470 --> 00:12:41,070
+S squared - s is this thing over here so if we want to square s,
+
+247
+00:12:41,070 --> 00:12:46,330
+it becomes four times twenty-eight,
+
+248
+00:12:46,330 --> 00:12:49,650
+four times twenty eight over three,
+
+249
+00:12:49,650 --> 00:12:53,940
+and we'd subtract sixteen from both sides so h is equal to
+
+250
+00:12:53,940 --> 00:12:57,140
+four times twenty-eight over three minus
+
+251
+00:12:57,140 --> 00:12:59,560
+if I want to write sixteen over three
+
+252
+00:12:59,560 --> 00:13:01,200
+or if I want to write sixteen something over three
+
+253
+00:13:01,200 --> 00:13:02,820
+it's going to be minus forty eight,
+
+254
+00:13:02,820 --> 00:13:06,140
+minus forty eight over three
+
+255
+00:13:06,140 --> 00:13:07,670
+let's see I don't wanna multiply,
+
+256
+00:13:07,990 --> 00:13:12,260
+I don't want to have to multiply four times twenty-eight,
+
+257
+00:13:12,260 --> 00:13:17,920
+so you can write forty-eight as four times twelve,
+
+258
+00:13:17,920 --> 00:13:19,520
+so this numerator is going to be
+
+259
+00:13:19,520 --> 00:13:24,070
+four times twenty-eight minus twelve over -
+
+260
+00:13:24,070 --> 00:13:26,180
+remember that's h squared I should say,
+
+261
+00:13:26,180 --> 00:13:26,940
+H squared is going to be
+
+262
+00:13:26,940 --> 00:13:29,670
+four times twenty-eight minus twelve over three
+
+263
+00:13:29,670 --> 00:13:33,980
+which is equal to four times sixteen over three,
+
+264
+00:13:33,980 --> 00:13:37,620
+which is equal to sixty-four over three, that's h squared
+
+265
+00:13:37,620 --> 00:13:41,450
+so h is going to be the square root of that which is eight
+
+266
+00:13:41,450 --> 00:13:43,650
+over the square root of three,
+
+267
+00:13:43,650 --> 00:13:46,700
+so h right over here is eight over the square root of three
+
+268
+00:13:46,700 --> 00:13:49,850
+so if I want to find the area of this whole thing over here.
+
+269
+00:13:49,850 --> 00:13:53,250
+well first let's find the area of the small thing right over here
+
+270
+00:13:53,250 --> 00:13:55,160
+that's just going to be h times four,
+
+271
+00:13:55,160 --> 00:13:56,060
+so it's going to be,
+
+272
+00:13:56,060 --> 00:13:57,720
+well,I could do it either way,
+
+273
+00:13:57,720 --> 00:14:01,900
+but let's just say this is h times four, times one-half,
+
+274
+00:14:01,900 --> 00:14:06,600
+so it's going to be two times so the area of this triangle,
+
+275
+00:14:06,600 --> 00:14:11,240
+Let me do it in blue right here,this triangle's area is going to be h,
+
+276
+00:14:11,240 --> 00:14:17,430
+which is eight, over the square root of three, times four,
+
+277
+00:14:17,430 --> 00:14:20,190
+times four times one-half,
+
+278
+00:14:20,190 --> 00:14:22,120
+so this guy right over here is this going to be
+
+279
+00:14:22,120 --> 00:14:26,140
+two times eight over the square root of three,
+
+280
+00:14:26,140 --> 00:14:28,650
+or that's going to be sixteen over the square root of three
+
+281
+00:14:28,650 --> 00:14:33,690
+so this guy over here is sixteen over the square root of three.
+
+282
+00:14:33,690 --> 00:14:36,510
+So that is sixteen over the square root of three.
+
+283
+00:14:36,510 --> 00:14:38,380
+Now we have a bunch that, we have
+
+284
+00:14:38,380 --> 00:14:40,520
+this guy and this guy is going to have
+
+285
+00:14:40,530 --> 00:14:42,670
+the exact same area right over there,
+
+286
+00:14:42,670 --> 00:14:44,140
+and then you have this guy
+
+287
+00:14:44,140 --> 00:14:46,700
+who's going to have the exact same area again,
+
+288
+00:14:46,700 --> 00:14:51,210
+same exact logic, same exact logic, same base, same height,
+
+289
+00:14:51,210 --> 00:14:52,780
+they're actually congruent,
+
+290
+00:14:52,780 --> 00:14:54,310
+so you have four of these triangles,
+
+291
+00:14:54,310 --> 00:14:55,500
+so you are gonna multiply by four
+
+292
+00:14:55,500 --> 00:14:57,870
+if you want the area of this
+
+293
+00:14:57,870 --> 00:15:00,540
+or this area I've already shaded in, four times this
+
+294
+00:15:00,540 --> 00:15:03,260
+where it's sixty four over
+
+295
+00:15:03,260 --> 00:15:05,320
+where it's sixty four over the square root of three.
+
+296
+00:15:05,320 --> 00:15:08,720
+now the only area we have left to figure out
+
+297
+00:15:08,720 --> 00:15:11,040
+is the area of this parallelogram,
+
+298
+00:15:11,040 --> 00:15:13,790
+the area of the parallelogram in the middle.
+
+299
+00:15:13,790 --> 00:15:15,260
+Now we know the base of the parallelogram,
+
+300
+00:15:15,260 --> 00:15:19,010
+the base of this parallelogram is eight,
+
+301
+00:15:19,010 --> 00:15:21,590
+the base of the parallelogram is eight.
+
+302
+00:15:21,590 --> 00:15:24,200
+We just have to figure out its height.
+
+303
+00:15:24,200 --> 00:15:26,100
+We just have to figure out its height
+
+304
+00:15:26,100 --> 00:15:28,710
+and once again we can use the Pythagorean theorem.
+
+305
+00:15:28,710 --> 00:15:31,090
+So I'll call this, I don't know, we've already used h,
+
+306
+00:15:31,090 --> 00:15:32,420
+I'll use h again but this is,
+
+307
+00:15:32,420 --> 00:15:35,090
+you'd have to remember this is a different height over here,
+
+308
+00:15:35,090 --> 00:15:37,820
+this base over here is of length two,
+
+309
+00:15:37,820 --> 00:15:39,730
+two and it's hard to read now,
+
+310
+00:15:39,730 --> 00:15:41,940
+so we can now write,
+
+311
+00:15:41,940 --> 00:15:48,540
+we can now write that h squared plus four plus two squared is equal to
+
+312
+00:15:48,540 --> 00:15:51,050
+is equal to s squared
+
+313
+00:15:51,050 --> 00:15:53,270
+now we already figured out what s squared was in the past,
+
+314
+00:15:53,270 --> 00:15:55,930
+it's four times twenty-eight over three,
+
+315
+00:15:55,930 --> 00:15:58,840
+four times twenty eight over three.
+
+316
+00:15:58,840 --> 00:16:00,910
+Let's subtract four from both sides.
+
+317
+00:16:00,910 --> 00:16:05,600
+Let's subtract four over there so minus twelve over three.
+
+318
+00:16:05,600 --> 00:16:09,850
+And now let's see twelve is the same thing as four times three,
+
+319
+00:16:09,850 --> 00:16:15,040
+so this is, this is equal to four times twenty-eight,
+
+320
+00:16:15,040 --> 00:16:18,410
+four times twenty-eight minus three,
+
+321
+00:16:18,410 --> 00:16:21,930
+so that's four times twenty-five over three,
+
+322
+00:16:21,930 --> 00:16:25,240
+which is equal to one hundred over three, that's h squared,
+
+323
+00:16:25,240 --> 00:16:28,550
+so this h is going to be equal to the square root of this,
+
+324
+00:16:28,550 --> 00:16:31,780
+which is ten over the square root of three.
+
+325
+00:16:31,780 --> 00:16:34,210
+This is ten over the square root of three,
+
+326
+00:16:34,210 --> 00:16:38,280
+so this distance right over here is ten over the square root of three.
+
+327
+00:16:38,280 --> 00:16:41,070
+So we want the area of this parallelogram is going to be
+
+328
+00:16:41,070 --> 00:16:43,530
+that height times the base of the parallelogram,
+
+329
+00:16:43,530 --> 00:16:45,710
+so the area of parallelogram is going to be
+
+330
+00:16:45,710 --> 00:16:48,680
+eight times ten square root of three, or eighty -
+
+331
+00:16:48,680 --> 00:16:51,080
+eighty square roots of three.
+
+332
+00:16:51,080 --> 00:16:53,860
+Eighty, oh no, let me be very careful.
+
+333
+00:16:53,860 --> 00:16:55,520
+Let me be very careful.
+
+334
+00:16:55,520 --> 00:16:57,290
+This was ten over -
+
+335
+00:16:57,290 --> 00:17:00,360
+this is ten over the square root of three is this height.
+
+336
+00:17:00,360 --> 00:17:01,720
+So the whole area this parallelogram is
+
+337
+00:17:01,720 --> 00:17:03,540
+eight times ten over the square root of three
+
+338
+00:17:03,540 --> 00:17:06,130
+so it's eighty over the square root of three.
+
+339
+00:17:06,810 --> 00:17:10,930
+So the entire area now, if we add everything together,
+
+340
+00:17:10,930 --> 00:17:12,530
+If we add everything together
+
+341
+00:17:12,530 --> 00:17:16,070
+we have sixty-four square root of three for these four triangles
+
+342
+00:17:16,070 --> 00:17:19,550
+plus eighty over square root of three, so let's add it together.
+
+343
+00:17:19,550 --> 00:17:23,390
+So we have eighty over square root of three for the parallelogram
+
+344
+00:17:23,390 --> 00:17:27,530
+plus the sixty-four over square root of three for the triangle parts,
+
+345
+00:17:27,530 --> 00:17:30,200
+and this is equal to one hundred forty-four
+
+346
+00:17:30,200 --> 00:17:32,090
+over the square root of three,
+
+347
+00:17:32,090 --> 00:17:33,680
+we can rationalize the denominator,
+
+348
+00:17:33,680 --> 00:17:38,470
+so times the square root of three over the square root of three,
+
+349
+00:17:38,470 --> 00:17:42,030
+and in the denominator now we're going to get a
+
+350
+00:17:42,030 --> 00:17:45,680
+three one forty-four over three is going to be,
+
+351
+00:17:45,680 --> 00:17:48,600
+what, that's forty-eight, right?
+
+352
+00:17:48,600 --> 00:17:50,050
+three times forty's a hundred twenty,
+
+353
+00:17:50,050 --> 00:17:51,340
+three times eight's twenty-four
+
+354
+00:17:51,340 --> 00:17:56,320
+so it's going to be forty-eight square roots of three
+
+355
+00:17:56,320 --> 00:18:00,110
+for the area of our entire our entire hexagon
+
+356
+00:18:00,110 --> 00:18:03,700
+and so we have in the form forty eight square roots of three,
+
+357
+00:18:03,700 --> 00:18:05,160
+so if you want to find m plus n,
+
+358
+00:18:05,160 --> 00:18:09,820
+it's forty-eight plus three which is fifty-one.
+
+359
+00:18:09,820 --> 00:18:12,740
+That was a tiring problem I just find my brain started to
+
+360
+00:18:12,740 --> 00:18:14,990
+fry near the end of that I had trouble keeping track of things,
+
+361
+00:18:14,990 --> 00:18:16,330
+anyway, hopefully you enjoyed that.

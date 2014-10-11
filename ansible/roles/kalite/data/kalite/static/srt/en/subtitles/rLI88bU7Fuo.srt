@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:01,150
+All right
+
+2
+00:00:01,150 --> 00:00:02,030
+I re-read the question
+
+3
+00:00:02,030 --> 00:00:04,390
+and now I realize the error in my logic
+
+4
+00:00:04,390 --> 00:00:06,210
+I misread the question
+
+5
+00:00:06,210 --> 00:00:09,510
+I had misread it and I said, oh, there are 60 siblings
+
+6
+00:00:09,510 --> 00:00:15,570
+No, there are 60 sibling pairs
+
+7
+00:00:15,570 --> 00:00:20,220
+So that means in each class there-- so 60 siblings pairs
+
+8
+00:00:20,220 --> 00:00:21,910
+that means there are 120 siblings
+
+9
+00:00:21,910 --> 00:00:24,030
+But that tells us that in each class there aren't 30
+
+10
+00:00:24,030 --> 00:00:27,610
+there are 60 members of a sibling group, right?
+
+11
+00:00:27,610 --> 00:00:30,330
+So let's go back through our logic again
+
+12
+00:00:30,330 --> 00:00:33,360
+Let's say I pick someone from the junior class first
+
+13
+00:00:33,360 --> 00:00:35,140
+What is the probability that I even pick someone
+
+14
+00:00:35,140 --> 00:00:36,500
+from a sibling pair?
+
+15
+00:00:36,500 --> 00:00:43,300
+That's going to be 60/1,000,which is the same thing as 6/100
+
+16
+00:00:43,300 --> 00:00:46,630
+which is the same thing as 3/50, right?
+
+17
+00:00:46,630 --> 00:00:47,830
+Fair enough.
+
+18
+00:00:47,830 --> 00:00:49,280
+So there's a 3 in 50 chance that
+
+19
+00:00:49,280 --> 00:00:51,470
+I pick someone who's a member of a sibling pair
+
+20
+00:00:51,470 --> 00:00:54,270
+Now, in order for me to have a complete sibling pair
+
+21
+00:00:54,270 --> 00:00:56,300
+when I go to the senior class and pick someone
+
+22
+00:00:56,300 --> 00:00:59,260
+I have to pick this junior sibling
+
+23
+00:00:59,260 --> 00:01:03,040
+and that junior only has 1 sibling in the senior class
+
+24
+00:01:03,040 --> 00:01:05,920
+So there's only a 1 in 800 chance that I pick their sibling
+
+25
+00:01:05,920 --> 00:01:06,860
+It doesn't matter that--
+
+26
+00:01:06,860 --> 00:01:09,710
+the other 59 siblings in that are useless
+
+27
+00:01:09,710 --> 00:01:11,090
+because they're not this guy's sibling
+
+28
+00:01:11,090 --> 00:01:13,840
+So I have a 1 in 800 chance of doing that
+
+29
+00:01:13,840 --> 00:01:18,080
+You multiply them, you get 3/40,000
+
+30
+00:01:18,080 --> 00:01:20,310
+And that's choice A
+
+31
+00:01:20,310 --> 00:01:22,010
+If you don't see your choice
+
+32
+00:01:22,010 --> 00:01:24,680
+make sure to read the question again
+
+33
+00:01:24,680 --> 00:01:28,770
+Almost out of space so let me clear all of this
+
+34
+00:01:28,770 --> 00:01:30,960
+Let me clear all of that
+
+35
+00:01:30,960 --> 00:01:37,980
+And we're on problem 218
+
+36
+00:01:37,980 --> 00:01:41,470
+Which of the following cannot be the median of the three
+
+37
+00:01:41,470 --> 00:01:45,440
+positive integers x, y, and z?
+
+38
+00:01:45,440 --> 00:01:48,250
+So the median, the middle number
+
+39
+00:01:48,250 --> 00:01:50,620
+They say A is x
+
+40
+00:01:50,620 --> 00:01:51,380
+Well, no, that's not true
+
+41
+00:01:51,380 --> 00:01:53,520
+What if this was the order? x y, z
+
+42
+00:01:53,520 --> 00:01:55,740
+then x would be the median
+
+43
+00:01:55,740 --> 00:01:56,970
+So it's not A
+
+44
+00:01:56,970 --> 00:01:58,070
+B, z
+
+45
+00:01:58,070 --> 00:01:59,770
+No reason why z can't be the median
+
+46
+00:01:59,770 --> 00:02:01,900
+The order can be y, z, x
+
+47
+00:02:01,900 --> 00:02:02,980
+It's not B
+
+48
+00:02:02,980 --> 00:02:08,820
+C, x plus z
+
+49
+00:02:08,820 --> 00:02:15,990
+Well, let's see, could x plus z be the median?
+
+50
+00:02:15,990 --> 00:02:19,620
+x plus z, could that be the median?
+
+51
+00:02:19,620 --> 00:02:20,850
+Let me think about it
+
+52
+00:02:20,850 --> 00:02:30,380
+If we have x, z, and y, I mean
+
+53
+00:02:30,380 --> 00:02:33,470
+by definition one of these numbers has to be the median
+
+54
+00:02:33,470 --> 00:02:34,550
+We have three numbers
+
+55
+00:02:34,550 --> 00:02:36,110
+one of them has to be the middle number
+
+56
+00:02:36,110 --> 00:02:39,270
+Under what circumstances-- because x plus--
+
+57
+00:02:39,270 --> 00:02:41,650
+I mean, if x plus z is the median
+
+58
+00:02:41,650 --> 00:02:47,430
+that implies that neither x nor z is the median, right?
+
+59
+00:02:47,430 --> 00:02:49,020
+Do they tell us that those are-- right
+
+60
+00:02:49,020 --> 00:02:49,820
+they're positive integers
+
+61
+00:02:49,820 --> 00:02:51,440
+None of these are zero
+
+62
+00:02:51,440 --> 00:02:54,000
+So in order for x plus z to be the median
+
+63
+00:02:54,000 --> 00:02:58,440
+that tells us that neither x nor z is the median, right?
+
+64
+00:02:58,440 --> 00:03:00,870
+And if neither x nor z is the median
+
+65
+00:03:00,870 --> 00:03:02,660
+then y has to be the median
+
+66
+00:03:02,660 --> 00:03:07,610
+And then that tells us that x plus z has to be equal to y
+
+67
+00:03:07,610 --> 00:03:12,340
+But if y is the median, the order is this: x, y, z
+
+68
+00:03:12,340 --> 00:03:15,740
+And there's no way that I can add x and z and get a smaller
+
+69
+00:03:15,740 --> 00:03:16,630
+number than z
+
+70
+00:03:16,630 --> 00:03:19,530
+because all of these numbers are positive, right?
+
+71
+00:03:19,530 --> 00:03:21,230
+Yeah, they said three positive integers
+
+72
+00:03:21,230 --> 00:03:22,550
+So I go with choice C
+
+73
+00:03:22,550 --> 00:03:23,650
+That cannot happen
+
+74
+00:03:23,650 --> 00:03:28,240
+The median cannot be x plus z
+
+75
+00:03:28,240 --> 00:03:32,660
+Problem 219
+
+76
+00:03:32,660 --> 00:03:37,590
+What is the 25th digit to the right of the decimal point
+
+77
+00:03:37,590 --> 00:03:41,070
+in the decimal form of 6/11?
+
+78
+00:03:41,070 --> 00:03:43,440
+And whenever they ask you for something ridiculous
+
+79
+00:03:43,440 --> 00:03:45,710
+there must be some type of pattern we can exploit to
+
+80
+00:03:45,710 --> 00:03:47,520
+figure out what the 25th digit is
+
+81
+00:03:47,520 --> 00:03:49,780
+Let's just start dividing
+
+82
+00:03:49,780 --> 00:03:52,480
+11 goes into 6
+
+83
+00:03:52,480 --> 00:03:55,550
+so we're going to have to have some decimals there
+
+84
+00:03:55,550 --> 00:03:58,010
+11 goes into 60 five times
+
+85
+00:03:58,010 --> 00:04:02,790
+5 times 11 is 55, and remainder 5
+
+86
+00:04:02,790 --> 00:04:05,120
+And you're going to 50, you get a 4
+
+87
+00:04:05,120 --> 00:04:09,030
+4 times-- I already see the pattern-- 44
+
+88
+00:04:09,030 --> 00:04:10,180
+Oh no, never mind
+
+89
+00:04:10,180 --> 00:04:11,440
+Wait, let me make sure that's right
+
+90
+00:04:11,440 --> 00:04:16,500
+55, you get 50 remainder, 11 goes into 50 four times
+
+91
+00:04:16,500 --> 00:04:17,270
+You get 40
+
+92
+00:04:17,270 --> 00:04:19,470
+So then you get 60
+
+93
+00:04:19,470 --> 00:04:22,080
+11 goes into 60 five times
+
+94
+00:04:22,080 --> 00:04:24,430
+and you repeat so on and so forth
+
+95
+00:04:24,430 --> 00:04:26,690
+I just want to make sure
+
+96
+00:04:26,690 --> 00:04:29,120
+Let's see, the first digit to the right is 25
+
+97
+00:04:29,120 --> 00:04:31,050
+The second digit to the right is 4
+
+98
+00:04:31,050 --> 00:04:33,740
+The third digit to the right is 5
+
+99
+00:04:33,740 --> 00:04:35,370
+And so, you know, we could keep going
+
+100
+00:04:35,370 --> 00:04:37,000
+The fourth digit to the right is 4
+
+101
+00:04:37,000 --> 00:04:40,430
+So every odd digit to the right of this is what?
+
+102
+00:04:40,430 --> 00:04:41,610
+It's 5
+
+103
+00:04:41,610 --> 00:04:44,630
+So they want to know the 25th digit to the right
+
+104
+00:04:44,630 --> 00:04:46,230
+and that's an odd number, 25
+
+105
+00:04:46,230 --> 00:04:48,100
+So it has to be 5 as well
+
+106
+00:04:48,100 --> 00:04:50,260
+So that's choice C
+
+107
+00:04:50,260 --> 00:04:54,990
+Next question
+
+108
+00:04:54,990 --> 00:04:56,640
+Oh, I thought I had to erase that
+
+109
+00:04:56,640 --> 00:05:03,700
+OK, question 220
+
+110
+00:05:03,700 --> 00:05:06,870
+John and Mary were each paid x dollars in advance
+
+111
+00:05:06,870 --> 00:05:08,400
+to do a certain job together
+
+112
+00:05:08,400 --> 00:05:09,650
+Fair enough
+
+113
+00:05:09,650 --> 00:05:13,980
+John worked on the job for 10 hours,so John worked 10 hours
+
+114
+00:05:13,980 --> 00:05:16,730
+and Mary worked 2 hours less than John
+
+115
+00:05:16,730 --> 00:05:19,640
+So Mary worked 8 hours, right?
+
+116
+00:05:19,640 --> 00:05:20,990
+John worked on the job for 10 hours
+
+117
+00:05:20,990 --> 00:05:22,310
+and Mary worked for 2 hours less than John
+
+118
+00:05:22,310 --> 00:05:23,010
+so she worked 8 hours
+
+119
+00:05:23,010 --> 00:05:26,580
+If Mary gave y dollars of her payment
+
+120
+00:05:26,580 --> 00:05:30,410
+so that they would have received the same hourly wage
+
+121
+00:05:30,410 --> 00:05:32,220
+what was the dollar
+
+122
+00:05:32,220 --> 00:05:37,060
+amount in terms of y that John was paid in advance?
+
+123
+00:05:37,060 --> 00:05:41,690
+OK, John and Mary were each paid x dollars in advance to
+
+124
+00:05:41,690 --> 00:05:44,470
+do a certain job together
+
+125
+00:05:44,470 --> 00:05:48,720
+OK, so how much money did they-- so John got x dollars
+
+126
+00:05:48,720 --> 00:05:50,570
+and Mary got x dollars
+
+127
+00:05:50,570 --> 00:05:52,210
+They both got x dollars, right?
+
+128
+00:05:52,210 --> 00:05:54,150
+So if you think about it
+
+129
+00:05:54,150 --> 00:05:57,760
+let's ignore who did what, right?
+
+130
+00:05:57,760 --> 00:05:59,500
+We had how many total hours of labor?
+
+131
+00:05:59,500 --> 00:06:04,460
+We had 18 hours of labor
+
+132
+00:06:04,460 --> 00:06:06,540
+and they were paid how many dollars?
+
+133
+00:06:06,540 --> 00:06:18,510
+They were paid 2x dollars for 18 hours of labor
+
+134
+00:06:18,510 --> 00:06:23,070
+So the average wage should be--
+
+135
+00:06:23,070 --> 00:06:25,150
+you could kind of do it the fair--
+
+136
+00:06:25,150 --> 00:06:26,970
+you know, per hourly 0wage should be--
+
+137
+00:06:26,970 --> 00:06:31,410
+let's see, we could divide by 9,you get a 1 and you get a 9
+
+138
+00:06:31,410 --> 00:06:47,290
+You get x/9 dollars per hour
+
+139
+00:06:47,290 --> 00:06:48,200
+That's the fair way
+
+140
+00:06:48,200 --> 00:06:49,060
+So let me re-read the question
+
+141
+00:06:49,060 --> 00:06:51,400
+If Mary gave John y dollars of her payment
+
+142
+00:06:51,400 --> 00:06:54,320
+so that they would have had the same hourly wage
+
+143
+00:06:54,320 --> 00:06:55,500
+what was the dollar amount
+
+144
+00:06:55,500 --> 00:06:59,250
+in terms of y that John was paid in advance?
+
+145
+00:06:59,250 --> 00:07:01,470
+Actually, let's think of it this way
+
+146
+00:07:01,470 --> 00:07:04,330
+So Mary pays John-- let me ignore this
+
+147
+00:07:04,330 --> 00:07:06,450
+I just thought of a better way of doing it
+
+148
+00:07:06,450 --> 00:07:10,220
+So they were each paid x hours in advance to do a certain job
+
+149
+00:07:10,220 --> 00:07:11,910
+John worked on the job for 10 hours
+
+150
+00:07:11,910 --> 00:07:13,930
+and Mary worked 2 hours less than John
+
+151
+00:07:13,930 --> 00:07:17,040
+If Mary paid John y dollars of her payment
+
+152
+00:07:17,040 --> 00:07:19,550
+so that they would have received the same hourly wage--
+
+153
+00:07:19,550 --> 00:07:22,000
+so after Mary pays John y
+
+154
+00:07:22,000 --> 00:07:25,430
+what-- so that means John got a total of y dollars
+
+155
+00:07:25,430 --> 00:07:29,880
+and Mary has paid y dollars
+
+156
+00:07:29,880 --> 00:07:35,290
+So now John has x plus y, and Mary has x minus y dollars
+
+157
+00:07:35,290 --> 00:07:37,460
+And so, if Mary paid of her payment
+
+158
+00:07:37,460 --> 00:07:40,390
+so that they would receive the same hourly wage
+
+159
+00:07:40,390 --> 00:07:41,950
+what was the dollar amount
+
+160
+00:07:41,950 --> 00:07:48,730
+in terms of y that John was paid in advance?
+
+161
+00:07:48,730 --> 00:07:51,100
+So let me think about this a little bit
+
+162
+00:07:51,100 --> 00:07:55,810
+So they got the same-- they received the same hourly wage
+
+163
+00:07:55,810 --> 00:08:03,670
+So Mary should have 8/10 the money of John, right?
+
+164
+00:08:03,670 --> 00:08:13,450
+So x minus y should be equal to 0.8 times x plus y
+
+165
+00:08:13,450 --> 00:08:15,390
+Am I thinking about that right
+
+166
+00:08:15,390 --> 00:08:17,180
+or is there an easier way to think about it?
+
+167
+00:08:17,180 --> 00:08:18,950
+Well, let's think about it this way
+
+168
+00:08:18,950 --> 00:08:21,340
+John worked 2 hours more than Mary, right?
+
+169
+00:08:21,340 --> 00:08:31,680
+So Mary, essentially, if she pays him for 1 hour-- no
+
+170
+00:08:31,680 --> 00:08:34,720
+yeah, this is the right thing. x minus y is equal to 0.8
+
+171
+00:08:34,720 --> 00:08:38,300
+times x plus y, but I'm going to still end up with an x here
+
+172
+00:08:38,300 --> 00:08:49,360
+So you get x minus y is equal to 0.8x plus 0.8y, right?
+
+173
+00:08:49,360 --> 00:08:50,880
+And all the logic here I just said is--
+
+174
+00:08:50,880 --> 00:08:52,640
+well, Mary's total money
+
+175
+00:08:52,640 --> 00:08:53,950
+if we're going to be fair
+
+176
+00:08:53,950 --> 00:08:56,180
+should be 0.8 of John's total money
+
+177
+00:08:56,180 --> 00:08:58,820
+because she worked 0.8 as much hours
+
+178
+00:08:58,820 --> 00:09:00,290
+And so, let's see
+
+179
+00:09:00,290 --> 00:09:03,000
+Oh, actually,they want to know what John was paid in advance
+
+180
+00:09:03,000 --> 00:09:03,640
+so that's x
+
+181
+00:09:03,640 --> 00:09:05,190
+So actually, OK, we're fine
+
+182
+00:09:05,190 --> 00:09:07,020
+So they just want to know what x is in terms of y
+
+183
+00:09:07,020 --> 00:09:07,910
+So we're cool
+
+184
+00:09:07,910 --> 00:09:10,550
+So let's subtract 0.8x from both sides
+
+185
+00:09:10,550 --> 00:09:17,470
+So you get 0.2x minus y is equal to 0.8y
+
+186
+00:09:17,470 --> 00:09:19,540
+And then add y to both sides
+
+187
+00:09:19,540 --> 00:09:25,170
+You get 0.2x is equal to 1.8y
+
+188
+00:09:25,170 --> 00:09:28,410
+And then multiply both sides by 5
+
+189
+00:09:28,410 --> 00:09:31,350
+you get x is equal to-- what is that?
+
+190
+00:09:31,350 --> 00:09:34,290
+5 times 18 is 50 plus 40
+
+191
+00:09:34,290 --> 00:09:37,540
+Add a decimal point is 90 is equal to 9y
+
+192
+00:09:37,540 --> 00:09:39,350
+And that is choice E
+
+193
+00:09:39,350 --> 00:09:40,760
+I got a little confused with the wording of it
+
+194
+00:09:40,760 --> 00:09:43,320
+when they say what was the dollar amount in terms of y
+
+195
+00:09:43,320 --> 00:09:44,700
+that John was paid in advance?
+
+196
+00:09:44,700 --> 00:09:46,900
+They should've said what was x?
+
+197
+00:09:46,900 --> 00:09:48,100
+And that would've been a little bit easier
+
+198
+00:09:48,100 --> 00:09:49,580
+Anyway, I'm all out of time
+
+199
+00:09:49,580 --> 00:09:51,710
+Sorry for bumbling through that problem
+
+200
+00:09:51,710 --> 00:09:53,020
+See you in the next video

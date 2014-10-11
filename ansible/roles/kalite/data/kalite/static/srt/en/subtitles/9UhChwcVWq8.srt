@@ -1,0 +1,343 @@
+1
+00:00:00,400 --> 00:00:06,133
+let r be the region of the first quadrant enclosed by the graphs of f of x is equal to 8 x to the third,
+
+2
+00:00:06,133 --> 00:00:11,333
+and g of x is equal to sine of pi x as shown in the figure above, and they drew the figure right over
+
+3
+00:00:11,333 --> 00:00:17,133
+here. Part A: Write the equation for the line tangent to the graph of f if x is equal to 1/2. So let
+
+4
+00:00:17,133 --> 00:00:21,293
+me just redraw it here, just so that, I like drawing on a black background, I guess that's the main reason im
+
+5
+00:00:21,293 --> 00:00:29,304
+why I'm redrawing it, so the function f of x is 8, is equal to 8 x to the third, looks like this, it looks
+
+6
+00:00:29,304 --> 00:00:37,000
+like that, this is our f of x axis this is our x axis, and we want an equation for the line tangent at
+
+7
+00:00:37,000 --> 00:00:46,067
+x is equal to 1/2, so this is x is equal to 1/2, go up here, if you evaluate f of 1/2, you get you f-you
+
+8
+00:00:46,067 --> 00:00:50,712
+get 8 times 1/2 to the third, which is 8 times one-eighths, which is 1, they actually gave us
+
+9
+00:00:50,712 --> 00:00:57,667
+that already on this point, which is 1/2, comma 1, and we need to find the equation for the tangent line.
+
+10
+00:00:57,983 --> 00:00:58,483
+The tangent line will look something like that, and to figure out its equation, we just really figure
+
+11
+00:00:58,483 --> 00:00:59,061
+out its slope, and then we know a point that its on, and we can either use point-slope, or you can just
+
+12
+00:00:59,061 --> 00:01:14,165
+use your kind of standard slope intercept form to give an equation for that line. So the first part,
+
+13
+00:01:14,165 --> 00:01:18,739
+lets figure out its slope, and the slope of the tangent line is going to be the same slope as the slope
+
+14
+00:01:18,739 --> 00:01:25,867
+of our function at that point, or another way to think about it, it is going to be f prime, f prime of
+
+15
+00:01:25,867 --> 00:01:33,067
+1/2, or the derivative evaluate at 1/2. The derivate gives us the slope of that line at any point, so
+
+16
+00:01:33,067 --> 00:01:41,425
+what is f prime of x? F prime of x is just the derivative of this, so 3 times 8 is 24, times x squared,
+
+17
+00:01:41,425 --> 00:01:53,533
+24 x squared, f prime of 1/2 is equal to 24 times 1/2 squared, which is equal 24 times 1/4, which is
+
+18
+00:01:53,533 --> 00:02:01,162
+equal to 6. So the slope of this line is equal to 6, I'll use m for slope which will be, we mentioned
+
+19
+00:02:01,162 --> 00:02:07,152
+that we would be using algebra, we first learned it in algebra, so the slope is going to be 6, so the
+
+20
+00:02:07,152 --> 00:02:14,933
+general equation of this line is y is equal to mx plus b, this is the slope, this is the y-intercept,
+
+21
+00:02:14,933 --> 00:02:20,400
+we already know that the slope is 6, and then we can use the fact that the line goes through the point
+
+22
+00:02:20,400 --> 00:02:30,133
+1/2, 1 to figure out what b is, so when y is 1, 1 is equal to our slope times x, x is 1/2, or another way
+
+23
+00:02:30,133 --> 00:02:37,067
+to say it, when x is 1/2, y is 1 plus some, plus some y-intercept, or if I take x is 1/2, I multiply
+
+24
+00:02:37,067 --> 00:02:44,235
+it by the slope, plus the y-intercept, I should get 1. So I get 1 is equal to 3 plus b, I can subtract
+
+25
+00:02:44,235 --> 00:02:51,533
+3 from both sides, and I get negative 2 is equal to b. So the equation of the line is going to be y is
+
+26
+00:02:51,533 --> 00:03:03,229
+equal to 6 x minus 2. That is the equation of the tangent line. Now part B: Find the area of r. So r
+
+27
+00:03:03,229 --> 00:03:09,893
+is this region right over here, is this region right over here, it's bounded on-above by g of x, which
+
+28
+00:03:09,893 --> 00:03:19,158
+is the sine of pi x, it's bounded below, it's bounded below by f of x, or 8 x to the third. So the area,
+
+29
+00:03:19,158 --> 00:03:25,933
+the area is going to be, so I'll just scroll down a litle bit, I still want to be able to see this graph
+
+30
+00:03:25,933 --> 00:03:38,467
+over here. Part b, part b. The area of r is going to be equal to the integral, from 0, from 0, that's
+
+31
+00:03:38,467 --> 00:03:47,800
+this point of intersection right over here, to 1/2, so I'll make it here, this is 0 to 1/2, 0 to 1/2,
+
+32
+00:03:47,800 --> 00:03:53,662
+and then the function on the top, so we could just take the area of that, but we'll have to subtract
+
+33
+00:03:53,662 --> 00:04:00,141
+from that the area underneath the function below, or one way to think about it, the integral from 0 to
+
+34
+00:04:00,141 --> 00:04:09,800
+1/2 of the top function is g of x, which is sine of pi x, so the sine of pi x, the sine of pi x, but
+
+35
+00:04:09,800 --> 00:04:16,906
+if we just evaluated this integral, let me just put a d x over here, if we just evaluted this we would
+
+36
+00:04:16,906 --> 00:04:23,570
+get the entire area of this entire region, but what we need to do is subtract out the area underneath
+
+37
+00:04:23,570 --> 00:04:30,814
+the second, underneath f of x, let me just subtract the area under that, so we just subtract from that
+
+38
+00:04:30,814 --> 00:04:39,733
+f of x, and f of x we already saw is 8 x to the third, is 8 x to the third power. And now we can just
+
+39
+00:04:39,733 --> 00:04:45,533
+evaluate this, so let me draw a little line here, it's getting a little messy, it's getting a little bit messy,
+
+40
+00:04:45,533 --> 00:04:51,867
+I'll just do it down here, so we need to take the anti-derivative of sine of pi x. Well, the derivative
+
+41
+00:04:51,867 --> 00:05:00,652
+of, the derivative of cosine of x is negative sine x, the derivative of cosine of pi x is negative pi
+
+42
+00:05:00,652 --> 00:05:08,600
+cosine of pi x, so the derivate- the anti-derivative of sine of pi x is going to be negative 1 over pi
+
+43
+00:05:08,600 --> 00:05:16,200
+cosine, cosine of pi x. And you can verify it for yourself, and you might say, "How do you know it was
+
+44
+00:05:16,200 --> 00:05:20,400
+a negative?" Well, I put the negative there, so that when I take the derivative of the cosine of pi x,
+
+45
+00:05:20,400 --> 00:05:25,867
+I would get a negative sign, but that negative will cancel out the negative to get a postive here, and
+
+46
+00:05:25,867 --> 00:05:29,770
+you say, "Why did you put a one over pi here?" Well, when you take the derivative of this this, using
+
+47
+00:05:29,770 --> 00:05:35,273
+the chain rule, you take the derivative of the pi x, you'll get pi, and you would multiply everything
+
+48
+00:05:35,273 --> 00:05:41,101
+by, and then you would get negative sine of pi x, and that pi doesn't show up here, so I need something
+
+49
+00:05:41,101 --> 00:05:46,467
+for it to cancel out with, and that's what this one over-one over pi is going to cancel out with. And
+
+50
+00:05:46,467 --> 00:05:51,200
+you can do u substitution, and all the rest, if, if, if you found that, if you found something like that
+
+51
+00:05:51,200 --> 00:05:58,867
+useful, but it's in general a good habit, or I guess it's a good-it's good to be able to do this almost,
+
+52
+00:05:58,867 --> 00:06:01,667
+almost by sight, so...
+
+53
+00:06:01,667 --> 00:06:04,467
+and you can verify that this derivative is equal to sine of pi x
+
+54
+00:06:04,467 --> 00:06:06,806
+so the anti-derivative of sine of pi x is this,
+
+55
+00:06:06,806 --> 00:06:12,933
+the anti-derivative of negative 8x to the 3rd power is negative 8
+
+56
+00:06:12,933 --> 00:06:17,333
+I'm going to divide it by 4, so negative 2x to the 4th power
+
+57
+00:06:17,333 --> 00:06:21,333
+and I just, all I did is I incremented the 3 to a 4
+
+58
+00:06:21,333 --> 00:06:23,867
+and then I divided the 8 by the 4
+
+59
+00:06:23,867 --> 00:06:25,333
+and you can take the derivative of this
+
+60
+00:06:25,333 --> 00:06:29,267
+to verify that it is the same thing as negative 8x to the 3rd power
+
+61
+00:06:29,267 --> 00:06:33,400
+Now we're going to have to evaluate that from 0 to 1/2.
+
+62
+00:06:33,400 --> 00:06:38,501
+When you evaluate at 1/2...so I'm going to get...I'm going to get
+
+63
+00:06:38,501 --> 00:06:43,006
+negative 1 over pi, cosine of pi over 2
+
+64
+00:06:43,006 --> 00:06:50,831
+cosine of pi over 2 minus 2 times 1/2 to the 4th power is 1/16
+
+65
+00:06:50,831 --> 00:06:53,600
+so that's it evaluated at 1/2
+
+66
+00:06:53,600 --> 00:06:59,267
+and then from that I'm going to subtract negative 1 over pi cosine of 0
+
+67
+00:06:59,267 --> 00:07:00,800
+let me just write it out...
+
+68
+00:07:00,800 --> 00:07:09,533
+so minus negative 1 over pi, negative 1 over pi cosine of pi times 0
+
+69
+00:07:09,533 --> 00:07:15,333
+cosine of pi, let me just write, cosine of 0 pi I could write or pi times 0
+
+70
+00:07:15,333 --> 00:07:18,133
+minus 2 times 0 to the 4th
+
+71
+00:07:18,133 --> 00:07:19,670
+so that's just going to be minus 0
+
+72
+00:07:19,670 --> 00:07:20,933
+so let's evaluate this...
+
+73
+00:07:20,933 --> 00:07:26,267
+so to simplify it, we have a cosine of pi over 2
+
+74
+00:07:26,267 --> 00:07:31,200
+cosine of pi over 2, is just going to be 0. So this whole thing just becomes 0
+
+75
+00:07:31,200 --> 00:07:34,832
+and then you have a negative 2 divided by 16, that's negative 1/8
+
+76
+00:07:34,832 --> 00:07:36,467
+negative 1/8...
+
+77
+00:07:36,467 --> 00:07:40,133
+and then from that I'm going to subtract this business here
+
+78
+00:07:40,133 --> 00:07:47,673
+cosine of 0, this is 1. So this is just a negative 1 over pi, a negative 1 over pi
+
+79
+00:07:47,673 --> 00:07:49,507
+and then I have a 0 there, so I can ignore that
+
+80
+00:07:49,507 --> 00:07:55,600
+so this is equal to negative 1 over 8, plus, plus 1 over pi
+
+81
+00:07:55,600 --> 00:07:57,200
+and we are done.
+
+82
+00:07:57,200 --> 00:07:59,067
+This part of it, you're not allowed to use a calculator
+
+83
+00:07:59,067 --> 00:08:01,333
+so this is about as far as I would expect them to get
+
+84
+00:08:01,333 --> 00:08:06,600
+to, to, for, eh... about as far as I would expect them, to expect you, uh, to get
+
+85
+00:08:06,600 --> 00:08:08,000
+and so I'll leave you there
+
+86
+00:08:08,000 --> 99:59:59,999
+in the next video we will do part... we will do part C

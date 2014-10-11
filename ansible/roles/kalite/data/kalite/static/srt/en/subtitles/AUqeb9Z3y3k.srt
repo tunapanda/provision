@@ -1,0 +1,1594 @@
+1
+00:00:00,000 --> 00:00:00,540
+   
+
+2
+00:00:00,540 --> 00:00:03,470
+We've done a lot of work
+on multiplying, adding,
+
+3
+00:00:03,470 --> 00:00:05,950
+subtracting and inverting
+matrices.
+
+4
+00:00:05,950 --> 00:00:09,280
+So now let's delve a little
+into what a matrix is
+
+5
+00:00:09,280 --> 00:00:10,250
+actually good for.
+
+6
+00:00:10,250 --> 00:00:13,800
+And remember, all a matrix
+is is, a way of
+
+7
+00:00:13,800 --> 00:00:14,870
+representing data.
+
+8
+00:00:14,870 --> 00:00:17,120
+And all of those rules we
+learned, you can kind of view
+
+9
+00:00:17,120 --> 00:00:18,890
+them as human-created rules.
+
+10
+00:00:18,890 --> 00:00:23,660
+There's no fundamental thing in
+nature that says matrices
+
+11
+00:00:23,660 --> 00:00:25,490
+have to be multiplied
+the way we learned.
+
+12
+00:00:25,490 --> 00:00:29,240
+But I think you'll see as we
+progress into applications,
+
+13
+00:00:29,240 --> 00:00:32,220
+that the way that matrix
+operations have been defined
+
+14
+00:00:32,220 --> 00:00:34,020
+are actually quite useful.
+
+15
+00:00:34,020 --> 00:00:37,230
+So let's go back to our Algebra
+1 or Algebra 2.
+
+16
+00:00:37,230 --> 00:00:38,920
+I forget when you tend
+to learn it.
+
+17
+00:00:38,920 --> 00:00:41,060
+But let's go back to
+linear equations.
+
+18
+00:00:41,060 --> 00:00:42,680
+So what were linear equations?
+
+19
+00:00:42,680 --> 00:00:43,830
+Systems of linear equations.
+
+20
+00:00:43,830 --> 00:00:46,610
+Well you had two lines, and you
+essentially had to figure
+
+21
+00:00:46,610 --> 00:00:48,370
+out where the two lines
+intersected.
+
+22
+00:00:48,370 --> 00:00:50,630
+So you might have had something
+like-- let me think
+
+23
+00:00:50,630 --> 00:00:58,955
+of something-- 3x plus 2y.
+
+24
+00:00:58,955 --> 00:01:03,560
+   
+
+25
+00:01:03,560 --> 00:01:07,130
+Is equal to 7.
+
+26
+00:01:07,130 --> 00:01:20,730
+And then you might have, minus
+6x plus 6y is equal to-- I
+
+27
+00:01:20,730 --> 00:01:22,740
+need to do this in my head just
+to make sure that I get
+
+28
+00:01:22,740 --> 00:01:27,230
+numbers that work out
+well-- equal to 6.
+
+29
+00:01:27,230 --> 00:01:28,760
+I think this will
+work out well.
+
+30
+00:01:28,760 --> 00:01:31,060
+And what was this problem
+essentially?
+
+31
+00:01:31,060 --> 00:01:32,870
+Well this is a line,
+and this is a line.
+
+32
+00:01:32,870 --> 00:01:34,870
+So you had to figure out
+where they intersected.
+
+33
+00:01:34,870 --> 00:01:38,890
+And if you were to draw
+those two lines--
+
+34
+00:01:38,890 --> 00:01:39,920
+Actually let's draw them.
+
+35
+00:01:39,920 --> 00:01:42,740
+Just because this is all about
+getting intuition, and seeing
+
+36
+00:01:42,740 --> 00:01:45,530
+how it maps over into
+the matrix world.
+
+37
+00:01:45,530 --> 00:01:49,590
+   
+
+38
+00:01:49,590 --> 00:01:52,160
+And the word 'matrix world'
+has a whole new
+
+39
+00:01:52,160 --> 00:01:54,730
+meaning after 1999.
+
+40
+00:01:54,730 --> 00:02:01,730
+Let's see, so if that's my
+coordinate axes, what is this?
+
+41
+00:02:01,730 --> 00:02:03,750
+I always have to put everything
+into y equals mx
+
+42
+00:02:03,750 --> 00:02:08,759
+plus b form for me to-- So
+this equation is what?
+
+43
+00:02:08,759 --> 00:02:18,240
+It's y is equal to
+3/2 x plus 7/2.
+
+44
+00:02:18,240 --> 00:02:19,680
+So 7/2 is what?
+
+45
+00:02:19,680 --> 00:02:21,700
+It's like 3 1/2 or something?
+
+46
+00:02:21,700 --> 00:02:26,150
+So if that's 7/2, that's going
+to have a slope of 3 1/2.
+
+47
+00:02:26,150 --> 00:02:28,580
+So it's a little bit steeper
+than a slope of 1.
+
+48
+00:02:28,580 --> 00:02:31,050
+So it's going to look
+something like that.
+
+49
+00:02:31,050 --> 00:02:32,300
+That's that line.
+
+50
+00:02:32,300 --> 00:02:36,480
+   
+
+51
+00:02:36,480 --> 00:02:39,800
+And then this line is going
+to look like what?
+
+52
+00:02:39,800 --> 00:02:41,380
+I'll do a different color.
+
+53
+00:02:41,380 --> 00:02:46,230
+It's going to look like-- It's
+the same thing is as--
+
+54
+00:02:46,230 --> 00:02:46,660
+Oh, you know what?
+
+55
+00:02:46,660 --> 00:02:47,910
+I did that wrong.
+
+56
+00:02:47,910 --> 00:02:54,900
+   
+
+57
+00:02:54,900 --> 00:02:57,480
+Because that line, I just
+realized, is equal to
+
+58
+00:02:57,480 --> 00:03:00,710
+minus 3x plus 7/2.
+
+59
+00:03:00,710 --> 00:03:02,470
+Because when you take this to
+the other side, it becomes
+
+60
+00:03:02,470 --> 00:03:04,470
+minus 3x divided by 2, so
+it's actually going
+
+61
+00:03:04,470 --> 00:03:06,550
+to be downward sloping.
+
+62
+00:03:06,550 --> 00:03:09,450
+So it will look something
+like this.
+
+63
+00:03:09,450 --> 00:03:11,820
+It's going to be a little bit
+steeper than something that
+
+64
+00:03:11,820 --> 00:03:16,220
+has a slope of negative 1, so
+I'm just approximating.
+
+65
+00:03:16,220 --> 00:03:18,820
+So that line will look
+something like that.
+
+66
+00:03:18,820 --> 00:03:26,940
+And this line, this will be y--
+I'm just rewriting this--
+
+67
+00:03:26,940 --> 00:03:32,590
+y is equal to x plus
+1, if I'm right.
+
+68
+00:03:32,590 --> 00:03:32,890
+Yeah.
+
+69
+00:03:32,890 --> 00:03:34,120
+Because this go to
+the other side.
+
+70
+00:03:34,120 --> 00:03:36,410
+Divide everything by 6.
+
+71
+00:03:36,410 --> 00:03:41,510
+y is equal to x plus 1, so its
+y intercept will be-- We said
+
+72
+00:03:41,510 --> 00:03:45,240
+this was 3 and 1/2, so
+maybe if this is 1.
+
+73
+00:03:45,240 --> 00:03:48,360
+And it has a slope of 1.
+
+74
+00:03:48,360 --> 00:03:50,080
+Then it'll just look like
+something like this.
+
+75
+00:03:50,080 --> 00:03:53,900
+   
+
+76
+00:03:53,900 --> 00:03:57,780
+And so when you solve a system
+of equations, you're
+
+77
+00:03:57,780 --> 00:04:02,900
+essentially looking for the x
+and the y values that satisfy
+
+78
+00:04:02,900 --> 00:04:06,310
+both of these equations.
+
+79
+00:04:06,310 --> 00:04:09,180
+This magenta line shows us all
+the x and y values that
+
+80
+00:04:09,180 --> 00:04:11,410
+satisfy this first
+linear equation.
+
+81
+00:04:11,410 --> 00:04:14,210
+And this green line shows all
+of the x's and y's that
+
+82
+00:04:14,210 --> 00:04:15,750
+satisfy the second equation.
+
+83
+00:04:15,750 --> 00:04:21,399
+And of course where they
+intersect shows us the
+
+84
+00:04:21,399 --> 00:04:26,060
+particular x and y that
+satisfies both equations.
+
+85
+00:04:26,060 --> 00:04:30,010
+So that's what we did
+in Algebra 1.
+
+86
+00:04:30,010 --> 00:04:33,610
+We'd solve both of these
+equations for that.
+
+87
+00:04:33,610 --> 00:04:41,650
+And we'd either do it by
+substitution, or we'd scale
+
+88
+00:04:41,650 --> 00:04:43,370
+them and add them together,
+et cetera, et cetera.
+
+89
+00:04:43,370 --> 00:04:44,970
+As you'll see, that's
+essentially just what we
+
+90
+00:04:44,970 --> 00:04:47,290
+learned in the Gauss-Jordan
+elimination.
+
+91
+00:04:47,290 --> 00:04:48,350
+It's the exact same thing.
+
+92
+00:04:48,350 --> 00:04:50,600
+It's just when we did the
+Gauss-Jordan elimination, we
+
+93
+00:04:50,600 --> 00:04:52,230
+just represented it a
+little different.
+
+94
+00:04:52,230 --> 00:04:53,600
+But I think you know
+this much.
+
+95
+00:04:53,600 --> 00:04:57,070
+But let's now do it in
+the matrix world.
+
+96
+00:04:57,070 --> 00:05:01,030
+So how can we represent this
+problem as a matrix?
+
+97
+00:05:01,030 --> 00:05:03,580
+We could write it like this,
+and we'll take out a little
+
+98
+00:05:03,580 --> 00:05:06,440
+time to prove to you that
+it really is the same
+
+99
+00:05:06,440 --> 00:05:07,120
+representation.
+
+100
+00:05:07,120 --> 00:05:09,740
+If you define matrices the way
+we have defined them in their
+
+101
+00:05:09,740 --> 00:05:10,850
+multiplication.
+
+102
+00:05:10,850 --> 00:05:23,020
+You can define this problem
+as 3, minus 6, 2, 6.
+
+103
+00:05:23,020 --> 00:05:26,390
+I just took the coefficients,
+3, minus 6, 2, 6.
+
+104
+00:05:26,390 --> 00:05:31,880
+And if I were to multiply
+that by soon. column
+
+105
+00:05:31,880 --> 00:05:35,560
+vector matrix xy.
+
+106
+00:05:35,560 --> 00:05:38,130
+   
+
+107
+00:05:38,130 --> 00:05:42,010
+And if I were to set that equal
+to another column vector
+
+108
+00:05:42,010 --> 00:05:47,520
+matrix, 7, 6.
+
+109
+00:05:47,520 --> 00:05:50,380
+   
+
+110
+00:05:50,380 --> 00:05:52,540
+Now you might want to pause it
+and actually just try to
+
+111
+00:05:52,540 --> 00:05:54,650
+multiply this out, the way
+that we have learned to
+
+112
+00:05:54,650 --> 00:05:55,720
+multiply matrices.
+
+113
+00:05:55,720 --> 00:05:57,250
+And you will see that you
+get the same thing.
+
+114
+00:05:57,250 --> 00:05:59,660
+But I will do it now,
+in case you don't
+
+115
+00:05:59,660 --> 00:06:00,740
+want to do it yourself.
+
+116
+00:06:00,740 --> 00:06:02,920
+So let's just multiply
+these two matrices.
+
+117
+00:06:02,920 --> 00:06:05,025
+Let's multiply this matrix
+out and see what happens.
+
+118
+00:06:05,025 --> 00:06:10,940
+   
+
+119
+00:06:10,940 --> 00:06:11,440
+So what do you do?
+
+120
+00:06:11,440 --> 00:06:13,610
+You get your row information
+from the first matrix, column
+
+121
+00:06:13,610 --> 00:06:17,480
+information from the
+second matrix.
+
+122
+00:06:17,480 --> 00:06:19,140
+And this is of course
+the product matrix.
+
+123
+00:06:19,140 --> 00:06:24,560
+So this is saying, 3 times x
+plus 2 times y is equal to 7.
+
+124
+00:06:24,560 --> 00:06:26,820
+Well that's exactly what
+we wrote up here.
+
+125
+00:06:26,820 --> 00:06:29,250
+3 times x plus 2 times
+y is equal to 7.
+
+126
+00:06:29,250 --> 00:06:31,760
+And similarly when you multiply
+the bottom row, you
+
+127
+00:06:31,760 --> 00:06:36,260
+get minus 6 times x plus 6
+times y is equal to 6.
+
+128
+00:06:36,260 --> 00:06:37,990
+So if that was a little
+confusing to you, go review
+
+129
+00:06:37,990 --> 00:06:39,210
+how we multiply matrices.
+
+130
+00:06:39,210 --> 00:06:42,240
+But if you just multiply this
+out, you'll get these exact
+
+131
+00:06:42,240 --> 00:06:43,500
+same equations.
+
+132
+00:06:43,500 --> 00:06:46,840
+So hopefully you understand that
+this is just another way
+
+133
+00:06:46,840 --> 00:06:48,420
+of representing this problem.
+
+134
+00:06:48,420 --> 00:06:50,580
+Although we've gotten rid
+of the plus signs
+
+135
+00:06:50,580 --> 00:06:51,490
+and the equals signs.
+
+136
+00:06:51,490 --> 00:06:53,950
+But of course you have to
+know the representation.
+
+137
+00:06:53,950 --> 00:06:55,425
+But why is this useful?
+
+138
+00:06:55,425 --> 00:06:59,000
+Why is this representation
+useful?
+
+139
+00:06:59,000 --> 00:07:02,790
+Well let's call this matrix a.
+
+140
+00:07:02,790 --> 00:07:07,250
+   
+
+141
+00:07:07,250 --> 00:07:09,350
+Let's call this vector x.
+
+142
+00:07:09,350 --> 00:07:13,190
+   
+
+143
+00:07:13,190 --> 00:07:13,950
+It's not a variable.
+
+144
+00:07:13,950 --> 00:07:14,480
+It's a vector.
+
+145
+00:07:14,480 --> 00:07:17,420
+So maybe we'll bold it, or we'll
+put a little vector sign
+
+146
+00:07:17,420 --> 00:07:17,970
+there or something.
+
+147
+00:07:17,970 --> 00:07:18,310
+Whatever.
+
+148
+00:07:18,310 --> 00:07:19,310
+But you'll see it in
+your textbook.
+
+149
+00:07:19,310 --> 00:07:20,920
+It's bolded real heavy.
+
+150
+00:07:20,920 --> 00:07:24,190
+And then we call
+this vector b.
+
+151
+00:07:24,190 --> 00:07:27,800
+And the general notation-- if
+I remember it correctly-- is
+
+152
+00:07:27,800 --> 00:07:31,540
+that anything that's a matrix
+or a vector is bolded.
+
+153
+00:07:31,540 --> 00:07:35,850
+And matrices that are not
+vectors, that have more than
+
+154
+00:07:35,850 --> 00:07:37,360
+one dimension in either
+of the dimensions,
+
+155
+00:07:37,360 --> 00:07:39,420
+they're capital letters.
+
+156
+00:07:39,420 --> 00:07:42,410
+While lower-case letters
+represent vectors.
+
+157
+00:07:42,410 --> 00:07:44,580
+So these are matrices, but
+they're also vectors.
+
+158
+00:07:44,580 --> 00:07:46,560
+So that's why they got the
+lowercase letters.
+
+159
+00:07:46,560 --> 00:07:48,420
+And that's why this one got
+the uppercase letters.
+
+160
+00:07:48,420 --> 00:07:51,690
+That's just convention.
+
+161
+00:07:51,690 --> 00:07:56,370
+So this equation has the form
+ax equals b, where a is this
+
+162
+00:07:56,370 --> 00:08:00,350
+matrix, x is this vector-- or
+this matrix, same thing-- and
+
+163
+00:08:00,350 --> 00:08:02,420
+b is this column vector.
+
+164
+00:08:02,420 --> 00:08:03,850
+So what does that do for us?
+
+165
+00:08:03,850 --> 00:08:07,470
+Well, what happens if
+we knew a inverse?
+
+166
+00:08:07,470 --> 00:08:09,020
+Well actually, let me
+take a step back.
+
+167
+00:08:09,020 --> 00:08:11,150
+If these were numbers,
+what would we do?
+
+168
+00:08:11,150 --> 00:08:17,410
+If I just gave you an algebra
+equation, ax is equal to b.
+
+169
+00:08:17,410 --> 00:08:18,920
+How do you solve that?
+
+170
+00:08:18,920 --> 00:08:23,870
+Well you would divide both sides
+of this equation by a.
+
+171
+00:08:23,870 --> 00:08:27,080
+Or another way of saying it, you
+would multiply both sides
+
+172
+00:08:27,080 --> 00:08:29,380
+of this equation by
+the inverse of a.
+
+173
+00:08:29,380 --> 00:08:35,720
+So you would essentially say,
+1/a times ax is equal
+
+174
+00:08:35,720 --> 00:08:39,789
+to 1/a times b.
+
+175
+00:08:39,789 --> 00:08:42,020
+And then these would cancel out,
+and you would get x is
+
+176
+00:08:42,020 --> 00:08:44,380
+equal to b/a.
+
+177
+00:08:44,380 --> 00:08:48,840
+That's how we would do
+it in a traditional
+
+178
+00:08:48,840 --> 00:08:50,690
+simple, linear equation.
+
+179
+00:08:50,690 --> 00:08:52,130
+So how would you do it here?
+
+180
+00:08:52,130 --> 00:08:57,170
+Well what's the matrix
+analogy to division?
+
+181
+00:08:57,170 --> 00:08:58,430
+And I'm going to give
+you the answer now.
+
+182
+00:08:58,430 --> 00:09:00,400
+What's the analogy to
+multiplying by your inverse?
+
+183
+00:09:00,400 --> 00:09:02,820
+Well, it's multiplying
+by your inverse.
+
+184
+00:09:02,820 --> 00:09:05,980
+So what if we knew the
+matrix a inverse?
+
+185
+00:09:05,980 --> 00:09:07,900
+We could just multiply
+both sides of this
+
+186
+00:09:07,900 --> 00:09:09,280
+equation by a inverse.
+
+187
+00:09:09,280 --> 00:09:11,390
+And remember, order matters.
+
+188
+00:09:11,390 --> 00:09:13,310
+So it's not like when you're
+doing a linear equation you
+
+189
+00:09:13,310 --> 00:09:14,910
+could multiply 1/a
+on this side.
+
+190
+00:09:14,910 --> 00:09:16,150
+But then you can do it on
+the right side here.
+
+191
+00:09:16,150 --> 00:09:16,350
+But no.
+
+192
+00:09:16,350 --> 00:09:19,700
+Notice, I put it in front of
+the numbers in both cases.
+
+193
+00:09:19,700 --> 00:09:21,840
+So you have to do it in front of
+the numbers in both cases.
+
+194
+00:09:21,840 --> 00:09:25,750
+But if we know a inverse, and
+if a inverse exists, then we
+
+195
+00:09:25,750 --> 00:09:29,240
+can multiply both sides-- you
+can say the left side of both
+
+196
+00:09:29,240 --> 00:09:31,705
+sides of this equation
+by a inverse.
+
+197
+00:09:31,705 --> 00:09:35,160
+   
+
+198
+00:09:35,160 --> 00:09:44,580
+a inverse times a, times the
+vector x is equal to a
+
+199
+00:09:44,580 --> 00:09:47,480
+inverse times b.
+
+200
+00:09:47,480 --> 00:09:49,550
+All I did is I took this
+expression, and I multiplied
+
+201
+00:09:49,550 --> 00:09:51,160
+both sides by a inverse.
+
+202
+00:09:51,160 --> 00:09:52,880
+And what's a inverse times a?
+
+203
+00:09:52,880 --> 00:09:55,260
+Well that's just the
+identity matrix.
+
+204
+00:09:55,260 --> 00:09:59,070
+That's the identity matrix,
+times x is equal
+
+205
+00:09:59,070 --> 00:10:03,570
+to a inverse b.
+
+206
+00:10:03,570 --> 00:10:05,900
+And of course that's just x.
+
+207
+00:10:05,900 --> 00:10:07,720
+The identity matrix times
+any other matrix
+
+208
+00:10:07,720 --> 00:10:08,720
+is just that matrix.
+
+209
+00:10:08,720 --> 00:10:11,540
+So that's just the matrix
+x, or the vector x
+
+210
+00:10:11,540 --> 00:10:15,310
+times a inverse b.
+
+211
+00:10:15,310 --> 00:10:19,010
+So, if you're given a linear
+equation, and if you know the
+
+212
+00:10:19,010 --> 00:10:21,400
+inverse of this matrix, to solve
+for x and y, we just
+
+213
+00:10:21,400 --> 00:10:23,740
+have to multiply this number
+times the inverse.
+
+214
+00:10:23,740 --> 00:10:25,690
+And you might say, Sal,
+that's such a pain.
+
+215
+00:10:25,690 --> 00:10:28,720
+Because this is such a simple
+linear equation to solve.
+
+216
+00:10:28,720 --> 00:10:31,210
+Why would I go through all the
+trouble of getting an inverse,
+
+217
+00:10:31,210 --> 00:10:33,370
+and then multiplying the inverse
+times this number.
+
+218
+00:10:33,370 --> 00:10:35,570
+And I would agree with
+you to some degree.
+
+219
+00:10:35,570 --> 00:10:39,960
+That for a 2 by 2 system of
+equations, it is easier to
+
+220
+00:10:39,960 --> 00:10:44,150
+solve it the way that you did it
+in Algebra 1 or Algebra 2.
+
+221
+00:10:44,150 --> 00:10:49,170
+But if you're doing it for a 3
+by 3, well, finding a matrix
+
+222
+00:10:49,170 --> 00:10:50,780
+is still pretty difficult
+for a 3 by 3,
+
+223
+00:10:50,780 --> 00:10:51,460
+so it's still difficult.
+
+224
+00:10:51,460 --> 00:10:53,990
+But as you get to larger and
+larger numbers, it's
+
+225
+00:10:53,990 --> 00:10:56,900
+sometimes-- well, finding a
+matrix can be difficult too--
+
+226
+00:10:56,900 --> 00:11:01,370
+But actually the real place
+where it you really, really
+
+227
+00:11:01,370 --> 00:11:05,980
+pays off is, let's say that
+you have a bunch of linear
+
+228
+00:11:05,980 --> 00:11:08,220
+equations to solve.
+
+229
+00:11:08,220 --> 00:11:10,160
+And the left hand side
+stays the same.
+
+230
+00:11:10,160 --> 00:11:12,150
+But you keep changing
+the right hand side.
+
+231
+00:11:12,150 --> 00:11:13,860
+So let's say you have
+ax equals b.
+
+232
+00:11:13,860 --> 00:11:15,380
+And then you have another one
+that says, ax equals c,
+
+233
+00:11:15,380 --> 00:11:16,680
+and ax equals d.
+
+234
+00:11:16,680 --> 00:11:18,380
+And these numbers
+keep changing.
+
+235
+00:11:18,380 --> 00:11:19,730
+And these numbers
+are the same.
+
+236
+00:11:19,730 --> 00:11:23,080
+Then it really pays off to
+solve for the inverse.
+
+237
+00:11:23,080 --> 00:11:26,200
+And then every time you need
+to find a new solution, you
+
+238
+00:11:26,200 --> 00:11:29,090
+just multiply your new
+right-hand side times your
+
+239
+00:11:29,090 --> 00:11:30,880
+inverse, and you just
+get the answer.
+
+240
+00:11:30,880 --> 00:11:32,810
+And that'll really pay
+off when we view
+
+241
+00:11:32,810 --> 00:11:33,950
+this in another way.
+
+242
+00:11:33,950 --> 00:11:34,870
+But anyway, I wanted
+to show you that
+
+243
+00:11:34,870 --> 00:11:36,020
+this is the same thing.
+
+244
+00:11:36,020 --> 00:11:39,540
+And so let's solve
+it using what our
+
+245
+00:11:39,540 --> 00:11:41,020
+knowledge is of matrices.
+
+246
+00:11:41,020 --> 00:11:43,070
+Let me erase this here, and I
+know I'm running over time,
+
+247
+00:11:43,070 --> 00:11:46,440
+but hopefully I'm not completely
+boring you.
+
+248
+00:11:46,440 --> 00:11:49,750
+   
+
+249
+00:11:49,750 --> 00:11:51,780
+So I'm going to keep that there,
+just because I think
+
+250
+00:11:51,780 --> 00:11:53,080
+it's nice to have that
+visual representation
+
+251
+00:11:53,080 --> 00:11:54,650
+of what we're doing.
+
+252
+00:11:54,650 --> 00:11:56,240
+Always to remember
+what's going on.
+
+253
+00:11:56,240 --> 00:11:57,930
+So, what's a inverse?
+
+254
+00:11:57,930 --> 00:12:05,860
+So first of all, the a inverse
+is equal to 1 over the
+
+255
+00:12:05,860 --> 00:12:12,260
+determinant of a times the
+adjoint of this matrix.
+
+256
+00:12:12,260 --> 00:12:14,520
+I don't want to get fancy with
+terminology and all that, but
+
+257
+00:12:14,520 --> 00:12:15,350
+what was that?
+
+258
+00:12:15,350 --> 00:12:16,950
+2 by 2 is fairly easy.
+
+259
+00:12:16,950 --> 00:12:21,980
+You swap these two terms.
+You get a 6 and a 3.
+
+260
+00:12:21,980 --> 00:12:23,690
+And then you make these
+two terms negative.
+
+261
+00:12:23,690 --> 00:12:26,100
+So a minus 6 becomes a 6.
+
+262
+00:12:26,100 --> 00:12:27,780
+And a 2 becomes a minus 2.
+
+263
+00:12:27,780 --> 00:12:30,500
+   
+
+264
+00:12:30,500 --> 00:12:32,870
+And what's the determinant
+of a?
+
+265
+00:12:32,870 --> 00:12:36,610
+The determinant of a is equal to
+this times this minus this
+
+266
+00:12:36,610 --> 00:12:37,070
+times this.
+
+267
+00:12:37,070 --> 00:12:38,830
+So 3 times 6.
+
+268
+00:12:38,830 --> 00:12:45,840
+3 times 6 is 18 minus
+this times this.
+
+269
+00:12:45,840 --> 00:12:47,540
+So 6 times 2 is 12.
+
+270
+00:12:47,540 --> 00:12:48,430
+That's a minus 6.
+
+271
+00:12:48,430 --> 00:12:49,320
+That's minus 12.
+
+272
+00:12:49,320 --> 00:12:52,460
+So minus minus 12.
+
+273
+00:12:52,460 --> 00:12:56,280
+It's equal to plus.
+
+274
+00:12:56,280 --> 00:12:58,690
+So 18 plus 12 is equal to 30.
+
+275
+00:12:58,690 --> 00:13:00,350
+So what does a inverse equal?
+
+276
+00:13:00,350 --> 00:13:02,090
+1 over 30 times this thing.
+
+277
+00:13:02,090 --> 00:13:10,870
+So a inverse is equal to-- we
+could even keep the 1/30 on
+
+278
+00:13:10,870 --> 00:13:12,120
+the outside.
+
+279
+00:13:12,120 --> 00:13:13,830
+   
+
+280
+00:13:13,830 --> 00:13:15,490
+That might simplify things.
+
+281
+00:13:15,490 --> 00:13:16,520
+Well actually I'll put it--
+
+282
+00:13:16,520 --> 00:13:19,890
+So a inverse is equal to what?
+
+283
+00:13:19,890 --> 00:13:21,120
+This divided by 30.
+
+284
+00:13:21,120 --> 00:13:33,300
+So that's 1/5, minus-- Actually
+I do want to keep it
+
+285
+00:13:33,300 --> 00:13:36,180
+on the outside, because that's
+going to make the later
+
+286
+00:13:36,180 --> 00:13:38,080
+multiplications easier.
+
+287
+00:13:38,080 --> 00:13:46,570
+So anyway, a is equal to 1/30
+times 6, minus 2, 6, 3.
+
+288
+00:13:46,570 --> 00:13:47,680
+That's a inverse.
+
+289
+00:13:47,680 --> 00:13:49,370
+So now let's solve
+for x and y.
+
+290
+00:13:49,370 --> 00:13:53,340
+So we said x and y is equal
+to a inverse times b.
+
+291
+00:13:53,340 --> 00:13:58,990
+So we could say x-- another way
+to write x is like this.
+
+292
+00:13:58,990 --> 00:14:00,820
+x is just this vector.
+
+293
+00:14:00,820 --> 00:14:02,090
+x and y.
+
+294
+00:14:02,090 --> 00:14:04,785
+Not to get confused, this x is
+different than that x, even
+
+295
+00:14:04,785 --> 00:14:05,570
+though I've written
+them the same.
+
+296
+00:14:05,570 --> 00:14:08,430
+If I was a typographer, I would
+make this really bold,
+
+297
+00:14:08,430 --> 00:14:10,040
+so that you know that
+this is a vector.
+
+298
+00:14:10,040 --> 00:14:11,890
+Maybe I should put a
+vector notation.
+
+299
+00:14:11,890 --> 00:14:12,150
+I don't know.
+
+300
+00:14:12,150 --> 00:14:14,480
+You could do a bunch
+of things with it.
+
+301
+00:14:14,480 --> 00:14:17,890
+It's equal to a inverse
+times this.
+
+302
+00:14:17,890 --> 00:14:20,660
+So that's 1/30.
+
+303
+00:14:20,660 --> 00:14:22,490
+I did that just for the
+matrix addition.
+
+304
+00:14:22,490 --> 00:14:26,920
+I didn't divide everything
+by 30, just so the matrix
+
+305
+00:14:26,920 --> 00:14:28,580
+multiplication's a
+little easier.
+
+306
+00:14:28,580 --> 00:14:32,510
+Minus 2, 3, times 7/6.
+
+307
+00:14:32,510 --> 00:14:37,930
+   
+
+308
+00:14:37,930 --> 00:14:40,616
+And so what is this equal to?
+
+309
+00:14:40,616 --> 00:14:45,700
+It's equal to 1/30 times-- I
+know I'm crowding this down
+
+310
+00:14:45,700 --> 00:14:46,810
+here-- let's see.
+
+311
+00:14:46,810 --> 00:14:52,440
+6 times 7 minus 2 times 6.
+
+312
+00:14:52,440 --> 00:14:59,240
+So 6 times 7 is 42.
+
+313
+00:14:59,240 --> 00:15:01,690
+Minus 2 times 6, so minus 12.
+
+314
+00:15:01,690 --> 00:15:04,830
+So that's equal to the 30.
+
+315
+00:15:04,830 --> 00:15:07,220
+And then 6 times 7
+plus 2 times 6.
+
+316
+00:15:07,220 --> 00:15:11,090
+So 6 times 7, once
+again is 42.
+
+317
+00:15:11,090 --> 00:15:12,820
+Plus 2 times 6.
+
+318
+00:15:12,820 --> 00:15:17,420
+So 42 plus 12 is 50.
+
+319
+00:15:17,420 --> 00:15:19,620
+Is that right?
+
+320
+00:15:19,620 --> 00:15:22,990
+6 times 7-- oh I'm sorry.
+
+321
+00:15:22,990 --> 00:15:23,700
+This is a 3.
+
+322
+00:15:23,700 --> 00:15:25,320
+That's why I was getting
+confused.
+
+323
+00:15:25,320 --> 00:15:27,700
+See, it's important to
+have good penmanship.
+
+324
+00:15:27,700 --> 00:15:33,565
+So it's 6 times 7 is
+42, plus 3 times 6.
+
+325
+00:15:33,565 --> 00:15:38,120
+So it's 42 plus 18,
+which is 60.
+
+326
+00:15:38,120 --> 00:15:40,480
+And of course you divide
+both of them by 30.
+
+327
+00:15:40,480 --> 00:15:43,770
+So you get the final xy.
+
+328
+00:15:43,770 --> 00:15:45,450
+I'll write it here.
+
+329
+00:15:45,450 --> 00:15:46,480
+I don't want to erase
+anything.
+
+330
+00:15:46,480 --> 00:15:52,850
+So we get xy is equal to--
+divide both of those by 30--
+
+331
+00:15:52,850 --> 00:15:58,410
+is equal to 1 and 2.
+
+332
+00:15:58,410 --> 00:16:02,420
+And so that tells us that these
+two linear equations
+
+333
+00:16:02,420 --> 00:16:10,160
+intersect at the point x is
+equal to 1, y is equal to 2.
+
+334
+00:16:10,160 --> 00:16:12,610
+That might seem a little bit
+like a lot of work, but that's
+
+335
+00:16:12,610 --> 00:16:14,480
+just because I took the time
+to explain it and all that.
+
+336
+00:16:14,480 --> 00:16:17,000
+But if you just immediately took
+that, represented it this
+
+337
+00:16:17,000 --> 00:16:19,240
+way, found the inverse, and
+multiplied, it wouldn't have
+
+338
+00:16:19,240 --> 00:16:20,050
+taken you that much time.
+
+339
+00:16:20,050 --> 00:16:22,100
+And I encourage you to do
+that as an exercise.
+
+340
+00:16:22,100 --> 00:16:23,530
+Anyway, I'll see you
+in the next video.
+
+341
+00:16:23,530 --> 00:16:25,610
+And in the next video, we're
+going to do this exact same
+
+342
+00:16:25,610 --> 00:16:29,010
+problem, but we're going to see
+that this data represents
+
+343
+00:16:29,010 --> 00:16:30,370
+a different problem.
+
+344
+00:16:30,370 --> 00:16:31,620
+See
+
+345
+00:16:31,620 --> 00:16:31,900
+

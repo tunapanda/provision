@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:01,881
+What I'm going to do in this video is
+
+2
+00:00:01,881 --> 00:00:03,997
+attempt to create an implementation
+
+3
+00:00:03,997 --> 00:00:06,544
+of the insertion sort algorithm
+
+4
+00:00:06,544 --> 00:00:08,011
+that we talked about in the last video.
+
+5
+00:00:08,011 --> 00:00:10,217
+I'll do it as a Python function.
+
+6
+00:00:10,217 --> 00:00:15,631
+So I'll call the Python function insertion_sort()
+
+7
+00:00:15,631 --> 00:00:17,641
+and it will take in a list—
+
+8
+00:00:17,641 --> 00:00:20,623
+so list is its parameter in the function definition—
+
+9
+00:00:20,623 --> 00:00:23,067
+so we'll have to pass in a list as an argument.
+
+10
+00:00:23,067 --> 00:00:25,385
+And let's—what we're going to do is
+
+11
+00:00:25,385 --> 00:00:30,078
+we're going to step through each of the slots in the list.
+
+12
+00:00:30,078 --> 00:00:31,248
+I guess we could call it that way.
+
+13
+00:00:31,248 --> 00:00:36,200
+So let's say "for index in range()".
+
+14
+00:00:36,200 --> 00:00:38,856
+We could start at the leftmost slot in the list.
+
+15
+00:00:38,856 --> 00:00:41,005
+So, we could just say "len()"—
+
+16
+00:00:41,005 --> 00:00:42,975
+"len" just means—it's short for "length"—
+
+17
+00:00:42,975 --> 00:00:44,682
+so length of the list.
+
+18
+00:00:44,682 --> 00:00:46,380
+So what this would do (is)
+
+19
+00:00:46,380 --> 00:00:47,985
+this would start index—
+
+20
+00:00:47,985 --> 00:00:49,841
+so let's say the list has four elements in it—
+
+21
+00:00:49,841 --> 00:00:52,380
+then "len(list)", this right here,
+
+22
+00:00:52,380 --> 00:00:54,387
+would be 4, would evaluate to 4.
+
+23
+00:00:54,387 --> 00:00:56,995
+"range(4)" would produce a list
+
+24
+00:00:56,995 --> 00:01:00,002
+that has elements [0,1,2,3] in it.
+
+25
+00:01:00,002 --> 00:01:02,001
+And so, index would be able to step through
+
+26
+00:01:02,001 --> 00:01:06,011
+the different indices for this list right over here.
+
+27
+00:01:06,011 --> 00:01:07,253
+And we could do it that way,
+
+28
+00:01:07,253 --> 00:01:11,467
+but you might remember from the previous video
+
+29
+00:01:11,467 --> 00:01:13,689
+that when you're doing the insertion sort
+
+30
+00:01:13,689 --> 00:01:14,846
+it doesn't actually make sense
+
+31
+00:01:14,846 --> 00:01:17,010
+to start at the very leftmost element.
+
+32
+00:01:17,010 --> 00:01:19,705
+Because there's nothing to compare it to the left.
+
+33
+00:01:19,705 --> 00:01:21,005
+So we can actually just start
+
+34
+00:01:21,005 --> 00:01:23,385
+at the second to the leftmost element.
+
+35
+00:01:23,385 --> 00:01:25,856
+And the leftmost element is the 0th item,
+
+36
+00:01:25,856 --> 00:01:28,002
+so we can start at the first item.
+
+37
+00:01:28,002 --> 00:01:30,395
+So now, if the list has a length of 4,
+
+38
+00:01:30,395 --> 00:01:32,546
+this right here will produce [1,2,3].
+
+39
+00:01:32,546 --> 00:01:35,698
+So, 1 would be the second to the leftmost element.
+
+40
+00:01:35,698 --> 00:01:37,390
+2 would be the next one to the right.
+
+41
+00:01:37,390 --> 00:01:38,856
+3 would be the last one.
+
+42
+00:01:38,856 --> 00:01:42,005
+Remember, we always start our indices at 0—
+
+43
+00:01:42,005 --> 00:01:45,813
+the 0th term is the leftmost element in a list.
+
+44
+00:01:45,813 --> 00:01:48,042
+So fine, we can step through that.
+
+45
+00:01:48,042 --> 00:01:51,867
+Let's get the value of—at that point in time—
+
+46
+00:01:51,867 --> 00:01:55,836
+of the element that is at that index.
+
+47
+00:01:55,836 --> 00:01:58,400
+So, that way we don't have to keep finding it,
+
+48
+00:01:58,400 --> 00:02:01,986
+value is equal to list[index].
+
+49
+00:02:01,986 --> 00:02:03,533
+And this by no means is going to be
+
+50
+00:02:03,533 --> 00:02:04,995
+the most efficient implementation
+
+51
+00:02:04,995 --> 00:02:06,687
+of even insertion sort.
+
+52
+00:02:06,687 --> 00:02:08,548
+This is going to be my best try,
+
+53
+00:02:08,548 --> 00:02:09,848
+writing it in real time,
+
+54
+00:02:09,848 --> 00:02:11,395
+and in a way that hopefully...
+
+55
+00:02:11,395 --> 00:02:12,987
+you might be able to understand it.
+
+56
+00:02:12,987 --> 00:02:14,841
+So "value" is just the item in the list
+
+57
+00:02:14,841 --> 00:02:16,990
+at each of those indexes
+
+58
+00:02:16,990 --> 00:02:18,540
+that we're now going to compare to
+
+59
+00:02:18,540 --> 00:02:20,990
+all of the items to the left of it.
+
+60
+00:02:20,990 --> 00:02:25,010
+And what I want to do is—
+
+61
+00:02:25,010 --> 00:02:28,225
+compare a value—I want to compare a value
+
+62
+00:02:28,225 --> 00:02:30,529
+to each item to the left of it.
+
+63
+00:02:30,529 --> 00:02:33,467
+So let's define a variable "i"
+
+64
+00:02:33,467 --> 00:02:36,021
+and let's let this be the index of the things
+
+65
+00:02:36,021 --> 00:02:38,385
+that I want to compare value to.
+
+66
+00:02:38,385 --> 00:02:39,687
+And right from the get-go
+
+67
+00:02:39,687 --> 00:02:42,482
+I want to compare value to the thing that is left of it.
+
+68
+00:02:42,482 --> 00:02:43,846
+So "i" should have
+
+69
+00:02:43,846 --> 00:02:46,985
+one lower of an index than "index".
+
+70
+00:02:46,985 --> 00:02:50,138
+So "index - 1".
+
+71
+00:02:50,138 --> 00:02:51,836
+So this is the index of the item
+
+72
+00:02:51,836 --> 00:02:53,377
+that is directly left to it.
+
+73
+00:02:53,377 --> 00:02:55,379
+But we're going to keep taking "i" lower and lower.
+
+74
+00:02:55,379 --> 00:02:57,005
+So we can keep comparing value
+
+75
+00:02:57,005 --> 00:03:00,401
+to things further and further to the left.
+
+76
+00:03:00,401 --> 00:03:01,696
+And so what we want to do is we're going to—
+
+77
+00:03:01,696 --> 00:03:06,133
+we want to keep comparing further and further left
+
+78
+00:03:06,133 --> 00:03:09,359
+until "i" has gotten all the way to the beginning of the list.
+
+79
+00:03:09,359 --> 00:03:11,805
+And "i" has gotten all the way to the beginning of the list
+
+80
+00:03:11,805 --> 00:03:13,679
+when it is equal to 0.
+
+81
+00:03:13,679 --> 00:03:15,375
+So what we want to do is,
+
+82
+00:03:15,375 --> 00:03:16,380
+we want to perform this
+
+83
+00:03:16,380 --> 00:03:19,521
+while "i" is greater than or equal to 0.
+
+84
+00:03:19,521 --> 00:03:22,492
+Because if we keep taking "i" lower and lower and lower,
+
+85
+00:03:22,492 --> 00:03:23,692
+we're going further and further
+
+86
+00:03:23,692 --> 00:03:24,994
+to the left of the list.
+
+87
+00:03:24,994 --> 00:03:26,388
+We don't want to try to perform it
+
+88
+00:03:26,388 --> 00:03:28,687
+when "i" is—you know—further—is a negative number—
+
+89
+00:03:28,687 --> 00:03:30,997
+that'll just start doing crazy things.
+
+90
+00:03:30,997 --> 00:03:34,523
+So while “i” is greater than or equal to 0—
+
+91
+00:03:34,523 --> 00:03:35,677
+what I'm going to do is
+
+92
+00:03:35,677 --> 00:03:40,538
+I'm going to keep pushing "i" further and further to the left.
+
+93
+00:03:40,538 --> 00:03:42,843
+So let's try it this way, so the first thing I want to do—
+
+94
+00:03:42,843 --> 00:03:44,390
+we've already pushed it to the left once.
+
+95
+00:03:44,390 --> 00:03:47,395
+So let's compare—
+
+96
+00:03:47,395 --> 00:03:54,308
+so if "value" is less than the—
+
+97
+00:03:54,308 --> 00:03:55,641
+this thing keeps syntax error
+
+98
+00:03:55,641 --> 00:03:57,638
+because (of) waiting for me to keep typing—
+
+99
+00:03:57,638 --> 00:04:04,067
+if "value" is less than the item that is now at index "i".
+
+100
+00:04:04,067 --> 00:04:06,918
+So the item at index "i"—list[i]—
+
+101
+00:04:06,918 --> 00:04:09,625
+the item at index "i" is this right here.
+
+102
+00:04:09,625 --> 00:04:11,975
+So if it is less than that,
+
+103
+00:04:11,975 --> 00:04:14,941
+let's shift the item that's over here—
+
+104
+00:04:14,941 --> 00:04:17,369
+let's shift it one to the right.
+
+105
+00:04:17,369 --> 00:04:20,348
+So the right slot is "i + 1"
+
+106
+00:04:20,348 --> 00:04:22,354
+and I can't just say it's "index",
+
+107
+00:04:22,354 --> 00:04:23,948
+because remember I'm going to keep pulling "i"
+
+108
+00:04:23,948 --> 00:04:25,327
+lower and lower and lower.
+
+109
+00:04:25,327 --> 00:04:28,937
+Because right now "i" is "index - 1"
+
+110
+00:04:28,937 --> 00:04:30,987
+in the first pass through this while loop,
+
+111
+00:04:30,987 --> 00:04:32,821
+but I'm going to—as you'll see in a second—
+
+112
+00:04:32,821 --> 00:04:34,360
+I'm going to keep lowering "i",
+
+113
+00:04:34,360 --> 00:04:37,334
+so it always won't be one left of "index".
+
+114
+00:04:37,334 --> 00:04:39,938
+So I'm going to say, wherever "i" is,
+
+115
+00:04:39,938 --> 00:04:42,468
+let's take the spot one to the right of "i"—
+
+116
+00:04:42,468 --> 00:04:45,012
+one to the spot of—one to the right of that—
+
+117
+00:04:45,012 --> 00:04:47,300
+so that's "i + 1" is its index.
+
+118
+00:04:47,300 --> 00:04:51,344
+And let's replace that with whatever is at list[i],
+
+119
+00:04:51,344 --> 00:04:54,934
+whatever is at "i", at slot "i".
+
+120
+00:04:54,934 --> 00:04:57,292
+So we've essentially taken this thing right over here
+
+121
+00:04:57,292 --> 00:04:59,578
+whatever number was there.
+
+122
+00:04:59,578 --> 00:05:01,110
+And we're putting it in the slot
+
+123
+00:05:01,110 --> 00:05:03,552
+that is one to the right of it. And then,
+
+124
+00:05:03,552 --> 00:05:05,821
+and actually the way we were setting up that algorithm.
+
+125
+00:05:05,821 --> 00:05:07,711
+Whatever's there is going to be...
+
+126
+00:05:07,711 --> 00:05:09,383
+Well...I won't talk about that.
+
+127
+00:05:09,383 --> 00:05:11,733
+We'll step through it and see how it all plays out.
+
+128
+00:05:11,733 --> 00:05:16,354
+And then we can shift "value" to the left.
+
+129
+00:05:16,354 --> 00:05:18,810
+So whatever was in this slot right over here
+
+130
+00:05:18,810 --> 00:05:20,959
+will be replaced by "value".
+
+131
+00:05:20,959 --> 00:05:25,908
+So list[i] will equal "value".
+
+132
+00:05:25,908 --> 00:05:28,200
+So one way to think about it
+
+133
+00:05:28,200 --> 00:05:29,189
+--Let me write a comment here--
+
+134
+00:05:29,189 --> 00:05:33,852
+shift what was...
+
+135
+00:05:33,852 --> 00:05:42,286
+shift number in slot "i" to slot "i + 1"
+
+136
+00:05:42,286 --> 00:05:44,259
+or actually bucket "i + 1"
+
+137
+00:05:44,259 --> 00:05:46,333
+--I guess is one way to think about it--
+
+138
+00:05:46,333 --> 00:05:47,975
+And then you could say,
+
+139
+00:05:47,975 --> 00:05:51,329
+shift number right—let me call it this way—
+
+140
+00:05:51,329 --> 00:05:53,526
+shift number right—in slot
+
+141
+00:05:53,526 --> 00:05:54,725
+--we're going to write this way--
+
+142
+00:05:54,725 --> 00:06:00,000
+shift number in slot "i" right to slot "i + 1"
+
+143
+00:06:00,000 --> 00:06:05,334
+And then over here, we are shifting...
+
+144
+00:06:05,334 --> 00:06:13,890
+shift value left into slot "i".
+
+145
+00:06:13,890 --> 00:06:15,369
+And so if you remember what we did in the last video,
+
+146
+00:06:15,369 --> 00:06:16,990
+it's exactly describing it.
+
+147
+00:06:16,990 --> 00:06:18,967
+We're comparing "value" to the thing to the left of it.
+
+148
+00:06:18,967 --> 00:06:20,482
+If it's less than it,
+
+149
+00:06:20,482 --> 00:06:23,929
+then whatever number was in that box/slot to the left of it,
+
+150
+00:06:23,929 --> 00:06:27,436
+shift it to the right, and then shift "value" to the left.
+
+151
+00:06:27,436 --> 00:06:29,425
+And now let's compare value
+
+152
+00:06:29,425 --> 00:06:31,267
+to something one lower than that.
+
+153
+00:06:31,267 --> 00:06:33,502
+So we want to decrement "i", we want to lower "i"—
+
+154
+00:06:33,502 --> 00:06:35,964
+decrement is just increment down.
+
+155
+00:06:35,964 --> 00:06:41,015
+So "i" is equal to "i - 1",
+
+156
+00:06:41,015 --> 00:06:44,369
+and then we'll perform the loop over again.
+
+157
+00:06:44,369 --> 00:06:45,851
+And now "value" will be compared—
+
+158
+00:06:45,851 --> 00:06:48,377
+now "i" is two to the left of "index"
+
+159
+00:06:48,377 --> 00:06:49,533
+--compared to that--
+
+160
+00:06:49,533 --> 00:06:51,541
+if it is less than it, shift that to the right
+
+161
+00:06:51,541 --> 00:06:53,998
+and shift "value" again to the left
+
+162
+00:06:53,998 --> 00:06:55,764
+Now what if we have the situation
+
+163
+00:06:55,764 --> 00:06:58,385
+where "value" is not less than
+
+164
+00:06:58,385 --> 00:07:00,526
+the item that you are comparing it to?
+
+165
+00:07:00,526 --> 00:07:03,375
+Well if it's not less than the item you're comparing it to,
+
+166
+00:07:03,375 --> 00:07:06,990
+that means "value" is already going to be in the right place.
+
+167
+00:07:06,990 --> 00:07:08,529
+It also means that you're done,
+
+168
+00:07:08,529 --> 00:07:10,690
+and that you don't need to shift "value" any more to the left.
+
+169
+00:07:10,690 --> 00:07:12,683
+And you don't have to shift the stuff to the left
+
+170
+00:07:12,683 --> 00:07:13,977
+any more to the right.
+
+171
+00:07:13,977 --> 00:07:17,841
+So then, we are done,
+
+172
+00:07:17,841 --> 00:07:20,382
+and I <i>think</i> this could work
+
+173
+00:07:20,382 --> 00:07:22,354
+unless I made some silly mistakes.
+
+174
+00:07:22,354 --> 00:07:25,372
+So let's try to see if I could get this—
+
+175
+00:07:25,372 --> 00:07:27,992
+if this actually works as a sorting algorithm.
+
+176
+00:07:27,992 --> 00:07:30,859
+Let me save it, insertion_sort,
+
+177
+00:07:30,859 --> 00:07:32,812
+and let me run it.
+
+178
+00:07:32,812 --> 00:07:34,990
+Alright, so I didn't have any, at least, syntax mistakes.
+
+179
+00:07:34,990 --> 00:07:38,374
+Syntax just means the actual characters I used—
+
+180
+00:07:38,374 --> 00:07:40,361
+I didn't forget to put a colon here or greater than sign—
+
+181
+00:07:40,361 --> 00:07:44,379
+it was actually able to process this,
+
+182
+00:07:44,379 --> 00:07:45,528
+interpret this right over here.
+
+183
+00:07:45,528 --> 00:07:47,400
+But let's see if it actually works.
+
+184
+00:07:47,400 --> 00:07:50,413
+So let me define "a" list.
+
+185
+00:07:50,413 --> 00:07:59,562
+Let's say [7,1,3,5,9,2]
+
+186
+00:07:59,562 --> 00:08:01,559
+and let me put another 3 in there.
+
+187
+00:08:01,559 --> 00:08:03,000
+So that is "a",
+
+188
+00:08:03,000 --> 00:08:05,379
+Then let me see—this is the moment of truth.
+
+189
+00:08:05,379 --> 00:08:10,390
+insertion_sort(a), let's see what happens.
+
+190
+00:08:10,390 --> 00:08:12,564
+So remember, we're sorting it in place,
+
+191
+00:08:12,564 --> 00:08:14,364
+this function doesn't return anything.
+
+192
+00:08:14,364 --> 00:08:16,010
+But it should take whatever list that was,
+
+193
+00:08:16,010 --> 00:08:18,009
+and had changed up all the elements
+
+194
+00:08:18,009 --> 00:08:19,370
+so that now they are in order.
+
+195
+00:08:19,370 --> 00:08:21,009
+So this is the moment of truth.
+
+196
+00:08:21,009 --> 00:08:23,520
+Let's see what "a" looks like.
+
+197
+00:08:23,520 --> 00:08:25,390
+There you go! It is sorted.
+
+198
+00:08:25,390 --> 00:08:27,844
+So I don't think I made any major mistakes.
+
+199
+00:08:27,844 --> 00:08:30,005
+So there you go.
+
+200
+00:08:30,005 --> 00:08:35,545
+You have a version of insertion sort.

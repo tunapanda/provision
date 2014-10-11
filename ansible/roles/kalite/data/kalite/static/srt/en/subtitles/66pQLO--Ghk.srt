@@ -1,0 +1,175 @@
+1
+00:00:00,376 --> 00:00:05,186
+Where we had left off we had used the information from these two lines to figure out two lines to figure
+
+2
+00:00:05,186 --> 00:00:10,369
+out two vectors which were really just, almost you can say, were two position vectors lying in this white
+
+3
+00:00:10,369 --> 00:00:20,036
+plane and we took their cross-product to find a vector that's perpendicular, that's normal to this entire white plane
+
+4
+00:00:20,036 --> 00:00:28,570
+and that was the vector d there and vector d will have to sit, especially to visualize it, you can always
+
+5
+00:00:28,570 --> 00:00:35,164
+position a vector anywhere you want. If you start it at 0, it will clearly sit in that plane. But since
+
+6
+00:00:35,164 --> 00:00:40,190
+you can always position it anywhere, you can say, "Okay, let's start it at 0." So it will sit in this
+
+7
+00:00:40,190 --> 00:00:46,104
+yellow plane that we defined the equation for. Now we know vector d sits in it, we already know that
+
+8
+00:00:46,104 --> 00:00:55,301
+vector A sits in it. We got that early on in the first video on this problem. So we can take the cross product of d and a to find a normal vector to it
+
+9
+00:00:55,301 --> 00:01:01,441
+and then using that normal vector and then thinking about what an arbitrary point or an arbitrary vector
+
+10
+00:01:01,441 --> 00:01:07,637
+in this plane might look like, we can then figure out the equation for this yellow plane. We already
+
+11
+00:01:07,637 --> 00:01:13,037
+touched on it a little bit in the Linear Algebra playlist. If any of this stuff makes you confused, then
+
+12
+00:01:13,037 --> 00:01:17,303
+just a reminder- We take the cross product of two vectors in three dimentional space. It will give you
+
+13
+00:01:17,303 --> 00:01:22,702
+third vector that is perpendicular to both. That's the whole kinda tool that we're using over here. So
+
+14
+00:01:22,702 --> 00:01:33,234
+lets take the cross product of d and a. So this is going to be equal to. So for the i we have 1 x 4,
+
+15
+00:01:33,234 --> 00:01:45,376
+which is 4 minus 3 x 10, so 4 minus 30 is -26. So we have -26i and then we have negative or minus for
+
+16
+00:01:45,376 --> 00:01:58,308
+j, we have to swap signs for he j, so we have -8 x 4 is -32. -32 minus 2 x 10, so -20 is -52. So we put
+
+17
+00:01:58,308 --> 00:02:07,110
+a -52 here, we can just say positive 52, because it's minus -52, that's the same things as +52j. And
+
+18
+00:02:07,110 --> 00:02:21,356
+finally for the k, cross out that row that column -8 x 3 is -24 minus 2 x 1. So -2 is -26. So -26 k.
+
+19
+00:02:21,356 --> 00:02:28,369
+So this normal vector right here or a vector that is normal to the yellow plane, the plane that we have
+
+20
+00:02:28,369 --> 00:02:34,500
+to find the equation of is this over here. And just because it kinda pops out at me that all of these
+
+21
+00:02:34,500 --> 00:02:40,501
+are divisible by 26, I'm gonna define another normal vector-- I don't know-- let's call it -- let's call
+
+22
+00:02:40,501 --> 00:02:54,236
+it anything-- let's call it p or let's call it normal 1. Just to show it's a different vector. I'm just
+
+23
+00:02:54,236 --> 00:02:58,369
+going to divide, although it's essentially pointing in the same direction, it has the same direction
+
+24
+00:02:58,369 --> 00:03:04,708
+just different magnitude. I'm just going to divide all of these by -26. So if I divide all of these by
+
+25
+00:03:04,708 --> 00:03:09,969
+-26, I'm just scaling the vector, but it still gonna go in the same direction. That's what I care about. I
+
+26
+00:03:09,969 --> 00:03:21,100
+care about just finding any vector that is normal to this yellow plane right here. I wanna find any vector--I
+
+27
+00:03:21,100 --> 00:03:25,301
+already found one and now I'm just gonna scale it down so that it's a simpler vector. So if I divide
+
+28
+00:03:25,301 --> 00:03:39,515
+everything by -26, I get i plus or i should say -2j plus k. So that might look something like this right
+
+29
+00:03:39,515 --> 00:03:46,828
+over there. So this is our N1 vector that's normal to this. Now just using this we can now figure out t
+
+30
+00:03:46,828 --> 00:03:52,724
+the equation of this plane right here. So let's just think about it a little bit. Let's just say I ha
+
+31
+00:03:52,724 --> 00:03:58,159
+have a point or I could even say a position vector, (x,y,z) and i know (x,y,z) it sits on this plane
+
+32
+00:03:58,159 --> 00:04:17,392
+and we know that the point (0,0,0) is on the plane, so we also know that the position vector xi+yj+zk
+
+33
+00:04:17,392 --> 00:04:23,893
+have to sit on this yellow plane. And question: I am assuming that (x,y,z) is a point on this plane.
+
+34
+00:04:23,893 --> 00:04:29,394
+I could have put little knots here, just to make sure that this could be a particular point on the plane
+
+35
+00:04:29,394 --> 00:04:36,292
+or this is just any point that I am defining to be on this plane. Now this position vector will then
+
+36
+00:04:36,292 --> 00:04:44,093
+be on this plane and since this vector is normal to this position vector right here or in another way y
+
+37
+00:04:44,093 --> 00:04:50,090
+you can say it's perperdicular or orthogonal. If I were to take the dot product of this, if I were to t
+
+38
+00:04:50,090 --> 00:04:57,827
+take that and dot it with this vector right over here and dot it with that vector right over there. so
+
+39
+00:04:57,827 --> 00:05:08,061
+So I'll have to take the dot product of that and this. yj+zk. If I take the dot product of these two t
+
+40
+00:05:08,061 --> 00:05:16,893
+things, it has to be equal to zero. If I take the dot product of two vectors that are orthogonal to each
+
+41
+00:05:16,893 --> 00:05:23,691
+other, and by definition these two vectors are. I'm saying this guy is in the plane. This vector we a
+
+42
+00:05:23,691 --> 00:05:28,893
+already figured it out is perperdicular to the plane, which means it's perpendicular, it's orthogonal
+
+43
+00:05:28,893 --> 00:05:34,561
+to everything in the plane. So if we take their dot product it will be equal to zero. So what does that
+
+44
+00:05:34,561 --> 00:05:43,058
+give us? So if we take their dot product, we get x times 1. Let me just to term by term, so we take x t

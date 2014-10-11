@@ -1,0 +1,263 @@
+1
+00:00:00,201 --> 00:00:02,178
+Let's say I've been researching some
+
+2
+00:00:02,178 --> 00:00:04,982
+stocks to potentially invest in, and I feel pretty good
+
+3
+00:00:04,982 --> 00:00:08,029
+at my ability to predict how good a company's
+
+4
+00:00:08,029 --> 00:00:10,429
+going to do, relative to peoples' expectations
+
+5
+00:00:10,429 --> 00:00:13,554
+or the market's expectations. In particular I focus
+
+6
+00:00:13,554 --> 00:00:17,946
+on companies A and B. In the case of company A
+
+7
+00:00:17,946 --> 00:00:21,139
+I think it's going to do a lot worse than the market expects it to do
+
+8
+00:00:21,139 --> 00:00:26,410
+So, I'm tempted to short it. And in the case of company B
+
+9
+00:00:26,410 --> 00:00:29,479
+I think it's going to do much better than the market expects
+
+10
+00:00:29,479 --> 00:00:32,677
+So, I'm tempted to buy it, or go long.
+
+11
+00:00:32,677 --> 00:00:35,637
+But, there's one thing about this process that gets
+
+12
+00:00:35,637 --> 00:00:38,495
+me a little bit uncomfortable. I have confidence
+
+13
+00:00:38,495 --> 00:00:40,971
+in my ability to pick out companies that are
+
+14
+00:00:40,971 --> 00:00:44,095
+going to out-perform the market, or are going to under-perform the market
+
+15
+00:00:44,095 --> 00:00:46,962
+But, I have no confidence in my ability to predict the market.
+
+16
+00:00:46,962 --> 00:00:50,863
+In general... let me draw a little chart of the market
+
+17
+00:00:50,863 --> 00:00:54,327
+this is the market price, maybe this is the S&P 500 or the NASDAQ...
+
+18
+00:00:54,358 --> 00:00:57,105
+And I've just found that it's pretty as good as random
+
+19
+00:00:57,105 --> 00:00:59,890
+as opposed to me trying to pick out bottoms of the markets
+
+20
+00:00:59,890 --> 00:01:02,013
+or tops of the markets, and all of the rest
+
+21
+00:01:02,013 --> 00:01:04,832
+So, my fear is what happens if I buy company B,
+
+22
+00:01:04,832 --> 00:01:07,125
+based on my sound research, and then the market
+
+23
+00:01:07,125 --> 00:01:10,164
+goes down? Then company B will probably still go down.
+
+24
+00:01:10,164 --> 00:01:12,160
+Maybe it won't go down as much as the market
+
+25
+00:01:12,160 --> 00:01:14,091
+but it will still go down, and I will lose money.
+
+26
+00:01:14,091 --> 00:01:17,097
+Or what if I short company A and the market
+
+27
+00:01:17,097 --> 00:01:22,018
+goes up. Maybe company A won't go up as much
+
+28
+00:01:22,018 --> 00:01:24,304
+as the market, but I will still lose money on my
+
+29
+00:01:24,304 --> 00:01:27,198
+short position, which is essentially a bet
+
+30
+00:01:27,198 --> 00:01:29,823
+that the stock is going to go down.
+
+31
+00:01:29,823 --> 00:01:33,484
+Is there some arrangement I could do, some
+
+32
+00:01:33,484 --> 00:01:38,187
+combination of buying company B and selling (or shorting) company A
+
+33
+00:01:38,187 --> 00:01:42,113
+that will essentially hedge out a lot of this market risk?
+
+34
+00:01:42,113 --> 00:01:45,152
+and as you can imagine, there is! And I won't go into
+
+35
+00:01:45,152 --> 00:01:48,100
+all the statistics of it, and beta, and how you can
+
+36
+00:01:48,100 --> 00:01:51,091
+really try to statistically hedge-out the market risk
+
+37
+00:01:51,091 --> 00:01:54,390
+But the general idea is, if you really think this is
+
+38
+00:01:54,390 --> 00:01:56,367
+going to out-perform the market, or definitely
+
+39
+00:01:56,367 --> 00:01:58,531
+out-perform company A, and if you think A is
+
+40
+00:01:58,531 --> 00:02:00,431
+going to under-perform the market, or definitely
+
+41
+00:02:00,431 --> 00:02:03,344
+under-perform relative to company B, you can
+
+42
+00:02:03,344 --> 00:02:08,352
+buy a similar amount of B as you will short company A
+
+43
+00:02:08,352 --> 00:02:10,710
+So in this case, let's just do one share
+
+44
+00:02:10,710 --> 00:02:12,822
+you can obviously do multiples of this
+
+45
+00:02:12,822 --> 00:02:22,702
+you buy one share of company B, and you sell
+
+46
+00:02:22,702 --> 00:02:25,690
+or you short one share of company A
+
+47
+00:02:25,690 --> 00:02:26,992
+you borrow the share, you sell it, and you'll have to
+
+48
+00:02:26,992 --> 00:02:32,931
+buy it at a future date. So you short
+
+49
+00:02:32,931 --> 00:02:37,666
+two shares of company A, and the reason why I'm saying
+
+50
+00:02:37,666 --> 00:02:40,240
+two shares of company A instead of one share
+
+51
+00:02:40,240 --> 00:02:43,338
+is because A is only $5 per share and
+
+52
+00:02:43,338 --> 00:02:45,768
+B is $10 dollars per share. So I want to do
+
+53
+00:02:45,768 --> 00:02:47,879
+roughly the same amount, and once again, you can
+
+54
+00:02:47,879 --> 00:02:51,513
+do fancier statistics on it to tweak it, so you can
+
+55
+00:02:51,513 --> 00:02:53,197
+see how much they actually move in the market
+
+56
+00:02:53,197 --> 00:02:55,029
+but we're not going to worry about that right here.
+
+57
+00:02:55,029 --> 00:02:58,839
+So for simplicity, what we've done here is we've taken
+
+58
+00:02:58,839 --> 00:03:08,996
+a long position in B... and we have a $10 dollar long position
+
+59
+00:03:08,996 --> 00:03:12,638
+and we've taken a short position in A
+
+60
+00:03:12,638 --> 00:03:16,177
+and it is also a $10 short position. Once again
+
+61
+00:03:16,177 --> 00:03:20,055
+because A is $5 per share, so we've taken two shares of A
+
+62
+00:03:20,055 --> 00:03:22,872
+which makes the same dollar amount.
+
+63
+00:03:22,872 --> 00:03:25,454
+Now let's think about, and maybe I'll save this for the
+
+64
+00:03:25,454 --> 00:03:28,158
+next video, I want you to think about what happens
+
+65
+00:03:28,158 --> 00:03:32,025
+if the market moves up or down, but B out-performs A
+
+66
+00:03:32,025 --> 99:59:59,999
+or, A out-performs B?

@@ -1,0 +1,787 @@
+1
+00:00:00,381 --> 00:00:02,651
+The last really essential or salient piece
+
+2
+00:00:02,651 --> 00:00:05,694
+for understanding the mechanics of how bitcoins work
+
+3
+00:00:05,694 --> 00:00:09,432
+is what we call the transaction block chain.
+
+4
+00:00:09,432 --> 00:00:11,466
+If you recall, in the previous video
+
+5
+00:00:11,466 --> 00:00:13,705
+we had an example of a user Alice,
+
+6
+00:00:13,705 --> 00:00:19,139
+who wanted to, let's say, send some numer of bitcoins to another user Bob in the system.
+
+7
+00:00:19,139 --> 00:00:22,144
+What Alice had to do to initiate that transaction
+
+8
+00:00:22,144 --> 00:00:25,676
+was to construct a transaction record of sorts
+
+9
+00:00:25,676 --> 00:00:28,279
+that contained information about the transaction
+
+10
+00:00:28,279 --> 00:00:31,828
+and that was signed with Alice's signing key
+
+11
+00:00:31,828 --> 00:00:37,752
+and that actually contained Alice's public verification key and Bob's public verification key as well.
+
+12
+00:00:38,336 --> 00:00:43,339
+That transaction information was basically broadcast out
+
+13
+00:00:43,386 --> 00:00:46,524
+to the entire Bitcoin ecosystem,
+
+14
+00:00:46,524 --> 00:00:49,959
+to all the nodes on the bitcoin peer-to-peer network.
+
+15
+00:00:50,312 --> 00:00:52,723
+The various nodes in the Bitcoin ecosystem
+
+16
+00:00:52,723 --> 00:00:57,894
+are gonna receive information about this transaction.
+
+17
+00:00:57,894 --> 00:01:00,856
+They are also gonna be getting information about a lot of other transactions
+
+18
+00:01:00,856 --> 00:01:04,001
+that are taking place around the same time.
+
+19
+00:01:04,001 --> 00:01:05,789
+What these nodes are gonna start doing
+
+20
+00:01:05,789 --> 00:01:09,494
+is they are going to work on incorporating this transaction record
+
+21
+00:01:09,494 --> 00:01:15,160
+into a ledger of all the transactions that have ever taken place in the Bitcoin system.
+
+22
+00:01:15,160 --> 00:01:22,288
+What happens is that each node basically starts off by taking all of the previously unincorporated transactions
+
+23
+00:01:22,288 --> 00:01:23,450
+that they've ever received.
+
+24
+00:01:23,450 --> 00:01:27,461
+That will be all these transactions that have kind of happened within a given time window.
+
+25
+00:01:27,461 --> 00:01:31,624
+So these are all these bitcoin transactions kind of floating around.
+
+26
+00:01:31,624 --> 00:01:35,602
+And these nodes, these bitcoin miners as they are called,
+
+27
+00:01:35,602 --> 00:01:38,668
+are gonna receive information about all these different transactions
+
+28
+00:01:38,668 --> 00:01:41,312
+and they are gonna start working on incorporating those transactions.
+
+29
+00:01:41,881 --> 00:01:47,442
+Their first goal is to collate these transactions
+
+30
+00:01:47,442 --> 00:01:49,671
+into what's known as a transaction block.
+
+31
+00:01:49,671 --> 00:01:52,368
+If you recall our ledger analogy,
+
+32
+00:01:52,368 --> 00:01:59,332
+a single bitcoin transaction essentially corresponds to a proposed entry in a ledger.
+
+33
+00:01:59,332 --> 00:02:05,464
+In that capacity, a transaction block will basically correspond to a page in a ledger
+
+34
+00:02:05,464 --> 00:02:10,486
+where you have multiple transactions that are listed in that page of the ledger.
+
+35
+00:02:10,486 --> 00:02:19,103
+The bitcoin miners' goal is to take that page and get it added to the global ledger book,
+
+36
+00:02:19,103 --> 00:02:22,068
+the global comprehensive ledger book.
+
+37
+00:02:22,068 --> 00:02:23,570
+They engage in this sort of work
+
+38
+00:02:23,570 --> 00:02:25,011
+but it isn't all they basically do.
+
+39
+00:02:25,011 --> 00:02:28,105
+First, take all the transactions that have been broadcast,
+
+40
+00:02:28,105 --> 00:02:30,777
+let's say these four transactions have been broadcast out,
+
+41
+00:02:30,777 --> 00:02:34,903
+and they are gonna basically hash these transactions in pairs
+
+42
+00:02:34,903 --> 00:02:37,308
+in the tree-like structure
+
+43
+00:02:37,308 --> 00:02:41,924
+They'll take these two transactions and apply cryptographic hash function
+
+44
+00:02:41,924 --> 00:02:44,192
+and they'll get a corresponding digest,
+
+45
+00:02:44,192 --> 00:02:45,708
+they'll do the same to these two,
+
+46
+00:02:45,708 --> 00:02:51,092
+and they'll take these two digests and hash them to get a single digest value.
+
+47
+00:02:51,092 --> 00:02:59,498
+This digest effectively encodes all of the transactions that were previously unincorporated
+
+48
+00:02:59,498 --> 00:03:03,159
+and were received by these individual nodes.
+
+49
+00:03:03,159 --> 00:03:10,432
+This digest is going to be combined with the hash of the transaction block
+
+50
+00:03:10,432 --> 00:03:12,561
+that was previously accepted by that network.
+
+51
+00:03:12,561 --> 00:03:18,400
+You can imagine that the network will have a series of transaction blocks that were previously accepted.
+
+52
+00:03:18,400 --> 00:03:23,867
+In fact, every transaction block incorporates the previous transaction block.
+
+53
+00:03:23,867 --> 00:03:28,627
+So, this transaction block will incorporate the one that was used just before it.
+
+54
+00:03:28,627 --> 00:03:31,507
+And this transaction block will incorporate the one that was used just forward.
+
+55
+00:03:31,507 --> 00:03:35,119
+It's gonna go on literally to the beginning of bitcoin times.
+
+56
+00:03:35,119 --> 00:03:40,032
+This is really the beginning of time for the Bitcoin system.
+
+57
+00:03:40,032 --> 00:03:44,087
+This is the time equals zero for Bitcoin.
+
+58
+00:03:45,732 --> 00:03:47,970
+They are gonna take this last block
+
+59
+00:03:47,970 --> 00:03:54,810
+and combine it with this most recent block.
+
+60
+00:03:54,810 --> 00:03:58,615
+If you imagine that you have now not just individual block,
+
+61
+00:03:58,615 --> 00:04:02,376
+because each individual block incorporates the block before it,
+
+62
+00:04:02,376 --> 00:04:05,795
+we are not dealing anymore with an isolated or distinct block of transactions,
+
+63
+00:04:05,795 --> 00:04:09,228
+but rather with a chain of blocks
+
+64
+00:04:09,228 --> 00:04:12,950
+that starts literally at the beginning of the entire Bitcoin system.
+
+65
+00:04:14,580 --> 00:04:16,771
+When you do all this combination,
+
+66
+00:04:16,771 --> 00:04:18,676
+at the end of the day, you are gonna do some cryptographic hashing,
+
+67
+00:04:18,676 --> 00:04:21,574
+and you basically will end up with the sequence of numbers.
+
+68
+00:04:21,574 --> 00:04:25,767
+This sequence of numbers will be derived by incorporating all these blocks together.
+
+69
+00:04:25,767 --> 00:04:27,634
+You will get the sequence of numbers
+
+70
+00:04:27,634 --> 00:04:30,958
+and what we're gonna do is take this sequence of numbers
+
+71
+00:04:30,958 --> 00:04:33,072
+and convert that sequence of numbers
+
+72
+00:04:33,072 --> 00:04:37,529
+into a challenge in a proof of work protocol.
+
+73
+00:04:37,529 --> 00:04:40,572
+I did a suport video on proof of work protocols.
+
+74
+00:04:40,572 --> 00:04:41,952
+I would encourage you to watch that
+
+75
+00:04:41,952 --> 00:04:44,622
+if you want to get a better sense for how they work.
+
+76
+00:04:44,622 --> 00:04:49,615
+But the short of it is that, what the bitcoin mining node has to do with this point
+
+77
+00:04:49,615 --> 00:04:56,199
+is he'll take the challenge and will have to come up with a separate sequence of numbers,
+
+78
+00:04:56,199 --> 00:05:00,634
+which we typically term the proof, for the proof of work.
+
+79
+00:05:00,634 --> 00:05:03,500
+This proof of work has to have a very specific mathematical property.
+
+80
+00:05:03,500 --> 00:05:04,971
+What that property entails
+
+81
+00:05:04,971 --> 00:05:07,414
+is that if you take the challenge numbers
+
+82
+00:05:07,414 --> 00:05:08,793
+and you take these proof numbers
+
+83
+00:05:08,793 --> 00:05:10,704
+and you concatenate them together
+
+84
+00:05:10,704 --> 00:05:15,041
+and you make them the input to a cryptographic hash function
+
+85
+00:05:15,703 --> 00:05:20,557
+the resulting output has to have a large prefix of zeros.
+
+86
+00:05:20,927 --> 00:05:25,512
+It doesn't have to be all zeros but a large portion of the beginning, the prefix
+
+87
+00:05:25,512 --> 00:05:28,265
+has to be all zeros.
+
+88
+00:05:29,065 --> 00:05:31,091
+If you think about it for a moment,
+
+89
+00:05:31,091 --> 00:05:33,041
+giving the cryptographic hash functions,
+
+90
+00:05:33,041 --> 00:05:36,688
+giving that their output tends to look thoroughly random,
+
+91
+00:05:36,688 --> 00:05:39,521
+it is unlikely that in any given instance
+
+92
+00:05:39,521 --> 00:05:45,865
+you are going to see a proof that provides you with a large string of zeros at the beginning.
+
+93
+00:05:45,865 --> 00:05:47,926
+What the bitcoin miner will have to do
+
+94
+00:05:47,926 --> 00:05:52,075
+is on average he'll have to try many possible choices for these proof numbers
+
+95
+00:05:52,075 --> 00:05:54,472
+until he finally gets lucky
+
+96
+00:05:54,472 --> 00:05:59,742
+and he stumbles upon what has this off-beat or strange statistical property.
+
+97
+00:06:00,189 --> 00:06:04,282
+The actual difficulty of finding these proof numbers
+
+98
+00:06:04,282 --> 00:06:08,570
+is dependent on exactly how many leading zeros are required.
+
+99
+00:06:08,570 --> 00:06:12,534
+The more leading zeros you require in this proof,
+
+100
+00:06:12,534 --> 00:06:15,048
+the longer it takes to actually solve the problem.
+
+101
+00:06:15,048 --> 00:06:17,493
+The longer it takes to actually come up with the proof
+
+102
+00:06:17,493 --> 00:06:19,652
+that works with respect to a given challenge.
+
+103
+00:06:19,652 --> 00:06:21,404
+The fewer zeros you require,
+
+104
+00:06:21,404 --> 00:06:22,903
+the less time it will take.
+
+105
+00:06:22,903 --> 00:06:27,534
+The exact numer of zero bits required in the bitcoin protocol
+
+106
+00:06:27,534 --> 00:06:28,998
+actually does change over time.
+
+107
+00:06:28,998 --> 00:06:29,995
+It gets
+
+108
+00:06:29,995 --> 00:06:35,714
+The average time taken across the whole system
+
+109
+00:06:35,714 --> 00:06:38,461
+should be about ten minutes.
+
+110
+00:06:38,461 --> 00:06:42,107
+So you wanna take about ten minutes for at least one node
+
+111
+00:06:42,107 --> 00:06:44,714
+to come up with a valid proof.
+
+112
+00:06:44,714 --> 00:06:48,549
+But keep in mind that a lot of nodes are working on this proof concurrently.
+
+113
+00:06:49,273 --> 00:06:51,133
+Once this proof of work is found...
+
+114
+00:06:51,133 --> 00:06:55,124
+Let's say that proof of work is eventually found.
+
+115
+00:06:55,124 --> 00:06:59,157
+...the bitcoin miner will announce the result to the overall peer-to-peer network.
+
+116
+00:06:59,157 --> 00:07:02,475
+It's gonna take this proof and all the challenge and so on
+
+117
+00:07:02,475 --> 00:07:04,280
+and it's gonna announce it to all the other nodes.
+
+118
+00:07:04,280 --> 00:07:06,746
+They are not gonna say that: "Hey, there is this proof out there,
+
+119
+00:07:06,746 --> 00:07:09,450
+somebody found it! Let's drop the other stuff we were doing
+
+120
+00:07:09,450 --> 00:07:13,520
+and we are gonna now start to work and build on top of this new proof."
+
+121
+00:07:13,520 --> 00:07:15,864
+Remember, this new proof and this new challenge
+
+122
+00:07:15,864 --> 00:07:18,837
+incorporate all the previous transaction blocks.
+
+123
+00:07:18,837 --> 00:07:21,198
+What they are starting to do is
+
+124
+00:07:21,198 --> 00:07:26,830
+they are starting to work out a new, updated transaction block chain.
+
+125
+00:07:27,369 --> 00:07:30,991
+They are gonna incorporate any new unincorporated transactions
+
+126
+00:07:30,991 --> 00:07:33,097
+into that new transaction block chain.
+
+127
+00:07:33,097 --> 00:07:34,927
+There are a couple of points I wanna make.
+
+128
+00:07:34,927 --> 00:07:39,241
+First of all, as part of constructing these transaction block chains,
+
+129
+00:07:39,241 --> 00:07:43,412
+really as part of incorporating them into a transaction block chain,
+
+130
+00:07:43,412 --> 00:07:48,465
+bitcoin miners are atually allowed one little special treat.
+
+131
+00:07:48,465 --> 00:07:53,328
+They are allowed to include in that transaction block
+
+132
+00:07:53,328 --> 00:07:54,999
+a special node for themselves.
+
+133
+00:07:54,999 --> 00:07:58,376
+This node will basically be a little reward that they can get...
+
+134
+00:07:58,376 --> 00:08:02,328
+Let me use the grittish colour for that reward.
+
+135
+00:08:02,328 --> 00:08:06,262
+...they can take the first block,
+
+136
+00:08:06,262 --> 00:08:09,573
+the first transaction record,
+
+137
+00:08:09,573 --> 00:08:12,100
+and they can put in that transaction record,
+
+138
+00:08:12,100 --> 00:08:14,672
+they can assign the reward to themselves.
+
+139
+00:08:14,672 --> 00:08:18,025
+The amount of that reward will change over time.
+
+140
+00:08:18,025 --> 00:08:22,201
+I do wanna point out that what this transaction is typically called
+
+141
+00:08:22,201 --> 00:08:25,672
+this is called the coinbase transaction
+
+142
+00:08:25,672 --> 00:08:27,783
+or a generation transaction.
+
+143
+00:08:27,783 --> 00:08:31,817
+This is how new coins get included in the Bitcoin system.
+
+144
+00:08:31,817 --> 00:08:36,414
+Whenever a miner succeeds in coming up with a proof,
+
+145
+00:08:36,414 --> 00:08:40,538
+as part of that he will have been allowed to come up with his own transaction
+
+146
+00:08:40,538 --> 00:08:42,996
+to reward himself a special reward
+
+147
+00:08:42,996 --> 00:08:46,201
+for expanding the effort necessary to come up with this proof
+
+148
+00:08:46,201 --> 00:08:48,489
+and for doing all this work
+
+149
+00:08:48,489 --> 00:08:51,401
+associated with adding a new transaction block
+
+150
+00:08:51,401 --> 00:08:55,088
+to the existing transaction block chain for Bitcoin.
+
+151
+00:08:55,488 --> 00:09:00,240
+I think, that is reasonable after all these nodes are using a lot of computational power
+
+152
+00:09:00,240 --> 00:09:03,500
+to come up with these proofs.
+
+153
+00:09:03,500 --> 00:09:05,868
+It's using computational power that must mean
+
+154
+00:09:05,868 --> 00:09:09,990
+that somewhere along the line somebody is spending money on electricity and so on.
+
+155
+00:09:09,990 --> 00:09:13,763
+I also wanna point out to an addition to this coin base of a word.
+
+156
+00:09:13,763 --> 00:09:16,595
+The nodes who are doing the bitcoin mining,
+
+157
+00:09:16,595 --> 00:09:18,043
+the ones who succeed
+
+158
+00:09:18,043 --> 00:09:21,821
+also get to collect the transaction fees that were specified in the transaction record.
+
+159
+00:09:21,821 --> 00:09:26,465
+So if you recall, a person issuing a transaction with Bitcoin
+
+160
+00:09:26,465 --> 00:09:30,190
+can allocate or set aside a certain amount of money,
+
+161
+00:09:30,190 --> 00:09:32,791
+maybe it could be a bitcoin or a fraction of a bitcoin,
+
+162
+00:09:32,791 --> 00:09:38,069
+for the node who succeeds in coming up with the actual proof of work
+
+163
+00:09:38,069 --> 00:09:42,550
+and succeds in being able to add that transaction
+
+164
+00:09:42,550 --> 00:09:45,824
+to the overall bitcoin transaction block chain.
+
+165
+00:09:45,824 --> 00:09:48,067
+So, that node that does the work and succeeds
+
+166
+00:09:48,067 --> 00:09:50,190
+gets a reward of the transaction fee.
+
+167
+00:09:50,190 --> 00:09:52,571
+This could actually become quite a large,
+
+168
+00:09:52,571 --> 00:09:57,411
+because the node that will normally get the transaction fee for one transaction
+
+169
+00:09:57,411 --> 00:10:00,137
+will get the transaction fee for all the transactions
+
+170
+00:10:00,137 --> 00:10:02,128
+that appeared in the current block.
+
+171
+00:10:02,128 --> 00:10:06,725
+It's gonna get the aggregate over all these different transactions.
+
+172
+00:10:06,725 --> 00:10:09,591
+The second point I wanna make is that it might be possible
+
+173
+00:10:09,591 --> 00:10:13,692
+for two nodes to solve the proof of work independently of each other.
+
+174
+00:10:13,692 --> 00:10:18,590
+Somehow they may both end up trying to add to that existing chain in some way,
+
+175
+00:10:18,590 --> 00:10:20,992
+so you may get some weird chain forking happening.
+
+176
+00:10:20,992 --> 00:10:24,289
+If that happens, the peers in the Bitcoin network
+
+177
+00:10:24,289 --> 00:10:27,316
+will basically break a tie
+
+178
+00:10:27,316 --> 00:10:30,327
+by sticking with the longest chain.
+
+179
+00:10:30,327 --> 00:10:34,623
+By longest I don't mean the one that has to mean the most transactions in it.
+
+180
+00:10:34,623 --> 00:10:38,712
+I really mean the one that has the highest aggregate difficulty
+
+181
+00:10:38,712 --> 00:10:41,932
+associated with thet underlying proof of work protocol
+
+182
+00:10:41,932 --> 00:10:43,995
+in each of the transaction blocks.
+
+183
+00:10:43,995 --> 00:10:46,293
+I'll basically look at the total amount of effort
+
+184
+00:10:46,293 --> 00:10:48,817
+that was required to generate that chain,
+
+185
+00:10:48,817 --> 00:10:50,519
+but regarded that proof of work,
+
+186
+00:10:50,519 --> 00:10:54,237
+and whichever chain has the most work associated with it
+
+187
+00:10:54,237 --> 00:10:57,769
+is the chain that everybody will accept.
+
+188
+00:10:57,769 --> 00:11:01,394
+You may get some more discrepancies because of network and so on,
+
+189
+00:11:01,394 --> 00:11:03,803
+but the idea is that after a couple of rounds
+
+190
+00:11:03,803 --> 00:11:06,147
+when there are ties, they'll quickly resolve themselves
+
+191
+00:11:06,147 --> 00:11:08,476
+as long as most of the nodes are behaving honestly
+
+192
+00:11:08,476 --> 00:11:12,178
+and stick to their implementation of the protocol.
+
+193
+00:11:12,763 --> 00:11:14,690
+Since bitcoin miners are generating bitcoins
+
+194
+00:11:14,690 --> 00:11:16,834
+I think there is an interesting question that comes up here,
+
+195
+00:11:16,834 --> 00:11:20,133
+which is how is the Bitcoin money supply controlled
+
+196
+00:11:20,133 --> 00:11:21,188
+and how is it managed.
+
+197
+00:11:21,188 --> 00:11:23,962
+I am gonna talk about that concept in a subsequent video.

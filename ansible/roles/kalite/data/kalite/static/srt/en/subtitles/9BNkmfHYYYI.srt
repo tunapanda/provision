@@ -1,0 +1,319 @@
+1
+00:00:00,500 --> 00:00:04,070
+We know the magnitude of the acceleration due to gravity
+
+2
+00:00:04,070 --> 00:00:09,310
+at 400 kilometers above the surface of the Earth where the space station might hang out
+
+3
+00:00:09,460 --> 00:00:11,400
+What I want to do in this video is think about
+
+4
+00:00:11,550 --> 00:00:14,820
+how fast does the space station need to be moving
+
+5
+00:00:14,820 --> 00:00:24,340
+in order to stay in orbit, in order to maintain its circular motion around the earth
+
+6
+00:00:24,620 --> 00:00:28,750
+So we know from our studies of circular motion so far
+
+7
+00:00:28,760 --> 00:00:32,670
+what's keeping it going in circular motion assuming that it has a constant speed
+
+8
+00:00:32,840 --> 00:00:35,570
+is some type of centripetal acceleration
+
+9
+00:00:35,750 --> 00:00:39,590
+And that centripetal acceleration is the acceleration due to gravity
+
+10
+00:00:39,740 --> 00:00:42,480
+And we figured out what it was at 400 km
+
+11
+00:00:42,480 --> 00:00:51,380
+So we know that the magnitude of that centripetal acceleration has to be equal to this
+
+12
+00:00:51,400 --> 00:00:58,450
+speed or the magnitude of the velocity squared divided by r
+
+13
+00:00:58,450 --> 00:01:01,980
+where r is the radius of the circular path
+
+14
+00:01:02,000 --> 00:01:07,520
+the radius of the orbit, which would be the radius of Earth plus the altitude
+
+15
+00:01:07,520 --> 00:01:13,080
+So that we figured out in the last video, is 6771 km
+
+16
+00:01:13,460 --> 00:01:18,140
+Let's just solve this for v. Then we can put in the numbers in our calculator
+
+17
+00:01:18,160 --> 00:01:21,230
+So you multiply both sides by r and flip the two sides
+
+18
+00:01:21,440 --> 00:01:26,610
+You get v squared is equal to the magnitude of our acceleration times the radius
+
+19
+00:01:26,780 --> 00:01:32,660
+The magnitude of our velocity or speed is equal to the square root of our acceleration
+
+20
+00:01:32,660 --> 00:01:37,130
+times--or the magnitude for acceleration times the radius
+
+21
+00:01:37,230 --> 00:01:40,380
+So let's get our calculator out and you can verify that the units work out
+
+22
+00:01:40,400 --> 00:01:45,260
+This is meters per second squared times meters which is meter squared per second squared
+
+23
+00:01:45,260 --> 00:01:47,460
+take the sqrt of that, you get meters per second
+
+24
+00:01:47,510 --> 00:01:49,370
+which is the appropriate units
+
+25
+00:01:49,380 --> 00:01:54,240
+So let's get our calculator out and actually calculate this
+
+26
+00:01:54,840 --> 00:01:56,160
+There you go
+
+27
+00:01:56,600 --> 00:02:02,460
+And then we want to calculate the principal square root of
+
+28
+00:02:02,940 --> 00:02:14,060
+the magnitude of acceleration due to gravity at this altitude is 8.69 m/s squared
+
+29
+00:02:14,060 --> 00:02:21,790
+times the radius of our circular path which is the radius of Earth which is 6371 km
+
+30
+00:02:21,790 --> 00:02:26,820
+plus the 400 km of altitude that we have in this scenario
+
+31
+00:02:27,020 --> 00:02:36,040
+So that gives us--we did this in the last video--6.771 times 10^6 m
+
+32
+00:02:36,040 --> 00:02:38,320
+It's important that everything here is in meters
+
+33
+00:02:38,320 --> 00:02:40,750
+Our acceleration is in meters per second squared
+
+34
+00:02:40,900 --> 00:02:42,610
+This right over here is in meters
+
+35
+00:02:42,610 --> 00:02:44,700
+So the units don't do anything strange
+
+36
+00:02:45,100 --> 00:02:51,130
+And then we get our drumroll for how fast, in meters per second
+
+37
+00:02:51,930 --> 00:02:55,570
+We get 7670
+
+38
+00:02:55,720 --> 00:03:03,630
+7671, but I'll just stick to three significant digits, 7670 meters per second
+
+39
+00:03:04,450 --> 00:03:05,900
+Let me write that down
+
+40
+00:03:05,930 --> 00:03:13,650
+The necessary velocity to stay in orbit is 7670 meters per second
+
+41
+00:03:13,650 --> 00:03:15,860
+Let's just conceptualize that for a second
+
+42
+00:03:15,890 --> 00:03:24,450
+Every second it's going over 7000 m, or every second it's going over 7 km
+
+43
+00:03:24,470 --> 00:03:30,310
+If we assume that's the direction it's traveling, it's going at a super super fast speed
+
+44
+00:03:30,480 --> 00:03:34,650
+If we want to translate that into kilometers per hour
+
+45
+00:03:35,330 --> 00:03:39,480
+you just take 7670 meters per second
+
+46
+00:03:39,700 --> 00:03:46,560
+and say, there are 3600 seconds per hour
+
+47
+00:03:46,960 --> 00:03:51,020
+If you multiply that, that's how many meters it will travel in an hour
+
+48
+00:03:51,070 --> 00:03:53,820
+If you want that in kilometers, you just divide it by 1000
+
+49
+00:03:53,820 --> 00:03:59,860
+You have one kilometer for every 1000 m. Meters will cancel out
+
+50
+00:04:00,080 --> 00:04:05,200
+Seconds will cancel out. And you're left with kilometers per hour. So let's do that
+
+51
+00:04:05,700 --> 00:04:14,770
+So we multiply our previous answer by 3600 and then divide by 1000
+
+52
+00:04:15,290 --> 00:04:17,650
+or you just multiply it by 3.6
+
+53
+00:04:17,890 --> 00:04:26,320
+and then we get roughly 27,600 km/h
+
+54
+00:04:26,320 --> 00:04:29,280
+So this is really an unfathomable speed
+
+55
+00:04:29,390 --> 00:04:33,370
+And you might be wondering, how does such a big thing maintain that type of speed
+
+56
+00:04:33,370 --> 00:04:41,710
+Even a jet plane which is nowhere near this fast has to have huge engines to maintain its speed
+
+57
+00:04:41,740 --> 00:04:43,390
+how does this thing maintain it?
+
+58
+00:04:43,390 --> 00:04:51,510
+And the difference between this and a jet plane is that a jet, or a car, whatever--
+
+59
+00:04:51,510 --> 00:05:00,230
+let's focus on a jet plane. A jet plane has to travel through the air
+
+60
+00:05:00,250 --> 00:05:06,390
+It actually uses the air as its propulsion, sucks in the air and spits out the air really fast
+
+61
+00:05:06,510 --> 00:05:08,860
+But it has all of his air resistance
+
+62
+00:05:08,860 --> 00:05:15,540
+So if the engines were to shut down, all the air would bump into the plane
+
+63
+00:05:15,570 --> 00:05:19,050
+and provide essentially friction to slow down the plane
+
+64
+00:05:19,050 --> 00:05:23,620
+What the space station or the space shuttle or something in space has going for itself
+
+65
+00:05:23,740 --> 00:05:27,030
+is that it's traveling in an almost complete vacuum
+
+66
+00:05:27,180 --> 00:05:31,880
+Not 100% complete vacuum, but almost complete vacuum. So it has
+
+67
+00:05:32,010 --> 00:05:37,530
+pretty much no air resistance--negligible air resistance you have to deal with
+
+68
+00:05:37,720 --> 00:05:39,960
+So we know from Newton's Laws
+
+69
+00:05:39,960 --> 00:05:44,340
+an object in motion tends to stay in motion. So once this thing gets going
+
+70
+00:05:44,340 --> 00:05:49,110
+it doesn't have air to slow it down, it'll keep staying that speed
+
+71
+00:05:49,220 --> 00:05:56,930
+In fact if you did not have gravity which is causing the centripetal acceleration
+
+72
+00:05:56,930 --> 00:06:01,440
+it would just go in a straight path forever and ever
+
+73
+00:06:01,480 --> 00:06:05,260
+And that brings up an interesting point because if you are in order like this
+
+74
+00:06:05,260 --> 00:06:08,360
+traveling at this very very very fast speed
+
+75
+00:06:08,540 --> 00:06:11,670
+you have to make sure that you don't vary from this speed too much
+
+76
+00:06:11,670 --> 00:06:16,910
+If you slow down, you will slowly spiral into the Earth
+
+77
+00:06:17,100 --> 00:06:24,810
+If you speed up a lot beyond that speed, you will slowly spiral away from the Earth
+
+78
+00:06:24,820 --> 00:06:27,700
+because then the centripetal acceleration due to gravity
+
+79
+00:06:27,700 --> 00:06:30,310
+won't be enough to keep you in a perfect circular path
+
+80
+00:06:30,550 --> 00:06:34,860
+So you really have to stay pretty close to that speed right there

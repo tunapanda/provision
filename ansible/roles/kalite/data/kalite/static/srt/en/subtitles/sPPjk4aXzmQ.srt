@@ -1,0 +1,247 @@
+1
+99:59:59,999 --> 99:59:59,999
+What I want to do in this video is think about
+
+2
+99:59:59,999 --> 99:59:59,999
+the antiderivative of one over x
+
+3
+99:59:59,999 --> 99:59:59,999
+or another way of thinking about it is
+
+4
+99:59:59,999 --> 99:59:59,999
+the antiderivative of x to the negative one power
+
+5
+99:59:59,999 --> 99:59:59,999
+Now we already know that if we somehow try
+
+6
+99:59:59,999 --> 99:59:59,999
+to apply that anti-power rule,
+
+7
+99:59:59,999 --> 99:59:59,999
+that inverse power rule over here,
+
+8
+99:59:59,999 --> 99:59:59,999
+we would get something that is not defined.
+
+9
+99:59:59,999 --> 99:59:59,999
+We would get x to the zero over zero,
+
+10
+99:59:59,999 --> 99:59:59,999
+which doesn't make any sense.
+
+11
+99:59:59,999 --> 99:59:59,999
+And you might have been saying, OK, well I know what to do
+
+12
+99:59:59,999 --> 99:59:59,999
+in this case. When we first learned about derivatives
+
+13
+99:59:59,999 --> 99:59:59,999
+we know that that the derivative with respect to x
+
+14
+99:59:59,999 --> 99:59:59,999
+of the natural log of x is equal to one over x
+
+15
+99:59:59,999 --> 99:59:59,999
+So why can't we just say that the antiderivative of this right over here
+
+16
+99:59:59,999 --> 99:59:59,999
+is equal to the natural log of x plus c?
+
+17
+99:59:59,999 --> 99:59:59,999
+And this isn't necessarily wrong.
+
+18
+99:59:59,999 --> 99:59:59,999
+The problem here is that it's not broad enough.
+
+19
+99:59:59,999 --> 99:59:59,999
+And when I say it's not broad enough, it's that the domain
+
+20
+99:59:59,999 --> 99:59:59,999
+over here for our original function that we are taking
+
+21
+99:59:59,999 --> 99:59:59,999
+the antiderivative of is all real numbers except for x equals zero.
+
+22
+99:59:59,999 --> 99:59:59,999
+So over here x can not be equal to zero.
+
+23
+99:59:59,999 --> 99:59:59,999
+While the domain over here is only positive numbers.
+
+24
+99:59:59,999 --> 99:59:59,999
+So in this expression, x has to be greater than zero.
+
+25
+99:59:59,999 --> 99:59:59,999
+So it would be nice if we could come up with an antiderivative
+
+26
+99:59:59,999 --> 99:59:59,999
+that has the same domain as the function we're taking
+
+27
+99:59:59,999 --> 99:59:59,999
+the antiderivative of.
+
+28
+99:59:59,999 --> 99:59:59,999
+So it would be nice if we could find an antiderivative
+
+29
+99:59:59,999 --> 99:59:59,999
+that was defined everywhere the original function was
+
+30
+99:59:59,999 --> 99:59:59,999
+so pretty much everywhere except x equaling zero.
+
+31
+99:59:59,999 --> 99:59:59,999
+So how can we rearrange this a little bit so this
+
+32
+99:59:59,999 --> 99:59:59,999
+can be defined for negative values as well?
+
+33
+99:59:59,999 --> 99:59:59,999
+Well, one possibility is to think about the natural log of
+
+34
+99:59:59,999 --> 99:59:59,999
+the absolute value of x.
+
+35
+99:59:59,999 --> 99:59:59,999
+The natural log of the absolute value of x.
+
+36
+99:59:59,999 --> 99:59:59,999
+So I'll put a little question mark here because
+
+37
+99:59:59,999 --> 99:59:59,999
+we don't really know what the derivative of this thing is
+
+38
+99:59:59,999 --> 99:59:59,999
+going to be.
+
+39
+99:59:59,999 --> 99:59:59,999
+And I'm not going to rigorously prove it here,
+
+40
+99:59:59,999 --> 99:59:59,999
+but I'll give you kind of the conceptual understanding.
+
+41
+99:59:59,999 --> 99:59:59,999
+So to understand it, let's plot the natural log of x
+
+42
+99:59:59,999 --> 99:59:59,999
+And I'd done this ahead of time
+
+43
+99:59:59,999 --> 99:59:59,999
+So that over there is roughly what the graph of the natural log
+
+44
+99:59:59,999 --> 99:59:59,999
+of x might look like.
+
+45
+99:59:59,999 --> 99:59:59,999
+So what would the natural log of the absolute value of x look like?
+
+46
+99:59:59,999 --> 99:59:59,999
+Well for positive x's, it's going to look just like this
+
+47
+99:59:59,999 --> 99:59:59,999
+For positive x's, you take the absolute value of it
+
+48
+99:59:59,999 --> 99:59:59,999
+and it's just the same thing and taking that original value.
+
+49
+99:59:59,999 --> 99:59:59,999
+So it's going to look just like that for positive x's.
+
+50
+99:59:59,999 --> 99:59:59,999
+But now this is also going to be defined for negative x's.
+
+51
+99:59:59,999 --> 99:59:59,999
+If you're taking the absolute value of negative one,
+
+52
+99:59:59,999 --> 99:59:59,999
+that evaluates to just one.
+
+53
+99:59:59,999 --> 99:59:59,999
+And so it's just the natural log of one
+
+54
+99:59:59,999 --> 99:59:59,999
+so you're going to be right there.
+
+55
+99:59:59,999 --> 99:59:59,999
+As you get closer and closer to zero from the negative side
+
+56
+99:59:59,999 --> 99:59:59,999
+you're just going to take the absolute value
+
+57
+99:59:59,999 --> 99:59:59,999
+so it's essentially going to be exactly this curve for the natural log of x
+
+58
+99:59:59,999 --> 99:59:59,999
+but the left side of the natural log of the absolute value of x
+
+59
+99:59:59,999 --> 99:59:59,999
+is going to be its mirror image if you were to reflect around the y-axis
+
+60
+99:59:59,999 --> 99:59:59,999
+It's going to look something like this
+
+61
+99:59:59,999 --> 99:59:59,999
+So what's nice about this function is that it's defined everywhere
+
+62
+99:59:59,999 --> 99:59:59,999
+except for x equals zero.

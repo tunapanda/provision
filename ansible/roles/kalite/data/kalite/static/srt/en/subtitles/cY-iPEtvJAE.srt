@@ -1,0 +1,699 @@
+1
+00:00:00,050 --> 00:00:04,050
+We're on problem 245.
+
+2
+00:00:04,050 --> 00:00:14,310
+If x plus y is equal to a, and x minus y is equal to b,
+
+3
+00:00:14,310 --> 00:00:19,000
+then what is-- they want to know what 2xy is equal to.
+
+4
+00:00:19,000 --> 00:00:21,660
+Let's solve for x and y in terms of a and b,
+
+5
+00:00:21,660 --> 00:00:23,490
+and then just figure out what this equals to.
+
+6
+00:00:23,790 --> 00:00:26,200
+So we have two equations with two unknowns.
+
+7
+00:00:26,200 --> 00:00:28,990
+Let's just add them together to solve for x.
+
+8
+00:00:28,990 --> 00:00:32,340
+We get x plus x is 2x-- the y's cancel out--
+
+9
+00:00:32,340 --> 00:00:34,860
+is equal to a plus b.
+
+10
+00:00:34,860 --> 00:00:39,090
+Or x is equal to a plus b over 2.
+
+11
+00:00:39,990 --> 00:00:45,710
+Now if we had x plus y is equal to a-- I just re-wrote this.
+
+12
+00:00:45,710 --> 00:00:48,000
+And now if we multiply both sides of this by negative 1,
+
+13
+00:00:48,000 --> 00:00:52,570
+so we get minus x plus y is equal to minus b.
+
+14
+00:00:52,570 --> 00:00:54,550
+And now add these two equations.
+
+15
+00:00:54,550 --> 00:00:56,930
+So I'm essentially subtracting this equation from that one.
+
+16
+00:00:58,490 --> 00:01:03,290
+That cancels out, so I get 2y is equal to a minus b,
+
+17
+00:01:03,290 --> 00:01:09,650
+or y is equal to a minus b over 2.
+
+18
+00:01:09,900 --> 00:01:11,840
+And now we can figure out what 2xy is equal to.
+
+19
+00:01:11,840 --> 00:01:18,900
+2xy is equal to 2 times a plus b over 2,
+
+20
+00:01:18,900 --> 00:01:23,520
+times a minus b over 2.
+
+21
+00:01:23,520 --> 00:01:27,000
+This 2 will cancel out with one of these 2's.
+
+22
+00:01:27,000 --> 00:01:30,630
+And we're left with-- and what's a plus b times a minus b?
+
+23
+00:01:30,630 --> 00:01:36,020
+It's a squared minus b squared over 2.
+
+24
+00:01:36,520 --> 00:01:38,100
+Which is choice A.
+
+25
+00:01:40,350 --> 00:01:42,820
+Problem 246.
+
+26
+00:01:42,830 --> 00:01:45,050
+Let me do it in magenta.
+
+27
+00:01:45,050 --> 00:01:47,990
+246.
+
+28
+00:01:47,990 --> 00:01:51,650
+A rectangular circuit board is to have width w inches--
+
+29
+00:01:51,650 --> 00:01:53,030
+let me draw it.
+
+30
+00:01:53,330 --> 00:01:59,540
+So let's say it has width w inches, perimeter of p inches--
+
+31
+00:01:59,690 --> 00:02:02,210
+Ok. so let me just put that at the side right here--
+
+32
+00:02:02,260 --> 00:02:05,480
+perimeter of p inches, and area of k square inches.
+
+33
+00:02:05,480 --> 00:02:08,660
+Which of the following equations must be true?
+
+34
+00:02:08,660 --> 00:02:12,270
+And so they want us to relate this width
+
+35
+00:02:12,270 --> 00:02:15,020
+to the area to the perimeter.
+
+36
+00:02:15,020 --> 00:02:16,470
+Let me introduce another variable.
+
+37
+00:02:16,470 --> 00:02:19,000
+Let's call this, right here,
+
+38
+00:02:19,000 --> 00:02:23,040
+let's call this the height of the circuit board.
+
+39
+00:02:23,040 --> 00:02:25,150
+So now we can do some interesting things.
+
+40
+00:02:25,150 --> 00:02:27,010
+If that's the height, then that's also the height.
+
+41
+00:02:27,310 --> 00:02:29,460
+If that's the width, then this is also the width.
+
+42
+00:02:29,760 --> 00:02:31,470
+So let's see what the perimeter would be.
+
+43
+00:02:31,470 --> 00:02:35,370
+It will be 2 times the width,
+
+44
+00:02:35,370 --> 00:02:41,040
+plus 2 times the height is equal to the perimeter.
+
+45
+00:02:41,540 --> 00:02:42,270
+And then we could also say
+
+46
+00:02:42,270 --> 00:02:44,000
+width times height is equal to area.
+
+47
+00:02:44,000 --> 00:02:45,720
+But if we can solve for height
+
+48
+00:02:45,720 --> 00:02:47,840
+in terms of the perimeter and the width,
+
+49
+00:02:47,940 --> 00:02:49,580
+then we could use that to get an expression
+
+50
+00:02:49,580 --> 00:02:51,450
+that doesn't involve this variable.
+
+51
+00:02:51,450 --> 00:02:52,690
+So let's do that.
+
+52
+00:02:52,690 --> 00:02:54,850
+So if you divide both sides of this by 2,
+
+53
+00:02:54,850 --> 00:02:59,750
+you get width plus height is equal to perimeter over 2.
+
+54
+00:02:59,750 --> 00:03:03,360
+And then you get height is equal to
+
+55
+00:03:03,360 --> 00:03:06,000
+perimeter over 2 minus width.
+
+56
+00:03:10,310 --> 00:03:11,970
+And so the area, k,
+
+57
+00:03:12,520 --> 00:03:16,610
+will be equal to the width times the height.
+
+58
+00:03:16,610 --> 00:03:17,370
+Instead of writing an h there,
+
+59
+00:03:17,370 --> 00:03:19,030
+let's write what we just figured out.
+
+60
+00:03:19,030 --> 00:03:24,550
+p over 2 minus w.
+
+61
+00:03:27,020 --> 00:03:38,000
+And then that is equal to pw/2 minus w squared.
+
+62
+00:03:38,200 --> 00:03:39,780
+Let's see, when I look at the solution,
+
+63
+00:03:39,780 --> 00:03:41,600
+they don't have any fractions in it,
+
+64
+00:03:41,600 --> 00:03:43,360
+so let's multiple both sides of the equation by 2.
+
+65
+00:03:43,360 --> 00:03:46,570
+We can ignore this. k is equal to pw/2 minus w squared.
+
+66
+00:03:46,570 --> 00:03:48,120
+Multiply both sides by 2,
+
+67
+00:03:48,120 --> 00:03:53,660
+you get 2k is equal to pw minus w squared.
+
+68
+00:03:53,660 --> 00:03:55,660
+Let's add w squared the both sides.
+
+69
+00:03:55,660 --> 00:04:00,530
+You get w squared plus 2k is equal to pw.
+
+70
+00:04:00,830 --> 00:04:01,880
+Let's subtract,
+
+71
+00:04:01,880 --> 00:04:04,510
+because all of the choices have them setting equal to 0.
+
+72
+00:04:04,510 --> 00:04:09,370
+So then we could subtract pw from both sides, and you get--
+
+73
+00:04:09,670 --> 00:04:10,890
+oh wait, I made a mistake.
+
+74
+00:04:10,890 --> 00:04:14,680
+If we multiply both sides of this by 2, 2 times k is 2k.
+
+75
+00:04:14,680 --> 00:04:16,630
+2 times pw/2 is pw.
+
+76
+00:04:16,630 --> 00:04:20,030
+2 times minus w squared is minus 2w squared.
+
+77
+00:04:20,530 --> 00:04:24,000
+So in this step we have to add 2w squared to both sides.
+
+78
+00:04:24,000 --> 00:04:25,060
+Sorry about that.
+
+79
+00:04:25,760 --> 00:04:30,560
+So we have 2w squared plus 2k is equal to pw.
+
+80
+00:04:30,560 --> 00:04:36,000
+Subtract pw from both sides, you get 2w squared minus pw,
+
+81
+00:04:36,000 --> 00:04:40,610
+plus 2k is equal to 0.
+
+82
+00:04:40,610 --> 00:04:43,000
+And that is choice E, right?
+
+83
+00:04:43,000 --> 00:04:44,920
+2w squared minus pw plus 2k.
+
+84
+00:04:44,920 --> 00:04:47,060
+That is choice E.
+
+85
+00:04:47,860 --> 00:04:50,040
+Next question.
+
+86
+00:04:50,040 --> 00:04:55,070
+Problem 247.
+
+87
+00:04:55,370 --> 00:04:57,480
+An arithmetic sequence is a sequence
+
+88
+00:04:57,490 --> 00:04:59,260
+in which each term after the first
+
+89
+00:04:59,270 --> 00:05:02,440
+is equal to the sum of the preceding term and a constant.
+
+90
+00:05:02,950 --> 00:05:05,950
+If the list of letters shown above is an arithmetic sequence
+
+91
+00:05:05,960 --> 00:05:10,560
+so they wrote p, r, s, t, u.
+
+92
+00:05:10,560 --> 00:05:12,070
+So all they're saying is that,
+
+93
+00:05:13,490 --> 00:05:15,650
+the difference between p and r is going to be some number.
+
+94
+00:05:15,650 --> 00:05:16,680
+And the difference between r and s
+
+95
+00:05:16,680 --> 00:05:17,580
+is going to be that same number.
+
+96
+00:05:17,580 --> 00:05:18,700
+And the difference between s and t
+
+97
+00:05:18,700 --> 00:05:19,690
+is going to be that same number.
+
+98
+00:05:19,890 --> 00:05:22,120
+So an example of an arithmetic sequence,
+
+99
+00:05:22,120 --> 00:05:25,020
+this could be 1, 2, 3, 4, 5.
+
+100
+00:05:25,020 --> 00:05:28,050
+Because every number is one more than the one before it.
+
+101
+00:05:28,550 --> 00:05:30,680
+So anyway, they say which of the following
+
+102
+00:05:30,680 --> 00:05:33,000
+must also be an arithmetic sequence?
+
+103
+00:05:33,000 --> 00:05:45,020
+So choice one, they write 2p, 2r, 2s, 2t, 2u.
+
+104
+00:05:45,220 --> 00:05:46,720
+Well, let's just use our example.
+
+105
+00:05:46,720 --> 00:05:51,050
+If this was p, r, s, t, and u, what is 2 times all of that?
+
+106
+00:05:51,050 --> 00:05:55,720
+Well, then it'll be 2, 4-- no no, sorry--
+
+107
+00:05:55,720 --> 00:06:00,050
+it'll be, yeah, 2, 4, 6, 8, 10.
+
+108
+00:06:00,650 --> 00:06:02,670
+So now instead of incrementing by one every time,
+
+109
+00:06:02,680 --> 00:06:04,160
+we're incrementing by two every time.
+
+110
+00:06:04,160 --> 00:06:05,360
+But it's still an arithmetic sequence
+
+111
+00:06:05,360 --> 00:06:08,190
+because the difference between each number
+
+112
+00:06:08,190 --> 00:06:09,610
+and the number before it is a constant.
+
+113
+00:06:09,610 --> 00:06:11,290
+It's always equal to 2.
+
+114
+00:06:12,020 --> 00:06:16,030
+So choice number one is definitely an arithmetic sequence.
+
+115
+00:06:16,330 --> 00:06:17,060
+Choice two.
+
+116
+00:06:19,090 --> 00:06:21,600
+And if you say, well, that works for that example,
+
+117
+00:06:21,600 --> 00:06:22,840
+how do I know it'll work for all examples?
+
+118
+00:06:22,840 --> 00:06:23,710
+So the other way to think about is,
+
+119
+00:06:23,710 --> 00:06:26,080
+whatever the difference is between p and r,
+
+120
+00:06:26,380 --> 00:06:28,050
+now you're going to have twice the difference
+
+121
+00:06:28,050 --> 00:06:29,370
+between 2p and 2r.
+
+122
+00:06:31,090 --> 00:06:33,020
+And it was the same distance between r and s,
+
+123
+00:06:33,020 --> 00:06:34,260
+now you're going to have twice that distance
+
+124
+00:06:34,260 --> 00:06:35,780
+between 2r and 2s.
+
+125
+00:06:35,780 --> 00:06:38,860
+So here in our particular example, we went from 1 to 2,
+
+126
+00:06:38,860 --> 00:06:40,570
+but it could have been something else.
+
+127
+00:06:40,570 --> 00:06:45,340
+OK, Statement two says, p minus 3, r minus 3--
+
+128
+00:06:45,340 --> 00:06:46,630
+so they're just shifting everything;
+
+129
+00:06:46,630 --> 00:06:48,020
+I don't even have to write them alll--
+
+130
+00:06:48,020 --> 00:06:50,040
+all the way to u minus 3.
+
+131
+00:06:50,340 --> 00:06:52,380
+So they just took everything in this sequence
+
+132
+00:06:52,380 --> 00:06:54,040
+and made them three less.
+
+133
+00:06:54,040 --> 00:06:59,990
+But if r minus p is equal to some number, r minus 3,
+
+134
+00:06:59,990 --> 00:07:02,720
+minus p minus 3 is going to be the exact same thing.
+
+135
+00:07:02,720 --> 00:07:04,510
+I can even prove that to you, right?
+
+136
+00:07:04,510 --> 00:07:11,480
+r minus p-- sorry, r minus 3, minus p minus 3.
+
+137
+00:07:11,680 --> 00:07:16,540
+That's equal to r minus 3, minus p plus 3.
+
+138
+00:07:16,640 --> 00:07:19,090
+And so these cancel out.
+
+139
+00:07:19,490 --> 00:07:22,770
+So the difference between this and this
+
+140
+00:07:22,770 --> 00:07:25,990
+ends up to be r minus p, the difference between that and that
+
+141
+00:07:25,990 --> 00:07:27,250
+And that should make sense intuitively,
+
+142
+00:07:27,260 --> 00:07:30,850
+we're just shifting all the numbers down by three.
+
+143
+00:07:30,850 --> 00:07:34,000
+So that shouldn't change the difference between the numbers.
+
+144
+00:07:34,000 --> 00:07:36,500
+So two is still an arithmetic sequence.
+
+145
+00:07:38,490 --> 00:07:40,020
+Statement three.
+
+146
+00:07:40,020 --> 00:07:44,880
+p squared, r squared-- so we're just squaring all the numbers
+
+147
+00:07:44,880 --> 00:07:46,980
+t squared, and u squared.
+
+148
+00:07:46,980 --> 00:07:48,530
+So let's just use our particular example.
+
+149
+00:07:48,530 --> 00:07:53,030
+If p was 1, then p squared is 1, 2 squared is 4,
+
+150
+00:07:53,030 --> 00:07:56,680
+s squared is 9-- right, 3 squared is nine, 4 squared is 16.
+
+151
+00:07:56,680 --> 00:07:58,480
+Now what's the difference between the numbers?
+
+152
+00:07:58,480 --> 00:08:00,030
+The difference here is three.
+
+153
+00:08:00,030 --> 00:08:01,940
+The difference here is five.
+
+154
+00:08:01,940 --> 00:08:04,810
+The difference here is seven.
+
+155
+00:08:07,390 --> 00:08:09,520
+well, first of all, let's just answer our question.
+
+156
+00:08:09,520 --> 00:08:11,490
+The difference is now not constant.
+
+157
+00:08:11,490 --> 00:08:12,780
+We have a different difference
+
+158
+00:08:12,780 --> 00:08:14,830
+between each successive number, right?
+
+159
+00:08:14,830 --> 00:08:17,900
+At the beginning, the difference is two every time.
+
+160
+00:08:17,900 --> 00:08:19,780
+Here it's three, then it changes to five,
+
+161
+00:08:19,780 --> 00:08:21,010
+then it changes to seven.
+
+162
+00:08:21,010 --> 00:08:23,800
+So three is not an arithmetic sequence.
+
+163
+00:08:23,800 --> 00:08:27,060
+So the answer is D, one and two.
+
+164
+00:08:28,820 --> 00:08:29,930
+This is something interesting.
+
+165
+00:08:29,930 --> 00:08:31,780
+And if you've never experimented with it,
+
+166
+00:08:31,780 --> 00:08:33,170
+this is something to look at.
+
+167
+00:08:33,370 --> 00:08:35,380
+I've always been fascinated by the distance
+
+168
+00:08:35,380 --> 00:08:39,440
+between the perfect squares increases by increasing odd numbers,
+
+169
+00:08:39,440 --> 00:08:41,020
+which is just something to think about.
+
+170
+00:08:41,020 --> 00:08:42,070
+Anyway, next problem.
+
+171
+00:08:47,020 --> 00:08:48,850
+Actually, I have two problems left
+
+172
+00:08:48,850 --> 00:08:50,430
+out of all of the problem-solving problems,
+
+173
+00:08:50,430 --> 00:08:53,200
+so instead of just doing one problem and going over time,
+
+174
+00:08:53,200 --> 00:08:55,150
+let me do two of them in the the next video.
+
+175
+00:08:55,150 --> 00:08:56,050
+See you soon.

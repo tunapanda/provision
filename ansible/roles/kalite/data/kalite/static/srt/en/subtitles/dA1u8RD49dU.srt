@@ -1,0 +1,527 @@
+1
+00:00:00,090 --> 00:00:02,580
+We're on problem 87.
+
+2
+00:00:04,990 --> 00:00:09,780
+Machine A produces parts twice as fast as machine B does.
+
+3
+00:00:09,780 --> 00:00:15,930
+So machine A produces 100 parts twice as fast as machine B,
+
+4
+00:00:15,930 --> 00:00:19,000
+let me just keep reading,machine B produces 100 parts
+
+5
+00:00:19,000 --> 00:00:19,990
+in 40 minutes.
+
+6
+00:00:28,770 --> 00:00:30,500
+So that's equal to what?
+
+7
+00:00:30,500 --> 00:00:35,060
+100 divided by 40,that's 2.5 parts per minute.
+
+8
+00:00:35,060 --> 00:00:37,690
+And they told us A produces it twice as fast,
+
+9
+00:00:37,690 --> 00:00:40,160
+so A is going to be twice that,
+
+10
+00:00:40,160 --> 00:00:42,190
+so A is going to be 5 parts per minute.
+
+11
+00:00:45,680 --> 00:00:48,310
+If each machine produces parts at a constant rate,
+
+12
+00:00:48,310 --> 00:00:52,570
+how many parts does machine A produce in 6 minutes?
+
+13
+00:00:52,570 --> 00:00:55,690
+So 5 parts per minute times 6 minutes.
+
+14
+00:00:55,690 --> 00:00:57,720
+6 minutes is equal to what?
+
+15
+00:00:57,720 --> 00:01:04,870
+Minutes cancel out,6 times 5 is 30 parts. Choice A. 88.
+
+16
+00:01:06,390 --> 00:01:10,710
+A necklace is made by stringing n individual beads together
+
+17
+00:01:10,710 --> 00:01:14,850
+in the repeating pattern red bead,green bead, white bead.
+
+18
+00:01:14,850 --> 00:01:24,570
+Let's see. So,red,green,white,blue,and then yellow,
+
+19
+00:01:24,570 --> 00:01:25,580
+and you keep repeating.
+
+20
+00:01:25,580 --> 00:01:28,740
+If the necklace begins with a red bead,
+
+21
+00:01:28,740 --> 00:01:33,720
+and ends with a white bead,then n could be equal to?
+
+22
+00:01:33,720 --> 00:01:36,980
+So let's think about it,it starts with a red bead,
+
+23
+00:01:40,350 --> 00:01:43,240
+and ends with a white bead.
+
+24
+00:01:43,240 --> 00:01:46,850
+So let's think about this,if it's exactly a multiple of 5,
+
+25
+00:01:46,850 --> 00:01:53,270
+if n is equal to exactly the number of beads in this pattern,
+
+26
+00:01:53,270 --> 00:01:57,240
+then it'll always end with a yellow.
+
+27
+00:01:57,880 --> 00:02:03,950
+So if n is equal to some multiple of 5,it could be 5,
+
+28
+00:02:03,950 --> 00:02:05,300
+it could be 10,or whatever,
+
+29
+00:02:05,300 --> 00:02:07,500
+then you're going to end with a yellow bead.
+
+30
+00:02:07,500 --> 00:02:09,020
+That makes sense.
+
+31
+00:02:09,020 --> 00:02:11,600
+If you have 10,you'd just have the pattern twice.
+
+32
+00:02:12,140 --> 00:02:17,850
+If n is equal to some multiple of 5 plus 1,
+
+33
+00:02:17,850 --> 00:02:22,320
+then you're always going to complete the cycle completely,
+
+34
+00:02:22,320 --> 00:02:23,140
+and then your going to have one more,
+
+35
+00:02:23,140 --> 00:02:24,500
+and you're going to end with a red bead.
+
+36
+00:02:25,960 --> 00:02:27,250
+I think you see the pattern here.
+
+37
+00:02:27,250 --> 00:02:29,700
+If n is equal to some multiple of 5,
+
+38
+00:02:29,970 --> 00:02:32,330
+and then it has 2 left over,
+
+39
+00:02:32,330 --> 00:02:35,400
+or when it's divided by 5,it has a remainder of 2,
+
+40
+00:02:35,400 --> 00:02:37,170
+you're going to end with a green bead.
+
+41
+00:02:38,240 --> 00:02:39,460
+The multiple of 5 parts,
+
+42
+00:02:39,460 --> 00:02:40,560
+you're going to complete all the way to yellow,
+
+43
+00:02:40,560 --> 00:02:41,880
+and you're going to have 1,2 left.
+
+44
+00:02:41,880 --> 00:02:46,010
+And so if n is equal to a multiple of 5 plus 3,
+
+45
+00:02:46,010 --> 00:02:48,780
+then you're going to end with a white bead.
+
+46
+00:02:50,670 --> 00:02:54,380
+So a multiple of 5 plus 3 is essentially any number
+
+47
+00:02:54,380 --> 00:02:58,710
+that ends with either an 8 or 3,because a multiple of 5
+
+48
+00:02:58,710 --> 00:03:00,320
+ends with either a 5 or a 0.
+
+49
+00:03:00,320 --> 00:03:02,960
+So let's see what choices they give us.
+
+50
+00:03:03,960 --> 00:03:06,870
+They give us 16,not a multiple of 5 plus 3.
+
+51
+00:03:06,870 --> 00:03:12,530
+32,not a multiple of 5 plus 3,41 is not,54 is not.
+
+52
+00:03:12,530 --> 00:03:18,180
+68,that is a multiple of 5 plus 3. It's 65 plus 3.
+
+53
+00:03:18,180 --> 00:03:24,770
+65 is 13 times 5,that's equal to 13 times 5 plus 3,
+
+54
+00:03:24,770 --> 00:03:29,680
+so the choice is E. Problem 89.
+
+55
+00:03:34,430 --> 00:03:44,490
+In the x-y coordinate system,if a,b and a plus 3,b plus k
+
+56
+00:03:44,490 --> 00:03:49,190
+are two points on the line defined by the equation x is
+
+57
+00:03:49,190 --> 00:03:57,070
+equal to 3y minus 7,then k is equal to what?
+
+58
+00:03:58,490 --> 00:04:03,120
+Well I think an easier thing to do is to--
+
+59
+00:04:03,120 --> 00:04:06,880
+well actually we could just stay--
+
+60
+00:04:06,880 --> 00:04:09,730
+let's just define y in terms of x.
+
+61
+00:04:09,730 --> 00:04:14,780
+So you get x plus 7 is equal to 3y,
+
+62
+00:04:14,780 --> 00:04:20,270
+y is equal to 1/3 x plus 7 over 3.
+
+63
+00:04:20,270 --> 00:04:22,550
+OK,let's see what we can do.
+
+64
+00:04:23,880 --> 00:04:28,490
+So the slope of this line is 1/3,if you remember from algebra
+
+65
+00:04:28,490 --> 00:04:32,030
+this mx plus b form,but this is how fast the line
+
+66
+00:04:32,030 --> 00:04:36,450
+goes up or down, this 1/3. Every move to the right in x by 1,
+
+67
+00:04:36,450 --> 00:04:39,640
+you're moving up in y by 1/3. So what's the slope?
+
+68
+00:04:39,640 --> 00:04:42,280
+If you give me two points,what's the slope?
+
+69
+00:04:42,280 --> 00:04:44,370
+What's the change in y over the change in x?
+
+70
+00:04:44,370 --> 00:04:47,770
+So I'll call this y1 and this is y2.
+
+71
+00:04:47,770 --> 00:04:51,030
+Or point 1 and point 2,so you could say change in y is
+
+72
+00:04:51,030 --> 00:04:55,610
+b plus k,the latter y point minus the first y point,
+
+73
+00:04:56,950 --> 00:05:03,380
+over a plus 3 minus a. And what does this reduce to?
+
+74
+00:05:04,230 --> 00:05:08,480
+b plus k minus k,b's cancel out,a plus 3 minus a,
+
+75
+00:05:08,480 --> 00:05:11,400
+a's cancel out,I'm left with k over 3,
+
+76
+00:05:11,400 --> 00:05:12,890
+and that equals the slope.
+
+77
+00:05:12,890 --> 00:05:14,850
+We already know the slope is equal to 1/3.
+
+78
+00:05:14,850 --> 00:05:18,810
+k over 3 is equal to 1/3,so k is equal to 1.
+
+79
+00:05:21,840 --> 00:05:33,510
+It's choice D. Problem 90.At the rate of m meters per second,
+
+80
+00:05:37,110 --> 00:05:41,750
+how many meters does a cyclist travel in x minutes?
+
+81
+00:05:45,250 --> 00:05:50,010
+So remember,this is tricky. They said x meters per second,
+
+82
+00:05:50,840 --> 00:05:53,490
+how many meters does a cyclist travel in x minutes,
+
+83
+00:05:53,490 --> 00:05:55,110
+so let's get x in terms of seconds.
+
+84
+00:05:55,110 --> 00:05:57,870
+So x minutes is going to be 60x seconds,
+
+85
+00:05:57,870 --> 00:06:01,910
+because you have 60 seconds per minute. So 60x seconds.
+
+86
+00:06:03,860 --> 00:06:06,890
+And distance is equal to rate times time,
+
+87
+00:06:06,890 --> 00:06:09,280
+hopefully that's a little bit of intuition for you now,
+
+88
+00:06:09,280 --> 00:06:13,720
+but the rate is equal to m meters per second,
+
+89
+00:06:13,720 --> 00:06:20,600
+and he's traveling for 60x seconds,so you get m times 60x,
+
+90
+00:06:20,600 --> 00:06:25,590
+which is 60mx in seconds,times meters per second,that's meters
+
+91
+00:06:25,590 --> 00:06:27,380
+So 60mx meters.
+
+92
+00:06:33,960 --> 00:06:38,190
+How many meters does a cyclist travel in x minutes?
+
+93
+00:06:38,190 --> 00:06:42,810
+x minutes is 60x seconds.
+
+94
+00:06:45,590 --> 00:06:47,630
+How many meters does a cyclist travel--
+
+95
+00:06:47,630 --> 00:06:53,240
+right,rate times time,at a rate of m meters per second.
+
+96
+00:06:53,240 --> 00:07:01,070
+I think they made a boo-boo here,because they have to
+
+97
+00:07:01,070 --> 00:07:11,320
+have the 60m-- oh,I see the mistake I made.
+
+98
+00:07:13,750 --> 00:07:15,430
+Let me redo it,my bad.
+
+99
+00:07:16,050 --> 00:07:24,260
+They said,at the rate of m meters per s seconds,
+
+100
+00:07:24,260 --> 00:07:31,110
+so the cyclist's rate is actually m over s meters per second.
+
+101
+00:07:31,110 --> 00:07:34,030
+That's confusing because they said that s seconds,
+
+102
+00:07:34,030 --> 00:07:36,310
+and I thought they said,m meters per second,
+
+103
+00:07:36,310 --> 00:07:38,880
+but it's a rate of m meters per s seconds,
+
+104
+00:07:38,880 --> 00:07:42,360
+how many meters does a cyclist travel in x minutes,
+
+105
+00:07:42,360 --> 00:07:48,180
+which we know is 60, if it's x minutes, it's 60x seconds.
+
+106
+00:07:49,030 --> 00:07:56,120
+So you multiply the rate times the time,and you get 60mx
+
+107
+00:07:57,320 --> 00:08:02,050
+over s,which is choice E. And it saved me that
+
+108
+00:08:02,050 --> 00:08:05,650
+my original answer wasn't anywhere in any of the choices.
+
+109
+00:08:06,490 --> 00:08:14,060
+Problem 91. If Sam were twice as old as he is,
+
+110
+00:08:14,060 --> 00:08:17,050
+he would be 40 years older than Jim.
+
+111
+00:08:17,050 --> 00:08:21,340
+So 2 times Sam,so if Sam were twice as old as he,
+
+112
+00:08:21,340 --> 00:08:25,980
+so s is Sam's current age. If Sam were twice as old as he is,
+
+113
+00:08:25,980 --> 00:08:28,100
+he would be 40 years older than Jim,
+
+114
+00:08:28,100 --> 00:08:30,740
+so he would be Jim plus 40.
+
+115
+00:08:31,850 --> 00:08:35,360
+If Jim is 10 years younger than Sam,how old is Sam?
+
+116
+00:08:37,750 --> 00:08:40,180
+Jim is 10 years younger than Sam,
+
+117
+00:08:40,180 --> 00:08:43,450
+so we can say Sam is Jim plus 10.
+
+118
+00:08:43,450 --> 00:08:47,140
+We could've also said Sam minus 10 is equal to Jim,
+
+119
+00:08:47,140 --> 00:08:49,370
+same thing. Let's see what we can do here,
+
+120
+00:08:49,370 --> 00:08:51,660
+let's see how best we can solve this equation.
+
+121
+00:08:51,660 --> 00:08:54,390
+They want to know how old is Sam.
+
+122
+00:08:54,390 --> 00:08:57,850
+We want to solve for s,so let's do something.
+
+123
+00:08:57,850 --> 00:09:00,220
+Let's subtract this equation from that equation.
+
+124
+00:09:00,220 --> 00:09:08,290
+So 2s minus s is s,j minus j is 0,40 minus 10 is 30.
+
+125
+00:09:09,450 --> 00:09:12,960
+So Sam is 30,and we're done.
+
+126
+00:09:12,960 --> 00:09:14,360
+And there's a lot of ways you could've done that.
+
+127
+00:09:14,360 --> 00:09:18,670
+You could have solved for j,and substituted here then solved,
+
+128
+00:09:18,670 --> 00:09:19,870
+it would've taken a little bit more time,
+
+129
+00:09:19,870 --> 00:09:22,800
+but we just subtracted this equation from that,
+
+130
+00:09:22,800 --> 00:09:25,880
+and you got s is equal to 30,which is choice B.
+
+131
+00:09:29,250 --> 00:09:31,400
+And I think I'm about out of time,
+
+132
+00:09:31,400 --> 00:09:33,520
+so I'll continue into the next video. See you soon.

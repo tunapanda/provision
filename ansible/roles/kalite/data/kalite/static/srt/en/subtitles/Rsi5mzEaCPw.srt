@@ -1,0 +1,911 @@
+1
+00:00:00,380 --> 00:00:04,670
+So I've got an arbitrary triangle here, we'll call it triangle ABC
+
+2
+00:00:04,680 --> 00:00:08,660
+What I wanna do is look at the midpoints of each of the sides of ABC,
+
+3
+00:00:08,670 --> 00:00:12,190
+So this is the midpoint of one of the sides of side BC
+
+4
+00:00:12,200 --> 00:00:14,610
+Let's call that point D
+
+5
+00:00:14,620 --> 00:00:16,220
+Let's call this midpoint E
+
+6
+00:00:16,230 --> 00:00:20,480
+And let's call this midpoint right over here F
+
+7
+00:00:20,490 --> 00:00:22,060
+And so this is the midpoint,
+
+8
+00:00:22,070 --> 00:00:24,040
+we know that the distance from BD
+
+9
+00:00:24,050 --> 00:00:26,210
+is equal to the distance from D to C
+
+10
+00:00:26,220 --> 00:00:28,240
+So this distance is equal to this distance
+
+11
+00:00:28,250 --> 00:00:30,670
+We know that AE is equal to EC,
+
+12
+00:00:30,680 --> 00:00:32,880
+So this distance is equal to that distance
+
+13
+00:00:32,890 --> 00:00:35,830
+And we know that AF is equal to FB,
+
+14
+00:00:35,840 --> 00:00:39,260
+so this distance is equal to this distance
+
+15
+00:00:39,270 --> 00:00:42,600
+Instead of drawing medians going from this midpoints to the vertices,
+
+16
+00:00:42,610 --> 00:00:44,110
+What I wanna do is I wanna connect
+
+17
+00:00:44,120 --> 00:00:46,340
+these midpoints and see what happens
+
+18
+00:00:46,350 --> 00:00:48,700
+So if I connect them I clearly have three points
+
+19
+00:00:48,710 --> 00:00:51,490
+So if you connect three nonlinear points
+
+20
+00:00:51,500 --> 00:00:55,530
+like this you will get another triangle,
+
+21
+00:00:55,540 --> 00:00:59,210
+And this triangle that's formed from the midpoints
+
+22
+00:00:59,220 --> 00:01:00,970
+of the sides of this larger triangle,
+
+23
+00:01:00,980 --> 00:01:03,470
+we call this a medial triangle
+
+24
+00:01:03,480 --> 00:01:08,960
+Medial triangle and that's all nice and cute by itself
+
+25
+00:01:08,970 --> 00:01:10,360
+But what we're gonna see in this video,
+
+26
+00:01:10,370 --> 00:01:14,080
+is that the medial triangle actually have some very neat properties
+
+27
+00:01:14,090 --> 00:01:16,450
+What we're actually going to show is that divides
+
+28
+00:01:16,460 --> 00:01:19,500
+Any triangle into four smaller triangles
+
+29
+00:01:19,510 --> 00:01:21,360
+They are congruent to each other
+
+30
+00:01:21,370 --> 00:01:24,880
+That all four of these triangles are, are identical to each other
+
+31
+00:01:26,170 --> 00:01:26,910
+And they are similar to their larger triangle
+
+32
+00:01:26,920 --> 00:01:27,590
+And you could think of them
+
+33
+00:01:27,600 --> 00:01:31,440
+Each has having one fourth of the area of the larger triangle
+
+34
+00:01:31,450 --> 00:01:33,250
+So let's go about proving it,
+
+35
+00:01:33,260 --> 00:01:36,280
+So first let's focus on this triangle down here
+
+36
+00:01:36,290 --> 00:01:40,540
+Triangle CDE and it looks it looks similar to the larger triangle
+
+37
+00:01:40,550 --> 00:01:44,710
+The triangle CBA, but let's prove it to ourselves
+
+38
+00:01:44,720 --> 00:01:46,900
+So one thing we could say is well look
+
+39
+00:01:46,910 --> 00:01:49,440
+Both of them share this angle right over here,
+
+40
+00:01:49,450 --> 00:01:53,820
+Both the larger triangle, triangle CBA shares has this angle
+
+41
+00:01:53,830 --> 00:01:56,790
+And the smaller triangle CDE has this angle
+
+42
+00:01:56,800 --> 00:01:58,130
+So they definitely share that angle
+
+43
+00:01:58,140 --> 00:02:00,630
+And now let's look at the ratios of the sides,
+
+44
+00:02:00,640 --> 00:02:02,750
+We know that the ratio of CD
+
+45
+00:02:02,760 --> 00:02:06,910
+We know that the ratio of CD to CB,
+
+46
+00:02:06,920 --> 00:02:14,590
+the ratio of CD to CB is equal one over two
+
+47
+00:02:14,600 --> 00:02:18,290
+This is half this entire side is equal to one over two
+
+48
+00:02:18,300 --> 00:02:22,990
+And that's the same thing as the ratio of CE to CA
+
+49
+00:02:23,000 --> 00:02:25,490
+CE is exactly half of CA,
+
+50
+00:02:25,500 --> 00:02:27,330
+Cause E is the midpoint
+
+51
+00:02:27,340 --> 00:02:30,810
+It's equal to CE over CA
+
+52
+00:02:30,820 --> 00:02:34,310
+So we have an angle and corresponding angles that are congruent
+
+53
+00:02:34,320 --> 00:02:36,960
+And then the ratio of two corresponding sides
+
+54
+00:02:36,970 --> 00:02:38,240
+of either the side of that angle
+
+55
+00:02:38,250 --> 00:02:41,370
+Or the same CD or CB as one half
+
+56
+00:02:41,380 --> 00:02:44,110
+CE or CA as one half
+
+57
+00:02:44,120 --> 00:02:46,020
+And the angle in between is congruent
+
+58
+00:02:46,030 --> 00:02:50,690
+so by SAS so by SAS similarity,
+
+59
+00:02:50,700 --> 00:02:54,420
+SAS similarity, similarity
+
+60
+00:02:54,430 --> 00:03:03,340
+We know we know that triangle CDE, CDE
+
+61
+00:03:03,350 --> 00:03:12,280
+is similar to triangle to triangle CBA, CBA
+
+62
+00:03:12,290 --> 00:03:15,050
+And just from that you can get some interesting results,
+
+63
+00:03:15,060 --> 00:03:16,920
+Because we know that the ratio of these
+
+64
+00:03:16,930 --> 00:03:19,540
+sides of the shorter triangle or the smaller triangle
+
+65
+00:03:19,550 --> 00:03:22,340
+To the longer triangle is also going to be one half
+
+66
+00:03:22,350 --> 00:03:24,320
+Cause the other two sides have a ratio of one half
+
+67
+00:03:24,330 --> 00:03:25,590
+What we are gonna do with similar triangles,
+
+68
+00:03:25,600 --> 00:03:27,910
+so this is gonna be one half of that
+
+69
+00:03:27,920 --> 00:03:29,750
+And we know one half of AB
+
+70
+00:03:29,760 --> 00:03:33,100
+is just going be is just going to be the length of the FA
+
+71
+00:03:33,110 --> 00:03:34,860
+So we know that this length right over here
+
+72
+00:03:34,870 --> 00:03:38,440
+Is going to be the same as FA or FB
+
+73
+00:03:38,450 --> 00:03:40,220
+We can get that straight from similar triangles
+
+74
+00:03:40,230 --> 00:03:41,660
+Because these are similar,
+
+75
+00:03:41,670 --> 00:03:49,350
+we know that DE, DE over BA over BA
+
+76
+00:03:49,360 --> 00:03:51,890
+has got to be equal to these ratios,
+
+77
+00:03:51,900 --> 00:03:55,160
+the other corresponding sides which is equal to one half,
+
+78
+00:03:55,170 --> 00:03:57,350
+and so that's how we get that right over there
+
+79
+00:03:57,360 --> 00:04:01,760
+Now let's think about let's think about that this triangle up here
+
+80
+00:04:01,770 --> 00:04:03,670
+Let's thinks about this triangle up here
+
+81
+00:04:03,680 --> 00:04:08,160
+Triangle we can call it BDF, triangle BDF
+
+82
+00:04:08,170 --> 00:04:11,950
+So first when we compare triangle BDF to the larger triangle,
+
+83
+00:04:11,960 --> 00:04:16,060
+they both share this angle right over here angle ABC,
+
+84
+00:04:16,070 --> 00:04:17,690
+they both have that angle in common
+
+85
+00:04:17,700 --> 00:04:19,760
+And we're gonna have exact same argument
+
+86
+00:04:19,770 --> 00:04:22,150
+We can just you can just look at this diagram
+
+87
+00:04:22,160 --> 00:04:24,990
+You know that the ratio of BA
+
+88
+00:04:25,000 --> 00:04:27,560
+The ratio let me do it this way
+
+89
+00:04:27,570 --> 00:04:32,390
+The ratio of BF to BA, the ratio BF to BA
+
+90
+00:04:32,400 --> 00:04:40,700
+Is equal to one half, which is also the ratio of BD to BC BD to BC
+
+91
+00:04:40,710 --> 00:04:43,710
+The ratio of this to that is the same ratio
+
+92
+00:04:43,720 --> 00:04:46,140
+of this to that which is one half
+
+93
+00:04:46,150 --> 00:04:47,820
+Cause BD is half of this whole length
+
+94
+00:04:47,830 --> 00:04:49,450
+BF is half of this whole length
+
+95
+00:04:49,460 --> 00:04:53,330
+And so you have corresponding sides have the same ratio
+
+96
+00:04:53,340 --> 00:04:55,550
+On the two triangles and they share and angle in between
+
+97
+00:04:55,560 --> 00:04:58,070
+So once again by SAS similarity,
+
+98
+00:04:58,080 --> 00:05:03,160
+by SAS similarity SAS similarity
+
+99
+00:05:03,170 --> 00:05:09,110
+We know that triangle, we know that triangle right this way
+
+100
+00:05:09,120 --> 00:05:20,400
+DBF, triangle DBF is similar to triangle CBA,
+
+101
+00:05:20,410 --> 00:05:25,000
+Is similar to triangle CBA
+
+102
+00:05:25,010 --> 00:05:27,860
+And once again we use this exact same kind of argument,
+
+103
+00:05:27,870 --> 00:05:28,930
+that we do with this triangle
+
+104
+00:05:28,940 --> 00:05:31,200
+Well if it's similar with the ratio to all the corresponding sides
+
+105
+00:05:31,210 --> 00:05:33,590
+Have to be the same and that ratio is one half
+
+106
+00:05:33,600 --> 00:05:36,090
+So the ratio of this side to this side
+
+107
+00:05:36,100 --> 00:05:41,770
+So the ratio of FD the ratio of FD to AC has to be one half
+
+108
+00:05:41,780 --> 00:05:43,880
+or FD has to be one half of AC
+
+109
+00:05:43,890 --> 00:05:47,200
+Which when one half of AC is just the length of AE
+
+110
+00:05:47,210 --> 00:05:50,690
+So that is just going to be that length right over there
+
+111
+00:05:50,700 --> 00:05:52,790
+I think you see where this is going
+
+112
+00:05:52,800 --> 00:05:54,510
+And also, because it's similar
+
+113
+00:05:54,520 --> 00:05:56,670
+to all of the corresponding angles have to be the same
+
+114
+00:05:56,680 --> 00:05:59,300
+And we know that this is that, that the larger triangle
+
+115
+00:05:59,310 --> 00:06:00,930
+has a yellow angle right over there
+
+116
+00:06:00,940 --> 00:06:03,840
+So we have that yellow angle right over here
+
+117
+00:06:03,850 --> 00:06:07,610
+And this triangle right over was also similar to the larger triangle
+
+118
+00:06:07,620 --> 00:06:10,160
+So it will have that same angle measure up here,
+
+119
+00:06:10,170 --> 00:06:12,740
+We are to show that in this in this first part
+
+120
+00:06:12,750 --> 00:06:15,300
+So now let's go to this third triangle,
+
+121
+00:06:15,310 --> 00:06:16,360
+I think you see the pattern
+
+122
+00:06:16,370 --> 00:06:18,450
+I'm sure you might be able to just, pause this video,
+
+123
+00:06:18,460 --> 00:06:19,600
+And just prove it for yourself
+
+124
+00:06:19,610 --> 00:06:25,730
+But we see that the ratio of AF over AB
+
+125
+00:06:25,740 --> 00:06:30,270
+Is going the same as the ratio AE over AC
+
+126
+00:06:30,280 --> 00:06:33,360
+AE over AC which is equal to one half
+
+127
+00:06:33,370 --> 00:06:36,650
+So we have two corresponding sides with the ratio
+
+128
+00:06:36,660 --> 00:06:39,010
+is one half from the smaller to the larger triangle
+
+129
+00:06:39,020 --> 00:06:41,270
+And that they share a common angle
+
+130
+00:06:41,280 --> 00:06:44,450
+they share this angle in between the two sides
+
+131
+00:06:44,460 --> 00:06:48,210
+So by SAS similarity so this is getting repetitive now
+
+132
+00:06:48,220 --> 00:06:56,950
+We know that triangle we know that triangle EFA triangle EFA
+
+133
+00:06:56,960 --> 00:07:03,100
+is similar to triangle CBA to triangle CBA
+
+134
+00:07:03,110 --> 00:07:06,930
+And so the ratio of the corresponding sides it will be one half
+
+135
+00:07:06,930 --> 00:07:10,310
+So the ratio of FB to BC needs to be one half
+
+136
+00:07:10,320 --> 00:07:12,180
+or FE needs to be half of that
+
+137
+00:07:12,190 --> 00:07:14,000
+Which is the length of BD
+
+138
+00:07:14,010 --> 00:07:17,110
+So this is going to be that length right over there
+
+139
+00:07:17,120 --> 00:07:21,430
+And you can also say that since we show all that this triangle
+
+140
+00:07:21,440 --> 00:07:24,170
+This triangle and this triangle we haven't talked about this middle one yet
+
+141
+00:07:24,180 --> 00:07:27,170
+They're all similar to the larger triangle,
+
+142
+00:07:27,180 --> 00:07:29,110
+so they're all going to be similar to each other,
+
+143
+00:07:29,120 --> 00:07:31,780
+so they're e all going to have the same corresponding angles
+
+144
+00:07:31,790 --> 00:07:34,760
+So if the larger triangle had this yellow angle,
+
+145
+00:07:34,770 --> 00:07:38,550
+Then all of the triangle will have this yellow angle right over there
+
+146
+00:07:38,560 --> 00:07:41,730
+And the larger triangle will have this blue angle right over here
+
+147
+00:07:41,740 --> 00:07:44,390
+Then the corresponding vertex all of the triangles
+
+148
+00:07:44,400 --> 00:07:46,100
+were going has that blue angle
+
+149
+00:07:46,110 --> 00:07:48,270
+All of the ones that we've shown are similar
+
+150
+00:07:48,280 --> 00:07:50,620
+We haven't thought about this middle triangle just yet
+
+151
+00:07:50,630 --> 00:07:53,050
+And of course, if this is similar to the whole,
+
+152
+00:07:53,060 --> 00:07:57,140
+it'll also have this angle at this vertex over here
+
+153
+00:07:57,150 --> 00:07:59,010
+because this corresponds to that vertex
+
+154
+00:07:59,020 --> 00:08:01,040
+based on the similarity
+
+155
+00:08:01,050 --> 00:08:02,650
+So that's interesting,
+
+156
+00:08:02,660 --> 00:08:04,360
+Now let's look at the let's look at
+
+157
+00:08:04,370 --> 00:08:06,890
+Let's compare the triangles to each other
+
+158
+00:08:06,900 --> 00:08:09,570
+We've now shown that all of these triangles
+
+159
+00:08:09,580 --> 00:08:11,720
+Have the exact same three sides,
+
+160
+00:08:11,730 --> 00:08:14,730
+Has this blue side or I should have this one marked side
+
+161
+00:08:14,740 --> 00:08:16,570
+This two marked sides of this three marked side
+
+162
+00:08:16,580 --> 00:08:20,060
+One marked two marked three marked,
+
+163
+00:08:20,070 --> 00:08:23,810
+And that even applies to this middle triangle right over here
+
+164
+00:08:23,820 --> 00:08:26,200
+So by side, side, side,
+
+165
+00:08:26,210 --> 00:08:33,020
+So by side, side, side congruency, congruency
+
+166
+00:08:33,030 --> 00:08:36,190
+We now know and we wanna be careful
+
+167
+00:08:36,200 --> 00:08:38,060
+when we get our corresponding sides right
+
+168
+00:08:38,070 --> 00:08:42,450
+We now know that triangle, triangle CDE
+
+169
+00:08:42,460 --> 00:08:50,280
+is congruent to triangle D to DBF, DBF
+
+170
+00:08:50,290 --> 00:08:51,590
+When we look at the corresponding sides,
+
+171
+00:08:51,600 --> 00:08:52,320
+I'm looking at the colors
+
+172
+00:08:52,330 --> 00:08:54,010
+I want from the yellow to magenta to blue,
+
+173
+00:08:54,020 --> 00:08:55,160
+The yellow to magenta to blue
+
+174
+00:08:55,170 --> 00:09:03,080
+which is going to be congruent to triangle to triangle EFA, EFA
+
+175
+00:09:03,090 --> 00:09:05,640
+Which is going to be congruent to this triangle and here,
+
+176
+00:09:05,650 --> 00:09:07,050
+We wanna make sure that we're getting
+
+177
+00:09:07,060 --> 00:09:09,830
+we're getting the right corresponding sides here
+
+178
+00:09:09,840 --> 00:09:10,890
+So make sure when we do that,
+
+179
+00:09:10,900 --> 00:09:12,630
+We just have to think about the angles
+
+180
+00:09:12,640 --> 00:09:15,440
+So we know, we know this is interesting,
+
+181
+00:09:15,450 --> 00:09:18,140
+That the ,the because the, the interior angles
+
+182
+00:09:18,150 --> 00:09:19,840
+of a triangle add up to 180 degrees
+
+183
+00:09:19,850 --> 00:09:22,250
+We know that this magenta angle plus this blue angle
+
+184
+00:09:22,260 --> 00:09:24,530
+plus this yellow angle equal a hundred-eighty
+
+185
+00:09:24,540 --> 00:09:27,400
+Here we have the blue angle and the magenta angle,
+
+186
+00:09:27,410 --> 00:09:29,700
+And clearly they all add up to 180
+
+187
+00:09:29,710 --> 00:09:31,500
+You must have the blue angle the blue angle
+
+188
+00:09:31,510 --> 00:09:33,730
+The blue angle must be right over here
+
+189
+00:09:33,740 --> 00:09:35,880
+Same argument blue angle as I,
+
+190
+00:09:35,890 --> 00:09:37,380
+Yellow angle and blue angle
+
+191
+00:09:37,390 --> 00:09:39,820
+we must have the magenta angle right over here
+
+192
+00:09:39,830 --> 00:09:41,050
+They add up to 180,
+
+193
+00:09:41,060 --> 00:09:42,570
+So this must be the magenta angle
+
+194
+00:09:42,580 --> 00:09:44,300
+And then finally magenta and blue,
+
+195
+00:09:44,310 --> 00:09:47,350
+This must be the yellow angle right over there
+
+196
+00:09:47,360 --> 00:09:49,370
+And so when we wrote the congruency here,
+
+197
+00:09:49,470 --> 00:09:50,900
+we started at CDE
+
+198
+00:09:50,910 --> 00:09:53,590
+Yellow magenta blue,
+
+199
+00:09:53,600 --> 00:09:57,310
+So here we're gonna go yellow magenta blue
+
+200
+00:09:57,320 --> 00:10:05,610
+So this is going to be congruent to triangle FED to triangle FED
+
+201
+00:10:05,620 --> 00:10:09,790
+And so that's pretty cool we just show that all three that this triangle
+
+202
+00:10:09,800 --> 00:10:12,690
+This triangle this triangle and that triangle are congruent
+
+203
+00:10:12,700 --> 00:10:14,950
+And also we can look at the corresponding
+
+204
+00:10:14,960 --> 00:10:17,930
+and that they all have ratios relative to the larger triangle,
+
+205
+00:10:17,940 --> 00:10:20,740
+They're all similar to the larger triangle the triangle ABC
+
+206
+00:10:20,750 --> 00:10:23,460
+And that the ratio of between the sides is one to two,
+
+207
+00:10:23,470 --> 00:10:26,040
+And also because we've look at corresponding angles
+
+208
+00:10:26,050 --> 00:10:28,780
+We see for example, we see for example
+
+209
+00:10:28,790 --> 00:10:32,060
+that this angle is the same as that angle
+
+210
+00:10:32,070 --> 00:10:34,930
+So if you viewed DC if you viewed BC as transversal
+
+211
+00:10:34,940 --> 00:10:40,550
+All of the side becomes pretty clear that FD is going to be parallel to AC
+
+212
+00:10:40,560 --> 00:10:42,960
+Because the corresponding angles are congruent
+
+213
+00:10:42,970 --> 00:10:46,830
+So this is going to be parallel to that right over there
+
+214
+00:10:46,840 --> 00:10:49,070
+And you can use that as the same exact argument
+
+215
+00:10:49,080 --> 00:10:51,370
+to say well then this side
+
+216
+00:10:51,380 --> 00:10:53,340
+because once again, corresponding angles,
+
+217
+00:10:53,350 --> 00:10:56,190
+corresponding angles here and here
+
+218
+00:10:56,200 --> 00:11:01,560
+You can say that this is going to be parallel to that right over there
+
+219
+00:11:01,570 --> 00:11:02,970
+And then finally,
+
+220
+00:11:02,980 --> 00:11:05,480
+With the same argument over here you have
+
+221
+00:11:05,490 --> 00:11:08,510
+You have I wanna make sure I get the right corresponding angles
+
+222
+00:11:08,520 --> 00:11:12,180
+You have this this line and this line
+
+223
+00:11:12,190 --> 00:11:14,300
+and this angle corresponds to that angle
+
+224
+00:11:14,310 --> 00:11:15,270
+They are the same
+
+225
+00:11:15,280 --> 00:11:21,710
+So this DE must be parallel to BA to BA
+
+226
+00:11:21,720 --> 00:11:25,710
+So that's another neat property of this medial triangle
+
+227
+00:11:25,720 --> 00:11:28,410
+I thought that all of these things just jumped out
+
+228
+00:11:28,420 --> 00:11:31,790
+When you try to do something fairly simple with the triangle

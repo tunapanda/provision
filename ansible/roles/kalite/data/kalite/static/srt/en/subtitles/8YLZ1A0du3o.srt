@@ -1,0 +1,387 @@
+1
+00:00:03,399 --> 00:00:05,995
+How is it we should measure information in a way that
+
+2
+00:00:05,995 --> 00:00:09,392
+applies to any communication system you can think of  –
+
+3
+00:00:09,392 --> 00:00:12,823
+human, animal or alien?
+
+4
+00:00:17,750 --> 00:00:20,461
+Well, let's return to the late 19th century,
+
+5
+00:00:20,461 --> 00:00:21,688
+where, at the time, we were focused –
+
+6
+00:00:21,688 --> 00:00:23,877
+as we are today – on speed.
+
+7
+00:00:26,591 --> 00:00:28,508
+One goal to improve speed
+
+8
+00:00:28,508 --> 00:00:30,816
+was to design a machine which allowed
+
+9
+00:00:30,816 --> 00:00:33,643
+the operators to input letters –
+
+10
+00:00:33,643 --> 00:00:36,281
+which we can think of as 'primary symbols' –
+
+11
+00:00:36,281 --> 00:00:37,911
+and have the machine automate
+
+12
+00:00:37,911 --> 00:00:40,455
+the lower-level signaling events 
+
+13
+00:00:40,455 --> 00:00:42,566
+such as pulses of electricity 
+
+14
+00:00:42,566 --> 00:00:45,312
+[which] we can call 'secondary symbols.'
+
+15
+00:00:45,312 --> 00:00:48,339
+And machines can be driven by some clock source,
+
+16
+00:00:48,339 --> 00:00:50,526
+allowing [them] to generate a precise and
+
+17
+00:00:50,526 --> 00:00:53,389
+rapid pulse stream, which presumably
+
+18
+00:00:53,389 --> 00:00:56,399
+would run much faster than any human hand.
+
+19
+00:00:56,399 --> 00:00:58,193
+One great example of this was
+
+20
+00:00:58,193 --> 00:01:00,449
+the 'Baudot multiplex system.'
+
+21
+00:01:00,449 --> 00:01:04,346
+The design was put into service in 1874.
+
+22
+00:01:04,346 --> 00:01:06,655
+It built off [of] the same conceptual ideas
+
+23
+00:01:06,655 --> 00:01:08,350
+we've seen in the shutter telegraph.
+
+24
+00:01:08,350 --> 00:01:10,960
+It consisted of five keys, which could be
+
+25
+00:01:10,960 --> 00:01:13,047
+played in any combination.
+
+26
+00:01:13,047 --> 00:01:14,560
+Think of a chord.
+
+27
+00:01:17,230 --> 00:01:18,685
+Each combination would
+
+28
+00:01:18,685 --> 00:01:20,794
+represent a unique message.
+
+29
+00:01:20,794 --> 00:01:22,102
+With five notes –
+
+30
+00:01:22,102 --> 00:01:23,914
+each either 'on' or 'off' –
+
+31
+00:01:23,914 --> 00:01:26,340
+you can play 2 to the power of 5 –
+
+32
+00:01:26,340 --> 00:01:28,912
+or 32 – different chords.
+
+33
+00:01:28,912 --> 00:01:31,939
+The code assigned the 32 different chords
+
+34
+00:01:31,939 --> 00:01:33,979
+to each letter of the alphabet 
+
+35
+00:01:33,979 --> 00:01:36,689
+with [those] left over used for carriage returns,
+
+36
+00:01:36,689 --> 00:01:38,943
+new line[s], and spaces.
+
+37
+00:01:38,943 --> 00:01:42,261
+So the operator would literally play letters,
+
+38
+00:01:42,261 --> 00:01:44,942
+and their machine would automatically output
+
+39
+00:01:44,942 --> 00:01:48,353
+a pulse stream representing the letters.
+
+40
+00:01:49,512 --> 00:01:52,364
+Like this, for letter T.
+
+41
+00:01:54,442 --> 00:01:56,873
+Or like this, for letter R.
+
+42
+00:01:59,242 --> 00:02:01,851
+Or like this, for letter B.
+
+43
+00:02:03,797 --> 00:02:06,299
+So we have an output signal containing
+
+44
+00:02:06,299 --> 00:02:09,740
+various combinations of DC impulses –
+
+45
+00:02:09,740 --> 00:02:12,370
+a signal that accurately represents
+
+46
+00:02:12,370 --> 00:02:15,331
+the message typed on the teletypewriter.
+
+47
+00:02:15,331 --> 00:02:17,196
+Behind the counter, the mechanical nerves
+
+48
+00:02:17,196 --> 00:02:20,459
+of the system change words to holes on tape,
+
+49
+00:02:20,459 --> 00:02:22,892
+and the holes on tape to electrical impulses –
+
+50
+00:02:22,892 --> 00:02:24,930
+speeding over the wires.
+
+51
+00:02:24,930 --> 00:02:27,786
+Notice, at the lowest level, this system
+
+52
+00:02:27,786 --> 00:02:30,995
+is exchanging either the presence or absence
+
+53
+00:02:30,995 --> 00:02:35,961
+of electrical current – in a sequence divided using a clock.
+
+54
+00:02:35,961 --> 00:02:39,190
+So, how fast can our internal clocks run?
+
+55
+00:02:39,190 --> 00:02:42,382
+Well, the [factor] limiting [the] speed was not the clock.
+
+56
+00:02:42,382 --> 00:02:45,990
+Then – and today  – the speed of transmission
+
+57
+00:02:45,990 --> 00:02:48,875
+was physically limited by the minimum spaces
+
+58
+00:02:48,875 --> 00:02:51,190
+between these impulses –
+
+59
+00:02:51,190 --> 00:02:52,557
+or the 'pulse rate.'
+
+60
+00:02:52,557 --> 00:02:55,220
+And this problem plagued engineers who were
+
+61
+00:02:55,220 --> 00:02:57,435
+testing underground [and] submarine cables,
+
+62
+00:02:57,435 --> 00:03:00,169
+using the existing Morse-code system.
+
+63
+00:03:00,169 --> 00:03:04,506
+It's similar to an echo – or a sustained note.
+
+64
+00:03:04,506 --> 00:03:09,450
+If one sends dots too fast over a long, undersea circuit,
+
+65
+00:03:09,450 --> 00:03:12,421
+they will run together at the receiving end –
+
+66
+00:03:12,421 --> 00:03:16,101
+because the symbol we receive at the far end of the circuit
+
+67
+00:03:16,101 --> 00:03:20,489
+will be a slightly longer, smoothed out rise and fall –
+
+68
+00:03:20,489 --> 00:03:23,821
+not an exact replica.
+
+69
+00:03:23,821 --> 00:03:26,340
+Sending pulses too fast
+
+70
+00:03:26,340 --> 00:03:29,608
+results in inter-symbol interference.
+
+71
+00:03:29,608 --> 00:03:31,147
+This occurs, for example,
+
+72
+00:03:31,147 --> 00:03:33,531
+when the longer flow of a current
+
+73
+00:03:33,531 --> 00:03:35,572
+bleeds into the next time division,
+
+74
+00:03:35,572 --> 00:03:38,730
+and, perhaps, reverses a 0 to a 1.
+
+75
+00:03:38,745 --> 00:03:40,108
+So, even if we're automating
+
+76
+00:03:40,108 --> 00:03:42,591
+the detection of these current levels,
+
+77
+00:03:42,591 --> 00:03:44,666
+there is a fundamental limit
+
+78
+00:03:44,666 --> 00:03:48,881
+to how [closely] we can squeeze two pulses together.
+
+79
+00:03:48,881 --> 00:03:50,232
+And this is the same problem
+
+80
+00:03:50,232 --> 00:03:51,625
+Alice and Bob ran into
+
+81
+00:03:51,625 --> 00:03:54,672
+with their string-communication system –
+
+82
+00:03:58,128 --> 00:04:00,863
+which we called the 'maximum pluck speed.'
+
+83
+00:04:00,863 --> 00:04:02,996
+If they plucked any faster than two plucks
+
+84
+00:04:02,996 --> 00:04:04,874
+per second, they noticed [their signals]
+
+85
+00:04:04,874 --> 00:04:06,151
+started to bleed together,
+
+86
+00:04:06,151 --> 00:04:08,531
+and they got confused.
+
+87
+00:04:08,531 --> 00:04:11,564
+So this is called the 'symbol rate.'
+
+88
+00:04:13,347 --> 00:04:16,454
+Remember, a 'symbol' can be broadly defined
+
+89
+00:04:16,454 --> 00:04:20,078
+as the current state of some observable signal,
+
+90
+00:04:20,078 --> 00:04:23,321
+which persists for a fixed period of time.
+
+91
+00:04:23,321 --> 00:04:27,556
+Whether you are using fire, sound,
+
+92
+00:04:27,556 --> 00:04:29,951
+electrical current  – anything  –
+
+93
+00:04:29,951 --> 00:04:32,910
+a signaling event is simply a change
+
+94
+00:04:32,910 --> 00:04:35,905
+from one state to another.
+
+95
+00:04:35,905 --> 00:04:37,521
+So the 'symbol rate'
+
+96
+00:04:37,521 --> 00:04:39,680
+is the number of signaling events
+
+97
+00:04:39,680 --> 00:04:42,740
+which can be squeezed together in 1 second.

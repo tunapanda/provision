@@ -1,0 +1,673 @@
+1
+00:00:00,600 --> 00:00:02,341
+When we're dealing with basic arithmetic,
+
+2
+00:00:02,341 --> 00:00:04,592
+we see the concrete numbers there.
+
+3
+00:00:04,592 --> 00:00:07,406
+We'll see 23 + 5.
+
+4
+00:00:07,406 --> 00:00:08,715
+We know what these numbers are right over here
+
+5
+00:00:08,715 --> 00:00:10,005
+and we can calculate them.
+
+6
+00:00:10,005 --> 00:00:11,661
+It's going to be 28.
+
+7
+00:00:11,661 --> 00:00:13,898
+We can say 2 x 7.
+
+8
+00:00:13,898 --> 00:00:17,476
+We could say 3 divided by 4 (3 / 4).
+
+9
+00:00:17,476 --> 00:00:19,059
+In all of these cases, we know exactly
+
+10
+00:00:19,059 --> 00:00:20,872
+what numbers we're dealing with.
+
+11
+00:00:20,872 --> 00:00:23,776
+As we start entering into the algebratic world –
+
+12
+00:00:23,776 --> 00:00:25,873
+(And you probably have seen this a little bit already.)
+
+13
+00:00:25,873 --> 00:00:30,051
+– we start dealing with the idea of variables.
+
+14
+00:00:30,051 --> 00:00:31,533
+And variables, there are a bunch of ways
+
+15
+00:00:31,533 --> 00:00:32,283
+you can think about them.
+
+16
+00:00:32,283 --> 00:00:34,502
+but they're really just values and expressions
+
+17
+00:00:34,502 --> 00:00:36,252
+where they can change.
+
+18
+00:00:36,252 --> 00:00:38,145
+The values in those expressions can change.
+
+19
+00:00:38,145 --> 00:00:42,201
+So for example, if I write
+
+20
+00:00:42,201 --> 00:00:44,781
+'x + 5.'
+
+21
+00:00:44,781 --> 00:00:46,647
+this is an expression right over here.
+
+22
+00:00:46,647 --> 00:00:48,305
+This can take on some value,
+
+23
+00:00:48,305 --> 00:00:51,466
+depending on what the value of x is.
+
+24
+00:00:51,466 --> 00:00:56,656
+If x is equal to 1,
+
+25
+00:00:56,656 --> 00:01:01,723
+then x + 5 – our expression right over here –
+
+26
+00:01:01,723 --> 00:01:06,049
+Is going to be equal to 1 –
+
+27
+00:01:06,049 --> 00:01:07,070
+because now x is 1.
+
+28
+00:01:07,070 --> 00:01:08,321
+It'll be 1 + 5.
+
+29
+00:01:08,321 --> 00:01:11,101
+So x + 5 will be equal to 6. (x + 5 = 6)
+
+30
+00:01:11,101 --> 00:01:16,821
+If x is equal to, I don't know, -7, (x = -7)
+
+31
+00:01:16,821 --> 00:01:22,183
+then x + 5, is going to be equal to –
+
+32
+00:01:22,183 --> 00:01:24,120
+Well now x is -7.
+
+33
+00:01:24,120 --> 00:01:28,842
+It's going to be -7 + 5, which is -2.
+
+34
+00:01:28,842 --> 00:01:29,441
+So notice.
+
+35
+00:01:29,441 --> 00:01:34,019
+x here is a variable, x here is the variable,
+
+36
+00:01:34,019 --> 00:01:37,705
+and its value can change depending on the context.
+
+37
+00:01:37,705 --> 00:01:39,946
+And this is in the context of an expression.
+
+38
+00:01:39,946 --> 00:01:42,174
+You'll also see that in the context of an equation.
+
+39
+00:01:42,174 --> 00:01:44,299
+It's actually important to realize the distinction
+
+40
+00:01:44,299 --> 00:01:46,897
+between an expression and an equation.
+
+41
+00:01:46,897 --> 00:01:49,827
+An expression is really just a statement of value –
+
+42
+00:01:49,827 --> 00:01:51,734
+a statement of some type of quantity.
+
+43
+00:01:51,734 --> 00:01:54,327
+So this is an expression.
+
+44
+00:01:54,327 --> 00:01:56,639
+An expression would be something like.
+
+45
+00:01:56,639 --> 00:01:57,976
+well, what we saw over here:
+
+46
+00:01:57,976 --> 00:01:59,260
+x + 5
+
+47
+00:01:59,260 --> 00:02:01,052
+The value of this expression will change
+
+48
+00:02:01,052 --> 00:02:05,745
+depending on what the value of this variable is.
+
+49
+00:02:05,745 --> 00:02:09,058
+And you could just evaluate it for different values of x
+
+50
+00:02:09,058 --> 00:02:11,270
+Another expression could be something like ...
+
+51
+00:02:11,270 --> 00:02:13,150
+I don't know ... y + z.
+
+52
+00:02:13,150 --> 00:02:14,340
+Now everything is a variable.
+
+53
+00:02:14,340 --> 00:02:16,554
+If y is 1 and z is 2,
+
+54
+00:02:16,554 --> 00:02:18,560
+it's going to be 1 + 2.
+
+55
+00:02:18,560 --> 00:02:21,392
+If y is 0 and z is -1,
+
+56
+00:02:21,392 --> 00:02:24,068
+it's going to be 0 + (-1).
+
+57
+00:02:24,068 --> 00:02:25,897
+These can all be evaluated
+
+58
+00:02:25,897 --> 00:02:27,416
+and they'll essentially give you a value
+
+59
+00:02:27,416 --> 00:02:30,811
+depending on the values of each of these variables
+
+60
+00:02:30,811 --> 00:02:32,327
+that make up the expression.
+
+61
+00:02:32,327 --> 00:02:34,285
+In an equation, you're essentially setting expressions
+
+62
+00:02:34,285 --> 00:02:35,472
+to be equal to each other.
+
+63
+00:02:35,472 --> 00:02:38,100
+That's why they're called 'equations.'
+
+64
+00:02:38,100 --> 00:02:40,122
+You're equating two things.
+
+65
+00:02:40,122 --> 00:02:42,919
+In an equation, you'll see one expression
+
+66
+00:02:42,919 --> 00:02:44,643
+being equal to another expression.
+
+67
+00:02:44,643 --> 00:02:47,869
+So, for example, you could say something like
+
+68
+00:02:47,869 --> 00:02:52,062
+x + 3 = 1.
+
+69
+00:02:52,062 --> 00:02:54,459
+And in this situation where you have one equation,
+
+70
+00:02:54,459 --> 00:02:57,883
+with only one unknown,
+
+71
+00:02:57,883 --> 00:02:59,273
+you could actually figure out
+
+72
+00:02:59,273 --> 00:03:01,622
+what x needs to be in this scenario.
+
+73
+00:03:01,622 --> 00:03:03,210
+And you could possibly even do it in your head.
+
+74
+00:03:03,210 --> 00:03:05,327
+'What' + 3 is equal to 1? ( __ + 3 = 1?)
+
+75
+00:03:05,327 --> 00:03:06,432
+Well, you can do that in your head.
+
+76
+00:03:06,432 --> 00:03:08,871
+Ff I have -2, -2 + 3 is equal to 1. (-2 +3 = 1)
+
+77
+00:03:08,871 --> 00:03:12,033
+So in this context, an equation is starting to constrain
+
+78
+00:03:12,033 --> 00:03:15,134
+the value that this variable can take on.
+
+79
+00:03:15,134 --> 00:03:17,411
+But it doesn't have necessarily constrain as much.
+
+80
+00:03:17,411 --> 00:03:18,932
+You could have something like:
+
+81
+00:03:18,932 --> 00:03:25,734
+x + y + z = 5.
+
+82
+00:03:25,734 --> 00:03:27,784
+Now – this expression is
+
+83
+00:03:27,784 --> 00:03:29,368
+equal to this other expression.
+
+84
+00:03:29,368 --> 00:03:31,645
+5 is really just an expression right over here.
+
+85
+00:03:31,645 --> 00:03:32,901
+And there are some constraints.
+
+86
+00:03:32,901 --> 00:03:35,004
+If someone tells you what y and z is,
+
+87
+00:03:35,004 --> 00:03:36,314
+then that constrains what x is.
+
+88
+00:03:36,314 --> 00:03:38,226
+If someone tells you what x and y are,
+
+89
+00:03:38,226 --> 00:03:39,925
+then that constrains what z is.
+
+90
+00:03:39,925 --> 00:03:42,381
+But it depends on what the different things are.
+
+91
+00:03:42,381 --> 00:03:44,060
+So for example,
+
+92
+00:03:44,060 --> 00:03:51,637
+if we said y = 3, and z = 2,
+
+93
+00:03:51,637 --> 00:03:53,393
+then what would x be in that situation?
+
+94
+00:03:53,393 --> 00:03:58,102
+So if y = 3, and z =2,
+
+95
+00:03:58,102 --> 00:03:58,608
+then you're going to have –
+
+96
+00:03:58,608 --> 00:04:00,487
+the left hand expression is going to be
+
+97
+00:04:00,487 --> 00:04:02,148
+x + 3 + 2 –
+
+98
+00:04:02,148 --> 00:04:04,998
+which is going to be x + 5 –
+
+99
+00:04:04,998 --> 00:04:06,813
+This part right over here is going to be 5.
+
+100
+00:04:06,813 --> 00:04:08,975
+x + 5 = 5
+
+101
+00:04:08,975 --> 00:04:11,198
+And so what + 5 = 5?
+
+102
+00:04:11,198 --> 00:04:12,632
+Well now, we're constraining x to be –
+
+103
+00:04:12,632 --> 00:04:14,378
+x would have to be –
+
+104
+00:04:14,378 --> 00:04:16,938
+x would have to be equal to 0. (x = 0)
+
+105
+00:04:16,938 --> 00:04:18,235
+But the important point here –
+
+106
+00:04:18,235 --> 00:04:19,789
+1) hopefully, you realize the difference
+
+107
+00:04:19,789 --> 00:04:20,803
+between an expression and an equation.
+
+108
+00:04:20,803 --> 00:04:21,850
+In an equation, essentially,
+
+109
+00:04:21,850 --> 00:04:23,669
+you're equating two expressions.
+
+110
+00:04:23,669 --> 00:04:25,370
+The important thing to take away from here,
+
+111
+00:04:25,370 --> 00:04:27,994
+is that a variable can take on different values,
+
+112
+00:04:27,994 --> 00:04:31,365
+depending on the context of the problem.
+
+113
+00:04:31,365 --> 00:04:32,778
+And to hit the point home,
+
+114
+00:04:32,778 --> 00:04:35,218
+let‘s just evaluate a bunch of expressions,
+
+115
+00:04:35,218 --> 00:04:38,056
+when the variables have different values.
+
+116
+00:04:38,056 --> 00:04:41,595
+So for example, if we had the expression
+
+117
+00:04:41,595 --> 00:04:43,309
+if we had the expression.
+
+118
+00:04:43,309 --> 00:04:47,799
+x to the y power,
+
+119
+00:04:47,799 --> 00:04:51,955
+if x is equal to 5,
+
+120
+00:04:51,955 --> 00:04:54,311
+and y is equal to 2
+
+121
+00:04:54,311 --> 00:04:55,791
+y is equal to 2.
+
+122
+00:04:55,791 --> 00:04:58,908
+then our expression here is going to evaluate to –
+
+123
+00:04:58,908 --> 00:05:01,506
+Well x is now going to be 5.
+
+124
+00:05:01,506 --> 00:05:02,888
+x is going to be 5.
+
+125
+00:05:02,888 --> 00:05:04,363
+y is going to be 2.
+
+126
+00:05:04,363 --> 00:05:06,612
+it's going to be 5 to the second power.
+
+127
+00:05:06,612 --> 00:05:08,154
+or it's going to evaluate to
+
+128
+00:05:08,154 --> 00:05:09,785
+25.
+
+129
+00:05:09,785 --> 00:05:11,633
+If we change the values –
+
+130
+00:05:11,633 --> 00:05:14,360
+If we said x –
+
+131
+00:05:14,360 --> 00:05:16,292
+(Let me do it in that same color.)
+
+132
+00:05:16,292 --> 00:05:20,965
+If we said x is equal to -2,
+
+133
+00:05:20,965 --> 00:05:24,772
+and y is equal to 3,
+
+134
+00:05:24,772 --> 00:05:27,839
+then this expression would evaluate to,
+
+135
+00:05:27,839 --> 00:05:30,469
+(Let me do in that color.)
+
+136
+00:05:30,469 --> 00:05:32,386
+– so it would evaluate to -2.
+
+137
+00:05:32,386 --> 00:05:35,376
+(That's what we're going to substitute for x now,
+
+138
+00:05:35,376 --> 00:05:36,705
+in this context.)
+
+139
+00:05:36,705 --> 00:05:38,172
+– and y is now 3 –
+
+140
+00:05:38,172 --> 00:05:42,080
+-2 to the third power –
+
+141
+00:05:42,080 --> 00:05:44,577
+which is -2 x -2 x -2,
+
+142
+00:05:44,577 --> 00:05:46,895
+which is -8.
+
+143
+00:05:46,895 --> 00:05:48,567
+-2 × -2 = +4.
+
+144
+00:05:48,567 --> 00:05:52,154
+× -2 again is equal to -8.
+
+145
+00:05:52,154 --> 00:05:53,367
+is equal to -8
+
+146
+00:05:53,367 --> 00:05:55,713
+So you see, depending on what the values of these are –
+
+147
+00:05:55,713 --> 00:05:58,280
+(And we could even do more complex things.)
+
+148
+00:05:58,280 --> 00:05:59,681
+We could have an expression like
+
+149
+00:05:59,681 --> 00:06:06,609
+"the square root of x + y and then minus x" ... like that.
+
+150
+00:06:06,609 --> 00:06:11,878
+If x is equal to –
+Let's say that x is equal to 1,
+
+151
+00:06:11,878 --> 00:06:16,013
+and y is equal to 8,
+
+152
+00:06:16,013 --> 00:06:18,571
+then this expression would evaluate to –
+
+153
+00:06:18,571 --> 00:06:21,422
+(Well every time we see an x, we want to put a 1 there.)
+
+154
+00:06:21,422 --> 00:06:23,008
+– so we would have a 1 there.
+
+155
+00:06:23,008 --> 00:06:24,812
+And you would have a 1 over there.
+
+156
+00:06:24,812 --> 00:06:26,746
+And every time you would see a y,
+
+157
+00:06:26,746 --> 00:06:28,413
+you would put an 8 in its place –
+
+158
+00:06:28,413 --> 00:06:30,819
+– in this context.
+We're setting these variables to specific numbers.
+
+159
+00:06:30,819 --> 00:06:32,087
+So you would see an 8.
+
+160
+00:06:32,087 --> 00:06:34,611
+So under the radical sign, you would have a 1+8 –
+
+161
+00:06:34,611 --> 00:06:37,821
+so you would have the principal root of 9 – which is 3.
+
+162
+00:06:37,821 --> 00:06:40,974
+So this whole thing would simplify in this context.
+
+163
+00:06:40,974 --> 00:06:43,119
+When we set these variables to be these things,
+
+164
+00:06:43,119 --> 00:06:45,586
+this whole thing would simplify to be 3.
+
+165
+00:06:45,586 --> 00:06:46,503
+1 + 8 is 9.
+
+166
+00:06:46,503 --> 00:06:48,685
+Principal root of that is 3.
+
+167
+00:06:48,685 --> 00:06:50,769
+And then you'd have 3 - 1.
+
+168
+00:06:50,769 --> 00:06:54,769
+Which is equal to 2.

@@ -1,0 +1,423 @@
+1
+00:00:00,000 --> 00:00:04,347
+Newton's first law tells us that an object at rest will stay at rest
+
+2
+00:00:04,347 --> 00:00:08,666
+and an object with a constant velocity will keep having that constant velocity
+
+3
+00:00:08,666 --> 00:00:12,482
+unless it's affected by some type of net force
+
+4
+00:00:12,482 --> 00:00:18,953
+or you actually could say an object with constant velocity will stay having a constant velocity
+
+5
+00:00:18,953 --> 00:00:20,819
+unless it's affected by net force
+
+6
+00:00:20,819 --> 00:00:24,867
+because really this takes into consideration the situation where an object is at rest
+
+7
+00:00:24,867 --> 00:00:28,305
+you could just have a situation where the constant velocity is zero
+
+8
+00:00:28,305 --> 00:00:32,417
+So Newton's first law, you're gonna have your constant velocity it could be zero,
+
+9
+00:00:32,417 --> 00:00:36,973
+it's going to stay being that constant velocity unless it's affected, unless there's some net force
+
+10
+00:00:36,973 --> 00:00:40,452
+that acts on it, so that leads to the natural question:
+
+11
+00:00:40,452 --> 00:00:46,463
+How does a net force affect the constant velocity? or how does it affect the state of an object?
+
+12
+00:00:46,463 --> 00:00:49,587
+And that's what Newton's second law gives us.
+
+13
+00:00:49,587 --> 00:00:59,438
+So Newton's second law of motion.
+
+14
+00:00:59,438 --> 00:01:04,599
+And this one is maybe the most famous, they're all kind of famous
+
+15
+00:01:04,599 --> 00:01:09,098
+actually, I won't pick favorites here, but this one gives us the famous formula
+
+16
+00:01:09,098 --> 00:01:14,698
+Force is equal to Mass times Acceleration
+
+17
+00:01:14,698 --> 00:01:19,659
+And acceleration is a vector quantity and force is a vector quantity
+
+18
+00:01:19,659 --> 00:01:22,300
+and what it tells us, because we're saying okay, if you apply force
+
+19
+00:01:22,300 --> 00:01:24,302
+it might change that constant velocity
+
+20
+00:01:24,302 --> 00:01:26,357
+but how does it change that constant velocity?
+
+21
+00:01:26,357 --> 00:01:30,318
+We'll say I have a brick right here, and it is floating in space
+
+22
+00:01:30,318 --> 00:01:35,918
+Newton's second law tells us, and it's pretty nice for us that the laws of the universe,
+
+23
+00:01:35,918 --> 00:01:38,367
+or at least in the classical sense, before Einstein showed up,
+
+24
+00:01:38,367 --> 00:01:41,386
+the laws of the universe actually dealt with pretty simple mathematics
+
+25
+00:01:41,386 --> 00:01:49,518
+what it tells us is if you apply a net force on this side of the object
+
+26
+00:01:49,518 --> 00:01:52,952
+and we talk about net force because if you apply two forces that cancel out,
+
+27
+00:01:52,952 --> 00:01:58,335
+and have zero net force, then the object <i>won't</i> change it's constant velocity
+
+28
+00:01:58,335 --> 00:02:01,302
+if you have a net force applied to one side of this object,
+
+29
+00:02:01,302 --> 00:02:08,006
+then you're going to have a net acceleration going in the same direction
+
+30
+00:02:08,006 --> 00:02:12,350
+and what Newton's second law of motion tells us is that acceleration
+
+31
+00:02:12,350 --> 00:02:17,553
+is proportional to the force applied, or the force applied is proportional to that acceleration
+
+32
+00:02:17,553 --> 00:02:22,851
+and the constant of proportionality or to figure out what you have to multiply
+
+33
+00:02:22,851 --> 00:02:27,384
+the acceleration by to get the force, or what you have to divide the force by to get the acceleration
+
+34
+00:02:27,384 --> 00:02:34,375
+is called mass, that is an object's mass.
+
+35
+00:02:34,375 --> 00:02:38,930
+and I'll make a whole video on this, you should not confuse mass with weight
+
+36
+00:02:38,930 --> 00:02:42,483
+and I'll make a whole video on the difference between mass and weight
+
+37
+00:02:42,483 --> 00:02:47,830
+mass is a measure of how much stuff there is, now that we'll see in the future
+
+38
+00:02:47,830 --> 00:02:51,861
+there are other things that we don't normally consider "stuff" that does start to have mass
+
+39
+00:02:51,861 --> 00:02:56,579
+but for our classical or at least a first year physics course, you can really just imagine how much
+
+40
+00:02:56,579 --> 00:03:03,130
+"stuff" there is. Weight, as we'll see in a future video, is how much that stuff is being pulled down
+
+41
+00:03:03,130 --> 00:03:09,080
+by the force of gravity, so weight is a force, mass is telling you how much stuff there is.
+
+42
+00:03:09,080 --> 00:03:14,431
+And this is really neat that this formula is so simple, because, maybe we could have lived in a universe
+
+43
+00:03:14,431 --> 00:03:22,829
+where force is equal to mass squared times the square root of acceleration
+
+44
+00:03:22,829 --> 00:03:25,809
+which would have made all of our math much more complicated
+
+45
+00:03:25,809 --> 00:03:28,696
+but it's nice, it's just this constant proportionality over here
+
+46
+00:03:28,696 --> 00:03:31,312
+it's just this nice simple expression
+
+47
+00:03:31,312 --> 00:03:35,795
+and just to get our feet wet a little bit with the computations involved
+
+48
+00:03:35,795 --> 00:03:41,628
+in force, mass, and acceleration, let's say that I have a force
+
+49
+00:03:41,628 --> 00:03:47,010
+and the unit of force is a appropriately called the Newton.
+
+50
+00:03:47,010 --> 00:03:56,470
+So let's say I have a force of 10 Newtons, and just to be clear, a newton is the same thing
+
+51
+00:03:56,470 --> 00:04:02,311
+this is the same thing as 10 kilogram meters per second squared
+
+52
+00:04:02,311 --> 00:04:06,308
+and that's good that a Newton's the same thing as kilogram meters per second squared, because
+
+53
+00:04:06,308 --> 00:04:09,558
+that's exactly what you get on this side of the formula
+
+54
+99:59:59,999 --> 99:59:59,999
+so let's say I have a force of 10 Newtons
+
+55
+99:59:59,999 --> 99:59:59,999
+and is acting on a mass
+
+56
+99:59:59,999 --> 99:59:59,999
+let's say that the mass is 2 kilograms,
+
+57
+99:59:59,999 --> 99:59:59,999
+and I wanna know the acceleration.
+
+58
+99:59:59,999 --> 99:59:59,999
+... I wanna know the acceleration.
+
+59
+99:59:59,999 --> 99:59:59,999
+and once again in this video, these are vector quantities
+
+60
+99:59:59,999 --> 99:59:59,999
+If I have a positive value here, we're going to make the assumption that
+
+61
+99:59:59,999 --> 99:59:59,999
+we are going to the right.
+
+62
+99:59:59,999 --> 99:59:59,999
+if I had a negative value, then it would be going to the left.
+
+63
+99:59:59,999 --> 99:59:59,999
+So implicitly, I'm giving you not only the magnitude of the force,
+
+64
+99:59:59,999 --> 99:59:59,999
+but I'm also giving you the direction.
+
+65
+99:59:59,999 --> 99:59:59,999
+I'm saying it is "to the right", because it is positive.
+
+66
+99:59:59,999 --> 99:59:59,999
+So what would be the acceleration?
+
+67
+99:59:59,999 --> 99:59:59,999
+We just use F=m*a.
+
+68
+99:59:59,999 --> 99:59:59,999
+You have, on the left hand side, 10 N,
+
+69
+99:59:59,999 --> 99:59:59,999
+I could write 10 N here or I could write 10 kg m/s^2, and that
+
+70
+99:59:59,999 --> 99:59:59,999
+is going to be equal to the mass, which is 2 kg,
+
+71
+99:59:59,999 --> 99:59:59,999
+times the acceleration.
+
+72
+99:59:59,999 --> 99:59:59,999
+And then to solve for the acceleration,
+
+73
+99:59:59,999 --> 99:59:59,999
+you just divide both sides by 2kg.
+
+74
+99:59:59,999 --> 99:59:59,999
+So let's divide by 2 kg, let's divide the right...
+
+75
+99:59:59,999 --> 99:59:59,999
+or let me do it this way...
+
+76
+99:59:59,999 --> 99:59:59,999
+let's divide the right by 2 kg
+
+77
+99:59:59,999 --> 99:59:59,999
+that cancels out,
+
+78
+99:59:59,999 --> 99:59:59,999
+the 10 and the 2, 10 divide by 2, is...
+
+79
+99:59:59,999 --> 99:59:59,999
+lemme just... 10 divide by 2 is 5, and you have
+
+80
+99:59:59,999 --> 99:59:59,999
+kg cancelling with kg,
+
+81
+99:59:59,999 --> 99:59:59,999
+your left hand side, you get 5 m/s^2
+
+82
+99:59:59,999 --> 99:59:59,999
+and that's equal to your acceleration.
+
+83
+99:59:59,999 --> 99:59:59,999
+Now, just for fun, what happens if I double that force?
+
+84
+99:59:59,999 --> 99:59:59,999
+Well then I have... 20 N,
+
+85
+99:59:59,999 --> 99:59:59,999
+Oh well, I'll actually work it out
+
+86
+99:59:59,999 --> 99:59:59,999
+I have 20 kg m/s^2
+
+87
+99:59:59,999 --> 99:59:59,999
+is equal to ... I need to color code this...
+
+88
+99:59:59,999 --> 99:59:59,999
+2 kg times the acceleration,
+
+89
+99:59:59,999 --> 99:59:59,999
+divide both sides by 2kg,
+
+90
+99:59:59,999 --> 99:59:59,999
+divide both sides by 2kg,
+
+91
+99:59:59,999 --> 99:59:59,999
+and what do we get? Cancels out,
+
+92
+99:59:59,999 --> 99:59:59,999
+20 divided by 2, is 10, kg cancel with kg,
+
+93
+99:59:59,999 --> 99:59:59,999
+and so we have the acceleration, in this situation,
+
+94
+99:59:59,999 --> 99:59:59,999
+is is 10 m/s^2... is equal to the acceleration.
+
+95
+99:59:59,999 --> 99:59:59,999
+So, when we double the force, we went from 10 N to 20 N
+
+96
+99:59:59,999 --> 99:59:59,999
+the acceleration doubled. It went from 5 m/s^2
+
+97
+99:59:59,999 --> 99:59:59,999
+and to 10 m/s^2. So we see that they are
+
+98
+99:59:59,999 --> 99:59:59,999
+directly proportional, and the mass is that
+
+99
+99:59:59,999 --> 99:59:59,999
+how proportional they are. So you could imagine, what happens if
+
+100
+99:59:59,999 --> 99:59:59,999
+we doubled the mass. If we doubled the mass, and
+
+101
+99:59:59,999 --> 99:59:59,999
+let's say in this situation, it was 20 N, then we won't be dividing
+
+102
+99:59:59,999 --> 99:59:59,999
+by 2 kg anymore, we would be dividing by 4 kg.
+
+103
+99:59:59,999 --> 99:59:59,999
+and so then we would have 20 divided by 4, which would be 5 m/s^2
+
+104
+99:59:59,999 --> 99:59:59,999
+So if you make the mass larger, if you doubled
+
+105
+99:59:59,999 --> 99:59:59,999
+it, your acceleration would be half as much.
+
+106
+99:59:59,999 --> 99:59:59,999
+So the larger the mass you have, the more force you need to accelerate it.

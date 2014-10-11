@@ -1,0 +1,487 @@
+1
+00:00:01,800 --> 00:00:03,933
+In this video we will talk about what the chi squared distribution is. Chi squared distribution
+
+2
+00:00:03,933 --> 00:00:20,067
+sometimes called the chi-squared distribution. And in the next few videos, we will actually use it to test how well
+
+3
+00:00:20,067 --> 00:00:22,933
+theoretical distributions explain observed ones, or, how good a fit
+
+4
+00:00:22,933 --> 00:00:28,800
+observed results are for theoretical distributions. So lets just think about it a little bit, lets say
+
+5
+00:00:28,800 --> 00:00:32,600
+I have some random variables. And each of them are independent standard
+
+6
+00:00:32,600 --> 00:00:38,600
+normally distributed random variables. let me just remind you what that means, so lets just say I have
+
+7
+00:00:38,600 --> 00:00:42,600
+I have the random variable X. If X is normally distributed
+
+8
+00:00:42,600 --> 00:00:48,467
+we could write that X is a normal random variable with a mean
+
+9
+00:00:48,467 --> 00:00:57,600
+of 0 and a variance of 1 or you can say that the mean expected value of X is equal to 0
+
+10
+00:00:57,600 --> 00:01:05,000
+or in that the variance of our random variable X is equal to 1. Or, just to visualize it
+
+11
+00:01:05,000 --> 00:01:10,067
+is that we are sampling when we take an instantiation of this variable
+
+12
+00:01:10,067 --> 00:01:14,333
+we are sampling from a normal distribution a standardized normal
+
+13
+00:01:14,333 --> 00:01:21,400
+distribution that looks like this. Mean of 0 and then a variance of 1 which would also mean the standard
+
+14
+00:01:21,400 --> 00:01:23,067
+deviation of 1.
+
+15
+00:01:23,067 --> 00:01:30,000
+So this could be the standard deviation, or , variance, or the standard deviation that would be equal to 1
+
+16
+00:01:30,000 --> 00:01:34,467
+so a chi-squared distribution, if you just take one of these random variables
+
+17
+00:01:34,467 --> 00:01:38,333
+and you, let me just define it this way, let me take a new random variable
+
+18
+00:01:38,333 --> 00:01:47,800
+let me define a new random variable Q, let me define a new random variable Q that is equal to you essentially sampling
+
+19
+00:01:47,800 --> 00:01:52,800
+from this standard normal distribution and squaring whatever number you got.
+
+20
+00:01:52,800 --> 00:02:01,533
+so it is equal to this random variable X squared, it is equal to that random variable X squared
+
+21
+00:02:01,533 --> 00:02:09,067
+the dist for this random variable right here is going to be an example
+
+22
+00:02:09,067 --> 00:02:13,067
+of the chi-squared distribution, actually what we are going to see in this video is that the
+
+23
+00:02:13,067 --> 00:02:19,400
+chi-squared distribution is actually a set of distributions depending on how many sums you have
+
+24
+00:02:19,400 --> 00:02:26,133
+right now we only have 1 random variable that we are squaring so this is just one of the examples
+
+25
+00:02:26,133 --> 00:02:36,000
+that we will talk more about them in a second. This right here, this we could write that Q is a chi-squared distributed random variable
+
+26
+00:02:36,000 --> 00:02:41,133
+or that we could use this notation right here Q is, we could write it like this
+
+27
+00:02:41,133 --> 00:02:46,133
+this isn't an X anymore this is the greek letter chi although it looks alot like a curvy X
+
+28
+00:02:46,133 --> 00:02:52,133
+so its a member of chi-squared and since we are only taking one sum over here
+
+29
+00:02:52,133 --> 00:03:00,533
+here, we are only taking the sum of on 1 independent normally distributed standard normally distributed variable we say
+
+30
+00:03:00,533 --> 00:03:04,067
+that this has only 1 degree of freedom. and we write that over here
+
+31
+00:03:04,067 --> 00:03:10,267
+so this right here is our is our degree of freedom
+
+32
+00:03:10,267 --> 00:03:14,630
+we have one degree of freedom over there. now if we define
+
+33
+00:03:14,630 --> 00:03:24,667
+lets call this Q1, let's say we have another random variable - lets call it Q - we need a diff color, let me do Q2 in blue
+
+34
+00:03:24,667 --> 00:03:34,667
+lets say I have another random variable Q2 that is defined as, lets say I have 1 independent normally distributed variable I'll call that
+
+35
+00:03:34,667 --> 00:03:45,333
+X1 and then I'll square it. and then I have another independent standard or is guess you could call it standard normal
+
+36
+00:03:45,333 --> 00:03:51,800
+distributed variable X2 and then I square it. And you could imagine that both of these guys have distributions like
+
+37
+00:03:51,800 --> 00:03:59,733
+this and they are both independent and so to get to sample Q2 you essentially sample X1 from this distribution square that value,
+
+38
+00:03:59,733 --> 00:04:08,667
+sample X2 from the same distribution essentially square that value then add the two and then you are going to get Q2
+
+39
+00:04:08,667 --> 00:04:21,400
+this over here, here we would write Q1. Q2 here we would write is a chi-square distributed random variable with 2 degrees of freedom.
+
+40
+00:04:21,400 --> 00:04:32,933
+Two degrees of freedom and just to visualize the set of chi-squared distributions
+
+41
+00:04:32,933 --> 00:04:39,667
+lets look at this over here. So this, I got this off of wikipedia, this shows us some of the probability densities
+
+42
+00:04:39,667 --> 00:04:45,933
+functions for some of the chi-squared distributions. This first one over here for K of equal 1
+
+43
+00:04:45,933 --> 00:04:51,800
+that's the degrees of freedom so this essssentually our Q1. This is our probability density
+
+44
+00:04:51,800 --> 00:05:01,533
+function for Q1 and notice it really spikes close to 0 and that makes sense. If you were sampling just once from this standard norm dist
+
+45
+00:05:01,533 --> 00:05:07,200
+there's a very high likelyhood that your going to get something pretty close to 0
+
+46
+00:05:07,200 --> 00:05:10,200
+and then if you square something close to 0, remember these are decimals
+
+47
+00:05:10,200 --> 00:05:14,267
+they are going to be less than 1 pretty close to 0 its going to become even smaller
+
+48
+00:05:14,267 --> 00:05:19,000
+so you have a high prob of getting a very small value you have a high prob of getting
+
+49
+00:05:19,000 --> 00:05:25,200
+values less than some threshold, this right here less than is guess this is 1 right here
+
+50
+00:05:25,200 --> 00:05:29,467
+so then one half and then you have a very low prob of getting a large number. To get
+
+51
+00:05:29,467 --> 00:05:37,200
+a 4 you would have to sample a 2, you would have to sample a 2 from this distribution and we know that 2 is
+
+52
+00:05:37,200 --> 00:05:42,333
+actually its 2 variences or two standard deviations from the mean, so its less likely
+
+53
+00:05:42,333 --> 00:05:51,533
+and acutally thats - thats to get a 4 so to get an even larger numbers its going to be even less likely
+
+54
+00:05:51,533 --> 00:05:53,533
+so thats why you see this shape over here. now when you have 2
+
+55
+00:05:53,533 --> 00:06:00,933
+degrees of freedom it moderates a little bit this is the shape for, this blue line right here is the
+
+56
+00:06:00,933 --> 00:06:06,267
+shape of Q2 and notice that your are a little bit less likely to get values close to 0
+
+57
+00:06:06,267 --> 00:06:08,600
+and a little bit more liekly to get numbers further out
+
+58
+00:06:08,600 --> 00:06:13,267
+but its still kinds shifted of weightrd towards small numbers
+
+59
+00:06:13,267 --> 00:06:20,267
+then if we had another random variable and other chi-squared distributed random variable so then we have
+
+60
+00:06:20,267 --> 00:06:29,800
+lets say Q3 and lets deffing it as sum f three indipenedient variables
+
+61
+00:06:29,800 --> 00:06:37,733
+each of them would have a stand norm dist so X1, X squared plus X3 squared then all the sudden
+
+62
+00:06:37,733 --> 00:06:46,067
+our Q3, this is Q2 here, has a chi-squared distribution of 3 degrees of freedom so this guy right over here
+
+63
+00:06:46,067 --> 00:06:48,867
+that will be this green line. Maybe I should have done this
+
+64
+00:06:48,867 --> 00:06:54,600
+in green, this will be this green line over here and then notice that it is becoming a little more likely
+
+65
+00:06:54,600 --> 00:06:57,267
+that you get values in this range over here.
+
+66
+00:06:57,267 --> 00:07:00,400
+because you are taking the sum, each of these are going to be pretty small values, but you are taking the
+
+67
+00:07:00,400 --> 00:07:04,933
+sum so it starts to shift it over to the right. So the more degrees of freedom you have
+
+68
+00:07:05,400 --> 00:07:08,933
+the further this lump starts to move to the right. and to some degree
+
+69
+00:07:08,933 --> 00:07:11,267
+the more symmetric it gets and whats interesting about this
+
+70
+00:07:11,267 --> 00:07:14,267
+i guess its almost different than any other distribution,
+
+71
+00:07:14,267 --> 00:07:16,600
+we have looked at, although we have looked at others that have
+
+72
+00:07:16,600 --> 00:07:20,600
+this property as well, is that you cant have a value below 0
+
+73
+00:07:20,600 --> 00:07:22,933
+because we are always squaring these values each
+
+74
+00:07:22,933 --> 00:07:27,000
+these guys can have values below zero, they are normally distributed, they can have negative values
+
+75
+00:07:27,000 --> 00:07:29,200
+but since we are squaring and taking the sum of squares
+
+76
+00:07:29,200 --> 00:07:31,067
+this is always going to be positive.
+
+77
+00:07:31,067 --> 00:07:34,333
+The place that this is going to be useful, and we are going to see in the next
+
+78
+00:07:34,333 --> 00:07:38,733
+few videos is in measuring, essentially error from an expected value
+
+79
+00:07:38,733 --> 00:07:44,708
+and if you take the total error, you can figure out the probability of getting that error
+
+80
+00:07:44,738 --> 00:07:49,533
+from, if you hold some parameters, or if you assume some parameters
+
+81
+00:07:49,533 --> 00:07:51,000
+we'll talk more about that in the next video
+
+82
+00:07:51,000 --> 00:07:53,067
+Now with that said, I just want to show you how to read
+
+83
+00:07:53,067 --> 00:07:59,800
+a chi-squared distribution table. So if I were to ask you, if I were to ask you
+
+84
+00:07:59,800 --> 00:08:03,467
+if this is our distribution, let me pick this blue one right here
+
+85
+00:08:03,467 --> 00:08:07,400
+so over here we have 2 degrees of freedom for adding two of these guys right here
+
+86
+00:08:07,400 --> 00:08:09,933
+if i were to ask you, what is the probability
+
+87
+00:08:09,933 --> 00:08:14,333
+what is the probability, of, what is the probability of
+
+88
+00:08:14,333 --> 00:08:21,462
+Q2 being greater than, Q2 being greater than. Let me
+
+89
+00:08:21,462 --> 00:08:26,390
+put it this way. What is the probability of Q2 being greater than
+
+90
+00:08:26,390 --> 00:08:28,733
+2.41? And I'm picking that value for a reason.
+
+91
+00:08:28,733 --> 00:08:35,200
+so I want the probability of Q2 being greater than 2.41
+
+92
+00:08:35,200 --> 00:08:39,800
+what I want to do is, ill look at a, ill look at a chi-squared table
+
+93
+00:08:39,800 --> 00:08:44,533
+like this. Q2 is a version of chi-squared with 2 degrees of freedom
+
+94
+00:08:44,533 --> 00:08:49,267
+so i look at this row right here under 2 degrees of freedom
+
+95
+00:08:49,267 --> 00:08:53,800
+and I want the probability of getting a value
+
+96
+00:08:53,800 --> 00:08:56,133
+above 2.41 and i picked 2.41 because it is actually
+
+97
+00:08:56,133 --> 00:08:58,600
+at this table. And so most of these chi-squared
+
+98
+00:08:58,600 --> 00:09:00,600
+the reason why we have these weird numbers
+
+99
+00:09:00,600 --> 00:09:01,933
+like this instead of whole numbers
+
+100
+00:09:01,933 --> 00:09:03,800
+or easy to read fractions is its actually
+
+101
+00:09:03,800 --> 00:09:06,467
+driven by the p value its driven by the probability
+
+102
+00:09:06,467 --> 00:09:09,933
+of getting something larger than that value
+
+103
+00:09:09,933 --> 00:09:11,733
+so normally you would look at it the other way
+
+104
+00:09:11,733 --> 00:09:15,600
+you would say, ok if i want to say what, what chi-squared value
+
+105
+00:09:15,600 --> 00:09:19,533
+for 2 degrees of freedom there's a 30% chance of getting
+
+106
+00:09:19,533 --> 00:09:21,600
+something larger than that, then i would look up 2.41
+
+107
+00:09:21,600 --> 00:09:24,667
+buyt im doing it the other way just for the sake of this video
+
+108
+00:09:24,667 --> 00:09:28,333
+so if i want the probability of getting, of this random variable right here
+
+109
+00:09:28,333 --> 00:09:32,533
+being greater thaan 2.41, of being greater than 2.41 or its p value
+
+110
+00:09:33,667 --> 00:09:37,533
+we read it right here, it is 30% and just to visualize it on this chart
+
+111
+00:09:37,533 --> 00:09:41,467
+this chi-squared distribution, this Q2 the blue one
+
+112
+00:09:41,467 --> 00:09:44,267
+over here 2.41 is going to sit, lets see this is three
+
+113
+00:09:44,267 --> 00:09:48,933
+this is 2.5 so 2.41 is going to be someplace right around
+
+114
+00:09:48,933 --> 00:09:51,933
+here, so essentially what that table is telling us
+
+115
+00:09:51,933 --> 00:09:58,333
+is this entire area, this entire area, under, under this blue
+
+116
+00:09:58,333 --> 00:10:01,800
+line right here. what is that? and that right there is going
+
+117
+00:10:01,800 --> 00:10:07,933
+to be 30% of, well its going to be .3, or you can view
+
+118
+00:10:07,933 --> 00:10:11,533
+it as 30% of the entire area under this curve
+
+119
+00:10:11,533 --> 00:10:15,600
+because obviously all the probabilites have to add up to 1.
+
+120
+00:10:15,600 --> 00:10:18,200
+so that's our intro to chi-squared distribution. In the next video we are
+
+121
+00:10:18,200 --> 00:10:20,933
+actually going to use it to make some, or to test some
+
+122
+00:10:20,933 --> 99:59:59,999
+inferences

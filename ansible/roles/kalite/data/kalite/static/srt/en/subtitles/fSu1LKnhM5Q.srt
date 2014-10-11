@@ -1,0 +1,351 @@
+1
+00:00:00,000 --> 00:00:02,072
+What I want to do in this video is,
+
+2
+00:00:02,072 --> 00:00:10,923
+I want to prove that segment AC is perpendicular to segment DB
+
+3
+00:00:10,923 --> 00:00:15,165
+based on the information we have in this diagram over here,
+
+4
+00:00:15,165 --> 00:00:17,735
+that this side (DC) has the same length as that side (BC),
+
+5
+00:00:17,735 --> 00:00:20,958
+this side (DA) has the same length as that side (BA),
+
+6
+00:00:20,958 --> 00:00:26,708
+and I'll give you a hint. We're going to use one or more of our congruent postulates.
+
+7
+00:00:26,708 --> 00:00:29,665
+I'll just call them postulates from now on.
+
+8
+00:00:29,665 --> 00:00:34,490
+And so the ones that we know -- so let me draw a little line here. This is kind of our toolkit;
+
+9
+00:00:34,490 --> 00:00:40,600
+we have the Side-Side-Side postulate, that if the 3 sides are congruent, then the 2 triangles are congruent.
+
+10
+00:00:40,600 --> 00:00:47,747
+We have Side-Angle-Side. Two sides and the angle in between are congruent, then the two triangles are congruent.
+
+11
+00:00:47,747 --> 00:00:54,730
+We have ASA. Two angles with the side in between. And then we have AAS. Two angles and then a side.
+
+12
+00:00:54,730 --> 00:01:00,235
+So any of these things we've established are postulates. We're going to assume they imply congruency.
+
+13
+00:01:00,235 --> 00:01:05,602
+And I'm going to also do this as what we call a "two column proof," and you don't have to do something as a two column proof,
+
+14
+00:01:05,602 --> 00:01:11,203
+but this is what you'll normally see in introductory geometry class, so I thought it would expose you to it.
+
+15
+00:01:11,203 --> 00:01:18,401
+But it is a pretty basic idea that you make a statement and you just have to give the reason for your statement.
+
+16
+00:01:18,401 --> 00:01:23,495
+Which is what we've been doing for any proof, but we haven't always put it in a very structured way.
+
+17
+00:01:23,495 --> 00:01:36,270
+So I'm just going to do it like this. I'll have 2 columns like this, like that; and I'll going to have a "statement", and I'll give the "reason" for the statement.
+
+18
+00:01:36,270 --> 00:01:41,333
+And so the strategy that I'm going to try to do is -- it looks like right off the bat,
+
+19
+00:01:41,333 --> 00:01:50,817
+it seems I can prove that triangle CDA is congruent to triangle CBA based on Side-Side-Side.
+
+20
+00:01:50,817 --> 00:01:56,265
+That's a pretty good starting point because once I can base congruency, then I can have angles be the same.
+
+21
+00:01:56,265 --> 00:02:02,737
+And the reason I can do that is because this side is the same as that side, this side is the same as that side, and they both share that side.
+
+22
+00:02:02,737 --> 00:02:07,902
+But I don't want to do it just verbally this time; I want to write it out properly in this two column proof.
+
+23
+00:02:07,902 --> 00:02:21,273
+So we have the length of segment CD is equal to the length of CB; CD = CB, and that is given.
+
+24
+00:02:21,273 --> 00:02:25,124
+So these two characters have the same length.
+
+25
+00:02:25,124 --> 00:02:41,029
+We also know that the length of segment DA is the same as the length of segment BA. So DA = BA. That's also given in the diagram.
+
+26
+00:02:41,029 --> 00:02:45,926
+And then we also know that CA is equal to CA, I guess we could say.
+
+27
+00:02:45,926 --> 00:02:51,329
+So CA is equal to itself. And it's obviously in both triangles.
+
+28
+00:02:51,329 --> 00:03:00,734
+So this is also given or it's obvious from the diagram. It's a bit obvious; both triangles shared that side.
+
+29
+00:03:00,734 --> 00:03:08,924
+So we have two triangles. Their corresponding sides have the same length, and so we know that they are congruent.
+
+30
+00:03:08,924 --> 00:03:21,730
+So we know that triangle CDA is congruent to triangle CBA.
+
+31
+00:03:21,730 --> 00:03:27,517
+And we know that by the Side-Side-Side postulate and the statements given up here.
+
+32
+00:03:27,517 --> 00:03:33,803
+Let me actually number our statements so we can refer back to this. 1, 2, 3, and 4.
+
+33
+00:03:33,803 --> 00:03:40,201
+And so Side-Side-Side postulate and statements 1, 2, and 3.
+
+34
+00:03:40,201 --> 00:03:47,270
+So statements 1, 2, and 3 and the Side-Side-Side postulate let us know that these two triangles are congruent.
+
+35
+00:03:47,270 --> 00:03:56,396
+And then if these are congruent, then we know, for example, we know that all of their corresponding angles are equivalent.
+
+36
+00:03:56,396 --> 00:04:01,575
+So for example, this angle is going to be equal to that angle. So let's make that statement right over there.
+
+37
+00:04:01,575 --> 00:04:11,055
+We know that angle DCE -- so this is going to be statement 5. We know that angle DCE -- that's this angle right over here --
+
+38
+00:04:11,055 --> 00:04:14,277
+is going to have the same measure -- we can even say they're congruent.
+
+39
+00:04:14,277 --> 00:04:23,129
+I'll say the measure of angle DCE is going to be equal to the measure of angle BCE.
+
+40
+00:04:23,129 --> 00:04:33,528
+And this comes straight out of statement 4. Congruency. I can put it in parenthesis. Congruency of those triangles.
+
+41
+00:04:33,528 --> 00:04:38,274
+This applies straight -- because they're both part of this larger triangle, they're the corresponding angles.
+
+42
+00:04:38,274 --> 00:04:43,671
+So they're going to have the exact same measure. Now it seems like we can do something interesting
+
+43
+00:04:43,671 --> 00:04:49,309
+with those two smaller triangles (they're kind of at the top left and the top right of this kite-like figure).
+
+44
+00:04:49,309 --> 00:04:57,554
+Because we have a side -- two corresponding sides are congruent, two corresponding angles are congruent, and they have a side in common.
+
+45
+00:04:57,554 --> 00:05:04,071
+They have his side in common right over here. So let's first just establish that they have this side in common right over here.
+
+46
+00:05:04,099 --> 00:05:12,722
+So I'll just write statement 6. We have CE -- the length of that line is equal to itself. Once again, this is just obvious.
+
+47
+00:05:12,722 --> 00:05:25,727
+Obvious from diagram. It's the same line. Obvious from diagram. But now we can use that information -- so we don't have 3 sides,
+
+48
+00:05:25,727 --> 00:05:31,560
+we haven't proven to ourselves that this side is the same as that side, that DE is the same length as EB,
+
+49
+00:05:31,560 --> 00:05:41,864
+but we do have a side, an angle between the sides, and another side. And so this looks pretty interesting for our Side-Angle-Side postulate.
+
+50
+00:05:41,864 --> 00:06:04,669
+And so we can say, "By the Side-Angle-Side postulate, we can say that triangle DCE is congruent to triangle BCE."
+
+51
+00:06:04,669 --> 00:06:10,058
+And when I write the labels for the triangles, I'm making sure that I'm kind of putting the corresponding points.
+
+52
+00:06:10,058 --> 00:06:17,935
+So I started D, then went to C, then went to E. So the corresponding angle or corresponding point or vertex I could say
+
+53
+00:06:17,935 --> 00:06:22,826
+for this triangle right over here is B. So if I started with D, I start with B.
+
+54
+00:06:22,826 --> 00:06:28,257
+C in the middle is the corresponding vertex for either of these triangles, so I put it in the middle, and then they both go to E.
+
+55
+00:06:28,257 --> 00:06:32,196
+And that's just to make sure that we are specifying what corresponding to what.
+
+56
+00:06:32,196 --> 00:06:40,001
+And we know this is true by Side-Angle-Side and the information we got from --
+
+57
+00:06:40,001 --> 00:06:45,335
+so we got this side is established, that these two sides are congruent was from statement 1,
+
+58
+00:06:45,335 --> 00:06:53,361
+then that these angles are congruent is from statement 5, right over here, and then statement 6 gave us the other side.
+
+59
+00:06:53,361 --> 00:07:01,952
+Statement 6, just like that. And if we know that these two triangles are congruent, that means that all of their corresponding angles are congruent.
+
+60
+00:07:01,952 --> 00:07:07,262
+So we know, for example, that this angle right over here is going to be congruent to that angle over there.
+
+61
+00:07:07,262 --> 00:07:23,328
+So let's write that down. So we know statement 8. The measure of angle DEC is equal to the measure of angle BEC.
+
+62
+00:07:23,328 --> 00:07:32,942
+And this comes straight from statement 7. Once again, they're congruent. Congruency.
+
+63
+00:07:32,942 --> 00:07:43,817
+And then we also know -- we'll make statement 9 -- that the measure of angle DEC -- or maybe we should just write this way.
+
+64
+00:07:43,817 --> 00:07:56,519
+Angle DEC and angle BCE are supplementary. You can just look at that from inspection, but I'll write it decent --
+
+65
+00:07:56,519 --> 00:08:04,845
+are supplementary, which means they add up their measures add up to 180 degrees.
+
+66
+00:08:04,845 --> 00:08:20,931
+And we know that because they're adjacent and outer sides form straight angle.
+
+67
+00:08:20,931 --> 00:08:25,792
+And then, we can essentially -- the next step if we know that these two angles are equal to each other,
+
+68
+00:08:25,792 --> 00:08:33,098
+and if we know that they're complementary, our next step means that we can actually deduce that they must be 90 degrees.
+
+69
+00:08:33,098 --> 00:08:44,262
+So 10, measure of angle DEC equals the measure of angle BEC, which equals 90 degrees.
+
+70
+00:08:44,262 --> 00:08:49,060
+And then for the reason it might be more involved, we can put these two statements together,
+
+71
+00:08:49,060 --> 00:08:57,122
+so it'll be statements 8 and 9, and then statements 8 and 9 mean that DEC -- so I can write
+
+72
+00:08:57,122 --> 00:09:04,414
+this measure of angle DEC plus measure of angle -- actually, let me just --
+
+73
+00:09:04,414 --> 00:09:09,974
+since I don't want to too many steps all at once, let me just take it a little bit by a little bit.
+
+74
+00:09:09,974 --> 00:09:22,148
+So let me just do it all like this. So let me say, "Measure of angle DEC plus measure of angle BEC is equal to 180,
+
+75
+00:09:22,148 --> 00:09:26,951
+and this comes straight from point 9 that they are supplementary."
+
+76
+00:09:26,951 --> 00:09:33,121
+And then we can say statement (I'm taking a lot of space now) 11, we could say,
+
+77
+00:09:33,121 --> 00:09:41,074
+"Measure of angle DEC plus measure of angle DEC is equal to 180 degrees."
+
+78
+00:09:41,074 --> 00:09:49,369
+And we know that from statement 9 and statement 8. We essentially just took statement 9
+
+79
+00:09:49,369 --> 00:09:54,897
+and substituted that the measure of BEC is the same as the measure as DEC.
+
+80
+00:09:54,897 --> 00:10:08,930
+And so then if we want statement 12, we can say, "Angle DEC is equal to 90, which is equal to the measure of angle BEC."
+
+81
+00:10:08,930 --> 00:10:15,483
+And then, this comes, once again, straight out of point number 11 and 8.
+
+82
+00:10:15,483 --> 00:10:19,819
+And what you can see is I'm kind of taking a little bit more time, going a little bit more granular to the steps,
+
+83
+00:10:19,819 --> 00:10:23,875
+and some other person would have said, "Oh, obviously, this implies this or that." And then we're done!
+
+84
+00:10:23,875 --> 00:10:31,474
+Because if these are 90 degrees, -- so let me write the last statement -- so statement 13, which is what we wanted to prove.
+
+85
+00:10:31,474 --> 00:10:47,520
+We wanted to prove that AC is perpendicular to DB. So AC is perpendicular to segment DB,
+
+86
+00:10:47,520 --> 00:10:52,767
+and it comes straight out of point 12. And we're done!
+
+87
+00:10:52,767 --> 00:10:59,672
+We've done a two column proof, and we've proven that this line segment right over here is perpendicular to that line segment right over there.
+
+88
+00:10:59,672 --> 00:11:03,672
+We did it with the SSS postulate and the Side-Angle-Side postulate.

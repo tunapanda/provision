@@ -1,0 +1,663 @@
+1
+00:00:08,093 --> 00:00:11,028
+Whenever we talk about money, the amount of money
+
+2
+00:00:11,043 --> 00:00:12,204
+is not the only thing that matters
+
+3
+00:00:12,204 --> 00:00:15,429
+what also matters is when you have to get, or
+
+4
+00:00:15,429 --> 00:00:18,850
+when you have to give the money.
+
+5
+00:00:18,850 --> 00:00:19,637
+So to think about this or to make it a little more
+
+6
+00:00:19,637 --> 00:00:23,763
+concrete, let's assume that we live in a world
+
+7
+00:00:23,763 --> 00:00:25,279
+that if you put money in a bank, you are guaranteed
+
+8
+00:00:25,279 --> 00:00:28,062
+10% interest.
+
+9
+00:00:28,062 --> 00:00:34,831
+10% risk free interest in a bank.
+
+10
+00:00:34,831 --> 00:00:36,697
+And this is high by historical standards,
+
+11
+00:00:36,697 --> 00:00:37,663
+but it will make our math easy.
+
+12
+00:00:37,663 --> 00:00:39,954
+So let's just assume that you can always get
+
+13
+00:00:39,954 --> 00:00:43,843
+10% risk free interest in the bank.
+
+14
+00:00:43,843 --> 00:00:45,301
+Now, given that, let me through out scenarios
+
+15
+00:00:45,301 --> 00:00:47,756
+and have you think about which of these
+
+16
+00:00:47,756 --> 00:00:50,233
+that you would most want.
+
+17
+00:00:50,233 --> 00:00:54,746
+So I could give you $100 right now
+
+18
+00:00:54,746 --> 00:00:56,541
+that's option 1,
+
+19
+00:00:56,541 --> 00:00:58,706
+I could in 1 year, instead of giving you the
+
+20
+00:00:58,706 --> 00:01:01,162
+$100 immediately,
+
+21
+00:01:01,162 --> 00:01:09,302
+in 1 year I could give you $109
+
+22
+00:01:09,302 --> 00:01:13,893
+and then in 2 years, this is kind of option 3
+
+23
+00:01:13,893 --> 00:01:17,235
+I'd be willing to give you
+
+24
+00:01:17,235 --> 00:01:20,954
+$120
+
+25
+00:01:20,954 --> 00:01:23,387
+So your choice is, someone walks up to you in the street
+
+26
+00:01:23,387 --> 00:01:24,933
+"I could give you $100 bill now,
+
+27
+00:01:24,933 --> 00:01:30,882
+"...$109 in a year, or a $120 2 years from now"
+
+28
+00:01:30,882 --> 00:01:33,236
+And you know in the back of your mind
+
+29
+00:01:33,236 --> 00:01:36,008
+you can get 10% risk free interest.
+
+30
+00:01:36,008 --> 00:01:37,795
+So given that you don't have an immediate
+
+31
+00:01:37,795 --> 00:01:38,975
+need for money
+
+32
+00:01:38,975 --> 00:01:41,248
+we're assuming that this money you will save.
+
+33
+00:01:41,248 --> 00:01:43,531
+That you don't have a bill to pay immediately.
+
+34
+00:01:43,531 --> 00:01:46,931
+Which of these things are the most desirable?
+
+35
+00:01:46,931 --> 00:01:49,074
+which of these would you most want to have?
+
+36
+00:01:49,074 --> 00:01:52,754
+Well, if you just cared about the absolute value
+
+37
+00:01:52,754 --> 00:01:54,414
+or the absolute amount of the money
+
+38
+00:01:54,414 --> 00:01:56,164
+you'd say, "hey look! $120! that's the biggest
+
+39
+00:01:56,164 --> 00:01:59,516
+amount of money. I'm gonna take that one"
+
+40
+00:01:59,516 --> 00:02:01,097
+because that's just the biggest number,
+
+41
+00:02:01,097 --> 00:02:02,131
+but you probably have in the back of your mind
+
+42
+00:02:02,131 --> 00:02:04,192
+"well I'm getting that later"
+
+43
+00:02:04,192 --> 00:02:06,078
+so there may be something I'm losing out on there
+
+44
+00:02:06,078 --> 00:02:07,873
+and you're right, you would be losing out on
+
+45
+00:02:07,873 --> 00:02:09,968
+the opportunity to get the 10% risk free interest
+
+46
+00:02:09,968 --> 00:02:13,400
+if you were to get the money earlier.
+
+47
+00:02:13,400 --> 00:02:14,897
+And if you want to
+
+48
+00:02:14,897 --> 00:02:16,420
+if you wanted to compare them
+
+49
+00:02:16,420 --> 00:02:18,811
+directly, the thought process would be
+
+50
+00:02:18,811 --> 00:02:19,869
+well let's see
+
+51
+00:02:19,869 --> 00:02:23,143
+if I got the, if I took option 1, if I got the $100
+
+52
+00:02:23,143 --> 00:02:27,550
+if you were to put it in the bank, what would that grow to
+
+53
+00:02:27,550 --> 00:02:30,526
+based on that 10% risk free interest?
+
+54
+00:02:30,526 --> 00:02:34,641
+Well after 1 year, 10% of $100 dollars is $10
+
+55
+00:02:34,641 --> 00:02:36,946
+So you would get $10 in interest
+
+56
+00:02:36,946 --> 00:02:40,656
+so after 1 year, your entire savings in the bank
+
+57
+00:02:40,656 --> 00:02:43,962
+will now be $110.
+
+58
+00:02:43,962 --> 00:02:45,431
+So just doing that little exercise,
+
+59
+00:02:45,431 --> 00:02:48,147
+we actually see that $100 given now
+
+60
+00:02:48,147 --> 00:02:51,119
+put in the bank at 10% risk free
+
+61
+00:02:51,119 --> 00:02:54,502
+will actually turn into $110 a year from now
+
+62
+00:02:54,502 --> 00:02:58,136
+which is better than the $109 a year from now
+
+63
+00:02:58,136 --> 00:03:01,403
+So, given this scenario, or this kind of situation
+
+64
+00:03:01,403 --> 00:03:04,437
+or this option, you would rather do this than do this
+
+65
+00:03:04,437 --> 00:03:08,006
+A year from now you're better off by a dollar
+
+66
+00:03:08,006 --> 00:03:09,944
+What about 2 years from now?
+
+67
+00:03:09,944 --> 00:03:12,143
+Well if you take that $100 after 1 year
+
+68
+00:03:12,143 --> 00:03:15,835
+it becomes $110, then 10% of $110
+
+69
+00:03:15,835 --> 00:03:20,680
+is $11, you want to add $11 to it
+
+70
+00:03:20,680 --> 00:03:25,715
+so it becomes $121
+
+71
+00:03:25,715 --> 00:03:27,545
+so once again, you're better off taking the $100
+
+72
+00:03:27,545 --> 00:03:29,847
+investing it in the bank risk free
+
+73
+00:03:29,847 --> 00:03:33,917
+10% per year. It turns into $121
+
+74
+00:03:33,917 --> 00:03:36,312
+that is a better situation than just someone
+
+75
+00:03:36,312 --> 00:03:38,772
+guaranteeing you to give the $120 in 2 years
+
+76
+00:03:38,772 --> 00:03:43,452
+once again you are better off by $1.
+
+77
+00:03:43,452 --> 00:03:45,359
+And so this idea, not just the amount matters
+
+78
+00:03:45,359 --> 00:03:47,884
+but when you get it,
+
+79
+00:03:47,884 --> 00:03:56,429
+this idea is called "the time value of money,"
+
+80
+00:03:56,429 --> 00:03:58,309
+Or another way to think about it is,
+
+81
+00:03:58,309 --> 00:04:00,506
+think about what the value of this money is
+
+82
+00:04:00,506 --> 00:04:03,539
+over time, given some expected interest rate
+
+83
+00:04:03,539 --> 00:04:05,214
+and when you do that, you could compare this
+
+84
+00:04:05,214 --> 00:04:08,911
+money to equal amounts of money at some future date.
+
+85
+00:04:08,911 --> 00:04:11,578
+Now another way of thinking about the time value,
+
+86
+00:04:11,578 --> 00:04:14,008
+or I guess another related concept
+
+87
+00:04:14,008 --> 00:04:16,596
+to the time value of money, is the idea of
+
+88
+00:04:16,596 --> 00:04:21,204
+present value.
+
+89
+00:04:21,204 --> 00:04:23,090
+and maybe I'll talk about present value and
+
+90
+00:04:23,090 --> 00:04:23,641
+future value.
+
+91
+00:04:23,641 --> 00:04:30,998
+So, present and future value.
+
+92
+00:04:30,998 --> 00:04:34,386
+So, given this assumption, this $110, this 10% assumption
+
+93
+00:04:34,386 --> 00:04:36,437
+if someone were to ask you,
+
+94
+00:04:36,437 --> 00:04:41,724
+"what is the present value of $121 2 years in the future?"
+
+95
+00:04:41,724 --> 00:04:45,471
+They're essentially asking you
+
+96
+00:04:45,471 --> 00:04:48,682
+So what is the present value?
+
+97
+00:04:48,682 --> 00:04:50,031
+PV stands for Present Value
+
+98
+00:04:50,031 --> 00:04:54,022
+So what is the present value of $121 2 years in the future?
+
+99
+00:04:54,022 --> 00:04:56,564
+That's equivalent to asking,
+
+100
+00:04:56,564 --> 00:04:58,369
+what type of money, what amount of money
+
+101
+00:04:58,369 --> 00:05:01,108
+would you have put into the bank, risk free
+
+102
+00:05:01,108 --> 00:05:03,865
+over the next 2 years to get $121?
+
+103
+00:05:03,865 --> 00:05:06,578
+Now we know that, if you put $100 in the bank
+
+104
+00:05:06,578 --> 00:05:09,241
+for 2 years, at 10% risk free
+
+105
+00:05:09,241 --> 00:05:14,360
+you would get $121. So the present value here
+
+106
+00:05:14,360 --> 00:05:19,262
+The present value of $121 is the $100
+
+107
+00:05:19,262 --> 00:05:22,973
+or another way to think about present and future value
+
+108
+00:05:22,973 --> 00:05:24,757
+if someone were to ask, what is the future value?
+
+109
+00:05:24,757 --> 00:05:32,027
+What is the future value of this $100 in 1 year?
+
+110
+00:05:32,027 --> 00:05:34,685
+So, in 1 year, if you put
+
+111
+00:05:34,685 --> 00:05:37,040
+if you get 10% in the bank that's guaranteed
+
+112
+00:05:37,040 --> 00:05:40,724
+it's future value is $110,
+
+113
+00:05:40,724 --> 00:05:44,016
+after 2 years, it's 2 year future value is
+
+114
+00:05:44,016 --> 00:05:46,280
+$121
+
+115
+00:05:46,280 --> 00:05:47,401
+and so with that in mind let me give you one
+
+116
+00:05:47,401 --> 00:05:48,824
+slightly more interesting problem:
+
+117
+00:05:48,824 --> 00:05:50,893
+so let's say that I have
+
+118
+00:05:50,893 --> 00:05:53,257
+Let's say, we're going to assume this the whole time,
+
+119
+00:05:53,257 --> 00:05:56,012
+that makes our math easy at 10% risk free interest,
+
+120
+00:05:56,012 --> 00:06:01,093
+and let's say someone says that they're willing to give us
+
+121
+00:06:01,093 --> 00:06:11,268
+$65 in 1 year, and we were to ask ourselves,
+
+122
+00:06:11,268 --> 00:06:16,947
+"what is the present value of this?"
+
+123
+00:06:16,947 --> 00:06:19,878
+So, remember, the present value is
+
+124
+00:06:19,878 --> 00:06:21,905
+just asking you, what amount of money
+
+125
+00:06:21,905 --> 00:06:23,898
+that if you were to put it in the bank
+
+126
+00:06:23,898 --> 00:06:25,650
+at this risk free interest
+
+127
+00:06:25,650 --> 00:06:27,768
+would be equivalent to this $65
+
+128
+00:06:27,768 --> 00:06:30,548
+which of these two are equivalent to you?
+
+129
+00:06:30,548 --> 00:06:33,179
+And so you would say, well look
+
+130
+00:06:33,179 --> 00:06:36,723
+whatever amount of money that is, let's call that "x"
+
+131
+00:06:36,723 --> 00:06:38,454
+whatever amount of money that is,
+
+132
+00:06:38,454 --> 00:06:40,222
+times, if I grow it at 10%
+
+133
+00:06:40,222 --> 00:06:44,182
+That's literally, I'm taking x plus 10% x
+
+134
+00:06:44,182 --> 00:06:46,912
+let me write it this way,
+
+135
+00:06:46,912 --> 00:06:48,513
+plus 10% times x
+
+136
+00:06:48,513 --> 00:06:50,147
+or let me write it, let me make it clearer this way
+
+137
+00:06:50,147 --> 00:07:00,451
+x plus 10% of x should be equal to our $65
+
+138
+00:07:00,451 --> 00:07:03,012
+If I take the amount, I get 10% of that amount
+
+139
+00:07:03,012 --> 00:07:04,920
+over the year, that should be equal to
+
+140
+00:07:04,920 --> 00:07:06,699
+$65.
+
+141
+00:07:06,699 --> 00:07:08,345
+And this is the same thing as 1x
+
+142
+00:07:08,345 --> 00:07:12,459
+or we could say that 1x plus 10% is the same thing as
+
+143
+00:07:12,459 --> 00:07:16,371
+0.10x is equal to 65, or you add these two
+
+144
+00:07:16,371 --> 00:07:18,838
+1.10x is equal to 65
+
+145
+00:07:18,838 --> 00:07:23,053
+and if you want to solve for the actual amount
+
+146
+00:07:23,053 --> 00:07:24,415
+of the present value here
+
+147
+00:07:24,415 --> 00:07:27,715
+you would just divide both sides by the 1.10
+
+148
+00:07:27,715 --> 00:07:30,125
+So you'd get x is equal to
+
+149
+00:07:30,125 --> 00:07:33,317
+Let me do it this way, be a little bit more clear about it
+
+150
+00:07:33,317 --> 00:07:37,156
+So let's divide both sides by 1.1
+
+151
+00:07:37,156 --> 00:07:38,454
+and really that trailing zero doesn't matter
+
+152
+00:07:38,454 --> 00:07:40,736
+we're not really too worried about the precision here
+
+153
+00:07:40,736 --> 00:07:43,232
+because this is actually exactly 10%
+
+154
+00:07:43,232 --> 00:07:46,289
+So this is going to be, these cancel out
+
+155
+00:07:46,289 --> 00:07:48,263
+and x is going to be equal to
+
+156
+00:07:48,263 --> 00:07:51,129
+get the calculator out
+
+157
+00:07:51,129 --> 00:07:54,896
+x is going to be equal to
+
+158
+00:07:54,896 --> 00:07:57,764
+65 divided by 1.1
+
+159
+00:07:57,764 --> 00:08:02,286
+$59.09 rounding it
+
+160
+00:08:02,286 --> 00:08:08,078
+So, x is equal to $59.09
+
+161
+00:08:08,078 --> 00:08:09,772
+which was the present value
+
+162
+00:08:09,772 --> 00:08:11,988
+of $65 in 1 year
+
+163
+00:08:11,988 --> 00:08:13,873
+or another way to think about it is
+
+164
+00:08:13,873 --> 00:08:19,130
+if you wanted to know what the future value is of $59.09 is in 1 year
+
+165
+00:08:19,130 --> 00:08:20,701
+assuming that 10% interest
+
+166
+00:08:20,701 --> 00:08:22,824
+you would get $65.00.

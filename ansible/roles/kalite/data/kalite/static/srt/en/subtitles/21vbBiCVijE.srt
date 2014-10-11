@@ -1,0 +1,683 @@
+1
+00:00:00,210 --> 00:00:02,640
+I have triangle ABC here
+
+2
+00:00:02,650 --> 00:00:04,170
+And in the last that we did started to explore
+
+3
+00:00:04,180 --> 00:00:07,610
+some of the properties of points that are on angle bisectors
+
+4
+00:00:07,620 --> 00:00:09,040
+And now why I wanna do this with you
+
+5
+00:00:09,050 --> 00:00:10,220
+is just to see what happens
+
+6
+00:00:10,230 --> 00:00:11,490
+when we apply some of those ideas
+
+7
+00:00:11,500 --> 00:00:14,300
+to triangles or the angles in triangles
+
+8
+00:00:14,310 --> 00:00:18,610
+So let's bisect this angle right over here, angle B, A, C
+
+9
+00:00:18,620 --> 00:00:20,160
+and let me draw an angle bisector
+
+10
+00:00:20,170 --> 00:00:23,250
+So the angle bisector might look something
+
+11
+00:00:23,260 --> 00:00:27,610
+And I wanna make sure I get that angle right into pretty close
+
+12
+00:00:27,620 --> 00:00:29,220
+So that looks pretty close
+
+13
+00:00:29,230 --> 00:00:31,360
+So that's the angle bisector
+
+14
+00:00:31,370 --> 00:00:32,860
+Let me call this point right over here
+
+15
+00:00:32,870 --> 00:00:33,580
+I don't know
+
+16
+00:00:33,590 --> 00:00:35,680
+I could call this I could call this point D
+
+17
+00:00:35,690 --> 00:00:37,850
+And then let me draw another angle bisector,
+
+18
+00:00:37,860 --> 00:00:41,540
+the one that bisects angle ABC
+
+19
+00:00:41,550 --> 00:00:43,440
+So let me just draw this one
+
+20
+00:00:43,450 --> 00:00:47,140
+It looks it might look something like that right over there
+
+21
+00:00:47,150 --> 00:00:49,680
+And I can maybe call this point E
+
+22
+00:00:49,690 --> 00:00:53,910
+So AD bisects angle BAC
+
+23
+00:00:53,920 --> 00:00:58,590
+and BE bisects angle ABC
+
+24
+00:00:58,600 --> 00:01:00,670
+So the fact that this green line AD
+
+25
+00:01:00,680 --> 00:01:02,260
+bisects this angle right over here
+
+26
+00:01:02,270 --> 00:01:05,230
+That tells us that this angle must be equal
+
+27
+00:01:05,240 --> 00:01:06,970
+To that angle right over there
+
+28
+00:01:06,980 --> 00:01:08,170
+They must have the same measures
+
+29
+00:01:08,180 --> 00:01:13,230
+And the fact that this bisects this angle, angle ABC,
+
+30
+00:01:13,240 --> 00:01:17,340
+tells us that the measure of this angle, angle ABE,
+
+31
+00:01:17,350 --> 00:01:20,520
+must be equal to the measure of angle EBC
+
+32
+00:01:20,530 --> 00:01:22,340
+EBC
+
+33
+00:01:22,350 --> 00:01:25,180
+Now we see clearly that they have intersected
+
+34
+00:01:25,190 --> 00:01:27,740
+at a point inside of the triangle right over there
+
+35
+00:01:27,750 --> 00:01:30,050
+So let's call that point
+
+36
+00:01:30,060 --> 00:01:32,330
+Let me call that I just for fun
+
+37
+00:01:32,340 --> 00:01:33,840
+I'm skipping a few letters,
+
+38
+00:01:33,850 --> 00:01:36,680
+but it will be it's a useful letter that based on
+
+39
+00:01:36,690 --> 00:01:38,570
+what we are going to call this in very short order
+
+40
+00:01:38,580 --> 00:01:40,280
+There's some interesting things we know about I
+
+41
+00:01:40,290 --> 00:01:43,440
+I sits on both of these angle bisectors
+
+42
+00:01:43,450 --> 00:01:45,360
+and we saw in the previous video that
+
+43
+00:01:45,370 --> 00:01:48,360
+any point that sits on an angle bisector
+
+44
+00:01:48,370 --> 00:01:52,060
+is equidistant from the 2 sides of that angle
+
+45
+00:01:52,070 --> 00:01:56,630
+So for example, I sits on AD so it's going to be equidistant
+
+46
+00:01:56,640 --> 00:01:59,590
+from the 2 sides of angle BAC
+
+47
+00:01:59,600 --> 00:02:01,440
+So this is one side right over here
+
+48
+00:02:01,450 --> 00:02:03,740
+This is one side right over there
+
+49
+00:02:03,750 --> 00:02:06,130
+And then this is the other side right over there
+
+50
+00:02:06,140 --> 00:02:09,000
+So because I sits on AD,
+
+51
+00:02:09,010 --> 00:02:12,180
+we know that these 2 distances are going to be the same
+
+52
+00:02:12,190 --> 00:02:15,680
+assuming this is the shortest distance between I and the sides
+
+53
+00:02:15,690 --> 00:02:18,160
+And we've also shown in the previous video that
+
+54
+00:02:18,170 --> 00:02:21,400
+when we talk about the distance between a point and a line,
+
+55
+00:02:21,410 --> 00:02:22,780
+we're talking about the shortest distance
+
+56
+00:02:22,790 --> 00:02:25,410
+which is the distance you get if you draw a perpendicular
+
+57
+00:02:25,420 --> 00:02:27,600
+So that's why I drew the perpendiculars right over there
+
+58
+00:02:27,610 --> 00:02:29,980
+And we could even let's label this some
+
+59
+00:02:29,990 --> 00:02:31,060
+This is could be point F
+
+60
+00:02:31,070 --> 00:02:33,190
+This could be point G right over here
+
+61
+00:02:33,200 --> 00:02:37,980
+So because I sits on AD, sits on this angle bisector,
+
+62
+00:02:37,990 --> 00:02:42,390
+we know that IF, we know that IF is going to be equal to,
+
+63
+00:02:42,400 --> 00:02:45,060
+is going to be equal to IG
+
+64
+00:02:45,070 --> 00:02:46,130
+Fair enough
+
+65
+00:02:46,140 --> 00:02:49,740
+Now I also sits on this angle bisector
+
+66
+00:02:49,750 --> 00:02:52,370
+It also sits on BE which says that
+
+67
+00:02:52,380 --> 00:02:55,240
+it must be equidistant from A
+
+68
+00:02:55,250 --> 00:02:58,890
+the distance to AB must be the same as I is distanced to BC
+
+69
+00:02:58,900 --> 00:03:00,340
+I's distance to AB,
+
+70
+00:03:00,350 --> 00:03:03,230
+we already just said is this right over here, it's IG
+
+71
+00:03:03,240 --> 00:03:06,070
+But we also know that that distance
+
+72
+00:03:06,080 --> 00:03:09,550
+must be the same as the distance between I and BC
+
+73
+00:03:09,560 --> 00:03:13,340
+So if I draw, if I draw another perpendicular right over here,
+
+74
+00:03:13,350 --> 00:03:15,290
+and let's say I call this point
+
+75
+00:03:15,300 --> 00:03:17,230
+Let's see I haven't used H right over here
+
+76
+00:03:17,240 --> 00:03:19,960
+This distance must be the same as this distance
+
+77
+00:03:19,970 --> 00:03:22,580
+because I sits on this bisector
+
+78
+00:03:22,590 --> 00:03:25,710
+So IG must be equal to IH
+
+79
+00:03:25,720 --> 00:03:29,050
+IG must be equal to IH
+
+80
+00:03:29,060 --> 00:03:33,330
+But IF is also equal to IG, so we can also say that IF,
+
+81
+00:03:33,340 --> 00:03:35,670
+I mean if IF is equal to IG is equal to IH,
+
+82
+00:03:35,680 --> 00:03:40,160
+we also know that IF, IF is equal to IH
+
+83
+00:03:40,170 --> 00:03:41,950
+Pretty much common sense!
+
+84
+00:03:41,960 --> 00:03:44,150
+If this is equal to that, that is equal to that,
+
+85
+00:03:44,160 --> 00:03:46,400
+then these 2 have to be equal to each other
+
+86
+00:03:46,410 --> 00:03:50,200
+But if I is equidistant from 2 sides of an angle,
+
+87
+00:03:50,210 --> 00:03:52,460
+this is the 2nd part of what we proved in the previous video
+
+88
+00:03:52,470 --> 00:03:56,920
+If you have a point that is equidistant from 2 sides of an angle,
+
+89
+00:03:56,930 --> 00:04:01,920
+then that point must sit on the angle bisector for that angle
+
+90
+00:04:01,930 --> 00:04:04,270
+So with this right here tells us,
+
+91
+00:04:04,280 --> 00:04:08,010
+tells us that I must be on angle bisector
+
+92
+00:04:08,020 --> 00:04:20,750
+I is on angle bisector, angle bisector sector of angle ACB
+
+93
+00:04:20,760 --> 00:04:25,460
+'cause it's equidistant to these 2 sides of angle ACB
+
+94
+00:04:25,470 --> 00:04:27,370
+And what we have just shown is,
+
+95
+00:04:27,380 --> 00:04:30,730
+is that there's a unique point inside the triangle
+
+96
+00:04:30,740 --> 00:04:33,490
+that sits on all 3 angle bisectors
+
+97
+00:04:33,500 --> 00:04:35,500
+It's not always obvious that if you took 3 lines,
+
+98
+00:04:35,510 --> 00:04:37,100
+in fact normally, if you took 3 lines
+
+99
+00:04:37,110 --> 00:04:38,580
+are not going to intersect in one point
+
+100
+00:04:38,590 --> 00:04:40,650
+2 lines is very reasonable thing to do,
+
+101
+00:04:40,660 --> 00:04:43,390
+but 3 lines not always gonna intersects in one point,
+
+102
+00:04:43,400 --> 00:04:45,570
+but once again, let me saw with the circumcenter
+
+103
+00:04:45,580 --> 00:04:48,430
+where we took the perpendicular bisectors of the side
+
+104
+00:04:48,440 --> 00:04:50,760
+That was pretty neat that they intersected in one point
+
+105
+00:04:50,770 --> 00:04:53,140
+Now it's also cool that we're showing that
+
+106
+00:04:53,150 --> 00:04:56,200
+the angle bisectors all intersect in one unique point
+
+107
+00:04:56,210 --> 00:04:58,830
+I is on the angle bisector of ACB,
+
+108
+00:04:58,840 --> 00:05:03,120
+so the angle the bisector of ACB will look something like this
+
+109
+00:05:03,130 --> 00:05:05,180
+Will look something like this
+
+110
+00:05:05,190 --> 00:05:07,110
+And this angle right over here is
+
+111
+00:05:07,120 --> 00:05:10,610
+going to be congruent to this angle right over there
+
+112
+00:05:10,620 --> 00:05:12,840
+So we have just shown that if you draw
+
+113
+00:05:12,850 --> 00:05:16,130
+If you take the 3 angle bisectors of a triangle,
+
+114
+00:05:16,140 --> 00:05:19,340
+it will intersect in a unique point right over there
+
+115
+00:05:19,350 --> 00:05:21,890
+that sits on all 3 of them so would
+
+116
+00:05:21,900 --> 00:05:24,090
+It seems worthwhile that we should call this something special
+
+117
+00:05:24,100 --> 00:05:24,810
+And we do!
+
+118
+00:05:24,820 --> 00:05:26,310
+And it's why I called it I
+
+119
+00:05:26,320 --> 00:05:30,400
+We call I the incenter, the incenter
+
+120
+00:05:30,410 --> 00:05:36,380
+The incenter of triangle ABC, ABC
+
+121
+00:05:36,390 --> 00:05:39,250
+And you're gonna see the 2nd why it's called the incenter
+
+122
+00:05:39,260 --> 00:05:41,110
+When we talk about the circumcenter,
+
+123
+00:05:41,120 --> 00:05:42,970
+that was the center of a circle that was
+
+124
+00:05:42,980 --> 00:05:45,440
+that could be circumscribed about the triangle
+
+125
+00:05:45,450 --> 00:05:49,000
+I, we'll see in about 5 seconds,
+
+126
+00:05:49,010 --> 00:05:50,910
+is the center of a circle that could be
+
+127
+00:05:50,920 --> 00:05:52,440
+that is circums that is
+
+128
+00:05:52,450 --> 00:05:54,630
+that can be put inside the triangle
+
+129
+00:05:54,640 --> 00:05:56,320
+that's tangent to the 3 sides
+
+130
+00:05:56,330 --> 00:05:57,740
+And how do we construct that?
+
+131
+00:05:57,750 --> 00:05:59,710
+Well, we have just established that
+
+132
+00:05:59,720 --> 00:06:02,710
+I is equidistant to each of the sides,
+
+133
+00:06:02,720 --> 00:06:05,720
+that this length is equal to that length is equal to that length
+
+134
+00:06:05,730 --> 00:06:08,830
+So what happens if you set up a circle with I as the center
+
+135
+00:06:08,840 --> 00:06:11,160
+that has a radius equal to the distance
+
+136
+00:06:11,170 --> 00:06:13,600
+between I and anyone of the sides which is equal,
+
+137
+00:06:13,610 --> 00:06:17,740
+that has a radius, that has a radius equal to IF, IG or IH?
+
+138
+00:06:17,750 --> 00:06:19,600
+Well then you're going to have a circle
+
+139
+00:06:19,610 --> 00:06:21,080
+that looks something like
+
+140
+00:06:21,090 --> 00:06:24,900
+You're going to have a circle that looks something like this
+
+141
+00:06:24,910 --> 00:06:27,030
+You're going
+
+142
+00:06:27,040 --> 00:06:28,380
+Let me draw it a little bit better than that
+
+143
+00:06:28,390 --> 00:06:29,880
+I don't have
+
+144
+00:06:29,890 --> 00:06:31,810
+Rarely, you can imagine
+
+145
+00:06:31,820 --> 00:06:33,940
+This is my best attempt to draw a circle
+
+146
+00:06:33,950 --> 00:06:36,370
+This circle right here that has the radius
+
+147
+00:06:36,380 --> 00:06:38,830
+equal to the distance between I and any of the sides,
+
+148
+00:06:38,840 --> 00:06:41,560
+which we've already established as being equal,
+
+149
+00:06:41,570 --> 00:06:44,220
+we see they're sitting inside of the circle
+
+150
+00:06:44,230 --> 00:06:46,710
+So why don't we call this an incircle!
+
+151
+00:06:46,720 --> 00:06:48,200
+So circle I
+
+152
+00:06:48,210 --> 00:06:51,940
+Remember you label circles usually with the point at the center
+
+153
+00:06:51,950 --> 00:07:00,790
+Circle I is the incircle, incircle of triangle ABC
+
+154
+00:07:00,800 --> 00:07:05,300
+And of course, the radius of circle I so we could call,
+
+155
+00:07:05,310 --> 00:07:07,050
+we could call this length R
+
+156
+00:07:07,060 --> 00:07:11,830
+Let's say R is equal to IF which is equal to IH
+
+157
+00:07:11,840 --> 00:07:15,080
+which is equal to IG, is equal to IG
+
+158
+00:07:15,090 --> 00:07:18,350
+We can call that length the inradius
+
+159
+00:07:18,360 --> 00:07:20,620
+And it make sense because it's inside
+
+160
+00:07:20,630 --> 00:07:21,770
+When we had
+
+161
+00:07:21,780 --> 00:07:23,880
+When we were talking about the intersection of
+
+162
+00:07:23,890 --> 00:07:27,630
+the perpendicular bisectors, we had our circumcenter
+
+163
+00:07:27,640 --> 00:07:29,220
+because that was the center of a circle
+
+164
+00:07:29,230 --> 00:07:31,460
+that is circumscribed about the triangle
+
+165
+00:07:31,470 --> 00:07:35,480
+Now we're taking the intersection of the angle bisectors
+
+166
+00:07:35,490 --> 00:07:38,520
+and then, using that we're able to define a circle
+
+167
+00:07:38,530 --> 00:07:41,420
+that is kind of within the triangle,
+
+168
+00:07:41,430 --> 00:07:45,100
+and that whose sides are tangent to the circle
+
+169
+00:07:45,110 --> 00:07:47,710
+And since it's inside it, we call this incircle
+
+170
+00:07:47,720 --> 00:07:52,240
+We call the intersection of the angle bisectors the incenter
+
+171
+00:07:52,250 --> 00:07:56,080
+And we call this distance right over here the inradius

@@ -1,0 +1,243 @@
+1
+00:00:01,071 --> 00:00:05,298
+We're asked to simplify log base 5 of x to the third
+
+2
+00:00:05,298 --> 00:00:07,964
+and once again we're just going to rewrite this in a different way
+
+3
+00:00:07,964 --> 00:00:10,549
+you could argue whether's going to be more simple or not
+
+4
+00:00:10,549 --> 00:00:15,736
+and the logarithm property that I'm guessing we should use for
+
+5
+00:00:15,736 --> 00:00:17,470
+this example right here is
+
+6
+00:00:17,470 --> 00:00:22,298
+the property if I take log base x
+
+7
+00:00:22,298 --> 00:00:25,603
+of, of, let me fix more letters here
+
+8
+00:00:25,603 --> 00:00:29,736
+of log base x of y to the zth power
+
+9
+00:00:29,736 --> 00:00:33,471
+that this is the same thing as z times
+
+10
+00:00:33,471 --> 00:00:37,137
+log base x of y
+
+11
+00:00:37,137 --> 00:00:40,548
+so this is the logarithm property. If I'm taking the logarithm of a given base
+
+12
+00:00:40,548 --> 00:00:43,805
+of something to the power, I could take that power upfront
+
+13
+00:00:43,805 --> 00:00:48,937
+and multiply that times the log of the base of
+
+14
+00:00:48,937 --> 00:00:52,805
+just the y in this case. So we apply this property over here
+
+15
+00:00:52,805 --> 00:00:57,632
+and the second once I do this problem I'll talk about why this actually makes a lot of sense
+
+16
+00:00:57,632 --> 00:01:01,005
+it comes straight out of exponent properties. If we just apply
+
+17
+00:01:01,005 --> 00:01:04,737
+that over here we get log base 5 of x to the
+
+18
+00:01:04,737 --> 00:01:07,938
+third. Well this is the exponent right over here. It's the same thing
+
+19
+00:01:07,938 --> 00:01:11,271
+as z so that's going to be the same this as
+
+20
+00:01:11,271 --> 00:01:14,938
+that three is the same thing. We could put it out front
+
+21
+00:01:14,938 --> 00:01:19,049
+that's the same thing as three times the logarithm
+
+22
+00:01:19,049 --> 00:01:22,069
+base five of x. And we're done this is just
+
+23
+00:01:22,069 --> 00:01:27,048
+another way of writing it using this property so you can argue this is a
+
+24
+00:01:27,048 --> 00:01:31,964
+maybe this is a simplification because you took the exponent outside of the logarithm and you're multiplying
+
+25
+00:01:31,964 --> 00:01:38,537
+the logarithm by that number now. Now that out of the way, lets think about why that actually makes sense.
+
+26
+00:01:38,537 --> 00:01:50,797
+So lets say that we know that "a" to the "b" power is equal to "c"
+
+27
+00:01:50,797 --> 00:01:54,405
+and so if we know that, that's written as an exponential equation, if we want to write
+
+28
+00:01:54,405 --> 00:01:57,963
+the same truth as a logarithmic equation
+
+29
+00:01:57,963 --> 00:02:04,004
+we would say, "logarithm base 'a' of 'c' is equal to 'b'"
+
+30
+00:02:04,004 --> 00:02:06,548
+To what power do I have to raise 'a' to get 'c'?
+
+31
+00:02:06,548 --> 00:02:08,548
+I raise it to the bth power
+
+32
+00:02:08,548 --> 00:02:12,548
+'a' to the 'b' power is equal to 'c'. Fair enough.
+
+33
+00:02:12,548 --> 00:02:22,131
+So lets take both sides of the equation over here and raise it to the 'dth' power.
+
+34
+00:02:22,131 --> 00:02:24,871
+Instead of doing in place I'm just going to rewrite it over here.
+
+35
+00:02:24,871 --> 00:02:30,670
+So I wrote the original equation, 'a' to the 'b' is equal to 'c', which is just rewriting the statement.
+
+36
+00:02:30,670 --> 00:02:35,131
+So let me just take both sides of this to the dth power and I should be consistent
+
+37
+00:02:35,131 --> 00:02:37,881
+I'll use all capital letters so this should be a 'b'
+
+38
+00:02:37,881 --> 00:02:45,871
+actually I'm using all lower cases so this is a lower case 'c'
+
+39
+00:02:45,871 --> 00:02:51,070
+I'm going to raise this to the dth power and I'm going to raise this to the dth power.
+
+40
+00:02:51,070 --> 00:02:55,136
+Obviously these two are equal to each other if I raise both sides to the same power
+
+41
+00:02:55,136 --> 00:02:57,669
+The equality is still going to hold.
+
+42
+00:02:57,669 --> 00:03:02,964
+Now, what's over here
+
+43
+00:03:02,964 --> 00:03:07,631
+is we can use what we know about exponent properties
+
+44
+00:03:07,631 --> 00:03:11,547
+Say if I have 'a' to the bth power, then I raise that to the dth power
+
+45
+00:03:11,547 --> 00:03:14,962
+our exponent properties say that this is the same thing
+
+46
+00:03:14,962 --> 00:03:24,881
+this is equal to 'a' to the b*d power
+
+47
+00:03:24,881 --> 00:03:32,738
+this right over here using what we know about exponent properties
+
+48
+00:03:32,738 --> 00:03:39,138
+this is equal to 'a' to the b<i>d power. So we have 'a' to the b</i>d power
+
+49
+00:03:39,138 --> 00:03:42,214
+so we have a to the b<i>d power this is equal to c to the b</i>d power
+
+50
+00:03:42,214 --> 00:03:46,010
+Now this exponential equation, if we write it as a logarithmic equation
+
+51
+00:03:46,010 --> 00:03:55,138
+we would say, log base 'a' of 'c' to the dth power
+
+52
+00:03:55,138 --> 00:04:00,670
+is equal to b*d. What power do I have to raise 'a' to
+
+53
+00:04:00,670 --> 00:04:06,404
+to get to 'c' to the dth power? To get to this I have to raise it to the b*d power.
+
+54
+00:04:06,404 --> 00:04:12,804
+But what do we know that 'b' is? We already know that 'b' is this thing right over here.
+
+55
+00:04:12,804 --> 00:04:18,046
+So if we substitute this in for 'b' and we can write this as b*d
+
+56
+00:04:18,046 --> 00:04:29,137
+we get logarithm base 'a' c to the dth power is equal to b<i>d or you can also call that d</i>b
+
+57
+00:04:29,137 --> 00:04:34,004
+and so that's equal to d times b, be is just
+
+58
+00:04:34,004 --> 00:04:38,880
+log base 'a' of 'c'
+
+59
+00:04:38,880 --> 00:04:41,213
+So there you have it we just derived this property
+
+60
+00:04:41,213 --> 00:04:46,405
+log base 'a' of c to the dth, that's the same thing as d times log base 'a' of c
+
+61
+00:04:46,405 --> 00:04:49,000
+which we applied right over here.

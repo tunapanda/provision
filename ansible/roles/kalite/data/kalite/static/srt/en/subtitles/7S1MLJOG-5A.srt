@@ -1,0 +1,163 @@
+1
+00:00:02,000 --> 00:00:04,867
+Find the area and the perimeter of the polygon
+
+2
+00:00:04,867 --> 00:00:06,933
+so lets start with the area first
+
+3
+00:00:06,933 --> 00:00:08,733
+so the area of this polygon
+
+4
+00:00:08,733 --> 00:00:10,467
+and there's kind of two parts to this
+
+5
+00:00:10,467 --> 00:00:13,267
+first you have this part that's kind of rectangular
+
+6
+00:00:13,267 --> 00:00:15,000
+or it is rectangular
+
+7
+00:00:15,000 --> 00:00:16,667
+this part right over here
+
+8
+00:00:16,667 --> 00:00:18,333
+and that area is pretty straightforward
+
+9
+00:00:18,333 --> 00:00:20,333
+it's just going to be base times height
+
+10
+00:00:20,333 --> 00:00:22,600
+so the area's going to be 8 times 4
+
+11
+00:00:22,600 --> 00:00:25,733
+8 times 4 for the rectangular part
+
+12
+00:00:25,733 --> 00:00:28,600
+and then we have this triangular part up here
+
+13
+00:00:28,600 --> 00:00:30,533
+so we have this area up here
+
+14
+00:00:30,533 --> 00:00:36,000
+and for a triangle this area is base times height times 1/2
+
+15
+00:00:36,000 --> 00:00:37,267
+that actually makes a lot of sense
+
+16
+00:00:37,267 --> 00:00:39,133
+because you just multiply base times height
+
+17
+00:00:39,133 --> 00:00:39,633
+you would get this entire area
+
+18
+00:00:39,633 --> 00:00:43,667
+you get the area of the entire rectangle
+
+19
+00:00:43,667 --> 00:00:46,267
+and you see that the triangle is exactly half of it
+
+20
+00:00:46,267 --> 00:00:47,667
+if you took this part of the triangle
+
+21
+00:00:47,667 --> 00:00:49,600
+and you flip it over, you'd fill up that space
+
+22
+00:00:49,600 --> 00:00:51,000
+and you took this part of the triangle
+
+23
+00:00:51,000 --> 00:00:52,933
+and you flip it over, you'd fill up that space
+
+24
+00:00:52,933 --> 00:00:54,867
+so the triangle's area is half of
+
+25
+00:00:54,867 --> 00:00:57,600
+the triangle's base times the triangle's height
+
+26
+00:00:57,600 --> 00:01:03,067
+so plus 1/2 times the triangles base which is 8 inches
+
+27
+00:01:03,067 --> 00:01:06,267
+and the triangles height which is 4 inches.
+
+28
+00:01:06,267 --> 00:01:09,600
+so let us calculate it this gives us
+
+29
+00:01:09,600 --> 00:01:24,400
+it is not 4, triangles height is 3, so let us go back
+
+30
+00:01:24,400 --> 00:01:37,333
+and calculate it area = 32 + 1/2 * 8*3 = 32 + 12 = 44
+
+31
+00:01:37,333 --> 00:01:40,000
+area of the figure is 44
+
+32
+00:01:40,000 --> 00:01:42,267
+now let us do the perimeter.We need to figure out the
+
+33
+00:01:42,267 --> 00:01:45,467
+sum of the sides. If we need to put a fence
+
+34
+00:01:45,467 --> 00:01:51,200
+what is the length that we need to cover
+
+35
+00:01:51,200 --> 00:02:13,000
+so the perimeter = 8+4+5+5+4 =26 inches
+
+36
+00:02:13,000 --> 00:02:32,533
+Let me get the unit right, here we are multiplying
+
+37
+00:02:32,533 --> 00:02:38,200
+8 inches by 4 inches we get 32 square inches and
+
+38
+00:02:38,200 --> 00:02:40,000
+here we multiply 8 inches by 3 inches we get 24 square inches
+
+39
+00:02:40,000 --> 00:02:43,067
+divide by 2 we get 12 square inches.
+
+40
+00:02:43,067 --> 00:02:46,600
+area = 44 square inches, perimeter is 26 inches
+
+41
+00:02:46,600 --> 99:59:59,999
+area is two dimensional and perimeter is one dimensional

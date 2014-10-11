@@ -1,0 +1,906 @@
+1
+00:00:00,000 --> 00:00:00,690
+   
+
+2
+00:00:00,690 --> 00:00:03,440
+We're on problem 17.
+
+3
+00:00:03,440 --> 00:00:06,850
+And it asks us which expression
+shows the complete
+
+4
+00:00:06,850 --> 00:00:15,310
+factorization of 12x
+squared minus 147?
+
+5
+00:00:15,310 --> 00:00:16,920
+Let's see, first of all,
+can we factor out?
+
+6
+00:00:16,920 --> 00:00:18,750
+147 is a strange
+looking number.
+
+7
+00:00:18,750 --> 00:00:21,690
+Let's see if we can factor
+out something.
+
+8
+00:00:21,690 --> 00:00:23,390
+It's definitely not divisible
+by 12, because
+
+9
+00:00:23,390 --> 00:00:25,490
+12 goes into 144.
+
+10
+00:00:25,490 --> 00:00:26,460
+Is it divisible by 3?
+
+11
+00:00:26,460 --> 00:00:31,230
+1 plus 4 is 5, 5 plus 7 is 12,
+and 12 is divisible by 3.
+
+12
+00:00:31,230 --> 00:00:32,409
+And I don't know if you've
+seen that before.
+
+13
+00:00:32,409 --> 00:00:35,420
+You just add up the digits and
+if that is divisible by 3,
+
+14
+00:00:35,420 --> 00:00:37,120
+then the number's
+divisible by 3.
+
+15
+00:00:37,120 --> 00:00:40,100
+So 147 is the divisible by 3.
+
+16
+00:00:40,100 --> 00:00:43,700
+Let's see what it is.
+
+17
+00:00:43,700 --> 00:00:44,570
+Let's work it out.
+
+18
+00:00:44,570 --> 00:00:50,460
+It's 4 times 3 is
+12, 27, it's 49.
+
+19
+00:00:50,460 --> 00:00:51,960
+So we can factor
+3 out of this.
+
+20
+00:00:51,960 --> 00:00:55,761
+So then it becomes 3 times--
+what's 12 divided by 3-- 4x
+
+21
+00:00:55,761 --> 00:01:00,410
+squared minus-- 147 divided
+by 3, which we just
+
+22
+00:01:00,410 --> 00:01:03,070
+figured out, was 49.
+
+23
+00:01:03,070 --> 00:01:08,340
+And now this, once again, looks
+just like a squared
+
+24
+00:01:08,340 --> 00:01:14,250
+minus b squared, where a would
+be 2x and b would be 9.
+
+25
+00:01:14,250 --> 00:01:16,320
+So now we can factor
+that more.
+
+26
+00:01:16,320 --> 00:01:17,910
+And I'll just switch
+colors arbitrarily.
+
+27
+00:01:17,910 --> 00:01:25,690
+That becomes 3 times a plus b,
+so that would be 2x plus 7
+
+28
+00:01:25,690 --> 00:01:27,420
+times a minus b.
+
+29
+00:01:27,420 --> 00:01:30,380
+2x minus 7.
+
+30
+00:01:30,380 --> 00:01:33,030
+And that is choice D.
+
+31
+00:01:33,030 --> 00:01:35,780
+In choice D, they wrote the 2x
+minus 7 first, but it's the
+
+32
+00:01:35,780 --> 00:01:36,315
+same difference.
+
+33
+00:01:36,315 --> 00:01:38,140
+So it's choice D.
+
+34
+00:01:38,140 --> 00:01:39,930
+Problem 18.
+
+35
+00:01:39,930 --> 00:01:43,780
+Let me see if I can get
+problem 18 going.
+
+36
+00:01:43,780 --> 00:01:45,720
+Problem 18.
+
+37
+00:01:45,720 --> 00:01:47,310
+Well, maybe I should
+cut and paste it.
+
+38
+00:01:47,310 --> 00:01:50,260
+Why not?
+
+39
+00:01:50,260 --> 00:01:55,650
+So I copied it and then
+let me paste it here.
+
+40
+00:01:55,650 --> 00:01:56,140
+That's the problem.
+
+41
+00:01:56,140 --> 00:01:57,900
+I'll rewrite it because I don't
+if that's big enough for
+
+42
+00:01:57,900 --> 00:01:58,390
+you to see.
+
+43
+00:01:58,390 --> 00:02:08,479
+So it says x plus 3 over x plus
+5 plus 6 over x squared
+
+44
+00:02:08,479 --> 00:02:12,040
+plus 3x minus 10.
+
+45
+00:02:12,040 --> 00:02:14,170
+So when you add fractions,
+whether you're doing it with
+
+46
+00:02:14,170 --> 00:02:17,030
+algebraic fractions or regular
+fractions, you have to find a
+
+47
+00:02:17,030 --> 00:02:18,510
+common denominator.
+
+48
+00:02:18,510 --> 00:02:21,260
+And let's see, we have to find
+the least common multiple of
+
+49
+00:02:21,260 --> 00:02:24,960
+the denominators here, but I
+have a suspicion that this x
+
+50
+00:02:24,960 --> 00:02:26,260
+plus 5 goes into this.
+
+51
+00:02:26,260 --> 00:02:28,150
+So let's see if I
+can factor this.
+
+52
+00:02:28,150 --> 00:02:31,000
+What two numbers, when I
+multiply them, equal minus 10,
+
+53
+00:02:31,000 --> 00:02:33,710
+and when I add them
+equal plus 3?
+
+54
+00:02:33,710 --> 00:02:34,030
+Let's see.
+
+55
+00:02:34,030 --> 00:02:37,930
+Well, 5 times what
+is minus 10?
+
+56
+00:02:37,930 --> 00:02:41,730
+It's 5 times minus 2 and 5 plus
+minus 2 is 3, so that
+
+57
+00:02:41,730 --> 00:02:44,870
+works. x minus 2.
+
+58
+00:02:44,870 --> 00:02:47,060
+So this is actually our
+least common multiple.
+
+59
+00:02:47,060 --> 00:02:48,110
+This expression right here.
+
+60
+00:02:48,110 --> 00:02:48,880
+So let me write it that way.
+
+61
+00:02:48,880 --> 00:02:53,570
+So that is equal to-- I'm just
+going to rewrite this as x
+
+62
+00:02:53,570 --> 00:02:58,200
+plus 5 over x minus 2.
+
+63
+00:02:58,200 --> 00:03:02,420
+Now, x plus 3 over x plus 5, if
+we were to multiply both of
+
+64
+00:03:02,420 --> 00:03:07,680
+those times x minus 2 to get
+something in this form, this x
+
+65
+00:03:07,680 --> 00:03:14,250
+plus 3 over x plus 5 is the same
+thing as x plus 3 times x
+
+66
+00:03:14,250 --> 00:03:18,480
+minus 2 over x plus 5 times
+x minus 2, right?
+
+67
+00:03:18,480 --> 00:03:20,680
+You could just cancel this
+out right here and
+
+68
+00:03:20,680 --> 00:03:22,260
+you'd get back to that.
+
+69
+00:03:22,260 --> 00:03:23,970
+And now we're adding that.
+
+70
+00:03:23,970 --> 00:03:26,120
+We're adding this term
+to this term.
+
+71
+00:03:26,120 --> 00:03:29,420
+6 over this, well, this is the
+same thing as this, so that's
+
+72
+00:03:29,420 --> 00:03:30,780
+just plus 6.
+
+73
+00:03:30,780 --> 00:03:33,836
+And now we just get into
+simplification mode.
+
+74
+00:03:33,836 --> 00:03:39,122
+So x times x is x squared.
+
+75
+00:03:39,122 --> 00:03:43,380
+x times minus 2 is minus 2x.
+
+76
+00:03:43,380 --> 00:03:46,940
+3 times x is plus 3x.
+
+77
+00:03:46,940 --> 00:03:52,340
+3 times minus 2 is minus 6, so
+that's this term right here.
+
+78
+00:03:52,340 --> 00:03:53,880
+Got us that.
+
+79
+00:03:53,880 --> 00:03:56,120
+And then we have the plus 6.
+
+80
+00:03:56,120 --> 00:03:59,030
+And then all of that
+is over this stuff.
+
+81
+00:03:59,030 --> 00:04:00,580
+And I look at the choices and it
+seems like they have it in
+
+82
+00:04:00,580 --> 00:04:02,830
+this form, so I'll just
+write it in that form.
+
+83
+00:04:02,830 --> 00:04:06,060
+x squared plus 3x minus 10.
+
+84
+00:04:06,060 --> 00:04:10,920
+And let's see, the minus 6 and
+the plus 6 cancels out, and
+
+85
+00:04:10,920 --> 00:04:14,240
+we're left with minus
+2x plus 3x.
+
+86
+00:04:14,240 --> 00:04:22,540
+So that's x squared-- minus 2
+plus 3-- plus x over x squared
+
+87
+00:04:22,540 --> 00:04:25,760
+plus 3x minus 10.
+
+88
+00:04:25,760 --> 00:04:28,590
+And that is choice A.
+
+89
+00:04:28,590 --> 00:04:30,180
+Choice A.
+
+90
+00:04:30,180 --> 00:04:32,030
+Next problem.
+
+91
+00:04:32,030 --> 00:04:33,020
+I'm almost out of space.
+
+92
+00:04:33,020 --> 00:04:35,980
+I'll draw a line here, just so
+you don't get distracted.
+
+93
+00:04:35,980 --> 00:04:41,720
+What is the simplified form of,
+and they write 3a squared
+
+94
+00:04:41,720 --> 00:04:48,570
+b to the third, c to the minus
+2, all of that over--
+
+95
+00:04:48,570 --> 00:04:57,180
+interesting-- a to the minus 1
+b squared c, and all of that
+
+96
+00:04:57,180 --> 00:04:59,090
+is to the third power.
+
+97
+00:04:59,090 --> 00:05:01,660
+So let's get in simplification
+mode.
+
+98
+00:05:01,660 --> 00:05:05,820
+So this bottom part, we can
+re-simplify as-- let's see,
+
+99
+00:05:05,820 --> 00:05:06,770
+maybe I wrote too big.
+
+100
+00:05:06,770 --> 00:05:11,630
+3a squared, b to the third,
+c to the minus 2.
+
+101
+00:05:11,630 --> 00:05:15,610
+All of that, it's a to the
+negative 1, b squared, c to
+
+102
+00:05:15,610 --> 00:05:18,220
+the third power, that's
+each of these items
+
+103
+00:05:18,220 --> 00:05:19,090
+to the third power.
+
+104
+00:05:19,090 --> 00:05:21,070
+So a to the minus 1 to
+the third power.
+
+105
+00:05:21,070 --> 00:05:22,470
+You can multiply
+the exponents.
+
+106
+00:05:22,470 --> 00:05:25,050
+That becomes a to the minus 3.
+
+107
+00:05:25,050 --> 00:05:27,200
+I just took the negative
+1 times the 3.
+
+108
+00:05:27,200 --> 00:05:29,360
+b squared to the third power.
+
+109
+00:05:29,360 --> 00:05:31,500
+That's b to the 2 times 3.
+
+110
+00:05:31,500 --> 00:05:34,200
+That's b to the sixth power.
+
+111
+00:05:34,200 --> 00:05:35,990
+And then finally c.
+
+112
+00:05:35,990 --> 00:05:37,770
+Well, that's just c to the first
+of the third power, so
+
+113
+00:05:37,770 --> 00:05:39,020
+that's c to the third.
+
+114
+00:05:39,020 --> 00:05:41,740
+And now we can just say, well,
+this is the same thing.
+
+115
+00:05:41,740 --> 00:05:42,790
+Let me switch colors.
+
+116
+00:05:42,790 --> 00:05:44,890
+This color's getting mundane.
+
+117
+00:05:44,890 --> 00:05:53,750
+This is equal to 3 times a to
+the 2-- we're dividing by a to
+
+118
+00:05:53,750 --> 00:05:57,900
+the negative third-- so
+it's 2 minus minus 3.
+
+119
+00:05:57,900 --> 00:06:01,090
+Let me write that, just so you
+understand-- 2 minus minus 3
+
+120
+00:06:01,090 --> 00:06:03,160
+power-- that's where I got the
+2; that's where I got the
+
+121
+00:06:03,160 --> 00:06:09,170
+minus 3, and I subtracted
+because I'm dividing-- times b
+
+122
+00:06:09,170 --> 00:06:18,300
+to the 3 minus 6, times c
+to the minus 2 minus 3.
+
+123
+00:06:18,300 --> 00:06:21,200
+Once again, if we were
+multiplying these two, I would
+
+124
+00:06:21,200 --> 00:06:22,890
+add the exponents.
+
+125
+00:06:22,890 --> 00:06:24,020
+But anyway, let's
+simplify this.
+
+126
+00:06:24,020 --> 00:06:30,850
+This equals 3a, 2 minus minus,
+so that's plus, 3a to the
+
+127
+00:06:30,850 --> 00:06:36,330
+fifth, b to the minus
+3, c to the minus 5.
+
+128
+00:06:36,330 --> 00:06:39,410
+   
+
+129
+00:06:39,410 --> 00:06:44,050
+And this is the same thing
+as 3a to the fifth.
+
+130
+00:06:44,050 --> 00:06:47,120
+b to the minus 3 is the same
+thing as 1 over b to the
+
+131
+00:06:47,120 --> 00:06:48,875
+third, so over b to the third.
+
+132
+00:06:48,875 --> 00:06:53,390
+And this is the same thing
+as 1 over c to the fifth.
+
+133
+00:06:53,390 --> 00:06:56,290
+And that is choice A.
+
+134
+00:06:56,290 --> 00:06:57,650
+Choice A.
+
+135
+00:06:57,650 --> 00:06:58,900
+Next problem.
+
+136
+00:06:58,900 --> 00:07:01,260
+   
+
+137
+00:07:01,260 --> 00:07:02,280
+Next problem.
+
+138
+00:07:02,280 --> 00:07:05,830
+Oh, we already finished
+that page.
+
+139
+00:07:05,830 --> 00:07:08,670
+All right.
+
+140
+00:07:08,670 --> 00:07:09,990
+Let me copy and paste
+what they wrote.
+
+141
+00:07:09,990 --> 00:07:12,940
+   
+
+142
+00:07:12,940 --> 00:07:19,730
+Let me put it at the top of this
+right there and paste it.
+
+143
+00:07:19,730 --> 00:07:21,600
+That's what they're asking
+and I'll write it.
+
+144
+00:07:21,600 --> 00:07:24,630
+20x to the minus fourth
+over 27y squared
+
+145
+00:07:24,630 --> 00:07:27,590
+divided by this fraction.
+
+146
+00:07:27,590 --> 00:07:29,620
+So first of all, when you divide
+by a fraction, that's
+
+147
+00:07:29,620 --> 00:07:32,120
+the same thing as multiplying
+by the inverse, right?
+
+148
+00:07:32,120 --> 00:07:33,520
+So let's do that.
+
+149
+00:07:33,520 --> 00:07:36,130
+I want to get rid of this
+pesky-looking division sign.
+
+150
+00:07:36,130 --> 00:07:44,130
+So let's rewrite this as 20x to
+the minus fourth over 27y
+
+151
+00:07:44,130 --> 00:07:47,770
+squared times-- instead of
+dividing by this, let's
+
+152
+00:07:47,770 --> 00:07:49,070
+multiply by the inverse.
+
+153
+00:07:49,070 --> 00:07:50,600
+So what's the inverse?
+
+154
+00:07:50,600 --> 00:07:57,570
+15y to the minus 5 over
+8x to the minus 3.
+
+155
+00:07:57,570 --> 00:07:59,340
+I just flipped it.
+
+156
+00:07:59,340 --> 00:08:00,500
+All right?
+
+157
+00:08:00,500 --> 00:08:02,600
+So let's see what
+we can do here.
+
+158
+00:08:02,600 --> 00:08:05,890
+It seems like a lot of these
+numbers have common factors.
+
+159
+00:08:05,890 --> 00:08:11,530
+Let's see, if we divide 15
+by 3 and 27 by 3, so
+
+160
+00:08:11,530 --> 00:08:13,910
+this becomes 5.
+
+161
+00:08:13,910 --> 00:08:16,960
+27 divided by 3 becomes 9.
+
+162
+00:08:16,960 --> 00:08:18,380
+And just so you can think,
+you can view this as one
+
+163
+00:08:18,380 --> 00:08:20,760
+continuous denominator or
+one continuous fraction.
+
+164
+00:08:20,760 --> 00:08:24,020
+20x to the minus 4 times-- well,
+now it's 5y to the minus
+
+165
+00:08:24,020 --> 00:08:26,780
+fifth divided by 9y squared.
+
+166
+00:08:26,780 --> 00:08:28,440
+Because when you multiply
+fractions, you just multiply
+
+167
+00:08:28,440 --> 00:08:30,230
+the numerator times the
+numerator divided by the
+
+168
+00:08:30,230 --> 00:08:32,140
+denominator times
+the denominator.
+
+169
+00:08:32,140 --> 00:08:33,950
+Anyway, let's just
+keep simplifying.
+
+170
+00:08:33,950 --> 00:08:39,669
+If you divide this
+by 4, you get 5.
+
+171
+00:08:39,669 --> 00:08:42,190
+If you divide this
+by 4, you get 2.
+
+172
+00:08:42,190 --> 00:08:44,450
+Let's see, I don't want to do
+too many steps all at once.
+
+173
+00:08:44,450 --> 00:08:51,480
+You get 5x to the minus fourth
+times 5y to the minus fifth,
+
+174
+00:08:51,480 --> 00:08:58,040
+all of that over 9y squared
+times 2x to the minus 3.
+
+175
+00:08:58,040 --> 00:08:58,290
+So let's see.
+
+176
+00:08:58,290 --> 00:08:59,420
+Let's get all the numbers out.
+
+177
+00:08:59,420 --> 00:09:09,220
+So that is equal to 5 times 5
+is 25 over 9 times 2 is 18
+
+178
+00:09:09,220 --> 00:09:15,590
+times x-- let's do the x-- x to
+the minus 4-- minus because
+
+179
+00:09:15,590 --> 00:09:17,950
+we're dividing-- minus 3.
+
+180
+00:09:17,950 --> 00:09:29,050
+Minus minus 3 times y to the
+minus 5 minus 2, because we're
+
+181
+00:09:29,050 --> 00:09:30,420
+dividing by that one.
+
+182
+00:09:30,420 --> 00:09:34,850
+And that is equal to 25/18.
+
+183
+00:09:34,850 --> 00:09:39,010
+Let's see, a minus minus,
+so that becomes a plus.
+
+184
+00:09:39,010 --> 00:09:44,010
+Minus 4 plus 3, x to the
+negative 1, and then minus 5
+
+185
+00:09:44,010 --> 00:09:47,170
+minus 2, y to the minus 7.
+
+186
+00:09:47,170 --> 00:09:50,600
+   
+
+187
+00:09:50,600 --> 00:09:53,270
+This is the same thing
+as 1 over x to the 1.
+
+188
+00:09:53,270 --> 00:09:54,830
+This is the same thing
+is 1 over y to the 7.
+
+189
+00:09:54,830 --> 00:10:01,006
+So this is equal to
+25 over 18x, 1
+
+190
+00:10:01,006 --> 00:10:04,460
+over x, y to the seventh.
+
+191
+00:10:04,460 --> 00:10:06,050
+y to the seventh in the
+denominator is the same thing
+
+192
+00:10:06,050 --> 00:10:08,300
+as y to the minus seventh
+in the numerator.
+
+193
+00:10:08,300 --> 00:10:11,390
+Anyway, that is choice--
+let's see, 25 over 18--
+
+194
+00:10:11,390 --> 00:10:13,630
+that is choice D.
+
+195
+00:10:13,630 --> 00:10:15,020
+Choice D.
+
+196
+00:10:15,020 --> 00:10:16,080
+And I'm out of time.
+
+197
+00:10:16,080 --> 00:10:17,800
+See you in the next video.
+
+198
+00:10:17,800 --> 00:10:18,500
+

@@ -1,0 +1,539 @@
+1
+00:00:00,923 --> 00:00:02,470
+In this video I want to talk a little bit about
+
+2
+00:00:02,470 --> 00:00:06,605
+what it means to be a prime number
+
+3
+00:00:06,605 --> 00:00:09,605
+and what you will hopefully see in this video
+
+4
+00:00:09,605 --> 00:00:11,606
+is this pretty straightforward concept
+
+5
+00:00:11,606 --> 00:00:13,940
+but as you progress through your mathematical career
+
+6
+00:00:13,940 --> 00:00:16,536
+you'll see that there is actually fairly sophisticated concepts
+
+7
+00:00:16,536 --> 00:00:19,869
+that can be built on top of the idea of the prime number
+
+8
+00:00:19,869 --> 00:00:22,106
+and that includes the idea of cryptography
+
+9
+00:00:22,106 --> 00:00:24,271
+and maybe some of the encryption that your computer
+
+10
+00:00:24,271 --> 00:00:27,023
+uses right now could be based on prime numbers.
+
+11
+00:00:27,023 --> 00:00:28,107
+If you don't know what encryption means
+
+12
+00:00:28,107 --> 00:00:30,439
+you don't have to worry about it right now
+
+13
+00:00:30,439 --> 00:00:32,071
+you just need to know that prime numbers are
+
+14
+00:00:32,071 --> 00:00:35,538
+pretty important. So I'll give you the definition
+
+15
+00:00:35,538 --> 00:00:37,870
+and the definition might be a little confusing
+
+16
+00:00:37,870 --> 00:00:42,537
+but when we see it with examples it should be pretty straightforward
+
+17
+00:00:42,537 --> 00:00:49,203
+A number is prime if it is a natural number
+
+18
+00:00:49,203 --> 00:00:56,870
+for example 1, 2 or 3 (the counting numbers starting at 1)
+
+19
+00:00:56,870 --> 00:00:58,605
+or you could also say "the positive integers"
+
+20
+00:00:58,605 --> 00:01:30,580
+it is a natural number divisible by exactly two natural numbers: itself and 1.
+
+21
+00:01:30,595 --> 00:01:34,060
+Those are the two numbers that it's divisible by.
+
+22
+00:01:39,135 --> 00:01:41,864
+If this does not make sense for you lets just do some examples.
+
+23
+00:01:41,864 --> 00:01:44,727
+Lets figure out if some numbers are prime or not.
+
+24
+00:01:44,727 --> 00:01:47,459
+So lets start with the smallest natural numbers.
+
+25
+00:01:47,459 --> 00:01:52,268
+The number 1. So you might say "1 is divisible by 1"
+
+26
+00:01:52,268 --> 00:01:56,864
+and "1 is divisible by itself", hey! 1 is a prime number!
+
+27
+00:01:56,864 --> 00:01:59,661
+But remember, part of our definition, it needs to be divisible
+
+28
+00:01:59,661 --> 00:02:06,661
+by exactly two natural numbers. 1 is divisible only by one natural number, only by 1.
+
+29
+00:02:06,661 --> 00:02:15,698
+So 1, even it may be a little counter intuitive, is not prime.
+
+30
+00:02:15,698 --> 00:02:19,615
+Lets move on to 2.
+
+31
+00:02:19,615 --> 00:02:28,102
+So 2 is divisible by 1 and by 2, and not by any other natural numbers.
+
+32
+00:02:28,102 --> 00:02:29,781
+So it seems to fit our constraints.
+
+33
+00:02:29,781 --> 00:02:32,460
+It's divisible by exactly two natural numbers.
+
+34
+00:02:32,460 --> 00:02:40,866
+Itself and 1. So the number 2 is prime.
+
+35
+00:02:40,866 --> 00:02:52,126
+I will circle the numbers that are prime.
+
+36
+00:02:52,126 --> 00:02:53,614
+The number 2 is interesting because
+
+37
+00:02:53,614 --> 00:02:56,282
+it's the only even number that is prime.
+
+38
+00:02:56,282 --> 00:02:58,058
+If you think about it, any other even number
+
+39
+00:02:58,058 --> 00:03:03,282
+is also going to be divisible by 2., so it won't be prime.
+
+40
+00:03:03,282 --> 00:03:05,541
+We'll think about that more in future videos.
+
+41
+00:03:05,541 --> 00:03:10,866
+Lets try out 3. Well, 3 is definitely divisible by 1 and 3
+
+42
+00:03:10,866 --> 00:03:12,866
+and it's not divisible by anything in between.
+
+43
+00:03:12,866 --> 00:03:19,058
+it's not divisible by 2. So 3 is also a prime number.
+
+44
+00:03:19,058 --> 00:03:24,449
+Lets try 4.
+
+45
+00:03:24,449 --> 00:03:28,282
+4 is definitely divisible by 1 and 4, but
+
+46
+00:03:28,282 --> 00:03:35,394
+it's also divisible by 2. So it's divisible
+
+47
+00:03:35,394 --> 00:03:38,861
+by three natural numbers: 1, 2 and 4.
+
+48
+00:03:38,861 --> 00:03:42,861
+So it does not meet our constraints for being prime.
+
+49
+00:03:42,861 --> 00:03:47,061
+Lets try out 5.
+
+50
+00:03:47,061 --> 00:03:49,394
+5 is definitely divisible by 1,
+
+51
+00:03:49,394 --> 00:03:56,273
+It's not divisible by 2, 3 or 4
+
+52
+00:03:56,273 --> 00:03:59,274
+(you could divide 5 / 4 but you would get a remainder)
+
+53
+00:03:59,274 --> 00:04:02,060
+And it is exactly divisible by 5, obviously.
+
+54
+00:04:02,060 --> 00:04:08,527
+So once again, 5 is divisible by exactly two natural numbers: 1 and 5
+
+55
+00:04:08,527 --> 00:04:13,061
+So once again, 5 is prime. Lets keep going,
+
+56
+00:04:13,061 --> 00:04:15,527
+so that we see if there is any kind of a pattern here
+
+57
+00:04:15,527 --> 00:04:17,527
+and then maybe I'll try a really hard one
+
+58
+00:04:17,527 --> 00:04:24,394
+that tends to trip people up. So lets try the number 6.
+
+59
+00:04:24,394 --> 00:04:33,274
+It is divisible by 1, 2, 3 and 6.
+
+60
+00:04:33,274 --> 00:04:36,357
+So it has four natural number "factors",
+
+61
+00:04:36,357 --> 00:04:38,196
+I guess you could say it that way
+
+62
+00:04:38,196 --> 00:04:41,524
+So it does not have exactly two numbers that it's divisible by,
+
+63
+00:04:41,524 --> 00:04:44,795
+it has four, so it is not prime.
+
+64
+00:04:44,795 --> 00:04:47,662
+Lets move on to 7.
+
+65
+00:04:47,662 --> 00:04:54,440
+7 is divisible by 1, not 2, 3, 4, 5 or 6,
+
+66
+00:04:54,440 --> 00:04:56,272
+but it's also divisible by 7
+
+67
+00:04:56,272 --> 00:05:00,795
+so 7 is prime. I think you get the general idea here.
+
+68
+00:05:00,795 --> 00:05:05,997
+How many natural numbers, numbers like 1, 2, 3, 4, 5,
+
+69
+00:05:05,997 --> 00:05:08,196
+the numbers that you learn when you are two years old
+
+70
+00:05:08,196 --> 00:05:10,524
+not including zero, not including negative numbers,
+
+71
+00:05:10,524 --> 00:05:12,795
+not including fractions and irrational numbers,
+
+72
+00:05:12,795 --> 00:05:14,357
+and decimals and all the rest,
+
+73
+00:05:14,357 --> 00:05:17,397
+just regular counting positive numbers.
+
+74
+00:05:17,397 --> 00:05:19,061
+If you have only two of them,
+
+75
+00:05:19,061 --> 00:05:21,773
+if you are only divisible by yourself and by 1,
+
+76
+00:05:21,773 --> 00:05:23,395
+then you are prime.
+
+77
+00:05:23,395 --> 00:05:24,606
+and the way I think about it,
+
+78
+00:05:24,606 --> 00:05:26,528
+if we don't think of the special case of 1,
+
+79
+00:05:26,528 --> 00:05:30,462
+prime numbers are kind of these building blocks of numbers.
+
+80
+00:05:30,462 --> 00:05:32,129
+You can't break them down anymore.
+
+81
+00:05:32,129 --> 00:05:33,595
+They are almost like the atoms.
+
+82
+00:05:33,595 --> 00:05:34,994
+If you think about what the atom is,
+
+83
+00:05:34,994 --> 00:05:37,631
+or what people thought atoms were when they first...
+
+84
+00:05:37,631 --> 00:05:38,688
+they thought they were these things
+
+85
+00:05:38,703 --> 00:05:39,757
+you couldn't divide anymore.
+
+86
+00:05:39,757 --> 00:05:41,681
+We now know we could divide atoms and actually
+
+87
+00:05:41,681 --> 00:05:43,690
+if you do you may create a nuclear explosion.
+
+88
+00:05:43,690 --> 00:05:49,655
+But it's the same idea behind prime numbers. In theory, no prime number is not a theory.
+
+89
+00:05:49,655 --> 00:05:52,003
+You can't break them down
+
+90
+00:05:52,003 --> 00:05:56,602
+into products of smaller natural numbers.
+
+91
+00:05:56,602 --> 00:06:00,763
+Things like 6 you can say, hey, 6 is 2 times 3,
+
+92
+00:06:00,763 --> 00:06:02,001
+you can break it down, and notice, we can break it down
+
+93
+00:06:02,001 --> 00:06:05,467
+as a product of prime numbers.
+
+94
+00:06:05,467 --> 00:06:07,801
+We've kind of broken it down into it's parts.
+
+95
+00:06:07,801 --> 00:06:09,934
+7 you can't break it down anymore.
+
+96
+00:06:09,934 --> 00:06:13,836
+All you can say is 7 equals 1 times 7.
+
+97
+00:06:13,836 --> 00:06:15,838
+And in that case you haven't really broken it down much.
+
+98
+00:06:15,838 --> 00:06:18,004
+You just have the 7 there again.
+
+99
+00:06:18,004 --> 00:06:19,533
+6 you can actually break it down.
+
+100
+00:06:19,533 --> 00:06:23,011
+4 you can actually break it down as 2 times 2.
+
+101
+00:06:23,011 --> 00:06:25,800
+Now with that out of the way lets think about
+
+102
+00:06:25,800 --> 00:06:27,425
+some larger numbers, and think about
+
+103
+00:06:27,425 --> 00:06:29,579
+whether those larger numbers are prime.
+
+104
+00:06:29,579 --> 00:06:34,286
+So lets try 16.
+
+105
+00:06:34,286 --> 00:06:40,676
+So clearly any natural number is divisible by 1 and itself.
+
+106
+00:06:40,676 --> 00:06:42,000
+So 16 is divisible by 1 and 16.
+
+107
+00:06:42,000 --> 00:06:43,512
+So you are going to start with two,
+
+108
+00:06:43,512 --> 00:06:45,387
+so if you can find anything else that goes into this
+
+109
+00:06:45,387 --> 00:06:47,194
+then you know you are not prime.
+
+110
+00:06:47,194 --> 00:06:50,318
+And for 16 you could have 2 times 8,
+
+111
+00:06:50,318 --> 00:06:52,694
+you can have 4 times 4,
+
+112
+00:06:52,694 --> 00:06:54,718
+so it has a ton of factors here,
+
+113
+00:06:54,718 --> 00:06:56,787
+above and beyond just the 1 and 16.
+
+114
+00:06:56,787 --> 00:07:02,278
+So 16 is not prime. What about 17?
+
+115
+00:07:02,278 --> 00:07:05,611
+1 and 17 will definitely go into 17,
+
+116
+00:07:05,611 --> 00:07:10,052
+2 doesn't go into 17, 3 doesn't go, 4, 5, 6, 7, 8, ...
+
+117
+00:07:10,052 --> 00:07:14,051
+none of those numbers, nothing between 1 and 17
+
+118
+00:07:14,051 --> 00:07:20,253
+goes into 17, so 17 is prime.
+
+119
+00:07:20,253 --> 00:07:23,052
+And now I'll give you a hard one.
+
+120
+00:07:23,052 --> 00:07:25,527
+This one can trick a lot of people.
+
+121
+00:07:25,527 --> 00:07:33,611
+What about 51? Is 51 prime?
+
+122
+00:07:33,611 --> 00:07:36,120
+And if you are interested you can pause the video here
+
+123
+00:07:36,120 --> 00:07:37,918
+and try to figure out by yourself
+
+124
+00:07:37,918 --> 00:07:40,321
+if 51 is a prime number.
+
+125
+00:07:40,321 --> 00:07:44,653
+If you can find anything other than 1 or 51
+
+126
+00:07:44,653 --> 00:07:47,611
+that is divisible into 51. It seems like...
+
+127
+00:07:47,611 --> 00:07:49,252
+wow this is kind of a strange number
+
+128
+00:07:49,252 --> 00:07:51,585
+You might be tempted to think it's prime,
+
+129
+00:07:51,585 --> 00:07:53,387
+but I'm now going to give you the answer.
+
+130
+00:07:53,387 --> 00:07:59,119
+It is not prime, because it is also divisible by 3 and 17
+
+131
+00:07:59,119 --> 00:08:02,998
+3 times 17 is 51.
+
+132
+00:08:02,998 --> 00:08:04,119
+So hopefully this gives you a good idea
+
+133
+00:08:04,119 --> 00:08:05,653
+of what prime numbers are all about,
+
+134
+00:08:05,653 --> 00:08:08,786
+and hopefully we can give you some practice on that
+
+135
+00:08:08,786 --> 00:08:13,000
+in future videos and maybe in some of our exercises.

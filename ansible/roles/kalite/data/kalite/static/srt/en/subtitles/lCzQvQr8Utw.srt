@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:02,125
+What I wanna do in this video is go over what I think is
+
+2
+00:00:02,125 --> 00:00:04,825
+one of the more intuitive ways to sort a list.
+
+3
+00:00:04,825 --> 00:00:07,671
+It's how I would probably sort it if I had to do it manually.
+
+4
+00:00:07,671 --> 00:00:08,673
+But I wanna make it clear,
+
+5
+00:00:08,673 --> 00:00:11,000
+it is not the most efficient way to sort a list.
+
+6
+00:00:11,000 --> 00:00:12,018
+But let's just—
+
+7
+00:00:12,018 --> 00:00:13,680
+I think it's a good starting point
+
+8
+00:00:13,680 --> 00:00:16,267
+where we're getting warmed up for sorting lists.
+
+9
+00:00:16,267 --> 00:00:21,388
+It's called "Insertion Sort".
+
+10
+00:00:21,388 --> 00:00:24,060
+I'm gonna give a graphical description
+
+11
+00:00:24,060 --> 00:00:26,656
+of the algorithm for insertion sort.
+
+12
+00:00:26,656 --> 00:00:27,689
+And just you know what,
+
+13
+00:00:27,689 --> 00:00:30,064
+algorithm sounds like a very fancy word.
+
+14
+00:00:30,079 --> 00:00:33,380
+But an algorithm is really just a way of sorting it,
+
+15
+00:00:33,380 --> 00:00:34,831
+or a process for doing it,
+
+16
+00:00:34,831 --> 00:00:36,374
+or a method for doing it.
+
+17
+00:00:36,374 --> 00:00:40,363
+A program is a specific implementation of an algorithm,
+
+18
+00:00:40,363 --> 00:00:43,382
+or can be a specific implementation of an algorithm.
+
+19
+00:00:43,382 --> 00:00:44,824
+Once I have a general algorithm,
+
+20
+00:00:44,824 --> 00:00:46,375
+I can implement it in Python,
+
+21
+00:00:46,375 --> 00:00:47,656
+I can implement it in C,
+
+22
+00:00:47,656 --> 00:00:49,230
+I can implement it in Java.
+
+23
+00:00:49,230 --> 00:00:50,690
+Those are all specific programs,
+
+24
+00:00:50,690 --> 00:00:51,992
+but they'd all be implementing
+
+25
+00:00:51,992 --> 00:00:53,972
+the same way of doing the sort.
+
+26
+00:00:53,972 --> 00:00:55,367
+And that's what I'm just describing—
+
+27
+00:00:55,367 --> 00:00:57,994
+the Insertion Sort Algorithm.
+
+28
+00:00:57,994 --> 00:01:00,367
+So let's just start with a simple example:
+
+29
+00:01:00,367 --> 00:01:02,528
+Let's say that I have a list—
+
+30
+00:01:02,528 --> 00:01:04,359
+Let's say I have a Python list,
+
+31
+00:01:04,359 --> 00:01:06,683
+'cause we're going to be working in Python for this,
+
+32
+00:01:06,683 --> 00:01:08,366
+and that list is—
+
+33
+00:01:08,366 --> 00:01:15,837
+let's say it is [7,3,1,2,4,6].
+
+34
+00:01:15,837 --> 00:01:19,380
+So the way that we do Insertion Sort
+
+35
+00:01:19,380 --> 00:01:22,046
+is you go element by element,
+
+36
+00:01:22,046 --> 00:01:25,267
+and then you compare it to the elements before it,
+
+37
+00:01:25,267 --> 00:01:28,024
+and then you look for the 1st element before it
+
+38
+00:01:28,024 --> 00:01:30,290
+that it is actually less than,
+
+39
+00:01:30,290 --> 00:01:32,433
+and then you just stick it right over there.
+
+40
+00:01:32,433 --> 00:01:34,110
+So let me show you what I'm talking about:
+
+41
+00:01:34,110 --> 00:01:37,369
+So, you could start with the 7,
+
+42
+00:01:37,369 --> 00:01:40,000
+the 0th element over here,
+
+43
+00:01:40,000 --> 00:01:41,188
+but when you look at—
+
+44
+00:01:41,188 --> 00:01:42,376
+when you start with the 0th element,
+
+45
+00:01:42,376 --> 00:01:44,288
+you'll like "Hey wait, there is nothing before to compare it to,"
+
+46
+00:01:44,288 --> 00:01:46,827
+so it really doesn't make sense to start with 0th element.
+
+47
+00:01:46,827 --> 00:01:49,390
+So, really, if you were to implement this algorithm,
+
+48
+00:01:49,390 --> 00:01:50,845
+you'd start with the [1st] element—
+
+49
+00:01:50,845 --> 00:01:52,680
+Oh, sorry! You start with—
+
+50
+00:01:52,680 --> 00:01:53,988
+If this is the 0th element,
+
+51
+00:01:53,988 --> 00:01:57,360
+you start with the 1st element right over here.
+
+52
+00:01:57,360 --> 00:01:59,009
+This is 0th, this is 1st, I know this,
+
+53
+00:01:59,009 --> 00:02:01,364
+you'll confusing when you referred this is the 1st element
+
+54
+00:02:01,364 --> 00:02:03,012
+but this one is the 0th.
+
+55
+00:02:03,012 --> 00:02:04,999
+So you start with this 3 here
+
+56
+00:02:04,999 --> 00:02:08,384
+and you start comparing it to all of the elements before it
+
+57
+00:02:08,384 --> 00:02:11,936
+and as soon as you find an element that 3 is less than
+
+58
+00:02:11,936 --> 00:02:14,267
+you stick it in that part of the list.
+
+59
+00:02:14,267 --> 00:02:15,347
+So what you do is you say:
+
+60
+00:02:15,347 --> 00:02:18,400
+'OK, is 3 less than 7?'
+
+61
+00:02:18,400 --> 00:02:20,533
+'Well, yeah, it is less than 7.'
+
+62
+00:02:20,533 --> 00:02:22,235
+So what you wanna do is you wanna shift—
+
+63
+00:02:22,235 --> 00:02:25,067
+you wanna shift 7 where the 3 is.
+
+64
+00:02:25,067 --> 00:02:26,673
+So let me put it out here—
+
+65
+00:02:26,673 --> 00:02:27,679
+so we're using—
+
+66
+00:02:27,679 --> 00:02:31,366
+we're trying to compare 3 to everything before it, right now.
+
+67
+00:02:31,366 --> 00:02:33,993
+we're trying to compare 3 to everything before it.
+
+68
+00:02:33,993 --> 00:02:35,683
+So you say, 'OK, is 3 less than 7?'
+
+69
+00:02:35,683 --> 00:02:37,374
+'Yeah, it is less than 7.'
+
+70
+00:02:37,374 --> 00:02:42,179
+So let's put the 7 where the 3 is,
+
+71
+00:02:42,179 --> 00:02:46,985
+and let's put the 3 where the 7 is.
+
+72
+00:02:46,985 --> 00:02:50,674
+Especially because there's nothing left to compare the 3 to,
+
+73
+00:02:50,674 --> 00:02:51,846
+there's nothing lower—
+
+74
+00:02:51,846 --> 00:02:54,005
+there's no elements before the 0th element,
+
+75
+00:02:54,005 --> 00:02:56,824
+so let's just stick the 3 right over there.
+
+76
+00:02:56,824 --> 00:02:59,015
+And so our list now looks like this
+
+77
+00:02:59,015 --> 00:03:07,021
+our list now looks like: [3,7,1,2,4,6]
+
+78
+00:03:07,021 --> 00:03:09,392
+And one thing you'll find interests—
+
+79
+00:03:09,392 --> 00:03:10,780
+there're something to pay attention to—
+
+80
+00:03:10,780 --> 00:03:11,967
+as we build this list, so we—
+
+81
+00:03:11,967 --> 00:03:16,019
+the 0th element is now defintely less than the 1st element
+
+82
+00:03:16,019 --> 00:03:18,391
+and everything up to and including the 1st element
+
+83
+00:03:18,391 --> 00:03:19,838
+is now sorted.
+
+84
+00:03:19,838 --> 00:03:21,839
+everything up to and including the 1st element
+
+85
+00:03:21,839 --> 00:03:22,671
+is now sorted.
+
+86
+00:03:22,671 --> 00:03:25,683
+And that will be true as we keep going through this—
+
+87
+00:03:25,683 --> 00:03:27,982
+as we keep going through higher and higher indices,
+
+88
+00:03:27,982 --> 00:03:30,007
+up to including that index
+
+89
+00:03:30,007 --> 00:03:31,983
+after we've done that pass will be sorted.
+
+90
+00:03:31,983 --> 00:03:33,974
+And I'll try to point it out as we go along.
+
+91
+00:03:33,974 --> 00:03:37,366
+So, we did the first index,
+
+92
+00:03:37,366 --> 00:03:41,000
+now we can move on to the 2nd element,
+
+93
+00:03:41,000 --> 00:03:42,854
+which is this 1 over here.
+
+94
+00:03:42,854 --> 00:03:44,793
+And so you take that 1—
+
+95
+00:03:44,793 --> 00:03:46,733
+I'll put it on the side right over here—
+
+96
+00:03:46,733 --> 00:03:48,346
+you take that 1 and you compare it...
+
+97
+00:03:48,346 --> 00:03:50,021
+...to each of the elements before it:
+
+98
+00:03:50,021 --> 00:03:51,652
+'OK, is 1 less than 7?'
+
+99
+00:03:51,652 --> 00:03:53,991
+'Sure, 1 IS less than 7'
+
+100
+00:03:53,991 --> 00:03:58,677
+so let's stick the 7 where the 1 was.
+
+101
+00:03:58,692 --> 00:04:02,456
+And then you could either just keep comparing,
+
+102
+00:04:02,456 --> 00:04:06,221
+or you could just stick the 1 where the 7 is.
+
+103
+00:04:06,236 --> 00:04:08,982
+And then you say: 'OK, is 1 less than 3?'
+
+104
+00:04:08,982 --> 00:04:11,004
+'Well, yeah, sure, it's less than 3.'
+
+105
+00:04:11,004 --> 00:04:14,707
+So let's stick the 3 where the 1 is,
+
+106
+00:04:14,707 --> 00:04:18,518
+and let's put the 1 where the 3 is.
+
+107
+00:04:18,518 --> 00:04:20,827
+So what is our list now?
+
+108
+00:04:20,827 --> 00:04:23,847
+Our list now is going to look like—
+
+109
+00:04:23,847 --> 00:04:32,374
+our list now is going to be [1,3,7,2,4,6]
+
+110
+00:04:32,374 --> 00:04:35,989
+So notice, after we've gotten to the nth index—
+
+111
+00:04:35,989 --> 00:04:37,758
+so in this case this is the index 2
+
+112
+00:04:37,758 --> 00:04:39,528
+where that 1 was right over there—
+
+113
+00:04:39,528 --> 00:04:42,376
+everything up to and including that index is sorted.
+
+114
+00:04:42,376 --> 00:04:44,377
+This part right here is sorted.
+
+115
+00:04:44,377 --> 00:04:45,388
+It's going to be—
+
+116
+00:04:45,388 --> 00:04:46,523
+other things are going to be
+
+117
+00:04:46,523 --> 00:04:48,229
+thrown in here probably as we go on,
+
+118
+00:04:48,229 --> 00:04:49,685
+but so far this part is sorted.
+
+119
+00:04:49,685 --> 00:04:50,694
+So you can see,
+
+120
+00:04:50,694 --> 00:04:52,663
+by the time we get to the end of this list,
+
+121
+00:04:52,663 --> 00:04:54,844
+everything is going to be sorted.
+
+122
+00:04:54,844 --> 00:04:57,525
+So let's now go to the next index,
+
+123
+00:04:57,525 --> 00:04:59,961
+or the next item in the list,
+
+124
+00:04:59,961 --> 00:05:02,397
+and that is this 2 over here.
+
+125
+00:05:02,397 --> 00:05:05,180
+That is the 2 over here.
+
+126
+00:05:05,180 --> 00:05:07,270
+And so, we compare the 2 to the 7
+
+127
+00:05:07,270 --> 00:05:09,693
+2 is definitely less than the 7,
+
+128
+00:05:09,693 --> 00:05:11,527
+so let's put the 7 where the 2 is,
+
+129
+00:05:11,527 --> 00:05:13,669
+and let's put the 2 where the 7 is.
+
+130
+00:05:13,669 --> 00:05:15,993
+Now you compare the 2 to the 3.
+
+131
+00:05:15,993 --> 00:05:17,688
+2 is less than 3,
+
+132
+00:05:17,688 --> 00:05:19,998
+so let's put the 3 where the 2 is,
+
+133
+00:05:19,998 --> 00:05:21,998
+and let's put the 2 where the 3 is.
+
+134
+00:05:21,998 --> 00:05:23,997
+Then compare 2 to 1.
+
+135
+00:05:23,997 --> 00:05:25,519
+'Is 2 less than 1?'
+
+136
+00:05:25,519 --> 00:05:27,380
+'No, it is not less than 1.'
+
+137
+00:05:27,380 --> 00:05:29,680
+So, we don't have to do anything else.
+
+138
+00:05:29,680 --> 00:05:32,009
+We don't have to keep [looking]—going to the left.
+
+139
+00:05:32,009 --> 00:05:33,519
+And so now after this pass—
+
+140
+00:05:33,519 --> 00:05:35,829
+in this pass we're comparing this 2 item
+
+141
+00:05:35,829 --> 00:05:37,432
+to everything before that—
+
+142
+00:05:37,432 --> 00:05:40,846
+So after this pass, our list looks like this:
+
+143
+00:05:40,846 --> 00:05:51,368
+our list looks like: [1,2,3,7,4,6].
+
+144
+00:05:51,368 --> 00:05:55,840
+I notice, everything up to and including the 3rd item—
+
+145
+00:05:55,840 --> 00:05:58,010
+the 0th, 1, 2, 3rd item—
+
+146
+00:05:58,010 --> 00:05:59,382
+is now sorted.
+
+147
+00:05:59,382 --> 00:06:01,682
+And now we are ready to look at this—
+
+148
+00:06:01,682 --> 00:06:04,828
+the next element in the list.
+
+149
+00:06:04,828 --> 00:06:06,535
+And one thing I want to make clear:
+
+150
+00:06:06,535 --> 00:06:07,847
+when you actually implement it,
+
+151
+00:06:07,847 --> 00:06:09,194
+there‘s a couple of ways to do it.
+
+152
+00:06:09,194 --> 00:06:10,514
+You don't always have to—
+
+153
+00:06:10,514 --> 00:06:11,820
+so in this example, we said:
+
+154
+00:06:11,820 --> 00:06:13,168
+'Hey, 2 is less than 7?'
+
+155
+00:06:13,168 --> 00:06:14,470
+The 7 replaces where the 2 is
+
+156
+00:06:14,470 --> 00:06:15,773
+which you should do.
+
+157
+00:06:15,773 --> 00:06:17,700
+And then we had the 2 replaced where the 7 is.
+
+158
+00:06:17,700 --> 00:06:18,843
+But the reality is,
+
+159
+00:06:18,843 --> 00:06:20,129
+you can keep going down
+
+160
+00:06:20,129 --> 00:06:22,002
+until you find a good place to fit the 2,
+
+161
+00:06:22,002 --> 00:06:24,208
+and shifting everything to the right as you do it,
+
+162
+00:06:24,208 --> 00:06:25,845
+and then put the 2 in.
+
+163
+00:06:25,845 --> 00:06:28,220
+Although this way is a little bit easier to keep track of.
+
+164
+00:06:28,220 --> 00:06:30,002
+And wow, maybe we'll explore different ways to do it
+
+165
+00:06:30,002 --> 00:06:32,537
+when we actually implement the algorithm.
+
+166
+00:06:32,537 --> 00:06:34,008
+Anyway, let's look at this 4.
+
+167
+00:06:34,008 --> 00:06:35,850
+Same exact idea:
+
+168
+00:06:35,850 --> 00:06:37,362
+4 is less than 7,
+
+169
+00:06:37,362 --> 00:06:39,013
+so let's put the 7 where the 4 is
+
+170
+00:06:39,013 --> 00:06:41,001
+and put the 4 where the 7 is.
+
+171
+00:06:41,001 --> 00:06:42,634
+'Is 4 less than 3?'
+
+172
+00:06:42,634 --> 00:06:44,128
+'No, it's not less than 3.'
+
+173
+00:06:44,128 --> 00:06:45,733
+So we'll stop, we're done.
+
+174
+00:06:45,733 --> 00:06:49,315
+Now, everything up to and including the 4th item
+
+175
+00:06:49,315 --> 00:06:51,367
+in this list—01234—
+
+176
+00:06:51,367 --> 00:06:52,897
+is now sorted.
+
+177
+00:06:52,897 --> 00:06:54,993
+And now our list looks like—
+
+178
+00:06:54,993 --> 00:06:57,679
+let me scroll down a little bit—
+
+179
+00:06:57,679 --> 00:07:00,002
+Now, our list looks like this—
+
+180
+00:07:00,002 --> 00:07:00,977
+You write it down—
+
+181
+00:07:00,977 --> 00:07:08,538
+It is [1,2,3,4,7,6].
+
+182
+00:07:08,538 --> 00:07:13,140
+And now we can go to this last element in the list—
+
+183
+00:07:13,140 --> 00:07:15,041
+This is the 6 we're now comparing—
+
+184
+00:07:15,041 --> 00:07:16,999
+And it's the last time we'll did this
+
+185
+00:07:16,999 --> 00:07:19,203
+where was 4 that we were care about.
+
+186
+00:07:19,203 --> 00:07:20,826
+But now we're care about 6.
+
+187
+00:07:20,826 --> 00:07:23,067
+'Is 6 less than 7?' 'Sure, it is.'
+
+188
+00:07:23,067 --> 00:07:24,733
+So let's put the 7 where the 6 is,
+
+189
+00:07:24,733 --> 00:07:26,400
+and let's put the 6 where the 7 is
+
+190
+00:07:26,400 --> 00:07:28,855
+'Is 6 less than 4?' 'No, it's not'
+
+191
+00:07:28,855 --> 00:07:30,361
+And so we stop.
+
+192
+00:07:30,361 --> 00:07:31,835
+Because we know that this is going to be sorted.
+
+193
+00:07:31,835 --> 00:07:33,545
+If we went any further, we're just gonna get elements
+
+194
+00:07:33,545 --> 00:07:35,530
+that are less than or equal to 4.
+
+195
+00:07:35,530 --> 00:07:38,631
+So we are done, we have sorted this list.
+
+196
+00:07:38,667 --> 00:07:43,600
+The sorted list is now: [1,2,3,4,6,7]
+
+197
+00:07:43,600 --> 00:07:44,348
+In the next video,
+
+198
+00:07:44,348 --> 00:07:46,014
+I'm actually going to try to implement
+
+199
+00:07:46,014 --> 00:07:48,267
+this algorithm that I just described.
+
+200
+00:07:48,267 --> 00:07:51,674
+And I'm gonna implement it in a simple Python function.

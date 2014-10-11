@@ -1,0 +1,191 @@
+1
+00:00:00,770 --> 00:00:03,914
+What is the average rate of change of y(x)
+
+2
+00:00:03,914 --> 00:00:09,176
+over the interval -5 < x < -2?
+
+3
+00:00:09,176 --> 00:00:11,839
+So this is x = -5.
+
+4
+00:00:11,839 --> 00:00:16,370
+When x = -5, y(x) = 6.
+
+5
+00:00:16,370 --> 00:00:23,137
+And when x = -2, y(x) = 0.
+
+6
+00:00:23,137 --> 00:00:25,520
+So to figure of the average rate of change –
+
+7
+00:00:25,520 --> 00:00:34,745
+so the average rate of change of y(x) with respect –
+
+8
+00:00:34,745 --> 00:00:36,983
+and we can assume it’s with respect to x –
+
+9
+00:00:36,983 --> 00:00:42,839
+with respect to x –
+
+10
+00:00:42,839 --> 00:00:44,901
+And let me make that a little bit neater.
+
+11
+00:00:44,901 --> 00:00:46,722
+– with respect to x …
+
+12
+00:00:46,722 --> 00:00:50,968
+This is going to be the change in y(x) over that interval
+
+13
+00:00:50,968 --> 00:00:53,436
+over the change in x over that interval.
+
+14
+00:00:53,436 --> 00:00:57,564
+And the shorthand for 'change' is this triangle symbol ‘delta.’
+
+15
+00:00:57,580 --> 00:00:59,232
+Delta y –
+
+16
+00:00:59,232 --> 00:01:00,319
+I’ll just write y.
+
+17
+00:01:00,319 --> 00:01:01,428
+I could write delta y(x).
+
+18
+00:01:01,428 --> 00:01:02,655
+It’s delta y –
+
+19
+00:01:02,655 --> 00:01:05,657
+– change in y over our change in x.
+
+20
+00:01:05,657 --> 00:01:07,820
+That’s going to be our average rate of change
+
+21
+00:01:07,820 --> 00:01:09,149
+over this interval.
+
+22
+00:01:09,149 --> 00:01:11,831
+So how much did y change over this interval?
+
+23
+00:01:11,831 --> 00:01:15,182
+So y went from a 6 to a 0.
+
+24
+00:01:15,182 --> 00:01:16,370
+So let's say that this is –
+
+25
+00:01:16,370 --> 00:01:18,765
+We can kind of view this as our end point, right over here.
+
+26
+00:01:18,765 --> 00:01:22,437
+So this is our 'end' and this is our 'start.'
+
+27
+00:01:22,437 --> 00:01:23,765
+And we could have done it the other way around,
+
+28
+00:01:23,765 --> 00:01:25,292
+and we would [have gotten an identical] result.
+
+29
+00:01:25,292 --> 00:01:27,075
+Since this is higher up on the list,
+
+30
+00:01:27,075 --> 00:01:28,017
+let’s call this the 'start.'
+
+31
+00:01:28,017 --> 00:01:29,908
+And this is – the x is a lower value.
+
+32
+00:01:29,908 --> 00:01:31,800
+We'll call that our 'start.' This is our 'end.'
+
+33
+00:01:31,800 --> 00:01:33,412
+So we start at 6.
+
+34
+00:01:33,412 --> 00:01:34,916
+We end at 0.
+
+35
+00:01:34,916 --> 00:01:38,116
+So our change in y is gong to be -6.
+
+36
+00:01:38,131 --> 00:01:41,552
+We went down by 6 in the y direction.
+
+37
+00:01:41,552 --> 00:01:44,509
+It's -6. You could say that's a 0 - 6.
+
+38
+00:01:44,509 --> 00:01:45,766
+And our change in x –
+
+39
+00:01:45,766 --> 00:01:49,298
+well, we were at -5, and we go up to -2.
+
+40
+00:01:49,298 --> 00:01:52,130
+We increased by 3.
+
+41
+00:01:52,130 --> 00:01:53,967
+So we increased by 3.
+
+42
+00:01:53,967 --> 00:01:54,757
+So we went –
+
+43
+00:01:54,757 --> 00:01:59,631
+When we increase x by 3, we decreased y(x) by 6.
+
+44
+00:01:59,631 --> 00:02:01,672
+Or, if we want to simplify this right over here,
+
+45
+00:02:01,672 --> 00:02:04,836
+(-6)/3 is the same thing as -2.
+
+46
+00:02:04,836 --> 00:02:07,210
+So our average rate of change of y(x)
+
+47
+00:02:07,210 --> 00:02:12,483
+over the interval from -5 to -2 is -2.
+
+48
+00:02:12,483 --> 00:02:18,550
+Every time, on average, x increased by 1, y [changed] by -2.

@@ -1,0 +1,995 @@
+1
+00:00:00,534 --> 00:00:04,600
+What I want to do in this video is cover something called the Triple Product Expansion
+
+2
+00:00:04,600 --> 00:00:06,850
+or Lagrange's Formula, sometimes.
+
+3
+00:00:06,850 --> 00:00:11,819
+And it's really just a simplification of the cross product of three vectors.
+
+4
+00:00:11,819 --> 00:00:17,703
+So if I take the cross product of A and then B cross C.
+
+5
+00:00:17,703 --> 00:00:19,933
+Now what we are going to do is express this,
+
+6
+00:00:19,933 --> 00:00:24,558
+we can express this really as sum and difference of dot products.
+
+7
+00:00:24,558 --> 00:00:27,553
+Well not just dot products but dot products scaling different vectors.
+
+8
+00:00:27,553 --> 00:00:29,083
+You're going to see what I mean.
+
+9
+00:00:29,083 --> 00:00:33,274
+But it simplifies this expression a bit because cross products are hard to take.
+
+10
+00:00:33,274 --> 00:00:36,571
+They are computationally intensive and, at least in my mind, they're confusing.
+
+11
+00:00:36,571 --> 00:00:40,101
+Now, this is not something you have to know if you are going to be dealing with vectors.
+
+12
+00:00:40,101 --> 00:00:41,400
+But it's useful to know.
+
+13
+00:00:41,400 --> 00:00:48,321
+My motivation for doing this video is I saw some problems for the Indian Institute of Technology Entrance Exam
+
+14
+00:00:48,321 --> 00:00:53,667
+that seems to expect that you know Lagrange's Formula or the Triple Product Expansion.
+
+15
+00:00:53,667 --> 00:00:55,658
+So let's see how we can simplify this.
+
+16
+00:00:55,658 --> 00:00:59,002
+So to do that, let's start taking the cross product -
+
+17
+00:00:59,002 --> 00:01:02,160
+the cross product of B and C.
+
+18
+00:01:02,160 --> 00:01:07,222
+And in all of these situations, I'm just going to assume that we have vector A.
+
+19
+00:01:07,222 --> 00:01:13,305
+I'm just going to call that A, the x component of vector A times unit vector i,
+
+20
+00:01:13,305 --> 00:01:21,479
+plus the y component of vector A times unit of vector j,
+
+21
+00:01:21,479 --> 00:01:26,333
+plus the z component of vector A times unit vector k.
+
+22
+00:01:26,333 --> 00:01:28,491
+I can do the same things for B and C.
+
+23
+00:01:28,491 --> 00:01:34,900
+So, if I say that B sub y, I'm talking about what's scaling the j component in the B vector.
+
+24
+00:01:34,900 --> 00:01:38,801
+So let's first take this cross product over here,
+
+25
+00:01:38,801 --> 00:01:41,309
+and as you've seen me take a cross products,
+
+26
+00:01:41,309 --> 00:01:43,667
+you know that I like to do these little determinants.
+
+27
+00:01:43,667 --> 00:01:45,628
+And what, let me just take it over here.
+
+28
+00:01:45,628 --> 00:01:51,943
+So, B cross C, B cross C, is going to be equal to the determinant,
+
+29
+00:01:51,943 --> 00:01:54,173
+and I put an i, j, k up here.
+
+30
+00:01:54,173 --> 00:01:56,169
+i j k
+
+31
+00:01:56,169 --> 00:01:58,306
+This is actually the definition of the cross product.
+
+32
+00:01:58,306 --> 00:02:00,535
+So no proof is necessary.
+
+33
+00:02:00,535 --> 00:02:02,485
+Let me show you why this is true.
+
+34
+00:02:02,485 --> 00:02:03,832
+This is just one way to remember the dot product.
+
+35
+00:02:03,832 --> 00:02:06,804
+If you remember to take the determinant of 3 by 3's.
+
+36
+00:02:06,804 --> 00:02:15,349
+And we'll put B's x term, B's y coefficient, and B's z component. [term, coefficient and component can be used interchangeably here]
+
+37
+00:02:15,349 --> 00:02:17,267
+And you'll do the same thing for the C's.
+
+38
+00:02:17,267 --> 00:02:20,225
+Cx, Cy, Cz.
+
+39
+00:02:20,225 --> 00:02:22,333
+And then this is going to be equal to -
+
+40
+00:02:22,333 --> 00:02:24,667
+So first you have its, the i component,
+
+41
+00:02:24,667 --> 00:02:32,903
+so it's going to be the i component times B, so you ignore this column and this row, so
+
+42
+00:02:32,903 --> 00:02:36,758
+By [times] Cz, By Cz
+
+43
+00:02:36,758 --> 00:02:40,241
+Minus Bz [times] Cy, minus so -
+
+44
+00:02:40,241 --> 00:02:42,842
+I'm just ignoring all of this, and I'm looking at this 2 by 2 over here.
+
+45
+00:02:42,842 --> 00:02:48,368
+minus Bz Cy, minus Bz Cy.
+
+46
+00:02:48,368 --> 00:02:51,600
+And then we want to subtract the j component.
+
+47
+00:02:51,600 --> 00:02:54,962
+Remember we alternate signs when we take our determinant.
+
+48
+00:02:54,962 --> 00:02:59,560
+Subtract that, and then we take that column and that row. So it's going to be [chuckle]
+
+49
+00:02:59,560 --> 00:03:04,575
+It's going to be Bx [times] Cz, Bx Cz
+
+50
+00:03:04,575 --> 00:03:07,873
+It's a little monotonous, but it'll have an intertesting result.
+
+51
+00:03:07,873 --> 00:03:16,882
+Bx Cz minus Bz [times] Cx, minus Bz, minus Bz Cx.
+
+52
+00:03:16,882 --> 00:03:20,200
+And then finally plus the k component.
+
+53
+00:03:20,200 --> 00:03:32,904
+k, we are going to have Bx times Cy, Bx Cy minus By Cx, minus By Cx.
+
+54
+00:03:32,904 --> 00:03:36,155
+So this is, this, we just did the dot product.
+
+55
+00:03:36,155 --> 00:03:40,200
+And now we want to take the - sorry we just did the cross product.
+
+56
+00:03:40,200 --> 00:03:44,514
+I don't want to get you confused. We just took the cross product of B and C.
+
+57
+00:03:44,514 --> 00:03:47,579
+And now we are going to take the cross product of that with A.
+
+58
+00:03:47,579 --> 00:03:50,551
+Or the cross product of A with this thing right over here.
+
+59
+00:03:50,551 --> 00:03:51,805
+So let's do that -
+
+60
+00:03:51,805 --> 00:03:55,566
+Instead of rewriting the vector, let me just set up another matrix here.
+
+61
+00:03:55,566 --> 00:03:59,467
+So let me write my i, j, k up here -
+
+62
+00:03:59,467 --> 00:04:02,300
+And then let me write a's components so we have -
+
+63
+00:04:02,300 --> 00:04:06,526
+A sub x, A sub y, A sub z
+
+64
+00:04:06,526 --> 00:04:09,406
+And then let's clean this up a little bit.
+
+65
+00:04:09,406 --> 00:04:11,263
+Let's ignore the, we're just looking at -
+
+66
+00:04:11,263 --> 00:04:13,771
+No I want to do that in black.
+
+67
+00:04:13,771 --> 00:04:18,554
+Let's do this in black so that we can kind of erase that.
+
+68
+00:04:18,554 --> 00:04:21,805
+This is a uh, this is a minus j times that, so what I'm going to do is
+
+69
+00:04:21,805 --> 00:04:24,267
+I'm going to get rid of the minus and the j
+
+70
+00:04:24,267 --> 00:04:28,400
+but I'm going to rewrite this with the signs swapped
+
+71
+00:04:28,400 --> 00:04:30,071
+So this is going to be -
+
+72
+00:04:30,071 --> 00:04:31,882
+This is going to be swap the signs
+
+73
+00:04:31,882 --> 00:04:41,263
+Bz Cx minus Bx, minus Bx Cz
+
+74
+00:04:41,263 --> 00:04:43,818
+So let me delete everything else.
+
+75
+00:04:43,818 --> 00:04:47,068
+So I just took the negative and I multiplied it by this.
+
+76
+00:04:47,068 --> 00:04:49,933
+I'm not making any careless mistakes here. So let me just, so I can make -
+
+77
+00:04:49,933 --> 00:04:54,592
+make the brush size a little bit bigger here so I can erase a little more efficiently
+
+78
+00:04:54,592 --> 00:04:58,167
+There you go. And then we also want to get rid of that right over here -
+
+79
+00:04:58,167 --> 00:05:02,254
+Let me get my brush back down to normal size. All right!
+
+80
+00:05:02,254 --> 00:05:05,923
+So now let's just take this cross product.
+
+81
+00:05:05,923 --> 00:05:10,892
+So once again, set it up as, set it up as a determinant.
+
+82
+00:05:10,892 --> 00:05:12,424
+And what I'm really going to focus on -
+
+83
+00:05:12,424 --> 00:05:19,437
+because it'll take the video, well it'll take me forever if I were to do, if I were to do the i, j and k components,
+
+84
+00:05:19,437 --> 00:05:25,149
+I'm just going to focus on i component, just on the x component of this cross product
+
+85
+00:05:25,149 --> 00:05:28,911
+and then we can see that we will get the same result for the j and k
+
+86
+00:05:28,911 --> 00:05:32,487
+and we can see what hopefully this simplifies down to.
+
+87
+00:05:32,487 --> 00:05:35,226
+So if we just focus on the i component here
+
+88
+00:05:35,226 --> 00:05:36,248
+This is going to be,
+
+89
+00:05:36,248 --> 00:05:39,499
+this is going to be i,
+
+90
+00:05:39,499 --> 00:05:43,771
+i times, and we just look at this 2 by 2 matrix right over here
+
+91
+00:05:43,771 --> 00:05:45,908
+We ignore i's column, i's row.
+
+92
+00:05:45,908 --> 00:05:47,580
+And we have
+
+93
+00:05:47,580 --> 00:05:50,134
+Ay times all of this.
+
+94
+00:05:50,134 --> 00:05:51,898
+So let me just multiply it out, so it's
+
+95
+00:05:51,898 --> 00:06:07,224
+Ay times Bx Cy minus, minus Ay times By, times By Cx, By Cx.
+
+96
+00:06:07,224 --> 00:06:10,753
+And then, we're going to want to subtract,
+
+97
+00:06:10,753 --> 00:06:13,632
+we're going to want to have minus Az times this.
+
+98
+00:06:13,632 --> 00:06:15,165
+So let's just do that.
+
+99
+00:06:15,165 --> 00:06:22,177
+So it's minus, or negative Az Bz Cx,
+
+100
+00:06:22,177 --> 00:06:24,174
+and then we have a negative Az times this, so it's
+
+101
+00:06:24,174 --> 00:06:30,304
+plus Az Bx Cz.
+
+102
+00:06:30,304 --> 00:06:31,558
+And now I'm going to do this -
+
+103
+00:06:31,558 --> 00:06:33,927
+This is a little bit of a trick for this proof right here.
+
+104
+00:06:33,927 --> 00:06:37,363
+Just so that we get the results that I want.
+
+105
+00:06:37,363 --> 00:06:40,149
+I'm just going to add and subtract the exact same thing.
+
+106
+00:06:40,149 --> 00:06:46,744
+I'm going to add an Ax Bx Cx
+
+107
+00:06:46,744 --> 00:06:58,168
+and then I'm going to subtract a Ax Bx Cx
+
+108
+00:06:58,168 --> 00:07:00,258
+So clearly I have not changed this expression,
+
+109
+00:07:00,258 --> 00:07:02,534
+I have just added and subtracted the same thing.
+
+110
+00:07:02,534 --> 00:07:04,267
+And let's see what we can simplify.
+
+111
+00:07:04,267 --> 00:07:08,849
+Remember, this is just the x component of our triple product,
+
+112
+00:07:08,849 --> 00:07:10,428
+just the x component.
+
+113
+00:07:10,428 --> 00:07:12,565
+But to do this, let me factor out -
+
+114
+00:07:12,565 --> 00:07:18,230
+I'm going to factor out a B sub x, so let me do this.
+
+115
+00:07:18,230 --> 00:07:20,599
+We get the B sub x
+
+116
+00:07:20,599 --> 00:07:22,085
+So if I were to factor it out
+
+117
+00:07:22,085 --> 00:07:23,571
+And I'm only going to look at,
+
+118
+00:07:23,571 --> 00:07:25,893
+I'm only going to factor it out of this term that has a B sub x
+
+119
+00:07:25,893 --> 00:07:29,267
+and I'm going to factor it out of this term
+
+120
+00:07:29,267 --> 00:07:31,419
+and then I'm going to factor it out of this term.
+
+121
+00:07:31,419 --> 00:07:33,555
+So if I take out the B sub x,
+
+122
+00:07:33,555 --> 00:07:37,921
+I'm going to have an Ay Cy,
+
+123
+00:07:37,921 --> 00:07:39,825
+actually let me write out a little bit differently.
+
+124
+00:07:39,825 --> 00:07:43,168
+Let me factor it, let me factor it out of this one first.
+
+125
+00:07:43,168 --> 00:07:46,930
+So that it's A, it's going to be an Ax Cx
+
+126
+00:07:46,930 --> 00:07:48,933
+A sub x, C sub x
+
+127
+00:07:48,933 --> 00:07:51,110
+So I used this one up.
+
+128
+00:07:51,110 --> 00:07:53,478
+And then I'm going to have a, I'll do this one now
+
+129
+00:07:53,478 --> 00:07:59,190
+plus, if I factor the B sub x out, I get A sub y, C sub y
+
+130
+00:07:59,190 --> 00:08:00,258
+I've used that one now, and now I have this one
+
+131
+00:08:00,258 --> 00:08:03,277
+I'm going to factor the B sub x out,
+
+132
+00:08:03,277 --> 00:08:08,478
+so I'm left with a plus A sub z, C sub z.
+
+133
+00:08:08,478 --> 00:08:10,847
+So that's all of those, so I've factored that out.
+
+134
+00:08:10,847 --> 00:08:13,169
+And now from these -
+
+135
+00:08:13,169 --> 00:08:17,600
+From these right over here, let me factor out a negative C sub x,
+
+136
+00:08:17,600 --> 00:08:21,156
+a negative C sub x.
+
+137
+00:08:21,156 --> 00:08:23,933
+And so if I do that, let me go to this term right over here
+
+138
+00:08:23,933 --> 00:08:25,615
+I'm going to have a Ax Bx
+
+139
+00:08:25,615 --> 00:08:30,769
+Cross that out
+
+140
+00:08:30,769 --> 00:08:33,509
+And then over here I'm going to have an Ay By
+
+141
+00:08:33,509 --> 00:08:35,333
+Remember I'm factoring out a negative C sub x
+
+142
+00:08:35,333 --> 00:08:39,333
+So I'm going to have a plus A sub y, B sub y
+
+143
+00:08:39,333 --> 00:08:42,937
+And then finally I'm going have a plus A sub z,
+
+144
+00:08:42,937 --> 00:08:47,209
+A sub z, B sub z
+
+145
+00:08:47,209 --> 00:08:49,949
+And what is this!
+
+146
+00:08:49,949 --> 00:08:52,596
+Well this right here in green,
+
+147
+00:08:52,596 --> 00:08:56,543
+this is the exact same thing as the dot product of A and C
+
+148
+00:08:56,543 --> 00:09:01,420
+This is the dot product of the vectors A and C
+
+149
+00:09:01,420 --> 00:09:03,417
+It's the dot product
+
+150
+00:09:03,417 --> 00:09:06,064
+of this vector and that vector.
+
+151
+00:09:06,064 --> 00:09:07,921
+So that's the
+
+152
+00:09:07,921 --> 00:09:12,733
+The dot product of A and C times the x component of B
+
+153
+00:09:12,733 --> 00:09:18,742
+times the x component, the x component of B
+
+154
+00:09:18,742 --> 00:09:21,250
+minus, I'll do this in the same
+
+155
+00:09:21,250 --> 00:09:25,754
+minus, once again this is the dot product of A and B now
+
+156
+00:09:25,754 --> 00:09:30,398
+minus A dot B, A dot B
+
+157
+00:09:30,398 --> 00:09:33,467
+times the x component of C
+
+158
+00:09:33,467 --> 00:09:34,810
+And we can't forget all of this was
+
+159
+00:09:34,810 --> 00:09:36,993
+multiplied by the unit vector i.
+
+160
+00:09:36,993 --> 00:09:40,197
+We're looking at the x component, or the i component
+
+161
+00:09:40,197 --> 00:09:42,705
+of that whole triple product.
+
+162
+00:09:42,705 --> 00:09:46,234
+So that's going to be all of this
+
+163
+00:09:46,234 --> 00:09:51,668
+it's all of this is being, is times the unit vector i.
+
+164
+00:09:51,668 --> 00:09:53,665
+Now, if we do this exact same thing
+
+165
+00:09:53,665 --> 00:09:57,000
+I'm not going to do it, because it's, it's computationally intensive
+
+166
+00:09:57,000 --> 00:10:00,956
+but I think it would, it won't be a huge leap of faith for you
+
+167
+00:10:00,956 --> 00:10:02,581
+This is for the x component
+
+168
+00:10:02,581 --> 00:10:06,250
+If I were to do the exact same thing for the y component, for the j component
+
+169
+00:10:06,250 --> 00:10:07,968
+so it'll be plus
+
+170
+00:10:07,968 --> 00:10:10,244
+If I do the same thing for the j component
+
+171
+00:10:10,244 --> 00:10:11,683
+We can really just pattern match.
+
+172
+00:10:11,683 --> 00:10:14,609
+We have, we have B sub x, C sub x
+
+173
+00:10:14,609 --> 00:10:15,631
+That's for the x component
+
+174
+00:10:15,631 --> 00:10:19,532
+And we'll have B sub y, and C sub y for the j component
+
+175
+00:10:19,532 --> 00:10:21,761
+And then this is not component specific
+
+176
+00:10:21,761 --> 00:10:27,659
+so it'll be A dot, A dot C over here,
+
+177
+00:10:27,659 --> 00:10:30,333
+and minus A dot B over here
+
+178
+00:10:30,333 --> 00:10:33,556
+You can verify any of these for yourself if you don't believe me.
+
+179
+00:10:33,556 --> 00:10:35,553
+But it's the exact same process we just did.
+
+180
+00:10:35,553 --> 00:10:38,667
+And then finally for the z component, or the k component
+
+181
+00:10:38,667 --> 00:10:41,267
+Let me put parentheses over here
+
+182
+00:10:41,267 --> 00:10:42,752
+Same idea!
+
+183
+00:10:42,752 --> 00:10:47,488
+B sub z, C sub z
+
+184
+00:10:47,488 --> 00:10:50,786
+And then you're going to have A dot B over there
+
+185
+00:10:50,786 --> 00:10:57,427
+and A dot C over here!
+
+186
+00:10:57,427 --> 00:11:01,513
+Now what is, what does this, what does this become?
+
+187
+00:11:01,513 --> 00:11:03,510
+How can simplify this?
+
+188
+00:11:03,510 --> 00:11:06,343
+Well this right over here -
+
+189
+00:11:06,343 --> 00:11:08,340
+we can expand this out.
+
+190
+00:11:08,340 --> 00:11:12,200
+We can factor out a A dot C from all of these terms over here.
+
+191
+00:11:12,200 --> 00:11:14,424
+Remember this is going to be multiplied times i.
+
+192
+00:11:14,424 --> 00:11:17,071
+Actually let me not skip too many steps.
+
+193
+00:11:17,071 --> 00:11:20,229
+because I really want you to believe what I'm doing.
+
+194
+00:11:20,229 --> 00:11:23,015
+So this, if we expand the i here.
+
+195
+00:11:23,015 --> 00:11:26,200
+Instead of rewriting it, let me just do it like this.
+
+196
+00:11:26,200 --> 00:11:31,513
+A little bit messier, but let me just, so I can write this i there and that i there.
+
+197
+00:11:31,513 --> 00:11:33,928
+I'm kind of just distributing that x,
+
+198
+00:11:33,928 --> 00:11:36,157
+that x unit vector, or i unit vector
+
+199
+00:11:36,157 --> 00:11:38,805
+and let me do the same thing for j
+
+200
+00:11:38,805 --> 00:11:43,170
+So I can put the j there and I can put the j right over there
+
+201
+00:11:43,170 --> 00:11:46,467
+And then I can do the same thing for the k.
+
+202
+00:11:46,467 --> 00:11:49,997
+Put the k there, and then put the k there.
+
+203
+00:11:49,997 --> 00:11:51,854
+And now what are these!
+
+204
+00:11:51,854 --> 00:11:55,198
+Well this part right over there
+
+205
+00:11:55,198 --> 00:12:03,371
+This part right over here is exactly the same thing as A dot C
+
+206
+00:12:03,371 --> 00:12:09,037
+A dot C times Bx,
+
+207
+00:12:09,037 --> 00:12:12,533
+B sub x times i, plus B sub y times j
+
+208
+00:12:12,533 --> 00:12:15,867
+plus B sub y times j
+
+209
+00:12:15,867 --> 00:12:22,040
+plus B sub z times k!
+
+210
+00:12:22,040 --> 00:12:25,662
+And then from that we are going to subtract all of this
+
+211
+00:12:25,662 --> 00:12:29,517
+A dot B, we are going to subtract A dot B
+
+212
+00:12:29,517 --> 00:12:33,511
+Times the exact same thing!
+
+213
+00:12:33,511 --> 00:12:37,365
+And you are going to notice this is the exact same thing as vector B!
+
+214
+00:12:37,365 --> 00:12:40,848
+That is vector B, and when you do it over here you are just going to get vector C
+
+215
+00:12:40,848 --> 00:12:43,077
+So I'll just write it over here.
+
+216
+00:12:43,077 --> 00:12:45,200
+You are just going to get vector C.
+
+217
+00:12:45,200 --> 00:12:46,839
+So just like that, we have,
+
+218
+00:12:46,839 --> 00:12:51,158
+we have a simplification for our triple product!
+
+219
+00:12:51,158 --> 00:12:55,105
+I know it took us a long time to get here, but this is a simplification!
+
+220
+00:12:55,105 --> 00:12:56,267
+It might not look like one,
+
+221
+00:12:56,267 --> 00:12:58,774
+but computationally it is! It's easier to do!
+
+222
+00:12:58,774 --> 00:13:03,186
+If I have, I'll try to color code it, if I have A cross
+
+223
+00:13:03,186 --> 00:13:10,152
+A cross B cross, let me do it all different colors, C
+
+224
+00:13:10,152 --> 00:13:13,496
+we just saw that this is going to be equivalent to
+
+225
+00:13:13,496 --> 00:13:15,307
+and one way to think about it is
+
+226
+00:13:15,307 --> 00:13:19,672
+You take the first vector times the dot product of the
+
+227
+00:13:19,672 --> 00:13:24,037
+The first vector in this second cross product
+
+228
+00:13:24,037 --> 00:13:26,545
+The one that we have the parentheses around, the one we have to do first
+
+229
+00:13:26,545 --> 00:13:29,424
+You take the first vector there, so vector B
+
+230
+00:13:29,424 --> 00:13:33,836
+and you multiply that times the dot product of the other two vectors
+
+231
+00:13:33,836 --> 00:13:39,084
+So A dot C, A dot C
+
+232
+00:13:39,084 --> 00:13:41,499
+and from that you subtract
+
+233
+00:13:41,499 --> 00:13:44,842
+You subtract the second vector [in the parentheses]
+
+234
+00:13:44,842 --> 00:13:49,440
+You subtract the second vector multiplied by the dot product of the other two vectors.
+
+235
+00:13:49,440 --> 00:13:54,502
+A dot B.
+
+236
+00:13:54,502 --> 00:13:55,524
+And we're done!
+
+237
+00:13:55,524 --> 00:13:56,685
+This is our triple product
+
+238
+00:13:56,685 --> 00:13:59,750
+This is our triple product expansion!
+
+239
+00:13:59,750 --> 00:14:01,468
+Now once again, this isn't
+
+240
+00:14:01,468 --> 00:14:04,487
+this isn't something that you really have to know
+
+241
+00:14:04,487 --> 00:14:05,933
+You could always obviously multiply
+
+242
+00:14:05,933 --> 00:14:07,784
+You could actually just do this, you know
+
+243
+00:14:07,784 --> 00:14:10,013
+you don't have to, you could do it by hand,
+
+244
+00:14:10,013 --> 00:14:11,360
+you don't have to know this.
+
+245
+00:14:11,360 --> 00:14:14,100
+But if you have really hairy vectors
+
+246
+00:14:14,100 --> 00:14:16,607
+or if this is from some kind of math competition
+
+247
+00:14:16,607 --> 00:14:19,533
+And sometimes it simplifies real fast when you reduce it to dot products
+
+248
+00:14:19,533 --> 00:14:21,158
+This is a useful thing to know.
+
+249
+00:14:21,158 --> 99:59:59,999
+The Lagrange's Formula, or the triple product expansion.

@@ -1,0 +1,687 @@
+1
+00:00:00,570 --> 00:00:02,800
+What I want to do in this video is introduce you
+
+2
+00:00:02,800 --> 00:00:08,840
+to the idea of the covariance between 2 random variables.
+
+3
+00:00:08,840 --> 00:00:10,720
+It's defined as
+
+4
+00:00:10,720 --> 00:00:21,170
+the expected value of the product of the distances of each random variable from their mean
+
+5
+00:00:21,170 --> 00:00:24,430
+or from their expected value. So let me just write that down.
+
+6
+00:00:24,440 --> 00:00:27,870
+So I'll have X first. I'll do it in another color.
+
+7
+00:00:28,150 --> 00:00:34,050
+It's the expected value of random variable minus expected value of X.
+
+8
+00:00:34,050 --> 00:00:36,550
+You could view this as the population mean of X.
+
+9
+00:00:36,770 --> 00:00:43,640
+Times-- and then this is random variable Y-- so times the distance from Y
+
+10
+00:00:43,640 --> 00:00:53,130
+to its expected value or the population mean of Y.
+
+11
+00:00:53,350 --> 00:00:56,080
+If it doesn't make a lot of sense yet,
+
+12
+00:00:56,160 --> 00:01:00,440
+well, you can just always think about what it's doing, playing around with some numbers here.
+
+13
+00:01:00,470 --> 00:01:04,070
+but the reality is it's saying how much they vary together.
+
+14
+00:01:04,190 --> 00:01:08,880
+So you always take an X and a Y for each of the data points. At the
+
+15
+00:01:08,900 --> 00:01:15,030
+whole population, every X and Y, they kind of go together with each other that are coordinate.
+
+16
+00:01:15,130 --> 00:01:17,530
+You put into this. What happens is
+
+17
+00:01:17,680 --> 00:01:21,920
+let's say that X is above its mean when Y is below its mean.
+
+18
+00:01:22,000 --> 00:01:25,130
+So let's say in the population, you had the point.
+
+19
+00:01:25,130 --> 00:01:28,400
+So one instantiation of the random variables, you have--
+
+20
+00:01:28,690 --> 00:01:40,150
+you sample once from the universe, and you get X=1 and Y=3.
+
+21
+00:01:40,370 --> 00:01:46,790
+And you knew ahead of time that E[X] is 0.
+
+22
+00:01:47,100 --> 00:01:52,800
+And let's say E[Y]=4.
+
+23
+00:01:53,140 --> 00:01:55,590
+So in this situation, what just happened?
+
+24
+00:01:55,810 --> 00:02:01,300
+Now we don't know the entire covariance. We only have 1 sample here for this random variable.
+
+25
+00:02:01,710 --> 00:02:03,330
+But what just happened here?
+
+26
+00:02:03,330 --> 00:02:07,850
+We have one minus-- we're not gonna calculate the entire expected value.
+
+27
+00:02:07,850 --> 00:02:11,500
+I just want to calculate what happens what's inside the expected value.
+
+28
+00:02:11,880 --> 00:02:20,630
+We'll have 1-0. So you'll have a 1 times a 3-4, times a -1.
+
+29
+00:02:20,630 --> 00:02:23,640
+So 1 times -1 is -1.
+
+30
+00:02:23,670 --> 00:02:27,680
+What is that telling us? Well, it's telling us at least for this sample,
+
+31
+00:02:27,690 --> 00:02:31,090
+this one time that we sampled our random variables X and Y,
+
+32
+00:02:31,310 --> 00:02:35,340
+X was above its expected value,
+
+33
+00:02:35,400 --> 00:02:38,130
+when Y was below its expected value.
+
+34
+00:02:38,160 --> 00:02:41,660
+Let's say for the entire population this happened.
+
+35
+00:02:41,690 --> 00:02:45,350
+Then it would make sense that they have negative covariance.
+
+36
+00:02:45,550 --> 00:02:49,790
+When one goes up, the other one goes down. When one goes down, the other one goes up.
+
+37
+00:02:49,980 --> 00:02:52,870
+If they both go up together, they would have a positive covariance.
+
+38
+00:02:52,870 --> 00:02:54,540
+If they both go down together,
+
+39
+00:02:54,540 --> 00:02:58,970
+and the degree to which they do it together, will tell you de magnitude of the covariance.
+
+40
+00:02:59,010 --> 00:03:03,070
+Hopefully, that gives you a little bit of intuition about what the covariance is trying to tell us.
+
+41
+00:03:03,520 --> 00:03:07,730
+But the more important thing I want to do in this video, is to connect this formula,
+
+42
+00:03:07,730 --> 00:03:13,560
+this definition of covariance, to everything we've been doing with least square regression.
+
+43
+00:03:13,560 --> 00:03:19,440
+Really, it's kind of fun math thing to do, to show you all these connections,
+
+44
+00:03:19,440 --> 00:03:22,890
+where the definition of covariance really becomes useful.
+
+45
+00:03:22,890 --> 00:03:28,100
+I really do think it's motivated to a large degree by where it shows up in regressions.
+
+46
+00:03:28,390 --> 00:03:31,630
+This is all stuff that we've kind of seen before. You'll just see it in a different way.
+
+47
+00:03:32,260 --> 00:03:39,690
+In this whole video, I'm gonna rewrite this definition of covariance over here.
+
+48
+00:03:40,140 --> 00:03:48,550
+So this is going to be the same thing as the expected value of--
+
+49
+00:03:48,550 --> 00:03:51,700
+I'm just gonna multiply these 2 binomials here--
+
+50
+00:03:51,720 --> 00:03:59,680
+so the expected value of our random variable X times our random variable Y,
+
+51
+00:03:59,970 --> 00:04:05,760
+minus-- I'll just do X's first-- so plus X times -E[Y].
+
+52
+00:04:06,050 --> 00:04:18,830
+So I'll just say - X times E[Y].
+
+53
+00:04:18,850 --> 00:04:21,510
+Negative sign comes from this negative sign right over here.
+
+54
+00:04:21,770 --> 00:04:30,680
+And then we have -E[X] times Y.
+
+55
+00:04:30,710 --> 00:04:33,230
+This is doing the distributive property twice.
+
+56
+00:04:33,360 --> 00:04:37,780
+And then finally, you have the -E[X] time -E[Y].
+
+57
+00:04:37,860 --> 00:04:39,360
+And the negatives cancel out.
+
+58
+00:04:39,530 --> 00:04:52,550
+And you're just going to have plus E[X] times E[Y].
+
+59
+00:04:52,570 --> 00:04:59,470
+And of course it's the expected value of this entire thing.
+
+60
+00:04:59,510 --> 00:05:01,310
+Now let's see if we can rewrite this.
+
+61
+00:05:01,310 --> 00:05:07,530
+The expected value of the sum and difference of a bunch of random variables
+
+62
+00:05:07,630 --> 00:05:11,870
+is just the sum or difference their expected values. So this is going to be the same thing--
+
+63
+00:05:12,180 --> 00:05:17,490
+Remember, expected value, in a lot of context, you can view it just as arithmetic mean.
+
+64
+00:05:17,520 --> 00:05:22,840
+Or in a continuous distribution, you can view it as a probability weighted sum or integral.
+
+65
+00:05:22,840 --> 00:05:26,030
+Either way. We've seen it before, I think.
+
+66
+00:05:26,070 --> 00:05:27,480
+So let's rewrite this.
+
+67
+00:05:27,480 --> 00:05:34,090
+This is equal to the expected value of the random variables, X and Y, X times Y.
+
+68
+00:05:34,360 --> 00:05:38,030
+I'm trying to keep it color coded for you.
+
+69
+00:05:38,420 --> 00:05:42,560
+And then we have minus X times E[Y].
+
+70
+00:05:42,560 --> 00:06:00,510
+So then we're going to have - E [X time E[Y]].
+
+71
+00:06:01,080 --> 00:06:03,320
+Stay with the right colors.
+
+72
+00:06:03,520 --> 00:06:17,580
+Then you're going to have -E[E[X] times Y].
+
+73
+00:06:17,750 --> 00:06:21,270
+This might look really confusing with all these embedded expected values.
+
+74
+00:06:21,350 --> 00:06:22,780
+But one of the ways to think about it is, the
+
+75
+00:06:22,780 --> 00:06:27,490
+things that already have the expected values can just be viewed as numbers, as knowns.
+
+76
+00:06:27,510 --> 00:06:29,720
+Usually, we'll take them out of the expected value,
+
+77
+00:06:29,720 --> 00:06:33,070
+because the expected value of the expected value is the same thing as the expected value.
+
+78
+00:06:33,070 --> 00:06:35,160
+Actually, let me write this over here, just to remind ourselves.
+
+79
+00:06:35,490 --> 00:06:46,790
+The expected value of the expected value of X is just going to be the expected value of X.
+
+80
+00:06:46,850 --> 00:06:50,860
+Think of it this way, you can view this as the population mean of the random variable.
+
+81
+00:06:51,120 --> 00:06:54,480
+So that's going to be a known. It's out there in the universe.
+
+82
+00:06:54,480 --> 00:06:58,840
+So the expected value of that is going to be itself.
+
+83
+00:06:58,950 --> 00:07:03,230
+If the population mean or the expected value of X is 5,
+
+84
+00:07:03,640 --> 00:07:05,930
+this is like saying the expected value of 5.
+
+85
+00:07:05,970 --> 00:07:08,320
+The expected value of 5 is going to be 5.
+
+86
+00:07:08,320 --> 00:07:11,920
+Hopefully that will make sense. We'll use that in a second.
+
+87
+00:07:12,270 --> 00:07:15,810
+So we're almost done. We did the expected value of this, and we have one term left.
+
+88
+00:07:16,010 --> 00:07:19,510
+The final term, the expected value of this guy.
+
+89
+00:07:19,630 --> 00:07:22,840
+And here we can actually use property-- I'll just write it down.
+
+90
+00:07:22,840 --> 00:07:37,650
+So the expected value of E[X] times E[Y].
+
+91
+00:07:37,650 --> 00:07:39,130
+Let's see if we can simplify here.
+
+92
+00:07:39,530 --> 00:07:44,290
+So this is just going to be the expected value of the product of these random variables.
+
+93
+00:07:44,290 --> 00:07:49,510
+I'll just leave that the way it is.
+
+94
+00:07:49,890 --> 00:07:54,360
+So the expected value of XY.
+
+95
+00:07:54,700 --> 00:07:56,410
+Now what do we have over here?
+
+96
+00:07:56,410 --> 00:07:59,760
+We have the expected value of X times--
+
+97
+00:07:59,760 --> 00:08:04,860
+once again, you can go back to what we've just said. This is just gonna be a number, E[Y].
+
+98
+00:08:04,890 --> 00:08:06,480
+So we can just bring this out.
+
+99
+00:08:06,480 --> 00:08:08,300
+If this was the expected value of 3X,
+
+100
+00:08:08,300 --> 00:08:10,710
+it would be the same thing as 3 times E[X].
+
+101
+00:08:10,720 --> 00:08:24,970
+So we could rewrite this as E[Y] times E[X].
+
+102
+00:08:24,990 --> 00:08:28,770
+So you can view it as we factor it out of the expected value.
+
+103
+00:08:29,500 --> 00:08:33,070
+So just like that. And then you have minus--
+
+104
+00:08:33,640 --> 00:08:37,230
+Same thing over here. You can factor out this E[X].
+
+105
+00:08:37,720 --> 00:08:51,450
+Minus E[X] times E[Y].
+
+106
+00:08:51,450 --> 00:08:54,880
+This is getting confusing with all the E's around.
+
+107
+00:08:55,050 --> 00:08:59,080
+And then finally, you have the expected value of this thing, of two expected values.
+
+108
+00:08:59,080 --> 00:09:01,580
+That's just going to be product of those two expected values.
+
+109
+00:09:01,580 --> 00:09:14,630
+So that's just going to be plus E[X] times E[Y].
+
+110
+00:09:14,920 --> 00:09:20,110
+Now what do we have here? We have E[Y] times E[X].
+
+111
+00:09:20,110 --> 00:09:25,450
+And then we're subtracting E[X]?E[Y].
+
+112
+00:09:25,630 --> 00:09:28,260
+These two things are exactly the same thing.
+
+113
+00:09:28,460 --> 00:09:32,770
+So this is going to be-- we're actually subtracting it twice, and then we have one more.
+
+114
+00:09:32,770 --> 00:09:34,720
+These are all the same thing.
+
+115
+00:09:34,980 --> 00:09:38,090
+This is E[Y]?E[X].
+
+116
+00:09:38,210 --> 00:09:42,170
+This is E[Y]?E[X], just in different order.
+
+117
+00:09:42,270 --> 00:09:46,700
+And this is E[Y]?E[X].
+
+118
+00:09:47,170 --> 00:09:49,630
+We're subtracting it twice, then we're adding it.
+
+119
+00:09:49,660 --> 00:09:55,500
+Or the other way to think about it, this guy and that guy will cancel out.
+
+120
+00:09:55,650 --> 00:10:00,140
+But what do we have left? We have the covariance of these 2 random variables X and Y,
+
+121
+00:10:00,140 --> 00:10:02,100
+equal to the expected value of--
+
+122
+00:10:02,100 --> 00:10:05,280
+I'll switch back to my colors, just because it's the final result.
+
+123
+00:10:05,560 --> 00:10:33,670
+E[XY] - E[Y]E[X].
+
+124
+00:10:34,120 --> 00:10:38,810
+Now you can calculate these expected values if you know everything about the
+
+125
+00:10:38,810 --> 00:10:42,410
+probability distribution or density functions for each of these random variables,
+
+126
+00:10:42,460 --> 00:10:45,260
+or if you have the entire population that you're sampling from
+
+127
+00:10:45,260 --> 00:10:47,910
+whenever you take an instantiation of these random variables.
+
+128
+00:10:48,100 --> 00:10:53,480
+But let's say you just had a sample of these random variables, how could you estimate it?
+
+129
+00:10:53,680 --> 00:11:00,770
+Well, if you're estimating it, let's say you just have a bunch of data points,
+
+130
+00:11:00,770 --> 00:11:04,790
+a bunch of coordinates-- I think we'll start to see how this relates to what we do with regression.
+
+131
+00:11:05,150 --> 00:11:19,180
+The expected value of XY can be approximated by the sample mean of the product of X and Y.
+
+132
+00:11:19,180 --> 00:11:22,930
+You take each of your X Y associations, take the product,
+
+133
+00:11:22,930 --> 00:11:26,200
+and then take the mean of all of them. That's going to be the product of X and Y.
+
+134
+00:11:26,200 --> 00:11:33,840
+Then this thing right over here, E[Y], can be approximated by the sample mean of Y.
+
+135
+00:11:33,840 --> 00:11:38,230
+And E[X] can be approximated by the sample mean of X.
+
+136
+00:11:38,420 --> 00:11:45,800
+So what can the covariance of 2 random variables be approximated by?
+
+137
+00:11:45,820 --> 00:11:53,270
+Well, this right here is the mean of their product from your sample.
+
+138
+00:11:53,790 --> 00:12:04,560
+Minus the mean of your sample Y's, times the mean of your sample X's.
+
+139
+00:12:04,800 --> 00:12:09,850
+And this should start looking a little bit familiar. Because what is this?
+
+140
+00:12:10,260 --> 00:12:22,610
+This was the numerator when we were trying to figure the slope of the regression line.
+
+141
+00:12:22,630 --> 00:12:26,040
+Let me just rewrite the formula here just to remind you.
+
+142
+00:12:26,050 --> 00:12:34,120
+It was literally the mean of the products of each of our data points, or the x, y's,
+
+143
+00:12:34,120 --> 00:12:38,110
+minus the mean of y's, times the mean of the x's,
+
+144
+00:12:38,280 --> 00:12:48,210
+all of that over, the mean of the x squareds-- or you can even view it as the mean of x times x's--
+
+145
+00:12:48,820 --> 00:12:58,250
+or I can just write x squareds over here, minus the mean of x's squared.
+
+146
+00:12:58,290 --> 00:13:02,720
+This is how we figured out the slope of our regression line.
+
+147
+00:13:02,850 --> 00:13:06,650
+Or maybe a better way to think about it, if we assume in our regression line that
+
+148
+00:13:06,770 --> 00:13:12,100
+the points we have were sampled from an entire universe of possible points,
+
+149
+00:13:12,250 --> 00:13:16,620
+then you could say we're approximating the slope of our regression line.
+
+150
+00:13:16,620 --> 00:13:19,440
+You might see this little hat notation in a lot of books.
+
+151
+00:13:19,440 --> 00:13:21,200
+Don't want you to be confused.
+
+152
+00:13:21,200 --> 00:13:26,900
+You're approximating the population's regression line from a sample of it.
+
+153
+00:13:27,160 --> 00:13:36,690
+Now this right here is an estimate of the covariance of X and Y.
+
+154
+00:13:37,030 --> 00:13:38,770
+Now what is this over here?
+
+155
+00:13:38,790 --> 00:13:44,610
+Well, I just said, you could write this bottom part very easily as
+
+156
+00:13:44,780 --> 00:13:48,800
+the mean of x times x-- that's the same thing as x squared--
+
+157
+00:13:48,800 --> 00:13:55,110
+minus the mean of x times the mean of x. Right? That's what the mean of x squared is.
+
+158
+00:13:55,350 --> 00:14:02,900
+What's this? Well, you can view this as the covariance of X with X.
+
+159
+00:14:02,940 --> 00:14:08,170
+We've actually already seen this. I've actually shown you many, many videos ago
+
+160
+00:14:08,170 --> 00:14:09,900
+when we first learnt about it what it is.
+
+161
+00:14:09,900 --> 00:14:12,550
+The covariance of a random variable with itself
+
+162
+00:14:12,550 --> 00:14:18,520
+is really just the variance of that random variable.
+
+163
+00:14:18,540 --> 00:14:20,390
+You could verify it for yourself.
+
+164
+00:14:20,400 --> 00:14:23,440
+If you change this Y to an X,
+
+165
+00:14:23,610 --> 00:14:28,500
+this becomes (X-E[X])?(X-E[X]).
+
+166
+00:14:28,620 --> 00:14:34,330
+Or that's the expected value of X-E[X] squared, that's the definition of variance.
+
+167
+00:14:34,870 --> 00:14:40,030
+So another way of thinking about the slope of our regression line,
+
+168
+00:14:40,030 --> 00:14:46,310
+it can be literally viewed as the covariance of our 2 random variables
+
+169
+00:14:46,530 --> 00:14:55,970
+over the variance of X. You can kind of view it as the independent random variable.
+
+170
+00:14:56,390 --> 00:14:59,710
+That right there is the slope of our regression line.
+
+171
+00:14:59,810 --> 00:15:02,650
+Anyway, I thought that was interesting. And I want to make connections between
+
+172
+00:15:02,650 --> 00:15:06,390
+things you see in different parts of statistics and show you that they really are connected.

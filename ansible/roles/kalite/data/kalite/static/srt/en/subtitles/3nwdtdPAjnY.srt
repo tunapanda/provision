@@ -1,0 +1,467 @@
+1
+00:00:00,488 --> 00:00:05,000
+When we left off, we were trying to figure out: what did the magnitude of our initial velocity
+
+2
+00:00:05,000 --> 00:00:13,067
+need to be for the ball to clear the Green Monster at Fenway park, assuming that the batter hits it at a 45 degree angle,
+
+3
+00:00:13,067 --> 00:00:20,333
+and he hits it one meter above home plate, and the Green Monster is 96 meters away and it's 11.3 meters high.
+
+4
+00:00:20,333 --> 00:00:26,533
+So, the x-component of the displacement when it's at 96 meters, the y-component of the displacement has
+
+5
+00:00:26,533 --> 00:00:29,884
+to be 10.3 meters. Not the 11.3. Because it's already
+
+6
+00:00:29,884 --> 00:00:35,933
+starting at one meter high, it just has to get 10.3 more, it just needs to be 10.3 meters higher.
+
+7
+00:00:35,933 --> 00:00:40,000
+And we set up the problem, we set up our formula we derived in multiple videos
+
+8
+00:00:40,000 --> 00:00:44,067
+on displacement as a function of time and inital velocity
+
+9
+00:00:44,067 --> 00:00:48,533
+and our acceleration, and now we're ready to go because we have all of the ingredients.
+
+10
+00:00:48,533 --> 00:00:51,223
+So let's apply it. And what's really neat is, we'll essentially be able to do
+
+11
+00:00:51,223 --> 00:00:56,667
+both the horizontal and the vertical components at the same time now that we've expressed all of
+
+12
+00:00:56,667 --> 00:01:03,067
+our vectors in engineering notation, as a combination of scaled multiples of i and j vectors.
+
+13
+00:01:03,067 --> 00:01:08,940
+So, our displacement as a function of time, our displacement as a function of time,
+
+14
+00:01:08,940 --> 00:01:14,536
+I'll just write it all in green, is going to be equal to v sub i times t.
+
+15
+00:01:14,536 --> 00:01:18,733
+Well, v sub i is all of this business right over here. v sub i is all of this business.
+
+16
+00:01:18,733 --> 00:01:24,400
+And if you multiply a vector times a scalar, and t is a scalar, it's just a number,
+
+17
+00:01:24,400 --> 00:01:27,933
+you just multiply each, you just scale each of its components by that much.
+
+18
+00:01:27,933 --> 00:01:34,200
+So this is going to be equal to square root of 2, lemme, lemme make it...
+
+19
+00:01:34,200 --> 00:01:40,600
+So, this part, maybe I should, so this part right over here, this part right over here,
+
+20
+00:01:40,600 --> 00:01:49,867
+is going to be square root of 2 over 2 times the magnitude of our initial velocity, times time times
+
+21
+00:01:49,867 --> 00:01:57,067
+i, so I'm just multiplying this times time. So both of these terms have to be multiplied times time.
+
+22
+00:01:57,067 --> 00:01:58,133
+Both of these component vectors.
+
+23
+00:01:58,133 --> 00:02:05,800
+Plus square root of 2 over 2, time v sub i, times time, because we're multiplying it
+
+24
+00:02:05,800 --> 00:02:11,067
+by this time right over here, times j.
+
+25
+00:02:11,067 --> 00:02:16,371
+So that is v sub i times t over there. Maybe I'll make the t in yellow just so you see
+
+26
+00:02:16,371 --> 00:02:22,133
+that this t, I've just distributed this t onto both terms on the, on our initial velocity vector.
+
+27
+00:02:22,133 --> 00:02:28,067
+So, this thing expands onto all of this business over here. I'll underline it in the same way.
+
+28
+00:02:28,067 --> 00:02:33,368
+It expands into all that stuff over there, and then over here we're scaling the acceleration
+
+29
+00:02:33,368 --> 00:02:38,533
+vector, we're essentially multiplying it by t squared over 2. So we multiply every term here
+
+30
+00:02:38,533 --> 00:02:44,867
+by t squared over 2. Well, there really isn't an i term, we can just ignore it, so all we have is this
+
+31
+00:02:44,867 --> 00:02:50,200
+j term. And we multiply it by t squared over 2. So all of this over here is this vector
+
+32
+00:02:50,200 --> 00:02:57,133
+times t squared over 2. So if I multiply this by t squared over 2, I get the divided by 2 part,
+
+33
+00:02:57,133 --> 00:03:06,133
+9.8 divided by 2 is -4.9 and then t squared j.
+
+34
+00:03:06,133 --> 00:03:09,600
+So this part right over here gives us this right here. I just multiplied
+
+35
+00:03:09,600 --> 00:03:15,000
+t squared over 2 times -9.8 to get the magnitude right over here, and it's going,
+
+36
+00:03:15,000 --> 00:03:20,933
+it's in the vertical direction, although this negative tells us that we're going down in the vertical
+
+37
+00:03:20,933 --> 00:03:26,133
+direction. Now remember, remember, we need to get, we need to figure out, we need to figure out what
+
+38
+00:03:26,133 --> 00:03:30,200
+this velocity needs to be. So we have to have some constraints here because we have
+
+39
+00:03:30,200 --> 00:03:35,295
+2 unknowns here. We have a t and we have a v, but luckily we can set up 2 equations.
+
+40
+00:03:35,295 --> 00:03:40,613
+Because we said that our necessary displacement, when we just tip the top of the wall,
+
+41
+00:03:40,613 --> 00:03:45,533
+has to be, so I call that the necessary displacement.
+
+42
+00:03:45,533 --> 00:03:50,867
+So the displacement necessary has to be 96 in the horizontal direction,
+
+43
+00:03:50,867 --> 00:03:55,933
+96 meters in the horizontal direction, 96 meters in the horizontal direction,
+
+44
+00:03:55,933 --> 00:04:06,533
+and 10.3 meters in the vertical direction. So, plus 10.3 meters in the vertical direction.
+
+45
+00:04:06,533 --> 00:04:13,283
+So how can we set up 2 equations here? So what's the, what's the horizontal component
+
+46
+00:04:13,283 --> 00:04:17,625
+of all of this business up here? Well, the horizontal component of all of this is
+
+47
+00:04:17,625 --> 00:04:20,621
+what's multipied by the i vector. I can even write, make it orange right over there.
+
+48
+00:04:20,621 --> 00:04:25,961
+So that needs to be equal to this right over here, and what's the vertical component?
+
+49
+00:04:25,961 --> 00:04:29,867
+Well, the vertical component is all the stuff that's multiplied by the j vector.
+
+50
+00:04:29,867 --> 00:04:33,694
+And actually, we can group them, we could factor out a j vector, I guess is one way to think about it.
+
+51
+00:04:33,694 --> 00:04:39,467
+And all of that needs to be equal to this! Needs to be this over here. And so that essentially gives
+
+52
+00:04:39,467 --> 00:04:48,533
+us 2 equations and 2 unknowns, and allows us to solve for the necessary v to clear the Green Monster.
+
+53
+00:04:48,533 --> 00:04:56,533
+So let's try that out. So this first equation, we get, right over here, square root of 2 over 2,
+
+54
+00:04:56,533 --> 00:05:02,811
+times our initial velocity times time, needs to be equal to 96, right? The magnitude
+
+55
+00:05:02,811 --> 00:05:07,933
+here has to be equal to the same magnitude here. And then if we talk about all of the j components,
+
+56
+00:05:07,933 --> 00:05:10,667
+we could factor out all of the j components, we could factor out a j here, so all of this stuff
+
+57
+00:05:10,667 --> 00:05:17,370
+is multiplied by j, all of this stuff is multiplied by j, I essentially just factored it out,
+
+58
+00:05:17,370 --> 00:05:22,200
+so this is the magnitude in the vertical direction, and that needs to be equal to 10.3.
+
+59
+00:05:22,200 --> 00:05:31,117
+So our second, our second equation with two unknowns is square root of 2 over 2, times the magnitude
+
+60
+00:05:31,117 --> 00:05:42,133
+of our initial velocity, times time, minus 4.9 t squared, needs to be equal to 10.3.
+
+61
+00:05:42,133 --> 00:05:47,800
+And our goal here is to solve for v sub i. To solve for the magnitude of our initial velocity.
+
+62
+00:05:47,800 --> 00:05:49,133
+Well what we could do here is solve for t here, in terms of v sub i,
+
+63
+00:05:49,133 --> 00:05:57,959
+the substitute back in here, then solve for that v, that, that necessary initial velocity, or the
+
+64
+00:05:57,959 --> 00:06:02,696
+magnitude of it. So, to solve for t here, pretty straight forward, you just divide both sides
+
+65
+00:06:02,696 --> 00:06:12,667
+by square root of 2 over 2 v sub i, square root of 3 v sub i, these guys over here cancel out,
+
+66
+00:06:12,667 --> 00:06:17,267
+and you get t is equal to 96 over all of this business, which is the same thing as saying
+
+67
+00:06:17,267 --> 00:06:25,000
+t is equal to, t is equal to, dividing by square root of 2 over 2 is the same thing as multiplying by
+
+68
+00:06:25,000 --> 00:06:33,267
+2 over the square root of 2, which is really just the square root of 2. So let me just do that.
+
+69
+00:06:33,267 --> 00:06:37,067
+This right over here, I'll write it over here, so 96 over the square root of 2 over 2, is equal to
+
+70
+00:06:37,067 --> 00:06:43,377
+96 times 2 over the square root of 2. And 2 divided by the square root of two is just
+
+71
+00:06:43,377 --> 00:06:51,200
+the square root of 2. So this simplifies to 96 square roots of 2. 96 square roots of 2 over our initial
+
+72
+00:06:51,200 --> 00:06:57,704
+velocity. And now we can take this, and we can substitute it back into this other constraint,
+
+73
+00:06:57,704 --> 00:07:00,200
+where every time we see a t, and then we'll have one equation with one unknown.
+
+74
+00:07:00,200 --> 00:07:07,067
+We will get, we will get square root of two...I'll do that in blue.
+
+75
+00:07:07,067 --> 00:07:15,444
+We will get square root of 2 over 2 times the magnitude of our initial velocity time time.
+
+76
+00:07:15,444 --> 00:07:18,733
+We just figured out that time is all of this business over here, so it's times
+
+77
+00:07:18,733 --> 00:07:33,695
+96 times the square root of 2 over v sub i, minus 4.9, times t squared. Minus 4.9 times t squared.
+
+78
+00:07:33,695 --> 00:07:39,200
+Well what's t squared? T squared is the same thing as this thing squared, so it's minus 4.9
+
+79
+00:07:39,200 --> 00:07:51,867
+times 96 squared, times square root of 2 squared, so that's just 2, all of that over v sub i squared.
+
+80
+00:07:53,867 --> 00:07:55,867
+Did I do that right? Yeah, if I square this I get 96 squared, times square root of 2 squared,
+
+81
+00:07:55,867 --> 00:08:01,533
+which is just 2, over v sub i squared, and then that, it needs to be equal to, that needs to be equal
+
+82
+00:08:01,533 --> 00:08:06,733
+to 10.3. And now we just need to solve for v sub i. It might look daunting, but it's not going to be
+
+83
+00:08:06,733 --> 00:08:11,533
+as bad, if we just keep, if we keep our heads down and we focus on the problem at hand, I guess.
+
+84
+00:08:11,533 --> 00:08:15,630
+So the first thing to simplify: we have a v sub i in the numerator and one in the denominator,
+
+85
+00:08:15,630 --> 00:08:19,972
+these 2 cancel out, and then we have a square root of 2 times a square root of 2,
+
+86
+00:08:19,972 --> 00:08:25,777
+square root of 2 times a square root of 2 is just 2, and we have a 2 in the numerator and a 2 in the
+
+87
+00:08:25,777 --> 00:08:32,133
+denominator, that cancels out. So this whole first term gets simplified to 96, which is nice. So that
+
+88
+00:08:32,133 --> 00:08:38,400
+is 96, and then we have minus all of this business over v sub i squared, so let's figure out what all
+
+89
+00:08:38,400 --> 00:08:48,333
+of that business is. Let's just multiply it out, get the calculator. So I have 4.9 times 96 squared,
+
+90
+00:08:48,355 --> 00:09:13,753
+times 2, which gives me 90316, which is about right, because this will be about 10000. And so yep, 90316. So minus, minus 90316 divided by v sub i squared, is equal to,
+
+91
+00:09:13,799 --> 00:09:20,267
+is equal to 10.3. And now we know that, just to simplify, let's just multiply everything times
+
+92
+00:09:20,267 --> 00:09:27,542
+v sub i squared, we get 96 times the initial magnitude of our initial velocity squared, minus
+
+93
+00:09:27,542 --> 00:09:34,600
+90316...alright, that's the whole point behind multiplying everything times this, so this, so it's not
+
+94
+00:09:34,600 --> 00:09:45,133
+in the denominator anymore, is equal to 10.3 times v sub i squared. And now we can, let's, let's do a
+
+95
+00:09:45,133 --> 00:09:52,829
+couple of interesting things here, let's add, well let me just subtract 10.3 v sub i squared
+
+96
+00:09:52,829 --> 00:10:01,838
+from both sides, minus 10.3 v sub i squared, and lets add 90316 to both sides.
+
+97
+00:10:01,838 --> 00:10:12,403
+Plus 90316 to both sides, and what do we get? On the left hand side these guys cancel out,
+
+98
+00:10:12,403 --> 00:10:24,333
+if I take 96 minus 10.3, 96 minus 10 is 86, so I wanna subtract another .3, so it's 85.7 v sub i squared
+
+99
+00:10:24,333 --> 00:10:36,000
+is equal to, on this side, these guys cancel out, is equal to, is equal to 90316. Now I can just divide both sides by
+
+100
+00:10:36,000 --> 00:10:47,267
+85.7, 85.7, and I get v sub i squared, and this is the home stretch, is equal to this. Let me get the
+
+101
+00:10:47,267 --> 00:10:58,843
+calculator out again. So it's equal to this quantity divided by 85.7, which is equal to 1053, well let's
+
+102
+00:10:58,843 --> 00:11:07,759
+just say 1053, or 1054 if we round. So 1054. This is going to be meters squared per seconds squared.
+
+103
+00:11:07,759 --> 00:11:11,600
+We didn't write the units, but then to solve for v sub i we just take the square root of both sides.
+
+104
+00:11:11,600 --> 00:11:17,133
+So v sub i is going to be the principal root of this, so let's just take the square root of that.
+
+105
+00:11:17,133 --> 00:11:29,842
+The square root of that gives us 32.5. 32.5. 32.5. And we're done! This is going to be in meters per
+
+106
+00:11:29,842 --> 00:11:34,267
+second, so those are the units that we've been handling, we've been handling with kilometer--I'm sorry,
+
+107
+00:11:34,267 --> 00:11:39,400
+with meters and seconds and all of the rest, and so that's the velocity that the ball, the magnitude
+
+108
+00:11:39,400 --> 00:11:43,800
+of that initial velocity! When you get stuck in the math you sometimes forget what we're even doing!
+
+109
+00:11:43,800 --> 00:11:50,000
+But if you hit something at 32 meters per second at a 45 degree angle, one meter above home plate,
+
+110
+00:11:50,000 --> 00:11:57,009
+one meter above home plate, in Fenway Park in this direction, you will just cross, or you will just hit
+
+111
+00:11:57,009 --> 00:12:03,511
+the top of the Green Monster. So if you go any bit faster than that, so if you were to go, if you were
+
+112
+00:12:03,511 --> 00:12:07,600
+to go 33 meters per second, and we assume that the air resistance is negligible and it's not slowing
+
+113
+00:12:07,600 --> 00:12:12,267
+you down, you will be able to cross the Green Monster. At an optimal angle of 45 degrees.
+
+114
+00:12:12,267 --> 00:12:17,000
+If you're angle isn't optimal, you would have to put some more velocity onto that thing. Or put a little
+
+115
+00:12:17,000 --> 00:12:21,867
+more magnitude on that thing, I should say. And, just for fun, if you want to, you might want to convert
+
+116
+00:12:21,867 --> 00:12:26,533
+this into kilometers per hour or miles per hour. That may give you a more tangible, a more tangible
+
+117
+00:12:26,533 --> 99:59:59,999
+sense for how hard you have to hit that ball.

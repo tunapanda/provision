@@ -1,0 +1,599 @@
+1
+00:00:00,860 --> 00:00:04,040
+We're on problem 119.
+
+2
+00:00:05,540 --> 00:00:09,230
+Is 2x minus 3y less than x squared?
+
+3
+00:00:09,230 --> 00:00:16,990
+2x minus 3y less than x squaredŁżthey ask us.
+
+4
+00:00:17,730 --> 00:00:19,530
+All right, let's see if we can figure it out.
+
+5
+00:00:19,530 --> 00:00:24,010
+Statement 1, 2x minus 3y is equal to minus 2.
+
+6
+00:00:33,510 --> 00:00:35,920
+So they're telling us that the left-hand side of this
+
+7
+00:00:35,920 --> 00:00:38,470
+original question is equal to minus 2. So now this question,
+
+8
+00:00:38,470 --> 00:00:40,450
+if we take statement 1 into consideration,
+
+9
+00:00:40,450 --> 00:00:45,070
+it boils down to is minus 2 less than x squared?
+
+10
+00:00:45,870 --> 00:00:47,930
+So first you might be saying, oh, I don't know.
+
+11
+00:00:47,930 --> 00:00:50,000
+I don't know what x is. But think about it.
+
+12
+00:00:50,000 --> 00:00:55,030
+Can x be a negative number? At worst case, x is 0.
+
+13
+00:00:55,580 --> 00:00:58,620
+That's the worst case. If x was anything else,
+
+14
+00:00:58,900 --> 00:01:01,080
+x squared is going to be a positive number.
+
+15
+00:01:01,690 --> 00:01:05,610
+So we actually know, just from statement 1, that negative 2
+
+16
+00:01:05,610 --> 00:01:08,000
+has to be less than x squared, unless x was some type of
+
+17
+00:01:08,000 --> 00:01:09,770
+weird, imaginary number or something.
+
+18
+00:01:09,770 --> 00:01:11,490
+I think that doesn't occur on the GMAT.
+
+19
+00:01:11,490 --> 00:01:13,880
+So statement 1 alone is sufficient.
+
+20
+00:01:13,880 --> 00:01:18,220
+x squared is going to be at least 0 or some positive
+
+21
+00:01:18,220 --> 00:01:22,040
+number larger than 0. So statement 1 is sufficient.
+
+22
+00:01:22,840 --> 00:01:34,680
+Statement two, x is greater than 2 and y is greater than 0.
+
+23
+00:01:38,380 --> 00:01:41,810
+So let me just try to come up with two contradictory cases
+
+24
+00:01:41,810 --> 00:01:44,960
+using these conditions to see. Let's say if x was--
+
+25
+00:01:44,960 --> 00:01:48,030
+and they don't tell us that anything is an integer here.
+
+26
+00:01:48,530 --> 00:01:56,350
+So if x was 2.1,x is equal to 2.1 and y is equal to-- I don't
+
+27
+00:01:56,350 --> 00:02:03,020
+know--y is greater than 0.So let's say that y is equal to 0.1
+
+28
+00:02:03,530 --> 00:02:07,710
+Let's see what happens here. So 2 times 2.1.
+
+29
+00:02:07,710 --> 00:02:11,640
+You get 4.2 minus 3 times y.
+
+30
+00:02:11,640 --> 00:02:18,980
+So minus 0.3 is less than x squared. It's what?
+
+31
+00:02:18,980 --> 00:02:24,710
+It's like 4 point something. So it's greater than 2.
+
+32
+00:02:25,090 --> 00:02:26,020
+This is interesting.
+
+33
+00:02:33,000 --> 00:02:34,200
+Actually this is interesting.
+
+34
+00:02:34,200 --> 00:02:36,080
+So actually, you don't have to try examples out.
+
+35
+00:02:36,990 --> 00:02:38,270
+Let's just write the equation down.
+
+36
+00:02:38,270 --> 00:02:44,000
+2x minus 3y is less than x squared.
+
+37
+00:02:44,000 --> 00:02:47,750
+So if y is greater than 0, which they tell us in
+
+38
+00:02:47,750 --> 00:02:51,900
+statement 2, then the quantity on the left-hand side is
+
+39
+00:02:51,900 --> 00:02:53,580
+always going to be 2x.
+
+40
+00:02:53,580 --> 00:02:55,580
+It's always going to be less than 2x, right?
+
+41
+00:02:55,580 --> 00:02:57,370
+Because this'll have some positive value.
+
+42
+00:02:57,370 --> 00:02:59,700
+It might have an insignificantly small value.
+
+43
+00:03:00,380 --> 00:03:03,410
+We could make it 0.000001.
+
+44
+00:03:03,410 --> 00:03:05,430
+But it's still going to have some positive value.
+
+45
+00:03:05,430 --> 00:03:08,170
+So no matter what y we choose, as long as it's greater than
+
+46
+00:03:08,170 --> 00:03:12,080
+0, 2x minus 3y will be greater than 2x.
+
+47
+00:03:12,530 --> 00:03:21,750
+So we could say that as long as if 2x is less than x squared for any x
+
+48
+00:03:21,750 --> 00:03:28,610
+we pick, then 2x minus 3y is definitely going to be less
+
+49
+00:03:28,610 --> 00:03:30,200
+than x squared. Why is that?
+
+50
+00:03:30,200 --> 00:03:33,130
+Because minus 3y is going to subtract from the 2x,
+
+51
+00:03:33,130 --> 00:03:36,010
+because we know that y is greater than 0.
+
+52
+00:03:36,510 --> 00:03:38,020
+So let me ask you a question.
+
+53
+00:03:38,500 --> 00:03:41,860
+Is 2x always going to be less than x squared if x is
+
+54
+00:03:41,860 --> 00:03:43,870
+greater than 2? Sure.
+
+55
+00:03:44,440 --> 00:03:48,630
+I mean whatever x is, on the left-hand side it's going to
+
+56
+00:03:48,630 --> 00:03:55,440
+be 2 times--pick a random number--2 times xŁŹit could be 2.5.
+
+57
+00:03:56,050 --> 00:03:58,690
+But on the other side, on the right-hand side,
+
+58
+00:03:58,690 --> 00:04:02,650
+you're going to have 2.5 squared. So if you think about it,
+
+59
+00:04:02,650 --> 00:04:04,110
+you're going to have 2 times a number.
+
+60
+00:04:05,010 --> 00:04:08,040
+That's always going to be less than--ŁŹthat number
+
+61
+00:04:08,040 --> 00:04:11,030
+which happens to be larger than 2 squared.
+
+62
+00:04:11,030 --> 00:04:17,080
+The smallest possible is 2 times 2.0001.
+
+63
+00:04:17,790 --> 00:04:19,740
+You could make a lot of 0's there.
+
+64
+00:04:19,740 --> 00:04:20,640
+But I think you get the point.
+
+65
+00:04:20,910 --> 00:04:26,080
+That's still going to be less than 2.0001 squared.
+
+66
+00:04:27,070 --> 00:04:31,000
+Because you only have a 2 here instead of a 2.0001.
+
+67
+00:04:31,000 --> 00:04:34,040
+So actually, statement 2 alone is sufficient.
+
+68
+00:04:34,570 --> 00:04:35,820
+Hopefully that made sense.
+
+69
+00:04:35,820 --> 00:04:37,560
+You just have to see oh, if y is greater than 0,
+
+70
+00:04:37,660 --> 00:04:40,420
+then the 3y is definitely going to take away from the 2x.
+
+71
+00:04:40,820 --> 00:04:42,580
+Then as long as x is greater than 2,
+
+72
+00:04:42,580 --> 00:04:45,010
+2x is always going to be less than x squared.
+
+73
+00:04:45,010 --> 00:04:47,340
+If that makes sense to you, then you should realize that
+
+74
+00:04:47,340 --> 00:04:49,560
+statement 2 alone is sufficient for this.
+
+75
+00:04:49,900 --> 00:04:54,000
+That was interesting. Oh, no sorry.
+
+76
+00:04:54,000 --> 00:04:56,000
+Either of them alone were sufficient.
+
+77
+00:04:56,100 --> 00:04:57,760
+We did that in the first one, right?
+
+78
+00:04:57,760 --> 00:04:59,220
+Statement 1 or statement 2,
+
+79
+00:04:59,220 --> 00:05:04,330
+independently are sufficient to answer that question. 120.
+
+80
+00:05:08,570 --> 00:05:12,710
+A report consisting of 2,600 words is divided into 23
+
+81
+00:05:12,710 --> 00:05:13,250
+paragraphs.
+
+82
+00:05:13,250 --> 00:05:19,000
+So 2,600 words and it has 23 paragraphs.
+
+83
+00:05:19,000 --> 00:05:22,580
+A two-paragraph preface is then added to the report.
+
+84
+00:05:26,000 --> 00:05:31,810
+Is the average number of words per paragraph for all 25
+
+85
+00:05:31,810 --> 00:05:39,840
+paragraphs less than 120? So this is interesting.
+
+86
+00:05:39,840 --> 00:05:45,970
+So the average number of words per paragraph for all 25
+
+87
+00:05:45,970 --> 00:05:47,400
+paragraphs less than 120.
+
+88
+00:05:48,070 --> 00:05:49,830
+So if we knew the total number of words in the
+
+89
+00:05:49,830 --> 00:05:50,930
+document we'd be set.
+
+90
+00:05:50,930 --> 00:05:55,970
+We would just take the total words divided by the total
+
+91
+00:05:55,970 --> 00:05:56,900
+paragraphs they have now.
+
+92
+00:05:56,900 --> 00:05:59,750
+They have the 23 original plus the 2 from the preface,
+
+93
+00:06:00,390 --> 00:06:03,580
+you have 25 total paragraphs.
+
+94
+00:06:03,580 --> 00:06:06,030
+Now it told you the average words per paragrah.
+
+95
+00:06:06,030 --> 00:06:09,470
+Now, we don't know the total words, because the total is
+
+96
+00:06:09,470 --> 00:06:13,530
+going to be equal to the 2,600 words in the body of the
+
+97
+00:06:13,530 --> 00:06:17,980
+document plus the words from the preface-- I'll call that
+
+98
+00:06:17,980 --> 00:06:22,490
+words sub preface-- all of that divided by 25.
+
+99
+00:06:22,490 --> 00:06:23,520
+This is the average.
+
+100
+00:06:24,000 --> 00:06:25,420
+This is what we really have to figure out,
+
+101
+00:06:25,420 --> 00:06:28,020
+to figure out if it's less than 120.
+
+102
+00:06:28,020 --> 00:06:32,010
+That's what they want to know. So statement number 1.
+
+103
+00:06:32,410 --> 00:06:44,480
+Each paragraph of the preface has more than 100 words.
+
+104
+00:06:45,060 --> 00:06:48,080
+So I guess we could say that the preface, the words from
+
+105
+00:06:48,080 --> 00:06:53,030
+the preface are greater than 200.
+
+106
+00:06:53,520 --> 00:06:59,420
+That's another way of saying that the total is going to be
+
+107
+00:06:59,420 --> 00:07:03,010
+greater than 2,800.
+
+108
+00:07:03,140 --> 00:07:06,070
+Now if the total is greater than 2,800, what does that
+
+109
+00:07:06,070 --> 00:07:09,610
+tell us about the total divided by-- excuse me.
+
+110
+00:07:10,000 --> 00:07:13,530
+So then the total divided by 25 is going to be greater than
+
+111
+00:07:13,530 --> 00:07:15,420
+2,800 divided by 25.
+
+112
+00:07:16,030 --> 00:07:27,090
+What's 2,800 divided by 25? Let's see, 25 goes into 2,800.
+
+113
+00:07:28,090 --> 00:07:37,070
+1, 25, 30, 1, 1 times 25, 25, 50, 12.
+
+114
+00:07:38,000 --> 00:07:42,590
+So it tells us that the average is going to be
+
+115
+00:07:42,590 --> 00:07:45,350
+greater than 112. So that doesn't help us.
+
+116
+00:07:45,350 --> 00:07:48,410
+If it told us that the average was going to be greater than
+
+117
+00:07:48,410 --> 00:07:50,200
+120, we would be done. We would say oh,
+
+118
+00:07:50,200 --> 00:07:52,140
+we have enough information to answer the question.
+
+119
+00:07:52,140 --> 00:07:53,460
+Actually, the answer is no,
+
+120
+00:07:53,460 --> 00:07:56,430
+that the average is going to be greater than 120.
+
+121
+00:07:56,760 --> 00:07:59,080
+But here, this tells us the average is greater than 112.
+
+122
+00:07:59,080 --> 00:08:01,370
+It could be 113 or it could be 121.
+
+123
+00:08:01,370 --> 00:08:03,700
+So it doesn't answer our question of whether the average
+
+124
+00:08:03,700 --> 00:08:08,030
+is less than 120. So statement one alone is not that useful.
+
+125
+00:08:08,560 --> 00:08:13,370
+Statement number 2 tells us each paragraph of the preface
+
+126
+00:08:13,370 --> 00:08:15,060
+has fewer than 150 words.
+
+127
+00:08:15,810 --> 00:08:23,010
+So the total preface has less than 300 words.
+
+128
+00:08:23,300 --> 00:08:24,850
+They say each paragraph of the preface,
+
+129
+00:08:24,850 --> 00:08:27,540
+and there's 2 of them, has fewer than 150 words.
+
+130
+00:08:27,540 --> 00:08:30,250
+So the total preface has less than 300 words.
+
+131
+00:08:30,250 --> 00:08:32,270
+So we could do the same logic.
+
+132
+00:08:35,600 --> 00:08:41,050
+So that means that the total is going to be less than what?
+
+133
+00:08:42,050 --> 00:08:45,480
+The total is going to be less than the original number of
+
+134
+00:08:45,480 --> 00:08:47,000
+words plus the preface.
+
+135
+00:08:47,000 --> 00:08:50,250
+So it's going to be less than 2,600 plus 300.
+
+136
+00:08:50,250 --> 00:08:53,040
+It's going to be less than 2,900.
+
+137
+00:08:53,640 --> 00:08:59,640
+Then if you divide both sides by 25 to get the average,
+
+138
+00:08:59,640 --> 00:09:03,630
+25 goes into 2,900 really four more times.
+
+139
+00:09:07,010 --> 00:09:08,040
+That's rightŁż
+
+140
+00:09:10,050 --> 00:09:15,150
+The average is going to be less than-- let me make sure
+
+141
+00:09:15,150 --> 00:09:16,000
+I'm getting that right.
+
+142
+00:09:16,000 --> 00:09:26,140
+So 4, 25 goes into 2,900. 1, 25, 40, 1, 25.
+
+143
+00:09:26,240 --> 00:09:32,860
+Then we have 150. 25 goes into 150 six times.
+
+144
+00:09:32,860 --> 00:09:35,630
+So we have the average is less than 1/16.
+
+145
+00:09:35,630 --> 00:09:37,810
+So statement 2 alone is sufficient.
+
+146
+00:09:37,810 --> 00:09:41,120
+Statement 2 tells us that the average of the words per
+
+147
+00:09:41,120 --> 00:09:44,610
+paragraph is less than 116,which is definitely less than 120.
+
+148
+00:09:44,610 --> 00:09:46,160
+So statement 2 alone is sufficient,
+
+149
+00:09:46,160 --> 00:09:50,010
+and statement 1 doesn't help us much. I'll run out of time.
+
+150
+00:09:50,010 --> 00:09:51,090
+See you in the next video.

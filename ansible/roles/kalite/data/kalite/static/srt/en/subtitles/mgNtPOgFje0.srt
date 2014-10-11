@@ -1,0 +1,299 @@
+1
+00:00:00,091 --> 00:00:08,010
+In the last video we took the MacLauren expansion of e^x, and we saw that it looked like some type of
+
+2
+00:00:08,010 --> 00:00:16,537
+a combination of the polynomial approximations of cos(x) and of sin(x), but it's not quite, because there was
+
+3
+00:00:16,537 --> 00:00:22,641
+a couple of negatives in there, if we were to really add these two together, that we did not have, when we
+
+4
+00:00:22,641 --> 00:00:29,994
+took the representation of e^x. But to reconcile these, I'll do a little bit of a, I don't know if you can even call
+
+5
+00:00:29,994 --> 00:00:38,643
+it a trick. Let's see, if we take this polynomial expansion of e^x, this approximation, what happens,
+
+6
+00:00:38,643 --> 00:00:46,603
+and if we say e^x is equal to this, specially as this becomes an infinite number of terms, it becomes less of an approximation
+
+7
+00:00:46,603 --> 00:00:54,010
+and more of an equality. What happens if I take e^(ix). And before that might have been kind of a weird thing to
+
+8
+00:00:54,010 --> 00:01:00,737
+do. Let me write it down: e^(ix). Because before it's like, how do you define e to the ith power, that's a
+
+9
+00:01:00,737 --> 00:01:05,994
+very bizzare thing to do, to take something to the xi power, how do even comprehend some type of a
+
+10
+00:01:05,994 --> 00:01:12,224
+function like that. But now that we can have a polynomial expansion of e^x, we can maybe make
+
+11
+00:01:12,224 --> 00:01:18,245
+some sense of it, because we can take i to different powers, and we know what that gives, you know,
+
+12
+00:01:18,245 --> 00:01:26,022
+i^2=-1, i^3=-i, so on and so forth. So what happens when you take e^(ix). So once again, it's just like
+
+13
+00:01:26,022 --> 00:01:31,925
+taking the x up here, and replacing it with an ix. So everywhere we see the x in it's polynomial
+
+14
+00:01:31,925 --> 00:01:40,160
+approximation we would write an ix. So let's do that. So e^(ix) should be approximately equal to, and it'll become
+
+15
+00:01:40,160 --> 00:01:44,799
+more and more equal. And this is more of an intuition, I'm not doing a rigorous proof here. But it's still
+
+16
+00:01:44,799 --> 00:01:51,389
+profound... Not to oversell it, but I don't think I can oversell what is about to be discovered or seen in this
+
+17
+00:01:51,389 --> 00:02:01,642
+video. It would be equal to 1+, instead of an x, we'll have an ix, +ix+, so what's
+
+18
+00:02:01,642 --> 00:02:13,622
+(ix)^2? So it´s gonna be, so let me write this down, what is (ix)^2/2!? Well i^2 is gonna be -1 and
+
+19
+00:02:13,622 --> 00:02:24,215
+you'd have (x^2)/2!. So it's going to be -(x^2)/2!, and I think you might see where this is gonna go. And then,
+
+20
+00:02:24,215 --> 00:02:31,507
+what is, ix, remember, everywhere we saw an x we're gonna replace with an ix. So what is (ix)^3. Actually,
+
+21
+00:02:31,507 --> 00:02:41,638
+let me write this out, let me not skip some steps over here. So this is going to be ((ix)^2)/2!. Actually let
+
+22
+00:02:41,638 --> 00:03:10,854
+me... I wanna do it just the way... So +((ix^2))/2!+((ix)^3)/3!+((ix)^4)/4!+((ix)^5)/5! and we can just keep
+
+23
+00:03:10,854 --> 00:03:23,638
+going so on and so forth. But let's evaluate these 'ix's raised to different powers. So this will be equal to 1+ix...
+
+24
+00:03:23,638 --> 00:03:36,140
+(ix)^2, that's the same thing as (i^2)(x^2), i^2 is -1. So this is -(x^2)/2!. And then this is gonna be the same
+
+25
+00:03:36,140 --> 00:03:52,547
+thing as (i^3)(x^3), i^3 is the same thing as (i^2)i, so it's gonna be -i, so it's gonna be -i(x^3)/3!. And then,
+
+26
+00:03:52,547 --> 00:04:04,584
+so then +, you're gonna have, what's i^4? So that's (i^2)^2, so that's (-1)^2, that's just going to be 1, so i^4
+
+27
+00:04:04,584 --> 00:04:14,041
+is 1 and then you have x^4 so +(x^4)/4!. And then you're going to have +, I'm not even gonna write the +
+
+28
+00:04:14,041 --> 00:04:28,974
+yet, i^5, so i^5 is going to be 1i, so it's gonna be i(x^5)/5! so +i(x^5)/5!, and I think you might see a
+
+29
+00:04:28,974 --> 00:04:52,692
+pattern here. Coefficient is 1, i, -1, -i, 1, i, then -1(x^6)/6!, and then -i(x^7)/7!. So we have some terms, some of them
+
+30
+00:04:52,692 --> 00:04:59,294
+are imaginary, they have an i, they're being multiplied by i, some of them are real, why don't we separate
+
+31
+00:04:59,294 --> 00:05:05,572
+them out? Why don't we separate them out? So once again, e^(ix) is gonna be equal to this thing, specially
+
+32
+00:05:05,572 --> 00:05:13,323
+as we add an infinite number of terms. So let's separate out, the real and the non-real terms, or the real and the
+
+33
+00:05:13,323 --> 00:05:24,777
+imaginary terms, i should say. So this is real. This is real, this is real, and this right over here is real. And we
+
+34
+00:05:24,777 --> 00:05:39,314
+can keep going on with that. So the real terms here are 1-(x^2)/2!+(x^4)/4!, and you might be getting excited
+
+35
+00:05:39,314 --> 00:05:48,698
+now, -(x^6)/6!, and that's all I have done here, but they would keep going, so +, and so on and so forth. So that's all of the
+
+36
+00:05:48,698 --> 00:05:56,575
+real terms. And what are the imaginary terms here? And let me just, I'll just factor out the i over here. So it's
+
+37
+00:05:56,575 --> 00:06:05,254
+gonna be +i times, well, this is ix, so this will be x, and then the next... so that's an imaginary term, this is an
+
+38
+00:06:05,254 --> 00:06:16,204
+imaginary term, we are factoring out the i, so -(x^3)/3!, then the next imaginary term is right over there, we
+
+39
+00:06:16,204 --> 00:06:25,122
+factored out the i, +(x^5)/5!, and then the next imaginary term is right there, we factored out the i so it's
+
+40
+00:06:25,122 --> 00:06:35,617
+-(x^7)/7!, and then we obviously would keep going, so +, -, keep going, so on and so forth. Preferably to infinity, so
+
+41
+00:06:35,617 --> 00:06:45,039
+that we can get as good of an approximation as possible. So we have a situation where e^(ix) is equal to
+
+42
+00:06:45,039 --> 00:06:52,190
+all of this business here. But, you probably remember from the last few videos, the real part, this was the
+
+43
+00:06:52,190 --> 00:06:59,794
+polynomial, this was the MacLauren approximation of cos(x) around 0, or i should say the Taylor
+
+44
+00:06:59,794 --> 00:07:05,946
+approximation around 0, or we could also call it the MacLauren approximation. So this and this are the
+
+45
+00:07:05,946 --> 00:07:16,382
+same thing. So this is cos(x), specially when you add an infinite number of terms, cos(x). This over here, is
+
+46
+00:07:16,382 --> 00:07:23,138
+sin(x), the exact same thing. So looks like we are able to reconcile how you can add up cos(x) and sin(x) to get
+
+47
+00:07:23,138 --> 00:07:32,782
+something that's like e^x. This right here is sin(x) and so, if we take it for granted, I'm not rigorously proving it
+
+48
+00:07:32,782 --> 00:07:38,172
+to you, that if you'd take an infinite number of terms here, that this will essentially become cos(x), and if you
+
+49
+00:07:38,172 --> 00:07:45,894
+take an infinite number of terms here, this will become sin(x), it leads to a fascinating formula. We could say
+
+50
+00:07:45,894 --> 00:07:57,945
+that e^(ix) is the same thing as cos(x), and you should be getting goose pimples right around now, is equal to
+
+51
+00:07:57,945 --> 00:08:14,012
+cos(x)+i(sin(x)), and this is Euler's Formula. This right over here is Euler's Formula, and if that by itself isn't
+
+52
+00:08:14,012 --> 00:08:18,495
+exciting and crazy enough for you, because it really should be, because we've already done some pretty
+
+53
+00:08:18,495 --> 00:08:24,431
+cool things. We're involving e, which we get from continuous compounding interest, we have cos(x) and
+
+54
+00:08:24,431 --> 00:08:31,375
+sin(x), which are ratios of right triangles, it comes out of the unit circle, and somehow we've thrown in (-1)^(1/2),
+
+55
+00:08:31,375 --> 00:08:37,263
+there seems to be this cool relationship here. But it becomes extra cool, and we are gonna assume we are
+
+56
+00:08:37,263 --> 00:08:45,644
+operating in radians here, if we assume Euler's Formula, what happens when x is equal to pi? Just to
+
+57
+00:08:45,644 --> 00:08:50,790
+throw in another wacky number in there, the ratio between the circumference and the diameter of a circle,
+
+58
+00:08:50,790 --> 00:09:06,529
+what happens when we throw in pi? We get e^((i)(pi)) is equal to cos(pi), cos(pi) is what? cos(pi) is, pi is
+
+59
+00:09:06,529 --> 00:09:18,843
+halfway around the unit circle, so cos(pi) is -1, and then sin(pi) is 0. So this term goes away. So if you
+
+60
+00:09:18,843 --> 00:09:26,544
+evaluate it at pi, you get something amazing, this is called Euler's Identity!! Euler's Identity! I always have
+
+61
+00:09:26,544 --> 00:09:34,485
+trouble pronouncing Euler. Euler's Identity!! Which we can write like this, or we add 1 to both sides, and we
+
+62
+00:09:34,485 --> 00:10:02,546
+can write it this. And I'll write it in different color for emphasis. e^((i)(pi))+1=0. And THIS, this is thought
+
+63
+00:10:02,546 --> 00:10:06,947
+provoking. I mean, here we have, just so you see, I mean, this tells you that there is some connectedness
+
+64
+00:10:06,947 --> 00:10:12,974
+to the Universe that we don't fully understand, or at least I don't fully understand. i is defined by engineers
+
+65
+00:10:12,974 --> 00:10:20,883
+for simplicity so they can find the roots of all sorts of polynomials, as, you could say, the square root of -1.
+
+66
+00:10:20,883 --> 00:10:29,846
+pi is the ratio between the circumference of a circle and it's diameter, once again, another interesting
+
+67
+00:10:29,846 --> 00:10:35,441
+number, but it seems like it comes from a different place as i. e comes from a bunch of different places.
+
+68
+00:10:35,441 --> 00:10:41,670
+e you can either think of it, it comes out of continuous compounding interest, super valuable for Finance, it
+
+69
+00:10:41,670 --> 00:10:47,078
+also comes from the notion that the derivative of e^x is also e^x, so another fascinating number, but once
+
+70
+00:10:47,078 --> 00:10:53,118
+again, seemingly unrelated to how we came up with i, and seemingly unrelated to how we came up with pi.
+
+71
+00:10:53,118 --> 00:11:00,011
+And then of course, you have some of the most profound basic numbers over here, you have 1, I don't
+
+72
+00:11:00,011 --> 00:11:06,026
+have to explain why 1 is a cool number, and I shouldn't have to explain why 0 is a cool number. So this right
+
+73
+00:11:06,026 --> 00:11:13,197
+here, connects all of these fundamental numbers, in some mystical way, that shows us that there's some
+
+74
+00:11:13,197 --> 00:11:23,983
+connectedness to the Universe, so frankly, frankly, if this does not blow your mind, you really...
+
+75
+00:11:23,983 --> 00:11:27,000
+you have no emotion.

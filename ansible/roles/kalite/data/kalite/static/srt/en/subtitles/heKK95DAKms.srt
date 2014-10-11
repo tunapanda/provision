@@ -1,0 +1,567 @@
+1
+00:00:00,184 --> 00:00:01,685
+So you're me and you're in math class
+
+2
+00:00:01,685 --> 00:00:02,898
+and you're learning about graph theory,
+
+3
+00:00:02,898 --> 00:00:04,349
+a subject too interesting to be included
+
+4
+00:00:04,349 --> 00:00:05,662
+in most grade school curricula.
+
+5
+00:00:05,662 --> 00:00:06,877
+So maybe you're in some special program
+
+6
+00:00:06,877 --> 00:00:07,846
+or maybe you're in college
+
+7
+00:00:07,846 --> 00:00:09,705
+and were somehow not scarred for life
+
+8
+00:00:09,705 --> 00:00:10,498
+by your grade school math teachers.
+
+9
+00:00:10,498 --> 00:00:11,721
+I'm not sure why you're not paying attention
+
+10
+00:00:11,721 --> 00:00:12,990
+but maybe you have an incompetent teacher
+
+11
+00:00:12,990 --> 00:00:14,251
+and it's too heart-breaking to watch him
+
+12
+00:00:14,251 --> 00:00:15,651
+butcher what could be a fun subject,
+
+13
+00:00:15,651 --> 00:00:16,739
+full of snakes and balloons.
+
+14
+00:00:16,739 --> 00:00:19,107
+Snakes aren't really all that relevant to the mathematics here.
+
+15
+00:00:19,107 --> 00:00:20,655
+But being able to draw them will be useful later,
+
+16
+00:00:20,655 --> 00:00:22,378
+so you should probably start practicing now.
+
+17
+00:00:22,378 --> 00:00:24,936
+I've got a family of 3 related doodle games to show you,
+
+18
+00:00:24,936 --> 00:00:27,098
+all stemming from drawing squiggles all over the page.
+
+19
+00:00:27,098 --> 00:00:28,605
+The first one goes like this:
+
+20
+00:00:28,605 --> 00:00:31,022
+draw a squiggle- a closed curve that ends where it begins.
+
+21
+00:00:31,022 --> 00:00:32,528
+The only real rule here is to make sure
+
+22
+00:00:32,528 --> 00:00:34,047
+that all the crossings are distinct.
+
+23
+00:00:34,047 --> 00:00:35,956
+Next, make it start weaving-
+
+24
+00:00:35,956 --> 00:00:36,968
+follow the curve around and
+
+25
+00:00:36,968 --> 00:00:38,594
+that each crossing alternate going under and over
+
+26
+00:00:38,594 --> 00:00:40,471
+until you've assigned all the crossings.
+
+27
+00:00:40,471 --> 00:00:42,148
+Then put on the finishing touches, and voila!
+
+28
+00:00:42,148 --> 00:00:44,822
+You try it again, adding a little artistic flair to the lines.
+
+29
+00:00:44,822 --> 00:00:47,155
+The cool part is that the weaving always works out perfectly,
+
+30
+00:00:47,155 --> 00:00:49,226
+when you're going around alternating over and under
+
+31
+00:00:49,226 --> 00:00:50,788
+and get to a crossing you've already assigned,
+
+32
+00:00:50,788 --> 00:00:52,462
+it will always be the right one.
+
+33
+00:00:52,462 --> 00:00:55,037
+This is very interesting, and we'll get back to it later.
+
+34
+00:00:55,037 --> 00:00:57,749
+But first I'd like to point out 2 things: one is that
+
+35
+00:00:57,749 --> 00:01:00,654
+this works for any number of closed curves on the plane.
+
+36
+00:01:00,654 --> 00:01:01,812
+So go ahead and link stuff up
+
+37
+00:01:01,812 --> 00:01:03,943
+or make a weaving out of 2 colors of yarn.
+
+38
+00:01:03,943 --> 00:01:04,881
+The other is that
+
+39
+00:01:04,881 --> 00:01:07,279
+this doodle also works out for snakes on a plane
+
+40
+00:01:07,279 --> 00:01:09,274
+as long as you keep the head and tail on the outside
+
+41
+00:01:09,274 --> 00:01:10,435
+or on the same inside face.
+
+42
+00:01:10,435 --> 00:01:12,716
+because mathematically it's the same as if they linked up
+
+43
+00:01:12,716 --> 00:01:15,346
+or just actually link up the head and tail into an Ouroboros.
+
+44
+00:01:15,346 --> 00:01:18,261
+For example, here's 3 Ourobori in a configuration
+
+45
+00:01:18,261 --> 00:01:19,746
+known as the Borromean Rings
+
+46
+00:01:19,746 --> 00:01:21,479
+which has the neat property that
+
+47
+00:01:21,479 --> 00:01:23,865
+no 2 snakes are actually linked with each other.
+
+48
+00:01:23,865 --> 00:01:25,448
+Also because I like naming things,
+
+49
+00:01:25,448 --> 00:01:27,556
+this design shall henceforth be known as
+
+50
+00:01:27,556 --> 00:01:29,237
+the "OuroBorromean Rings".
+
+51
+00:01:29,237 --> 00:01:30,461
+But you are me, after all,
+
+52
+00:01:30,461 --> 00:01:31,805
+so you're finding a lot to think about
+
+53
+00:01:31,805 --> 00:01:34,082
+even with just drawing one line that isn't a snake.
+
+54
+00:01:34,082 --> 00:01:35,812
+Such as, "What kinds of knots are you drawing?"
+
+55
+00:01:35,812 --> 00:01:37,220
+"And can you classify them?"
+
+56
+00:01:37,220 --> 00:01:39,388
+For example, these 3 knots all have 5 crossings
+
+57
+00:01:39,388 --> 00:01:42,374
+but 2 are essentially the same knot and one is different.
+
+58
+00:01:42,374 --> 00:01:45,258
+Knot theory questions are actually really difficult and interesting
+
+59
+00:01:45,258 --> 00:01:47,055
+but you're going to have to look that one up yourself.
+
+60
+00:01:47,055 --> 00:01:48,848
+Oh, and you should also learn how to draw rope
+
+61
+00:01:48,848 --> 00:01:50,829
+because it's an integral part of knot theory.
+
+62
+00:01:50,829 --> 00:01:51,687
+So integral, in fact, that
+
+63
+00:01:51,687 --> 00:01:53,774
+if you draw a bunch of integral signs in a row,
+
+64
+00:01:53,774 --> 00:01:56,234
+a sight which is often quite daunting to a mathematician,
+
+65
+00:01:56,234 --> 00:01:58,526
+you can just shade it in, and TA-DA.
+
+66
+00:01:58,526 --> 00:02:01,490
+But, being able to draw snakes is also super useful
+
+67
+00:02:01,490 --> 00:02:03,346
+especially as this doodle game is excellent for
+
+68
+00:02:03,346 --> 00:02:05,157
+producing Dark Mark tattoo designs.
+
+69
+00:02:05,157 --> 00:02:06,860
+Also, this doodle game can be combined
+
+70
+00:02:06,860 --> 00:02:08,020
+with the stars doodle game.
+
+71
+00:02:08,020 --> 00:02:10,505
+For example, if this pentagram gets knighted,
+
+72
+00:02:10,505 --> 00:02:13,331
+it will henceforth be known as "Serpentagram"
+
+73
+00:02:13,331 --> 00:02:16,319
+Also notice that this snake is a 5 twist Mobius strip
+
+74
+00:02:16,319 --> 00:02:17,946
+so you could also call it a "Mobiaboros"
+
+75
+00:02:17,946 --> 00:02:19,784
+but we'll get back to one-sidedness later.
+
+76
+00:02:19,784 --> 00:02:21,921
+Or, if you want to draw something super complicated
+
+77
+00:02:21,921 --> 00:02:23,438
+like the 8th square star,
+
+78
+00:02:23,438 --> 00:02:26,948
+combining snakes and stars is a great technique for that too.
+
+79
+00:02:26,948 --> 00:02:29,328
+Here's a boa that ate 8 8gons.
+
+80
+00:02:29,328 --> 00:02:31,808
+The creativity that your mind is forced into
+
+81
+00:02:31,808 --> 00:02:34,736
+during these boring classes, is both a gift and a burden.
+
+82
+00:02:34,736 --> 00:02:37,016
+But here's a few authentic doodles using these techniques
+
+83
+00:02:37,016 --> 00:02:38,457
+that I did when I was in college.
+
+84
+00:02:38,457 --> 00:02:40,079
+Just to show you I'm not making all this up.
+
+85
+00:02:40,079 --> 00:02:41,895
+These are from a freshmen music history class,
+
+86
+00:02:41,895 --> 00:02:43,963
+because I happen to be able to find this notebook.
+
+87
+00:02:43,963 --> 00:02:45,807
+But this is a doodle I actually did most often
+
+88
+00:02:45,807 --> 00:02:47,336
+during my 9th grade Italian class.
+
+89
+00:02:47,336 --> 00:02:48,518
+Language being another subject
+
+90
+00:02:48,518 --> 00:02:51,163
+usually taught by unfathomably stupid methods.
+
+91
+00:02:51,163 --> 00:02:53,951
+For example, these snakes are having trouble communicating
+
+92
+00:02:53,951 --> 00:02:55,369
+because one speaks in Parseltongue
+
+93
+00:02:55,369 --> 00:02:56,798
+and the other speaks in Python.
+
+94
+00:02:56,798 --> 00:02:59,022
+And their language classes, much like math classes,
+
+95
+00:02:59,022 --> 00:03:02,193
+focus too much on memorization and not enough on immersion
+
+96
+00:03:02,193 --> 00:03:03,380
+But just pretend you're in math class,
+
+97
+00:03:03,380 --> 00:03:05,515
+learning about graph theory so that I can draw the parallels
+
+98
+00:03:05,515 --> 00:03:07,227
+because here's the 2nd doodle game
+
+99
+00:03:07,227 --> 00:03:08,987
+which is very much mathematically related.
+
+100
+00:03:08,987 --> 00:03:10,983
+Draw a squiggle all over the page
+
+101
+00:03:10,983 --> 00:03:12,679
+and make sure it closes up.
+
+102
+00:03:12,679 --> 00:03:14,393
+Pick an outside section and color it in.
+
+103
+00:03:14,393 --> 00:03:15,728
+Now you want to alternate coloring
+
+104
+00:03:15,728 --> 00:03:18,426
+so that no 2 faces of the same color touch.
+
+105
+00:03:18,426 --> 00:03:19,419
+Curiously enough,
+
+106
+00:03:19,419 --> 00:03:20,923
+much like the weaving game,
+
+107
+00:03:20,923 --> 00:03:23,325
+this game always mathemagically works out.
+
+108
+00:03:23,325 --> 00:03:26,126
+It also works really well if you make the lines spiky
+
+109
+00:03:26,126 --> 00:03:27,309
+instead of a smooth curve
+
+110
+00:03:27,309 --> 00:03:29,188
+and once again, it works with multiple lines too.
+
+111
+00:03:29,188 --> 00:03:30,364
+It probably has something to do with
+
+112
+00:03:30,364 --> 00:03:32,332
+the 2 colorability of graphs of even degree,
+
+113
+00:03:32,332 --> 00:03:33,611
+which might even be what your teacher is trying to
+
+114
+00:03:33,611 --> 00:03:34,708
+teach you at this very moment
+
+115
+00:03:34,708 --> 00:03:36,009
+for all you're paying attention.
+
+116
+00:03:36,009 --> 00:03:37,524
+But maybe you can chat with him after class about snakes
+
+117
+00:03:37,524 --> 00:03:38,692
+and he'll explain it to you
+
+118
+00:03:38,692 --> 00:03:40,424
+because I'd rather move on to the next doodle game.
+
+119
+00:03:40,424 --> 00:03:42,164
+This is a combination of the last 2
+
+120
+00:03:42,164 --> 00:03:44,523
+Step 1: draw a smooth closed curve
+
+121
+00:03:44,523 --> 00:03:46,374
+Step 2: assign overs and unders
+
+122
+00:03:46,374 --> 00:03:48,423
+Step 3: shade in every other face
+
+123
+00:03:48,423 --> 00:03:51,232
+After that, it takes a little artistic finesse
+
+124
+00:03:51,232 --> 00:03:52,302
+to get the shading right,
+
+125
+00:03:52,302 --> 00:03:53,372
+but you end up with some sort of really neat surface.
+
+126
+00:03:53,372 --> 00:03:56,772
+For example, this one only has one edge and one side
+
+127
+00:03:56,772 --> 00:03:58,117
+but if you're interested in this,
+
+128
+00:03:58,117 --> 00:03:59,372
+you should really be talking to
+
+129
+00:03:59,372 --> 00:04:00,924
+your resident topology professor and not me.
+
+130
+00:04:00,924 --> 00:04:02,539
+But here's the thing:
+
+131
+00:04:02,539 --> 00:04:03,840
+if someone asked you 5 minutes ago
+
+132
+00:04:03,840 --> 00:04:05,702
+what tangled up snakes, demented checkerboards,
+
+133
+00:04:05,702 --> 00:04:07,652
+and crazy twisty surfaces have in common?
+
+134
+00:04:07,652 --> 00:04:08,955
+what would you have answered?
+
+135
+00:04:08,955 --> 00:04:11,295
+This is why I love mathematics:
+
+136
+00:04:11,295 --> 00:04:12,726
+the moment when you realize that
+
+137
+00:04:12,726 --> 00:04:14,384
+something seemingly arbitrary and confusing
+
+138
+00:04:14,384 --> 00:04:16,659
+is actually part of something.
+
+139
+00:04:16,659 --> 00:04:18,739
+It's better than the cleverest possible ending
+
+140
+00:04:18,739 --> 00:04:20,194
+to any crime show or mystery novel,
+
+141
+00:04:20,194 --> 00:04:22,413
+because that's only the beginning.
+
+142
+00:04:22,413 --> 00:04:24,691
+Anyway, have fun with that.

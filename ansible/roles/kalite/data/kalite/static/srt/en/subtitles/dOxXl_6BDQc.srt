@@ -1,0 +1,191 @@
+1
+99:59:59,999 --> 99:59:59,999
+let ABC be a triangle
+
+2
+99:59:59,999 --> 99:59:59,999
+such that
+
+3
+99:59:59,999 --> 99:59:59,999
+angle ACB equals pi/6
+
+4
+99:59:59,999 --> 99:59:59,999
+this is A,B,C
+
+5
+99:59:59,999 --> 99:59:59,999
+and this angle over here is pi/6
+
+6
+99:59:59,999 --> 99:59:59,999
+assuming it is in radians
+
+7
+99:59:59,999 --> 99:59:59,999
+and they tell us a,b,c
+
+8
+99:59:59,999 --> 99:59:59,999
+denote the lengths of sides opposite to
+
+9
+99:59:59,999 --> 99:59:59,999
+A,B,C RESPECTIVELY
+
+10
+99:59:59,999 --> 99:59:59,999
+values of x for which a equals this thing
+
+11
+99:59:59,999 --> 99:59:59,999
+b equals this thing and c equals this thing
+
+12
+99:59:59,999 --> 99:59:59,999
+we need to find a relation between a,b,c
+
+13
+99:59:59,999 --> 99:59:59,999
+once we get the relation,we can substitute
+
+14
+99:59:59,999 --> 99:59:59,999
+with these expressions and solve for x
+
+15
+99:59:59,999 --> 99:59:59,999
+first i think is how to relate a,b,c with the angle here
+
+16
+99:59:59,999 --> 99:59:59,999
+what should pop out into ur brain is law of cosines
+
+17
+99:59:59,999 --> 99:59:59,999
+law of cosines
+
+18
+99:59:59,999 --> 99:59:59,999
+that tells us c squared equals
+
+19
+99:59:59,999 --> 99:59:59,999
+a squared plus b squared and it is essentially the pythagorean theorem
+
+20
+99:59:59,999 --> 99:59:59,999
+but this just is not a right triangle
+
+21
+99:59:59,999 --> 99:59:59,999
+minus 2a*bcosine of
+
+22
+99:59:59,999 --> 99:59:59,999
+c , now in this case
+
+23
+99:59:59,999 --> 99:59:59,999
+angle c right here is angle ACB
+
+24
+99:59:59,999 --> 99:59:59,999
+this over here is going to be
+
+25
+99:59:59,999 --> 99:59:59,999
+30 degrees,so what is cosine of 30 degrees
+
+26
+99:59:59,999 --> 99:59:59,999
+if just in case u forgot it
+
+27
+99:59:59,999 --> 99:59:59,999
+in iit-jee exam all u need in terms of time
+
+28
+99:59:59,999 --> 99:59:59,999
+this is 30 degrees
+
+29
+99:59:59,999 --> 99:59:59,999
+that is 1 this is one half,the side opposite to
+
+30
+99:59:59,999 --> 99:59:59,999
+30 degrees,this is 60 degrees,this gonna be a 30,60,90
+
+31
+99:59:59,999 --> 99:59:59,999
+this is square root of 3 over two,cosine is adjacent
+
+32
+99:59:59,999 --> 99:59:59,999
+over hypotenuse,so square root of three over 2 over one
+
+33
+99:59:59,999 --> 99:59:59,999
+so this in this example it is going to be
+
+34
+99:59:59,999 --> 99:59:59,999
+c squared equal to a squared
+
+35
+99:59:59,999 --> 99:59:59,999
+plus b squared minus
+
+36
+99:59:59,999 --> 99:59:59,999
+2ab and this whole thing is square root of 3 over 2
+
+37
+99:59:59,999 --> 99:59:59,999
+times square root of three over 2 and these
+
+38
+99:59:59,999 --> 99:59:59,999
+twos get cancel out,we get c squared equals
+
+39
+99:59:59,999 --> 99:59:59,999
+a squared plus b squared minus square root3 into ab
+
+40
+99:59:59,999 --> 99:59:59,999
+now the next thing i want to do is that
+
+41
+99:59:59,999 --> 99:59:59,999
+substitute this for a and substitute this for b
+
+42
+99:59:59,999 --> 99:59:59,999
+and then for c i want to substitute
+
+43
+99:59:59,999 --> 99:59:59,999
+this expression right over here,but i have to be careful
+
+44
+99:59:59,999 --> 99:59:59,999
+i want to make sure it is in the form something that i can simplify
+
+45
+99:59:59,999 --> 99:59:59,999
+i take this x squared plus xplus 1 if i
+
+46
+99:59:59,999 --> 99:59:59,999
+if i square this iam going to end in some fourth power and this b iam
+
+47
+99:59:59,999 --> 99:59:59,999
+going to end up in a 4th power,then in have a business of square root of 3
+
+48
+99:59:59,999 --> 99:59:59,999
+so let us see,atleast we can

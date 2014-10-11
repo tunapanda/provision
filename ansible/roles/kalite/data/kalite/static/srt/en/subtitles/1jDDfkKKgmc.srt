@@ -1,0 +1,1023 @@
+1
+00:00:00,998 --> 00:00:03,367
+What I want to do in this video is revisit a little bit
+
+2
+00:00:03,367 --> 00:00:06,366
+of what we know about pi and really how we measure
+
+3
+00:00:06,366 --> 00:00:10,253
+angles and radians and then think about whether pi
+
+4
+00:00:10,253 --> 00:00:14,559
+is necessarily the best number to be paying attention to.
+
+5
+00:00:14,559 --> 00:00:16,974
+So let's think a little bit about what I just said.
+
+6
+00:00:16,974 --> 00:00:23,057
+So pi we know is defined -- I'll write defined as a triple equal sign,
+
+7
+00:00:23,057 --> 00:00:24,311
+I guess you could call it that way.
+
+8
+00:00:24,311 --> 00:00:28,491
+Pi is defined as the ratio of the circumference of a circle
+
+9
+00:00:28,491 --> 00:00:32,410
+to its diameter, which is the same thing as the ratio
+
+10
+00:00:32,441 --> 00:00:36,246
+of the circumference of the circle to two times the radius
+
+11
+00:00:36,246 --> 00:00:40,751
+and from that we get all these interesting formulas that you get
+
+12
+00:00:40,751 --> 00:00:41,912
+in geometry class.
+
+13
+00:00:41,912 --> 00:00:45,116
+If you've got the radius and you want to calculate the circumference
+
+14
+00:00:45,116 --> 00:00:50,225
+multiply both sides of this definition by two times the radius
+
+15
+00:00:50,225 --> 00:00:54,311
+and you get two times the radius times pi is equal to the
+
+16
+00:00:54,311 --> 00:00:59,327
+circumference or more familiarly it would be
+
+17
+00:00:59,327 --> 00:01:05,550
+circumference is equal to two pi r.
+
+18
+00:01:05,550 --> 00:01:07,408
+This is one of those fundamental things that you learn
+
+19
+00:01:07,408 --> 00:01:11,308
+early on in your career and you use it to find circumferences usually,
+
+20
+00:01:11,308 --> 00:01:13,630
+or figure out radiuses if you know the circumference.
+
+21
+00:01:14,130 --> 00:01:18,553
+And from that comes how we measure our angles in radians
+
+22
+00:01:18,553 --> 00:01:20,968
+once we got to trigonometry class. And just as a
+
+23
+00:01:20,968 --> 00:01:25,380
+review here, so let me draw myself a circle...
+
+24
+00:01:25,380 --> 00:01:29,420
+Let me draw myself a better circle...
+
+25
+00:01:29,420 --> 00:01:36,061
+So there is my--it'll do the job-- and here is the positive x axis and
+
+26
+00:01:36,061 --> 00:01:39,823
+let me make some angle here. I'll make the angle kind of obvious
+
+27
+00:01:39,823 --> 00:01:44,234
+just so that it ... so let me make this angle.
+
+28
+00:01:44,234 --> 00:01:49,668
+And the way that we measure angles when we talk about radians
+
+29
+00:01:49,668 --> 00:01:52,733
+we're really talking about the angles subtended by something of
+
+30
+00:01:52,733 --> 00:01:55,659
+a certain arc length. And we measure the arc length in --
+
+31
+00:01:55,659 --> 00:01:59,978
+well, the way I like to think about it is -- the angle is in radians
+
+32
+00:01:59,978 --> 00:02:04,389
+and the arc length itself is in radiuses, which isn't really
+
+33
+00:02:04,389 --> 00:02:08,337
+a word but that's how I think about it. How many radiuses
+
+34
+00:02:08,337 --> 00:02:12,888
+is this arc length that subtends the angle in radians?
+
+35
+00:02:12,888 --> 00:02:15,488
+So let me show you what I'm talking about.
+
+36
+00:02:15,488 --> 00:02:21,851
+So, this arc length right here, if the radius is r, what is the length
+
+37
+00:02:21,851 --> 00:02:26,913
+of this arc length? Well, we know from basic geometry, the entire
+
+38
+00:02:26,913 --> 00:02:30,303
+circumference over here is going to be 2 pi r.
+
+39
+00:02:30,303 --> 00:02:33,832
+This entire circumference that's-- really by definition--
+
+40
+00:02:33,832 --> 00:02:36,758
+this entire circumference is going to be 2 pi r. So what is
+
+41
+00:02:36,758 --> 00:02:40,009
+just this arc length here? I'm assuming this is the fourth of
+
+42
+00:02:40,009 --> 00:02:45,256
+the circle, so it's going to be 2 pi r over four. So this arc
+
+43
+00:02:45,256 --> 00:02:52,315
+length over here, this arc length is going to be 2 pi r over four,
+
+44
+00:02:52,315 --> 00:02:57,749
+which is the same thing as pi over 2r or you could say this is
+
+45
+00:02:57,749 --> 00:03:03,647
+the same thing as pi over 2 radiuseseses.
+
+46
+00:03:03,647 --> 00:03:06,665
+One of those -- y'know, not a real word but that's how I like
+
+47
+00:03:06,665 --> 00:03:10,798
+to think about it or you could say it subtends an angle of
+
+48
+00:03:10,798 --> 00:03:18,972
+pi over 2 radians. So over here, theta is pi over 2 radians.
+
+49
+00:03:18,972 --> 00:03:22,408
+And so, really when you're measuring angles in radians,
+
+50
+00:03:22,408 --> 00:03:24,916
+it's really you're saying "okay, that angle is subtanded by
+
+51
+00:03:24,916 --> 00:03:29,421
+an arc of --that has a length of how many radiusi...or
+
+52
+00:03:29,421 --> 00:03:32,068
+I don't even know what the plural of radius is...
+
+53
+00:03:33,253 --> 00:03:36,387
+Actually I think it's "radii" but it's fun to try to say radiuses.
+
+54
+00:03:36,387 --> 00:03:39,405
+"Radii", actually I should do that, just so no one says "Sal, you're
+
+55
+00:03:39,405 --> 00:03:42,006
+teaching people the wrong plural form of radius!"
+
+56
+00:03:42,006 --> 00:03:47,393
+"Radii". So this arc length is pi over 2 radii and
+
+57
+00:03:47,393 --> 00:03:53,244
+it subtends an angle of pi over 2 radians. We could do
+
+58
+00:03:53,244 --> 00:03:56,820
+another one just for the sake of making the point clear...
+
+59
+00:03:56,820 --> 00:03:59,839
+If you went all the way around the circle-- so if you
+
+60
+00:03:59,839 --> 00:04:02,811
+went all the way around the circle and you got back
+
+61
+00:04:02,811 --> 00:04:06,573
+to the positive x axis here, what is the arc length?
+
+62
+00:04:06,573 --> 00:04:10,474
+Now all of a sudden the arc length is the entire circumference
+
+63
+00:04:10,474 --> 00:04:14,142
+of the circle, it would be 2 pi r, which is the same thing as
+
+64
+00:04:14,142 --> 00:04:20,737
+2 pi radii and we would say that the angle subtended
+
+65
+00:04:20,737 --> 00:04:24,037
+by this arc length, the angle that we care about
+
+66
+00:04:24,037 --> 00:04:30,528
+going all the way around the circle, is 2 pi radians.
+
+67
+00:04:31,190 --> 00:04:34,813
+And so, out of this comes all of the things
+
+68
+00:04:34,813 --> 00:04:37,400
+that we know about how do we graph trigonometric
+
+69
+00:04:37,400 --> 00:04:40,667
+functions or at least how we measure the graph
+
+70
+00:04:40,667 --> 00:04:43,082
+on the x axis and I also touch on Euler's formula,
+
+71
+00:04:43,082 --> 00:04:46,200
+which is the most beautiful formula, I think, in all of mathematics.
+
+72
+00:04:46,200 --> 00:04:48,867
+And let's visit those right now, just to remind
+
+73
+00:04:48,867 --> 00:04:52,933
+ourselves of how pi fits into all of that. So if I think about our
+
+74
+00:04:52,933 --> 00:04:55,933
+trigonometric functions, remember, if this was a lesson
+
+75
+00:04:55,948 --> 00:04:58,333
+on trigonometric functions, we assume we have a
+
+76
+00:04:58,333 --> 00:05:01,800
+unit circle here. So on the trig. functions, this is the
+
+77
+00:05:01,800 --> 00:05:04,600
+unit circle definition of the trig functions, this is a nice
+
+78
+00:05:04,600 --> 00:05:08,467
+review of all of that. You assume you have a unit circle,
+
+79
+00:05:08,467 --> 00:05:12,800
+a circle of radius 1 and then the trig functions are defined as
+
+80
+00:05:12,800 --> 00:05:15,667
+for any angle you have here, for any angle theta,
+
+81
+00:05:15,667 --> 00:05:21,867
+cosine of theta is how far you have to move in...
+
+82
+00:05:21,867 --> 00:05:28,267
+or the x coordinate of the point along the arc that subtans this
+
+83
+00:05:28,267 --> 00:05:32,067
+angle, so that's cosine of theta and then sine of theta is
+
+84
+00:05:32,067 --> 00:05:42,600
+the y value of that point. Cosine of theta is the x value,
+
+85
+00:05:42,600 --> 00:05:47,667
+sine of theta is the y value. And so if you were to graph
+
+86
+00:05:47,667 --> 00:05:53,667
+one of these functions, and I'll just do sine of theta for convenience,
+
+87
+00:05:53,667 --> 00:05:56,867
+but you can try it with cosine of theta... so let's
+
+88
+00:05:56,867 --> 00:05:59,533
+graph sine of theta. Let's do one revolution of sine
+
+89
+00:05:59,533 --> 00:06:05,000
+of theta. And we tend to label, so when then angle is 0,
+
+90
+00:06:05,000 --> 00:06:07,800
+sine of theta is zero -- let me draw the x and y axis
+
+91
+00:06:07,800 --> 00:06:12,000
+just so you remember this, this is the y axis and this is the
+
+92
+00:06:12,000 --> 00:06:18,867
+x axis, right here is x axis. So when the angle is 0,
+
+93
+00:06:18,867 --> 00:06:22,600
+we're right here on the unit circle, the y value there is
+
+94
+00:06:22,600 --> 00:06:26,000
+0, so sine of theta is going to be right like that, so let
+
+95
+00:06:26,000 --> 00:06:27,733
+me draw it like this...
+
+96
+00:06:27,733 --> 00:06:31,333
+so this is out theta and this is -- i'm going to graph
+
+97
+00:06:31,333 --> 00:06:34,000
+sine of theta along the y axis, we'll say y is equal
+
+98
+00:06:34,000 --> 00:06:38,000
+to sine of theta in this graph that i'm drawing right
+
+99
+00:06:38,000 --> 00:06:42,333
+over here. And then we could do, i'll just do the simple points
+
+100
+00:06:42,333 --> 00:06:46,267
+here, then if we make the angle go-- if we did in degrees
+
+101
+00:06:46,267 --> 00:06:50,000
+90 degrees, or if we do it in radians, pi over 2 radians
+
+102
+00:06:50,000 --> 00:06:52,000
+what is sine of theta?
+
+103
+00:06:52,000 --> 00:06:54,733
+Well, now it is one, this is a unit circle, it has radius one
+
+104
+00:06:54,733 --> 00:07:00,200
+so when we get to pi over 2, when theta is equal to pi over 2
+
+105
+00:07:03,246 --> 00:07:06,333
+then sine of theta is equal to 1. This is 1 right here,
+
+106
+00:07:06,333 --> 00:07:11,800
+sine of theta is equal to one, then if we go 180 degrees
+
+107
+00:07:11,800 --> 00:07:15,867
+or halfway around the circle, theta is now equal to pi.
+
+108
+00:07:24,729 --> 00:07:27,200
+When theta is equal to pi, the y value of
+
+109
+00:07:27,200 --> 00:07:29,933
+this point right here is once again zero, so we go back
+
+110
+00:07:29,933 --> 00:07:32,800
+to zero, remember we're talking about sine of theta,
+
+111
+00:07:32,800 --> 00:07:36,933
+and then we can go all the way down here, where you
+
+112
+00:07:36,933 --> 00:07:40,267
+can either view it 270 degrees or you can view this as
+
+113
+00:07:40,267 --> 00:07:52,000
+3 pi over 2 radians. So this is in radians, this axis.
+
+114
+00:07:52,000 --> 00:07:55,533
+So 3 pi over 2 radians, sine of theta is the
+
+115
+00:07:55,533 --> 00:07:57,600
+y coordinate on the unit circle right over here so it's going
+
+116
+00:07:57,600 --> 00:08:03,200
+to be negative 1, so this is negative 1. And then
+
+117
+00:08:03,200 --> 00:08:06,010
+finally, when you go all the way around the circle, you've
+
+118
+00:08:06,010 --> 00:08:13,467
+gone 2 pi radians and you're back where you began
+
+119
+00:08:13,467 --> 00:08:16,200
+and the sine of theta or the y coordinate is now 0
+
+120
+00:08:16,200 --> 00:08:19,267
+once again. And if you connect the dots or if
+
+121
+00:08:19,267 --> 00:08:22,867
+you plotted more points, you would see a sine curve over
+
+122
+00:08:22,867 --> 00:08:25,600
+just the part that we've graphed right over here.
+
+123
+00:08:25,600 --> 00:08:27,333
+So that's another application. You say "hey, Sal,
+
+124
+00:08:27,333 --> 00:08:29,400
+where's this going?". Well i'm showing you, i'm reminding
+
+125
+00:08:29,400 --> 00:08:31,267
+you of all of these things because we're going to revisit
+
+126
+00:08:31,267 --> 00:08:34,600
+it with a different number other than pi.
+
+127
+00:08:34,600 --> 00:08:38,200
+And so i want to do one last visit with pi, you say
+
+128
+00:08:38,200 --> 00:08:41,333
+"Look, pi is powerful because, or one of the reasons pi
+
+129
+00:08:41,333 --> 00:08:44,333
+seems to have some type of mystical power, and we've
+
+130
+00:08:44,333 --> 00:08:45,800
+shown this in the calculus playlist,
+
+131
+00:08:45,800 --> 00:08:52,800
+is there's Euler's formula. e to the i theta is equal
+
+132
+00:08:52,800 --> 00:08:56,533
+to cosine of theta plus i sine of theta. This by
+
+133
+00:08:56,533 --> 00:09:00,067
+itself is just one of those mind-boggling formulas, but
+
+134
+00:09:00,067 --> 00:09:02,467
+it sometimes looks even more mind-boggling when
+
+135
+00:09:02,467 --> 00:09:06,600
+you put pi in for theta, because then from Euler's
+
+136
+00:09:06,600 --> 00:09:11,000
+formula you would get e to the i pi is equal to
+
+137
+00:09:11,000 --> 00:09:14,667
+--what's cosine of pi? cosine of pi is negative 1,
+
+138
+00:09:14,667 --> 00:09:18,600
+and then sine of pi is zero, so zero times i, so you get
+
+139
+00:09:18,600 --> 00:09:20,800
+this formula, which is pretty profound and then you say
+
+140
+00:09:20,800 --> 00:09:23,600
+"okay, if i want to put all of the fundamental numbers
+
+141
+00:09:23,600 --> 00:09:28,667
+together in one formula, i can add one to both sides of this
+
+142
+00:09:28,667 --> 00:09:36,400
+and you get e to the i pi plus 1 is equal to 0.
+
+143
+00:09:36,400 --> 00:09:38,867
+Sometimes this is called Euler's identity, the most
+
+144
+00:09:38,867 --> 00:09:41,800
+beautiful formula or equation in all of mathematics
+
+145
+00:09:41,800 --> 00:09:44,533
+and it is pretty profound, you have all of the fundamental
+
+146
+00:09:44,533 --> 00:09:48,733
+numbers in one equation - e, i, pi, 1, 0. Although
+
+147
+00:09:48,733 --> 00:09:52,000
+for my aesthetic taste it would've been even
+
+148
+00:09:52,000 --> 00:09:55,400
+more powerful if this was a one right over here.
+
+149
+00:09:55,400 --> 00:10:00,175
+Because this e to the i pi, this bizarre thing, would've
+
+150
+00:10:00,190 --> 00:10:04,400
+equaled unity. That would've been super-duper profound
+
+151
+00:10:04,400 --> 00:10:08,667
+to me. It seems a little bit of a hack to add one to both
+
+152
+00:10:08,667 --> 00:10:10,933
+sides, "oh look, now i have zero here",
+
+153
+00:10:10,933 --> 00:10:15,200
+but this is pretty darn good. But with that, i'm going
+
+154
+00:10:15,200 --> 00:10:17,867
+to make, well, i'm not going to argue for it, i'm going
+
+155
+00:10:17,867 --> 00:10:20,733
+to show an argument for another number, a number
+
+156
+00:10:20,733 --> 00:10:24,133
+different than pi. And i want to make it clear, that
+
+157
+00:10:24,133 --> 00:10:28,733
+these ideas are not my own, it's inspired by many people
+
+158
+00:10:28,733 --> 00:10:31,333
+are on this movement now, the Tau movement, but these
+
+159
+00:10:31,333 --> 00:10:35,400
+are kind of the people that gave me the thinking on this
+
+160
+00:10:35,400 --> 00:10:38,533
+and first is Robert Palais on "Pi is wrong!" and he doesn't
+
+161
+00:10:38,533 --> 00:10:41,067
+argue that pi is calculated wrong, he still
+
+162
+00:10:41,067 --> 00:10:43,800
+agrees that it is the ratio of the circumference to the
+
+163
+00:10:43,800 --> 00:10:47,200
+diameter of the circle, that it's 3.14159. But what he's
+
+164
+00:10:47,200 --> 00:10:50,133
+saying is that we're paying attention to the wrong number.
+
+165
+00:10:50,133 --> 00:10:53,133
+And also you have Michael Hartl, the "Tau manifesto"
+
+166
+00:10:53,133 --> 00:10:56,533
+all of this is available online. And what they argue for
+
+167
+00:10:56,533 --> 00:11:00,067
+is a number called tau, or what they call tau
+
+168
+00:11:00,067 --> 00:11:03,400
+And they define tau, and it's a very simple change from pi,
+
+169
+00:11:03,400 --> 00:11:05,933
+they define tau not as the ratio of the
+
+170
+00:11:05,933 --> 00:11:07,867
+circumference to the diameter, the ratio of circumference
+
+171
+00:11:07,867 --> 00:11:10,867
+to two times the radius, they say "Hey, wouldn't it
+
+172
+00:11:10,867 --> 00:11:13,200
+be natural to define some number that's the
+
+173
+00:11:13,200 --> 00:11:16,733
+ratio of circumference to the radius?" And as you
+
+174
+00:11:16,733 --> 00:11:21,667
+see here, this pi is just one half times this over here, right?
+
+175
+00:11:21,667 --> 00:11:23,467
+Circumference over 2 r, it's the same thing as
+
+176
+00:11:23,467 --> 00:11:26,867
+one half times circumference over r, so pi is just
+
+177
+00:11:26,867 --> 00:11:31,533
+half of tau, or another way to think about it is that tau
+
+178
+00:11:31,533 --> 00:11:36,667
+is just two times pi or, if you -- and i'm sure
+
+179
+00:11:36,667 --> 00:11:38,733
+you probably don't have this memorized, because, like
+
+180
+00:11:38,733 --> 00:11:41,667
+"wait, i've spent all my life memorizing pi", but it's
+
+181
+00:11:41,667 --> 00:11:47,318
+6.283185 and it keeps going on and on and on never
+
+182
+00:11:47,318 --> 00:11:52,067
+repeating just like pi, it's two times pi. And so you're
+
+183
+00:11:52,067 --> 00:11:57,800
+saying "hey, Sal, pi has been around for millenia, really,
+
+184
+00:11:57,800 --> 00:12:00,600
+why mess with such a fundamental number, especially
+
+185
+00:12:00,600 --> 00:12:02,400
+when you've just spent all of this time showing how
+
+186
+00:12:02,400 --> 00:12:05,400
+profound it is?" And the argument that they'd make
+
+187
+00:12:05,400 --> 00:12:07,733
+and it seems like a pretty good argument, is that
+
+188
+00:12:07,733 --> 00:12:10,467
+actually things seem a little bit more elegant when you
+
+189
+00:12:10,467 --> 00:12:13,733
+pay attention to this number instead of half of this number
+
+190
+00:12:13,733 --> 00:12:16,867
+when you pay attention to tau. And to see that let's
+
+191
+00:12:16,867 --> 00:12:20,133
+revisit everything that we did here. Now all of a sudden,
+
+192
+00:12:20,133 --> 00:12:24,800
+if you pay attention to 2 pi as opposed to pi, if you
+
+193
+00:12:24,800 --> 00:12:30,133
+pay attention to tau instead of tau over 2, what is this
+
+194
+00:12:30,133 --> 00:12:34,067
+angle that we did in magenta?
+
+195
+00:12:34,067 --> 00:12:37,467
+Well, first of all let's think about this formula right over here
+
+196
+00:12:37,467 --> 00:12:39,400
+what is the circumference in terms of the radius?
+
+197
+00:12:39,400 --> 00:12:41,733
+Well now we can say that circumference is equal to
+
+198
+00:12:41,733 --> 00:12:44,800
+tau times the radius, because tau is the same thing
+
+199
+00:12:44,800 --> 00:12:47,200
+as 2 pi. So it makes that formula a little bit neater
+
+200
+00:12:47,200 --> 00:12:49,800
+altough it does make the pi r squared a little bit
+
+201
+00:12:49,800 --> 00:12:53,400
+messier, so you could argue both sides of that, but
+
+202
+00:12:53,400 --> 00:12:56,933
+it makes the measure of radians much more intuitive,
+
+203
+00:12:56,933 --> 00:13:00,933
+because you could say that this is pi over 2 radians or
+
+204
+00:13:00,933 --> 00:13:05,333
+you could say this is pi over 2 radians is the same thing as
+
+205
+00:13:05,333 --> 00:13:09,400
+tau over 4 radians. And where did I get that from?
+
+206
+00:13:09,400 --> 00:13:12,667
+Remember, if you go all the way around the circle,
+
+207
+00:13:12,667 --> 00:13:15,067
+that is the circumference, the arc length would be the
+
+208
+00:13:15,067 --> 00:13:18,667
+circumference, it would be tau radii or it would be
+
+209
+00:13:18,667 --> 00:13:22,667
+tau radians would be the angle subtended by that arc
+
+210
+00:13:22,667 --> 00:13:25,200
+length, it would be tau radians. All the way around is tau
+
+211
+00:13:25,200 --> 00:13:28,467
+radians, so that by itself is intuitive. One revolution
+
+212
+00:13:28,467 --> 00:13:33,133
+is one tau radians. If you go only one fourth of that,
+
+213
+00:13:33,133 --> 00:13:36,533
+it's going to be tau over 4 radians. So the reason why
+
+214
+00:13:36,533 --> 00:13:40,467
+tau is more intuitive here is because you don't have to do
+
+215
+00:13:40,467 --> 00:13:43,467
+this weird conversion where you say "divide by two,
+
+216
+00:13:43,467 --> 00:13:46,333
+multiply by two" all that, look, however many radians
+
+217
+00:13:46,333 --> 00:13:49,667
+in terms of tau, that's really how many revolutions you've gone
+
+218
+00:13:49,667 --> 00:13:54,200
+around the circle and so if you've gone 1/4 around,
+
+219
+00:13:54,200 --> 00:13:57,000
+that's tau/4 radians, if you've gone halfway around,
+
+220
+00:13:57,000 --> 00:14:00,867
+that'd be tau/2 radians, if you go 3/4 around, that's be
+
+221
+00:14:00,867 --> 00:14:04,600
+3tau/4 radians. If you go all the way around, that would
+
+222
+00:14:04,600 --> 00:14:09,333
+be tau radians. If someone told you that they have
+
+223
+00:14:09,333 --> 00:14:14,267
+an angle of 10tau radians, you'd go around exactly 10 times.
+
+224
+00:14:14,267 --> 00:14:15,867
+It would be much more intuitive, you wouldn't have to do
+
+225
+00:14:15,867 --> 00:14:20,200
+this mental math, converting the multiplier, divide by
+
+226
+00:14:20,200 --> 00:14:23,200
+two when I convert to radians in terms of pi. No, when
+
+227
+00:14:23,200 --> 00:14:25,600
+you do it in terms of tau radians, it's just natural. One
+
+228
+00:14:25,600 --> 00:14:28,067
+revolution is one tau radians. And it makes the
+
+229
+00:14:28,067 --> 00:14:31,800
+sine function over here, instead of writing pi over 2
+
+230
+00:14:31,800 --> 00:14:36,533
+when you look on the graph, where was this on the
+
+231
+00:14:36,533 --> 00:14:39,867
+unit circle? It's 1/4 around the circle, was this one half?
+
+232
+00:14:39,867 --> 00:14:41,333
+And this is actually one fourth of the circle, you're
+
+233
+00:14:41,333 --> 00:14:43,533
+right over here, but now it becomes obvious if you
+
+234
+00:14:43,533 --> 00:14:48,733
+write it in tau. Pau pi -- not pau-- pi over 2 is the same
+
+235
+00:14:48,733 --> 00:14:52,667
+thing as tau over 4, pi is the same thing as tau over 2
+
+236
+00:14:52,667 --> 00:15:03,200
+3 pi over 2 is 3pi--sorry, 3tau over 4, 3/4 tau. And then
+
+237
+00:15:03,200 --> 00:15:05,600
+one revolution is tau. And then immediately now
+
+238
+00:15:05,600 --> 00:15:08,600
+when you look at it this way, you know exactly where
+
+239
+00:15:08,600 --> 00:15:11,200
+you are in the unit circle. You're 1/4 around the unit circle
+
+240
+00:15:11,200 --> 00:15:13,000
+, you're halfway around the unic circle, you're
+
+241
+00:15:13,000 --> 00:15:15,933
+3/4 around the unit circle and then you're all the way
+
+242
+00:15:15,933 --> 00:15:19,533
+around the unit circle. And so the last thing that I think
+
+243
+00:15:19,533 --> 00:15:21,800
+the strong pi defenders would say is "Well look,
+
+244
+00:15:21,800 --> 00:15:24,267
+Sal, you just pointed out one of the most beautiful
+
+245
+00:15:24,267 --> 00:15:29,800
+identities or formulas in mathematics, how does tau
+
+246
+00:15:29,800 --> 00:15:33,800
+hold up to this?". Well let's just try it out and see
+
+247
+00:15:33,800 --> 00:15:39,800
+what happens. So if we take e to the i tau, that will
+
+248
+00:15:39,800 --> 00:15:45,533
+give us cosine of tau plus i sine of tau. And once again,
+
+249
+00:15:45,533 --> 00:15:49,667
+let's just think about what this is. Tau radians means
+
+250
+00:15:49,667 --> 00:15:51,733
+we've gone all the way around the unit circle,
+
+251
+00:15:51,733 --> 00:15:56,000
+so cosine of tau - remember, we're back at the beginning
+
+252
+00:15:56,000 --> 00:15:59,333
+of the unit circle right over here, so cosine of tau is
+
+253
+00:15:59,333 --> 00:16:04,267
+going to be equal to 1 and then sine of tau is equal to 0.
+
+254
+00:16:08,900 --> 00:16:13,533
+Sine of tau is equal to 0. So e to the i tau is equal to 1.
+
+255
+00:16:13,533 --> 00:16:16,980
+And I'll leave it up to you to decide which one
+
+256
+00:16:16,980 --> 99:59:59,999
+seems to be more aesthetically profound

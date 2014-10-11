@@ -1,0 +1,119 @@
+1
+00:00:00,467 --> 00:00:04,000
+Factor 'x' squared minus forty-nine 'y' squared
+
+2
+00:00:04,000 --> 00:00:05,968
+so what's interesting here is that,
+
+3
+00:00:05,968 --> 00:00:07,802
+while x squared is clearly a perfect square
+
+4
+00:00:07,802 --> 00:00:08,800
+-it's the square of x
+
+5
+00:00:08,800 --> 00:00:12,000
+forty-nine y squared is also a perfect square
+
+6
+00:00:12,000 --> 00:00:15,133
+it's the square of seven y
+
+7
+00:00:15,133 --> 00:00:17,554
+so it looks like we might have a special form
+
+8
+00:00:17,554 --> 00:00:19,933
+-just thing is what happens if we take:
+
+9
+00:00:19,933 --> 00:00:24,333
+a plus b times a minus b
+
+10
+00:00:24,333 --> 00:00:27,000
+I'm just doing it in the general case so we can see a pattern here
+
+11
+00:00:27,000 --> 00:00:29,629
+this would be: a times a
+
+12
+00:00:29,629 --> 00:00:33,200
+- which would be a squared-, plus: a times negative b,
+
+13
+00:00:33,200 --> 00:00:37,709
+-which would be negative ab-, plus b times a,
+
+14
+00:00:37,709 --> 00:00:41,471
+-or a times b again, which would be ab-
+
+15
+00:00:41,471 --> 00:00:45,302
+and then you have b times negative b, which would be minus b squared
+
+16
+00:00:45,302 --> 00:00:49,000
+Now, these middle two terms cancel out: minus ab, plus ab
+
+17
+00:00:49,000 --> 00:00:53,067
+and you're left with a squared minus b squared
+
+18
+00:00:53,067 --> 00:00:57,133
+and that's the exact pattern we have here, we have an a squared minus a b squared
+
+19
+00:00:57,133 --> 00:01:06,804
+so, in this case, a is equal to x, and b is equal to seven y.
+
+20
+00:01:06,804 --> 00:01:11,471
+So we have x squared minus seven y, the whole thing, squared
+
+21
+00:01:11,471 --> 00:01:16,400
+So we can expand this as a difference of squares
+
+22
+00:01:16,400 --> 00:01:19,333
+or actually this thing right over here is a difference of squares
+
+23
+00:01:19,333 --> 00:01:22,965
+so we can expand this, like this, so this will be equal to:
+
+24
+00:01:22,965 --> 00:01:30,047
+x plus seven y, times x minus seven y
+
+25
+00:01:30,047 --> 00:01:31,881
+and, once again, we're just pattern matching,
+
+26
+00:01:31,881 --> 00:01:34,000
+based on this realization right over here:
+
+27
+00:01:34,000 --> 00:01:37,200
+if I take a plus b, times a minus b, I get a difference of squares
+
+28
+00:01:37,200 --> 00:01:39,133
+this is a difference of squares,
+
+29
+00:01:39,133 --> 00:01:43,200
+so when I factor it, it must come out to something that looks like
+
+30
+00:01:43,200 --> 00:01:47,369
+a plus b times a minus b, or x plus seven y, times x minus seven y

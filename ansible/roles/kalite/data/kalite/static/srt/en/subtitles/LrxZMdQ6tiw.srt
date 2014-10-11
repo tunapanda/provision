@@ -1,0 +1,775 @@
+1
+00:00:00,000 --> 00:00:05,060
+We're told that A B C D E F is a regular hexagon
+
+2
+00:00:05,070 --> 00:00:07,870
+And this regular part hexagon obviously tells us
+
+3
+00:00:07,880 --> 00:00:10,150
+That we're dealing with six sides and you could just count that
+
+4
+00:00:10,160 --> 00:00:11,940
+You didn't have to be told it's a hexagon
+
+5
+00:00:11,950 --> 00:00:14,740
+But the regular part lets us know all of the sides
+
+6
+00:00:14,750 --> 00:00:16,840
+All six sides have the same length
+
+7
+00:00:16,850 --> 00:00:20,390
+and all of the interior angles have the same measure
+
+8
+00:00:20,400 --> 00:00:21,490
+Fair enough
+
+9
+00:00:21,500 --> 00:00:23,570
+And then they give us the length of one of the sides
+
+10
+00:00:23,580 --> 00:00:25,030
+And since this is a regular hexagon
+
+11
+00:00:25,040 --> 00:00:26,770
+They're actually giving us the length of all of the sides
+
+12
+00:00:26,780 --> 00:00:28,590
+They say its two square roots of three
+
+13
+00:00:28,600 --> 00:00:31,450
+So this side right over here is two square roots of three
+
+14
+00:00:31,460 --> 00:00:33,010
+This side right over here is two square roots of three
+
+15
+00:00:33,020 --> 00:00:34,300
+And I could just go around hexagon,
+
+16
+00:00:34,310 --> 00:00:36,270
+every one of their sides is two square roots of three
+
+17
+00:00:36,280 --> 00:00:39,110
+They want us to find the area of this hexagon
+
+18
+00:00:39,120 --> 00:00:41,590
+Find the area of A B C D E F
+
+19
+00:00:41,600 --> 00:00:45,120
+And the best way to find the area especially of regular polygons,
+
+20
+00:00:45,130 --> 00:00:46,680
+Is to try to spilt up into triangles
+
+21
+00:00:46,690 --> 00:00:48,450
+And hexagons are a bit of special case
+
+22
+00:00:48,460 --> 00:00:50,160
+Maybe in the future videos,
+
+23
+00:00:50,170 --> 00:00:52,230
+we'll think about the more general case of any polygon
+
+24
+00:00:52,240 --> 00:00:54,770
+With the hexagon, what you can think about is if we
+
+25
+00:00:54,780 --> 00:00:59,120
+If we take this point right over here and let's call this point G
+
+26
+00:00:59,130 --> 00:01:01,830
+Now let's say it's the center of the hexagon
+
+27
+00:01:01,840 --> 00:01:03,750
+And when I'm talking about a center of a hexagon
+
+28
+00:01:03,760 --> 00:01:06,240
+I'm talking about a point it can't be equidistant
+
+29
+00:01:06,250 --> 00:01:08,900
+From everything over here coz this isn't a circle [1:08 7]
+
+30
+00:01:08,910 --> 00:01:11,390
+But we could say it's equidistant from all of the vertices
+
+31
+00:01:11,400 --> 00:01:14,720
+So GD is the same thing as GC is the same thing as GB,
+
+32
+00:01:14,730 --> 00:01:17,690
+Which is the same thing as GA, which is the same thing as GF,
+
+33
+00:01:17,700 --> 00:01:19,510
+which is the same thing as GE
+
+34
+00:01:19,520 --> 00:01:21,820
+So I'm gonna draw some of those that I just talked about
+
+35
+00:01:21,830 --> 00:01:23,280
+So that is GE
+
+36
+00:01:23,290 --> 00:01:25,230
+There's GD
+
+37
+00:01:25,240 --> 00:01:26,950
+There's GC
+
+38
+00:01:26,960 --> 00:01:28,390
+All of these lines are going to be the same
+
+39
+00:01:28,400 --> 00:01:32,000
+So there's a point G which we can call the center
+
+40
+00:01:32,010 --> 00:01:34,970
+The center of this polygon
+
+41
+00:01:34,980 --> 00:01:36,810
+And we know that this length is equal to that length,
+
+42
+00:01:36,820 --> 00:01:38,310
+which is equal to that length,
+
+43
+00:01:38,320 --> 00:01:39,090
+Which is equal to that length,
+
+44
+00:01:39,100 --> 00:01:39,810
+which is equal to that length,
+
+45
+00:01:39,820 --> 00:01:40,760
+Which is equal to that length
+
+46
+00:01:40,770 --> 00:01:43,770
+We also know that if we add
+
+47
+00:01:43,780 --> 00:01:45,900
+if we go all the way around the circle;
+
+48
+00:01:45,910 --> 00:01:48,160
+If we go all the way around the circle like that,
+
+49
+00:01:48,170 --> 00:01:49,810
+We've gone 360 degrees
+
+50
+00:01:49,820 --> 00:01:52,750
+And we know that these triangles,
+
+51
+00:01:52,760 --> 00:01:56,640
+these triangles are all going to be congruent to each other
+
+52
+00:01:56,650 --> 00:01:58,550
+and there's multiple ways if we could show it;
+
+53
+00:01:58,560 --> 00:02:01,260
+But the easiest way is look they have two sides
+
+54
+00:02:01,270 --> 00:02:03,550
+All of them have this side and this side be congruent to each other
+
+55
+00:02:03,560 --> 00:02:06,820
+Coz G is in the center and they all have this third common side
+
+56
+00:02:06,830 --> 00:02:08,680
+Of two square roots of three
+
+57
+00:02:08,690 --> 00:02:11,220
+So all them by side-side-side they are all
+
+58
+00:02:11,230 --> 00:02:13,310
+They're all congruent
+
+59
+00:02:13,320 --> 00:02:16,240
+What that tells us is if they're all congruent
+
+60
+00:02:16,250 --> 00:02:19,350
+Then this angle, this interior angle right over here
+
+61
+00:02:19,360 --> 00:02:20,480
+Is going to be the same;
+
+62
+00:02:20,490 --> 00:02:23,960
+is going to be the same for all six of these
+
+63
+00:02:23,970 --> 00:02:26,670
+all six of these triangles over here
+
+64
+00:02:26,680 --> 00:02:27,840
+And maybe we'll call that X
+
+65
+00:02:27,850 --> 00:02:32,220
+That's angle X, that's X, that's X, that's x, that's x;
+
+66
+00:02:32,230 --> 00:02:35,020
+And if you'd add them all up we've gone around the circle
+
+67
+00:02:35,030 --> 00:02:38,020
+We've gone 360 degrees and we have six of these Xs
+
+68
+00:02:38,030 --> 00:02:41,540
+So you get six X is equal to 360 degrees
+
+69
+00:02:41,550 --> 00:02:44,840
+you divide both sides by six, you get X is equal to
+
+70
+00:02:44,850 --> 00:02:46,700
+X is equal to 60 degrees
+
+71
+00:02:46,710 --> 00:02:48,840
+X is equal to 60 degrees
+
+72
+00:02:48,850 --> 00:02:50,610
+All of these are equal to 60 degrees
+
+73
+00:02:50,620 --> 00:02:52,730
+Now there's something interesting
+
+74
+00:02:52,740 --> 00:02:53,990
+We know that these triangles-
+
+75
+00:02:54,000 --> 00:02:55,800
+for example triangle GBC
+
+76
+00:02:55,810 --> 00:02:58,160
+And we could do that for any of these six triangles
+
+77
+00:02:58,170 --> 00:02:59,790
+It looks kind of a trivial pursuit piece
+
+78
+00:02:59,800 --> 00:03:02,350
+But we know that they're definitely isosceles triangle
+
+79
+00:03:02,360 --> 00:03:04,810
+That this distance is equal to this distance
+
+80
+00:03:04,820 --> 00:03:07,570
+So we can use that information to figure out,
+
+81
+00:03:07,580 --> 00:03:09,700
+To figure out what the other angles are
+
+82
+00:03:09,710 --> 00:03:11,000
+Because these two base angles-
+
+83
+00:03:11,010 --> 00:03:13,420
+it's an isosceles triangle; the two legs are the same
+
+84
+00:03:13,430 --> 00:03:14,580
+so are two base angles
+
+85
+00:03:14,590 --> 00:03:16,730
+This angle is going to be congruent to that angle
+
+86
+00:03:16,740 --> 00:03:19,320
+And we could call that Y right over there
+
+87
+00:03:19,330 --> 00:03:26,320
+So you have Y+Y which is 2Y+60 degrees, plus 60 degrees
+
+88
+00:03:26,330 --> 00:03:28,260
+is going to be equal to 180
+
+89
+00:03:28,270 --> 00:03:30,240
+because the interior angles of any triangle,
+
+90
+00:03:30,250 --> 00:03:31,550
+They add up to 180
+
+91
+00:03:31,560 --> 00:03:34,050
+And so subtract 60 from both sides,
+
+92
+00:03:34,060 --> 00:03:36,370
+You get 2Y is equal to 120;
+
+93
+00:03:36,380 --> 00:03:40,180
+divide both sides by 2, you get Y is equal to 60 degrees
+
+94
+00:03:40,190 --> 00:03:42,100
+Now this is interesting
+
+95
+00:03:42,110 --> 00:03:43,650
+I could've done this with any of these triangles
+
+96
+00:03:43,660 --> 00:03:46,180
+All of these triangles are 60-60-60 triangles,
+
+97
+00:03:46,190 --> 00:03:48,900
+which tells us and we've proven this earlier on
+
+98
+00:03:48,910 --> 00:03:51,200
+When we first started studying equilateral triangles
+
+99
+00:03:51,210 --> 00:03:55,620
+We know that all of the angles of a triangle are 60 degrees
+
+100
+00:03:55,630 --> 00:03:57,490
+And we're dealing with an equilateral triangle！
+
+101
+00:03:57,500 --> 00:03:59,620
+Which means that all the sides have the same length
+
+102
+00:03:59,630 --> 00:04:01,680
+So this is two square roots of three
+
+103
+00:04:01,690 --> 00:04:04,740
+then so is This is also two square roots of three
+
+104
+00:04:04,750 --> 00:04:06,380
+And this is also two square roots of three
+
+105
+00:04:06,390 --> 00:04:09,240
+So pretty much all of these green lines are two square roots of three
+
+106
+00:04:09,250 --> 00:04:11,410
+And we already knew because it's a regular hexagon
+
+107
+00:04:11,420 --> 00:04:13,290
+That the every out
+
+108
+00:04:13,300 --> 00:04:15,740
+each side of the hexagon itself is also two square roots of three
+
+109
+00:04:15,750 --> 00:04:18,750
+So now we can essentially use that information
+
+110
+00:04:18,760 --> 00:04:21,860
+We can use that information to figure out;
+
+111
+00:04:21,870 --> 00:04:23,950
+Actually we don't really have to figure this part out
+
+112
+00:04:23,960 --> 00:04:25,000
+I'll show you in a second
+
+113
+00:04:25,010 --> 00:04:27,040
+To figure out the area of any one of these triangles
+
+114
+00:04:27,050 --> 00:04:28,780
+And then we can just multiply it by six
+
+115
+00:04:28,790 --> 00:04:32,450
+So let's focus on let me focus on this triangle right over here
+
+116
+00:04:32,460 --> 00:04:34,010
+Think about how we can find its area
+
+117
+00:04:34,020 --> 00:04:36,880
+We know that length of DC is two square roots of three
+
+118
+00:04:36,890 --> 00:04:38,980
+We can drop an altitude over here
+
+119
+00:04:38,990 --> 00:04:42,420
+We can drop an altitude just like that
+
+120
+00:04:42,430 --> 00:04:44,690
+And then we if we drop an altitude,
+
+121
+00:04:44,700 --> 00:04:45,940
+we know that this is
+
+122
+00:04:45,950 --> 00:04:48,230
+we know that this is an equilateral triangle
+
+123
+00:04:48,240 --> 00:04:51,230
+And we can show very easily
+
+124
+00:04:51,240 --> 00:04:52,640
+That these two triangles are symmetric
+
+125
+00:04:52,650 --> 00:04:53,850
+These are both 90 degree angles
+
+126
+00:04:53,860 --> 00:04:56,490
+We know that these two are 60 degree angles already
+
+127
+00:04:56,500 --> 00:04:58,330
+And then you just
+
+128
+00:04:58,340 --> 00:05:00,840
+if you look at each of these two independent triangles
+
+129
+00:05:00,850 --> 00:05:02,750
+You'd have to just say well they have to add up to 180
+
+130
+00:05:02,760 --> 00:05:05,930
+So this has to be 30 degrees; this have to be 30 degrees
+
+131
+00:05:05,940 --> 00:05:07,630
+All the angles are the same
+
+132
+00:05:07,640 --> 00:05:09,530
+They also share a side in common
+
+133
+00:05:09,540 --> 00:05:11,080
+So these two are congruent triangles
+
+134
+00:05:11,090 --> 00:05:14,250
+So if we wanna find the area of this broader
+
+135
+00:05:14,260 --> 00:05:16,990
+Of this little slice of the pie right over here,
+
+136
+00:05:17,000 --> 00:05:20,930
+We can just find the area of this slice or this sub slice
+
+137
+00:05:20,940 --> 00:05:22,230
+And then multiply it by two
+
+138
+00:05:22,240 --> 00:05:24,360
+Or we could just find this area and multiply by 12
+
+139
+00:05:24,370 --> 00:05:25,720
+For the entire hexagon
+
+140
+00:05:25,730 --> 00:05:27,960
+So how do we figure out the area of this thing?
+
+141
+00:05:27,970 --> 00:05:31,180
+Well this is going to be half of this base length
+
+142
+00:05:31,190 --> 00:05:34,950
+So this length right over here-- let me call this point H
+
+143
+00:05:34,960 --> 00:05:37,430
+DH is going to be the square root of three
+
+144
+00:05:37,440 --> 00:05:40,290
+And we are or hopefully we already recognized
+
+145
+00:05:40,300 --> 00:05:42,010
+this is a 30-60-90 triangle
+
+146
+00:05:42,020 --> 00:05:43,190
+Let me draw it over here
+
+147
+00:05:43,200 --> 00:05:48,920
+So this is a 30-60-90 triangle
+
+148
+00:05:48,930 --> 00:05:52,150
+We know that this length over here is square root of three
+
+149
+00:05:52,160 --> 00:05:55,010
+We know and we already actually did calculate it
+
+150
+00:05:55,020 --> 00:05:57,670
+This is two square root of three or we don't really need it
+
+151
+00:05:57,680 --> 00:06:00,460
+What we really need to figure out is this altitude height
+
+152
+00:06:00,470 --> 00:06:03,330
+And from 30-60 degree 90 30-60-90 triangles
+
+153
+00:06:03,340 --> 00:06:07,660
+we know that side opposite the 60 degree side is square root of three
+
+154
+00:06:07,670 --> 00:06:08,700
+Is a square root of three
+
+155
+00:06:08,710 --> 00:06:10,560
+Times the side opposite the 30 degree side
+
+156
+00:06:10,570 --> 00:06:13,820
+So this is going to be square root of three
+
+157
+00:06:13,830 --> 00:06:16,200
+Times the square root of three,
+
+158
+00:06:16,210 --> 00:06:17,610
+times the square root of three
+
+159
+00:06:17,620 --> 00:06:20,310
+Square root of three times square root of three
+
+160
+00:06:20,320 --> 00:06:21,830
+Is obviously just 3
+
+161
+00:06:21,840 --> 00:06:26,360
+So this altitude right over here is just going to be three
+
+162
+00:06:26,370 --> 00:06:29,660
+So if we want the area of this triangle right over here,
+
+163
+00:06:29,670 --> 00:06:32,120
+Which is this triangle right over here
+
+164
+00:06:32,130 --> 00:06:34,270
+Is just one half base times height
+
+165
+00:06:34,280 --> 00:06:36,540
+So the area of this little sub slice
+
+166
+00:06:36,550 --> 00:06:38,770
+is just one half times our base;
+
+167
+00:06:38,780 --> 00:06:40,110
+Just the base over here
+
+168
+00:06:40,120 --> 00:06:41,960
+Actually let's take a step back
+
+169
+00:06:41,970 --> 00:06:43,520
+We don't even have to worry about this thing
+
+170
+00:06:43,530 --> 00:06:46,270
+Let's just go straight to the larger triangle GDC
+
+171
+00:06:46,280 --> 00:06:48,960
+So let me let me rewind this a little bit
+
+172
+00:06:48,970 --> 00:06:50,990
+Coz now we have the base and the height of the whole thing
+
+173
+00:06:51,000 --> 00:06:56,760
+If we care about, if we care about the area triangle GDC
+
+174
+00:06:56,770 --> 00:06:58,470
+So now I'm looking at
+
+175
+00:06:58,480 --> 00:07:02,130
+Now I'm looking at this entire triangle right over here
+
+176
+00:07:02,140 --> 00:07:05,960
+This is equal to one half times base times height
+
+177
+00:07:05,970 --> 00:07:07,870
+Which is equal to one half
+
+178
+00:07:07,880 --> 00:07:08,660
+What's our base?
+
+179
+00:07:08,670 --> 00:07:10,010
+Our base we already know
+
+180
+00:07:10,020 --> 00:07:11,530
+It's one of the sides of our hexagon！
+
+181
+00:07:11,540 --> 00:07:12,930
+it's two square roots of three
+
+182
+00:07:12,940 --> 00:07:14,140
+So it's this whole thing right over here
+
+183
+00:07:14,150 --> 00:07:16,940
+So times two square roots of three
+
+184
+00:07:16,950 --> 00:07:19,250
+And then we wanna multiply that times our height
+
+185
+00:07:19,260 --> 00:07:21,840
+And that's what we just figure out using 30-60-90 triangles
+
+186
+00:07:21,850 --> 00:07:23,440
+Our height is three
+
+187
+00:07:23,450 --> 00:07:27,180
+So times three One half and two cancel out
+
+188
+00:07:27,190 --> 00:07:30,000
+We're left with three square roots of three
+
+189
+00:07:30,010 --> 00:07:33,310
+That's just the area of one of these little wedges right over here
+
+190
+00:07:33,320 --> 00:07:35,820
+If we wanna find the area of the entire hexagon
+
+191
+00:07:35,830 --> 00:07:38,390
+We just have to multiply that by six
+
+192
+00:07:38,400 --> 00:07:40,370
+Coz there are six of these triangles there
+
+193
+00:07:40,380 --> 00:07:45,680
+So this is going to be equal to six times three square roots of three
+
+194
+00:07:45,690 --> 00:07:49,880
+Which is 18 square roots of three and we're done

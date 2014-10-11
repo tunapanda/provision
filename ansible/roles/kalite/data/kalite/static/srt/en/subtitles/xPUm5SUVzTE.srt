@@ -1,0 +1,787 @@
+1
+00:00:00,000 --> 00:00:03,333
+You have 8 coins in a bag
+
+2
+00:00:03,333 --> 00:00:09,375
+Three of them are unfair in that they have a 60% chance of coming up heads when flipped
+
+3
+00:00:09,375 --> 00:00:11,736
+The rest are fair coins
+
+4
+00:00:11,752 --> 00:00:14,605
+So 3 are unfair, the rest are 8 coins
+
+5
+00:00:14,605 --> 00:00:15,436
+When I say,
+
+6
+00:00:15,436 --> 00:00:17,417
+or when this problem says that they are fair coins,
+
+7
+00:00:17,417 --> 00:00:22,152
+It means that they have a 50/50 chance of coming up either heads or tails
+
+8
+00:00:22,152 --> 00:00:25,575
+You randomly choose one coin from the bag
+
+9
+00:00:25,575 --> 00:00:27,000
+and flip it two times
+
+10
+00:00:27,000 --> 00:00:31,800
+What is the percent probability of getting 2 heads?
+
+11
+00:00:31,800 --> 00:00:34,087
+This is an interesting question
+
+12
+00:00:34,087 --> 00:00:36,667
+but if we break it down essentially with the decision tree
+
+13
+00:00:36,667 --> 00:00:39,133
+it will help break it down a bit better
+
+14
+00:00:39,133 --> 00:00:40,467
+So let's say that
+
+15
+00:00:40,467 --> 00:00:42,133
+So we have a bag
+
+16
+00:00:42,133 --> 00:00:43,400
+three of them are unfair
+
+17
+00:00:43,400 --> 00:00:45,267
+So we can do is visualize the bag
+
+18
+00:00:45,267 --> 00:00:46,867
+You don't have to do this all the time
+
+19
+00:00:46,867 --> 00:00:48,200
+So we have
+
+20
+00:00:48,200 --> 00:00:49,733
+I'll do the fair coins in white
+
+21
+00:00:49,733 --> 00:00:54,600
+1, 2, 3, 4, 5 fair coins
+
+22
+00:00:54,600 --> 00:00:56,467
+And we have three unfair coins
+
+23
+00:00:56,467 --> 00:00:58,467
+1, 2, 3
+
+24
+00:00:58,467 --> 00:01:01,400
+This whole thing is my bag right over here
+
+25
+00:01:01,400 --> 00:01:03,467
+That is my bag of coins
+
+26
+00:01:03,467 --> 00:01:04,267
+If I were to
+
+27
+00:01:04,267 --> 00:01:05,133
+When I take my hand in,
+
+28
+00:01:05,133 --> 00:01:07,067
+if I were to take any of these white coins,
+
+29
+00:01:07,067 --> 00:01:10,733
+there's a 50% chance that it gets heads on any flip
+
+30
+00:01:10,733 --> 00:01:14,867
+The odds of getting two heads in a row would be 50% times 50%
+
+31
+00:01:14,867 --> 00:01:16,067
+for these white coins
+
+32
+00:01:16,067 --> 00:01:18,133
+But I don't know if I'm going to get a white coin
+
+33
+00:01:18,133 --> 00:01:21,733
+If I get one of these orange coins, I have a 60% chance
+
+34
+00:01:21,733 --> 00:01:22,533
+of coming up heads
+
+35
+00:01:22,533 --> 00:01:24,600
+And the odds of coming up 60% heads
+
+36
+00:01:24,600 --> 00:01:28,138
+if I have picked one of these orange coins
+
+37
+00:01:28,138 --> 00:01:29,631
+The probability of getting heads twice
+
+38
+00:01:29,631 --> 00:01:32,200
+would be 60% times 60%
+
+39
+00:01:32,200 --> 00:01:34,867
+So how do I factor in this idea
+
+40
+00:01:34,867 --> 00:01:37,200
+that I don't know if I've picked a
+
+41
+00:01:37,200 --> 00:01:40,400
+white fair coin or an orange unfair coin
+
+42
+00:01:40,400 --> 00:01:43,308
+Well we'll assume that the coins actually aren't white and orange
+
+43
+00:01:43,308 --> 00:01:45,082
+They all look like regular coins
+
+44
+00:01:45,082 --> 00:01:46,877
+So what I'll do is I'll draw
+
+45
+00:01:46,877 --> 00:01:49,667
+a little bit of a decision tree here
+
+46
+00:01:49,667 --> 00:01:52,267
+And maybe I'll call it a probability tree
+
+47
+00:01:52,267 --> 00:01:59,210
+So there's some probability that I pick a fair coin
+
+48
+00:01:59,210 --> 00:02:04,129
+And there's some probability that I pick an unfair coin
+
+49
+00:02:04,129 --> 00:02:07,533
+And so what is the probability that I pick a fair coin
+
+50
+00:02:07,533 --> 00:02:13,708
+Well; 1, 2, 3, 4, 5 out of the total 8 coins are fair
+
+51
+00:02:13,708 --> 00:02:18,790
+So there is a 5/8 probability
+
+52
+00:02:18,790 --> 00:02:21,133
+I'll write it here on the branch actually
+
+53
+00:02:21,133 --> 00:02:25,000
+So there's a 5/8 chance that I pick a fair coin
+
+54
+00:02:25,000 --> 00:02:27,400
+And then there is a 3
+
+55
+00:02:27,400 --> 00:02:30,882
+1, 2, 3 out of 8 chance that I pick an unfair coin
+
+56
+00:02:30,882 --> 00:02:33,195
+So if I were just to tell you what's the probablity
+
+57
+00:02:33,195 --> 00:02:34,929
+of picking a fair coin you'd say, oh 5/8!
+
+58
+00:02:34,929 --> 00:02:36,852
+So what's the probability of an unfair coin? 3/8
+
+59
+00:02:36,852 --> 00:02:37,985
+And you could convert that to a
+
+60
+00:02:37,985 --> 00:02:40,431
+decimal or a percentage or whatever you like
+
+61
+00:02:40,431 --> 00:02:41,225
+Now,
+
+62
+00:02:41,225 --> 00:02:44,133
+given that I have picked a fair coin
+
+63
+00:02:44,133 --> 00:02:47,400
+What is the probability that I,
+
+64
+00:02:47,400 --> 00:02:49,800
+that I will get heads twice
+
+65
+00:02:49,800 --> 00:02:52,467
+So, let me write it this way
+
+66
+00:02:52,467 --> 00:02:54,600
+This is just notation right here
+
+67
+00:02:54,600 --> 00:02:56,662
+So the probability of,
+
+68
+00:02:56,662 --> 00:02:58,800
+I'll call it heads heads
+
+69
+00:02:58,800 --> 00:03:00,595
+So I get two heads in a row
+
+70
+00:03:00,595 --> 00:03:07,021
+Given that I have a fair coin
+
+71
+00:03:07,021 --> 00:03:08,918
+It looks like very fancy notation
+
+72
+00:03:08,918 --> 00:03:09,729
+but it's just like look
+
+73
+00:03:09,729 --> 00:03:12,271
+If you knew for a fact that that coin
+
+74
+00:03:12,271 --> 00:03:14,267
+you had is absolutely fair
+
+75
+00:03:14,267 --> 00:03:16,800
+That it has a 50% chance of coming up heads,
+
+76
+00:03:16,800 --> 00:03:19,733
+what is the probability of getting two heads in a row?
+
+77
+00:03:19,733 --> 00:03:21,082
+Well then, we can just say,
+
+78
+00:03:21,082 --> 00:03:22,400
+well that's just going to be
+
+79
+00:03:22,400 --> 00:03:23,902
+50%
+
+80
+00:03:23,902 --> 00:03:29,825
+So 50% times 50%
+
+81
+00:03:29,825 --> 00:03:35,221
+Which is equal to 25%
+
+82
+00:03:35,221 --> 00:03:39,452
+Now, what is the probability that you
+
+83
+00:03:39,452 --> 00:03:41,590
+So if you want to know what is the probability
+
+84
+00:03:41,590 --> 00:03:43,200
+that you picked a fair coin
+
+85
+00:03:43,200 --> 00:03:46,467
+and you got two heads in a row
+
+86
+00:03:46,467 --> 00:03:49,898
+So given that you have a fair coin, with a 25% chance
+
+87
+00:03:49,898 --> 00:03:51,569
+that you have 2 heads in a row
+
+88
+00:03:51,569 --> 00:03:53,667
+For the probability of picking a fair coin
+
+89
+00:03:53,667 --> 00:03:56,975
+and then given the fair coin get two heads in a row
+
+90
+00:03:56,975 --> 00:03:59,800
+will be the 5 eighths times the 25%
+
+91
+00:03:59,800 --> 00:04:01,467
+So the probability,
+
+92
+00:04:01,467 --> 00:04:04,000
+So this whole branch,
+
+93
+00:04:04,000 --> 00:04:05,508
+I should be able to draw it this way
+
+94
+00:04:05,508 --> 00:04:09,071
+The probability of this whole series of events happening
+
+95
+00:04:09,071 --> 00:04:11,200
+So starting with you picking the fair coin
+
+96
+00:04:11,200 --> 00:04:12,933
+and then getting two heads in a row
+
+97
+00:04:12,933 --> 00:04:13,867
+Will be
+
+98
+00:04:13,867 --> 00:04:15,800
+I'll write it this way
+
+99
+00:04:15,800 --> 00:04:16,410
+It will be
+
+100
+00:04:16,410 --> 00:04:20,933
+5/8 times this right over here
+
+101
+00:04:20,933 --> 00:04:25,400
+times the 0.25
+
+102
+00:04:25,400 --> 00:04:26,600
+I want to make it very clear
+
+103
+00:04:26,600 --> 00:04:29,867
+the 0.25 is the probability of getting two heads in a row
+
+104
+00:04:29,867 --> 00:04:33,200
+given that you knew you got a fair coin
+
+105
+00:04:33,200 --> 00:04:35,800
+For the probability of this whole series of events happening,
+
+106
+00:04:35,800 --> 00:04:36,867
+you would have to multiply this
+
+107
+00:04:36,867 --> 00:04:41,333
+times the probability that you actually got a fair coin
+
+108
+00:04:41,333 --> 00:04:44,036
+So another way of thinking about it is
+
+109
+00:04:44,036 --> 00:04:50,677
+this is the probability that you got a fair coin
+
+110
+00:04:50,677 --> 00:04:55,492
+and you have two heads in a row
+
+111
+00:04:55,492 --> 00:04:59,175
+Now let's just do the same thing for the unfair coin
+
+112
+00:04:59,175 --> 00:05:00,533
+So the probability
+
+113
+00:05:00,533 --> 00:05:03,431
+I'll do that in the same color
+
+114
+00:05:03,446 --> 00:05:06,354
+The probability that I get heads heads
+
+115
+00:05:06,354 --> 00:05:11,298
+given that my coin is unfair
+
+116
+00:05:11,298 --> 00:05:14,533
+So if you were to somehow know that your coin is unfair,
+
+117
+00:05:14,533 --> 00:05:18,733
+what is the probability of getting two heads in a row?
+
+118
+00:05:18,733 --> 00:05:21,769
+Well this unfair coin has a 60% chance
+
+119
+00:05:21,769 --> 00:05:23,067
+of coming up heads
+
+120
+00:05:23,067 --> 00:05:25,467
+So it will be equal to
+
+121
+00:05:25,467 --> 00:05:29,667
+0.6 times 0.6
+
+122
+00:05:29,667 --> 00:05:32,559
+which is 0.36
+
+123
+00:05:32,559 --> 00:05:34,487
+So if you have an unfair coin
+
+124
+00:05:34,487 --> 00:05:37,067
+if you know for a fact you have an unfair coin
+
+125
+00:05:37,067 --> 00:05:38,133
+that is a given,
+
+126
+00:05:38,133 --> 00:05:42,600
+you have a 36% chance of getting two heads in a row
+
+127
+00:05:42,600 --> 00:05:44,056
+Now if you want to know the probability
+
+128
+00:05:44,056 --> 00:05:45,800
+of this whole series of events
+
+129
+00:05:45,800 --> 00:05:48,000
+The probability that you picked an unfair coin
+
+130
+00:05:48,000 --> 00:05:52,400
+and you get two heads in a row
+
+131
+00:05:52,400 --> 00:05:54,800
+So the probability of unfair
+
+132
+00:05:54,800 --> 00:05:59,333
+unfair and two heads in a row
+
+133
+00:05:59,333 --> 00:06:00,800
+given that you had an unfair coin
+
+134
+00:06:00,800 --> 00:06:05,559
+You would multiply this 3/8 times the 0.36
+
+135
+00:06:05,559 --> 00:06:10,375
+So this will be equal to
+
+136
+00:06:10,375 --> 00:06:17,467
+the 3/8 times 0.36
+
+137
+00:06:17,467 --> 00:06:19,333
+And so let's get a calculator out
+
+138
+00:06:19,333 --> 00:06:20,600
+to calculate these
+
+139
+00:06:20,600 --> 00:06:29,800
+So if I take 5 divided by 8 times 0.25,
+
+140
+00:06:29,800 --> 00:06:33,267
+I get fifteen point--
+
+141
+00:06:33,267 --> 00:06:34,533
+I'll just write it as a decimal
+
+142
+00:06:34,533 --> 00:06:36,615
+0.15625
+
+143
+00:06:36,615 --> 00:06:40,528
+So this is equal to 0.15625
+
+144
+00:06:40,528 --> 00:06:43,333
+And then if I do the other part
+
+145
+00:06:43,333 --> 00:06:50,333
+so if I have 3 divided by 8 times 0.36,
+
+146
+00:06:50,333 --> 00:06:53,867
+that gives me 0.135
+
+147
+00:06:53,867 --> 00:06:57,267
+So this is 0.135
+
+148
+00:06:57,267 --> 00:06:58,887
+So if someone were to ask you
+
+149
+00:06:58,887 --> 00:07:01,933
+what's the probability of picking a fair coin
+
+150
+00:07:01,933 --> 00:07:04,867
+and then getting two heads in a row with that fair coin,
+
+151
+00:07:04,867 --> 00:07:06,185
+you would get this number
+
+152
+00:07:06,185 --> 00:07:07,862
+If someone were to say what's the probability
+
+153
+00:07:07,862 --> 00:07:09,605
+you pick the unfair coin
+
+154
+00:07:09,605 --> 00:07:12,159
+and then get two heads in a row with that unfair coin
+
+155
+00:07:12,182 --> 00:07:13,729
+you would get this number
+
+156
+00:07:13,729 --> 00:07:15,082
+Now, if someone were to say
+
+157
+00:07:15,082 --> 00:07:17,425
+either way,
+
+158
+00:07:17,425 --> 00:07:20,067
+what's the probability of getting two heads in a row
+
+159
+00:07:20,067 --> 00:07:21,533
+because that's what they're asking us here
+
+160
+00:07:21,533 --> 00:07:24,000
+What is the probability of getting 2 heads?
+
+161
+00:07:24,000 --> 00:07:26,267
+So we could get it through this method
+
+162
+00:07:26,267 --> 00:07:28,467
+by chance picking the fair coin
+
+163
+00:07:28,467 --> 00:07:29,800
+Or through this method
+
+164
+00:07:29,800 --> 00:07:31,800
+by chance picking the unfair coin
+
+165
+00:07:31,800 --> 00:07:33,600
+So since we can do it either way,
+
+166
+00:07:33,600 --> 00:07:35,333
+we can sum up the probabilites
+
+167
+00:07:35,333 --> 00:07:39,400
+Either of these events meet our constraints
+
+168
+00:07:39,400 --> 00:07:41,933
+so we can just add these two things up
+
+169
+00:07:41,933 --> 00:07:43,267
+So let's do that
+
+170
+00:07:43,267 --> 00:07:47,133
+So we can add 0.135
+
+171
+00:07:47,133 --> 00:07:52,133
+plus 0.15625
+
+172
+00:07:52,133 --> 00:07:55,333
+gives us 0.29125
+
+173
+00:07:55,333 --> 00:08:00,467
+So 0.29125
+
+174
+00:08:00,467 --> 00:08:09,231
+That's when we add 0.15625 plus 0.135 will equal this
+
+175
+00:08:09,231 --> 00:08:11,133
+And if you want to write it as a percentage,
+
+176
+00:08:11,133 --> 00:08:14,431
+you essentially just multiply this times a 100
+
+177
+00:08:14,431 --> 00:08:16,667
+and add the percentage sign there
+
+178
+00:08:16,667 --> 00:08:22,533
+So this is equal to 29.125% or if we were to round
+
+179
+00:08:22,533 --> 00:08:25,200
+to the nearest hundredths then this would be,
+
+180
+00:08:25,200 --> 00:08:26,815
+well this would be the exact number
+
+181
+00:08:26,815 --> 00:08:30,533
+or we could say it's the approximately 29.13%
+
+182
+00:08:30,533 --> 00:08:33,067
+depending on how much we need to round it
+
+183
+00:08:33,067 --> 00:08:36,533
+So we have a little less than a third chance of this happening
+
+184
+00:08:36,533 --> 00:08:37,800
+And the reason why,
+
+185
+00:08:37,800 --> 00:08:39,200
+remember if it was a fair coin,
+
+186
+00:08:39,200 --> 00:08:40,200
+there would only be,
+
+187
+00:08:40,200 --> 00:08:42,200
+if everything in the bag was a fair coin,
+
+188
+00:08:42,200 --> 00:08:45,000
+there'd be a 25% chance of this happening
+
+189
+00:08:45,000 --> 00:08:46,000
+Because you would just say okay,
+
+190
+00:08:46,000 --> 00:08:46,867
+any of these
+
+191
+00:08:46,867 --> 00:08:48,400
+They're all the same,
+
+192
+00:08:48,400 --> 00:08:49,467
+flip it twice
+
+193
+00:08:49,467 --> 00:08:51,200
+25% chance
+
+194
+00:08:51,200 --> 00:08:52,933
+Our chances is a little bit higher
+
+195
+00:08:52,933 --> 00:08:54,200
+because there's some probability
+
+196
+00:08:54,200 --> 00:08:56,000
+There's a 3/8 chance that we pick a coin
+
+197
+00:08:56,000 --> 00:09:00,261
+that has a higher than even chance of coming up heads

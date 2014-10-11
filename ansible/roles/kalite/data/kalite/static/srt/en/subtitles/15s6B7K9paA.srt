@@ -1,0 +1,111 @@
+1
+00:00:00,082 --> 00:00:05,108
+So we're asked to solve for x and we have this equation with absolute values in it.
+
+2
+00:00:05,108 --> 00:00:14,701
+So it's 4|x+10|+4 = 6|x+10|+10.
+
+3
+00:00:14,701 --> 00:00:20,887
+And at first, this looks really daunting, but the key is to just solve for this absolute value expression and then go from there.
+
+4
+00:00:20,887 --> 00:00:42,043
+Let me rewrite it so the absolute value expression really jumps out. So this is 4|x+10|+4 = 6|x+10|+10.
+
+5
+00:00:42,043 --> 00:00:52,327
+So let's get all of the absolute values of x+10 on the left hand side. So I want to get rid of the 6|x+10| on the right.
+
+6
+00:00:52,327 --> 00:01:02,469
+Well, how would I do that? Well, I could subtract 6|x+10| from the right, but we already seen this multiple times,
+
+7
+00:01:02,469 --> 00:01:14,259
+if these two things are equal and I want to keep them equal if I subtract 6|x+10| from the right hand side, I'd have to subtract the same thing from the left hand side.
+
+8
+00:01:14,259 --> 00:01:26,152
+So we're going to have -6|x+10|, and likewise, I want to get this 4 out of this left hand side.
+
+9
+00:01:26,152 --> 00:01:32,070
+So let me subtract 4 from the left, and then I also have to do it on the right.
+
+10
+00:01:32,070 --> 00:01:38,202
+Otherwise, my equality wouldn't hold. And now let's see what we end up with.
+
+11
+00:01:38,202 --> 00:01:46,262
+So on the left hand side, the 4-4, that's 0. You have 4 of something minus 6 of something,
+
+12
+00:01:46,262 --> 00:01:54,887
+that means you're going to end up with -2 of that something. -2 of |x+10|.
+
+13
+00:01:54,887 --> 00:01:56,468
+Remember, this might seem a little confusing, but remember,
+
+14
+00:01:56,468 --> 00:02:03,513
+if we have 4 apples and you subtract 6 apples, you now have -2 apples. I guess you owe someone the apples.
+
+15
+00:02:03,513 --> 00:02:10,532
+Same way, you have 4 of this expression, you take away 6 of this expression, and you now have -2 of this expression.
+
+16
+00:02:10,532 --> 00:02:16,605
+Let me write it a little bit neater. So it's -2|x+10| is equal to --
+
+17
+00:02:16,605 --> 00:02:29,460
+well, the whole point of the 6|x+10| is to make those cancel out, and you have 10-4, which is equal to 6.
+
+18
+00:02:29,460 --> 00:02:38,449
+Now we want to solve for |x+10|. So let's get rid of this -2, and we can do that by dividing both sides by -2,
+
+19
+00:02:38,449 --> 00:02:42,937
+and you might realize, everything we've done so far is just treating this red expression --
+
+20
+00:02:42,937 --> 00:02:48,057
+it's almost just like a variable, and we're going to solve for that red expression and then take it from there.
+
+21
+00:02:48,057 --> 00:03:06,790
+So -2/-2 is 1, 6/-2 is -3. So we get |x+10| = -3. Now, this gets us to a very interesting situation. You might say,
+
+22
+00:03:06,790 --> 00:03:08,957
+"Hey, this could be the positive version or the negative version,"
+
+23
+00:03:08,957 --> 00:03:15,833
+but remember, absolute value is always non-negative.
+
+24
+00:03:15,833 --> 00:03:21,811
+When you take the absolute value of 0, you would get 0, but the absolute of anything else is going to be positive.
+
+25
+00:03:21,811 --> 00:03:25,795
+So this thing right over here is definitely going to be greater than or equal than 0.
+
+26
+00:03:25,795 --> 00:03:31,998
+Doesn't matter what x you put in there, when you take this absolute value, you're going to get a value that's greater than or equal to 0.
+
+27
+00:03:31,998 --> 00:03:40,348
+So there's no x that you can find that somehow -- you put it there, you add 10, you take the absolute value of it that you're going to get a negative value.
+
+28
+00:03:40,348 --> 00:03:44,348
+So this right over here has absolutely no solution. And I'll put some exclamation marks there for emphasis.

@@ -1,0 +1,155 @@
+1
+99:59:59,999 --> 99:59:59,999
+In this video, we're going to show you how to make a bumper switch for your bit-zee bot.
+
+2
+99:59:59,999 --> 99:59:59,999
+So, we've got the wires connected to 1 and 3, the power's connected to 1 and 3
+
+3
+99:59:59,999 --> 99:59:59,999
+and you can see the LED light up there.
+
+4
+99:59:59,999 --> 99:59:59,999
+And then when we switch the power to 1 and 2,
+
+5
+99:59:59,999 --> 99:59:59,999
+the LED turns off when we push the switch, instead of on.
+
+6
+99:59:59,999 --> 99:59:59,999
+So, we want to connect the wires to 1 and 3.
+
+7
+99:59:59,999 --> 99:59:59,999
+We're just gonna double check this with our multimeter.
+
+8
+99:59:59,999 --> 99:59:59,999
+And so, when we connect our contacts to 1 and 2, you can see that it turns off when the button is pressed.
+
+9
+99:59:59,999 --> 99:59:59,999
+And then when connected to 1 and 3, it turns on when pressed.
+
+10
+99:59:59,999 --> 99:59:59,999
+So we want to connect to 1 and 3.
+
+11
+99:59:59,999 --> 99:59:59,999
+And you can see there's a 1 and 3, really small on the lever switch there.
+
+12
+99:59:59,999 --> 99:59:59,999
+And you can buy micro-lever switches like this from Radioshack or a variety of places online.
+
+13
+99:59:59,999 --> 99:59:59,999
+And so, now we've got our alligator clips,
+
+14
+99:59:59,999 --> 99:59:59,999
+and we're going to bend the wire around the 1 and 3 contacts, so that we can get a good connection.
+
+15
+99:59:59,999 --> 99:59:59,999
+And then we're going to solder those wires in place, to make sure they don't come out.
+
+16
+99:59:59,999 --> 99:59:59,999
+And we'll use the needle-nose pliers to squeeze the wire against the connection there.
+
+17
+99:59:59,999 --> 99:59:59,999
+And I've already put some solder on those connections to make them a little easier to solder to.
+
+18
+99:59:59,999 --> 99:59:59,999
+There we go; we've got the first wire in place.
+
+19
+99:59:59,999 --> 99:59:59,999
+And the number 3 connection: we're going to just clamp that down, and then we'll go ahead and heat it up, and we've got that soldered in place too.
+
+20
+99:59:59,999 --> 99:59:59,999
+So now those wires are soldered well, and to make sure that the connection is good,
+
+21
+99:59:59,999 --> 99:59:59,999
+and that we have everything soldered correctly, we're going to go ahead and turn on our multimeter and check the ends of the wire.
+
+22
+99:59:59,999 --> 99:59:59,999
+So, we'll strip the ends of the wire off there, and use some alligator clips,
+
+23
+99:59:59,999 --> 99:59:59,999
+and we'll clip to the ends of the leads on our multimeter.
+
+24
+99:59:59,999 --> 99:59:59,999
+That way we can make sure that, yea, the switch is wired correctly, and it's working.
+
+25
+99:59:59,999 --> 99:59:59,999
+So now we're going to take the outer housing that surrounds the bot off,
+
+26
+99:59:59,999 --> 99:59:59,999
+and we're going to try and position the switch, so we're going to drill some holes.
+
+27
+99:59:59,999 --> 99:59:59,999
+And we'll use the holes that are actually in the switch as a guide for our drill.
+
+28
+99:59:59,999 --> 99:59:59,999
+It's important that you make sure that you don't drill into your fingers when you're doing this kind of close work.
+
+29
+99:59:59,999 --> 99:59:59,999
+So you want to keep your fingers away from the drill bit itself.
+
+30
+99:59:59,999 --> 99:59:59,999
+But we've positioned that switch so that it is right off of the edge of the bit-zee bot.
+
+31
+99:59:59,999 --> 99:59:59,999
+So, it sticks out over the edge -- you can see right there -- sort of tangent to the circle.
+
+32
+99:59:59,999 --> 99:59:59,999
+And that'll be important when we get the rest of our connector there in place.
+
+33
+99:59:59,999 --> 99:59:59,999
+And we've put the screws in upside-down.
+
+34
+99:59:59,999 --> 99:59:59,999
+That's so that when we put our speaker back in place, the bolts that are protruding won't interfere with that speaker.
+
+35
+99:59:59,999 --> 99:59:59,999
+So, that's why they're sticking up from the underside.
+
+36
+99:59:59,999 --> 99:59:59,999
+So we're just tightening those down again with the screwdriver and the needle-nose pliers.
+
+37
+99:59:59,999 --> 99:59:59,999
+And we are using 12 gauge solid copper wire, and the reason is that it's pretty stiff,
+
+38
+99:59:59,999 --> 99:59:59,999
+so it allows us to extend the lever arm for our switch considerably.
+
+39
+99:59:59,999 --> 99:59:59,999
+So anything that gets in front of our bit-zee bot will be able to trigger its bumper switch.

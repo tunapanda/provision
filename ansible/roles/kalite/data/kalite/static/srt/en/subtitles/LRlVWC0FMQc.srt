@@ -1,0 +1,175 @@
+1
+00:00:00,467 --> 00:00:08,400
+Solve for x, and we have the absolute value of 2x minus 5 is equal to 11.
+
+2
+00:00:08,400 --> 00:00:14,067
+Now, the big insight you need to have whenever you have an absolute value equation like this
+
+3
+00:00:14,067 --> 00:00:19,867
+is to remember, if I have the absolute value of a is equal to 11
+
+4
+00:00:19,867 --> 00:00:21,733
+what do we know about a?
+
+5
+00:00:21,733 --> 00:00:23,867
+That means that a is either equal to 11
+
+6
+00:00:23,867 --> 00:00:27,231
+OR, what else could a be?
+
+7
+00:00:28,600 --> 00:00:31,267
+It could be negative 11.
+
+8
+00:00:31,267 --> 00:00:35,600
+Because there are two possible a's that are exactly 11 away from zero.
+
+9
+00:00:35,600 --> 00:00:39,000
+It could be positive 11, or it could be negative 11.
+
+10
+00:00:39,000 --> 00:00:42,200
+That's the exact same logic you apply to an equation like this.
+
+11
+00:00:42,200 --> 00:00:46,733
+If the absoulte value of 2x minus 5 is equal to 11
+
+12
+00:00:46,733 --> 00:00:51,800
+that means that the stuff inside the absolute value sign either equals 11
+
+13
+00:00:51,800 --> 00:00:57,333
+or the stuff inside the absolute value sign is equal to NEGATIVE 11.
+
+14
+00:00:57,333 --> 00:01:00,533
+Because if this is equal to 11, the absolute value of 11 is 11,
+
+15
+00:01:00,533 --> 00:01:03,733
+If this thing over here is equal to negative 11, when you take its absolute value
+
+16
+00:01:03,733 --> 00:01:06,000
+it'll still be equal to 11.
+
+17
+00:01:06,000 --> 00:01:12,067
+So, let's write that down - so 2x minus 5 could be equal to 11,
+
+18
+00:01:12,067 --> 00:01:19,067
+or 2x minus 5 could be equal to negative 11.
+
+19
+00:01:19,067 --> 00:01:22,733
+In either case its absolute value is 11.
+
+20
+00:01:22,733 --> 00:01:25,267
+Now, let's just solve each of these equations.
+
+21
+00:01:25,267 --> 00:01:28,600
+Over here we can add 5 to both sides
+
+22
+00:01:28,600 --> 00:01:37,067
+of this equation - we get 11 plus 5 is 16, 2x minus 5 plus 5 is just 2x.
+
+23
+00:01:37,067 --> 00:01:45,333
+2x is equal to 16, divide both sides by 2, we get x is equal to 8.
+
+24
+00:01:45,333 --> 00:01:48,067
+Now let's do this situation.
+
+25
+00:01:48,067 --> 00:01:53,533
+2x minus 5 is equal negative 11 - let's add 5 to both sides of this equiation.
+
+26
+00:01:53,533 --> 00:01:57,067
+On the left hand side we just get 2x because the 5's cancel out.
+
+27
+00:01:57,067 --> 00:02:02,067
+2x is equal to negative 11 plus 5, that's negative 6.
+
+28
+00:02:02,067 --> 00:02:06,067
+And we can divide both sides by 2
+
+29
+00:02:06,067 --> 00:02:12,867
+and we get x is equal to negative 3.
+
+30
+00:02:12,867 --> 00:02:18,000
+So we've got two solutions, depending on whether this thing in here is equal to 11 or negative 11.
+
+31
+00:02:18,000 --> 00:02:23,000
+We got x to be equal to 8, in which case 2x minus 5 would be 11,
+
+32
+00:02:23,000 --> 00:02:27,502
+or we have x is equal to negative 3, in which case 2x minus 5 is equal to negative 11.
+
+33
+00:02:27,502 --> 00:02:29,133
+Let's verify it.
+
+34
+00:02:29,133 --> 00:02:32,667
+So, if x is equal to 8, let's show that it satisfies this equation.
+
+35
+00:02:32,667 --> 00:02:39,000
+So we'd get 2 times 8, minus 5. The absolute value of 2 times 8, minus 5 should be 11.
+
+36
+00:02:39,000 --> 00:02:42,400
+2 times 8 is 16, minus 5 gives 11.
+
+37
+00:02:42,400 --> 00:02:46,467
+So the absolute value of 11 is 11, we know that's true.
+
+38
+00:02:46,467 --> 00:02:50,067
+It all works out.
+
+39
+00:02:50,067 --> 00:02:52,733
+Now let's try when x is equal to negative 3.
+
+40
+00:02:52,733 --> 00:02:57,467
+We get the absolute value of 2 times negative 3, minus 5.
+
+41
+00:02:57,467 --> 00:03:02,400
+should be equal to 11. So what's 2 times negative 3?
+
+42
+00:03:02,400 --> 00:03:09,400
+2 times negative 3 is negative 6, minus 5 gives negative 11.
+
+43
+00:03:09,400 --> 00:03:19,733
+The absolute value of negative 11 is 11, so we get 11 is equal to 11,
+
+44
+00:03:19,733 --> 99:59:59,999
+so they BOTH work.

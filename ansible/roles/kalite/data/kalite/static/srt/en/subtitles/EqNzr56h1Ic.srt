@@ -1,0 +1,679 @@
+1
+00:00:01,170 --> 00:00:05,780
+So this problem here we're told that the triangle ACE is isosceles
+
+2
+00:00:05,790 --> 00:00:07,790
+so that's this big triangle right here
+
+3
+00:00:07,800 --> 00:00:11,720
+Its isosceles which means it has two equal sides and we also know
+
+4
+00:00:11,730 --> 00:00:15,460
+from isosceles triangles that the base angles must be equal
+
+5
+00:00:15,470 --> 00:00:17,930
+So this two base angles are going to be equal
+
+6
+00:00:17,940 --> 00:00:19,600
+and this side right over here
+
+7
+00:00:19,610 --> 00:00:22,230
+is going to be equal in length to this side over here
+
+8
+00:00:22,240 --> 00:00:26,210
+We can say AC is going to be equal to CE so we get all of that
+
+9
+00:00:26,220 --> 00:00:29,240
+from this first statement right over there
+
+10
+00:00:29,250 --> 00:00:32,450
+Then they gave us some more clues or some more information
+
+11
+00:00:32,460 --> 00:00:35,200
+They say CG is equal to 24 so this is CG
+
+12
+00:00:35,210 --> 00:00:38,070
+right over here it has length 24
+
+13
+00:00:38,080 --> 00:00:43,830
+They tell us BH is equal to DF BH is equal to DF so those two things
+
+14
+00:00:43,840 --> 00:00:47,060
+are going to be congruent they're gonna be the same length
+
+15
+00:00:47,070 --> 00:00:51,000
+Then they tell us that GF is equal to 12
+
+16
+00:00:51,200 --> 00:00:52,980
+so this is GF right over here
+
+17
+00:00:52,990 --> 00:00:57,430
+so GF is equal to 12 that distance right over there
+
+18
+00:00:57,440 --> 00:01:03,450
+And then they finally tell us that FE is equal to 6 so this is FE
+
+19
+00:01:03,460 --> 00:01:12,750
+And then finally they ask us what is the area of CBHFD so CBHFD
+
+20
+00:01:12,760 --> 00:01:15,990
+so they're asking us for the area they're asking us for the area
+
+21
+00:01:16,000 --> 00:01:17,710
+of this part right over here
+
+22
+00:01:17,720 --> 00:01:24,000
+Let me that part and that part right over there that is CBHFD
+
+23
+00:01:24,010 --> 00:01:25,740
+So let's think about how we can do this
+
+24
+00:01:25,750 --> 00:01:28,780
+We can figure out the area of the larger triangle and then from
+
+25
+00:01:28,790 --> 00:01:32,060
+that we could subtract the areas of this little pieces at the end
+
+26
+00:01:32,070 --> 00:01:34,920
+Then we'll be able to figure out this middle area this area
+
+27
+00:01:34,930 --> 00:01:36,730
+that I've shaded then we don't have
+
+28
+00:01:36,740 --> 00:01:38,290
+the information yet to solve that
+
+29
+00:01:38,300 --> 00:01:42,110
+We don't know the height or the altitude of this triangle is
+
+30
+00:01:42,120 --> 00:01:44,420
+We don't know it's base if we knew its base
+
+31
+00:01:44,430 --> 00:01:46,580
+We would say hey! one half base times height we'd get the area
+
+32
+00:01:46,590 --> 00:01:49,570
+of this triangle and then we have to figure out subtract this areas
+
+33
+00:01:49,580 --> 00:01:51,340
+And we don't have full information there either
+
+34
+00:01:51,350 --> 00:01:53,450
+We don't know this height once we know that height
+
+35
+00:01:53,460 --> 00:01:56,670
+then we could figure out this height but we also don't quite yet know
+
+36
+00:01:56,680 --> 00:01:58,610
+what this length right over here is
+
+37
+00:01:58,620 --> 00:02:00,700
+So let's just take it piece by piece
+
+38
+00:02:00,890 --> 00:02:03,690
+So the first thing we might want to do and you might guess
+
+39
+00:02:03,700 --> 00:02:05,590
+cause we've been talking a lot about similarities
+
+40
+00:02:05,600 --> 00:02:08,300
+making some type of argument about similarity here
+
+41
+00:02:08,310 --> 00:02:10,240
+because there's a bunch of similar triangles
+
+42
+00:02:10,250 --> 00:02:18,170
+For example, triangle CGE shares this angle with triangle DFE
+
+43
+00:02:18,180 --> 00:02:20,610
+They both share this orange angle right here
+
+44
+00:02:20,620 --> 00:02:24,260
+and they both have this right angle right over here
+
+45
+00:02:24,270 --> 00:02:27,190
+So, they have two angles in common they're going to be similar
+
+46
+00:02:27,200 --> 00:02:29,950
+by angle-angle you can actually show there's should be a third angle
+
+47
+00:02:29,960 --> 00:02:32,310
+in common because this two are parallel lines
+
+48
+00:02:32,320 --> 00:02:47,540
+So, we can write the triangle CGE is similar to triangle DFE
+
+49
+00:02:47,550 --> 00:02:49,930
+And we know that by angle-angle
+
+50
+00:02:49,940 --> 00:02:52,750
+We have one course set of corresponding angles congruent
+
+51
+00:02:52,760 --> 00:02:55,580
+and then this angle is in both triangle so it is a set
+
+52
+00:02:55,590 --> 00:02:58,780
+of corresponding congruent angles right over there
+
+53
+00:02:58,790 --> 00:03:00,950
+And so then once that we know that they're similar,
+
+54
+00:03:00,960 --> 00:03:02,970
+we can set up the ratio between sides
+
+55
+00:03:02,980 --> 00:03:05,250
+'Cause we have some information about some of the sides
+
+56
+00:03:05,260 --> 00:03:09,710
+so we know that the ratio we know that the ratio between DF
+
+57
+00:03:09,720 --> 00:03:11,930
+and this side right over here which is a corresponding side
+
+58
+00:03:11,940 --> 00:03:17,820
+The ratio between DF and CG so the ratio between DF and CG
+
+59
+00:03:17,830 --> 00:03:22,940
+which is 24 is going to be the same thing as the ratio between FE,
+
+60
+00:03:22,950 --> 00:03:31,540
+FE which is 6 and GE which is not 12 it's 12 plus 6 it is 18
+
+61
+00:03:31,840 --> 00:03:35,230
+And then let's see 6 over 18 this is just 1 over 3,
+
+62
+00:03:35,240 --> 00:03:43,020
+you get 3 DF is equal to 24
+
+63
+00:03:43,030 --> 00:03:46,690
+I just cross multiplied or you could multiply both sides by 24
+
+64
+00:03:46,700 --> 00:03:49,290
+Multiply both sides by 3 you would get this
+
+65
+00:03:49,300 --> 00:03:51,470
+Actually you could just multiply both sides 24
+
+66
+00:03:51,480 --> 00:03:55,150
+and then you get 24 times one-third but we'll just do it this way
+
+67
+00:03:55,160 --> 00:04:00,320
+divide both sides by 3 you get DF, DF is equal to 8
+
+68
+00:04:00,330 --> 00:04:04,900
+So, we found out that DF is equal to 8 that length right over there
+
+69
+00:04:04,910 --> 00:04:06,480
+And that's useful for us
+
+70
+00:04:06,490 --> 00:04:13,070
+Because we know that this length right over here is also equal to 8
+
+71
+00:04:13,080 --> 00:04:14,970
+And now what could we do?
+
+72
+00:04:14,980 --> 00:04:17,290
+Well we can make another seems
+
+73
+00:04:17,300 --> 00:04:19,240
+like we can make another similarity argument
+
+74
+00:04:19,250 --> 00:04:20,910
+'cause we have this angle right over here
+
+75
+00:04:20,920 --> 00:04:24,080
+It is congruent to that angle right over there
+
+76
+00:04:24,090 --> 00:04:27,460
+And we also have this angle which is going to be 90 degrees
+
+77
+00:04:27,470 --> 00:04:30,970
+We have a 90-degree angle there and actually said that by itself
+
+78
+00:04:30,980 --> 00:04:33,650
+is actually enough to say that we have two similar triangles
+
+79
+00:04:33,660 --> 00:04:36,920
+We don't even have to show that they have a congruent side here
+
+80
+00:04:36,930 --> 00:04:39,120
+and actually were gonna show this are two congruent triangles
+
+81
+00:04:39,130 --> 00:04:41,290
+that we're dealing with right over here
+
+82
+00:04:41,300 --> 00:04:44,950
+So we have two angles and actually we could just go straight to that
+
+83
+00:04:44,960 --> 00:04:46,850
+'cause when we talk about congruency
+
+84
+00:04:46,860 --> 00:04:49,870
+if you have an angle that's congruent to another angle,
+
+85
+00:04:49,880 --> 00:04:51,420
+another angle that's congruent to another angle
+
+86
+00:04:51,430 --> 00:04:54,180
+and then a side that's congruent to another side you're dealing
+
+87
+00:04:54,190 --> 00:04:56,000
+with 2 congruent triangles
+
+88
+00:04:56,010 --> 00:05:02,070
+So, we can write triangle right over here I'll write it in pink
+
+89
+00:05:02,080 --> 00:05:08,630
+Triangle AHB is congruent is congruent to triangle
+
+90
+00:05:08,640 --> 00:05:11,260
+You wanna get the corresponding vertices right
+
+91
+00:05:11,270 --> 00:05:18,880
+We can read the triangle EFD to triangle EFD and we know that
+
+92
+00:05:18,890 --> 00:05:25,340
+because we angle-angle-side postulate for congruency
+
+93
+00:05:25,350 --> 00:05:28,840
+And if that two triangles are congruent that makes things convenient
+
+94
+00:05:28,850 --> 00:05:32,060
+that means if this side is 8, that side is 8 we already knew that
+
+95
+00:05:32,070 --> 00:05:33,840
+That's how we established our congruency but that means
+
+96
+00:05:33,850 --> 00:05:35,440
+if this side is 6 has length 6
+
+97
+00:05:35,450 --> 00:05:37,760
+and the corresponding set on this triangle
+
+98
+00:05:37,770 --> 00:05:40,530
+is also going to have length 6
+
+99
+00:05:40,540 --> 00:05:45,700
+So we can write this length right over here is also going to be 6
+
+100
+00:05:45,710 --> 00:05:49,120
+Now I can imagine, you can imagine where all of this is gonna go
+
+101
+00:05:49,130 --> 00:05:50,520
+but we want to prove to ourselves
+
+102
+00:05:50,530 --> 00:05:53,060
+we want know for sure what the areas
+
+103
+00:05:53,070 --> 00:05:55,380
+We don't want to say "Hey maybe this is the same thing as that"
+
+104
+00:05:55,390 --> 00:05:57,120
+Let's just actually prove it to ourselves
+
+105
+00:05:57,130 --> 00:05:59,830
+So how do we figure out we've almost figure out the entire base
+
+106
+00:05:59,840 --> 00:06:03,260
+of this triangle but we still haven't figure out the length of HG
+
+107
+00:06:03,270 --> 00:06:05,630
+Well now we can use a similarity argument again
+
+108
+00:06:05,640 --> 00:06:06,500
+because we can see that
+
+109
+00:06:06,510 --> 00:06:11,570
+triangle ABH is actually similar to triangle ACG
+
+110
+00:06:11,580 --> 00:06:15,620
+They both have this angle here and then they both have a right angle
+
+111
+00:06:15,630 --> 00:06:19,100
+that one ABH has right angle there ACG
+
+112
+00:06:19,110 --> 00:06:20,300
+has a right angle right over there
+
+113
+00:06:20,310 --> 00:06:22,430
+So you have two angles two corresponding
+
+114
+00:06:22,440 --> 00:06:24,610
+angles are equal to each other
+
+115
+00:06:24,620 --> 00:06:26,890
+You're now dealing with similar triangles
+
+116
+00:06:26,900 --> 00:06:33,470
+So we know that triangle ABH ill just write it this as AHB
+
+117
+00:06:33,480 --> 00:06:36,320
+since I already wrote it this way
+
+118
+00:06:36,330 --> 00:06:41,730
+AHB is similar to triangle AGC
+
+119
+00:06:41,740 --> 00:06:44,010
+You want to make sure you got the vertices in the right order
+
+120
+00:06:44,020 --> 00:06:47,930
+A is orange angle G is the right angle and C is the unlabeled angle
+
+121
+00:06:47,940 --> 00:06:56,050
+This is similar triangle AGC
+
+122
+00:06:56,060 --> 00:06:59,080
+Now what that does for is that we could use the ratios to figure out
+
+123
+00:06:59,090 --> 00:07:02,500
+what HG is equal to so what can we say over here
+
+124
+00:07:02,510 --> 00:07:05,280
+Well we can say that 8 over 24
+
+125
+00:07:05,290 --> 00:07:08,260
+BH over its corresponding side of the larger triangle
+
+126
+00:07:08,270 --> 00:07:16,330
+So we say 8 over 24 is equal to 6 is equal to 6 over not HG
+
+127
+00:07:16,340 --> 00:07:22,180
+but over AG 6 over AG and I think you can see where this is going
+
+128
+00:07:22,190 --> 00:07:27,190
+You have one-third is equal to 6 over AG
+
+129
+00:07:27,200 --> 00:07:34,620
+or we can cross multiply here and we can get AG is equal to 18
+
+130
+00:07:34,630 --> 00:07:40,000
+So this entire length right over is 18 if AG is 18 and AH is,
+
+131
+00:07:40,010 --> 00:07:42,050
+then HG is 12
+
+132
+00:07:42,060 --> 00:07:43,950
+And this is what you might have guessed if you were just trying
+
+133
+00:07:43,960 --> 00:07:45,450
+to guess the answer right over here
+
+134
+00:07:45,460 --> 00:07:50,420
+But now we have proven to ourselves that this base is has length of
+
+135
+00:07:50,430 --> 00:07:51,500
+Well we have 18 here
+
+136
+00:07:51,510 --> 00:07:55,560
+and we have another 18 here so has a length of 36
+
+137
+00:07:55,570 --> 00:08:01,330
+so the entire base here is 36, so that is 36
+
+138
+00:08:01,340 --> 00:08:03,650
+And so now we can find out the area of this larger
+
+139
+00:08:03,660 --> 00:08:06,250
+of this entire isosceles triangle
+
+140
+00:08:06,260 --> 00:08:13,970
+So, the area of ACE is going to be equal to one-half times the base
+
+141
+00:08:13,980 --> 00:08:18,310
+which is 36 times 24
+
+142
+00:08:18,320 --> 00:08:25,570
+And so this going to be the same thing as one-half times 36 is 18
+
+143
+00:08:25,580 --> 00:08:33,250
+18 times 24 I'll just do that over here at the top so 18 times 24
+
+144
+00:08:33,620 --> 00:08:40,250
+8 times 4 is 32, one times 4 is 4, plus 3 is 7,
+
+145
+00:08:40,260 --> 00:08:41,280
+let me put a zero here
+
+146
+00:08:41,290 --> 00:08:43,290
+because we're not dealing math with 2 but 20
+
+147
+00:08:43,300 --> 00:08:50,310
+If 2 times 8 is 16, 2 times one is 2 plus 1 so it's 316
+
+148
+00:08:50,320 --> 00:08:56,680
+and then you have 2, 7 plus 6 is 13, one plus 3 is 4
+
+149
+00:08:56,690 --> 00:09:02,120
+So the area is ACE is equal to 432 but were not done yet
+
+150
+00:09:02,130 --> 00:09:04,340
+This area that we that we care about
+
+151
+00:09:04,350 --> 00:09:09,330
+is the area of the entire triangle minus this area
+
+152
+00:09:09,340 --> 00:09:12,140
+and minus this area right over here
+
+153
+00:09:12,150 --> 00:09:14,930
+So what is the area what is the area of this each
+
+154
+00:09:14,940 --> 00:09:16,710
+of this little wedges right over here
+
+155
+00:09:16,720 --> 00:09:20,930
+So it's going to be one-half times 8 times 6, so one-half times 8,
+
+156
+00:09:20,940 --> 00:09:22,400
+is 4 times 6
+
+157
+00:09:22,410 --> 00:09:25,840
+So this is going to be 24 right over there and this is going
+
+158
+00:09:25,850 --> 00:09:27,740
+to be another 24 right over there
+
+159
+00:09:27,750 --> 00:09:35,140
+So this is going to be equal to 432 minus 24 minus 24, or minus 48
+
+160
+00:09:35,150 --> 00:09:37,850
+Which is equal to and we could try this to do this on our head
+
+161
+00:09:37,860 --> 00:09:41,040
+If we subtract 32 we're gonna get to 400
+
+162
+00:09:41,050 --> 00:09:44,470
+and then were gonna have to subtract another 16
+
+163
+00:09:44,480 --> 00:09:49,290
+So if you subtract 10 from 400 its 390 so that you get to 300 you get
+
+164
+00:09:49,300 --> 00:09:52,960
+to 384 whatever they units for this were
+
+165
+00:09:52,970 --> 00:09:54,690
+If these were in meters and this would be meters squared
+
+166
+00:09:54,700 --> 00:09:57,090
+If this centimeters this will be in centimeters squared
+
+167
+00:09:57,100 --> 00:09:58,170
+And did I do that right?
+
+168
+00:09:58,180 --> 00:10:01,290
+Let me go the other way if I add 8 if I add 40 to this
+
+169
+00:10:01,300 --> 00:10:04,700
+24 plus another 8 gets me to 432
+
+170
+00:10:04,710 --> 00:10:06,400
+Yup and were done

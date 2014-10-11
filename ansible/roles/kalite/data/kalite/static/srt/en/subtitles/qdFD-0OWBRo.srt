@@ -1,0 +1,1710 @@
+1
+00:00:00,000 --> 00:00:00,550
+   
+
+2
+00:00:00,550 --> 00:00:04,770
+Let's say we have the same path
+that we had in the last video.
+
+3
+00:00:04,770 --> 00:00:09,710
+Draw my y-axis,
+that is my x-axis.
+
+4
+00:00:09,710 --> 00:00:12,630
+Let's say the path looks
+like this, it looks
+
+5
+00:00:12,630 --> 00:00:13,570
+something like this.
+
+6
+00:00:13,570 --> 00:00:16,080
+It's the same one we
+had in the last video.
+
+7
+00:00:16,080 --> 00:00:18,270
+Might not look exactly like
+it, let me see what I
+
+8
+00:00:18,270 --> 00:00:19,430
+did in the last video.
+
+9
+00:00:19,430 --> 00:00:22,330
+It looked like that in the
+last video, but close enough.
+
+10
+00:00:22,330 --> 00:00:24,270
+Let's say we're dealing
+with the exact same
+
+11
+00:00:24,270 --> 00:00:25,450
+curve as the last video.
+
+12
+00:00:25,450 --> 00:00:27,840
+We could call that curve c.
+
+13
+00:00:27,840 --> 00:00:32,850
+Now last video, we dealt with
+a vector field that only had
+
+14
+00:00:32,850 --> 00:00:34,240
+vectors in the i direction.
+
+15
+00:00:34,240 --> 00:00:37,590
+Let's build with another vector
+field that only has vectors in
+
+16
+00:00:37,590 --> 00:00:39,680
+j direction, or the
+vertical direction.
+
+17
+00:00:39,680 --> 00:00:46,810
+So let's say that q, the vector
+field q of xy, say it's equal
+
+18
+00:00:46,810 --> 00:00:54,430
+to capital Q of xy times j, and
+we are going to concern
+
+19
+00:00:54,430 --> 00:00:58,120
+ourselves we're going to
+concern ourselves with though
+
+20
+00:00:58,120 --> 00:01:09,310
+closed line integral around the
+path c of q dot dr. And
+
+21
+00:01:09,310 --> 00:01:11,760
+we've seen it already.
+
+22
+00:01:11,760 --> 00:01:20,240
+dr can be rewritten as dx
+times i, plus dy times j.
+
+23
+00:01:20,240 --> 00:01:23,940
+So if we were to take the dot
+product of these two, this
+
+24
+00:01:23,940 --> 00:01:26,300
+line integral is going to
+be the exact same thing.
+
+25
+00:01:26,300 --> 00:01:29,830
+This is going to be the same
+thing as the closed line
+
+26
+00:01:29,830 --> 00:01:34,090
+integral over c of q dot dr.
+Well, Q only has a j-component.
+
+27
+00:01:34,090 --> 00:01:34,830
+So if you take [? its ?]
+
+28
+00:01:34,830 --> 00:01:38,780
+0i, so 0 times dxs is 0,
+and then you're going
+
+29
+00:01:38,780 --> 00:01:41,190
+to have Q xy times dy.
+
+30
+00:01:41,190 --> 00:01:44,810
+They had no i-component, so
+this is just going to be Q,
+
+31
+00:01:44,810 --> 00:01:51,780
+I'll switch to that same color
+again, Q of x and y times dy.
+
+32
+00:01:51,780 --> 00:01:52,900
+That's the dot product.
+
+33
+00:01:52,900 --> 00:01:56,960
+There was no i-component,
+that's why we lose the dx.
+
+34
+00:01:56,960 --> 00:02:00,030
+Now let's see if there's any
+way that we can solve this line
+
+35
+00:02:00,030 --> 00:02:02,710
+integral without having to
+resort to a third parameter, t.
+
+36
+00:02:02,710 --> 00:02:03,780
+Just like we did in
+the last video.
+
+37
+00:02:03,780 --> 00:02:05,875
+Actually, it will be almost
+identical, we're just dealing
+
+38
+00:02:05,875 --> 00:02:08,080
+with y's now instead of x's.
+
+39
+00:02:08,080 --> 00:02:09,920
+So what we can do is, we
+could say, well, what's our
+
+40
+00:02:09,920 --> 00:02:12,070
+minimum y and our maximum y?
+
+41
+00:02:12,070 --> 00:02:15,120
+So our minimum y, let's
+say it's right here.
+
+42
+00:02:15,120 --> 00:02:17,840
+The minimum y,
+let's call that a.
+
+43
+00:02:17,840 --> 00:02:22,906
+Let's say our maximum y that we
+attain is right over there.
+
+44
+00:02:22,906 --> 00:02:24,880
+Let's call that b.
+
+45
+00:02:24,880 --> 00:02:26,960
+Oh, and just like in the last,
+I forgot to tell you the
+
+46
+00:02:26,960 --> 00:02:28,250
+direction of the curve.
+
+47
+00:02:28,250 --> 00:02:30,270
+But this is the same path as
+last time, so we're going in a
+
+48
+00:02:30,270 --> 00:02:32,070
+counterclockwise direction.
+
+49
+00:02:32,070 --> 00:02:36,500
+The exact same curve,
+exact same path.
+
+50
+00:02:36,500 --> 00:02:39,180
+So we're going in
+that direction.
+
+51
+00:02:39,180 --> 00:02:42,160
+Now in the last video, we broke
+it up into two functions of
+
+52
+00:02:42,160 --> 00:02:44,600
+x's, two y's as a
+function of x.
+
+53
+00:02:44,600 --> 00:02:45,920
+Now we want to deal with y's.
+
+54
+00:02:45,920 --> 00:02:48,530
+Let's break it up into
+two functions of y.
+
+55
+00:02:48,530 --> 00:02:54,560
+So if we break this path into
+two paths, those are kind of
+
+56
+00:02:54,560 --> 00:02:59,720
+our extreme points, let's call
+this past right here, let's
+
+57
+00:02:59,720 --> 00:03:06,110
+call that path right there,
+let's call that y, let's call
+
+58
+00:03:06,110 --> 00:03:10,930
+that x of-- so here, along this
+path, x is equal to-- or I
+
+59
+00:03:10,930 --> 00:03:16,350
+could just write path
+2, or a call it c2.
+
+60
+00:03:16,350 --> 00:03:18,956
+We could say it's,
+
+61
+00:03:18,956 --> 00:03:22,210
+x is equal to x2 of y.
+
+62
+00:03:22,210 --> 00:03:23,550
+That's that path.
+
+63
+00:03:23,550 --> 00:03:26,250
+And then the first path, or
+it doesn't have to be the
+
+64
+00:03:26,250 --> 00:03:27,740
+first path, depending
+where you start.
+
+65
+00:03:27,740 --> 00:03:28,670
+You can start anywhere.
+
+66
+00:03:28,670 --> 00:03:30,410
+Let's say this one in magenta.
+
+67
+00:03:30,410 --> 00:03:33,050
+We'll call that path 1, and we
+could say, that that's defined
+
+68
+00:03:33,050 --> 00:03:36,480
+as x is equal to x1 of y.
+
+69
+00:03:36,480 --> 00:03:39,395
+It's a little confusing when
+you have x as a function of y,
+
+70
+00:03:39,395 --> 00:03:41,290
+but it's really completely
+analogous to what we
+
+71
+00:03:41,290 --> 00:03:42,470
+did in the last video.
+
+72
+00:03:42,470 --> 00:03:44,630
+We're literally just
+swapping x's and y.
+
+73
+00:03:44,630 --> 00:03:47,140
+We're now expressing x as
+a function of y, instead
+
+74
+00:03:47,140 --> 00:03:48,870
+of y as a function of x.
+
+75
+00:03:48,870 --> 00:03:50,560
+So we have these two curves.
+
+76
+00:03:50,560 --> 00:03:52,680
+You can imagine just flipping
+it, and we're doing the exact
+
+77
+00:03:52,680 --> 00:03:54,460
+same thing that we did in
+the last videos, just
+
+78
+00:03:54,460 --> 00:03:55,820
+now in terms of y.
+
+79
+00:03:55,820 --> 00:03:59,610
+But if you look at it this way,
+this line integral can be
+
+80
+00:03:59,610 --> 00:04:07,590
+rewritten as being equal to
+the integral, let's
+
+81
+00:04:07,590 --> 00:04:11,650
+just do c2 first.
+
+82
+00:04:11,650 --> 00:04:15,380
+This is the integral
+from b to a.
+
+83
+00:04:15,380 --> 00:04:17,860
+We start at b, and we go to a.
+
+84
+00:04:17,860 --> 00:04:21,290
+This is, we're coming back
+from a high y to a low y.
+
+85
+00:04:21,290 --> 00:04:30,240
+The integral from b to a of
+Q of-- in that gray color.
+
+86
+00:04:30,240 --> 00:04:34,430
+Q of, instead of having an x
+there, we know along this curve
+
+87
+00:04:34,430 --> 00:04:37,650
+right here, x is equal to, we
+want everything in terms of y.
+
+88
+00:04:37,650 --> 00:04:40,210
+So here, x is equal to x2 of y.
+
+89
+00:04:40,210 --> 00:04:47,800
+So Q of x2 of y, x2 of y comma
+y, maybe I'm using too many
+
+90
+00:04:47,800 --> 00:04:50,680
+colors here, but I think
+you get the idea.
+
+91
+00:04:50,680 --> 00:04:51,045
+dy.
+
+92
+00:04:51,045 --> 00:04:54,320
+   
+
+93
+00:04:54,320 --> 00:04:56,580
+So this is the part of the
+line integral, just over
+
+94
+00:04:56,580 --> 00:04:57,800
+this left hand curve.
+
+95
+00:04:57,800 --> 00:05:03,940
+And then we're going to add to
+that the line integral, or
+
+96
+00:05:03,940 --> 00:05:07,980
+really just a regular integral
+now, from y is equal to a to y
+
+97
+00:05:07,980 --> 00:05:18,325
+is equal to b of Q of, instead
+of x being equal to x2, now x
+
+98
+00:05:18,325 --> 00:05:21,170
+is equal to x1 of y, it's equal
+to this curve, this
+
+99
+00:05:21,170 --> 00:05:22,780
+other function.
+
+100
+00:05:22,780 --> 00:05:33,060
+So x1 of y, x1 of y comma y,
+dy, and we can do exactly what
+
+101
+00:05:33,060 --> 00:05:34,900
+we did in the previous video.
+
+102
+00:05:34,900 --> 00:05:37,370
+Instead of, we don't like the
+larger number on the bottom, so
+
+103
+00:05:37,370 --> 00:05:39,760
+let's swap these two around.
+
+104
+00:05:39,760 --> 00:05:42,870
+So if you swap these two, if
+you make this into an a, and
+
+105
+00:05:42,870 --> 00:05:46,800
+this into a b, that makes it
+the negative of the integral,
+
+106
+00:05:46,800 --> 00:05:50,200
+when you swap the two,
+change the direction.
+
+107
+00:05:50,200 --> 00:05:52,150
+This is exactly what we did in
+the last video, so hopefully
+
+108
+00:05:52,150 --> 00:05:53,000
+it's nothing too fancy.
+
+109
+00:05:53,000 --> 00:05:55,490
+But now that we have the same
+boundaries of integration,
+
+110
+00:05:55,490 --> 00:05:58,690
+these two definite integrals,
+we can just write them as
+
+111
+00:05:58,690 --> 00:06:00,280
+one definite integral.
+
+112
+00:06:00,280 --> 00:06:05,470
+So this is going to be equal
+to the integral from a to b.
+
+113
+00:06:05,470 --> 00:06:08,450
+And I'll write this one
+first, since it's positive.
+
+114
+00:06:08,450 --> 00:06:10,370
+Of, I'll write in this one.
+
+115
+00:06:10,370 --> 00:06:18,500
+Q of x1 of y comma
+y, minus this one.
+
+116
+00:06:18,500 --> 00:06:18,730
+Right?
+
+117
+00:06:18,730 --> 00:06:19,710
+We have the minus sign here.
+
+118
+00:06:19,710 --> 00:06:28,590
+Minus q of x2 of y and y dy.
+
+119
+00:06:28,590 --> 00:06:31,540
+Let me do that in
+that neutral color.
+
+120
+00:06:31,540 --> 00:06:35,590
+dy, that's multiplied by
+all of these things.
+
+121
+00:06:35,590 --> 00:06:38,060
+I distributed out the dy,
+I think you get the idea.
+
+122
+00:06:38,060 --> 00:06:39,930
+This is identical to what
+we did in the last video.
+
+123
+00:06:39,930 --> 00:06:43,810
+And this could be rewritten as,
+this is equal to the integral
+
+124
+00:06:43,810 --> 00:06:49,120
+from a to b of, and inside of
+the integral, we're evaluating
+
+125
+00:06:49,120 --> 00:06:57,490
+the function of Q of xy from
+the boundaries, the upper
+
+126
+00:06:57,490 --> 00:07:02,880
+boundary, where, the upper
+boundary is going to be from x
+
+127
+00:07:02,880 --> 00:07:08,696
+is equal to x1 of y, and
+the lower boundary is
+
+128
+00:07:08,696 --> 00:07:11,560
+x is equal to x2 of y.
+
+129
+00:07:11,560 --> 00:07:11,970
+Right?
+
+130
+00:07:11,970 --> 00:07:14,950
+All the x's we substituted with
+that, and then we get some
+
+131
+00:07:14,950 --> 00:07:18,490
+expression, and then from that,
+we subtract this with x
+
+132
+00:07:18,490 --> 00:07:19,650
+substituted as x2 of y.
+
+133
+00:07:19,650 --> 00:07:22,110
+That's exactly what we did, and
+just like I said in last video,
+
+134
+00:07:22,110 --> 00:07:24,160
+we're going kind of the reverse
+direction that we normally
+
+135
+00:07:24,160 --> 00:07:24,990
+go in definite integrals.
+
+136
+00:07:24,990 --> 00:07:26,640
+We normally get to this,
+and then the next
+
+137
+00:07:26,640 --> 00:07:27,580
+step is, we get this.
+
+138
+00:07:27,580 --> 00:07:29,210
+But now we're going in the
+reverse direction, but it's
+
+139
+00:07:29,210 --> 00:07:30,420
+all the same difference.
+
+140
+00:07:30,420 --> 00:07:31,860
+And all of that times dy.
+
+141
+00:07:31,860 --> 00:07:35,540
+   
+
+142
+00:07:35,540 --> 00:07:38,740
+And just like we saw in the
+last video, this, let me do it
+
+143
+00:07:38,740 --> 00:07:41,870
+in orange, this expression
+right here, actually let me
+
+144
+00:07:41,870 --> 00:07:43,590
+draw that dy a little
+further out so it doesn't
+
+145
+00:07:43,590 --> 00:07:45,460
+get all congested.
+
+146
+00:07:45,460 --> 00:07:49,830
+Let me do the dy out here.
+
+147
+00:07:49,830 --> 00:07:56,100
+This expression, this entire
+expression, is the same exact
+
+148
+00:07:56,100 --> 00:08:07,410
+thing as the integral from x is
+equal to, I can just write it
+
+149
+00:08:07,410 --> 00:08:11,280
+here, let me write it
+in the same colors.
+
+150
+00:08:11,280 --> 00:08:27,450
+x2 of y to x1 of y to x1
+of y the partial of Q
+
+151
+00:08:27,450 --> 00:08:31,760
+with respect to x dx.
+
+152
+00:08:31,760 --> 00:08:35,220
+   
+
+153
+00:08:35,220 --> 00:08:36,020
+I want to make it very clear.
+
+154
+00:08:36,020 --> 00:08:38,620
+This is, at least in my
+mind, the first part,
+
+155
+00:08:38,620 --> 00:08:39,680
+a little confusing.
+
+156
+00:08:39,680 --> 00:08:41,620
+But if you just saw an integral
+like this, this is the
+
+157
+00:08:41,620 --> 00:08:42,680
+inside of a double integral.
+
+158
+00:08:42,680 --> 00:08:43,390
+And it is.
+
+159
+00:08:43,390 --> 00:08:46,250
+The outside is what we
+saw there, the integral
+
+160
+00:08:46,250 --> 00:08:50,380
+from a to b, dy.
+
+161
+00:08:50,380 --> 00:08:53,280
+But if you just saw this in a
+double integral, what you would
+
+162
+00:08:53,280 --> 00:08:55,620
+do is you would take the
+antiderivative of this, the
+
+163
+00:08:55,620 --> 00:08:58,640
+antiderivative of this
+with respect to x, the
+
+164
+00:08:58,640 --> 00:09:01,430
+antiderivative of the partial
+of Q with respect to x with
+
+165
+00:09:01,430 --> 00:09:04,510
+respect to x, is going
+to be just Q of xy.
+
+166
+00:09:04,510 --> 00:09:07,120
+And since it's a definite
+integral, you would evaluate it
+
+167
+00:09:07,120 --> 00:09:11,850
+at x1 of y, and then subtract
+from that, this function
+
+168
+00:09:11,850 --> 00:09:14,370
+evaluated x2 of y, which
+is exactly what we did.
+
+169
+00:09:14,370 --> 00:09:16,220
+So hopefully you
+appreciate that.
+
+170
+00:09:16,220 --> 00:09:18,520
+And then we got our result,
+which is very similar
+
+171
+00:09:18,520 --> 00:09:19,410
+to the last result.
+
+172
+00:09:19,410 --> 00:09:24,220
+What does this double
+integral represent?
+
+173
+00:09:24,220 --> 00:09:28,390
+It represents, well, anything,
+if you have any double integral
+
+174
+00:09:28,390 --> 00:09:31,970
+that goes from-- if you
+imagine, this is some function,
+
+175
+00:09:31,970 --> 00:09:33,640
+let me draw it in
+three dimensions.
+
+176
+00:09:33,640 --> 00:09:35,430
+This is really almost a
+review of what we did
+
+177
+00:09:35,430 --> 00:09:36,360
+in the last video.
+
+178
+00:09:36,360 --> 00:09:42,240
+If that's the y-axis, that's
+our x-axis, that's our z-axis.
+
+179
+00:09:42,240 --> 00:09:45,720
+This is some function of x
+and y, so some surface you
+
+180
+00:09:45,720 --> 00:09:48,595
+can imagine on xy plane.
+
+181
+00:09:48,595 --> 00:09:50,750
+It's some surface.
+
+182
+00:09:50,750 --> 00:09:56,160
+So we could call that the
+partial of q with respect to x.
+
+183
+00:09:56,160 --> 00:09:59,260
+And what this double integral
+is, this is essentially
+
+184
+00:09:59,260 --> 00:10:02,490
+defining a region, and you can
+kind of view this dx times
+
+185
+00:10:02,490 --> 00:10:05,550
+dy as kind of a small
+differential of area.
+
+186
+00:10:05,550 --> 00:10:09,690
+So the region under question,
+the boundary points, are from y
+
+187
+00:10:09,690 --> 00:10:14,460
+going from, y goes from, at the
+bottom, it goes from x2 of y,
+
+188
+00:10:14,460 --> 00:10:17,130
+which we saw was a curve that
+looks something like this.
+
+189
+00:10:17,130 --> 00:10:19,620
+That's the lower y, and over
+here, if we draw it in two
+
+190
+00:10:19,620 --> 00:10:22,600
+dimensions, this was
+the lower y-curve.
+
+191
+00:10:22,600 --> 00:10:27,730
+The upper y-curve is x1 of y,
+so the upper y-curve looks
+
+192
+00:10:27,730 --> 00:10:29,210
+something like that.
+
+193
+00:10:29,210 --> 00:10:32,570
+The upper y-curve goes
+something like that.
+
+194
+00:10:32,570 --> 00:10:35,510
+So x varies from the lower
+y-curve to the upper
+
+195
+00:10:35,510 --> 00:10:36,650
+y-curve, right?
+
+196
+00:10:36,650 --> 00:10:38,540
+That's what we're
+doing right here.
+
+197
+00:10:38,540 --> 00:10:42,180
+And then y varies from a to b.
+
+198
+00:10:42,180 --> 00:10:44,340
+And so this is essentially
+saying, let's take the double
+
+199
+00:10:44,340 --> 00:10:51,020
+integral over this region
+right here of this function.
+
+200
+00:10:51,020 --> 00:10:53,950
+So it's essentially the volume,
+if this is the ceiling,
+
+201
+00:10:53,950 --> 00:10:56,300
+and this boundary is
+essentially the wall.
+
+202
+00:10:56,300 --> 00:10:57,680
+It's the volume of that room.
+
+203
+00:10:57,680 --> 00:10:58,750
+And I don't know what it
+would look like when
+
+204
+00:10:58,750 --> 00:11:00,140
+it comes up here.
+
+205
+00:11:00,140 --> 00:11:01,840
+But you can kind of imagine
+something like that.
+
+206
+00:11:01,840 --> 00:11:02,990
+It would be the volume of that.
+
+207
+00:11:02,990 --> 00:11:04,690
+So that's what we're taking.
+
+208
+00:11:04,690 --> 00:11:07,490
+This is the identical result
+we got in the last video.
+
+209
+00:11:07,490 --> 00:11:09,060
+And this is a
+pretty neat thing.
+
+210
+00:11:09,060 --> 00:11:13,600
+So all of a sudden, this
+vector, that-- and Q of xy, I
+
+211
+00:11:13,600 --> 00:11:16,060
+didn't draw it out like I did
+the last time, Q of xy
+
+212
+00:11:16,060 --> 00:11:16,630
+only has [? things ?]
+
+213
+00:11:16,630 --> 00:11:19,475
+in the j-direction, so it only
+has, if I were to draw its
+
+214
+00:11:19,475 --> 00:11:21,920
+vector field, the vectors
+only go up and down.
+
+215
+00:11:21,920 --> 00:11:25,960
+   
+
+216
+00:11:25,960 --> 00:11:28,650
+They have no horizontal
+component to them.
+
+217
+00:11:28,650 --> 00:11:32,270
+But we saw, when you start with
+a vector field like this, you
+
+218
+00:11:32,270 --> 00:11:35,810
+take the line integral around
+this closed loop, and I'll
+
+219
+00:11:35,810 --> 00:11:39,000
+rewrite it right here, you take
+this line integral around this
+
+220
+00:11:39,000 --> 00:11:44,200
+closed loop of q dot dr, which
+is equal to the integral around
+
+221
+00:11:44,200 --> 00:11:49,560
+the closed loop of Q of xy dy.
+
+222
+00:11:49,560 --> 00:11:53,240
+We just figured out that that's
+equivalent to the double
+
+223
+00:11:53,240 --> 00:11:58,490
+integral over the region.
+
+224
+00:11:58,490 --> 00:12:00,660
+This is the region.
+
+225
+00:12:00,660 --> 00:12:00,920
+Right?
+
+226
+00:12:00,920 --> 00:12:02,380
+That's exactly what
+we're doing over here.
+
+227
+00:12:02,380 --> 00:12:03,950
+If I just gave you the region,
+you'd have to define it, you'd
+
+228
+00:12:03,950 --> 00:12:07,116
+say, well, x is going from,
+this is going from this
+
+229
+00:12:07,116 --> 00:12:09,780
+function to that function, and
+y is going from a to b, and you
+
+230
+00:12:09,780 --> 00:12:11,310
+might want to review the double
+integral videos, if
+
+231
+00:12:11,310 --> 00:12:11,970
+that confuses you.
+
+232
+00:12:11,970 --> 00:12:15,270
+So we're taking the double
+integral over the region of the
+
+233
+00:12:15,270 --> 00:12:20,370
+partial of Q with respect to x,
+d-- well, you could write dx
+
+234
+00:12:20,370 --> 00:12:23,490
+dy, or you can even right
+a little da, right?
+
+235
+00:12:23,490 --> 00:12:26,110
+The differential of area,
+right, that we can imagine
+
+236
+00:12:26,110 --> 00:12:28,670
+as a da, which is the
+same thing as a dx dy.
+
+237
+00:12:28,670 --> 00:12:31,390
+And if we combine that with the
+last video, and this is kind of
+
+238
+00:12:31,390 --> 00:12:35,030
+the neat bringing it all
+together part, the result of
+
+239
+00:12:35,030 --> 00:12:36,760
+the last video was this.
+
+240
+00:12:36,760 --> 00:12:39,940
+That if I had a function that's
+defined completely in terms of
+
+241
+00:12:39,940 --> 00:12:42,270
+x, we had this, right here.
+
+242
+00:12:42,270 --> 00:12:43,090
+We had that result.
+
+243
+00:12:43,090 --> 00:12:46,280
+Actually, let me copy and paste
+both of these to a nice clean
+
+244
+00:12:46,280 --> 00:12:51,100
+part of my whiteboard,
+and then we can do the
+
+245
+00:12:51,100 --> 00:12:53,030
+exciting conclusion.
+
+246
+00:12:53,030 --> 00:12:57,170
+Let me copy and paste that.
+
+247
+00:12:57,170 --> 00:12:59,300
+So that's what we got
+in the last video.
+
+248
+00:12:59,300 --> 00:13:03,200
+And this video, we
+got this result.
+
+249
+00:13:03,200 --> 00:13:07,080
+I'll just copy and paste
+that part right there.
+
+250
+00:13:07,080 --> 00:13:12,140
+You might already predict
+where this is going.
+
+251
+00:13:12,140 --> 00:13:13,490
+And then let me
+paste it over here.
+
+252
+00:13:13,490 --> 00:13:16,240
+This is the result
+from this video.
+
+253
+00:13:16,240 --> 00:13:20,390
+Now let's think about an
+arbitrary vector field but is
+
+254
+00:13:20,390 --> 00:13:27,160
+defined as, I'll do that in
+pink, let's say F is a vector
+
+255
+00:13:27,160 --> 00:13:32,780
+field defined over the xy
+plane, and F is equal to P
+
+256
+00:13:32,780 --> 00:13:39,920
+of xy i plus Q of xy j.
+
+257
+00:13:39,920 --> 00:13:43,520
+You can almost imagine F being
+the addition of our vector
+
+258
+00:13:43,520 --> 00:13:46,040
+fields, P and Q, that we did
+in the last two videos.
+
+259
+00:13:46,040 --> 00:13:49,550
+Q was this video, and we did
+P in the video before that.
+
+260
+00:13:49,550 --> 00:13:53,570
+But this is really any
+arbitrary vector field.
+
+261
+00:13:53,570 --> 00:13:56,710
+And let's say we want to take
+the vector field, or sorry, the
+
+262
+00:13:56,710 --> 00:14:00,680
+line integral of this vector
+field, along some path.
+
+263
+00:14:00,680 --> 00:14:02,730
+It could be the same one
+we've done, which has been
+
+264
+00:14:02,730 --> 00:14:03,870
+a very arbitrary one.
+
+265
+00:14:03,870 --> 00:14:05,440
+It's really any arbitrary path.
+
+266
+00:14:05,440 --> 00:14:09,620
+So let me draw some
+arbitrary path over here.
+
+267
+00:14:09,620 --> 00:14:13,010
+Let's say, that is my arbitrary
+path, my arbitrary curve.
+
+268
+00:14:13,010 --> 00:14:17,610
+Let's say it goes in that
+counterclockwise direction,
+
+269
+00:14:17,610 --> 00:14:18,530
+just like that.
+
+270
+00:14:18,530 --> 00:14:22,830
+And I'm interested in what the
+line integral, the closed line
+
+271
+00:14:22,830 --> 00:14:27,570
+integral, around that
+path of F dot dr is.
+
+272
+00:14:27,570 --> 00:14:29,810
+And we've seen it
+multiple times.
+
+273
+00:14:29,810 --> 00:14:36,700
+dr is equal to dx i
+plus dy times j.
+
+274
+00:14:36,700 --> 00:14:40,740
+So this line integral can be
+rewritten as, this is equal
+
+275
+00:14:40,740 --> 00:14:44,390
+to the line integral
+around the path c.
+
+276
+00:14:44,390 --> 00:14:48,990
+F dot dr, that's going to be
+this term times dx, so that's
+
+277
+00:14:48,990 --> 00:15:00,090
+p of xy times dx plus this
+term, Q of xy times dy.
+
+278
+00:15:00,090 --> 00:15:04,250
+And this whole thing,
+essentially this is the same
+
+279
+00:15:04,250 --> 00:15:11,470
+thing as the line integral of
+p of xy dx, plus the line
+
+280
+00:15:11,470 --> 00:15:16,660
+integral of Q of xy dy.
+
+281
+00:15:16,660 --> 00:15:17,750
+Now what are these things?
+
+282
+00:15:17,750 --> 00:15:20,180
+This is what we figured out in
+the first video, this is what
+
+283
+00:15:20,180 --> 00:15:22,160
+we figured out just
+now in this video.
+
+284
+00:15:22,160 --> 00:15:25,190
+This thing right here is
+the exact same thing
+
+285
+00:15:25,190 --> 00:15:26,510
+as that over there.
+
+286
+00:15:26,510 --> 00:15:35,270
+So this is going to be equal to
+the double integral over this
+
+287
+00:15:35,270 --> 00:15:41,310
+region right here, of the minus
+partial of P with respect to y.
+
+288
+00:15:41,310 --> 00:15:45,710
+   
+
+289
+00:15:45,710 --> 00:15:48,550
+Instead of a dy dx, we
+could say just over the
+
+290
+00:15:48,550 --> 00:15:50,750
+differential of area.
+
+291
+00:15:50,750 --> 00:15:53,870
+And then plus this
+one, this result.
+
+292
+00:15:53,870 --> 00:15:54,120
+Q.
+
+293
+00:15:54,120 --> 00:15:56,930
+This thing right here is
+exactly what we just proved,
+
+294
+00:15:56,930 --> 00:15:59,480
+is exactly what we just
+showed in this video.
+
+295
+00:15:59,480 --> 00:16:02,380
+So that's plus, I'll leave it
+up there, maybe I'll do it in
+
+296
+00:16:02,380 --> 00:16:06,760
+the yellow, plus the double
+integral over the same region
+
+297
+00:16:06,760 --> 00:16:11,220
+of the partial of Q
+with respect to x.
+
+298
+00:16:11,220 --> 00:16:15,090
+da, where that's just dy
+dx, or dx dy, you can
+
+299
+00:16:15,090 --> 00:16:15,950
+switch the order, it's
+
+300
+00:16:15,950 --> 00:16:18,010
+the differential of area.
+
+301
+00:16:18,010 --> 00:16:20,130
+And now, we can add
+these two integrals.
+
+302
+00:16:20,130 --> 00:16:21,070
+What do we get?
+
+303
+00:16:21,070 --> 00:16:23,220
+So this is equal to, and
+this is kind of our
+
+304
+00:16:23,220 --> 00:16:25,680
+big, grand conclusion.
+
+305
+00:16:25,680 --> 00:16:28,130
+Maybe magenta is
+called for here.
+
+306
+00:16:28,130 --> 00:16:31,720
+The double integral over the
+region of, I'll write this one
+
+307
+00:16:31,720 --> 00:16:34,230
+first because it's positive,
+that one's negative, of the
+
+308
+00:16:34,230 --> 00:16:42,390
+partial of Q with respect to x,
+minus the partial of p with
+
+309
+00:16:42,390 --> 00:16:48,360
+respect to y, d, the
+differential of area.
+
+310
+00:16:48,360 --> 00:16:50,960
+This is our big takeaway.
+
+311
+00:16:50,960 --> 00:16:52,670
+This is our big takeaway.
+
+312
+00:16:52,670 --> 00:16:54,700
+Let me write it here.
+
+313
+00:16:54,700 --> 00:16:59,620
+The line integral of the closed
+loop of F dot dr is equal to
+
+314
+00:16:59,620 --> 00:17:02,420
+the double integral
+of this expression.
+
+315
+00:17:02,420 --> 00:17:03,720
+And it's something,
+just remember.
+
+316
+00:17:03,720 --> 00:17:07,545
+We're taking the function that
+was associated with the
+
+317
+00:17:07,545 --> 00:17:09,540
+x-component, or the
+i-component, we're taking the
+
+318
+00:17:09,540 --> 00:17:11,880
+partial with respect to y.
+
+319
+00:17:11,880 --> 00:17:13,610
+And the function that was
+associated with the
+
+320
+00:17:13,610 --> 00:17:16,530
+y-component, we're taking the
+partial with respect to x.
+
+321
+00:17:16,530 --> 00:17:18,580
+And that first one, we're
+taking the negative of.
+
+322
+00:17:18,580 --> 00:17:19,910
+That's a good way
+to remember it.
+
+323
+00:17:19,910 --> 00:17:23,140
+But this result right here,
+this is, maybe I should
+
+324
+00:17:23,140 --> 00:17:30,730
+write it in green, this
+is Green's Theorem.
+
+325
+00:17:30,730 --> 00:17:33,850
+   
+
+326
+00:17:33,850 --> 00:17:38,080
+And it's a neat way to relate a
+line integral of a vector field
+
+327
+00:17:38,080 --> 00:17:40,770
+that has these partial
+derivatives, assuming it has
+
+328
+00:17:40,770 --> 00:17:44,460
+these partial derivatives, to
+the region, to a double
+
+329
+00:17:44,460 --> 00:17:45,330
+integral of the region.
+
+330
+00:17:45,330 --> 00:17:48,680
+Now, and this is a little bit
+of a side note, we've seen in
+
+331
+00:17:48,680 --> 00:17:56,980
+several videos before, we've
+learned that if F is
+
+332
+00:17:56,980 --> 00:18:02,780
+conservative, which means it's
+the gradient of some function,
+
+333
+00:18:02,780 --> 00:18:06,280
+that it's path-independent,
+that the closed integral around
+
+334
+00:18:06,280 --> 00:18:09,550
+any path is equal to 0.
+
+335
+00:18:09,550 --> 00:18:10,980
+And that's still true.
+
+336
+00:18:10,980 --> 00:18:14,720
+So that tells us that if F is
+conservative, this thing right
+
+337
+00:18:14,720 --> 00:18:17,560
+here must be equal to 0.
+
+338
+00:18:17,560 --> 00:18:20,070
+That's the only way that you're
+always going to enforce that
+
+339
+00:18:20,070 --> 00:18:23,350
+this whole integral is going to
+be equal, is going to be equal
+
+340
+00:18:23,350 --> 00:18:25,970
+to 0 over any, any, any region.
+
+341
+00:18:25,970 --> 00:18:27,270
+I'm sure you could think
+of situations where they
+
+342
+00:18:27,270 --> 00:18:29,880
+cancel each other out, but
+really over any region.
+
+343
+00:18:29,880 --> 00:18:31,700
+That's the only way that
+this is going to be true.
+
+344
+00:18:31,700 --> 00:18:33,880
+That these two things are
+going to be equal to 0.
+
+345
+00:18:33,880 --> 00:18:38,220
+So then you could say, partial
+of Q with respect to x, minus
+
+346
+00:18:38,220 --> 00:18:42,370
+the partial of P with respect
+to y, has to be equal to 0, or
+
+347
+00:18:42,370 --> 00:18:44,970
+these two things have
+to equal each other.
+
+348
+00:18:44,970 --> 00:18:45,300
+Or.
+
+349
+00:18:45,300 --> 00:18:47,370
+This is kind of a corollary
+to Green's Theorem.
+
+350
+00:18:47,370 --> 00:18:49,900
+Kind of a low-hanging fruit
+you could have figured out.
+
+351
+00:18:49,900 --> 00:18:53,010
+The partial of Q with respect
+to x is equal to the partial
+
+352
+00:18:53,010 --> 00:18:56,920
+of P with respect to y.
+
+353
+00:18:56,920 --> 00:18:59,070
+And when you study exact
+equations in differential
+
+354
+00:18:59,070 --> 00:19:01,460
+equations, you'll
+see this a lot more.
+
+355
+00:19:01,460 --> 00:19:04,140
+And actually, well, I won't go
+into too much, but conservative
+
+356
+00:19:04,140 --> 00:19:07,330
+fields, you're actually, the
+differential form of what you
+
+357
+00:19:07,330 --> 00:19:10,500
+see in the line integrals, if
+it's conservative, it would
+
+358
+00:19:10,500 --> 00:19:11,450
+be an exact equation.
+
+359
+00:19:11,450 --> 00:19:12,610
+But we're not going to
+go into that too much.
+
+360
+00:19:12,610 --> 00:19:15,330
+But hopefully you might see the
+parallels if you've already run
+
+361
+00:19:15,330 --> 00:19:17,790
+into exact equations in
+differential equations.
+
+362
+00:19:17,790 --> 00:19:20,980
+But this is the big takeaway,
+and let's maybe do some
+
+363
+00:19:20,980 --> 00:19:25,780
+examples using this takeaway
+in the next video.
+
+364
+00:19:25,780 --> 00:19:26,000
+

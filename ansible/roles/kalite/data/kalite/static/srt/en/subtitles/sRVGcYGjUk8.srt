@@ -1,0 +1,1233 @@
+1
+00:00:00,000 --> 00:00:00,710
+   
+
+2
+00:00:00,710 --> 00:00:03,930
+I think now's as good a time as
+any to play around a little bit
+
+3
+00:00:03,930 --> 00:00:06,960
+with the formula for variance
+and see where it goes.
+
+4
+00:00:06,960 --> 00:00:10,300
+And I think just by doing this,
+we'll also get a little bit
+
+5
+00:00:10,300 --> 00:00:12,680
+better intuition of just
+manipulating sigma notation
+
+6
+00:00:12,680 --> 00:00:13,540
+or even what it means.
+
+7
+00:00:13,540 --> 00:00:16,670
+So we learned, several
+times, that the formula for
+
+8
+00:00:16,670 --> 00:00:20,640
+variance-- and let's just do
+variance of a population.
+
+9
+00:00:20,640 --> 00:00:22,420
+It's almost the same thing
+as variance of a sample.
+
+10
+00:00:22,420 --> 00:00:25,140
+You just divide by n
+instead of n minus 1.
+
+11
+00:00:25,140 --> 00:00:28,450
+Variance of a population is
+equal to-- Well you take each
+
+12
+00:00:28,450 --> 00:00:32,260
+of the data points, x sub i.
+
+13
+00:00:32,260 --> 00:00:34,930
+You subtract from
+that the mean.
+
+14
+00:00:34,930 --> 00:00:35,920
+You square it.
+
+15
+00:00:35,920 --> 00:00:38,090
+And then you take the
+average of all of these.
+
+16
+00:00:38,090 --> 00:00:43,910
+So you add the squared distance
+for each of these points from i
+
+17
+00:00:43,910 --> 00:00:46,430
+equals 1 to i is equal to N.
+
+18
+00:00:46,430 --> 00:00:49,730
+And you divide it by N.
+
+19
+00:00:49,730 --> 00:00:52,590
+Let's see what happens if we
+can-- Maybe we want to multiply
+
+20
+00:00:52,590 --> 00:00:55,480
+out the squared term and
+see where it takes us.
+
+21
+00:00:55,480 --> 00:00:56,170
+So let's see.
+
+22
+00:00:56,170 --> 00:00:58,460
+And I think it'll take us
+someplace interesting.
+
+23
+00:00:58,460 --> 00:01:04,760
+So this is the same thing
+as the sum from i is equal
+
+24
+00:01:04,760 --> 00:01:08,530
+to 1 to N of-- Let's see.
+
+25
+00:01:08,530 --> 00:01:09,710
+This, we just multiply it out.
+
+26
+00:01:09,710 --> 00:01:17,430
+This is the same thing as x sub
+i squared minus-- This is your
+
+27
+00:01:17,430 --> 00:01:19,300
+little algebra going on here.
+
+28
+00:01:19,300 --> 00:01:21,280
+So when you square it-- I
+mean, we can multiply it out.
+
+29
+00:01:21,280 --> 00:01:29,950
+We could write it x sub i minus
+mu times x sub i minus mu.
+
+30
+00:01:29,950 --> 00:01:31,710
+So we have x sub
+i times x sub i.
+
+31
+00:01:31,710 --> 00:01:33,590
+That's x sub i squared.
+
+32
+00:01:33,590 --> 00:01:38,180
+Then you have x sub i times
+mu-- times minus mu.
+
+33
+00:01:38,180 --> 00:01:40,670
+And then you have minus
+mu times x sub i.
+
+34
+00:01:40,670 --> 00:01:42,730
+So when you add those two
+together, you get minus
+
+35
+00:01:42,730 --> 00:01:47,480
+2 x sub i mu, right?
+
+36
+00:01:47,480 --> 00:01:49,910
+Because you have it
+twice. x sub i times mu.
+
+37
+00:01:49,910 --> 00:01:51,760
+That's 1 minus x sub i mu.
+
+38
+00:01:51,760 --> 00:01:52,860
+And then you have another one.
+
+39
+00:01:52,860 --> 00:01:54,450
+Minus mu x sub i.
+
+40
+00:01:54,450 --> 00:01:57,390
+When you add them together,
+you get minus 2 x sub i mu.
+
+41
+00:01:57,390 --> 00:01:59,780
+I know it's confusing with me
+saying sub i and all of that.
+
+42
+00:01:59,780 --> 00:02:02,010
+But it's really no different
+than when you did
+
+43
+00:02:02,010 --> 00:02:03,490
+a minus b squared.
+
+44
+00:02:03,490 --> 00:02:05,530
+Just the variables look a
+little bit more complicated.
+
+45
+00:02:05,530 --> 00:02:09,100
+And then the last term is minus
+mu times minus mu, which
+
+46
+00:02:09,100 --> 00:02:14,470
+is plus mu squared.
+
+47
+00:02:14,470 --> 00:02:15,560
+Fair enough.
+
+48
+00:02:15,560 --> 00:02:19,160
+Let me switch colors just
+to keep it interesting.
+
+49
+00:02:19,160 --> 00:02:22,110
+Let me cordon that off.
+
+50
+00:02:22,110 --> 00:02:22,430
+OK.
+
+51
+00:02:22,430 --> 00:02:25,460
+So how can we-- Well the sum of
+this is the same thing as the
+
+52
+00:02:25,460 --> 00:02:26,915
+sum of-- Because, if you think
+about it, we're going
+
+53
+00:02:26,915 --> 00:02:28,900
+to take each x sub i.
+
+54
+00:02:28,900 --> 00:02:31,110
+For each of the numbers in
+our population, we're going
+
+55
+00:02:31,110 --> 00:02:32,200
+to perform this thing.
+
+56
+00:02:32,200 --> 00:02:33,260
+And we're going to sum it up.
+
+57
+00:02:33,260 --> 00:02:36,200
+But if you think about it, this
+is the same thing as-- If
+
+58
+00:02:36,200 --> 00:02:37,930
+you're not familiar with a
+sigma notation, this is a good
+
+59
+00:02:37,930 --> 00:02:39,190
+kind of thing to
+know in general.
+
+60
+00:02:39,190 --> 00:02:40,630
+Just a little bit of intuition.
+
+61
+00:02:40,630 --> 00:02:43,940
+This is the same thing as--
+I'll do it here to have space
+
+62
+00:02:43,940 --> 00:02:53,420
+--as the sum from i is equal to
+1 to N of the first term, x sub
+
+63
+00:02:53,420 --> 00:03:00,580
+i squared minus-- And actually,
+we can bring out the
+
+64
+00:03:00,580 --> 00:03:01,890
+constant terms.
+
+65
+00:03:01,890 --> 00:03:04,550
+You just can't take-- When
+you're summing, the only thing
+
+66
+00:03:04,550 --> 00:03:07,150
+that matters is the thing
+that has the ith term.
+
+67
+00:03:07,150 --> 00:03:08,720
+So in this case, it's x sub i.
+
+68
+00:03:08,720 --> 00:03:10,040
+So x sub 1, x sub 2.
+
+69
+00:03:10,040 --> 00:03:12,070
+So that's the thing that you'd
+have to leave on the right-hand
+
+70
+00:03:12,070 --> 00:03:14,080
+side of the sigma notation.
+
+71
+00:03:14,080 --> 00:03:18,040
+And if you've done the calculus
+playlist already, sigma
+
+72
+00:03:18,040 --> 00:03:20,970
+notation is really kind of like
+a discrete integral
+
+73
+00:03:20,970 --> 00:03:22,120
+on some level.
+
+74
+00:03:22,120 --> 00:03:25,390
+Because in an integral, you're
+summing up a bunch of things.
+
+75
+00:03:25,390 --> 00:03:27,300
+You're multiplying them
+times dx, which is a
+
+76
+00:03:27,300 --> 00:03:28,420
+really small interval.
+
+77
+00:03:28,420 --> 00:03:29,600
+But here, you're
+just taking a sum.
+
+78
+00:03:29,600 --> 00:03:32,950
+And that's what-- Well we
+showed-- In the calculus
+
+79
+00:03:32,950 --> 00:03:34,590
+playlist I said that an
+integral actually is kind of
+
+80
+00:03:34,590 --> 00:03:36,810
+this infinite sum of infinitely
+small things, but I don't
+
+81
+00:03:36,810 --> 00:03:38,360
+want to digress too much.
+
+82
+00:03:38,360 --> 00:03:40,920
+But this is just a long way of
+saying that the second-- The
+
+83
+00:03:40,920 --> 00:03:43,730
+sum from i equals 1 to N of the
+second term is the same thing
+
+84
+00:03:43,730 --> 00:04:00,150
+as minus 2 times mu of the sum
+from i is equal to
+
+85
+00:04:00,150 --> 00:04:05,290
+1 to n of x sub i.
+
+86
+00:04:05,290 --> 00:04:10,920
+And then finally you have
+plus-- Well this is just
+
+87
+00:04:10,920 --> 00:04:12,230
+a constant term, right?
+
+88
+00:04:12,230 --> 00:04:16,920
+This is just a constant term so
+you can take it out --times
+
+89
+00:04:16,920 --> 00:04:23,880
+mu squared times the sum i
+sub-- from i equals 1 to N.
+
+90
+00:04:23,880 --> 00:04:26,000
+And what's going to be here?
+
+91
+00:04:26,000 --> 00:04:28,300
+What's going to-- It's
+going to be a 1, right?
+
+92
+00:04:28,300 --> 00:04:29,260
+We just divided a 1.
+
+93
+00:04:29,260 --> 00:04:31,080
+We just divided this by 1
+to get out of the sigma
+
+94
+00:04:31,080 --> 00:04:32,780
+sign, out of the sum.
+
+95
+00:04:32,780 --> 00:04:36,430
+And you're just left
+with a 1 there, right?
+
+96
+00:04:36,430 --> 00:04:38,760
+Actually we could have just
+left the mu squared there.
+
+97
+00:04:38,760 --> 00:04:41,180
+But either way, let's just
+keep simplifying it.
+
+98
+00:04:41,180 --> 00:04:43,780
+So this is-- This we
+can't really do.
+
+99
+00:04:43,780 --> 00:04:45,100
+Well actually we
+could-- Well, no.
+
+100
+00:04:45,100 --> 00:04:47,310
+We we don't know what
+the x sub i's are.
+
+101
+00:04:47,310 --> 00:04:48,950
+So we just have to
+leave that the same.
+
+102
+00:04:48,950 --> 00:04:51,130
+So that's the sum-- Oh sorry.
+
+103
+00:04:51,130 --> 00:04:53,110
+This is just the
+numerator, right?
+
+104
+00:04:53,110 --> 00:04:54,610
+This whole simplification.
+
+105
+00:04:54,610 --> 00:04:55,820
+We're just simplifying
+the numerator.
+
+106
+00:04:55,820 --> 00:04:57,820
+And later, we're just
+going to divide by N.
+
+107
+00:04:57,820 --> 00:05:00,610
+So that is equal to
+that divided by N.
+
+108
+00:05:00,610 --> 00:05:03,020
+Which is equal to this
+thing divided by N.
+
+109
+00:05:03,020 --> 00:05:04,060
+I'll divide by N at the end.
+
+110
+00:05:04,060 --> 00:05:05,590
+Because it's the numerator
+that's the confusing
+
+111
+00:05:05,590 --> 00:05:06,180
+part, right?
+
+112
+00:05:06,180 --> 00:05:10,040
+We just want to simplify
+this term up here.
+
+113
+00:05:10,040 --> 00:05:10,910
+So let's keep doing this.
+
+114
+00:05:10,910 --> 00:05:14,970
+So this is equal to the
+sum from i equals 1 to
+
+115
+00:05:14,970 --> 00:05:19,780
+N of x sub i squared.
+
+116
+00:05:19,780 --> 00:05:20,680
+And let's see.
+
+117
+00:05:20,680 --> 00:05:25,340
+Minus 2 times mu.
+
+118
+00:05:25,340 --> 00:05:25,620
+Sorry.
+
+119
+00:05:25,620 --> 00:05:27,330
+That mu doesn't look good.
+
+120
+00:05:27,330 --> 00:05:27,940
+Edit, undo.
+
+121
+00:05:27,940 --> 00:05:42,090
+Minus 2 times mu times the sum
+from i is equal to 1 to N x i.
+
+122
+00:05:42,090 --> 00:05:43,560
+And then what is this?
+
+123
+00:05:43,560 --> 00:05:45,280
+What is another way
+to write this?
+
+124
+00:05:45,280 --> 00:05:48,820
+Essentially we're going to add
+1 to itself N times, right?
+
+125
+00:05:48,820 --> 00:05:51,770
+This is kind of saying just
+whatever you have here just
+
+126
+00:05:51,770 --> 00:05:53,610
+iterate through it N times.
+
+127
+00:05:53,610 --> 00:05:57,110
+If you had an x sub i here, you
+would use the first x term,
+
+128
+00:05:57,110 --> 00:05:57,810
+then the second x term.
+
+129
+00:05:57,810 --> 00:06:00,350
+When you have a 1 here, this is
+just essentially saying add
+
+130
+00:06:00,350 --> 00:06:02,900
+1 to itself N times, right?
+
+131
+00:06:02,900 --> 00:06:04,710
+Which is the same thing as N.
+
+132
+00:06:04,710 --> 00:06:15,430
+So this is going to be
+plus mu squared times N.
+
+133
+00:06:15,430 --> 00:06:16,710
+All right.
+
+134
+00:06:16,710 --> 00:06:21,970
+Then-- See if there's anything
+else we can do here.
+
+135
+00:06:21,970 --> 00:06:23,220
+Remember this is
+just the numerator.
+
+136
+00:06:23,220 --> 00:06:25,440
+So this looks fine.
+
+137
+00:06:25,440 --> 00:06:27,410
+We add up each of those terms.
+
+138
+00:06:27,410 --> 00:06:30,950
+And we just have
+minus 2 mu, right?
+
+139
+00:06:30,950 --> 00:06:33,820
+From i equals 1 to-- Oh.
+
+140
+00:06:33,820 --> 00:06:35,000
+Well think about this.
+
+141
+00:06:35,000 --> 00:06:37,620
+What is this?
+
+142
+00:06:37,620 --> 00:06:40,110
+What is this thing right here?
+
+143
+00:06:40,110 --> 00:06:44,210
+Well, actually let's
+bring back that N.
+
+144
+00:06:44,210 --> 00:06:47,350
+So this is this simplified to
+that divided by N, which
+
+145
+00:06:47,350 --> 00:06:50,590
+simplifies to that whole thing.
+
+146
+00:06:50,590 --> 00:06:55,440
+Which simplifies by this whole
+thing divided by N, right?
+
+147
+00:06:55,440 --> 00:06:57,890
+Which simplifies to this
+whole thing divided by N.
+
+148
+00:06:57,890 --> 00:07:00,540
+   
+
+149
+00:07:00,540 --> 00:07:02,730
+Which is the same thing as each
+of the terms divided by N.
+
+150
+00:07:02,730 --> 00:07:04,150
+Which is the same
+thing as that.
+
+151
+00:07:04,150 --> 00:07:07,210
+Which is the same
+thing as that.
+
+152
+00:07:07,210 --> 00:07:10,140
+Which is the same
+thing as that, right?
+
+153
+00:07:10,140 --> 00:07:11,760
+And now, well how
+does this simplify?
+
+154
+00:07:11,760 --> 00:07:13,750
+This is the interesting part.
+
+155
+00:07:13,750 --> 00:07:15,670
+Well this-- Nothing
+much I can do here.
+
+156
+00:07:15,670 --> 00:07:24,640
+So that just becomes the sum
+from i is equal to 1 to N x sub
+
+157
+00:07:24,640 --> 00:07:28,540
+i squared divided by big N.
+
+158
+00:07:28,540 --> 00:07:29,690
+Now this is interesting.
+
+159
+00:07:29,690 --> 00:07:34,200
+What is-- If I take each of the
+terms in my population and I
+
+160
+00:07:34,200 --> 00:07:37,800
+add them up and then I divide
+it by N, what is that?
+
+161
+00:07:37,800 --> 00:07:41,140
+This thing right here.
+
+162
+00:07:41,140 --> 00:07:44,210
+If I sum up all the terms in my
+population and divide by the
+
+163
+00:07:44,210 --> 00:07:46,510
+number of terms there are,
+that's the mean, right?
+
+164
+00:07:46,510 --> 00:07:47,860
+That's the mean of
+my population.
+
+165
+00:07:47,860 --> 00:07:50,840
+So this thing right
+here is also mu.
+
+166
+00:07:50,840 --> 00:07:53,660
+So this thing
+simplifies to what?
+
+167
+00:07:53,660 --> 00:07:58,000
+Minus 2 times what?
+
+168
+00:07:58,000 --> 00:08:00,090
+Mu times-- This whole
+thing is mu too.
+
+169
+00:08:00,090 --> 00:08:02,760
+So times mu squared, right?
+
+170
+00:08:02,760 --> 00:08:03,890
+Mu times mu.
+
+171
+00:08:03,890 --> 00:08:06,130
+This is the mean of
+the population.
+
+172
+00:08:06,130 --> 00:08:08,010
+So that was a nice
+simplification.
+
+173
+00:08:08,010 --> 00:08:11,850
+And then plus-- What
+do you have here?
+
+174
+00:08:11,850 --> 00:08:12,220
+Let's see.
+
+175
+00:08:12,220 --> 00:08:13,480
+You have mu.
+
+176
+00:08:13,480 --> 00:08:14,320
+Well you have n over n.
+
+177
+00:08:14,320 --> 00:08:14,910
+Those cancel out.
+
+178
+00:08:14,910 --> 00:08:16,350
+So you just have
+plus mu squared.
+
+179
+00:08:16,350 --> 00:08:18,550
+So that was a very
+nice simplification.
+
+180
+00:08:18,550 --> 00:08:21,770
+And then this simplifies to--
+Can't do much on this side.
+
+181
+00:08:21,770 --> 00:08:36,500
+So the sum from i is equal to 1
+to N of x sub i squared over N.
+
+182
+00:08:36,500 --> 00:08:39,570
+And then you see we have minus
+2 mu squared plus mu squared.
+
+183
+00:08:39,570 --> 00:08:47,340
+Well that's the same thing
+as minus mu squared, right?
+
+184
+00:08:47,340 --> 00:08:49,730
+Minus the mean squared.
+
+185
+00:08:49,730 --> 00:08:53,700
+So this, already, we've kind of
+come up with a neat way of
+
+186
+00:08:53,700 --> 00:08:57,990
+writing the variance, right?
+
+187
+00:08:57,990 --> 00:09:00,880
+You can essentially take the
+average of the squares of all
+
+188
+00:09:00,880 --> 00:09:03,530
+of the numbers in your, in
+this case, a population.
+
+189
+00:09:03,530 --> 00:09:07,410
+And then subtract from that
+the mean of your population--
+
+190
+00:09:07,410 --> 00:09:08,930
+the mean squared of
+your population.
+
+191
+00:09:08,930 --> 00:09:11,270
+So this could be, depending on
+how you're calculating things,
+
+192
+00:09:11,270 --> 00:09:14,850
+may be a slightly faster way
+of calculating the variance.
+
+193
+00:09:14,850 --> 00:09:17,260
+So just playing with a little
+algebra, we got from this
+
+194
+00:09:17,260 --> 00:09:19,410
+thing, where you have to, each
+time, take each of your
+
+195
+00:09:19,410 --> 00:09:21,300
+data points, subtract
+the mean from it.
+
+196
+00:09:21,300 --> 00:09:22,200
+And then square it.
+
+197
+00:09:22,200 --> 00:09:23,640
+And, of course, before you
+do anything, you have
+
+198
+00:09:23,640 --> 00:09:25,550
+to calculate the mean.
+
+199
+00:09:25,550 --> 00:09:27,040
+Then you take the square, then
+you sum it all up, then you
+
+200
+00:09:27,040 --> 00:09:28,850
+take the average, essentially,
+when you divide it-- when
+
+201
+00:09:28,850 --> 00:09:30,300
+you sum and divide it by N.
+
+202
+00:09:30,300 --> 00:09:33,060
+We've simplified it, just using
+a little bit of algebra,
+
+203
+00:09:33,060 --> 00:09:33,715
+to this formula.
+
+204
+00:09:33,715 --> 00:09:35,620
+And this is-- We're getting
+to something called
+
+205
+00:09:35,620 --> 00:09:36,610
+the raw score method.
+
+206
+00:09:36,610 --> 00:09:39,490
+We could-- What we want to do
+is, write this right here
+
+207
+00:09:39,490 --> 00:09:41,190
+just in terms of x i's.
+
+208
+00:09:41,190 --> 00:09:43,430
+And then we really are at, what
+you call, the raw score method.
+
+209
+00:09:43,430 --> 00:09:46,350
+Which is, oftentimes, a
+faster way of calculating
+
+210
+00:09:46,350 --> 00:09:47,350
+the variance.
+
+211
+00:09:47,350 --> 00:09:48,000
+So let's see.
+
+212
+00:09:48,000 --> 00:09:49,910
+What is mu equal to?
+
+213
+00:09:49,910 --> 00:09:51,270
+What is the mean?
+
+214
+00:09:51,270 --> 00:09:58,160
+The mean is just equal to the
+sum from i is equal to 1 to N
+
+215
+00:09:58,160 --> 00:09:59,680
+of each of the terms, right?
+
+216
+00:09:59,680 --> 00:10:01,780
+You just take the sum
+of each of the terms.
+
+217
+00:10:01,780 --> 00:10:05,810
+And you divide by the number
+of terms there are, right?
+
+218
+00:10:05,810 --> 00:10:09,470
+So that is equal to-- So
+if we look at this thing.
+
+219
+00:10:09,470 --> 00:10:14,610
+This thing can be written as--
+Let me draw a line here.
+
+220
+00:10:14,610 --> 00:10:20,660
+This thing can be written as
+the sum from i is equal to
+
+221
+00:10:20,660 --> 00:10:25,980
+1 to N of x sub i squared.
+
+222
+00:10:25,980 --> 00:10:28,640
+All of that over N.
+
+223
+00:10:28,640 --> 00:10:30,210
+Minus mu squared.
+
+224
+00:10:30,210 --> 00:10:31,800
+Well mu is this.
+
+225
+00:10:31,800 --> 00:10:33,520
+So this thing squared.
+
+226
+00:10:33,520 --> 00:10:35,590
+So this thing squared is what?
+
+227
+00:10:35,590 --> 00:10:46,450
+This is, let's see, x sub
+i-- take the sum --to N.
+
+228
+00:10:46,450 --> 00:10:48,270
+i this is equal to 1.
+
+229
+00:10:48,270 --> 00:10:51,730
+You're going to take-- You're
+going to square this thing.
+
+230
+00:10:51,730 --> 00:10:54,680
+And then you're going to divide
+it by-- We squared right?
+
+231
+00:10:54,680 --> 00:10:58,490
+You divide it by N squared.
+
+232
+00:10:58,490 --> 00:11:01,300
+And what's-- This might seem
+like a more-- Out of all of
+
+233
+00:11:01,300 --> 00:11:04,690
+them, this actually seems like
+the simplest formula for me.
+
+234
+00:11:04,690 --> 00:11:06,780
+Where you, essentially, you
+just take-- If you know the
+
+235
+00:11:06,780 --> 00:11:09,030
+mean of your population, right?
+
+236
+00:11:09,030 --> 00:11:09,830
+You say OK.
+
+237
+00:11:09,830 --> 00:11:12,710
+My mean is whatever and I can
+just square that and just
+
+238
+00:11:12,710 --> 00:11:14,090
+put that aside for second.
+
+239
+00:11:14,090 --> 00:11:16,760
+But first, I can take each of
+the numbers, square them,
+
+240
+00:11:16,760 --> 00:11:19,120
+and then sum them up, and
+divide by the number of
+
+241
+00:11:19,120 --> 00:11:20,990
+numbers I have, right?
+
+242
+00:11:20,990 --> 00:11:21,870
+I don't know if I wrote-- No.
+
+243
+00:11:21,870 --> 00:11:24,080
+I've erased the last
+set of numbers I had.
+
+244
+00:11:24,080 --> 00:11:25,650
+But we could show you
+that you'll get to
+
+245
+00:11:25,650 --> 00:11:26,370
+the same variance.
+
+246
+00:11:26,370 --> 00:11:28,440
+So to me, this is almost
+the simplest formula.
+
+247
+00:11:28,440 --> 00:11:31,270
+But this one's even faster in a
+lot of ways because you don't
+
+248
+00:11:31,270 --> 00:11:34,230
+really have to even calculate
+the mean ahead of time.
+
+249
+00:11:34,230 --> 00:11:38,710
+You can just say for each x i,
+I just perform this operation.
+
+250
+00:11:38,710 --> 00:11:41,260
+And then I divide by N squared
+or N accordingly and I'll
+
+251
+00:11:41,260 --> 00:11:42,330
+also get to the variance.
+
+252
+00:11:42,330 --> 00:11:44,960
+You don't have to do this
+calculation before you figure
+
+253
+00:11:44,960 --> 00:11:45,680
+out the whole variance.
+
+254
+00:11:45,680 --> 00:11:48,070
+But anyway, I thought it would
+be instructive and hopefully
+
+255
+00:11:48,070 --> 00:11:50,800
+give you a little bit more
+intuition behind the algebra
+
+256
+00:11:50,800 --> 00:11:52,360
+dealing with sigma notations.
+
+257
+00:11:52,360 --> 00:11:54,930
+If we kind of worked out these
+other ways to write variances.
+
+258
+00:11:54,930 --> 00:11:56,250
+And frankly, some books
+will just kind of say,
+
+259
+00:11:56,250 --> 00:11:57,430
+oh yeah you know what?
+
+260
+00:11:57,430 --> 00:12:00,313
+The variance could be written
+like this or-- And we're
+
+261
+00:12:00,313 --> 00:12:01,400
+talking about the variance
+of a population.
+
+262
+00:12:01,400 --> 00:12:02,870
+Or it could be
+written like this.
+
+263
+00:12:02,870 --> 00:12:05,130
+Or maybe they'll even
+write it like this.
+
+264
+00:12:05,130 --> 00:12:06,790
+And it's good to know that you
+can just do a little bit of
+
+265
+00:12:06,790 --> 00:12:11,840
+simple algebraic manipulation
+and get from one to the other.
+
+266
+00:12:11,840 --> 00:12:13,820
+Anyway, I've run out of time.
+
+267
+00:12:13,820 --> 00:12:15,710
+See you in the next video.
+
+268
+00:12:15,710 --> 00:12:16,400
+

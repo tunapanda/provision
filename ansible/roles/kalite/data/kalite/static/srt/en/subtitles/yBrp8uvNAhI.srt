@@ -1,0 +1,1485 @@
+1
+00:00:00,053 --> 00:00:02,093
+In the video where we introduced
+the atom, I went
+
+2
+00:00:02,093 --> 00:00:06,042
+off a bit about how at the
+center of an atom we have the
+
+3
+00:00:06,042 --> 00:00:09,009
+nucleus, and it's actually a
+very small fraction of the
+
+4
+00:00:09,009 --> 00:00:10,026
+total volume of the atom.
+
+5
+00:00:10,026 --> 00:00:13,092
+And the electron, even though we
+call it a particle, it can
+
+6
+00:00:13,092 --> 00:00:16,064
+really be best described
+as kind of a
+
+7
+00:00:16,064 --> 00:00:19,060
+smear around this nucleus.
+
+8
+00:00:19,060 --> 00:00:22,098
+That although it's a particle,
+because of the Heisenberg
+
+9
+00:00:22,098 --> 00:00:26,073
+uncertainty principle, we can
+never tell exactly at a given
+
+10
+00:00:26,073 --> 00:00:29,087
+moment where the particle is
+and what its momentum is.
+
+11
+00:00:29,087 --> 00:00:32,047
+So to describe it as a particle
+is a little bit, I
+
+12
+00:00:32,047 --> 00:00:35,053
+don't know, at best, it's
+a little bit strange.
+
+13
+00:00:35,053 --> 00:00:37,088
+And we said that the way that
+they describe it, they don't
+
+14
+00:00:37,088 --> 00:00:42,017
+say that this particle is in
+an orbit, like the planets
+
+15
+00:00:42,017 --> 00:00:44,071
+around the Sun in orbit
+would be like that.
+
+16
+00:00:44,071 --> 00:00:46,003
+That would be like the
+orbit of Halley's
+
+17
+00:00:46,003 --> 00:00:47,067
+Comet around the Sun.
+
+18
+00:00:47,067 --> 00:00:51,059
+Instead, it can be described
+as a probability function
+
+19
+00:00:51,059 --> 00:00:52,092
+around the nucleus.
+
+20
+00:00:52,092 --> 00:00:57,003
+So if the nucleus is there, we
+have one orbital, actually the
+
+21
+00:00:57,003 --> 00:00:59,089
+1s orbital, and we'll talk
+about that in this video.
+
+22
+00:00:59,089 --> 00:01:07,084
+It'll be a sphere around
+the nucleus.
+
+23
+00:01:07,084 --> 00:01:09,089
+And actually the sphere has
+no strict boundary.
+
+24
+00:01:09,089 --> 00:01:14,043
+Whenever you see someone draw
+it, they're just saying, where
+
+25
+00:01:14,043 --> 00:01:17,004
+is 90% of the time the
+electron going to be.
+
+26
+00:01:17,004 --> 00:01:18,012
+And then they'll cut
+off a boundary.
+
+27
+00:01:18,012 --> 00:01:20,045
+And they'll say, OK, it's going
+to be within this sphere
+
+28
+00:01:20,045 --> 00:01:22,029
+and it actually gets denser
+as you get into the
+
+29
+00:01:22,029 --> 00:01:23,026
+center of the sphere.
+
+30
+00:01:23,026 --> 00:01:25,054
+So if this was a cross-section,
+it would be
+
+31
+00:01:25,054 --> 00:01:28,032
+really dense in the center, and
+it gets less dense, less
+
+32
+00:01:28,032 --> 00:01:29,034
+dense as you go outside.
+
+33
+00:01:29,034 --> 00:01:31,032
+Which just means that there's
+a much higher probability of
+
+34
+00:01:31,032 --> 00:01:36,056
+finding the electron in the 1s
+orbital near the center than
+
+35
+00:01:36,056 --> 00:01:37,065
+near the outside.
+
+36
+00:01:37,065 --> 00:01:40,070
+Although this boundary point out
+here is just artificial.
+
+37
+00:01:40,070 --> 00:01:44,006
+You can find the electron
+pretty much anywhere.
+
+38
+00:01:44,006 --> 00:01:45,081
+It just has a much lower
+probability out
+
+39
+00:01:45,081 --> 00:01:46,056
+there than in here.
+
+40
+00:01:46,056 --> 00:01:49,015
+But I'll touch on that
+in more detail in the
+
+41
+00:01:49,015 --> 00:01:50,067
+rest of this video.
+
+42
+00:01:50,067 --> 00:01:54,009
+But I wanted to go back
+to the Bohr model.
+
+43
+00:01:54,009 --> 00:01:57,043
+And the Bohr model is the kind
+of-- let me write that down.
+
+44
+00:01:57,043 --> 00:01:58,006
+Bohr model.
+
+45
+00:01:58,006 --> 00:01:59,023
+And sometimes it's
+nice to know it's
+
+46
+00:01:59,023 --> 00:02:01,056
+named after Niels Bohr.
+
+47
+00:02:01,056 --> 00:02:03,054
+And don't think that this
+guy was some slouch.
+
+48
+00:02:03,054 --> 00:02:05,015
+He was at the cutting
+edge and this wasn't
+
+49
+00:02:05,015 --> 00:02:06,028
+even that long ago.
+
+50
+00:02:06,028 --> 00:02:08,055
+This was roughly about
+100 years ago.
+
+51
+00:02:08,055 --> 00:02:12,097
+So already we're talking about
+things that you can probably
+
+52
+00:02:12,097 --> 00:02:15,062
+dig up research papers in your
+library not too long ago where
+
+53
+00:02:15,062 --> 00:02:17,059
+people are debating some
+of these issues.
+
+54
+00:02:17,059 --> 00:02:20,059
+But in the Bohr model, that's
+the model where he kind of
+
+55
+00:02:20,059 --> 00:02:24,046
+modeled electrons as planets
+revolving around a star or
+
+56
+00:02:24,046 --> 00:02:25,096
+around the Sun.
+
+57
+00:02:25,096 --> 00:02:28,094
+And that model is actually
+useful, at least it's useful
+
+58
+00:02:28,094 --> 00:02:32,037
+in my brain, to conceptualize
+the idea of energy states.
+
+59
+00:02:32,037 --> 00:02:36,013
+So this is an electron around
+the nucleus, right?
+
+60
+00:02:36,013 --> 00:02:38,040
+It's moving around
+in an orbit.
+
+61
+00:02:38,040 --> 00:02:41,006
+And we know, and I want to
+emphasize, orbits aren't
+
+62
+00:02:41,006 --> 00:02:42,006
+really what happen.
+
+63
+00:02:42,006 --> 00:02:43,052
+Orbitals are what happen.
+
+64
+00:02:43,052 --> 00:02:50,075
+And orbitals are more like
+probability functions as to
+
+65
+00:02:50,075 --> 00:02:53,074
+where you might find the
+electron, while an orbit is a
+
+66
+00:02:53,074 --> 00:02:56,074
+very kind of classical,
+mechanical way of describing
+
+67
+00:02:56,074 --> 00:02:59,061
+the path of a classical
+object, like a
+
+68
+00:02:59,061 --> 00:03:00,078
+planet around a star.
+
+69
+00:03:00,078 --> 00:03:02,052
+I don't want to say the
+analogy too much.
+
+70
+00:03:02,052 --> 00:03:06,087
+But if you view this model,
+the idea of energy levels
+
+71
+00:03:06,087 --> 00:03:07,090
+start to make sense.
+
+72
+00:03:07,090 --> 00:03:09,084
+For example, if I have something
+orbiting, if I have
+
+73
+00:03:09,084 --> 00:03:15,002
+a planet orbiting a
+star, like that.
+
+74
+00:03:15,002 --> 00:03:19,038
+And if it were to have more
+energy, perhaps its orbit
+
+75
+00:03:19,038 --> 00:03:20,093
+would become more elliptical.
+
+76
+00:03:20,093 --> 00:03:24,015
+Maybe for some reason I put some
+more energy into this.
+
+77
+00:03:24,015 --> 00:03:27,063
+I had a little rocket booster on
+this planet right now that
+
+78
+00:03:27,063 --> 00:03:30,043
+temporarily put some
+energy into it.
+
+79
+00:03:30,043 --> 00:03:35,099
+Instead of going down this path,
+maybe it'll push it this
+
+80
+00:03:35,099 --> 00:03:37,094
+way, and maybe it'll
+accelerate it
+
+81
+00:03:37,094 --> 00:03:38,084
+a little bit faster.
+
+82
+00:03:38,084 --> 00:03:40,053
+And maybe it'll go something
+like this.
+
+83
+00:03:40,053 --> 00:03:42,018
+I don't know, I haven't
+done the math.
+
+84
+00:03:42,018 --> 00:03:43,084
+But in general it's going to
+have a little bit higher
+
+85
+00:03:43,084 --> 00:03:46,015
+kinetic energy, so it's going
+to get a little bit further
+
+86
+00:03:46,015 --> 00:03:47,044
+away from the planet.
+
+87
+00:03:47,044 --> 00:03:50,058
+And then maybe if I
+rocket-boosted it again, its
+
+88
+00:03:50,058 --> 00:03:52,022
+path would look something
+like this.
+
+89
+00:03:52,022 --> 00:03:55,006
+   
+
+90
+00:03:55,006 --> 00:04:00,055
+Its orbit would get further
+pushed out and as it
+
+91
+00:04:00,055 --> 00:04:02,074
+approaches the planet, it
+actually would achieve faster
+
+92
+00:04:02,074 --> 00:04:05,002
+speeds as it approaches the
+planet with gravity.
+
+93
+00:04:05,002 --> 00:04:06,056
+And there's a couple of
+interesting things here.
+
+94
+00:04:06,056 --> 00:04:11,056
+One, obviously, the planet or
+the rocket that has this orbit
+
+95
+00:04:11,056 --> 00:04:12,081
+has more energy.
+
+96
+00:04:12,081 --> 00:04:16,025
+   
+
+97
+00:04:16,025 --> 00:04:26,056
+This one right here will have
+more energy than, let's say,
+
+98
+00:04:26,056 --> 00:04:27,052
+this one over here.
+
+99
+00:04:27,052 --> 00:04:30,051
+And energy, even though we're
+talking in the quantum world
+
+100
+00:04:30,051 --> 00:04:32,050
+and this is just analogy,
+because we know orbits don't
+
+101
+00:04:32,050 --> 00:04:35,026
+really apply, but energy is
+really the same energy that we
+
+102
+00:04:35,026 --> 00:04:36,016
+talk about in anything.
+
+103
+00:04:36,016 --> 00:04:40,061
+And energy is the ability to
+do work or transmit heat or
+
+104
+00:04:40,061 --> 00:04:41,036
+create heat.
+
+105
+00:04:41,036 --> 00:04:43,016
+So, you know, if you're not
+doing work and you have
+
+106
+00:04:43,016 --> 00:04:44,099
+energy, you might kind
+of waste the work
+
+107
+00:04:44,099 --> 00:04:45,094
+by generating heat.
+
+108
+00:04:45,094 --> 00:04:48,031
+We'll talk more about that
+in future videos.
+
+109
+00:04:48,031 --> 00:04:49,064
+But it's the same idea, right?
+
+110
+00:04:49,064 --> 00:04:51,097
+If I had a little rocket pack
+and put some energy into this,
+
+111
+00:04:51,097 --> 00:04:57,056
+or pushed it somehow, I might
+get into this higher orbit.
+
+112
+00:04:57,056 --> 00:05:00,094
+The idea of orbitals is the same
+thing, except obviously
+
+113
+00:05:00,094 --> 00:05:02,080
+they aren't these well-defined
+paths.
+
+114
+00:05:02,080 --> 00:05:06,033
+That as electrons get more
+energy, and that energy can be
+
+115
+00:05:06,033 --> 00:05:10,097
+given to the electron, mainly
+through light waves, or
+
+116
+00:05:10,097 --> 00:05:13,037
+electromagnetic waves can be
+put onto the electron.
+
+117
+00:05:13,037 --> 00:05:14,085
+And when we do quantum
+mechanics, we'll do that in
+
+118
+00:05:14,085 --> 00:05:15,064
+more detail.
+
+119
+00:05:15,064 --> 00:05:18,062
+But, essentially, if you view
+light as a bunch of packets,
+
+120
+00:05:18,062 --> 00:05:21,043
+as a bunch of photons, and a
+photon hits an electron in a
+
+121
+00:05:21,043 --> 00:05:24,094
+certain energy state, all of a
+sudden it will enter a higher
+
+122
+00:05:24,094 --> 00:05:27,054
+energy state.
+
+123
+00:05:27,054 --> 00:05:32,025
+And maybe it'll go to this
+probably distribution that's a
+
+124
+00:05:32,025 --> 00:05:33,085
+shell around that one.
+
+125
+00:05:33,085 --> 00:05:37,098
+And maybe if, after it gets
+excited-- these are words that
+
+126
+00:05:37,098 --> 00:05:41,050
+you hear physicists and chemists
+say a lot-- but
+
+127
+00:05:41,050 --> 00:05:44,055
+excited just means that energy
+was put into the electron and
+
+128
+00:05:44,055 --> 00:05:46,064
+it went to a higher
+energy state.
+
+129
+00:05:46,064 --> 00:05:48,092
+And it might stay there or it
+might just want to go back to
+
+130
+00:05:48,092 --> 00:05:51,006
+its lower energy state.
+
+131
+00:05:51,006 --> 00:05:53,025
+So when it goes back to its
+lower energy state, it would
+
+132
+00:05:53,025 --> 00:05:55,085
+emit the photon back, and that's
+actually why you see
+
+133
+00:05:55,085 --> 00:05:57,059
+some things sometimes glow.
+
+134
+00:05:57,059 --> 00:05:59,092
+But we'll talk more about that
+in the future, as well.
+
+135
+00:05:59,092 --> 00:06:01,098
+But I really want to give this
+intuitive point, because in
+
+136
+00:06:01,098 --> 00:06:04,069
+the rest of chemistry and in a
+lot of physics people talk a
+
+137
+00:06:04,069 --> 00:06:07,020
+lot about energy states, or
+the electron going into a
+
+138
+00:06:07,020 --> 00:06:10,072
+higher or lower energy state,
+and that's just the general
+
+139
+00:06:10,072 --> 00:06:15,024
+idea, is that an electron in a
+kind of higher orbital has had
+
+140
+00:06:15,024 --> 00:06:17,067
+energy put into it, although
+it wants to get back to its
+
+141
+00:06:17,067 --> 00:06:18,080
+lower orbital.
+
+142
+00:06:18,080 --> 00:06:20,048
+Now you might ask, how
+can an electron
+
+143
+00:06:20,048 --> 00:06:21,085
+stay in a higher orbital?
+
+144
+00:06:21,085 --> 00:06:24,093
+For example, what if an electron
+just stayed, what if
+
+145
+00:06:24,093 --> 00:06:28,043
+we already had two electrons
+in this orbital over here?
+
+146
+00:06:28,043 --> 00:06:31,064
+And we'll talk a little bit
+about how the different
+
+147
+00:06:31,064 --> 00:06:32,095
+orbitals get filled.
+
+148
+00:06:32,095 --> 00:06:34,088
+But I want to give you the
+intuition first. Let's say you
+
+149
+00:06:34,088 --> 00:06:36,058
+had two electrons.
+
+150
+00:06:36,058 --> 00:06:37,079
+They're just all over
+this place.
+
+151
+00:06:37,079 --> 00:06:39,017
+You can't even pinpoint them.
+
+152
+00:06:39,017 --> 00:06:41,063
+And then I were to add
+a third electron.
+
+153
+00:06:41,063 --> 00:06:44,063
+So you might say, oh, the lowest
+energy state is this
+
+154
+00:06:44,063 --> 00:06:47,085
+magenta inner sphere
+that I just drew.
+
+155
+00:06:47,085 --> 00:06:50,006
+Why wouldn't that third
+electron go there?
+
+156
+00:06:50,006 --> 00:06:52,049
+Well, my intuition is that,
+well there's already two
+
+157
+00:06:52,049 --> 00:06:56,058
+electrons there, and although
+the electrons are attracted to
+
+158
+00:06:56,058 --> 00:06:59,018
+the nucleus because the nucleus
+has all the positive
+
+159
+00:06:59,018 --> 00:07:00,085
+charge in it, and the electrons
+have all the
+
+160
+00:07:00,085 --> 00:07:04,012
+negative charge, it's repelled
+by these two electrons.
+
+161
+00:07:04,012 --> 00:07:06,043
+Because negative, like charges
+repel each other.
+
+162
+00:07:06,043 --> 00:07:09,069
+So it will want to stay away
+from these two electrons.
+
+163
+00:07:09,069 --> 00:07:11,060
+And so it will go to the
+next energy state.
+
+164
+00:07:11,060 --> 00:07:15,051
+It'll maybe go into this
+shell out here.
+
+165
+00:07:15,051 --> 00:07:17,058
+And the other interesting thing
+about energy states--
+
+166
+00:07:17,058 --> 00:07:20,039
+and this is key to chemistry
+when we start talking about
+
+167
+00:07:20,039 --> 00:07:22,089
+reactivity and how something
+might react with something
+
+168
+00:07:22,089 --> 00:07:26,063
+else, and why would it -- is
+that things at a high energy
+
+169
+00:07:26,063 --> 00:07:29,075
+state, for example if we use the
+orbit analogy, this high
+
+170
+00:07:29,075 --> 00:07:35,018
+energy state, in the case of
+planets they get further from
+
+171
+00:07:35,018 --> 00:07:37,031
+the body that they're kind
+of attracted to, so the
+
+172
+00:07:37,031 --> 00:07:39,030
+gravitational force is weaker.
+
+173
+00:07:39,030 --> 00:07:43,052
+Or in the case of electrons,
+when they get further away
+
+174
+00:07:43,052 --> 00:07:45,036
+from a high energy state,
+the coulomb
+
+175
+00:07:45,036 --> 00:07:47,025
+force is weaker, right?
+
+176
+00:07:47,025 --> 00:07:50,017
+The charges we talk about when
+we talk about electrons and
+
+177
+00:07:50,017 --> 00:07:51,056
+protons, those are the
+coulomb forces.
+
+178
+00:07:51,056 --> 00:07:54,012
+So this is a negative charge
+and then you have positive
+
+179
+00:07:54,012 --> 00:07:55,031
+charges in the center.
+
+180
+00:07:55,031 --> 00:07:57,032
+But it gets further away,
+I guess is the best way
+
+181
+00:07:57,032 --> 00:07:57,098
+to think about it.
+
+182
+00:07:57,098 --> 00:08:00,033
+And so the force from the
+nucleus is weaker, so they're
+
+183
+00:08:00,033 --> 00:08:02,048
+easier to pluck off.
+
+184
+00:08:02,048 --> 00:08:06,038
+They're easier to pluck off
+and maybe share with other
+
+185
+00:08:06,038 --> 00:08:08,098
+atoms. Or maybe to give to other
+atoms, and we'll talk a
+
+186
+00:08:08,098 --> 00:08:10,076
+lot about that when we
+talk about bonding.
+
+187
+00:08:10,076 --> 00:08:12,048
+But I wanted to give you
+this intuition first.
+
+188
+00:08:12,048 --> 00:08:15,035
+So then the next question that
+might arise is, well, so how
+
+189
+00:08:15,035 --> 00:08:18,018
+do the electrons fill the
+different orbitals, and what
+
+190
+00:08:18,018 --> 00:08:19,099
+do those orbitals actually
+look like?
+
+191
+00:08:19,099 --> 00:08:22,017
+And I've cut and pasted
+some interesting
+
+192
+00:08:22,017 --> 00:08:24,044
+graphics from Wikipedia.
+
+193
+00:08:24,044 --> 00:08:27,008
+So here are the orbitals.
+
+194
+00:08:27,008 --> 00:08:29,012
+Here are the different
+orbitals.
+
+195
+00:08:29,012 --> 00:08:31,037
+And so there's two aspects
+to the orbital.
+
+196
+00:08:31,037 --> 00:08:34,009
+One is its shell, its
+energy shell.
+
+197
+00:08:34,009 --> 00:08:37,061
+And that's given by this
+number here, n.
+
+198
+00:08:37,061 --> 00:08:38,096
+That's the energy shell.
+
+199
+00:08:38,096 --> 00:08:40,054
+And just so you know,
+everything
+
+200
+00:08:40,054 --> 00:08:41,092
+kind of fits together.
+
+201
+00:08:41,092 --> 00:08:46,025
+Those energy shells correspond
+to periods in
+
+202
+00:08:46,025 --> 00:08:47,037
+the periodic table.
+
+203
+00:08:47,037 --> 00:08:49,087
+So a period on the periodic
+table is literally
+
+204
+00:08:49,087 --> 00:08:50,090
+just a row in it.
+
+205
+00:08:50,090 --> 00:08:59,005
+So this is period one in the
+periodic table, right there
+
+206
+00:08:59,005 --> 00:09:00,097
+all the way to helium.
+
+207
+00:09:00,097 --> 00:09:01,078
+That's period one.
+
+208
+00:09:01,078 --> 00:09:04,039
+It's just the first row.
+
+209
+00:09:04,039 --> 00:09:09,035
+And that means that the elements
+in that first period,
+
+210
+00:09:09,035 --> 00:09:12,051
+that their electrons will fill
+the first energy shell.
+
+211
+00:09:12,051 --> 00:09:17,011
+So for example, hydrogen
+has one proton.
+
+212
+00:09:17,011 --> 00:09:19,067
+And everything we do, we're
+going to assume neutral atoms.
+
+213
+00:09:19,067 --> 00:09:22,087
+So we can take-- we learned in
+the last video, that the
+
+214
+00:09:22,087 --> 00:09:27,044
+atomic number tells you how many
+protons there are, right?
+
+215
+00:09:27,044 --> 00:09:30,064
+This is how many protons
+there are in hydrogen.
+
+216
+00:09:30,064 --> 00:09:33,012
+But if we assume it's a neutral
+atom, we can say that
+
+217
+00:09:33,012 --> 00:09:34,065
+this is also the number
+of electrons.
+
+218
+00:09:34,065 --> 00:09:38,021
+So we can use the atomic number
+also as an indicator of
+
+219
+00:09:38,021 --> 00:09:39,063
+how many electrons in
+a neutral atom.
+
+220
+00:09:39,063 --> 00:09:41,000
+So this has one electron.
+
+221
+00:09:41,000 --> 00:09:42,052
+Where does it go?
+
+222
+00:09:42,052 --> 00:09:45,017
+Well, it's in the first period,
+so it's going to go
+
+223
+00:09:45,017 --> 00:09:48,011
+into the first energy shell.
+
+224
+00:09:48,011 --> 00:09:51,062
+And so the first electron
+will go right here in
+
+225
+00:09:51,062 --> 00:09:55,041
+the 1s energy shell.
+
+226
+00:09:55,041 --> 00:09:58,030
+So if we wanted to write the
+electron configuration for
+
+227
+00:09:58,030 --> 00:10:02,042
+hydrogen, we would write--
+so hydrogen, the electron
+
+228
+00:10:02,042 --> 00:10:08,057
+configuration, it's in the
+first energy cell, at 1s.
+
+229
+00:10:08,057 --> 00:10:10,077
+And there's only one
+electron there.
+
+230
+00:10:10,077 --> 00:10:14,008
+And what does that first
+orbital subshell, that
+
+231
+00:10:14,008 --> 00:10:14,097
+s-shell, look like?
+
+232
+00:10:14,097 --> 00:10:15,097
+It's just a sphere.
+
+233
+00:10:15,097 --> 00:10:17,076
+It's actually what I just drew
+at the top of the video.
+
+234
+00:10:17,076 --> 00:10:18,087
+It's literally just a sphere.
+
+235
+00:10:18,087 --> 00:10:21,082
+And if I were to draw a
+cross-section of it, it gets
+
+236
+00:10:21,082 --> 00:10:23,054
+denser in the center and
+then it gets less
+
+237
+00:10:23,054 --> 00:10:24,087
+dense as you go outside.
+
+238
+00:10:24,087 --> 00:10:28,003
+And in the last video I showed
+you what the helium, you could
+
+239
+00:10:28,003 --> 00:10:29,075
+kind of say, the orbital
+function looks like.
+
+240
+00:10:29,075 --> 00:10:31,045
+And you saw, it was really dark
+and dense in the middle
+
+241
+00:10:31,045 --> 00:10:33,028
+and it got more sparse
+and grayer and
+
+242
+00:10:33,028 --> 00:10:35,064
+whiter as you went outside.
+
+243
+00:10:35,064 --> 00:10:40,096
+So what is helium's electron
+configuration?
+
+244
+00:10:40,096 --> 00:10:45,058
+Well, in each of these
+subshells-- and I'll be a
+
+245
+00:10:45,058 --> 00:10:47,055
+little bit more specific in
+probably the next video,
+
+246
+00:10:47,055 --> 00:10:51,034
+because I'm pretty much out
+of time-- you can put two.
+
+247
+00:10:51,034 --> 00:10:54,008
+I guess in each of the geometric
+configurations for
+
+248
+00:10:54,008 --> 00:10:57,017
+each subshell, you can
+put two electrons.
+
+249
+00:10:57,017 --> 00:10:59,062
+And we'll do that in some
+detail in the future.
+
+250
+00:10:59,062 --> 00:11:03,037
+So the configuration
+for helium.
+
+251
+00:11:03,037 --> 00:11:04,082
+It's in the first period.
+
+252
+00:11:04,082 --> 00:11:07,055
+So it's 1s2.
+
+253
+00:11:07,055 --> 00:11:13,051
+So in the s subshell within the
+first period or the first
+
+254
+00:11:13,051 --> 00:11:17,037
+energy shall, it has two
+electrons there.
+
+255
+00:11:17,037 --> 00:11:18,035
+Fascinating.
+
+256
+00:11:18,035 --> 00:11:20,094
+So what about lithium?
+
+257
+00:11:20,094 --> 00:11:23,030
+Lithium, right here.
+
+258
+00:11:23,030 --> 00:11:27,089
+Also the name of an
+Evanescence song.
+
+259
+00:11:27,089 --> 00:11:30,001
+I think it's the name of an
+Evanescence song because it's
+
+260
+00:11:30,001 --> 00:11:32,053
+used to treat depression, or at
+least in the past it's been
+
+261
+00:11:32,053 --> 00:11:34,061
+used to treat depression.
+
+262
+00:11:34,061 --> 00:11:36,033
+So, lithium.
+
+263
+00:11:36,033 --> 00:11:38,001
+What is its electron
+configuration?
+
+264
+00:11:38,001 --> 00:11:41,045
+So the first electron
+goes into 1s1.
+
+265
+00:11:41,045 --> 00:11:42,076
+The second electron
+goes into 1s2.
+
+266
+00:11:42,076 --> 00:11:44,027
+And when I say the first
+or second, I'm
+
+267
+00:11:44,027 --> 00:11:45,062
+saying energy states.
+
+268
+00:11:45,062 --> 00:11:46,067
+So the first electron
+wants to go into the
+
+269
+00:11:46,067 --> 00:11:47,080
+lowest energy state.
+
+270
+00:11:47,080 --> 00:11:49,035
+That's in the s1.
+
+271
+00:11:49,035 --> 00:11:51,024
+Then the second electron
+also wants to go there.
+
+272
+00:11:51,024 --> 00:11:54,037
+And two electrons can fit in
+that first energy state, or
+
+273
+00:11:54,037 --> 00:11:57,051
+that first sub-orbital,
+or that first shell.
+
+274
+00:11:57,051 --> 00:11:59,048
+So then it becomes 1s2.
+
+275
+00:11:59,048 --> 00:12:00,072
+Then lithium.
+
+276
+00:12:00,072 --> 00:12:03,053
+It fills that first 1s2.
+
+277
+00:12:03,053 --> 00:12:07,075
+It fills the first energy shell
+and that first subshell,
+
+278
+00:12:07,075 --> 00:12:09,016
+which is the S-shape.
+
+279
+00:12:09,016 --> 00:12:11,069
+And so now it has to go to the
+second energy shell, and that
+
+280
+00:12:11,069 --> 00:12:14,034
+works out relative to what I
+told you before, because it's
+
+281
+00:12:14,034 --> 00:12:16,092
+in the second period.
+
+282
+00:12:16,092 --> 00:12:21,057
+The second period is
+that right there.
+
+283
+00:12:21,057 --> 00:12:22,005
+Right?
+
+284
+00:12:22,005 --> 00:12:22,097
+It's in the second period.
+
+285
+00:12:22,097 --> 00:12:28,019
+So its electron configuration
+is going to be 1s2.
+
+286
+00:12:28,019 --> 00:12:31,025
+Two of its electrons fill just
+the way helium filled.
+
+287
+00:12:31,025 --> 00:12:33,060
+And then its third electron
+will be 2s1.
+
+288
+00:12:33,060 --> 00:12:36,042
+   
+
+289
+00:12:36,042 --> 00:12:37,098
+So that's its electron
+configuration.
+
+290
+00:12:37,098 --> 00:12:40,087
+What do I mean by 2s1?
+
+291
+00:12:40,087 --> 00:12:44,052
+Well, so, lithium is going to
+have two electrons in that
+
+292
+00:12:44,052 --> 00:12:45,096
+little dot that I
+overwrote it.
+
+293
+00:12:45,096 --> 00:12:48,087
+And then around that dot,
+there's another shell, which
+
+294
+00:12:48,087 --> 00:12:50,025
+is the second energy shell.
+
+295
+00:12:50,025 --> 00:12:51,096
+And it's going to have one
+electron in there.
+
+296
+00:12:51,096 --> 00:12:53,025
+So let me see if I
+can draw that.
+
+297
+00:12:53,025 --> 00:12:59,007
+So it's going to have one
+probability, I guess, sphere,
+
+298
+00:12:59,007 --> 00:13:01,012
+where the first two electrons
+are going to reside.
+
+299
+00:13:01,012 --> 00:13:03,032
+And if this is a cross-section,
+that third
+
+300
+00:13:03,032 --> 00:13:06,050
+electron is going to reside in
+it in a probability shell
+
+301
+00:13:06,050 --> 00:13:06,097
+around that.
+
+302
+00:13:06,097 --> 00:13:09,052
+When I draw these, that's not
+like the electron is exactly
+
+303
+00:13:09,052 --> 00:13:10,054
+there in the orbital.
+
+304
+00:13:10,054 --> 00:13:14,021
+I'm just drawing where you're
+just doing a cutoff, where you
+
+305
+00:13:14,021 --> 00:13:16,011
+say it's a 90% chance of
+finding the electron.
+
+306
+00:13:16,011 --> 00:13:18,087
+The electron could show up
+there or there or there.
+
+307
+00:13:18,087 --> 00:13:21,050
+But this would be a very low
+probability, while right here
+
+308
+00:13:21,050 --> 00:13:23,087
+would be a very, very
+high probability.
+
+309
+00:13:23,087 --> 00:13:25,034
+Anyway, I'm out of time
+in this video.
+
+310
+00:13:25,034 --> 00:13:27,042
+I'm going to continue this
+discussion in the next video.
+
+311
+00:13:27,042 --> 00:13:30,028
+And I'll start talking about
+the more bizarro shapes the
+
+312
+00:13:30,028 --> 00:13:32,024
+orbitals can take on, and
+maybe give you a little
+
+313
+00:13:32,024 --> 00:13:35,090
+intuition on why these shapes
+aren't really that bizarro.
+
+314
+00:13:35,090 --> 00:13:37,025
+

@@ -1,0 +1,287 @@
+1
+00:00:00,237 --> 00:00:07,303
+Let's now use our understanding of some of the operations on sets to get some blood flowing to our brains.
+
+2
+00:00:07,303 --> 00:00:11,969
+I've defined some sets here, and just to make things interesting, I haven't only put numbers in these sets.
+
+3
+00:00:11,969 --> 00:00:15,503
+I've also put some colours and some little yellow stars here.
+
+4
+00:00:15,503 --> 00:00:18,823
+What I want you to figure out is, what would this set be?
+
+5
+00:00:18,823 --> 00:00:24,771
+This crazy thing that involves relative complements, intersections, unions, absolute complements.
+
+6
+00:00:24,771 --> 00:00:28,705
+I encourage you to pause it and try to figure out what this set would be.
+
+7
+00:00:29,950 --> 00:00:33,520
+Let's give it a shot. The key here is really to break it down.
+
+8
+00:00:33,520 --> 00:00:36,035
+Work on the stuff in the parentheses first
+
+9
+00:00:36,035 --> 00:00:39,500
+just as you would do if you were trying to parse a traditional mathematical statement
+
+10
+00:00:39,500 --> 00:00:42,168
+and then it should hopefully make a little bit of sense.
+
+11
+00:00:42,168 --> 00:00:48,482
+A good place to start is to try to figure out what is the relative complement of C in B (B\C)
+
+12
+00:00:48,482 --> 00:00:51,082
+or another way of thinking about it is what is B minus C,
+
+13
+00:00:51,082 --> 00:00:53,681
+what is B if you take out all the stuff with C in it?
+
+14
+00:00:53,681 --> 00:00:55,148
+Let me write this down:
+
+15
+00:00:55,148 --> 00:00:59,555
+The relative complement of C in B, or you could call this B minus C
+
+16
+00:00:59,555 --> 00:01:03,415
+this is all the stuff in B with all the stuff in C taken out of it.
+
+17
+00:01:03,415 --> 00:01:05,219
+Let's think about what this would be.
+
+18
+00:01:05,219 --> 00:01:10,149
+B has a 0, does C has a 0? No, so we don't have to take out the 0.
+
+19
+00:01:10,149 --> 00:01:15,388
+B has a 17, does C have a 17? Yes it does, so we take out the 17.
+
+20
+00:01:15,388 --> 00:01:19,219
+B has a 3 but C has a 3 so we take that out.
+
+21
+00:01:19,219 --> 00:01:27,637
+B has a "blue", C doesn't not have a "blue", so we leave the blue in.
+
+22
+00:01:27,637 --> 00:01:32,885
+B has a gold star but C also has a gold star so we take the gold star out.
+
+23
+00:01:32,885 --> 00:01:41,224
+The relative complement of C in B is just the set of 0 and this "blue" written in blue.
+
+24
+00:01:44,688 --> 00:01:45,765
+Now it gets interesting.
+
+25
+00:01:45,765 --> 00:01:51,622
+We're going to take the absolute complement of that.
+
+26
+00:01:51,622 --> 00:02:11,104
+The absolute complement of this business (B\C) is going to be the set of all things in our universe
+
+27
+00:02:11,104 --> 00:02:24,632
+that are neither a 0 or a blue.
+
+28
+00:02:24,632 --> 00:02:28,500
+That's the only way I can describe it right now, I haven't really defined the universe well.
+
+29
+00:02:28,500 --> 00:02:31,466
+We already see that our universe definitely contains some integers
+
+30
+00:02:31,466 --> 00:02:33,899
+it contains some colours, it contains some stars
+
+31
+00:02:33,899 --> 00:02:39,832
+so this is all I can really say: it's the set of all things that are neither a 0 or a blue.
+
+32
+00:02:39,832 --> 00:02:43,834
+So far we've figured out all of this stuff.
+
+33
+00:02:48,080 --> 00:02:59,699
+Now we want to find the intersection of A and this business.
+
+34
+00:02:59,699 --> 00:03:08,106
+It's going to be A intersected with the absolute complement of the relative complement of C in B.
+
+35
+00:03:08,106 --> 00:03:13,701
+This is going to be the intersection of the set A and the set of all things in the universe
+
+36
+00:03:13,701 --> 00:03:16,969
+that are neither a 0 or a blue.
+
+37
+00:03:16,969 --> 00:03:21,486
+It's essentially the things that satisfy both of these things.
+
+38
+00:03:21,486 --> 00:03:27,759
+It has to be in set A, and it has to be in the set of all things in the universe that are neither a 0 or a blue.
+
+39
+00:03:27,759 --> 00:03:29,283
+Let's think about what this is.
+
+40
+00:03:29,283 --> 00:03:35,425
+The number 3 is in the set A and it's in the set of all things in the universe that are neither a 0 or a blue
+
+41
+00:03:35,425 --> 00:03:37,010
+so let's throw a 3 in there.
+
+42
+00:03:37,010 --> 00:03:42,497
+The number 7 is in A and in the set of all things in the universe that are neither a 0 or a blue
+
+43
+00:03:42,497 --> 00:03:44,011
+so let's put a 7 there.
+
+44
+00:03:44,011 --> 00:03:47,630
+-5 also meets that constraint.
+
+45
+00:03:47,630 --> 00:03:50,594
+A 0 does not meet that constraint.
+
+46
+00:03:50,594 --> 00:03:56,296
+A 0 is in A but it's not in the set of all things in the universe that are neither 0 or blue because it is a 0
+
+47
+00:03:56,296 --> 00:03:58,261
+so we're not going to throw a 0 in there.
+
+48
+00:03:58,261 --> 00:04:03,594
+Then a 13 is in A and it's in the set of all things in the universe that are neither a 0 or a blue
+
+49
+00:04:03,594 --> 00:04:06,259
+so we could throw a 13 in there.
+
+50
+00:04:06,259 --> 00:04:14,630
+We've simplified things a good bit, all of this crazy business has simplified to this set right over here.
+
+51
+00:04:14,630 --> 00:04:26,494
+Now we want to find the relative complement of this business in A.
+
+52
+00:04:26,494 --> 00:04:38,163
+I'll just actually write out the set. I'll write out both of them so we can really visualize them both right over here.
+
+53
+00:04:38,163 --> 00:05:01,600
+A is 3, 7, -5, 0 and 13, and relative complement with all of this business which we figured was a 3, 7, -5 and 13.
+
+54
+00:05:01,600 --> 00:05:05,296
+So essentially, start with this set (the first one) and take out all the things that are in this set (the second one).
+
+55
+00:05:05,296 --> 00:05:07,395
+This is going to be equal to:
+
+56
+00:05:07,395 --> 00:05:14,035
+We're going to take out a 3, 7, -5, and 13 out of the set
+
+57
+00:05:14,035 --> 00:05:18,037
+so we're just left with a set that contains a 0.
+
+58
+00:05:18,037 --> 00:05:24,929
+So all of this business right over here has simplified to a set that only contains 0.
+
+59
+00:05:24,929 --> 00:05:30,670
+Now let's think about what B intersect C is.
+
+60
+00:05:30,670 --> 00:05:34,155
+These are all of the things that are in both B and C.
+
+61
+00:05:34,155 --> 00:05:37,093
+This is going to be:
+
+62
+00:05:37,093 --> 00:05:39,826
+0 is not in both of them.
+
+63
+00:05:39,826 --> 00:05:43,765
+17 is in both of them, so we'll throw a 17 there.
+
+64
+00:05:43,765 --> 00:05:47,901
+The number is 3 in both of them.
+
+65
+00:05:47,901 --> 00:05:50,624
+Blue is not in both of them.
+
+66
+00:05:50,624 --> 00:05:55,236
+The star is in both of them.
+
+67
+00:05:55,236 --> 00:05:57,624
+That's B intersect C.
+
+68
+00:05:57,624 --> 00:06:01,876
+We're essentially going to take the union of this crazy thing, which ended up just being a set with a 0 in it
+
+69
+00:06:01,876 --> 00:06:04,375
+we're going to take the union of that with B intersect C
+
+70
+00:06:04,375 --> 00:06:10,569
+and, we deserve a drumroll now, this is all going to be equal to, when we combine these two sets
+
+71
+00:06:10,569 --> 00:06:19,156
+it's going to be a set with a 0, 17, 3, and our gold star.
+
+72
+00:06:19,156 --> 99:59:59,999
+And we are done!

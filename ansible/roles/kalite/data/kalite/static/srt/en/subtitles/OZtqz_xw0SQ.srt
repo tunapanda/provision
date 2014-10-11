@@ -1,0 +1,387 @@
+1
+00:00:01,095 --> 00:00:03,412
+A ball is shot into the air from the edge of a building
+
+2
+00:00:03,412 --> 00:00:05,260
+50 feet above the ground
+
+3
+00:00:05,260 --> 00:00:08,997
+It s initial velocity is 20 feet per second
+
+4
+00:00:08,997 --> 00:00:20,047
+The equation h (height) = -(negative)16t squared+20t+50 can be used to model the height of the ball
+
+5
+00:00:20,047 --> 00:00:21,112
+after t second
+
+6
+00:00:21,112 --> 00:00:23,945
+And I think in this problem they just want us to accept this formula
+
+7
+00:00:23,945 --> 00:00:26,162
+Although we do derive formulas like this
+
+8
+00:00:26,162 --> 00:00:30,095
+we show why it works for this type of problem in the Khan academy Physics playlist
+
+9
+00:00:30,095 --> 00:00:32,961
+But for here we will just go with the flow in this example
+
+10
+00:00:32,961 --> 00:00:36,798
+So they give us the equation that we use to model the height of the ball after t seconds
+
+11
+00:00:36,798 --> 00:00:40,695
+and then say about how long does it take the ball to hit the ground
+
+12
+00:00:40,695 --> 00:00:47,231
+So if this is the height, the groudn is when the height is equal to zero
+
+13
+00:00:47,231 --> 00:00:52,196
+So hitting the ground literally means that h (height) is equal to zero
+
+14
+00:00:52,196 --> 00:00:56,906
+So we need to figure out at which times does h (height) equal zero
+
+15
+00:00:56,906 --> 00:00:58,921
+So we are really solving the equation
+
+16
+00:00:58,921 --> 00:01:06,946
+0 = -16tsquared + 20t + 50
+
+17
+00:01:06,946 --> 00:01:10,331
+And if you want to simplify this a little bit
+
+18
+00:01:10,331 --> 00:01:13,461
+Let's see everything here is divisible at least by 2
+
+19
+00:01:13,461 --> 00:01:17,863
+so let's divide everything by negative 2 just so that we can be rid of this negative coefficient
+
+20
+00:01:17,863 --> 00:01:21,775
+So you divide the left hand side by negative 2, you still get a zero
+
+21
+00:01:21,775 --> 00:01:26,998
+Negative 16 divided by negative 2 is eight so 8t squared
+
+22
+00:01:26,998 --> 00:01:29,524
+20 divided by negative two is negative 10
+
+23
+00:01:29,524 --> 00:01:31,163
+Minus 10t
+
+24
+00:01:31,163 --> 00:01:34,647
+50 divided by negative 2 is minus 25
+
+25
+00:01:34,647 --> 00:01:40,992
+is equal to zero. If you okay with this on the left hand side you can put it on the left hand side
+
+26
+00:01:40,992 --> 00:01:44,883
+We can say this is equal to 0
+
+27
+00:01:44,883 --> 00:01:46,559
+And now we solve
+
+28
+00:01:46,559 --> 00:01:51,705
+And we can complete the square here or apply the quadratic formula which is derived from
+
+29
+00:01:51,705 --> 00:01:52,863
+completing the square
+
+30
+00:01:52,863 --> 00:01:59,597
+and we have this in standard form, we know that this is our a
+
+31
+00:01:59,597 --> 00:02:04,209
+this our b and this over here is our c
+
+32
+00:02:04,209 --> 00:02:06,680
+And the quadratic formula tells us that the roots
+
+33
+00:02:06,680 --> 00:02:10,712
+In this case in terms of the variable t are going to be equal to
+
+34
+00:02:10,712 --> 00:02:15,697
+negative b plus or minus the square root of b squared minus four a c.
+
+35
+00:02:15,697 --> 00:02:20,647
+All of that over 2 a
+
+36
+00:02:20,647 --> 00:02:25,847
+So if we apply it we get t is equal to negative b
+
+37
+00:02:25,847 --> 00:02:27,417
+b is negative 10
+
+38
+00:02:27,417 --> 00:02:30,165
+so negative negative 10 is going to be postitive 10
+
+39
+00:02:30,165 --> 00:02:34,364
+plus or minus the square root of negative ten squared
+
+40
+00:02:34,364 --> 00:02:39,727
+well thats just positive 100 - 4*a which is 8
+
+41
+00:02:39,727 --> 00:02:42,430
+times c which is negative 25
+
+42
+00:02:42,430 --> 00:02:46,797
+and all of that over 2 a
+
+43
+00:02:46,797 --> 00:02:49,858
+a is 8 so 2a is 16
+
+44
+00:02:49,858 --> 00:02:56,129
+and this over here we have a negative sign
+
+45
+00:02:56,129 --> 00:02:57,648
+negative times a negative... so this is a positive
+
+46
+00:02:57,648 --> 00:02:59,648
+4 times 25 is 100
+
+47
+00:02:59,648 --> 00:03:01,929
+100 times 8 is 800
+
+48
+00:03:01,929 --> 00:03:03,429
+so all that simplifies to 800
+
+49
+00:03:03,429 --> 00:03:05,900
+and we have 100 + 800 under the radical sign
+
+50
+00:03:05,900 --> 00:03:12,250
+so 10 plus or minus the square root of 900 all of that over 16
+
+51
+00:03:12,250 --> 00:03:19,314
+is equal to 10 + or - 30 over 16
+
+52
+00:03:19,314 --> 00:03:23,498
+so we get time is equal to 10+30/16
+
+53
+00:03:23,498 --> 00:03:27,585
+40-16 which is the same thing if we divide the numerator
+
+54
+00:03:27,585 --> 00:03:29,064
+and denominator by 4
+
+55
+00:03:29,064 --> 00:03:33,363
+which is 10 over... or even better divide by 8
+
+56
+00:03:33,363 --> 00:03:35,631
+5 over 2
+
+57
+00:03:35,631 --> 00:03:37,299
+so thats one solution.
+
+58
+00:03:37,299 --> 00:03:38,664
+Thats if we add the 30
+
+59
+00:03:38,664 --> 00:03:39,764
+if we subtract the 30
+
+60
+00:03:39,764 --> 00:03:46,480
+so or t = 10 -30 which is -20 over 16
+
+61
+00:03:46,480 --> 00:03:49,066
+divide the numerator and the denominator by 4
+
+62
+00:03:49,066 --> 00:03:51,979
+and you get -5 over 4
+
+63
+00:03:51,979 --> 00:03:53,298
+Now we have to remember
+
+64
+00:03:53,298 --> 00:03:54,649
+were trying to find a time
+
+65
+00:03:54,649 --> 00:03:58,098
+and so a time at least in this problem
+
+66
+00:03:58,098 --> 00:03:59,764
+is positve
+
+67
+00:03:59,764 --> 00:04:03,966
+we want to figure out how long it takes for the ball
+
+68
+00:04:03,966 --> 00:04:04,798
+to hit the ground
+
+69
+00:04:04,798 --> 00:04:08,430
+we dont want to go back in time, we dont want negative time
+
+70
+00:04:08,430 --> 00:04:10,665
+we only want to think about our positive answer
+
+71
+00:04:10,665 --> 00:04:12,830
+and so this tells us that the only root that should work
+
+72
+00:04:12,830 --> 00:04:14,471
+is, we have to assume that this is in seconds
+
+73
+00:04:14,471 --> 00:04:18,678
+so 5/2 seconds
+
+74
+00:04:18,678 --> 00:04:20,801
+i woudnt worry to much about the phisics here
+
+75
+00:04:20,801 --> 00:04:23,115
+i think they just want us to apply the quadratic formula
+
+76
+00:04:23,115 --> 00:04:24,814
+into this modeling situation
+
+77
+00:04:24,814 --> 00:04:30,041
+the physics, we go into a lot more depth in the physics playlist
+
+78
+00:04:30,041 --> 00:04:32,916
+so lets verify that we definitley
+
+79
+00:04:32,916 --> 00:04:35,086
+are at a height of 0 at 5/2 seconds
+
+80
+00:04:35,086 --> 00:04:39,750
+so if t=5/2 then this expression is equal to 0
+
+81
+00:04:39,750 --> 00:04:44,148
+so we have, lets try it out, so we have
+
+82
+00:04:44,148 --> 00:04:49,773
+-16*5/2^2
+
+83
+00:04:49,773 --> 00:04:53,067
++20*5/2
+
+84
+00:04:53,067 --> 00:04:54,733
++50
+
+85
+00:04:54,733 --> 00:04:59,522
+this needs to be equal to 0
+
+86
+00:04:59,522 --> 00:05:16,185
+so this is -16*25/4 + 50+50=0
+
+87
+00:05:16,201 --> 00:05:19,254
+-16/4 is -4
+
+88
+00:05:19,301 --> 00:05:21,293
+4/4 is 1
+
+89
+00:05:21,293 --> 00:05:27,044
+so -4/25 which is 100, +50
+
+90
+00:05:27,044 --> 00:05:29,898
+sorry, -4/25 is NEGATIVE 100
+
+91
+00:05:29,898 --> 00:05:32,692
+100+50+50
+
+92
+00:05:32,692 --> 00:05:37,295
+so we have -100 plus 100
+
+93
+00:05:37,295 --> 00:05:39,212
+so thats definatly going to be 0
+
+94
+00:05:39,212 --> 00:05:40,545
+we get 0 = 0
+
+95
+00:05:40,545 --> 00:05:42,276
+and it all checks out
+
+96
+00:05:42,276 --> 00:05:45,294
+we hit the ground after 5/2 seconds
+
+97
+00:05:45,294 --> 00:05:51,536
+or another way to think about it is 2.5 seconds

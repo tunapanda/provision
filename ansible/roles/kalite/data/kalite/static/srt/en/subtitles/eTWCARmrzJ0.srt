@@ -1,0 +1,283 @@
+1
+00:00:00,426 --> 00:00:02,625
+Let's give ourselves a little more practice
+
+2
+00:00:02,625 --> 00:00:04,246
+with logarithms.
+
+3
+00:00:04,246 --> 00:00:05,975
+So just a little bit of review...
+
+4
+00:00:05,975 --> 00:00:11,474
+Let's evaluate log, base 2, of 8.
+
+5
+00:00:11,474 --> 00:00:14,693
+What does this evaluate to?
+
+6
+00:00:14,693 --> 00:00:19,780
+Well it's asking us it'll evaluate to the power that I have
+
+7
+00:00:19,780 --> 00:00:23,449
+to raise our base to. That I have to raise 2 to,
+
+8
+00:00:23,449 --> 00:00:25,249
+to get to 8.
+
+9
+00:00:25,249 --> 00:00:27,983
+So 2 to the first power is 2, 2 to the second power is 4,
+
+10
+00:00:27,983 --> 00:00:32,933
+2 to the third power is 8. So this right over here is going to
+
+11
+00:00:32,933 --> 00:00:34,395
+be equal to 3.
+
+12
+00:00:34,395 --> 00:00:37,383
+Fair enough, we did examples like that in the last video.
+
+13
+00:00:37,383 --> 00:00:39,383
+Let's do something a little bit more interesting...
+
+14
+00:00:39,383 --> 00:00:41,815
+What is--
+
+15
+00:00:41,815 --> 00:00:43,128
+and I'll colour code it...
+
+16
+00:00:43,128 --> 00:00:51,128
+what is log, base 8, of 2?
+
+17
+00:00:51,128 --> 00:00:54,427
+Now this is interesting, I'll give you a few seconds to
+
+18
+00:00:54,427 --> 00:00:56,378
+think about it.
+
+19
+00:00:56,378 --> 00:00:59,377
+Well we're asking ourselves or this will evaluate to
+
+20
+00:00:59,377 --> 00:01:04,028
+the exponent that I have to raise 8 to, to get to 2.
+
+21
+00:01:04,028 --> 00:01:06,078
+So let's think about that in another way.
+
+22
+00:01:06,078 --> 00:01:12,828
+So we could say 8, to some power, and that exponent that I'm
+
+23
+00:01:12,828 --> 00:01:16,112
+raising 8 to is essentially what this logarithm would evaluate to.
+
+24
+00:01:16,112 --> 00:01:24,643
+8 to some power, is going to be equal to 2.
+
+25
+00:01:24,643 --> 00:01:28,472
+Well if 2 to the third power is 8, 8 to the one-third power
+
+26
+00:01:28,472 --> 00:01:30,113
+is equal to 2.
+
+27
+00:01:30,113 --> 00:01:32,964
+So 'x' is equal to one-third.
+
+28
+00:01:32,964 --> 00:01:35,596
+8 to the one-third power is equal to 2.
+
+29
+00:01:35,596 --> 00:01:38,781
+Or you could say that the cube root of 8 is 2.
+
+30
+00:01:38,781 --> 00:01:40,914
+So in this case 'x' is one-third.
+
+31
+00:01:40,914 --> 00:01:47,313
+This logarithm right over here will evaluate to one-third.
+
+32
+00:01:47,313 --> 00:01:48,652
+Fascinating.
+
+33
+00:01:48,652 --> 00:01:50,911
+Let's mix it up a little bit more.
+
+34
+00:01:50,911 --> 00:01:56,314
+Let's say we have the log, base 2, instead of 8
+
+35
+00:01:56,314 --> 00:02:01,431
+let's put a one-eighth, right over here.
+
+36
+00:02:01,431 --> 00:02:05,163
+So I'll give you a few seconds to think about that.
+
+37
+00:02:05,163 --> 00:02:08,762
+Well it's asking us or this will evaluate to the exponent that I have to
+
+38
+00:02:08,762 --> 00:02:11,564
+raise 2 to, to get to one-eighth.
+
+39
+00:02:11,564 --> 00:02:15,495
+So if we set this to be equal to 'x', we're essentially saying
+
+40
+00:02:15,495 --> 00:02:25,335
+2 to the 'x' power, is equal to one-eighth.
+
+41
+00:02:25,335 --> 00:02:27,082
+Well we know that 2 to the third power--
+
+42
+00:02:27,082 --> 00:02:28,465
+Let me write this down...
+
+43
+00:02:28,465 --> 00:02:31,715
+We already know that 2 to the third power is equal to 8.
+
+44
+00:02:31,715 --> 00:02:35,147
+If we want to get to one-eighth, which is a reciprocal of 8.
+
+45
+00:02:35,147 --> 00:02:37,614
+We just have to raise to the negative 3 power.
+
+46
+00:02:37,614 --> 00:02:42,798
+2 to the negative 3 power is one over 2 to the third power.
+
+47
+00:02:42,798 --> 00:02:46,331
+Which is the same thing as one over eight.
+
+48
+00:02:46,331 --> 00:02:49,514
+So, if we're asking ourselves "what exponent do we have to raise
+
+49
+00:02:49,514 --> 00:02:51,765
+2 to to get to one-eighth?"
+
+50
+00:02:51,765 --> 00:02:54,515
+Well we have to raise it to the negative 3 power.
+
+51
+00:02:54,515 --> 00:02:56,915
+So 'x' is equal to negative 3.
+
+52
+00:02:56,915 --> 00:03:01,865
+This logarithm evaluates to negative 3.
+
+53
+00:03:01,865 --> 00:03:05,736
+Now let's really, really mix it up.
+
+54
+00:03:05,736 --> 00:03:18,266
+What would be the log, base 8, of one-half.
+
+55
+00:03:18,266 --> 00:03:21,015
+What does this evaluate to?
+
+56
+00:03:21,015 --> 00:03:26,282
+Let me clean this up so we have some space to work with.
+
+57
+00:03:26,282 --> 00:03:32,451
+So as always, we're saying "what power do I have to raise 8 to, to get to one-half?"
+
+58
+00:03:32,451 --> 00:03:34,498
+So let's think about that a little bit.
+
+59
+00:03:34,498 --> 00:03:37,433
+We already know that 8 to the one-third power is
+
+60
+00:03:37,433 --> 00:03:39,015
+equal to 2.
+
+61
+00:03:39,015 --> 00:03:42,701
+If we want the reciprocal of 2 right over here, we have to just
+
+62
+00:03:42,701 --> 00:03:45,634
+raise 8 to the negative one-third.
+
+63
+00:03:45,634 --> 00:03:51,383
+So let me write that down, 8, to the negative one-third power,
+
+64
+00:03:51,383 --> 00:03:56,517
+is going to be equal to one over eight, to the one-third power,
+
+65
+00:03:56,517 --> 00:03:59,400
+and we already know the cube root of 8 or 8 to the one-third power is
+
+66
+00:03:59,400 --> 00:04:00,683
+equal to 2. This is equal to
+
+67
+00:04:00,683 --> 00:04:02,265
+one-half.
+
+68
+00:04:02,265 --> 00:04:08,001
+So, the log, base 8, of one-half is equal to?
+
+69
+00:04:08,001 --> 00:04:10,551
+Well the power I have to raise 8 to to get to one-half is
+
+70
+00:04:10,551 --> 00:04:15,421
+negative one-third.
+
+71
+00:04:15,421 --> 00:04:19,024
+I hope you enjoyed that as much as I did.

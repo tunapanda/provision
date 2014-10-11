@@ -1,0 +1,75 @@
+1
+99:59:59,999 --> 99:59:59,999
+As a pot of tea cools, the temperature of the tea is modelled by a differentiable function h for 0 is
+
+2
+99:59:59,999 --> 99:59:59,999
+less than equal to t is less than or equal to 10. Where time t is measured in minutes, and temperature h(t)
+
+3
+99:59:59,999 --> 99:59:59,999
+is measured in degrees Celsius.
+
+4
+99:59:59,999 --> 99:59:59,999
+Values of h(t) and selected values of time t are shown in the table above,
+
+5
+99:59:59,999 --> 99:59:59,999
+so that's right over there.
+
+6
+99:59:59,999 --> 99:59:59,999
+Use the data in the table to approximate the rate of in which the temperature of the t is changing at
+
+7
+99:59:59,999 --> 99:59:59,999
+time t = 3.5. Show the computations that lead to your answer.
+
+8
+99:59:59,999 --> 99:59:59,999
+So they give us a bunch of points, so let's just graph this just so we can visualize what this data
+
+9
+99:59:59,999 --> 99:59:59,999
+is telling us a little bit, and I suspect this might be useful.
+
+10
+99:59:59,999 --> 99:59:59,999
+So this right over here is our temperature axis, this is our temperature
+
+11
+99:59:59,999 --> 99:59:59,999
+at any moment in degrees Celcius.
+
+12
+99:59:59,999 --> 99:59:59,999
+And than this is our time axis and they give us the time 0,2,5,9 and 10
+
+13
+99:59:59,999 --> 99:59:59,999
+and they give us the temperature at those times.
+
+14
+99:59:59,999 --> 99:59:59,999
+This is 0,2,5 is a little bit further, 9, and than 10.
+
+15
+99:59:59,999 --> 99:59:59,999
+And than time 0, the temperature is 66 degrees Celsius, so is it right over there.
+
+16
+99:59:59,999 --> 99:59:59,999
+And time 2 is 60 degrees Celsius.
+
+17
+99:59:59,999 --> 99:59:59,999
+And time 5 it is 52 degrees Celsius
+
+18
+99:59:59,999 --> 99:59:59,999
+So time 5 may be somewhere around here, at 52 degrees Celsius.
+
+19
+99:59:59,999 --> 99:59:59,999
+At time 9, or after 9 minutes, it is 44 degrees Celsius.

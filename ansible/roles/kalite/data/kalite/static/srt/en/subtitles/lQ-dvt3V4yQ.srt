@@ -1,0 +1,319 @@
+1
+00:00:00,467 --> 00:00:08,200
+Let's do one more example dealing with displacement, velocity and time. So we have: If Marcia travels
+
+2
+00:00:08,200 --> 00:00:18,042
+for 1 minute at 5 m/s to the south, how much will she be displaced? And so we know, we know that
+
+3
+00:00:18,042 --> 00:00:26,867
+that velocity (let me do it this way) we know that velocity is equal to displacement
+
+4
+00:00:26,867 --> 00:00:33,733
+is equal to displacement divided by time, it's really once again, it is change in time
+
+5
+00:00:33,733 --> 00:00:36,733
+but we'll just say time, that's implicitly change in time
+
+6
+00:00:36,733 --> 00:00:38,533
+and if you manipulate this a little bit
+
+7
+00:00:38,533 --> 00:00:41,733
+you really just multiply both sides by time
+
+8
+00:00:41,733 --> 00:00:45,267
+you just multiply both sides by the variable 't'
+
+9
+00:00:45,267 --> 00:00:47,533
+you get displacement, cuz this cancels out...
+
+10
+00:00:47,533 --> 00:00:50,712
+...you get displacement, and I'll flip this around
+
+11
+00:00:50,712 --> 00:00:55,410
+I'll write...what's on the righthand side I'll write on the left
+
+12
+00:00:55,410 --> 00:00:58,955
+so you get displacement is equal to time times velocity
+
+13
+00:00:58,955 --> 00:01:01,045
+or velocity times time
+
+14
+00:01:01,045 --> 00:01:08,615
+is equal to velocity times time or velocity times change in time
+
+15
+00:01:08,615 --> 00:01:11,400
+so over here they're asking for displacement
+
+16
+00:01:11,400 --> 00:01:13,800
+they're asking us how much did Marcia get displaced
+
+17
+00:01:13,800 --> 00:01:16,533
+and they're saying that she travels for one minute
+
+18
+00:01:16,533 --> 00:01:19,118
+so this one minute right over here, this is her time
+
+19
+00:01:19,118 --> 00:01:21,467
+sometimes you can do that as her change in time
+
+20
+00:01:21,467 --> 00:01:23,035
+it really is her change in time
+
+21
+00:01:23,035 --> 00:01:27,417
+whatever...you know...if it said 0 minutes on her stopwatch when she started
+
+22
+00:01:27,417 --> 00:01:28,831
+at the end it'll say 1 minute
+
+23
+00:01:28,831 --> 00:01:33,400
+or if it starts at 5 minutes, or maybe it was 3:05 when she started, it'll be 3:06 when she finish
+
+24
+00:01:33,400 --> 00:01:35,067
+it was really the change in time
+
+25
+00:01:35,067 --> 00:01:36,867
+once again, I won't write the delta there, just cuz
+
+26
+00:01:36,867 --> 00:01:40,929
+it keeps it...this is the way you most frequently see it
+
+27
+00:01:40,929 --> 00:01:44,748
+but I want to tell you that these are the same thing for the purpose of this problem
+
+28
+00:01:44,748 --> 00:01:47,000
+because sometimes you'll see the delta there
+
+29
+00:01:47,000 --> 00:01:51,733
+so the one minute, the 't' right over here is one minute...
+
+30
+00:01:51,733 --> 00:01:53,894
+...one minute...
+
+31
+00:01:53,894 --> 00:02:00,133
+...at 5 meters per second to the south
+
+32
+00:02:00,133 --> 00:02:02,733
+this right over here is the velocity
+
+33
+00:02:02,733 --> 00:02:05,993
+they give us the magnitude, which is 5 meters per second
+
+34
+00:02:05,993 --> 00:02:07,710
+or you could say that's the speed
+
+35
+00:02:07,710 --> 00:02:10,877
+and they also give us the direction, to the south
+
+36
+00:02:10,877 --> 00:02:13,452
+so this right over here
+
+37
+00:02:13,452 --> 00:02:19,994
+is 5 meters per second to the south
+
+38
+00:02:19,994 --> 00:02:22,800
+so we might just say, hey if we want displacement
+
+39
+00:02:22,800 --> 00:02:27,067
+that's just going to be equal to
+
+40
+00:02:27,067 --> 00:02:40,467
+5 meters per second to the south times 1 minute
+
+41
+00:02:40,467 --> 00:02:43,467
+the problem here is, when we talk about displacement
+
+42
+00:02:43,467 --> 00:02:46,467
+we're going to think about a magnitude of how much its moved
+
+43
+00:02:46,467 --> 00:02:49,668
+so it'll be a distance of some kind, and some direction
+
+44
+00:02:49,668 --> 00:02:52,990
+we have our direction here, but we don't want any other units there
+
+45
+00:02:52,990 --> 00:02:54,677
+and if we just multiply this over here
+
+46
+00:02:54,677 --> 00:02:57,749
+we have a minute over here, but we have seconds in the denominator
+
+47
+00:02:57,749 --> 00:02:59,667
+you can't just cancel out a minute and a second
+
+48
+00:02:59,667 --> 00:03:02,671
+so you can't just say you're going to get 5, and have some weird thing here
+
+49
+00:03:02,671 --> 00:03:04,333
+so in order for it to all work out
+
+50
+00:03:04,333 --> 00:03:09,267
+you either have to convert the 5 meters per second to meters per minute
+
+51
+00:03:09,267 --> 00:03:11,267
+or let me phrase it in another way
+
+52
+00:03:11,267 --> 00:03:14,933
+you have to convert the 5 meters per second to some amount of meters per minute
+
+53
+00:03:14,933 --> 00:03:17,067
+not 5 meters per minute, it's going to be different
+
+54
+00:03:17,067 --> 00:03:19,692
+or you convert the 1 minute to seconds
+
+55
+00:03:19,692 --> 00:03:23,733
+so at least in my mind it's easier to convert 1 minute to seconds
+
+56
+00:03:23,733 --> 00:03:25,391
+so let's do that
+
+57
+00:03:25,391 --> 00:03:26,775
+so this is the same thing
+
+58
+00:03:26,775 --> 00:03:29,041
+1 minute times...
+
+59
+00:03:29,041 --> 00:03:32,667
+and we want to get rid of the minute, the minute is essentially the numerator right now
+
+60
+00:03:32,667 --> 00:03:34,000
+we can put this over one
+
+61
+00:03:34,000 --> 00:03:35,000
+but it's essentially the numerator
+
+62
+00:03:35,000 --> 00:03:38,477
+so we want to divide by minutes
+
+63
+00:03:38,477 --> 00:03:41,258
+and we want to multiply by seconds
+
+64
+00:03:41,258 --> 00:03:43,533
+we want seconds in the numerator
+
+65
+00:03:43,533 --> 00:03:46,862
+and so what is...how many seconds are there per minute?
+
+66
+00:03:46,862 --> 00:03:50,846
+you have 60 seconds for every 1 minute
+
+67
+00:03:50,846 --> 00:03:53,329
+and so you have a minute canceling out with the minutes
+
+68
+00:03:53,344 --> 00:03:57,256
+and so now you have 5 meters per second to the south times 60 seconds
+
+69
+00:03:57,256 --> 00:04:00,533
+this is now cool, cuz you now have seconds and seconds
+
+70
+00:04:00,533 --> 00:04:03,241
+I wrote 'sec' there, but this is also 'sec'
+
+71
+00:04:03,241 --> 00:04:08,200
+so now you have seconds over seconds, those cancel out
+
+72
+00:04:08,200 --> 00:04:18,200
+so your displacement is going to be equal to 5 times 60
+
+73
+00:04:18,200 --> 00:04:21,200
+and then your units left are meters
+
+74
+00:04:21,200 --> 00:04:23,333
+all the time units have canceled out
+
+75
+00:04:23,333 --> 00:04:31,302
+and it's meters to the south
+
+76
+00:04:31,302 --> 00:04:41,456
+and this is equal to...5 times 60 is 300 meters to the south
+
+77
+00:04:41,456 --> 00:04:45,211
+and we are done, that's how much she has been displaced
+
+78
+00:04:45,211 --> 00:04:51,800
+if they just wanted the distance, you can say that she traveled 300 meters
+
+79
+00:04:51,800 --> 00:04:54,446
+just that part, the magnitude of the displacement...
+
+80
+00:04:54,446 --> 99:59:59,999
+...that is the distance that she traveled

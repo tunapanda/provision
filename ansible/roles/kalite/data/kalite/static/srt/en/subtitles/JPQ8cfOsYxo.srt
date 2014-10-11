@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:11,182
+I got this problem here form the 2003 AIME Exam, that state to American Invitational Mathematics Exam, and this is actually the first problem of the exam.
+
+2
+00:00:11,182 --> 00:00:19,455
+The product N of three positive integers is 6 times their sum, and one of the integers is the sum of the other two.
+
+3
+00:00:19,455 --> 00:00:23,560
+Find the sum of all possible values of N.
+
+4
+00:00:23,560 --> 00:00:26,798
+So we have to deal with three positive integers.
+
+5
+00:00:26,798 --> 00:00:30,698
+So we have three positive integers write over here.
+
+6
+00:00:30,698 --> 00:00:36,011
+So we just think about three positive integers, just call them a,b, and c.
+
+7
+00:00:36,011 --> 00:00:37,649
+They are positive and they are integers.
+
+8
+00:00:37,649 --> 00:00:40,989
+The product N of these three positive integers.
+
+9
+00:00:40,989 --> 00:00:47,840
+So a times b times c is equal to N, is 6 times their sum.
+
+10
+00:00:47,840 --> 00:00:50,457
+This is equal to 6 times their sum.
+
+11
+00:00:50,457 --> 00:00:52,479
+Let me just use another color.
+
+12
+00:00:52,479 --> 00:00:54,394
+So this is their product.
+
+13
+00:00:54,394 --> 00:01:02,099
+So the product N of three positive integers is 6 times their sum.
+
+14
+00:01:02,099 --> 00:01:05,799
+So this is equal to 6 times their sum of those integers.
+
+15
+00:01:05,799 --> 00:01:13,004
+a plus b plus c, and the one of the integers is the sum of the other two.
+
+16
+00:01:13,004 --> 00:01:19,379
+One of the integers is the sum of other two.
+
+17
+00:01:19,379 --> 00:01:23,533
+Let we just pick c to be the sum of a and b.
+
+18
+00:01:23,533 --> 00:01:25,387
+It does not matter. This is just a name.
+
+19
+00:01:25,387 --> 00:01:28,217
+We have to set one of them is larger or less than the other one.
+
+20
+00:01:28,217 --> 00:01:34,877
+So we just set that a plus b is equal to c. The one of integers is the sum of other integers.
+
+21
+00:01:34,877 --> 00:01:41,781
+c is the sum of a plus b. Find the sum of all possible values of N.
+
+22
+00:01:41,781 --> 00:01:46,773
+We just try to little bit of liquidation of the information that we have here.
+
+23
+00:01:46,773 --> 00:01:53,614
+Maybe we can get some relationship or some constrains on the numbers that we can kind of go through the possibilities.
+
+24
+00:01:53,614 --> 00:01:56,677
+We know the a plus b is equal to c.
+
+25
+00:01:56,677 --> 00:02:02,292
+So we can replace c, replace c everywhere with a plus b.
+
+26
+00:02:02,292 --> 00:02:08,680
+So this expression write over here becomes ab which is a times b times c.
+
+27
+00:02:08,680 --> 00:02:14,964
+But instead of c, I am gonna to write a plus b over here. a+b.
+
+28
+00:02:14,964 --> 00:02:24,691
+And then that is equal to 6 times a plus b plus c.
+
+29
+00:02:24,691 --> 00:02:27,410
+And so, once again.
+
+30
+00:02:27,410 --> 00:02:31,068
+I will replace c with a plus b.
+
+31
+00:02:31,068 --> 00:02:33,451
+And then what does this simplify to.
+
+32
+00:02:33,451 --> 00:02:37,689
+So on the right hand side, we have 6 times a plus b plus b plus a plus b.
+
+33
+00:02:37,689 --> 00:02:45,285
+This is the same thing 6 times 2a plus 2b, just add the as and bs.
+
+34
+00:02:45,285 --> 00:02:49,044
+And we can factor 2. This the same thing as if you take out the 2.
+
+35
+00:02:49,044 --> 00:02:53,313
+6 times 2 is 12 times a plus b.
+
+36
+00:02:53,313 --> 00:03:01,466
+The left hand side, write over here, is still a times b or ab times a plus b.
+
+37
+00:03:01,466 --> 00:03:07,445
+So ab times a plus b is gotten to be equal to 12 times a plus b.
+
+38
+00:03:07,445 --> 00:03:09,630
+So this is pretty interesting here.
+
+39
+00:03:09,630 --> 00:03:12,415
+We can divide both sides by a plus b.
+
+40
+00:03:12,415 --> 00:03:16,539
+We know the a plus b won't be equal to, can not be equal to 0.
+
+41
+00:03:16,539 --> 00:03:19,077
+So all of these numbers have to be positive numbers.
+
+42
+00:03:19,077 --> 00:03:23,402
+So we divide both sides and the reason why I say that is if it was 0.
+
+43
+00:03:23,402 --> 00:03:27,435
+Dividing by 0, it will give a undefined answer.
+
+44
+00:03:27,435 --> 00:03:33,614
+So we divide both sides by a plus b, we get a times b is equal to 12.
+
+45
+00:03:33,614 --> 00:03:38,356
+So all the constrains that they give us boil off these down to this write over here.
+
+46
+00:03:38,356 --> 00:03:41,589
+The product of a and b is equal to 12.

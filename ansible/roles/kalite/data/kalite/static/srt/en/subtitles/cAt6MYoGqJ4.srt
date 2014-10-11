@@ -1,0 +1,327 @@
+1
+00:00:04,162 --> 00:00:06,129
+Consider the following game,
+
+2
+00:00:06,129 --> 00:00:09,220
+Eve instructs Bob to go into a room,
+
+3
+00:00:09,220 --> 00:00:11,370
+Bob finds the room empty,
+
+4
+00:00:11,370 --> 00:00:14,223
+except for some locks, an empty box,
+
+5
+00:00:14,223 --> 00:00:16,517
+and a single deck of cards.
+
+6
+00:00:16,517 --> 00:00:19,478
+Eve tells Bob to select a card from the deck,
+
+7
+00:00:19,478 --> 00:00:23,441
+and hide it as best as he can.
+
+8
+00:00:23,441 --> 00:00:24,900
+The rules are simple,
+
+9
+00:00:24,900 --> 00:00:27,191
+Bob cannot leave the room with anything,
+
+10
+00:00:27,191 --> 00:00:30,280
+cards and keys all stayed in the room,
+
+11
+00:00:30,280 --> 00:00:33,763
+and he can put at most one card in the box,
+
+12
+00:00:34,824 --> 00:00:38,109
+Eve agrees that she has never seen the locks.
+
+13
+00:00:38,109 --> 00:00:42,545
+He wins the game if Eve is unable to determine his card,
+
+14
+00:00:42,545 --> 00:00:44,843
+So what is his best strategy?
+
+15
+00:00:44,843 --> 00:00:48,352
+Well, Bob selected a card, six of diamonds,
+
+16
+00:00:48,352 --> 00:00:50,757
+and threw it in the box.
+
+17
+00:00:50,757 --> 00:00:53,797
+First, he considered the different types of locks.
+
+18
+00:00:53,797 --> 00:00:58,236
+Maybe he should lock the card in the box with the key.
+
+19
+00:00:58,236 --> 00:01:00,534
+Though she can pick locks,
+
+20
+00:01:00,534 --> 00:01:03,274
+so he considers the combination lock,
+
+21
+00:01:03,274 --> 00:01:04,366
+The key is on the back,
+
+22
+00:01:04,366 --> 00:01:06,900
+so if he locks it and scratches it off,
+
+23
+00:01:06,900 --> 00:01:08,944
+it seems like the best choice.
+
+24
+00:01:08,944 --> 00:01:12,081
+But suddenly he realized the problem.
+
+25
+00:01:12,081 --> 00:01:13,907
+The remaining cards on the table
+
+26
+00:01:13,907 --> 00:01:16,115
+leak information about his choice,
+
+27
+00:01:16,115 --> 00:01:18,282
+since it's now missing from the deck.
+
+28
+00:01:18,282 --> 00:01:20,940
+The locks are a decoy.
+
+29
+00:01:20,940 --> 00:01:23,834
+He shouldn't separate his card from the deck.
+
+30
+00:01:23,834 --> 00:01:25,539
+He returns his card to the deck.
+
+31
+00:01:25,539 --> 00:01:27,921
+But can't remember the position of his card.
+
+32
+00:01:27,921 --> 00:01:32,246
+So he shuffles the deck to randomize it.
+
+33
+00:01:32,246 --> 00:01:34,386
+Shuffling is the best lock,
+
+34
+00:01:34,386 --> 00:01:37,849
+because it leaves no information about his choice.
+
+35
+00:01:37,849 --> 00:01:42,459
+His card is now equally likely to be any card in the deck.
+
+36
+00:01:42,459 --> 00:01:46,475
+He can now leave the cards openly in confidence.
+
+37
+00:01:48,137 --> 00:01:49,598
+Bob wins the game,
+
+38
+00:01:49,598 --> 00:01:52,821
+because the best Eve can do is simply guess,
+
+39
+00:01:52,821 --> 00:01:56,386
+as he'd left no information about his choice,
+
+40
+00:01:56,386 --> 00:01:58,160
+Most importantly,
+
+41
+00:01:58,160 --> 00:02:01,455
+even if we give Eve unlimited computational power,
+
+42
+00:02:01,455 --> 00:02:04,111
+she can't do any better than a guess.
+
+43
+00:02:04,111 --> 00:02:07,867
+This defines what we call perfect secrecy.
+
+44
+00:02:07,867 --> 00:02:13,677
+On September 1st, 1945, 29 year old Claude Shannon
+
+45
+00:02:13,677 --> 00:02:17,387
+published a classified paper on this idea.
+
+46
+00:02:17,387 --> 00:02:20,690
+Shannon gave the first mathematical proof
+
+47
+00:02:20,690 --> 00:02:25,191
+for how and why the one time pad is perfectly secret.
+
+48
+00:02:25,191 --> 00:02:29,411
+Shannon thinks about encryption schemes in a following way:
+
+49
+00:02:29,411 --> 00:02:33,839
+Imagine Alice writes a message to Bob, 20 letters long.
+
+50
+00:02:33,839 --> 00:02:38,116
+This is equivalent to picking one specific page
+
+51
+00:02:38,116 --> 00:02:40,494
+from the message space.
+
+52
+00:02:40,494 --> 00:02:42,261
+The message space can be thought of as
+
+53
+00:02:42,261 --> 00:02:47,550
+a complete collection of all possible 20-letter messages.
+
+54
+00:02:47,550 --> 00:02:50,170
+Anything you can think of that's 20 letters long
+
+55
+00:02:50,170 --> 00:02:52,422
+is a page in this stack.
+
+56
+00:02:52,422 --> 00:02:55,218
+Next Alice applies a shared key,
+
+57
+00:02:55,218 --> 00:02:57,890
+which is a list of 20 randomly generated shifts
+
+58
+00:02:57,890 --> 00:03:00,049
+between 1 and 26.
+
+59
+00:03:00,049 --> 00:03:05,012
+The key space is the complete collection of all possible outcomes.
+
+60
+00:03:05,012 --> 00:03:07,274
+So generating a key is equivalent to
+
+61
+00:03:07,274 --> 00:03:10,822
+selecting a page from the stack at random.
+
+62
+00:03:10,822 --> 00:03:13,901
+When she applies the shifts to encrypt the message,
+
+63
+00:03:13,901 --> 00:03:16,098
+she ends up with the cipher text.
+
+64
+00:03:16,098 --> 00:03:18,992
+The cipher text space represents
+
+65
+00:03:18,992 --> 00:03:22,619
+all possible results of an encryption.
+
+66
+00:03:22,619 --> 00:03:24,621
+When she applies the key,
+
+67
+00:03:24,621 --> 00:03:28,678
+it maps to a unique page in this stack.
+
+68
+00:03:28,678 --> 00:03:31,093
+Notice that the size of the message space
+
+69
+00:03:31,093 --> 00:03:32,579
+equals the size of the key space,
+
+70
+00:03:32,579 --> 00:03:35,856
+equals the size of the cipher text space.
+
+71
+00:03:35,856 --> 00:03:38,562
+This defines what we call perfect secrecy,
+
+72
+00:03:38,562 --> 00:03:42,964
+for if someone has access to a page of cipher text only,
+
+73
+00:03:42,964 --> 00:03:44,850
+the only thing that they know is
+
+74
+00:03:44,850 --> 00:03:48,311
+that every message is equally likely.
+
+75
+00:03:48,311 --> 00:03:50,981
+So no amount of computational power
+
+76
+00:03:50,981 --> 00:03:53,984
+could ever help improve a blind guess.
+
+77
+00:03:53,984 --> 00:03:55,404
+Now the big problem,
+
+78
+00:03:55,404 --> 00:03:57,122
+you're wondering with the one time pad
+
+79
+00:03:57,122 --> 00:04:00,067
+is that we've to share these long keys in advance.
+
+80
+00:04:00,067 --> 00:04:01,992
+To solve this problem,
+
+81
+00:04:01,992 --> 00:04:05,162
+we need to relax our definition of secrecy,
+
+82
+00:04:05,162 --> 00:04:11,895
+by developing a definition of pseudo-randomness.

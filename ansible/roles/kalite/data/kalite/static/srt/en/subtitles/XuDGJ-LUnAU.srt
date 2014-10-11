@@ -1,0 +1,635 @@
+1
+00:00:00,860 --> 00:00:03,370
+We're on problem 141.
+
+2
+00:00:04,070 --> 00:00:06,000
+On Jane's credit card account,
+
+3
+00:00:06,000 --> 00:00:09,580
+the average daily balance for a 30 day billing cycle--
+
+4
+00:00:11,270 --> 00:00:12,900
+when I see these long paragraphs it starts to give you a
+
+5
+00:00:12,900 --> 00:00:16,050
+headache-- the average daily balance for a 30 day billing
+
+6
+00:00:16,060 --> 00:00:20,370
+cycle is the average of the daily balances at the end of
+
+7
+00:00:20,370 --> 00:00:22,920
+each of the 30 days.
+
+8
+00:00:22,920 --> 00:00:25,130
+OK, so they take the average balance of each of the days
+
+9
+00:00:25,130 --> 00:00:27,430
+and then they average it. OK.
+
+10
+00:00:27,430 --> 00:00:29,860
+At the beginning of a certain 30 day billing cycle,
+
+11
+00:00:30,420 --> 00:00:34,030
+Jane's credit card account had a balance of $600
+
+12
+00:00:34,030 --> 00:00:37,770
+at the beginning. What problem is this? 141.
+
+13
+00:00:38,030 --> 00:00:42,050
+So at the beginning, she had a balance of $600. Fair enough.
+
+14
+00:00:42,050 --> 00:00:46,000
+Jane made a payment of $300 on the account
+
+15
+00:00:46,000 --> 00:00:47,400
+during the billing cycle.
+
+16
+00:00:47,400 --> 00:00:48,580
+So this is the beginning of the month,
+
+17
+00:00:48,850 --> 00:00:51,210
+and then at some point-- this is 30 days later--
+
+18
+00:00:51,210 --> 00:00:53,580
+at some point she made a $300 payment.
+
+19
+00:00:54,200 --> 00:00:56,720
+Fair enough. Continuing.
+
+20
+00:00:56,720 --> 00:00:59,540
+If no other amounts were added or subtracted from the account
+
+21
+00:00:59,540 --> 00:01:02,750
+during the billing cycle, what was the average daily balance
+
+22
+00:01:02,750 --> 00:01:04,560
+on Jane's account for the billing cycle?
+
+23
+00:01:05,050 --> 00:01:07,870
+OK, so I think I'm visualizing this right.
+
+24
+00:01:07,870 --> 00:01:10,560
+If we say that this is days,
+
+25
+00:01:10,560 --> 00:01:16,000
+where this is day 0 and this is day 30.
+
+26
+00:01:16,000 --> 00:01:20,570
+So essentially, at the end of every day, so at the end of
+
+27
+00:01:20,570 --> 00:01:23,250
+day 1-- so at the beginning of a certain billing cycle Jane's
+
+28
+00:01:23,250 --> 00:01:25,000
+credit card account had a balance of $600.
+
+29
+00:01:25,000 --> 00:01:27,030
+So we don't know. She might have paid it on day 1.
+
+30
+00:01:27,030 --> 00:01:28,390
+So I'm not going to put any labels here.
+
+31
+00:01:28,390 --> 00:01:29,700
+But she starts at 600.
+
+32
+00:01:30,530 --> 00:01:36,680
+And that's her balance until on some day she pays off half
+
+33
+00:01:36,680 --> 00:01:39,010
+of it, and her balance goes down like that.
+
+34
+00:01:40,010 --> 00:01:42,170
+So the question is, what is the average?
+
+35
+00:01:42,170 --> 00:01:45,430
+So it's going to be $600 times a certain number of days,
+
+36
+00:01:46,060 --> 00:01:50,390
+plus $300 times a certain number of days, divided by 30.
+
+37
+00:01:50,390 --> 00:01:51,420
+So let me write that down.
+
+38
+00:01:51,420 --> 00:01:55,140
+The average is going to be equal to $600 times however
+
+39
+00:01:55,140 --> 00:01:59,860
+many days she carried the $600 balance plus $300 times
+
+40
+00:01:59,860 --> 00:02:01,980
+however many days she kept the $300 balance.
+
+41
+00:02:02,630 --> 00:02:04,360
+And that's going to be 30 minus x.
+
+42
+00:02:07,760 --> 00:02:10,420
+If she paid after 15 days, she would have had a $600 balance
+
+43
+00:02:10,420 --> 00:02:14,150
+for 15 days and then she would have had the $300 for the
+
+44
+00:02:14,150 --> 00:02:14,860
+remainder of the days.
+
+45
+00:02:14,860 --> 00:02:17,270
+If she paid after one day, then you would have the $300
+
+46
+00:02:17,270 --> 00:02:18,470
+balance for 29 days.
+
+47
+00:02:18,830 --> 00:02:22,120
+And all of that divided by 30. That's the average.
+
+48
+00:02:22,170 --> 00:02:23,840
+And I try to do that from the get-go, because I just want to
+
+49
+00:02:23,840 --> 00:02:26,940
+get my algebraic brain around the problem so it
+
+50
+00:02:26,940 --> 00:02:32,070
+becomes less abstract. So statement number one.
+
+51
+00:02:32,160 --> 00:02:33,160
+Let me keep that in the screen.
+
+52
+00:02:33,660 --> 00:02:37,330
+Statement number one tells us Jane's payment cycle was
+
+53
+00:02:37,330 --> 00:02:40,140
+credited on the 21st day of the billing cycle.
+
+54
+00:02:46,010 --> 00:02:50,000
+So that means she had a $600-- that x in this example--
+
+55
+00:02:50,000 --> 00:02:52,570
+that she had a $600 balance for 20 days.
+
+56
+00:02:53,190 --> 00:02:55,700
+And then on the 21st day her balance would have gone to $300.
+
+57
+00:02:55,850 --> 00:02:58,120
+So the average is going to be equal to $600--
+
+58
+00:02:58,120 --> 00:03:01,460
+she had a $600 balance for the first 20 days.
+
+59
+00:03:02,010 --> 00:03:06,980
+Times 20 plus 300 times the remainder days.
+
+60
+00:03:07,430 --> 00:03:09,600
+So 300 for 10 days.
+
+61
+00:03:09,600 --> 00:03:12,130
+And that's all divided by the number of days.
+
+62
+00:03:12,330 --> 00:03:14,960
+So statement one, alone, is enough to figure out her
+
+63
+00:03:14,960 --> 00:03:18,360
+average balance for the month. Statement two.
+
+64
+00:03:19,220 --> 00:03:22,900
+The average daily balance through the 25th day of the
+
+65
+00:03:22,900 --> 00:03:28,050
+billing cycle was $540. This is interesting.
+
+66
+00:03:28,760 --> 00:03:34,510
+So $540 is the average through the 25th day.
+
+67
+00:03:34,710 --> 00:03:40,680
+So if we average the first 25 days-- so
+
+68
+00:03:40,980 --> 00:03:47,550
+her balance was $600 for x days, plus $300 for the remainder.
+
+69
+00:03:47,550 --> 00:03:53,000
+Only the first 25 days. So it's x minus 25.
+
+70
+00:03:53,000 --> 00:03:56,050
+So you can actually take this equation and solve for x.
+
+71
+00:03:56,110 --> 00:03:58,570
+It's actually a linear equation. And I'm sure this time.
+
+72
+00:03:58,570 --> 00:04:00,560
+Multiply both sides by 25, you get a number.
+
+73
+00:04:00,560 --> 00:04:02,660
+And then you can distribute this out.
+
+74
+00:04:02,660 --> 00:04:04,010
+Add all the x terms. Solve for x.
+
+75
+00:04:04,400 --> 00:04:07,450
+And then once you solve for x, you can just use this equation
+
+76
+00:04:07,450 --> 00:04:11,040
+up here to figure out the average daily balance for 30 days
+
+77
+00:04:11,040 --> 00:04:14,890
+So actually, each of these statements independently are
+
+78
+00:04:14,890 --> 00:04:16,480
+sufficient to figure out this problem.
+
+79
+00:04:16,720 --> 00:04:19,360
+Actually, it was very critical that we kind of thought about
+
+80
+00:04:19,360 --> 00:04:20,610
+in this term from the get-go.
+
+81
+00:04:20,610 --> 00:04:23,090
+Otherwise this would have been a very hard problem to get
+
+82
+00:04:23,090 --> 00:04:25,010
+your hand around. But it's interesting.
+
+83
+00:04:25,470 --> 00:04:27,080
+I, strangely, really like that problem.
+
+84
+00:04:27,670 --> 00:04:30,020
+Anyway, next problem. 142.
+
+85
+00:04:35,070 --> 00:04:37,250
+If x is an integer,
+
+86
+00:04:38,680 --> 00:04:48,010
+they're asking is 9 to the x plus 9to the minus x equal to b?
+
+87
+00:04:48,010 --> 00:04:49,070
+Who knows?
+
+88
+00:04:49,390 --> 00:04:59,200
+Problem one says 3 to the x plus 3 to the minus x is equal to
+
+89
+00:04:59,200 --> 00:05:01,930
+the square root of b plus 2.
+
+90
+00:05:02,040 --> 00:05:04,810
+So right from the get-go I don't see-- I mean there's 3's
+
+91
+00:05:04,810 --> 00:05:06,840
+there's 9's, there seems to be some relationship.
+
+92
+00:05:07,560 --> 00:05:09,030
+Let's square both sides of this equation,
+
+93
+00:05:09,260 --> 00:05:12,010
+see if it can reduce to something that's useful here.
+
+94
+00:05:12,450 --> 00:05:13,560
+So the right hand side is easy.
+
+95
+00:05:13,560 --> 00:05:18,580
+The left hand side, if you square it you get 3 to the 2x.
+
+96
+00:05:19,470 --> 00:05:24,020
+And then you get plus 2 times these multiplied by each other.
+
+97
+00:05:24,020 --> 00:05:32,260
+3 to the x, 3 to the minus x plus 3 to the minus 2x is
+
+98
+00:05:32,260 --> 00:05:36,070
+equal to b plus 2. I just squared both sides.
+
+99
+00:05:36,460 --> 00:05:41,080
+3 to the x times 3 to the minus x, that just equals 1, right?
+
+100
+00:05:42,000 --> 00:05:44,100
+You could add the exponents, that's equal to 3 to the 0.
+
+101
+00:05:44,100 --> 00:05:44,590
+That equals 1.
+
+102
+00:05:44,590 --> 00:05:46,930
+Or you could view that as 3 to the x divided by 3 to the x.
+
+103
+00:05:46,930 --> 00:05:49,000
+Either way, that equals 1.
+
+104
+00:05:49,460 --> 00:05:51,720
+Then you're left with 2 on both sides of the equation.
+
+105
+00:05:51,720 --> 00:05:53,090
+So you can get rid of that.
+
+106
+00:05:54,380 --> 00:06:00,380
+So then we're left with 3 to the 2x plus 3 to the minus 2x
+
+107
+00:06:00,380 --> 00:06:01,800
+is equal to b.
+
+108
+00:06:02,030 --> 00:06:04,250
+But then we could rewrite this. Think about this.
+
+109
+00:06:04,250 --> 00:06:08,000
+3 to the 2x, that's the same thing as 3 squared to the x.
+
+110
+00:06:08,000 --> 00:06:12,210
+And this is the same thing as 3 to the minus 2 to the x is
+
+111
+00:06:12,210 --> 00:06:13,020
+equal to b.
+
+112
+00:06:13,020 --> 00:06:15,860
+And I think now bells are ringing in your head.
+
+113
+00:06:17,060 --> 00:06:19,990
+3 squared, that's the same thing as 9 to the x plus--
+
+114
+00:06:20,970 --> 00:06:23,020
+I should do 3 squared to the minus x. That's easier.
+
+115
+00:06:23,390 --> 00:06:26,040
+Plus 9 to the minus x is equal to b.
+
+116
+00:06:26,420 --> 00:06:28,990
+So statement number one actually reduced to what we
+
+117
+00:06:28,990 --> 00:06:30,010
+were trying to prove.
+
+118
+00:06:30,010 --> 00:06:33,000
+So statement number one, at least alone, is sufficient.
+
+119
+00:06:33,000 --> 00:06:34,750
+Let's see what statement number two gets us.
+
+120
+00:06:35,050 --> 00:06:44,420
+Statement number two says x is greater than 0 is equal to b.
+
+121
+00:06:49,990 --> 00:06:53,960
+Let's see. The original was 9 to the x plus 9 to the minus
+
+122
+00:06:53,960 --> 00:07:00,110
+x is equal to b. So they're now saying that b is equal to 0.
+
+123
+00:07:00,610 --> 00:07:03,240
+So how does that help us? If b is equal to 0--
+
+124
+00:07:03,240 --> 00:07:07,730
+let's subtract 9 to the minus x from both sides.
+
+125
+00:07:07,730 --> 00:07:15,830
+You get 9 to the x is equal to minus 9 to the minus x.
+
+126
+00:07:16,670 --> 00:07:23,590
+Now let me multiply both sides by negative 9 to the x.
+
+127
+00:07:26,000 --> 00:07:31,380
+I just want to make this-- minus 9 to the x times minus
+
+128
+00:07:31,380 --> 00:07:34,010
+9 to the x. I'm just trying to simplify it.
+
+129
+00:07:34,010 --> 00:07:35,520
+So what do you have here?
+
+130
+00:07:35,520 --> 00:07:40,330
+The minus sign, minus 9 to the 2x, right?
+
+131
+00:07:40,330 --> 00:07:42,030
+Just add the exponents.
+
+132
+00:07:42,030 --> 00:07:46,150
+Is equal to-- a minus times a minus is a positive--
+
+133
+00:07:46,440 --> 00:07:49,010
+and then a minus x and a positive x.
+
+134
+00:07:49,010 --> 00:07:52,030
+Add them together, you get 0. So 9 and 0 is 1.
+
+135
+00:07:52,030 --> 00:07:59,110
+That simplifies to minus 9 to the 2x is equal to 1.
+
+136
+00:08:06,070 --> 00:08:09,600
+So can this ever be true?
+
+137
+00:08:12,000 --> 00:08:13,060
+Let me think about that.
+
+138
+00:08:13,750 --> 00:08:18,490
+The only way that something that's non 1 or non negative 1,
+
+139
+00:08:18,490 --> 00:08:20,930
+the only way that when you raise it to a power you can get a
+
+140
+00:08:20,930 --> 00:08:24,020
+1 is if you raise it to a 0th power.
+
+141
+00:08:24,020 --> 00:08:30,100
+So this is only true if x is equal to 0.
+
+142
+00:08:30,460 --> 00:08:34,480
+But they tell us that x is greater than 0.
+
+143
+00:08:35,210 --> 00:08:36,560
+So, actually, this is an interesting case.
+
+144
+00:08:36,730 --> 00:08:40,240
+Using the information they gave us in problem number two--
+
+145
+00:08:43,900 --> 00:08:47,860
+I just want to make sure I'm not missing something.
+
+146
+00:08:47,860 --> 00:08:51,830
+Statement one was sufficient. Can we prove--
+
+147
+00:08:53,090 --> 00:08:56,490
+well,we don't have enough information to prove the statement.
+
+148
+00:08:56,490 --> 00:08:59,300
+We have enough information to disprove the statement but not
+
+149
+00:08:59,300 --> 00:09:01,850
+to prove it. So I'm going to stick with a.
+
+150
+00:09:01,850 --> 00:09:04,820
+I was going to say that we can say whether the statement is
+
+151
+00:09:04,820 --> 00:09:07,080
+true or false, but we definitely don't have enough
+
+152
+00:09:07,080 --> 00:09:10,880
+information with just statement b to prove--
+
+153
+00:09:11,260 --> 00:09:13,070
+so they want to know, right.
+
+154
+00:09:13,070 --> 00:09:16,010
+You have to be able to prove the statement is true.
+
+155
+00:09:16,530 --> 00:09:18,160
+Statement two actually proves that it is false.
+
+156
+00:09:18,160 --> 00:09:19,180
+It doesn't prove that it's true.
+
+157
+00:09:19,180 --> 00:09:22,350
+It answers the question but says no. So statement one, alone,
+
+158
+00:09:22,350 --> 00:09:26,670
+is sufficient to say that that statement is true.
+
+159
+00:09:27,030 --> 00:09:31,060
+And I'll continue in the next video.

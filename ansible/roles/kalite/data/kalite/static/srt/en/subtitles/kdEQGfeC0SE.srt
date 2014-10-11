@@ -1,0 +1,639 @@
+1
+00:00:00,837 --> 00:00:05,236
+What I want to do in this video is talk about continuity.
+
+2
+00:00:05,236 --> 00:00:10,302
+Continuity of a function is something that is pretty easy to recognize when you see it.
+
+3
+00:00:10,302 --> 00:00:15,126
+But we'll also talk about how we can more rigorously define it.
+
+4
+00:00:15,126 --> 00:00:18,508
+So when I talk about it being "pretty easy to identify" is
+
+5
+00:00:18,508 --> 00:00:24,302
+Let me draw the y-axis, that is the x-axis.
+
+6
+00:00:24,302 --> 00:00:34,371
+...and if I were to draw a function, let's say f(x) looks something like this.
+
+7
+00:00:34,371 --> 00:00:36,717
+And I would say over the interval that I've drawn it...
+
+8
+00:00:36,717 --> 00:00:40,568
+so it looks like from x=0 to that point right over there.
+
+9
+00:00:40,568 --> 00:00:44,233
+Is this function continuous? Well, you would say "No it isn't".
+
+10
+00:00:44,233 --> 00:00:47,626
+Look, over here we see the function just jumps all of a sudden.
+
+11
+00:00:47,626 --> 00:00:49,969
+From this point to this point right over here.
+
+12
+00:00:49,969 --> 00:00:54,199
+This is NOT continuous.
+
+13
+00:00:54,199 --> 00:01:00,969
+You might even say we have a discontinuity at this value of x right over here.
+
+14
+00:01:00,969 --> 00:01:02,956
+We would call this a discontinuity.
+
+15
+00:01:02,956 --> 00:01:08,696
+And this type of discontinuity is called a "Jump" discontinuity.
+
+16
+00:01:08,696 --> 00:01:13,302
+So you would say this is not continuous. It is obvious these two things do not connect.
+
+17
+00:01:13,302 --> 00:01:15,032
+They don't touch each other.
+
+18
+00:01:15,032 --> 00:01:19,289
+Similarly, if you were to look at a function that looked like - let me draw another one
+
+19
+00:01:19,289 --> 00:01:26,207
+y and x. And let's say the function looks something like this... maybe
+
+20
+00:01:26,207 --> 00:01:31,235
+right over here, it looks like this. And then the function is defined to be this point.
+
+21
+00:01:31,235 --> 00:01:32,454
+Right over there.
+
+22
+00:01:32,454 --> 00:01:37,202
+Is the function continuous over the interval that I've depicted right over here.
+
+23
+00:01:37,202 --> 00:01:43,237
+And you would immediately say "no it isn't" because right over at this point the function goes up to this point.
+
+24
+00:01:43,237 --> 00:01:48,673
+Just like this. And this kind of discontinuity
+
+25
+00:01:48,673 --> 00:01:54,109
+...is called a "Removeable" discontinuity.
+
+26
+00:01:54,109 --> 00:02:02,037
+One could make a reasonable argument that this also looks like a Jump. But this is typically categorized as Removeable.
+
+27
+00:02:02,037 --> 00:02:06,302
+...because if you just redefine the function so it wasn't up here...
+
+28
+00:02:06,302 --> 00:02:10,641
+...but it was right over here, then the function is continuous. So you can kind of...
+
+29
+00:02:10,641 --> 00:02:14,169
+...remove the discontinuity.
+
+30
+00:02:14,169 --> 00:02:17,651
+And finally if I were to draw another function.
+
+31
+00:02:17,682 --> 00:02:22,270
+So let me draw another one right over here. X, Y.
+
+32
+00:02:22,301 --> 00:02:27,036
+And ask you "is this one continuous over the interval I've depicted".
+
+33
+00:02:27,036 --> 00:02:31,570
+And you'd say "Well, yeah, it looks connected all the way. There aren't any jumps over here...
+
+34
+00:02:31,570 --> 00:02:35,302
+...or Reomveable discontinuities over here. This one looks continuous."
+
+35
+00:02:35,302 --> 00:02:38,585
+Continuous. And you'd be right.
+
+36
+00:02:38,585 --> 00:02:40,759
+So that's the general sense of continuity.
+
+37
+00:02:40,789 --> 00:02:43,043
+And you can kind of spot it when you see it.
+
+38
+00:02:43,043 --> 00:02:46,302
+But let's think about a more rigourous definition of one.
+
+39
+00:02:46,302 --> 00:02:49,302
+And since we already have a definition of limits...
+
+40
+00:02:49,302 --> 00:02:59,908
+epsilon-delta definition, gives us a rigorous definition for limits.
+
+41
+00:02:59,908 --> 00:03:03,871
+So we can prove when a limit exists and what the value of that limit is.
+
+42
+00:03:03,871 --> 00:03:08,959
+Let's use that to create a rigorous definition of continuity.
+
+43
+00:03:08,959 --> 00:03:14,903
+So let's think about a function over some type of an interval.
+
+44
+00:03:14,903 --> 00:03:18,907
+So let's say that we have... so let me draw another function.
+
+45
+00:03:18,907 --> 00:03:21,787
+Let me draw some type of a function.
+
+46
+00:03:21,787 --> 00:03:29,644
+And then we'll see whether our more rigorous definition of continuity passes muster when we look at all of these things up here.
+
+47
+00:03:29,644 --> 00:03:32,635
+Let me draw an interval. Right over here.
+
+48
+00:03:32,635 --> 00:03:37,636
+So it's between this x-value and that x-value. This is the x-axis and this is the y-axis.
+
+49
+00:03:37,636 --> 00:03:40,705
+And let me draw my function over that interval.
+
+50
+00:03:40,705 --> 00:03:44,303
+It looks something like this.
+
+51
+00:03:44,303 --> 00:03:49,117
+So we say that a function is continuous at an interior point.
+
+52
+00:03:49,117 --> 00:03:55,367
+So an "interior point" is a point that is not at the edge of my boundary.
+
+53
+00:03:55,367 --> 00:03:58,041
+So this is an interior point for my interval.
+
+54
+00:03:58,041 --> 00:04:00,169
+This would be an endpoint and this would also be an endpoint.
+
+55
+00:04:00,169 --> 00:04:07,666
+We say it's continuous at an interior point
+
+56
+00:04:07,666 --> 00:04:10,085
+interior to my interval, means
+
+57
+00:04:10,085 --> 00:04:16,704
+that the limit at interior point c.
+
+58
+00:04:16,704 --> 00:04:19,243
+So this is the point x=c.
+
+59
+00:04:19,243 --> 00:04:25,619
+We can say it is continuous at the interior point c if the limit of our...
+
+60
+00:04:25,619 --> 00:04:29,619
+function - this is our function right over here - as x...
+
+61
+00:04:29,619 --> 00:04:34,900
+approaches c is equal to the value of our function.
+
+62
+00:04:34,900 --> 00:04:36,453
+Now, does this make sense?
+
+63
+00:04:36,453 --> 00:04:40,596
+Well, what we're saying is that that point - well this is f(c) right over there -
+
+64
+00:04:40,627 --> 00:04:44,998
+and the limit as we approach that is the same thing as the value of the function.
+
+65
+00:04:44,998 --> 00:04:46,502
+Which makes a lot of sense.
+
+66
+00:04:46,502 --> 00:04:53,042
+Now let's think about it if these would have somehow been able to pass for continuous, in that context.
+
+67
+00:04:53,042 --> 00:04:57,701
+Well, over here, let's say that this is our point c.
+
+68
+00:04:57,701 --> 00:05:00,283
+f(c) is right over there.
+
+69
+00:05:00,283 --> 00:05:04,977
+That is f(c). Now is it the case that the limit
+
+70
+00:05:04,977 --> 00:05:10,201
+of f(x), as x approaches c, is equal to f(c).
+
+71
+00:05:10,216 --> 00:05:16,906
+Well, if we take the limit of f(x), as x approaches c from the positive direction
+
+72
+00:05:16,906 --> 00:05:22,789
+it does look like it is f(c).
+
+73
+00:05:22,789 --> 00:05:28,637
+But if we take the limit, this does not equal, does NOT equal, the limit
+
+74
+00:05:28,637 --> 00:05:35,102
+of f(x) as x approaches c from the negative direction.
+
+75
+00:05:35,102 --> 00:05:37,842
+As we go from the negative direction, we're not approaching f(c).
+
+76
+00:05:37,842 --> 00:05:40,975
+So therefore, this does not hold up.
+
+77
+00:05:40,975 --> 00:05:44,125
+In order for the limit to be equal to f(c), the limit from both
+
+78
+00:05:44,125 --> 00:05:47,242
+directions needs to be equal to it. And this is not the case.
+
+79
+00:05:47,242 --> 00:05:50,969
+So this would not pass muster by our formal definition.
+
+80
+00:05:50,969 --> 00:05:54,968
+Which is good, because we see visually that this one is not continuous.
+
+81
+00:05:54,968 --> 00:05:57,087
+What about this one right over here.
+
+82
+00:05:57,102 --> 00:06:01,970
+And let me re-set it up. Let me make sure that looks like a hole over there.
+
+83
+00:06:01,970 --> 00:06:09,128
+So we see here... what is the limit - and this is our c, right over here - the limit...
+
+84
+00:06:09,128 --> 00:06:11,369
+of f(x) as x approaches c.
+
+85
+00:06:11,369 --> 00:06:13,297
+Let's say that is equal to L.
+
+86
+00:06:13,297 --> 00:06:17,033
+So that, we've seen many limits like this before.
+
+87
+00:06:17,033 --> 00:06:18,302
+That's L right over there.
+
+88
+00:06:18,302 --> 00:06:23,909
+And it's pretty clear just looking at this that L does not equal f(c).
+
+89
+00:06:23,909 --> 00:06:26,450
+This right over here.
+
+90
+00:06:26,450 --> 00:06:27,502
+...is f(c).
+
+91
+00:06:27,502 --> 00:06:29,541
+So once again, this would not pass our test.
+
+92
+00:06:29,541 --> 00:06:33,209
+The limit of f(x), as x approaches c, which is this right over here,
+
+93
+00:06:33,209 --> 00:06:38,164
+is not equal to f(c). So this would not pass our test.
+
+94
+00:06:38,164 --> 00:06:41,037
+And here, any of the interior points would pass our test.
+
+95
+00:06:41,037 --> 00:06:52,450
+The limit, as x approaches this value, is indeed equal to the function evaluated at that point.
+
+96
+00:06:52,450 --> 00:06:54,457
+So it seems to be good for all of those.
+
+97
+00:06:54,457 --> 00:06:57,902
+Now let's give a definition for when we're talking about boundary points.
+
+98
+00:06:57,902 --> 00:07:00,568
+So this is continuity for an interior point.
+
+99
+00:07:00,568 --> 00:07:19,261
+And let's think about continuity - I'll do it right over here - at end point c.
+
+100
+00:07:19,261 --> 00:07:24,829
+So let's first consider the left endpoint.
+
+101
+00:07:24,829 --> 00:07:31,782
+If left endpoint - so what am I talking about, a "left endpoint"?
+
+102
+00:07:31,782 --> 00:07:39,368
+Let me draw my axes. X-axis. Y-axis.
+
+103
+00:07:39,368 --> 00:07:42,125
+And let me draw my interval.
+
+104
+00:07:42,125 --> 00:07:47,569
+So this is the left endpoint of my interval. This is the right end point of my interval.
+
+105
+00:07:47,569 --> 00:07:50,954
+And let me draw my function over that interval.
+
+106
+00:07:50,954 --> 00:07:54,302
+Looks something like this.
+
+107
+00:07:54,302 --> 00:08:00,569
+So we're talking about a left endpoint, we're talking about our c being right over here.
+
+108
+00:08:00,569 --> 00:08:02,707
+It is the left endpoint.
+
+109
+00:08:02,707 --> 00:08:09,455
+So if we're talking about a left endpoint, we are continuous at c means...
+
+110
+00:08:09,455 --> 00:08:14,637
+or to say that we're continuous at this left endpoing c, that means...
+
+111
+00:08:14,637 --> 00:08:20,533
+that the limit of f(x) as x approaches c -
+
+112
+00:08:20,533 --> 00:08:26,794
+well we can't even approach c from the left hand side, we have to approach from the right.
+
+113
+00:08:26,794 --> 00:08:29,599
+is equal to f(c).
+
+114
+00:08:29,614 --> 00:08:33,233
+And so this is really kind of a - we can only approach from one direction.
+
+115
+00:08:33,233 --> 00:08:36,169
+So we can't really say the limit in general, but we can take the limit from one side.
+
+116
+00:08:36,169 --> 00:08:39,122
+So it's very similar to what we just said for an interior point.
+
+117
+00:08:39,122 --> 00:08:42,835
+And we see over here, it is indeed the case as x approaches c
+
+118
+00:08:42,835 --> 00:08:46,302
+...our function is approaching this point over here
+
+119
+00:08:46,302 --> 00:08:48,873
+...which is the exact same thing as f(c).
+
+120
+00:08:48,873 --> 00:08:50,043
+So we are continuous at that point.
+
+121
+00:08:50,043 --> 00:08:55,118
+What's an example of an endpoint where we would not be continuous at an endpoint?
+
+122
+00:08:55,118 --> 00:08:59,836
+Well, I can imagine a graph that looks something like this.
+
+123
+00:08:59,836 --> 00:09:05,046
+So here's our interval.
+
+124
+00:09:05,123 --> 00:09:10,902
+And maybe our function. So at c it looks like that. There's a little hole right here.
+
+125
+00:09:10,902 --> 00:09:15,903
+Or there's no hole, the function just has a removeable discontinuity over there.
+
+126
+00:09:15,962 --> 00:09:17,456
+Or at least visually it looks like that.
+
+127
+00:09:17,487 --> 00:09:20,981
+And you can see visually, this would not pass the test.
+
+128
+00:09:20,981 --> 00:09:23,676
+Because the limit, as we approach c from the positive direction.
+
+129
+00:09:23,676 --> 00:09:25,063
+is right over here.
+
+130
+00:09:25,079 --> 00:09:26,471
+That's the limit.
+
+131
+00:09:26,471 --> 00:09:28,711
+But f(c) is up here.
+
+132
+00:09:28,711 --> 00:09:33,169
+So f(c) does not equal the limit as x approaches c from the positive direction.
+
+133
+00:09:33,185 --> 00:09:38,459
+So this would not be continuous.
+
+134
+00:09:38,459 --> 00:09:41,284
+And you could imagine what we do if we're dealing with the right endpoing.
+
+135
+00:09:41,284 --> 00:09:51,522
+So, we say we're continuous at right endpoint c if
+
+136
+00:09:51,522 --> 00:09:55,959
+so let me draw that.
+
+137
+00:09:55,959 --> 00:09:58,789
+I'll do my best attempt to draw it.
+
+138
+00:09:58,789 --> 00:10:01,716
+So this is my x-axis. This is my y-axis.
+
+139
+00:10:01,716 --> 00:10:04,303
+Let me draw my interval.
+
+140
+00:10:04,303 --> 00:10:06,908
+So that I care about.
+
+141
+00:10:06,908 --> 00:10:12,569
+A right endpoint means that c is right over there.
+
+142
+00:10:12,569 --> 00:10:18,707
+And we can say that we're continuous at... the function is continuous at...
+
+143
+00:10:18,707 --> 00:10:23,908
+x equals c means that the limit of f(x)...
+
+144
+00:10:23,908 --> 00:10:27,038
+as x approaches c - now we can't approach it from both sides.
+
+145
+00:10:27,038 --> 00:10:31,302
+We can only approach it from the left hand side.
+
+146
+00:10:31,302 --> 00:10:35,100
+As x approaches c from the negative direction.
+
+147
+00:10:35,100 --> 00:10:38,540
+We could say that, if this is true, then this implies
+
+148
+00:10:38,540 --> 00:10:41,110
+that we're continuous at that right endpoing c.
+
+149
+00:10:41,110 --> 00:10:43,036
+And vice versa.
+
+150
+00:10:43,036 --> 00:10:45,503
+And a situation where we're not?
+
+151
+00:10:45,503 --> 00:10:46,836
+Well, we could imagine this being defined right at that point
+
+152
+00:10:46,836 --> 00:10:50,456
+you could say the function jumps up.
+
+153
+00:10:50,456 --> 00:10:52,507
+Jus tlike we did right over there.
+
+154
+00:10:52,507 --> 00:10:56,700
+So once again, continuity - not a really hard to fathom idea.
+
+155
+00:10:56,700 --> 00:10:59,640
+Whenever you see the function just all of a sudden jumping.
+
+156
+00:10:59,640 --> 00:11:03,038
+Or there is a gap in it, it's a pretty good sense that
+
+157
+00:11:03,038 --> 00:11:05,034
+the function is not connected there.
+
+158
+00:11:05,034 --> 00:11:06,374
+It's not continuous.
+
+159
+00:11:06,374 --> 00:11:09,623
+But what we did in this video is we used limits
+
+160
+00:11:09,623 --> 00:11:13,623
+to define a more rigorous definition of continuity.

@@ -1,0 +1,407 @@
+1
+00:00:02,345 --> 00:00:05,408
+I'm now going to introduce an ancient method
+
+2
+00:00:05,408 --> 00:00:10,011
+for generating a list of primes up to some limit N
+
+3
+00:00:10,103 --> 00:00:13,321
+called the Sieve of Eratosthenes.
+
+4
+00:00:13,321 --> 00:00:18,107
+Now Eratosthenes was born in 276 BC
+
+5
+00:00:18,107 --> 00:00:23,107
+so this method is over 2200 years old.
+
+6
+00:00:23,107 --> 00:00:25,499
+but it's very simple and elegant
+
+7
+00:00:25,499 --> 00:00:27,719
+and you could teach it to any child.
+
+8
+00:00:28,263 --> 00:00:30,014
+Now let's say for example
+
+9
+00:00:30,014 --> 00:00:31,790
+we want to calculate all the primes up to a 100
+
+10
+00:00:31,790 --> 00:00:33,783
+but this would work in the same way
+
+11
+00:00:33,783 --> 00:00:38,137
+if we wanted to calculate up to ten thousand or a billion.
+
+12
+00:00:38,137 --> 00:00:39,483
+It proceeds as follows:
+
+13
+00:00:39,483 --> 00:00:41,474
+assume all numbers are unmarked.
+
+14
+00:00:41,489 --> 00:00:43,004
+Grey is unmarked.
+
+15
+00:00:43,004 --> 00:00:44,980
+We start at the beginning
+
+16
+00:00:44,980 --> 00:00:48,396
+and if we find a number that is unmarked
+
+17
+00:00:48,396 --> 00:00:49,342
+we know it's prime.
+
+18
+00:00:49,342 --> 00:00:50,749
+So we hit two
+
+19
+00:00:50,749 --> 00:00:53,094
+and we say 2 is prime because it's unmarked.
+
+20
+00:00:53,609 --> 00:00:55,216
+And then the second phase is
+
+21
+00:00:55,216 --> 00:00:58,464
+now we can eliminate all multiples of 2
+
+22
+00:00:59,063 --> 00:01:00,916
+because we know they're composite
+
+23
+00:01:00,916 --> 00:01:02,794
+so -bam- we jump along
+
+24
+00:01:02,794 --> 00:01:05,341
+and we eliminate all multiples of 2
+
+25
+00:01:05,341 --> 00:01:07,210
+red means composite
+
+26
+00:01:07,210 --> 00:01:08,371
+And now we repeat.
+
+27
+00:01:08,371 --> 00:01:10,040
+We step along from 2 to 3
+
+28
+00:01:10,086 --> 00:01:13,066
+3 is unmarked, so we mark 3 as prime.
+
+29
+00:01:14,255 --> 00:01:16,817
+And now we can eliminate all multiples of 3.
+
+30
+00:01:17,048 --> 00:01:18,717
+And a really simple optimization
+
+31
+00:01:18,717 --> 00:01:20,570
+is - notice 6 is already crossed off -
+
+32
+00:01:20,570 --> 00:01:23,351
+we actually cross off the multiples starting at
+
+33
+00:01:23,351 --> 00:01:24,804
+the square of that number.
+
+34
+00:01:24,866 --> 00:01:26,611
+So 3 times 3 is 9,
+
+35
+00:01:26,642 --> 00:01:29,774
+we start at 9 and mark all multiples of 3
+
+36
+00:01:29,882 --> 00:01:31,958
+as composite.
+
+37
+00:01:32,327 --> 00:01:35,526
+And again, we go back, we jump along to 4
+
+38
+00:01:35,526 --> 00:01:37,731
+well, 4 is marked, we know it's composite
+
+39
+00:01:37,731 --> 00:01:39,200
+we jump along to 5,
+
+40
+00:01:39,200 --> 00:01:41,760
+we found an unmarked number, 5 is prime.
+
+41
+00:01:42,522 --> 00:01:44,434
+Now, 5 times 5 is 25,
+
+42
+00:01:44,434 --> 00:01:48,320
+we go to 25, we mark off 25, 30, 35, 40, 45
+
+43
+00:01:48,320 --> 00:01:49,627
+and so on..
+
+44
+00:01:49,913 --> 00:01:51,389
+Those are composites.
+
+45
+00:01:51,915 --> 00:01:53,768
+We proceed forward until we hit 7,
+
+46
+00:01:53,768 --> 00:01:56,021
+we know 7 is prime, because it's unmarked,
+
+47
+00:01:56,451 --> 00:01:57,473
+7*7 is 49
+
+48
+00:01:57,473 --> 00:01:59,628
+we mark 49 and all multiples of 7
+
+49
+00:01:59,628 --> 00:02:01,435
+above it as composite
+
+50
+00:02:01,435 --> 00:02:04,534
+and now we move along until we hit 11
+
+51
+00:02:05,288 --> 00:02:07,259
+11 is prime.
+
+52
+00:02:08,690 --> 00:02:12,135
+And notice now - 11*11 is greater
+
+53
+00:02:12,135 --> 00:02:14,814
+than a 100, so we can actually stop
+
+54
+00:02:14,814 --> 00:02:16,137
+at this point.
+
+55
+00:02:16,274 --> 00:02:17,912
+We could have stopped at 10 even,
+
+56
+00:02:17,912 --> 00:02:20,230
+because now all remaining unmarked numbers,
+
+57
+00:02:20,230 --> 00:02:22,268
+if you'll notice, are prime
+
+58
+00:02:22,268 --> 00:02:24,837
+and, we could in one swoop
+
+59
+00:02:24,837 --> 00:02:26,676
+mark them all as prime.
+
+60
+00:02:27,152 --> 00:02:28,496
+And that's the whole algorithm.
+
+61
+00:02:28,496 --> 00:02:30,126
+It's so simple.
+
+62
+00:02:30,304 --> 00:02:32,684
+And just to generalize how we do this
+
+63
+00:02:32,684 --> 00:02:34,537
+so we could write up a programme
+
+64
+00:02:34,537 --> 00:02:36,237
+to perform this sieve
+
+65
+00:02:36,237 --> 00:02:39,310
+is if we want to find all primes up to some number N,
+
+66
+00:02:41,040 --> 00:02:42,909
+we first create a main loop
+
+67
+00:02:42,909 --> 00:02:45,408
+so we have 'for all numbers a'
+
+68
+00:02:46,506 --> 00:02:48,657
+from 2 to the square root of n
+
+69
+00:02:48,657 --> 00:02:51,378
+so notice here, we stopped when we hit 10
+
+70
+00:02:51,378 --> 00:02:54,588
+-- I showed it as 11 -- we actually stop
+
+71
+00:02:54,588 --> 00:02:56,511
+because we have found all primes.
+
+72
+00:02:58,057 --> 00:02:59,957
+So from 2 to the square root of n
+
+73
+00:02:59,957 --> 00:03:01,464
+we proceed as follows:
+
+74
+00:03:02,237 --> 00:03:04,190
+if 'a' is unmarked
+
+75
+00:03:06,622 --> 00:03:08,845
+then we know 'a' is prime
+
+76
+00:03:08,845 --> 00:03:10,560
+and when we find a prime number
+
+77
+00:03:10,560 --> 00:03:15,040
+we mark all multiples of 'a' off as composite
+
+78
+00:03:16,152 --> 00:03:17,282
+and that's it.
+
+79
+00:03:17,282 --> 00:03:18,643
+So you find a number prime,
+
+80
+00:03:18,643 --> 00:03:19,958
+mark off the multiples,
+
+81
+00:03:19,958 --> 00:03:21,411
+go back to the beginning,
+
+82
+00:03:21,411 --> 00:03:23,242
+increment 'a' by 1
+
+83
+00:03:23,967 --> 00:03:26,066
+so we're at 2, then we go to 3
+
+84
+00:03:26,066 --> 00:03:28,303
+then we go to 4, 5 and so on
+
+85
+00:03:29,342 --> 00:03:32,119
+and when we're done, we have all primes.
+
+86
+00:03:32,510 --> 00:03:34,881
+Notice here, that this is also a loop,
+
+87
+00:03:34,881 --> 00:03:36,750
+so we have a main loop 'for'
+
+88
+00:03:36,750 --> 00:03:39,025
+and when we find a prime
+
+89
+00:03:39,025 --> 00:03:41,890
+this marking off of multiples is also a loop
+
+90
+00:03:42,415 --> 00:03:44,068
+so it's important to notice here
+
+91
+00:03:44,068 --> 00:03:45,691
+that we have a nested loop --
+
+92
+00:03:45,691 --> 00:03:47,298
+we have a loop inside a loop.
+
+93
+00:03:47,298 --> 00:03:49,685
+Here is an example of this algorithm in action
+
+94
+00:03:49,685 --> 00:03:51,822
+i wrote in javascript below.
+
+95
+00:03:51,822 --> 00:03:53,506
+If I put in a 100,
+
+96
+00:03:53,506 --> 00:03:55,594
+here are all the primes under a 100
+
+97
+00:03:55,940 --> 00:03:57,255
+and if I put in 200
+
+98
+00:03:57,255 --> 00:03:59,203
+here are all the primes under 200
+
+99
+00:03:59,203 --> 00:04:01,915
+and if I put in 850,
+
+100
+00:04:01,915 --> 00:04:04,171
+here are all the primes under 850.
+
+101
+00:04:06,488 --> 00:04:08,783
+And below I have this programme
+
+102
+00:04:08,783 --> 00:04:11,110
+with a recording explaining how I set it up.

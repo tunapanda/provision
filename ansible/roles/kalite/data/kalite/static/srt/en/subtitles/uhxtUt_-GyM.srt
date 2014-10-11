@@ -1,0 +1,1387 @@
+1
+00:00:00,990 --> 00:00:03,270
+Welcome to the playlist
+on statistics.
+
+2
+00:00:03,270 --> 00:00:06,380
+Something I've been meaning
+to do for some time.
+
+3
+00:00:06,380 --> 00:00:08,710
+So anyway, I just want to get
+right into the meat of it and
+
+4
+00:00:08,710 --> 00:00:12,220
+I'll try to do as many examples
+as possible and hopefully
+
+5
+00:00:12,220 --> 00:00:14,990
+give you the feel for what
+statistics is all about.
+
+6
+00:00:14,990 --> 00:00:16,850
+And, really, just to kind of
+start off in case you're not
+
+7
+00:00:16,850 --> 00:00:18,550
+familiar with it -- although, I
+think a lot of people have an
+
+8
+00:00:18,550 --> 00:00:20,660
+intuitive feel for what
+statistics is about.
+
+9
+00:00:22,414 --> 00:00:27,169
+And essentially -- well in very
+general terms it's kind of
+
+10
+00:00:27,169 --> 00:00:28,590
+getting your head around data.
+
+11
+00:00:28,590 --> 00:00:30,540
+And it can broadly
+be classified.
+
+12
+00:00:30,540 --> 00:00:32,640
+Well there are maybe
+three categories.
+
+13
+00:00:32,640 --> 00:00:35,330
+You have descriptive.
+
+14
+00:00:35,330 --> 00:00:39,150
+So say you have a lot of data
+and you wanted to tell someone
+
+15
+00:00:39,150 --> 00:00:41,480
+about it without giving
+them all of the data.
+
+16
+00:00:41,480 --> 00:00:45,360
+Maybe you can kind of find
+indicative numbers that
+
+17
+00:00:45,360 --> 00:00:47,560
+somehow represent all of
+that data without having to
+
+18
+00:00:47,560 --> 00:00:48,540
+go over all of the data.
+
+19
+00:00:48,540 --> 00:00:50,370
+That would be
+descriptive statistics.
+
+20
+00:00:50,370 --> 00:00:51,510
+There's also predictive.
+
+21
+00:00:51,510 --> 00:00:53,110
+Well, I'll kind of
+group them together.
+
+22
+00:00:53,110 --> 00:00:55,110
+There's inferential statistics.
+
+23
+00:00:58,310 --> 00:01:00,908
+And this is when you use
+data to essentially make
+
+24
+00:01:00,920 --> 00:01:02,200
+conclusions about things.
+
+25
+00:01:02,200 --> 00:01:06,500
+So let's say you've sampled
+some data from a population --
+
+26
+00:01:06,500 --> 00:01:08,890
+and we'll talk a lot about
+samples versus populations but
+
+27
+00:01:08,890 --> 00:01:11,390
+I think you have just a basic
+sense of what that is, right?
+
+28
+00:01:11,390 --> 00:01:13,800
+If I survey three people
+who are going to vote for
+
+29
+00:01:13,800 --> 00:01:16,500
+president, I clearly haven't
+surveyed the entire population.
+
+30
+00:01:16,500 --> 00:01:18,160
+I've surveyed a sample.
+
+31
+00:01:18,160 --> 00:01:21,780
+But what inferential statistics
+are all about are if we can do
+
+32
+00:01:21,780 --> 00:01:24,890
+some math on the samples, maybe
+we can make inferences or
+
+33
+00:01:24,890 --> 00:01:27,740
+conclusions about the
+population as a whole.
+
+34
+00:01:27,740 --> 00:01:29,760
+Well, anyway, that's just
+a big picture of what
+
+35
+00:01:29,760 --> 00:01:30,800
+statistics is all about.
+
+36
+00:01:30,800 --> 00:01:33,620
+Let's just get into the
+meat of it and we'll start
+
+37
+00:01:33,620 --> 00:01:34,746
+with the descriptive.
+
+38
+00:01:37,931 --> 00:01:41,012
+So the first thing that, I
+don't know, that I would want
+
+39
+00:01:41,040 --> 00:01:44,330
+to do or I think most people
+would want to do when they are
+
+40
+00:01:44,330 --> 00:01:47,320
+given a whole set of numbers in
+they're told to describe it.
+
+41
+00:01:47,320 --> 00:01:51,030
+Well, maybe I can come up with
+some number that is most
+
+42
+00:01:51,030 --> 00:01:54,430
+indicative of all of the
+numbers in that set.
+
+43
+00:01:54,430 --> 00:01:57,092
+Or some number that represents,
+kind of, the central tendency
+
+44
+00:01:57,092 --> 00:01:59,900
+-- this is a word you'll see
+a lot in statistics books.
+
+45
+00:01:59,900 --> 00:02:03,040
+The central tendency
+of a set of numbers.
+
+46
+00:02:07,040 --> 00:02:09,375
+And this is also
+called the average.
+
+47
+00:02:09,375 --> 00:02:11,780
+And I'll be a little bit more
+exact here than I normally am
+
+48
+00:02:11,780 --> 00:02:16,060
+with the word "average." When I
+talk about it in this context,
+
+49
+00:02:16,060 --> 00:02:20,090
+it just means that the average
+is a number that somehow
+
+50
+00:02:20,090 --> 00:02:22,640
+is giving us a sense of
+the central tendency.
+
+51
+00:02:22,640 --> 00:02:25,430
+Or maybe a number that is most
+representative of a set.
+
+52
+00:02:25,430 --> 00:02:27,030
+And I know that sounds all
+very abstract but let's
+
+53
+00:02:27,030 --> 00:02:28,870
+do a couple of examples.
+
+54
+00:02:28,870 --> 00:02:31,850
+So there's a bunch of ways
+that you can actually measure
+
+55
+00:02:31,850 --> 00:02:35,200
+the central tendency or the
+average of a set of numbers.
+
+56
+00:02:35,200 --> 00:02:37,950
+And you've probably
+seen these before.
+
+57
+00:02:37,950 --> 00:02:40,534
+They are the mean.
+
+58
+00:02:40,534 --> 00:02:42,960
+And actually, there's types
+of means but we'll stick
+
+59
+00:02:42,960 --> 00:02:44,040
+with the arithmetic mean.
+
+60
+00:02:50,660 --> 00:02:53,810
+geometric means and maybe we'll
+cover the harmonic
+
+61
+00:02:53,810 --> 00:02:55,040
+mean one day.
+
+62
+00:02:55,040 --> 00:03:02,640
+There's a mean, the
+median, and the mode.
+
+63
+00:03:02,640 --> 00:03:07,050
+And in statistics speak,
+these all can kind of be
+
+64
+00:03:07,050 --> 00:03:10,620
+representative of a data sets
+or population central tendency
+
+65
+00:03:10,620 --> 00:03:12,650
+or a sample central tendency.
+
+66
+00:03:12,650 --> 00:03:15,590
+And they all are collectively
+-- they can all be
+
+67
+00:03:15,590 --> 00:03:17,070
+forms of an average.
+
+68
+00:03:17,070 --> 00:03:18,520
+And I think when we see
+examples, it'll make a
+
+69
+00:03:18,520 --> 00:03:19,470
+little bit more sense.
+
+70
+00:03:19,470 --> 00:03:23,440
+In every day speak, when people
+talk about an average, I think
+
+71
+00:03:23,440 --> 00:03:26,100
+you've already computed
+averages in your life, they're
+
+72
+00:03:26,100 --> 00:03:28,710
+usually talking about
+the arithmetic mean.
+
+73
+00:03:28,710 --> 00:03:30,320
+So normally when someone says,
+"Let's take the average of
+
+74
+00:03:30,320 --> 00:03:32,530
+these numbers." And they expect
+you to do something, they want
+
+75
+00:03:32,530 --> 00:03:34,470
+you to figure out the
+arithmetic mean.
+
+76
+00:03:34,470 --> 00:03:36,490
+They don't want you figure
+out the median or the mode.
+
+77
+00:03:36,490 --> 00:03:38,780
+But before we go any further,
+let's figure out what
+
+78
+00:03:38,780 --> 00:03:41,110
+these things are.
+
+79
+00:03:41,110 --> 00:03:43,230
+Let me make up a
+set of numbers.
+
+80
+00:03:43,230 --> 00:03:45,630
+Let's say I have the number 1.
+
+81
+00:03:45,630 --> 00:03:50,220
+Let's say I have
+another 1, a 2, a 3.
+
+82
+00:03:50,220 --> 00:03:52,885
+Let's say I have a 4.
+
+83
+00:03:52,885 --> 00:03:55,410
+That's good enough.
+
+84
+00:03:56,170 --> 00:03:58,370
+We just want a simple example.
+
+85
+00:03:58,370 --> 00:04:02,650
+So the mean or the arithmetic
+mean is probably what you're
+
+86
+00:04:02,650 --> 00:04:05,710
+most familiar with when
+people talk about average.
+
+87
+00:04:05,710 --> 00:04:07,600
+And that's essentially -- you
+add up all the numbers and you
+
+88
+00:04:07,600 --> 00:04:09,160
+divide by the numbers
+that there are.
+
+89
+00:04:09,160 --> 00:04:16,290
+So in this case, it would be 1
+plus 1 plus 2 plus 3 plus 4.
+
+90
+00:04:16,290 --> 00:04:19,420
+And you're going to divide
+by one, two, three,
+
+91
+00:04:19,420 --> 00:04:21,020
+four, five numbers.
+
+92
+00:04:21,020 --> 00:04:21,540
+It's what?
+
+93
+00:04:21,540 --> 00:04:23,470
+1 plus 1 is 2.
+
+94
+00:04:23,470 --> 00:04:25,600
+2 plus 2 is 4.
+
+95
+00:04:25,600 --> 00:04:27,640
+4 plus 3 is 7.
+
+96
+00:04:27,640 --> 00:04:29,500
+7 plus 4 is 11.
+
+97
+00:04:29,500 --> 00:04:32,550
+So this is equal to 11/5.
+
+98
+00:04:32,550 --> 00:04:33,040
+That's what?
+
+99
+00:04:33,040 --> 00:04:34,410
+That's 2 1/5?
+
+100
+00:04:34,410 --> 00:04:38,320
+So that's equal to 2.2.
+
+101
+00:04:38,320 --> 00:04:39,560
+And so someone could
+say, "Hey, you know.
+
+102
+00:04:39,560 --> 00:04:41,060
+That is a pretty
+good representative
+
+103
+00:04:41,060 --> 00:04:42,490
+number of this set.
+
+104
+00:04:42,490 --> 00:04:44,680
+That's the number that all of
+these numbers you can kind of
+
+105
+00:04:44,680 --> 00:04:47,390
+say are closest to." Or, 2.2
+represents the central
+
+106
+00:04:47,390 --> 00:04:49,140
+tendency of this set.
+
+107
+00:04:49,140 --> 00:04:51,400
+And in common speak, that
+would be the average.
+
+108
+00:04:51,400 --> 00:04:53,450
+But if we're being a little
+bit more particular, this
+
+109
+00:04:53,450 --> 00:04:55,410
+is the arithmetic mean
+of this set of numbers.
+
+110
+00:04:55,410 --> 00:04:56,740
+And you see it kind
+of represents them.
+
+111
+00:04:56,740 --> 00:04:59,210
+If I didn't want to give you
+the list of five numbers, I
+
+112
+00:04:59,210 --> 00:05:01,030
+could say, "Well, you know, I
+have a set of five numbers and
+
+113
+00:05:01,030 --> 00:05:03,680
+their mean is 2.2." It kind of
+tells you a little bit of at
+
+114
+00:05:03,680 --> 00:05:05,900
+least, you know, where
+the numbers are.
+
+115
+00:05:05,900 --> 00:05:08,510
+We'll talk a little bit more
+about how do you know how far
+
+116
+00:05:08,510 --> 00:05:12,500
+the numbers are from that mean
+in probably the next video.
+
+117
+00:05:12,500 --> 00:05:13,840
+So that's one measure.
+
+118
+00:05:13,840 --> 00:05:17,150
+Another measure, instead of
+averaging it in this way, you
+
+119
+00:05:17,150 --> 00:05:19,510
+can average it by putting the
+numbers in order, which
+
+120
+00:05:19,510 --> 00:05:20,460
+I actually already did.
+
+121
+00:05:20,460 --> 00:05:23,340
+So let's just write them
+down in order again.
+
+122
+00:05:23,340 --> 00:05:26,810
+1, 1, 2, 3, 4.
+
+123
+00:05:26,810 --> 00:05:28,490
+And you just take
+the middle number.
+
+124
+00:05:28,490 --> 00:05:31,790
+So let's see, there's one, two,
+three, four, five numbers.
+
+125
+00:05:31,790 --> 00:05:34,010
+So the middle number's going
+to be right here, right?
+
+126
+00:05:34,010 --> 00:05:34,940
+The middle number is 2.
+
+127
+00:05:34,940 --> 00:05:37,240
+There's two numbers greater
+than 2 and there's two
+
+128
+00:05:37,240 --> 00:05:38,610
+numbers less than 2.
+
+129
+00:05:38,610 --> 00:05:39,720
+And this is called the median.
+
+130
+00:05:39,720 --> 00:05:41,560
+So it's actually very
+little computation.
+
+131
+00:05:41,560 --> 00:05:43,440
+You just have to essentially
+sort the numbers.
+
+132
+00:05:43,440 --> 00:05:45,620
+And then you find whatever
+number where you have an
+
+133
+00:05:45,620 --> 00:05:48,260
+equal number greater than
+or less than that number.
+
+134
+00:05:48,260 --> 00:05:51,430
+So the median of this set is 2.
+
+135
+00:05:51,430 --> 00:05:53,010
+And you see, I mean,
+that's actually fairly
+
+136
+00:05:53,010 --> 00:05:54,320
+close to the mean.
+
+137
+00:05:54,320 --> 00:05:56,020
+And there's no right answer.
+
+138
+00:05:56,020 --> 00:05:58,550
+One of these isn't a better
+answer for the average.
+
+139
+00:05:58,550 --> 00:06:01,890
+They're just different ways
+of measuring the average.
+
+140
+00:06:01,890 --> 00:06:05,020
+So here it's the median.
+
+141
+00:06:05,020 --> 00:06:06,980
+And I know what you might be
+thinking. "Well, that was
+
+142
+00:06:06,980 --> 00:06:08,640
+easy enough when we
+had five numbers.
+
+143
+00:06:08,640 --> 00:06:12,160
+What if we had six numbers?"
+What if it was like this?
+
+144
+00:06:12,160 --> 00:06:14,260
+What if this was our
+set of numbers?
+
+145
+00:06:14,260 --> 00:06:19,880
+1, 1, 2, 3, let's add
+another 4 there.
+
+146
+00:06:19,880 --> 00:06:21,660
+So now, there's no
+middle number, right?
+
+147
+00:06:21,660 --> 00:06:24,870
+I mean 2 is not the middle
+number because there's two less
+
+148
+00:06:24,870 --> 00:06:26,600
+than and three larger than it.
+
+149
+00:06:26,600 --> 00:06:28,820
+And then 3's not the middle
+number because there's three
+
+150
+00:06:28,820 --> 00:06:31,530
+larger and -- sorry, there's
+two larger and three
+
+151
+00:06:31,530 --> 00:06:32,550
+smaller than it.
+
+152
+00:06:32,550 --> 00:06:33,990
+So there's no middle number.
+
+153
+00:06:33,990 --> 00:06:36,390
+So when you have a set with
+even numbers and someone tells
+
+154
+00:06:36,390 --> 00:06:38,500
+you to figure out the median,
+what you do is you take the
+
+155
+00:06:38,500 --> 00:06:43,750
+middle two numbers and then you
+take the arithmetic mean
+
+156
+00:06:43,750 --> 00:06:45,050
+of those two numbers.
+
+157
+00:06:45,050 --> 00:06:50,770
+So in this case of this set,
+the median would be 2.5.
+
+158
+00:06:50,770 --> 00:06:51,730
+Fair enough.
+
+159
+00:06:51,730 --> 00:06:54,020
+But let's put this aside
+because I want to compare the
+
+160
+00:06:54,020 --> 00:06:56,680
+median and the means and the
+modes for the same
+
+161
+00:06:56,680 --> 00:06:57,620
+set of numbers.
+
+162
+00:06:57,620 --> 00:07:00,160
+But that's a good thing to
+know because sometimes it
+
+163
+00:07:00,160 --> 00:07:01,340
+can be a little confusing.
+
+164
+00:07:01,340 --> 00:07:03,760
+And these are all definitions.
+
+165
+00:07:03,760 --> 00:07:05,930
+These are all kind of
+mathematical tools for getting
+
+166
+00:07:05,930 --> 00:07:08,470
+our heads around numbers.
+
+167
+00:07:08,470 --> 00:07:11,720
+It's not like one day someone
+saw one of these formulas on
+
+168
+00:07:11,720 --> 00:07:13,660
+the face of the sun and says,
+"Oh, that's part of the
+
+169
+00:07:13,660 --> 00:07:16,980
+universe that this is how the
+average should be calculated."
+
+170
+00:07:16,980 --> 00:07:20,380
+These are human constructs to
+kind of just get our heads
+
+171
+00:07:20,380 --> 00:07:22,110
+around large sets of data.
+
+172
+00:07:22,110 --> 00:07:24,670
+This isn't a large set of data,
+but instead of five numbers, if
+
+173
+00:07:24,670 --> 00:07:26,760
+we had five million numbers,
+you can imagine if you don't
+
+174
+00:07:26,760 --> 00:07:28,780
+like thinking about every
+number individually.
+
+175
+00:07:28,780 --> 00:07:31,640
+Anyway, before I talk more
+about that, let me tell
+
+176
+00:07:31,640 --> 00:07:33,410
+you what the mode is.
+
+177
+00:07:33,410 --> 00:07:36,200
+And the mode to some degree,
+it's the one I think most
+
+178
+00:07:36,200 --> 00:07:39,650
+people probably forget or never
+learn and when they see it on
+
+179
+00:07:39,650 --> 00:07:41,930
+an exam, it confuses them
+because they're like, "Oh, that
+
+180
+00:07:41,930 --> 00:07:45,420
+sounds very advanced." But in
+some ways, it is the easiest of
+
+181
+00:07:45,420 --> 00:07:49,450
+all of the measures of central
+tendency or of average.
+
+182
+00:07:49,450 --> 00:07:53,810
+The mode is essentially what
+number is most common in a set.
+
+183
+00:07:53,810 --> 00:07:56,220
+So in this example, there's
+two 1's and then there's one
+
+184
+00:07:56,220 --> 00:07:57,510
+of everything else, right?
+
+185
+00:07:57,510 --> 00:08:00,230
+So the mode here is 1.
+
+186
+00:08:00,230 --> 00:08:02,840
+So mode is the most
+common number.
+
+187
+00:08:02,840 --> 00:08:04,890
+And then you could kind of
+say, "Whoa, hey Sal, what
+
+188
+00:08:04,890 --> 00:08:05,880
+if this was our set?
+
+189
+00:08:05,880 --> 00:08:11,620
+1, 1, 2, 3, 4, 4." Here I have
+two 1's and I have two 4's.
+
+190
+00:08:11,620 --> 00:08:14,040
+And this is where the mode gets
+a little bit tricky because
+
+191
+00:08:14,040 --> 00:08:17,810
+either of these would have been
+a decent answer for the mode.
+
+192
+00:08:17,810 --> 00:08:20,270
+You could have actually said
+the mode of this is 1 or the
+
+193
+00:08:20,270 --> 00:08:23,135
+mode of this is 4 and it gets
+a little bit ambiguous.
+
+194
+00:08:23,135 --> 00:08:24,840
+And you probably want
+a little clarity from
+
+195
+00:08:24,840 --> 00:08:25,790
+the person asking you.
+
+196
+00:08:25,790 --> 00:08:28,510
+Most times on a test when they
+ask you, there's not going
+
+197
+00:08:28,510 --> 00:08:29,190
+to be this ambiguity.
+
+198
+00:08:29,190 --> 00:08:33,164
+There will be a most
+common number in the set.
+
+199
+00:08:33,164 --> 00:08:35,950
+So now it's like oh, well you
+know, why wasn't just one
+
+200
+00:08:35,950 --> 00:08:36,900
+of these good enough?
+
+201
+00:08:36,900 --> 00:08:38,490
+You know why we learned
+averages, why don't
+
+202
+00:08:38,490 --> 00:08:40,270
+we just use averages?
+
+203
+00:08:40,270 --> 00:08:43,220
+Or why don't we use arithmetic
+mean all the time?
+
+204
+00:08:43,220 --> 00:08:45,080
+What's median and
+mode good for?
+
+205
+00:08:45,080 --> 00:08:47,890
+Well, I'll try to do one
+example of that and see if
+
+206
+00:08:47,890 --> 00:08:50,710
+it rings true with you.
+
+207
+00:08:50,710 --> 00:08:52,020
+And then you can think
+a little bit more.
+
+208
+00:08:52,020 --> 00:08:53,950
+Let's say I had this
+set of numbers.
+
+209
+00:08:53,950 --> 00:09:04,350
+3, 3, 3, 3, 3, and,
+I don't know, 100.
+
+210
+00:09:04,350 --> 00:09:08,960
+So what's the
+arithmetic mean here?
+
+211
+00:09:08,960 --> 00:09:12,070
+I have one, two, three,
+four, five 3's and 100.
+
+212
+00:09:12,070 --> 00:09:17,350
+So it would be 115
+divided by 6, right?
+
+213
+00:09:17,350 --> 00:09:20,090
+I could have one, two, three,
+four, five, six numbers.
+
+214
+00:09:20,090 --> 00:09:21,990
+115 is just the sum
+of all of these.
+
+215
+00:09:21,990 --> 00:09:27,270
+So that's equal to -- how many
+times does 6 go into 115?
+
+216
+00:09:27,270 --> 00:09:28,600
+6 goes into it one time.
+
+217
+00:09:28,600 --> 00:09:30,520
+1 times 6 is 6.
+
+218
+00:09:30,520 --> 00:09:32,320
+55 goes into it 9 times.
+
+219
+00:09:32,320 --> 00:09:34,370
+9 times 6 is 54.
+
+220
+00:09:34,370 --> 00:09:35,950
+So it's equal to 19 1/6.
+
+221
+00:09:37,210 --> 00:09:38,470
+Fair enough.
+
+222
+00:09:39,140 --> 00:09:40,610
+I just added all the
+numbers and divided by
+
+223
+00:09:40,610 --> 00:09:42,150
+how many there are.
+
+224
+00:09:42,150 --> 00:09:44,840
+But my question is, is this
+really representative
+
+225
+00:09:44,840 --> 00:09:45,560
+of this set?
+
+226
+00:09:45,560 --> 00:09:47,740
+I mean, I have a ton of 3's
+and then I have 100 all of a
+
+227
+00:09:47,740 --> 00:09:51,270
+sudden, and we're saying that
+the central tendency is 19 1/6.
+
+228
+00:09:51,270 --> 00:09:53,610
+And, I mean, 19 1/6 doesn't
+really seem indicative
+
+229
+00:09:53,610 --> 00:09:54,080
+of the set.
+
+230
+00:09:54,080 --> 00:09:56,390
+I mean maybe it does, depending
+on your application, but it
+
+231
+00:09:56,390 --> 00:09:57,850
+just seems a little
+bit off, right?
+
+232
+00:09:57,850 --> 00:09:59,800
+I mean, my intuition would be
+that the central tendency is
+
+233
+00:09:59,800 --> 00:10:02,660
+something closer to 3 because
+there's a lot of 3's here.
+
+234
+00:10:02,660 --> 00:10:06,770
+So what would the
+median tell us?
+
+235
+00:10:06,770 --> 00:10:09,720
+I already put these
+numbers in order, right?
+
+236
+00:10:09,720 --> 00:10:11,375
+If I give it to you out of
+order, you'd want to put it
+
+237
+00:10:11,375 --> 00:10:13,480
+in this order and you'd say
+what's the middle number?
+
+238
+00:10:13,480 --> 00:10:16,375
+Let's see, the middle two
+numbers, since I have an
+
+239
+00:10:16,375 --> 00:10:18,410
+even number, are 3 and 3.
+
+240
+00:10:18,410 --> 00:10:20,890
+So if I take the average of
+3 and 3 -- or I should be
+
+241
+00:10:20,890 --> 00:10:21,820
+particular with my language.
+
+242
+00:10:21,820 --> 00:10:26,800
+If I take the arithmetic
+mean of 3 and 3, I get 3.
+
+243
+00:10:26,800 --> 00:10:30,390
+And this is maybe a better
+measurement of the central
+
+244
+00:10:30,390 --> 00:10:34,400
+tendency or of the average of
+this set of numbers, right?
+
+245
+00:10:34,400 --> 00:10:38,120
+Essentially, what it does is by
+taking the median, I wasn't so
+
+246
+00:10:38,120 --> 00:10:40,720
+much affected by this really
+large number that's very
+
+247
+00:10:40,720 --> 00:10:42,080
+different than the others.
+
+248
+00:10:42,080 --> 00:10:43,765
+In statistics they
+call that an outlier.
+
+249
+00:10:43,765 --> 00:10:47,010
+A number that, you know, if you
+talked about average home
+
+250
+00:10:47,010 --> 00:10:51,580
+prices, maybe every house in
+the city is $100,000 and then
+
+251
+00:10:51,580 --> 00:10:54,140
+there's one house that
+costs $1 trillion.
+
+252
+00:10:54,140 --> 00:10:56,120
+And then if someone told you
+the average house price was, I
+
+253
+00:10:56,120 --> 00:10:58,440
+don't know, $1 million, you
+might have a very wrong
+
+254
+00:10:58,440 --> 00:10:59,760
+perception of that city.
+
+255
+00:10:59,760 --> 00:11:03,640
+But the median house price
+would be $100,000 and you get
+
+256
+00:11:03,640 --> 00:11:06,440
+a better sense of what the
+houses in that city are like.
+
+257
+00:11:06,440 --> 00:11:08,720
+So similarly, this median,
+maybe, gives you a better
+
+258
+00:11:08,720 --> 00:11:11,820
+sense of what the numbers
+in this set are like.
+
+259
+00:11:11,820 --> 00:11:15,550
+Because the arithmetic mean
+was skewed by this, what
+
+260
+00:11:15,550 --> 00:11:18,030
+they call an outlier.
+
+261
+00:11:18,030 --> 00:11:19,990
+And being able to tell what
+an outlier is, it's kind of
+
+262
+00:11:19,990 --> 00:11:22,130
+one of those things that a
+statistician will say, well,
+
+263
+00:11:22,130 --> 00:11:23,110
+I know it when I see it.
+
+264
+00:11:23,110 --> 00:11:25,450
+There isn't really a formal
+definition for it but it tends
+
+265
+00:11:25,450 --> 00:11:28,290
+to be a number that really kind
+of sticks out and sometimes
+
+266
+00:11:28,290 --> 00:11:31,190
+it's due to, you know, a
+measurement error or whatever.
+
+267
+00:11:31,190 --> 00:11:33,020
+And then finally, the mode.
+
+268
+00:11:33,020 --> 00:11:35,310
+What is the most common
+number in this set?
+
+269
+00:11:35,310 --> 00:11:38,590
+Well there's five 3's
+and there's 100.
+
+270
+00:11:38,590 --> 00:11:41,440
+So the most common number
+is, once again, it's a 3.
+
+271
+00:11:41,440 --> 00:11:44,905
+So in this case, when you had
+this outlier, the median and
+
+272
+00:11:44,905 --> 00:11:46,700
+the mode tend to be, you know,
+maybe they're a little bit
+
+273
+00:11:46,700 --> 00:11:50,650
+better about giving you an
+indication of what these
+
+274
+00:11:50,650 --> 00:11:51,650
+numbers represent.
+
+275
+00:11:51,650 --> 00:11:53,220
+Maybe this was just a
+measurement error.
+
+276
+00:11:53,220 --> 00:11:54,370
+But I don't know, we
+don't actually know
+
+277
+00:11:54,370 --> 00:11:55,250
+what these represent.
+
+278
+00:11:55,250 --> 00:11:57,530
+If these are house prices, then
+I would argue that these are
+
+279
+00:11:57,530 --> 00:12:00,700
+probably more indicative
+measures of what the
+
+280
+00:12:00,700 --> 00:12:03,050
+houses in a area cost.
+
+281
+00:12:03,050 --> 00:12:05,520
+But if this is something else,
+if this is scores on a test,
+
+282
+00:12:05,520 --> 00:12:07,850
+maybe, you know, maybe there is
+one kid in the class -- one out
+
+283
+00:12:07,850 --> 00:12:09,750
+of six kids who did really,
+really well and everyone
+
+284
+00:12:09,750 --> 00:12:10,410
+else didn't study.
+
+285
+00:12:10,410 --> 00:12:13,680
+And this is more indicative
+of, kind of, how students at
+
+286
+00:12:13,680 --> 00:12:14,680
+that level do on average.
+
+287
+00:12:14,680 --> 00:12:17,830
+Anyway, I'm done talking
+about all of this.
+
+288
+00:12:17,830 --> 00:12:20,430
+And I encourage you to play
+with a lot of numbers and deal
+
+289
+00:12:20,430 --> 00:12:21,460
+with the concepts yourself.
+
+290
+00:12:21,460 --> 00:12:24,960
+In the next video, we'll
+explore more descriptive
+
+291
+00:12:24,960 --> 00:12:25,480
+statistics.
+
+292
+00:12:25,480 --> 00:12:27,510
+Instead of talking about the
+central tendency, we'll talk
+
+293
+00:12:27,510 --> 00:12:30,410
+about how spread apart things
+are away from the
+
+294
+00:12:30,410 --> 00:12:31,520
+central tendency.
+
+295
+00:12:31,520 --> 00:12:33,370
+See you in the next video.

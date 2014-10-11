@@ -1,0 +1,115 @@
+1
+00:00:00,538 --> 00:00:05,803
+The following table contains the first five terms of the given pattern "A".
+
+2
+00:00:05,803 --> 00:00:09,073
+Generate pattern "B" according to this rule:
+
+3
+00:00:09,073 --> 00:00:13,069
+For every term of pattern "A"... so they give us the terms of pattern "A" here...
+
+4
+00:00:13,069 --> 00:00:18,534
+Multiply the term by 3, and add 1 to get the corresponding term of pattern "B".
+
+5
+00:00:18,534 --> 00:00:21,867
+Then Graph the pairs of corresponding terms.
+
+6
+00:00:21,867 --> 00:00:26,406
+So for every term in pattern "A", we want to multiply by 3 and add 1.
+
+7
+00:00:26,406 --> 00:00:31,136
+So if we multiply 0 by 3, we get 0, and you add 1, you get 1.
+
+8
+00:00:31,136 --> 00:00:37,114
+You multiply 1 by 3, you get 3... and you add 1, and you get 4.
+
+9
+00:00:37,114 --> 00:00:42,139
+2 times 3 is 6, plus 1 is 7.
+
+10
+00:00:42,139 --> 00:00:47,472
+3 times 3 is 9, plus 1 is 10.
+
+11
+00:00:47,472 --> 00:00:49,873
+Remember, we're just multiplying by 3 and adding 1.
+
+12
+00:00:49,873 --> 00:00:53,456
+4 times 3 is 12, plus 1 is 13.
+
+13
+00:00:53,456 --> 00:00:56,469
+So those are the corresponding terms for pattern "B".
+
+14
+00:00:56,469 --> 00:00:59,945
+Then they ask us to graph them... so let's try to graph these points.
+
+15
+00:00:59,945 --> 00:01:07,776
+So when Pattern "A" is 0, pattern "B" is 1.
+
+16
+00:01:07,776 --> 00:01:13,006
+So this is pattern "A" equaling 0... that's our horizontal axis: the value for pattern "A".
+
+17
+00:01:13,006 --> 00:01:18,868
+Pattern "B" is the value of our vertical axis. Pattern "B" is 1.
+
+18
+00:01:18,868 --> 00:01:24,805
+When pattern "A" is 1, pattern "B" is 4. So... (1, 4).
+
+19
+00:01:24,805 --> 00:01:29,334
+So when pattern "A" is 1, pattern "B" is 4. Pattern "B" is on the vertical axis.
+
+20
+00:01:29,334 --> 00:01:37,075
+When pattern "A" is 2, pattern "B" is 7. (2, 7).
+
+21
+00:01:37,075 --> 00:01:45,204
+When pattern "A" is 3, pattern "B" is 10. So: (3, 10).
+
+22
+00:01:45,204 --> 00:01:50,741
+So 3 in the horizontal direction, that's our Pattern "A" value, and our pattern "B" value is 10.
+
+23
+00:01:50,741 --> 00:01:59,532
+And then finally, when pattern "A" is 4, pattern "B" is 13.
+
+24
+00:01:59,532 --> 00:02:04,620
+Also let's look at these patterns. We see that pattern "A" is increasing by 1 each time.
+
+25
+00:02:04,620 --> 00:02:11,205
+While pattern "B" is increasing by... Well... pattern "A" starts at 0, and increases by 1.
+
+26
+00:02:11,205 --> 00:02:17,619
+While pattern "B" starts at 1, and increases by 3. Which makes complete sense.
+
+27
+00:02:17,619 --> 00:02:21,603
+It makes sense that it starts at 1... because all of these you multiply by 3 and add 1.
+
+28
+00:02:21,603 --> 00:02:30,368
+So you started with 1, and the fact that you're multiplying by 3... that's what's leading to the distance between these points being 3.
+
+29
+00:02:30,368 --> 00:02:34,368
+So let's check our answer and make sure we got this right... and we did.

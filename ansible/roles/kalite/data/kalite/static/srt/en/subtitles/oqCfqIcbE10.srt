@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:07,917
+Let's take the indefinite integral of the square root of 7x plus 9 dx.
+
+2
+00:00:07,917 --> 00:00:14,166
+So my first question to you is is this going to be a good case for u-substitution?
+
+3
+00:00:14,166 --> 00:00:21,002
+When you look here, we maybe the natural thing to set to be equal to u is 7x plus 9,
+
+4
+00:00:21,002 --> 00:00:24,671
+but do I see its derivative anywhere over here?
+
+5
+00:00:24,671 --> 00:00:33,504
+Let's see, we set u to be equal to 7x plus 9, what is the derivative of u with respect to x going to be?
+
+6
+00:00:33,504 --> 00:00:37,219
+Derivative of u with respect to x is just going to be equal to 7.
+
+7
+00:00:37,219 --> 00:00:44,001
+Derivative of 7x is 7, derivative of 9 is 0. So do we see a seven lying around anywhere over here?
+
+8
+00:00:44,001 --> 00:00:53,482
+Well, we don't. But what would could we do in order to have a seven lying around, but not change the value of the integral?
+
+9
+00:00:53,482 --> 00:00:57,250
+Well, the neat thing and we see this multiple times is when you're evaluating integrals,
+
+10
+00:00:57,250 --> 00:01:01,336
+scalars can go in and outside of the integral very easily.
+
+11
+00:01:01,336 --> 00:01:05,648
+Just to remind ourselves that if I have the integral of,
+
+12
+00:01:05,648 --> 00:01:12,585
+let's say some scalar a times f(x) (f of x) dx, this is the same thing as
+
+13
+00:01:12,585 --> 00:01:20,085
+a times the integral of f(x) (f of x) dx. That the integral of the scalar times the function is equal to
+
+14
+00:01:20,085 --> 00:01:25,182
+the scalar times the integral of the function. So let me put this aside right over here.
+
+15
+00:01:25,182 --> 00:01:31,372
+So with that in mind, can we multiply and divide by something that will have a 7 showing up?
+
+16
+00:01:31,372 --> 00:01:39,578
+Well, we can multiply and divide by 7. So imagine doing this. Let's rewrite our original integral --
+
+17
+00:01:39,578 --> 00:01:42,578
+so let me draw a little arrow here just to go around that aside.
+
+18
+00:01:42,578 --> 00:01:46,224
+We could write our original integral as being equal to the integral
+
+19
+00:01:46,224 --> 00:01:57,976
+of 1/7 times 7 times the square root of 7x plus 9 dx.
+
+20
+00:01:57,976 --> 00:02:01,312
+And if we want to, we could take the 1/7 outside of the integral,
+
+21
+00:02:01,312 --> 00:02:03,105
+we don't have to, but we could rewrite this as
+
+22
+00:02:03,105 --> 00:02:12,180
+1/7 times the integral of 7 times the square root of 7x plus 9 dx.
+
+23
+00:02:12,180 --> 00:02:16,981
+So now, if we said, "u is equal to 7x plus 9," do we have its derivative laying around?
+
+24
+00:02:16,981 --> 00:02:23,114
+Well, sure! The 7 is right over here. We know that du, if we want to write it in differential form,
+
+25
+00:02:23,114 --> 00:02:35,849
+du is equal to 7 times dx. So du is equal 7 times dx. That part right there is equal to du,
+
+26
+00:02:35,849 --> 00:02:40,180
+and if we want to care about u, well that's just going to be the 7x plus 9.
+
+27
+00:02:40,180 --> 00:02:45,504
+That is our u. So let's rewrite this entire integral in terms of u.
+
+28
+00:02:45,504 --> 00:02:53,191
+It's going to be equal to 1/7 times the integral of --
+
+29
+00:02:53,191 --> 00:02:56,270
+and I'll just take the 7 and put it in the back so we could just write
+
+30
+00:02:56,283 --> 00:03:05,912
+the square root of u du. Seven times dx is du.
+
+31
+00:03:05,963 --> 00:03:11,316
+And, we can rewrite this if we want as u to the 1/2 power; makes it a little bit easier
+
+32
+00:03:11,316 --> 00:03:16,879
+for us to kind of do the reverse power rule here. So we can rewrite this is equal to
+
+33
+00:03:16,879 --> 00:03:25,030
+1/7 times the integral of u to the 1/2 power du. And let me just make it clear.
+
+34
+00:03:25,030 --> 00:03:30,952
+This u I could have written it in white; I want the same color in this du is the same du right over here.
+
+35
+00:03:30,952 --> 00:03:35,641
+So what is the anti-derivative of u to the 1/2 power?
+
+36
+00:03:35,641 --> 00:03:40,581
+Well, we increment u's power by 1, so this is going to be equal to --
+
+37
+00:03:40,581 --> 00:03:43,237
+and let me not forget this 1/7 out front.
+
+38
+00:03:43,237 --> 00:03:49,462
+So it's going to be 1/7 times -- if we increment the power here, it's going to be
+
+39
+00:03:49,462 --> 00:04:06,318
+u to the 3/2 (1/2 plus 1 is 1 1/2 or 3/2), and we're going to multiply this new thing times the reciprocal of 3/2,
+
+40
+00:04:06,318 --> 00:04:14,835
+which is 2/3. And I encourage you to verify that derivative 2/3 * u^(3/2) is indeed u^(1/2).
+
+41
+00:04:14,835 --> 00:04:19,380
+And so we have that and since we're multiplying 1/7 times this entire indefinite integral,
+
+42
+00:04:19,380 --> 00:04:23,350
+we could also throw in a plus C right over here that might be a constant,
+
+43
+00:04:23,350 --> 00:04:36,130
+and if we want, we can distribute the 1/7. So it would get 1/7 times 2/3 is (2/21)u^(3/2),
+
+44
+00:04:36,130 --> 00:04:40,243
+and 1/7 times some constant, well that's just going to be some constant,
+
+45
+00:04:40,243 --> 00:04:44,539
+so I could write a constant like that; I could call it C1, and I could call this C2,
+
+46
+00:04:44,539 --> 00:04:48,972
+but it really is some arbitrary constant. And we're done -- oh, actually no we aren't done.
+
+47
+00:04:48,972 --> 00:04:54,789
+We still just have our entire thing in terms of u. So now let's un-substitute it.
+
+48
+00:04:54,789 --> 00:05:03,760
+So this is going to be equal to 2/21 times u^(3/2) -- and we already know what u is equal to,
+
+49
+00:05:03,760 --> 00:05:08,779
+u is equal to 7x plus 9. Let me put in a new color here just to ease the monotony.
+
+50
+00:05:08,779 --> 00:05:22,453
+So it's going to be 2/21 times 7x plus 9 to the 3/2 power plus C.
+
+51
+00:05:22,453 --> 00:05:26,478
+And we are done! We're able to take a kind of hairy looking integral and realize
+
+52
+00:05:26,478 --> 00:05:30,478
+that even though it wasn't completely obvious at first, u-substitution is applicable.

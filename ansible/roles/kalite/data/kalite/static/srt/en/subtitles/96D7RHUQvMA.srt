@@ -1,0 +1,864 @@
+1
+00:00:00,000 --> 00:00:00,000
+   
+
+2
+00:00:00,000 --> 00:00:03,270
+I think we're ready now to
+tackle some more or even more
+
+3
+00:00:03,270 --> 00:00:04,550
+complicated examples.
+
+4
+00:00:04,550 --> 00:00:06,650
+So let's draw something
+crazy here.
+
+5
+00:00:06,650 --> 00:00:10,200
+So let's see, let
+me draw a chain.
+
+6
+00:00:10,200 --> 00:00:14,990
+Let me draw it like that.
+
+7
+00:00:14,990 --> 00:00:17,680
+And so like we've done in all
+of the examples, you want to
+
+8
+00:00:17,680 --> 00:00:18,890
+find the longest chain.
+
+9
+00:00:18,890 --> 00:00:19,730
+We could count from here.
+
+10
+00:00:19,730 --> 00:00:23,390
+One, two, three, four, five,
+six, seven, eight, or maybe
+
+11
+00:00:23,390 --> 00:00:26,350
+it's one, two, three, four,
+five, six, seven.
+
+12
+00:00:26,350 --> 00:00:26,690
+No.
+
+13
+00:00:26,690 --> 00:00:30,220
+Or maybe it's one, two, three,
+four, five, six, seven,
+
+14
+00:00:30,220 --> 00:00:32,150
+eight, nine, ten.
+
+15
+00:00:32,150 --> 00:00:34,840
+That is our longest chain.
+
+16
+00:00:34,840 --> 00:00:36,940
+Let me make that in green.
+
+17
+00:00:36,940 --> 00:00:41,480
+So our longest chain
+here is in green.
+
+18
+00:00:41,480 --> 00:00:44,910
+So this decane-- sorry,
+this backbone has
+
+19
+00:00:44,910 --> 00:00:46,380
+ten carbons in it.
+
+20
+00:00:46,380 --> 00:00:48,590
+The prefix for ten is dec-.
+
+21
+00:00:48,590 --> 00:00:52,750
+It is an alkane since it has
+all single bonds, so we can
+
+22
+00:00:52,750 --> 00:00:55,240
+write decane for the backbone.
+
+23
+00:00:55,240 --> 00:01:02,210
+And then it has a group right
+here and this group consists
+
+24
+00:01:02,210 --> 00:01:06,540
+of one, two carbons attached
+to the backbone.
+
+25
+00:01:06,540 --> 00:01:09,640
+The prefix for two carbons
+is eth-, so
+
+26
+00:01:09,640 --> 00:01:11,420
+this is an ethyl group.
+
+27
+00:01:11,420 --> 00:01:14,820
+The -yl is because it's a group
+attached to the main
+
+28
+00:01:14,820 --> 00:01:17,510
+alkane chain, so we call
+this ethyldecane.
+
+29
+00:01:17,510 --> 00:01:20,160
+   
+
+30
+00:01:20,160 --> 00:01:22,640
+But we have to specify where the
+ethyl group is attached.
+
+31
+00:01:22,640 --> 00:01:25,090
+And we want to give it as low of
+a number as possible, so we
+
+32
+00:01:25,090 --> 00:01:28,160
+start counting on the
+side closest to it.
+
+33
+00:01:28,160 --> 00:01:33,530
+So it's one, two, three,
+four, five, so this is
+
+34
+00:01:33,530 --> 00:01:36,130
+5-ethyldecane.
+
+35
+00:01:36,130 --> 00:01:39,210
+Now let's complicate this
+a little bit more.
+
+36
+00:01:39,210 --> 00:01:41,410
+So let me just to copy
+and paste this.
+
+37
+00:01:41,410 --> 00:01:46,410
+   
+
+38
+00:01:46,410 --> 00:01:48,260
+So I have pasted it there.
+
+39
+00:01:48,260 --> 00:01:50,810
+And let me complicate this
+molecule a little bit more.
+
+40
+00:01:50,810 --> 00:01:52,635
+Let me add another ethyl
+group to it.
+
+41
+00:01:52,635 --> 00:01:55,440
+   
+
+42
+00:01:55,440 --> 00:02:00,200
+So let's say we have another
+ethyl group over there.
+
+43
+00:02:00,200 --> 00:02:01,560
+Now, what is this going to be?
+
+44
+00:02:01,560 --> 00:02:04,370
+Well, the longest chain is still
+going to be that thing
+
+45
+00:02:04,370 --> 00:02:06,840
+in green, so it's still
+going to be a decane.
+
+46
+00:02:06,840 --> 00:02:10,009
+   
+
+47
+00:02:10,009 --> 00:02:12,350
+But now we have two ethyl
+groups, one on the five
+
+48
+00:02:12,350 --> 00:02:14,990
+carbon, one, two, three,
+four, five, and then
+
+49
+00:02:14,990 --> 00:02:16,335
+one on the six carbon.
+
+50
+00:02:16,335 --> 00:02:18,950
+   
+
+51
+00:02:18,950 --> 00:02:21,510
+So we write here-- you might
+be tempted to write
+
+52
+00:02:21,510 --> 00:02:25,460
+5-ethyl-6-ethyldecane, which
+really wouldn't be wrong, but
+
+53
+00:02:25,460 --> 00:02:27,220
+it would just be maybe
+more letters
+
+54
+00:02:27,220 --> 00:02:28,180
+than you want to write.
+
+55
+00:02:28,180 --> 00:02:30,820
+Instead you write
+5,6-diethyldecane.
+
+56
+00:02:30,820 --> 00:02:41,380
+   
+
+57
+00:02:41,380 --> 00:02:44,950
+The 5,6- tells us the two
+carbons on the main backbone
+
+58
+00:02:44,950 --> 00:02:47,960
+that the ethyl groups are
+attached to, and the di- says
+
+59
+00:02:47,960 --> 00:02:49,670
+that we have two ethanes.
+
+60
+00:02:49,670 --> 00:02:51,950
+Or two ethyl groups, I should
+say, not ethane groups.
+
+61
+00:02:51,950 --> 00:02:56,250
+Two ethyl groups, one over here
+and one right over here.
+
+62
+00:02:56,250 --> 00:03:01,010
+Now, let's make it even
+more complex.
+
+63
+00:03:01,010 --> 00:03:04,380
+Let's take our thing and let's
+make it even more complex.
+
+64
+00:03:04,380 --> 00:03:12,280
+So let's copy it and let
+us paste it, edit,
+
+65
+00:03:12,280 --> 00:03:17,376
+paste, just like that.
+
+66
+00:03:17,376 --> 00:03:18,280
+Let's paste it.
+
+67
+00:03:18,280 --> 00:03:20,880
+Let me make it a little
+bit lower over here.
+
+68
+00:03:20,880 --> 00:03:23,170
+So the exact same thing we just
+dealt with, but let's add
+
+69
+00:03:23,170 --> 00:03:26,810
+one more group to it.
+
+70
+00:03:26,810 --> 00:03:30,080
+Let's say it looks something
+like this.
+
+71
+00:03:30,080 --> 00:03:32,610
+Let's say on that five carbon--
+let's say on that six
+
+72
+00:03:32,610 --> 00:03:36,620
+carbon right there, I have
+a group that looks
+
+73
+00:03:36,620 --> 00:03:37,560
+something like this.
+
+74
+00:03:37,560 --> 00:03:39,300
+What is this is going
+to be called?
+
+75
+00:03:39,300 --> 00:03:41,040
+And here we probably want to
+break it down a little bit.
+
+76
+00:03:41,040 --> 00:03:43,080
+We still have the backbone,
+so it's still
+
+77
+00:03:43,080 --> 00:03:44,330
+going to be a decane.
+
+78
+00:03:44,330 --> 00:03:48,790
+   
+
+79
+00:03:48,790 --> 00:03:50,530
+But let's just do
+it step by step.
+
+80
+00:03:50,530 --> 00:03:53,500
+So we know that this right here,
+this is an ethyl group.
+
+81
+00:03:53,500 --> 00:03:57,410
+It's on the five carbon,
+so that is a 5-ethyl.
+
+82
+00:03:57,410 --> 00:03:59,340
+This is another ethyl group
+on the six carbon,
+
+83
+00:03:59,340 --> 00:04:02,440
+so that is a 6-ethyl.
+
+84
+00:04:02,440 --> 00:04:03,980
+Now, we have this
+group over here.
+
+85
+00:04:03,980 --> 00:04:06,030
+So how many carbons
+are on this group?
+
+86
+00:04:06,030 --> 00:04:09,470
+Well, we have one, two,
+three carbons on it.
+
+87
+00:04:09,470 --> 00:04:12,400
+We have three carbons on it, so
+we might want to just call
+
+88
+00:04:12,400 --> 00:04:14,840
+it a propyl group, but
+notice something.
+
+89
+00:04:14,840 --> 00:04:16,959
+We are attached to the carbon,
+and then it later
+
+90
+00:04:16,959 --> 00:04:17,930
+branches off into two.
+
+91
+00:04:17,930 --> 00:04:19,940
+It actually immediately
+branches off into two.
+
+92
+00:04:19,940 --> 00:04:24,330
+So we could actually call this
+either sec-propyl, so this
+
+93
+00:04:24,330 --> 00:04:31,730
+right here, we can either call
+it sec-propyl, or because it
+
+94
+00:04:31,730 --> 00:04:34,270
+is connected away from the-- I
+guess it's connected directly
+
+95
+00:04:34,270 --> 00:04:37,060
+to the branch the way a
+propyl group works.
+
+96
+00:04:37,060 --> 00:04:38,910
+You could connect it and it
+immediately branches, because
+
+97
+00:04:38,910 --> 00:04:40,180
+you only have three carbons.
+
+98
+00:04:40,180 --> 00:04:44,490
+So just to clarify things,
+it's sec- because we're
+
+99
+00:04:44,490 --> 00:04:46,670
+attached to two carbons
+right there.
+
+100
+00:04:46,670 --> 00:04:48,880
+But sec-propyl isn't what
+people normally call it.
+
+101
+00:04:48,880 --> 00:04:50,130
+They normally call
+it isopropyl.
+
+102
+00:04:50,130 --> 00:04:53,760
+   
+
+103
+00:04:53,760 --> 00:04:56,820
+And the iso- root comes from
+anything of the form.
+
+104
+00:04:56,820 --> 00:05:01,110
+So if I have a group that looks
+like this, this would be
+
+105
+00:05:01,110 --> 00:05:06,360
+isobutyl, because we have one,
+two, three, four carbons, and
+
+106
+00:05:06,360 --> 00:05:09,130
+we are attached right here, so
+this is where we would attach
+
+107
+00:05:09,130 --> 00:05:10,030
+to the main backbone.
+
+108
+00:05:10,030 --> 00:05:16,670
+If I have a group that
+looks like this,
+
+109
+00:05:16,670 --> 00:05:18,990
+this would be isopentyl.
+
+110
+00:05:18,990 --> 00:05:21,700
+I have one, two, three,
+four, five carbons.
+
+111
+00:05:21,700 --> 00:05:23,590
+I'm attached away
+from the branch.
+
+112
+00:05:23,590 --> 00:05:27,190
+But if we go one step closer,
+so we're attached just like
+
+113
+00:05:27,190 --> 00:05:28,550
+this, we're attached
+to the original
+
+114
+00:05:28,550 --> 00:05:31,720
+group, this is isopropyl.
+
+115
+00:05:31,720 --> 00:05:33,170
+One, two, three carbons.
+
+116
+00:05:33,170 --> 00:05:37,570
+Let me write-- isopropyl,
+isobutyl, isopentyl.
+
+117
+00:05:37,570 --> 00:05:40,900
+Notice what the isos-- the isos
+are like Y's, I guess is
+
+118
+00:05:40,900 --> 00:05:42,330
+the best way of thinking of it,
+and you're attached to the
+
+119
+00:05:42,330 --> 00:05:43,150
+base of the Y.
+
+120
+00:05:43,150 --> 00:05:45,220
+In this case, you're almost
+attached to the base of a V,
+
+121
+00:05:45,220 --> 00:05:46,630
+but, hopefully, you
+get the idea.
+
+122
+00:05:46,630 --> 00:05:50,710
+So the common name for this
+group would be isopropyl, or
+
+123
+00:05:50,710 --> 00:05:53,500
+if we wanted to use the
+systematic naming, we could
+
+124
+00:05:53,500 --> 00:05:57,720
+just start at one as being-- let
+me do this in a good color
+
+125
+00:05:57,720 --> 00:06:00,490
+--as the carbon we are attached
+to, and then we only
+
+126
+00:06:00,490 --> 00:06:02,670
+have two carbons right
+over there.
+
+127
+00:06:02,670 --> 00:06:04,260
+So if we have two carbons,
+we're dealing
+
+128
+00:06:04,260 --> 00:06:05,510
+with an ethyl group.
+
+129
+00:06:05,510 --> 00:06:08,130
+   
+
+130
+00:06:08,130 --> 00:06:11,430
+And then you could say that
+you have a methyl group
+
+131
+00:06:11,430 --> 00:06:14,165
+attached to the first carbon, so
+it would be 1-methylethyl.
+
+132
+00:06:14,165 --> 00:06:19,850
+   
+
+133
+00:06:19,850 --> 00:06:23,210
+So this could either be called
+an isopropyl group, or a
+
+134
+00:06:23,210 --> 00:06:25,520
+1-methylethyl group.
+
+135
+00:06:25,520 --> 00:06:28,300
+And in either case-- let me
+put that in parentheses.
+
+136
+00:06:28,300 --> 00:06:30,503
+In either case, it's attached
+to the six carbon.
+
+137
+00:06:30,503 --> 00:06:34,360
+   
+
+138
+00:06:34,360 --> 00:06:36,750
+So the prefixes are going to
+be on the six carbon on our
+
+139
+00:06:36,750 --> 00:06:44,970
+main-- we have a 1-methylethyl,
+where the
+
+140
+00:06:44,970 --> 00:06:47,430
+methyl is attached to the first
+carbon on the ethyl
+
+141
+00:06:47,430 --> 00:06:53,710
+chain, or we could call this a
+6-isopropyl group attached to
+
+142
+00:06:53,710 --> 00:06:55,370
+the six carbon.
+
+143
+00:06:55,370 --> 00:06:58,500
+Now, when we decide how to write
+it, how do we know--
+
+144
+00:06:58,500 --> 00:06:59,720
+we're going to have to
+write essentially the
+
+145
+00:06:59,720 --> 00:07:02,200
+ethyl and the isopropyl.
+
+146
+00:07:02,200 --> 00:07:04,100
+We're going to have to
+write all of that in
+
+147
+00:07:04,100 --> 00:07:05,830
+front of the decane.
+
+148
+00:07:05,830 --> 00:07:07,920
+How do we decide whether
+to write the eth-
+
+149
+00:07:07,920 --> 00:07:09,030
+or the propyl- first?
+
+150
+00:07:09,030 --> 00:07:11,010
+Well, here you just do it
+in alphabetical order.
+
+151
+00:07:11,010 --> 00:07:12,220
+And actually these
+little prefixes
+
+152
+00:07:12,220 --> 00:07:13,960
+in front don't matter.
+
+153
+00:07:13,960 --> 00:07:15,800
+So you compare the P to the E.
+
+154
+00:07:15,800 --> 00:07:19,130
+Eth-, E comes first in
+alphabetical order, so this
+
+155
+00:07:19,130 --> 00:07:22,155
+would be 5,6-diethyl.
+
+156
+00:07:22,155 --> 00:07:26,790
+   
+
+157
+00:07:26,790 --> 00:07:30,640
+So even though D-- well, D comes
+even before E, but you
+
+158
+00:07:30,640 --> 00:07:31,970
+don't even count that prefix.
+
+159
+00:07:31,970 --> 00:07:33,730
+The E is what matters.
+
+160
+00:07:33,730 --> 00:07:38,610
+Diethyl, and then
+we could say,
+
+161
+00:07:38,610 --> 00:07:39,860
+diethyl-6-isopropyldecane.
+
+162
+00:07:39,860 --> 00:07:48,290
+   
+
+163
+00:07:48,290 --> 00:07:50,140
+This is the common name:
+6-isopropyldecane.
+
+164
+00:07:50,140 --> 00:07:57,340
+   
+
+165
+00:07:57,340 --> 00:07:59,150
+This would be the common
+name for it.
+
+166
+00:07:59,150 --> 00:08:01,000
+If we want to use the systematic
+name, we would
+
+167
+00:08:01,000 --> 00:08:04,970
+replace the 6-isopropyl
+with 6,1-methylethyl.
+
+168
+00:08:04,970 --> 00:08:06,170
+So let me write that down.
+
+169
+00:08:06,170 --> 00:08:09,250
+So let me just copy this part.
+
+170
+00:08:09,250 --> 00:08:13,870
+So copy and paste right there.
+
+171
+00:08:13,870 --> 00:08:17,500
+And then I can copy and
+paste this right here.
+
+172
+00:08:17,500 --> 00:08:20,340
+Copy and paste.
+
+173
+00:08:20,340 --> 00:08:21,590
+So it becomes
+5,6-diethyl-6-1-methylethyl.
+
+174
+00:08:21,590 --> 00:08:24,430
+   
+
+175
+00:08:24,430 --> 00:08:26,120
+I know it's very confusing when
+you see it, but when you
+
+176
+00:08:26,120 --> 00:08:27,780
+break it down, you really
+could-- you would be able to
+
+177
+00:08:27,780 --> 00:08:29,220
+draw this from the structure.
+
+178
+00:08:29,220 --> 00:08:38,320
+And then finally you finish
+with a decane.
+
+179
+00:08:38,320 --> 00:08:40,940
+So hopefully, these examples
+don't confuse you too much.
+
+180
+00:08:40,940 --> 00:08:43,400
+In the next few videos, we'll
+do more and more examples.
+
+181
+00:08:43,400 --> 00:08:46,050
+Because I think with the
+nomenclature on the organic
+
+182
+00:08:46,050 --> 00:08:47,960
+chemistry, the more examples
+you see, the better.
+
+183
+00:08:47,960 --> 00:08:50,260
+This is really core, so in the
+future you don't get confused
+
+184
+00:08:50,260 --> 00:08:52,130
+when people throw out
+something like,
+
+185
+00:08:52,130 --> 00:08:53,380
+5,6-diethyl-6-(1
+-methylethyl)decane.
+
+186
+00:08:53,380 --> 00:08:58,333
+

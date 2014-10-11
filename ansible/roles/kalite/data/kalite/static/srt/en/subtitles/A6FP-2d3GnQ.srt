@@ -1,0 +1,703 @@
+1
+00:00:00,500 --> 00:00:02,910
+We're on problem 129.
+
+2
+00:00:04,000 --> 00:00:07,870
+On a recent trip, Cindy drove her car 290 miles,
+
+3
+00:00:10,010 --> 00:00:12,390
+rounded to the nearest 10 miles,
+
+4
+00:00:13,320 --> 00:00:15,570
+and used 12 gallons of gasoline,
+
+5
+00:00:15,570 --> 00:00:17,080
+rounded to the nearest gallons.
+
+6
+00:00:21,000 --> 00:00:23,280
+The actual number of miles per gallon that
+
+7
+00:00:23,280 --> 00:00:26,180
+Cindy's car got on this trip must have been between?
+
+8
+00:00:27,830 --> 00:00:31,380
+So they want us to kind of say these are the rounded numbers,
+
+9
+00:00:31,380 --> 00:00:33,000
+now what were the actual numbers between,
+
+10
+00:00:33,000 --> 00:00:35,170
+and then from that what's the range of miles per gallon?
+
+11
+00:00:35,930 --> 00:00:37,690
+So if this is rounded to the nearest 10,
+
+12
+00:00:37,690 --> 00:00:47,920
+then her miles had to have been greater than or equal to 285,
+
+13
+00:00:48,300 --> 00:00:52,160
+because anything 285 or more would have been rounded to 290.
+
+14
+00:00:52,160 --> 00:01:00,380
+But then less than 295 because anything less than 295 would
+
+15
+00:01:00,380 --> 00:01:04,030
+be rounded down, but 295 itself would be rounded up to 300.
+
+16
+00:01:04,510 --> 00:01:11,190
+And her gallons had to have been greater than or equal to
+
+17
+00:01:11,190 --> 00:01:17,090
+11.5 gallons, by the same logic, and less than 12.5 gallons.
+
+18
+00:01:18,660 --> 00:01:22,080
+So what was the lowest possible miles per gallon?
+
+19
+00:01:22,080 --> 00:01:24,160
+So the lowest possible miles per gallon would have the
+
+20
+00:01:24,160 --> 00:01:28,330
+lowest miles and the highest gallons. You want to minimize
+
+21
+00:01:28,330 --> 00:01:30,050
+the numerator and maximize the denominator.
+
+22
+00:01:30,050 --> 00:01:36,940
+So lowest possible miles would be 285.
+
+23
+00:01:39,190 --> 00:01:41,180
+And the highest possible gallons,
+
+24
+00:01:42,000 --> 00:01:44,390
+at least it'll approach 12.5.
+
+25
+00:01:47,560 --> 00:01:53,190
+So 12.499999 is the possible number of gallons,
+
+26
+00:01:53,190 --> 00:01:54,630
+so it'll approach this.
+
+27
+00:01:54,970 --> 00:01:57,590
+But it can never be exactly 12.5 gallons,
+
+28
+00:01:57,590 --> 00:02:01,660
+so her miles per gallon are going to be greater than this.
+
+29
+00:02:02,050 --> 00:02:03,710
+It would've been greater than equal to this with like
+
+30
+00:02:03,710 --> 00:02:07,440
+12.499999, but since 12.5 can never get there, we're going
+
+31
+00:02:07,440 --> 00:02:10,080
+to be greater than this in terms of miles per gallon.
+
+32
+00:02:10,080 --> 00:02:13,900
+And then the highest possible miles per gallon is the
+
+33
+00:02:13,900 --> 00:02:16,610
+highest possible miles, which is 295.
+
+34
+00:02:16,940 --> 00:02:20,060
+But we're never going to be able to go twice quite there.
+
+35
+00:02:20,730 --> 00:02:22,760
+We're always going to be less than 295.
+
+36
+00:02:23,080 --> 00:02:26,730
+And then the lowest number of gallons-- going the highest
+
+37
+00:02:26,730 --> 00:02:28,540
+mileage with the lowest possible gallons,
+
+38
+00:02:28,540 --> 00:02:32,030
+you want to minimize the demonimator-- divided by 11.5.
+
+39
+00:02:32,030 --> 00:02:34,100
+Let's see if that is a choice.
+
+40
+00:02:38,180 --> 00:02:41,510
+I don't see that exactly, but choice D looks interesting
+
+41
+00:02:41,510 --> 00:02:44,100
+because choice D says-- so they say the actual number of
+
+42
+00:02:44,100 --> 00:02:46,110
+miles per gallon that Cindy's car got on this trip must have
+
+43
+00:02:46,110 --> 00:02:47,030
+been between.
+
+44
+00:02:47,530 --> 00:02:55,600
+Choice D looks close to what we have because we have this.
+
+45
+00:02:55,600 --> 00:03:01,570
+Choice D says between 284 divided by 12.5.
+
+46
+00:03:05,000 --> 00:03:06,500
+That's going to be even less than that,
+
+47
+00:03:07,220 --> 00:03:09,530
+because you have the 12.5 but the numerator's less.
+
+48
+00:03:09,530 --> 00:03:12,040
+So that's going to be even lower than the range that we have.
+
+49
+00:03:12,870 --> 00:03:20,000
+And then on choice D, 295 divided 11.4.
+
+50
+00:03:20,750 --> 00:03:22,340
+This number is larger than this number, because you have
+
+51
+00:03:22,340 --> 00:03:24,650
+the same numerator and you have a smaller denominator.
+
+52
+00:03:24,650 --> 00:03:26,020
+So you're dividing by a smaller number.
+
+53
+00:03:26,020 --> 00:03:27,680
+So this number's larger.
+
+54
+00:03:27,980 --> 00:03:31,220
+So if her miles per gallon is between these two numbers,
+
+55
+00:03:31,220 --> 00:03:33,740
+and these two numbers are between these two numbers,
+
+56
+00:03:33,740 --> 00:03:35,590
+then D is right.
+
+57
+00:03:35,590 --> 00:03:39,640
+Her miles per gallon need to be between 284 divided by 12.5
+
+58
+00:03:39,640 --> 00:03:44,120
+and 295 divided by 11.4. So it's choice D.
+
+59
+00:03:45,000 --> 00:03:46,500
+Problem 130.
+
+60
+00:03:50,210 --> 00:03:52,540
+Which of the following inequalities is an algebraic
+
+61
+00:03:52,540 --> 00:03:56,000
+expression for the shaded part of the number line above?
+
+62
+00:03:56,390 --> 00:04:00,040
+So this number line, let's try to draw it. That's the line.
+
+63
+00:04:01,040 --> 00:04:03,760
+And I'm not going to draw all of the dots on it,
+
+64
+00:04:04,100 --> 00:04:08,870
+but it essentially starts at positive 3 and it goes backwards
+
+65
+00:04:09,660 --> 00:04:10,950
+Let's switch colors.
+
+66
+00:04:13,750 --> 00:04:16,190
+It starts essentially from minus 5 to positive 3.
+
+67
+00:04:16,850 --> 00:04:19,450
+That's all of what this includes.
+
+68
+00:04:28,960 --> 00:04:31,430
+1, 0, and then minus 5.
+
+69
+00:04:31,770 --> 00:04:36,840
+So you could say that x is less than or equal to 3 because
+
+70
+00:04:36,840 --> 00:04:40,010
+it's filled in at 3, and greater than or equal to minus 5.
+
+71
+00:04:40,010 --> 00:04:41,750
+And that's not one of the choices.
+
+72
+00:04:41,750 --> 00:04:43,900
+They want it in terms of absolute value.
+
+73
+00:04:46,550 --> 00:04:49,940
+So how we can view this, this is a range around some number.
+
+74
+00:04:50,040 --> 00:04:51,040
+Whenever you're dealing without absolute value,
+
+75
+00:04:51,040 --> 00:04:53,030
+you're essentially saying the distance from some number.
+
+76
+00:04:53,520 --> 00:04:56,150
+So this is a range of minus 5 and 3.
+
+77
+00:04:56,150 --> 00:05:00,860
+This has a length of 8, so they're both 4 away from minus 1.
+
+78
+00:05:02,020 --> 00:05:06,700
+Think about it. You could go 4 backwards or 4 forwards.
+
+79
+00:05:07,010 --> 00:05:11,910
+So one way to think about it is the difference between x
+
+80
+00:05:11,910 --> 00:05:19,770
+and minus 1, and that might be a negative or positive
+
+81
+00:05:19,770 --> 00:05:21,860
+difference depending on whether we're positive or negative,
+
+82
+00:05:23,910 --> 00:05:26,280
+depending on whether we're above negative 1 or
+
+83
+00:05:26,280 --> 00:05:29,000
+below negative 1. But we just want the absolute difference.
+
+84
+00:05:29,000 --> 00:05:30,860
+We just want the distance away from negative 1.
+
+85
+00:05:33,140 --> 00:05:34,310
+And that's given by this,
+
+86
+00:05:34,310 --> 00:05:38,500
+the difference between any x and negative 1. And
+
+87
+00:05:38,500 --> 00:05:40,500
+we took the absolute value in case x is less than negative 1.
+
+88
+00:05:40,500 --> 00:05:44,040
+The distance is going to be less than or equal to 4,
+
+89
+00:05:44,040 --> 00:05:48,280
+because if we go above negative 1 we're at most at 3,
+
+90
+00:05:48,280 --> 00:05:50,010
+which is 4 more than negative 1.
+
+91
+00:05:50,010 --> 00:05:52,860
+If we go below negative 1, we're at minus 5 which is 4
+
+92
+00:05:52,860 --> 00:05:55,040
+less than negative 1. So it's less than or equal to 4.
+
+93
+00:05:55,040 --> 00:05:58,010
+if you simplify this, you get x plus 1,
+
+94
+00:05:58,010 --> 00:06:00,040
+the absolute value is less than or equal to 4.
+
+95
+00:06:00,040 --> 00:06:05,240
+And that is choice E. And this is a useful skill.
+
+96
+00:06:06,180 --> 00:06:07,660
+You have probably taken the SAT already, but in general,
+
+97
+00:06:07,660 --> 00:06:10,810
+a lot of standardized tests think of absolute value as a
+
+98
+00:06:10,810 --> 00:06:14,650
+distance in 1 dimension.So the distance along the number line
+
+99
+00:06:14,650 --> 00:06:16,090
+So they're saying all of these points,
+
+100
+00:06:17,800 --> 00:06:20,180
+they're within some range from 1 point.
+
+101
+00:06:20,180 --> 00:06:21,730
+And you can say if you take the midpoint of this,
+
+102
+00:06:21,730 --> 00:06:22,600
+you're at negative 1.
+
+103
+00:06:22,600 --> 00:06:25,630
+And every point here's within 4 of negative 1.
+
+104
+00:06:25,630 --> 00:06:28,860
+So the distance between every point on this line,
+
+105
+00:06:28,860 --> 00:06:32,200
+every x that satisfies this and negative 1,
+
+106
+00:06:32,540 --> 00:06:34,510
+the distance is less than or equal to 4.
+
+107
+00:06:34,510 --> 00:06:36,410
+Anyway, I kind of just did the problem twice for you.
+
+108
+00:06:37,070 --> 00:06:39,690
+Problem 131.
+
+109
+00:06:45,020 --> 00:06:51,130
+A factory has 500 workers, 15% of whom are women.
+
+110
+00:06:51,140 --> 00:06:56,450
+So 15% times 500 is equal to women.
+
+111
+00:06:58,090 --> 00:07:00,490
+If 50 additional workers are to be hired and all of the
+
+112
+00:07:00,490 --> 00:07:03,940
+present workers remain, how many of the additional workers
+
+113
+00:07:03,940 --> 00:07:08,720
+must be women in order to raise the percent of women
+
+114
+00:07:08,720 --> 00:07:11,120
+employees to 20%?
+
+115
+00:07:12,000 --> 00:07:13,850
+So how many women workers do we have right now?
+
+116
+00:07:13,850 --> 00:07:19,740
+5 times 15, we have 75 workers. 15 times 500.
+
+117
+00:07:24,940 --> 00:07:31,260
+We have 75 women right now.
+
+118
+00:07:32,140 --> 00:07:33,630
+If we wanted to find the proportion of women,
+
+119
+00:07:33,630 --> 00:07:39,070
+it's 75 over 500, which is once again 15. It's 15%.
+
+120
+00:07:40,000 --> 00:07:43,170
+We're going to add a total of 50 workers to this population.
+
+121
+00:07:43,460 --> 00:07:47,560
+And they want to know how many of the additional workers must
+
+122
+00:07:47,560 --> 00:07:49,830
+be women in order to raise the percent of women
+
+123
+00:07:49,830 --> 00:07:53,010
+population to 20%. So we're adding 50 total workers.
+
+124
+00:07:53,570 --> 00:07:57,030
+So how many of those have to be women in order for the new
+
+125
+00:07:57,030 --> 00:07:58,990
+proportion-- this is going to be the new number of women,
+
+126
+00:07:58,990 --> 00:08:01,060
+the number of women that are added to the 75 that were
+
+127
+00:08:01,060 --> 00:08:05,470
+already there-- divided by the 500 workers who were there,
+
+128
+00:08:05,470 --> 00:08:07,670
+plus the 50, some of whom might be women.
+
+129
+00:08:08,180 --> 00:08:11,130
+So this now has to equal 20%.
+
+130
+00:08:12,500 --> 00:08:20,270
+We get 75 plus w over 550 is equal to 0.2.
+
+131
+00:08:22,000 --> 00:08:27,480
+So we get 75 plus the number of women that need to be added
+
+132
+00:08:27,480 --> 00:08:35,340
+is equal to 0.2 times 550. We multiply both sides times 550.
+
+133
+00:08:35,340 --> 00:08:47,550
+That equals 110. And then subtract 75 from both sides.
+
+134
+00:08:47,550 --> 00:08:50,400
+Women has to be equal to 110 minus 75.
+
+135
+00:08:51,000 --> 00:08:55,090
+And that's equal to-- 25 plus 10-- that's equal to 35.
+
+136
+00:08:57,920 --> 00:09:00,550
+35 of the 50 employees have to be women.
+
+137
+00:09:00,550 --> 00:09:01,690
+And that's what they asked.
+
+138
+00:09:01,690 --> 00:09:03,960
+How many of the additional workers must be women?
+
+139
+00:09:03,960 --> 00:09:05,210
+So that's choice E.
+
+140
+00:09:08,020 --> 00:09:15,070
+Next question, 132.
+
+141
+00:09:15,070 --> 00:09:18,400
+At a small snack shop, the average arithmetic mean
+
+142
+00:09:18,400 --> 00:09:21,820
+revenue was $400 per day over a 10 day period.
+
+143
+00:09:21,820 --> 00:09:24,140
+So the average over 10 days was $400.
+
+144
+00:09:25,040 --> 00:09:28,710
+During this period, if the average daily revenue was $360
+
+145
+00:09:28,710 --> 00:09:34,000
+for the first 6 days-- so the average of 6 days was $360--
+
+146
+00:09:34,000 --> 00:09:37,030
+what was the average daily revenue for the last 4 days?
+
+147
+00:09:37,030 --> 00:09:39,000
+So we've done a lot of problems like this.
+
+148
+00:09:39,390 --> 00:09:40,730
+Hopefully this is a bit of second nature if you've
+
+149
+00:09:40,730 --> 00:09:42,000
+watched the solution to the other ones.
+
+150
+00:09:42,000 --> 00:09:44,050
+But what's the average of all of them?
+
+151
+00:09:44,790 --> 00:09:49,000
+It's the average of the first 6 days.
+
+152
+00:09:49,320 --> 00:09:52,110
+We can almost assume that the first 6 days had exactly $360
+
+153
+00:09:52,110 --> 00:09:55,740
+in revenue. So their average times 6.
+
+154
+00:09:55,740 --> 00:09:59,050
+So this would be the total revenue of the first 6 days
+
+155
+00:09:59,050 --> 00:10:02,760
+plus what's the total revenue of the next 4 days?
+
+156
+00:10:02,760 --> 00:10:07,010
+It's going to be the average of the next 4 days times 4.
+
+157
+00:10:07,460 --> 00:10:09,040
+That would be the total of those 4.
+
+158
+00:10:09,040 --> 00:10:11,240
+We're not saying that they all have to be exactly the average
+
+159
+00:10:11,240 --> 00:10:12,800
+but when you sum them all up they're equal to the
+
+160
+00:10:12,800 --> 00:10:17,170
+average times 4. Now if you divide all of those,
+
+161
+00:10:17,400 --> 00:10:20,000
+this is a total of the revenue all 10 days.
+
+162
+00:10:20,000 --> 00:10:22,430
+If you take that sum and divide it by 10,
+
+163
+00:10:22,430 --> 00:10:25,000
+you get the average for the 10 days.
+
+164
+00:10:25,000 --> 00:10:30,040
+And that is equal to $400. Let's simplify this a little bit.
+
+165
+00:10:30,040 --> 00:10:31,870
+Let's see what we could do.
+
+166
+00:10:34,790 --> 00:10:44,080
+So we get 360 times 6 plus the average for 4 days times 4 is
+
+167
+00:10:44,080 --> 00:10:47,780
+equal to 10 times 400, which is 4,000.
+
+168
+00:10:50,790 --> 00:10:53,230
+Before I get too involved in multiplication,
+
+169
+00:10:53,230 --> 00:10:55,500
+let's divide both sides of this equation by 4.
+
+170
+00:10:55,500 --> 00:10:57,920
+So 360 divided by 4, that's 90,
+
+171
+00:10:57,920 --> 00:11:04,030
+times 6 plus this divided by 4 plus A4 is equal to 1,000.
+
+172
+00:11:04,030 --> 00:11:10,070
+90 times 6 is 540 plus the average of the 4
+
+173
+00:11:10,070 --> 00:11:12,030
+days is equal to 1,000.
+
+174
+00:11:12,030 --> 00:11:17,050
+So the average of the 4 days is equal to 1,000 minus 540.
+
+175
+00:11:17,050 --> 00:11:24,410
+Which is what? That's $460 per day. And that's choice D.
+
+176
+00:11:26,410 --> 00:11:29,000
+And I'm out of time. See you in the next video.

@@ -1,0 +1,99 @@
+1
+00:00:01,646 --> 00:00:05,725
+We need a numerical procedure which is easy in one direction,
+
+2
+00:00:05,725 --> 00:00:07,791
+and hard in the other.
+
+3
+00:00:07,791 --> 00:00:12,689
+This brings us to modular arithmetic, also known as clock arithmetic.
+
+4
+00:00:12,689 --> 00:00:20,120
+For example, to find 46 mod 12, we can take a rope of length 46 units,
+
+5
+00:00:20,120 --> 00:00:24,510
+and wrap it around a clock 12 units which is called the modulist,
+
+6
+00:00:24,510 --> 00:00:28,325
+and where the rope ends is the solution.
+
+7
+00:00:28,325 --> 00:00:32,877
+So we say 46 mod 12 is congruent to 10.
+
+8
+00:00:32,877 --> 00:00:39,438
+Easy. Now to make this work, we use a prime modulist, such as 17.
+
+9
+00:00:39,438 --> 00:00:44,194
+Then we find a primitive root of 17, in this case, 3.
+
+10
+00:00:44,194 --> 00:00:48,509
+Which has this important property that when raised to different exponents,
+
+11
+00:00:48,509 --> 00:00:52,742
+the solution distributes uniformly around the clock.
+
+12
+00:00:52,742 --> 00:01:00,102
+3 is known as the generator. If we raise 3 to any exponent x,
+
+13
+00:01:00,102 --> 00:01:05,510
+then the solution is equally likely to be any integer between 0 and 17.
+
+14
+00:01:05,510 --> 00:01:08,858
+Now, the reverse procedure is hard.
+
+15
+00:01:08,858 --> 00:01:14,038
+Say, given 12, find the exponent 3 needs to be raised to.
+
+16
+00:01:14,038 --> 00:01:17,736
+This is called the Discrete Logarithm problem.
+
+17
+00:01:17,736 --> 00:01:20,424
+And now we have our one way function.
+
+18
+00:01:20,424 --> 00:01:23,690
+Easy to perform, but hard to reverse.
+
+19
+00:01:23,690 --> 00:01:30,223
+Given 12, we would have to resort to trial an error to find matching exponents.
+
+20
+00:01:30,223 --> 00:01:32,612
+How hard is this?
+
+21
+00:01:32,612 --> 00:01:39,073
+Well with small numbers it's easy, but if we use a prime modulist which is hundreds of digits long,
+
+22
+00:01:39,073 --> 00:01:42,086
+it becomes impractical to solve.
+
+23
+00:01:42,086 --> 00:01:47,315
+Even if you had access to all computational power on earth, it could take thousands of years
+
+24
+00:01:47,315 --> 00:01:49,751
+to run through all possibilities.
+
+25
+00:01:49,751 --> 00:01:53,751
+So the strength of a one way function is based on the time needed to reverse it.

@@ -1,0 +1,251 @@
+1
+99:59:59,999 --> 99:59:59,999
+so we've got the function f of x is equal
+
+2
+99:59:59,999 --> 99:59:59,999
+to x squared, and what I am concerned with is finding
+
+3
+99:59:59,999 --> 99:59:59,999
+the area under the curve y is equal to f of x
+
+4
+99:59:59,999 --> 99:59:59,999
+that's my y-axis, this is my
+
+5
+99:59:59,999 --> 99:59:59,999
+my x-axis, they'll let me draw my function
+
+6
+99:59:59,999 --> 99:59:59,999
+my function looks like this, at least in the
+
+7
+99:59:59,999 --> 99:59:59,999
+first quadrant, that's why I'll graph it for now, I could also graph it on the
+
+8
+99:59:59,999 --> 99:59:59,999
+in the second quadrant, but what I care about is the area
+
+9
+99:59:59,999 --> 99:59:59,999
+under this curve and above the positive x-axis
+
+10
+99:59:59,999 --> 99:59:59,999
+between x equals 1 and x
+
+11
+99:59:59,999 --> 99:59:59,999
+equals 4, and I'm tired of
+
+12
+99:59:59,999 --> 99:59:59,999
+approximating areas, I want to find the exact area under this curve
+
+13
+99:59:59,999 --> 99:59:59,999
+above the x-axis, and the way we didn't know
+
+14
+99:59:59,999 --> 99:59:59,999
+the exact area under the curve, this little brown shaded area
+
+15
+99:59:59,999 --> 99:59:59,999
+is using the definite integral, the definite integral from 1 to 4 of f(x) dx
+
+16
+99:59:59,999 --> 99:59:59,999
+and the way, i can conceptualise where this notification comes from
+
+17
+99:59:59,999 --> 99:59:59,999
+is we imagine a bunch of infinite number of infinitely thin rectangles
+
+18
+99:59:59,999 --> 99:59:59,999
+that we sumed up to find this area
+
+19
+99:59:59,999 --> 99:59:59,999
+let me draw one of these infinite thin rectangles, maybe its not so infinitely thin
+
+20
+99:59:59,999 --> 99:59:59,999
+so let me draw like this
+
+21
+99:59:59,999 --> 99:59:59,999
+so that would be one of the rectangles, there would be another rectangle
+
+22
+99:59:59,999 --> 99:59:59,999
+they should be run descent over Riemann sum, in facts thats where Riemann integer come from
+
+23
+99:59:59,999 --> 99:59:59,999
+they know Riemann sum where you have an infinite numbers of these rectangles
+
+24
+99:59:59,999 --> 99:59:59,999
+where the width of each of these rectangles, this is how I conceptualise it,
+
+25
+99:59:59,999 --> 99:59:59,999
+is the dx, and the height of this rectangles is function of valuated at x
+
+26
+99:59:59,999 --> 99:59:59,999
+that's within this interval right over here
+
+27
+99:59:59,999 --> 99:59:59,999
+and so this part right over here is the area of one of those rectangles
+
+28
+99:59:59,999 --> 99:59:59,999
+and we're summing them all up, this is kind of elongated S,
+
+29
+99:59:59,999 --> 99:59:59,999
+replacement over Sigma for summing, we're summing up
+
+30
+99:59:59,999 --> 99:59:59,999
+and the infinite number of those infinitely thin rectangles
+
+31
+99:59:59,999 --> 99:59:59,999
+or the area of those infinitely thin rectangles between 1 and 4
+
+32
+99:59:59,999 --> 99:59:59,999
+so that's what the notation of the definite integral comes from
+
+33
+99:59:59,999 --> 99:59:59,999
+we still have undone anything, we just written some notation that says
+
+34
+99:59:59,999 --> 99:59:59,999
+the exact area between 1 and 4 under the curve f(x) and above the x axes
+
+35
+99:59:59,999 --> 99:59:59,999
+and now we'll actually do really productive with this
+
+36
+99:59:59,999 --> 99:59:59,999
+we have to turn to the second fundamental theorem of calculus
+
+37
+99:59:59,999 --> 99:59:59,999
+sometimes called part two of fundamental theorem of calculus
+
+38
+99:59:59,999 --> 99:59:59,999
+which tell us that if f(x) has an entire derivative
+
+39
+99:59:59,999 --> 99:59:59,999
+so if we have an entire derivative of f
+
+40
+99:59:59,999 --> 99:59:59,999
+so f(x) is diretive of some function F(x) on other way we can say
+
+41
+99:59:59,999 --> 99:59:59,999
+F(x) is entire derivatived of f(x)
+
+42
+99:59:59,999 --> 99:59:59,999
+then I can evaluate this thing, we can do the whole video conceptually understanding why this make sence
+
+43
+99:59:59,999 --> 99:59:59,999
+we can evaluate this by evaluating the entire derivative of f
+
+44
+99:59:59,999 --> 99:59:59,999
+or any entire derivative of f, at four, and from that subtracts the entire derivative valuated at one
+
+45
+99:59:59,999 --> 99:59:59,999
+So let's do it for this particular case right over here
+
+46
+99:59:59,999 --> 99:59:59,999
+so we're taking, we rewrite this statement instead of x we have x squared
+
+47
+99:59:59,999 --> 99:59:59,999
+so the definite integral from 1 to 4 of x squared dx
+
+48
+99:59:59,999 --> 99:59:59,999
+well we just gonna figure out what the entire derivative is
+
+49
+99:59:59,999 --> 99:59:59,999
+so if f(x)=x^2, what is capital F(x) equal to?
+
+50
+99:59:59,999 --> 99:59:59,999
+What is the entire derivative?
+
+51
+99:59:59,999 --> 99:59:59,999
+Well you might remember from your power rule,
+
+52
+99:59:59,999 --> 99:59:59,999
+that if you take the derivative with respect x of x to the third
+
+53
+99:59:59,999 --> 99:59:59,999
+you're going to get three x squared, which is pretty dare close to x squared
+
+54
+99:59:59,999 --> 99:59:59,999
+except of this factor of 3 so let's divide both sides by three
+
+55
+99:59:59,999 --> 99:59:59,999
+let's divide both sides by three and
+
+56
+99:59:59,999 --> 99:59:59,999
+you get the derivative of x to the third divided by three is indeed x squared
+
+57
+99:59:59,999 --> 99:59:59,999
+or you could say that this is the same thing as the derivated with respect of x of x to third over three
+
+58
+99:59:59,999 --> 99:59:59,999
+take the derivate of this it'll be
+
+59
+99:59:59,999 --> 99:59:59,999
+3 times 1/3 and than you'll decrement your power just to be x squared
+
+60
+99:59:59,999 --> 99:59:59,999
+so this right of here once again is x squared, just equal to x squared
+
+61
+99:59:59,999 --> 99:59:59,999
+so in this case is the capital F(x), our entire derivative, is x to the third over three
+
+62
+99:59:59,999 --> 99:59:59,999
+and so we just start to evaluate that at 4 and at 1
+
+63
+99:59:59,999 --> 99:59:59,999
+and sometimes, the way, we would for notational use is entire derivative

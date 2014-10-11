@@ -1,0 +1,283 @@
+1
+00:00:00,333 --> 00:00:07,105
+simplify three A to the fifth over nine A squared times A to the fourth over A to the third
+
+2
+00:00:07,105 --> 00:00:11,540
+so before we even worry about the A's we can actually simplify the three and the nine
+
+3
+00:00:11,540 --> 00:00:12,980
+they're both divisible by three
+
+4
+00:00:12,980 --> 00:00:17,926
+so let's divide the numerator and the denominator here by three
+
+5
+00:00:17,926 --> 00:00:21,084
+so if we divide the numerator by three, the three becomes a one
+
+6
+00:00:21,084 --> 00:00:26,122
+if we divide the denominator by three, the nine becomes a three
+
+7
+00:00:26,122 --> 00:00:30,400
+so this reduces to, or simplifies to, one A to the fifth times A to the fourth
+
+8
+00:00:30,400 --> 00:00:32,996
+or maybe i should say A to the fifth over three A squared
+
+9
+00:00:32,996 --> 00:00:36,897
+times A to the fourth over A to the third
+
+10
+00:00:36,897 --> 00:00:41,657
+now this, if we just multiply the two expressions this would be equal to
+
+11
+00:00:41,657 --> 00:00:45,023
+one A to the fifth times A to the fourth in the numerator
+
+12
+00:00:45,023 --> 00:00:47,369
+and we don't have to worry about the one, it doesn't change the values
+
+13
+00:00:47,369 --> 00:00:51,757
+so it's A to the fifth times A to the fourth in the numerator
+
+14
+00:00:51,757 --> 00:01:03,065
+and then we have three times A squared times A to the third in the denominator
+
+15
+00:01:03,065 --> 00:01:07,849
+now there's multiple ways that we can simplify this from here
+
+16
+00:01:07,849 --> 00:01:13,398
+one, sometimes its called the quotient rule, and its just the idea that if you have
+
+17
+00:01:13,398 --> 00:01:22,106
+A to the 'x' over A to the 'y', that this is going to be equal to A to the 'x' minus 'y'
+
+18
+00:01:22,106 --> 00:01:28,027
+and just to understand why that works lets think about A to the fifth over A squared
+
+19
+00:01:28,027 --> 00:01:37,800
+so A to the fifth is literally A times A times A times A times A
+
+20
+00:01:37,800 --> 00:01:39,405
+that right there is A to the fifth
+
+21
+00:01:39,405 --> 00:01:45,511
+and we have that over A squared, and i'm just thinking about the A squared right over here
+
+22
+00:01:45,511 --> 00:01:49,180
+so we have that over A squared, which is literally just A times A
+
+23
+00:01:49,180 --> 00:01:51,711
+that is A squared
+
+24
+00:01:51,711 --> 00:01:57,656
+now we can clearly, both the numerator and the denominator, are both divisible by A times A
+
+25
+00:01:57,656 --> 00:01:59,908
+we can divide them both by A times A
+
+26
+00:01:59,908 --> 00:02:06,467
+if we divide the numerator by A twice, so by A times A, so lets get rid of an A times A
+
+27
+00:02:06,467 --> 00:02:10,450
+and if we divide the denominator by A times A, we just get a one
+
+28
+00:02:10,450 --> 00:02:11,704
+so what are we just left with
+
+29
+00:02:11,704 --> 00:02:19,436
+we are left with just A times A times A over 1, which is just A times A times A
+
+30
+00:02:19,436 --> 00:02:22,338
+but what is this?
+
+31
+00:02:22,338 --> 00:02:29,667
+this is A to the third power, or A to the five minus two power
+
+32
+00:02:29,667 --> 00:02:33,252
+we had five, we were able to cancel out two, that gave us three
+
+33
+00:02:33,252 --> 00:02:36,619
+so we can do the same thing over here, we can apply the quotient rule
+
+34
+00:02:36,619 --> 00:02:41,657
+and i'll do this in two ways, so lets apply the quotient rule with the A to the fifth and the A squared
+
+35
+00:02:41,657 --> 00:02:44,049
+and also, let me do it this way
+
+36
+00:02:44,049 --> 00:02:51,133
+so lets apply with these two guys and then lets apply it with these two guys
+
+37
+00:02:51,133 --> 00:02:55,775
+and of course we have the one third out front
+
+38
+00:02:55,775 --> 00:03:03,763
+so this can be reduced to one third times, if we apply the quotient rule with A to the fifth over A squared
+
+39
+00:03:03,763 --> 00:03:05,249
+we just did it over here
+
+40
+00:03:05,249 --> 00:03:07,292
+that becomes A to the third power
+
+41
+00:03:07,292 --> 00:03:12,267
+and if we apply it over here with the A to the fourth over A to the third
+
+42
+00:03:12,267 --> 00:03:25,520
+that'll give us A to the four minus three power
+
+43
+00:03:25,520 --> 00:03:28,213
+or A to the first power
+
+44
+00:03:28,213 --> 00:03:33,902
+and of course we can simplify this as A to the third times A
+
+45
+00:03:33,902 --> 00:03:35,690
+well actually let me just do it over here
+
+46
+00:03:35,690 --> 00:03:40,000
+before I even rewrite it we know that A to the third times A to the first
+
+47
+00:03:40,000 --> 00:03:42,888
+is going to be A to the three plus one power
+
+48
+00:03:42,888 --> 00:03:45,117
+we have the same base so we can add the exponents
+
+49
+00:03:45,117 --> 00:03:48,333
+we're multiplying A times itself three times and then one more time
+
+50
+00:03:48,333 --> 00:03:49,970
+so that'll be A to the fourth power
+
+51
+00:03:49,970 --> 00:03:55,600
+so this right over here becomes A to the fourth power, A to the three plus one power
+
+52
+00:03:55,600 --> 00:03:58,133
+and then we have to multiply that by one third
+
+53
+00:03:58,133 --> 00:04:01,186
+so our answer could be one third A to the fourth
+
+54
+00:04:01,186 --> 00:04:06,433
+or we could equally write it A to the fourth over three
+
+55
+00:04:06,433 --> 00:04:12,563
+now the other way to do this problem would've been to apply the product
+
+56
+00:04:12,563 --> 00:04:15,791
+or to add the exponents in the numerator and then add the exponents in the denominator
+
+57
+00:04:15,791 --> 00:04:16,778
+so lets do it that way first
+
+58
+00:04:16,778 --> 00:04:17,765
+so if we add the exponents in the numerator first
+
+59
+00:04:17,765 --> 00:04:19,867
+we don't apply the quotient rule first, we apply it second
+
+60
+00:04:19,867 --> 00:04:23,779
+we get in the numerator A to the fifth times A to the fourth
+
+61
+00:04:23,779 --> 00:04:27,796
+would be A to the ninth power, five plus four
+
+62
+00:04:27,796 --> 00:04:33,392
+and then in the denominator we have A squared times A to the third
+
+63
+00:04:33,392 --> 00:04:36,294
+add the exponents because we were taking the product with the same base
+
+64
+00:04:36,294 --> 00:04:38,500
+so it'll be A to the fifth power
+
+65
+00:04:38,500 --> 00:04:43,028
+and we still have the three down here, we have a one third, or we could just write a three over here
+
+66
+00:04:43,028 --> 00:04:47,765
+now we could apply the quotient property of exponents
+
+67
+00:04:47,765 --> 00:04:51,933
+we could say look we have A to the ninth over A to the fifth
+
+68
+00:04:51,933 --> 00:04:57,587
+A to the ninth over A to the fifth is equal to A to the nine minus five power
+
+69
+00:04:57,587 --> 00:05:00,791
+or it's equal to A to the fourth power
+
+70
+00:05:00,791 --> 00:05:04,042
+and of course we still have the divided by three
+
+71
+00:05:04,042 --> 00:05:10,567
+either way we got the same answer

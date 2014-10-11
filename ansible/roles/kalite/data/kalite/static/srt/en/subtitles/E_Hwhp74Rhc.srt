@@ -1,0 +1,175 @@
+1
+99:59:59,999 --> 99:59:59,999
+What we will attempt to start to do in this video is to take the surface integral
+
+2
+99:59:59,999 --> 99:59:59,999
+of the function x squared over our surface where the surface
+
+3
+99:59:59,999 --> 99:59:59,999
+in question--the surface we're going to care about is going
+
+4
+99:59:59,999 --> 99:59:59,999
+to be the unit sphere, so it could be defined by x squared
+
+5
+99:59:59,999 --> 99:59:59,999
+plus y squared plus z squared is equal to 1
+
+6
+99:59:59,999 --> 99:59:59,999
+what we're going to focus on in this first video, because it will take us several videos to do it
+
+7
+99:59:59,999 --> 99:59:59,999
+is just the parameterization of this surface area right here
+
+8
+99:59:59,999 --> 99:59:59,999
+as you'll see this is often the hardest part
+
+9
+99:59:59,999 --> 99:59:59,999
+because it takes a little bit of visualization
+
+10
+99:59:59,999 --> 99:59:59,999
+and then after that it's just kind of mechanical,
+
+11
+99:59:59,999 --> 99:59:59,999
+but it can be kind of hairy at the same time so it's worth going through
+
+12
+99:59:59,999 --> 99:59:59,999
+So first let's just think about how we can parameterize
+
+13
+99:59:59,999 --> 99:59:59,999
+and I have trouble even saying the word,
+
+14
+99:59:59,999 --> 99:59:59,999
+how we can parameterize this unit sphere as a function of
+
+15
+99:59:59,999 --> 99:59:59,999
+two parameters
+
+16
+99:59:59,999 --> 99:59:59,999
+so let's think about it, let's think about it a little bit
+
+17
+99:59:59,999 --> 99:59:59,999
+so first let's just think about, let's just think about
+
+18
+99:59:59,999 --> 99:59:59,999
+the unit sphere
+
+19
+99:59:59,999 --> 99:59:59,999
+i'm gonna take a side view of the unit sphere,
+
+20
+99:59:59,999 --> 99:59:59,999
+so let's take the unit sphere, so this right over here is
+
+21
+99:59:59,999 --> 99:59:59,999
+our z axis
+
+22
+99:59:59,999 --> 99:59:59,999
+That's our z axis, and then over here I'm gonna draw
+
+23
+99:59:59,999 --> 99:59:59,999
+This is going to be not just the x or the y axis,
+
+24
+99:59:59,999 --> 99:59:59,999
+this is going to be our entire xy plane viewed from the side
+
+25
+99:59:59,999 --> 99:59:59,999
+That is the xy plane.
+
+26
+99:59:59,999 --> 99:59:59,999
+Now, our sphere, our sphere, our unit sphere might look
+
+27
+99:59:59,999 --> 99:59:59,999
+something like this
+
+28
+99:59:59,999 --> 99:59:59,999
+The unit sphere itself is not too hard to visualize
+
+29
+99:59:59,999 --> 99:59:59,999
+It might look something like that
+
+30
+99:59:59,999 --> 99:59:59,999
+The radius at any point is 1
+
+31
+99:59:59,999 --> 99:59:59,999
+That length right over there is 1,
+
+32
+99:59:59,999 --> 99:59:59,999
+and this is a sphere, not just a circle
+
+33
+99:59:59,999 --> 99:59:59,999
+So I could even shade it in a little bit just to make it
+
+34
+99:59:59,999 --> 99:59:59,999
+clear that this thing has some dimensionality to it
+
+35
+99:59:59,999 --> 99:59:59,999
+so that's shading it in it just makes it kind of look a
+
+36
+99:59:59,999 --> 99:59:59,999
+little more spherical.
+
+37
+99:59:59,999 --> 99:59:59,999
+Now let's just attempt to parameterize it, and the first
+
+38
+99:59:59,999 --> 99:59:59,999
+step, let's just think, if we didn't have to think above and
+
+39
+99:59:59,999 --> 99:59:59,999
+below the xy plane, if we just thought about where this
+
+40
+99:59:59,999 --> 99:59:59,999
+unit sphere intersected the xy plane, how we could
+
+41
+99:59:59,999 --> 99:59:59,999
+parameterize that.
+
+42
+99:59:59,999 --> 99:59:59,999
+So let's just think about where it intersects the xy plane
+
+43
+99:59:59,999 --> 99:59:59,999
+it intersects it there, and there, and actually everywhere
+
+44
+99:59:59,999 --> 99:59:59,999
+it instersects it everywhere.

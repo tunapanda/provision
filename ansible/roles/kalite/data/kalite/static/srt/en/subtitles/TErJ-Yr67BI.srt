@@ -1,0 +1,563 @@
+1
+00:00:00,720 --> 00:00:02,550
+So, we have a parallelogram right over here
+
+2
+00:00:02,560 --> 00:00:06,660
+So, what we wanna prove is that it's diagonals bisect each other
+
+3
+00:00:06,670 --> 00:00:10,040
+So, the first thing we can think about; these aren't just diagonals,
+
+4
+00:00:10,050 --> 00:00:12,460
+these are lines that are intersecting parallel lines
+
+5
+00:00:12,470 --> 00:00:14,560
+So, you can also view them as transversals
+
+6
+00:00:14,570 --> 00:00:19,540
+And if we focus on DB right over here, we see that it intersects DC
+
+7
+00:00:19,550 --> 00:00:21,890
+and AB and it sits there
+
+8
+00:00:21,900 --> 00:00:23,640
+Those we know are parallelograms
+
+9
+00:00:23,650 --> 00:00:24,960
+We know that they are parallel
+
+10
+00:00:24,970 --> 00:00:25,990
+This is a parallelogram
+
+11
+00:00:26,000 --> 00:00:28,640
+Alternate interior angles must be congruent
+
+12
+00:00:28,650 --> 00:00:31,360
+So, that angle must be equal to that angle there
+
+13
+00:00:31,370 --> 00:00:32,670
+Let me make a label here
+
+14
+00:00:32,680 --> 00:00:34,030
+Let me call that middle point E
+
+15
+00:00:34,040 --> 00:00:42,630
+So, we know that angle ABE must be congruent to angle CDE
+
+16
+00:00:42,640 --> 00:00:50,130
+by alternate interior angles of
+
+17
+00:00:50,140 --> 00:00:52,130
+a transversal intersecting parallel line
+
+18
+00:00:52,140 --> 00:00:56,680
+Alternate interior angles
+
+19
+00:00:56,690 --> 00:01:00,840
+If we look at diagonal AC or we should call it transversal AC
+
+20
+00:01:00,850 --> 00:01:02,520
+we can make the same argument
+
+21
+00:01:02,730 --> 00:01:04,470
+It intersects here and here
+
+22
+00:01:04,480 --> 00:01:06,220
+These two lines are parallel
+
+23
+00:01:06,230 --> 00:01:09,360
+So, alternate interior angles must congruent
+
+24
+00:01:09,370 --> 00:01:12,740
+So, angle DEC must be --- let me write this down ---
+
+25
+00:01:12,750 --> 00:01:19,050
+angle DEC must be congruent to angle BAE
+
+26
+00:01:24,780 --> 00:01:27,150
+by for the exact same reason
+
+27
+00:01:27,160 --> 00:01:28,680
+Now we have something interesting
+
+28
+00:01:28,690 --> 00:01:31,580
+If we look this top triangle over here and this bottom triangle,
+
+29
+00:01:31,590 --> 00:01:34,820
+we have one set of corresponding angles that are congruent
+
+30
+00:01:34,830 --> 00:01:39,610
+We have a side in between that's going to be congruent
+
+31
+00:01:39,620 --> 00:01:41,220
+Actually, let me write that down explicitly
+
+32
+00:01:41,230 --> 00:01:46,380
+We know and we've proved this to ourselves in the previous video
+
+33
+00:01:46,670 --> 00:01:50,380
+that parallelograms not only are opposite sides are parallel they're
+
+34
+00:01:50,390 --> 00:01:51,540
+also congruent
+
+35
+00:01:51,550 --> 00:01:54,310
+So, we know from the previous video that that side is equal
+
+36
+00:01:54,320 --> 00:01:55,230
+to that side
+
+37
+00:01:55,240 --> 00:01:56,840
+So, let me go back to what I was saying
+
+38
+00:01:56,850 --> 00:01:59,760
+We have two sets of corresponding angles that are congruent
+
+39
+00:01:59,770 --> 00:02:02,710
+We have a side in between that's congruent
+
+40
+00:02:02,720 --> 00:02:04,740
+And then we have another set of corresponding angles
+
+41
+00:02:04,750 --> 00:02:05,770
+that are congruent
+
+42
+00:02:05,780 --> 00:02:08,150
+So, we know that this triangle is congruent to that triangle
+
+43
+00:02:08,160 --> 00:02:10,320
+by angle-side-angle
+
+44
+00:02:11,810 --> 00:02:15,960
+So, we know that triangle --- I'm gonna go from the blue
+
+45
+00:02:15,970 --> 00:02:17,460
+to the orange to the last one
+
+46
+00:02:17,470 --> 00:02:23,120
+Triangle ABE is congruent to triangle blue, orange
+
+47
+00:02:23,130 --> 00:02:29,970
+and the last one, CDE by angle-side-angle congruency
+
+48
+00:02:33,720 --> 00:02:35,940
+Now what is that do for us
+
+49
+00:02:35,950 --> 00:02:38,860
+What we know if two triangles are congruent, all of their
+
+50
+00:02:38,870 --> 00:02:41,370
+corresponding features especially all of the corresponding
+
+51
+00:02:41,380 --> 00:02:42,620
+sides are congruent
+
+52
+00:02:42,630 --> 00:02:47,740
+So, we know that side EC corresponds to EA
+
+53
+00:02:47,750 --> 00:02:51,920
+Or I could say side AE, we could say side AE,
+
+54
+00:02:55,240 --> 00:02:59,470
+corresponds to side CE
+
+55
+00:03:00,990 --> 00:03:02,830
+They're corresponding sides of congruent triangle
+
+56
+00:03:02,840 --> 00:03:05,360
+So, their measures or their lengths must be the same
+
+57
+00:03:05,370 --> 00:03:08,850
+So, AE must be equal to CE
+
+58
+00:03:08,860 --> 00:03:12,320
+Let me put two slashes since I already used one slash over here
+
+59
+00:03:18,210 --> 00:03:24,320
+let me focus on this -- we know that BE must be equal to DE
+
+60
+00:03:25,950 --> 00:03:29,450
+Once again they're corresponding sides of two congruent triangles
+
+61
+00:03:29,460 --> 00:03:30,870
+so they must have the same length
+
+62
+00:03:30,880 --> 00:03:38,320
+So, this is corresponding sides of congruent triangles
+
+63
+00:03:38,330 --> 00:03:43,000
+So, BE is equal to DE
+
+64
+00:03:43,010 --> 00:03:44,080
+And we've done our proof
+
+65
+00:03:44,090 --> 00:03:48,780
+We've showed that, look, diagonal DB is splitting AC into two
+
+66
+00:03:48,790 --> 00:03:51,230
+segments of equal length and vice versa
+
+67
+00:03:51,240 --> 00:03:55,780
+AC is splitting DB into two segments of equal lengths
+
+68
+00:03:55,790 --> 00:03:58,070
+So, they are bisecting each other
+
+69
+00:03:58,080 --> 00:03:59,640
+Now, let's go the other way around
+
+70
+00:03:59,650 --> 00:04:03,920
+Let's prove to ourselves that if we have two diagonals
+
+71
+00:04:03,930 --> 00:04:06,980
+of a quadrilateral that are bisecting each other that we're
+
+72
+00:04:06,990 --> 00:04:08,810
+dealing with a parallelogram
+
+73
+00:04:08,820 --> 00:04:10,020
+So, let me see
+
+74
+00:04:10,030 --> 00:04:12,010
+So, we're gonna assume that the two diagonals
+
+75
+00:04:12,020 --> 00:04:13,150
+are bisecting each other
+
+76
+00:04:13,160 --> 00:04:14,980
+So, we're assuming that that is equal to that
+
+77
+00:04:14,990 --> 00:04:17,360
+And that that, right over there, is equal to that
+
+78
+00:04:17,370 --> 00:04:22,290
+Given that we wanna prove that this is a parallelogram
+
+79
+00:04:22,300 --> 00:04:25,160
+And to do that we just have to remind ourselves
+
+80
+00:04:25,440 --> 00:04:30,000
+We just have to remind ourselves that this angle is going
+
+81
+00:04:30,010 --> 00:04:31,040
+to be equal to that angle
+
+82
+00:04:31,050 --> 00:04:33,730
+One of the first things we learn because they're vertical angles
+
+83
+00:04:33,740 --> 00:04:34,640
+So, let me write this down
+
+84
+00:04:34,650 --> 00:04:43,580
+C -- label this point -- angle CED is going to be equal to
+
+85
+00:04:43,590 --> 00:04:52,390
+or is congruent to angle, so I started is BEA, angle BEA
+
+86
+00:04:52,400 --> 00:04:55,200
+And that, what is that, well that shows us that these
+
+87
+00:04:55,210 --> 00:04:57,810
+two triangles are congruent 'cause we have a corresponding sides
+
+88
+00:04:57,820 --> 00:05:00,310
+of a congruent and angle in between and on the other side
+
+89
+00:05:00,320 --> 00:05:03,810
+So, we now know that the triangle, I'll keep this in yellow,
+
+90
+00:05:03,820 --> 00:05:20,300
+triangle AEB is congruent to triangle DEC by side-angle-side
+
+91
+00:05:20,310 --> 00:05:28,170
+congruency, by SAS congruent triangles
+
+92
+00:05:28,180 --> 00:05:29,160
+Fair enough
+
+93
+00:05:29,170 --> 00:05:31,760
+Now, if we know that two triangles congruent we know that all
+
+94
+00:05:31,770 --> 00:05:34,220
+corresponding sides and angles are congruent
+
+95
+00:05:34,230 --> 00:05:44,580
+So, for example, we know that angle CDE is going to be congruent
+
+96
+00:05:44,590 --> 00:05:48,360
+to angle BAE
+
+97
+00:05:55,650 --> 00:06:05,790
+And this is just corresponding angles of congruent triangles
+
+98
+00:06:05,800 --> 00:06:12,430
+And now we have this kind of transversal of these two lines that
+
+99
+00:06:12,440 --> 00:06:16,570
+could be parallel if the alternate interior angles are congruent
+
+100
+00:06:16,580 --> 00:06:17,990
+And we see that they are
+
+101
+00:06:18,000 --> 00:06:22,470
+These two are kind of candidate alternate interior angles and
+
+102
+00:06:22,480 --> 00:06:23,910
+they are congruent
+
+103
+00:06:23,920 --> 00:06:26,870
+So, AB must be parallel to CD
+
+104
+00:06:26,880 --> 00:06:31,780
+So, AB, let's just draw one arrow, AB must be parallel to CD
+
+105
+00:06:34,950 --> 00:06:42,620
+by alternate interior angles congruent of parallel lines
+
+106
+00:06:42,800 --> 00:06:46,110
+I'm just writing in some short hand, forgive the cryptic nature
+
+107
+00:06:46,120 --> 00:06:47,670
+of it although I'm saying it out
+
+108
+00:06:47,680 --> 00:06:50,300
+And so we can then do the exact same -- while we just shown
+
+109
+00:06:50,310 --> 00:06:53,230
+that these two sides are parallel -- we can do that exact same
+
+110
+00:06:53,240 --> 00:06:55,640
+logic to show that these two sides are parallel
+
+111
+00:06:55,650 --> 00:06:57,090
+I won't necessarily write it all out
+
+112
+00:06:57,100 --> 00:06:59,970
+It's exact same proof to show that these two
+
+113
+00:06:59,980 --> 00:07:03,680
+So, first of all, we know that this angle is congruent to that angle
+
+114
+00:07:03,690 --> 00:07:04,630
+right over there
+
+115
+00:07:04,640 --> 00:07:06,930
+And then we know, actually let me write it out, we know
+
+116
+00:07:06,940 --> 00:07:18,670
+that angle AEC is congruent to angle DEB, I should say
+
+117
+00:07:22,650 --> 00:07:24,360
+They are vertical angles
+
+118
+00:07:26,980 --> 00:07:29,060
+And that is the reason up here as well
+
+119
+00:07:29,070 --> 00:07:31,920
+Vertical angles
+
+120
+00:07:31,930 --> 00:07:35,260
+And then we see that triangle AEC must be congruent
+
+121
+00:07:35,270 --> 00:07:38,270
+to triangle DEB by side-angle-side
+
+122
+00:07:38,600 --> 00:07:45,010
+So, then we have triangle AEC must be congruent to triangle
+
+123
+00:07:45,020 --> 00:07:50,890
+DEB by SAScongruency
+
+124
+00:07:50,900 --> 00:07:53,730
+Now, we know that corresponding angles must be congruent
+
+125
+00:07:53,740 --> 00:07:58,680
+So, that we know that angle, so, for example angle CAE
+
+126
+00:08:01,760 --> 00:08:10,970
+must be congruent to angle BDE and this is the corresponding
+
+127
+00:08:10,980 --> 00:08:13,510
+angles of congruent triangles
+
+128
+00:08:13,520 --> 00:08:17,950
+So, CAE, let me use a new color
+
+129
+00:08:18,130 --> 00:08:25,940
+CAE must be congruent to BDE
+
+130
+00:08:28,050 --> 00:08:30,100
+And now we have a transversal
+
+131
+00:08:30,110 --> 00:08:32,100
+The alternate interior angles are congruent
+
+132
+00:08:32,110 --> 00:08:34,690
+So, the two lines that the transversals are intersecting
+
+133
+00:08:34,700 --> 00:08:36,130
+must be parallel
+
+134
+00:08:36,140 --> 00:08:39,230
+So, this must be parallel to that
+
+135
+00:08:39,240 --> 00:08:44,440
+So, then we have AC must be parallel to BD
+
+136
+00:08:45,490 --> 00:08:47,970
+by alternate interior angles
+
+137
+00:08:50,560 --> 00:08:51,360
+And we're done
+
+138
+00:08:51,370 --> 00:08:53,970
+We've just proven that if the diagonals bisect each other,
+
+139
+00:08:53,980 --> 00:08:57,910
+if we start that as a given then we end at a point where we say,
+
+140
+00:08:57,920 --> 00:09:00,860
+"Hey, the opposite sides of this quadrilateral must be parallel
+
+141
+00:09:00,870 --> 00:09:04,690
+or that ABCD is a parallelogram "

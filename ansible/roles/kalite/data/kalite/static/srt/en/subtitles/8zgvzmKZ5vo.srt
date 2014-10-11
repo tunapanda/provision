@@ -1,0 +1,1007 @@
+1
+00:00:00,309 --> 00:00:04,967
+What I would like to do is describe an imaginary or fictitious bitcoin transaction
+
+2
+00:00:04,967 --> 00:00:09,199
+and then talk about how somebody might try to game or defraud this system
+
+3
+00:00:09,199 --> 00:00:11,998
+and why it's mathematically hard to do
+
+4
+00:00:11,998 --> 00:00:16,861
+but why there is actually an economic incentive in the Bitcoin system
+
+5
+00:00:16,861 --> 00:00:20,651
+for different people to behave honestly.
+
+6
+00:00:20,651 --> 00:00:23,455
+Let's suppose that there is someone out there named Dan.
+
+7
+00:00:23,455 --> 00:00:28,447
+Dan wants to order a cheese pizza from Pete's Pizza Shop.
+
+8
+00:00:28,447 --> 00:00:31,507
+Let's say that Pete's Pizza Shop accepts bitcoins as payment
+
+9
+00:00:31,507 --> 00:00:37,135
+and that it costs 1 BTC for a pizza pie.
+
+10
+00:00:37,135 --> 00:00:42,782
+Imagine that Dan previously received 5 BTC from his cousin Carol.
+
+11
+00:00:42,782 --> 00:00:49,560
+So, Carol, laballed by "C", gave to Dan 5 BTC,
+
+12
+00:00:49,560 --> 00:00:53,586
+which we can label as a "B" with a circle around it.
+
+13
+00:00:54,140 --> 00:00:58,968
+He wants to use one of these 5 bitcoins to buy a pizza from Pete.
+
+14
+00:00:58,968 --> 00:01:02,772
+What Dan's bitcoin client will do is it will create a transaction record
+
+15
+00:01:02,772 --> 00:01:05,743
+that includes information about how Dan got these bitcoins.
+
+16
+00:01:05,743 --> 00:01:10,084
+So, in this case it includes information about this transaction between Carol,
+
+17
+00:01:10,084 --> 00:01:13,672
+who we've marked by "C" and Dan for 5 bitcoins.
+
+18
+00:01:13,672 --> 00:01:18,110
+Then it specifies that Dan wants to give one of these bitcoins to Pete...
+
+19
+00:01:18,110 --> 00:01:20,182
+We will label Pere by "P".
+
+20
+00:01:20,182 --> 00:01:23,705
+...and also that Dan is going to take the remaining 4 bitcoins
+
+21
+00:01:23,705 --> 00:01:27,033
+and that will be basically change to himself.
+
+22
+00:01:27,033 --> 00:01:31,542
+The way that bitcoin is built is that you have to actually specify the change.
+
+23
+00:01:31,542 --> 00:01:36,036
+Whatever goes into the bitcoin system has to come out at the other end.
+
+24
+00:01:36,036 --> 00:01:39,134
+So, you can't have a transaction with the numbers on and up.
+
+25
+00:01:39,134 --> 00:01:41,887
+Whatever is remaining is either change
+
+26
+00:01:41,887 --> 00:01:45,169
+or part of it can be used a a transaction fee and so on.
+
+27
+00:01:45,169 --> 00:01:47,225
+For this example, to keep things simple,
+
+28
+00:01:47,225 --> 00:01:49,715
+I'll assume that there is no transaction fee in place.
+
+29
+00:01:49,715 --> 00:01:51,509
+The transaction fee is just zero.
+
+30
+00:01:51,509 --> 00:01:53,625
+We'll focus only on the situation
+
+31
+00:01:53,625 --> 00:01:58,453
+in which everything is being accounted for in the transaction.
+
+32
+00:01:58,453 --> 00:02:01,166
+This transaction record is going to be boradcast out
+
+33
+00:02:01,166 --> 00:02:03,013
+to the entire Bitcoin world.
+
+34
+00:02:03,013 --> 00:02:07,571
+In particular, Pete is going to receive a copy of this transaction.
+
+35
+00:02:07,571 --> 00:02:10,411
+But in addition to Pete receiving it,
+
+36
+00:02:10,411 --> 00:02:14,605
+so too will the other people on the Bitcoin system.
+
+37
+00:02:14,605 --> 00:02:19,693
+If you recall, there are these special nodes, these special entities or people in Bitcoin
+
+38
+00:02:19,693 --> 00:02:21,233
+that are known as bitcoin miners.
+
+39
+00:02:21,233 --> 00:02:24,335
+These bitcoin miners are going to be responsible
+
+40
+00:02:24,335 --> 00:02:29,872
+for making sure that everything checks out in the transaction from a global perspective.
+
+41
+00:02:29,872 --> 00:02:32,928
+What they do is they look at the full record of transaction
+
+42
+00:02:32,928 --> 00:02:34,840
+and this transaction record is public,
+
+43
+00:02:34,840 --> 00:02:36,826
+it's known as the transaction block chain...
+
+44
+00:02:36,826 --> 00:02:41,612
+I'll put the description of the transaction block chain right here.
+
+45
+00:02:41,612 --> 00:02:43,840
+...and this transaction block chain contains the history
+
+46
+00:02:43,840 --> 00:02:48,374
+of every single transaction that ever occured within the Bitcoin system
+
+47
+00:02:48,374 --> 00:02:49,800
+from the beginning of time,
+
+48
+00:02:49,800 --> 00:02:54,803
+the time of the first block, which is known in Bitcoin as the genesis block.
+
+49
+00:02:54,803 --> 00:03:00,169
+Everybody can verify the details of any transaction if they wanted
+
+50
+00:03:00,169 --> 00:03:02,077
+because that information is public.
+
+51
+00:03:02,077 --> 00:03:04,786
+In particular, what these bitcoin miners will look at
+
+52
+00:03:04,786 --> 00:03:10,541
+is whether or not Dan previously received 5 bitcoins from anybody else,...
+
+53
+00:03:10,541 --> 00:03:13,069
+In this particular case it was his cousin Carol.
+
+54
+00:03:13,069 --> 00:03:16,538
+...whether or not Dan has tried to spend those bitcoins previously,
+
+55
+00:03:16,538 --> 00:03:18,678
+and so on and so forth.
+
+56
+00:03:18,678 --> 00:03:24,270
+These bitcoin miners are all collectively trying to take all these recent transactions
+
+57
+00:03:24,270 --> 00:03:26,449
+that haven't yet been recorded.
+
+58
+00:03:26,449 --> 00:03:29,717
+That includes not only the transactions between Dan and Pete,
+
+59
+00:03:29,717 --> 00:03:31,441
+but there may be other transactions floating out there
+
+60
+00:03:31,441 --> 00:03:33,279
+that took place around the same time.
+
+61
+00:03:33,279 --> 00:03:36,927
+The bitcoin miners will look at all these different transactions at once
+
+62
+00:03:36,927 --> 00:03:44,594
+and they are going to try to figure out how to form a transaction block out of these transactions
+
+63
+00:03:44,594 --> 00:03:46,764
+and they'll wanna add this transaction block
+
+64
+00:03:46,764 --> 00:03:50,176
+to the end of the current transaction block chain.
+
+65
+00:03:50,176 --> 00:03:52,582
+If you might recall from previous videos,
+
+66
+00:03:52,582 --> 00:03:57,993
+that for a bitcoimn miner to add a transaction block to a transaction block chain
+
+67
+00:03:57,993 --> 00:04:01,082
+they have to solve, what's known as the proof of work puzzle.
+
+68
+00:04:01,082 --> 00:04:04,855
+The Bitcoin system is designed, or maybe calibrated is the better word,
+
+69
+00:04:04,855 --> 00:04:10,127
+so that, on average, one miner will solve a puzzle in about ten minutes.
+
+70
+00:04:10,127 --> 00:04:13,903
+It's worth stressing here that it could take a long time
+
+71
+00:04:13,903 --> 00:04:16,978
+for any one individual miner to solve the puzzle...
+
+72
+00:04:16,978 --> 00:04:19,438
+It could even take maybe a year or even two years.
+
+73
+00:04:19,438 --> 00:04:25,034
+...but because there are so many of these miners working at the same time,
+
+74
+00:04:25,034 --> 00:04:28,916
+one of them is bound to get lucky and solve the puzzle quickly.
+
+75
+00:04:30,147 --> 00:04:35,193
+Each of these proof of work puzzles
+
+76
+00:04:35,193 --> 00:04:38,980
+that is associated with a transaction block
+
+77
+00:04:38,980 --> 00:04:42,336
+happens to have a difficulty score associated with it.
+
+78
+00:04:42,336 --> 00:04:48,636
+This difficulty basically represents how hard it was to solve that proof of work puzzle.
+
+79
+00:04:48,636 --> 00:04:50,832
+Imagine that there are some numbers
+
+80
+00:04:50,832 --> 00:04:55,105
+and we will call these numbers
+
+81
+00:04:55,105 --> 00:04:59,112
+for the most recent difficulty score.
+
+82
+00:04:59,112 --> 00:05:01,713
+These are just numbers that somehow represent
+
+83
+00:05:01,713 --> 00:05:04,847
+how hard it was to solve this proof of work.
+
+84
+00:05:04,847 --> 00:05:07,615
+When you at overall chain,
+
+85
+00:05:07,615 --> 00:05:09,407
+what the Bitcoin system is interested in,
+
+86
+00:05:09,407 --> 00:05:14,133
+it is interested in how hard was it to construct that entire chain.
+
+87
+00:05:14,133 --> 00:05:18,469
+The reason it's important for someone to understand how hard the entire chain was constructed
+
+88
+00:05:18,469 --> 00:05:21,501
+is because this overall score for this chain,
+
+89
+00:05:21,501 --> 00:05:24,171
+this difficulty score for the chain
+
+90
+00:05:24,171 --> 00:05:28,364
+is what's used by Pete or by other people who are receiving bitcoins
+
+91
+00:05:28,364 --> 00:05:32,542
+to figure out whether or not they trust the transaction.
+
+92
+00:05:32,542 --> 00:05:34,811
+The more work that went into the overall chain,
+
+93
+00:05:34,811 --> 00:05:38,007
+the more trust they will have in that transaction.
+
+94
+00:05:38,007 --> 00:05:40,301
+The reason for that is that the way Bitcoin works
+
+95
+00:05:40,301 --> 00:05:44,513
+is that if there was ever more than one transaction block chain out there...
+
+96
+00:05:44,513 --> 00:05:47,006
+Let's say there was a bad user out there
+
+97
+00:05:47,006 --> 00:05:50,193
+or maybe somebody didn't receive a particular message in time
+
+98
+00:05:50,193 --> 00:05:51,141
+or whatever reason.
+
+99
+00:05:51,141 --> 00:05:54,299
+If there is somehow more than one transaction block chain out there,
+
+100
+00:05:54,299 --> 00:05:58,899
+according to the Bitcoin protocol, everyone is supposed to work off of the chain
+
+101
+00:05:58,899 --> 00:06:00,631
+that had the most work put into it.
+
+102
+00:06:00,631 --> 00:06:04,074
+So, we ignore chains that have a lot less work
+
+103
+00:06:04,074 --> 00:06:06,506
+and only consider the chain that had the most work put into it.
+
+104
+00:06:06,506 --> 00:06:14,268
+In the Bitcoin system, that particular chain is often referred to as tha longest chain.
+
+105
+00:06:14,268 --> 00:06:18,760
+This is actually kind of a confusing piece of terminology
+
+106
+00:06:18,760 --> 00:06:23,932
+because by longest chain we don't mean that this chain is long in any physical sense.
+
+107
+00:06:23,932 --> 00:06:25,369
+We really just mean...
+
+108
+00:06:25,369 --> 00:06:28,277
+And I'm gonna put equal bars to kind of say what it means.
+
+109
+00:06:28,277 --> 00:06:31,841
+By the longest chain we mean tha chain that has the most work.
+
+110
+00:06:31,841 --> 00:06:38,146
+The way that the work is defined is that you look at all these different difficulty scores,
+
+111
+00:06:38,146 --> 00:06:42,292
+you add them up and that gives you a difficulty score for the entire chain.
+
+112
+00:06:42,292 --> 00:06:45,986
+Now we are gonna be interested in the chain that had the most work put into it
+
+113
+00:06:45,986 --> 00:06:48,523
+and we call that the longest chain.
+
+114
+00:06:48,523 --> 00:06:50,629
+Let's imagine that Dan is dishonest
+
+115
+00:06:50,629 --> 00:06:52,819
+and that after he eats the pizza...
+
+116
+00:06:52,819 --> 00:06:54,924
+Let's say Pete is convinced,
+
+117
+00:06:54,924 --> 00:06:56,983
+he gets this bitcoin from Dan, he waits a bit,
+
+118
+00:06:56,983 --> 00:07:00,508
+he sees that there is a long chain out there that contains the transaction,
+
+119
+00:07:00,508 --> 00:07:02,667
+he sends the pizza over to Dan,
+
+120
+00:07:02,667 --> 00:07:03,795
+Dan eats the pizza
+
+121
+00:07:03,795 --> 00:07:06,335
+and then decides that he doesn't want to behave honestly,
+
+122
+00:07:06,335 --> 00:07:11,238
+he wants to somehow cheat Pete or he wants to defraud the system.
+
+123
+00:07:11,238 --> 00:07:14,110
+The way that Dan is gonna try to defraud the system
+
+124
+00:07:14,110 --> 00:07:17,838
+is by attempting to create another transaction,
+
+125
+00:07:17,838 --> 00:07:22,309
+in which he assigns the 5 BTC he got from Carol to somebody else.
+
+126
+00:07:22,309 --> 00:07:25,800
+Let's call this person Fred.
+
+127
+00:07:25,800 --> 00:07:30,739
+Fred could be Dan's alter ego, could be a friend of Dan's.
+
+128
+00:07:30,739 --> 00:07:32,214
+It doesn't matter who Fred is
+
+129
+00:07:32,214 --> 00:07:35,090
+because we know that Fred isn't the rightful owner of these bitcoins.
+
+130
+00:07:35,090 --> 00:07:40,573
+What Dan is gonna try to do is he is gonna try to take those 5 bitcoins that he got from Carol
+
+131
+00:07:40,573 --> 00:07:45,525
+and he is gonna now try to take these 5 bitcoins and assign them over to Fred.
+
+132
+00:07:45,525 --> 00:07:48,318
+This is something that we don't want to allow
+
+133
+00:07:48,318 --> 00:07:54,511
+because that would mean that somehow Dan was able to spend these 5 bitcoins twice over,
+
+134
+00:07:54,511 --> 00:07:56,986
+he's effectively double spent those bitcoins.
+
+135
+00:07:56,986 --> 00:08:00,419
+Obviously, one of these transactions should be considered fraudulent.
+
+136
+00:08:00,419 --> 00:08:03,724
+The other one should be allowed to go through.
+
+137
+00:08:03,724 --> 00:08:07,840
+It's important to keep in mind that if Dan just tried to spend the same coins again
+
+138
+00:08:07,840 --> 00:08:11,603
+without trying to cover his tracks or anything of that nature,
+
+139
+00:08:11,603 --> 00:08:14,342
+everybody out there would know that Dan is up to no good
+
+140
+00:08:14,342 --> 00:08:18,706
+because thay can see from the existing longest transaction block chain,
+
+141
+00:08:18,706 --> 00:08:20,869
+namely this existing chain from the beginning,
+
+142
+00:08:20,869 --> 00:08:23,691
+they can see that Dan already spent these coins before,
+
+143
+00:08:23,691 --> 00:08:26,776
+he shouldn't be allowed to spend these coins again.
+
+144
+00:08:26,776 --> 00:08:33,506
+What Dan has to do is he has to create a different transaction block chain
+
+145
+00:08:33,506 --> 00:08:37,590
+that contains just the second bogus transaction in it,
+
+146
+00:08:37,590 --> 00:08:39,993
+and this will be the transaction to Fred,
+
+147
+00:08:39,993 --> 00:08:43,873
+and that would leave out the other transaction to Pete.
+
+148
+00:08:43,873 --> 00:08:48,940
+Hopefully, everybody else will start to accept or believe this newer chain.
+
+149
+00:08:48,940 --> 00:08:53,657
+Since everyone in Bitcoin ultimately goes with the transaction block chain
+
+150
+00:08:53,657 --> 00:08:56,231
+that contains the most work,
+
+151
+00:08:56,231 --> 00:08:58,985
+namely this longest chain that we talked about,
+
+152
+00:08:58,985 --> 00:09:07,500
+Dan has a chance, he has a hope potentially of being able to pull off this type of a fraudulent scheme.
+
+153
+00:09:07,500 --> 00:09:12,668
+The real question now is how likely is it for Dan to succeed.
+
+154
+00:09:12,668 --> 00:09:15,028
+For Dan to be able to pull this off,
+
+155
+00:09:15,028 --> 00:09:19,989
+he has to start off with the transaction block chain that existed previously
+
+156
+00:09:19,989 --> 00:09:23,926
+and he has to try to add to that transaction block chain a different transaction.
+
+157
+00:09:23,926 --> 00:09:26,602
+So, rather than having this previous transaction
+
+158
+00:09:26,602 --> 00:09:29,407
+where he gave money to Pete,
+
+159
+00:09:29,407 --> 00:09:33,762
+he is gonna try to create a new transaction and add it to the transaction block chain
+
+160
+00:09:33,762 --> 00:09:42,167
+that contains this other fraudulent transaction between Dan and his friend Fred.
+
+161
+00:09:42,167 --> 00:09:47,500
+This is gonna be the bad transaction between Dan and Fred that will be in this new block.
+
+162
+00:09:47,500 --> 00:09:52,541
+In Bitcoin lingo this idea is known as a fork in the chain.
+
+163
+00:09:52,541 --> 00:09:57,447
+And what is meant by a fork is that somehow there is more than one version of histories.
+
+164
+00:09:57,447 --> 00:10:00,552
+Somebody tried to rewrite their tracks or to cover their tracks
+
+165
+00:10:00,552 --> 00:10:03,478
+and to revise history the way we know it.
+
+166
+00:10:03,478 --> 00:10:08,553
+What that really means is that there is now somehow more than one version of what happened out there.
+
+167
+00:10:08,553 --> 00:10:12,937
+In this example, one branch in this fork is legitimate
+
+168
+00:10:12,937 --> 00:10:15,106
+and the other branch is bogus.
+
+169
+00:10:15,106 --> 00:10:21,681
+The legitimate branch was the one where Dan paid his friend Pete for pizza
+
+170
+00:10:21,681 --> 00:10:24,129
+and the bogus one is this follow on transaction
+
+171
+00:10:24,129 --> 00:10:28,949
+where Dan attempted to pay his friend Fred with those same exact bitcoins.
+
+172
+00:10:28,949 --> 00:10:33,828
+Remember that any transaction block that's added to this transaction block chain
+
+173
+00:10:33,828 --> 00:10:36,921
+has to contain within it a proof of work puzzle,
+
+174
+00:10:36,921 --> 00:10:39,351
+or solution rather to a proof of work puzzle.
+
+175
+00:10:39,351 --> 00:10:42,112
+Otherwise, noone will accept the chain.
+
+176
+00:10:42,112 --> 00:10:44,594
+So, if Dan wants to cheat the system,
+
+177
+00:10:44,594 --> 00:10:50,335
+he has to secretly solve a new proof of work puzzle himself.
+
+178
+00:10:50,335 --> 00:10:53,366
+But the challenge for Dan is that he is starting off with a bit of a handicap,
+
+179
+00:10:53,366 --> 00:10:56,276
+because there is already this longer chain out there
+
+180
+00:10:56,276 --> 00:10:58,369
+that people have started accepting.
+
+181
+00:10:58,369 --> 00:11:00,946
+Keep in mind that because this chain is out there,
+
+182
+00:11:00,946 --> 00:11:03,712
+other nodes may have started to build on top of this chain.
+
+183
+00:11:03,712 --> 00:11:08,015
+Every ten minutes, somebody is adding to this chain on average.
+
+184
+00:11:08,015 --> 00:11:10,861
+So, there is this longer transaction block chain out there
+
+185
+00:11:10,861 --> 00:11:13,563
+and Dan wants to create his own fake chain.
+
+186
+00:11:13,563 --> 00:11:16,864
+So, in order for that chain to be believable
+
+187
+00:11:16,864 --> 00:11:19,223
+he has to now be the longest chain out there
+
+188
+00:11:19,223 --> 00:11:22,156
+and he has to basically do all this proof of works
+
+189
+00:11:22,156 --> 00:11:25,529
+to create the chain that is longer.
+
+190
+00:11:25,529 --> 00:11:28,457
+To come up with this longer chain on his own,
+
+191
+00:11:28,457 --> 00:11:30,871
+Dan has to outrun the existing proof of work chain.
+
+192
+00:11:30,871 --> 00:11:34,122
+That means he has to solve not just typically one proof of work puzzle,
+
+193
+00:11:34,122 --> 00:11:36,948
+but may need to solve several proof of work puzzles
+
+194
+00:11:36,948 --> 00:11:41,633
+to create another chain that he hopes will be longer than the chain that's out there.
+
+195
+00:11:41,633 --> 00:11:46,154
+If he can get the longest chain and he can get people to start using that chain instead,..
+
+196
+00:11:46,154 --> 00:11:48,249
+and that's the chain he might want people to use
+
+197
+00:11:48,249 --> 00:11:51,159
+because it contains this fake transaction,
+
+198
+00:11:51,159 --> 00:11:54,677
+but it removes the previous transaction where he gave money to Pete.
+
+199
+00:11:54,677 --> 00:12:00,490
+To solve a proof of work Dan has to take whatever computing power he has access to
+
+200
+00:12:00,490 --> 00:12:06,262
+and he has to start working on solving the proof of work puzzle.
+
+201
+00:12:06,262 --> 00:12:08,575
+There are no known shortcuts for solving these puzzles.
+
+202
+00:12:08,575 --> 00:12:11,513
+If you recall from any of the proof of work videos,
+
+203
+00:12:11,513 --> 00:12:15,491
+to succeed in a proof of work is kind of like winning a lottery.
+
+204
+00:12:15,491 --> 00:12:21,095
+There are ways to do it, but it depends of how much computing power you have.
+
+205
+00:12:21,095 --> 00:12:23,634
+The more computing power you have access to,
+
+206
+00:12:23,634 --> 00:12:25,950
+the more lottery tickets you have.
+
+207
+00:12:25,950 --> 00:12:29,953
+If somebody has even one lottery ticket, they do have the chance to win the lottery,
+
+208
+00:12:29,953 --> 00:12:32,436
+but they are far less likely to succeed
+
+209
+00:12:32,436 --> 00:12:35,585
+compared to somebody ho has a lot of lottery tickets in hand.
+
+210
+00:12:35,585 --> 00:12:39,279
+Even if you succeed once in winning the lottery with the small numer of tickets,
+
+211
+00:12:39,279 --> 00:12:44,214
+the likelihood of repeating that feat over and over again, several times in a row
+
+212
+00:12:44,214 --> 00:12:45,933
+becomes much smaller.
+
+213
+00:12:45,933 --> 00:12:47,499
+That's exactly what Dan has to do.
+
+214
+00:12:47,499 --> 00:12:50,027
+He has to win this lottery multiple times
+
+215
+00:12:50,027 --> 00:12:52,399
+until he has a bigger chain.
+
+216
+00:12:52,399 --> 00:12:58,422
+The key thing you have to look for is how much computing power Dan has
+
+217
+00:12:58,422 --> 00:13:04,777
+versus how much computing power all the honest nodes in the system have together.
+
+218
+00:13:04,777 --> 00:13:07,476
+If it's the case that all the honest nodes...
+
+219
+00:13:07,476 --> 00:13:12,220
+Let's say we call this "the honest computing power".
+
+220
+00:13:12,220 --> 00:13:16,204
+When I say "honest computing power" I mean the total computing power
+
+221
+00:13:16,204 --> 00:13:20,689
+for all the bitcoin mining nodes who are honest in a network.
+
+222
+00:13:20,689 --> 00:13:24,324
+If that total computing power that they have access to
+
+223
+00:13:24,324 --> 00:13:29,225
+is greater than the power that Dan has access to,
+
+224
+00:13:29,225 --> 00:13:32,105
+so Dan's computing power,
+
+225
+00:13:32,105 --> 00:13:33,939
+the Bitcoin system will be safe
+
+226
+00:13:33,939 --> 00:13:38,822
+because it will be hard for Dan to be able to create this fraudulent transaction chain,
+
+227
+00:13:38,822 --> 00:13:41,785
+because he won't be able to outrun the honest people.
+
+228
+00:13:41,785 --> 00:13:45,200
+The honest people win the lottery more frequently and will create the longer chain
+
+229
+00:13:45,200 --> 00:13:49,290
+and Dan's attempt is gonna be very much an uphill battle.
+
+230
+00:13:49,290 --> 00:13:52,727
+It is still possible that Dan could have access to a lot of computing power,
+
+231
+00:13:52,727 --> 00:13:55,550
+maybe he is very wealthy or he has a lot of resources,
+
+232
+00:13:55,550 --> 00:13:57,836
+but he'll really need a lot to be able to do that.
+
+233
+00:13:57,836 --> 00:14:01,638
+More than everyone else who is legitimate combined.
+
+234
+00:14:01,638 --> 00:14:04,797
+That's one aspect of why the transaction block chain is secure,
+
+235
+00:14:04,797 --> 00:14:11,374
+because it's unlikely for anyone individual to have access to just that much computing power.
+
+236
+00:14:11,374 --> 00:14:15,999
+Here I should point out that there is also another aspect to the security of Bitcoin.
+
+237
+00:14:15,999 --> 00:14:20,754
+If Dan has access to that kind of computing power to solve these proof of work puzzles,
+
+238
+00:14:20,754 --> 00:14:26,245
+rather than trying to fight this uphill battle of forking the transaction block chain
+
+239
+00:14:26,245 --> 00:14:29,400
+and creating fake transaction and so on,
+
+240
+00:14:29,400 --> 00:14:31,642
+Dan is probably much better off,
+
+241
+00:14:31,642 --> 00:14:37,418
+just using that computing power he has for legitimate bitcoin mining himself.
+
+242
+00:14:37,418 --> 00:14:41,331
+You might remember that bitcoin miners, who solve proof of work puzzles
+
+243
+00:14:41,331 --> 00:14:43,490
+get both a reward...
+
+244
+00:14:43,490 --> 00:14:45,992
+For succeeding they get some numer of bitcoins.
+
+245
+00:14:45,992 --> 00:14:51,438
+...and they also get a transaction fee for all the transactions in the block that they validated.
+
+246
+00:14:51,438 --> 00:14:55,088
+So, there is this economic incentive for Dan to behave honestly.
+
+247
+00:14:55,088 --> 00:14:57,869
+Maybe I should just recap in closing the video
+
+248
+00:14:57,869 --> 00:14:59,860
+that the security of bitcoin transactions
+
+249
+00:14:59,860 --> 00:15:03,306
+comes from, first of all, this mathematical barrier
+
+250
+00:15:03,306 --> 00:15:07,768
+that makes it hard for Dan to fork the transaction block chain in a dishonest way,
+
+251
+00:15:07,768 --> 00:15:12,604
+as well as an economic incentive for Dan to just act honestly
+
+252
+00:15:12,604 --> 00:15:14,931
+and mine bitcoins for himself.

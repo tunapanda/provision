@@ -1,0 +1,207 @@
+1
+00:00:00,428 --> 00:00:06,009
+The equation of a circle c is x plus three squared plus y minus four squared equals forty-nine.
+
+2
+00:00:06,009 --> 00:00:09,209
+What are its center (h,k) and its radius r?
+
+3
+00:00:09,209 --> 00:00:12,015
+So let's just remind ourselves of what a circle is.
+
+4
+00:00:12,015 --> 00:00:15,870
+You have some point, let's call that (h,k).
+
+5
+00:00:15,870 --> 00:00:21,737
+A circle is a set of all points that are equal distance from that point.
+
+6
+00:00:21,737 --> 00:00:26,427
+So let's take a set of all points that are say r away from that point.
+
+7
+00:00:26,427 --> 00:00:30,470
+So let's say that this distance right over here,
+
+8
+00:00:30,470 --> 00:00:33,347
+is r, so we want all the set of points that are exactly r away from
+
+9
+00:00:33,347 --> 00:00:39,873
+so all the points (x, y) that are r away.
+
+10
+00:00:39,873 --> 00:00:44,937
+So you can imagine you can rotate around and all of these points are going to be r away.
+
+11
+00:00:44,937 --> 00:00:50,604
+I'm going to try my best to draw at least a somewhat perfect-looking circle,
+
+12
+00:00:50,604 --> 00:00:52,211
+I won't be able to do a perfect job on it,
+
+13
+00:00:52,211 --> 00:00:53,538
+but you get a sense.
+
+14
+00:00:53,538 --> 00:00:59,332
+All of these are exactly r away, at least if I were to draw it properly,
+
+15
+00:00:59,332 --> 00:01:00,935
+they are r away.
+
+16
+00:01:00,935 --> 00:01:04,930
+So how do we find an equation in terms of r and (h,k)
+
+17
+00:01:04,930 --> 00:01:08,336
+and x and y that describes all these points?
+
+18
+00:01:08,336 --> 00:01:12,675
+Well we know how to find the distance between two points on a coordinate plane
+
+19
+00:01:12,675 --> 00:01:15,665
+and in fact, it comes straight out of the pythagorean theorem.
+
+20
+00:01:15,665 --> 00:01:18,808
+If we were to draw a vertical line right over here that essentially
+
+21
+00:01:18,808 --> 00:01:22,545
+is the change in the vertical axis between these two points,
+
+22
+00:01:22,545 --> 00:01:28,075
+up here, we're at y, here, we're at k,
+
+23
+00:01:28,075 --> 00:01:31,735
+so this distance is going to be y minus k.
+
+24
+00:01:31,828 --> 00:01:39,066
+We can do the exact same thing on the horizontal line,
+
+25
+00:01:39,066 --> 00:01:43,808
+This x coordinate is x while this x coordinate is h,
+
+26
+00:01:43,808 --> 00:01:49,677
+so this is going to be x minus h, is this distance
+
+27
+00:01:49,677 --> 00:01:55,538
+So this is a right triangle because we're measuring vertical distance here,
+
+28
+00:01:55,538 --> 00:01:59,344
+We're measuring horizontal distance here, so these two things are perpendicular.
+
+29
+00:01:59,344 --> 00:02:06,431
+So from the Pythagorean theorem, we know that this squared plus this squared must be equal to
+
+30
+00:02:06,431 --> 00:02:09,203
+r distance squared, so this is where the distance formula comes from.
+
+31
+00:02:09,203 --> 00:02:18,349
+So we know that x minus h squared plus y minus k squared
+
+32
+00:02:18,349 --> 00:02:22,097
+must be equal to r squared.
+
+33
+00:02:22,097 --> 00:02:29,799
+Any x and y that satisfies this equation will sit on this circle.
+
+34
+00:02:29,799 --> 00:02:31,759
+Now with that out of the way, let's go answer the question.
+
+35
+00:02:31,759 --> 00:02:34,268
+The equation of the circle is this thing.
+
+36
+00:02:34,268 --> 00:02:37,209
+And this looks awfully close to what we just wrote,
+
+37
+00:02:37,209 --> 00:02:39,936
+we just have to make sure we don't get confused with the negative.
+
+38
+00:02:39,936 --> 00:02:43,008
+remember, it has to be the form x minus h and y minus k.
+
+39
+00:02:43,008 --> 00:02:45,534
+So let's write a little bit differently.
+
+40
+00:02:45,534 --> 00:02:49,537
+Instead of x plus 3 squared, we can write that as x minus negative three squared,
+
+41
+00:02:49,537 --> 00:03:00,943
+and then plus y minus 4 squared is equal to
+
+42
+00:03:00,943 --> 00:03:05,136
+instead of 49, we can just call that seven squared.
+
+43
+00:03:05,136 --> 00:03:08,869
+So now it becomes pretty clear,
+
+44
+00:03:08,869 --> 00:03:23,426
+that our h is -3, and our k is positive 4,
+
+45
+00:03:23,426 --> 00:03:26,542
+and that our r is 7.
+
+46
+00:03:26,542 --> 00:03:35,345
+So we can say (h,k) is (-3,4).
+
+47
+00:03:35,345 --> 00:03:36,538
+You might say hey, there's a negative four here
+
+48
+00:03:36,538 --> 00:03:39,015
+but no, look it's minus k, so k is 4.
+
+49
+00:03:39,015 --> 00:03:41,603
+Likewise, it's minus h, you might say, hey, maybe h is a
+
+50
+00:03:41,603 --> 00:03:44,469
+positive three, but no, you're subtracting the h,
+
+51
+00:03:44,469 --> 00:03:46,877
+so you'd say minus negative three.
+
+52
+00:03:46,877 --> 00:03:50,639
+And similarly, the radius is 7.

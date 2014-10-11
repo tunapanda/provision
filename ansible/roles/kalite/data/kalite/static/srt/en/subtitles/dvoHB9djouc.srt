@@ -1,0 +1,315 @@
+1
+00:00:01,433 --> 00:00:06,709
+Lets say I'm trying to judge how many years of experience we have at the Khan Academy
+
+2
+00:00:06,778 --> 00:00:10,693
+Or on average how many years of experience we have, and in particular, the particular
+
+3
+00:00:10,693 --> 00:00:13,714
+type of average we'll focus on is the arithmetic mean.
+
+4
+00:00:13,744 --> 00:00:18,647
+So I go and I survey the folks there, and let's say this is when, Khan academy was a smaller organization
+
+5
+00:00:18,724 --> 00:00:24,255
+when there were only five people in the organization, and I find, and I'm surveying the entire population
+
+6
+00:00:24,301 --> 00:00:28,975
+So years of experience, the entire population of Khan academy, because that's what I care about
+
+7
+00:00:28,975 --> 00:00:34,701
+Years of experience at our organization- at Khan Academy, and this is when we had 5 people-
+
+8
+00:00:34,701 --> 00:00:38,527
+And I were to go, we're now 36 people, I don't wanna date this video too much,
+
+9
+00:00:38,527 --> 00:00:41,780
+but let's say I go and I say "ok there's one person straight out of college
+
+10
+00:00:41,780 --> 00:00:46,703
+that one year of experience, or recently out of college, somebody with three years of experience,
+
+11
+00:00:46,703 --> 00:00:50,638
+someone with five years of experience, someone with seven year of experience,
+
+12
+00:00:50,715 --> 00:00:56,126
+and someone very experienced, or reasonably experienced with 14 years of experience
+
+13
+00:00:56,126 --> 00:01:01,178
+So based on this data point, and this is our population for years of experience, so I'm assuming that we only have
+
+14
+00:01:01,178 --> 00:01:06,882
+five people at the organization at this point, what would be the population
+
+15
+00:01:06,882 --> 00:01:13,355
+mean for the years of experience, what is the mean years of experience for my population
+
+16
+00:01:13,416 --> 00:01:19,033
+well we can just calculate that, our mean years of experience, and I'm going to
+
+17
+00:01:19,033 --> 00:01:22,800
+denote it with mu, because we're talking about the population now, this is a parameter
+
+18
+00:01:22,815 --> 00:01:29,386
+for the population, its going to be equal to the sum from our first data point,
+
+19
+00:01:29,386 --> 00:01:35,667
+so data point one, all the way to data point, in this case, data point five
+
+20
+00:01:35,667 --> 00:01:42,908
+we have five data points, of each of - so we're gonna take all five from the first data point,
+
+21
+00:01:42,908 --> 00:01:45,333
+the second data point, the third data point, all the way to the fifth,
+
+22
+00:01:45,333 --> 00:01:50,641
+so this is going to be equal to x1 plus, oh no I'm going to divide it all by the number of data points I have
+
+23
+00:01:50,641 --> 00:01:58,381
+plus x2 plus x3 plus x4 plus x sub 5
+
+24
+00:01:58,381 --> 00:02:03,058
+all of that over five, and as we said this is a very fancy way of saying "I'm going to sum up all
+
+25
+00:02:03,058 --> 00:02:09,133
+these things and then divide by the number of things we have," so let's do that
+
+26
+00:02:09,133 --> 00:02:23,103
+Get the calculator out, so I'm going to add them all up, one plus three plus five, plus seven plus fourteen,
+
+27
+00:02:23,103 --> 00:02:28,736
+so that's five data points and I'm gonna divide by five, and I get six
+
+28
+00:02:28,736 --> 00:02:36,178
+So the population mean for years of experience at my organization is six, six years of experience
+
+29
+00:02:36,178 --> 00:02:41,877
+Well that's, I guess interesting, but now I wanna ask another question, I wanna get some
+
+30
+00:02:41,877 --> 00:02:47,856
+measure of how much spread there is around that mean, or how much do the data points
+
+31
+00:02:47,856 --> 00:02:50,984
+vary around that mean, and obviously I can give someone all the data points
+
+32
+00:02:50,984 --> 00:02:54,462
+but instead I wanna come up with a parameter that somehow represents how much
+
+33
+00:02:54,477 --> 00:03:01,983
+all of these things on average are varying from this number right here, or maybe I
+
+34
+00:03:01,983 --> 00:03:09,963
+will call that thing the 'variance', so the variance
+
+35
+00:03:09,963 --> 00:03:15,087
+this is a population variance that I'm talking about, just to be clear, it's a parameter
+
+36
+00:03:15,087 --> 00:03:26,221
+The population variance I'm going to denote with the Greek letter Sigma, lowercase sigma squared
+
+37
+00:03:26,221 --> 00:03:32,604
+And I'm going to say, well I'm gonna take the distance from each of these points to the mean, and just
+
+38
+00:03:32,604 --> 00:03:37,439
+so I get a positive value I'm going to square it and then I'm gonna divide by the number of data points
+
+39
+00:03:37,485 --> 00:03:43,076
+so essentially I'm gonna find the average squared distance, now that might sound very complicated
+
+40
+00:03:43,076 --> 00:03:50,462
+but let's actually work it out, so I'll take my first data point, I'll take that data point and I will subtract
+
+41
+00:03:50,462 --> 00:03:54,768
+our mean from it, so this is going to give me a negative number, but if I square it's going to be
+
+42
+00:03:54,768 --> 00:03:59,915
+positive, so essentially it's going to be the squared distance between one and my mean,
+
+43
+00:03:59,992 --> 00:04:07,311
+and then to that I'm going to add the squared distance between three and my mean
+
+44
+00:04:07,311 --> 00:04:14,507
+And to that I'm going to add the squared distance between five and my mean,
+
+45
+00:04:14,507 --> 00:04:17,987
+and since I'm squaring it doesn't matter if I do five minus six or six minus five
+
+46
+00:04:17,987 --> 00:04:20,664
+when I square it I'm going to get a positive result regardless
+
+47
+00:04:20,664 --> 00:04:27,908
+and then to that I'm going to add the squared distance between seven and my mean, so seven minus six squared
+
+48
+00:04:27,938 --> 00:04:31,589
+all of this, this is my population mean that I'm finding the difference between
+
+49
+00:04:31,589 --> 00:04:42,728
+and then finally, the squared difference between 14 and my mean, and then
+
+50
+00:04:42,728 --> 00:04:47,516
+I'm going to find essentially the mean of these squared distances, so I have five squared
+
+51
+00:04:47,516 --> 00:04:56,364
+distances right over here, so let me divide by five
+
+52
+00:04:56,364 --> 00:05:01,943
+so what will I get when I make this calculation right over here.
+
+53
+00:05:01,943 --> 00:05:13,346
+Well let's figure this out, this is going to be equal to (1-6) is negative 5, negative 5 squared is 25
+
+54
+00:05:13,346 --> 00:05:17,705
+(3-6) is negative 3, if I square that I get nine
+
+55
+00:05:17,705 --> 00:05:21,905
+(5-6) is negative one, if square it I get positive 1
+
+56
+00:05:21,905 --> 00:05:26,402
+(7-6) is 1, if I square it I get positive 1
+
+57
+00:05:26,402 --> 00:05:36,669
+and (14-6) is 8, if I square it I get 64, then I'm gonna divide all of that by 5.
+
+58
+00:05:36,669 --> 00:05:40,748
+And I don't need to use a calculator but I tend to make a lot of careless mistakes when I do things
+
+59
+00:05:40,748 --> 00:05:55,661
+while I'm making a video, so I get: 25+9+1+1+64 divided by 5 so I get 20
+
+60
+00:05:55,661 --> 00:06:01,873
+So the average squared distance, or the mean squared distance from our population mean
+
+61
+00:06:01,873 --> 00:06:10,672
+is equal to 20, you might say "wait these aren't 20 away," remember it's squared distance away
+
+62
+00:06:10,672 --> 00:06:15,775
+from my population mean so I squared each of these things I like to because I made it positive, and
+
+63
+00:06:15,775 --> 00:06:21,454
+we'll see later it has other nice properties about it, now the last thing is - how can we represent this
+
+64
+00:06:21,454 --> 00:06:27,482
+mathematically? We already saw that we know how to represent a population mean and a sample mean
+
+65
+00:06:27,482 --> 00:06:31,521
+mathematically like this, and hopefully we don't find it that daunting anymore
+
+66
+00:06:31,521 --> 00:06:38,393
+but how would we do the exact same thing, how would we denote what we did right over here
+
+67
+00:06:38,393 --> 00:06:44,578
+Well let's just think it through, we're just saying that the population variance,
+
+68
+00:06:44,578 --> 00:06:53,232
+we're taking the sum of each, so we're gonna take each item, we'll start with the first item
+
+69
+00:06:53,232 --> 00:06:59,444
+and we're gonna go to the nth item in our population, we're talking about population here
+
+70
+00:06:59,444 --> 00:07:04,712
+and we're gonna take, we're not gonna just take the item, this would just be the item, but we're gonna take
+
+71
+00:07:04,712 --> 00:07:15,022
+the item and from that we're gonna subtract the population mean, we're gonna square it, so
+
+72
+00:07:15,022 --> 00:07:20,773
+the way I've written it right now, this would just be the numerator, I've just taken the sum of each of these things
+
+73
+00:07:20,773 --> 00:07:25,590
+the sum, the difference between each data point and the population mean and squared it
+
+74
+00:07:25,590 --> 00:07:30,185
+If I really wanna get the way I figured out this variance right over here, I have to divide the whole
+
+75
+00:07:30,185 --> 00:07:35,211
+thing by the number of data points we have, So this might seen very daunting and
+
+76
+00:07:35,227 --> 00:07:44,998
+very intimidating, but all it says is: Take each of your data points, well one it says figure out your population mean
+
+77
+00:07:44,998 --> 00:07:53,582
+figure that out first, and then from each data point in your population, subtract out that population mean
+
+78
+00:07:53,582 --> 00:07:59,935
+square it, take the sum of all of those things, and then just divide by the number of data points you have
+
+79
+00:07:59,935 --> 00:08:03,935
+And you will get your population variance.

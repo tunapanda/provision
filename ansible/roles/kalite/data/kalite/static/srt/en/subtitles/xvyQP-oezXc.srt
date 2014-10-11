@@ -1,0 +1,631 @@
+1
+00:00:00,860 --> 00:00:03,070
+We're on problem 207.
+
+2
+00:00:04,540 --> 00:00:13,220
+If n is equal to 4p,where p is a prime number greater than 2,
+
+3
+00:00:15,530 --> 00:00:16,990
+how many different positive,
+
+4
+00:00:17,040 --> 00:00:20,260
+even divisors does n have including n?
+
+5
+00:00:20,580 --> 00:00:24,840
+So how many integers go into n, or go into 4p?
+
+6
+00:00:24,980 --> 00:00:28,160
+Well, definitely 4 goes into it,
+
+7
+00:00:28,700 --> 00:00:30,410
+because this is going to be a multiple of 4.
+
+8
+00:00:30,700 --> 00:00:32,900
+Then anything that goes into 4 will also go into it.
+
+9
+00:00:33,010 --> 00:00:39,030
+So 2 goes into it. 2 is also a divisor. p would go into it.
+
+10
+00:00:40,850 --> 00:00:43,580
+Are there any other numbers that go into p? No, p is prime.
+
+11
+00:00:43,580 --> 00:00:44,810
+Well, you know 1 goes into p.
+
+12
+00:00:45,360 --> 00:00:50,000
+But they wanted to know the different positive,even divisors.
+
+13
+00:00:50,070 --> 00:00:52,070
+So, the positive-- we're just dealing in the positive world.
+
+14
+00:00:52,070 --> 00:00:53,620
+That just lets us know this isn't some trick question
+
+15
+00:00:53,620 --> 00:00:55,070
+where we have to count negative numbers.
+
+16
+00:00:55,450 --> 00:00:58,920
+But they want even divisors. So, first of all, 1 is not even.
+
+17
+00:00:59,040 --> 00:01:02,080
+So that can't be it. The second question, is p even?
+
+18
+00:01:02,460 --> 00:01:06,740
+Well,by definition,if p was even, and if it's greater than 2,
+
+19
+00:01:06,960 --> 00:01:08,200
+it would be divisible by 2.
+
+20
+00:01:08,400 --> 00:01:09,770
+So it wouldn't be able to be prime.
+
+21
+00:01:09,950 --> 00:01:11,530
+But they tell us that p is prime.
+
+22
+00:01:11,660 --> 00:01:13,640
+P is prime and it's greater than 2.
+
+23
+00:01:13,920 --> 00:01:17,150
+So it can't be divisible by 2. So it has to be odd.
+
+24
+00:01:17,150 --> 00:01:19,010
+So this is also not an even divisor.
+
+25
+00:01:19,010 --> 00:01:21,600
+So there's only two even divisors, 4 and 2.
+
+26
+00:01:21,810 --> 00:01:24,120
+So the answer is 2. A.
+
+27
+00:01:26,270 --> 00:01:33,730
+Problem 208. S is a set containing 9 different numbers.
+
+28
+00:01:35,610 --> 00:01:44,040
+T is a set containing 8 numbers,all of which are members of S
+
+29
+00:01:44,040 --> 00:01:47,490
+Which of the following statements cannot be true?
+
+30
+00:01:48,070 --> 00:01:52,480
+The mean of S is equal to the mean of T.
+
+31
+00:01:53,320 --> 00:01:55,090
+So, let's think about this a little bit.
+
+32
+00:01:55,950 --> 00:01:58,690
+So, choice A, that their averages are equal to each other.
+
+33
+00:01:58,850 --> 00:02:05,250
+Let's just say that set S is equal to 1 through 9,
+
+34
+00:02:05,660 --> 00:02:14,180
+1, 2, 3, 4, 5, 6, 7, 8, 9. So what would its mean be?
+
+35
+00:02:14,440 --> 00:02:16,370
+Well its mean, if you average all these numbers,
+
+36
+00:02:16,370 --> 00:02:19,190
+if you average 1 and 9, you get 5.
+
+37
+00:02:19,190 --> 00:02:20,460
+If you average 2 and 8, you get 5.
+
+38
+00:02:20,460 --> 00:02:21,990
+If you average 3 and 7, you get 5.
+
+39
+00:02:21,990 --> 00:02:23,250
+You average 4 and 6, you get 5.
+
+40
+00:02:23,250 --> 00:02:25,930
+If you average 5, you get 5. So the average is 5.
+
+41
+00:02:29,400 --> 00:02:32,020
+So if this is S, what if T were this?
+
+42
+00:02:32,020 --> 00:02:34,540
+What if T were just this right here?
+
+43
+00:02:36,600 --> 00:02:38,040
+Let me label that. That's T.
+
+44
+00:02:40,830 --> 00:02:42,600
+That's not 7. That's T.
+
+45
+00:02:43,570 --> 00:02:47,030
+Then S is everything. So, it's T plus the 5.
+
+46
+00:02:47,090 --> 00:02:50,600
+So the average of all the numbers in T, if you average
+
+47
+00:02:50,600 --> 00:02:56,010
+1, 2, 3, 4, 6, 7, 8, 9, your average is going to be 5.
+
+48
+00:02:56,010 --> 00:02:58,060
+If you think about it, the average of 4 and 6 is 5.
+
+49
+00:02:58,060 --> 00:02:59,640
+The average of 3 and 7 is 5. I think you get the idea.
+
+50
+00:02:59,640 --> 00:03:01,080
+You could work it out if you like.
+
+51
+00:03:01,600 --> 00:03:03,930
+If you were to take set S,
+
+52
+00:03:03,930 --> 00:03:07,010
+which is all of these numbers plus the number 5,
+
+53
+00:03:07,270 --> 00:03:10,260
+if you add 5 to a set of numbers whose average is 5,
+
+54
+00:03:10,330 --> 00:03:14,000
+the average is still going to be 5. So A definitely works.
+
+55
+00:03:14,000 --> 00:03:19,460
+B, The median of S is equal to the median of T.
+
+56
+00:03:19,600 --> 00:03:23,040
+Well, once again, that's true with this set.
+
+57
+00:03:23,040 --> 00:03:25,000
+This is a good set to work with.
+
+58
+00:03:25,000 --> 00:03:27,000
+It proves everything we need to prove.
+
+59
+00:03:27,360 --> 00:03:29,630
+What's the median of T. It's the middle number in T.
+
+60
+00:03:29,740 --> 00:03:30,980
+There's 8 numbers,
+
+61
+00:03:31,080 --> 00:03:33,060
+so you have to average the middle two numbers.
+
+62
+00:03:33,860 --> 00:03:36,850
+So, if you average the middle two numbers in T,
+
+63
+00:03:36,850 --> 00:03:42,000
+4 and 6, you get 5. So 5 is median of T.
+
+64
+00:03:42,000 --> 00:03:44,420
+Then what's the median of S? Well, now S includes the 5.
+
+65
+00:03:44,740 --> 00:03:46,000
+So you can put all these numbers in order.
+
+66
+00:03:46,000 --> 00:03:51,110
+So 5 is the middle number. So 5 is also the median of S.
+
+67
+00:03:54,400 --> 00:03:56,480
+So, both of these can happen, A or B.
+
+68
+00:03:56,580 --> 00:04:00,010
+Choice C, the range of S is equal to the range of T.
+
+69
+00:04:00,620 --> 00:04:02,240
+The range of a set is just the difference
+
+70
+00:04:02,250 --> 00:04:04,050
+between the highest and lowest number.
+
+71
+00:04:04,500 --> 00:04:07,970
+Then the range of S is equal to what?
+
+72
+00:04:07,970 --> 00:04:11,050
+The highest number in S is 9. The lowest number in S is 1.
+
+73
+00:04:11,520 --> 00:04:14,750
+So that equals 9 minus 1, which is equal to 8.
+
+74
+00:04:15,430 --> 00:04:19,530
+What's the range of T? Well the highest number in T is 9.
+
+75
+00:04:19,600 --> 00:04:22,370
+The lowest number is 1. 9 minus 1 is equal to 8.
+
+76
+00:04:22,370 --> 00:04:25,060
+So this one can definitely be true.
+
+77
+00:04:25,060 --> 00:04:34,030
+Statement D, the mean of S is greater than the mean of T.
+
+78
+00:04:34,030 --> 00:04:40,060
+Well, sure. Instead of this being a 5, what if this was a 50?
+
+79
+00:04:40,510 --> 00:04:43,790
+Now all of a sudden the average of T would still be 5.
+
+80
+00:04:43,790 --> 00:04:46,170
+But if you threw this 50 in there for S,
+
+81
+00:04:46,260 --> 00:04:50,000
+your average is going to go a good bit above 5.
+
+82
+00:04:50,000 --> 00:04:52,770
+So statement D could definitely work if you just
+
+83
+00:04:52,770 --> 00:04:55,150
+make that extra number that's in S a lot larger number.
+
+84
+00:04:56,580 --> 00:04:57,280
+Then statement E,
+
+85
+00:04:57,290 --> 00:04:59,970
+which I'm guessing is the choice it cannot be true
+
+86
+00:04:59,970 --> 00:05:03,000
+because we could figure out a case for all of A through D.
+
+87
+00:05:03,000 --> 00:05:06,560
+The range of S is less than the range of T.
+
+88
+00:05:09,430 --> 00:05:11,460
+So the range of the difference between the highest and the
+
+89
+00:05:11,460 --> 00:05:12,070
+lowest.
+
+90
+00:05:15,150 --> 00:05:16,040
+No matter what,
+
+91
+00:05:16,100 --> 00:05:20,000
+the range of S has to be at least as large as the range of T.
+
+92
+00:05:20,180 --> 00:05:20,600
+Think about it.
+
+93
+00:05:20,750 --> 00:05:26,550
+In this case, the range of T is 9 minus 1, which is 8.
+
+94
+00:05:29,700 --> 00:05:32,370
+You could make the range of S larger if you use 50.
+
+95
+00:05:32,380 --> 00:05:35,130
+If 50 was the extra number, then the range is 50 minus 1.
+
+96
+00:05:35,500 --> 00:05:38,720
+But considering that all of these numbers in T are also in S,
+
+97
+00:05:38,810 --> 00:05:43,220
+the difference between the highest number in T and the
+
+98
+00:05:43,220 --> 00:05:46,420
+lowest number in T has to be less than
+
+99
+00:05:46,420 --> 00:05:50,120
+or equal to the range of S.
+
+100
+00:05:50,750 --> 00:05:52,700
+So they're saying the opposite,
+
+101
+00:05:52,700 --> 00:05:55,180
+the range of S is less than the range of T.
+
+102
+00:05:55,690 --> 00:06:00,670
+We know this cannot be true because T is a subset of S.
+
+103
+00:06:00,680 --> 00:06:02,240
+So the choice is E.
+
+104
+00:06:03,820 --> 00:06:09,500
+Next problem-- it took me more time that I wanted to-- 209,
+
+105
+00:06:10,320 --> 00:06:16,650
+How many different positive integers are factors of 441?
+
+106
+00:06:18,000 --> 00:06:20,030
+Well, essentially it's just factoring it.
+
+107
+00:06:20,030 --> 00:06:22,970
+Well let's see, this should be divisible by-- let's see,
+
+108
+00:06:23,610 --> 00:06:29,060
+4 plus 4 is 8 plus 1 is 9-- so this should be divisible by 3.
+
+109
+00:06:29,060 --> 00:06:37,000
+So 3 goes into 441. 1 times 3 is 1.
+
+110
+00:06:37,000 --> 00:06:39,850
+Bring down a 4, it goes in it 4 times, 12,
+
+111
+00:06:39,850 --> 00:06:51,010
+and then you get 21, 27. So, you get 3 times 147.
+
+112
+00:06:51,430 --> 00:06:54,440
+3 should also go into this, because 1 plus 4 plus 7 is 12,
+
+113
+00:06:54,610 --> 00:06:59,060
+which is divisible by 3. So 3 goes into 147.
+
+114
+00:06:59,060 --> 00:07:08,040
+147, you go 4 times 12, 27, 49 times.
+
+115
+00:07:08,040 --> 00:07:11,050
+So let's just do a prime factorization of 441.
+
+116
+00:07:11,470 --> 00:07:14,990
+You get 3 and 147.
+
+117
+00:07:15,310 --> 00:07:25,790
+147 factors into 3 and 27, which then factors into 3 and 9,
+
+118
+00:07:26,270 --> 00:07:31,000
+which then factors into 3 and 3. OK.
+
+119
+00:07:31,030 --> 00:07:32,960
+So I didn't realize, but this is a link .
+
+120
+00:07:33,170 --> 00:07:36,410
+This is the same thing as 3 to the fifth. Is that right?
+
+121
+00:07:41,430 --> 00:07:45,570
+Oh no, sorry. I made a mistake. Let me redo this.
+
+122
+00:07:45,750 --> 00:07:50,010
+3 goes into 147 not 27 times, but 49 times.
+
+123
+00:07:50,260 --> 00:07:56,100
+So then this is, if you you prime factorization, a 7 and a 7.
+
+124
+00:07:58,330 --> 00:08:00,030
+I was about to say, 441 isn't 3 to the fifth power.
+
+125
+00:08:00,030 --> 00:08:02,050
+So let's write that down here.
+
+126
+00:08:02,780 --> 00:08:03,430
+Let me do it in a different color.
+
+127
+00:08:03,480 --> 00:08:04,400
+I don't want to be confusing.
+
+128
+00:08:04,430 --> 00:08:11,410
+So 441 is equal to 3 times 3 times 7 times 7.
+
+129
+00:08:13,030 --> 00:08:15,470
+So if they want to know how many different positive integers
+
+130
+00:08:15,470 --> 00:08:18,740
+are factors, so all you have to think about is how many
+
+131
+00:08:18,740 --> 00:08:23,470
+positive integers can I construct with two 3's and two 7's
+
+132
+00:08:23,700 --> 00:08:26,140
+So let's just list them. 3 definitely works.
+
+133
+00:08:26,460 --> 00:08:28,920
+3 times 3 will definitely work. Well, let's go in order.
+
+134
+00:08:29,050 --> 00:08:33,060
+7 will definitely work. 3 times 3 will work. That's 9.
+
+135
+00:08:33,060 --> 00:08:42,550
+3 times 7 would work. 21. 3 times 49 will work.
+
+136
+00:08:42,850 --> 00:08:46,630
+3 times 7 times 7, so 3 times 49 will work,
+
+137
+00:08:46,630 --> 00:08:52,060
+which was actually 147. 147 works.
+
+138
+00:08:52,060 --> 00:08:59,030
+Then 9 times 7 would work, which is 63. 9 times 7.
+
+139
+00:08:59,030 --> 00:09:05,080
+Then you have 9 times 7 times 7. That's essentially 441.
+
+140
+00:09:06,060 --> 00:09:08,020
+Let me make sure I haven't missed any combinations.
+
+141
+00:09:08,510 --> 00:09:12,110
+You have one 3 and one 7. So you have a 3 and a 7.
+
+142
+00:09:12,410 --> 00:09:18,850
+You have a 3 and two 7's. You have two 3's and a 7.
+
+143
+00:09:21,760 --> 00:09:27,910
+Then you could have two 3's and two 7's.
+
+144
+00:09:28,060 --> 00:09:30,470
+Then, of course, you have the 3 and the 7.
+
+145
+00:09:30,630 --> 00:09:33,390
+So I have 1, 2, 3, 4, 5, 6 numbers.
+
+146
+00:09:33,510 --> 00:09:39,160
+Here I have 1, 2, 3-- what am I missing here?
+
+147
+00:09:39,870 --> 00:09:44,800
+So, I have a 3, 7-- oh, of course.
+
+148
+00:09:45,010 --> 00:09:48,590
+I'm actually missing the 3 times the 3,
+
+149
+00:09:49,230 --> 00:09:51,860
+and I'm missing the 7 times the 7.
+
+150
+00:09:52,190 --> 00:09:58,970
+So, it's 1, 2, 3, 4, 5, 6, 7, 8 factors of which 441--
+
+151
+00:09:59,320 --> 00:10:00,810
+and that's not one of the choices.
+
+152
+00:10:04,320 --> 00:10:05,540
+How many different positives integers?
+
+153
+00:10:05,760 --> 00:10:08,140
+Oh, and of course, the number 1.
+
+154
+00:10:09,000 --> 00:10:10,000
+So, how many does that come to?
+
+155
+00:10:10,350 --> 00:10:16,420
+1, 2, 3, 4, 5, 6, 7, 8, 9 numbers. So, that is D.
+
+156
+00:10:17,000 --> 00:10:18,670
+There must be a faster way of doing that.
+
+157
+00:10:18,670 --> 00:10:21,140
+I'll let you think about that one. Anyway.
+
+158
+00:10:21,140 --> 00:10:22,070
+See you in the next video.

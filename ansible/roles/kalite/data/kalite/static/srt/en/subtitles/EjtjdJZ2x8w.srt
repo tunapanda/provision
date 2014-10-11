@@ -1,0 +1,419 @@
+1
+00:00:01,867 --> 00:00:07,267
+The number of values of theta in the interval from negative pi over two to pi over two,
+
+2
+00:00:07,267 --> 00:00:10,133
+not including those two since it's got curly parenthesis around it,
+
+3
+00:00:10,133 --> 00:00:15,667
+such that theta does not equal n * pi over five, so it's not a multiple of pi over five,
+
+4
+00:00:15,667 --> 00:00:21,867
+for n equals zero, plus or minus one, plus or minus two, and tangent of theta is equal to
+
+5
+00:00:21,867 --> 00:00:29,133
+cotangent of five theta, as well as sin of two theta is equal to cosin of four theta is ?
+
+6
+00:00:29,133 --> 00:00:33,800
+We have to find the number of values of theta that satisfy all of these things.
+
+7
+00:00:33,800 --> 00:00:38,667
+So just from the get go it seems we are going to have to solve for thetas and convert between sin and cosin,
+
+8
+00:00:38,667 --> 00:00:41,600
+which is essentially what we are doing between tangent and cotangent.
+
+9
+00:00:41,600 --> 00:00:45,933
+Those of you who know me, if you are actually taking an exam under time pressure, I don't recommend you
+
+10
+00:00:45,933 --> 00:00:51,933
+reproving trig identities from first principles, but for education purposes,
+
+11
+00:00:51,933 --> 00:00:57,467
+I always like to do it, so let's just draw a right triangle over here.
+
+12
+00:00:57,467 --> 00:01:02,333
+If you are actually going to take the IIT JEE exam, I recommend having most of the trig identities
+
+13
+00:01:02,333 --> 00:01:08,733
+at your fingertips. But let's say that's a right triangle, and let's call that theta.
+
+14
+00:01:08,733 --> 00:01:15,800
+And this angle over here is going to be pi over two minus theta. If we are in radians,
+
+15
+00:01:15,800 --> 00:01:20,867
+ninety degrees right here is pi over two. The whole triangle is one hundred eighty degrees which is pi,
+
+16
+00:01:20,867 --> 00:01:27,400
+so this is pi over two, so these two guys are going to have to add up to the other pi over two.
+
+17
+00:01:27,400 --> 00:01:31,467
+So this is pi over two minus theta. So let's think about what cosin of theta is.
+
+18
+00:01:31,467 --> 00:01:44,667
+Cosin of theta. soh - cah - toa. Let's call this a, b, and c. Cosign of theta,
+
+19
+00:01:44,667 --> 00:01:50,333
+it's going to be the adjacent side, let me write down. soh - cah - toa.
+
+20
+00:01:51,283 --> 00:01:57,710
+Cosin is adjacent over hypotenuse. So cosin of theta is b over c, adjacent over hypotenuse.
+
+21
+00:01:57,787 --> 00:02:05,533
+What is also equal to b over c? If you look from this angle over here's point of view, b is the opposite
+
+22
+00:02:05,533 --> 00:02:10,133
+side. So it's opposite over hypotenuse from this angle's point of view.
+
+23
+00:02:10,133 --> 00:02:18,333
+So it's also equal to the sin of pi over two, minus theta. So we've got our first
+
+24
+00:02:18,333 --> 00:02:26,933
+main identity here, that the cosin of theta is equal to the sin of pi over two minus theta.
+
+25
+00:02:26,933 --> 00:02:33,133
+We can go the other way around, and use the exact same logic to get that the sin of theta is equal
+
+26
+00:02:33,133 --> 00:02:40,533
+to the cosin of pi over two minus theta. So that will be pretty useful when we try to solve this equation.
+
+27
+00:02:40,533 --> 00:02:46,133
+We can even use it when we solve this one, because if I was to write down the cotangent of five theta.
+
+28
+00:02:46,133 --> 00:03:03,933
+So the cotangent of five theta, is the exact same thing as the cosin of five theta over the
+
+29
+00:03:03,933 --> 00:03:12,067
+sin of five theta. Which is one over the tangent. I can convert the cosin to sin using
+
+30
+00:03:12,067 --> 00:03:25,067
+this identity over here. This is the sin of pi over two minus five theta, over the cosin of pi over
+
+31
+00:03:25,067 --> 00:03:30,933
+two minus five theta. I'm just using this identity over here. This is the exact same thing
+
+32
+00:03:30,933 --> 00:03:41,800
+as the tangent of pi over two minus five theta. And since we're going to have to solve this equation eventually,
+
+33
+00:03:41,800 --> 00:03:45,067
+and we want to make sure we get all of the solutions to this equation,
+
+34
+00:03:45,067 --> 00:03:49,667
+one thing you might want to remember is, when we take the tangent of an angle,
+
+35
+00:03:49,667 --> 00:03:57,200
+and I'll just draw the unit circle here, if I have some angle, let me draw my axes.
+
+36
+00:03:57,200 --> 00:04:02,200
+And let's say that this right here is theta. You probably remember that theta is essentially the
+
+37
+00:04:02,200 --> 00:04:12,067
+slope of the line formed, it's opposite over adjacent, the slope of the line formed by the radius of
+
+38
+00:04:12,067 --> 00:04:17,067
+the unit circle. So this theta is going to have the exact same tangent as if we add a hundred eighty
+
+39
+00:04:17,067 --> 00:04:23,733
+degrees. Or if we add pi to this. So if you add pi, you get theta plus pi,
+
+40
+00:04:23,733 --> 00:04:31,067
+So this whole angle over here is theta plus pi. And it's tangent is going to be the same thing.
+
+41
+00:04:31,067 --> 00:04:36,467
+The slope of the radius is going to be the same. So you can add multiples of pi
+
+42
+00:04:36,467 --> 00:04:39,133
+to a tangent value and you are going to get the exact same value.
+
+43
+00:04:39,133 --> 00:04:47,133
+So let me put some multiples of pi over here so we can make sure that we get all of the solutions.
+
+44
+00:04:47,133 --> 00:04:51,333
+So with that said, with this written, we can now solve this first equation over here.
+
+45
+00:04:51,333 --> 00:04:54,400
+We can worry about some of these other constraints later. Tangent of theta is equal to
+
+46
+00:04:54,400 --> 00:05:02,533
+cotangent of five theta. Well so we can write tangent of theta is equal to, and instead of writing
+
+47
+00:05:02,533 --> 00:05:10,067
+cotangent of five theta we can write, is equal to the tangent of pi over two minus five theta plus
+
+48
+00:05:10,067 --> 00:05:17,867
+integer multiples of pi. And so the tangent of this is equal to the tangent of that, so these things
+
+49
+00:05:17,867 --> 00:05:28,400
+are equal to each other. So we get theta is equal to pi over two minus five theta plus n times pi.
+
+50
+00:05:28,400 --> 00:05:35,800
+Or at minimum when you take the tangent of this it is equal to either the tangent of the same thing
+
+51
+00:05:35,800 --> 00:05:38,533
+or we could add multiples of pi to it. But now we just have to solve this.
+
+52
+00:05:38,533 --> 00:05:48,533
+We can add five theta to both sides of this equation. So you get six theta is equal
+
+53
+00:05:48,533 --> 00:06:00,933
+to pi over two plus n pi. Plus multiples of pi. Divide both sides by six.
+
+54
+00:06:00,933 --> 00:06:10,000
+I get theta is equal to pi over twelve plus n times pi over six. Or just to make the fraction easier,
+
+55
+00:06:10,000 --> 00:06:19,200
+this is the same thing as pi over twelve plus two n pi over twelve.
+
+56
+00:06:19,200 --> 00:06:24,000
+This is the same thing as n pi over six, I just multiplied the numerator and denominator by two.
+
+57
+00:06:24,000 --> 00:06:37,533
+And this is the exact same thing as 2n plus 1 times pi over 12. So that's all of the solutions
+
+58
+00:06:37,533 --> 00:06:47,133
+for this first equation over there. And let's do the same thing for this second equation
+
+59
+00:06:47,133 --> 00:06:51,800
+and then we'll see where they overlap in this range, and we'll take out anything that satisfies this
+
+60
+00:06:51,800 --> 00:06:59,333
+criteria right over here. So the second equation, let me write it over here, we have sin of two theta.
+
+61
+00:06:59,333 --> 00:07:07,133
+Cosin of four theta, what does that equal to? Cosin of four theta using the same exact logic,
+
+62
+00:07:07,133 --> 00:07:15,667
+is equal to sin of pi over two minus theta. And of course when we take a sin or cosin, or really we
+
+63
+00:07:15,667 --> 00:07:20,467
+take any trig identity or any trig function of any angle, you're going to get the same
+
+64
+00:07:20,467 --> 00:07:25,800
+value if you add multiples of two pi. So let me add multiples of two pi here, just so we make sure
+
+65
+00:07:25,800 --> 00:07:32,467
+that we can get all the possible solutions. So this is what cosin of four theta is equal to.
+
+66
+00:07:32,467 --> 00:07:51,200
+Let me be careful. Cosin of four theta is equal to sin of pi over two minus FOUR theta plus two pi n.
+
+67
+00:07:51,200 --> 00:07:57,667
+You add multiples of two pi you're going to go back to the same angle. So you go back up to this equation
+
+68
+00:07:57,667 --> 00:08:06,133
+up here, you get sin of two theta, is equal to cosin of four theta, which is equal to this over here,
+
+69
+00:08:06,133 --> 00:08:18,333
+sin of pi over two minus four theta plus two pi n. And so these evaluate to the same thing,
+
+70
+00:08:18,333 --> 00:08:31,067
+let's set them equal to each other. Two theta is equal to pi over two minus four theta plus two pi n.
+
+71
+00:08:31,067 --> 00:08:43,800
+Let's add four theta to both sides of this equation, we get six theta is equal to pi over two, this is cancelled out,
+
+72
+00:08:43,800 --> 00:09:03,800
+plus two pi n. Let's divide both sides by six, we get theta is equal to pi over twelve plus pi n over
+
+73
+00:09:03,800 --> 00:09:12,933
+three. Now we can put it over a common denominator just to simplify things.
+
+74
+00:09:12,933 --> 00:09:23,067
+We have over twelve, we have this pi. Pi n over three is the same thing as plus 4 n pi over twelve.
+
+75
+00:09:23,067 --> 00:09:33,733
+Or we can write this as being, this is equal to four n plus one times pi over twelve.
+
+76
+00:09:33,733 --> 00:09:40,000
+So now we just need to see where there's overlap between this solution and that solution.
+
+77
+00:09:40,000 --> 00:09:44,533
+Remember we just have to count the number of solutions, we don't have to find solutions.
+
+78
+00:09:44,533 --> 00:09:52,333
+And you can think about how many of these you're going to have between negative pi over two
+
+79
+00:09:52,333 --> 00:09:56,133
+and pi over two, remember that was the range that we're working with, between negative pi over two
+
+80
+00:09:56,133 --> 00:10:01,800
+and pi over two, not including those two. And you can figure out every one of these is also
+
+81
+00:10:01,800 --> 00:10:07,467
+going to be one of these. Because no matter what you set n equal to, if you set n equal to
+
+82
+00:10:07,467 --> 00:10:15,933
+twice that you're going to have equivalent things. So anything that satisfies this equation will also
+
+83
+00:10:15,933 --> 00:10:21,133
+satisfy this equation right here. So really we can just count how many are in this one.
+
+84
+00:10:21,133 --> 00:10:25,400
+But just to make it clear, I'm going to find all of them that satisfy this equation,
+
+85
+00:10:25,400 --> 00:10:28,667
+And we're going to see how many of those satisfy this equation as well.
+
+86
+00:10:28,667 --> 00:10:34,733
+But the fast way to do it is to just find or count all the ones that satisfy this one, and you've solved the problem.
+
+87
+00:10:34,733 --> 00:10:48,133
+So let's just count starting at n equals zero. At n equals zero, and I'm using this n up here.
+
+88
+00:10:48,133 --> 00:10:56,933
+If n equals zero we just have pi over twelve, at n equals one we have three pi over twelve.
+
+89
+00:10:56,933 --> 00:11:03,600
+If n is two you get five pi over twelve. And we can't make n equal three, because
+
+90
+00:11:03,600 --> 00:11:08,067
+if n was equal to three this would be seven pi over twelve which is greater than pi over two.
+
+91
+00:11:08,067 --> 00:11:12,933
+That's greater than six pi over twelve so we can't have that. We can also go to negative n.
+
+92
+00:11:12,933 --> 00:11:25,200
+If n is negative one, then this becomes negative pi over twelve. If n is negative two,
+
+93
+00:11:25,200 --> 00:11:33,667
+this becomes negative three pi over twelve, and if n is negative three then
+
+94
+00:11:33,667 --> 00:11:40,133
+this becomes negative five pi over twelve. And once again we can't go to n is equal to negative
+
+95
+00:11:40,133 --> 00:11:44,600
+four because then we get negative seven pi over twelve which is out of our range.
+
+96
+00:11:44,600 --> 00:11:50,467
+So this satisfies this equation up here, now which of these overlap with this over here.
+
+97
+00:11:50,467 --> 00:11:59,933
+So let's set n equal to zero, we get pi over twelve. If n is equal to one we get
+
+98
+00:11:59,933 --> 00:12:06,000
+five pi over twelve. We can't set n equal to two because then we get out of our range.
+
+99
+00:12:06,000 --> 00:12:11,200
+We'll go above pi over two. If n is equal to negative one, we get negative three pi over twelve.
+
+100
+00:12:11,200 --> 00:12:17,267
+Is n is equal to negative two then we get negative seven pi over twelve,
+
+101
+00:12:17,267 --> 00:12:23,467
+which is smaller than negative pi over two so that doesn't count. So if we look over here,
+
+102
+00:12:23,467 --> 00:12:33,200
+we have three solutions, and none of them satisfy this, none of them are multiples of n pi over five.
+
+103
+00:12:33,200 --> 00:12:41,067
+So the answer to our problem is three. And you really could have done this second equation over here,
+
+104
+00:12:41,067 --> 00:12:45,667
+and realized that anything that is a solution to this top equation is a solution to this bottom equation.
+
+105
+00:12:45,667 --> 99:59:59,999
+And you would have just counted these solutions and you would have been done.

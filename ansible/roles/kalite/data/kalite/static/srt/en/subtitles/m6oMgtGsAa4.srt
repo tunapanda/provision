@@ -1,0 +1,67 @@
+1
+00:00:00,600 --> 00:00:09,333
+Part D. Let p4(x) be the fourth-degree Taylor polynomial for f about x=0. Using information from the
+
+2
+00:00:09,333 --> 00:00:32,600
+graph of y= (f^(5) (x)) shown above,and that's the graph right over here. I put it on the side to save space. Show that the absolute value of (p^4(1/4)- f(1/4)) < 1/3000.
+
+3
+00:00:32,600 --> 00:00:37,800
+So this seems like quite an interesting problem here. So first let's just think about what they asking.
+
+4
+00:00:37,800 --> 00:00:43,067
+They are asking for the difference between the polynomial and the function evaluated 1/4. In other words,
+
+5
+00:00:43,067 --> 00:00:49,867
+they are asking us to, they are asking us to bound the error, the error of the function approximation
+
+6
+00:00:49,867 --> 00:00:57,000
+at, at, at x=1/4. So let me draw a little graph here, just so we can visualize it a little better. So
+
+7
+00:00:57,000 --> 00:01:06,067
+that's our y- axis, and let me draw it like this. So this is our y- axis, and this is our x-axis. And
+
+8
+00:01:06,067 --> 00:01:12,200
+our function, lets say our function looks something like this. Our polynomial is centered at zero, our
+
+9
+00:01:12,200 --> 00:01:19,133
+fourth- degree polynomial is centered at zero and so it will be equal to the function at zero. And then
+
+10
+00:01:19,133 --> 00:01:23,733
+it will become probably a worse approximation as we get furthur and furthur away from zero. And what
+
+11
+00:01:23,733 --> 00:01:30,867
+they're saying is bound how bad of an approximation that is when x is equal to 1/4. So, if we say, that
+
+12
+00:01:30,867 --> 00:01:37,667
+this is, x is equal to 1/4, right over here. They're saying, "Look take the value of the polynomial at
+
+13
+00:01:37,667 --> 00:01:43,667
+1/4, subtract from that the value of the function at 1/4 and then take the absolute value and that will
+
+14
+00:01:43,667 --> 00:01:49,467
+essentially give us the absolute value of the error, or give us absolute value of the remainder, or the
+
+15
+00:01:49,467 --> 00:01:55,933
+distance between the two functions there," and they want us to bound. They want us to bound that distance.
+
+16
+00:01:55,933 --> 00:02:02,333
+Now to do this problem there is the something that you just kind of have to know, and I prove it another
+
+17
+00:02:02,333 --> 00:02:04,733
+series of videos two videos, I think.

@@ -1,0 +1,147 @@
+1
+00:00:00,731 --> 00:00:02,464
+PROBLEM: "In the following graph,
+
+2
+00:00:02,464 --> 00:00:05,582
+is y a function of x?"
+
+3
+00:00:05,582 --> 00:00:08,302
+So, in order for y to be a function of x,
+
+4
+00:00:08,302 --> 00:00:11,493
+for any x that you input into the function –
+
+5
+00:00:11,493 --> 00:00:15,095
+any x for which the function is defined –
+
+6
+00:00:15,095 --> 00:00:17,786
+So let's say we have y is equal to f(x), [y=f(x)]
+
+7
+00:00:17,786 --> 00:00:19,588
+So we have our little function machine.
+
+8
+00:00:19,588 --> 00:00:24,128
+it should spit out exactly one value of y.
+
+9
+00:00:24,128 --> 00:00:25,899
+If it spits out multiple values of y,
+
+10
+00:00:25,899 --> 00:00:28,324
+we don't know what f(x) is going to be equal to.
+
+11
+00:00:28,324 --> 00:00:29,523
+It could be equal to any of those
+
+12
+00:00:29,523 --> 00:00:31,157
+possible values for y.
+
+13
+00:00:31,157 --> 00:00:35,215
+So, let's see if, for this graph, whether, for a given x,
+
+14
+00:00:35,215 --> 00:00:38,285
+it spits out exactly one y.
+
+15
+00:00:38,285 --> 00:00:41,349
+Well, the function seems to be only defined –
+
+16
+00:00:41,349 --> 00:00:44,354
+so the domain of this function is x is equal to -2.
+
+17
+00:00:44,354 --> 00:00:45,135
+That's the only place
+
+18
+00:00:45,135 --> 00:00:47,101
+where we have a definition for it.
+
+19
+00:00:47,101 --> 00:00:53,947
+– and if we try to input -2 into this little black box,
+
+20
+00:00:53,947 --> 00:00:55,015
+what do we get?
+
+21
+00:00:55,015 --> 00:00:57,090
+Do we get exactly one thing?
+
+22
+00:00:57,090 --> 00:01:00,549
+No. If we put a -2 in here, we could get anything.
+
+23
+00:01:00,549 --> 00:01:04,367
+The point -2, 9 is on this relation.
+
+24
+00:01:04,367 --> 00:01:06,366
+-2, 8 is on this relation.
+
+25
+00:01:06,366 --> 00:01:07,649
+-2, 7
+
+26
+00:01:07,649 --> 00:01:08,833
+-2, 7.5
+
+27
+00:01:08,833 --> 00:01:10,901
+-2, 3.14159
+
+28
+00:01:10,901 --> 00:01:12,363
+They're all on these.
+
+29
+00:01:12,363 --> 00:01:14,830
+So, if you put a negative 2 into this relation,
+
+30
+00:01:14,830 --> 00:01:16,466
+you actually get –
+
+31
+00:01:16,466 --> 00:01:19,765
+essentially, you actually get an infinite set of values.
+
+32
+00:01:19,765 --> 00:01:22,834
+It could be 9. It could be 3.14.
+
+33
+00:01:22,834 --> 00:01:25,647
+It could be 8. It could be -8.
+
+34
+00:01:25,647 --> 00:01:28,032
+You get an infinite number of results.
+
+35
+00:01:28,032 --> 00:01:29,741
+So, since it does not map
+
+36
+00:01:29,741 --> 00:01:32,590
+to exactly one output of this function,
+
+37
+00:01:32,590 --> 00:01:38,102
+in the following graph, y is not a function of x.

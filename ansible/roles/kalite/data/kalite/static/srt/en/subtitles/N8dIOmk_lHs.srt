@@ -1,0 +1,203 @@
+1
+00:00:00,255 --> 00:00:04,714
+What I want to do in this video is order these fractions from least to greatest
+
+2
+00:00:04,714 --> 00:00:10,379
+And, the easiest way--and the way that people are sure to get the right answer--
+
+3
+00:00:10,379 --> 00:00:14,002
+is to find a common denominator, because if we can't find a common denominator,
+
+4
+00:00:14,002 --> 00:00:21,432
+these fractions are difficult to compare: 4/9 v. 3/4 v. 4/5, 11/12, 13/15.
+
+5
+00:00:21,432 --> 00:00:25,844
+You can try to estimate them, but you'll be able to directly compare them if
+
+6
+00:00:25,844 --> 00:00:32,467
+they all have the same denominator. So, the trick here is to first find the common denominator.
+
+7
+00:00:32,467 --> 00:00:36,432
+And there is many ways to do it, you could just pick one of these numbers,
+
+8
+00:00:36,432 --> 00:00:42,051
+and take all of its multiples until you find a multiple that is divisible by all of the rest.
+
+9
+00:00:42,051 --> 00:00:45,667
+Another way to do it is to look at the prime factorization of each of these numbers.
+
+10
+00:00:45,667 --> 00:00:52,067
+and then the 'least common multiple' of them would have each of those prime numbers in it.
+
+11
+00:00:52,067 --> 00:00:58,630
+Let's do it that second way, and then verify it.
+
+12
+00:00:58,630 --> 00:01:08,429
+So, 9 is 3<i>3, so our LCM is going to have at least one 3</i>3 in it.
+
+13
+00:01:08,429 --> 00:01:12,191
+And then 4 is the same thing as 2*2.
+
+14
+00:01:12,191 --> 00:01:17,810
+So, we will also have 2*2 in our prime factorization (LCM).
+
+15
+00:01:17,810 --> 00:01:22,361
+5 is a prime number, so we'll put 5 right there.
+
+16
+00:01:22,361 --> 00:01:31,185
+And then, 12 is the same thing as 2<i>6, and 6 = 2</i>3.
+
+17
+00:01:31,185 --> 00:01:40,867
+So, in our LCM, we have to have two 2's, but we already have two 2's, and we already have one 3.
+
+18
+00:01:40,867 --> 00:01:48,182
+Another way to think about it, is that something that is divisible by both 9 and 4
+
+19
+00:01:48,182 --> 00:01:50,200
+is going to be divisible by 12.
+
+20
+00:01:50,200 --> 00:01:58,770
+And then finally, we need it to be divisible by 15's prime factors.
+
+21
+00:01:58,770 --> 00:02:03,971
+15 is the same thing as 3*5.
+
+22
+00:02:03,971 --> 00:02:09,312
+So once again, we already have 3 and 5.
+
+23
+00:02:09,312 --> 00:02:15,163
+So, this is our least common multiple (LCM).
+
+24
+00:02:15,163 --> 00:02:45,256
+So, LCM is going to be equal to 3<i>3</i>2<i>2</i>5 =180
+
+25
+00:02:45,256 --> 00:02:52,873
+So, our LCM is 180. So, we want to rewrite all of these fractions with 180 in the denominator.
+
+26
+00:02:52,873 --> 00:02:59,467
+So, our first fraction, 4/9, is what over 180?
+
+27
+00:02:59,467 --> 00:03:04,065
+To go from 9 to 180, we have to multiple 9 by 20.
+
+28
+00:03:04,065 --> 00:03:16,836
+So, to get the denominator to equal 180, we multiple by 20.
+
+29
+00:03:16,836 --> 00:03:21,851
+Since we don't want to change the value of the fraction, we should also multiple by the 4 by 20.
+
+30
+00:03:21,851 --> 00:03:28,863
+4*20 = 80. So, 4/9 is the same thing as 80/180.
+
+31
+00:03:28,863 --> 00:03:37,200
+Now, let's do 3/4. What do we have to multiple the denominator by to equal 180?
+
+32
+00:03:37,200 --> 00:03:42,656
+You can divide 4 into 180 (180/4 = x) to figure that out.
+
+33
+00:03:42,656 --> 00:03:54,452
+4*45 = 180. Now, you also have to multiple the numerator by 45.
+
+34
+00:03:54,452 --> 00:04:09,200
+3*45 = 135. So, 3/4 equals 135/180.
+
+35
+00:04:09,200 --> 00:04:31,929
+Now let's do 4/5. To get 180 from 5, multiple 5 by 36.
+
+36
+00:04:31,929 --> 00:04:35,133
+Have to multiple numerator by same number, 36.
+
+37
+00:04:35,133 --> 00:04:46,325
+So, 144/180.
+
+38
+00:04:46,325 --> 00:04:50,180
+And then we have only two more to do.
+
+39
+00:04:50,180 --> 00:05:25,846
+180/12 = 15. Same for numerator, 15. So, 11/12 = 165/180.
+
+40
+00:05:25,846 --> 00:05:28,067
+And then finally, we have 13/15.
+
+41
+00:05:28,067 --> 00:05:51,434
+To get 180 from 15, multiply 15 by 12--15<i>10 = 150, 30 remaining for 180. 15</i>2 = 30. So, 15*12 = 180.
+
+42
+00:05:51,434 --> 00:05:54,128
+Multiple numerator by same number, 13.
+
+43
+00:05:54,128 --> 00:06:01,233
+We know 12*12 = 144, so just add one more 12 = 156.
+
+44
+00:06:01,233 --> 00:06:08,431
+So, we've rewritten each of these fractions with the new common denominator.
+
+45
+00:06:08,431 --> 00:06:13,029
+Now, it is very easy to compare them. We only have to look at their numerators.
+
+46
+00:06:13,029 --> 00:06:21,434
+Foe example, the smallest numerator is 80, so 4/9 is the least of these numbers.
+
+47
+00:06:21,434 --> 00:07:04,438
+The next smallest number looks like 135, which was 3/4.
+
+48
+00:07:04,438 --> 00:07:08,524
+And then the next one is going to be the 144/180, which was 4/5.
+
+49
+00:07:08,524 --> 00:07:20,831
+Next is 156/180, which was 13/15.
+
+50
+00:07:20,831 --> 00:07:35,970
+Finally, we have 165/180, which was 11/12.
+
+51
+00:07:35,970 --> 99:59:59,999
+And, we're done! We have finished our ordering.

@@ -1,0 +1,479 @@
+1
+00:00:00,000 --> 00:00:05,267
+In this video I want to do a bunch of example problems that show up on standardized exams
+
+2
+00:00:05,267 --> 00:00:10,200
+and definitely will help you with our divisibility module because it's asking questions like this
+
+3
+00:00:10,200 --> 00:00:12,800
+all numbers, and this is just one of the examples,
+
+4
+00:00:12,800 --> 00:00:18,067
+all numbers divisible by both 12 and 20 are also divisible by
+
+5
+00:00:18,067 --> 00:00:22,467
+and the trick here is to realize that if a number is both divisible by 12 and 20
+
+6
+00:00:22,467 --> 00:00:27,191
+it has to be divisible by each of these guy's prime factors
+
+7
+00:00:27,191 --> 00:00:29,443
+So let's take their prime factorization.
+
+8
+00:00:29,443 --> 00:00:33,019
+The prime factorization of 12 is 2 time 6
+
+9
+00:00:33,019 --> 00:00:36,333
+6 isn't prime yet, so 6 is 2 times 3,
+
+10
+00:00:36,333 --> 00:00:37,361
+So that is prime
+
+11
+00:00:37,361 --> 00:00:42,600
+so any number divisible by 12 needs to be divisible by 2 times 2 times 3
+
+12
+00:00:42,600 --> 00:00:46,867
+So it's prime factorization needs to have a 2 times a 2 times a 3 in it
+
+13
+00:00:46,867 --> 00:00:49,467
+any number that's divisible by 12
+
+14
+00:00:49,467 --> 00:00:53,359
+Now, any number that's divisible by 20, needs to be divisible by
+
+15
+00:00:53,359 --> 00:00:56,448
+Let's take it's prime factorization
+
+16
+00:00:56,448 --> 00:01:00,133
+2 times 10, 10 is 2 times 5
+
+17
+00:01:00,133 --> 00:01:06,933
+so any number divisible by 20, needs to also be divisible by 2 times 2 times 5
+
+18
+00:01:06,933 --> 00:01:12,702
+or another way of thinking about it, it needs to have two 2's, and a 5 in it's prime factorization
+
+19
+00:01:12,702 --> 00:01:17,694
+Now if you're divisible by both, you need to have two 2's, a 3, and a 5.
+
+20
+00:01:17,694 --> 00:01:23,067
+two 2's and a 3 for 12, and then two 2's and a 5 for 20
+
+21
+00:01:23,067 --> 00:01:25,867
+and you can verify this for yourself if this is divisible by both
+
+22
+00:01:25,867 --> 00:01:34,800
+Obviously, if you divide it by 20, is the same thing as dividing it by 2 times 2 times 5
+
+23
+00:01:34,800 --> 00:01:38,400
+So you're going to have, the 2's are going to cancel out, the 5's are going to cancel out
+
+24
+00:01:38,400 --> 00:01:43,133
+your just going to have a 3 leftover, so it's clearly divisible by 20
+
+25
+00:01:43,133 --> 00:01:50,333
+and if you were to divide it by 12, you'd divide it by 2 times 2 times 3
+
+26
+00:01:50,333 --> 00:01:51,867
+this is the same thing as 12
+
+27
+00:01:51,867 --> 00:01:55,200
+and so these guys would cancel out, and you would just have a 5 leftover
+
+28
+00:01:55,200 --> 00:01:58,120
+so it's clearly divisible by both, and this number right here is 60
+
+29
+00:01:58,120 --> 00:02:02,067
+it's 4 times 3, which is 12, times 5. It's 60
+
+30
+00:02:02,067 --> 00:02:06,933
+This right here is actually the least common multiple of 12 and 20
+
+31
+00:02:06,933 --> 00:02:11,286
+Now this isn't the only number divisible by 12 and 20
+
+32
+00:02:11,286 --> 00:02:14,267
+You could multiply this number here by a whole bunch
+
+33
+00:02:14,267 --> 00:02:19,333
+of other factors I could call them a, b, and c.
+
+34
+00:02:19,333 --> 00:02:25,000
+But this is kinda the smallest number thats divisible by 12 and 20
+
+35
+00:02:25,000 --> 00:02:28,283
+any larger number will also be divisible by the same things as this smaller number
+
+36
+00:02:28,283 --> 00:02:31,933
+Now, with that said, lets answer the questions.
+
+37
+00:02:31,933 --> 00:02:35,733
+All numbers divisible by 12 and 20 are also divisible by,
+
+38
+00:02:35,733 --> 00:02:37,867
+Well we don't know what these numbers are,
+
+39
+00:02:37,867 --> 00:02:39,933
+So we can't really address it,
+
+40
+00:02:39,933 --> 00:02:41,355
+They might just be ones, or they might not exist
+
+41
+00:02:41,355 --> 00:02:44,867
+because the number might be sixty, it might be a hundred twenty
+
+42
+00:02:44,867 --> 00:02:50,467
+Who knows what this number is? So the only numbers that we know can be divided in to this number
+
+43
+00:02:50,467 --> 00:02:54,267
+well we know two can be, We know that two is a legitimate answer.
+
+44
+00:02:54,267 --> 00:02:57,533
+Two is obviously divisible in 2 times 2 times 3 times 5
+
+45
+00:02:57,533 --> 00:03:01,067
+We know that 2 times 2 is divisible into it.
+
+46
+00:03:01,067 --> 00:03:03,733
+we have the 2 times 2 over there.
+
+47
+00:03:03,733 --> 00:03:06,400
+We know that 3 is divisible into it.
+
+48
+00:03:06,400 --> 00:03:08,933
+We know that 2 times 3 is divisible into it.
+
+49
+00:03:08,933 --> 00:03:11,200
+so that's six
+
+50
+00:03:11,200 --> 00:03:16,534
+We know that 2 times 2 times 3 is divisible into it
+
+51
+00:03:16,534 --> 00:03:19,467
+I could go through every combination of these numbers right here
+
+52
+00:03:19,467 --> 00:03:23,523
+We know that 3 times 5 is divisible into it
+
+53
+00:03:23,523 --> 00:03:26,067
+We know that 2 times 3 times 5 is divisible into it
+
+54
+00:03:26,067 --> 00:03:28,867
+So, in general you can look at these prime factors,
+
+55
+00:03:28,867 --> 00:03:31,952
+and any combination of these prime factors is divisible into
+
+56
+00:03:31,952 --> 00:03:36,201
+any number that's divisible by both 12 and 20
+
+57
+00:03:36,201 --> 00:03:38,067
+So if this was a multiple choice question
+
+58
+00:03:38,067 --> 00:03:49,133
+and the choices were 7, and 9 and 12 and 8
+
+59
+00:03:49,133 --> 00:03:50,333
+You would say
+
+60
+00:03:50,333 --> 00:03:52,933
+7 is not of these prime factors over here,
+
+61
+00:03:52,933 --> 00:04:00,467
+9 is 3 times 3 so I'd need to have two threes over here, so nine doesn't work
+
+62
+00:04:03,133 --> 00:04:04,267
+7 doesn't work, 9 doesn't work,
+
+63
+00:04:04,267 --> 00:04:06,733
+12 is 4 times 3, or another way to divide it,
+
+64
+00:04:06,733 --> 00:04:08,871
+12 is 2 times 2 times 3
+
+65
+00:04:08,871 --> 00:04:12,067
+Well there is a 2 times 2 times 3 in this prime factorization
+
+66
+00:04:12,067 --> 00:04:16,534
+of this LCM of these two numbers
+
+67
+00:04:16,534 --> 00:04:19,367
+So this is a 12. So a 12 would work
+
+68
+00:04:19,367 --> 00:04:23,616
+8 is 2 times 2 times 2, you would need three 2's in the prime factorization
+
+69
+00:04:23,616 --> 00:04:28,200
+we don't have three twos, so this doesn't work.
+
+70
+00:04:28,200 --> 00:04:36,016
+Let's try another example, just so that we understand this fairly well
+
+71
+00:04:36,016 --> 00:04:37,067
+So let's say we want to know, we'll ask the same question
+
+72
+00:04:37,067 --> 00:04:43,600
+All numbers divisible by 9 and 24 are also divisible by
+
+73
+00:04:43,600 --> 00:05:10,000
+and once again we just do the prime factorization
+
+74
+00:05:10,000 --> 00:05:12,067
+We essentially think of the least common multiple
+
+75
+00:05:12,067 --> 00:05:14,421
+of 9 and 24
+
+76
+00:05:14,421 --> 00:05:15,600
+We take the prime factorization of 9
+
+77
+00:05:15,600 --> 00:05:16,933
+is 3 times 3
+
+78
+00:05:16,933 --> 00:05:18,067
+and we're done
+
+79
+00:05:18,067 --> 00:05:23,800
+prime factorization fo 24 is 2 times 12
+
+80
+00:05:23,800 --> 00:05:26,133
+12 is 2 times 6
+
+81
+00:05:26,133 --> 00:05:29,467
+6 is 2 times 3
+
+82
+00:05:29,467 --> 00:05:34,158
+So anything divisible by 9 has to have a 9 in it's factorization
+
+83
+00:05:34,158 --> 00:05:37,333
+or it's prime factorization would have be a 3 times 3
+
+84
+00:05:37,333 --> 00:05:41,600
+anything divisible by 24 has to have three 2's in it
+
+85
+00:05:41,600 --> 00:05:45,200
+So it's gotta have a 2 times 2 times 2
+
+86
+00:05:45,200 --> 00:05:50,900
+and it's gotta have at least one three and we already have a three from the nine
+
+87
+00:05:50,900 --> 00:05:53,826
+So we have that, so this number right here is divisible by both
+
+88
+00:05:53,826 --> 00:05:57,933
+9 and 24. This number right here is actually 72.
+
+89
+00:05:57,933 --> 00:06:01,533
+This is 8 times 9 which is 72
+
+90
+00:06:01,533 --> 00:06:04,067
+So for the choices for this question
+
+91
+00:06:04,067 --> 00:06:05,533
+Let's assume that it was multiple choice
+
+92
+00:06:05,533 --> 00:06:19,600
+Let's say the choices here were 16, 27, 5, 11, and 9
+
+93
+00:06:19,600 --> 00:06:21,899
+So 16 if you were to do it's prime factorization
+
+94
+00:06:21,899 --> 00:06:27,400
+is 2 times 2 times 2 times 2, its 2 to the fourth power
+
+95
+00:06:27,400 --> 00:06:32,162
+So you would need 4 two's here, we don't have 4 2's here
+
+96
+00:06:32,162 --> 00:06:34,902
+I mean there could some other numbers, but we don't know what they are
+
+97
+00:06:34,902 --> 00:06:38,245
+These are the only numbers that we can assume are the prime factorization
+
+98
+00:06:38,245 --> 00:06:42,133
+of something divisible by both 9 and 24
+
+99
+00:06:42,133 --> 00:06:45,267
+So we can rule out 16 because we don't have four 2's in it
+
+100
+00:06:45,267 --> 00:06:50,067
+27 is equal to 3 times 3 times 3.
+
+101
+00:06:50,067 --> 00:06:54,244
+We don't have three 3's, we only have two of them
+
+102
+00:06:54,244 --> 00:06:57,067
+So once again, cancel that out
+
+103
+00:06:57,067 --> 00:07:01,333
+5, 5's a prime number, no 5 here, so rule that out
+
+104
+00:07:01,333 --> 00:07:05,668
+11, once again prime number, no eleven's here, rule that out
+
+105
+00:07:05,668 --> 00:07:09,600
+9 is equal to 3 times 3
+
+106
+00:07:09,600 --> 00:07:11,667
+And I just realized that's a silly answer
+
+107
+00:07:11,667 --> 00:07:14,329
+because all numbers divisible by 9 and 24 are divisible
+
+108
+00:07:14,329 --> 00:07:14,910
+by 9
+
+109
+00:07:14,910 --> 00:07:17,580
+So obviously 9 is gonna work but I shouldn't have made that a choice
+
+110
+00:07:17,580 --> 00:07:19,267
+Because that's in the problem
+
+111
+00:07:19,267 --> 00:07:22,154
+But 9 would work. And what also would work is if
+
+112
+00:07:22,154 --> 00:07:26,333
+8 was one of the choices, because 8 is equal to
+
+113
+00:07:26,333 --> 00:07:31,744
+2 times 2 times 2, and we have a 2 times 2 times 2 here
+
+114
+00:07:31,744 --> 00:07:36,067
+4 would also have worked. That's 2 times 2
+
+115
+00:07:36,067 --> 00:07:39,067
+6 would work. Because that's 2 times 3
+
+116
+00:07:39,067 --> 00:07:42,820
+18 would work. Because that's 2 times 3 times 3
+
+117
+00:07:42,820 --> 00:07:46,489
+So anything that's made up of a combination of these prime factors
+
+118
+00:07:46,489 --> 00:07:49,667
+will be divisible into something that's divisible by
+
+119
+00:07:49,667 --> 00:07:51,829
+both 9 and 24
+
+120
+00:07:51,829 --> 99:59:59,999
+Hopefully that doesn't confuse you too much.

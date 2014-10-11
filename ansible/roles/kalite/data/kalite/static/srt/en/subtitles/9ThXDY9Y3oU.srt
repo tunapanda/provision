@@ -1,0 +1,695 @@
+1
+00:00:00,780 --> 00:00:05,030
+When we compare triangle ABC to triangle XYZ,
+
+2
+00:00:05,040 --> 00:00:07,500
+it's pretty clear they aren't congruent,
+
+3
+00:00:07,510 --> 00:00:11,360
+that they have a very different lengths of their sides
+
+4
+00:00:11,370 --> 00:00:14,130
+But, there does to be seem something interesting
+
+5
+00:00:14,140 --> 00:00:17,300
+about the relationship between this two triangles
+
+6
+00:00:17,310 --> 00:00:20,670
+One, all of their corresponding angles are the same
+
+7
+00:00:20,680 --> 00:00:25,870
+So, the angle right here, angle BAC is congruent to XYZ
+
+8
+00:00:25,880 --> 00:00:29,830
+Angle BCA is congruent to YZX,
+
+9
+00:00:29,840 --> 00:00:34,290
+And angle ABC is congruent to XYZ
+
+10
+00:00:34,300 --> 00:00:37,850
+So all of their angles, the corresponding angles are the same
+
+11
+00:00:37,860 --> 00:00:40,990
+And we also see, we also see that the sides
+
+12
+00:00:41,000 --> 00:00:43,800
+are just scaled up versions of each other
+
+13
+00:00:43,810 --> 00:00:47,260
+So the goal from the length of XZ to AC,
+
+14
+00:00:47,270 --> 00:00:52,570
+we can, we can multiply by 3, we multiplied by 3 there,
+
+15
+00:00:52,580 --> 00:00:56,440
+to go from, to go from XY, the length of XY
+
+16
+00:00:56,450 --> 00:00:59,700
+to the length of AB which is of course the corresponding side
+
+17
+00:00:59,710 --> 00:01:04,060
+We are multiplying by 3, we have to multiply by 3
+
+18
+00:01:04,070 --> 00:01:08,450
+And then, to go from the length of YZ to the length of BC,
+
+19
+00:01:08,460 --> 00:01:11,480
+we also, we also, multiplied
+
+20
+00:01:11,490 --> 00:01:13,860
+We also multiplied by 3
+
+21
+00:01:13,870 --> 00:01:18,690
+So essentially, triangle ABC is just a scaled up version
+
+22
+00:01:18,700 --> 00:01:20,550
+of triangle XYZ
+
+23
+00:01:20,560 --> 00:01:21,730
+If they were the same scale,
+
+24
+00:01:21,740 --> 00:01:23,390
+they would be the exact same triangles but,
+
+25
+00:01:23,400 --> 00:01:26,270
+one is just a bigger, a blown up version of the other one or,
+
+26
+00:01:26,280 --> 00:01:28,970
+this is miniaturize version of that one over there
+
+27
+00:01:28,980 --> 00:01:32,710
+If you just multiply all of the sides by 3, you get to this triangle
+
+28
+00:01:32,720 --> 00:01:35,010
+And so, we can't call them congruent but they're,
+
+29
+00:01:35,020 --> 00:01:37,530
+there does seem to be a bit of a special relationship
+
+30
+00:01:37,540 --> 00:01:40,810
+So we call this special relationship "similarity"
+
+31
+00:01:40,820 --> 00:01:46,600
+So we can write that triangle, triangle ABC
+
+32
+00:01:46,610 --> 00:01:50,300
+is similar, similar to triangle,
+
+33
+00:01:50,310 --> 00:01:52,660
+and we wanna make sure we get the corresponding sides right,
+
+34
+00:01:52,670 --> 00:01:56,540
+ABC is gonna be similar to XYZ
+
+35
+00:01:56,550 --> 00:02:00,060
+To XYZ
+
+36
+00:02:00,070 --> 00:02:01,670
+And so, based on what we just saw,
+
+37
+00:02:01,680 --> 00:02:03,840
+there's actually kind of 3 ideas here,
+
+38
+00:02:03,850 --> 00:02:07,060
+and they're all equivalent ways of thinking about similarities
+
+39
+00:02:07,070 --> 00:02:09,070
+One way to think about it is that,
+
+40
+00:02:09,080 --> 00:02:11,470
+one is a scaled up version of the other
+
+41
+00:02:11,480 --> 00:02:16,000
+So scaled, scaled up or down of the other
+
+42
+00:02:16,010 --> 00:02:18,070
+Down versions
+
+43
+00:02:18,080 --> 00:02:20,860
+When we talk about congruency, they have to be exactly the same
+
+44
+00:02:20,870 --> 00:02:23,500
+You could rotate, you could shift it, you could flip it,
+
+45
+00:02:23,510 --> 00:02:24,950
+but when you do all those things,
+
+46
+00:02:24,960 --> 00:02:26,950
+they would have to be essentially identical
+
+47
+00:02:26,960 --> 00:02:30,620
+With similarity, you can rotate it, you can shift it, you can flip it,
+
+48
+00:02:30,630 --> 00:02:33,170
+and you can also scale it up and down
+
+49
+00:02:33,180 --> 00:02:35,280
+in order for something to be similar
+
+50
+00:02:35,290 --> 00:02:38,630
+So for example, if you say, if something is congruent,
+
+51
+00:02:38,640 --> 00:02:44,500
+if, if, let me say triangle, let's say triangle CDE,
+
+52
+00:02:44,510 --> 00:02:50,390
+if we know that triangle CDE is congruent to triangle FGH,
+
+53
+00:02:50,400 --> 00:02:52,640
+then we definitely know that they're similar
+
+54
+00:02:52,650 --> 00:02:54,660
+They're scaled up by factor of one
+
+55
+00:02:54,670 --> 00:02:57,310
+Then, we know for a fact that CDE
+
+56
+00:02:57,320 --> 00:03:01,010
+Is also similar to triangle FGH,
+
+57
+00:03:01,020 --> 00:03:02,840
+but we can't say the other way around
+
+58
+00:03:02,850 --> 00:03:05,710
+If, if trianlge ABC is similar to XYZ,
+
+59
+00:03:05,720 --> 00:03:07,700
+we can't say that it's necessarily congruent,
+
+60
+00:03:07,710 --> 00:03:09,560
+and we see for this particular example,
+
+61
+00:03:09,840 --> 00:03:11,920
+they definitely are not congruent
+
+62
+00:03:11,930 --> 00:03:14,500
+So this is one way to think about similarity
+
+63
+00:03:14,510 --> 00:03:16,530
+The other way to think about similarity is that,
+
+64
+00:03:16,540 --> 00:03:18,950
+all the corresponding angles will be equal
+
+65
+00:03:18,960 --> 00:03:22,700
+So, if something is similar, then all of the corresponding angles
+
+66
+00:03:22,710 --> 00:03:25,110
+are going to be congruent
+
+67
+00:03:25,120 --> 00:03:30,140
+Corresponding, corresponding angle
+
+68
+00:03:30,150 --> 00:03:32,240
+Always having trouble spelling this
+
+69
+00:03:32,250 --> 00:03:35,110
+It is two R's, one S
+
+70
+00:03:35,120 --> 00:03:41,300
+Corresponding, corresponding angles, corresponding angles
+
+71
+00:03:41,310 --> 00:03:43,000
+are congruent
+
+72
+00:03:43,010 --> 00:03:44,570
+Are congruent
+
+73
+00:03:44,580 --> 00:03:46,910
+So, if we say that triangle ABC is,
+
+74
+00:03:46,920 --> 00:03:50,540
+triangle ABC is similar to triangle XYZ,
+
+75
+00:03:50,550 --> 00:03:55,070
+that is equivalent to saying that angle, angle ABC,
+
+76
+00:03:55,080 --> 00:03:58,850
+angle ABC is congruent,
+
+77
+00:03:58,860 --> 00:04:02,470
+or we can say their measures are equal to angle XYZ,
+
+78
+00:04:02,480 --> 00:04:05,930
+to angle XYZ,
+
+79
+00:04:05,940 --> 00:04:09,200
+that angle, that angle BAC,
+
+80
+00:04:09,210 --> 00:04:18,230
+BAC is going to be congruent to angle YXZ, to angle YXZ
+
+81
+00:04:18,240 --> 00:04:26,320
+And then finally, angle ACB, ACB is going to be congruent to
+
+82
+00:04:26,330 --> 00:04:31,210
+angle, to angle XZY
+
+83
+00:04:31,220 --> 00:04:33,010
+XZY
+
+84
+00:04:33,020 --> 00:04:35,300
+Angle XZY
+
+85
+00:04:35,310 --> 00:04:38,450
+So if you have two triangles, all of their angles are the same,
+
+86
+00:04:38,460 --> 00:04:39,750
+then you could say that they are similar
+
+87
+00:04:39,760 --> 00:04:41,170
+Or if you find two triangles,
+
+88
+00:04:41,180 --> 00:04:43,690
+and you are told they are similar triangles
+
+89
+00:04:43,700 --> 00:04:46,650
+then you know that all of their corresponding angles are the same
+
+90
+00:04:46,660 --> 00:04:50,050
+And the last, I guess the way to think about it is that,
+
+91
+00:04:50,060 --> 00:04:53,220
+all the sides are just scaled up versions of each other
+
+92
+00:04:53,230 --> 00:04:59,240
+So the sides, so sides, scaled by the same factor,
+
+93
+00:04:59,250 --> 00:05:03,050
+scaled by same, same factor
+
+94
+00:05:03,060 --> 00:05:05,620
+And the example we did here, the scaling factor was 3,
+
+95
+00:05:05,630 --> 00:05:06,570
+it doesn't have to be 3
+
+96
+00:05:06,580 --> 00:05:09,700
+It just to be the same scaling factor for every side
+
+97
+00:05:09,710 --> 00:05:12,770
+If this side, if we scaled this side up by 3,
+
+98
+00:05:12,780 --> 00:05:14,630
+and we only scaled this side up by 2 then,
+
+99
+00:05:14,640 --> 00:05:17,150
+we would not be dealing with a similar triangle
+
+100
+00:05:17,160 --> 00:05:19,480
+But, if we scaled all of these sides up by 7,
+
+101
+00:05:19,490 --> 00:05:20,680
+then that's still similar
+
+102
+00:05:20,690 --> 00:05:22,610
+As long as you have all of them scaled up by,
+
+103
+00:05:22,620 --> 00:05:25,460
+or scaled down by the exact same factor
+
+104
+00:05:25,470 --> 00:05:28,690
+So one way to think about it is, and I wanna, wanna keep having,
+
+105
+00:05:28,700 --> 00:05:30,860
+well, I wanna still visualize those triangles
+
+106
+00:05:30,870 --> 00:05:33,310
+Let me, let me re-draw em' right over here, a little bit simpler
+
+107
+00:05:33,320 --> 00:05:35,060
+So I'm now talkig in, now in general terms,
+
+108
+00:05:35,070 --> 00:05:36,680
+not even for that specific case
+
+109
+00:05:36,690 --> 00:05:42,220
+So, if we say that this is A B and C,
+
+110
+00:05:42,230 --> 00:05:48,730
+and this right over here is, X, XYZ
+
+111
+00:05:48,740 --> 00:05:52,190
+I just re-drew em' so I can refer to them when we write down here
+
+112
+00:05:52,200 --> 00:05:55,720
+If we're saying that this two things right over here are similar,
+
+113
+00:05:55,730 --> 00:05:57,800
+that means that corresponding sides
+
+114
+00:05:57,810 --> 00:05:59,730
+are scaled up versions of each other
+
+115
+00:05:59,740 --> 00:06:03,110
+So we could say that the length of AB,
+
+116
+00:06:03,120 --> 00:06:05,040
+we could say that the length of AB,
+
+117
+00:06:05,730 --> 00:06:08,550
+AB, is equal to some scaling factor,
+
+118
+00:06:08,560 --> 00:06:10,200
+and this thing could be less than one,
+
+119
+00:06:10,210 --> 00:06:14,920
+some scaling factor times the length of XY, the corresponding sides
+
+120
+00:06:14,930 --> 00:06:16,900
+And I know that AB corresponds to XY
+
+121
+00:06:16,910 --> 00:06:19,870
+because of the order in which I wrote this similarity statement
+
+122
+00:06:19,880 --> 00:06:24,530
+So some scaling factor times XY,
+
+123
+00:06:24,540 --> 00:06:28,330
+we know that BC, the length of BC
+
+124
+00:06:28,340 --> 00:06:32,450
+we know that the length of BC needs to be that same scaling factor
+
+125
+00:06:32,460 --> 00:06:38,070
+The same scaling factor times the length of YZ,
+
+126
+00:06:39,040 --> 00:06:44,370
+times the length of YZ, so that same scaling factor
+
+127
+00:06:44,380 --> 00:06:49,470
+And then, we know the length of AC, the length of AC,
+
+128
+00:06:49,480 --> 00:06:53,180
+is going to be equal to that same scaling factor times XZ
+
+129
+00:06:53,190 --> 00:06:56,490
+So that's XZ and this could be a scaling factor
+
+130
+00:06:56,500 --> 00:07:01,640
+So if AB is larger than, if ABC is larger than XYZ,
+
+131
+00:07:01,650 --> 00:07:03,740
+than this K's will be larger than one,
+
+132
+00:07:03,750 --> 00:07:05,300
+if they're the exact same size,
+
+133
+00:07:05,310 --> 00:07:07,100
+if they are essentially congruent triangles,
+
+134
+00:07:07,110 --> 00:07:08,680
+than this K's will be one
+
+135
+00:07:08,690 --> 00:07:12,410
+And if XYZ is bigger than ABC,
+
+136
+00:07:12,420 --> 00:07:15,690
+than this scaling factors will be less than one
+
+137
+00:07:15,700 --> 00:07:17,390
+But another way to write the same,
+
+138
+00:07:17,400 --> 00:07:19,360
+all I'm saying is corresponding sides
+
+139
+00:07:19,370 --> 00:07:21,080
+are scaled up versions of each other
+
+140
+00:07:21,090 --> 00:07:24,830
+This first statement right here if you divide both sides by XY,
+
+141
+00:07:24,840 --> 00:07:31,850
+you get AB over XY, is equal to, our scaling factor
+
+142
+00:07:31,860 --> 00:07:34,120
+And then the second statement right over here,
+
+143
+00:07:34,130 --> 00:07:39,210
+if you divide both sides by YZ, you get B, let me do that same colour
+
+144
+00:07:39,220 --> 00:07:47,080
+You get BC divided by YZ is equal to that scaling factor,
+
+145
+00:07:47,090 --> 00:07:48,550
+is equal to that scaling factor
+
+146
+00:07:48,560 --> 00:07:51,730
+Whatever, the example we just showed that scaling factor was,
+
+147
+00:07:51,740 --> 00:07:53,720
+scaling factor was 3 but, now we're saying
+
+148
+00:07:53,730 --> 00:07:55,240
+in a more general term, similarities,
+
+149
+00:07:55,250 --> 00:07:57,310
+as long as you have same scaling factor
+
+150
+00:07:57,320 --> 00:07:59,700
+And then finally, if you divide both sides here
+
+151
+00:07:59,710 --> 00:08:04,330
+by the length between X,XZ , or segment XZ's length,
+
+152
+00:08:04,340 --> 00:08:10,210
+you get AC over XZ is equal to K as well
+
+153
+00:08:10,220 --> 00:08:11,620
+Is equal to K as well
+
+154
+00:08:11,630 --> 00:08:12,950
+Or another way to think about it is,
+
+155
+00:08:12,960 --> 00:08:15,210
+the ratio between corresponding sides,
+
+156
+00:08:15,220 --> 00:08:17,510
+notice this is the ratio between AB and XY
+
+157
+00:08:17,520 --> 00:08:19,100
+AB and XY
+
+158
+00:08:19,110 --> 00:08:23,080
+The ratio between BC and YZ, BC and YZ
+
+159
+00:08:23,090 --> 00:08:27,790
+The ratio between AC and XZ, AC and XZ
+
+160
+00:08:27,800 --> 00:08:29,840
+That the ratio between corresponding sides
+
+161
+00:08:29,850 --> 00:08:32,160
+all gives us the same constant
+
+162
+00:08:32,170 --> 00:08:42,450
+Or you can rewrite this as, AB over XY is equal to BC over YZ,
+
+163
+00:08:42,460 --> 00:08:47,790
+is equal to, is equal to AC over XZ,
+
+164
+00:08:47,800 --> 00:08:50,330
+which would be equal to some scaling factor,
+
+165
+00:08:50,340 --> 00:08:51,440
+which is equal to K
+
+166
+00:08:51,450 --> 00:08:52,810
+So if you have similar triangles,
+
+167
+00:08:52,820 --> 00:08:54,860
+let me draw an arrow right over here,
+
+168
+00:08:54,870 --> 00:08:57,710
+similar triangles means that they're scaled up versions and,
+
+169
+00:08:57,720 --> 00:09:00,300
+you can also flip and rotate, do all the stuff with congruency,
+
+170
+00:09:00,310 --> 00:09:03,100
+and you can scale them up or down, which means,
+
+171
+00:09:03,110 --> 00:09:05,340
+all of the corresponding angles are congruent,
+
+172
+00:09:05,350 --> 00:09:08,760
+which also means that the ratio between corresponding sides
+
+173
+00:09:08,770 --> 00:09:11,900
+is going to be the same concept for all the corresponding sides,
+
+174
+00:09:11,910 --> 00:09:16,020
+or the ratio between the corresponding sides is constant

@@ -1,0 +1,559 @@
+1
+00:00:00,490 --> 00:00:05,179
+Calculate the sum of all positive divisors of 27 000
+
+2
+00:00:05,179 --> 00:00:07,073
+The easiest thing that i can think of doing
+
+3
+00:00:07,073 --> 00:00:10,019
+is first take the prime factorization of 27000
+
+4
+00:00:10,019 --> 00:00:12,573
+and that will help us kind of structure our thought
+
+5
+00:00:12,573 --> 00:00:16,257
+of what all the different divisors of 27000
+
+6
+00:00:16,257 --> 00:00:17,916
+would have to look like
+
+7
+00:00:17,916 --> 00:00:25,953
+so 27000 is the same thing as 27 times 1000
+
+8
+00:00:25,953 --> 00:00:27,315
+which is the same thing as
+
+9
+00:00:27,315 --> 00:00:30,319
+3 to the 3rd times 10 to the 3rd
+
+10
+00:00:30,319 --> 00:00:33,485
+and 10 is of course the same thing as 2 times 5
+
+11
+00:00:33,485 --> 00:00:37,606
+so this is the same thing as 2 times 5 to the third
+
+12
+00:00:37,606 --> 00:00:42,000
+or the same thing as 2^3 times 5^3
+
+13
+00:00:42,000 --> 00:00:52,388
+So 27000 is equal to 2^3 times 3^3 times 5^3.
+
+14
+00:00:52,388 --> 00:00:55,008
+So any divisor of 27000
+
+15
+00:00:55,008 --> 00:00:57,461
+is going to have to be made up of
+
+16
+00:00:57,461 --> 00:00:58,576
+the product of
+
+17
+00:00:58,576 --> 00:01:03,806
+up to three 2, up to three 3, and up to three 5.
+
+18
+00:01:03,806 --> 00:01:05,488
+So let's try and look at all the combinations
+
+19
+00:01:05,488 --> 00:01:08,000
+and think of a fast way of solving it.
+
+20
+00:01:08,000 --> 00:01:12,016
+Lets say that it has no 5's in the divisor.
+
+21
+00:01:12,016 --> 00:01:17,026
+So if it has no 5's, then it can have up to three 2's.
+
+22
+00:01:17,026 --> 00:01:19,312
+So if it has zero 2's
+
+23
+00:01:19,312 --> 00:01:20,758
+So I am going to take the powers of 2's
+
+24
+00:01:20,758 --> 00:01:22,279
+So lets say it has zero 2's
+
+25
+00:01:22,279 --> 00:01:23,741
+then I'll put a 1 here
+
+26
+00:01:23,741 --> 00:01:26,046
+if it has two 2's then it has to be divisible by 4
+
+27
+00:01:26,046 --> 00:01:28,966
+and if it has three 2's it is going to be divisible by 8
+
+28
+00:01:28,966 --> 00:01:31,901
+when I say three 2, I mean 2 x 2 x 2
+
+29
+00:01:31,901 --> 00:01:36,214
+Now let's do the same thing with 3's
+
+30
+00:01:36,214 --> 00:01:37,586
+Oh wait I forgot a power
+
+31
+00:01:37,586 --> 00:01:38,670
+If it had zero 2's
+
+32
+00:01:38,670 --> 00:01:40,021
+it means it is just divisible by 1.
+
+33
+00:01:40,021 --> 00:01:41,644
+for we're looking at the 2
+
+34
+00:01:41,644 --> 00:01:45,016
+If it has one 2, then it has to be divisible by just 2
+
+35
+00:01:45,016 --> 00:01:47,055
+If you have two 2's it is divisible by 4
+
+36
+00:01:47,055 --> 00:01:49,059
+and if you have three 2's
+
+37
+00:01:49,059 --> 00:01:53,677
+and what i mean by that is 2x2x2 it is divisible by 8.
+
+38
+00:01:53,677 --> 00:01:56,099
+Lets do the same thing with 3.
+
+39
+00:01:56,099 --> 00:01:57,495
+From the point of view of 3
+
+40
+00:01:57,495 --> 00:01:58,194
+if you have no 3
+
+41
+00:01:58,194 --> 00:02:00,413
+then that means at least you you're deivisable by 1.
+
+42
+00:02:00,413 --> 00:02:03,587
+if you have one 3, that means you're divisible by 3
+
+43
+00:02:03,587 --> 00:02:08,128
+Two 3's, or 3 times 3, means you are divisible by 9
+
+44
+00:02:08,128 --> 00:02:08,962
+if you have three 3's
+
+45
+00:02:08,962 --> 00:02:11,275
+that means you are divisible by 27.
+
+46
+00:02:11,275 --> 00:02:13,749
+So let's look at all the possible combinations
+
+47
+00:02:13,749 --> 00:02:16,539
+in this grid that I am going to generate right here
+
+48
+00:02:16,539 --> 00:02:18,724
+We assume that you are not divisible by 5
+
+49
+00:02:18,724 --> 00:02:23,054
+or you are only divisible by 5 to the zero power
+
+50
+00:02:23,054 --> 00:02:24,860
+So what are all the possible numbers here.
+
+51
+00:02:24,860 --> 00:02:35,322
+You have 1x1 = 1 ; 1x3 = 3 ; 1x9 = 9 ; 1x27 = 27
+
+52
+00:02:35,322 --> 00:02:36,792
+So these are all the numbers
+
+53
+00:02:36,792 --> 00:02:40,227
+that have up to three 3's in them
+
+54
+00:02:40,227 --> 00:02:42,048
+from 0 to three 3 in them
+
+55
+00:02:42,048 --> 00:02:43,548
+and they have no 2's in them
+
+56
+00:02:43,548 --> 00:02:44,735
+If you have another 2 in here
+
+57
+00:02:44,735 --> 00:02:47,157
+you essentially multiply all these numbers by 2.
+
+58
+00:02:47,157 --> 00:02:48,899
+If you have another 2 in here
+
+59
+00:02:48,899 --> 00:02:50,767
+you are going to multiply all these numbers by two.
+
+60
+00:02:50,767 --> 00:02:51,868
+Now before I do this
+
+61
+00:02:51,868 --> 00:02:53,452
+because I want to do this as fast as possible
+
+62
+00:02:53,452 --> 00:02:55,098
+I could figure out what these numbers are
+
+63
+00:02:55,098 --> 00:02:56,533
+I could multiply them
+
+64
+00:02:56,533 --> 00:02:59,000
+But instead lets just take the sum
+
+65
+00:02:59,000 --> 00:03:01,223
+let's just take the sum of this row
+
+66
+00:03:01,223 --> 00:03:03,059
+the first row we just did.
+
+67
+00:03:03,059 --> 00:03:06,767
+We have 1 + 3 + 9 + 27
+
+68
+00:03:06,767 --> 00:03:13,040
+3 + 27 = 30; 1 + 9 = 10,
+
+69
+00:03:13,040 --> 00:03:16,023
+so this is going to be 40.
+
+70
+00:03:16,023 --> 00:03:17,951
+Now whatever these numbers are
+
+71
+00:03:17,951 --> 00:03:20,074
+they are just going to be 2 times these numbers.
+
+72
+00:03:20,074 --> 00:03:22,297
+So the sum is going to be 80.
+
+73
+00:03:22,297 --> 00:03:24,017
+And the sum over here is going to be
+
+74
+00:03:24,017 --> 00:03:25,460
+2 times the previous row
+
+75
+00:03:25,460 --> 00:03:26,687
+because here we were multiplying by 2
+
+76
+00:03:26,687 --> 00:03:28,720
+here we are multiplying by 4
+
+77
+00:03:28,720 --> 00:03:31,040
+So it is going to be 160.
+
+78
+00:03:31,040 --> 00:03:33,231
+And over here we just multiply by 2 again.
+
+79
+00:03:33,231 --> 00:03:35,081
+It is going to be 320.
+
+80
+00:03:35,081 --> 00:03:36,380
+Or another way of thinking about it is
+
+81
+00:03:36,380 --> 00:03:37,557
+whatever the sum is here
+
+82
+00:03:37,557 --> 00:03:40,371
+it is going to be 8 times the sum of the first row
+
+83
+00:03:40,371 --> 00:03:42,360
+and I could, just so you know what I am doing
+
+84
+00:03:42,360 --> 00:03:43,800
+I could actually put numbers here.
+
+85
+00:03:43,800 --> 00:03:49,432
+This number will be 8, 24, 72 and whatever 8x27 is
+
+86
+00:03:49,432 --> 00:03:53,697
+Now what is that 160 + 56 = 216
+
+87
+00:03:53,697 --> 00:03:55,111
+But we don't want to do that
+
+88
+00:03:55,111 --> 00:03:57,325
+we just have to think about the sums.
+
+89
+00:03:57,325 --> 00:04:00,151
+If you think about all the divisors of 2700
+
+90
+00:04:00,151 --> 00:04:01,763
+that are not devisable by 5
+
+91
+00:04:01,763 --> 00:04:04,064
+so they're only divisible by 5 to the zero power
+
+92
+00:04:04,064 --> 00:04:05,023
+I guess you could say it
+
+93
+00:04:05,023 --> 00:04:07,082
+we have just now figured out their sum.
+
+94
+00:04:07,082 --> 00:04:10,823
+It is going to be the sum of all of these rows.
+
+95
+00:04:10,823 --> 00:04:12,895
+So if you take 40 + 80
+
+96
+00:04:12,895 --> 00:04:22,150
+you have 120 + 160 + 320 = 600
+
+97
+00:04:22,150 --> 00:04:23,943
+So this is the situation.
+
+98
+00:04:23,943 --> 00:04:26,944
+this is the sum of all of the combinations
+
+99
+00:04:26,944 --> 00:04:28,376
+of the 2's and the 3's
+
+100
+00:04:28,376 --> 00:04:30,195
+that don't have 5's in them.
+
+101
+00:04:30,195 --> 00:04:35,493
+Now if you took the same combination of 2's and 3's.
+
+102
+00:04:35,493 --> 00:04:36,495
+These added up to 600.
+
+103
+00:04:36,495 --> 00:04:38,303
+Let me write it over here.
+
+104
+00:04:38,303 --> 00:04:40,403
+These added up to 600.
+
+105
+00:04:40,403 --> 00:04:43,609
+So no 5's.
+
+106
+00:04:43,609 --> 00:04:46,963
+Now if you did the same exact thing we did here
+
+107
+00:04:46,963 --> 00:04:49,628
+but we just multiplied everything by 5.
+
+108
+00:04:49,628 --> 00:04:51,509
+so we then would be looking at the combinations
+
+109
+00:04:51,509 --> 00:04:54,919
+that have this many 2's and this many 3's and one 5
+
+110
+00:04:54,919 --> 00:04:57,124
+what would have this sum
+
+111
+00:04:57,124 --> 00:05:01,068
+we would just multiply it by 5.
+
+112
+00:05:01,068 --> 00:05:02,680
+So we multiply 600 by 5
+
+113
+00:05:02,680 --> 00:05:06,473
+You get 30 with two zeros
+
+114
+00:05:06,473 --> 00:05:09,805
+So this is one 5
+
+115
+00:05:09,805 --> 00:05:12,322
+in the prime factorisation of the divisors
+
+116
+00:05:12,322 --> 00:05:15,727
+One 5. Just like that.
+
+117
+00:05:15,727 --> 00:05:19,053
+Now if I want two 5 I can just multiply by 5 again.
+
+118
+00:05:19,053 --> 00:05:26,789
+So if I multiply by 5 again I get 15 000
+
+119
+00:05:26,789 --> 00:05:29,958
+This is two 5's
+
+120
+00:05:29,958 --> 00:05:31,809
+Another way of thinking about this
+
+121
+00:05:31,809 --> 00:05:34,773
+if I just multiply every term here by 25
+
+122
+00:05:34,773 --> 00:05:37,220
+which is essentially just 5 times 5
+
+123
+00:05:37,220 --> 00:05:42,041
+this sum is going to be 600 x 25 which is 15000
+
+124
+00:05:42,041 --> 00:05:47,013
+Now if I have three 5
+
+125
+00:05:47,013 --> 00:05:51,035
+then I can just multiply this by 5 again.
+
+126
+00:05:51,035 --> 00:05:59,605
+5 times 15 is 75, so I get 75000
+
+127
+00:05:59,605 --> 00:06:00,788
+So now I know all the sums.
+
+128
+00:06:00,788 --> 00:06:03,756
+If I had no 5 the sum of all the divisors is 600
+
+129
+00:06:03,756 --> 00:06:06,080
+If we have one 5, 3000, and so on and so forth.
+
+130
+00:06:06,080 --> 00:06:07,530
+So if I want the sum of everything
+
+131
+00:06:07,530 --> 00:06:10,072
+I just take the sum of these numbers.
+
+132
+00:06:10,072 --> 00:06:12,930
+Let me just scroll down a bit.
+
+133
+00:06:12,930 --> 00:06:16,619
+So I have zero, zero,
+
+134
+00:06:16,619 --> 00:06:19,583
+then in the hundreds place I only have a 6.
+
+135
+00:06:19,583 --> 00:06:24,093
+And them 3 + 5 + 5 is 13, is that right?
+
+136
+00:06:24,093 --> 00:06:28,000
+yep, thats 13. and then carry the one.
+
+137
+00:06:28,000 --> 00:06:29,511
+and then I have a 9.
+
+138
+00:06:29,511 --> 00:06:33,960
+So I have 93600
+
+139
+00:06:33,960 --> 00:06:40,195
+So the sum of all posible divisors of 27000 is 93600.
+
+140
+00:06:40,195 --> 99:59:59,999
+Hope you found that entertaining.

@@ -1,0 +1,483 @@
+1
+00:00:01,120 --> 00:00:05,290
+In this problem we're asked to figure out the length of BC
+
+2
+00:00:05,300 --> 00:00:08,470
+We have a bunch of triangles here in some lengths of sides
+
+3
+00:00:08,480 --> 00:00:10,120
+and a couple of right angles,
+
+4
+00:00:10,130 --> 00:00:13,030
+and so maybe we can establish similarity between some
+
+5
+00:00:13,040 --> 00:00:14,320
+of the triangles
+
+6
+00:00:14,330 --> 00:00:16,640
+There's actually 3 different triangles that I can see here,
+
+7
+00:00:16,650 --> 00:00:19,460
+this triangle, this triangle and this larger triangle
+
+8
+00:00:19,470 --> 00:00:21,240
+If we can establish some similarity here,
+
+9
+00:00:21,250 --> 00:00:23,330
+maybe we can use ratios between sides
+
+10
+00:00:23,340 --> 00:00:26,920
+somehow to figure out what BC is
+
+11
+00:00:26,930 --> 00:00:30,000
+So when you look at, you have a right angle right over here,
+
+12
+00:00:30,010 --> 00:00:33,200
+so, you, in triangle BDC, you have one right angle,
+
+13
+00:00:33,210 --> 00:00:36,450
+in triangle ABC you another right angle
+
+14
+00:00:36,460 --> 00:00:39,730
+If can we share, if we can show that they have another angle
+
+15
+00:00:39,740 --> 00:00:41,650
+or another corresponding set of angles
+
+16
+00:00:41,660 --> 00:00:43,120
+that are congruent to each other,
+
+17
+00:00:43,130 --> 00:00:44,770
+then we can show that they're similar
+
+18
+00:00:44,780 --> 00:00:50,060
+And actually both of those triangles, both BDC and ABC,
+
+19
+00:00:50,070 --> 00:00:52,220
+both share this angle right over here
+
+20
+00:00:52,230 --> 00:00:55,270
+So if they share that angle, then they definitely share two angles
+
+21
+00:00:55,280 --> 00:00:57,730
+So they both share that angle right over there
+
+22
+00:00:57,740 --> 00:00:59,820
+Let me do that in a different color just for
+
+23
+00:00:59,830 --> 00:01:02,770
+just to make it different than those right angles
+
+24
+00:01:02,780 --> 00:01:04,490
+They both share that angle there,
+
+25
+00:01:04,500 --> 00:01:06,900
+and so we know that two triangles
+
+26
+00:01:06,910 --> 00:01:08,610
+that have at least two of their angles
+
+27
+00:01:08,620 --> 00:01:11,880
+are, are that at least have two congruent angles,
+
+28
+00:01:11,890 --> 00:01:14,890
+they are going to be similar triangles
+
+29
+00:01:14,900 --> 00:01:18,930
+so we know, we know that triangle, I'll write this,
+
+30
+00:01:18,940 --> 00:01:24,260
+triangle ABC, ABC, we went from the unlabeled angle
+
+31
+00:01:24,270 --> 00:01:27,690
+to the right, yellow right angle to the orange angle
+
+32
+00:01:27,700 --> 00:01:29,080
+So let me write it this way
+
+33
+00:01:29,090 --> 00:01:32,070
+Went from the unlabelled angle right over here
+
+34
+00:01:32,080 --> 00:01:34,980
+to the orange angle or to the yellow angle
+
+35
+00:01:34,990 --> 00:01:36,450
+I'm having trouble with colors
+
+36
+00:01:36,460 --> 00:01:39,030
+to the orange angle, ABC
+
+37
+00:01:39,040 --> 00:01:41,150
+And we want to do this very carefully here,
+
+38
+00:01:41,160 --> 00:01:44,470
+because the same points or the same vertices may not say,
+
+39
+00:01:44,480 --> 00:01:46,460
+play the same role in both triangles
+
+40
+00:01:46,470 --> 00:01:48,450
+We want to make sure we're getting the similarity right
+
+41
+00:01:48,460 --> 00:01:55,440
+White vertex to the 90 degree angle vertex to the orange vertex
+
+42
+00:01:55,450 --> 00:01:59,510
+That is going to be similar to, to triangle
+
+43
+00:01:59,520 --> 00:02:02,050
+So which is the one that is neither right angle?
+
+44
+00:02:02,060 --> 00:02:04,770
+So we're looking at the smaller triangle right over here
+
+45
+00:02:04,780 --> 00:02:06,910
+Which is the one that is, neither a right angle
+
+46
+00:02:06,920 --> 00:02:09,460
+or the orange angle what's going to be vertex B
+
+47
+00:02:09,470 --> 00:02:10,820
+Vertex B had the right angle
+
+48
+00:02:10,830 --> 00:02:13,100
+when you think about the larger triangle but we haven't thought
+
+49
+00:02:13,110 --> 00:02:15,590
+about just that little angle right over there
+
+50
+00:02:15,600 --> 00:02:19,180
+So we have started vertex B then we're going to go to the right angle,
+
+51
+00:02:19,190 --> 00:02:24,210
+the right angle is vertex D, vertex D,
+
+52
+00:02:24,220 --> 00:02:27,720
+and then we go to vertex C which is in orange
+
+53
+00:02:27,730 --> 00:02:31,320
+Show, so we have shown that they are similar
+
+54
+00:02:31,330 --> 00:02:33,260
+And now that we're si that we know
+
+55
+00:02:33,270 --> 00:02:37,490
+that they're similar, we can attempt to take ratios between the sides
+
+56
+00:02:37,500 --> 00:02:39,720
+And so let's think about it, we know what the length
+
+57
+00:02:39,730 --> 00:02:45,840
+of AC is AC is going to be, AC is going to be equal to 8, 6 plus 2
+
+58
+00:02:45,850 --> 00:02:50,770
+So we know that AC, AC, what's the corresponding side
+
+59
+00:02:50,780 --> 00:02:52,420
+on this triangle right over here
+
+60
+00:02:52,430 --> 00:02:54,980
+So you can learn to look at the letters, A and C
+
+61
+00:02:54,990 --> 00:02:58,080
+is going to corres is going to correspond to BC,
+
+62
+00:02:58,090 --> 00:03:00,520
+the first and the third, first and the third
+
+63
+00:03:00,530 --> 00:03:03,290
+AC is going to correspond to BC
+
+64
+00:03:03,300 --> 00:03:05,850
+And what is and so this is interesting
+
+65
+00:03:05,860 --> 00:03:07,910
+cause we're already involving BC
+
+66
+00:03:07,920 --> 00:03:10,560
+And so, what is going to correspond to
+
+67
+00:03:10,570 --> 00:03:13,510
+And then if we look at BC on the larger triangle,
+
+68
+00:03:13,520 --> 00:03:16,630
+so if we look at BC on the larger triangle,
+
+69
+00:03:16,640 --> 00:03:20,380
+BC is going to correspond to what on the smaller triangle?
+
+70
+00:03:20,390 --> 00:03:22,920
+It's going to correspond to DC
+
+71
+00:03:22,930 --> 00:03:26,410
+And it's good because we know what AC is and we know what DC is
+
+72
+00:03:26,420 --> 00:03:28,000
+And so we can solve for BC
+
+73
+00:03:28,010 --> 00:03:29,670
+So I want to take one more step to fi
+
+74
+00:03:29,680 --> 00:03:30,990
+to show you what we just did here
+
+75
+00:03:31,000 --> 00:03:32,970
+Cause BC is playing two different roles
+
+76
+00:03:32,980 --> 00:03:34,930
+On this first statement right over here,
+
+77
+00:03:34,940 --> 00:03:38,100
+we're thinking of BC, BC corresponds
+
+78
+00:03:38,110 --> 00:03:43,640
+BC on our smaller triangle corresponds to AC on our larger triangle
+
+79
+00:03:43,650 --> 00:03:46,760
+And then in our, in the second statement BC
+
+80
+00:03:46,770 --> 00:03:51,680
+on our larger triangle corresponds to DC on our smaller triangle,
+
+81
+00:03:51,690 --> 00:03:56,290
+so in both of these cases, so these are our larger triangles
+
+82
+00:03:56,300 --> 00:04:00,280
+And then these are, this is from the smaller triangle right over here,
+
+83
+00:04:00,290 --> 00:04:01,650
+corresponding sides
+
+84
+00:04:01,660 --> 00:04:05,040
+And this is a cool problem because BC plays two different roles
+
+85
+00:04:05,050 --> 00:04:07,530
+in two, in both triangles
+
+86
+00:04:07,540 --> 00:04:10,000
+But now we have enough information to solve for BC
+
+87
+00:04:10,010 --> 00:04:12,140
+We know that AC is equal to 9
+
+88
+00:04:12,150 --> 00:04:16,140
+We know that A oh sorry, AC is equal to 8,
+
+89
+00:04:16,150 --> 00:04:18,960
+AC is equal to 8, 6 plus 2 is 8
+
+90
+00:04:18,970 --> 00:04:21,910
+And we know that DC is equal to 2, that's given
+
+91
+00:04:21,920 --> 00:04:23,660
+And now we can cross multiply,
+
+92
+00:04:23,670 --> 00:04:30,510
+8 times 2 is 16 is equal to BC times BC is equal to BC squared
+
+93
+00:04:30,520 --> 00:04:35,030
+And so BC is going to be equal to the principle root of 16 which is 4
+
+94
+00:04:35,040 --> 00:04:40,950
+BC is equal to 4, BC is equal to 4 and we're done
+
+95
+00:04:40,960 --> 00:04:44,170
+And the hardest part about this problem is just realizing that BC
+
+96
+00:04:44,180 --> 00:04:47,070
+plays two different roles and just keeping your head straight is,
+
+97
+00:04:47,080 --> 00:04:50,100
+and just keeping your head straight on those two different roles
+
+98
+00:04:50,110 --> 00:04:50,940
+And just to make it clear,
+
+99
+00:04:50,950 --> 00:04:53,370
+let me actually draw these two triangles separately
+
+100
+00:04:53,380 --> 00:04:57,890
+So if I drew ABC separately it would look like this,
+
+101
+00:04:58,550 --> 00:04:59,960
+it would look like this
+
+102
+00:04:59,970 --> 00:05:07,510
+So this is my triangle ABC and then this is a right angle,
+
+103
+00:05:07,830 --> 00:05:10,580
+this is our orange angle
+
+104
+00:05:10,590 --> 00:05:13,770
+We know that the length of this side right over here is 8
+
+105
+00:05:13,780 --> 00:05:15,270
+And we know that the length of this side,
+
+106
+00:05:15,280 --> 00:05:17,820
+what we figured out thru this problem is 4
+
+107
+00:05:17,830 --> 00:05:22,360
+Then if we want to draw BDC we would draw it like this
+
+108
+00:05:22,370 --> 00:05:27,290
+So BDC BDC looks like this
+
+109
+00:05:27,300 --> 00:05:32,840
+So this is BDC, that's a little bit easier
+
+110
+00:05:32,850 --> 00:05:34,110
+to visualize cause we've already
+
+111
+00:05:34,120 --> 00:05:35,770
+this is our right angle,
+
+112
+00:05:35,780 --> 00:05:40,150
+this is our orange angle and this is four
+
+113
+00:05:40,160 --> 00:05:42,540
+and this right over here is two
+
+114
+00:05:42,550 --> 00:05:45,900
+And I did it this way to show you that you kinda have to flip
+
+115
+00:05:45,910 --> 00:05:47,990
+this triangle over and rotate it
+
+116
+00:05:48,000 --> 00:05:50,820
+just to have kind of a similar orientation
+
+117
+00:05:50,830 --> 00:05:52,780
+and then it might make it look a little bit clearer
+
+118
+00:05:52,790 --> 00:05:54,250
+So if you've found this part confusing,
+
+119
+00:05:54,260 --> 00:05:57,440
+I encourage you to try to flip and rotate BDC
+
+120
+00:05:57,450 --> 00:06:00,750
+in such a way that it seems to look a lot like ABC
+
+121
+00:06:00,760 --> 00:06:04,220
+And then this ratio should hopefully make a lot more sense

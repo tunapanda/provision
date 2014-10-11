@@ -1,0 +1,371 @@
+1
+99:59:59,999 --> 99:59:59,999
+Now I'll start to do some interesting problems
+
+2
+99:59:59,999 --> 99:59:59,999
+and one of these thing
+
+3
+99:59:59,999 --> 99:59:59,999
+that you'll find in probablity is that
+
+4
+99:59:59,999 --> 99:59:59,999
+you can always do a way more interesting problem
+
+5
+99:59:59,999 --> 99:59:59,999
+so now I'm going to think about:
+
+6
+99:59:59,999 --> 99:59:59,999
+I'm going to take a fair coin
+
+7
+99:59:59,999 --> 99:59:59,999
+and I'm going to
+
+8
+99:59:59,999 --> 99:59:59,999
+flip it 3 times
+
+9
+99:59:59,999 --> 99:59:59,999
+and I want to find the probability of
+
+10
+99:59:59,999 --> 99:59:59,999
+atleast one head.
+
+11
+99:59:59,999 --> 99:59:59,999
+At leats one head out of the 3 flips.
+
+12
+99:59:59,999 --> 99:59:59,999
+So the easiest way
+
+13
+99:59:59,999 --> 99:59:59,999
+to think about this is
+
+14
+99:59:59,999 --> 99:59:59,999
+how many equaly likely possibilities there are.
+
+15
+99:59:59,999 --> 99:59:59,999
+And in the last video, we saw
+
+16
+99:59:59,999 --> 99:59:59,999
+that If we flip a coin 3 times, there's 8 possibilities.
+
+17
+99:59:59,999 --> 99:59:59,999
+For the first flip,
+
+18
+99:59:59,999 --> 99:59:59,999
+there's 2 possibilities.
+
+19
+99:59:59,999 --> 99:59:59,999
+Second flip, there's 2 more possibilities.
+
+20
+99:59:59,999 --> 99:59:59,999
+And in the 3rd flip, there are 2 possibilities.
+
+21
+99:59:59,999 --> 99:59:59,999
+So 2x2x2 -
+
+22
+99:59:59,999 --> 99:59:59,999
+there are 8 equally likely possibilites.
+
+23
+99:59:59,999 --> 99:59:59,999
+If I'm flipping a coin 3 times.
+
+24
+99:59:59,999 --> 99:59:59,999
+Now, how many of those possibilities
+
+25
+99:59:59,999 --> 99:59:59,999
+have atleast one head?
+
+26
+99:59:59,999 --> 99:59:59,999
+Well we drew all of the possibilities over here
+
+27
+99:59:59,999 --> 99:59:59,999
+so we just have to count-
+
+28
+99:59:59,999 --> 99:59:59,999
+How many of these have atleast one head?
+
+29
+99:59:59,999 --> 99:59:59,999
+So thats one, two, three, four, five, six, seven.
+
+30
+99:59:59,999 --> 99:59:59,999
+So seven of these have atleast one head in them.
+
+31
+99:59:59,999 --> 99:59:59,999
+And this last one does not.
+
+32
+99:59:59,999 --> 99:59:59,999
+So seven of the eight have atleast one head.
+
+33
+99:59:59,999 --> 99:59:59,999
+Now your probably thinking-
+
+34
+99:59:59,999 --> 99:59:59,999
+Okay Sal, we're able to do it
+
+35
+99:59:59,999 --> 99:59:59,999
+by writing out all of the possibilites.
+
+36
+99:59:59,999 --> 99:59:59,999
+But it would be really hard If I said
+
+37
+99:59:59,999 --> 99:59:59,999
+Atleat one head out of you know, 20 flips.
+
+38
+99:59:59,999 --> 99:59:59,999
+this time we had 12 because I had only 3 flips.
+
+39
+99:59:59,999 --> 99:59:59,999
+So let me make it clear-
+
+40
+99:59:59,999 --> 99:59:59,999
+this isn't 3 flips. In 3 flips.
+
+41
+99:59:59,999 --> 99:59:59,999
+This would have been a lot harder to do...
+
+42
+99:59:59,999 --> 99:59:59,999
+And a lot more time consuming to do,
+
+43
+99:59:59,999 --> 99:59:59,999
+if I had 20 flips.
+
+44
+99:59:59,999 --> 99:59:59,999
+Is there some short-cut here?
+
+45
+99:59:59,999 --> 99:59:59,999
+Is there some other way to think about it?
+
+46
+99:59:59,999 --> 99:59:59,999
+And you couldn't, just do it in some simple way.
+
+47
+99:59:59,999 --> 99:59:59,999
+You can't just say: Oh! Probability of heads x probability of heads.
+
+48
+99:59:59,999 --> 99:59:59,999
+Because if you got heads the first time
+
+49
+99:59:59,999 --> 99:59:59,999
+now you dont have to get heads anymore.
+
+50
+99:59:59,999 --> 99:59:59,999
+Or you could get heads again,
+
+51
+99:59:59,999 --> 99:59:59,999
+but you don't have to.
+
+52
+99:59:59,999 --> 99:59:59,999
+So it becomes a little bit more complicated.
+
+53
+99:59:59,999 --> 99:59:59,999
+But there is an easy way to think about it.
+
+54
+99:59:59,999 --> 99:59:59,999
+Where you could use this methodology
+
+55
+99:59:59,999 --> 99:59:59,999
+right over here:
+
+56
+99:59:59,999 --> 99:59:59,999
+your going to acually see this on a lot of exams
+
+57
+99:59:59,999 --> 99:59:59,999
+where they actually make it seem
+
+58
+99:59:59,999 --> 99:59:59,999
+like a harder problem,
+
+59
+99:59:59,999 --> 99:59:59,999
+but if you just think about it in the right way,
+
+60
+99:59:59,999 --> 99:59:59,999
+it all of a sudden, becomes simpler!
+
+61
+99:59:59,999 --> 99:59:59,999
+One way to think abou it is-
+
+62
+99:59:59,999 --> 99:59:59,999
+the probability of atleast 1 head in 3 flips
+
+63
+99:59:59,999 --> 99:59:59,999
+is the same thing as
+
+64
+99:59:59,999 --> 99:59:59,999
+the probability of not getting all tails.
+
+65
+99:59:59,999 --> 99:59:59,999
+Right?
+
+66
+99:59:59,999 --> 99:59:59,999
+If we got all tails,
+
+67
+99:59:59,999 --> 99:59:59,999
+then we dont have atleast 1 head.
+
+68
+99:59:59,999 --> 99:59:59,999
+So these 2 things are equivalent.
+
+69
+99:59:59,999 --> 99:59:59,999
+The probability of getting atleast one head
+
+70
+99:59:59,999 --> 99:59:59,999
+in 3 flips, is the same thing as
+
+71
+99:59:59,999 --> 99:59:59,999
+the probability of not getting all tails, in 3 flips.
+
+72
+99:59:59,999 --> 99:59:59,999
+So whats the probability of not getting all tails?
+
+73
+99:59:59,999 --> 99:59:59,999
+Well, thats going to be
+
+74
+99:59:59,999 --> 99:59:59,999
+(1- the probability of getting all tails).
+
+75
+99:59:59,999 --> 99:59:59,999
+And since its 3 flips, its the probability of tails,
+
+76
+99:59:59,999 --> 99:59:59,999
+tails, and tails.
+
+77
+99:59:59,999 --> 99:59:59,999
+Because, any of the other situations
+
+78
+99:59:59,999 --> 99:59:59,999
+are going to have atleast 1 head in them.
+
+79
+99:59:59,999 --> 99:59:59,999
+And thats all of the other possibilities.
+
+80
+99:59:59,999 --> 99:59:59,999
+This is the only other left-over possibility.
+
+81
+99:59:59,999 --> 99:59:59,999
+If you add them together,
+
+82
+99:59:59,999 --> 99:59:59,999
+your going to get 1.
+
+83
+99:59:59,999 --> 99:59:59,999
+Let me write it this way.
+
+84
+99:59:59,999 --> 99:59:59,999
+The probability.. (let me wrie it in a new color, just so you see where its coming from).
+
+85
+99:59:59,999 --> 99:59:59,999
+The probability of not getting all tails
+
+86
+99:59:59,999 --> 99:59:59,999
++ the probability of all tails.
+
+87
+99:59:59,999 --> 99:59:59,999
+Well, this is essentially exhausted. This is all the possible circumstances.
+
+88
+99:59:59,999 --> 99:59:59,999
+So your chances of getting either 'not all tails' or 'all tails',
+
+89
+99:59:59,999 --> 99:59:59,999
+and this is mutual exclusives. So we can add them.
+
+90
+99:59:59,999 --> 99:59:59,999
+So the probability of (let me write it this way)...
+
+91
+99:59:59,999 --> 99:59:59,999
+The probability of 'not alll tails' or
+
+92
+99:59:59,999 --> 99:59:59,999
+(just to be clear of what we are doing,
+
+93
+99:59:59,999 --> 99:59:59,999
+..or the 'probability of all tails' is going to be equal to 1.

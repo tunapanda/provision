@@ -1,0 +1,531 @@
+1
+00:00:00,600 --> 00:00:04,372
+In this video,we are going to take the definition of bronsted-lowry acids and bases that we define
+
+2
+00:00:04,372 --> 00:00:07,926
+in the last video,and we're gonna use it to explore concepts of
+
+3
+00:00:07,926 --> 00:00:11,833
+Keq,Ka and also pKa,and see how
+
+4
+00:00:11,833 --> 00:00:15,177
+they are important when you're talking about acid-base chemistry
+
+5
+00:00:15,177 --> 00:00:19,935
+so here we have a generic acid-base reaction that uses the bronsted-lowry
+
+6
+00:00:19,935 --> 00:00:23,103
+definition.So,HA is our generic acid
+
+7
+00:00:23,103 --> 00:00:26,768
+it's going to donate a proton to H2O
+
+8
+00:00:26,768 --> 00:00:31,103
+H2O IS A bronsted-lowry base,if H2O accepts a proton
+
+9
+00:00:31,103 --> 00:00:35,452
+h2o becomes h3o+,and if HA
+
+10
+00:00:35,452 --> 00:00:39,901
+donates a proton,so it's left with,uh,if it loses
+
+11
+00:00:39,901 --> 00:00:42,170
+proton it's left with A- the conjugate base,like that
+
+12
+00:00:42,170 --> 00:00:46,910
+so when the reaction reaches equilibrium,the rate of the forward reaction is
+
+13
+00:00:46,910 --> 00:00:50,593
+equal to the rate of the reverse reaction,and from general
+
+14
+00:00:50,593 --> 00:00:54,192
+chemistry,the position of the equilibrium is described by what's called a
+
+15
+00:00:54,192 --> 00:00:58,848
+Ka/Keq expression,which is defined as the concentration
+
+16
+00:00:58,848 --> 00:01:02,600
+of the products over the concentration of the reactants
+
+17
+00:01:02,600 --> 00:01:07,236
+so if I were to write a Keq expression for this generic
+
+18
+00:01:07,236 --> 00:01:10,633
+acid-base reaction,I would take the concentration of the products
+
+19
+00:01:10,633 --> 00:01:12,797
+so I go ahead and put H3O+ times A-
+
+20
+00:01:12,797 --> 00:01:18,307
+and I put that over the concentration of my reactants,so it should be
+
+21
+00:01:18,307 --> 00:01:22,636
+HA AND H2O.Now the concentration
+
+22
+00:01:22,636 --> 00:01:26,172
+of water is constant,and so you can
+
+23
+00:01:26,172 --> 00:01:29,902
+think about it just being removed from the Keq expression,or you can think about
+
+24
+00:01:29,902 --> 00:01:33,636
+combining the concentration of water with the Keq to give you what's called
+
+25
+00:01:33,636 --> 00:01:38,047
+a Ka expression.So a Ka expression would have
+
+26
+00:01:38,047 --> 00:01:42,173
+the concentration of H3O+times the concentration
+
+27
+00:01:42,173 --> 00:01:45,840
+of A- over the concentration of
+
+28
+00:01:45,840 --> 00:01:51,125
+HA,since we've taken out water from our expression.
+
+29
+00:01:51,125 --> 00:01:53,572
+Now the useful what of Ka expression
+
+30
+00:01:53,572 --> 00:01:57,127
+I think it's much more obvious when you apply it to an actual
+
+31
+00:01:57,127 --> 00:02:00,970
+reaction,so the one we talked about in the last video,right,
+
+32
+00:02:00,970 --> 00:02:05,505
+had H2O and HCl
+
+33
+00:02:05,505 --> 00:02:09,048
+where HCl donated a proton to
+
+34
+00:02:09,048 --> 00:02:12,718
+H2O.This reaction is technically at equilibrium,but the
+
+35
+00:02:12,718 --> 00:02:15,236
+equilibrium lies to the right here,so H2O
+
+36
+00:02:15,236 --> 00:02:20,179
+will become H3O+,so gained a proton
+
+37
+00:02:20,179 --> 00:02:23,905
+and if hcl loses its proton,it will be cl-
+
+38
+00:02:23,905 --> 00:02:28,634
+so we talk about the equilibrium line to the right,which will mean
+
+39
+00:02:28,634 --> 00:02:32,439
+that we'll get ,uh, way more products than reactants
+
+40
+00:02:32,439 --> 00:02:36,165
+and so if we go ahead and write the Ka expression for this
+
+41
+00:02:36,165 --> 00:02:39,626
+acid-base reaction,let's go ahead and do it,the Ka
+
+42
+00:02:39,626 --> 00:02:44,383
+expression is equal to the concentration of my products over my concentration of the reactants
+
+43
+00:02:44,383 --> 00:02:47,798
+so for this reaction,the Ka will be equal to H3O+
+
+44
+00:02:47,798 --> 00:02:51,902
+times the concentration of Cl-
+
+45
+00:02:51,902 --> 00:02:57,241
+right,all over the concentration of HCl
+
+46
+00:02:57,241 --> 00:03:00,051
+and since HCl is a strong
+
+47
+00:03:00,051 --> 00:03:04,102
+acid,the equilibrium lies
+
+48
+00:03:04,102 --> 00:03:07,970
+to the right,which means we're going to get a extremely high concentration
+
+49
+00:03:07,970 --> 00:03:11,637
+of our products,compared to our reactants
+
+50
+00:03:11,637 --> 00:03:15,842
+and so the actual number turns out to be approximately
+
+51
+00:03:15,842 --> 00:03:19,905
+ten to the seventh for the concentration of my product
+
+52
+00:03:19,905 --> 00:03:23,837
+using my Ka expression over one,so
+
+53
+00:03:23,837 --> 00:03:27,637
+ten to the seventh over 1,so ten to the seventh is a extremely large number
+
+54
+00:03:27,637 --> 00:03:31,385
+which again makes sense because HCl is so strong
+
+55
+00:03:31,385 --> 00:03:35,241
+what what a very high concentration of products to reactants
+
+56
+00:03:35,241 --> 00:03:43,129
+that's what the Ka expression does,it tells you a relative idea about the strength of the acid
+
+57
+00:03:43,129 --> 00:03:46,466
+and in this case HCl is very strong,so HCl is strong
+
+58
+00:03:46,466 --> 00:03:50,434
+we know this just by looking at the Ka expression getting a value
+
+59
+00:03:50,434 --> 00:03:53,717
+of 10^7/1
+
+60
+00:03:53,717 --> 00:03:58,377
+that is a very large number ,and usually when you are doing Ka values,you get extremely
+
+61
+00:03:58,377 --> 00:04:02,637
+large numbers or extremely small numbers,which can be kind of annoying,when you're
+
+62
+00:04:02,637 --> 00:04:06,239
+doing math or when you are just talking about the acidity of a compound
+
+63
+00:04:06,239 --> 00:04:10,719
+so since that's annoying,chemistry takes what's called
+
+64
+00:04:10,719 --> 00:04:14,962
+the pKa value instead of the Ka value,especially organic chemistry
+
+65
+00:04:14,962 --> 00:04:17,884
+will tend to favor pKa values over Ka values
+
+66
+00:04:17,884 --> 00:04:21,794
+the way to calculate a pKa value it's like finding the pH of
+
+67
+00:04:21,794 --> 00:04:26,649
+something,so if you remember from what the pH is equal to the negative
+
+68
+00:04:26,649 --> 00:04:29,830
+log of the concentration of the hydronium ion,right?That's a way
+
+69
+00:04:29,830 --> 00:04:33,646
+of giving you numbers that are easier to work with,that's the exact same concept
+
+70
+00:04:33,646 --> 00:04:37,573
+here.So if I were to find the pKa,right,the pKa
+
+71
+00:04:37,573 --> 00:04:41,227
+would be equal to the negative log of the Ka.
+
+72
+00:04:41,227 --> 00:04:44,393
+the negative log of the Ka,so for HCl
+
+73
+00:04:44,393 --> 00:04:50,046
+we will plug in our number here,so we will plug in 10^7
+
+74
+00:04:50,046 --> 00:04:52,730
+so let's go ahead and do that calculation,so if we
+
+75
+00:04:52,730 --> 00:04:57,141
+plugged in 10^7, the pKa would be equal
+
+76
+00:04:57,141 --> 00:05:01,645
+to the negative log of 10^7
+
+77
+00:05:01,645 --> 00:05:04,698
+,which is equal to -7
+
+78
+00:05:04,698 --> 00:05:08,482
+so you could say that the pKa of HCl
+
+79
+00:05:08,482 --> 00:05:12,650
+is equal to -7,which is again the number is easier
+
+80
+00:05:12,650 --> 00:05:15,482
+to work with than 10^7
+
+81
+00:05:15,482 --> 00:05:19,236
+and so using the pKa way of doing
+
+82
+00:05:19,236 --> 00:05:26,902
+it,you are gonna get a range of pKa's approximately -10 to approximately 50,and so
+
+83
+00:05:26,902 --> 00:05:30,645
+of the compounds that you discuss,you are usually gonna be in this range
+
+84
+00:05:30,645 --> 00:05:33,310
+so once again it's just much easier to work with
+
+85
+00:05:33,310 --> 00:05:39,528
+now mathematically the higher this number is,right,so this number
+
+86
+00:05:39,528 --> 00:05:42,111
+right here 10^7 the lower the value
+
+87
+00:05:42,111 --> 00:05:46,502
+you're gonna get for your pKa,and so that allows
+
+88
+00:05:46,502 --> 00:05:49,527
+you to realize that mathematically the
+
+89
+00:05:49,527 --> 00:05:54,112
+stronger the acid is ,the lower the pKa value that you
+
+90
+00:05:54,112 --> 00:05:58,107
+are going to get,and so conversely the weaker the acid
+
+91
+00:05:58,107 --> 00:06:02,108
+, the higher the pKa value that you will get.So when you are trying
+
+92
+00:06:02,108 --> 00:06:05,707
+to compare two molecules in terms of acidity
+
+93
+00:06:05,707 --> 00:06:09,970
+if you look at their pKa values the molecules with the lower
+
+94
+00:06:09,970 --> 00:06:13,639
+pKa values is going to be the stronger acid,so let's go
+
+95
+00:06:13,639 --> 00:06:16,306
+ahead and do an example
+
+96
+00:06:16,306 --> 00:06:18,633
+you are gonna see how to apply this
+
+97
+00:06:18,633 --> 00:06:21,437
+skill.If we took the ethane molecule,so ethane
+
+98
+00:06:21,437 --> 00:06:24,925
+would be c2h6 ,so go ahead and put in
+
+99
+00:06:24,925 --> 00:06:28,042
+these hydrogens here like that
+
+100
+00:06:28,042 --> 00:06:32,634
+we were comparing ethane to ethanol,let's go ahead and draw
+
+101
+00:06:32,634 --> 00:06:36,035
+an ethanol now.So ethanol is a very similar molecule
+
+102
+00:06:36,035 --> 00:06:40,003
+the only difference is there is gonna be an oxygen and
+
+103
+00:06:40,003 --> 00:06:44,175
+there is going to be an hydrogen on that oxygen here.
+
+104
+00:06:44,175 --> 00:06:47,773
+Here are two dot structures and if you are thinking about the acidity
+
+105
+00:06:47,773 --> 00:06:51,676
+of these two molecules if you look at the molecule on the left for ethane
+
+106
+00:06:51,676 --> 00:06:55,568
+all these hydrogens are equivalent,so in terms of donating a proton I could
+
+107
+00:06:55,568 --> 00:06:59,835
+say that thid could be the proton that is donated.When you look at ethanol
+
+108
+00:06:59,835 --> 00:07:02,773
+all the hydrogens are not equivalent.
+
+109
+00:07:02,773 --> 00:07:06,977
+In the acid-base chemistry,this is going to be the acidic proton.
+
+110
+00:07:06,977 --> 00:07:11,302
+And the measured pKa values for this molecules,ethane turns out to have a
+
+111
+00:07:11,302 --> 00:07:14,508
+pKa of approximately 50 and ethanol
+
+112
+00:07:14,508 --> 00:07:20,390
+has a pKa value of approximately 16.
+
+113
+00:07:20,390 --> 00:07:22,769
+So thinking about the math,remember the lower the
+
+114
+00:07:22,769 --> 00:07:26,236
+pKa value,the stronger the acid ,and so
+
+115
+00:07:26,236 --> 00:07:30,240
+ethanol is a stronger acid
+
+116
+00:07:30,240 --> 00:07:38,108
+than ethane.In terms of how much more acidic is ethanol than ethane,it might be
+
+117
+00:07:38,108 --> 00:07:42,158
+tempting just using subtract those numbers.So 50
+
+118
+00:07:42,158 --> 00:07:47,025
+-16 gives you 34,so you might be tempted to say that ethanol 34
+
+119
+00:07:47,025 --> 00:07:54,759
+times acidic than ethane.It's 34 orders of magnitude more acidic than ethane
+
+120
+00:07:54,759 --> 00:07:57,257
+is.So in reality ethanol is ten
+
+121
+00:07:57,257 --> 00:08:01,554
+to the 34th times more acidic,which
+
+122
+00:08:01,554 --> 00:08:05,357
+is an extremely large number,and so for all practical
+
+123
+00:08:05,357 --> 00:08:08,155
+purposes,ethanol is
+
+124
+00:08:08,155 --> 00:08:15,392
+acidic but ethane is not acidic at all.That gives you these relative values,so ethanol
+
+125
+00:08:15,392 --> 00:08:20,222
+is much more acidic than ethane,but ethanol is not
+
+126
+00:08:20,222 --> 00:08:24,223
+anywhere near as acidic as HCl is,so HCl is considered
+
+127
+00:08:24,223 --> 00:08:28,157
+to be a strong acid,ethanol is not considered to be a strong acid.
+
+128
+00:08:28,157 --> 00:08:32,027
+and ethane is not considered to be an acid at all.But remember these values are
+
+129
+00:08:32,027 --> 00:08:35,299
+all relative,but these pKa values are extremely
+
+130
+00:08:35,299 --> 00:08:39,637
+improtant and you'll see them come up several times in organic chemistry course.
+
+131
+00:08:39,637 --> 00:08:43,021
+The next video we will talk about the difference,uh,why
+
+132
+00:08:43,021 --> 00:08:46,394
+there's large difference in acidity between ethanol and
+
+133
+00:08:46,394 --> 00:08:48,000
+ethane.

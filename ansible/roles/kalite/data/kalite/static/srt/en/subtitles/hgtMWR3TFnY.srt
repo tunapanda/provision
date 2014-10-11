@@ -1,0 +1,2556 @@
+1
+00:00:01,710 --> 00:00:05,120
+The normal distribution is
+arguably, the most important
+
+2
+00:00:05,120 --> 00:00:06,220
+concept in statistics.
+
+3
+00:00:06,220 --> 00:00:08,660
+Everything we do or almost
+everything we do in inferential
+
+4
+00:00:08,660 --> 00:00:11,220
+statistics which is
+essentially, making inferences
+
+5
+00:00:11,220 --> 00:00:15,340
+based on data points, is to
+some degree, based on the
+
+6
+00:00:15,340 --> 00:00:16,460
+normal distribution.
+
+7
+00:00:16,460 --> 00:00:23,470
+So, what I want to do in this
+video, in this spreadsheet, is
+
+8
+00:00:23,470 --> 00:00:26,100
+to essentially give you as deep
+an understanding of the normal
+
+9
+00:00:26,100 --> 00:00:27,850
+distribution as possible.
+
+10
+00:00:27,850 --> 00:00:31,070
+For the rest of your life if
+someone says, we're assuming a
+
+11
+00:00:31,070 --> 00:00:32,810
+normal distribution you can
+say, oh I know what that is,
+
+12
+00:00:32,810 --> 00:00:34,190
+this is a formula and I
+understand how to
+
+13
+00:00:34,190 --> 00:00:35,310
+use it et cetera.
+
+14
+00:00:35,310 --> 00:00:38,550
+So this spreadsheet, just so
+you know, is downloadable at
+
+15
+00:00:38,550 --> 00:00:43,880
+www.khanacademy.org/downlads/
+and if you just type that part
+
+16
+00:00:43,880 --> 00:00:45,550
+in you'll see everything
+that's downloadable.
+
+17
+00:00:45,550 --> 00:00:50,020
+Then download/normalintro.xls
+and you'll get this
+
+18
+00:00:50,020 --> 00:00:51,470
+spreadsheet right here.
+
+19
+00:00:51,470 --> 00:00:53,360
+I think I did this in
+the right standard.
+
+20
+00:00:53,360 --> 00:00:55,920
+Anyway, if you go onto
+Wikipedia and if you were to
+
+21
+00:00:55,920 --> 00:00:59,420
+type in normal distribution or
+were to do a search for a
+
+22
+00:00:59,420 --> 00:01:02,910
+normal distribution -- let me
+actually get my pen tool going
+
+23
+00:01:02,910 --> 00:01:04,740
+-- this is what you would see.
+
+24
+00:01:04,740 --> 00:01:06,950
+I literally copied and pasted
+this right here from Wikipedia.
+
+25
+00:01:06,950 --> 00:01:10,040
+I know it looks daunting, you
+have all these Greek letters
+
+26
+00:01:10,040 --> 00:01:13,620
+there, but this is just -- this
+sigma right here -- that is
+
+27
+00:01:13,620 --> 00:01:15,950
+just the standard deviation
+of the distribution.
+
+28
+00:01:15,950 --> 00:01:18,510
+We'll play with that a little
+bit in this chart and
+
+29
+00:01:18,510 --> 00:01:20,780
+see what that means.
+
+30
+00:01:20,780 --> 00:01:22,610
+You know what the standard
+deviation means in general but
+
+31
+00:01:22,610 --> 00:01:25,800
+this is the standard deviation
+of this distribution, which is
+
+32
+00:01:25,800 --> 00:01:27,620
+a probability density function.
+
+33
+00:01:27,620 --> 00:01:30,110
+And I encourage you to rewatch
+the video on probability
+
+34
+00:01:30,110 --> 00:01:32,280
+density functions because it's
+a little bit of a transition
+
+35
+00:01:32,280 --> 00:01:34,880
+going from the binomial
+distribution, which
+
+36
+00:01:34,880 --> 00:01:36,320
+is discreet.
+
+37
+00:01:36,320 --> 00:01:39,180
+The binomial distribution will
+say, what is the probability of
+
+38
+00:01:39,180 --> 00:01:41,740
+getting a 5, and you just kind
+of look at that histogram or
+
+39
+00:01:41,740 --> 00:01:44,220
+that bar chart and say oh,
+that's the probability.
+
+40
+00:01:44,220 --> 00:01:48,220
+But in a continuous probability
+distribution or a continuous
+
+41
+00:01:48,220 --> 00:01:51,010
+probability density function,
+you can't just say what is the
+
+42
+00:01:51,010 --> 00:01:52,930
+probability of me getting a 5.
+
+43
+00:01:52,930 --> 00:01:55,590
+You have to say what is the
+probability of me getting
+
+44
+00:01:55,590 --> 00:01:59,920
+between, let's say
+a 4.5 and a 5.5.
+
+45
+00:01:59,920 --> 00:02:02,180
+You have to give it some range.
+
+46
+00:02:02,180 --> 00:02:04,700
+And then, your probability
+isn't given by just
+
+47
+00:02:04,700 --> 00:02:06,350
+reading this graph.
+
+48
+00:02:06,350 --> 00:02:09,265
+The probability is given by
+the area under that curve.
+
+49
+00:02:11,780 --> 00:02:13,450
+It be given by this area.
+
+50
+00:02:13,450 --> 00:02:17,260
+For those of you who know
+calculus, if p of x is our
+
+51
+00:02:17,260 --> 00:02:19,140
+probability density function --
+doesn't have to be a normal
+
+52
+00:02:19,140 --> 00:02:24,290
+distribution although it often
+is a normal distribution -- the
+
+53
+00:02:24,290 --> 00:02:28,740
+way you actually figure out the
+probability, let's say between
+
+54
+00:02:28,740 --> 00:02:29,890
+4 and a half and 5 and half.
+
+55
+00:02:29,890 --> 00:02:33,570
+What is the probability, the
+odds of me getting between 4
+
+56
+00:02:33,570 --> 00:02:36,220
+and a half and 5 and a half
+inches of rain tomorrow?
+
+57
+00:02:36,220 --> 00:02:42,460
+It'll actually be the integral
+from 4 and a half to 5 and a
+
+58
+00:02:42,460 --> 00:02:47,060
+half of this probability
+density function or of this
+
+59
+00:02:47,060 --> 00:02:50,800
+probably density
+function, the x.
+
+60
+00:02:50,800 --> 00:02:51,950
+So that's just the
+area of the curve.
+
+61
+00:02:51,950 --> 00:02:54,370
+For those of you who don't know
+calculus yet, I encourage
+
+62
+00:02:54,370 --> 00:02:55,590
+you to watch that playlist.
+
+63
+00:02:55,590 --> 00:02:58,030
+But all this is saying is
+the area of the curve
+
+64
+00:02:58,030 --> 00:03:00,660
+from here to here.
+
+65
+00:03:00,660 --> 00:03:03,150
+It turns out for the normal
+distribution, this isn't an
+
+66
+00:03:03,150 --> 00:03:06,000
+easy thing to evaluate
+analytical and so you
+
+67
+00:03:06,000 --> 00:03:08,040
+do it numerically.
+
+68
+00:03:08,040 --> 00:03:10,440
+You don't have to feel bad
+about doing it numerically
+
+69
+00:03:10,440 --> 00:03:13,570
+because oh, how do I take
+the integral of this?
+
+70
+00:03:13,570 --> 00:03:14,990
+There's actually functions
+for it and you can
+
+71
+00:03:14,990 --> 00:03:15,960
+even approximate it.
+
+72
+00:03:15,960 --> 00:03:18,300
+One way you can approximate it
+is you could use it the way you
+
+73
+00:03:18,300 --> 00:03:20,000
+approximate integrals
+in general.
+
+74
+00:03:20,000 --> 00:03:21,630
+You could say well, what
+is the area of this?
+
+75
+00:03:21,630 --> 00:03:24,750
+Well it's roughly the
+area of this trapezoid.
+
+76
+00:03:24,750 --> 00:03:27,290
+So you could figure out the
+area of that trapezoid, taking
+
+77
+00:03:27,290 --> 00:03:29,880
+the average of that point and
+that point and multiplying
+
+78
+00:03:29,880 --> 00:03:30,750
+it by the base.
+
+79
+00:03:30,750 --> 00:03:33,880
+Or you can just take the level
+of -- let me change colors
+
+80
+00:03:33,880 --> 00:03:36,830
+because I think I'm overdoing
+it with the green -- or you
+
+81
+00:03:36,830 --> 00:03:41,300
+could just take the height of
+this line right here and
+
+82
+00:03:41,300 --> 00:03:42,910
+multiply it by the base.
+
+83
+00:03:42,910 --> 00:03:46,060
+You'll get the area of this
+rectangle, which might be a
+
+84
+00:03:46,060 --> 00:03:49,410
+pretty good approximation for
+the area under the curve.
+
+85
+00:03:49,410 --> 00:03:49,600
+Right?
+
+86
+00:03:49,600 --> 00:03:52,060
+Because you'll have a little
+bit extra over here but you're
+
+87
+00:03:52,060 --> 00:03:53,680
+going to miss a little bit
+over there, so it might be a
+
+88
+00:03:53,680 --> 00:03:54,580
+pretty good approximation.
+
+89
+00:03:54,580 --> 00:03:56,760
+That's actually what I do in
+the other video, just to
+
+90
+00:03:56,760 --> 00:03:59,870
+approximate the area under the
+curve and give you a good sense
+
+91
+00:03:59,870 --> 00:04:03,950
+that the normal distribution is
+what the binomial distribution
+
+92
+00:04:03,950 --> 00:04:08,450
+becomes essentially, if
+you have many trials.
+
+93
+00:04:08,450 --> 00:04:10,720
+What's interesting about the
+normal distribution -- I don't
+
+94
+00:04:10,720 --> 00:04:12,310
+know if I mentioned this
+already -- this right
+
+95
+00:04:12,310 --> 00:04:14,510
+here, this is the graph.
+
+96
+00:04:17,340 --> 00:04:19,400
+This is just another word,
+people might talk about the
+
+97
+00:04:19,400 --> 00:04:20,410
+central limit theorem.
+
+98
+00:04:20,410 --> 00:04:23,350
+But this is really kind of one
+of the most important or
+
+99
+00:04:23,350 --> 00:04:25,660
+interesting things about our
+universe, central
+
+100
+00:04:25,660 --> 00:04:27,810
+limit theorem.
+
+101
+00:04:27,810 --> 00:04:30,560
+I won't prove it here but it
+essentially tells us, and you
+
+102
+00:04:30,560 --> 00:04:32,990
+could kind of understand it by
+looking at the other video
+
+103
+00:04:32,990 --> 00:04:34,690
+where we talk about
+flipping coins.
+
+104
+00:04:34,690 --> 00:04:38,230
+If we were to do many flips of
+coins -- those are independent
+
+105
+00:04:38,230 --> 00:04:40,570
+trials of each other -- and if
+you take the sum of all of your
+
+106
+00:04:40,570 --> 00:04:42,380
+flips, if you were to give
+yourself one point -- if you
+
+107
+00:04:42,380 --> 00:04:45,360
+got ahead every time -- and if
+you're take the sum of them as
+
+108
+00:04:45,360 --> 00:04:48,150
+you approach an infinite number
+flips, you approach the
+
+109
+00:04:48,150 --> 00:04:50,180
+normal distribution.
+
+110
+00:04:50,180 --> 00:04:53,330
+What's interesting about that
+is each of those trials -- in
+
+111
+00:04:53,330 --> 00:04:55,480
+the case of flipping the coin,
+each trial is a flip of the
+
+112
+00:04:55,480 --> 00:04:58,240
+coin -- each of those trials
+don't have to have a
+
+113
+00:04:58,240 --> 00:04:59,580
+normal distribution.
+
+114
+00:04:59,580 --> 00:05:03,950
+So we could be talking about
+molecular interactions and
+
+115
+00:05:03,950 --> 00:05:09,850
+every time compound x interacts
+with compound y what might it
+
+116
+00:05:09,850 --> 00:05:12,600
+result doesn't have to have
+to be normally distributed.
+
+117
+00:05:12,600 --> 00:05:15,010
+But what happens is, if you
+take a sum of a ton of those
+
+118
+00:05:15,010 --> 00:05:18,340
+interactions, then all of a
+sudden the end result will
+
+119
+00:05:18,340 --> 00:05:20,100
+be normally distributed.
+
+120
+00:05:20,100 --> 00:05:22,550
+This is why this is such an
+important distribution.
+
+121
+00:05:22,550 --> 00:05:27,540
+It shows up in nature all of
+the time and if you do take
+
+122
+00:05:27,540 --> 00:05:31,250
+data points from something that
+is very complex and it is the
+
+123
+00:05:31,250 --> 00:05:36,740
+sum of arguably, many almost
+infinite individual independent
+
+124
+00:05:36,740 --> 00:05:39,160
+trials, it's a pretty good
+assumption to assume the
+
+125
+00:05:39,160 --> 00:05:40,040
+normal distribution.
+
+126
+00:05:40,040 --> 00:05:42,640
+We'll do other videos where we
+talk about when it is a good
+
+127
+00:05:42,640 --> 00:05:44,860
+assumption, when it isn't
+a good assumption.
+
+128
+00:05:44,860 --> 00:05:47,120
+But anyway, just to digest
+this a little bit and let
+
+129
+00:05:47,120 --> 00:05:48,880
+me actually rewrite it.
+
+130
+00:05:48,880 --> 00:05:50,590
+This is what you'll see on
+Wikipedia but this could be
+
+131
+00:05:50,590 --> 00:05:58,080
+rewritten as 1 over sigma times
+the square root of 2 pi times
+
+132
+00:05:58,080 --> 00:06:00,250
+x is just e to that power.
+
+133
+00:06:00,250 --> 00:06:05,386
+So it's just e to the, this
+whole thing over here, minus
+
+134
+00:06:05,386 --> 00:06:12,670
+x minus the mean squared
+over 2 sigma squared.
+
+135
+00:06:12,670 --> 00:06:14,200
+This is the standard deviation.
+
+136
+00:06:14,200 --> 00:06:16,900
+Standard deviation squared
+is just the variance.
+
+137
+00:06:16,900 --> 00:06:18,330
+Just so you know how to use
+this, you're like, oh wow,
+
+138
+00:06:18,330 --> 00:06:20,770
+there's so many Greek
+letters here, what do I do?
+
+139
+00:06:20,770 --> 00:06:22,740
+This tells you the
+height of the normal
+
+140
+00:06:22,740 --> 00:06:24,100
+distribution function.
+
+141
+00:06:24,100 --> 00:06:37,950
+Let's say that this is the
+distribution of people's
+
+142
+00:06:37,950 --> 00:06:39,200
+heights above 5'9.
+
+143
+00:06:39,200 --> 00:06:41,060
+Let's say that this
+was 5'9 and not 0.
+
+144
+00:06:43,920 --> 00:06:51,980
+What this tells you is, if you
+wanted to figure out what is
+
+145
+00:06:51,980 --> 00:06:55,600
+the probability of finding
+someone who was roughly 5
+
+146
+00:06:55,600 --> 00:06:58,410
+inches taller than the average
+right here, what you would
+
+147
+00:06:58,410 --> 00:07:03,170
+do is you would put in this
+number here, this 5 into x.
+
+148
+00:07:03,170 --> 00:07:05,390
+And then you know the standard
+deviation, because you've
+
+149
+00:07:05,390 --> 00:07:07,020
+taken a bunch of samples.
+
+150
+00:07:07,020 --> 00:07:09,200
+You know the variance, which is
+the standard deviation squared.
+
+151
+00:07:09,200 --> 00:07:11,860
+You know the mean, and you just
+put your x in there and it'll
+
+152
+00:07:11,860 --> 00:07:14,200
+tell you the height
+of the function.
+
+153
+00:07:14,200 --> 00:07:15,940
+And then you have to
+give it a range.
+
+154
+00:07:15,940 --> 00:07:19,290
+You can't just say how many
+people are exactly 5 inches
+
+155
+00:07:19,290 --> 00:07:20,850
+taller than average.
+
+156
+00:07:20,850 --> 00:07:23,330
+You would actually say how
+many people are between 5.1
+
+157
+00:07:23,330 --> 00:07:25,567
+inches and 4.9 nine inches
+taller than the average.
+
+158
+00:07:25,567 --> 00:07:27,080
+You have to give it a little
+bit of range because no is
+
+159
+00:07:27,080 --> 00:07:30,880
+exactly, it's almost infinitely
+impossible to the atom
+
+160
+00:07:30,880 --> 00:07:32,410
+to be exactly 5'9.
+
+161
+00:07:32,410 --> 00:07:35,230
+Even the definition of
+an inch isn't defined
+
+162
+00:07:35,230 --> 00:07:36,220
+that particularly.
+
+163
+00:07:36,220 --> 00:07:39,100
+So that's how you'd
+use this function.
+
+164
+00:07:39,100 --> 00:07:42,760
+This is so heavily used in,
+one, it shows up in nature
+
+165
+00:07:42,760 --> 00:07:46,350
+but in all of inferential
+statistics, I think it behooves
+
+166
+00:07:46,350 --> 00:07:49,320
+you to become as familiar with
+this formula as possible.
+
+167
+00:07:49,320 --> 00:07:51,710
+I guess to make that happen.
+
+168
+00:07:51,710 --> 00:07:54,250
+Let me play around a little bit
+with this formula just to kind
+
+169
+00:07:54,250 --> 00:07:57,890
+of give you an intuition of how
+everything works out et cetera.
+
+170
+00:07:57,890 --> 00:08:02,090
+If I were to take this -- I'd
+like to maybe help you memorize
+
+171
+00:08:02,090 --> 00:08:05,150
+this -- this could be rewritten
+as, if we take the sigma into
+
+172
+00:08:05,150 --> 00:08:07,440
+the square root sign, if we
+take the standard deviation in
+
+173
+00:08:07,440 --> 00:08:11,610
+there, it becomes 1 over
+the square root of 2
+
+174
+00:08:11,610 --> 00:08:13,800
+pie sigma squared.
+
+175
+00:08:13,800 --> 00:08:15,570
+I've never seen it written this
+way but it gives me a little
+
+176
+00:08:15,570 --> 00:08:18,980
+intuition that sigma squared,
+it's always written as sigma
+
+177
+00:08:18,980 --> 00:08:20,790
+squared, but it's really just
+the variance and the variance
+
+178
+00:08:20,790 --> 00:08:22,990
+is what you calculate before
+you calculate the standard
+
+179
+00:08:22,990 --> 00:08:25,220
+deviation, so that's
+interesting.
+
+180
+00:08:25,220 --> 00:08:29,060
+And then this top right here,
+this could be written as e to
+
+181
+00:08:29,060 --> 00:08:35,910
+the minus 1 half times and both
+of these things here are
+
+182
+00:08:35,910 --> 00:08:40,850
+squared so we could just say x
+minus the mean over
+
+183
+00:08:40,850 --> 00:08:43,630
+sigma squared.
+
+184
+00:08:43,630 --> 00:08:46,540
+And this kind of clarifies
+what's going on here
+
+185
+00:08:46,540 --> 00:08:47,570
+a little bit better.
+
+186
+00:08:47,570 --> 00:08:50,010
+Because what's this?
+
+187
+00:08:50,010 --> 00:08:52,970
+x minus sigma is the distance
+between whatever point
+
+188
+00:08:52,970 --> 00:08:54,680
+we want to find.
+
+189
+00:08:54,680 --> 00:08:57,580
+Let's say we're here.
+
+190
+00:08:57,580 --> 00:09:02,520
+x minus mu is the mean so
+that's here so that's this
+
+191
+00:09:02,520 --> 00:09:05,510
+distance, and this is the
+standard deviation which
+
+192
+00:09:05,510 --> 00:09:07,140
+is this distance.
+
+193
+00:09:07,140 --> 00:09:11,680
+So this in here tells me how
+many standard deviations
+
+194
+00:09:11,680 --> 00:09:12,880
+I am away from the mean.
+
+195
+00:09:12,880 --> 00:09:14,560
+That's actually called the
+standard z score, I talked
+
+196
+00:09:14,560 --> 00:09:15,700
+about it in the other video.
+
+197
+00:09:15,700 --> 00:09:18,740
+And then we square that
+and then we take this
+
+198
+00:09:18,740 --> 00:09:20,340
+to the minus 1/2.
+
+199
+00:09:20,340 --> 00:09:21,420
+Well let me rewrite that.
+
+200
+00:09:21,420 --> 00:09:25,930
+If I were to write e to the
+minus 1/2 times a, that's the
+
+201
+00:09:25,930 --> 00:09:30,530
+same thing as e to the a to
+the minus 1/2 power right?
+
+202
+00:09:30,530 --> 00:09:32,480
+If you take something to an
+exponent and take that to
+
+203
+00:09:32,480 --> 00:09:35,200
+an exponent you can just
+multiply these exponents.
+
+204
+00:09:35,200 --> 00:09:39,460
+So likewise, this could be
+rewritten as, this is equal to
+
+205
+00:09:39,460 --> 00:09:46,500
+1 over the square root of 2
+pi sigma squared, which
+
+206
+00:09:46,500 --> 00:09:47,610
+is just the variance.
+
+207
+00:09:47,610 --> 00:09:49,120
+And I'm just playing around
+with the formula because I
+
+208
+00:09:49,120 --> 00:09:51,165
+really want you to see all
+the ways, maybe you'll
+
+209
+00:09:51,165 --> 00:09:52,270
+get a little intuition.
+
+210
+00:09:52,270 --> 00:09:54,300
+I encourage you to email me
+if you see some insight
+
+211
+00:09:54,300 --> 00:09:57,160
+on why this exists.
+
+212
+00:09:57,160 --> 00:09:59,160
+Once again, I think it is cool
+then all of the sudden we have
+
+213
+00:09:59,160 --> 00:10:01,950
+this other formula that
+has pi and e in it.
+
+214
+00:10:04,610 --> 00:10:07,970
+So many phenomenon are
+described by this and once
+
+215
+00:10:07,970 --> 00:10:11,320
+again pi and e show up together
+just like e to the i pi
+
+216
+00:10:11,320 --> 00:10:12,120
+is equal to negative 1.
+
+217
+00:10:12,120 --> 00:10:15,400
+It tells you something
+about our universe.
+
+218
+00:10:15,400 --> 00:10:24,870
+Anyway, I could rewrite this as
+e to the x minus mu over sigma
+
+219
+00:10:24,870 --> 00:10:28,690
+squared and all of that
+to the minus 1/2.
+
+220
+00:10:28,690 --> 00:10:30,970
+Something in the minus 1/2
+power, that's just 1 over
+
+221
+00:10:30,970 --> 00:10:33,360
+the square root which is
+already going on here.
+
+222
+00:10:33,360 --> 00:10:40,650
+So we could just rewrite this
+over here as 1 over the square
+
+223
+00:10:40,650 --> 00:10:52,180
+root of 2 pi times the variance
+times e to essentially,
+
+224
+00:10:52,180 --> 00:10:54,080
+our z score squared.
+
+225
+00:10:54,080 --> 00:10:58,600
+If we say z is this thing in
+here, z is how many standard
+
+226
+00:10:58,600 --> 00:11:02,370
+deviations we are from the
+mean, z score squared.
+
+227
+00:11:02,370 --> 00:11:05,500
+And all of the sudden
+this becomes very clean.
+
+228
+00:11:05,500 --> 00:11:09,240
+We just say 2 pi times our
+variance times e to the number
+
+229
+00:11:09,240 --> 00:11:11,700
+standard deviations we are away
+from the mean and
+
+230
+00:11:11,700 --> 00:11:12,760
+you square that.
+
+231
+00:11:12,760 --> 00:11:16,590
+You take the square root of
+that thing and invert it and
+
+232
+00:11:16,590 --> 00:11:17,880
+that's the normal distribution.
+
+233
+00:11:17,880 --> 00:11:18,930
+Anyway, I wanted to do that.
+
+234
+00:11:18,930 --> 00:11:20,590
+I thought it was neat
+and it's interesting to
+
+235
+00:11:20,590 --> 00:11:21,290
+play around with it.
+
+236
+00:11:21,290 --> 00:11:23,850
+Then that way if you see it in
+any of these other forms in the
+
+237
+00:11:23,850 --> 00:11:26,070
+rest of your life your won't
+say what's that, I thought the
+
+238
+00:11:26,070 --> 00:11:29,240
+normal distribution was this or
+it was this and now you know.
+
+239
+00:11:29,240 --> 00:11:31,480
+With that said, let's play
+around a little bit with
+
+240
+00:11:31,480 --> 00:11:34,060
+this normal distribution.
+
+241
+00:11:34,060 --> 00:11:36,370
+So this spreadsheet,
+I've plotted the
+
+242
+00:11:36,370 --> 00:11:36,880
+normal distribution.
+
+243
+00:11:36,880 --> 00:11:38,780
+You can change the assumptions
+that are in this kind
+
+244
+00:11:38,780 --> 00:11:40,670
+of green, blue color.
+
+245
+00:11:40,670 --> 00:11:44,190
+So right now it's plotting it
+with a mean of zero and a
+
+246
+00:11:44,190 --> 00:11:45,360
+standard deviation of 4.
+
+247
+00:11:45,360 --> 00:11:47,930
+I just write the variance here
+just for your information,
+
+248
+00:11:47,930 --> 00:11:50,090
+the variance is just the
+standard deviation squared.
+
+249
+00:11:50,090 --> 00:11:52,810
+And so what happens when
+you change the mean?
+
+250
+00:11:52,810 --> 00:11:57,170
+So if the mean goes from 0
+to let's say it goes to 5.
+
+251
+00:11:57,170 --> 00:12:00,740
+Notice, this graph just
+shifted to the right by 5.
+
+252
+00:12:00,740 --> 00:12:00,920
+Right?
+
+253
+00:12:00,920 --> 00:12:03,400
+It was centered here, now
+it's centered over here.
+
+254
+00:12:03,400 --> 00:12:07,270
+If we make it minus
+5, what happens?
+
+255
+00:12:07,270 --> 00:12:10,070
+The whole bell curve just
+shifts 5 to the left
+
+256
+00:12:10,070 --> 00:12:11,270
+from the center.
+
+257
+00:12:11,270 --> 00:12:13,320
+Now what happens when you
+change the standard deviation.
+
+258
+00:12:13,320 --> 00:12:20,490
+The variance is the average
+squared distance from the mean,
+
+259
+00:12:20,490 --> 00:12:22,010
+the standard deviation is
+the square root of that.
+
+260
+00:12:22,010 --> 00:12:25,150
+So it's kind of, not exactly,
+but kind of the average
+
+261
+00:12:25,150 --> 00:12:26,180
+distance from the mean.
+
+262
+00:12:26,180 --> 00:12:29,790
+So the smaller the standard
+deviation the closer a
+
+263
+00:12:29,790 --> 00:12:31,440
+lot of the points are
+going to be the mean.
+
+264
+00:12:31,440 --> 00:12:33,763
+We should get kind of a
+narrower graph and let's
+
+265
+00:12:33,763 --> 00:12:34,740
+see if that happens.
+
+266
+00:12:34,740 --> 00:12:38,630
+When the standard deviation
+is 2, we see that.
+
+267
+00:12:38,630 --> 00:12:41,550
+The graph you're more likely
+to be really close to the
+
+268
+00:12:41,550 --> 00:12:42,820
+mean than further away.
+
+269
+00:12:42,820 --> 00:12:46,450
+If you make the standard
+deviation, if you make it 10,
+
+270
+00:12:46,450 --> 00:12:48,470
+all of the sudden you got a
+really flat graph and this
+
+271
+00:12:48,470 --> 00:12:50,140
+thing keeps going on forever.
+
+272
+00:12:50,140 --> 00:12:52,880
+And that's a key difference:
+the binomial distribution
+
+273
+00:12:52,880 --> 00:12:54,000
+is always finite.
+
+274
+00:12:54,000 --> 00:12:56,450
+You can only have a finite
+number of values while the
+
+275
+00:12:56,450 --> 00:12:59,640
+normal distribution is
+defined over the entire
+
+276
+00:12:59,640 --> 00:13:01,860
+real number line.
+
+277
+00:13:01,860 --> 00:13:06,490
+So the probability, if you
+have a mean of minus 5 and a
+
+278
+00:13:06,490 --> 00:13:09,330
+standard deviation of 10, the
+probability of getting a
+
+279
+00:13:09,330 --> 00:13:15,200
+thousand here is very low but
+there's some probability.
+
+280
+00:13:15,200 --> 00:13:18,800
+There's some probably that all
+of the atoms in my body just
+
+281
+00:13:18,800 --> 00:13:20,720
+arrange perfectly that I fall
+through the seat
+
+282
+00:13:20,720 --> 00:13:21,220
+I'm sitting on.
+
+283
+00:13:21,220 --> 00:13:23,850
+It's very unlikely and it
+probably won't happen in
+
+284
+00:13:23,850 --> 00:13:26,750
+the life of the universe
+but it can happen.
+
+285
+00:13:26,750 --> 00:13:29,260
+And that can be described by
+normal distribution because it
+
+286
+00:13:29,260 --> 00:13:31,880
+says, anything can happen
+although it could
+
+287
+00:13:31,880 --> 00:13:32,480
+very unprobable.
+
+288
+00:13:35,090 --> 00:13:36,940
+The thing I talked about at the
+beginning of the video is when
+
+289
+00:13:36,940 --> 00:13:41,370
+you figure out a normal
+distribution you can't just
+
+290
+00:13:41,370 --> 00:13:44,260
+look at this point on the graph
+-- let me get the drop pen tool
+
+291
+00:13:44,260 --> 00:13:47,580
+back -- you have to figure out
+the area under the curve
+
+292
+00:13:47,580 --> 00:13:50,570
+between two points.
+
+293
+00:13:50,570 --> 00:13:52,755
+So if I wanted to say -- let's
+say this is our distribution
+
+294
+00:13:52,755 --> 00:13:55,950
+-- and I said what is the
+probability that I get 0.
+
+295
+00:13:55,950 --> 00:13:57,550
+I don't know what phenomena
+this is describing
+
+296
+00:13:57,550 --> 00:13:59,210
+but at 0 happened.
+
+297
+00:13:59,210 --> 00:14:04,880
+If I say exactly 0, the
+probability is 0 -- I shouldn't
+
+298
+00:14:04,880 --> 00:14:07,290
+use 0 too much -- because
+the area under the curve,
+
+299
+00:14:07,290 --> 00:14:09,960
+just under 0, there's no
+area, it's just a line.
+
+300
+00:14:09,960 --> 00:14:11,280
+You have to say
+between a range.
+
+301
+00:14:11,280 --> 00:14:17,290
+So you have to say the
+probability between -- and
+
+302
+00:14:17,290 --> 00:14:28,260
+actually I can type it in here
+-- between minus .005 and plus
+
+303
+00:14:28,260 --> 00:14:33,540
+.005 is -- well it rounded -- it
+says they're close to 0.
+
+304
+00:14:33,540 --> 00:14:38,340
+Let me do it, between
+minus 1 and between 1.
+
+305
+00:14:38,340 --> 00:14:40,450
+It calculated at 7 percent
+and I'll show you how I
+
+306
+00:14:40,450 --> 00:14:43,360
+calculated this in a second.
+
+307
+00:14:43,360 --> 00:14:44,910
+So let me get the
+screen draw tool.
+
+308
+00:14:44,910 --> 00:14:46,440
+So what did I just do?
+
+309
+00:14:46,440 --> 00:14:49,690
+Between minus 1 and 1 -- and
+I'll show you the behind the
+
+310
+00:14:49,690 --> 00:14:52,910
+scenes, what excel is doing --
+we're going from minus 1, which
+
+311
+00:14:52,910 --> 00:14:56,770
+is roughly right here, to 1.
+
+312
+00:14:56,770 --> 00:15:01,090
+And we're calculating the
+area under the curve.
+
+313
+00:15:01,090 --> 00:15:05,220
+We're calculating this area or
+for those of you who know
+
+314
+00:15:05,220 --> 00:15:11,710
+calculus, we're calculating the
+integral from minus 1 to 1 of
+
+315
+00:15:11,710 --> 00:15:14,360
+this function where the
+standard deviation is right
+
+316
+00:15:14,360 --> 00:15:19,040
+here, is 10 and the
+mean is minus 5.
+
+317
+00:15:19,040 --> 00:15:20,070
+Actually, let me put that in.
+
+318
+00:15:20,070 --> 00:15:23,200
+So we're calculating, for this
+example, the way it's drawn
+
+319
+00:15:23,200 --> 00:15:28,130
+right here, the normal
+distribution function, our
+
+320
+00:15:28,130 --> 00:15:34,590
+standard deviation is 10 times
+square root of 2 pi times e to
+
+321
+00:15:34,590 --> 00:15:40,180
+the minus 1/2 times
+x minus our mean.
+
+322
+00:15:40,180 --> 00:15:42,100
+Our mean is negative right now.
+
+323
+00:15:42,100 --> 00:15:46,970
+Our mean is minus 5 so it's x
+plus 5 over the standard
+
+324
+00:15:46,970 --> 00:15:50,440
+deviation squared which is the
+variance, so that's
+
+325
+00:15:50,440 --> 00:15:55,730
+100 squared dx.
+
+326
+00:15:55,730 --> 00:15:59,040
+This is what this number is
+right here, this 7 percent
+
+327
+00:15:59,040 --> 00:16:02,150
+or actually .07 is the
+area right around there.
+
+328
+00:16:02,150 --> 00:16:04,710
+Now, unfortunately for us in
+the world, this isn't an
+
+329
+00:16:04,710 --> 00:16:07,400
+easy integral to evaluate
+analytical, even for those of
+
+330
+00:16:07,400 --> 00:16:08,870
+us who know our calculus.
+
+331
+00:16:08,870 --> 00:16:11,600
+So this tends to be
+done numerically.
+
+332
+00:16:11,600 --> 00:16:14,850
+And kind of an easy way to do
+this is -- well not as easy way
+
+333
+00:16:14,850 --> 00:16:18,620
+-- a function has been defined
+called the cumuluative
+
+334
+00:16:18,620 --> 00:16:21,860
+distribution function that is a
+useful tool for figuring
+
+335
+00:16:21,860 --> 00:16:22,560
+out this area.
+
+336
+00:16:22,560 --> 00:16:25,410
+So what the cumulative
+distribution function is
+
+337
+00:16:25,410 --> 00:16:28,350
+essentially -- let me call it
+the cumulative distribution
+
+338
+00:16:28,350 --> 00:16:32,220
+function -- it's
+a function of x.
+
+339
+00:16:32,220 --> 00:16:35,340
+It gives us the area under
+the curve, under this curve.
+
+340
+00:16:35,340 --> 00:16:39,040
+So let's say that this is x
+right here, that's our x.
+
+341
+00:16:39,040 --> 00:16:42,240
+It tells you the area
+under the curve up to x.
+
+342
+00:16:42,240 --> 00:16:44,130
+So another way to think about
+it, it tells you what is the
+
+343
+00:16:44,130 --> 00:16:46,980
+probability that you land
+at some value less
+
+344
+00:16:46,980 --> 00:16:47,990
+than your x value.
+
+345
+00:16:47,990 --> 00:16:53,580
+So it's the area from minus
+infinity to x of our
+
+346
+00:16:53,580 --> 00:16:55,050
+probability density function.
+
+347
+00:17:00,350 --> 00:17:04,220
+When you actually use the Excel
+normal distribution function,
+
+348
+00:17:04,220 --> 00:17:08,300
+let me say norm distribution.
+
+349
+00:17:08,300 --> 00:17:11,630
+You have to give it your
+x value, you give it the
+
+350
+00:17:11,630 --> 00:17:14,230
+mean, you give it the
+standard deviation.
+
+351
+00:17:14,230 --> 00:17:17,240
+And then you say whether you
+want the cumulative
+
+352
+00:17:17,240 --> 00:17:19,660
+distribution, in which case you
+say true or you want just this
+
+353
+00:17:19,660 --> 00:17:21,610
+normal distribution,
+which you say false.
+
+354
+00:17:21,610 --> 00:17:24,670
+So if you wanted to graph
+this right here, you
+
+355
+00:17:24,670 --> 00:17:27,590
+would say false in caps.
+
+356
+00:17:27,590 --> 00:17:29,390
+If you wanted to graph the
+cumulative distribution
+
+357
+00:17:29,390 --> 00:17:32,800
+function which I do down here
+-- let me move this down a
+
+358
+00:17:32,800 --> 00:17:38,776
+little bit, let me get out of
+pen tool
+
+359
+00:17:38,776 --> 00:17:44,684
+so the cumulative distribution function is -- right over here
+
+360
+00:17:44,684 --> 00:17:47,030
+then you say true when you make that Excel call.
+
+361
+00:17:47,030 --> 00:17:51,230
+So this is a cumulative
+distribution function for the same... for this
+
+362
+00:17:51,330 --> 00:17:53,260
+This is a normal distribution,
+here's a cumulative
+
+363
+00:17:53,260 --> 00:17:53,890
+distribution.
+
+364
+00:17:53,890 --> 00:17:55,600
+Just so you get the intuition.
+
+365
+00:17:55,600 --> 00:17:57,280
+If you want to know, what
+is the probability that I
+
+366
+00:17:57,280 --> 00:17:59,720
+get a value less than 20?
+
+367
+00:17:59,720 --> 00:18:01,660
+So I can get any value
+less than 20 given
+
+368
+00:18:01,660 --> 00:18:04,320
+this distribution.
+
+369
+00:18:04,320 --> 00:18:06,990
+The cumulative distribution
+right here, -- let me make it
+
+370
+00:18:06,990 --> 00:18:11,260
+so you can see -- if you go to
+20 you just go right to that
+
+371
+00:18:11,260 --> 00:18:13,510
+point there and you say wow,
+the probability of getting
+
+372
+00:18:13,510 --> 00:18:16,080
+20 or less is pretty high.
+
+373
+00:18:16,080 --> 00:18:17,220
+It's approaching 100 percent.
+
+374
+00:18:17,220 --> 00:18:19,210
+That makes sense because
+most of the area under this
+
+375
+00:18:19,210 --> 00:18:21,120
+curve is less than 20.
+
+376
+00:18:21,120 --> 00:18:23,130
+Or if you said what's the
+probability of getting
+
+377
+00:18:23,130 --> 00:18:25,740
+less than minus five.
+
+378
+00:18:25,740 --> 00:18:27,630
+Well minus 5 is the mean
+so half of your results
+
+379
+00:18:27,630 --> 00:18:29,160
+should be above that and
+half should be below.
+
+380
+00:18:29,160 --> 00:18:31,390
+And if you go to this point
+right here you could see that
+
+381
+00:18:31,390 --> 00:18:33,130
+this right here is 50 percent.
+
+382
+00:18:33,130 --> 00:18:36,420
+So the probability of getting
+less than minus 5 is
+
+383
+00:18:36,420 --> 00:18:38,490
+exactly 50 percent.
+
+384
+00:18:38,490 --> 00:18:43,350
+So what you do is, if I wanted
+to know the probability of
+
+385
+00:18:43,350 --> 00:18:47,410
+getting between negative 1 and
+1 what I do is -- let me get
+
+386
+00:18:47,410 --> 00:18:53,600
+back to my pen tool -- I figure
+out what is the probability
+
+387
+00:18:53,600 --> 00:18:57,050
+of getting minus 1 or lower.
+
+388
+00:18:57,050 --> 00:19:00,560
+So I figure out
+this whole area.
+
+389
+00:19:00,560 --> 00:19:02,510
+And then I figure out the
+probability of getting one or
+
+390
+00:19:02,510 --> 00:19:05,356
+lower which is this whole area
+-- well I'm going to give it
+
+391
+00:19:05,356 --> 00:19:10,810
+a different color -- 1 or
+lower is everything there.
+
+392
+00:19:10,810 --> 00:19:14,740
+And I subtract the yellow area
+from the magenta area and I'll
+
+393
+00:19:14,740 --> 00:19:18,870
+just get what's ever
+left over here.
+
+394
+00:19:18,870 --> 00:19:20,670
+That's exactly what I did
+in the spread sheet.
+
+395
+00:19:23,292 --> 00:19:25,322
+Let me scroll down.
+
+396
+00:19:25,322 --> 00:19:28,030
+This might be taxing my
+computer by taking the
+
+397
+00:19:28,030 --> 00:19:30,280
+screen capture with it.
+
+398
+00:19:30,280 --> 00:19:33,220
+So what I did is I evaluated
+the cumulative distribution
+
+399
+00:19:33,220 --> 00:19:39,260
+function at one to
+be right there.
+
+400
+00:19:39,260 --> 00:19:42,740
+And I evaluate the cumulative
+distribution function at minus
+
+401
+00:19:42,740 --> 00:19:45,410
+1, which is right there.
+
+402
+00:19:45,410 --> 00:19:48,490
+And the difference between
+these two, I subtract this
+
+403
+00:19:48,490 --> 00:19:52,560
+number from this number and
+that tells me essentially
+
+404
+00:19:52,560 --> 00:19:55,250
+the probability that I'm
+between those two numbers.
+
+405
+00:19:55,250 --> 00:20:02,490
+Or another way to think about
+it, the area right here.
+
+406
+00:20:02,490 --> 00:20:04,860
+I really encourage you to play
+with this and explore the excel
+
+407
+00:20:04,860 --> 00:20:07,130
+formulas and everything.
+
+408
+00:20:07,130 --> 00:20:11,640
+This area right here
+would be minus 1 and 1.
+
+409
+00:20:18,260 --> 00:20:20,590
+Just so you know this graph,
+the central line right
+
+410
+00:20:20,590 --> 00:20:22,250
+here, this is the mean.
+
+411
+00:20:22,250 --> 00:20:24,560
+And then these two lines I drew
+right here, these are 1
+
+412
+00:20:24,560 --> 00:20:27,230
+standard deviation below and 1
+standard deviation
+
+413
+00:20:27,230 --> 00:20:30,280
+above the mean.
+
+414
+00:20:30,280 --> 00:20:32,430
+Some people think what's the
+probability that land within
+
+415
+00:20:32,430 --> 00:20:33,630
+one standard deviation
+of the mean?
+
+416
+00:20:33,630 --> 00:20:34,540
+Well that's easy to do.
+
+417
+00:20:34,540 --> 00:20:36,850
+What I can do is I'll
+just click on this.
+
+418
+00:20:36,850 --> 00:20:39,810
+And I'll just call this, what's
+the probability that I land
+
+419
+00:20:39,810 --> 00:20:44,110
+between 1 standard deviation --
+the mean is minus 5 -- one
+
+420
+00:20:44,110 --> 00:20:47,720
+standard deviation below the
+mean is minus 15 and one
+
+421
+00:20:47,720 --> 00:20:52,580
+standard deviation above the
+mean is 10 plus minus 5 is 5.
+
+422
+00:20:52,580 --> 00:20:55,190
+So that's between 5 and 15.
+
+423
+00:20:55,190 --> 00:20:56,740
+So 68.3 percent.
+
+424
+00:20:56,740 --> 00:21:00,130
+That's actually always the case
+that you have a 68.3 percent
+
+425
+00:21:00,130 --> 00:21:04,800
+probability of landing within
+one standard deviation of the
+
+426
+00:21:04,800 --> 00:21:06,920
+mean, assuming you have
+a normal distribution.
+
+427
+00:21:06,920 --> 00:21:11,640
+So once again, that number
+represents the area under
+
+428
+00:21:11,640 --> 00:21:16,840
+the curve here, this
+area under the curve.
+
+429
+00:21:16,840 --> 00:21:19,670
+And the way you get it
+is with the cumulative
+
+430
+00:21:19,670 --> 00:21:20,660
+distribution function.
+
+431
+00:21:20,660 --> 00:21:22,730
+I'll go down here.
+
+432
+00:21:22,730 --> 00:21:27,410
+Every time I move this I have
+to get rid of the pen tool.
+
+433
+00:21:27,410 --> 00:21:33,370
+You evaluate it at plus
+5, which is right here.
+
+434
+00:21:33,370 --> 00:21:36,120
+This is 1 standard deviation
+above the mean, that's a
+
+435
+00:21:36,120 --> 00:21:37,370
+number right around there.
+
+436
+00:21:37,370 --> 00:21:40,220
+It looks like it's like 80
+something percent, maybe
+
+437
+00:21:40,220 --> 00:21:41,920
+90 percent roughly.
+
+438
+00:21:41,920 --> 00:21:44,050
+And then you evaluate it at
+1 standard deviation below
+
+439
+00:21:44,050 --> 00:21:46,120
+the mean which is minus 15.
+
+440
+00:21:46,120 --> 00:21:51,230
+And this one looks like roughly
+15 percent or so, 15, 16, maybe
+
+441
+00:21:51,230 --> 00:21:54,220
+17 percent, I'll
+say 18 percent.
+
+442
+00:21:54,220 --> 00:21:57,390
+But the big picture is when
+you subtract this value
+
+443
+00:21:57,390 --> 00:22:00,740
+from this value you get
+the probability that you
+
+444
+00:22:00,740 --> 00:22:01,910
+land between those two.
+
+445
+00:22:01,910 --> 00:22:05,010
+And that's because this
+value tells the probability
+
+446
+00:22:05,010 --> 00:22:06,600
+that you're less.
+
+447
+00:22:06,600 --> 00:22:08,080
+So when you go to the
+cumulative distribution
+
+448
+00:22:08,080 --> 00:22:09,540
+function you get
+that right there.
+
+449
+00:22:12,630 --> 00:22:15,630
+It keeps crawling
+back and forth.
+
+450
+00:22:21,280 --> 00:22:27,660
+So when you go to five -- and
+you just go right over here --
+
+451
+00:22:27,660 --> 00:22:29,670
+this is essentially tells you
+this area under the curve, the
+
+452
+00:22:29,670 --> 00:22:31,220
+probability that you're
+less than or equal to
+
+453
+00:22:31,220 --> 00:22:32,500
+5, everything up there.
+
+454
+00:22:32,500 --> 00:22:35,370
+And then when you evaluate it
+at minus 15 down here, it
+
+455
+00:22:35,370 --> 00:22:38,430
+tells you the probability
+that you're back here.
+
+456
+00:22:38,430 --> 00:22:41,690
+So when you subtract this from
+the larger thing you're just
+
+457
+00:22:41,690 --> 00:22:46,190
+left with what's under
+the curve right there.
+
+458
+00:22:46,190 --> 00:22:49,530
+Just to understand this
+spreadsheet a little bit better
+
+459
+00:22:49,530 --> 00:22:53,930
+because I really want you to
+play with it and see what
+
+460
+00:22:53,930 --> 00:22:56,750
+happens if I make this
+distribution, the mean was
+
+461
+00:22:56,750 --> 00:22:58,605
+minus 5 now let me make it 5.
+
+462
+00:22:58,605 --> 00:23:00,950
+It just shifted to the right.
+
+463
+00:23:00,950 --> 00:23:03,410
+It just moved over
+to the right by 5.
+
+464
+00:23:03,410 --> 00:23:03,890
+Whoops.
+
+465
+00:23:03,890 --> 00:23:04,920
+Let me use the pen tool.
+
+466
+00:23:04,920 --> 00:23:06,595
+It just moved over
+to the right by 5.
+
+467
+00:23:11,440 --> 00:23:13,610
+If I were to try to make the
+standard deviation smaller
+
+468
+00:23:13,610 --> 00:23:15,670
+we'll see that the whole thing
+just gets a little bit tighter.
+
+469
+00:23:15,670 --> 00:23:17,670
+Let's make it 6.
+
+470
+00:23:17,670 --> 00:23:20,430
+And all of a sudden this looks
+a like a tighter curve, we make
+
+471
+00:23:20,430 --> 00:23:24,370
+it 2, it becomes even tighter.
+
+472
+00:23:24,370 --> 00:23:27,290
+I really want you to play with
+this and play with the formula
+
+473
+00:23:27,290 --> 00:23:29,620
+and get an intuitive feeling
+for this, the cumulative
+
+474
+00:23:29,620 --> 00:23:31,665
+distribution function and think
+a lot about how it relates to
+
+475
+00:23:31,665 --> 00:23:35,900
+the binomial distribution and I
+cover that in the last video.
+
+476
+00:23:35,900 --> 00:23:37,890
+To plot this I just took
+each of these points.
+
+477
+00:23:37,890 --> 00:23:42,170
+I went to plot the points
+between minus 20 and 20 and
+
+478
+00:23:42,170 --> 00:23:43,990
+I just incremented by 1.
+
+479
+00:23:43,990 --> 00:23:45,460
+I just decided to
+increment by 1.
+
+480
+00:23:45,460 --> 00:23:47,720
+So this isn't a continues
+curve, it's actually just
+
+481
+00:23:47,720 --> 00:23:49,270
+plotting a point at each
+point and connecting
+
+482
+00:23:49,270 --> 00:23:51,220
+it with the line.
+
+483
+00:23:51,220 --> 00:23:52,890
+Then I did the distance
+between each of those
+
+484
+00:23:52,890 --> 00:23:55,110
+points and the mean.
+
+485
+00:23:55,110 --> 00:24:01,020
+So I just took 0 minus 5,
+this is this distance.
+
+486
+00:24:01,020 --> 00:24:04,270
+So this just tells you
+the point minus 20 is
+
+487
+00:24:04,270 --> 00:24:07,150
+25 less than the mean.
+
+488
+00:24:07,150 --> 00:24:08,400
+That's all I did there.
+
+489
+00:24:08,400 --> 00:24:10,560
+Then I divided that by the
+standard deviation and this
+
+490
+00:24:10,560 --> 00:24:15,000
+is the z score, the
+standard z score.
+
+491
+00:24:15,000 --> 00:24:18,420
+This tells me how many standard
+deviations is minus 20
+
+492
+00:24:18,420 --> 00:24:19,720
+away from the mean.
+
+493
+00:24:19,720 --> 00:24:24,250
+It's 12 and a half standard
+deviations below the mean.
+
+494
+00:24:24,250 --> 00:24:26,410
+Then I use that and I just
+plugged it into essentially
+
+495
+00:24:26,410 --> 00:24:29,270
+this formula to figure out
+the height of the function.
+
+496
+00:24:29,270 --> 00:24:33,590
+Let's say at minus 20
+the height is very low.
+
+497
+00:24:33,590 --> 00:24:36,130
+Let's say at minus 2 the
+heights a little bit better,
+
+498
+00:24:36,130 --> 00:24:38,100
+the heights going to be
+some place, it's going
+
+499
+00:24:38,100 --> 00:24:42,130
+to be right there.
+
+500
+00:24:42,130 --> 00:24:44,180
+And so that gives
+me that value.
+
+501
+00:24:44,180 --> 00:24:48,470
+But then to actually figure out
+the probability of that, what I
+
+502
+00:24:48,470 --> 00:24:50,940
+do is I calculate the
+cumulative distribution
+
+503
+00:24:50,940 --> 00:24:52,960
+function.
+
+504
+00:24:52,960 --> 00:24:56,470
+Well this is the probability
+that you're less than that.
+
+505
+00:24:56,470 --> 00:24:59,520
+So the area under the curve
+below that which is very small.
+
+506
+00:24:59,520 --> 00:25:02,270
+It's not zero, I know it
+looks like 0 here but that's
+
+507
+00:25:02,270 --> 00:25:03,720
+only because I round it.
+
+508
+00:25:03,720 --> 00:25:06,320
+It's going to be 0001,
+it's going to be a
+
+509
+00:25:06,320 --> 00:25:07,150
+really small number.
+
+510
+00:25:07,150 --> 00:25:10,200
+There's some probability that
+we even get minus a thousand.
+
+511
+00:25:10,200 --> 00:25:12,760
+Another intuitive thing that
+you really should have a sense
+
+512
+00:25:12,760 --> 00:25:18,030
+for is the integral over this
+or the entire area of the curve
+
+513
+00:25:18,030 --> 00:25:20,620
+has to be 1 because that
+takes into account all
+
+514
+00:25:20,620 --> 00:25:22,210
+possible circumstances.
+
+515
+00:25:22,210 --> 00:25:24,810
+And that should happen if we
+put a suitably smaller number
+
+516
+00:25:24,810 --> 00:25:27,410
+here and a suitably
+large number here.
+
+517
+00:25:27,410 --> 00:25:28,530
+There you go, we
+get 100 percent.
+
+518
+00:25:28,530 --> 00:25:29,540
+Although, this isn't
+a 100 percent.
+
+519
+00:25:29,540 --> 00:25:32,180
+We'd have to go from minus
+infinity to plus infinity to
+
+520
+00:25:32,180 --> 00:25:33,370
+really get a 100 percent.
+
+521
+00:25:33,370 --> 00:25:34,840
+It's just rounding
+to 100 percent.
+
+522
+00:25:34,840 --> 00:25:39,720
+It's probably 99.99999 percent
+or something like that.
+
+523
+00:25:39,720 --> 00:25:43,900
+And so to actually calculate
+this, what I do is I take the
+
+524
+00:25:43,900 --> 00:25:46,920
+cumulative distribution
+function of this point and I
+
+525
+00:25:46,920 --> 00:25:48,730
+subtract from that the
+cumulative distribution
+
+526
+00:25:48,730 --> 00:25:49,680
+function of that point.
+
+527
+00:25:49,680 --> 00:25:52,270
+And that's where I got
+this 100 percent from.
+
+528
+00:25:52,270 --> 00:25:57,760
+Anyway, hopefully that will
+give you a good feel for
+
+529
+00:25:57,760 --> 00:25:59,570
+the normal distribution.
+
+530
+00:25:59,570 --> 00:26:01,830
+I really encourage you to play
+with the spreadsheet and to
+
+531
+00:26:01,830 --> 00:26:03,320
+even make a spreadsheet
+like this yourself.
+
+532
+00:26:03,320 --> 00:26:06,230
+In a future exercise we'll
+actually use this type of
+
+533
+00:26:06,230 --> 00:26:09,370
+spreadsheet as an input
+into other models.
+
+534
+00:26:09,370 --> 00:26:12,420
+If we're doing a financial
+model and if we say our revenue
+
+535
+00:26:12,420 --> 00:26:15,220
+has a normal distribution
+around some expected value,
+
+536
+00:26:15,220 --> 00:26:18,000
+what is the distribution
+of our net income?
+
+537
+00:26:18,000 --> 00:26:20,050
+Or we could think of a
+hundred other different
+
+538
+00:26:20,050 --> 00:26:20,930
+types of examples.
+
+539
+00:26:20,930 --> 00:26:23,570
+Anyway, see you in
+the next video.

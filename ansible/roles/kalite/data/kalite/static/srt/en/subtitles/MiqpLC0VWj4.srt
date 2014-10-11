@@ -1,0 +1,335 @@
+1
+00:00:02,159 --> 00:00:05,210
+I have a new update: I contacted the engineering department at NASA
+
+2
+00:00:05,210 --> 00:00:10,508
+and found out the new rover is using the same memory platform used on Curiosity.
+
+3
+00:00:11,524 --> 00:00:14,332
+And the Curiosity rover was equipped with two computers
+
+4
+00:00:14,332 --> 00:00:16,586
+but only one was active at a time.
+
+5
+00:00:16,586 --> 00:00:18,508
+And it had the following specs:
+
+6
+00:00:18,508 --> 00:00:21,266
+2 gigabytes of flash memory
+
+7
+00:00:21,266 --> 00:00:25,058
+256 megabytes of Random Access Memory
+
+8
+00:00:25,058 --> 00:00:31,479
+and 256 kilobytes of Read Only Memory, which held core system routines.
+
+9
+00:00:31,479 --> 00:00:35,114
+We want to be able to store our entire program in RAM,
+
+10
+00:00:35,114 --> 00:00:39,227
+however because we have to share the space with other programs,
+
+11
+00:00:39,227 --> 00:00:45,280
+we are allocated 5% of RAM, which is the maximum we can use.
+
+12
+00:00:45,280 --> 00:00:48,643
+And this is about 12.8 megabytes total.
+
+13
+00:00:49,074 --> 00:00:51,742
+I bring this up because I want to introduce the idea
+
+14
+00:00:51,742 --> 00:00:54,109
+of Time Space Tradeoff.
+
+15
+00:00:54,109 --> 00:00:56,078
+Or Space Time Tradeoff.
+
+16
+00:00:56,078 --> 00:00:58,454
+A commonly used term in computer science.
+
+17
+00:00:58,531 --> 00:01:01,469
+I was looking at a program done by IV46
+
+18
+00:01:01,469 --> 00:01:07,723
+and they had a million-prime array, so that their algorithm could step along on primes only,
+
+19
+00:01:07,723 --> 00:01:12,858
+as far as possible when doing a trial division primality test.
+
+20
+00:01:12,996 --> 00:01:14,864
+And it begs the question:
+
+21
+00:01:14,864 --> 00:01:18,652
+Why not just store all the primes we need up to some limit,
+
+22
+00:01:18,652 --> 00:01:22,071
+in an array instead of calculating them on the fly?
+
+23
+00:01:22,702 --> 00:01:27,369
+We mentioned in a previous video that this would be optimal for a trial division algorithm.
+
+24
+00:01:28,154 --> 00:01:32,533
+Although, you may see his algorithm does not use many steps,
+
+25
+00:01:32,533 --> 00:01:38,367
+it began to run very slowly and eventually crashed before hitting the step limit.
+
+26
+00:01:39,090 --> 00:01:44,636
+So, it wasn't able to quickly solve the problem for the sizes I defined earlier.
+
+27
+00:01:44,636 --> 00:01:50,834
+And in this case, they were trading off time in the form of repeated divisibility tests
+
+28
+00:01:50,972 --> 00:01:56,166
+at the expense of space- which is memory to hold the array.
+
+29
+00:01:56,781 --> 00:01:58,891
+Now, why didn't this work?
+
+30
+00:01:59,260 --> 00:02:02,820
+Well, let's do a rough calculation using what we've learned,
+
+31
+00:02:02,820 --> 00:02:06,880
+to find out if this method is possible using our memory limit.
+
+32
+00:02:07,157 --> 00:02:11,234
+Remember, we must be able to deal with numbers up to just over 9 quadrillion
+
+33
+00:02:11,957 --> 00:02:17,948
+and our trial division algorithms only need to check for factors up to the square root of a number
+
+34
+00:02:17,948 --> 00:02:23,359
+and if it hits that point with no factors found they can say 100% whether or not the number is prime.
+
+35
+00:02:23,667 --> 00:02:27,633
+Now, how many primes up to the square root of this limit,
+
+36
+00:02:27,633 --> 00:02:33,195
+where the square root of 9 quadrillion is 94.9 million,
+
+37
+00:02:34,394 --> 00:02:37,011
+how many primes under 95 million?
+
+38
+00:02:37,011 --> 00:02:40,016
+Well, luckily, we have learned a mathematical solution
+
+39
+00:02:40,016 --> 00:02:44,430
+to approximate this answer using the prime number theory.
+
+40
+00:02:48,370 --> 00:02:51,320
+So, how many primes are there under 'x'?
+
+41
+00:02:51,320 --> 00:02:55,362
+Well, it's 'x' divided by the natural logarithm of 'x'.
+
+42
+00:02:55,362 --> 00:02:58,621
+And if 'x' is just over 94.9 million,
+
+43
+00:02:58,621 --> 00:03:03,705
+we find the number of primes is approximately 5.1 million.
+
+44
+00:03:03,705 --> 00:03:09,843
+Now, because we are storing these primes, we need to know the size of the largest prime
+
+45
+00:03:09,843 --> 00:03:14,548
+or, in this case the 5.1 millionth prime approximately,
+
+46
+00:03:14,841 --> 00:03:20,070
+which we know will be some number less than 94.9 million.
+
+47
+00:03:20,440 --> 00:03:24,733
+Now, i double checked the table and the actual value of this prime,
+
+48
+00:03:24,733 --> 00:03:28,646
+the largest prime we would need to store under the square root of our limit
+
+49
+00:03:28,646 --> 00:03:32,920
+is 89,078,611.
+
+50
+00:03:33,859 --> 00:03:38,059
+Now, how much memory does the single large prime number require?
+
+51
+00:03:38,059 --> 00:03:41,994
+Well, to find out, let's convert the number into binary notation
+
+52
+00:03:41,994 --> 00:03:47,076
+which is how the computer will store the number using tiny switches in memory.
+
+53
+00:03:47,076 --> 00:03:50,307
+We learned about this in the computer memory video.
+
+54
+00:03:50,738 --> 00:03:54,316
+In bits, the largest prime looks like this:
+
+55
+00:03:54,316 --> 00:04:00,046
+which is 24 bits or 3 bytes needed to store this single number.
+
+56
+00:04:00,262 --> 00:04:03,262
+So, let's say we want to store each number in memory
+
+57
+00:04:03,262 --> 00:04:06,442
+and since we know the largest number requires 24 bits
+
+58
+00:04:06,442 --> 00:04:12,069
+we can just imagine a long list of 24 bit blocks storing each prime number.
+
+59
+00:04:13,129 --> 00:04:16,966
+So, how many bits are needed for this entire list?
+
+60
+00:04:16,966 --> 00:04:23,853
+Well, the memory needed is the number of values, or the number of primes times the space per value.
+
+61
+00:04:24,900 --> 00:04:32,701
+So, we have around 5.1 million values times 24 bits per value
+
+62
+00:04:33,501 --> 00:04:37,456
+which is just over 124 million bits.
+
+63
+00:04:37,733 --> 00:04:42,353
+Or if we convert it into bytes, it's about 14.7 million bytes
+
+64
+00:04:42,353 --> 00:04:45,332
+call this almost 15 megabytes.
+
+65
+00:04:45,440 --> 00:04:52,482
+So, it is not possible to store even a list of these numbers in memory using our limit.
+
+66
+00:04:52,606 --> 00:04:58,739
+That being said, we know that storing all primes up to the square root of our relatively small limit
+
+67
+00:04:58,739 --> 00:05:01,737
+is not even possible with our memory limit.
+
+68
+00:05:01,737 --> 00:05:04,055
+We can't do it this way.
+
+69
+00:05:04,932 --> 00:05:09,207
+Okay, well, what about when prices drop by a factor of a thousand
+
+70
+00:05:09,207 --> 00:05:11,138
+or 10 thousand?
+
+71
+00:05:11,138 --> 00:05:17,680
+Modern day cryptographic systems use 512 bit or even larger numbers,
+
+72
+00:05:17,680 --> 00:05:21,425
+making search and enumeration impossible.
+
+73
+00:05:21,656 --> 00:05:27,442
+Now, for example, if someone asks you to make a list of all prime numbers
+
+74
+00:05:27,442 --> 00:05:30,849
+up to primes which are 200 digits in length,
+
+75
+00:05:30,988 --> 00:05:33,470
+you shouldn't even consider it!
+
+76
+00:05:33,901 --> 00:05:41,582
+Because the hard drive needed to store all this primes would be heavier than the mass of the observable universe.
+
+77
+00:05:43,152 --> 00:05:50,171
+I'll leave the calculations for you to try next time you're at a restaurant with crayons and people are over the table.
+
+78
+00:05:50,171 --> 00:05:58,144
+But remember, there are around a 10^80 atoms in the observable universe- that's an 80 digit number.
+
+79
+00:05:58,990 --> 00:06:04,824
+Realize now, there is a fundamental limit for how much space or memory we have access to
+
+80
+00:06:04,824 --> 00:06:07,130
+nevermind how much time it would take.
+
+81
+00:06:07,130 --> 00:06:14,870
+But there is always this push and pull between using space or time to solve our problems.
+
+82
+00:06:15,824 --> 00:06:19,749
+So, to solve this problem of testing for primality
+
+83
+00:06:19,749 --> 00:06:25,960
+quickly, using a small amount of space and a small amount of time
+
+84
+00:06:25,960 --> 00:06:30,036
+we are going to have to approach it in an entirely new way.

@@ -1,0 +1,966 @@
+1
+00:00:00,000 --> 00:00:00,390
+   
+
+2
+00:00:00,390 --> 00:00:03,490
+In the last video, I showed you
+that if someone were to walk
+
+3
+00:00:03,490 --> 00:00:10,010
+up to you and ask you what
+is the arcsine-- Whoops.
+
+4
+00:00:10,010 --> 00:00:13,190
+--arcsine of x?
+
+5
+00:00:13,190 --> 00:00:16,360
+And so this is going to be
+equal to who knows what.
+
+6
+00:00:16,360 --> 00:00:20,100
+This is just the same thing
+as saying that the sine of
+
+7
+00:00:20,100 --> 00:00:22,470
+some angle is equal to x.
+
+8
+00:00:22,470 --> 00:00:25,520
+And we solved it in a couple
+of cases in the last example.
+
+9
+00:00:25,520 --> 00:00:28,230
+So using the same pattern--
+Let me show you this.
+
+10
+00:00:28,230 --> 00:00:31,810
+I could have also rewritten
+this as the inverse sine
+
+11
+00:00:31,810 --> 00:00:33,540
+of x is equal to what.
+
+12
+00:00:33,540 --> 00:00:35,140
+These are equivalent
+statements.
+
+13
+00:00:35,140 --> 00:00:37,480
+Two ways of writing the
+inverse sine function.
+
+14
+00:00:37,480 --> 00:00:39,790
+This is more-- This is the
+inverse sine function.
+
+15
+00:00:39,790 --> 00:00:41,460
+You're not taking this to
+the negative 1 power.
+
+16
+00:00:41,460 --> 00:00:45,340
+You're just saying the sine of
+what-- So what question mark--
+
+17
+00:00:45,340 --> 00:00:46,920
+What angle is equal to x?
+
+18
+00:00:46,920 --> 00:00:48,470
+And we did this in
+the last video.
+
+19
+00:00:48,470 --> 00:00:52,020
+So by the same pattern, if I
+were to walk up to you on the
+
+20
+00:00:52,020 --> 00:00:58,770
+street and I were to say the
+tangent of-- the inverse
+
+21
+00:00:58,770 --> 00:01:02,010
+tangent of x is equal to what?
+
+22
+00:01:02,010 --> 00:01:05,140
+You should immediately in your
+head say, oh he's just asking
+
+23
+00:01:05,140 --> 00:01:09,080
+me-- He's just saying the
+tangent of some angle
+
+24
+00:01:09,080 --> 00:01:10,440
+is equal to x.
+
+25
+00:01:10,440 --> 00:01:13,380
+And I just need to figure
+out what that angle is.
+
+26
+00:01:13,380 --> 00:01:14,840
+So let's do an example.
+
+27
+00:01:14,840 --> 00:01:17,060
+So let's say I were walk
+up to you on the street.
+
+28
+00:01:17,060 --> 00:01:20,150
+There's a lot of a walking
+up on a lot of streets.
+
+29
+00:01:20,150 --> 00:01:23,790
+I would write -- And I were
+to say you what is the
+
+30
+00:01:23,790 --> 00:01:27,970
+arctangent of minus 1?
+
+31
+00:01:27,970 --> 00:01:30,190
+Or I could have equivalently
+asked you, what is the
+
+32
+00:01:30,190 --> 00:01:32,510
+inverse tangent of minus 1?
+
+33
+00:01:32,510 --> 00:01:35,190
+These are equivalent questions.
+
+34
+00:01:35,190 --> 00:01:37,430
+And what you should do is you
+should, in your head-- If you
+
+35
+00:01:37,430 --> 00:01:40,200
+don't have this memorized, you
+should draw the unit circle.
+
+36
+00:01:40,200 --> 00:01:42,640
+Actually let me just do a
+refresher of what tangent
+
+37
+00:01:42,640 --> 00:01:44,330
+is even asking us.
+
+38
+00:01:44,330 --> 00:01:48,890
+The tangent of theta-- this is
+just the straight-up, vanilla,
+
+39
+00:01:48,890 --> 00:01:52,630
+non-inverse function tangent
+--that's equal to the sine of
+
+40
+00:01:52,630 --> 00:01:56,690
+theta over the cosine of theta.
+
+41
+00:01:56,690 --> 00:02:00,670
+And the sine of theta is the
+y-value on the unit function--
+
+42
+00:02:00,670 --> 00:02:03,010
+on the unit circle.
+
+43
+00:02:03,010 --> 00:02:06,730
+And the cosine of
+theta is the x-value.
+
+44
+00:02:06,730 --> 00:02:08,600
+And so if you draw a line--
+Let me draw a little
+
+45
+00:02:08,600 --> 00:02:11,110
+unit circle here.
+
+46
+00:02:11,110 --> 00:02:14,770
+So if I have a unit
+circle like that.
+
+47
+00:02:14,770 --> 00:02:17,980
+And let's say I'm
+at some angle.
+
+48
+00:02:17,980 --> 00:02:20,940
+Let's say that's
+my angle theta.
+
+49
+00:02:20,940 --> 00:02:25,640
+And this is my y-- my
+coordinates x, y.
+
+50
+00:02:25,640 --> 00:02:29,380
+We know already that
+the y-value, this is
+
+51
+00:02:29,380 --> 00:02:30,880
+the sine of theta.
+
+52
+00:02:30,880 --> 00:02:32,780
+Let me scroll over here.
+
+53
+00:02:32,780 --> 00:02:34,210
+Sine of theta.
+
+54
+00:02:34,210 --> 00:02:38,730
+And we already know that this
+x-value is the cosine of theta.
+
+55
+00:02:38,730 --> 00:02:40,200
+So what's the tangent
+going to be?
+
+56
+00:02:40,200 --> 00:02:46,670
+It's going to be this distance
+divided by this distance.
+
+57
+00:02:46,670 --> 00:02:49,970
+Or from your algebra I, this
+might ring a bell, because
+
+58
+00:02:49,970 --> 00:02:52,520
+we're starting at the origin
+from the point 0, 0.
+
+59
+00:02:52,520 --> 00:02:56,250
+This is our change in y
+over our change in x.
+
+60
+00:02:56,250 --> 00:02:58,700
+Or it's our rise over run.
+
+61
+00:02:58,700 --> 00:03:01,950
+Or you can kind of view the
+tangent of theta, or it really
+
+62
+00:03:01,950 --> 00:03:04,570
+is, as the slope of this line.
+
+63
+00:03:04,570 --> 00:03:05,730
+The slope.
+
+64
+00:03:05,730 --> 00:03:11,660
+So you could write slope is
+equal to the tangent of theta.
+
+65
+00:03:11,660 --> 00:03:14,350
+So let's just bear that in mind
+when we go to our example.
+
+66
+00:03:14,350 --> 00:03:19,550
+If I'm asking you-- and I'll
+rewrite it here --what is the
+
+67
+00:03:19,550 --> 00:03:22,600
+inverse tangent of minus 1?
+
+68
+00:03:22,600 --> 00:03:23,880
+And I'll keep rewriting it.
+
+69
+00:03:23,880 --> 00:03:26,440
+Or the arctangent of minus 1?
+
+70
+00:03:26,440 --> 00:03:29,830
+I'm saying what angle gives
+me a slope of minus 1
+
+71
+00:03:29,830 --> 00:03:31,320
+on the unit circle?
+
+72
+00:03:31,320 --> 00:03:34,830
+So let's draw the unit circle.
+
+73
+00:03:34,830 --> 00:03:37,960
+Let's draw the unit
+circle like that.
+
+74
+00:03:37,960 --> 00:03:42,880
+Then I have my axes like that.
+
+75
+00:03:42,880 --> 00:03:44,440
+And I want a slope of minus 1.
+
+76
+00:03:44,440 --> 00:03:46,450
+A slope of minus 1
+looks like this.
+
+77
+00:03:46,450 --> 00:03:49,995
+   
+
+78
+00:03:49,995 --> 00:03:52,430
+If it was like that, it
+would be slope of plus 1.
+
+79
+00:03:52,430 --> 00:03:55,580
+So what angle is this?
+
+80
+00:03:55,580 --> 00:03:58,710
+So in order to have a slope
+of minus 1, this distance is
+
+81
+00:03:58,710 --> 00:04:00,580
+the same as this distance.
+
+82
+00:04:00,580 --> 00:04:03,940
+And you might already recognize
+that this is a right angle.
+
+83
+00:04:03,940 --> 00:04:06,410
+So these angles have
+to be the same.
+
+84
+00:04:06,410 --> 00:04:09,250
+So this has to be a
+45 45 90 triangle.
+
+85
+00:04:09,250 --> 00:04:10,630
+This is an isosceles triangle.
+
+86
+00:04:10,630 --> 00:04:12,880
+These two have to add up to 90
+and they have to be the same.
+
+87
+00:04:12,880 --> 00:04:15,120
+So this is 45 45 90.
+
+88
+00:04:15,120 --> 00:04:18,680
+And if you know your 45 45 90--
+Actually, you don't even have
+
+89
+00:04:18,680 --> 00:04:20,250
+to know the sides of it.
+
+90
+00:04:20,250 --> 00:04:22,440
+In the previous video, we
+saw that this is going
+
+91
+00:04:22,440 --> 00:04:23,810
+to be-- Right here.
+
+92
+00:04:23,810 --> 00:04:28,040
+This distance is going to be
+square root of 2 over 2.
+
+93
+00:04:28,040 --> 00:04:31,610
+So this coordinate in the
+y-direction is minus
+
+94
+00:04:31,610 --> 00:04:33,380
+square root of 2 over 2.
+
+95
+00:04:33,380 --> 00:04:36,210
+And then this coordinate right
+here on the x-direction is
+
+96
+00:04:36,210 --> 00:04:39,500
+square root of 2 over 2 because
+this length right
+
+97
+00:04:39,500 --> 00:04:40,960
+there is that.
+
+98
+00:04:40,960 --> 00:04:43,430
+So the square root of 2 over 2
+squared plus the square root of
+
+99
+00:04:43,430 --> 00:04:46,170
+2 over 2 squared is
+equal to 1 squared.
+
+100
+00:04:46,170 --> 00:04:47,806
+But the important thing
+to realize is this is
+
+101
+00:04:47,806 --> 00:04:50,690
+a 45 45 90 triangle.
+
+102
+00:04:50,690 --> 00:04:54,700
+So this angle right here is--
+Well if you're just looking at
+
+103
+00:04:54,700 --> 00:04:57,670
+the triangle by itself, you
+would say that this is
+
+104
+00:04:57,670 --> 00:04:59,360
+a 45 degree angle.
+
+105
+00:04:59,360 --> 00:05:04,060
+But since we're going clockwise
+below the x-axis, we'll call
+
+106
+00:05:04,060 --> 00:05:05,980
+this a minus 45 degree angle.
+
+107
+00:05:05,980 --> 00:05:09,220
+   
+
+108
+00:05:09,220 --> 00:05:13,710
+So the tangent of minus 40--
+Let me write that down.
+
+109
+00:05:13,710 --> 00:05:15,250
+So if I'm in degrees.
+
+110
+00:05:15,250 --> 00:05:16,910
+And that tends to
+be how I think.
+
+111
+00:05:16,910 --> 00:05:25,160
+So I could write the tangent of
+minus 45 degrees it equals this
+
+112
+00:05:25,160 --> 00:05:28,167
+negative value-- minus square
+root of 2 over 2 over square
+
+113
+00:05:28,167 --> 00:05:31,200
+root of 2 over 2, which
+is equal to minus 1.
+
+114
+00:05:31,200 --> 00:05:36,670
+Or I could write the arctangent
+of minus 1 is equal
+
+115
+00:05:36,670 --> 00:05:39,110
+to minus 45 degrees.
+
+116
+00:05:39,110 --> 00:05:40,920
+Now if we're dealing with
+radians, we just have to
+
+117
+00:05:40,920 --> 00:05:42,350
+convert this to radians.
+
+118
+00:05:42,350 --> 00:05:47,530
+So we multiply that times--
+We get pi radians for
+
+119
+00:05:47,530 --> 00:05:49,880
+every 180 degrees.
+
+120
+00:05:49,880 --> 00:05:51,890
+The degrees cancel out.
+
+121
+00:05:51,890 --> 00:05:53,960
+So you have a 45 over 180.
+
+122
+00:05:53,960 --> 00:05:55,160
+This goes four times.
+
+123
+00:05:55,160 --> 00:05:57,570
+So this is equal to-- you
+have the minus sign--
+
+124
+00:05:57,570 --> 00:06:01,710
+minus pi over 4 radians.
+
+125
+00:06:01,710 --> 00:06:06,450
+So the arctangent of minus 1 is
+equal to minus pi over 4 or the
+
+126
+00:06:06,450 --> 00:06:13,850
+inverse tangent of minus 1 is
+also equal to minus pi over 4.
+
+127
+00:06:13,850 --> 00:06:15,350
+Now you could say, look.
+
+128
+00:06:15,350 --> 00:06:17,930
+If I'm at minus pi
+over 4, that's there.
+
+129
+00:06:17,930 --> 00:06:18,540
+That's fine.
+
+130
+00:06:18,540 --> 00:06:22,360
+This gives me a value of
+minus 1 because the slope
+
+131
+00:06:22,360 --> 00:06:23,320
+of this line is minus 1.
+
+132
+00:06:23,320 --> 00:06:25,120
+But I can keep going
+around the unit circle.
+
+133
+00:06:25,120 --> 00:06:26,880
+I could add 2 pi to this.
+
+134
+00:06:26,880 --> 00:06:30,890
+Maybe I could add 2 pi to this
+and that would also give me--
+
+135
+00:06:30,890 --> 00:06:33,090
+If I took the tangent of that
+angle, it would also
+
+136
+00:06:33,090 --> 00:06:34,640
+give me minus 1.
+
+137
+00:06:34,640 --> 00:06:39,170
+Or I could add 2 pi again and
+it'll, again, give me minus 1.
+
+138
+00:06:39,170 --> 00:06:42,100
+In fact I could go to
+this point right here.
+
+139
+00:06:42,100 --> 00:06:44,420
+And the tangent would also
+give me minus 1 because
+
+140
+00:06:44,420 --> 00:06:45,790
+the slope is right there.
+
+141
+00:06:45,790 --> 00:06:49,460
+And like I said in the sine--
+in the inverse sine video, you
+
+142
+00:06:49,460 --> 00:06:51,960
+can't have a function that
+has a 1 to many mapping.
+
+143
+00:06:51,960 --> 00:06:58,190
+You can't-- Tangent inverse
+of x can't map to a bunch
+
+144
+00:06:58,190 --> 00:06:59,830
+of different values.
+
+145
+00:06:59,830 --> 00:07:03,280
+It can't map to
+minus pi over 4.
+
+146
+00:07:03,280 --> 00:07:09,270
+It can't map to 3-- what it
+would be? --3 pi over 4.
+
+147
+00:07:09,270 --> 00:07:09,730
+I don't know.
+
+148
+00:07:09,730 --> 00:07:14,310
+It would be-- I'll just
+say 2 pi minus pi over 4.
+
+149
+00:07:14,310 --> 00:07:16,200
+Or 4 pi minus pi.
+
+150
+00:07:16,200 --> 00:07:18,550
+It can't map to all of
+these different things.
+
+151
+00:07:18,550 --> 00:07:20,740
+So I have to constrict
+the range on the
+
+152
+00:07:20,740 --> 00:07:22,270
+inverse tan function.
+
+153
+00:07:22,270 --> 00:07:25,570
+And we'll restrict it very
+similarly to the way we
+
+154
+00:07:25,570 --> 00:07:29,100
+restricted the sine--
+the inverse sine range.
+
+155
+00:07:29,100 --> 00:07:32,510
+We're going to restrict it to
+the first and fourth quadrants.
+
+156
+00:07:32,510 --> 00:07:36,010
+So the answer to your inverse
+tangent is always going to be
+
+157
+00:07:36,010 --> 00:07:37,470
+something in these quadrants.
+
+158
+00:07:37,470 --> 00:07:39,950
+But it can't be this
+point and that point.
+
+159
+00:07:39,950 --> 00:07:44,810
+Because a tangent function
+becomes undefined at pi over
+
+160
+00:07:44,810 --> 00:07:46,350
+2 and at minus pi ever 2.
+
+161
+00:07:46,350 --> 00:07:48,110
+Because your slope
+goes vertical.
+
+162
+00:07:48,110 --> 00:07:50,260
+You start dividing--
+Your change in x is 0.
+
+163
+00:07:50,260 --> 00:07:52,890
+You're dividing-- Your
+cosine of theta goes to 0.
+
+164
+00:07:52,890 --> 00:07:55,560
+So if you divide by
+that, it's undefined.
+
+165
+00:07:55,560 --> 00:07:59,730
+So your range-- So if I--
+Let me write this down.
+
+166
+00:07:59,730 --> 00:08:03,430
+So if I have an inverse tangent
+of x, I'm going to-- Well,
+
+167
+00:08:03,430 --> 00:08:06,330
+what are all the values that
+the tangent can take on?
+
+168
+00:08:06,330 --> 00:08:11,800
+So if I have the tangent of
+theta is equal to x, what are
+
+169
+00:08:11,800 --> 00:08:13,810
+all the different values
+that x could take on?
+
+170
+00:08:13,810 --> 00:08:16,900
+These are all the possible
+values for the slope.
+
+171
+00:08:16,900 --> 00:08:18,810
+And that slope can
+take on anything.
+
+172
+00:08:18,810 --> 00:08:22,700
+So x could be anywhere
+between minus infinity
+
+173
+00:08:22,700 --> 00:08:24,870
+and positive infinity.
+
+174
+00:08:24,870 --> 00:08:27,250
+x could pretty much
+take on any value.
+
+175
+00:08:27,250 --> 00:08:29,050
+But what about theta?
+
+176
+00:08:29,050 --> 00:08:29,950
+Well I just said it.
+
+177
+00:08:29,950 --> 00:08:33,910
+Theta, you can only go
+from minus pi over 2 all
+
+178
+00:08:33,910 --> 00:08:35,260
+the way to pi over 2.
+
+179
+00:08:35,260 --> 00:08:37,680
+And you can't even include pi
+over 2 or minus pi over 2
+
+180
+00:08:37,680 --> 00:08:39,790
+because then you'd be vertical.
+
+181
+00:08:39,790 --> 00:08:41,910
+So then you say your--
+So if I'm just dealing
+
+182
+00:08:41,910 --> 00:08:43,310
+with vanilla tangent.
+
+183
+00:08:43,310 --> 00:08:44,470
+Not the inverse.
+
+184
+00:08:44,470 --> 00:08:50,940
+The domain-- Well the domain of
+tangent can go multiple times
+
+185
+00:08:50,940 --> 00:08:53,410
+around, so let me not
+make that statement.
+
+186
+00:08:53,410 --> 00:08:55,580
+But if I want to do inverse
+tangent so I don't have
+
+187
+00:08:55,580 --> 00:08:56,610
+a 1 to many mapping.
+
+188
+00:08:56,610 --> 00:08:58,870
+I want to cross
+out all of these.
+
+189
+00:08:58,870 --> 00:09:04,180
+I'm going to restrict theta, or
+my range, to be greater than
+
+190
+00:09:04,180 --> 00:09:10,160
+the minus pi over 2 and less
+than positive pi over 2.
+
+191
+00:09:10,160 --> 00:09:13,710
+And so if I restrict my range
+to this right here and I
+
+192
+00:09:13,710 --> 00:09:16,190
+exclude that point
+and that point.
+
+193
+00:09:16,190 --> 00:09:17,720
+Then I can only get one answer.
+
+194
+00:09:17,720 --> 00:09:21,670
+When I say tangent of what
+gives me a slope of minus 1?
+
+195
+00:09:21,670 --> 00:09:24,360
+And that's the question
+I'm asking right there.
+
+196
+00:09:24,360 --> 00:09:25,320
+There's only one answer.
+
+197
+00:09:25,320 --> 00:09:27,320
+Because if I keep-- This
+one falls out of it.
+
+198
+00:09:27,320 --> 00:09:29,440
+And obviously as I go around
+and around, those fall out of
+
+199
+00:09:29,440 --> 00:09:34,680
+that valid range for theta
+that I was giving you.
+
+200
+00:09:34,680 --> 00:09:38,270
+And then just to kind of
+make sure we did it right.
+
+201
+00:09:38,270 --> 00:09:39,700
+Our answer was pi over 4.
+
+202
+00:09:39,700 --> 00:09:42,430
+Let's see if we get that
+when we use our calculator.
+
+203
+00:09:42,430 --> 00:09:50,340
+So the inverse tangent of
+minus 1 is equal to that.
+
+204
+00:09:50,340 --> 00:09:53,460
+Let's see if that's the same
+thing as minus pi over 4.
+
+205
+00:09:53,460 --> 00:09:57,760
+Minus pi over 4 is
+equal to that.
+
+206
+00:09:57,760 --> 00:09:59,100
+So it is minus pi over 4.
+
+207
+00:09:59,100 --> 00:10:02,280
+But it was good that we solved
+it without a calculator because
+
+208
+00:10:02,280 --> 00:10:06,160
+it's hard to recognize
+this as minus pi over 4.

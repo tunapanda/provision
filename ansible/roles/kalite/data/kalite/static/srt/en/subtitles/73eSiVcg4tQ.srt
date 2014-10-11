@@ -1,0 +1,151 @@
+1
+99:59:59,999 --> 99:59:59,999
+Part B
+
+2
+99:59:59,999 --> 99:59:59,999
+Find the slope of the tangent line to the path of the particle time t = 3
+
+3
+99:59:59,999 --> 99:59:59,999
+So the slope of the tangent line is just going to be equal to
+
+4
+99:59:59,999 --> 99:59:59,999
+rate of change of y with the respect to x at that point
+
+5
+99:59:59,999 --> 99:59:59,999
+and this is the same thing as dy dt over dx dt
+
+6
+99:59:59,999 --> 99:59:59,999
+and dealing with differentials is a little bit strange.
+
+7
+99:59:59,999 --> 99:59:59,999
+Especially when you want to deal with them rigorously, but you can view them as very little small changes
+
+8
+99:59:59,999 --> 99:59:59,999
+in y, small changes in t, small changes in x, small changes in t
+
+9
+99:59:59,999 --> 99:59:59,999
+when you view it this way, you can say, "Oh look, if I just multiply both the numerator and the denominator
+
+10
+99:59:59,999 --> 99:59:59,999
+by dt over dt, which if you do the same small changes, then they would cancel out and you'd get back
+
+11
+99:59:59,999 --> 99:59:59,999
+to the dy over dx
+
+12
+99:59:59,999 --> 99:59:59,999
+and the reason why I wrote it this way is that they actually give is these values
+
+13
+99:59:59,999 --> 99:59:59,999
+they give us dy dt and they give us dx dt.
+
+14
+99:59:59,999 --> 99:59:59,999
+So, if you wanted to find the slope at time equals 3,
+
+15
+99:59:59,999 --> 99:59:59,999
+we just have to find dy dt at time equals 3 and dx dt and time equals 3.
+
+16
+99:59:59,999 --> 99:59:59,999
+So dy dt at time equals 2, why this is dy dt right over here,
+
+17
+99:59:59,999 --> 99:59:59,999
+it's just going to be sine of 3 squared, or sine of 9.
+
+18
+99:59:59,999 --> 99:59:59,999
+and dx dt at time 3, that's just going to be, it tells us what dx dt is,
+
+19
+99:59:59,999 --> 99:59:59,999
+as a function of time, four times three plus one
+
+20
+99:59:59,999 --> 99:59:59,999
+Well, that's thirteen. And we can just get out calculator out and evaluate this.
+
+21
+99:59:59,999 --> 99:59:59,999
+We kinda did alot of this work in the first problem, so let's just actually take the values.
+
+22
+99:59:59,999 --> 99:59:59,999
+So we have sine of nine divided by thirteen.
+
+23
+99:59:59,999 --> 99:59:59,999
+That gets us zero point zero three one seven (0.0317)
+
+24
+99:59:59,999 --> 99:59:59,999
+and we're done, and that's the slope of the tangent line
+
+25
+99:59:59,999 --> 99:59:59,999
+to the path of the particle at time t is equal to three.
+
+26
+99:59:59,999 --> 99:59:59,999
+I think we have time to crank out part C as well.
+
+27
+99:59:59,999 --> 99:59:59,999
+Part C: Find the position of the particle at time t is equal to three.
+
+28
+99:59:59,999 --> 99:59:59,999
+So they give us x prime of t and they give us y prime of t.
+
+29
+99:59:59,999 --> 99:59:59,999
+This is x-prime of t and this is y-prime of t. We need to figure out x of three and y of three.
+
+30
+99:59:59,999 --> 99:59:59,999
+Let's write x of t and y of t, and then evaluate them at three.
+
+31
+99:59:59,999 --> 99:59:59,999
+So let's see. So x of t is going to be equal to the anti-derivative of this right over here.
+
+32
+99:59:59,999 --> 99:59:59,999
+So the anti-derivative of four t is going to be two t squared.
+
+33
+99:59:59,999 --> 99:59:59,999
+Take the derivative here and you just get 4t.
+
+34
+99:59:59,999 --> 99:59:59,999
+Anti-derivative of one is t, plus t, and your going to have, well, plus a constant.
+
+35
+99:59:59,999 --> 99:59:59,999
+We just took that indefinite integral of this side of 4t plus 1,
+
+36
+99:59:59,999 --> 99:59:59,999
+so you get your constant here,
+
+37
+99:59:59,999 --> 99:59:59,999
+'cause if you take the derivative of this constant, the constant will obviously disappear,
+
+38
+99:59:59,999 --> 99:59:59,999
+you'd like that information.

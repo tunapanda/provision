@@ -1,0 +1,55 @@
+1
+00:00:10,400 --> 00:00:15,933
+we cannot factor out a 4 since 15 is not divisible by 4.
+
+2
+00:00:15,933 --> 00:00:38,800
+we must factor by grouping. look for 2 numbers whose product equals the product of 4 and -15
+
+3
+00:00:38,800 --> 00:00:58,933
+their sum needs to be equal to positive 4
+
+4
+00:00:58,933 --> 00:01:14,095
+the first clue is the product of the numbers is negative, so a and b must have different signs
+
+5
+00:01:14,095 --> 00:01:16,333
+but a + b is equal to 4
+
+6
+00:01:16,333 --> 00:02:01,133
+so, the difference of their absolute values must equal 4
+
+7
+00:02:01,133 --> 00:02:39,467
+let's think about all of the factors of -60
+
+8
+00:02:39,467 --> 00:03:46,733
+6 band 10 look tantalizing since they are 4 apart
+
+9
+00:03:46,733 --> 00:04:06,735
+we want them to add to positive 4, so larger number must be positive
+
+10
+00:04:06,735 --> 00:04:29,333
+so, we want positive 10 and negative 6
+
+11
+00:04:29,333 --> 00:04:34,333
+now, group first 2 terms
+
+12
+00:04:34,333 --> 00:05:06,800
+now, group the second 2 terms. both are divisible by 5
+
+13
+00:05:06,800 --> 00:05:09,933
+factor out a 2y
+
+14
+00:05:09,933 --> 99:59:59,999
+now, factor out a 5

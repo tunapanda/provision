@@ -1,0 +1,691 @@
+1
+00:00:00,470 --> 00:00:05,350
+So we're told that quadrilateral ABCD is a square
+
+2
+00:00:05,360 --> 00:00:08,220
+which tells us that the 4 sides have equal length,
+
+3
+00:00:08,230 --> 00:00:11,590
+and that they are all the interior angles are 90 degrees
+
+4
+00:00:11,750 --> 00:00:18,020
+We also know that FG,FG is a perpendicular bisector of BC
+
+5
+00:00:18,030 --> 00:00:20,200
+so we've already shown that it's perpendicular,
+
+6
+00:00:20,210 --> 00:00:23,450
+that this a 90-degree angle, but it also bisects BC
+
+7
+00:00:23,460 --> 00:00:27,070
+So this length is equal to that length right over there
+
+8
+00:00:27,220 --> 00:00:30,640
+Then they tell us that arc AC, it's a curve on top,
+
+9
+00:00:30,650 --> 00:00:33,770
+arc AC is part of circle B
+
+10
+00:00:33,780 --> 00:00:36,060
+So this is a circle centered at B
+
+11
+00:00:36,200 --> 00:00:37,810
+So this is the center of the circle,
+
+12
+00:00:37,820 --> 00:00:41,280
+this is part of part of that circle
+
+13
+00:00:41,290 --> 00:00:44,170
+It's really kind of the bottom left corner of that circle
+
+14
+00:00:44,320 --> 00:00:46,230
+and then given that information, they want us
+
+15
+00:00:46,240 --> 00:00:51,060
+to find what the measure of angle BED is
+
+16
+00:00:51,170 --> 00:00:53,130
+So what is BED?
+
+17
+00:00:53,140 --> 00:00:54,730
+So it's BED
+
+18
+00:00:54,740 --> 00:00:56,310
+So we need to figure out the measure
+
+19
+00:00:56,320 --> 00:00:57,630
+of this angle right over here
+
+20
+00:00:57,640 --> 00:01:00,460
+And I encourage you to pause it and try it out
+
+21
+00:01:00,470 --> 00:01:03,490
+And you might imagine, well I you could pause it
+
+22
+00:01:03,500 --> 00:01:04,560
+and try it without any hints
+
+23
+00:01:04,570 --> 00:01:07,380
+and now I would give you a hint if you if you try it the first time,
+
+24
+00:01:07,390 --> 00:01:08,320
+and you weren't able to do it,
+
+25
+00:01:08,330 --> 00:01:10,900
+and you should pause it again after this hint, is,
+
+26
+00:01:10,910 --> 00:01:14,260
+try to draw some triangles that maybe split up this angle
+
+27
+00:01:14,270 --> 00:01:15,710
+into a couple of different angles
+
+28
+00:01:15,720 --> 00:01:16,990
+and that might be a little bit easier
+
+29
+00:01:17,000 --> 00:01:19,620
+You might be able to use some of what we know about triangles
+
+30
+00:01:19,970 --> 00:01:22,750
+Now that said, I will try to solve it
+
+31
+00:01:22,760 --> 00:01:24,460
+and you should pause at any point
+
+32
+00:01:24,470 --> 00:01:27,050
+where you think that you know exactly how to do this
+
+33
+00:01:27,060 --> 00:01:28,750
+and try to do this yourself
+
+34
+00:01:28,880 --> 00:01:31,590
+So the trick is to realize that this is a circle
+
+35
+00:01:31,600 --> 00:01:34,860
+and so any any line that goes between B
+
+36
+00:01:34,870 --> 00:01:36,330
+and any point on this arc
+
+37
+00:01:36,340 --> 00:01:38,460
+is going to be equal to the radius of the circle
+
+38
+00:01:38,470 --> 00:01:40,580
+So AB is equal to the radius of the circle
+
+39
+00:01:40,780 --> 00:01:43,300
+BE is equal to the radius of the circle
+
+40
+00:01:43,310 --> 00:01:44,900
+And we can keep drawing other things
+
+41
+00:01:44,910 --> 00:01:46,520
+that are equal to the radius of the circle
+
+42
+00:01:46,530 --> 00:01:49,640
+BC is equal to the radius of the circle
+
+43
+00:01:49,770 --> 00:01:51,050
+So let's think about it a little bit
+
+44
+00:01:51,060 --> 00:01:54,070
+If we were to draw, and a lot of trickier geometry problems
+
+45
+00:01:54,080 --> 00:01:56,530
+really all revolve around drawing the right lines
+
+46
+00:01:56,540 --> 00:02:00,450
+or or visualizing the right triangles, and I'll do one right here
+
+47
+00:02:00,460 --> 00:02:02,630
+that might open up a lot for you in terms of thinking
+
+48
+00:02:02,640 --> 00:02:04,340
+about how to do this problem
+
+49
+00:02:04,350 --> 00:02:06,940
+So let me draw segment EC
+
+50
+00:02:07,930 --> 00:02:09,700
+and draw that as straight as possible
+
+51
+00:02:09,850 --> 00:02:12,010
+I can draw a better job of that
+
+52
+00:02:12,110 --> 00:02:14,630
+So the segment EC
+
+53
+00:02:15,060 --> 00:02:17,460
+Now something becomes interesting
+
+54
+00:02:17,470 --> 00:02:22,420
+because what is what is the relationship
+
+55
+00:02:22,430 --> 00:02:26,990
+between EBG and triangle ECG?
+
+56
+00:02:27,160 --> 00:02:30,470
+Well they both definitely share, they both share
+
+57
+00:02:30,480 --> 00:02:31,590
+this side right over here
+
+58
+00:02:31,600 --> 00:02:33,610
+They both share side EG
+
+59
+00:02:33,620 --> 00:02:36,440
+And then BG is equal to GC
+
+60
+00:02:36,450 --> 00:02:37,890
+And they both have 90 degree angles
+
+61
+00:02:37,900 --> 00:02:39,150
+They have 90 degree angle here
+
+62
+00:02:39,160 --> 00:02:40,910
+and they have 90 degree angle there
+
+63
+00:02:40,920 --> 00:02:43,380
+So you see by side angle side
+
+64
+00:02:43,390 --> 00:02:47,420
+Side angle side, these 2 triangles are going to be congruent
+
+65
+00:02:47,430 --> 00:02:56,580
+So we know that triangle EBG is congruent to triangle ECG
+
+66
+00:02:57,210 --> 00:03:01,230
+ECG, I should emphasize the C not the E
+
+67
+00:03:01,240 --> 00:03:05,650
+ECG by side angle side congruency,
+
+68
+00:03:05,790 --> 00:03:09,280
+by side angel side congruency
+
+69
+00:03:09,290 --> 00:03:12,280
+And that also tells that all of the corresponding angles
+
+70
+00:03:12,290 --> 00:03:14,560
+and sides are going to be the same
+
+71
+00:03:14,570 --> 00:03:18,090
+So, that tells us, that tells us right there
+
+72
+00:03:18,100 --> 00:03:23,010
+that EC that EC is equal to EB,
+
+73
+00:03:23,260 --> 00:03:25,580
+EC is equal to EB
+
+74
+00:03:25,780 --> 00:03:31,480
+So we know that EB, EB is equal to EC,
+
+75
+00:03:31,660 --> 00:03:34,800
+and what is what also is equal to that length?
+
+76
+00:03:34,810 --> 00:03:37,000
+Once again, this is the radius of the circle
+
+77
+00:03:37,010 --> 00:03:41,030
+BE, is one radius of the circle going from the center to the arc
+
+78
+00:03:41,040 --> 00:03:42,700
+But so is BC
+
+79
+00:03:42,710 --> 00:03:45,600
+It is also a radius of the circle going from the center to the arc
+
+80
+00:03:45,610 --> 00:03:49,780
+So this is also equal to, this is also equal to BC
+
+81
+00:03:49,790 --> 00:03:52,430
+So I could draw this other other 3 things right here
+
+82
+00:03:52,440 --> 00:03:54,080
+I'm I'm referring to the entire thing
+
+83
+00:03:54,090 --> 00:03:54,990
+not just one of the segments
+
+84
+00:03:55,000 --> 00:03:56,380
+All of BC
+
+85
+00:03:56,390 --> 00:03:59,070
+So what is, what kind of a triangle is this right over here?
+
+86
+00:03:59,080 --> 00:04:01,160
+Triangle BEC
+
+87
+00:04:01,340 --> 00:04:06,660
+Triangle BEC is equilateral
+
+88
+00:04:07,190 --> 00:04:08,550
+Equilateral
+
+89
+00:04:08,560 --> 00:04:10,450
+And we know that because all 3 sides are equal
+
+90
+00:04:10,460 --> 00:04:13,090
+So that tells us that all of its angles are equal
+
+91
+00:04:13,230 --> 00:04:18,070
+So that tells us that the measure of angle BEC, BEC,
+
+92
+00:04:18,080 --> 00:04:21,430
+we're not done yet, but it gets us close, is 60 degrees
+
+93
+00:04:21,440 --> 00:04:26,260
+So the measure of angle BEC right over there is 60 degrees
+
+94
+00:04:26,270 --> 00:04:27,800
+So that gives us part of the problem
+
+95
+00:04:27,810 --> 00:04:31,040
+BEC is part of the angle BED
+
+96
+00:04:31,050 --> 00:04:34,680
+If we can just figure out the measure of angle CED now,
+
+97
+00:04:34,690 --> 00:04:36,520
+if we can figure out this angle right over here,
+
+98
+00:04:36,530 --> 00:04:39,020
+we just add that to 60 degrees and we're done
+
+99
+00:04:39,030 --> 00:04:42,920
+We figured out the entire the entire BED
+
+100
+00:04:42,930 --> 00:04:45,570
+Let's think about how we can do this right over here
+
+101
+00:04:45,580 --> 00:04:47,810
+So there's a couple of interesting things
+
+102
+00:04:47,820 --> 00:04:49,370
+that we already do know
+
+103
+00:04:49,380 --> 00:04:51,160
+We know that this right over here
+
+104
+00:04:51,170 --> 00:04:54,370
+is equal to the radius of the circle
+
+105
+00:04:54,380 --> 00:04:57,190
+And we also know that this length down here,
+
+106
+00:04:57,200 --> 00:04:58,120
+this is a square
+
+107
+00:04:58,130 --> 00:05:00,300
+We know that this length down here
+
+108
+00:05:00,310 --> 00:05:03,990
+is the same as this length up here
+
+109
+00:05:04,000 --> 00:05:06,380
+That these are the exact same length,
+
+110
+00:05:06,390 --> 00:05:09,020
+and this is equal to the radius of the circle
+
+111
+00:05:09,030 --> 00:05:10,500
+We already put these 3 slashes here
+
+112
+00:05:10,510 --> 00:05:13,630
+BC is the same as that length, is the same as that length,
+
+113
+00:05:13,640 --> 00:05:16,700
+so all 4 sides are gonna be the same as that length
+
+114
+00:05:16,710 --> 00:05:19,020
+because this is a square
+
+115
+00:05:19,320 --> 00:05:21,470
+So let me write, let me write this down
+
+116
+00:05:21,480 --> 00:05:26,920
+Because because it's a square, I'll just write it this way
+
+117
+00:05:26,930 --> 00:05:31,530
+Because it's a square, we know that CD, we know that cd
+
+118
+00:05:31,540 --> 00:05:34,960
+is equal to BC which is equal to,
+
+119
+00:05:34,970 --> 00:05:38,270
+and we already established this as equal to CEC
+
+120
+00:05:38,280 --> 00:05:41,040
+which is equal to EB, which is equal to EC
+
+121
+00:05:41,050 --> 00:05:43,700
+What's important here is to realize that this and this
+
+122
+00:05:43,710 --> 00:05:44,800
+are the same length
+
+123
+00:05:44,810 --> 00:05:47,000
+And the reason why that is interesting
+
+124
+00:05:47,010 --> 00:05:50,180
+is it let's us know that this is an isosceles triangle
+
+125
+00:05:50,190 --> 00:05:51,880
+It's an isosceles triangle
+
+126
+00:05:51,890 --> 00:05:55,130
+So whatever isosceles triangle, if you have your 2 legs of it,
+
+127
+00:05:55,140 --> 00:05:57,260
+the 2 base angles are going to be congruent
+
+128
+00:05:57,270 --> 00:05:59,120
+So whatever angle this green angle is,
+
+129
+00:05:59,130 --> 00:06:00,960
+this angle is going to be as well
+
+130
+00:06:00,970 --> 00:06:02,930
+So somehow, somehow,
+
+131
+00:06:02,940 --> 00:06:05,160
+we can figure out this angle right over here
+
+132
+00:06:05,170 --> 00:06:07,290
+We can subtract that from 180
+
+133
+00:06:07,300 --> 00:06:09,470
+and then divide by 2 to figure out these 2
+
+134
+00:06:09,480 --> 00:06:10,520
+because we know that they are the same
+
+135
+00:06:10,530 --> 00:06:12,050
+So how can we figure out this angle?
+
+136
+00:06:12,330 --> 00:06:14,770
+Well we know all the angles of these things off up,
+
+137
+00:06:14,780 --> 00:06:18,230
+we can figure out all the angles of the larger ones up here
+
+138
+00:06:18,430 --> 00:06:20,170
+We know that this is an equilateral triangle
+
+139
+00:06:20,180 --> 00:06:23,250
+So this over here has to be 60 degrees as well
+
+140
+00:06:23,260 --> 00:06:26,410
+That's 60 degrees, and that is also 60 degrees
+
+141
+00:06:26,420 --> 00:06:27,530
+In fact, I can write it over here,
+
+142
+00:06:27,540 --> 00:06:31,570
+which is equal to the angle of BCE
+
+143
+00:06:31,850 --> 00:06:38,600
+The measure of angle BCE, BCE
+
+144
+00:06:38,610 --> 00:06:41,680
+So this is 60 degrees, we know we are dealing with a square
+
+145
+00:06:41,690 --> 00:06:44,040
+So this whole angle over here is a right angle
+
+146
+00:06:44,050 --> 00:06:47,430
+What is the measure of angle ECD?
+
+147
+00:06:47,440 --> 00:06:48,960
+What is this angle right over here?
+
+148
+00:06:48,970 --> 00:06:50,130
+I'm using a new color
+
+149
+00:06:50,460 --> 00:06:53,990
+This angle over here is gonna have to be 30 degrees
+
+150
+00:06:54,190 --> 00:06:56,460
+So that is going to be 30 degrees
+
+151
+00:06:56,470 --> 00:06:58,150
+And now, we are ready to solve
+
+152
+00:06:58,240 --> 00:07:01,750
+If you know, now we are ready to solve for these 2 base angles
+
+153
+00:07:01,760 --> 00:07:04,230
+If we call this x, if you call this x,
+
+154
+00:07:04,240 --> 00:07:05,140
+and we know they have to be the same,
+
+155
+00:07:05,150 --> 00:07:07,410
+we have x + x + 30 degrees,
+
+156
+00:07:07,600 --> 00:07:14,710
+x + x + 30 degrees is going to be equal to 180 degrees
+
+157
+00:07:14,720 --> 00:07:17,320
+That is the sum of all the interior angles of a triangle
+
+158
+00:07:17,580 --> 00:07:19,080
+So you get 2x,
+
+159
+00:07:19,340 --> 00:07:25,350
+2x + 30, + 30 is equal to 180 degrees
+
+160
+00:07:25,360 --> 00:07:27,880
+Now you can subtract 30 from both sides,
+
+161
+00:07:27,890 --> 00:07:33,120
+and we are left with 2x is equal to 150
+
+162
+00:07:33,130 --> 00:07:37,270
+Divide both sides by 2, you get x = 75
+
+163
+00:07:37,280 --> 00:07:41,540
+So we figured that x = 75, and now we are at the home stretch
+
+164
+00:07:41,550 --> 00:07:44,300
+We have to figure out angle BED
+
+165
+00:07:44,310 --> 00:07:46,180
+Well, that's going to be angle C,
+
+166
+00:07:46,190 --> 00:07:49,820
+so x is equal to the measure of angle CED,
+
+167
+00:07:49,830 --> 00:07:57,330
+so BED is CED + CED + BEC
+
+168
+00:07:57,340 --> 00:07:59,760
+So the 60 degrees + 75 degrees
+
+169
+00:07:59,770 --> 00:08:01,070
+So it's going to be,
+
+170
+00:08:01,080 --> 00:08:02,840
+ready for the drum roll?
+
+171
+00:08:02,850 --> 00:08:07,860
+This is going to be equal to 75 degrees + 60 degrees
+
+172
+00:08:07,870 --> 00:08:11,480
+which is equal to 135 degrees
+
+173
+00:08:11,490 --> 00:08:14,470
+And we are done

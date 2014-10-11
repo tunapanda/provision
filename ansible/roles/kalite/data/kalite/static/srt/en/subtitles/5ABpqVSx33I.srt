@@ -1,0 +1,479 @@
+1
+00:00:00,640 --> 00:00:03,050
+I want to use this video to kind of make sure
+
+2
+00:00:03,050 --> 00:00:05,390
+we, intuitively and otherwise,
+
+3
+00:00:05,390 --> 00:00:12,616
+understand the difference between a Z-statistic...
+
+4
+00:00:12,616 --> 00:00:13,905
+something I have trouble saying -
+
+5
+00:00:13,905 --> 00:00:19,850
+and a t-statistic.
+
+6
+00:00:19,850 --> 00:00:24,338
+So in a lot of what we're doing in this inferential statistics,
+
+7
+00:00:24,338 --> 00:00:26,264
+we're trying to figure out what is the probability
+
+8
+00:00:26,264 --> 00:00:28,610
+of getting a certain sample mean.
+
+9
+00:00:28,610 --> 00:00:30,373
+So what we've been doing,
+
+10
+00:00:30,373 --> 00:00:32,315
+- especially when we have a large sample size -
+
+11
+00:00:32,315 --> 00:00:35,502
+so let me just draw a sampling distribution here.
+
+12
+00:00:35,540 --> 00:00:38,480
+So let's say we have a sampling distribution of the
+
+13
+00:00:38,480 --> 00:00:40,040
+sample mean right here.
+
+14
+00:00:40,040 --> 00:00:45,557
+It has some assumed mean value
+
+15
+00:00:45,557 --> 00:00:48,090
+and some standard deviation.
+
+16
+00:00:48,090 --> 00:00:52,920
+What we want to do is any result that we get,
+
+17
+00:00:52,920 --> 00:00:55,460
+let's say we get some sample mean out here.
+
+18
+00:00:55,460 --> 00:00:57,350
+We want to figure out the probability of getting
+
+19
+00:00:57,350 --> 00:00:59,700
+a result at least as extreme as this.
+
+20
+00:00:59,700 --> 00:01:03,170
+So you can either figure out the probability of getting
+
+21
+00:01:03,170 --> 00:01:05,614
+a result below this and subtract that from 1,
+
+22
+00:01:05,614 --> 00:01:08,470
+or just figure out this area right over there.
+
+23
+00:01:08,470 --> 00:01:11,720
+And to do that we've been figuring out how many
+
+24
+00:01:11,720 --> 00:01:15,120
+standard deviations above the mean we actually are.
+
+25
+00:01:15,120 --> 00:01:20,010
+The way we figured that out is we take our sample mean,
+
+26
+00:01:20,010 --> 00:01:26,200
+we subtract from that our mean itself,
+
+27
+00:01:26,200 --> 00:01:28,350
+what we assume the mean should be,
+
+28
+00:01:28,350 --> 00:01:31,890
+or maybe we don't know what this is.
+
+29
+00:01:31,890 --> 00:01:36,447
+And then we divide that by the standard deviation
+
+30
+00:01:36,447 --> 00:01:38,956
+of the sampling distribution.
+
+31
+00:01:38,956 --> 00:01:40,804
+We divide that by the standard deviation
+
+32
+00:01:40,804 --> 00:01:42,783
+of the sampling distribution.
+
+33
+00:01:42,783 --> 00:01:44,700
+This is how many standard deviations
+
+34
+00:01:44,700 --> 00:01:46,100
+we are above the mean.
+
+35
+00:01:46,100 --> 00:01:48,860
+That is that distance right over there.
+
+36
+00:01:48,860 --> 00:01:52,420
+Now, we usually don't know what this is either.
+
+37
+00:01:52,420 --> 00:01:54,840
+We normally don't know what that is either.
+
+38
+00:01:54,840 --> 00:02:01,020
+And the central limit theorem told us that assuming that
+
+39
+00:02:01,020 --> 00:02:04,650
+we have a sufficient sample size, this thing right here,
+
+40
+00:02:04,650 --> 00:02:10,913
+this thing is going to be the same thing as...
+
+41
+00:02:10,913 --> 00:02:16,257
+the standard deviation of our population
+
+42
+00:02:16,257 --> 00:02:19,231
+divided by the square root of our sample size.
+
+43
+00:02:19,231 --> 00:02:24,930
+So this thing right over here can be re-written as our
+
+44
+00:02:24,930 --> 00:02:30,290
+sample mean minus the mean of our sampling distribution
+
+45
+00:02:30,290 --> 00:02:34,510
+of the sample mean divided by this thing right here--
+
+46
+00:02:34,510 --> 00:02:36,482
+divided by our population mean,
+
+47
+00:02:36,482 --> 00:02:39,160
+divided by the square root of our sample size.
+
+48
+00:02:39,160 --> 00:02:41,830
+And this is essentially our best sense of how many
+
+49
+00:02:41,830 --> 00:02:45,650
+standard deviations away from the actual mean we are.
+
+50
+00:02:45,650 --> 00:02:48,131
+And this thing right here, we've learned it before,
+
+51
+00:02:48,131 --> 00:02:49,532
+is a Z-score.
+
+52
+00:02:49,532 --> 00:02:51,780
+Or when we're dealing with an actual statistic when
+
+53
+00:02:51,780 --> 00:02:54,631
+it's derived from the sample mean statistic,
+
+54
+00:02:54,631 --> 00:02:58,327
+we call this a Z-statistic.
+
+55
+00:02:58,396 --> 00:03:02,080
+And then we could look it up in a Z-table or in a normal
+
+56
+00:03:02,080 --> 00:03:04,730
+distribution table to say what's the probability of
+
+57
+00:03:04,730 --> 00:03:08,330
+getting a value of this Z or greater.
+
+58
+00:03:08,330 --> 00:03:09,890
+So that would give us that probability.
+
+59
+00:03:09,890 --> 00:03:11,640
+So what's the probability of getting that
+
+60
+00:03:11,640 --> 00:03:13,680
+extreme of a result?
+
+61
+00:03:13,680 --> 00:03:18,350
+Now normally when we've done this in the last few videos,
+
+62
+00:03:18,350 --> 00:03:24,270
+we also do not know what the standard deviation
+
+63
+00:03:24,270 --> 00:03:25,550
+of the population is.
+
+64
+00:03:25,550 --> 00:03:31,200
+So in order to approximate that, we say that the Z-score
+
+65
+00:03:31,200 --> 00:03:33,556
+is approximately, or the Z-statistic,
+
+66
+00:03:33,556 --> 00:03:36,623
+is approximately going to be
+
+67
+00:03:36,623 --> 00:03:38,460
+-- so let me just write the numerator over again --
+
+68
+00:03:38,460 --> 00:03:45,363
+-- we estimate this using our sample standard deviation -
+
+69
+00:03:45,363 --> 00:03:47,797
+-- let me do this in a new color--
+
+70
+00:03:47,797 --> 00:03:53,623
+with using our sample standard deviation.
+
+71
+00:03:53,623 --> 00:04:02,830
+And this is OK, if our sample size is greater than 30.
+
+72
+00:04:02,830 --> 00:04:05,600
+Or another way to think about it is this will be
+
+73
+00:04:05,600 --> 00:04:14,310
+normally distributed if our sample size is greater than 30.
+
+74
+00:04:14,310 --> 00:04:16,211
+Even this approximation will be
+
+75
+00:04:16,211 --> 00:04:17,930
+approximately normally distributed.
+
+76
+00:04:17,930 --> 00:04:20,850
+Now, if your sample size is less than 30,
+
+77
+00:04:20,850 --> 00:04:23,180
+especially if it's a good bit less than 30, all of a sudden,
+
+78
+00:04:23,180 --> 00:04:25,730
+this expression will not be normally distributed.
+
+79
+00:04:25,730 --> 00:04:28,270
+So let me re-write the expression over here.
+
+80
+00:04:28,270 --> 00:04:32,140
+Sample mean minus the mean of your sampling distribution of
+
+81
+00:04:32,140 --> 00:04:35,640
+the sample mean divided by your sample standard deviation
+
+82
+00:04:35,640 --> 00:04:39,420
+over the square root of your sample size.
+
+83
+00:04:39,420 --> 00:04:44,100
+We just said if this thing is well over 30, or at least 30,
+
+84
+00:04:44,100 --> 00:04:47,747
+then this value right here, this statistic,
+
+85
+00:04:47,747 --> 00:04:49,520
+is going to be normally distributed.
+
+86
+00:04:49,520 --> 00:04:54,263
+If it's not, if this is small,
+
+87
+00:04:54,263 --> 00:05:00,112
+then this is going to have a t-distribution.
+
+88
+00:05:00,200 --> 00:05:02,100
+And then you're going to do the exact same thing you did
+
+89
+00:05:02,100 --> 00:05:04,810
+here, but now you would assume that the bell is no longer
+
+90
+00:05:04,810 --> 00:05:09,380
+a normal distribution, so this example it was normal.
+
+91
+00:05:09,380 --> 00:05:11,160
+All of Z's are normally distributed.
+
+92
+00:05:11,160 --> 00:05:14,100
+Over here in a t-distribution, and this will actually be a
+
+93
+00:05:14,100 --> 00:05:16,120
+normalized t-distribution right here because we
+
+94
+00:05:16,120 --> 00:05:18,220
+subtracted out the mean.
+
+95
+00:05:18,220 --> 00:05:22,220
+So in a normalized t-distribution,
+
+96
+00:05:22,220 --> 00:05:24,410
+you're going to have a mean of 0.
+
+97
+00:05:24,410 --> 00:05:26,070
+And what you're going to do is you want to figure out the
+
+98
+00:05:26,070 --> 00:05:30,850
+probability of getting a t-value at least this extreme.
+
+99
+00:05:30,850 --> 00:05:34,680
+So this is your t-value you would get, and then
+
+100
+00:05:34,680 --> 00:05:37,513
+you essentially figure out the area under the curve
+
+101
+00:05:37,513 --> 00:05:39,030
+right over there.
+
+102
+00:05:39,030 --> 00:05:42,237
+So a very easy rule of thumb is:
+
+103
+00:05:42,237 --> 00:05:47,410
+Calculate this quantity either way.
+
+104
+00:05:47,410 --> 00:05:51,320
+If you will have more than 30 samples,
+
+105
+00:05:51,320 --> 00:05:54,272
+if your sample size is more than 30,
+
+106
+00:05:54,272 --> 00:05:56,195
+your sample standard deviation is going to be a
+
+107
+00:05:56,195 --> 00:05:59,250
+good approximator for your population standard deviation.
+
+108
+00:05:59,250 --> 00:06:01,392
+And so this whole thing is going to be
+
+109
+00:06:01,392 --> 00:06:03,387
+approximately normally distributed,
+
+110
+00:06:03,387 --> 00:06:05,757
+and so you can use a Z-table to figure out
+
+111
+00:06:05,757 --> 00:06:08,380
+the probability of getting a result at least that extreme.
+
+112
+00:06:08,380 --> 00:06:14,142
+If your sample size is small, then this statistic,
+
+113
+00:06:14,142 --> 00:06:19,410
+this quantity, is going to have a t-distribution,
+
+114
+00:06:19,410 --> 00:06:22,292
+and then you're going to have to use a t-table
+
+115
+00:06:22,292 --> 00:06:25,333
+to figure out the probability of getting a t-value
+
+116
+00:06:25,333 --> 00:06:27,547
+at least this extreme.
+
+117
+00:06:27,547 --> 00:06:29,330
+And we're going to see this in an example a couple
+
+118
+00:06:29,330 --> 00:06:30,486
+of videos from now. Anyway,
+
+119
+00:06:30,486 --> 00:06:34,029
+hopefully that helped clarify some things in your head about
+
+120
+00:06:34,029 --> 00:06:38,170
+when to use a Z-statistic or when to use a t-statistic.

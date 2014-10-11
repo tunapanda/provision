@@ -1,0 +1,731 @@
+1
+00:00:01,870 --> 00:00:08,290
+Let's learn a little bit about the law of large numbers
+
+2
+00:00:08,300 --> 00:00:11,720
+which is on many levels, one of the most intuitive laws
+
+3
+00:00:11,730 --> 00:00:14,180
+in mathematics and in probability theory.
+
+4
+00:00:14,180 --> 00:00:18,560
+But because it's so applicable to so many things, it's often
+
+5
+00:00:18,570 --> 00:00:22,190
+a misused law or sometimes, slightly misunderstood.
+
+6
+00:00:22,190 --> 00:00:26,240
+So just to be a little bit formal in our mathematics,
+
+7
+00:00:26,250 --> 00:00:28,570
+let me just define it for you first and
+
+8
+00:00:28,570 --> 00:00:29,430
+then we'll talk a little bit about the intuition.
+
+9
+00:00:29,430 --> 00:00:33,980
+So let's say I have a random variable, X.
+
+10
+00:00:33,990 --> 00:00:38,740
+And we know its expected value or its population mean.
+
+11
+00:00:38,750 --> 00:00:41,780
+The law of large numbers just says that
+
+12
+00:00:41,780 --> 00:00:46,460
+if we take a sample of n observations of our random variable,
+
+13
+00:00:46,470 --> 00:00:49,070
+and if we were to average all of those observations--
+
+14
+00:00:49,070 --> 00:00:50,670
+and let me define another variable.
+
+15
+00:00:50,670 --> 00:00:54,130
+Let's call that x sub n with a line on top of it.
+
+16
+00:00:54,140 --> 00:00:56,960
+This is the mean of n observations of
+
+17
+00:00:56,960 --> 00:00:57,740
+our random variable.
+
+18
+00:00:57,750 --> 00:01:00,520
+So it's literally this is my first observation.
+
+19
+00:01:00,530 --> 00:01:03,220
+So you can kind of say I run the experiment once and
+
+20
+00:01:03,220 --> 00:01:07,110
+I get this observation and I run it again, I get that observation.
+
+21
+00:01:07,120 --> 00:01:11,630
+And I keep running it n times and
+
+22
+00:01:11,640 --> 00:01:12,620
+then I divide by my number of observations.
+
+23
+00:01:12,620 --> 00:01:14,140
+So this is my sample mean.
+
+24
+00:01:14,150 --> 00:01:17,330
+This is the mean of all the observations I've made.
+
+25
+00:01:17,340 --> 00:01:23,200
+The law of large numbers just tells us that my sample mean
+
+26
+00:01:23,200 --> 00:01:27,570
+will approach my expected value of the random variable.
+
+27
+00:01:27,570 --> 00:01:32,750
+Or I could also write it as my sample mean will approach
+
+28
+00:01:32,760 --> 00:01:39,900
+my population mean for n approaching infinity.
+
+29
+00:01:39,900 --> 00:01:43,280
+And I'll be a little informal with what does approach or
+
+30
+00:01:43,290 --> 00:01:44,260
+what does convergence mean?
+
+31
+00:01:44,260 --> 00:01:46,400
+But I think you have the general intuitive sense that
+
+32
+00:01:46,400 --> 00:01:50,500
+if I take a large enough sample here that I'm going to end up
+
+33
+00:01:50,510 --> 00:01:54,200
+getting the expected value of the population as a whole.
+
+34
+00:01:54,200 --> 00:01:56,790
+And I think to a lot of us that's kind of intuitive.
+
+35
+00:01:56,790 --> 00:02:01,600
+That if I do enough trials that over large samples, the trials
+
+36
+00:02:01,600 --> 00:02:04,050
+would kind of give me the numbers that I would expect
+
+37
+00:02:04,060 --> 00:02:06,710
+given the expected value and the probability and all that.
+
+38
+00:02:06,710 --> 00:02:09,320
+But I think it's often a little bit misunderstood
+
+39
+00:02:09,330 --> 00:02:10,610
+in terms of why that happens.
+
+40
+00:02:10,620 --> 00:02:13,270
+And before I go into that let me give you
+
+41
+00:02:13,280 --> 00:02:15,090
+a particular example.
+
+42
+00:02:15,090 --> 00:02:17,400
+The law of large numbers will just tell us that-- let's say
+
+43
+00:02:17,400 --> 00:02:24,530
+I have a random variable-- X is equal to the number of heads
+
+44
+00:02:24,530 --> 00:02:30,770
+after 100 tosses of a fair coin-- tosses or flips
+
+45
+00:02:30,780 --> 00:02:33,420
+of a fair coin.
+
+46
+00:02:36,090 --> 00:02:37,880
+First of all, we know what the expected value of
+
+47
+00:02:37,880 --> 00:02:39,830
+this random variable is.
+
+48
+00:02:39,840 --> 00:02:43,080
+It's the number of tosses, the number of trials times
+
+49
+00:02:43,080 --> 00:02:46,490
+the probabilities of success of any trial.
+
+50
+00:02:46,500 --> 00:02:49,170
+So that's equal to 50.
+
+51
+00:02:49,170 --> 00:02:53,470
+So the law of large numbers just says if I were to take a sample
+
+52
+00:02:53,470 --> 00:02:57,520
+or if I were to average the sample of a bunch of these trials,
+
+53
+00:02:57,530 --> 00:03:03,340
+so you know, I get-- my first time I run this trial
+
+54
+00:03:03,340 --> 00:03:06,270
+I flip 100 coins or have 100 coins in a shoe box and
+
+55
+00:03:06,280 --> 00:03:10,280
+I shake the shoe box and I count the number of heads, and I get 55.
+
+56
+00:03:10,280 --> 00:03:11,870
+So that Would be X1.
+
+57
+00:03:11,870 --> 00:03:15,230
+Then I shake the box again and I get 65.
+
+58
+00:03:15,240 --> 00:03:18,110
+Then I shake the box again and I get 45.
+
+59
+00:03:18,110 --> 00:03:22,750
+And I do this n times and then I divide it by
+
+60
+00:03:22,750 --> 00:03:23,990
+the number of times I did it.
+
+61
+00:03:24,000 --> 00:03:27,060
+The law of large numbers just tells us that this the average
+
+62
+00:03:27,060 --> 00:03:31,050
+the average of all of my observations,
+
+63
+00:03:31,050 --> 00:03:38,690
+is going to converge to 50 as n approaches infinity.
+
+64
+00:03:38,690 --> 00:03:40,870
+Or for n approaching 50.
+
+65
+00:03:40,880 --> 00:03:42,760
+I'm sorry, n approaching infinity.
+
+66
+00:03:42,770 --> 00:03:45,140
+And I want to talk a little bit about why this happens
+
+67
+00:03:45,150 --> 00:03:46,990
+or intuitively why this is.
+
+68
+00:03:47,000 --> 00:03:50,520
+A lot of people kind of feel that oh, this means that
+
+69
+00:03:50,520 --> 00:03:54,940
+if after 100 trials that if I'm above the average that somehow
+
+70
+00:03:54,940 --> 00:03:57,640
+the laws of probability are going to give me more heads
+
+71
+00:03:57,650 --> 00:04:00,150
+or fewer heads to kind of make up the difference.
+
+72
+00:04:00,150 --> 00:04:01,930
+That's not quite what's going to happen.
+
+73
+00:04:01,930 --> 00:04:04,430
+That's often called the gambler's fallacy.
+
+74
+00:04:04,430 --> 00:04:05,460
+Let me differentiate.
+
+75
+00:04:05,470 --> 00:04:06,500
+And I'll use this example.
+
+76
+00:04:06,500 --> 00:04:08,400
+So let's say-- let me make a graph.
+
+77
+00:04:08,410 --> 00:04:09,270
+And I'll switch colors.
+
+78
+00:04:23,000 --> 00:04:25,180
+This is n, my x-axis is n.
+
+79
+00:04:25,190 --> 00:04:27,630
+This is the number of trials I take.
+
+80
+00:04:27,640 --> 00:04:32,510
+And my y-axis, let me make that the sample mean.
+
+81
+00:04:32,510 --> 00:04:36,180
+And we know what the expected value is, we know
+
+82
+00:04:36,180 --> 00:04:39,070
+the expected value of this random variable is 50.
+
+83
+00:04:39,080 --> 00:04:40,040
+Let me draw that here.
+
+84
+00:04:42,670 --> 00:04:43,340
+This is 50.
+
+85
+00:04:47,410 --> 00:04:49,700
+So just going to the example I did.
+
+86
+00:04:49,700 --> 00:04:53,750
+So when n is equal to-- let me just [INAUDIBLE]
+
+87
+00:04:53,750 --> 00:04:54,870
+here.
+
+88
+00:04:54,880 --> 00:04:59,240
+So my first trial I got 55 and so that was my average.
+
+89
+00:04:59,250 --> 00:05:00,750
+I only had one data point.
+
+90
+00:05:00,750 --> 00:05:04,720
+Then after two trials, let's see, then I have 65.
+
+91
+00:05:04,720 --> 00:05:09,140
+And so my average is going to be 65 plus 55 divided by 2.
+
+92
+00:05:09,140 --> 00:05:10,480
+which is 60.
+
+93
+00:05:10,490 --> 00:05:13,410
+So then my average went up a little bit.
+
+94
+00:05:13,410 --> 00:05:15,370
+Then I had a 45, which will bring my average
+
+95
+00:05:15,370 --> 00:05:16,870
+down a little bit.
+
+96
+00:05:16,870 --> 00:05:18,190
+I won't plot a 45 here.
+
+97
+00:05:18,200 --> 00:05:19,490
+Now I have to average all of these out.
+
+98
+00:05:19,500 --> 00:05:22,410
+What's 45 plus 65?
+
+99
+00:05:22,410 --> 00:05:23,690
+Let me actually just get the number just
+
+100
+00:05:23,690 --> 00:05:24,560
+so you get the point.
+
+101
+00:05:24,570 --> 00:05:28,660
+So it's 55 plus 65.
+
+102
+00:05:28,670 --> 00:05:32,920
+It's 120 plus 45 is 165.
+
+103
+00:05:32,930 --> 00:05:36,360
+Divided by 3.
+
+104
+00:05:36,370 --> 00:05:39,880
+3 goes into 165 5-- 5 times 3 is 15.
+
+105
+00:05:39,880 --> 00:05:42,260
+It's 53.
+
+106
+00:05:42,270 --> 00:05:43,510
+No, no, no.
+
+107
+00:05:43,510 --> 00:05:45,300
+55.
+
+108
+00:05:45,310 --> 00:05:46,990
+So the average goes down back down to 55.
+
+109
+00:05:46,990 --> 00:05:49,420
+And we could keep doing these trials.
+
+110
+00:05:49,420 --> 00:05:51,620
+So you might say that the law of large numbers tells this,
+
+111
+00:05:51,620 --> 00:05:56,620
+OK, after we've done 3 trials and our average is there.
+
+112
+00:05:56,630 --> 00:06:00,100
+So a lot of people think that somehow the gods of probability
+
+113
+00:06:00,110 --> 00:06:02,300
+are going to make it more likely that we get fewer
+
+114
+00:06:02,310 --> 00:06:03,170
+heads in the future.
+
+115
+00:06:03,170 --> 00:06:06,140
+That somehow the next couple of trials are going to have to
+
+116
+00:06:06,140 --> 00:06:09,010
+be down here in order to bring our average down.
+
+117
+00:06:09,020 --> 00:06:10,710
+And that's not necessarily the case.
+
+118
+00:06:10,720 --> 00:06:13,230
+Going forward the probabilities are always the same.
+
+119
+00:06:13,240 --> 00:06:15,190
+The probabilities are always 50% that
+
+120
+00:06:15,190 --> 00:06:16,150
+I'm going to get heads.
+
+121
+00:06:16,160 --> 00:06:19,660
+It's not like if I had a bunch of heads to start off with or
+
+122
+00:06:19,660 --> 00:06:22,090
+more than I would have expected to start off with, that
+
+123
+00:06:22,100 --> 00:06:25,350
+all of a sudden things would be made up and I would get more tails.
+
+124
+00:06:25,360 --> 00:06:27,520
+That would the gambler's fallacy.
+
+125
+00:06:27,520 --> 00:06:29,900
+That if you have a long streak of heads or you have
+
+126
+00:06:29,910 --> 00:06:32,010
+a disproportionate number of heads, that at some point
+
+127
+00:06:32,010 --> 00:06:35,060
+you're going to have-- you have a higher likelihood of having
+
+128
+00:06:35,060 --> 00:06:36,990
+a disproportionate number of tails.
+
+129
+00:06:37,000 --> 00:06:38,430
+And that's not quite true.
+
+130
+00:06:38,430 --> 00:06:41,220
+What the law of large numbers tells us is that it doesn't care
+
+131
+00:06:41,230 --> 00:06:45,690
+Let's say after some finite number of trials
+
+132
+00:06:45,690 --> 00:06:48,120
+Your average actually-- it's a low probability of this happening,
+
+133
+00:06:48,120 --> 00:06:50,290
+but let's say your average is actually up here.
+
+134
+00:06:50,300 --> 00:06:52,260
+Is actually at 70.
+
+135
+00:06:52,260 --> 00:06:55,990
+You're like, wow, we really diverged a good bit from
+
+136
+00:06:56,000 --> 00:06:57,010
+the expected value.
+
+137
+00:06:57,010 --> 00:06:58,440
+But what the law of large numbers says, well,
+
+138
+00:06:58,440 --> 00:07:00,250
+I don't care how many trials this is.
+
+139
+00:07:00,260 --> 00:07:03,860
+We have an infinite number of trials left.
+
+140
+00:07:03,870 --> 00:07:06,580
+And the expected value for that infinite number of trials,
+
+141
+00:07:06,580 --> 00:07:11,560
+especially in this type of situation is going to be this.
+
+142
+00:07:11,560 --> 00:07:15,670
+So when you average a finite number that averages out to
+
+143
+00:07:15,680 --> 00:07:18,380
+some high number, and then an infinite number that's going to
+
+144
+00:07:18,380 --> 00:07:22,880
+converge to this, you're going to over time, converge back
+
+145
+00:07:22,880 --> 00:07:24,010
+to the expected value.
+
+146
+00:07:24,020 --> 00:07:27,300
+And that was a very informal way of describing it,
+
+147
+00:07:27,310 --> 00:07:29,570
+but that's what the law or large numbers tells you.
+
+148
+00:07:29,570 --> 00:07:30,930
+And it's an important thing.
+
+149
+00:07:30,930 --> 00:07:33,550
+It's not telling you that if you get a bunch of heads that
+
+150
+00:07:33,560 --> 00:07:36,180
+somehow the probability of getting tails is going
+
+151
+00:07:36,180 --> 00:07:38,240
+to increase to kind of make up for the heads.
+
+152
+00:07:38,250 --> 00:07:41,650
+What it's telling you is, is that no matter what happened
+
+153
+00:07:41,660 --> 00:07:44,580
+over a finite number of trials, no matter what the average is
+
+154
+00:07:44,580 --> 00:07:46,550
+over a finite number of trials, you have
+
+155
+00:07:46,560 --> 00:07:47,950
+an infinite number of trials left.
+
+156
+00:07:47,950 --> 00:07:51,840
+And if you do enough of them it's going to converge back
+
+157
+00:07:51,850 --> 00:07:52,790
+to your expected value.
+
+158
+00:07:52,800 --> 00:07:54,420
+And this is an important thing to think about.
+
+159
+00:07:54,430 --> 00:07:57,760
+But this isn't used in practice every day with the lottery and with casinos
+
+160
+00:07:57,760 --> 00:08:02,210
+because they know that if you do large enough samples
+
+161
+00:08:02,220 --> 00:08:04,950
+and we could even calculate
+
+162
+00:08:04,950 --> 00:08:07,750
+if you do large enough samples,
+
+163
+00:08:07,750 --> 00:08:09,500
+what's the probability that things deviate significantly?
+
+164
+00:08:09,500 --> 00:08:12,940
+But casinos and the lottery every day operate on this principle
+
+165
+00:08:12,950 --> 00:08:15,630
+that if you take enough people-- sure,
+
+166
+00:08:15,630 --> 00:08:18,230
+in the short-term or with a few samples,
+
+167
+00:08:18,240 --> 00:08:19,560
+a couple people might beat the house.
+
+168
+00:08:19,560 --> 00:08:22,190
+But over the long-term the house is always going to win
+
+169
+00:08:22,200 --> 00:08:24,290
+because of the parameters of the games that
+
+170
+00:08:24,300 --> 00:08:25,300
+they're making you play.
+
+171
+00:08:25,300 --> 00:08:28,170
+Anyway, this is an important thing in probability and
+
+172
+00:08:28,180 --> 00:08:29,750
+I think it's fairly intuitive.
+
+173
+00:08:29,750 --> 00:08:32,580
+Although, sometimes when you see it formally explained
+
+174
+00:08:32,590 --> 00:08:34,280
+like this with the random variables and that
+
+175
+00:08:34,280 --> 00:08:34,930
+it's a little bit confusing.
+
+176
+00:08:34,940 --> 00:08:39,540
+All it's saying is that as you take more and more samples,
+
+177
+00:08:39,540 --> 00:08:44,580
+the average of that sample is going to
+
+178
+00:08:44,590 --> 00:08:45,660
+approximate the true average.
+
+179
+00:08:45,660 --> 00:08:47,400
+Or I should be a little bit more particular.
+
+180
+00:08:47,400 --> 00:08:51,680
+The mean of your sample is going to converge to
+
+181
+00:08:51,690 --> 00:08:54,960
+the true mean of the population or
+
+182
+00:08:54,970 --> 00:08:56,120
+to the expected value of the random variable.
+
+183
+00:08:56,120 --> 00:08:58,840
+Anyway, see you in the next video.

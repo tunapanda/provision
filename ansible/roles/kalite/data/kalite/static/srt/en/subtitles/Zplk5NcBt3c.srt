@@ -1,0 +1,659 @@
+1
+00:00:00,870 --> 00:00:03,180
+We're on problem 115.
+
+2
+00:00:03,980 --> 00:00:07,890
+Mary's income is 60% more than Tim's income.
+
+3
+00:00:12,850 --> 00:00:16,260
+So that's 1.6 times Tim's income.
+
+4
+00:00:16,540 --> 00:00:20,470
+You could write it as Tim's income plus 60% of Tim's income,
+
+5
+00:00:20,470 --> 00:00:22,240
+but hopefully it's second nature that
+
+6
+00:00:22,240 --> 00:00:25,010
+this is just 1.6 times Tim's income.
+
+7
+00:00:25,010 --> 00:00:29,680
+So if Mary's income is equal to 1.6 times Tim's income,
+
+8
+00:00:29,680 --> 00:00:34,710
+and Tim's income is 40% percent less than Juan's income.
+
+9
+00:00:34,710 --> 00:00:39,160
+So Tim's income, if it's 40% less than Juan's income,
+
+10
+00:00:39,160 --> 00:00:43,050
+that means that it's 60% of Juan's income.
+
+11
+00:00:43,840 --> 00:00:47,530
+You can do that as Juan's income minus 40% percent of
+
+12
+00:00:47,530 --> 00:00:50,530
+Juan's income. That's 0.6 times Juan's income.
+
+13
+00:00:50,990 --> 00:00:54,010
+What percentage of Juan's income is Mary's income?
+
+14
+00:00:54,110 --> 00:00:55,410
+So let's just do a little substitution.
+
+15
+00:00:55,720 --> 00:00:58,200
+Substitute this T over here.
+
+16
+00:00:58,480 --> 00:01:07,010
+So you get Mary is equal to 1.6 times 0.6 times Juan.
+
+17
+00:01:07,100 --> 00:01:22,830
+And then what's 6 times 16? 60 plus 36. 96.
+
+18
+00:01:24,060 --> 00:01:27,000
+We have 2 numbers to the right of the decimal.
+
+19
+00:01:27,000 --> 00:01:31,820
+So it's 0.96 times Juan's income. So what are they asking?
+
+20
+00:01:31,820 --> 00:01:33,960
+What percentage of Juan's income is Mary's income?
+
+21
+00:01:33,960 --> 00:01:39,000
+Mary's income is 96% of Juan's income. And that's choice C.
+
+22
+00:01:40,000 --> 00:01:41,790
+0.96 is 96% of.
+
+23
+00:01:42,790 --> 00:01:47,960
+Problem 116. Looks like something I have to draw.
+
+24
+00:01:49,750 --> 00:01:53,360
+Each dot in the mileage table above represents an entry
+
+25
+00:01:53,360 --> 00:01:56,310
+indicating the distance between a pair of five cities.
+
+26
+00:01:56,330 --> 00:02:02,890
+Let me try to draw this out quickly. So we have five cities.
+
+27
+00:02:07,760 --> 00:02:18,060
+It's 1, 2, 3, 4, and 5.
+
+28
+00:02:19,060 --> 00:02:29,200
+And then we have to do it the other way. 1, 2, 3, and then 4.
+
+29
+00:02:31,920 --> 00:02:39,410
+They have the same cities on both axes.City A,B, C, D, and E.
+
+30
+00:02:39,870 --> 00:02:48,160
+City A, B, C, D, and E. And they have some dots.
+
+31
+00:02:48,160 --> 00:02:53,170
+That's a dot, a dot, a dot, a dot, then dots down that way.
+
+32
+00:02:55,250 --> 00:02:58,020
+Each dot in the mileage table above represents an entry
+
+33
+00:02:58,020 --> 00:03:00,490
+indicating the distance between a pair of the five cities.
+
+34
+00:03:00,580 --> 00:03:03,610
+If the table were extended to represent the distances
+
+35
+00:03:03,680 --> 00:03:07,830
+between all pairs of 30 cities, and each distance were
+
+36
+00:03:07,830 --> 00:03:09,670
+to be represented by only one entry,
+
+37
+00:03:10,310 --> 00:03:13,460
+how many entries would the table then have?
+
+38
+00:03:17,000 --> 00:03:17,690
+So they're saying,
+
+39
+00:03:17,690 --> 00:03:21,040
+OK, this is essentially the case with five cities.
+
+40
+00:03:21,430 --> 00:03:24,340
+You don't want to care about the distance between A and A.
+
+41
+00:03:24,370 --> 00:03:28,310
+They want the distance between all pairs of 30 cities.
+
+42
+00:03:30,670 --> 00:03:33,090
+So this is the case when you have n is equal to 5.
+
+43
+00:03:34,210 --> 00:03:36,000
+And the reason why you could say the distance between A and
+
+44
+00:03:36,000 --> 00:03:38,330
+B is this dot, you could have also said the distance between
+
+45
+00:03:38,330 --> 00:03:41,000
+B and A is this dot down here.
+
+46
+00:03:41,000 --> 00:03:43,660
+But they didn't draw a dot there, because they said and
+
+47
+00:03:43,660 --> 00:03:46,210
+each distance were to be represented by only one entry.
+
+48
+00:03:46,210 --> 00:03:49,110
+So they don't want to double-- if this was 5,
+
+49
+00:03:49,110 --> 00:03:51,530
+this would also be 5. They only want to write it there once.
+
+50
+00:03:51,740 --> 00:03:54,060
+So relative to 5, how would we figure this out?
+
+51
+00:03:54,880 --> 00:03:59,880
+So if you think about it, what you're going to have is--
+
+52
+00:04:00,720 --> 00:04:02,420
+no matter how big this table is,
+
+53
+00:04:02,530 --> 00:04:04,090
+the diagonal is going to be empty.
+
+54
+00:04:04,710 --> 00:04:07,620
+You don't have to fill out the distance between
+
+55
+00:04:07,620 --> 00:04:09,080
+the city and itself.
+
+56
+00:04:09,800 --> 00:04:12,770
+And then if you just continue the trend that they did,
+
+57
+00:04:13,470 --> 00:04:15,890
+out of what's left over, ou're just going to fill out half of
+
+58
+00:04:15,890 --> 00:04:18,460
+them, because the other half is just redundant information.
+
+59
+00:04:19,230 --> 00:04:25,030
+So for example, if you have 5 cities, you're going to have 5
+
+60
+00:04:25,030 --> 00:04:28,080
+times 5 is equal to 25 squares.
+
+61
+00:04:29,030 --> 00:04:30,580
+How many squares are going to be in the diagonal?
+
+62
+00:04:30,580 --> 00:04:32,590
+We're going to have exactly 5 squares in the diagonal.
+
+63
+00:04:32,970 --> 00:04:36,040
+1, 2, 3, 4, 5. So you're going to subtract 5.
+
+64
+00:04:36,410 --> 00:04:39,890
+So you're going to have 20 boxes left that
+
+65
+00:04:39,890 --> 00:04:40,810
+aren't in the diagonal.
+
+66
+00:04:40,810 --> 00:04:43,060
+And then you are going to have to to fill out half of those.
+
+67
+00:04:43,610 --> 00:04:46,330
+So you're going to fill out exactly 10 boxes,
+
+68
+00:04:46,330 --> 00:04:50,060
+so 1, 2, 3 ,4, 5, 6, 7, 8, 9, 10.
+
+69
+00:04:50,060 --> 00:04:52,570
+So let's do the same exercise with 30.
+
+70
+00:04:52,570 --> 00:04:56,600
+If you have 30 cities, you're going to have 30 times 30 boxes
+
+71
+00:04:56,600 --> 00:04:59,030
+which is equal to 900.
+
+72
+00:04:59,370 --> 00:05:02,170
+You're going to take out the 30 boxes
+
+73
+00:05:02,170 --> 00:05:09,000
+that are in the diagonal, so minus 30.So that's equal to 870.
+
+74
+00:05:09,000 --> 00:05:11,040
+And then you are only going to have to fill out half of those
+
+75
+00:05:11,040 --> 00:05:12,600
+because you don't want redundant information.
+
+76
+00:05:12,600 --> 00:05:14,300
+So you are only going to fill out the top half the way they
+
+77
+00:05:14,300 --> 00:05:15,160
+did it in this diagram.
+
+78
+00:05:15,800 --> 00:05:21,660
+So if you divide this by 2, you're going to get to what?
+
+79
+00:05:21,850 --> 00:05:27,650
+870 divided by 2 is 435. And that's choice B.
+
+80
+00:05:30,800 --> 00:05:36,510
+Next question, 117.
+
+81
+00:05:36,510 --> 00:05:39,060
+Which of the following has a value less than 1?
+
+82
+00:05:39,060 --> 00:05:44,690
+So choice A is 2 times 7/13.
+
+83
+00:05:44,690 --> 00:05:46,830
+2 times 7 is 14, so that's greater than 13.
+
+84
+00:05:46,830 --> 00:05:57,010
+So it's not A. B, square root of 10/2.
+
+85
+00:05:57,010 --> 00:05:59,520
+The square root of 10, that's going to be 3 point something,
+
+86
+00:05:59,920 --> 00:06:03,080
+which is greater than 2. So that's not right.
+
+87
+00:06:08,080 --> 00:06:11,090
+Choice C is 2 over the square root of 2.
+
+88
+00:06:12,350 --> 00:06:16,020
+The square root of 2 is less than 2. It's 1 point something.
+
+89
+00:06:16,020 --> 00:06:19,980
+So this is going to also have a value greater than 1.
+
+90
+00:06:19,980 --> 00:06:22,060
+So it can't be this. We're looking for less than 1.
+
+91
+00:06:22,530 --> 00:06:25,690
+Choice D says 1 divided by 1/2.
+
+92
+00:06:25,720 --> 00:06:28,030
+That's equal to 1 times 2, which is equal to 2.
+
+93
+00:06:28,460 --> 00:06:30,340
+So I can already tell you the choice is going to be E.
+
+94
+00:06:31,000 --> 00:06:35,040
+Let's look at it. So they have 9/10 squared.
+
+95
+00:06:35,040 --> 00:06:39,650
+That's 81/100, which sure enough is definitely less than 1.
+
+96
+00:06:39,650 --> 00:06:40,800
+So the choice is E.
+
+97
+00:06:42,060 --> 00:06:43,950
+Problem 118.
+
+98
+00:06:51,700 --> 00:06:54,790
+The ratio of the length to the width of a rectangular
+
+99
+00:06:54,790 --> 00:06:58,880
+advertising display is approximately 3.3:2.
+
+100
+00:06:59,050 --> 00:07:02,670
+So the length is 3.3 and the width is 2.
+
+101
+00:07:02,670 --> 00:07:04,010
+At least that's the ratios.
+
+102
+00:07:04,010 --> 00:07:08,560
+If the width of the display is 8 meters,
+
+103
+00:07:14,210 --> 00:07:17,060
+what is the approximate length of the display in meters?
+
+104
+00:07:17,820 --> 00:07:22,030
+So they tell us the length to the width is approximately
+
+105
+00:07:22,030 --> 00:07:29,780
+3.3:2, which is approximately equal to the length to 8 meters
+
+106
+00:07:29,790 --> 00:07:32,000
+They say the width of the display is 8 meters.
+
+107
+00:07:32,000 --> 00:07:36,010
+So we just have to solve this as best as we can for L.
+
+108
+00:07:38,690 --> 00:07:41,740
+The easiest way to think about it is to go from 2 to 8,
+
+109
+00:07:41,740 --> 00:07:43,890
+you multiply by 4.
+
+110
+00:07:43,890 --> 00:07:47,400
+So to go from 3.3 to L we have to multiply by 4.
+
+111
+00:07:47,400 --> 00:07:51,420
+So L is equal to 3.3 times 4. What's that?
+
+112
+00:07:51,420 --> 00:07:58,110
+33 times 4, or 3.3 times 4. 4 times 3 is 12, plus 1 is 13.
+
+113
+00:07:58,160 --> 00:08:01,010
+One number behind the decimal point. 13.2.
+
+114
+00:08:01,010 --> 00:08:05,790
+So they say approximate, and the closest one is choice C, 13.
+
+115
+00:08:08,090 --> 00:08:10,420
+Problem 119.
+
+116
+00:08:15,570 --> 00:08:17,820
+The average salary of 15 people in the shipping
+
+117
+00:08:17,820 --> 00:08:22,000
+department of a certain firm is $20,000.
+
+118
+00:08:22,000 --> 00:08:27,050
+So the average of 15 people is equal to $20,000.
+
+119
+00:08:27,730 --> 00:08:32,420
+The salary of 5 of the employees is $25,000 each, so
+
+120
+00:08:32,420 --> 00:08:35,020
+we can even say the average of those 5 is going to be $25,000
+
+121
+00:08:35,020 --> 00:08:37,030
+because all of them make $25,000.
+
+122
+00:08:37,030 --> 00:08:40,060
+And the salary of 4 of the employees is $16,000 each.
+
+123
+00:08:40,130 --> 00:08:44,040
+The average of 4 of the employees is $16,000 each.
+
+124
+00:08:44,040 --> 00:08:48,020
+That's the salary, but if you average 4 people making
+
+125
+00:08:48,020 --> 00:08:50,020
+$16,000, the average is going to be $16,000.
+
+126
+00:08:50,020 --> 00:08:54,080
+What is the average salary of the remaining employees?
+
+127
+00:08:54,470 --> 00:08:55,980
+Let's think about this.
+
+128
+00:08:57,370 --> 00:09:00,210
+Let's try to find the average of all of the employees.
+
+129
+00:09:00,210 --> 00:09:03,720
+So if we find the average of all 15 employees,
+
+130
+00:09:04,490 --> 00:09:07,810
+we're going to sum up all their salaries, divide by 15.
+
+131
+00:09:08,020 --> 00:09:14,550
+And we know that that is going to be equal to $20,000.
+
+132
+00:09:14,830 --> 00:09:17,900
+Now we have these 5 guys making $25,000,
+
+133
+00:09:18,470 --> 00:09:23,090
+so the sum of their salaries is going to be 5 times $25,000.
+
+134
+00:09:23,090 --> 00:09:26,940
+And then you have these 4 people making $16,000,
+
+135
+00:09:26,940 --> 00:09:29,070
+so it's plus 4 times 16.
+
+136
+00:09:29,070 --> 00:09:30,970
+I'm just trying to sum up everyone's salaries up here in
+
+137
+00:09:30,970 --> 00:09:32,650
+the numerator, and I'm going to divide by 15.
+
+138
+00:09:33,120 --> 00:09:36,140
+And then I'm going to have what?
+
+139
+00:09:36,140 --> 00:09:37,500
+The average of the remaining people.
+
+140
+00:09:37,500 --> 00:09:38,730
+How many people are remaining?
+
+141
+00:09:38,960 --> 00:09:43,040
+I've already done 9 people, so there's 6 people remaining
+
+142
+00:09:43,700 --> 00:09:45,140
+because there's a total of 15 people.
+
+143
+00:09:45,630 --> 00:09:51,030
+So the average of the 6 remaining people times 6.
+
+144
+00:09:51,600 --> 00:09:54,090
+Whatever their average is, times 6,
+
+145
+00:09:54,090 --> 00:09:57,050
+that'll give you the sum of their salaries.
+
+146
+00:09:57,050 --> 00:10:00,070
+And now we just solve for the average of those 6.
+
+147
+00:10:01,000 --> 00:10:05,760
+Let's see what we can do. So 5 times 25, that's 125.
+
+148
+00:10:05,960 --> 00:10:08,210
+Plus 4 times 16 is 64.
+
+149
+00:10:08,540 --> 00:10:15,010
+Plus 6 times-- let's call it A-- 6A is equal to 20 times 15.
+
+150
+00:10:15,010 --> 00:10:20,010
+So what's 20 times 15? 20 times 10 is 200. 20 times 5 is 100.
+
+151
+00:10:20,010 --> 00:10:22,880
+So it's equal to 300.
+
+152
+00:10:29,600 --> 00:10:37,450
+125 plus 64 is 189 plus 6A, is equal to 300.
+
+153
+00:10:38,060 --> 00:10:41,060
+Subtract 189 from both sides.
+
+154
+00:10:41,730 --> 00:10:52,780
+You get 6A is equal to 300 minus 189. That's 111.
+
+155
+00:10:54,610 --> 00:10:57,630
+89, add 11 to it, you get to 200.
+
+156
+00:10:57,630 --> 00:10:59,090
+And then you have to add another 100 to get to 300,
+
+157
+00:10:59,090 --> 00:11:02,010
+so it's 111. 300 minus 189.
+
+158
+00:11:02,610 --> 00:11:04,700
+And then how many times does 6 go into 111?
+
+159
+00:11:04,700 --> 00:11:05,880
+Divide both sides by 6.
+
+160
+00:11:06,150 --> 00:11:15,600
+6 goes into 111-- 6 goes into 51 eight times. 8 times 48.
+
+161
+00:11:17,840 --> 00:11:24,130
+18.5 times. $18,500 is the average of their salary.
+
+162
+00:11:24,210 --> 00:11:26,030
+And luckily enough, that's one of the choices.
+
+163
+00:11:26,600 --> 00:11:32,000
+That's choice B. $18,500. We did everything in thousandths ?
+
+164
+00:11:32,000 --> 00:11:35,050
+so we got 18.5, but that's $18,500.
+
+165
+00:11:35,050 --> 00:11:37,050
+See you in the next video.

@@ -1,0 +1,783 @@
+1
+00:00:00,963 --> 00:00:02,933
+What I want to do in this video is really think about
+
+2
+00:00:02,933 --> 00:00:05,271
+what happens when we define a function
+
+3
+00:00:05,271 --> 00:00:07,195
+and actually what happens as we
+
+4
+00:00:07,195 --> 00:00:09,833
+step through the program and we use the functions.
+
+5
+00:00:09,833 --> 00:00:12,026
+So let's say we write this program
+
+6
+00:00:12,026 --> 00:00:15,023
+just like we did in the last video and we run it.
+
+7
+00:00:15,023 --> 00:00:17,989
+So the interpreter will start at the first line over here,
+
+8
+00:00:17,989 --> 00:00:19,673
+it says: " Oh look! There is a function definition,
+
+9
+00:00:19,673 --> 00:00:22,213
+we are defining the function - factorial"
+
+10
+00:00:22,213 --> 00:00:23,928
+What I'm going to do here is,
+
+11
+00:00:23,928 --> 00:00:24,996
+I'm going to make a big box
+
+12
+00:00:24,996 --> 00:00:27,111
+and this big box is an environment
+
+13
+00:00:27,111 --> 00:00:29,665
+an environment for a program.
+
+14
+00:00:29,665 --> 00:00:33,413
+Is all of the different definitions and variables
+
+15
+00:00:33,413 --> 00:00:35,714
+definitions and everything that are specific to
+
+16
+00:00:35,714 --> 00:00:39,164
+the contex the program is running in.
+
+17
+00:00:39,164 --> 00:00:42,631
+So immidietly, the program will associate the name
+
+18
+00:00:42,631 --> 00:00:45,761
+"factorial" with this whole function right over here.
+
+19
+00:00:45,761 --> 00:00:47,553
+So right when it says define factorial,
+
+20
+00:00:47,553 --> 00:00:51,038
+it will actually associate, it wil actually,
+
+21
+00:00:51,038 --> 00:00:52,476
+let me write it over here.
+
+22
+00:00:52,476 --> 00:00:54,908
+It will actually associate factorial,
+
+23
+00:00:59,984 --> 00:01:06,447
+the label factorial i guess you could say it with a function
+
+24
+00:01:06,447 --> 00:01:10,106
+that looks like all of this business right over here.
+
+25
+00:01:10,106 --> 00:01:12,082
+So you will pass it a number,
+
+26
+00:01:12,082 --> 00:01:14,914
+you'll pass it a number
+
+27
+00:01:14,914 --> 00:01:16,166
+it's a function and I'm not using the,
+
+28
+00:01:16,166 --> 00:01:20,988
+and I'm not using or maybe I'll write it like this,
+
+29
+00:01:23,772 --> 00:01:24,733
+you'll see different notation,
+
+30
+00:01:24,733 --> 00:01:27,023
+lambda notation and all the this fancy stuff
+
+31
+00:01:27,023 --> 00:01:28,830
+if you'd take a formal computer science class
+
+32
+00:01:28,830 --> 00:01:31,672
+but all I'm just saying is factorial refers to function
+
+33
+00:01:31,672 --> 00:01:33,756
+that has the parameters,
+
+34
+00:01:33,756 --> 00:01:40,187
+and it only has a one parameter,
+
+35
+00:01:40,187 --> 00:01:42,033
+has the parameter "number".
+
+36
+00:01:42,490 --> 00:01:46,222
+And then given with the parameter "number"
+
+37
+00:01:46,222 --> 00:01:49,602
+it will then process this code right here,
+
+38
+00:01:52,278 --> 00:01:55,090
+so let me just copy and paste it right here and then,
+
+39
+00:01:55,090 --> 00:01:59,155
+whoops I'm doing it in the wrong layer
+
+40
+00:01:59,155 --> 00:02:00,267
+let me copy and paste it again.
+
+41
+00:02:00,267 --> 00:02:04,480
+So let me try to copy it,
+
+42
+00:02:04,480 --> 00:02:08,560
+let me copy it and then let me paste it.
+
+43
+00:02:08,560 --> 00:02:11,464
+So that what it is doing right over there
+
+44
+00:02:11,464 --> 00:02:13,025
+and actually I should make this box,
+
+45
+00:02:13,025 --> 00:02:14,382
+the environment includes all of this,
+
+46
+00:02:14,382 --> 00:02:15,483
+I think you will bare with me,
+
+47
+00:02:15,483 --> 00:02:17,576
+I didn't draw this orange box big enough
+
+48
+00:02:17,576 --> 00:02:19,005
+first time around.
+
+49
+00:02:19,005 --> 00:02:22,686
+So let me do that so that no one gets confused,
+
+50
+00:02:22,686 --> 00:02:24,077
+just so that no one gets confused,
+
+51
+00:02:24,077 --> 00:02:25,942
+so let me expand the orange box.
+
+52
+00:02:28,864 --> 00:02:31,028
+And i've erased a little bit,
+
+53
+00:02:31,028 --> 00:02:35,324
+one of the perimeters is the number
+
+54
+00:02:35,324 --> 00:02:39,528
+and then the orange box goes around the whole thing.
+
+55
+00:02:39,528 --> 00:02:43,958
+Thats a green color not a green.
+
+56
+00:02:43,958 --> 00:02:45,794
+Alright here we go!
+
+57
+00:02:45,794 --> 00:02:48,518
+So right when we hit the first few lines
+
+58
+00:02:48,518 --> 00:02:51,129
+it's saying "Look in our entire global environment
+
+59
+00:02:51,129 --> 00:02:53,253
+we are defining a function,
+
+60
+00:02:53,253 --> 00:02:55,766
+the factorial will now refer to a function
+
+61
+00:02:55,766 --> 00:02:57,186
+that takes the perimeter "Number"
+
+62
+00:02:57,186 --> 00:02:59,268
+and then it will run all of this code
+
+63
+00:02:59,268 --> 00:03:00,596
+that we've defined here and then
+
+64
+00:03:00,596 --> 00:03:03,688
+it will return whatever inside this function rolled,
+
+65
+00:03:03,688 --> 00:03:06,299
+whatever the value of the variable "product" is.
+
+66
+00:03:06,299 --> 00:03:08,899
+And the it keeps going line-by-line-by-line
+
+67
+00:03:08,899 --> 00:03:10,681
+and then we get to this line right over here.
+
+68
+00:03:10,681 --> 00:03:14,557
+And it says "The variable "user_input" is equal to,
+
+69
+00:03:14,557 --> 00:03:16,291
+and then it calls the function input
+
+70
+00:03:16,291 --> 00:03:18,606
+and it passes the function input,
+
+71
+00:03:18,606 --> 00:03:20,383
+and I'm starting to use a little bit of terminology
+
+72
+00:03:20,383 --> 00:03:21,668
+that we've been exposed to.
+
+73
+00:03:21,668 --> 00:03:24,654
+It passes the function input the string,
+
+74
+00:03:24,654 --> 00:03:26,961
+so this right here is a string.
+
+75
+00:03:26,961 --> 00:03:29,148
+And once again a string sounds like a fancy word
+
+76
+00:03:29,148 --> 00:03:31,666
+but it literally means "string of characters"
+
+77
+00:03:31,666 --> 00:03:33,361
+or this text right here
+
+78
+00:03:33,361 --> 00:03:34,169
+the text
+
+79
+00:03:34,169 --> 00:03:35,894
+"Enter a non-negative integer to take the factorial of: "
+
+80
+00:03:35,894 --> 00:03:39,166
+So even the spaces are part of the strings.
+
+81
+00:03:39,166 --> 00:03:42,049
+And the tell-tell sign of strings is
+
+82
+00:03:42,049 --> 00:03:44,583
+it is going to be inside some type of quotation marks,
+
+83
+00:03:44,583 --> 00:03:46,713
+either double or single quotation marks.
+
+84
+00:03:46,713 --> 00:03:49,381
+So by passing this to that input function,
+
+85
+00:03:49,381 --> 00:03:53,034
+that tells input function what to prompt the users.
+
+86
+00:03:53,034 --> 00:03:55,749
+So it prompts the user with this string,
+
+87
+00:03:55,749 --> 00:03:59,132
+the user types in a number or some type of expression,
+
+88
+00:03:59,132 --> 00:04:03,298
+that gets evaluated and then gets stored in "user_input"
+
+89
+00:04:03,298 --> 00:04:04,529
+or I really should say
+
+90
+00:04:04,529 --> 00:04:08,317
+in the Python context "user_input" refers that value.
+
+91
+00:04:08,317 --> 00:04:11,332
+So lets say that the user inputs "3"
+
+92
+00:04:11,332 --> 00:04:12,869
+then the variable user input
+
+93
+00:04:12,869 --> 00:04:15,997
+then the variable user input
+
+94
+00:04:19,197 --> 00:04:22,854
+will now refer in this global environment.
+
+95
+00:04:22,854 --> 00:04:24,636
+Now factorial refers to a function,
+
+96
+00:04:24,636 --> 00:04:27,925
+"user_input" will refer to
+
+97
+00:04:30,109 --> 00:04:33,128
+what would ever the user typed in.
+
+98
+00:04:33,128 --> 00:04:35,149
+I'm gonna go with the specific example of "3".
+
+99
+00:04:35,149 --> 00:04:36,366
+Then we go to the next line.
+
+100
+00:04:36,366 --> 00:04:37,733
+And it is saying
+
+101
+00:04:37,733 --> 00:04:39,275
+"Look, make factorial of user input,
+
+102
+00:04:39,275 --> 00:04:41,810
+make this entire variable refer to
+
+103
+00:04:41,810 --> 00:04:46,909
+whatever we get when we call factorial of "user_input",
+
+104
+00:04:46,909 --> 00:04:49,132
+factorial of this variable over here".
+
+105
+00:04:49,132 --> 00:04:50,612
+And so this is the interesting part.
+
+106
+00:04:50,612 --> 00:04:52,909
+At this point in the program,
+
+107
+00:04:52,909 --> 00:04:57,585
+the factorial of user input this part right over here,
+
+108
+00:04:57,585 --> 00:05:01,362
+it will make a call to this function
+
+109
+00:05:04,577 --> 00:05:08,933
+and it gives it the argument of what ever "user_input" is
+
+110
+00:05:08,933 --> 00:05:12,321
+Now "user_input" is referring to "3",
+
+111
+00:05:14,367 --> 00:05:18,004
+so it is going to pass "3" to the function "factorial"
+
+112
+00:05:18,004 --> 00:05:19,427
+So "3" gets passed here
+
+113
+00:05:19,427 --> 00:05:21,975
+and essentially within this function world
+
+114
+00:05:21,975 --> 00:05:23,245
+so now lets say that
+
+115
+00:05:23,245 --> 00:05:26,286
+this is the context of running this function.
+
+116
+00:05:26,286 --> 00:05:28,293
+So within this function world,
+
+117
+00:05:28,293 --> 00:05:30,162
+let me make it clear,
+
+118
+00:05:30,162 --> 00:05:32,468
+so now within this function world right over here
+
+119
+00:05:32,468 --> 00:05:34,022
+the functions environment,
+
+120
+00:05:34,022 --> 00:05:35,178
+the variable "number"
+
+121
+00:05:38,546 --> 00:05:46,672
+within this function world now refers to "3".
+
+122
+00:05:46,672 --> 00:05:50,552
+I now want to be a little bit careful
+
+123
+00:05:50,552 --> 00:05:52,890
+because we are starting to touch on
+
+124
+00:05:52,890 --> 00:05:55,042
+the idea of scope of a variable.
+
+125
+00:05:55,042 --> 00:05:57,770
+The variable "number"
+
+126
+00:05:57,770 --> 00:05:58,701
+in this function world,
+
+127
+00:05:58,701 --> 00:06:01,626
+it is only reference able within the function,
+
+128
+00:06:01,626 --> 00:06:03,842
+and we do refer it within the function.
+
+129
+00:06:03,842 --> 00:06:06,573
+It is not referable outside of the function,
+
+130
+00:06:06,573 --> 00:06:09,996
+so if down here someplace I would say "print(number)"
+
+131
+00:06:09,996 --> 00:06:11,323
+you would get an error
+
+132
+00:06:11,323 --> 00:06:14,006
+because it would be out of the scope of that variable.
+
+133
+00:06:14,006 --> 00:06:16,773
+This variable, it is a perimeter to this function,
+
+134
+00:06:16,773 --> 00:06:18,775
+it is only usable within this function.
+
+135
+00:06:18,775 --> 00:06:19,809
+Its scope, the place
+
+136
+00:06:19,809 --> 00:06:22,855
+where you can refer to it is only in this function.
+
+137
+00:06:22,855 --> 00:06:26,059
+So you get that number and then it does the code
+
+138
+00:06:26,059 --> 00:06:27,460
+we've looked at before
+
+139
+00:06:27,460 --> 00:06:29,477
+and it sets the variable "product",
+
+140
+00:06:31,769 --> 00:06:37,691
+so the variable "product" now refers to the number "1"
+
+141
+00:06:37,691 --> 00:06:39,254
+then it calls all of this code
+
+142
+00:06:39,254 --> 00:06:40,528
+and since we talked about scope
+
+143
+00:06:40,528 --> 00:06:41,893
+i'll talk about another situation of scope.
+
+144
+00:06:41,893 --> 00:06:44,643
+This variable "i" is only valid
+
+145
+00:06:44,643 --> 00:06:46,339
+within the scope of the for-loop.
+
+146
+00:06:46,339 --> 00:06:48,075
+If down here i says "return i",
+
+147
+00:06:48,075 --> 00:06:49,328
+that would have given an error.
+
+148
+00:06:49,328 --> 00:06:51,586
+You can only refer to it whiten the for-loop.
+
+149
+00:06:51,586 --> 00:06:54,141
+We have gone trough this code multiple times.
+
+150
+00:06:54,141 --> 00:06:59,693
+It goes from i=0 to i=1 to i=2 all the way up to "i"
+
+151
+00:06:59,693 --> 00:07:00,808
+is equal to one less than the "number"
+
+152
+00:07:00,808 --> 00:07:02,496
+but since we are adding one to "i" every time,
+
+153
+00:07:02,496 --> 00:07:05,778
+this all expression right over here.
+
+154
+00:07:05,778 --> 00:07:08,989
+Starts at 1 then 2 then 3 all the way up to the "number"
+
+155
+00:07:08,989 --> 00:07:11,107
+and each time we are multiplying it times
+
+156
+00:07:11,107 --> 00:07:12,756
+the original "product" to get a new product.
+
+157
+00:07:12,756 --> 00:07:14,297
+So at the end of the day,
+
+158
+00:07:14,297 --> 00:07:16,960
+"product" after we go through this whole for-loop,
+
+159
+00:07:16,960 --> 00:07:20,381
+"product" will contain the factorial of the "number".
+
+160
+00:07:23,551 --> 00:07:28,810
+So after you do this "product"
+
+161
+00:07:28,810 --> 00:07:30,412
+will keep referring to a bunch of things.
+
+162
+00:07:30,412 --> 00:07:32,900
+If will refer to 1, then it will refer to 2,
+
+163
+00:07:32,900 --> 00:07:36,049
+then it will refer to 6 because we're gonna do 3x2,
+
+164
+00:07:36,049 --> 00:07:44,383
+so eventually "product" is going to refer to 6
+
+165
+00:07:44,383 --> 00:07:48,710
+and then that is returned and when I say that is returned.
+
+166
+00:07:48,710 --> 00:07:52,132
+That means evaluate this entire thing over here,
+
+167
+00:07:52,132 --> 00:07:59,611
+that entire thing is going to be 6.
+
+168
+00:07:59,611 --> 00:08:02,995
+Once we get out of that program,
+
+169
+00:08:02,995 --> 00:08:05,568
+it lets the interpreter know that
+
+170
+00:08:05,568 --> 00:08:17,383
+factorial of "user_input" should now refer to that 6.
+
+171
+00:08:17,383 --> 00:08:19,011
+I know this might be a little bit
+
+172
+00:08:19,011 --> 00:08:20,340
+confusing with all this diagramming
+
+173
+00:08:20,340 --> 00:08:21,314
+but I really want you to
+
+174
+00:08:21,314 --> 00:08:22,737
+get the sense of what's happening.
+
+175
+00:08:22,737 --> 00:08:24,516
+"user_input" is referring to something,
+
+176
+00:08:24,516 --> 00:08:27,148
+we pass that something to the factorial program
+
+177
+00:08:27,148 --> 00:08:28,316
+so then we go up here
+
+178
+00:08:28,316 --> 00:08:30,767
+and within the factorial program now
+
+179
+00:08:30,767 --> 00:08:32,980
+since we passed "user_input" and "user_input" was 3.
+
+180
+00:08:32,980 --> 00:08:35,042
+Within the factorial program
+
+181
+00:08:35,042 --> 00:08:38,012
+this "number" is going to refer to 3
+
+182
+00:08:38,012 --> 00:08:39,432
+and then we run this as if "number" was 3
+
+183
+00:08:39,432 --> 00:08:42,234
+and then we return "product",
+
+184
+00:08:42,234 --> 00:08:44,043
+which is going to be the factorial of "number"
+
+185
+00:08:44,043 --> 00:08:46,748
+and so this whole thing evaluates to
+
+186
+00:08:46,748 --> 00:08:48,611
+the factorial of whatever was in here.
+
+187
+00:08:48,611 --> 00:08:50,177
+So the factorial of 3.
+
+188
+00:08:50,177 --> 00:08:52,448
+And so factorial of "user_input",
+
+189
+00:08:52,448 --> 00:08:54,011
+this variable, will now refer to that
+
+190
+00:08:54,011 --> 00:08:55,583
+because being assigned to that
+
+191
+00:08:55,583 --> 00:08:58,618
+and then we print it and when we print it,
+
+192
+00:08:58,618 --> 00:09:01,673
+that's what actually shows up down in our interpreter.
+
+193
+00:09:01,673 --> 00:09:03,427
+So hopefully this doesn't confuse you too much.
+
+194
+00:09:03,427 --> 00:09:04,818
+In the next video
+
+195
+00:09:04,818 --> 00:09:06,957
+we will discuss how we might be able to do
+
+196
+00:09:06,957 --> 00:09:10,957
+interesting things to this function itself.

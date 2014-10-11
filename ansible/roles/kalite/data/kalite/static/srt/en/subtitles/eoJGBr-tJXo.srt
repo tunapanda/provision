@@ -1,0 +1,251 @@
+1
+99:59:59,999 --> 99:59:59,999
+Now that we know a little bit about how to construct a unit normal vector
+
+2
+99:59:59,999 --> 99:59:59,999
+at any point in a curve--that's what we did in the last video--
+
+3
+99:59:59,999 --> 99:59:59,999
+I wanna start exploring and interesting expression.
+
+4
+99:59:59,999 --> 99:59:59,999
+So the expression is: The line integral around a closed loop, and we're gonna go in the positive counter
+
+5
+99:59:59,999 --> 99:59:59,999
+clockwise orientation
+
+6
+99:59:59,999 --> 99:59:59,999
+of a vector field F dotted with the unit normal vector at any point on that curve ds
+
+7
+99:59:59,999 --> 99:59:59,999
+(I'll write ds in magenta)
+
+8
+99:59:59,999 --> 99:59:59,999
+ds.
+
+9
+99:59:59,999 --> 99:59:59,999
+So first lets conceptualize what this is even saying
+
+10
+99:59:59,999 --> 99:59:59,999
+and then let's manipulate it a little bit to see if we can come up with
+
+11
+99:59:59,999 --> 99:59:59,999
+and interesting conclusion, we actually will manipulate it
+
+12
+99:59:59,999 --> 99:59:59,999
+we'll use green's theorem
+
+13
+99:59:59,999 --> 99:59:59,999
+and we're actually gonna come up with a 2 dimensional
+
+14
+99:59:59,999 --> 99:59:59,999
+version of the divergence theorem
+
+15
+99:59:59,999 --> 99:59:59,999
+which all sounds very complicated
+
+16
+99:59:59,999 --> 99:59:59,999
+but hopefully we can get a little bit of an intuition
+
+17
+99:59:59,999 --> 99:59:59,999
+for it as to why it actually a little bit of common sense.
+
+18
+99:59:59,999 --> 99:59:59,999
+So, first lets just think about this.
+
+19
+99:59:59,999 --> 99:59:59,999
+So let me draw- let me draw a coordinate plane here
+
+20
+99:59:59,999 --> 99:59:59,999
+so we do it in white
+
+21
+99:59:59,999 --> 99:59:59,999
+So this right over here thats our y axis
+
+22
+99:59:59,999 --> 99:59:59,999
+that over there is our x axis
+
+23
+99:59:59,999 --> 99:59:59,999
+let me draw ourselves my curve so my curve might look
+
+24
+99:59:59,999 --> 99:59:59,999
+something like--I'll do it in a blue color
+
+25
+99:59:59,999 --> 99:59:59,999
+so my curve might look something like this- my contour
+
+26
+99:59:59,999 --> 99:59:59,999
+and its going in the positive, counterclockwise direction
+
+27
+99:59:59,999 --> 99:59:59,999
+just like that
+
+28
+99:59:59,999 --> 99:59:59,999
+and now we have our vector field, and just a reminder
+
+29
+99:59:59,999 --> 99:59:59,999
+we've seen this multiple times
+
+30
+99:59:59,999 --> 99:59:59,999
+I can- my vector field will associate a vector with any
+
+31
+99:59:59,999 --> 99:59:59,999
+point on the x-y plane
+
+32
+99:59:59,999 --> 99:59:59,999
+and it will-- it can be defined as some function
+
+33
+99:59:59,999 --> 99:59:59,999
+of x and y, which I'll call that P
+
+34
+99:59:59,999 --> 99:59:59,999
+some function of x and y times the i unit vector
+
+35
+99:59:59,999 --> 99:59:59,999
+so it says what the i component of the vector field is for any x and y point
+
+36
+99:59:59,999 --> 99:59:59,999
+and then what the j component, or what we multiply
+
+37
+99:59:59,999 --> 99:59:59,999
+the j component by
+
+38
+99:59:59,999 --> 99:59:59,999
+or the vertical component by for any x and y point
+
+39
+99:59:59,999 --> 99:59:59,999
+so some function of x and y times i
+
+40
+99:59:59,999 --> 99:59:59,999
+plus some other scalar function of x and y
+
+41
+99:59:59,999 --> 99:59:59,999
+times j
+
+42
+99:59:59,999 --> 99:59:59,999
+and so if you give me any point
+
+43
+99:59:59,999 --> 99:59:59,999
+there will be an associated vector with it
+
+44
+99:59:59,999 --> 99:59:59,999
+any point there is an associated vector depending on
+
+45
+99:59:59,999 --> 99:59:59,999
+how we define this function.
+
+46
+99:59:59,999 --> 99:59:59,999
+But this expression right over here
+
+47
+99:59:59,999 --> 99:59:59,999
+we're taking a line integral
+
+48
+99:59:59,999 --> 99:59:59,999
+we care specifically about the points about along this curve
+
+49
+99:59:59,999 --> 99:59:59,999
+along this contour
+
+50
+99:59:59,999 --> 99:59:59,999
+right over here and so lets think about what this is actually
+
+51
+99:59:59,999 --> 99:59:59,999
+this piece right over here is actually telling us
+
+52
+99:59:59,999 --> 99:59:59,999
+before we sum up all of these infinitesimally small pieces
+
+53
+99:59:59,999 --> 99:59:59,999
+so if we just take f dot n
+
+54
+99:59:59,999 --> 99:59:59,999
+so lets just think about a point on this curve
+
+55
+99:59:59,999 --> 99:59:59,999
+so a point on this curve may be this point right over here
+
+56
+99:59:59,999 --> 99:59:59,999
+so associated with that point there is a vector
+
+57
+99:59:59,999 --> 99:59:59,999
+that's what the vector field does
+
+58
+99:59:59,999 --> 99:59:59,999
+So f might look something like that right over there
+
+59
+99:59:59,999 --> 99:59:59,999
+so that might be f at that point
+
+60
+99:59:59,999 --> 99:59:59,999
+and we're gonna dot it with the unit normal vector at that point
+
+61
+99:59:59,999 --> 99:59:59,999
+so the unit normal vector might look something like that
+
+62
+99:59:59,999 --> 99:59:59,999
+that would be n hat at that point
+
+63
+99:59:59,999 --> 99:59:59,999
+this is the vector field at that point

@@ -1,0 +1,215 @@
+1
+00:00:00,646 --> 00:00:06,144
+The idea of Nash equilibrium is important enough but I think it deserves it's own video.
+
+2
+00:00:06,144 --> 00:00:12,574
+And you may never know it's name for John Nash, who's played by Russel Crowe in the movie of Beuatiful Mind.
+
+3
+00:00:12,574 --> 00:00:18,659
+And it's a game-theoretical concept and you know game theory sounds very fancy but it really is just theory of
+
+4
+00:00:18,659 --> 00:00:23,768
+games. In this Prisonner's dilemma, that we have talked about in the previous video, really is a game.
+
+5
+00:00:23,768 --> 00:00:29,507
+Different players have different strategies and based on the intearacting strategies, you can adopt in different states
+
+6
+00:00:29,507 --> 00:00:34,834
+and you can put different outcomes. And here's a definition of Nash equillibrium from Princeton.
+
+7
+00:00:34,834 --> 00:00:39,476
+That's a good place to get a definition, because that's were John Nash spent a good bit of his career.
+
+8
+00:00:39,476 --> 00:00:45,973
+And it's defined or this definition - it's a stable state of a system, but involved several interacting participants in
+
+9
+00:00:45,973 --> 00:00:55,112
+our Prisoner's dilemma. We had 2 participants in which no participant can gain by a change of strategy as long
+
+10
+00:00:55,112 --> 00:01:02,645
+as all the other participants remain unchanged. So let's think about the different states of this system right
+
+11
+00:01:02,645 --> 00:01:10,065
+over here and think of wheter any of them meet this criteria. So let's say, let me number this one, let's say
+
+12
+00:01:10,065 --> 00:01:22,513
+that is state 1, this is state 2, this is state 3, and this is state 4 right over here. So if we're sitting in state 1
+
+13
+00:01:22,513 --> 00:01:29,315
+can any of the participants change the strategy, can gain by changing the strategy assuming that other
+
+14
+00:01:29,315 --> 00:01:37,449
+participants just constant. So if we're sitting here in state 1 right over here, so Al is denying and Bill is denying.
+
+15
+00:01:37,449 --> 00:01:47,234
+But Al can improve his situation by changing his strategy. He can go from denying, which is a scenario here
+
+16
+00:01:47,234 --> 00:01:54,309
+to confessing. So Al can change his strategy and gain or you could gain the other assuming Bill was consent into
+
+17
+00:01:54,309 --> 00:02:04,571
+deny or you can go the other way. If we're sitting in state 4 and we assume all is consent Bill can improve his
+
+18
+00:02:04,571 --> 00:02:11,990
+situation by going from deny to confession. We can go from 2 year to 1 year. So for both of those reasons if I
+
+19
+00:02:11,990 --> 00:02:22,240
+do this true but this would not be Nash equilibrium but both of those are true so this is definitely not a Nash equillibrium.
+
+20
+00:02:22,240 --> 00:02:28,508
+I give 2 examples in which A participant can gain by change of strategy as long as the other participant
+
+21
+00:02:28,508 --> 00:02:35,578
+remains unchanged. This move was one example and this is a move by Al, what Bill's deny to consent.
+
+22
+00:02:35,578 --> 00:02:45,171
+This was a move by Bill what Al's deny to consent. Not a Nash equillibrium. Now let's think about state 2.
+
+23
+00:02:45,171 --> 00:02:59,434
+If we're sitting in state 2 can assuming Bill is constant can Al change to improve his outcome. In state 2 Al is
+
+24
+00:02:59,434 --> 00:03:07,067
+only getting 1 year. If Al goes from confession to deny he's going to get 2 years. So Al cannot change his
+
+25
+00:03:07,067 --> 00:03:16,211
+strategy and get again here. So sofar it's looking good. But let's think from a Bill's point of view. So if we're in
+
+26
+00:03:16,211 --> 00:03:24,977
+state 2 right over here and we assume Al is constant can Bill do something that changes things. We're sure
+
+27
+00:03:24,977 --> 00:03:30,846
+Bill can go from denying to confessing. If he goes from denying to confessing he goes from 10 years
+
+28
+00:03:30,846 --> 00:03:37,511
+in prison to 3 years in prison. So I give an example of a participant who can gain by change of strategy
+
+29
+00:03:37,511 --> 00:03:42,142
+as long as all other participants remain unchanged. Both of them don't have to be able to do this.
+
+30
+00:03:42,142 --> 00:03:48,106
+You just need one of them for to not to be Nash equillibrium. Because Bill can have again
+
+31
+00:03:48,106 --> 00:03:55,505
+by change of strategy holding Al's strategy constant. So holding Al's strategy in the confession -
+
+32
+00:03:55,505 --> 00:04:03,581
+that is not a Nash equillibrium. Because you have this movement can a curve to a more favourable
+
+33
+00:04:03,581 --> 00:04:13,225
+state for Bill holding Al constant. Now let's go to state 3. Let's think about this. So for in state 3, so this is
+
+34
+00:04:13,225 --> 00:04:20,392
+Bill's confessing and Al denying, so let's first think about Al's point of view. If we assume Bill is constant
+
+35
+00:04:20,392 --> 00:04:27,168
+in his confession can Al improve his scenario. We're sure he can go from denying which is what have to be
+
+36
+00:04:27,168 --> 00:04:34,507
+about we're in state 3 to confessing. So he can move in this direction right over here. And that by self is
+
+37
+00:04:34,507 --> 00:04:39,641
+not enough evidence this is not a Nash equillibrium. We don't need to think about Bill, that's the metric,
+
+38
+00:04:39,641 --> 00:04:43,819
+we actually nothing that Bill can do in this scenario holding Al constant. That could improve things
+
+39
+00:04:43,819 --> 00:04:49,105
+Bill would not go from here to here but just by the fact that Al can go from here to here holding Bill
+
+40
+00:04:49,105 --> 00:04:57,146
+constant tells you that this is not a Nash equillibrium. Now let's go to scenario 4 and you know where this
+
+41
+00:04:57,146 --> 00:05:04,888
+is going as you watch the last video. But now it's going to a little bit in more detail. In state 4 they're both
+
+42
+00:05:04,888 --> 00:05:11,476
+confessing. Now let's look at from Al's point of view and we're holding Bill constant. We're holding Bill
+
+43
+00:05:11,476 --> 00:05:18,476
+unchanged. So we stay in this corn, we assume that Bill is confessing. From Al's point of view if we're
+
+44
+00:05:18,476 --> 00:05:23,438
+in state 1 can he change his strategy to get better outcome? But the only thing he can do is go
+
+45
+00:05:23,438 --> 00:05:30,725
+from confession to deny but that is not going to be good. He going to get 3 to 10 years. So Al cannot
+
+46
+00:05:30,725 --> 00:05:36,060
+gain by change of strategy as long as all of the participants remain unchanged. Now let's think about
+
+47
+00:05:36,060 --> 00:05:40,973
+from Bill's point of view. We're in this state right over here we're going to assume that Al is constant.
+
+48
+00:05:40,973 --> 00:05:49,180
+That Al is in the confession mode so Bill right now in state 4 is confessing his only option is to deny.
+
+49
+00:05:49,180 --> 00:05:55,733
+But by doing that he will go from 3 years in prison to 10 years in prison. So he's not going to gain so he too
+
+50
+00:05:55,733 --> 00:06:02,509
+cannot gain so we've just found a state, in state 4 which no particapants can gain by change of strategy as long
+
+51
+00:06:02,509 --> 00:06:08,733
+as all participants remain unchanged. And this part is important because we're not saying that both can
+
+52
+00:06:08,733 --> 00:06:15,311
+change simultaneously. You were not in this pay-off matrix allowing a diagonal move. And so no participant
+
+53
+00:06:15,311 --> 00:06:27,644
+can gain neither Al nor Bill holding the other one constant. This is a Nash equillibrium. This one right here
+
+54
+00:06:27,644 --> 00:06:31,000
+and this is a stable state.

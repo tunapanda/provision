@@ -1,0 +1,279 @@
+1
+00:00:03,187 --> 00:00:07,704
+So let's talk about body mass index (BMI).
+
+2
+00:00:07,704 --> 00:00:15,903
+This is a term that's often discussed and so let's first figure out how it's calculated - how do we figure this out?
+
+3
+00:00:15,903 --> 00:00:23,719
+So, if you have a little stick person, what you could do is have them step on a scale.
+
+4
+00:00:23,719 --> 00:00:27,754
+And you could get their weight. So, the first thing you need is their weight.
+
+5
+00:00:27,754 --> 00:00:33,237
+And then you go on and you ask them if they would mind if you would take their measurement of height.
+
+6
+00:00:33,237 --> 00:00:36,453
+And so you get their "H" or height.
+
+7
+00:00:36,453 --> 00:00:44,052
+And a BMI is basically just taking those two numbers and using them in a little equation
+
+8
+00:00:44,052 --> 00:00:49,519
+where you take the weight divided by the height squared.
+
+9
+00:00:49,519 --> 00:00:51,986
+Very simple, right?
+
+10
+00:00:51,986 --> 00:00:55,104
+So now, let me calculate my BMI.
+
+11
+00:00:55,104 --> 00:00:57,204
+But before I do that, I have to tell you one more thing
+
+12
+00:00:57,204 --> 00:01:03,220
+Which is that, the weight, this is in kilograms (kg)
+
+13
+00:01:03,220 --> 00:01:08,136
+and the height is actually in meters squared.
+
+14
+00:01:08,136 --> 00:01:11,038
+So, when I was actually figuring out my own height and weight
+
+15
+00:01:11,038 --> 00:01:13,253
+I realized the problem and I'll show you what that was.
+
+16
+00:01:13,253 --> 00:01:23,736
+So, my weight is 160 pounds and my height is six foot, one inch.
+
+17
+00:01:23,736 --> 00:01:27,769
+Which is the same as 73 inches.
+
+18
+00:01:27,769 --> 00:01:33,586
+So, I would love to use this easy equation, but I have pounds and inches - I don't have kilograms and meters.
+
+19
+00:01:33,586 --> 00:01:38,387
+So what do I do? Well, what I need to do first is convert over, right?
+
+20
+00:01:38,387 --> 00:01:51,419
+So I can say, "Alright, well one pound equals 0.454 kilograms. So far, so good.
+
+21
+00:01:51,419 --> 00:01:59,705
+And now one inch, which is pretty small, is going to be a small number relative to a meter, which is huge, right?
+
+22
+00:01:59,705 --> 00:02:09,786
+And so, it is, it's 0.0254 meters."
+
+23
+00:02:09,786 --> 00:02:16,053
+So, now I've got my conversions and actually, what I can do, is I can take these numbers and plug them in here
+
+24
+00:02:16,053 --> 00:02:23,602
+to help me easily convert from kilos and meters over to pounds and inches - make my equation much simpler for me to use.
+
+25
+00:02:23,602 --> 00:02:34,685
+So I can say, "Okay, well now how about weight in pounds and height in inches squared?"
+
+26
+00:02:34,685 --> 00:02:36,286
+And I have to multiply, right? Because I have to multiply by the conversion.
+
+27
+00:02:36,286 --> 00:02:52,870
+And so, I'll multiply by 0.454 divided by 0.0254 squared.
+
+28
+00:02:52,870 --> 00:02:58,720
+And to make it even easier, I can actually take this whole thing, plug it into my calculator
+
+29
+00:02:58,720 --> 00:03:07,203
+and it gives me the number 703. So I can say, "Okay, so really what I have here is, again, weight in pounds
+
+30
+00:03:07,203 --> 00:03:17,387
+divided by height in inches squared, multiplied by 703."
+
+31
+00:03:17,387 --> 00:03:20,704
+So going back now, I can finally throw in my own numbers, right?
+
+32
+00:03:20,704 --> 00:03:45,053
+I can say, "Okay, so my BMI is 160 divided by 73 squared times 703."
+
+33
+00:03:45,053 --> 00:03:47,154
+Let me erase that just to make it clear.
+
+34
+00:03:47,154 --> 00:03:51,270
+Okay, so this math works out to 21.
+
+35
+00:03:51,270 --> 00:03:53,503
+So my BMI is 21.
+
+36
+00:03:53,503 --> 00:03:56,302
+Wonderful. The next question is: well, what does that mean?
+
+37
+00:03:56,302 --> 00:04:04,102
+You know, if I have a BMI of 21, is that normal or is that good or how should I feel about that?
+
+38
+00:04:04,102 --> 00:04:09,620
+So, if you put a scale on here starting with zero to, let's say 30
+
+39
+00:04:09,620 --> 00:04:18,219
+and I have 25 here and let's say this is about 18.5
+
+40
+00:04:18,219 --> 00:04:23,453
+What physicians have done is basically divide up the BMI into catergories
+
+41
+00:04:23,453 --> 00:04:30,387
+and they said, "Okay, well if your BMI as an adult is somewhere between zero and 18.5
+
+42
+00:04:30,387 --> 00:04:34,852
+somewhere in this range. I'm going to do it in yellow.
+
+43
+00:04:34,852 --> 00:04:44,219
+Then you're underweight. I'm just going to write "under." And if you're between 18.5 and 25
+
+44
+00:04:44,219 --> 00:04:49,686
+if you're in this range, you're in a very healthy range.
+
+45
+00:04:49,686 --> 00:04:53,502
+And so I'll write a little smiley face for that.
+
+46
+00:04:53,502 --> 00:04:59,569
+And if you're above 25, let's say 25 to 30, then you're in the overweight range.
+
+47
+00:04:59,569 --> 00:05:07,937
+And finally, if you're above 30, let's say you're out here, then you're obese."
+
+48
+00:05:07,937 --> 00:05:11,753
+And so that's where the word obese really comes from.
+
+49
+00:05:11,753 --> 00:05:15,053
+It comes from a category of BMI.
+
+50
+00:05:15,053 --> 00:05:19,519
+And so, going back to my BMI, I'm right here at 21
+
+51
+00:05:19,519 --> 00:05:24,369
+and I'm doing pretty well. But, the question might come up in my head,
+
+52
+00:05:24,369 --> 00:05:30,086
+"What weight would I be if I was overweight and what weight would I be if I was obese?
+
+53
+00:05:30,086 --> 00:05:34,236
+How many pounds away am I from being in those categories?
+
+54
+00:05:34,236 --> 00:05:38,103
+So I can go back to my equation:
+
+55
+00:05:38,103 --> 00:05:41,803
+BMI equals W over H squared and I can just rearrange it
+
+56
+00:05:41,803 --> 00:05:55,320
+I can say, "Well how about W equals BMI times H squared over 703, right?"
+
+57
+00:05:55,320 --> 00:06:00,587
+Because that's the conversion. So if I rewrite the equation like this
+
+58
+00:06:00,587 --> 00:06:07,288
+then now I can solve for my weight. I can say, "Okay, well let's say that I wanted to figure out what to do
+
+59
+00:06:07,288 --> 00:06:14,370
+if I have a BMI of 25 and I know that my height probably won't change,
+
+60
+00:06:14,370 --> 00:06:22,404
+I'm not going to grow anymore and 703 is the number we always have to use when we're using the conversion from
+
+61
+00:06:22,404 --> 00:06:27,188
+pounds to kilos and inches to meters. So, what does that equal?
+
+62
+00:06:27,188 --> 00:06:38,370
+Well, in this particular case, using 25, I can see that for me to be overweight, I would be around 190 pounds.
+
+63
+00:06:38,370 --> 00:06:43,852
+190 pounds. So that's actually really, really good to know
+
+64
+00:06:43,852 --> 00:06:46,737
+That's actually 30 pounds above what I am today.
+
+65
+00:06:46,737 --> 00:06:52,253
+So that gives me a sense for how far away I am from being overweight
+
+66
+00:06:52,253 --> 00:06:57,610
+and I can even do this for a BMI of 30.
+
+67
+00:06:57,610 --> 00:06:59,609
+I can say, what about a BMI of 30?
+
+68
+00:06:59,609 --> 00:07:04,710
+My current height, again, is 73 inches. That's not going to change.
+
+69
+00:07:04,710 --> 00:07:14,394
+And I can do the math and find out that, in this case, my weight would be 227 pounds.
+
+70
+00:07:14,394 --> 00:07:18,394
+So if I was 227 pounds, given my height, I would be considered obese.

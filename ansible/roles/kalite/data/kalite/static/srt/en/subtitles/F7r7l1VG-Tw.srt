@@ -1,0 +1,887 @@
+1
+00:00:01,600 --> 00:00:04,600
+Let's think a little bit about what happened in the last video.
+
+2
+00:00:04,600 --> 00:00:07,500
+I'll review again these different notions of money supply.
+
+3
+00:00:07,500 --> 00:00:10,300
+And then let's talk about whether it's fair for people
+
+4
+00:00:10,300 --> 00:00:13,400
+to think that they really have the money that they have
+
+5
+00:00:13,400 --> 00:00:17,200
+So in the original video, after the crop was harvested,
+
+6
+00:00:17,200 --> 00:00:20,400
+the farmers deposited 1,000 gold pieces in my bank.
+
+7
+00:00:20,400 --> 00:00:22,400
+Then I lent out 900 of those.
+
+8
+00:00:22,400 --> 00:00:23,300
+I had to keep some reserve
+
+9
+00:00:23,300 --> 00:00:25,400
+in case those farmers wanted some of their money back.
+
+10
+00:00:25,400 --> 00:00:28,500
+And I figured they would never need more than 10% at a time.
+
+11
+00:00:28,500 --> 00:00:29,277
+I lend it out.
+
+12
+00:00:29,277 --> 00:00:30,654
+They build a irrigate.
+
+13
+00:00:30,654 --> 00:00:34,267
+You know, someone has a great idea to build an irrigation canal,
+
+14
+00:00:34,267 --> 00:00:36,667
+so that more fields become usable and get access to water.
+
+15
+00:00:36,667 --> 00:00:38,667
+So to build that irritation canal,
+
+16
+00:00:38,667 --> 00:00:40,667
+they take those 900 gold pieces,
+
+17
+00:00:40,667 --> 00:00:42,167
+and they pay a bunch of workers.
+
+18
+00:00:42,167 --> 00:00:44,167
+Those workers now have the gold pieces.
+
+19
+00:00:44,167 --> 00:00:46,036
+So they need some place safe to put it.
+
+20
+00:00:46,036 --> 00:00:47,280
+They put it back in my bank.
+
+21
+00:00:47,280 --> 00:00:50,295
+Now I get 900 gold pieces of deposits.
+
+22
+00:00:50,295 --> 00:00:52,095
+I put 10% aside again.
+
+23
+00:00:52,095 --> 00:00:55,195
+And now I lend out 810 gold pieces.
+
+24
+00:00:55,195 --> 00:00:57,395
+Let's say I lend it out for an entrepreneur
+
+25
+00:00:57,395 --> 00:01:01,295
+who wants to build a factory to build some type of tools
+
+26
+00:01:01,295 --> 00:01:03,795
+that might make the apple harvest more efficient,
+
+27
+00:01:03,795 --> 00:01:08,080
+or faster, or need less labor, or whatever.
+
+28
+00:01:08,080 --> 00:01:11,333
+That entrepreneur takes those 810 gold pieces
+
+29
+00:01:11,349 --> 00:01:13,449
+and pays the builder in the town.
+
+30
+00:01:13,449 --> 00:01:16,000
+And then the builder now has 810 gold pieces,
+
+31
+00:01:16,000 --> 00:01:18,231
+and then he gives the money back to me in my bank.
+
+32
+00:01:18,231 --> 00:01:20,500
+Because I'm the safest place to keep it.
+
+33
+00:01:20,500 --> 00:01:22,515
+I stop the chain there.
+
+34
+00:01:22,515 --> 00:01:23,992
+You can keep going on and on,
+
+35
+00:01:23,992 --> 00:01:25,508
+although there is some end.
+
+36
+00:01:25,508 --> 00:01:27,700
+Notice that these values get smaller and smaller every time.
+
+37
+00:01:27,700 --> 00:01:30,400
+And we'll do a little bit of math on that to figure out how far it can go.
+
+38
+00:01:30,400 --> 00:01:31,800
+But then I take the builder's money,
+
+39
+00:01:31,800 --> 00:01:34,400
+and I said, well, you know, this banking idea's a new idea to me.
+
+40
+00:01:34,400 --> 00:01:36,300
+I'm just going to leave it all as reserves.
+
+41
+00:01:36,300 --> 00:01:38,600
+I want to see how it all plays out first.
+
+42
+00:01:38,600 --> 00:01:41,500
+So then we said, how much money is in the system?
+
+43
+00:01:41,500 --> 00:01:44,400
+And it all depends on how you define money.
+
+44
+00:01:44,400 --> 00:01:48,000
+And we made one definition of money called M0.
+
+45
+00:01:48,000 --> 00:01:51,300
+In M0 we said -- we'll call this our narrowest definition.
+
+46
+00:01:51,300 --> 00:01:54,100
+And this is literally, how much gold is there in the system.
+
+47
+00:01:54,100 --> 00:01:56,500
+Or how much stuff is there in the system
+
+48
+00:01:56,500 --> 00:02:02,800
+that could be immediately used for conducting a transaction.
+
+49
+00:02:02,800 --> 00:02:04,500
+And I'm assuming, for the sake of this argument,
+
+50
+00:02:04,500 --> 00:02:07,500
+that none of these players actually kept any gold in their pockets,
+
+51
+00:02:07,500 --> 00:02:11,400
+or kept some cash in their wallets for a rainy day.
+
+52
+00:02:11,400 --> 00:02:14,200
+Although if they did, we would included it in this calculation.
+
+53
+00:02:14,200 --> 00:02:19,400
+I assume that everyone always deposits their gold with Bank of Sal.
+
+54
+00:02:19,400 --> 00:02:20,900
+So when we did that calculation.
+
+55
+00:02:20,900 --> 00:02:25,400
+-- there was this gold pieces of reserve that we had set aside at first.
+
+56
+00:02:25,400 --> 00:02:30,500
+Then 90 here, oh, 900 here, sorry.
+
+57
+00:02:30,500 --> 00:02:32,154
+And then 810 here.
+
+58
+00:02:32,154 --> 00:02:36,100
+And if you add those up, you get 1,000 gold pieces in the system,
+
+59
+00:02:36,100 --> 00:02:37,800
+which makes a lot of sense.
+
+60
+00:02:37,800 --> 00:02:40,954
+Because we originally had about 1,000 gold pieces in the system.
+
+61
+00:02:40,954 --> 00:02:44,723
+In the example, at least as I described it -
+
+62
+00:02:45,031 --> 00:02:47,754
+we didn't have anyone discovering any new gold.
+
+63
+00:02:47,754 --> 00:02:52,000
+nor was any a gold eaten or destroyed in some way.
+
+64
+00:02:52,000 --> 00:02:54,300
+So it makes sense that there are 1,000 gold pieces.
+
+65
+00:02:54,300 --> 00:02:56,500
+But then there's a more interesting question.
+
+66
+00:02:56,500 --> 00:02:58,400
+If you went around the city,
+
+67
+00:02:58,400 --> 00:03:00,800
+and you asked everyone how much money they had,
+
+68
+00:03:00,800 --> 00:03:05,200
+they'll say, I have this much in my checking account with the Bank of Sal.
+
+69
+00:03:05,200 --> 00:03:07,400
+If you ask me how much money I had,
+
+70
+00:03:07,400 --> 00:03:09,800
+I would tell you how much is in my checking account.
+
+71
+00:03:09,800 --> 00:03:12,300
+I actually have very little cash in my wallet right now,
+
+72
+00:03:12,300 --> 00:03:14,900
+if any of you are thinking of mugging me.
+
+73
+00:03:14,900 --> 00:03:17,100
+All of my money is in a checking account.
+
+74
+00:03:17,100 --> 00:03:19,000
+So if someone asked me how much money do you have,
+
+75
+00:03:19,000 --> 00:03:20,000
+I'd give that number.
+
+76
+00:03:20,000 --> 00:03:21,400
+So if you went around the town,
+
+77
+00:03:21,400 --> 00:03:23,700
+and you asked everyone, how much money do you have,
+
+78
+00:03:23,700 --> 00:03:25,100
+and you added it up,
+
+79
+00:03:25,100 --> 00:03:29,000
+you would get the total of the of their checking accounts.
+
+80
+00:03:29,000 --> 00:03:33,400
+And so we had 810 gold pieces from the contractors,
+
+81
+00:03:33,400 --> 00:03:36,500
+900 gold pieces from the ditch diggers,
+
+82
+00:03:36,500 --> 00:03:38,900
+and then 1,000 gold pieces from the farmers.
+
+83
+00:03:38,900 --> 00:03:42,000
+Let's see, 1,900 plus 810.
+
+84
+00:03:42,000 --> 00:03:46,800
+You get 2,710 gold pieces collectively in checking accounts.
+
+85
+00:03:46,800 --> 00:03:48,400
+And since I'm the only bank,
+
+86
+00:03:48,400 --> 00:03:51,400
+that's the total of my liabilities here.
+
+87
+00:03:51,400 --> 00:03:52,923
+And we call that M1.
+
+88
+00:03:52,923 --> 00:03:54,100
+And I'm calling these that for a reason
+
+89
+00:03:54,100 --> 00:03:56,554
+because these are the actual words that are used
+
+90
+00:03:56,569 --> 00:04:00,977
+by economists and our government officials.
+
+91
+00:04:00,977 --> 00:04:03,700
+There's a couple of really interesting questions here.
+
+92
+00:04:03,700 --> 00:04:09,200
+One is how did a 1,000 gold pieces get turned into 2,710.
+
+93
+00:04:09,200 --> 00:04:14,969
+And then, this 2,710, does it represent real wealth,
+
+94
+00:04:14,969 --> 00:04:17,231
+or was this some kind of weird shell game we played,
+
+95
+00:04:17,231 --> 00:04:19,969
+and it represents some type of weird pyramid scheme?
+
+96
+00:04:20,000 --> 00:04:24,900
+Well, how it got created -- we went through the mechanics, right?
+
+97
+00:04:24,900 --> 00:04:28,400
+Every time I set a little aside, I lent some out,
+
+98
+00:04:28,400 --> 00:04:31,400
+and then they deposited, etc. That's how it got created.
+
+99
+00:04:31,400 --> 00:04:34,500
+The interesting question is, does it represent real wealth?
+
+100
+00:04:34,500 --> 00:04:37,000
+The answer is it represents real wealth
+
+101
+00:04:37,000 --> 00:04:41,000
+if each of these investments were real investments.
+
+102
+00:04:41,000 --> 00:04:45,154
+So if this 900 gold pieces that were used
+
+103
+00:04:45,154 --> 00:04:49,300
+to build this irrigation ditch or whatever it is,
+
+104
+00:04:49,300 --> 00:04:53,108
+if that project actually does generate
+
+105
+00:04:53,108 --> 00:04:56,200
+at least 900 gold pieces of future wealth
+
+106
+00:04:56,200 --> 00:04:58,646
+-- essentially you could at least pay back the 900 gold pieces.
+
+107
+00:04:58,646 --> 00:05:02,400
+It'll probably generate more if it's a good project.
+
+108
+00:05:02,400 --> 00:05:06,100
+But if it generates at least 900 gold pieces of future wealth,
+
+109
+00:05:06,100 --> 00:05:08,500
+then this is a real asset, right?
+
+110
+00:05:08,500 --> 00:05:10,200
+This is a real asset.
+
+111
+00:05:10,200 --> 00:05:13,323
+Likewise, if this factory really does generate
+
+112
+00:05:13,323 --> 00:05:16,535
+at least 810 gold pieces of future wealth,
+
+113
+00:05:16,535 --> 00:05:21,500
+if it really will allow us produce that much more apples or gold or whatever,
+
+114
+00:05:21,500 --> 00:05:25,092
+this is a real asset here, right?
+
+115
+00:05:25,385 --> 00:05:29,438
+So these people, this wealth, really does exist.
+
+116
+00:05:29,438 --> 00:05:36,000
+This 2,710 gold pieces of quota quote wealth, really does exist
+
+117
+00:05:36,000 --> 00:05:40,900
+as long as the projects that were the justification
+
+118
+00:05:40,900 --> 00:05:46,000
+for borrowing the money actually do generate future wealth.
+
+119
+00:05:46,000 --> 00:05:47,200
+So there's a couple of things to realize.
+
+120
+00:05:47,200 --> 00:05:51,677
+There are not 2,710 gold pieces in this world.
+
+121
+00:05:51,677 --> 00:05:55,400
+There only 1,000 physical gold pieces.
+
+122
+00:05:55,400 --> 00:05:59,700
+But if these projects are real projects that are actually not mismanaged,
+
+123
+00:05:59,700 --> 00:06:04,200
+they're not just some type of pouring-money-into-a-hole type of project,
+
+124
+00:06:04,200 --> 00:06:09,931
+then we do have 2,710 gold pieces worth of wealth.
+
+125
+00:06:09,931 --> 00:06:12,415
+And I really want to stress this point.
+
+126
+00:06:12,415 --> 00:06:15,200
+Remember gold isn't wealth in of itself.
+
+127
+00:06:15,200 --> 00:06:17,354
+Gold is used to represent wealth.
+
+128
+00:06:17,354 --> 00:06:18,677
+You cannot eat gold.
+
+129
+00:06:18,677 --> 00:06:21,369
+You cannot live under gold.
+
+130
+00:06:21,369 --> 00:06:24,000
+Gold will not transport you someplace.
+
+131
+00:06:24,000 --> 00:06:26,300
+Gold will not improve your health.
+
+132
+00:06:26,300 --> 00:06:30,000
+It's something that's used to represent wealth.
+
+133
+00:06:30,000 --> 00:06:32,100
+Sometimes people think it is wealth itself,
+
+134
+00:06:32,100 --> 00:06:33,800
+and that's actually a misconception.
+
+135
+00:06:33,800 --> 00:06:38,900
+So this 2,710 perceived gold pieces,
+
+136
+00:06:38,900 --> 00:06:41,400
+that does represent real wealth,
+
+137
+00:06:41,400 --> 00:06:44,600
+although it doesn't represent real gold pieces.
+
+138
+00:06:44,600 --> 00:06:47,400
+And once again you might say, oh boy,
+
+139
+00:06:47,400 --> 00:06:48,800
+this is some type of a shell game.
+
+140
+00:06:48,800 --> 00:06:50,200
+But it's really not.
+
+141
+00:06:50,200 --> 00:06:53,700
+As long as these investments are good investments.
+
+142
+00:06:53,700 --> 00:06:55,400
+Remember, these are wealth generating investments.
+
+143
+00:06:55,400 --> 00:06:58,700
+And notice, the money supply-- at least as we defined it with this M1
+
+144
+00:06:58,700 --> 00:07:03,800
+-- it expanded to facilitate real economic production.
+
+145
+00:07:03,800 --> 00:07:09,000
+So as long as this factory does generate wealth,
+
+146
+00:07:09,000 --> 00:07:11,800
+or this irrigation ditch does generate wealth,
+
+147
+00:07:11,800 --> 00:07:16,338
+then the money supply did not grow faster
+
+148
+00:07:16,338 --> 00:07:18,285
+than the amount of wealth out there.
+
+149
+00:07:20,850 --> 00:07:22,000
+So gold piece, you know, if before a gold piece bought an apple,
+
+150
+00:07:22,000 --> 00:07:24,600
+now hopefully a gold piece will still buy an apple.
+
+151
+00:07:24,600 --> 00:07:27,700
+In fact, and this is an important thing to realize,
+
+152
+00:07:27,700 --> 00:07:31,700
+if these investments are very good,
+
+153
+00:07:31,700 --> 00:07:33,700
+you're actually going to have
+
+154
+00:07:33,700 --> 00:07:41,300
+-- let's say that we used to produce 1,000 apples per year.
+
+155
+00:07:41,300 --> 00:07:43,100
+And notice apples are real wealth.
+
+156
+00:07:43,100 --> 00:07:45,400
+Apples are something that you can consume.
+
+157
+00:07:45,400 --> 00:07:47,900
+They will keep you living.
+
+158
+00:07:47,900 --> 00:07:49,800
+And you can also view them as a form of investment,
+
+159
+00:07:49,800 --> 00:07:52,100
+because by eating them you're able to do work.
+
+160
+00:07:52,100 --> 00:07:55,600
+But anyway, let's say before all of this investment started happening,
+
+161
+00:07:55,600 --> 00:07:59,300
+our economy could produce 1,000 apples.
+
+162
+00:07:59,300 --> 00:08:03,800
+Now let's say that after this irrigation ditch was produced,
+
+163
+00:08:03,800 --> 00:08:09,500
+instead of 1,000 apples, we go from being able to produce 1,000 apples
+
+164
+00:08:09,500 --> 00:08:16,100
+to being able to produce 2,000 apples a year.
+
+165
+00:08:16,100 --> 00:08:18,100
+And once again, a lot of wealth was created.
+
+166
+00:08:18,100 --> 00:08:20,600
+Remember, we only took 900 gold pieces to build this.
+
+167
+00:08:20,600 --> 00:08:22,100
+And all of a sudden we're doubling.
+
+168
+00:08:22,100 --> 00:08:26,400
+We're able to produce another incremental 1,000 apples a year,
+
+169
+00:08:26,400 --> 00:08:29,600
+which, in our old economy, was worth 1,000 gold pieces.
+
+170
+00:08:29,600 --> 00:08:32,500
+So that actually will definitely pay off, right?
+
+171
+00:08:32,500 --> 00:08:34,100
+You borrowed 900 gold pieces
+
+172
+00:08:34,100 --> 00:08:38,600
+and this project will generate, not 1,000 gold pieces in total,
+
+173
+00:08:38,600 --> 00:08:42,100
+it'll actually generate the equivalent of 1,000 gold pieces per year.
+
+174
+00:08:42,100 --> 00:08:44,700
+It increases our production of 1,000 apples per year.
+
+175
+00:08:44,700 --> 00:08:45,962
+And likewise, let's say that
+
+176
+00:08:45,962 --> 00:08:52,350
+this factory takes us from 2,000 apples a year to 3,000.
+
+177
+00:08:52,688 --> 00:08:53,923
+So let's think about it.
+
+178
+00:08:53,923 --> 00:08:57,400
+Now in a given year, how many apples are being produced?
+
+179
+00:08:57,400 --> 00:08:59,500
+We used to only have 1,000 apples being produced.
+
+180
+00:08:59,500 --> 00:09:02,400
+Now we have 3,000 apples being produced,
+
+181
+00:09:02,400 --> 00:09:04,815
+because these were really good investments.
+
+182
+00:09:04,815 --> 00:09:06,762
+They really improved our productivity.
+
+183
+00:09:06,762 --> 00:09:09,600
+So now, if you say everyone in the economy thinks that
+
+184
+00:09:09,600 --> 00:09:15,100
+they have 2,710 gold pieces, or some equivalent of them,
+
+185
+00:09:15,100 --> 00:09:17,900
+and we can produce 3,000 apples,
+
+186
+00:09:17,900 --> 00:09:23,800
+now the money supply, 2,710, actually grew slower than our wealth.
+
+187
+00:09:23,800 --> 00:09:30,500
+Let me let me draw that out.
+
+188
+00:09:30,500 --> 00:09:32,500
+Before... Let's say money.
+
+189
+00:09:32,500 --> 00:09:34,300
+Wealth.
+
+190
+00:09:34,300 --> 00:09:36,723
+I think it's really important to separate the two concepts.
+
+191
+00:09:36,738 --> 00:09:39,762
+Money is used to transact wealth or represent wealth.
+
+192
+00:09:39,762 --> 00:09:41,400
+It is not wealth in and of itself.
+
+193
+00:09:41,400 --> 00:09:45,400
+And that has some important philosophical underpinnings to it.
+
+194
+00:09:45,400 --> 00:09:47,700
+It'll probably make you live happier if you realize this difference.
+
+195
+00:09:47,700 --> 00:09:50,600
+But before we had 1,000 gold pieces,
+
+196
+00:09:50,600 --> 00:09:53,200
+before the banking and this fractional reserve system existed.
+
+197
+00:09:53,200 --> 00:09:57,600
+And we had 1,000 apples of wealth per year.
+
+198
+00:09:57,600 --> 00:09:59,600
+And I'll go more into the velocity of money.
+
+199
+00:09:59,600 --> 00:10:01,400
+But after all this stuff happened later,
+
+200
+00:10:01,400 --> 00:10:06,600
+we had 2,710 perceived gold pieces.
+
+201
+00:10:06,600 --> 00:10:09,069
+This was our M1 definition.
+
+202
+00:10:09,069 --> 00:10:12,500
+Our M0, the actual physical gold, was still 1,000.
+
+203
+00:10:12,500 --> 00:10:15,400
+But how many apple do we produce a year?
+
+204
+00:10:15,400 --> 00:10:18,500
+We now produce 3,000 apples.
+
+205
+00:10:18,500 --> 00:10:22,669
+So notice the ratio of gold to apples actually improved
+
+206
+00:10:22,669 --> 00:10:24,100
+And now, if you think about it,
+
+207
+00:10:24,100 --> 00:10:27,500
+an apple is actually going to cost less gold.
+
+208
+00:10:27,500 --> 00:10:30,600
+Before roughly you had one gold piece per apple;
+
+209
+00:10:30,600 --> 00:10:33,900
+now you have less than one gold piece per apple.
+
+210
+00:10:33,900 --> 00:10:36,900
+So because of our innovation, we actually experienced deflation.
+
+211
+00:10:36,900 --> 00:10:37,900
+So you might have said, oh, boy,
+
+212
+00:10:37,900 --> 00:10:41,377
+all of this money was created out of nowhere.
+
+213
+00:10:41,715 --> 00:10:42,800
+This money doesn't exist.
+
+214
+00:10:42,800 --> 00:10:43,900
+This will lead to inflation.
+
+215
+00:10:43,900 --> 00:10:47,100
+But no, this is a very important point,
+
+216
+00:10:47,100 --> 00:10:49,692
+because the money was put to work
+
+217
+00:10:49,692 --> 00:10:53,369
+in actual productive investments that create wealth,
+
+218
+00:10:53,385 --> 00:10:57,800
+that make the pie bigger, or the pie of apples bigger,
+
+219
+00:10:57,800 --> 00:10:59,800
+we actually experience deflation.
+
+220
+00:10:59,800 --> 00:11:01,300
+And our economy actually grew.
+
+221
+00:11:01,300 --> 00:11:04,500
+And this was actually a very very positive example.
+
+222
+00:11:04,500 --> 99:59:59,999
+I'll see you in the next video.

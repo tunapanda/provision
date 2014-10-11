@@ -1,0 +1,495 @@
+1
+00:00:00,825 --> 00:00:04,406
+Now that we have our parameterization right over here
+
+2
+00:00:04,406 --> 00:00:08,588
+Let's get down to the business of actually evaluating this surface integral
+
+3
+00:00:08,588 --> 00:00:11,274
+And its a little bit involved, but we'll try and do it step by step
+
+4
+00:00:11,274 --> 00:00:15,042
+So the first thing I'm going to do is figure out what D Sigma is
+
+5
+00:00:15,042 --> 00:00:19,292
+In terms of S and T, in terms of our parameters
+
+6
+00:00:19,292 --> 00:00:25,974
+So we can turn this whole thing into a double integral in the S-T plane
+
+7
+00:00:25,974 --> 00:00:32,939
+And remember D Sigma is just a little chunk of the surface
+
+8
+00:00:32,939 --> 00:00:39,747
+And we saw in previous videos, the ones where we learned what a surface integral is
+
+9
+00:00:39,747 --> 00:00:48,098
+We saw that D Sigma right over here is equivalent to the magnitude of the cross-product
+
+10
+00:00:48,098 --> 00:00:52,705
+of the partial of our paramterization with respect to one parameter
+
+11
+00:00:52,705 --> 00:00:57,590
+crossed with the paramterization with respect to the other parameter
+
+12
+00:00:57,590 --> 00:01:00,949
+times the differentials of each of the parameters
+
+13
+00:01:00,949 --> 00:01:02,596
+So this is what we are going to use, right here
+
+14
+00:01:02,596 --> 00:01:06,140
+And it's a pretty simple looking statement, but as we'll see
+
+15
+00:01:06,140 --> 00:01:09,258
+Taking cross products tends to get a little bit hairy
+
+16
+00:01:09,258 --> 00:01:11,825
+Especially cross products of three dimensional vectors
+
+17
+00:01:11,825 --> 00:01:13,201
+But we'll do it step by step
+
+18
+00:01:13,201 --> 00:01:18,069
+But before we even take the cross product we first have to take the partial of this with respect to S
+
+19
+00:01:18,069 --> 00:01:20,758
+and then the partial of this with respect to T
+
+20
+00:01:20,758 --> 00:01:24,092
+So first let's take the partial with respect to S
+
+21
+00:01:24,092 --> 00:01:26,907
+The partial of R with respect to S
+
+22
+00:01:26,907 --> 00:01:30,885
+So right over here, all this stuff with T in it, you can just view that as a constant
+
+23
+00:01:30,885 --> 00:01:36,773
+So Cosine of T is not going to change, the derivative of Cosine of S with respect to S
+
+24
+00:01:36,773 --> 00:01:45,168
+is negative Sine of S, so this is going to be equal to negative Cosine of T times Sine of S
+
+25
+00:01:45,168 --> 00:01:48,107
+(everything T involved will be purple)
+
+26
+00:01:48,107 --> 00:01:54,439
+(vectors will be orange)
+
+27
+00:01:54,439 --> 00:01:57,522
+Then I, and plus...
+
+28
+00:01:57,522 --> 00:02:02,175
+And we're going to take the derivative with respect to S, Cosine of T is just a constant
+
+29
+00:02:02,175 --> 00:02:05,068
+Derivative of Sine of S with respect to S is Cosine of S
+
+30
+00:02:05,068 --> 00:02:15,718
+So this will be plus Cosine of T times Cosine of S
+
+31
+00:02:15,718 --> 00:02:24,439
+then J, and then plus the derivative of this with respect to S
+
+32
+00:02:24,439 --> 00:02:28,765
+well this is just a constant, the derivative of 5 with respect to S would just be zero
+
+33
+00:02:28,765 --> 00:02:32,725
+This does not change with respect to S
+
+34
+00:02:32,725 --> 00:02:36,689
+So our partial with respect to S is just zero
+
+35
+00:02:36,689 --> 00:02:42,974
+So we will just write here 'zero K'
+
+36
+00:02:42,974 --> 00:02:47,421
+And that's nice to see, because it will make our cross-product a little more straightforward
+
+37
+00:02:47,421 --> 00:03:02,125
+Now let's take the partial with respect to T
+
+38
+00:03:02,125 --> 00:03:04,096
+So the derivative of this with respect to T
+
+39
+00:03:04,096 --> 00:03:10,023
+Now, Cosine of S is a constant, derivative of Cosine of T with respect to T is negative Sine of T
+
+40
+00:03:10,023 --> 00:03:20,480
+So this is going to be negative Sine of T times Cosine of S
+
+41
+00:03:20,480 --> 00:03:26,886
+times I, plus...
+
+42
+00:03:26,886 --> 00:03:31,637
+Now the derivative of this with respect to T, derivative of Cosine of T is negative Sine of T
+
+43
+00:03:31,637 --> 00:03:42,265
+So once again, we have minus Sine of T times Sine of S
+
+44
+00:03:42,265 --> 00:03:45,772
+My hand is already hurting from this, this is a painful problem...
+
+45
+00:03:45,772 --> 00:03:52,170
+Now J, plus the derivative of Sine of T with respect to T is just Cosine of T
+
+46
+00:03:52,170 --> 00:03:57,546
+So plus Cosine of T
+
+47
+00:03:57,546 --> 00:04:00,101
+and now times the K unit vector
+
+48
+00:04:00,101 --> 00:04:05,133
+Now we're ready to take the cross product of these two characters right over here
+
+49
+00:04:05,133 --> 00:04:28,367
+To take the cross product we are going to set up this three by three matrix
+
+50
+00:04:28,367 --> 00:04:31,296
+And I'll write my unit vectors up here
+
+51
+00:04:31,296 --> 00:04:33,483
+I, J, K...
+
+52
+00:04:33,483 --> 00:04:39,157
+(this is how I like to remember how to take cross products of 3-dimensional vectors,
+
+53
+00:04:39,157 --> 00:04:42,323
+Take the determinant of this three by three matrix)
+
+54
+00:04:42,323 --> 00:04:44,037
+The first row is just our unit vectors
+
+55
+00:04:44,037 --> 00:04:47,683
+The second row is the first vector I'm taking the cross product of
+
+56
+00:04:47,683 --> 00:05:07,430
+So I'm just going to re-write the top-most vector over here
+
+57
+00:05:07,430 --> 00:05:11,136
+And the last part is zero, which will hopefully simplify our calculations
+
+58
+00:05:11,136 --> 00:05:20,556
+And then you have the next vector, that's the third row
+
+59
+00:05:20,556 --> 00:05:22,668
+I encourage you to do this on your own if you already know where this is going
+
+60
+00:05:22,668 --> 00:05:23,601
+It's good practice
+
+61
+00:05:23,601 --> 00:05:27,484
+Even if you have to watch this whole thing to see how its done try to then do it again on your own
+
+62
+00:05:27,484 --> 00:05:41,225
+This is one of those things that you really have to do by yourself to have it really sit in
+
+63
+00:05:41,225 --> 00:05:44,901
+So let's take the determinate now
+
+64
+00:05:44,901 --> 00:05:46,750
+First we'll think about our I component
+
+65
+00:05:46,750 --> 00:05:51,169
+You would essentially ignore this column, the first column and the first row
+
+66
+00:05:51,169 --> 00:05:55,463
+And then take the determinant of this sub-matrix right over here
+
+67
+00:05:55,463 --> 00:06:16,973
+I, times something (normally you see the something in front of the I, but you can swap it)
+
+68
+00:06:16,973 --> 00:06:24,693
+I'm going to write a little neater...
+
+69
+00:06:24,693 --> 00:06:29,725
+The last bit would be subtracting zero times that, but it would just be zero so we don't write it
+
+70
+00:06:29,725 --> 00:06:32,389
+Now we are going to do the J component, but you probably remember the "checkerboard"
+
+71
+00:06:32,389 --> 00:06:35,141
+thing when you have to evaluate three by three matrices
+
+72
+00:06:35,141 --> 00:06:44,048
+Positive, negative, positive, so you have a negative J times something
+
+73
+00:06:44,048 --> 00:07:00,467
+So you ignore J's column, J's row
+
+74
+00:07:00,467 --> 00:07:18,220
+Let me make sure I'm doing this right...
+
+75
+00:07:18,220 --> 00:07:21,920
+Finally you have the K component, and once again you go back to positive there
+
+76
+00:07:21,920 --> 00:07:24,157
+Positive, negative, positive on the coefficients
+
+77
+00:07:24,157 --> 00:07:26,739
+That's just for evaluating a three by three matrix
+
+78
+00:07:26,739 --> 00:07:32,256
+So you have plus K, times... and this might get a little bit more involved
+
+79
+00:07:32,256 --> 00:07:34,038
+Since we don't have the zero to help us out
+
+80
+00:07:34,038 --> 00:08:13,494
+Ignore this row, ignore this column, take the determinant of this sub two by two
+
+81
+00:08:13,494 --> 00:08:27,895
+Let me scroll to the right a little bit...
+
+82
+00:08:27,895 --> 00:08:32,229
+Now this is already looking pretty hairy, but it looks like a simplification is there
+
+83
+00:08:32,229 --> 00:08:33,728
+That's how the colour is helpful
+
+84
+00:08:33,728 --> 00:08:38,222
+I now have trouble doing math in anything other than kind of multiple pastel colours
+
+85
+00:08:38,222 --> 00:08:41,530
+This makes it much easier to see some patterns
+
+86
+00:08:41,530 --> 00:08:46,748
+What we can do is we can factor out the Cosine of T times Sine of T
+
+87
+00:08:46,748 --> 00:08:57,152
+So this is equal to Cosine T Sine T times Sine squared S plus Cosine squared S
+
+88
+00:08:57,152 --> 00:09:01,816
+And this we know, the definition of the unit circle, this is just equal to 1
+
+89
+00:09:01,816 --> 00:09:04,604
+So that was a significant simplification
+
+90
+00:09:04,604 --> 00:09:08,071
+Now we get our cross product, we get it being equal to
+
+91
+00:09:08,071 --> 00:09:18,690
+Our cross product R sub S crossed with R sub T is going to be equal to
+
+92
+00:09:18,690 --> 00:09:45,336
+Cosine squared T Cosine S times our I unit vector, plus Cosine squared T Sine of S times our J unit vector
+
+93
+00:09:45,336 --> 00:09:57,719
+Plus (all we have left, because this is just one) Cosine T Sine T
+
+94
+00:09:57,719 --> 00:10:02,139
+Times our K unit vector
+
+95
+00:10:02,139 --> 00:10:04,604
+So that was pretty good, but we're still not done
+
+96
+00:10:04,604 --> 00:10:07,058
+We need to figure out the magnitude of this thing
+
+97
+00:10:07,058 --> 00:10:11,471
+Remember: D Sigma simplified to the magnitude of this thing times dsdt
+
+98
+00:10:11,471 --> 00:10:13,564
+So let's figure out what the magnitude of this is
+
+99
+00:10:13,564 --> 00:10:18,587
+This is the home stretch, I'm crossing my fingers that I don't make any careless mistakes now
+
+100
+00:10:18,587 --> 00:10:26,682
+So, the magnitude of all of this business is going to be equal to:
+
+101
+00:10:26,682 --> 00:10:34,565
+The square root of the sum of the squares of each of those terms
+
+102
+00:10:34,565 --> 00:10:45,465
+So the first will be Cosine to the fourth T Cosine squared S
+
+103
+00:10:45,465 --> 00:10:55,216
+Plus, Cosine to the fourth T Sine squared S
+
+104
+00:10:55,216 --> 00:11:02,453
+Plus, Cosine squared T Sine squared T
+
+105
+00:11:02,453 --> 00:11:13,181
+Now, the first pattern I see is this first part, we can factor out a cosine to the fourth T
+
+106
+00:11:13,181 --> 00:11:23,877
+These first two terms are equal to Cosine to the fourth T times Cosine squared S plus Sine squared S
+
+107
+00:11:23,877 --> 00:11:27,496
+Which once again we know is just one
+
+108
+00:11:27,496 --> 00:11:30,815
+So this whole expression has simplified to Cosine to the fourth T
+
+109
+00:11:30,815 --> 00:11:35,475
+plus Cosine squared T Sine squared T
+
+110
+00:11:35,475 --> 00:11:41,730
+Now we can attempt to simplify this again, because these two terms both have a Cosine squared T in them
+
+111
+00:11:41,730 --> 00:11:44,492
+Let's factor those out
+
+112
+00:11:44,492 --> 00:11:46,422
+(everything I'm doing is under the radical sign)
+
+113
+00:11:46,422 --> 00:11:55,903
+So this is equal to Cosine squared T times Cosine squared T
+
+114
+00:11:55,903 --> 00:12:01,075
+and when you factor out a Cosine squared T here you just have plus a Sine squared T
+
+115
+00:12:01,075 --> 00:12:04,146
+And that's nice because that once again simplified to one
+
+116
+00:12:04,146 --> 00:12:10,693
+(All of this is under the radical sign, I'll keep drawing it here to keep it clear that this is still under the radical)
+
+117
+00:12:10,693 --> 00:12:17,743
+This is really really useful for us because the square root of Cosine squared of T is just Cosine of T
+
+118
+00:12:17,743 --> 00:12:22,791
+So ALL of that business actually finally simplified to something pretty straightforward
+
+119
+00:12:22,791 --> 00:12:30,142
+So all of this is going to be equal to Cosine of T
+
+120
+00:12:30,142 --> 00:12:34,863
+Going back to what we wanted before, if we want to re-write what D Sigma is
+
+121
+00:12:34,863 --> 00:12:37,510
+It's just cosine T, dsdt
+
+122
+00:12:37,510 --> 00:12:39,158
+So let me write that down...
+
+123
+00:12:39,158 --> 00:12:48,389
+D sigma is equal to Cosine of T dsdt
+
+124
+00:12:48,389 --> 99:59:59,999
+And I'll see you in the next part

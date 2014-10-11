@@ -1,0 +1,235 @@
+1
+00:00:00,400 --> 00:00:10,890
+In your mathematical careers, you might encounter people who say it is wrong to say that 'i' is equal to the principal square root of negative 1.
+
+2
+00:00:10,890 --> 00:00:17,733
+And if you ask them why is this wrong, they'll show up with this kind of line of logic that actually seems pretty reasonable.
+
+3
+00:00:17,733 --> 00:00:21,533
+They will tell you that, "Okay. Well, let's just start with -1.
+
+4
+00:00:21,533 --> 00:00:29,467
+We know from definition that -1 is equal to i times i. Everything seems pretty straightforward right now." And then they'll say,
+
+5
+00:00:29,467 --> 00:00:34,467
+"Well look, if you take this, if you assume this part right here, then we can
+
+6
+00:00:34,467 --> 00:00:38,067
+replace each of these i's with the square root of negative 1" And they'd be right.
+
+7
+00:00:38,067 --> 00:00:43,770
+So this would be the same thing as the square root of negative 1 times the square root of negative 1.
+
+8
+00:00:43,770 --> 00:00:50,132
+And then they would tell you that, "Hey, look, just from straight-up properties of the principal square root function,
+
+9
+00:00:50,132 --> 00:00:58,867
+they'll tell you the square root of a times b is the same thing as the principal square root of a, times the principal square root of b.
+
+10
+00:00:58,867 --> 00:01:05,000
+And so, if you have the principal square root of a times the principal square root of b, that's the same thing as square root a times b
+
+11
+00:01:05,000 --> 00:01:12,469
+so based on this property of the radical of the principal root, they'll say this over here is the same thing as
+
+12
+00:01:12,469 --> 00:01:24,451
+the squrae root of negative 1 times negative 1 if I have the principal root of the product of 2 things that's the same
+
+13
+00:01:24,451 --> 00:01:28,933
+thing as the the product of each of their principal roots
+I am doing this in other order here.
+
+14
+00:01:28,933 --> 00:01:33,739
+here I had the principal root of the products, over here I have this on the right and then from that
+
+15
+00:01:33,739 --> 00:01:41,402
+we all know that negative 1 times negative 1 is 1 so this should be equal to the principal square root of 1
+
+16
+00:01:41,402 --> 00:01:45,210
+and then the principal squre root of 1, remember this radical means
+
+17
+00:01:45,210 --> 00:01:51,867
+principal squre root, positive
+squre root that is just going to be positive 1 and
+
+18
+00:01:51,867 --> 00:01:59,142
+they'll say this is wrong. clearly negative 1 and positive 1 are not the same thing
+
+19
+00:01:59,142 --> 00:02:06,200
+and therefore you can't make the subtitution that we did in this step and you should then point out is
+
+20
+00:02:06,200 --> 00:02:13,724
+that, this was not the incorrect step that it is true that negative 1 is not equal to 1 but the faulty line of reasoning here was
+
+21
+00:02:13,724 --> 00:02:24,405
+in using this propperty
+when both a and b are negative, if both a and b are negative this will
+
+22
+00:02:24,405 --> 00:02:38,569
+never be true, so a and b both can not be negative infact normaly when this property is given,
+
+23
+00:02:38,569 --> 00:02:42,888
+sometimes is given a little bit in footnotes you might not even notice it because its not relevant when you
+
+24
+00:02:42,888 --> 00:02:47,207
+learning it in the first time but usually they give a little bit of construct there, they usually say for
+
+25
+00:02:47,207 --> 00:02:55,705
+a and b greater than or equal to zero so thats where they listes property this is true for a and b be
+
+26
+00:02:55,705 --> 00:03:04,333
+greater or equal to zero and in particular it's false if both a and b are negative, Now I've said
+
+27
+00:03:04,671 --> 00:03:12,267
+that, I've just spend lat three minutes saying that people who tell you this is wrong are wrong but with
+
+28
+00:03:12,267 --> 00:03:19,134
+that I said I do say you have to be a little bit careful about it, when we take traditional principal
+
+29
+00:03:19,134 --> 00:03:24,893
+square roots so you take thi principal square root of 4, we know this is positive 2 that 4 actually
+
+30
+00:03:24,893 --> 00:03:36,921
+has two square roots, negative 2 ia also a square root of 4, if you have negative 2 times negaive 2
+
+31
+00:03:36,921 --> 00:03:44,026
+is also equal to 4, this radical symbol here means principal square root or when we just dealing with
+
+32
+00:03:44,026 --> 00:03:48,067
+real numbers non imaginary non complex numbers you can 
+really ??? as positive
+
+33
+00:03:48,067 --> 00:03:54,011
+square root, this is two square roots, positive and negative 2 if you have this radical symbol right here, principal square roots it
+
+34
+00:03:54,011 --> 00:04:01,070
+means the positive square root of 2. So when you start thinking about taking square roots of negative
+
+35
+00:04:01,070 --> 00:04:06,085
+numbers or even in the future you'll do imaginary numbers and complex numbers and all the rest you have
+
+36
+00:04:06,085 --> 00:04:10,404
+to expend the definition of what this radical means, so when you are taking the square root
+
+37
+00:04:10,404 --> 00:04:19,133
+of really of any negative number you'll really saying this is no longer the traditional principal
+
+38
+00:04:19,133 --> 00:04:25,404
+square root function you've now talking this is the principal complex square root function, this is now
+
+39
+00:04:25,404 --> 00:04:32,370
+to find for complex inputs or the domain it can also generate imaginary or complex output or you
+
+40
+00:04:32,370 --> 00:04:40,590
+should call that the range and if you assume that, then really straight from this you get that the
+
+41
+00:04:40,590 --> 00:04:49,000
+square root of negative x is going to be equal to i times the square root of x and this is only and i'm
+
+42
+00:04:49,000 --> 00:04:52,827
+going to make this clear because I just told you that this will be false if both a and b are negative,
+
+43
+00:04:52,827 --> 00:05:06,620
+so this is only true, so we can apply this we can apply this we can apply when x is greater than or equal to
+
+44
+00:05:06,620 --> 00:05:11,533
+zero, so if x is greater than or equal to zero the negative x is clearly a negative number or I guess
+
+45
+00:05:11,533 --> 00:05:17,533
+it can be zero, it's a negative number and then we can apply this right over here if x was less than
+
+46
+00:05:17,533 --> 00:05:22,600
+zero then we'll be doing all of this nonesense up here and we will start to get nonesense equal
+
+47
+00:05:22,600 --> 00:05:27,750
+answeres and if you look at it this way you'll say hey look i can be the square of negative 1 if we were
+
+48
+00:05:27,750 --> 00:05:31,933
+taking the if it's the principal branch of the complex square root function, then you could
+
+49
+00:05:31,933 --> 00:05:42,610
+rewrite this right over here as square root of negative 1 times the square root of x and so really,
+
+50
+00:05:42,610 --> 00:05:50,041
+the real fault in this logic when people say hey negative 1 can't be equal to 1, the real faughlt is
+
+51
+00:05:50,041 --> 00:05:58,800
+using this property, when both a and b when both of these are negative numbers that will come up with
+
+52
+00:05:58,800 --> 00:06:05,459
+something that is unambiguously false, if you expend the definition of complex or expend the definition of
+
+53
+00:06:05,459 --> 00:06:11,450
+principle root include negative numbers in the domain and including and to include imaginary
+
+54
+00:06:11,450 --> 00:06:17,487
+numbers then you can do this you can say the the square root of negative x is the qsuare root of
+
+55
+00:06:17,487 --> 00:06:23,896
+negative 1 times or instead (say) the principle square root of negative x, I should be particulare in my
+
+56
+00:06:23,896 --> 00:06:30,118
+words, is the same thing as the principal square root of negative 1 times the principal square root of x
+
+57
+00:06:30,118 --> 00:06:35,645
+when x is greater than or equal to zero and I don't want confuse you, if x is greater than or equal to
+
+58
+00:06:35,645 --> 99:59:59,999
+zero this is clearly, this negative x, that is clearly negative or I guess you say a non positive number.

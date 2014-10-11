@@ -1,0 +1,331 @@
+1
+00:00:00,249 --> 00:00:09,463
+We're on part B. The region R is rotated about the x-axis to form a solid. Find the volume V of the solid in terms of k.
+
+2
+00:00:09,463 --> 00:00:17,329
+So this is our region R, and it's going to be rotated around the x-axis... it's going to be rotated around the x-axis to form a solid.
+
+3
+00:00:17,329 --> 00:00:24,080
+So that solid's going to look something like this: It's going to look like this- this is going to be this end of the solid when it's rotated around,
+
+4
+00:00:24,080 --> 00:00:30,938
+and it's going to look something like this. My best attempt to draw our solid.
+
+5
+00:00:30,938 --> 00:00:40,079
+It's going to be... and then that side's going to look something like that; it'll look a little bit like a loudspeaker. Let me shade it in a little bit.
+
+6
+00:00:40,079 --> 00:00:48,500
+So that's going to be our solid and you can imagine... you can imagine that maybe this is... this right over here is our y-axis.
+
+7
+00:00:48,500 --> 00:00:57,892
+That is our y-axis, and then going straight through the centre of the solid... straight through the centre of the solid you have your x-axis.
+
+8
+00:00:57,892 --> 00:01:03,396
+and let me just... even... if the solid was slightly transparent you would see the other side of this
+
+9
+00:01:03,396 --> 00:01:07,165
+opening right over here. The x-axis goes straight through the centre.
+
+10
+00:01:07,165 --> 00:01:11,620
+So how do we find the volume of the solid? Well we can think about each of the individual discs of this
+
+11
+00:01:11,620 --> 00:01:16,742
+solid right over here. So think about it this way: let's take a disc right over here.
+
+12
+00:01:16,742 --> 00:01:19,277
+Take this disc right over here.
+
+13
+00:01:19,277 --> 00:01:23,575
+So that you can imagine this little bit of a cross-section, it's a little bit of a cross-section of
+
+14
+00:01:23,575 --> 00:01:28,593
+this solid so this disc right over here is going to have some area.
+
+15
+00:01:28,593 --> 00:01:31,260
+It's going to have some surface and then it's going to have some depth.
+
+16
+00:01:31,260 --> 00:01:38,478
+You can imagine the depth is the edge of the quarter while the surface area is kind of the face of the quarter;
+
+17
+00:01:38,478 --> 00:01:43,545
+the area of the face of a quarter. So what's going to be the volume of this white disc right over here?
+
+18
+00:01:43,545 --> 00:01:51,463
+Well it's going to be the surface area of the disc times the depth. So what is the surface area?
+
+19
+00:01:51,463 --> 00:01:58,146
+Well surface area of a circle is pi times the radius squared. It's pi times the radius squared so it's going
+
+20
+00:01:58,146 --> 00:02:02,278
+to be pi times... what's this radius? What's this radius?
+
+21
+00:02:02,278 --> 00:02:08,478
+Well the radius is the height between the x-axis and the function, so this radius is e to the 2x power.
+
+22
+00:02:08,478 --> 00:02:20,813
+So the area of each of these discs at this value of x is going to be pi times (e to the 2x) squared,
+
+23
+00:02:20,813 --> 00:02:26,579
+and then if we want the volume of this entire disc we then multiply the area times the depth,
+
+24
+00:02:26,579 --> 00:02:29,063
+so times dx.
+
+25
+00:02:29,063 --> 00:02:34,249
+So this would be the volume of this little disc over here, that has a very small, infinitessimally wide
+
+26
+00:02:34,249 --> 00:02:39,814
+depth, but what we want to do is sum all of these discs. We want to do... we want to have a bunch of
+
+27
+00:02:39,814 --> 00:02:44,034
+these discs. And we want to sum up all of them so we want to take the infinite sum of these infinitely
+
+28
+00:02:44,034 --> 00:02:50,797
+thin discs. So essentially we're just going to take the sum of all of these from x is equal to zero,
+
+29
+00:02:50,797 --> 00:02:59,252
+all the way to x is equal to k. Right, because this right over here, this is x = k, this is x = 0,
+
+30
+00:02:59,252 --> 00:03:02,345
+we take the sum of all the discs, we will get our actual volume.
+
+31
+00:03:02,345 --> 00:03:08,414
+So we can actually evaluate this integral analytically, it's not too bad. Because e to the ... let me rewrite it...
+
+32
+00:03:08,414 --> 00:03:18,949
+pi times... (e to the 2x) squared is e to the (4x) - just 2x times 2. And then if we want to take the
+
+33
+00:03:18,949 --> 00:03:23,063
+integral - you might be able to do this just by inspection - but if you want to say, "Hey look, I have a little function here
+
+34
+00:03:23,063 --> 00:03:28,504
+I want it's derivative sitting here", what we can do - we can multiply this expression by four;
+
+35
+00:03:28,504 --> 00:03:33,335
+we can also divide it by four. If you multiply something by four and divide it by four you haven't changed its value -
+
+36
+00:03:33,335 --> 00:03:39,070
+you've multiplied it by one. But what this does is it givs us, if you let me rewrite it a little bit, so this is
+
+37
+00:03:39,070 --> 00:03:51,543
+we can rewrite this as (pi over 4) times four times e to the 4x. I just rewrote this - I multiplied and divided by four.
+
+38
+00:03:51,543 --> 00:03:57,831
+And the reason why I did that is so that we have the derivative of 4x is sitting right over here, we
+
+39
+00:03:57,831 --> 00:04:03,146
+have this four. Pi over 4 is constant so we can actually take it out of the integral, and so we can say
+
+40
+00:04:03,146 --> 00:04:09,811
+this expression right over here is the same as... is the same thing as this expression right over here.
+
+41
+00:04:09,811 --> 00:04:16,547
+(pi/4) times the integral from zero to k of (4 e to the 4x) dx.
+
+42
+00:04:16,547 --> 00:04:22,724
+And so... the whole reason I multiplied and divided by four is: I have something here; I have its derivative.
+
+43
+00:04:22,724 --> 00:04:28,829
+So I can really just pretend like this is e to the x: I take its... I guess you could say you take the
+
+44
+00:04:28,829 --> 00:04:34,084
+[derivative with respect to] - or you could take the integral or the antiderivative with respect to 4x.
+
+45
+00:04:34,084 --> 00:04:41,128
+So this - the inside is e to the 4x. And you can verify: if you take the derivative of e to the 4x,
+
+46
+00:04:41,128 --> 00:04:44,580
+it is the derivative of 4x, which is 4, times (e to the 4x).
+
+47
+00:04:44,580 --> 00:04:49,414
+So this right here is the antiderivative of that, and we're going to evaluate it...
+
+48
+00:04:49,414 --> 00:04:57,746
+we're going to evaluate it from zero to k. And all of this times pi over four.
+
+49
+00:04:57,746 --> 00:05:04,415
+So when you evaluate it at k, it's e to the 4k.
+
+50
+00:05:04,415 --> 00:05:13,812
+So that's pi/4 times: e to the 4k minus e to the (four times zero), which is e to the zero, which is [minus] 1.
+
+51
+00:05:13,812 --> 00:05:20,663
+So this is our volume: (pi/4) times [e^(4k) -1]. And so that is part B. We did that.
+
+52
+00:05:20,663 --> 00:05:27,430
+Now part C - I think we have time for this. The volume, V, found in part B changes as k changes.
+
+53
+00:05:27,430 --> 00:05:34,203
+If dk... if the derivative of k with respect to t is one third, determine the derivative of V with respect to t
+
+54
+00:05:34,203 --> 00:05:37,579
+when k is one-half. So this is straight up from the chain rule
+
+55
+00:05:37,579 --> 00:05:43,646
+So the chain rule will tell us... and if you view differentials as just very very small numbers it actually
+
+56
+00:05:43,646 --> 00:05:46,081
+just seems like a little bit of common sense...
+
+57
+00:05:46,081 --> 00:05:51,062
+The rate of change of V, so this very small change in V with respect to a very small change in t
+
+58
+00:05:51,062 --> 00:05:57,997
+is equal to a very small change in V with respect to a very small change in k, times
+
+59
+00:05:57,997 --> 00:06:05,479
+times a very small change in k divided by a very small change in t.
+
+60
+00:06:05,479 --> 00:06:10,013
+Or: the derivative of v with respect to t is equal to the derivative of V with respect to k
+
+61
+00:06:10,013 --> 00:06:12,340
+times the derivative of k with respect to t.
+
+62
+00:06:12,340 --> 00:06:16,514
+And the reason why I said this made sense if you view a differential as a small number is:
+
+63
+00:06:16,514 --> 00:06:21,882
+You would... and that's not a very rigorous way of doing it but it's a good kind of common sense way
+
+64
+00:06:21,882 --> 00:06:26,081
+of just thinking about things... is that these guys would cancel out if these <i>were</i> numbers, and then
+
+65
+00:06:26,081 --> 00:06:31,497
+you would have dV/dt on both sides. So that's why I said this is a slightly common sense -
+
+66
+00:06:31,497 --> 00:06:33,252
+you can kind of view it that way.
+
+67
+00:06:33,252 --> 00:06:35,531
+But this essentially gives us everything we need to know:
+
+68
+00:06:35,531 --> 00:06:44,392
+We need to solve for dV/dt. They already gave us dk/dt = 1/3 when k = 1/2,
+
+69
+00:06:44,392 --> 00:06:51,747
+So they're already telling us the rate of change of k with respect to t, we already know that this thing
+
+70
+00:06:51,747 --> 00:06:58,533
+right over here is going to be 1/3, and we can figure out the derivative of V with respect to k very easily:
+
+71
+00:06:58,533 --> 00:07:01,881
+We have V as a function of k right over here, so let's figure that out.
+
+72
+00:07:01,881 --> 00:07:13,949
+So the derivative of V with respect to k is equal to pi/4 times the derivative in here.
+
+73
+00:07:13,949 --> 00:07:17,948
+The derivative of this is just 4(e^4k), derivative of -1 is just zero.
+
+74
+00:07:17,948 --> 00:07:26,114
+So e... this is times four... e to the 4k is the derivative. These guys cancel out,
+
+75
+00:07:26,114 --> 00:07:33,465
+so this is equal to pi * e to the 4k, that's the derivative of V with respect to k,
+
+76
+00:07:33,465 --> 00:07:40,831
+we want to find it when k = 1/2, so we could write V' at 1/2,
+
+77
+00:07:40,831 --> 00:07:49,866
+or when k=1/2, dV/dk is going to be equal to pi times e to the (4 times 1/2),
+
+78
+00:07:49,866 --> 00:07:58,213
+which is pi * (e squared). So this part right over here is pi*e^2.
+
+79
+00:07:58,213 --> 00:08:02,914
+And so the derivative of V with respect to t when k is equal to 1/2, and
+
+80
+00:08:02,914 --> 00:08:11,326
+and the derivative of k with respect to t is 1/3, is going to be just pi*e^2 times 1/3.
+
+81
+00:08:11,326 --> 00:08:19,114
+So let me just rewrite it over here. So dV/dt is going to be equal to 1/3 * this.
+
+82
+00:08:19,114 --> 00:08:23,176
+Or we could write pi e^2 over three.
+
+83
+00:08:23,176 --> 99:59:59,999
+And we're done! :-)

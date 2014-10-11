@@ -1,0 +1,519 @@
+1
+00:00:00,766 --> 00:00:06,525
+lets say there are a couple of herbs that believe help prevent the flu.
+
+2
+00:00:06,525 --> 00:00:10,194
+so to test this what we do is we wait for flu season and
+
+3
+00:00:10,194 --> 00:00:13,026
+randomly assign people to three different groups.
+
+4
+00:00:13,026 --> 00:00:17,763
+And over the course of flu season,we have them either in one group taking
+
+5
+00:00:17,763 --> 00:00:19,853
+we have one group taking herb one and the second group taking herb two
+
+6
+00:00:19,853 --> 00:00:22,036
+And the third group they take a placebo.
+
+7
+00:00:22,036 --> 00:00:26,200
+And if you don't know what a placebo is, its something thatto the patient or to the person
+
+8
+00:00:26,200 --> 00:00:30,534
+participating in it it feels like its doing something that you told them might help them
+
+9
+00:00:30,534 --> 00:00:34,200
+but it does nothing. It could be just a sugar pill so it feels like medicine
+
+10
+00:00:34,200 --> 00:00:37,467
+The reason you go through the effort of giving them something is cause often
+
+11
+00:00:37,467 --> 00:00:40,635
+times there is something called the placebo effect where people
+
+12
+00:00:40,635 --> 00:00:44,582
+get better just because they are told that they are being given something that
+
+13
+00:00:44,582 --> 00:00:45,733
+will make them better.
+
+14
+00:00:45,733 --> 00:00:48,333
+So this right here could just be a sugar pill.
+
+15
+00:00:48,333 --> 00:00:54,660
+And a very small amount of sugar so it really cant affect their
+
+16
+00:00:54,660 --> 00:00:57,678
+actual likelyhood of getting the flu.
+
+17
+00:00:57,678 --> 00:01:02,973
+over here we have a table and this is actually called a contingency
+
+18
+00:01:02,973 --> 00:01:11,067
+table, contingency table,contingency table and it has on
+
+19
+00:01:11,067 --> 00:01:13,979
+it on each group the number that got sick and the number
+
+20
+00:01:13,979 --> 00:01:17,733
+that did not get sick. And from this we can also calculate the total number
+
+21
+00:01:17,733 --> 00:01:23,638
+So in group 1 we had a total of 120 people and group 2 we had
+
+22
+00:01:23,638 --> 00:01:27,667
+a total of 30 plus 110 is a 140 people and
+
+23
+00:01:27,667 --> 00:01:30,976
+the placebo group, that is the group that just got the sugar pill,
+
+24
+00:01:30,976 --> 00:01:38,667
+we had a total of 120 people and we can also tabulate the total number of people that got sick
+
+25
+00:01:38,667 --> 00:01:39,167
+so thats 20 plus 30 that is 50 plus 30 is 80
+
+26
+00:01:39,167 --> 00:01:49,333
+so that is the total column right over here and the total people that didnt get sick
+
+27
+00:01:49,333 --> 00:01:55,264
+over here is 100 and 110 is 210 plus 90 is 300
+
+28
+00:01:55,264 --> 00:02:03,298
+ant the total people here are 380 both this column and this row should
+
+29
+00:02:03,298 --> 00:02:05,922
+add up to 380. so with this out of the way lets think about how we
+
+30
+00:02:05,922 --> 00:02:08,522
+can use this information in the contingency table and our
+
+31
+00:02:08,522 --> 00:02:10,519
+knowledge of the chi square distribution
+
+32
+00:02:10,519 --> 00:02:12,516
+to come up with some conclusion.
+
+33
+00:02:12,516 --> 00:02:16,510
+so lets come up with some null hypothesis. so our null hypothesis
+
+34
+00:02:16,510 --> 00:02:18,925
+is that the herbs do nothing.
+
+35
+00:02:18,925 --> 00:02:33,043
+the herbs do nothing.do nothing. and we have our alternative
+
+36
+00:02:33,043 --> 00:02:39,451
+hypothesis that the herbs do something. herbs do something.
+
+37
+00:02:39,451 --> 00:02:42,145
+notice i dont even care whether they actually improve.
+
+38
+00:02:42,145 --> 00:02:45,303
+Im just saying they do something. they may even increase your likelyhood
+
+39
+00:02:45,303 --> 00:02:47,393
+of getting the flu. all we are not testing if they are actually good.
+
+40
+00:02:47,393 --> 00:02:50,643
+we are just saying are they different than doing nothing.
+
+41
+00:02:50,643 --> 00:02:55,798
+so like we did with all of our hypothesis tests, lets just assume
+
+42
+00:02:55,798 --> 00:03:01,200
+the null . we are going to assume the null and given that assumption,
+
+43
+00:03:01,200 --> 00:03:06,108
+figure out the problems. figure out if the likelyhood of getting data like this
+
+44
+00:03:06,108 --> 00:03:09,962
+or more extreme is really low.
+
+45
+00:03:09,962 --> 00:03:11,800
+and if it is really low, and if it is really low, we reject it.
+
+46
+00:03:11,800 --> 00:03:17,393
+and in this test like in every hypothesis test, we need a significance level and the significance level
+
+47
+00:03:17,393 --> 00:03:27,200
+we care about for whatever reason is 10% or 0.10 thats the significance level we care about.
+
+48
+00:03:27,200 --> 00:03:36,108
+now to do this we need to calculate a chi square statistic for this contingency table. and to do this,
+
+49
+00:03:36,108 --> 00:03:40,473
+we do something very similiar with what we did with the restaurant situation. we figure out assuming
+
+50
+00:03:40,473 --> 00:03:46,789
+the null hypothesis, the expected results in each of these cells in each of these entries as a cell,
+
+51
+00:03:46,789 --> 00:03:55,800
+thats what we do in excel. each of the entries in excel.
+
+52
+00:03:55,800 --> 00:03:58,957
+each of the entries in a table.
+
+53
+00:03:58,957 --> 00:04:09,333
+we figure out what each of the values would have been if you do assume the null hypothesis, we find the
+
+54
+00:04:09,333 --> 00:04:12,842
+square distance from that expected value and you normalize it by the expected value ,take the sum of
+
+55
+00:04:12,842 --> 00:04:18,000
+all those differences and if the square differences are really big, the probability of getting it would
+
+56
+00:04:18,000 --> 00:04:22,177
+be really small and maybe we can reject the null hypothesis so lets just figure out how you can get the
+
+57
+00:04:22,177 --> 00:04:24,591
+expected number .
+
+58
+00:04:24,591 --> 00:04:29,267
+so we are assuming that the herbs do nothing. so if the herbs do nothing, we can just figure out that
+
+59
+00:04:29,267 --> 00:04:35,180
+this whole population had nothing happen to them and the herbs were useless and so we can use this population
+
+60
+00:04:35,180 --> 00:04:40,938
+sample,i shouldnt call this a population sample. we can use this sample right here to figure out the
+
+61
+00:04:40,938 --> 00:04:49,437
+expected number of people who would get sick or not sick so over here, we have 80 out of 380 did not
+
+62
+00:04:49,437 --> 00:04:55,288
+get sick. i should be careful here. i just said population but we havent sampled the whole universe of
+
+63
+00:04:55,288 --> 00:05:02,067
+people taking this herb so this is a sample. i dont want to confuse you . i am using population in more
+
+64
+00:05:02,067 --> 00:05:06,248
+of a conversational sense rather than a statistical sense. any way in all of our sample, we are using
+
+65
+00:05:06,248 --> 00:05:10,938
+all of the data because we are assuming that there is no difference so we might aswell use all of the
+
+66
+00:05:10,938 --> 00:05:17,858
+data to find the frequency of getting sick and not getting sick so 80 divided by 380 didnot get sick
+
+67
+00:05:17,858 --> 00:05:29,236
+so thats 21 percent. 21 percent didnot get sick. so 21 percent, thats 21 percent of the total and ten
+
+68
+00:05:29,236 --> 00:05:38,106
+if this will be 79 percent if we just subtract so we should divide 300 by 380, we should get 79 percent
+
+69
+00:05:38,106 --> 00:05:46,744
+as well so one would expect the 21 percent of your total based on the total sample righ over here that
+
+70
+00:05:46,744 --> 00:05:53,849
+21 percent should be getting sick and 79 percent should not be getting sick. so lets look at this for
+
+71
+00:05:53,849 --> 00:06:00,933
+each of the group. if we assume that 21 percent of this 120 people should have gotten sick, what would
+
+72
+00:06:00,933 --> 00:06:08,570
+have been the expected value right over here? lets just multiply 21 percent times a 120. so lets just
+
+73
+00:06:08,570 --> 00:06:19,252
+multiply that times 120 that gets us to 25.3 people. ill just round it. so the expected ill just write
+
+74
+00:06:19,252 --> 00:06:34,670
+this over here. ill do expected in yellow. so the expected right over here . so if you assume that 21
+
+75
+00:06:34,670 --> 00:06:38,245
+percent of a group would have gotten sick, you would have expected 25.3 people to get sick in group 1
+
+76
+00:06:38,245 --> 00:06:47,023
+in herb 1 group and the remainder will not get sick. so lets just subtract. or i can multiply 79 percent
+
+77
+00:06:47,023 --> 00:06:59,333
+times a 120 either one of them will be good. but let me just take 120 - 25.3 and i get 94.7. so you would
+
+78
+00:06:59,333 --> 00:07:12,843
+have expected 94.7 to not get sick. so this is expected again. expected. expected. 94.7 to not get sick
+
+79
+00:07:12,843 --> 00:07:18,323
+and i also do that for each of those groups. so once again group 2, you would have expected 21 percent
+
+80
+00:07:18,323 --> 00:07:28,261
+to get sick. 21 percent of the total people in that group thats 140 that 29.4 and the remainder that
+
+81
+00:07:28,261 --> 00:07:38,989
+is 140- 29.4 should not have gotten sick. so that gets us this right here. we have 29.4 should have
+
+82
+00:07:38,989 --> 00:07:51,249
+gotten sick if the herbs did nothing. and over here we have 110.6 should not have gotten sick and this
+
+83
+00:07:51,249 --> 00:07:54,175
+is pretty close and by just looking at the result it looks like the herb doesnt do too much relative
+
+84
+00:07:54,175 --> 00:08:01,652
+to all of the groups combined. and in the placebo group, lets see what happens. we expect 21 percent
+
+85
+00:08:01,652 --> 00:08:03,648
+to get sick of our group of 120 . so thats 25.2 so this right here, actually this would be the same number
+
+86
+00:08:03,648 --> 00:08:26,915
+over here. i said 21 percent but it is actually 21. something. but the group sizes are the same and we
+
+87
+00:08:26,915 --> 00:08:32,255
+should expect the same proportion to get sick ill say 25.3. just to make it consistant. the reason why
+
+88
+00:08:32,255 --> 00:08:38,067
+i got 25.2 is because i lost some of the trailing decimals over here . but since i had them over here,
+
+89
+00:08:38,067 --> 00:08:49,800
+im gonna use them over here as well and over here, in this group, you would expect 94.7 to get sick.
+
+90
+00:08:49,800 --> 00:09:18,788
+lets figure out our chi square statistic. so to figure this out, lets get our statistic, our chi square
+
+91
+00:09:18,788 --> 00:09:24,315
+statistic. ill write it like this here for fun. or maybe ill right it as a big X because its really
+
+92
+00:09:24,315 --> 00:09:31,977
+, this random distribution is approximately a chi square distribution. so ill write it like that. and
+
+93
+00:09:31,977 --> 00:09:34,578
+well talk about the degrees of freedom in a second acually let me write it in a curly axis.
+
+94
+00:09:34,578 --> 00:09:40,000
+so you see that some people write with the chi instead of the x. so our chi square statistic over here,
+
+95
+00:09:40,000 --> 00:09:45,863
+we are literally going to find the squared distance between the observed and the expected divided by
+
+96
+00:09:45,863 --> 00:10:14,005
+the expected which will be 20-25.3 squared over 25.3 plus 30-29.4 squared over 29.4 + 30 -25.3 squared
+
+97
+00:10:14,005 --> 00:10:21,018
+over 25.3 and then im gonna have to do these over here so let me just continue it you can ignore this
+
+98
+00:10:21,018 --> 00:10:54,408
+h1 over here + 100-94.7 squared over 94.7 +110-110.6 squared over 110.6 and finally 90-94.7 squared over
+
+99
+00:10:54,408 --> 00:11:53,062
+94.7. so we have (20-25.3) squared /25.3+(30-29.4 )squared/29.4 + (30-25.3)squared/25.3+(100-94.7)squared
+
+100
+00:11:53,062 --> 00:12:25,709
+/94.7+(110-110.6)squared /110.6+(90-94.7)squared/94.7
+
+101
+00:12:25,709 --> 00:12:51,715
+we get 2.53.so our chi square statistic assuming the null hypothesis is correct is equal to 2.53
+
+102
+00:12:51,715 --> 00:13:02,582
+next thing we need to do is figure out the degrees of freedom we had while doing this. and ill give you
+
+103
+00:13:02,582 --> 00:13:15,492
+the rule of thumb. that is you have the number of rows. so you have the rows and you have the number
+
+104
+00:13:15,492 --> 00:13:31,839
+of columns so you have 2 rows and 3 columns you dont count the total. so the degrees of freedom is for
+
+105
+00:13:31,839 --> 00:13:35,972
+your contingency table is the number of rows-1 times the number of columns-1.
+
+106
+00:13:35,972 --> 00:13:43,310
+in our situation we have two rows and 3 columns so that will be 2-1 times 3-1.
+
+107
+00:13:43,310 --> 00:13:56,400
+so that is going to be 2.we have 2 degrees of freedom. the reason why that should have some intuitive
+
+108
+00:13:56,400 --> 00:14:05,648
+sense is that if you assume that you know the total. if you know all of this information, over here,
+
+109
+00:14:05,648 --> 00:14:13,914
+if you know the total information, actually if you knew the parameters of the population as well, but
+
+110
+00:14:13,914 --> 00:14:21,901
+if you knew the total information, and you knew this information or if you knew r-1 of the informations
+
+111
+00:14:21,901 --> 00:14:31,050
+in the rows, the last one can be figured out if you subtract it from the otal. for example, in this situation,
+
+112
+00:14:31,050 --> 00:14:33,744
+if you knew this, you could easily figure out this. this is not new information.l this is just total
+
+113
+00:14:33,744 --> 00:14:39,867
+- 20. same thing, if you knew this one over here, this one is not new information. similarly,if you knew
+
+114
+00:14:39,867 --> 00:14:46,654
+these two, this one here id not new information. you can calculate this based on the total and everything
+
+115
+00:14:46,654 --> 00:14:54,038
+else. so that's the sense as to why the degrees of freedom are the columns - 1 times the rows - 1 .
+
+116
+00:14:54,038 --> 00:15:07,067
+so any way, our chi square statistic has two degrees of freedom. so remember our alpha value is 10 %.
+
+117
+00:15:07,067 --> 00:15:21,205
+so we are going to figure out what our critical chi square statistic is that gives us an alpha of 10
+
+118
+00:15:21,205 --> 00:15:26,200
+% and if this is more extreme than that, if the probability of getting this is even less than that critical
+
+119
+00:15:26,200 --> 00:15:33,140
+statistic, we can reject the null hpothesis, and if it is not more extreme, we will not reject the null
+
+120
+00:15:33,140 --> 00:15:41,067
+hypothesis. so what we need to do is to figure out what the chi square distribution is and 2 degrees
+
+121
+00:15:41,067 --> 00:15:47,444
+of freedom, what is our critical chi square statistic. so lets just go back, we have two degrees of freedom
+
+122
+00:15:47,444 --> 00:15:58,404
+here and we have a care about a significance level of 10 % so our critical chi square value is 4.60.
+
+123
+00:15:58,404 --> 00:16:03,837
+another way to visualize this is if you look at a kai square distribution with 2 degrees of freedom,
+
+124
+00:16:03,837 --> 00:16:30,667
+that is the blue one over here, at a value of 4.60, the probability of getting something atleast that
+
+125
+00:16:30,667 --> 00:16:40,989
+extreme is 10%.this is what we care about. If the kai square distribution that we care about falls into
+
+126
+00:16:40,989 --> 00:16:53,714
+this rejection region, then we reject our null hypothesis but our kai square statistic is only 2.53 so
+
+127
+00:16:53,714 --> 00:17:05,324
+it is sitting some place right over here. so its actually not that crazy to get it if you assume the null hypothesis. so based
+
+128
+00:17:05,324 --> 00:17:15,169
+on the data we have right now, we cant reject the null hypothesis. we dont know for fact that the herbs
+
+129
+00:17:15,169 --> 00:17:25,533
+do nothing but we cant say that they do something. so we are not going to reject it.but from this point
+
+130
+00:17:25,533 --> 00:17:34,534
+of view , it doesnt seem like the herbs are different from each other and one of the herbs is obviously a placebo.

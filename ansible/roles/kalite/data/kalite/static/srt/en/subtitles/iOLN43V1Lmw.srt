@@ -1,0 +1,1143 @@
+1
+00:00:00,000 --> 00:00:00,670
+   
+
+2
+00:00:00,670 --> 00:00:02,470
+We're on problem 15.
+
+3
+00:00:02,470 --> 00:00:06,810
+It asks us, if triangle ABC
+and triangle XYZ are two
+
+4
+00:00:06,810 --> 00:00:10,520
+triangles such that-- OK, let
+me draw these two triangle.
+
+5
+00:00:10,520 --> 00:00:18,000
+Triangle ABC, maybe it looks
+something like that, and then
+
+6
+00:00:18,000 --> 00:00:20,050
+we have triangle XYZ,
+and we want to prove
+
+7
+00:00:20,050 --> 00:00:21,090
+that they are similar.
+
+8
+00:00:21,090 --> 00:00:23,650
+Similar means that they
+look the same.
+
+9
+00:00:23,650 --> 00:00:27,130
+They have a similar shape, but
+could be of different sizes.
+
+10
+00:00:27,130 --> 00:00:29,150
+So essentially all of their
+angles are the same or all the
+
+11
+00:00:29,150 --> 00:00:31,190
+ratios of their sides
+of the same.
+
+12
+00:00:31,190 --> 00:00:34,580
+So XYZ might just be
+a smaller version.
+
+13
+00:00:34,580 --> 00:00:35,830
+Maybe I should have drawn
+a bigger one.
+
+14
+00:00:35,830 --> 00:00:38,560
+   
+
+15
+00:00:38,560 --> 00:00:41,260
+It looks like they want
+us to prove the
+
+16
+00:00:41,260 --> 00:00:42,090
+triangles are similar.
+
+17
+00:00:42,090 --> 00:00:46,520
+They tell us that the ratio of
+AB to XY-- let me color that.
+
+18
+00:00:46,520 --> 00:00:52,010
+They say the ratio of AB
+to XY is equal to the
+
+19
+00:00:52,010 --> 00:00:53,640
+ratio of BC to YZ.
+
+20
+00:00:53,640 --> 00:00:59,950
+   
+
+21
+00:00:59,950 --> 00:01:01,820
+Which of the following would
+be sufficient to prove the
+
+22
+00:01:01,820 --> 00:01:03,110
+triangles are similar?
+
+23
+00:01:03,110 --> 00:01:05,330
+So there's a couple of times
+when you know that a triangle
+
+24
+00:01:05,330 --> 00:01:08,125
+is similar, is if the ratio of
+all the sides are equal.
+
+25
+00:01:08,125 --> 00:01:13,070
+   
+
+26
+00:01:13,070 --> 00:01:15,290
+Think about it, just giving
+two sides isn't enough,
+
+27
+00:01:15,290 --> 00:01:17,750
+because even though I drew them
+so that they're similar,
+
+28
+00:01:17,750 --> 00:01:19,030
+it could look something
+like this.
+
+29
+00:01:19,030 --> 00:01:22,490
+Maybe the ratio here is 2:1.
+
+30
+00:01:22,490 --> 00:01:25,100
+So maybe AB and XY, maybe
+that's a 2:1.
+
+31
+00:01:25,100 --> 00:01:29,460
+Maybe that's 2 and that's
+1 like that.
+
+32
+00:01:29,460 --> 00:01:30,830
+The ratio is 2:1.
+
+33
+00:01:30,830 --> 00:01:34,820
+And maybe BC to YZ
+is also 2:1.
+
+34
+00:01:34,820 --> 00:01:37,490
+But there's nothing that tells
+us that that can't
+
+35
+00:01:37,490 --> 00:01:38,850
+open up like this.
+
+36
+00:01:38,850 --> 00:01:43,010
+It could be like a
+2 and a 1 ratio.
+
+37
+00:01:43,010 --> 00:01:44,750
+Or actually even better, I
+don't want to draw them
+
+38
+00:01:44,750 --> 00:01:45,380
+similar anymore.
+
+39
+00:01:45,380 --> 00:01:47,020
+I want to draw them
+some unsimilar.
+
+40
+00:01:47,020 --> 00:01:51,130
+Maybe BC comes in like that
+maybe YZ goes out like that.
+
+41
+00:01:51,130 --> 00:01:55,200
+And so just knowing that the
+ratio of two of the sides are
+
+42
+00:01:55,200 --> 00:01:57,710
+the same, that alone doesn't
+tell you that you're dealing
+
+43
+00:01:57,710 --> 00:01:59,100
+with a similar triangle.
+
+44
+00:01:59,100 --> 00:02:02,990
+These two triangles would
+be very different.
+
+45
+00:02:02,990 --> 00:02:04,690
+These are definitely not
+similar triangles.
+
+46
+00:02:04,690 --> 00:02:07,940
+In fact, all of the angles
+would be different.
+
+47
+00:02:07,940 --> 00:02:10,180
+Now, how do you prove that
+something is similar?
+
+48
+00:02:10,180 --> 00:02:14,920
+Well, actually I attempted this
+problem about two minutes
+
+49
+00:02:14,920 --> 00:02:18,130
+ago and it stumped me, because
+I think, if I'm right, that
+
+50
+00:02:18,130 --> 00:02:19,930
+there's a mistake
+in the problem.
+
+51
+00:02:19,930 --> 00:02:23,460
+In geometry class, they always
+teach you that if you know
+
+52
+00:02:23,460 --> 00:02:26,640
+that the ratio of two of the
+sides are equal and that the
+
+53
+00:02:26,640 --> 00:02:30,100
+angle between them are equal,
+then that's sufficient to say
+
+54
+00:02:30,100 --> 00:02:31,750
+that it's a similar triangle.
+
+55
+00:02:31,750 --> 00:02:36,430
+Or that you can make the
+conclusion of the ratio of AC
+
+56
+00:02:36,430 --> 00:02:38,350
+to XZ would also be equal.
+
+57
+00:02:38,350 --> 00:02:41,080
+So that's the answer they're
+probably looking for.
+
+58
+00:02:41,080 --> 00:02:44,720
+That if you have the ratio of
+AB to XY, you have the ratio
+
+59
+00:02:44,720 --> 00:02:48,860
+of BC to YZ, then you want the
+angle in between them to say,
+
+60
+00:02:48,860 --> 00:02:50,290
+OK, these are similar
+triangles.
+
+61
+00:02:50,290 --> 00:02:52,510
+So you'd have to know
+that angle B is
+
+62
+00:02:52,510 --> 00:02:54,270
+congruent to angle Y.
+
+63
+00:02:54,270 --> 00:02:59,640
+And that's choice B.
+
+64
+00:02:59,640 --> 00:03:02,750
+I don't argue with the fact that
+angle B being congruent
+
+65
+00:03:02,750 --> 00:03:05,010
+to angle Y is sufficient
+to prove that these
+
+66
+00:03:05,010 --> 00:03:06,170
+triangles are similar.
+
+67
+00:03:06,170 --> 00:03:08,100
+I just think that some of
+these other things are
+
+68
+00:03:08,100 --> 00:03:11,680
+actually sufficient to prove
+the triangles are similar.
+
+69
+00:03:11,680 --> 00:03:14,730
+They don't teach you the tools
+in geometry, but you can even
+
+70
+00:03:14,730 --> 00:03:16,320
+think about it intuitively.
+
+71
+00:03:16,320 --> 00:03:18,780
+Once you learn the law of
+cosines in trigonometry, which
+
+72
+00:03:18,780 --> 00:03:21,960
+you're not that far away from
+right now, you'll see that any
+
+73
+00:03:21,960 --> 00:03:24,890
+of the other angles, if you know
+the corresponding angles
+
+74
+00:03:24,890 --> 00:03:29,820
+are congruent, you would be all
+set to know that these are
+
+75
+00:03:29,820 --> 00:03:31,870
+going to be similar triangles.
+
+76
+00:03:31,870 --> 00:03:34,950
+   
+
+77
+00:03:34,950 --> 00:03:38,020
+For example, if you know that
+angle C is congruent to angle
+
+78
+00:03:38,020 --> 00:03:39,160
+Z, and you could even
+think about it.
+
+79
+00:03:39,160 --> 00:03:43,100
+Let's say if you knew that angle
+C was congruent to angle
+
+80
+00:03:43,100 --> 00:03:49,000
+Z, there's no other way to draw
+this triangle versus just
+
+81
+00:03:49,000 --> 00:03:50,110
+having a similar triangle.
+
+82
+00:03:50,110 --> 00:03:52,590
+So, for example, in this one
+right here, this would be
+
+83
+00:03:52,590 --> 00:03:56,620
+angle C and this would be angle
+Z, and clearly, these
+
+84
+00:03:56,620 --> 00:03:58,360
+two aren't congruent.
+
+85
+00:03:58,360 --> 00:04:01,740
+If you think about it, when
+you say that this angle is
+
+86
+00:04:01,740 --> 00:04:04,150
+congruent to this angle, you're
+constraining the shape
+
+87
+00:04:04,150 --> 00:04:05,680
+of this line right here.
+
+88
+00:04:05,680 --> 00:04:08,000
+You're constraining the
+direction that it goes in.
+
+89
+00:04:08,000 --> 00:04:16,290
+   
+
+90
+00:04:16,290 --> 00:04:19,000
+If you forced this angle to be
+the same as this, let's say
+
+91
+00:04:19,000 --> 00:04:23,340
+that you said this angle is
+equal to that angle, then you
+
+92
+00:04:23,340 --> 00:04:26,170
+would have to go out in this
+direction out there, and then
+
+93
+00:04:26,170 --> 00:04:28,170
+you would break what you
+originally said, that the
+
+94
+00:04:28,170 --> 00:04:30,170
+ratio of that to
+that is equal.
+
+95
+00:04:30,170 --> 00:04:32,560
+So just think about it in terms
+of when you add another
+
+96
+00:04:32,560 --> 00:04:34,650
+angle, it actually does
+constrain the triangle to
+
+97
+00:04:34,650 --> 00:04:36,540
+being similar.
+
+98
+00:04:36,540 --> 00:04:39,040
+And the same thing is true,
+angle A and angle X.
+
+99
+00:04:39,040 --> 00:04:42,540
+If you know that angle A is
+congruent to angle X, that
+
+100
+00:04:42,540 --> 00:04:46,510
+also constrains the triangle
+to being similar.
+
+101
+00:04:46,510 --> 00:04:50,330
+The only one that I know
+definitely isn't sufficient is
+
+102
+00:04:50,330 --> 00:04:52,170
+angle X being congruent
+to angle Y.
+
+103
+00:04:52,170 --> 00:04:53,420
+That's useless.
+
+104
+00:04:53,420 --> 00:04:57,940
+   
+
+105
+00:04:57,940 --> 00:05:02,520
+Let's see, angle X congruent
+to angle Y.
+
+106
+00:05:02,520 --> 00:05:03,930
+Yeah, that doesn't help you.
+
+107
+00:05:03,930 --> 00:05:06,100
+That tells you that this one
+is an isosceles triangle
+
+108
+00:05:06,100 --> 00:05:09,370
+because these two base angles
+would be the same, so that
+
+109
+00:05:09,370 --> 00:05:11,210
+would be the same as that, but
+it doesn't tell you anything
+
+110
+00:05:11,210 --> 00:05:13,310
+about how does this
+relate to that.
+
+111
+00:05:13,310 --> 00:05:14,950
+So even though the answer
+they're looking for is
+
+112
+00:05:14,950 --> 00:05:20,600
+probably B, I would say that A
+and C are also sufficient.
+
+113
+00:05:20,600 --> 00:05:23,190
+Next question.
+
+114
+00:05:23,190 --> 00:05:25,950
+Question 16.
+
+115
+00:05:25,950 --> 00:05:30,300
+And send me a note if you think
+I'm missing something,
+
+116
+00:05:30,300 --> 00:05:33,240
+because I thought about
+it a little bit.
+
+117
+00:05:33,240 --> 00:05:45,340
+All right, 16.
+
+118
+00:05:45,340 --> 00:05:50,050
+In parallelogram FGHI-- let me
+draw parallelogram FGHI.
+
+119
+00:05:50,050 --> 00:05:53,850
+   
+
+120
+00:05:53,850 --> 00:05:56,690
+We have one side.
+
+121
+00:05:56,690 --> 00:05:59,570
+We come down at a
+45-degree angle.
+
+122
+00:05:59,570 --> 00:06:01,500
+We have the other side.
+
+123
+00:06:01,500 --> 00:06:04,475
+Let's say we go up at
+a 45-degree angle.
+
+124
+00:06:04,475 --> 00:06:05,830
+I can do it from here.
+
+125
+00:06:05,830 --> 00:06:08,480
+   
+
+126
+00:06:08,480 --> 00:06:09,880
+Close enough.
+
+127
+00:06:09,880 --> 00:06:11,320
+Got my parallelogram.
+
+128
+00:06:11,320 --> 00:06:13,090
+Parallelogram FGHI.
+
+129
+00:06:13,090 --> 00:06:18,960
+So that F, that's a G, that's
+an H, and that's an I.
+
+130
+00:06:18,960 --> 00:06:23,260
+Diagonals IG and FH are drawn
+and intersect at point M.
+
+131
+00:06:23,260 --> 00:06:24,890
+So let me draw IG and FH.
+
+132
+00:06:24,890 --> 00:06:27,660
+   
+
+133
+00:06:27,660 --> 00:06:29,635
+OK, these are lines.
+
+134
+00:06:29,635 --> 00:06:38,090
+   
+
+135
+00:06:38,090 --> 00:06:38,940
+Fair enough.
+
+136
+00:06:38,940 --> 00:06:40,645
+And they intersect at point M.
+
+137
+00:06:40,645 --> 00:06:44,350
+   
+
+138
+00:06:44,350 --> 00:06:48,240
+Which of the following
+statements must be true?
+
+139
+00:06:48,240 --> 00:06:49,650
+OK.
+
+140
+00:06:49,650 --> 00:06:52,970
+Triangle FGI must be
+an obtuse triangle.
+
+141
+00:06:52,970 --> 00:06:58,470
+   
+
+142
+00:06:58,470 --> 00:07:01,470
+And that means that one of the
+angles in the triangle is more
+
+143
+00:07:01,470 --> 00:07:03,080
+than 90 degrees.
+
+144
+00:07:03,080 --> 00:07:05,220
+I mean, just the way I drew it
+here, which is a completely
+
+145
+00:07:05,220 --> 00:07:07,550
+legitimate way to draw it, all
+of these lines are parallel.
+
+146
+00:07:07,550 --> 00:07:10,230
+We see that that doesn't have
+to be the case, because just
+
+147
+00:07:10,230 --> 00:07:12,120
+the way I drew it, all
+these angles are
+
+148
+00:07:12,120 --> 00:07:14,070
+less than 90 degrees.
+
+149
+00:07:14,070 --> 00:07:15,690
+So that's definitely
+not the case.
+
+150
+00:07:15,690 --> 00:07:18,300
+   
+
+151
+00:07:18,300 --> 00:07:21,463
+Triangle HIG, must be
+an acute triangle.
+
+152
+00:07:21,463 --> 00:07:31,930
+   
+
+153
+00:07:31,930 --> 00:07:33,790
+Let's think about
+it a little bit.
+
+154
+00:07:33,790 --> 00:07:35,760
+Let's try to prove it
+by contradiction.
+
+155
+00:07:35,760 --> 00:07:38,060
+Let's say that one
+of the sides was
+
+156
+00:07:38,060 --> 00:07:41,100
+more than 90 degrees.
+
+157
+00:07:41,100 --> 00:07:42,930
+So this is just the
+way I happened to
+
+158
+00:07:42,930 --> 00:07:45,470
+draw it right here.
+
+159
+00:07:45,470 --> 00:07:50,690
+But if you think about it, I
+could have drawn it like this.
+
+160
+00:07:50,690 --> 00:07:53,350
+So the way I drew it, HIG
+is in an acute triangle.
+
+161
+00:07:53,350 --> 00:07:56,610
+All of these sides are
+less than 90 degrees.
+
+162
+00:07:56,610 --> 00:07:59,180
+But I could have drawn this
+the complete opposite way.
+
+163
+00:07:59,180 --> 00:08:01,380
+Let me draw it that
+way actually.
+
+164
+00:08:01,380 --> 00:08:03,230
+I'll do it quick and dirty.
+
+165
+00:08:03,230 --> 00:08:06,360
+So what if I drew
+it like this?
+
+166
+00:08:06,360 --> 00:08:10,010
+What if I drew our parallelogram
+like this?
+
+167
+00:08:10,010 --> 00:08:13,810
+   
+
+168
+00:08:13,810 --> 00:08:15,540
+The direction that I drew
+it was arbitrary.
+
+169
+00:08:15,540 --> 00:08:18,830
+   
+
+170
+00:08:18,830 --> 00:08:25,360
+So now this is F, G, H and I,
+and they're talking about
+
+171
+00:08:25,360 --> 00:08:26,610
+triangle HIG.
+
+172
+00:08:26,610 --> 00:08:29,640
+   
+
+173
+00:08:29,640 --> 00:08:34,350
+Well, clearly, in this case,
+angle H right here, this is an
+
+174
+00:08:34,350 --> 00:08:36,620
+obtuse angle.
+
+175
+00:08:36,620 --> 00:08:39,350
+That is greater than
+90 degrees.
+
+176
+00:08:39,350 --> 00:08:41,500
+So HIG would be an
+obtuse triangle.
+
+177
+00:08:41,500 --> 00:08:43,799
+So there's nothing that prevents
+us from drawing the
+
+178
+00:08:43,799 --> 00:08:45,900
+parallelogram like this,
+which would make
+
+179
+00:08:45,900 --> 00:08:47,430
+this an obtuse triangle.
+
+180
+00:08:47,430 --> 00:08:50,580
+So that triangle does not have
+to be an acute triangle, so B
+
+181
+00:08:50,580 --> 00:08:51,990
+doesn't work.
+
+182
+00:08:51,990 --> 00:08:53,870
+All right, what else
+do they say?
+
+183
+00:08:53,870 --> 00:09:02,115
+Triangle FMG must be congruent
+to triangle HMG.
+
+184
+00:09:02,115 --> 00:09:07,390
+   
+
+185
+00:09:07,390 --> 00:09:09,430
+Well that's congruent.
+
+186
+00:09:09,430 --> 00:09:11,970
+So that would mean that all
+the sides are equal and
+
+187
+00:09:11,970 --> 00:09:13,310
+everything, and that's
+clearly not true.
+
+188
+00:09:13,310 --> 00:09:16,170
+They share this side right here,
+but this side up here
+
+189
+00:09:16,170 --> 00:09:18,850
+could be a lot longer than that
+side, which would make
+
+190
+00:09:18,850 --> 00:09:21,390
+this side here a lot longer
+than that side, so that's
+
+191
+00:09:21,390 --> 00:09:22,720
+definitely not true.
+
+192
+00:09:22,720 --> 00:09:24,970
+So, D is probably the answer,
+but let's see if
+
+193
+00:09:24,970 --> 00:09:25,640
+we can prove it.
+
+194
+00:09:25,640 --> 00:09:30,500
+Triangle GMH must be
+congruent to IMF.
+
+195
+00:09:30,500 --> 00:09:32,100
+So let me do that in two
+different colors.
+
+196
+00:09:32,100 --> 00:09:38,750
+So GMH, that's that one right
+there, must be congruent to
+
+197
+00:09:38,750 --> 00:09:47,040
+IMF, that's that one
+right there.
+
+198
+00:09:47,040 --> 00:09:47,630
+Let's see.
+
+199
+00:09:47,630 --> 00:09:51,660
+First of all, we know that this
+angle and that angle are
+
+200
+00:09:51,660 --> 00:09:52,430
+going to be congruent.
+
+201
+00:09:52,430 --> 00:09:55,600
+They are opposite angles or, as
+they say, vertical angles.
+
+202
+00:09:55,600 --> 00:09:57,860
+The reason I don't like using
+vertical angles is because
+
+203
+00:09:57,860 --> 00:10:01,240
+this angle and this angle are
+also opposite angles, and to
+
+204
+00:10:01,240 --> 00:10:03,310
+call them vertical angles is
+bizarre because they're not
+
+205
+00:10:03,310 --> 00:10:04,470
+vertical with each other.
+
+206
+00:10:04,470 --> 00:10:06,490
+Anyway, that's just my problem
+with the notation.
+
+207
+00:10:06,490 --> 00:10:14,480
+   
+
+208
+00:10:14,480 --> 00:10:15,310
+OK, so where were we?
+
+209
+00:10:15,310 --> 00:10:16,545
+We wanted to prove that
+that triangle and that
+
+210
+00:10:16,545 --> 00:10:17,330
+triangle are congruent.
+
+211
+00:10:17,330 --> 00:10:21,040
+This angle is definitely equal
+to that angle, and know that
+
+212
+00:10:21,040 --> 00:10:23,360
+this line is parallel
+to this line, right?
+
+213
+00:10:23,360 --> 00:10:26,700
+So we can view each of these
+crossing lines as transversals
+
+214
+00:10:26,700 --> 00:10:28,680
+will between two
+parallel lines.
+
+215
+00:10:28,680 --> 00:10:31,740
+That's a parallel line, that's
+a parallel line, so this is a
+
+216
+00:10:31,740 --> 00:10:35,370
+transversal between two
+parallel lines.
+
+217
+00:10:35,370 --> 00:10:39,530
+Then this angle is going to be
+congruent to that angle, and
+
+218
+00:10:39,530 --> 00:10:42,640
+that's because I think the word
+is opposite internal, or
+
+219
+00:10:42,640 --> 00:10:45,440
+alternate interior angles,
+or something like that.
+
+220
+00:10:45,440 --> 00:10:46,140
+And it makes sense.
+
+221
+00:10:46,140 --> 00:10:48,135
+You could imagine drawing the
+transversal either way and
+
+222
+00:10:48,135 --> 00:10:50,140
+then the angles would change,
+but they are always going to
+
+223
+00:10:50,140 --> 00:10:51,180
+be congruent.
+
+224
+00:10:51,180 --> 00:10:57,450
+And by the same argument, this
+angle is going to be congruent
+
+225
+00:10:57,450 --> 00:11:00,220
+to that angle.
+
+226
+00:11:00,220 --> 00:11:03,440
+So we know that all of the
+angles are the same, and now
+
+227
+00:11:03,440 --> 00:11:06,420
+we have to make some type of
+argument that all of the sides
+
+228
+00:11:06,420 --> 00:11:06,740
+are the same.
+
+229
+00:11:06,740 --> 00:11:08,550
+Really, if we could just prove
+that one of the sides are the
+
+230
+00:11:08,550 --> 00:11:11,220
+same, then we know that all
+of the sides are the same.
+
+231
+00:11:11,220 --> 00:11:12,470
+Well, we know that it's
+a parallelogram.
+
+232
+00:11:12,470 --> 00:11:15,690
+   
+
+233
+00:11:15,690 --> 00:11:19,300
+So in order for all of the
+sides to be parallel, the
+
+234
+00:11:19,300 --> 00:11:21,970
+opposite sides have to
+be the same length.
+
+235
+00:11:21,970 --> 00:11:23,770
+I'll leave you to think
+about why that is.
+
+236
+00:11:23,770 --> 00:11:26,940
+But if all the opposite sides
+are the same length, we know
+
+237
+00:11:26,940 --> 00:11:30,890
+that this side is equivalent
+to this side.
+
+238
+00:11:30,890 --> 00:11:33,900
+So, you know, we could use one
+of those geometry postulates
+
+239
+00:11:33,900 --> 00:11:36,410
+that they-- angle, side,
+angle, right?
+
+240
+00:11:36,410 --> 00:11:39,310
+We haven an angle, a side and an
+angle, and an angle, a side
+
+241
+00:11:39,310 --> 00:11:42,000
+and an angle, and say, OK,
+that's enough for us to show
+
+242
+00:11:42,000 --> 00:11:45,440
+that these are congruent
+triangles.
+
+243
+00:11:45,440 --> 00:11:47,880
+So the answer is D.
+
+244
+00:11:47,880 --> 00:11:50,390
+Anyway, see you in
+the next video.
+
+245
+00:11:50,390 --> 00:11:51,000
+

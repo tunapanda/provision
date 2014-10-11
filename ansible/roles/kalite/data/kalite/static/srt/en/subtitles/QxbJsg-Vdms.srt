@@ -1,0 +1,243 @@
+1
+00:00:00,959 --> 00:00:13,009
+Obliczmy pochodnÄ po x z funkcji x do potÄgi n+1, dzielone przez n+1, plus pewna staÅa c.
+
+2
+00:00:13,009 --> 00:00:16,322
+I bÄdziemy tutaj zakÅadaÄ, poniewaÅ¼ chcemy, by to wyraÅ¼enie byÅo dobrze zdefiniowane,
+
+3
+00:00:16,322 --> 00:00:21,143
+bÄdziemy zakÅadaÄ, Å¼e n nie jest rÃ³wne -1.
+
+4
+00:00:21,143 --> 00:00:24,886
+Gdyby byÅo, dzielilibyÅmy przez 0 i musielibyÅmy zdefiniowaÄ co to oznacza.
+
+5
+00:00:24,886 --> 00:00:27,542
+Tak wiÄc policzmy tÄ pochodnÄ. To bÄdzie rÃ³wne...
+
+6
+00:00:27,542 --> 00:00:34,487
+Do pochodnej x do potÄgi n+1 dzielone przez n+1 moÅ¼emy zastosowaÄ "zasadÄ potÄgi".
+
+7
+00:00:34,487 --> 00:00:39,160
+Naszym wykÅadnikiem jest n+1, moÅ¼emy to przenieÅÄ na poczÄtek, wiÄc to bÄdzie
+
+8
+00:00:39,160 --> 00:00:50,326
+n+1 razy x do potÄgi... chcÄ uÅ¼yÄ tego samego koloru, kolory sÄ tutaj najtrudniejszÄ sprawÄ...
+
+9
+00:00:50,326 --> 00:00:55,459
+razy x do potÄgi, zamiast n+1, odejmujemy 1 od wykÅadnika, to jest wÅaÅnie ta "zasada potÄgi",
+
+10
+00:00:55,459 --> 00:01:03,843
+wiÄc n plus 1 minus 1 to bÄdzie n. Nie moÅ¼emy zapomnieÄ, Å¼e musimy podzieliÄ przez n+1, wiÄc podzielmy przez n+1.
+
+11
+00:01:03,843 --> 00:01:11,110
+I teraz mamy plus c. Pochodna ze staÅej po x... staÅa siÄ nie zmienia, gdy zmienia siÄ x,
+
+12
+00:01:11,110 --> 00:01:15,278
+wiÄc to bÄdzie po prostu 0, wiÄc piszemy plus 0.
+
+13
+00:01:15,278 --> 00:01:22,410
+I, poniewaÅ¼ n nie jest rÃ³wne -1, wiemy, Å¼e to bÄdzie zdefiniowane i to bÄdzie coÅ podzielone przez siebie,
+
+14
+00:01:22,410 --> 00:01:28,742
+czyli to bÄdzie 1, a to caÅe wyraÅ¼enie uproÅci siÄ do x do potÄgi n.
+
+15
+00:01:28,742 --> 00:01:33,426
+Czyli pochodna tego czegoÅ, co jest bardzo ogÃ³lnym wyraÅ¼eniem, jest rÃ³wna x do potÄgi n.
+
+16
+00:01:33,426 --> 00:01:45,395
+WiedzÄc juÅ¼ to, czym jest anty-pochodna... tylko zmieniÄ kolor... czym jest antypochodna x do potÄgi n?
+
+17
+00:01:45,395 --> 00:01:54,460
+I pamiÄtaj, to jest tylko dziwnie wyglÄdajÄcy zapis, ktÃ³rego uÅ¼ywamy, bÄdzie miaÅ on wiÄcej sensu, gdy przejdziemy do caÅek oznaczonych.
+
+18
+00:01:54,460 --> 00:01:57,759
+Ale czym jest antypochodna x do potÄgi n?
+
+19
+00:01:57,759 --> 00:02:00,611
+MoÅ¼emy powiedzieÄ "antypochodna po x", jeÅli chcemy.
+
+20
+00:02:00,611 --> 00:02:07,875
+InnÄ nazwÄ jest caÅka nieoznaczona. CaÅka... nieoznaczona...
+
+21
+00:02:07,875 --> 00:02:11,960
+Ale juÅ¼ wiemy, Å¼e x do potÄgi n jest pochodnÄ... czego?
+
+22
+00:02:11,960 --> 00:02:14,959
+WÅaÅnie siÄ tego dowiedzieliÅmy, to po prostu pochodna tego wyraÅ¼enia,
+
+23
+00:02:14,959 --> 00:02:16,576
+ktÃ³re napisaliÅmy w bardzo ogÃ³lny sposÃ³b.
+
+24
+00:02:16,576 --> 00:02:19,543
+My wÅaÅciwie uwzglÄdniamy tutaj wiele staÅych,
+
+25
+00:02:19,543 --> 00:02:24,743
+to moÅ¼e byÄ 0, 1, 2, pi, miliard...
+
+26
+00:02:24,743 --> 00:02:34,194
+WiÄc to bÄdzie rÃ³wne x do potÄgi n+1 dzielone przez n+1 plus c.
+
+27
+00:02:34,194 --> 00:02:40,975
+WiÄc jest to doÅÄ silna reguÅa, moÅ¼esz na to patrzyÄ jako na "odwrÃ³conÄ zasadÄ potÄgi".
+
+28
+00:02:40,975 --> 00:02:52,528
+Stosuje siÄ jÄ dla wszystkich n, jeÅli tylko n nie jest rÃ³wne -1, pokreÅlmy to: n nie jest rÃ³wne -1.
+
+29
+00:02:52,528 --> 00:02:56,560
+Jeszcze raz, gdyby n byÅo rÃ³wne -1, to wyraÅ¼enie byÅoby niezdefiniowane.
+
+30
+00:02:56,560 --> 00:03:03,727
+A teraz kilka przykÅadÃ³w zastosowania tej reguÅy, ktÃ³rÄ, jeÅli chcesz, moÅ¼esz nazwaÄ "odwrÃ³conÄ zasadÄ potÄgi" lub "antyzasadÄ potÄgi".
+
+31
+00:03:03,727 --> 00:03:10,910
+A teraz policzmy antypochodnÄ x po piÄtej potÄgi.
+
+32
+00:03:10,910 --> 00:03:13,445
+Czym jest antypochodna x do potÄgi 5?
+
+33
+00:03:13,445 --> 00:03:19,393
+Wszystko co trzeba powiedzieÄ to to, Å¼e spÃ³jrz - n jest rÃ³wne 5, musimy dodaÄ do wykÅadnika 1...
+
+34
+00:03:19,393 --> 00:03:30,112
+i to bÄdzie rÃ³wne x do potÄgi 5+1, a to dzielimy przez tÄ samÄ wartoÅÄ, jakikolwiek jest wykÅadnik zwiÄkszony o 1, dzielimy przez tÄ samÄ wartoÅÄ,
+
+35
+00:03:30,112 --> 00:03:37,978
+czyli dzielimy przez 5 plus 1 i oczywiÅcie chcemy uwzglÄdniÄ wszystkie moÅ¼liwe antypochodne, wiÄc dodajemy c na koÅcu.
+
+36
+00:03:37,978 --> 00:03:43,412
+Czyli to wszystko bÄdzie rÃ³wne x do potÄgi 6 podzieliÄ przez 6, plus c.
+
+37
+00:03:43,412 --> 00:03:46,363
+I moÅ¼na to sprawdziÄ. Policz pochodnÄ tego wyniku uÅ¼ywajÄc zasady potÄgi.
+
+38
+00:03:46,363 --> 00:03:49,976
+RzeczywiÅcie otrzymasz x do potÄgi 5.
+
+39
+00:03:49,976 --> 00:03:51,728
+WeÅºmy inny przykÅad.
+
+40
+00:03:51,728 --> 00:03:54,326
+Ten zapiszemy na niebiesko.
+
+41
+00:03:54,326 --> 00:04:04,674
+SprÃ³bujmy policzyÄ antypochodnÄ... czegoÅ interesujÄcego, niech to bÄdzie 5 razy x do potÄgi -2.
+
+42
+00:04:04,674 --> 00:04:08,810
+Jak to policzymy?
+
+43
+00:04:08,810 --> 00:04:14,143
+Jedno uproszczenie, ktÃ³re moÅ¼esz wykonaÄ, a ktÃ³rego pÃ³ki co nie udowodniÅem precyzyjnie,
+
+44
+00:04:14,143 --> 00:04:18,842
+ale juÅ¼ wiemy, Å¼e skalar moÅ¼na wyciÄgaÄ przed linowy operator pochodnej,
+
+45
+00:04:18,842 --> 00:04:25,626
+wiÄc to rzeczywiÅcie bÄdzie 5 razy antypochodna x do potÄgi -2
+
+46
+00:04:25,626 --> 00:04:30,711
+A teraz moÅ¼emy juÅ¼ uÅ¼yÄ tej, nazwijmy jÄ "antyzasadÄ potÄgi"
+
+47
+00:04:30,711 --> 00:04:35,494
+WiÄc to bÄdzie rÃ³wne 5 razy x do potÄgi -2+1
+
+48
+00:04:35,494 --> 00:04:46,745
+podzieliÄ przez -2+1, plus jakaÅ staÅa.
+
+49
+00:04:46,745 --> 00:04:58,162
+I moÅ¼emy to przepisaÄ jako 5 razy... x do potÄgi -2+1 to x do potÄgi -1, dzielone przez -2+1 czyli -1
+
+50
+00:04:58,162 --> 00:04:59,676
+plus jakaÅ staÅa.
+
+51
+00:04:59,676 --> 00:05:05,828
+I to jest rÃ³wne 5 razy minus x do potÄgi -1, plus jakaÅ staÅa.
+
+52
+00:05:05,828 --> 00:05:09,328
+A teraz jeÅli chcemy moÅ¼emy wÅÄczyÄ 5 do wyraÅ¼enia
+
+53
+00:05:09,328 --> 00:05:13,175
+WiÄc to bÄdzie rÃ³wne -5 razy x do potÄgi -1
+
+54
+00:05:13,175 --> 00:05:16,211
+i moglibyÅmy napisaÄ plus 5 razy jakaÅ staÅa,
+
+55
+00:05:16,211 --> 00:05:18,395
+ale to jest tylko jakaÅ arbitralna staÅa,
+
+56
+00:05:18,395 --> 00:05:21,460
+wiÄc pozostanie arbitralnÄ staÅÄ.
+
+57
+00:05:21,460 --> 00:05:27,561
+WiÄc moÅ¼emy to zapisaÄ jako inne staÅe, powiedzmy c1, c1, c1,
+
+58
+00:05:27,561 --> 00:05:31,812
+a kiedy pomnoÅ¼ymy c1 przez 5, otrzymujemy innÄ staÅÄ, moÅ¼emy jÄ nazwaÄ c,
+
+59
+00:05:31,812 --> 00:05:34,062
+rÃ³wnÄ 5 razy c1.
+
+60
+00:05:34,062 --> 00:05:39,258
+Czyli teraz mamy -5 razy do potÄgi -1 plus c.
+
+61
+00:05:39,258 --> 00:05:43,258
+A teraz sprÃ³buj policzyÄ pochodnÄ i zobaczysz, Å¼e otrzymasz wÅaÅnie to wyraÅ¼enie.

@@ -1,0 +1,431 @@
+1
+00:00:00,647 --> 00:00:02,634
+You have reached the first checkpoint
+
+2
+00:00:02,634 --> 00:00:04,826
+in the 'Journey to cryptography'-series.
+
+3
+00:00:04,826 --> 00:00:07,675
+And now I want to talk about what's next,
+
+4
+00:00:07,675 --> 00:00:09,510
+because I'm working on a new series.
+
+5
+00:00:09,510 --> 00:00:11,979
+However, this one won't end here.
+
+6
+00:00:11,979 --> 00:00:14,582
+If anything, we are kind of at the beginning still.
+
+7
+00:00:14,582 --> 00:00:17,718
+So I'm going to do 3 different checkpoint videos.
+
+8
+00:00:17,718 --> 00:00:20,254
+This one is on 'Advanced Lessons'.
+
+9
+00:00:20,254 --> 00:00:24,158
+However, I also want to eventually talk about Tests and Challenges,
+
+10
+00:00:24,158 --> 00:00:27,695
+and what we can do with more interactive explorations
+
+11
+00:00:27,695 --> 00:00:31,465
+and computer science lessons as it applies to cryptography.
+
+12
+00:00:31,465 --> 00:00:33,949
+But for now, let's talk about Advanced Lessons.
+
+13
+00:00:33,949 --> 00:00:37,194
+When I say 'Advanced', I don't necessarily mean 'harder lessons',
+
+14
+00:00:37,194 --> 00:00:39,340
+I mean 'more detailed'.
+
+15
+00:00:39,340 --> 00:00:41,519
+Let me give you a conceptual idea
+
+16
+00:00:41,519 --> 00:00:45,688
+for what I think this series could be and future series.
+
+17
+00:00:45,713 --> 00:00:48,816
+I like to think of each series as the trunk of a tree,
+
+18
+00:00:48,816 --> 00:00:51,252
+where I took you from prehistoric times
+
+19
+00:00:51,252 --> 00:00:53,887
+to around the 20th century, which is here,
+
+20
+00:00:53,887 --> 00:00:55,745
+with a few different threads.
+
+21
+00:00:55,745 --> 00:00:59,226
+And these ideas kind of branch apart.
+
+22
+00:00:59,226 --> 00:01:01,895
+Once you get to the 20th and 21st centuries,
+
+23
+00:01:01,895 --> 00:01:04,598
+they start getting highly specific.
+
+24
+00:01:04,598 --> 00:01:09,703
+And way down here on the leaves are current research questions,
+
+25
+00:01:09,703 --> 00:01:11,338
+which over here might be
+
+26
+00:01:11,338 --> 00:01:13,748
+problems related to prime number distribution
+
+27
+00:01:13,748 --> 00:01:18,267
+and over here some very specific work being done
+
+28
+00:01:18,267 --> 00:01:21,792
+on randomized algorithms or hash functions,
+
+29
+00:01:21,792 --> 00:01:27,187
+and way up here we might have new public key protocols
+
+30
+00:01:27,187 --> 00:01:29,523
+- because RSA was just the first -
+
+31
+00:01:29,523 --> 00:01:33,761
+or we also have encryption standards such as DES and AES.
+
+32
+00:01:33,761 --> 00:01:37,264
+We would have a whole new branch on quantum cryptography.
+
+33
+00:01:37,264 --> 00:01:40,163
+So as you can see, there are so many different things
+
+34
+00:01:40,163 --> 00:01:41,790
+that branch out of this series
+
+35
+00:01:41,790 --> 00:01:44,171
+and I couldn't possibly do justice to them all.
+
+36
+00:01:44,171 --> 00:01:46,940
+So I think of this video as living right here.
+
+37
+00:01:46,940 --> 00:01:49,777
+At kind of a junction point.
+
+38
+00:01:49,777 --> 00:01:52,613
+Now I can branch off with help of the community
+
+39
+00:01:52,613 --> 00:01:54,948
+and possibly other video creators
+
+40
+00:01:54,948 --> 00:01:58,485
+to fill out this tree gradually over time.
+
+41
+00:01:58,485 --> 00:02:01,288
+Specifically with the help of the community.
+
+42
+00:02:01,288 --> 00:02:04,491
+I am really excited about the Q&A community
+
+43
+00:02:04,491 --> 00:02:06,994
+and the work being done to improve
+
+44
+00:02:06,994 --> 00:02:09,930
+how people can help people on Khan Academy.
+
+45
+00:02:09,930 --> 00:02:11,590
+So, for example,
+
+46
+00:02:11,590 --> 00:02:15,032
+in terms of where one of these branches can go,
+
+47
+00:02:15,032 --> 00:02:17,671
+I've noticed clusters of questions
+
+48
+00:02:17,671 --> 00:02:20,441
+kind of leading into a common branch.
+
+49
+00:02:20,441 --> 00:02:23,130
+For example, under 'the pseudo-random number generator',
+
+50
+00:02:23,130 --> 00:02:26,288
+I have two questions here: one by Sonny and one by Drakain.
+
+51
+00:02:26,288 --> 00:02:27,490
+Drakain's question is:
+
+52
+00:02:27,490 --> 00:02:31,628
+"Why has he suggested that time in milliseconds...
+
+53
+00:02:31,628 --> 00:02:33,625
+...is a suitable random seed?...
+
+54
+00:02:33,625 --> 00:02:35,689
+This is a huge no-no in security. ...
+
+55
+00:02:35,689 --> 00:02:38,025
+The time it is on your machine...
+
+56
+00:02:38,025 --> 00:02:40,094
+...is the time it is on my machine,...
+
+57
+00:02:40,094 --> 00:02:42,031
+...give or take 100 milliseconds...
+
+58
+00:02:42,031 --> 00:02:44,028
+(which can be brute-force attacked)"
+
+59
+00:02:44,028 --> 00:02:46,233
+And again, this is a great question too
+
+60
+00:02:46,233 --> 00:02:48,502
+because it speaks to the need that
+
+61
+00:02:48,502 --> 00:02:53,140
+I didn't present a cryptographically secure pseudo-random generator.
+
+62
+00:02:53,140 --> 00:02:56,243
+So the middle square's method is back here
+
+63
+00:02:56,243 --> 00:02:59,847
+in early 20th century, but up until today,
+
+64
+00:02:59,847 --> 00:03:02,683
+we are not using the middle square's method
+
+65
+00:03:02,683 --> 00:03:05,753
+and that's a whole interesting branch.
+
+66
+00:03:05,753 --> 00:03:08,922
+It is these sorts of questions which cluster together
+
+67
+00:03:08,922 --> 00:03:12,025
+and really drive new content.
+
+68
+00:03:12,025 --> 00:03:14,595
+I want to show you a really interesting example
+
+69
+00:03:14,595 --> 00:03:16,730
+of how this has happened already.
+
+70
+00:03:16,730 --> 00:03:20,534
+This is a question Samuel asked on the 'One time pad'-video
+
+71
+00:03:20,534 --> 00:03:24,738
+he said: "wouldn't a computer be able to test all the possibilities very fast?"
+
+72
+00:03:24,738 --> 00:03:28,041
+and Chuck Patrol basically asked the same question.
+
+73
+00:03:28,041 --> 00:03:30,077
+I see this happening a lot.
+
+74
+00:03:30,077 --> 00:03:33,647
+Similar questions all speak to the need of a new video.
+
+75
+00:03:33,647 --> 00:03:37,418
+So I went and created a video on 'perfect secrecy'
+
+76
+00:03:37,418 --> 00:03:39,420
+which really nails down
+
+77
+00:03:39,420 --> 00:03:43,671
+how you can't beat randomness in the world of encryption.
+
+78
+00:03:43,671 --> 00:03:48,429
+Out of this video, Dawn made a really great comment.
+
+79
+00:03:48,429 --> 00:03:52,332
+What they did, was basically summarise my video in two sentences.
+
+80
+00:03:52,332 --> 00:03:55,002
+So, this is what I want to try to do more of
+
+81
+00:03:55,002 --> 00:03:56,603
+in filling out these branches:
+
+82
+00:03:56,603 --> 00:03:58,806
+take questions, make new content,
+
+83
+00:03:58,806 --> 00:04:03,177
+and have this feed-back loop and see what we can do.
+
+84
+00:04:03,177 --> 00:04:05,212
+Now what I would really love,
+
+85
+00:04:05,212 --> 00:04:08,130
+is for you to ask questions below this video
+
+86
+00:04:08,130 --> 00:04:12,124
+which arise after watching the entire series.
+
+87
+00:04:12,124 --> 00:04:14,688
+Not specific details about certain video's,
+
+88
+00:04:14,688 --> 00:04:16,523
+- those can go with the videos -
+
+89
+00:04:16,523 --> 00:04:19,893
+but new questions, which are opening new can of worms.
+
+90
+00:04:19,893 --> 00:04:22,296
+And what I think will be fun to do, is:
+
+91
+00:04:22,296 --> 00:04:26,099
+Your question will lead to answers,
+
+92
+00:04:26,099 --> 00:04:30,370
+by both me and the rest of the community,
+
+93
+00:04:30,370 --> 00:04:32,673
+so we'll have multiple answers.
+
+94
+00:04:32,673 --> 00:04:35,876
+And what I can do is take this body of answers,
+
+95
+00:04:35,876 --> 00:04:40,180
+and out of this draft up a rough script
+
+96
+00:04:40,180 --> 00:04:43,951
+for more advanced videos on specific topics
+
+97
+00:04:43,951 --> 00:04:47,020
+that sub-sets of the community care about
+
+98
+00:04:47,020 --> 00:04:49,723
+So hopefully, out of the discussion below,
+
+99
+00:04:49,723 --> 00:04:53,093
+over time we can grow a bunch of new videos!
+
+100
+00:04:53,093 --> 00:04:56,530
+I want to be clear: this is an ongoing process.
+
+101
+00:04:56,530 --> 00:04:59,099
+This will not happen tomorrow or next week.
+
+102
+00:04:59,099 --> 00:05:02,047
+I hope it can happen months, even years from now.
+
+103
+00:05:02,047 --> 00:05:05,506
+We can still be building out new videos after the series
+
+104
+00:05:05,506 --> 00:05:08,742
+and these videos can be a collaborative effort
+
+105
+00:05:08,742 --> 00:05:10,844
+between myself and the community
+
+106
+00:05:10,844 --> 00:05:13,889
+and perhaps other video creators down the road.
+
+107
+00:05:13,889 --> 00:05:15,780
+So, let me know what you think below,
+
+108
+00:05:15,787 --> 00:05:16,918
+and let's get started!

@@ -1,0 +1,295 @@
+1
+00:00:00,400 --> 00:00:07,733
+Lets explore a bit how the price of an option can vary or how it can relate to the actual expiration date.
+
+2
+00:00:07,733 --> 00:00:10,983
+So what I’m going to do is compare two similar options
+
+3
+00:00:10,983 --> 00:00:13,667
+with the underlying stock being General Electric
+
+4
+00:00:13,667 --> 00:00:16,184
+and they are going to be the same in every way
+
+5
+00:00:16,184 --> 00:00:19,133
+except one is going to have a further out expiration date.
+
+6
+00:00:19,133 --> 00:00:20,643
+So lets compare
+
+7
+00:00:20,643 --> 00:00:22,800
+lets compare this call option right here
+
+8
+00:00:22,800 --> 00:00:25,533
+so this is a call option on GE
+
+9
+00:00:25,533 --> 00:00:28,677
+with a $17.00 strike price
+
+10
+00:00:28,677 --> 00:00:31,800
+so it’s the option to buy GE stock at $17.00
+
+11
+00:00:31,800 --> 00:00:34,867
+and it has an April 2011 expiration
+
+12
+00:00:34,867 --> 00:00:36,333
+so its going to expire
+
+13
+00:00:36,333 --> 00:00:38,867
+or the last day of trading that you could trade this option
+
+14
+00:00:38,867 --> 00:00:41,200
+would be the third Friday in April.
+
+15
+00:00:41,200 --> 00:00:43,584
+Lets compare that with the same
+
+16
+00:00:43,584 --> 00:00:45,933
+an option that has the same strike price
+
+17
+00:00:45,933 --> 00:00:49,853
+but has a December 2011 expiration
+
+18
+00:00:49,853 --> 00:00:52,640
+so we are going to look for a $17.00 strike price
+
+19
+00:00:52,640 --> 00:00:54,265
+right over here
+
+20
+00:00:54,265 --> 00:00:56,819
+and you can see right when you compare the options
+
+21
+00:00:56,819 --> 00:01:01,333
+that the one that has a further out expiration costs more.
+
+22
+00:01:01,333 --> 00:01:07,872
+This one costs $3.25 while this one only cost $2.36.
+
+23
+00:01:07,872 --> 00:01:10,844
+And the reason why it costs more is because you have
+
+24
+00:01:10,844 --> 00:01:14,838
+you get to retain the option for longer
+
+25
+00:01:14,838 --> 00:01:17,267
+so you can imagine $17.00
+
+26
+00:01:17,267 --> 00:01:19,482
+lets say that $ 17.00 is right over here
+
+27
+00:01:19,482 --> 00:01:22,333
+let me draw a hypothetical stock chart
+
+28
+00:01:22,333 --> 00:01:26,169
+so lets say that $17.00 is right over here.
+
+29
+00:01:26,169 --> 00:01:27,655
+And so you can imagine
+
+30
+00:01:27,655 --> 00:01:30,067
+lets say that you have both of those options
+
+31
+00:01:30,067 --> 00:01:32,671
+or you have the option to have either one of the options.
+
+32
+00:01:32,671 --> 00:01:34,993
+And lets say that the stock does something
+
+33
+00:01:34,993 --> 00:01:37,919
+lets say that the stock does something like that.
+
+34
+00:01:37,919 --> 00:01:40,380
+Well, its going to be in the money, you have the right
+
+35
+00:01:40,380 --> 00:01:42,563
+if you owned either one of those options
+
+36
+00:01:42,563 --> 00:01:44,606
+if you owned either one of those options
+
+37
+00:01:44,606 --> 00:01:49,621
+you have the option to buy the stocks at $17.00 and sell it at whatever price this is.
+
+38
+00:01:49,621 --> 00:01:54,173
+Maybe this price over here is like 20 something dollars so you would make money.
+
+39
+00:01:54,173 --> 00:01:55,984
+But if you have the option
+
+40
+00:01:55,984 --> 00:01:57,238
+with a closer
+
+41
+00:01:57,238 --> 00:01:58,677
+with a closer expiration
+
+42
+00:01:58,677 --> 00:02:00,733
+with the April 2011 expiration
+
+43
+00:02:00,733 --> 00:02:03,333
+you have to exercise the option right now
+
+44
+00:02:03,333 --> 00:02:07,176
+you would have to exercise it right now and close out the option.
+
+45
+00:02:07,176 --> 00:02:09,916
+If you had the longer dated option you could do it
+
+46
+00:02:09,916 --> 00:02:14,867
+you could do the exact same thing with the owner of an April 2011 option has
+
+47
+00:02:14,867 --> 00:02:19,600
+or you can hold the option and maybe see if the stock continues to go up
+
+48
+00:02:19,600 --> 00:02:21,990
+or you could imagine a downside scenario.
+
+49
+00:02:21,990 --> 00:02:23,569
+Someone who has
+
+50
+00:02:23,569 --> 00:02:25,519
+maybe the stock does something like this
+
+51
+00:02:25,519 --> 00:02:27,238
+where it goes out of the money.
+
+52
+00:02:27,238 --> 00:02:29,667
+Someone who holds the closer dated option
+
+53
+00:02:29,667 --> 00:02:31,603
+the one that expires first
+
+54
+00:02:31,603 --> 00:02:33,507
+they’ll be completely out of the money
+
+55
+00:02:33,507 --> 00:02:35,600
+the option would be worthless on this stage.
+
+56
+00:02:35,600 --> 00:02:39,637
+But if you have the option if you have the longer expiration date
+
+57
+00:02:39,637 --> 00:02:42,667
+if your option does not expire until December 2011
+
+58
+00:02:42,667 --> 00:02:45,071
+then you could hold it and maybe
+
+59
+00:02:45,071 --> 00:02:45,767
+maybe
+
+60
+00:02:45,767 --> 00:02:47,021
+the stock would do something nice
+
+61
+00:02:47,021 --> 00:02:50,272
+there is some probability that it would one day become in the money.
+
+62
+00:02:50,272 --> 00:02:51,933
+And I want to make it clear
+
+63
+00:02:51,933 --> 00:02:55,009
+even if you have this situation here
+
+64
+00:02:55,009 --> 00:02:57,656
+and you hold the longer dated option
+
+65
+00:02:57,656 --> 00:03:01,325
+you have the option that’s going to expire in December
+
+66
+00:03:01,325 --> 00:03:03,507
+you still would not want to exercise it
+
+67
+00:03:03,507 --> 00:03:07,269
+because there is someone who would still enjoy all of this
+
+68
+00:03:07,269 --> 00:03:09,266
+optionality of the futures.
+
+69
+00:03:09,266 --> 00:03:10,334
+So what you are better off doing
+
+70
+00:03:10,334 --> 00:03:12,331
+instead of exercising the option
+
+71
+00:03:12,331 --> 00:03:15,442
+you are better off selling the longer dated option right over there
+
+72
+00:03:15,442 --> 00:03:18,507
+and you should be able to capture at least as much profit
+
+73
+00:03:18,507 --> 00:03:20,504
+as you would from exercising the option
+
+74
+00:03:20,504 --> 99:59:59,999
+plus capturing whatever value the buyer sees in the future optionality.

@@ -1,0 +1,1000 @@
+1
+00:00:00,550 --> 00:00:03,030
+In this video, I'm going to
+attempt to give you an
+
+2
+00:00:03,030 --> 00:00:07,000
+intuition behind why
+multiplying binomials involve
+
+3
+00:00:07,000 --> 00:00:07,670
+combinatorics
+
+4
+00:00:07,670 --> 00:00:09,950
+Why we actually have the
+binomial coefficients
+
+5
+00:00:09,950 --> 00:00:12,240
+in there at all.
+
+6
+00:00:12,240 --> 00:00:14,060
+And I'm going to do
+multiple colors.
+
+7
+00:00:14,060 --> 00:00:18,100
+The colors will actually be
+non-arbitrary this time.
+
+8
+00:00:18,100 --> 00:00:19,180
+Just to give you an intuition.
+
+9
+00:00:19,180 --> 00:00:22,200
+So let's multiply a plus
+b to the third power.
+
+10
+00:00:22,200 --> 00:00:30,280
+Well, a plus b to the third
+power, that's a plus b times--
+
+11
+00:00:30,280 --> 00:00:31,540
+and I'm going to keep
+switching colors.
+
+12
+00:00:31,540 --> 00:00:33,450
+You're going to have to bear
+with me, but it should
+
+13
+00:00:33,450 --> 00:00:40,260
+hopefully be fruitful.-- Times
+a plus b, times-- let me pick
+
+14
+00:00:40,260 --> 00:00:44,960
+an appropriately different
+color, maybe a blue--
+
+15
+00:00:44,960 --> 00:00:50,330
+times a plus b.
+
+16
+00:00:50,330 --> 00:00:51,820
+And let's do this as a
+distributive property.
+
+17
+00:00:51,820 --> 00:01:03,490
+This equals a times-- go
+back in green-- a plus b.
+
+18
+00:01:03,490 --> 00:01:04,370
+With a different green.
+
+19
+00:01:04,370 --> 00:01:08,010
+Want to make sure I use the
+right green, just because the
+
+20
+00:01:08,010 --> 00:01:09,520
+colors matter this time.
+
+21
+00:01:09,520 --> 00:01:16,000
+a plus b-- this is tedious,
+but it's worth it--
+
+22
+00:01:16,000 --> 00:01:24,560
+plus b times a plus b.
+
+23
+00:01:24,560 --> 00:01:34,890
+And then all of that
+times a plus b again.
+
+24
+00:01:34,890 --> 00:01:38,450
+And let's multiply
+this inside part.
+
+25
+00:01:38,450 --> 00:01:39,910
+I'm just going to keep
+it and multiply it out.
+
+26
+00:01:39,910 --> 00:01:49,690
+So it's going to be a times
+green a-- we know they're all
+
+27
+00:01:49,690 --> 00:01:56,610
+the same a-- plus-- I should do
+the pluses in a neutral color,
+
+28
+00:01:56,610 --> 00:02:02,050
+but it's OK-- plus a times--
+you might be finding this
+
+29
+00:02:02,050 --> 00:02:07,300
+tedious, but it's going to pay
+off in the end-- a times b.
+
+30
+00:02:07,300 --> 00:02:25,400
+Then we have plus b times a,
+plus yellow b times green b.
+
+31
+00:02:25,400 --> 00:02:27,200
+And then all of that--
+we're almost there.
+
+32
+00:02:27,200 --> 00:02:28,680
+We're almost there.
+
+33
+00:02:28,680 --> 00:02:33,580
+All of that times a plus b.
+
+34
+00:02:33,580 --> 00:02:35,820
+And it's essentially,
+we're going to multiply
+
+35
+00:02:35,820 --> 00:02:37,320
+a times everything.
+
+36
+00:02:37,320 --> 00:02:41,220
+This blue a times all of
+this, and plus this blue
+
+37
+00:02:41,220 --> 00:02:42,080
+b times all of this.
+
+38
+00:02:42,080 --> 00:02:44,120
+So let's multiply the blue
+a times all of this.
+
+39
+00:02:44,120 --> 00:02:46,195
+So the first term will
+be yellow a, green
+
+40
+00:02:46,195 --> 00:02:48,540
+a, and then blue a.
+
+41
+00:02:48,540 --> 00:03:00,450
+So it'll be a, a, a.
+
+42
+00:03:00,450 --> 00:03:03,580
+Oh it's a different blue, but
+I think you get the point.
+
+43
+00:03:03,580 --> 00:03:07,650
+Plus this times blue a.
+
+44
+00:03:07,650 --> 00:03:25,260
+So yellow a, green b, and then
+blue a, plus yellow b, green
+
+45
+00:03:25,260 --> 00:03:31,640
+a, blue a-- hopefully I'm
+not confusing you-- baa.
+
+46
+00:03:31,640 --> 00:03:32,980
+b, a, a.
+
+47
+00:03:32,980 --> 00:03:34,170
+We're almost there.
+
+48
+00:03:34,170 --> 00:03:45,510
+Plus yellow b times
+green b times blue a.
+
+49
+00:03:45,510 --> 00:03:47,880
+So we did all the
+blue a's, finally.
+
+50
+00:03:47,880 --> 00:03:48,980
+There's a blue a.
+
+51
+00:03:52,040 --> 00:03:54,210
+Plus--.
+
+52
+00:03:54,210 --> 00:03:57,750
+Now we're going to do the
+blue b times everything.
+
+53
+00:03:57,750 --> 00:04:03,810
+So it's yellow a times green a.
+
+54
+00:04:03,810 --> 00:04:04,030
+Right?
+
+55
+00:04:04,030 --> 00:04:10,290
+Yellow a, green a, then blue b,
+times green a, times blue b--
+
+56
+00:04:10,290 --> 00:04:14,090
+almost there, I know this is
+tedious-- times blue
+
+57
+00:04:14,090 --> 00:04:16,990
+b, plus yellow a.
+
+58
+00:04:16,990 --> 00:04:19,170
+Intuition doesn't
+come easy, though.
+
+59
+00:04:19,170 --> 00:04:21,710
+Yellow a-- so we're on
+this term-- yellow
+
+60
+00:04:21,710 --> 00:04:22,930
+a, green b, blue b.
+
+61
+00:04:22,930 --> 00:04:27,110
+So green b times blue b.
+
+62
+00:04:30,760 --> 00:04:33,810
+Now we're at yellow b-- the
+good thing about the colors
+
+63
+00:04:33,810 --> 00:04:35,630
+is it's easy to keep
+track of where we are.
+
+64
+00:04:35,630 --> 00:04:46,980
+Plus yellow b times
+green a times blue b.
+
+65
+00:04:46,980 --> 00:04:49,090
+And then we're at the last one.
+
+66
+00:04:49,090 --> 00:05:01,830
+Plus yellow b, green
+b, times blue b.
+
+67
+00:05:01,830 --> 00:05:04,070
+So this is the expansion
+of a plus b to the
+
+68
+00:05:04,070 --> 00:05:04,890
+third power, right?
+
+69
+00:05:04,890 --> 00:05:07,190
+We haven't simplified
+it at all, and I did
+
+70
+00:05:07,190 --> 00:05:07,870
+that for a reason.
+
+71
+00:05:07,870 --> 00:05:12,520
+Because you see that every term
+here-- what's happening here?
+
+72
+00:05:12,520 --> 00:05:17,200
+Every term has exactly
+one-- it's 3 numbers
+
+73
+00:05:17,200 --> 00:05:18,600
+being multiplied, right?
+
+74
+00:05:18,600 --> 00:05:21,210
+Every term is 3 numbers
+being multiplied.
+
+75
+00:05:21,210 --> 00:05:25,110
+And it's one of, you know, the
+yellow number comes from the
+
+76
+00:05:25,110 --> 00:05:27,770
+first-- from this
+yellow a plus b.
+
+77
+00:05:27,770 --> 00:05:30,810
+The green number-- the
+middle number-- comes from
+
+78
+00:05:30,810 --> 00:05:32,330
+this middle a plus b.
+
+79
+00:05:32,330 --> 00:05:35,210
+And then the blue number comes
+from this right hand a plus b.
+
+80
+00:05:35,210 --> 00:05:37,080
+And you saw me, I went all
+the way through it, right?
+
+81
+00:05:37,080 --> 00:05:39,340
+So hopefully you
+believe this point.
+
+82
+00:05:39,340 --> 00:05:40,990
+So let's think about it a
+couple of different ways.
+
+83
+00:05:44,800 --> 00:05:48,550
+To generate each of these terms
+in the expansion of a plus b to
+
+84
+00:05:48,550 --> 00:05:54,360
+the third, we're picking either
+a or b from-- from the yellow a
+
+85
+00:05:54,360 --> 00:05:55,880
+plus b, we're picking
+either a or b.
+
+86
+00:05:55,880 --> 00:05:56,060
+Right?
+
+87
+00:05:56,060 --> 00:05:57,630
+We picked an a here,
+we picked an a here.
+
+88
+00:05:57,630 --> 00:06:00,920
+We picked a b here, a b here,
+an a here, an a here, a b--.
+
+89
+00:06:00,920 --> 00:06:03,140
+And the group from the green
+a plus b, we're picking
+
+90
+00:06:03,140 --> 00:06:04,580
+either an a or a b.
+
+91
+00:06:04,580 --> 00:06:07,760
+And then from the blue a
+plus b, we're picking
+
+92
+00:06:07,760 --> 00:06:09,090
+either an a or a b.
+
+93
+00:06:09,090 --> 00:06:09,890
+Right?
+
+94
+00:06:09,890 --> 00:06:13,450
+So essentially the expansion,
+if you think about it, this
+
+95
+00:06:13,450 --> 00:06:22,950
+expansion-- we've essentially
+done every way of choosing
+
+96
+00:06:22,950 --> 00:06:26,100
+3 different things.
+
+97
+00:06:26,100 --> 00:06:28,910
+Every way of picking either
+an a or a b, from these
+
+98
+00:06:28,910 --> 00:06:30,130
+3 different terms.
+
+99
+00:06:30,130 --> 00:06:32,700
+And that ends up with
+these-- what is this?
+
+100
+00:06:32,700 --> 00:06:37,140
+1, 2, 3, 4, 5, 6, 7, 8 terms.
+
+101
+00:06:37,140 --> 00:06:38,640
+Right?
+
+102
+00:06:38,640 --> 00:06:40,990
+Now let's make it a little
+bit-- let's give you a
+
+103
+00:06:40,990 --> 00:06:42,150
+little bit more intuition
+of what's going on.
+
+104
+00:06:42,150 --> 00:06:46,640
+And I think if you're starting
+to realize why this is dealing
+
+105
+00:06:46,640 --> 00:06:49,730
+with permutations and
+combinations, in particular.
+
+106
+00:06:49,730 --> 00:06:51,410
+Once we simplify
+it, what happens?
+
+107
+00:06:51,410 --> 00:06:52,990
+This is a to the cubed, right?
+
+108
+00:06:52,990 --> 00:06:55,130
+That's the only a cubed term.
+
+109
+00:06:55,130 --> 00:06:56,310
+This is a squared b.
+
+110
+00:06:56,310 --> 00:06:58,920
+What are the other
+a squared b terms?
+
+111
+00:06:58,920 --> 00:07:00,440
+Let's see, a squared b.
+
+112
+00:07:00,440 --> 00:07:01,760
+This is also a squared b.
+
+113
+00:07:01,760 --> 00:07:03,860
+So let me write down
+all the a squared.
+
+114
+00:07:03,860 --> 00:07:05,800
+So let's see-- let's
+see how many a squared
+
+115
+00:07:05,800 --> 00:07:07,210
+b terms there are.
+
+116
+00:07:07,210 --> 00:07:08,670
+I'll do it in a neutral color.
+
+117
+00:07:08,670 --> 00:07:13,000
+So this is a squared b.
+
+118
+00:07:13,000 --> 00:07:17,360
+This is ba squared, but
+that's also a squared b.
+
+119
+00:07:17,360 --> 00:07:18,490
+What's another a squared b?
+
+120
+00:07:18,490 --> 00:07:21,810
+This is also a squared b,
+right? a times a times b.
+
+121
+00:07:21,810 --> 00:07:24,460
+So there was 3 ways
+to get a squared b.
+
+122
+00:07:24,460 --> 00:07:27,800
+And that's why when we
+eventually write the expansion,
+
+123
+00:07:27,800 --> 00:07:30,230
+it's going to-- we know that
+the coefficient in front of it
+
+124
+00:07:30,230 --> 00:07:33,840
+is 3a squared b, right?
+
+125
+00:07:33,840 --> 00:07:35,880
+The coefficient on the a
+squared b term, when we
+
+126
+00:07:35,880 --> 00:07:36,620
+actually multiply it out.
+
+127
+00:07:36,620 --> 00:07:39,870
+And we've done that several
+times already, when we did the
+
+128
+00:07:39,870 --> 00:07:43,360
+binomial theorem, which we
+took to the third power.
+
+129
+00:07:43,360 --> 00:07:46,740
+So where did this 3 come from,
+and why is that the same thing
+
+130
+00:07:46,740 --> 00:07:50,070
+as when we learned the
+definition of the
+
+131
+00:07:50,070 --> 00:07:50,730
+binomial theorem?
+
+132
+00:07:50,730 --> 00:07:53,770
+Why is, you know, does it just
+happen to be the case that
+
+133
+00:07:53,770 --> 00:08:01,360
+that's the same thing as 3
+choose 2 times a squared b?
+
+134
+00:08:01,360 --> 00:08:01,880
+Well, no.
+
+135
+00:08:01,880 --> 00:08:03,250
+Think of it this way.
+
+136
+00:08:03,250 --> 00:08:06,090
+We already know that every
+term here, every term in the
+
+137
+00:08:06,090 --> 00:08:09,880
+expansion, we're essentially
+picking either an a or a b
+
+138
+00:08:09,880 --> 00:08:10,970
+from each of these, right?
+
+139
+00:08:10,970 --> 00:08:13,500
+We have to pick one term
+from each of these.
+
+140
+00:08:13,500 --> 00:08:16,720
+So the way you could think of
+it, for a squared b-- to get a
+
+141
+00:08:16,720 --> 00:08:20,410
+squared b-- we have to
+essentially say, well,
+
+142
+00:08:20,410 --> 00:08:22,040
+how many combinations?
+
+143
+00:08:22,040 --> 00:08:22,990
+And that's the key word.
+
+144
+00:08:22,990 --> 00:08:26,440
+How many combinations are
+there, where out of these
+
+145
+00:08:26,440 --> 00:08:31,910
+3 a plus b terms, I'm
+choosing the a term?
+
+146
+00:08:31,910 --> 00:08:33,920
+I'm choosing 2 a terms.
+
+147
+00:08:33,920 --> 00:08:38,590
+Because to get a squared, I
+have to pick an a term twice.
+
+148
+00:08:38,590 --> 00:08:41,940
+And so that's where I have
+to pick 2 a terms out of
+
+149
+00:08:41,940 --> 00:08:43,970
+the three times I pick.
+
+150
+00:08:43,970 --> 00:08:45,630
+So I'm picking three times.
+
+151
+00:08:45,630 --> 00:08:47,650
+Two of the times, I'm
+picking an a term.
+
+152
+00:08:47,650 --> 00:08:51,050
+So out of three times,
+I'm choosing 2.
+
+153
+00:08:51,050 --> 00:08:53,560
+And that's where 3 choose
+2 comes from, for the
+
+154
+00:08:53,560 --> 00:08:55,880
+a squared b term.
+
+155
+00:08:55,880 --> 00:09:00,950
+And so you could, for the ab
+squared term, you could say,
+
+156
+00:09:00,950 --> 00:09:03,100
+well, I'm picking an a once.
+
+157
+00:09:03,100 --> 00:09:06,780
+How many ways are there to
+choose a once when I'm
+
+158
+00:09:06,780 --> 00:09:08,120
+taking from 3 things?
+
+159
+00:09:08,120 --> 00:09:12,130
+So it could be 3 choose 1.
+
+160
+00:09:12,130 --> 00:09:16,200
+But that's also the same thing,
+or should be equal to-- you
+
+161
+00:09:16,200 --> 00:09:18,360
+could also say, well, I'm
+picking-- how many ways are
+
+162
+00:09:18,360 --> 00:09:20,770
+there to pick b twice if
+I'm picking three times?
+
+163
+00:09:20,770 --> 00:09:24,870
+Well, if it's a b squared,
+I'm picking b twice.
+
+164
+00:09:24,870 --> 00:09:29,110
+So that should be equal to
+3 choose 2 ab squared.
+
+165
+00:09:29,110 --> 00:09:31,960
+And if you work these out, you
+will find that, yes, these
+
+166
+00:09:31,960 --> 00:09:33,790
+both turn out to be 3.
+
+167
+00:09:33,790 --> 00:09:37,480
+And actually, that's why
+there's some symmetry there,
+
+168
+00:09:37,480 --> 00:09:39,330
+and the combinations
+all work out.
+
+169
+00:09:39,330 --> 00:09:40,810
+But hopefully, that's
+giving you an intuition.
+
+170
+00:09:40,810 --> 00:09:44,340
+Essentially, when you're
+doing the-- so the binomial
+
+171
+00:09:44,340 --> 00:09:45,280
+expansion of this--.
+
+172
+00:09:45,280 --> 00:09:48,870
+Let me just rewrite it again.
+
+173
+00:09:48,870 --> 00:09:50,260
+You know, this is a
+plus b to the third.
+
+174
+00:09:50,260 --> 00:09:59,150
+It's 3 choose 0 of a cubed b to
+the zero, plus 3 choose 1 of
+
+175
+00:09:59,150 --> 00:10:03,530
+a squared b to the
+one, we could say.
+
+176
+00:10:03,530 --> 00:10:14,860
+Plus 3 choose 2 of ab squared,
+plus 3 choose 3 of a
+
+177
+00:10:14,860 --> 00:10:17,420
+to the zero, b cubed.
+
+178
+00:10:17,420 --> 00:10:18,350
+So what's this saying?
+
+179
+00:10:18,350 --> 00:10:20,710
+What's 3 choose 3 saying?
+
+180
+00:10:20,710 --> 00:10:26,180
+How many ways-- if I'm choosing
+from 3 different things-- how
+
+181
+00:10:26,180 --> 00:10:29,670
+many ways can I pick
+exactly 3 b's?
+
+182
+00:10:29,670 --> 00:10:30,490
+That's how you can view it.
+
+183
+00:10:30,490 --> 00:10:32,200
+How many ways can I pick 3 b's?
+
+184
+00:10:32,200 --> 00:10:33,750
+I'm either picking
+an a or a b, right?
+
+185
+00:10:33,750 --> 00:10:35,660
+You could say it's either a
+heads or tails, or you know,
+
+186
+00:10:35,660 --> 00:10:38,570
+red or black or white,
+but it's either a or b.
+
+187
+00:10:38,570 --> 00:10:42,800
+How many ways can I choose b
+three times from 3 things?
+
+188
+00:10:42,800 --> 00:10:44,990
+Well, when you evaluate this,
+you get this to b one,
+
+189
+00:10:44,990 --> 00:10:45,830
+and that makes sense.
+
+190
+00:10:45,830 --> 00:10:47,710
+Because it's 1b cubed.
+
+191
+00:10:47,710 --> 00:10:52,090
+And similarly, I mean, you
+could view this as how many
+
+192
+00:10:52,090 --> 00:10:56,260
+ways, when I'm picking
+out of 3 things, can
+
+193
+00:10:56,260 --> 00:10:58,760
+I pick exactly 0 b's?
+
+194
+00:10:58,760 --> 00:10:59,670
+That's 3 choose [? b. ?]
+
+195
+00:10:59,670 --> 00:11:02,110
+How many ways can I
+pick exactly 0 b's?
+
+196
+00:11:02,110 --> 00:11:03,780
+Well, that's the same thing
+as how many ways can
+
+197
+00:11:03,780 --> 00:11:05,760
+I pick exactly 3 a's?
+
+198
+00:11:05,760 --> 00:11:06,480
+This is also 1.
+
+199
+00:11:06,480 --> 00:11:08,420
+There's only 1 way to do it.
+
+200
+00:11:08,420 --> 00:11:09,520
+And that's the way.
+
+201
+00:11:09,520 --> 00:11:11,710
+Once again, there's only
+1 way to do this one,
+
+202
+00:11:11,710 --> 00:11:13,380
+and this was the way.
+
+203
+00:11:13,380 --> 00:11:16,220
+There's 3 ways to
+get a squared b.
+
+204
+00:11:16,220 --> 00:11:19,980
+There's 3 combinations.
+
+205
+00:11:19,980 --> 00:11:24,260
+There's 3 possible-- actually,
+well, unique permutations.
+
+206
+00:11:24,260 --> 00:11:26,610
+But they're all the
+same combination.
+
+207
+00:11:26,610 --> 00:11:30,340
+So there's 3 identical
+combinations for picking 2 a's
+
+208
+00:11:30,340 --> 00:11:35,490
+and a b, and those are this
+one, this one, and this one.
+
+209
+00:11:35,490 --> 00:11:37,440
+So hopefully, I
+didn't confuse you.
+
+210
+00:11:37,440 --> 00:11:41,830
+And hopefully at minimum, that
+gives you a glancing intuition
+
+211
+00:11:41,830 --> 00:11:45,040
+of why combinations are even
+involved in the binomial
+
+212
+00:11:45,040 --> 00:11:47,180
+theorem, or whether they're
+even involved when you're
+
+213
+00:11:47,180 --> 00:11:49,400
+expanding a binomial
+to some power.
+
+214
+00:11:49,400 --> 00:11:53,020
+And at best, I really hope that
+I've given you a deep intuition
+
+215
+00:11:53,020 --> 00:11:54,430
+for why this happens.
+
+216
+00:11:54,430 --> 00:11:57,770
+I will see you in
+the next video.

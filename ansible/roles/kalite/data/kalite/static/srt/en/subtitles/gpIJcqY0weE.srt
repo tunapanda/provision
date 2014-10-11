@@ -1,0 +1,615 @@
+1
+00:00:00,060 --> 00:00:07,470
+Problem 51. Actually,let me scroll all the way up,problem 51.
+
+2
+00:00:07,470 --> 00:00:09,680
+They drew a little triangle here,which I assume I need,
+
+3
+00:00:09,680 --> 00:00:10,970
+so I'll draw it as well.
+
+4
+00:00:10,970 --> 00:00:17,150
+That side is flat and that side goes down like that,
+
+5
+00:00:17,950 --> 00:00:19,940
+and then they draw some angles.
+
+6
+00:00:20,790 --> 00:00:27,320
+This is being angle x,this is angle y,this is angle z.
+
+7
+00:00:27,320 --> 00:00:31,200
+And they say,what is the value of z in the triangle above?
+
+8
+00:00:31,200 --> 00:00:41,520
+Fair enough.Statement number one is x plus y is equal to 139.
+
+9
+00:00:42,490 --> 00:00:43,930
+Well,as soon as you see a triangle and you have to
+
+10
+00:00:43,930 --> 00:00:45,450
+figure out one side,you should always remember that
+
+11
+00:00:45,450 --> 00:00:48,670
+the sum of the angles of a triangle add up to 180.
+
+12
+00:00:48,670 --> 00:00:54,020
+So we know that x plus y plus z is equal to 180.
+
+13
+00:00:55,020 --> 00:00:58,170
+Statement one just told us that x plus y is equal to 139.
+
+14
+00:00:58,920 --> 00:01:01,450
+So we know from statement one that this is 139.
+
+15
+00:01:02,250 --> 00:01:06,190
+So that would just make this equation 139 plus z
+
+16
+00:01:06,190 --> 00:01:09,220
+is equal to 180. Which is very easy to solve.
+
+17
+00:01:09,220 --> 00:01:12,350
+Subtract 139 from both sides which you get z is equal to 41
+
+18
+00:01:12,350 --> 00:01:13,210
+or something like that.
+
+19
+00:01:13,210 --> 00:01:14,980
+It doesn'nt matter,you don't have to get the answer.
+
+20
+00:01:14,980 --> 00:01:16,590
+You just have to know that you can get the answer.
+
+21
+00:01:16,590 --> 00:01:19,080
+So statement one,alone,is enough.
+
+22
+00:01:19,080 --> 00:01:20,960
+Now what do they give us in statement number two?
+
+23
+00:01:22,020 --> 00:01:27,430
+Statement two,y plus z is equal to 108.
+
+24
+00:01:27,430 --> 00:01:32,250
+This statement alone is useless. We don't know what y is.
+
+25
+00:01:32,250 --> 00:01:33,940
+So we can't figure it out.
+
+26
+00:01:33,940 --> 00:01:38,010
+I mean,one thing is true,if you had both of these statements,
+
+27
+00:01:38,010 --> 00:01:40,100
+then you can figure out all of the angles of the triangle.
+
+28
+00:01:40,100 --> 00:01:43,080
+Because you know that z is 41 then you could figure out y,
+
+29
+00:01:43,080 --> 00:01:45,150
+then once you know y you could figure out x.
+
+30
+00:01:45,150 --> 00:01:46,820
+But they're not asking us that.
+
+31
+00:01:47,470 --> 00:01:49,850
+We need to figure out what angle z is.
+
+32
+00:01:49,850 --> 00:01:52,460
+And this statement alone would not tell us what angle z is
+
+33
+00:01:52,460 --> 00:01:53,860
+because we don't know what angle y is.
+
+34
+00:01:53,860 --> 00:01:57,700
+But statement one alone works. So the answer is A.
+
+35
+00:01:59,230 --> 00:02:04,850
+Next problem. Turn the page. 52.
+
+36
+00:02:09,050 --> 00:02:18,770
+If x y and z are non-0-- they could have written x times y
+
+37
+00:02:18,770 --> 00:02:22,390
+times z does not equal 0 because that's the same thing.
+
+38
+00:02:22,390 --> 00:02:24,370
+Because if any of them were 0,it would have been equal 0.
+
+39
+00:02:24,370 --> 00:02:28,450
+So I could have written xyz does not equal 0.
+
+40
+00:02:28,450 --> 00:02:30,340
+Because if you multiply three non-0 numbers
+
+41
+00:02:30,340 --> 00:02:31,760
+it's not going to equal zero.
+
+42
+00:02:32,390 --> 00:02:37,220
+But anyway,they're asking is xz equal to 12?
+
+43
+00:02:37,220 --> 00:02:42,970
+xz equal to 12 is the question. Statement one tells us--
+
+44
+00:02:42,970 --> 00:02:47,190
+and I'll do it in a different color--
+
+45
+00:02:47,190 --> 00:02:53,990
+Statement one tells us that x squared times yz
+
+46
+00:02:55,020 --> 00:03:01,470
+is equal to 12xy. So let's see what we can do.
+
+47
+00:03:01,470 --> 00:03:04,850
+What if we were to divide both sides of this equation by xy?
+
+48
+00:03:06,210 --> 00:03:08,320
+Well,let's divide both sides by x first.
+
+49
+00:03:08,320 --> 00:03:10,020
+So if you divide both sides by x,
+
+50
+00:03:10,020 --> 00:03:12,860
+and we can do that because we know that x does not equal 0.
+
+51
+00:03:12,860 --> 00:03:14,060
+so then you get--
+
+52
+00:03:14,570 --> 00:03:20,310
+If Divide both sides by x,you get xyz is equal to 12y,right?
+
+53
+00:03:20,310 --> 00:03:23,680
+Divided by x on both sides. Now let's divide both sides by y.
+
+54
+00:03:23,680 --> 00:03:27,700
+You get xz is equal to 12. And we're done.
+
+55
+00:03:27,700 --> 00:03:30,110
+Statement alone is enough.
+
+56
+00:03:30,110 --> 00:03:31,940
+And remember,the only reason why we we're able to divide
+
+57
+00:03:31,940 --> 00:03:34,730
+both sides by y is because we knew it didn't equal 0.
+
+58
+00:03:34,730 --> 00:03:37,070
+Now what does statement two tell us?
+
+59
+00:03:38,300 --> 00:03:45,740
+Statement two tells us that z/4 is equal to 3/x.
+
+60
+00:03:45,740 --> 00:03:47,540
+And here we can cross multiply,
+
+61
+00:03:47,540 --> 00:03:50,300
+x times z is equal to 3 times 4.
+
+62
+00:03:50,300 --> 00:03:51,830
+And if that didn't make sense to you,
+
+63
+00:03:51,830 --> 00:03:52,950
+you could do it one step at a time.
+
+64
+00:03:52,950 --> 00:03:58,820
+Multiply both sides by 4,you get z is equal to 12/x,
+
+65
+00:03:58,820 --> 00:04:00,330
+just multiplied both sides by 4.
+
+66
+00:04:00,330 --> 00:04:04,810
+Then multiply both sides by x and you get xz is equal to 12.
+
+67
+00:04:04,810 --> 00:04:07,660
+So each statement,independently,
+
+68
+00:04:07,660 --> 00:04:12,170
+is enough to solve the equation. So that's D.
+
+69
+00:04:12,170 --> 00:04:14,000
+I always have to keep looking back and looking at
+
+70
+00:04:14,000 --> 00:04:16,610
+which letter I have to say. I should memorize that.
+
+71
+00:04:16,610 --> 00:04:20,730
+You should at least,you have to take the GMAT. Alright,53.
+
+72
+00:04:25,750 --> 00:04:29,010
+A certain company currently has how many employees?
+
+73
+00:04:29,010 --> 00:04:35,150
+So we want to know the number of emps. How many employees.OK.
+
+74
+00:04:35,150 --> 00:04:40,950
+So statement number one: if 3 additional employees are hired
+
+75
+00:04:40,950 --> 00:04:44,170
+by the company and all of the present employees remain,
+
+76
+00:04:44,170 --> 00:04:48,380
+there will be at least 20 employees in the company.
+
+77
+00:04:48,380 --> 00:04:56,860
+So let's say e is the number of employees today. So e plus 3.
+
+78
+00:04:56,860 --> 00:04:59,720
+So the current number of employees and three additional
+
+79
+00:04:59,720 --> 00:05:01,600
+are hired and all of them remain.
+
+80
+00:05:01,600 --> 00:05:03,470
+There will be at least 20 employees in the company.
+
+81
+00:05:03,470 --> 00:05:08,390
+So it at least tells us greater than or equal to 20 employees
+
+82
+00:05:08,660 --> 00:05:10,160
+That's what statement one is.
+
+83
+00:05:10,160 --> 00:05:12,880
+And that by itself doesn't tell me how many employees are
+
+84
+00:05:12,880 --> 00:05:13,530
+at the company.
+
+85
+00:05:13,530 --> 00:05:17,660
+It tells us that there at least 17 employees at the company
+
+86
+00:05:17,660 --> 00:05:19,260
+but it doesn't tell us anything else.
+
+87
+00:05:19,260 --> 00:05:22,000
+I mean you can subtract 3 from both sides and you say e is
+
+88
+00:05:22,000 --> 00:05:25,350
+greater than or equal to 17.But e could be 100. I don't know.
+
+89
+00:05:25,350 --> 00:05:31,610
+OK. Statement two: if no additional employees are hired
+
+90
+00:05:31,610 --> 00:05:35,260
+by the company and 3 at the present employees resign--
+
+91
+00:05:35,260 --> 00:05:42,340
+so e minus 3-- there will be fewer than 15 employees
+
+92
+00:05:42,340 --> 00:05:50,010
+at the company.So fewer than 15 employees.So not 15 or lower.
+
+93
+00:05:50,010 --> 00:05:55,340
+They say fewer than 15,so less than 15.
+
+94
+00:05:56,610 --> 00:05:59,650
+Right here they said at least 20,so that's greater than 20,
+
+95
+00:05:59,650 --> 00:06:00,950
+greater than or equal to.
+
+96
+00:06:00,950 --> 00:06:03,680
+Here they said fewer than,they didn't say 15 or fewer,
+
+97
+00:06:03,680 --> 00:06:04,960
+they said fewer than 15.
+
+98
+00:06:04,960 --> 00:06:08,270
+So if you simplify this you get-- add 3 to both sides--
+
+99
+00:06:08,270 --> 00:06:14,810
+you say e is less than 18. So,let me ask you a question.
+
+100
+00:06:14,810 --> 00:06:17,180
+First of all this by itself isn't helpful because this
+
+101
+00:06:17,180 --> 00:06:20,170
+just tells us we could only 5 employees at the company
+
+102
+00:06:20,170 --> 00:06:22,150
+or we could have 10. This doesn't tell us by itself.
+
+103
+00:06:22,150 --> 00:06:24,780
+But if we use both of these in conjunction,
+
+104
+00:06:24,780 --> 00:06:27,950
+you if we know that e is less than--
+
+105
+00:06:27,950 --> 00:06:32,690
+so if we say 17 is less than or equal to e.
+
+106
+00:06:32,690 --> 00:06:34,840
+I just wrote this in a different order.
+
+107
+00:06:34,840 --> 00:06:38,820
+Alright,17 is less than or equal to e,which is less 18--
+
+108
+00:06:38,820 --> 00:06:41,540
+I'm using both statements-- what is e?
+
+109
+00:06:42,430 --> 00:06:44,130
+It has to be greater than or equal the 17,
+
+110
+00:06:44,130 --> 00:06:46,610
+so it could be 17. Can it be 18?
+
+111
+00:06:46,610 --> 00:06:50,970
+Well,no,because it has to be less than 18. So e has to be 17.
+
+112
+00:06:50,970 --> 00:06:55,590
+So both statements together are needed to solve this problem.
+
+113
+00:06:55,590 --> 00:07:01,880
+And that is C. Both statements,together,are sufficient.
+
+114
+00:07:03,060 --> 00:07:03,810
+Next problem.
+
+115
+00:07:06,220 --> 00:07:15,650
+54. Let me erase this little 5 I drew here. 54.
+
+116
+00:07:17,990 --> 00:07:25,600
+Alright,what is the value of n in the equation minus 25
+
+117
+00:07:25,600 --> 00:07:32,990
+plus 19 plus n is equal to s?
+
+118
+00:07:32,990 --> 00:07:36,610
+Well,just to simplify it,we could add up minus 25 plus 19,
+
+119
+00:07:36,610 --> 00:07:47,090
+you get minus 6? So you get n minus 6 is equal to s,right?
+
+120
+00:07:47,090 --> 00:07:48,890
+That's right. Actually,you don't have to do this.
+
+121
+00:07:48,890 --> 00:07:51,140
+Remember the whole point of this is to figure out
+
+122
+00:07:51,140 --> 00:07:52,080
+whether you can solve the problem.
+
+123
+00:07:52,080 --> 00:07:53,950
+You don't always have to solve it but I'm solving them here
+
+124
+00:07:53,950 --> 00:07:56,410
+just to prove it to you.
+
+125
+00:07:57,250 --> 00:07:59,370
+To give you the intuition of when you can solve it.
+
+126
+00:07:59,370 --> 00:08:00,730
+So if you add 6 to both sides.
+
+127
+00:08:00,730 --> 00:08:01,680
+So anyway,this was just a simplification.
+
+128
+00:08:01,680 --> 00:08:03,330
+Let's read the statements. I haven't read them yet.
+
+129
+00:08:03,330 --> 00:08:04,710
+Maybe I didn't have to do any of that.
+
+130
+00:08:05,390 --> 00:08:09,650
+Alright,what problem was I-- 54. OK.s is equal to 2.
+
+131
+00:08:10,620 --> 00:08:12,700
+Well,clearly,if we know that s is equal to 2,
+
+132
+00:08:12,700 --> 00:08:14,700
+we can solve for n.n would be equal to 8.
+
+133
+00:08:14,700 --> 00:08:16,550
+This statement alone is sufficient.
+
+134
+00:08:16,550 --> 00:08:23,460
+Now statement number two tells us n/s is equal to 4,
+
+135
+00:08:24,510 --> 00:08:27,800
+and once again,as long as we have some relation with n and s
+
+136
+00:08:27,800 --> 00:08:31,240
+and we can solve for s and then substitute back in,
+
+137
+00:08:31,240 --> 00:08:34,330
+we can solve for n. And to prove it,let me do it.
+
+138
+00:08:34,330 --> 00:08:42,050
+We have n is equal to 4s,and if we know that n is equal to 4s
+
+139
+00:08:42,050 --> 00:08:43,740
+what are we doing? We're trying to solve for n.
+
+140
+00:08:44,570 --> 00:08:48,920
+We could write s is equal to n divided by 4.
+
+141
+00:08:48,920 --> 00:08:51,700
+And then you can substitute back into that equation.
+
+142
+00:08:51,700 --> 00:08:55,630
+So then you would get n is equal to s,
+
+143
+00:08:55,630 --> 00:09:00,770
+which is n/4 plus 6. And then you could just solve for n.
+
+144
+00:09:00,770 --> 00:09:03,620
+And if you want to do it,let's see,multiply both sides by 4,
+
+145
+00:09:03,620 --> 00:09:08,900
+you get 4n is equal to n plus 24.
+
+146
+00:09:08,900 --> 00:09:10,350
+That's an equal sign not a notequal.
+
+147
+00:09:11,790 --> 00:09:16,420
+I just multiplied both sides by 4. 4n is equal to n plus 24.
+
+148
+00:09:16,420 --> 00:09:19,930
+Subtract n from both sides,you get 3n is equal to 24
+
+149
+00:09:19,930 --> 00:09:23,100
+and then you get n is equal to 8 again.
+
+150
+00:09:23,100 --> 00:09:26,590
+So each statement alone is sufficient.
+
+151
+00:09:26,590 --> 00:09:29,340
+And that is-- I should really memorize this-- that's D.
+
+152
+00:09:29,340 --> 00:09:32,740
+Each statement alone is sufficient. OK.
+
+153
+00:09:32,740 --> 00:09:34,790
+Let's see,do I have time for 55?
+
+154
+00:09:34,790 --> 00:09:37,260
+Let me wait for that for the next video. See

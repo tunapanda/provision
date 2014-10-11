@@ -1,0 +1,523 @@
+1
+00:00:00,000 --> 00:00:01,680
+Problem number six
+
+2
+00:00:01,987 --> 00:00:05,800
+Let f of x is equal to the sine of x-squared plus cosine of x
+
+3
+00:00:05,800 --> 00:00:12,067
+The graph of y is equal to the absolute value of the fifth derivative of f at x is shown above
+
+4
+00:00:12,067 --> 00:00:15,533
+and I haven't shown it here just so we have some space. I'll show it when we need to show it
+
+5
+00:00:15,533 --> 00:00:17,333
+I think we have to show it in part D.
+
+6
+00:00:17,333 --> 00:00:19,323
+So first let's do part A right over here.
+
+7
+00:00:19,338 --> 00:00:24,427
+Write the first four nonzero terms of the Taylor series for sin of x
+
+8
+00:00:24,427 --> 00:00:30,533
+about x=0, and write the first four nonzero terms of the Taylor series for the sin of x-squared
+
+9
+00:00:30,533 --> 00:00:32,533
+about x equals zero. So let's do this first part.
+
+10
+00:00:32,533 --> 00:00:36,270
+And just as a reminder, a Taylor series is a polynomial approximation
+
+11
+00:00:36,270 --> 00:00:40,937
+of a function. So just to give us a quick reminder--we go into much more detail
+
+12
+00:00:40,937 --> 00:00:44,533
+in this on the videos about Taylor series.
+
+13
+00:00:44,533 --> 00:00:49,200
+But if you have a function that looks like this, and you wanted to approximate it with a Taylor series
+
+14
+00:00:49,200 --> 00:00:54,800
+around zero, you could, if you only have one term in your Taylor series, you would just literally
+
+15
+00:00:54,800 --> 00:00:59,200
+it would just be a constant, just like that. If you have two terms in your Taylor series
+
+16
+00:00:59,200 --> 00:01:01,867
+it would be a line that looks like that.
+
+17
+00:01:01,867 --> 00:01:05,271
+If you have three terms in your Taylor series, you'd get to a second-degree term.
+
+18
+00:01:05,271 --> 00:01:09,000
+You'd start approximating it something like that.
+
+19
+00:01:09,000 --> 00:01:12,000
+If you get to the third degree term, it might start looking like that
+
+20
+00:01:12,000 --> 00:01:16,092
+And as you add more and more terms, you get a better and better approximation of your function
+
+21
+00:01:16,092 --> 00:01:19,273
+and if you add an infinite number, it might actually converge to your function.
+
+22
+00:01:19,273 --> 00:01:23,533
+So let's just remind ourselves. If I had a function, if I have f of x
+
+23
+00:01:23,533 --> 00:01:26,667
+its Taylor series: I can approximate it with a Taylor series.
+
+24
+00:01:26,667 --> 00:01:29,667
+And if we want to center that approximation around zero,
+
+25
+00:01:29,667 --> 00:01:37,106
+it'll be equal to f of zero plus f-prime of zero (the derivative at zero) times x
+
+26
+00:01:37,106 --> 00:01:42,867
+plus the second derivative at zero times x-squared over 2 factorial.
+
+27
+00:01:42,867 --> 00:01:46,400
+(You could have divided this term right here by 1 factorial, which is just 1)
+
+28
+00:01:46,400 --> 00:01:48,000
+2 factorial is just 2.
+
+29
+00:01:48,000 --> 00:01:55,733
+And then plus the third derivative of f at zero times x to the third over 3 factorial
+
+30
+00:01:55,733 --> 00:01:58,800
+plus the fourth derivative . . . I think you get the idea here.
+
+31
+00:01:58,800 --> 00:02:03,867
+the fourth derivative at zero times x to the fourth divided by four factorial
+
+32
+00:02:03,867 --> 00:02:06,084
+and so on and so forth.
+
+33
+00:02:06,084 --> 00:02:10,400
+So what they want us to do is to find the first four non-zero terms of the
+
+34
+00:02:10,400 --> 00:02:12,000
+Taylor series for sine of x
+
+35
+00:02:12,000 --> 00:02:14,467
+And some of you might already know this. We actually covered this
+
+36
+00:02:14,467 --> 00:02:19,800
+in the video where we show Euler's identity, but we'll do it again right over here.
+
+37
+00:02:19,800 --> 00:02:24,867
+So if we just take, I'll call it g(x), because they already
+
+38
+00:02:24,867 --> 00:02:27,133
+defined f(x) up here. So let's say that g(x)
+
+39
+00:02:27,133 --> 00:02:30,837
+And let's put this in a new color, just to ease the monotony
+
+40
+00:02:30,837 --> 00:02:38,800
+Let's say that g of x is equal to sin of x. Then we know that g of zero
+
+41
+00:02:38,800 --> 00:02:41,133
+is going to be equal to zero.
+
+42
+00:02:41,133 --> 00:02:44,667
+And then if we take the derivative, g-prime of x is going
+
+43
+00:02:44,667 --> 00:02:48,763
+to be equal to negative, no it's going to be positive cosine of x
+
+44
+00:02:48,763 --> 00:02:54,733
+Positive cosine of x. g-prime of zero is now going to be equal to 1
+
+45
+00:02:54,733 --> 00:02:58,097
+cosine of zero is one. Then if you take the second derivative.
+
+46
+00:02:58,097 --> 00:03:02,091
+The derivative of cosine of x is negative sine of x
+
+47
+00:03:02,091 --> 00:03:06,733
+And the second derivative at zero, once again, is going
+
+48
+00:03:06,733 --> 00:03:09,000
+to be equal to zero. Sine of zero is zero.
+
+49
+00:03:09,000 --> 00:03:14,082
+And now let's take the third derivative
+
+50
+00:03:14,082 --> 00:03:16,071
+The third derivative of our function, g, the derivative of
+
+51
+00:03:16,148 --> 00:03:19,209
+negative sine of x is negative cosine of x.
+
+52
+00:03:19,286 --> 00:03:22,600
+And the third derivative at zero is now going to be
+
+53
+00:03:22,600 --> 00:03:26,000
+equal to negative one. And we could keep going.
+
+54
+00:03:26,000 --> 00:03:28,800
+You can already guess where this might lead to.
+
+55
+00:03:28,800 --> 00:03:31,133
+But I'll just keep going, just in case.
+
+56
+00:03:31,133 --> 00:03:37,400
+The fourth derivative is once again going to be equal to sine of x
+
+57
+00:03:37,400 --> 00:03:39,684
+is now going to be equal to sine of x. And then the
+
+58
+00:03:39,684 --> 00:03:45,067
+fourth derivative at zero, because it's the same thing as the function
+
+59
+00:03:45,067 --> 00:03:47,347
+is now going to be zero as well.
+
+60
+00:03:47,347 --> 00:03:51,933
+So this is going to be equal to g the fourth at zero.
+
+61
+00:03:51,933 --> 00:03:54,133
+And then we could keep going. This is going to be the same thing
+
+62
+00:03:54,133 --> 00:03:56,533
+as g to the fifth because we start cycling
+
+63
+00:03:56,533 --> 00:03:58,800
+as we take more and more derivatives. So this is going to be
+
+64
+00:03:58,800 --> 00:04:01,867
+the same thing as the fifth derivative at zero
+
+65
+00:04:01,867 --> 00:04:07,933
+This is going to be the same thing as the sixth derivative at zero
+
+66
+00:04:07,933 --> 00:04:13,423
+And this is going to be the same--this is an equals sign right here
+
+67
+00:04:13,423 --> 00:04:15,400
+equals one. And this is going to be the same thing as the seventh
+
+68
+00:04:15,400 --> 00:04:19,200
+derivative at zero. So if you want the first four
+
+69
+00:04:19,200 --> 00:04:22,800
+non-zero terms. Let's just work through it.
+
+70
+00:04:22,800 --> 00:04:27,200
+So first of all, f of zero--I'll do this in a new color
+
+71
+00:04:27,200 --> 00:04:29,351
+if we want to approximate g of x
+
+72
+00:04:29,351 --> 00:04:31,733
+if we want to approximate sine of x
+
+73
+00:04:31,733 --> 00:04:33,933
+so we'll say sine of x is going to be approximately equal to
+
+74
+00:04:33,933 --> 00:04:36,867
+so this first term right over here
+
+75
+00:04:36,867 --> 00:04:38,268
+that is sine of 0, that's g of zero
+
+76
+00:04:38,268 --> 00:04:41,101
+that's going to be zero, so we don't even have to write it
+
+77
+00:04:41,101 --> 00:04:43,867
+then we go to this term right over here. Well the first derivative
+
+78
+00:04:43,867 --> 00:04:47,400
+f prime at zero, or in this case g prime of zero
+
+79
+00:04:47,400 --> 00:04:49,600
+is going to be equal to one
+
+80
+00:04:49,600 --> 00:04:52,177
+So it's going to be one times x. So you're going to have an x there
+
+81
+00:04:52,177 --> 00:04:57,680
+And the next term is going to be zero, we see that over there
+
+82
+00:04:57,680 --> 00:05:03,200
+because the second derivative of our function evaluated at zero is zero
+
+83
+00:05:03,200 --> 00:05:07,014
+our third derivative of our function evaluated at zero is 1
+
+84
+00:05:07,014 --> 00:05:09,533
+so that term's going to show up again
+
+85
+00:05:09,533 --> 00:05:12,800
+Actually, that term is negative one--I don't want to make a mistake here
+
+86
+00:05:12,800 --> 00:05:16,604
+that is negative one. It was negative cosine of x
+
+87
+00:05:16,604 --> 00:05:19,867
+if you evaluate negative cosine of x at zero you get negative one
+
+88
+00:05:19,867 --> 00:05:21,086
+right over here.
+
+89
+00:05:21,086 --> 00:05:24,400
+So the third derivative, this thing right over here, is negative one
+
+90
+00:05:24,400 --> 00:05:29,352
+So then we have minus x to the third over 3 factorial
+
+91
+00:05:29,352 --> 00:05:31,929
+The fourth derivative, once again, is zero
+
+92
+00:05:31,929 --> 00:05:36,016
+The fifth derivative evaluated at zero is one. So then
+
+93
+00:05:36,016 --> 00:05:41,267
+you're going to have plus 1 times x to the fifth over five factorial
+
+94
+00:05:41,267 --> 00:05:44,400
+Then the sixth derivative is zero, so that term is going to disappear
+
+95
+00:05:44,400 --> 00:05:45,867
+I didn't even write it up here.
+
+96
+00:05:45,867 --> 00:05:48,933
+And then the seventh term, the coefficient is negative one
+
+97
+00:05:48,933 --> 00:05:51,933
+Or, the seventh derivative evaluated at zero is negative one
+
+98
+00:05:51,933 --> 00:05:57,200
+So you have negative one times x to the seventh over seven factorial
+
+99
+00:05:57,200 --> 00:06:00,350
+And we had to go all the way to the seventh degree term to find
+
+100
+00:06:00,350 --> 00:06:04,800
+the first four non-zero terms for our Taylor series
+
+101
+00:06:04,800 --> 00:06:07,467
+And so, we're done with at least the first part.
+
+102
+00:06:07,467 --> 00:06:11,937
+We found the first four non-zero terms of sine of x.
+
+103
+00:06:11,937 --> 00:06:14,267
+So now what about sine squared of x
+
+104
+00:06:14,267 --> 00:06:17,800
+Or sine of x-squared. We have to be careful here. Because
+
+105
+00:06:17,800 --> 00:06:20,133
+you might just say, okay, let me just apply this formula
+
+106
+00:06:20,133 --> 00:06:21,600
+And you're going to find very quickly
+
+107
+00:06:21,600 --> 00:06:23,733
+when you start taking the second and third derivatives
+
+108
+00:06:23,733 --> 00:06:26,682
+of this thing right over here, it's going to get really messy
+
+109
+00:06:26,682 --> 00:06:30,769
+but what you can say is look, sine of x is approximately this thing over here
+
+110
+00:06:30,769 --> 00:06:33,867
+What happens if I just replace the x with x-squared?
+
+111
+00:06:33,867 --> 00:06:39,533
+Then I get sine of x-squared is approximately equal to
+
+112
+00:06:39,533 --> 00:06:42,467
+instead of an x here, I'm going to put the x-squared
+
+113
+00:06:42,467 --> 00:06:48,509
+instead of an x to the third, I'm going to put x-squared to the third over here, over three factorial
+
+114
+00:06:48,509 --> 00:06:53,200
+Instead of an x to the fifth, I can put an x-squared to the fifth power
+
+115
+00:06:53,200 --> 00:06:54,933
+over five factorial
+
+116
+00:06:54,933 --> 00:06:58,516
+and instead of an x to the seventh, I can put an x-squared to the seventh
+
+117
+00:06:58,516 --> 00:07:00,867
+power over seven factorial
+
+118
+00:07:00,867 --> 00:07:03,184
+So this is a very important thing to realize.
+
+119
+00:07:03,184 --> 00:07:08,083
+Because, if you had started to directly take the Taylor series around zero
+
+120
+00:07:08,083 --> 00:07:10,335
+of this thing right here, you'd have taken up all your time
+
+121
+00:07:10,335 --> 00:07:12,425
+to take the derivatives, and you probably wouldn't have been able
+
+122
+00:07:12,425 --> 00:07:14,467
+to do it anyways, because it would have gotten really messy.
+
+123
+00:07:14,467 --> 00:07:17,933
+And the key here is just to realize that if you just substitute
+
+124
+00:07:17,933 --> 00:07:22,200
+x-squared for x, you're then going to get your approximation for
+
+125
+00:07:22,200 --> 00:07:23,942
+sine of x-squared.
+
+126
+00:07:23,942 --> 00:07:26,000
+And we can simplify this a little bit
+
+127
+00:07:26,000 --> 00:07:27,600
+This is going to be approximately equal to
+
+128
+00:07:27,600 --> 00:07:31,605
+x-squared minus x to the sixth over three factorial
+
+129
+00:07:31,605 --> 00:07:34,600
+plus x to the tenth over five factorial
+
+130
+00:07:34,600 --> 00:07:39,685
+minus x to the fourteenth over seven factorial
+
+131
+00:07:39,715 --> 99:59:59,999
+So that's our second part of the problem.

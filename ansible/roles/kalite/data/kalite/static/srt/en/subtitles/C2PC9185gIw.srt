@@ -1,0 +1,1226 @@
+1
+00:00:00,000 --> 00:00:00,690
+   
+
+2
+00:00:00,690 --> 00:00:03,870
+I've talked a lot about the idea
+that eigenvectors could
+
+3
+00:00:03,870 --> 00:00:07,650
+make for good bases or
+good basis vectors.
+
+4
+00:00:07,650 --> 00:00:10,610
+So let's explore that idea
+a little bit more.
+
+5
+00:00:10,610 --> 00:00:13,230
+Let's say I have some
+transformation.
+
+6
+00:00:13,230 --> 00:00:18,310
+Let's say it's a transformation
+from Rn to Rn,
+
+7
+00:00:18,310 --> 00:00:21,010
+and it can be represented
+by the matrix, A.
+
+8
+00:00:21,010 --> 00:00:25,340
+So the transformation of x
+is equal to the n-by-n
+
+9
+00:00:25,340 --> 00:00:29,520
+matrix, A times x.
+
+10
+00:00:29,520 --> 00:00:35,830
+Now let's say that we have
+n linearly independent
+
+11
+00:00:35,830 --> 00:00:38,430
+eigenvectors of A.
+
+12
+00:00:38,430 --> 00:00:41,320
+And this isn't always going to
+be the case, but it can often
+
+13
+00:00:41,320 --> 00:00:41,940
+be the case.
+
+14
+00:00:41,940 --> 00:00:44,370
+It's definitely possible.
+
+15
+00:00:44,370 --> 00:00:53,460
+Let's assume that A has
+n linearly independent
+
+16
+00:00:53,460 --> 00:00:54,710
+eigenvectors.
+
+17
+00:00:54,710 --> 00:00:57,680
+   
+
+18
+00:00:57,680 --> 00:01:06,980
+So I'm going to call them v1,
+v2, all the way through vn.
+
+19
+00:01:06,980 --> 00:01:13,450
+Now, n linearly independent
+vectors in Rn can definitely
+
+20
+00:01:13,450 --> 00:01:15,610
+be a basis for Rn.
+
+21
+00:01:15,610 --> 00:01:16,980
+We've seen that multiple
+times.
+
+22
+00:01:16,980 --> 00:01:19,510
+And what I want to show you in
+this video is that this makes
+
+23
+00:01:19,510 --> 00:01:23,410
+a particularly good basis
+for this transformation.
+
+24
+00:01:23,410 --> 00:01:24,970
+So let's explore that.
+
+25
+00:01:24,970 --> 00:01:29,140
+So the transformation of each of
+these vectors-- I'll write
+
+26
+00:01:29,140 --> 00:01:30,240
+it over here.
+
+27
+00:01:30,240 --> 00:01:36,250
+The transformation of vector 1
+is equal to A times vector 1
+
+28
+00:01:36,250 --> 00:01:39,130
+and since vector 1 is an
+eigenvector of A, that's going
+
+29
+00:01:39,130 --> 00:01:44,040
+to be equal to some eigenvalue
+lambda 1 times vector 1.
+
+30
+00:01:44,040 --> 00:01:45,300
+We could do that for
+all of them.
+
+31
+00:01:45,300 --> 00:01:50,430
+The transformation of vector 2
+is equal to A times v2, which
+
+32
+00:01:50,430 --> 00:01:55,550
+is equal to some eigenvalue
+lambda 2 times v2.
+
+33
+00:01:55,550 --> 00:01:58,120
+And I'm just going to skip all
+of them and just go straight
+
+34
+00:01:58,120 --> 00:01:59,960
+to the nth one.
+
+35
+00:01:59,960 --> 00:02:01,850
+We have n of these
+eigenvectors.
+
+36
+00:02:01,850 --> 00:02:02,900
+You might have a lot more.
+
+37
+00:02:02,900 --> 00:02:05,630
+We're just assuming that A
+has at least n linearly
+
+38
+00:02:05,630 --> 00:02:06,750
+independent eigenvectors.
+
+39
+00:02:06,750 --> 00:02:08,785
+In general, you could take
+scaled up versions of these
+
+40
+00:02:08,785 --> 00:02:10,780
+and they'll also be
+eigenvectors.
+
+41
+00:02:10,780 --> 00:02:14,640
+Let's see, so the transformation
+of vn is going
+
+42
+00:02:14,640 --> 00:02:17,040
+to be equal to A times vn.
+
+43
+00:02:17,040 --> 00:02:21,860
+And because these are all
+eigenvectors, A times vn is
+
+44
+00:02:21,860 --> 00:02:25,580
+just going to be lambda n,
+some eigenvalue times the
+
+45
+00:02:25,580 --> 00:02:27,810
+vector, vn.
+
+46
+00:02:27,810 --> 00:02:29,820
+Now, what are these
+also equal to?
+
+47
+00:02:29,820 --> 00:02:32,910
+Well, this is equal to, and this
+is probably going to be
+
+48
+00:02:32,910 --> 00:02:36,360
+unbelievably obvious to you, but
+this is the same thing as
+
+49
+00:02:36,360 --> 00:02:41,210
+lambda 1 times vn plus 0
+times v2 plus all the
+
+50
+00:02:41,210 --> 00:02:43,760
+way to 0 times vn.
+
+51
+00:02:43,760 --> 00:02:50,440
+And this right here is going to
+be 0 times v1 plus lambda 2
+
+52
+00:02:50,440 --> 00:02:54,010
+times v2 plus all the way,
+0 times all of the
+
+53
+00:02:54,010 --> 00:02:56,660
+other vectors vn.
+
+54
+00:02:56,660 --> 00:03:01,170
+And then this guy down here,
+this is going to be 0 times v1
+
+55
+00:03:01,170 --> 00:03:05,940
+plus 0 times v2 plus 0 times
+all of these basis vectors,
+
+56
+00:03:05,940 --> 00:03:10,240
+these eigenvectors, but
+lambda n times vn.
+
+57
+00:03:10,240 --> 00:03:13,060
+This is almost stunningly
+obvious, right?
+
+58
+00:03:13,060 --> 00:03:16,400
+I just rewrote this as this plus
+a bunch of zero vectors.
+
+59
+00:03:16,400 --> 00:03:18,110
+But the reason why I wrote that
+is, because in a second,
+
+60
+00:03:18,110 --> 00:03:21,410
+we're going to take this as a
+basis and we're going to find
+
+61
+00:03:21,410 --> 00:03:23,860
+coordinates with respect to that
+basis, and so this guy's
+
+62
+00:03:23,860 --> 00:03:28,180
+coordinates will be lambda 1,
+0, 0, because that's the
+
+63
+00:03:28,180 --> 00:03:31,050
+coefficients on our
+basis vectors.
+
+64
+00:03:31,050 --> 00:03:32,620
+So let's do that.
+
+65
+00:03:32,620 --> 00:03:36,760
+So let's say that we define
+this as some basis.
+
+66
+00:03:36,760 --> 00:03:39,775
+So B is equal to the set of--
+actually, I don't even have to
+
+67
+00:03:39,775 --> 00:03:41,780
+write it that way.
+
+68
+00:03:41,780 --> 00:03:44,990
+Let's say I say that B,
+I have some basis B,
+
+69
+00:03:44,990 --> 00:03:46,330
+that's equal to that.
+
+70
+00:03:46,330 --> 00:03:48,710
+What I want to show you is that
+when I do a change of
+
+71
+00:03:48,710 --> 00:03:54,260
+basis-- we've seen this before--
+in my standard
+
+72
+00:03:54,260 --> 00:03:56,380
+coordinates or in coordinates
+with respect to the standard
+
+73
+00:03:56,380 --> 00:03:59,520
+basis, you give me some vector
+in Rn, I'm going to multiply
+
+74
+00:03:59,520 --> 00:04:02,130
+it times A, and you're
+going to have the
+
+75
+00:04:02,130 --> 00:04:03,600
+transformation of it.
+
+76
+00:04:03,600 --> 00:04:05,130
+It's also going to be in Rn.
+
+77
+00:04:05,130 --> 00:04:06,705
+Now, we know we can do
+a change of basis.
+
+78
+00:04:06,705 --> 00:04:10,230
+   
+
+79
+00:04:10,230 --> 00:04:12,370
+And in a change of basis, if you
+want to go that way, you
+
+80
+00:04:12,370 --> 00:04:15,610
+multiply by C inverse, which
+is-- remember, the change of
+
+81
+00:04:15,610 --> 00:04:18,529
+basis matrix C, if you want to
+go in this direction, you
+
+82
+00:04:18,529 --> 00:04:19,950
+multiply by C.
+
+83
+00:04:19,950 --> 00:04:23,640
+The change of basis matrix is
+just a matrix with all of
+
+84
+00:04:23,640 --> 00:04:24,920
+these vectors as columns.
+
+85
+00:04:24,920 --> 00:04:26,430
+It's very easy to construct.
+
+86
+00:04:26,430 --> 00:04:29,890
+But if you change your basis
+from x to our new basis, you
+
+87
+00:04:29,890 --> 00:04:31,810
+multiply it by the
+inverse of that.
+
+88
+00:04:31,810 --> 00:04:33,070
+We've seen that multiple
+times.
+
+89
+00:04:33,070 --> 00:04:35,210
+If they're all orthonormal, then
+this is the same thing as
+
+90
+00:04:35,210 --> 00:04:35,930
+a transpose.
+
+91
+00:04:35,930 --> 00:04:37,600
+We can't assume that, though.
+
+92
+00:04:37,600 --> 00:04:41,800
+And so this is going to
+be x in our new basis.
+
+93
+00:04:41,800 --> 00:04:45,810
+And if we want to find some
+transformation, if we want to
+
+94
+00:04:45,810 --> 00:04:48,810
+find the transformation matrix
+for T with respect to our new
+
+95
+00:04:48,810 --> 00:04:52,970
+basis, it's going to
+be some matrix D.
+
+96
+00:04:52,970 --> 00:04:56,510
+And if you multiply D times x,
+you're going to get this guy,
+
+97
+00:04:56,510 --> 00:04:59,670
+but you're going to get the B
+representation of that guy.
+
+98
+00:04:59,670 --> 00:05:04,900
+The transformation of the vector
+x is B representation.
+
+99
+00:05:04,900 --> 00:05:07,620
+And if we want to go back and
+forth between that guy and
+
+100
+00:05:07,620 --> 00:05:09,880
+that guy, if we want to go in
+this direction, you can
+
+101
+00:05:09,880 --> 00:05:12,030
+multiply this times C, and
+you'll just get the
+
+102
+00:05:12,030 --> 00:05:13,300
+transformation of x.
+
+103
+00:05:13,300 --> 00:05:15,580
+And if you want to go in that
+direction, you could multiply
+
+104
+00:05:15,580 --> 00:05:17,580
+by the inverse of your change
+of basis matrix.
+
+105
+00:05:17,580 --> 00:05:20,110
+We've seen this multiple
+times already.
+
+106
+00:05:20,110 --> 00:05:23,340
+But what I've claimed or I've
+kind of hinted at is that if I
+
+107
+00:05:23,340 --> 00:05:27,960
+have a basis that's defined by
+eigenvectors of A, that this
+
+108
+00:05:27,960 --> 00:05:30,910
+will be a very nice matrix,
+that this might be the
+
+109
+00:05:30,910 --> 00:05:34,860
+coordinate system that you want
+to operate in, especially
+
+110
+00:05:34,860 --> 00:05:37,410
+if you're going to apply
+this matrix a lot.
+
+111
+00:05:37,410 --> 00:05:40,230
+If you're going to do this
+transformation on a lot of
+
+112
+00:05:40,230 --> 00:05:42,080
+different things, you're going
+to do it over and over and
+
+113
+00:05:42,080 --> 00:05:45,100
+over again, maybe to the same
+set, then it maybe is worth
+
+114
+00:05:45,100 --> 00:05:48,070
+the overhead to do the
+conversion and just use this
+
+115
+00:05:48,070 --> 00:05:50,350
+as your coordinate system.
+
+116
+00:05:50,350 --> 00:05:55,660
+So let's see that this will
+actually be a nice-looking,
+
+117
+00:05:55,660 --> 00:05:59,700
+easy-to-compute-with and
+actually diagonal matrix.
+
+118
+00:05:59,700 --> 00:06:03,060
+So we know that the
+transformation-- what is the
+
+119
+00:06:03,060 --> 00:06:06,850
+transformation of-- let's
+write this in a bunch of
+
+120
+00:06:06,850 --> 00:06:08,790
+different formats.
+
+121
+00:06:08,790 --> 00:06:11,700
+Let me scroll down
+a little bit.
+
+122
+00:06:11,700 --> 00:06:17,590
+So if I wanted to write the
+transformation of v1 in B
+
+123
+00:06:17,590 --> 00:06:20,410
+coordinates, what would it be?
+
+124
+00:06:20,410 --> 00:06:22,710
+It's just going to be equal to--
+well, these are the basis
+
+125
+00:06:22,710 --> 00:06:23,380
+vectors, right?
+
+126
+00:06:23,380 --> 00:06:25,010
+So it's the coefficient
+on the basis vectors.
+
+127
+00:06:25,010 --> 00:06:30,110
+So it's going to be equal to
+lambda 1, and then there's a
+
+128
+00:06:30,110 --> 00:06:30,710
+bunch of zeroes.
+
+129
+00:06:30,710 --> 00:06:34,846
+It's lambda 1 times v1 plus 0
+times v2 plus 0 times v3, all
+
+130
+00:06:34,846 --> 00:06:37,160
+the way to 0 times vn.
+
+131
+00:06:37,160 --> 00:06:38,520
+That's what it's equal to.
+
+132
+00:06:38,520 --> 00:06:43,200
+But it's also equal to D, and
+we can write D like this.
+
+133
+00:06:43,200 --> 00:06:46,250
+D is also a transformation
+between Rn and Rn, just a
+
+134
+00:06:46,250 --> 00:06:48,210
+different coordinate system.
+
+135
+00:06:48,210 --> 00:06:51,120
+So D is going to just be a bunch
+of column vectors d1,
+
+136
+00:06:51,120 --> 00:06:56,790
+d2, all the way through dn
+times-- this is the same thing
+
+137
+00:06:56,790 --> 00:06:59,680
+as D times our B representation
+
+138
+00:06:59,680 --> 00:07:01,030
+of the vector v1.
+
+139
+00:07:01,030 --> 00:07:02,720
+But what is our B
+representation
+
+140
+00:07:02,720 --> 00:07:05,140
+of the vector v1?
+
+141
+00:07:05,140 --> 00:07:10,490
+Well, the vector, v1 is just 1
+times v1 plus 0 times v2 plus
+
+142
+00:07:10,490 --> 00:07:17,360
+0 times v3 all the way
+to 0 times vn.
+
+143
+00:07:17,360 --> 00:07:18,970
+v1 is a basis vector.
+
+144
+00:07:18,970 --> 00:07:21,900
+That's just 1 times itself plus
+0 times everything else.
+
+145
+00:07:21,900 --> 00:07:24,240
+So this is what its
+representation is in the B
+
+146
+00:07:24,240 --> 00:07:25,490
+coordinate system.
+
+147
+00:07:25,490 --> 00:07:27,350
+Now, what is this going
+to be equal to?
+
+148
+00:07:27,350 --> 00:07:28,370
+And we've seen this before.
+
+149
+00:07:28,370 --> 00:07:30,010
+This is all a bit of review.
+
+150
+00:07:30,010 --> 00:07:31,800
+I might even be boring you.
+
+151
+00:07:31,800 --> 00:07:35,420
+This is just equal to 1 times
+d1 plus 0 times d2 plus 0
+
+152
+00:07:35,420 --> 00:07:36,570
+times all the other columns.
+
+153
+00:07:36,570 --> 00:07:39,270
+This is just equal to d1.
+
+154
+00:07:39,270 --> 00:07:42,985
+So just like that, we have our
+first column of our matrix D.
+
+155
+00:07:42,985 --> 00:07:44,970
+We could just keep doing that.
+
+156
+00:07:44,970 --> 00:07:47,300
+I'll do it multiple times.
+
+157
+00:07:47,300 --> 00:07:55,810
+The transformation of v2 in our
+new coordinate system with
+
+158
+00:07:55,810 --> 00:07:59,200
+respect to our new basis is
+going to be equal to-- well,
+
+159
+00:07:59,200 --> 00:08:01,380
+we know what the transformation
+of v2 is.
+
+160
+00:08:01,380 --> 00:08:10,330
+It's 0 times v1 plus lambda 2
+times v2 and then plus 0 times
+
+161
+00:08:10,330 --> 00:08:11,580
+everything else.
+
+162
+00:08:11,580 --> 00:08:14,010
+   
+
+163
+00:08:14,010 --> 00:08:19,920
+And that's the same thing as D,
+d1, d2, all the way through
+
+164
+00:08:19,920 --> 00:08:25,240
+dn times our B representation
+of vector 2.
+
+165
+00:08:25,240 --> 00:08:27,910
+Well, vector 2 is one of
+the basis vectors.
+
+166
+00:08:27,910 --> 00:08:32,669
+It's just 0 times v1 plus 1
+times v2 plus 0 times v3 all
+
+167
+00:08:32,669 --> 00:08:33,864
+the way, the rest is 0.
+
+168
+00:08:33,864 --> 00:08:35,760
+So what's this going
+to be equal to?
+
+169
+00:08:35,760 --> 00:08:41,539
+This is 0 times d1 plus
+1 times d2 and 0 times
+
+170
+00:08:41,539 --> 00:08:44,550
+everything else, so
+it's equal to d2.
+
+171
+00:08:44,550 --> 00:08:45,860
+I think you get the
+general idea.
+
+172
+00:08:45,860 --> 00:08:48,450
+I'll do it one more time
+just to really
+
+173
+00:08:48,450 --> 00:08:50,380
+hammer the point home.
+
+174
+00:08:50,380 --> 00:08:54,880
+The transformation of the nth
+basis vector, which is also an
+
+175
+00:08:54,880 --> 00:08:59,690
+eigenvector of our original
+matrix A or of our
+
+176
+00:08:59,690 --> 00:09:03,030
+transformation in standard
+coordinates, in B coordinates,
+
+177
+00:09:03,030 --> 00:09:04,710
+is going to be equal to what?
+
+178
+00:09:04,710 --> 00:09:06,370
+Well, we wrote it
+right up here.
+
+179
+00:09:06,370 --> 00:09:08,110
+It's going to be a
+bunch of zeroes.
+
+180
+00:09:08,110 --> 00:09:13,530
+It's 0 times all of these guys
+plus lambda n times vn.
+
+181
+00:09:13,530 --> 00:09:20,580
+And this is going to be this guy
+d1, d2, all the way to dn
+
+182
+00:09:20,580 --> 00:09:24,930
+times the B representation of
+the nth basis vector, which is
+
+183
+00:09:24,930 --> 00:09:28,740
+just 0 times v1, 0 times v2
+and 0 times all of them,
+
+184
+00:09:28,740 --> 00:09:31,970
+except for 1 times vn.
+
+185
+00:09:31,970 --> 00:09:36,790
+And so this is going to be equal
+to 0 times d1 plus 0
+
+186
+00:09:36,790 --> 00:09:39,210
+times d2 plus 0 times all
+of these guys all the
+
+187
+00:09:39,210 --> 00:09:40,520
+way to 1 times dn.
+
+188
+00:09:40,520 --> 00:09:42,570
+So that's going to
+be equal to dn.
+
+189
+00:09:42,570 --> 00:09:47,810
+And just like that, we know what
+our transformation matrix
+
+190
+00:09:47,810 --> 00:09:50,310
+is going to look like with
+respect to this new basis,
+
+191
+00:09:50,310 --> 00:09:54,880
+where this basis was defined or
+it's made up of n linearly
+
+192
+00:09:54,880 --> 00:09:58,730
+independent eigenvectors of
+our original matrix A.
+
+193
+00:09:58,730 --> 00:10:01,560
+So what does D look like?
+
+194
+00:10:01,560 --> 00:10:05,700
+Our matrix D is going to look
+like-- its first column is
+
+195
+00:10:05,700 --> 00:10:07,170
+right there.
+
+196
+00:10:07,170 --> 00:10:08,490
+We figured that one out.
+
+197
+00:10:08,490 --> 00:10:12,440
+Lambda 1, and then we just
+have a bunch of zeroes.
+
+198
+00:10:12,440 --> 00:10:14,640
+Its second column
+is right here.
+
+199
+00:10:14,640 --> 00:10:15,920
+d2 is equal to this.
+
+200
+00:10:15,920 --> 00:10:20,040
+It's 0, lambda 2, and then
+a bunch of zeroes.
+
+201
+00:10:20,040 --> 00:10:21,610
+And then this is in
+general the case.
+
+202
+00:10:21,610 --> 00:10:24,010
+The nth column is going to have
+a zero everywhere except
+
+203
+00:10:24,010 --> 00:10:24,700
+along the diagonal.
+
+204
+00:10:24,700 --> 00:10:25,985
+It's going to be lambda n.
+
+205
+00:10:25,985 --> 00:10:28,620
+It's going to be the eigenvalue
+for the nth
+
+206
+00:10:28,620 --> 00:10:30,210
+eigenvector.
+
+207
+00:10:30,210 --> 00:10:32,180
+And so the diagonal is going to
+look-- you're going to have
+
+208
+00:10:32,180 --> 00:10:35,510
+lambda 3 all the way
+down to lambda n.
+
+209
+00:10:35,510 --> 00:10:39,890
+And our nth column is lambda n
+with just a bunch of zeroes
+
+210
+00:10:39,890 --> 00:10:41,560
+everywhere.
+
+211
+00:10:41,560 --> 00:10:46,130
+So D, when we picked-- this
+is a neat result.
+
+212
+00:10:46,130 --> 00:10:51,990
+If A has n linearly independent
+eigenvectors, and
+
+213
+00:10:51,990 --> 00:10:54,500
+this isn't always the case,
+but we can figure out that
+
+214
+00:10:54,500 --> 00:10:57,380
+eigenvectors and say, hey, I can
+take a collection of n of
+
+215
+00:10:57,380 --> 00:10:59,970
+these that are linearly
+independent, then those will
+
+216
+00:10:59,970 --> 00:11:02,350
+be a basis for Rn.
+
+217
+00:11:02,350 --> 00:11:07,930
+n linearly independent vectors
+in Rn are a basis for Rn.
+
+218
+00:11:07,930 --> 00:11:12,080
+But when you use that basis,
+when you use the linearly
+
+219
+00:11:12,080 --> 00:11:15,320
+independent eigenvectors of A
+as a basis, we call this an
+
+220
+00:11:15,320 --> 00:11:16,570
+eigenbasis.
+
+221
+00:11:16,570 --> 00:11:21,450
+   
+
+222
+00:11:21,450 --> 00:11:26,310
+The transformation matrix with
+respect to that eigenbasis, it
+
+223
+00:11:26,310 --> 00:11:29,220
+becomes a very, very
+nice matrix.
+
+224
+00:11:29,220 --> 00:11:31,230
+This is super easy
+to multiply.
+
+225
+00:11:31,230 --> 00:11:33,050
+It's super easy to invert.
+
+226
+00:11:33,050 --> 00:11:35,370
+It's super easy to take
+the determinant of.
+
+227
+00:11:35,370 --> 00:11:36,330
+We've seen it multiple times.
+
+228
+00:11:36,330 --> 00:11:37,900
+It just has a ton of
+neat properties.
+
+229
+00:11:37,900 --> 00:11:40,820
+It's just a good basis
+to be dealing with.
+
+230
+00:11:40,820 --> 00:11:43,030
+So that's kind of the
+big takeaway.
+
+231
+00:11:43,030 --> 00:11:45,780
+In all of linear algebra, we did
+all this stuff with spaces
+
+232
+00:11:45,780 --> 00:11:49,670
+and vectors and all of that,
+but in general, vectors are
+
+233
+00:11:49,670 --> 00:11:55,100
+abstract representations
+of real world things.
+
+234
+00:11:55,100 --> 00:11:58,010
+You could represent a vector
+as the stock returns or it
+
+235
+00:11:58,010 --> 00:12:00,540
+could be a vector of weather
+in a certain part of the
+
+236
+00:12:00,540 --> 00:12:02,730
+country, and you can create
+these spaces based on the
+
+237
+00:12:02,730 --> 00:12:04,440
+number of dimensions
+and all of that.
+
+238
+00:12:04,440 --> 00:12:06,090
+And then you're going to
+have transformations.
+
+239
+00:12:06,090 --> 00:12:08,690
+Sometimes, like when we learn
+about Markov chains, your
+
+240
+00:12:08,690 --> 00:12:10,780
+transformations are essentially
+what's the
+
+241
+00:12:10,780 --> 00:12:15,910
+probability after one time
+increment that something state
+
+242
+00:12:15,910 --> 00:12:17,980
+will change to something else,
+then you'll want to apply that
+
+243
+00:12:17,980 --> 00:12:22,230
+matrix many, many, many, many
+times to see what the stable
+
+244
+00:12:22,230 --> 00:12:23,520
+state is for a lot of things.
+
+245
+00:12:23,520 --> 00:12:26,660
+And I know I'm not explaining
+any of this to you well, but I
+
+246
+00:12:26,660 --> 00:12:30,370
+wanted to tell you that all of
+linear algebra is really just
+
+247
+00:12:30,370 --> 00:12:34,140
+a very general way to solve a
+whole universe of problems.
+
+248
+00:12:34,140 --> 00:12:36,730
+And what's useful about this is
+you can have transformation
+
+249
+00:12:36,730 --> 00:12:39,390
+matrices that define
+these functions
+
+250
+00:12:39,390 --> 00:12:41,680
+essentially on data sets.
+
+251
+00:12:41,680 --> 00:12:43,260
+And what we've learned now is
+that when you look at the
+
+252
+00:12:43,260 --> 00:12:46,130
+eigenvectors and the
+eigenvalues, you can change
+
+253
+00:12:46,130 --> 00:12:49,640
+your bases so that you can solve
+your problems in much
+
+254
+00:12:49,640 --> 00:12:50,360
+simpler ways.
+
+255
+00:12:50,360 --> 00:12:52,950
+And I know it's all very
+abstract right now, but you
+
+256
+00:12:52,950 --> 00:12:55,560
+now have the toolkit, and the
+rest of your life, you have to
+
+257
+00:12:55,560 --> 00:12:59,300
+figure out how to apply this
+toolkit to specific problems
+
+258
+00:12:59,300 --> 00:13:04,510
+in probability or statistics or
+finance or modeling weather
+
+259
+00:13:04,510 --> 00:13:06,960
+systems or who knows
+what else.
+
+260
+00:13:06,960 --> 00:13:08,087
+

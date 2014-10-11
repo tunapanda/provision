@@ -1,0 +1,395 @@
+1
+00:00:00,020 --> 00:00:02,970
+So we have this larger triangle here,
+
+2
+00:00:02,980 --> 00:00:05,320
+and inside of that we have these other triangles
+
+3
+00:00:05,330 --> 00:00:07,810
+And we're given this information right over here
+
+4
+00:00:07,820 --> 00:00:14,510
+that triangle BCD is congruent to triangle BCA,
+
+5
+00:00:14,520 --> 00:00:18,260
+which is congruent to triangle ECD
+
+6
+00:00:18,270 --> 00:00:21,940
+And given just this information, what I wanna do in this drawing,
+
+7
+00:00:21,950 --> 00:00:25,710
+I wanna figure out what every angle on this drawing is
+
+8
+00:00:25,720 --> 00:00:28,020
+What's the measure of every angle
+
+9
+00:00:28,030 --> 00:00:29,300
+So let's see what we can do here
+
+10
+00:00:29,310 --> 00:00:31,100
+So let's just start with the information
+
+11
+00:00:31,110 --> 00:00:32,590
+that they've actually given us
+
+12
+00:00:32,600 --> 00:00:37,870
+So we know, we know that triangle BCD is congruent
+
+13
+00:00:37,880 --> 00:00:41,680
+so BCD is congruent to, well we know it's congruent
+
+14
+00:00:41,690 --> 00:00:43,720
+all of these triangles are congruent to each other
+
+15
+00:00:43,730 --> 00:00:47,720
+So for example, BCD is congruent to ECD
+
+16
+00:00:47,730 --> 00:00:50,300
+And so their corresponding sides and corresponding
+
+17
+00:00:50,310 --> 00:00:51,690
+angles will also be congruent
+
+18
+00:00:51,700 --> 00:00:54,630
+So just looking at the word written,
+
+19
+00:00:54,640 --> 00:00:57,540
+B, vertex B corresponds,
+
+20
+00:00:57,550 --> 00:00:59,430
+in this triangle, in BCD ,
+
+21
+00:00:59,440 --> 00:01:04,710
+corresponds to vertex B in BCA, BCA
+
+22
+00:01:04,720 --> 00:01:07,300
+So this is the B vertex in BCA
+
+23
+00:01:07,310 --> 00:01:10,870
+which corresponds to the E vertex in ECD
+
+24
+00:01:10,880 --> 00:01:13,880
+So all everything that I've done magenta
+
+25
+00:01:13,890 --> 00:01:16,110
+all of these angles are congruent
+
+26
+00:01:16,120 --> 00:01:17,870
+And then we also know,
+
+27
+00:01:17,880 --> 00:01:24,190
+we also know that the C angle, so in BCA sorry, BCD
+
+28
+00:01:24,200 --> 00:01:27,070
+This angle, this angle right over here
+
+29
+00:01:27,080 --> 00:01:32,040
+is congruent to the C angle in BCA, BCA
+
+30
+00:01:32,050 --> 00:01:33,770
+The C angle is right over here,
+
+31
+00:01:33,780 --> 00:01:36,060
+or C is the vertex for that angle in BCA
+
+32
+00:01:36,070 --> 00:01:39,280
+And that is also the, the,
+
+33
+00:01:39,290 --> 00:01:42,790
+the C angle I guess you could call it, in ECD
+
+34
+00:01:42,800 --> 00:01:46,280
+But in ECD, we're talking about this angle right over here
+
+35
+00:01:46,290 --> 00:01:49,270
+So these three angles are going to be congruent
+
+36
+00:01:49,280 --> 00:01:50,740
+I think you could already guess a way
+
+37
+00:01:50,750 --> 00:01:53,480
+to come up with the values of those three angles
+
+38
+00:01:53,490 --> 00:01:53,820
+But let's just
+
+39
+00:01:53,830 --> 00:01:56,110
+let's keep looking at everything else that they're telling us
+
+40
+00:01:56,120 --> 00:01:59,440
+Finally, we have vertex D over here
+
+41
+00:01:59,450 --> 00:02:00,850
+So angle so, angle
+
+42
+00:02:00,860 --> 00:02:03,300
+so this is the last one in, where we lifted,
+
+43
+00:02:03,310 --> 00:02:06,880
+B so in triangle BCD, this angle,
+
+44
+00:02:06,890 --> 00:02:12,660
+this angle right over here corresponds to the A vertex angle in BCA
+
+45
+00:02:12,670 --> 00:02:15,980
+So BCA, that corresponds to this angle right over here
+
+46
+00:02:15,990 --> 00:02:18,010
+It's really the only one that we haven't labelled yet
+
+47
+00:02:18,020 --> 00:02:22,140
+And that corresponds to this angle, this vertex right over here
+
+48
+00:02:22,150 --> 00:02:24,310
+That angle right over there , and just to make it consistent,
+
+49
+00:02:24,320 --> 00:02:27,090
+this C should also be circled in yellow
+
+50
+00:02:27,100 --> 00:02:28,920
+And so we have all these congruencies
+
+51
+00:02:28,930 --> 00:02:31,820
+and now we can come up with some interesting things about them
+
+52
+00:02:31,830 --> 00:02:33,800
+First of all, here
+
+53
+00:02:33,810 --> 00:02:38,840
+Angle BCA, angle BCD, and angle DCE, they're all congruent
+
+54
+00:02:38,850 --> 00:02:42,380
+And when you add them up together, you get to 180 degrees
+
+55
+00:02:42,390 --> 00:02:44,710
+If you put them all adjacent, cause they all are right here,
+
+56
+00:02:44,720 --> 00:02:46,740
+they'd end up with a straight angle,
+
+57
+00:02:46,750 --> 00:02:47,850
+if you look at their outer sides
+
+58
+00:02:47,860 --> 00:02:50,440
+So you have if these are each x, you have
+
+59
+00:02:50,450 --> 00:02:53,230
+three of them added together have to be 180 degrees
+
+60
+00:02:53,240 --> 00:02:56,340
+which tells us that each of these have to be 60 degrees
+
+61
+00:02:56,350 --> 00:02:59,100
+That's the only way you have three of the same thing
+
+62
+00:02:59,110 --> 00:03:00,780
+adding up to 180 degrees
+
+63
+00:03:00,790 --> 00:03:01,980
+Fair enough
+
+64
+00:03:01,990 --> 00:03:03,720
+What else can we do?
+
+65
+00:03:03,730 --> 00:03:06,160
+Well, we have these two characters up here
+
+66
+00:03:06,170 --> 00:03:09,540
+They are both equal and they add up to 180 degrees,
+
+67
+00:03:09,550 --> 00:03:10,730
+they are supplementary
+
+68
+00:03:10,740 --> 00:03:13,410
+And the only way we can have two equal things that add up to 180
+
+69
+00:03:13,420 --> 00:03:14,950
+is that if they're both 90 degrees
+
+70
+00:03:14,960 --> 00:03:18,270
+So, these two characters are both 90 degrees,
+
+71
+00:03:18,280 --> 00:03:20,450
+or we could say this is a right angle, that's a right angle
+
+72
+00:03:20,460 --> 00:03:23,160
+And this is congruent to both of those, so that is also,
+
+73
+00:03:23,170 --> 00:03:25,560
+that is also 90 degrees
+
+74
+00:03:25,570 --> 00:03:28,300
+And then we're left with these magenta parts of the angle
+
+75
+00:03:28,310 --> 00:03:29,950
+And here we can just say,
+
+76
+00:03:29,960 --> 00:03:33,810
+well 90 + 60 + something is going to add up to 180
+
+77
+00:03:33,820 --> 00:03:36,050
+90 + 60 is 150,
+
+78
+00:03:36,060 --> 00:03:38,760
+so this has to be 30 degrees to add up to 180
+
+79
+00:03:38,770 --> 00:03:41,180
+If that's 30 degrees, then this is 30 degrees,
+
+80
+00:03:41,190 --> 00:03:44,560
+and then this thing right over here is 30 degrees
+
+81
+00:03:44,570 --> 00:03:46,260
+And then the last thing,
+
+82
+00:03:46,270 --> 00:03:47,990
+we've actually done what we said we would do
+
+83
+00:03:48,000 --> 00:03:49,510
+We've found out all of the angles
+
+84
+00:03:49,520 --> 00:03:51,670
+We can also think about these outer angles,
+
+85
+00:03:51,680 --> 00:03:54,350
+so this or not outer angles, or just combined angles
+
+86
+00:03:54,360 --> 00:03:58,230
+So angles, say AC, oh sorry angle ABE
+
+87
+00:03:58,240 --> 00:04:02,340
+So this whole angle we see is that whole angle is 60 degrees
+
+88
+00:04:02,350 --> 00:04:03,750
+This angle is 90 degrees
+
+89
+00:04:03,760 --> 00:04:05,640
+And this angle, here, is 30
+
+90
+00:04:05,640 --> 00:04:08,870
+So what's interesting is, these smaller triangles are all
+
+91
+00:04:08,880 --> 00:04:11,460
+they all have the exact same angles: 30, 60, 90,
+
+92
+00:04:11,470 --> 00:04:14,140
+and the exact same side lengths
+
+93
+00:04:14,150 --> 00:04:15,860
+We know that because they're congruent
+
+94
+00:04:15,870 --> 00:04:18,380
+But what's interesting is when you put them together this way,
+
+95
+00:04:18,390 --> 00:04:21,300
+they construct this larger triangle, triangle ABE,
+
+96
+00:04:21,310 --> 00:04:23,000
+that's clearly not congruent
+
+97
+00:04:23,010 --> 00:04:26,550
+It's a larger triangle that has different measures for its lengths,
+
+98
+00:04:26,560 --> 00:04:30,670
+but has the same angles: 30, 60, and then 90
+
+99
+00:04:30,680 --> 00:04:34,010
+So it's actually similar to all of the triangles that it's made up of

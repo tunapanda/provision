@@ -1,0 +1,59 @@
+1
+00:00:00,163 --> 00:00:10,965
+Find the product: (2x+8) times (2x-8). So we're multiplying 2 Binomials. You could use FOIL, you could use the Distributive Property...
+
+2
+00:00:10,965 --> 00:00:15,544
+but the whole point of this problem is to see whether you recognize a pattern here.
+
+3
+00:00:15,559 --> 00:00:29,087
+This is of the form (a+b) times (a-b) where here, 'a' is '2x' and 'b' is '8'. We have (2x+8) and (2x-8).
+
+4
+00:00:29,087 --> 00:00:41,250
+I'm going to multiply this out and see what happens whenever we have this pattern -- what the product actually looks like.
+
+5
+00:00:41,250 --> 00:00:52,513
+So if you were to multiply this out, you could Distribute the (a+b), we could distribute the whole thing, on the 'a' and then on the minus 'b'.
+
+6
+00:00:52,513 --> 00:00:54,666
+And I could have just done that with this problem here and it would take less time to just solve it,
+
+7
+00:00:54,666 --> 00:00:57,199
+but I want to find out the <u>general</u> pattern here.
+
+8
+00:00:57,199 --> 00:01:12,111
+So, (a+b) times 'a', we have 'a' times (a+b) that's this times this. And then (a+b) times negative 'b' -- that's 'negative b' times (a+b). So I've done Distributive Property once.
+
+9
+00:01:12,111 --> 00:01:24,349
+Now I can do it again. I can distribute the 'a' onto the 'a' and this 'b'. That gives me 'a^2' -- 'a' times 'a' is 'a^2' plus 'a' times 'b' which is 'ab'.
+
+10
+00:01:24,941 --> 00:01:38,735
+Now I can do it with the negative 'b'. Negative 'b' times 'a' is negative 'ab' (or negative 'ba', same thing) and negative 'b' times 'b' is negative 'b^2'.
+
+11
+00:01:38,735 --> 00:01:45,210
+Now what does this simplify to? Well, I have an 'ab' and I'm subtracting an 'ab'. So, these two guys cancel out.
+
+12
+00:01:45,210 --> 00:01:59,162
+I am just left with a^2 minus b^2. So, the general pattern (this is a good one to know; it's super fast) is that (a+b)*(a-b) is always going to be a^2-b^2.
+
+13
+00:01:59,162 --> 00:02:10,136
+So we have an (a+b) times an (a-b). This product is going to be a^2 which is (2x)^2 minus b^2 which is 8^2.
+
+14
+00:02:10,136 --> 00:02:24,679
+(2x)^2 is the same thing as 2^2 times x^2 or 4x^2. And from that, we're subtracting 8^2.
+
+15
+00:02:24,679 --> 00:02:28,679
+That's going to be 4x^2 minus 64.

@@ -1,0 +1,1400 @@
+1
+00:00:00,000 --> 00:00:00,540
+   
+
+2
+00:00:00,540 --> 00:00:04,170
+In this first, what I'll call
+this is my first real linear
+
+3
+00:00:04,170 --> 00:00:11,250
+algebra video, I want to
+introduce you to some concepts
+
+4
+00:00:11,250 --> 00:00:13,660
+that you're going to see over
+and over in linear algebra,
+
+5
+00:00:13,660 --> 00:00:16,280
+and if they're not introduced
+to you properly in the
+
+6
+00:00:16,280 --> 00:00:17,980
+beginning, they can
+be very confusing.
+
+7
+00:00:17,980 --> 00:00:19,930
+But hopefully over the course
+of this video, you'll
+
+8
+00:00:19,930 --> 00:00:22,400
+understand that they're pretty
+straightforward ideas.
+
+9
+00:00:22,400 --> 00:00:25,490
+If anything, in linear algebra,
+the field, or the
+
+10
+00:00:25,490 --> 00:00:28,830
+gods of linear algebra, are
+kind of experts in to some
+
+11
+00:00:28,830 --> 00:00:31,950
+degree stating simple and
+obvious things in convoluted
+
+12
+00:00:31,950 --> 00:00:33,050
+and Byzantine ways.
+
+13
+00:00:33,050 --> 00:00:34,700
+But it does that for a
+reason; it gives it
+
+14
+00:00:34,700 --> 00:00:36,620
+mathematical rigor.
+
+15
+00:00:36,620 --> 00:00:40,330
+So the first thing I want to
+introduce you to is the set
+
+16
+00:00:40,330 --> 00:00:44,400
+notation for real numbers and
+then multiple dimensions of
+
+17
+00:00:44,400 --> 00:00:45,070
+real numbers.
+
+18
+00:00:45,070 --> 00:00:48,820
+So if you ever see this, an R
+with an extra backbone like
+
+19
+00:00:48,820 --> 00:00:53,220
+that, or sometimes it's written
+as just a really
+
+20
+00:00:53,220 --> 00:00:57,040
+bold-faced R if it's maybe
+typed in a book, a really
+
+21
+00:00:57,040 --> 00:01:08,810
+bold-faced R, this just means,
+the set of all real numbers.
+
+22
+00:01:08,810 --> 00:01:11,510
+And I probably should make a
+few videos where I classify
+
+23
+00:01:11,510 --> 00:01:16,380
+numbers by reals and complex
+and irrational and rational
+
+24
+00:01:16,380 --> 00:01:20,410
+and whatever else, and there's
+actually very formal ways of
+
+25
+00:01:20,410 --> 00:01:24,250
+defining the set of all real
+numbers, but the simple thing
+
+26
+00:01:24,250 --> 00:01:26,460
+for me is all numbers
+except complex ones.
+
+27
+00:01:26,460 --> 00:01:28,300
+So this is the same thing as
+
+28
+00:01:28,300 --> 00:01:35,840
+everything but complex numbers.
+
+29
+00:01:35,840 --> 00:01:40,730
+So pi is a real number, e is a
+real number, square root of 2
+
+30
+00:01:40,730 --> 00:01:44,250
+is a real number, 3 is a real
+number, minus 3 is a real
+
+31
+00:01:44,250 --> 00:01:50,630
+number, minus pi is a real
+number, But 1 plus 2i is not a
+
+32
+00:01:50,630 --> 00:01:51,560
+real number.
+
+33
+00:01:51,560 --> 00:01:54,120
+It's not in the set of reals;
+that's a complex number.
+
+34
+00:01:54,120 --> 00:01:55,460
+So everything but complex.
+
+35
+00:01:55,460 --> 00:01:58,230
+So pretty much all regular
+numbers that you ever dealt
+
+36
+00:01:58,230 --> 00:02:00,360
+with before you learned
+what i was.
+
+37
+00:02:00,360 --> 00:02:02,540
+That's the set of
+real numbers.
+
+38
+00:02:02,540 --> 00:02:06,660
+Now, the next thing you'll see
+when you start discussing
+
+39
+00:02:06,660 --> 00:02:10,090
+linear algebra is someone will
+write-- they won't just write
+
+40
+00:02:10,090 --> 00:02:17,350
+the set of all real numbers,
+they'll write Rn.
+
+41
+00:02:17,350 --> 00:02:18,570
+And you're like, gee,
+what is that?
+
+42
+00:02:18,570 --> 00:02:22,000
+Are they somehow taking
+the exponent of
+
+43
+00:02:22,000 --> 00:02:23,460
+all of the real numbers?
+
+44
+00:02:23,460 --> 00:02:26,100
+And actually on some level, that
+is what they're doing,
+
+45
+00:02:26,100 --> 00:02:30,710
+but what they're saying here is
+they're taking the set of
+
+46
+00:02:30,710 --> 00:02:32,900
+all ordered sets of
+real numbers.
+
+47
+00:02:32,900 --> 00:02:34,550
+So what do I mean by that?
+
+48
+00:02:34,550 --> 00:02:37,190
+So let me do an example where
+I don't just have Rn,
+
+49
+00:02:37,190 --> 00:02:45,310
+So R2 is the set of all lists
+of real numbers, and let me
+
+50
+00:02:45,310 --> 00:02:46,440
+make one of the lists.
+
+51
+00:02:46,440 --> 00:02:50,020
+So let's say this has
+one number and then
+
+52
+00:02:50,020 --> 00:02:51,810
+it has another number.
+
+53
+00:02:51,810 --> 00:02:54,330
+So it's the set of -- let me
+write it this way, so I can
+
+54
+00:02:54,330 --> 00:02:55,460
+write in the set of notations.
+
+55
+00:02:55,460 --> 00:03:00,110
+It's the set of all-- we could
+call these tuples.
+
+56
+00:03:00,110 --> 00:03:07,310
+Sometimes it's called a 2-tuple,
+which just means a
+
+57
+00:03:07,310 --> 00:03:08,370
+list of two numbers.
+
+58
+00:03:08,370 --> 00:03:09,180
+That's all it means.
+
+59
+00:03:09,180 --> 00:03:11,920
+It just means a list
+of two numbers.
+
+60
+00:03:11,920 --> 00:03:16,760
+So R2 is a list of all ordered
+2-tuples, so all ordered lists
+
+61
+00:03:16,760 --> 00:03:17,340
+of two numbers.
+
+62
+00:03:17,340 --> 00:03:19,350
+Let me actually write down the
+word ordered because that's
+
+63
+00:03:19,350 --> 00:03:25,010
+important, so ordered
+list of 2-tuples.
+
+64
+00:03:25,010 --> 00:03:27,760
+So, for example, this would
+be-- well, let me
+
+65
+00:03:27,760 --> 00:03:29,460
+write it this way.
+
+66
+00:03:29,460 --> 00:03:32,870
+This would be a different-- when
+I say ordered, I'm saying
+
+67
+00:03:32,870 --> 00:03:35,690
+that this is fundamentally
+different than that, that
+
+68
+00:03:35,690 --> 00:03:38,240
+these aren't the same 2-tuple.
+
+69
+00:03:38,240 --> 00:03:42,010
+Each of these is a 2-tuple,
+but R2 is a set of all
+
+70
+00:03:42,010 --> 00:03:48,730
+2-tuples such that-- that line
+there just means such that or
+
+71
+00:03:48,730 --> 00:03:58,825
+maybe for which-- each of
+the numbers-- and I'll
+
+72
+00:03:58,825 --> 00:04:00,280
+write it this way.
+
+73
+00:04:00,280 --> 00:04:02,250
+I could just write-- well, I
+could write it a couple of
+
+74
+00:04:02,250 --> 00:04:05,480
+ways, but I'll write it in the
+harder to understand way, just
+
+75
+00:04:05,480 --> 00:04:06,570
+so you get used to it.
+
+76
+00:04:06,570 --> 00:04:12,130
+Such that xi is a member
+of the reals.
+
+77
+00:04:12,130 --> 00:04:20,140
+So member of, that's what this
+little character means.
+
+78
+00:04:20,140 --> 00:04:22,010
+So that each xi is a member
+of the reals.
+
+79
+00:04:22,010 --> 00:04:22,770
+So what do you you mean xi?
+
+80
+00:04:22,770 --> 00:04:30,530
+Well, xi just means any of these
+x's, and I'll write for
+
+81
+00:04:30,530 --> 00:04:35,610
+i is less than or equal to 2 and
+greater than or equal to
+
+82
+00:04:35,610 --> 00:04:39,550
+1, and i is an integer.
+
+83
+00:04:39,550 --> 00:04:43,090
+Now, I could have written this
+a bunch of different ways.
+
+84
+00:04:43,090 --> 00:04:46,220
+This is almost silly how much
+effort I'm taking to write it
+
+85
+00:04:46,220 --> 00:04:48,720
+this way, but I could have
+written it like this, too.
+
+86
+00:04:48,720 --> 00:04:54,290
+I could have written that R2
+is equal to the set of all
+
+87
+00:04:54,290 --> 00:05:01,180
+ordered tuples, x1 x2 such
+that-- I could have just
+
+88
+00:05:01,180 --> 00:05:06,780
+written such that x1 and x2
+are a member of the reals.
+
+89
+00:05:06,780 --> 00:05:07,670
+I could have written
+it that way.
+
+90
+00:05:07,670 --> 00:05:10,400
+That would have been an easier
+way to write it.
+
+91
+00:05:10,400 --> 00:05:12,020
+But either way, I think
+you get the idea.
+
+92
+00:05:12,020 --> 00:05:14,110
+It's all of the combinations
+of two things.
+
+93
+00:05:14,110 --> 00:05:19,460
+So I said in the beginning,
+this kind of is a squared
+
+94
+00:05:19,460 --> 00:05:21,720
+operator. and why do
+they write it as
+
+95
+00:05:21,720 --> 00:05:22,470
+a superscript there?
+
+96
+00:05:22,470 --> 00:05:30,750
+And my gut sense is if you think
+about it, you have an
+
+97
+00:05:30,750 --> 00:05:34,290
+infinite number of
+real numbers.
+
+98
+00:05:34,290 --> 00:05:37,430
+I won't go into things like
+accountability and things like
+
+99
+00:05:37,430 --> 00:05:39,820
+that, but you have a very large
+number of real numbers.
+
+100
+00:05:39,820 --> 00:05:43,830
+But let's say that you only
+had n real numbers, right?
+
+101
+00:05:43,830 --> 00:05:46,440
+Let's say that we weren't
+dealing with reals.
+
+102
+00:05:46,440 --> 00:05:48,880
+Just for sake of argument, let's
+say that you had like
+
+103
+00:05:48,880 --> 00:05:50,910
+100 real numbers, right?
+
+104
+00:05:50,910 --> 00:05:52,430
+So that means that there
+would've been 100
+
+105
+00:05:52,430 --> 00:05:54,880
+possibilities there, and then
+there's another 100
+
+106
+00:05:54,880 --> 00:05:56,260
+possibilities there.
+
+107
+00:05:56,260 --> 00:06:00,200
+So now your set of all the
+possibilities of 2-tuples,
+
+108
+00:06:00,200 --> 00:06:03,390
+well, you'd have 100 times 100
+possibilities, so you'd almost
+
+109
+00:06:03,390 --> 00:06:06,030
+have the squared number
+of possibilities.
+
+110
+00:06:06,030 --> 00:06:10,220
+So however many possibilities
+you have for R, you have that
+
+111
+00:06:10,220 --> 00:06:13,670
+many squared possibilities for
+R2, which doesn't make a lot
+
+112
+00:06:13,670 --> 00:06:15,237
+of sense, because you have
+an infinite number of
+
+113
+00:06:15,237 --> 00:06:17,170
+possibilities, but you have that
+many more possibilities.
+
+114
+00:06:17,170 --> 00:06:19,470
+You have an infinite number of
+possibilities here and an
+
+115
+00:06:19,470 --> 00:06:20,840
+infinite number of possibilities
+here.
+
+116
+00:06:20,840 --> 00:06:24,120
+So it's almost a greater
+infinity of potential
+
+117
+00:06:24,120 --> 00:06:25,290
+possibilities.
+
+118
+00:06:25,290 --> 00:06:27,430
+Now, what's R3?
+
+119
+00:06:27,430 --> 00:06:29,070
+R3 is just the same thing.
+
+120
+00:06:29,070 --> 00:06:38,940
+R3 means you're going to have
+three points or three numbers.
+
+121
+00:06:38,940 --> 00:06:40,990
+I want to be careful not
+to just say points.
+
+122
+00:06:40,990 --> 00:06:46,550
+We can graph these things, and,
+for example, R2, point in
+
+123
+00:06:46,550 --> 00:06:51,730
+R2 can normally be graphed on
+graph paper just in Cartesian
+
+124
+00:06:51,730 --> 00:06:52,510
+coordinates.
+
+125
+00:06:52,510 --> 00:06:54,930
+Points in R3 can be graphed
+in three dimensions.
+
+126
+00:06:54,930 --> 00:06:59,300
+Points in just R, or we could
+just say R1, you could just
+
+127
+00:06:59,300 --> 00:07:01,390
+graph those on a number line.
+
+128
+00:07:01,390 --> 00:07:04,430
+I can have a number line like
+that, and if I had to graph
+
+129
+00:07:04,430 --> 00:07:05,900
+pi, you know, that's 0.
+
+130
+00:07:05,900 --> 00:07:07,830
+I just say, hey, right
+there, that's pi.
+
+131
+00:07:07,830 --> 00:07:09,240
+And if i had to graph e,
+I'd say, hey, right
+
+132
+00:07:09,240 --> 00:07:10,000
+there, that's e.
+
+133
+00:07:10,000 --> 00:07:12,320
+And if I had to graph 1,
+I'd say, hey, that's 1.
+
+134
+00:07:12,320 --> 00:07:14,330
+So you could graph them, but
+I want to be careful.
+
+135
+00:07:14,330 --> 00:07:16,370
+You don't have to graph them.
+
+136
+00:07:16,370 --> 00:07:18,730
+They don't have to correspond
+to actual
+
+137
+00:07:18,730 --> 00:07:20,970
+physical points on a graph.
+
+138
+00:07:20,970 --> 00:07:23,000
+But anyway, when you talk about
+R3, you're literally
+
+139
+00:07:23,000 --> 00:07:26,640
+just talking about all the
+possibilities where you have
+
+140
+00:07:26,640 --> 00:07:28,970
+an ordered set of three numbers,
+where all three
+
+141
+00:07:28,970 --> 00:07:32,060
+numbers are a member of
+the real numbers.
+
+142
+00:07:32,060 --> 00:07:33,680
+That's all you're saying.
+
+143
+00:07:33,680 --> 00:07:35,370
+Now, I want to introduce
+you to another
+
+144
+00:07:35,370 --> 00:07:37,275
+definition of a vector.
+
+145
+00:07:37,275 --> 00:07:41,660
+   
+
+146
+00:07:41,660 --> 00:07:43,780
+Now, a vector, you've
+seen before.
+
+147
+00:07:43,780 --> 00:07:45,740
+You've seen it in physics,
+where you said, oh, it's
+
+148
+00:07:45,740 --> 00:07:47,930
+something that has a magnitude
+and a direction.
+
+149
+00:07:47,930 --> 00:07:51,800
+You saw it in calculus, and we
+plotted them and whatever not.
+
+150
+00:07:51,800 --> 00:07:54,410
+But I'm going to be very formal
+and very abstract and
+
+151
+00:07:54,410 --> 00:07:58,700
+very broad with the vector right
+now because the beauty
+
+152
+00:07:58,700 --> 00:08:02,230
+of linear algebra is that it
+doesn't just apply to things
+
+153
+00:08:02,230 --> 00:08:06,120
+like physics, and it doesn't
+just apply-- well, it does
+
+154
+00:08:06,120 --> 00:08:09,100
+apply a lot to physics, but it
+doesn't just apply to that.
+
+155
+00:08:09,100 --> 00:08:11,060
+In linear algebra, you can
+apply it to anything.
+
+156
+00:08:11,060 --> 00:08:13,100
+It doesn't have to apply to
+things that just graphs in
+
+157
+00:08:13,100 --> 00:08:13,780
+three dimensions.
+
+158
+00:08:13,780 --> 00:08:15,830
+And we'll talk more about that
+in the future, but that's why
+
+159
+00:08:15,830 --> 00:08:19,830
+I'm trying to stay
+pretty abstract.
+
+160
+00:08:19,830 --> 00:08:24,690
+So I'm going to define
+a vector in Rn, a
+
+161
+00:08:24,690 --> 00:08:26,580
+vector to be in Rn.
+
+162
+00:08:26,580 --> 00:08:27,800
+Actually, let me be careful.
+
+163
+00:08:27,800 --> 00:08:29,500
+I haven't even defined
+what Rn is.
+
+164
+00:08:29,500 --> 00:08:34,740
+I just defined R2 and R3,
+so let me define Rn.
+
+165
+00:08:34,740 --> 00:08:43,409
+Rn is equal to the set of all
+n-tuples, ordered n-tuples.
+
+166
+00:08:43,409 --> 00:08:48,160
+So you have x1, x2, all
+the way over to xn.
+
+167
+00:08:48,160 --> 00:08:50,380
+So you're going to have n
+things; so if this was 100,
+
+168
+00:08:50,380 --> 00:08:52,180
+you'd have 100 things here.
+
+169
+00:08:52,180 --> 00:08:58,980
+So this is an ordered n-tuple.
+
+170
+00:08:58,980 --> 00:09:06,442
+This is an ordered n-tuple, such
+that for each xi, where
+
+171
+00:09:06,442 --> 00:09:10,820
+xi is one of these, it is a
+member of the real, so each of
+
+172
+00:09:10,820 --> 00:09:13,210
+these has to be a real number.
+
+173
+00:09:13,210 --> 00:09:19,470
+And then I'll just say for i
+is less than or equal to n,
+
+174
+00:09:19,470 --> 00:09:21,900
+greater than or equal to 1.
+
+175
+00:09:21,900 --> 00:09:25,990
+So all that's saying is that x1
+is a member of the reals,
+
+176
+00:09:25,990 --> 00:09:28,890
+x2 is a member of the reals,
+all the way up to xn is a
+
+177
+00:09:28,890 --> 00:09:29,910
+member of the reals.
+
+178
+00:09:29,910 --> 00:09:35,440
+Rn is the set of all of these
+possible ordered n-tuples or
+
+179
+00:09:35,440 --> 00:09:38,360
+ordered sets of n numbers.
+
+180
+00:09:38,360 --> 00:09:40,800
+So what is a vector?
+
+181
+00:09:40,800 --> 00:09:43,810
+What is a vector in Rn?
+
+182
+00:09:43,810 --> 00:09:47,360
+Well, a vector in Rn really is
+just a particular instance of
+
+183
+00:09:47,360 --> 00:09:48,590
+one of these n-tuples.
+
+184
+00:09:48,590 --> 00:09:55,065
+I'll just call it an ordered
+list of n real numbers.
+
+185
+00:09:55,065 --> 00:09:59,930
+   
+
+186
+00:09:59,930 --> 00:10:03,030
+And you can represent a vector
+in a bunch of different ways.
+
+187
+00:10:03,030 --> 00:10:07,290
+You could represent
+it like this.
+
+188
+00:10:07,290 --> 00:10:10,850
+You could represent it like--
+let me do it a bunch of
+
+189
+00:10:10,850 --> 00:10:13,090
+different ways.
+
+190
+00:10:13,090 --> 00:10:16,190
+A two-dimensional vector, you
+could represent like x1, x2,
+
+191
+00:10:16,190 --> 00:10:17,180
+kind of like a coordinate.
+
+192
+00:10:17,180 --> 00:10:20,200
+You could maybe represent it
+with brackets like that.
+
+193
+00:10:20,200 --> 00:10:21,300
+This is just syntax.
+
+194
+00:10:21,300 --> 00:10:24,150
+This is just different ways
+of representing the same
+
+195
+00:10:24,150 --> 00:10:26,510
+information, the same idea.
+
+196
+00:10:26,510 --> 00:10:28,440
+And for most of what we talk
+about in linear algebra, we're
+
+197
+00:10:28,440 --> 00:10:31,690
+going to represent them as
+essentially these columns, and
+
+198
+00:10:31,690 --> 00:10:33,370
+in the very near future,
+we'll represent
+
+199
+00:10:33,370 --> 00:10:35,000
+them as rows as well.
+
+200
+00:10:35,000 --> 00:10:38,280
+But I'm going to define
+my vector.
+
+201
+00:10:38,280 --> 00:10:41,670
+A vector as an Rn is an
+ordered list of n real
+
+202
+00:10:41,670 --> 00:10:44,390
+numbers, and I define-- and
+this is an example.
+
+203
+00:10:44,390 --> 00:10:54,750
+So it would be v1, v2, all the
+way to vn, where each of these
+
+204
+00:10:54,750 --> 00:10:56,155
+is a member of the
+real numbers.
+
+205
+00:10:56,155 --> 00:11:01,130
+   
+
+206
+00:11:01,130 --> 00:11:04,830
+And just to make sure you
+understand the notation or the
+
+207
+00:11:04,830 --> 00:11:06,950
+terminology, each of
+these is called a
+
+208
+00:11:06,950 --> 00:11:16,360
+component of our vector.
+
+209
+00:11:16,360 --> 00:11:18,630
+Actually, I want to be very
+careful here, because when we
+
+210
+00:11:18,630 --> 00:11:21,850
+write vectors, you want
+to make sure you
+
+211
+00:11:21,850 --> 00:11:23,130
+have a nice bold v.
+
+212
+00:11:23,130 --> 00:11:26,480
+I won't make all my v's in the
+future that bold, but that's
+
+213
+00:11:26,480 --> 00:11:29,540
+how, when you're reading a math
+book, they differentiate
+
+214
+00:11:29,540 --> 00:11:32,200
+between just a vector and just
+a regular quantity , right?
+
+215
+00:11:32,200 --> 00:11:36,090
+These regular quantities are
+just written non-bolded, while
+
+216
+00:11:36,090 --> 00:11:38,530
+the vectors are bolded.
+
+217
+00:11:38,530 --> 00:11:47,850
+Now, I'm going to define two
+operations for vectors in Rn.
+
+218
+00:11:47,850 --> 00:11:52,460
+I'm going to define addition,
+and these are definitions.
+
+219
+00:11:52,460 --> 00:11:55,040
+I could've defined them in any
+arbitrary way, but these I
+
+220
+00:11:55,040 --> 00:11:58,400
+think you'll find to be somewhat
+natural, so these are
+
+221
+00:11:58,400 --> 00:11:59,650
+definitions.
+
+222
+00:11:59,650 --> 00:12:02,120
+   
+
+223
+00:12:02,120 --> 00:12:06,000
+These are just human abstract
+constructs that end up
+
+224
+00:12:06,000 --> 00:12:07,210
+becoming very useful.
+
+225
+00:12:07,210 --> 00:12:08,800
+So they said, hey, let's
+make some definitions.
+
+226
+00:12:08,800 --> 00:12:10,340
+Let's define addition.
+
+227
+00:12:10,340 --> 00:12:13,100
+   
+
+228
+00:12:13,100 --> 00:12:18,510
+So, if I have some vector-- let
+me write it as a lowercase
+
+229
+00:12:18,510 --> 00:12:22,460
+a, but it's a really bolded
+lowercase a, and then that is
+
+230
+00:12:22,460 --> 00:12:25,230
+equal to a1, a2.
+
+231
+00:12:25,230 --> 00:12:28,900
+That's all of it's components
+all the way to an, and I want
+
+232
+00:12:28,900 --> 00:12:31,120
+to add that.
+
+233
+00:12:31,120 --> 00:12:34,400
+And then I have vector b-- and
+I'm going to make that a
+
+234
+00:12:34,400 --> 00:12:41,440
+really bolded b right there--
+is equal to b1, b2, all the
+
+235
+00:12:41,440 --> 00:12:46,690
+way to bn, I'm going to define
+addition of these two vectors
+
+236
+00:12:46,690 --> 00:12:51,010
+to be just the sum of each
+of their components.
+
+237
+00:12:51,010 --> 00:13:04,260
+Bolded a, plus bolded b is equal
+to a new vector, where
+
+238
+00:13:04,260 --> 00:13:05,740
+you just add each of
+their components.
+
+239
+00:13:05,740 --> 00:13:08,620
+It's going to be a1 plus
+b1 is going to
+
+240
+00:13:08,620 --> 00:13:10,420
+create this new component.
+
+241
+00:13:10,420 --> 00:13:16,200
+a2 plus b2, all the way
+down to an plus bn.
+
+242
+00:13:16,200 --> 00:13:20,910
+And if you found this somewhat
+confusing, just think, I'm
+
+243
+00:13:20,910 --> 00:13:23,360
+almost going through pains to
+write something very simple in
+
+244
+00:13:23,360 --> 00:13:28,130
+very confusing terms. If I have
+two vectors in R2, let's
+
+245
+00:13:28,130 --> 00:13:33,810
+say I have the vector 2, minus
+1, and I want to add that to
+
+246
+00:13:33,810 --> 00:13:41,060
+the vector 3, 2, I literally
+just add each of the
+
+247
+00:13:41,060 --> 00:13:42,280
+corresponding components.
+
+248
+00:13:42,280 --> 00:13:44,460
+So I add the first components
+to each other.
+
+249
+00:13:44,460 --> 00:13:47,390
+So 2 plus 3 is equal to 5.
+
+250
+00:13:47,390 --> 00:13:50,030
+Minus 1 plus 2 is equal to 1.
+
+251
+00:13:50,030 --> 00:13:53,740
+That's all my definition of
+vector addition is for my
+
+252
+00:13:53,740 --> 00:13:55,490
+vectors in real numbers.
+
+253
+00:13:55,490 --> 00:13:59,410
+And now the next thing I'm going
+to define is the idea of
+
+254
+00:13:59,410 --> 00:14:00,660
+a scalar multiple.
+
+255
+00:14:00,660 --> 00:14:07,260
+   
+
+256
+00:14:07,260 --> 00:14:09,490
+You might remember from physics
+class, a scalar is
+
+257
+00:14:09,490 --> 00:14:11,930
+just a regular number, or if
+your multiplying something by
+
+258
+00:14:11,930 --> 00:14:13,920
+a scalar, you're just
+scaling it up.
+
+259
+00:14:13,920 --> 00:14:16,710
+Maybe I shouldn't use the same
+word in the definition, but
+
+260
+00:14:16,710 --> 00:14:19,990
+I'm going to define it as--
+let me say c is a scalar.
+
+261
+00:14:19,990 --> 00:14:24,110
+So notice, I didn't
+bold the c.
+
+262
+00:14:24,110 --> 00:14:30,070
+So c times my vector a-- and
+here I'm going to take pains
+
+263
+00:14:30,070 --> 00:14:36,120
+to bold it up-- is going to be
+equal to all of my components
+
+264
+00:14:36,120 --> 00:14:40,500
+of vector a multiplied by
+each, multiplied by c.
+
+265
+00:14:40,500 --> 00:14:45,840
+So a1, a2, all the way to an,
+and they're each going to be
+
+266
+00:14:45,840 --> 00:14:48,790
+multiplied by c.
+
+267
+00:14:48,790 --> 00:14:51,800
+So that's all I define-- every
+term is going to be
+
+268
+00:14:51,800 --> 00:14:52,870
+multiplied by c.
+
+269
+00:14:52,870 --> 00:14:57,070
+And just to give you an example
+like that, if I wrote
+
+270
+00:14:57,070 --> 00:15:04,630
+minus 3 times some vector--
+I'll just
+
+271
+00:15:04,630 --> 00:15:06,390
+draw the vector here.
+
+272
+00:15:06,390 --> 00:15:08,010
+Let me draw a vector in R3.
+
+273
+00:15:08,010 --> 00:15:14,370
+So let's say the first term is
+pi, the second term is minus
+
+274
+00:15:14,370 --> 00:15:18,200
+2, and then the third term is 0,
+then this is just going to
+
+275
+00:15:18,200 --> 00:15:26,360
+be equal to a new vector in R3
+or you can kind of view it as
+
+276
+00:15:26,360 --> 00:15:31,100
+a three-dimensional vector,
+minus 3pi, minus 3 times minus
+
+277
+00:15:31,100 --> 00:15:37,360
+2 is positive 6, and then minus
+3 times 0 is just 0.
+
+278
+00:15:37,360 --> 00:15:39,100
+So it's that straightforward.
+
+279
+00:15:39,100 --> 00:15:41,750
+They made this fancy definition,
+but it's fairly
+
+280
+00:15:41,750 --> 00:15:43,550
+easy to deal with, I think.
+
+281
+00:15:43,550 --> 00:15:48,380
+And I'll just make one last
+definition, and I'll call that
+
+282
+00:15:48,380 --> 00:15:49,630
+the zero vector.
+
+283
+00:15:49,630 --> 00:15:54,350
+   
+
+284
+00:15:54,350 --> 00:15:56,760
+And depending on what dimension
+we're in, it just
+
+285
+00:15:56,760 --> 00:15:58,240
+means a vector with
+all zeroes.
+
+286
+00:15:58,240 --> 00:16:04,150
+So the zero vector in Rn, if
+it's arbitrary, is just a
+
+287
+00:16:04,150 --> 00:16:07,010
+vector where everything
+is zero.
+
+288
+00:16:07,010 --> 00:16:09,145
+And if this is Rn, you just
+have n components.
+
+289
+00:16:09,145 --> 00:16:13,080
+   
+
+290
+00:16:13,080 --> 00:16:14,950
+So those are all
+my definitions.
+
+291
+00:16:14,950 --> 00:16:19,060
+I think I've given you enough
+to think about right now in
+
+292
+00:16:19,060 --> 00:16:19,510
+this video.
+
+293
+00:16:19,510 --> 00:16:21,140
+In the next video, I'm going
+to show a bunch more of
+
+294
+00:16:21,140 --> 00:16:25,050
+examples, and I'll actually draw
+representations of these
+
+295
+00:16:25,050 --> 00:16:27,190
+vectors, although you don't
+have to, and we'll kind of
+
+296
+00:16:27,190 --> 00:16:28,950
+have a little more visual
+understanding
+
+297
+00:16:28,950 --> 00:16:30,680
+of what they mean.

@@ -1,0 +1,339 @@
+1
+00:00:01,201 --> 00:00:06,038
+This right here is a simulation that was created by Peter Colengredge
+
+2
+00:00:06,038 --> 00:00:10,976
+Using the 'Kahn Academy Computer Science Scratchpad' to better understand
+
+3
+00:00:10,976 --> 00:00:17,975
+why we divide by 'n-1' when we calculate an unbiased sample variance.
+
+4
+00:00:17,975 --> 00:00:20,646
+When we are in an unbiased way trying to estimate
+
+5
+00:00:20,646 --> 00:00:22,852
+the true population variance.
+
+6
+00:00:22,852 --> 00:00:25,573
+So what this simulation does is at first it constructs a
+
+7
+00:00:25,573 --> 00:00:29,770
+population distribution, a random one and every time you go to it
+
+8
+00:00:29,770 --> 00:00:33,100
+there'll be a different population distribution. This one has a population of
+
+9
+00:00:33,100 --> 00:00:37,186
+383 and then it calculates the parameters for that population directly
+
+10
+00:00:37,186 --> 00:00:42,366
+from it, the mean is 10.9, the variance 25.5.
+
+11
+00:00:42,366 --> 00:00:47,710
+and then it uses that population and samples from it and it does samples of size
+
+12
+00:00:47,710 --> 00:00:54,902
+2, 3, 4, 5 all the way up to 10 and it keeps sampling from it, calculating the statistics for those samples
+
+13
+00:00:54,902 --> 00:00:58,703
+so the sample mean and the sample variance, in particular the biased sample variance and
+
+14
+00:00:58,703 --> 00:01:01,771
+it starts telling us some things about this that give us some intuition and
+
+15
+00:01:01,771 --> 00:01:04,521
+you can actually click on each of these and zoom in
+
+16
+00:01:04,521 --> 00:01:08,437
+to really be able to study these graphs in detail.
+
+17
+00:01:08,437 --> 00:01:11,189
+So I've already taken a screenshot of this and put it in my
+
+18
+00:01:11,189 --> 00:01:20,312
+doodle pad, so I can really delve into some of the math in theintuition what this is showing us.
+
+19
+00:01:20,312 --> 00:01:26,040
+So here I took a screenshot and, you see, for this case right over here
+
+20
+00:01:26,040 --> 00:01:32,101
+the population was 529, population mean was 10.6
+
+21
+00:01:32,101 --> 00:01:35,847
+and down here in this chart he plots the population mean
+
+22
+00:01:35,847 --> 00:01:40,016
+right here at 10.6 and
+
+23
+00:01:40,016 --> 00:01:43,709
+over there you see that the population variance is at 36.8 and
+
+24
+00:01:43,709 --> 00:01:46,708
+right here he plots that right over here.
+
+25
+00:01:46,708 --> 00:01:48,023
+36.8.
+
+26
+00:01:48,023 --> 00:01:51,022
+So this first chart in the bottom left tell us a couple of interesting
+
+27
+00:01:51,022 --> 00:02:01,038
+things and just to be clear this is the biased sample variance that he's calculating.
+
+28
+00:02:01,038 --> 00:02:06,768
+So he's calculating it. That is being calculated for each of our data points,
+
+29
+00:02:06,768 --> 00:02:11,038
+so starting with our first data point in each of our samples, going to nth data point
+
+30
+00:02:11,038 --> 00:02:15,600
+in each of the samples, we're taking our data point, subtracting out the sample mean
+
+31
+00:02:15,600 --> 00:02:22,642
+squaring it and dividing the whole thing not by n-1, but by lower case n.
+
+32
+00:02:22,642 --> 00:02:26,041
+And this tells us several interesting things.
+
+33
+00:02:26,041 --> 00:02:30,369
+The first thing is shows us is that the cases where we were
+
+34
+00:02:30,369 --> 00:02:34,172
+significantly underestimating the sample variance, when we're getting sample variances
+
+35
+00:02:34,172 --> 00:02:39,189
+close to 0, these are also the cases or they're
+
+36
+00:02:39,189 --> 00:02:45,519
+disproportionately the cases where the means for those samples are way far off
+
+37
+00:02:45,519 --> 00:02:49,519
+from the true sample mean or you can view that the other way around
+
+38
+00:02:49,519 --> 00:02:53,506
+the cases were the mean is way far off from the sample mean
+
+39
+00:02:53,506 --> 00:02:58,708
+it seems like you're much more likely to underestimate the sample variance in those situations.
+
+40
+00:02:58,708 --> 00:03:03,931
+The other thing that might pop out is the realisation, that the pinker dots are the ones for
+
+41
+00:03:03,931 --> 00:03:09,041
+smaller sample size, while the bluer ones are of a larger sample size.
+
+42
+00:03:09,041 --> 00:03:16,702
+And you see, here, these two little, I guess the tails, so to speak, of the hump
+
+43
+00:03:16,702 --> 00:03:22,042
+that at these ends you disproportionately, it's more of a reddish colour
+
+44
+00:03:22,042 --> 00:03:27,270
+that most of the bluish or the purplish dots are focused right in the middle
+
+45
+00:03:27,270 --> 00:03:29,901
+right over here, that they are giving us a better estimate, there
+
+46
+00:03:29,901 --> 00:03:31,773
+are some red ones over here and that's
+
+47
+00:03:31,773 --> 00:03:34,515
+why it gives us that purplish colour but here on these
+
+48
+00:03:34,515 --> 00:03:38,770
+tails it's almost purely some of these red, by and then
+
+49
+00:03:38,770 --> 00:03:42,968
+happens to get a little blue one, but this is disproportionately far more red.
+
+50
+00:03:42,968 --> 00:03:46,370
+Which really makes sense: when you have a smaller sample size,
+
+51
+00:03:46,370 --> 00:03:50,310
+you're far more likely to get a sample mean that is a bad estimate
+
+52
+00:03:50,310 --> 00:03:54,309
+of the population mean, it's far from the population mean and
+
+53
+00:03:54,309 --> 00:03:58,938
+you're more likely to significantly underestimate the sample variance.
+
+54
+00:03:58,938 --> 00:04:04,100
+Now these next chart really get's to the meat of the issue, because
+
+55
+00:04:04,100 --> 00:04:06,511
+what this is telling us is that for each of these sample
+
+56
+00:04:06,511 --> 00:04:10,600
+sizes, so this right over here, for sample size 2, if we keep
+
+57
+00:04:10,600 --> 00:04:15,103
+taking sample size 2 and we keep calculating the biased sample size variance
+
+58
+00:04:15,103 --> 00:04:18,854
+and dividing that by the population variance and finding the mean over all of those
+
+59
+00:04:18,854 --> 00:04:19,926
+you see
+
+60
+00:04:19,926 --> 00:04:23,434
+that over many, many, many trials, many, many samples of size 2
+
+61
+00:04:23,434 --> 00:04:27,970
+that the biased sample variance over population variance it's approaching half
+
+62
+00:04:27,970 --> 00:04:31,104
+of the true population variance
+
+63
+00:04:31,104 --> 00:04:38,302
+With sample sizes 3 it's approaching two thirds, 66,6%, of the true population variance
+
+64
+00:04:38,302 --> 00:04:45,106
+When sample size is 4 it's approaching three fourths of the true population variance.
+
+65
+00:04:45,106 --> 00:04:48,772
+So we can come up with a general theme of what's happening:
+
+66
+00:04:48,772 --> 00:04:55,643
+when we use the biased estimate, we're not approaching the population variance,
+
+67
+00:04:55,643 --> 00:05:01,440
+we're approaching n-1, let me write this down, we're approaching
+
+68
+00:05:01,440 --> 00:05:06,100
+n-1 over n times the population variance.
+
+69
+00:05:06,100 --> 00:05:12,645
+When n was 2 this approached one half, when n is 3 this is two thirds, when
+
+70
+00:05:12,645 --> 00:05:15,370
+n is four this is three fourths, so
+
+71
+00:05:15,370 --> 00:05:18,106
+this is giving us a biased estimate.
+
+72
+00:05:18,106 --> 00:05:21,642
+So how would we unbias this?
+
+73
+00:05:21,642 --> 00:05:27,371
+Well, if we really want to get our best estimate of the true population variance, not
+
+74
+00:05:27,371 --> 00:05:30,962
+n-1 over n times the population variance
+
+75
+00:05:30,962 --> 00:05:34,750
+we would want to multiply, let me do some of the colour I haven't used yet,
+
+76
+00:05:34,750 --> 00:05:38,038
+we would want to multiply times n over n-1.
+
+77
+00:05:38,038 --> 00:05:43,641
+We would want to multiply n over n-1 to get an unbiased estimate.
+
+78
+00:05:43,641 --> 00:05:50,189
+Here, these cancel out and we're left with just the population variance, that's
+
+79
+00:05:50,189 --> 00:05:54,438
+what we want to estimate and here, over here,
+
+80
+00:05:54,438 --> 00:06:01,644
+you are left with our unbiased estimate of population variance.
+
+81
+00:06:01,644 --> 00:06:05,044
+Our unbiased sample variance, which is equal to
+
+82
+00:06:05,044 --> 00:06:07,771
+and this is what we see, what we saw in the last several videos, what you see
+
+83
+00:06:07,771 --> 00:06:12,685
+in statistics books and it's confusing why and hopefully Peter's simulation
+
+84
+00:06:12,685 --> 00:06:18,442
+gives you a good idea of why, at least convinces you that this is the case.
+
+85
+00:06:18,442 --> 00:06:23,640
+So you would want to divide by n-1.

@@ -1,0 +1,319 @@
+1
+00:00:00,738 --> 00:00:04,204
+the alternative form of the derivate of the function f of the number 'a'
+
+2
+00:00:04,204 --> 00:00:08,672
+denoted by f'(a) is given by ... this stuff ...
+
+3
+00:00:08,672 --> 00:00:11,804
+now this might look a little strange to you but if you really think about
+
+4
+00:00:11,804 --> 00:00:16,137
+what it's saying, it's really just taking the slope of the tangent line between
+
+5
+00:00:16,137 --> 00:00:19,804
+a, f(a) ... so let's imagine some
+
+6
+00:00:19,804 --> 00:00:23,069
+arbitrary function like this, let's say that is
+
+7
+00:00:23,069 --> 00:00:27,948
+I'll just write that's our function f, and so you could
+
+8
+00:00:27,948 --> 00:00:31,339
+have the point when x=a, this is our x-axis
+
+9
+00:00:31,339 --> 00:00:35,071
+this is the point: (a, f(a))
+
+10
+00:00:35,501 --> 00:00:38,733
+notice: a, f(a)
+
+11
+00:00:38,733 --> 00:00:39,734
+and then
+
+12
+00:00:39,734 --> 00:00:44,069
+we could take the slope between that and some arbitrary point, let's call that x
+
+13
+00:00:44,069 --> 00:00:48,366
+so this is the point: x, f(x)
+
+14
+00:00:50,166 --> 00:00:51,470
+and notice ...
+
+15
+00:00:51,470 --> 00:00:56,403
+this top, the numerator right here, this is just our change in the value of the function
+
+16
+00:00:56,403 --> 00:00:58,948
+or you could view that as the change in the vertical axis
+
+17
+00:00:58,948 --> 00:01:03,737
+so that would give you this distance right over here, so that's what we're doing up here, in the numerator
+
+18
+00:01:03,737 --> 00:01:06,947
+and then in the denominator we're finding the change
+
+19
+00:01:06,947 --> 00:01:11,282
+in our horizontal values, horizontal coordinates
+
+20
+00:01:11,282 --> 00:01:13,403
+that we'll do in a different color
+
+21
+00:01:13,833 --> 00:01:16,088
+that would give you
+
+22
+00:01:16,118 --> 00:01:19,870
+so the change in the horizontal, that's this right over here
+
+23
+00:01:19,870 --> 00:01:23,115
+and then they're trying to apply the limit as x approaches a, so as x gets
+
+24
+00:01:23,115 --> 00:01:26,948
+closer and closer and closer and closer to a what's going to
+
+25
+00:01:27,163 --> 00:01:31,616
+happen is is that when x is out here we have this secant line
+
+26
+00:01:31,616 --> 00:01:35,205
+we're finding the slope of this secant
+
+27
+00:01:35,205 --> 00:01:39,281
+line, but as x gets closer and closer the secant line gets
+
+28
+00:01:39,281 --> 00:01:43,139
+better and better and better approximated to the slope of the tangent line
+
+29
+00:01:43,323 --> 00:01:47,137
+where the limit as x approaches a but doesn't quite equal it
+
+30
+00:01:47,137 --> 00:01:55,537
+is going to be, this is actually the definition of our derivate or the alternate form of the derivate definition, and this would be the slope of the tangent line
+
+31
+00:01:55,537 --> 00:01:56,782
+that exists
+
+32
+00:01:57,105 --> 00:02:00,032
+so with that all out of the way, let's try to answer our question
+
+33
+00:02:00,032 --> 00:02:03,050
+with the alternate form of the derivates as an aid, makes sense of the
+
+34
+00:02:03,050 --> 00:02:07,070
+following limit expression by identifying the function f and the number
+
+35
+00:02:07,070 --> 00:02:11,485
+a. So right here they want to find the slope of the tangent
+
+36
+00:02:11,485 --> 00:02:15,204
+line at 5, here they wanted to find the slope of the tangent line at a
+
+37
+00:02:16,110 --> 00:02:18,949
+so it's pretty clear that a is
+
+38
+00:02:18,949 --> 00:02:22,870
+equal to 5, and that f(a)
+
+39
+00:02:24,638 --> 00:02:27,076
+is equal to 125
+
+40
+00:02:27,276 --> 00:02:29,616
+now what about f(x)? f(x)?
+
+41
+00:02:30,523 --> 00:02:35,137
+Well, here is a limit of f(x)-f(a), well here's the limit as x
+
+42
+00:02:35,137 --> 00:02:39,365
+x to the 3rd minus 125, and this makes sense
+
+43
+00:02:39,365 --> 00:02:43,405
+if f(x) = x to the third
+
+44
+00:02:43,405 --> 00:02:46,947
+then it makes sense that f(5)
+
+45
+00:02:46,947 --> 00:02:50,204
+f(5) is going to be 5 to the third
+
+46
+00:02:50,204 --> 00:02:54,805
+is going to be 125, and we're also taking up here the limit is x
+
+47
+00:02:54,805 --> 00:02:59,282
+approaches a which is x approaches 5
+
+48
+00:02:59,282 --> 00:03:03,139
+so this is the derivate of the function f(x)
+
+49
+00:03:03,139 --> 00:03:08,943
+is equal to x to the third, let me write that down in a green color
+
+50
+00:03:08,958 --> 00:03:12,702
+x to the third at the number x equals
+
+51
+00:03:12,702 --> 00:03:15,370
+at the number a equals to 5, so we can imagine
+
+52
+00:03:15,524 --> 00:03:19,075
+this, let's try to actually graph it so that we can image, actually I'll do it
+
+53
+00:03:19,075 --> 00:03:22,402
+out here, where we have a little bit better contrast with the colors
+
+54
+00:03:24,355 --> 00:03:27,537
+so let's say that is my y-axis
+
+55
+00:03:27,537 --> 00:03:30,656
+let's say that this is my
+
+56
+00:03:30,733 --> 00:03:34,365
+x-axis, I'm not going to quite draw it to scale, let's say that here
+
+57
+00:03:34,365 --> 00:03:39,003
+is a point 125 or y=125
+
+58
+00:03:39,003 --> 00:03:42,471
+this is when x=5 so they're clearly not at the same
+
+59
+00:03:42,471 --> 00:03:47,094
+scale. But the function is going to look something
+
+60
+00:03:47,124 --> 00:03:54,489
+is going to look something like this, you know what x to the third is going to look like
+
+61
+00:03:54,489 --> 00:04:02,725
+it looks something, something like, something like, let me draw a little bit, something like this
+
+62
+00:04:02,725 --> 00:04:05,537
+we know it's going to look something like this. So here our a
+
+63
+00:04:05,537 --> 00:04:06,806
+a=5. Our a=5. This point right here
+
+64
+00:04:06,806 --> 00:04:14,364
+is, is: (5, 125) .... (5,125)
+
+65
+00:04:14,364 --> 00:04:17,870
+and then we're taking the slope between that point and
+
+66
+00:04:17,870 --> 00:04:21,736
+an arbitrary x value, and an arbitrary, or I should say
+
+67
+00:04:21,736 --> 00:04:25,071
+an arbitrary other point on the curve, so this right over here would be the point
+
+68
+00:04:25,071 --> 00:04:30,003
+called: x comma x to the third. We know that
+
+69
+00:04:30,003 --> 00:04:33,782
+f(x) is equal to x to the third. Let me make it clear
+
+70
+00:04:33,782 --> 00:04:36,071
+that the graph of y is equal to, y is equal to
+
+71
+00:04:37,563 --> 00:04:41,536
+x to the third, and so this expression
+
+72
+00:04:41,536 --> 00:04:45,537
+right over here, all of this is the slope between two points
+
+73
+00:04:46,644 --> 00:04:49,698
+this is the slope between these two points. And as we take the limit
+
+74
+00:04:49,898 --> 00:04:53,948
+as x approaches 5, so right now this is our x
+
+75
+00:04:53,948 --> 00:04:57,616
+as x get closer and closer and closer to 5
+
+76
+00:04:57,616 --> 00:05:01,472
+as it gets closer and closer to 5 these secant lines are better and better
+
+77
+00:05:01,472 --> 00:05:05,337
+and better approximate the slope of the tangent line
+
+78
+00:05:05,337 --> 00:05:10,366
+at x equals 5. So let's look at the tangent line a little bit
+
+79
+00:05:10,366 --> 00:05:13,537
+looks something to be even more, looks something like
+
+80
+00:05:13,537 --> 00:05:17,000
+something like that.

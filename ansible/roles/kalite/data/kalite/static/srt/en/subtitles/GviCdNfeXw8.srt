@@ -1,0 +1,715 @@
+1
+00:00:00,050 --> 00:00:04,000
+All right, problem 42.
+
+2
+00:00:04,000 --> 00:00:06,110
+So say for the system of equations given,
+
+3
+00:00:06,110 --> 00:00:08,000
+and this is the system of equations they give,
+
+4
+00:00:08,000 --> 00:00:14,040
+they say x minus 4 is equal to z.
+
+5
+00:00:14,040 --> 00:00:19,300
+They say y minus x is equal to 8,
+
+6
+00:00:19,600 --> 00:00:22,030
+and that 8 minus z is equal to t.
+
+7
+00:00:28,050 --> 00:00:31,000
+So they say for the system equation, what is the value of z?
+
+8
+00:00:31,000 --> 00:00:32,280
+So we're trying to figure out z in this.
+
+9
+00:00:32,280 --> 00:00:36,010
+Statement number one: they tell us that x is equal to 7.
+
+10
+00:00:39,010 --> 00:00:40,620
+Well, if we know x is equal to 7,
+
+11
+00:00:40,620 --> 00:00:42,060
+we can solve for z right here
+
+12
+00:00:42,060 --> 00:00:46,740
+because x is 7 and 7 minus 4 is z,
+
+13
+00:00:47,090 --> 00:00:50,250
+so 7 minus 4 is 3, so z is equal to 3.
+
+14
+00:00:50,250 --> 00:00:51,230
+That was pretty straightforward.
+
+15
+00:00:51,230 --> 00:00:54,270
+So one alone is sufficient just using this first equation
+
+16
+00:00:54,220 --> 00:00:55,040
+in the system.
+
+17
+00:00:55,040 --> 00:00:58,060
+So let's see if two is of any use.
+
+18
+00:00:58,460 --> 00:01:03,810
+t is equal to 5. Well, this is an easy one, too.
+
+19
+00:01:03,810 --> 00:01:06,170
+You put t is equal to 5 right here
+
+20
+00:01:06,570 --> 00:01:09,310
+and then you could easily solve for z, right?
+
+21
+00:01:09,310 --> 00:01:13,110
+You get 8 minus z is equal to 5 and you can solve for it,
+
+22
+00:01:13,110 --> 00:01:13,820
+but I'm not even going to do it.
+
+23
+00:01:13,820 --> 00:01:15,030
+You just have to know that you can.
+
+24
+00:01:15,030 --> 00:01:18,010
+So this alone is sufficient as well.
+
+25
+00:01:18,010 --> 00:01:20,130
+So the answer is D.
+
+26
+00:01:20,130 --> 00:01:23,050
+Each statement alone is sufficient.
+
+27
+00:01:23,050 --> 00:01:28,000
+Problem 43.
+
+28
+00:01:28,000 --> 00:01:30,190
+Is x equal to 5?
+
+29
+00:01:34,000 --> 00:01:35,640
+In statement number one,
+
+30
+00:01:35,640 --> 00:01:40,900
+they say x is greater than or equal to 5.
+
+31
+00:01:40,900 --> 00:01:42,850
+Well, that doesn't tell me whether x is equal to 5.
+
+32
+00:01:42,850 --> 00:01:45,000
+It just says it's greater than 5.
+
+33
+00:01:45,000 --> 00:01:49,100
+Statement number two tells us x is less than or equal to 5.
+
+34
+00:01:49,100 --> 00:01:54,020
+Once again, that does not tell me whether x is 5,
+
+35
+00:01:54,020 --> 00:01:56,290
+but if I told you that both of these are true,
+
+36
+00:01:56,290 --> 00:02:00,340
+x is greater than or equal 5, and-- not or--
+
+37
+00:02:00,340 --> 00:02:05,000
+and x is less than or equal to 5,
+
+38
+00:02:05,400 --> 00:02:07,520
+well, actually, that still--
+
+39
+00:02:07,720 --> 00:02:12,520
+well, the only x that satisfies that equation,
+
+40
+00:02:12,520 --> 00:02:17,090
+that satisfies both of these, is 5, right?
+
+41
+00:02:17,090 --> 00:02:20,310
+I mean, you put 3 in, 3 will not satisfy this one.
+
+42
+00:02:20,310 --> 00:02:23,000
+If you put 7 in, 7 will not satisfy this one.
+
+43
+00:02:23,000 --> 00:02:27,280
+So the only thing that satisfies this is 5,
+
+44
+00:02:29,020 --> 00:02:30,220
+so you need both of these.
+
+45
+00:02:30,220 --> 00:02:36,040
+So the answer is both statements together are sufficient, C.
+
+46
+00:02:36,040 --> 00:02:40,030
+That one's confusing because it's so simple on some level.
+
+47
+00:02:40,030 --> 00:02:43,090
+44.
+
+48
+00:02:43,090 --> 00:02:45,650
+44. The table above shows that this--
+
+49
+00:02:45,650 --> 00:02:47,330
+let me see if I can draw this table.
+
+50
+00:02:51,310 --> 00:03:05,720
+And they write R, S, T, U, and R, S, T, and U.
+
+51
+00:03:05,720 --> 00:03:06,680
+They have a bunch of things.
+
+52
+00:03:06,680 --> 00:03:07,890
+I don't even know what these are yet.
+
+53
+00:03:07,890 --> 00:03:08,690
+I haven't read the question,
+
+54
+00:03:08,690 --> 00:03:30,010
+but let's see, 0, y, x, 62, y, 0, 56, 75, x, 56, 0, 69.
+
+55
+00:03:30,260 --> 00:03:39,350
+And then 62-- that's a 6-- 62, 75, 69, and 0.
+
+56
+00:03:40,050 --> 00:03:41,340
+And what are they going to ask?
+
+57
+00:03:41,340 --> 00:03:42,910
+They're saying the table above shows the distance in
+
+58
+00:03:42,910 --> 00:03:44,970
+kilometers by the most direct route
+
+59
+00:03:44,970 --> 00:03:46,820
+between any two of the four cities.
+
+60
+00:03:46,820 --> 00:03:52,610
+For example, the distance between city R and city U is 62.
+
+61
+00:03:52,610 --> 00:03:54,190
+Or if you said between U and R,
+
+62
+00:03:54,190 --> 00:03:55,540
+it's going to be 62 as well, right?
+
+63
+00:03:55,540 --> 00:03:56,470
+That's the same thing.
+
+64
+00:03:56,470 --> 00:03:57,390
+Fair enough.
+
+65
+00:03:57,390 --> 00:04:00,620
+What is the value of x?
+
+66
+00:04:00,620 --> 00:04:04,790
+So the value of x is the distance between T and R.
+
+67
+00:04:04,790 --> 00:04:06,000
+Let me circle that.
+
+68
+00:04:06,200 --> 00:04:08,030
+They want to know what the value of x is.
+
+69
+00:04:08,030 --> 00:04:12,370
+It's the distance between T and R, so it's that one.
+
+70
+00:04:12,370 --> 00:04:14,510
+And another way to look at distance between T and R,
+
+71
+00:04:14,510 --> 00:04:17,060
+that's this one so, these are both x.
+
+72
+00:04:17,060 --> 00:04:18,560
+Fair enough.
+
+73
+00:04:18,560 --> 00:04:19,510
+OK.
+
+74
+00:04:19,510 --> 00:04:24,010
+So statement number one tells us, by the most direct route,
+
+75
+00:04:24,010 --> 00:04:26,360
+the distance between S and T,
+
+76
+00:04:26,690 --> 00:04:28,920
+so we could say the distance between S and T,
+
+77
+00:04:28,920 --> 00:04:30,740
+I'll just say it's line segment ST,
+
+78
+00:04:30,940 --> 00:04:33,240
+is equal to twice the distance between S and R.
+
+79
+00:04:33,240 --> 00:04:39,090
+It's equal to two times SR.
+
+80
+00:04:39,090 --> 00:04:41,430
+So let's see, do we know what SR is?
+
+81
+00:04:41,430 --> 00:04:45,420
+SR is equal to y, right?
+
+82
+00:04:45,420 --> 00:04:56,030
+And ST is equal to 56.
+
+83
+00:04:56,030 --> 00:04:59,890
+So 56 is equal to 2 times SR.
+
+84
+00:04:59,890 --> 00:05:05,570
+The distance between S and R is y, so it equals 2y.
+
+85
+00:05:05,570 --> 00:05:11,000
+And so we can solve for y. y is equal to 28.
+
+86
+00:05:11,000 --> 00:05:13,320
+And we didn't have to solve it, but let's see.
+
+87
+00:05:13,320 --> 00:05:15,000
+I'm just trying to see where this goes.
+
+88
+00:05:15,000 --> 00:05:17,590
+But that still doesn't help me figure out
+
+89
+00:05:17,590 --> 00:05:22,360
+the distance between R and T.
+
+90
+00:05:22,560 --> 00:05:25,050
+That just tells me solve for y. y is 28.
+
+91
+00:05:28,020 --> 00:05:32,020
+Statement number two, see where this is going.
+
+92
+00:05:32,020 --> 00:05:37,990
+By the most direct route the distance between T and U
+
+93
+00:05:38,690 --> 00:05:43,420
+is 1.5 times the distance between R and T.
+
+94
+00:05:45,750 --> 00:05:47,980
+So the distance between R and T,this is the interesting thing
+
+95
+00:05:47,980 --> 00:05:52,040
+because R and T is x, right?
+
+96
+00:05:52,040 --> 00:05:54,550
+So they're saying the distance between T and U
+
+97
+00:05:54,550 --> 00:05:57,930
+is equal to 1.5 times x.
+
+98
+00:05:57,930 --> 00:06:00,040
+And what's this between T and U?
+
+99
+00:06:00,040 --> 00:06:03,480
+The distance between T and U is 69.
+
+100
+00:06:09,540 --> 00:06:10,400
+You don't even have to solve it.
+
+101
+00:06:10,400 --> 00:06:12,660
+You just know that you can usually solve for x
+
+102
+00:06:12,660 --> 00:06:14,370
+if you know statement number two.
+
+103
+00:06:14,370 --> 00:06:19,000
+So statement number two alone helps you figure out what x is.
+
+104
+00:06:19,000 --> 00:06:21,230
+Statement number one is fairly useless.
+
+105
+00:06:21,230 --> 00:06:23,230
+So the answer is B.
+
+106
+00:06:23,230 --> 00:06:26,090
+Statement two alone is sufficient.
+
+107
+00:06:26,090 --> 00:06:30,000
+Let me draw a line here. I don't want to--
+
+108
+00:06:30,000 --> 00:06:34,070
+OK, problem number 45.
+
+109
+00:06:34,070 --> 00:06:38,010
+45. What is the value of the two-digit integer x?
+
+110
+00:06:38,010 --> 00:06:44,030
+So 2-dig integer x equals, who knows?
+
+111
+00:06:44,030 --> 00:06:45,050
+All right.
+
+112
+00:06:45,050 --> 00:06:49,880
+Statement number one: The sum of the two digits is 3.
+
+113
+00:06:49,880 --> 00:06:53,400
+So let's that x is equal to the number AB
+
+114
+00:06:53,400 --> 00:06:55,480
+where this is the tens digits and this is the ones digit.
+
+115
+00:06:55,480 --> 00:06:59,090
+So statement number one says the sum of the two digits is 3,
+
+116
+00:06:59,090 --> 00:07:04,030
+so A plus B is equal to 3.
+
+117
+00:07:04,030 --> 00:07:06,320
+Well, that doesn't help us. There's a lot of--
+
+118
+00:07:06,320 --> 00:07:09,570
+well, you know that these are going to be positive numbers,
+
+119
+00:07:09,570 --> 00:07:12,510
+but we don't know whether they're two different numbers.
+
+120
+00:07:12,510 --> 00:07:18,030
+Two: x is divisible by 3.
+
+121
+00:07:18,030 --> 00:07:19,630
+x is divisible at 3.
+
+122
+00:07:19,630 --> 00:07:22,110
+Well, I don't know if you learned that trick in school,
+
+123
+00:07:22,110 --> 00:07:23,860
+but any number that is divisible by 3,
+
+124
+00:07:23,860 --> 00:07:29,430
+the sum of their digits are also divisible by 3.
+
+125
+00:07:29,530 --> 00:07:30,040
+So once again,
+
+126
+00:07:30,040 --> 00:07:38,010
+that just means that A plus B is equal to some multiple of 3.
+
+127
+00:07:38,010 --> 00:07:40,050
+Well, if you keep adding them, they eventually add up.
+
+128
+00:07:40,050 --> 00:07:42,020
+So if you had a two digit number, so this is--
+
+129
+00:07:42,020 --> 00:07:46,060
+let's see. Let's think. Just A plus B is equal to 3.
+
+130
+00:07:46,360 --> 00:07:48,320
+This could be a couple of different things.
+
+131
+00:07:48,320 --> 00:07:50,570
+It could be a two-digit number.
+
+132
+00:07:50,570 --> 00:07:57,810
+It could be 30. It could be 1.
+
+133
+00:07:57,810 --> 00:08:01,060
+It could be 12. It could be 21.
+
+134
+00:08:01,060 --> 00:08:03,780
+I think those are all of the possibilities
+
+135
+00:08:03,780 --> 00:08:07,070
+that we can have just off of statement number one.
+
+136
+00:08:07,070 --> 00:08:08,910
+And x is divisible by three,
+
+137
+00:08:08,910 --> 00:08:10,440
+well, all of these are divisible by 3,
+
+138
+00:08:10,440 --> 00:08:12,990
+so really, both statements give you no information.
+
+139
+00:08:12,990 --> 00:08:14,250
+So the answer is E,
+
+140
+00:08:14,250 --> 00:08:17,090
+that both statements combined still give me nothing.
+
+141
+00:08:17,090 --> 00:08:21,050
+But all of these are possibilities.
+
+142
+00:08:21,050 --> 00:08:23,690
+And actually, this one leads to many,
+
+143
+00:08:23,690 --> 00:08:27,100
+many more possibilities that x is divisible by 3
+
+144
+00:08:27,100 --> 00:08:30,010
+because then you could have things like-- I don't know.
+
+145
+00:08:30,010 --> 00:08:33,420
+This would have been a valid number as well.
+
+146
+00:08:33,420 --> 00:08:34,530
+This would actually give a lot more.
+
+147
+00:08:34,530 --> 00:08:35,610
+This is a little bit more strict.
+
+148
+00:08:35,610 --> 00:08:38,650
+But anyway, either way, we can't figure out what x is.
+
+149
+00:08:38,650 --> 00:08:40,400
+It could be 30. It could be 12. It could be 21.
+
+150
+00:08:40,400 --> 00:08:41,050
+It could be anything.
+
+151
+00:08:41,050 --> 00:08:45,060
+All right. Problem 46.
+
+152
+00:08:45,060 --> 00:08:49,620
+What is the tenth digit in the decimal representation of a
+
+153
+00:08:49,620 --> 00:08:50,310
+certain number?
+
+154
+00:08:50,310 --> 00:08:51,300
+So the tenth,
+
+155
+00:08:51,300 --> 00:08:54,010
+that's the number right behind the decimal point.
+
+156
+00:08:54,010 --> 00:08:56,100
+So the number-- let's just call it x--
+
+157
+00:08:56,100 --> 00:09:01,060
+so statement number one says x is less than 1/3.
+
+158
+00:09:01,290 --> 00:09:06,070
+And two says that x is greater than 1/4.
+
+159
+00:09:09,070 --> 00:09:13,000
+So this is enough to figure out what the tenth digit is?
+
+160
+00:09:13,000 --> 00:09:14,980
+So what's the number that's less than 1/3?
+
+161
+00:09:14,980 --> 00:09:16,200
+Let me to think of a couple of them.
+
+162
+00:09:16,200 --> 00:09:18,310
+Well, 1/3 is like 0.333 repeating,
+
+163
+00:09:18,310 --> 00:09:26,410
+so if I just write 0.32 that satisfies one and it satisfies 2
+
+164
+00:09:26,410 --> 00:09:27,060
+right?
+
+165
+00:09:27,060 --> 00:09:29,590
+0.32 is greater than 1/4. But what's another--?
+
+166
+00:09:29,590 --> 00:09:33,020
+And then in this case, a tenth digit would be a 3, but let me
+
+167
+00:09:33,020 --> 00:09:35,270
+try to find another one that would satisfy these both.
+
+168
+00:09:35,270 --> 00:09:39,060
+Well, let's see, greater than 1/4, what about 0.26?
+
+169
+00:09:39,060 --> 00:09:42,020
+0.26 is definitely greater than 1/4
+
+170
+00:09:42,020 --> 00:09:44,420
+and is definitely less than 1/3,
+
+171
+00:09:44,420 --> 00:09:46,120
+but both of these have different tens.
+
+172
+00:09:46,120 --> 00:09:47,870
+One has a 2, one has a 3 there.
+
+173
+00:09:47,870 --> 00:09:51,310
+So even both statements combined still do not allow me
+
+174
+00:09:51,310 --> 00:09:52,200
+to solve the problem.
+
+175
+00:09:52,200 --> 00:09:53,540
+There's not enough information given.
+
+176
+00:09:53,540 --> 00:09:54,970
+So once again, E,
+
+177
+00:09:54,970 --> 00:09:58,060
+together I'm still not getting enough information.
+
+178
+00:09:58,760 --> 00:09:59,950
+Oh, I'm almost at 10 minutes.
+
+179
+00:09:59,950 --> 00:10:02,020
+Anyway, I'll see you in the next video.

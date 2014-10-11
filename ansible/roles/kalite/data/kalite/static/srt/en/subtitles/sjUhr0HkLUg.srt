@@ -1,0 +1,551 @@
+1
+00:00:00,491 --> 00:00:06,339
+We're asked:"What are the domain and range of the sine function?"
+
+2
+00:00:06,339 --> 00:00:11,046
+So to think about that, let's actually draw the sine function out.
+
+3
+00:00:11,046 --> 00:00:13,074
+And what I have here... on the left hand side right
+
+4
+00:00:13,074 --> 00:00:19,810
+over here I've got a unit circle and let me truncate this a little bit
+
+5
+00:00:19,810 --> 00:00:22,049
+I don't need that space over here so let me clear that out.
+
+6
+00:00:22,049 --> 00:00:25,087
+So I have a unit circle on the left hand side right over here
+
+7
+00:00:25,087 --> 00:00:29,195
+and I'm going to use that to figure out the values of sine of theta
+
+8
+00:00:29,195 --> 00:00:32,623
+for a given theta. So on the unit circle this is x
+
+9
+00:00:32,623 --> 00:00:37,401
+and this is y. Or you could even view this as the...
+
+10
+00:00:37,401 --> 00:00:40,195
+Well we could just use X and Y and so for a given theta
+
+11
+00:00:40,195 --> 00:00:44,093
+we can see where the terminal side of the angle intersects
+
+12
+00:00:44,093 --> 00:00:48,938
+the unit circle and the y coordinate of that point is going to be sine of theta.
+
+13
+00:00:48,938 --> 00:00:54,535
+And over here I'm going to graph still y in the vertical axis
+
+14
+00:00:54,535 --> 00:01:02,112
+but I'm going to graph the graph of y = sine of theta
+
+15
+00:01:02,112 --> 00:01:05,389
+and on the horizontal axis, I'm not going to graph x
+
+16
+00:01:05,389 --> 00:01:08,356
+but I'm going to graph theta. We can view theta as
+
+17
+00:01:08,356 --> 00:01:13,569
+independent variable here and theta is going to be in radians.
+
+18
+00:01:13,569 --> 99:59:59,999
+So, we're essentially going to pick a bunch of thetas
+
+19
+99:59:59,999 --> 99:59:59,999
+and then come up with what sine of theta is and then graph it.
+
+20
+99:59:59,999 --> 99:59:59,999
+Let's set up a little bit of a table here.
+
+21
+99:59:59,999 --> 99:59:59,999
+Over here I have theta
+
+22
+99:59:59,999 --> 99:59:59,999
+and over here we're going to figure out what sine of theta is.
+
+23
+99:59:59,999 --> 99:59:59,999
+And we can do a bunch of theta values. We could start
+
+24
+99:59:59,999 --> 99:59:59,999
+at zero. What is sine of theta going to be?
+
+25
+99:59:59,999 --> 99:59:59,999
+When the angle is zero we intersect the unit circle right over there
+
+26
+99:59:59,999 --> 99:59:59,999
+the y coordinate of this is still zero, this is the point (1,0).
+
+27
+99:59:59,999 --> 99:59:59,999
+The y-coordinate is zero, so sine of theta is zero.
+
+28
+99:59:59,999 --> 99:59:59,999
+We can say sine of zero = zero.
+
+29
+99:59:59,999 --> 99:59:59,999
+Now let's try theta is equal to pi/2.
+
+30
+99:59:59,999 --> 99:59:59,999
+I'm just doing the ones that are really easy to figure out.
+
+31
+99:59:59,999 --> 99:59:59,999
+So theta is equal to pi/2,
+
+32
+99:59:59,999 --> 99:59:59,999
+that's the same thing as a 90 degree angle
+
+33
+99:59:59,999 --> 99:59:59,999
+so the terminal side is going to be right along the y-axis.
+
+34
+99:59:59,999 --> 99:59:59,999
+Just like that. Where it intersects the unit circle
+
+35
+99:59:59,999 --> 99:59:59,999
+is right over here, and what point is that?
+
+36
+99:59:59,999 --> 99:59:59,999
+Well, that's the point (0,1).
+
+37
+99:59:59,999 --> 99:59:59,999
+So what is the sine of pi/2?
+
+38
+99:59:59,999 --> 99:59:59,999
+Well, sine of pi/2 is just the y-coordinate
+
+39
+99:59:59,999 --> 99:59:59,999
+right over here is 1.
+
+40
+99:59:59,999 --> 99:59:59,999
+Sine of pi/2 is one.
+
+41
+99:59:59,999 --> 99:59:59,999
+Let's keep going and you might see a little pattern here
+
+42
+99:59:59,999 --> 99:59:59,999
+we're just going more and more around the circle
+
+43
+99:59:59,999 --> 99:59:59,999
+so let's think about what happens when theta
+
+44
+99:59:59,999 --> 99:59:59,999
+is equal to pi. What is the sine of pi?
+
+45
+99:59:59,999 --> 99:59:59,999
+Well we intersect the unit circle right over there
+
+46
+99:59:59,999 --> 99:59:59,999
+that coordinate is (-1,0)
+
+47
+99:59:59,999 --> 99:59:59,999
+Sine is the y-coordinate, so this right over here
+
+48
+99:59:59,999 --> 99:59:59,999
+is sine of pi. Sine of pi is zero.
+
+49
+99:59:59,999 --> 99:59:59,999
+Let's go to 3pi/2. Well now we've gone 3/4
+
+50
+99:59:59,999 --> 99:59:59,999
+of the way around the circle, we intersect the terminal side
+
+51
+99:59:59,999 --> 99:59:59,999
+of the angle and it intersects the unit circle right over here
+
+52
+99:59:59,999 --> 99:59:59,999
+so based on that what is the sine of 3pi/2?
+
+53
+99:59:59,999 --> 99:59:59,999
+Well, this point right over here is the point (0,-1)
+
+54
+99:59:59,999 --> 99:59:59,999
+the sine of theta is the same thing as the y-coordinate
+
+55
+99:59:59,999 --> 99:59:59,999
+or the y-coordinate is the sine of theta
+
+56
+99:59:59,999 --> 99:59:59,999
+so when theta is 3pi/2, sine of theta is equal to -1.
+
+57
+99:59:59,999 --> 99:59:59,999
+And let's come full circle here.
+
+58
+99:59:59,999 --> 99:59:59,999
+So let's go all the way to theta equalling 2pi. I'll just use the yellow here.
+
+59
+99:59:59,999 --> 99:59:59,999
+What happens when theta is equal to 2pi?
+
+60
+99:59:59,999 --> 99:59:59,999
+Well, then we have gone all the way around the circle
+
+61
+99:59:59,999 --> 99:59:59,999
+and we are back to where we started and the
+
+62
+99:59:59,999 --> 99:59:59,999
+y-coordinate is zero, so sine of 2pi is once again zero.
+
+63
+99:59:59,999 --> 99:59:59,999
+If we were keep going around we're going to start
+
+64
+99:59:59,999 --> 99:59:59,999
+seeing, as we keep incrementing the angle
+
+65
+99:59:59,999 --> 99:59:59,999
+we are going to see the same pattern emerge again.
+
+66
+99:59:59,999 --> 99:59:59,999
+Let's try to graph this.
+
+67
+99:59:59,999 --> 99:59:59,999
+So when theta is equal to zero sine of theta is zero.
+
+68
+99:59:59,999 --> 99:59:59,999
+When theta is equal to pi/2 sine of theta is one.
+
+69
+99:59:59,999 --> 99:59:59,999
+So we'll use the same scale. Sine of theta is equal to one.
+
+70
+99:59:59,999 --> 99:59:59,999
+I'll just make... this is one on this axis and on that axis
+
+71
+99:59:59,999 --> 99:59:59,999
+so we can maybe see a little bit of a parallel here
+
+72
+99:59:59,999 --> 99:59:59,999
+When theta is equal to pi, sine of theta is zero.
+
+73
+99:59:59,999 --> 99:59:59,999
+So we go back right over there.
+
+74
+99:59:59,999 --> 99:59:59,999
+When theta is equal to 3pi/2,
+
+75
+99:59:59,999 --> 99:59:59,999
+so that would be right over here
+
+76
+99:59:59,999 --> 99:59:59,999
+3pi/2, sine of theta is negative one.
+
+77
+99:59:59,999 --> 99:59:59,999
+So this is negative one over here
+
+78
+99:59:59,999 --> 99:59:59,999
+I'll do the same scale over here, I'll make this negative
+
+79
+99:59:59,999 --> 99:59:59,999
+I'll make this negative one, so sine of theta is negative one
+
+80
+99:59:59,999 --> 99:59:59,999
+and then when theta is 2pi, sine of theta is zero.
+
+81
+99:59:59,999 --> 99:59:59,999
+And so we can connect the dots...
+
+82
+99:59:59,999 --> 99:59:59,999
+You can try other points in between and you get something...
+
+83
+99:59:59,999 --> 99:59:59,999
+you get a graph that looks something like this.
+
+84
+99:59:59,999 --> 99:59:59,999
+My best attempt at drawing it freehand, it looks something like this
+
+85
+99:59:59,999 --> 99:59:59,999
+There's a reason why curves that look like this are called sinusoids.
+
+86
+99:59:59,999 --> 99:59:59,999
+Because they're the graph of the sine function. So just like this...
+
+87
+99:59:59,999 --> 99:59:59,999
+But that's not the entire graph, we could keep going
+
+88
+99:59:59,999 --> 99:59:59,999
+We could go, we could add another pi/2
+
+89
+99:59:59,999 --> 99:59:59,999
+if you added another pi/2 so if you go to 2pi and then add another pi/2
+
+90
+99:59:59,999 --> 99:59:59,999
+you could view this as 2 1/2pi or however you want to think about it.
+
+91
+99:59:59,999 --> 99:59:59,999
+Then you're going to go back over here
+
+92
+99:59:59,999 --> 99:59:59,999
+so then you going to get back to sine of theta being equal to one.
+
+93
+99:59:59,999 --> 99:59:59,999
+So you're going to go back to this point right over here
+
+94
+99:59:59,999 --> 99:59:59,999
+and you could keep going, you go another pi/2
+
+95
+99:59:59,999 --> 99:59:59,999
+you're going to go back to this point and you're going to be over here
+
+96
+99:59:59,999 --> 99:59:59,999
+and so the curve, or the function sine of theta
+
+97
+99:59:59,999 --> 99:59:59,999
+is really defined for any real theta value that you choose.
+
+98
+99:59:59,999 --> 99:59:59,999
+Well what about negatives?
+
+99
+99:59:59,999 --> 99:59:59,999
+Obviously, I agree as you keep increasing theta like this
+
+100
+99:59:59,999 --> 99:59:59,999
+we just keep going around and around the circle
+
+101
+99:59:59,999 --> 99:59:59,999
+and this pattern kind of emerges.
+
+102
+99:59:59,999 --> 99:59:59,999
+But what happens when we go in the negative direction?
+
+103
+99:59:59,999 --> 99:59:59,999
+Well, let's try it out.
+
+104
+99:59:59,999 --> 99:59:59,999
+What happens if we were to take negative pi/2
+
+105
+99:59:59,999 --> 99:59:59,999
+So let me do that...
+
+106
+99:59:59,999 --> 99:59:59,999
+So negative pi/2, well that's going right over here
+
+107
+99:59:59,999 --> 99:59:59,999
+and so, we intersect the unit circle right over there
+
+108
+99:59:59,999 --> 99:59:59,999
+the y-coordinate is negative 1
+
+109
+99:59:59,999 --> 99:59:59,999
+so sine of negative pi/2 is negative one
+
+110
+99:59:59,999 --> 99:59:59,999
+and we see that it just continues.
+
+111
+99:59:59,999 --> 99:59:59,999
+So sine of theta is defined for any positive
+
+112
+99:59:59,999 --> 99:59:59,999
+negative, or any theta;
+
+113
+99:59:59,999 --> 99:59:59,999
+positive or negative, non-negative, zero, anything. So it's defined for anything.
+
+114
+99:59:59,999 --> 99:59:59,999
+So, let's go back to the question.
+
+115
+99:59:59,999 --> 99:59:59,999
+I could just keep drawing the function on and on and on.
+
+116
+99:59:59,999 --> 99:59:59,999
+So let's go back to the question.
+
+117
+99:59:59,999 --> 99:59:59,999
+What is the domain of the sine function.
+
+118
+99:59:59,999 --> 99:59:59,999
+And just as a reminder, the domain are all of the inputs
+
+119
+99:59:59,999 --> 99:59:59,999
+over which the function is defined or all
+
+120
+99:59:59,999 --> 99:59:59,999
+of the valid inputs into the function will spit out a valid answer.
+
+121
+99:59:59,999 --> 99:59:59,999
+So what is the domain of the sine function?
+
+122
+99:59:59,999 --> 99:59:59,999
+Well, we already saw. We can put in any theta here.
+
+123
+99:59:59,999 --> 99:59:59,999
+So you could say the domain is all real numbers.
+
+124
+99:59:59,999 --> 99:59:59,999
+Now what about the range?
+
+125
+99:59:59,999 --> 99:59:59,999
+Just as a review the range is, sometimes
+
+126
+99:59:59,999 --> 99:59:59,999
+in more technical math classes it's called the image
+
+127
+99:59:59,999 --> 99:59:59,999
+it's the set of all the values that the function can actually take on.
+
+128
+99:59:59,999 --> 99:59:59,999
+Well, what is that set, what is the range here?
+
+129
+99:59:59,999 --> 99:59:59,999
+What are all the values that y equals sine of theta could actually take on?
+
+130
+99:59:59,999 --> 99:59:59,999
+Well, we see that it keeps going between positive one and then to negative one.
+
+131
+99:59:59,999 --> 99:59:59,999
+And then back to positive one and then to negative one.
+
+132
+99:59:59,999 --> 99:59:59,999
+It takes on all values in between.
+
+133
+99:59:59,999 --> 99:59:59,999
+So you see that sine of theta is always going to be less than or equal to one
+
+134
+99:59:59,999 --> 99:59:59,999
+and it's always going to be greater than or equal to negative one.
+
+135
+99:59:59,999 --> 99:59:59,999
+So you could say that the range of sine of theta is the set
+
+136
+99:59:59,999 --> 99:59:59,999
+of all numbers between negative one and positive one
+
+137
+99:59:59,999 --> 99:59:59,999
+and it includes negative one and one
+
+138
+99:59:59,999 --> 99:59:59,999
+That's why we put brackets here instead of parentheses.

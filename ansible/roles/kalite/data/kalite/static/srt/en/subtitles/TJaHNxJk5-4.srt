@@ -1,0 +1,571 @@
+1
+00:00:00,000 --> 00:00:06,067
+Solve the following application problem using three equations with three unknowns.
+
+2
+00:00:06,067 --> 00:00:11,759
+And they tell us the second angle of a triangle is 50 degrees less than 4 times the first angle.
+
+3
+00:00:11,759 --> 00:00:15,805
+The third angle is 40 degrees less than the first.
+
+4
+00:00:15,805 --> 00:00:18,518
+Find the measures of the three angles.
+
+5
+00:00:18,518 --> 00:00:21,625
+Let's draw ourselves a triangle here.
+
+6
+00:00:21,625 --> 00:00:24,800
+And let's call the first angle "a",
+
+7
+00:00:24,800 --> 00:00:26,800
+the second angle "b",
+
+8
+00:00:26,800 --> 00:00:28,836
+and then the third angle "c".
+
+9
+00:00:28,836 --> 00:00:30,533
+And before we even look at these constraints,
+
+10
+00:00:30,533 --> 00:00:36,277
+one property we know of triangles is that the sum of their angles must be 180 degrees.
+
+11
+00:00:36,277 --> 00:00:43,800
+So we know that a + b + c must be equal to 180 degrees.
+
+12
+00:00:43,800 --> 00:00:46,867
+Now with that out of the way let's look at these other constraints.
+
+13
+00:00:46,867 --> 00:01:00,554
+So they tell us the second angle of a triangle is 50 degrees less than 4 times the first angle.
+
+14
+00:01:00,554 --> 00:01:03,067
+So we're saying b is the second angle.
+
+15
+00:01:03,067 --> 00:01:09,333
+So they're second the angle of a triangle is 50 degrees less than 4 times the first angle.
+
+16
+00:01:09,333 --> 00:01:14,600
+So 4 times the first angle would be 4a (we're calling a the first angle).
+
+17
+00:01:14,600 --> 00:01:18,052
+So 4 times the first angle is 4a but its 50 degrees less than that
+
+18
+00:01:18,052 --> 00:01:21,267
+so minus 50.
+
+19
+00:01:21,267 --> 00:01:22,929
+Now the next constraint they give us:
+
+20
+00:01:22,929 --> 00:01:26,600
+the third angle is 40 degrees less than the first.
+
+21
+00:01:26,600 --> 00:01:31,600
+So the third angle is 40 degrees less than the first.
+
+22
+00:01:31,600 --> 00:01:35,179
+So the first angle is a and it's going to be 40 degrees less than that.
+
+23
+00:01:35,179 --> 00:01:39,533
+So we have 3 equations with 3 unknowns
+
+24
+00:01:39,533 --> 00:01:41,308
+and so we just have to solve for them.
+
+25
+00:01:41,308 --> 00:01:44,662
+Let's see, what's a good first variable to try to eliminate.
+
+26
+00:01:44,662 --> 00:01:47,098
+And just to try to visualize that a little bit better,
+
+27
+00:01:47,098 --> 00:01:53,267
+I'm going to bring these a's onto the left-hand side of each of these equations over here.
+
+28
+00:01:53,267 --> 00:01:55,138
+So I'm going to rewrite the first equation.
+
+29
+00:01:55,138 --> 00:01:56,064
+We have
+
+30
+00:01:56,064 --> 00:02:01,205
+a + b + c = 180
+
+31
+00:02:01,205 --> 00:02:07,148
+and then this equation, if we subtract 4a from both sides of this equation we have
+
+32
+00:02:07,148 --> 00:02:16,831
+-4a + b = -50.
+
+33
+00:02:16,831 --> 00:02:19,236
+And then this equation right over here,
+
+34
+00:02:19,236 --> 00:02:21,800
+if we subtract a from both sides we get
+
+35
+00:02:21,800 --> 00:02:34,052
+-a + c = -40.
+
+36
+00:02:34,052 --> 00:02:36,667
+I just subtracted a from both sides.
+
+37
+00:02:36,667 --> 00:02:39,200
+So we now want to eliminate variables.
+
+38
+00:02:39,200 --> 00:02:42,400
+And we already have this third equation here is only in terms of a and c,
+
+39
+00:02:42,400 --> 00:02:43,933
+this is only in terms of a and b,
+
+40
+00:02:43,933 --> 00:02:46,133
+and this first one is in terms of a, b and c.
+
+41
+00:02:46,133 --> 00:02:49,867
+Let's see, this is already in terms of a and c;
+
+42
+00:02:49,867 --> 00:02:51,800
+if we could turn these first two equations,
+
+43
+00:02:51,800 --> 00:02:57,333
+if we could use the information in these first two equations to end up with an equation that's only in
+
+44
+00:02:57,333 --> 00:03:02,667
+terms of a and c, then we could use whatever we end up with along with this third equation right over
+
+45
+00:03:02,667 --> 00:03:05,836
+here and we'll have a system of 2 equations with 2 unknowns.
+
+46
+00:03:05,836 --> 00:03:07,333
+So let's do that.
+
+47
+00:03:07,333 --> 00:03:09,082
+So if we wanted to just end up with an equation
+
+48
+00:03:09,082 --> 00:03:14,533
+only in terms of a and c using only these first 2, we would want to eliminate the b's...
+
+49
+00:03:14,533 --> 00:03:17,200
+so we could multiply one of these equations time negative 1
+
+50
+00:03:17,200 --> 00:03:19,400
+and one of these positives b's would turn into a negative b.
+
+51
+00:03:19,400 --> 00:03:27,133
+So let's do that. Let's multiply this first equation over here times -1.
+
+52
+00:03:27,133 --> 00:03:28,228
+So it will become
+
+53
+00:03:28,228 --> 00:03:33,600
+-a - b - c = -180,
+
+54
+00:03:33,600 --> 00:03:36,533
+and then we have this green equation right over here
+
+55
+00:03:36,533 --> 00:03:39,600
+which is really just this equation, just rearranged.
+
+56
+00:03:39,600 --> 00:03:40,574
+So we have
+
+57
+00:03:40,574 --> 00:03:46,133
+-4a + b = -50
+
+58
+00:03:46,133 --> 00:03:48,333
+and now we can add these two equations.
+
+59
+00:03:48,333 --> 00:03:55,800
+Actually let me do that in the other color just so you see where that's coming from.
+
+60
+00:03:55,800 --> 00:03:56,980
+This is
+
+61
+00:03:56,980 --> 00:04:01,267
+-4a + b = -50.
+
+62
+00:04:01,267 --> 00:04:03,733
+We can add these two up now
+
+63
+00:04:03,733 --> 00:04:05,667
+and we get
+
+64
+00:04:05,667 --> 00:04:09,800
+-a - 4a = - 5a,
+
+65
+00:04:09,800 --> 00:04:12,267
+the b's cancel out,
+
+66
+00:04:12,267 --> 00:04:14,067
+we have a minus c,
+
+67
+00:04:14,067 --> 00:04:15,964
+is equal to
+
+68
+00:04:15,964 --> 00:04:19,308
+-180 - 50 = -230
+
+69
+00:04:19,308 --> 00:04:22,667
+So now using these top two equations we have an equation only in terms of a and c,
+
+70
+00:04:22,667 --> 00:04:25,067
+we have another equation only in terms of a and c,
+
+71
+00:04:25,067 --> 00:04:27,600
+and it looks like if we add them together the c's will cancel out.
+
+72
+00:04:27,600 --> 00:04:30,200
+So let me just rewrite this equation over here.
+
+73
+00:04:30,200 --> 00:04:32,267
+And you have to be careful that you're using all of the equations
+
+74
+00:04:32,267 --> 00:04:34,267
+otherwise you'll kind of do a circular argument.
+
+75
+00:04:34,267 --> 00:04:36,733
+You have to be careful that over here,
+
+76
+00:04:36,733 --> 00:04:38,133
+this first equation came from
+
+77
+00:04:38,133 --> 00:04:39,733
+these two over here
+
+78
+00:04:39,733 --> 00:04:42,800
+Now I want to combine that with this third constraint,
+
+79
+00:04:42,800 --> 00:04:46,533
+a constraint that's not already baked into this equation right over here.
+
+80
+00:04:46,533 --> 00:04:48,338
+So we have
+
+81
+00:04:48,338 --> 00:04:52,749
+-a + c = -40
+
+82
+00:04:52,749 --> 00:04:54,559
+We add these two equations:
+
+83
+00:04:54,559 --> 00:04:58,667
+-5a - a = -6a,
+
+84
+00:04:58,667 --> 00:05:00,667
+the c's cancel out,
+
+85
+00:05:00,667 --> 00:05:06,333
+and then you have -230 - 40, this is equal to -270,
+
+86
+00:05:06,333 --> 00:05:11,929
+we can divide both sides by -6,
+
+87
+00:05:11,929 --> 00:05:18,400
+and we get a is equal to -270 over -6.
+
+88
+00:05:18,400 --> 00:05:26,667
+270 is divisible by both 3 and 2 so it should be divisible by 6,
+
+89
+00:05:26,667 --> 00:05:27,800
+so let me just divide it;
+
+90
+00:05:27,800 --> 00:05:29,333
+the negative signs obviously will cancel,
+
+91
+00:05:29,333 --> 00:05:31,467
+a negative divided by a negative is going to be a positive.
+
+92
+00:05:31,467 --> 00:05:36,298
+If we take 6 into 270, 6 goes into 27 four time
+
+93
+00:05:36,298 --> 00:05:38,333
+4 x 6 = 24
+
+94
+00:05:38,333 --> 00:05:39,800
+we subtract
+
+95
+00:05:39,800 --> 00:05:42,067
+we get 3, bring down the zero
+
+96
+00:05:42,067 --> 00:05:45,067
+6 goes into 30, 5 times
+
+97
+00:05:45,067 --> 00:05:52,667
+So we get a is equal to 45.
+
+98
+00:05:52,667 --> 00:05:53,467
+Now let's look at the other ones.
+
+99
+00:05:53,467 --> 00:05:55,733
+We can substitute back into to solve for c.
+
+100
+00:05:55,733 --> 00:06:00,846
+c is equal to a minus 40 degrees.
+
+101
+00:06:00,846 --> 00:06:06,600
+So that is equal to, in yellow,
+
+102
+00:06:06,600 --> 00:06:12,400
+so c is equal to 45 minus 40 which is equal to 5 degrees.
+
+103
+00:06:12,400 --> 00:06:17,379
+So, so far we have a = 45 degrees,
+
+104
+00:06:17,379 --> 00:06:23,113
+c = 5 degrees,
+
+105
+00:06:23,113 --> 00:06:27,067
+and then you can substitute into either one of these other ones to figure out b.
+
+106
+00:06:27,067 --> 00:06:29,400
+We can use this one right over here in green:
+
+107
+00:06:29,400 --> 00:06:31,000
+b = 4a - 50
+
+108
+00:06:31,000 --> 00:06:35,000
+So b is going to be equal to 4 times 45...
+
+109
+00:06:35,000 --> 00:06:39,636
+let's see, 2 x 45 is 90, so 4 x 45 is 180
+
+110
+00:06:39,636 --> 00:06:44,775
+so it's going to 180 minus 50 by this equation right over here
+
+111
+00:06:44,775 --> 00:06:48,600
+which is equal to 130 degrees.
+
+112
+00:06:48,600 --> 00:06:53,082
+So we get b is equal to 130 degrees.
+
+113
+00:06:53,082 --> 00:06:54,867
+So let me write it right over here.
+
+114
+00:06:54,867 --> 00:06:56,067
+So a is equal to 45.
+
+115
+00:06:56,067 --> 00:06:59,600
+If I wanted to draw this triangle it would actually look something like this:
+
+116
+00:06:59,600 --> 00:07:01,800
+a is a 45 degree angle,
+
+117
+00:07:01,800 --> 00:07:05,769
+b is a 130 degree angle,
+
+118
+00:07:05,769 --> 00:07:08,000
+and c is 5.
+
+119
+00:07:08,000 --> 00:07:12,487
+So it'll look something like this
+
+120
+00:07:12,487 --> 00:07:15,667
+where this is a at 45 degrees,
+
+121
+00:07:15,667 --> 00:07:17,467
+b is 135 degrees [oops],
+
+122
+00:07:17,467 --> 00:07:19,600
+and then c is 5 degrees.
+
+123
+00:07:19,600 --> 00:07:20,867
+And you can verify that it works.
+
+124
+00:07:20,867 --> 00:07:22,533
+One, you could just add up the angles
+
+125
+00:07:22,533 --> 00:07:25,333
+45 + 5 is 50.
+
+126
+00:07:25,333 --> 00:07:29,021
+Oh, sorry, this isn't 135, it's 130.
+
+127
+00:07:29,021 --> 00:07:30,867
+We solved it right over here
+
+128
+00:07:30,867 --> 00:07:32,169
+and this is 5.
+
+129
+00:07:32,169 --> 00:07:34,775
+So when you add them all up
+
+130
+00:07:34,775 --> 00:07:38,600
+45 + 130 + 5
+
+131
+00:07:38,600 --> 00:07:40,933
+that does indeed equal 180 degrees;
+
+132
+00:07:40,933 --> 00:07:43,067
+45 + 5 is 50
+
+133
+00:07:43,067 --> 00:07:46,267
+plus 130 so this does definitely equal 180.
+
+134
+00:07:46,267 --> 00:07:48,400
+So it meets our first constraint.
+
+135
+00:07:48,400 --> 00:07:49,533
+Then on our second constraint
+
+136
+00:07:49,533 --> 00:07:51,800
+b needs to be equal to 4a - 50
+
+137
+00:07:51,800 --> 00:07:55,667
+well 4 x a = 180
+
+138
+00:07:55,667 --> 00:07:59,133
+180 - 50 = 130 degrees
+
+139
+00:07:59,133 --> 00:08:01,400
+so it meets our second constraint.
+
+140
+00:08:01,400 --> 00:08:02,400
+And then our third constraint
+
+141
+00:08:02,400 --> 00:08:05,610
+c = a - 40 degrees
+
+142
+00:08:05,610 --> 00:08:11,533
+Well a is 45, c is 5, so if subtract 40 from 45 you get 5 which is c
+
+143
+00:08:11,533 --> 99:59:59,999
+so it meets all of our constraints and we are done.

@@ -1,0 +1,603 @@
+1
+00:00:01,000 --> 00:00:03,890
+We're on problem 135.
+
+2
+00:00:05,070 --> 00:00:07,590
+I just did some pilates, so I'm slightly out of breath.
+
+3
+00:00:08,920 --> 00:00:12,570
+If x is less than 0, is y greater than 0?
+
+4
+00:00:22,010 --> 00:00:29,890
+All right, statement number 1, x/y is less than 0.
+
+5
+00:00:34,060 --> 00:00:36,630
+So this is actually pretty useful.
+
+6
+00:00:36,850 --> 00:00:39,000
+They're telling us that x is a negative number.
+
+7
+00:00:40,000 --> 00:00:41,910
+So we have a negative here,
+
+8
+00:00:42,370 --> 00:00:45,510
+and we're dividing it by some other number. They're
+
+9
+00:00:45,510 --> 00:00:49,490
+telling us that the resulting number is still negative.
+
+10
+00:00:49,490 --> 00:00:54,030
+So we have a negative divided by something
+
+11
+00:00:54,030 --> 00:00:56,070
+is equal to a negative.
+
+12
+00:00:57,070 --> 00:00:58,970
+So I think you learned when you learned negative numbers,
+
+13
+00:00:58,970 --> 00:01:00,710
+if y was negative-- well,
+
+14
+00:01:00,710 --> 00:01:02,590
+if y was 0 this would be undefined--
+
+15
+00:01:02,590 --> 00:01:05,640
+and if y is negative, if this was a negative,
+
+16
+00:01:07,600 --> 00:01:09,480
+then when you divide a negative by a negative,
+
+17
+00:01:09,480 --> 00:01:12,970
+you would have a positive. So y has to be a positive number,
+
+18
+00:01:12,970 --> 00:01:15,810
+and it can't be 0. So this actually tells us.
+
+19
+00:01:15,810 --> 00:01:20,740
+Statement 1 alone tells us that y is greater than 0 just
+
+20
+00:01:20,740 --> 00:01:23,760
+based on the fact that you have a negative.
+
+21
+00:01:24,180 --> 00:01:25,800
+It's just telling you that a negative divided
+
+22
+00:01:25,800 --> 00:01:27,420
+by y is still negative.
+
+23
+00:01:28,140 --> 00:01:30,500
+This whole thing is still negative.So y has to be a positive.
+
+24
+00:01:31,540 --> 00:01:38,070
+Statement number 2 tells us y minus x is greater than 0.
+
+25
+00:01:39,070 --> 00:01:42,000
+Let's see, add x to both sides.
+
+26
+00:01:42,000 --> 00:01:45,850
+That tells us that y is greater than x.Well that's not enough
+
+27
+00:01:45,850 --> 00:01:48,140
+It says if x is 0, is y greater than 0?
+
+28
+00:01:49,760 --> 00:01:55,520
+Maybe x is equal to minus 10 and y is equal to minus 9.
+
+29
+00:01:55,520 --> 00:01:57,540
+So in this case, y wouldn't be greater than 0.
+
+30
+00:01:57,540 --> 00:02:00,840
+Or maybe x is equal to minus 10 and y is equal to plus 9.
+
+31
+00:02:01,840 --> 00:02:04,550
+Both of these would satisfy this condition. So we don't know.
+
+32
+00:02:04,770 --> 00:02:07,540
+This doesn't tell us any information on whether y is
+
+33
+00:02:07,540 --> 00:02:08,410
+greater than 0.
+
+34
+00:02:09,690 --> 00:02:12,210
+So statement 1 alone is sufficient, and statement 2
+
+35
+00:02:12,210 --> 00:02:13,120
+doesn't do much for us.
+
+36
+00:02:15,520 --> 00:02:24,000
+Problem 135, no, I already did 135, 136.
+
+37
+00:02:24,500 --> 00:02:25,550
+They've drawn a circle there,
+
+38
+00:02:25,550 --> 00:02:30,860
+so I guess I'll draw a circle as well. So that's the circle.
+
+39
+00:02:33,090 --> 00:02:40,120
+They have a center like that and then it's like that.
+
+40
+00:02:45,020 --> 00:02:50,020
+There's a right angle right here. They call this O.
+
+41
+00:02:50,020 --> 00:02:54,020
+They call this X. They call this Z.
+
+42
+00:02:54,020 --> 00:02:56,380
+Then they actually connect those two points.
+
+43
+00:03:01,040 --> 00:03:05,020
+Then they call this, this point right here, that's Y.
+
+44
+00:03:05,020 --> 00:03:06,370
+Let's see what they're asking.
+
+45
+00:03:06,370 --> 00:03:09,080
+What is the circumference of the circle above with center O?
+
+46
+00:03:09,080 --> 00:03:10,150
+So they just want to know the circumference.
+
+47
+00:03:10,350 --> 00:03:12,830
+So if we could figure out a radius, then we know
+
+48
+00:03:12,830 --> 00:03:15,780
+circumference is 2 pi times the radius, and we'd be all set.
+
+49
+00:03:15,780 --> 00:03:18,050
+So let's see what information they give us.
+
+50
+00:03:18,850 --> 00:03:25,020
+Statement number 1, the perimeter of triangle OXZ is
+
+51
+00:03:25,020 --> 00:03:34,820
+20 plus 10 square roots of 2.
+
+52
+00:03:35,020 --> 00:03:37,240
+Now this is interesting. What do we know about this?
+
+53
+00:03:37,640 --> 00:03:40,020
+Well we know that it's going to be an isosceles triangle.
+
+54
+00:03:40,020 --> 00:03:43,840
+We know that if this length right here is X, that this
+
+55
+00:03:43,840 --> 00:03:46,490
+length is also going to be X, because this is a circle.
+
+56
+00:03:48,100 --> 00:03:49,490
+The radius is constant,
+
+57
+00:03:49,970 --> 00:03:52,930
+and each of these sides are the radius of the circle.
+
+58
+00:03:52,930 --> 00:03:58,430
+So those are both going to be x. What is this going to be?
+
+59
+00:03:59,140 --> 00:04:02,680
+We just know from Pythagorean theorem, x squared plus x
+
+60
+00:04:02,680 --> 00:04:05,640
+squared is going to be equal to that side squared.
+
+61
+00:04:06,220 --> 00:04:07,500
+Let's call that c squared.
+
+62
+00:04:07,500 --> 00:04:12,580
+So you get 2x squared is equal to c squared or c-- I'm
+
+63
+00:04:12,580 --> 00:04:15,610
+calling this side right here c-- is equal to the square
+
+64
+00:04:15,610 --> 00:04:20,070
+root of 2, x times the square root of 2. Whatever x is.
+
+65
+00:04:20,580 --> 00:04:25,710
+So the perimeter of this entire triangle is going to be
+
+66
+00:04:25,710 --> 00:04:27,340
+two x's, x plus x,
+
+67
+00:04:27,940 --> 00:04:33,540
+so it's going to be 2x plus x square roots of 2.
+
+68
+00:04:36,770 --> 00:04:39,240
+Statement 1 told us that this perimeter is equal to
+
+69
+00:04:39,240 --> 00:04:39,800
+this right here.
+
+70
+00:04:39,800 --> 00:04:45,030
+It's going to be equal to 20 plus 10 square roots of 2.
+
+71
+00:04:45,030 --> 00:04:47,480
+Well I think you could do a little pattern matching here
+
+72
+00:04:47,480 --> 00:04:49,010
+and solve for x.
+
+73
+00:04:49,390 --> 00:04:52,000
+This is actually, even though it might not look completely
+
+74
+00:04:52,000 --> 00:04:55,070
+like it, this is a linear equation. You can solve for it.
+
+75
+00:04:55,070 --> 00:04:58,030
+Immediately that should be, oh, statement 1 is sufficient.
+
+76
+00:04:58,030 --> 00:04:59,070
+But you can just do a little pattern matching and say,
+
+77
+00:04:59,070 --> 00:05:02,090
+well, this works when x is equal to 10.
+
+78
+00:05:03,000 --> 00:05:06,580
+So actually, we are able to figure out what x is equal to.
+
+79
+00:05:06,580 --> 00:05:09,630
+Then as I said before, x is the radius of this circle.
+
+80
+00:05:09,630 --> 00:05:11,680
+Then the circumference of the circle, which is what the
+
+81
+00:05:11,680 --> 00:05:14,380
+whole question is about, that's 2 pi times the radius.
+
+82
+00:05:15,210 --> 00:05:17,010
+Circumference is 2 pi times the radius.
+
+83
+00:05:17,290 --> 00:05:20,830
+We just figured out the radius is 10. So it equals 20 pi.
+
+84
+00:05:20,830 --> 00:05:25,060
+So statement 1 is sufficient. What does statement 2 do?
+
+85
+00:05:25,060 --> 00:05:33,000
+Statement 2, the length of arc XYZ is 5 pi. XYZ is 5 pi.
+
+86
+00:05:33,000 --> 00:05:35,980
+So they're telling us that this length is 5 pi.
+
+87
+00:05:40,860 --> 00:05:43,500
+Well do we know what proportion that is of the
+
+88
+00:05:43,500 --> 00:05:44,830
+entire circumference?
+
+89
+00:05:44,830 --> 00:05:48,410
+Well sure, because they tell us that this is 90 degrees
+
+90
+00:05:48,410 --> 00:05:52,790
+right here. This is 90 degrees of 360 degrees of a circle.
+
+91
+00:05:53,400 --> 00:05:56,310
+So this, the arc length right here,
+
+92
+00:05:56,310 --> 00:05:58,460
+is exactly going to be 1/4 of the circle.
+
+93
+00:05:58,460 --> 00:06:02,000
+We know that because 90 degrees is 1/4 of 360.
+
+94
+00:06:02,000 --> 00:06:08,030
+So 5 pi is going to be equal to 1/4 times the circumference.
+
+95
+00:06:08,610 --> 00:06:11,470
+Or that the circumference is going to be equal to 20 pi.
+
+96
+00:06:11,790 --> 00:06:14,810
+So each statement independently, statement 1 or
+
+97
+00:06:14,810 --> 00:06:18,170
+statement 2, independently, is sufficient to answer this
+
+98
+00:06:18,170 --> 00:06:23,470
+question, the circumference of the circle. 137,
+
+99
+00:06:26,180 --> 00:06:29,110
+what is the value of a to the fourth minus b to the fourth?
+
+100
+00:06:34,580 --> 00:06:38,570
+Immediately just even looking, one thing I'm tempted to do is
+
+101
+00:06:38,570 --> 00:06:45,740
+rewrite this as a squared squared minus b squared squared.
+
+102
+00:06:45,740 --> 00:06:47,030
+Because I just glanced at statement 1
+
+103
+00:06:47,030 --> 00:06:49,000
+and they had squares there. So I'm going to do that.
+
+104
+00:06:52,600 --> 00:06:53,550
+Let me do different letters.
+
+105
+00:06:53,550 --> 00:06:58,020
+You know that x squared minus y squared is equal to x plus y
+
+106
+00:06:58,020 --> 00:07:00,590
+times x minus y.
+
+107
+00:07:01,050 --> 00:07:05,010
+So here, x is a squared and y is b squared.
+
+108
+00:07:05,010 --> 00:07:08,190
+So this is going to be equal to-- this is just the original,
+
+109
+00:07:08,190 --> 00:07:10,680
+this is going to be equal to a to the squared--
+
+110
+00:07:10,680 --> 00:07:16,840
+a squared plus b squared times a squared minus b squared.
+
+111
+00:07:17,050 --> 00:07:19,180
+Then we could simplified this again.
+
+112
+00:07:19,180 --> 00:07:23,020
+So this is going to be equal to a squared plus b squared.
+
+113
+00:07:23,020 --> 00:07:29,450
+We could simplify this as a plus b times a minus b.
+
+114
+00:07:29,830 --> 00:07:32,210
+I think that's going to be helpful just glancing at the
+
+115
+00:07:32,210 --> 00:07:33,740
+two statements that they gave us.
+
+116
+00:07:34,210 --> 00:07:45,840
+So statement 1 tells us that a squared minus b squared
+
+117
+00:07:46,080 --> 00:07:50,020
+is equal to 16.
+
+118
+00:07:51,020 --> 00:07:54,060
+So that tells us that just this is equal to 16.
+
+119
+00:07:55,560 --> 00:07:57,010
+That is equal to 16.
+
+120
+00:07:58,510 --> 00:08:01,200
+That doesn't help me much because I don't know what a
+
+121
+00:08:01,200 --> 00:08:03,030
+squared plus b squared is going to be.
+
+122
+00:08:03,030 --> 00:08:05,140
+It just tells me the difference between these two squares.
+
+123
+00:08:06,570 --> 00:08:08,050
+I don't know whether they're integers or anything.
+
+124
+00:08:08,060 --> 00:08:15,040
+Statement 2 tells me that a plus b is equal to 8.
+
+125
+00:08:16,850 --> 00:08:22,200
+Once again, that doesn't help me tremendously by itself.
+
+126
+00:08:23,400 --> 00:08:25,860
+If I just know that a plus b is equal to 8,
+
+127
+00:08:25,860 --> 00:08:28,000
+and I don't know what a minus b is,
+
+128
+00:08:28,000 --> 00:08:28,700
+I don't know what all of this is.
+
+129
+00:08:28,700 --> 00:08:31,010
+But when I use them together, this is interesting.
+
+130
+00:08:31,010 --> 00:08:39,710
+Because we know that a plus b times a minus b is equal to a
+
+131
+00:08:39,710 --> 00:08:41,530
+squared minus b squared.
+
+132
+00:08:42,000 --> 00:08:45,530
+Well they just told us that a plus b is equal to 8.
+
+133
+00:08:45,530 --> 00:08:47,060
+So a plus b is equal to 8.
+
+134
+00:08:47,450 --> 00:08:53,110
+So 8 times a minus b is going to be equal to a squared minus
+
+135
+00:08:53,110 --> 00:08:55,060
+b squared, which statement one told us was 16.
+
+136
+00:08:55,060 --> 00:09:00,010
+So that actually tells us that a minus b is equal to 2.
+
+137
+00:09:00,010 --> 00:09:04,170
+So now we have two equations with two unknowns,
+
+138
+00:09:04,170 --> 00:09:05,870
+and we could solve for a and b.
+
+139
+00:09:05,870 --> 00:09:07,800
+If we can solve for a and b, then we can definitely tell
+
+140
+00:09:07,800 --> 00:09:10,030
+you what a to the fourth minus b to the fourth is.
+
+141
+00:09:10,030 --> 00:09:11,840
+Just to show you that, let me do it.
+
+142
+00:09:11,840 --> 00:09:15,780
+So let's see, a minus b is equal to 2. Add these equations.
+
+143
+00:09:15,780 --> 00:09:20,020
+2a is equal to 10. a is equal to 5.
+
+144
+00:09:20,020 --> 00:09:22,850
+Then if a is equal to 5, b is equal to 3.
+
+145
+00:09:23,520 --> 00:09:28,040
+So our original statement,a to the fourth is 5 to the fourth.
+
+146
+00:09:28,040 --> 00:09:32,530
+5 to the fourth minus 3 to the fourth.
+
+147
+00:09:32,530 --> 00:09:35,580
+So whatever-- that's what? 625 minus 81, I think.
+
+148
+00:09:35,580 --> 00:09:37,110
+It doesn't matter. You can figure it out.
+
+149
+00:09:37,210 --> 00:09:40,540
+So both statements combined are sufficient to
+
+150
+00:09:40,540 --> 00:09:42,000
+answer this question.
+
+151
+00:09:42,000 --> 00:09:43,020
+See you in the next video.

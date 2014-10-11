@@ -1,0 +1,87 @@
+1
+00:00:02,242 --> 00:00:08,002
+We are asked to simplify a log base 5 of 25 to the "x" power over "y"
+
+2
+00:00:08,002 --> 00:00:12,909
+So I will give you some logarithm properties and I do agree that this does require some simplification
+
+3
+00:00:12,909 --> 00:00:15,097
+over here
+
+4
+00:00:15,097 --> 00:00:18,309
+That this having this right over here inside of the logarithm is not a pleasant way to look at it
+
+5
+00:00:18,309 --> 00:00:23,633
+So the first thing that we realize is that this is one of our logarithm properties
+
+6
+00:00:23,633 --> 00:00:28,247
+So logarithm for a given base so lets say that the base is "x" of a/b
+
+7
+00:00:28,247 --> 00:00:34,910
+That is equal to log base "x" of a minus log base "x" of b
+
+8
+00:00:34,910 --> 00:00:38,241
+Now here we have 25 to the "x" over y
+
+9
+00:00:38,241 --> 00:00:43,659
+So we can simplify
+
+10
+00:00:43,659 --> 00:00:50,826
+Log base 5 twenty five to the "x" over "y" to this property means that its the same thing
+
+11
+00:00:50,826 --> 00:00:58,140
+as log base 5 to the twenty five to the "x" power minus log base 5 of "y"
+
+12
+00:00:58,140 --> 00:01:03,947
+Now this looks like we can do a little bit of simplifying
+
+13
+00:01:03,947 --> 00:01:10,451
+It seems like the relevant logarithm property here is if I have log base "x" of a to the "p" power
+
+14
+00:01:10,451 --> 00:01:15,985
+That's the same thing as b times log base "x" of a
+
+15
+00:01:15,985 --> 00:01:19,734
+This exponent over here can go outfront, which is what we did right over there
+
+16
+00:01:19,734 --> 00:01:27,497
+So this part right over here can be written as "x" times the logarithm of base 5
+
+17
+00:01:27,497 --> 00:01:34,450
+of 25 and then of course we have minus log base 5 of "y"
+
+18
+00:01:34,450 --> 00:01:40,507
+And this is useful beacuse log base 5 of 25 is actually very easy to think about
+
+19
+00:01:40,507 --> 00:01:48,453
+This part right here is asking us what power
+
+20
+00:01:48,453 --> 00:01:53,033
+do I have to raise 5 to to get to 25
+
+21
+00:01:53,033 --> 00:01:54,417
+So we have to raise 5 to the 2nd power to get 25.
+
+22
+00:01:54,417 --> 99:59:59,999
+So we are left with, this is equal to 2 times "x" minus log base 5 of "y"

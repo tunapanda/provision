@@ -1,0 +1,199 @@
+1
+99:59:59,999 --> 99:59:59,999
+So we have the same setup here as we had in the previous problem
+
+2
+99:59:59,999 --> 99:59:59,999
+in problem number 42 where p is an odd prime number
+
+3
+99:59:59,999 --> 99:59:59,999
+and they say let T sub p be the following set of 2 by 2 matrices
+
+4
+99:59:59,999 --> 99:59:59,999
+where each of those matrices are of the form a is along the diagonals
+
+5
+99:59:59,999 --> 99:59:59,999
+and a b there and a c there and each of those numbers
+
+6
+99:59:59,999 --> 99:59:59,999
+are between 0 and p-1 inclusive. So they can be
+
+7
+99:59:59,999 --> 99:59:59,999
+1,2,3 all the way upto p-1
+
+8
+99:59:59,999 --> 99:59:59,999
+and then the number of A in the set such that
+
+9
+99:59:59,999 --> 99:59:59,999
+the trace of A is not divisible by p
+
+10
+99:59:59,999 --> 99:59:59,999
+but the determinate of A is divisible by p is
+
+11
+99:59:59,999 --> 99:59:59,999
+and they tell us the trace of a matrix is the sum of its diagonal entries.
+
+12
+99:59:59,999 --> 99:59:59,999
+Its actually the sum of its main diagonals. Its not going to be the that diagonal,
+
+13
+99:59:59,999 --> 99:59:59,999
+its only the sum of this. So if you sum this you are going to get the trace of the matrix. So lets use
+
+14
+99:59:59,999 --> 99:59:59,999
+this first piece of information. The trace of A is not divisible by p.
+
+15
+99:59:59,999 --> 99:59:59,999
+So the trace of A is going to be a+a
+
+16
+99:59:59,999 --> 99:59:59,999
+or 2a not divisible by p.
+
+17
+99:59:59,999 --> 99:59:59,999
+So let us think of a situation where 2a is divisible by p.
+
+18
+99:59:59,999 --> 99:59:59,999
+So 2a could be equal to 0, because 0 is a multiple of p.
+
+19
+99:59:59,999 --> 99:59:59,999
+In which case a would be equal to zero. So this is a possibility.
+
+20
+99:59:59,999 --> 99:59:59,999
+So if a is equal to 0 then 2a is divisible by p. So this tells us
+
+21
+99:59:59,999 --> 99:59:59,999
+one of the constraints from this sentence right here is that a cannot be equal to 0
+
+22
+99:59:59,999 --> 99:59:59,999
+because if a is 0 then the trace is divisible by p. So a cannot be equal to 0.
+
+23
+99:59:59,999 --> 99:59:59,999
+So let's think about it. Can 2a become any other multiple of p?
+
+24
+99:59:59,999 --> 99:59:59,999
+Can 2a equal p? Well, if 2a equalled p then 2 and a would be factors of p
+
+25
+99:59:59,999 --> 99:59:59,999
+and then p would not be prime. So we can cross that out.
+
+26
+99:59:59,999 --> 99:59:59,999
+Then 2a cannot be equal to 2p, that would make a equal p which is impossible because a can only be p-1
+
+27
+99:59:59,999 --> 99:59:59,999
+So thats not possible. You can keep going to higher and higher multiples of p. Not possible.
+
+28
+99:59:59,999 --> 99:59:59,999
+Because a is going to be smaller than p. So the only constraint that we get from this first sentence that the trace of a
+
+29
+99:59:59,999 --> 99:59:59,999
+is not divisible by p tells us that a does not equal 0. So now look at the second constraint.
+
+30
+99:59:59,999 --> 99:59:59,999
+The determinant of a is divisible by p. So the determinant of a is equal to a times a
+
+31
+99:59:59,999 --> 99:59:59,999
+equals a squared minus b times c or c times b. So this is going to be divisible by p.
+
+32
+99:59:59,999 --> 99:59:59,999
+This is going to be equal to some integer times p. Now one thing, just looking at this there is no obvious
+
+33
+99:59:59,999 --> 99:59:59,999
+simplification here. But one thing I am starting to appreciate not having taken the IIT Joint Entrance Exam in high school
+
+34
+99:59:59,999 --> 99:59:59,999
+not growing up in India is that when they have multiple choices, sometimes it might be faster
+
+35
+99:59:59,999 --> 99:59:59,999
+to do just the brute force method. Now when I say brute force method not just proving mathematically
+
+36
+99:59:59,999 --> 99:59:59,999
+which one of these expressions are true. But lets just try a simple p and then lets find the members of the set that
+
+37
+99:59:59,999 --> 99:59:59,999
+would satisfy for that p and then see which of these expressions equal that p
+
+38
+99:59:59,999 --> 99:59:59,999
+To simplify this, lets just say p is equal to 3 and i pick p is equal to 3
+
+39
+99:59:59,999 --> 99:59:59,999
+because that is the smallest odd prime number. So it is the smallest number that satisfies this constraint up here.
+
+40
+99:59:59,999 --> 99:59:59,999
+So lets say p is equal to 3. If p is equal to 3 our possibilities for a are that a can't be equal to 0
+
+41
+99:59:59,999 --> 99:59:59,999
+We know that already. So a could be equal to 1 or a could be equal to 2. And if a is equal to 1
+
+42
+99:59:59,999 --> 99:59:59,999
+then the determinate of a is going to be equal to 1-bc.
+
+43
+99:59:59,999 --> 99:59:59,999
+which needs to be equal to some integer multiple of 3.
+
+44
+99:59:59,999 --> 99:59:59,999
+Because we said our p is equal to 3. This must be equal to 3k.
+
+45
+99:59:59,999 --> 99:59:59,999
+If a is equal to 2, then the determinate is going to be equal to 4.
+
+46
+99:59:59,999 --> 99:59:59,999
+Because its a squared, so its going to be 4-bc.
+
+47
+99:59:59,999 --> 99:59:59,999
+must be equal to some integer multiple of 3. So lets see how many combinations of
+
+48
+99:59:59,999 --> 99:59:59,999
+b and c we can find in each of these constraints.
+
+49
+99:59:59,999 --> 99:59:59,999
+So 1 minus bc. So 1 possibility is 1 minus bc is equal to 3 times 0. That is one possibility.
+
+50
+99:59:59,999 --> 99:59:59,999
+Maybe another possibilty is 1 minus bc is equal to 3.

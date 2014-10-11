@@ -1,0 +1,527 @@
+1
+00:00:00,855 --> 00:00:03,521
+Find the slope of the line that goes through the ordered
+
+2
+00:00:03,521 --> 00:00:08,940
+pairs (4, 2) and (-3, 16).
+
+3
+00:00:08,940 --> 00:00:16,821
+So just as a reminder, slope is defined as rise over run
+
+4
+00:00:16,821 --> 00:00:20,405
+or you could view that as rise is just a change in y
+
+5
+00:00:20,405 --> 00:00:22,821
+and run is a change in x
+
+6
+00:00:22,821 --> 00:00:25,255
+The triangles here, there's the delta symbol
+
+7
+00:00:25,255 --> 00:00:27,506
+it literally means "change in"
+
+8
+00:00:27,506 --> 00:00:30,238
+Or another way, and you might see this formula and
+
+9
+00:00:30,238 --> 00:00:32,088
+it tends to be really complicated
+
+10
+00:00:32,088 --> 00:00:34,289
+but just remember it's just these two things over here
+
+11
+00:00:34,289 --> 00:00:38,055
+Sometimes slope will be specified with the variable m
+
+12
+00:00:38,055 --> 00:00:40,888
+and they'll say m is the same thing
+
+13
+00:00:40,888 --> 00:00:43,189
+(and this is really the same thing as change in y)
+
+14
+00:00:43,189 --> 00:00:48,805
+They'll write y2 minus y1 over x2 minus x1
+
+15
+00:00:48,805 --> 00:00:51,472
+And this notation tends to be kind of complicated
+
+16
+00:00:51,472 --> 00:00:55,421
+but all this means is you take the y value of your endpoint
+
+17
+00:00:55,421 --> 00:00:57,939
+and subtract from it the y value of your starting point
+
+18
+00:00:57,939 --> 00:01:00,556
+That'll essentially give you your change in y
+
+19
+00:01:00,556 --> 00:01:04,022
+and it says take the x value of your endpoint
+
+20
+00:01:04,022 --> 00:01:07,289
+and subtract it from the x value of your starting point
+
+21
+00:01:07,289 --> 00:01:09,139
+and that'll give you your change in x
+
+22
+00:01:09,139 --> 00:01:12,156
+So whichever of these work for you, let's actually
+
+23
+00:01:12,156 --> 00:01:15,206
+figure out the slope of the line that goes through these
+
+24
+00:01:15,206 --> 00:01:16,889
+two points.
+
+25
+00:01:16,889 --> 00:01:17,907
+So we're starting at
+
+26
+00:01:17,907 --> 00:01:19,597
+(actually we can do it both ways)
+
+27
+00:01:19,623 --> 00:01:22,609
+we can start at this point and go to that point and calculate the slope,
+
+28
+00:01:22,645 --> 00:01:25,406
+or we can start at this point and go to that point and calculate the slope.
+
+29
+00:01:25,406 --> 00:01:27,881
+So let's do it both ways.
+
+30
+00:01:27,881 --> 00:01:35,198
+So let's say our starting point is the point (4,2)
+
+31
+00:01:35,198 --> 00:01:42,699
+And let's say our endpoint is (-3, 16)
+
+32
+00:01:42,699 --> 00:01:45,583
+So what is the change in x over here
+
+33
+00:01:45,583 --> 00:01:48,132
+What is the change in x in this scenario
+
+34
+00:01:48,132 --> 00:01:50,982
+So we're going from 4 to -3
+
+35
+00:01:50,982 --> 00:01:54,532
+if something goes from 4 to -3, what was its change?
+
+36
+00:01:54,532 --> 00:01:58,134
+You have to go down 4 to get to zero
+
+37
+00:01:58,134 --> 00:02:01,182
+Then you have to go down another 3 to get to -3.
+
+38
+00:02:01,182 --> 00:02:06,016
+So our change in x here is -7
+
+39
+00:02:06,016 --> 00:02:10,265
+Actually, let me write it this way
+
+40
+00:02:10,265 --> 00:02:16,187
+Our change in x is equal to -3 - 4 which is equal to
+
+41
+00:02:16,187 --> 00:02:18,595
+-7
+
+42
+00:02:18,595 --> 00:02:22,828
+If I'm going from 4 to -3, I went down by 7
+
+43
+00:02:22,828 --> 00:02:25,929
+Our change in x is -7
+
+44
+00:02:25,929 --> 00:02:28,362
+Let's do the same thing for the change in y
+
+45
+00:02:28,362 --> 00:02:30,712
+And notice: I implicitly use this formula over here
+
+46
+00:02:30,712 --> 00:02:34,763
+our change in x was this value - our endpoint
+
+47
+00:02:34,763 --> 00:02:39,230
+our end x value minus our starting x value
+
+48
+00:02:39,230 --> 00:02:41,796
+let's do the same thing for our change in y
+
+49
+00:02:41,796 --> 00:02:44,162
+Our change in y
+
+50
+00:02:44,162 --> 00:02:47,062
+If we're starting at 2 and we go to 16 that means
+
+51
+00:02:47,062 --> 00:02:49,662
+we moved up 14
+
+52
+00:02:49,662 --> 00:02:51,429
+Or another way you could say it is:
+
+53
+00:02:51,429 --> 00:02:53,995
+You could take your ending y value
+
+54
+00:02:53,995 --> 00:02:56,262
+and subtract from the your starting y value
+
+55
+00:02:56,262 --> 00:02:58,045
+and you get 14
+
+56
+00:02:58,045 --> 00:03:00,079
+So what is the slope over here?
+
+57
+00:03:00,079 --> 00:03:02,794
+Well the slope is just change in y over change in x
+
+58
+00:03:02,794 --> 00:03:08,475
+So the slope over here is change in y over change in x
+
+59
+00:03:08,475 --> 00:03:10,909
+which is: our change in y is 14
+
+60
+00:03:10,909 --> 00:03:14,191
+and our change in x is -7
+
+61
+00:03:14,191 --> 00:03:21,774
+And if we want to simplify this 14 divided by -7 is -2
+
+62
+00:03:21,774 --> 00:03:24,044
+Now what I want to show you is we could have done it
+
+63
+00:03:24,044 --> 00:03:25,957
+the other way around
+
+64
+00:03:25,957 --> 00:03:28,558
+We could have made this the starting point and this the endpoint.
+
+65
+00:03:28,558 --> 00:03:30,924
+And what we would have gotten is the negative values
+
+66
+00:03:30,924 --> 00:03:32,840
+of each of these, but they would have cancelled out
+
+67
+00:03:32,840 --> 00:03:35,224
+and we would still get -2.
+
+68
+00:03:35,224 --> 00:03:38,307
+Let's try it out. So let's say that our start point
+
+69
+00:03:38,307 --> 00:03:45,208
+was (-3,16) and let's say that our endpoint is (4,2)
+
+70
+00:03:45,208 --> 00:03:49,690
+So in this situation, what is our change in x?
+
+71
+00:03:49,690 --> 00:03:51,940
+Our change in x.
+
+72
+00:03:51,940 --> 00:03:56,276
+If I start at -3 and I go to 4, that means I went up 7
+
+73
+00:03:56,276 --> 00:04:03,309
+Or if you want to just calculate that, you would do 4 - -3
+
+74
+00:04:03,355 --> 00:04:05,859
+but needless to say, we just went up 7
+
+75
+00:04:05,859 --> 00:04:08,326
+And what is our change in y
+
+76
+00:04:08,326 --> 00:04:10,993
+Our change in y over here
+
+77
+00:04:10,993 --> 00:04:13,077
+Or you could say our "rise"
+
+78
+00:04:13,077 --> 00:04:15,709
+If we start at 16 and we end at 2, that means we
+
+79
+00:04:15,709 --> 00:04:18,410
+went down 14.
+
+80
+00:04:18,410 --> 00:04:22,542
+Or you could just say 2 - 16 is -14.
+
+81
+00:04:22,542 --> 00:04:25,193
+We went down by 14 - this is our run.
+
+82
+00:04:25,193 --> 00:04:29,059
+So if we say rise over run, which is the same thing as change
+
+83
+00:04:29,059 --> 00:04:30,826
+in y over change in x.
+
+84
+00:04:30,826 --> 00:04:34,776
+Our rise is -14 and our run here is 7.
+
+85
+00:04:34,776 --> 00:04:37,410
+So notice these are just the negatives of these values from
+
+86
+00:04:37,410 --> 00:04:39,660
+when we swapped them.
+
+87
+00:04:39,660 --> 00:04:42,642
+So once again, this is equal to -2.
+
+88
+00:04:42,642 --> 00:04:47,226
+Let's just visualize this - let me do a quick graph here
+
+89
+00:04:47,226 --> 00:04:51,026
+just to show you what a downward slope would look like
+
+90
+00:04:51,026 --> 00:04:53,842
+So let me draw our two points
+
+91
+00:04:53,842 --> 00:04:56,109
+So this is my x axis
+
+92
+00:04:56,109 --> 00:04:58,160
+That is my y axis
+
+93
+00:04:58,160 --> 00:05:01,442
+So this point over here, (4,2), so let me graph it
+
+94
+00:05:01,442 --> 00:05:05,176
+So, we're going to go all the way up to 16, so let me save some space here
+
+95
+00:05:05,176 --> 00:05:08,093
+So we have 1, 2, 3, 4
+
+96
+00:05:08,093 --> 00:05:11,258
+it's 4 comma 1 ... 2
+
+97
+00:05:11,258 --> 00:05:14,126
+So (4,2) is right over here
+
+98
+00:05:14,126 --> 00:05:17,926
+Then we have the point (-3, 16)
+
+99
+00:05:17,926 --> 00:05:19,676
+So let me draw that over here
+
+100
+00:05:19,676 --> 00:05:21,994
+So we have -1 ... 2 ... 3
+
+101
+00:05:21,994 --> 00:05:27,976
+and we have to go up 16, so this is 2 ... 3 ... 4 ... 5 ... 6 ... 7 ... 8 ... 9 ... 10 ... 11 ... 12
+
+102
+00:05:27,976 --> 00:05:30,509
+13 ... 14 ... 15 ... 16
+
+103
+00:05:30,509 --> 00:05:33,093
+So it goes right over here
+
+104
+00:05:33,093 --> 00:05:37,991
+So this is (-3,16).
+
+105
+00:05:37,991 --> 00:05:42,805
+So the line that goes between them is going to look something like this
+
+106
+00:05:42,805 --> 00:05:47,539
+I'm going to try my best to draw a relatively straight line
+
+107
+00:05:47,539 --> 00:05:51,603
+That line will keep going.
+
+108
+00:05:51,603 --> 00:05:53,988
+So that's my best attempt.
+
+109
+00:05:53,988 --> 00:05:56,854
+And notice it's downward sloping - as you increase in x
+
+110
+00:05:56,854 --> 00:05:58,689
+value the line goes down.
+
+111
+00:05:58,689 --> 00:06:01,139
+It's going from the top left to the bottom right
+
+112
+00:06:01,139 --> 00:06:03,756
+As x gets bigger, y gets smaller
+
+113
+00:06:03,756 --> 00:06:06,271
+that's what a downward sloping line looks like
+
+114
+00:06:06,271 --> 00:06:09,257
+And just to visualize our change in x's and our change in y's
+
+115
+00:06:09,257 --> 00:06:11,506
+that we dealt with here,
+
+116
+00:06:11,506 --> 00:06:18,537
+when we started with (4,2) and ended at (-3,16)
+
+117
+00:06:18,537 --> 00:06:22,188
+That was analogous to starting here and ending over there
+
+118
+00:06:22,188 --> 00:06:25,739
+And we said our change in x was -7
+
+119
+00:06:25,739 --> 00:06:28,321
+We have to move back our run
+
+120
+00:06:28,321 --> 00:06:31,122
+We had to move in the left direction by 7
+
+121
+00:06:31,122 --> 00:06:33,239
+That's why it was -7
+
+122
+00:06:33,239 --> 00:06:37,923
+And then we had to move in the y direction positive 14
+
+123
+00:06:37,923 --> 00:06:40,255
+That's why our rise was positive
+
+124
+00:06:40,255 --> 00:06:42,855
+So it's 14 over -7, or -2.
+
+125
+00:06:42,855 --> 00:06:48,373
+When we did the other way, we started at this point, and ended at this point
+
+126
+00:06:48,373 --> 00:06:53,828
+Started at (-3,16) and ended at that point.
+
+127
+00:06:53,828 --> 00:06:57,045
+So in that situation our run was positive 7
+
+128
+00:06:57,045 --> 00:06:59,761
+And now we had to go down in the y direction since we
+
+129
+00:06:59,761 --> 00:07:01,895
+switched the starting and the end point.
+
+130
+00:07:01,895 --> 00:07:04,394
+And now we have to go down -14.
+
+131
+00:07:04,394 --> 00:07:08,280
+Our run is now positive 7, and our rise is now -14
+
+132
+00:07:08,280 --> 99:59:59,999
+Either way, we got the same slope.

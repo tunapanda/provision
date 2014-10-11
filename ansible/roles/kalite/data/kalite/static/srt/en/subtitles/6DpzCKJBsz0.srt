@@ -1,0 +1,1789 @@
+1
+00:00:00,000 --> 00:00:00,680
+   
+
+2
+00:00:00,680 --> 00:00:04,510
+I have this matrix A here that I
+want to put into reduced row
+
+3
+00:00:04,510 --> 00:00:05,450
+echelon form.
+
+4
+00:00:05,450 --> 00:00:07,160
+And we've done this
+multiple times.
+
+5
+00:00:07,160 --> 00:00:09,670
+You just perform a bunch
+of row operations.
+
+6
+00:00:09,670 --> 00:00:12,470
+But what I want to show you in
+this video is that those row
+
+7
+00:00:12,470 --> 00:00:16,520
+operations are equivalent to
+linear transformations on the
+
+8
+00:00:16,520 --> 00:00:19,450
+column vectors of A.
+
+9
+00:00:19,450 --> 00:00:21,490
+So let me show you by example.
+
+10
+00:00:21,490 --> 00:00:24,450
+So if we just want to put A into
+reduced row echelon form,
+
+11
+00:00:24,450 --> 00:00:26,860
+the first step that we might
+want to do if we wanted to
+
+12
+00:00:26,860 --> 00:00:31,580
+zero out these entries right
+here, is-- let me do it right
+
+13
+00:00:31,580 --> 00:00:34,890
+here-- is we'll keep our
+first entry the same.
+
+14
+00:00:34,890 --> 00:00:36,830
+So for each of these column
+vectors, we're going to keep
+
+15
+00:00:36,830 --> 00:00:38,010
+the first entry the same.
+
+16
+00:00:38,010 --> 00:00:41,590
+So they're going to be
+1, minus 1, minus 1.
+
+17
+00:00:41,590 --> 00:00:44,360
+And actually, let me
+simultaneously construct my
+
+18
+00:00:44,360 --> 00:00:45,800
+transformation.
+
+19
+00:00:45,800 --> 00:00:48,340
+So I'm saying that my row
+operation I'm going to perform
+
+20
+00:00:48,340 --> 00:00:51,690
+is equivalent to a linear
+transformation
+
+21
+00:00:51,690 --> 00:00:52,630
+on the column vector.
+
+22
+00:00:52,630 --> 00:00:55,160
+So it's going to be a
+transformation that's going to
+
+23
+00:00:55,160 --> 00:01:00,880
+take some column vector,
+a1, a2, and a3.
+
+24
+00:01:00,880 --> 00:01:03,130
+It's going to take each of these
+and then do something to
+
+25
+00:01:03,130 --> 00:01:05,239
+them, do something to them
+in a linear way.
+
+26
+00:01:05,239 --> 00:01:07,330
+They'll be linear
+transformations.
+
+27
+00:01:07,330 --> 00:01:09,470
+So we're keeping the
+first entry of our
+
+28
+00:01:09,470 --> 00:01:11,090
+column vector the same.
+
+29
+00:01:11,090 --> 00:01:14,670
+So this is just going
+to be a1.
+
+30
+00:01:14,670 --> 00:01:16,330
+This is a line right here.
+
+31
+00:01:16,330 --> 00:01:17,250
+That's going to be a1.
+
+32
+00:01:17,250 --> 00:01:19,050
+Now, what can we do if
+we want to get to
+
+33
+00:01:19,050 --> 00:01:20,780
+reduced row echelon form?
+
+34
+00:01:20,780 --> 00:01:22,610
+We'd want to make
+this equal to 0.
+
+35
+00:01:22,610 --> 00:01:26,360
+So we would want to replace our
+second row with the second
+
+36
+00:01:26,360 --> 00:01:29,230
+row plus the first row, because
+then these guys would
+
+37
+00:01:29,230 --> 00:01:30,500
+turn out to be 0.
+
+38
+00:01:30,500 --> 00:01:32,140
+So let me write that on
+my transformation.
+
+39
+00:01:32,140 --> 00:01:35,490
+I'm going to replace the second
+row with the second row
+
+40
+00:01:35,490 --> 00:01:39,090
+plus the first row.
+
+41
+00:01:39,090 --> 00:01:40,400
+Let me write it out here.
+
+42
+00:01:40,400 --> 00:01:43,410
+Minus 1 plus 1 is 0.
+
+43
+00:01:43,410 --> 00:01:45,810
+2 plus minus 1 is 1.
+
+44
+00:01:45,810 --> 00:01:48,950
+3 plus minus 1 is 2.
+
+45
+00:01:48,950 --> 00:01:51,070
+Now, we also want
+to get a 0 here.
+
+46
+00:01:51,070 --> 00:01:54,360
+So let me replace my third
+row with my third row
+
+47
+00:01:54,360 --> 00:01:55,900
+minus my first row.
+
+48
+00:01:55,900 --> 00:01:59,320
+So I'm going to replace my third
+row with my third row
+
+49
+00:01:59,320 --> 00:02:01,690
+minus my first row.
+
+50
+00:02:01,690 --> 00:02:05,240
+So 1 minus 1 is 0.
+
+51
+00:02:05,240 --> 00:02:08,660
+1 minus minus 1 is 2.
+
+52
+00:02:08,660 --> 00:02:14,100
+4 minus minus 1 is 5,
+just like that.
+
+53
+00:02:14,100 --> 00:02:16,790
+So you see this was just a
+linear transformation.
+
+54
+00:02:16,790 --> 00:02:19,390
+And any linear transformation
+you could actually represent
+
+55
+00:02:19,390 --> 00:02:22,280
+as a matrix vector product.
+
+56
+00:02:22,280 --> 00:02:24,140
+So for example, this
+transformation, I could
+
+57
+00:02:24,140 --> 00:02:26,150
+represent it.
+
+58
+00:02:26,150 --> 00:02:28,230
+To figure out its transformation
+matrix, so if
+
+59
+00:02:28,230 --> 00:02:32,600
+we say that T of x is equal to,
+I don't know, let's call
+
+60
+00:02:32,600 --> 00:02:36,220
+it some matrix S times x.
+
+61
+00:02:36,220 --> 00:02:37,740
+We already used the matrix A.
+
+62
+00:02:37,740 --> 00:02:40,110
+So I have to pick
+another letter.
+
+63
+00:02:40,110 --> 00:02:41,160
+So how do we find S?
+
+64
+00:02:41,160 --> 00:02:43,570
+Well, we just apply the
+transformation to all of the
+
+65
+00:02:43,570 --> 00:02:46,370
+column vectors, or the standard
+basis vectors of the
+
+66
+00:02:46,370 --> 00:02:47,240
+identity matrix.
+
+67
+00:02:47,240 --> 00:02:48,460
+So let's do that.
+
+68
+00:02:48,460 --> 00:02:50,760
+So the identity matrix-- I'll
+draw it really small like
+
+69
+00:02:50,760 --> 00:02:55,080
+this-- the identity matrix looks
+like this, 1, 0, 0, 0,
+
+70
+00:02:55,080 --> 00:02:57,900
+1, 0, 0, 0, 1.
+
+71
+00:02:57,900 --> 00:02:59,880
+That's what that identity
+matrix looks like.
+
+72
+00:02:59,880 --> 00:03:02,580
+To find the transformation
+matrix, we just apply this guy
+
+73
+00:03:02,580 --> 00:03:04,660
+to each of the column
+vectors of this.
+
+74
+00:03:04,660 --> 00:03:06,286
+So what do we get?
+
+75
+00:03:06,286 --> 00:03:09,270
+I'll do it a little
+bit bigger.
+
+76
+00:03:09,270 --> 00:03:11,140
+We apply it to each of
+these column vectors.
+
+77
+00:03:11,140 --> 00:03:13,370
+But we see the first row
+always stays the same.
+
+78
+00:03:13,370 --> 00:03:16,250
+So the first row is always going
+to be the same thing.
+
+79
+00:03:16,250 --> 00:03:18,850
+So 1, 0, 0.
+
+80
+00:03:18,850 --> 00:03:21,180
+I'm essentially applying it
+simultaneously to each of
+
+81
+00:03:21,180 --> 00:03:24,290
+these column vectors, saying,
+look, when you transform each
+
+82
+00:03:24,290 --> 00:03:27,710
+of these column vectors, their
+first entry stays the same.
+
+83
+00:03:27,710 --> 00:03:31,890
+The second entry becomes
+the second entry
+
+84
+00:03:31,890 --> 00:03:32,910
+plus the first entry.
+
+85
+00:03:32,910 --> 00:03:35,730
+So 0 plus 1 is 1.
+
+86
+00:03:35,730 --> 00:03:38,510
+1 plus 0 is 1.
+
+87
+00:03:38,510 --> 00:03:41,350
+0 plus 0 is 0.
+
+88
+00:03:41,350 --> 00:03:45,440
+Then the third entry gets
+replaced with the third entry
+
+89
+00:03:45,440 --> 00:03:46,690
+minus the first entry.
+
+90
+00:03:46,690 --> 00:03:49,660
+So 0 minus 1 is minus 1.
+
+91
+00:03:49,660 --> 00:03:52,500
+0 minus 0 is 0.
+
+92
+00:03:52,500 --> 00:03:54,930
+1 minus 0 is 1.
+
+93
+00:03:54,930 --> 00:03:58,510
+Now notice, when I apply this
+transformation to the column
+
+94
+00:03:58,510 --> 00:04:02,010
+vectors of our identity matrix,
+I essentially just
+
+95
+00:04:02,010 --> 00:04:03,760
+performed those same
+row operations
+
+96
+00:04:03,760 --> 00:04:04,730
+that I did up there.
+
+97
+00:04:04,730 --> 00:04:07,160
+I performed those exact same
+row operations on this
+
+98
+00:04:07,160 --> 00:04:08,330
+identity matrix.
+
+99
+00:04:08,330 --> 00:04:10,520
+But we know that this is
+actually the transformation
+
+100
+00:04:10,520 --> 00:04:13,110
+matrix, that if we multiply
+it by each of these column
+
+101
+00:04:13,110 --> 00:04:16,769
+vectors, or by each of these
+column vectors, we're going to
+
+102
+00:04:16,769 --> 00:04:18,430
+get these column vectors.
+
+103
+00:04:18,430 --> 00:04:20,240
+So you can view it this way.
+
+104
+00:04:20,240 --> 00:04:22,990
+This right here, this
+is equal to S.
+
+105
+00:04:22,990 --> 00:04:25,510
+This is our transformation
+matrix.
+
+106
+00:04:25,510 --> 00:04:32,350
+So we could say that if we
+create a new matrix whose
+
+107
+00:04:32,350 --> 00:04:37,320
+columns are S times this column
+vector, S times 1,
+
+108
+00:04:37,320 --> 00:04:39,420
+minus 1, 1.
+
+109
+00:04:39,420 --> 00:04:47,540
+And then the next column is S
+times-- I wanted to do it in
+
+110
+00:04:47,540 --> 00:04:54,670
+that other color-- S times
+this guy, minus 1, 2, 1.
+
+111
+00:04:54,670 --> 00:05:02,930
+And then the third column is
+going to be S times this third
+
+112
+00:05:02,930 --> 00:05:09,180
+column vector, minus 1, 3, 4.
+
+113
+00:05:09,180 --> 00:05:11,950
+We now know we're applying this
+transformation, this is
+
+114
+00:05:11,950 --> 00:05:13,920
+S, times each of these
+column vectors.
+
+115
+00:05:13,920 --> 00:05:15,890
+That is the matrix
+representation of this
+
+116
+00:05:15,890 --> 00:05:17,630
+transformation.
+
+117
+00:05:17,630 --> 00:05:22,300
+This guy right here will
+be transformed
+
+118
+00:05:22,300 --> 00:05:25,070
+to this right here.
+
+119
+00:05:25,070 --> 00:05:30,580
+Let me do it down here.
+
+120
+00:05:30,580 --> 00:05:33,670
+I wanted to show that stuff that
+I had above here as well.
+
+121
+00:05:33,670 --> 00:05:35,310
+Well, I'll just draw an arrow.
+
+122
+00:05:35,310 --> 00:05:36,440
+That's probably the
+simplest thing.
+
+123
+00:05:36,440 --> 00:05:39,900
+This matrix right here
+will become that
+
+124
+00:05:39,900 --> 00:05:41,430
+matrix right there.
+
+125
+00:05:41,430 --> 00:05:43,610
+So another way you could
+write it, this is
+
+126
+00:05:43,610 --> 00:05:44,570
+equivalent to what?
+
+127
+00:05:44,570 --> 00:05:45,520
+What is this equivalent to?
+
+128
+00:05:45,520 --> 00:05:47,900
+When you take a matrix and you
+multiply it times each of the
+
+129
+00:05:47,900 --> 00:05:50,400
+column vectors, when you
+transform each of the column
+
+130
+00:05:50,400 --> 00:05:53,970
+vectors by this matrix, this
+is the definition of a
+
+131
+00:05:53,970 --> 00:05:55,270
+matrix-matrix product.
+
+132
+00:05:55,270 --> 00:05:59,440
+This is equal to our matrix S--
+I'll do it in pink-- this
+
+133
+00:05:59,440 --> 00:06:05,920
+is equal to our matrix S, which
+is 1, 0, 0, 1, 1, 0,
+
+134
+00:06:05,920 --> 00:06:15,790
+minus 1, 0, 1, times our matrix
+A, times 1, minus 1, 1,
+
+135
+00:06:15,790 --> 00:06:22,090
+minus 1, 2, 1, minus 1, 3, 4.
+
+136
+00:06:22,090 --> 00:06:25,630
+So let me make this
+very clear.
+
+137
+00:06:25,630 --> 00:06:28,430
+This is our transformation
+matrix S.
+
+138
+00:06:28,430 --> 00:06:30,440
+This is our matrix A.
+
+139
+00:06:30,440 --> 00:06:34,130
+And when you perform this
+product you're going to get
+
+140
+00:06:34,130 --> 00:06:37,720
+this guy right over here.
+
+141
+00:06:37,720 --> 00:06:40,450
+I'll just copy and paste it.
+
+142
+00:06:40,450 --> 00:06:45,230
+Edit, copy, and let
+me paste it.
+
+143
+00:06:45,230 --> 00:06:48,210
+You're going to get that
+guy just like that.
+
+144
+00:06:48,210 --> 00:06:50,480
+Now the whole reason why I'm
+doing that is just to remind
+
+145
+00:06:50,480 --> 00:06:53,710
+you that when we perform each of
+these row operations, we're
+
+146
+00:06:53,710 --> 00:06:54,600
+just multiplying.
+
+147
+00:06:54,600 --> 00:06:57,170
+We're performing a linear
+transformation on each of
+
+148
+00:06:57,170 --> 00:06:58,090
+these columns.
+
+149
+00:06:58,090 --> 00:07:00,730
+And it is completely equivalent
+to just multiplying
+
+150
+00:07:00,730 --> 00:07:02,790
+this guy by some matrix S.
+
+151
+00:07:02,790 --> 00:07:04,710
+In this case, we took the
+trouble of figuring out what
+
+152
+00:07:04,710 --> 00:07:06,150
+that matrix S is.
+
+153
+00:07:06,150 --> 00:07:08,550
+But any of these row operations
+that we've been
+
+154
+00:07:08,550 --> 00:07:12,300
+doing, you can always represent
+them by a matrix
+
+155
+00:07:12,300 --> 00:07:13,550
+multiplication.
+
+156
+00:07:13,550 --> 00:07:17,060
+   
+
+157
+00:07:17,060 --> 00:07:19,045
+So this leads to a very
+interesting idea.
+
+158
+00:07:19,045 --> 00:07:22,650
+   
+
+159
+00:07:22,650 --> 00:07:25,700
+When you put something in
+reduced row echelon form, let
+
+160
+00:07:25,700 --> 00:07:26,950
+me do it up here.
+
+161
+00:07:26,950 --> 00:07:29,730
+   
+
+162
+00:07:29,730 --> 00:07:32,180
+Actually, let's just finish what
+we started with this guy.
+
+163
+00:07:32,180 --> 00:07:34,230
+Let's put this guy in reduced
+row echelon form.
+
+164
+00:07:34,230 --> 00:07:37,440
+   
+
+165
+00:07:37,440 --> 00:07:39,080
+Let me call this first S.
+
+166
+00:07:39,080 --> 00:07:40,400
+Let's call that S1.
+
+167
+00:07:40,400 --> 00:07:42,730
+So this guy right here
+is equal to that
+
+168
+00:07:42,730 --> 00:07:46,050
+first S1 times A.
+
+169
+00:07:46,050 --> 00:07:47,580
+We already showed that
+that's true.
+
+170
+00:07:47,580 --> 00:07:50,040
+Now let's perform another
+transformation.
+
+171
+00:07:50,040 --> 00:07:53,170
+Let's just do another set of
+row operations to get us to
+
+172
+00:07:53,170 --> 00:07:55,000
+reduced row echelon form.
+
+173
+00:07:55,000 --> 00:07:58,860
+So let's keep our middle
+row the same, 0, 1, 2.
+
+174
+00:07:58,860 --> 00:08:02,190
+And let's replace the first row
+with the first row plus
+
+175
+00:08:02,190 --> 00:08:04,630
+the second row, because I
+want to make this a 0.
+
+176
+00:08:04,630 --> 00:08:06,980
+So 1 plus 0 is 1.
+
+177
+00:08:06,980 --> 00:08:10,310
+Let me do it in another color.
+
+178
+00:08:10,310 --> 00:08:12,810
+Minus 1 plus 1 is 0.
+
+179
+00:08:12,810 --> 00:08:15,620
+Minus 1 plus 2 is 1.
+
+180
+00:08:15,620 --> 00:08:21,640
+Now, I want to replace the third
+row with, let's say the
+
+181
+00:08:21,640 --> 00:08:28,210
+third row minus 2 times
+the first row.
+
+182
+00:08:28,210 --> 00:08:31,300
+So that's 0 minus 2,
+times 0, is 0.
+
+183
+00:08:31,300 --> 00:08:33,820
+2 minus 2, times 1, is 0.
+
+184
+00:08:33,820 --> 00:08:37,350
+5 minus 2, times 2, is 1.
+
+185
+00:08:37,350 --> 00:08:40,130
+5 minus 4 is 1.
+
+186
+00:08:40,130 --> 00:08:41,549
+We're almost there.
+
+187
+00:08:41,549 --> 00:08:44,870
+We just have to zero out
+these guys right there.
+
+188
+00:08:44,870 --> 00:08:47,220
+Let's see if we can get this
+into reduced row echelon form.
+
+189
+00:08:47,220 --> 00:08:47,900
+So what is this?
+
+190
+00:08:47,900 --> 00:08:49,880
+I just performed another
+linear transformation.
+
+191
+00:08:49,880 --> 00:08:50,800
+Actually, let me write this.
+
+192
+00:08:50,800 --> 00:08:53,710
+Let's say if this was our first
+linear transformation,
+
+193
+00:08:53,710 --> 00:08:55,390
+what I just did is I performed
+another linear
+
+194
+00:08:55,390 --> 00:08:56,660
+transformation, T2.
+
+195
+00:08:56,660 --> 00:08:59,940
+I'll write it in a different
+notation, where you give me
+
+196
+00:08:59,940 --> 00:09:04,100
+some vector, some column
+vector, x1, x2, x3.
+
+197
+00:09:04,100 --> 00:09:05,650
+What did I just do?
+
+198
+00:09:05,650 --> 00:09:08,390
+What was the transformation
+that I just performed?
+
+199
+00:09:08,390 --> 00:09:12,380
+My new vector, I made the top
+row equal to the top row plus
+
+200
+00:09:12,380 --> 00:09:13,325
+the second row.
+
+201
+00:09:13,325 --> 00:09:15,690
+So it's x1 plus x2.
+
+202
+00:09:15,690 --> 00:09:17,500
+I kept the second
+row the same.
+
+203
+00:09:17,500 --> 00:09:20,580
+And then the third row, I
+replaced it with the third row
+
+204
+00:09:20,580 --> 00:09:22,920
+minus 2 times the second row.
+
+205
+00:09:22,920 --> 00:09:25,290
+That was a linear transformation
+we just did.
+
+206
+00:09:25,290 --> 00:09:27,450
+And we could represent this
+linear transformation as
+
+207
+00:09:27,450 --> 00:09:31,300
+being, we could say T2 applied
+to some vector x is equal to
+
+208
+00:09:31,300 --> 00:09:36,120
+some transformation vector
+S2, times our vector x.
+
+209
+00:09:36,120 --> 00:09:42,140
+   
+
+210
+00:09:42,140 --> 00:09:45,340
+Because if we applied this
+transformation matrix to each
+
+211
+00:09:45,340 --> 00:09:48,590
+of these columns, it's
+equivalent to multiplying this
+
+212
+00:09:48,590 --> 00:09:50,940
+guy by this transformation
+matrix.
+
+213
+00:09:50,940 --> 00:09:53,430
+So you could say that this guy
+right here-- we haven't
+
+214
+00:09:53,430 --> 00:09:56,270
+figured out what this is, but
+I think you get the idea--
+
+215
+00:09:56,270 --> 00:09:59,200
+this matrix right here is going
+to be equal to this guy.
+
+216
+00:09:59,200 --> 00:10:03,310
+It's going to be equal
+to S2 times this guy.
+
+217
+00:10:03,310 --> 00:10:04,670
+What is this guy right here?
+
+218
+00:10:04,670 --> 00:10:07,805
+Well, this guy is equal
+to S1 times A.
+
+219
+00:10:07,805 --> 00:10:12,510
+It's going to be S2
+times S1, times A.
+
+220
+00:10:12,510 --> 00:10:13,760
+Fair enough.
+
+221
+00:10:13,760 --> 00:10:16,930
+   
+
+222
+00:10:16,930 --> 00:10:19,200
+And you could have gotten
+straight here if you just
+
+223
+00:10:19,200 --> 00:10:20,940
+multiplied S2 times S1.
+
+224
+00:10:20,940 --> 00:10:22,250
+This could be some
+other matrix.
+
+225
+00:10:22,250 --> 00:10:24,610
+If you just multiplied it by
+A, you'd go straight from
+
+226
+00:10:24,610 --> 00:10:26,070
+there to there.
+
+227
+00:10:26,070 --> 00:10:26,670
+Fair enough.
+
+228
+00:10:26,670 --> 00:10:28,595
+Now, we still haven't gotten
+this guy into reduced row
+
+229
+00:10:28,595 --> 00:10:30,010
+echelon form.
+
+230
+00:10:30,010 --> 00:10:31,220
+So let's try to get there.
+
+231
+00:10:31,220 --> 00:10:33,125
+I've run out of space below
+him, so I'm going
+
+232
+00:10:33,125 --> 00:10:35,270
+to have to go up.
+
+233
+00:10:35,270 --> 00:10:36,520
+So let's go upwards.
+
+234
+00:10:36,520 --> 00:10:40,620
+   
+
+235
+00:10:40,620 --> 00:10:43,650
+What I want to do is, I'm going
+to keep the third row
+
+236
+00:10:43,650 --> 00:10:48,790
+the same, 0, 0, 1.
+
+237
+00:10:48,790 --> 00:10:54,700
+Let me replace the second row
+with the second row minus 2
+
+238
+00:10:54,700 --> 00:10:56,150
+times the third row.
+
+239
+00:10:56,150 --> 00:10:59,680
+So we'll get a 0, we'll get a 1
+minus 2, times 0, and we'll
+
+240
+00:10:59,680 --> 00:11:02,250
+get a 2 minus 2, times 1.
+
+241
+00:11:02,250 --> 00:11:04,100
+So that's a 0.
+
+242
+00:11:04,100 --> 00:11:06,500
+Let's replaced the first
+row with the first row
+
+243
+00:11:06,500 --> 00:11:08,280
+minus the third row.
+
+244
+00:11:08,280 --> 00:11:10,970
+So 1 minus 0 is 1.
+
+245
+00:11:10,970 --> 00:11:13,880
+0 minus 0 is 0.
+
+246
+00:11:13,880 --> 00:11:19,310
+1 minus 1 is 0, just
+like that.
+
+247
+00:11:19,310 --> 00:11:21,470
+Let's just actually write what
+our transformation was.
+
+248
+00:11:21,470 --> 00:11:22,686
+Let's call it T3.
+
+249
+00:11:22,686 --> 00:11:26,490
+I'll do it in purple.
+
+250
+00:11:26,490 --> 00:11:30,225
+T3 is the transformation of some
+vector x-- let me write
+
+251
+00:11:30,225 --> 00:11:34,710
+it like this-- of some
+vector x1, x2, x3.
+
+252
+00:11:34,710 --> 00:11:37,570
+   
+
+253
+00:11:37,570 --> 00:11:38,290
+What did we do?
+
+254
+00:11:38,290 --> 00:11:41,050
+We replaced the first row with
+the first row minus the third
+
+255
+00:11:41,050 --> 00:11:44,300
+row, x1 minus x3.
+
+256
+00:11:44,300 --> 00:11:47,580
+We replaced the second row with
+the second row minus 2
+
+257
+00:11:47,580 --> 00:11:48,970
+times the third row.
+
+258
+00:11:48,970 --> 00:11:51,870
+So it's x2 minus 2 times x3.
+
+259
+00:11:51,870 --> 00:11:53,960
+Then the third row just
+stayed the same.
+
+260
+00:11:53,960 --> 00:11:57,510
+So obviously, this could
+also be represented.
+
+261
+00:11:57,510 --> 00:12:01,840
+T3 of x could be equal to some
+other transformation matrix,
+
+262
+00:12:01,840 --> 00:12:04,230
+S3 times x.
+
+263
+00:12:04,230 --> 00:12:07,040
+So this transformation, when
+you multiply it to each of
+
+264
+00:12:07,040 --> 00:12:12,090
+these columns, is equivalent to
+multiplying this guy times
+
+265
+00:12:12,090 --> 00:12:14,910
+this transformation matrix,
+which we haven't found yet.
+
+266
+00:12:14,910 --> 00:12:15,560
+We can write it.
+
+267
+00:12:15,560 --> 00:12:20,430
+So this is going to be equal to
+S3 times this matrix right
+
+268
+00:12:20,430 --> 00:12:27,150
+here, which is S2, S1, A.
+
+269
+00:12:27,150 --> 00:12:28,330
+And what do we have here?
+
+270
+00:12:28,330 --> 00:12:30,000
+We got the identity matrix.
+
+271
+00:12:30,000 --> 00:12:32,070
+We put it in reduced
+row echelon form.
+
+272
+00:12:32,070 --> 00:12:33,580
+We got the identity matrix.
+
+273
+00:12:33,580 --> 00:12:36,530
+We already know from previous
+videos the reduced row echelon
+
+274
+00:12:36,530 --> 00:12:38,750
+form of something is the
+identity matrix.
+
+275
+00:12:38,750 --> 00:12:41,830
+Then we are dealing with an
+invertible transformation, or
+
+276
+00:12:41,830 --> 00:12:44,140
+an invertible matrix.
+
+277
+00:12:44,140 --> 00:12:46,350
+Because this obviously could be
+the transformation for some
+
+278
+00:12:46,350 --> 00:12:47,580
+transformation.
+
+279
+00:12:47,580 --> 00:12:51,670
+Let's just call this
+transformation, I don't know,
+
+280
+00:12:51,670 --> 00:12:52,970
+did I already use T?
+
+281
+00:12:52,970 --> 00:12:57,420
+Let's just call it Tnaught for
+our transformation applied to
+
+282
+00:12:57,420 --> 00:13:00,130
+some vector x, that might
+be equal to Ax.
+
+283
+00:13:00,130 --> 00:13:04,390
+So we know that this
+is invertible.
+
+284
+00:13:04,390 --> 00:13:06,170
+We put it in reduced
+row echelon form.
+
+285
+00:13:06,170 --> 00:13:07,850
+We put its transformation
+matrix in
+
+286
+00:13:07,850 --> 00:13:09,560
+reduced row echelon form.
+
+287
+00:13:09,560 --> 00:13:11,130
+And we got the identity
+matrix.
+
+288
+00:13:11,130 --> 00:13:12,880
+So that tells us that
+this is invertible.
+
+289
+00:13:12,880 --> 00:13:14,990
+But something even more
+interesting happened.
+
+290
+00:13:14,990 --> 00:13:18,130
+We got here by performing
+some row operations.
+
+291
+00:13:18,130 --> 00:13:21,620
+And we said those row operations
+were completely
+
+292
+00:13:21,620 --> 00:13:26,080
+equivalent to multiplying this
+guy right here by multiplying
+
+293
+00:13:26,080 --> 00:13:29,890
+our original transformation
+matrix by a series of
+
+294
+00:13:29,890 --> 00:13:33,080
+transformation matrices that
+represent our row operations.
+
+295
+00:13:33,080 --> 00:13:37,150
+And when we multiplied all this,
+this was equal to the
+
+296
+00:13:37,150 --> 00:13:38,990
+identity matrix.
+
+297
+00:13:38,990 --> 00:13:43,930
+Now, in the last video we said
+that the inverse matrix, so if
+
+298
+00:13:43,930 --> 00:13:48,450
+this is Tnaught, Tnaught inverse
+could be represented--
+
+299
+00:13:48,450 --> 00:13:50,850
+it's also a linear
+transformation-- It can be
+
+300
+00:13:50,850 --> 00:13:54,450
+represented by some inverse
+matrix that we just called A
+
+301
+00:13:54,450 --> 00:13:56,070
+inverse times x.
+
+302
+00:13:56,070 --> 00:14:02,610
+And we saw that the inverse
+transformation matrix times
+
+303
+00:14:02,610 --> 00:14:06,580
+our transformation matrix is
+equal to the identity matrix.
+
+304
+00:14:06,580 --> 00:14:09,540
+We saw this last time.
+
+305
+00:14:09,540 --> 00:14:11,060
+We proved this to you.
+
+306
+00:14:11,060 --> 00:14:12,710
+Now, something very
+interesting here.
+
+307
+00:14:12,710 --> 00:14:16,750
+We have a series of matrix
+products times this guy, times
+
+308
+00:14:16,750 --> 00:14:20,010
+this guy, that also got me
+the identity matrix.
+
+309
+00:14:20,010 --> 00:14:23,640
+So this guy right here, this
+series of matrix products,
+
+310
+00:14:23,640 --> 00:14:29,750
+this must be the same thing as
+my inverse matrix, as my
+
+311
+00:14:29,750 --> 00:14:32,170
+inverse transformation matrix.
+
+312
+00:14:32,170 --> 00:14:35,720
+And so we could actually
+calculate it if we wanted to.
+
+313
+00:14:35,720 --> 00:14:38,100
+Just like we did, we actually
+figured out what S1 was.
+
+314
+00:14:38,100 --> 00:14:39,560
+We did it down here.
+
+315
+00:14:39,560 --> 00:14:41,520
+We could do a similar operation
+to figure out what
+
+316
+00:14:41,520 --> 00:14:46,370
+S2 was, S3 was, and then
+multiply them all out.
+
+317
+00:14:46,370 --> 00:14:50,810
+We would have actually
+constructed A inverse.
+
+318
+00:14:50,810 --> 00:14:53,240
+I guess, something more
+interesting we could do
+
+319
+00:14:53,240 --> 00:15:00,820
+instead of doing that, what if
+we applied these same matrix
+
+320
+00:15:00,820 --> 00:15:05,020
+products to the identity
+matrix.
+
+321
+00:15:05,020 --> 00:15:06,370
+So the whole time we did
+here, when we did
+
+322
+00:15:06,370 --> 00:15:07,950
+our first row operation.
+
+323
+00:15:07,950 --> 00:15:10,500
+So we have here, we
+have the matrix A.
+
+324
+00:15:10,500 --> 00:15:13,120
+Let's say we have an identity
+matrix on the right.
+
+325
+00:15:13,120 --> 00:15:15,050
+Let's call that I,
+right there.
+
+326
+00:15:15,050 --> 00:15:17,930
+Now, our first linear
+transformation we did-- we saw
+
+327
+00:15:17,930 --> 00:15:20,240
+that right here-- that
+was equivalent to
+
+328
+00:15:20,240 --> 00:15:23,910
+multiplying S1 times A.
+
+329
+00:15:23,910 --> 00:15:26,330
+The first set of row operations
+was this.
+
+330
+00:15:26,330 --> 00:15:27,510
+It got us here.
+
+331
+00:15:27,510 --> 00:15:30,520
+Now, if we perform that same set
+of row operations on the
+
+332
+00:15:30,520 --> 00:15:32,630
+identity matrix, what
+are we going to get?
+
+333
+00:15:32,630 --> 00:15:35,050
+We're going to get
+the matrix S1.
+
+334
+00:15:35,050 --> 00:15:37,580
+S1 times the identity
+matrix is just S1.
+
+335
+00:15:37,580 --> 00:15:41,490
+All of the columns of anything
+times the identity times the
+
+336
+00:15:41,490 --> 00:15:43,760
+standard basis columns, it'll
+just be equal to itself.
+
+337
+00:15:43,760 --> 00:15:45,930
+You'll just be left
+with that S1.
+
+338
+00:15:45,930 --> 00:15:47,820
+This is S1 times I.
+
+339
+00:15:47,820 --> 00:15:49,290
+That's just S1.
+
+340
+00:15:49,290 --> 00:15:50,090
+Fair enough.
+
+341
+00:15:50,090 --> 00:15:52,310
+Now, you performed your next row
+operation and you ended up
+
+342
+00:15:52,310 --> 00:15:56,320
+with S2 times S1, times A.
+
+343
+00:15:56,320 --> 00:15:58,710
+Now if you performed that same
+row operation on this guy
+
+344
+00:15:58,710 --> 00:16:00,820
+right there, what
+would you have?
+
+345
+00:16:00,820 --> 00:16:05,430
+You would have S2 times S1,
+times the identity matrix.
+
+346
+00:16:05,430 --> 00:16:08,300
+Now, our last row operation we
+represented with the matrix
+
+347
+00:16:08,300 --> 00:16:09,800
+product S3.
+
+348
+00:16:09,800 --> 00:16:12,690
+We're multiplying it by the
+transformation matrix S3.
+
+349
+00:16:12,690 --> 00:16:16,990
+So if you did that, you
+have S3, S2, S1 A.
+
+350
+00:16:16,990 --> 00:16:19,550
+But if you perform the same
+exact row operations on this
+
+351
+00:16:19,550 --> 00:16:24,940
+guy right here, you have
+S3, S2, S1, times
+
+352
+00:16:24,940 --> 00:16:26,360
+the identity matrix.
+
+353
+00:16:26,360 --> 00:16:28,510
+Now when you did this, when
+you performed these row
+
+354
+00:16:28,510 --> 00:16:32,690
+operations here, this got you
+to the identity matrix.
+
+355
+00:16:32,690 --> 00:16:35,310
+Well, what are these going
+to get you to?
+
+356
+00:16:35,310 --> 00:16:37,800
+When you just performed the same
+exact row operations you
+
+357
+00:16:37,800 --> 00:16:40,270
+performed on A to get to the
+identity matrix, if you
+
+358
+00:16:40,270 --> 00:16:43,110
+performed those same exact row
+operations on the identity
+
+359
+00:16:43,110 --> 00:16:44,630
+matrix, what do you get?
+
+360
+00:16:44,630 --> 00:16:46,990
+You get this guy right here.
+
+361
+00:16:46,990 --> 00:16:48,790
+Anything times that identity
+matrix is going
+
+362
+00:16:48,790 --> 00:16:50,930
+to be equal to itself.
+
+363
+00:16:50,930 --> 00:16:52,350
+So what is that right there?
+
+364
+00:16:52,350 --> 00:16:53,600
+That is A inverse.
+
+365
+00:16:53,600 --> 00:16:56,370
+   
+
+366
+00:16:56,370 --> 00:17:00,850
+So we have a generalized way
+of figuring out the inverse
+
+367
+00:17:00,850 --> 00:17:02,630
+for transformation matrix.
+
+368
+00:17:02,630 --> 00:17:04,819
+What I can do is, let's
+say I have some
+
+369
+00:17:04,819 --> 00:17:07,160
+transformation matrix A.
+
+370
+00:17:07,160 --> 00:17:09,420
+I can set up an augmented
+matrix where I put the
+
+371
+00:17:09,420 --> 00:17:13,750
+identity matrix right there,
+just like that, and I perform
+
+372
+00:17:13,750 --> 00:17:15,000
+a bunch of row operations.
+
+373
+00:17:15,000 --> 00:17:17,670
+   
+
+374
+00:17:17,670 --> 00:17:20,060
+And you could represent them
+as matrix products.
+
+375
+00:17:20,060 --> 00:17:23,069
+But you perform a bunch of row
+operations on all of them.
+
+376
+00:17:23,069 --> 00:17:25,180
+You perform the same operations
+you perform on A as
+
+377
+00:17:25,180 --> 00:17:27,119
+you would do on the
+identity matrix.
+
+378
+00:17:27,119 --> 00:17:31,340
+By the time you have A as an
+identity matrix, you have A in
+
+379
+00:17:31,340 --> 00:17:33,250
+reduced row echelon form.
+
+380
+00:17:33,250 --> 00:17:38,950
+By the time A is like that, your
+identity matrix, having
+
+381
+00:17:38,950 --> 00:17:42,290
+performed the same exact
+operations on it, it is going
+
+382
+00:17:42,290 --> 00:17:46,300
+to be transformed into
+A's inverse.
+
+383
+00:17:46,300 --> 00:17:50,340
+This is a very useful tool for
+solving actual inverses.
+
+384
+00:17:50,340 --> 00:17:52,150
+Now, I've explained
+the theoretical
+
+385
+00:17:52,150 --> 00:17:53,180
+reason why this works.
+
+386
+00:17:53,180 --> 00:17:54,740
+In the next video we'll
+actually solve this.
+
+387
+00:17:54,740 --> 00:17:57,610
+Maybe we'll do it for the
+example that I started off
+
+388
+00:17:57,610 --> 00:17:59,740
+with in this video.

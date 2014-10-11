@@ -1,0 +1,839 @@
+1
+00:00:00,880 --> 00:00:03,210
+We're on problem 68.
+
+2
+00:00:05,210 --> 00:00:06,130
+And they want to know,
+
+3
+00:00:06,130 --> 00:00:10,940
+what is the average arithmetic mean of j and k?
+
+4
+00:00:17,340 --> 00:00:19,120
+So essentially, if we knew what they were, you could take
+
+5
+00:00:19,120 --> 00:00:21,440
+j plus k, and divide by 2, and you'd know their average.
+
+6
+00:00:21,560 --> 00:00:23,640
+What is statement one?
+
+7
+00:00:24,420 --> 00:00:26,730
+Statement one tells us the average of
+
+8
+00:00:26,730 --> 00:00:28,750
+j plus 2, and k plus 4, is 11.
+
+9
+00:00:28,750 --> 00:00:29,890
+So this is interesting.
+
+10
+00:00:32,020 --> 00:00:41,160
+So means that j plus 2, plus k plus 4, over 2--
+
+11
+00:00:41,160 --> 00:00:42,380
+I'm just averaging the two numbers--
+
+12
+00:00:42,660 --> 00:00:48,080
+they're telling us that that is equal to 11.
+
+13
+00:00:48,330 --> 00:00:49,220
+And remember,
+
+14
+00:00:49,220 --> 00:00:51,040
+the question they're asking is the average of j and k.
+
+15
+00:00:51,040 --> 00:00:55,000
+So if we could just figure out what j plus k, over 2
+
+16
+00:00:55,000 --> 00:00:57,430
+is equal to, we're done.
+
+17
+00:00:57,430 --> 00:00:59,650
+Or, if we just knew what j plus k is, we were done.
+
+18
+00:01:00,520 --> 00:01:01,950
+Maybe we could figure that out from this.
+
+19
+00:01:01,950 --> 00:01:02,840
+Let's see if we can simplify.
+
+20
+00:01:04,440 --> 00:01:14,240
+This simplifies to j plus k, plus 6, over 2, is equal to 11.
+
+21
+00:01:14,890 --> 00:01:22,850
+This simplifies to j plus k, over 2, plus 3, right?
+
+22
+00:01:22,850 --> 00:01:26,770
+So plus 6 over 2. I'm just taking the 6 over 2 out.
+
+23
+00:01:26,770 --> 00:01:31,550
+So plus 6 over 2, is equal to 11.
+
+24
+00:01:31,980 --> 00:01:35,550
+So then we get j plus k, over 2 is equal to 8.
+
+25
+00:01:35,550 --> 00:01:36,160
+And we're done.
+
+26
+00:01:36,310 --> 00:01:39,950
+The average of j and k is 8. We're done.
+
+27
+00:01:39,950 --> 00:01:41,450
+Statement one alone is sufficient.
+
+28
+00:01:41,680 --> 00:01:44,270
+Let's see what statement number two does for us.
+
+29
+00:01:45,540 --> 00:01:52,460
+Statement number two says the average of jk and 14 is 10.
+
+30
+00:01:52,460 --> 00:01:54,260
+I suspect we're going to be able to do the exact same thing.
+
+31
+00:01:54,850 --> 00:01:59,080
+So the average of j plus k, plus 14--
+
+32
+00:01:59,940 --> 00:02:03,250
+so now we're averaging three numbers-- is equal to 10.
+
+33
+00:02:05,880 --> 00:02:06,880
+And here, we should be able to figure out
+
+34
+00:02:06,880 --> 00:02:08,410
+what j plus k is again.
+
+35
+00:02:10,070 --> 00:02:12,390
+We don't have a convenient 2 in the denominator anymore,
+
+36
+00:02:12,390 --> 00:02:13,650
+so let's just solve for j plus k.
+
+37
+00:02:13,650 --> 00:02:19,050
+So then you get j plus k, plus 14-- multiply both sides by 3
+
+38
+00:02:19,050 --> 00:02:19,950
+is equal to 30.
+
+39
+00:02:20,430 --> 00:02:24,790
+And then you get j plus k is equal to what?
+
+40
+00:02:24,790 --> 00:02:26,910
+Subtract 14 from both sides, is equal to 16.
+
+41
+00:02:27,860 --> 00:02:30,090
+And then if you wanted to figure out the average of the two,
+
+42
+00:02:30,090 --> 00:02:31,410
+you just divide both sides by 2.
+
+43
+00:02:32,460 --> 00:02:35,770
+And you get j plus k over 2 is equal to 8.
+
+44
+00:02:35,980 --> 00:02:39,950
+So each statement alone was sufficient to solve this problem.
+
+45
+00:02:40,560 --> 00:02:42,030
+Next problem.
+
+46
+00:02:43,000 --> 00:02:44,650
+I feel a sneeze coming on.
+
+47
+00:02:45,040 --> 00:02:46,780
+This is not happening.
+
+48
+00:02:47,580 --> 00:02:48,770
+All right.
+
+49
+00:02:49,100 --> 00:02:49,840
+Where was I?
+
+50
+00:02:49,840 --> 00:02:50,560
+Problem 69.
+
+51
+00:02:51,050 --> 00:02:54,070
+Let me move the scroll bar up all the way.
+
+52
+00:02:57,530 --> 00:03:00,200
+Paula and Sandy were among those people
+
+53
+00:03:00,200 --> 00:03:03,270
+who sold raffle tickets to raise money for club x.
+
+54
+00:03:03,760 --> 00:03:09,010
+If Paula and Sandy sold a total of 100 of the tickets,
+
+55
+00:03:09,310 --> 00:03:11,500
+how many of the tickets did Paula sell?
+
+56
+00:03:11,750 --> 00:03:15,860
+OK, so essentially they're telling us Paula plus Sandy
+
+57
+00:03:15,860 --> 00:03:18,150
+sold 100 tickets.
+
+58
+00:03:18,660 --> 00:03:22,040
+And they want us to figure out how many did Paula sell?
+
+59
+00:03:22,550 --> 00:03:24,520
+Where P is the number Paula sold,
+
+60
+00:03:24,520 --> 00:03:25,990
+and S is the number Sandy sold.
+
+61
+00:03:28,300 --> 00:03:29,090
+Problem number one.
+
+62
+00:03:29,200 --> 00:03:33,740
+Sandy sold 2/3 as many of the raffle tickets as Paula did.
+
+63
+00:03:34,000 --> 00:03:38,370
+So Sandy is equal to 2/3 times Paula.
+
+64
+00:03:38,580 --> 00:03:40,330
+Well, this alone is sufficient.
+
+65
+00:03:40,520 --> 00:03:43,440
+We have one equation of two unknowns,
+
+66
+00:03:43,440 --> 00:03:45,760
+and now we have another equation of the same two unknowns.
+
+67
+00:03:45,990 --> 00:03:47,280
+These are both linear equations.
+
+68
+00:03:47,280 --> 00:03:48,790
+So we have two equations of two unknowns.
+
+69
+00:03:48,890 --> 00:03:51,930
+We can easily now solve for S and P.
+
+70
+00:03:52,090 --> 00:03:54,380
+And maybe I'll do it, but you should just already recognize
+
+71
+00:03:54,380 --> 00:03:56,420
+that this is sufficient if you're on the GMAT.
+
+72
+00:03:56,520 --> 00:03:59,380
+And we'll solve it, just to do it after this.
+
+73
+00:03:59,550 --> 00:04:04,370
+Sandy sold 8% of all the raffle tickets sold for club x.
+
+74
+00:04:05,540 --> 00:04:06,990
+All right. Now, this is a little different.
+
+75
+00:04:06,990 --> 00:04:14,690
+This is Sandy is equal to 8% of not all the tickets that
+
+76
+00:04:14,690 --> 00:04:15,920
+Sandy and Paula sold,
+
+77
+00:04:15,920 --> 00:04:19,950
+she sold 8% of the total that club x sold.
+
+78
+00:04:20,470 --> 00:04:23,120
+So this is a different number, because there could have been
+
+79
+00:04:23,120 --> 00:04:26,070
+I might have been in club x selling raffle tickets.
+
+80
+00:04:26,330 --> 00:04:27,500
+So we don't know how many I sold.
+
+81
+00:04:27,500 --> 00:04:29,210
+So we don't know what this total number is.
+
+82
+00:04:29,210 --> 00:04:31,080
+So there's not much we can do with it,
+
+83
+00:04:31,080 --> 00:04:33,530
+because there's no way for us to figure out this total number
+
+84
+00:04:33,880 --> 00:04:35,520
+So this is not that useful.
+
+85
+00:04:35,980 --> 00:04:37,870
+So statement one alone is sufficient.
+
+86
+00:04:38,080 --> 00:04:39,590
+And just to prove the point to you--
+
+87
+00:04:39,590 --> 00:04:41,070
+we're trying to figure out what Paula sold.
+
+88
+00:04:41,070 --> 00:04:42,600
+So let's just substitute this back in.
+
+89
+00:04:43,860 --> 00:04:50,030
+So you have P plus-- for S I'll write 2/3P-- is equal to 100.
+
+90
+00:04:50,450 --> 00:04:56,200
+And so this is 5/3P is equal to 100.
+
+91
+00:04:56,200 --> 00:04:59,530
+Just added 1 plus 2/3, or 3/3 plus 2/3.
+
+92
+00:04:59,690 --> 00:05:04,160
+And then you have P is equal to 3/5 times 100,
+
+93
+00:05:04,160 --> 00:05:06,030
+which is equal to 60.
+
+94
+00:05:06,420 --> 00:05:07,350
+So that's how many she sold.
+
+95
+00:05:07,350 --> 00:05:08,750
+So we would definitely be able figure it out,
+
+96
+00:05:08,750 --> 00:05:09,960
+but this would've been a waste of time
+
+97
+00:05:09,960 --> 00:05:12,040
+if you were taking the GMAT for real.
+
+98
+00:05:12,040 --> 00:05:13,360
+You should have just recognized
+
+99
+00:05:13,360 --> 00:05:15,710
+two linear equations and two unknowns. I'm done.
+
+100
+00:05:16,880 --> 00:05:22,450
+Next problem, 70.
+
+101
+00:05:23,210 --> 00:05:26,330
+Is ax equal to 3 minus bx?
+
+102
+00:05:33,200 --> 00:05:33,930
+Who knows?
+
+103
+00:05:35,010 --> 00:05:36,210
+statement number one.
+
+104
+00:05:36,810 --> 00:05:38,320
+Let me scroll down a little bit.
+
+105
+00:05:38,870 --> 00:05:48,800
+Statement number one tells us,x times a,plus b is equal to 3.
+
+106
+00:05:50,300 --> 00:05:52,840
+Well, that's essentially the same thing as this top equation,
+
+107
+00:05:52,840 --> 00:05:53,210
+right?
+
+108
+00:05:53,210 --> 00:05:53,990
+Let me show you.
+
+109
+00:05:57,060 --> 00:06:02,840
+x times a, that's ax, plus bx is equal to 3.
+
+110
+00:06:03,010 --> 00:06:04,800
+And then subtract bx from both sides.
+
+111
+00:06:04,800 --> 00:06:08,290
+You get ax is equal to 3 minus bx,
+
+112
+00:06:08,490 --> 00:06:10,770
+which is exactly what we were trying to prove.
+
+113
+00:06:10,770 --> 00:06:13,220
+So if this is true, then this is definitely true.
+
+114
+00:06:13,220 --> 00:06:14,620
+Statement one alone is sufficient.
+
+115
+00:06:15,530 --> 00:06:24,600
+Statement two tells us, a equals b, equals 1.5,
+
+116
+00:06:24,750 --> 00:06:26,640
+and x is equal to 1.
+
+117
+00:06:26,760 --> 00:06:27,960
+Well, let's see if this is true.
+
+118
+00:06:28,530 --> 00:06:32,410
+So a is-- you have 1.5 times 1.
+
+119
+00:06:32,410 --> 00:06:38,960
+So you have 1.5 is equal to 3, minus 1.5 times 1.
+
+120
+00:06:39,320 --> 00:06:41,280
+So 3 minus 1.5. Well, this is true.
+
+121
+00:06:41,990 --> 00:06:45,350
+1.5 is equal to 3 minus 1.5, is 1.5.
+
+122
+00:06:45,350 --> 00:06:47,850
+So two alone is also sufficient.
+
+123
+00:06:48,410 --> 00:06:50,410
+So the answer is D.
+
+124
+00:06:50,520 --> 00:06:53,230
+Each statement alone is sufficient to solve this problem.
+
+125
+00:06:55,310 --> 00:06:55,890
+71.
+
+126
+00:06:56,310 --> 00:06:57,430
+Let me switch colors.
+
+127
+00:07:02,650 --> 00:07:05,160
+A number of people each wrote down
+
+128
+00:07:05,160 --> 00:07:07,630
+one of the first 30 positive integers.
+
+129
+00:07:08,210 --> 00:07:10,340
+Were any of the integers written down
+
+130
+00:07:10,340 --> 00:07:12,610
+by more than one of the people?
+
+131
+00:07:12,980 --> 00:07:14,230
+All right. That's interesting.
+
+132
+00:07:14,300 --> 00:07:15,520
+So are there any repeats?
+
+133
+00:07:19,000 --> 00:07:20,240
+A number of people.
+
+134
+00:07:20,430 --> 00:07:22,050
+So clearly if we had more than 30 people
+
+135
+00:07:22,050 --> 00:07:24,930
+and they all had to pick one of the first 30 integers,
+
+136
+00:07:24,930 --> 00:07:26,300
+then you're going to have repeats.
+
+137
+00:07:26,300 --> 00:07:27,570
+But let's see what they tell us.
+
+138
+00:07:27,980 --> 00:07:30,010
+The number of people who wrote down an integer was
+
+139
+00:07:30,010 --> 00:07:30,490
+greater than 40.
+
+140
+00:07:30,490 --> 00:07:31,130
+Well, there you go.
+
+141
+00:07:36,550 --> 00:07:39,590
+So 40 people each have to pick a number between--
+
+142
+00:07:39,880 --> 00:07:43,300
+one of the first 30 positive integers, right?
+
+143
+00:07:43,300 --> 00:07:45,070
+So they only have a pool of 30 to pick from.
+
+144
+00:07:45,440 --> 00:07:48,650
+So if 40 people have to pick number from a pool of 30 numbers
+
+145
+00:07:48,650 --> 00:07:50,930
+there's definitely going to be repeats, right?
+
+146
+00:07:52,530 --> 00:07:56,410
+So even if the first 30 people all picked different numbers,
+
+147
+00:07:56,410 --> 00:07:58,350
+which we cannot guarantee by any means,
+
+148
+00:07:58,940 --> 00:08:00,900
+the next 10 are going to have to repeat with somebody.
+
+149
+00:08:00,900 --> 00:08:03,180
+Because all of the first 30 would've already been picked.
+
+150
+00:08:03,180 --> 00:08:05,450
+And you could very easily have even more repeats.
+
+151
+00:08:05,870 --> 00:08:09,130
+So statement number one is very sufficient.
+
+152
+00:08:10,000 --> 00:08:10,980
+Statement number two.
+
+153
+00:08:10,980 --> 00:08:12,600
+The number of people who wrote down an integer
+
+154
+00:08:12,600 --> 00:08:13,770
+was less than 70.
+
+155
+00:08:15,960 --> 00:08:17,700
+Well, that's useless.
+
+156
+00:08:19,300 --> 00:08:21,660
+I mean, by this statement,
+
+157
+00:08:21,660 --> 00:08:23,990
+maybe only one person wrote down an integer, right?
+
+158
+00:08:24,410 --> 00:08:26,070
+And if only one person wrote down an integer,
+
+159
+00:08:26,070 --> 00:08:27,200
+we definitely don't have any repeats
+
+160
+00:08:27,200 --> 00:08:28,740
+because there's no one to repeat with.
+
+161
+00:08:29,060 --> 00:08:30,410
+So this is a useless statement.
+
+162
+00:08:30,410 --> 00:08:32,480
+So statement one alone is sufficient
+
+163
+00:08:32,480 --> 00:08:34,250
+and statement two is useless.
+
+164
+00:08:35,010 --> 00:08:36,020
+73.
+
+165
+00:08:36,210 --> 00:08:38,210
+I think there should be a third option,
+
+166
+00:08:38,210 --> 00:08:40,830
+where you can rate the degree of uselessness of a statement.
+
+167
+00:08:41,680 --> 00:08:44,250
+Some of them borderline on almost being useful,
+
+168
+00:08:44,250 --> 00:08:46,110
+some of them are ridiculous, like this one.
+
+169
+00:08:46,640 --> 00:08:47,770
+OK, 73.
+
+170
+00:08:51,530 --> 00:08:52,730
+72.
+
+171
+00:08:53,540 --> 00:08:57,600
+In the figure above, is CD greater than BC?
+
+172
+00:08:57,600 --> 00:09:02,390
+So they drew us a number line,or whatever you want to call it
+
+173
+00:09:02,860 --> 00:09:05,580
+Some type of a line. Let me do another color.
+
+174
+00:09:07,200 --> 00:09:09,010
+This end we have A.
+
+175
+00:09:09,890 --> 00:09:12,110
+Then we have B.
+
+176
+00:09:13,850 --> 00:09:15,890
+Then we have C.
+
+177
+00:09:16,870 --> 00:09:19,190
+And then we have D.
+
+178
+00:09:20,650 --> 00:09:25,800
+In the figure above, is CD-- so this is CD-- greater than BC?
+
+179
+00:09:25,800 --> 00:09:27,580
+So they want to know is this greater than this?
+
+180
+00:09:27,580 --> 00:09:32,180
+So is CD greater than BC?
+
+181
+00:09:33,520 --> 00:09:34,090
+All right.
+
+182
+00:09:34,540 --> 00:09:38,810
+So number one, they tell us that AD is equal to 20.
+
+183
+00:09:38,810 --> 00:09:41,920
+So this whole thing is equal to 20.
+
+184
+00:09:42,480 --> 00:09:44,540
+So that doesn't help me much.
+
+185
+00:09:44,540 --> 00:09:49,030
+Statement number one tells us AD is equal to 20.
+
+186
+00:09:49,450 --> 00:09:50,840
+It just tells me the whole length.
+
+187
+00:09:50,840 --> 00:09:52,610
+Maybe I can get some more information.
+
+188
+00:09:52,870 --> 00:09:53,710
+Statement number two.
+
+189
+00:09:53,850 --> 00:09:57,810
+AB is equal to CD.
+
+190
+00:10:02,530 --> 00:10:03,250
+So this is interesting.
+
+191
+00:10:03,820 --> 00:10:07,580
+They're telling us that this is equal to this.
+
+192
+00:10:09,650 --> 00:10:11,810
+But this still doesn't help us, right?
+
+193
+00:10:12,570 --> 00:10:16,690
+I can imagine a situation where both of these are--
+
+194
+00:10:16,990 --> 00:10:20,350
+let's say that both of these are 5.
+
+195
+00:10:20,680 --> 00:10:22,880
+That could be 5, that could be 5.
+
+196
+00:10:23,200 --> 00:10:25,330
+And then this would be 10, right?
+
+197
+00:10:25,330 --> 00:10:26,630
+5 plus 10, plus 5.
+
+198
+00:10:27,480 --> 00:10:32,570
+In which case, CD would not be greater than BC, right?
+
+199
+00:10:32,570 --> 00:10:35,110
+So this would be a situation that meets all of the conditions
+
+200
+00:10:35,110 --> 00:10:36,750
+where CD would not be greater than BC.
+
+201
+00:10:37,210 --> 00:10:39,560
+But then I can construct one where it is greater than BC.
+
+202
+00:10:40,200 --> 00:10:43,670
+I can make CD equal to-- what if that was 8?
+
+203
+00:10:44,320 --> 00:10:46,750
+And then this one also has to be 8.
+
+204
+00:10:46,890 --> 00:10:48,470
+And then we would only have 4 left.
+
+205
+00:10:49,450 --> 00:10:51,290
+Where CD is greater than BC.
+
+206
+00:10:51,640 --> 00:10:53,970
+So in this case, both statements together
+
+207
+00:10:53,970 --> 00:10:55,810
+are still not sufficient.
+
+208
+00:10:55,810 --> 00:10:57,330
+So the answer is E.
+
+209
+00:10:58,650 --> 00:10:59,700
+And I've run out of time.
+
+210
+00:10:59,700 --> 00:11:00,970
+I'll see in the next video.

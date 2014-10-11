@@ -1,0 +1,407 @@
+1
+00:00:00,070 --> 00:00:02,206
+I just want to follow up on the last video
+
+2
+00:00:02,206 --> 00:00:05,596
+Where we threw balls up in the air and saw how long they stayed up in the air
+
+3
+00:00:05,596 --> 00:00:08,568
+and we used that to figure out how fast we inicialy threw the ball
+
+4
+00:00:08,568 --> 00:00:10,612
+and how high they went in the air
+
+5
+00:00:10,612 --> 00:00:12,841
+and in the last video we did it with specific numbers
+
+6
+00:00:12,841 --> 00:00:14,420
+and in this video I just want to see if we can derive
+
+7
+00:00:14,420 --> 00:00:17,485
+some interesting formulas so we can do the computations
+
+8
+00:00:17,485 --> 00:00:20,132
+really fast in our brains while we're playing this game
+
+9
+00:00:20,132 --> 00:00:23,150
+on some type of a field and we don't necessarily have, have any,
+
+10
+00:00:23,150 --> 00:00:24,590
+any paper around
+
+11
+00:00:24,590 --> 00:00:27,934
+so lets say that the ball is in the air for delta T
+
+12
+00:00:27,934 --> 00:00:30,952
+delta T is equal to time in the air
+
+13
+00:00:30,952 --> 00:00:34,267
+time in the air
+
+14
+00:00:34,267 --> 00:00:37,407
+then we know that the time up is going to be half that
+
+15
+00:00:37,407 --> 00:00:38,893
+which is the same thing as the time down
+
+16
+00:00:38,893 --> 00:00:42,600
+the time up is going to be equal to delta T
+
+17
+00:00:42,600 --> 00:00:44,420
+we'll do that the same color
+
+18
+00:00:44,420 --> 00:00:48,739
+is going to be equal to the time in the air divided by two
+
+19
+00:00:48,739 --> 00:00:51,943
+so how, What was our initial velocity?
+
+20
+00:00:51,943 --> 00:00:55,751
+Well all we have to do is remind ourselves that the change in velocity
+
+21
+00:00:55,751 --> 00:00:59,606
+the change in velocity which is the same thing as the final velocity minus
+
+22
+00:00:59,606 --> 00:01:01,603
+the initial velocity
+
+23
+00:01:01,603 --> 00:01:04,006
+so the final velocity, remember, we're just talking about
+
+24
+00:01:04,006 --> 00:01:07,090
+half of the path of this ball so the time that get's released
+
+25
+00:01:07,090 --> 00:01:09,312
+and it goes and its, and it's going as kind of it's
+
+26
+00:01:09,312 --> 00:01:11,754
+maximum upward velocity it goes slower and slower and slower
+
+27
+00:01:11,754 --> 00:01:16,610
+all the way until it's stationary for just a moment then starts going down
+
+28
+00:01:16,610 --> 00:01:19,621
+again, remember the acceleration is costed downwards
+
+29
+00:01:19,621 --> 00:01:23,333
+this entire time so what is the final velocity if we just
+
+30
+00:01:23,333 --> 00:01:26,959
+consider half of this time well the time is zero so
+
+31
+00:01:26,959 --> 00:01:29,234
+it's going to be zero minus our
+
+32
+00:01:29,234 --> 00:01:32,493
+inicial velocity, minus our inicial velocity
+
+33
+00:01:32,493 --> 00:01:34,296
+when it was taking off
+
+34
+00:01:34,296 --> 00:01:36,200
+thats our change in velocity
+
+35
+00:01:36,200 --> 00:01:40,352
+this is our change in velocity, this is our change in velocity
+
+36
+00:01:40,352 --> 00:01:44,234
+is going to be equal to the acceleration of gravity
+
+37
+00:01:44,234 --> 00:01:46,231
+the acceleration of gravity
+
+38
+00:01:46,231 --> 00:01:49,668
+now negative nine point eight meters per second square
+
+39
+00:01:49,668 --> 00:01:51,990
+or the acceleration due to gravity
+
+40
+00:01:51,990 --> 00:01:53,476
+when an object is in freefall
+
+41
+00:01:53,476 --> 00:01:54,544
+to be technicaly correct times,
+
+42
+00:01:54,544 --> 00:01:58,770
+times, times the time we are going up
+
+43
+00:01:58,770 --> 00:02:03,275
+so times delta T up witch is the same thing
+
+44
+00:02:03,275 --> 00:02:05,036
+I won't even write it delta T up
+
+45
+00:02:05,036 --> 00:02:08,012
+is the same thing as our total time in the air
+
+46
+00:02:08,012 --> 00:02:15,256
+our total time in the air, divided by two and so we get we get, negative
+
+47
+00:02:15,256 --> 00:02:22,098
+the initial velocity, is equal to this thing divided be two is going to be
+
+48
+00:02:22,098 --> 00:02:24,823
+four point nine meters per second square
+
+49
+00:02:24,823 --> 00:02:26,680
+we still have our negative out in front
+
+50
+00:02:26,680 --> 00:02:31,120
+times our delta T, times our delta T, and remember this is our total time
+
+51
+00:02:31,120 --> 00:02:34,204
+in the air, not just the time up, this is our total time in the air
+
+52
+00:02:34,204 --> 00:02:38,012
+and then we multiply both sides times the negative and we get
+
+53
+00:02:38,012 --> 00:02:44,593
+our initial velocity, is just going to be equal to four point nine, four point nine
+
+54
+00:02:44,593 --> 00:02:49,808
+meters per second square times the total time, the total time
+
+55
+00:02:49,808 --> 00:02:53,533
+that we are in the air, or you could say, the or you could say
+
+56
+00:02:53,533 --> 00:02:58,167
+it's the, it's going to be nine point eight meters per second square times half
+
+57
+00:02:58,167 --> 00:03:00,600
+of the time that we're in the air, either of those will get you the same
+
+58
+00:03:00,600 --> 00:03:03,832
+calculation, so lets figure out our total distance,
+
+59
+00:03:03,832 --> 00:03:11,170
+or the distance that we travel in that first in the time of, so that will give us the peek distance, remember that distance
+
+60
+00:03:11,170 --> 00:03:15,267
+or should i say displacement in this situation, displacement is equal to
+
+61
+00:03:15,267 --> 00:03:23,393
+average velocity, average velocity times the change in time, the change in time that we care
+
+62
+00:03:23,393 --> 00:03:28,074
+about is the time of, so that is our delta T over two, our total time
+
+63
+00:03:28,074 --> 00:03:33,740
+our total time divided by two, this is our, this is our time of
+
+64
+00:03:33,740 --> 00:03:40,520
+time of, and whats our average velocity? well the average velocity
+
+65
+00:03:40,520 --> 00:03:46,696
+if we assume constant acceleration is your initial velocity plus your final velocity
+
+66
+00:03:46,696 --> 00:03:52,083
+over two, its really just the mean of the two things. well we know what our initial
+
+67
+00:03:52,083 --> 00:03:56,170
+velocity is our initial velocity is this thing over here, so this thing is
+
+68
+00:03:56,170 --> 00:03:59,533
+this thing over here, our final velocity, remember we're just talking about
+
+69
+00:03:59,533 --> 00:04:03,183
+the first half of the time the ball's in the air so it's final velocity
+
+70
+00:04:03,183 --> 00:04:08,755
+is zero we're talking when it gets to this peak point over here
+
+71
+00:04:08,755 --> 00:04:13,817
+its from two videos ago, that peak point right over there, so our average
+
+72
+00:04:13,817 --> 00:04:19,856
+velocity is just going to be, our average velocity is just going to be, this stuff divided by two
+
+73
+00:04:19,856 --> 00:04:26,133
+so it's going to be four point nine meters per second square, times delta T
+
+74
+00:04:26,133 --> 00:04:34,901
+times delta T over, over two, so this right here this is our average velocity
+
+75
+00:04:34,901 --> 00:04:40,009
+velocity average so lets stick that back over here
+
+76
+00:04:40,009 --> 00:04:41,588
+so our maximum displacement
+
+77
+00:04:41,588 --> 00:04:47,300
+our maximum displacement is going to be our average velocity, so that is going to be
+
+78
+00:04:47,300 --> 00:04:55,583
+four point nine meters per second square times delta T, times delta T, all of that over two
+
+79
+00:04:55,614 --> 00:04:59,537
+and then we multiply that again times the total times the time of,
+
+80
+00:04:59,537 --> 00:05:06,271
+so times delta T over two again, this is the same thing, and these are the same thing
+
+81
+00:05:06,271 --> 00:05:10,033
+and then we can simplify it, our maximum displacement is equal to
+
+82
+00:05:10,033 --> 00:05:18,703
+four point nine meters per second squared times delta T squared, times delta T squared
+
+83
+00:05:18,703 --> 00:05:24,592
+all of that over, all of that over four and then we can just divide four point nine
+
+84
+00:05:24,592 --> 00:05:31,233
+divided by four, four point nine divided by four is, what is it, it's one point
+
+85
+00:05:31,233 --> 00:05:37,409
+one point two, one point two, two, five I believe, let me just get my calculator out
+
+86
+00:05:37,409 --> 00:05:40,267
+I don't want to do that in my head, get this far and make a careless mistake
+
+87
+00:05:40,267 --> 00:05:45,490
+four point nine divided by four is one point two two five
+
+88
+00:05:45,490 --> 00:05:53,245
+so this is, so our maximum displacement is going to be one point two two five times our total
+
+89
+00:05:53,245 --> 00:05:58,586
+time in the air, total time in the air squared, witch is a pretty, witch is a pretty
+
+90
+00:05:58,586 --> 00:06:02,580
+straight forward, witch is a pretty straight forward calculation
+
+91
+00:06:02,580 --> 00:06:09,917
+so this is, this is our max displacement, kind of how far do we, how high are we getting
+
+92
+00:06:09,917 --> 00:06:16,186
+displaced, right when, right when that ball is stationary, or is, is , is no net velocity
+
+93
+00:06:16,186 --> 00:06:21,341
+just for a moment and starts decelerating downwards, so we can use that is a ball is in the air
+
+94
+00:06:21,341 --> 00:06:25,846
+for five seconds we can verify our computation from the last video
+
+95
+00:06:25,846 --> 00:06:31,790
+it would, our max velocity is one point two two five times five squared
+
+96
+00:06:31,790 --> 00:06:36,690
+which is twenty five, will give us thirty point six two five, that's what we got in the last video
+
+97
+00:06:36,690 --> 00:06:43,210
+if the balls in the air for, i don't know two point three seconds, so its one point two, two, five
+
+98
+00:06:43,210 --> 00:06:47,931
+times two point three squared, then that means that it went
+
+99
+00:06:47,931 --> 00:06:53,631
+six point four, eight meters in the air, so anyway I just wanted to give you a, a simply expression
+
+100
+00:06:53,631 --> 00:06:57,982
+that gives you, that gives you the maximum displacement from the ground,
+
+101
+00:06:57,982 --> 00:07:04,159
+assuming air resistance is negligible as a function of the total time in the air
+
+102
+00:07:04,159 --> 99:59:59,999
+and I don't know, I find that pretty fun and it's, it's a neat game to play

@@ -1,0 +1,164 @@
+1
+00:00:00,255 --> 00:00:04,285
+I have talked a lot about using polynomials to approximate
+
+2
+00:00:04,285 --> 00:00:07,093
+functions. but I want to do is show you the
+
+3
+00:00:07,093 --> 00:00:09,329
+approximation is actually happening.
+
+4
+00:00:09,329 --> 00:00:11,745
+So right over here and I'm using Wolfram Alpha
+
+5
+00:00:11,745 --> 00:00:13,733
+for this. It is a very cool website
+
+6
+00:00:13,733 --> 00:00:15,200
+You can do all kinds of crazy mathamatical things
+
+7
+00:00:15,200 --> 00:00:19,302
+on it. So wolframalpha.com
+
+8
+00:00:19,302 --> 00:00:22,334
+and I got this copy paste. I met Steven Wolfram
+
+9
+00:00:22,334 --> 00:00:24,252
+at a conference not too long ago.
+
+10
+00:00:24,252 --> 00:00:25,931
+He said, yes, definitely use wolfram alpha in your
+
+11
+00:00:25,931 --> 00:00:27,800
+videos and I said, Great ! I will, and so that is what I'm
+
+12
+00:00:27,800 --> 00:00:30,333
+using right here and its super useful because what it
+
+13
+00:00:30,333 --> 00:00:33,000
+does is - and we could have calculated all this on our own
+
+14
+00:00:33,000 --> 00:00:34,933
+#
+or even done it on a graphing calculator or we can
+
+15
+00:00:34,933 --> 00:00:37,444
+do it with just one step on wolfram alpha -
+
+16
+00:00:37,444 --> 00:00:41,133
+is see how well we can approximate
+
+17
+00:00:41,133 --> 00:00:47,400
+sin of x using a Maclaurin series expansion
+
+18
+00:00:47,400 --> 00:00:50,600
+or we can call it a Taylor series expansion at x = 0
+
+19
+00:00:50,600 --> 00:00:52,867
+using more and more terms,
+
+20
+00:00:52,867 --> 00:00:54,683
+having a good feel for the fact that
+
+21
+00:00:54,683 --> 00:00:56,400
+the more terms we add
+
+22
+00:00:56,400 --> 00:00:58,867
+the better it hugs the sine curve.
+
+23
+00:00:58,867 --> 00:01:03,019
+So this over here in orange is sin of x.
+
+24
+00:01:03,019 --> 00:01:06,757
+It should look fairly familiar to you
+
+25
+00:01:06,757 --> 00:01:08,867
+and in previous videos we figured out
+
+26
+00:01:08,867 --> 00:01:11,533
+what the Maclaurin expansion for sin of x is
+
+27
+00:01:11,533 --> 00:01:15,533
+and wolfram alpha does it for us as well.
+
+28
+00:01:15,533 --> 00:01:17,867
+They actually calculate the factorials for us.
+
+29
+00:01:17,867 --> 00:01:22,181
+3 factorial is 6, 5 factorial is 120, and so forth.
+
+30
+00:01:22,181 --> 00:01:24,000
+What's interesting here is, you can pick
+
+31
+00:01:24,000 --> 00:01:26,750
+how many approximations you want to graph.
+
+32
+00:01:26,750 --> 00:01:29,533
+So what they did is, if you want
+
+33
+00:01:29,533 --> 00:01:31,933
+just one term of the approximation,
+
+34
+00:01:31,933 --> 00:01:36,369
+if we just said that the whole polynomial is equal to x
+
+35
+00:01:36,369 --> 00:01:38,360
+what does that look like?
+
+36
+00:01:38,360 --> 00:01:40,357
+Well, that's going to be this graph right here.
+
+37
+00:01:40,357 --> 00:01:42,733
+They tell us how many terms we use
+
+38
+00:01:42,733 --> 00:01:44,467
+by how many dots there are,
+
+39
+00:01:44,467 --> 00:01:46,867
+which I think is pretty clever.
+
+40
+00:01:46,867 --> 00:01:50,800
+So this right here, that is a function p(x)
+
+41
+00:01:50,800 --> 99:59:59,999
+p(x) = x

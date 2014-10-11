@@ -1,0 +1,779 @@
+1
+00:00:00,050 --> 00:00:07,190
+We're on problem 55. At a certain picnic each of the guests
+
+2
+00:00:07,190 --> 00:00:09,770
+was served either a single scoop or a double scoop of
+
+3
+00:00:09,770 --> 00:00:12,110
+ice cream. How many of the guests
+
+4
+00:00:12,110 --> 00:00:13,810
+were served a double scoop of ice cream?
+
+5
+00:00:13,810 --> 00:00:17,300
+So let's say that d is the number of guests that were served
+
+6
+00:00:17,300 --> 00:00:19,480
+double scoop and that's what we're trying to figure out.
+
+7
+00:00:19,480 --> 00:00:21,600
+So what are their statements?
+
+8
+00:00:21,760 --> 00:00:26,220
+Statement number one says at the picnic 60% of the guests
+
+9
+00:00:26,220 --> 00:00:29,470
+were served a double scoop of ice cream.
+
+10
+00:00:29,470 --> 00:00:32,610
+So 60% percent of the total were served a double scoop.
+
+11
+00:00:32,610 --> 00:00:34,560
+Let's see if we can write that algebraically.
+
+12
+00:00:35,090 --> 00:00:36,800
+So 60% of the guests.
+
+13
+00:00:40,880 --> 00:00:44,400
+So the total number of guests are the number of guests
+
+14
+00:00:44,400 --> 00:00:48,950
+that were served double scoops plus the number of guests
+
+15
+00:00:48,950 --> 00:00:49,980
+that were served single scoops.
+
+16
+00:00:49,980 --> 00:00:51,880
+Then we have all of the guests,right?
+
+17
+00:00:52,960 --> 00:00:55,090
+This is this is equal to the total number of guests.
+
+18
+00:00:58,820 --> 00:01:00,770
+And then they tell us that 60% of them were
+
+19
+00:01:00,770 --> 00:01:03,330
+served double scoop. So the number that were served
+
+20
+00:01:03,330 --> 00:01:05,720
+double scoop is 60% of the total.
+
+21
+00:01:05,720 --> 00:01:08,610
+So that statement number one is just an algebraic equation.
+
+22
+00:01:08,610 --> 00:01:12,470
+And this alone though doesn't help me solve this equation.
+
+23
+00:01:12,470 --> 00:01:13,880
+Maybe in the next statement they'll tell us
+
+24
+00:01:13,880 --> 00:01:16,460
+how many total guests there are. What this is.
+
+25
+00:01:16,460 --> 00:01:17,970
+And that'll help me but I don't know.
+
+26
+00:01:17,970 --> 00:01:19,270
+Let's see,statement number two,
+
+27
+00:01:22,390 --> 00:01:25,720
+they say a total of 120 scoops of ice cream
+
+28
+00:01:25,720 --> 00:01:28,030
+were served to all the guests at the picnic.
+
+29
+00:01:28,910 --> 00:01:30,850
+So once again,they're telling us that there are 120 scoops
+
+30
+00:01:30,850 --> 00:01:33,260
+of ice cream,they're not telling us that there are 120 guests
+
+31
+00:01:33,880 --> 00:01:36,280
+So let's see,what are the total number of scoops.
+
+32
+00:01:36,280 --> 00:01:39,620
+So there's the number of single scoops and each of those are--
+
+33
+00:01:40,490 --> 00:01:42,710
+the number of guests that got singles scoops are s
+
+34
+00:01:42,710 --> 00:01:44,400
+and then the number of scoops is just 1 times that
+
+35
+00:01:44,400 --> 00:01:45,460
+because they each got one scoop.
+
+36
+00:01:46,320 --> 00:01:49,220
+And then you have the number of guests that got double scoops
+
+37
+00:01:49,220 --> 00:01:51,040
+But then the number of scoops they got is going to be 2
+
+38
+00:01:51,040 --> 00:01:54,620
+times that. So this is the total numbers scoops,right?
+
+39
+00:01:54,620 --> 00:01:57,240
+The number of people that got single scoops times 1 plus
+
+40
+00:01:57,240 --> 00:02:00,150
+the number that got double scoops times 2 and that
+
+41
+00:02:00,150 --> 00:02:03,500
+is going to be equal to the total number of scoops.
+
+42
+00:02:04,240 --> 00:02:05,960
+And this alone isn't going to help us solve
+
+43
+00:02:05,960 --> 00:02:07,340
+how many double scoops were served,
+
+44
+00:02:07,340 --> 00:02:09,420
+it depends on the singles scooped and all of that.
+
+45
+00:02:09,420 --> 00:02:12,050
+But if you look at both of these statements
+
+46
+00:02:12,050 --> 00:02:15,450
+we have two linear equations and two unknowns.
+
+47
+00:02:15,450 --> 00:02:18,290
+So at this point you should immediately say,unless
+
+48
+00:02:18,290 --> 00:02:21,650
+somehow these are the same equation
+
+49
+00:02:22,360 --> 00:02:25,070
+or somehow these are two parallel lines,
+
+50
+00:02:25,070 --> 00:02:30,240
+these should intersect and allow you to solve this equation.
+
+51
+00:02:31,100 --> 00:02:33,170
+So immediately-- especially if you don't want to waste time--
+
+52
+00:02:33,170 --> 00:02:35,890
+you should say that both statements together are sufficient.
+
+53
+00:02:35,890 --> 00:02:37,780
+And if you want me to prove this to you,
+
+54
+00:02:37,780 --> 00:02:39,500
+let me see if I can solve this.
+
+55
+00:02:39,500 --> 00:02:40,970
+So I'll do it in a different color.
+
+56
+00:02:41,960 --> 00:02:45,070
+So let me do some substitution.
+
+57
+00:02:45,070 --> 00:02:50,380
+So here we get s is equal to 120 minus 2d.
+
+58
+00:02:50,850 --> 00:02:52,320
+And we can substitute this back here.
+
+59
+00:02:52,320 --> 00:03:00,420
+So you get 0.6 times d plus s,which is 120 minus 2d,
+
+60
+00:03:01,250 --> 00:03:02,330
+is equal to d.
+
+61
+00:03:03,270 --> 00:03:10,790
+And so you get 0.6 times 120 minus d is equal to d.
+
+62
+00:03:11,610 --> 00:03:17,540
+And what's 0.6 times 120? That's 72,right? 6 times 12 is 72.
+
+63
+00:03:18,990 --> 00:03:29,640
+72 minus 0.6d is equal to d. So you get 72 is equal to 1.6d
+
+64
+00:03:29,640 --> 00:03:40,060
+and then 72 divided by 1.6 is equal to 45.
+
+65
+00:03:40,060 --> 00:03:43,700
+So there,we solved the problem.d is equal to 45.
+
+66
+00:03:43,700 --> 00:03:45,300
+45 double scoops were served.
+
+67
+00:03:45,300 --> 00:03:47,770
+And then we could substitute back into the equation to figure
+
+68
+00:03:47,770 --> 00:03:49,540
+how many single scoops or how many total guests there were,
+
+69
+00:03:49,540 --> 00:03:51,170
+but this is all that we had to figure out.
+
+70
+00:03:51,170 --> 00:03:54,350
+And we were able to using both statements combined.
+
+71
+00:03:55,210 --> 00:04:02,010
+To the next problem. 56. What is the value of xy?
+
+72
+00:04:04,480 --> 00:04:06,550
+OK. Statement number one:
+
+73
+00:04:07,340 --> 00:04:11,180
+they tell us that y is equal to x plus 1.
+
+74
+00:04:13,990 --> 00:04:17,010
+And that's not going to tell me what xy is,I mean there's
+
+75
+00:04:17,010 --> 00:04:19,260
+a bunch of x's and a bunch of different y's depending on
+
+76
+00:04:19,260 --> 00:04:21,340
+what I choose.
+
+77
+00:04:21,340 --> 00:04:26,090
+Two: they tell us y is equal to x squared plus 1.
+
+78
+00:04:26,090 --> 00:04:27,210
+Once again,this by itself--
+
+79
+00:04:28,630 --> 00:04:31,360
+it completely depends on which xy's I pick,right?
+
+80
+00:04:31,360 --> 00:04:33,360
+I can pick any combination and get different values.
+
+81
+00:04:33,360 --> 00:04:34,470
+You could try that out yourself.
+
+82
+00:04:34,470 --> 00:04:37,190
+But I have two equations and two unknowns.
+
+83
+00:04:37,190 --> 00:04:39,230
+It's a little tricky because one of them's non-linear,
+
+84
+00:04:39,230 --> 00:04:41,370
+but let's see if we can figure it out with substitution.
+
+85
+00:04:41,370 --> 00:04:43,780
+If y equals this and y equals that,we could set these two
+
+86
+00:04:43,780 --> 00:04:45,720
+equal to each other and see if we can solve for x.
+
+87
+00:04:45,720 --> 00:04:51,050
+So we get x plus 1,that's the first one,should equal this one
+
+88
+00:04:51,050 --> 00:04:54,180
+because they're both equal to y. x squared plus 1.
+
+89
+00:04:54,910 --> 00:04:58,550
+Let's see,we can subtract 1 from both sides
+
+90
+00:04:58,550 --> 00:05:01,890
+and you get x is equal to x squared.
+
+91
+00:05:03,560 --> 00:05:10,310
+And let's see,you could say-- well,you could divide--
+
+92
+00:05:11,180 --> 00:05:16,640
+if we assume that if x does not equal 0--
+
+93
+00:05:16,640 --> 00:05:18,490
+so there's two solutions here,right?
+
+94
+00:05:18,490 --> 00:05:22,530
+x could be equal to 0. That's completely legitimate.
+
+95
+00:05:22,530 --> 00:05:24,320
+They never told us that x isn't equal to 0.
+
+96
+00:05:24,320 --> 00:05:25,670
+That would satisfy that equation.
+
+97
+00:05:25,670 --> 00:05:28,230
+And then what other x would satisfy?
+
+98
+00:05:28,230 --> 00:05:31,480
+x could be equal to 0 or x could be equal to 1.
+
+99
+00:05:33,670 --> 00:05:37,830
+Either of those are completely legitimate answers here,right?
+
+100
+00:05:37,830 --> 00:05:41,200
+Fair enough. If x is 0 this is true,0 equals 0.
+
+101
+00:05:41,200 --> 00:05:43,950
+If x is 1,1 is equal to 1 squared.x can't be negative 1.
+
+102
+00:05:43,950 --> 00:05:46,120
+Negative 1 is not equal to negative 1 squared.
+
+103
+00:05:46,120 --> 00:05:47,740
+So these are the two solutions for x.
+
+104
+00:05:48,730 --> 00:05:51,170
+So right now it seems like it's a little shady,but remember,
+
+105
+00:05:51,170 --> 00:05:53,520
+we're not trying to solve for x or solve for y,
+
+106
+00:05:53,520 --> 00:05:54,840
+we're trying to solve for xy.
+
+107
+00:05:54,840 --> 00:05:57,040
+So maybe when we solve for y something,I don't know,
+
+108
+00:05:57,040 --> 00:05:58,900
+interesting could happen. Let's solve for y.
+
+109
+00:05:58,900 --> 00:06:03,900
+If you assume x is equal to 0 what's y?
+
+110
+00:06:04,870 --> 00:06:08,080
+y is equal to 0 plus 1.y is equal to 1 in this case.
+
+111
+00:06:09,440 --> 00:06:10,770
+That's one solution.
+
+112
+00:06:12,130 --> 00:06:14,640
+And if you put x is equal to 0 here you also get y is equal 1
+
+113
+00:06:14,640 --> 00:06:16,710
+So this is one set of solutions.
+
+114
+00:06:16,710 --> 00:06:20,800
+And in this reality xy is going to be equal to what?
+
+115
+00:06:20,800 --> 00:06:26,240
+xy is going to be equal to 0,right? 0 times 1 is 0.
+
+116
+00:06:26,240 --> 00:06:28,830
+Now if x is equal to 1,what is y?
+
+117
+00:06:29,790 --> 00:06:33,830
+Well,if x is equal to 1,y is equal to 1 plus 1,
+
+118
+00:06:34,730 --> 00:06:38,310
+y is equal to 2. Well,then xy is equal to 2.
+
+119
+00:06:39,210 --> 00:06:44,870
+So using both of the statements,
+
+120
+00:06:44,870 --> 00:06:48,140
+I still don't know whether xy is equal to 0 or 2.
+
+121
+00:06:48,140 --> 00:06:51,250
+Someone would have to tell me that x is not equal to 0,
+
+122
+00:06:51,250 --> 00:06:52,080
+x is equal to 0,
+
+123
+00:06:52,080 --> 00:06:54,140
+and only then can I really solve this equation.
+
+124
+00:06:54,140 --> 00:06:57,110
+So the answer to this,even though we have two equations
+
+125
+00:06:57,110 --> 00:07:00,530
+and two unknowns,because one of them was a quadratic
+
+126
+00:07:00,530 --> 00:07:04,810
+and had two solutions,we actually don't know what xy is.
+
+127
+00:07:04,810 --> 00:07:08,650
+So the answer is that the statements together
+
+128
+00:07:08,650 --> 00:07:10,430
+are not sufficient or E.
+
+129
+00:07:10,430 --> 00:07:13,390
+That's interesting because they actually make you do
+
+130
+00:07:13,390 --> 00:07:16,110
+a little bit more work than just eyeballing it and saying,
+
+131
+00:07:16,110 --> 00:07:17,480
+oh, I have two equations to unknowns.
+
+132
+00:07:17,480 --> 00:07:19,950
+You've got to be a little careful when the equations are
+
+133
+00:07:19,950 --> 00:07:20,660
+non-linear.
+
+134
+00:07:22,460 --> 00:07:25,930
+At least I think that's right. Alright,question 57.
+
+135
+00:07:25,930 --> 00:07:32,270
+They want to know what 1/x plus 1/y--
+
+136
+00:07:32,270 --> 00:07:34,220
+some police sirens outside.
+
+137
+00:07:34,220 --> 00:07:37,690
+I live in Palo Alto,there's not normally a high crime
+
+138
+00:07:37,690 --> 00:07:41,490
+scene here but you never know. Anyway,so 1/x plus 1/y.
+
+139
+00:07:41,490 --> 00:07:49,300
+So statement number one is x plus y is equal to 14.
+
+140
+00:07:51,580 --> 00:07:54,630
+Actually let me try to simplify this a little bit.
+
+141
+00:07:54,630 --> 00:07:57,500
+If I were to try to add these two,what could I do?
+
+142
+00:07:57,500 --> 00:07:58,980
+Well,when you add two fractions
+
+143
+00:08:00,770 --> 00:08:01,980
+you have to find a common denominator.
+
+144
+00:08:01,980 --> 00:08:04,770
+An easy common denominator for x and y is just xy.
+
+145
+00:08:05,870 --> 00:08:08,510
+So 1/x is what over xy?
+
+146
+00:08:09,400 --> 00:08:14,080
+Well,it's y/xy plus-- right,this is the same thing as 1/x--
+
+147
+00:08:14,080 --> 00:08:19,320
+plus,and if I had xy here,what's 1/y? Well,that's x/xy.
+
+148
+00:08:19,320 --> 00:08:25,420
+So that can be rewritten as y plus x over xy.
+
+149
+00:08:26,350 --> 00:08:29,680
+And now when you rewrite this statement like this,
+
+150
+00:08:29,680 --> 00:08:31,540
+then statement one looks a little interesting.
+
+151
+00:08:31,540 --> 00:08:33,670
+They gave us the numerator at least.They haven't told us
+
+152
+00:08:33,670 --> 00:08:36,690
+what xy is but they told us that y plus x,
+
+153
+00:08:37,470 --> 00:08:39,000
+or x plus y is equal to 14.
+
+154
+00:08:39,000 --> 00:08:42,750
+So statement one,it's kind of part of the puzzle
+
+155
+00:08:42,750 --> 00:08:44,570
+but it's not completely helping us.
+
+156
+00:08:44,570 --> 00:08:46,570
+Let's see what statement two tells us.
+
+157
+00:08:46,570 --> 00:08:48,460
+I suspect,if this is solveable,
+
+158
+00:08:48,460 --> 00:08:49,450
+they'll have to tell us what xy--
+
+159
+00:08:49,450 --> 00:08:50,910
+yep,they tell us what xy is.
+
+160
+00:08:50,910 --> 00:08:56,530
+They tell us that xy is equal to 24.So then we're done,right?
+
+161
+00:08:56,530 --> 00:08:59,550
+This simplifies to this and they're telling us what this is.
+
+162
+00:08:59,550 --> 00:09:03,430
+x plus y is 14. So it equals 14/24--
+
+163
+00:09:03,430 --> 00:09:04,750
+not that we have to really solve for it--
+
+164
+00:09:04,750 --> 00:09:08,060
+but that is equal to 7/12. But as soon as we got--
+
+165
+00:09:08,050 --> 00:09:09,900
+you say,oh,that's that,that's that. You're done.
+
+166
+00:09:09,900 --> 00:09:13,300
+You say,both statements together are sufficient.
+
+167
+00:09:13,300 --> 00:09:17,390
+So C. 58.
+
+168
+00:09:21,110 --> 00:09:27,690
+If d denotes a decimal is d greater than or equal to 0.5?
+
+169
+00:09:32,380 --> 00:09:35,080
+They put a 0 here so you make sure you notice the decimal.
+
+170
+00:09:35,080 --> 00:09:36,810
+d,greater than or equal to 0.5.
+
+171
+00:09:36,810 --> 00:09:40,510
+Statement number one tells us that
+
+172
+00:09:41,330 --> 00:09:47,040
+when d is rounded to the nearest 10th the result is 0.5.
+
+173
+00:09:50,310 --> 00:09:57,500
+So let's see,it could be 0.52 and when you round it
+
+174
+00:09:57,500 --> 00:10:00,270
+to the nearest 10th it becomes 0.5.
+
+175
+00:10:00,270 --> 00:10:05,640
+But on the other hand,it could be 0.46 and when you're
+
+176
+00:10:05,640 --> 00:10:08,660
+round it to the nearest 10th you also get 0.5.
+
+177
+00:10:09,550 --> 00:10:11,800
+So since statement one says it could be either one of these,
+
+178
+00:10:11,800 --> 00:10:13,450
+it really doesn't help us to know whether we're greater
+
+179
+00:10:13,450 --> 00:10:15,700
+than or equal to 0.5. This one is greater; this one isn't.
+
+180
+00:10:15,700 --> 00:10:17,610
+So statement one by itself doesn't help.
+
+181
+00:10:18,610 --> 00:10:22,790
+Statement two: when d is rounded to the nearest integer
+
+182
+00:10:22,790 --> 00:10:26,190
+the result is 1. Now this is interesting.
+
+183
+00:10:27,150 --> 00:10:29,660
+If something is rounded to the nearest integer
+
+184
+00:10:29,660 --> 00:10:33,810
+it has to be greater than 0.5,right?
+
+185
+00:10:35,660 --> 00:10:37,910
+The smallest number that when you round it to the nearest
+
+186
+00:10:37,910 --> 00:10:41,040
+integer equal to 1 is 0.5,right?
+
+187
+00:10:41,040 --> 00:10:46,830
+So it has to be 0.5 or it has to be 0.51,because 0.499999,
+
+188
+00:10:46,830 --> 00:10:49,710
+when you're round it to the nearest integer,is going to
+
+189
+00:10:49,710 --> 00:10:53,920
+be equal 0. That's the only way it can get rounded to 1,
+
+190
+00:10:53,920 --> 00:10:55,250
+if you're 0.5 or above.
+
+191
+00:10:55,250 --> 00:11:00,020
+So actually statement two alone is all you need to know
+
+192
+00:11:00,020 --> 00:11:06,080
+that d is greater than or equal to 0.5. So that is choice B.
+
+193
+00:11:06,080 --> 00:11:08,390
+Statement two alone is sufficient.
+
+194
+00:11:08,390 --> 00:11:10,120
+Alright,I've realized I've run out of time.
+
+195
+00:11:10,120 --> 00:11:11,100
+See you in the next video.

@@ -1,0 +1,171 @@
+1
+00:00:00,060 --> 00:00:02,100
+One last problem in this section.
+
+2
+00:00:02,100 --> 00:00:04,120
+Let's see, problem number 16.
+
+3
+00:00:04,120 --> 00:00:07,410
+After the first term, each term in a sequence is
+
+4
+00:00:07,410 --> 00:00:10,010
+3 greater than 1/3 the preceding term
+
+5
+00:00:10,010 --> 00:00:16,210
+So if I were to write that--so if I were to say n of i plus 1
+
+6
+00:00:16,210 --> 00:00:25,890
+so is equal to the preceding term times 1/3 plus 3.
+
+7
+00:00:25,890 --> 00:00:28,210
+And all I'm saying is, if I have a term, right?
+
+8
+00:00:28,210 --> 00:00:33,430
+Say the ith term is n, n sub i--I take 1/3 of it and add 3
+
+9
+00:00:33,430 --> 00:00:34,710
+to get the next term.
+
+10
+00:00:34,710 --> 00:00:36,770
+That's all. This is just fancy notation for that.
+
+11
+00:00:37,760 --> 00:00:40,950
+If t is the first term of the sequence and t does not equal 0
+
+12
+00:00:41,100 --> 00:00:42,820
+so this is t.
+
+13
+00:00:42,820 --> 00:00:44,390
+I probably didn't even have to write this.
+
+14
+00:00:44,390 --> 00:00:47,080
+Ignore this if this confuses you. so t is the first term,
+
+15
+00:00:47,080 --> 00:00:49,410
+What's the next term going to be?
+
+16
+00:00:49,410 --> 00:00:51,790
+It's going to be 1/3 times t plus 3.
+
+17
+00:00:51,790 --> 00:00:54,860
+So it's going to be t/3 plus 3.
+
+18
+00:00:57,000 --> 00:00:59,600
+And they're going to say-- and then we could keep going-- but
+
+19
+00:00:59,600 --> 00:01:01,150
+they just want to know, what is the ratio of the second
+
+20
+00:01:01,150 --> 00:01:02,040
+term to the first term?
+
+21
+00:01:02,040 --> 00:01:04,080
+So what is the ratio of this to this?
+
+22
+00:01:04,080 --> 00:01:11,130
+Well the ratio is t/3 plus 3, to t. Right?
+
+23
+00:01:11,130 --> 00:01:22,940
+And that's the same thing as t/3 plus 3 times 1/t.
+
+24
+00:01:24,000 --> 00:01:31,950
+That's the same thing as t/3 times 1/t plus 3 times 1/t.
+
+25
+00:01:31,950 --> 00:01:35,040
+I just distributed the 1/t. These cancel out.
+
+26
+00:01:35,040 --> 00:01:41,040
+So that equals 1/3 plus 3 over t.
+
+27
+00:01:41,040 --> 00:01:44,600
+And that doesn't look like any of the choices I see,
+
+28
+00:01:44,600 --> 00:01:46,480
+so we probably have to find a common denominator.
+
+29
+00:01:46,480 --> 00:01:48,470
+So let's say the common denominator is 3t.
+
+30
+00:01:48,470 --> 00:01:50,020
+Just multiply the two.
+
+31
+00:01:50,020 --> 00:01:57,700
+1/3 is the same thing as t over 3t, and 3/t is the same thing
+
+32
+00:01:57,700 --> 00:02:01,110
+as 9/3 t, right?
+
+33
+00:02:01,110 --> 00:02:03,370
+I just multiplied the top and the bottom by 3.
+
+34
+00:02:04,000 --> 00:02:10,030
+So t plus 9/3 t. t plus 9/3 t is choice C.
+
+35
+00:02:10,030 --> 00:02:12,010
+And you could even ignore this.
+
+36
+00:02:12,010 --> 00:02:16,730
+Really, the hard part isn't even this.
+
+37
+00:02:16,730 --> 00:02:17,610
+The hard part is actually just,
+
+38
+00:02:17,680 --> 00:02:20,000
+you might end up with something like this.
+
+39
+00:02:20,000 --> 00:02:21,710
+And then you're like, well I don't see that choice,
+
+40
+00:02:21,710 --> 00:02:23,450
+and then you have to realize, oh I have to find a common
+
+41
+00:02:23,450 --> 00:02:28,010
+denominator to get to this. The common denominator is 3t.
+
+42
+00:02:28,010 --> 00:02:29,670
+Well that's it. That's a very short video.
+
+43
+00:02:29,670 --> 00:02:35,030
+I'll see you in the next SAT test, or on the next SAT test.

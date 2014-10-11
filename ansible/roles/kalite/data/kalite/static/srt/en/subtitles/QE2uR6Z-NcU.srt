@@ -1,0 +1,819 @@
+1
+00:00:00,015 --> 00:00:06,000
+Let's say I have a bag and in that bag I am going to put some green cubes
+
+2
+00:00:06,000 --> 00:00:11,447
+and in particular I am going to put 8 green cubes.
+
+3
+00:00:11,447 --> 00:00:15,667
+I am also going to put some spheres in that bag.
+
+4
+00:00:15,667 --> 00:00:20,178
+Let's say I am going to put 9 spheres and these are the green spheres
+
+5
+00:00:20,178 --> 00:00:22,779
+I am also going to put yellow cubes in that bag
+
+6
+00:00:22,779 --> 00:00:27,867
+Some yellow cubes. I am going to put 5 of those.
+
+7
+00:00:27,867 --> 00:00:31,067
+And I am also going to put some yellow spheres in this bag.
+
+8
+00:00:31,067 --> 00:00:35,000
+Yellow spheres. Let's say I will put in 7 of those.
+
+9
+00:00:35,000 --> 00:00:37,800
+I must take them all in this bag. And I am going to shake this bag and
+
+10
+00:00:37,800 --> 00:00:40,519
+then I am going to pour them out and I am going to look
+
+11
+00:00:40,519 --> 00:00:43,000
+at the first object that falls out of that bag.
+
+12
+00:00:43,000 --> 00:00:45,667
+What I want to think about in this video is:
+
+13
+00:00:45,667 --> 00:00:48,333
+What are the probabilities of getting different types of objects?
+
+14
+00:00:48,333 --> 00:00:50,467
+So for example what is the probability,
+
+15
+00:00:50,467 --> 00:00:53,000
+what is the probability of getting a cube?
+
+16
+00:00:53,000 --> 00:00:55,800
+A cube of any, of any color.
+
+17
+00:00:55,800 --> 00:00:58,800
+What is the probability of getting a cube?
+
+18
+00:00:58,800 --> 00:01:00,999
+Well to think about that, we should think about what -
+
+19
+00:01:00,999 --> 00:01:02,299
+Or this is one way to think about it. -
+
+20
+00:01:02,299 --> 00:01:05,933
+What are all of the equally likely possibilities that might pop out of the bag?
+
+21
+00:01:05,933 --> 00:01:10,200
+Well we have 8 plus 9 is 17, 17 plus 5 is 22.
+
+22
+00:01:10,200 --> 00:01:16,000
+22 + 7 is 29. So we have 29 objects. There are 29 objects in the bag.
+
+23
+00:01:16,000 --> 00:01:18,667
+Did I do that right? This is 14, yep, 29 objects.
+
+24
+00:01:18,667 --> 00:01:21,665
+So let's draw all of the possible objects.
+
+25
+00:01:21,665 --> 00:01:23,867
+And I will do this in, I will present this in this big area.
+
+26
+00:01:23,867 --> 00:01:26,867
+I will represent it as this big area right over here.
+
+27
+00:01:26,867 --> 00:01:29,600
+So these are all the possible objects.
+
+28
+00:01:29,600 --> 00:01:31,800
+There are 29 possible objects.
+
+29
+00:01:31,800 --> 00:01:35,733
+So there is 29 equal possibilities, for the outcome
+
+30
+00:01:35,733 --> 00:01:38,940
+of my experiment of seeing what pops out of that bag.
+
+31
+00:01:38,940 --> 00:01:41,933
+Assuming that it is equally likely for a cube or a sphere to pop out of that bag first.
+
+32
+00:01:41,933 --> 00:01:45,067
+And how many of them meet our constrain of being a cube?
+
+33
+00:01:45,067 --> 00:01:49,400
+Well I have 8 green cubes and I have 5 yellow cubes.
+
+34
+00:01:49,400 --> 00:01:51,943
+So there are a total of 13 cubes.
+
+35
+00:01:51,943 --> 00:01:54,400
+So let me draw that set of cubes.
+
+36
+00:01:54,400 --> 00:01:56,467
+So there is 13 cubes.
+
+37
+00:01:56,467 --> 00:01:57,800
+Let's draw it like this.
+
+38
+00:01:57,800 --> 00:02:03,533
+There are 13, 13 cubes.
+
+39
+00:02:03,533 --> 00:02:06,533
+This right here is the set of cubes.
+
+40
+00:02:06,533 --> 00:02:09,533
+And I am not drawing it exact, I am approximating.
+
+41
+00:02:09,533 --> 00:02:11,000
+This represents the set of all the cubes.
+
+42
+00:02:11,000 --> 00:02:13,120
+So the probability of getting a cube,
+
+43
+00:02:13,120 --> 00:02:15,733
+is the number of events that meet our criteria,
+
+44
+00:02:15,733 --> 00:02:19,400
+so there is 13 possible cubes that have an equal likely chance of popping out.
+
+45
+00:02:19,400 --> 00:02:24,000
+Over all of the possible equally likely events, which are 29.
+
+46
+00:02:24,000 --> 00:02:28,067
+That includes the cubes and the spheres.
+
+47
+00:02:28,067 --> 00:02:29,800
+Now let's ask a different question.
+
+48
+00:02:29,800 --> 00:02:33,867
+What is the probability of getting a yellow?
+
+49
+00:02:33,867 --> 00:02:36,333
+A yellow object. Either a cube or a sphere.
+
+50
+00:02:36,333 --> 00:02:40,267
+So once again, how many things meet our conditions here?
+
+51
+00:02:40,267 --> 00:02:46,200
+Well we have 5 plus 7; there is 12 yellows objects in the bag.
+
+52
+00:02:46,200 --> 00:02:49,467
+So we have 29 equally likely possibilities.
+
+53
+00:02:49,467 --> 00:02:51,467
+I will do that in the same color.
+
+54
+00:02:51,467 --> 00:02:54,591
+We have 29 equally likely possibilities, and of those,
+
+55
+00:02:54,591 --> 00:03:01,333
+12 meet our criteria. So let's, so let me draw 12 right over here.
+
+56
+00:03:01,333 --> 00:03:06,108
+I will do my best attempt. So that it looks something like...
+
+57
+00:03:06,108 --> 00:03:10,533
+A set of yellow objects, there are 12.
+
+58
+00:03:10,533 --> 00:03:14,000
+There are 12 objects that are yellow.
+
+59
+00:03:14,000 --> 00:03:19,067
+So the 12 that meet our conditions are 12 over all the possibilities, 29.
+
+60
+00:03:19,067 --> 00:03:21,400
+So probability of getting a cube is 13 over 29.
+
+61
+00:03:21,400 --> 00:03:25,133
+The probability of getting a yellow 12 29ths.
+
+62
+00:03:25,133 --> 00:03:28,120
+Now let's have something a little bit more interesting.
+
+63
+00:03:28,120 --> 00:03:29,000
+What is the probability...
+
+64
+00:03:29,000 --> 00:03:32,667
+What is the probability of getting a yellow cube?
+
+65
+00:03:32,667 --> 00:03:35,400
+So I will put in yellow. So we care about the color now.
+
+66
+00:03:35,400 --> 00:03:36,933
+So this thing is yellow.
+
+67
+00:03:36,933 --> 00:03:41,170
+What is the probability of getting a, as my son would say lellow,
+
+68
+00:03:41,170 --> 00:03:44,514
+What is the probability of getting a yellow cube?
+
+69
+00:03:44,514 --> 00:03:48,067
+Well, there is 29 equally likely possibilities.
+
+70
+00:03:48,067 --> 00:03:50,800
+There is 29 equally likely possibilities.
+
+71
+00:03:50,800 --> 00:03:56,402
+And of those 29 equally likely possibilities, 5 of those are yellow cubes.
+
+72
+00:03:56,402 --> 00:03:58,000
+Or lellow cubes.
+
+73
+00:03:58,000 --> 00:04:01,186
+5 of them. So the probability is 5 29ths.
+
+74
+00:04:01,186 --> 00:04:04,808
+And where would we see that on this Venn diagram that I have drawn?
+
+75
+00:04:04,808 --> 00:04:07,533
+And this Venn diagram, this is just a way to visualize the different probabilities.
+
+76
+00:04:07,533 --> 00:04:11,067
+And they become interesting when you start thinking about where sets overlap.
+
+77
+00:04:11,067 --> 00:04:12,749
+Or even where they don't overlap.
+
+78
+00:04:12,749 --> 00:04:16,800
+So here we are thinking about things that are members of the set yellow,
+
+79
+00:04:16,800 --> 00:04:19,600
+So there in this set, and they are cubes.
+
+80
+00:04:19,600 --> 00:04:25,195
+So this area right over here. That is the overlap of these two sets.
+
+81
+00:04:25,195 --> 00:04:27,533
+So this area right over here.
+
+82
+00:04:27,533 --> 00:04:31,267
+This represents things that are both yellow and a cube.
+
+83
+00:04:31,267 --> 00:04:33,067
+Because they are inside both circles.
+
+84
+00:04:33,067 --> 00:04:37,000
+So this right over here. Let me write it over here.
+
+85
+00:04:37,000 --> 00:04:39,933
+So there is 5 objects that are both yellow and,
+
+86
+00:04:39,933 --> 00:04:45,133
+yellow and cubes.
+
+87
+00:04:45,133 --> 00:04:49,133
+Now let's ask, and this is probably the most interesting thing to ask,
+
+88
+00:04:49,133 --> 00:04:51,400
+What is the probability,
+
+89
+00:04:51,400 --> 00:04:57,400
+What is the probability of getting something that is yellow or...
+
+90
+00:04:57,400 --> 00:05:00,350
+that is yellow or a cube?
+
+91
+00:05:00,350 --> 00:05:01,400
+A cube of any color.
+
+92
+00:05:01,400 --> 00:05:04,867
+A cube of any color.
+
+93
+00:05:04,867 --> 00:05:08,067
+The probability of getting something that is yellow or a cube of any color.
+
+94
+00:05:08,067 --> 00:05:11,133
+Well we still know that de denominator is going to be 29,
+
+95
+00:05:11,133 --> 00:05:14,667
+these are all of the equally likely possibilities that might jump out of the bag.
+
+96
+00:05:14,667 --> 00:05:17,933
+But what are the possibilities that meet our conditions?
+
+97
+00:05:17,933 --> 00:05:20,087
+Well, one way to think about it,
+
+98
+00:05:20,087 --> 00:05:21,666
+one way to think about it, is:
+
+99
+00:05:21,666 --> 00:05:25,467
+Well, probably, there is 12 things that would meet the yellow condition.
+
+100
+00:05:25,467 --> 00:05:27,657
+So that would be this entire circle right over here,
+
+101
+00:05:27,657 --> 00:05:29,667
+12 things that meet the yellow condition.
+
+102
+00:05:29,667 --> 00:05:32,000
+So this right over here is 12.
+
+103
+00:05:32,000 --> 00:05:38,067
+This is the number of yellow. That is 12.
+
+104
+00:05:38,067 --> 00:05:41,171
+And then to that, we can't just add the number of cubes.
+
+105
+00:05:41,171 --> 00:05:43,133
+Because if add the number of cubes,
+
+106
+00:05:43,133 --> 00:05:44,733
+we have already counted these 5.
+
+107
+00:05:44,733 --> 00:05:47,067
+With these 5 are counted as part of these 12.
+
+108
+00:05:47,067 --> 00:05:48,508
+One way to think about it is,
+
+109
+00:05:48,508 --> 00:05:51,933
+There are 7 yellow objects that are not cubes,
+
+110
+00:05:51,933 --> 00:05:53,067
+those are the spheres.
+
+111
+00:05:53,067 --> 00:05:55,846
+There are 5 yellow objects that are cubes.
+
+112
+00:05:55,846 --> 00:06:00,165
+And then, there are 8 cubes that are not yellow.
+
+113
+00:06:00,165 --> 00:06:01,200
+That is one way to think about it.
+
+114
+00:06:01,200 --> 00:06:03,230
+So when we counted these 12, the number of yellow,
+
+115
+00:06:03,230 --> 00:06:05,133
+we counted all of this.
+
+116
+00:06:05,133 --> 00:06:07,133
+So we can't just add the number of cubes to it,
+
+117
+00:06:07,133 --> 00:06:09,360
+because then we would count this middle part again.
+
+118
+00:06:09,360 --> 00:06:12,000
+So then we have to essentially count cubes,
+
+119
+00:06:12,000 --> 00:06:15,000
+the number of cubes, which is 13,
+
+120
+00:06:15,000 --> 00:06:18,467
+13, the number of cubes. Number of cubes.
+
+121
+00:06:18,467 --> 00:06:20,733
+Number of cubes.
+
+122
+00:06:20,733 --> 00:06:26,264
+I will have to subtract out, this middle section right over here.
+
+123
+00:06:26,264 --> 00:06:27,400
+Let me do this.
+
+124
+00:06:27,400 --> 00:06:30,667
+So, subtract out the middle section right over here.
+
+125
+00:06:30,667 --> 00:06:32,022
+So minus 5.
+
+126
+00:06:32,022 --> 00:06:39,400
+So this is the number, the number of yellow cubes.
+
+127
+00:06:39,400 --> 00:06:41,589
+It feels weird to write the word yellow in green.
+
+128
+00:06:41,589 --> 00:06:43,400
+The number of yellow cubes.
+
+129
+00:06:43,400 --> 00:06:44,329
+Or another way to think about it,
+
+130
+00:06:44,329 --> 00:06:47,000
+Or we can just do this math right here.
+
+131
+00:06:48,730 --> 00:06:50,459
+12 plus 13 minus 5 is what? It is... It is 20.
+
+132
+00:06:50,459 --> 00:06:54,267
+Did I do this right? 12 minus.... Yep it is 20.
+
+133
+00:06:54,267 --> 00:06:58,075
+So that is one way, you just get this is equal to 20 over 29.
+
+134
+00:06:58,075 --> 00:07:00,733
+But the more interesting thing than, even than the answer of the probability of getting that,
+
+135
+00:07:00,733 --> 00:07:05,400
+is expressing this in terms of the other probabilities
+
+136
+00:07:05,400 --> 00:07:07,800
+that we figured out earlier in the video.
+
+137
+00:07:07,800 --> 00:07:10,067
+So let's think about this a little bit.
+
+138
+00:07:10,067 --> 00:07:12,100
+We can rewrite this fraction right over here,
+
+139
+00:07:12,100 --> 00:07:22,933
+We can rewrite this as: 12/29, plus 13/29, minus 5/29.
+
+140
+00:07:22,933 --> 00:07:31,533
+And this was the number of yellow over the total possibilities.
+
+141
+00:07:31,533 --> 00:07:35,133
+So this right over here was the probability of getting a yellow.
+
+142
+00:07:35,133 --> 00:07:39,200
+And this right over here was the number of cubes over the total possibilities.
+
+143
+00:07:39,200 --> 00:07:44,000
+So this is plus the probability of getting, of getting a cube.
+
+144
+00:07:44,000 --> 00:07:46,267
+The probability of getting a cube.
+
+145
+00:07:46,267 --> 00:07:50,867
+And this right over here was the number of yellow cubes over the total possibilities.
+
+146
+00:07:50,867 --> 00:07:52,642
+So this right over here was
+
+147
+00:07:52,642 --> 00:07:59,004
+minus the probability of yellow and, and a cube.
+
+148
+00:07:59,004 --> 00:07:59,980
+And I can write it that way.
+
+149
+00:07:59,980 --> 00:08:03,333
+The probability of yellow, alright, yellow in yellow,
+
+150
+00:08:03,333 --> 00:08:10,000
+yellow and, yellow and getting a cube.
+
+151
+00:08:10,000 --> 00:08:12,667
+Yellow and getting a cube.
+
+152
+00:08:12,667 --> 00:08:14,067
+So, and what we have just here,
+
+153
+00:08:14,067 --> 00:08:15,000
+and you can play with the numbers,
+
+154
+00:08:15,000 --> 00:08:17,267
+the numbers I just used as an example right here.
+
+155
+00:08:17,267 --> 00:08:18,400
+To make things a little more concrete.
+
+156
+00:08:18,400 --> 00:08:20,867
+But you can see this is a generalisable thing.
+
+157
+00:08:20,867 --> 00:08:25,661
+If we have the probability of one condition or a number of conditions.
+
+158
+00:08:25,661 --> 00:08:26,600
+Let me rewrite it.
+
+159
+00:08:26,600 --> 00:08:29,608
+The probability, and I will just write a little bit more generally here.
+
+160
+00:08:29,608 --> 00:08:31,733
+This gives us an interesting idea.
+
+161
+00:08:31,733 --> 00:08:35,067
+The probability of getting one condition,
+
+162
+00:08:35,067 --> 00:08:40,600
+of an object being a member of set A, or, or a member of set B,
+
+163
+00:08:40,600 --> 00:08:43,494
+is equal to the probability that it is a member of set A,
+
+164
+00:08:43,494 --> 00:08:47,133
+plus the probability that it is a member of set B,
+
+165
+00:08:47,133 --> 00:08:51,467
+minus the probability that it is a member of both.
+
+166
+00:08:51,467 --> 00:08:54,933
+minus the probability that it is a member of both.
+
+167
+00:08:54,933 --> 00:08:58,667
+This is a really useful result,
+
+168
+00:08:58,667 --> 00:09:00,770
+and I think it is sometimes called like the addition rule of probability.
+
+169
+00:09:00,770 --> 00:09:02,720
+But I want to show you it is a completely common sense thing.
+
+170
+00:09:02,720 --> 00:09:06,000
+The reason why you can't just add these two probabilities,
+
+171
+00:09:06,000 --> 00:09:08,067
+is because they might have some overlap,
+
+172
+00:09:08,067 --> 00:09:09,533
+there is a probability of getting both.
+
+173
+00:09:09,533 --> 00:09:11,467
+And if you just added both of these,
+
+174
+00:09:11,467 --> 00:09:13,600
+you would be double counting that overlap.
+
+175
+00:09:13,600 --> 00:09:15,862
+Which we have already seen earlier in this video.
+
+176
+00:09:15,862 --> 00:09:18,867
+So you have to subtract one version of the overlap out,
+
+177
+00:09:18,867 --> 00:09:21,133
+so you are not double counting it.
+
+178
+00:09:21,133 --> 00:09:23,200
+And I will throw one other idea.
+
+179
+00:09:23,200 --> 00:09:26,600
+Sometimes you have possibilities that have no overlap.
+
+180
+00:09:26,600 --> 00:09:29,000
+So let's say this is a set of all possibilities.
+
+181
+00:09:29,000 --> 00:09:32,067
+This is the set of all possibilities.
+
+182
+00:09:32,067 --> 00:09:35,533
+And let's say this is the set that meets condition A.
+
+183
+00:09:35,533 --> 00:09:38,479
+And let's say this is the set that meets condition A.
+
+184
+00:09:38,479 --> 00:09:40,336
+And let's, this is, let me do this in a different color.
+
+185
+00:09:40,336 --> 00:09:43,333
+And let's say this is the set that meets condition B.
+
+186
+00:09:43,333 --> 00:09:45,867
+So in this situation there is no overlap.
+
+187
+00:09:45,867 --> 00:09:48,800
+There is no way; nothing is a member of both set A and B.
+
+188
+00:09:48,800 --> 00:09:52,667
+So in this situation, the probability of A and B is 0.
+
+189
+00:09:52,667 --> 00:09:53,850
+There is no overlap.
+
+190
+00:09:53,850 --> 00:09:58,355
+And these type of conditions, or these two events,
+
+191
+00:09:58,355 --> 00:10:00,733
+are called mutually exclusive.
+
+192
+00:10:00,733 --> 00:10:05,646
+Mutually Exclusive.
+
+193
+00:10:06,458 --> 00:10:07,271
+So if events are mutually exclusive that means
+
+194
+00:10:07,271 --> 00:10:11,219
+that they both cannot happen at the same time.
+
+195
+00:10:11,219 --> 00:10:15,538
+It is... There is no event that meets both of these conditions.
+
+196
+00:10:15,538 --> 00:10:17,333
+And if things are mutually exclusive,
+
+197
+00:10:20,266 --> 00:10:23,200
+then you can't say the probability of A or B is a probability of A plus B.
+
+198
+00:10:23,200 --> 00:10:24,933
+Because this thing is zero.
+
+199
+00:10:24,933 --> 00:10:27,000
+But if things are not mutually exclusive,
+
+200
+00:10:27,000 --> 00:10:29,067
+you would have to subtract out the overlap.
+
+201
+00:10:29,067 --> 00:10:31,800
+And the easiest, probably the best to think about it,
+
+202
+00:10:31,800 --> 00:10:35,067
+is to just always realize that you have to subtract out the overlap,
+
+203
+00:10:35,067 --> 00:10:37,504
+and obviously if something is mutually exclusive,
+
+204
+00:10:37,504 --> 99:59:59,999
+The probability of getting A and B is going to be 0.
+
+205
+99:59:59,999 --> 99:59:59,999
+Let's say I have a bag and in that bag I am going to put some green cubes

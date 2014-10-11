@@ -1,0 +1,63 @@
+1
+99:59:59,999 --> 99:59:59,999
+In the last several videos we learned how we can approximate an arbitrary function
+
+2
+99:59:59,999 --> 99:59:59,999
+but a function that is differentiable and twice and thrice differentiable and all off the rest
+
+3
+99:59:59,999 --> 99:59:59,999
+how we can approximate a function around x is equal to zero using a polynomial. If we have a zeroth degree poynomial
+
+4
+99:59:59,999 --> 99:59:59,999
+which is a constant, you can approximate it with a horizontal line that just goes through that point. Not a great approximation.
+
+5
+99:59:59,999 --> 99:59:59,999
+If you have a first degree polynomial, you can at least get the slope right at that point.
+
+6
+99:59:59,999 --> 99:59:59,999
+If you get to a second degree polynomial, you get something that hugs the function a little longer
+
+7
+99:59:59,999 --> 99:59:59,999
+If you go a third degree polynomial, something that hugs the function even a little bit longer than that
+
+8
+99:59:59,999 --> 99:59:59,999
+But all of that was focused on approximating the function around x = 0
+
+9
+99:59:59,999 --> 99:59:59,999
+and that is why we call it the McCloran series or the Taylor series at x is equal to zero
+
+10
+99:59:59,999 --> 99:59:59,999
+What I want to do now is expand it a little bit -- generalize it a little bit and focus on the Taylor
+
+11
+99:59:59,999 --> 99:59:59,999
+expansion at x equals anything
+
+12
+99:59:59,999 --> 99:59:59,999
+So let's say we want to approximate this functiono
+
+13
+99:59:59,999 --> 99:59:59,999
+when x--this is our x-axis-- is equal to c
+
+14
+99:59:59,999 --> 99:59:59,999
+So we could do it the exact same thing.
+
+15
+99:59:59,999 --> 99:59:59,999
+We could say "Look out first approximation at c should be equal to a function. Whatever the function
+
+16
+99:59:59,999 --> 99:59:59,999
+equals at c

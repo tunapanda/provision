@@ -1,0 +1,571 @@
+1
+00:00:00,504 --> 00:00:03,890
+In the last video we learned that if we have two different triangles
+
+2
+00:00:03,924 --> 00:00:09,066
+And if all of the corresponding sides of the two triangles have the same length,
+
+3
+00:00:09,106 --> 00:00:12,039
+then by side side side we know that
+
+4
+00:00:12,039 --> 00:00:16,260
+the two triangles are congruent. And I also touched a little bit on
+
+5
+00:00:16,270 --> 00:00:18,260
+the idea of an axiom or a postulate.
+
+6
+00:00:18,260 --> 00:00:21,580
+But I wanna be clear: sometimes you'll hear this referred to as
+
+7
+00:00:21,590 --> 00:00:26,588
+a side side side theorem - theorem - and sometimes you'll hear it as
+
+8
+00:00:26,588 --> 00:00:31,230
+a side side side postulate or axiom - postulate or axiom.
+
+9
+00:00:31,230 --> 00:00:33,830
+And I think it's worth differentiating what these mean.
+
+10
+00:00:33,830 --> 00:00:39,069
+A postulate or an axiom is something that you just assume, you assume from the get-go,
+
+11
+00:00:39,069 --> 00:00:42,701
+while a theorem is something you prove using more basic,
+
+12
+00:00:42,701 --> 00:00:45,380
+or using some postulates or axioms.
+
+13
+00:00:45,390 --> 00:00:49,402
+So, and really in all of mathematics you make some core assumptions.
+
+14
+00:00:49,402 --> 00:00:52,060
+You make some core assumptions. You call these -
+
+15
+00:00:52,070 --> 00:00:55,050
+You call these the axioms or the postulates.
+
+16
+00:00:55,060 --> 00:00:59,623
+Axioms - axioms or the postulates
+
+17
+00:00:59,623 --> 00:01:03,069
+And then using those, you try to prove theorems.
+
+18
+00:01:03,069 --> 00:01:07,250
+So maybe using that one I can prove some theorem over here
+
+19
+00:01:07,260 --> 00:01:08,840
+And they'd be using that theorem
+
+20
+00:01:08,850 --> 00:01:11,900
+and then this axiom, I can prove another theorem over here
+
+21
+00:01:11,910 --> 00:01:14,260
+and them using both of those theorems
+
+22
+00:01:14,270 --> 00:01:16,850
+I can prove another theorem over here - I think you get the picture.
+
+23
+00:01:16,860 --> 00:01:19,530
+This axiom might lead us to this theorem
+
+24
+00:01:19,540 --> 00:01:23,370
+And these two might lead us to this theorem right over here
+
+25
+00:01:23,380 --> 00:01:26,390
+And we essentially try to build our knowledge
+
+26
+00:01:26,400 --> 00:01:30,160
+Or we build a mathematics around these core assumptions.
+
+27
+00:01:30,170 --> 00:01:33,500
+In an introductory geometry class, we kind of
+
+28
+00:01:33,510 --> 00:01:36,862
+We don't rigorously prove side side side
+
+29
+00:01:36,862 --> 00:01:39,450
+We don't rigorously the prove side side side theorem
+
+30
+00:01:39,460 --> 00:01:42,420
+And that's why a lot of geometry calls you kind of just take it as a given
+
+31
+00:01:42,430 --> 00:01:44,600
+As a postulate or an axiom
+
+32
+00:01:44,610 --> 00:01:46,060
+And the whole reason why I'm doing this is
+
+33
+00:01:46,070 --> 00:01:48,170
+One I just want you to know the differences between the words
+
+34
+00:01:48,180 --> 00:01:50,760
+theorem and postulate or axiom
+
+35
+00:01:50,770 --> 00:01:53,341
+And also so that you don't get confused. It is just a given
+
+36
+00:01:53,341 --> 00:01:55,550
+but in a lot of books and I've looked at several books
+
+37
+00:01:55,560 --> 00:01:57,847
+they do refer to it as a side side side theorem
+
+38
+00:01:57,847 --> 00:01:59,690
+even though they never prove it rigorously.
+
+39
+00:01:59,700 --> 00:02:00,870
+They do just assume it.
+
+40
+00:02:00,880 --> 00:02:03,553
+So it really is more of a postulate or an axiom.
+
+41
+00:02:03,553 --> 00:02:05,890
+Now with that out of they way, we just take -
+
+42
+00:02:05,900 --> 00:02:07,770
+we're just going to assume going forward that we just know
+
+43
+00:02:07,780 --> 00:02:10,030
+that this is true, we're gonna take it as a given
+
+44
+00:02:10,040 --> 00:02:13,030
+I wanna show you that we can already do something pretty useful with it.
+
+45
+00:02:13,040 --> 00:02:15,890
+So let's say that we have a circle.
+
+46
+00:02:16,860 --> 00:02:19,110
+Let's say we have a circle. There's many useful things
+
+47
+00:02:19,120 --> 00:02:20,860
+that we can already do with it.
+
+48
+00:02:20,870 --> 00:02:24,710
+And this circle has a center right here at A
+
+49
+00:02:24,720 --> 00:02:27,980
+and let's say that that we have a chord
+
+50
+00:02:27,990 --> 00:02:30,600
+a chord in this circle that that is not a diameter.
+
+51
+00:02:30,610 --> 00:02:32,840
+So let me draw a chord here.
+
+52
+00:02:32,850 --> 00:02:36,800
+So let me draw a chord in the circle, so that's a kind of a segment
+
+53
+00:02:36,810 --> 00:02:40,412
+of a secant line, and let's say that I have
+
+54
+00:02:40,535 --> 00:02:47,753
+Let's say that I have a line that bisects - that bisects this chord from - from the center.
+
+55
+00:02:47,787 --> 00:02:49,682
+And I guess I can call it a radius 'cause I'm gonna go from
+
+56
+00:02:49,682 --> 00:02:54,576
+the center to - to the edge of the circle right over there.
+
+57
+00:02:54,576 --> 00:02:57,726
+So I went to the center to circle itself.
+
+58
+00:02:57,726 --> 00:02:59,950
+And when I say bisects it, these are all
+
+59
+00:02:59,960 --> 00:03:02,040
+I'm just setting up the problem right now.
+
+60
+00:03:02,050 --> 00:03:05,831
+When I say bisecting it, it means it splits that line segment in half.
+
+61
+00:03:05,831 --> 00:03:09,740
+So what it tells us is, is that the length of this segment right over here
+
+62
+00:03:09,750 --> 00:03:13,133
+is going to be equivalent to the length of this segment right over there.
+
+63
+00:03:13,133 --> 00:03:17,050
+And what I wanna do is, so this is, I set it up I have a circle.
+
+64
+00:03:17,060 --> 00:03:20,420
+This radius bisects this chord right over here.
+
+65
+00:03:20,430 --> 00:03:27,479
+And what I wanna do is prove - the goal here is to prove, is to prove
+
+66
+00:03:27,479 --> 00:03:30,257
+that it bisects this chord at a right angle.
+
+67
+00:03:30,257 --> 00:03:32,348
+Or another way to say it, let me add some points here
+
+68
+00:03:32,348 --> 00:03:37,526
+Let's just call this B, let's call this C, and let's call this D.
+
+69
+00:03:37,526 --> 00:03:43,547
+I wanna prove that segment AB, segment AB is perpendicular
+
+70
+00:03:43,547 --> 00:03:50,812
+It intersects it at a right angle, it is perpendicular to segment CD, to segment CD.
+
+71
+00:03:50,851 --> 00:03:53,370
+And as you can imagine I'm gonna prove it pretty much
+
+72
+00:03:53,380 --> 00:03:56,623
+using the side side side whatever you wanna call it
+
+73
+00:03:56,623 --> 00:03:59,200
+side side side theorem, postulate or axiom.
+
+74
+00:03:59,210 --> 00:04:01,313
+So let's do it, let's think about it this way.
+
+75
+00:04:01,313 --> 00:04:03,854
+So you can imagine if I'm gonna use this I need to have some triangles,
+
+76
+00:04:03,854 --> 00:04:07,063
+there's no triangles here right now, but I can construct triangles,
+
+77
+00:04:07,063 --> 00:04:09,930
+and I can construct triangles based on things I know.
+
+78
+00:04:09,940 --> 00:04:14,970
+For example, I can construct - this has some radius
+
+79
+00:04:14,980 --> 00:04:20,257
+So let's call this, that's a radius right over here, the length of that is just going to be the radius of the circle,
+
+80
+00:04:20,257 --> 00:04:23,916
+but I can also do it right over here, the length of AC
+
+81
+00:04:23,916 --> 00:04:26,483
+is also going to be the radius of the circle.
+
+82
+00:04:26,483 --> 00:04:29,510
+So we know that these two lines have the same length
+
+83
+00:04:29,520 --> 00:04:32,710
+which is the radius of the circle, which is the radius of the circle
+
+84
+00:04:32,720 --> 00:04:35,053
+or we can say that AD is congruent to AC
+
+85
+00:04:35,053 --> 00:04:36,710
+or the have the exact same lengths.
+
+86
+00:04:36,720 --> 00:04:38,900
+We know from the set up in the problem
+
+87
+00:04:38,910 --> 00:04:40,510
+we know from the set up in the problem
+
+88
+00:04:40,520 --> 00:04:44,671
+that this segment is equal in length to this segment over here.
+
+89
+00:04:44,671 --> 00:04:47,610
+We could even, let me add a point here so I can refer to it
+
+90
+00:04:47,620 --> 00:04:50,940
+so if I call that point E we know from the set up in the problem
+
+91
+00:04:50,950 --> 00:04:55,830
+that CE is congruent to ED or they have the same length
+
+92
+00:04:55,840 --> 00:04:58,300
+CE has the same length as ED.
+
+93
+00:04:58,310 --> 00:05:02,130
+And we also know that both of these triangles - the one here on
+
+94
+00:05:02,140 --> 00:05:06,470
+the left and the one here on the right, the one here on the right
+
+95
+00:05:06,480 --> 00:05:11,612
+the both share the side EA so EA is clearly equal to EA.
+
+96
+00:05:11,612 --> 00:05:14,839
+So this is clearly equal to itself, it's the same side.
+
+97
+00:05:14,839 --> 00:05:16,874
+The same side has been used for both triangles.
+
+98
+00:05:16,874 --> 00:05:19,088
+The triangles are adjacent to each other.
+
+99
+00:05:19,088 --> 00:05:23,562
+And so we see a situation where we have a tri - where we have two different triangles
+
+100
+00:05:23,562 --> 00:05:26,390
+that have corresponding sides being equal.
+
+101
+00:05:26,400 --> 00:05:29,400
+This side is equivalent to this side right over here.
+
+102
+00:05:29,410 --> 00:05:33,391
+This side is is equal in length to that side over there.
+
+103
+00:05:33,391 --> 00:05:37,800
+And then we have obviously AE is equivalent to itself
+
+104
+00:05:37,810 --> 00:05:38,920
+It's a side on both of them.
+
+105
+00:05:38,930 --> 00:05:41,810
+It's a corresponding side on both of these triangles.
+
+106
+00:05:41,820 --> 00:05:47,340
+And so by side side side, so by side side side
+
+107
+00:05:47,350 --> 00:05:54,280
+we know, we know that triangle, triangle ABC
+
+108
+00:05:54,280 --> 00:06:01,803
+triangle ABC is congruent to triangle AE -
+
+109
+00:06:01,803 --> 00:06:04,967
+Oh sorry, it's not ABC it's AEC, sorry.
+
+110
+00:06:04,967 --> 00:06:07,300
+We know, it should let me write it over here
+
+111
+00:06:07,310 --> 00:06:17,852
+by side side side we know, we know that triangle AEC, AEC
+
+112
+00:06:17,852 --> 00:06:24,990
+is congruent to triangle AED.
+
+113
+00:06:25,000 --> 00:06:26,910
+But how does that help us? How does that help us knowing
+
+114
+00:06:26,920 --> 00:06:29,270
+that you know we use our little theorem
+
+115
+00:06:29,280 --> 00:06:31,690
+but how does that actually help us here?
+
+116
+00:06:31,700 --> 00:06:35,468
+Well what's cool is once we know that two triangles are congruent
+
+117
+00:06:35,468 --> 00:06:40,040
+So because, so because they congruent that tells us
+
+118
+00:06:40,050 --> 00:06:43,570
+So from that we can deduce that all the angles are the same.
+
+119
+00:06:43,580 --> 00:06:48,277
+And in particular we can deduce that this angle right over here
+
+120
+00:06:48,277 --> 00:06:54,102
+that the measure of angle CEA, CEA is equivalent
+
+121
+00:06:54,102 --> 00:07:00,874
+to measure of angle DEA, DEA, the measure of angle DEA.
+
+122
+00:07:00,874 --> 00:07:03,356
+And the reason why that's also, why that's useful
+
+123
+00:07:03,356 --> 00:07:05,550
+is that we also see just by looking at this
+
+124
+00:07:05,560 --> 00:07:07,130
+that they are supplementary to each other.
+
+125
+00:07:07,140 --> 00:07:10,630
+They're adjacent angles, their outer sides form a straight angle.
+
+126
+00:07:10,640 --> 00:07:16,951
+So CEA is supplementary and equivalent to DEA.
+
+127
+00:07:16,951 --> 00:07:20,643
+So they're also supplementary. So we also have the measure
+
+128
+00:07:20,643 --> 00:07:24,590
+of angle CEA, the measure of angle CEA
+
+129
+00:07:24,600 --> 00:07:30,404
+plus the measure of angle DEA is equal to 180 degrees.
+
+130
+00:07:30,404 --> 00:07:32,603
+But they're equivalent to each other so I can replace
+
+131
+00:07:32,603 --> 00:07:37,376
+the measure of DEA with the measure of CEA, measure of angle CEA.
+
+132
+00:07:37,376 --> 00:07:40,430
+Or I could rewrite this as two times
+
+133
+00:07:40,440 --> 00:07:45,107
+the measure of angle CEA is equal to 180 degrees.
+
+134
+00:07:45,107 --> 00:07:47,983
+Or I could divide both sides by two and I'd say the measure
+
+135
+00:07:47,983 --> 00:07:51,875
+of angle CEA is equal to 90 degrees
+
+136
+00:07:51,875 --> 00:07:56,181
+which is going to be the same as the measure of angle DEA, because they're equivalent.
+
+137
+00:07:56,181 --> 00:07:59,780
+So we know that this angle right over here is 90 degrees
+
+138
+00:07:59,780 --> 00:08:01,780
+so I can glue it with that little box
+
+139
+00:08:01,790 --> 00:08:04,530
+and this angle right over here is 90 degrees
+
+140
+00:08:04,540 --> 00:08:10,858
+and because AB intersects where, intersects CD we have a
+
+141
+00:08:10,858 --> 00:08:12,560
+90 degree angle here and there
+
+142
+00:08:12,570 --> 00:08:14,850
+and we could also prove this over there as well
+
+143
+00:08:14,860 --> 00:08:18,540
+they are perpendicular to each other.

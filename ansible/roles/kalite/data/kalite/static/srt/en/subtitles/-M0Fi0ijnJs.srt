@@ -1,0 +1,647 @@
+1
+00:00:00,952 --> 00:00:03,533
+"The owner of a restaurant wants to find out
+
+2
+00:00:03,533 --> 00:00:06,067
+more about where his patrons are coming from.
+
+3
+00:00:06,067 --> 00:00:08,533
+One day he decided to gather data about the distance
+
+4
+00:00:08,533 --> 00:00:11,540
+in miles that people commuted to get to his restaurant.
+
+5
+00:00:11,540 --> 00:00:14,933
+People reported the following distances traveled."
+
+6
+00:00:14,933 --> 00:00:16,862
+This is our data right over here.
+
+7
+00:00:16,862 --> 00:00:19,262
+"He wants to create a graph that helps him understand
+
+8
+00:00:19,262 --> 00:00:23,754
+the spread of the distances and the median distance that people travel.
+
+9
+00:00:23,754 --> 00:00:26,467
+What kind of a graph should he create?"
+
+10
+00:00:26,467 --> 00:00:29,600
+And you can plot this data in many different types of graphs,
+
+11
+00:00:29,600 --> 00:00:31,765
+but they tend to depict things in different ways.
+
+12
+00:00:31,765 --> 00:00:34,200
+For example, a line graph shows a trend over time.
+
+13
+00:00:34,200 --> 00:00:37,933
+He's not interested in a trend over time, so a line graph doesn't make sense.
+
+14
+00:00:37,933 --> 00:00:40,754
+Or a line graph could be a trend of one variable with respect to another variable;
+
+15
+00:00:40,754 --> 00:00:42,985
+it doesn't just have to be time.
+
+16
+00:00:42,985 --> 00:00:44,933
+But he doesn't want to see a trend here.
+
+17
+00:00:44,933 --> 00:00:47,090
+A bar graph is good when you're trying to bucket things,
+
+18
+00:00:47,090 --> 00:00:50,085
+put things into buckets and see how those buckets are performing.
+
+19
+00:00:50,085 --> 00:00:53,000
+Once again, that's not exactly what he wants to see.
+
+20
+00:00:53,000 --> 00:00:57,841
+A pie graph, you want to see kind of how things make up a whole.
+
+21
+00:00:57,841 --> 00:01:00,267
+That's not what he wants to see right over here.
+
+22
+00:01:00,267 --> 00:01:04,277
+A stem and leaf plot does help with distributions a little bit,
+
+23
+00:01:04,277 --> 00:01:09,067
+but it really doesn't tackle the median distance and the spread really, really well.
+
+24
+00:01:09,067 --> 00:01:12,841
+So the one that does -- and especially when people talk about medians and spread --
+
+25
+00:01:12,841 --> 00:01:14,918
+is a box-and-whiskers plot.
+
+26
+00:01:14,918 --> 00:01:16,417
+I'll show you how to do it right now.
+
+27
+00:01:16,417 --> 00:01:20,829
+Box-and-whiskers. And what a box-and-whiskers plot literally does is
+
+28
+00:01:20,829 --> 00:01:24,067
+it shows the spread of the data, it splits it into quartiles
+
+29
+00:01:24,067 --> 00:01:25,426
+(I'll talk about that in a second),
+
+30
+00:01:25,426 --> 00:01:28,764
+and it also shows you where the median of the data actually is.
+
+31
+00:01:28,764 --> 00:01:31,510
+And that's one of the things that the owner of the restaurant cares about.
+
+32
+00:01:31,510 --> 00:01:33,507
+So whenever you're dealing with medians --
+
+33
+00:01:33,507 --> 00:01:36,000
+And box-and-whiskers plots deal with medians --
+
+34
+00:01:36,000 --> 00:01:38,667
+the first thing you want to do is order all the numbers.
+
+35
+00:01:38,667 --> 00:01:41,733
+'Cause a median is really the middle number when you order them all up.
+
+36
+00:01:41,733 --> 00:01:44,420
+So let's order this; let's write it in order.
+
+37
+00:01:44,420 --> 00:01:48,333
+So, first we have 1 (so get rid of that 1).
+
+38
+00:01:48,333 --> 00:01:50,400
+Then we have one 2 right over here.
+
+39
+00:01:50,400 --> 00:01:55,533
+And then we have another 2, right over there; that's all of our 2's.
+
+40
+00:01:55,533 --> 00:02:00,667
+Then we have this 3 (that 3) and then we have that three;
+
+41
+00:02:00,667 --> 00:02:03,867
+so those are two people who've traveled three miles to the restaurant.
+
+42
+00:02:03,867 --> 00:02:05,544
+And let's see, do we have any 4's?
+
+43
+00:02:05,544 --> 00:02:11,600
+We have one 4 right over there, and then we have another 4 right over there.
+
+44
+00:02:11,600 --> 00:02:14,838
+And then, let's see, do we have any 5's?
+
+45
+00:02:14,838 --> 00:02:19,267
+(Actually I just realized that I skipped one of the 1's. We have another 1 right over there.
+
+46
+00:02:19,267 --> 00:02:22,867
+So let's write that 1 right over there. We actually had two 1's.)
+
+47
+00:02:22,867 --> 00:02:27,533
+And then let's see. Do we have any 5's? We do not have any 5's over here.
+
+48
+00:02:27,533 --> 00:02:34,180
+Do we have any 6's? We have one 6 right over here. Then we have no more 6's.
+
+49
+00:02:34,180 --> 00:02:38,267
+Do we have any 7's? We have one 7 right over there.
+
+50
+00:02:38,267 --> 00:02:42,933
+8's? We have an 8 right over there; that's the only one.
+
+51
+00:02:42,933 --> 00:02:45,210
+Let's see. Do we have any 9's? No nines.
+
+52
+00:02:45,210 --> 00:02:48,533
+Any 10's? Yes, we have a 10.
+
+53
+00:02:48,533 --> 00:02:52,000
+Do we have an 11? Yup. 11.
+
+54
+00:02:52,000 --> 00:02:55,600
+Do we have any 12's? No 12's, no 13's.
+
+55
+00:02:55,600 --> 00:03:00,333
+14. And we have a 15.
+
+56
+00:03:00,333 --> 00:03:03,400
+(People must like this restaurant; they're traveling a good bit.)
+
+57
+00:03:03,400 --> 00:03:07,800
+And we have a 20, and then we have a 22.
+
+58
+00:03:07,800 --> 00:03:12,000
+So I've ordered all the numbers. Let me make sure I haven't skipped or gotten some duplicates.
+
+59
+00:03:12,000 --> 00:03:21,400
+So 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 people were surveyed,
+
+60
+00:03:21,400 --> 00:03:22,846
+seventeen patrons of the restaurant.
+
+61
+00:03:22,846 --> 00:03:30,400
+And we have 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.
+
+62
+00:03:30,400 --> 00:03:32,904
+Alright. It seems like I got all of them, and I've ordered them now.
+
+63
+00:03:32,904 --> 00:03:34,867
+Now the median is the middle number.
+
+64
+00:03:34,867 --> 00:03:39,133
+We just said that we had seventeen of these numbers. So we want the number --
+
+65
+00:03:39,133 --> 00:03:44,667
+And since it's an odd number of numbers, the median actually will be one of these numbers.
+
+66
+00:03:44,667 --> 00:03:49,000
+It's actually the middle number. It'll be the number where eight are larger and eight are smaller.
+
+67
+00:03:49,000 --> 00:03:57,290
+So 1, 2, 3, 4, 5, 6, 7, 8. It looks like this is our median. It will be the ninth number.
+
+68
+00:03:57,323 --> 00:04:02,241
+And then you have 1, 2, 3, 4, 5, 6, 7, 8 that are larger.
+
+69
+00:04:02,241 --> 00:04:05,867
+So eight are smaller than 6; eight are larger than 6.
+
+70
+00:04:05,867 --> 00:04:07,827
+So 6 is the middle number.
+
+71
+00:04:07,827 --> 00:04:09,754
+If we had an even number of numbers here,
+
+72
+00:04:09,754 --> 00:04:13,231
+we had two middle numbers, then we would take the average of them.
+
+73
+00:04:13,231 --> 00:04:17,416
+But when you have an odd number of data points, then you can just take the middle one.
+
+74
+00:04:17,416 --> 00:04:21,400
+So this right over here is our median.
+
+75
+00:04:21,400 --> 00:04:23,600
+And then when you do a box plot,
+
+76
+00:04:23,600 --> 00:04:28,748
+what you want to do is you want to find the median of the set of numbers that are smaller than the median.
+
+77
+00:04:28,748 --> 00:04:32,231
+And you also want want to find the median of the set of numbers that are larger than the median.
+
+78
+00:04:32,231 --> 00:04:35,900
+And these are called the first quartile and the second quartile.
+
+79
+00:04:35,900 --> 00:04:40,400
+Because when you do that, you split your data into four sections, or quartiles.
+
+80
+00:04:40,400 --> 00:04:43,562
+"Quar-" you normally associate with four.
+
+81
+00:04:43,562 --> 00:04:47,467
+So let's look at this set that's smaller than 6.
+
+82
+00:04:47,467 --> 00:04:51,467
+So we have 1, 2, 3, 4, 5, 6, 7, 8 numbers.
+
+83
+00:04:51,467 --> 00:04:55,867
+So if you have eight data points, you're going to actually have two middle numbers.
+
+84
+00:04:55,867 --> 00:05:00,600
+So, for example, you have these two right over here are the two middle numbers.
+
+85
+00:05:00,600 --> 00:05:04,251
+Three less, three more. You can't just pick the 2,
+
+86
+00:05:04,251 --> 00:05:07,667
+because if you just pick the 2, you would have three less and four more.
+
+87
+00:05:07,667 --> 00:05:11,667
+And you can't just pick the 3, because then you'd have three more and four less.
+
+88
+00:05:11,667 --> 00:05:13,333
+So these are our two middle numbers.
+
+89
+00:05:13,333 --> 00:05:16,767
+So the median of this group right over here is 2.5.
+
+90
+00:05:16,767 --> 00:05:18,933
+I averaged these two middle numbers.
+
+91
+00:05:18,933 --> 00:05:24,733
+And then let's do it over here with this group. (I'll do it in blue.)
+
+92
+00:05:24,733 --> 00:05:28,237
+So once again we have eight numbers, we're going to have two middles,
+
+93
+00:05:28,237 --> 00:05:33,200
+and so it's going to be the third and the fourth number, which is 11 and 14.
+
+94
+00:05:33,200 --> 00:05:35,933
+And if you average 11 and 14 --
+
+95
+00:05:35,933 --> 00:05:42,813
+let's see 11+14 is 25, divided by 2 is 12.5.
+
+96
+00:05:42,813 --> 00:05:46,933
+So this essentially divides the data into four sections.
+
+97
+00:05:46,933 --> 00:05:52,884
+You have everything up to this first quartile -- so you have this first section,
+
+98
+00:05:52,884 --> 00:05:55,667
+or this first median of the lower half of the data is 2.5.
+
+99
+00:05:55,667 --> 00:05:58,067
+Then you have everything between 2.5 and 6.
+
+100
+00:05:58,067 --> 00:05:59,313
+Then 6 to 12.5,
+
+101
+00:05:59,313 --> 00:06:01,667
+and then everything more than 12.5.
+
+102
+00:06:01,667 --> 00:06:07,267
+And so a box-and-whiskers plot is essentially a graphical depiction of this over here.
+
+103
+00:06:07,267 --> 00:06:17,692
+So let's do that. I'm going to set up a number line.
+
+104
+00:06:17,769 --> 00:06:20,800
+And let's say that this is 0.
+
+105
+00:06:20,800 --> 00:06:25,733
+And let's say that this is 10,
+
+106
+00:06:25,733 --> 00:06:28,667
+And this would be 20,
+
+107
+00:06:28,667 --> 00:06:32,955
+And this would be 5 (a little bit cleaner than that).
+
+108
+00:06:32,955 --> 00:06:35,333
+And this would be 15.
+
+109
+00:06:35,333 --> 00:06:38,133
+25 would be right around there.
+
+110
+00:06:38,133 --> 00:06:41,914
+So first thing on the box and whiskers plot, you want to show the entire range of data.
+
+111
+00:06:41,914 --> 00:06:44,533
+So our smallest data point starts at 1.
+
+112
+00:06:44,533 --> 00:06:49,933
+So 1 is right about here. (This is 2-1/2, so 1 is right about here.)
+
+113
+00:06:49,933 --> 00:06:52,333
+And then our largest data point is 22.
+
+114
+00:06:52,333 --> 00:06:55,067
+22 would sit right about there.
+
+115
+00:06:55,067 --> 00:06:58,818
+And I'll even label it, although you often won't see it labeled like that.
+
+116
+00:06:58,818 --> 00:07:01,200
+That's 1, and then that is 22.
+
+117
+00:07:01,200 --> 00:07:05,482
+And the middle half of the data we do in the box.
+
+118
+00:07:05,482 --> 00:07:09,600
+So the middle half is this quartile, and this quartile right over there.
+
+119
+00:07:09,600 --> 00:07:17,867
+So the second quartile starts at 2.5. So 2.5 is right there.
+
+120
+00:07:17,867 --> 00:07:22,067
+This is where we start our box, 2.5.
+
+121
+00:07:22,067 --> 00:07:26,357
+And then our third quartile ends at 12.5.
+
+122
+00:07:26,357 --> 00:07:32,533
+12.5 is right over there.
+
+123
+00:07:32,533 --> 00:07:40,777
+And then we can draw the box here.
+
+124
+00:07:40,777 --> 00:07:44,267
+So the box shows where the middle half of our data is.
+
+125
+00:07:44,267 --> 00:07:45,867
+Now I can draw these two arrows.
+
+126
+00:07:45,867 --> 00:07:48,000
+So that's the box part.
+
+127
+00:07:48,000 --> 00:07:51,017
+And then these two arrows are what you would call the whiskers,
+
+128
+00:07:51,017 --> 00:07:52,689
+and that shows where all the other data is.
+
+129
+00:07:52,689 --> 00:07:54,941
+It's really showing the spread of the data.
+
+130
+00:07:54,941 --> 00:07:57,467
+And then the last thing we need to show is the actual median.
+
+131
+00:07:57,467 --> 00:08:01,187
+And the median (I'll do it in purple) we already figured out is 6.
+
+132
+00:08:01,187 --> 00:08:03,347
+So the median sits right about
+
+133
+00:08:03,347 --> 00:08:05,018
+(so let's see, this is 5, this would be 7-1/2)
+
+134
+00:08:05,018 --> 00:08:09,361
+6 would be right over there.
+
+135
+00:08:09,361 --> 00:08:12,200
+So with this one diagram, we've actually depicted all of this information,
+
+136
+00:08:12,200 --> 00:08:18,200
+in terms of where is the median? The median is at 6; that is 6 right over there.
+
+137
+00:08:18,200 --> 00:08:27,333
+Where is the middle half of the data? Well, it's between 2-1/2 and 12-1/2.
+
+138
+00:08:27,333 --> 00:08:33,091
+And all of the data, the entire spread, for all of the customers,
+
+139
+00:08:33,091 --> 00:08:36,830
+sits between -- and this is what the whiskers do for us --
+
+140
+00:08:36,830 --> 00:08:41,334
+it sits between 1 and 22.
+
+141
+00:08:41,334 --> 00:08:45,133
+And if you wanted to color-code it a little bit better, we could do that just 'cause it's fun.
+
+142
+00:08:45,133 --> 00:08:46,333
+We could make ---
+
+143
+00:08:46,333 --> 00:08:47,418
+So, this data right over here --
+
+144
+00:08:47,418 --> 00:08:51,533
+and really, if you think about it, it's kind of inluding this data too --
+
+145
+00:08:51,533 --> 00:08:56,000
+that's what this whisker is depicting.
+
+146
+00:08:56,000 --> 00:09:01,420
+This data right over here (I'll do that in a different color.)
+
+147
+00:09:01,420 --> 00:09:07,867
+is kind of the first half of the box,
+
+148
+00:09:07,867 --> 00:09:10,267
+then you have your median in magenta,
+
+149
+00:09:10,267 --> 00:09:15,421
+then this data right over here is the second part of the box.
+
+150
+00:09:15,421 --> 00:09:19,267
+So that's all of this stuff, right over here.
+
+151
+00:09:19,267 --> 00:09:22,503
+And then finally (let me pick a new color that I haven't used yet)
+
+152
+00:09:22,503 --> 00:09:30,654
+this data is kind of represented by this part, by this whisker, right over here.
+
+153
+00:09:30,654 --> 00:09:32,600
+Now there's one thing I want to leave you with.
+
+154
+00:09:32,600 --> 00:09:39,756
+I use a method for this box-and-whisker diagram where for the two halves,
+
+155
+00:09:39,756 --> 00:09:42,751
+I got rid of the median and I found the median of this part,
+
+156
+00:09:42,751 --> 00:09:44,168
+and I found the median of that part.
+
+157
+00:09:44,168 --> 00:09:46,933
+And that's the more typical method for box-and-whisker plots.
+
+158
+00:09:46,933 --> 00:09:49,903
+Sometimes, when you find the median for the lower half and the upper half,
+
+159
+00:09:49,903 --> 00:09:54,500
+some people will include this median in both sets when they calculate it.
+
+160
+00:09:54,500 --> 00:09:56,000
+I just want you to know that's out there.
+
+161
+00:09:56,000 --> 00:09:58,610
+But the way I did it is actually more the mainstream way.
+
+162
+00:09:58,610 --> 99:59:59,999
+That's the way most calculators, I believe, actually will do a box-and-whisker plot.

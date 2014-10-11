@@ -1,0 +1,335 @@
+1
+00:00:00,933 --> 00:00:03,113
+Let's say we've got company A over here
+
+2
+00:00:03,113 --> 00:00:06,682
+and it takes out a $1,000,000 loan
+
+3
+00:00:06,682 --> 00:00:09,800
+and pays a variable interest rate on that loan
+
+4
+00:00:09,800 --> 00:00:13,742
+it pays LIBOR plus 2%
+
+5
+00:00:13,742 --> 00:00:14,960
+and LIBOR stands for:
+
+6
+00:00:14,960 --> 00:00:17,159
+London Interbank Offer Rate
+
+7
+00:00:17,159 --> 00:00:21,467
+it's one of the major benchmarks for variable interest rates
+
+8
+00:00:21,467 --> 00:00:23,267
+And so it pays that to some lender,
+
+9
+00:00:23,267 --> 00:00:27,000
+this is the person who lent company A the money
+
+10
+00:00:27,000 --> 00:00:30,175
+it pays them a variable interest rate every period
+
+11
+00:00:30,175 --> 00:00:32,700
+so for example, in period 1
+
+12
+00:00:32,700 --> 00:00:36,883
+if LIBOR is at 5%
+
+13
+00:00:36,883 --> 00:00:40,091
+then in that period company A will pay 7%
+
+14
+00:00:40,091 --> 00:00:44,010
+or $70,000 to the lender in that period.
+
+15
+00:00:44,010 --> 00:00:51,133
+In Period 2, if LIBOR goes down a little bit to 4%
+
+16
+00:00:51,133 --> 00:00:55,600
+then company A is going to 4 + 2 which is 6%
+
+17
+00:00:55,600 --> 00:01:00,846
+or, 6% which is $60,000 in interest.
+
+18
+00:01:00,846 --> 00:01:02,508
+Let's say we have another company
+
+19
+00:01:02,508 --> 00:01:04,677
+company B, right over here
+
+20
+00:01:04,677 --> 00:01:07,456
+It also borrows $1,000,000
+
+21
+00:01:07,456 --> 00:01:13,084
+but it borrows it at a fixed rate of 8%
+
+22
+00:01:13,084 --> 00:01:15,046
+8% fixed interest rate
+
+23
+00:01:15,046 --> 00:01:16,654
+so in each period
+
+24
+00:01:16,654 --> 00:01:18,463
+regardless of what happens to LIBOR
+
+25
+00:01:18,463 --> 00:01:20,133
+or any other benchmark
+
+26
+00:01:20,133 --> 00:01:23,152
+and so this is to probably another lender
+
+27
+00:01:23,152 --> 00:01:25,442
+a different lender than the person that A borrowed it from
+
+28
+00:01:25,442 --> 00:01:27,339
+and it could be a bank, or it may be a company
+
+29
+00:01:27,339 --> 00:01:29,008
+or another investor of some kind
+
+30
+00:01:29,008 --> 00:01:31,754
+We'll call this Lender 1 and Lender 2
+
+31
+00:01:31,754 --> 00:01:33,730
+So, regardless of the period
+
+32
+00:01:33,730 --> 00:01:35,204
+right now company B will pay
+
+33
+00:01:35,204 --> 00:01:38,139
+8% of $1,000,000 in each period
+
+34
+00:01:38,139 --> 00:01:43,271
+which is exactly $80,000 each period
+
+35
+00:01:43,271 --> 00:01:45,505
+Now let's say neither of these parties
+
+36
+00:01:45,505 --> 00:01:47,075
+are really happy with that situation
+
+37
+00:01:47,075 --> 00:01:48,529
+Company A doesn't like the variability
+
+38
+00:01:48,529 --> 00:01:51,800
+the unpredictability and what happens to LIBOR
+
+39
+00:01:51,800 --> 00:01:54,400
+They can't plan for how much they have to pay
+
+40
+00:01:54,400 --> 00:01:56,767
+Company B feels like they're overpaying for interest
+
+41
+00:01:56,767 --> 00:01:57,510
+they feel like
+
+42
+00:01:57,510 --> 00:01:59,463
+"wow, the people who're doing variable interest rates,
+
+43
+00:01:59,463 --> 00:02:03,038
+they're paying a less amount of interest every period"
+
+44
+00:02:03,038 --> 00:02:05,816
+and maybe company B also thinks that
+
+45
+00:02:05,816 --> 00:02:07,591
+interest rates are going to go down
+
+46
+00:02:07,591 --> 00:02:09,901
+or that short-term, or that variable rate is going to go down
+
+47
+00:02:09,901 --> 00:02:11,585
+LIBOR, is going to go down
+
+48
+00:02:11,585 --> 00:02:12,974
+so that's an even bigger reason
+
+49
+00:02:12,974 --> 00:02:15,705
+why they want to become a variable rate borrower.
+
+50
+00:02:15,705 --> 00:02:16,934
+So what they can do
+
+51
+00:02:16,934 --> 00:02:17,884
+and neither of them
+
+52
+00:02:17,884 --> 00:02:19,542
+can get out of these lending agreements
+
+53
+00:02:19,542 --> 00:02:22,133
+but what they can do is agree to essentially swap
+
+54
+00:02:22,133 --> 00:02:24,400
+some or all of their interest rate payments
+
+55
+00:02:24,400 --> 00:02:27,810
+so for example, they can enter into an agreement
+
+56
+00:02:27,810 --> 00:02:30,600
+this would be called an "interest rate swap"
+
+57
+00:02:30,600 --> 00:02:35,751
+where company A agrees to pay B
+
+58
+00:02:35,751 --> 00:02:38,207
+maybe, let's make up a number here
+
+59
+00:02:38,207 --> 00:02:44,467
+7% on a notional $1,000,000 loan.
+
+60
+00:02:44,467 --> 00:02:46,800
+So the $1,000,000 will never change hands
+
+61
+00:02:46,800 --> 00:02:48,921
+but company A agrees to pay B
+
+62
+00:02:48,921 --> 00:02:51,438
+7% of that notional $1,000,000
+
+63
+00:02:51,438 --> 00:02:53,121
+or $70,000 per period
+
+64
+00:02:53,121 --> 00:02:55,785
+and in return
+
+65
+00:02:55,785 --> 00:03:01,487
+company B agrees to pay A a variable rate
+
+66
+00:03:01,487 --> 00:03:07,747
+let's say it's LIBOR plus 1% right over here
+
+67
+00:03:07,747 --> 00:03:09,408
+And this little agreement
+
+68
+00:03:09,408 --> 00:03:11,092
+And they agree they would do this for some amount
+
+69
+00:03:11,092 --> 00:03:13,467
+And once again: this is LIBOR plus 1%
+
+70
+00:03:13,467 --> 00:03:16,508
+on a notional $1,000,000
+
+71
+00:03:16,508 --> 00:03:18,310
+And that word "notional" just means that
+
+72
+00:03:18,310 --> 00:03:20,110
+that $1,000,000 will never change hands
+
+73
+00:03:20,110 --> 00:03:21,198
+they're just going to exchange
+
+74
+00:03:21,198 --> 00:03:24,454
+the interest payments on $1,000,000
+
+75
+00:03:24,454 --> 00:03:28,078
+And this agreement right over here
+
+76
+00:03:28,078 --> 00:03:31,803
+is called an interest rate swap
+
+77
+00:03:31,803 --> 00:03:33,305
+And I'll leave you there and the next video
+
+78
+00:03:33,305 --> 00:03:35,365
+we'll actually go through the mechanics to see that
+
+79
+00:03:35,365 --> 00:03:39,816
+A is truly now paying a fixed rate
+
+80
+00:03:39,816 --> 00:03:42,000
+when you put in all of their different payments
+
+81
+00:03:42,000 --> 00:03:43,610
+into both the swap and the lender
+
+82
+00:03:43,610 --> 00:03:44,652
+and company B
+
+83
+00:03:44,652 --> 00:03:46,844
+after entering into this swap agreement
+
+84
+00:03:46,844 --> 99:59:59,999
+is now really paying a variable interest rate.

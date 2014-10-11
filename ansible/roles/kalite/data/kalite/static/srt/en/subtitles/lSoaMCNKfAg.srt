@@ -1,0 +1,1039 @@
+1
+00:00:00,000 --> 00:00:00,620
+   
+
+2
+00:00:00,620 --> 00:00:04,070
+Say I have a vector v that's
+a member of Rn.
+
+3
+00:00:04,070 --> 00:00:06,260
+So it's got n components
+in it.
+
+4
+00:00:06,260 --> 00:00:10,850
+So v1, v2, all the
+way down to vn.
+
+5
+00:00:10,850 --> 00:00:13,990
+I've touched on the idea before,
+but now that we've
+
+6
+00:00:13,990 --> 00:00:17,090
+seen what a transpose is, and
+we've taken transposes of
+
+7
+00:00:17,090 --> 00:00:19,610
+matrices, there's no reason
+why we can't take the
+
+8
+00:00:19,610 --> 00:00:23,900
+transpose of a vector, or a
+column vector in this case.
+
+9
+00:00:23,900 --> 00:00:27,800
+So what would v transpose
+look like?
+
+10
+00:00:27,800 --> 00:00:32,659
+Well if you think of this as a n
+by 1 matrix, which it is, it
+
+11
+00:00:32,659 --> 00:00:35,200
+has n rows and one column.
+
+12
+00:00:35,200 --> 00:00:35,990
+Then what are we going to get?
+
+13
+00:00:35,990 --> 00:00:39,160
+We're going to have a 1 by n
+matrix when you take the
+
+14
+00:00:39,160 --> 00:00:40,060
+transpose of it.
+
+15
+00:00:40,060 --> 00:00:43,125
+And this one column is going
+to turn into the one row.
+
+16
+00:00:43,125 --> 00:00:47,380
+So you're going to have
+it be equal to v1, v2,
+
+17
+00:00:47,380 --> 00:00:51,270
+all the way to vn.
+
+18
+00:00:51,270 --> 00:00:53,830
+And you might remember, we've
+already touched on this in a
+
+19
+00:00:53,830 --> 00:00:56,630
+lot of matrices before.
+
+20
+00:00:56,630 --> 00:00:58,980
+Let's say that's
+some matrix A.
+
+21
+00:00:58,980 --> 00:01:01,960
+We called the row vectors of
+those matrix, we called them
+
+22
+00:01:01,960 --> 00:01:07,500
+the transpose of some column
+vectors, a1 transpose, a2
+
+23
+00:01:07,500 --> 00:01:11,480
+transpose, all the way
+down to an transpose.
+
+24
+00:01:11,480 --> 00:01:14,820
+In fact, not so many videos ago
+I had those row vectors,
+
+25
+00:01:14,820 --> 00:01:17,510
+and I could have just called
+them the transpose of column
+
+26
+00:01:17,510 --> 00:01:18,660
+vectors, just like that.
+
+27
+00:01:18,660 --> 00:01:21,430
+And that would have been, in
+some ways, a better way to do
+
+28
+00:01:21,430 --> 00:01:24,160
+it because we've defined all
+these operations around column
+
+29
+00:01:24,160 --> 00:01:27,760
+vectors, so you could always
+refer to the transpose of the
+
+30
+00:01:27,760 --> 00:01:30,140
+transpose and then do some
+operations on them.
+
+31
+00:01:30,140 --> 00:01:32,480
+But anyway, I don't want
+to get too diverted.
+
+32
+00:01:32,480 --> 00:01:35,030
+But let's think a little bit
+of what happens when you
+
+33
+00:01:35,030 --> 00:01:37,730
+operate this vector, or you take
+some operation of this
+
+34
+00:01:37,730 --> 00:01:39,230
+vector with some
+other vectors.
+
+35
+00:01:39,230 --> 00:01:42,940
+So let's say I have another
+vector here that's w, and it's
+
+36
+00:01:42,940 --> 00:01:45,080
+also a member of Rn.
+
+37
+00:01:45,080 --> 00:01:50,760
+So you have w1, w2, all
+the way down to wn.
+
+38
+00:01:50,760 --> 00:01:53,340
+There's a couple of things that
+we're already, I think,
+
+39
+00:01:53,340 --> 00:01:55,140
+reasonably familiar with.
+
+40
+00:01:55,140 --> 00:01:57,740
+You could take the dot
+product of v and w.
+
+41
+00:01:57,740 --> 00:02:00,710
+v dot w is equal to what?
+
+42
+00:02:00,710 --> 00:02:10,759
+It is equal to v1 times w1, plus
+v2, w2, and you just keep
+
+43
+00:02:10,759 --> 00:02:13,760
+going all the way to vn, wn.
+
+44
+00:02:13,760 --> 00:02:16,420
+This is the definition
+of the dot product
+
+45
+00:02:16,420 --> 00:02:18,540
+of two-column vectors.
+
+46
+00:02:18,540 --> 00:02:23,470
+Now, how can we relate that to
+maybe the transpose of v?
+
+47
+00:02:23,470 --> 00:02:27,050
+Well, we could take the
+transpose of v-- let me write
+
+48
+00:02:27,050 --> 00:02:30,410
+it this way-- what is-- if I did
+a matrix multiplication,
+
+49
+00:02:30,410 --> 00:02:36,160
+so I did v1, v2, all the way
+to vn-- so this is v
+
+50
+00:02:36,160 --> 00:02:39,490
+transpose, that's v transpose--
+and I take the
+
+51
+00:02:39,490 --> 00:02:40,750
+product of that with w.
+
+52
+00:02:40,750 --> 00:02:44,010
+   
+
+53
+00:02:44,010 --> 00:02:49,830
+So I have w1, w2, all
+the way down to wn.
+
+54
+00:02:49,830 --> 00:02:52,740
+Now, if I view these as just
+matrices-- this is w right
+
+55
+00:02:52,740 --> 00:02:56,220
+here-- if I viewed these just
+as matrices, is this
+
+56
+00:02:56,220 --> 00:02:59,730
+matrix-matrix product
+well-defined?
+
+57
+00:02:59,730 --> 00:03:04,640
+Over here I have a
+n by 1 matrix.
+
+58
+00:03:04,640 --> 00:03:07,250
+Here I have a 1-- sorry.
+
+59
+00:03:07,250 --> 00:03:12,230
+Here, the first one I have is
+a 1 by n matrix-- I have one
+
+60
+00:03:12,230 --> 00:03:14,140
+row and n columns.
+
+61
+00:03:14,140 --> 00:03:18,350
+And here I have an
+n by 1 matrix.
+
+62
+00:03:18,350 --> 00:03:20,930
+I have n rows and
+only one column.
+
+63
+00:03:20,930 --> 00:03:22,190
+So this is well-defined.
+
+64
+00:03:22,190 --> 00:03:24,490
+I have the same number
+of columns here
+
+65
+00:03:24,490 --> 00:03:26,740
+as I have rows here.
+
+66
+00:03:26,740 --> 00:03:29,050
+This is going to result
+in a 1 by 1 matrix.
+
+67
+00:03:29,050 --> 00:03:30,520
+And what's it going
+to look like?
+
+68
+00:03:30,520 --> 00:03:37,270
+It's going to equal to v1 times
+w1-- let me write it
+
+69
+00:03:37,270 --> 00:03:43,530
+like this-- v1, w1 plus
+v2, w2-- it's only
+
+70
+00:03:43,530 --> 00:03:44,250
+going to have one entry.
+
+71
+00:03:44,250 --> 00:03:47,670
+We could write it is as just
+a 1 by 1 matrix like that.
+
+72
+00:03:47,670 --> 00:03:50,280
+Let me just do it-- 1 by
+1 matrix like that.
+
+73
+00:03:50,280 --> 00:03:56,270
+v1, w1 plus v2, w2-- let me
+just, I could write v2 there--
+
+74
+00:03:56,270 --> 00:04:00,260
+plus all the way to vn, wn.
+
+75
+00:04:00,260 --> 00:04:00,820
+That's what it'll be.
+
+76
+00:04:00,820 --> 00:04:03,370
+It'll just be a 1 by 1 matrix
+that looks like that.
+
+77
+00:04:03,370 --> 00:04:06,360
+But you might notice that
+these two things are
+
+78
+00:04:06,360 --> 00:04:07,420
+equivalent.
+
+79
+00:04:07,420 --> 00:04:15,950
+So we can make the statement
+that v dot w, which is the
+
+80
+00:04:15,950 --> 00:04:21,980
+same thing as w dot v, these
+things are equivalent to-- v
+
+81
+00:04:21,980 --> 00:04:25,450
+dot w is the equivalent of-- let
+me just write it once over
+
+82
+00:04:25,450 --> 00:04:31,860
+here-- v dot w is the same thing
+as the transpose of v, v
+
+83
+00:04:31,860 --> 00:04:39,040
+transpose times w as just
+a matrix-matrix product.
+
+84
+00:04:39,040 --> 00:04:41,470
+So if you view v as a matrix,
+take its transpose and then
+
+85
+00:04:41,470 --> 00:04:44,150
+just take that matrix and take
+the product of that with w,
+
+86
+00:04:44,150 --> 00:04:46,440
+it's the same thing
+as v dot w.
+
+87
+00:04:46,440 --> 00:04:48,140
+So that's an interesting
+take-away.
+
+88
+00:04:48,140 --> 00:04:50,620
+I guess you could argue somewhat
+obvious, and we've
+
+89
+00:04:50,620 --> 00:04:54,420
+already been referring this--
+when I defined matrix-matrix
+
+90
+00:04:54,420 --> 00:04:56,850
+products, I kind of said you're
+taking the dot product
+
+91
+00:04:56,850 --> 00:04:59,960
+of each row with each column,
+and you can see that it really
+
+92
+00:04:59,960 --> 00:05:02,180
+is, it's really the dot product
+of the transpose of
+
+93
+00:05:02,180 --> 00:05:05,640
+that row with each column, but
+you got the general idea.
+
+94
+00:05:05,640 --> 00:05:08,390
+But let's see if we can build
+on this a little bit.
+
+95
+00:05:08,390 --> 00:05:14,380
+Let's say I have some matrix
+A-- let me save our little
+
+96
+00:05:14,380 --> 00:05:17,560
+outcome that I have there--
+let's say I have some-- let me
+
+97
+00:05:17,560 --> 00:05:20,820
+get a good color here-- let's
+say I have some matrix A and
+
+98
+00:05:20,820 --> 00:05:23,653
+it's an m by n matrix.
+
+99
+00:05:23,653 --> 00:05:26,170
+   
+
+100
+00:05:26,170 --> 00:05:31,980
+Now if I were to multiply that
+times a vector x, so I'm going
+
+101
+00:05:31,980 --> 00:05:36,220
+to multiply it by some vector
+x-- and let's say that x is a
+
+102
+00:05:36,220 --> 00:05:43,575
+member-- let me write it this
+way-- x is a member of Rn.
+
+103
+00:05:43,575 --> 00:05:44,950
+So it has n elements.
+
+104
+00:05:44,950 --> 00:05:49,670
+Or another way you could view it
+is, it's an n by 1 matrix.
+
+105
+00:05:49,670 --> 00:05:52,260
+Now when I take the product of
+these, what am I going to get?
+
+106
+00:05:52,260 --> 00:05:56,850
+Or another way to say it is,
+what is the vector Ax?
+
+107
+00:05:56,850 --> 00:05:58,520
+When I take this product, I'm
+just going to get another
+
+108
+00:05:58,520 --> 00:06:00,090
+vector, and what's
+it going to be?
+
+109
+00:06:00,090 --> 00:06:03,640
+It's going to be an
+m by 1 vector.
+
+110
+00:06:03,640 --> 00:06:06,190
+   
+
+111
+00:06:06,190 --> 00:06:11,400
+So we could say that Ax
+is a member of Rm.
+
+112
+00:06:11,400 --> 00:06:13,160
+It's going to have m
+elements, right?
+
+113
+00:06:13,160 --> 00:06:16,790
+If this was equal to, if you
+said that Ax equal to, I don't
+
+114
+00:06:16,790 --> 00:06:20,780
+know, let's say it's equal to
+z, z would have m elements.
+
+115
+00:06:20,780 --> 00:06:26,370
+You would have z1, z2, all
+the way down to zm.
+
+116
+00:06:26,370 --> 00:06:30,420
+And I know that because you have
+m rows in A, and you have
+
+117
+00:06:30,420 --> 00:06:33,870
+only one-- well you could
+say this is m by n,
+
+118
+00:06:33,870 --> 00:06:36,140
+this is n by 1.
+
+119
+00:06:36,140 --> 00:06:39,680
+The resulting product will be
+m by 1, or it'll be a vector
+
+120
+00:06:39,680 --> 00:06:43,440
+that is a member of Rm-- it'll
+have exactly m elements.
+
+121
+00:06:43,440 --> 00:06:47,890
+Now, if that's a vector of Rm,
+then the idea of dotting this
+
+122
+00:06:47,890 --> 00:06:50,800
+with another member of
+Rm is well-defined.
+
+123
+00:06:50,800 --> 00:06:52,870
+So let's say that I have
+another member of Rm.
+
+124
+00:06:52,870 --> 00:06:55,370
+Let's say I have a vector y.
+
+125
+00:06:55,370 --> 00:07:00,120
+Let's say y is also
+a member of Rm.
+
+126
+00:07:00,120 --> 00:07:03,800
+This has-- the vector Ax, the
+vector that you get when you
+
+127
+00:07:03,800 --> 00:07:07,130
+take this product, has m
+elements, this has m elements.
+
+128
+00:07:07,130 --> 00:07:10,480
+So the idea of taking their dot
+product is well-defined.
+
+129
+00:07:10,480 --> 00:07:11,270
+Let me write that.
+
+130
+00:07:11,270 --> 00:07:18,870
+So you could take Ax, that's a
+vector, and now we are dotting
+
+131
+00:07:18,870 --> 00:07:22,290
+it with this vector right here
+and we'll get a number.
+
+132
+00:07:22,290 --> 00:07:25,420
+We just take each of their
+terms, multiply the
+
+133
+00:07:25,420 --> 00:07:27,210
+corresponding terms, add
+them all up, and you
+
+134
+00:07:27,210 --> 00:07:28,510
+get their dot product.
+
+135
+00:07:28,510 --> 00:07:32,460
+But what is this equal to?
+
+136
+00:07:32,460 --> 00:07:35,980
+We can just use this little,
+I guess you could call it a
+
+137
+00:07:35,980 --> 00:07:39,080
+result, that we got earlier
+on in this video.
+
+138
+00:07:39,080 --> 00:07:42,380
+Using this result, the dot
+product of two matrices-- or
+
+139
+00:07:42,380 --> 00:07:46,900
+sorry, the dot product of two
+vectors is equal to the
+
+140
+00:07:46,900 --> 00:07:50,650
+transpose of the first vector
+as a kind of a matrix.
+
+141
+00:07:50,650 --> 00:07:55,160
+So you can view this
+as Ax transpose.
+
+142
+00:07:55,160 --> 00:08:02,600
+This is a m by 1,
+this is m by 1.
+
+143
+00:08:02,600 --> 00:08:06,370
+Now this is now a 1 by m
+matrix, and now we can
+
+144
+00:08:06,370 --> 00:08:09,165
+multiply 1 by m matrix
+times y.
+
+145
+00:08:09,165 --> 00:08:11,880
+   
+
+146
+00:08:11,880 --> 00:08:13,290
+Just like that.
+
+147
+00:08:13,290 --> 00:08:17,390
+Now what is this
+thing equal to?
+
+148
+00:08:17,390 --> 00:08:21,040
+We saw a while ago, I think it
+was two or three videos ago,
+
+149
+00:08:21,040 --> 00:08:25,100
+we saw that if we take the
+product of two matrices and
+
+150
+00:08:25,100 --> 00:08:28,400
+take its transpose, that's equal
+to the reverse product
+
+151
+00:08:28,400 --> 00:08:30,140
+of the transposes.
+
+152
+00:08:30,140 --> 00:08:32,870
+You switch the order and then
+take the transposes.
+
+153
+00:08:32,870 --> 00:08:36,280
+So this is going to be equal
+to-- this purple part-- is
+
+154
+00:08:36,280 --> 00:08:43,090
+going to be equal to
+x transpose times A
+
+155
+00:08:43,090 --> 00:08:47,470
+transpose times y.
+
+156
+00:08:47,470 --> 00:08:50,070
+And this is just matrix
+products.
+
+157
+00:08:50,070 --> 00:08:51,230
+These are matrix products.
+
+158
+00:08:51,230 --> 00:08:52,990
+These aren't necessarily
+vector operations.
+
+159
+00:08:52,990 --> 00:08:55,265
+We're treating all of these
+vectors as matrices.
+
+160
+00:08:55,265 --> 00:08:57,890
+And of course, we're treating
+the matrix as a matrix.
+
+161
+00:08:57,890 --> 00:08:59,640
+So what is this equal to?
+
+162
+00:08:59,640 --> 00:09:03,480
+Well we know that matrix
+products are associative.
+
+163
+00:09:03,480 --> 00:09:05,540
+You could put a parentheses--
+right now we have a
+
+164
+00:09:05,540 --> 00:09:09,370
+parentheses around there from
+there, but we could just take
+
+165
+00:09:09,370 --> 00:09:10,390
+another association.
+
+166
+00:09:10,390 --> 00:09:18,060
+We could say that that is equal
+to x transpose times
+
+167
+00:09:18,060 --> 00:09:20,070
+these two matrices
+times each other.
+
+168
+00:09:20,070 --> 00:09:21,815
+This is a vector, but
+you can represent it
+
+169
+00:09:21,815 --> 00:09:23,980
+as an m by 1 matrix.
+
+170
+00:09:23,980 --> 00:09:28,485
+Times A transpose y.
+
+171
+00:09:28,485 --> 00:09:31,180
+   
+
+172
+00:09:31,180 --> 00:09:32,580
+Just like that.
+
+173
+00:09:32,580 --> 00:09:35,440
+Now let's think about what
+A transpose y is.
+
+174
+00:09:35,440 --> 00:09:36,840
+Let's think about it.
+
+175
+00:09:36,840 --> 00:09:41,930
+A transpose-- we have
+here a is m by n.
+
+176
+00:09:41,930 --> 00:09:43,870
+What is A transpose?
+
+177
+00:09:43,870 --> 00:09:47,880
+A transpose is going to
+be n by m, right?
+
+178
+00:09:47,880 --> 00:09:49,020
+It's going to be an m by n.
+
+179
+00:09:49,020 --> 00:09:51,760
+So this is an m by n.
+
+180
+00:09:51,760 --> 00:09:55,230
+And then what is this vector
+y going to be?
+
+181
+00:09:55,230 --> 00:09:58,890
+This is an m by 1.
+
+182
+00:09:58,890 --> 00:10:00,960
+So when you take this product,
+you're going to
+
+183
+00:10:00,960 --> 00:10:04,390
+get an n by 1 matrix.
+
+184
+00:10:04,390 --> 00:10:09,040
+Or you could imagine this as a
+vector that is a member of Rn.
+
+185
+00:10:09,040 --> 00:10:12,280
+So this is a member of Rn.
+
+186
+00:10:12,280 --> 00:10:15,050
+The entire product is going to
+result with a vector that's a
+
+187
+00:10:15,050 --> 00:10:16,740
+member of Rn.
+
+188
+00:10:16,740 --> 00:10:18,810
+And of course, it's well-defined
+because this is a
+
+189
+00:10:18,810 --> 00:10:22,900
+1 by n vector right there.
+
+190
+00:10:22,900 --> 00:10:24,540
+Now we can go back
+to our identity.
+
+191
+00:10:24,540 --> 00:10:28,100
+We have the transpose of some
+vector times some other
+
+192
+00:10:28,100 --> 00:10:31,010
+vector-- they have the same,
+well I guess you could say
+
+193
+00:10:31,010 --> 00:10:33,730
+this has as many horizontal
+entries as this guy has
+
+194
+00:10:33,730 --> 00:10:35,390
+vertical entries,
+just like that.
+
+195
+00:10:35,390 --> 00:10:36,330
+So what is this equal to?
+
+196
+00:10:36,330 --> 00:10:37,830
+We just use that identity.
+
+197
+00:10:37,830 --> 00:10:42,090
+This is equal to, the just
+regular x in this case,
+
+198
+00:10:42,090 --> 00:10:44,740
+instead of x transpose
+we'll just have x.
+
+199
+00:10:44,740 --> 00:10:52,350
+So this is equal to x dot--
+remember, we just un-transpose
+
+200
+00:10:52,350 --> 00:10:57,075
+it, I guess you can view it that
+way-- dot A transpose y.
+
+201
+00:10:57,075 --> 00:11:01,090
+   
+
+202
+00:11:01,090 --> 00:11:02,860
+Which is a pretty
+neat outcome.
+
+203
+00:11:02,860 --> 00:11:04,470
+We got this being
+equal to that.
+
+204
+00:11:04,470 --> 00:11:07,350
+We can kind of change the
+associativity, although we
+
+205
+00:11:07,350 --> 00:11:11,880
+have to essentially change the
+order a bit and take the
+
+206
+00:11:11,880 --> 00:11:13,630
+transpose of our matrix.
+
+207
+00:11:13,630 --> 00:11:15,630
+So let me re-write that
+just so that you can
+
+208
+00:11:15,630 --> 00:11:16,670
+remember the outcome.
+
+209
+00:11:16,670 --> 00:11:20,100
+So the two big outcomes of this
+video are-- I'll rewrite
+
+210
+00:11:20,100 --> 00:11:27,290
+this one up here-- v dot w is
+equal to the matrix product of
+
+211
+00:11:27,290 --> 00:11:30,050
+v transpose times w.
+
+212
+00:11:30,050 --> 00:11:34,540
+And if I have some matrix--
+you assume all of these
+
+213
+00:11:34,540 --> 00:11:36,920
+matrix-vector products are
+well-defined and all the dot
+
+214
+00:11:36,920 --> 00:11:38,340
+products are well-defined.
+
+215
+00:11:38,340 --> 00:11:48,000
+If I have Ax dot y, some other
+vector y, this is equivalent
+
+216
+00:11:48,000 --> 00:11:53,680
+to x dot-- you're essentially
+putting the A with the other
+
+217
+00:11:53,680 --> 00:11:57,650
+vector-- A transpose times y.
+
+218
+00:11:57,650 --> 00:12:00,620
+And this just might be a useful
+outcome, or a useful
+
+219
+00:12:00,620 --> 00:12:04,260
+result, that we could build
+upon later in the linear
+
+220
+00:12:04,260 --> 00:12:06,190
+algebra playlist.

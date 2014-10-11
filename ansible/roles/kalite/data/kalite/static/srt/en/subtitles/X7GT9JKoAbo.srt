@@ -1,0 +1,1423 @@
+1
+00:00:00,670 --> 00:00:05,640
+if the angles A, B, and C of a triangle
+are in an arithmetic progression
+
+2
+00:00:05,640 --> 00:00:11,540
+and if a, b and c - lower case a, b and c
+denote the length of the sides opposite to
+
+3
+00:00:11,540 --> 00:00:17,050
+the capital, the angles A - capital A, capital
+B and capital C respectively
+
+4
+00:00:17,050 --> 00:00:21,320
+then what is the value of this expression
+right over here so let's see if we can
+
+5
+00:00:21,320 --> 00:00:22,449
+work our way
+
+6
+00:00:22,449 --> 00:00:26,710
+through this, so let's just draw the triangle so
+we have visualization of what all the letters
+
+7
+00:00:26,710 --> 00:00:27,779
+represent
+
+8
+00:00:27,779 --> 00:00:30,290
+so we have the angles A, B and C
+
+9
+00:00:30,290 --> 00:00:32,660
+so let me just draw them like this
+
+10
+00:00:32,660 --> 00:00:35,170
+so we have the angles A
+
+11
+00:00:35,170 --> 00:00:36,239
+B
+
+12
+00:00:36,239 --> 00:00:41,380
+and C and then the sides opposites them are the
+lower case versions, so the side opposite the
+
+13
+00:00:41,380 --> 00:00:44,040
+capital A is lower case a
+
+14
+00:00:44,040 --> 00:00:49,000
+the side opposite to capital B is lower case
+b and the side opposite to the angle capital
+
+15
+00:00:49,000 --> 00:00:50,610
+C is
+
+16
+00:00:50,610 --> 00:00:54,870
+lower case c. Now the first piece of information
+they tell us is that they
+
+17
+00:00:54,870 --> 00:00:56,409
+the angles
+
+18
+00:00:56,409 --> 00:00:59,850
+capital A, capital B and capital C of the
+triangle
+
+19
+00:00:59,850 --> 00:01:00,350
+are in an
+
+20
+00:01:00,350 --> 00:01:02,129
+arithmetic progression
+
+21
+00:01:02,129 --> 00:01:03,380
+arithmetic
+
+22
+00:01:03,380 --> 00:01:04,810
+progression
+
+23
+00:01:04,810 --> 00:01:06,880
+very fancy word
+
+24
+00:01:06,880 --> 00:01:12,570
+but all an arithmetic progression is, is a series of numbers
+that are separated by the same amount, so
+
+25
+00:01:12,570 --> 00:01:17,380
+and let me give you some examples, so 1,2,3 - that's an arithmetic progression
+
+26
+00:01:17,380 --> 00:01:19,260
+2, 4, 6
+
+27
+00:01:19,260 --> 00:01:22,119
+arithmetic progression were separated by 2
+every time
+
+28
+00:01:22,119 --> 00:01:25,400
+i could do 10, 20, 30
+
+29
+00:01:25,400 --> 00:01:29,270
+also an arithmetic progression. These are all
+arithmetic progressions. So all they're saying
+
+30
+00:01:29,270 --> 00:01:30,080
+is
+
+31
+00:01:30,080 --> 00:01:35,272
+is to go from angle A to angle B - however much
+that is, is this the same amount to go from angle
+
+32
+00:01:35,272 --> 00:01:37,680
+B to angle C. So let's see
+
+33
+00:01:37,680 --> 00:01:39,279
+what that tells us
+
+34
+00:01:39,279 --> 00:01:44,100
+what that tells us about or maybe tells us, maybe doesn't tell us anything about those angles
+
+35
+00:01:44,100 --> 00:01:45,820
+so if we could say
+
+36
+00:01:45,820 --> 00:01:48,439
+we could say we have angle A
+
+37
+00:01:48,439 --> 00:01:51,479
+and then we have the notion angle B
+
+38
+00:01:51,479 --> 00:01:55,720
+so we could say that B is equal to A plus
+
+39
+00:01:55,720 --> 00:02:00,240
+some constant we don't know what that is. it could go by 1, it could go by 2, it could go by 10
+
+40
+00:02:00,240 --> 00:02:03,330
+we don't know what it is, so A plus N
+
+41
+00:02:03,330 --> 00:02:04,750
+and then C
+
+42
+00:02:04,750 --> 00:02:07,750
+would be equal to B plus N
+
+43
+00:02:07,750 --> 00:02:09,550
+which is the same thing
+
+44
+00:02:09,550 --> 00:02:14,689
+which is the same thing as B is A plus N, so this is A plus N
+it plus
+
+45
+00:02:14,689 --> 00:02:16,709
+plus N which is equal to
+
+46
+00:02:16,709 --> 00:02:18,489
+A plus
+
+47
+00:02:18,489 --> 00:02:19,809
+2N
+
+48
+00:02:19,809 --> 00:02:23,809
+so what does that tell us? Well, the other thing
+we know about three angles in a triangle
+
+49
+00:02:23,809 --> 00:02:28,439
+that they have to add up to a 180
+degrees. So:
+
+50
+00:02:28,439 --> 00:02:32,040
+this, this and this have to add up to a 180 degrees
+
+51
+00:02:32,040 --> 00:02:33,725
+let's try it out so we have
+
+52
+00:02:33,725 --> 00:02:36,870
+A plus A plus N
+
+53
+00:02:36,870 --> 00:02:43,019
+plus A plus 2N, plus A plus 2N is going to be equal to 180 degrees
+
+54
+00:02:43,019 --> 00:02:47,249
+we have one, two, three "A"s here, so we get 3A
+
+55
+00:02:47,353 --> 00:02:51,069
+plus with one N and another two N: three A plus 3 N
+
+56
+00:02:51,069 --> 00:02:53,769
+is equal to 180 degrees
+
+57
+00:02:53,769 --> 00:02:57,849
+or you could divide both sides by 3 and you
+get A
+
+58
+00:02:57,849 --> 00:03:00,099
+plus N is equal to
+
+59
+00:03:00,099 --> 00:03:03,730
+A plus N is equal to 60 degrees
+
+60
+00:03:03,730 --> 00:03:04,739
+so what does that
+
+61
+00:03:04,739 --> 00:03:06,559
+what does that tell us
+
+62
+00:03:06,559 --> 00:03:10,370
+well A could still be anything cause if N is 1 then A is 59
+
+63
+00:03:10,370 --> 00:03:11,889
+if N is 10
+
+64
+00:03:11,889 --> 00:03:15,569
+then A is going to be 50, so it doesn't give us much information
+
+65
+00:03:15,569 --> 00:03:17,679
+about the angle A
+
+66
+00:03:17,679 --> 00:03:20,929
+but if you look up here, do you see A+N anywhere?
+
+67
+00:03:20,929 --> 00:03:26,039
+you see it right over here. B is equal to
+A plus N and we just figured out that
+
+68
+00:03:26,039 --> 00:03:29,269
+A plus N has to be equal to sixty degrees
+
+69
+00:03:29,269 --> 00:03:32,909
+so using this first piece of information we
+are able to come up with something pretty
+
+70
+00:03:32,909 --> 00:03:33,749
+tangible
+
+71
+00:03:33,749 --> 00:03:39,489
+B must be equal to sixty degrees and you
+could try it out with a bunch of numbers these
+
+72
+00:03:39,489 --> 00:03:40,509
+could be
+
+73
+00:03:40,509 --> 00:03:42,019
+59
+
+74
+00:03:42,019 --> 00:03:42,749
+60
+
+75
+00:03:42,749 --> 00:03:43,859
+and 61
+
+76
+00:03:43,859 --> 00:03:45,660
+that's an arithmetic progression
+
+77
+00:03:45,660 --> 00:03:50,379
+and once again B is the middle one
+right over here. These could be 50
+
+78
+00:03:50,379 --> 00:03:51,180
+60
+
+79
+00:03:51,180 --> 00:03:52,110
+and 70
+
+80
+00:03:52,110 --> 00:03:53,689
+could be 40
+
+81
+00:03:53,689 --> 00:03:54,859
+60
+
+82
+00:03:54,859 --> 00:03:55,330
+and 80
+
+83
+00:03:55,330 --> 00:03:59,510
+but no matter what the arithmetic progression
+is in order for these three angles to add
+
+84
+00:03:59,510 --> 00:04:01,629
+up to 180 the middle one
+
+85
+00:04:01,629 --> 00:04:03,319
+has to be equal to
+
+86
+00:04:03,319 --> 00:04:07,229
+has to be equal to 60 degrees. So that was
+a pretty
+
+87
+00:04:07,229 --> 00:04:10,939
+that's.. we're doing pretty well so far so let's
+see what we can do at the next part
+
+88
+00:04:10,939 --> 00:04:15,209
+with the next part of problem. I'm trying to save some screen real estate right over here
+
+89
+00:04:15,209 --> 00:04:15,819
+okay
+
+90
+00:04:15,819 --> 00:04:20,669
+so they want us to figure out the value of
+the expression a over c sine of two
+
+91
+00:04:20,669 --> 00:04:25,069
+C - capital C, plus c over a sine of two A. So
+let me just write it down
+
+92
+00:04:25,069 --> 00:04:26,419
+so we have
+
+93
+00:04:26,419 --> 00:04:29,120
+i'll do it.. i'll do it in blue
+
+94
+00:04:29,120 --> 00:04:30,949
+a over c
+
+95
+00:04:30,949 --> 00:04:32,819
+a over c
+
+96
+00:04:32,819 --> 00:04:33,770
+sine
+
+97
+00:04:33,770 --> 00:04:36,550
+of two times capital C
+
+98
+00:04:36,550 --> 00:04:39,320
+plus c over a
+
+99
+00:04:39,320 --> 00:04:40,129
+sine
+
+100
+00:04:40,129 --> 00:04:42,550
+of two times capital A
+
+101
+00:04:42,550 --> 00:04:46,729
+what's that going to be equal to? so, whenever
+you see stuff like this you got a 2 here
+
+102
+00:04:46,729 --> 00:04:48,299
+a 2 here
+
+103
+00:04:48,299 --> 00:04:51,819
+frankly the best things you should do is just experiment
+with your trigonometric identities and see
+
+104
+00:04:51,819 --> 00:04:54,450
+if anything pops out of you that might be
+useful
+
+105
+00:04:54,450 --> 00:04:58,660
+and a little bit of a clue here the first
+part of the problem helped us figure out what
+
+106
+00:04:58,660 --> 00:04:59,279
+B is
+
+107
+00:04:59,279 --> 00:05:01,689
+it helped us figure out what B is
+
+108
+00:05:01,689 --> 00:05:05,489
+but right now the expression has no B in it.
+So right now this information seems kind of
+
+109
+00:05:05,489 --> 00:05:06,220
+useless
+
+110
+00:05:06,220 --> 00:05:06,890
+but if we could
+
+111
+00:05:06,890 --> 00:05:10,050
+put this somehow in terms of B
+
+112
+00:05:10,050 --> 00:05:14,219
+then we'll have will will be making progress
+as we know information about angle B
+
+113
+00:05:14,219 --> 00:05:15,860
+so let's see what we can do
+
+114
+00:05:15,860 --> 00:05:16,840
+so the first thing
+
+115
+00:05:16,840 --> 00:05:18,439
+i would use is
+
+116
+00:05:18,439 --> 00:05:22,110
+well sine of 2A - let me just rewrite each
+of these
+
+117
+00:05:22,110 --> 00:05:23,919
+so sine of
+
+118
+00:05:23,919 --> 00:05:25,960
+i just say sine of two times anything
+
+119
+00:05:25,960 --> 00:05:28,009
+that's just the same thing as
+
+120
+00:05:28,009 --> 00:05:30,789
+and this is called the double angle formula
+
+121
+00:05:30,789 --> 00:05:32,209
+so this is
+
+122
+00:05:32,209 --> 00:05:35,839
+i might be wrong i was for the actual
+names of them but sine of two time something
+
+123
+00:05:35,839 --> 00:05:37,629
+is two
+
+124
+00:05:37,629 --> 00:05:38,369
+sine
+
+125
+00:05:38,369 --> 00:05:39,759
+of that something
+
+126
+00:05:39,759 --> 00:05:41,620
+times the cosine of that
+
+127
+00:05:41,620 --> 00:05:44,990
+times the cosine of that something and you'll
+see that in any trigonometric book on the
+
+128
+00:05:44,990 --> 00:05:47,399
+inside cover even a lot of calculus books
+
+129
+00:05:47,399 --> 00:05:51,189
+let's do that for this the same thing right
+over here so sine of 2A over here is going
+
+130
+00:05:51,189 --> 00:05:52,339
+to be
+
+131
+00:05:52,339 --> 00:05:54,179
+2 sine of
+
+132
+00:05:54,179 --> 00:05:55,699
+A
+
+133
+00:05:55,699 --> 00:05:56,539
+cosine of A
+
+134
+00:05:56,539 --> 00:05:58,800
+that's just a standard trigonometric identity
+
+135
+00:05:58,800 --> 00:06:03,400
+and we, in the trigonometric, less we prove
+that identity i think we do it multiple times
+
+136
+00:06:03,400 --> 00:06:08,240
+then out on front we have our coefficients till we have a over c times this
+
+137
+00:06:08,240 --> 00:06:11,779
+plus c over a times this
+
+138
+00:06:11,779 --> 00:06:15,400
+now is there anything we can do and remember
+in the back of our mind we should be thinking
+
+139
+00:06:15,400 --> 00:06:19,030
+of how can we use this information that be is
+equal to sixty
+
+140
+00:06:19,030 --> 00:06:20,649
+so if we can somehow put this
+
+141
+00:06:20,649 --> 00:06:21,910
+in the form
+
+142
+00:06:21,910 --> 00:06:23,190
+got a b here
+
+143
+00:06:23,190 --> 00:06:25,560
+when i think about how do you get a b here
+I think well
+
+144
+00:06:25,560 --> 00:06:30,479
+you know we have a triangle here so the things
+that relate the sides of the triangle when
+
+145
+00:06:30,479 --> 00:06:34,490
+especially when it's not a right triangle we are really gonna deal with the law of sines or law of cosines
+
+146
+00:06:34,490 --> 00:06:38,509
+and a law of sines let me just rewrite it over
+here just for our reference
+
+147
+00:06:38,509 --> 00:06:41,139
+Law of sines would say sine of A
+
+148
+00:06:41,139 --> 00:06:43,520
+over a is equal to sine
+
+149
+00:06:43,520 --> 00:06:47,639
+of B over b which is equal to sine
+
+150
+00:06:47,639 --> 00:06:48,930
+of C
+
+151
+00:06:48,930 --> 00:06:49,929
+over c
+
+152
+00:06:49,929 --> 00:06:53,289
+And it looks like we might be able to use that
+let me just read the law of cosine here
+
+153
+00:06:56,210 --> 00:06:58,050
+the law of cosine is c squared
+
+154
+00:06:58,050 --> 00:07:01,849
+it should look as a Pythagorean theorem with little
+adjustment for the fact that is not a right triangle
+
+155
+00:07:01,849 --> 00:07:05,929
+So c squared is equal to a squared plus b
+squared
+
+156
+00:07:05,929 --> 00:07:06,720
+minus
+
+157
+00:07:06,720 --> 00:07:08,889
+2 ab
+
+158
+00:07:08,889 --> 00:07:10,249
+cosine
+
+159
+00:07:10,249 --> 00:07:15,479
+cosine of C of capital C so it's law of sines and law of cosines, so let's if we can
+
+160
+00:07:15,479 --> 00:07:20,710
+somehow use both of these to put these in
+terms of b which we have information about
+
+161
+00:07:20,710 --> 00:07:22,430
+well the first thing is
+
+162
+00:07:22,430 --> 00:07:26,879
+i could rewrite this so this is sine of C
+over c and this is sine of A over a, so let
+
+163
+00:07:26,879 --> 00:07:27,999
+me do that
+
+164
+00:07:27,999 --> 00:07:29,639
+so i have
+
+165
+00:07:29,639 --> 00:07:31,870
+so i have the 2a
+
+166
+00:07:31,870 --> 00:07:33,770
+I have 2a
+
+167
+00:07:33,770 --> 00:07:36,069
+cosine of c let me write that separately
+
+168
+00:07:36,069 --> 00:07:38,460
+so that's 2a
+
+169
+00:07:38,460 --> 00:07:39,809
+cosine
+
+170
+00:07:39,809 --> 00:07:40,960
+cosine of
+
+171
+00:07:40,960 --> 00:07:41,990
+capital c
+
+172
+00:07:41,990 --> 00:07:43,949
+and then times
+
+173
+00:07:43,949 --> 00:07:46,460
+sine of C over c
+
+174
+00:07:46,460 --> 00:07:46,949
+times
+
+175
+00:07:46,949 --> 00:07:49,270
+with white sine
+
+176
+00:07:49,270 --> 00:07:50,419
+of c
+
+177
+00:07:50,419 --> 00:07:52,259
+that's a capital c
+
+178
+00:07:52,259 --> 00:07:57,460
+sine of capital c over lower case c, that's
+that term and that term right over there
+
+179
+00:07:57,460 --> 00:07:59,809
+and then to that I'm adding
+
+180
+00:07:59,809 --> 00:08:03,539
+to that I'm adding let me do this the same thing over
+here, I have two times
+
+181
+00:08:03,539 --> 00:08:05,139
+I'm going to separate
+
+182
+00:08:05,139 --> 00:08:07,369
+these guys out
+
+183
+00:08:07,369 --> 00:08:10,029
+Actually I wanted to do the sines so let me separate
+
+184
+00:08:10,029 --> 00:08:13,860
+I'm gonna separate this guy and in this guy out
+
+185
+00:08:13,860 --> 00:08:15,839
+and so I get plus
+
+186
+00:08:15,839 --> 00:08:18,249
+2c
+
+187
+00:08:18,249 --> 00:08:18,959
+cosine
+
+188
+00:08:18,959 --> 00:08:21,180
+of A
+
+189
+00:08:21,180 --> 00:08:25,719
+times sine of capital a over lower case a
+
+190
+00:08:25,719 --> 00:08:26,589
+times sine
+
+191
+00:08:26,589 --> 00:08:30,669
+of capital a over lower case a and what does this
+do for me
+
+192
+00:08:30,669 --> 00:08:35,189
+Well look at the law of sines
+right over there I have sine of C over c
+
+193
+00:08:35,189 --> 00:08:36,230
+that's that over there
+
+194
+00:08:36,230 --> 00:08:40,279
+and then I've sine of A over a and that's that over
+there capital a over lower case a.
+
+195
+00:08:40,279 --> 00:08:44,870
+they're both equal to sign of B over b so we're making progress
+
+196
+00:08:44,870 --> 00:08:47,309
+we started introducing b into the equation
+
+197
+00:08:47,309 --> 00:08:50,990
+and that's what we actually have information about
+
+198
+00:08:50,990 --> 00:08:52,370
+so this
+
+199
+00:08:52,370 --> 00:08:55,140
+It could be rewritten a sine of be over b
+
+200
+00:08:55,140 --> 00:08:58,150
+so this is the same thing as sine
+
+201
+00:08:58,150 --> 00:09:01,000
+of capital b over lower case b
+
+202
+00:09:01,000 --> 00:09:03,570
+and this is the same thing a sine
+
+203
+00:09:03,570 --> 00:09:05,910
+of capital b over
+
+204
+00:09:05,910 --> 00:09:07,640
+lower case b and they're both
+
+205
+00:09:07,640 --> 00:09:08,709
+being multiplied
+
+206
+00:09:08,709 --> 00:09:12,070
+or both of these terms are multiplying
+
+207
+00:09:12,070 --> 00:09:14,910
+are being multiplied by that
+
+208
+00:09:14,910 --> 00:09:17,090
+2a cosine of capital c times that
+
+209
+00:09:17,090 --> 00:09:18,810
+and then plus
+
+210
+00:09:18,810 --> 00:09:19,940
+2c
+
+211
+00:09:19,940 --> 00:09:21,920
+it's a lower case c
+
+212
+00:09:21,920 --> 00:09:24,340
+cosine of capital a times that
+
+213
+00:09:24,340 --> 00:09:30,150
+so we can factor out the sine of B over b so let's do that, let's factor it out
+
+214
+00:09:30,150 --> 00:09:32,360
+so this is the same thing
+
+215
+00:09:32,360 --> 00:09:33,280
+as
+
+216
+00:09:33,280 --> 00:09:35,160
+it's the same thing as
+
+217
+00:09:35,160 --> 00:09:36,510
+2a
+
+218
+00:09:36,510 --> 00:09:37,440
+2a
+
+219
+00:09:37,440 --> 00:09:41,650
+and I really have a sense of what the next
+step is so I'll leave a space here
+
+220
+00:09:41,650 --> 00:09:44,760
+2a times cosine of C
+
+221
+00:09:44,760 --> 00:09:48,140
+plus this and these are being multiplied I'll have 
+some space there
+
+222
+00:09:48,140 --> 00:09:52,770
+plus 2c two lower case c
+
+223
+00:09:52,770 --> 00:09:54,189
+times the cosine of A
+
+224
+00:09:54,189 --> 00:09:55,880
+and all of this
+
+225
+00:09:55,880 --> 00:09:57,440
+all of this times
+
+226
+00:09:57,440 --> 00:09:59,050
+the sine
+
+227
+00:09:59,050 --> 00:10:03,860
+the sine of B over b and we already know that B is 60 degrees
+
+228
+00:10:03,860 --> 00:10:04,390
+so we can evaluate this
+
+229
+00:10:04,390 --> 00:10:06,210
+uh... pat
+
+230
+00:10:06,210 --> 00:10:09,640
+pretty easily but let's just continue
+
+231
+00:10:09,640 --> 00:10:11,459
+let's see if we can somehow put this
+
+232
+00:10:11,459 --> 00:10:13,470
+right over here in terms of b
+
+233
+00:10:13,470 --> 00:10:16,180
+well if you look over here we have 2a cosine of C
+
+234
+00:10:16,180 --> 00:10:18,900
+2c cosine of A
+
+235
+00:10:18,900 --> 00:10:19,970
+it's trying to look
+
+236
+00:10:19,970 --> 00:10:21,730
+pretty darn close
+
+237
+00:10:21,730 --> 00:10:25,960
+each of these terms look preety darn close to this part
+
+238
+00:10:25,960 --> 00:10:30,040
+to this part of the law of cosines over there and actually let's solve
+
+239
+00:10:30,040 --> 00:10:32,400
+for that part of the law of cosines
+
+240
+00:10:32,400 --> 00:10:33,820
+let's see what we could do
+
+241
+00:10:33,820 --> 00:10:35,760
+so if you add if you add
+
+242
+00:10:35,760 --> 00:10:40,670
+2ab cosine C to both sides you get 2ab
+
+243
+00:10:40,670 --> 00:10:42,880
+cosine of capital c
+
+244
+00:10:42,880 --> 00:10:46,260
+plus c squared is equal to a squared
+
+245
+00:10:46,260 --> 00:10:47,930
+plus b squared
+
+246
+00:10:47,930 --> 00:10:50,870
+or if you subtract c squared from both sides you get
+
+247
+00:10:50,870 --> 00:10:52,790
+2ab
+
+248
+00:10:52,790 --> 00:10:54,480
+cosine of capital c
+
+249
+00:10:54,480 --> 00:10:58,760
+is equal to a squared plus b squared
+minus
+
+250
+00:10:58,760 --> 00:11:00,130
+c squared
+
+251
+00:11:00,130 --> 00:11:04,020
+and this is interesting and you know we can switch around the letters later on
+
+252
+00:11:04,020 --> 00:11:07,480
+but this looks pretty darn close to the so what if and this looks pretty darn close
+
+253
+00:11:07,480 --> 00:11:11,050
+to this except here we're dealing with
+an a instead of the c, we've just switched
+
+254
+00:11:11,050 --> 00:11:12,160
+letters around
+
+255
+00:11:12,160 --> 00:11:13,640
+and we could rewrite this
+
+256
+00:11:13,640 --> 00:11:15,360
+actually let me rewrite it just for fun
+
+257
+00:11:15,360 --> 00:11:18,050
+i could rewrite this over here as
+
+258
+00:11:18,050 --> 00:11:19,140
+2
+
+259
+00:11:19,140 --> 00:11:21,430
+2cb
+
+260
+00:11:21,430 --> 00:11:23,709
+not rewrite I can swap the letters
+
+261
+00:11:23,709 --> 00:11:26,620
+times the cosine of A
+
+262
+00:11:26,620 --> 00:11:32,189
+you see I'm swaping the a(s) and the c(s) is equal to c squared plus b squared minus
+
+263
+00:11:32,189 --> 00:11:33,180
+a squared
+
+264
+00:11:33,180 --> 00:11:36,630
+there's nothing unique about the sides I can do this with all of the sides
+
+265
+00:11:36,630 --> 00:11:38,080
+so here
+
+266
+00:11:38,080 --> 00:11:40,840
+It's a big c here, you have an a and b out front
+
+267
+00:11:40,840 --> 00:11:45,660
+and then you have tha a squared plus b squared minus the small c squared, if you have the big A then you gonna have
+
+268
+00:11:45,660 --> 00:11:50,580
+the cb in the front and you're subtracting the a squared right over here
+
+269
+00:11:50,580 --> 00:11:51,730
+and this is useful because
+
+270
+00:11:51,730 --> 00:11:55,880
+this term right over here this term right
+over here looks almost like this term over
+
+271
+00:11:55,880 --> 00:11:59,580
+here if we could just
+multiply this by b
+
+272
+00:11:59,580 --> 00:12:01,720
+so let's do that we can multiply that by b
+
+273
+00:12:01,720 --> 00:12:02,899
+but let's multiply
+
+274
+00:12:02,899 --> 00:12:08,240
+this whole numerator this whole term by b(s)
+if we multiply this whole term by b what do we get
+
+275
+00:12:08,240 --> 00:12:09,600
+we get a b there
+
+276
+00:12:09,600 --> 00:12:10,550
+we get
+
+277
+00:12:10,550 --> 00:12:11,300
+a b there
+
+278
+00:12:11,300 --> 00:12:15,719
+and of course you can just arbitrarily multiply an expression by b that'll change its value.
+
+279
+00:12:15,719 --> 00:12:19,100
+so what we could do is multiply the expression by b which we just did
+
+280
+00:12:19,100 --> 00:12:23,710
+we distributed the b across here but they were also divided by b
+
+281
+00:12:23,710 --> 00:12:28,270
+where which so I'll divide by b, that's an equivalent
+of multiplying the denominator
+
+282
+00:12:28,270 --> 00:12:30,509
+the denominator there not b squared
+
+283
+00:12:30,509 --> 00:12:34,720
+that's equivalent of multiplying the denominator there by b. That simple thing is dividing it by b
+
+284
+00:12:34,720 --> 00:12:36,639
+We've multiplied it by b divided by b
+
+285
+00:12:36,639 --> 00:12:37,920
+That's the same thing
+
+286
+00:12:37,920 --> 00:12:40,330
+I'm just turning this into b squared
+
+287
+00:12:40,330 --> 00:12:42,930
+now what does this give us
+
+288
+00:12:42,930 --> 00:12:46,000
+well we have this term right over here
+
+289
+00:12:46,000 --> 00:12:50,190
+this term right over here is now the exact
+same thing is that over there
+
+290
+00:12:50,190 --> 00:12:55,400
+so it is now in a squared plus b squared
+minus c squared
+
+291
+00:12:55,400 --> 00:12:57,260
+and then this term
+
+292
+00:12:57,260 --> 00:12:58,399
+right over here
+
+293
+00:12:58,399 --> 00:13:02,249
+is now the exact same thing as this thing over here which is the same thing as that
+
+294
+00:13:02,249 --> 00:13:04,240
+We're using the law of
+
+295
+00:13:04,240 --> 00:13:06,410
+cosines so this is plus
+
+296
+00:13:06,410 --> 00:13:09,750
+c squared plus b squared minus
+
+297
+00:13:09,750 --> 00:13:11,310
+a squared
+
+298
+00:13:11,310 --> 00:13:14,630
+and then all of that times this sine of b
+
+299
+00:13:14,630 --> 00:13:17,590
+sine of capital b over b squared
+
+300
+00:13:17,590 --> 00:13:21,430
+now what does this give us the we have an a squared and a negative a squared things are starting
+
+301
+00:13:21,430 --> 00:13:23,020
+to simplify
+
+302
+00:13:23,020 --> 00:13:25,510
+a squared negative a squared
+
+303
+00:13:25,510 --> 00:13:29,530
+we have a negative c squared and a positive c squared
+
+304
+00:13:29,530 --> 00:13:33,670
+so what are we left with we're just left out with the 2b squared so our whole expression
+
+305
+00:13:33,670 --> 00:13:35,940
+has simplified to
+
+306
+00:13:35,940 --> 00:13:38,730
+2b squared sine of B
+
+307
+00:13:38,730 --> 00:13:40,730
+sine of capital b
+
+308
+00:13:40,730 --> 00:13:41,650
+over
+
+309
+00:13:41,650 --> 00:13:43,420
+lower case b squared
+
+310
+00:13:43,420 --> 00:13:44,710
+these cancel out
+
+311
+00:13:44,710 --> 00:13:48,500
+so our whole expression simplifies to
+
+312
+00:13:48,500 --> 00:13:50,089
+2 sine of B
+
+313
+00:13:50,089 --> 00:13:54,569
+and from from the get go we knew what b was we know it's sixty degrees so this is
+
+314
+00:13:54,569 --> 00:13:56,900
+equal to two times
+
+315
+00:13:56,900 --> 00:14:02,070
+the sine of sixty degrees and if you
+don't have the sine of sixty degrees memorized
+
+316
+00:14:02,070 --> 00:14:05,490
+you can always just break out of thirty sixty
+ninety triangle
+
+317
+00:14:05,490 --> 00:14:07,040
+so let me draw
+
+318
+00:14:07,040 --> 00:14:11,039
+this is a right triangle right over here this is
+sixty degrees
+
+319
+00:14:11,039 --> 00:14:14,230
+hypotenuse has length one we're dealing with
+the unit circle
+
+320
+00:14:14,230 --> 00:14:16,159
+this side is thirty degrees
+
+321
+00:14:16,159 --> 00:14:19,010
+the side opposite to the thirty degrees is one-half
+
+322
+00:14:19,010 --> 00:14:22,880
+the side opposite to the sixty degrees is square root of three times that so it's a sqaure root of three over two
+
+323
+00:14:22,880 --> 00:14:25,690
+You can even use the Pythagorean theorem to figure out
+
+324
+00:14:25,690 --> 00:14:28,520
+when you know one of them you could figure out the other one
+
+325
+00:14:28,520 --> 00:14:30,489
+So it's the sine of, sinus
+
+326
+00:14:30,489 --> 00:14:33,820
+opposite over hypotenuse so square root of three
+over two over one
+
+327
+00:14:33,820 --> 00:14:37,430
+Or just square root of three over two, so this is equal to two
+
+328
+00:14:37,430 --> 00:14:38,380
+times
+
+329
+00:14:38,380 --> 00:14:41,360
+there's a home stretch, it;s very exciting !
+
+330
+00:14:41,360 --> 00:14:43,940
+square root of three over two
+
+331
+00:14:43,940 --> 00:14:46,220
+these cancel out so we are left with
+
+332
+00:14:46,220 --> 00:14:48,690
+the square root
+
+333
+00:14:48,690 --> 00:14:50,770
+of three
+
+334
+00:14:50,770 --> 00:14:54,910
+that's a pretty neat problem and just in case you're curious this came from the
+
+335
+00:14:54,910 --> 00:14:57,890
+two thousand ten IIT joint entrance examination
+
+336
+00:14:57,890 --> 00:15:02,730
+hard to get into engineering and
+science universities in India
+
+337
+00:15:02,730 --> 00:15:06,459
+and they gave this example like you know hundreds of thousands of kids and you know the top
+
+338
+00:15:06,459 --> 00:15:09,889
+the top i don't know like two thousand actually get into one of the ideas but anyway I just thought
+
+339
+00:15:09,889 --> 00:15:11,899
+it was a pretty pretty neat problem

@@ -1,0 +1,191 @@
+1
+00:00:00,212 --> 00:00:06,689
+We're asked to graph the equation y=-2(x-2)^2 + 5.
+
+2
+00:00:06,689 --> 00:00:09,469
+So let me get my scratchpad out so we can think about this.
+
+3
+00:00:09,469 --> 00:00:16,806
+So it's y=-2(x-2)^2 + 5
+
+4
+00:00:16,806 --> 00:00:22,870
+So one thing when you see a quadratic, or a parabola, a graph expressed in this way,
+
+5
+00:00:22,870 --> 00:00:24,354
+a thing that might jump out at you
+
+6
+00:00:24,354 --> 00:00:26,803
+is that this term right over here
+
+7
+00:00:26,803 --> 00:00:30,944
+is always going to be positive cause it's some quantity squared
+
+8
+00:00:30,944 --> 00:00:35,290
+non-negative, it could be equal to zero, so it's always going to be
+
+9
+00:00:35,521 --> 00:00:39,876
+some quantity squared, and then we're multiplying it by a negative, so this whole quantity
+
+10
+00:00:39,876 --> 00:00:42,937
+this whole quantity right over here is going to be non-positive
+
+11
+00:00:42,937 --> 00:00:46,101
+it's always going to be less than or equal to zero
+
+12
+00:00:47,639 --> 00:00:51,775
+so this thing is always less than or equal to zero, the maximum
+
+13
+00:00:51,775 --> 00:00:55,853
+value that y will take on
+
+14
+00:00:55,853 --> 00:00:59,689
+is when this thing actually does equal zero. So the maximum value
+
+15
+00:00:59,689 --> 00:01:02,538
+for y is at 5, so y
+
+16
+00:01:02,538 --> 00:01:08,003
+the maximum value for y is 5, and when does that happen?
+
+17
+00:01:08,034 --> 00:01:12,266
+Well y hits 5 when this whole thing is 0, and when does this thing equal 0?
+
+18
+00:01:12,266 --> 00:01:15,964
+Well this whole thing equals 0 when x-2 = 0
+
+19
+00:01:15,964 --> 00:01:18,540
+and x-2 = 0 when x=2
+
+20
+00:01:18,540 --> 00:01:23,144
+so the point (2, 5) is the maximum point for this parabola and it is
+
+21
+00:01:23,144 --> 00:01:27,269
+actually going to be the vertex. So if we were to graph this,
+
+22
+00:01:27,269 --> 00:01:30,467
+so the point (2, 5)
+
+23
+00:01:30,467 --> 00:01:35,351
+so that's my y-axis, this is my x-axis
+
+24
+00:01:35,351 --> 00:01:39,334
+so this is 1, 2, 1, 2, 3, 4, 5
+
+25
+00:01:39,349 --> 00:01:42,875
+so this right over here is a point (2, 5).
+
+26
+00:01:42,875 --> 00:01:47,471
+This is a maximum point for this parabola, and
+
+27
+00:01:47,471 --> 00:01:51,105
+now I want to find two more points so that I can really determine the parabola. 3 points
+
+28
+00:01:51,105 --> 00:01:54,534
+determine, completely determine, a parabola. So that's one,
+
+29
+00:01:54,534 --> 00:01:59,106
+the vertex, that's interesting. Now what I like to do is just get two points that are
+
+30
+00:01:59,106 --> 00:02:02,882
+equidistant from the vertex, and the easiest way to do that is to
+
+31
+00:02:02,882 --> 00:02:06,945
+maybe just figure out what happens when x=1
+
+32
+00:02:06,945 --> 00:02:11,192
+and when x=3. So I can make a table here actually
+
+33
+00:02:11,192 --> 00:02:15,276
+to do that. So I care about x
+
+34
+00:02:15,276 --> 00:02:19,025
+being equal to 1, 2, and 3, and what the corresponding y is
+
+35
+00:02:19,025 --> 00:02:22,968
+We already know that when x=2, y=5.
+
+36
+00:02:22,968 --> 00:02:26,804
+(2, 5) is our vertex. When x=1,
+
+37
+00:02:26,804 --> 00:02:30,601
+1-2 is -1, squared is just 1
+
+38
+00:02:30,601 --> 00:02:34,620
+so this thing is going to be -2 + 5, so it's gonna be 3
+
+39
+00:02:34,620 --> 00:02:38,206
+and when x=3, this is 3-2, which is 1, squared is 1
+
+40
+00:02:38,206 --> 00:02:42,268
+times -2 is -2 + 5 is 3 as well
+
+41
+00:02:42,268 --> 00:02:45,363
+so we have 3 points. We have the point (1, 3),
+
+42
+00:02:45,363 --> 00:02:50,608
+the point (2, 5), and the point
+
+43
+00:02:50,608 --> 00:02:55,026
+(3, 3) for
+
+44
+00:02:55,026 --> 00:02:57,212
+this parabola. So let me go back to the exercise and I should
+
+45
+00:02:57,212 --> 00:03:01,541
+put those three points in. So we have the point
+
+46
+00:03:01,541 --> 00:03:07,517
+(1, 3), there's a point (2, 5)
+
+47
+00:03:07,517 --> 00:03:10,538
+and we have the point (3, 3)
+
+48
+00:03:10,538 --> 00:03:14,538
+and we have now fully determined our parabola.

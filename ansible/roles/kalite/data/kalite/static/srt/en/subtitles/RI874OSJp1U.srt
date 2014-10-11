@@ -1,0 +1,339 @@
+1
+00:00:00,658 --> 00:00:09,125
+So far we've been dealing with one way of Probability, that was the probability of (A) occur,
+
+2
+00:00:09,125 --> 00:00:20,735
+The number of events that satisfy A over all number of the equally likely events
+
+3
+00:00:20,735 --> 00:00:31,324
+All of the equally likely events.
+
+4
+00:00:31,324 --> 00:00:38,429
+And so in the case of a coin, The Probability of heads was a fair coin
+
+5
+00:00:38,429 --> 00:00:43,119
+With 2 equally likely events, satisfies being "Heads"
+
+6
+00:00:43,119 --> 00:00:45,720
+So there's a half chance of having a "Heads"
+
+7
+00:00:45,720 --> 00:00:49,807
+Similarly for tails, if you took a die
+
+8
+00:00:49,807 --> 00:00:53,476
+The probability of getting an even number.
+
+9
+00:00:53,476 --> 00:01:00,070
+Well there's 6 equally likely events, and there are three even numbers you can get
+
+10
+00:01:00,070 --> 00:01:02,133
+Which are, two, four and six
+
+11
+00:01:02,133 --> 00:01:08,243
+So there's three over six, or simply,
+
+12
+00:01:08,243 --> 00:01:09,133
+One half chance
+
+13
+00:01:09,133 --> 00:01:13,305
+And this is a really good model
+
+14
+00:01:13,305 --> 00:01:15,767
+of equally likely events. Now I'm going to change things up a little
+
+15
+00:01:15,767 --> 00:01:19,110
+I'll draw a line, this was just one way about thinking of probability
+
+16
+00:01:19,110 --> 00:01:24,544
+Now we're going to talk of probability where we can think of equally likely events
+
+17
+00:01:24,544 --> 00:01:28,631
+And in particular I'm going to set up an unfair coin
+
+18
+00:01:28,631 --> 00:01:32,133
+So this right over here, is supposed to be my unfair coin.
+
+19
+00:01:32,133 --> 00:01:53,197
+One side of that coin is heavier than the other, So this is the head's side
+
+20
+00:01:53,197 --> 00:01:56,933
+And obviously on the back, is Tails
+
+21
+00:01:56,933 --> 00:01:58,533
+As I said, this is an UNFAIR coin
+
+22
+00:01:58,533 --> 00:02:02,067
+Now I'm going to make an interesting statement about this unfair coin
+
+23
+00:02:02,067 --> 00:02:05,133
+It doesn't fit into the model I've created above,
+
+24
+00:02:05,133 --> 00:02:10,800
+And this interesting statement is, above we had a 50-50 chance of getting heads
+
+25
+00:02:10,800 --> 00:02:19,297
+I'm going to say, here, that the probability of getting Heads, for this coin right here,
+
+26
+00:02:19,297 --> 00:02:21,293
+is 60% (Sixty Per Cent)
+
+27
+00:02:21,293 --> 00:02:22,640
+Or another way to say,
+
+28
+00:02:22,640 --> 00:02:25,333
+0.6 or 6 upon 10.
+
+29
+00:02:25,333 --> 00:02:31,510
+Or another way to say this is 3/5 or three-fifths
+
+30
+00:02:31,510 --> 00:02:40,984
+Now we can't say there are two equally likely events
+
+31
+00:02:40,984 --> 00:02:43,585
+There are two possible events
+
+32
+00:02:43,585 --> 00:02:44,513
+The coin may fall on the heads, or tails
+
+33
+00:02:44,513 --> 00:02:46,835
+So it is obvious that either we'll get Heads or Tails
+
+34
+00:02:46,835 --> 00:02:49,111
+But there aren't really two equally likely events
+
+35
+00:02:49,111 --> 00:02:58,770
+Counting the number of events that satisfy, over all the possible events
+
+36
+00:02:58,770 --> 00:03:03,229
+In this situation, we can visualize the probability.
+
+37
+00:03:03,229 --> 00:03:06,061
+This is fundamentally different from the model we talked about above.
+
+38
+00:03:06,061 --> 00:03:07,133
+We have to kind of take, a frequentive approach
+
+39
+00:03:07,133 --> 00:03:09,667
+Think about it in terms of frequency,
+
+40
+00:03:09,667 --> 00:03:12,935
+And the way to conceptualize, 60% chance of getting heads
+
+41
+00:03:12,935 --> 00:03:21,108
+If we had a super large number of trials. This means if we are to flip this coin
+
+42
+00:03:21,108 --> 00:03:23,105
+Like a zillion times
+
+43
+00:03:23,105 --> 00:03:27,563
+We would expect, 60% of those would come up as heads
+
+44
+00:03:27,563 --> 00:03:33,740
+So I'm clear how I determine, that this is60%! Maybe I ran a computer stimulation, maybe I should know exactly all about physics
+
+45
+00:03:33,740 --> 00:03:37,408
+Of this, and I can completely marvel how it's going to fall everytime
+
+46
+00:03:37,408 --> 00:03:44,978
+Or maybe it's like, I have a tonne of trials, I flip the coin a million times And I said, well, 60%
+
+47
+00:03:44,978 --> 00:03:49,297
+Of those, therefore, came up heads.
+
+48
+00:03:49,297 --> 00:03:51,851
+And we can make a similar statement about Tails!
+
+49
+00:03:51,851 --> 00:03:54,267
+So, the probability of Heads is 60%
+
+50
+00:03:54,267 --> 00:03:58,446
+The Probability of Tails, well there're only two possibilities, whether there can be heads or tails!
+
+51
+00:03:58,446 --> 00:04:04,204
+So if I say the probability of heads or tails, is going to be equal to 1 !
+
+52
+00:04:04,204 --> 00:04:08,384
+Because there also can be a chance of getting hundred percent Heads or tails
+
+53
+00:04:08,384 --> 00:04:12,471
+And these are mutually exclusive events, you can't have both of them
+
+54
+00:04:12,471 --> 00:04:21,387
+So this is going to be, the probability of tails is, going to be 100% - Probability of Heads
+
+55
+00:04:21,387 --> 00:04:24,731
+which of course is 60% (as above)
+
+56
+00:04:24,731 --> 00:04:28,399
+Which is equal to 40%
+
+57
+00:04:28,399 --> 00:04:30,396
+or as a decimal, it is 0.4
+
+58
+00:04:30,396 --> 00:04:35,467
+Or as a fraction, four tenths, or Four upon Ten, or in its simplest form, it is Two Fifths, 2 over 5
+
+59
+00:04:36,387 --> 00:04:43,492
+So once again, we can't call them equally likely events. If we toss a coin a zillion times, and we get
+
+60
+00:04:43,492 --> 00:04:49,576
+60% of the coins as heads, it is obvious that the rest coins have to be tails
+
+61
+00:04:49,576 --> 00:04:53,152
+It's time for some problems now,
+
+62
+00:04:53,152 --> 00:04:58,446
+The probability of getting heads on our first flip and heads on our second flip.
+
+63
+00:04:58,446 --> 00:05:04,205
+So once again these are independent flips. The coin has no memory, regardless what I got on the first
+
+64
+00:05:04,205 --> 00:05:09,200
+flip, I have equal chance of getting heads on the second flip. I can get heads and tails on the first
+
+65
+00:05:09,200 --> 00:05:15,861
+as well, so the probability of heads on the first flip X Probability of getting heads on the second flip.
+
+66
+00:05:15,861 --> 00:05:21,202
+Now we already know that the probability of getting heads on the first flip is 60%
+
+67
+00:05:21,202 --> 00:05:29,700
+Or let's write it in the decimal form, it is 0.6
+
+68
+00:05:29,700 --> 00:06:08,933
+Also, P(H2) is 0.6. And we can just multiply. I'll do it right here, so this is 0.6 x 0.6
+
+69
+00:06:08,933 --> 00:06:13,168
+It is equal to 0.36.
+
+70
+00:06:13,168 --> 00:06:28,867
+We're taking 60% of 0.6. 0.36, or another way to say it that we have 36% of getting two heads in a row
+
+71
+00:06:29,840 --> 00:06:33,509
+Given this unfair coin, remember if it was a fair coin, one half times which is one over four which
+
+72
+00:06:33,509 --> 00:06:35,877
+1/4 or 25%.
+
+73
+00:06:35,877 --> 00:06:40,057
+Now let's see a slightly complicated example;
+
+74
+00:06:40,057 --> 00:06:51,295
+Let's say, the Probability of getting a tails on the first flip, getting a heads on the second flip,
+
+75
+00:06:51,295 --> 00:06:56,775
+And getting a tails on the third flip. So this is going to be equal to the probability of getting a tails on the first and third flip, and a heads on the second
+
+76
+00:07:01,187 --> 00:07:07,874
+It is equal to The Probability of Getting Tails on the First flip, multiplied by the probability of getting
+
+77
+00:07:14,190 --> 00:07:24,778
+heads on the second flip, heads being on the second time doesn't affect the probability of heads and similarly, a tails, again, on the third flip
+
+78
+00:07:24,778 --> 00:07:28,308
+And we know that the probability of getting a tails is 0.4
+
+79
+00:07:28,308 --> 00:07:34,391
+The Probability of getting a heads(on any flip) is 0.6 and the probability of getting tails on the third flip is 0.4
+
+80
+00:07:34,391 --> 00:07:43,000
+So once again we just have to multiply all these probabilities,
+
+81
+00:07:43,000 --> 00:07:58,447
+So 0.4 X 0.4 X 0.6 = 0.096
+
+82
+00:08:11,467 --> 00:08:36,992
+Or another way it to write is 9.6%, a little less than 10%. We have a 9.6% chance of getting this probability
+
+83
+00:08:36,992 --> 00:08:39,933
+Remember, in this case, the position of heads or tails, first, second or third does not affect
+
+84
+00:08:39,933 --> 00:08:54,500
+Their probability
+
+85
+00:08:54,500 --> 99:59:59,999
+Thanks!

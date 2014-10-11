@@ -1,0 +1,675 @@
+1
+00:00:01,067 --> 00:00:02,600
+What i want to do in this video is to discuss
+
+2
+00:00:02,600 --> 00:00:05,667
+a special class of triangles called '30-60-90
+
+3
+00:00:05,667 --> 00:00:07,667
+triangles'. And I think you know why they're
+
+4
+00:00:07,667 --> 00:00:08,600
+called this.
+
+5
+00:00:08,600 --> 00:00:10,067
+The measures of its angles are,
+
+6
+00:00:10,067 --> 00:00:13,200
+30 degrees, 60 degrees and 90 degrees.
+
+7
+00:00:13,200 --> 00:00:14,867
+And what we're going to prove in this video
+
+8
+00:00:14,867 --> 00:00:16,733
+and this tends to be a very useful result
+
+9
+00:00:16,733 --> 00:00:18,533
+at least for a lot of what you see in a
+
+10
+00:00:18,533 --> 00:00:20,067
+geometry class, and then later on in
+
+11
+00:00:20,067 --> 00:00:21,200
+Trigonometry class.
+
+12
+00:00:21,200 --> 00:00:23,600
+Is the ratio between the sides of a
+
+13
+00:00:23,600 --> 00:00:25,533
+30-60-90 triangle.
+
+14
+00:00:25,533 --> 00:00:28,267
+That if the hypotenuse has length x.
+
+15
+00:00:28,267 --> 00:00:30,200
+(so that's, remember the hypotenuse is
+
+16
+00:00:30,200 --> 00:00:32,400
+opposite the 90 degree side.)
+
+17
+00:00:32,400 --> 00:00:34,200
+If the hypotenuse has length x, what we're going
+
+18
+00:00:34,200 --> 00:00:36,667
+to prove is that the shorter side which
+
+19
+00:00:36,667 --> 00:00:39,000
+is opposite the 30 degree side has length
+
+20
+00:00:39,000 --> 00:00:42,000
+x/2, and that the 60 degree side...
+
+21
+00:00:42,000 --> 00:00:45,800
+the 60 degree side, or the side that's opposite
+
+22
+00:00:45,800 --> 00:00:47,933
+the 60 degree angle I should say is going
+
+23
+00:00:47,933 --> 00:00:50,600
+to be the (the square root of 3 x the shorter side.)
+
+24
+00:00:50,600 --> 00:00:54,333
+so the square root of 3 times (x/2)
+
+25
+00:00:54,333 --> 00:00:55,600
+that's going to be its length.
+
+26
+00:00:55,600 --> 00:00:56,733
+So that's what we're going to prove in this video.
+
+27
+00:00:56,733 --> 00:00:58,000
+and in other videos, we're going to apply this.
+
+28
+00:00:58,000 --> 00:00:59,800
+We're going to show that this is actually a useful
+
+29
+00:00:59,800 --> 00:01:01,000
+result.
+
+30
+00:01:01,000 --> 00:01:02,733
+Now lets start with a triangle that we're
+
+31
+00:01:02,733 --> 00:01:06,000
+very familiar with... so let me draw ourselves
+
+32
+00:01:06,000 --> 00:01:11,267
+an equilateral triangle... so drawing the
+
+33
+00:01:11,267 --> 00:01:13,067
+triangles is always the hard part.
+
+34
+00:01:13,067 --> 00:01:16,133
+So this is my best shot at an equilateral triangle.
+
+35
+00:01:16,133 --> 00:01:22,200
+And lets call this A, B, C
+
+36
+00:01:22,200 --> 00:01:23,533
+I'm just going to assume I've constructed an
+
+37
+00:01:23,533 --> 00:01:24,733
+equilateral triangle,
+
+38
+00:01:24,733 --> 00:01:28,867
+so Triangle ABC is equilateral.
+
+39
+00:01:28,867 --> 00:01:30,867
+and if it's equilateral, that means all
+
+40
+00:01:30,867 --> 00:01:32,733
+of it's sides are equal, and lets say that it has
+
+41
+00:01:32,733 --> 00:01:41,600
+an equilateral with sides of length x.
+
+42
+00:01:41,600 --> 00:01:43,400
+so this is going to be x
+
+43
+00:01:43,400 --> 00:01:45,133
+this is going to be x, and this is
+
+44
+00:01:45,133 --> 00:01:46,333
+going to be x.
+
+45
+00:01:46,333 --> 00:01:48,667
+we also know, based on what we seen from
+
+46
+00:01:48,667 --> 00:01:50,933
+equilateral triangles before, that the measures
+
+47
+00:01:50,933 --> 00:01:53,800
+of all of these angles are going to be 60 degrees.
+
+48
+00:01:53,800 --> 00:01:56,667
+So this is going to be 60 degrees
+
+49
+00:01:56,667 --> 00:01:59,333
+this is going to be 60 degrees, and then
+
+50
+00:01:59,333 --> 00:02:01,267
+this is going to be 60 degrees.
+
+51
+00:02:01,267 --> 00:02:02,733
+Now what I'm going to do is I'm going to drop
+
+52
+00:02:02,733 --> 00:02:05,933
+an altitude from this top point right over here.
+
+53
+00:02:05,933 --> 00:02:08,000
+So I'm going to drop an altitude right down
+
+54
+00:02:08,000 --> 00:02:09,667
+and by definition when I'm constructing an
+
+55
+00:02:09,667 --> 00:02:11,000
+altitude it is going to intersect the
+
+56
+00:02:11,000 --> 00:02:13,467
+base right here... at a right angle.
+
+57
+00:02:13,467 --> 00:02:15,267
+So that's going to be right angle, and then
+
+58
+00:02:15,267 --> 00:02:17,000
+this is going to be a right angle.
+
+59
+00:02:17,000 --> 00:02:18,667
+and it's a pretty straightforward proof to show
+
+60
+00:02:18,667 --> 00:02:21,267
+that this is not only an altitude,
+
+61
+00:02:21,267 --> 00:02:23,067
+that is perpendicular to this base.
+
+62
+00:02:23,067 --> 00:02:24,667
+But it's a pretty straightforward proof to show that it
+
+63
+00:02:24,667 --> 00:02:27,108
+bisects the base and you can pause it
+
+64
+00:02:27,108 --> 00:02:28,867
+if you like and prove it yourself.
+
+65
+00:02:28,867 --> 00:02:30,533
+But it really comes out of the fact that it's easy
+
+66
+00:02:30,533 --> 00:02:33,333
+to prove that these two triangles are congruent.
+
+67
+00:02:33,333 --> 00:02:35,400
+So let me... prove it for you.
+
+68
+00:02:35,400 --> 00:02:37,733
+So lets call this point D right over here.
+
+69
+00:02:37,733 --> 00:02:42,179
+So triangles ABD and BDC
+
+70
+00:02:42,179 --> 00:02:44,667
+they clearly both share this side, so
+
+71
+00:02:44,667 --> 00:02:47,400
+this side is common to both of them right over
+
+72
+00:02:47,400 --> 00:02:48,333
+here.
+
+73
+00:02:48,333 --> 00:02:51,800
+and then this angle right over here is
+
+74
+00:02:51,800 --> 00:02:54,600
+congruent to this angle over there.
+
+75
+00:02:54,600 --> 00:02:56,533
+This angle right over here is congruent to
+
+76
+00:02:56,533 --> 00:02:58,133
+this angle over here.
+
+77
+00:02:58,133 --> 00:03:01,600
+and so, if these two and congruent to each other.
+
+78
+00:03:01,600 --> 00:03:04,067
+The third angle has to be congruent to each other.
+
+79
+00:03:04,067 --> 00:03:06,333
+So this angle right over here needs to be
+
+80
+00:03:06,333 --> 00:03:08,533
+congruent to that angle right over there.
+
+81
+00:03:08,533 --> 00:03:10,200
+So these two are congruent.
+
+82
+00:03:10,200 --> 00:03:13,067
+And so you can use actually a variety of our
+
+83
+00:03:13,067 --> 00:03:16,333
+congruence postulates, we could say
+
+84
+00:03:16,333 --> 00:03:20,000
+SAS (side, angle side) congruents
+
+85
+00:03:20,000 --> 00:03:23,600
+we could use ASA (angle, side angle)
+
+86
+00:03:23,600 --> 00:03:29,733
+any of those to show that triangle ABD
+
+87
+00:03:29,733 --> 00:03:36,133
+is congruent to triangle CBD.
+
+88
+00:03:36,133 --> 00:03:37,667
+and what that does for us.
+
+89
+00:03:37,667 --> 00:03:40,600
+and we could use as I said (Angle,Side,Angle)
+
+90
+00:03:40,600 --> 00:03:41,667
+or (Side,Angle,Side)
+
+91
+00:03:41,667 --> 00:03:43,133
+whatever we like to use for this.
+
+92
+00:03:43,133 --> 00:03:45,000
+what that does for us is that it tells us that
+
+93
+00:03:45,000 --> 00:03:47,667
+the corresponding sides of these triangles
+
+94
+00:03:47,667 --> 00:03:48,933
+are going to be equal.
+
+95
+00:03:48,933 --> 00:03:51,000
+in particular... in particular,
+
+96
+00:03:51,000 --> 00:03:57,795
+the length AD is going to be equal to CD
+
+97
+00:03:57,795 --> 00:03:59,733
+these are corresponding sides.
+
+98
+00:03:59,733 --> 00:04:01,800
+so these are going to be equal to each other.
+
+99
+00:04:01,800 --> 00:04:03,800
+and if we know that they're equal to each other.
+
+100
+00:04:03,800 --> 00:04:05,467
+that add up to x, remember this was an
+
+101
+00:04:05,467 --> 00:04:07,467
+equilateral triangle of length x.
+
+102
+00:04:07,467 --> 00:04:09,733
+we know that this side right over here is going
+
+103
+00:04:09,733 --> 00:04:12,800
+to be x/2... we know this is going to be x/2
+
+104
+00:04:12,800 --> 00:04:15,031
+not only do we know that, but also knew when
+
+105
+00:04:15,031 --> 00:04:18,067
+we dropped this altitude we showed that
+
+106
+00:04:18,067 --> 00:04:20,133
+this angle has to be congruent to that angle,
+
+107
+00:04:20,133 --> 00:04:22,400
+and their measures have to add up to 60.
+
+108
+00:04:22,400 --> 00:04:24,267
+So if two things are the same, they add up to 60.
+
+109
+00:04:24,267 --> 00:04:26,200
+this is going to be 30 degrees,
+
+110
+00:04:26,200 --> 00:04:28,000
+and this is going to be 30 degrees.
+
+111
+00:04:28,000 --> 00:04:30,667
+so we already shown one of the interesting parts
+
+112
+00:04:30,667 --> 00:04:32,267
+of 30-60-90 triangles.
+
+113
+00:04:32,267 --> 00:04:34,667
+That if the hypotenuse. Notice, and I guess I
+
+114
+00:04:34,667 --> 00:04:36,467
+didn't point this out that by dropping this
+
+115
+00:04:36,467 --> 00:04:39,733
+altitude I've essentially split this equilateral triangle.
+
+116
+00:04:39,733 --> 00:04:42,267
+into two 30-60-90 triangles.
+
+117
+00:04:42,267 --> 00:04:43,800
+30-60-90 triangles.
+
+118
+00:04:43,800 --> 00:04:46,267
+and so we're already shown that if the side
+
+119
+00:04:46,267 --> 00:04:48,800
+opposite the 90 degree side is x.
+
+120
+00:04:48,800 --> 00:04:51,133
+That the side opposite the 30 side is going to be
+
+121
+00:04:51,133 --> 00:04:54,467
+x/2. That's what we showed right over here.
+
+122
+00:04:54,467 --> 00:04:57,067
+Now we just have to come up with a third side,
+
+123
+00:04:57,067 --> 00:04:59,733
+the side that is opposite the 60 degree side.
+
+124
+00:04:59,733 --> 00:05:02,867
+the side opposite the 60 degree side...
+
+125
+00:05:02,867 --> 00:05:04,133
+right over there.
+
+126
+00:05:04,133 --> 00:05:07,467
+and lets call that length... well I'll just use
+
+127
+00:05:07,467 --> 00:05:09,667
+the letters we already have.
+
+128
+00:05:09,667 --> 00:05:10,933
+This is BD.
+
+129
+00:05:10,933 --> 00:05:12,933
+now we can just the Pythagorean Theorem
+
+130
+00:05:12,933 --> 00:05:13,733
+right here.
+
+131
+00:05:13,733 --> 00:05:17,000
+BD^2 + this length right over here ^2
+
+132
+00:05:17,000 --> 00:05:19,600
++ (x/2)^2 is going to be equal to the
+
+133
+00:05:19,600 --> 00:05:20,733
+hypotenuse squared.
+
+134
+00:05:20,733 --> 00:05:26,933
+so we get BD... BD^2 + (x/2)^2
+
+135
+00:05:26,933 --> 00:05:28,467
+this is just straight of the Pythagorean Theorem.
+
+136
+00:05:28,467 --> 00:05:32,133
++ (x/2)^2 is going to this hypotenuse ^2
+
+137
+00:05:32,133 --> 00:05:34,133
+it's going to equal x^2
+
+138
+00:05:34,133 --> 00:05:36,333
+and just to be clear... I'm looking at this
+
+139
+00:05:36,333 --> 00:05:37,333
+triangle right here...
+
+140
+00:05:37,333 --> 00:05:39,733
+I'm looking at this triangle over here in the right.
+
+141
+00:05:39,733 --> 00:05:41,667
+and I'm just applying the Pythagorean Theorem.
+
+142
+00:05:41,667 --> 00:05:43,800
+this side ^2 + this side ^2 is going to equal
+
+143
+00:05:43,800 --> 00:05:45,467
+the hypotenuse ^2.
+
+144
+00:05:45,467 --> 00:05:47,667
+The lets solve now for BD
+
+145
+00:05:47,667 --> 00:05:54,467
+you get BD^2 + (x^2)/4... (x^2/4)
+
+146
+00:05:54,467 --> 00:05:57,800
+is equal to x^2... is equal to x^2.
+
+147
+00:05:57,800 --> 00:06:00,400
+You would view this as (4x^2)/4 that's the same
+
+148
+00:06:00,400 --> 00:06:01,733
+obviously it's x^2.
+
+149
+00:06:01,733 --> 00:06:05,000
+And then if we subtract 1... if you subtract
+
+150
+00:06:05,000 --> 00:06:08,313
+(1/4)x^2 from both sides or (x^2)/4
+
+151
+00:06:08,313 --> 00:06:09,338
+from both sides. you get
+
+152
+00:06:09,338 --> 00:06:12,267
+BD^2 =
+
+153
+00:06:12,267 --> 00:06:15,667
+4x^2/4 - x^2/4 is going to be.
+
+154
+00:06:15,667 --> 00:06:17,400
+3x^2/4
+
+155
+00:06:17,400 --> 00:06:20,667
+so its going to be 3x^2/4
+
+156
+00:06:20,667 --> 00:06:22,933
+take the principle root of both sides.
+
+157
+00:06:22,933 --> 00:06:28,333
+you get BD is equal to... is equal to
+
+158
+00:06:28,333 --> 00:06:34,067
+square root(3 times x)... times x
+
+159
+00:06:34,067 --> 00:06:36,267
+the principle of 3 is the square root of 3
+
+160
+00:06:36,267 --> 00:06:38,133
+the principle root of x^2 is just x
+
+161
+00:06:38,133 --> 00:06:41,200
+over the principle root of 4 which is 2
+
+162
+00:06:41,200 --> 00:06:44,200
+and BD is a side opposite the 60 degree side
+
+163
+00:06:44,200 --> 00:06:46,600
+so we're done, if this hypotenuse is x,
+
+164
+00:06:46,600 --> 00:06:48,733
+the side opposite the 30 side is going to be
+
+165
+00:06:48,733 --> 00:06:50,267
+x/2
+
+166
+00:06:50,267 --> 00:06:52,000
+and the side opposite the 60 degree side
+
+167
+00:06:52,000 --> 00:06:52,867
+is going to be the
+
+168
+00:06:52,867 --> 00:06:57,267
+square root of (3x/2)
+
+169
+00:06:57,267 --> 99:59:59,999
+depending on how you want to view it.

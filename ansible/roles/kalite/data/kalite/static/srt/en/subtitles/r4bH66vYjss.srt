@@ -1,0 +1,2513 @@
+1
+00:00:00,000 --> 00:00:00,440
+   
+
+2
+00:00:00,440 --> 00:00:04,030
+In the last video I was a little
+formal in defining what
+
+3
+00:00:04,030 --> 00:00:09,010
+Rn is, and what a vector is,
+and what vector addition or
+
+4
+00:00:09,010 --> 00:00:10,610
+scalar multiplication is.
+
+5
+00:00:10,610 --> 00:00:12,760
+In this video I want to kind of
+go back to basics and just
+
+6
+00:00:12,760 --> 00:00:14,280
+give you a lot of examples.
+
+7
+00:00:14,280 --> 00:00:17,130
+And give you a more tangible
+sense for what vectors are and
+
+8
+00:00:17,130 --> 00:00:18,320
+how we operate with them.
+
+9
+00:00:18,320 --> 00:00:22,490
+So let me define a couple
+of vectors here.
+
+10
+00:00:22,490 --> 00:00:25,290
+And I'm going to do, most of my
+vectors I'm going to do in
+
+11
+00:00:25,290 --> 00:00:27,390
+this video are going
+to be in R2.
+
+12
+00:00:27,390 --> 00:00:29,480
+And that's because they're
+easy to draw.
+
+13
+00:00:29,480 --> 00:00:33,070
+Remember R2 is the set
+of all 2-tuples.
+
+14
+00:00:33,070 --> 00:00:41,580
+Ordered 2-tuples where each of
+the numbers, so you know you
+
+15
+00:00:41,580 --> 00:00:48,910
+could have x1, my 1 looks like a
+comma, x1 and x2, where each
+
+16
+00:00:48,910 --> 00:00:50,990
+of these are real numbers.
+
+17
+00:00:50,990 --> 00:00:58,290
+So you each of them, x1 is a
+member of the reals, and x2 is
+
+18
+00:00:58,290 --> 00:00:59,580
+a member of the reals.
+
+19
+00:00:59,580 --> 00:01:02,040
+And just to give you a sense
+of what that means, if this
+
+20
+00:01:02,040 --> 00:01:05,880
+right here is my coordinate
+axes, and I wanted a plot all
+
+21
+00:01:05,880 --> 00:01:08,710
+my x1's, x2's.
+
+22
+00:01:08,710 --> 00:01:10,740
+You know you could view this
+as the first coordinate.
+
+23
+00:01:10,740 --> 00:01:13,500
+We always imagine that
+as our x-axis.
+
+24
+00:01:13,500 --> 00:01:15,460
+And then our second coordinate
+we plotted on
+
+25
+00:01:15,460 --> 00:01:16,350
+the vertical axis.
+
+26
+00:01:16,350 --> 00:01:18,380
+That traditionally is our
+y-axis, but we'll just call
+
+27
+00:01:18,380 --> 00:01:20,930
+that the second number
+axis, whatever.
+
+28
+00:01:20,930 --> 00:01:24,630
+You could visually represent all
+of R2 by literally every
+
+29
+00:01:24,630 --> 00:01:28,030
+single point on this plane if
+we were to continue off to
+
+30
+00:01:28,030 --> 00:01:29,820
+infinity in every direction.
+
+31
+00:01:29,820 --> 00:01:31,200
+That's what R2 is.
+
+32
+00:01:31,200 --> 00:01:34,740
+R1 would just be points
+just along one of
+
+33
+00:01:34,740 --> 00:01:35,760
+these number lines.
+
+34
+00:01:35,760 --> 00:01:36,460
+That would be R1.
+
+35
+00:01:36,460 --> 00:01:38,740
+So you could immediately
+see that R2 is
+
+36
+00:01:38,740 --> 00:01:41,670
+kind of a bigger space.
+
+37
+00:01:41,670 --> 00:01:44,720
+But anyway, I said that I
+wouldn't be too abstract, that
+
+38
+00:01:44,720 --> 00:01:46,020
+I would show you examples.
+
+39
+00:01:46,020 --> 00:01:50,840
+So let's get some vectors
+going in R2.
+
+40
+00:01:50,840 --> 00:01:54,005
+So let me define my vector a.
+
+41
+00:01:54,005 --> 00:01:57,000
+I'll make it nice and bold.
+
+42
+00:01:57,000 --> 00:02:01,010
+My vector a is equal to,
+I'll make some numbers
+
+43
+00:02:01,010 --> 00:02:05,210
+up, negative 1, 2.
+
+44
+00:02:05,210 --> 00:02:12,520
+And my vector b, make it nice
+and bold, let me make that, I
+
+45
+00:02:12,520 --> 00:02:17,710
+don't know, 3, 1.
+
+46
+00:02:17,710 --> 00:02:19,440
+Those are my two vectors.
+
+47
+00:02:19,440 --> 00:02:21,950
+Let's just add them up
+and see what we get.
+
+48
+00:02:21,950 --> 00:02:25,180
+Just based on my definition
+of vector addition.
+
+49
+00:02:25,180 --> 00:02:27,460
+I'll just stay in one color
+for now so I don't have to
+
+50
+00:02:27,460 --> 00:02:29,590
+keep switching back and forth.
+
+51
+00:02:29,590 --> 00:02:37,320
+So a, nice deep a, plus bolded
+b is equal to, I just add up
+
+52
+00:02:37,320 --> 00:02:40,440
+each of those terms.
+Negative 1 plus 3.
+
+53
+00:02:40,440 --> 00:02:42,520
+And then 2 plus 1.
+
+54
+00:02:42,520 --> 00:02:46,000
+That was my definition
+of vector addition.
+
+55
+00:02:46,000 --> 00:02:53,730
+So that is going to be
+equal to 2 and 3.
+
+56
+00:02:53,730 --> 00:02:55,310
+Fair enough that just
+came out of my
+
+57
+00:02:55,310 --> 00:02:56,780
+definition of vector addition.
+
+58
+00:02:56,780 --> 00:03:00,530
+But how can we represent
+this vector?
+
+59
+00:03:00,530 --> 00:03:03,060
+So we already know that if we
+have coordinates, you know, if
+
+60
+00:03:03,060 --> 00:03:05,230
+I have the coordinate, and this
+is just a convention.
+
+61
+00:03:05,230 --> 00:03:06,610
+It's just the way
+that we do it.
+
+62
+00:03:06,610 --> 00:03:07,840
+The way we visualize things.
+
+63
+00:03:07,840 --> 00:03:12,880
+If I wanted to plot the
+point 1, 1, I go to
+
+64
+00:03:12,880 --> 00:03:13,870
+my coordinate axes.
+
+65
+00:03:13,870 --> 00:03:16,510
+The first point I go along
+the horizontal, what we
+
+66
+00:03:16,510 --> 00:03:18,620
+traditionally call our x-axis.
+
+67
+00:03:18,620 --> 00:03:20,450
+And I go 1 in that direction.
+
+68
+00:03:20,450 --> 00:03:22,670
+And then convention is, the
+second point I go 1 in the
+
+69
+00:03:22,670 --> 00:03:23,560
+vertical direction.
+
+70
+00:03:23,560 --> 00:03:26,090
+So the point 1, 1.
+
+71
+00:03:26,090 --> 00:03:27,880
+Oh, sorry, let me
+be very clear.
+
+72
+00:03:27,880 --> 00:03:30,950
+This is 2 and 2, so one
+is right here, and
+
+73
+00:03:30,950 --> 00:03:31,960
+one is right there.
+
+74
+00:03:31,960 --> 00:03:35,790
+So the point 1, 1 would
+be right there.
+
+75
+00:03:35,790 --> 00:03:37,750
+That's just the standard
+convention.
+
+76
+00:03:37,750 --> 00:03:42,090
+Now our convention for
+representing vectors are, you
+
+77
+00:03:42,090 --> 00:03:44,160
+might be tempted to say, oh,
+maybe I just represent this
+
+78
+00:03:44,160 --> 00:03:47,000
+vector at the point
+minus 1, 2.
+
+79
+00:03:47,000 --> 00:03:48,560
+And on some level
+you can do that.
+
+80
+00:03:48,560 --> 00:03:49,400
+I'll show you in a second.
+
+81
+00:03:49,400 --> 00:03:51,330
+But the convention for vectors
+is that you can
+
+82
+00:03:51,330 --> 00:03:54,350
+start at any point.
+
+83
+00:03:54,350 --> 00:03:56,880
+Let's say we're dealing with
+two dimensional vectors.
+
+84
+00:03:56,880 --> 00:03:59,460
+You can start at any
+point in R2.
+
+85
+00:03:59,460 --> 00:04:00,820
+So let's say that you're
+starting at the
+
+86
+00:04:00,820 --> 00:04:06,720
+point x1, and x2.
+
+87
+00:04:06,720 --> 00:04:14,850
+This could be any point in R2.
+
+88
+00:04:14,850 --> 00:04:17,630
+To represent the vector, what
+we do is we draw a line from
+
+89
+00:04:17,630 --> 00:04:22,120
+that point to the point x1.
+
+90
+00:04:22,120 --> 00:04:26,360
+And let me call this, let's say
+that we wanted to draw a.
+
+91
+00:04:26,360 --> 00:04:28,630
+So x1 minus 1.
+
+92
+00:04:28,630 --> 00:04:30,160
+So this is, I'm representing
+a.
+
+93
+00:04:30,160 --> 00:04:32,250
+So this is, I want to represent
+the vector a.
+
+94
+00:04:32,250 --> 00:04:37,470
+x1 minus 1, and then
+x1 plus 2.
+
+95
+00:04:37,470 --> 00:04:41,020
+Now if that seems confusing to
+you, when I draw it, it'll be
+
+96
+00:04:41,020 --> 00:04:42,530
+very obvious.
+
+97
+00:04:42,530 --> 00:04:45,480
+So let's say I just want to
+start at the point, let's just
+
+98
+00:04:45,480 --> 00:04:48,900
+say for quirky reasons, I just
+pick a random point here.
+
+99
+00:04:48,900 --> 00:04:50,340
+I just pick a point.
+
+100
+00:04:50,340 --> 00:04:51,160
+That one right there.
+
+101
+00:04:51,160 --> 00:04:52,410
+That's my starting point.
+
+102
+00:04:52,410 --> 00:04:54,560
+So minus 4, 4.
+
+103
+00:04:54,560 --> 00:04:58,770
+   
+
+104
+00:04:58,770 --> 00:05:02,700
+Now if I want to represent my
+vector a, what I just said is
+
+105
+00:05:02,700 --> 00:05:07,240
+that I add the first term
+in vector a to my first
+
+106
+00:05:07,240 --> 00:05:07,570
+coordinate.
+
+107
+00:05:07,570 --> 00:05:11,350
+So x1 plus minus 1
+or x1 minus 1.
+
+108
+00:05:11,350 --> 00:05:15,150
+So my new one is going to be,
+so this is my x1 minus 4.
+
+109
+00:05:15,150 --> 00:05:18,880
+So now it's going to be, let's
+see, I'm starting at the point
+
+110
+00:05:18,880 --> 00:05:20,980
+minus 4 comma 4.
+
+111
+00:05:20,980 --> 00:05:23,960
+If I want to represent a, what
+I do is, I draw an arrow to
+
+112
+00:05:23,960 --> 00:05:27,220
+minus 4 plus this first
+term, minus 1.
+
+113
+00:05:27,220 --> 00:05:28,890
+And then 4 plus the
+second term.
+
+114
+00:05:28,890 --> 00:05:30,990
+4 plus 2.
+
+115
+00:05:30,990 --> 00:05:31,790
+And so this is what?
+
+116
+00:05:31,790 --> 00:05:35,640
+This is minus 5 comma 6.
+
+117
+00:05:35,640 --> 00:05:38,220
+So I go to minus 5 comma 6.
+
+118
+00:05:38,220 --> 00:05:42,670
+So I go to that point right
+there and I just draw a line.
+
+119
+00:05:42,670 --> 00:05:44,210
+So my vector will
+look like this.
+
+120
+00:05:44,210 --> 00:05:46,410
+I draw a line from
+there to there.
+
+121
+00:05:46,410 --> 00:05:49,070
+And I draw an arrow
+at the end point.
+
+122
+00:05:49,070 --> 00:05:52,330
+So that's one representation
+of the vector minus 1, 2.
+
+123
+00:05:52,330 --> 00:05:54,510
+Actually let me do it
+a little bit better.
+
+124
+00:05:54,510 --> 00:05:56,760
+Because minus 5 is actually
+more, a little
+
+125
+00:05:56,760 --> 00:05:58,560
+closer to right here.
+
+126
+00:05:58,560 --> 00:06:01,240
+Minus 5 comma 6 Is right
+there, so I draw
+
+127
+00:06:01,240 --> 00:06:04,220
+my vector like that.
+
+128
+00:06:04,220 --> 00:06:07,660
+But remember this point minus
+4 comma 4 was an arbitrary
+
+129
+00:06:07,660 --> 00:06:09,440
+place to draw my vector.
+
+130
+00:06:09,440 --> 00:06:12,000
+I could have started
+at this point here.
+
+131
+00:06:12,000 --> 00:06:14,740
+I could have started at the
+point 4 comma 6 and done the
+
+132
+00:06:14,740 --> 00:06:15,380
+same thing.
+
+133
+00:06:15,380 --> 00:06:19,040
+I could have gone minus 1 in
+the horizontal direction,
+
+134
+00:06:19,040 --> 00:06:21,190
+that's my movement in the
+horizontal direction.
+
+135
+00:06:21,190 --> 00:06:23,030
+And then plus 2 in the
+vertical direction.
+
+136
+00:06:23,030 --> 00:06:25,570
+So I could have drawn, so minus
+1 in the horizontal and
+
+137
+00:06:25,570 --> 00:06:28,200
+plus 2 in the vertical
+gets me right there.
+
+138
+00:06:28,200 --> 00:06:33,710
+So I could have just as easily
+drawn my vector like that.
+
+139
+00:06:33,710 --> 00:06:37,890
+These are both interpretations
+of the same vector a.
+
+140
+00:06:37,890 --> 00:06:40,360
+I should draw them in the
+color of vector a.
+
+141
+00:06:40,360 --> 00:06:44,070
+So vector a was this light
+blue color right there.
+
+142
+00:06:44,070 --> 00:06:46,300
+So this is vector a.
+
+143
+00:06:46,300 --> 00:06:47,520
+This is vector a.
+
+144
+00:06:47,520 --> 00:06:48,710
+Sometimes there'll
+be a little arrow
+
+145
+00:06:48,710 --> 00:06:51,050
+notation over the vector.
+
+146
+00:06:51,050 --> 00:06:51,850
+But either of those vectors.
+
+147
+00:06:51,850 --> 00:06:53,540
+I could draw an infinite
+number of vector a's.
+
+148
+00:06:53,540 --> 00:06:55,210
+I could draw vector a here.
+
+149
+00:06:55,210 --> 00:06:56,840
+I could draw it like that.
+
+150
+00:06:56,840 --> 00:07:01,280
+Vector a, it goes
+back 1 and up 2.
+
+151
+00:07:01,280 --> 00:07:04,650
+So vector a could
+be right there.
+
+152
+00:07:04,650 --> 00:07:06,160
+Similarly vector b.
+
+153
+00:07:06,160 --> 00:07:07,200
+What does vector b do?
+
+154
+00:07:07,200 --> 00:07:11,790
+I could pick some arbitrary
+point for vector b.
+
+155
+00:07:11,790 --> 00:07:16,930
+It goes to the right 3, so it
+goes to the right 1, 2, 3 and
+
+156
+00:07:16,930 --> 00:07:17,820
+then it goes up 1.
+
+157
+00:07:17,820 --> 00:07:20,970
+So vector b, one representation
+of vector b,
+
+158
+00:07:20,970 --> 00:07:23,630
+looks like this.
+
+159
+00:07:23,630 --> 00:07:24,420
+Another represention.
+
+160
+00:07:24,420 --> 00:07:27,390
+I can start it right here.
+
+161
+00:07:27,390 --> 00:07:31,840
+I could go to the right 3,
+1, 2, 3, and then up 1.
+
+162
+00:07:31,840 --> 00:07:36,820
+This would be another
+representation of my vector b.
+
+163
+00:07:36,820 --> 00:07:39,790
+There's an infinite number of
+representations of them.
+
+164
+00:07:39,790 --> 00:07:43,160
+But the convention is to often
+put them in what's called the
+
+165
+00:07:43,160 --> 00:07:44,530
+standard position.
+
+166
+00:07:44,530 --> 00:07:47,490
+And that's to start
+them off at 0, 0.
+
+167
+00:07:47,490 --> 00:07:49,740
+So your initial point, let
+me write this down.
+
+168
+00:07:49,740 --> 00:07:59,280
+Standard position is just to
+start the vectors at 0, 0 and
+
+169
+00:07:59,280 --> 00:08:00,720
+then draw them.
+
+170
+00:08:00,720 --> 00:08:05,100
+So vector a in standard
+position, I'd start at 0, 0
+
+171
+00:08:05,100 --> 00:08:10,240
+like that and I would go
+back 1 and then up 2.
+
+172
+00:08:10,240 --> 00:08:13,490
+So this is vector a in standard
+position right there.
+
+173
+00:08:13,490 --> 00:08:14,930
+And then vector b in
+standard position.
+
+174
+00:08:14,930 --> 00:08:15,450
+Let me write that.
+
+175
+00:08:15,450 --> 00:08:16,100
+That's a.
+
+176
+00:08:16,100 --> 00:08:21,200
+And then vector b in standard
+position is 3, go to the 3
+
+177
+00:08:21,200 --> 00:08:24,950
+right and then up 1.
+
+178
+00:08:24,950 --> 00:08:27,220
+These are the vectors in
+standard position, but any of
+
+179
+00:08:27,220 --> 00:08:31,140
+these other things we drew
+are just as valid.
+
+180
+00:08:31,140 --> 00:08:32,860
+Now let's see if we can get
+an interpretation of what
+
+181
+00:08:32,860 --> 00:08:35,669
+happened when we
+added a plus b.
+
+182
+00:08:35,669 --> 00:08:39,580
+   
+
+183
+00:08:39,580 --> 00:08:42,429
+Well if I draw that vector in
+standard position, I just
+
+184
+00:08:42,429 --> 00:08:44,630
+calculated, it's 2, 3.
+
+185
+00:08:44,630 --> 00:08:47,935
+So I go to the right
+2 and I go up 3.
+
+186
+00:08:47,935 --> 00:08:50,030
+So if I just draw it in
+standard position
+
+187
+00:08:50,030 --> 00:08:51,280
+it looks like this.
+
+188
+00:08:51,280 --> 00:08:54,110
+   
+
+189
+00:08:54,110 --> 00:08:55,370
+This vector right there.
+
+190
+00:08:55,370 --> 00:08:58,470
+   
+
+191
+00:08:58,470 --> 00:09:01,270
+And at first when you look at
+it, this vector right here is
+
+192
+00:09:01,270 --> 00:09:05,730
+the vector a plus b in
+standard position.
+
+193
+00:09:05,730 --> 00:09:08,300
+When you draw it like that,
+it's not clear what the
+
+194
+00:09:08,300 --> 00:09:11,220
+relationship is when
+we added a and b.
+
+195
+00:09:11,220 --> 00:09:14,020
+But to see the relationship what
+you do is, you put a and
+
+196
+00:09:14,020 --> 00:09:15,190
+b head to tails.
+
+197
+00:09:15,190 --> 00:09:18,090
+What that means is, you put
+the tail end of b to the
+
+198
+00:09:18,090 --> 00:09:20,210
+front end of a.
+
+199
+00:09:20,210 --> 00:09:21,780
+Because remember, all
+of these are valid
+
+200
+00:09:21,780 --> 00:09:23,800
+representations of b.
+
+201
+00:09:23,800 --> 00:09:26,380
+All of the representations
+of the vector b.
+
+202
+00:09:26,380 --> 00:09:28,620
+They all have, they're all
+parallel to each other, but
+
+203
+00:09:28,620 --> 00:09:29,720
+they can start from anywhere.
+
+204
+00:09:29,720 --> 00:09:32,990
+So another equally valid
+representation of vector b is
+
+205
+00:09:32,990 --> 00:09:37,310
+to start at this point right
+here, kind of the end point of
+
+206
+00:09:37,310 --> 00:09:40,010
+vector a in standard position,
+and then draw vector b
+
+207
+00:09:40,010 --> 00:09:40,620
+starting from there.
+
+208
+00:09:40,620 --> 00:09:41,860
+So you go 3 to the right.
+
+209
+00:09:41,860 --> 00:09:46,470
+So you go 1, 2, 3.
+
+210
+00:09:46,470 --> 00:09:48,970
+And then you go up 1.
+
+211
+00:09:48,970 --> 00:09:52,210
+So vector b could also be
+drawn just like that.
+
+212
+00:09:52,210 --> 00:09:54,830
+   
+
+213
+00:09:54,830 --> 00:09:56,210
+And then you should
+see something
+
+214
+00:09:56,210 --> 00:09:57,760
+interesting had happened.
+
+215
+00:09:57,760 --> 00:10:01,070
+And remember, this vector b
+representation is not in
+
+216
+00:10:01,070 --> 00:10:03,650
+standard position, but it's just
+an equally valid way to
+
+217
+00:10:03,650 --> 00:10:05,350
+represent my vector.
+
+218
+00:10:05,350 --> 00:10:06,630
+Now what do you see?
+
+219
+00:10:06,630 --> 00:10:13,320
+When I add a, which is right
+here, to b what do I get if I
+
+220
+00:10:13,320 --> 00:10:17,220
+connect the starting point of
+a with the end point of b?
+
+221
+00:10:17,220 --> 00:10:19,830
+I get the addition.
+
+222
+00:10:19,830 --> 00:10:23,340
+I have added the two vectors.
+
+223
+00:10:23,340 --> 00:10:24,300
+And I could have done
+that anywhere.
+
+224
+00:10:24,300 --> 00:10:25,870
+I could have started
+with a here.
+
+225
+00:10:25,870 --> 00:10:29,000
+And then I could have
+done the end point.
+
+226
+00:10:29,000 --> 00:10:33,010
+I could have started b here and
+gone 3 to the right, 1, 2,
+
+227
+00:10:33,010 --> 00:10:34,940
+3 and then up 1.
+
+228
+00:10:34,940 --> 00:10:39,560
+And I could have drawn b
+right there like that.
+
+229
+00:10:39,560 --> 00:10:42,600
+And then if I were to add a plus
+b, I go to the starting
+
+230
+00:10:42,600 --> 00:10:46,380
+point of a, and then
+the end point of b.
+
+231
+00:10:46,380 --> 00:10:48,220
+And that should also
+be the visual
+
+232
+00:10:48,220 --> 00:10:52,420
+representation of a plus b.
+
+233
+00:10:52,420 --> 00:10:54,580
+Just to make sure it confirms
+with this number, what I did
+
+234
+00:10:54,580 --> 00:10:57,520
+here was I went 2 to
+the right, 1, 2 and
+
+235
+00:10:57,520 --> 00:10:58,730
+then I went 3 up.
+
+236
+00:10:58,730 --> 00:11:03,300
+1, 2, 3 and I got a plus b.
+
+237
+00:11:03,300 --> 00:11:04,870
+Now let's think about
+what happens when
+
+238
+00:11:04,870 --> 00:11:06,740
+we scale our vectors.
+
+239
+00:11:06,740 --> 00:11:12,180
+When we multiply it times
+some scalar factor.
+
+240
+00:11:12,180 --> 00:11:13,860
+So let me pick new vectors.
+
+241
+00:11:13,860 --> 00:11:15,670
+Those have gotten monotonous.
+
+242
+00:11:15,670 --> 00:11:18,860
+Let me define vector v.
+
+243
+00:11:18,860 --> 00:11:20,550
+v for vector.
+
+244
+00:11:20,550 --> 00:11:25,620
+Let's say that it is
+equal to 1, 2.
+
+245
+00:11:25,620 --> 00:11:28,980
+So if I just wanted to draw
+vector v in standard position,
+
+246
+00:11:28,980 --> 00:11:32,130
+I would just go 1 to
+the horizontal and
+
+247
+00:11:32,130 --> 00:11:34,180
+then 2 to the vertical.
+
+248
+00:11:34,180 --> 00:11:34,870
+That's it.
+
+249
+00:11:34,870 --> 00:11:37,210
+That's the vector in
+standard position.
+
+250
+00:11:37,210 --> 00:11:39,620
+If I wanted to do it in a non
+standard position, I could do
+
+251
+00:11:39,620 --> 00:11:40,160
+it right here.
+
+252
+00:11:40,160 --> 00:11:42,980
+1 to the right up 2,
+just like that.
+
+253
+00:11:42,980 --> 00:11:45,810
+Equally valid way of
+drawing vector v.
+
+254
+00:11:45,810 --> 00:11:48,950
+Equally valid way of doing it.
+
+255
+00:11:48,950 --> 00:11:51,740
+Now what happens if I
+multiply vector v.
+
+256
+00:11:51,740 --> 00:11:58,570
+What if I have, I don't know,
+what if I have 2 times v?
+
+257
+00:11:58,570 --> 00:12:03,060
+2 times my vector v is now going
+to be equal to 2 times
+
+258
+00:12:03,060 --> 00:12:06,740
+each of these terms. So it's
+going to be 2 times 1 which is
+
+259
+00:12:06,740 --> 00:12:11,800
+2, and then 2 times
+2 which is 4.
+
+260
+00:12:11,800 --> 00:12:15,120
+Now what does 2 times
+vector v look like?
+
+261
+00:12:15,120 --> 00:12:17,650
+Well let me just start from
+an arbitrary position.
+
+262
+00:12:17,650 --> 00:12:20,390
+Let me just start
+right over here.
+
+263
+00:12:20,390 --> 00:12:22,940
+So I'm going to go 2
+to the right, 1, 2.
+
+264
+00:12:22,940 --> 00:12:23,880
+And I go up 4.
+
+265
+00:12:23,880 --> 00:12:26,220
+1, 2, 3, 4.
+
+266
+00:12:26,220 --> 00:12:30,530
+So this is what 2 times
+vector v looks like.
+
+267
+00:12:30,530 --> 00:12:33,970
+This is 2 times my vector v.
+
+268
+00:12:33,970 --> 00:12:36,160
+And if you look at it, it's
+pointing in the exact same
+
+269
+00:12:36,160 --> 00:12:38,690
+direction but now it's
+twice as long.
+
+270
+00:12:38,690 --> 00:12:42,180
+And that makes sense because we
+scaled it by a factor of 2.
+
+271
+00:12:42,180 --> 00:12:44,910
+When you multiply it by a
+scalar, or you're not changing
+
+272
+00:12:44,910 --> 00:12:45,550
+its direction.
+
+273
+00:12:45,550 --> 00:12:48,180
+Its direction is the exact same
+thing as it was before.
+
+274
+00:12:48,180 --> 00:12:50,250
+You're just scaling
+it by that amount.
+
+275
+00:12:50,250 --> 00:12:51,530
+And I could draw
+this anywhere.
+
+276
+00:12:51,530 --> 00:12:52,270
+I could have drawn
+it right here.
+
+277
+00:12:52,270 --> 00:12:54,580
+I could have drawn 2v
+right on top of v.
+
+278
+00:12:54,580 --> 00:12:56,780
+Then you would have seen it,
+I don't want to cover it.
+
+279
+00:12:56,780 --> 00:13:00,330
+You would have seen that it
+goes, it's exactly, in this
+
+280
+00:13:00,330 --> 00:13:01,570
+case when I draw it in standard
+
+281
+00:13:01,570 --> 00:13:03,100
+position, it's colinear.
+
+282
+00:13:03,100 --> 00:13:05,630
+It's along the same line,
+it's just twice as far.
+
+283
+00:13:05,630 --> 00:13:06,750
+it's just twice as long
+but they have
+
+284
+00:13:06,750 --> 00:13:08,700
+the exact same direction.
+
+285
+00:13:08,700 --> 00:13:15,450
+Now what happens if I were
+to multiply minus 4
+
+286
+00:13:15,450 --> 00:13:16,880
+times our vector v?
+
+287
+00:13:16,880 --> 00:13:19,530
+   
+
+288
+00:13:19,530 --> 00:13:23,060
+Well then that will be equal
+to minus 4 times 1,
+
+289
+00:13:23,060 --> 00:13:24,440
+which is minus 4.
+
+290
+00:13:24,440 --> 00:13:28,720
+And then minus 4 times
+2, which is minus 8.
+
+291
+00:13:28,720 --> 00:13:30,000
+So this is on my new vector.
+
+292
+00:13:30,000 --> 00:13:31,270
+Minus 4, minus 8.
+
+293
+00:13:31,270 --> 00:13:34,020
+This is minus 4 times
+our vector v.
+
+294
+00:13:34,020 --> 00:13:36,500
+So let's just start at
+some arbitrary point.
+
+295
+00:13:36,500 --> 00:13:38,630
+Let's just do it in
+standard position.
+
+296
+00:13:38,630 --> 00:13:40,850
+So you go to the right 4.
+
+297
+00:13:40,850 --> 00:13:41,910
+Or you go to the left 4.
+
+298
+00:13:41,910 --> 00:13:45,460
+So so you go to the left
+4, 1, 2, 3, 4.
+
+299
+00:13:45,460 --> 00:13:46,890
+And then down 8.
+
+300
+00:13:46,890 --> 00:13:48,520
+Looks like that.
+
+301
+00:13:48,520 --> 00:13:52,140
+So this new vector is going
+to look like this.
+
+302
+00:13:52,140 --> 00:13:54,670
+Let me try and draw a relatively
+straight line.
+
+303
+00:13:54,670 --> 00:13:56,000
+There you go.
+
+304
+00:13:56,000 --> 00:13:59,290
+So this is minus 4 times
+our vector v.
+
+305
+00:13:59,290 --> 00:14:00,730
+I'll draw a little arrow
+on it to make sure
+
+306
+00:14:00,730 --> 00:14:01,540
+you know it's a vector.
+
+307
+00:14:01,540 --> 00:14:03,110
+Now what happened?
+
+308
+00:14:03,110 --> 00:14:05,640
+Well we're kind of in
+the same direction.
+
+309
+00:14:05,640 --> 00:14:07,480
+Actually we're in the exact
+opposite direction.
+
+310
+00:14:07,480 --> 00:14:09,970
+But we're still along the
+same line, right?
+
+311
+00:14:09,970 --> 00:14:11,940
+But we're just in the exact
+opposite direction.
+
+312
+00:14:11,940 --> 00:14:16,370
+And it's this negative right
+there that flipped us around.
+
+313
+00:14:16,370 --> 00:14:18,850
+If we just multiplied negative
+1 times this, we would have
+
+314
+00:14:18,850 --> 00:14:21,680
+just flipped around to
+right there, right?
+
+315
+00:14:21,680 --> 00:14:24,150
+But we multiplied it
+by negative 4.
+
+316
+00:14:24,150 --> 00:14:27,150
+So we scaled it by 4, so you
+make it 4 times as long, and
+
+317
+00:14:27,150 --> 00:14:29,830
+then it's negative, so
+then it flips around.
+
+318
+00:14:29,830 --> 00:14:32,070
+It flips backwards.
+
+319
+00:14:32,070 --> 00:14:35,500
+So now that we have that notion,
+we can kind of start
+
+320
+00:14:35,500 --> 00:14:40,510
+understanding the idea of
+subtracting vectors.
+
+321
+00:14:40,510 --> 00:14:44,320
+Let me make up 2 new
+vectors right now.
+
+322
+00:14:44,320 --> 00:14:51,800
+Let's say my vector x, nice and
+bold x, is equal to, and
+
+323
+00:14:51,800 --> 00:14:54,140
+I'm doing everything in R2, but
+in the last part of this
+
+324
+00:14:54,140 --> 00:14:57,210
+video I'll make a few examples
+in R3 or R4.
+
+325
+00:14:57,210 --> 00:15:04,170
+Let's say my vector x
+is equal to 2, 4.
+
+326
+00:15:04,170 --> 00:15:06,720
+And let's say I have
+a vector y.
+
+327
+00:15:06,720 --> 00:15:08,750
+y, make it nice and bold.
+
+328
+00:15:08,750 --> 00:15:16,410
+And then that is equal to
+negative 1, minus 2.
+
+329
+00:15:16,410 --> 00:15:20,460
+And I want to think about
+the notion of what x
+
+330
+00:15:20,460 --> 00:15:22,110
+minus y is equal to.
+
+331
+00:15:22,110 --> 00:15:26,790
+   
+
+332
+00:15:26,790 --> 00:15:30,970
+Well we can say that this is the
+same thing as x plus minus
+
+333
+00:15:30,970 --> 00:15:34,250
+1 times our vector y.
+
+334
+00:15:34,250 --> 00:15:34,980
+Right?
+
+335
+00:15:34,980 --> 00:15:37,230
+So x plus minus 1 times
+our vector y.
+
+336
+00:15:37,230 --> 00:15:38,700
+Now we can use our
+definitions.
+
+337
+00:15:38,700 --> 00:15:40,260
+We know how to multiply
+by a scalar.
+
+338
+00:15:40,260 --> 00:15:42,540
+So we'll say that this
+is equal to,
+
+339
+00:15:42,540 --> 00:15:43,200
+let me switch colors.
+
+340
+00:15:43,200 --> 00:15:44,760
+I don't like this color.
+
+341
+00:15:44,760 --> 00:15:48,440
+This is equal to our
+x vector is 2, 4.
+
+342
+00:15:48,440 --> 00:15:51,480
+And then what's minus
+1 times y?
+
+343
+00:15:51,480 --> 00:15:56,070
+So minus 1 times y is minus
+1 times minus 1 is 1.
+
+344
+00:15:56,070 --> 00:16:00,160
+And then minus 1 times
+minus 2 is 2.
+
+345
+00:16:00,160 --> 00:16:03,030
+So x minus y is going to be
+these two vectors added to
+
+346
+00:16:03,030 --> 00:16:03,620
+each other, right?
+
+347
+00:16:03,620 --> 00:16:05,340
+I'm just adding the
+minus of y.
+
+348
+00:16:05,340 --> 00:16:09,500
+This is minus vector y.
+
+349
+00:16:09,500 --> 00:16:16,430
+So this x minus y is going to
+be equal to 3 and 3 and 6.
+
+350
+00:16:16,430 --> 00:16:18,500
+So let's see what that looks
+like when we visually
+
+351
+00:16:18,500 --> 00:16:19,690
+represent them.
+
+352
+00:16:19,690 --> 00:16:22,160
+Our vector x was 2, 4.
+
+353
+00:16:22,160 --> 00:16:25,980
+So 2, 4 in standard position
+it looks like this.
+
+354
+00:16:25,980 --> 00:16:29,870
+   
+
+355
+00:16:29,870 --> 00:16:31,720
+That's my vector x.
+
+356
+00:16:31,720 --> 00:16:34,420
+And then vector y in standard
+position, let me do it in a
+
+357
+00:16:34,420 --> 00:16:37,610
+different color, I'll
+do y in green.
+
+358
+00:16:37,610 --> 00:16:39,865
+Vector y is minus 1, minus 2.
+
+359
+00:16:39,865 --> 00:16:48,960
+   
+
+360
+00:16:48,960 --> 00:16:50,980
+It looks just like this.
+
+361
+00:16:50,980 --> 00:16:56,105
+   
+
+362
+00:16:56,105 --> 00:16:58,980
+And actually I ended up
+inadvertently doing collinear
+
+363
+00:16:58,980 --> 00:17:01,570
+vectors, but, hey, this
+is interesting too.
+
+364
+00:17:01,570 --> 00:17:03,540
+So this is vector y.
+
+365
+00:17:03,540 --> 00:17:05,020
+So then what's their
+difference?
+
+366
+00:17:05,020 --> 00:17:07,020
+This is 3, 6.
+
+367
+00:17:07,020 --> 00:17:08,720
+So it's the vector 3, 6.
+
+368
+00:17:08,720 --> 00:17:10,030
+So it's this vector.
+
+369
+00:17:10,030 --> 00:17:11,720
+Let me draw it someplace else.
+
+370
+00:17:11,720 --> 00:17:15,130
+If I start here I go 1, 2, 3.
+
+371
+00:17:15,130 --> 00:17:16,800
+And then I go up 6.
+
+372
+00:17:16,800 --> 00:17:18,920
+So then up 6.
+
+373
+00:17:18,920 --> 00:17:21,440
+It's a vector that
+looks like this.
+
+374
+00:17:21,440 --> 00:17:24,050
+That's the difference between
+the two vectors.
+
+375
+00:17:24,050 --> 00:17:26,900
+So at first you say,
+this is x minus y.
+
+376
+00:17:26,900 --> 00:17:29,550
+Hey, how is this the difference
+of these two?
+
+377
+00:17:29,550 --> 00:17:31,170
+Well if you overlay this.
+
+378
+00:17:31,170 --> 00:17:34,040
+If you just shift this over
+this, you could actually just
+
+379
+00:17:34,040 --> 00:17:36,190
+start here and go straight up.
+
+380
+00:17:36,190 --> 00:17:38,710
+And you'll see that it's really
+the difference between
+
+381
+00:17:38,710 --> 00:17:39,310
+the end points.
+
+382
+00:17:39,310 --> 00:17:41,250
+You're kind of connecting
+the end points.
+
+383
+00:17:41,250 --> 00:17:44,250
+I actually didn't want to
+draw collinear vectors.
+
+384
+00:17:44,250 --> 00:17:45,860
+Let me do another example.
+
+385
+00:17:45,860 --> 00:17:47,120
+Although that one's kind
+of interesting.
+
+386
+00:17:47,120 --> 00:17:48,700
+You often don't see that
+one in a book.
+
+387
+00:17:48,700 --> 00:17:57,450
+Let me to define vector x
+in this case to be 2, 3.
+
+388
+00:17:57,450 --> 00:18:09,870
+And let me define vector y
+to be minus 4, minus 2.
+
+389
+00:18:09,870 --> 00:18:11,980
+So what would be x in
+standard position?
+
+390
+00:18:11,980 --> 00:18:13,950
+It would be 2, 3.
+
+391
+00:18:13,950 --> 00:18:15,250
+It'd look like that.
+
+392
+00:18:15,250 --> 00:18:18,710
+That is our vector x if we
+start at the origin.
+
+393
+00:18:18,710 --> 00:18:19,990
+So this is x.
+
+394
+00:18:19,990 --> 00:18:21,640
+And then what does vector
+y look like?
+
+395
+00:18:21,640 --> 00:18:23,580
+I'll do y in orange.
+
+396
+00:18:23,580 --> 00:18:26,740
+Minus 4, minus 2.
+
+397
+00:18:26,740 --> 00:18:28,500
+So vector y looks like this.
+
+398
+00:18:28,500 --> 00:18:34,540
+   
+
+399
+00:18:34,540 --> 00:18:36,325
+Now what is x minus y?
+
+400
+00:18:36,325 --> 00:18:41,750
+   
+
+401
+00:18:41,750 --> 00:18:44,020
+Well you know, we could
+view this, 2 plus
+
+402
+00:18:44,020 --> 00:18:45,410
+minus 1 times this.
+
+403
+00:18:45,410 --> 00:18:47,090
+We could just say
+2 minus minus 4.
+
+404
+00:18:47,090 --> 00:18:48,700
+I think you get the idea now.
+
+405
+00:18:48,700 --> 00:18:51,320
+But we just did it the first
+way the last time because I
+
+406
+00:18:51,320 --> 00:18:53,540
+wanted to go from my basic
+definitions of scalar
+
+407
+00:18:53,540 --> 00:18:55,030
+multiplication.
+
+408
+00:18:55,030 --> 00:19:01,420
+So x minus y is just going to
+be equal to 2 plus minus 1
+
+409
+00:19:01,420 --> 00:19:04,390
+times minus 4, or
+2 minus minus 4.
+
+410
+00:19:04,390 --> 00:19:07,610
+That's the same thing as
+2 plus 4, so it's 6.
+
+411
+00:19:07,610 --> 00:19:13,420
+And then it's 3 minus
+minus 2, so it's 5.
+
+412
+00:19:13,420 --> 00:19:13,740
+Right?
+
+413
+00:19:13,740 --> 00:19:17,360
+So the difference between the
+two is the vector 6, 5.
+
+414
+00:19:17,360 --> 00:19:19,870
+So you could draw it
+out here again.
+
+415
+00:19:19,870 --> 00:19:23,670
+So you could go, add 6 to 4, go
+up there, then to 5, you'd
+
+416
+00:19:23,670 --> 00:19:24,360
+go like that.
+
+417
+00:19:24,360 --> 00:19:26,850
+So the vector would look
+something like this.
+
+418
+00:19:26,850 --> 00:19:31,260
+It shouldn't curve like that,
+so that's x minus y.
+
+419
+00:19:31,260 --> 00:19:33,850
+But if we drew them between,
+like in the last example, I
+
+420
+00:19:33,850 --> 00:19:36,540
+showed that you could draw it
+between their two heads.
+
+421
+00:19:36,540 --> 00:19:38,770
+So if you do it here, what
+does it look like?
+
+422
+00:19:38,770 --> 00:19:45,510
+Well if you start at this point
+right there and you go 6
+
+423
+00:19:45,510 --> 00:19:50,780
+to the right and then up 5,
+you end up right there.
+
+424
+00:19:50,780 --> 00:19:55,240
+So the difference between the
+two vectors, let me make sure
+
+425
+00:19:55,240 --> 00:19:57,300
+I get it, the difference
+between the two
+
+426
+00:19:57,300 --> 00:19:59,610
+vectors looks like that.
+
+427
+00:19:59,610 --> 00:20:01,440
+It looks just like that.
+
+428
+00:20:01,440 --> 00:20:04,173
+Which kind of should make
+sense intuitively.
+
+429
+00:20:04,173 --> 00:20:05,900
+x minus y.
+
+430
+00:20:05,900 --> 00:20:08,710
+That's the difference between
+the two vectors.
+
+431
+00:20:08,710 --> 00:20:10,780
+You can view the difference as,
+how do you get from one
+
+432
+00:20:10,780 --> 00:20:12,300
+vector to another
+vector, right?
+
+433
+00:20:12,300 --> 00:20:15,860
+Like if, you know, let's go
+back to our kind of second
+
+434
+00:20:15,860 --> 00:20:17,310
+grade world of just scalars.
+
+435
+00:20:17,310 --> 00:20:21,410
+If I say what 7 minus 5 is, and
+you say it's equal to 2,
+
+436
+00:20:21,410 --> 00:20:25,210
+well that just tells you that
+5 plus 2 is equal to 7.
+
+437
+00:20:25,210 --> 00:20:27,950
+Or the difference between
+5 and 7 is 2.
+
+438
+00:20:27,950 --> 00:20:31,410
+And here you're saying, look the
+difference between x and y
+
+439
+00:20:31,410 --> 00:20:33,710
+is this vector right there.
+
+440
+00:20:33,710 --> 00:20:35,680
+It's equal to that vector
+right there.
+
+441
+00:20:35,680 --> 00:20:39,980
+Or you could say look, if I
+take 5 and add 2 I get 7.
+
+442
+00:20:39,980 --> 00:20:43,850
+Or you could say, look, if I
+take vector y, and I add
+
+443
+00:20:43,850 --> 00:20:47,780
+vector x minus y, then
+I get vector x.
+
+444
+00:20:47,780 --> 00:20:49,750
+Now let's do something else
+that's interesting.
+
+445
+00:20:49,750 --> 00:20:52,640
+Let's do what y minus
+x is equal to.
+
+446
+00:20:52,640 --> 00:20:54,630
+y minus x.
+
+447
+00:20:54,630 --> 00:20:56,780
+What is that equal to?
+
+448
+00:20:56,780 --> 00:20:59,380
+Do it in another color
+right here.
+
+449
+00:20:59,380 --> 00:21:03,760
+Well we'll take minus 4, minus
+2 which is minus 6.
+
+450
+00:21:03,760 --> 00:21:05,850
+And then you have minus
+2, minus 3.
+
+451
+00:21:05,850 --> 00:21:08,190
+It's minus 5.
+
+452
+00:21:08,190 --> 00:21:11,810
+So y minus x is going to be,
+let's see, if we start here
+
+453
+00:21:11,810 --> 00:21:13,430
+we're going to go down 6.
+
+454
+00:21:13,430 --> 00:21:16,210
+1, 2, 3, 4, 5, 6.
+
+455
+00:21:16,210 --> 00:21:17,470
+And then back 5.
+
+456
+00:21:17,470 --> 00:21:20,350
+So back 2, 4, 5.
+
+457
+00:21:20,350 --> 00:21:23,530
+So y minus x looks like this.
+
+458
+00:21:23,530 --> 00:21:27,080
+   
+
+459
+00:21:27,080 --> 00:21:28,860
+It's really the exact
+same vector.
+
+460
+00:21:28,860 --> 00:21:30,480
+Remember, it doesn't matter
+where we start.
+
+461
+00:21:30,480 --> 00:21:32,590
+It's just pointing in the
+opposite direction.
+
+462
+00:21:32,590 --> 00:21:34,360
+So if we shifted it here.
+
+463
+00:21:34,360 --> 00:21:36,460
+I could draw it right
+on top of this.
+
+464
+00:21:36,460 --> 00:21:38,990
+It would be the exact as x
+minus y, but just in the
+
+465
+00:21:38,990 --> 00:21:40,290
+opposite direction.
+
+466
+00:21:40,290 --> 00:21:42,500
+Which is just a general
+good thing to know.
+
+467
+00:21:42,500 --> 00:21:46,930
+So you can kind of do them as
+the negatives of each other.
+
+468
+00:21:46,930 --> 00:21:48,760
+And actually let me make
+that point very clear.
+
+469
+00:21:48,760 --> 00:21:51,790
+You know we drew y.
+
+470
+00:21:51,790 --> 00:21:57,120
+Actually let me draw x, x
+we could draw as 2, 3.
+
+471
+00:21:57,120 --> 00:21:59,280
+So you go to the right
+2 and then up 3.
+
+472
+00:21:59,280 --> 00:22:00,250
+I've done this before.
+
+473
+00:22:00,250 --> 00:22:02,980
+This is x in non standard
+position.
+
+474
+00:22:02,980 --> 00:22:04,450
+That's x as well.
+
+475
+00:22:04,450 --> 00:22:06,160
+What is negative x?
+
+476
+00:22:06,160 --> 00:22:08,760
+Negative x is minus 2 minus 3.
+
+477
+00:22:08,760 --> 00:22:12,280
+So if I were to start here,
+I'd go to minus 2, then
+
+478
+00:22:12,280 --> 00:22:14,220
+I'd go minus 3.
+
+479
+00:22:14,220 --> 00:22:17,560
+So minus x would look
+just like this.
+
+480
+00:22:17,560 --> 00:22:18,100
+Minus x.
+
+481
+00:22:18,100 --> 00:22:19,260
+It looks just like x.
+
+482
+00:22:19,260 --> 00:22:20,100
+It's parallel.
+
+483
+00:22:20,100 --> 00:22:21,590
+It has the same magnitude.
+
+484
+00:22:21,590 --> 00:22:24,140
+It's just pointing in the exact
+opposite direction.
+
+485
+00:22:24,140 --> 00:22:26,790
+And this is just a good thing
+to kind of really get seared
+
+486
+00:22:26,790 --> 00:22:29,360
+into your brain is to have an
+intuition for these things.
+
+487
+00:22:29,360 --> 00:22:35,510
+Now just to kind of finish up
+this kind of idea of adding
+
+488
+00:22:35,510 --> 00:22:37,410
+and subtracting vectors.
+
+489
+00:22:37,410 --> 00:22:39,400
+Everything I did so
+far was in R2.
+
+490
+00:22:39,400 --> 00:22:41,270
+But I want to show you that
+we can generalize them.
+
+491
+00:22:41,270 --> 00:22:44,920
+And we can even generalize them
+to vector spaces that
+
+492
+00:22:44,920 --> 00:22:50,010
+aren't normally intuitive for
+us to actually visualize.
+
+493
+00:22:50,010 --> 00:22:52,470
+So let me define a couple
+of vectors.
+
+494
+00:22:52,470 --> 00:23:03,210
+Let me define vector a to be
+equal to 0, minus 1, 2, and 3.
+
+495
+00:23:03,210 --> 00:23:13,790
+Let me define vector b to be
+equal to 4, minus 2, 0, 5.
+
+496
+00:23:13,790 --> 00:23:16,350
+We can do the same addition
+and subtraction
+
+497
+00:23:16,350 --> 00:23:17,210
+operations with them.
+
+498
+00:23:17,210 --> 00:23:18,600
+It's just it'll be hard
+to visualize.
+
+499
+00:23:18,600 --> 00:23:22,220
+We can keep them in
+just vector form.
+
+500
+00:23:22,220 --> 00:23:25,320
+So that it's still useful to
+think in four dimensions.
+
+501
+00:23:25,320 --> 00:23:27,470
+So if I were to say 4 times a.
+
+502
+00:23:27,470 --> 00:23:30,410
+   
+
+503
+00:23:30,410 --> 00:23:35,670
+This is the vector a
+minus 2 times b.
+
+504
+00:23:35,670 --> 00:23:36,930
+What is this going
+to be equal to?
+
+505
+00:23:36,930 --> 00:23:38,290
+This is a vector.
+
+506
+00:23:38,290 --> 00:23:40,190
+What is this going
+to be equal to?
+
+507
+00:23:40,190 --> 00:23:44,310
+Well we could rewrite this as
+4 times this whole column
+
+508
+00:23:44,310 --> 00:23:47,980
+vector, 0, minus 1, 2, and 3.
+
+509
+00:23:47,980 --> 00:23:50,390
+Minus 2 times b.
+
+510
+00:23:50,390 --> 00:23:55,106
+Minus 2 times 4,
+minus 2, 0, 5.
+
+511
+00:23:55,106 --> 00:23:57,650
+And what is this going
+to be equal to?
+
+512
+00:23:57,650 --> 00:24:04,130
+This term right here, 4 times
+this, you're going to get, the
+
+513
+00:24:04,130 --> 00:24:07,040
+pen tablet seems to not work
+well there, so I'm going to do
+
+514
+00:24:07,040 --> 00:24:07,900
+it right here.
+
+515
+00:24:07,900 --> 00:24:14,040
+4 times this, you're going to
+get 4 times 0, 0, minus 4, 8.
+
+516
+00:24:14,040 --> 00:24:14,830
+4 times 2 is 8.
+
+517
+00:24:14,830 --> 00:24:17,140
+4 times 3 is 12.
+
+518
+00:24:17,140 --> 00:24:24,600
+And then minus, I'll do it in
+yellow, minus 2 times 4 is 8.
+
+519
+00:24:24,600 --> 00:24:28,560
+2 times minus 2 is minus 4.
+
+520
+00:24:28,560 --> 00:24:30,030
+2 times 0 is 0.
+
+521
+00:24:30,030 --> 00:24:33,240
+2 times 5 is 10.
+
+522
+00:24:33,240 --> 00:24:37,730
+This isn't a good part of my
+board, so let me just. It
+
+523
+00:24:37,730 --> 00:24:39,430
+doesn't write well
+right over there.
+
+524
+00:24:39,430 --> 00:24:41,910
+I haven't figured out the
+problem, but if I were just
+
+525
+00:24:41,910 --> 00:24:45,410
+right it over here,
+what do we get?
+
+526
+00:24:45,410 --> 00:24:47,270
+With 0 minus 8?
+
+527
+00:24:47,270 --> 00:24:48,460
+Minus 8.
+
+528
+00:24:48,460 --> 00:24:51,240
+Minus 4, minus 4.
+
+529
+00:24:51,240 --> 00:24:52,760
+Minus negative 4.
+
+530
+00:24:52,760 --> 00:24:56,000
+So that's minus 4 plus
+4, so that's 0.
+
+531
+00:24:56,000 --> 00:24:58,170
+8 minus 0 is 8.
+
+532
+00:24:58,170 --> 00:25:01,150
+12 minus, what was this?
+
+533
+00:25:01,150 --> 00:25:03,140
+I can't even read it,
+what it says.
+
+534
+00:25:03,140 --> 00:25:04,400
+Oh, this is a 10.
+
+535
+00:25:04,400 --> 00:25:05,510
+Now you can see it again.
+
+536
+00:25:05,510 --> 00:25:07,270
+Something is very bizarre.
+
+537
+00:25:07,270 --> 00:25:09,160
+2 times 5 is 10.
+
+538
+00:25:09,160 --> 00:25:13,110
+So it's 12 minus
+10, so it's 2.
+
+539
+00:25:13,110 --> 00:25:16,940
+So when we take this vector
+and multiply it by 4, and
+
+540
+00:25:16,940 --> 00:25:20,020
+subtract 2 times this vector,
+we just get this vector.
+
+541
+00:25:20,020 --> 00:25:23,050
+And even though you can't
+represent this in kind of an
+
+542
+00:25:23,050 --> 00:25:25,740
+easy kind of graph-able format,
+
+543
+00:25:25,740 --> 00:25:26,920
+this is a useful concept.
+
+544
+00:25:26,920 --> 00:25:29,860
+And we're going to see this
+later when we apply some of
+
+545
+00:25:29,860 --> 00:25:33,000
+these vectors to
+multi-dimensional spaces.
+
+546
+00:25:33,000 --> 00:25:33,041
+

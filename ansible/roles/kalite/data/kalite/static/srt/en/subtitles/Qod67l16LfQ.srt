@@ -1,0 +1,515 @@
+1
+00:00:01,000 --> 00:00:02,620
+We're on problem 120.
+
+2
+00:00:04,950 --> 00:00:10,310
+David has d books, which is 3 times as many as Jeff,
+
+3
+00:00:17,070 --> 00:00:19,130
+and 1/2 as many as Paula.
+
+4
+00:00:19,130 --> 00:00:23,170
+So d is equal to 1/2 the number of books Paula has.
+
+5
+00:00:23,840 --> 00:00:25,720
+How many books do the three of them
+
+6
+00:00:25,720 --> 00:00:28,070
+have together in terms of d?
+
+7
+00:00:28,920 --> 00:00:34,080
+So they want to know how much d plus j plus p is,
+
+8
+00:00:34,080 --> 00:00:38,010
+in terms of d. So what's j in terms of d?
+
+9
+00:00:38,010 --> 00:00:43,000
+j is equal to-- divide both sides by 3-- is equal to d/3.
+
+10
+00:00:43,190 --> 00:00:44,860
+And what's p in terms of d?
+
+11
+00:00:47,000 --> 00:00:50,170
+If we multiply both sides by 2, you get p is equal to 2d.
+
+12
+00:00:52,110 --> 00:00:59,790
+So this turns into d plus j,which is d/3,plus p, which is 2d.
+
+13
+00:01:01,400 --> 00:01:04,080
+Let's find the common denominator. Well, 3.
+
+14
+00:01:05,000 --> 00:01:09,600
+1d is the same thing as 3d over 3.
+
+15
+00:01:10,000 --> 00:01:12,580
+d over 3, well, that's still just going to be d/3.
+
+16
+00:01:15,280 --> 00:01:19,850
+2d, that's the same thing is 6d over 3.
+
+17
+00:01:19,960 --> 00:01:29,160
+That's equal to 3, 4, plus 6 is 10d over 3, or 10 thirds d.
+
+18
+00:01:29,330 --> 00:01:32,670
+And that's choice C. 10 thirds d.
+
+19
+00:01:35,000 --> 00:01:37,060
+Problem 121.
+
+20
+00:01:40,730 --> 00:01:42,710
+There are 8 teams in a certain league,
+
+21
+00:01:42,710 --> 00:01:46,420
+and each team plays each of the other teams exactly once.
+
+22
+00:01:51,010 --> 00:01:57,200
+If each game is played by 2 teams-- it's a traditional game--
+
+23
+00:01:57,300 --> 00:02:00,500
+what is the total number of games played?
+
+24
+00:02:04,000 --> 00:02:06,080
+Let's think about it a little bit.
+
+25
+00:02:06,990 --> 00:02:10,050
+They each play each other exactly once.
+
+26
+00:02:10,050 --> 00:02:15,090
+So this turns into that grid problem that we did last time.
+
+27
+00:02:16,090 --> 00:02:23,670
+If I have 8 teams, 1, 2, 3, 4, 5, 6, 7, 8.
+
+28
+00:02:24,250 --> 00:02:25,700
+And I'm going to write the same thing.
+
+29
+00:02:25,700 --> 00:02:33,670
+1, 2, 3, 4, 5, 6, 7, 8.
+
+30
+00:02:34,010 --> 00:02:38,520
+They can't play each other. 1 is never going to play 1.
+
+31
+00:02:38,520 --> 00:02:40,850
+2 is never going to play 2. 3 is never going to play 3.
+
+32
+00:02:40,850 --> 00:02:42,480
+4 is never going to play 4, et cetera,
+
+33
+00:02:42,480 --> 00:02:44,610
+all the way down the diagonal. You can't play yourself.
+
+34
+00:02:46,270 --> 00:02:50,810
+And 1 is going to play 2 exactly 1 game. That's 1 game.
+
+35
+00:02:50,990 --> 00:02:53,090
+And we're not going to write 2 played 1,
+
+36
+00:02:53,090 --> 00:02:55,480
+because 1 already played 2. They only play each other once.
+
+37
+00:02:55,740 --> 00:02:58,330
+So you don't want to count this one down here.
+
+38
+00:02:59,470 --> 00:03:03,010
+You don't want to count this one. This is when 1 plays 3.
+
+39
+00:03:03,100 --> 00:03:06,710
+This is when 2 plays 3.So,essentially, you want to figure out
+
+40
+00:03:06,710 --> 00:03:09,620
+all of these spots that are above the diagonal.
+
+41
+00:03:10,490 --> 00:03:14,580
+Let's think about how many spots there are.
+
+42
+00:03:14,580 --> 00:03:21,430
+If we have an 8 by 8 square, there are 8 times 8 squares on
+
+43
+00:03:21,430 --> 00:03:22,950
+this grid, if I actually drew them as squares.
+
+44
+00:03:22,950 --> 00:03:25,450
+I did that a couple of problems ago.
+
+45
+00:03:25,450 --> 00:03:26,560
+If I actually drew it like that,
+
+46
+00:03:29,290 --> 00:03:31,620
+then you might see the grid a little bit better.
+
+47
+00:03:31,620 --> 00:03:32,940
+But I think you get the idea.
+
+48
+00:03:32,940 --> 00:03:35,000
+You have 8 by 8 spots on this grid,
+
+49
+00:03:35,000 --> 00:03:41,030
+because it's 8 spots high,8 spots wide. So you have 64 spots.
+
+50
+00:03:41,030 --> 00:03:44,050
+Now, you're not going to have one of the games along the
+
+51
+00:03:44,050 --> 00:03:46,440
+diagonal, because that would be a team playing itself.
+
+52
+00:03:46,590 --> 00:03:48,760
+So how many spots are along the diagonal? There's 8.
+
+53
+00:03:49,070 --> 00:03:52,000
+There's 1 against 1, 2 and 2, 3 and 3.
+
+54
+00:03:52,000 --> 00:03:53,630
+So that's each team playing itself.
+
+55
+00:03:53,630 --> 00:04:02,020
+So there's 8 spots along the diagonal. So 64 minus 8 is 56.
+
+56
+00:04:02,480 --> 00:04:04,390
+And so 56 would give us the number of squares that
+
+57
+00:04:04,390 --> 00:04:05,610
+aren't in the diagonal.
+
+58
+00:04:05,680 --> 00:04:07,900
+But if we counted all of them, we would be double counting.
+
+59
+00:04:07,900 --> 00:04:14,000
+We'd be counting 1 playing 2 up here, and 2 playing 1.
+
+60
+00:04:14,000 --> 00:04:16,600
+So we only want to count half of the remaining squares.
+
+61
+00:04:16,830 --> 00:04:20,050
+So if you divide this by 2, you get 28.
+
+62
+00:04:20,860 --> 00:04:26,030
+So there'd be a total of 28 games. And that's choice C.
+
+63
+00:04:27,880 --> 00:04:29,620
+Question 122.
+
+64
+00:04:33,200 --> 00:04:40,600
+An operation theta is defined by the equation a theta b is
+
+65
+00:04:40,600 --> 00:04:47,500
+equal to a minus b over a plus b for all numbers a and b
+
+66
+00:04:47,500 --> 00:04:51,520
+such that a does not equal minus b.
+
+67
+00:04:51,640 --> 00:04:53,760
+That ensures that the denominator does not equal 0.
+
+68
+00:04:53,760 --> 00:04:54,820
+So they're defining the domain.
+
+69
+00:04:54,920 --> 00:04:57,170
+If a equaled minus b, then it would be undefined,
+
+70
+00:04:57,170 --> 00:04:59,030
+because you'd have something divided by 0.
+
+71
+00:04:59,030 --> 00:05:12,820
+If a does not equal negative c, and a theta c is equal to 0,
+
+72
+00:05:13,400 --> 00:05:17,970
+then c is equal to-- So they're telling us right now
+
+73
+00:05:17,970 --> 00:05:23,820
+that a does not equal minus c. So let's just write it down.
+
+74
+00:05:25,780 --> 00:05:32,440
+a theta c is equal to a minus c over a plus c.
+
+75
+00:05:33,460 --> 00:05:36,150
+And then, that we want to set equal to 0.
+
+76
+00:05:36,150 --> 00:05:38,160
+Because they're telling us a theta c is equal to 0.
+
+77
+00:05:39,800 --> 00:05:43,910
+They're telling us that a does not equal minus c.
+
+78
+00:05:46,750 --> 00:05:49,360
+So that's essentially saying if a was minus c,
+
+79
+00:05:49,360 --> 00:05:50,470
+then the denominator would be 0,
+
+80
+00:05:50,470 --> 00:05:51,580
+and we would have something really strange.
+
+81
+00:05:51,580 --> 00:05:55,320
+So they are telling us the denominator does not equal 0.So if
+
+82
+00:05:55,320 --> 00:05:58,680
+the denominator does not equal 0, and this fraction equals 0,
+
+83
+00:05:59,340 --> 00:06:02,390
+then the numerator of this fraction has to be equal to 0.
+
+84
+00:06:02,790 --> 00:06:03,780
+Or another way you could say it,
+
+85
+00:06:03,780 --> 00:06:07,100
+a minus c over a plus c is equal to 0.
+
+86
+00:06:07,190 --> 00:06:09,160
+We know a plus c is not equal to 0.
+
+87
+00:06:09,160 --> 00:06:11,030
+So let's multiply both sides of the equation times it.
+
+88
+00:06:11,030 --> 00:06:14,760
+And you get a minus c is equal to 0 times a plus c.
+
+89
+00:06:14,760 --> 00:06:17,690
+That's just 0. In other words, if a fraction is equal 0,
+
+90
+00:06:17,690 --> 00:06:20,100
+the denominator is not 0. That would make it undefined.
+
+91
+00:06:20,440 --> 00:06:22,050
+Then the numerator has to be equal to 0.
+
+92
+00:06:22,050 --> 00:06:25,430
+So then, just solving, you get a is equal to c.
+
+93
+00:06:26,380 --> 00:06:28,710
+Add c to both sides. So they want to know what c is equal to.
+
+94
+00:06:28,710 --> 00:06:31,700
+So c is equal to a. And that is choice E.
+
+95
+00:06:35,010 --> 00:06:40,050
+Next question. Let me switch colors. 123.
+
+96
+00:06:42,040 --> 00:06:49,580
+The price of a lunch for 15 people was $207,
+
+97
+00:06:50,000 --> 00:06:56,010
+including a 15% gratuity for service. So that was plus 15%.
+
+98
+00:06:56,010 --> 00:07:03,200
+What was the average price per person,excluding the gratuity?
+
+99
+00:07:04,540 --> 00:07:13,020
+So essentially, we want to figure out the price of 15
+
+100
+00:07:13,020 --> 00:07:18,640
+before gratuity times-- so this is after gratuity.
+
+101
+00:07:18,640 --> 00:07:20,610
+So I'll call this, price before gratuity.
+
+102
+00:07:20,610 --> 00:07:22,460
+I don't want to get too complicated with my notation--
+
+103
+00:07:22,550 --> 00:07:27,610
+Price before gratuity times 1.15,
+
+104
+00:07:27,980 --> 00:07:32,070
+because we're going to increase by 15, is equal to $207.
+
+105
+00:07:36,030 --> 00:07:40,730
+So the price before gratuity of the 15 people is equal to
+
+106
+00:07:40,730 --> 00:07:43,990
+207 divided by 1.15.
+
+107
+00:07:44,660 --> 00:07:47,690
+And we want to figure out the average price per person.
+
+108
+00:07:47,810 --> 00:07:56,470
+So we want to figure out this divided by 15.
+
+109
+00:07:57,810 --> 00:08:01,890
+This looks, at its heart, kind kind of messy.
+
+110
+00:08:01,890 --> 00:08:06,030
+But let's just chug through it and see where we can go.
+
+111
+00:08:06,030 --> 00:08:19,700
+So this is the same thing is 207/1.15 times 1/15. And
+
+112
+00:08:19,700 --> 00:08:29,000
+that's equal to 207 divided by 15 times 1.15,the denominator.
+
+113
+00:08:29,690 --> 00:08:32,000
+Let's figure out the denominator first.
+
+114
+00:08:33,000 --> 00:08:37,880
+Well, maybe the numerator-- 207 divided by 1.15.
+
+115
+00:08:39,050 --> 00:08:46,000
+1.15 goes into 207. Add some decimals.
+
+116
+00:08:46,360 --> 00:08:49,190
+Push this two to the right, two to the right.
+
+117
+00:08:49,190 --> 00:08:53,090
+The decimal goes there. 115 goes into 207 one time.
+
+118
+00:08:53,090 --> 00:09:09,010
+1 times 115 is 115.Then,it's 85 plus 7. 85 plus 7 is 92. 920.
+
+119
+00:09:09,010 --> 00:09:15,130
+And then then this should go roughly 8 times. 8 times 115.
+
+120
+00:09:15,630 --> 00:09:22,130
+8 times 5 is 40. 8 times 1 is 8 plus 4 is 12. Carry the 1.
+
+121
+00:09:22,490 --> 00:09:26,860
+8 times 1 is 8, plus 1 is 9. It actually equals exactly 920.
+
+122
+00:09:26,860 --> 00:09:27,490
+Great.
+
+123
+00:09:30,010 --> 00:09:34,040
+So before gratuity, it was $180.
+
+124
+00:09:34,040 --> 00:09:36,880
+Before gratuity, our price was $180.
+
+125
+00:09:36,880 --> 00:09:40,020
+And now,we have to divide that by 15 to get the average price
+
+126
+00:09:40,020 --> 00:09:44,080
+So 15 goes into 180 how many times?
+
+127
+00:09:44,080 --> 00:09:48,110
+1 times 15, 30. 15 goes into 30 two times.
+
+128
+00:09:48,570 --> 00:09:54,020
+So the average price before gratuity was exactly $12, B.
+
+129
+00:09:54,020 --> 00:09:57,080
+And I'm out of time. See you in the next video.

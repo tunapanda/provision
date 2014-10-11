@@ -1,0 +1,475 @@
+1
+00:00:00,000 --> 00:00:04,662
+So we have some, some race cars racing right here
+
+2
+00:00:04,662 --> 00:00:07,800
+and I have an interesting question to ask you.
+
+3
+00:00:07,800 --> 00:00:10,446
+If we assume that these cars
+
+4
+00:00:10,508 --> 00:00:12,733
+are making this turn right over here,
+
+5
+00:00:12,733 --> 00:00:14,923
+that all of them are making this turn
+
+6
+00:00:14,923 --> 00:00:16,782
+at a constant speed.
+
+7
+00:00:16,782 --> 00:00:19,064
+So a constant speed
+
+8
+00:00:19,064 --> 00:00:23,623
+constant speed of 100 kilometers per hour.
+
+9
+00:00:23,623 --> 00:00:26,977
+100 kilometers per hour.
+
+10
+00:00:26,977 --> 00:00:30,054
+My interesting question for you is,
+
+11
+00:00:30,054 --> 00:00:34,936
+are these cars accelerating while they make this turn?
+
+12
+00:00:34,936 --> 00:00:37,762
+So, is acceleration happening?
+
+13
+00:00:37,762 --> 00:00:39,725
+Acceleration.
+
+14
+00:00:39,725 --> 00:00:41,287
+And you might say
+
+15
+00:00:42,935 --> 00:00:44,582
+Well, gee, look, my speed was constant, it's not changing
+
+16
+00:00:44,582 --> 00:00:47,131
+if I look at this speedometer for the car here,
+
+17
+00:00:47,131 --> 00:00:48,556
+If I look at this speedometer over here
+
+18
+00:00:48,556 --> 00:00:52,090
+it won't budge, it just stays in a 100 kilometers per hour.
+
+19
+00:00:52,090 --> 00:00:55,162
+I don't have any change in speed over time.
+
+20
+00:00:55,162 --> 00:00:56,710
+And so then, you might say
+
+21
+00:00:56,710 --> 00:00:59,356
+that you don't have any acceleration.
+
+22
+00:00:59,356 --> 00:01:01,085
+But then you might be saying why would Sal
+
+23
+00:01:01,085 --> 00:01:02,444
+even make this video, you know,
+
+24
+00:01:02,444 --> 00:01:04,556
+why would that question even be interesting?
+
+25
+00:01:04,556 --> 00:01:08,259
+And your second, your second suspicion would be true
+
+26
+00:01:08,259 --> 00:01:11,705
+because these cars actually are accelerating.
+
+27
+00:01:11,705 --> 00:01:13,946
+They actually are accelerating
+
+28
+00:01:13,946 --> 00:01:16,459
+despite having a constant speed.
+
+29
+00:01:16,459 --> 00:01:18,362
+And you can pause it and think about that
+
+30
+00:01:18,362 --> 00:01:19,846
+for a second if you want to.
+
+31
+00:01:19,846 --> 00:01:21,844
+But I wanted to point this out to you because
+
+32
+00:01:21,844 --> 00:01:23,992
+in an example like this, the difference
+
+33
+00:01:23,992 --> 00:01:27,444
+between speed and velocity starts to matter.
+
+34
+00:01:27,444 --> 00:01:29,146
+Speed being a scalar quantity
+
+35
+00:01:29,146 --> 00:01:31,218
+only having a magnitude
+
+36
+00:01:31,218 --> 00:01:33,341
+and velocity being a vector quantity
+
+37
+00:01:33,341 --> 00:01:35,587
+having speed with a direction
+
+38
+00:01:35,587 --> 00:01:38,110
+having a magnitude and a direction.
+
+39
+00:01:38,110 --> 00:01:39,518
+And to think about.
+
+40
+00:01:39,518 --> 00:01:41,392
+Let's take a top view of this thing
+
+41
+00:01:41,392 --> 00:01:44,152
+And I think It will become a little bit clearer
+
+42
+00:01:44,152 --> 00:01:46,490
+the difference between speed and velocity
+
+43
+00:01:46,490 --> 00:01:48,136
+and why these things are accelerating.
+
+44
+00:01:48,136 --> 00:01:50,136
+So, if I were to take a top view of this race track.
+
+45
+00:01:50,136 --> 00:01:52,675
+I'll do my best attempt to draw it.
+
+46
+00:01:52,675 --> 00:01:55,377
+So, it might look something like this.
+
+47
+00:01:55,377 --> 00:01:57,346
+This is the top view.
+
+48
+00:01:57,346 --> 00:01:59,798
+I can even draw this red and white.
+
+49
+00:01:59,798 --> 00:02:03,895
+So, red, just to give you the idea.
+
+50
+00:02:03,895 --> 00:02:05,957
+So, this is the red
+
+51
+00:02:05,957 --> 00:02:08,659
+and there is some white in between.
+
+52
+00:02:08,659 --> 00:02:10,125
+I miss I'm not drawing as many dividers
+
+53
+00:02:10,125 --> 00:02:11,302
+as there are in the actual picture
+
+54
+00:02:11,302 --> 00:02:12,813
+but it gives you an idea of
+
+55
+00:02:12,813 --> 00:02:14,162
+what I'm actually drawing.
+
+56
+00:02:14,162 --> 00:02:16,229
+And there's some grass out here,
+
+57
+00:02:16,229 --> 00:02:18,208
+there's some grass over here,
+
+58
+00:02:18,208 --> 00:02:21,182
+and there is some grass over here.
+
+59
+00:02:21,182 --> 00:02:22,884
+And let's focus on this orange car,
+
+60
+00:02:22,884 --> 00:02:25,208
+this red car over here.
+
+61
+00:02:25,208 --> 00:02:26,679
+So, (where?) you say..
+
+62
+00:02:26,679 --> 00:02:28,371
+And this is a top view.
+
+63
+00:02:28,371 --> 00:02:29,721
+This is it's path right over here.
+
+64
+00:02:29,721 --> 00:02:31,448
+(We're?) saying it has a constant speed
+
+65
+00:02:31,448 --> 00:02:33,890
+of a 100 kilometers per hour.
+
+66
+00:02:33,890 --> 00:02:35,679
+So if you think about its velocity.
+
+67
+00:02:35,679 --> 00:02:36,995
+If you think about its velocity,
+
+68
+00:02:36,995 --> 00:02:39,838
+the magnitude of its velocity is constant.
+
+69
+00:02:39,838 --> 00:02:42,038
+It is a 100 kilometers per hour.
+
+70
+00:02:42,038 --> 00:02:44,048
+But what is happening to the direction
+
+71
+00:02:44,048 --> 00:02:47,454
+of the velocity, remember velocity is a vector quantity.
+
+72
+00:02:47,454 --> 00:02:49,623
+It has magnitude and direction.
+
+73
+00:02:49,623 --> 00:02:52,685
+So, up here, at this, where it's starting to enter the curve
+
+74
+00:02:52,685 --> 00:02:55,367
+it's going in this direction.
+
+75
+00:02:55,367 --> 00:02:58,690
+And you, (tend?) to show vectors by arrows like this,
+
+76
+00:02:58,690 --> 00:03:00,725
+(and what you do is?) the arrow is going in the direction
+
+77
+00:03:00,725 --> 00:03:03,844
+of the velocity in this case, and (normally?) you draw
+
+78
+00:03:03,844 --> 00:03:07,325
+the length of the arrow shows what is the velocity,
+
+79
+00:03:07,325 --> 00:03:09,459
+the magnitude of the velocity, I should say.
+
+80
+00:03:09,459 --> 00:03:12,248
+So, its velocity is constant, so the length of this arrow
+
+81
+00:03:12,248 --> 00:03:14,069
+will always be constant, but as we see
+
+82
+00:03:14,069 --> 00:03:16,782
+it's direction changes, when it's halfway through the turn
+
+83
+00:03:16,782 --> 00:03:18,371
+it's not going in the same direction.
+
+84
+00:03:18,371 --> 00:03:20,505
+It is now going in the different direction,
+
+85
+00:03:20,505 --> 00:03:21,836
+and when it comes to the bottom of the turn
+
+86
+00:03:21,836 --> 00:03:23,875
+it's going in the very different direction.
+
+87
+00:03:23,875 --> 00:03:25,664
+And it'll keep, the direction keeps changing
+
+88
+00:03:25,664 --> 00:03:27,905
+as long as it is turning.
+
+89
+00:03:27,905 --> 00:03:29,577
+And I'm not gonna go into math here, we're gonna wait
+
+90
+00:03:29,577 --> 00:03:31,485
+for the math on this a little bit later,
+
+91
+00:03:31,485 --> 00:03:32,538
+but remember
+
+92
+00:03:32,538 --> 00:03:37,279
+acceleration is a change in velocity over time.
+
+93
+00:03:37,279 --> 00:03:42,638
+Acceleration is equal to a change in velocity
+
+94
+00:03:42,638 --> 00:03:46,095
+is equal to a change in velocity
+
+95
+00:03:46,095 --> 00:03:49,018
+over time, or we could say, over change,
+
+96
+00:03:49,018 --> 00:03:51,546
+over a change in time.
+
+97
+00:03:51,546 --> 00:03:55,500
+And although the velocity's magnitude is constant here
+
+98
+00:03:55,500 --> 00:03:57,931
+its direction is changing
+
+99
+00:03:57,931 --> 00:04:01,115
+it keeps being...
+
+100
+00:04:01,115 --> 00:04:02,864
+if there's no acceleration on it
+
+101
+00:04:02,864 --> 00:04:05,275
+it's magnitude and the direction of it's velocity
+
+102
+00:04:05,275 --> 00:04:06,544
+would be constant.
+
+103
+00:04:06,544 --> 00:04:09,485
+And the car would just keep going, would just keep going
+
+104
+00:04:09,485 --> 00:04:10,831
+in that direction.
+
+105
+00:04:10,831 --> 00:04:13,725
+So, somehow the car is, the car's direction
+
+106
+00:04:13,725 --> 00:04:18,438
+is changing inward, over and over and over again.
+
+107
+00:04:18,438 --> 00:04:20,731
+And (...) this is kind of a little bit trick question,
+
+108
+00:04:20,731 --> 00:04:22,400
+something for you to think about,
+
+109
+00:04:22,400 --> 00:04:25,623
+we're gonna to discuss the math in more detail
+
+110
+00:04:25,623 --> 00:04:26,769
+in future videos.
+
+111
+00:04:26,769 --> 00:04:28,223
+But what's happening here is the,
+
+112
+00:04:28,223 --> 00:04:31,059
+the car is actually (are) accelerating.
+
+113
+00:04:31,059 --> 00:04:33,085
+And they're actually accelerating inwards,
+
+114
+00:04:33,085 --> 00:04:35,146
+and that's what's changing inwards.
+
+115
+00:04:35,146 --> 00:04:36,400
+We wanna say inwards.
+
+116
+00:04:36,400 --> 00:04:40,352
+They're being accalerated towards the center of the curve.
+
+117
+00:04:40,352 --> 00:04:42,879
+They're being accelerated to the center of the curve.
+
+118
+00:04:42,879 --> 00:04:45,648
+And that's what's allowing their direction
+
+119
+00:04:45,648 --> 00:04:51,271
+to actually change.

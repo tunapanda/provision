@@ -1,0 +1,883 @@
+1
+00:00:01,068 --> 00:00:03,019
+Let's say I have a balloon
+
+2
+00:00:03,019 --> 00:00:06,920
+and in that balloon i have a bunch of particles bouncing around
+
+3
+00:00:06,920 --> 00:00:08,731
+they're gas particles
+
+4
+00:00:08,731 --> 00:00:11,192
+so they're floating freely
+
+5
+00:00:11,192 --> 00:00:15,186
+and they all have, they each have some velocity
+
+6
+00:00:15,186 --> 00:00:17,529
+some kinetic energy
+
+7
+00:00:17,529 --> 00:00:20,462
+and what I care about
+
+8
+00:00:20,462 --> 00:00:23,696
+what I care... let me just draw a few more
+
+9
+00:00:23,696 --> 00:00:27,121
+what I care about is the pressure that is exerted
+
+10
+00:00:27,121 --> 00:00:28,468
+on the surface of the balloon
+
+11
+00:00:28,468 --> 00:00:30,000
+so I care about the pressure
+
+12
+00:00:30,000 --> 00:00:32,647
+and what's pressure? it's force per area
+
+13
+00:00:32,647 --> 00:00:36,130
+force per area
+
+14
+00:00:36,130 --> 00:00:38,917
+so the area here, you can think of it as
+
+15
+00:00:38,917 --> 00:00:40,067
+the inside surface of the balloon
+
+16
+00:00:40,067 --> 00:00:40,681
+and what's going to put force,
+
+17
+00:00:40,681 --> 00:00:43,421
+what's going to apply force to that?
+
+18
+00:00:43,421 --> 00:00:46,626
+at any given moment i only drew what, 6 particles here
+
+19
+00:00:46,626 --> 00:00:48,390
+but in a real balloon you would have
+
+20
+00:00:48,390 --> 00:00:50,759
+you know, gazillions of particles, you know
+
+21
+00:00:50,759 --> 00:00:53,592
+we could talk about how large, but more particles
+
+22
+00:00:53,592 --> 00:00:56,471
+than you could really, probably imagine
+
+23
+00:00:56,471 --> 00:00:58,932
+but at any given moment some of those particles
+
+24
+00:00:58,932 --> 00:01:02,183
+are bouncing off the wall of the container
+
+25
+00:01:02,183 --> 00:01:04,273
+that particle is bouncing there, this particle
+
+26
+00:01:04,273 --> 00:01:07,199
+is bouncing there, this guy's bouncing like that
+
+27
+00:01:07,199 --> 00:01:09,567
+and when they bounce, they apply a force to the
+
+28
+00:01:09,567 --> 00:01:12,725
+container, an outward force, that's what keeps
+
+29
+00:01:12,725 --> 00:01:14,861
+the balloon blown up.
+
+30
+00:01:14,861 --> 00:01:16,933
+So let's think about what the pressure
+
+31
+00:01:16,933 --> 00:01:18,391
+is going to be dependent on.
+
+32
+00:01:18,391 --> 00:01:21,409
+So first of all the pressure, the faster these
+
+33
+00:01:21,409 --> 00:01:24,660
+particles move, the higher the pressure, right?
+
+34
+00:01:24,660 --> 00:01:25,682
+Faster particles
+
+35
+00:01:25,682 --> 00:01:31,812
+faster particles would imply pressure would go up
+
+36
+00:01:31,812 --> 00:01:34,180
+right? slower particles you're gonna be bouncing
+
+37
+00:01:34,180 --> 00:01:35,666
+into the container less
+
+38
+00:01:35,666 --> 00:01:37,338
+and when you do bounce into the container
+
+39
+00:01:37,338 --> 00:01:39,474
+there is going to be less of a ricochet,
+
+40
+00:01:39,474 --> 00:01:40,933
+or less of a change in momentum
+
+41
+00:01:40,933 --> 00:01:43,004
+so slower particles
+
+42
+00:01:43,004 --> 00:01:47,462
+you're gonna have pressure go down
+
+43
+00:01:47,462 --> 00:01:50,806
+now it's practically impossible to measure
+
+44
+00:01:50,806 --> 00:01:53,128
+the kinetic energy, or the velocity
+
+45
+00:01:53,128 --> 00:01:55,450
+or the direction of each individual particle
+
+46
+00:01:55,450 --> 00:01:57,121
+as especially you have gazillions of them
+
+47
+00:01:57,121 --> 00:01:58,654
+in the balloon
+
+48
+00:01:58,654 --> 00:01:59,954
+so what we do is we think of
+
+49
+00:01:59,954 --> 00:02:01,719
+the average energy of the particles
+
+50
+00:02:01,719 --> 00:02:04,180
+and the average energy of the particles
+
+51
+00:02:04,180 --> 00:02:05,991
+you might say oh, Sal's about to introduce us
+
+52
+00:02:05,991 --> 00:02:07,199
+to a new concept
+
+53
+00:02:07,199 --> 00:02:10,450
+well I might, well it's a new of looking at a
+
+54
+00:02:10,450 --> 00:02:12,029
+probably very familiar concept to you
+
+55
+00:02:12,029 --> 00:02:13,747
+and that's temperature
+
+56
+00:02:13,747 --> 00:02:17,091
+temperature can and should be viewed
+
+57
+00:02:17,091 --> 00:02:19,923
+as the average energy of the particles in the system
+
+58
+00:02:19,923 --> 00:02:22,385
+so i'll put a little squiggly line
+
+59
+00:02:22,385 --> 00:02:23,867
+cause it's, you know, there's a lot of ways to
+
+60
+00:02:23,867 --> 00:02:25,682
+think about.. Average energy
+
+61
+00:02:25,682 --> 00:02:30,001
+or, you know... some, and mostly kinetic energy
+
+62
+00:02:30,001 --> 00:02:32,044
+right? because these particles are moving and bouncing
+
+63
+00:02:32,044 --> 00:02:33,763
+the higher the temperature, the more
+
+64
+00:02:33,763 --> 00:02:36,595
+the faster that these particles move
+
+65
+00:02:36,595 --> 00:02:38,871
+and the more that they're going to
+
+66
+00:02:38,871 --> 00:02:40,543
+bounce into the side of the [sic]particle
+
+67
+00:02:40,543 --> 00:02:41,982
+into the side of this container
+
+68
+00:02:41,982 --> 00:02:43,794
+but temperature is average energy
+
+69
+00:02:43,794 --> 00:02:50,063
+it tells us energy, energy per particle
+
+70
+00:02:50,063 --> 00:02:54,067
+right, if you wanted to know the total, so you know
+
+71
+00:02:54,067 --> 00:02:57,586
+obviously if we only had one particle in there
+
+72
+00:02:57,586 --> 00:02:59,072
+with super high temperature
+
+73
+00:02:59,072 --> 00:03:01,069
+that's going to have less pressure
+
+74
+00:03:01,069 --> 00:03:02,323
+then if we have a million particles in there
+
+75
+00:03:02,323 --> 00:03:03,716
+let me draw that
+
+76
+00:03:03,716 --> 00:03:08,592
+if i have.. if i have..
+
+77
+00:03:08,592 --> 00:03:12,261
+let's take two cases right here
+
+78
+00:03:12,261 --> 00:03:15,326
+one is: i have a bunch of particles with
+
+79
+00:03:15,326 --> 00:03:18,000
+a certain temperature
+
+80
+00:03:18,000 --> 00:03:22,478
+moving in their different directions
+
+81
+00:03:22,478 --> 00:03:24,521
+and in the other example i have one particle
+
+82
+00:03:24,521 --> 00:03:25,822
+right?
+
+83
+00:03:25,822 --> 00:03:27,540
+and maybe they have the same temperature
+
+84
+00:03:27,540 --> 00:03:30,001
+on average they have the same kinetic energy
+
+85
+00:03:30,001 --> 00:03:32,416
+the kinetic energy per particle is the same
+
+86
+00:03:32,416 --> 00:03:35,295
+cleary this one is going to be applying
+
+87
+00:03:35,295 --> 00:03:37,014
+more pressure to its container
+
+88
+00:03:37,014 --> 00:03:38,546
+cause at every given moment
+
+89
+00:03:38,546 --> 00:03:40,079
+more of these particles are gonna be bouncing
+
+90
+00:03:40,079 --> 00:03:40,868
+off the side
+
+91
+00:03:40,868 --> 00:03:42,447
+then in this example, this guy is gonna
+
+92
+00:03:42,447 --> 00:03:44,398
+bounce —bam— and gonna go and move and bounce bam
+
+93
+00:03:44,398 --> 00:03:46,069
+so he's gonna be applying less pressure
+
+94
+00:03:46,069 --> 00:03:48,020
+even though his temperature might be the same
+
+95
+00:03:48,020 --> 00:03:50,017
+because temperature is kinetic energy, or you
+
+96
+00:03:50,017 --> 00:03:53,128
+can view it as kinetic energy per particle
+
+97
+00:03:53,128 --> 00:03:55,543
+or it's a way of looking at kinetic energy per particle
+
+98
+00:03:55,543 --> 00:03:58,097
+so if we wanted to look at the total energy
+
+99
+00:03:58,097 --> 00:04:00,234
+in the system, we would want to
+
+100
+00:04:00,234 --> 00:04:01,400
+multiply the temperature
+
+101
+00:04:01,400 --> 00:04:05,388
+times the number of particles
+
+102
+00:04:05,388 --> 00:04:08,593
+and just since we are dealing on the molecular scale
+
+103
+00:04:08,593 --> 00:04:11,008
+the number of particles can often be represented
+
+104
+00:04:11,008 --> 00:04:13,330
+as moles, remeber, moles is just the number of particles
+
+105
+00:04:13,330 --> 00:04:15,605
+so we're saying that pressure
+
+106
+00:04:15,605 --> 00:04:20,853
+pressure, is well I'll say, it's proportional
+
+107
+00:04:20,853 --> 00:04:24,150
+so it's equal to let's say, some constant
+
+108
+00:04:24,150 --> 00:04:29,537
+let's call that R times
+
+109
+00:04:29,537 --> 00:04:30,930
+(cause we've got to make all the
+
+110
+00:04:30,930 --> 00:04:31,673
+units work out in the end
+
+111
+00:04:31,673 --> 00:04:33,020
+I mean temperature's in Kelvin
+
+112
+00:04:33,020 --> 00:04:34,413
+but we eventually want to get back to Joules
+
+113
+00:04:34,413 --> 00:04:36,921
+so let's just say it's equal to some constant
+
+114
+00:04:36,921 --> 00:04:38,082
+or it's proportional to temperature
+
+115
+00:04:38,082 --> 00:04:41,287
+times the number of particles
+
+116
+00:04:41,287 --> 00:04:43,841
+we could do that a bunch of ways
+
+117
+00:04:43,841 --> 00:04:45,280
+but let's think of that in moles
+
+118
+00:04:45,280 --> 00:04:47,649
+but if I say they're 5 mole particles there
+
+119
+00:04:47,649 --> 00:04:51,318
+you know that's 5 times 6 times 10 to the 23 particles
+
+120
+00:04:51,318 --> 00:04:55,439
+so this is a number of particles (n)
+
+121
+00:04:55,439 --> 00:04:57,030
+this is the temperature (T)
+
+122
+00:04:57,030 --> 00:04:59,166
+and this is just some constant (n)
+
+123
+00:04:59,166 --> 00:05:02,928
+constant, right there.
+
+124
+00:05:02,928 --> 00:05:04,878
+now what else is the pressure dependent on?
+
+125
+00:05:04,878 --> 00:05:06,828
+we gave these two examples
+
+126
+00:05:06,828 --> 00:05:08,175
+obviously it's dependent on the Temperature
+
+127
+00:05:08,175 --> 00:05:10,126
+the faster each of these particles move,
+
+128
+00:05:10,126 --> 00:05:11,798
+the higher pressure it will have
+
+129
+00:05:11,798 --> 00:05:13,980
+it's also dependent on the number of particles
+
+130
+00:05:13,980 --> 00:05:15,513
+the more particles we have
+
+131
+00:05:15,513 --> 00:05:16,667
+the more pressure we'll have
+
+132
+00:05:16,667 --> 00:05:18,717
+what about the size of the container?
+
+133
+00:05:18,717 --> 00:05:20,296
+the volume of the container?
+
+134
+00:05:20,296 --> 00:05:25,730
+if we took this example, but we shrunk the container somehow maybe by pressing on the outside
+
+135
+00:05:25,730 --> 00:05:31,627
+so this container looked like this, but we still had the same four particles in it
+
+136
+00:05:31,627 --> 00:05:36,875
+the same four particles with the same average
+
+137
+00:05:36,875 --> 00:05:39,522
+kinetic energy, with the same temperature
+
+138
+00:05:39,522 --> 00:05:41,798
+so that number of particles is the same,
+
+139
+00:05:41,798 --> 00:05:42,912
+the temperature's the same
+
+140
+00:05:42,912 --> 00:05:44,352
+but the volume has gone down
+
+141
+00:05:44,352 --> 00:05:46,535
+now these guys are gonna bump into
+
+142
+00:05:46,535 --> 00:05:49,089
+the sides of the container more frequently
+
+143
+00:05:49,089 --> 00:05:51,132
+and there's less area, right?
+
+144
+00:05:51,132 --> 00:05:53,454
+so at any given moment, you have more force
+
+145
+00:05:53,454 --> 00:05:54,151
+and less area
+
+146
+00:05:54,151 --> 00:05:56,473
+so when you have more force and less area
+
+147
+00:05:56,473 --> 00:05:57,448
+the pressure's gonna go up
+
+148
+00:05:57,448 --> 00:06:02,323
+so when the volume went down
+
+149
+00:06:02,323 --> 00:06:04,228
+your pressure went up
+
+150
+00:06:04,228 --> 00:06:08,227
+so pressure is going to be, is going to be
+
+151
+00:06:08,227 --> 00:06:09,126
+we could say, we could say
+
+152
+00:06:09,126 --> 00:06:12,773
+pressure is inversely proportional to volume
+
+153
+00:06:12,773 --> 00:06:13,841
+so let's think about that
+
+154
+00:06:13,841 --> 00:06:15,978
+let's put that into our equation
+
+155
+00:06:15,978 --> 00:06:17,324
+we said that pressure
+
+156
+00:06:17,324 --> 00:06:19,925
+sorry, not ressure
+
+157
+00:06:19,925 --> 00:06:24,151
+pressure is proportional, and I'm just saying
+
+158
+00:06:24,151 --> 00:06:25,358
+some proportionality constant, let's call that R
+
+159
+00:06:25,358 --> 00:06:32,000
+to the number of particles times the temperature
+
+160
+00:06:32,000 --> 00:06:33,133
+(this gives us the total energy)
+
+161
+00:06:33,133 --> 00:06:36,272
+and it's inversely proportional to the volume
+
+162
+00:06:36,272 --> 00:06:38,645
+and so if we multiply both sides of this
+
+163
+00:06:38,645 --> 00:06:39,820
+times the Volume
+
+164
+00:06:39,820 --> 00:06:45,653
+we get the pressure, times the volume is proportional
+
+165
+00:06:45,653 --> 00:06:48,198
+to the number of particles times the temperature
+
+166
+00:06:48,198 --> 00:06:49,148
+and then you know
+
+167
+00:06:49,164 --> 00:06:51,550
+so PV is equal to R n t
+
+168
+00:06:51,550 --> 00:06:54,012
+and just to switch this around a little bit
+
+169
+00:06:54,012 --> 00:06:55,823
+so it's in a form that you are more likely to see
+
+170
+00:06:55,823 --> 00:06:57,913
+in your chemistry book, if we just switch
+
+171
+00:06:57,913 --> 00:06:59,027
+the n and the R term
+
+172
+00:06:59,027 --> 00:07:02,789
+you get P (pressure) times volume is equal to
+
+173
+00:07:02,789 --> 00:07:05,064
+n (the number of particles you have)
+
+174
+00:07:05,064 --> 00:07:07,990
+times some constant times temperature
+
+175
+00:07:07,990 --> 00:07:12,820
+and this right here is the ideal gas equation
+
+176
+00:07:12,820 --> 00:07:15,281
+ideal gas equation
+
+177
+00:07:15,281 --> 00:07:16,396
+and hopefully makes some sense to you
+
+178
+00:07:16,396 --> 00:07:19,925
+ideal gas (not not gass) equation
+
+179
+00:07:19,925 --> 00:07:24,755
+they say ideal gas is based on
+
+180
+00:07:24,755 --> 00:07:27,866
+this little mental exercise I did to come up with this
+
+181
+00:07:27,866 --> 00:07:30,467
+i made some implicit assumptions when I did this
+
+182
+00:07:30,467 --> 00:07:33,997
+one is I assumed, I essentially I assumed that
+
+183
+00:07:33,997 --> 00:07:35,668
+that we are dealing with an ideal gas
+
+184
+00:07:35,668 --> 00:07:38,594
+and so you say, what Sal, what is an ideal gas?
+
+185
+00:07:38,594 --> 00:07:42,356
+an ideal gas, is one where the molecules
+
+186
+00:07:42,356 --> 00:07:44,492
+they're not too concerned with each other
+
+187
+00:07:44,492 --> 00:07:46,953
+they're just concerned with their own kinetic energy
+
+188
+00:07:46,953 --> 00:07:48,486
+and bouncing off of the walls
+
+189
+00:07:48,486 --> 00:07:50,715
+so they don't attract or repel each other
+
+190
+00:07:50,715 --> 00:07:56,520
+don't attract or repel....
+
+191
+00:07:56,520 --> 00:07:58,610
+cause let's say they are attracted to each other
+
+192
+00:07:58,610 --> 00:08:00,607
+then as you increased the number of particles,
+
+193
+00:08:00,607 --> 00:08:03,207
+maybe they'd want to not go to the side
+
+194
+00:08:03,207 --> 00:08:05,715
+maybe they'd all gravitate towards the center a little bit more
+
+195
+00:08:05,715 --> 00:08:06,830
+if they did attract each other
+
+196
+00:08:06,830 --> 00:08:11,148
+and if they did that, they would bounce into the walls less and the pressure would be a little bit lower
+
+197
+00:08:11,148 --> 00:08:13,192
+so assuming that they don't attract or repel each other
+
+198
+00:08:13,192 --> 00:08:16,536
+and we're also assuming that the actual volume
+
+199
+00:08:16,536 --> 00:08:20,808
+of the individual particles are inconsequential
+
+200
+00:08:20,808 --> 00:08:22,991
+which is a pretty good assumption
+
+201
+00:08:22,991 --> 00:08:23,780
+because they're pretty small
+
+202
+00:08:23,780 --> 00:08:26,056
+altough if you start putting a ton of particles
+
+203
+00:08:26,056 --> 00:08:31,257
+into a certain volume then at some point,
+
+204
+00:08:31,257 --> 00:08:32,325
+especially if they are big molecules
+
+205
+00:08:32,325 --> 00:08:34,740
+it will start to matter in terms of their size
+
+206
+00:08:34,740 --> 00:08:37,341
+but we're assuming that for the purposes of
+
+207
+00:08:37,341 --> 00:08:40,870
+our mental exercise that the molecules have
+
+208
+00:08:40,870 --> 00:08:42,867
+inconsequential volumes
+
+209
+00:08:42,867 --> 00:08:45,282
+and they don't attract or repel each other
+
+210
+00:08:45,282 --> 00:08:49,601
+and in that situation we can apply the ideal gas
+
+211
+00:08:49,601 --> 00:08:51,933
+equation, right here.
+
+212
+00:08:51,933 --> 00:08:54,802
+Now we've established the ideal gas equation
+
+213
+00:08:54,802 --> 00:08:57,821
+but we're like oh,oh what's R, how do I deal with it, and how do I do math problems
+
+214
+00:08:57,821 --> 00:09:00,282
+and solve chemistry problems with it
+
+215
+00:09:00,282 --> 00:09:01,675
+and how do the units all work out
+
+216
+00:09:01,675 --> 00:09:06,458
+we'll do all of that in the next video, where i will solve a ton of equations, or a ton of exercises
+
+217
+00:09:06,458 --> 00:09:08,595
+with the ideal gas equation
+
+218
+00:09:08,595 --> 00:09:11,799
+but the important thing, the important take away from this video
+
+219
+00:09:11,799 --> 00:09:15,003
+is just to have the intuition, as to why this actually does make sense
+
+220
+00:09:15,003 --> 00:09:18,486
+and frankly once you have this intuition, you should never forget it
+
+221
+00:09:18,486 --> 00:09:22,225
+you should be able to maybe even derive it on your own.

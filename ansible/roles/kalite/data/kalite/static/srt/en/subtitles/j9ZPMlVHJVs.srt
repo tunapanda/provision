@@ -1,0 +1,663 @@
+1
+00:00:00,520 --> 00:00:02,170
+In the last video we were able to
+
+2
+00:00:02,170 --> 00:00:05,970
+calculate the total sum of squares for these 9 data points right here,
+
+3
+00:00:05,980 --> 00:00:10,030
+these 9 data points are grouped into three different groups,
+
+4
+00:00:10,030 --> 00:00:12,800
+or if you wanted to speak generally into "m" different groups.
+
+5
+00:00:12,900 --> 00:00:17,940
+What I want to do in this video is to figure out how much of this total sum of squares
+
+6
+00:00:17,940 --> 00:00:22,360
+how much of this is due to variation within each group
+
+7
+00:00:22,380 --> 00:00:26,230
+versus variation between the actual groups.
+
+8
+00:00:26,250 --> 00:00:29,970
+So first let's figure out the total variation within the groups,
+
+9
+00:00:29,970 --> 00:00:36,200
+so let's call that the sum of squares within, I'll do that in yellow,
+
+10
+00:00:36,490 --> 00:00:39,940
+actually I've already used yellow so let's do this, I'm going to do blue.
+
+11
+00:00:40,180 --> 00:00:45,910
+So the sum of squares within.
+
+12
+00:00:46,290 --> 00:00:50,850
+Let me make that clear, that stands for within.
+
+13
+00:00:50,890 --> 00:00:53,710
+So we want to see how much of a variation is
+
+14
+00:00:53,710 --> 00:00:57,960
+due to how far each of these data points are from their central tendencies,
+
+15
+00:00:57,960 --> 00:00:59,550
+from their respective means.
+
+16
+00:00:59,550 --> 00:01:02,300
+So this is going to be equal to-- let's start with these guys.
+
+17
+00:01:02,500 --> 00:01:07,220
+So instead of taking the distance between each data point and the mean of means
+
+18
+00:01:07,220 --> 00:01:11,530
+I'm going to find the distance between each data point and that group's mean
+
+19
+00:01:11,550 --> 00:01:16,550
+because we want to square the total sum of squares
+
+20
+00:01:16,550 --> 00:01:20,680
+between each data point and their respective means
+
+21
+00:01:20,720 --> 00:01:25,740
+3 minus the mean here, it's 2. Squared.
+
+22
+00:01:25,760 --> 00:01:30,700
++ 2 minus 2 squared,
+
+23
+00:01:30,940 --> 00:01:34,480
++ 1 minus 2 squared.
+
+24
+00:01:34,700 --> 00:01:36,600
+I'm going to do this for all of the groups,
+
+25
+00:01:36,600 --> 00:01:39,520
+but for each group the distance between it's data point and it's mean
+
+26
+00:01:39,560 --> 00:01:57,420
+so + minus 4 squared, + 3 minus 4 squared, + 4 minus 4 squared
+
+27
+00:01:57,420 --> 00:02:00,360
+and finally we have the third group,
+
+28
+00:02:00,380 --> 00:02:04,910
+and we're finding all of the sum of squares from each point to it's central tendency
+
+29
+00:02:04,910 --> 00:02:06,640
+within that group, we're going to add them all up.
+
+30
+00:02:07,140 --> 00:02:09,280
+And then we find the third group so we have
+
+31
+00:02:09,280 --> 00:02:20,550
+5 minus 6 squared + 6 minus 6 squared, + 7 minus 6 squared.
+
+32
+00:02:20,550 --> 00:02:22,390
+And what is this going to equal?
+
+33
+00:02:22,420 --> 00:02:29,050
+So this is going to be equal to, so up here it is going to be 1 + 0 + 1,
+
+34
+00:02:29,550 --> 00:02:31,510
+that's going to be equal to 2,
+
+35
+00:02:31,850 --> 00:02:39,660
++ this is going to be equal to 1 + 1 + 0, so another 2,
+
+36
+00:02:40,020 --> 00:02:51,130
++ this is going to be equal to 1 + 0 + 1, so that's 2 over here.
+
+37
+00:02:51,540 --> 00:02:56,470
+Our total sum of squared within is 6.
+
+38
+00:02:56,600 --> 00:03:00,870
+So one way to think about it, our total variation was 30.
+
+39
+00:03:00,870 --> 00:03:08,660
+Based on that calculation 6 of that 30 comes from variation within these samples.
+
+40
+00:03:09,020 --> 00:03:10,940
+Now the next thing I want to think about is
+
+41
+00:03:11,180 --> 00:03:15,560
+how many degrees of freedom do we have in this calculation
+
+42
+00:03:15,560 --> 00:03:19,300
+how many, kind of, independent data points do we actually have,
+
+43
+00:03:19,630 --> 00:03:27,610
+well for each of these, over here, if you know we have 'n' data points for each one,
+
+44
+00:03:27,610 --> 00:03:30,440
+in particular n is 3 here, but if you know
+
+45
+00:03:30,710 --> 00:03:37,900
+n minus one of them, you can always find the 'n'th one, if you know the actual sample mean.
+
+46
+00:03:38,090 --> 00:03:42,130
+So in this case for any of these groups if you know 2 of these data points,
+
+47
+00:03:42,130 --> 00:03:43,410
+you can always figure out the third.
+
+48
+00:03:43,410 --> 00:03:44,550
+If you know these two, you can always
+
+49
+00:03:44,550 --> 00:03:46,770
+figure out the third if you can figure out the sample mean.
+
+50
+00:03:47,130 --> 00:03:50,420
+So in general let's figure out the degrees of freedom here.
+
+51
+00:03:50,420 --> 00:03:57,330
+You have, for each group, when you did this you had 'n' minus one degrees of freedom.
+
+52
+00:03:57,370 --> 00:04:03,970
+Remember 'n' is the number of data points you had in each group,
+
+53
+00:04:03,970 --> 00:04:09,310
+so you have n minus one degrees of freedom for each of these groups,
+
+54
+00:04:09,350 --> 00:04:12,430
+so it's n-1, n-1, n-1,
+
+55
+00:04:12,480 --> 00:04:19,210
+or you have, let me put it this way, you have 'n-1' for each of these groups, and
+
+56
+00:04:19,380 --> 00:04:21,660
+and there are m groups.
+
+57
+00:04:21,660 --> 00:04:28,890
+So there's m times n-1 degrees of freedom.
+
+58
+00:04:28,910 --> 00:04:32,790
+In this particular case, each group, n -1 is two
+
+59
+00:04:32,790 --> 00:04:34,970
+or each case, you have 2 degrees of freedom
+
+60
+00:04:34,970 --> 00:04:45,680
+and there's three groups about the there are 6 degrees of freedom.
+
+61
+00:04:46,100 --> 00:04:51,340
+In the future we may do a more detailed discussion of what degrees of freedom mean
+
+62
+00:04:51,340 --> 00:04:54,380
+how to mathematically think about it.
+
+63
+00:04:54,380 --> 00:04:58,470
+But the simplest way to think about it is really truly independent data points.
+
+64
+00:04:58,490 --> 00:05:01,180
+Assuming you knew in this case the central statistic
+
+65
+00:05:01,180 --> 00:05:04,670
+that we used to calculate the squared distances of each of these, if you know them already
+
+66
+00:05:04,800 --> 00:05:08,230
+the third data point actually could be calculated from the other 2.
+
+67
+00:05:08,230 --> 00:05:10,490
+So we have 6 degrees of freedom over here.
+
+68
+00:05:10,720 --> 00:05:18,090
+Now that was how much of the total variation is due to variation within each sample.
+
+69
+00:05:18,310 --> 00:05:23,800
+Now think about how much of the variation is due to variation between between the sample.
+
+70
+00:05:25,440 --> 00:05:29,380
+And to do that, we're going to calculate-- get a nice color here--
+
+71
+00:05:29,390 --> 00:05:30,750
+I think I've run out of all the colors--
+
+72
+00:05:30,750 --> 00:05:40,570
+we'll call it sum of squares between, the B stands for between.
+
+73
+00:05:41,090 --> 00:05:44,560
+So another way to think about it, how much of this total variation
+
+74
+00:05:44,560 --> 00:05:49,300
+is due to the variation between the means, between the central tendency
+
+75
+00:05:49,380 --> 00:05:50,990
+that's what we're going to calculate right now and
+
+76
+00:05:50,990 --> 00:05:56,430
+how much is due to variation from each data points to its mean.
+
+77
+00:05:56,740 --> 00:06:01,480
+Let's figure out how much is due variation between these guys over here.
+
+78
+00:06:01,500 --> 00:06:06,840
+One way to think about it for each of these data points--
+
+79
+00:06:06,850 --> 00:06:09,360
+let's just think about this first group.
+
+80
+00:06:09,530 --> 00:06:12,850
+For this first group, how much variation for each of these guys is
+
+81
+00:06:12,850 --> 00:06:18,230
+due to the variation between this mean and the mean of means.
+
+82
+00:06:18,730 --> 00:06:23,200
+For the first guy up here-- I'll just write it all out explicitly--
+
+83
+00:06:23,600 --> 00:06:31,000
+the variation is going to be its sample mean, 2, minus the mean of means, squared.
+
+84
+00:06:31,030 --> 00:06:33,010
+And then for this guy, it's going to be the same thing.
+
+85
+00:06:33,010 --> 00:06:36,880
+His sample mean, 2, minus the mean of means, squared.
+
+86
+00:06:37,650 --> 00:06:39,220
+Plus same thing for this guy.
+
+87
+00:06:39,250 --> 00:06:41,920
+His sample mean, 2, minus the mean of means, squared.
+
+88
+00:06:41,920 --> 00:06:52,200
+Or another way to think about it, this is equal to 3 times 2-4 squared,
+
+89
+00:06:52,440 --> 00:07:02,650
+which is the same thing as 3 times 4. It's equal to 12.
+
+90
+00:07:02,820 --> 00:07:05,810
+I can do it for each of them. I actually want to find the total sum.
+
+91
+00:07:05,810 --> 00:07:08,640
+Let me just write it all out. I think that might be an easier thing to do.
+
+92
+00:07:09,120 --> 00:07:13,230
+For all of these guys combined
+
+93
+00:07:13,230 --> 00:07:18,040
+the sum of squares due to the differences between the samples.
+
+94
+00:07:18,040 --> 00:07:21,460
+So that's from the first sample, the contribution from the first sample.
+
+95
+00:07:21,470 --> 00:07:23,130
+And then from the second sample,
+
+96
+00:07:23,440 --> 00:07:28,760
+you have this guy here, five-- sorry, you don't want to calculate him.
+
+97
+00:07:28,770 --> 00:07:33,040
+For this data point, the amount of variation due to the difference between the means
+
+98
+00:07:33,040 --> 00:07:37,530
+is going to be 4-4 squared
+
+99
+00:07:37,770 --> 00:07:41,090
+Same thing for this guys, would be 4-4 squared.
+
+100
+00:07:41,100 --> 00:07:45,610
+We're not taking it into consideration. We're only taking its sample mean into consideration.
+
+101
+00:07:45,920 --> 00:07:49,110
+And then finally + 4-4 square.
+
+102
+00:07:49,120 --> 00:07:50,370
+We're taking this
+
+103
+00:07:50,370 --> 00:07:53,500
+minus this squared for each of these data points.
+
+104
+00:07:53,500 --> 00:07:57,240
+And then finally we'll do that with the last group.
+
+105
+00:07:57,550 --> 00:08:09,940
+Sample mean is 6, so it's going to be 6-4 squared plus 6-4 squared plus 6-4 squared.
+
+106
+00:08:10,370 --> 00:08:12,070
+Now, let's think about
+
+107
+00:08:12,070 --> 00:08:19,490
+how many degrees of freedom we had in this calculation right over here.
+
+108
+00:08:19,940 --> 00:08:24,650
+Well, in general, I guess the easiest way to think about it is,
+
+109
+00:08:24,650 --> 00:08:28,410
+how much information do we have, assuming that we knew the mean of means?
+
+110
+00:08:28,410 --> 00:08:31,310
+If we know the mean of means, how much here is new information?
+
+111
+00:08:31,920 --> 00:08:37,160
+If you know 2 of these if you know the mean of the means and you know 2 of the sample means,
+
+112
+00:08:37,160 --> 00:08:38,470
+you can always figure out the third.
+
+113
+00:08:38,470 --> 00:08:40,590
+If you know this one and this one, you can figure out that one.
+
+114
+00:08:40,700 --> 00:08:42,710
+If you know that one and that one, you can figure out that one.
+
+115
+00:08:42,710 --> 00:08:46,190
+That's because this is the mean of these means over here.
+
+116
+00:08:46,360 --> 00:08:51,530
+So in general, if you m groups or if you have m means,
+
+117
+00:08:51,660 --> 00:09:05,880
+there are m-1 degrees of freedom here.
+
+118
+00:09:05,910 --> 00:09:08,900
+With that said, in this case m is 3.
+
+119
+00:09:08,900 --> 00:09:14,760
+So we could say, there's 2 degrees of freedom for this exact example.
+
+120
+00:09:14,760 --> 00:09:18,670
+Let's actually calculate the sum of squares between. So what is this going to be?
+
+121
+00:09:19,120 --> 00:09:29,340
+This is going to be equal to, this right here is, 2-4 is -2, squared is 4.
+
+122
+00:09:29,350 --> 00:09:33,230
+And then we have three fours over here, so three times four.
+
+123
+00:09:33,590 --> 00:09:51,070
+Plus 3 times 0, plus 3 times (6-4)2, which is 3 times 4. So plus 3 times 4.
+
+124
+00:09:51,280 --> 00:09:59,730
+And we get 3 times 4 is 12 + 0 + 12, is equal to 24.
+
+125
+00:09:59,750 --> 00:10:03,960
+So the sum of squares, or the variation due to
+
+126
+00:10:03,960 --> 00:10:08,690
+what's the difference between the groups, between the means is 24.
+
+127
+00:10:08,980 --> 00:10:11,570
+Not let's put this altogether. We said that
+
+128
+00:10:11,570 --> 00:10:17,820
+the total variation when you look at all 9 data points, is 30.
+
+129
+00:10:17,820 --> 00:10:19,350
+Let me write that over here.
+
+130
+00:10:19,800 --> 00:10:25,500
+So the total sum of squares is equal to 30.
+
+131
+00:10:25,880 --> 00:10:32,590
+We figured out the sum of squares between each data point and its central tendency, its sample
+
+132
+00:10:32,590 --> 00:10:39,640
+mean, we figure out and we totaled it all up, we got 6 for the sum of squares within.
+
+133
+00:10:40,140 --> 00:10:48,800
+The sum of squares within was equal to 6. In this case, it was 6 degrees of freedom.
+
+134
+00:10:48,810 --> 00:10:54,430
+If we wanted to write generally, there were m times n-1 degrees of freedom.
+
+135
+00:10:54,650 --> 00:11:03,300
+Actually for the total, we figured out we had m times n -1 degrees of freedom.
+
+136
+00:11:03,320 --> 00:11:06,140
+Let me write the degrees of freedom in this column over here.
+
+137
+00:11:06,240 --> 00:11:09,240
+In this case, the number turned out to be 8.
+
+138
+00:11:09,240 --> 00:11:13,930
+And then just now, we calculated the sum of squares between the samples.
+
+139
+00:11:14,180 --> 00:11:18,180
+The sum of squares between the samples is equal to 24
+
+140
+00:11:18,180 --> 00:11:24,200
+and we figured out that it had m-1 degrees of freedom which ended up being 2.
+
+141
+00:11:24,560 --> 00:11:31,210
+Now the interesting thing here-- this is why this analysis of variance all fits nicely together.
+
+142
+00:11:31,230 --> 00:11:35,230
+In future videos we will think about how we can actually test hypotheses
+
+143
+00:11:35,230 --> 00:11:38,040
+using some of the tools that we're thinking about right now--
+
+144
+00:11:38,300 --> 00:11:42,700
+is that the sum of squares within plus the sum of squares between
+
+145
+00:11:42,700 --> 00:11:44,940
+is equal to the total sum of squares.
+
+146
+00:11:45,040 --> 00:11:50,680
+So the way to think about is that the total variation in this data right here
+
+147
+00:11:50,680 --> 00:11:55,800
+can be described as the sum of the variation within each of these groups
+
+148
+00:11:55,800 --> 00:11:57,800
+when you take that total
+
+149
+00:11:58,130 --> 00:12:03,750
+plus the sum of the variation between the groups.
+
+150
+00:12:03,770 --> 00:12:05,970
+And even the degrees of freedom work out.
+
+151
+00:12:05,970 --> 00:12:08,900
+The sum of squares between has 2 degrees of freedom.
+
+152
+00:12:08,960 --> 00:12:12,730
+The sum of squares within each of the groups had 6 degrees of freedom.
+
+153
+00:12:12,740 --> 00:12:14,190
+2+6 is 8.
+
+154
+00:12:14,230 --> 00:12:19,120
+That's the total degrees of freedom we have for all of the data combined.
+
+155
+00:12:19,120 --> 00:12:22,910
+It even works if you look at the more general.
+
+156
+00:12:22,930 --> 00:12:26,730
+Our sum of squares between had m-1 degrees of freedom.
+
+157
+00:12:27,070 --> 00:12:33,140
+Our sum of squares within had m(n-1) degrees of freedom.
+
+158
+00:12:33,310 --> 00:12:37,900
+This is equal to m-1+mn-m.
+
+159
+00:12:38,280 --> 00:12:43,900
+These guys cancel out. This is equal to mn-1 degrees of freedom,
+
+160
+00:12:43,920 --> 00:12:48,610
+which is exactly the total degrees of freedom we have for the total sum of squares.
+
+161
+00:12:48,940 --> 00:12:53,660
+So the whole point of the calculations that we did in the last and this video
+
+162
+00:12:53,670 --> 00:12:58,880
+is just to appreciate that this total variation over here
+
+163
+00:12:58,880 --> 00:13:04,160
+can be viewed as the sum of these two component variations,
+
+164
+00:13:04,400 --> 00:13:12,150
+how much variation within each of the samples
+
+165
+00:13:12,250 --> 00:13:16,910
+plus how much variation is there between the means of the samples.
+
+166
+00:13:16,910 --> 00:13:18,580
+Hopefully that's not too confusing.

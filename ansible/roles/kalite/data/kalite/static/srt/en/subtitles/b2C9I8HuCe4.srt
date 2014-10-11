@@ -1,0 +1,339 @@
+1
+00:00:00,768 --> 00:00:03,667
+An ecologist surveys the age of about 100 trees
+
+2
+00:00:03,667 --> 00:00:05,322
+in a local forest.
+
+3
+00:00:05,322 --> 00:00:07,757
+He uses a box and whiskers plot
+
+4
+00:00:07,757 --> 00:00:10,090
+to map his data, shown below.
+
+5
+00:00:10,090 --> 00:00:13,816
+What is the range of tree ages that he surved?
+
+6
+00:00:13,816 --> 00:00:17,000
+What is the median age of a tree in the forest?
+
+7
+00:00:17,000 --> 00:00:18,004
+So first of all, let's just...
+
+8
+00:00:18,004 --> 00:00:19,066
+let's make sure we understand
+
+9
+00:00:19,066 --> 00:00:21,082
+what this box and whiskers plot is even about.
+
+10
+00:00:21,082 --> 00:00:24,082
+This is really a way of seeing the spread
+
+11
+00:00:24,097 --> 00:00:25,661
+of all of the different data points,
+
+12
+00:00:25,661 --> 00:00:27,246
+which is the age of the trees,
+
+13
+00:00:27,246 --> 00:00:28,834
+and to also give other information,
+
+14
+00:00:28,834 --> 00:00:29,981
+like what is the median and
+
+15
+00:00:29,981 --> 00:00:32,267
+where does most... where do most of the ages
+
+16
+00:00:32,267 --> 00:00:33,419
+of the trees sit.
+
+17
+00:00:33,434 --> 00:00:34,953
+So this whisker part ...
+
+18
+00:00:34,953 --> 00:00:36,578
+so you can see this black part is a whisker,
+
+19
+00:00:36,578 --> 00:00:37,896
+this is the box,
+
+20
+00:00:37,896 --> 00:00:39,500
+and this is another whisker over here.
+
+21
+00:00:39,500 --> 00:00:42,421
+The whiskers tell us essentially the spread
+
+22
+00:00:42,421 --> 00:00:43,711
+of all of the data.
+
+23
+00:00:43,711 --> 00:00:46,370
+So it says the lowest data point in this sample
+
+24
+00:00:46,370 --> 00:00:48,213
+is an 8 year old tree
+
+25
+00:00:48,213 --> 00:00:51,405
+I'm assuming the axis down here is in years.
+
+26
+00:00:51,405 --> 00:00:55,147
+And it says the highest, the oldest tree, right over here,
+
+27
+00:00:55,147 --> 00:00:55,983
+is fifty years.
+
+28
+00:00:55,983 --> 00:00:57,967
+So if we want the range,
+
+29
+00:00:57,967 --> 00:01:00,412
+and we think of range in a statistics point of view.
+
+30
+00:01:00,412 --> 00:01:02,441
+We're thinking of the highest data point
+
+31
+00:01:02,441 --> 00:01:04,221
+minus the lowest data point.
+
+32
+00:01:04,221 --> 00:01:07,036
+So it's going to be 50 - 8.
+
+33
+00:01:07,036 --> 00:01:09,637
+So we have a range of 42.
+
+34
+00:01:09,637 --> 00:01:11,333
+So that's what the whiskers tell us.
+
+35
+00:01:11,333 --> 00:01:13,491
+It tells us that everything falls between 8 and 50 years,
+
+36
+00:01:13,491 --> 00:01:16,250
+including 8 years and 50 years.
+
+37
+00:01:16,250 --> 00:01:19,229
+Now what the box does, the box starts at ...
+
+38
+00:01:19,229 --> 00:01:21,572
+Let me explain it to you this way:
+
+39
+00:01:21,572 --> 00:01:23,894
+the mid .. This line over here this is the median
+
+40
+00:01:23,894 --> 00:01:26,962
+this right over here is the median.
+
+41
+00:01:26,962 --> 00:01:31,045
+And so, half of the ages are going to be less than the median
+
+42
+00:01:31,045 --> 00:01:33,367
+we see right over here that the median is 21.
+
+43
+00:01:33,367 --> 00:01:35,550
+So this box and whiskers plot tells us
+
+44
+00:01:35,550 --> 00:01:38,894
+that half of the trees are going to be less than 21
+
+45
+00:01:38,894 --> 00:01:42,069
+and half are older than 21.
+
+46
+00:01:42,069 --> 00:01:44,652
+And then these end points, right over here,
+
+47
+00:01:44,652 --> 00:01:47,299
+these are the medians for each of those sections.
+
+48
+00:01:47,299 --> 00:01:49,297
+So this is the median for all of the trees
+
+49
+00:01:49,297 --> 00:01:51,154
+that are less than the real median,
+
+50
+00:01:51,154 --> 00:01:53,151
+or less than the main median.
+
+51
+00:01:53,151 --> 00:01:55,473
+So this is the middle of all of the trees
+
+52
+00:01:55,473 --> 00:01:57,284
+that are less than 21,
+
+53
+00:01:57,284 --> 00:02:00,303
+this is the middle age for all of the trees
+
+54
+00:02:00,303 --> 00:02:02,067
+that are greater or older than 21.
+
+55
+00:02:02,067 --> 00:02:04,841
+And so, these essentially are splitting ...
+
+56
+00:02:04,841 --> 00:02:08,290
+We're actually splitting all the data into four groups:
+
+57
+00:02:08,290 --> 00:02:11,030
+this we'll call the first quartile,
+
+58
+00:02:11,030 --> 00:02:12,981
+so I'll call it Q1 for the first quartile,
+
+59
+00:02:12,981 --> 00:02:15,309
+maybe I'll do 1Q.
+
+60
+00:02:15,309 --> 00:02:17,506
+This is the first quartile,
+
+61
+00:02:17,506 --> 00:02:19,981
+or roughly a fourth of the trees,
+
+62
+00:02:19,981 --> 00:02:21,453
+because the way you calculate it sometimes
+
+63
+00:02:21,453 --> 00:02:22,958
+a tree ends up in one point or another.
+
+64
+00:02:22,958 --> 00:02:25,061
+About a fourth of the trees end up here,
+
+65
+00:02:25,061 --> 00:02:27,984
+a fourth of the trees are between 14 and 21,
+
+66
+00:02:27,984 --> 00:02:30,814
+a fourth are between 21 and it looks like 33,
+
+67
+00:02:30,814 --> 00:02:32,720
+and then a fourth are in this quartile.
+
+68
+00:02:32,720 --> 00:02:36,619
+So we call this the first quartile, the second quartile,
+
+69
+00:02:36,619 --> 00:02:39,820
+the third quartile and the fourth quartile.
+
+70
+00:02:39,820 --> 00:02:41,938
+So to answer the question,
+
+71
+00:02:41,938 --> 00:02:43,636
+we already did the range,
+
+72
+00:02:43,636 --> 00:02:47,160
+there's a 42 year spread between the oldest and the youngest tree
+
+73
+00:02:47,160 --> 00:02:50,040
+and then the median age of a tree in the forest
+
+74
+00:02:50,040 --> 00:02:51,467
+is at 21.
+
+75
+00:02:51,467 --> 00:02:53,668
+So even though you might have trees that are
+
+76
+00:02:53,668 --> 00:02:55,122
+as old as 50,
+
+77
+00:02:55,122 --> 00:02:57,352
+the median of the forest is acutally closer
+
+78
+00:02:57,352 --> 00:02:59,289
+to the lower end of our entire
+
+79
+00:02:59,289 --> 00:03:02,733
+our entire spectrum of all the ages.
+
+80
+00:03:02,733 --> 00:03:06,421
+So if you view median as your central tendancy measurement
+
+81
+00:03:06,421 --> 00:03:09,112
+it's only at 21 years.
+
+82
+00:03:09,112 --> 00:03:10,605
+You can even see it.
+
+83
+00:03:10,605 --> 00:03:12,108
+It's closer to the left of the box
+
+84
+00:03:12,108 --> 00:03:15,320
+and closer to the left, the end of the left whisker
+
+85
+00:03:15,320 --> 99:59:59,999
+than the end of the right whisker.

@@ -1,0 +1,223 @@
+1
+00:00:00,298 --> 00:00:02,832
+We're asked to graph the function f(x)
+
+2
+00:00:02,832 --> 00:00:06,159
+is equal to the principle square route of .5x-1
+
+3
+00:00:06,159 --> 00:00:09,627
+And to graph it we're going to just sample some points
+
+4
+00:00:09,627 --> 00:00:12,360
+some x values that are within the domain of this function,
+
+5
+00:00:12,360 --> 00:00:15,033
+this function definition, and see what the function is equal to
+
+6
+00:00:15,033 --> 00:00:18,597
+for those x values, and then we can connect those dots
+
+7
+00:00:18,597 --> 00:00:20,253
+and see what the curve will look like
+
+8
+00:00:20,253 --> 00:00:24,279
+So, let me do a little table here, and so I'm going
+
+9
+00:00:24,279 --> 00:00:26,567
+to pick some x-values, and I'm going to figure out what
+
+10
+00:00:26,567 --> 00:00:30,279
+the f(x) values are given those x values
+
+11
+00:00:30,279 --> 00:00:32,052
+And actually, I'm going to do something in between
+
+12
+00:00:32,052 --> 00:00:33,832
+because I want to have nice, clean numbers
+
+13
+00:00:33,832 --> 00:00:36,487
+I want to pick x-values that are nice clean integers
+
+14
+00:00:36,487 --> 00:00:39,343
+and I want to get f(x) values that are nice clean integers
+
+15
+00:00:39,343 --> 00:00:41,315
+So I'm going to be a little bit more careful
+
+16
+00:00:41,315 --> 00:00:43,237
+in what x values I pick.
+
+17
+00:00:43,237 --> 00:00:45,403
+I wanna pick x values so that this part of the expression
+
+18
+00:00:45,403 --> 00:00:48,750
+this part of the function definition
+
+19
+00:00:48,750 --> 00:00:52,330
+ends up being an integer
+
+20
+00:00:52,330 --> 00:00:54,788
+and if this needs to be an integer, then what's underneath
+
+21
+00:00:54,788 --> 00:00:58,095
+the radical, that .5x
+
+22
+00:00:58,095 --> 00:00:59,169
+that needs to be a perfect square
+
+23
+00:00:59,169 --> 00:01:01,102
+So, let me make another column over here
+
+24
+00:01:01,102 --> 00:01:06,481
+just to make our math a little bit cleaner
+
+25
+00:01:06,481 --> 00:01:08,830
+You could pick just arbitrary x-points
+
+26
+00:01:08,830 --> 00:01:10,882
+you could pick x to be 1, 2, 3, just go like that
+
+27
+00:01:10,882 --> 00:01:13,550
+but on some of those you might get strange radicals
+
+28
+00:01:13,550 --> 00:01:16,782
+over here, which might be hard to graph without a calculator
+
+29
+00:01:16,782 --> 00:01:23,134
+So let's try so let me write over here what 0.5x is
+
+30
+00:01:23,134 --> 00:01:27,270
+And I'm doing this just so that I can pick this
+
+31
+00:01:27,270 --> 00:01:28,162
+we want this thing over here
+
+32
+00:01:28,162 --> 00:01:30,019
+to be perfect squares
+
+33
+00:01:30,019 --> 00:01:32,801
+because if 0.5x is a perfect square, than the square root
+
+34
+00:01:32,801 --> 00:01:35,768
+of that is going to be an integer
+
+35
+00:01:35,768 --> 00:01:38,585
+So let's say that 0.5, let's think about all
+
+36
+00:01:38,585 --> 00:01:40,039
+of the perfect squares, you can start at 0, then you
+
+37
+00:01:40,039 --> 00:01:47,121
+could go to 1, then we could go to: 2 isn't a perfect
+
+38
+00:01:47,121 --> 00:01:48,553
+square, 3 isn't a perfect square,
+
+39
+00:01:48,553 --> 00:01:50,505
+I'm just thinking of all the values where if I took the
+
+40
+00:01:50,505 --> 00:01:52,178
+square root, I'd get an integer
+
+41
+00:01:52,178 --> 00:01:57,789
+And then I go to 4, then I go to 9, then I go to 16
+
+42
+00:01:57,789 --> 00:01:59,437
+and then I go to 25.
+
+43
+00:01:59,437 --> 00:02:02,603
+These are the first five perfect squares, obviously
+
+44
+00:02:02,603 --> 00:02:04,864
+with 0, if you take the principle square root of that you get
+
+45
+00:02:04,864 --> 00:02:06,986
+zero. So these would be good values for
+
+46
+00:02:06,986 --> 00:02:10,690
+.5x. But if those are what .5x is equal to, what is
+
+47
+00:02:10,690 --> 00:02:14,686
+x going to be? So, if 0.5x is 0, then x
+
+48
+00:02:14,686 --> 00:02:17,105
+is also going to be 0. You could solve that
+
+49
+00:02:17,105 --> 00:02:18,606
+separately over in an equation right over here
+
+50
+00:02:18,606 --> 00:02:21,636
+you could say 0.5x is equal to 0,
+
+51
+00:02:21,636 --> 00:02:26,904
+x is equal to 0 divided by .5, just divide both sides
+
+52
+00:02:26,904 --> 00:02:29,455
+by .5, and you get that equal to 0.
+
+53
+00:02:29,455 --> 00:02:32,286
+So in general, to get what the x-value is, we
+
+54
+00:02:32,286 --> 00:02:34,967
+jsut have to take this number and divide it by .5
+
+55
+00:02:34,967 --> 00:02:40,132
+or another way of thinking of that is just taking
+
+56
+00:02:40,132 --> 00:02:46,916
+this number and multiplying it by two.

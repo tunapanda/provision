@@ -1,0 +1,523 @@
+1
+00:00:00,618 --> 00:00:03,818
+Use the discriminant to state the number
+
+2
+00:00:03,818 --> 00:00:06,481
+and type of solutions for the equation
+
+3
+00:00:06,527 --> 00:00:07,900
+-3<i>x</i>²
+
+4
+00:00:07,900 --> 00:00:08,973
+-3<i>x</i>² + 5<i>x</i>
+
+5
+00:00:08,973 --> 00:00:10,042
+-3<i>x</i>² + 5<i>x</i> - 4
+
+6
+00:00:10,042 --> 00:00:11,327
+-3<i>x</i>² + 5<i>x</i> - 4 = 0.
+
+7
+00:00:11,327 --> 00:00:12,581
+And so just as a reminder
+
+8
+00:00:12,581 --> 00:00:13,250
+you're probably wondering
+
+9
+00:00:13,250 --> 00:00:14,802
+what is the <i>discriminant</i>?
+
+10
+00:00:14,802 --> 00:00:16,035
+And we can just review it by
+
+11
+00:00:16,035 --> 00:00:17,669
+looking at the quadratic formula.
+
+12
+00:00:17,669 --> 00:00:20,818
+So if I have a quadratic equation in standard form
+
+13
+00:00:20,818 --> 00:00:22,105
+<i>ax</i>²
+
+14
+00:00:22,105 --> 00:00:23,555
+<i>ax</i>² + <i>bx</i>
+
+15
+00:00:23,555 --> 00:00:24,623
+<i>ax</i>² + <i>bx</i> + <i>c</i>
+
+16
+00:00:24,623 --> 00:00:25,767
+<i>ax</i>² + <i>bx</i> + <i>c</i> = 0
+
+17
+00:00:25,767 --> 00:00:27,452
+We know that the quadratic formula,
+
+18
+00:00:27,452 --> 00:00:28,653
+which is really just derived from
+
+19
+00:00:28,653 --> 00:00:30,477
+completing the square right over here,
+
+20
+00:00:30,477 --> 00:00:32,296
+tells us that the roots of this,
+
+21
+00:00:32,296 --> 00:00:34,618
+or the solutions of this quadratic equation are
+
+22
+00:00:34,618 --> 00:00:35,199
+going to be
+
+23
+00:00:35,199 --> 00:00:36,366
+<i>x</i> =
+
+24
+00:00:36,366 --> 00:00:37,249
+<i>x</i> = (-<i>b</i>)
+
+25
+00:00:37,249 --> 00:00:39,666
+<i>x</i> = (-<i>b</i> ± √())
+
+26
+00:00:39,666 --> 00:00:40,804
+<i>x</i> = (-<i>b</i> ± √(<i>b</i>²))
+
+27
+00:00:40,804 --> 00:00:42,216
+<i>x</i> = (-<i>b</i> ± √(<i>b</i>² - 4<i>ac</i>))
+
+28
+00:00:42,216 --> 00:00:44,959
+all of that over (2<i>a</i>).
+
+29
+00:00:45,328 --> 00:00:47,635
+Now, you might know from experience
+
+30
+00:00:47,635 --> 00:00:48,868
+applying this a little bit,
+
+31
+00:00:48,868 --> 00:00:51,936
+we're going to get different types of solutions
+
+32
+00:00:51,936 --> 00:00:53,504
+depending on what happens
+
+33
+00:00:53,504 --> 00:00:56,271
+under the radical sign over here.
+
+34
+00:00:56,271 --> 00:00:57,868
+As you can imagine, if what's
+
+35
+00:00:57,868 --> 00:01:00,969
+under the radical sign over here is positive,
+
+36
+00:01:00,969 --> 00:01:04,118
+then we're going to get an actual, real number
+
+37
+00:01:04,118 --> 00:01:05,718
+as its principal square root.
+
+38
+00:01:05,718 --> 00:01:07,152
+And when we take the positive and negative
+
+39
+00:01:07,152 --> 00:01:10,186
+version of it, we're going to get two real solutions.
+
+40
+00:01:10,186 --> 00:01:13,635
+So if <i>b</i>² - 4<i>ac</i>, and this is
+
+41
+00:01:13,635 --> 00:01:15,185
+what the discriminant <i>really</i> is,
+
+42
+00:01:15,185 --> 00:01:19,402
+it's just this expression under the radical sign
+
+43
+00:01:19,402 --> 00:01:20,718
+of the quadratic formula.
+
+44
+00:01:20,718 --> 00:01:22,718
+If this is greater than zero,
+
+45
+00:01:22,718 --> 00:01:24,688
+then we're going to have two real roots,
+
+46
+00:01:25,088 --> 00:01:30,487
+then we're going to have two real roots,
+
+47
+00:01:30,487 --> 00:01:33,701
+or two real solutions to this equation right here.
+
+48
+00:01:33,701 --> 00:01:39,802
+If <i>b</i>² - 4<i>ac</i> = 0,
+
+49
+00:01:39,802 --> 00:01:41,016
+then this whole thing is
+
+50
+00:01:41,016 --> 00:01:42,054
+just going to be equal to zero,
+
+51
+00:01:42,054 --> 00:01:43,818
+so plus or minus the square root of zero,
+
+52
+00:01:43,818 --> 00:01:44,944
+(which is just zero)
+
+53
+00:01:44,944 --> 00:01:46,408
+so this is plus or minus zero.
+
+54
+00:01:46,408 --> 00:01:48,086
+Well, when you add or subtract 0,
+
+55
+00:01:48,086 --> 00:01:49,722
+that doesn't change the solution,
+
+56
+00:01:49,722 --> 00:01:51,318
+so the only solution is going to be
+
+57
+00:01:51,318 --> 00:01:53,818
+-<i>b</i> / 2<i>a</i>
+
+58
+00:01:53,818 --> 00:01:57,603
+So you're only going to have one real solution.
+
+59
+00:01:57,603 --> 00:02:00,200
+So this is going to be one--
+
+60
+00:02:00,200 --> 00:02:01,703
+--I'll just write the number "1"--
+
+61
+00:02:01,703 --> 00:02:03,718
+--one real solution,
+
+62
+00:02:03,718 --> 00:02:04,902
+or you could kind of say,
+
+63
+00:02:04,902 --> 00:02:06,436
+you have a repeated root here.
+
+64
+00:02:06,436 --> 00:02:08,735
+You're kind of having it twice.
+
+65
+00:02:08,735 --> 00:02:13,185
+Or you could say one real solution or one real root.
+
+66
+00:02:13,354 --> 00:02:17,414
+Now if <i>b</i>² - 4<i>ac</i> were negative –
+
+67
+00:02:17,414 --> 00:02:20,289
+you might already imagine what will happen.
+
+68
+00:02:20,289 --> 00:02:22,203
+If this expression right over here is negative,
+
+69
+00:02:22,203 --> 00:02:24,202
+we're taking the square root of a negative number.
+
+70
+00:02:24,202 --> 00:02:26,452
+So we would then get an imaginary number
+
+71
+00:02:26,452 --> 00:02:27,535
+right over here.
+
+72
+00:02:27,535 --> 00:02:28,820
+So we would add or subtract
+
+73
+00:02:28,820 --> 00:02:31,280
+the same imaginary number.
+
+74
+00:02:31,280 --> 00:02:33,185
+So we'll have two complex solutions;
+
+75
+00:02:33,185 --> 00:02:35,086
+not only will we have two complex solutions,
+
+76
+00:02:35,086 --> 00:02:37,235
+but they will be the <i>conjugates</i> of each other.
+
+77
+00:02:37,235 --> 00:02:39,019
+So if you have one complex solution
+
+78
+00:02:39,019 --> 00:02:41,969
+for a quadratic equation, the other solution
+
+79
+00:02:41,969 --> 00:02:43,785
+will also be a complex solution
+
+80
+00:02:43,785 --> 00:02:45,836
+and will be its complex conjugate.
+
+81
+00:02:45,836 --> 00:02:52,218
+So here we would have two complex solutions.
+
+82
+00:02:52,218 --> 00:02:53,736
+So, numbers that have a real part
+
+83
+00:02:53,736 --> 00:02:55,103
+and an imaginary part.
+
+84
+00:02:55,103 --> 00:02:56,535
+And not only are they just complex, but
+
+85
+00:02:56,535 --> 00:02:58,118
+they are the conjugates of each other.
+
+86
+00:02:58,118 --> 00:03:00,785
+The imaginary parts have different signs.
+
+87
+00:03:00,785 --> 00:03:03,818
+So let's look at <i>b</i>² - 4<i>ac</i> over here.
+
+88
+00:03:03,818 --> 00:03:05,419
+This is our <i>a</i>,
+
+89
+00:03:05,419 --> 00:03:06,837
+this is our <i>b</i>,
+
+90
+00:03:06,837 --> 00:03:07,500
+and this is our <i>c</i>.
+
+91
+00:03:07,500 --> 00:03:08,368
+Let me label them
+
+92
+00:03:08,368 --> 00:03:09,606
+Let me label them – <i>a</i>
+
+93
+00:03:09,606 --> 00:03:10,320
+Let me label them – <i>a</i>, <i>b</i>
+
+94
+00:03:10,320 --> 00:03:11,157
+Let me label them – <i>a</i>, <i>b</i>, <i>c</i>.
+
+95
+00:03:11,157 --> 00:03:12,088
+I can do that because we've
+
+96
+00:03:12,088 --> 00:03:13,319
+written it in standard form.
+
+97
+00:03:13,319 --> 00:03:15,933
+Everything is on one side,
+
+98
+00:03:15,933 --> 00:03:17,568
+in particular the left-hand side,
+
+99
+00:03:17,568 --> 00:03:19,135
+we have a zero on the right-hand side,
+
+100
+00:03:19,135 --> 00:03:22,535
+we've written it in descending power form,
+
+101
+00:03:22,535 --> 00:03:24,268
+or descending degree,
+
+102
+00:03:24,268 --> 00:03:25,736
+where we have our 2nd degree term first,
+
+103
+00:03:25,736 --> 00:03:26,886
+then our 1st degree term,
+
+104
+00:03:26,886 --> 00:03:28,686
+then our constant term.
+
+105
+00:03:28,686 --> 00:03:30,536
+And so, we can evaluate the discriminant!
+
+106
+00:03:32,367 --> 00:03:33,421
+<i>b</i> = 5
+
+107
+00:03:33,421 --> 00:03:34,750
+<i>b</i> = 5, so <i>b</i>² = 5²
+
+108
+00:03:34,750 --> 00:03:36,097
+5² - 4
+
+109
+00:03:36,097 --> 00:03:37,350
+5² - 4 • <i>a</i>
+
+110
+00:03:37,350 --> 00:03:38,327
+5² - 4 • (-3)
+
+111
+00:03:38,327 --> 00:03:39,728
+5² - 4 • (-3) • c
+
+112
+00:03:39,728 --> 00:03:41,302
+5² - 4 • (-3) • (-4)
+
+113
+00:03:41,302 --> 00:03:43,506
+<i>c</i> is this whole thing, I have to be careful.
+
+114
+00:03:43,506 --> 00:03:49,484
+<i>c</i> is <i>negative</i> 4, we have to make sure
+
+115
+00:03:49,484 --> 00:03:51,917
+we take the sign into consideration,
+
+116
+00:03:51,917 --> 00:03:55,218
+so times <i>c</i>, which is <i>negative</i> 4 over here.
+
+117
+00:03:55,218 --> 00:03:55,799
+So this is
+
+118
+00:03:55,799 --> 00:03:59,827
+25 - 4 • (-3) • (-4)
+
+119
+00:03:59,827 --> 00:04:02,743
+25 - 4 • 12
+
+120
+00:04:02,743 --> 00:04:07,705
+25 - 48
+
+121
+00:04:07,705 --> 00:04:09,904
+We don't even have to do the math –
+
+122
+00:04:09,904 --> 00:04:12,535
+we can just say that this is definitely going to
+
+123
+00:04:12,535 --> 00:04:13,678
+be less than zero.
+
+124
+00:04:13,678 --> 00:04:14,867
+You can actually figure it out –
+
+125
+00:04:14,867 --> 00:04:22,131
+this is equal to negative 23,
+
+126
+00:04:22,131 --> 00:04:24,814
+negative 23...
+
+127
+00:04:24,814 --> 00:04:26,764
+which is clearly less than zero.
+
+128
+00:04:26,764 --> 00:04:28,495
+So our discriminant in this situation is
+
+129
+00:04:28,495 --> 00:04:30,996
+less than zero, so we are going to have
+
+130
+00:04:30,996 --> 00:04:33,245
+two complex roots here,
+
+131
+00:04:33,245 --> 00:04:35,278
+and they are going to be each other's conjugates.

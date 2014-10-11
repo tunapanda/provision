@@ -1,0 +1,247 @@
+1
+00:00:00,538 --> 00:00:03,330
+Define a good word as sequence of letters
+
+2
+00:00:03,330 --> 00:00:07,800
+that consists only of the letters A, B and C
+
+3
+00:00:07,800 --> 00:00:10,600
+some of these letters may not appear in the sequence
+
+4
+00:00:10,600 --> 00:00:14,457
+and which A is never immediately followed by B
+
+5
+00:00:14,457 --> 00:00:17,357
+B is never immediately followed by C
+
+6
+00:00:17,357 --> 00:00:21,854
+and C is never immediately followed by A
+
+7
+00:00:21,854 --> 00:00:26,491
+How many seven-letter good words are there?
+
+8
+00:00:26,491 --> 00:00:28,241
+So let's just think about this a little bit.
+
+9
+00:00:28,241 --> 00:00:31,023
+So there're letters which're As, Bs, and Cs
+
+10
+00:00:31,023 --> 00:00:35,031
+and then it could be all As all Bs all Cs
+
+11
+00:00:35,046 --> 00:00:37,261
+because some letters might not appear
+
+12
+00:00:37,261 --> 00:00:41,634
+and A is never immediately followed by B
+
+13
+00:00:41,634 --> 00:00:45,412
+so A could only be followed by another A or another C
+
+14
+00:00:45,412 --> 00:00:49,729
+B is never immediately followed by C
+
+15
+00:00:49,729 --> 00:00:52,295
+which means that B could only be followed by
+
+16
+00:00:52,295 --> 00:00:54,474
+an A or another B
+
+17
+00:00:54,474 --> 00:00:57,582
+and C is never immediately followed by A
+
+18
+00:00:57,582 --> 00:01:01,643
+so C can only be followed by another C or a B.
+
+19
+00:01:01,643 --> 00:01:03,978
+So how many seven-letter good words are there?
+
+20
+00:01:03,978 --> 00:01:05,817
+So let's just think about the places
+
+21
+00:01:05,817 --> 00:01:07,250
+we have seven letters
+
+22
+00:01:07,250 --> 00:01:12,593
+one, two, three, four, five, six, seven letters.
+
+23
+00:01:12,593 --> 00:01:15,192
+now there's no contraints on this first letter
+
+24
+00:01:15,192 --> 00:01:17,065
+since it's not following anything
+
+25
+00:01:17,065 --> 00:01:19,026
+so it could be an A, B or a C,
+
+26
+00:01:19,026 --> 00:01:23,870
+So there's three possibilities for this first letter
+
+27
+00:01:23,870 --> 00:01:25,763
+Now there's three possibilities for this first letter
+
+28
+00:01:25,763 --> 00:01:28,884
+but no matter what letter this is
+
+29
+00:01:28,884 --> 00:01:30,117
+how many possibilities are there
+
+30
+00:01:30,117 --> 00:01:32,545
+for this second letter over here?
+
+31
+00:01:32,545 --> 00:01:33,872
+Well if this was an A
+
+32
+00:01:33,872 --> 00:01:37,407
+the second letter could only be an A or a C
+
+33
+00:01:37,407 --> 00:01:38,887
+because it can't be followed by a B.
+
+34
+00:01:38,887 --> 00:01:40,222
+If this was a B
+
+35
+00:01:40,222 --> 00:01:44,122
+the second letter could only be a B or an A
+
+36
+00:01:44,122 --> 00:01:45,986
+because it can't be followed by a C
+
+37
+00:01:45,986 --> 00:01:46,741
+if this was a C
+
+38
+00:01:46,741 --> 00:01:50,340
+the second letter could only be a B or a C
+
+39
+00:01:50,340 --> 00:01:52,602
+So no matter what letter this first letter is
+
+40
+00:01:52,602 --> 00:01:57,302
+the second letter can only have two possibilities
+
+41
+00:01:57,302 --> 00:01:58,736
+Another way to think about it is
+
+42
+00:01:58,736 --> 00:01:59,525
+there's one letter
+
+43
+00:01:59,525 --> 00:02:00,856
+no matter what letter this is
+
+44
+00:02:00,856 --> 00:02:02,759
+there's one letter that's being ruled out here
+
+45
+00:02:02,759 --> 00:02:04,866
+so it can only be two possibilities.
+
+46
+00:02:04,866 --> 00:02:05,561
+The same thing is here
+
+47
+00:02:05,561 --> 00:02:07,087
+we're gonna stick some letter here
+
+48
+00:02:07,087 --> 00:02:09,908
+and no matter what letter there is over here
+
+49
+00:02:09,908 --> 00:02:12,713
+it's going to rule out one possibility over here
+
+50
+00:02:12,713 --> 00:02:14,637
+so we're gonna have only two possible letters
+
+51
+00:02:14,637 --> 00:02:15,880
+that we can put here
+
+52
+00:02:15,880 --> 00:02:17,454
+no matter what letter is there
+
+53
+00:02:17,454 --> 00:02:18,538
+and use the same logic:
+
+54
+00:02:18,538 --> 00:02:25,555
+only two possibilities there
+
+55
+00:02:25,555 --> 00:02:27,987
+So how many total possibilities do we have?
+
+56
+00:02:27,987 --> 00:02:31,259
+well 3x2x2x2x2x2x2
+
+57
+00:02:31,259 --> 00:02:34,771
+this is one, two, three, four, five, six 2's
+
+58
+00:02:34,821 --> 00:02:38,119
+so this is equal to 3x2 to the sixth power
+
+59
+00:02:38,119 --> 00:02:45,157
+which is 3 times 2 to the sixth, is 32x2, is 64
+
+60
+00:02:45,157 --> 00:02:50,090
+which is equal to 180 + 12, is equal to 192.
+
+61
+00:02:50,090 --> 00:02:55,169
+There're 192 possible seven-letter good words
+
+62
+00:02:55,169 --> 99:59:59,999
+or good words as defined above.

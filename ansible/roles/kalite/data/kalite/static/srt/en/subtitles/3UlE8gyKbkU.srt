@@ -1,0 +1,167 @@
+1
+00:00:00,441 --> 00:00:06,711
+Find the probability of getting exactly two heads when flipping three coins.
+
+2
+00:00:06,711 --> 00:00:08,867
+So let's think about the sample space, here.
+
+3
+00:00:08,867 --> 00:00:10,797
+Let's think about all of the possible outcomes.
+
+4
+00:00:10,797 --> 00:00:12,133
+So I can get all heads.
+
+5
+00:00:12,133 --> 00:00:13,533
+So, on flip #1, I get a head.
+
+6
+00:00:13,533 --> 00:00:14,698
+Flip #2, I get a head.
+
+7
+00:00:14,698 --> 00:00:16,138
+Flip #3, I get a head.
+
+8
+00:00:16,138 --> 00:00:18,800
+I could get 2 heads and then a tail.
+
+9
+00:00:18,800 --> 00:00:22,732
+I could get heads, tail, heads.
+
+10
+00:00:22,732 --> 00:00:26,308
+Or I can get heads, tails, tails.
+
+11
+00:00:26,308 --> 00:00:30,533
+I could get tails, heads, heads.
+
+12
+00:00:30,533 --> 00:00:33,135
+I could get tail, heads, tails.
+
+13
+00:00:33,135 --> 00:00:35,782
+I could get tails, tails, heads.
+
+14
+00:00:35,782 --> 00:00:38,801
+Or I could get tails, tails, and tails.
+
+15
+00:00:38,801 --> 00:00:42,098
+These are all the different ways that I could flip three coins.
+
+16
+00:00:42,098 --> 00:00:45,302
+And you could maybe say that this is the first flip, the second flip, and the third flip.
+
+17
+00:00:45,302 --> 00:00:48,135
+Now, so this right over here is the sample space.
+
+18
+00:00:48,135 --> 00:00:49,533
+There's eight possible outcomes.
+
+19
+00:00:49,533 --> 00:00:50,457
+Let me write this.
+
+20
+00:00:50,457 --> 00:01:02,717
+The probability of exactly two heads, exactly... exactly two heads... two, I'll say h's there for short, the probability of exactly two heads.
+
+21
+00:01:02,717 --> 00:01:05,132
+Well, what is the size of our sample space?
+
+22
+00:01:05,132 --> 00:01:07,133
+I have eight possible outcomes.
+
+23
+00:01:07,133 --> 00:01:14,533
+So, eight... this is possible outcomes, or the size of our sample space... possible outcomes.
+
+24
+00:01:14,533 --> 00:01:19,807
+And how many of those possible outcomes are associated with this event?
+
+25
+00:01:19,807 --> 00:01:24,800
+You could call this a compound event because there's more than one outcome that's associated with this.
+
+26
+00:01:24,800 --> 00:01:28,533
+Well, so let's think about exactly... exactly two heads...
+
+27
+00:01:28,533 --> 00:01:30,533
+This is three heads, so it's not exactly two heads.
+
+28
+00:01:30,533 --> 00:01:33,460
+This is exactly two heads right over here.
+
+29
+00:01:33,460 --> 00:01:36,061
+This is exactly two heads right over here.
+
+30
+00:01:36,061 --> 00:01:37,129
+There's only one head.
+
+31
+00:01:37,129 --> 00:01:38,801
+This is exactly two heads.
+
+32
+00:01:38,801 --> 00:01:41,448
+This is only one head, only one head, no heads.
+
+33
+00:01:41,448 --> 00:01:48,693
+So you have [counting] 1, 2, 3 of the possible outcomes are associated with this event.
+
+34
+00:01:48,693 --> 00:01:51,107
+So you have three possible outcomes.
+
+35
+00:01:51,107 --> 00:01:54,133
+Three outcomes associated with the event.
+
+36
+00:01:54,133 --> 00:01:55,798
+Three outcomes.
+
+37
+00:01:55,798 --> 00:01:57,098
+Outcomes.
+
+38
+00:01:57,098 --> 00:02:01,464
+Satisfy... satisfy this event, or are associated, with this event.
+
+39
+00:02:01,464 --> 00:02:04,296
+So the probability of getting exactly two heads,
+
+40
+00:02:04,296 --> 00:02:08,467
+when flipping three coins is three outcomes satisfying this event
+
+41
+00:02:08,467 --> 00:02:10,426
+over eight possible outcomes.
+
+42
+00:02:10,426 --> 99:59:59,999
+So it is three-eighths.

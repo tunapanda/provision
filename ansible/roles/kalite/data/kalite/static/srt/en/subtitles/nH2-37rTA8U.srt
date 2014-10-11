@@ -1,0 +1,995 @@
+1
+00:00:01,456 --> 00:00:04,116
+Let's return to our fairly simple banking example,
+
+2
+00:00:04,116 --> 00:00:07,471
+and see if we can use it to actually understand
+
+3
+00:00:07,471 --> 00:00:10,301
+or at least get a better idea of what money is
+
+4
+00:00:10,301 --> 00:00:11,635
+and how it's created.
+
+5
+00:00:11,635 --> 00:00:16,063
+so in the original example, I said, I have this idea.
+
+6
+00:00:16,063 --> 00:00:20,213
+I have all of these farmers who, at the end of the season,
+
+7
+00:00:20,213 --> 00:00:22,172
+they sell all of their apples--
+
+8
+00:00:22,172 --> 00:00:26,497
+let's say that's the main cash crop on our island.
+
+9
+00:00:26,497 --> 00:00:28,897
+And then every year they just have this--
+
+10
+00:00:28,897 --> 00:00:31,970
+collectively they have-- I'll just make up a number--
+
+11
+00:00:31,970 --> 00:00:34,718
+1,000 gold pieces that they get.
+
+12
+00:00:34,718 --> 00:00:38,429
+Or at least this year, I'll call it 1,000 gold.
+
+13
+00:00:38,429 --> 00:00:39,737
+They have 1,000 gold coins that they get
+
+14
+00:00:39,737 --> 00:00:40,698
+at the end of the year.
+
+15
+00:00:40,698 --> 00:00:43,182
+Normally the farmers just kind of stash it under their mattresses
+
+16
+00:00:43,182 --> 00:00:47,583
+or dig up a hole and put it there.
+
+17
+00:00:47,583 --> 00:00:48,758
+And I said, boy, what a waste,
+
+18
+00:00:48,758 --> 00:00:52,294
+because there are actually good projects out there that people could--
+
+19
+00:00:52,294 --> 00:00:57,656
+maybe irrigation ditches, factories, a tool factory, anything else.
+
+20
+00:00:57,656 --> 00:00:59,925
+But there's just no money for those people
+
+21
+00:00:59,925 --> 00:01:01,452
+to build those things.
+
+22
+00:01:01,452 --> 00:01:06,117
+If only somehow I could take this money and use it for those projects,
+
+23
+00:01:06,117 --> 00:01:07,492
+then we would actually create wealth.
+
+24
+00:01:07,492 --> 00:01:09,236
+We'd have innovation.
+
+25
+00:01:09,236 --> 00:01:11,471
+And our entire pie would get bigger.
+
+26
+00:01:11,471 --> 00:01:14,623
+So what I do is, I start up this bank.
+
+27
+00:01:14,623 --> 00:01:17,695
+And I'll do it all over again, just like I did last time.
+
+28
+00:01:17,695 --> 00:01:23,106
+Let's say that I personally had 100 gold pieces.
+
+29
+00:01:23,106 --> 00:01:25,064
+I'm going to stick with gold,
+
+30
+00:01:25,064 --> 00:01:27,592
+because I want to show you how the money creation--
+
+31
+00:01:27,592 --> 00:01:30,438
+there is a small multiplier effect even when you're using gold.
+
+32
+00:01:30,438 --> 00:01:33,481
+Some people think it only happens with paper money.
+
+33
+00:01:33,481 --> 00:01:36,474
+This is all a byproduct of the fractional reserve system,
+
+34
+00:01:36,474 --> 00:01:38,653
+which was essentially what I showed you
+
+35
+00:01:38,653 --> 00:01:39,755
+in the last two videos.
+
+36
+00:01:39,755 --> 00:01:41,241
+Let's just go through the whole example.
+
+37
+00:01:41,241 --> 00:01:43,179
+So I take 100 gold pieces,
+
+38
+00:01:43,179 --> 00:01:48,610
+and I construct this nice vault looking building.
+
+39
+00:01:48,610 --> 00:01:53,322
+So this is real estate, or building.
+
+40
+00:01:53,322 --> 00:01:55,680
+And it's worth 100 gold.
+
+41
+00:01:55,680 --> 00:01:57,575
+These are my assets.
+
+42
+00:01:57,575 --> 00:01:58,885
+Assets on the left-hand side,
+
+43
+00:01:58,885 --> 00:02:00,312
+liabilities on the right-hand side.
+
+44
+00:02:00,312 --> 00:02:02,187
+And then I go tell all of these farmers,
+
+45
+00:02:02,187 --> 00:02:03,943
+one, your money's not safe there.
+
+46
+00:02:03,943 --> 00:02:07,209
+If you actually keep it as a deposit in my nice looking building
+
+47
+00:02:07,209 --> 00:02:08,517
+I will give you interest on it.
+
+48
+00:02:08,517 --> 00:02:10,058
+So those farmers say, great idea.
+
+49
+00:02:10,058 --> 00:02:12,633
+So they all deposit their 1,000 gold pieces
+
+50
+00:02:12,633 --> 00:02:14,545
+into my bank.
+
+51
+00:02:14,545 --> 00:02:16,218
+So now I have this liability.
+
+52
+00:02:16,218 --> 00:02:19,541
+I have 1,000 gold pieces liability.
+
+53
+00:02:19,541 --> 00:02:20,877
+And why is it a liability?
+
+54
+00:02:20,877 --> 00:02:22,592
+Because I owe it to the farmers.
+
+55
+00:02:22,592 --> 00:02:24,188
+At some point in the future,
+
+56
+00:02:24,188 --> 00:02:25,697
+they're going to come back to me and say,
+
+57
+00:02:25,697 --> 00:02:27,365
+hey, you know that gold I gave you, I want it back.
+
+58
+00:02:27,365 --> 00:02:28,755
+So it's a liability to me.
+
+59
+00:02:28,755 --> 00:02:30,898
+But it's also an asset on my side, right?
+
+60
+00:02:30,898 --> 00:02:32,328
+But my whole business model is,
+
+61
+00:02:32,328 --> 00:02:33,817
+I wanted to put this to work.
+
+62
+00:02:33,817 --> 00:02:36,043
+So what I do is, I put some aside.
+
+63
+00:02:36,043 --> 00:02:38,281
+So essentially, I make some reserves.
+
+64
+00:02:38,281 --> 00:02:39,859
+I'll do the reserves in red,
+
+65
+00:02:39,859 --> 00:02:43,256
+because we're going to want to pay attention to them later.
+
+66
+00:02:43,256 --> 00:02:46,521
+Let's say I put 10% aside.
+
+67
+00:02:46,521 --> 00:02:50,420
+So I put 100 gold pieces aside.
+
+68
+00:02:50,420 --> 00:02:52,500
+And I do that in case any of those farmers,
+
+69
+00:02:52,500 --> 00:02:54,596
+the next day or the next week, come to me and say,
+
+70
+00:02:54,596 --> 00:02:57,219
+oh, you know what, I actually need my money.
+
+71
+00:02:57,219 --> 00:03:02,352
+My son needs a haircut, or whatever the need might be.
+
+72
+00:03:02,352 --> 00:03:04,871
+But anyway, I put 100 gold pieces aside as reserves.
+
+73
+00:03:04,871 --> 00:03:11,946
+And then the remainder-- this 900 gold pieces-- I lend out.
+
+74
+00:03:11,946 --> 00:03:12,985
+Let me do that in a different color.
+
+75
+00:03:12,985 --> 00:03:15,407
+I'll do it in green.
+
+76
+00:03:15,407 --> 00:03:17,481
+900 gold pieces I lend out.
+
+77
+00:03:17,481 --> 00:03:18,939
+So it's an asset.
+
+78
+00:03:18,939 --> 00:03:20,390
+But the gold is gone.
+
+79
+00:03:20,390 --> 00:03:24,545
+I take that gold-- remember, I had 1,000 gold pieces come in--
+
+80
+00:03:24,545 --> 00:03:26,121
+I kept 100 of it.
+
+81
+00:03:26,121 --> 00:03:28,423
+And now I'm going to lend it to someone
+
+82
+00:03:28,423 --> 00:03:30,973
+who has a really good project.
+
+83
+00:03:30,973 --> 00:03:32,913
+Normally, you would lend it to a bunch of people.
+
+84
+00:03:32,913 --> 00:03:34,178
+But for the sake of simplicity,
+
+85
+00:03:34,178 --> 00:03:39,384
+let's say I lend it to someone who has an irrigation project.
+
+86
+00:03:39,384 --> 00:03:42,919
+He's going to take that 900 gold pieces and pay a bunch of people,
+
+87
+00:03:42,919 --> 00:03:45,568
+who are probably not doing anything anymore
+
+88
+00:03:45,568 --> 00:03:48,419
+because the apple crop has been harvested and sold,
+
+89
+00:03:48,419 --> 00:03:51,231
+and they're going to build an irrigation canal
+
+90
+00:03:51,231 --> 00:03:56,639
+so that more land is usable to make more apples the next year. soon.
+
+91
+00:03:56,639 --> 00:03:57,975
+And I say that's a great investment
+
+92
+00:03:57,975 --> 00:03:59,824
+because they're going to make more apples,
+
+93
+00:03:59,824 --> 00:04:01,470
+or they're going to sell the water to the farmers.
+
+94
+00:04:01,470 --> 00:04:04,702
+And they should be able to pay some interest to me.
+
+95
+00:04:04,702 --> 00:04:07,923
+So I give my 900 gold pieces to them
+
+96
+00:04:07,923 --> 00:04:11,317
+to essentially dig these ditches.
+
+97
+00:04:11,317 --> 00:04:15,851
+Well, the 900 gold pieces, that then goes to the workers.
+
+98
+00:04:15,851 --> 00:04:17,664
+The borrower borrowed them,
+
+99
+00:04:17,664 --> 00:04:20,472
+and then paid it to the workers.
+
+100
+00:04:20,472 --> 00:04:23,046
+900 gold goes to the workers.
+
+101
+00:04:23,046 --> 00:04:24,293
+And so after the project is done,
+
+102
+00:04:24,293 --> 00:04:29,429
+you have a bunch of workers with 900 gold pieces.
+
+103
+00:04:29,429 --> 00:04:31,747
+Well, these workers, they're just like the farmers.
+
+104
+00:04:31,747 --> 00:04:34,537
+They say, well, I don't want to put it in my bed.
+
+105
+00:04:34,537 --> 00:04:36,094
+And I want to get interest on it.
+
+106
+00:04:36,094 --> 00:04:37,503
+It's not safe inside my house.
+
+107
+00:04:37,503 --> 00:04:39,716
+So, let's say that my bank is the only game in town.
+
+108
+00:04:39,716 --> 00:04:41,736
+So they go back to my bank.
+
+109
+00:04:41,736 --> 00:04:44,095
+And they say, hey, Bank of Sal,
+
+110
+00:04:44,095 --> 00:04:46,454
+I want to deposit my money with you.
+
+111
+00:04:46,454 --> 00:04:47,671
+I say, great.
+
+112
+00:04:47,671 --> 00:04:50,872
+So what I do is, I take their 900 gold pieces,
+
+113
+00:04:50,872 --> 00:04:52,664
+and I take it as a deposit.
+
+114
+00:04:52,664 --> 00:04:59,436
+Let me try to draw that as a deposit.
+
+115
+00:04:59,436 --> 00:05:07,155
+If this is 1,000, 900 might be about that.
+
+116
+00:05:07,155 --> 00:05:09,833
+So this is the farmers' deposits.
+
+117
+00:05:09,833 --> 00:05:11,783
+That was the initial money.
+
+118
+00:05:11,783 --> 00:05:16,340
+So then I get the 900 gold pieces from the workers.
+
+119
+00:05:16,340 --> 00:05:19,070
+I want to make this as neat as possible.
+
+120
+00:05:19,070 --> 00:05:21,054
+I didn't want to go through the pain of having multiple banks
+
+121
+00:05:21,054 --> 00:05:23,069
+because you could do this with just one bank.
+
+122
+00:05:23,069 --> 00:05:24,921
+Maybe in a future video, I'll do it with multiple banks,
+
+123
+00:05:24,921 --> 00:05:26,294
+just to show you that all the deposits
+
+124
+00:05:26,294 --> 00:05:27,824
+don't have to go to one place.
+
+125
+00:05:27,824 --> 00:05:29,020
+But it's the same idea.
+
+126
+00:05:29,020 --> 00:05:31,402
+Anyway, these 900 gold pieces are essentially deposited back
+
+127
+00:05:31,402 --> 00:05:34,738
+into my bank for safekeeping.
+
+128
+00:05:34,738 --> 00:05:37,301
+And I say, boy, I don't need to keep
+
+129
+00:05:37,301 --> 00:05:42,033
+all of these 900 gold pieces here.
+
+130
+00:05:42,033 --> 00:05:45,649
+I could lend it out again for some useful project.
+
+131
+00:05:45,649 --> 00:05:48,781
+So once again, I say, well, these are demand deposits,
+
+132
+00:05:48,781 --> 00:05:51,883
+which means that these farmers could demand them at any time.
+
+133
+00:05:51,883 --> 00:05:53,365
+So let me put a little bit aside.
+
+134
+00:05:53,365 --> 00:05:56,623
+I know statistically that no more than maybe 10% of them
+
+135
+00:05:56,623 --> 00:05:58,028
+will come to the given days.
+
+136
+00:05:58,028 --> 00:06:00,203
+So let me set aside 10% of that.
+
+137
+00:06:00,203 --> 00:06:02,561
+So I'll once again have 10% reserves.
+
+138
+00:06:02,561 --> 00:06:08,364
+So I'll set aside 90 gold pieces.
+
+139
+00:06:08,364 --> 00:06:14,445
+And then the other-- let me do that in the lending color--
+
+140
+00:06:14,445 --> 00:06:22,567
+the other 810 gold pieces I lend out.
+
+141
+00:06:22,567 --> 00:06:24,874
+And let's say I lend it out to some entrepreneur.
+
+142
+00:06:24,874 --> 00:06:26,568
+Remember, I'm getting interest on all of this.
+
+143
+00:06:26,568 --> 00:06:28,210
+But we're not concerned with the interest right now,
+
+144
+00:06:28,210 --> 00:06:29,825
+we're concerned with the money supply.
+
+145
+00:06:29,825 --> 00:06:34,766
+So I lend it out to some guy who wants to build a factory,
+
+146
+00:06:34,766 --> 00:06:36,661
+build a factory for cutting tools.
+
+147
+00:06:36,661 --> 00:06:39,596
+That'll help all of us become more productive
+
+148
+00:06:39,596 --> 00:06:41,073
+when we have to harvest our apples,
+
+149
+00:06:41,073 --> 00:06:42,808
+or maybe even digging the ditches.
+
+150
+00:06:42,808 --> 00:06:47,438
+Build factory
+
+151
+00:06:47,438 --> 00:06:52,024
+So once again, this 810 gold pieces,
+
+152
+00:06:52,024 --> 00:06:55,856
+they're going to go to the construction workers or the contractors
+
+153
+00:06:55,856 --> 00:06:57,200
+who built the factory.
+
+154
+00:06:57,200 --> 00:06:59,373
+So let's call it factory contractors,
+
+155
+00:06:59,373 --> 00:07:07,873
+the people who build the factory.
+
+156
+00:07:07,873 --> 00:07:11,027
+Once again, now they have 810 gold pieces.
+
+157
+00:07:11,027 --> 00:07:12,834
+And they're like, I don't like keeping it in my house.
+
+158
+00:07:12,834 --> 00:07:15,172
+There's that nice fancy vault that Sal has,
+
+159
+00:07:15,172 --> 00:07:16,641
+and he gives interest on it.
+
+160
+00:07:16,641 --> 00:07:18,974
+So they take those 810 gold pieces,
+
+161
+00:07:18,974 --> 00:07:29,800
+and they deposit it in my bank.
+
+162
+00:07:29,800 --> 00:07:34,582
+And then, let's just say that I could just continue this process,
+
+163
+00:07:34,582 --> 00:07:35,824
+so forth and so on.
+
+164
+00:07:35,824 --> 00:07:38,905
+And just so you know, it doesn't go infinitely.
+
+165
+00:07:38,905 --> 00:07:40,521
+Because every step of the way,
+
+166
+00:07:40,521 --> 00:07:41,839
+we' re having a little bit less.
+
+167
+00:07:41,839 --> 00:07:45,116
+I'll do the fancier math on how to figure out
+
+168
+00:07:45,116 --> 00:07:46,690
+how many steps we can do.
+
+169
+00:07:46,690 --> 00:07:49,220
+Let's just stop it there, just for the sake of brevity,
+
+170
+00:07:49,220 --> 00:07:52,125
+and just so I you don't run out of space on this.
+
+171
+00:07:52,125 --> 00:07:55,758
+So they take 810 gold pieces, and I for the most part
+
+172
+00:07:55,758 --> 00:07:57,788
+feel that I've lent enough money out there.
+
+173
+00:07:57,788 --> 00:08:03,692
+So I keep all of this 810 gold pieces as reserves.
+
+174
+00:08:03,692 --> 00:08:06,780
+So I don't lend that out, although I could.
+
+175
+00:08:06,780 --> 00:08:09,600
+I could just set aside 10% of it, 81 gold pieces,
+
+176
+00:08:09,600 --> 00:08:11,567
+and then lend the rest of it out.
+
+177
+00:08:11,567 --> 00:08:12,839
+But I don't do that.
+
+178
+00:08:12,839 --> 00:08:17,201
+I just keep all of those 810 gold pieces as reserve.
+
+179
+00:08:17,201 --> 00:08:18,614
+So this is my balance sheet.
+
+180
+00:08:18,614 --> 00:08:21,163
+Maybe if these transactions occur all at once,
+
+181
+00:08:21,163 --> 00:08:22,559
+over the course of the year,
+
+182
+00:08:22,559 --> 00:08:25,302
+this is what the Bank of Sal's balance sheet looks like.
+
+183
+00:08:25,302 --> 00:08:28,261
+These are my assets, and these are my liabilities.
+
+184
+00:08:28,261 --> 00:08:31,260
+And notice, assets are still equal to
+
+185
+00:08:31,260 --> 00:08:33,347
+liabilities plus equity.
+
+186
+00:08:33,347 --> 00:08:37,230
+This was equity.
+
+187
+00:08:37,230 --> 00:08:39,216
+This is liabilities.
+
+188
+00:08:39,216 --> 00:08:42,728
+These are deposits that I owe to people.
+
+189
+00:08:42,728 --> 00:08:47,237
+Deposits equal liabilities from a bank's point of view.
+
+190
+00:08:47,237 --> 00:08:50,395
+They're assets for those people.
+
+191
+00:08:50,395 --> 00:08:51,596
+And then these are my assets.
+
+192
+00:08:51,596 --> 00:08:53,855
+Some of them are cash money, in magenta.
+
+193
+00:08:53,855 --> 00:08:58,492
+This 810, this 90, this 100, these are gold coins
+
+194
+00:08:58,492 --> 00:09:01,347
+that are sitting in my vault, so that's definitely an asset that I have.
+
+195
+00:09:01,347 --> 00:09:04,718
+And then these are loans that I lent-- at least, this and this--
+
+196
+00:09:04,718 --> 00:09:06,357
+these are loans that I lent out to somebody.
+
+197
+00:09:06,357 --> 00:09:09,782
+And that's as asset, as long as they pay me back.
+
+198
+00:09:09,782 --> 00:09:11,817
+So now, we have set it all up.
+
+199
+00:09:11,817 --> 00:09:15,987
+My question to you is, how much money is there
+
+200
+00:09:15,987 --> 00:09:19,177
+in the system or in our economy?
+
+201
+00:09:19,177 --> 00:09:22,455
+So It all depends how you define money.
+
+202
+00:09:22,455 --> 00:09:23,832
+So let's make a definition.
+
+203
+00:09:23,832 --> 00:09:29,572
+Let's say I make a definition called m0.
+
+204
+00:09:29,572 --> 00:09:32,184
+And this is just, how much gold is there?
+
+205
+00:09:32,184 --> 00:09:36,174
+How much gold in the system?
+
+206
+00:09:36,174 --> 00:09:37,620
+Well, we can go and count it.
+
+207
+00:09:37,620 --> 00:09:40,733
+Remember, notice, all of the gold is being held in my bank.
+
+208
+00:09:40,733 --> 00:09:42,204
+So we just have to go to this one bank
+
+209
+00:09:42,204 --> 00:09:43,300
+and count how much gold it has.
+
+210
+00:09:43,300 --> 00:09:47,735
+It has 100 gold here, 90 gold here, 810 gold here.
+
+211
+00:09:47,735 --> 00:09:53,955
+So 810 plus 90 plus 100 is equal to 1,000 gold.
+
+212
+00:09:53,955 --> 00:09:56,544
+So there's 1,000 gold pieces.
+
+213
+00:09:56,544 --> 00:09:58,047
+And that makes sense, right,
+
+214
+00:09:58,047 --> 00:10:00,533
+because we had 1,000 gold pieces to begin with.
+
+215
+00:10:00,533 --> 00:10:05,661
+And we didn't mine for any new gold,
+
+216
+00:10:05,661 --> 00:10:09,217
+or we didn't use any lodestones to turn lead into gold, or anything like that.
+
+217
+00:10:09,217 --> 00:10:13,056
+We just had the original 1,000 gold pieces.
+
+218
+00:10:13,056 --> 00:10:14,526
+And there's no way to create more.
+
+219
+00:10:14,526 --> 00:10:15,782
+They don't reproduce on their own.
+
+220
+00:10:15,782 --> 00:10:18,204
+So we still have 1,000 gold pieces.
+
+221
+00:10:18,204 --> 00:10:20,532
+And we can view that as our narrowest definition
+
+222
+00:10:20,532 --> 00:10:22,527
+of the money supply.
+
+223
+00:10:22,527 --> 00:10:24,507
+Let's say another definition.
+
+224
+00:10:24,507 --> 00:10:27,770
+Let's call this m1.
+
+225
+00:10:27,770 --> 00:10:30,394
+And I'm running out of time.
+
+226
+00:10:30,394 --> 00:10:33,574
+And that is, how much money do people think they have,
+
+227
+00:10:33,574 --> 00:10:37,365
+in terms of their checking accounts?
+
+228
+00:10:37,365 --> 00:10:40,274
+Well, the farmers think that they have 1,000 gold pieces.
+
+229
+00:10:40,274 --> 00:10:42,803
+The original ditch construction workers think
+
+230
+00:10:42,803 --> 00:10:44,566
+they have 900.
+
+231
+00:10:44,566 --> 00:10:48,023
+And then the factory builders think they have 810.
+
+232
+00:10:48,023 --> 00:10:51,229
+So if you add them, it's 1,000 plus 900 plus 810.
+
+233
+00:10:51,229 --> 00:10:59,718
+Let's see, that's 1,900-- that's 2,710 gold pieces.
+
+234
+00:10:59,718 --> 00:11:03,344
+So if you went and surveyed everyone in the city
+
+235
+00:11:03,344 --> 00:11:05,766
+and you said, how much do you keep in your checking accounts?
+
+236
+00:11:05,766 --> 00:11:09,448
+Or how much you have on demand deposits in a bank?
+
+237
+00:11:09,448 --> 00:11:15,160
+If you added up all of those numbers, you would have 2,710 gold pieces,
+
+238
+00:11:15,160 --> 00:11:17,662
+if I added my numbers correctly.
+
+239
+00:11:17,662 --> 00:11:19,605
+This is the multiplier effect.
+
+240
+00:11:19,605 --> 00:11:23,369
+This happens whenever you have a fractional reserve system.
+
+241
+00:11:23,369 --> 00:11:25,501
+And this is what people say
+
+242
+00:11:25,501 --> 00:11:28,206
+when they talk about the money supply.
+
+243
+00:11:28,206 --> 00:11:30,141
+It depends how you measured--and this is what people talk about
+
+244
+00:11:30,141 --> 00:11:32,586
+when they talk about money being created.
+
+245
+00:11:32,586 --> 00:11:36,185
+We had 1,000 gold coins, but because of this multiplier effect,
+
+246
+00:11:36,185 --> 00:11:41,168
+people think that there are 2,710 gold pieces.
+
+247
+00:11:41,168 --> 00:11:42,971
+In the next video, I'll address the issue of
+
+248
+00:11:42,971 --> 00:11:45,277
+whether they are correct to think this.
+
+249
+00:11:45,277 --> 99:59:59,999
+See you soon.

@@ -1,0 +1,535 @@
+1
+00:00:00,613 --> 00:00:03,566
+What we're going to do in this video are some real quick tests to see if
+
+2
+00:00:03,566 --> 00:00:07,298
+these three random numbers are divisible by any of these numbers here
+
+3
+00:00:07,298 --> 00:00:10,528
+now I'm not going to focus a lot on the "why" of why they're divisible
+
+4
+00:00:10,528 --> 00:00:15,961
+but rather just to give you a sense of how do you actually test to see this is divisible by two
+
+5
+00:00:15,961 --> 00:00:18,625
+or five or nine, or ten.
+
+6
+00:00:18,625 --> 00:00:20,513
+so let's get started
+
+7
+00:00:20,513 --> 00:00:22,440
+so to test whether any of these are really divisible by two,
+
+8
+00:00:22,440 --> 00:00:24,810
+you really just gotta look at the ones place
+
+9
+00:00:24,810 --> 00:00:27,092
+and see if the ones place is divisible by 2
+
+10
+00:00:27,092 --> 00:00:30,973
+and right over here, it is divisible by two,
+
+11
+00:00:30,973 --> 00:00:34,027
+so this thing is gonna be divisible by two
+
+12
+00:00:34,027 --> 00:00:36,173
+Zero is considered to be divisible by two
+
+13
+00:00:36,173 --> 00:00:38,987
+so this is going to be divisible by two.
+
+14
+00:00:38,987 --> 00:00:40,119
+Another way to think about it is
+
+15
+00:00:40,119 --> 00:00:41,226
+is if you have an even number over here,
+
+16
+00:00:41,226 --> 00:00:43,490
+and Zero is considered an even number,
+
+17
+00:00:43,490 --> 00:00:45,877
+then you're going to be divisible by two.
+
+18
+00:00:45,877 --> 00:00:47,057
+So over here,
+
+19
+00:00:47,057 --> 00:00:49,794
+Do not have a number that is divisible by two
+
+20
+00:00:49,794 --> 00:00:53,639
+this is five, so this is not divisible by two
+
+21
+00:00:53,639 --> 00:00:54,811
+so I won't write any two there.
+
+22
+00:00:54,811 --> 00:00:56,823
+we've gone through the twos,
+
+23
+00:00:56,823 --> 00:00:59,156
+now let's go through the threes.
+
+24
+00:00:59,156 --> 00:01:01,505
+so to figure out if you are divisible by three,
+
+25
+00:01:01,505 --> 00:01:03,408
+you really just have to add up the digits
+
+26
+00:01:03,408 --> 00:01:05,888
+and figure out if the sum is divisible
+
+27
+00:01:05,888 --> 00:01:07,309
+by three.
+
+28
+00:01:07,309 --> 00:01:10,520
+Do that. So if I do 2 + 7 + 9
+
+29
+00:01:10,520 --> 00:01:15,061
+actually let me just write it out. +9 + 5
+
+30
+00:01:15,061 --> 00:01:18,526
++8 +8. What's this going to be?
+
+31
+00:01:18,526 --> 00:01:22,910
+2 + 7 is 9, 9 + 9 is 18, + 9 is
+
+32
+00:01:22,910 --> 00:01:25,888
+27, + 5 is 32,
+
+33
+00:01:25,888 --> 00:01:31,506
++ 8 is 40, + 8 is 48
+
+34
+00:01:31,506 --> 00:01:34,292
+and 48 is divisible by three,
+
+35
+00:01:34,292 --> 00:01:35,220
+but in case you're not sure,
+
+36
+00:01:35,220 --> 00:01:37,587
+since this is equal to 48, in case you're not sure
+
+37
+00:01:37,587 --> 00:01:38,878
+whether this is divisible by 3,
+
+38
+00:01:38,878 --> 00:01:40,920
+you can just add these digits up again.
+
+39
+00:01:40,920 --> 00:01:42,788
+So 4 + 8
+
+40
+00:01:42,788 --> 00:01:45,389
+is equal to 12, and 12 clearly
+
+41
+00:01:45,389 --> 00:01:47,812
+is divisible by 3.
+
+42
+00:01:47,812 --> 00:01:49,114
+And if you're not even sure there,
+
+43
+00:01:49,114 --> 00:01:50,010
+you can add those digits up.
+
+44
+00:01:50,010 --> 00:01:52,473
+1 + 2 is equal to 3.
+
+45
+00:01:52,473 --> 00:01:55,537
+So this is divisible by 3.
+
+46
+00:01:55,537 --> 00:01:58,129
+This right over here, let's add up the digits!
+
+47
+00:01:58,129 --> 00:02:01,962
+5 + 6 = 11
+
+48
+00:02:01,962 --> 00:02:06,490
+11 + 7 = 18, + 0 is 18
+
+49
+00:02:06,490 --> 00:02:09,828
+and if you want to add the 1 + 8 in 18,
+
+50
+00:02:09,828 --> 00:02:10,628
+you get 9
+
+51
+00:02:10,628 --> 00:02:14,296
+so the digits add up to 9.
+
+52
+00:02:14,296 --> 00:02:19,868
+So these add up to nine.
+
+53
+00:02:19,868 --> 00:02:23,479
+They add to 18, which is clearly divisible by 3,
+
+54
+00:02:23,479 --> 00:02:26,023
+and these two things will add up to 9.
+
+55
+00:02:26,023 --> 00:02:28,724
+So the important thing to know, is that when you add up all the digits, the sum
+
+56
+00:02:28,724 --> 00:02:30,654
+is divisible by three
+
+57
+00:02:30,654 --> 00:02:36,914
+So this is divisible by three, as well.
+
+58
+00:02:36,914 --> 00:02:37,991
+Let's add up these digits.
+
+59
+00:02:37,991 --> 00:02:42,428
+1 + 0 + 0 + 7 =8, + 6 = 14
+
+60
+00:02:42,428 --> 00:02:47,545
++ 5 = 19
+
+61
+00:02:47,545 --> 00:02:50,406
+So 19 is not
+
+62
+00:02:50,406 --> 00:02:54,695
+divisible by 3. So this one we're not gonna write a three by there.
+
+63
+00:02:54,695 --> 00:02:56,646
+It's not divisible by 3.
+
+64
+00:02:56,646 --> 00:02:58,346
+Let's try 4.
+
+65
+00:02:58,346 --> 00:03:00,948
+Think about four, you just have to think about the last 2 digits,
+
+66
+00:03:00,948 --> 00:03:02,264
+To see are the last 2 digits
+
+67
+00:03:02,264 --> 00:03:07,825
+divisible by four.
+
+68
+00:03:07,825 --> 00:03:10,159
+Immediately, you could look at this one over here,
+
+69
+00:03:10,159 --> 00:03:11,046
+see it's an odd number,
+
+70
+00:03:11,046 --> 00:03:13,389
+if it's not divisible by 2, it's definitely not going to be
+
+71
+00:03:13,389 --> 00:03:14,412
+divisible by four.
+
+72
+00:03:14,412 --> 00:03:17,930
+This one is not divisible by any of the first four numbers
+
+73
+00:03:17,930 --> 00:03:20,845
+88. Is that divisible by 4?
+
+74
+00:03:20,845 --> 00:03:26,111
+You can do that in your head. That's 4 x 22!
+
+75
+00:03:26,111 --> 00:03:30,662
+So this is divisible by 4.
+
+76
+00:03:30,662 --> 00:03:34,447
+Now let's see, 4 goes into 60 15 times
+
+77
+00:03:34,447 --> 00:03:36,464
+and then to go from 60 to 70 you have to go another 10,
+
+78
+00:03:36,464 --> 00:03:40,075
+so it's not divisible by four.
+
+79
+00:03:40,075 --> 00:03:41,794
+You could even try to divide it out yourself.
+
+80
+00:03:41,794 --> 00:03:47,458
+Four goes into 70, 1 time, subtract get 30,
+
+81
+00:03:47,458 --> 00:03:55,758
+7 times, multiply, subtract, get a 2 over here as your remainder.
+
+82
+00:03:55,758 --> 00:03:59,448
+So it is not divisible by 4,
+
+83
+00:03:59,448 --> 00:04:04,016
+Now let's move on to five.
+
+84
+00:04:04,016 --> 00:04:07,246
+And you are probably already very familiar with this,
+
+85
+00:04:07,246 --> 00:04:10,979
+if your final digit is a 5 or 0, you are divisible by five.
+
+86
+00:04:10,979 --> 00:04:13,029
+So this one's not divisible by 5.
+
+87
+00:04:13,029 --> 00:04:17,430
+This one is divisible by 5.
+
+88
+00:04:17,430 --> 00:04:22,850
+And this you have a 5, as your ones digit, so finally this is divisible by something,
+
+89
+00:04:22,850 --> 00:04:25,511
+it's divisible by 5.
+
+90
+00:04:25,511 --> 00:04:30,248
+Now the number 6. The simple way to think about divisibility by 6
+
+91
+00:04:30,248 --> 00:04:33,059
+is that you have to be divisible by both 2 and 3,
+
+92
+00:04:33,059 --> 00:04:35,344
+to be divisible by 6, because
+
+93
+00:04:35,344 --> 00:04:37,748
+the prime factorization of 6 is
+
+94
+00:04:37,748 --> 00:04:42,066
+2 times 3. So here we're divisible by 2 and 3, so
+
+95
+00:04:42,066 --> 00:04:47,481
+we're going to be divisible by 6.
+
+96
+00:04:47,481 --> 00:04:51,464
+Here we're divisible by 2 and 3, so we're divisible by 6!
+
+97
+00:04:51,464 --> 00:04:52,597
+And if you were just divisible by only a 2
+
+98
+00:04:52,597 --> 00:04:54,909
+or a 3, you wouldn't be able to do this
+
+99
+00:04:54,909 --> 00:04:58,597
+you have to have both 2 and 3
+
+100
+00:04:58,597 --> 00:05:01,697
+and here you're divisible by neither 2 or 3,
+
+101
+00:05:01,697 --> 00:05:05,475
+so you're not going to be divisible by 6.
+
+102
+00:05:05,475 --> 00:05:08,494
+Now let's do the test for 9.
+
+103
+00:05:08,494 --> 00:05:09,767
+The test for 9 is very similar to the test for 3
+
+104
+00:05:09,767 --> 00:05:12,541
+Sum up all the digits. If the sum is divisible by 9,
+
+105
+00:05:12,541 --> 00:05:14,929
+then you're there.
+
+106
+00:05:14,929 --> 00:05:15,998
+We already summed up the digits here,
+
+107
+00:05:15,998 --> 00:05:18,745
+48 is not divisible by 9,
+
+108
+00:05:18,745 --> 00:05:21,365
+if you're not sure, you can add up the digits there and get 12,
+
+109
+00:05:21,365 --> 00:05:24,846
+12 is definitely not divisible by 9.
+
+110
+00:05:24,846 --> 00:05:28,348
+So this thing right over here is not divisible by 9.
+
+111
+00:05:28,348 --> 00:05:31,412
+This one over here we added up all the digits and got 18,
+
+112
+00:05:31,412 --> 00:05:36,520
+18 is divisible by 9.
+
+113
+00:05:36,520 --> 00:05:41,682
+So this one is divisible by 9.
+
+114
+00:05:41,682 --> 00:05:44,160
+And this one over here, you don't even have to add them up,
+
+115
+00:05:44,160 --> 00:05:45,919
+because we already know it's not divisible by 3,
+
+116
+00:05:45,919 --> 00:05:49,315
+if it's not divisible by 3, it can't be divisible by 9
+
+117
+00:05:49,315 --> 00:05:51,134
+but if you did add up the digits, you'd get 19
+
+118
+00:05:51,134 --> 00:05:53,166
+which is not divisible by 9.
+
+119
+00:05:53,166 --> 00:05:56,899
+So this also is not divisible by 9.
+
+120
+00:05:56,899 --> 00:05:58,834
+And finally, divisibility by 10.
+
+121
+00:05:58,834 --> 00:06:00,386
+And this is the easiest one of all.
+
+122
+00:06:00,386 --> 00:06:02,815
+Cause you just have to see if you have a zero
+
+123
+00:06:02,815 --> 00:06:04,160
+in the ones place.
+
+124
+00:06:04,160 --> 00:06:06,901
+You clearly do not have a zero in the ones place here.
+
+125
+00:06:06,901 --> 00:06:09,650
+You do have a zero in the ones place here.
+
+126
+00:06:09,650 --> 00:06:12,676
+So you are divisible by 10 here,
+
+127
+00:06:12,676 --> 00:06:14,980
+are then finally you don't have a zero in the ones place
+
+128
+00:06:14,980 --> 00:06:18,314
+here, so you're not going to be divisible by 10.
+
+129
+00:06:18,314 --> 00:06:19,268
+Another way you could think about it,
+
+130
+00:06:19,268 --> 00:06:21,293
+you have to be divisible by both 2 and 5
+
+131
+00:06:21,293 --> 00:06:23,167
+to be divisible by 10.
+
+132
+00:06:23,167 --> 00:06:26,698
+Here you are divisible by 5, but not 2.
+
+133
+00:06:26,698 --> 00:06:28,563
+Obviously the easiest way is just to see if you have
+
+134
+00:06:28,563 --> 00:06:32,563
+a zero in the ones place.

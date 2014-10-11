@@ -1,0 +1,471 @@
+1
+00:00:00,000 --> 00:00:03,831
+You've probably heard the word "parsec" before
+
+2
+00:00:03,831 --> 00:00:09,149
+in science fiction movies or maybe even in some things dealing with astronomy.
+
+3
+00:00:09,149 --> 00:00:10,820
+And what I want to do with this video is really just tell you
+
+4
+00:00:10,820 --> 00:00:15,325
+where this, where the word and the definition of the word really come from
+
+5
+00:00:15,325 --> 00:00:16,718
+and just to kind of cut to the chase.
+
+6
+00:00:16,718 --> 00:00:18,065
+It's just a unit of distance.
+
+7
+00:00:18,065 --> 00:00:24,467
+It's just about 3.26... 3.26 light years.
+
+8
+00:00:24,467 --> 00:00:27,725
+What I want to do is think about where did this weird distance come from,
+
+9
+00:00:27,725 --> 00:00:30,650
+this distance that is roughly 3.26 light years?
+
+10
+00:00:30,650 --> 00:00:35,000
+It comes from... it comes from the distance...
+
+11
+00:00:35,000 --> 00:00:39,056
+the distance of something...
+
+12
+00:00:39,056 --> 00:00:42,307
+of something, probably a star, but let me say "something"
+
+13
+00:00:42,307 --> 00:00:45,533
+because there are no stars exactly this far away from us.
+
+14
+00:00:45,533 --> 00:00:49,319
+The distance of something whose parallax, or let me say
+
+15
+00:00:49,319 --> 00:00:58,700
+that has... that has... a parallax... parallax... angle
+
+16
+00:00:58,700 --> 00:01:06,038
+of... one arc... one arc second, and the word
+
+17
+00:01:06,038 --> 00:01:12,168
+comes from the "par" in parallax and the second is "arc second".
+
+18
+00:01:12,168 --> 00:01:15,976
+So it's literally "par"... I'm going to do this in a different color...
+
+19
+00:01:15,976 --> 00:01:19,133
+It's literally "parsec".
+
+20
+00:01:19,133 --> 00:01:22,384
+You can think of this as a kind of a parallax... parallax arc second.
+
+21
+00:01:22,384 --> 00:01:23,824
+How far would this thing be?
+
+22
+00:01:23,824 --> 00:01:26,378
+It turns out it's 3.26 light years.
+
+23
+00:01:26,378 --> 00:01:29,333
+So we can actually calculate that, that's essentially what I'm going to do with this video.
+
+24
+00:01:29,333 --> 00:01:31,394
+So let's say there is something...
+
+25
+00:01:31,394 --> 00:01:34,552
+let's say... so this is the sun,
+
+26
+00:01:34,552 --> 00:01:39,056
+this is the earth at some point in time,
+
+27
+00:01:39,056 --> 00:01:43,375
+this is the earth six months later at the opposite end of the orbit.
+
+28
+00:01:43,375 --> 00:01:45,744
+And we are looking at some distance,
+
+29
+00:01:45,744 --> 00:01:50,434
+we're looking at some object, some distance away.
+
+30
+00:01:50,434 --> 00:01:54,056
+We know that this distance right here is 1 astronmical unit,
+
+31
+00:01:54,056 --> 00:01:59,072
+and what we want to do is to figure out the distance of this object.
+
+32
+00:01:59,072 --> 00:02:03,716
+And all we know is that it has a parallax angle of 1 arc second.
+
+33
+00:02:03,716 --> 00:02:05,620
+So let's remind ourselves of what this means.
+
+34
+00:02:05,620 --> 00:02:11,333
+If we are looking right at, right at, remember we're looking from above the solar system,
+
+35
+00:02:11,333 --> 00:02:14,722
+so the earth is rotating in this direction, in either case,
+
+36
+00:02:14,722 --> 00:02:18,716
+and so in this point in the year, we don't know when this is,
+
+37
+00:02:18,716 --> 00:02:20,295
+depends on what star that is,
+
+38
+00:02:20,295 --> 00:02:24,149
+at this point in the year, right at sunrise,
+
+39
+00:02:24,149 --> 00:02:28,050
+right when we first catch the first glimpses of the sun's light,
+
+40
+00:02:28,050 --> 00:02:31,258
+if we look straight up, if we look straight up,
+
+41
+00:02:31,258 --> 00:02:35,899
+the angle, the angle between that object in the night sky
+
+42
+00:02:35,899 --> 00:02:37,537
+and straight up
+
+43
+00:02:37,537 --> 00:02:39,696
+is going to be the parallax angle.
+
+44
+00:02:39,696 --> 00:02:45,533
+So this is going to be 1, this is going to be 1 arc, arc second.
+
+45
+00:02:45,533 --> 00:02:48,995
+And just to make it consistent with the last few videos we did on parallax,
+
+46
+00:02:48,995 --> 00:02:52,478
+let's just visualize how that would look in the night sky.
+
+47
+00:02:52,478 --> 00:02:56,400
+So let me draw the night sky over here,
+
+48
+00:02:56,400 --> 00:02:57,958
+we'll do that in purple maybe
+
+49
+00:02:57,958 --> 00:03:01,719
+Let me draw the night sky over here.
+
+50
+00:03:01,719 --> 00:03:03,391
+This is looking straight up.
+
+51
+00:03:03,391 --> 00:03:07,431
+This is north, south, west, and east.
+
+52
+00:03:07,431 --> 00:03:12,819
+And so you can imagine in this situation, the sun is just rising on the east...
+
+53
+00:03:12,819 --> 00:03:16,301
+The sun is just rising on the east.
+
+54
+00:03:16,301 --> 00:03:18,123
+Let me make it the color of the sun.
+
+55
+00:03:18,123 --> 00:03:20,574
+The sun is just rising on the east.
+
+56
+00:03:20,574 --> 00:03:22,989
+And so this will be towards the direction of the sun.
+
+57
+00:03:22,989 --> 00:03:26,379
+You could imagine that to some degree... well, this is north.
+
+58
+00:03:26,379 --> 00:03:30,048
+North is the top of the earth right here, kind of pointed towards us, out of the screen.
+
+59
+00:03:30,048 --> 00:03:31,905
+South is going into the screen.
+
+60
+00:03:31,905 --> 00:03:33,391
+Hopefully, that helps with the visualization.
+
+61
+00:03:33,391 --> 00:03:38,533
+Or another way to think about it, the sun is rising in the east.
+
+62
+00:03:38,533 --> 00:03:42,401
+This is going to be towards the direction of the sun, of a certain angle from the center.
+
+63
+00:03:42,401 --> 00:03:44,073
+In this case, it's 1 arc second.
+
+64
+00:03:44,073 --> 00:03:46,162
+So, it's going to be right over here.
+
+65
+00:03:46,162 --> 00:03:51,642
+So this, this angle right over here is going to be 1 arc second.
+
+66
+00:03:51,642 --> 00:03:56,379
+And then if we were to see where that object is six months later, it'll be the opposite.
+
+67
+00:03:56,379 --> 00:04:01,000
+We're going to be looking, we're going to be looking in the same... the center of the universe.
+
+68
+00:04:01,000 --> 00:04:03,484
+Or I should say the center of the night sky at that point.
+
+69
+00:04:03,484 --> 00:04:05,388
+The same direction of the universe.
+
+70
+00:04:05,388 --> 00:04:08,314
+The universe actually has no center. We've talked about that many times.
+
+71
+00:04:08,314 --> 00:04:12,401
+If we look at the same direction of the night sky, we'll be looking six months later,
+
+72
+00:04:12,401 --> 00:04:15,048
+and instead of it being at dawn, it will now be at sunset.
+
+73
+00:04:15,048 --> 00:04:18,717
+We'll be just getting the last glimpses of the sun.
+
+74
+00:04:18,717 --> 00:04:22,267
+And so the sun will be setting...
+
+75
+00:04:22,267 --> 00:04:24,382
+the sun will be setting in the west.
+
+76
+00:04:24,382 --> 00:04:26,379
+The sun will be setting in the west.
+
+77
+00:04:26,379 --> 00:04:31,867
+And so this angle, this angle right here, which is also the same thing as a paralax angle,
+
+78
+00:04:31,867 --> 00:04:35,389
+it'll be... this will also be 1 arc second.
+
+79
+00:04:35,389 --> 00:04:37,478
+So this will also be 1 arc second.
+
+80
+00:04:37,478 --> 00:04:40,172
+1 arc second.
+
+81
+00:04:40,172 --> 00:04:43,283
+So let's figure out how far this object is.
+
+82
+00:04:43,283 --> 00:04:49,367
+What is... what is an actual parsec in terms of astronomical units or light years.
+
+83
+00:04:49,367 --> 00:04:53,498
+So if this is 1 arc second, this is going to be...
+
+84
+00:04:53,498 --> 00:04:59,441
+and remember, 1 arc second is equal to one-thirty-six-hundreth (1/3600) of a degree.
+
+85
+00:04:59,441 --> 00:05:00,917
+1/3600th of a degree.
+
+86
+00:05:00,917 --> 00:05:09,243
+So this angle, right over here, is going to be 90-1/3600th.
+
+87
+00:05:09,243 --> 00:05:11,890
+And we just use a little bit of trigonometry.
+
+88
+00:05:11,890 --> 00:05:14,398
+The tangent of this angle.
+
+89
+00:05:14,398 --> 00:05:24,383
+The tangent of 90-1/3600 is going to be this distance in astronomical units divided by 1.
+
+90
+00:05:24,383 --> 00:05:26,705
+Well, you divide anything by 1, it's just going to be that distance.
+
+91
+00:05:26,705 --> 00:05:29,467
+So that's the distance right over there.
+
+92
+00:05:29,467 --> 00:05:35,389
+So we get our calculator out, and we want to find the tangent...
+
+93
+00:05:35,389 --> 00:05:47,696
+the tangent of 90-1/3600, and we will get our distance in astronomical units.
+
+94
+00:05:47,696 --> 00:05:51,333
+206,264.
+
+95
+00:05:51,333 --> 00:05:53,547
+We're going to say 265.
+
+96
+00:05:53,547 --> 00:05:54,708
+So this is going to be equal to...
+
+97
+00:05:54,708 --> 00:06:02,267
+This distance over here is going to be equal to 206,265. I'm just rounding, astronomical units.
+
+98
+00:06:02,267 --> 00:06:08,176
+And if we want to convert that into light years, we just divide.
+
+99
+00:06:08,176 --> 00:06:14,073
+So there are 63,150 light years per astronomical unit...
+
+100
+00:06:14,073 --> 00:06:16,721
+I'm sorry, astronomical units per light year.
+
+101
+00:06:16,721 --> 00:06:19,043
+So this is... let me actually right it down.
+
+102
+00:06:19,043 --> 00:06:22,711
+Just so you make it... I don't want to confuse you with the unit cancellation.
+
+103
+00:06:22,711 --> 00:06:30,049
+So we're dealing with 206,265 astronomical units,
+
+104
+00:06:30,049 --> 00:06:38,362
+and we want to multiply that times 1 light year is equal to 63,115 astronomical units.
+
+105
+00:06:38,362 --> 00:06:41,705
+And we want this in the numerator and the denominator to cancel out.
+
+106
+00:06:41,705 --> 00:06:48,000
+And so if you divide 206,265, this number up here,
+
+107
+00:06:48,000 --> 00:06:53,501
+divided by 63,115, the number of astronomical units in a light year,
+
+108
+00:06:53,501 --> 00:06:57,030
+63,115... let me delete that right over there,
+
+109
+00:06:57,030 --> 00:07:01,071
+we get 3.2 or the way, the way the math worked out here,
+
+110
+00:07:01,071 --> 00:07:03,300
+round to 3.27 light years.
+
+111
+00:07:03,300 --> 00:07:11,102
+So this is equal to... this is equal to roughly 3.27 light years.
+
+112
+00:07:11,102 --> 00:07:13,052
+So I should just show it's approximate right over there.
+
+113
+00:07:13,052 --> 00:07:14,956
+But that's where the parsec comes from.
+
+114
+00:07:14,956 --> 00:07:17,371
+So hopefully, you now you just realize it is just a distance.
+
+115
+00:07:17,371 --> 00:07:20,065
+But even more, you understand where it comes from.
+
+116
+00:07:20,065 --> 00:07:24,291
+It's the distance that an object needs to be from earth
+
+117
+00:07:24,291 --> 00:07:28,284
+in order for it to have a paralax angle of 1 arc second.
+
+118
+00:07:28,284 --> 99:59:59,999
+And that's where the word came from. Paralax. Arc second.

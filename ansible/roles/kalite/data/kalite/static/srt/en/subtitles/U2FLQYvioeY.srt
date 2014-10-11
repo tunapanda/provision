@@ -1,0 +1,897 @@
+1
+00:00:00,000 --> 00:00:00,780
+   
+
+2
+00:00:00,780 --> 00:00:05,590
+We're on problem 17.
+
+3
+00:00:05,590 --> 00:00:09,240
+The sum of three consecutive
+odd integers is 111.
+
+4
+00:00:09,240 --> 00:00:10,920
+That's what they tell
+us at the top.
+
+5
+00:00:10,920 --> 00:00:11,810
+I won't write that.
+
+6
+00:00:11,810 --> 00:00:14,440
+If n represents the least of the
+three integers, which of
+
+7
+00:00:14,440 --> 00:00:15,900
+the following equations
+represents
+
+8
+00:00:15,900 --> 00:00:17,010
+the statement above?
+
+9
+00:00:17,010 --> 00:00:19,610
+So n is the least of the
+three integers, so
+
+10
+00:00:19,610 --> 00:00:21,040
+let's say that's n.
+
+11
+00:00:21,040 --> 00:00:25,440
+So it's the least of three
+consecutive odd integers.
+
+12
+00:00:25,440 --> 00:00:27,970
+So what's the next odd
+integer going to be?
+
+13
+00:00:27,970 --> 00:00:30,080
+It's not going to be n plus 1,
+because n plus 1 is going to
+
+14
+00:00:30,080 --> 00:00:31,110
+be an even integer, right?
+
+15
+00:00:31,110 --> 00:00:34,430
+If this was 3 then the next odd
+integer's going to be 5,
+
+16
+00:00:34,430 --> 00:00:36,870
+which is going to be n plus 2.
+
+17
+00:00:36,870 --> 00:00:41,470
+And then the next one above that
+is going to be n plus 4.
+
+18
+00:00:41,470 --> 00:00:42,240
+And you can try it out.
+
+19
+00:00:42,240 --> 00:00:45,000
+Let's say that n was 3, and
+this is 5, and this is 7.
+
+20
+00:00:45,000 --> 00:00:47,460
+That's three consecutive
+odd integers.
+
+21
+00:00:47,460 --> 00:00:50,820
+And they're telling us
+that the sum is 111.
+
+22
+00:00:50,820 --> 00:00:51,900
+So the sum is 111.
+
+23
+00:00:51,900 --> 00:00:54,870
+What's the sum of these
+three terms?
+
+24
+00:00:54,870 --> 00:00:56,400
+Well, you add up
+the three n's.
+
+25
+00:00:56,400 --> 00:00:59,110
+n plus n plus n is 3n.
+
+26
+00:00:59,110 --> 00:01:02,380
+And then 2 plus 4, 3n plus 6.
+
+27
+00:01:02,380 --> 00:01:05,500
+And that's going to
+be equal to 111.
+
+28
+00:01:05,500 --> 00:01:09,060
+And that is choice D.
+
+29
+00:01:09,060 --> 00:01:10,640
+Maybe I just confused you
+how I wrote this.
+
+30
+00:01:10,640 --> 00:01:13,880
+All I did is I said that's the
+same thing as n plus n plus 2
+
+31
+00:01:13,880 --> 00:01:19,640
+plus n plus 4, which is
+equal to 3n plus 6.
+
+32
+00:01:19,640 --> 00:01:20,890
+Next problem.
+
+33
+00:01:20,890 --> 00:01:30,300
+   
+
+34
+00:01:30,300 --> 00:01:31,160
+Problem 8.
+
+35
+00:01:31,160 --> 00:01:32,150
+And they do this arc.
+
+36
+00:01:32,150 --> 00:01:33,720
+It looks something like that.
+
+37
+00:01:33,720 --> 00:01:35,920
+It actually looks better
+than what I just drew,
+
+38
+00:01:35,920 --> 00:01:39,190
+but you get the point.
+
+39
+00:01:39,190 --> 00:01:42,030
+So there's like a distance of 2,
+and then there's a distance
+
+40
+00:01:42,030 --> 00:01:43,700
+of b, it looks like.
+
+41
+00:01:43,700 --> 00:01:53,800
+So it's 2 then b then 2 then
+b then 2 then b again.
+
+42
+00:01:53,800 --> 00:01:55,630
+The figure above shows part
+of a circle whose
+
+43
+00:01:55,630 --> 00:01:57,660
+circumference is 45.
+
+44
+00:01:57,660 --> 00:02:01,260
+So the circumference of
+the circle is 45.
+
+45
+00:02:01,260 --> 00:02:05,600
+If arcs of length 2 and length b
+continue to alternate around
+
+46
+00:02:05,600 --> 00:02:08,509
+the entire circle, so this is
+just part of the circle and
+
+47
+00:02:08,509 --> 00:02:10,889
+they just keep going
+around the circle.
+
+48
+00:02:10,889 --> 00:02:12,470
+They just keep going around the
+circle so that there are
+
+49
+00:02:12,470 --> 00:02:16,020
+18 arcs of each length.
+
+50
+00:02:16,020 --> 00:02:19,990
+What is the degree measure of
+each of the arcs of length b?
+
+51
+00:02:19,990 --> 00:02:23,690
+So they say there's 18
+arcs of each length.
+
+52
+00:02:23,690 --> 00:02:27,880
+They say that there are 18 of
+these arcs of lengths 2, and
+
+53
+00:02:27,880 --> 00:02:31,690
+there's 18 of these b segments
+because they're saying this
+
+54
+00:02:31,690 --> 00:02:33,620
+is-- well, they drew
+this as part of the
+
+55
+00:02:33,620 --> 00:02:35,300
+whole circle, right?
+
+56
+00:02:35,300 --> 00:02:40,050
+So that means that if the entire
+circumference is 45,
+
+57
+00:02:40,050 --> 00:02:43,385
+but in terms of 2's and b's, we
+know that there's 18 2's ,
+
+58
+00:02:43,385 --> 00:02:45,660
+so it's 18 times 2.
+
+59
+00:02:45,660 --> 00:02:49,990
+And then we also know that there
+are 18 b's, plus 18b.
+
+60
+00:02:49,990 --> 00:02:51,940
+This is another way of writing
+the circumference of the
+
+61
+00:02:51,940 --> 00:02:54,540
+circle. because they say that
+the circumference is made of
+
+62
+00:02:54,540 --> 00:02:59,660
+18 of these arcs and 18 of these
+b arcs here, so this is
+
+63
+00:02:59,660 --> 00:03:01,270
+also equal to the circumference
+of the circle,
+
+64
+00:03:01,270 --> 00:03:04,890
+which they told us is 45.
+
+65
+00:03:04,890 --> 00:03:07,500
+Now let's see, this is 36.
+
+66
+00:03:07,500 --> 00:03:13,800
+18 times 2 plus 18b
+is equal to 45.
+
+67
+00:03:13,800 --> 00:03:15,260
+Subtract 36 from both sides.
+
+68
+00:03:15,260 --> 00:03:18,900
+You get 18b is equal to 9.
+
+69
+00:03:18,900 --> 00:03:26,710
+b is equal to 9/18, which
+is equal to 1/2.
+
+70
+00:03:26,710 --> 00:03:28,070
+Now what are they asking?
+
+71
+00:03:28,070 --> 00:03:33,310
+What is the degree measure of
+each of the arcs of length b?
+
+72
+00:03:33,310 --> 00:03:40,190
+So we know that each b is 1/2.
+
+73
+00:03:40,190 --> 00:03:40,760
+And actually, you know what?
+
+74
+00:03:40,760 --> 00:03:42,720
+We could have gone
+to this step.
+
+75
+00:03:42,720 --> 00:03:47,180
+We could have said that 18 b's--
+well, no, actually, this
+
+76
+00:03:47,180 --> 00:03:51,680
+is-- each b is of length
+1/2, right?
+
+77
+00:03:51,680 --> 00:03:55,410
+So what fraction is that of
+the entire circumference?
+
+78
+00:03:55,410 --> 00:03:57,120
+This length right here is 1/2.
+
+79
+00:03:57,120 --> 00:03:58,370
+That's what we just
+solved, right?
+
+80
+00:03:58,370 --> 00:04:02,840
+You saying there's going to be
+18 b's and 18 arcs of length 2
+
+81
+00:04:02,840 --> 00:04:04,120
+and they all add up to 45.
+
+82
+00:04:04,120 --> 00:04:04,715
+We solve for b.
+
+83
+00:04:04,715 --> 00:04:05,770
+It's 1/2.
+
+84
+00:04:05,770 --> 00:04:07,910
+We want to figure out what's
+the degree measure.
+
+85
+00:04:07,910 --> 00:04:12,600
+So to figure out the degree
+measure, we say, well, 1/2 is
+
+86
+00:04:12,600 --> 00:04:18,230
+to the circumference of the
+entire circle, which is 45, is
+
+87
+00:04:18,230 --> 00:04:22,000
+equal to the degree measure over
+the total degrees in the
+
+88
+00:04:22,000 --> 00:04:25,460
+entire circle, because the
+fraction in terms of the
+
+89
+00:04:25,460 --> 00:04:27,520
+circumference is the same thing
+it's going to be in
+
+90
+00:04:27,520 --> 00:04:30,430
+terms of degrees as a fraction
+of 360 degrees.
+
+91
+00:04:30,430 --> 00:04:30,680
+Why?
+
+92
+00:04:30,680 --> 00:04:33,320
+Because there's 360 degrees
+in the circle.
+
+93
+00:04:33,320 --> 00:04:35,010
+So let's cross-multiply this.
+
+94
+00:04:35,010 --> 00:04:39,690
+1/2 times 360 degrees, so you
+get 180 degrees-- that's 1/2
+
+95
+00:04:39,690 --> 00:04:44,020
+times 360-- is equal to 45x.
+
+96
+00:04:44,020 --> 00:04:49,130
+So x is equal to 180
+divided by 45.
+
+97
+00:04:49,130 --> 00:04:51,780
+And what's 180 divided by 45?
+
+98
+00:04:51,780 --> 00:04:55,740
+Let's see, 40 goes into 160,
+it's 4 times, right?
+
+99
+00:04:55,740 --> 00:04:56,730
+x is equal to 4.
+
+100
+00:04:56,730 --> 00:04:58,540
+4 times 45, right?
+
+101
+00:04:58,540 --> 00:05:00,450
+So x is equal to 4 degrees.
+
+102
+00:05:00,450 --> 00:05:01,690
+And that's choice A.
+
+103
+00:05:01,690 --> 00:05:03,230
+That also makes sense
+intuitively.
+
+104
+00:05:03,230 --> 00:05:06,970
+4 degrees is a very small amount
+of degrees, so that
+
+105
+00:05:06,970 --> 00:05:09,190
+makes sense if you were
+going from the center.
+
+106
+00:05:09,190 --> 00:05:12,270
+I know what I just drew just
+probably confused you.
+
+107
+00:05:12,270 --> 00:05:14,290
+Hopefully, you get the idea.
+
+108
+00:05:14,290 --> 00:05:16,620
+Figure out how long the b's
+are and then what fraction
+
+109
+00:05:16,620 --> 00:05:19,430
+that is of the entire
+circumference and then that's
+
+110
+00:05:19,430 --> 00:05:23,120
+what fraction it is
+of 360 degrees.
+
+111
+00:05:23,120 --> 00:05:25,830
+Problem 19.
+
+112
+00:05:25,830 --> 00:05:29,090
+The cost of maintenance on
+an automobile increases
+
+113
+00:05:29,090 --> 00:05:31,190
+each year by 10%.
+
+114
+00:05:31,190 --> 00:05:34,340
+And Andrew paid $300 this year
+for maintenance on his
+
+115
+00:05:34,340 --> 00:05:35,080
+automobile.
+
+116
+00:05:35,080 --> 00:05:36,110
+Fine.
+
+117
+00:05:36,110 --> 00:05:40,620
+If the cost c for maintenance on
+Andrew's automobile n years
+
+118
+00:05:40,620 --> 00:05:44,680
+from now is given by the
+function, so c of n is equal
+
+119
+00:05:44,680 --> 00:05:52,230
+to 300x to the n, what
+is the value of x?
+
+120
+00:05:52,230 --> 00:05:55,860
+So they say every year the
+cost increases by 10%.
+
+121
+00:05:55,860 --> 00:05:59,130
+So what does it mean
+to increase by 10%.
+
+122
+00:05:59,130 --> 00:06:03,150
+Let me say the cost in year 1,
+let's say the cost in year 1
+
+123
+00:06:03,150 --> 00:06:06,350
+is going to be-- what's
+the cost in year 2?
+
+124
+00:06:06,350 --> 00:06:11,040
+It's going to be the cost of
+year 1 increased by 10%.
+
+125
+00:06:11,040 --> 00:06:17,710
+So plus 0.1 times the cost in
+year 1, which is equal to 1.1
+
+126
+00:06:17,710 --> 00:06:20,410
+times the cost in year 1.
+
+127
+00:06:20,410 --> 00:06:26,320
+The cost in year 3 is equal to
+1.1 times the cost in year 2,
+
+128
+00:06:26,320 --> 00:06:28,830
+which is the same
+thing as what?
+
+129
+00:06:28,830 --> 00:06:35,630
+1.1 times the cost of year
+2, which is this.
+
+130
+00:06:35,630 --> 00:06:40,620
+1.1 times 1.1, cost of year
+1, which is the same
+
+131
+00:06:40,620 --> 00:06:45,210
+thing as 1.1 squared.
+
+132
+00:06:45,210 --> 00:06:49,900
+So every year that you go out,
+you're essentially just taking
+
+133
+00:06:49,900 --> 00:06:53,070
+1.1 to that power of how many
+years you're going out.
+
+134
+00:06:53,070 --> 00:06:55,240
+Actually, I should probably make
+this cost of year 0, make
+
+135
+00:06:55,240 --> 00:06:58,620
+this cost of year 1, 0, 0, 0.
+
+136
+00:06:58,620 --> 00:07:00,956
+This is probably confusing you,
+but cost of year 2, so
+
+137
+00:07:00,956 --> 00:07:05,020
+then the exponents at least
+match up: 1 and then 0.
+
+138
+00:07:05,020 --> 00:07:06,500
+Then the exponents match up.
+
+139
+00:07:06,500 --> 00:07:11,450
+The cost of year 2 is 1.1
+squared times cost of year 0.
+
+140
+00:07:11,450 --> 00:07:13,790
+So as you can see, all we're
+doing when we're doing this,
+
+141
+00:07:13,790 --> 00:07:15,290
+this is kind of an exponential
+growth problem.
+
+142
+00:07:15,290 --> 00:07:17,540
+But they're just saying
+what is this base?
+
+143
+00:07:17,540 --> 00:07:19,440
+But when you increase something
+by 10%, you're
+
+144
+00:07:19,440 --> 00:07:22,080
+essentially multiplying
+it by 1., so
+
+145
+00:07:22,080 --> 00:07:23,510
+that's all they're asking.
+
+146
+00:07:23,510 --> 00:07:26,330
+So that's choice C.
+
+147
+00:07:26,330 --> 00:07:27,580
+Next problem.
+
+148
+00:07:27,580 --> 00:07:33,490
+   
+
+149
+00:07:33,490 --> 00:07:40,341
+They drew this parallelogram,
+which I have not drawn well.
+
+150
+00:07:40,341 --> 00:07:41,670
+It gets the point.
+
+151
+00:07:41,670 --> 00:07:49,910
+   
+
+152
+00:07:49,910 --> 00:07:57,060
+A, B, C, D.
+
+153
+00:07:57,060 --> 00:07:59,720
+If the five line segments in
+the figure above are all
+
+154
+00:07:59,720 --> 00:08:02,930
+congruent-- OK, so the five
+lines, these are all
+
+155
+00:08:02,930 --> 00:08:05,940
+congruent, so they're all
+equal to each other.
+
+156
+00:08:05,940 --> 00:08:08,530
+all of those sides, what
+is the ratio of the
+
+157
+00:08:08,530 --> 00:08:10,990
+length of AC, not drawn?
+
+158
+00:08:10,990 --> 00:08:14,870
+So they want to know AC,
+so that's this length.
+
+159
+00:08:14,870 --> 00:08:20,560
+They want to know
+AC to length BD.
+
+160
+00:08:20,560 --> 00:08:21,160
+All right.
+
+161
+00:08:21,160 --> 00:08:24,270
+So all of those lines
+are congruent.
+
+162
+00:08:24,270 --> 00:08:24,480
+You know what?
+
+163
+00:08:24,480 --> 00:08:25,590
+Let's just pick a number.
+
+164
+00:08:25,590 --> 00:08:27,290
+That's what I find to
+be easiest when
+
+165
+00:08:27,290 --> 00:08:28,260
+they tell us it all.
+
+166
+00:08:28,260 --> 00:08:32,669
+So let's just say that this
+is 1, this is 1, this
+
+167
+00:08:32,669 --> 00:08:34,990
+is 1, this is 1.
+
+168
+00:08:34,990 --> 00:08:37,510
+This whole thing is
+going to be 1.
+
+169
+00:08:37,510 --> 00:08:41,590
+So how long is this and this?
+
+170
+00:08:41,590 --> 00:08:44,830
+This will bisect this
+line, right?
+
+171
+00:08:44,830 --> 00:08:48,230
+I think we know that about
+parallelograms that the two
+
+172
+00:08:48,230 --> 00:08:51,450
+lines bisect each other,
+the two diagonals.
+
+173
+00:08:51,450 --> 00:08:56,466
+So this is going to be 1/2, and
+this is going to be 1/2.
+
+174
+00:08:56,466 --> 00:08:58,730
+And there's also something
+else we know.
+
+175
+00:08:58,730 --> 00:09:05,900
+We know that this is 60 degrees,
+this is 60 degrees,
+
+176
+00:09:05,900 --> 00:09:11,710
+that this whole angle is 60
+degrees, this whole angle is
+
+177
+00:09:11,710 --> 00:09:12,280
+60 degrees.
+
+178
+00:09:12,280 --> 00:09:13,010
+And how do we know that?
+
+179
+00:09:13,010 --> 00:09:14,770
+Before we drew the green line,
+we knew that both of those
+
+180
+00:09:14,770 --> 00:09:17,980
+triangles are equilateral
+triangles.
+
+181
+00:09:17,980 --> 00:09:21,610
+So if this whole angle was 60
+degrees, then this angle right
+
+182
+00:09:21,610 --> 00:09:24,410
+here is going to
+be 30 degrees.
+
+183
+00:09:24,410 --> 00:09:26,870
+And I think you see where
+I'm going with this.
+
+184
+00:09:26,870 --> 00:09:30,980
+This is a 30-60-90 triangle
+where this is 1-- that's the
+
+185
+00:09:30,980 --> 00:09:32,610
+hypotenuse-- this is 1/2.
+
+186
+00:09:32,610 --> 00:09:35,960
+And then what is the side
+opposite the 60-degree side,
+
+187
+00:09:35,960 --> 00:09:36,915
+which is this?
+
+188
+00:09:36,915 --> 00:09:41,896
+The square root of 3 times
+this side right here.
+
+189
+00:09:41,896 --> 00:09:45,520
+The square root of 3/2.
+
+190
+00:09:45,520 --> 00:09:46,250
+And so would this one.
+
+191
+00:09:46,250 --> 00:09:50,500
+This one would also be
+square root of 3/2.
+
+192
+00:09:50,500 --> 00:09:52,350
+I know maybe it's a
+little confusing.
+
+193
+00:09:52,350 --> 00:09:54,360
+Actually, I'm about to run out
+of time, so I will continue
+
+194
+00:09:54,360 --> 00:09:56,110
+this in the next video.

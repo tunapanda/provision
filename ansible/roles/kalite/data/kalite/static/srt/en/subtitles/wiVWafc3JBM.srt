@@ -1,0 +1,323 @@
+1
+99:59:59,999 --> 99:59:59,999
+We're now in the home stretch. We just need to evaluate
+
+2
+99:59:59,999 --> 99:59:59,999
+this third surface integral, which is over in this top part
+
+3
+99:59:59,999 --> 99:59:59,999
+of our little chopped cylinder over here. So let's try to think
+
+4
+99:59:59,999 --> 99:59:59,999
+of a paramaterization- and let me just copy and paste this entire
+
+5
+99:59:59,999 --> 99:59:59,999
+drawing, just so that I can use it down below
+
+6
+99:59:59,999 --> 99:59:59,999
+as I parameterize it. So let me copy it, copy...
+
+7
+99:59:59,999 --> 99:59:59,999
+...and then go all the way down here, and let me paste it.
+
+8
+99:59:59,999 --> 99:59:59,999
+Okay, that is our shape again, our surface,
+
+9
+99:59:59,999 --> 99:59:59,999
+and then we go to the layer that I want to get on
+
+10
+99:59:59,999 --> 99:59:59,999
+and then let me start. Let me start evaluating it.
+
+11
+99:59:59,999 --> 99:59:59,999
+So what we want to care about is the integral over surface three
+
+12
+99:59:59,999 --> 99:59:59,999
+of z, ds.
+
+13
+99:59:59,999 --> 99:59:59,999
+In surface 3 here, we see that the x and y values essentially
+
+14
+99:59:59,999 --> 99:59:59,999
+take on all the x and y values inside of the unit circle,
+
+15
+99:59:59,999 --> 99:59:59,999
+including the boundary,
+
+16
+99:59:59,999 --> 99:59:59,999
+and that the z values are going to be a function of the x values.
+
+17
+99:59:59,999 --> 99:59:59,999
+We know that this plane, that this top surface right over here, s3,
+
+18
+99:59:59,999 --> 99:59:59,999
+is a subset of the plane z, z is equal to 1-x.
+
+19
+99:59:59,999 --> 99:59:59,999
+It's a subset that's kind of above the unit circle in the x-y plane.
+
+20
+99:59:59,999 --> 99:59:59,999
+or kind of the subset that intersects with our cylinder
+
+21
+99:59:59,999 --> 99:59:59,999
+and kind of chops it.
+
+22
+99:59:59,999 --> 99:59:59,999
+So let's think about x and y first.
+
+23
+99:59:59,999 --> 99:59:59,999
+So first, so x- let's think about it in terms of polar coordinates
+
+24
+99:59:59,999 --> 99:59:59,999
+because that's probably the easiest way to think about it.
+
+25
+99:59:59,999 --> 99:59:59,999
+I'm going to re-draw kind of a top view,
+
+26
+99:59:59,999 --> 99:59:59,999
+so I'm going to re-draw top view so that
+
+27
+99:59:59,999 --> 99:59:59,999
+that is my y-axis,
+
+28
+99:59:59,999 --> 99:59:59,999
+and this is my x-axis,
+
+29
+99:59:59,999 --> 99:59:59,999
+and the x's and y's can take on any value.
+
+30
+99:59:59,999 --> 99:59:59,999
+They essentially have to fill the unit circle.
+
+31
+99:59:59,999 --> 99:59:59,999
+So if you, if you were to kind of project
+
+32
+99:59:59,999 --> 99:59:59,999
+this top surface down onto the x-y plane,
+
+33
+99:59:59,999 --> 99:59:59,999
+you would get this Rn surface, that bottom surface,
+
+34
+99:59:59,999 --> 99:59:59,999
+which looked like this.
+
+35
+99:59:59,999 --> 99:59:59,999
+It was essentially the unit circle,
+
+36
+99:59:59,999 --> 99:59:59,999
+just like that.
+
+37
+99:59:59,999 --> 99:59:59,999
+I'm going to draw it a little bit neater than that,
+
+38
+99:59:59,999 --> 99:59:59,999
+I can do a better job, so that'll be...all right.
+
+39
+99:59:59,999 --> 99:59:59,999
+So let me draw the unit circle as neatly as I can,
+
+40
+99:59:59,999 --> 99:59:59,999
+so there's my unit circle.
+
+41
+99:59:59,999 --> 99:59:59,999
+And so we can have one parameter
+
+42
+99:59:59,999 --> 99:59:59,999
+that essentially says how far around
+
+43
+99:59:59,999 --> 99:59:59,999
+the unit circle we're going,
+
+44
+99:59:59,999 --> 99:59:59,999
+so essentially that would be our angle,
+
+45
+99:59:59,999 --> 99:59:59,999
+and let's use theta,
+
+46
+99:59:59,999 --> 99:59:59,999
+because that's, what, just for fun,
+
+47
+99:59:59,999 --> 99:59:59,999
+because we haven't used theta
+
+48
+99:59:59,999 --> 99:59:59,999
+as our parameter yet.
+
+49
+99:59:59,999 --> 99:59:59,999
+That's theta, but if we had x's or y's,
+
+50
+99:59:59,999 --> 99:59:59,999
+it's just a function of theta and we had a fixed radius,
+
+51
+99:59:59,999 --> 99:59:59,999
+that would essentially just give us the points
+
+52
+99:59:59,999 --> 99:59:59,999
+on the outside of the unit circle.
+
+53
+99:59:59,999 --> 99:59:59,999
+But we need to be able to have all of the
+
+54
+99:59:59,999 --> 99:59:59,999
+x-y's that are on the outside AND the inside of the unit circle.
+
+55
+99:59:59,999 --> 99:59:59,999
+So we actually have to have 2 parameters.
+
+56
+99:59:59,999 --> 99:59:59,999
+We need to not only vary this angle,
+
+57
+99:59:59,999 --> 99:59:59,999
+but we also need to vary the radius.
+
+58
+99:59:59,999 --> 99:59:59,999
+So we would want to trace out the outside of that unit circle,
+
+59
+99:59:59,999 --> 99:59:59,999
+and maybe we would want to shorten it at little bit,
+
+60
+99:59:59,999 --> 99:59:59,999
+and then trace it out again.
+
+61
+99:59:59,999 --> 99:59:59,999
+And then shorten it some more, and then trace it out again.
+
+62
+99:59:59,999 --> 99:59:59,999
+And so you want to actually have a variable radius as well,
+
+63
+99:59:59,999 --> 99:59:59,999
+and so you could have how far out you're going.
+
+64
+99:59:59,999 --> 99:59:59,999
+You could call that r.
+
+65
+99:59:59,999 --> 99:59:59,999
+So, for example, if r is fixed
+
+66
+99:59:59,999 --> 99:59:59,999
+And you change the ranges of theta
+
+67
+99:59:59,999 --> 99:59:59,999
+then you would essentially get all of those points
+
+68
+99:59:59,999 --> 99:59:59,999
+right over there.
+
+69
+99:59:59,999 --> 99:59:59,999
+You would do that for all of the r's,
+
+70
+99:59:59,999 --> 99:59:59,999
+and from r to zero, all the way to r1,
+
+71
+99:59:59,999 --> 99:59:59,999
+and you would essentially fill up the entire unit circle.
+
+72
+99:59:59,999 --> 99:59:59,999
+And so let's do that.
+
+73
+99:59:59,999 --> 99:59:59,999
+So r is going to go between 0 and 1,
+
+74
+99:59:59,999 --> 99:59:59,999
+r is going to go between 0 and 1,
+
+75
+99:59:59,999 --> 99:59:59,999
+and our theta is going to all the way around.
+
+76
+99:59:59,999 --> 99:59:59,999
+So our theta is going to go between 0 and 2π.
+
+77
+99:59:59,999 --> 99:59:59,999
+This is- let me write this down;
+
+78
+99:59:59,999 --> 99:59:59,999
+I wrote 0 instead of theta.
+
+79
+99:59:59,999 --> 99:59:59,999
+Our theta is going to be greater than or equal to 0,
+
+80
+99:59:59,999 --> 99:59:59,999
+less than or equal to 2π,
+
+81
+99:59:59,999 --> 99:59:59,999
+and now we're ready to parameterize it.

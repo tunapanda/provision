@@ -1,0 +1,235 @@
+1
+00:00:01,000 --> 00:00:02,460
+Problem 94.
+
+2
+00:00:03,570 --> 00:00:05,270
+In Jefferson School,
+
+3
+00:00:05,370 --> 00:00:10,620
+300 students study French or Spanish or both. OK.
+
+4
+00:00:10,620 --> 00:00:11,900
+And they have to do one of those two.
+
+5
+00:00:11,900 --> 00:00:13,970
+If 100 of these students do not study French--
+
+6
+00:00:13,970 --> 00:00:18,010
+so this sounds like a Venn Diagram. Let's see.
+
+7
+00:00:19,550 --> 00:00:20,910
+So let's say that's French.
+
+8
+00:00:20,910 --> 00:00:23,020
+And I'll do Spanish in a different color.
+
+9
+00:00:23,020 --> 00:00:28,600
+Let's say that is Spanish. And we have 300 students,
+
+10
+00:00:28,600 --> 00:00:31,030
+and they study either French or Spanish.
+
+11
+00:00:31,530 --> 00:00:34,100
+If 100 of these students do not study French--
+
+12
+00:00:34,100 --> 00:00:37,430
+so what did I say? This was French and this is Spanish.
+
+13
+00:00:37,630 --> 00:00:39,690
+So 100 of these students do not study French.
+
+14
+00:00:39,690 --> 00:00:46,480
+So this area right here is 100. Right?
+
+15
+00:00:46,480 --> 00:00:49,070
+Those are people who study Spanish but no French at all.
+
+16
+00:00:49,070 --> 00:00:52,590
+How many of these students study both French and Spanish?
+
+17
+00:00:52,590 --> 00:00:55,190
+So what they want to know is the intersection of who
+
+18
+00:00:55,190 --> 00:00:56,810
+studies French and Spanish.
+
+19
+00:00:56,810 --> 00:00:58,370
+So that's this blue area right here.
+
+20
+00:00:59,010 --> 00:01:03,510
+So statement number one tells us, of the 300 students,
+
+21
+00:01:03,510 --> 00:01:06,340
+60 do not study Spanish.
+
+22
+00:01:13,080 --> 00:01:17,390
+So people who study French but no Spanish--
+
+23
+00:01:18,390 --> 00:01:20,520
+and I didn't mean they know Spanish.
+
+24
+00:01:20,520 --> 00:01:23,310
+People who study French and do not study Spanish,
+
+25
+00:01:23,310 --> 00:01:27,850
+that's this right here. And that's 60. Right?
+
+26
+00:01:28,000 --> 00:01:30,060
+And let's see if we can use this information to figure out
+
+27
+00:01:30,060 --> 00:01:31,680
+what the intersection is.
+
+28
+00:01:32,000 --> 00:01:33,550
+So if you think about it,
+
+29
+00:01:33,950 --> 00:01:37,550
+what we want to do is the whole universe.
+
+30
+00:01:37,550 --> 00:01:41,600
+So the whole universe is going to be equal to the people who
+
+31
+00:01:41,600 --> 00:01:49,010
+study-- so this 60 people plus--we'll call that the
+
+32
+00:01:49,010 --> 00:01:51,560
+intersection, or we could call that French and Spanish--
+
+33
+00:01:52,220 --> 00:01:55,230
+plus this blue area, plus this tan area. Right?
+
+34
+00:01:55,230 --> 00:01:59,070
+That's the whole universe. And that is equal to 300.
+
+35
+00:01:59,070 --> 00:02:03,540
+So people who study French and Spanish plus 160
+
+36
+00:02:03,540 --> 00:02:05,020
+is equal to 300.
+
+37
+00:02:06,020 --> 00:02:10,800
+Subtract 160 from both sides and you get the people who
+
+38
+00:02:10,800 --> 00:02:14,030
+study just French and Spanish. That's what? That's 240.
+
+39
+00:02:14,530 --> 00:02:20,390
+That's 140 people who study both French and Spanish.
+
+40
+00:02:20,390 --> 00:02:22,610
+So statement one is sufficient.
+
+41
+00:02:22,610 --> 00:02:25,050
+Let's see what statement two gets us.
+
+42
+00:02:25,050 --> 00:02:27,190
+Statement two tells us,
+
+43
+00:02:27,190 --> 00:02:32,020
+a total of 240 of the students study Spanish.
+
+44
+00:02:32,020 --> 00:02:34,010
+So in statement two, we don't know this.
+
+45
+00:02:34,010 --> 00:02:39,050
+But we know that a total of 240 students study Spanish,right?
+
+46
+00:02:40,550 --> 00:02:42,530
+So we know that this whole circle is 240.
+
+47
+00:02:42,530 --> 00:02:44,910
+And if we're just trying to figure out this blue part,
+
+48
+00:02:44,910 --> 00:02:47,000
+we just have to subtract out the tan part.
+
+49
+00:02:48,000 --> 00:02:51,060
+So if we want to know French and Spanish, French and Spanish
+
+50
+00:02:51,060 --> 00:02:55,330
+is going to be equal to the whole amount that study Spanish--
+
+51
+00:02:55,330 --> 00:02:59,470
+which they just told us, 240-- minus just the people
+
+52
+00:02:59,470 --> 00:03:01,630
+who study only Spanish. Right?
+
+53
+00:03:01,630 --> 00:03:03,030
+Because you could study Spanish and French.
+
+54
+00:03:03,530 --> 00:03:07,320
+So 240 people who study Spanish minus the people who
+
+55
+00:03:07,320 --> 00:03:09,030
+just study Spanish. So that's 100.
+
+56
+00:03:09,030 --> 00:03:12,010
+That's that tan area. That also equals 140.
+
+57
+00:03:12,010 --> 00:03:14,760
+So both statements individually are sufficient to
+
+58
+00:03:14,760 --> 00:03:15,640
+answer this question.
+
+59
+00:03:15,640 --> 00:03:18,020
+So the answer is D.

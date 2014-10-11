@@ -1,0 +1,107 @@
+1
+00:00:00,502 --> 00:00:05,667
+Solve using the elimination method and they tell us the sum of two numbers is 70
+
+2
+00:00:05,667 --> 00:00:12,267
+Their difference is 24. What are the two numbers? So let's use this first sentence. Let's construct an equation from
+
+3
+00:00:12,267 --> 00:00:17,000
+this first sentence. Lets construct an constraint. The sum of two numbers, lets call them x and y.
+
+4
+00:00:17,000 --> 00:00:23,133
+So their sum, x + y is equal to 70. That's what this first sentence tells us.
+
+5
+00:00:23,133 --> 00:00:30,133
+The second sentence tells us their difference is 24. So that means that x minus y is equal
+
+6
+00:00:30,133 --> 00:00:35,533
+to 24. We're going to assume that x is the larger of the two numbers and y is the smaller one.
+
+7
+00:00:35,533 --> 00:00:39,800
+So when you take a difference like this you get a positive 24. So you have system of two
+
+8
+00:00:39,800 --> 00:00:44,133
+equations with two unknowns and they want us to solve it using the elimination method so let's
+
+9
+00:00:44,133 --> 00:00:51,467
+do that. So we can literally just add these two questions. On the left side we would have a positive
+
+10
+00:00:51,467 --> 00:00:56,733
+y and a negative y over here, and they would just cancel out. So if we were to just add these equations, they would
+
+11
+00:00:56,733 --> 00:01:01,933
+cancel out, so if we were able to just add these two equations we would be able to eliminate
+
+12
+00:01:01,933 --> 00:01:04,400
+the y's. So lets do that. So (x plus y) plus (x minus y). Well the plus y and the minus y
+
+13
+00:01:04,400 --> 00:01:10,867
+cancel out and you're left with x plus an x which is 2x. And that is going to be equal to 70 plus
+
+14
+00:01:10,867 --> 00:01:17,267
+24. 70 plus 24 is equal to 94. And I want to make it clear. I mentioned it in previous videos.
+
+15
+00:01:17,267 --> 00:01:21,933
+That this process of adding equations to each other. This is nothing new, we're really just
+
+16
+00:01:21,933 --> 00:01:28,733
+adding the same thing to both side of this equation. You could say we're adding 24 to both sides of t
+
+17
+00:01:28,733 --> 00:01:32,800
+this equation. Over here we're explicitly adding 24 to the 70. And over here you could say
+
+18
+00:01:32,800 --> 00:01:38,533
+we could add 24 to x plus y. But the second constraint tells us that x minus y is the same thing
+
+19
+00:01:38,533 --> 00:01:43,400
+as 24. So we're adding the same thing to both sides. Here we're calling it 24, here we're calling it
+
+20
+00:01:43,400 --> 00:01:50,467
+x minus y. And we were able to eliminate the y. So we get 2x is equal to 94 now we can divide both sides
+
+21
+00:01:50,467 --> 00:01:58,333
+by 2. And we are left with x is equal to 47.
+
+22
+00:01:58,333 --> 00:02:03,067
+And now we can substitute back into either one of these equations to solve for y.
+
+23
+00:02:03,067 --> 00:02:08,800
+So let's try this first one over here. So we have 47 plus y is equal to
+
+24
+00:02:08,800 --> 00:02:16,400
+70. We can subtract 47 from both sides of this equation. So we subtract 47 and we are left with
+
+25
+00:02:16,400 --> 00:02:25,267
+y is equal to 23. And you can verify that this works. If you add the two numbers
+
+26
+00:02:25,267 --> 00:02:33,746
+47 plus 23 you definitely get 70. If you take 47 minus 23 you definitely get 24.
+
+27
+00:02:33,746 --> 99:59:59,999
+So it definitely meets both constraints.

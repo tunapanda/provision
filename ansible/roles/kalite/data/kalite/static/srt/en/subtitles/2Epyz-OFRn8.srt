@@ -1,0 +1,279 @@
+1
+00:00:00,333 --> 00:00:06,400
+This right here is a picture of the famous Fenway Park in Boston and what I wanna do is figure out, if
+
+2
+00:00:06,400 --> 00:00:17,692
+I have a batter who hits a ball, and they hit a ball right when it's 1 meter above home plate and they
+
+3
+00:00:17,692 --> 00:00:24,000
+hit it at the perfect 45 degree angle, the perfect angle you need to have the optimal carrying distance.
+
+4
+00:00:24,000 --> 00:00:29,400
+I wanna figure out what the velocity, or how fast they have to hit the ball, or what is that initial
+
+5
+00:00:29,400 --> 00:00:35,913
+velocity of the ball need to be in order for it to cross the Green Monster, in ordrer for it to be a
+
+6
+00:00:35,913 --> 00:00:43,933
+home run, so the ball's path is gonna look something like that. And I wanna figure out how fast does
+
+7
+00:00:43,933 --> 00:00:52,733
+it have to be hit. The Green Monster is about 96 meters away from home plate and its about 11.3 meters
+
+8
+00:00:52,733 --> 00:01:02,067
+tall. So let's think about this a little bit. Our initial velocity looks like this. We're starting 1
+
+9
+00:01:02,067 --> 00:01:25,898
+meter above home plate. Its going to be hit at a 45 degree angle at some velocity. This is that vector
+
+10
+00:01:25,898 --> 00:01:39,200
+right over here. The angle with the horizontal is 45 degrees. The magnitude of this vector right here,
+
+11
+00:01:39,200 --> 00:01:56,133
+let's call it our initial velocity vector, and the magnitude of it, I'll just call it 'lower case initial velocity', so this isn't a vector right here, this is just its magnitude.
+
+12
+00:01:56,133 --> 00:02:01,580
+So how can we represent this vector in engineering notation, well we just have to figure out the magnitudes
+
+13
+00:02:01,580 --> 00:02:09,608
+of its horizontal and vertical components, or it's X and Y components. So the magnitude of its horizontal
+
+14
+00:02:09,608 --> 00:02:16,231
+component is going to be v sub i, its gonna be this magnitude times the cosine of theta - comes from basic
+
+15
+00:02:16,231 --> 00:02:22,667
+trigonometry, we go into depth in that in previous videos - so v sub i cosine of theta, thats it's horizontal
+
+16
+00:02:22,667 --> 00:02:28,067
+component, the magnitude of its horizontal component. And the magnitude of its vertical component, we've
+
+17
+00:02:28,067 --> 00:02:36,386
+done this many times before as well, is the magnitude of the vector times the sine of theta, and actually
+
+18
+00:02:36,386 --> 00:02:42,563
+we know what theta is so I don't actually have to write the theta - theta is, we know the angle, theta
+
+19
+00:02:42,563 --> 00:02:47,300
+is the general Greek letter that you would use for the angle - but we know that the angle is 45 degrees
+
+20
+00:02:47,300 --> 00:02:57,656
+so I say v sub i times the cosine of 45 degrees and then the vertical component is going to be the magnitude of our vector, v sub i
+
+21
+00:02:57,656 --> 00:03:06,308
+times sine of 45 degrees. And both cosine of 45 degrees and sine of 45 degrees are both square root of
+
+22
+00:03:06,308 --> 00:03:14,305
+2 over 2, thats the easiest ones to have in your brain, although you can use a calculator if you don't
+
+23
+00:03:14,305 --> 00:03:23,333
+remember that. And so if we want to write our vector, our initial velocity vector, and now I'm making explicit its a vector
+
+24
+00:03:23,333 --> 00:03:32,300
+is equal to the sum of these two vectors, so its the magnitude of the x component is v sub i times square
+
+25
+00:03:32,300 --> 00:03:38,400
+root of 2 over 2, actually let me write is this way, is equal to square root of 2 over 2 times v sub i,
+
+26
+00:03:38,400 --> 00:03:45,977
+times the magnitude of our initial velocity, times, and then the direction this is just a magnitude right
+
+27
+00:03:45,977 --> 00:03:53,221
+now, times, and the direction is in the 'i' direction so we can multiply this times the 'i' unit vector,
+
+28
+00:03:53,221 --> 00:04:01,580
+I'll do that in orange. The 'i' unit vector has magnitude 1 and its pointed in the positive x direction.
+
+29
+00:04:01,580 --> 00:04:08,267
+So this is telling us the direction, we're going in the positive x direction. Now let's do the same for the vertical component.
+
+30
+00:04:08,267 --> 00:04:18,200
+The magnitude of square root of 2 over 2 times v sub i, and its going in the positive vertical direction.
+
+31
+00:04:18,200 --> 00:04:25,685
+Or we can just multiply this times the 'j' unit vector, this is a vector that has magnitude 1 going in
+
+32
+00:04:25,685 --> 00:04:33,067
+the positive y direction, and so we're just scaling it by this much to get this vector right over here.
+
+33
+00:04:33,067 --> 00:04:42,355
+Now what we want to do is think about the displacement that this ball is going to have to go through
+
+34
+00:04:42,355 --> 00:04:59,180
+in order to clear the Green Monster. So in the x direction its going to be displaced 96 meters, and in
+
+35
+00:04:59,180 --> 00:05:07,804
+the y direction, the wall is 11.3 meters high, but its already starting off 1 meter high so the wall
+
+36
+00:05:07,804 --> 00:05:14,400
+let me make it clear the wall and I'm not drawing this to scale - let me do this in a different color
+
+37
+00:05:14,400 --> 00:05:22,200
+I should do it in green cause its the Green Monster - so the wall is 11.3 meters high but the actual
+
+38
+00:05:22,200 --> 00:05:30,067
+displacement, let me just draw this as a wall, but the actual displacement doesn't have to be 11.3 meters
+
+39
+00:05:30,067 --> 00:05:36,682
+it has to be, if we're starting at 1 meter altitude, we have to get 10.3 more meters in altitude, so
+
+40
+00:05:36,682 --> 00:05:48,010
+the displacement has to be 10.3 meters in the vertical direction. So if we want our displacement vector
+
+41
+00:05:48,010 --> 00:05:53,395
+right when its crossing the wall, it should be, or lets think about it right when its, if it was just
+
+42
+00:05:53,395 --> 00:05:57,364
+good enough to hit the top part of the wall, let's think about what that displacement vector would have
+
+43
+00:05:57,364 --> 00:06:02,600
+to be and we'll solve for that velocity and then any velocity better than that will make it go even further
+
+44
+00:06:02,600 --> 00:06:07,800
+and faster and higher and all of the rest of the things. So right when its crossing the wall, if we want
+
+45
+00:06:07,800 --> 00:06:14,907
+it to just skim by or just hit the tip of the wall, our displacement vector, maybe I'll call it 'displacement
+
+46
+00:06:14,907 --> 00:06:28,284
+necessary', when its 96 meters in the x direction - I just put this 'n' for necessary - when its 96 meters
+
+47
+00:06:28,284 --> 00:06:33,532
+in the x direction, and I won't write the units now just for simplicity, when its 96 meters in the x
+
+48
+00:06:33,532 --> 00:06:43,600
+direction it has to have and upward displacement of 10.3 meters in the y direction, so plus 10.3 times
+
+49
+00:06:43,600 --> 00:06:49,733
+the 'j' unit vector, this is our necessary displacement. So lets just think about displacement as a funtion
+
+50
+00:06:49,733 --> 00:06:56,775
+of elapsed time and then figure out what the necessary velocity would be to get this displacement at
+
+51
+00:06:56,775 --> 00:07:05,641
+some point, to get this necessary displacement. So our displacement is a funtion of time, let me write
+
+52
+00:07:05,641 --> 00:07:11,778
+it over here, our displacement is a funtion of time - instead of writing the delta 't's like I've been
+
+53
+00:07:11,778 --> 00:07:21,575
+doing in all of the other videos I'll just write time - but this is elapsed time since ball hit. So
+
+54
+00:07:21,575 --> 00:07:25,308
+you could view it as the change in time since the ball hit as well but not writing the delta over and
+
+55
+00:07:25,308 --> 00:07:31,001
+over again will just simplify the writing a little bit. So that's going to be equal to, and we've proven
+
+56
+00:07:31,001 --> 00:07:38,246
+this formula to ourselves multiple times, we derived it in multiple videos, but the gereral formula is,
+
+57
+00:07:38,246 --> 00:07:55,185
+its equal to your initial velocity times elapsed time, I've used delta t in multiple videos, plus the acceleration vector, and actually your
+
+58
+00:07:55,185 --> 00:08:07,133
+intial velocity is also a vector, plus your acceleration vector, times time squared over 2 and we've
+
+59
+00:08:07,133 --> 00:08:11,275
+seen this multiple times but whats neat about this problem is since we've already wrote our stuff in
+
+60
+00:08:11,275 --> 00:08:17,467
+engineering notation we can just go ahead and straight up and apply this formula that we've already derived
+
+61
+00:08:17,467 --> 00:08:24,129
+in multiply videos. But before we do that you might say "well whats the acceleration vector going to be if we think about it in two dimensions"
+
+62
+00:08:24,129 --> 00:08:30,200
+well the acceleration vector is the acceleration due to gravity on an object in free fall near the surface
+
+63
+00:08:30,200 --> 00:08:39,570
+of the planet, so this is going to be, its not going to have any x component - I can just write zero I
+
+64
+00:08:39,570 --> 00:08:47,800
+don't have to write that - and its y component is negative 9.8, I won't write the units here for this problem to save space
+
+65
+00:08:47,800 --> 00:08:55,661
+negative 9.8 meters per second squared in the vertical direction, so if we scale the 'j' vector by negative
+
+66
+00:08:55,661 --> 00:09:02,534
+9.8 the negative points it down and then we scale it by 9.8 this is the acceleration due to gravity.
+
+67
+00:09:02,534 --> 00:09:10,533
+So we have, I think, everything we need. What we'll do is we'll set up two constraints and then we can
+
+68
+00:09:10,533 --> 00:09:21,800
+solve for the magnitude of our initial velocity, and I realize I'm already close to ten minutes,
+
+69
+00:09:21,800 --> 00:09:25,759
+so now that we've set up the problem I think this is a good pausing time you might want to try it for
+
+70
+00:09:25,759 --> 99:59:59,999
+yourself and we'll tackle it in the next video.

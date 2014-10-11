@@ -1,0 +1,1051 @@
+1
+00:00:01,105 --> 00:00:02,145
+Let's do some more problems
+
+2
+00:00:02,145 --> 00:00:04,556
+that involve the ideal gas equation.
+
+3
+00:00:04,556 --> 00:00:06,680
+Let's say I have a gas in a container
+
+4
+00:00:06,680 --> 00:00:15,323
+and the current pressure is 3 atmospheres.
+
+5
+00:00:15,323 --> 00:00:19,756
+And let's say that the volume of the container
+
+6
+00:00:19,756 --> 00:00:27,413
+is, I don't know, 9 liters.
+
+7
+00:00:27,413 --> 00:00:30,136
+Now, what will the pressure become
+
+8
+00:00:30,136 --> 00:00:39,280
+if my volume goes from 9 liters to 3 liters?
+
+9
+00:00:39,280 --> 00:00:42,183
+So from the first ideal gas equation video
+
+10
+00:00:42,183 --> 00:00:43,348
+you can kind of have the intuition
+
+11
+00:00:43,348 --> 00:00:46,935
+that you have a bunch of-- and we're holding--
+
+12
+00:00:46,935 --> 00:00:47,901
+and this is important.
+
+13
+00:00:47,901 --> 00:00:50,763
+We're holding the temperature constant
+
+14
+00:00:50,763 --> 00:00:52,541
+and that's an important thing to realize.
+
+15
+00:00:52,541 --> 00:00:58,384
+So in our very original intuition
+
+16
+00:00:58,384 --> 00:01:00,354
+behind the ideal gas equation we said,
+
+17
+00:01:00,354 --> 00:01:02,990
+look, if we have a certain number of particles
+
+18
+00:01:02,990 --> 00:01:06,850
+with a certain amount of kinetic energy,
+
+19
+00:01:06,850 --> 00:01:08,826
+and they're exerting a certain pressure
+
+20
+00:01:08,826 --> 00:01:09,778
+on their container,
+
+21
+00:01:09,778 --> 00:01:14,370
+and if we were to make the container smaller,
+
+22
+00:01:14,370 --> 00:01:16,198
+we have the same number of particles.
+
+23
+00:01:16,198 --> 00:01:17,434
+n doesn't change.
+
+24
+00:01:17,434 --> 00:01:19,882
+The average kinetic energy doesn't change,
+
+25
+00:01:19,882 --> 00:01:21,656
+so they're just going to bump into the walls more.
+
+26
+00:01:21,656 --> 00:01:24,216
+So that when we make the volume smaller,
+
+27
+00:01:24,216 --> 00:01:26,734
+when the volume goes up----
+
+28
+00:01:26,734 --> 00:01:27,757
+when the volume goes down,
+
+29
+00:01:27,757 --> 00:01:30,068
+the pressure should go up.
+
+30
+00:01:30,068 --> 00:01:32,621
+So let's see if we can calculate the exact number.
+
+31
+00:01:32,621 --> 00:01:35,429
+So we can take our ideal gas equation:
+
+32
+00:01:35,429 --> 00:01:41,872
+pressure times volume is equal to nRT.
+
+33
+00:01:41,872 --> 00:01:44,316
+Now, do the number of particles change
+
+34
+00:01:44,316 --> 00:01:47,981
+when I did this situation when I shrunk the volume?
+
+35
+00:01:47,981 --> 00:01:48,650
+No!
+
+36
+00:01:48,650 --> 00:01:49,758
+We have the same number of particles.
+
+37
+00:01:49,758 --> 00:01:50,925
+I'm just shrinking the container,
+
+38
+00:01:50,925 --> 00:01:55,200
+so n is n, R doesn't change, that's a constant,
+
+39
+00:01:55,200 --> 00:01:57,223
+and then the temperature doesn't change.
+
+40
+00:01:57,223 --> 00:02:00,319
+So my old pressure times volume
+
+41
+00:02:00,319 --> 00:02:02,689
+is going to be equal to nRT,
+
+42
+00:02:02,689 --> 00:02:04,311
+and my new pressure times volume--
+
+43
+00:02:04,311 --> 00:02:07,946
+so let me call this P1 and V1.
+
+44
+00:02:07,946 --> 00:02:11,001
+and then P2 is this----
+
+45
+00:02:11,001 --> 00:02:15,595
+sorry, that's V2.
+
+46
+00:02:15,595 --> 00:02:21,703
+so V2 is this, and we're trying to figure out P2.
+
+47
+00:02:21,703 --> 00:02:23,134
+P2 is what?
+
+48
+00:02:23,134 --> 00:02:31,354
+Well, we know that P1 times V1 is equal to nRT,
+
+49
+00:02:31,354 --> 00:02:33,396
+and we also know that since temperature and
+
+50
+00:02:33,396 --> 00:02:35,984
+the number of moles of our gas stay constant,
+
+51
+00:02:35,984 --> 00:02:40,787
+that P2 times V2 is equal to nRT.
+
+52
+00:02:40,787 --> 00:02:43,196
+And since they both equal the same thing,
+
+53
+00:02:43,196 --> 00:02:45,673
+we can say that the pressure times the volume,
+
+54
+00:02:45,673 --> 00:02:47,799
+as long as the temperature is held constant,
+
+55
+00:02:47,799 --> 00:02:49,201
+will be a constant.
+
+56
+00:02:49,201 --> 00:02:55,764
+So P1 times V1 is going to equal P2 times V2.
+
+57
+00:02:55,764 --> 00:02:57,939
+So what was P1?
+
+58
+00:02:57,939 --> 00:03:03,233
+P1, our initial pressure, was 3 atmospheres.
+
+59
+00:03:06,633 --> 00:03:12,024
+So 3 atmospheres times 9 liters is equal to
+
+60
+00:03:12,024 --> 00:03:15,977
+our new pressure times 3 liters.
+
+61
+00:03:15,977 --> 00:03:18,992
+And if we divide both sides of the equation by 3,
+
+62
+00:03:18,992 --> 00:03:24,701
+we get 3 liters cancel out,
+
+63
+00:03:24,701 --> 00:03:33,637
+we're left with 9 atmospheres.
+
+64
+00:03:33,637 --> 00:03:34,799
+And that should make sense.
+
+65
+00:03:34,799 --> 00:03:39,258
+When you decrease the volume by 2/3
+
+66
+00:03:39,258 --> 00:03:40,304
+or when you make the volume
+
+67
+00:03:40,304 --> 00:03:42,939
+1/3 of your original volume,
+
+68
+00:03:42,939 --> 00:03:46,199
+then your pressure increases by a factor of three.
+
+69
+00:03:46,199 --> 00:03:51,571
+So this went by times 3, and this went by times 1/3.
+
+70
+00:03:51,571 --> 00:03:52,898
+That's a useful thing to know in general.
+
+71
+00:03:52,898 --> 00:03:55,201
+If temperature is held constant,
+
+72
+00:03:55,201 --> 00:03:57,478
+then pressure times volume
+
+73
+00:03:57,478 --> 00:03:59,111
+are going to be a constant.
+
+74
+00:03:59,111 --> 00:04:00,958
+Now, you can take that even further.
+
+75
+00:04:00,958 --> 00:04:06,878
+If we look at PV equals nRT,
+
+76
+00:04:06,878 --> 00:04:09,162
+the two things that we know don't change
+
+77
+00:04:09,162 --> 00:04:11,840
+in the vast majority of exercises we do
+
+78
+00:04:11,840 --> 00:04:13,535
+is the number of molecules we're dealing with,
+
+79
+00:04:13,535 --> 00:04:15,529
+and obviously, R isn't going to change.
+
+80
+00:04:15,529 --> 00:04:18,265
+So if we divide both sides of this by T,
+
+81
+00:04:18,265 --> 00:04:23,165
+we get PV over T is equal to nR,
+
+82
+00:04:23,165 --> 00:04:24,918
+or you could say it's equal to a constant.
+
+83
+00:04:24,918 --> 00:04:27,203
+This is going to be a constant number for any system
+
+84
+00:04:27,203 --> 00:04:28,629
+where we're not changing
+
+85
+00:04:28,629 --> 00:04:31,524
+the number of molecules in the container.
+
+86
+00:04:31,524 --> 00:04:33,373
+So, if we are changing the pressure----
+
+87
+00:04:33,373 --> 00:04:35,653
+So if initially we start with
+
+88
+00:04:35,653 --> 00:04:40,000
+pressure one, volume one, and some temperature one
+
+89
+00:04:40,000 --> 00:04:41,501
+that's going to be equal to this constant.
+
+90
+00:04:41,501 --> 00:04:44,192
+And if we change any of them,
+
+91
+00:04:44,192 --> 00:04:44,731
+we go back to
+
+92
+00:04:44,731 --> 00:04:48,861
+pressure two, volume two, temperature two,
+
+93
+00:04:48,861 --> 00:04:50,470
+they should still be equal to this constant,
+
+94
+00:04:50,470 --> 00:04:51,467
+so they equal each other.
+
+95
+00:04:51,467 --> 00:04:55,350
+So for example, let's say I start off with a
+
+96
+00:04:55,350 --> 00:05:01,076
+pressure of 1 atmosphere.
+
+97
+00:05:01,076 --> 00:05:05,066
+and I have a volume of----
+
+98
+00:05:05,066 --> 00:05:08,613
+I'll switch units here just to do things differently
+
+99
+00:05:08,613 --> 00:05:10,639
+----2 meters cubed.
+
+100
+00:05:10,639 --> 00:05:20,209
+And let's say our temperature is 27 degrees Celsius.
+
+101
+00:05:20,209 --> 00:05:21,742
+Well, and I just wrote Celsius
+
+102
+00:05:21,742 --> 00:05:22,697
+because I want you to always remember
+
+103
+00:05:22,697 --> 00:05:23,973
+you have to convert to Kelvin,
+
+104
+00:05:23,973 --> 00:05:27,830
+so 27 degrees plus 273 will get us
+
+105
+00:05:27,830 --> 00:05:33,154
+exactly to 300 Kelvin.
+
+106
+00:05:33,154 --> 00:05:39,531
+And let's say that our new temperature is
+
+107
+00:05:39,531 --> 00:05:40,631
+Actually let's figure out what the new temperature
+
+108
+00:05:40,631 --> 00:05:41,418
+is going to be.
+
+109
+00:05:41,418 --> 00:05:46,270
+Let's say our new pressure is 2 atmospheres.
+
+110
+00:05:46,270 --> 00:05:47,884
+The pressure has increased.
+
+111
+00:05:47,884 --> 00:05:50,014
+Let's say we make the container smaller,
+
+112
+00:05:50,014 --> 00:05:52,487
+so 1 meter cubed.
+
+113
+00:05:52,487 --> 00:05:55,101
+So the container has been decreased by half
+
+114
+00:05:55,101 --> 00:05:56,680
+and the pressure is doubled by half.
+
+115
+00:05:56,680 --> 00:05:57,591
+So you could guess.
+
+116
+00:05:57,591 --> 00:06:02,154
+You know, we have made the pressure higher----
+
+117
+00:06:02,154 --> 00:06:08,179
+Let me make the container even smaller.
+
+118
+00:06:08,179 --> 00:06:08,771
+Actually, no.
+
+119
+00:06:08,771 --> 00:06:10,709
+Let me make the pressure even larger.
+
+120
+00:06:10,709 --> 00:06:14,257
+Let me make the pressure into 5 atmospheres.
+
+121
+00:06:14,257 --> 00:06:16,937
+Now we want to know what the second temperature is
+
+122
+00:06:16,937 --> 00:06:18,810
+and we set up our equation.
+
+123
+00:06:18,810 --> 00:06:19,533
+And so we have
+
+124
+00:06:19,533 --> 00:06:28,103
+2/300 atmosphere meters cubed per Kelvin
+
+125
+00:06:28,103 --> 00:06:32,687
+is equal to 5/T2, our new temperature,
+
+126
+00:06:32,687 --> 00:06:40,148
+and then we have 1,500 is equal to 2T2.
+
+127
+00:06:40,148 --> 00:06:41,372
+Divide both sides by 2.
+
+128
+00:06:41,372 --> 00:06:46,902
+You have T2 is equal to 750 degrees Kelvin,
+
+129
+00:06:46,902 --> 00:06:48,314
+which makes sense, right?
+
+130
+00:06:48,314 --> 00:06:50,537
+We increased the pressure so much
+
+131
+00:06:50,537 --> 00:06:53,288
+and we decreased the volume at the same time
+
+132
+00:06:53,288 --> 00:06:55,638
+that the temperature just had to go up.
+
+133
+00:06:55,638 --> 00:06:56,553
+Or if you thought of it the other way,
+
+134
+00:06:56,553 --> 00:06:58,176
+maybe we increased the temperature
+
+135
+00:06:58,176 --> 00:06:59,500
+and that's what drove the pressure
+
+136
+00:06:59,500 --> 00:07:00,691
+to be so much higher,
+
+137
+00:07:00,691 --> 00:07:03,874
+especially since we decreased the volume.
+
+138
+00:07:03,874 --> 00:07:05,398
+I guess the best way to think about is
+
+139
+00:07:05,398 --> 00:07:08,233
+this pressure went up so much,
+
+140
+00:07:08,233 --> 00:07:10,196
+it went up by factor of five,
+
+141
+00:07:10,196 --> 00:07:12,477
+it went from 1 atmosphere to 5 atmospheres,
+
+142
+00:07:12,477 --> 00:07:14,374
+because on one level
+
+143
+00:07:14,374 --> 00:07:18,032
+we shrunk the volume by a factor of 1/2,
+
+144
+00:07:18,032 --> 00:07:19,685
+so that should have doubled the pressure,
+
+145
+00:07:19,685 --> 00:07:21,903
+so that should have gotten us to two atmospheres.
+
+146
+00:07:21,903 --> 00:07:23,783
+And then we made the temperature a lot higher,
+
+147
+00:07:23,783 --> 00:07:25,407
+so we were also bouncing into the container.
+
+148
+00:07:25,407 --> 00:07:27,901
+We made the temperature 750 degrees Kelvin,
+
+149
+00:07:27,901 --> 00:07:29,892
+so more than double the temperature,
+
+150
+00:07:29,892 --> 00:07:33,879
+and then that's what got us to 5 atmospheres.
+
+151
+00:07:33,879 --> 00:07:37,988
+Now, one other thing that you'll probably hear about
+
+152
+00:07:37,988 --> 00:07:39,689
+is the notion of what happens
+
+153
+00:07:39,689 --> 00:07:42,475
+at standard temperature and pressure.
+
+154
+00:07:42,475 --> 00:07:44,038
+Let me delete all of the stuff over here.
+
+155
+00:07:44,038 --> 00:07:47,572
+Standard temperature and pressure.
+
+156
+00:07:47,572 --> 00:07:51,532
+Let me delete all this stuff that I don't need.
+
+157
+00:07:52,886 --> 00:07:56,809
+Standard temperature and pressure.
+
+158
+00:07:56,809 --> 00:07:57,466
+And I'm bringing it up
+
+159
+00:07:57,466 --> 00:07:58,690
+because even though it's called
+
+160
+00:07:58,690 --> 00:07:59,881
+standard temperature and pressure,
+
+161
+00:07:59,881 --> 00:08:03,704
+and sometimes called STP,
+
+162
+00:08:03,704 --> 00:08:05,740
+unfortunately for the world,
+
+163
+00:08:05,740 --> 00:08:07,840
+they haven't really standardized
+
+164
+00:08:07,840 --> 00:08:13,742
+what the standard pressure and temperature are.
+
+165
+00:08:13,742 --> 00:08:15,916
+I went to Wikipedia and I looked it up.
+
+166
+00:08:15,916 --> 00:08:16,882
+And the one that you'll probably see
+
+167
+00:08:16,882 --> 00:08:19,986
+in most physics classes and most standardized tests
+
+168
+00:08:19,986 --> 00:08:23,935
+is standard temperature is 0 degrees celsius,
+
+169
+00:08:23,935 --> 00:08:26,837
+which is, of course, 273 degrees Kelvin.
+
+170
+00:08:26,837 --> 00:08:30,302
+And standard pressure is 1 atmosphere.
+
+171
+00:08:30,302 --> 00:08:31,241
+And here on Wikipedia,
+
+172
+00:08:31,241 --> 00:08:38,533
+they wrote it as 101.325 kilopascals,
+
+173
+00:08:38,533 --> 00:08:41,341
+or a little more than 101,000 pascals.
+
+174
+00:08:41,341 --> 00:08:44,246
+of course, a pascal is a newton per square meter.
+
+175
+00:08:44,246 --> 00:08:45,968
+In all of this stuff, the units are really
+
+176
+00:08:45,968 --> 00:08:47,665
+the hardest part to get a hold of.
+
+177
+00:08:47,665 --> 00:08:49,741
+But let's say that we assume
+
+178
+00:08:49,741 --> 00:08:50,676
+these are all different
+
+179
+00:08:50,676 --> 00:08:52,195
+standard temperatures and pressures
+
+180
+00:08:52,195 --> 00:08:54,878
+based on different standard-making bodies.
+
+181
+00:08:54,878 --> 00:08:55,783
+So they can't really agree with each other.
+
+182
+00:08:55,783 --> 00:08:57,259
+But let's say we took this as
+
+183
+00:08:57,259 --> 00:09:00,889
+the definition of standard temperature and pressure.
+
+184
+00:09:00,889 --> 00:09:04,604
+So we're assuming that temperature
+
+185
+00:09:04,604 --> 00:09:07,227
+is equal to 0 degrees Celsius,
+
+186
+00:09:07,227 --> 00:09:11,203
+which is equal to 273 degrees Kelvin.
+
+187
+00:09:11,203 --> 00:09:15,255
+And pressure, we're assuming, is 1 atmosphere,
+
+188
+00:09:15,255 --> 00:09:16,075
+which could also be written as
+
+189
+00:09:16,075 --> 00:09:22,440
+101.325 or 3/8 kilopascals.
+
+190
+00:09:22,440 --> 00:09:26,349
+So my question is if I have an ideal gas
+
+191
+00:09:26,349 --> 00:09:30,021
+at standard temperature and pressure,
+
+192
+00:09:30,021 --> 00:09:36,453
+how many moles of that do I have in 1 liter?
+
+193
+00:09:36,453 --> 00:09:37,583
+No, let me say that the other way.
+
+194
+00:09:37,583 --> 00:09:40,868
+How many liters will 1 mole take up?
+
+195
+00:09:40,868 --> 00:09:43,785
+So let me say that a little bit more.
+
+196
+00:09:43,785 --> 00:09:46,384
+So n is equal to 1 mole.
+
+197
+00:09:46,384 --> 00:09:48,940
+So I want to figure out what my volume is.
+
+198
+00:09:48,940 --> 00:09:50,657
+So if I have 1 mole of a gas,
+
+199
+00:09:50,657 --> 00:09:55,556
+I have 6.02 times 10 to 23 molecules of that gas.
+
+200
+00:09:55,556 --> 00:09:58,456
+It's at standard pressure, 1 atmosphere,
+
+201
+00:09:58,456 --> 00:10:01,002
+and at standard temperature, 273 degrees,
+
+202
+00:10:01,002 --> 00:10:03,455
+what is the volume of that gas?
+
+203
+00:10:03,455 --> 00:10:07,745
+So let's apply PV is equal to nRT.
+
+204
+00:10:07,745 --> 00:10:10,096
+Pressure is 1 atmosphere,
+
+205
+00:10:10,096 --> 00:10:11,748
+but remember we're dealing with atmospheres.
+
+206
+00:10:11,748 --> 00:10:15,362
+1 atmosphere times volume
+
+207
+00:10:15,362 --> 00:10:16,656
+that's what we're solving for.
+
+208
+00:10:16,656 --> 00:10:18,043
+I'll do that in purple
+
+209
+00:10:18,043 --> 00:10:22,007
+is equal to 1 mole, we have 1 mole of the gas,
+
+210
+00:10:22,007 --> 00:10:29,312
+times R, times temperature, times 273.
+
+211
+00:10:29,312 --> 00:10:31,786
+Now this is in Kelvin; this is in moles.
+
+212
+00:10:31,786 --> 00:10:39,508
+We want our volume in liters.
+
+213
+00:10:39,508 --> 00:10:41,562
+So which version of R should we use?
+
+214
+00:10:41,562 --> 00:10:44,414
+Well, we're dealing with atmospheres.
+
+215
+00:10:44,414 --> 00:10:46,609
+We want our volume in liters,
+
+216
+00:10:46,609 --> 00:10:48,029
+and of course, we have moles in Kelvin,
+
+217
+00:10:48,029 --> 00:10:50,531
+so we'll use this version, 0.082.
+
+218
+00:10:50,531 --> 00:10:52,210
+So this is 1,
+
+219
+00:10:52,210 --> 00:10:54,866
+so we can ignore the 1 there, the 1 there.
+
+220
+00:10:54,866 --> 00:10:56,388
+So the volume is equal to
+
+221
+00:10:56,388 --> 00:11:02,204
+0.082 times 273 degrees Kelvin,
+
+222
+00:11:02,204 --> 00:11:19,229
+and that is 0.082 times 273 is equal to 22.4 liters.
+
+223
+00:11:19,229 --> 00:11:21,429
+So if I have any ideal gas,
+
+224
+00:11:21,429 --> 00:11:24,079
+and all gases don't behave ideally ideal,
+
+225
+00:11:24,079 --> 00:11:25,475
+but if I have an ideal gas
+
+226
+00:11:25,475 --> 00:11:26,930
+and it's at standard temperature,
+
+227
+00:11:26,930 --> 00:11:29,099
+which is at 0 degrees Celsius,
+
+228
+00:11:29,099 --> 00:11:30,423
+or the freezing point of water,
+
+229
+00:11:30,423 --> 00:11:32,423
+which is also 273 degrees Kelvin,
+
+230
+00:11:32,423 --> 00:11:33,713
+and I have a mole of it,
+
+231
+00:11:33,713 --> 00:11:37,559
+and it's at standard pressure, 1 atmosphere,
+
+232
+00:11:37,559 --> 00:11:42,479
+that gas should take up exactly 22.4 liters.
+
+233
+00:11:42,479 --> 00:11:44,796
+And if you wanted to know how many meters cubed
+
+234
+00:11:44,796 --> 00:11:46,385
+it's going to take up.
+
+235
+00:11:46,385 --> 00:11:50,987
+well, you could just say 22.4 liters times----
+
+236
+00:11:50,987 --> 00:11:53,236
+now, how many meters cubed are there----
+
+237
+00:11:53,236 --> 00:11:57,501
+so for every 1 meter cubed, you have 1,000 liters.
+
+238
+00:11:57,501 --> 00:11:59,627
+I know that seems like a lot, but it's true.
+
+239
+00:11:59,627 --> 00:12:02,482
+Just think about how big a meter cubed is.
+
+240
+00:12:02,482 --> 00:12:09,365
+So this would be equal to 0.0224 meters cubed.
+
+241
+00:12:09,365 --> 00:12:12,450
+If you have something at 1 atmosphere, a mole of it,
+
+242
+00:12:12,450 --> 00:12:14,748
+and at 0 degrees Celsius.
+
+243
+00:12:14,748 --> 00:12:16,083
+Anyway, this is actually
+
+244
+00:12:16,083 --> 00:12:17,712
+a useful number to know sometimes.
+
+245
+00:12:17,712 --> 00:12:22,248
+They'll often say you have 2 moles
+
+246
+00:12:22,248 --> 00:12:25,292
+at standard temperature and pressure.
+
+247
+00:12:25,292 --> 00:12:26,966
+How many liters is it going to take up?
+
+248
+00:12:26,966 --> 00:12:29,614
+Well, 1 mole will take up this many,
+
+249
+00:12:29,614 --> 00:12:31,780
+and so 2 moles at standard temperature and pressure
+
+250
+00:12:31,780 --> 00:12:33,436
+will take up twice as much,
+
+251
+00:12:33,436 --> 00:12:34,805
+because you're just taking PV equals nRT
+
+252
+00:12:34,805 --> 00:12:36,272
+and just doubling.
+
+253
+00:12:36,272 --> 00:12:38,790
+Everything else is being held constant.
+
+254
+00:12:38,790 --> 00:12:40,992
+The pressure, everything else is being held constant,
+
+255
+00:12:40,992 --> 00:12:43,043
+so if you double the number of moles,
+
+256
+00:12:43,043 --> 00:12:44,206
+you're going to double the volume it takes up.
+
+257
+00:12:44,206 --> 00:12:46,107
+Or if you half the number of moles,
+
+258
+00:12:46,107 --> 00:12:47,674
+you're going to half the volume it takes up.
+
+259
+00:12:47,674 --> 00:12:49,656
+So it's a useful thing to know that in liters
+
+260
+00:12:49,656 --> 00:12:52,015
+at standard temperature and pressure,
+
+261
+00:12:52,015 --> 00:12:52,911
+where standard temperature and pressure
+
+262
+00:12:52,911 --> 00:12:56,516
+is defined as 1 atmosphere and 273 degrees Kelvin,
+
+263
+00:12:56,516 --> 00:13:00,159
+an idea gas will take up 22.4 liters of volume

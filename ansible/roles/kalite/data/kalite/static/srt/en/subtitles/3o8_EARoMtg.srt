@@ -1,0 +1,987 @@
+1
+00:00:00,000 --> 00:00:00,760
+   
+
+2
+00:00:00,760 --> 00:00:06,010
+Well, we've spent many videostalking about electrostatic
+
+3
+00:00:06,010 --> 00:00:10,160
+fields and the potential on acharge or the potential energy
+
+4
+00:00:10,160 --> 00:00:11,930
+of a charge when it'sin one place.
+
+5
+00:00:11,930 --> 00:00:15,330
+But let's see what happenswhere, given a potential, what
+
+6
+00:00:15,330 --> 00:00:18,060
+happens when we actually allowthe charge to move?
+
+7
+00:00:18,060 --> 00:00:20,490
+And this will probably be a lotmore interesting to you,
+
+8
+00:00:20,490 --> 00:00:26,070
+because you'll learn how muchof the modern world works.
+
+9
+00:00:26,070 --> 00:00:27,436
+So let's say that I havea source of voltage.
+
+10
+00:00:30,170 --> 00:00:32,220
+Let me see how I wantto draw that.
+
+11
+00:00:32,220 --> 00:00:34,430
+I'm going to drawthat like that.
+
+12
+00:00:34,430 --> 00:00:36,930
+   
+
+13
+00:00:36,930 --> 00:00:39,580
+So this is my sourceof voltage,
+
+14
+00:00:39,580 --> 00:00:41,990
+often known as a battery.
+
+15
+00:00:41,990 --> 00:00:43,310
+This is the positive terminal.
+
+16
+00:00:43,310 --> 00:00:44,830
+This is the negative terminal.
+
+17
+00:00:44,830 --> 00:00:48,230
+It's a whole other subject, awhole other video, and I'll
+
+18
+00:00:48,230 --> 00:00:51,080
+make one eventually, ofhow a battery works.
+
+19
+00:00:51,080 --> 00:00:54,590
+But let's just say that nomatter how much current--
+
+20
+00:00:54,590 --> 00:00:58,260
+well, actually, let me explainin a second, but no matter how
+
+21
+00:00:58,260 --> 00:01:01,860
+much charge flows out of oneside of a battery to the other
+
+22
+00:01:01,860 --> 00:01:04,010
+side of the battery,that somehow the
+
+23
+00:01:04,010 --> 00:01:06,040
+voltages remain constant.
+
+24
+00:01:06,040 --> 00:01:08,090
+So that's kind of anon-intuitive thing, because
+
+25
+00:01:08,090 --> 00:01:10,290
+we learned about capacitors, andwe will learn more about
+
+26
+00:01:10,290 --> 00:01:13,180
+capacitors in the context ofcircuits, but what we learned
+
+27
+00:01:13,180 --> 00:01:17,200
+about a capacitor is that if wegot rid of some charge on
+
+28
+00:01:17,200 --> 00:01:19,540
+one end, the total voltageacross the
+
+29
+00:01:19,540 --> 00:01:20,130
+capacitor will decrease.
+
+30
+00:01:20,130 --> 00:01:22,930
+But a battery is thismagical thing.
+
+31
+00:01:22,930 --> 00:01:25,920
+I think it was invented byVolta, and that's why we call
+
+32
+00:01:25,920 --> 00:01:28,040
+everything volts and voltageand all of that.
+
+33
+00:01:28,040 --> 00:01:33,810
+But it's this magical thingthat, even as one side loses
+
+34
+00:01:33,810 --> 00:01:36,900
+charge to the other side, thatthe actual voltage, or the
+
+35
+00:01:36,900 --> 00:01:39,070
+potential betweenthe two sides,
+
+36
+00:01:39,070 --> 00:01:40,420
+actually remains constant.
+
+37
+00:01:40,420 --> 00:01:41,500
+That's the magic of a battery.
+
+38
+00:01:41,500 --> 00:01:43,320
+So let's just assume that wehave one of these magic
+
+39
+00:01:43,320 --> 00:01:44,060
+instruments.
+
+40
+00:01:44,060 --> 00:01:47,520
+You probably have one in yourcalculator or your cellphone.
+
+41
+00:01:47,520 --> 00:01:51,460
+And let's see what happens whenwe allow the charge to
+
+42
+00:01:51,460 --> 00:01:53,990
+actually travel from oneside to the other.
+
+43
+00:01:53,990 --> 00:01:58,200
+So let's say that I have anultra-good conductor.
+
+44
+00:01:58,200 --> 00:02:01,328
+Let's say it's a perfectconductor.
+
+45
+00:02:01,328 --> 00:02:03,180
+It's normally drawn straighterthan what
+
+46
+00:02:03,180 --> 00:02:04,180
+I'm capable of doing.
+
+47
+00:02:04,180 --> 00:02:05,680
+And no, I haven't hadanything to drink
+
+48
+00:02:05,680 --> 00:02:06,930
+before making this video.
+
+49
+00:02:06,930 --> 00:02:12,350
+   
+
+50
+00:02:12,350 --> 00:02:14,270
+So what did I do here?
+
+51
+00:02:14,270 --> 00:02:19,170
+So in the process of kind ofconnecting this positive
+
+52
+00:02:19,170 --> 00:02:21,400
+terminal to the negativeterminal of the battery, I'm
+
+53
+00:02:21,400 --> 00:02:26,630
+also exposing you to commonschematic notation for
+
+54
+00:02:26,630 --> 00:02:29,250
+electrical engineersand electricians,
+
+55
+00:02:29,250 --> 00:02:30,560
+et cetera, et cetera.
+
+56
+00:02:30,560 --> 00:02:34,700
+So what this is, these lineshere essentially are wires.
+
+57
+00:02:34,700 --> 00:02:37,180
+There's no reason why I drewit at a right angle here.
+
+58
+00:02:37,180 --> 00:02:39,970
+I just did that to be neat,those right angles.
+
+59
+00:02:39,970 --> 00:02:42,910
+And it's assumed that this wireis an ideal conductor,
+
+60
+00:02:42,910 --> 00:02:47,310
+that charge can flow freelywithout being impeded.
+
+61
+00:02:47,310 --> 00:02:50,540
+This thing right here, thisscratchy line, this is a
+
+62
+00:02:50,540 --> 00:02:53,540
+resistor, and this is somethingthat will actually
+
+63
+00:02:53,540 --> 00:02:54,970
+impede the charge.
+
+64
+00:02:54,970 --> 00:02:58,630
+It'll keep the charge from goingas fast as possible.
+
+65
+00:02:58,630 --> 00:03:01,680
+And then, of course,out here, this is a
+
+66
+00:03:01,680 --> 00:03:03,770
+perfect conductor again.
+
+67
+00:03:03,770 --> 00:03:07,240
+Now, which way willthe charge flow?
+
+68
+00:03:07,240 --> 00:03:10,190
+Well, I think I've mentionedthis before, but in electric
+
+69
+00:03:10,190 --> 00:03:13,400
+circuits, it's actually theelectrons that are flowing.
+
+70
+00:03:13,400 --> 00:03:16,130
+The electrons are those smallparticles that are going
+
+71
+00:03:16,130 --> 00:03:18,880
+really, really fast aroundthe nucleus of an atom.
+
+72
+00:03:18,880 --> 00:03:21,240
+And it's actually the electronsthat have this
+
+73
+00:03:21,240 --> 00:03:24,390
+fluidity that allow it to flowthrough a conductor.
+
+74
+00:03:24,390 --> 00:03:27,490
+So the actual movement ofobjects, if you call an
+
+75
+00:03:27,490 --> 00:03:30,090
+electron an object, some wouldargue that they're almost just
+
+76
+00:03:30,090 --> 00:03:33,540
+notional objects, but the actualflow is the electrons
+
+77
+00:03:33,540 --> 00:03:37,160
+from the negative terminalto the positive terminal.
+
+78
+00:03:37,160 --> 00:03:42,640
+But the people and all whooriginally created circuit
+
+79
+00:03:42,640 --> 00:03:45,410
+schematics and were thepioneers of electrical
+
+80
+00:03:45,410 --> 00:03:48,390
+engineering and electricians andwhoever, I don't know who
+
+81
+00:03:48,390 --> 00:03:52,500
+came up with it, they decided tosay-- and I think the point
+
+82
+00:03:52,500 --> 00:03:55,450
+here was to confuse people--that the current flows from
+
+83
+00:03:55,450 --> 00:03:56,700
+the positive to the negative.
+
+84
+00:03:56,700 --> 00:04:00,620
+So the direction of the currentis normally given in
+
+85
+00:04:00,620 --> 00:04:05,970
+this direction, and currentis specified by I.
+
+86
+00:04:05,970 --> 00:04:07,340
+And what is current?
+
+87
+00:04:07,340 --> 00:04:08,770
+Well, current-- so wait.
+
+88
+00:04:08,770 --> 00:04:10,690
+Actually, before I tell youwhat is current, just
+
+89
+00:04:10,690 --> 00:04:13,250
+remember, even though peoplesay that the current-- and
+
+90
+00:04:13,250 --> 00:04:15,260
+most textbooks do this, and ifyou become an electrical
+
+91
+00:04:15,260 --> 00:04:17,740
+engineer, people will oftensay that the current is
+
+92
+00:04:17,740 --> 00:04:19,560
+flowing from the positiveterminal to the negative
+
+93
+00:04:19,560 --> 00:04:23,770
+terminal, the actual flowing ofthings actually occurs from
+
+94
+00:04:23,770 --> 00:04:25,810
+the negative terminal tothe positive terminal.
+
+95
+00:04:25,810 --> 00:04:28,610
+It's not like somehow these bigheavy protons and nuclei
+
+96
+00:04:28,610 --> 00:04:32,170
+are somehow travelingthis way.
+
+97
+00:04:32,170 --> 00:04:34,540
+Once you compare the size of anelectron to a proton, you
+
+98
+00:04:34,540 --> 00:04:36,140
+would realize howcrazy that is.
+
+99
+00:04:36,140 --> 00:04:40,110
+It's the electrons, these littlesuper-fast particles
+
+100
+00:04:40,110 --> 00:04:42,730
+that are moving through theconductor from the negative
+
+101
+00:04:42,730 --> 00:04:43,970
+terminal this way.
+
+102
+00:04:43,970 --> 00:04:46,870
+So you could almost view thiscurrent as, the lack of
+
+103
+00:04:46,870 --> 00:04:48,430
+electrons are flowingthis way.
+
+104
+00:04:48,430 --> 00:04:49,310
+I don't want to confuse you.
+
+105
+00:04:49,310 --> 00:04:52,330
+But anyway, just remember thatthis is the convention, but
+
+106
+00:04:52,330 --> 00:04:55,130
+the reality is to some degreethe opposite of the
+
+107
+00:04:55,130 --> 00:04:56,430
+convention.
+
+108
+00:04:56,430 --> 00:05:00,040
+So what is this resistor?
+
+109
+00:05:00,040 --> 00:05:03,740
+Well, as the current isflowing-- and I want to stay
+
+110
+00:05:03,740 --> 00:05:05,680
+as close as possible to realityso you have a good
+
+111
+00:05:05,680 --> 00:05:07,170
+visualization of what'sgoing on.
+
+112
+00:05:07,170 --> 00:05:10,740
+As the electrons are flowing,you have these little
+
+113
+00:05:10,740 --> 00:05:13,600
+electrons, and they'reflowing in this wire.
+
+114
+00:05:13,600 --> 00:05:16,620
+And we assume for some reasonthis wire is just so amazing
+
+115
+00:05:16,620 --> 00:05:18,850
+that they don't in any way bumpinto any of the atoms of
+
+116
+00:05:18,850 --> 00:05:19,580
+the wire or anything.
+
+117
+00:05:19,580 --> 00:05:22,370
+But when they get to thisresistor, that's when these
+
+118
+00:05:22,370 --> 00:05:24,300
+electrons start bumpinginto things.
+
+119
+00:05:24,300 --> 00:05:26,020
+They start bumpinginto the other
+
+120
+00:05:26,020 --> 00:05:27,840
+electrons in this material.
+
+121
+00:05:27,840 --> 00:05:29,210
+So this is the resistorright here.
+
+122
+00:05:29,210 --> 00:05:30,430
+They start bumpinginto the other
+
+123
+00:05:30,430 --> 00:05:31,610
+electrons in this material.
+
+124
+00:05:31,610 --> 00:05:34,750
+They bump into the atoms andmolecules in this material.
+
+125
+00:05:34,750 --> 00:05:37,760
+And in the process, theelectrons essentially slow
+
+126
+00:05:37,760 --> 00:05:38,360
+down, right?
+
+127
+00:05:38,360 --> 00:05:39,790
+They're bumping into things.
+
+128
+00:05:39,790 --> 00:05:42,040
+So essentially, the more thingsthat there are to bump
+
+129
+00:05:42,040 --> 00:05:44,990
+into, or the less space thereare for the electrons to flow
+
+130
+00:05:44,990 --> 00:05:50,450
+through, the more that thismaterial is going to slow down
+
+131
+00:05:50,450 --> 00:05:50,890
+the electrons.
+
+132
+00:05:50,890 --> 00:05:53,350
+And as we'll see later, thelonger it is, that only
+
+133
+00:05:53,350 --> 00:05:56,480
+increases the chance thatelectrons bump into things.
+
+134
+00:05:56,480 --> 00:06:05,850
+And this is called a resistorand it provides resistance,
+
+135
+00:06:05,850 --> 00:06:09,870
+and it dictates how fastthe current flows.
+
+136
+00:06:09,870 --> 00:06:13,120
+So current, even though theconvention is it flows from
+
+137
+00:06:13,120 --> 00:06:16,860
+positive to negative, currentis actually just the flow of
+
+138
+00:06:16,860 --> 00:06:18,210
+charge per second.
+
+139
+00:06:18,210 --> 00:06:19,340
+So we could write that down.
+
+140
+00:06:19,340 --> 00:06:21,720
+I know I'm saying this in kindof a disjointed way, but I
+
+141
+00:06:21,720 --> 00:06:22,540
+think you get what I say.
+
+142
+00:06:22,540 --> 00:06:28,630
+Current is flow of charge, sochange in charge per second,
+
+143
+00:06:28,630 --> 00:06:32,360
+or per change in time, right?
+
+144
+00:06:32,360 --> 00:06:35,550
+So the way you could think aboutit is, what is voltage?
+
+145
+00:06:35,550 --> 00:06:38,760
+Voltage is how badly doescurrent want to flow?
+
+146
+00:06:38,760 --> 00:06:43,490
+So if there's a high voltagedifference between these two
+
+147
+00:06:43,490 --> 00:06:47,670
+terminals, then the electronsthat are sitting here, these
+
+148
+00:06:47,670 --> 00:06:51,430
+electrons want to reallybadly get here, right?
+
+149
+00:06:51,430 --> 00:06:52,870
+And if the voltage is evenhigher, these electrons want
+
+150
+00:06:52,870 --> 00:06:55,510
+to get there even more badly.
+
+151
+00:06:55,510 --> 00:06:59,110
+So before people understoodthat voltage was just a
+
+152
+00:06:59,110 --> 00:07:01,810
+potential difference, theywould actually call this
+
+153
+00:07:01,810 --> 00:07:04,630
+desire of the electrons toget from here to here the
+
+154
+00:07:04,630 --> 00:07:06,260
+electromotive force.
+
+155
+00:07:06,260 --> 00:07:08,390
+But what we've learned now,it's not actually a force.
+
+156
+00:07:08,390 --> 00:07:11,040
+It's just this potentialdifference that makes the-- we
+
+157
+00:07:11,040 --> 00:07:13,000
+could almost view it as anelectrical pressure, and
+
+158
+00:07:13,000 --> 00:07:15,280
+that's what people used toactually call voltage,
+
+159
+00:07:15,280 --> 00:07:16,480
+electrical pressure.
+
+160
+00:07:16,480 --> 00:07:19,340
+How badly do the electrons wantto get from here to here?
+
+161
+00:07:19,340 --> 00:07:21,750
+As soon as we give the electronsa path through this
+
+162
+00:07:21,750 --> 00:07:24,610
+circuit, the electronswill start traveling.
+
+163
+00:07:24,610 --> 00:07:28,190
+They'll start traveling, andwe assume that this wire
+
+164
+00:07:28,190 --> 00:07:30,190
+provides no resistance, thatthey can travel as
+
+165
+00:07:30,190 --> 00:07:31,060
+fast as they want.
+
+166
+00:07:31,060 --> 00:07:33,480
+But when they get to thisresistor, they start bumping
+
+167
+00:07:33,480 --> 00:07:36,190
+into things, and thislimits how fast the
+
+168
+00:07:36,190 --> 00:07:37,900
+electrons can travel.
+
+169
+00:07:37,900 --> 00:07:41,440
+So you can imagine that ifthis object right here is
+
+170
+00:07:41,440 --> 00:07:44,290
+somehow the rate-determiningfactor in how fast the
+
+171
+00:07:44,290 --> 00:07:47,180
+electrons travel, no matterhow fast the electrons can
+
+172
+00:07:47,180 --> 00:07:50,450
+travel after that, thiswas the bottleneck.
+
+173
+00:07:50,450 --> 00:07:53,535
+So even though electrons cantravel really fast here, they
+
+174
+00:07:53,535 --> 00:07:55,540
+have to slow down here, thenthey could travel really fast
+
+175
+00:07:55,540 --> 00:07:59,580
+here, the electrons here can'ttravel any faster than the
+
+176
+00:07:59,580 --> 00:08:00,750
+electrons through this.
+
+177
+00:08:00,750 --> 00:08:01,940
+Well, why is that?
+
+178
+00:08:01,940 --> 00:08:05,970
+Because if these electrons aretraveling slower, so the
+
+179
+00:08:05,970 --> 00:08:08,590
+current here is lower-- currentis really just the
+
+180
+00:08:08,590 --> 00:08:12,440
+rate at which the chargeis traveling, right?
+
+181
+00:08:12,440 --> 00:08:14,600
+So if the current is lowerhere and the current was
+
+182
+00:08:14,600 --> 00:08:17,280
+higher here, we wouldessentially end up having a
+
+183
+00:08:17,280 --> 00:08:20,120
+buildup of charge someplace herewhile all of the current
+
+184
+00:08:20,120 --> 00:08:21,700
+were waiting to travelthrough this.
+
+185
+00:08:21,700 --> 00:08:25,740
+And we know that that's notthe case, that all of the
+
+186
+00:08:25,740 --> 00:08:28,170
+electrons actually travel atthe exact same rate through
+
+187
+00:08:28,170 --> 00:08:30,570
+the entire circuit.
+
+188
+00:08:30,570 --> 00:08:33,380
+I'm going in the opposite ofthe convention right now,
+
+189
+00:08:33,380 --> 00:08:36,960
+because the convention is thatsomehow we have the positive
+
+190
+00:08:36,960 --> 00:08:38,120
+things traveling this way.
+
+191
+00:08:38,120 --> 00:08:40,630
+But I want to give you a reallyintuitive sense of
+
+192
+00:08:40,630 --> 00:08:42,340
+what's going on in a circuit,because I think once you
+
+193
+00:08:42,340 --> 00:08:46,880
+understand that, once problemsget a lot more complicated,
+
+194
+00:08:46,880 --> 00:08:48,380
+they won't be so daunting.
+
+195
+00:08:48,380 --> 00:08:54,100
+So what we know, and this iscalled Ohm's law, we know that
+
+196
+00:08:54,100 --> 00:08:59,350
+the current is actuallyproportional to the voltage
+
+197
+00:08:59,350 --> 00:09:02,360
+across the circuit.
+
+198
+00:09:02,360 --> 00:09:06,040
+So we know that voltage-- orwe could view it the other
+
+199
+00:09:06,040 --> 00:09:08,760
+way, that the voltage isproportional to the current
+
+200
+00:09:08,760 --> 00:09:10,700
+through a circuit.
+
+201
+00:09:10,700 --> 00:09:14,610
+So the voltage is equal to thecurrent times the resistance,
+
+202
+00:09:14,610 --> 00:09:17,330
+or you could say that thevoltage divided by the
+
+203
+00:09:17,330 --> 00:09:20,140
+resistance is equalto the current.
+
+204
+00:09:20,140 --> 00:09:26,860
+This is called Ohm's law, andthis is true whenever we're at
+
+205
+00:09:26,860 --> 00:09:28,170
+a constant temperature.
+
+206
+00:09:28,170 --> 00:09:30,390
+We'll go into more depth later,and we'll learn that if
+
+207
+00:09:30,390 --> 00:09:33,360
+a resistor actually hastemperature increases, then
+
+208
+00:09:33,360 --> 00:09:35,850
+its particles and its moleculesare moving around
+
+209
+00:09:35,850 --> 00:09:38,530
+more, they have higherkinetic energy.
+
+210
+00:09:38,530 --> 00:09:41,520
+And then it's even more likelythat electrons will bump into
+
+211
+00:09:41,520 --> 00:09:43,160
+them, so actually, theresistance increases with
+
+212
+00:09:43,160 --> 00:09:43,580
+temperature.
+
+213
+00:09:43,580 --> 00:09:47,310
+But if we assume at a constanttemperature for a given
+
+214
+00:09:47,310 --> 00:09:49,840
+material-- and we'll also learnlater that different
+
+215
+00:09:49,840 --> 00:09:52,180
+materials have differentresistivities.
+
+216
+00:09:52,180 --> 00:09:54,960
+But for a given material at aconstant temperature in a
+
+217
+00:09:54,960 --> 00:10:00,040
+given configuration, the voltageacross a resistor
+
+218
+00:10:00,040 --> 00:10:02,870
+divided by the resistor isequal to the current that
+
+219
+00:10:02,870 --> 00:10:03,990
+flows through it.
+
+220
+00:10:03,990 --> 00:10:07,145
+An object's resistance isactually measured as ohms, and
+
+221
+00:10:07,145 --> 00:10:10,510
+it's given by the Greekletter Omega.
+
+222
+00:10:10,510 --> 00:10:12,430
+So let's do a simple example.
+
+223
+00:10:12,430 --> 00:10:17,140
+Let's say that this is a16-volt battery, so the
+
+224
+00:10:17,140 --> 00:10:20,550
+potential difference here is 16volts between the positive
+
+225
+00:10:20,550 --> 00:10:21,860
+and the negative terminal.
+
+226
+00:10:21,860 --> 00:10:24,690
+So it's a 16-volt battery.
+
+227
+00:10:24,690 --> 00:10:31,130
+Let's say that this resistor is8 ohms. What is the current
+
+228
+00:10:31,130 --> 00:10:34,120
+flowing through-- and I keepdoing it in the opposite of
+
+229
+00:10:34,120 --> 00:10:36,530
+the convention, but let's goback to the convention.
+
+230
+00:10:36,530 --> 00:10:40,380
+What is the current flowingthrough this circuit?
+
+231
+00:10:40,380 --> 00:10:41,990
+Well, it's fairlystraightforward.
+
+232
+00:10:41,990 --> 00:10:46,860
+It's just Ohm's law,V equals IR.
+
+233
+00:10:46,860 --> 00:10:51,720
+The voltage is 16 volts, andit equals the current times
+
+234
+00:10:51,720 --> 00:11:00,250
+the resistance, times 8 ohms. Sothe current is equal to 16
+
+235
+00:11:00,250 --> 00:11:05,750
+volts divided by 8 ohms,which is equal to 2,
+
+236
+00:11:05,750 --> 00:11:09,880
+and this is 2 amperes.
+
+237
+00:11:09,880 --> 00:11:11,520
+Or sometimes they're calledamps, and that's
+
+238
+00:11:11,520 --> 00:11:15,150
+the units for current.
+
+239
+00:11:15,150 --> 00:11:19,910
+But as we know, all current is,is the amount of charge
+
+240
+00:11:19,910 --> 00:11:24,670
+per amount of time, so an ampereis just 2 coulombs per
+
+241
+00:11:24,670 --> 00:11:28,280
+second, right?
+
+242
+00:11:28,280 --> 00:11:30,190
+Oh, I'm already at11 1/2 minutes.
+
+243
+00:11:30,190 --> 00:11:31,250
+So I will leave you there.
+
+244
+00:11:31,250 --> 00:11:33,640
+You now know the basics of Ohm'slaw and maybe a little
+
+245
+00:11:33,640 --> 00:11:36,240
+bit of intuition on actuallywhat's going on in a circuit,
+
+246
+00:11:36,240 --> 00:11:38,730
+and I will see you inthe next video.
+
+247
+00:11:38,730 --> 00:11:38,900
+

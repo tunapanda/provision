@@ -1,0 +1,766 @@
+1
+00:00:01,010 --> 00:00:04,520
+Welcome to the presentation on
+using the quadratic equation.
+
+2
+00:00:04,520 --> 00:00:06,730
+So the quadratic equation,
+it sounds like something
+
+3
+00:00:06,730 --> 00:00:07,810
+very complicated.
+
+4
+00:00:07,810 --> 00:00:09,930
+And when you actually first see
+the quadratic equation, you'll
+
+5
+00:00:09,930 --> 00:00:11,590
+say, well, not only does it
+sound like something
+
+6
+00:00:11,590 --> 00:00:13,110
+complicated, but it is
+something complicated.
+
+7
+00:00:13,110 --> 00:00:14,930
+But hopefully you'll see,
+over the course of this
+
+8
+00:00:14,930 --> 00:00:16,580
+presentation, that it's
+actually not hard to use.
+
+9
+00:00:16,580 --> 00:00:19,040
+And in a future presentation
+I'll actually show you
+
+10
+00:00:19,040 --> 00:00:21,300
+how it was derived.
+
+11
+00:00:21,300 --> 00:00:24,810
+So, in general, you've already
+learned how to factor a
+
+12
+00:00:24,810 --> 00:00:25,810
+second degree equation.
+
+13
+00:00:25,810 --> 00:00:30,910
+You've learned that if I
+had, say, x squared minus
+
+14
+00:00:30,910 --> 00:00:40,340
+x, minus 6, equals 0.
+
+15
+00:00:40,340 --> 00:00:42,970
+If I had this equation. x
+squared minus x minus x equals
+
+16
+00:00:42,970 --> 00:00:48,720
+zero, that you could factor
+that as x minus 3 and
+
+17
+00:00:48,720 --> 00:00:52,210
+x plus 2 equals 0.
+
+18
+00:00:52,210 --> 00:00:54,955
+Which either means that
+x minus 3 equals 0 or
+
+19
+00:00:54,955 --> 00:00:57,073
+x plus 2 equals 0.
+
+20
+00:00:57,073 --> 00:01:03,512
+So x minus 3 equals 0
+or x plus 2 equals 0.
+
+21
+00:01:03,512 --> 00:01:08,500
+So, x equals 3 or negative 2.
+
+22
+00:01:08,500 --> 00:01:17,980
+And, a graphical representation
+of this would be, if I had the
+
+23
+00:01:17,980 --> 00:01:26,150
+function f of x is equal to
+x squared minus x minus 6.
+
+24
+00:01:26,150 --> 00:01:28,760
+So this axis is
+the f of x axis.
+
+25
+00:01:28,760 --> 00:01:32,670
+You might be more familiar with
+the y axis, and for the purpose
+
+26
+00:01:32,670 --> 00:01:34,780
+of this type of problem,
+it doesn't matter.
+
+27
+00:01:34,780 --> 00:01:36,270
+And this is the x axis.
+
+28
+00:01:36,270 --> 00:01:40,430
+And if I were to graph this
+equation, x squared minus x,
+
+29
+00:01:40,430 --> 00:01:42,380
+minus 6, it would look
+something like this.
+
+30
+00:01:42,380 --> 00:01:50,130
+A bit like -- this is f
+of x equals minus 6.
+
+31
+00:01:50,130 --> 00:01:52,900
+And the graph will kind of
+do something like this.
+
+32
+00:01:52,900 --> 00:01:57,150
+34
+00:01:57,15 --> 00:02:00,03
+Go up, it will keep going
+up in that direction.
+
+33
+00:02:00,030 --> 00:02:03,150
+And know it goes through minus
+6, because when x equals 0,
+
+34
+00:02:03,150 --> 00:02:05,110
+f of x is equal to minus 6.
+
+35
+00:02:05,110 --> 00:02:07,800
+So I know it goes
+through this point.
+
+36
+00:02:07,800 --> 00:02:11,520
+And I know that when f of x is
+equal to 0, so f of x is equal
+
+37
+00:02:11,520 --> 00:02:14,960
+to 0 along the x axis, right?
+
+38
+00:02:14,960 --> 00:02:16,600
+Because this is 1.
+
+39
+00:02:16,600 --> 00:02:17,870
+This is 0.
+
+40
+00:02:17,870 --> 00:02:19,160
+This is negative 1.
+
+41
+00:02:19,160 --> 00:02:21,510
+So this is where f of x
+is equal to 0, along
+
+42
+00:02:21,510 --> 00:02:23,420
+this x axis, right?
+
+43
+00:02:23,420 --> 00:02:29,210
+And we know it equals 0 at the
+points x is equal to 3 and
+
+44
+00:02:29,210 --> 00:02:32,330
+x is equal to minus 2.
+
+45
+00:02:32,330 --> 00:02:34,360
+That's actually what
+we solved here.
+
+46
+00:02:34,360 --> 00:02:36,440
+Maybe when we were doing the
+factoring problems we didn't
+
+47
+00:02:36,440 --> 00:02:38,940
+realize graphically
+what we were doing.
+
+48
+00:02:38,940 --> 00:02:42,070
+But if we said that f of x is
+equal to this function, we're
+
+49
+00:02:42,070 --> 00:02:43,270
+setting that equal to 0.
+
+50
+00:02:43,270 --> 00:02:44,820
+So we're saying this
+function, when does
+
+51
+00:02:44,820 --> 00:02:48,220
+this function equal 0?
+
+52
+00:02:48,220 --> 00:02:49,390
+When is it equal to 0?
+
+53
+00:02:49,390 --> 00:02:51,720
+Well, it's equal to 0 at
+these points, right?
+
+54
+00:02:51,720 --> 00:02:55,360
+Because this is where
+f of x is equal to 0.
+
+55
+00:02:55,360 --> 00:02:57,490
+And then what we were doing
+when we solved this by
+
+56
+00:02:57,490 --> 00:03:01,970
+factoring is, we figured out,
+the x values that made f of x
+
+57
+00:03:01,970 --> 00:03:04,160
+equal to 0, which is
+these two points.
+
+58
+00:03:04,160 --> 00:03:06,740
+And, just a little terminology,
+these are also called
+
+59
+00:03:06,740 --> 00:03:09,860
+the zeroes, or the
+roots, of f of x.
+
+60
+00:03:09,860 --> 00:03:12,470
+63
+00:03:12,47 --> 00:03:14,81
+Let's review that a little bit.
+
+61
+00:03:14,810 --> 00:03:23,700
+So, if I had something like f
+of x is equal to x squared plus
+
+62
+00:03:23,700 --> 00:03:29,550
+4x plus 4, and I asked you,
+where are the zeroes, or
+
+63
+00:03:29,550 --> 00:03:31,770
+the roots, of f of x.
+
+64
+00:03:31,770 --> 00:03:33,970
+That's the same thing as
+saying, where does f of x
+
+65
+00:03:33,970 --> 00:03:36,300
+interject intersect the x axis?
+
+66
+00:03:36,300 --> 00:03:38,210
+And it intersects the
+x axis when f of x is
+
+67
+00:03:38,210 --> 00:03:39,440
+equal to 0, right?
+
+68
+00:03:39,440 --> 00:03:42,120
+If you think about the
+graph I had just drawn.
+
+69
+00:03:42,120 --> 00:03:45,720
+So, let's say if f of x is
+equal to 0, then we could
+
+70
+00:03:45,720 --> 00:03:51,860
+just say, 0 is equal to x
+squared plus 4x plus 4.
+
+71
+00:03:51,860 --> 00:03:53,940
+And we know, we could just
+factor that, that's x
+
+72
+00:03:53,940 --> 00:03:57,080
+plus 2 times x plus 2.
+
+73
+00:03:57,080 --> 00:04:07,090
+And we know that it's equal
+to 0 at x equals minus 2.
+
+74
+00:04:07,090 --> 00:04:10,170
+78
+00:04:10,17 --> 00:04:13,94
+x equals minus 2.
+
+75
+00:04:13,940 --> 00:04:18,270
+Well, that's a little
+-- x equals minus 2.
+
+76
+00:04:18,270 --> 00:04:22,380
+So now, we know how to find
+the 0's when the the actual
+
+77
+00:04:22,380 --> 00:04:24,560
+equation is easy to factor.
+
+78
+00:04:24,560 --> 00:04:27,500
+But let's do a situation where
+the equation is actually
+
+79
+00:04:27,500 --> 00:04:28,850
+not so easy to factor.
+
+80
+00:04:28,850 --> 00:04:32,120
+85
+00:04:32,12 --> 00:04:39,75
+Let's say we had f of x
+is equal to minus 10x
+
+81
+00:04:39,750 --> 00:04:45,380
+squared minus 9x plus 1.
+
+82
+00:04:45,380 --> 00:04:47,580
+Well, when I look at this, even
+if I were to divide it by 10 I
+
+83
+00:04:47,580 --> 00:04:48,650
+would get some fractions here.
+
+84
+00:04:48,650 --> 00:04:53,130
+And it's very hard to imagine
+factoring this quadratic.
+
+85
+00:04:53,130 --> 00:04:54,860
+And that's what's actually
+called a quadratic equation, or
+
+86
+00:04:54,860 --> 00:04:57,580
+this second degree polynomial.
+
+87
+00:04:57,580 --> 00:04:59,600
+But let's set it -- So we're
+trying to solve this.
+
+88
+00:04:59,600 --> 00:05:02,420
+Because we want to find
+out when it equals 0.
+
+89
+00:05:02,420 --> 00:05:07,130
+Minus 10x squared
+minus 9x plus 1.
+
+90
+00:05:07,130 --> 00:05:09,090
+We want to find out what
+x values make this
+
+91
+00:05:09,090 --> 00:05:11,260
+equation equal to zero.
+
+92
+00:05:11,260 --> 00:05:13,730
+And here we can use a tool
+called a quadratic equation.
+
+93
+00:05:13,730 --> 00:05:15,625
+And now I'm going to give you
+one of the few things in math
+
+94
+00:05:15,625 --> 00:05:18,030
+that's probably a good
+idea to memorize.
+
+95
+00:05:18,030 --> 00:05:21,330
+The quadratic equation says
+that the roots of a quadratic
+
+96
+00:05:21,330 --> 00:05:24,810
+are equal to -- and let's say
+that the quadratic equation is
+
+97
+00:05:24,810 --> 00:05:31,900
+a x squared plus b
+x plus c equals 0.
+
+98
+00:05:31,900 --> 00:05:35,790
+So, in this example,
+a is minus 10.
+
+99
+00:05:35,790 --> 00:05:39,940
+b is minus 9, and c is 1.
+
+100
+00:05:39,940 --> 00:05:48,040
+The formula is the roots x
+equals negative b plus or minus
+
+101
+00:05:48,040 --> 00:05:58,060
+the square root of b squared
+minus 4 times a times c,
+
+102
+00:05:58,060 --> 00:06:00,230
+all of that over 2a.
+
+103
+00:06:00,230 --> 00:06:02,843
+I know that looks complicated,
+but the more you use it, you'll
+
+104
+00:06:02,843 --> 00:06:04,400
+see it's actually not that bad.
+
+105
+00:06:04,400 --> 00:06:07,720
+And this is a good
+idea to memorize.
+
+106
+00:06:07,720 --> 00:06:10,730
+So let's apply the quadratic
+equation to this equation
+
+107
+00:06:10,730 --> 00:06:12,670
+that we just wrote down.
+
+108
+00:06:12,670 --> 00:06:15,260
+So, I just said -- and look,
+the a is just the coefficient
+
+109
+00:06:15,260 --> 00:06:18,610
+on the x term, right?
+
+110
+00:06:18,610 --> 00:06:20,300
+a is the coefficient on
+the x squared term.
+
+111
+00:06:20,300 --> 00:06:23,570
+b is the coefficient on the x
+term, and c is the constant.
+
+112
+00:06:23,570 --> 00:06:25,100
+So let's apply it
+tot this equation.
+
+113
+00:06:25,100 --> 00:06:26,250
+What's b?
+
+114
+00:06:26,250 --> 00:06:28,700
+Well, b is negative 9.
+
+115
+00:06:28,700 --> 00:06:29,970
+We could see here.
+
+116
+00:06:29,970 --> 00:06:33,980
+b is negative 9, a
+is negative 10.
+
+117
+00:06:33,980 --> 00:06:34,970
+c is 1.
+
+118
+00:06:34,970 --> 00:06:36,090
+Right?
+
+119
+00:06:36,090 --> 00:06:42,350
+So if b is negative 9 -- so
+let's say, that's negative 9.
+
+120
+00:06:42,350 --> 00:06:49,260
+Plus or minus the square
+root of negative 9 squared.
+
+121
+00:06:49,260 --> 00:06:49,810
+Well, that's 81.
+
+122
+00:06:49,810 --> 00:06:53,140
+128
+00:06:53,14 --> 00:06:56,94
+Minus 4 times a.
+
+123
+00:06:56,940 --> 00:06:59,760
+a is minus 10.
+
+124
+00:06:59,760 --> 00:07:03,240
+Minus 10 times c, which is 1.
+
+125
+00:07:03,240 --> 00:07:05,110
+I know this is messy,
+but hopefully you're
+
+126
+00:07:05,110 --> 00:07:06,470
+understanding it.
+
+127
+00:07:06,470 --> 00:07:09,560
+And all of that over 2 times a.
+
+128
+00:07:09,560 --> 00:07:14,050
+Well, a is minus 10, so
+2 times a is minus 20.
+
+129
+00:07:14,050 --> 00:07:14,990
+So let's simplify that.
+
+130
+00:07:14,990 --> 00:07:19,410
+Negative times negative
+9, that's positive 9.
+
+131
+00:07:19,410 --> 00:07:26,460
+Plus or minus the
+square root of 81.
+
+132
+00:07:26,460 --> 00:07:30,660
+We have a negative 4
+times a negative 10.
+
+133
+00:07:30,660 --> 00:07:31,870
+This is a minus 10.
+
+134
+00:07:31,870 --> 00:07:33,280
+I know it's very messy,
+I really apologize
+
+135
+00:07:33,280 --> 00:07:34,380
+for that, times 1.
+
+136
+00:07:34,380 --> 00:07:39,410
+So negative 4 times negative
+10 is 40, positive 40.
+
+137
+00:07:39,410 --> 00:07:41,040
+Positive 40.
+
+138
+00:07:41,040 --> 00:07:46,070
+And then we have all of
+that over negative 20.
+
+139
+00:07:46,070 --> 00:07:48,300
+Well, 81 plus 40 is 121.
+
+140
+00:07:48,300 --> 00:07:52,330
+So this is 9 plus or
+minus the square root
+
+141
+00:07:52,330 --> 00:07:58,290
+of 121 over minus 20.
+
+142
+00:07:58,290 --> 00:08:01,620
+Square root of 121 is 11.
+
+143
+00:08:01,620 --> 00:08:03,170
+So I'll go here.
+
+144
+00:08:03,170 --> 00:08:06,184
+Hopefully you won't lose
+track of what I'm doing.
+
+145
+00:08:06,184 --> 00:08:13,720
+So this is 9 plus or
+minus 11, over minus 20.
+
+146
+00:08:13,720 --> 00:08:19,090
+And so if we said 9 plus 11
+over minus 20, that is 9
+
+147
+00:08:19,090 --> 00:08:22,540
+plus 11 is 20, so this
+is 20 over minus 20.
+
+148
+00:08:22,540 --> 00:08:23,730
+Which equals negative 1.
+
+149
+00:08:23,730 --> 00:08:24,900
+So that's one root.
+
+150
+00:08:24,900 --> 00:08:28,260
+That's 9 plus -- because
+this is plus or minus.
+
+151
+00:08:28,260 --> 00:08:33,790
+And the other root would be 9
+minus 11 over negative 20.
+
+152
+00:08:33,790 --> 00:08:37,720
+Which equals minus
+2 over minus 20.
+
+153
+00:08:37,720 --> 00:08:40,700
+Which equals 1 over 10.
+
+154
+00:08:40,700 --> 00:08:42,690
+So that's the other root.
+
+155
+00:08:42,690 --> 00:08:48,950
+So if we were to graph this
+equation, we would see that it
+
+156
+00:08:48,950 --> 00:08:52,640
+actually intersects the x axis.
+
+157
+00:08:52,640 --> 00:08:57,770
+Or f of x equals 0 at the
+point x equals negative
+
+158
+00:08:57,770 --> 00:09:01,690
+1 and x equals 1/10.
+
+159
+00:09:01,690 --> 00:09:04,080
+I'm going to do a lot more
+examples in part 2, because I
+
+160
+00:09:04,080 --> 00:09:06,100
+think, if anything, I might
+have just confused
+
+161
+00:09:06,100 --> 00:09:08,120
+you with this one.
+
+162
+00:09:08,120 --> 00:09:11,680
+So, I'll see you in the
+part 2 of using the
+
+163
+00:09:11,680 --> 00:09:12,150
+quadratic equation.
+
+164
+00:09:12,150 --> 00:09:14,083
+

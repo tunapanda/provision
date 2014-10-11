@@ -1,0 +1,179 @@
+1
+00:00:00,369 --> 00:00:07,602
+What is the least common multiple, abbreviated as LCM, of 15, 6 and 10?
+
+2
+00:00:07,602 --> 00:00:13,984
+So the LCM is exactly what the word is saying, it is the least common multiple of these numbers.
+
+3
+00:00:13,984 --> 00:00:17,453
+And I know that probably did not help you much. But lets actually work trough this problem.
+
+4
+00:00:17,453 --> 00:00:22,275
+So to do that, lets think of the different multiples of 15, 6 and 10.
+
+5
+00:00:22,275 --> 00:00:26,453
+and then find the smallest multiple, the least multiple they have in common.
+
+6
+00:00:26,453 --> 00:00:34,396
+So, lets find the multiples of 15. You have: 1 times 15 is 15, two times 15 is 30,
+
+7
+00:00:34,396 --> 00:00:41,373
+then if you add 15 again you get 45, you add 15 again you get 60, you add 15 again,
+
+8
+00:00:41,373 --> 00:00:49,012
+you get 75, you add 15 again, you get 90, you add 15 again you get 105.
+
+9
+00:00:49,012 --> 00:00:53,807
+and if still none of these are common multiples with these guys over here
+
+10
+00:00:54,098 --> 00:00:56,906
+then you may have to go further, but I will stop here for now.
+
+11
+00:00:57,090 --> 00:01:07,119
+Now that's the multiples of 15 up through 105. Obviously, we keep going from there. Now lets do the multiples of 6.
+
+12
+00:01:07,119 --> 00:01:17,480
+Let's do the multiples of 6: 1 times 6 is 6, two times 6 is 12, 3 times 6 is 18, 4 times 6 is 24,
+
+13
+00:01:17,480 --> 00:01:27,345
+5 times 6 is 30, 6 times 6 is 36, 7 times 6 is 42, 8 times 6 is 48,
+
+14
+00:01:27,345 --> 00:01:39,734
+9 times 6 is 54, 10 times 6 is 60. 60 already looks interesting, because it is a common multiple of both 15 and 60. Although we have to of them over here.
+
+15
+00:01:39,734 --> 00:01:44,684
+We have 30 and we have a 30, we have a 60 and a 60. So the smallest LCM...
+
+16
+00:01:44,684 --> 00:01:47,689
+...so if we only cared about the least common multiple of 15 and 6.
+
+17
+00:01:47,797 --> 00:01:57,356
+We would say it is 30. Lets write that down as an intermediate: the LCM of 15 and 6. So the least common multiple,
+
+18
+00:01:57,356 --> 00:02:06,526
+the smallest multiple that they have in common we see over here. 15 times 2 is 30 and 6 times 5 is 30.
+
+19
+00:02:06,605 --> 00:02:10,803
+So this is definitely a common multiple and it is the smallest of all of their LCMs.
+
+20
+00:02:10,896 --> 00:02:16,325
+60 is also a common multiple, but it is a bigger one. This is the least common multiple. So this is 30.
+
+21
+00:02:16,617 --> 00:02:22,862
+We have not thought of the 10 yet. So lets bring the 10 in there. I think you see where this is going.
+
+22
+00:02:22,923 --> 00:02:30,592
+Let's do the multiples of 10. They are 10, 20, 30, 40... well, we already went far enough. Because we already got to 30,
+
+23
+00:02:30,592 --> 00:02:38,973
+and 30 is a common multiple of 15 and 6 and it is the smallest common multiple of all of them.
+
+24
+00:02:39,158 --> 00:02:47,412
+So it is actually the fact that the LCM of 15, 6 and 10 is equal to 30.
+
+25
+00:02:47,489 --> 00:02:52,920
+Now, this is one way to find the least common multiple. Literally, just find and look at the multiples of each of the numbers...
+
+26
+00:02:52,982 --> 00:02:57,333
+and then see what the smallest multiple is they have in common.
+
+27
+00:02:57,333 --> 00:03:01,973
+Another way to do that, is to look at the prime factorization of each of these numbers
+
+28
+00:03:02,044 --> 00:03:08,658
+and the LCM is the number that has all the elements of the prime factorization of these and nothing else.
+
+29
+00:03:08,750 --> 00:03:14,422
+So let me show you what I mean by that. So, you can do it this way or you can say that 15 is the
+
+30
+00:03:14,422 --> 00:03:23,537
+same thing as 3 times 5 and that's it. That is its prime factorization, 15 is 3 times 5, since both 3 and 5 are prime numbers.
+
+31
+00:03:23,614 --> 00:03:30,783
+We can say that 6 is the same thing as 2 times 3. That's it, that is its prime factorization, since both 2 and 3 are prime.
+
+32
+00:03:30,783 --> 00:03:40,249
+And then we can say that 10 is the same thing as 2 times 5. Both two and 5 are prime, so we are done factoring it.
+
+33
+00:03:40,249 --> 00:03:50,930
+So the LCM of 15, 6 and 10, just needs to have all of these prime factors.
+
+34
+00:03:50,930 --> 00:03:55,599
+And what I mean is... to be clear, in order to be divisible by 15
+
+35
+00:03:55,599 --> 00:04:03,672
+it has to have at least one 3 and at least one 5 in its prime factorization, so it needs to have one 3 and at least one 5.
+
+36
+00:04:03,765 --> 00:04:09,599
+By having a 3 times 5 in its prime factorization that ensures that this number is divisible by 15.
+
+37
+00:04:09,661 --> 00:04:18,451
+To be divisible by 6 it has to have at least one 2 and one 3. So it has to have at least one 2 and we already have a 3 over here so that is all we want.
+
+38
+00:04:18,574 --> 00:04:28,346
+We just need one 3. So one 2 and one 3. That is 2 times 3 and ensures we are divisible by 6. And let me make it clear, this right here is the 15.
+
+39
+00:04:28,946 --> 00:04:41,884
+And then to make sure we are divisible by 10, we need to have at least one 2 and one 5. These two over here make sure we are divisible by 10.
+
+40
+00:04:42,083 --> 00:04:47,655
+and so we have all of them, this 2 x 3 x 5 has all of the prime factors of either 10, 6 or 15, so it is the LCM.
+
+41
+00:04:52,922 --> 00:04:52,923
+So if we multiply this out, you will get, 2 x 3 is 6, 6 x 5 is 30.
+
+42
+00:04:55,969 --> 00:05:05,471
+So either way. Hopefully these kind of resonate with you and you see why they make sense.
+
+43
+00:05:05,594 --> 00:05:13,193
+This second way is a little bit better, if you are trying to do it for really complex numbers...
+
+44
+00:05:13,193 --> 00:05:16,062
+...numbers, where you might have to be multiplying for a really long time.
+
+45
+00:05:16,062 --> 00:05:21,834
+Well, either way, both of these are valid ways of finding the least common multiple.

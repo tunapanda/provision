@@ -1,0 +1,423 @@
+1
+00:00:00,441 --> 00:00:02,945
+In the first video in future's fair value
+
+2
+00:00:02,945 --> 00:00:04,783
+we learned that it was the price
+
+3
+00:00:04,783 --> 00:00:07,261
+at which an investor would be neutral
+
+4
+00:00:07,261 --> 00:00:08,713
+between buying the stock
+
+5
+00:00:08,713 --> 00:00:10,618
+on the actual stock market
+
+6
+00:00:10,618 --> 00:00:13,461
+or buying the front month future's contract
+
+7
+00:00:13,461 --> 00:00:14,693
+What I want to to in this video
+
+8
+00:00:14,693 --> 00:00:17,675
+is talk about how does one interpret the fair value
+
+9
+00:00:17,675 --> 00:00:19,786
+especially relative to the future's price
+
+10
+00:00:19,786 --> 00:00:21,321
+So lets say you wake up one morning
+
+11
+00:00:21,321 --> 00:00:22,643
+the market hasn't opened yet
+
+12
+00:00:22,643 --> 00:00:24,252
+the stock market hasn't opened
+
+13
+00:00:24,252 --> 00:00:27,624
+and you see a quote like this for stock ABCD
+
+14
+00:00:27,624 --> 00:00:28,962
+The fair value according to
+
+15
+00:00:28,962 --> 00:00:31,823
+the closing of yesterday's trading
+
+16
+00:00:31,823 --> 00:00:33,909
+the fair value is $102
+
+17
+00:00:33,909 --> 00:00:37,310
+but the future's market which trades
+
+18
+00:00:37,310 --> 00:00:38,610
+usually as the trading hours
+
+19
+00:00:38,610 --> 00:00:39,996
+beyond the regular market
+
+20
+00:00:39,996 --> 00:00:41,992
+and often times 24 hours
+
+21
+00:00:41,992 --> 00:00:43,830
+So the future's market trading price
+
+22
+00:00:43,830 --> 00:00:45,197
+for the front month future
+
+23
+00:00:45,197 --> 00:00:46,403
+even though the fair value
+
+24
+00:00:46,403 --> 00:00:48,737
+based on yesterday's closing is $102
+
+25
+00:00:48,737 --> 00:00:52,273
+The future's market is trading at $101
+
+26
+00:00:52,273 --> 00:00:53,948
+So how would you use that information
+
+27
+00:00:53,948 --> 00:00:56,370
+or how would one interpret that information
+
+28
+00:00:56,370 --> 00:00:57,584
+So the future's market
+
+29
+00:00:57,584 --> 00:01:00,403
+people are trading the futures contract
+
+30
+00:01:00,403 --> 00:01:01,947
+They are buying and selling
+
+31
+00:01:01,947 --> 00:01:04,305
+at price below the fair value
+
+32
+00:01:04,305 --> 00:01:06,672
+based on yesterday's close price
+
+33
+00:01:06,672 --> 00:01:08,100
+So what that means is
+
+34
+00:01:08,100 --> 00:01:09,748
+that the market thinks that
+
+35
+00:01:09,748 --> 00:01:11,380
+this is actually no longer
+
+36
+00:01:11,380 --> 00:01:13,224
+the correct price of the stock
+
+37
+00:01:13,224 --> 00:01:15,394
+They think that the correct price of the stock
+
+38
+00:01:15,394 --> 00:01:17,319
+is the stock at which they would be neutral
+
+39
+00:01:17,319 --> 00:01:20,516
+between that price and this future's contract
+
+40
+00:01:20,516 --> 00:01:21,514
+So I don't know what it is
+
+41
+00:01:21,514 --> 00:01:22,646
+you'd have to discount it back
+
+42
+00:01:22,646 --> 00:01:23,772
+by the risk-free rate
+
+43
+00:01:23,772 --> 00:01:24,985
+but maybe its something like
+
+44
+00:01:24,985 --> 00:01:26,454
+So this is implicitly saying
+
+45
+00:01:26,454 --> 00:01:29,470
+that the correct price of the stock isn't $100
+
+46
+00:01:29,470 --> 00:01:31,702
+if the future's price was $102
+
+47
+00:01:31,702 --> 00:01:33,541
+it would say that the stock should be $100
+
+48
+00:01:33,541 --> 00:01:35,341
+If the future's price is $101
+
+49
+00:01:35,341 --> 00:01:36,312
+then it means that maybe
+
+50
+00:01:36,312 --> 00:01:38,048
+the stock is something less than that
+
+51
+00:01:38,048 --> 00:01:39,348
+Maybe if we do our math
+
+52
+00:01:39,348 --> 00:01:48,918
+maybe it implies a stock price of $99.
+
+53
+00:01:48,918 --> 00:01:51,365
+So the way you would potentially act on it.
+
+54
+00:01:51,365 --> 00:01:53,141
+although it's easlier said than done
+
+55
+00:01:53,141 --> 00:01:54,564
+is say well look that means that
+
+56
+00:01:54,564 --> 00:01:57,562
+at least in the very early stages once the market opens
+
+57
+00:01:57,562 --> 00:01:59,642
+the stock is going to go down
+
+58
+00:01:59,642 --> 00:02:01,511
+Now you initial reaction might be saying
+
+59
+00:02:01,511 --> 00:02:02,714
+Wow, this is really amazing
+
+60
+00:02:02,714 --> 00:02:04,224
+this is some type of future indicator
+
+61
+00:02:04,224 --> 00:02:06,042
+and it is pretty strong future indicator
+
+62
+00:02:06,042 --> 00:02:07,126
+when you see this
+
+63
+00:02:07,126 --> 00:02:09,110
+when you see the actual price of the future
+
+64
+00:02:09,110 --> 00:02:10,538
+being below the fair value
+
+65
+00:02:10,538 --> 00:02:13,958
+It is very likely that the stock will open down
+
+66
+00:02:13,958 --> 00:02:16,185
+Unfortunately, you have many many
+
+67
+00:02:16,185 --> 00:02:19,596
+very sophisticated high frequency traders
+
+68
+00:02:19,596 --> 00:02:21,462
+who already have their computers set up
+
+69
+00:02:21,462 --> 00:02:23,656
+to look at this type of discrepency
+
+70
+00:02:23,656 --> 00:02:25,407
+and they are going to be ultra fast
+
+71
+00:02:25,407 --> 00:02:26,428
+and they are optimizing
+
+72
+00:02:26,428 --> 00:02:27,830
+how fast their bandwidth is
+
+73
+00:02:27,830 --> 00:02:28,845
+so they can do these
+
+74
+00:02:28,845 --> 00:02:30,220
+in a matter of split seconds
+
+75
+00:02:30,220 --> 00:02:32,731
+So it is very, very unlikely
+
+76
+00:02:32,731 --> 00:02:35,267
+that a average investor
+
+77
+00:02:35,267 --> 00:02:37,697
+or even a reasonably sophisticated investor
+
+78
+00:02:37,697 --> 00:02:39,193
+will be able to take advantage
+
+79
+00:02:39,193 --> 00:02:40,735
+of this type of arbitrage
+
+80
+00:02:40,735 --> 00:02:42,568
+or this type of an expected arbitrage
+
+81
+00:02:42,568 --> 00:02:45,733
+to know this price is likely to go down
+
+82
+00:02:45,733 --> 00:02:48,450
+Now, if the opposite happened
+
+83
+00:02:48,450 --> 00:02:51,244
+let's say that the fair value is $102
+
+84
+00:02:51,244 --> 00:02:52,699
+which implies that the fair value
+
+85
+00:02:52,699 --> 00:02:56,257
+of the front month future's contract is $102
+
+86
+00:02:56,257 --> 00:02:58,274
+which implies $100 stock price
+
+87
+00:02:58,274 --> 00:03:00,962
+Let's say that the future's
+
+88
+00:03:00,962 --> 00:03:01,965
+is actually trading
+
+89
+00:03:01,965 --> 00:03:04,622
+even though the fair value is $102
+
+90
+00:03:04,622 --> 00:03:09,597
+Let's say it's trading at $105
+
+91
+00:03:09,597 --> 00:03:11,132
+So, this is a situation that
+
+92
+00:03:11,132 --> 00:03:12,734
+since the market closed
+
+93
+00:03:12,734 --> 00:03:14,751
+the future's market for some reason thinks
+
+94
+00:03:14,751 --> 00:03:16,350
+that the stock is going to be worth more
+
+95
+00:03:16,350 --> 00:03:17,880
+This would imply a stock price
+
+96
+00:03:17,880 --> 00:03:19,774
+of, maybe, I don't know what it might be
+
+97
+00:03:19,774 --> 00:03:21,223
+I'm not going to do the math exactly
+
+98
+00:03:21,223 --> 00:03:24,801
+but maybe a price of $103 or $104
+
+99
+00:03:24,801 --> 00:03:25,839
+And so if you saw this
+
+100
+00:03:25,839 --> 00:03:28,498
+where the future's price is above the fair value
+
+101
+00:03:28,498 --> 00:03:29,713
+in the pre-market
+
+102
+00:03:29,713 --> 00:03:32,081
+that means that the stock is likely to go up
+
+103
+00:03:32,081 --> 00:03:33,679
+But once again, its very hard
+
+104
+00:03:33,679 --> 00:03:34,438
+to take advantage of
+
+105
+00:03:34,438 --> 00:03:35,541
+because you're going to see that movement
+
+106
+00:03:35,541 --> 99:59:59,999
+very, very, very quickly.

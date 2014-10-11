@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:07,638
+We now have a trap door for solving Phi. If you know the factorization for N, then finding Phi(N) is easy.
+
+2
+00:00:07,669 --> 00:00:17,490
+For example, the prime factorization of 77 is 7x11. So Phi of 77 is 6x10, 60.
+
+3
+00:00:17,567 --> 00:00:22,618
+Step 3: How to connect the Phi function to modular exponentiation?
+
+4
+00:00:22,756 --> 00:00:30,994
+For this he turned to Euler's theorem, which is a relationship between Phi function and modular exponentiation as follows:
+
+5
+00:00:30,994 --> 00:00:38,029
+m to the power of Phi(n) is congruent to 1 mod n.
+
+6
+00:00:38,106 --> 00:00:45,123
+This means you could pick any 2 numbers, that do not share a common factor, let's call them m and n,
+
+7
+00:00:45,123 --> 00:00:57,923
+say m equals 5 and n equals 8. Now, when you raise m to the power of Phi(n), or 4, and divide by n, you'll always be left with 1.
+
+8
+00:00:57,954 --> 00:01:01,829
+Now, we just need to modify this equation using 2 simple rules.
+
+9
+00:01:01,829 --> 00:01:07,741
+1. If you raise the number 1 to any exponent k, you always get 1.
+
+10
+00:01:07,741 --> 00:01:15,038
+In the same way, we can multiply the exponent Phi(a) by any number k and the solution is still 1.
+
+11
+00:01:15,038 --> 00:01:20,652
+2. If you multiply 1 by any number, say m, it always equals m.
+
+12
+00:01:20,652 --> 00:01:26,694
+In the same way we can multiply the left side by m to get m on the right hand side,
+
+13
+00:01:26,694 --> 00:01:33,281
+and this can be simplified as m to the power of k*Phi(n) plus 1.
+
+14
+00:01:33,281 --> 00:01:41,129
+This is the breakthrough. We now have an equation for finding e*d, which depends on Phi(n).
+
+15
+00:01:41,129 --> 00:01:48,238
+Therefore it's easy to calculate d, only if the factorization of n is known.
+
+16
+00:01:50,068 --> 00:01:57,601
+Meaning d should be Alice's private key. It's the trap door, which will allow her to undo the effect of e.
+
+17
+00:01:57,601 --> 00:02:01,197
+Let's do a simple example to see all of this in action.
+
+18
+00:02:01,504 --> 00:02:07,532
+Say Bob has a message he converted into a number using a padding scheme, let's call this m.
+
+19
+00:02:08,562 --> 00:02:12,446
+Then Alice generates her public and private keys as follows:
+
+20
+00:02:12,446 --> 00:02:20,822
+First she generates 2 random prime numbers of similar size and multiplies them to get n, 3127.
+
+21
+00:02:20,822 --> 00:02:29,412
+Then she calculates Phi of n easily, since she knows the factorization of n, which turns out to 3016.
+
+22
+00:02:29,965 --> 00:02:34,157
+Next she picks some small public exponent e,
+
+23
+00:02:34,157 --> 00:02:38,849
+with a condition that it must be an odd number, that does not share a factor with Phi(n).
+
+24
+00:02:38,849 --> 00:02:41,830
+In this case she picks e equals 3.
+
+25
+00:02:41,830 --> 00:02:46,937
+Finally she finds the value of her private exponent d,
+
+26
+00:02:46,937 --> 00:02:55,281
+which in this case is 2*Phi(n)+1 divided by 3, or 2011.
+
+27
+00:02:55,281 --> 00:03:03,571
+Now, she hides everything except the value of n and e, because n and e make up her public key,
+
+28
+00:03:03,571 --> 00:03:09,197
+think of it as an opened lock. She sends this to Bob to lock his message with.
+
+29
+00:03:09,197 --> 00:03:15,662
+Bob locks his message by calculating m to the power of e mod n,
+
+30
+00:03:15,662 --> 00:03:21,105
+call this c, his encrypted message, which he sends back to Alice.
+
+31
+00:03:21,105 --> 00:03:27,403
+Finally, Alice decrypts his message using her private key d accessed through her trap door,
+
+32
+00:03:27,403 --> 00:03:33,989
+c to the power of d mod n equals Bob's original message m.
+
+33
+00:03:33,989 --> 00:03:41,031
+Notice that Eve, or anyone else with c,n and e can only find exponent d,
+
+34
+00:03:41,031 --> 00:03:46,989
+if they can calculate Phi(n), which requires they know the prime factorization of n.
+
+35
+00:03:47,696 --> 00:03:55,287
+If n is large enough, Alice can be sure that this will take hundreds of years even with the most powerful network of computers.
+
+36
+00:03:55,287 --> 00:03:59,239
+This trick was immediately classified after it's publication.
+
+37
+00:03:59,239 --> 00:04:05,863
+However, it was independently re-discovered at 1977 by Ron Rivest, Adi Shamir and Leonard Adleman.
+
+38
+00:04:05,863 --> 00:04:10,030
+Which is why it's now known as RSA encryption.
+
+39
+00:04:10,030 --> 00:04:14,281
+RSA is the most widely used public key algorithm in the world.
+
+40
+00:04:14,281 --> 00:04:16,943
+And the most copied software in the history.
+
+41
+00:04:16,943 --> 00:04:22,409
+Every Internet user on Earth is using RSA or some very in to it whether they realize it or not.
+
+42
+00:04:22,409 --> 00:04:26,781
+It's strength is relies on a hardness of prime factorization.
+
+43
+00:04:26,781 --> 00:04:31,798
+Which is a result of deep questions about the distribution of prime numbers.
+
+44
+00:04:31,798 --> 00:04:36,631
+A question which is remained unsolved for thousands of years.

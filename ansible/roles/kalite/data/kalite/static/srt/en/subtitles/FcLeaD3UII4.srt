@@ -1,0 +1,143 @@
+1
+00:00:00,375 --> 00:00:11,368
+Let's say that we have capital f(x) is being equal to the definite integral from pi to x of cot^2t dt.
+
+2
+00:00:11,368 --> 00:00:15,864
+and what we're curious about finding is the derivative of this business
+
+3
+00:00:15,864 --> 00:00:20,902
+we want to figure out what f prime of x is equal to
+
+4
+00:00:20,902 --> 00:00:24,569
+well this is a direct application of the fundamental theorem of calculus
+
+5
+00:00:24,569 --> 00:00:28,453
+this is going to be the derivative with respect to x of all of this craziness
+
+6
+00:00:28,453 --> 00:00:31,452
+so let me just copy and paste that
+
+7
+00:00:31,452 --> 00:00:33,772
+so copy and paste
+
+8
+00:00:33,772 --> 00:00:36,370
+so this is going to be the derivative with respect to that
+
+9
+00:00:36,370 --> 00:00:45,034
+and the fundamental theorem of calculus tells us that this is going to be equal to -this is going to be equal to just this function
+
+10
+00:00:45,034 --> 00:00:48,036
+but it's not going to be a function of t anymore
+
+11
+00:00:48,036 --> 00:00:51,243
+its going to be a function of x
+
+12
+00:00:51,243 --> 00:00:56,370
+so it's going to be equal to cot^2x
+
+13
+00:00:56,370 --> 00:01:02,036
+and you'll often see problems like this is if you go to calculus competitions or things like that or maybe certain exams
+
+14
+00:01:02,036 --> 00:01:09,250
+and it's like "Oh my God I have to take the antiderivative of all of this business, evaluate it at the different boundaries
+
+15
+00:01:09,250 --> 00:01:12,303
+and then I've got to take the derivative." No! You just have to apply the fundamental theorem of calculus.
+
+16
+00:01:12,303 --> 00:01:15,910
+And it's actually very straightforward and a very fast thing to do.
+
+17
+00:01:15,910 --> 00:01:18,788
+Now, let's mix it up a little bit.
+
+18
+00:01:18,788 --> 00:01:29,169
+Let's say that you had the expression -the definite integral from pi -instead of from pi to x, let's say it's from pi to x^2.
+
+19
+00:01:29,169 --> 00:01:32,168
+Let me write that x^2 in a different color just to make it clear what I'm doing.
+
+20
+00:01:32,168 --> 00:01:46,780
+From pi to x^2 of cot^2t dt, and you wanted to take the derivative of this business.
+
+21
+00:01:46,780 --> 00:01:53,863
+So you wanted to take the derivative with respect to x -you want to take the derivative with respect to x of this business.
+
+22
+00:01:53,863 --> 00:02:01,309
+How would you do it? Well the recognition here is is that this is -capital f(x) was defined as this.
+
+23
+00:02:01,309 --> 00:02:12,372
+Now instead of an x you have an x^2, so this is the exact same thing as taking the derivative with respect to x of F of not x
+
+24
+00:02:12,372 --> 00:02:18,968
+that would be this, instead we have F(x^2) where we had an x here before we now have an x^2
+
+25
+00:02:18,968 --> 00:02:27,452
+you can verify, if you had F(x^2) every place you saw the x here would be an x^2, so it would look exactly like this.
+
+26
+00:02:27,452 --> 00:02:31,569
+And so we just have to apply the chain rule.
+
+27
+00:02:31,569 --> 00:02:41,787
+So this is going to be equal to -and this is going to be equal to the derivative of F with respect to x^2
+
+28
+00:02:41,787 --> 00:02:58,970
+so this is going to be -and this is straight out of the chain rule -it's going to be F prime of x^2 times the derivative of with respect to x of x^2.
+
+29
+00:02:58,970 --> 00:03:01,969
+This is the derivative of F with respect to x^2
+
+30
+00:03:01,969 --> 00:03:05,168
+and then times the derivative of x^2 with respect to x
+
+31
+00:03:05,168 --> 00:03:08,451
+This is just the chain rule right over here
+
+32
+00:03:08,451 --> 00:03:13,116
+So what's F prime of x^2 -the derivative with respect to x^2?
+
+33
+00:03:13,116 --> 00:03:21,175
+Well, if you evaluate F prime at x^2, instead of just being cot^2x, it's going to be cot^2x^2.
+
+34
+00:03:21,175 --> 00:03:35,972
+So this part right over here -this business right over here is going to be cot^2x^2, so this is the derivative of all this business with respect to x^2
+
+35
+00:03:35,972 --> 00:03:43,499
+And then you have to multiply that times the derivative of x^2 with respect to x, which is just 2x
+
+36
+00:03:43,499 --> 00:03:47,499
+So there you have it, the derivative of this, all this craziness, is equal to 2x cot^2x^2.

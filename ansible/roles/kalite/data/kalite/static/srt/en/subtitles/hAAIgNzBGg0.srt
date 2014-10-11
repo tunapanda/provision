@@ -1,0 +1,379 @@
+1
+99:59:59,999 --> 99:59:59,999
+Now ready for part B, and I've wiped all the salt off of my fingers
+
+2
+99:59:59,999 --> 99:59:59,999
+and I've had a glass of water, so I'm ready for some business.
+
+3
+99:59:59,999 --> 99:59:59,999
+Find the second derivative of w with respect to t in terms of w
+
+4
+99:59:59,999 --> 99:59:59,999
+Use the second derivative to determine whether your
+
+5
+99:59:59,999 --> 99:59:59,999
+answer in part a is an underestimate or overestimate
+
+6
+99:59:59,999 --> 99:59:59,999
+for the amount of solid waste that the landfill contains at time t equals one-forth
+
+7
+99:59:59,999 --> 99:59:59,999
+so let's do the -- first thing's first--
+
+8
+99:59:59,999 --> 99:59:59,999
+Let's find the second derivative in terms of w
+
+9
+99:59:59,999 --> 99:59:59,999
+Now, we already have the first derivative over here
+
+10
+99:59:59,999 --> 99:59:59,999
+in part a I re-wrote it just with slightly different notation
+
+11
+99:59:59,999 --> 99:59:59,999
+but I'll just use this because I need to write down here
+
+12
+99:59:59,999 --> 99:59:59,999
+and I can still refer to this thing.
+
+13
+99:59:59,999 --> 99:59:59,999
+So let's just take the derivative of both sides of this
+
+14
+99:59:59,999 --> 99:59:59,999
+of this differential equation with respect to t.
+
+15
+99:59:59,999 --> 99:59:59,999
+So you take the derivatative of this left-hand side with respect to t
+
+16
+99:59:59,999 --> 99:59:59,999
+you get the second derivative of w with respect to t
+
+17
+99:59:59,999 --> 99:59:59,999
+as a function of t is equal to-
+
+18
+99:59:59,999 --> 99:59:59,999
+now you take the derivative of this with respect to t
+
+19
+99:59:59,999 --> 99:59:59,999
+This is the same thing as 1 over 25 w t minus 12.
+
+20
+99:59:59,999 --> 99:59:59,999
+And so when you take the derivative, that constant part drops off
+
+21
+99:59:59,999 --> 99:59:59,999
+and you're just left with 1 over 25 times the derivative of w t
+
+22
+99:59:59,999 --> 99:59:59,999
+Let me make that clear;
+
+23
+99:59:59,999 --> 99:59:59,999
+this is the same thing as 1 over 25 w.
+
+24
+99:59:59,999 --> 99:59:59,999
+1 over 25 w as a function of t minus 12
+
+25
+99:59:59,999 --> 99:59:59,999
+one-twenty-fifth of 300 is 12.
+
+26
+99:59:59,999 --> 99:59:59,999
+You take the derivative of this, you get one-twenty-fifth
+
+27
+99:59:59,999 --> 99:59:59,999
+times the first derivative of w and then the derivative of this
+
+28
+99:59:59,999 --> 99:59:59,999
+with respect to t is just 0
+
+29
+99:59:59,999 --> 99:59:59,999
+A constant, obviously, does not change with respect to t.
+
+30
+99:59:59,999 --> 99:59:59,999
+And so we get this right over here
+
+31
+99:59:59,999 --> 99:59:59,999
+now this is the second derivative in terms of the first derivative,
+
+32
+99:59:59,999 --> 99:59:59,999
+But the question asks us, "Write the second derivative
+
+33
+99:59:59,999 --> 99:59:59,999
+in terms of w" but lucky for us, we know how to express this
+
+34
+99:59:59,999 --> 99:59:59,999
+we know how to express this as a function of w.
+
+35
+99:59:59,999 --> 99:59:59,999
+They gave that to us in the problem. This was given.
+
+36
+99:59:59,999 --> 99:59:59,999
+This is just me rewriting this in a different notation.
+
+37
+99:59:59,999 --> 99:59:59,999
+So this is going to be the same thing as 1 over 25
+
+38
+99:59:59,999 --> 99:59:59,999
+1 over 25 times the derivative of w.
+
+39
+99:59:59,999 --> 99:59:59,999
+And the derivative of w is this. This is--
+
+40
+99:59:59,999 --> 99:59:59,999
+the differential equation (inaudible)
+
+41
+99:59:59,999 --> 99:59:59,999
+the derivative of w is this over here.
+
+42
+99:59:59,999 --> 99:59:59,999
+So 1 over 25 times -- 1 over 25 times w t
+
+43
+99:59:59,999 --> 99:59:59,999
+the function w as a function of t minus -- minus 300
+
+44
+99:59:59,999 --> 99:59:59,999
+And so we can say the second derivative-
+
+45
+99:59:59,999 --> 99:59:59,999
+let me write a little smaller so I don't waste space-
+
+46
+99:59:59,999 --> 99:59:59,999
+the second derivative of w as a function of t
+
+47
+99:59:59,999 --> 99:59:59,999
+is equal to 1 over 625 times w as a function of t
+
+48
+99:59:59,999 --> 99:59:59,999
+which is a function of t minus 300.
+
+49
+99:59:59,999 --> 99:59:59,999
+So we've done the first part.
+
+50
+99:59:59,999 --> 99:59:59,999
+We've found out the second derivative of w in terms of just w
+
+51
+99:59:59,999 --> 99:59:59,999
+Now let's try to adddress the second part of their question.
+
+52
+99:59:59,999 --> 99:59:59,999
+So we did the first part.
+
+53
+99:59:59,999 --> 99:59:59,999
+Now use what we just figured out to determine whether your answer
+
+54
+99:59:59,999 --> 99:59:59,999
+in part a is an underestimate or an overestimate
+
+55
+99:59:59,999 --> 99:59:59,999
+of the amount of solid waste that the landfill
+
+56
+99:59:59,999 --> 99:59:59,999
+contains at time one forth.
+
+57
+99:59:59,999 --> 99:59:59,999
+So in part a we found the slope.
+
+58
+99:59:59,999 --> 99:59:59,999
+We found the slope of the tangent line at time equals 0
+
+59
+99:59:59,999 --> 99:59:59,999
+and we use that slope to extrapolate out to 3 months
+
+60
+99:59:59,999 --> 99:59:59,999
+or time equals one-forth -- one forth of a year.
+
+61
+99:59:59,999 --> 99:59:59,999
+Now, if the functions' w's slope over that forth
+
+62
+99:59:59,999 --> 99:59:59,999
+was exactly the same slope of the tangent line
+
+63
+99:59:59,999 --> 99:59:59,999
+or if that slope did not change
+
+64
+99:59:59,999 --> 99:59:59,999
+then our extrapolation would be exactly right.
+
+65
+99:59:59,999 --> 99:59:59,999
+If w's slope is increasing over that time
+
+66
+99:59:59,999 --> 99:59:59,999
+then our -- then our estimate would be an underestimate of the correct thing
+
+67
+99:59:59,999 --> 99:59:59,999
+and if the slope is decreasing over that time
+
+68
+99:59:59,999 --> 99:59:59,999
+then our estimate would be an overestimate of
+
+69
+99:59:59,999 --> 99:59:59,999
+of the actual amount in the landfill.
+
+70
+99:59:59,999 --> 99:59:59,999
+And to figure out whether the slope is increasing or decreasing
+
+71
+99:59:59,999 --> 99:59:59,999
+we just have to look at the value of the second derivative.
+
+72
+99:59:59,999 --> 99:59:59,999
+If the second derivative is positive
+
+73
+99:59:59,999 --> 99:59:59,999
+that means our slope is increasing
+
+74
+99:59:59,999 --> 99:59:59,999
+which means that our extrapolation would be an understatement.
+
+75
+99:59:59,999 --> 99:59:59,999
+Let me just be clear here.
+
+76
+99:59:59,999 --> 99:59:59,999
+Let me draw this.
+
+77
+99:59:59,999 --> 99:59:59,999
+Let me make it very clear.
+
+78
+99:59:59,999 --> 99:59:59,999
+So, let me just draw a random function.
+
+79
+99:59:59,999 --> 99:59:59,999
+So let's say that's w.
+
+80
+99:59:59,999 --> 99:59:59,999
+So this is a case where w's slope is increasing faster
+
+81
+99:59:59,999 --> 99:59:59,999
+or w's slope is increasing from that starting point.
+
+82
+99:59:59,999 --> 99:59:59,999
+So our starting point -- this was our slope
+
+83
+99:59:59,999 --> 99:59:59,999
+and then w's slope keeps increasing from there.
+
+84
+99:59:59,999 --> 99:59:59,999
+And in this case, our estimate is going to be an underestimate
+
+85
+99:59:59,999 --> 99:59:59,999
+of where w actually is after a forth of the year.
+
+86
+99:59:59,999 --> 99:59:59,999
+If w's slope is exactly the same as the function
+
+87
+99:59:59,999 --> 99:59:59,999
+over the course of the year
+
+88
+99:59:59,999 --> 99:59:59,999
+over the course of the first 3 months,
+
+89
+99:59:59,999 --> 99:59:59,999
+so it would look something like that
+
+90
+99:59:59,999 --> 99:59:59,999
+maybe it diverges later on.
+
+91
+99:59:59,999 --> 99:59:59,999
+And in this case, our approximation would be really good
+
+92
+99:59:59,999 --> 99:59:59,999
+it would probably be exact for w.
+
+93
+99:59:59,999 --> 99:59:59,999
+And if w's slope for whatever reason goes negative after that point
+
+94
+99:59:59,999 --> 99:59:59,999
+and they already tell us that it's an increasing function
+
+95
+99:59:59,999 --> 99:59:59,999
+so that is, um, that is not likely

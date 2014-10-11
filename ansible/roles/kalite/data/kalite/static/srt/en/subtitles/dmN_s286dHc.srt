@@ -1,0 +1,1039 @@
+1
+00:00:00,000 --> 00:00:02,940
+We're on problem 151.
+
+2
+00:00:05,780 --> 00:00:07,860
+If x and y are positive,
+
+3
+00:00:07,960 --> 00:00:11,060
+is the ratio of x to y greater than 3?
+
+4
+00:00:15,000 --> 00:00:17,830
+And they're telling us that x and y are positive.
+
+5
+00:00:18,040 --> 00:00:20,220
+Fair enough. Statement one.
+
+6
+00:00:22,000 --> 00:00:25,360
+x is 2 more than 3 times y.
+
+7
+00:00:25,360 --> 00:00:30,060
+So x is equal to 3y plus 2.
+
+8
+00:00:30,580 --> 00:00:33,230
+Let's rewrite the original question
+
+9
+00:00:33,230 --> 00:00:35,110
+because I think it's going to look a lot like this.
+
+10
+00:00:35,110 --> 00:00:37,460
+If we multiply y times both sides of the equation--
+
+11
+00:00:37,960 --> 00:00:39,940
+and we don't have to change the inequality
+
+12
+00:00:39,940 --> 00:00:41,580
+because they told us that y is positive.
+
+13
+00:00:41,580 --> 00:00:43,710
+They're both positive.
+
+14
+00:00:43,710 --> 00:00:45,830
+So if you multiply both sides of the equation times y,
+
+15
+00:00:45,830 --> 00:00:48,820
+you get x is greater than 3y.
+
+16
+00:00:49,060 --> 00:00:51,380
+This is the same question as this.
+
+17
+00:00:51,980 --> 00:00:54,050
+Well, if we look at statement number one,
+
+18
+00:00:54,050 --> 00:00:56,130
+clearly x is greater than 3y.
+
+19
+00:00:56,130 --> 00:00:59,440
+Because x is 2 more than 3y based on statement number one.
+
+20
+00:00:59,740 --> 00:01:03,060
+So statement number one is sufficient to answer this question
+
+21
+00:01:03,060 --> 00:01:04,850
+x is definitely greater than 3y.
+
+22
+00:01:04,850 --> 00:01:06,820
+x actually equals 3y plus 2.
+
+23
+00:01:07,030 --> 00:01:09,820
+This plus 2 tells you that x is that much greater.
+
+24
+00:01:09,820 --> 00:01:13,500
+2 greater. Second statement.
+
+25
+00:01:13,500 --> 00:01:21,700
+The ratio of 2x to 3y is greater than 2.
+
+26
+00:01:21,700 --> 00:01:23,610
+Let's just do some algebraic manipulation.
+
+27
+00:01:23,610 --> 00:01:25,530
+3y, once again, we know that's positive.
+
+28
+00:01:25,530 --> 00:01:27,810
+So when we multiply both sides of the equation by it,
+
+29
+00:01:27,810 --> 00:01:29,080
+we don't have to switch the sign.
+
+30
+00:01:29,380 --> 00:01:35,560
+So you get 2x is equal to 6y.
+
+31
+00:01:36,000 --> 00:01:37,930
+Now we can divide both sides by 2.
+
+32
+00:01:37,930 --> 00:01:40,680
+And you get-- oh, sorry,why did I put equals?
+
+33
+00:01:40,680 --> 00:01:42,250
+It should be greater than.
+
+34
+00:01:42,250 --> 00:01:45,810
+Divide both sides by 2 and you get x is greater than 3y.
+
+35
+00:01:46,220 --> 00:01:48,770
+So this statement and this statement are the same thing,
+
+36
+00:01:48,770 --> 00:01:50,940
+so 2 alone is also sufficient.
+
+37
+00:01:50,940 --> 00:01:53,500
+So either statement alone is sufficient
+
+38
+00:01:53,500 --> 00:01:56,250
+to answer this or this question.
+
+39
+00:01:58,000 --> 00:01:59,570
+152.
+
+40
+00:02:03,560 --> 00:02:06,540
+OK, if arc PQ-- OK, let me see if I can draw this.
+
+41
+00:02:06,540 --> 00:02:08,330
+So they've drawn a semicircle.
+
+42
+00:02:09,020 --> 00:02:10,970
+So let me draw a circle.
+
+43
+00:02:11,570 --> 00:02:14,330
+That's a circle, and I can make it a semicircle
+
+44
+00:02:14,330 --> 00:02:19,620
+by drawing a line from there to there.
+
+45
+00:02:21,060 --> 00:02:23,870
+That's about as good as I can do.
+
+46
+00:02:23,870 --> 00:02:26,550
+And they have it connecting to some point.
+
+47
+00:02:26,550 --> 00:02:28,660
+Let me see if I could do this.
+
+48
+00:02:28,660 --> 00:02:30,480
+Looks like that.
+
+49
+00:02:30,880 --> 00:02:34,060
+And then it looks like that.
+
+50
+00:02:35,020 --> 00:02:37,460
+And then they actually have drawn an altitude
+
+51
+00:02:37,460 --> 00:02:38,510
+coming down like that.
+
+52
+00:02:38,510 --> 00:02:40,960
+And I think I've done all my line drawing.
+
+53
+00:02:41,680 --> 00:02:44,390
+And then, let's see, they labeled this P.
+
+54
+00:02:45,000 --> 00:02:53,100
+They labeled this Q. They labeled this R. And this is 2.
+
+55
+00:02:54,000 --> 00:02:56,460
+And they say that this distance right here is a.
+
+56
+00:02:56,460 --> 00:02:58,150
+This distance right here.
+
+57
+00:02:58,150 --> 00:03:01,260
+And then they say that this distance right here is b.
+
+58
+00:03:02,000 --> 00:03:02,880
+Fair enough.
+
+59
+00:03:03,090 --> 00:03:06,940
+So they say if arc PQR-- so that's that arc right there--
+
+60
+00:03:07,010 --> 00:03:10,550
+is a semicircle, what is the length of diameter PR?
+
+61
+00:03:10,550 --> 00:03:13,340
+So they essentially want to know what a plus b is, right?
+
+62
+00:03:17,010 --> 00:03:20,280
+That's PR. So that's their question.
+
+63
+00:03:21,020 --> 00:03:23,930
+So immediately-- well let's just look at their statements.
+
+64
+00:03:23,930 --> 00:03:25,010
+What did they give us?
+
+65
+00:03:25,210 --> 00:03:27,920
+Statement one, they tell us that a is equal to 4.
+
+66
+00:03:28,780 --> 00:03:30,660
+So from knowing that a is equal to 4,
+
+67
+00:03:30,660 --> 00:03:33,110
+if we can figure out what b is,
+
+68
+00:03:33,110 --> 00:03:35,410
+then we would know what a plus b is and we would be done.
+
+69
+00:03:35,410 --> 00:03:37,190
+Well, let's see if we can do that.
+
+70
+00:03:37,190 --> 00:03:41,190
+Statement two is b is equal to 1.
+
+71
+00:03:41,190 --> 00:03:42,760
+So if we know what b is,
+
+72
+00:03:43,520 --> 00:03:45,540
+and then we can figure out a from it,
+
+73
+00:03:45,540 --> 00:03:47,380
+then we know what a plus b is.
+
+74
+00:03:47,380 --> 00:03:49,710
+So actually, I think if either of these is sufficient,
+
+75
+00:03:49,710 --> 00:03:51,190
+the other one probably is.
+
+76
+00:03:51,190 --> 00:03:52,980
+Because if statement one is sufficient--
+
+77
+00:03:53,340 --> 00:03:56,230
+if knowing a we can figure out b,
+
+78
+00:03:56,230 --> 00:03:58,370
+then probably knowing b we could figure out a.
+
+79
+00:03:58,370 --> 00:03:59,980
+But let's see if that holds.
+
+80
+00:04:00,020 --> 00:04:03,180
+So one thing that immediately should pop out of your head,
+
+81
+00:04:03,180 --> 00:04:04,570
+although I don't know if it will--
+
+82
+00:04:04,570 --> 00:04:06,170
+and this pops out of my head, really,
+
+83
+00:04:06,170 --> 00:04:08,460
+from going to math competitions when I was a kid.
+
+84
+00:04:08,460 --> 00:04:12,370
+But if you have a triangle inscribed in a semicircle,
+
+85
+00:04:12,370 --> 00:04:15,560
+that triangle-- and one of its sides is a diameter, right?
+
+86
+00:04:15,560 --> 00:04:17,050
+And that's the case with this one.
+
+87
+00:04:17,050 --> 00:04:18,250
+Because we know it's a semicircle,
+
+88
+00:04:18,250 --> 00:04:19,810
+so we know that this is the diameter--
+
+89
+00:04:20,670 --> 00:04:23,610
+then that triangle is a right triangle.
+
+90
+00:04:24,010 --> 00:04:25,620
+This is a right triangle.
+
+91
+00:04:25,620 --> 00:04:27,110
+Even the way they drew it, it kind of looks like that.
+
+92
+00:04:27,110 --> 00:04:28,390
+But you that's something you should know.
+
+93
+00:04:28,390 --> 00:04:30,030
+Even if this triangle was drawn like that,
+
+94
+00:04:30,030 --> 00:04:32,910
+it's always going to be a right triangle.
+
+95
+00:04:32,910 --> 00:04:35,300
+And I'll maybe do another YouTube video proving that.
+
+96
+00:04:35,300 --> 00:04:36,940
+But that's just a good thing to know for the gmat.
+
+97
+00:04:36,940 --> 00:04:38,490
+So let's see if we could use that information
+
+98
+00:04:38,690 --> 00:04:42,520
+and the Pythagorean theorem to come up with a formula
+
+99
+00:04:42,520 --> 00:04:44,030
+that relates a and b.
+
+100
+00:04:44,030 --> 00:04:53,760
+So if we look at just this triangle right there,we know what?
+
+101
+00:04:53,760 --> 00:04:59,500
+We know that a squared plus 4 is equal to--
+
+102
+00:04:59,500 --> 00:05:05,980
+let's call this side c squared-- is equal to c squared.
+
+103
+00:05:06,370 --> 00:05:07,710
+Fair enough.
+
+104
+00:05:07,710 --> 00:05:10,720
+If we look at this smaller triangle right here,
+
+105
+00:05:11,900 --> 00:05:17,710
+we know that b squared plus 4 is equal to--
+
+106
+00:05:17,710 --> 00:05:20,030
+let's call this d squared,
+
+107
+00:05:20,030 --> 00:05:22,280
+that's the hypotenuse of the smaller triangle--
+
+108
+00:05:22,510 --> 00:05:24,720
+is equal to d squared.
+
+109
+00:05:25,450 --> 00:05:27,840
+Now, if we look at the larger triangle,
+
+110
+00:05:27,840 --> 00:05:29,310
+which we also know is a right triangle,
+
+111
+00:05:29,310 --> 00:05:34,380
+now c squared and d squared are the non-hypotenuse sides,
+
+112
+00:05:34,380 --> 00:05:36,790
+and a plus b is a hypotenuse side.
+
+113
+00:05:36,790 --> 00:05:42,060
+So we know that c squared plus d squared is equal to
+
+114
+00:05:42,060 --> 00:05:48,140
+this entire side squared, which is a plus b squared.
+
+115
+00:05:48,440 --> 00:05:50,270
+Well, we know what c squared and d squared are.
+
+116
+00:05:50,270 --> 00:05:51,270
+We can substitute that.
+
+117
+00:05:51,270 --> 00:05:53,060
+So c squared is a squared plus 4--
+
+118
+00:05:53,060 --> 00:05:55,240
+and I'll switch colors just to avoid the monotnony.
+
+119
+00:05:55,240 --> 00:05:57,840
+So c squared is a squared plus 4.
+
+120
+00:06:02,690 --> 00:06:05,710
+And d squared is b squared plus 4.
+
+121
+00:06:10,530 --> 00:06:12,570
+And all of that's equal to a plus b squared.
+
+122
+00:06:12,570 --> 00:06:13,970
+Let's just multiply that out
+
+123
+00:06:13,970 --> 00:06:15,330
+because I think we can do some canceling.
+
+124
+00:06:15,330 --> 00:06:21,530
+So we get a squared plus 2ab plus b squared.
+
+125
+00:06:22,000 --> 00:06:26,470
+OK. So, we could subtract a squared from both sides.
+
+126
+00:06:26,470 --> 00:06:28,350
+a squared, a squared.
+
+127
+00:06:28,350 --> 00:06:30,630
+Subtract b squared from both sides.
+
+128
+00:06:30,630 --> 00:06:32,560
+b squared and b squared.
+
+129
+00:06:32,560 --> 00:06:36,120
+And this simplifies out quite nicely. Let's see.
+
+130
+00:06:36,120 --> 00:06:41,210
+4 plus 4 is 8, is equal to 2ab.
+
+131
+00:06:41,210 --> 00:06:47,630
+Divide both sides by 2, and you get ab is equal to 4.
+
+132
+00:06:48,780 --> 00:06:51,160
+So all of this crazy information,
+
+133
+00:06:51,460 --> 00:06:55,000
+that this is inscribed in the semicircle and this is a,
+
+134
+00:06:55,000 --> 00:06:58,830
+this is b, all of that reduces down to ab is equal to 4.
+
+135
+00:06:59,030 --> 00:07:00,220
+So now we know.
+
+136
+00:07:00,220 --> 00:07:02,530
+If we know a, if a is 4,
+
+137
+00:07:02,530 --> 00:07:04,780
+then we know that b has to be equal to 1.
+
+138
+00:07:06,340 --> 00:07:08,670
+And then we can figure out what a plus b is. It's 5.
+
+139
+00:07:08,670 --> 00:07:10,450
+So statement one alone is sufficient.
+
+140
+00:07:10,450 --> 00:07:12,130
+And similarly, if we know what b is,
+
+141
+00:07:12,130 --> 00:07:13,630
+we know that a has to be 4.
+
+142
+00:07:14,080 --> 00:07:15,880
+And so a plus b is equal to 5.
+
+143
+00:07:16,330 --> 00:07:19,240
+So that was actually less hairy than I thought going into it.
+
+144
+00:07:20,030 --> 00:07:21,970
+Next problem.
+
+145
+00:07:22,090 --> 00:07:24,320
+And this really is the home stretch.
+
+146
+00:07:24,320 --> 00:07:26,000
+153.
+
+147
+00:07:28,030 --> 00:07:33,550
+Does the integer k have a factor p such that
+
+148
+00:07:33,950 --> 00:07:36,820
+1 is less than p is less than k.
+
+149
+00:07:41,220 --> 00:07:44,310
+OK, so they're essentially saying, is k prime?
+
+150
+00:07:44,610 --> 00:07:46,990
+This is another way of saying is k--
+
+151
+00:07:46,990 --> 00:07:48,830
+or you could say, is k not prime?
+
+152
+00:07:49,730 --> 00:07:52,140
+Or k is composite. I think that's the word for it.
+
+153
+00:07:52,140 --> 00:07:55,710
+A non-prime number. So that's all they're asking.
+
+154
+00:07:55,710 --> 00:07:58,490
+Does k have some other factor other than 1 and itself.
+
+155
+00:07:59,030 --> 00:08:01,200
+So let's see, statement number one.
+
+156
+00:08:01,200 --> 00:08:04,080
+k is greater than 4 factorial.
+
+157
+00:08:04,380 --> 00:08:07,880
+Well, 4 factorial is 4 times 3 times 2 times 1.
+
+158
+00:08:07,880 --> 00:08:09,770
+So that's 12 times 2. That's 24.
+
+159
+00:08:09,770 --> 00:08:11,970
+So this boils down to k is greater than 24.
+
+160
+00:08:13,000 --> 00:08:15,360
+So I can give you both prime
+
+161
+00:08:15,360 --> 00:08:17,470
+and non-prime numbers greater than 24.
+
+162
+00:08:17,470 --> 00:08:23,060
+29 is prime. 30 is not prime.
+
+163
+00:08:24,040 --> 00:08:28,610
+So statement one, at least by itself, is pretty useless.
+
+164
+00:08:30,020 --> 00:08:33,150
+k can be greater than 24 and be prime or not prime.
+
+165
+00:08:33,150 --> 00:08:36,990
+Statement two. This looks interesting.
+
+166
+00:08:37,010 --> 00:08:40,280
+13 factorial-- which is a large number,
+
+167
+00:08:40,280 --> 00:08:42,380
+so it's hard to multiply it out--
+
+168
+00:08:42,380 --> 00:08:47,630
+plus 2 is less than or equal to k,
+
+169
+00:08:47,930 --> 00:08:56,110
+which is less than or equal to 13 factorial plus 13.
+
+170
+00:08:57,020 --> 00:09:01,280
+So, essentially, what we need to prove, somehow,
+
+171
+00:09:01,280 --> 00:09:06,730
+is that every number between this and this is not prime.
+
+172
+00:09:06,730 --> 00:09:08,900
+And let's think about how we can do it.
+
+173
+00:09:09,430 --> 00:09:14,320
+Well, let's take the initial example of 13 factorial plus 2.
+
+174
+00:09:15,020 --> 00:09:17,640
+So 13 factorial, just so you know, is 13 times 12,
+
+175
+00:09:20,340 --> 00:09:24,580
+times 11-- you keep going-- times 3 times 2 times 1.
+
+176
+00:09:24,580 --> 00:09:26,620
+That's 13 factorial.
+
+177
+00:09:27,360 --> 00:09:31,070
+So 13 factorial is definitely divisible by 2.
+
+178
+00:09:31,070 --> 00:09:34,690
+So we could rewrite 13 factorial. We could write that as--
+
+179
+00:09:36,690 --> 00:09:43,380
+13 factorial divided by 2 times 2 plus 2.
+
+180
+00:09:44,010 --> 00:09:46,540
+I just rewrote 13 factorial plus 2.
+
+181
+00:09:46,540 --> 00:09:48,730
+And I want you to see that this is the same thing, right?
+
+182
+00:09:48,730 --> 00:09:50,650
+I just divided by 2 and multiplied by 2.
+
+183
+00:09:50,650 --> 00:09:52,860
+And you'll see in a second why I did that.
+
+184
+00:09:53,780 --> 00:09:55,220
+And this is a tricky problem.
+
+185
+00:09:55,220 --> 00:09:56,500
+When I looked at this at first,
+
+186
+00:09:56,500 --> 00:09:59,460
+which I actually did glance at before the video,because--
+
+187
+00:10:01,660 --> 00:10:03,390
+I don't know if this is something I would have gotten right
+
+188
+00:10:03,390 --> 00:10:05,080
+if I was under time pressure on the gmat.
+
+189
+00:10:05,080 --> 00:10:06,880
+But when I thought about it a little bit more it made sense.
+
+190
+00:10:07,440 --> 00:10:10,290
+So if I divide by 2 and times 2,I could--
+
+191
+00:10:10,290 --> 00:10:12,360
+and this is going to be an integer.
+
+192
+00:10:12,660 --> 00:10:14,850
+Because we know that 13 factorial is divisible by 2.
+
+193
+00:10:14,850 --> 00:10:16,550
+2 is actually one of its factors.
+
+194
+00:10:17,350 --> 00:10:19,790
+So as long as you understand where I got--
+
+195
+00:10:20,250 --> 00:10:22,320
+you can divide anything by 2 and multiply by 2
+
+196
+00:10:22,320 --> 00:10:26,390
+and not change it So this is the same thing as this.
+
+197
+00:10:28,010 --> 00:10:31,610
+And then if we factor the 2 out,
+
+198
+00:10:33,090 --> 00:10:41,640
+this becomes 2 times 13 factorial over 2 plus 1.
+
+199
+00:10:42,540 --> 00:10:45,300
+I just factored the 2 out. This isn't a fraction.
+
+200
+00:10:45,300 --> 00:10:48,250
+That's just a line I did just to not make it look too messy.
+
+201
+00:10:48,850 --> 00:10:50,560
+So what we show is that
+
+202
+00:10:50,560 --> 00:10:56,450
+13 factorial plus 2 is definitely divisible by 2.
+
+203
+00:10:57,440 --> 00:10:59,550
+Whatever that number is, it's definitely divisible by 2.
+
+204
+00:10:59,550 --> 00:11:00,430
+And how do I know that?
+
+205
+00:11:00,430 --> 00:11:02,140
+Because this is just another way of writing
+
+206
+00:11:02,140 --> 00:11:03,930
+13 factorial divided by 2.
+
+207
+00:11:04,000 --> 00:11:06,730
+I'm sorry, this is another way--let me write this down--
+
+208
+00:11:06,730 --> 00:11:09,200
+this is the same thing as 13 factorial plus 2.
+
+209
+00:11:09,600 --> 00:11:11,350
+It's just another way of writing it.
+
+210
+00:11:11,350 --> 00:11:14,320
+I took 13 factorial divided by 2 and multiplying by 2,
+
+211
+00:11:14,320 --> 00:11:15,850
+and then taking out the 2.
+
+212
+00:11:16,040 --> 00:11:19,860
+And the reason why I know that 2 is divisible into this is
+
+213
+00:11:19,860 --> 00:11:21,400
+because I know that this is an integer.
+
+214
+00:11:21,400 --> 00:11:23,740
+We know that 13 factorial is divided by 2
+
+215
+00:11:23,740 --> 00:11:25,710
+because 2 is one of the things that goes into it.
+
+216
+00:11:25,710 --> 00:11:28,900
+And so this is an integer. You add 1. So this is an integer.
+
+217
+00:11:29,090 --> 00:11:31,060
+And so you're multiplying 2 times some integer.
+
+218
+00:11:31,060 --> 00:11:32,870
+So this has to be divisible by 2.
+
+219
+00:11:32,870 --> 00:11:36,520
+So 13 factorial plus 2 is divisible by 2.
+
+220
+00:11:36,990 --> 00:11:38,630
+Now let's just extend that generally.
+
+221
+00:11:40,040 --> 00:11:43,980
+13 factorial plus x.
+
+222
+00:11:44,090 --> 00:11:47,640
+Let's prove that as long as x is less than or equal to 13
+
+223
+00:11:48,220 --> 00:11:50,540
+that this is divisible by x.
+
+224
+00:11:51,010 --> 00:11:52,820
+So we can do the same trick.
+
+225
+00:11:53,090 --> 00:11:57,170
+You could say this is equal to 13 factorial divided by x,
+
+226
+00:11:57,170 --> 00:11:59,310
+times x plus x.
+
+227
+00:12:00,010 --> 00:12:02,890
+That's equal to-- you can factor the x out--
+
+228
+00:12:02,890 --> 00:12:08,830
+x times 13 factorial over x plus 1.
+
+229
+00:12:09,050 --> 00:12:11,530
+And how do we know that this number,
+
+230
+00:12:11,530 --> 00:12:13,170
+which is the same thing as this number,
+
+231
+00:12:13,170 --> 00:12:15,320
+how do we know that this is divisible by x?
+
+232
+00:12:15,320 --> 00:12:17,260
+Well, just a little thought experiment.
+
+233
+00:12:17,260 --> 00:12:24,770
+We know as long as x is greater than or equal to 1
+
+234
+00:12:25,090 --> 00:12:30,510
+and less than or equal to 13, and x is an integer.
+
+235
+00:12:30,510 --> 00:12:32,190
+As long as x is an integer that's greater than
+
+236
+00:12:32,190 --> 00:12:34,310
+or equal to 1 and less than or equal to 13,
+
+237
+00:12:35,510 --> 00:12:38,320
+it is one of the factors of 13 factorial.
+
+238
+00:12:38,320 --> 00:12:40,440
+13 factorial is 13 times 12 times 11.
+
+239
+00:12:40,440 --> 00:12:42,530
+It's all of those numbers multiplied together.
+
+240
+00:12:42,530 --> 00:12:46,010
+So we know that as long as x is less than or equal to 13,
+
+241
+00:12:46,010 --> 00:12:49,250
+we know that this right here,this is an integer.
+
+242
+00:12:49,250 --> 00:12:50,830
+If this is an integer,
+
+243
+00:12:50,830 --> 00:12:52,600
+then the integer plus 1 is also an integer.
+
+244
+00:12:52,600 --> 00:12:57,020
+So 13 factorial plus x can be rewritten as
+
+245
+00:12:57,020 --> 00:13:01,060
+x times some integer. I'll call it I.
+
+246
+00:13:02,010 --> 00:13:05,070
+But the bottom line is, the reason why I wanted to do that,
+
+247
+00:13:05,070 --> 00:13:10,800
+it shows you that every number between 13 factorial plus 2
+
+248
+00:13:11,080 --> 00:13:17,430
+and 13 factorial plus 13 is actually divisible
+
+249
+00:13:17,430 --> 00:13:20,880
+by whatever number you're adding to the factorial.
+
+250
+00:13:20,880 --> 00:13:23,190
+So since it's divisible by those numbers,
+
+251
+00:13:23,460 --> 00:13:26,130
+the numbers cannot be prime.
+
+252
+00:13:26,130 --> 00:13:28,190
+So hopefully-- I've actually run way over time--
+
+253
+00:13:28,190 --> 00:13:31,530
+but hopefully I've shown you that that information alone,
+
+254
+00:13:31,530 --> 00:13:32,630
+statement two alone,
+
+255
+00:13:32,630 --> 00:13:38,420
+is sufficient to show that k is not prime
+
+256
+00:13:38,420 --> 00:13:42,980
+or that k does have a factor p that's between 1 and k.
+
+257
+00:13:43,000 --> 00:13:44,340
+Anyway, I hope didn't confuse you.
+
+258
+00:13:44,640 --> 00:13:46,830
+I think that was one of the hardest problems we've done,
+
+259
+00:13:46,830 --> 00:13:48,790
+so don't feel bad if you found that a little daunting.
+
+260
+00:13:48,890 --> 00:13:50,480
+See you in the next video.

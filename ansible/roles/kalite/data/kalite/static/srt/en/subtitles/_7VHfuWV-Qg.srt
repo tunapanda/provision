@@ -1,0 +1,851 @@
+1
+00:00:00,490 --> 00:00:02,775
+Let's say you're some type of a hunter gatherer,
+
+2
+00:00:02,775 --> 00:00:04,319
+and you're trying to figure out
+
+3
+00:00:04,319 --> 00:00:06,493
+how much of your time you should spend hunting
+
+4
+00:00:06,493 --> 00:00:09,591
+and how much of your time to spend gathering.
+
+5
+00:00:09,591 --> 00:00:12,154
+So let's think about the different scenarios here
+
+6
+00:00:12,154 --> 00:00:14,162
+and the tradeoffs that they involve.
+
+7
+00:00:14,162 --> 00:00:16,140
+And just for simplicity we're going to assume that
+
+8
+00:00:16,140 --> 00:00:17,275
+when you're talking about hunting,
+
+9
+00:00:17,275 --> 00:00:20,380
+the only animal around you to hunt for are these little rabbits.
+
+10
+00:00:20,380 --> 00:00:21,735
+And when we talk about gathering,
+
+11
+00:00:21,735 --> 00:00:23,930
+the only thing you can gather are some types of berries,
+
+12
+00:00:23,930 --> 00:00:26,217
+that will keep our conversation a little bit simpler.
+
+13
+00:00:26,217 --> 00:00:28,390
+So, let's think about all of the scenarios.
+
+14
+00:00:28,390 --> 00:00:31,000
+So, first let's call this first scenario scenario A.
+
+15
+00:00:31,000 --> 00:00:37,913
+And let's say, so let's call this the number of rabbits.
+
+16
+00:00:37,913 --> 00:00:42,208
+And then let's call this the number of berries.
+
+17
+00:00:42,208 --> 00:00:45,859
+Let's do this column the number of berries you can get.
+
+18
+00:00:45,859 --> 00:00:48,525
+So, if you were to spend the entire day going after rabbits,
+
+19
+00:00:48,525 --> 00:00:51,717
+all of your free time, out of making sure you have time to sleep
+
+20
+00:00:51,717 --> 00:00:53,847
+and get dressed and all those types of things,
+
+21
+00:00:53,847 --> 00:00:57,934
+let's say you can actually get 5 rabbits on average on a given day.
+
+22
+00:00:57,934 --> 00:01:00,196
+But, if you spend all of your time getting rabbits,
+
+23
+00:01:00,196 --> 00:01:02,682
+you're not going to have any time to get berries,
+
+24
+00:01:02,682 --> 00:01:05,829
+so you are going to be able to get zero berries.
+
+25
+00:01:05,829 --> 00:01:07,397
+Now, let's say that you were to
+
+26
+00:01:07,397 --> 00:01:11,497
+only try to allocate a little more time to get berries,
+
+27
+00:01:11,497 --> 00:01:13,471
+and a little less time to get rabbits.
+
+28
+00:01:13,471 --> 00:01:15,807
+So we'll call that scenario B.
+
+29
+00:01:15,807 --> 00:01:18,085
+We will call scenario B the reality
+
+30
+00:01:18,085 --> 00:01:22,464
+where you have enough time to get four rabbits on average,
+
+31
+00:01:22,464 --> 00:01:24,195
+and when you do that, all of a sudden,
+
+32
+00:01:24,195 --> 00:01:28,883
+you are able to get 100 berries.
+
+33
+00:01:28,883 --> 00:01:30,861
+And when we do the different scenarios,
+
+34
+00:01:30,861 --> 00:01:33,189
+we're assuming that everything else is equal.
+
+35
+00:01:33,189 --> 00:01:37,131
+You're not changing the amount of time you have either hunting or gathering.
+
+36
+00:01:37,131 --> 00:01:39,080
+You're not changing the amount of sleep,
+
+37
+00:01:39,080 --> 00:01:43,073
+you're not changing your techniques for hunting rabbits or hunting berries,
+
+38
+00:01:43,073 --> 00:01:46,140
+you're not somehow looking to do other things with your time.
+
+39
+00:01:46,140 --> 00:01:48,228
+So all other things are equal.
+
+40
+00:01:48,228 --> 00:01:50,535
+And the general term for this - it sounds very fancy
+
+41
+00:01:50,535 --> 00:01:52,502
+if you were to say it in a conversation -
+
+42
+00:01:52,502 --> 00:01:59,206
+is ceteris paribus,
+
+43
+00:01:59,206 --> 00:02:01,186
+which literally means, so anytime someone says
+
+44
+00:02:01,186 --> 00:02:04,406
+"Oh, and, you know, ceteris paribus, we assume this variable changes,"
+
+45
+00:02:04,406 --> 00:02:06,065
+or whatever else, they're saying we're assuming
+
+46
+00:02:06,065 --> 00:02:08,518
+everything else is being held equal.
+
+47
+00:02:08,518 --> 00:02:17,641
+So, ceteris means "all other things."
+
+48
+00:02:17,641 --> 00:02:20,251
+You're probably familiar with "et cetera".
+
+49
+00:02:20,251 --> 00:02:26,045
+It's the same word, essentially, "other things". And paribus, "equal".
+
+50
+00:02:26,045 --> 00:02:29,268
+So you're not, when you're going from scenario A to scenario B,
+
+51
+00:02:29,268 --> 00:02:30,862
+you're not changing the amount of time you're sleeping,
+
+52
+00:02:30,862 --> 00:02:32,621
+you're not changing somehow
+
+53
+00:02:32,621 --> 00:02:35,538
+the geography where you are in a dramatic way.
+
+54
+00:02:35,538 --> 00:02:39,390
+You're not changing the tools you use, or the technology.
+
+55
+00:02:39,390 --> 00:02:40,828
+Everything else is equal.
+
+56
+00:02:40,828 --> 00:02:42,119
+The only variable you are changing is
+
+57
+00:02:42,119 --> 00:02:44,733
+how much time you allocate to finding rabbits
+
+58
+00:02:44,733 --> 00:02:46,465
+versus finding berries.
+
+59
+00:02:46,465 --> 00:02:48,370
+So let's do some more scenarios,
+
+60
+00:02:48,370 --> 00:02:50,398
+assuming ceteris paribus.
+
+61
+00:02:50,398 --> 00:02:53,354
+So let me do scenario C.
+
+62
+00:02:53,354 --> 00:02:56,626
+You could, on average, have enough time to get 3 rabbits,
+
+63
+00:02:56,626 --> 00:02:58,432
+but if you get 3 rabbits
+
+64
+00:02:58,432 --> 00:03:00,940
+then all of a sudden, you will only be able to get,
+
+65
+00:03:00,940 --> 00:03:04,066
+or you will be able to get, or if you are only getting 3 rabbits
+
+66
+00:03:04,066 --> 00:03:06,572
+you're now going to be able to get 180 berries
+
+67
+00:03:06,572 --> 00:03:07,998
+and let's do a couple more.
+
+68
+00:03:07,998 --> 00:03:09,595
+I'm going to do two more scenarios.
+
+69
+00:03:09,595 --> 00:03:11,634
+So let's say scenario D.
+
+70
+00:03:11,634 --> 00:03:15,645
+If you reduce the amount of time you spend getting rabbits
+
+71
+00:03:15,645 --> 00:03:18,653
+so you get 2 rabbits, now all of a sudden,
+
+72
+00:03:18,653 --> 00:03:23,348
+you have enough time, on average, to get 240 berries,
+
+73
+00:03:23,348 --> 00:03:31,215
+and then let's say you spend even less time hunting for rabbits,
+
+74
+00:03:31,215 --> 00:03:32,348
+on average,
+
+75
+00:03:32,348 --> 00:03:35,065
+then you have even more time for berries,
+
+76
+00:03:35,065 --> 00:03:38,433
+and so you're able to get 280 berries.
+
+77
+00:03:38,433 --> 00:03:40,817
+And I'll do one more scenario, here.
+
+78
+00:03:40,817 --> 00:03:44,049
+So let's say scenario F. Let's call these scenarios.
+
+79
+00:03:44,049 --> 00:03:48,153
+Scenarios A through F.
+
+80
+00:03:48,153 --> 00:03:50,952
+So scenario F is [when] you spend all your time looking for berries,
+
+81
+00:03:50,952 --> 00:03:52,334
+in which case, on average,
+
+82
+00:03:52,334 --> 00:03:54,515
+you're going to be able to get 300 berries a day.
+
+83
+00:03:54,515 --> 00:03:56,913
+But since you have no time for rabbits,
+
+84
+00:03:56,913 --> 00:03:59,867
+you aren't going to get any rabbits.
+
+85
+00:03:59,867 --> 00:04:02,540
+So what I want to do is plot these,
+
+86
+00:04:02,540 --> 00:04:04,645
+and on one axis, I'll have the number of rabbits,
+
+87
+00:04:04,645 --> 00:04:07,244
+and on the other axis I'll have the number of berries.
+
+88
+00:04:07,244 --> 00:04:10,221
+- So let me do this right over here -
+
+89
+00:04:10,221 --> 00:04:19,954
+So this axis, I will call this my rabbit axis, and start at zero
+
+90
+00:04:19,954 --> 00:04:27,533
+this will be 1, 2, 3, 4, and that will be 5 rabbits.
+
+91
+00:04:27,533 --> 00:04:30,838
+And then on this axis,
+
+92
+00:04:30,838 --> 00:04:34,933
+I will do the berries.
+
+93
+00:04:34,933 --> 00:04:39,406
+So this right over here, let's make this 100 berries,
+
+94
+00:04:39,406 --> 00:04:42,457
+this is 200 berries,
+
+95
+00:04:42,457 --> 00:04:45,368
+and then this is 300 berries.
+
+96
+00:04:45,368 --> 00:04:49,800
+And so this is my berries axis.
+
+97
+00:04:49,800 --> 00:04:52,333
+Now, let's plot these points, these different scenarios.
+
+98
+00:04:52,349 --> 00:04:55,194
+So, first we have scenario A -
+
+99
+00:04:55,194 --> 00:04:56,818
+maybe I should have done all these columns
+
+100
+00:04:56,818 --> 00:04:58,463
+in that same scenario A color.
+
+101
+00:04:58,463 --> 00:05:04,255
+Scenario A, 5 rabbits, 0 berries.
+
+102
+00:05:04,255 --> 00:05:08,192
+We are right over there. That is scenario A.
+
+103
+00:05:08,192 --> 00:05:17,068
+Scenario B, 4 rabbits, 100 berries. That's right over there.
+
+104
+00:05:17,068 --> 00:05:20,012
+That's 100 berries. So, that is scenario B.
+
+105
+00:05:20,012 --> 00:05:28,733
+Scenario C. 3 rabbits, 180 berries. Let's see, this would be 150,
+
+106
+00:05:28,733 --> 00:05:32,915
+180 would be like right over there.
+
+107
+00:05:32,915 --> 00:05:34,541
+So, if you have time for 3 rabbits,
+
+108
+00:05:34,541 --> 00:05:37,021
+you have time for about 180 berries, on average,
+
+109
+00:05:37,021 --> 00:05:39,579
+So this is scenario C.
+
+110
+00:05:39,579 --> 00:05:42,378
+And then scenario D, we have in white.
+
+111
+00:05:42,378 --> 00:05:44,187
+If you have time for 2 rabbits,
+
+112
+00:05:44,187 --> 00:05:49,571
+you have time for 240 berries. So that is right around there.
+
+113
+00:05:49,571 --> 00:05:55,758
+So, this is scenario D. So this would be 250,
+
+114
+00:05:55,758 --> 00:05:58,025
+so 240 is a little bit lower than that,
+
+115
+00:05:58,025 --> 00:06:02,048
+so it will be right over there. That is scenario D.
+
+116
+00:06:02,048 --> 00:06:05,872
+Scenario E, if you have time for 1 rabbit,
+
+117
+00:06:05,872 --> 00:06:08,248
+you have time for 280 berries.
+
+118
+00:06:08,248 --> 00:06:12,061
+That gets us right about there.
+
+119
+00:06:12,061 --> 00:06:15,460
+That is scenario E. And then finally, scenario F,
+
+120
+00:06:15,460 --> 00:06:17,938
+you are spending all of your time looking for berries,
+
+121
+00:06:17,938 --> 00:06:19,754
+you have no time for rabbits,
+
+122
+00:06:19,754 --> 00:06:22,604
+So all of your time for berries, no time for rabbits.
+
+123
+00:06:22,604 --> 00:06:26,362
+Zero rabbits, 300 berries. That's right over there.
+
+124
+00:06:26,362 --> 00:06:28,702
+This is scenario F.
+
+125
+00:06:28,702 --> 00:06:31,030
+So what [do] all of these points represent?
+
+126
+00:06:31,030 --> 00:06:34,024
+These are all points, and this is going to be a fancy word,
+
+127
+00:06:34,024 --> 00:06:35,351
+but it's a very simple idea.
+
+128
+00:06:35,351 --> 00:06:38,567
+These are all points on you as a hunter-gatherer,
+
+129
+00:06:38,567 --> 00:06:41,917
+on your production possibilities frontier.
+
+130
+00:06:41,917 --> 00:06:43,159
+Because if we draw a line -
+
+131
+00:06:43,159 --> 00:06:45,287
+I just arbitrarily picked these scenarios,
+
+132
+00:06:45,287 --> 00:06:47,397
+although I guess you could on average,
+
+133
+00:06:47,397 --> 00:06:50,320
+get 4.5 rabbits on average, or, on average, get 3.5 rabbits,
+
+134
+00:06:50,320 --> 00:06:52,410
+and then have a different number of berries -
+
+135
+00:06:52,410 --> 00:06:55,631
+So these are all points on the different combinations
+
+136
+00:06:55,631 --> 00:06:57,844
+between the trade-offs of rabbits and berries.
+
+137
+00:06:57,844 --> 00:06:59,379
+Let me connect all of these,
+
+138
+00:06:59,379 --> 00:07:01,657
+Let me connect them in a colour I haven't used yet.
+
+139
+00:07:01,657 --> 00:07:03,101
+So let me connect them.
+
+140
+00:07:03,101 --> 00:07:06,499
+And what you see, it should just be one curve.
+
+141
+00:07:06,499 --> 00:07:07,685
+I'll draw them as a dotted line.
+
+142
+00:07:07,685 --> 00:07:10,765
+It's easier for me to draw a dotted curve than a straight curve.
+
+143
+00:07:10,765 --> 00:07:16,012
+So this right over here, this curve right over here, represents
+
+144
+00:07:16,012 --> 00:07:20,747
+all the possible possibilities of combinations of rabbits and berries.
+
+145
+00:07:20,747 --> 00:07:22,851
+I've only picked certain [ones] of them
+
+146
+00:07:22,851 --> 00:07:25,694
+but you could have a scenario right over here
+
+147
+00:07:25,694 --> 00:07:27,047
+maybe we could call that scenario G,
+
+148
+00:07:27,047 --> 00:07:29,920
+where on average, the amount of time you've allocated,
+
+149
+00:07:29,920 --> 00:07:32,061
+on average you would get 4.5 rabbits,
+
+150
+00:07:32,061 --> 00:07:33,730
+so on some days you'd get 4 rabbits,
+
+151
+00:07:33,730 --> 00:07:35,584
+and every other day you'd get 5 rabbits
+
+152
+00:07:35,584 --> 00:07:37,445
+so maybe it averages out to 4.5 rabbits.
+
+153
+00:07:37,445 --> 00:07:38,743
+And then maybe it looks like
+
+154
+00:07:38,743 --> 00:07:41,328
+you'd get about 50 berries, in that situation.
+
+155
+00:07:41,328 --> 00:07:43,114
+So all of these are possibilities.
+
+156
+00:07:43,114 --> 00:07:45,923
+You don't have to just jump from 4 rabbits to 5 rabbits,
+
+157
+00:07:45,923 --> 00:07:47,159
+or maybe, you know, you are spending,
+
+158
+00:07:47,159 --> 00:07:50,377
+maybe in this scenario, you're spending 7 hours,
+
+159
+00:07:50,377 --> 00:07:52,018
+and in this scenario you spend 8 hours,
+
+160
+00:07:52,018 --> 00:07:53,681
+but you could spend 7 hours and a minute
+
+161
+00:07:53,681 --> 00:07:57,032
+or 7 hours and a second, so anything in between is possible,
+
+162
+00:07:57,032 --> 00:08:01,864
+and all of those possibilities are on this curve.
+
+163
+00:08:01,864 --> 00:08:04,066
+So these 5 scenarios,
+
+164
+00:08:04,066 --> 00:08:06,808
+actually these 6 scenarios that we've talked about so far,
+
+165
+00:08:06,808 --> 00:08:11,684
+these are just, scenarios on this curve,
+
+166
+00:08:11,684 --> 00:08:16,363
+and that curve, we call, once again fancy term, simple idea,
+
+167
+00:08:16,363 --> 00:08:33,289
+our production possibilities frontier.
+
+168
+00:08:33,289 --> 00:08:38,099
+Because it shows all of the different possibilties we can do, we can get.
+
+169
+00:08:38,099 --> 00:08:40,568
+3 rabbits and 180 berries,
+
+170
+00:08:40,568 --> 00:08:44,665
+2 rabbits and 240 berries.
+
+171
+00:08:44,665 --> 00:08:47,628
+What we cannot do is something that's beyond this.
+
+172
+00:08:47,628 --> 00:08:51,575
+So for example, we can't get scenario like this:
+
+173
+00:08:51,575 --> 00:09:01,713
+So this right over here would be impossible.
+
+174
+00:09:01,713 --> 00:09:04,094
+So this right over here is impossible.
+
+175
+00:09:04,094 --> 00:09:08,288
+This point over here, where I'm getting 5 rabbits and 200 berries.
+
+176
+00:09:08,288 --> 00:09:09,455
+If I'm getting 5 rabbits,
+
+177
+00:09:09,455 --> 00:09:11,285
+I'm spending all my time getting rabbits,
+
+178
+00:09:11,285 --> 00:09:13,963
+I have no time for berries. Or, another way to think of it,
+
+179
+00:09:13,963 --> 00:09:15,357
+if I'm getting 200 berries,
+
+180
+00:09:15,357 --> 00:09:17,862
+I don't have enough time to get 5 rabbits.
+
+181
+00:09:17,862 --> 00:09:20,726
+So this point is impossible. This point would be impossible.
+
+182
+00:09:20,726 --> 00:09:26,502
+Any point that's on this side of the curve is impossible.
+
+183
+00:09:26,502 --> 00:09:29,599
+Now, any point on this side of the curve,
+
+184
+00:09:29,599 --> 00:09:31,368
+you can kind of view it as inside the curve,
+
+185
+00:09:31,368 --> 00:09:33,884
+or below the curve, or to the left of the curve.
+
+186
+00:09:33,884 --> 00:09:40,470
+All of these points, right over here are possible.
+
+187
+00:09:40,470 --> 00:09:41,783
+These points, for example,
+
+188
+00:09:41,783 --> 00:09:46,176
+it is very easy for me to get 1 rabbit, and 200 berries.
+
+189
+00:09:46,176 --> 00:09:48,964
+So that right over there, is possible.
+
+190
+00:09:48,964 --> 00:09:50,386
+Now, is that optimal? No!
+
+191
+00:09:50,386 --> 00:09:52,628
+Because if I were to really work properly,
+
+192
+00:09:52,628 --> 00:09:57,598
+I could get many more berries, or I could get more rabbits
+
+193
+00:09:57,598 --> 00:09:59,867
+for if I have 200 berries, I could get more rabbits,
+
+194
+00:09:59,867 --> 00:10:02,467
+or if I'm concerned, if I only want 1 rabbit,
+
+195
+00:10:02,467 --> 00:10:05,044
+I can get more berries, so this is possible.
+
+196
+00:10:05,044 --> 00:10:07,487
+All of the points down here are possible,
+
+197
+00:10:07,487 --> 00:10:10,383
+but they aren't optimal. They are not efficient.
+
+198
+00:10:10,383 --> 00:10:12,979
+So the points in here,
+
+199
+00:10:12,979 --> 00:10:17,722
+we'll just say that they are not efficient.
+
+200
+00:10:17,722 --> 00:10:21,118
+Maybe somehow I'm not using my resources optimally
+
+201
+00:10:21,118 --> 00:10:24,364
+to do this type of thing when I'm over here.
+
+202
+00:10:24,364 --> 00:10:27,703
+Or maybe I'm just not being optimally focused,
+
+203
+00:10:27,703 --> 00:10:28,862
+or whatever it might be.
+
+204
+00:10:28,862 --> 00:10:30,457
+If you're talking about a factory setting,
+
+205
+00:10:30,457 --> 00:10:33,565
+when you're talking about deciding to make one thing or another,
+
+206
+00:10:33,565 --> 00:10:38,462
+then maybe you just aren't using the resources in an optimal way.
+
+207
+00:10:38,462 --> 00:10:42,935
+Now, all the points on the frontier - these are efficient.
+
+208
+00:10:42,950 --> 00:10:44,830
+You're doing the most you can do.
+
+209
+00:10:44,830 --> 00:10:47,638
+Right now we're not making any judgement between whether
+
+210
+00:10:47,638 --> 00:10:51,078
+any of these possibilties are better than any other possibility.
+
+211
+00:10:51,078 --> 00:10:52,696
+All we are saying is that
+
+212
+00:10:52,696 --> 00:10:54,441
+you are doing the most that you can do.
+
+213
+00:10:54,441 --> 00:10:58,366
+Any of these things you are making the most use of your time.

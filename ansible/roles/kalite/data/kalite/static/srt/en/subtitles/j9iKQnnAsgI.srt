@@ -1,0 +1,627 @@
+1
+00:00:00,080 --> 00:00:03,510
+We are on problem number six.
+
+2
+00:00:05,700 --> 00:00:07,340
+If there is no waste,
+
+3
+00:00:07,340 --> 00:00:10,390
+how many square yards of carpeting is needed
+
+4
+00:00:10,390 --> 00:00:14,960
+to cover a rectangular floor that is 12 feet by 18 feet?
+
+5
+00:00:14,960 --> 00:00:22,030
+So I can just draw it like that. And it's 12 feet by 18 feet.
+
+6
+00:00:22,030 --> 00:00:24,720
+And the trick here is, they're not asking how many feet,
+
+7
+00:00:24,720 --> 00:00:27,820
+they're asking how many square yards of carpeting.
+
+8
+00:00:27,820 --> 00:00:30,460
+So the easiest thing to do really at this point,
+
+9
+00:00:30,460 --> 00:00:34,690
+is to convert the dimensions of the room to yards.
+
+10
+00:00:34,690 --> 00:00:36,590
+And they tell us 3 feet make a yard.
+
+11
+00:00:36,590 --> 00:00:41,910
+So 18 feet, that's the same thing as what?
+
+12
+00:00:41,910 --> 00:00:46,370
+Divide by 3, and you get, that's 6 yards. 6 yards is 18 feet.
+
+13
+00:00:47,110 --> 00:00:50,540
+And you divide by 3, you get 4 yards.
+
+14
+00:00:50,540 --> 00:00:52,700
+I always find the arithmetic the hardest part.
+
+15
+00:00:52,700 --> 00:00:56,140
+4 yards is equal to 12 feet, right? 4 times 3 is equal to 12.
+
+16
+00:00:56,140 --> 00:01:02,470
+So now this is a 6 by 4, so 6 yards times 4 yards is equal to
+
+17
+00:01:02,470 --> 00:01:06,500
+24 square yards. That's choice C.
+
+18
+00:01:07,660 --> 00:01:10,500
+And the mistake, if you got this wrong, you might have just--
+
+19
+00:01:10,500 --> 00:01:12,540
+well one, you might have multiplied 12 times 18
+
+20
+00:01:12,540 --> 00:01:15,660
+and gotten a very large number and said,
+
+21
+00:01:15,660 --> 00:01:16,260
+oh, that's the answer.
+
+22
+00:01:16,260 --> 00:01:17,770
+But then your answer would've been in feet.
+
+23
+00:01:17,770 --> 00:01:19,780
+Then the other mistake you might have done is
+
+24
+00:01:19,780 --> 00:01:21,580
+you might have multiplied 12 times 18--
+
+25
+00:01:21,580 --> 00:01:25,170
+you might done this, 12 times 18 divided by 3.
+
+26
+00:01:26,070 --> 00:01:28,290
+Because you said, oh well, 3 feet is equal to a yard.
+
+27
+00:01:28,290 --> 00:01:29,450
+And that is a mistake
+
+28
+00:01:29,450 --> 00:01:34,340
+because you're now converting square feet to square yards.
+
+29
+00:01:34,340 --> 00:01:38,430
+And it's actually-- you should have divided by 9
+
+30
+00:01:38,430 --> 00:01:41,950
+because there's actually 9 square feet per square yard.
+
+31
+00:01:41,950 --> 00:01:44,140
+Why is that? Because if I had--
+
+32
+00:01:45,230 --> 00:01:47,720
+let's say this is a 1 square yard, right?
+
+33
+00:01:47,720 --> 00:01:49,660
+That means it's going to be 3 feet on that side,
+
+34
+00:01:49,660 --> 00:01:53,020
+3 feet on that side. So it's actually 9 square feet.
+
+35
+00:01:53,020 --> 00:01:56,440
+So if you figured out the area in feet first,
+
+36
+00:01:56,440 --> 00:01:59,330
+you had to divide by 9, not by 3.
+
+37
+00:01:59,330 --> 00:02:01,860
+That probably was the most common mistake,
+
+38
+00:02:01,860 --> 00:02:04,190
+assuming that you realized that you had to convert units.
+
+39
+00:02:04,580 --> 00:02:05,610
+Next problem.
+
+40
+00:02:08,500 --> 00:02:13,450
+Problem seven. A certain scale only registers weights
+
+41
+00:02:13,450 --> 00:02:16,420
+that are greater than 6 pounds. OK, fair enough.
+
+42
+00:02:16,420 --> 00:02:18,600
+A person who wanted to know the weights of a puppy,
+
+43
+00:02:18,600 --> 00:02:22,240
+a kitten and a bunny-- very cute-- weighed them in pairs
+
+44
+00:02:22,240 --> 00:02:24,810
+and got the following results.
+
+45
+00:02:24,810 --> 00:02:27,090
+Kitten plus bunny weighed 7 pounds.
+
+46
+00:02:29,940 --> 00:02:33,650
+Kitten plus puppy is 8.
+
+47
+00:02:37,150 --> 00:02:39,400
+And bunny plus puppy is 9.
+
+48
+00:02:43,100 --> 00:02:45,800
+This is by far the cutest problem I've ever done.
+
+49
+00:02:45,800 --> 00:02:51,460
+What is the weight of the puppy? So we want to solve for P.
+
+50
+00:02:53,330 --> 00:02:55,390
+Well, if we're going to solve for P, the best thing
+
+51
+00:02:55,390 --> 00:02:57,950
+we could do is we want to use these two equations.
+
+52
+00:02:59,780 --> 00:03:02,440
+But we have three-- if we just look at these two equations,
+
+53
+00:03:02,440 --> 00:03:04,900
+we have three unknowns with two equations.
+
+54
+00:03:04,900 --> 00:03:09,400
+So let's use this equation to substitute into this equation.
+
+55
+00:03:10,390 --> 00:03:12,090
+So let's say we want to replace this K.
+
+56
+00:03:12,090 --> 00:03:15,120
+So we can use this top equation to say that
+
+57
+00:03:15,120 --> 00:03:18,140
+K is equal to 7 minus B.
+
+58
+00:03:19,080 --> 00:03:22,840
+So if we substitute that into this equation, we'll get--
+
+59
+00:03:22,840 --> 00:03:27,450
+so let me just-- this is 7 minus B, so we'll get 7 minus B--
+
+60
+00:03:27,450 --> 00:03:32,500
+and I'm just rewriting this top equation, that's this--
+
+61
+00:03:32,500 --> 00:03:35,790
+plus P is equal to 8.
+
+62
+00:03:37,060 --> 00:03:43,820
+And then this bottom equation still is B plus P is equal to 9
+
+63
+00:03:44,270 --> 00:03:47,490
+I could add the 7 or subtract 7 from both sides right now,
+
+64
+00:03:47,490 --> 00:03:49,160
+but I'm just going to actually add the equations,
+
+65
+00:03:49,160 --> 00:03:51,240
+because I like how these B's are going to cancel out.
+
+66
+00:03:51,240 --> 00:03:53,280
+I get excited about canceling variables.
+
+67
+00:03:53,280 --> 00:03:57,230
+So-- actually, no let me subtract 7 from both sides first.
+
+68
+00:03:57,230 --> 00:04:00,870
+So if we take 7 from here, than this 8 becomes a 1, right?
+
+69
+00:04:00,870 --> 00:04:02,930
+I just subtracted 7 from both sides.
+
+70
+00:04:02,930 --> 00:04:04,620
+So negative B plus P is equal to 1.
+
+71
+00:04:04,620 --> 00:04:07,380
+Now I just add these two equations.
+
+72
+00:04:07,380 --> 00:04:08,790
+And what's minus B plus B?
+
+73
+00:04:08,790 --> 00:04:14,190
+It's 0 plus P plus P is 2P is equal to 1 plus 9 is 10.
+
+74
+00:04:14,190 --> 00:04:18,830
+2P equals 10. P is equal to 5. Choice D.
+
+75
+00:04:18,830 --> 00:04:20,900
+5 pounds, that's how much the puppy weighs.
+
+76
+00:04:21,630 --> 00:04:24,810
+Which shows us the bunny weighs 2 pounds,
+
+77
+00:04:24,810 --> 00:04:26,930
+and the kitten weighs 3 pounds. Which is--
+
+78
+00:04:27,530 --> 00:04:30,140
+it looks like they actually thought about how much a puppy,
+
+79
+00:04:30,140 --> 00:04:32,620
+a bunny and a kitten would actually weigh,
+
+80
+00:04:32,620 --> 00:04:34,190
+which I have to give them credit for.
+
+81
+00:04:35,100 --> 00:04:38,710
+Next problem. Problem eight.
+
+82
+00:04:40,560 --> 00:04:48,800
+On a blueprint, 1/4 inch represents 16 feet in real life.
+
+83
+00:04:48,800 --> 00:04:51,730
+If a driveway is 40 feet long,
+
+84
+00:04:51,730 --> 00:04:54,190
+what is its length in inches on the map?
+
+85
+00:04:54,190 --> 00:04:58,840
+So a driveway-- that's a driveway, I don't know,
+
+86
+00:04:58,840 --> 00:05:03,140
+that's my driveway. And it's 40 feet long.
+
+87
+00:05:07,220 --> 00:05:10,620
+So how many of these units is it going to be?
+
+88
+00:05:14,360 --> 00:05:18,920
+Well, actually-- we could do it a bunch of different ways.
+
+89
+00:05:18,920 --> 00:05:22,370
+We could say 1/4 of an inch is equal to 16 feet.
+
+90
+00:05:22,370 --> 00:05:25,110
+If we multiply both sides of this relationship by 4,
+
+91
+00:05:25,110 --> 00:05:32,730
+you get 1 inch is equal to 64 feet. 1 inch--
+
+92
+00:05:32,730 --> 00:05:35,140
+I just multiplied both sides of this relationship by 4.
+
+93
+00:05:35,140 --> 00:05:37,620
+So if you want to figure out
+
+94
+00:05:37,620 --> 00:05:39,660
+how many inches this would represent,
+
+95
+00:05:39,660 --> 00:05:43,210
+you would say, well, x is how many inches it would represent
+
+96
+00:05:43,210 --> 00:05:51,180
+over 1 inch is equal to this length, 40 feet, over 64.
+
+97
+00:05:52,180 --> 00:05:53,330
+It's the same fraction.
+
+98
+00:05:53,330 --> 00:05:58,090
+And of course, if you divide by 1, this cancels out.
+
+99
+00:05:59,310 --> 00:06:02,860
+So you're left with x, which is its representation in inches,
+
+100
+00:06:02,860 --> 00:06:05,480
+is equal to 40/64.
+
+101
+00:06:05,480 --> 00:06:09,250
+Well you could divide the top and the bottom by 8,
+
+102
+00:06:09,250 --> 00:06:15,670
+so that becomes 5/8. 40 divided by 5. 64 divided by 8.
+
+103
+00:06:15,670 --> 00:06:21,990
+x is equal to 5/8. And that is choice B. Next problem.
+
+104
+00:06:21,990 --> 00:06:23,070
+There's a bunch of ways you could have don e it.
+
+105
+00:06:23,070 --> 00:06:25,460
+This is the way that occurred to me.
+
+106
+00:06:27,360 --> 00:06:33,800
+Next problem, problem nine. In the xy-coordinate system,
+
+107
+00:06:33,800 --> 00:06:37,680
+p comma 0 is one of the points of intersection of the graphs-
+
+108
+00:06:37,680 --> 00:06:39,600
+OK, so they're giving us two graphs.
+
+109
+00:06:40,080 --> 00:06:43,620
+y is equal to minus x squared plus 9,
+
+110
+00:06:43,620 --> 00:06:50,120
+and the other graph is y is equal to x squared minus 9.
+
+111
+00:06:51,130 --> 00:06:59,150
+If p is positive, what is the value of p?
+
+112
+00:06:59,150 --> 00:07:00,230
+So they're saying that the coordinate
+
+113
+00:07:00,230 --> 00:07:02,990
+where they intersect is p comma 0.
+
+114
+00:07:04,310 --> 00:07:06,010
+So we want to figure out the x-coordinate
+
+115
+00:07:06,010 --> 00:07:12,170
+where they intersect. So the easy way--
+
+116
+00:07:12,170 --> 00:07:14,360
+you know, they're tempting you to add these equations
+
+117
+00:07:14,360 --> 00:07:15,450
+and do all sorts of things,
+
+118
+00:07:15,450 --> 00:07:19,410
+but we know that they intersect at the point y is equal to 0.
+
+119
+00:07:19,410 --> 00:07:20,300
+They're telling us that,
+
+120
+00:07:20,300 --> 00:07:21,750
+so we don't have to do all this fancy stuff.
+
+121
+00:07:21,750 --> 00:07:22,990
+We don't have to figure out where they intersect.
+
+122
+00:07:22,990 --> 00:07:25,160
+They tell us it intersects at y equals 0.
+
+123
+00:07:25,160 --> 00:07:28,840
+So y equals 0, what's x in either of these situations?
+
+124
+00:07:28,840 --> 00:07:31,110
+Well, let's take this second equation.
+
+125
+00:07:31,110 --> 00:07:33,940
+0 is equal to x squared minus 9.
+
+126
+00:07:33,940 --> 00:07:38,370
+Add 9 to both sides, you get x squared is equal to 9.
+
+127
+00:07:38,370 --> 00:07:40,830
+I added 9 and switched the sides.
+
+128
+00:07:40,830 --> 00:07:43,640
+You get x is equal to plus or minus 3.
+
+129
+00:07:44,580 --> 00:07:47,820
+And they tell us, that if p is positive,
+
+130
+00:07:47,820 --> 00:07:51,460
+what is the value of p? Well, it has to be plus 3 then.
+
+131
+00:07:51,460 --> 00:07:56,420
+And that is choice A.And you could have used the top equation
+
+132
+00:07:56,420 --> 00:08:00,380
+You could have said 0 is equal to negative x squared plus 9.
+
+133
+00:08:00,380 --> 00:08:01,240
+You would've gotten the same thing.
+
+134
+00:08:01,240 --> 00:08:03,010
+You would've gotten x squared is equal to 9,
+
+135
+00:08:03,010 --> 00:08:04,620
+x is equal to plus or minus 3.
+
+136
+00:08:04,620 --> 00:08:09,340
+You would've gotten the same thing either way. Next problem.
+
+137
+00:08:09,340 --> 00:08:10,840
+I don't know if I'm going to have time to do it in this video
+
+138
+00:08:10,840 --> 00:08:14,890
+I might have to do it in the next. Problem ten.
+
+139
+00:08:16,080 --> 00:08:19,550
+The Smith Metal Company's old machine makes
+
+140
+00:08:19,550 --> 00:08:23,460
+300 bolts per hour. 300-- I'll call it b per h.
+
+141
+00:08:24,600 --> 00:08:27,520
+Its new machine makes 450 bolts per hour.
+
+142
+00:08:29,730 --> 00:08:33,680
+If both machines begin running at the same time,
+
+143
+00:08:33,680 --> 00:08:37,680
+how many minutes will it take the two machines
+
+144
+00:08:37,680 --> 00:08:42,280
+to make a total of 900 bolts? So how many minutes?
+
+145
+00:08:42,280 --> 00:08:43,640
+So let's say m for minutes.
+
+146
+00:08:43,640 --> 00:08:46,480
+So the total number of bolts they're going to produce--
+
+147
+00:08:46,480 --> 00:08:56,250
+so bolts is going to be equal-- so this is per hour, right?
+
+148
+00:08:56,250 --> 00:09:01,210
+These are both per hour. So let's figure it out minutes,
+
+149
+00:09:01,210 --> 00:09:02,990
+because they're asking us how many minutes will it take.
+
+150
+00:09:02,990 --> 00:09:05,420
+So if you make 300 bolts in an hour,
+
+151
+00:09:05,420 --> 00:09:08,720
+you're going to make 1/60 that in a minute.
+
+152
+00:09:08,720 --> 00:09:11,600
+So what's 1/60 of 300?
+
+153
+00:09:11,600 --> 00:09:15,610
+Well, 300 divided by 60 is 5 bolts per minute.
+
+154
+00:09:16,630 --> 00:09:20,110
+And this one-- what's 450 divided by 60?
+
+155
+00:09:23,050 --> 00:09:24,350
+Actually, I'm going to run out of time.
+
+156
+00:09:24,350 --> 00:09:25,860
+I'm going to do this problem in the next video.
+
+157
+00:09:25,860 --> 00:09:26,890
+I'll see you soon.

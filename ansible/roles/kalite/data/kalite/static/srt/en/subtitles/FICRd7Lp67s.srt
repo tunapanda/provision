@@ -1,0 +1,271 @@
+1
+00:00:00,435 --> 00:00:02,944
+"You are given two dice to roll.
+
+2
+00:00:02,944 --> 00:00:07,069
+One is black with six sides, the other is white with four sides."
+
+3
+00:00:07,069 --> 00:00:10,471
+So a 4-sided die is kind of a pyramid looking thing.
+
+4
+00:00:10,471 --> 00:00:15,271
+And it has exactly 4 sides. So it would be a pyramid with a triangular base.
+
+5
+00:00:15,271 --> 00:00:20,429
+"For a given roll, what is the probability that the dice add up to 10?
+
+6
+00:00:20,429 --> 00:00:26,071
+If it helps, you may select the matching outcomes below. Your selections aren't checked with your answer."
+
+7
+00:00:26,071 --> 00:00:27,486
+So this might look a little bit strange at first.
+
+8
+00:00:27,486 --> 00:00:29,032
+You're like: "what is this triangle?".
+
+9
+00:00:29,032 --> 00:00:33,317
+This triangle is the face of the 4-sided die.
+
+10
+00:00:33,317 --> 00:00:37,297
+That is facing you. This is the roll of the 4-sided die.
+
+11
+00:00:37,297 --> 00:00:41,297
+And so this is a roll of "1" and "1" so these clearly are not adding up to 10.
+
+12
+00:00:41,297 --> 00:00:42,963
+So let's think about all the ones that add up to 10.
+
+13
+00:00:42,963 --> 00:00:47,804
+This adds to 2, this adds up to 3, this adds up to 4.
+
+14
+00:00:47,804 --> 00:00:50,213
+This adds up to 5.
+
+15
+00:00:50,213 --> 00:00:52,438
+Let's see what actually adds up to 10. So...
+
+16
+00:00:52,438 --> 00:00:58,271
+Clearly if we get a 4 and a 6, that's going to add up to 10.
+
+17
+00:00:58,271 --> 00:01:02,212
+And are there any other possibilities that add up to 10?
+
+18
+00:01:02,212 --> 00:01:06,630
+Well, the highest possible roll I can get on the 4-sided die is a 4.
+
+19
+00:01:06,630 --> 00:01:10,536
+So that's my best scenario - that's the highest possible roll.
+
+20
+00:01:10,536 --> 00:01:14,670
+And even if I get that, I still need the highest possible roll on the 6-sided die.
+
+21
+00:01:14,670 --> 00:01:16,804
+So this is the only scenario that adds up to 10.
+
+22
+00:01:16,804 --> 00:01:20,296
+You can look at any of these other ones, and they'll add up to something less than 10.
+
+23
+00:01:20,296 --> 00:01:25,880
+So there's one possibility that satisfies our constraint: "the dice add up to 10".
+
+24
+00:01:25,880 --> 00:01:29,630
+And how many total, equally likely, possibilities were there?
+
+25
+00:01:29,630 --> 00:01:32,738
+Let's see: this grid is shows all the equally likely possibilities.
+
+26
+00:01:32,738 --> 00:01:36,787
+This is 1-2-3-4 times 1-2-3-4-5-6.
+
+27
+00:01:36,787 --> 00:01:40,779
+There are 24 equally likely possibilities, and that comes from:
+
+28
+00:01:40,779 --> 00:01:45,056
+you have 6 possibilities from the 6-sided die times
+
+29
+00:01:45,056 --> 00:01:49,801
+4 possibilities from the 4-sided die, gives you 24 equally likely possibilities.
+
+30
+00:01:49,801 --> 00:01:56,661
+Only 1 satisfies the constraint that the dice add up to 10.
+
+31
+00:01:56,661 --> 00:01:59,459
+Let's do a few more of these.
+
+32
+00:01:59,459 --> 00:02:02,060
+"You are give two six-sided dice to roll.
+
+33
+00:02:02,060 --> 00:02:06,459
+For a given roll, what is the probability that the dice add to 6?"
+
+34
+00:02:06,459 --> 00:02:10,260
+So here we have the tops of both of my dice.
+
+35
+00:02:10,260 --> 00:02:15,626
+And what are all the scenarios where the dice add up to 6?
+
+36
+00:02:15,626 --> 00:02:18,134
+Well.. let's think about this.
+
+37
+00:02:18,134 --> 00:02:22,594
+If I have a 1 and a 5, that's going to add up to 6.
+
+38
+00:02:22,594 --> 00:02:26,328
+In this entire column, that's the only way that I add up to 6.
+
+39
+00:02:26,328 --> 00:02:28,394
+Right over here, let's see..
+
+40
+00:02:28,394 --> 00:02:33,265
+If I have a 2 on the black die, then I need 4 on the white die.
+
+41
+00:02:33,265 --> 00:02:34,860
+To add up to 6.
+
+42
+00:02:34,860 --> 00:02:38,431
+If I have a 3 on the black die, I'm going to need a 3 on the white die to add up to 6.
+
+43
+00:02:38,431 --> 00:02:43,011
+If I have a 4 on the black die, I'm going to need a 2 on the white die.
+
+44
+00:02:43,011 --> 00:02:45,795
+If I have a 5 on the black die, I'm going to need a 1 on the white die.
+
+45
+00:02:45,795 --> 00:02:50,127
+And then if I have a 6 on the black die, it is actually impossible that the sum will be exactly 6.
+
+46
+00:02:50,127 --> 00:02:51,860
+There is no 0 on the white die.
+
+47
+00:02:51,860 --> 00:02:54,527
+So none of these meet the constraint.
+
+48
+00:02:54,527 --> 00:03:00,997
+So, here I have 1-2-3-4-5 possibilities where my dice add up to six.
+
+49
+00:03:00,997 --> 00:03:06,080
+So I have 5 possibilities out of a total of 36 equally likely ones.
+
+50
+00:03:06,080 --> 00:03:08,996
+This is a 6 by 6 grid, and it comes from 6 possibilities
+
+51
+00:03:08,996 --> 00:03:11,329
+for 1 die times 6 possibilities for the other die.
+
+52
+00:03:11,329 --> 00:03:18,594
+So 5 possibilities satisfy my constraint out of a total of 36.
+
+53
+00:03:18,594 --> 00:03:22,194
+Let's do one more, this is actually a lot of fun.
+
+54
+00:03:22,194 --> 00:03:26,596
+"You are given two six-sided dice to roll.
+
+55
+00:03:26,596 --> 00:03:31,378
+For a given roll, what is the probability at least one die is a 6?"
+
+56
+00:03:31,378 --> 00:03:33,448
+At LEAST ONE die is a six?
+
+57
+00:03:33,448 --> 00:03:39,493
+So, let's see. We just have to look for all of the situations where at least one of the dice is a six.
+
+58
+00:03:39,493 --> 00:03:44,609
+So, that one, that one, every time I see a six, I should just click on it.
+
+59
+00:03:44,624 --> 00:03:46,402
+That one... that one..
+
+60
+00:03:46,402 --> 00:03:50,088
+and then obviously, all of these scenarios right over here.
+
+61
+00:03:50,088 --> 00:03:52,827
+So these are all the scenarios where at least 1 of the dice is a 6.
+
+62
+00:03:52,827 --> 00:03:55,593
+Here, of course, is where both of the dice are 6.
+
+63
+00:03:55,593 --> 00:03:57,194
+So, how many scenarios are there?
+
+64
+00:03:57,194 --> 00:04:03,261
+1-2-3-4-5-6-7-8-9-11.
+
+65
+00:04:03,261 --> 00:04:09,260
+So there are 11 possibilities out of a total of 36 equally likely ones.
+
+66
+00:04:09,260 --> 00:04:13,827
+Remember: 6 x 6. There's 36 equally likely outcomes.
+
+67
+00:04:13,827 --> 00:04:15,572
+So, let's check our answer.
+
+68
+00:04:15,572 --> 00:04:19,000
+And we got it right!

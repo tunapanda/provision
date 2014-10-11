@@ -1,0 +1,651 @@
+1
+00:00:00,870 --> 00:00:05,280
+We're on problem 110. Let me scroll this up.
+
+2
+00:00:07,730 --> 00:00:11,100
+Whenever Martin has a restaurant bill with an amount between
+
+3
+00:00:11,100 --> 00:00:15,000
+$10 and $99ŁŹhe calculates the dollar amount of the tip
+
+4
+00:00:15,000 --> 00:00:17,260
+as two times the tens digit of the amount of his bill.
+
+5
+00:00:17,650 --> 00:00:18,700
+Fair enough. So essentially,
+
+6
+00:00:18,700 --> 00:00:20,970
+if there is a ten digit, he just multiplies it by 2.
+
+7
+00:00:21,400 --> 00:00:23,900
+If the amount of Martin's most recent restaurant bill was
+
+8
+00:00:23,900 --> 00:00:27,720
+between $10 and $99, was the tip calculated by Martin on
+
+9
+00:00:27,720 --> 00:00:31,250
+his bill greater than 15% of the amount of the bill?
+
+10
+00:00:35,030 --> 00:00:39,380
+That is the question. Statement 1 says,
+
+11
+00:00:39,850 --> 00:00:42,790
+the amount of the bill was between $15 and $50.
+
+12
+00:00:48,510 --> 00:00:53,580
+So 1 essentially is enough for this problem, is sufficient,
+
+13
+00:00:53,580 --> 00:00:58,000
+if for every bill, based on his calculation where you
+
+14
+00:00:58,000 --> 00:01:00,770
+double the tens digit, it's going to be greater than 15.
+
+15
+00:01:00,770 --> 00:01:03,800
+And I suspect, let's see if we take the lower end of this,
+
+16
+00:01:03,800 --> 00:01:10,300
+on this he'll pay $2. He'll pay a $2 tip on $15.
+
+17
+00:01:10,540 --> 00:01:18,650
+And what percentage is that? 15 goes into 2.00. 1, 15, 50.
+
+18
+00:01:18,650 --> 00:01:24,010
+15 goes into 50 3 times.3 times 15,45 and it just keeps going
+
+19
+00:01:24,010 --> 00:01:25,990
+So that's a 13% tip.
+
+20
+00:01:29,170 --> 00:01:32,500
+Well, it's going to be even lower than that at $16.
+
+21
+00:01:32,840 --> 00:01:35,190
+Maybe the bill wasn't $15, the bill was $16.
+
+22
+00:01:35,190 --> 00:01:39,090
+So the tip is, at the lower end it's 13%, 12%.
+
+23
+00:01:39,090 --> 00:01:49,100
+And at the higher end, if the bill is $40 exactly and he
+
+24
+00:01:49,100 --> 00:01:53,610
+pays $8 on that. If the bill is $40,
+
+25
+00:01:54,000 --> 00:01:58,010
+then Martin would pay $8, which would be 20%.
+
+26
+00:01:58,410 --> 00:02:00,620
+So I can pick different numbers in this range,
+
+27
+00:02:00,620 --> 00:02:03,300
+and based on the way Martin calculates his tip,
+
+28
+00:02:10,910 --> 00:02:14,580
+he can either pay less than 15% or more than 15%.
+
+29
+00:02:14,580 --> 00:02:17,170
+So statement 1 alone is not sufficient.
+
+30
+00:02:17,370 --> 00:02:19,450
+What does statement 2 tell us?
+
+31
+00:02:19,450 --> 00:02:22,140
+The tip calculated by Martin was $8.
+
+32
+00:02:24,500 --> 00:02:26,560
+Well this is going to be 2 times the tens digit.
+
+33
+00:02:26,560 --> 00:02:30,800
+So that means that the bill was equal to $40-- I don't know,
+
+34
+00:02:30,800 --> 00:02:35,080
+$40-something. So let's think about it.
+
+35
+00:02:35,870 --> 00:02:40,280
+So the worst case is if the bill-- if he paid $8 on a $40
+
+36
+00:02:40,280 --> 00:02:44,400
+bill, that's definitely more than 15%. That's 20%.
+
+37
+00:02:44,400 --> 00:02:46,310
+That's what I just actually calculated.
+
+38
+00:02:47,250 --> 00:02:50,000
+Let's see the worst case is on a $49 bill.
+
+39
+00:02:50,100 --> 00:02:53,010
+That the bill keeps going up and he just pays $8.
+
+40
+00:02:53,010 --> 00:02:58,450
+So is 8 bigger than 15% of 49? Well yeah.
+
+41
+00:02:58,450 --> 00:03:06,010
+Because 8/50 is equal to what? That's equal to 16%.
+
+42
+00:03:06,010 --> 00:03:11,390
+So if 8/50 is 16%, 8/49, if we lower the denominator a little
+
+43
+00:03:11,390 --> 00:03:13,460
+bit, that's going to be greater than 16%.
+
+44
+00:03:13,460 --> 00:03:17,910
+So no matter what range in the forties the bill was,
+
+45
+00:03:17,910 --> 00:03:20,570
+whether it's $40 or $49 or anything in between,
+
+46
+00:03:20,570 --> 00:03:24,780
+an $8 tip is going to be more than--it's actually going to be
+
+47
+00:03:24,780 --> 00:03:28,030
+more than 16%. Not to speak of even 15%.
+
+48
+00:03:28,030 --> 00:03:30,840
+So statement number 2 alone is sufficient
+
+49
+00:03:30,840 --> 00:03:31,780
+to answer this question.
+
+50
+00:03:31,960 --> 00:03:34,570
+And statement number 1 is fairly useless.
+
+51
+00:03:36,000 --> 00:03:37,000
+Problem 111.
+
+52
+00:03:39,000 --> 00:03:44,920
+The price per share of stock x increased by 10% over the same
+
+53
+00:03:44,920 --> 00:03:48,390
+time period that the price per share of stock y
+
+54
+00:03:48,390 --> 00:03:50,550
+decreased by 10%.
+
+55
+00:03:51,160 --> 00:03:54,420
+The reduced price per share of stock y was what percent of
+
+56
+00:03:54,420 --> 00:03:59,000
+the original price per share of stock x? Fascinating.
+
+57
+00:03:59,000 --> 00:04:07,410
+So let's do initial and final. So x final is equal to
+
+58
+00:04:07,810 --> 00:04:11,090
+an increase by 10% from the initial period.
+
+59
+00:04:11,890 --> 00:04:19,000
+OK, so it equals 1.1 times x initial. Fair enough.
+
+60
+00:04:19,000 --> 00:04:23,060
+And then, over the same time period y decreased by 10%.
+
+61
+00:04:23,060 --> 00:04:28,890
+So y final is equal to 10% less than y initial.
+
+62
+00:04:28,890 --> 00:04:32,300
+So that's 0.9 times y initial.
+
+63
+00:04:33,010 --> 00:04:35,860
+And what they want to know is the reduced price per share of
+
+64
+00:04:35,860 --> 00:04:43,980
+stock y-- so that's y f-- was what percent of the original
+
+65
+00:04:43,980 --> 00:04:48,220
+price per share of stock x? Of x initial?
+
+66
+00:04:49,220 --> 00:04:53,000
+So this is what they want to figure out.This is a percentage.
+
+67
+00:04:53,000 --> 00:04:56,010
+So let's see if the statements help us out at all.
+
+68
+00:04:56,010 --> 00:05:01,880
+The increased price per share of stock x was equal to the
+
+69
+00:05:01,880 --> 00:05:04,710
+original price per share of stock y.
+
+70
+00:05:04,710 --> 00:05:09,760
+So the increased price per share of stock x, so that's x f.
+
+71
+00:05:10,060 --> 00:05:12,130
+That's the final. That's the increased share price.
+
+72
+00:05:12,130 --> 00:05:14,010
+It increased from the initial to the final.
+
+73
+00:05:14,010 --> 00:05:18,000
+So the increased price per share of stock x was equal to
+
+74
+00:05:18,000 --> 00:05:19,790
+the original price per share of stock y.
+
+75
+00:05:20,010 --> 00:05:24,180
+So that equals y initial.
+
+76
+00:05:27,030 --> 00:05:31,010
+So this is interesting. I don't know if it gets us anywhere.
+
+77
+00:05:31,010 --> 00:05:37,750
+This deals with x final and x initial. So I think we can--
+
+78
+00:05:37,750 --> 00:05:44,710
+so if we could write all of it in terms of y initial.
+
+79
+00:05:44,710 --> 00:05:47,800
+So y final equals-- so let's rewrite this.
+
+80
+00:05:47,800 --> 00:05:53,030
+This is equal to-- y final is 0.9 times y initial.
+
+81
+00:05:53,570 --> 00:05:59,040
+That's just from this equation. 0.9 times y initial.
+
+82
+00:05:59,540 --> 00:06:02,350
+And let's see if we could write the initial x in terms
+
+83
+00:06:02,350 --> 00:06:04,710
+of the initial y.
+
+84
+00:06:05,420 --> 00:06:08,400
+So x final is equal to y initial.
+
+85
+00:06:08,400 --> 00:06:11,360
+So that means that y initial is equal to this.
+
+86
+00:06:11,360 --> 00:06:16,060
+So that equals 1.1 x initial.
+
+87
+00:06:16,860 --> 00:06:20,600
+And that means that we can divide both sides of this
+
+88
+00:06:21,050 --> 00:06:22,740
+equality by 1.1.
+
+89
+00:06:23,070 --> 00:06:32,130
+And we get x initial is equal to 1 over 1.1 times y initial.
+
+90
+00:06:32,330 --> 00:06:39,230
+So then we have this. 1 over 1.1 times y initial.
+
+91
+00:06:39,230 --> 00:06:40,910
+And then these two would cancel out.
+
+92
+00:06:40,910 --> 00:06:42,520
+And you would actually have your answer.
+
+93
+00:06:42,520 --> 00:06:46,220
+So statement 1 alone is sufficient to answer the question.
+
+94
+00:06:48,660 --> 00:06:50,510
+It wasn't obvious to me at first, but then you have to
+
+95
+00:06:50,510 --> 00:06:53,850
+realize that, the terminology is confusing but that you can
+
+96
+00:06:53,850 --> 00:06:57,200
+actually write both of these in terms of y initial given
+
+97
+00:06:57,200 --> 00:06:57,830
+that information.
+
+98
+00:06:57,830 --> 00:07:01,010
+Given the fact that x final is equal to y initial.
+
+99
+00:07:01,010 --> 00:07:03,010
+Let's see what statement 2 does for us.
+
+100
+00:07:04,010 --> 00:07:10,980
+The increase in the price per share of stock x was 10/11 the
+
+101
+00:07:10,980 --> 00:07:13,770
+decrease in the price per share of stock y.
+
+102
+00:07:14,090 --> 00:07:15,020
+Let me think about that.
+
+103
+00:07:15,550 --> 00:07:19,040
+The increase in the price per share of stock x.
+
+104
+00:07:19,040 --> 00:07:27,940
+So that means that x final minus x initial-- that's the
+
+105
+00:07:27,940 --> 00:07:36,990
+increase-- that this was equal to 10/11 times the decrease in
+
+106
+00:07:36,990 --> 00:07:40,030
+the price per share of stock y. So what was the decrease?
+
+107
+00:07:40,030 --> 00:07:46,300
+This was y initial minus y final.
+
+108
+00:07:49,800 --> 00:07:51,690
+Because this was a larger number and we wanted a
+
+109
+00:07:51,690 --> 00:07:53,540
+positive number here. Because we're just saying the decrease.
+
+110
+00:07:53,640 --> 00:07:55,460
+We're not saying the negative increase.
+
+111
+00:07:56,050 --> 00:07:58,950
+So let's see if we can simplify this at all.
+
+112
+00:08:02,100 --> 00:08:11,030
+So let's see, you get x final minus x initial is equal to
+
+113
+00:08:11,030 --> 00:08:22,030
+10/11 y initial minus 10/11 y final.
+
+114
+00:08:22,030 --> 00:08:24,400
+And remember, the whole time we just want to figure out
+
+115
+00:08:24,400 --> 00:08:30,730
+what y final over x initial is.
+
+116
+00:08:31,270 --> 00:08:34,360
+So let's think about this.
+
+117
+00:08:34,360 --> 00:08:39,510
+Let's write x final is equal to 1.1 times x initial. Right?
+
+118
+00:08:40,310 --> 00:08:47,760
+So we have 1.1 times x initial minus x initial is
+
+119
+00:08:47,760 --> 00:08:50,400
+equal to--actually I should have done that in the first step.
+
+120
+00:08:50,540 --> 00:08:52,050
+Let's just skip this right now.
+
+121
+00:08:52,050 --> 00:08:58,730
+Let's just write the 10 over 11. What do we want?
+
+122
+00:08:58,730 --> 00:09:01,990
+We want y final. So we just want to substitute for y initial.
+
+123
+00:09:06,400 --> 00:09:07,730
+I am confusing myself.
+
+124
+00:09:07,730 --> 00:09:12,970
+So y initial is going to be equal to y final divided by 0.9.
+
+125
+00:09:13,370 --> 00:09:21,590
+So 1 over 0.9 y final. I know this is a little confusing.
+
+126
+00:09:22,090 --> 00:09:26,080
+Minus y final. I just did a substitution for y initial.
+
+127
+00:09:26,080 --> 00:09:29,600
+And then here, well this is actually,
+
+128
+00:09:29,600 --> 00:09:31,810
+we know that we can solve this problem.
+
+129
+00:09:31,810 --> 00:09:33,000
+Although it gets quite hairy.
+
+130
+00:09:33,000 --> 00:09:35,010
+Because here, if you think about it, you're going to get
+
+131
+00:09:35,010 --> 00:09:39,880
+some number, well you're going to get 0.1 x initial is equal
+
+132
+00:09:39,880 --> 00:09:45,150
+to-- you're going to get some constant after you do all this
+
+133
+00:09:45,150 --> 00:09:46,440
+math-- times y final.
+
+134
+00:09:48,960 --> 00:09:52,740
+And so you can easily figure out what y final divided by x
+
+135
+00:09:52,740 --> 00:09:55,900
+initial is, just by dividing both sides by x initial and
+
+136
+00:09:55,900 --> 00:09:57,650
+then dividing both sides by A and you would
+
+137
+00:09:57,650 --> 00:09:58,910
+have solved the problem.
+
+138
+00:09:58,910 --> 00:10:00,210
+And I'm not going to do that because it's actually kind of
+
+139
+00:10:00,210 --> 00:10:03,480
+hairy and I don't have--1 divided by 0.9 and then multiplying
+
+140
+00:10:03,480 --> 00:10:06,560
+it by 10/11 is a fairly convoluted way of doing it.
+
+141
+00:10:06,640 --> 00:10:09,980
+But hopefully, you see that this is solvable.
+
+142
+00:10:09,980 --> 00:10:12,540
+And let me just review that again because I think I did it
+
+143
+00:10:12,540 --> 00:10:13,070
+in my own head.
+
+144
+00:10:14,000 --> 00:10:18,650
+So the statement itself said the change, the gain in x-- x
+
+145
+00:10:18,650 --> 00:10:22,780
+final minus x initial-- was 10/11 times the loss in y.
+
+146
+00:10:22,780 --> 00:10:27,080
+So y initial minus y final.Because y final is the smaller one
+
+147
+00:10:27,080 --> 00:10:31,270
+x final we can rewrite in terms of x initial just using
+
+148
+00:10:31,270 --> 00:10:33,730
+our initial, the fact that it was 10% more.
+
+149
+00:10:33,870 --> 00:10:35,070
+So I just did that here.
+
+150
+00:10:38,090 --> 00:10:42,720
+And y initial, we can rewrite as y final.
+
+151
+00:10:45,220 --> 00:10:50,020
+You could say y initial is equal to y final divided by 0.9.
+
+152
+00:10:50,020 --> 00:10:51,510
+And that's what we did there.
+
+153
+00:10:51,510 --> 00:10:54,200
+And then you could see here, this will simplify to some
+
+154
+00:10:54,200 --> 00:10:55,120
+constant times y final.
+
+155
+00:10:55,120 --> 00:10:56,800
+And then you multiply that times 10/11.
+
+156
+00:10:56,800 --> 00:10:58,980
+So you get some constant times y final.
+
+157
+00:10:59,040 --> 00:11:03,610
+And then you have 0.1 times x initial. 1.1 minus 1.
+
+158
+00:11:03,610 --> 00:11:06,010
+And then you can just do some simple algebra to figure out
+
+159
+00:11:06,010 --> 00:11:10,020
+what y final over x initial is.
+
+160
+00:11:10,020 --> 00:11:12,240
+So both statements, independently,
+
+161
+00:11:12,240 --> 00:11:13,800
+are sufficient to solve this problem.
+
+162
+00:11:13,800 --> 00:11:16,000
+I think that was the hardest one we've done so far.
+
+163
+00:11:16,000 --> 00:11:17,090
+See you in the next video.

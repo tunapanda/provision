@@ -1,0 +1,67 @@
+1
+00:00:00,404 --> 00:00:07,277
+Now that we know what a matrix is, let's see if we can start to define some operations on matrices.
+
+2
+00:00:07,277 --> 00:00:12,417
+So let's say I have a 2x3 matrix... so two rows and three columns... and the entries are....
+
+3
+00:00:12,417 --> 00:00:19,838
+7... 5... -10... 
+3... 8... and 0...
+
+4
+00:00:19,838 --> 00:00:24,669
+And I want to define what happens when I multiply 3 times this whole thing.
+
+5
+00:00:24,669 --> 00:00:27,831
+So first of all, let's get a little terminology out of the way.
+
+6
+00:00:27,831 --> 00:00:35,752
+So the number 3, in just the every day world if you weren't dealing with matrices or vectors (and if you don't know what vectors are, don't worry about them just now) you would just call that a number.
+
+7
+00:00:35,752 --> 00:00:38,936
+You would call (3) a real number... it's just a regular number sitting out there.
+
+8
+00:00:38,936 --> 00:00:51,928
+But now in the world where we have these new structured things... these matrices... these arrays of numbers. We will refer to these just plain old real numbers that aren't part of some type of array... we call these "Scalars".
+
+9
+00:00:51,928 --> 00:00:55,801
+We call this a "Scalar".
+
+10
+00:00:55,801 --> 00:01:09,215
+So essentially, what we are defining here... we don't know (I haven't said what this is actually going to turn out to be), but whatever this turns out to be, will be a product of scalar multiplication... or we're multiplying a scalar times a matrix.
+
+11
+00:01:09,215 --> 00:01:15,324
+And so, how would you define this? What do you think this should be? 3 times this stuff right over here?
+
+12
+00:01:15,324 --> 00:01:28,327
+Well the world could have defined scalar multiplication however it saw fit. But one way that we find, perhaps the most obvious and most useful, is to multiply this scalar quantity times each of the entries.
+
+13
+00:01:28,327 --> 00:01:47,587
+So this is going to be equal to 
+3x7 in the top left. 3x5.... 3x-10... 
+3x3... 3x8... and 3x0... 
+which will give us...
+
+14
+00:01:47,587 --> 00:01:54,072
+(I didn't change the dimensions of the matrix. I didn't change, I guess you could say the structure of the matrix... I just multiplied each of the entries of the matrix times 3.)
+
+15
+00:01:54,072 --> 00:02:10,070
+So the top left entry is now going to be... 21. The entry in the middle row, top column is going to be 15. -30.... 9... 24... and 0.
+
+16
+00:02:10,070 --> 00:02:14,070
+So when you multiply a matrix times a scalar, you just multiply each of those entries times that scalar quantity.

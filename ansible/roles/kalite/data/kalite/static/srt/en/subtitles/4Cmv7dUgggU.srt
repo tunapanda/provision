@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:10,350
+Write the equation of a line that is parallel to the line 2x - 4y = 8 and goes through the point (3,0).
+
+2
+00:00:10,350 --> 00:00:15,600
+So because this line is parallel to this right over here.
+
+3
+00:00:15,600 --> 00:00:17,133
+it is parallel,
+
+4
+00:00:17,133 --> 00:00:20,067
+that just means that it has the exact same slope.
+
+5
+00:00:20,067 --> 00:00:24,800
+So we're essentially saying find the equation of a line that has the same slope as this line
+
+6
+00:00:24,800 --> 00:00:26,933
+and goes through this point.
+
+7
+00:00:26,933 --> 00:00:29,200
+So first, let's figure out what the slope of this line is
+
+8
+00:00:29,200 --> 00:00:34,000
+and the easiest way to do that is to put this in kind of slope, y intercept form.
+
+9
+00:00:34,000 --> 00:00:38,933
+So we have 2x - 4y = 8.
+
+10
+00:00:38,933 --> 00:00:40,400
+We want to solve for y.
+
+11
+00:00:40,400 --> 00:00:43,133
+We want this to be in the form y = mx + b.
+
+12
+00:00:43,133 --> 00:00:47,800
+So let's subtract 2x from both sides
+
+13
+00:00:47,800 --> 00:00:51,667
+so we can isolate the y's on the left.
+
+14
+00:00:51,667 --> 00:00:53,467
+So that cancels out and we have
+
+15
+00:00:53,467 --> 00:00:58,600
+-4y = -2x + 8
+
+16
+00:00:58,600 --> 00:01:03,267
+And I'm writing the -2x first just because that gets us closer to the mx + b form.
+
+17
+00:01:03,267 --> 00:01:07,200
+Now we can divide both sides of this equation by -4
+
+18
+00:01:07,200 --> 00:01:08,867
+so we can isolate the y.
+
+19
+00:01:08,867 --> 00:01:11,867
+So we divide everything by -4.
+
+20
+00:01:11,867 --> 00:01:14,867
+and the left-hand side, we just have a
+
+21
+00:01:14,867 --> 00:01:19,400
+y is equal to (a -2 divided by -4 is 1/2)
+
+22
+00:01:19,400 --> 00:01:25,467
+so y is equal to 1/2x (and then 8 divided by -4 is -2)
+
+23
+00:01:25,467 --> 00:01:29,867
+so we could write plus -2 or we could just write minus 2.
+
+24
+00:01:29,867 --> 00:01:33,800
+So we just rewrote this line over here
+
+25
+00:01:33,800 --> 00:01:37,467
+but because we wrote it in mx + b form we now know its slope.
+
+26
+00:01:37,467 --> 00:01:41,333
+The slope of this line is 1/2;
+
+27
+00:01:41,333 --> 00:01:45,333
+that right there is the slope.
+
+28
+00:01:45,333 --> 00:01:48,667
+so the equation of the line that we care about it is going to have the same slope.
+
+29
+00:01:48,667 --> 00:01:55,200
+It's going to have the form y is equal to 1/2x plus some y intercept.
+
+30
+00:01:55,200 --> 00:01:56,867
+It's not exactly this line,
+
+31
+00:01:56,867 --> 00:01:59,333
+b is going to be different than this -2 here,
+
+32
+00:01:59,333 --> 00:02:01,333
+but it's going to have the same slope.
+
+33
+00:02:01,333 --> 00:02:07,333
+They're going to intersect the y axis in a different place but theyr'e going to be parallel to each other.
+
+34
+00:02:07,333 --> 00:02:09,333
+So now we need to figure out how to figure out b.
+
+35
+00:02:09,333 --> 00:02:13,333
+And to do that we have this information right over here.
+
+36
+00:02:13,333 --> 00:02:22,133
+On this line, the one we care about, when x is 3, y is 0.
+
+37
+00:02:22,133 --> 00:02:29,067
+Or we could say that 0 = 1/2 * 3 + b.
+
+38
+00:02:29,067 --> 00:02:32,333
+We just have to find a b that sets up this equation
+
+39
+00:02:32,333 --> 00:02:34,482
+so that when x is equal to 3, y is equal to 0.
+
+40
+00:02:34,482 --> 00:02:39,800
+So we get 0 = 3/2 + b,
+
+41
+00:02:39,800 --> 00:02:46,232
+subtract 3/2 from both sides,
+
+42
+00:02:46,232 --> 00:02:52,815
+and we get -3/2 = b,
+
+43
+00:02:52,815 --> 00:02:55,067
+or b = -3/2
+
+44
+00:02:55,067 --> 00:02:59,200
+So we have the equation for our line that is now parallel to this equation
+
+45
+00:02:59,200 --> 00:03:01,129
+and goes through the point (3,0).
+
+46
+00:03:01,129 --> 00:03:05,600
+It is y is equal to (it has the same slope as this guy up here)
+
+47
+00:03:05,600 --> 00:03:14,513
+1/2x and now we know it's y intercept, -3/2,
+
+48
+00:03:14,513 --> 00:03:17,087
+and we are done.
+
+49
+00:03:17,087 --> 00:03:20,620
+And, actually, if you're interested you could graph these two and see that they're parallel.
+
+50
+00:03:20,620 --> 00:03:22,385
+So if you were to graph these,
+
+51
+00:03:22,385 --> 00:03:24,867
+I'll do a very rough graph very fast,
+
+52
+00:03:24,867 --> 00:03:27,600
+so this is my y axis,
+
+53
+00:03:27,600 --> 00:03:29,400
+this is my x axis.
+
+54
+00:03:29,400 --> 00:03:33,656
+This line up here, (I'll do it in blue),
+
+55
+00:03:33,656 --> 00:03:36,000
+which is the same thing as this line right over here,
+
+56
+00:03:36,000 --> 00:03:38,067
+I just algebraically manipulated it
+
+57
+00:03:38,067 --> 00:03:45,200
+has a y intercept at -2 and has a slope of 1/2
+
+58
+00:03:45,200 --> 00:03:48,733
+so that means that for every one it goes over, it only goes a half up
+
+59
+00:03:48,733 --> 00:03:51,667
+or for every 2 it goes over it only goes 1 up.
+
+60
+00:03:51,667 --> 00:03:53,333
+So it's going to look something like this
+
+61
+00:03:53,333 --> 00:03:55,933
+I'll try my best to draw it.
+
+62
+00:03:55,933 --> 00:03:57,600
+It's going to look something like that.
+
+63
+00:03:57,600 --> 00:03:59,467
+And so this line over here,
+
+64
+00:03:59,467 --> 00:04:03,267
+it's y intercept is at -3/2
+
+65
+00:04:03,267 --> 00:04:05,400
+and -3/2 is the same thing as -1 1/2,
+
+66
+00:04:05,400 --> 00:04:17,856
+so it's going to be right above it and it has the exact same slope, so it's going to be right above it and so it would look like that.
+
+67
+00:04:17,856 --> 99:59:59,999
+They're parallel but they're different lines because they have different y intercepts.

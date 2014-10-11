@@ -1,0 +1,195 @@
+1
+00:00:01,324 --> 00:00:06,757
+Part C: find the average vaulue of f on the intERVAL -1 TO 1
+
+2
+00:00:06,757 --> 00:00:11,076
+So the average value of a function ovewr an inerval is just going to be
+
+3
+00:00:11,076 --> 00:00:13,769
+lets just write "average"
+
+4
+00:00:13,769 --> 00:00:18,739
+The average value of our function is justgoing to be the integral over the interval
+
+5
+00:00:18,739 --> 00:00:22,407
+the integral over the interval
+
+6
+00:00:22,407 --> 00:00:23,197
+-1 to 1
+
+7
+00:00:23,197 --> 00:00:25,008
+of f(x) dx
+
+8
+00:00:25,008 --> 00:00:26,076
+divided by our change in x
+
+9
+00:00:26,076 --> 00:00:40,194
+and our change in x is 1 minus -1
+
+10
+00:00:40,194 --> 00:00:43,677
+so this is going to be equal to 1/2 times the
+
+11
+00:00:43,677 --> 00:00:45,256
+integral
+
+12
+00:00:45,256 --> 00:00:48,089
+and here, f(x) is peicewise defined.
+
+13
+00:00:48,089 --> 00:00:51,014
+so what we can do is break up this integral into two invtervals
+
+14
+00:00:51,014 --> 00:00:52,733
+we can say the integral from -1 to 0 of f(x) dx
+
+15
+00:00:52,733 --> 00:01:12,330
+plus, the integral from 0 to 1 of f(x) dx.
+
+16
+00:01:12,330 --> 00:01:14,095
+and the reason why I broke it up like this is because this
+
+17
+00:01:14,095 --> 00:01:20,411
+function is peicewise defined.
+
+18
+00:01:20,411 --> 00:01:23,197
+it's different when we are less than or equal to 0,
+
+19
+00:01:23,197 --> 00:01:26,262
+than when we are greater than zero
+
+20
+00:01:26,262 --> 00:01:31,742
+so then we get, this is equal to 1/2 times,
+
+21
+00:01:31,742 --> 00:01:39,080
+this first part we can right as
+
+22
+00:01:39,080 --> 00:01:41,355
+the integral from -1 to 0.
+
+23
+00:01:41,355 --> 00:01:45,070
+what is the what is f(x) from -1 to 0? its 1- 2 sin (X).
+
+24
+00:01:45,070 --> 00:01:55,334
+dx
+
+25
+00:01:55,334 --> 00:01:59,327
+plus the integral from 0 to 1,
+
+26
+00:01:59,327 --> 00:02:02,439
+and what is our function from zero to one?
+
+27
+00:02:02,439 --> 00:02:04,529
+its e to the -4 x
+
+28
+00:02:04,529 --> 00:02:08,522
+dx
+
+29
+00:02:08,522 --> 00:02:11,077
+and now we can do each of these integrals seperately
+
+30
+00:02:11,077 --> 00:02:13,770
+so this is goin to be equal to
+
+31
+00:02:13,770 --> 00:02:19,529
+1/2, open brackets,
+
+32
+00:02:19,529 --> 00:02:28,770
+and now lets take the anti-derivative
+
+33
+00:02:28,770 --> 00:02:30,860
+of 1-2 sin(x)
+
+34
+00:02:30,860 --> 00:02:34,529
+antiderivative of 1 with respect to x, is just x
+
+35
+00:02:34,529 --> 00:02:36,758
+-2 sin(x),
+
+36
+00:02:36,758 --> 00:02:40,659
+well the derivative of cos(x) is -sin(x),
+
+37
+00:02:40,659 --> 00:02:44,420
+so this is just going to be 2 cos(x)
+
+38
+00:02:44,420 --> 00:02:46,092
+and you can verify that,
+
+39
+00:02:46,092 --> 00:02:53,941
+so we're going to evaluate that at zero,
+
+40
+00:02:53,941 --> 00:02:56,077
+and at -1
+
+41
+00:02:56,077 --> 00:02:58,445
+and to that we are going to add,
+
+42
+00:02:58,445 --> 00:03:01,418
+lets do this integral over here
+
+43
+00:03:01,418 --> 00:03:04,018
+the antiderivative of e to the -4x,
+
+44
+00:03:04,018 --> 00:03:07,780
+the antiderivative is going to be equal to,
+
+45
+00:03:07,780 --> 00:03:13,260
+-e to the -4x over 4
+
+46
+00:03:13,260 --> 00:03:17,764
+and the way you realize that is if you just had e to the x
+
+47
+00:03:17,764 --> 00:03:20,086
+the antiderivative would be e^x
+
+48
+00:03:20,086 --> 00:03:22,687
+if you have an e^-4x
+
+49
+00:03:22,687 --> 99:59:59,999
+then you know that whatever it's anitiderivite is is going to have

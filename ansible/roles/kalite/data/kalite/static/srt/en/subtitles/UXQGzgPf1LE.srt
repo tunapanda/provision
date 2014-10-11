@@ -1,0 +1,55 @@
+1
+99:59:59,999 --> 99:59:59,999
+Let's now use what we know about the Chain rule and the Product rule
+
+2
+99:59:59,999 --> 99:59:59,999
+To take the derivative of an even weirder expressions.
+
+3
+99:59:59,999 --> 99:59:59,999
+We are going to take the derivative of e^cos(x) times cos(e^x)
+
+4
+99:59:59,999 --> 99:59:59,999
+Let's take the derivative of this.
+
+5
+99:59:59,999 --> 99:59:59,999
+So we can view this as the product of two functions,
+
+6
+99:59:59,999 --> 99:59:59,999
+so the product rule tells us that this is going to be the derivative with the respect to x
+
+7
+99:59:59,999 --> 99:59:59,999
+of e^cos(x) times cos(e^x) plus the first function
+
+8
+99:59:59,999 --> 99:59:59,999
+just e^cos(x) times the derivative of the second function cos(e^x)
+
+9
+99:59:59,999 --> 99:59:59,999
+And so we just need to figure out what these two derivatives are.
+
+10
+99:59:59,999 --> 99:59:59,999
+So we can use the Chain Rule here.
+
+11
+99:59:59,999 --> 99:59:59,999
+Just to make it clear, we got this from the Product Rule.
+
+12
+99:59:59,999 --> 99:59:59,999
+But then to evaluate each of these derivatives, we need to use the Chain Rule.
+
+13
+99:59:59,999 --> 99:59:59,999
+So let's think about this a little bit.
+
+14
+99:59:59,999 --> 99:59:59,999
+So let's think about what the derivative of this function is.

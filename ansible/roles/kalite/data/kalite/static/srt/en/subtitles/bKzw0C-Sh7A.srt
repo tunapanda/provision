@@ -1,0 +1,539 @@
+1
+00:00:00,070 --> 00:00:03,230
+We are on problem number 19.
+
+2
+00:00:05,000 --> 00:00:09,030
+If a, b, c, and f are four non-zero numbers--
+
+3
+00:00:09,030 --> 00:00:10,400
+I don't know where they got f.
+
+4
+00:00:10,600 --> 00:00:12,120
+I would have expected a d--
+
+5
+00:00:12,120 --> 00:00:14,990
+but a, b, c, and f are four non-zero numbers,
+
+6
+00:00:16,460 --> 00:00:18,740
+then all of the following proportions
+
+7
+00:00:18,920 --> 00:00:22,880
+are equivalent except-- OK. So this is interesting.
+
+8
+00:00:22,880 --> 00:00:24,430
+This is one where you have to work through all of them.
+
+9
+00:00:24,430 --> 00:00:32,180
+So choice a, a/f is equal to b/c.
+
+10
+00:00:32,880 --> 00:00:40,500
+Let's see, choice b says f/c is equal to b/a.
+
+11
+00:00:40,500 --> 00:00:42,360
+So the real simple way of doing this,
+
+12
+00:00:44,140 --> 00:00:46,290
+let's cross multiply all of them, essentially, right?
+
+13
+00:00:46,590 --> 00:00:48,130
+So we can cross multiply.
+
+14
+00:00:48,130 --> 00:00:51,610
+If we multiply both sides by,essentially, fc--
+
+15
+00:00:51,910 --> 00:00:53,380
+and that's what cross multiplying is--
+
+16
+00:00:53,880 --> 00:00:58,960
+so we said a times c, ac is equal to bf, right?
+
+17
+00:00:59,540 --> 00:01:01,720
+a times c is equal to b times f.
+
+18
+00:01:01,720 --> 00:01:03,950
+And you can get there multiplying both sides by f
+
+19
+00:01:03,950 --> 00:01:05,490
+and multiplying both sides by c.
+
+20
+00:01:06,290 --> 00:01:13,460
+If we cross multiply on this side, we have af is equal to bc.
+
+21
+00:01:15,550 --> 00:01:19,980
+This is an f here. ac is equal to bf.
+
+22
+00:01:20,320 --> 00:01:22,200
+Here we have af is equal to bc.
+
+23
+00:01:22,600 --> 00:01:30,060
+Let's see, choice c is c/a is equal to f/b.
+
+24
+00:01:30,460 --> 00:01:31,060
+What does this tell us?
+
+25
+00:01:31,060 --> 00:01:37,450
+This tells us that cb or bc, bc is equal to af.
+
+26
+00:01:38,200 --> 00:01:39,410
+So these two are equal.
+
+27
+00:01:40,310 --> 00:01:41,770
+These two are the same thing, right?
+
+28
+00:01:42,870 --> 00:01:47,900
+In d, we have a/c is equal to b/f.
+
+29
+00:01:48,780 --> 00:01:52,780
+Now if we cross multiply, you get af is equal to bc.
+
+30
+00:01:53,080 --> 00:01:54,840
+These are equal. I think you see a pattern.
+
+31
+00:01:54,840 --> 00:01:57,880
+I suspect that e is going to look very similar to these three
+
+32
+00:01:57,880 --> 00:01:59,360
+and that this is the different one.
+
+33
+00:01:59,660 --> 00:02:01,160
+But just to do it,I'll show you.
+
+34
+00:02:01,160 --> 00:02:07,400
+Choice e has af/bc is equal to 1, essentially.
+
+35
+00:02:07,600 --> 00:02:10,380
+So that's af is equal to bc,
+
+36
+00:02:10,380 --> 00:02:12,260
+which is the same thing as all these.
+
+37
+00:02:12,260 --> 00:02:15,080
+So a is the one choice that is different.
+
+38
+00:02:15,380 --> 00:02:18,010
+ac is equal to bf is very different than
+
+39
+00:02:18,010 --> 00:02:19,630
+af is equal to bc, right?
+
+40
+00:02:19,630 --> 00:02:20,870
+We're multiplying different things.
+
+41
+00:02:20,870 --> 00:02:22,990
+These are all the same. Hopefully you see that.
+
+42
+00:02:23,400 --> 00:02:26,290
+And that's multiplication is communicative and all that.
+
+43
+00:02:26,290 --> 00:02:28,380
+So it doesn't matter what order,
+
+44
+00:02:28,680 --> 00:02:30,500
+fa and af are the same thing.
+
+45
+00:02:30,900 --> 00:02:32,030
+But here, we're multiplying.
+
+46
+00:02:32,430 --> 00:02:34,920
+It was saying ac is equal to bf.
+
+47
+00:02:36,310 --> 00:02:38,240
+Let's do problem number 20.
+
+48
+00:02:43,550 --> 00:02:45,120
+And you could actually, in that last problem,
+
+49
+00:02:46,190 --> 00:02:48,990
+literally try it with four different non-zero numbers.
+
+50
+00:02:49,650 --> 00:02:52,960
+It actually should work out, if you pick good numbers,
+
+51
+00:02:53,560 --> 00:02:56,420
+if you don't want to deal with the abstract letters.
+
+52
+00:02:57,010 --> 00:02:58,190
+Problem number 20.
+
+53
+00:02:58,690 --> 00:03:00,970
+For all numbers x and y,
+
+54
+00:03:00,970 --> 00:03:03,400
+let the operation square be defined as
+
+55
+00:03:04,440 --> 00:03:14,640
+x square y is equal to xy minus y.
+
+56
+00:03:15,080 --> 00:03:18,190
+If a and b are positive integers,
+
+57
+00:03:18,190 --> 00:03:21,270
+which of the following can be equal to 0?
+
+58
+00:03:21,670 --> 00:03:25,020
+So a, b positive integers.
+
+59
+00:03:25,020 --> 00:03:27,400
+So which can be equal to 0?
+
+60
+00:03:27,800 --> 00:03:32,570
+So they're saying choice number one is a square b.
+
+61
+00:03:34,000 --> 00:03:35,540
+And that, we learned from here,
+
+62
+00:03:35,540 --> 00:03:37,640
+is the same thing as a times b, right?
+
+63
+00:03:37,640 --> 00:03:39,420
+It's just pattern matching,wherever you see the x,
+
+64
+00:03:39,420 --> 00:03:42,150
+you put an a. Wherever you see the y, you put a b.
+
+65
+00:03:42,450 --> 00:03:49,180
+So that's ab minus y. Sorry, ab minus b, right?
+
+66
+00:03:49,780 --> 00:03:51,410
+And can I come up with a situation
+
+67
+00:03:52,050 --> 00:03:55,260
+where this comes out to be 0?
+
+68
+00:03:55,660 --> 00:03:59,200
+Well sure. If a is 1, what happens when a is 1?
+
+69
+00:03:59,700 --> 00:04:02,450
+If a is 1, then this translates to b minus b,
+
+70
+00:04:02,450 --> 00:04:04,530
+which equals 0, right?
+
+71
+00:04:05,010 --> 00:04:07,050
+And why did I think what happens when a is 1?
+
+72
+00:04:07,050 --> 00:04:12,410
+Well,this could also be written as a minus 1 times b,right?
+
+73
+00:04:12,610 --> 00:04:14,900
+If you just factored out the b's.
+
+74
+00:04:15,200 --> 00:04:18,740
+So I said well, if a is 1,then this term becomes 0.
+
+75
+00:04:19,010 --> 00:04:22,930
+So 1, this definitely can be equal to 0.
+
+76
+00:04:22,930 --> 00:04:25,590
+It's not always 0, but it can be, especially if a is 1.
+
+77
+00:04:26,000 --> 00:04:27,480
+OK, let's do choice two.
+
+78
+00:04:29,010 --> 00:04:36,570
+They wrote a plus b square b. And what is that equal to?
+
+79
+00:04:36,570 --> 00:04:39,590
+Well, every time you saw an x,replace it with a plus b.
+
+80
+00:04:39,590 --> 00:04:41,550
+Every time you see a y,replace it with b.
+
+81
+00:04:41,550 --> 00:04:44,860
+So that's equal to-- that equals--
+
+82
+00:04:44,860 --> 00:04:46,500
+I'll switch colors for variety,
+
+83
+00:04:46,500 --> 00:04:48,650
+just so you don't get confused with this top part--
+
+84
+00:04:49,450 --> 00:04:54,880
+that's equal to a plus b times b--
+
+85
+00:04:55,380 --> 00:04:56,490
+times the second term,
+
+86
+00:04:56,990 --> 00:05:02,870
+times b-- minus the second term, minus b.
+
+87
+00:05:03,990 --> 00:05:06,090
+So we can't do what we did the previous time,
+
+88
+00:05:06,090 --> 00:05:11,060
+because now the term a plus b can't equal 1, right?
+
+89
+00:05:11,060 --> 00:05:14,210
+There's no circumstance under a plus b equals 1. How?
+
+90
+00:05:14,210 --> 00:05:18,800
+Because they're both positive,they're both integers, right?
+
+91
+00:05:18,800 --> 00:05:21,710
+So in order for this to equal 1,one would have to be 1,
+
+92
+00:05:21,710 --> 00:05:22,980
+and one would have to be 0.
+
+93
+00:05:22,980 --> 00:05:24,000
+And neither of them can be negative.
+
+94
+00:05:24,000 --> 00:05:25,390
+So this can't equal 1.
+
+95
+00:05:25,390 --> 00:05:28,510
+So that's not a situation in which this is equal to 0.
+
+96
+00:05:28,910 --> 00:05:30,060
+So let's see if we can solve it.
+
+97
+00:05:30,260 --> 00:05:32,350
+What's that equal to 0?
+
+98
+00:05:32,350 --> 00:05:34,800
+And of course, b can't be equal to 0.
+
+99
+00:05:36,200 --> 00:05:40,610
+So we see a plus b. We could factor it out.
+
+100
+00:05:40,610 --> 00:05:50,330
+We could say a plus b minus 1 times b is equal to 0, right?
+
+101
+00:05:50,330 --> 00:05:53,610
+We know b can't equal 0 under any circumstances, right?
+
+102
+00:05:54,430 --> 00:05:55,860
+We know b can't equal 0,
+
+103
+00:05:55,860 --> 00:05:57,560
+because we're saying it's a positive integer.
+
+104
+00:05:58,000 --> 00:06:00,280
+And so this term would have to be equal to 0.
+
+105
+00:06:01,010 --> 00:06:03,400
+You could multiply this out and you'll see where I got--
+
+106
+00:06:04,460 --> 00:06:05,630
+I just factored out just the same.
+
+107
+00:06:06,480 --> 00:06:10,350
+I divided each of these terms by b and factored it out.
+
+108
+00:06:10,350 --> 00:06:13,360
+And then you're left with a plus b minus 1,
+
+109
+00:06:14,160 --> 00:06:15,150
+all of that times b.
+
+110
+00:06:15,150 --> 00:06:19,210
+So if b can't equal 0, can a plus b minus 1 equal 0?
+
+111
+00:06:19,210 --> 00:06:21,890
+Well a plus b minus 1 equals 0.
+
+112
+00:06:22,010 --> 00:06:24,860
+Then a plus b would have to equal 1, which I said,
+
+113
+00:06:24,860 --> 00:06:26,240
+it just can't happen.
+
+114
+00:06:26,640 --> 00:06:31,430
+So under no circumstances can choice two be equal to 0.
+
+115
+00:06:31,630 --> 00:06:33,210
+And now, what does choice three say?
+
+116
+00:06:35,000 --> 00:06:42,220
+Choice three is a square a plus b.
+
+117
+00:06:42,720 --> 00:06:52,420
+And if we map it, that's a times a plus b minus a plus b.
+
+118
+00:06:53,020 --> 00:06:56,620
+And now here, once again, we can factor out the a plus b.
+
+119
+00:06:56,620 --> 00:07:01,050
+So we could write this as a minus 1 times a plus b.
+
+120
+00:07:01,880 --> 00:07:04,130
+And we want to see if that equals 0,see if this is possible.
+
+121
+00:07:05,000 --> 00:07:06,490
+Well for this to be equal to 0,
+
+122
+00:07:06,490 --> 00:07:07,840
+either this term would have to be 0,
+
+123
+00:07:07,840 --> 00:07:09,400
+or this term, or both of them, really.
+
+124
+00:07:09,800 --> 00:07:11,170
+Can a plus b equal 0?
+
+125
+00:07:12,000 --> 00:07:15,090
+No, because a is positive,b is positive,
+
+126
+00:07:15,090 --> 00:07:16,580
+they're both integers. Nothing's negative.
+
+127
+00:07:16,580 --> 00:07:17,650
+They have to be greater than 0,
+
+128
+00:07:17,650 --> 00:07:19,490
+so there's no way that this is going to be equal to 0.
+
+129
+00:07:20,000 --> 00:07:21,700
+But can a minus one equal 0?
+
+130
+00:07:21,700 --> 00:07:24,290
+Well sure, a could be 1.
+
+131
+00:07:24,890 --> 00:07:27,430
+If a is 1, then this expression becomes 0.
+
+132
+00:07:27,830 --> 00:07:30,220
+So this one also works. So our choices--
+
+133
+00:07:30,340 --> 00:07:33,810
+the ones that could be 0-- are one and three.
+
+134
+00:07:34,770 --> 00:07:37,750
+And that is choice E.
+
+135
+00:07:38,880 --> 00:07:40,760
+I'll see you in the next section.

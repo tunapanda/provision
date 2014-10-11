@@ -1,0 +1,1000 @@
+1
+00:00:00,610 --> 00:00:04,100
+Let's do another problem from
+the normal distribution
+
+2
+00:00:04,100 --> 00:00:10,120
+section of ck12.org's
+AP statistics book.
+
+3
+00:00:10,120 --> 00:00:11,770
+And I'm using theirs because
+it's Open Source and it's
+
+4
+00:00:11,770 --> 00:00:13,990
+actually quite a good book.
+
+5
+00:00:13,990 --> 00:00:16,475
+The problems are, I think,
+good practice for us.
+
+6
+00:00:16,475 --> 00:00:19,070
+So let's see, number 3.
+
+7
+00:00:19,070 --> 00:00:20,390
+You could go to their
+site and I think you
+
+8
+00:00:20,390 --> 00:00:21,690
+can download the book.
+
+9
+00:00:21,690 --> 00:00:26,180
+Assume that the mean eight of 1
+year old girls in the U.S. is a
+
+10
+00:00:26,180 --> 00:00:28,920
+normally distributed-- or is
+normally distributed with the
+
+11
+00:00:28,920 --> 00:00:32,330
+mean of about 9.5 grams.
+
+12
+00:00:32,330 --> 00:00:33,820
+That's got to be kilograms.
+
+13
+00:00:33,820 --> 00:00:35,930
+I have a 10 month old son
+and he weighs about 20
+
+14
+00:00:35,930 --> 00:00:39,570
+pounds which is about 9
+kilograms not 9.5 grams.
+
+15
+00:00:39,570 --> 00:00:41,040
+9.5 grams is nothing.
+
+16
+00:00:41,040 --> 00:00:43,900
+This would be talking about
+like mice or something.
+
+17
+00:00:43,900 --> 00:00:44,940
+This has got to be kilograms.
+
+18
+00:00:44,940 --> 00:00:47,350
+But anyway, it's about
+9.5 kilograms with a
+
+19
+00:00:47,350 --> 00:00:51,050
+standard deviation of
+approximately 1.1 grams.
+
+20
+00:00:51,050 --> 00:00:56,400
+So the mean is equal to 9.5
+kilograms I'm assuming and
+
+21
+00:00:56,400 --> 00:01:01,130
+the standard deviation
+is equal to 1.1 grams.
+
+22
+00:01:01,130 --> 00:01:04,840
+Without using a calculator-- so
+that's an interesting clue--
+
+23
+00:01:04,840 --> 00:01:08,950
+estimate the percentage of 1
+year old girls in the U.S. that
+
+24
+00:01:08,950 --> 00:01:09,995
+meet the following conditions.
+
+25
+00:01:09,995 --> 00:01:12,910
+So when they say that without a
+calculator estimate that's a
+
+26
+00:01:12,910 --> 00:01:15,250
+big clue or a big giveaway that
+we're supposed to use
+
+27
+00:01:15,250 --> 00:01:16,350
+the empirical rule.
+
+28
+00:01:20,040 --> 00:01:27,480
+Empirical rule sometimes
+called the 68-95-99.7 rule.
+
+29
+00:01:27,480 --> 00:01:29,960
+And if you remember this
+is the name of the rule
+
+30
+00:01:29,960 --> 00:01:31,500
+you've essentially
+remembered the rule.
+
+31
+00:01:31,500 --> 00:01:33,520
+What that tells us that if we
+have a normal distribution--
+
+32
+00:01:33,520 --> 00:01:35,800
+I'll do a bit of a review
+here before we jump
+
+33
+00:01:35,800 --> 00:01:36,750
+into this problem.
+
+34
+00:01:36,750 --> 00:01:38,750
+If we have a normal
+distribution-- let me draw
+
+35
+00:01:38,750 --> 00:01:40,480
+a normal distribution.
+
+36
+00:01:40,480 --> 00:01:42,900
+It looks like that.
+
+37
+00:01:42,900 --> 00:01:44,240
+That's my normal distribution.
+
+38
+00:01:44,240 --> 00:01:45,940
+I didn't draw it perfectly
+but you get the idea.
+
+39
+00:01:45,940 --> 00:01:47,560
+It should be symmetrical.
+
+40
+00:01:47,560 --> 00:01:49,980
+This is our mean right there.
+
+41
+00:01:49,980 --> 00:01:50,840
+That's our mean.
+
+42
+00:01:50,840 --> 00:01:54,810
+If we go one standard deviation
+above the mean and one standard
+
+43
+00:01:54,810 --> 00:02:00,350
+deviation below the mean,
+so this is our mean plus
+
+44
+00:02:00,350 --> 00:02:01,780
+one standard deviation.
+
+45
+00:02:01,780 --> 00:02:05,730
+This is our mean minus
+one standard deviation.
+
+46
+00:02:05,730 --> 00:02:08,710
+The probability of finding a
+result if we're dealing with a
+
+47
+00:02:08,710 --> 00:02:12,080
+perfect normal distribution
+that's between one standard
+
+48
+00:02:12,080 --> 00:02:14,640
+deviation below the mean and
+one standard deviation above
+
+49
+00:02:14,640 --> 00:02:19,320
+the mean-- that would be this
+area-- and it would be,
+
+50
+00:02:19,320 --> 00:02:23,040
+you could guess, 68%.
+
+51
+00:02:23,040 --> 00:02:26,430
+68% chance you're going to get
+something within one standard
+
+52
+00:02:26,430 --> 00:02:27,750
+deviation of the mean.
+
+53
+00:02:27,750 --> 00:02:30,140
+Either a standard deviation
+below or above or
+
+54
+00:02:30,140 --> 00:02:31,450
+anywhere in between.
+
+55
+00:02:31,450 --> 00:02:34,500
+Now, if we're talking about two
+standard deviations around the
+
+56
+00:02:34,500 --> 00:02:37,170
+mean-- so if we go down another
+standard deviation, we go down
+
+57
+00:02:37,170 --> 00:02:39,570
+another standard deviation in
+that direction and another
+
+58
+00:02:39,570 --> 00:02:41,780
+standard deviation above the
+mean-- and we were to ask
+
+59
+00:02:41,780 --> 00:02:43,190
+ourselves what's the
+probability of finding
+
+60
+00:02:43,190 --> 00:02:47,360
+something within those two or
+within that range, then it's,
+
+61
+00:02:47,360 --> 00:02:50,740
+you could guess it, 95%.
+
+62
+00:02:50,740 --> 00:02:53,060
+And that includes this
+middle area right here.
+
+63
+00:02:53,060 --> 00:02:56,510
+So the 68% is a
+subset of that 95%.
+
+64
+00:02:56,510 --> 00:02:58,140
+And I think you know
+where this is going.
+
+65
+00:02:58,140 --> 00:03:01,360
+If we go three standard
+deviations below the mean and
+
+66
+00:03:01,360 --> 00:03:06,820
+above the mean, the empirical
+rule or the 68-95-99.7 rule
+
+67
+00:03:06,820 --> 00:03:15,740
+tells us that there is a 99.7%
+chance of finding a result in a
+
+68
+00:03:15,740 --> 00:03:19,120
+normal distribution that is
+within three standard
+
+69
+00:03:19,120 --> 00:03:20,110
+deviations of the mean.
+
+70
+00:03:20,110 --> 00:03:23,230
+So above three standard
+deviations below the mean
+
+71
+00:03:23,230 --> 00:03:26,030
+and below three standard
+deviation above the mean.
+
+72
+00:03:26,030 --> 00:03:27,870
+That's what the empirical
+rule tells us.
+
+73
+00:03:27,870 --> 00:03:30,960
+Now let's see if we can
+apply it to this problem.
+
+74
+00:03:30,960 --> 00:03:33,140
+So they gave us the mean and
+the standard deviation.
+
+75
+00:03:33,140 --> 00:03:34,550
+Let me draw that out.
+
+76
+00:03:34,550 --> 00:03:38,550
+Let me draw my axis
+first as best as I can.
+
+77
+00:03:38,550 --> 00:03:39,600
+That's my axis.
+
+78
+00:03:39,600 --> 00:03:41,410
+Let me draw my bell curve.
+
+79
+00:03:45,920 --> 00:03:49,090
+That's about as good as a
+bell curve as you can expect
+
+80
+00:03:49,090 --> 00:03:50,920
+a freehand drawer to do.
+
+81
+00:03:50,920 --> 00:03:54,140
+And the mean here is 9.-- and
+this should be symmetric.
+
+82
+00:03:54,140 --> 00:03:55,710
+This height should be the
+same as that height there.
+
+83
+00:03:55,710 --> 00:03:57,600
+I think you get the idea.
+
+84
+00:03:57,600 --> 00:03:59,260
+I'm not a computer.
+
+85
+00:03:59,260 --> 00:04:02,390
+9.5 is the mean.
+
+86
+00:04:02,390 --> 00:04:03,370
+I won't write the units.
+
+87
+00:04:03,370 --> 00:04:04,580
+It's all in kilograms.
+
+88
+00:04:04,580 --> 00:04:11,330
+One standard deviation above
+the mean we should add 1.1 to
+
+89
+00:04:11,330 --> 00:04:14,220
+that because they told us the
+standard deviation is 1.1.
+
+90
+00:04:14,220 --> 00:04:16,820
+That's going to be 10.6.
+
+91
+00:04:16,820 --> 00:04:19,620
+If we go-- let me just draw a
+little dotted line there-- 1
+
+92
+00:04:19,620 --> 00:04:25,990
+standard deviation below the
+mean we're going it subtract
+
+93
+00:04:25,990 --> 00:04:34,110
+1.1 from 9.5 and so
+that would be 8.4.
+
+94
+00:04:34,110 --> 00:04:37,620
+If we go two standard
+deviations above the mean
+
+95
+00:04:37,620 --> 00:04:40,400
+we would add another
+standard deviation here.
+
+96
+00:04:40,400 --> 00:04:40,610
+Right?
+
+97
+00:04:40,610 --> 00:04:41,890
+We went one standard
+deviations, two
+
+98
+00:04:41,890 --> 00:04:42,700
+standard deviations.
+
+99
+00:04:42,700 --> 00:04:44,435
+That would get us to 11.7.
+
+100
+00:04:44,435 --> 00:04:47,040
+And if we were to go three
+standard deviations
+
+101
+00:04:47,040 --> 00:04:48,910
+we'd add 1.1 again.
+
+102
+00:04:48,910 --> 00:04:50,720
+That would get us to 12.8.
+
+103
+00:04:50,720 --> 00:04:53,820
+Doing it on the other side,
+one standard deviation
+
+104
+00:04:53,820 --> 00:04:55,380
+below the mean is 8.4.
+
+105
+00:04:55,380 --> 00:04:58,480
+Two standard deviations below
+the mean-- subtract 1.1
+
+106
+00:04:58,480 --> 00:05:00,910
+again-- would be 7.3.
+
+107
+00:05:00,910 --> 00:05:03,380
+And then three standard
+deviations below the mean--
+
+108
+00:05:03,380 --> 00:05:07,280
+which we'd write there--
+would be 6.2 kilograms.
+
+109
+00:05:07,280 --> 00:05:08,860
+So that's our set up
+for the problem.
+
+110
+00:05:08,860 --> 00:05:12,070
+So what's the probability that
+we would find a one year old
+
+111
+00:05:12,070 --> 00:05:17,730
+girl in the U.S. that weighs
+less than 8.4 kilograms.
+
+112
+00:05:17,730 --> 00:05:19,330
+Or maybe I should say
+whose mass is less
+
+113
+00:05:19,330 --> 00:05:21,640
+than 8.4 kilograms.
+
+114
+00:05:21,640 --> 00:05:25,150
+So if we look here, the
+probability of finding a baby
+
+115
+00:05:25,150 --> 00:05:28,070
+or a female baby who is one
+year old with a mass or a
+
+116
+00:05:28,070 --> 00:05:30,920
+weight of less than 8.4
+kilograms, that's this
+
+117
+00:05:30,920 --> 00:05:31,610
+area right here.
+
+118
+00:05:31,610 --> 00:05:35,070
+I said mass because kilograms
+is actually a unit of mass.
+
+119
+00:05:35,070 --> 00:05:36,940
+Most people use it
+as weight as well.
+
+120
+00:05:36,940 --> 00:05:38,470
+So that's that
+area right there.
+
+121
+00:05:38,470 --> 00:05:40,950
+So how can we figure out
+that area under this
+
+122
+00:05:40,950 --> 00:05:43,900
+normal distribution using
+the empirical rule?
+
+123
+00:05:43,900 --> 00:05:47,280
+Well, we know what
+this area is.
+
+124
+00:05:47,280 --> 00:05:52,370
+We know what this area between
+minus one standard deviation
+
+125
+00:05:52,370 --> 00:05:54,500
+and plus one standard
+deviation is.
+
+126
+00:05:54,500 --> 00:05:55,920
+We know that is 68%.
+
+127
+00:05:58,430 --> 00:06:01,720
+And if that's 68% then that
+means in the parts that
+
+128
+00:06:01,720 --> 00:06:04,360
+aren't in that middle
+region you have 32%.
+
+129
+00:06:04,360 --> 00:06:07,200
+Because the area under the
+entire normal distribution is
+
+130
+00:06:07,200 --> 00:06:11,380
+100 or 100% or 1, depending on
+how you want to think about it.
+
+131
+00:06:11,380 --> 00:06:14,490
+Because you can't have-- well,
+all of the possibilities
+
+132
+00:06:14,490 --> 00:06:17,880
+combined can only add up to 1.
+
+133
+00:06:17,880 --> 00:06:21,480
+You can't have it more
+than 100% there.
+
+134
+00:06:21,480 --> 00:06:27,270
+So if you add up this leg and
+this leg-- so this plus that
+
+135
+00:06:27,270 --> 00:06:29,490
+leg is going to be
+the remainder.
+
+136
+00:06:29,490 --> 00:06:32,590
+So 100 minus 68, that's 32.
+
+137
+00:06:32,590 --> 00:06:33,920
+32%.
+
+138
+00:06:33,920 --> 00:06:37,820
+32% is if you add up
+this left leg and this
+
+139
+00:06:37,820 --> 00:06:39,240
+right leg over here.
+
+140
+00:06:39,240 --> 00:06:41,120
+And this is a perfect
+normal distribution.
+
+141
+00:06:41,120 --> 00:06:42,535
+They told us it's
+normally distributed.
+
+142
+00:06:42,535 --> 00:06:44,780
+So it's going to be
+perfectly symmetrical.
+
+143
+00:06:44,780 --> 00:06:48,730
+So if this side and that side
+add up to 32 but they're both
+
+144
+00:06:48,730 --> 00:06:51,820
+symmetrical, meaning they have
+the exact same area, then this
+
+145
+00:06:51,820 --> 00:06:56,490
+side right here-- I'll do it in
+pink-- this side right here--
+
+146
+00:06:56,490 --> 00:07:00,020
+it ended up looking more
+like purple-- would be 16%.
+
+147
+00:07:00,020 --> 00:07:02,700
+And this side right
+here would be 16%.
+
+148
+00:07:02,700 --> 00:07:05,900
+So your probability of getting
+a result more than one standard
+
+149
+00:07:05,900 --> 00:07:08,280
+deviation above the mean-- so
+that's this right hand
+
+150
+00:07:08,280 --> 00:07:09,760
+side, would be 16%.
+
+151
+00:07:09,760 --> 00:07:13,040
+Or the probability of having a
+result less than one standard
+
+152
+00:07:13,040 --> 00:07:17,050
+deviation below that mean,
+that's this right here, 16%.
+
+153
+00:07:17,050 --> 00:07:19,060
+So they want to know the
+probability of having a
+
+154
+00:07:19,060 --> 00:07:23,140
+baby at one years old
+less than 8.4 kilograms.
+
+155
+00:07:23,140 --> 00:07:27,970
+Less than 8.4 kilograms
+is this area right here.
+
+156
+00:07:27,970 --> 00:07:29,500
+And that's 16%.
+
+157
+00:07:29,500 --> 00:07:33,270
+So that's 16% for part a.
+
+158
+00:07:33,270 --> 00:07:38,280
+Let's do part b: between 7.3
+and 11.7 point seven kilograms.
+
+159
+00:07:38,280 --> 00:07:41,130
+So between 7.3--
+that's right there.
+
+160
+00:07:41,130 --> 00:07:47,120
+That's two standard deviations
+below the mean-- and 11.7, one,
+
+161
+00:07:47,120 --> 00:07:49,100
+two standard deviations
+above the mean.
+
+162
+00:07:49,100 --> 00:07:51,260
+So there's essentially asking
+us what's the probability of
+
+163
+00:07:51,260 --> 00:07:54,340
+getting a result within two
+standard deviations
+
+164
+00:07:54,340 --> 00:07:55,230
+of the mean, right?
+
+165
+00:07:55,230 --> 00:07:57,040
+This is the mean right here.
+
+166
+00:07:57,040 --> 00:08:00,250
+This is two standard
+deviations below.
+
+167
+00:08:00,250 --> 00:08:02,630
+This is two standard
+deviations above.
+
+168
+00:08:02,630 --> 00:08:04,130
+Well that's pretty
+straightforward.
+
+169
+00:08:04,130 --> 00:08:07,490
+The empirical rule tells us
+between two standard deviations
+
+170
+00:08:07,490 --> 00:08:13,950
+you have a 95% chance of
+getting a result that is within
+
+171
+00:08:13,950 --> 00:08:15,140
+two standard deviations.
+
+172
+00:08:15,140 --> 00:08:17,740
+So the empirical rule just
+gives us that answer.
+
+173
+00:08:17,740 --> 00:08:21,440
+And then finally, part c: the
+probability of having a one
+
+174
+00:08:21,440 --> 00:08:25,510
+year old U.S. a baby girl
+more than 12.8 kilograms.
+
+175
+00:08:25,510 --> 00:08:28,310
+So 12.8 kilograms is three
+standard deviations
+
+176
+00:08:28,310 --> 00:08:29,770
+above the mean.
+
+177
+00:08:29,770 --> 00:08:34,100
+So we want to know the
+probability of having a result
+
+178
+00:08:34,100 --> 00:08:36,250
+more than three deviations
+above the mean.
+
+179
+00:08:36,250 --> 00:08:42,170
+So that is this area way out
+there that I drew in orange.
+
+180
+00:08:42,170 --> 00:08:44,310
+Maybe I should do it in
+a different color to
+
+181
+00:08:44,310 --> 00:08:45,280
+really contrast it.
+
+182
+00:08:45,280 --> 00:08:48,575
+So it's this long tail out
+here, this little small area.
+
+183
+00:08:48,575 --> 00:08:51,020
+So what is that probability?
+
+184
+00:08:51,020 --> 00:08:53,420
+So let's turn back to
+our empirical rule.
+
+185
+00:08:53,420 --> 00:08:56,230
+Well we know the probability--
+we know this area.
+
+186
+00:08:56,230 --> 00:08:59,740
+We know the area between minus
+three standard deviations and
+
+187
+00:08:59,740 --> 00:09:01,960
+plus three standard deviations.
+
+188
+00:09:01,960 --> 00:09:04,090
+We know this-- since this is
+last the last problem I can
+
+189
+00:09:04,090 --> 00:09:08,200
+color the whole thing in-- we
+know this area right here
+
+190
+00:09:08,200 --> 00:09:14,300
+between minus 3 and plus
+3, that is it 99.7%.
+
+191
+00:09:14,300 --> 00:09:16,830
+The bulk of the results
+fall under there.
+
+192
+00:09:16,830 --> 00:09:17,940
+I mean, almost all of them.
+
+193
+00:09:17,940 --> 00:09:20,320
+So what do we have left
+over for the two tails?
+
+194
+00:09:20,320 --> 00:09:21,220
+Remember there are two tails.
+
+195
+00:09:21,220 --> 00:09:22,330
+This is one of them.
+
+196
+00:09:22,330 --> 00:09:24,630
+Then you have the results that
+are less than three standard
+
+197
+00:09:24,630 --> 00:09:25,730
+deviations below the mean.
+
+198
+00:09:25,730 --> 00:09:27,480
+This tail right there.
+
+199
+00:09:27,480 --> 00:09:32,160
+So that tells us that this,
+less than three standard
+
+200
+00:09:32,160 --> 00:09:35,280
+deviations below the mean and
+more than three standard
+
+201
+00:09:35,280 --> 00:09:39,150
+deviations above the mean
+combined have to be the rest.
+
+202
+00:09:39,150 --> 00:09:46,530
+Well the rest, there's only
+0.3% percent for the rest.
+
+203
+00:09:46,530 --> 00:09:48,250
+And these two things
+are symmetrical.
+
+204
+00:09:48,250 --> 00:09:49,620
+They're going to be equal.
+
+205
+00:09:49,620 --> 00:09:54,880
+So this right here has to be
+half of this or 0.15% and
+
+206
+00:09:54,880 --> 00:09:59,160
+this right here is
+going to be 0.15%.
+
+207
+00:09:59,160 --> 00:10:03,650
+So the probability of having a
+one year old baby girl in the
+
+208
+00:10:03,650 --> 00:10:07,250
+U.S. that is more than 12.8
+kilograms if you assume a
+
+209
+00:10:07,250 --> 00:10:10,490
+perfectly normal distribution
+is the area under this curve,
+
+210
+00:10:10,490 --> 00:10:13,040
+the area that is more than
+three standard deviations
+
+211
+00:10:13,040 --> 00:10:14,250
+above the mean.
+
+212
+00:10:14,250 --> 00:10:21,760
+And that is 0.15%.
+
+213
+00:10:21,760 --> 00:10:24,410
+Anyway, I hope you
+found that useful.

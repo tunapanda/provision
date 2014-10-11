@@ -1,0 +1,91 @@
+1
+99:59:59,999 --> 99:59:59,999
+let s sub k for k is equal to one all the eay to one hundred denote the sum for the infinite geometric series
+
+2
+99:59:59,999 --> 99:59:59,999
+whose first term is k minus one over k factorial and the common ratio is 1 over k. Then the value of
+
+3
+99:59:59,999 --> 99:59:59,999
+100 squared over 100 factorial plus the sum from k equals one to one hundred of this thing over here
+
+4
+99:59:59,999 --> 99:59:59,999
+the absolute value of this thing over here k2 minus 3k + 1 times s sub k is. So this looks like a pretty
+
+5
+99:59:59,999 --> 99:59:59,999
+daunting thing but I guess a good place to start would just to be find a simple way to express s sub
+
+6
+99:59:59,999 --> 99:59:59,999
+k. So if we were to write s sub k. s sub k is equal to the first term is k-1 over k factorial and then t
+
+7
+99:59:59,999 --> 99:59:59,999
+he common ratio is one over k. So it's going to be one over k to the 0 plus one over k to the 1 plus
+
+8
+99:59:59,999 --> 99:59:59,999
+1 over k squared. It is just going to keep going on forever, it is an infinite geometric series. Now t
+
+9
+99:59:59,999 --> 99:59:59,999
+there is a very well known formula for the sum of an infinite geometric series. I enjoy the proof of i
+
+10
+99:59:59,999 --> 99:59:59,999
+t so much that we're going to do it again. and I've done it multiple times already but its such a simple
+
+11
+99:59:59,999 --> 99:59:59,999
+proof that it is good to do again, if you're under time pressure then you could just use the formula.
+
+12
+99:59:59,999 --> 99:59:59,999
+but if we say, lets just say some other sum, lets call this thing just s. s is equal to 1/k^0 + 1/k^1
+
+13
+99:59:59,999 --> 99:59:59,999
++ 1/k^2 all the way to infinite. Now lets multiply 1/k * s, which is going to be 1/k times all of these t
+
+14
+99:59:59,999 --> 99:59:59,999
+terms. So I multiply 1/k times this term I'm going to get (1/k)^1. When I multiply 1/k times this term
+
+15
+99:59:59,999 --> 99:59:59,999
+I'm going to get 1/k to the second power all of the way on to infinite. So if I were to subtract this f
+
+16
+99:59:59,999 --> 99:59:59,999
+rom that so it's coefficient is one 1 - 1/k * s would be equal to all of this stuff minus all of this
+
+17
+99:59:59,999 --> 99:59:59,999
+stuff. That is going to cancel with that and that is going to cancel with that and we're just going t
+
+18
+99:59:59,999 --> 99:59:59,999
+to have the 0 term here which is to the first power. 1/k ^ 0 is going to be equal to 1, or this whole s
+
+19
+99:59:59,999 --> 99:59:59,999
+sum is going to be equal to 1 over / 1-1/k. So we can re-write s sub k s sub k is equal to k - 1 over
+
+20
+99:59:59,999 --> 99:59:59,999
+k! times before I write it up here lets see if we can simplify this. If I want to simplify this I can
+
+21
+99:59:59,999 --> 99:59:59,999
+multiple the numerator and the denominator by k. If do this I am going to have k in the denominator a
+
+22
+99:59:59,999 --> 99:59:59,999
+nd the denominator becomes k -1. So this right here is k over k - 1 and these will cancel out so this
+
+23
+99:59:59,999 --> 99:59:59,999
+we have to be careful when we cancel out as this kind of precluded, while I will talk about that in a

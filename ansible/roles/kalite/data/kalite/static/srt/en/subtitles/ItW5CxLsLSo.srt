@@ -1,0 +1,63 @@
+1
+99:59:59,999 --> 99:59:59,999
+Now that we have setup the parameterization let's try to evaluate the integral.
+
+2
+99:59:59,999 --> 99:59:59,999
+The next thing we need to do is express ds in terms of du and dv.
+
+3
+99:59:59,999 --> 99:59:59,999
+We have seen this before ds is going to be equal to the magnitude of the cross product
+
+4
+99:59:59,999 --> 99:59:59,999
+of partial of r with respect to u crossed with partial of r with respect to v du dv .
+
+5
+99:59:59,999 --> 99:59:59,999
+First lets take the cross product and we will do that with a 3 by 3 matrix , we will do that right over here
+
+6
+99:59:59,999 --> 99:59:59,999
+we set up and fill in r of u and r of v in the actual determinant over here. So first we have our components i , j , and k.
+
+7
+99:59:59,999 --> 99:59:59,999
+First think about r sub u is. The partial of r with respect to u. Well it's i component
+
+8
+99:59:59,999 --> 99:59:59,999
+is going to be 1 the partial of u with respect to u is 1 so it's i component is 1 , it's j component is going to be zero
+
+9
+99:59:59,999 --> 99:59:59,999
+partial of v with respect to u is zero , v doesnt change with respect to u , so this is going to be 0 , partial of (there have
+
+10
+99:59:59,999 --> 99:59:59,999
+to be brackets around here partial of this with respect to u is just going to be 1 again , this is the partial of v squared respect
+
+11
+99:59:59,999 --> 99:59:59,999
+to u is just zero , so this is just 1 again and then r sub v the partial of r with respect to v , the i component is going to be zero
+
+12
+99:59:59,999 --> 99:59:59,999
+j component is going to be 1 and the partial of u plus v squared is going to be 2v , so this is pretty straight forward determinant
+
+13
+99:59:59,999 --> 99:59:59,999
+so lets try to evaluate , so i component i so we cross this column and this row , so this be 0 times 2v minus 1 times 1 , so essentially
+
+14
+99:59:59,999 --> 99:59:59,999
+it is just going to be negative 1 times i so we are going to have negative i this is equal to negative i and then the j component
+
+15
+99:59:59,999 --> 99:59:59,999
+we have to put a negative out front. And remember we have to check out board pattern.
+
+16
+99:59:59,999 --> 99:59:59,999
+So cross out that row, that column.

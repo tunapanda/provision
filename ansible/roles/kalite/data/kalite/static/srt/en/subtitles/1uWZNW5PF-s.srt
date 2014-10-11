@@ -1,0 +1,271 @@
+1
+00:00:00,356 --> 00:00:06,700
+Here's an interesting problem involving perimeter from the 2000 American Invitational Mathematics Exam.
+
+2
+00:00:06,700 --> 00:00:16,969
+It says, "The diagram shows a rectangle that has been dissected into 9 overlapping squares." One, two, three, four, five, six, seven, eight, nine overlapping squares.
+
+3
+00:00:16,969 --> 00:00:23,296
+"Given that the width and the height of the rectangle are positive integers with greatest common divisor one...".
+
+4
+00:00:23,296 --> 00:00:25,864
+So, they're talking about the width and the height of the rectangle
+
+5
+00:00:25,864 --> 00:00:28,341
+The reason why they're saying "...the greatest common divisor one..." is...
+
+6
+00:00:28,341 --> 00:00:34,966
+... they're saying that they don't have a common divisor that you can divide them both by to get a more simplified ratio.
+
+7
+00:00:34,966 --> 00:00:45,548
+And to think about that is we might be faced with two choices. One where maybe this side over here is... let me draw it like this...
+
+8
+00:00:45,548 --> 00:00:52,847
+... 5 and 15, but over here our greatest common divisor isn't 1. They're both divisible by 5 over here.
+
+9
+00:00:52,847 --> 00:00:58,917
+So, what you'd want do is say... no, instead of 5 and 15, they need to be 1 and 3.
+
+10
+00:00:58,917 --> 00:01:03,215
+Now you have the same ratio of sides, but now the greatest common divisor is 1.
+
+11
+00:01:03,215 --> 00:01:10,829
+You have it in a simplified form, or the most simplified form if you divide both this height and this width by 5.
+
+12
+00:01:10,829 --> 00:01:13,385
+So, that's why they're saying "...the greatest common divisor of one..."
+
+13
+00:01:13,385 --> 00:01:18,541
+And then they say, "Find the perimeter of the rectangle." So, let's see what we can do here.
+
+14
+00:01:18,541 --> 00:01:25,214
+I encourage you to pause this and try to do it on your own before I bumble my way through this problem.
+
+15
+00:01:25,214 --> 00:01:32,094
+So, let's start at the beginning. Let's start with this square right over here, this center square. They did tell us that they're all squares.
+
+16
+00:01:32,094 --> 00:01:45,266
+So let's say that the square right over here has a length (X) and a height (X). It's an (X by X) square. Let me write it so this is an (X) and that is an (X).
+
+17
+00:01:45,266 --> 00:01:54,150
+So, this is an (X by X) square right over there. And then you have this square right over here. And we don't know its measurements.
+
+18
+00:01:54,150 --> 00:02:04,475
+So let's say that this square right over here is (Y by Y). So it has (Y) width and it also has (Y) height.
+
+19
+00:02:04,475 --> 00:02:16,895
+Now, what is this square over here? Well, this is an (X +Y) by (X + Y) square because the width of these two squares combined made the width of this larger square.
+
+20
+00:02:16,895 --> 00:02:26,178
+So I'm going to... actually, this might be an easier way to write it... since they're all squares, I'm going to write the dimension of that square inside the square.
+
+21
+00:02:26,178 --> 00:02:32,499
+So this is going to be an (X by X) square, kind of a non-conventional notation, but it will help us keep things a little bit neat.
+
+22
+00:02:32,499 --> 00:02:38,248
+This is going to be a (Y by Y) square, so I'm not saying the area is (Y), I'm saying it's (Y by Y).
+
+23
+00:02:38,248 --> 00:02:48,516
+This over here... (X + Y) is going to be each of its dimensions. It's going to be (X + Y) height and (X + Y) width.
+
+24
+00:02:48,516 --> 00:03:01,246
+Then this one over here... well, if this dimension is (X + Y) and this dimension right over here is (X)...
+
+25
+00:03:01,246 --> 00:03:05,833
+... , then this whole side... or any of the sides of this square... is going to be the sum of that.
+
+26
+00:03:05,833 --> 00:03:16,363
+So, (X) + (X + Y) is (2X + Y). You can imagine that I'm just labeling the left side of each of these squares.
+
+27
+00:03:16,363 --> 00:03:24,134
+The left side of this square has length (Y), the left side of this one is (X), this one is (X + Y), this one is (2X + Y).
+
+28
+00:03:24,134 --> 00:03:34,109
+Then we can go to this one up here. Well, if this distance right over here is (2X + Y) and this distance right over here is (X + Y)...
+
+29
+00:03:34,109 --> 00:03:38,982
+... you add them together to get the entire dimension of one side of this square.
+
+30
+00:03:38,982 --> 00:03:50,779
+So it's going to be (3X + 2Y). I just added the (2X) plus the (X) and the (Y) plus the (Y) to get (3X + 2Y)...
+
+31
+00:03:50,779 --> 00:03:55,217
+... is the length of one dimension or one side of this square, and they're all the same.
+
+32
+00:03:55,217 --> 00:04:08,170
+Now let's go to this next square. Well, this length is (3X + 2Y) and this length is (2X + Y), then this entire length right over here is going to be (5X + 3Y).
+
+33
+00:04:08,170 --> 00:04:13,402
+(5X + 3Y) is going to be that entire length right over there.
+
+34
+00:04:13,402 --> 00:04:25,309
+We can also go to this side right over here where we have this length... I'll use the same color... this length is (3X + 2Y), this is (X + Y), and this is (Y).
+
+35
+00:04:25,309 --> 00:04:42,327
+So if you add (3X + 2Y) plus (X + Y) plus (Y), you get (4X + 4Y). And we can express this character's dimensions in terms of X and Y.
+
+36
+00:04:42,327 --> 00:04:49,236
+This is going to be (5X + 3Y)... and then you're going to have (2X + Y)... and then you're going to have (X).
+
+37
+00:04:49,236 --> 00:04:54,567
+So, you add the X's together. 5X + 2X is 7X... plus X is 8X.
+
+38
+00:04:54,567 --> 00:05:04,585
+And then you add the Y's together. 3Y + Y... and you don't have a Y there... so that's going to be + 4Y. That's the dimensions of this square.
+
+39
+00:05:04,585 --> 00:05:15,162
+And finally we have this square right over here. It's dimensions are going to be Y + 4X + 4Y, so that's 4X + 5Y.
+
+40
+00:05:15,162 --> 00:05:35,101
+And then if we think about the dimensions of this actual rectangle over here... if we think about its height right over there,..
+
+41
+00:05:35,101 --> 00:05:49,330
+... that's going to be 5X + 3Y + 8X + 4Y. So, 5X + 8X is 13X plus 3Y + 4Y is 7Y.
+
+42
+00:05:49,330 --> 00:05:57,280
+So, that's its height. We can also think about its height by going on the other side of it. Maybe this will give us some useful constraints.
+
+43
+00:05:57,280 --> 00:06:09,078
+This is going to have to be the same length as this over here. And so if we add 4X + 4X we get 8X. And then if we add 4Y + 5Y we get 9Y.
+
+44
+00:06:09,078 --> 00:06:15,054
+So these are going to have to be equal to each other, so that's an interesting constraint.
+
+45
+00:06:15,054 --> 00:06:25,019
+So we have 13X + 7Y is going to have to equal 8X + 9Y.
+
+46
+00:06:25,019 --> 00:06:34,698
+We can simplify this if you subtract 8X from both sides, you get 5X.
+
+47
+00:06:34,698 --> 00:06:45,364
+And if you subtract 7Y from both sides you get 5X = 2Y. Or you could say X = 2/5Y.
+
+48
+00:06:45,364 --> 00:06:57,566
+In order for these to show up as integers, we have to pick integers here, but let's see if we have any other interesting constraints...
+
+49
+00:06:57,566 --> 00:07:01,935
+... if we look at the bottom and the top of this... if this gives us any more information.
+
+50
+00:07:01,935 --> 00:07:15,420
+So, if we add 5X + 3Y + 3X + 2 Y + 4X + 4Y... this top dimension... 5X + 3X is 8X + 4X is 12X.
+
+51
+00:07:15,420 --> 00:07:22,778
+And then you get 3Y + 2Y + 4Y is 9Y. That's this top dimension.
+
+52
+00:07:22,778 --> 00:07:32,181
+And if you go down here, you have 8X + 4X is 12X... let me do that in the same color...
+
+53
+00:07:32,181 --> 00:07:36,302
+... and then you have 4Y + 5Y is 9Y.
+
+54
+00:07:36,302 --> 00:07:41,573
+So, these actually ended up to be the same in terms of X and Y, so they're not giving us any more information... no more constraints.
+
+55
+00:07:41,573 --> 00:07:46,183
+Obviously, 12X + 9Y is going to be equal to 12X + 9Y.
+
+56
+00:07:46,183 --> 00:07:56,568
+So, our only constraint on this problem is what we got by setting this left hand side equal to this right hand side... X needs to be equal to 2/5Y.
+
+57
+00:07:56,568 --> 00:08:01,552
+So, let's just pick some numbers so we get nice integers for X and Y, and then we can figure out the perimeter.
+
+58
+00:08:01,552 --> 00:08:05,734
+We want to make sure that the dimensions don't have any common divisors.
+
+59
+00:08:05,734 --> 00:08:21,590
+So if we pick Y to be equal to 5, then looking at this constraint, what is X? Well then, X is 2. It's going to be 2/5 times 5. So then X is equal to 2.
+
+60
+00:08:21,590 --> 00:08:33,189
+So, let's see what we get for the dimensions of this rectangle then. So, the height of this rectangle is going to be, let's see, (13 times 2) is 26 plus (7 times 5) is 35.
+
+61
+00:08:33,189 --> 00:08:45,063
+So, 26 + 35 gets us... what... gets us to 61? This is equal to 61. Did I do that right? Let's see... 55 + 6 is 61.
+
+62
+00:08:45,063 --> 00:09:00,335
+And when you look at its width, you have 12X which is 24. Plus 9Y... Y is 5... so, plus 45. 24 + 45 is... what... that is 69.
+
+63
+00:09:00,335 --> 00:09:13,394
+And 61 and 69 do not share any common divisors other than 1. So it looks like we're done... or, we're almost done.
+
+64
+00:09:13,394 --> 00:09:18,437
+We know the dimensions of the rectangle. It is a 61 by 69 rectangle. And if you want its actual perimeter, you just add them all up.
+
+65
+00:09:18,437 --> 00:09:27,028
+So the perimeter here is going to be... we can have a drum roll now!... the perimeter is going to be 61 + 69 + 61 + 69....
+
+66
+00:09:27,028 --> 00:09:40,665
+... which is equal to... well, 61 + 69 is 130. That's another 130 right there. 130 + 130 is 260.
+
+67
+00:09:40,665 --> 00:09:45,950
+So it actually wasn't too bad of a problem if we just started in the middle and just built up from there...
+
+68
+00:09:45,950 --> 00:09:49,950
+... and built up the dimensions in terms of the dimensions of these 2 smallest squares and then we were able to find the perimeter.

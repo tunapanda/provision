@@ -1,0 +1,452 @@
+1
+00:00:00,523 --> 00:00:03,036
+Let's say I have some function f,
+
+2
+00:00:03,036 --> 00:00:11,241
+that is continuous on an interval between a and b,
+
+3
+00:00:11,241 --> 00:00:14,946
+and I have these brackets here, so it also includes a and b and the interval.
+
+4
+00:00:14,946 --> 00:00:17,968
+So let me graph this, just so we get a sense of what I'm talking about
+
+5
+00:00:17,968 --> 00:00:24,895
+So that's my vertical axis, this is my horizontal axis.
+I'm gonna label my horizontal axis t,
+
+6
+00:00:24,895 --> 00:00:28,698
+so that we can save x for later,
+and I can still make this y right over there
+
+7
+00:00:28,698 --> 00:00:34,986
+and let me graph, this right over here is the graph of:
+y is equal to f(t)
+
+8
+00:00:34,986 --> 00:00:41,826
+Now, our lower endpoint is a, so that's a,
+right over there
+
+9
+00:00:41,826 --> 00:00:45,708
+Our upper boundary is b,
+
+10
+00:00:45,708 --> 00:00:49,819
+...to make that clear, and actually just to show that we're including that endpoint,
+
+11
+00:00:49,819 --> 00:00:52,494
+let me make them bold lines, filled-in lines.
+
+12
+00:00:52,494 --> 00:00:56,714
+So lower boundary a, upper boundary b,
+we're just saying, and I've drawn it this way,
+
+13
+00:00:56,714 --> 00:00:58,633
+that f is continuous on that.
+
+14
+00:00:58,633 --> 00:01:04,721
+Now, let's define some new function that's the area under the curve
+
+15
+00:01:04,721 --> 00:01:10,236
+between a and some point that's in our interval.
+
+16
+00:01:10,236 --> 00:01:13,135
+Let me pick this right over here, x.
+
+17
+00:01:13,135 --> 00:01:19,309
+So let's define some new function, to capture the area under the curve,
+
+18
+00:01:19,309 --> 00:01:22,575
+between a and x.
+
+19
+00:01:22,575 --> 00:01:26,886
+Well, how do we denote the area under the curve between two endpoints?
+
+20
+00:01:26,886 --> 00:01:30,642
+Well, we just use our definite intergral, that's our Riemann integral, that's really..
+
+21
+00:01:30,642 --> 00:01:34,501
+that right now, before we come up with the conclusion of this video,
+
+22
+00:01:34,501 --> 00:01:37,887
+it really just represents the area under the curve between two endpoints.
+
+23
+00:01:37,887 --> 00:01:40,634
+So this right over here, we can say is,
+
+24
+00:01:40,634 --> 00:01:59,570
+the definite integral from a to x, of f(t), dt.
+
+25
+00:01:59,570 --> 00:02:03,106
+Now, this right over here is going to be a function of x,
+let me make it clear,
+
+26
+00:02:03,106 --> 00:02:11,568
+where x is in the interval between a and b. 
+This thing right over here
+
+27
+00:02:11,568 --> 00:02:15,642
+is going to be another function of x.
+This value is going to depend
+
+28
+00:02:15,642 --> 00:02:18,468
+on what x we actually choose.
+
+29
+00:02:18,468 --> 00:02:23,109
+So let's define this, as a function of x,
+so I'm gonna say that this is equal to
+
+30
+00:02:23,109 --> 00:02:27,773
+uppercase F(x).
+
+31
+00:02:27,773 --> 00:02:32,903
+So all fair and good, uppercase F(x) is a function,
+if you give me an x value
+
+32
+00:02:32,903 --> 00:02:38,168
+that's between a and b, 
+it'll tell you the area under lowercase f(t)
+
+33
+00:02:38,168 --> 00:02:40,637
+between a and x.
+
+34
+00:02:40,637 --> 00:02:44,902
+Now, the cool part, the fundamental theorem of calculus,
+
+35
+00:02:44,902 --> 00:02:48,802
+the fundamental theorem of calculus tells us,
+let me write this down,
+
+36
+00:02:48,802 --> 00:03:00,378
+it's a big deal. 
+Fundamental theorem of calculus tells us,
+
+37
+00:03:00,378 --> 00:03:06,669
+that if we were to take the derivative of our capital F,
+
+38
+00:03:06,669 --> 00:03:09,769
+so if I were to take the derivative
+of capital F with respect to x,
+
+39
+00:03:09,769 --> 00:03:13,703
+which is the same thing as taking the derivative of this,
+with respect to x,
+
+40
+00:03:13,703 --> 00:03:18,128
+which is equal to the derivative of all of this business,
+let me copy this
+
+41
+00:03:18,128 --> 00:03:24,901
+So, copy, and then paste.
+Which is the same thing,
+
+42
+00:03:24,901 --> 00:03:28,502
+I've defined capital F as this stuff,
+so if I'm taking the derivative of the left hand side,
+
+43
+00:03:28,502 --> 00:03:30,902
+it's the same thing as taking the derivative of the right hand side.
+
+44
+00:03:30,902 --> 00:03:34,101
+The fundamental theorem of calculus tells us,
+
+45
+00:03:34,101 --> 00:03:37,384
+that this is going to be equal to,
+
+46
+00:03:37,384 --> 00:03:43,502
+it's going to be equal to f,
+lowercase f(x)
+
+47
+00:03:43,502 --> 00:03:48,245
+Now, why is this a big deal?
+Why does it get such an important title,
+
+48
+00:03:48,245 --> 00:03:53,969
+as the fundamental theorem of calculus?
+
+49
+00:03:53,969 --> 00:03:58,769
+Well, it tells us, that for any continuous function f,
+
+50
+00:03:58,769 --> 00:04:04,546
+If I define a function, that is the area under the curve
+between a and x right over here,
+
+51
+00:04:04,546 --> 00:04:08,510
+that the derivative of that function is going to be f.
+
+52
+00:04:08,510 --> 00:04:09,635
+So let me make it clear,
+
+53
+00:04:09,635 --> 00:04:26,966
+every continuous f has an antiderivative F(x).
+
+54
+00:04:26,966 --> 00:04:30,169
+That by itself is a cool thing,
+but the other really cool thing,
+
+55
+00:04:30,169 --> 00:04:33,054
+or I guess these are somewhat related, is, 
+remember, coming into this,
+
+56
+00:04:33,054 --> 00:04:39,884
+all we did is, we just viewed the definite integral
+as symbolizing the area under the curve
+
+57
+00:04:39,884 --> 00:04:43,030
+between two points.
+That's where that Riemann definition
+
+58
+00:04:43,030 --> 00:04:46,530
+of integration comes from. But now we see a connection,
+
+59
+00:04:46,530 --> 00:04:50,446
+between that and derivatives.
+When you're taking the definite integral,
+
+60
+00:04:50,446 --> 00:04:55,279
+one way of thinking, especially if you're taking the definite integral between a lower boundary and an x,
+
+61
+00:04:55,279 --> 00:04:58,869
+one way of thinking about it is that you're essentially taking an antiderivative.
+
+62
+00:04:58,869 --> 00:05:00,299
+So we now see a connection,
+
+63
+00:05:00,299 --> 00:05:04,234
+this is why it is the fundamental theorem of calculus,
+
+64
+00:05:04,234 --> 00:05:13,782
+it connects differential calculus and integral calculus.
+Connection between derivatives,
+
+65
+00:05:13,782 --> 00:05:17,967
+and (maybe I should say antiderivatives), 
+derivatives and integration,
+
+66
+00:05:17,967 --> 00:05:21,566
+which before this video, we just viewed integration as area under the curve.
+
+67
+00:05:21,566 --> 00:05:24,287
+Now we see it has a connection to derivatives.
+
+68
+00:05:24,287 --> 00:05:30,037
+So how would you actually use the fundamental theorem of calculus, maybe in the context of a calculus class,
+
+69
+00:05:30,037 --> 00:05:32,536
+and we'll do the intuition for why this happens,
+
+70
+00:05:32,536 --> 00:05:35,165
+or why this is true, and maybe a proof in later videos,
+
+71
+00:05:35,165 --> 00:05:38,028
+but how would you actually apply this right over here?
+
+72
+00:05:38,028 --> 00:05:43,531
+Well, let's say someone told you, that they want to find the derivative,
+
+73
+00:05:43,531 --> 00:05:50,507
+Let's say someone wanted to find the derivative with respect to x
+
+74
+00:05:50,507 --> 00:05:54,840
+of the integral from, I don't know, I'll pick some random number here,
+
+75
+00:05:54,840 --> 00:05:59,784
+Pi to x, of,
+I'll put something crazy here,
+
+76
+00:05:59,784 --> 00:06:10,703
+cosine squared of t, over the natural log of t minus the square root of t, dt.
+
+77
+00:06:10,703 --> 00:06:13,898
+So they want you to take the derivative with respect to x of this crazy thing,
+
+78
+00:06:13,898 --> 00:06:18,790
+Remember, this thing in the parentheses, is a function of x.
+
+79
+00:06:18,790 --> 00:06:22,036
+Its value, it's going to have a value that is dependent on x,
+you give it a different x,
+
+80
+00:06:22,036 --> 00:06:26,389
+and it's going to have a different value.
+So what's the derivative of this with respect to x?
+
+81
+00:06:26,389 --> 00:06:30,141
+Well, the fundamental theorem of calculus tells us it can be very simple.
+
+82
+00:06:30,141 --> 00:06:36,806
+We essentially, and you can even pattern match up here, 
+we'll get more intuition of why this is true in future videos,
+
+83
+00:06:36,806 --> 00:06:41,052
+but essentially, everywhere where you see this right over here is an f(t)
+
+84
+00:06:41,052 --> 00:06:44,472
+everywhere you see a t, replace it with an x, and it becomes an f(x).
+
+85
+00:06:44,472 --> 00:06:46,030
+So this is going to be equal to
+
+86
+00:06:46,030 --> 00:06:53,832
+cosine squared of x, over the natural log of x minus the square root of x,
+
+87
+00:06:53,832 --> 00:06:58,500
+you take the derivative of the indefinite integral, where the upper boundary is x right over here,
+
+88
+00:06:58,500 --> 00:07:04,471
+just becomes, whatever you were taking the integral of, that as a function of, instead of t,
+
+89
+00:07:04,471 --> 00:07:07,799
+that is now a function of x.
+
+90
+00:07:07,799 --> 00:07:10,233
+So it can really simplify sometimes, taking a derivative,
+
+91
+00:07:10,233 --> 00:07:11,830
+and sometimes, you'll see on exams,
+
+92
+00:07:11,830 --> 00:07:15,499
+these trick problems where you have this really hairy thing that you need to take a definite integral of
+
+93
+00:07:15,499 --> 00:07:16,767
+and then take the derivative,
+
+94
+00:07:16,767 --> 00:07:19,305
+you just have to remember the fundamental theorem of calculus,
+
+95
+00:07:19,305 --> 00:07:22,297
+the thing that ties it all together,
+it connects derivatives and integration,
+
+96
+00:07:22,297 --> 00:07:26,775
+you can just simplify it, by realizing that this is just going to be,
+
+97
+00:07:26,775 --> 00:07:31,567
+instead of a function lowercase f(t), it's going to lowercase f(x),
+
+98
+00:07:31,567 --> 00:07:34,635
+let me make it clear, in this example right over here,
+
+99
+00:07:34,635 --> 00:07:37,133
+this right over here was lowercase f(t),
+
+100
+00:07:37,133 --> 00:07:40,965
+and now it became lowercase f(x).
+
+101
+00:07:40,965 --> 00:07:45,233
+This right over here was our a,
+
+102
+00:07:45,233 --> 00:07:48,883
+and notice, it doesn't matter what the lower boundary of a actually is.
+
+103
+00:07:48,883 --> 00:07:52,840
+You don't have something on the right hand side that is in some way dependent on a.
+
+104
+00:07:52,840 --> 00:07:56,099
+Anyway, hope you enjoyed that and in the next few videos, we'll think about the intuition,
+
+105
+00:07:56,099 --> 00:08:00,099
+and do more examples making use of the fundamental theorem of calculus.

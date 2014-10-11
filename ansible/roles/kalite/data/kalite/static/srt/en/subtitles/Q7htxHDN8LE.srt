@@ -1,0 +1,379 @@
+1
+00:00:00,000 --> 00:00:04,121
+Determine the six trigonometric ratios
+
+2
+00:00:04,121 --> 00:00:07,870
+for angle A in the right triangle below
+
+3
+00:00:07,870 --> 00:00:11,465
+so this right over here is angle A, it's at vertex A.
+
+4
+00:00:11,465 --> 00:00:14,530
+And to help me remember the definitions of the trig ratios,
+
+5
+00:00:14,530 --> 00:00:18,016
+and these are human constructed definitions that have ended up being
+
+6
+00:00:18,016 --> 00:00:22,502
+very, very useful for analyzing a whole series
+
+7
+00:00:22,502 --> 00:00:24,158
+of things in the world.
+
+8
+00:00:24,158 --> 00:00:26,517
+To help me remember them, I use the word
+
+9
+00:00:26,517 --> 00:00:28,273
+SOH CAH TOA
+
+10
+00:00:28,273 --> 00:00:30,259
+Let me write that down.
+
+11
+00:00:30,259 --> 00:00:35,140
+SOH CAH TOA
+
+12
+00:00:35,140 --> 00:00:36,897
+sometimes you can think of it as one word but
+
+13
+00:00:36,897 --> 00:00:39,950
+it's really the 3 parts that define at least
+
+14
+00:00:39,950 --> 00:00:41,895
+3 of the trig functions for you and then we
+
+15
+00:00:41,895 --> 00:00:44,231
+can get the other 3 by looking at the first 3.
+
+16
+00:00:44,231 --> 00:00:48,301
+So SOH tells us that sine of an angle,
+
+17
+00:00:48,301 --> 00:00:50,656
+in this case it's sine of A,
+
+18
+00:00:50,656 --> 00:00:53,611
+So sine of A is equal to
+
+19
+00:00:53,611 --> 00:01:01,327
+the opposite, that's the O, over the hypotenuse.
+
+20
+00:01:01,327 --> 00:01:04,761
+Well, in this context, what is the opposite to angle A?
+
+21
+00:01:04,761 --> 00:01:08,961
+Well, we go across the triangle, it opens up on to
+
+22
+00:01:08,961 --> 00:01:11,951
+side BC, it has length 12, so that is the opposite side.
+
+23
+00:01:11,951 --> 00:01:15,311
+So, this is going to be equal to twelve and
+
+24
+00:01:15,311 --> 00:01:18,161
+what's the hypotenuse?
+
+25
+00:01:18,161 --> 00:01:21,211
+Well, the hypotenuse is the longest side of the triangle.
+
+26
+00:01:21,211 --> 00:01:23,809
+It's opposite the 90 degree angle, and so we go
+
+27
+00:01:23,809 --> 00:01:25,793
+opposite the 90 degree angle,
+
+28
+00:01:25,793 --> 00:01:28,719
+longest side is side AB and it has length 13,
+
+29
+00:01:28,719 --> 00:01:31,988
+so this right over here is the hypotenuse.
+
+30
+00:01:31,988 --> 00:01:35,107
+So, the sine of A is 12/13.
+
+31
+00:01:35,107 --> 00:01:37,632
+So now let's go to CAH.
+
+32
+00:01:37,632 --> 00:01:39,844
+CAH defines cosine for us.
+
+33
+00:01:39,844 --> 00:01:43,207
+It tells us that cosine of an angle
+
+34
+00:01:43,207 --> 00:01:46,724
+in this case, cosine of A, is equal to
+
+35
+00:01:46,724 --> 00:01:52,583
+the adjacent side to the angle over the hypotenuse.
+
+36
+00:01:52,583 --> 00:01:56,269
+So, what's the adjacent side to angle A?
+
+37
+00:01:56,269 --> 00:01:59,276
+Well, if we look at angle A, there are two sides that are
+
+38
+00:01:59,276 --> 00:02:02,298
+next to it. One of them is the hypotenuse,
+
+39
+00:02:02,298 --> 00:02:04,442
+the other one has length 5.
+
+40
+00:02:04,442 --> 00:02:07,750
+The adjacent one is side CA, so it's 5 and
+
+41
+00:02:07,750 --> 00:02:11,292
+what is the hypotenuse? Well, we've already figure that out.
+
+42
+00:02:11,292 --> 00:02:14,672
+The hypotenuse is right over here
+
+43
+00:02:14,672 --> 00:02:16,961
+it's opposite the 90 degree angle.
+
+44
+00:02:16,961 --> 00:02:20,292
+It's the longest side of the right triangle.
+
+45
+00:02:20,292 --> 00:02:22,257
+It has length 13. So the cosine of A is 5/13.
+
+46
+00:02:22,257 --> 00:02:25,238
+Let me label this right over here is the
+
+47
+00:02:25,238 --> 00:02:27,343
+adjacent side. And this is all specific to angle A.
+
+48
+00:02:27,343 --> 00:02:30,501
+The hypotenuse would be the same regardless
+
+49
+00:02:30,501 --> 00:02:32,555
+of the angle you pick but the opposite and
+
+50
+00:02:32,555 --> 00:02:34,477
+the adjacent is dependent on the angle that we
+
+51
+00:02:34,477 --> 00:02:36,572
+choose in the right angle.
+
+52
+00:02:36,572 --> 00:02:39,006
+Now, let's go to TOA. TOA defines tangent for us.
+
+53
+00:02:39,006 --> 00:02:42,282
+It tells us that the tangent of an angle
+
+54
+00:02:42,282 --> 00:02:46,352
+is equal to the opposite side over the adjacent side.
+
+55
+00:02:46,352 --> 00:02:53,446
+So, given this definition, what is the tangent of A?
+
+56
+00:02:53,446 --> 00:02:57,422
+The opposite side, we have already figured out,
+
+57
+00:02:57,422 --> 00:03:01,297
+has length 12 and the adjacent side,
+
+58
+00:03:01,297 --> 00:03:04,840
+we've already figure out has length 5.
+
+59
+00:03:04,840 --> 00:03:08,593
+So the tangent of A, which is opposite over adjacent is 12/5.
+
+60
+00:03:08,593 --> 00:03:08,630
+Now, we'll go the to the other 3 trig ratios.
+
+61
+00:03:08,630 --> 00:03:16,811
+Which you can think of as the reciprocals of
+
+62
+99:59:59,999 --> 99:59:59,999
+these 3, right over here. But I'll define it.
+
+63
+99:59:59,999 --> 99:59:59,999
+So first you have cosecant and cosecant is
+
+64
+99:59:59,999 --> 99:59:59,999
+always a little unintuitive why cosecant is
+
+65
+99:59:59,999 --> 99:59:59,999
+the reciprocal of sine of A even though it
+
+66
+99:59:59,999 --> 99:59:59,999
+starts with a co like cosine.
+
+67
+99:59:59,999 --> 99:59:59,999
+But, cosecant is the reciprocal of the sine of A.
+
+68
+99:59:59,999 --> 99:59:59,999
+So sine of A is opposite over hypotenuse.
+
+69
+99:59:59,999 --> 99:59:59,999
+Cosecant of A is hypotenuse over opposite.
+
+70
+99:59:59,999 --> 99:59:59,999
+And what's the hypotenuse over the opposite?
+
+71
+99:59:59,999 --> 99:59:59,999
+Well, the hypotenuse is 13 and the opposite side is 12.
+
+72
+99:59:59,999 --> 99:59:59,999
+And notice that 13/12 is the reciprocal of 12/13.
+
+73
+99:59:59,999 --> 99:59:59,999
+Now, secant of A is the reciprocal, so instead
+
+74
+99:59:59,999 --> 99:59:59,999
+of being adjacent over hypotenuse,
+
+75
+99:59:59,999 --> 99:59:59,999
+which we got from the CAH part of SOH CAH TOA
+
+76
+99:59:59,999 --> 99:59:59,999
+It's the hypotenuse over adjacent.
+
+77
+99:59:59,999 --> 99:59:59,999
+So, what is the secant of A?
+
+78
+99:59:59,999 --> 99:59:59,999
+Well the hypotenuse, we've figured out
+
+79
+99:59:59,999 --> 99:59:59,999
+multiple times already is 13.
+
+80
+99:59:59,999 --> 99:59:59,999
+And what is the adjacent side?
+
+81
+99:59:59,999 --> 99:59:59,999
+So, it's 13/5, which is once again is the
+
+82
+99:59:59,999 --> 99:59:59,999
+reciprocal of the cosine of A.
+
+83
+99:59:59,999 --> 99:59:59,999
+5/13.
+
+84
+99:59:59,999 --> 99:59:59,999
+Finally, let's get the cotangent.
+
+85
+99:59:59,999 --> 99:59:59,999
+And the cotangent is the reciprocal of the tangent of A.
+
+86
+99:59:59,999 --> 99:59:59,999
+Instead of being opposite over adjacent
+
+87
+99:59:59,999 --> 99:59:59,999
+it is adjacent over opposite.
+
+88
+99:59:59,999 --> 99:59:59,999
+So what is the cotangent of A?
+
+89
+99:59:59,999 --> 99:59:59,999
+Well, we figured out the adjacent side multiple
+
+90
+99:59:59,999 --> 99:59:59,999
+times for angle A.
+
+91
+99:59:59,999 --> 99:59:59,999
+It's length 5.
+
+92
+99:59:59,999 --> 99:59:59,999
+And the opposite side to angle A is 12
+
+93
+99:59:59,999 --> 99:59:59,999
+so it's 5/12. Which is, once again,
+
+94
+99:59:59,999 --> 99:59:59,999
+the reciprocal of the tangent of A
+
+95
+99:59:59,999 --> 99:59:59,999
+which is 12/5.

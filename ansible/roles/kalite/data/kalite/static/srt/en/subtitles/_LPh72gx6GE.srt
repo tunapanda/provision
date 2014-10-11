@@ -1,0 +1,531 @@
+1
+00:00:01,200 --> 00:00:06,877
+What I want to explore in this video is the different ways of measuring the amount of money we have in circulation.
+
+2
+00:00:06,877 --> 00:00:13,585
+So we're going to start things with our Central Bank (in the US, this would be the US Federal Reserve.)
+
+3
+00:00:13,585 --> 00:00:17,769
+And let's say that they print $4.
+
+4
+00:00:17,938 --> 00:00:21,625
+And we're going to focus just for visualisation purposes, on them doing it phyisically,
+
+5
+00:00:21,625 --> 00:00:25,764
+they could also do it electronically, but we're just going to focus on the physical.
+
+6
+00:00:25,764 --> 00:00:29,118
+And they way they get this into circulation is that they'll take these four dollars
+
+7
+00:00:29,118 --> 00:00:35,200
+and they'll go buy securities in the open market, normally very safe and very liquid securities
+
+8
+00:00:35,200 --> 00:00:39,200
+Liquid means it's very easy to buy and sell those securities in large quantities.
+
+9
+00:00:39,200 --> 00:00:44,267
+For example, government treasuries is a liquid security or a liquid asset,
+
+10
+00:00:44,267 --> 00:00:46,533
+Pez dispensers would not be a liquid asset --
+
+11
+00:00:46,533 --> 00:00:48,800
+If i bought a billion dollars worth of pez dispensers
+
+12
+00:00:48,800 --> 00:00:52,333
+it would be very hard for me to sell.. one, it would be very hard for me to buy a billion dollars worth
+
+13
+00:00:52,333 --> 00:00:55,533
+and it would probably be even harder for me to sell a billion dollars worth
+
+14
+00:00:55,533 --> 00:00:58,600
+in any short or medium time frame.
+
+15
+00:00:58,600 --> 00:01:03,431
+So the central bank goes out, and let's say they go and buy 1 liquid security for $4,
+
+16
+00:01:03,431 --> 00:01:05,659
+[so this is the security right over here]
+
+17
+00:01:05,659 --> 00:01:09,610
+and the person they bought the security from decides to deposit it in a bank.
+
+18
+00:01:09,610 --> 00:01:13,067
+They could either directly deposit it in a bank or they could use that money
+
+19
+00:01:13,067 --> 00:01:15,267
+that they got from selling their security to buy things
+
+20
+00:01:15,267 --> 00:01:17,667
+and they person they bought things from could deposit in a bank...
+
+21
+00:01:17,667 --> 00:01:21,067
+but one way or another we can imagine it all gets deposited in a bank.
+
+22
+00:01:21,067 --> 00:01:27,267
+[So this is our private bank, I'll call this private bank number number 1]
+
+23
+00:01:27,267 --> 00:01:37,108
+So now all of these dollars are transferred to PB#1, and they are no longer...
+
+24
+00:01:37,154 --> 00:01:42,867
+the Fed Reserve or the central bank (the general case) is no longer in posession of them.
+
+25
+00:01:42,867 --> 00:01:48,800
+They've been transferred right over here (to PB #1). [I'm going to cross these out so we can keep track of things.]
+
+26
+00:01:48,800 --> 00:01:55,200
+Now, when they deposit in PB#1, they say "well, I need 3 of these dollars on demand
+
+27
+00:01:55,200 --> 00:01:57,133
+and I want to write cheques against them."
+
+28
+00:01:57,133 --> 00:02:14,200
+So they put $3 in a chequeing account, so they can write cheques up to $3..
+
+29
+00:02:14,200 --> 00:02:16,800
+and so they can get a little bit more interest, and the banks will even
+
+30
+00:02:16,800 --> 00:02:20,600
+give a little bit more interest on a savings account cos they don't have to keep the reserves;
+
+31
+00:02:20,600 --> 00:02:25,600
+they put $1 into a savings account.
+
+32
+00:02:25,738 --> 00:02:28,159
+And they cannot write cheques against that savings account
+
+33
+00:02:28,159 --> 00:02:33,369
+Now, there are special circumstances, but for simplicity, let's just say that they cannot write cheques
+
+34
+00:02:33,369 --> 00:02:36,769
+there are some that have restricted cheque writing and things like that...
+
+35
+00:02:36,769 --> 00:02:40,867
+So the banks says "ok, this dollar, I dont have to have
+
+36
+00:02:40,867 --> 00:02:43,056
+any reserves against it, and I can loan out this dollar
+
+37
+00:02:43,056 --> 00:02:46,800
+and the person they lend it to, let's say they immediately go deposit it into another bank
+
+38
+00:02:47,036 --> 00:02:52,882
+so they immediately go and deposit this in private bank 2 (PB#2)
+
+39
+00:02:53,159 --> 00:03:00,648
+So it's no longer in PB#1 [Let me draw PB#2... PB#2 is right over here...]
+
+40
+00:03:05,294 --> 00:03:10,748
+And they deposit it into a savings account in PB#2
+
+41
+00:03:10,917 --> 00:03:13,515
+and let's say that out of all of these
+
+42
+00:03:13,515 --> 00:03:17,648
+the bank says "well this is a demand deposit, I have to keep some reserves
+
+43
+00:03:17,648 --> 00:03:19,274
+(this is a fractional reserve system)
+
+44
+00:03:19,274 --> 00:03:22,385
+but I can lend out -- in the US I can lend out up to 90% of this
+
+45
+00:03:22,385 --> 00:03:26,267
+and maybe this bank is a little bit more conservative, and they only lend out two-thirds of these,
+
+46
+00:03:26,267 --> 00:03:28,600
+so they lend out 2 out of these 3 dollars.
+
+47
+00:03:28,600 --> 00:03:33,867
+And lets say the person they lend out to also happens to deposit it in PB#2, just coincidentally.
+
+48
+00:03:33,867 --> 00:03:46,082
+so this $2 also ends up in PB#2, and so they are no longer in PB#1,
+
+49
+00:03:46,082 --> 00:03:49,933
+although this person (PB#1) can still write cheques up to $3.
+
+50
+00:03:49,933 --> 00:03:58,600
+And here in PB#2, let's say these are deposited in a chequeing account.
+
+51
+00:03:58,600 --> 00:04:01,502
+Now, PB#2 can do a couple of things:
+
+52
+00:04:01,502 --> 00:04:03,600
+In this chequeing account, it has to keep some reserves,
+
+53
+00:04:03,600 --> 00:04:06,544
+let's say its even more conservative, it only decides to lend out half of this
+
+54
+00:04:06,590 --> 00:04:08,410
+(even though it could lend out 90%)
+
+55
+00:04:08,425 --> 00:04:11,979
+and so it lends out one of these dollars
+
+56
+00:04:11,995 --> 00:04:18,067
+and the person they lend it to just takes that dollar and puts it in their wallet.
+
+57
+00:04:18,067 --> 00:04:20,729
+They can also lend out this entire savings, and let's just say
+
+58
+00:04:20,729 --> 00:04:29,067
+that person that they lend that $1 in savings to also puts it in their wallet.
+
+59
+00:04:29,067 --> 00:04:33,354
+Notice, the original $4 is still there..
+
+60
+00:04:33,354 --> 00:04:38,179
+Now, and just to be clear, this person (PB#1) right over here can write cheques up to $3,
+
+61
+00:04:38,179 --> 00:04:54,133
+and this person over here (PB#2) can write cheques up to $2 [Let me do this in the same chequeing colour]
+
+62
+00:04:54,133 --> 00:04:57,462
+Now, let's think about the different forms of money there are here.
+
+63
+00:04:57,462 --> 00:05:02,867
+We could think of money in a very, very narrow way, which is 'Just what did the central bank print?'
+
+64
+00:05:02,867 --> 00:05:08,533
+or create electronically (as electronic reserves of its member banks' account)
+
+65
+00:05:08,533 --> 00:05:13,133
+but for simplicity here, you could just think of the physical currency it printed - it's base money.
+
+66
+00:05:13,133 --> 00:05:17,764
+And so that is often referred to as Base Money
+
+67
+00:05:17,764 --> 00:05:21,964
+and in the US (and other countries), it's often the same thing as M0...
+
+68
+00:05:21,964 --> 00:05:23,785
+(there are slight differences from country to country)
+
+69
+00:05:23,785 --> 00:05:27,846
+and in this example, as soon as they printed and put it into circulation...
+
+70
+00:05:27,846 --> 00:05:31,867
+(that was $4) we had $4 of base money...
+
+71
+00:05:31,867 --> 00:05:35,733
+and that's obvious because as soon as they printed this and bought the security with it
+
+72
+00:05:35,733 --> 00:05:39,333
+and it was in circulation, that $4 could be used to buy things,
+
+73
+00:05:39,333 --> 00:05:42,400
+it could be used to facilitate transactions.
+
+74
+00:05:42,400 --> 00:05:47,738
+Now, that clearly isn't all of the stuff that can be used as money in this little universe we created..
+
+75
+00:05:47,738 --> 00:05:53,246
+You have the $4, but these people (PBs) can also write cheques over here...
+
+76
+00:05:53,246 --> 00:05:55,779
+so we can have a slightly boarder definition of money
+
+77
+00:05:55,779 --> 00:05:57,508
+and over here we will call it M1,
+
+78
+00:05:57,569 --> 00:06:00,129
+and here, there's a couple of ways you could think about it
+
+79
+00:06:00,129 --> 00:06:04,190
+you could think about it as all of the currenncy that's in people's pockets
+
+80
+00:06:04,190 --> 00:06:07,615
+plus all of the cheque-writing capabilities, so if you view it that way
+
+81
+00:06:07,631 --> 00:06:13,231
+it would be these $2 plus $5 of cheque-writing capabilities over here.
+
+82
+00:06:13,231 --> 00:06:18,015
+So you could have $2 of physical currency that's in people's wallets (not in bank reserves)
+
+83
+00:06:18,015 --> 00:06:27,133
+plus the $5 of cheque-wrinting capability, which would give you $7.
+
+84
+00:06:27,133 --> 00:06:40,733
+Another way you could view it, is M0 plus cheque-able deposits [I'll just write 'cheques' here]
+
+85
+00:06:40,733 --> 00:06:42,723
+but if you do that, you are now double counting
+
+86
+00:06:42,723 --> 00:06:46,575
+because some of the M0 is reserves in the cheque-able deposits!
+
+87
+00:06:46,575 --> 00:06:50,559
+Or I could just say that some of the cheque-able deposits is held as reserves for M0
+
+88
+00:06:50,559 --> 00:06:57,467
+so you would have to subtract out the bank reserves...
+
+89
+00:06:57,467 --> 00:06:59,544
+and so then you would get $4..
+
+90
+00:06:59,544 --> 00:07:05,026
+cos we don't want to double count these over here... you'd get M0 is $4...
+
+91
+00:07:05,041 --> 00:07:07,292
+[I'm gonna do that in white]
+
+92
+00:07:07,292 --> 00:07:11,438
+M0 is $4
+
+93
+00:07:11,438 --> 00:07:15,154
+The cheque-able deposits is $5..
+
+94
+00:07:15,154 --> 00:07:18,310
+[Let me do that in pink.]
+
+95
+00:07:18,310 --> 00:07:19,804
+Plus the $5
+
+96
+00:07:19,804 --> 00:07:22,775
+and then you would want to subtract out the reserves...
+
+97
+00:07:22,775 --> 00:07:27,552
+and the reserves here, there are $2 of the reserves... so minus $2
+
+98
+00:07:27,567 --> 00:07:31,538
+and you would get yourself back to the $7.
+
+99
+00:07:31,538 --> 00:07:34,867
+The whole point of this is so that you are not double-counting something.
+
+100
+00:07:34,867 --> 00:07:42,313
+You are not double-counting this right over here as part of cheque-able deposits and part of the M0,
+
+101
+00:07:42,313 --> 00:07:45,800
+you are not using this twice.
+
+102
+00:07:45,800 --> 00:07:50,113
+It is both base money and chequeable deposits so we don't want to count it twice.
+
+103
+00:07:50,113 --> 00:07:55,277
+The simplest way to think about this is: 'What can be used in this boarder definition to facilitate transactions?'
+
+104
+00:07:55,462 --> 00:08:00,162
+These $2 in people's pockets and this ability to write up to $5 of cheques.
+
+105
+00:08:00,162 --> 00:08:02,477
+[So that's this view over here]
+
+106
+00:08:02,569 --> 00:08:06,477
+and if we want to get even boarder than that, we can get to something called M2
+
+107
+00:08:07,332 --> 00:08:12,999
+And here we could say, what is immediately usable to facilitate transactions right now,
+
+108
+00:08:12,999 --> 00:08:20,199
+so that would be our $7 of M1, plus things that can be easiliy converted to M1.
+
+109
+00:08:20,199 --> 00:08:23,653
+For example, these savings account can be easily converted to chequeing accounts
+
+110
+00:08:23,653 --> 00:08:28,066
+it might only take a couple of days (there might be resrictions) but it can be converted
+
+111
+00:08:28,066 --> 00:08:32,332
+and when it get converted, it will change the bank's reserve requirements a little bit, but it will allow
+
+112
+00:08:32,332 --> 00:08:36,866
+.. if this person converts it.. they will have the ability to write more cheques
+
+113
+00:08:36,866 --> 00:08:41,666
+so M2 includes M1 plus things that are very easy to convert to M1,
+
+114
+00:08:41,666 --> 00:08:48,199
+so they will include savings accounts, money-market accounts (which I won't go into detail here,
+
+115
+00:08:48,199 --> 00:08:51,799
+but they are really kind of similar that you get slightly higher interest but there are restrictions
+
+116
+00:08:51,799 --> 00:08:56,137
+on your ability to access it, but it is not too hard to turn it into chequing accounts...)
+
+117
+00:08:56,137 --> 00:09:00,491
+and things like small dollar-value time-deposit accounts.
+
+118
+00:09:00,491 --> 00:09:04,319
+But for the sake of simplicity in this example, it would be the saving accounts...
+
+119
+00:09:04,319 --> 00:09:16,150
+so it will be our $7 of M1, plus the $2 of savings account over here.
+
+120
+00:09:16,288 --> 00:09:17,997
+So this is just to give you a picture:
+
+121
+00:09:17,997 --> 00:09:20,797
+when someone talks about the money supply, you really have to say, 'what are you talking about?'
+
+122
+00:09:20,797 --> 00:09:24,418
+The most typical one is that you are talking about M1,
+
+123
+00:09:24,418 --> 00:09:27,977
+because this is the stuff that is directly usable to facilitate transactions.
+
+124
+00:09:27,977 --> 00:09:32,059
+Things like the ability to write a cheque or dollar bills in someone's wallet.
+
+125
+00:09:32,059 --> 00:09:34,392
+But they might be talking about base money...
+
+126
+00:09:34,392 --> 00:09:38,864
+(M0, narrow money are all ways of referring to the same thing especially in the Unites Sates)
+
+127
+00:09:38,895 --> 00:09:40,892
+or they might be referring to something even boarder
+
+128
+00:09:40,892 --> 00:09:46,267
+and there are boarder definitions even than M2, although M3, they've stopped reporting about it
+
+129
+00:09:46,267 --> 00:09:50,800
+but M3 would have things that are a little bit further from being true money,
+
+130
+00:09:50,800 --> 00:09:54,533
+from being a chequing account, but they are already fairly liquid
+
+131
+00:09:54,533 --> 00:09:56,800
+so they will include other types of assets,
+
+132
+00:09:56,800 --> 00:10:01,133
+but the Fed has already stopped reporting this in the recent past,
+
+133
+00:10:01,133 --> 99:59:59,999
+so these are the ones that are typically referred to.

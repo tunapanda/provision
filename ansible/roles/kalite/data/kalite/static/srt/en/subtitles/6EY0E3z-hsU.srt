@@ -1,0 +1,1038 @@
+1
+00:00:00,866 --> 00:00:03,345
+We're on problem 51.
+
+2
+00:00:03,345 --> 00:00:08,004
+And they say, a diagram from
+the proof or from a proof of the Pythagorean theorem is pictured below.
+
+3
+00:00:08,004 --> 00:00:10,802
+And they said, they say, which
+statement would not
+
+4
+00:00:10,802 --> 00:00:13,321
+be used in the proof of the Pythagorean
+theorem?
+
+5
+00:00:13,321 --> 00:00:16,072
+So since they have drawn this
+diagram out, I think we might as well just
+
+6
+00:00:16,072 --> 00:00:19,370
+kind of do the proof and then we can look at their choices
+
+7
+00:00:19,370 --> 00:00:21,620
+and see which
+ones kind of match up to what we did.
+
+8
+00:00:21,620 --> 00:00:24,121
+Hopefully, hopefully, they do
+it the same way.
+
+9
+00:00:24,121 --> 00:00:26,479
+So this, this is a pretty
+neat proof
+
+10
+00:00:26,479 --> 00:00:29,260
+of the Pythagorean, Pythagorean theorem. I don't think I've
+done it yet. So I might as well do it now.
+
+11
+00:00:29,260 --> 00:00:32,130
+So, the way they've drawn it the big inside here is,
+
+12
+00:00:32,130 --> 00:00:34,141
+Well, let's figure out
+what the area
+
+13
+00:00:34,141 --> 00:00:36,420
+of this large square is...
+
+14
+00:00:36,420 --> 00:00:38,526
+Right? Well there's two ways to think
+about it
+
+15
+00:00:38,526 --> 00:00:40,032
+You could just say, "OK, this is a square."
+
+16
+00:00:40,032 --> 00:00:41,545
+That's (a), that's (b).
+
+17
+00:00:41,545 --> 00:00:44,099
+Well this is going
+to be (b) as well.
+
+18
+00:00:44,099 --> 00:00:45,377
+This is going to be (a) as well.
+
+19
+00:00:45,377 --> 00:00:47,363
+So the area of the square is
+going to be the
+
+20
+00:00:47,363 --> 00:00:49,588
+length of one of its sides squared...
+
+21
+00:00:49,588 --> 00:00:52,141
+...right? So
+
+22
+00:00:52,141 --> 00:00:54,313
+we could say (a) plus (b), the whole square's area,
+
+23
+00:00:54,313 --> 00:00:54,823
+is (a) plus (b) squared.
+
+24
+00:00:54,823 --> 00:00:59,842
+..(a) plus (b)...
+
+25
+00:00:59,842 --> 00:01:07,645
+...squared, and that's equal to (a) squared
+plus 2ab plus (b) squared.
+
+26
+00:01:07,645 --> 00:01:09,687
+Fair enough.
+
+27
+00:01:09,687 --> 00:01:12,281
+Now we can also say that the
+area of this larger square,
+
+28
+00:01:12,281 --> 00:01:15,131
+that's bit of an optical
+illusion, looks like it's
+
+29
+00:01:15,131 --> 00:01:17,561
+tilted to the left because
+of the way it's drawn. But anyway,
+
+30
+00:01:17,561 --> 00:01:20,144
+that the area of
+this larger square is also
+
+31
+00:01:20,144 --> 00:01:22,932
+the area of these four triangles,
+plus the area of
+
+32
+00:01:22,932 --> 00:01:25,821
+this smaller square.
+
+33
+00:01:25,821 --> 00:01:29,879
+So this, the area of the
+larger square, which we figured out just by taking the...
+
+34
+00:01:29,879 --> 00:01:32,364
+taking one
+side of it and squaring it, that should be equal to the area
+
+35
+00:01:32,364 --> 00:01:34,928
+of the four
+
+36
+00:01:34,928 --> 00:01:37,101
+smaller triangles, so there's four of them.
+
+37
+00:01:37,101 --> 00:01:39,865
+And what's the area
+of each of them?
+
+38
+00:01:39,865 --> 00:01:42,451
+Let's see it's 1/2 base, lets just pick this one.
+
+39
+00:01:42,451 --> 00:01:45,073
+1/2 base times height. So it's 1/2
+
+40
+00:01:45,073 --> 00:01:47,457
+times (a) times (b).
+
+41
+00:01:47,457 --> 00:01:54,886
+So it's 1/2 ab. So 1/2 ab is one of these and
+I multiplied it by 4 to get all four of these
+
+42
+00:01:54,886 --> 00:01:57,767
+triangles.
+
+43
+00:01:57,767 --> 00:02:01,214
+And then we want to add the area
+of this inside, this inside square.
+
+44
+00:02:01,214 --> 00:02:03,957
+That's just going
+to be (c) squared, right? this side is (c), that side is (c),
+
+45
+00:02:03,957 --> 00:02:07,947
+So plus (c) squared.
+
+46
+00:02:07,947 --> 00:02:10,476
+Now let's see if we can
+simplify this.
+
+47
+00:02:10,476 --> 00:02:19,902
+So, you get (a) squared plus 2ab
+plus (b) squared is equal to 4
+
+48
+00:02:19,902 --> 00:02:24,688
+times 1/2 is 2ab
+plus c squared.
+
+49
+00:02:24,688 --> 00:02:29,131
+Well, we could subtract
+2ab from both sides of this equation, right?
+
+50
+00:02:29,131 --> 00:02:32,189
+I, I worked at the top and the bottom of
+this equation the way I've written it.
+
+51
+00:02:32,189 --> 00:02:38,147
+But if we do that, you get subtract 2ab
+from there, subtract 2ab from there, and you're left with
+
+52
+00:02:38,147 --> 00:02:41,332
+(a) squared plus (b) squared
+
+53
+00:02:41,332 --> 00:02:44,382
+is equal to (c) squared, which
+is the Pythagorean theorem.
+
+54
+00:02:44,382 --> 00:02:46,838
+We've proved it.
+
+55
+00:02:46,838 --> 00:02:50,291
+So let's see which of their
+choices matches what we did.
+
+56
+00:02:50,291 --> 00:02:53,501
+OK, which statement would not
+be used in the proof
+
+57
+00:02:53,501 --> 00:02:55,255
+of the Pythagorean theorem?
+
+58
+00:02:55,255 --> 00:02:57,244
+The area of a triangle
+equals 1/2 ab.
+
+59
+00:02:57,244 --> 00:02:59,448
+No, we used that;
+
+60
+00:02:59,448 --> 00:03:03,359
+we have to use that. The four right triangles are congruent.
+
+61
+00:03:03,359 --> 00:03:05,011
+No, we used that.
+
+62
+00:03:05,011 --> 00:03:07,910
+The area of the inner square
+
+63
+00:03:07,910 --> 00:03:10,870
+is equal to half of the area of the larger square.
+
+64
+00:03:10,870 --> 00:03:13,539
+No, we didn't use that. I think this is the one that
+
+65
+00:03:13,539 --> 00:03:16,226
+would not be used in the proof. Let's see
+
+66
+00:03:16,226 --> 00:03:18,959
+choice D, the area of the larger
+square is equal to
+
+67
+00:03:18,959 --> 00:03:20,382
+the sum of the squares of the
+smaller square
+
+68
+00:03:20,382 --> 00:03:24,630
+and the four congruent triangles. No, that's, that was the crux of the, of the proof. So we definitely used that. So C is our answer. That's
+
+69
+00:03:24,630 --> 00:03:27,479
+the statement
+that would not be
+
+70
+00:03:27,479 --> 00:03:30,118
+used in the proof.
+
+71
+00:03:30,118 --> 00:03:32,918
+and I'm,
+
+72
+00:03:32,918 --> 00:03:35,671
+I'm learning to copy and
+paste ahead of time.
+
+73
+00:03:35,671 --> 00:03:37,474
+So I don't waste your time.
+
+74
+00:03:37,474 --> 00:03:40,206
+Alright, a right triangle's
+hypotenuse has length 5.
+
+75
+00:03:40,206 --> 00:03:42,786
+If one leg has length 2,
+what is the length of the other leg?
+
+76
+00:03:42,786 --> 00:03:50,580
+ok, so this is, so its 5, 2, and they wanna know the other leg,
+
+77
+00:03:50,580 --> 00:03:56,318
+Pythagorean theorem, x squared
+plus 2 squared is equal to 5 squared
+
+78
+00:03:56,318 --> 00:03:58,799
+because 5 is
+the hypotenuse.
+
+79
+00:03:58,799 --> 00:04:02,360
+x squared plus 4
+is equal to
+
+80
+00:04:02,360 --> 00:04:05,927
+25, subtract 4 from both sides.
+
+81
+00:04:05,927 --> 00:04:08,276
+x squared is equal to 21.
+
+82
+00:04:08,276 --> 00:04:11,870
+So x is equal to the
+square root of 21.
+
+83
+00:04:11,870 --> 00:04:14,311
+So choice B.
+
+84
+00:04:14,311 --> 00:04:17,072
+Next question.
+
+85
+00:04:17,072 --> 00:04:18,866
+A new pipeline is being
+constructed to reroute oil flow
+
+86
+00:04:18,866 --> 00:04:27,184
+around the exterior of a
+national wildlife preserve.
+
+87
+00:04:27,184 --> 00:04:29,919
+I guess that's the national
+wildlife preserve.
+
+88
+00:04:29,919 --> 00:04:32,232
+The plan showing the old
+pipeline and the new route
+
+89
+00:04:32,232 --> 00:04:34,381
+is shown below.
+
+90
+00:04:34,381 --> 00:04:39,942
+OK, how many extra miles will
+the oil flow once the new route
+
+91
+00:04:39,942 --> 00:04:42,140
+is establised. So the new route
+
+92
+00:04:42,140 --> 00:04:45,397
+is going to
+be 60 miles plus 32 miles. So the new route
+
+93
+00:04:45,397 --> 00:04:48,191
+is 92 miles.
+
+94
+00:04:48,191 --> 00:04:56,306
+So what was the old route? Well the old route was the hypotenuse of this triangle, right?
+
+95
+00:04:56,306 --> 00:04:58,937
+So we could say, 60, let's
+call that x.
+
+96
+00:04:58,937 --> 00:05:03,386
+60 squared plus 32 squared
+is equal to x squared.
+
+97
+00:05:03,386 --> 00:05:13,077
+Because that's the hypotenuse.
+
+98
+00:05:13,077 --> 00:05:16,107
+And these numbers, that's a bit
+of a pain to, uh,
+
+99
+00:05:16,107 --> 00:05:23,626
+to deal with. Maybe if I can factor out
+something here I can make it more interesting. So I don't have to multiply out
+
+100
+00:05:23,626 --> 00:05:28,107
+60 squared and 32 squared, and
+
+101
+00:05:28,107 --> 00:05:33,632
+all of the rest.
+Well, let me let me just, see if i can .
+
+102
+00:05:33,632 --> 00:05:35,243
+if I factored out
+
+103
+00:05:35,243 --> 00:05:38,032
+Both of those are
+divisible by 4.
+
+104
+00:05:38,032 --> 00:05:41,836
+right? both of those are divisible by 4
+
+105
+00:05:41,836 --> 00:05:44,392
+So then I would have 15 and 8.
+
+106
+00:05:44,392 --> 00:05:47,171
+Yeah, that still doesn't
+make it that useful.
+
+107
+00:05:47,171 --> 00:05:50,243
+So I'll just multiply
+them out. So this is 3600.
+
+108
+00:05:50,243 --> 00:05:54,605
+At 32 squared, let's
+see, 32 times 32.
+
+109
+00:05:54,605 --> 00:05:58,867
+2 times 32 is 64.
+
+110
+00:05:58,867 --> 00:06:02,191
+3 times 2 is 6.
+
+111
+00:06:02,191 --> 00:06:04,802
+3 times 3 is 9.
+
+112
+00:06:04,802 --> 00:06:09,547
+So it's 1024.
+
+113
+00:06:09,547 --> 00:06:13,096
+Plus 1024 is equal
+to x squared.
+
+114
+00:06:13,096 --> 00:06:15,754
+So let me just switch
+both sides.
+
+115
+00:06:15,754 --> 00:06:18,842
+x squared is equal to 3600
+plus 1024 is 4624.
+
+116
+00:06:18,842 --> 00:06:25,941
+Let me see if I can get
+an approximate.
+
+117
+00:06:25,941 --> 00:06:28,417
+lets see, twenty times,
+
+118
+00:06:28,417 --> 00:06:31,001
+So x is going to be the square
+root of this thing right here.
+
+119
+00:06:31,001 --> 00:06:33,932
+So let's see if I can get
+a handle at least on
+
+120
+00:06:33,932 --> 00:06:36,661
+the magnitude of where
+this would be.
+
+121
+00:06:36,661 --> 00:06:45,481
+So 20 times 20 is 400. So this is way too small.
+
+122
+00:06:45,481 --> 00:06:49,457
+60 times 60 is 3600.
+
+123
+00:06:49,457 --> 00:06:52,123
+So 68 times 68, this
+looks right. Especially because 8 times 8 should end in a 4. Let me try that out.
+
+124
+00:06:52,123 --> 00:06:58,038
+68 times 68.
+
+125
+00:06:58,038 --> 00:07:00,446
+8 times 8 is 64.
+
+126
+00:07:00,446 --> 00:07:04,194
+8 times 6 is 48 plus 6 is 54.
+
+127
+00:07:04,194 --> 00:07:10,537
+6 times 8, 48.
+
+128
+00:07:10,537 --> 00:07:14,105
+6 times 6, 36 plus 4 is 40.
+
+129
+00:07:14,105 --> 00:07:19,031
+4624....right,
+
+130
+00:07:19,031 --> 00:07:22,139
+So x is 68. So x is equal to 68.
+
+131
+00:07:22,139 --> 00:07:27,255
+Oh, you know what? I used 68, I shouldn't have.
+Because they don't want
+
+132
+00:07:27,255 --> 00:07:31,455
+to know how long was
+the old pipeline.
+
+133
+00:07:31,455 --> 00:07:33,645
+That's 68.
+
+134
+00:07:33,645 --> 00:07:37,288
+It just happened to be
+one of the choices. That's just to
+
+135
+00:07:37,288 --> 00:07:38,994
+make
+sure that you read the question properly.
+
+136
+00:07:38,994 --> 00:07:41,184
+But they want to know how
+much longer
+
+137
+00:07:41,184 --> 00:07:42,601
+is going to be the new pipeline, right?
+
+138
+00:07:42,601 --> 00:07:44,529
+So the new one was 92.
+
+139
+00:07:44,529 --> 00:07:46,420
+And the old one is 68.
+
+140
+00:07:46,420 --> 00:07:48,673
+Good thing they had that
+number there so I could try it out.
+
+141
+00:07:48,673 --> 00:07:50,798
+That was the square
+root of 4624.
+
+142
+00:07:50,798 --> 00:07:52,801
+So how much longer
+is the new one?
+
+143
+00:07:52,801 --> 00:08:06,041
+Well 92 minus 68, that's
+24 miles, right? Yeah, 24. So choice A.
+
+144
+00:08:06,041 --> 00:08:10,246
+Not choice B. B is how long the old
+pipeline was.
+
+145
+00:08:10,246 --> 00:08:13,148
+We want to know how much longer
+the new route is.
+
+146
+00:08:13,148 --> 00:08:15,416
+That was tricky.
+
+147
+00:08:15,416 --> 00:08:17,940
+Well not tricky, but I kind of
+fell for it by
+
+148
+00:08:17,940 --> 00:08:20,778
+forgetting what the question was about.
+
+149
+00:08:20,778 --> 00:08:22,464
+Anyway, next question.
+
+150
+00:08:22,464 --> 00:08:26,503
+Marcia is using a straightedge
+and compass to do the construction below.
+
+151
+00:08:26,503 --> 00:08:28,441
+Interesting.
+
+152
+00:08:28,441 --> 00:08:31,682
+Which best describes the
+construction Marcia is doing.
+
+153
+00:08:31,682 --> 00:08:34,169
+So, I assume when they
+say construction
+
+154
+00:08:34,169 --> 00:08:36,692
+she's drawing something.
+
+155
+00:08:36,692 --> 00:08:39,097
+Let's see what it looks like. It looks she's taking her compass,
+
+156
+00:08:39,097 --> 00:08:41,223
+she's probably putting one of the points here,
+
+157
+00:08:41,223 --> 00:08:44,011
+she put one of the points there and then she
+kind of drew this arc.
+
+158
+00:08:44,011 --> 00:08:47,290
+And then it looks like she put
+the point there
+
+159
+00:08:47,290 --> 00:08:49,833
+and then she drew that arc.
+
+160
+00:08:49,833 --> 00:08:52,847
+And then she put the point
+here and drew that arc.
+
+161
+00:08:52,847 --> 00:08:58,293
+And then put the point there
+and drew that arc.
+
+162
+00:08:58,293 --> 00:09:03,453
+And the end result, it seems
+like the reason why she picked this point here is it
+
+163
+00:09:03,453 --> 00:09:06,001
+goes through this line L.
+
+164
+00:09:06,001 --> 00:09:08,441
+So she's probably trying to find
+another point here,
+
+165
+00:09:08,441 --> 00:09:11,985
+so that she can draw
+another line. Because they say she
+has a straightedge. A straightedge is to
+draw these lines. A compass is to draw
+these curves.
+
+166
+00:09:11,985 --> 00:09:17,495
+So if she were to draw another
+line between these two points,
+
+167
+00:09:17,495 --> 00:09:27,370
+if, you know, it looks something like
+that, then she would have
+
+168
+00:09:27,370 --> 00:09:29,076
+parallel lines.
+
+169
+00:09:29,076 --> 00:09:33,979
+The reason why she would have
+parallel lines is because these would be corresponding
+angles, and they would be congruent.
+
+170
+00:09:33,979 --> 00:09:36,599
+And so if you have a transversal, 
+the corresponding angles are congruent, you're
+dealing with parallel lines.
+
+171
+00:09:36,599 --> 00:09:41,734
+So my read of this question is
+that she's probably trying to draw
+
+172
+00:09:41,734 --> 00:09:44,533
+a line that is
+parallel to L.
+
+173
+00:09:44,533 --> 00:09:54,060
+A line through P parallel
+to line L. Yeah!
+
+174
+00:09:54,060 --> 00:09:56,443
+That's what I think
+she's trying to do.
+
+175
+00:09:56,443 --> 00:09:57,806
+All right, choice A.
+
+176
+00:09:57,806 --> 00:09:59,170
+55.
+
+177
+00:09:59,170 --> 00:10:01,547
+Given angle A.
+
+178
+00:10:01,547 --> 00:10:02,992
+So given this angle.
+
+179
+00:10:02,992 --> 00:10:04,454
+What is the first step in
+constructing the angle
+
+180
+00:10:04,454 --> 00:10:09,993
+bisector of angle A?
+
+181
+00:10:09,993 --> 00:10:14,469
+what is the first step constructing angle bisector
+
+182
+00:10:14,469 --> 00:10:20,299
+OK, this is, well actually I've
+never done this.
+
+183
+00:10:20,299 --> 00:10:22,939
+But I can assume that
+if I have a compass. You know what a compass is,
+it has those two points.
+
+184
+00:10:22,939 --> 00:10:25,510
+One of them is like
+a pivot point.
+
+185
+00:10:25,510 --> 00:10:28,509
+It looks something like this.
+
+186
+00:10:28,509 --> 00:10:32,353
+It looks like it has a little
+pivot point, and then on the other side,
+
+187
+00:10:32,353 --> 00:10:34,445
+you can stick
+your pencil.
+
+188
+00:10:34,445 --> 00:10:37,870
+And you can adjust it up here.
+
+189
+00:10:37,870 --> 00:10:42,095
+And the bottom line, you pivot
+around this and then you can draw circles,
+
+190
+00:10:42,095 --> 00:10:44,692
+of arbitrary
+radiuses. right?
+
+191
+00:10:44,692 --> 00:10:46,955
+It seems like that's
+what they did here.
+
+192
+00:10:46,955 --> 00:10:49,534
+So if I want to draw the angle
+bisector of (a)
+
+193
+00:10:49,534 --> 00:10:52,181
+just thinking about it, it seems I could put
+the pivot point here,
+
+194
+00:10:52,181 --> 00:10:57,928
+and then I can put the pencil and
+I can draw this circle. And really,
+
+195
+00:10:57,928 --> 00:11:02,896
+as long as I just
+find the two points that it intersects those two lines
+or those two rays,
+
+196
+00:11:02,896 --> 00:11:07,973
+then I'll be fine. And I could have done
+it anywhere. I could have done it here.
+
+197
+00:11:07,973 --> 00:11:10,740
+I could have done it out here. They just picked
+points B and C.
+
+198
+00:11:10,740 --> 00:11:13,321
+And then from each of those
+points
+
+199
+00:11:13,321 --> 00:11:15,961
+you can put your pivot here.
+
+200
+00:11:15,961 --> 00:11:18,423
+If you put your pivot here, and
+then you were to draw
+
+201
+00:11:18,423 --> 00:11:20,506
+a circle around that, you
+would have gotten this one right here.
+
+202
+00:11:20,506 --> 00:11:26,874
+And then if you were to put your
+pivot point right here, draw a circle, you would
+be able to draw that.
+
+203
+00:11:26,874 --> 00:11:31,737
+And then where they intersect,
+that would that would give you
+
+204
+00:11:31,737 --> 00:11:34,316
+that would give you an indication of where the
+angle bisector is.
+
+205
+00:11:34,316 --> 00:11:36,810
+And you could then draw that
+line to where they intersect.
+
+206
+00:11:36,810 --> 00:11:41,839
+So let's see, they say what is
+the first step in constructing the angle bisector of angle (a).
+
+207
+00:11:41,839 --> 00:11:44,635
+So they say draw ray AD.
+
+208
+00:11:44,635 --> 00:11:47,402
+Well that seems like that
+would be the last step. Then you're done.
+
+209
+00:11:47,402 --> 00:11:49,656
+Draw AD, that is the
+angle biector.
+
+210
+00:11:49,656 --> 00:11:54,201
+Draw a line segment connecting
+points B and C.
+
+211
+00:11:54,201 --> 00:11:58,054
+No, that's useless.
+
+212
+00:11:58,054 --> 00:12:00,083
+You don't need a line segment.
+
+213
+00:12:00,083 --> 00:12:03,105
+I mean even what they have
+drawn, that's an arc.
+
+214
+00:12:03,105 --> 00:12:04,233
+It's not a line.
+
+215
+00:12:04,233 --> 00:12:07,341
+From points B and C, draw
+equal arcs that intersect at D.
+
+216
+00:12:07,341 --> 00:12:09,656
+That was the second step.
+
+217
+00:12:09,656 --> 00:12:12,032
+You have to have points B and
+C before you can draw those equal arcs.
+
+218
+00:12:12,032 --> 00:12:16,026
+From point A, draw an arc that
+intersects the side of the angle
+
+219
+00:12:16,026 --> 00:12:17,912
+at points B and C.
+
+220
+00:12:17,912 --> 00:12:21,485
+Yeah, that's what we said. That was the first step. Put your pivot here,
+
+221
+00:12:21,485 --> 00:12:25,536
+and use
+your pencil to draw the arc. You say OK, this point
+and this point.
+
+222
+00:12:25,536 --> 00:12:28,307
+So that would be
+the first step.
+
+223
+00:12:28,307 --> 00:12:29,999
+D.
+
+224
+00:12:29,999 --> 00:12:33,163
+And I'm all out of problems
+and I'm out of time.
+
+225
+00:12:33,163 --> 99:59:59,999
+See you in the next video.

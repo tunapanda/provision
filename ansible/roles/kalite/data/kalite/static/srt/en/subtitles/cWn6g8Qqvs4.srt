@@ -1,0 +1,359 @@
+1
+00:00:00,533 --> 00:00:03,769
+We're asked to multiple the complex number 1 minus 3 i
+
+2
+00:00:03,769 --> 00:00:08,502
+times the complex number 2 plus 5 i. And the general idea here
+
+3
+00:00:08,502 --> 00:00:10,277
+is you can multiply these complex numbers
+
+4
+00:00:10,277 --> 00:00:14,662
+like you would have multiplied any traditional binomial
+
+5
+00:00:14,662 --> 00:00:16,800
+you just have to remember this isn't a variable
+
+6
+00:00:16,800 --> 00:00:21,800
+this is the imaginary unit i, or it's just i
+
+7
+00:00:21,800 --> 00:00:23,502
+but we can do that in two ways
+
+8
+00:00:23,502 --> 00:00:25,390
+we can just do distributive properties twice
+
+9
+00:00:25,390 --> 00:00:28,800
+which I like a little bit more just because it actually,
+
+10
+00:00:28,800 --> 00:00:31,400
+you're doing it from a fundamental principle, it's nothing new
+
+11
+00:00:31,400 --> 00:00:35,852
+or you could use FOIL, which you also used when you first multiplied binomials,
+
+12
+00:00:35,852 --> 00:00:37,452
+and I'll do it both ways.
+
+13
+00:00:37,452 --> 00:00:42,400
+So you could view this as just a number, 1 minus 3 i
+
+14
+00:00:42,400 --> 00:00:46,529
+and so we can distribute it over the two numbers inside of this expression.
+
+15
+00:00:46,529 --> 00:00:48,302
+So when we're multiplying times the entire expression
+
+16
+00:00:48,302 --> 00:00:54,379
+We can multiply 1 minus 3 i times two, and 1 minus 3 i times 5 i.
+
+17
+00:00:54,379 --> 00:00:56,667
+So let's do that. So this can be rewritten as
+
+18
+00:00:56,667 --> 00:01:04,129
+1 minus 3 i times 2, I'll write the 2 out front.
+
+19
+00:01:04,129 --> 00:01:13,154
+Plus 1 minus 3 i, times 5 i.
+
+20
+00:01:13,154 --> 00:01:14,964
+All I did is a distributive property here.
+
+21
+00:01:14,964 --> 00:01:19,625
+All I said is, look if I have a times b plus c, this is the same things as:
+
+22
+00:01:19,625 --> 00:01:21,610
+ab plus ac.
+
+23
+00:01:21,610 --> 00:01:26,098
+I just distributed the a on the b or the c.
+
+24
+00:01:26,098 --> 00:01:29,687
+I just distributed the 1 - minus 3 i on the 2 and the 5 i.
+
+25
+00:01:29,687 --> 00:01:31,733
+And then I can do it again. I have a 2 now
+
+26
+00:01:31,733 --> 00:01:34,200
+times 1 minus 3 i. I can distributed it.
+
+27
+00:01:34,200 --> 00:01:37,498
+2 times 1 is 2.
+
+28
+00:01:37,498 --> 00:01:41,718
+2 times negative 3 i is negative 6 i
+
+29
+00:01:41,718 --> 00:01:43,600
+And over here I'll do it again.
+
+30
+00:01:43,615 --> 00:01:48,277
+5 i times 1, so it's plus, 5 i times one is 5 i
+
+31
+00:01:48,277 --> 00:01:52,436
+And then 5 i times negative 3 i, so let's be careful here
+
+32
+00:01:52,436 --> 00:02:00,667
+5 times negative 3 is negative 15, and then I have an i times an i
+
+33
+00:02:00,667 --> 00:02:06,200
+Right, I'm multiplying. Let me do this over here. Five i times negative 3 i
+
+34
+00:02:06,200 --> 00:02:12,887
+This is the same thing as 5 times negative 3 times i times i.
+
+35
+00:02:12,887 --> 00:02:18,154
+So the 5 times the negative 3 is negative 15, and then we have i times i,
+
+36
+00:02:18,154 --> 00:02:20,021
+which is i squared.
+
+37
+00:02:20,021 --> 00:02:26,933
+Now we know what i squared is. By definition, i squared is negative 1.
+
+38
+00:02:26,933 --> 00:02:29,990
+i squared by definition is negative 1.
+
+39
+00:02:29,990 --> 00:02:34,692
+So negative 15 times negative 1, well that's the same thing as positive 15.
+
+40
+00:02:34,692 --> 00:02:40,154
+So this can be rewritten as 2 minus 6 i plus 5 i
+
+41
+00:02:40,154 --> 00:02:44,164
+Negative 15 times negative 1 is positive 15
+
+42
+00:02:44,164 --> 00:02:46,985
+Now we can add the real parts
+
+43
+00:02:46,985 --> 00:02:50,492
+We have a 2 and we have a positive 15
+
+44
+00:02:50,492 --> 00:02:55,282
+So 2 plus 15, and we can add the imaginary parts
+
+45
+00:02:55,282 --> 00:03:00,867
+We have a negative 6, or negative 6 i I should say
+
+46
+00:03:00,867 --> 00:03:05,533
+and then we have plus 5 i. So plus 5 i
+
+47
+00:03:05,533 --> 00:03:09,348
+And 2 plus 15 is 17
+
+48
+00:03:09,348 --> 00:03:12,087
+And if I have negative 6 of something plus 5 of that something
+
+49
+00:03:12,087 --> 00:03:13,110
+What do I have?
+
+50
+00:03:13,110 --> 00:03:17,338
+Or if I have 5 of that something, and I take 6 of that something away,
+
+51
+00:03:17,338 --> 00:03:19,308
+then I have negative 1 of that something.
+
+52
+00:03:19,308 --> 00:03:22,533
+Negative 6 i plus 5 i is negative 1 i
+
+53
+00:03:22,533 --> 00:03:25,333
+Or I could just say minus i. So in this way
+
+54
+00:03:25,333 --> 00:03:27,462
+I just multiplied these two expressions
+
+55
+00:03:27,462 --> 00:03:29,462
+or these complex numbers, really
+
+56
+00:03:29,462 --> 00:03:32,600
+I multiplied them just using the distributive property twice.
+
+57
+00:03:32,600 --> 00:03:34,969
+You could also do it using FOIL.
+
+58
+00:03:34,969 --> 00:03:36,933
+And I'll do that right now really fast.
+
+59
+00:03:36,933 --> 00:03:40,467
+It is a little bit faster, but it's a little bit mechanical
+
+60
+00:03:40,467 --> 00:03:43,067
+So you might forget why you're doing it in the first place
+
+61
+00:03:43,067 --> 00:03:46,215
+But at the end of the day, you are doing the same thing here
+
+62
+00:03:46,215 --> 00:03:49,600
+You're essentially multiplying every term of this first number
+
+63
+00:03:49,600 --> 00:03:50,656
+or every part of this first number,
+
+64
+00:03:50,656 --> 00:03:52,871
+times every part of the second number.
+
+65
+00:03:52,871 --> 00:03:55,467
+And FOIL just makes sure that we're doing it.
+
+66
+00:03:55,467 --> 00:03:56,477
+Let me just write FOIL out here,
+
+67
+00:03:56,477 --> 00:03:59,467
+which I'm not a huge fan of, but I'll do it
+
+68
+00:03:59,467 --> 00:04:00,667
+just in case that's the way you're learning it.
+
+69
+00:04:00,667 --> 00:04:03,871
+So FOIL says let's do the first numbers, let's multiply the first numbers
+
+70
+00:04:03,871 --> 00:04:08,415
+so that's going to be the 1 times the 2. So 1 times the 2.
+
+71
+00:04:08,415 --> 00:04:11,200
+That is the "F" in FOIL.
+
+72
+00:04:11,200 --> 00:04:13,471
+Then it says, let's multiply the outer numbers
+
+73
+00:04:13,471 --> 00:04:16,395
+times each other, so that's 1 times 5 i.
+
+74
+00:04:16,425 --> 00:04:21,867
+So plus 1 times 5 i. This is the "O" in FOIL.
+
+75
+00:04:21,867 --> 00:04:25,333
+The outer numbers. Then we do the inners numbers.
+
+76
+00:04:25,333 --> 00:04:30,467
+Negative 3 i times 2. So this is negative 3 i times 2.
+
+77
+00:04:30,467 --> 00:04:32,308
+This is, those are the inner numbers.
+
+78
+00:04:32,308 --> 00:04:34,431
+And then we do the last numbers.
+
+79
+00:04:34,431 --> 00:04:39,431
+Negative 3 i times 5 i. So negative 3 i times 5 i.
+
+80
+00:04:39,431 --> 00:04:43,400
+These are the last numbers. That's all that FOIL is telling us.
+
+81
+00:04:43,400 --> 00:04:48,136
+It's just making sure we're multiplying every part of this number, times every part of that number.
+
+82
+00:04:48,136 --> 00:04:52,031
+And then when we simplify it: 1 times 2 is 2
+
+83
+00:04:52,031 --> 00:04:58,200
+1 times 5 i is 5 i. Negative 3 i times 2 is negative 6 i
+
+84
+00:04:58,200 --> 00:05:03,795
+And negative 3 i times 5 i, well we already figured out what that was,
+
+85
+00:05:03,795 --> 00:05:07,533
+negative 3 i times 5 i turns out to be 15.
+
+86
+00:05:07,533 --> 00:05:11,667
+Negative 3 times 5 is negative 15. But i times i is negative 1
+
+87
+00:05:11,667 --> 00:05:16,933
+negative 15 times negative 1 is positive 15.
+
+88
+00:05:16,933 --> 00:05:21,800
+Add to the real parts: 2 plus 15, you get 17
+
+89
+00:05:21,800 --> 00:05:28,071
+Add to the imaginary parts: you have 5 i minus 6 i. You get negative i
+
+90
+00:05:28,071 --> 99:59:59,999
+And once again, you get the exact same answer.

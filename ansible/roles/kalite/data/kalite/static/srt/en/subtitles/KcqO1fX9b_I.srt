@@ -1,0 +1,459 @@
+1
+00:00:00,518 --> 00:00:02,439
+Let's do a few more examples of finding
+
+2
+00:00:02,439 --> 00:00:04,369
+the limit of functions as x approaches
+
+3
+00:00:04,369 --> 00:00:06,670
+infinity or negative infinity.
+
+4
+00:00:06,670 --> 00:00:08,770
+So here I have this crazy function,
+
+5
+00:00:08,770 --> 00:00:16,861
+[reads function]
+
+6
+00:00:16,861 --> 00:00:19,260
+So what's going to happen as x
+
+7
+00:00:19,260 --> 00:00:20,861
+approaches infinity?
+
+8
+00:00:20,861 --> 00:00:22,011
+And the key here, like we've seen
+
+9
+00:00:22,011 --> 00:00:24,091
+in other examples, is just to realize
+
+10
+00:00:24,091 --> 00:00:26,421
+which terms will dominate.
+
+11
+00:00:26,421 --> 00:00:28,041
+So for example, in the numerator,
+
+12
+00:00:28,041 --> 00:00:29,372
+out of these three terms,
+
+13
+00:00:29,372 --> 00:00:31,983
+the 9x^7 is going to grow much faster
+
+14
+00:00:31,983 --> 00:00:34,442
+than any of these other terms,
+
+15
+00:00:34,442 --> 00:00:37,643
+so this is the dominating term
+
+16
+00:00:37,643 --> 00:00:40,014
+in the numerator, and in the denominator,
+
+17
+00:00:40,014 --> 00:00:43,277
+3x^7 is going to grow much faster than an x^5 term,
+
+18
+00:00:43,354 --> 00:00:44,771
+and definitely much faster
+
+19
+00:00:44,817 --> 00:00:47,174
+than a log base 2 term.
+
+20
+00:00:47,174 --> 00:00:49,914
+So at infinity, as we get closer and closer to infinity,
+
+21
+00:00:49,914 --> 00:00:53,388
+this function is going to be roughly equal to
+
+22
+00:00:53,449 --> 00:00:58,927
+9x^7 over 3x^7, and so we can say,
+
+23
+00:00:59,082 --> 00:01:01,199
+especially since as we get larger and larger,
+
+24
+00:01:01,292 --> 00:01:03,220
+as we get closer and closer to infinity,
+
+25
+00:01:03,266 --> 00:01:04,868
+these two things are going to get
+
+26
+00:01:04,915 --> 00:01:06,346
+closer and closer to each other,
+
+27
+00:01:06,376 --> 00:01:07,851
+we can say this limit is going to be
+
+28
+00:01:07,851 --> 00:01:10,660
+the same thing as this limit,
+
+29
+00:01:10,660 --> 00:01:12,410
+which is going to be equal to
+
+30
+00:01:12,410 --> 00:01:15,372
+the limit as x approaches infinity -
+
+31
+00:01:15,372 --> 00:01:17,501
+well, we can just cancel out the x^7's,
+
+32
+00:01:17,501 --> 00:01:20,441
+so it's going to be 9/3, or just 3,
+
+33
+00:01:20,441 --> 00:01:22,251
+which is just going to be 3.
+
+34
+00:01:22,251 --> 00:01:24,913
+So that is our limit as x approaches infinity
+
+35
+00:01:24,913 --> 00:01:26,911
+of all of this craziness.
+
+36
+00:01:26,911 --> 00:01:28,332
+Now let's do the same with this function
+
+37
+00:01:28,332 --> 00:01:30,253
+over here. Once again crazy function,
+
+38
+00:01:30,253 --> 00:01:31,503
+we're going to negative infinity,
+
+39
+00:01:31,503 --> 00:01:33,083
+but the same principles apply.
+
+40
+00:01:33,083 --> 00:01:36,413
+Which terms dominate as the absolute value
+
+41
+00:01:36,413 --> 00:01:37,944
+of x gets larger and larger and larger,
+
+42
+00:01:37,994 --> 00:01:40,117
+as x gets larger in magnitude.
+
+43
+00:01:40,836 --> 00:01:40,837
+Well in the numerator, it's the 3x^3 term,
+
+44
+00:01:43,443 --> 00:01:43,443
+in the denominator it's the 6x^4 term,
+
+45
+00:01:49,630 --> 00:01:49,630
+so this is going to be the same thing as
+
+46
+00:01:49,630 --> 00:01:49,631
+the limit of 3x^3 over 6x^4
+
+47
+00:01:49,631 --> 00:01:55,665
+as x approaches negative infinity.
+
+48
+00:01:55,665 --> 00:01:58,374
+And if we simplify this, this is going to be equal to
+
+49
+00:01:58,374 --> 00:02:01,504
+the limit as x approaches negative infinity
+
+50
+00:02:01,504 --> 00:02:05,507
+of 1 over 2x.
+
+51
+00:02:05,507 --> 00:02:07,506
+And what's this going to be?
+
+52
+00:02:07,506 --> 00:02:09,917
+Well if the denominator, even though it's
+
+53
+00:02:09,917 --> 00:02:12,376
+becoming a larger and larger negative number,
+
+54
+00:02:12,376 --> 00:02:13,777
+it becomes one over
+
+55
+00:02:13,777 --> 00:02:16,417
+a very, very large negative number,
+
+56
+00:02:16,417 --> 00:02:18,057
+which is going to get us pretty darn close
+
+57
+00:02:18,057 --> 00:02:20,437
+to zero, just as one over x as
+
+58
+00:02:20,437 --> 00:02:23,439
+x approaches negative infinity gets us close to zero.
+
+59
+00:02:23,439 --> 00:02:24,908
+So this right over here,
+
+60
+00:02:24,908 --> 00:02:26,307
+the horizontal asymptote in this case
+
+61
+00:02:26,307 --> 00:02:28,857
+is y is equal to 0,
+
+62
+00:02:28,857 --> 00:02:29,998
+and I encourage you to graph it,
+
+63
+00:02:29,998 --> 00:02:32,709
+or try it out with numbers to verify that for yourself.
+
+64
+00:02:32,709 --> 00:02:34,768
+The key realization here is to
+
+65
+00:02:34,768 --> 00:02:37,079
+simplify the problem by just thinking
+
+66
+00:02:37,079 --> 00:02:38,439
+about which terms are going to
+
+67
+00:02:38,439 --> 00:02:42,109
+dominate the rest.
+
+68
+00:02:42,109 --> 00:02:43,450
+Now let's think about this one.
+
+69
+00:02:43,450 --> 00:02:45,171
+What is the limit of this crazy function
+
+70
+00:02:45,171 --> 00:02:47,501
+as x approaches infinity?
+
+71
+00:02:47,501 --> 00:02:49,851
+Well once again, what are the dominating terms?
+
+72
+00:02:49,851 --> 00:02:51,250
+In the numerator it's 4x^4,
+
+73
+00:02:51,250 --> 00:02:54,501
+in the denominator it's 250x^3,
+
+74
+00:02:54,501 --> 00:02:56,171
+these are the highest degree terms.
+
+75
+00:02:56,171 --> 00:02:57,850
+So this is going to be the same thing
+
+76
+00:02:57,850 --> 00:03:00,300
+as the limit as x approaches infinity
+
+77
+00:03:00,300 --> 00:03:09,052
+of 4x^4 over 250x^3,
+
+78
+00:03:09,052 --> 00:03:11,252
+which is going to be the same thing as
+
+79
+00:03:11,252 --> 00:03:13,002
+the limit of - let's see -
+
+80
+00:03:13,002 --> 00:03:15,102
+4 - well I could just - this is
+
+81
+00:03:15,102 --> 00:03:16,912
+going to be the same thing as -
+
+82
+00:03:16,912 --> 00:03:18,504
+well we could just divide 250 - well
+
+83
+00:03:18,504 --> 00:03:20,104
+I'll just leave it like this.
+
+84
+00:03:20,104 --> 00:03:23,054
+It's going to be the limit of 4 over 250
+
+85
+00:03:23,054 --> 00:03:24,974
+- x^4 divided by x^3 is just x -
+
+86
+00:03:24,974 --> 00:03:26,913
+times x, as x approaches infinity.
+
+87
+00:03:26,913 --> 00:03:31,914
+Or, we could even say this is going to be 4/250
+
+88
+00:03:31,914 --> 00:03:40,175
+times the limit as x approaches infinity of x.
+
+89
+00:03:40,175 --> 00:03:41,306
+Now what's this?
+
+90
+00:03:41,306 --> 00:03:43,335
+What's the limit of x as x approaches infinity?
+
+91
+00:03:43,335 --> 00:03:45,705
+Well it's just going to keep growing forever,
+
+92
+00:03:45,705 --> 00:03:46,975
+so this is just going to be -
+
+93
+00:03:46,975 --> 00:03:47,915
+this right over here is just going to be
+
+94
+00:03:47,915 --> 00:03:49,915
+infinity, and infinity times some number
+
+95
+00:03:49,915 --> 00:03:51,577
+right over here is going to be infinity,
+
+96
+00:03:51,577 --> 00:03:53,778
+so the limit as x approaches infinity
+
+97
+00:03:53,778 --> 00:03:55,336
+of all of this is actually unbounded.
+
+98
+00:03:55,336 --> 00:03:57,707
+It's infinity.
+
+99
+00:03:57,707 --> 00:03:58,977
+And a kind of obvious way
+
+100
+00:03:58,977 --> 00:04:00,376
+of seeing that right from the get-go
+
+101
+00:04:00,376 --> 00:04:02,768
+is to realize that the numerator
+
+102
+00:04:02,768 --> 00:04:04,768
+has a fourth degree term,
+
+103
+00:04:04,768 --> 00:04:06,419
+while the highest degree term in the denominator
+
+104
+00:04:06,419 --> 00:04:07,918
+is only a third degree term.
+
+105
+00:04:07,918 --> 00:04:09,437
+So the numerator is going to grow
+
+106
+00:04:09,437 --> 00:04:11,338
+far faster than the denominator.
+
+107
+00:04:11,338 --> 00:04:13,368
+So if the numerator is growing far faster
+
+108
+00:04:13,368 --> 00:04:15,669
+than the denomiator,
+
+109
+00:04:15,669 --> 00:04:17,979
+you're going to approach infinity in this case.
+
+110
+00:04:17,979 --> 00:04:22,236
+If the numerator is growing far slower
+
+111
+00:04:22,236 --> 00:04:23,946
+than the denominator,
+
+112
+00:04:23,946 --> 00:04:25,617
+if the denominator is growing far faster
+
+113
+00:04:25,617 --> 00:04:27,237
+than the numerator, like this case,
+
+114
+00:04:27,237 --> 00:04:29,837
+you are then approaching zero.
+
+115
+00:04:29,837 --> 99:59:59,999
+So hopefully you find that a little bit useful.

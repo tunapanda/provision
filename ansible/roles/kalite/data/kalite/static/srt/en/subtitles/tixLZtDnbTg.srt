@@ -1,0 +1,879 @@
+1
+00:00:00,040 --> 00:00:03,050
+We're on problem 240.
+
+2
+00:00:04,020 --> 00:00:09,800
+Seed mixture x is 40% rye grass and 60% bluegrass.
+
+3
+00:00:09,800 --> 00:00:17,020
+Let's see, x is 40% rye grass and 60% bluegrass.
+
+4
+00:00:17,020 --> 00:00:18,000
+Fair enough.
+
+5
+00:00:18,300 --> 00:00:23,440
+Seed mixture y is 25% rye grass--
+
+6
+00:00:23,450 --> 00:00:31,120
+so it's 0.25 rye grass-- and 75% fescue.
+
+7
+00:00:31,460 --> 00:00:33,950
+So I should look up what that is.
+
+8
+00:00:33,950 --> 00:00:35,750
+75% fescue.
+
+9
+00:00:35,950 --> 00:00:40,510
+If a mixture of x and y contain 30% rye grass,
+
+10
+00:00:40,510 --> 00:00:44,060
+what percent of the weight of the mixture is x?
+
+11
+00:00:44,860 --> 00:00:46,240
+OK. Well, let's say that
+
+12
+00:00:46,240 --> 00:00:54,700
+A is equal to the percent of weight of mixture that is x,
+
+13
+00:00:54,700 --> 00:00:56,020
+what they're asking for.
+
+14
+00:00:56,320 --> 00:01:02,810
+So how much rye grass-- what percentage of that mixture
+
+15
+00:01:02,810 --> 00:01:05,040
+will be rye grass that comes from x?
+
+16
+00:01:05,340 --> 00:01:10,260
+Well, we have A%, or you know, we could call that--
+
+17
+00:01:10,260 --> 00:01:14,770
+A is, fraction A of the mixture is from x.
+
+18
+00:01:15,070 --> 00:01:17,040
+And then x is 40% rye grass.
+
+19
+00:01:17,040 --> 00:01:19,050
+So if we multiply the amount that
+
+20
+00:01:19,050 --> 00:01:23,520
+we're getting from x times 40%, times 0.4,
+
+21
+00:01:23,520 --> 00:01:26,550
+this'll tell us the amount of rye grass from x.
+
+22
+00:01:26,550 --> 00:01:30,600
+So r from x, or the proportion of rye grass from x.
+
+23
+00:01:30,860 --> 00:01:33,310
+And now, how much rye grass are we going to get from y?
+
+24
+00:01:33,710 --> 00:01:35,850
+So first of all, what's our proportion of y?
+
+25
+00:01:35,850 --> 00:01:43,040
+If this mixture is A of x, there's going to be 1 minus A of y
+
+26
+00:01:44,840 --> 00:01:48,360
+If this is 1/4, this is going to be 3/4, right?
+
+27
+00:01:48,360 --> 00:01:49,030
+Makes sense.
+
+28
+00:01:49,030 --> 00:01:53,020
+So this is how much y we have, and y is 25% rye grass.
+
+29
+00:01:53,420 --> 00:01:57,910
+So our rye grass from y will be the amount of y
+
+30
+00:01:57,910 --> 00:02:01,510
+we have times how much y is rye grass.
+
+31
+00:02:01,910 --> 00:02:05,670
+So this is rye grass from y.
+
+32
+00:02:05,670 --> 00:02:09,770
+And they tell us that this is equal to a mixture.
+
+33
+00:02:09,770 --> 00:02:12,340
+The mixture should have 30% rye grass.
+
+34
+00:02:12,340 --> 00:02:14,030
+So let's just solve for A.
+
+35
+00:02:14,030 --> 00:02:19,240
+We get 0.4 times A plus-- let's see, multiply--
+
+36
+00:02:19,480 --> 00:02:24,710
+0.25 minus 0.25A-- just distributed the 0.25--
+
+37
+00:02:24,940 --> 00:02:30,050
+is equal to 0.30. 0.4A minus 0.25A--
+
+38
+00:02:30,050 --> 00:02:34,050
+40 minus 25-- that's 0.15A.
+
+39
+00:02:34,450 --> 00:02:39,020
+And then subtract 0.25 from both sides, is equal to 0.05.
+
+40
+00:02:39,320 --> 00:02:44,290
+So A is equal to 0.05 divided by 0.15,
+
+41
+00:02:44,290 --> 00:02:46,540
+is the same thing as 5 over 15,
+
+42
+00:02:46,540 --> 00:02:48,600
+which is equal to 1/3,
+
+43
+00:02:48,600 --> 00:02:56,060
+which is equal to 33 and 1/3%, Which is choice B.
+
+44
+00:02:57,030 --> 00:02:59,140
+Next problem.
+
+45
+00:03:00,020 --> 00:03:02,250
+Problem 241.
+
+46
+00:03:03,020 --> 00:03:06,790
+If the integer n has exactly three positive divisors,
+
+47
+00:03:06,790 --> 00:03:09,840
+including 1 and n-- so it's divisors are, I don't know,
+
+48
+00:03:09,840 --> 00:03:12,590
+1, some number, and n--
+
+49
+00:03:13,190 --> 00:03:16,320
+how many positive divisors does n squared have?
+
+50
+00:03:16,320 --> 00:03:19,390
+So one thing, I don't know if you've ever thought about this,
+
+51
+00:03:19,390 --> 00:03:23,210
+but how can any number have an odd number of divisors? Right?
+
+52
+00:03:23,210 --> 00:03:25,230
+Because normally, if you take a number,
+
+53
+00:03:25,830 --> 00:03:28,590
+let's take the number 6ŁŹand you shouldn't do this on the GMAT
+
+54
+00:03:28,590 --> 00:03:29,520
+it's a waste of time.
+
+55
+00:03:29,520 --> 00:03:33,180
+But its divisors are 1 times 6, or 2 times 3.
+
+56
+00:03:33,180 --> 00:03:36,000
+So every divisor tends to have a corresponding divisor.
+
+57
+00:03:36,000 --> 00:03:38,000
+So how can you have an odd number of divisors?
+
+58
+00:03:38,000 --> 00:03:38,630
+Well,
+
+59
+00:03:38,630 --> 00:03:43,000
+only if one of the divisor's corresponding divisors is itself
+
+60
+00:03:43,000 --> 00:03:47,030
+If it's 1 times n, and x times x,
+
+61
+00:03:47,730 --> 00:03:51,270
+which implies that if you have an odd number of divisors,
+
+62
+00:03:51,270 --> 00:03:52,750
+you're dealing with a perfect square.
+
+63
+00:03:52,750 --> 00:03:54,770
+Anyway, I just wanted to point that out.
+
+64
+00:03:54,770 --> 00:03:56,730
+But that's actually not that relevant to that problem.
+
+65
+00:03:56,730 --> 00:04:01,030
+It's just something, you know, it is useful sometimes.
+
+66
+00:04:01,030 --> 00:04:02,080
+But anyway.
+
+67
+00:04:02,080 --> 00:04:04,680
+They just want to know how many divisors n squared has.
+
+68
+00:04:04,680 --> 00:04:06,330
+Let's just find a number that has this property.
+
+69
+00:04:06,330 --> 00:04:07,890
+Well, we know any perfect square--
+
+70
+00:04:07,890 --> 00:04:10,620
+well, a small perfect square will have this property.
+
+71
+00:04:10,620 --> 00:04:12,050
+So let's see.
+
+72
+00:04:12,050 --> 00:04:14,610
+Number 4, it has its property.
+
+73
+00:04:14,610 --> 00:04:16,540
+It's factors are 1, 2, and 4.
+
+74
+00:04:17,260 --> 00:04:20,020
+So how many factors does 4 squared have?
+
+75
+00:04:20,320 --> 00:04:21,640
+Well, 4 squared is 16.
+
+76
+00:04:21,640 --> 00:04:27,020
+Its factors are 1 and 16, 2 and 8, and 4 and 4.
+
+77
+00:04:27,020 --> 00:04:31,080
+So it has five factors, and that is choice B.
+
+78
+00:04:31,580 --> 00:04:33,530
+And you could do it mathematically.
+
+79
+00:04:33,530 --> 00:04:34,750
+You could say all the combinations of
+
+80
+00:04:34,750 --> 00:04:39,010
+when I multiply all the factors of this times itself,
+
+81
+00:04:39,010 --> 00:04:40,300
+and you could say, oh, they have five combinations.
+
+82
+00:04:40,300 --> 00:04:42,360
+But in this case, it's just way easier to think of,
+
+83
+00:04:42,360 --> 00:04:43,950
+OK, let me think of a small perfect square
+
+84
+00:04:43,950 --> 00:04:44,990
+that's going to have three factors.
+
+85
+00:04:44,990 --> 00:04:46,120
+A perfect square just tells you
+
+86
+00:04:46,120 --> 00:04:47,260
+it has an odd number of factors,
+
+87
+00:04:47,260 --> 00:04:48,490
+but a small one will have three.
+
+88
+00:04:48,690 --> 00:04:50,940
+And let me just square it and just count its factors.
+
+89
+00:04:50,940 --> 00:04:52,710
+Fastest way to do that problem, I think.
+
+90
+00:04:52,710 --> 00:04:55,500
+Unless there is-- I don't know, maybe there is a faster one.
+
+91
+00:04:55,500 --> 00:04:57,830
+242.
+
+92
+00:04:58,740 --> 00:05:04,930
+If n is a positive integer, then n times n plus 1,
+
+93
+00:05:04,930 --> 00:05:09,980
+times n plus 2 is-- OK, they have a bunch of things.
+
+94
+00:05:09,980 --> 00:05:12,110
+What happens when n-- let's see, even when n is even,
+
+95
+00:05:12,110 --> 00:05:14,560
+the even only one is odd, only one is odd.
+
+96
+00:05:14,680 --> 00:05:16,980
+OK, so they want us to see what happens when n is even or odd
+
+97
+00:05:16,980 --> 00:05:19,190
+So let's see what happens when n is even.
+
+98
+00:05:19,190 --> 00:05:20,270
+Let's say that n--
+
+99
+00:05:20,270 --> 00:05:24,850
+if n is even, that means it's equal to 2 times some integer k
+
+100
+00:05:24,850 --> 00:05:27,010
+We don't know, some positive integer k.
+
+101
+00:05:27,010 --> 00:05:28,290
+So let's substitute that in.
+
+102
+00:05:28,290 --> 00:05:34,040
+So then this breaks down to 2k times 2k plus 1,
+
+103
+00:05:34,040 --> 00:05:38,030
+times 2k plus 2.
+
+104
+00:05:38,030 --> 00:05:39,290
+Interesting.
+
+105
+00:05:39,290 --> 00:05:40,350
+And let's see,
+
+106
+00:05:41,990 --> 00:05:44,750
+it looks like this is saying that e should be-- right.
+
+107
+00:05:44,750 --> 00:05:46,510
+Because let's see, we could factor 2 out of this one.
+
+108
+00:05:46,510 --> 00:05:55,050
+So this becomes 2k times 2k plus 1, times 2, times k plus 1.
+
+109
+00:05:55,050 --> 00:05:55,780
+Right?
+
+110
+00:05:55,780 --> 00:05:57,030
+I just factored the 2 out of there.
+
+111
+00:05:57,030 --> 00:05:58,830
+And let's multiply these two.
+
+112
+00:05:58,830 --> 00:06:05,090
+So you get 4k times 2k plus 1, times k plus 1.
+
+113
+00:06:05,890 --> 00:06:07,590
+So this one is divisible by 4.
+
+114
+00:06:07,590 --> 00:06:09,000
+And I just glanced at statement e,
+
+115
+00:06:09,000 --> 00:06:12,010
+they talk about divisibility by 4, so I think we're done.
+
+116
+00:06:12,310 --> 00:06:16,730
+This simplifies to this if we can assume that n is even.
+
+117
+00:06:16,730 --> 00:06:20,530
+So if n is even, then we are definitely divisible by 4.
+
+118
+00:06:20,530 --> 00:06:23,420
+4 can definitely go into the number evenly.
+
+119
+00:06:23,420 --> 00:06:25,470
+So statement E is right.
+
+120
+00:06:25,470 --> 00:06:27,930
+Divisible by 4 when n is even.
+
+121
+00:06:28,040 --> 00:06:29,830
+Statement E.
+
+122
+00:06:31,440 --> 00:06:32,220
+Next problem.
+
+123
+00:06:32,220 --> 00:06:37,010
+We're on the last page, 243.
+
+124
+00:06:37,010 --> 00:06:40,710
+A straight pipe 1 yard in length was marked off
+
+125
+00:06:40,710 --> 00:06:43,090
+in fourths and also in thirds.
+
+126
+00:06:43,990 --> 00:06:47,010
+Maybe I'll give some dimensionality to our straight pipe.
+
+127
+00:06:47,010 --> 00:06:49,850
+So let's say the pipe looks something like that.
+
+128
+00:06:49,850 --> 00:06:51,400
+It's a straight pipe, and it was marked off
+
+129
+00:06:51,400 --> 00:06:52,600
+in fourths and thirds.
+
+130
+00:06:52,600 --> 00:06:55,240
+So if I mark it off in fourths, let's see, that's the middle,
+
+131
+00:06:55,340 --> 00:06:58,360
+and that's a fourth, and that's another fourth, roughly.
+
+132
+00:06:58,360 --> 00:07:03,010
+And if I mark it off in thirds, it looks something like this.
+
+133
+00:07:03,010 --> 00:07:04,000
+Right?
+
+134
+00:07:04,000 --> 00:07:05,070
+All right.
+
+135
+00:07:05,070 --> 00:07:08,330
+If the pipe was then cut into separate pieces
+
+136
+00:07:08,330 --> 00:07:11,900
+at each of these markings, which of the following gives
+
+137
+00:07:11,900 --> 00:07:15,670
+all the different lengths of the pieces in fraction of a yard?
+
+138
+00:07:15,670 --> 00:07:17,020
+Fascinating.
+
+139
+00:07:17,020 --> 00:07:20,490
+OK, so we're going to cut it, actually, at here, and here,
+
+140
+00:07:20,490 --> 00:07:22,990
+and here, and here, and at here.
+
+141
+00:07:23,290 --> 00:07:24,580
+And actually, if we go halfway,
+
+142
+00:07:24,580 --> 00:07:26,120
+then we can just use symmetry to say,
+
+143
+00:07:26,120 --> 00:07:28,920
+OK, this piece is going to be the same as this piece,
+
+144
+00:07:28,920 --> 00:07:31,210
+and this piece is going to be the same as this piece,
+
+145
+00:07:31,210 --> 00:07:33,000
+and that piece is going to be the same as that piece.
+
+146
+00:07:33,000 --> 00:07:33,990
+So we really just have to
+
+147
+00:07:33,990 --> 00:07:36,030
+figure out up until the halfway point.
+
+148
+00:07:36,030 --> 00:07:38,000
+So let's think about it.
+
+149
+00:07:38,000 --> 00:07:41,980
+So this whole thing is 1 yard, so this distance right here,
+
+150
+00:07:41,980 --> 00:07:44,490
+that distance right here is 1/4.
+
+151
+00:07:46,100 --> 00:07:47,690
+That distance is 1/4.
+
+152
+00:07:48,260 --> 00:07:50,950
+We know that this whole distance is 1/3.
+
+153
+00:07:50,950 --> 00:07:52,040
+This distance is 1/4,
+
+154
+00:07:52,040 --> 00:07:54,940
+so this distance right here is going to be 1/3,
+
+155
+00:07:54,940 --> 00:07:57,520
+because that's 1/3, minus 1/4.
+
+156
+00:08:00,030 --> 00:08:01,830
+Common denominator over 12.
+
+157
+00:08:01,830 --> 00:08:07,630
+1/3 is 4/12, minus 3/12 is equal to 1/12.
+
+158
+00:08:07,990 --> 00:08:11,020
+So this distance is going to be 1/12.
+
+159
+00:08:11,420 --> 00:08:15,030
+And then what's going to be this length?
+
+160
+00:08:15,730 --> 00:08:16,500
+Let me get a different color.
+
+161
+00:08:16,500 --> 00:08:18,050
+I want to make sure that you see that 1/12.
+
+162
+00:08:18,350 --> 00:08:22,930
+Well, this distance is 1/2, and this distance is 1/3,
+
+163
+00:08:22,930 --> 00:08:26,160
+so it's going to be 1/2 minus 1/3
+
+164
+00:08:26,160 --> 00:08:27,960
+is equal to common denominator of 6,
+
+165
+00:08:27,960 --> 00:08:32,020
+is equal to 3/6 minus 2/6, is equal to 1/6.
+
+166
+00:08:32,020 --> 00:08:34,000
+So this piece is 1/4.
+
+167
+00:08:34,000 --> 00:08:36,000
+This piece is 1/12.
+
+168
+00:08:36,000 --> 00:08:37,990
+This piece is 1/6.
+
+169
+00:08:37,990 --> 00:08:38,930
+And then you could just say,
+
+170
+00:08:38,930 --> 00:08:40,690
+Well, it's going to happen the same thing on the other side.
+
+171
+00:08:40,690 --> 00:08:46,050
+This is 1/6, 1/12, and then this is 1/4.
+
+172
+00:08:46,350 --> 00:08:51,060
+And so if I say-- let's see, 1/6, 1/12, and 1/4.
+
+173
+00:08:51,360 --> 00:08:53,640
+Right, that is choice D.
+
+174
+00:08:53,640 --> 00:08:56,380
+1/6, 1/12, and 1/4.
+
+175
+00:08:56,380 --> 00:08:57,070
+Choice D.
+
+176
+00:08:57,070 --> 00:09:01,050
+Those are the different piece sizes we have.
+
+177
+00:09:01,450 --> 00:09:09,100
+Problem 245. 245.
+
+178
+00:09:09,100 --> 00:09:25,060
+If 0.0015 times 10 to the m, over 0.03 times 10 to the k,
+
+179
+00:09:25,660 --> 00:09:34,210
+is equal to 5 times 10 to the seventh,
+
+180
+00:09:34,210 --> 00:09:38,020
+then what does m minus k equal to?
+
+181
+00:09:38,020 --> 00:09:39,110
+And that's important to read,
+
+182
+00:09:39,110 --> 00:09:40,970
+I was about to solve-- m minus k.
+
+183
+00:09:40,970 --> 00:09:44,590
+So they want to know what m minus k.
+
+184
+00:09:44,790 --> 00:09:46,580
+So if we immediately divide these,
+
+185
+00:09:46,580 --> 00:09:48,560
+we should be able to come up with something interesting.
+
+186
+00:09:48,860 --> 00:09:56,580
+Because this is the same thing as 0.0015/0.03
+
+187
+00:09:56,580 --> 00:09:59,840
+times 10 to the m divided by 10 to the k.
+
+188
+00:09:59,840 --> 00:10:04,350
+Well, that's just times 10 to the m minus k,
+
+189
+00:10:04,350 --> 00:10:09,040
+is equal to 5 times 10 to the seventh.
+
+190
+00:10:09,240 --> 00:10:14,180
+And I don't know, let's see if we can do anything interesting
+
+191
+00:10:14,180 --> 00:10:15,670
+to this decimal number.
+
+192
+00:10:15,970 --> 00:10:18,010
+Let's see, if we were to-- let's just divide it.
+
+193
+00:10:18,310 --> 00:10:21,980
+So if we just say 0.03, instead of multiplying by 10
+
+194
+00:10:21,980 --> 00:10:26,670
+and doing-- going into 0.0015.
+
+195
+00:10:26,670 --> 00:10:28,220
+Let's add some 0's.
+
+196
+00:10:28,220 --> 00:10:31,930
+OK. If we take this decimal two to the right,
+
+197
+00:10:31,930 --> 00:10:33,900
+we're going to take this decimal two to the right.
+
+198
+00:10:35,320 --> 00:10:38,220
+So then we get 3 goes into 1 zero times,
+
+199
+00:10:38,520 --> 00:10:40,980
+3 goes into 15 five times.
+
+200
+00:10:40,980 --> 00:10:42,490
+So we get 0.05.
+
+201
+00:10:42,890 --> 00:10:44,690
+So this whole thing simplifies to--
+
+202
+00:10:44,690 --> 00:10:46,620
+and I'll write it in magenta--
+
+203
+00:10:46,620 --> 00:10:54,630
+so that simplifies to 0.05 times 10 to the m minus k,
+
+204
+00:10:54,630 --> 00:11:00,050
+is equal to 5 times 10 to the seventh.
+
+205
+00:11:00,450 --> 00:11:04,080
+So let's divide both sides by this 0.05.
+
+206
+00:11:04,880 --> 00:11:08,650
+What is 0.05 goes into 5?
+
+207
+00:11:08,650 --> 00:11:10,560
+Let's add some decimal points here.
+
+208
+00:11:11,030 --> 00:11:13,270
+So if I push this to the right two,
+
+209
+00:11:13,270 --> 00:11:14,530
+I push this to the right two,
+
+210
+00:11:14,530 --> 00:11:16,020
+and this is my new decimal point.
+
+211
+00:11:16,020 --> 00:11:18,190
+So 5 goes into 5--
+
+212
+00:11:18,190 --> 00:11:22,000
+well, 5 goes into 5 one time, so it's 100. Right?
+
+213
+00:11:22,000 --> 00:11:24,860
+So 5 divided by 0.05 is 100.
+
+214
+00:11:24,860 --> 00:11:30,820
+So we get 10 to the m minus k, is equal to 100--
+
+215
+00:11:31,190 --> 00:11:33,620
+what's 100? That's the same thing as 10 squared.
+
+216
+00:11:33,820 --> 00:11:35,560
+Times 10 to the 7th.
+
+217
+00:11:35,560 --> 00:11:41,630
+So 10 to the m minus k is equal to 10 to the ninth.
+
+218
+00:11:41,630 --> 00:11:45,050
+So m minus k must be equal to 9.
+
+219
+00:11:45,350 --> 00:11:47,020
+And that is choice A.
+
+220
+00:11:47,320 --> 00:11:49,030
+See you in the next video.

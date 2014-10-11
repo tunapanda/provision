@@ -1,0 +1,103 @@
+1
+00:00:00,603 --> 00:00:05,007
+PROBLEM: Construct a line perpendicular to the given line.
+
+2
+00:00:05,007 --> 00:00:08,341
+So, if I can pick two arbitrary points on this line –
+
+3
+00:00:08,341 --> 00:00:10,650
+and if I can make a line that is always
+
+4
+00:00:10,650 --> 00:00:12,913
+equidistant from those two points,
+
+5
+00:00:12,913 --> 00:00:14,561
+then that line will be perpendicular –
+
+6
+00:00:14,576 --> 00:00:16,580
+– and actually it will be a perpendicular bisector
+
+7
+00:00:16,580 --> 00:00:18,947
+of the segment formed by those two points.
+
+8
+00:00:18,947 --> 00:00:21,527
+Now they don't care whether we're bisecting anything.
+
+9
+00:00:21,527 --> 00:00:23,309
+But they do care about it being perpendicular.
+
+10
+00:00:23,309 --> 00:00:24,492
+So let's do this.
+
+11
+00:00:24,492 --> 00:00:27,603
+So I'm going to draw a circle with my compass.
+
+12
+00:00:27,603 --> 00:00:30,727
+And so let's just pick that point right over there.
+
+13
+00:00:30,727 --> 00:00:33,230
+I can adjust the radius if I like.
+
+14
+00:00:33,230 --> 00:00:34,402
+But I might as well –
+
+15
+00:00:34,402 --> 00:00:35,933
+Well, I'll just leave it right over there.
+
+16
+00:00:35,933 --> 00:00:37,311
+Now let me draw another circle.
+
+17
+00:00:37,311 --> 00:00:39,515
+And this time, I'm going to center it where
+
+18
+00:00:39,515 --> 00:00:43,562
+the first circle intersects with my line.
+
+19
+00:00:43,562 --> 00:00:45,084
+And then I'm going to adjust the radius
+
+20
+00:00:45,084 --> 00:00:49,949
+to overlap with the first dot.
+
+21
+00:00:49,949 --> 00:00:52,519
+And now, where these two circles intersect,
+
+22
+00:00:52,519 --> 00:00:54,515
+those are points that are equidistant
+
+23
+00:00:54,515 --> 00:00:59,783
+from both of these centers that I just constructed.
+
+24
+00:00:59,783 --> 00:01:02,794
+So let me draw a line that connects those two.
+
+25
+00:01:02,794 --> 00:01:05,512
+And that line is going to be perpendicular
+
+26
+00:01:05,512 --> 00:01:08,786
+to our original line.

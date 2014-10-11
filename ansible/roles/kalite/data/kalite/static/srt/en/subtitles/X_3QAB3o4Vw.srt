@@ -1,0 +1,575 @@
+1
+00:00:00,929 --> 00:00:02,267
+In the last video we learned that there are
+
+2
+00:00:02,267 --> 00:00:06,277
+a class of stars called Cepheid variables.
+
+3
+00:00:06,277 --> 00:00:07,867
+And these are these super-giant stars,
+
+4
+00:00:07,867 --> 00:00:10,600
+as much as thirty thousand times as bright as the sun,
+
+5
+00:00:10,600 --> 00:00:14,420
+with a mass as much as twenty times the mass of the sun.
+
+6
+00:00:14,420 --> 00:00:16,000
+And what's neat about them is
+
+7
+00:00:16,000 --> 00:00:17,670
+one, because they're so large and so bright
+
+8
+00:00:17,670 --> 00:00:19,760
+you can see them really, really far away.
+
+9
+00:00:19,760 --> 00:00:21,502
+And what's even neater about them is
+
+10
+00:00:21,502 --> 00:00:23,684
+that they're variable, that they pulsate.
+
+11
+00:00:23,684 --> 00:00:27,748
+And because their pulsations are related to their actual luminosity,
+
+12
+00:00:27,748 --> 00:00:31,765
+you know, if you see a Cepheid variable star in some distant galaxy,
+
+13
+00:00:31,765 --> 00:00:34,800
+you know what it's luminosity actually is
+
+14
+00:00:34,800 --> 00:00:36,867
+if you were kind of at the star.
+
+15
+00:00:36,867 --> 00:00:41,099
+Because you can see its period of pulsation.
+
+16
+00:00:41,099 --> 00:00:42,934
+And so if you know its actual luminosity
+
+17
+00:00:42,934 --> 00:00:45,267
+and then you know, obviously, its apparent luminosity,
+
+18
+00:00:45,267 --> 00:00:47,333
+you know how much it's gotten dim.
+
+19
+00:00:47,333 --> 00:00:50,133
+And the more dim it's gotten from it's actual state,
+
+20
+00:00:50,133 --> 00:00:51,850
+you know the farther away it is.
+
+21
+00:00:51,850 --> 00:00:53,067
+So that's the actual value of them.
+
+22
+00:00:53,067 --> 00:00:55,000
+What I want to do in this video
+
+23
+00:00:55,000 --> 00:00:57,733
+is to try to explain why they're variable,
+
+24
+00:00:57,733 --> 00:00:59,867
+why they pulsate.
+
+25
+00:00:59,867 --> 00:01:03,759
+And to do that, what we're going to think about is
+
+26
+00:01:03,759 --> 00:01:08,081
+doubly and singly ionized heliums.
+
+27
+00:01:08,081 --> 00:01:09,533
+And just to review helium.
+
+28
+00:01:09,533 --> 00:01:13,004
+So neutral helium (let me draw neutral helium) . . .
+
+29
+00:01:13,004 --> 00:01:14,733
+Neutral helium's got two protons.
+
+30
+00:01:14,733 --> 00:01:16,579
+It's got two protons,
+
+31
+00:01:16,579 --> 00:01:19,815
+two neutrons,
+
+32
+00:01:19,815 --> 00:01:20,733
+and then two electrons.
+
+33
+00:01:20,733 --> 00:01:23,081
+And obviously this is not drawn to scale.
+
+34
+00:01:23,081 --> 00:01:25,800
+So this is neutral helium, right over here.
+
+35
+00:01:25,800 --> 00:01:30,133
+Now, if you singly ionize helium, you knock off one of these electrons.
+
+36
+00:01:30,133 --> 00:01:32,299
+And these type of things happen in stars.
+
+37
+00:01:32,299 --> 00:01:34,366
+When you have a lot of heat, easier to ionize things.
+
+38
+00:01:34,366 --> 00:01:37,067
+So singly ionized helium will look like this.
+
+39
+00:01:37,067 --> 00:01:39,341
+It'll have the same nucleus,
+
+40
+00:01:39,341 --> 00:01:41,378
+two protons, two neutrons,
+
+41
+00:01:41,378 --> 00:01:44,954
+one of the electrons get knocked off, so now you only have one electron.
+
+42
+00:01:44,954 --> 00:01:47,467
+And now you have a net positive charge.
+
+43
+00:01:47,467 --> 00:01:50,620
+So here (let me do this in a different color)
+
+44
+00:01:50,620 --> 00:01:53,641
+this helium now has a net charge.
+
+45
+00:01:53,641 --> 00:01:56,000
+We could write "1+" here, but if you just write a "+"
+
+46
+00:01:56,000 --> 00:01:58,533
+you implicitly mean a positive charge of one.
+
+47
+00:01:58,533 --> 00:02:05,071
+Now, you can also doubly ionize helium if the environment is hot enough.
+
+48
+00:02:05,071 --> 00:02:09,759
+And doubly ionizing helium is essentially knocking off both of the electrons.
+
+49
+00:02:09,759 --> 00:02:15,130
+So then it's really just a helium nucleus.
+
+50
+00:02:15,130 --> 00:02:20,467
+Like this. This right here is doubly ionized helium.
+
+51
+00:02:20,467 --> 00:02:22,667
+Now, I just said, in order to do this,
+
+52
+00:02:22,667 --> 00:02:24,400
+you have to have a hotter environment.
+
+53
+00:02:24,400 --> 00:02:28,533
+There has to be a hotter environment in order to knock off both.
+
+54
+00:02:28,533 --> 00:02:31,133
+This electron really doesn't want to leave.
+
+55
+00:02:31,133 --> 00:02:32,694
+I mean, to take an electron off of something
+
+56
+00:02:32,694 --> 00:02:34,133
+that's already positive is difficult.
+
+57
+00:02:34,133 --> 00:02:36,133
+So you have to have a lot of,
+
+58
+00:02:36,133 --> 00:02:37,867
+really pressure and temperature.
+
+59
+00:02:37,867 --> 00:02:39,133
+This is cooler.
+
+60
+00:02:39,133 --> 00:02:40,333
+Now, this is all relative.
+
+61
+00:02:40,333 --> 00:02:42,958
+We're talking about the insides of stars.
+
+62
+00:02:42,958 --> 00:02:47,349
+So, you know, this is a hotter part of the star vs. a cooler part of the star,
+
+63
+00:02:47,364 --> 00:02:48,425
+I guess is the way to think about it.
+
+64
+00:02:48,425 --> 00:02:49,691
+This is still a very hot environment
+
+65
+00:02:49,691 --> 00:02:52,687
+by our traditional, "everyday" standards.
+
+66
+00:02:52,687 --> 00:02:55,882
+Now, the other thing about the doubly ionized helium
+
+67
+00:02:55,897 --> 00:03:00,585
+is that it is more opaque,
+
+68
+00:03:00,585 --> 00:03:04,778
+which means it doesn't allow light to go through it;
+
+69
+00:03:04,778 --> 00:03:05,995
+it actually absorbs light.
+
+70
+00:03:05,995 --> 00:03:12,077
+It is more opaque. It absorbs light.
+
+71
+00:03:12,092 --> 00:03:14,595
+Or another way, it absorbs that light energy,
+
+72
+00:03:14,595 --> 00:03:16,487
+that energy will make it even hotter.
+
+73
+00:03:16,487 --> 00:03:18,267
+So that's just something to think about.
+
+74
+00:03:18,267 --> 00:03:26,421
+Now, the singly ionized helium is more transparent.
+
+75
+00:03:26,421 --> 00:03:28,590
+It allows the light to pass through it,
+
+76
+00:03:28,590 --> 00:03:32,467
+so it doesn't get heated as much by photons
+
+77
+00:03:32,467 --> 00:03:35,133
+that are kind of going near it,
+
+78
+00:03:35,133 --> 00:03:36,200
+or through it, or whatever.
+
+79
+00:03:36,200 --> 00:03:37,338
+It allows them to go through it.
+
+80
+00:03:37,338 --> 00:03:40,800
+Here, the photons are going to actually heat up the ion.
+
+81
+00:03:40,800 --> 00:03:44,119
+So let's think about how this might cause a Cepheid variable
+
+82
+00:03:44,119 --> 00:03:45,200
+to pulsate.
+
+83
+00:03:45,200 --> 00:03:50,800
+So assuming that Cepheid variables have a large enough quantity
+
+84
+00:03:50,800 --> 00:03:53,133
+of these ions, we can imagine
+
+85
+00:03:53,133 --> 00:03:56,333
+that when a Cepheid variable is dim
+
+86
+00:03:56,333 --> 00:03:58,800
+(So let me draw a dim Cepheid variable.
+
+87
+00:03:58,800 --> 00:04:07,400
+So I'll draw this in a dim color. So this is a dim Cepheid variable right here.)
+
+88
+00:04:07,400 --> 00:04:10,867
+In it's dim state, just like this,
+
+89
+00:04:10,867 --> 00:04:15,267
+you have a lot of the doubly ionized helium.
+
+90
+00:04:15,267 --> 00:04:19,088
+You have a lot of doubly ionized helium in the star,
+
+91
+00:04:19,088 --> 00:04:21,333
+or at least kind of the outer surface of the star.
+
+92
+00:04:21,333 --> 00:04:23,600
+Doubly ionized helium.
+
+93
+00:04:23,600 --> 00:04:26,933
+And so this does not allow a lot of light to pass through.
+
+94
+00:04:26,933 --> 00:04:31,673
+So this is the dim part of the pulsation of the Cepheid variable.
+
+95
+00:04:31,673 --> 00:04:37,084
+Now, because this doubly ionized helium is opaque,
+
+96
+00:04:37,084 --> 00:04:38,756
+it is absorbing the light.
+
+97
+00:04:38,756 --> 00:04:40,200
+It is getting heated.
+
+98
+00:04:40,200 --> 00:04:46,113
+It is getting heated.
+
+99
+00:04:46,113 --> 00:04:49,605
+And because it's getting heated, it'll cause the star to expand.
+
+100
+00:04:49,621 --> 00:04:53,067
+So because it's getting heated, it'll become more energetic
+
+101
+00:04:53,067 --> 00:04:54,867
+and the star will actually expand.
+
+102
+00:04:54,867 --> 00:04:58,867
+The star will actually expand.
+
+103
+00:04:58,867 --> 00:05:03,000
+Now, as the star expands because this doubly ionized helium is getting heated,
+
+104
+00:05:03,000 --> 00:05:04,200
+what's going to happen?
+
+105
+00:05:04,200 --> 00:05:07,400
+The further away you are from the core of the star, the cooler it gets.
+
+106
+00:05:07,400 --> 00:05:10,200
+So this expanded because it was getting heated.
+
+107
+00:05:10,200 --> 00:05:11,933
+But then because it expanded,
+
+108
+00:05:11,933 --> 00:05:14,533
+the outer layers of the star become cooler.
+
+109
+00:05:14,533 --> 00:05:18,600
+And since they're cooler, helium won't be doubly ionized anyomre.
+
+110
+00:05:18,600 --> 00:05:25,934
+Each helium atom can now get an electron from the plasma, I guess we could say,
+
+111
+00:05:25,934 --> 00:05:27,533
+to become singly ionized helium.
+
+112
+00:05:27,533 --> 00:05:30,420
+So now, we have singly ionized helium.
+
+113
+00:05:30,420 --> 00:05:33,764
+We have singly ionized helium.
+
+114
+00:05:33,764 --> 00:05:36,933
+And now the star is going to be more transparent,
+
+115
+00:05:36,933 --> 00:05:38,867
+it's going to allow more light to pass through it.
+
+116
+00:05:38,867 --> 00:05:43,307
+So now this is the bright part of the pulsation.
+
+117
+00:05:43,307 --> 00:05:49,467
+It's going to allow more light through, so now the star is bright.
+
+118
+00:05:49,467 --> 00:05:51,124
+But what's happening now?
+
+119
+00:05:51,124 --> 00:05:53,333
+Because the light is no longer --
+
+120
+00:05:53,333 --> 00:05:55,358
+or it's not being absorbed as well by the helium
+
+121
+00:05:55,358 --> 00:05:57,867
+as when it was a doubly ionized helium,
+
+122
+00:05:57,867 --> 00:06:00,768
+now it's letting most of the light, or a lot more of the light, get through,
+
+123
+00:06:00,768 --> 00:06:03,439
+it's not going to get heated as much.
+
+124
+00:06:03,439 --> 00:06:05,854
+And so it won't have the kinetic energy to kind of
+
+125
+00:06:05,854 --> 00:06:07,846
+keep pushing out, to keep moving outward,
+
+126
+00:06:07,846 --> 00:06:11,200
+and so it'll collapse back into the star.
+
+127
+00:06:11,200 --> 00:06:14,097
+And so that this will cool down and collapse back in.
+
+128
+00:06:14,097 --> 00:06:17,752
+And when it collapses back in, what's going to happen?
+
+129
+00:06:17,768 --> 00:06:21,159
+When it collapses back in,
+
+130
+00:06:21,175 --> 00:06:24,600
+when these helium atoms get closer to the center of the star,
+
+131
+00:06:24,600 --> 00:06:25,776
+to the core of the star,
+
+132
+00:06:25,776 --> 00:06:28,886
+they're going to be heated again, because they're closer now to the core.
+
+133
+00:06:28,886 --> 00:06:30,467
+And when they get heated
+
+134
+00:06:30,467 --> 00:06:34,200
+they're going to become doubly ionized,
+
+135
+00:06:34,200 --> 00:06:39,574
+so that we have doubly ionized helium again.
+
+136
+00:06:39,574 --> 00:06:40,933
+And then the cycle will go again:
+
+137
+00:06:40,933 --> 00:06:43,533
+It is now opaque; it will now absorb more energy;
+
+138
+00:06:43,533 --> 00:06:47,023
+that will cause it to have more kinetic energy to expand;
+
+139
+00:06:47,023 --> 00:06:51,109
+once it expands it'll get cool again, and transparent, and bright.
+
+140
+00:06:51,109 --> 00:06:54,685
+So this is the current best theory of why
+
+141
+00:06:54,685 --> 00:06:58,516
+Cepheid variable stars are vaiable to begin with.
+
+142
+00:06:58,516 --> 00:07:01,767
+It's this whole notion of having the doubly ionized helium
+
+143
+00:07:01,767 --> 00:07:03,972
+vs. the singly ionized helium
+
+144
+00:07:04,003 --> 99:59:59,999
+in kind of the outer layers of the star itself.

@@ -1,0 +1,1400 @@
+1
+00:00:00,000 --> 00:00:00,740
+   
+
+2
+00:00:00,740 --> 00:00:05,370
+Let's say I have a line, let
+me make it a straight line.
+
+3
+00:00:05,370 --> 00:00:08,060
+And the equation of that line,
+since it's running in the
+
+4
+00:00:08,060 --> 00:00:10,320
+horizontal direction is
+going to be y is equal
+
+5
+00:00:10,320 --> 00:00:11,656
+to some constant.
+
+6
+00:00:11,656 --> 00:00:12,970
+So let me write that.
+
+7
+00:00:12,970 --> 00:00:17,010
+So the equation of this line
+right here is y is equal to k.
+
+8
+00:00:17,010 --> 00:00:19,760
+And let's say I have
+some other point.
+
+9
+00:00:19,760 --> 00:00:23,650
+I'll call that-- well, we'll
+call that a focus because
+
+10
+00:00:23,650 --> 00:00:25,886
+it will be a focus.
+
+11
+00:00:25,886 --> 00:00:29,890
+And let's say that point--
+let's put it right here-- is
+
+12
+00:00:29,890 --> 00:00:36,300
+it the coordinate, let's
+call it a comma b.
+
+13
+00:00:36,300 --> 00:00:40,915
+And let's think about the set
+of all points or the locus of
+
+14
+00:00:40,915 --> 00:00:44,370
+all points that are equidistant
+to this point right
+
+15
+00:00:44,370 --> 00:00:46,720
+here and this line.
+
+16
+00:00:46,720 --> 00:00:48,800
+Just so you get the
+terminology we'll call
+
+17
+00:00:48,800 --> 00:00:50,770
+this line a directrix.
+
+18
+00:00:50,770 --> 00:00:52,500
+Let me write that down.
+
+19
+00:00:52,500 --> 00:00:57,050
+Directrix, it's probably a word
+you've never heard before.
+
+20
+00:00:57,050 --> 00:00:59,640
+And frankly, I've never heard
+it outside of the context
+
+21
+00:00:59,640 --> 00:01:04,190
+of parabolas or conic
+sections in general.
+
+22
+00:01:04,190 --> 00:01:05,150
+So let's call that a directrix.
+
+23
+00:01:05,150 --> 00:01:08,090
+This is our focus.
+
+24
+00:01:08,090 --> 00:01:11,150
+And what we want to do is we
+want to find all of the points
+
+25
+00:01:11,150 --> 00:01:15,590
+in the xy-plane that are
+equidistant to this focus
+
+26
+00:01:15,590 --> 00:01:16,560
+and this directrix.
+
+27
+00:01:16,560 --> 00:01:19,090
+So there's one point that just
+by looking at it we could say
+
+28
+00:01:19,090 --> 00:01:22,162
+is going to be in our locus.
+
+29
+00:01:22,162 --> 00:01:26,060
+So it's going to be right there
+because clearly, this point is
+
+30
+00:01:26,060 --> 00:01:28,750
+equidistant; it's halfway
+between that point
+
+31
+00:01:28,750 --> 00:01:30,380
+and this line.
+
+32
+00:01:30,380 --> 00:01:31,500
+Now let's see what
+other points.
+
+33
+00:01:31,500 --> 00:01:34,900
+There will probably be this
+point right here because the
+
+34
+00:01:34,900 --> 00:01:38,170
+distance from there to there
+is this name as the distance
+
+35
+00:01:38,170 --> 00:01:40,410
+from if you just drop
+a line straight down.
+
+36
+00:01:40,410 --> 00:01:42,330
+Remember, we want to get the
+shortest distance between
+
+37
+00:01:42,330 --> 00:01:43,380
+this point and the line.
+
+38
+00:01:43,380 --> 00:01:48,380
+We could have said something
+like this distance, but this
+
+39
+00:01:48,380 --> 00:01:50,370
+distance wouldn't be the
+shortest distance between
+
+40
+00:01:50,370 --> 00:01:51,250
+this point and this line.
+
+41
+00:01:51,250 --> 00:01:54,250
+So you would go straight
+down to the line there.
+
+42
+00:01:54,250 --> 00:01:57,920
+Likewise, this point
+would be there.
+
+43
+00:01:57,920 --> 00:02:00,960
+So that distance is the
+same as that distance.
+
+44
+00:02:00,960 --> 00:02:04,420
+And you can already, I
+think, begin to imagine
+
+45
+00:02:04,420 --> 00:02:05,580
+the type of shape this is.
+
+46
+00:02:05,580 --> 00:02:07,960
+And if you look at the title of
+this video you can probably
+
+47
+00:02:07,960 --> 00:02:08,990
+guess where this is going.
+
+48
+00:02:08,990 --> 00:02:14,630
+That the shape is going to
+look something like this.
+
+49
+00:02:14,630 --> 00:02:18,320
+Or something pretty similar to
+what we know as a parabola.
+
+50
+00:02:18,320 --> 00:02:19,800
+And actually, it
+will be a parabola.
+
+51
+00:02:19,800 --> 00:02:22,000
+There's no mystery there.
+
+52
+00:02:22,000 --> 00:02:23,740
+But what we're doing this in
+this video is actually show
+
+53
+00:02:23,740 --> 00:02:24,535
+you that is a parabola.
+
+54
+00:02:24,535 --> 00:02:26,570
+Show it to you mathematically
+instead of this
+
+55
+00:02:26,570 --> 00:02:27,420
+little drawing here.
+
+56
+00:02:27,420 --> 00:02:29,390
+Where I show you that it kind
+of looks like it would be a
+
+57
+00:02:29,390 --> 00:02:34,750
+parabola because this distance
+right here looks about the same
+
+58
+00:02:34,750 --> 00:02:37,510
+as that distance right there.
+
+59
+00:02:37,510 --> 00:02:39,750
+I could keep going up and down
+the curve and keep doing that,
+
+60
+00:02:39,750 --> 00:02:41,080
+but that's not satisfactory.
+
+61
+00:02:41,080 --> 00:02:45,830
+Let's actually mathematically
+show that the locus of all
+
+62
+00:02:45,830 --> 00:02:49,300
+points that are equidistant to
+this point and this line-- this
+
+63
+00:02:49,300 --> 00:02:53,320
+focus and this directrix--
+is in fact, a parabola.
+
+64
+00:02:53,320 --> 00:02:56,870
+So let's say I have some point
+that's in this locus and let me
+
+65
+00:02:56,870 --> 00:03:01,710
+call the point here-- let me do
+it in a different color because
+
+66
+00:03:01,710 --> 00:03:04,570
+it's the same color as
+my directrix-- x, y.
+
+67
+00:03:04,570 --> 00:03:07,980
+So I want to find all of the x,
+y's-- all of the points that
+
+68
+00:03:07,980 --> 00:03:13,220
+satisfy an equation where their
+distance to the focus is equal
+
+69
+00:03:13,220 --> 00:03:14,590
+to their distance
+to the directrix.
+
+70
+00:03:14,590 --> 00:03:17,480
+So what's the distance
+between x, y and the focus?
+
+71
+00:03:17,480 --> 00:03:19,790
+What's this distance
+right here?
+
+72
+00:03:19,790 --> 00:03:20,950
+d sub 1.
+
+73
+00:03:20,950 --> 00:03:23,076
+Well, we just used the
+distance formula.
+
+74
+00:03:23,076 --> 00:03:26,656
+It's x minus the
+x-coordinate of the focus.
+
+75
+00:03:26,656 --> 00:03:30,350
+So it's x minus a squared.
+
+76
+00:03:30,350 --> 00:03:33,250
+So the difference in
+the x's squared.
+
+77
+00:03:33,250 --> 00:03:38,366
+Plus the difference in the y's
+squared-- y minus b squared.
+
+78
+00:03:38,366 --> 00:03:40,690
+The square root of that.
+
+79
+00:03:40,690 --> 00:03:42,810
+So this is the distance
+to the focus.
+
+80
+00:03:42,810 --> 00:03:44,310
+So I'll call that d sub 1.
+
+81
+00:03:44,310 --> 00:03:46,870
+That's this distance
+right there.
+
+82
+00:03:46,870 --> 00:03:49,830
+And we want to find all of the
+x and y's where the distance to
+
+83
+00:03:49,830 --> 00:03:53,320
+the focus is equal to
+the distance to this
+
+84
+00:03:53,320 --> 00:03:54,970
+line right there.
+
+85
+00:03:54,970 --> 00:03:59,730
+So if we call this distance--
+let's call this the d sub 2--
+
+86
+00:03:59,730 --> 00:04:01,480
+the distance to the directrix.
+
+87
+00:04:01,480 --> 00:04:05,390
+So the distance to the focus is
+going to be equal to d sub 2.
+
+88
+00:04:05,390 --> 00:04:07,700
+And d sub 2, what's this
+going to be equal to?
+
+89
+00:04:07,700 --> 00:04:11,790
+Well, it's just the difference
+in y because no matter where we
+
+90
+00:04:11,790 --> 00:04:15,250
+are we're just going to drop
+down straight to the directrix.
+
+91
+00:04:15,250 --> 00:04:20,400
+So the difference in y-- I
+could just say y minus k.
+
+92
+00:04:20,400 --> 00:04:22,180
+That would be the
+difference in y.
+
+93
+00:04:22,180 --> 00:04:25,620
+But in this case I did make it
+so that the coordinate up here
+
+94
+00:04:25,620 --> 00:04:27,690
+is higher than the k over here.
+
+95
+00:04:27,690 --> 00:04:30,420
+But what if we had a situation
+where this point was
+
+96
+00:04:30,420 --> 00:04:31,280
+below this line?
+
+97
+00:04:31,280 --> 00:04:33,440
+I mean, there's nothing here
+that I said that we can only
+
+98
+00:04:33,440 --> 00:04:34,930
+deal with points
+above this line.
+
+99
+00:04:34,930 --> 00:04:36,930
+We haven't proven that
+to ourselves yet.
+
+100
+00:04:36,930 --> 00:04:39,020
+So to make sure that this
+distance is positive we could
+
+101
+00:04:39,020 --> 00:04:41,350
+take the absolute value or
+we could just square it and
+
+102
+00:04:41,350 --> 00:04:42,910
+then take the square root.
+
+103
+00:04:42,910 --> 00:04:45,020
+And then that ensures that
+we're not dealing with
+
+104
+00:04:45,020 --> 00:04:46,560
+negative distances.
+
+105
+00:04:46,560 --> 00:04:50,590
+So here we set up the equation
+for all of the x's and y's
+
+106
+00:04:50,590 --> 00:04:54,400
+where the distance to the focus
+is equal to the distance
+
+107
+00:04:54,400 --> 00:04:54,940
+to the directrix.
+
+108
+00:04:54,940 --> 00:05:00,070
+And let's see if this actually
+turns out to be a parabola.
+
+109
+00:05:00,070 --> 00:05:02,750
+So the first thing we can do is
+we can square both sides and
+
+110
+00:05:02,750 --> 00:05:05,660
+get rid of the radicals.
+
+111
+00:05:05,660 --> 00:05:10,010
+So we get x minus a squared.
+
+112
+00:05:10,010 --> 00:05:11,160
+Radicals aren't good.
+
+113
+00:05:11,160 --> 00:05:13,730
+Well, I don't want to make
+any social commentary.
+
+114
+00:05:13,730 --> 00:05:20,340
+So x minus a squared plus y
+minus b squared is equal to
+
+115
+00:05:20,340 --> 00:05:26,620
+the square root of the other
+side-- y minus k squared.
+
+116
+00:05:26,620 --> 00:05:28,540
+And right now, at least, it
+looks like there's going to be
+
+117
+00:05:28,540 --> 00:05:31,120
+some y squared terms and I mean
+there's definitely
+
+118
+00:05:31,120 --> 00:05:31,580
+an x squared term.
+
+119
+00:05:31,580 --> 00:05:33,420
+That doesn't seem like it's
+a parabola right now.
+
+120
+00:05:33,420 --> 00:05:37,000
+But let's keep going forward.
+
+121
+00:05:37,000 --> 00:05:40,585
+This is x minus a squared.
+
+122
+00:05:40,585 --> 00:05:43,650
+And then let me square
+these-- actually, expand
+
+123
+00:05:43,650 --> 00:05:45,730
+these two binomials.
+
+124
+00:05:45,730 --> 00:05:55,560
+So plus y squared minus 2yb
+plus b squared is equal to y
+
+125
+00:05:55,560 --> 00:06:01,600
+squared minus 2yk
+plus k squared.
+
+126
+00:06:01,600 --> 00:06:03,020
+Now what can we do
+to simplify this?
+
+127
+00:06:03,020 --> 00:06:05,960
+Well, we have a y squared
+here and we have a y squared
+
+128
+00:06:05,960 --> 00:06:07,460
+on the right-hand side.
+
+129
+00:06:07,460 --> 00:06:09,260
+So we can subtract y
+squared from both
+
+130
+00:06:09,260 --> 00:06:11,242
+sides of the equation.
+
+131
+00:06:11,242 --> 00:06:14,520
+They cancel out, and then we
+got rid of the y squared so all
+
+132
+00:06:14,520 --> 00:06:16,580
+of a sudden this is starting to
+look a lot more like a parabola
+
+133
+00:06:16,580 --> 00:06:21,260
+because this is now an equation
+that relates y's
+
+134
+00:06:21,260 --> 00:06:22,170
+to an x squared.
+
+135
+00:06:22,170 --> 00:06:25,250
+So let's clean this up and
+actually make sure that we can
+
+136
+00:06:25,250 --> 00:06:26,860
+get it in a form that we
+normally associate
+
+137
+00:06:26,860 --> 00:06:28,210
+with a parabola.
+
+138
+00:06:28,210 --> 00:06:34,460
+So we now have-- I'll just
+rewrite it-- x minus a squared
+
+139
+00:06:34,460 --> 00:06:42,260
+minus 2yb plus b squared is
+equal to minus 2yk
+
+140
+00:06:42,260 --> 00:06:45,780
+plus k squared.
+
+141
+00:06:45,780 --> 00:06:46,250
+Now what can we do?
+
+142
+00:06:46,250 --> 00:06:48,550
+Let's take all the y's
+and the constants on one
+
+143
+00:06:48,550 --> 00:06:49,860
+side of the equation.
+
+144
+00:06:49,860 --> 00:06:53,660
+So if we move both of these
+terms onto the right-hand
+
+145
+00:06:53,660 --> 00:06:56,260
+side, so we want to
+add 2yb to both sides.
+
+146
+00:06:56,260 --> 00:07:01,970
+So we get x minus a squared is
+equal to-- I'm moving both of
+
+147
+00:07:01,970 --> 00:07:03,845
+these terms to the
+right-hand side.
+
+148
+00:07:03,845 --> 00:07:07,740
+So if we add 2yb to both sides
+then we'll have a positive
+
+149
+00:07:07,740 --> 00:07:09,490
+2yb on the right hand side.
+
+150
+00:07:09,490 --> 00:07:17,670
+So 2yb, and then we'll have
+that minus 2yk right there.
+
+151
+00:07:17,670 --> 00:07:21,520
+And then we're subtracting
+b squared from both sides.
+
+152
+00:07:21,520 --> 00:07:27,720
+So it's minus b squared
+plus k squared.
+
+153
+00:07:27,720 --> 00:07:31,330
+I just arbitrarily decided to
+write whatever I transferred
+
+154
+00:07:31,330 --> 00:07:33,710
+from the left-hand side to the
+right-hand side in magenta
+
+155
+00:07:33,710 --> 00:07:35,590
+just so maybe it makes
+it a little bit clearer.
+
+156
+00:07:35,590 --> 00:07:38,400
+And let's see if we can
+simplify this further.
+
+157
+00:07:38,400 --> 00:07:41,420
+And remember, just so you know
+what I'm doing this whole time.
+
+158
+00:07:41,420 --> 00:07:43,770
+In the back of my mind I'm
+trying to get it into the
+
+159
+00:07:43,770 --> 00:07:48,170
+format that I normally
+associate with a parabola.
+
+160
+00:07:48,170 --> 00:07:49,940
+And I'll do it in the corner
+here, just so you know
+
+161
+00:07:49,940 --> 00:07:51,450
+where the algebra's going.
+
+162
+00:07:51,450 --> 00:07:56,000
+I'm trying to get into a
+format x minus a squared
+
+163
+00:07:56,000 --> 00:08:00,870
+is equal to y minus b.
+
+164
+00:08:00,870 --> 00:08:04,360
+Because if we have it in
+this form, or actually ax.
+
+165
+00:08:04,360 --> 00:08:06,580
+Let me write that because I
+went too far to the right.
+
+166
+00:08:06,580 --> 00:08:09,910
+A times x minus-- well,
+actually I already used
+
+167
+00:08:09,910 --> 00:08:13,260
+the A so let me write x
+minus-- I don't know.
+
+168
+00:08:13,260 --> 00:08:19,830
+I'll make up x minus--
+I'll call that v squared.
+
+169
+00:08:19,830 --> 00:08:23,120
+I'm picking maybe v for
+x value of the vertex.
+
+170
+00:08:23,120 --> 00:08:25,010
+I'm making up
+variables on the fly.
+
+171
+00:08:25,010 --> 00:08:28,930
+A times x minus v squared
+is equal to y minus b.
+
+172
+00:08:28,930 --> 00:08:31,000
+And you know, the actual
+letters I chose don't matter.
+
+173
+00:08:31,000 --> 00:08:33,860
+But this is a general
+form of a parabola.
+
+174
+00:08:33,860 --> 00:08:34,970
+And this is where
+I'm trying to go.
+
+175
+00:08:34,970 --> 00:08:37,200
+If I can get this thing that
+we're working on to this
+
+176
+00:08:37,200 --> 00:08:39,410
+form then we know we're
+dealing with a parabola.
+
+177
+00:08:39,410 --> 00:08:42,130
+And then, we can actually
+relate what we normally
+
+178
+00:08:42,130 --> 00:08:44,830
+associate with a parabola
+to these terms up here.
+
+179
+00:08:44,830 --> 00:08:46,120
+And obviously, these
+are different letters
+
+180
+00:08:46,120 --> 00:08:47,270
+than these letters.
+
+181
+00:08:47,270 --> 00:08:49,760
+And then we can try to figure
+out-- if we have a parabola,
+
+182
+00:08:49,760 --> 00:08:52,590
+how do we figure out its
+focus and is directrix.
+
+183
+00:08:52,590 --> 00:08:54,110
+But anyway, that was a bit
+of an aside just so you
+
+184
+00:08:54,110 --> 00:08:54,790
+know where we're going.
+
+185
+00:08:54,790 --> 00:08:57,516
+So let's try to simplify
+this a little bit more.
+
+186
+00:08:57,516 --> 00:08:58,857
+So we get--
+
+187
+00:08:58,857 --> 00:09:00,350
+[PHONE RINGING]
+
+188
+00:09:00,350 --> 00:09:03,010
+--my phone is ringing.
+
+189
+00:09:03,010 --> 00:09:04,200
+Let me silent it.
+
+190
+00:09:04,200 --> 00:09:10,000
+So we get x minus a squared
+is equal to-- let's see.
+
+191
+00:09:10,000 --> 00:09:14,540
+If we factor out a 2 and
+a y we get-- let me
+
+192
+00:09:14,540 --> 00:09:15,520
+factor out a y first.
+
+193
+00:09:15,520 --> 00:09:22,080
+We get 2b minus 2k times y.
+
+194
+00:09:22,080 --> 00:09:26,260
+And then I want to make
+it minus some constant.
+
+195
+00:09:26,260 --> 00:09:27,460
+So this is a constant
+right here.
+
+196
+00:09:27,460 --> 00:09:29,650
+This is one constant squared
+plus another constant.
+
+197
+00:09:29,650 --> 00:09:36,750
+So I could make this
+equal to minus-- let
+
+198
+00:09:36,750 --> 00:09:38,540
+me think about this.
+
+199
+00:09:38,540 --> 00:09:42,410
+This would be minus b
+squared minus k squared.
+
+200
+00:09:42,410 --> 00:09:45,610
+If I expand this minus out
+you would get minus b
+
+201
+00:09:45,610 --> 00:09:46,870
+squared plus k squared.
+
+202
+00:09:46,870 --> 00:09:49,380
+So this is the same
+thing right there.
+
+203
+00:09:49,380 --> 00:09:49,870
+And let's see.
+
+204
+00:09:49,870 --> 00:09:54,840
+Can I factor out-- yeah,
+I can factor out a 2.
+
+205
+00:09:54,840 --> 00:10:00,540
+The whole thing becomes x minus
+a squared is equal to 2 times b
+
+206
+00:10:00,540 --> 00:10:07,360
+minus k times y minus-- and now
+this is the difference of--
+
+207
+00:10:07,360 --> 00:10:10,680
+yeah, this is b plus
+k times b minus k.
+
+208
+00:10:10,680 --> 00:10:15,970
+You might want to review
+factoring polynomials if
+
+209
+00:10:15,970 --> 00:10:17,560
+that doesn't look familiar.
+
+210
+00:10:17,560 --> 00:10:20,780
+But this is b plus
+k times b minus k.
+
+211
+00:10:20,780 --> 00:10:23,285
+And I want to do that because I
+saw this b minus k out there so
+
+212
+00:10:23,285 --> 00:10:27,230
+that looked interesting to get
+it on both terms right there.
+
+213
+00:10:27,230 --> 00:10:27,740
+Now let's see.
+
+214
+00:10:27,740 --> 00:10:32,060
+If we divide everything times--
+let's divide everything by 1
+
+215
+00:10:32,060 --> 00:10:36,660
+over 2 b minus k because I just
+want a y here, so I have some
+
+216
+00:10:36,660 --> 00:10:37,800
+coefficient in front of the y.
+
+217
+00:10:37,800 --> 00:10:41,330
+So let's divide everything
+by 1 over 2 b minus k.
+
+218
+00:10:41,330 --> 00:10:44,420
+   
+
+219
+00:10:44,420 --> 00:10:46,430
+Let me do it down here
+so I have some space.
+
+220
+00:10:46,430 --> 00:10:57,660
+1 over 2 b minus k times x
+minus a squared is equal to--
+
+221
+00:10:57,660 --> 00:11:01,120
+I'm dividing this by 2 b
+minus k, so that goes away.
+
+222
+00:11:01,120 --> 00:11:08,150
+So it's y minus-- so if I
+divide this by 2 b minus k the
+
+223
+00:11:08,150 --> 00:11:18,780
+b minus k's cancel out and I'm
+just left with b plus k over 2.
+
+224
+00:11:18,780 --> 00:11:22,340
+And I think I have gotten it
+in the form that I wanted.
+
+225
+00:11:22,340 --> 00:11:25,480
+In this case, the a that
+I wrote up here is now
+
+226
+00:11:25,480 --> 00:11:29,550
+1 over 2 b minus k.
+
+227
+00:11:29,550 --> 00:11:32,150
+This v is this a
+that I did here.
+
+228
+00:11:32,150 --> 00:11:35,400
+The y is the y and then my
+constant term is out here.
+
+229
+00:11:35,400 --> 00:11:38,800
+So I have hopefully shown to
+you that the locus of all
+
+230
+00:11:38,800 --> 00:11:43,180
+points that are equidistant to
+this point-- which is really
+
+231
+00:11:43,180 --> 00:11:44,230
+just an arbitrary point.
+
+232
+00:11:44,230 --> 00:11:47,110
+I said it's the point a,
+b-- and some line, is
+
+233
+00:11:47,110 --> 00:11:48,440
+in fact, a parabola.
+
+234
+00:11:48,440 --> 00:11:51,960
+And that's one of the ways that
+people define a parabola.
+
+235
+00:11:51,960 --> 00:11:54,300
+And we'll actually see soon
+that when you actually change
+
+236
+00:11:54,300 --> 00:11:57,930
+this relation-- in this case,
+we found that all of the points
+
+237
+00:11:57,930 --> 00:12:00,980
+that are equidistant to the
+focus and the directrix.
+
+238
+00:12:00,980 --> 00:12:04,760
+If we changed that ratio, if we
+find all of the points that are
+
+239
+00:12:04,760 --> 00:12:08,010
+1/2 as far away from the
+directrix as the focus, we
+
+240
+00:12:08,010 --> 00:12:09,830
+start getting another
+conic section.
+
+241
+00:12:09,830 --> 00:12:11,410
+If we said twice as far
+we would get another
+
+242
+00:12:11,410 --> 00:12:12,060
+conic section.
+
+243
+00:12:12,060 --> 00:12:15,320
+So this is a very interesting
+way of relating-- sometimes the
+
+244
+00:12:15,320 --> 00:12:17,850
+conic sections in the first
+video I showed how they're all
+
+245
+00:12:17,850 --> 00:12:19,970
+related to cutting the
+three-dimensional cone.
+
+246
+00:12:19,970 --> 00:12:22,610
+But they're also related in
+this way and eventually I want
+
+247
+00:12:22,610 --> 00:12:25,130
+to relate this to the
+three-dimensional cone so you
+
+248
+00:12:25,130 --> 00:12:26,790
+can see how it all
+fits together.
+
+249
+00:12:26,790 --> 00:12:29,810
+Which is always the fun
+thing about mathematics.
+
+250
+00:12:29,810 --> 00:12:33,790
+So this so far, all we've shown
+to you is if we do take the
+
+251
+00:12:33,790 --> 00:12:36,780
+locus of all points that are
+equidistant to a point and a
+
+252
+00:12:36,780 --> 00:12:38,770
+directrix that it
+is a parabola.
+
+253
+00:12:38,770 --> 00:12:40,570
+Now, the interesting
+thing to do is let's
+
+254
+00:12:40,570 --> 00:12:43,830
+say I have a parabola.
+
+255
+00:12:43,830 --> 00:12:46,490
+Let me give a general form.
+
+256
+00:12:46,490 --> 00:12:48,810
+And I'll try to use different
+letters than I used up here.
+
+257
+00:12:48,810 --> 00:12:54,052
+So let's say I have a
+parabola y minus--
+
+258
+00:12:54,052 --> 00:12:56,920
+let's call it y sub 1.
+
+259
+00:12:56,920 --> 00:13:01,070
+Where it's just a particular
+point on the parabola.
+
+260
+00:13:01,070 --> 00:13:05,090
+Y minus y sub 1 or you could
+call it some constant-- is
+
+261
+00:13:05,090 --> 00:13:09,585
+equal to-- let's call it, I
+want to use a capital A just
+
+262
+00:13:09,585 --> 00:13:12,090
+because that tends to be--
+I'll use a capital A and just
+
+263
+00:13:12,090 --> 00:13:14,340
+know that it's different
+than this lowercase A.
+
+264
+00:13:14,340 --> 00:13:18,960
+Some capital A times
+x minus x sub 1.
+
+265
+00:13:18,960 --> 00:13:19,200
+squared.
+
+266
+00:13:19,200 --> 00:13:22,140
+Whenever you see a y sub 1 or
+an x sub 1, that means you're
+
+267
+00:13:22,140 --> 00:13:23,770
+actually dealing with
+a constant term.
+
+268
+00:13:23,770 --> 00:13:26,560
+If you see just an x or y that
+generally means that you're
+
+269
+00:13:26,560 --> 00:13:27,770
+dealing with a variable term.
+
+270
+00:13:27,770 --> 00:13:28,570
+So these are constants.
+
+271
+00:13:28,570 --> 00:13:30,240
+I could have put letters there.
+
+272
+00:13:30,240 --> 00:13:32,000
+I could have put a and b
+there, but then that would've
+
+273
+00:13:32,000 --> 00:13:33,070
+gotten confused with that.
+
+274
+00:13:33,070 --> 00:13:35,970
+But let's see if we can relate
+these letters because this is
+
+275
+00:13:35,970 --> 00:13:37,270
+something that we normally see.
+
+276
+00:13:37,270 --> 00:13:40,690
+And then, we want to find
+the focus or the directrix
+
+277
+00:13:40,690 --> 00:13:41,870
+of a parabola like this.
+
+278
+00:13:41,870 --> 00:13:44,950
+How can we relate these to
+these values right here?
+
+279
+00:13:44,950 --> 00:13:48,860
+How does k and a and b relate
+to these right there?
+
+280
+00:13:48,860 --> 00:13:49,810
+So let's see if we
+can set that up.
+
+281
+00:13:49,810 --> 00:13:54,600
+So if we just pattern
+match that is A.
+
+282
+00:13:54,600 --> 00:13:58,250
+If we say x sub 1 is lowercase
+a, actually that's a straight
+
+283
+00:13:58,250 --> 00:14:00,770
+up pattern match, so we can
+already write that on the side.
+
+284
+00:14:00,770 --> 00:14:03,830
+x sub 1 is equal to a.
+
+285
+00:14:03,830 --> 00:14:06,210
+So whatever x value I have
+here, this is also the x
+
+286
+00:14:06,210 --> 00:14:07,750
+value of the focus point.
+
+287
+00:14:07,750 --> 00:14:10,210
+Which makes sense because in
+this case, we already learned
+
+288
+00:14:10,210 --> 00:14:11,235
+this in previous video.
+
+289
+00:14:11,235 --> 00:14:15,660
+But we learned that the vertex
+of this parabola is the
+
+290
+00:14:15,660 --> 00:14:19,160
+point x sub 1 comma y sub 1.
+
+291
+00:14:19,160 --> 00:14:20,370
+Anyway, I don't want
+to confuse you.
+
+292
+00:14:20,370 --> 00:14:21,690
+Actually, you know
+what I'm going to do?
+
+293
+00:14:21,690 --> 00:14:24,980
+I don't want to go too far off
+into this topic, and I think
+
+294
+00:14:24,980 --> 00:14:26,520
+this video has already
+gotten long enough.
+
+295
+00:14:26,520 --> 00:14:28,110
+I will continue this
+in the next video.
+
+296
+00:14:28,110 --> 00:14:29,612
+See you soon.
+
+297
+00:14:29,612 --> 00:14:30,322
+

@@ -1,0 +1,567 @@
+1
+00:00:00,060 --> 00:00:02,260
+We are on problem 7.
+
+2
+00:00:04,040 --> 00:00:05,990
+Let me draw what they have drawn.
+
+3
+00:00:08,460 --> 00:00:10,160
+They drew a right triangle.
+
+4
+00:00:10,160 --> 00:00:14,610
+The right triangle looks something like this.
+
+5
+00:00:17,780 --> 00:00:19,290
+And then they drew another triangle.
+
+6
+00:00:19,290 --> 00:00:20,690
+And it looks like an isosceles triangle,
+
+7
+00:00:20,690 --> 00:00:25,660
+although we can't assume anything in this life.
+
+8
+00:00:28,020 --> 00:00:35,630
+Nothing comes for free. So this is x. This is y.
+
+9
+00:00:37,040 --> 00:00:41,400
+u, v, w. Those are the angles.
+
+10
+00:00:41,400 --> 00:00:44,300
+In the triangles above, what is the average--
+
+11
+00:00:44,300 --> 00:00:50,350
+arithmetic mean-- of u, v, w, x, and y
+
+12
+00:00:51,080 --> 00:00:54,540
+So you have to just add up the sum of the angles
+
+13
+00:00:54,540 --> 00:00:56,470
+and then divide by the number of angles.
+
+14
+00:00:56,470 --> 00:01:02,840
+So we want to take u plus v plus w plus x plus y,
+
+15
+00:01:02,840 --> 00:01:04,320
+and then divide by the number of angles.
+
+16
+00:01:04,320 --> 00:01:06,510
+So there's one, two, three,four, five angles.
+
+17
+00:01:08,000 --> 00:01:12,240
+First question. What is u plus v plus w?
+
+18
+00:01:14,570 --> 00:01:16,780
+Well, they form the angles in a triangle,
+
+19
+00:01:16,780 --> 00:01:18,800
+so they're going to add up to 180 degrees.
+
+20
+00:01:19,570 --> 00:01:24,090
+And what's x plus y? Well, it's a right triangle.
+
+21
+00:01:24,690 --> 00:01:27,700
+And all three of these angles have to add up to 180.
+
+22
+00:01:27,900 --> 00:01:33,120
+x plus y plus this 90 have to add up to 180.
+
+23
+00:01:33,120 --> 00:01:36,300
+So x plus y is going to be equal to 90.
+
+24
+00:01:36,300 --> 00:01:38,080
+Just subtract 90 from both sides.
+
+25
+00:01:38,580 --> 00:01:41,260
+So x plus y is equal to 90.
+
+26
+00:01:42,020 --> 00:01:46,160
+So if we take the sum of the top, 180 plus 90, that's 270.
+
+27
+00:01:46,660 --> 00:01:47,800
+Divided by 5.
+
+28
+00:01:48,460 --> 00:01:56,660
+5 goes into 270-- 5, 25, 7, 20, 54.
+
+29
+00:01:56,660 --> 00:01:59,190
+So the average is 54 degrees.
+
+30
+00:01:59,790 --> 00:02:03,280
+That's the arithmetic mean of all of those angles.
+
+31
+00:02:03,280 --> 00:02:04,600
+And that is choice E.
+
+32
+00:02:07,090 --> 00:02:08,000
+Next problem.
+
+33
+00:02:10,760 --> 00:02:14,000
+I just inadvertently switched back to my bad-luck yellow.
+
+34
+00:02:14,000 --> 00:02:16,040
+All right. Problem 8.
+
+35
+00:02:16,680 --> 00:02:25,520
+Looks like they've drawn--It looks like a ray.
+
+36
+00:02:25,520 --> 00:02:30,030
+I'm going to put an arrow on one side. Let me switch colors.
+
+37
+00:02:32,030 --> 00:02:36,210
+They say that this is x to the third.
+
+38
+00:02:38,010 --> 00:02:44,950
+This is x squared. This is x.
+
+39
+00:02:46,000 --> 00:02:48,880
+If x, x squared, and x to the third lie on a number line
+
+40
+00:02:48,880 --> 00:02:50,040
+in the order shown above,
+
+41
+00:02:50,040 --> 00:02:51,930
+which of the following could be the value of x?
+
+42
+00:02:52,560 --> 00:02:56,900
+So the first thing we know, x has got to be--
+
+43
+00:02:56,900 --> 00:03:00,150
+well, the first thing we know, that x is a positive number.
+
+44
+00:03:00,150 --> 00:03:01,160
+How do I know that?
+
+45
+00:03:01,760 --> 00:03:05,410
+Because if x was not a positive number--
+
+46
+00:03:05,910 --> 00:03:08,220
+well, let me think about that. Right.
+
+47
+00:03:08,220 --> 00:03:10,290
+x has to be a positive number.
+
+48
+00:03:10,690 --> 00:03:11,720
+Because-- let me put it this way.
+
+49
+00:03:11,720 --> 00:03:17,500
+If any negative number-- let's say it's negative 1/2.
+
+50
+00:03:18,020 --> 00:03:24,840
+If you square negative 1/2, you get positive 1/4.
+
+51
+00:03:25,000 --> 00:03:27,340
+So for any negative number,
+
+52
+00:03:27,340 --> 00:03:31,410
+the square is going to be bigger than the number itself.
+
+53
+00:03:31,410 --> 00:03:33,980
+So we know that x is greater than 0.
+
+54
+00:03:34,550 --> 00:03:37,280
+That's one thing we know. What else do we know?
+
+55
+00:03:37,580 --> 00:03:40,460
+We also know that x is going to be less than 1.
+
+56
+00:03:40,460 --> 00:03:41,300
+How do I know that?
+
+57
+00:03:41,900 --> 00:03:44,690
+Because x squared is less than x,right?
+
+58
+00:03:44,690 --> 00:03:47,230
+And that only applies for numbers less than 1.
+
+59
+00:03:47,630 --> 00:03:51,810
+Because 1/2 squared is equal to 1/4,and 1/4 is less than 1/2.
+
+60
+00:03:52,020 --> 00:03:53,970
+So we also know that x is less than 1.
+
+61
+00:03:53,970 --> 00:03:55,250
+So we just have to find a choice
+
+62
+00:03:55,250 --> 00:03:58,380
+where x is greater than 0 and less than 1.
+
+63
+00:03:59,020 --> 00:04:03,960
+And if we look at the choices,greater than 0 and less than 1,
+
+64
+00:04:04,660 --> 00:04:06,610
+there's only one choice that that applies to.
+
+65
+00:04:06,610 --> 00:04:09,470
+And that's 3/4. Choice C.
+
+66
+00:04:10,770 --> 00:04:12,550
+You might want to say 3/2,but that's 1 and 1/2.
+
+67
+00:04:12,550 --> 00:04:13,200
+That's greater than 1.
+
+68
+00:04:13,500 --> 00:04:14,890
+The first two choices are negative.
+
+69
+00:04:14,890 --> 00:04:16,970
+The last two choices are greater than 1--
+
+70
+00:04:16,970 --> 00:04:18,220
+or greater than or equal to 1.
+
+71
+00:04:18,620 --> 00:04:20,070
+So we know it's choice C.
+
+72
+00:04:20,670 --> 00:04:21,830
+Next problem.
+
+73
+00:04:26,880 --> 00:04:28,990
+And if you didn't want to do it in an abstract way,
+
+74
+00:04:28,990 --> 00:04:29,960
+and if you have a lot of time,
+
+75
+00:04:29,960 --> 00:04:31,240
+if you're really fast on the problems you do know how to do,
+
+76
+00:04:31,240 --> 00:04:33,350
+you can always try out the numbers. But that takes longer.
+
+77
+00:04:36,050 --> 00:04:39,010
+They drew a coordinate system right here.
+
+78
+00:04:42,690 --> 00:04:47,910
+And this is my y-axis. This is the x-axis.
+
+79
+00:04:48,890 --> 00:04:52,380
+And then they draw a line that goes through the origin.
+
+80
+00:05:00,180 --> 00:05:01,910
+And then they tell us that
+
+81
+00:05:02,850 --> 00:05:08,300
+this point right here is the point 1 comma 3.
+
+82
+00:05:08,300 --> 00:05:11,060
+So this is 1. This is 3.
+
+83
+00:05:12,010 --> 00:05:13,570
+And what do they want us to do with this?
+
+84
+00:05:13,570 --> 00:05:15,750
+In the figure above, line l passes through the origin.
+
+85
+00:05:16,440 --> 00:05:20,780
+This is line l. What is the value of k/h?
+
+86
+00:05:20,780 --> 00:05:22,980
+Oh, and then they label another point here.
+
+87
+00:05:23,780 --> 00:05:28,020
+They say this is h comma k.
+
+88
+00:05:29,210 --> 00:05:32,940
+So what is the value of k divided by h?
+
+89
+00:05:33,000 --> 00:05:39,050
+So the y value over the x value, right?
+
+90
+00:05:41,730 --> 00:05:42,660
+And I'm going to tell you right now,
+
+91
+00:05:42,660 --> 00:05:46,740
+the value of it is going to be the slope of this line.
+
+92
+00:05:46,740 --> 00:05:47,340
+And how do we know that?
+
+93
+00:05:50,550 --> 00:05:52,120
+If you wanted to figure out the slope
+
+94
+00:05:52,120 --> 00:05:57,600
+from the origin to this point, what would it be?
+
+95
+00:05:58,100 --> 00:06:02,000
+The origin of course is 0, 0. So it would be change in y.
+
+96
+00:06:02,400 --> 00:06:04,800
+Change in y is 0 minus k.
+
+97
+00:06:04,800 --> 00:06:05,900
+You wouldn't have to do this on the SAT.
+
+98
+00:06:05,900 --> 00:06:07,400
+I just want to show you that it would be the slope.
+
+99
+00:06:07,800 --> 00:06:13,680
+And then change in x would be 0 minus h.
+
+100
+00:06:14,000 --> 00:06:17,140
+And that of course is equal to minus k over minus h.
+
+101
+00:06:17,140 --> 00:06:20,220
+The negatives cancel out,and that equals k/h.
+
+102
+00:06:20,220 --> 00:06:21,740
+So they're essentially just asking us,
+
+103
+00:06:21,740 --> 00:06:23,110
+what is the slope of this line?
+
+104
+00:06:23,610 --> 00:06:25,780
+Well, that's easy enough, because it gives us another point.
+
+105
+00:06:26,010 --> 00:06:28,760
+And so we can say, well, we could do this rise over run.
+
+106
+00:06:29,450 --> 00:06:30,940
+So here, what is the change in y?
+
+107
+00:06:31,440 --> 00:06:34,280
+Change in y is equal to 3 minus 0.
+
+108
+00:06:34,280 --> 00:06:36,220
+I'm taking this as kind of the initial point.
+
+109
+00:06:36,220 --> 00:06:39,210
+3 minus 0. Change in x is 1 minus 0.
+
+110
+00:06:40,550 --> 00:06:43,380
+So change in y over change in x is equal to 3.
+
+111
+00:06:43,980 --> 00:06:45,460
+And that's our slope, and that's our answer.
+
+112
+00:06:45,760 --> 00:06:47,160
+So the answer is A.
+
+113
+00:06:48,870 --> 00:06:53,280
+Next problem. Problem 10.
+
+114
+00:06:57,580 --> 00:07:02,730
+They're saying the absolute value of m minus 3 is equal to 5.
+
+115
+00:07:03,230 --> 00:07:06,120
+They're also telling us that the absolute value of k
+
+116
+00:07:06,920 --> 00:07:10,480
+plus 7 is equal to 15.
+
+117
+00:07:10,980 --> 00:07:15,480
+In the equations above,m is less than 0 and k is less than 0.
+
+118
+00:07:20,010 --> 00:07:26,700
+What is the value of m minus k? So m is less than 0, right?
+
+119
+00:07:27,020 --> 00:07:29,310
+So there's two possibilities here.
+
+120
+00:07:30,040 --> 00:07:32,150
+This first equation, if we didn't see that,
+
+121
+00:07:32,150 --> 00:07:33,440
+it could mean two different things.
+
+122
+00:07:33,440 --> 00:07:35,910
+You could say m minus 3 is equal to 5
+
+123
+00:07:36,410 --> 00:07:40,540
+or m minus 3 is equal to negative 5.
+
+124
+00:07:41,000 --> 00:07:43,160
+This one would solve to m is equal to 8,
+
+125
+00:07:43,160 --> 00:07:46,900
+and this one would solve to m is equal to minus 2.
+
+126
+00:07:47,880 --> 00:07:50,230
+Well, we know m is not 8,because m is less than 0.
+
+127
+00:07:52,530 --> 00:07:54,340
+And to solve this, I just added 3 to both sides.
+
+128
+00:07:54,340 --> 00:07:56,230
+So we know that m is minus 2.
+
+129
+00:07:56,730 --> 00:07:59,040
+Similarly, let's take that second equation.
+
+130
+00:07:59,560 --> 00:08:03,210
+That tells us that k plus 7 is equal to 15,
+
+131
+00:08:03,810 --> 00:08:08,530
+or k plus 7 is equal to minus 15.
+
+132
+00:08:09,020 --> 00:08:11,810
+Subtract 7 from both sides of this, you get k equals 8.
+
+133
+00:08:12,000 --> 00:08:13,530
+Subtract 7 from both sides of this,
+
+134
+00:08:13,530 --> 00:08:16,430
+you get k is equal to minus 22.
+
+135
+00:08:16,830 --> 00:08:20,010
+And they tell us that k is also less than 0.
+
+136
+00:08:20,550 --> 00:08:21,950
+So we know that this is k.
+
+137
+00:08:22,990 --> 00:08:27,600
+And they want us to know what m minus k is.
+
+138
+00:08:27,800 --> 00:08:32,470
+Well, m is minus 2,and k is minus 22.
+
+139
+00:08:32,470 --> 00:08:35,740
+So minus 2 minus minus 22.
+
+140
+00:08:36,540 --> 00:08:39,410
+So that's the same thing as minus 2 plus 22.
+
+141
+00:08:40,000 --> 00:08:44,920
+And that is of course 20. And that is choice E.
+
+142
+00:08:48,000 --> 00:08:50,060
+I will see you in the next video.

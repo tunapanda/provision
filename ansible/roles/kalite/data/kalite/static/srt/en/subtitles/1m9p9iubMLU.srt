@@ -1,0 +1,463 @@
+1
+00:00:00,380 --> 00:00:04,146
+What I have attempted to draw here is
+
+2
+00:00:04,146 --> 00:00:07,796
+a unit circle
+
+3
+00:00:07,796 --> 00:00:09,844
+and the fact I'm calling it a
+
+4
+00:00:09,844 --> 00:00:12,261
+"unit circle" means it has a radius of one
+
+5
+00:00:12,261 --> 00:00:16,912
+so this length here from the center, and I've centered it at the origin,
+
+6
+00:00:16,912 --> 00:00:23,743
+this length, from the center to any point on the circle is of length one.
+
+7
+00:00:23,743 --> 00:00:30,279
+so what would this co-ordinate be right over there? Right where it intersects along the x axis?
+
+8
+00:00:30,279 --> 00:00:34,262
+well X would be one, Y would be zero (1,0)
+
+9
+00:00:34,262 --> 00:00:36,395
+what would this co-ordinate be up here?
+
+10
+00:00:36,395 --> 00:00:40,261
+well we've gone one above the origin, but we haven't moved to the left or the right...
+
+11
+00:00:40,261 --> 00:00:43,629
+so our X value is zero, our Y value is one.
+
+12
+00:00:43,629 --> 00:00:45,612
+what about back here?
+
+13
+00:00:45,612 --> 00:00:49,462
+well here our X value is negative-one, we've moved one to the left
+
+14
+00:00:49,462 --> 00:00:52,245
+and we haven't moved up or down so our Y value is zero
+
+15
+00:00:52,245 --> 00:00:54,260
+and what about down here?
+
+16
+00:00:54,260 --> 00:00:58,994
+well, we've gone one unit down (one below the origin)
+
+17
+00:00:58,994 --> 00:01:04,694
+but we haven't moved in the X direction... so our X is zero, and our Y is negative-one.
+
+18
+00:01:04,694 --> 00:01:08,162
+now with that out of the way, I'm going to draw an angle...
+
+19
+00:01:08,162 --> 00:01:13,478
+and the way I'm going to draws this angle- I'm going to define a convention for positive angles.
+
+20
+00:01:13,478 --> 00:01:20,228
+I'm going to say a positive angle, well the initial side of the angle, we're always going to draw along the positive X axis.
+
+21
+00:01:20,228 --> 00:01:26,444
+so this is the... you can kind of view it as the starting side of the angle (the initial side of an angle)
+
+22
+00:01:26,444 --> 00:01:35,661
+and then to draw a positive angle the terminal side we going to move in a counter-clockwise direction
+
+23
+00:01:35,661 --> 00:01:39,296
+so a positive angle- means we're going counter clockwise
+
+24
+00:01:39,296 --> 00:01:41,929
+...counter clockwise...
+
+25
+00:01:41,929 --> 00:01:46,462
+this is just the convention I'm going to use, and it's also the convention that is typically used,
+
+26
+00:01:46,462 --> 00:01:50,661
+and so you can imagine that a negative would move in a clockwise
+
+27
+00:01:50,661 --> 00:01:52,181
+...clockwise... direction.
+
+28
+00:01:52,181 --> 00:01:54,744
+so let me draw a positive angle
+
+29
+00:01:54,744 --> 00:02:00,912
+a positive angle might look, something like this. (this is the initial side)
+
+30
+00:02:00,912 --> 00:02:07,512
+and then from that I go in a counter-clockwise direction until I measure out the angle...
+
+31
+00:02:07,512 --> 00:02:09,295
+and this is the terminal side.
+
+32
+00:02:09,295 --> 00:02:12,180
+so this is a positive angele- "theta"
+
+33
+00:02:12,180 --> 00:02:15,812
+and what I want to do is think about this point of intersection,
+
+34
+00:02:15,812 --> 00:02:19,797
+between the terminal side of this angle and my unit circle.
+
+35
+00:02:19,797 --> 00:02:23,261
+and let's just say it has the co-ordinates (a,b)
+
+36
+00:02:23,261 --> 00:02:28,978
+the X value (where it intersects) is "a", the Y value (where it intersects) is "b"
+
+37
+00:02:28,978 --> 00:02:33,295
+and I'm also, the whole point of what I'm doing here is,
+
+38
+00:02:33,295 --> 00:02:38,729
+I want to see how this unit circle might be able to help us extend our traditional definitions of trig-functions
+
+39
+00:02:38,729 --> 00:02:43,545
+and so what I want to do is... I want to make this "theta" part of a "right-triangle" (right-angled triangle)
+
+40
+00:02:43,545 --> 00:02:48,678
+so to make it part of a "right-triangle" let me draw up an altitude...
+
+41
+00:02:48,678 --> 00:02:51,210
+right over here, and let me make it clear that-
+
+42
+00:02:51,210 --> 00:02:54,662
+this is a 90 degree agle
+
+43
+00:02:54,662 --> 00:02:58,345
+so this "theta" is part of this right triangle
+
+44
+00:02:58,345 --> 00:03:03,578
+so! let's see what we can figure out about the sides of this "right-triangle"
+
+45
+00:03:03,578 --> 00:03:06,145
+so the first question I have to ask you is-
+
+46
+00:03:06,145 --> 00:03:15,279
+What is the length of the hypotenuse? (of this "right-triangle" that I have just constructed)
+
+47
+00:03:15,279 --> 00:03:20,095
+well this hypotenuse is just a radius of a unit circle!
+
+48
+00:03:20,095 --> 00:03:21,662
+the unit circle has a radius of one
+
+49
+00:03:21,662 --> 00:03:25,278
+so the the hypotenuse has length one!
+
+50
+00:03:25,278 --> 00:03:28,628
+now what is the length of this blue side right over here?
+
+51
+00:03:28,628 --> 00:03:34,546
+this blue side which you could view as the opposite side to the angle...
+
+52
+00:03:34,546 --> 00:03:42,779
+well this height is the exact same thing as the Y co-ordinate of this point of intersection.
+
+53
+00:03:42,779 --> 00:03:46,679
+so this height right over here is going to be equal to "b"
+
+54
+00:03:46,679 --> 00:03:51,078
+(the Y co-ordinate over here is "b"; this height is equal to "b")
+
+55
+00:03:51,078 --> 00:03:55,662
+now, exact same logic: what is the length of this base going to be?
+
+56
+00:03:55,662 --> 00:03:59,860
+the base just of the "right-triangle"?
+
+57
+00:03:59,860 --> 00:04:04,278
+well this is going to be the X co-ordinate of this point of intersection
+
+58
+00:04:04,278 --> 00:04:07,528
+and if you were to drop this down... this is the point: X equals "a"
+
+59
+00:04:07,528 --> 00:04:15,161
+or this whole length between the origin and that, is of length "a".
+
+60
+00:04:15,161 --> 00:04:17,260
+now that we have set that up-
+
+61
+00:04:17,260 --> 00:04:32,994
+What is the co-sine of my angle going to be? (in terms of a's and b's and any other number that might show up)
+
+62
+00:04:32,994 --> 00:04:36,411
+well to think about that we just need our "SOH CAH TOA" definition
+
+63
+00:04:36,411 --> 00:04:40,180
+that's the only one we have now (we're actually in the process of extending it)
+
+64
+00:04:40,180 --> 00:04:44,594
+..."SOH CAH TOA" definition of trig-functions...
+
+65
+00:04:44,594 --> 00:04:47,645
+and the "CAH" part is what helps us with co-sine; it tells us...
+
+66
+00:04:47,645 --> 00:04:52,879
+that the co-sine of an angle is equal to the length of the adjacent side, over the hypotenuse
+
+67
+00:04:52,879 --> 00:04:54,545
+so what's this going to be?
+
+68
+00:04:54,545 --> 00:04:59,412
+the length of the adjacent side, for this angle... the adjacent side has length "a"
+
+69
+00:04:59,412 --> 00:05:01,779
+so it's going to be equal to "a", over...
+
+70
+00:05:01,779 --> 00:05:03,694
+what's the length of the hypotenuse?
+
+71
+00:05:03,694 --> 00:05:05,761
+well that's just one...
+
+72
+00:05:05,761 --> 00:05:09,328
+so the co-sine of "theta" is just equal to "a"
+
+73
+00:05:09,328 --> 00:05:11,494
+...let me write this down again...
+
+74
+00:05:11,494 --> 00:05:15,578
+so the co-sine of "theta"... is just equal to "a"...
+
+75
+00:05:15,578 --> 00:05:21,678
+it's equal to the X co-ordinate of where the terminal side of this angel intersected the unit circle.
+
+76
+00:05:21,678 --> 00:05:23,829
+now let's think about the sine of "theta"!
+
+77
+00:05:23,829 --> 00:05:28,862
+... and I'm going to do it in (let me see)... I'll do it in orange!
+
+78
+00:05:28,862 --> 00:05:34,961
+so what's the sine of "theta" going to be?
+
+79
+00:05:34,961 --> 00:05:38,545
+well, we just have to look at the "SOH" part of our "SOH CAH TOA" definition
+
+80
+00:05:38,545 --> 00:05:41,744
+it tells us that sine is: opposite, over hypotenuse.
+
+81
+00:05:41,744 --> 00:05:49,011
+well the opposite side here has length "b", and the hypotenuse has length one...
+
+82
+00:05:49,011 --> 00:05:55,261
+so our sine of "theta" is equal to "b"
+
+83
+00:05:55,261 --> 00:06:02,678
+so an interesting thing! This point where our terminal side of our angle intersected the unit circle at point (a,b)
+
+84
+00:06:02,678 --> 00:06:04,745
+we can also view this, as...
+
+85
+00:06:04,745 --> 00:06:11,137
+"a" is the same thing as co-sine of "theta"
+
+86
+00:06:11,137 --> 00:06:16,490
+and "b" is the same thing as sine of "theta"
+
+87
+00:06:16,535 --> 00:06:19,237
+well that's interesting, we just used our "SOH CAH TOA" definition.
+
+88
+00:06:20,960 --> 00:06:24,658
+now, can we in some way use this to extend "SOH CAH TOA" ?
+
+89
+00:06:24,658 --> 00:06:26,326
+because "SOH CAH TOA" has a problem...
+
+90
+00:06:26,326 --> 00:06:31,510
+it works out fine if our angle is greater than zero degree's (if we're dealing with degrees)
+
+91
+00:06:31,510 --> 00:06:36,725
+and if it's less than 90 degrees we can always make it part of a "right-triangle"
+
+92
+00:06:36,725 --> 00:06:42,942
+but "SOH CAH TOA" starts to break down as our angle is either zero, or even becomes negative
+
+93
+00:06:42,942 --> 00:06:46,542
+or as our angle is 90 degrees or more.
+
+94
+00:06:46,542 --> 00:06:49,625
+you can't have a "right-triangle" with two 90 degree angles in it!
+
+95
+00:06:49,625 --> 00:06:52,891
+it starts to break down... let me just make this clear...
+
+96
+00:06:52,891 --> 00:06:57,109
+so sure! this is a "right-triangle", so the angle is pretty large-
+
+97
+00:06:57,109 --> 00:07:00,059
+I can make the angle even larger and still have a "right-triangle"
+
+98
+00:07:00,059 --> 00:07:03,942
+or even larger- but I can never quite get to 90 degrees!
+
+99
+00:07:03,942 --> 00:07:07,991
+at 90 degrees it's not clear that I have a "right-triangle" anymore, it all seems to break down...
+
+100
+00:07:07,991 --> 00:07:12,309
+and especially the case- what happens when I go beyond 90 degrees...
+
+101
+00:07:12,309 --> 00:07:16,389
+so let's see if we can use what we said up here,
+
+102
+00:07:16,389 --> 00:07:19,660
+let's set up a new definition of our trig-functions,
+
+103
+00:07:19,660 --> 00:07:25,360
+which is really an extension of "SOH CAH TOA" and is consistant with "SOH CAH TOA"
+
+104
+00:07:25,360 --> 00:07:31,010
+instead of defining co-sine as "oh if I have a right-triangle, which is the adjacent over the hypotenuse"
+
+105
+00:07:31,010 --> 00:07:34,692
+and saying "sine is the opposite over the hypotenuse, tangent is the opposite over the adjacent"
+
+106
+00:07:34,692 --> 00:07:42,359
+why don't I just say: for any angle, I can draw it in the unit circle using this convention I've just set up.
+
+107
+00:07:42,359 --> 00:07:51,984
+and say that: the co-sine of our angle is equal to the X co-ordinate where we intersect.
+
+108
+00:07:56,792 --> 00:08:02,030
+or where the terminal side of our angle intersects the unit-circle.
+
+109
+00:08:05,111 --> 00:08:17,409
+I'll write... Where the terminal side of the angle intersects the unit-circle...
+
+110
+00:08:17,409 --> 00:08:23,809
+and why don't we define sine of "theta" to be equal to the Y co-ordinate
+
+111
+00:08:23,809 --> 00:08:28,477
+where the terminal side intersects the unit circle.
+
+112
+00:08:28,477 --> 00:08:34,456
+so essentially for any angle- this point is going to define co-sine of theta and sine of theta
+
+113
+00:08:34,456 --> 00:08:37,475
+and so what would be a reasonable definition for tangent of theta?
+
+114
+00:08:37,475 --> 00:08:44,875
+well, tangent of theta (even with SOH CAH TOA) could be defined as "sine of theta, over co-sine of theta"
+
+115
+00:08:44,875 --> 00:08:53,808
+which in this case is just going to be the Y co-ordinate, where we intersect the unit circle, over the X co-ordinate.
+
+116
+00:08:53,808 --> 99:59:59,999
+in the next few video's I'll show some examples where we use the unit circle definition to start evaluating some trig-ratios...

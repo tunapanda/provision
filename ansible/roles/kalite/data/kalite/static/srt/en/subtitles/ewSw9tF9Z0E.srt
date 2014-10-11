@@ -1,0 +1,327 @@
+1
+00:00:00,568 --> 00:00:04,100
+Let's think about the different use cases for credit default swaps,
+
+2
+00:00:04,100 --> 00:00:06,655
+so let's say that I have some company over here
+
+3
+00:00:06,655 --> 00:00:10,451
+and it's been, it's given a BB credit rating
+
+4
+00:00:10,451 --> 00:00:14,480
+and this rating of course comes from a credit rating agency
+
+5
+00:00:14,480 --> 00:00:19,994
+credit rating agency, sometimes called a ratings agency
+
+6
+00:00:19,994 --> 00:00:22,529
+or a rating agency, I've seen it every different way
+
+7
+00:00:22,529 --> 00:00:25,095
+so this would be like Moody's or Standards & Poor's,
+
+8
+00:00:25,095 --> 00:00:26,993
+or whatever else. And they say, they look at this company
+
+9
+00:00:26,993 --> 00:00:28,868
+and they look at it's business, look at it's balance sheet
+
+10
+00:00:28,868 --> 00:00:32,535
+and they say, "Okay, it's not super safe, but it's not super risky either,
+
+11
+00:00:32,535 --> 00:00:33,898
+we give it a BB rating."
+
+12
+00:00:33,898 --> 00:00:36,326
+and let's say that there's an investor over here
+
+13
+00:00:36,326 --> 00:00:40,147
+who wants to lend money to this company
+
+14
+00:00:40,147 --> 00:00:46,471
+so he might lend them some money and get some interest in return
+
+15
+00:00:46,471 --> 00:00:49,479
+but this investor doesn't like this level of safety
+
+16
+00:00:49,479 --> 00:00:52,075
+he wants to make sure that he's made whole
+
+17
+00:00:52,075 --> 00:00:54,897
+even if this company goes out of business,
+
+18
+00:00:54,897 --> 00:00:57,898
+so he can go to a writer of a credit default swap.
+
+19
+00:00:57,898 --> 00:01:04,009
+And the most famous of those credit default swap writers is, or was, AIG
+
+20
+00:01:04,009 --> 00:01:07,281
+And he'll say, "Hey AIG, I'm gonna pay you a little bit every year,"
+
+21
+00:01:07,281 --> 00:01:09,629
+-- you can do that as an insurance premium,
+
+22
+00:01:09,629 --> 00:01:13,812
+and in exchange, you are essentially going to insure
+
+23
+00:01:13,812 --> 00:01:18,311
+you are going to insure me in the case of a default by this company
+
+24
+00:01:18,311 --> 00:01:20,664
+Insurance. And what we already said, it's a little bit shady
+
+25
+00:01:20,664 --> 00:01:22,729
+because AIG, it was not regulated like insurance,
+
+26
+00:01:22,729 --> 00:01:25,313
+so AIG did not have to set anything aside,
+
+27
+00:01:25,313 --> 00:01:29,176
+and what was powerful here for AIG is that the rating agencies
+
+28
+00:01:29,176 --> 00:01:32,676
+continued to give AIG a very high rating.
+
+29
+00:01:32,676 --> 00:01:36,025
+So let's say it had a AA rating, so despite the fact
+
+30
+00:01:36,025 --> 00:01:38,010
+that it kept taking on all these liabilities
+
+31
+00:01:38,010 --> 00:01:40,641
+the credit rating agencies says, "Hey, we'll still give you a AA,"
+
+32
+00:01:40,641 --> 00:01:44,661
+so they're able to use this AA rating to keep writing these contracts
+
+33
+00:01:44,661 --> 00:01:47,315
+to keep writing insurance, not setting anything aside
+
+34
+00:01:47,315 --> 00:01:49,805
+and essentially just getting, almost you could view it,
+
+35
+00:01:49,805 --> 00:01:54,018
+free money with eventually having to pay the piper, eventually.
+
+36
+00:01:54,018 --> 00:01:57,177
+Now, this is one scenario, another scenario is
+
+37
+00:01:57,177 --> 00:02:00,399
+maybe an investment bank creates some type of special purpose entity
+
+38
+00:02:00,399 --> 00:02:04,721
+or some collateralized debt obligation right over here
+
+39
+00:02:04,721 --> 00:02:07,712
+and, they have their different tranches,
+
+40
+00:02:07,712 --> 00:02:11,313
+and maybe for the senior tranche over here
+
+41
+00:02:11,313 --> 00:02:14,293
+just so that they can sell them to pension funds
+
+42
+00:02:14,293 --> 00:02:17,698
+who can only buy AA rated debt,
+
+43
+00:02:17,698 --> 00:02:22,729
+pension funds, the investment bank goes to AIG and says,
+
+44
+00:02:22,729 --> 00:02:27,646
+"Hey, can this entity right over here buy credit default swaps?
+
+45
+00:02:27,646 --> 00:02:32,768
+"...can we enter into credit default swap agreeements on you? So that incase any
+
+46
+00:02:32,768 --> 00:02:36,322
+"... of this stuff were to default you will also insure that."
+
+47
+00:02:36,322 --> 00:02:38,792
+And once we do that, then, a rating agency,
+
+48
+00:02:38,792 --> 00:02:45,137
+so this is a security, this is a senior tranche of a collateralized debt obligation now
+
+49
+00:02:45,137 --> 00:02:47,607
+the senior tranche. And now that that senior tranche
+
+50
+00:02:47,607 --> 00:02:51,284
+is essentially insured by AIG, a credit rating agency
+
+51
+00:02:51,284 --> 00:02:56,346
+once again will assign this a AA rating
+
+52
+00:02:56,346 --> 00:02:59,911
+even though this thing might be made up of a bunch of subprime mortgages
+
+53
+00:02:59,911 --> 00:03:01,783
+and all of the rest, although it is the senior tranche
+
+54
+00:03:01,783 --> 00:03:05,049
+so it will be made whole first, but now pension funds
+
+55
+00:03:05,049 --> 00:03:06,808
+can buy this type of thing.
+
+56
+00:03:06,808 --> 00:03:10,535
+The last use case, is maybe you have a hedge fund out here
+
+57
+00:03:10,535 --> 00:03:15,135
+Hedge fund out here, who doesn't want to lend anybody
+
+58
+00:03:15,135 --> 00:03:17,887
+any money, but is convinced that about
+
+59
+00:03:17,887 --> 00:03:21,246
+a whole bunch of these companies, maybe this company over here
+
+60
+00:03:21,246 --> 00:03:25,690
+or maybe this company over here, that has some other rating
+
+61
+00:03:25,690 --> 00:03:28,696
+so this is another company. This hedge fund is convinced
+
+62
+00:03:28,696 --> 00:03:31,592
+that these companies are going to default on their debt,
+
+63
+00:03:31,592 --> 00:03:34,147
+that there's going to be a credit crisis of some kind,
+
+64
+00:03:34,147 --> 00:03:38,188
+well then this hedge fund can enter into a credit default swap agreements
+
+65
+00:03:38,188 --> 00:03:40,080
+Could enter into credit default swap agreements
+
+66
+00:03:40,080 --> 00:03:43,831
+to essential get insurance, but not having anything to insure
+
+67
+00:03:43,831 --> 00:03:48,151
+it's like getting car insurance on someone else's driving
+
+68
+00:03:48,151 --> 00:03:51,147
+or someone else's car, and you kind of are starting to hope
+
+69
+00:03:51,147 --> 00:03:53,313
+that they have a car accident.
+
+70
+00:03:53,313 --> 00:03:56,209
+And because now this guy has a credit default swap
+
+71
+00:03:56,209 --> 00:03:58,301
+on company, on this company right over here,
+
+72
+00:03:58,301 --> 00:04:00,545
+despite the fact that they didn't lend to them,
+
+73
+00:04:00,545 --> 00:04:04,011
+the hedge fund is going to pay a little bit every year and get the insurance,
+
+74
+00:04:04,011 --> 00:04:07,373
+and they're essentially going to hope that this company
+
+75
+00:04:07,373 --> 00:04:09,313
+goes out of business, because if it does,
+
+76
+00:04:09,313 --> 00:04:11,242
+then they're going to get the insurance payment
+
+77
+00:04:11,242 --> 00:04:13,858
+they're going to get the same payment that this investor would have
+
+78
+00:04:13,858 --> 00:04:15,658
+but they would have never had to lend the money
+
+79
+00:04:15,658 --> 00:04:21,504
+so you could use it as side bet, you could use it as a way of making
+
+80
+00:04:21,504 --> 00:04:24,140
+lower rated securities all of a sudden acceptable to pension funds,
+
+81
+00:04:24,140 --> 00:04:27,606
+or you could use it as a straight up way of insuring debt
+
+82
+00:04:27,606 --> 99:59:59,999
+that you're lending to someone else.

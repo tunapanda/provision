@@ -1,0 +1,751 @@
+1
+00:00:00,080 --> 00:00:03,070
+Where are we? So we're on page 669,
+
+2
+00:00:03,070 --> 00:00:05,990
+and we're going to start on test number five, section seven.
+
+3
+00:00:06,540 --> 00:00:07,580
+Problem number one--
+
+4
+00:00:09,630 --> 00:00:12,070
+if k is a positive integer divisible by 3,
+
+5
+00:00:12,070 --> 00:00:14,830
+and if k is less than 60,
+
+6
+00:00:14,830 --> 00:00:17,570
+what is the greatest possible value of k?
+
+7
+00:00:18,010 --> 00:00:20,710
+So it's a positive integer greater than--
+
+8
+00:00:22,810 --> 00:00:24,170
+it's positive, so it's greater than 0.
+
+9
+00:00:24,170 --> 00:00:27,100
+It's divisible by 3, and it's less than 60.
+
+10
+00:00:27,100 --> 00:00:28,340
+k is less than 60.
+
+11
+00:00:29,560 --> 00:00:31,510
+60 is divisible by 3, right?
+
+12
+00:00:31,510 --> 00:00:32,940
+3 times 20 is 60.
+
+13
+00:00:33,440 --> 00:00:38,810
+So if I subtract 3 from 60,that will also be divisible by 60.
+
+14
+00:00:39,000 --> 00:00:42,230
+So k is equal to 57.
+
+15
+00:00:42,830 --> 00:00:45,250
+Right? k can't be 60 because it's less than 60.
+
+16
+00:00:45,250 --> 00:00:47,340
+And then the next one down is 57.
+
+17
+00:00:47,340 --> 00:00:50,240
+And if you don't believe that 3 is divisible into 57--
+
+18
+00:00:50,240 --> 00:00:56,770
+3 goes into 57-- 1, 1 times 3, 27-- goes into it 19 times.
+
+19
+00:00:57,000 --> 00:01:00,560
+There you go. So the choice is C, 57.
+
+20
+00:01:00,760 --> 00:01:02,240
+And if you haven't learned this already,
+
+21
+00:01:02,240 --> 00:01:04,620
+the easiest way to figure out if the number's divisible by 57
+
+22
+00:01:05,060 --> 00:01:06,150
+add the digits.
+
+23
+00:01:06,150 --> 00:01:09,250
+So 5 plus 7 is 12, 1 plus 2 is 3.
+
+24
+00:01:10,450 --> 00:01:12,020
+So if when you add the digits,
+
+25
+00:01:12,220 --> 00:01:14,320
+the sum you get is divisible by 3,
+
+26
+00:01:14,320 --> 00:01:17,140
+then the original number is also divisible by 3.
+
+27
+00:01:17,140 --> 00:01:18,810
+So you could actually have gone down the choices,
+
+28
+00:01:18,810 --> 00:01:19,820
+but you don't want to waste too much time
+
+29
+00:01:19,820 --> 00:01:20,650
+on the first problem.
+
+30
+00:01:21,040 --> 00:01:22,340
+Problem two--
+
+31
+00:01:23,340 --> 00:01:26,330
+the letter H is symmetric with respect to two different lines
+
+32
+00:01:26,330 --> 00:01:28,200
+as shown in the dotted line in the figure above.
+
+33
+00:01:28,600 --> 00:01:30,060
+Which of the following is symmetric
+
+34
+00:01:30,060 --> 00:01:31,820
+with respect to at least two different lines?
+
+35
+00:01:31,820 --> 00:01:33,580
+So when they talk about H,they're saying--
+
+36
+00:01:34,070 --> 00:01:38,060
+if I draw an H, they draw this line of symmetry here.
+
+37
+00:01:39,010 --> 00:01:41,240
+And that means if I were to flip H over this way,
+
+38
+00:01:41,240 --> 00:01:42,170
+I get the same thing.
+
+39
+00:01:42,170 --> 00:01:45,030
+If I were to flip it over this line, I get the same thing.
+
+40
+00:01:45,030 --> 00:01:47,810
+It's like a mirror image on either side. Right?
+
+41
+00:01:48,330 --> 00:01:52,320
+This green line is a mirror image of this purple line.
+
+42
+00:01:52,620 --> 00:01:53,910
+And the other way is true too.
+
+43
+00:01:53,910 --> 00:01:54,850
+If I have H,
+
+44
+00:01:55,850 --> 00:02:03,030
+this mauve part is the mirror image of this brown part
+
+45
+00:02:03,330 --> 00:02:04,910
+along the horizontal axis.
+
+46
+00:02:04,910 --> 00:02:09,660
+If I were to draw a--if this was the axis of the mirror image
+
+47
+00:02:09,660 --> 00:02:11,510
+So which of the other letters has it?
+
+48
+00:02:11,510 --> 00:02:13,870
+So it should be a letter that looks the same--
+
+49
+00:02:14,170 --> 00:02:16,820
+that could be kind of folded in half either vertically
+
+50
+00:02:16,820 --> 00:02:17,830
+or horizontally.
+
+51
+00:02:18,010 --> 00:02:21,320
+And if we look at all the choices,X is definitely the answer.
+
+52
+00:02:21,320 --> 00:02:22,190
+Because if you have an X,
+
+53
+00:02:23,740 --> 00:02:25,810
+and if you have a vertical line of symmetry,
+
+54
+00:02:26,810 --> 00:02:28,330
+notice that the left-hand side
+
+55
+00:02:28,330 --> 00:02:29,690
+is the mirror image of the right-hand side.
+
+56
+00:02:29,690 --> 00:02:31,080
+Or you could flip it over, right?
+
+57
+00:02:31,080 --> 00:02:31,870
+They look the same.
+
+58
+00:02:32,000 --> 00:02:34,340
+It almost looks like a reflection of the other side.
+
+59
+00:02:34,340 --> 00:02:36,360
+Similarly, if you took it the other way.
+
+60
+00:02:39,010 --> 00:02:41,840
+Also you could flip it up and down,
+
+61
+00:02:41,840 --> 00:02:43,760
+and they also have the mirror image.
+
+62
+00:02:43,760 --> 00:02:45,850
+None of the other letters have that property.
+
+63
+00:02:48,000 --> 00:02:56,320
+Next problem. Problem number three.
+
+64
+00:02:56,920 --> 00:03:00,950
+Bobby receives $2.00 for each chore he does during the week,
+
+65
+00:03:01,010 --> 00:03:03,720
+plus a weekly allowance of $10.00.
+
+66
+00:03:04,000 --> 00:03:05,420
+If Bobby receives no other money,
+
+67
+00:03:05,540 --> 00:03:06,760
+which of the following expressions
+
+68
+00:03:07,490 --> 00:03:10,620
+represents the total dollar amount Bobby receives per week
+
+69
+00:03:10,620 --> 00:03:11,910
+in which he does n chores?
+
+70
+00:03:11,910 --> 00:03:13,060
+So if he does n chores,
+
+71
+00:03:13,960 --> 00:03:16,070
+how much money is he going to get just from doing chores?
+
+72
+00:03:16,770 --> 00:03:19,660
+He does n chores, and how much does he get per chore?
+
+73
+00:03:19,660 --> 00:03:21,810
+Well, he gets $2.00. Times 2.
+
+74
+00:03:22,000 --> 00:03:24,280
+So this is how much he gets just from doing chores,
+
+75
+00:03:24,280 --> 00:03:26,030
+2n, or n times 2.
+
+76
+00:03:26,430 --> 00:03:27,290
+And then how much is he going to get
+
+77
+00:03:27,290 --> 00:03:28,810
+even if he does 0 chores?
+
+78
+00:03:30,060 --> 00:03:32,210
+He gets a $10.00 allowance no matter what,
+
+79
+00:03:32,700 --> 00:03:35,770
+far more than I ever got as a child.
+
+80
+00:03:36,670 --> 00:03:38,860
+So what is the formula?
+
+81
+00:03:38,860 --> 00:03:42,620
+It's 2n plus 10, is the amount of money he gets.
+
+82
+00:03:42,620 --> 00:03:46,930
+And that is choice D. Right?
+
+83
+00:03:46,930 --> 00:03:49,280
+n is the number of chores, he gets $2.00 per chore,
+
+84
+00:03:49,280 --> 00:03:50,770
+and he gets $10.00 no matter what,
+
+85
+00:03:50,770 --> 00:03:52,510
+even if n is 0, even if he does no chores.
+
+86
+00:03:53,690 --> 00:03:55,730
+Next problem, four.
+
+87
+00:03:57,040 --> 00:04:00,290
+The smallest squares in figure A and figure B
+
+88
+00:04:00,290 --> 00:04:02,230
+are all equal in size.
+
+89
+00:04:02,230 --> 00:04:05,470
+If the area in A is 26 square centimeters,
+
+90
+00:04:05,470 --> 00:04:08,060
+what is the area of figure B?
+
+91
+00:04:08,060 --> 00:04:11,370
+So let's see if I can draw these figures.
+
+92
+00:04:12,030 --> 00:04:14,880
+So I'll use the line tool, so a looks like--
+
+93
+00:04:14,880 --> 00:04:16,340
+let's see, you have a line there.
+
+94
+00:04:16,630 --> 00:04:18,330
+So let me draw a rectangle.
+
+95
+00:04:20,020 --> 00:04:25,680
+So the rectangle looks like that. Close enough.
+
+96
+00:04:26,020 --> 00:04:28,770
+And then there's another rectangle that's like this.
+
+97
+00:04:34,440 --> 00:04:36,700
+Another rectangle like this--
+
+98
+00:04:36,980 --> 00:04:40,350
+the drawing is the hardest part, my shaky hands.
+
+99
+00:04:42,050 --> 00:04:43,720
+OK, almost there.
+
+100
+00:04:50,000 --> 00:04:52,430
+I think you get the point,I try my best.
+
+101
+00:04:52,730 --> 00:04:53,700
+Have to give me credit.
+
+102
+00:04:53,700 --> 00:04:57,300
+OK, so that's figure A, and then figure B looks like this.
+
+103
+00:05:00,070 --> 00:05:04,240
+Horizontal line, and then a vertical line like that.
+
+104
+00:05:05,350 --> 00:05:10,910
+And then, let's see,it has that. Connect these two.
+
+105
+00:05:11,560 --> 00:05:17,680
+And then-- oh boy,this is tiring. I have a line like that.
+
+106
+00:05:18,010 --> 00:05:20,620
+And then it gets split roughly in half over there.
+
+107
+00:05:22,460 --> 00:05:24,770
+And then this connects like that.
+
+108
+00:05:25,430 --> 00:05:27,760
+That connects like that.
+
+109
+00:05:28,780 --> 00:05:30,000
+And then I have a line like that.
+
+110
+00:05:30,340 --> 00:05:33,260
+So what they're telling us is in figure A--
+
+111
+00:05:33,630 --> 00:05:38,630
+whoops, I don't want to do that, edit undo--
+
+112
+00:05:39,430 --> 00:05:41,160
+what they're saying is figure A,
+
+113
+00:05:41,560 --> 00:05:42,280
+each of these squares
+
+114
+00:05:42,280 --> 00:05:44,590
+are the same size as each of these squares in figure B.
+
+115
+00:05:45,010 --> 00:05:46,380
+And they also tell us
+
+116
+00:05:46,430 --> 00:05:49,600
+that figure A is 26 square centimeters.
+
+117
+00:05:49,600 --> 00:05:53,810
+So the area is 26 centimeters squared.
+
+118
+00:05:54,680 --> 00:05:57,070
+So we want to figure out the area of B.
+
+119
+00:05:57,070 --> 00:05:58,470
+We have to just figure out,
+
+120
+00:05:58,470 --> 00:06:01,080
+how big is each of these little tiles.Right?
+
+121
+00:06:01,080 --> 00:06:03,040
+So how many tiles are in a? Let's count them.
+
+122
+00:06:03,840 --> 00:06:12,140
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13. 13 tiles.
+
+123
+00:06:12,140 --> 00:06:16,000
+And they're 26 centimeters cubed total, right?
+
+124
+00:06:16,540 --> 00:06:21,730
+So if 13 times the area of a tile is equal to 26 centimeters,
+
+125
+00:06:21,730 --> 00:06:23,730
+a tile-- divide both sides by 13--
+
+126
+00:06:23,730 --> 00:06:25,790
+is 2 centimeters squared, right?
+
+127
+00:06:25,790 --> 00:06:27,360
+Each tile is 2 centimeters squared.
+
+128
+00:06:27,960 --> 00:06:29,860
+And how many tiles does B have?
+
+129
+00:06:30,000 --> 00:06:34,550
+1, 2, 3, 4, 5, 6, 7, 8. It has 8.
+
+130
+00:06:35,020 --> 00:06:38,060
+So its area is 8 times the number of tiles--
+
+131
+00:06:38,060 --> 00:06:39,140
+or the area of the tiles.
+
+132
+00:06:39,140 --> 00:06:40,880
+And we know what the area of the tiles are--
+
+133
+00:06:40,880 --> 00:06:42,500
+it's 2, because it's the same as A.
+
+134
+00:06:42,800 --> 00:06:45,120
+So area is equal to 8 times 2,
+
+135
+00:06:45,120 --> 00:06:48,910
+which is equal to 16 centimeters squared, which is choice C.
+
+136
+00:06:50,020 --> 00:06:52,690
+Next problem. More drawing for Sal.
+
+137
+00:06:53,890 --> 00:06:59,410
+Oh boys, it's the drawing that really tires me. OK.
+
+138
+00:06:59,410 --> 00:07:02,670
+And I have to draw it pretty accurately, because otherwise--
+
+139
+00:07:02,670 --> 00:07:04,420
+this is all about reading a graph.
+
+140
+00:07:07,870 --> 00:07:10,570
+All right, so let me draw.
+
+141
+00:07:13,310 --> 00:07:19,150
+Let me make the first one-- so Albert goes to like 300.
+
+142
+00:07:20,540 --> 00:07:21,890
+This is 300.
+
+143
+00:07:23,210 --> 00:07:25,840
+And then it's 150, which is roughly half of that.
+
+144
+00:07:30,320 --> 00:07:32,830
+And then the next guy is like a little over 200,
+
+145
+00:07:32,830 --> 00:07:33,920
+so it's like 2/3.
+
+146
+00:07:35,030 --> 00:07:37,710
+I'm just trying my best,trying my best.
+
+147
+00:07:38,980 --> 00:07:42,570
+Then the next guy, I guess at like 250, here.
+
+148
+00:07:45,020 --> 00:07:47,450
+And then the last guy-- I'm drawing the white boxes,
+
+149
+00:07:47,450 --> 00:07:50,640
+this is pretty much the same number. Like that.
+
+150
+00:07:52,000 --> 00:07:53,500
+And then let me draw the other one in here,
+
+151
+00:07:53,500 --> 00:08:00,490
+so the other guy is 150. This guy gets to 250.
+
+152
+00:08:00,890 --> 00:08:04,240
+Which I said was roughly the same amount as
+
+153
+00:08:05,570 --> 00:08:07,450
+these guys over here.
+
+154
+00:08:12,420 --> 00:08:13,820
+Next guy looks about the same.
+
+155
+00:08:15,000 --> 00:08:22,040
+250, that's about that. And this guy is like that.
+
+156
+00:08:22,040 --> 00:08:24,030
+All the work I'm doing now is just to redraw
+
+157
+00:08:24,030 --> 00:08:27,900
+what you already have. Then this guy is like 350,
+
+158
+00:08:27,900 --> 00:08:29,690
+300 or something,right?
+
+159
+00:08:29,690 --> 00:08:32,110
+If I were to draw-- let me mark it off.
+
+160
+00:08:32,110 --> 00:08:37,470
+So this is 300, this is 150--
+
+161
+00:08:38,270 --> 00:08:41,890
+see those guys that are a little bit under 200.
+
+162
+00:08:42,870 --> 00:08:46,660
+So this is like 200, this is 250.
+
+163
+00:08:47,650 --> 00:08:50,170
+They're asking us, according to the graph above,
+
+164
+00:08:50,170 --> 00:08:52,930
+which salesperson had the greatest increase
+
+165
+00:08:52,930 --> 00:08:55,970
+in the number of units sold from 1998 to 1999?
+
+166
+00:08:56,030 --> 00:09:00,940
+So the 1998 ones are the blue ones,
+
+167
+00:09:00,940 --> 00:09:02,550
+and 1999 are the red ones.
+
+168
+00:09:02,550 --> 00:09:04,180
+So you're essentially saying,
+
+169
+00:09:04,180 --> 00:09:05,790
+who had the greatest increase
+
+170
+00:09:05,790 --> 00:09:07,920
+going from the blue to the red, right?
+
+171
+00:09:08,010 --> 00:09:11,920
+And this is Albert, this is Goldberg, Patel--
+
+172
+00:09:12,070 --> 00:09:16,600
+that's nice, they included an Indian guy. Smith, Wang.
+
+173
+00:09:17,010 --> 00:09:19,360
+I look forward to when they have a Khan on the SAT,
+
+174
+00:09:19,360 --> 00:09:20,100
+but anyway.
+
+175
+00:09:20,990 --> 00:09:23,130
+So who increased the most going from the blue year,
+
+176
+00:09:23,130 --> 00:09:24,830
+1998, to 1999.
+
+177
+00:09:25,010 --> 00:09:26,970
+This guy clearly decreased,right?
+
+178
+00:09:27,010 --> 00:09:29,720
+He went from 300 to 150,so it's not him.
+
+179
+00:09:30,040 --> 00:09:31,590
+This guy decreased,
+
+180
+00:09:31,590 --> 00:09:33,670
+he went from something larger to something smaller,
+
+181
+00:09:33,670 --> 00:09:34,420
+so it's not him.
+
+182
+00:09:34,920 --> 00:09:36,330
+So who had the largest increase?
+
+183
+00:09:36,330 --> 00:09:38,150
+Well, you could eyeball it, right?
+
+184
+00:09:38,150 --> 00:09:38,920
+Where are the increases?
+
+185
+00:09:38,920 --> 00:09:44,410
+This guy increased this much,
+
+186
+00:09:45,310 --> 00:09:50,020
+compared to a smaller increase here,and a smaller increase here.
+
+187
+00:09:50,650 --> 00:09:55,700
+So the answer is G, or Goldberg,which is choice B.
+
+188
+00:09:56,320 --> 00:09:58,010
+See you in the next video.

@@ -1,0 +1,339 @@
+1
+00:00:00,060 --> 00:00:07,390
+We are on problem 18. They give us an equation.
+
+2
+00:00:07,390 --> 00:00:20,070
+h of t is equal to c minus d minus 4t, all of that squared.
+
+3
+00:00:20,470 --> 00:00:22,310
+At time equals 0,
+
+4
+00:00:22,310 --> 00:00:25,520
+a ball was thrown up from an initial height of 6 feet.
+
+5
+00:00:25,520 --> 00:00:27,260
+Until the ball hit the ground,
+
+6
+00:00:27,260 --> 00:00:29,700
+its height in feet after t seconds was given
+
+7
+00:00:29,700 --> 00:00:31,040
+by the function h above.
+
+8
+00:00:31,040 --> 00:00:32,710
+And c and d are positive constants.
+
+9
+00:00:32,710 --> 00:00:34,450
+So they're telling us at time 0
+
+10
+00:00:34,450 --> 00:00:36,600
+we're already at height 6, right?
+
+11
+00:00:37,000 --> 00:00:42,360
+So h of 0, time 0, the height is already 6.
+
+12
+00:00:44,000 --> 00:00:44,990
+If the ball
+
+13
+00:00:44,990 --> 00:00:48,770
+reaches its maximum height of 106 feet at time 2.5,
+
+14
+00:00:49,370 --> 00:00:54,830
+so h of 2.5 is equal to 106,
+
+15
+00:00:55,830 --> 00:00:59,370
+what is the height in feet of the ball at time t equals 1?
+
+16
+00:00:59,370 --> 00:01:01,090
+So we want to figure out h of 1.
+
+17
+00:01:01,890 --> 00:01:03,460
+That's what they want to know.
+
+18
+00:01:04,560 --> 00:01:06,350
+So in order to figure out h of 1,
+
+19
+00:01:06,350 --> 00:01:07,790
+we essentially have to figure out what c
+
+20
+00:01:08,090 --> 00:01:10,770
+and d are going to be, right?
+
+21
+00:01:11,020 --> 00:01:12,080
+So how can we do that?
+
+22
+00:01:12,080 --> 00:01:15,270
+Well, we know what h of 0 is, so let's substitute.
+
+23
+00:01:15,270 --> 00:01:19,710
+So h of 0 gives us this. Let's put t equals 0 here.
+
+24
+00:01:19,710 --> 00:01:29,220
+You get c minus d minus 4 times 0 squared.
+
+25
+00:01:30,020 --> 00:01:32,210
+And that is equal to 6.
+
+26
+00:01:33,000 --> 00:01:37,470
+And then if we simplify this,this is, of course, 0, right?
+
+27
+00:01:37,470 --> 00:01:43,780
+So you get c minus d squared is equal to 6.
+
+28
+00:01:45,030 --> 00:01:49,030
+Now the second equation, h of 2.5 is equal to 106.
+
+29
+00:01:49,030 --> 00:01:56,930
+So that means that c minus d minus-- what's 4 times 2.5?
+
+30
+00:01:57,010 --> 00:02:00,880
+4 times 2.5 is 10, right? I put 2.5 in for t.
+
+31
+00:02:03,530 --> 00:02:05,000
+I just did that to save some space.
+
+32
+00:02:05,000 --> 00:02:08,500
+d minus 10 squared is equal to 106.
+
+33
+00:02:09,010 --> 00:02:11,660
+And now if we want to multiply this out
+
+34
+00:02:11,660 --> 00:02:13,130
+just to see where this takes us,
+
+35
+00:02:13,130 --> 00:02:14,590
+because actually I don't know where it will,
+
+36
+00:02:14,990 --> 00:02:19,650
+you get c minus-- I'll put it in brackets
+
+37
+00:02:19,650 --> 00:02:20,920
+because it's going to be a long expression--
+
+38
+00:02:21,220 --> 00:02:27,540
+multiplying this out, you get d squared minus 20d plus 100.
+
+39
+00:02:28,480 --> 00:02:30,770
+All that equals 106.
+
+40
+00:02:31,570 --> 00:02:35,050
+And then distribute the negative signs, you get c
+
+41
+00:02:35,350 --> 00:02:37,870
+squared-- sorry, this isn't a square,
+
+42
+00:02:37,870 --> 00:02:38,890
+I don't know where I got the squared from.
+
+43
+00:02:38,890 --> 00:02:41,090
+See what happens when you take the SAT?
+
+44
+00:02:41,090 --> 00:02:46,900
+c minus d squared plus 20d minus 100--
+
+45
+00:02:46,900 --> 00:02:50,300
+I just distributed the negative sign--is equal to 106.
+
+46
+00:02:51,450 --> 00:02:54,540
+And then, let's see, we could add 100 to both sides.
+
+47
+00:02:54,540 --> 00:03:01,900
+You get c minus d squared plus 20d is equal to 206.
+
+48
+00:03:01,900 --> 00:03:03,020
+I just added 100 to both sides.
+
+49
+00:03:03,550 --> 00:03:05,460
+So we're left with two equations.
+
+50
+00:03:05,460 --> 00:03:08,130
+We're left with this: c minus d squared is equal to 6.
+
+51
+00:03:08,730 --> 00:03:10,070
+And then we're left with this:
+
+52
+00:03:10,070 --> 00:03:14,220
+c minus d squared plus 20d is equal to 206.
+
+53
+00:03:14,220 --> 00:03:16,430
+And something should be jumping out at you.
+
+54
+00:03:16,430 --> 00:03:19,010
+There's a c minus d squared in both terms.
+
+55
+00:03:19,010 --> 00:03:20,400
+c minus d squared is 4.
+
+56
+00:03:20,400 --> 00:03:22,610
+Oh no, sorry, c minus d squared is 6,
+
+57
+00:03:22,610 --> 00:03:24,350
+the previous equation tells us.
+
+58
+00:03:24,350 --> 00:03:26,220
+So we can substitute 6 right here.
+
+59
+00:03:26,720 --> 00:03:32,770
+So if you put 6 there, you got 6 plus 20d is equal to 206.
+
+60
+00:03:33,010 --> 00:03:34,630
+Subtract 6 from both sides.
+
+61
+00:03:35,020 --> 00:03:39,570
+20d is equal to 200. d is equal to 10.
+
+62
+00:03:40,670 --> 00:03:42,800
+Now if we substitute d equals 10
+
+63
+00:03:42,800 --> 00:03:45,740
+back in to c minus d squared, what do we have?
+
+64
+00:03:46,030 --> 00:03:47,710
+d is equal to 10, right?
+
+65
+00:03:47,710 --> 00:03:54,650
+So c minus 100 is equal to 6, or c is equal to 106.
+
+66
+00:03:55,670 --> 00:03:58,040
+And if you have an intuition for how parabolas look,
+
+67
+00:03:58,040 --> 00:04:00,330
+you probably could've not guessed,
+
+68
+00:04:00,330 --> 00:04:01,380
+you probably would have known that.
+
+69
+00:04:01,380 --> 00:04:02,170
+You would have known that
+
+70
+00:04:02,210 --> 00:04:06,020
+c is actually going to be the peak point of this parabola.
+
+71
+00:04:06,020 --> 00:04:09,650
+And they tell us that the peak point is at point 106.
+
+72
+00:04:09,650 --> 00:04:11,280
+And then you could've solved for d from there.
+
+73
+00:04:11,280 --> 00:04:12,910
+But if you didn't have that intuition,
+
+74
+00:04:12,910 --> 00:04:14,430
+you could've just chugged through the algebra
+
+75
+00:04:14,430 --> 00:04:15,040
+like we just did.
+
+76
+00:04:15,040 --> 00:04:16,680
+So we know c, we know d,
+
+77
+00:04:16,980 --> 00:04:22,370
+so we know the function is now h of t is equal to 106,
+
+78
+00:04:23,040 --> 00:04:31,680
+minus 10, minus 4t, all of that squared.
+
+79
+00:04:32,430 --> 00:04:34,380
+And so we want to know what happens when t equals 1,
+
+80
+00:04:34,380 --> 00:04:46,040
+so h of 1 is equal to 106, minus 10 minus 4 squared.
+
+81
+00:04:46,040 --> 00:04:54,150
+So that equals 106 minus 6 squared equals 106 minus 36,
+
+82
+00:04:54,150 --> 00:04:57,580
+which is equal to 70. And we are done.
+
+83
+00:04:57,580 --> 00:05:01,360
+h of 1 is equal to 70, which took us a little time,
+
+84
+00:05:01,660 --> 00:05:03,570
+but it was worth it.
+
+85
+00:05:04,010 --> 00:05:05,090
+I'll see you in the next

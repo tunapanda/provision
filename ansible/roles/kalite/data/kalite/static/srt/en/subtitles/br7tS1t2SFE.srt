@@ -1,0 +1,355 @@
+1
+00:00:00,003 --> 00:00:04,271
+A vector is something that has both magnitude and
+
+2
+00:00:04,271 --> 00:00:07,202
+direction...magnitude...
+
+3
+00:00:07,202 --> 00:00:11,741
+and direction. So let's think of an example of what
+
+4
+00:00:11,741 --> 00:00:13,870
+wouldn't and what would be a vector.
+
+5
+00:00:13,870 --> 00:00:17,002
+So, if someone tells you that something is moving at
+
+6
+00:00:17,002 --> 00:00:21,682
+5 miles per hour. This information by itself is not a vector quantity.
+
+7
+00:00:21,682 --> 00:00:25,540
+It's only...It's only specifying a magnitude
+
+8
+00:00:25,540 --> 00:00:29,269
+We don't know what direction this thing is moving 5 miles per hour in.
+
+9
+00:00:29,269 --> 00:00:33,142
+So, this right over here, which is often referred to as a speed...
+
+10
+00:00:33,142 --> 00:00:37,359
+this is a speed...is not a vector quantity just by itself.
+
+11
+00:00:37,359 --> 00:00:41,414
+This is considered to be a scalar quantity.
+
+12
+00:00:41,414 --> 00:00:45,269
+If we want it to be a vector, we would also have to specify the direction.
+
+13
+00:00:45,269 --> 00:00:49,539
+So, for example, someone might say, "It's moving 5 miles
+
+14
+00:00:49,539 --> 00:00:53,070
+per hour, east." So, let's say it's moving 5 miles per hour
+
+15
+00:00:53,070 --> 00:00:57,070
+due east. So, now this combined, 5 miles per hour due east...
+
+16
+00:00:57,070 --> 00:01:00,799
+...this is a vector quantity and now we wouldn't call it speed anymore
+
+17
+00:01:00,799 --> 00:01:08,872
+we would call it velocity...So, velocity is a vector. We're specifying the magnitude 5 miles
+
+18
+00:01:08,872 --> 00:01:12,774
+per hour and the direction east. But how
+
+19
+00:01:12,774 --> 00:01:16,524
+can we actually visualize this? So, let's say we're operating
+
+20
+00:01:16,524 --> 00:01:19,868
+in two dimensions. And what's neat about linear algebra is obviously
+
+21
+00:01:19,868 --> 00:01:24,268
+a lot of what applies in two dimensions...we'll extend to three and then even four, five,
+
+22
+00:01:24,268 --> 00:01:27,871
+six...as many dimensions as we want...our brains have trouble visualizing beyond
+
+23
+00:01:27,871 --> 00:01:32,202
+three, but what's neat is we can mathematically deal with beyond three
+
+24
+00:01:32,202 --> 00:01:34,742
+using linear algebra...and we'll see that in
+
+25
+00:01:34,742 --> 00:01:35,870
+future videos.
+
+26
+00:01:35,870 --> 00:01:39,736
+But let's just go back to our straight, traditional two-dimensional vector
+
+27
+00:01:39,736 --> 00:01:43,600
+right over here. So, one way we could represent it as an
+
+28
+00:01:43,600 --> 00:01:47,015
+arrow that is 5 units long. We'll assume that each of our units
+
+29
+00:01:47,015 --> 00:01:51,608
+are unit here as mph. And that's pointed to
+
+30
+00:01:51,608 --> 00:01:55,607
+the right, where we'll say the right is east. So, for example
+
+31
+00:01:55,607 --> 00:01:59,852
+I could start and arrow right over here and I could make its length=5...the
+
+32
+00:01:59,852 --> 00:02:03,539
+length of the arrow specifies the magnitude. So, one...
+
+33
+00:02:03,539 --> 00:02:06,853
+two...three...four...five.
+
+34
+00:02:06,853 --> 00:02:11,358
+And then the direction that the arrow is pointed in, specifies
+
+35
+00:02:11,358 --> 00:02:15,135
+its direction. So, this right over here could
+
+36
+00:02:15,135 --> 00:02:22,934
+represent visually this vector. If we say that the horizontal axis is, say, east or that the positive
+
+37
+00:02:22,934 --> 00:02:26,871
+horizontal direction is moving in the east, this would be west, that would be north and then
+
+38
+00:02:26,871 --> 00:02:30,940
+that would be south. Now, what's interesting about vectors is that we only
+
+39
+00:02:30,940 --> 00:02:33,771
+care about the magnitude and the direction. We don't necessarily
+
+40
+00:02:33,771 --> 00:02:38,536
+care where we start...where we place it...when we thing of it visually like this.
+
+41
+00:02:38,536 --> 00:02:42,203
+So, for example, this would be the exact same vector, or would be equivalent vector
+
+42
+00:02:42,203 --> 00:02:46,688
+to this. This vector has the same length, so it has
+
+43
+00:02:46,688 --> 00:02:50,142
+the same magnitude...has a length of five. And its direction is also
+
+44
+00:02:50,142 --> 00:02:54,274
+due east. So, these two vectors are equivalent. Now, one thing
+
+45
+00:02:54,274 --> 00:02:57,803
+that you might say is, "Well, that's fair enough, but how do we represent it with a little bit more mathematical
+
+46
+00:02:57,803 --> 00:03:02,203
+notations. We don't have to draw it every time and we could start performing operations on it."
+
+47
+00:03:02,203 --> 00:03:06,142
+Well the typical way, 1.if you want a variable to represent a vector
+
+48
+00:03:06,142 --> 00:03:10,355
+is usually a lower case letter. If you have...if you're publishing a book,
+
+49
+00:03:10,355 --> 00:03:14,024
+you can bold it. But't when you're doing it in your notebook, you would typically put a little
+
+50
+00:03:14,024 --> 00:03:18,202
+arrow on top of it. And you usually...there're several ways that you could do it
+
+51
+00:03:18,202 --> 00:03:19,202
+You could say
+
+52
+00:03:19,202 --> 00:03:21,936
+'Hey, 5 miles per hour, east.' But that doesn't feel like you can really operate on
+
+53
+00:03:21,936 --> 00:03:25,936
+that easily. The typical way is to specify...if you're in two
+
+54
+00:03:25,936 --> 00:03:29,773
+dimensions...to specify two numbers that tell you how much is this
+
+55
+00:03:29,773 --> 00:03:33,869
+vector moving in each of these dimensions. So,
+
+56
+00:03:33,869 --> 00:03:38,136
+for example, this one only moves in the horizontal dimension and so, we'll put a
+
+57
+00:03:38,136 --> 00:03:41,026
+horizontal dimension first. So, you might call this vector:
+
+58
+00:03:41,026 --> 00:03:46,022
+(5,0). It's moving 5...positive 5
+
+59
+00:03:46,022 --> 00:03:49,191
+in the horizontal direction and it's not moving at all
+
+60
+00:03:49,191 --> 00:03:53,469
+in the vertical direction. And the notation might change. You might also see
+
+61
+00:03:53,469 --> 00:03:57,611
+notation and actually in a linear algebra context, it's more typical to write it as a
+
+62
+00:03:57,611 --> 00:04:00,936
+column vector like this. Five...Zero...
+
+63
+00:04:00,936 --> 00:04:06,002
+Once again, The first coordinate represents how much we're moving in the horizontal
+
+64
+00:04:06,002 --> 00:04:09,069
+direction and the second coordinate represents how
+
+65
+00:04:09,069 --> 00:04:13,023
+much are we moving in the
+
+66
+00:04:13,023 --> 00:04:17,538
+vertical direction. Now, this one isn't that interesting. You could have other
+
+67
+00:04:17,538 --> 00:04:21,409
+vectors. You can have a vector that looks like this...that's moving...let's say it's moving
+
+68
+00:04:21,409 --> 00:04:23,851
+3 in the horizontal direction and
+
+69
+00:04:23,851 --> 00:04:29,803
++4...so...one, two, three, four...in
+
+70
+00:04:29,803 --> 00:04:32,609
+the vertical direction. So, let me see, it might look something like
+
+71
+00:04:32,609 --> 00:04:37,207
+this. So, this could be another
+
+72
+00:04:37,207 --> 00:04:41,074
+vector right over here. May be, we call this vector...
+
+73
+00:04:41,074 --> 00:04:44,940
+Vector A; and once I wanna specify that it is a vector
+
+74
+00:04:44,940 --> 00:04:49,277
+and you see here that if you were to break it down in its...
+
+75
+00:04:49,277 --> 00:04:52,805
+in the horizontal direction...it is moving
+
+76
+00:04:52,805 --> 00:04:56,942
+three or it's shifting
+
+77
+00:04:56,942 --> 00:05:02,203
+three in the horizontal direction and it's shifting four...positive four...
+
+78
+00:05:02,203 --> 00:05:05,275
+in the vertical direction. And we get that by literally thinking about
+
+79
+00:05:05,275 --> 00:05:09,024
+how much we're moving up and how much we're moving to the right when
+
+80
+00:05:09,024 --> 00:05:12,609
+we start at the end of the arrow(we start at the tail of the arrow and go towards its head) and go to the front of it
+
+81
+00:05:12,609 --> 00:05:15,538
+So, this vector might be specified as
+
+82
+00:05:15,538 --> 00:05:19,360
+(3,4)
+
+83
+00:05:19,360 --> 00:05:24,691
+And you could use the Pythagorean theorem to figure out the actual length of this
+
+84
+00:05:24,691 --> 00:05:28,108
+vector and you will see 'cause this is a 3-4-5 triangle, that this actually
+
+85
+00:05:28,108 --> 00:05:32,361
+has a magnitude of five. And as we study more
+
+86
+00:05:32,361 --> 00:05:36,743
+and more linear algebra, we're going to start extending these to multiple dimensions.
+
+87
+00:05:36,743 --> 00:05:40,075
+Obviously, we can visualize up to 3-dimensions...and four dimensions become more
+
+88
+00:05:40,075 --> 00:05:44,107
+abstract. And that's why this type of a notations is useful because it's very hard to draw
+
+89
+00:05:44,107 --> 00:05:48,107
+a 4, 5 or 20 dimensional arrow, like this.

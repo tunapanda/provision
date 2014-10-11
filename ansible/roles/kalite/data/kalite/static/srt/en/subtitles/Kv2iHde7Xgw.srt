@@ -1,0 +1,259 @@
+1
+00:00:00,000 --> 00:00:04,272
+We are asked to solve log of x plus log of 3 is equal to
+
+2
+00:00:04,272 --> 00:00:07,082
+2 log of 4 minus log of 2.
+
+3
+00:00:07,082 --> 00:00:10,170
+So let's just rewrite it. So we have the log of x
+
+4
+00:00:10,170 --> 00:00:13,259
+plus the log of 3 is equal to
+
+5
+00:00:13,259 --> 00:00:19,691
+2 times log of 4 minus log of 2.
+
+6
+00:00:19,691 --> 00:00:23,522
+And this is reminder: whenever you see logarithm
+
+7
+00:00:23,522 --> 00:00:26,796
+written without a base, the implicit base is 10.
+
+8
+00:00:26,796 --> 00:00:31,742
+So we could write 10 here, here, here and here.
+
+9
+00:00:31,742 --> 00:00:34,598
+But for the rest of this example, I'll just skip writing 10
+
+10
+00:00:34,598 --> 00:00:36,293
+just cause it'll save a little bit time.
+
+11
+00:00:36,293 --> 00:00:38,731
+But remember it only means log base 10.
+
+12
+00:00:38,731 --> 00:00:40,263
+So this expression right over here
+
+13
+00:00:40,263 --> 00:00:43,166
+is the power I have to raise 10 to get x.
+
+14
+00:00:43,166 --> 00:00:45,883
+Power I have to raise 10 to get 3.
+
+15
+00:00:45,883 --> 00:00:49,412
+Now that out of the way, let's see what logarithm properties we can use.
+
+16
+00:00:49,412 --> 00:00:52,988
+So we know -- and these are all the same base --
+
+17
+00:00:52,988 --> 00:01:00,488
+we know that if we have log base a of b plus log base a of c
+
+18
+00:01:00,488 --> 00:01:06,432
+that this is the same thing as log base a of bc.
+
+19
+00:01:06,432 --> 00:01:08,592
+And we also know -- so let me write all of the
+
+20
+00:01:08,592 --> 00:01:10,449
+logarithm properties that we know, over here.
+
+21
+00:01:10,449 --> 00:01:14,536
+We also know that if we have a logarithm --
+
+22
+00:01:14,536 --> 00:01:22,268
+let me write it this way actually b times log base a of c
+
+23
+00:01:22,268 --> 00:01:26,610
+this is equal to log base a of c to the b-th power.
+
+24
+00:01:26,610 --> 00:01:29,559
+And we also know -- and this is derived really straight from
+
+25
+00:01:29,559 --> 00:01:31,463
+both of these, is:
+
+26
+00:01:31,463 --> 00:01:38,313
+that log base a of b minus log base a of c that this is equal to
+
+27
+00:01:38,313 --> 00:01:41,866
+log base a of b over c.
+
+28
+00:01:41,866 --> 00:01:45,349
+And this is really straight derived from these two right over here.
+
+29
+00:01:45,349 --> 00:01:48,066
+Now with that out of the way let's see what we can apply.
+
+30
+00:01:48,066 --> 00:01:51,851
+So right over here we have -- all of the logs are the same base --
+
+31
+00:01:51,851 --> 00:01:54,405
+we have logarithm of x plus logarithm of 3,
+
+32
+00:01:54,405 --> 00:01:56,657
+so by this property right over here --
+
+33
+00:01:56,657 --> 00:01:58,886
+the sum of the logarithms of the same base
+
+34
+00:01:58,886 --> 00:02:08,824
+this is going to be equal to log base 10 of 3 times x
+
+35
+00:02:08,824 --> 00:02:11,170
+of 3x.
+
+36
+00:02:11,170 --> 00:02:14,049
+Then based on this property right over here
+
+37
+00:02:14,049 --> 00:02:18,112
+this thing can be rewritten, this is going to be equal to
+
+38
+00:02:18,112 --> 00:02:26,727
+this can be written as log base 10 of 4 to the second power,
+
+39
+00:02:26,727 --> 00:02:30,396
+which is really just 16.
+
+40
+00:02:30,396 --> 00:02:39,753
+and then we still have minus logarithm base 10 of 2.
+
+41
+00:02:39,753 --> 00:02:42,099
+And now using this last property --
+
+42
+00:02:42,099 --> 00:02:45,164
+we know we have one logarithm minus another logarithm.
+
+43
+00:02:45,164 --> 00:02:50,504
+This is going to be equal to log base 10 of 16 over 2,
+
+44
+00:02:50,504 --> 00:02:56,170
+16 divided by 2, which is the same thing as 8.
+
+45
+00:02:56,170 --> 00:02:59,374
+So right-hand side simplifies to log base 10 of 8
+
+46
+00:02:59,374 --> 00:03:04,297
+the left-hand side is log base 10 of 3x.
+
+47
+00:03:04,297 --> 00:03:08,801
+So if 10 to some power is going to be equal 3x,
+
+48
+00:03:08,801 --> 00:03:11,356
+10 to the same power is going to be equal to 8.
+
+49
+00:03:11,356 --> 00:03:13,817
+So 3x must be equal to 8.
+
+50
+00:03:13,817 --> 00:03:20,690
+3x is equal to 8.
+
+51
+00:03:20,690 --> 00:03:26,077
+And then we can divide both sides by 3.
+
+52
+00:03:26,077 --> 00:03:29,908
+You get x is equal to 8 over 3.
+
+53
+00:03:29,908 --> 00:03:34,552
+One way this little step here I said: look this is an exponent.
+
+54
+00:03:34,552 --> 00:03:37,107
+If I raise 10 to this exponent I get 3x,
+
+55
+00:03:37,107 --> 00:03:39,057
+10 to this exponent I get 8.
+
+56
+00:03:39,057 --> 00:03:41,309
+So 8 and 3x must be the same thing.
+
+57
+00:03:41,309 --> 00:03:43,515
+One other thing you could think about this is:
+
+58
+00:03:43,515 --> 00:03:46,650
+let's take 10 to this power on both sides.
+
+59
+00:03:46,650 --> 00:03:53,175
+So you could say 10 to this power and then 10 to this power over here.
+
+60
+00:03:53,175 --> 00:03:58,353
+If I raise 10 to the power that I need to raise 10 to get 3x
+
+61
+00:03:58,353 --> 00:04:00,280
+well I'm just going to get 3x!
+
+62
+00:04:00,280 --> 00:04:05,319
+If I raise 10 to the power that I need to raise 10 to get 8
+
+63
+00:04:05,319 --> 00:04:07,455
+I'm just going to get 8.
+
+64
+00:04:07,455 --> 00:04:09,243
+So once again you get 3x is equal to 8.
+
+65
+00:04:09,243 --> 99:59:59,999
+And you can simplify,you get x is equal to 8/3.

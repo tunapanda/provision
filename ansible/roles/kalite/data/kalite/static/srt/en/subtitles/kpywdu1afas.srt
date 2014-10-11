@@ -1,0 +1,827 @@
+1
+00:00:00,750 --> 00:00:05,160
+We learned in the imaginary numbers video, that hopefully
+
+2
+00:00:05,160 --> 00:00:08,800
+you've watched, that every now and then in certain equations
+
+3
+00:00:08,800 --> 00:00:11,840
+you end up with a square root of a negative number.
+
+4
+00:00:11,840 --> 00:00:14,480
+You know, you end up with square root of negative one or
+
+5
+00:00:14,490 --> 00:00:16,640
+square root of negative nine.
+
+6
+00:00:16,640 --> 00:00:19,720
+And since any real number, when you square it, is either zero or
+
+7
+00:00:19,730 --> 00:00:22,620
+positive, this was undefined for us.
+
+8
+00:00:22,620 --> 00:00:25,750
+And then in order to make it defined in that video, people
+
+9
+00:00:25,760 --> 00:00:27,510
+came up with this thing called i.
+
+10
+00:00:27,510 --> 00:00:29,850
+And you can call that the imaginary unit,
+
+11
+00:00:29,850 --> 00:00:32,010
+or just the number i.
+
+12
+00:00:32,020 --> 00:00:36,520
+And you define i as saying, well if i squared-- we'll
+
+13
+00:00:36,520 --> 00:00:37,340
+just make a definition.
+
+14
+00:00:37,340 --> 00:00:40,160
+This thing called i when you square it,
+
+15
+00:00:40,170 --> 00:00:41,610
+it equals negative one.
+
+16
+00:00:41,610 --> 00:00:44,950
+And then that simplifies the idea of taking a
+
+17
+00:00:44,960 --> 00:00:46,200
+negative square root.
+
+18
+00:00:46,200 --> 00:00:48,300
+Because then you could say, oh well the square root of
+
+19
+00:00:48,310 --> 00:00:53,420
+negative nine is the same thing as i times the square root
+
+20
+00:00:53,420 --> 00:00:56,710
+of nine, which equals threei.
+
+21
+00:00:56,720 --> 00:00:57,870
+And how can we say that?
+
+22
+00:00:57,880 --> 00:01:00,390
+Well, what happens when you square this thing?
+
+23
+00:01:00,390 --> 00:01:02,690
+So what's threei squared?
+
+24
+00:01:02,700 --> 00:01:11,120
+threei squared is equal to three squared times i squared.
+
+25
+00:01:11,120 --> 00:01:13,460
+This is just exponent properties.
+
+26
+00:01:13,460 --> 00:01:15,880
+And that equals nine times negative one, which
+
+27
+00:01:15,890 --> 00:01:17,510
+equals negative nine.
+
+28
+00:01:17,510 --> 00:01:22,400
+So threei squared is equal to negative nine.
+
+29
+00:01:22,400 --> 00:01:25,100
+And then if we are kind of extending the definition of
+
+30
+00:01:25,100 --> 00:01:27,170
+square roots to negative numbers, then we can go the
+
+31
+00:01:27,180 --> 00:01:30,600
+other way around and we could say threei is equal to the
+
+32
+00:01:30,600 --> 00:01:32,780
+square root of negative nine.
+
+33
+00:01:32,790 --> 00:01:36,480
+And threei we can call an imaginary number.
+
+34
+00:01:36,480 --> 00:01:39,830
+And the word is "imaginary," but it's as real as anything.
+
+35
+00:01:39,840 --> 00:01:42,660
+I mean to some degree, do negative numbers even exist?
+
+36
+00:01:42,670 --> 00:01:48,560
+They're just kind of a way of us-- when we put this sign in
+
+37
+00:01:48,560 --> 00:01:51,180
+front of things, it just tells us something about how it
+
+38
+00:01:51,180 --> 00:01:53,110
+relates to this magnitude.
+
+39
+00:01:53,120 --> 00:01:54,380
+Anyway, I don't want to confuse you.
+
+40
+00:01:54,390 --> 00:01:57,010
+But imaginary numbers tend to get a bad rap because they're
+
+41
+00:01:57,010 --> 00:02:00,360
+called imaginary numbers, so some people think that they
+
+42
+00:02:00,370 --> 00:02:02,540
+exist less than other things.
+
+43
+00:02:02,540 --> 00:02:06,910
+But with that said, any number times this imaginary unit
+
+44
+00:02:06,920 --> 00:02:10,110
+i is an imaginary number.
+
+45
+00:02:10,110 --> 00:02:13,090
+When you do the quadratic equation you realize that
+
+46
+00:02:13,090 --> 00:02:15,920
+sometimes you end up with a number that has a
+
+47
+00:02:15,930 --> 00:02:16,770
+little bit of both.
+
+48
+00:02:16,770 --> 00:02:20,170
+It has a real part and an imaginary part.
+
+49
+00:02:20,180 --> 00:02:23,620
+So let me give you an example of that.
+
+50
+00:02:23,620 --> 00:02:31,300
+Let's say I have the number five plus twoi.
+
+51
+00:02:31,310 --> 00:02:33,490
+That number you might say, oh, well maybe I can simplify it.
+
+52
+00:02:33,490 --> 00:02:34,430
+But you really can't.
+
+53
+00:02:34,430 --> 00:02:37,450
+You can't add a real number plus an imaginary number.
+
+54
+00:02:37,460 --> 00:02:40,090
+You can almost kind of imagine them-- and I don't want to use
+
+55
+00:02:40,090 --> 00:02:44,020
+the word "imagine" too much-- as in different dimensions.
+
+56
+00:02:44,030 --> 00:02:48,790
+And so a number that has a real part, like the five, and an
+
+57
+00:02:48,800 --> 00:02:53,050
+imaginary part, like the twoi, this is called a
+
+58
+00:02:53,050 --> 00:02:54,060
+complex number.
+
+59
+00:02:54,060 --> 00:02:59,960
+And you could, if you want, even graph a complex number.
+
+60
+00:03:04,550 --> 00:03:05,050
+Let me see.
+
+61
+00:03:05,050 --> 00:03:08,370
+You could make the vertical axis.
+
+62
+00:03:08,370 --> 00:03:11,360
+The vertical axis you could call it the imaginary axis.
+
+63
+00:03:11,370 --> 00:03:14,710
+And you could make the horizontal axis the real axis.
+
+64
+00:03:18,000 --> 00:03:22,590
+This is a symbol for the set of real numbers.
+
+65
+00:03:25,380 --> 00:03:27,640
+And five plus twoi, well it's real part is five.
+
+66
+00:03:27,650 --> 00:03:32,560
+So one, two, three, four, five.
+
+67
+00:03:32,560 --> 00:03:33,960
+That's five.
+
+68
+00:03:33,960 --> 00:03:37,140
+And it's imaginary part is twoi, so you go along the imaginary
+
+69
+00:03:37,150 --> 00:03:40,860
+axis, or the i-axis you could even say, two.
+
+70
+00:03:40,870 --> 00:03:46,710
+And then you would have this number here called five plus twoi.
+
+71
+00:03:46,710 --> 00:03:49,980
+In future videos I'll actually do examples where we'll make
+
+72
+00:03:49,990 --> 00:03:52,870
+more use of complex numbers.
+
+73
+00:03:52,870 --> 00:03:56,510
+But now that we've defined what a complex number is, let's see
+
+74
+00:03:56,520 --> 00:03:58,860
+how we can operate with it.
+
+75
+00:03:58,860 --> 00:04:01,680
+So what happens when we add two complex numbers?
+
+76
+00:04:01,680 --> 00:04:04,860
+Clear image.
+
+77
+00:04:07,120 --> 00:04:08,770
+So let's say we have two complex numbers.
+
+78
+00:04:08,780 --> 00:04:12,150
+One is a plus bi.
+
+79
+00:04:12,150 --> 00:04:16,720
+So the real part is a, the imaginary part is bi.
+
+80
+00:04:16,730 --> 00:04:19,100
+And let's say that I have another complex
+
+81
+00:04:19,110 --> 00:04:26,420
+number, c plus di.
+
+82
+00:04:26,430 --> 00:04:29,230
+And in general the symbol that people tend to use-- you know,
+
+83
+00:04:29,230 --> 00:04:32,320
+you always use x for when you're dealing with equations.
+
+84
+00:04:32,320 --> 00:04:32,630
+Right?
+
+85
+00:04:32,630 --> 00:04:35,070
+Like x could be any general real number when you're
+
+86
+00:04:35,080 --> 00:04:35,910
+dealing with an equation.
+
+87
+00:04:35,920 --> 00:04:39,670
+In complex numbers the convention is to use
+
+88
+00:04:39,670 --> 00:04:41,560
+z, the letter z.
+
+89
+00:04:41,560 --> 00:04:43,620
+So, for example, we could call this the complex
+
+90
+00:04:43,620 --> 00:04:44,980
+number z sub one.
+
+91
+00:04:44,990 --> 00:04:45,800
+And it could have been any.
+
+92
+00:04:45,810 --> 00:04:48,620
+I mean, this choice of z is arbitrary.
+
+93
+00:04:48,620 --> 00:04:49,910
+This is an i right here.
+
+94
+00:04:49,920 --> 00:04:52,300
+This could be z sub two.
+
+95
+00:04:52,310 --> 00:04:57,830
+So what is the complex number z sub one plus z sub two?
+
+96
+00:04:57,830 --> 00:05:04,400
+Well that equals this, a plus bi, plus-- this is z sub
+
+97
+00:05:04,410 --> 00:05:07,200
+two right here-- c plus di.
+
+98
+00:05:07,200 --> 00:05:07,980
+Let me switch colors.
+
+99
+00:05:07,990 --> 00:05:10,500
+This is getting monotonous.
+
+100
+00:05:10,500 --> 00:05:13,350
+So when you add two complex numbers, all you do is you add
+
+101
+00:05:13,360 --> 00:05:16,140
+the real parts to each other and you add the complex
+
+102
+00:05:16,140 --> 00:05:17,220
+parts to each other.
+
+103
+00:05:17,230 --> 00:05:23,520
+So that equals a plus b-- oh sorry.
+
+104
+00:05:23,520 --> 00:05:24,180
+The real parts.
+
+105
+00:05:24,180 --> 00:05:25,300
+So it's a and c.
+
+106
+00:05:25,310 --> 00:05:26,120
+Those are the real parts.
+
+107
+00:05:26,120 --> 00:05:31,350
+So that equals a plus c plus-- and then you add
+
+108
+00:05:31,360 --> 00:05:33,230
+the imaginary parts.
+
+109
+00:05:33,240 --> 00:05:35,180
+b plus d times i.
+
+110
+00:05:35,180 --> 00:05:38,110
+So you have b i's and d i's.
+
+111
+00:05:38,120 --> 00:05:42,430
+So when you add them together you have b plus d i's.
+
+112
+00:05:42,440 --> 00:05:46,050
+b plus d in the imaginary direction, you can
+
+113
+00:05:46,060 --> 00:05:47,390
+almost imagine.
+
+114
+00:05:47,390 --> 00:05:49,090
+I'm using the word imagine too much.
+
+115
+00:05:49,100 --> 00:05:49,730
+So it's pretty easy.
+
+116
+00:05:49,740 --> 00:05:52,680
+You just add the real and you add the imaginary parts.
+
+117
+00:05:52,680 --> 00:05:57,050
+So what happens if you multiply two complex numbers?
+
+118
+00:05:57,060 --> 00:05:58,810
+And actually, let's just go in order.
+
+119
+00:05:58,810 --> 00:05:59,920
+What happens when you subtract them?
+
+120
+00:05:59,930 --> 00:06:00,820
+Well, it's the same thing.
+
+121
+00:06:00,820 --> 00:06:03,870
+Nothing fancy here. z sub one minus z sub two.
+
+122
+00:06:03,870 --> 00:06:06,790
+That's just going to be equal to-- you subtract
+
+123
+00:06:06,800 --> 00:06:08,060
+the real parts.
+
+124
+00:06:08,060 --> 00:06:09,410
+a minus c.
+
+125
+00:06:09,420 --> 00:06:11,070
+And that's the new real part.
+
+126
+00:06:11,070 --> 00:06:13,570
+And then you subtract the imaginary parts.
+
+127
+00:06:13,570 --> 00:06:15,630
+b minus d times i.
+
+128
+00:06:15,630 --> 00:06:17,500
+And this will be the new imaginary part.
+
+129
+00:06:17,500 --> 00:06:19,930
+So this will be the new complex number.
+
+130
+00:06:19,940 --> 00:06:21,750
+What happens when I multiply the two numbers?
+
+131
+00:06:21,760 --> 00:06:26,690
+So what is z sub one times z sub two?
+
+132
+00:06:26,690 --> 00:06:33,440
+Well that equals a plus bi times c plus di.
+
+133
+00:06:33,440 --> 00:06:36,900
+And we essentially can just FOIL it out.
+
+134
+00:06:36,910 --> 00:06:39,300
+I don't know if you've learned FOIL in eightth grade algebra,
+
+135
+00:06:39,310 --> 00:06:40,100
+nineth grade algebra.
+
+136
+00:06:40,100 --> 00:06:40,510
+I don't like it.
+
+137
+00:06:40,510 --> 00:06:42,120
+I actually just think of it as the distributive
+
+138
+00:06:42,120 --> 00:06:43,250
+property twice.
+
+139
+00:06:43,260 --> 00:06:46,250
+So what we could do is we can take the c plus di
+
+140
+00:06:46,250 --> 00:06:48,870
+and distribute it on each of these terms.
+
+141
+00:06:48,880 --> 00:06:49,220
+Right?
+
+142
+00:06:49,230 --> 00:06:56,190
+So this should be equal to a times c plus di.
+
+143
+00:06:56,190 --> 00:06:57,000
+Right?
+
+144
+00:06:57,010 --> 00:07:02,530
+Plus bi times c plus di.
+
+145
+00:07:02,540 --> 00:07:02,850
+Right?
+
+146
+00:07:02,850 --> 00:07:05,850
+All I did is I took the c plus di and I multiplied it by this
+
+147
+00:07:05,860 --> 00:07:09,110
+to get this, and multiplied it by this to get this.
+
+148
+00:07:09,120 --> 00:07:10,720
+And then we distribute again.
+
+149
+00:07:10,720 --> 00:07:16,050
+We get ac plus adi-- this is an i.
+
+150
+00:07:16,060 --> 00:07:17,920
+I know my i's aren't looking good.
+
+151
+00:07:17,920 --> 00:07:25,290
+adi plus-- now what's bi times c?
+
+152
+00:07:25,300 --> 00:07:25,980
+Well that's cbi.
+
+153
+00:07:25,980 --> 00:07:29,670
+And then we have bi times di.
+
+154
+00:07:33,940 --> 00:07:38,120
+So you get b times d, which is bd.
+
+155
+00:07:38,120 --> 00:07:40,780
+And then what's i times i?
+
+156
+00:07:40,790 --> 00:07:42,740
+It's i squared, or negative one.
+
+157
+00:07:42,750 --> 00:07:43,140
+Right?
+
+158
+00:07:43,140 --> 00:07:45,620
+Times negative one.
+
+159
+00:07:45,620 --> 00:07:47,590
+So what does this simplify to?
+
+160
+00:07:47,600 --> 00:07:52,220
+Well this simplifies to-- I'm going to go back here.
+
+161
+00:07:52,230 --> 00:07:54,040
+So let's see what the real parts are.
+
+162
+00:07:54,050 --> 00:07:58,060
+We have this term, a times c, that's real.
+
+163
+00:07:58,060 --> 00:08:00,250
+So ac.
+
+164
+00:08:00,260 --> 00:08:02,710
+And then this last term, which was bi times di.
+
+165
+00:08:02,720 --> 00:08:05,310
+Because we're multiplying i times i we get a negative one,
+
+166
+00:08:05,310 --> 00:08:06,480
+but it becomes real again.
+
+167
+00:08:06,490 --> 00:08:07,550
+Right?
+
+168
+00:08:07,560 --> 00:08:11,920
+So we get negative bd minus bd.
+
+169
+00:08:11,920 --> 00:08:13,600
+So that's our new real part.
+
+170
+00:08:13,600 --> 00:08:17,940
+So that was this term and that term are real.
+
+171
+00:08:17,940 --> 00:08:19,310
+And now what's our new imaginary part?
+
+172
+00:08:19,310 --> 00:08:21,680
+Well it's going to be these two terms added together.
+
+173
+00:08:21,690 --> 00:08:28,070
+So it's-- I'm running out of space again-- ad plus
+
+174
+00:08:28,080 --> 00:08:30,840
+cb, all of that times i.
+
+175
+00:08:30,850 --> 00:08:32,770
+It's a little easier with real numbers, and maybe in the next
+
+176
+00:08:32,770 --> 00:08:34,150
+video I'll use real numbers.
+
+177
+00:08:34,160 --> 00:08:38,240
+But the important thing to realize is essentially you just
+
+178
+00:08:38,250 --> 00:08:40,980
+use the distributive property and realize that you can only
+
+179
+00:08:40,980 --> 00:08:42,630
+add real terms to each other.
+
+180
+00:08:42,630 --> 00:08:45,210
+You can't add a real to an imaginary.
+
+181
+00:08:45,220 --> 00:08:47,250
+And you can only add imaginary terms to each other.
+
+182
+00:08:47,250 --> 00:08:49,410
+And just remember, when you have two imaginary numbers
+
+183
+00:08:49,420 --> 00:08:53,000
+times each other, the i's, when multiplied times each other,
+
+184
+00:08:53,000 --> 00:08:55,060
+and you get negative one.
+
+185
+00:08:55,070 --> 00:08:58,000
+Now the last operation, when you divide complex numbers.
+
+186
+00:08:58,000 --> 00:09:00,360
+This gets a little bit interesting, and maybe
+
+187
+00:09:00,370 --> 00:09:02,640
+a little unintuitive.
+
+188
+00:09:02,640 --> 00:09:08,340
+So what happens if I divide z sub one by z sub two?
+
+189
+00:09:08,350 --> 00:09:17,230
+So once again that equals a plus bi, divided by c plus di.
+
+190
+00:09:17,240 --> 00:09:19,170
+How do I divide this?
+
+191
+00:09:19,170 --> 00:09:22,740
+Well, we're going to use a property that hopefully
+
+192
+00:09:22,750 --> 00:09:24,370
+you learned in algebra.
+
+193
+00:09:24,370 --> 00:09:29,020
+That if I multiply-- let me do this in this corner.
+
+194
+00:09:29,030 --> 00:09:33,760
+a plus b times a minus b.
+
+195
+00:09:33,760 --> 00:09:34,980
+What does that equal?
+
+196
+00:09:34,990 --> 00:09:39,610
+That equals a squared minus b squared.
+
+197
+00:09:39,620 --> 00:09:43,230
+And so if I multiply a complex number.
+
+198
+00:09:43,230 --> 00:09:45,550
+Let's say, in theory, I multiply a complex number c
+
+199
+00:09:45,550 --> 00:09:49,940
+plus di times c minus di.
+
+200
+00:09:49,950 --> 00:09:51,200
+What do I get?
+
+201
+00:09:51,200 --> 00:09:55,590
+I get c squared minus di squared.
+
+202
+00:09:55,600 --> 00:09:58,470
+And what's di squared going to be?
+
+203
+00:10:00,050 --> 00:10:03,860
+It's d squared times negative one, so it becomes c squared--
+
+204
+00:10:03,870 --> 00:10:04,720
+oh, I'm out of time.
+
+205
+00:10:04,720 --> 00:10:07,330
+Actually, let me continue the division in the next video,
+
+206
+00:10:07,330 --> 00:10:08,170
+because it can get involved.
+
+207
+00:10:08,170 --> 00:10:09,740
+See you soon.

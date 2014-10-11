@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:03,720
+We're on problem 61.
+
+2
+00:00:03,720 --> 00:00:12,240
+If 1 kilometer is approximately 0.6 miles,
+
+3
+00:00:12,240 --> 00:00:16,230
+which of the following best approximates
+
+4
+00:00:16,230 --> 00:00:19,580
+the number of kilometers in 2 miles?
+
+5
+00:00:19,580 --> 00:00:26,110
+So we want to know 2 miles. So we could set up a ratio.
+
+6
+00:00:26,110 --> 00:00:34,350
+We could say, 0.6 miles are to 2 miles as 1 kilometer
+
+7
+00:00:34,350 --> 00:00:36,740
+is to x kilometers.
+
+8
+00:00:36,740 --> 00:00:38,030
+And you could cross multiply.
+
+9
+00:00:38,030 --> 00:00:40,920
+You could say 0.6 is equal to 2.
+
+10
+00:00:40,920 --> 00:00:45,190
+And that x is equal to 2 divided by 0.6,
+
+11
+00:00:45,190 --> 00:00:49,640
+which is the same thing as 20 divided by 6.
+
+12
+00:00:49,640 --> 00:00:51,140
+Right?
+
+13
+00:00:51,140 --> 00:01:02,670
+20 divided by 6 is equal to 3 2/6. Right? 3 1/3.
+
+14
+00:01:02,670 --> 00:01:05,170
+3 1/3 kilometers.
+
+15
+00:01:05,170 --> 00:01:06,600
+And that makes sense, right?
+
+16
+00:01:06,600 --> 00:01:08,810
+A mile is longer than a kilometer.
+
+17
+00:01:08,810 --> 00:01:12,670
+So 2 miles is about 3 1/3 kilometers.
+
+18
+00:01:12,670 --> 00:01:14,360
+And that's not one of the choices,
+
+19
+00:01:14,360 --> 00:01:15,970
+but if we wrote this as an improper fraction,
+
+20
+00:01:15,970 --> 00:01:18,120
+3 times 3 is 9, plus 1 is 10.
+
+21
+00:01:18,120 --> 00:01:23,530
+So that equals 10/3 kilometers, which is choice A.
+
+22
+00:01:23,530 --> 00:01:28,390
+Let me do a brighter color.
+
+23
+00:01:28,390 --> 00:01:29,510
+I don't know if you can even see this.
+
+24
+00:01:29,510 --> 00:01:36,660
+62. Lucy invested $10,000 in a new mutual fund account
+
+25
+00:01:36,660 --> 00:01:41,580
+exactly 3 years ago.
+
+26
+00:01:41,580 --> 00:01:44,820
+The value of the account increased by 10%
+
+27
+00:01:44,820 --> 00:01:45,820
+during the first year,
+
+28
+00:01:45,820 --> 00:01:53,870
+increased by 5% during the second year,
+
+29
+00:01:53,870 --> 00:02:00,120
+and decreased by 10% during the third year.
+
+30
+00:02:00,120 --> 00:02:02,230
+What is the value of the account today?
+
+31
+00:02:02,230 --> 00:02:04,560
+So you start with $10,000.
+
+32
+00:02:04,560 --> 00:02:09,520
+When you grow by 10%, that's the same thing as
+
+33
+00:02:09,520 --> 00:02:11,190
+multiplying by 1.1.
+
+34
+00:02:11,190 --> 00:02:13,090
+Right?
+
+35
+00:02:13,090 --> 00:02:17,110
+It's like 1 plus 0.1 times whatever.
+
+36
+00:02:17,110 --> 00:02:19,960
+So that's multiplying by 1.1.
+
+37
+00:02:19,960 --> 00:02:21,870
+And then you grow by another 5%.
+
+38
+00:02:21,870 --> 00:02:24,050
+That's like multiplying by 1.05.
+
+39
+00:02:24,050 --> 00:02:27,300
+And then when you decrease by 10%,
+
+40
+00:02:27,300 --> 00:02:29,760
+that's like multiplying by 0.9.
+
+41
+00:02:29,760 --> 00:02:33,210
+So we need to figure out what this is.
+
+42
+00:02:33,210 --> 00:02:36,710
+So this is a little bit of math for us to do.
+
+43
+00:02:36,710 --> 00:02:38,880
+So 1.1 times 10,000.
+
+44
+00:02:38,880 --> 00:02:40,170
+That's at least fairly straightforward.
+
+45
+00:02:40,170 --> 00:02:42,820
+That's 11,000. Right?
+
+46
+00:02:42,820 --> 00:02:44,360
+That's how much we have after year one.
+
+47
+00:02:44,360 --> 00:02:47,830
+11,000 and we have to multiply that times 1.05.
+
+48
+00:02:47,830 --> 00:02:50,570
+And then we lose 10%.
+
+49
+00:02:50,570 --> 00:02:54,640
+So 11,000 times 1.05.
+
+50
+00:02:54,640 --> 00:02:56,550
+Well, just to make sure I get right,
+
+51
+00:02:56,550 --> 00:02:57,940
+just so I don't make a careless mistake,
+
+52
+00:02:57,940 --> 00:03:03,390
+let's actually do it. 11,000 times 1.05.
+
+53
+00:03:03,390 --> 00:03:09,780
+So 5 times 11,000 is 55,000.
+
+54
+00:03:09,780 --> 00:03:15,130
+And then we should add two 0's.
+
+55
+00:03:15,130 --> 00:03:17,000
+The 0 doesn't matter, so we add two 0's.
+
+56
+00:03:17,000 --> 00:03:24,340
+And then 1 times 11,000 is 11,000. You add them up.
+
+57
+00:03:24,340 --> 00:03:28,550
+You get 0, 0, 0, 5, 5, 1, 1.
+
+58
+00:03:28,550 --> 00:03:31,230
+And we have two digits behind the decimal point.
+
+59
+00:03:31,230 --> 00:03:35,580
+So we got 11,550. Which is right.
+
+60
+00:03:35,580 --> 00:03:38,970
+It would have been weird if we got 100,000
+
+61
+00:03:38,970 --> 00:03:40,140
+or if we got 1,000.
+
+62
+00:03:40,140 --> 00:03:41,540
+We only had a 5% change.
+
+63
+00:03:41,540 --> 00:03:46,050
+So then we have 11,550.
+
+64
+00:03:46,050 --> 00:03:50,740
+And now it's going to decrease by 10%.
+
+65
+00:03:50,740 --> 00:03:52,780
+We could multiply it by 0.9.
+
+66
+00:03:52,780 --> 00:03:55,380
+I don't know, it might be easier just to take out 10%.
+
+67
+00:03:55,380 --> 00:03:56,760
+Well, let's multiply it by 0.9.
+
+68
+00:03:56,760 --> 00:04:03,960
+9 times 0 is 0. 9 times 0 is 0.
+
+69
+00:04:03,960 --> 00:04:10,180
+9 times 5 is 45. 9 times 1 is 9, plus 4 is 13.
+
+70
+00:04:10,180 --> 00:04:14,050
+9 times 1 is 9, plus 1 is 10.
+
+71
+00:04:14,050 --> 00:04:16,920
+And we have one digit behind the decimal point.
+
+72
+00:04:16,920 --> 00:04:18,080
+So it's right there.
+
+73
+00:04:18,080 --> 00:04:22,990
+So we're left with $10,350, and that is choice A.
+
+74
+00:04:22,990 --> 00:04:29,520
+Next problem.
+
+75
+00:04:29,520 --> 00:04:30,520
+63.
+
+76
+00:04:30,520 --> 00:04:33,280
+And they give us this table.
+
+77
+00:04:33,280 --> 00:04:36,430
+They say a computer chip manufacturer expects the ratio
+
+78
+00:04:36,430 --> 00:04:39,840
+of the number of defective chips to the total number of
+
+79
+00:04:39,840 --> 00:04:42,640
+chips in all future shipments to equal the corresponding
+
+80
+00:04:42,640 --> 00:04:47,610
+ratio for shipments as combined,
+
+81
+00:04:47,610 --> 00:04:48,390
+as shown in the table.
+
+82
+00:04:48,390 --> 00:04:50,880
+What is the expected number in a shipment.
+
+83
+00:04:50,880 --> 00:04:52,690
+OK, so let me write down what they wrote,
+
+84
+00:04:52,690 --> 00:04:54,480
+so that we see the same thing.
+
+85
+00:04:54,480 --> 00:04:58,040
+So shipment.
+
+86
+00:04:58,040 --> 00:05:04,990
+And they labeled them S1, S2, S3, and S4.
+
+87
+00:05:04,990 --> 00:05:13,010
+And they need to ask us the number of defective chips
+
+88
+00:05:13,010 --> 00:05:14,930
+in the shipment.
+
+89
+00:05:14,930 --> 00:05:16,460
+I know you can't read my handwriting.
+
+90
+00:05:16,460 --> 00:05:21,050
+2, 5, 6, and 4.
+
+91
+00:05:21,050 --> 00:05:25,580
+And then they say the total number of chips
+
+92
+00:05:25,580 --> 00:05:39,210
+in each shipment is 5,000, 12,000, 18,000, and 16,000.
+
+93
+00:05:39,210 --> 00:05:40,300
+Now let's reread the question.
+
+94
+00:05:40,300 --> 00:05:41,530
+Maybe it'll make a little bit more sense.
+
+95
+00:05:41,530 --> 00:05:44,290
+A computer chip manufacturer expects the ratio of the
+
+96
+00:05:44,290 --> 00:05:49,130
+number of defective chips to the total number of chips --
+
+97
+00:05:49,130 --> 00:05:50,440
+so that's defective to total --
+
+98
+00:05:50,440 --> 00:05:56,570
+in all future shipments to equal the corresponding ratio
+
+99
+00:05:56,570 --> 00:05:59,660
+for shipments S1 through S4 combined,
+
+100
+00:05:59,660 --> 00:06:02,350
+as shown in the table above.
+
+101
+00:06:02,350 --> 00:06:06,040
+Let me make sure I read that.
+
+102
+00:06:06,040 --> 00:06:11,240
+To equal the corresponding ratio for shipments S1, S2,
+
+103
+00:06:11,240 --> 00:06:14,590
+S3, and S4 combined, as shown in the table above.
+
+104
+00:06:14,590 --> 00:06:16,050
+What are the expected number of defective chips
+
+105
+00:06:16,050 --> 00:06:17,480
+in a shipment of 60,000?
+
+106
+00:06:17,480 --> 00:06:19,910
+They're saying, essentially,
+
+107
+00:06:19,910 --> 00:06:22,200
+if we take these shipments combined,
+
+108
+00:06:22,200 --> 00:06:23,550
+what percentage were defective?
+
+109
+00:06:23,550 --> 00:06:25,950
+And that's the same number we would expect to be defective
+
+110
+00:06:25,950 --> 00:06:27,380
+in a shipment of 60,000.
+
+111
+00:06:27,380 --> 00:06:29,350
+So let's figure out what percentage are defective.
+
+112
+00:06:29,350 --> 00:06:30,990
+So how many total were defective?
+
+113
+00:06:30,990 --> 00:06:37,740
+2 plus 5 is 7, 7 plus 6 is 13, 13 plus 4 is 17.
+
+114
+00:06:37,740 --> 00:06:43,040
+And how many total chips did we ship? 17,000.
+
+115
+00:06:43,040 --> 00:06:47,940
+17 plus 18 is 35.
+
+116
+00:06:47,940 --> 00:06:57,530
+35 plus 16 is 41, is equal to 51,000 chips.
+
+117
+00:06:57,530 --> 00:07:00,230
+So we could view it a couple of ways.
+
+118
+00:07:00,230 --> 00:07:05,310
+It's 17 for every 51,000 were defective.
+
+119
+00:07:05,310 --> 00:07:07,950
+But actually, if you haven't realized it already,
+
+120
+00:07:07,950 --> 00:07:09,750
+51 is divisible by 17.
+
+121
+00:07:09,750 --> 00:07:11,210
+That's one that a lot of people miss.
+
+122
+00:07:11,210 --> 00:07:12,330
+17 times 3.
+
+123
+00:07:12,330 --> 00:07:14,970
+So then if we divide both of these numbers by 17,
+
+124
+00:07:14,970 --> 00:07:22,610
+we can say that 1 chip for every 3,000 is defective,
+
+125
+00:07:22,610 --> 00:07:24,760
+if we take shipments S1
+
+126
+00:07:24,760 --> 00:07:27,920
+through S4 combined. 1 chip in every 3,000.
+
+127
+00:07:27,920 --> 00:07:31,460
+And so if we have that same ratio for 60,000 chips,
+
+128
+00:07:31,460 --> 00:07:36,390
+well, how many groups of 3,000 are there in 60,000?
+
+129
+00:07:36,390 --> 00:07:37,820
+Well, there are 20 of them, right?
+
+130
+00:07:37,820 --> 00:07:43,300
+next We could say 1 in 3,000 is equal to x over 60,000.
+
+131
+00:07:43,300 --> 00:07:46,360
+And you could eyeball this to some degree.
+
+132
+00:07:46,360 --> 00:07:48,910
+Or you could just say, what can I multiply
+
+133
+00:07:48,910 --> 00:07:52,420
+both the numerator and the denominator by to get 60,000.
+
+134
+00:07:52,420 --> 00:07:54,280
+Well, if I multiply the numerator and the denominator
+
+135
+00:07:54,280 --> 00:07:58,460
+by 20, I get 20/60,000.
+
+136
+00:07:58,460 --> 00:07:59,060
+You could cross multiply.
+
+137
+00:07:59,060 --> 00:08:00,570
+There's a bunch of ways you could do this.
+
+138
+00:08:00,570 --> 00:08:04,610
+But the bottom line is you would expect 20 defective chips.
+
+139
+00:08:04,610 --> 00:08:10,190
+And that is choice B.
+
+140
+00:08:10,190 --> 00:08:14,570
+Problem 64.
+
+141
+00:08:14,570 --> 00:08:17,200
+I'll do it in this color.
+
+142
+00:08:17,200 --> 00:08:21,680
+Let's see, they tell us that A is equal to a set of numbers.
+
+143
+00:08:21,680 --> 00:08:23,480
+I don't know what the context is yet.
+
+144
+00:08:23,480 --> 00:08:25,940
+2, 3, 4, and 5.
+
+145
+00:08:25,940 --> 00:08:28,400
+And they tell us that
+
+146
+00:08:28,400 --> 00:08:36,960
+B is equal to another set of numbers, 4, 5, 6, 7, and 8.
+
+147
+00:08:36,960 --> 00:08:41,620
+2 integers will be randomly selected from the sets above,
+
+148
+00:08:41,620 --> 00:08:45,730
+1 integer from set A and 1 integer from set B.
+
+149
+00:08:45,730 --> 00:08:47,030
+What is the probability
+
+150
+00:08:47,030 --> 00:08:54,770
+that the sum of the 2 integers will equal 9?
+
+151
+00:08:54,770 --> 00:08:58,550
+So let's think about all of the combinations that equal 9.
+
+152
+00:08:58,550 --> 00:09:00,340
+Right?
+
+153
+00:09:00,340 --> 00:09:18,310
+If I pick 2 from this, I have to pick 7 from here, right?
+
+154
+00:09:18,310 --> 00:09:21,500
+If I pick 3 from this set, I have to pick 6 from here.
+
+155
+00:09:21,500 --> 00:09:24,140
+If I pick 4 from this set, I have to pick 5 from here.
+
+156
+00:09:24,140 --> 00:09:28,660
+And if I pick 5 from this set, I have to pick 4 from here.
+
+157
+00:09:28,660 --> 00:09:30,740
+Right?
+
+158
+00:09:30,740 --> 00:09:31,250
+So no matter what,
+
+159
+00:09:31,250 --> 00:09:35,230
+I'm going to pick one of these numbers from set 1.
+
+160
+00:09:35,230 --> 00:09:37,270
+It's going to be 2, 3, or 4 or 5.
+
+161
+00:09:37,270 --> 00:09:39,230
+And depending which of these I pick,
+
+162
+00:09:39,230 --> 00:09:42,560
+I have to pick the exact right number from set B.
+
+163
+00:09:42,560 --> 00:09:44,820
+So think of it this way.
+
+164
+00:09:44,820 --> 00:09:46,680
+I don't know what I've picked in set A, right?
+
+165
+00:09:46,680 --> 00:09:47,550
+I don't know.
+
+166
+00:09:47,550 --> 00:09:48,680
+Let's say we've picked one of them.
+
+167
+00:09:48,680 --> 00:09:50,140
+We don't know which of these we've picked.
+
+168
+00:09:50,140 --> 00:09:53,540
+And we know that exactly one of these is going to be
+
+169
+00:09:53,540 --> 00:09:56,860
+the right number to add to whatever we've picked to equal 9.
+
+170
+00:09:56,860 --> 00:10:00,330
+And we have to pick that exactly right one.
+
+171
+00:10:00,330 --> 00:10:02,200
+And we're going to be picking it out of
+
+172
+00:10:02,200 --> 00:10:04,730
+a selection of 1, 2, 3, 4, 5 numbers.
+
+173
+00:10:04,730 --> 00:10:09,800
+So we have a 1 in 5 chance of having them add up to 9.
+
+174
+00:10:09,800 --> 00:10:14,260
+And 1 in 5 is the same thing as 0.2, which is choice B.
+
+175
+00:10:14,260 --> 00:10:15,520
+I hope that makes sense.
+
+176
+00:10:15,520 --> 00:10:17,780
+You could say, look, I don't care what I pick from set 1.
+
+177
+00:10:17,780 --> 00:10:19,520
+I could pick any of these,
+
+178
+00:10:19,520 --> 00:10:21,550
+and in order for it to add up to 9,
+
+179
+00:10:21,550 --> 00:10:28,240
+no matter what I pick from here, there's a 1/5 chance
+
+180
+00:10:28,240 --> 00:10:30,720
+that I picked the right corresponding number that
+
+181
+00:10:30,720 --> 00:10:32,100
+adds up to 9 there.
+
+182
+00:10:32,100 --> 00:10:34,160
+Because each of these have only one.
+
+183
+00:10:34,160 --> 00:10:37,020
+If I pick 3, I have to pick 5, right?
+
+184
+00:10:37,020 --> 00:10:42,280
+So if I pick 2, I have to pick 7.
+
+185
+00:10:42,280 --> 00:10:44,890
+If I pick 3, I have to pick 5.
+
+186
+00:10:44,890 --> 00:10:54,270
+If I pick 3, I have to pick 6.
+
+187
+00:10:54,270 --> 00:10:58,400
+If I pick 4, I have to pick 5.
+
+188
+00:10:58,400 --> 00:11:01,900
+And if I pick 5, I have to pick 4, right?
+
+189
+00:11:01,900 --> 00:11:03,280
+And so you could say,
+
+190
+00:11:03,280 --> 00:11:06,320
+well, the chances of each of these are 1/5.
+
+191
+00:11:06,320 --> 00:11:09,090
+Actually I'm not going to go down that road.
+
+192
+00:11:09,090 --> 00:11:12,680
+All you have to say is that just overly complicates it.
+
+193
+00:11:12,680 --> 00:11:13,190
+All you have to say is, look,
+
+194
+00:11:13,190 --> 00:11:14,310
+I'm going to pick one of these.
+
+195
+00:11:14,310 --> 00:11:16,090
+And once I have one of those in my hand,
+
+196
+00:11:16,090 --> 00:11:17,910
+there's a 1/5 chance that I picked the exact one that
+
+197
+00:11:17,910 --> 00:11:21,850
+adds up to whatever I just picked to equal 9.
+
+198
+00:11:21,850 --> 00:11:23,670
+And the answer is B.
+
+199
+00:11:23,670 --> 00:11:25,900
+And now I'm out of time.
+
+200
+00:11:25,900 --> 00:11:27,030
+See you in the next video.

@@ -1,0 +1,403 @@
+1
+00:00:00,938 --> 00:00:03,353
+I've been asked to calculate the probability of winning
+
+2
+00:00:03,353 --> 00:00:05,069
+The Mega Millions Jackpot
+
+3
+00:00:05,069 --> 00:00:07,270
+So that's what I thought I'd do this video on.
+
+4
+00:00:07,270 --> 00:00:11,353
+So the first thing is to make sure we understand what winning the jackpot actually means.
+
+5
+00:00:11,353 --> 00:00:14,020
+So there are going to be two bins of balls.
+
+6
+00:00:14,020 --> 00:00:19,820
+One of them is going to have 56 balls. So 56 balls in one bin.
+
+7
+00:00:19,820 --> 00:00:22,987
+And then another bin will have 45 balls in it.
+
+8
+00:00:22,987 --> 00:00:27,003
+So 46 balls in this bin right here.
+
+9
+00:00:27,003 --> 00:00:32,121
+So they are going to pick 5 balls from this bin right here, and you have
+
+10
+00:00:32,121 --> 00:00:36,020
+to get the exact number of these five balls. It can be in any order, so let me just draw
+
+11
+00:00:36,020 --> 00:00:39,270
+So its one ball, all shaded so it looks like a ball.
+
+12
+00:00:39,270 --> 00:00:45,371
+two balls, three balls, four balls
+
+13
+00:00:45,371 --> 00:00:47,670
+and five balls
+
+14
+00:00:47,670 --> 00:00:52,653
+And you just have to get the numbers in any order. And this is from the bin of 56
+
+15
+00:00:52,653 --> 00:00:55,553
+From a bin of 56.
+
+16
+00:00:55,553 --> 00:00:57,487
+And then you have to get the megaball right.
+
+17
+00:00:57,487 --> 00:01:00,587
+and they're just going to pick one ball from there, which they call the megaball.
+
+18
+00:01:00,587 --> 00:01:06,686
+They're going to pick one ball from there. And obviously this is going to be one of 46
+
+19
+00:01:06,686 --> 00:01:08,604
+So, from a bin of 46.
+
+20
+00:01:08,604 --> 00:01:14,469
+So to figure out the probability of winning is going to be one of all the possible
+
+21
+00:01:14,469 --> 00:01:17,836
+all of the possibilites of the numbers you can pick
+
+22
+00:01:17,836 --> 00:01:24,138
+Its essentially all the combination of the white balls times the 46 possibilites for the mega ball
+
+23
+00:01:24,138 --> 00:01:26,687
+So, think about the combinations about the white balls
+
+24
+00:01:26,687 --> 00:01:28,219
+There are couple ways you could do it
+
+25
+00:01:28,219 --> 00:01:30,138
+if you are thinking in combinatorix terms
+
+26
+00:01:30,138 --> 00:01:32,686
+it would essentially be like saying
+
+27
+00:01:32,686 --> 00:01:35,770
+out of a set of 56 things, I am going to choose
+
+28
+00:01:35,770 --> 00:01:37,820
+I'm going to choose 5 of them
+
+29
+00:01:37,820 --> 00:01:39,653
+Literally, you could do this as
+
+30
+00:01:39,653 --> 00:01:41,353
+56 choose 5
+
+31
+00:01:41,353 --> 00:01:44,853
+Or, if you want to think of it in more conceptual terms
+
+32
+00:01:44,853 --> 00:01:48,652
+the first ball I pick there is 56 possiblities
+
+33
+00:01:48,652 --> 00:01:50,552
+Since we're not replacing the ball
+
+34
+00:01:50,552 --> 00:01:51,770
+The next ball I pick
+
+35
+00:01:51,770 --> 00:01:53,502
+There are going to be 55 posibilites
+
+36
+00:01:53,502 --> 00:01:56,986
+the ball after that there is going to be 54 possibilities.
+
+37
+00:01:56,986 --> 00:02:01,403
+The ball after that there will be 53 possibilities
+
+38
+00:02:01,403 --> 00:02:04,386
+The ball after that there is going to be 52 possiblites.
+
+39
+00:02:04,386 --> 00:02:07,953
+52, because I've already picked 4 balls
+
+40
+00:02:07,953 --> 00:02:10,902
+Now this number right over hre
+
+41
+00:02:10,902 --> 00:02:12,302
+when you multiply it out is the number of permutations
+
+42
+00:02:12,302 --> 00:02:13,871
+if I cared about order
+
+43
+00:02:13,871 --> 00:02:15,720
+If I got that exact combination
+
+44
+00:02:15,720 --> 00:02:19,442
+But to win this, you don't have to write it down in the same order
+
+45
+00:02:19,442 --> 00:02:22,002
+You just have to get those numbers in any order
+
+46
+00:02:22,002 --> 00:02:27,137
+So what you want to do is want to divide this by the number of ways that five things can actually be
+
+47
+00:02:27,137 --> 00:02:28,220
+ordered.
+
+48
+00:02:28,220 --> 00:02:34,104
+And if you're ordering five things
+
+49
+00:02:34,104 --> 00:02:36,787
+The first of the five things could take five different positions
+
+50
+00:02:36,787 --> 00:02:39,091
+And the next one will have 4 positions left
+
+51
+00:02:39,091 --> 00:02:41,694
+And the one after that will have 3 positions left
+
+52
+00:02:41,694 --> 00:02:43,593
+and the one after that will have two positions
+
+53
+00:02:43,593 --> 00:02:47,092
+And the fifth one will be completely determined because we've already placed the other four.
+
+54
+00:02:47,092 --> 00:02:48,959
+So it will only have one position
+
+55
+00:02:48,959 --> 00:02:51,943
+So when we calculate this part right over here
+
+56
+00:02:51,943 --> 00:02:55,142
+This will tell us all of the combination of just the white balls
+
+57
+00:02:55,142 --> 00:02:56,391
+So let's calculate that
+
+58
+00:02:56,391 --> 00:02:59,726
+So just the white balls, we have 55
+
+59
+00:02:59,726 --> 00:03:09,643
+sorry, 56 x 55 x 54 x 53 x 52
+
+60
+00:03:09,643 --> 00:03:11,226
+and we're going to divide that
+
+61
+00:03:11,226 --> 00:03:17,993
+by 5 x 4 x 3 x 2 x 1
+
+62
+00:03:17,993 --> 00:03:19,894
+but we don't have to mutiply by one, but I'll do that just to show what we're doing
+
+63
+00:03:19,894 --> 00:03:23,624
+And that gives us about 3.8 million
+
+64
+00:03:23,624 --> 00:03:28,492
+So let me put that off screen, and let me write that number down
+
+65
+00:03:28,492 --> 00:03:35,725
+So this comes out to 3 million 8 hundred and 19 thousand
+
+66
+00:03:35,725 --> 00:03:38,678
+3,819,816
+
+67
+00:03:38,678 --> 00:03:40,262
+So thats the number of possiblities here
+
+68
+00:03:40,262 --> 00:03:42,161
+So just your odds of just picking the white balls right
+
+69
+00:03:42,161 --> 00:03:43,778
+are one out of this
+
+70
+00:03:43,778 --> 00:03:45,427
+assuming you only have one entry
+
+71
+00:03:45,427 --> 00:03:49,345
+and then there are 46 possibilities for the orange balls
+
+72
+00:03:49,345 --> 00:03:51,293
+so you're going to multiply that by 46
+
+73
+00:03:51,293 --> 00:03:52,980
+And so that's going to get you
+
+74
+00:03:52,980 --> 00:03:54,827
+So when you multiply it times 46
+
+75
+00:03:54,827 --> 00:03:56,627
+Bring the calculator back
+
+76
+00:03:56,627 --> 00:03:59,578
+so we're going to multiply our previous answer
+
+77
+00:03:59,578 --> 00:04:00,663
+times 46
+
+78
+00:04:00,663 --> 00:04:02,279
+Ans just means my previous answer
+
+79
+00:04:02,279 --> 00:04:09,261
+Times 46, I get a little under 176 million
+
+80
+00:04:09,261 --> 00:04:12,344
+A little under 176 million
+
+81
+00:04:12,344 --> 00:04:17,161
+So that is, let me write that number
+
+82
+00:04:17,161 --> 00:04:25,678
+So that gives us 175,711,536
+
+83
+00:04:25,678 --> 00:04:28,311
+So your odds of winning it, with one entry
+
+84
+00:04:28,311 --> 00:04:30,477
+because this is the number of possiblities
+
+85
+00:04:30,477 --> 00:04:32,894
+And essentially for $1, you are getting one of those possibilities.
+
+86
+00:04:32,894 --> 00:04:36,028
+Your odds of winning is going to be one over this
+
+87
+00:04:36,028 --> 00:04:38,394
+And to put this into a little context
+
+88
+00:04:38,394 --> 00:04:42,812
+I looked it up on the internet of what your odds are of actually getting struck by lightning in your
+
+89
+00:04:42,812 --> 00:04:43,778
+lifetime
+
+90
+00:04:43,778 --> 00:04:47,150
+And your odds of getting struck by lightning are 1 in 10,000
+
+91
+00:04:47,150 --> 00:04:51,789
+1 in 10,000 chance of getting struck by lightning in your lifetime
+
+92
+00:04:51,789 --> 00:04:55,748
+And we could roughly say that the odds of getting struck twice in your life time
+
+93
+00:04:55,748 --> 00:04:59,207
+Or another way of saying it, the odds of you and your best friend
+
+94
+00:04:59,207 --> 00:05:02,790
+both independently getting struck by lightning when you're not around eachother
+
+95
+00:05:02,790 --> 00:05:07,007
+Is going to be 1 in 10,000 times 1 in 10,000
+
+96
+00:05:07,007 --> 00:05:11,524
+and so that will get you 1 in - I have now eight zeros
+
+97
+00:05:11,524 --> 00:05:14,673
+one, two, three, four, five, six, seven, eight.
+
+98
+00:05:14,673 --> 00:05:17,441
+So that gives you one in one hundred million
+
+99
+00:05:17,441 --> 00:05:21,173
+So you actually twice, almost this is very rough
+
+100
+00:05:21,173 --> 00:05:26,007
+You're roughly twice as likely to get struck by lightning twice in your life
+
+101
+00:05:26,007 --> 00:05:30,000
+than to win the MegaJackpot!

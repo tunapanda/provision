@@ -1,0 +1,743 @@
+1
+00:00:01,000 --> 00:00:03,790
+Welcome back. I keep rushing to try to get under the wire
+
+2
+00:00:03,790 --> 00:00:06,300
+for these problems, but let me explain it properly.
+
+3
+00:00:07,000 --> 00:00:09,980
+So what we did is, we said that a new student joins.
+
+4
+00:00:09,980 --> 00:00:13,640
+And the average after he joins is equal to the median.
+
+5
+00:00:13,640 --> 00:00:14,910
+And what we did is we figured out,
+
+6
+00:00:14,910 --> 00:00:17,400
+what's the average and the median before the student joins.
+
+7
+00:00:17,400 --> 00:00:20,960
+Well, the average before the student joined was 13/12,
+
+8
+00:00:21,320 --> 00:00:24,470
+and the median before the student joined was 1.
+
+9
+00:00:25,450 --> 00:00:31,240
+If the new student has 1 or 0--and we established that
+
+10
+00:00:31,240 --> 00:00:33,240
+the only way to bring this average down
+
+11
+00:00:33,240 --> 00:00:35,870
+is for the new student to have
+
+12
+00:00:37,510 --> 00:00:41,680
+less than the average number of siblings, right?
+
+13
+00:00:41,680 --> 00:00:45,630
+That's the only way we can go from 1 1/12 to 1.
+
+14
+00:00:46,000 --> 00:00:47,610
+And I'll tell you right now that
+
+15
+00:00:47,620 --> 00:00:52,810
+he's actually going to have a 1/13 impact, right,
+
+16
+00:00:52,810 --> 00:00:53,990
+if he's 1 away.
+
+17
+00:00:54,430 --> 00:00:58,210
+So actually I can tell you right now he has one sibling,
+
+18
+00:00:58,210 --> 00:00:59,560
+but I'll show it to you mathematically
+
+19
+00:00:59,560 --> 00:01:01,290
+if you don't have that intuition on averages.
+
+20
+00:01:01,290 --> 00:01:02,770
+But the important thing to realize
+
+21
+00:01:02,770 --> 00:01:05,650
+is that he's either going to have 0 or 1 sibling.
+
+22
+00:01:06,050 --> 00:01:09,040
+He's going to have to have less than 1 1/12 siblings,
+
+23
+00:01:09,040 --> 00:01:12,320
+so it's either 0 or 1 in order to bring the average down.
+
+24
+00:01:12,320 --> 00:01:15,990
+And regardless of whether he has 0 or 1 sibling,
+
+25
+00:01:15,990 --> 00:01:17,390
+the median won't change.
+
+26
+00:01:18,420 --> 00:01:19,280
+If he has one sibling,
+
+27
+00:01:19,280 --> 00:01:21,030
+then we're just going to have another one here
+
+28
+00:01:21,030 --> 00:01:22,720
+and then this'll become the median.
+
+29
+00:01:22,720 --> 00:01:26,090
+If he has 0 siblings, then that's going to be a 0 there,
+
+30
+00:01:26,090 --> 00:01:27,640
+but that's still going to be a median of 1.
+
+31
+00:01:27,640 --> 00:01:29,320
+The median is not going to change.
+
+32
+00:01:29,720 --> 00:01:31,540
+So what we have to do is to figure out
+
+33
+00:01:31,540 --> 00:01:33,280
+how many siblings does he have to have
+
+34
+00:01:33,280 --> 00:01:37,270
+for the new average to be exactly 1?
+
+35
+00:01:38,000 --> 00:01:39,500
+So we can go back to this calculation.
+
+36
+00:01:40,000 --> 00:01:42,900
+Let's take the average, but now let's take it with him.
+
+37
+00:01:43,470 --> 00:01:45,670
+So this was our previous average where we said well,
+
+38
+00:01:45,670 --> 00:01:47,540
+there's three students with 0 siblings,
+
+39
+00:01:47,540 --> 00:01:49,370
+six students with 1, et cetera, et cetera.
+
+40
+00:01:49,370 --> 00:01:51,690
+But now we're going to add this new student in.
+
+41
+00:01:52,020 --> 00:01:55,290
+There's one student with x siblings, right?
+
+42
+00:01:55,590 --> 00:01:58,780
+And instead of 12 in the denominator, we have 13.
+
+43
+00:01:59,000 --> 00:02:01,710
+Because we now have 13 students, right?
+
+44
+00:02:02,330 --> 00:02:05,070
+So what happens? You essentially have 13,
+
+45
+00:02:05,270 --> 00:02:09,070
+so this becomes x plus 6 plus 4 plus 3.
+
+46
+00:02:09,370 --> 00:02:12,010
+This becomes 13 plus x,
+
+47
+00:02:12,010 --> 00:02:15,200
+and then the denominator is equal to 13.
+
+48
+00:02:15,500 --> 00:02:16,990
+And actually I was wrong before,
+
+49
+00:02:16,990 --> 00:02:18,630
+he's actually going to have to have 0,
+
+50
+00:02:18,830 --> 00:02:20,710
+my intuition was a little bit off.
+
+51
+00:02:21,010 --> 00:02:25,060
+Because look, this is the new average, 13 plus x over 13.
+
+52
+00:02:25,360 --> 00:02:31,830
+The new average is going to be 13 plus x over 13, right?
+
+53
+00:02:32,050 --> 00:02:34,520
+13 plus x over 13.
+
+54
+00:02:34,520 --> 00:02:36,450
+And what does that new average have to equal?
+
+55
+00:02:36,450 --> 00:02:38,660
+It has to equal 1.
+
+56
+00:02:39,020 --> 00:02:40,750
+Because that's the new median.
+
+57
+00:02:40,750 --> 00:02:43,050
+Or the old median, because we said the mean doesn't change.
+
+58
+00:02:43,050 --> 00:02:45,870
+So how can 13 plus x over 13 equal 1?
+
+59
+00:02:46,000 --> 00:02:51,150
+Well, if you can't eyeball that,you can just say 13 plus x,
+
+60
+00:02:51,150 --> 00:02:54,020
+multiply both sides by 13, is equal to 13.
+
+61
+00:02:55,030 --> 00:02:58,920
+And then subtract 13 from both sides
+
+62
+00:02:58,920 --> 00:03:01,250
+and you get x is equal to 0.
+
+63
+00:03:01,650 --> 00:03:05,110
+So that new student has 0 siblings.
+
+64
+00:03:05,510 --> 00:03:07,260
+I know that was a little bit convoluted,
+
+65
+00:03:07,260 --> 00:03:09,440
+so let me just tell you what I did again.
+
+66
+00:03:09,440 --> 00:03:12,570
+I said what is the current median?
+
+67
+00:03:12,970 --> 00:03:15,100
+And I just listed out all of the number of siblings,
+
+68
+00:03:15,100 --> 00:03:17,500
+and I took the middle number,and that was 1.
+
+69
+00:03:18,440 --> 00:03:20,390
+Then I said well, what is the current average?
+
+70
+00:03:20,790 --> 00:03:23,330
+And the current average was 1 1/12.
+
+71
+00:03:23,630 --> 00:03:25,200
+And this might confuse you a little bit.
+
+72
+00:03:25,300 --> 00:03:28,040
+You could just say, well this is the same thing as 0,
+
+73
+00:03:28,040 --> 00:03:35,470
+0 plus 0 plus 0 plus 1 plus 1 plus 1 plus 1 plus 1 plus 1
+
+74
+00:03:35,570 --> 00:03:38,390
+and so forth. Instead I said that's three students with 0,
+
+75
+00:03:38,690 --> 00:03:40,560
+six students with 1 sibling,
+
+76
+00:03:40,560 --> 00:03:42,330
+two students with 2 siblings, and so forth.
+
+77
+00:03:42,330 --> 00:03:44,320
+And I figured out that the current average--
+
+78
+00:03:44,320 --> 00:03:46,710
+and I divided by 12-- was 1 1/12.
+
+79
+00:03:47,340 --> 00:03:48,200
+So I said well,
+
+80
+00:03:48,500 --> 00:03:51,360
+no matter how many siblings the next student has--
+
+81
+00:03:51,360 --> 00:03:52,320
+and actually, it didn't even matter,
+
+82
+00:03:52,320 --> 00:03:53,970
+even if you had more or less,
+
+83
+00:03:53,970 --> 00:03:56,490
+one of the middle numbers still would have been the 1.
+
+84
+00:03:56,490 --> 00:03:58,730
+So the median will not change regardless of
+
+85
+00:03:58,730 --> 00:04:00,720
+where the new student falls into the mix.
+
+86
+00:04:00,720 --> 00:04:04,430
+So we said, how many siblings does that student need to have
+
+87
+00:04:04,430 --> 00:04:07,780
+for the average to come down back to 1?
+
+88
+00:04:08,440 --> 00:04:11,200
+And then I just added x to my previous average
+
+89
+00:04:11,200 --> 00:04:12,500
+and I divided by 13 instead
+
+90
+00:04:12,500 --> 00:04:13,990
+because we now have an extra student.
+
+91
+00:04:14,440 --> 00:04:15,670
+This was a 13 too.
+
+92
+00:04:15,970 --> 00:04:16,980
+And we got this equation:
+
+93
+00:04:17,080 --> 00:04:21,230
+13 plus x over 13 has to equal my new average, which is 1.
+
+94
+00:04:22,010 --> 00:04:23,900
+And then I solved for x, which is 0.
+
+95
+00:04:23,900 --> 00:04:26,080
+So the new student had 0 siblings.
+
+96
+00:04:27,490 --> 00:04:29,040
+Next problem.
+
+97
+00:04:30,690 --> 00:04:32,590
+And the really fast way of doing this--
+
+98
+00:04:32,590 --> 00:04:34,710
+not to harp on this problem too much,
+
+99
+00:04:34,710 --> 00:04:36,910
+and I should have done this from the beginning--
+
+100
+00:04:36,910 --> 00:04:38,730
+is to figure out that the median is 1,
+
+101
+00:04:39,330 --> 00:04:40,240
+then figure out that
+
+102
+00:04:40,240 --> 00:04:43,520
+it doesn't matter how many siblings the student has,
+
+103
+00:04:43,520 --> 00:04:44,800
+the median's still going to be 1.
+
+104
+00:04:44,800 --> 00:04:46,730
+You can insert a number anywhere in this list
+
+105
+00:04:47,130 --> 00:04:48,570
+and the median would have still been 1
+
+106
+00:04:48,570 --> 00:04:50,520
+because there's so many students with one sibling.
+
+107
+00:04:51,650 --> 00:04:53,440
+And then you just have to figure out,
+
+108
+00:04:53,440 --> 00:04:57,370
+well, how many siblings does the student have to have
+
+109
+00:04:57,890 --> 00:04:59,540
+for the average to become 1?
+
+110
+00:05:00,640 --> 00:05:02,920
+That's probably the most convoluted explanation I've given,
+
+111
+00:05:02,920 --> 00:05:04,920
+but let me just hope it helps you.
+
+112
+00:05:06,770 --> 00:05:08,830
+OK, problem number 9.
+
+113
+00:05:11,450 --> 00:05:16,500
+If 2 times x minus 3 is equal to 8,
+
+114
+00:05:17,460 --> 00:05:24,130
+what does x minus 3 over x plus 3 equal?
+
+115
+00:05:24,630 --> 00:05:25,760
+What does that equal?
+
+116
+00:05:25,960 --> 00:05:28,510
+Well, let's just solve for x.
+
+117
+00:05:29,530 --> 00:05:30,930
+So we get x minus 3
+
+118
+00:05:30,930 --> 00:05:35,500
+is equal to-- I'm just going to divide both sides by 2,
+
+119
+00:05:35,500 --> 00:05:38,800
+so 8 divided by 2 is 4, right?
+
+120
+00:05:38,800 --> 00:05:41,510
+2 divided by 2 is 1, so x minus 3 equals 4,
+
+121
+00:05:41,510 --> 00:05:45,610
+x is equal to 7. So you go here. What's x minus 3?
+
+122
+00:05:45,610 --> 00:05:47,780
+Well it's 7 minus 3, which is 4.
+
+123
+00:05:48,560 --> 00:05:50,900
+We also figured out that x minus 3 was 4 up here.
+
+124
+00:05:51,570 --> 00:05:53,050
+And then what's x plus 3?
+
+125
+00:05:53,050 --> 00:05:55,390
+That's 7 plus 3, so that's 10.
+
+126
+00:05:56,030 --> 00:05:59,270
+4/10, we can reduce that to 2/5,
+
+127
+00:05:59,270 --> 00:06:01,630
+dividing the numerator and the denominator by 2.
+
+128
+00:06:02,030 --> 00:06:04,480
+So that's our answer,2/5 or 0.4.
+
+129
+00:06:05,010 --> 00:06:06,160
+Problem 10.
+
+130
+00:06:08,020 --> 00:06:11,310
+When twice a number-- so whenever I start writing it,
+
+131
+00:06:11,310 --> 00:06:12,180
+let's say x is the number.
+
+132
+00:06:12,180 --> 00:06:15,620
+So they say when twice an number-- so when 2 times x,
+
+133
+00:06:15,620 --> 00:06:18,530
+that's twice a number-- is decreased by 3.
+
+134
+00:06:18,930 --> 00:06:25,540
+So, twice a number is decreased by 3, the result is 253.
+
+135
+00:06:29,000 --> 00:06:32,090
+What is the number? Well, while reading it, I set it up.
+
+136
+00:06:32,090 --> 00:06:35,700
+So now we just have to solve. So we add 3 to both sides.
+
+137
+00:06:35,700 --> 00:06:40,390
+2x is equal to 256, right? I added 3 to both sides.
+
+138
+00:06:40,790 --> 00:06:45,560
+x, divide both sides by 2. x is equal to 128.
+
+139
+00:06:46,010 --> 00:06:46,930
+And we are done.
+
+140
+00:06:47,450 --> 00:06:54,270
+Next problem. Problem 10.
+
+141
+00:06:55,010 --> 00:06:58,590
+OK, this says Outdoor Sneaker Company's July production.
+
+142
+00:06:59,020 --> 00:07:02,420
+So we have white, black,and then total.
+
+143
+00:07:04,540 --> 00:07:10,620
+And then they have high-tops,low-tops, and then total.
+
+144
+00:07:13,490 --> 00:07:16,350
+I don't know if people even wear high-tops anymore.
+
+145
+00:07:16,350 --> 00:07:19,140
+I used to. I guess for basketball.
+
+146
+00:07:20,420 --> 00:07:24,390
+OK, high-tops, low-tops,and total. I'm very not plugged-in.
+
+147
+00:07:30,560 --> 00:07:33,600
+High-tops, low-tops,and then total.
+
+148
+00:07:33,600 --> 00:07:35,620
+And what numbers do they have in the box?
+
+149
+00:07:37,540 --> 00:07:49,010
+So there are 3,600 here, 1,500 here, 5,500, and then 10,000.
+
+150
+00:07:50,010 --> 00:07:52,190
+So I could tell you they're just going to reading this question,
+
+151
+00:07:52,190 --> 00:07:55,520
+want us to fill in this diagram.
+
+152
+00:07:55,520 --> 00:07:56,750
+10,000 here.
+
+153
+00:07:57,040 --> 00:07:59,900
+Outdoor Sneaker Company manufactures only white
+
+154
+00:07:59,900 --> 00:08:02,120
+sneakers and black sneakers, both of which
+
+155
+00:08:02,120 --> 00:08:04,800
+are available as either high-tops or low-tops.
+
+156
+00:08:05,000 --> 00:08:07,330
+On the basis of the information in the table above,
+
+157
+00:08:07,330 --> 00:08:11,780
+how many black sneakers did Outdoor Sneaker Company
+
+158
+00:08:11,780 --> 00:08:13,130
+manufacture in July?
+
+159
+00:08:13,130 --> 00:08:15,200
+So how many black sneakers--
+
+160
+00:08:15,200 --> 00:08:17,140
+so they didn't differentiate with the high-tops or low-tops-
+
+161
+00:08:17,140 --> 00:08:19,440
+so they want to know, how many total black sneakers.
+
+162
+00:08:19,440 --> 00:08:21,930
+So that is black total.
+
+163
+00:08:22,000 --> 00:08:24,410
+So we need to figure out this square.
+
+164
+00:08:25,010 --> 00:08:27,590
+Total black. So let's see what we can figure out.
+
+165
+00:08:27,590 --> 00:08:29,540
+I'll do my figuring out in this magenta.
+
+166
+00:08:30,050 --> 00:08:34,190
+So if low-tops-- I need a total of 5,500 low-tops--
+
+167
+00:08:34,190 --> 00:08:38,320
+1,500 are black, how many are white?
+
+168
+00:08:39,030 --> 00:08:41,340
+Well, it's going to be 4,000,
+
+169
+00:08:41,340 --> 00:08:45,960
+right? I just took 5,500 minus 1,500. 4,000.
+
+170
+00:08:46,020 --> 00:08:46,720
+Similarly,
+
+171
+00:08:46,720 --> 00:08:50,850
+if I made a total of 10,000 sneakers and 5,500 are low-tops,
+
+172
+00:08:51,250 --> 00:08:53,500
+how many of them are high-tops?
+
+173
+00:08:53,500 --> 00:08:58,410
+Well, it's going to be 10,000 minus 5,500, so this is 4,500.
+
+174
+00:09:00,000 --> 00:09:01,570
+And out of the high-tops,
+
+175
+00:09:02,150 --> 00:09:06,340
+if 3,600 are white and I made a total of 4,500,
+
+176
+00:09:06,340 --> 00:09:07,890
+how many black are there?
+
+177
+00:09:07,890 --> 00:09:11,840
+Well, 4,500 total minus the white ones, that's what?
+
+178
+00:09:11,840 --> 00:09:12,990
+That's 900.
+
+179
+00:09:14,480 --> 00:09:16,510
+And so if we want to figure out the total black,
+
+180
+00:09:16,510 --> 00:09:19,140
+we now know how many high-top blacks there are
+
+181
+00:09:19,140 --> 00:09:21,090
+and how many low-top black sneakers there are,
+
+182
+00:09:21,090 --> 00:09:25,390
+so we just add. So 900 plus 1,500 is 2,400.
+
+183
+00:09:25,390 --> 00:09:28,580
+So I actually wasted both of our times figuring this out,
+
+184
+00:09:28,580 --> 00:09:30,510
+so I could have saved a few seconds I didn't do that.
+
+185
+00:09:30,510 --> 00:09:32,230
+But I was just mindlessly chugging along.
+
+186
+00:09:32,630 --> 00:09:34,460
+Anyway, I'll see you in the next video.

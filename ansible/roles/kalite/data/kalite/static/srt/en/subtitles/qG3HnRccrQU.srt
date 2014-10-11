@@ -1,0 +1,539 @@
+1
+00:00:00,380 --> 00:00:04,250
+We already know that the sum of the interior angles of a triangle
+
+2
+00:00:04,260 --> 00:00:06,490
+add up to 180 degrees
+
+3
+00:00:06,500 --> 00:00:08,780
+If the measure of this angle is A,
+
+4
+00:00:08,790 --> 00:00:10,650
+the measure of this angle over here is B, and
+
+5
+00:00:10,660 --> 00:00:17,700
+the measure of this angle is C, we know that A + B + C = 180 degrees
+
+6
+00:00:17,710 --> 00:00:21,370
+What happens when we have polygons with more than 3 sides?
+
+7
+00:00:24,840 --> 00:00:26,120
+a quadrilateral
+
+8
+00:00:29,480 --> 00:00:32,320
+probably applies to any quadrilateral with four sides,
+
+9
+00:00:32,330 --> 00:00:35,320
+not just things that have right angles and parallel lines
+
+10
+00:00:35,330 --> 00:00:36,040
+and all the rest
+
+11
+00:00:36,050 --> 00:00:38,250
+Actually, that looks a little too close to being parallel
+
+12
+00:00:38,260 --> 00:00:39,580
+so let me draw it like this
+
+13
+00:00:41,460 --> 00:00:44,530
+The way you can think about it, with the 4-sided quadrilateral is,
+
+14
+00:00:44,540 --> 00:00:46,010
+we already know about this:
+
+15
+00:00:46,020 --> 00:00:49,420
+the measures of the interior angles of a triangle add up to 180
+
+16
+00:00:49,430 --> 00:00:51,850
+so maybe we can divide this into 2 triangles
+
+17
+00:00:51,860 --> 00:00:56,090
+From this point right over here, if we draw a line like this,
+
+18
+00:00:59,620 --> 00:01:03,210
+Then if measure of this angle is A, measure of this is B,
+
+19
+00:01:03,220 --> 00:01:04,320
+measure of that is C
+
+20
+00:01:04,330 --> 00:01:09,200
+We know that A + B + C = 180 degrees
+
+21
+00:01:09,210 --> 00:01:14,060
+Then if we call this over here, X, this over here, Y and that, Z
+
+22
+00:01:14,070 --> 00:01:15,440
+Those are the measures of those angles
+
+23
+00:01:15,450 --> 00:01:21,090
+We know that X + Y + Z = 180 degrees
+
+24
+00:01:21,100 --> 00:01:24,410
+So, if we want the measure of the sum of all of the interior angles,
+
+25
+00:01:25,780 --> 00:01:27,330
+all of the interior angles are going to be:
+
+26
+00:01:33,280 --> 00:01:37,810
+plus this angle, which is going to be A + X
+
+27
+00:01:38,870 --> 00:01:42,810
+A + X is that whole angle for the quadrilateral
+
+28
+00:01:42,820 --> 00:01:47,260
+Plus this whole angle, which is going to be C + Y
+
+29
+00:01:49,260 --> 00:01:52,540
+And where you know A + B + C is 180 degrees
+
+30
+00:01:57,170 --> 00:02:03,460
+And we know that Z + X + Y = 180 degrees
+
+31
+00:02:03,470 --> 00:02:08,220
+So plus 180 degrees which is equal to 360 degrees
+
+32
+00:02:08,230 --> 00:02:10,110
+I think you see the general idea here
+
+33
+00:02:10,120 --> 00:02:12,030
+We just have to figure out how many triangles
+
+34
+00:02:12,040 --> 00:02:13,680
+we can divide something into
+
+35
+00:02:13,690 --> 00:02:16,770
+Then we just multiply it by 180 degrees,
+
+36
+00:02:16,780 --> 00:02:19,900
+since each of those triangles will have 180 degrees
+
+37
+00:02:26,190 --> 00:02:27,400
+can we fit into that thing
+
+38
+00:02:27,410 --> 00:02:29,860
+Let me draw an irregular pentagon
+
+39
+00:02:29,870 --> 00:02:35,990
+1, 2, 3, 4, 5
+
+40
+00:02:36,000 --> 00:02:38,320
+Looks more like a bit of a side-ways house there
+
+41
+00:02:38,550 --> 00:02:42,310
+Once again, we can draw our triangles inside of this pentagon
+
+42
+00:02:42,320 --> 00:02:44,370
+That would be one triangle there
+
+43
+00:02:44,380 --> 00:02:46,030
+That would be another triangle
+
+44
+00:02:49,040 --> 00:02:51,450
+that perfectly cover this pentagon
+
+45
+00:02:51,460 --> 00:02:54,850
+This is one triangle, the other triangle and the other one
+
+46
+00:02:55,120 --> 00:02:57,010
+We know each of those have 180 degrees,
+
+47
+00:02:57,020 --> 00:02:58,550
+if we take the sum of their angles
+
+48
+00:02:58,560 --> 00:03:01,990
+We also know the sum of all those interior angles are equal
+
+49
+00:03:02,000 --> 00:03:05,290
+to the sum of the interior angles of the polygon as a whole
+
+50
+00:03:05,300 --> 00:03:07,860
+To see that, clearly this interior angle is
+
+51
+00:03:07,870 --> 00:03:09,490
+one of the angles of the polygon
+
+52
+00:03:09,500 --> 00:03:10,900
+This is, as well
+
+53
+00:03:10,910 --> 00:03:14,360
+When you take the sum of this one and this one,
+
+54
+00:03:17,510 --> 00:03:20,920
+We take the sum of that one and that one, you get that entire one
+
+55
+00:03:20,930 --> 00:03:24,180
+Then when you take the sum of that one, plus that one,
+
+56
+00:03:24,190 --> 00:03:27,080
+plus that one, you get that entire interior angle
+
+57
+00:03:27,090 --> 00:03:29,220
+So if you take the sum of all the interior angles of
+
+58
+00:03:31,760 --> 00:03:34,670
+all of the interior angles of the polygon
+
+59
+00:03:34,680 --> 00:03:37,570
+In this case you have 1, 2, 3 triangles
+
+60
+00:03:37,580 --> 00:03:41,850
+3 times 180 degrees is equal to what?
+
+61
+00:03:41,860 --> 00:03:46,120
+300 +240 = 540 degrees
+
+62
+00:03:47,970 --> 00:03:48,870
+To generalize it,
+
+63
+00:03:52,210 --> 00:03:53,900
+we have up to use up four sides
+
+64
+00:03:53,910 --> 00:03:56,780
+We have to use up all the four sides of this quadrilateral
+
+65
+00:03:56,790 --> 00:04:02,450
+We had to use up four of the five sides right here in this pentagon
+
+66
+00:04:02,460 --> 00:04:04,500
+1, 2, and then 3, 4
+
+67
+00:04:04,510 --> 00:04:08,540
+So four sides give you two triangles
+
+68
+00:04:08,550 --> 00:04:11,750
+It seems like maybe every incremental side you have after that,
+
+69
+00:04:11,760 --> 00:04:13,460
+you can get another triangle out of it
+
+70
+00:04:18,130 --> 00:04:23,910
+1, 2, 3, 4, 5, 6 sides
+
+71
+00:04:24,740 --> 00:04:29,880
+and I can get one triangle out of these 2 sides
+
+72
+00:04:29,890 --> 00:04:33,000
+1, 2 sides of the actual hexagon
+
+73
+00:04:33,010 --> 00:04:38,450
+I can get another triangle out of these 2 sides of the actual hexagon
+
+74
+00:04:38,460 --> 00:04:40,970
+And it looks like I can get another triangle
+
+75
+00:04:40,980 --> 00:04:42,590
+out of each of the remaining sides
+
+76
+00:04:42,600 --> 00:04:44,250
+So one out of that one, and then,
+
+77
+00:04:44,260 --> 00:04:46,550
+one out of that one right over there
+
+78
+00:04:53,070 --> 00:04:57,230
+S-sided polygon
+
+79
+00:05:06,150 --> 00:05:07,170
+or 6 sides
+
+80
+00:05:07,180 --> 00:05:10,530
+So we can assume that S is greater than 4 sides
+
+81
+00:05:12,470 --> 00:05:15,220
+I want to figure out how many non-overlapping triangles
+
+82
+00:05:15,230 --> 00:05:16,920
+that perfectly cover that polygon
+
+83
+00:05:16,930 --> 00:05:18,430
+How many can I fit inside of it
+
+84
+00:05:18,440 --> 00:05:20,400
+Then I just have to multiply the number of triangles
+
+85
+00:05:20,410 --> 00:05:21,590
+times 180 degrees
+
+86
+00:05:21,600 --> 00:05:25,330
+to figure out what are the sum of the interior angles of that polygon
+
+87
+00:05:27,620 --> 00:05:30,830
+as a function of the number of sides
+
+88
+00:05:30,940 --> 00:05:34,990
+Once again, four of the sides are going to be used
+
+89
+00:05:35,000 --> 00:05:36,230
+to make two triangles
+
+90
+00:05:37,750 --> 00:05:39,910
+and we have two sides right over there
+
+91
+00:05:39,920 --> 00:05:42,660
+I can have, I can draw one triangle
+
+92
+00:05:43,880 --> 00:05:46,470
+what happens to the rest of the sides of the polygon
+
+93
+00:05:46,480 --> 00:05:49,190
+You can imagine putting a big black piece of construction paper
+
+94
+00:05:49,200 --> 00:05:50,950
+There might be other sides here
+
+95
+00:05:52,700 --> 00:05:56,240
+So out of these 2 sides I can draw one triangle just like that
+
+96
+00:05:56,250 --> 00:05:59,570
+Out of these two sides, I can draw another triangle right over there
+
+97
+00:05:59,580 --> 00:06:06,130
+So 4 sides used for two triangles
+
+98
+00:06:08,110 --> 00:06:11,830
+Then, no matter how many sides I have left over,
+
+99
+00:06:14,050 --> 00:06:16,640
+if I have all sorts of craziness here
+
+100
+00:06:19,010 --> 00:06:21,030
+Let me draw a little bit neater than that
+
+101
+00:06:21,220 --> 00:06:26,270
+So I can have all sorts of craziness right over here
+
+102
+00:06:26,730 --> 00:06:28,690
+It looks like every other incremental side
+
+103
+00:06:28,700 --> 00:06:30,340
+I can get another triangle out of it
+
+104
+00:06:33,790 --> 00:06:37,170
+one triangle out of that side, one triangle out of that side
+
+105
+00:06:37,180 --> 00:06:38,950
+and then one triangle out of this side
+
+106
+00:06:38,960 --> 00:06:42,320
+For example, this figure that I have drawn is a very irregular
+
+107
+00:06:42,330 --> 00:06:48,440
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, is that right?
+
+108
+00:06:48,450 --> 00:06:54,060
+1, 2, 3, 4, 5, 6, 7 ,8 ,9 10 It is a decagon
+
+109
+00:06:54,070 --> 00:06:58,320
+In this decagon, four of the sides were used for two triangles
+
+110
+00:07:00,650 --> 00:07:04,160
+Then the other 6 sides I was able to get a triangle each
+
+111
+00:07:11,450 --> 00:07:22,490
+I have 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+112
+00:07:22,500 --> 00:07:27,230
+Did I count, am I just not seeing something?
+
+113
+00:07:27,590 --> 00:07:30,730
+Oh I see, I have to draw another line right over here
+
+114
+00:07:30,740 --> 00:07:32,370
+These are two different sides
+
+115
+00:07:33,920 --> 00:07:36,090
+I can get another triangle out of that right over there
+
+116
+00:07:36,100 --> 00:07:37,290
+There you have it
+
+117
+00:07:37,300 --> 00:07:39,680
+I have these two triangles out of 4 sides
+
+118
+00:07:39,690 --> 00:07:42,940
+Then out of the other 6 remaining sides I get a triangle each
+
+119
+00:07:42,950 --> 00:07:47,290
+Plus 6 triangles, I got a total of 8 triangles
+
+120
+00:07:47,300 --> 00:07:49,740
+So we can generally think about it
+
+121
+00:07:55,360 --> 00:07:56,690
+Let me write this down
+
+122
+00:07:56,900 --> 00:08:01,290
+Our number of triangles is going to be equal to 2,
+
+123
+00:08:04,320 --> 00:08:07,030
+The remaining sides, I get a triangle each
+
+124
+00:08:07,040 --> 00:08:10,160
+The remaining sides are going to be S minus 4
+
+125
+00:08:10,170 --> 00:08:13,350
+The number of triangles are going to be 2 plus S minus 4
+
+126
+00:08:17,190 --> 00:08:24,300
+So, if I have an S-sided polygon, I can get S minus two triangles
+
+127
+00:08:24,310 --> 00:08:26,430
+that perfectly cover that polygon
+
+128
+00:08:28,010 --> 00:08:32,320
+Which tells us that an S-sided polygon if it has S minus 2 triangles,
+
+129
+00:08:32,330 --> 00:08:35,690
+that the interior angles in it are going to be
+
+130
+00:08:35,700 --> 00:08:42,190
+S minus 2 times 180 degrees, which is a pretty cool result
+
+131
+00:08:42,200 --> 00:08:45,550
+So someone told you that they had a 102-sided polygon
+
+132
+00:08:47,750 --> 00:08:49,640
+So, S is equal to 102 sides
+
+133
+00:08:49,650 --> 00:08:52,500
+You can say, okay the number of interior angles are going to be
+
+134
+00:08:58,700 --> 00:09:02,680
+Which is equal to 180, with two more zeros behind it
+
+135
+00:09:06,420 --> 00:09:09,180
+of a 102-sided polygon

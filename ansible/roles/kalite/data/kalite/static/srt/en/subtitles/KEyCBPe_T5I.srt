@@ -1,0 +1,679 @@
+1
+00:00:00,000 --> 00:00:03,070
+OK, we're on problem number 16.
+
+2
+00:00:03,070 --> 00:00:06,040
+Let's see, they drew us something here.
+
+3
+00:00:06,040 --> 00:00:11,050
+From point A to point B, I have a line.
+
+4
+00:00:11,050 --> 00:00:15,090
+Then I have another, B to C.
+
+5
+00:00:15,090 --> 00:00:19,070
+Then I have another, from here to here.
+
+6
+00:00:19,070 --> 00:00:21,000
+OK, so what are they telling us?
+
+7
+00:00:21,000 --> 00:00:24,040
+They tell us, this is a 90 degree angle.
+
+8
+00:00:24,040 --> 00:00:29,010
+Whoops, not what I wanted to do, edit, undo.
+
+9
+00:00:29,010 --> 00:00:31,000
+I'm using the wrong tool.
+
+10
+00:00:31,000 --> 00:00:33,430
+So they tell us, this is a 90 degree angle.
+
+11
+00:00:33,440 --> 00:00:35,020
+this is 90 degree angle.
+
+12
+00:00:35,020 --> 00:00:44,010
+This is A, this is B, this is C, this is D.
+
+13
+00:00:44,010 --> 00:00:44,630
+And they say,
+
+14
+00:00:44,640 --> 00:00:46,880
+the figure above shows the route of Diane's tripŁŹ
+
+15
+00:00:46,880 --> 00:00:48,080
+from her house to her job.
+
+16
+00:00:48,080 --> 00:00:53,060
+Diane travels 16 miles from A to B, so this is 16.
+
+17
+00:00:53,060 --> 00:00:57,070
+15 miles from B to C, so this is 15.
+
+18
+00:00:57,070 --> 00:01:01,020
+And 4 miles from C to D, so this is 4.
+
+19
+00:01:01,020 --> 00:01:03,470
+If she were to travel from A to D directly,
+
+20
+00:01:03,480 --> 00:01:06,040
+how much shorter in miles would the trip be?
+
+21
+00:01:06,040 --> 00:01:08,040
+So what would be the direct route?
+
+22
+00:01:08,040 --> 00:01:08,790
+I'm assuming,
+
+23
+00:01:08,790 --> 00:01:11,000
+they're kind of talking if she could fly.
+
+24
+00:01:11,000 --> 00:01:12,050
+What would be her direct route?
+
+25
+00:01:12,050 --> 00:01:13,080
+So that would be this route.
+
+26
+00:01:13,080 --> 00:01:16,050
+I thought I was using the line tool.
+
+27
+00:01:16,050 --> 00:01:17,020
+Edit, undo.
+
+28
+00:01:17,020 --> 00:01:20,010
+I'll do it in a better color anyway.
+
+29
+00:01:20,010 --> 00:01:22,020
+So this is the direct route, right here.
+
+30
+00:01:22,020 --> 00:01:25,010
+This is we want to figure out, the distance of this.
+
+31
+00:01:25,010 --> 00:01:27,010
+So how can we figure out the distances?
+
+32
+00:01:27,010 --> 00:01:30,800
+And the trick here is to just realize that
+
+33
+00:01:30,800 --> 00:01:33,030
+this is going to be the hypotenuse of a right triangle
+
+34
+00:01:33,030 --> 00:01:34,600
+And you might-- seem confusing,
+
+35
+00:01:34,600 --> 00:01:37,370
+your initial impulse might have been to say this is x
+
+36
+00:01:37,370 --> 00:01:40,070
+and this is 15 minus x, and all of this fancy stuff.
+
+37
+00:01:40,070 --> 00:01:43,900
+Or what you could do, is you can say,
+
+38
+00:01:43,900 --> 00:01:46,020
+well, this side here,
+
+39
+00:01:46,020 --> 00:01:48,070
+we know what this is, this length.
+
+40
+00:01:48,070 --> 00:01:50,000
+Whoops.
+
+41
+00:01:50,000 --> 00:01:51,270
+Let me draw it a little bit better.
+
+42
+00:01:54,020 --> 00:01:55,090
+That length, what is that length?
+
+43
+00:01:55,360 --> 00:01:57,790
+this length is going to be the same as this length
+
+44
+00:01:57,790 --> 00:01:58,270
+right?
+
+45
+00:01:58,270 --> 00:02:00,080
+If we assume this is a 90 degree angle.
+
+46
+00:02:00,080 --> 00:02:03,010
+It's going to be 15.
+
+47
+00:02:03,010 --> 00:02:06,670
+And then what's this length, right here?
+
+48
+00:02:08,270 --> 00:02:10,060
+it's going to same as this length up here, right?
+
+49
+00:02:10,060 --> 00:02:12,090
+I just kind of extended a rectangle.
+
+50
+00:02:12,090 --> 00:02:16,010
+So this length right here is 4.
+
+51
+00:02:16,010 --> 00:02:21,000
+So what is this entire length?
+
+52
+00:02:21,000 --> 00:02:25,060
+It's going to be 16 plus 4, so it's 20.
+
+53
+00:02:25,060 --> 00:02:28,040
+So now, what we're trying to figure out
+
+54
+00:02:28,040 --> 00:02:30,940
+her straight line distance is nothing but
+
+55
+00:02:30,940 --> 00:02:34,600
+the hypotenuse of a rectangle-- of a right triangle
+
+56
+00:02:34,600 --> 00:02:37,030
+where we know the other two sides.
+
+57
+00:02:37,030 --> 00:02:38,310
+So we can say,
+
+58
+00:02:38,310 --> 00:02:41,790
+if this is her straight line distance, x,
+
+59
+00:02:41,790 --> 00:02:45,810
+we could say x squared is equal to 20 squared,
+
+60
+00:02:45,810 --> 00:02:51,050
+20 squared plus 15 squared.
+
+61
+00:02:51,050 --> 00:02:52,250
+x squared is equal to--
+
+62
+00:02:52,250 --> 00:02:56,050
+let's see, this is 400, plus 225, is equal to 625.
+
+63
+00:02:56,050 --> 00:03:02,060
+And the square root of 625 is 25, so x is equal to 25
+
+64
+00:03:02,060 --> 00:03:04,080
+So her straight line distance is 25.
+
+65
+00:03:04,080 --> 00:03:06,080
+And how far was she travelling before?
+
+66
+00:03:06,080 --> 00:03:16,020
+Let's see, she was going 16 plus 15 plus 4.
+
+67
+00:03:16,020 --> 00:03:19,040
+So that's 20-- she was going 35, what is that, miles?
+
+68
+00:03:19,040 --> 00:03:21,000
+Right, miles.
+
+69
+00:03:21,000 --> 00:03:22,390
+She was going 35 miles,
+
+70
+00:03:22,390 --> 00:03:25,050
+and if she goes straight, she goes 25 miles.
+
+71
+00:03:25,050 --> 00:03:29,180
+So she would save 10 miles if she went straight,
+
+72
+00:03:29,180 --> 00:03:31,040
+if she was able to fly.
+
+73
+00:03:31,040 --> 00:03:34,060
+So that's choice C.
+
+74
+00:03:34,060 --> 00:03:35,090
+Next problem.
+
+75
+00:03:39,010 --> 00:03:45,050
+Problem number 17.
+
+76
+00:03:45,050 --> 00:03:47,310
+One circle has a radius of 1/2,
+
+77
+00:03:47,310 --> 00:03:50,070
+and another circle has a radius of 1.
+
+78
+00:03:50,070 --> 00:03:53,550
+What is the ratio of the area of the larger circle
+
+79
+00:03:53,550 --> 00:03:56,010
+to the area of the smaller circle?
+
+80
+00:03:56,010 --> 00:04:02,400
+Let's see, so the area of circle 1, area 1,
+
+81
+00:04:02,410 --> 00:04:06,060
+is going to be equal to what?
+
+82
+00:04:06,060 --> 00:04:09,030
+It has a radius of 1/2, right?
+
+83
+00:04:09,030 --> 00:04:12,030
+So it's pi r squared, is the radius.
+
+84
+00:04:12,030 --> 00:04:18,010
+So it's pi 1/2 squared.
+
+85
+00:04:18,010 --> 00:04:20,070
+And what's the area of circle 2?
+
+86
+00:04:20,070 --> 00:04:26,050
+The area of circle 2, it's pi times its radius.
+
+87
+00:04:26,050 --> 00:04:28,030
+And its radius is 1.
+
+88
+00:04:28,030 --> 00:04:31,030
+So 1 squared.
+
+89
+00:04:31,030 --> 00:04:33,830
+So the ratio of the area of the larger circle
+
+90
+00:04:33,830 --> 00:04:35,330
+to the smaller circle --
+
+91
+00:04:35,330 --> 00:04:38,020
+which one is going to be the larger circle?
+
+92
+00:04:38,020 --> 00:04:40,060
+This one is, because it has a larger radius, right?
+
+93
+00:04:40,060 --> 00:04:42,030
+It has a radius of 1.
+
+94
+00:04:42,030 --> 00:04:43,900
+So the ratio of the larger circle
+
+95
+00:04:43,900 --> 00:04:45,060
+to the smaller circle--
+
+96
+00:04:45,060 --> 00:04:46,440
+and that might be where you messed up,
+
+97
+00:04:46,440 --> 00:04:47,570
+if you flipped the two--
+
+98
+00:04:47,570 --> 00:04:50,010
+the ratio of the larger circle to the smaller circle
+
+99
+00:04:50,010 --> 00:04:53,000
+is equal to pi times 1, right?
+
+100
+00:04:53,000 --> 00:04:54,040
+Well that's just pi.
+
+101
+00:04:54,040 --> 00:04:59,030
+Over pi times 1/2 squared.
+
+102
+00:05:03,000 --> 00:05:08,080
+Pi's cancel out, so we have, it equals 1 over 1/4.
+
+103
+00:05:11,040 --> 00:05:11,900
+Or what we could do is
+
+104
+00:05:11,900 --> 00:05:13,060
+we could multiply the numerator
+
+105
+00:05:13,060 --> 00:05:19,040
+and the denominator by 4, which equals 4/1.
+
+106
+00:05:19,040 --> 00:05:25,050
+So the ratio is 4:1, and that's choice D.
+
+107
+00:05:25,050 --> 00:05:30,030
+Problem 18.
+
+108
+00:05:30,030 --> 00:05:33,010
+Clear image.
+
+109
+00:05:33,010 --> 00:05:34,090
+Problem 18.
+
+110
+00:05:34,090 --> 00:05:37,290
+If the sum of the consecutive integers
+
+111
+00:05:37,290 --> 00:05:40,680
+from minus 22 to x inclusive is 72,
+
+112
+00:05:40,680 --> 00:05:41,630
+what is the value of x?
+
+113
+00:05:42,040 --> 00:05:43,480
+So this is the number--
+
+114
+00:05:43,480 --> 00:05:45,540
+we've actually done a problem very,
+
+115
+00:05:45,540 --> 00:05:46,290
+very similar to this,
+
+116
+00:05:46,290 --> 00:05:48,110
+so it shows you that people at the SAT,
+
+117
+00:05:48,110 --> 00:05:50,030
+they think of a lot of creative problems,
+
+118
+00:05:50,030 --> 00:05:52,060
+but every now and then, they have to repeat.
+
+119
+00:05:52,060 --> 00:05:53,940
+So they're saying the sum of the consecutive integers
+
+120
+00:05:53,950 --> 00:05:56,260
+from minus 22 to x is 72.
+
+121
+00:05:56,260 --> 00:05:59,050
+So let's think about this, let's draw the sum.
+
+122
+00:05:59,050 --> 00:06:07,920
+So it's minus 22, plus minus 21, plus minus 20,
+
+123
+00:06:07,920 --> 00:06:09,030
+right?
+
+124
+00:06:09,030 --> 00:06:16,000
+Plus-- it keeps going, until it gets to 0-- plus 0.
+
+125
+00:06:16,000 --> 00:06:16,400
+And then--
+
+126
+00:06:16,400 --> 00:06:18,450
+and I'm going to go this way,
+
+127
+00:06:18,450 --> 00:06:21,050
+again, I'm doing that for a reason.
+
+128
+00:06:21,050 --> 00:06:25,530
+And then you can say, plus 1, plus 2, plus--
+
+129
+00:06:25,530 --> 00:06:28,490
+you keep going,
+
+130
+00:06:28,490 --> 00:06:39,030
+and then you'd have plus 20, plus 21, plus 22, plus 23
+
+131
+00:06:39,030 --> 00:06:43,090
+plus 24, all the way until we get to x, right?
+
+132
+00:06:43,090 --> 00:06:48,320
+What you need to realize is all the way
+
+133
+00:06:48,320 --> 00:06:53,030
+from minus 22 to 22, the sum is 0.
+
+134
+00:06:53,030 --> 00:06:55,000
+And why is that?
+
+135
+00:06:55,000 --> 00:06:57,030
+Well, look at the way I drew it.
+
+136
+00:06:57,030 --> 00:06:57,530
+So minus 22--
+
+137
+00:06:57,530 --> 00:06:59,050
+we're taking the sum of everything, right?
+
+138
+00:06:59,050 --> 00:07:03,010
+So minus 22 is going to cancel out with positive 22.
+
+139
+00:07:03,010 --> 00:07:04,080
+You add those together, you get 0.
+
+140
+00:07:04,080 --> 00:07:08,020
+Minus 21 is going to cancel out with positive 21.
+
+141
+00:07:08,020 --> 00:07:10,070
+Minus 20 is going to cancel out with positive 20.
+
+142
+00:07:10,070 --> 00:07:11,070
+And so forth, and so on.
+
+143
+00:07:11,070 --> 00:07:12,490
+So everything--
+
+144
+00:07:12,490 --> 00:07:16,050
+so the sum from minus 22 plus, bam, bam,
+
+145
+00:07:16,050 --> 00:07:21,350
+bam, bam, all the way to plus 22, that equals 0,
+
+146
+00:07:21,350 --> 00:07:22,000
+right?
+
+147
+00:07:22,000 --> 00:07:26,080
+So we only get into the positive sum once
+
+148
+00:07:26,080 --> 00:07:28,080
+we get to 23, right?
+
+149
+00:07:28,080 --> 00:07:32,740
+So 23 plus 24 plus something, something, something,
+
+150
+00:07:32,750 --> 00:07:34,000
+is x, right?
+
+151
+00:07:34,000 --> 00:07:37,050
+And we have to get to 72.
+
+152
+00:07:37,050 --> 00:07:39,010
+And here we can just eyeball it.
+
+153
+00:07:39,010 --> 00:07:44,080
+23 plus 24 plus 25, what's that?
+
+154
+00:07:44,080 --> 00:07:47,000
+Well their average is 24, 24 times 3 is 72.
+
+155
+00:07:47,000 --> 00:07:48,030
+Or we can just add it up.
+
+156
+00:07:48,030 --> 00:07:55,090
+So 23 plus 24 is 47, 47 plus 25, it equals 72.
+
+157
+00:07:55,090 --> 00:07:59,060
+So the last number that we use in this whole range is 25.
+
+158
+00:07:59,060 --> 00:08:02,000
+So this is x.
+
+159
+00:08:02,000 --> 00:08:03,050
+That is x.
+
+160
+00:08:03,050 --> 00:08:05,650
+And all we did is we said-- think about it,
+
+161
+00:08:05,650 --> 00:08:07,370
+take the sum from minus 22,
+
+162
+00:08:07,370 --> 00:08:09,030
+all the way to positive 25.
+
+163
+00:08:09,030 --> 00:08:11,010
+Everything up to negative 22,
+
+164
+00:08:11,010 --> 00:08:13,060
+from minus 22 to positive 22,
+
+165
+00:08:13,060 --> 00:08:15,040
+all of those cancel out with each other.
+
+166
+00:08:15,040 --> 00:08:19,040
+So the sum is just going to be 23 plus 24 plus 25.
+
+167
+00:08:19,040 --> 00:08:23,060
+That equals 72, so then x is 25.
+
+168
+00:08:23,060 --> 00:08:26,390
+Next problem-- I'm running out of time,
+
+169
+00:08:26,390 --> 00:08:28,000
+so I'd better do it in the next video.
+
+170
+00:08:28,030 --> 00:08:29,080
+See you soon.

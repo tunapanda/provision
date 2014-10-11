@@ -1,0 +1,783 @@
+1
+00:00:00,000 --> 00:00:04,730
+We're on problem 221
+
+2
+00:00:04,730 --> 00:00:08,720
+And let's see, they have--is all of that in the denominator?
+
+3
+00:00:08,720 --> 00:00:10,100
+Well, I guess it is
+
+4
+00:00:10,100 --> 00:00:12,700
+Let's see, they wrote 1 over--
+
+5
+00:00:12,700 --> 00:00:13,890
+and I'll write it the way they did it
+
+6
+00:00:13,890 --> 00:00:16,430
+1 over-- and they have this--
+
+7
+00:00:16,430 --> 00:00:20,410
+you know, I think it's got to be 1 plus
+
+8
+00:00:20,410 --> 00:00:22,220
+I think it's 1 plus
+
+9
+00:00:22,220 --> 00:00:23,410
+The way they wrote it is weird
+
+10
+00:00:23,410 --> 00:00:30,940
+1 plus 1 over 1 plus 1/3
+
+11
+00:00:30,940 --> 00:00:33,260
+This looks a lot like another problem that we did
+
+12
+00:00:33,260 --> 00:00:35,080
+But anyway, I'll do this one
+
+13
+00:00:35,080 --> 00:00:36,120
+So let's see
+
+14
+00:00:36,120 --> 00:00:42,880
+If we do 1 plus 1/3, that's 3/3, plus 1/3, so that's 4/3
+
+15
+00:00:42,880 --> 00:00:49,520
+So then that turns into 4/3, 1, 1 plus, 1 over that
+
+16
+00:00:49,520 --> 00:00:51,400
+and then you have 1 plus that
+
+17
+00:00:51,400 --> 00:00:57,050
+And so then this equals 1 plus 1 over 1 plus--
+
+18
+00:00:57,050 --> 00:00:58,270
+what's 1 over 4/3?
+
+19
+00:00:58,270 --> 00:00:59,340
+Well, that's the same thing as--
+
+20
+00:00:59,340 --> 00:01:02,310
+1 divided by 4/3 is the the same thing as 1 times 3/4
+
+21
+00:01:02,310 --> 00:01:04,090
+and that's equal to 3/4
+
+22
+00:01:04,090 --> 00:01:06,240
+And what's 1 plus 3/4?
+
+23
+00:01:06,240 --> 00:01:11,370
+Well, that's 4/4 plus 3/4, right?
+
+24
+00:01:11,370 --> 00:01:13,140
+4/4 plus-- so that's 7/4
+
+25
+00:01:13,140 --> 00:01:19,310
+So then that becomes 1 plus 1 over 7/4
+
+26
+00:01:19,310 --> 00:01:24,000
+which is equal to 1 plus 4/7
+
+27
+00:01:24,000 --> 00:01:30,890
+and that equals 7/7 plus 4/7 is equal to 11/7
+
+28
+00:01:30,890 --> 00:01:32,370
+And that's choice D
+
+29
+00:01:32,370 --> 00:01:34,040
+The way they wrote it was weird
+
+30
+00:01:34,040 --> 00:01:36,310
+They wrote it like this, 1 plus down here
+
+31
+00:01:36,310 --> 00:01:38,160
+But I assume that this is what they wanted
+
+32
+00:01:38,160 --> 00:01:39,970
+what I originally had done
+
+33
+00:01:39,970 --> 00:01:45,690
+Problem 222
+
+34
+00:01:45,690 --> 00:01:47,830
+In the rectangular coordinate system above--
+
+35
+00:01:47,830 --> 00:01:49,890
+well, let me draw it
+
+36
+00:01:49,890 --> 00:01:55,470
+That's the y-axis, that's the x-axis
+
+37
+00:01:55,470 --> 00:01:58,340
+y, x
+
+38
+00:01:58,340 --> 00:02:00,880
+And they have a point out here called point p
+
+39
+00:02:00,880 --> 00:02:04,360
+and they say that's at 4. x equals 4, y equals 0
+
+40
+00:02:04,360 --> 00:02:06,090
+In the rectangular coordinate system above
+
+41
+00:02:06,090 --> 00:02:10,680
+if point r, not shown, lies on the positive y-axis
+
+42
+00:02:10,680 --> 00:02:11,740
+so it lies someplace over here
+
+43
+00:02:11,740 --> 00:02:16,010
+and the area of triangle orp , so this is point o
+
+44
+00:02:16,010 --> 00:02:19,660
+and r is going to be some place on this, is 12
+
+45
+00:02:19,660 --> 00:02:21,940
+what is the coordinate of the point r?
+
+46
+00:02:21,940 --> 00:02:25,570
+So the coordinate of the point r, let's just call it--
+
+47
+00:02:25,570 --> 00:02:29,120
+well the x-value is going to be 0, right?
+
+48
+00:02:29,120 --> 00:02:34,640
+And this y-value, I don't know, let's call it x
+
+49
+00:02:34,640 --> 00:02:35,990
+No, let's call it y
+
+50
+00:02:35,990 --> 00:02:39,410
+That's a better variable name for the y-value
+
+51
+00:02:39,410 --> 00:02:43,000
+So they essentially want to know what the area of this
+
+52
+00:02:43,000 --> 00:02:46,690
+triangle right here is
+
+53
+00:02:46,690 --> 00:02:47,790
+Or actually, they want to know what y is
+
+54
+00:02:47,790 --> 00:02:51,360
+given that the area of that triangle, they tell us, is 12
+
+55
+00:02:51,360 --> 00:02:52,680
+The area of this triangle is 12
+
+56
+00:02:52,680 --> 00:02:54,020
+So what's the area of this triangle?
+
+57
+00:02:54,020 --> 00:02:57,260
+It's the base times the height times 1/2
+
+58
+00:02:57,260 --> 00:02:59,510
+The base is 4, right?
+
+59
+00:02:59,510 --> 00:03:00,660
+This is x is equal to 4
+
+60
+00:03:00,660 --> 00:03:02,850
+So it's 4 times the height
+
+61
+00:03:02,850 --> 00:03:06,160
+Well, the height is going to be y, right?
+
+62
+00:03:06,160 --> 00:03:09,260
+Because the coordinate of r is 0 comma y
+
+63
+00:03:09,260 --> 00:03:12,900
+So 4 times y times 1/2-- if you don't do the 1/2
+
+64
+00:03:12,900 --> 00:03:14,610
+you're getting the area of the whole rectangle--
+
+65
+00:03:14,610 --> 00:03:17,510
+is equal to the area of the triangle is equal to 12
+
+66
+00:03:17,510 --> 00:03:21,370
+So you get 2y is equal to 12
+
+67
+00:03:21,370 --> 00:03:22,580
+y is equal to 6
+
+68
+00:03:22,580 --> 00:03:26,460
+So the coordinate of r is 0 comma 6
+
+69
+00:03:26,460 --> 00:03:28,700
+And that is choice--
+
+70
+00:03:28,700 --> 00:03:31,560
+oh, they just ask what is the y-coordinate of point r
+
+71
+00:03:31,560 --> 00:03:35,490
+So that's 6, and that's choice B
+
+72
+00:03:35,490 --> 00:03:41,250
+Problem 223
+
+73
+00:03:41,250 --> 00:03:45,680
+Car A is 20 miles behind car B
+
+74
+00:03:45,680 --> 00:03:48,250
+So let me see if I can draw that
+
+75
+00:03:48,250 --> 00:03:52,440
+So this is A, this is B-- and it's 20 miles behind it
+
+76
+00:03:52,440 --> 00:03:55,460
+I don't know if that's relevant-- which is traveling
+
+77
+00:03:55,460 --> 00:03:59,930
+in the same direction along the same route as car A
+
+78
+00:03:59,930 --> 00:04:03,700
+Car A is traveling at a constant speed of 58 miles per hour
+
+79
+00:04:03,700 --> 00:04:08,170
+so car A is at 58 miles per hour, and car B is
+
+80
+00:04:08,170 --> 00:04:12,180
+traveling at a constant speed of 50 miles per hour
+
+81
+00:04:12,180 --> 00:04:12,850
+Fair enough
+
+82
+00:04:12,850 --> 00:04:16,540
+How many hours will it take for car A to overtake
+
+83
+00:04:16,540 --> 00:04:19,930
+and drive 8 miles ahead of car B?
+
+84
+00:04:19,930 --> 00:04:25,030
+So they don't want just car A to catch up
+
+85
+00:04:25,030 --> 00:04:29,970
+They want car A to catch up and go ahead 8 miles, right?
+
+86
+00:04:29,970 --> 00:04:31,550
+And drive 8 miles ahead
+
+87
+00:04:31,550 --> 00:04:35,730
+So another way to think about it is how long will it take
+
+88
+00:04:35,730 --> 00:04:40,220
+for car A to go 28 miles further than car B?
+
+89
+00:04:40,220 --> 00:04:43,110
+And the easiest way to think about it is just what their
+
+90
+00:04:43,110 --> 00:04:45,140
+differential is, right?
+
+91
+00:04:45,140 --> 00:04:48,100
+Car A is going 8 miles an hour faster than car B
+
+92
+00:04:48,100 --> 00:04:50,740
+So the relative velocity of A relative to B
+
+93
+00:04:50,740 --> 00:04:52,180
+is 8 miles an hour
+
+94
+00:04:52,180 --> 00:04:53,770
+And you could say that, well
+
+95
+00:04:53,770 --> 00:04:55,800
+I don't want to use fancy notation, but car A
+
+96
+00:04:55,800 --> 00:04:59,000
+if you're sitting in car B and you looked at car A
+
+97
+00:04:59,000 --> 00:05:01,140
+you'd say, oh, it's going in my same direction
+
+98
+00:05:01,140 --> 00:05:06,400
+but I'm stationary and it's going at 8 miles per hour
+
+99
+00:05:06,400 --> 00:05:09,340
+So the question essentially says if I'm going at 8 miles
+
+100
+00:05:09,340 --> 00:05:13,040
+per hour, how long does it take to go 28 miles, right?
+
+101
+00:05:13,040 --> 00:05:15,090
+Because I have to catch up to 20 miles with B
+
+102
+00:05:15,090 --> 00:05:16,660
+and then I have to go 8 more miles
+
+103
+00:05:16,660 --> 00:05:20,500
+You could just pretend like you are in car B and you think
+
+104
+00:05:20,500 --> 00:05:21,560
+that you are stationary
+
+105
+00:05:21,560 --> 00:05:24,350
+You ignore the fact that the world is speeding behind you
+
+106
+00:05:24,350 --> 00:05:25,660
+And you just see car A
+
+107
+00:05:25,660 --> 00:05:28,870
+You say, oh, car A must be moving at 8 miles an hour
+
+108
+00:05:28,870 --> 00:05:32,220
+in the direction in which my car is pointed
+
+109
+00:05:32,220 --> 00:05:34,820
+So, anyway, if you have to go 28 miles
+
+110
+00:05:34,820 --> 00:05:37,200
+and you're going at 8 miles per hour
+
+111
+00:05:37,200 --> 00:05:39,500
+distance divided by rate is equal to time
+
+112
+00:05:39,500 --> 00:05:50,260
+That's equal to 3 and 1/2 hours, which is choice E
+
+113
+00:05:50,260 --> 00:05:57,490
+Next question, 224
+
+114
+00:05:57,490 --> 00:05:59,710
+For the past n days
+
+115
+00:05:59,710 --> 00:06:03,760
+the average daily production at a company was 50 units
+
+116
+00:06:03,760 --> 00:06:12,220
+so for n days, 50 unit per day average
+
+117
+00:06:12,220 --> 00:06:17,290
+if today's production of 90 units, so we have 90 units
+
+118
+00:06:17,290 --> 00:06:21,460
+and that raises the average to 55 units per day
+
+119
+00:06:21,460 --> 00:06:23,510
+what was the value of n?
+
+120
+00:06:23,510 --> 00:06:30,410
+OK, so the old average would have been n times 50--
+
+121
+00:06:30,410 --> 00:06:32,050
+and this is kind of obvious --
+
+122
+00:06:32,050 --> 00:06:37,510
+divided by n is equal to 50, right?
+
+123
+00:06:37,510 --> 00:06:40,280
+Now, if I want to average in this 55
+
+124
+00:06:40,280 --> 00:06:48,240
+what happens is I get to n times 50, right?
+
+125
+00:06:48,240 --> 00:06:50,640
+That's the sum of the n days before
+
+126
+00:06:50,640 --> 00:06:53,430
+the sum of the total production for the n days before
+
+127
+00:06:53,430 --> 00:06:56,620
+And what I want to do is I want to have the production
+
+128
+00:06:56,620 --> 00:07:00,440
+for today, and that is 90, plus 90
+
+129
+00:07:00,440 --> 00:07:06,040
+and now I'm going to divide by n plus 1 days, right?
+
+130
+00:07:06,040 --> 00:07:10,880
+And now the average is 55
+
+131
+00:07:10,880 --> 00:07:12,410
+So we just have to solve this for n
+
+132
+00:07:12,410 --> 00:07:14,080
+So let's see what we can do
+
+133
+00:07:14,080 --> 00:07:16,570
+I'll do it in a different color
+
+134
+00:07:16,570 --> 00:07:21,360
+We get 50n plus 90 is equal to--
+
+135
+00:07:21,360 --> 00:07:29,420
+multiply both sides by n plus 1-- 55n plus 55
+
+136
+00:07:29,420 --> 00:07:32,490
+So let's subtract 50n from both sides
+
+137
+00:07:32,490 --> 00:07:38,440
+You get 90 is equal to 5n plus 55
+
+138
+00:07:38,440 --> 00:07:44,730
+Subtract 55 from both sides, 55 to 35 is equal to 5n
+
+139
+00:07:44,730 --> 00:07:48,020
+n is equal to 7
+
+140
+00:07:48,020 --> 00:07:52,310
+And that's choice E
+
+141
+00:07:52,310 --> 00:07:57,650
+Problem 225
+
+142
+00:07:57,650 --> 00:08:06,090
+OK, They write x plus 1 over x minus 1 squared
+
+143
+00:08:06,090 --> 00:08:12,020
+And they say if x does not equal 0 and x does not equal 1--
+
+144
+00:08:12,020 --> 00:08:14,450
+and that's good, because if x equaled 1
+
+145
+00:08:14,450 --> 00:08:16,040
+we'd be dividing by 0 here--
+
+146
+00:08:16,040 --> 00:08:20,340
+and if x is replaced by 1/x everywhere in the expression above
+
+147
+00:08:20,340 --> 00:08:24,750
+so x is replaced with 1/x everywhere in the expression above
+
+148
+00:08:24,750 --> 00:08:28,550
+then the resulting expression is equivalent to--
+
+149
+00:08:28,550 --> 00:08:31,260
+I don't know, let's just do it
+
+150
+00:08:31,260 --> 00:08:36,310
+So if we get 1/x-- we're just replacing x with 1/x-- plus 1
+
+151
+00:08:36,310 --> 00:08:44,530
+over 1/x minus 1 quantity squared
+
+152
+00:08:44,530 --> 00:08:46,540
+and that equals -- let's see
+
+153
+00:08:46,540 --> 00:08:50,460
+This is the same thing as 1/x plus x/x, right?
+
+154
+00:08:50,460 --> 00:08:53,550
+1 is the same thing as x/x
+
+155
+00:08:53,550 --> 00:08:56,680
+And this 1 is the same thing as x/x, right?
+
+156
+00:08:56,680 --> 00:08:57,830
+That's an x/x
+
+157
+00:08:57,830 --> 00:09:07,720
+So then this equals 1 plus x/x over 1 minus x/x
+
+158
+00:09:07,720 --> 00:09:10,520
+everything squared
+
+159
+00:09:10,520 --> 00:09:12,820
+And this inside of the brackets
+
+160
+00:09:12,820 --> 00:09:16,330
+that's the same thing as 1 plus x/x--
+
+161
+00:09:16,330 --> 00:09:18,130
+instead of being divided by this
+
+162
+00:09:18,130 --> 00:09:24,080
+we could multiply by the reciprocal-- times x over 1 minus x
+
+163
+00:09:24,080 --> 00:09:26,110
+I just reciprocated this and multiplied
+
+164
+00:09:26,110 --> 00:09:29,810
+And this is all still in the squared
+
+165
+00:09:29,810 --> 00:09:34,540
+Now these x's cancel out, and lo and behold, we get 1 plus x
+
+166
+00:09:34,540 --> 00:09:47,050
+over 1 minus x squared,which is the same thing as x plus 1--
+
+167
+00:09:47,050 --> 00:09:57,220
+well, let's think about it. x plus 1 over 1 minus x squared
+
+168
+00:09:57,220 --> 00:10:00,930
+And see, that's not one of the choices, right?
+
+169
+00:10:00,930 --> 00:10:02,580
+But let's think about it
+
+170
+00:10:02,580 --> 00:10:06,940
+1 minus x, that's the same thing as--just let me rewrite it
+
+171
+00:10:06,940 --> 00:10:11,630
+This is the same thing as x plus 1 divided by--
+
+172
+00:10:11,630 --> 00:10:16,370
+now this 1 minus x is the same thing as x minus 1
+
+173
+00:10:16,370 --> 00:10:20,500
+times negative 1, right?
+
+174
+00:10:20,500 --> 00:10:23,560
+And we're going to square all of this
+
+175
+00:10:23,560 --> 00:10:28,800
+Well, this over here, this is the same thing as x plus 1
+
+176
+00:10:28,800 --> 00:10:37,100
+over x minus 1 squared times 1 over negative 1 squared,right?
+
+177
+00:10:37,100 --> 00:10:39,830
+If you take the square of a product, you could--
+
+178
+00:10:39,830 --> 00:10:44,730
+this is the same thing as that times 1 over negative 1
+
+179
+00:10:44,730 --> 00:10:47,780
+So that turns into this, and this, obviously if I'm
+
+180
+00:10:47,780 --> 00:10:49,400
+squaring another number, this just becomes 1
+
+181
+00:10:49,400 --> 00:10:53,160
+So I'm left with x plus 1 over x minus 1 squared
+
+182
+00:10:53,160 --> 00:10:55,460
+And that's exactly what we started off with
+
+183
+00:10:55,460 --> 00:10:57,240
+and that's choice A
+
+184
+00:10:57,240 --> 00:10:59,820
+And that's the trick, to realize that
+
+185
+00:10:59,820 --> 00:11:02,130
+this is just a negative of x minus 1
+
+186
+00:11:02,130 --> 00:11:03,350
+And you can take a negative 1 out
+
+187
+00:11:03,350 --> 00:11:04,600
+but we're going to square it anyway
+
+188
+00:11:04,600 --> 00:11:07,040
+so it's going to turn it back positive
+
+189
+00:11:07,040 --> 00:11:10,390
+Next question
+
+190
+00:11:10,390 --> 00:11:11,760
+In choice E, actually, in that one
+
+191
+00:11:11,760 --> 00:11:13,500
+they tempt you by taking the negative outside
+
+192
+00:11:13,500 --> 00:11:15,050
+but you can't take the negative outside the square
+
+193
+00:11:15,050 --> 00:11:17,230
+You're squaring it, so the negative will disappear
+
+194
+00:11:17,230 --> 00:11:19,320
+Anyway, problem 200
+
+195
+00:11:19,320 --> 00:11:20,210
+Oh, I'm all out of time
+
+196
+00:11:20,210 --> 00:11:21,000
+See you in the next video

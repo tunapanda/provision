@@ -1,0 +1,271 @@
+1
+99:59:59,999 --> 99:59:59,999
+so lets say that this is an equilateral triangle and
+
+2
+99:59:59,999 --> 99:59:59,999
+what I want to do is make another shape out of
+
+3
+99:59:59,999 --> 99:59:59,999
+this equilateral traingle and I'm gonna do that
+
+4
+99:59:59,999 --> 99:59:59,999
+by taking each of the sides of this triangle
+
+5
+99:59:59,999 --> 99:59:59,999
+and divide them into three equal sections
+
+6
+99:59:59,999 --> 99:59:59,999
+into three equal sections
+
+7
+99:59:59,999 --> 99:59:59,999
+so, my equilateral triangle wasn't drawn
+
+8
+99:59:59,999 --> 99:59:59,999
+super ideally but I think you'll get the point
+
+9
+99:59:59,999 --> 99:59:59,999
+and the middle section I want to construct
+
+10
+99:59:59,999 --> 99:59:59,999
+another equilateral triangle
+
+11
+99:59:59,999 --> 99:59:59,999
+so the middle section right over here
+
+12
+99:59:59,999 --> 99:59:59,999
+I am going to construct another equilateral triangle
+
+13
+99:59:59,999 --> 99:59:59,999
+so its going to look something like this
+
+14
+99:59:59,999 --> 99:59:59,999
+and then right over here I'm gonna put
+
+15
+99:59:59,999 --> 99:59:59,999
+another equilateral triangle, and so now I went
+
+16
+99:59:59,999 --> 99:59:59,999
+from that equilateral triangle to something that
+
+17
+99:59:59,999 --> 99:59:59,999
+looking like a star or a star of David.
+
+18
+99:59:59,999 --> 99:59:59,999
+and then I'm gonna do it again
+
+19
+99:59:59,999 --> 99:59:59,999
+so each of the sides now I'm going to divide into
+
+20
+99:59:59,999 --> 99:59:59,999
+three equal sides, and that middle segment
+
+21
+99:59:59,999 --> 99:59:59,999
+I'm gonna put an equilateral triangle
+
+22
+99:59:59,999 --> 99:59:59,999
+I'm going to put an equilateral triangle
+
+23
+99:59:59,999 --> 99:59:59,999
+so in the middle segment I'm going to put an
+
+24
+99:59:59,999 --> 99:59:59,999
+equilateral triangle, so I'm gonna do it for
+
+25
+99:59:59,999 --> 99:59:59,999
+everyone one the sides, so let me do it... right there
+
+26
+99:59:59,999 --> 99:59:59,999
+and right there, I think you get the idea but
+
+27
+99:59:59,999 --> 99:59:59,999
+I want to make it clear, so let me just so then
+
+28
+99:59:59,999 --> 99:59:59,999
+like that, and then like that, like that
+
+29
+99:59:59,999 --> 99:59:59,999
+and then almost done for this iteration, this pass
+
+30
+99:59:59,999 --> 99:59:59,999
+and then it'll look that, but then I can do it again
+
+31
+99:59:59,999 --> 99:59:59,999
+each of the segments I can divide into three equal
+
+32
+99:59:59,999 --> 99:59:59,999
+sides and draw another equilateral triangle
+
+33
+99:59:59,999 --> 99:59:59,999
+so I could there, there, there, there, there
+
+34
+99:59:59,999 --> 99:59:59,999
+I think you see where this is going.
+
+35
+99:59:59,999 --> 99:59:59,999
+And so I can keep going on forever and forever
+
+36
+99:59:59,999 --> 99:59:59,999
+So what I want to do in this video is think about whats
+
+37
+99:59:59,999 --> 99:59:59,999
+going on here. And what I'm actually drawing, if we just
+
+38
+99:59:59,999 --> 99:59:59,999
+keep on doing this forever and forever. Every
+
+39
+99:59:59,999 --> 99:59:59,999
+every iteration if we look at each side. We
+
+40
+99:59:59,999 --> 99:59:59,999
+divided it into three eequal sides and then the next iteration
+
+41
+99:59:59,999 --> 99:59:59,999
+with three equal segments, the next iteration, the middle
+
+42
+99:59:59,999 --> 99:59:59,999
+segment would turn into another equilateral triangle
+
+43
+99:59:59,999 --> 99:59:59,999
+this shape that we're describing right here is called a
+
+44
+99:59:59,999 --> 99:59:59,999
+koch snowflake, I'm sure im mispronouncing the koch
+
+45
+99:59:59,999 --> 99:59:59,999
+part. the koch snowflake was first described by this
+
+46
+99:59:59,999 --> 99:59:59,999
+gentleman right over here who was a swedish
+
+47
+99:59:59,999 --> 99:59:59,999
+mathematician, Niels Fabian Helge von Koch
+
+48
+99:59:59,999 --> 99:59:59,999
+well, I'm sure I'm mispronouncing it. And this is one of
+
+49
+99:59:59,999 --> 99:59:59,999
+the earliest described fractals, so this is a fractal. And
+
+50
+99:59:59,999 --> 99:59:59,999
+the reason why it is considered a fractal is that it looks
+
+51
+99:59:59,999 --> 99:59:59,999
+the same, or it looks very similar, on any scale you look
+
+52
+99:59:59,999 --> 99:59:59,999
+at it. So when you look at it at this scale, so if you look
+
+53
+99:59:59,999 --> 99:59:59,999
+at this it looks like you see a bunch of triangles with
+
+54
+99:59:59,999 --> 99:59:59,999
+some bumps on it, but then if you were to zoom in
+
+55
+99:59:59,999 --> 99:59:59,999
+right over there then you would still see that same type
+
+56
+99:59:59,999 --> 99:59:59,999
+of pattern. And then if you were to zoom it again, you
+
+57
+99:59:59,999 --> 99:59:59,999
+would see it again and again. So a fractal is anything that
+
+58
+99:59:59,999 --> 99:59:59,999
+on any scale or any level of zoom it kind of looks roughly
+
+59
+99:59:59,999 --> 99:59:59,999
+the same. So that's why it's called a fractal. Now what's
+
+60
+99:59:59,999 --> 99:59:59,999
+particularly interesting and why I'm putting at this point
+
+61
+99:59:59,999 --> 99:59:59,999
+in the geometry playlist is that this actually has an
+
+62
+99:59:59,999 --> 99:59:59,999
+infinite perimeter. If you were to keep doing it if you
+
+63
+99:59:59,999 --> 99:59:59,999
+actually wanted to make the Koch snowflake were you
+
+64
+99:59:59,999 --> 99:59:59,999
+keep an infinite number of times on every smaller little
+
+65
+99:59:59,999 --> 99:59:59,999
+triangle here you keep adding another equilateral
+
+66
+99:59:59,999 --> 99:59:59,999
+triangle on its side. And to show that it has an equal
+
+67
+99:59:59,999 --> 99:59:59,999
+perimeter, lets just consider one side over here. So let's
+
+68
+99:59:59,999 --> 99:59:59,999
+say that this side, let's say we're starting with that

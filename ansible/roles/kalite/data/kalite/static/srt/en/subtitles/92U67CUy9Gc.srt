@@ -1,0 +1,587 @@
+1
+00:00:00,000 --> 00:00:03,979
+I want to talk about direct and inverse variations
+
+2
+00:00:03,979 --> 00:00:08,036
+I´ll do direct variations on the left over here
+
+3
+00:00:08,559 --> 00:00:15,274
+And I´ll do inverse variations or two variables that vary inversly on the right hand side over here
+
+4
+00:00:15,604 --> 00:00:19,783
+So a very simple definition for two variables that vary directly
+
+5
+00:00:19,783 --> 00:00:23,266
+would be something like this
+
+6
+00:00:23,266 --> 00:00:27,260
+Y varies directly with X if y is equal to some constant with x
+
+7
+00:00:27,260 --> 00:00:29,600
+we could rewrite this in kind of english
+
+8
+00:00:29,600 --> 00:00:39,267
+y varies directly with x
+
+9
+00:00:39,267 --> 00:00:43,700
+if this constant seems strange to you
+
+10
+00:00:43,700 --> 00:00:47,183
+remember this could be literally any constant number
+
+11
+00:00:47,183 --> 00:00:49,598
+so let me give a bunch of examples that would also
+
+12
+00:00:49,598 --> 00:00:53,174
+or particular examples of y varies directly with x
+
+13
+00:00:53,174 --> 00:00:56,285
+you cold have Y is equal to X
+
+14
+00:00:56,285 --> 00:00:59,954
+because of the situation the constant is 1, we didn´t even write it
+
+15
+00:00:59,954 --> 00:01:02,694
+you could have write Y is equal to 1X, then K is 1
+
+16
+00:01:02,694 --> 00:01:05,434
+we could write Y is equal to 2X
+
+17
+00:01:05,434 --> 00:01:08,452
+we could write Y is equal to one half X
+
+18
+00:01:08,452 --> 00:01:11,935
+we could write Y is equal to negative 2X
+
+19
+00:01:11,935 --> 00:01:14,165
+we are still variating directly
+
+20
+00:01:14,165 --> 00:01:18,112
+we could write Y is equal to negative one half X
+
+21
+00:01:18,112 --> 00:01:22,617
+we could have Y is equal to π times X
+
+22
+00:01:22,617 --> 00:01:26,100
+we could have Y is equal to negative π times X
+
+23
+00:01:26,100 --> 00:01:28,840
+You get the point
+
+24
+00:01:28,840 --> 00:01:31,951
+Any constant times X, we are varying directly
+
+25
+00:01:31,951 --> 00:01:35,248
+And to understand this maybe a little bit more tanginbly
+
+26
+00:01:35,248 --> 00:01:38,592
+let´s think about what happens and let´s pick one of these scenarios
+
+27
+00:01:38,592 --> 00:01:41,843
+I´ll take a positive version and a negative version
+
+28
+00:01:41,843 --> 00:01:43,933
+just because it might not be completely intuitive
+
+29
+00:01:43,933 --> 00:01:46,115
+So let´s take the version of Y is equal to 2X
+
+30
+00:01:46,115 --> 00:01:51,333
+and let´s explore why we say they vary directly with each other
+
+31
+00:01:51,333 --> 00:01:54,333
+so let´s pick a couple of values for X
+
+32
+00:01:54,333 --> 00:01:57,933
+and see what the resulting Y value would have to be
+
+33
+00:01:57,933 --> 00:02:03,855
+so if X is equal to 1, then Y is two times 1, so it´s 2
+
+34
+00:02:03,855 --> 00:02:10,264
+if X is equal to 2, then Y is 2 times 2, which is going to be equal to 4
+
+35
+00:02:10,264 --> 00:02:17,601
+So when we doubled X, from 1 to 2, so we doubled X, the same thing happened to Y
+
+36
+00:02:17,601 --> 00:02:24,242
+We doubled Y, so that´s what it means when something varies directly
+
+37
+00:02:24,242 --> 00:02:29,258
+If we scale X up by a certain amount, we are going to scale up Y
+
+38
+00:02:29,258 --> 00:02:30,698
+by the same amount
+
+39
+00:02:30,698 --> 00:02:34,924
+If we scale down X by a certain amount, we would scale down Y by the same amount
+
+40
+00:02:34,924 --> 00:02:37,431
+And just to show you it works with all of these
+
+41
+00:02:37,431 --> 00:02:40,914
+let´s try the situation with Y is equal to negative 2X
+
+42
+00:02:40,914 --> 00:02:43,608
+I´ll do it in magenta
+
+43
+00:02:43,608 --> 00:02:50,689
+Y is equal to ..., I´ll do a new example, let´s try Y is equal to negative 3X
+
+44
+00:02:50,689 --> 00:02:57,470
+so once again, let me do my X and my Y
+
+45
+00:02:57,470 --> 00:03:01,789
+when X is equal to 1, Y is equal to negative 3 times 1, which is negative 3
+
+46
+00:03:01,789 --> 00:03:08,383
+when X is equal to 2, negative 3 times 2 is negative 6
+
+47
+00:03:08,383 --> 00:03:17,114
+so notice, we multiplied, so if we scaled, let me do that in the same green colour
+
+48
+00:03:17,114 --> 00:03:20,783
+if we scale up X by 2, it´s a different green colour but it serves the purpose
+
+49
+00:03:20,783 --> 00:03:24,312
+we are also scaling up Y by 2, to go from 1 to 2, we multiply by 2
+
+50
+00:03:24,312 --> 00:03:29,467
+to go from negative 3 to negative 6, you´re also multiplying by 2
+
+51
+00:03:29,467 --> 00:03:34,204
+so we grew by the same scaling factor, and if you want to get the other way
+
+52
+00:03:34,204 --> 00:03:48,136
+let´s say we try, X is 1/3, if X is 1/3 then Y is going to be negative 3 times 1/3, is negative 1
+
+53
+00:03:48,136 --> 00:03:53,200
+so to go from 1 to 1/3, we divide by 3
+
+54
+00:03:53,200 --> 00:03:57,053
+to go from negative 3 to negative 1, we also divide by 3
+
+55
+00:03:57,053 --> 00:04:00,118
+we also scale down by a factor of 3
+
+56
+00:04:00,118 --> 00:04:05,458
+so whatever direction you scale X in you are going to have the same scaling direction as Y
+
+57
+00:04:05,458 --> 00:04:08,477
+that´s what it means to vary directly
+
+58
+00:04:08,477 --> 00:04:12,378
+now it´s not laways so clear
+
+59
+00:04:12,378 --> 00:04:13,771
+sometimes it would be ofuscated
+
+60
+00:04:13,771 --> 00:04:18,043
+so you could write, so let´s take this example right over here
+
+61
+00:04:18,043 --> 00:04:21,867
+Y is equal to negative 3X, (I´m saving this real state for inverse variation in a second)
+
+62
+00:04:21,867 --> 00:04:25,200
+you could writethis or you could algebraically manipulate it
+
+63
+00:04:25,200 --> 00:04:28,307
+you could maybe divide both sides of this equation by X
+
+64
+00:04:28,307 --> 00:04:34,112
+and then you will get Y/X is equal to -3
+
+65
+00:04:34,112 --> 00:04:36,944
+or maybe you divide both sides by X
+
+66
+00:04:36,944 --> 00:04:39,452
+and then you divide both sides by Y
+
+67
+00:04:39,452 --> 00:04:42,842
+so from this you would get, so if you divide both sides by Y now
+
+68
+00:04:42,842 --> 00:04:47,933
+you could get 1/X is equal to negative 3 times 1/Y
+
+69
+00:04:47,933 --> 00:04:52,595
+these three statements, these three equations are all the same thing
+
+70
+00:04:52,595 --> 00:04:55,938
+so sometimes the direct variation isn´t quite in your face
+
+71
+00:04:55,938 --> 00:04:59,607
+but if you do this, what I did right here with any of these
+
+72
+00:04:59,607 --> 00:05:01,604
+you would get the exact same result
+
+73
+00:05:01,604 --> 00:05:04,948
+or you could jus try to manipulate it back, to this form over here
+
+74
+00:05:04,948 --> 00:05:07,595
+and there´s other ways we could do it
+
+75
+00:05:07,595 --> 00:05:09,777
+we could divide both sides of this equation by negative 3
+
+76
+00:05:09,777 --> 00:05:13,911
+and then you would get negative 1/3Y is equal to X
+
+77
+00:05:13,911 --> 00:05:17,440
+and this is kind of an interesting case here
+
+78
+00:05:17,440 --> 00:05:21,109
+because here this is X varies directly with Y
+
+79
+00:05:21,109 --> 00:05:24,778
+or we could say X is equal to some K times Y
+
+80
+00:05:24,778 --> 00:05:26,264
+and in general that´s true
+
+81
+00:05:26,264 --> 00:05:34,112
+if Y varies directly with X, though we can also say that X varies directly with Y
+
+82
+00:05:34,112 --> 00:05:38,245
+it´s not going to be the same constant, it´s going to be essentially the inverse of that constant
+
+83
+00:05:38,245 --> 00:05:40,614
+but they´re still directly varying
+
+84
+00:05:40,614 --> 00:05:43,586
+now with that said so about direct variation
+
+85
+00:05:43,586 --> 00:05:45,267
+let´s explore inverse variation
+
+86
+00:05:45,267 --> 00:05:49,576
+inverse variation the general form (if we use the same variables)
+
+87
+00:05:49,576 --> 00:05:52,502
+it always doesn´t have to be Y and X, it could be A and a B
+
+88
+00:05:52,502 --> 00:05:55,196
+it could be a M and an N
+
+89
+00:05:55,196 --> 00:06:05,273
+now to inverse varitaion, so if I did it with Ys and Xs
+
+90
+00:06:05,273 --> 00:06:07,595
+this would be Y is equal to some constant (K) times 1/X
+
+91
+00:06:07,595 --> 00:06:14,608
+so instead of being some constant times X, it´s some constant times 1/X
+
+92
+00:06:14,608 --> 00:06:16,512
+so let me show you a bunch of examples
+
+93
+00:06:16,512 --> 00:06:18,601
+it could be Y is equal to 1/X
+
+94
+00:06:18,601 --> 00:06:22,920
+it could be Y is equal to 2 times 1/X
+
+95
+00:06:22,920 --> 00:06:25,567
+which is clearly the same thing as 2/X
+
+96
+00:06:25,567 --> 00:06:31,279
+it could be Y is equal to 1/3 times 1/X
+
+97
+00:06:31,279 --> 00:06:33,927
+whis is the same thing as 1/3X
+
+98
+00:06:33,927 --> 00:06:39,000
+it could be Y is equal to -2/X
+
+99
+00:06:39,000 --> 00:06:43,911
+and let´s explore this, the inverse variation the same way we explain the direct variation
+
+100
+00:06:43,911 --> 00:06:48,276
+so let´s pick Y is equal to 2/X
+
+101
+00:06:48,276 --> 00:06:55,614
+and let me do that same table over here
+
+102
+00:06:55,614 --> 00:07:02,766
+if X is 1, then Y is 2
+
+103
+00:07:02,766 --> 00:07:07,267
+if X is 2 then 2 divided by 2 is 1
+
+104
+00:07:07,267 --> 00:07:09,453
+so if you multiply X by 2
+
+105
+00:07:09,453 --> 00:07:12,379
+you scale it up by a factor of 2, what happens to Y?
+
+106
+00:07:12,379 --> 00:07:15,304
+Y gets scaled down by a factor of 2
+
+107
+00:07:15,304 --> 00:07:17,301
+you divide it by 2 now
+
+108
+00:07:17,301 --> 00:07:18,533
+notice the difference?
+
+109
+00:07:18,533 --> 00:07:22,178
+here however we scale X, we sacled up Y by the same amount
+
+110
+00:07:22,178 --> 00:07:24,933
+now if we scale up X by a factor
+
+111
+00:07:24,933 --> 00:07:30,119
+when we have inverse variation, we are scaling down Y by the same
+
+112
+00:07:30,119 --> 00:07:32,467
+so that´s were the inverse is coming from
+
+113
+00:07:32,467 --> 00:07:34,716
+and we could go the other way
+
+114
+00:07:34,716 --> 00:07:36,853
+id we made X is equal to 1/2
+
+115
+00:07:36,853 --> 00:07:42,704
+so if we were to scale down X, we are going to see that this is going to scale up Y
+
+116
+00:07:42,704 --> 00:07:44,887
+´cause 2 divided by 1/2 is 4
+
+117
+00:07:44,887 --> 00:07:47,441
+so here we are scaling up Y
+
+118
+00:07:47,441 --> 00:07:49,206
+so they are going to do the opposite things
+
+119
+00:07:49,206 --> 00:07:55,196
+they vary inverse, and you could try it with the negative way of it as well
+
+120
+00:07:55,196 --> 00:07:58,215
+so here we are multiplying by 2
+
+121
+00:07:58,215 --> 00:08:00,537
+and once again it is not always neatly written for you like this
+
+122
+00:08:00,537 --> 00:08:04,299
+it could be rearranged in a bunch different ways
+
+123
+00:08:04,299 --> 00:08:09,546
+but it will still be inverse variation as long as they are algebraically equivalent
+
+124
+00:08:09,546 --> 00:08:13,215
+so you could multiply both side of this equation right here by X
+
+125
+00:08:13,215 --> 00:08:20,878
+and you would get XY is equal to 2, this is also inverse variation
+
+126
+00:08:20,878 --> 00:08:22,782
+you would get this exact same table over here
+
+127
+00:08:22,782 --> 00:08:30,769
+you could divide both sides of this equation by Y and you could X is equal to 2/Y
+
+128
+00:08:30,769 --> 00:08:33,788
+which is also the same thing as 2 times 1/Y
+
+129
+00:08:33,788 --> 00:08:36,800
+so notice Y varies inversely with X
+
+130
+00:08:36,800 --> 00:08:41,868
+and you could just manipulate this algebraically to show that X varies inversely with Y
+
+131
+00:08:41,868 --> 00:08:50,135
+so Y varies inversely with X
+
+132
+00:08:50,135 --> 00:09:00,770
+this is the same thing (as seen in this example) as saying that X varies inveresely with Y
+
+133
+00:09:00,770 --> 00:09:02,116
+and there is other things
+
+134
+00:09:02,116 --> 00:09:04,531
+we could take this and divide both sides by 2
+
+135
+00:09:04,531 --> 00:09:07,550
+and you would get Y/2 is equal to 1/X
+
+136
+00:09:07,550 --> 00:09:09,547
+there´s all sort of crazy things
+
+137
+00:09:09,547 --> 00:09:13,540
+so in general if you see an expression that relates two variables
+
+138
+00:09:13,540 --> 00:09:17,209
+and they say do they vary inversely or directly or maybe neither
+
+139
+00:09:17,209 --> 00:09:20,042
+you could either try to make a table like this
+
+140
+00:09:20,042 --> 00:09:24,640
+if you scale up X by certain amount and Y gets scaled up by the same amount
+
+141
+00:09:24,640 --> 00:09:26,544
+that is direct variation
+
+142
+00:09:26,544 --> 00:09:31,188
+if you scale up X, you may want to try it a couple of different times
+
+143
+00:09:31,188 --> 00:09:35,878
+and you scale down Y, do the opposite with Y, then it is probably inverse variation
+
+144
+00:09:35,878 --> 00:09:42,798
+a sure way to know what you´re dealing with
+
+145
+00:09:42,798 --> 00:09:46,791
+it´s to actually algebraically manipulate the equation so it gets back to either this form
+
+146
+00:09:46,791 --> 00:09:48,788
+that tells you it´s inverse variation
+
+147
+00:09:48,932 --> 00:09:52,932
+or this form, which will tell you that it is direct variation

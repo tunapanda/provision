@@ -1,0 +1,455 @@
+1
+00:00:01,935 --> 00:00:03,998
+Where we left off in the last video we were beginning to try
+
+2
+00:00:03,998 --> 00:00:07,748
+to figure out what the 24 roots of
+
+3
+00:00:07,748 --> 00:00:11,034
+1 were and then we're going to square those 24 roots, take the absolute value of their
+
+4
+00:00:11,034 --> 00:00:15,586
+imaginary part and then sum them up. So let's once again, let's just think about the
+
+5
+00:00:15,586 --> 00:00:20,647
+roots that matter. So this over here we figured out this is pi over 12
+
+6
+00:00:20,647 --> 00:00:23,652
+so let me, this is pi over 12...
+
+7
+00:00:23,652 --> 00:00:26,885
+it's the angle, I guess I should say, that's either the pi over 12i
+
+8
+00:00:26,885 --> 00:00:31,635
+let's just focus on the angle here, this over here is 2pi over 12
+
+9
+00:00:31,635 --> 00:00:35,193
+or pi over 6. This over here is 3pi over 12, or
+
+10
+00:00:35,193 --> 00:00:39,395
+pi over 4, this over here is 4pi over 12
+
+11
+00:00:39,395 --> 00:00:43,947
+4 pi over 12, or pi over 3, and this right over
+
+12
+00:00:43,947 --> 00:00:48,262
+here is 5pi over 12. This is 5pi over 12.
+
+13
+00:00:48,262 --> 00:00:51,683
+5pi over 12. And then this obviously
+
+14
+00:00:51,683 --> 00:00:55,180
+is just 6pi over 12 or pi over 2. We could keep going, but before we keep going
+
+15
+00:00:55,180 --> 00:00:59,183
+and this will really just simplify the math a little bit. Remember we're going to have to
+
+16
+00:00:59,183 --> 00:01:02,746
+square these roots. So let's just think about if we have some complex number, a + bi
+
+17
+00:01:02,746 --> 00:01:07,211
+If we have some complex number a + bi
+
+18
+00:01:07,211 --> 00:01:16,767
+Let's think about what happens when we square it. This is going to be equal to a^2 + 2abi - b^2
+
+19
+00:01:16,767 --> 00:01:22,666
+Or we could rewrite it as a^2 - b^2, which will be the real part, and then plus 2abi
+
+20
+00:01:22,666 --> 00:01:26,696
+2ab is the imaginary part.
+
+21
+00:01:26,696 --> 00:01:30,852
+And the reason why I even took the trouble of writing it this way is to realize that the complex
+
+22
+00:01:30,852 --> 00:01:37,099
+what we're going to do is square all these complex numbers, and then take the absolute value of the imaginary part.
+
+23
+00:01:37,099 --> 00:01:41,501
+So really all that matters is the absolute value of 2ab
+
+24
+00:01:41,501 --> 00:01:49,432
+Or really, 2 times the absolute value, 2 times the absolute value of ab
+
+25
+00:01:49,432 --> 00:01:53,871
+Now, these guys all have analogs where either a or b would be negative
+
+26
+00:01:53,871 --> 00:02:00,363
+So if this guy is, if this guy, this right over here, let's call this a + bi
+
+27
+00:02:00,363 --> 00:02:09,921
+If you had a - bi, you would be down here. You would be down here, so if this guy is a + bi, a -bi is going to be over here
+
+28
+00:02:09,921 --> 00:02:15,932
+Or you could have -a - bi is going to be over here. -a - bi is going to be over there.
+
+29
+00:02:15,932 --> 00:02:21,687
+Or you could have -a + bi over here. -a + bi over here.
+
+30
+00:02:21,687 --> 00:02:24,015
+But the reason why I did this is we showed you just over here
+
+31
+00:02:24,015 --> 00:02:28,085
+all of these guys, when you square them and you take the absolute value
+
+32
+00:02:28,085 --> 00:02:31,684
+of the imaginary part of that squared value, it's all going to be the same
+
+33
+00:02:31,684 --> 00:02:35,913
+when you take, it's going to be ab, the absolute value is just going to be ab
+
+34
+00:02:35,913 --> 00:02:40,306
+the absolute value is just still going to be ab, so they're all going to be the same
+
+35
+00:02:40,306 --> 00:02:43,470
+So what we can do is, and each of these guys is going to have the same analog
+
+36
+00:02:43,470 --> 00:02:50,114
+so what we can do is just find the values for these guys, 1, 2, 3, 4, for these 5 guys
+
+37
+00:02:50,114 --> 00:02:55,747
+over here. And then just multiply whatever we get by 4, because they each have
+
+38
+00:02:55,747 --> 00:03:00,037
+I guess there's 4 of these around the unit circle and that'll save a lot of our
+
+39
+00:03:00,037 --> 00:03:03,165
+work. Now the other thing we want to think about. We already said
+
+40
+00:03:03,165 --> 00:03:07,706
+ignore 1, because we added that root, but even if we didn't remember to ignore it it wouldn't matter
+
+41
+00:03:07,706 --> 00:03:13,189
+because 1 doesn't have any imaginary part, 1^2 is still 1, 1 does not have any imaginary
+
+42
+00:03:13,189 --> 00:03:21,303
+part. We can also ignore an angle of pi over 2, or 90 degrees
+
+43
+00:03:21,303 --> 00:03:23,622
+because this has no real part
+
+44
+00:03:23,622 --> 00:03:28,067
+and you see over here, when you square it it's actually going to take you
+
+45
+00:03:28,067 --> 00:03:30,840
+over here and it won't have an imaginary part. When you square it, it's
+
+46
+00:03:30,840 --> 00:03:34,257
+2 times the real times the imaginary part. This has no real part, so this is going to
+
+47
+00:03:34,257 --> 00:03:38,367
+be zero. So this guy will also not contribute. So we really just care
+
+48
+00:03:38,367 --> 00:03:42,766
+about these angles, right over here, and then we'll square them,
+
+49
+00:03:42,766 --> 00:03:45,633
+find the absolute value of their imaginary part, and then multiply
+
+50
+00:03:45,633 --> 00:03:48,372
+everything by 4 because that will correspond to these other,
+
+51
+00:03:48,372 --> 00:03:53,781
+if you took the imaginary and real parts and made them negative
+
+52
+00:03:53,781 --> 00:03:56,107
+and it would take us all the way around the unit circle.
+
+53
+00:03:56,107 --> 00:03:59,408
+so let's think about it a little bit, so let me just write these over here, so the
+
+54
+00:03:59,408 --> 00:04:02,732
+z's that we're going to think about right now are going to be
+
+55
+00:04:02,732 --> 00:04:14,826
+e to the pi over 12, e to the pi over 6, e to the pi over 4,
+
+56
+00:04:14,826 --> 00:04:18,525
+oh e to the pi over 12i, I should say, pi over 6i, pi over 4i,
+
+57
+00:04:18,525 --> 00:04:26,988
+e to the pi over 3i, and then we have e to the 5pi over 12i.
+
+58
+00:04:26,988 --> 00:04:34,023
+Now we're going to square each of them, and it's nice to leave them in this
+
+59
+00:04:34,023 --> 00:04:37,238
+exponential form when you square it, as it's much easier to square these values
+
+60
+00:04:37,238 --> 00:04:40,319
+if you square this you're just essentially multiply the exponent times 2
+
+61
+00:04:40,319 --> 00:04:49,376
+so this is going to be e to the pi over 6i, this will be e to the pi over 3i
+
+62
+00:04:49,376 --> 00:04:50,939
+We're just squaring them.
+
+63
+00:04:50,939 --> 00:04:54,517
+Just taking the square of each of these values
+
+64
+00:04:54,517 --> 00:04:57,025
+Each of these roots
+
+65
+00:04:57,025 --> 00:05:04,571
+So e to the pi over 3i, and in here you're going to have e to the pi over 2i,
+
+66
+00:05:04,571 --> 00:05:13,070
+then over here you'll have e to the 2pi over 3i
+
+67
+00:05:13,070 --> 00:05:21,250
+and then finally over here you'll have e to the 5pi over 6i.
+
+68
+00:05:21,250 --> 00:05:25,925
+Now these are the squared values of these roots here
+
+69
+00:05:25,925 --> 00:05:27,722
+Now let's just think about their imaginary parts.
+
+70
+00:05:27,722 --> 00:05:33,952
+So this guy right over here can be rewritten
+
+71
+00:05:33,952 --> 00:05:39,890
+as cosine of pi over 6 plus i-sine of pi over 6.
+
+72
+00:05:39,890 --> 00:05:48,144
+so his imaginary part is sine of pi over 6
+
+73
+00:05:48,144 --> 00:05:50,206
+This guy's imaginary part, if you expand it out with Euler's formula
+
+74
+00:05:50,206 --> 00:05:54,454
+cosine of pi over 3 plus i-sine pi over 3
+
+75
+00:05:54,454 --> 00:05:59,070
+So this imaginary part is just going to be sine of pi over 3
+
+76
+00:05:59,070 --> 00:06:01,777
+Here's going to be sine of pi over 2,
+
+77
+00:06:01,777 --> 00:06:05,187
+here's going to be sine of 2pi over 3,
+
+78
+00:06:05,187 --> 00:06:16,409
+and here's going to be sine of 5pi over 6
+
+79
+00:06:16,409 --> 00:06:19,558
+Now we just have to evaluate these guys
+
+80
+00:06:19,558 --> 00:06:22,636
+and take their absolute value, and then take the sum
+
+81
+00:06:22,636 --> 00:06:25,877
+and then multiply everything times 4, and we're essentially
+
+82
+00:06:25,877 --> 00:06:30,909
+in the home stretch. So pi over 6 is 180, actually let me draw
+
+83
+00:06:30,909 --> 00:06:39,945
+another unit circle over here just so we can visual these angles
+
+84
+00:06:39,945 --> 00:06:48,293
+so now we have sine of pi over 6, which is the same thing as 30 degrees,
+
+85
+00:06:48,293 --> 00:06:55,711
+so it looks like this. and we know that the sine of 30 degrees is 1/2
+
+86
+00:06:55,711 --> 00:07:03,040
+square root of 3 over 2, but this right over here is 1/2
+
+87
+00:07:03,040 --> 00:07:12,424
+sine of pi over 3 is the equivalent of 60 degrees, the sine over here is
+
+88
+00:07:12,424 --> 00:07:18,371
+square root of 3 over 2, you can figure that out from 30-60-90 triangles
+
+89
+00:07:18,371 --> 00:07:21,357
+then you have sine of pi over 2
+
+90
+00:07:21,357 --> 00:07:26,077
+pi over 2 is that right over there. Well the sine of that is just 1.
+
+91
+00:07:26,077 --> 00:07:33,880
+The imaginary part of this, or I guess this would evaluate just to i
+
+92
+00:07:33,880 --> 00:07:37,592
+but the imaginary part which is viewed as the coefficient on the i, which is kind of
+
+93
+00:07:37,592 --> 00:07:40,279
+nonintuitive, you kind of think it's the whole thing, but when people say
+
+94
+00:07:40,279 --> 00:07:43,982
+the imaginary part, so this will just be 1.
+
+95
+00:07:43,982 --> 00:07:51,924
+and then sine of 2 pi over 3. So pi over 3 is 60 degrees, so you can view that as
+
+96
+00:07:51,924 --> 00:08:01,096
+120 degrees. So it's 120 degrees, so it's right over here. So it's going to have
+
+97
+00:08:01,096 --> 00:08:08,179
+the same sine value as pi over 3.
+
+98
+00:08:08,179 --> 00:08:12,277
+so it's going to be square root of 3 over 2.
+
+99
+00:08:12,277 --> 00:08:18,647
+and then sine of 5pi over 6. pi over 6 is 30 degrees, so this is sine of
+
+100
+00:08:18,647 --> 00:08:23,141
+150 degrees, so it's going to be just like that.
+
+101
+00:08:23,141 --> 00:08:28,161
+And it's going to have the same sine value as pi over 6, it's going to be 1/2.
+
+102
+00:08:28,161 --> 00:08:30,695
+and lucky for us, these are all positive values
+
+103
+00:08:30,695 --> 00:08:35,842
+so let's just take the sum. We have 1/2 plus
+
+104
+00:08:35,842 --> 00:08:42,861
+1/2 is 1, plus another 1 over here is going to be 2, plus
+
+105
+00:08:42,861 --> 00:08:48,374
+the square root of 3 over 2 is square root of 3.
+
+106
+00:08:48,374 --> 00:08:54,376
+Now remember, for this quadrant over here, we have to do it for all of the
+
+107
+00:08:54,376 --> 00:08:58,061
+quadrants, so we just need to multiply everything times 4.
+
+108
+00:08:58,061 --> 00:09:02,694
+so the sum of the absolute value of the imaginary parts of the squares of
+
+109
+00:09:02,694 --> 00:09:08,510
+the roots is 8 plus 4 square root of 3. and going back
+
+110
+00:09:08,510 --> 00:09:14,249
+to the original problem. we got the answer here
+
+111
+00:09:14,249 --> 00:09:19,543
+This is 8 plus 4 square roots of 3. I wanna make sure I didn't mess it up, right
+
+112
+00:09:19,543 --> 00:09:27,346
+so if we want to find m + n + p, it is 8 plus 4 plus 3,
+
+113
+00:09:27,346 --> 00:09:29,463
+which is equal to 15
+
+114
+00:09:29,463 --> 00:09:31,340
+and we're done.

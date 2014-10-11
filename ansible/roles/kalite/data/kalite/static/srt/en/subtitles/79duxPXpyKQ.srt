@@ -1,0 +1,1267 @@
+1
+00:00:00,000 --> 00:00:00,500
+   
+
+2
+00:00:00,500 --> 00:00:03,230
+You could never have too much
+practice dealing with the
+
+3
+00:00:03,230 --> 00:00:06,500
+normal distribution, because
+it's really one of those super
+
+4
+00:00:06,500 --> 00:00:09,270
+important building blocks
+for the rest of statistics.
+
+5
+00:00:09,270 --> 00:00:10,540
+And really, a lot of your life.
+
+6
+00:00:10,540 --> 00:00:13,150
+So what I've done here is I've
+taken some sample problems--
+
+7
+00:00:13,150 --> 00:00:18,750
+this is from ck12.org's
+open source flex book.
+
+8
+00:00:18,750 --> 00:00:20,100
+Their AP statistics flex book.
+
+9
+00:00:20,100 --> 00:00:22,170
+And I've taken the problems
+from their normal
+
+10
+00:00:22,170 --> 00:00:22,720
+distribution chapter.
+
+11
+00:00:22,720 --> 00:00:25,300
+So you could go to their
+site and actually look
+
+12
+00:00:25,300 --> 00:00:27,190
+up these same problems.
+
+13
+00:00:27,190 --> 00:00:31,630
+So this first problem: which of
+the following data sets is most
+
+14
+00:00:31,630 --> 00:00:33,780
+likely to be normally
+distributed?
+
+15
+00:00:33,780 --> 00:00:36,610
+For the other choices, explain
+why you believe they would not
+
+16
+00:00:36,610 --> 00:00:38,200
+follow a normal distribution.
+
+17
+00:00:38,200 --> 00:00:39,030
+So let's see, choice a.
+
+18
+00:00:39,030 --> 00:00:40,280
+So this is a really--
+this is, you know, my
+
+19
+00:00:40,280 --> 00:00:41,290
+beliefs come into play.
+
+20
+00:00:41,290 --> 00:00:43,500
+So this is unusual in
+the math context.
+
+21
+00:00:43,500 --> 00:00:44,930
+It's more of a,
+what do I think?
+
+22
+00:00:44,930 --> 00:00:46,290
+It's kind of an essay question.
+
+23
+00:00:46,290 --> 00:00:48,100
+So let's see what
+they have here.
+
+24
+00:00:48,100 --> 00:00:49,460
+A, the hand span.
+
+25
+00:00:49,460 --> 00:00:51,950
+Measured from the tip of the
+thumb to the tip of the
+
+26
+00:00:51,950 --> 00:00:53,230
+extended fifth finger.
+
+27
+00:00:53,230 --> 00:00:54,940
+So I think they're talking
+about-- let me see if
+
+28
+00:00:54,940 --> 00:00:57,120
+I can draw a hand.
+
+29
+00:00:57,120 --> 00:01:00,510
+So that's the index finger, and
+then you've got the middle
+
+30
+00:01:00,510 --> 00:01:02,650
+finger, and then you've got
+your ring finger, and then
+
+31
+00:01:02,650 --> 00:01:04,140
+you've got your pinky.
+
+32
+00:01:04,140 --> 00:01:05,910
+And a hand will look
+something like that.
+
+33
+00:01:05,910 --> 00:01:07,550
+I think they're talking
+about this distance.
+
+34
+00:01:07,550 --> 00:01:09,820
+From the tip of the
+thumb to the tip of the
+
+35
+00:01:09,820 --> 00:01:11,270
+extended fifth finger.
+
+36
+00:01:11,270 --> 00:01:14,230
+Which is a fancy way of
+saying the pinky, I think.
+
+37
+00:01:14,230 --> 00:01:16,160
+They're talking about that
+distance, right there.
+
+38
+00:01:16,160 --> 00:01:18,840
+They're saying, if I were to
+measure it on a random sample
+
+39
+00:01:18,840 --> 00:01:21,130
+of high school seniors,
+what would it look like?
+
+40
+00:01:21,130 --> 00:01:22,880
+Well, you know,
+how far this is.
+
+41
+00:01:22,880 --> 00:01:25,650
+This is a combination
+of genetics and
+
+42
+00:01:25,650 --> 00:01:26,990
+environmental factors.
+
+43
+00:01:26,990 --> 00:01:29,960
+Maybe how much milk you drank
+or how much you hung from your
+
+44
+00:01:29,960 --> 00:01:32,370
+pinky from a bar when
+you were growing up.
+
+45
+00:01:32,370 --> 00:01:36,020
+So I would think that it
+is a sum of a huge number
+
+46
+00:01:36,020 --> 00:01:37,000
+of random processes.
+
+47
+00:01:37,000 --> 00:01:39,830
+So I would guess that it is
+roughly normally distributed.
+
+48
+00:01:39,830 --> 00:01:43,040
+You know, if I look at my own
+hand, and my hand I don't
+
+49
+00:01:43,040 --> 00:01:45,910
+think has grown much since I
+was a high school senior.
+
+50
+00:01:45,910 --> 00:01:49,860
+It looks like roughly
+9 inches, or so.
+
+51
+00:01:49,860 --> 00:01:50,520
+I play guitar.
+
+52
+00:01:50,520 --> 00:01:53,130
+Maybe that helped me
+a stretch my hand.
+
+53
+00:01:53,130 --> 00:01:55,830
+But if that, you know, it's
+really an essay question.
+
+54
+00:01:55,830 --> 00:01:57,770
+So I just have to
+say what I feel.
+
+55
+00:01:57,770 --> 00:01:59,230
+So I would guess that the
+distribution would look
+
+56
+00:01:59,230 --> 00:01:59,990
+something like this.
+
+57
+00:01:59,990 --> 00:02:00,430
+I don't know.
+
+58
+00:02:00,430 --> 00:02:01,320
+I've never done this.
+
+59
+00:02:01,320 --> 00:02:06,390
+But, you know, maybe it has a
+mean of 8 inches or 9 inches,
+
+60
+00:02:06,390 --> 00:02:08,470
+and it's distributed
+something like this.
+
+61
+00:02:08,470 --> 00:02:11,760
+   
+
+62
+00:02:11,760 --> 00:02:14,180
+Maybe it probably does look
+like a normal distribution.
+
+63
+00:02:14,180 --> 00:02:16,740
+But it probably won't be a
+perfect-- in fact, I can
+
+64
+00:02:16,740 --> 00:02:19,570
+guarantee it won't be a
+perfect normal distribution.
+
+65
+00:02:19,570 --> 00:02:25,840
+Because one, no one can have
+negative length of that span.
+
+66
+00:02:25,840 --> 00:02:27,380
+This distance can
+never be negative.
+
+67
+00:02:27,380 --> 00:02:31,110
+So they're going to have a-- I
+guess, you could have no hand.
+
+68
+00:02:31,110 --> 00:02:33,240
+So that would maybe
+be counted as 0.
+
+69
+00:02:33,240 --> 00:02:35,300
+But the distribution wouldn't
+go into the negative domain.
+
+70
+00:02:35,300 --> 00:02:39,630
+So it wouldn't be a perfect
+normal distribution on
+
+71
+00:02:39,630 --> 00:02:40,330
+the left hand side.
+
+72
+00:02:40,330 --> 00:02:42,320
+It would really just
+end here at 0.
+
+73
+00:02:42,320 --> 00:02:44,710
+And even on the right hand
+side, there are some physically
+
+74
+00:02:44,710 --> 00:02:46,560
+impossible hand lengths.
+
+75
+00:02:46,560 --> 00:02:51,200
+No one can have a hand that's
+larger than the height of
+
+76
+00:02:51,200 --> 00:02:52,490
+the earth's atmosphere.
+
+77
+00:02:52,490 --> 00:02:54,460
+Or, you know, an
+astronomical unit.
+
+78
+00:02:54,460 --> 00:02:56,490
+You would start
+touching the sun.
+
+79
+00:02:56,490 --> 00:02:58,090
+There is some point
+which is physically
+
+80
+00:02:58,090 --> 00:02:59,680
+impossible to get to.
+
+81
+00:02:59,680 --> 00:03:02,400
+And you know, in a true normal
+distribution, if I were to flip
+
+82
+00:03:02,400 --> 00:03:05,860
+a bunch of points, there's some
+very, very small probability
+
+83
+00:03:05,860 --> 00:03:08,330
+that I could get 1,000,000
+heads in the row, in a row.
+
+84
+00:03:08,330 --> 00:03:10,360
+It's almost 0, but there's
+some probability.
+
+85
+00:03:10,360 --> 00:03:14,260
+But in the case of hand span,
+there's no way-- out here-- you
+
+86
+00:03:14,260 --> 00:03:17,600
+know, the probability of a
+human being who happens to be a
+
+87
+00:03:17,600 --> 00:03:23,340
+high school senior having a, I
+don't know, 1 mile length
+
+88
+00:03:23,340 --> 00:03:24,980
+hand span, that's 0.
+
+89
+00:03:24,980 --> 00:03:27,020
+So it's not going to be a
+perfect normal distribution of
+
+90
+00:03:27,020 --> 00:03:29,300
+the outliers, or as we get
+further and further
+
+91
+00:03:29,300 --> 00:03:30,400
+away from the mean.
+
+92
+00:03:30,400 --> 00:03:33,210
+But I think it'll be a pretty
+good-- in our everyday world,
+
+93
+00:03:33,210 --> 00:03:35,770
+as good as we're going
+to get-- approximation.
+
+94
+00:03:35,770 --> 00:03:37,250
+The normal distribution's
+going to be a pretty good
+
+95
+00:03:37,250 --> 00:03:39,970
+approximation for the
+distribution that we see.
+
+96
+00:03:39,970 --> 00:03:42,410
+I guess one thing that,
+you know-- it's funny.
+
+97
+00:03:42,410 --> 00:03:44,300
+This is high school seniors.
+
+98
+00:03:44,300 --> 00:03:48,080
+When I did this, it was kind of
+from my point of view, a guy.
+
+99
+00:03:48,080 --> 00:03:50,360
+And I would argue that, you
+know, high school senior guys
+
+100
+00:03:50,360 --> 00:03:52,780
+probably have larger hands than
+women, so that it's possible
+
+101
+00:03:52,780 --> 00:03:54,950
+that you actually have a
+bimodal distribution.
+
+102
+00:03:54,950 --> 00:03:57,910
+So instead of having it like
+this, it's possible that the
+
+103
+00:03:57,910 --> 00:03:59,190
+distribution looks like this.
+
+104
+00:03:59,190 --> 00:04:02,470
+That you have 1 peak for
+guys, maybe at 8 inches.
+
+105
+00:04:02,470 --> 00:04:05,370
+And then maybe a slight--
+another peak for women
+
+106
+00:04:05,370 --> 00:04:07,180
+that, you know, I don't
+know, at 7 inches.
+
+107
+00:04:07,180 --> 00:04:09,910
+And then the distribution
+falls off like that.
+
+108
+00:04:09,910 --> 00:04:11,790
+So it's also possible
+it could be bimodal.
+
+109
+00:04:11,790 --> 00:04:14,470
+But in general, a normal
+distribution is going to be
+
+110
+00:04:14,470 --> 00:04:19,140
+a pretty good approximation
+for part a of this problem.
+
+111
+00:04:19,140 --> 00:04:22,710
+Let's see what part b-- what
+they're asking us to describe.
+
+112
+00:04:22,710 --> 00:04:25,280
+The annual salaries of
+all employees of a
+
+113
+00:04:25,280 --> 00:04:27,520
+large shipping company.
+
+114
+00:04:27,520 --> 00:04:30,740
+So if we're talking about
+annual salaries, we have
+
+115
+00:04:30,740 --> 00:04:32,230
+minimum wage laws, whatnot.
+
+116
+00:04:32,230 --> 00:04:33,900
+So I would guess at any
+corporation, if we're talking
+
+117
+00:04:33,900 --> 00:04:36,620
+about full-time workers at
+least, there's going to be
+
+118
+00:04:36,620 --> 00:04:39,580
+some minimum salary
+that people have.
+
+119
+00:04:39,580 --> 00:04:41,300
+So I would say-- and probably
+a lot of people will have
+
+120
+00:04:41,300 --> 00:04:42,220
+that minimum salary.
+
+121
+00:04:42,220 --> 00:04:45,590
+Because it'll be probably the
+most labor intensive jobs.
+
+122
+00:04:45,590 --> 00:04:48,180
+You probably have-- most people
+are down there at the low
+
+123
+00:04:48,180 --> 00:04:49,630
+end of the pay scale.
+
+124
+00:04:49,630 --> 00:04:51,890
+And then you have your
+different middle level
+
+125
+00:04:51,890 --> 00:04:53,290
+managers and whatnot.
+
+126
+00:04:53,290 --> 00:04:55,920
+And then you probably
+have this big gap.
+
+127
+00:04:55,920 --> 00:04:59,410
+And then you probably have
+your true executives.
+
+128
+00:04:59,410 --> 00:05:02,080
+Maybe your CEO or whatnot.
+
+129
+00:05:02,080 --> 00:05:09,180
+If this mean right here is
+maybe $40,000 a year, and this
+
+130
+00:05:09,180 --> 00:05:12,920
+is probably $80,000, where some
+of the mid-level managers lie.
+
+131
+00:05:12,920 --> 00:05:15,150
+But this out here, this'll
+probably be-- you know,
+
+132
+00:05:15,150 --> 00:05:17,530
+actually if you were to draw it
+real, the way I've scaled it
+
+133
+00:05:17,530 --> 00:05:19,050
+right now, this would be
+$80,000, this would
+
+134
+00:05:19,050 --> 00:05:20,150
+be about $200,000.
+
+135
+00:05:20,150 --> 00:05:24,040
+Which is actually a
+reasonable salary for a CEO.
+
+136
+00:05:24,040 --> 00:05:26,740
+But the reality is that this
+actually might get pushed
+
+137
+00:05:26,740 --> 00:05:27,620
+way out from there.
+
+138
+00:05:27,620 --> 00:05:29,270
+It might look
+something like that.
+
+139
+00:05:29,270 --> 00:05:30,930
+It might be way off the charts.
+
+140
+00:05:30,930 --> 00:05:34,120
+You know, let's say the CEO
+made $5,000,000 in a year,
+
+141
+00:05:34,120 --> 00:05:36,000
+because he cashed in a bunch
+of options or something.
+
+142
+00:05:36,000 --> 00:05:37,160
+So it could be way over here.
+
+143
+00:05:37,160 --> 00:05:39,040
+And maybe it's a CEO and a
+couple of other people,
+
+144
+00:05:39,040 --> 00:05:41,620
+the CFO or the founders.
+
+145
+00:05:41,620 --> 00:05:45,950
+So my guess is it definitely
+wouldn't be a normal
+
+146
+00:05:45,950 --> 00:05:46,740
+distribution.
+
+147
+00:05:46,740 --> 00:05:50,000
+And it definitely would have a
+second-- it would be bimodal.
+
+148
+00:05:50,000 --> 00:05:52,790
+You would have another peak
+over here for senior management
+
+149
+00:05:52,790 --> 00:05:55,810
+up at the-- unless we're--
+well, they're not saying, you
+
+150
+00:05:55,810 --> 00:05:58,560
+know, if we're in maybe Europe,
+this would probably be
+
+151
+00:05:58,560 --> 00:05:59,830
+closer to the left.
+
+152
+00:05:59,830 --> 00:06:02,060
+But it won't be a perfect
+normal distribution, and you're
+
+153
+00:06:02,060 --> 00:06:05,280
+not going to have any values
+below a certain threshold.
+
+154
+00:06:05,280 --> 00:06:07,610
+Below that kind of
+minimum wage level.
+
+155
+00:06:07,610 --> 00:06:10,810
+So I would call this-- when you
+have a tail that goes more to
+
+156
+00:06:10,810 --> 00:06:13,250
+the right than to the
+left-- call this a right
+
+157
+00:06:13,250 --> 00:06:14,000
+skewed distribution.
+
+158
+00:06:14,000 --> 00:06:19,790
+   
+
+159
+00:06:19,790 --> 00:06:22,290
+Since it has 2 humps, right
+here-- 1 there and 1 there-- we
+
+160
+00:06:22,290 --> 00:06:23,345
+could also say it's bimodal.
+
+161
+00:06:23,345 --> 00:06:25,650
+I mean, it depends on what
+kind of company this is.
+
+162
+00:06:25,650 --> 00:06:29,090
+But that would be my guess
+of a lot of large shipping
+
+163
+00:06:29,090 --> 00:06:31,190
+companies' salaries.
+
+164
+00:06:31,190 --> 00:06:32,810
+Let's look at choice c.
+
+165
+00:06:32,810 --> 00:06:35,120
+Or problem, part c.
+
+166
+00:06:35,120 --> 00:06:39,105
+The annual salaries of a
+random sample of 50 CEOs
+
+167
+00:06:39,105 --> 00:06:40,530
+of major companies.
+
+168
+00:06:40,530 --> 00:06:42,410
+25 women and 25 men.
+
+169
+00:06:42,410 --> 00:06:45,030
+The fact that they wrote this
+here, I think they maybe are
+
+170
+00:06:45,030 --> 00:06:48,740
+implying that maybe men and
+women-- you know, the gender
+
+171
+00:06:48,740 --> 00:06:52,590
+gap has not been closed fully,
+and there is some discrepancy.
+
+172
+00:06:52,590 --> 00:06:56,990
+So if it was just purely 50
+CEOs of major companies, I
+
+173
+00:06:56,990 --> 00:06:59,540
+would say it's probably close
+to a normal distribution.
+
+174
+00:06:59,540 --> 00:07:02,700
+It's probably something like--
+well, you know, once again,
+
+175
+00:07:02,700 --> 00:07:06,520
+there's going to be some level
+below which no CEO is
+
+176
+00:07:06,520 --> 00:07:07,460
+willing to work for.
+
+177
+00:07:07,460 --> 00:07:09,420
+Although I've heard of some
+cases where they work for free,
+
+178
+00:07:09,420 --> 00:07:11,330
+but they're really getting
+paid in other ways.
+
+179
+00:07:11,330 --> 00:07:13,300
+If you include all of those
+things, there's probably some
+
+180
+00:07:13,300 --> 00:07:16,930
+base salary that all CEOs
+make at least that much.
+
+181
+00:07:16,930 --> 00:07:20,830
+And then it goes up to
+some value, you know, the
+
+182
+00:07:20,830 --> 00:07:22,030
+highest probability value.
+
+183
+00:07:22,030 --> 00:07:24,370
+And then it probably has a
+long tail to the right.
+
+184
+00:07:24,370 --> 00:07:26,250
+And this is if there
+were no gender gap.
+
+185
+00:07:26,250 --> 00:07:28,880
+So this would just be a purely
+right skewed distribution,
+
+186
+00:07:28,880 --> 00:07:30,780
+where you have a long
+tail to the right.
+
+187
+00:07:30,780 --> 00:07:33,000
+Now if you assume that there's
+some gender gap, then you might
+
+188
+00:07:33,000 --> 00:07:36,350
+have 2 humps here, which would
+be a bimodal distribution.
+
+189
+00:07:36,350 --> 00:07:39,250
+So if you assume there's some
+gender gap-- this is part
+
+190
+00:07:39,250 --> 00:07:42,030
+c right here-- then maybe
+there's 1 hump for women.
+
+191
+00:07:42,030 --> 00:07:43,760
+And if you assume that women
+are less than men, then
+
+192
+00:07:43,760 --> 00:07:45,520
+another hump for men.
+
+193
+00:07:45,520 --> 00:07:48,140
+And there are 25 of each, so
+there wouldn't be necessarily
+
+194
+00:07:48,140 --> 00:07:49,310
+more men than women.
+
+195
+00:07:49,310 --> 00:07:51,740
+And then it would skew all
+the way off to the right.
+
+196
+00:07:51,740 --> 00:07:53,590
+And, in fact, I think there
+would probably be a chance that
+
+197
+00:07:53,590 --> 00:07:56,980
+you have this other notion
+here, where you have these
+
+198
+00:07:56,980 --> 00:08:00,920
+super CEOs, or mega CEOs, who
+make millions, while most
+
+199
+00:08:00,920 --> 00:08:03,710
+probably just make, you know,
+just-- I'll put it in quotation
+
+200
+00:08:03,710 --> 00:08:06,290
+marks-- a few hundred thousand
+dollars, while there's a small
+
+201
+00:08:06,290 --> 00:08:09,360
+subset that are way off, many
+standard deviations
+
+202
+00:08:09,360 --> 00:08:09,920
+to the right.
+
+203
+00:08:09,920 --> 00:08:13,470
+So it could even be a
+trimodal distribution here.
+
+204
+00:08:13,470 --> 00:08:15,110
+So that's choice c.
+
+205
+00:08:15,110 --> 00:08:17,390
+And then, so far, choice a
+looks like the best candidate
+
+206
+00:08:17,390 --> 00:08:21,080
+for pure-- or the closest to
+being a normal distribution.
+
+207
+00:08:21,080 --> 00:08:23,230
+Let's see what choice d is.
+
+208
+00:08:23,230 --> 00:08:26,600
+The dates of 100 pennies
+taken from a cash drawer
+
+209
+00:08:26,600 --> 00:08:28,090
+in a convenience store.
+
+210
+00:08:28,090 --> 00:08:29,050
+100 pennies.
+
+211
+00:08:29,050 --> 00:08:31,310
+So that's actually an
+interesting experiment.
+
+212
+00:08:31,310 --> 00:08:34,620
+But I would guess, once again,
+this is really a question where
+
+213
+00:08:34,620 --> 00:08:37,560
+I get to express my feelings
+about these things.
+
+214
+00:08:37,560 --> 00:08:39,710
+You know, as long as your
+answer is reasonable, I
+
+215
+00:08:39,710 --> 00:08:41,790
+would say that it is right.
+
+216
+00:08:41,790 --> 00:08:43,370
+Most pennies are newer
+pennies, because they
+
+217
+00:08:43,370 --> 00:08:44,080
+go out of commission.
+
+218
+00:08:44,080 --> 00:08:44,890
+They get traded out.
+
+219
+00:08:44,890 --> 00:08:46,300
+They get worn out as they age.
+
+220
+00:08:46,300 --> 00:08:47,490
+They get lost.
+
+221
+00:08:47,490 --> 00:08:50,270
+Or, you know, they get pushed--
+you know, pressed-- at the
+
+222
+00:08:50,270 --> 00:08:52,470
+little tourist place into
+the little souvenir things.
+
+223
+00:08:52,470 --> 00:08:54,060
+I'm not even sure if that's
+legal, if you can do
+
+224
+00:08:54,060 --> 00:08:55,790
+that to money legally.
+
+225
+00:08:55,790 --> 00:09:00,280
+So my guess is that if you were
+to plot it, you would have
+
+226
+00:09:00,280 --> 00:09:03,650
+a ton of pennies that are
+within the last few years.
+
+227
+00:09:03,650 --> 00:09:07,070
+So if we were-- so the dates of
+100 pennies, not their age.
+
+228
+00:09:07,070 --> 00:09:09,130
+So the dates.
+
+229
+00:09:09,130 --> 00:09:12,010
+So if this is 2010, I would
+guess that right now, you're
+
+230
+00:09:12,010 --> 00:09:13,920
+not going to find
+any 2010 pennies.
+
+231
+00:09:13,920 --> 00:09:19,010
+But you're probably going to
+find a ton of 2009 pennies.
+
+232
+00:09:19,010 --> 00:09:21,870
+And it probably just
+goes down from there.
+
+233
+00:09:21,870 --> 00:09:24,270
+And, of course, you're not
+going to find pennies that are
+
+234
+00:09:24,270 --> 00:09:27,670
+older than, say, the United
+States, or before they even
+
+235
+00:09:27,670 --> 00:09:28,590
+started printing pennies.
+
+236
+00:09:28,590 --> 00:09:29,960
+So obviously this tail
+isn't going to go to
+
+237
+00:09:29,960 --> 00:09:31,210
+the left forever.
+
+238
+00:09:31,210 --> 00:09:33,720
+But my guess is you're
+going to have a left
+
+239
+00:09:33,720 --> 00:09:34,585
+skewed distribution.
+
+240
+00:09:34,585 --> 00:09:38,800
+   
+
+241
+00:09:38,800 --> 00:09:41,740
+Where you have the bulk of the
+distribution on the right, but
+
+242
+00:09:41,740 --> 00:09:43,420
+the tail goes off to the left.
+
+243
+00:09:43,420 --> 00:09:45,170
+That's why it's called a
+left skewed distribution.
+
+244
+00:09:45,170 --> 00:09:51,810
+Sometimes this is called a
+negatively skewed distribution.
+
+245
+00:09:51,810 --> 00:09:55,820
+And similarly, this right
+skewed distribution
+
+246
+00:09:55,820 --> 00:09:58,100
+is sometimes called
+positively skewed.
+
+247
+00:09:58,100 --> 00:10:01,870
+And if you have only 1 hump--
+you don't have a multimodal
+
+248
+00:10:01,870 --> 00:10:04,880
+distribution like this-- in a
+left skewed distribution,
+
+249
+00:10:04,880 --> 00:10:08,360
+your mean is going to be to
+the left of your median.
+
+250
+00:10:08,360 --> 00:10:09,990
+So in this case, maybe
+your median might be
+
+251
+00:10:09,990 --> 00:10:10,970
+someplace over here.
+
+252
+00:10:10,970 --> 00:10:14,970
+But since you have this long
+tail to the left, your mean
+
+253
+00:10:14,970 --> 00:10:16,650
+might be some place over here.
+
+254
+00:10:16,650 --> 00:10:19,740
+And likewise in this
+distribution, your median--
+
+255
+00:10:19,740 --> 00:10:22,150
+your middle value-- might be
+some place like this.
+
+256
+00:10:22,150 --> 00:10:24,490
+But because it's right skewed,
+and for the most part only has
+
+257
+00:10:24,490 --> 00:10:27,200
+1 big hump-- this hump won't
+change things too much, because
+
+258
+00:10:27,200 --> 00:10:29,850
+it's small-- your mean is going
+to be to the right of it.
+
+259
+00:10:29,850 --> 00:10:31,920
+So that's another reason why
+it's called a right skewed,
+
+260
+00:10:31,920 --> 00:10:35,180
+or positively skewed,
+distribution.
+
+261
+00:10:35,180 --> 00:10:38,150
+So to answer the question,
+these are my feelings
+
+262
+00:10:38,150 --> 00:10:38,810
+about all of them.
+
+263
+00:10:38,810 --> 00:10:41,520
+But I would say, you know, for
+the other choices explain why
+
+264
+00:10:41,520 --> 00:10:43,380
+you believe they would not
+follow-- or they said, which of
+
+265
+00:10:43,380 --> 00:10:46,040
+the following data sets is most
+likely to be normally
+
+266
+00:10:46,040 --> 00:10:46,920
+distributed?
+
+267
+00:10:46,920 --> 00:10:48,930
+Well, I would say choice a.
+
+268
+00:10:48,930 --> 00:10:50,830
+But it's really, you know,
+a matter of opinion, at
+
+269
+00:10:50,830 --> 00:10:52,580
+least in this question.

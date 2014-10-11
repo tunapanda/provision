@@ -1,0 +1,363 @@
+1
+00:00:00,000 --> 00:00:04,384
+we're asked to simply log base 3 of 27x
+
+2
+00:00:04,384 --> 00:00:06,715
+and frankly this is already quite simple,
+
+3
+00:00:06,715 --> 00:00:08,523
+but I'm assuming they want us to use
+
+4
+00:00:08,523 --> 00:00:11,110
+some logarithm properties and manipulate this some way
+
+5
+00:00:11,110 --> 00:00:13,346
+maybe actually make it a little more complicated
+
+6
+00:00:13,346 --> 00:00:15,323
+and let's give this our best shot at it
+
+7
+00:00:15,323 --> 00:00:17,946
+so the logarithm property that jumps out at me
+
+8
+00:00:17,946 --> 00:00:19,921
+because this, right over here, is saying
+
+9
+00:00:19,921 --> 00:00:22,731
+what power do we have to raise 3 to in order to get 27x
+
+10
+00:00:22,731 --> 00:00:26,444
+27x is the same thing as 27 times x
+
+11
+00:00:26,444 --> 00:00:30,552
+and so the logarithm property it seems like they want us to use is
+
+12
+00:00:30,552 --> 00:00:40,110
+log base b of a times c
+
+13
+00:00:40,110 --> 00:00:41,656
+this is equal to
+
+14
+00:00:41,656 --> 00:00:48,079
+the logarithm base b of a plus logarithm base b of c
+
+15
+00:00:48,079 --> 00:00:50,982
+now this comes straight out of the exponent properties
+
+16
+00:00:50,982 --> 00:00:54,705
+that if you have two exponents with the same base
+
+17
+00:00:54,705 --> 00:00:56,421
+you can add the exponents
+
+18
+00:00:56,421 --> 00:00:58,121
+now let me make this a little bit clearer to you
+
+19
+00:00:58,121 --> 00:01:00,910
+now if this part is a little confusing the important part for this example is
+
+20
+00:01:00,910 --> 00:01:02,656
+is that you know how to apply this,
+
+21
+00:01:02,656 --> 00:01:04,479
+but it's even better if you know the intuition
+
+22
+00:01:04,479 --> 00:01:10,571
+so let's say that log, let's say that log base b of a times c is equal to x
+
+23
+00:01:10,571 --> 00:01:13,777
+so this thing right over here evaluates to x
+
+24
+00:01:13,777 --> 00:01:17,587
+let's say that this thing right over here evaluates to y
+
+25
+00:01:17,587 --> 00:01:22,079
+so log base b of a is equal to y
+
+26
+00:01:22,079 --> 00:01:26,438
+and let's say that that this thing over here evaluates to z
+
+27
+00:01:26,438 --> 00:01:32,279
+so log base b of c is equal to z
+
+28
+00:01:32,279 --> 00:01:34,715
+now, what we know is
+
+29
+00:01:34,715 --> 00:01:37,715
+this thing right over here, this thing right over here
+
+30
+00:01:37,715 --> 00:01:39,715
+or this thing right over here tells us
+
+31
+00:01:39,715 --> 00:01:46,829
+tells us that b, to the x power is equal to a times c
+
+32
+00:01:46,829 --> 00:01:49,823
+now, this right over here is telling us that
+
+33
+00:01:49,823 --> 00:01:54,187
+b to the y power is equal to a
+
+34
+00:01:54,187 --> 00:01:56,859
+and this over here is telling us
+
+35
+00:01:56,859 --> 00:01:59,823
+that b to the z power is equal to c
+
+36
+00:01:59,823 --> 00:02:02,029
+let me do that in that same green
+
+37
+00:02:02,029 --> 00:02:04,198
+so i'm just writing the same truth
+
+38
+00:02:04,198 --> 00:02:06,448
+i'm writing as an exponential function
+
+39
+00:02:06,448 --> 00:02:08,025
+or exponential equation
+
+40
+00:02:08,025 --> 00:02:08,525
+instead of a logarithmic equation
+
+41
+00:02:09,818 --> 00:02:13,685
+so b to the zth power is equal to c
+
+42
+00:02:13,685 --> 00:02:16,285
+these are all, this is the same statement
+
+43
+00:02:16,285 --> 00:02:18,015
+this is the same statement
+
+44
+00:02:18,015 --> 00:02:20,352
+or they're the same truth said in a different way
+
+45
+00:02:20,352 --> 00:02:23,377
+and this is the same truth said in a different way
+
+46
+00:02:23,377 --> 00:02:25,500
+well if we know that, if we know that
+
+47
+00:02:25,500 --> 00:02:28,531
+a is equal to this, is equal to b to the y,
+
+48
+00:02:28,531 --> 00:02:33,813
+we can, and c is equal to b-z
+
+49
+00:02:33,813 --> 00:02:36,438
+then we can write
+
+50
+00:02:36,438 --> 00:02:41,808
+b to the x power is equal to b to the y power
+
+51
+00:02:41,808 --> 00:02:43,962
+that's what a is, we know that already
+
+52
+00:02:43,962 --> 00:02:47,275
+times b to the z power
+
+53
+00:02:47,275 --> 00:02:49,479
+times b to the z power
+
+54
+00:02:49,479 --> 00:02:52,290
+and we know, from our exponent properites
+
+55
+00:02:52,290 --> 00:02:54,208
+we know from our exponent properties
+
+56
+00:02:54,208 --> 00:02:56,936
+That if we take b to the y times b to the z
+
+57
+00:02:56,936 --> 00:02:58,744
+this is the same thing as:
+
+58
+00:02:58,744 --> 00:03:04,571
+b to the, I'll do it in neutral color, b to the y plus z power
+
+59
+00:03:04,571 --> 00:03:06,771
+this came straight out of our exponent properties.
+
+60
+00:03:06,771 --> 00:03:09,905
+And so if b to the y plus z power is the same thing
+
+61
+00:03:09,905 --> 00:03:15,490
+b to the x power -- that tells us that x must be equal to y plus z.
+
+62
+00:03:15,490 --> 00:03:19,023
+x must be equal to y plus z.
+
+63
+00:03:19,023 --> 00:03:21,695
+If this is confusing to you -- don't worry too much.
+
+64
+00:03:21,695 --> 00:03:24,264
+The important thing, or at least the first important thing is
+
+65
+00:03:24,264 --> 00:03:26,536
+that you know how to apply it and then you can think about this
+
+66
+00:03:26,536 --> 00:03:28,459
+a little bit more and you can even try it out with some numbers.
+
+67
+00:03:28,459 --> 00:03:31,562
+You have to just realise that logarithms are really just exponents.
+
+68
+00:03:31,562 --> 00:03:34,675
+I know, when people at first tell me: what does that mean?
+
+69
+00:03:34,675 --> 00:03:38,269
+But when you evaluate a logarithm - you're getting an exponent
+
+70
+00:03:38,269 --> 00:03:41,608
+that you would have to raise b to, in order to get a times c.
+
+71
+00:03:41,608 --> 00:03:45,141
+But let's just apply this property right over here.
+
+72
+00:03:45,141 --> 00:03:47,223
+So if we apply to this one we know that
+
+73
+00:03:47,223 --> 00:03:51,669
+log base 3 of 27 times x -- I'll write it that way --
+
+74
+00:03:51,669 --> 00:04:02,325
+is equal to log base 3 of 27 plus log base 3 of x.
+
+75
+00:04:02,325 --> 00:04:05,777
+And then this right over here we can evaluate,
+
+76
+00:04:05,777 --> 00:04:10,633
+this tells us: what power do I have to raise 3 to get to 27.
+
+77
+00:04:10,633 --> 00:04:15,152
+You can view it this way: 3 to the question mark is equal to 27.
+
+78
+00:04:15,152 --> 00:04:19,125
+Well, 3 to the 3rd power is equal to 27.
+
+79
+00:04:19,125 --> 00:04:21,577
+3 times 3 is 9, times 3 is 27.
+
+80
+00:04:21,577 --> 00:04:23,567
+To this right over here evaluates to 3.
+
+81
+00:04:23,567 --> 00:04:26,275
+So if we were to simplify -- or I guess I wouldn't even call it
+
+82
+00:04:26,275 --> 00:04:29,171
+simplifying, I'll just call it expanding it out or using this property.
+
+83
+00:04:29,171 --> 00:04:32,392
+We now have two terms, where when we started of with one term.
+
+84
+00:04:32,392 --> 00:04:35,782
+Actually if we started with this, I'd say that this is the more simple version of it.
+
+85
+00:04:35,782 --> 00:04:40,095
+But when we rewrite it, this first term becomes 3.
+
+86
+00:04:40,095 --> 00:04:42,248
+So this first term becomes 3
+
+87
+00:04:42,248 --> 00:04:45,818
+and then we're left with plus log base 3 of x.
+
+88
+00:04:45,818 --> 00:04:50,198
+So this is just an alternate way of writing this original statement.
+
+89
+00:04:50,198 --> 00:04:54,613
+Log base 3 of 27x.
+
+90
+00:04:54,613 --> 00:04:58,546
+So once again -- not clear that this is simpler than this right over here.
+
+91
+00:04:58,546 --> 99:59:59,999
+It's just another way of writing it using logarithm properties.

@@ -1,0 +1,563 @@
+1
+00:00:00,000 --> 00:00:00,570
+   
+
+2
+00:00:00,570 --> 00:00:03,920
+Determine whether 380 is
+divisible by 2, 3,
+
+3
+00:00:03,920 --> 00:00:07,210
+4, 5, 6, 9 or 10.
+
+4
+00:00:07,210 --> 00:00:09,010
+They skipped 7 and 8
+so we don't have
+
+5
+00:00:09,010 --> 00:00:10,460
+to worry about those.
+
+6
+00:00:10,460 --> 00:00:13,000
+So let's think about 2.
+
+7
+00:00:13,000 --> 00:00:16,524
+So are we divisible by 2?
+
+8
+00:00:16,524 --> 00:00:20,220
+Let me write the 2 here.
+
+9
+00:00:20,220 --> 00:00:22,880
+Well, in order for something to
+be divisible by 2, it has
+
+10
+00:00:22,880 --> 00:00:28,160
+to be an even number, and to be
+an even number, your ones
+
+11
+00:00:28,160 --> 00:00:31,560
+digit-- so let me rewrite 380.
+
+12
+00:00:31,560 --> 00:00:35,450
+To be even, your ones digit
+has to be even, so
+
+13
+00:00:35,450 --> 00:00:38,780
+this has to be even.
+
+14
+00:00:38,780 --> 00:00:43,270
+And for this to be even, it has
+to be 0, 2, 4, 6 or 8, and
+
+15
+00:00:43,270 --> 00:00:51,970
+this is 0, so 380 is even, which
+means it is divisible by
+
+16
+00:00:51,970 --> 00:00:54,360
+2, so it works with 2.
+
+17
+00:00:54,360 --> 00:00:55,710
+So 2 works out.
+
+18
+00:00:55,710 --> 00:00:58,530
+Let's think about the
+situation for 3.
+
+19
+00:00:58,530 --> 00:01:01,130
+Now, a quick way to think about
+3-- so let me write just
+
+20
+00:01:01,130 --> 00:01:06,010
+3 question mark-- is to add
+the digits of your number.
+
+21
+00:01:06,010 --> 00:01:09,890
+And if the sum that you get is
+divisible by 3, then you are
+
+22
+00:01:09,890 --> 00:01:10,980
+divisible by 3.
+
+23
+00:01:10,980 --> 00:01:12,110
+So let's try to do that.
+
+24
+00:01:12,110 --> 00:01:14,900
+So 380, let's add the digits.
+
+25
+00:01:14,900 --> 00:01:22,290
+3 plus 8 plus 0 is equal to--
+3 plus 8 is 11 plus 0,
+
+26
+00:01:22,290 --> 00:01:23,770
+so it's just 11.
+
+27
+00:01:23,770 --> 00:01:26,150
+And if you have trouble figuring
+out whether this is
+
+28
+00:01:26,150 --> 00:01:28,420
+divisible by 3, you could then
+just add these two numbers
+
+29
+00:01:28,420 --> 00:01:31,240
+again, so you can actually add
+the 1 plus 1 again, and you
+
+30
+00:01:31,240 --> 00:01:32,480
+would get a 2.
+
+31
+00:01:32,480 --> 00:01:36,100
+Regardless of whether you look
+at the 1 or the 2, neither of
+
+32
+00:01:36,100 --> 00:01:37,730
+these are divisible by 3.
+
+33
+00:01:37,730 --> 00:01:45,700
+So not divisible by 3, and maybe
+in a future video, I'll
+
+34
+00:01:45,700 --> 00:01:48,860
+explain why this works, and
+maybe you want to think about
+
+35
+00:01:48,860 --> 00:01:50,590
+why this works.
+
+36
+00:01:50,590 --> 00:01:56,710
+So these aren't divisible by
+3, so 380 is not divisible.
+
+37
+00:01:56,710 --> 00:02:05,560
+380, not divisible by 3,
+so 3 does not work.
+
+38
+00:02:05,560 --> 00:02:07,100
+We are not divisible by 3.
+
+39
+00:02:07,100 --> 00:02:12,880
+Now, I'll think about the
+situation for 4, so we're
+
+40
+00:02:12,880 --> 00:02:14,880
+thinking about 4 divisibility.
+
+41
+00:02:14,880 --> 00:02:17,200
+So let me write it in orange.
+
+42
+00:02:17,200 --> 00:02:20,430
+So we are wondering about 4.
+
+43
+00:02:20,430 --> 00:02:23,930
+Now, something you may or may
+not already realize is that
+
+44
+00:02:23,930 --> 00:02:26,310
+100 is divisible by 4.
+
+45
+00:02:26,310 --> 00:02:27,580
+It goes evenly.
+
+46
+00:02:27,580 --> 00:02:30,130
+So this is 380.
+
+47
+00:02:30,130 --> 00:02:33,940
+So the 300 is divisible by 4, so
+we just have to figure out
+
+48
+00:02:33,940 --> 00:02:37,030
+whether the leftover, whether
+the 80, is divisible by 4.
+
+49
+00:02:37,030 --> 00:02:46,050
+Another way to think about it
+is are the last two digits
+
+50
+00:02:46,050 --> 00:02:49,220
+divisible by 4?
+
+51
+00:02:49,220 --> 00:02:52,410
+And this comes from the fact
+that 100 is divisible by 4, so
+
+52
+00:02:52,410 --> 00:02:54,870
+everything, the hundreds place
+or above, it's going to be
+
+53
+00:02:54,870 --> 00:02:55,450
+divisible by 4.
+
+54
+00:02:55,450 --> 00:02:57,760
+You just have to worry
+about the last part.
+
+55
+00:02:57,760 --> 00:03:04,230
+So in this situation, is
+80 divisible by 4?
+
+56
+00:03:04,230 --> 00:03:05,530
+Now, you could eyeball that.
+
+57
+00:03:05,530 --> 00:03:07,760
+You could say, well, 8 is
+definitely divisible by 4.
+
+58
+00:03:07,760 --> 00:03:10,260
+   
+
+59
+00:03:10,260 --> 00:03:11,700
+8 divided by 4 is 2.
+
+60
+00:03:11,700 --> 00:03:15,340
+80 divided by 4 is 20,
+so this works.
+
+61
+00:03:15,340 --> 00:03:16,740
+Yes!
+
+62
+00:03:16,740 --> 00:03:17,540
+Yes!
+
+63
+00:03:17,540 --> 00:03:20,910
+So since 80 is divisible
+by 4, 380 is also
+
+64
+00:03:20,910 --> 00:03:24,290
+divisible by 4, so 4 works.
+
+65
+00:03:24,290 --> 00:03:25,855
+So let's do 5.
+
+66
+00:03:25,855 --> 00:03:27,910
+I'll actually scroll
+down a little bit.
+
+67
+00:03:27,910 --> 00:03:29,370
+Let's try 5.
+
+68
+00:03:29,370 --> 00:03:32,280
+So what's the pattern when
+something is divisible by 5?
+
+69
+00:03:32,280 --> 00:03:33,580
+Let's do the multiple of 5?
+
+70
+00:03:33,580 --> 00:03:38,930
+5, 10, 15, 20, 25.
+
+71
+00:03:38,930 --> 00:03:45,270
+So if something's divisible by
+5-- I could keep going-- that
+
+72
+00:03:45,270 --> 00:03:48,690
+means it ends with either
+a 5 or a 0, right?
+
+73
+00:03:48,690 --> 00:03:52,215
+Every multiple of 5 either has
+a 5 or a 0 in the ones place.
+
+74
+00:03:52,215 --> 00:03:59,230
+   
+
+75
+00:03:59,230 --> 00:04:03,860
+Now 380 has a 0 in the
+ones place, so it is
+
+76
+00:04:03,860 --> 00:04:06,040
+divisible by 5.
+
+77
+00:04:06,040 --> 00:04:08,800
+Now, let's think about
+the situation for 6.
+
+78
+00:04:08,800 --> 00:04:11,450
+Let's think about what
+happens with 6.
+
+79
+00:04:11,450 --> 00:04:13,780
+So we want to know are
+we divisible by 6?
+
+80
+00:04:13,780 --> 00:04:17,769
+So to be divisible by 6, you
+have to be divisible by the
+
+81
+00:04:17,769 --> 00:04:19,010
+things that make up 6.
+
+82
+00:04:19,010 --> 00:04:23,960
+Remember, 6 is equal
+to 2 times 3.
+
+83
+00:04:23,960 --> 00:04:26,950
+So if you're divisible by 6,
+that means you are divisible
+
+84
+00:04:26,950 --> 00:04:30,120
+by 2 and you are
+divisible by 3.
+
+85
+00:04:30,120 --> 00:04:32,830
+If you're divisible by both
+2 and 3, you'll be
+
+86
+00:04:32,830 --> 00:04:34,500
+divisible by 6.
+
+87
+00:04:34,500 --> 00:04:38,680
+Now, 380 is divisible by 2, but
+we've already established
+
+88
+00:04:38,680 --> 00:04:40,990
+that it is not divisible by 3.
+
+89
+00:04:40,990 --> 00:04:45,780
+If it's not divisible by 3, it
+cannot be divisible by 6, so
+
+90
+00:04:45,780 --> 00:04:47,780
+this gets knocked out.
+
+91
+00:04:47,780 --> 00:04:50,710
+We are not divisible by 6.
+
+92
+00:04:50,710 --> 00:04:51,960
+Now, let's go to 9.
+
+93
+00:04:51,960 --> 00:04:54,600
+   
+
+94
+00:04:54,600 --> 00:04:56,790
+So divisibility by 9.
+
+95
+00:04:56,790 --> 00:05:00,100
+So you can make a similar
+argument here that if
+
+96
+00:05:00,100 --> 00:05:02,950
+something is not divisible by
+3, there's no way it's going
+
+97
+00:05:02,950 --> 00:05:08,270
+to be divisible by 9 because
+9 is equal to 3 times 3.
+
+98
+00:05:08,270 --> 00:05:11,940
+So to be divisible by 9, you
+have to be divisible by 3 at
+
+99
+00:05:11,940 --> 00:05:13,090
+least twice.
+
+100
+00:05:13,090 --> 00:05:16,060
+At least two 3's have to go
+into your number, and this
+
+101
+00:05:16,060 --> 00:05:19,120
+isn't the case, so you could
+already knock 9 out.
+
+102
+00:05:19,120 --> 00:05:21,870
+But if we didn't already know
+that we're not divisible by 3,
+
+103
+00:05:21,870 --> 00:05:25,870
+the other way to do it is a very
+similar way to figure out
+
+104
+00:05:25,870 --> 00:05:28,050
+divisibility by 3.
+
+105
+00:05:28,050 --> 00:05:29,670
+We can add the digits.
+
+106
+00:05:29,670 --> 00:05:34,300
+So you add 3 plus 8 plus
+0, and you get 11.
+
+107
+00:05:34,300 --> 00:05:36,710
+And you say is this
+divisible by 9?
+
+108
+00:05:36,710 --> 00:05:43,170
+And you say this is not
+divisible by 9, so 380 must
+
+109
+00:05:43,170 --> 00:05:45,550
+not be divisible by 9.
+
+110
+00:05:45,550 --> 00:05:47,720
+And for 3, you do the same
+thing, but you test whether
+
+111
+00:05:47,720 --> 00:05:49,540
+the sum is divisible by 3.
+
+112
+00:05:49,540 --> 00:05:52,320
+For 9, you test whether
+it's divisible by 9.
+
+113
+00:05:52,320 --> 00:05:57,090
+So lastly, we have
+the number 10.
+
+114
+00:05:57,090 --> 00:05:59,230
+We have the number 10, and
+this is on some level the
+
+115
+00:05:59,230 --> 00:06:00,110
+easiest one.
+
+116
+00:06:00,110 --> 00:06:02,050
+What do all the multiples
+of 10 look like?
+
+117
+00:06:02,050 --> 00:06:07,190
+10, 20, 30, 40, we could just
+keep going on and on.
+
+118
+00:06:07,190 --> 00:06:08,790
+They all end with zero.
+
+119
+00:06:08,790 --> 00:06:12,030
+Or if something ends with zero,
+it is divisible by 10.
+
+120
+00:06:12,030 --> 00:06:17,470
+380 does end with zero, or its
+ones place does have a zero on
+
+121
+00:06:17,470 --> 00:06:20,080
+it, so it is divisible by 10.
+
+122
+00:06:20,080 --> 00:06:22,210
+So we're divisible by all
+of these numbers except
+
+123
+00:06:22,210 --> 00:06:25,050
+for 3, 6 and 9.
+
+124
+00:06:25,050 --> 00:06:25,134
+

@@ -1,0 +1,901 @@
+1
+00:00:00,530 --> 00:00:01,880
+In the last video
+
+2
+00:00:01,880 --> 00:00:04,314
+I gave the example of this bank that I keep using
+
+3
+00:00:04,314 --> 00:00:05,896
+And in this example
+
+4
+00:00:05,896 --> 00:00:09,980
+as opposed to giving the gold out to make loans
+
+5
+00:00:09,980 --> 00:00:12,980
+and be used for projects that gold gets redeposited
+
+6
+00:00:12,980 --> 00:00:14,347
+and then re-lent out
+
+7
+00:00:14,347 --> 00:00:16,214
+What we did in this examples is that the bank
+
+8
+00:00:16,214 --> 00:00:17,530
+every time it made a loan,
+
+9
+00:00:17,530 --> 00:00:19,998
+it just made a loan and that created an asset
+
+10
+00:00:19,998 --> 00:00:21,764
+and then it had a corresponding liability
+
+11
+00:00:21,764 --> 00:00:23,748
+where the liability was either a checking account
+
+12
+00:00:23,748 --> 00:00:25,880
+that the entrepreneur could use or bank notes
+
+13
+00:00:25,880 --> 00:00:28,014
+which are essentially cash
+
+14
+00:00:28,014 --> 00:00:30,297
+that the entrepreneur could use to pay their laborers
+
+15
+00:00:30,297 --> 00:00:32,480
+or to buy their land or whatever they needed to do.
+
+16
+00:00:32,480 --> 00:00:34,730
+So an obvious question was,
+
+17
+00:00:34,730 --> 00:00:36,797
+how much could a bank do it?
+
+18
+00:00:36,797 --> 00:00:38,014
+When does this stop?
+
+19
+00:00:38,014 --> 00:00:40,046
+Can a bank just keep increasing the left
+
+20
+00:00:40,046 --> 00:00:41,896
+and right hand sides of the balance sheet?
+
+21
+00:00:41,896 --> 00:00:43,465
+And to answer this question,
+
+22
+00:00:43,465 --> 00:00:47,780
+we'll introduce the idea of a reserve ratio.
+
+23
+00:00:47,780 --> 00:00:50,297
+So just, I guess, a bit of a review, just to make sure
+
+24
+00:00:50,297 --> 00:00:52,180
+we're clearly reading this balance sheet.
+
+25
+00:00:52,180 --> 00:00:53,796
+Let me label things a little bit more
+
+26
+00:00:53,796 --> 00:00:55,297
+because sometimes I assume too much.
+
+27
+00:00:55,297 --> 00:00:57,231
+Remember, these are the assets.
+
+28
+00:00:57,231 --> 00:01:00,081
+The assets are all of these.
+
+29
+00:01:00,081 --> 00:01:03,849
+Let me make a bold line here.
+
+30
+00:01:03,849 --> 00:01:08,081
+All of these is the assets of this bank,
+
+31
+00:01:08,081 --> 00:01:09,364
+including its building,
+
+32
+00:01:09,364 --> 00:01:10,915
+so its vault down there.
+
+33
+00:01:10,915 --> 00:01:12,396
+And then the liabilities.
+
+34
+00:01:12,396 --> 00:01:14,347
+I'll do that in this red.
+
+35
+00:01:14,347 --> 00:01:15,165
+I like this red color,
+
+36
+00:01:15,165 --> 00:01:20,763
+But these are the liabilities
+
+37
+00:01:20,763 --> 00:01:26,889
+over here, in this red color, that I am coloring right now
+
+38
+00:01:26,889 --> 00:01:29,789
+And the equity - whoever owns the bank,
+
+39
+00:01:29,789 --> 00:01:31,272
+whether it's stockholders or maybe
+
+40
+00:01:31,272 --> 00:01:32,389
+it's owned by an individual.
+
+41
+00:01:32,389 --> 00:01:34,389
+Maybe it's owned by me - is what's left over.
+
+42
+00:01:34,389 --> 00:01:36,965
+I'll do it in a nice neutral color.
+
+43
+00:01:36,965 --> 00:01:41,016
+This is the equity.
+
+44
+00:01:41,016 --> 00:01:42,149
+So the question is, how much can the bank... [continued later]
+
+45
+00:01:42,149 --> 00:01:52,348
+- let me do this, all of these are liabilities -
+
+46
+00:01:52,348 --> 00:01:53,032
+So the question is,
+
+47
+00:01:53,032 --> 00:01:57,232
+how much can the bank continue to issue out more loans
+
+48
+00:01:57,232 --> 00:02:00,132
+and increase its assets and its liabilities?
+
+49
+00:02:00,132 --> 00:02:01,097
+Remember, every time it'd issue a loan,
+
+50
+00:02:01,097 --> 00:02:02,717
+like for right here,
+
+51
+00:02:02,717 --> 00:02:06,397
+it issued a 100 gold piece equivalent loan to D -
+
+52
+00:02:06,397 --> 00:02:11,731
+and instead of giving D 100 gold pieces from, say, right here,
+
+53
+00:02:11,731 --> 00:02:14,881
+it just created a checking account for D,
+
+54
+00:02:14,881 --> 00:02:15,931
+which later D paid to A
+
+55
+00:02:15,931 --> 00:02:17,748
+and that's why it's labeled A right here.
+
+56
+00:02:17,748 --> 00:02:19,531
+Let me relabel another thing
+
+57
+00:02:19,531 --> 00:02:20,564
+because the gold is a different color
+
+58
+00:02:20,564 --> 00:02:21,647
+just so you see the gold.
+
+59
+00:02:21,647 --> 00:02:24,314
+This is the gold part of the assets.
+
+60
+00:02:24,314 --> 00:02:26,415
+Let me make that very clear,
+
+61
+00:02:26,415 --> 00:02:31,482
+that all of these right here is gold.
+
+62
+00:02:31,482 --> 00:02:36,512
+Maybe I'll color it a little bit
+
+63
+00:02:36,512 --> 00:02:42,429
+That's all gold and there's 500 gold pieces
+
+64
+00:02:42,429 --> 00:02:46,679
+So let's introduce the concept of a reserve ratio
+
+65
+00:02:46,679 --> 00:02:53,244
+Let's think a little bit about what even a reserve is.
+
+66
+00:02:53,244 --> 00:02:56,094
+A reserve is something that you keep aside
+
+67
+00:02:56,094 --> 00:02:59,977
+because you might need it one day.
+
+68
+00:02:59,977 --> 00:03:03,443
+And in this situation, all of these liabilities -
+
+69
+00:03:03,443 --> 00:03:07,359
+-	whether they're these bank notes outstanding in this example
+
+70
+00:03:07,359 --> 00:03:09,359
+or whether they're these checking accounts,
+
+71
+00:03:09,359 --> 00:03:12,276
+these demand accounts - these are all liabilities that
+
+72
+00:03:12,276 --> 00:03:15,477
+someone can come back to the bank on any given day
+
+73
+00:03:15,477 --> 00:03:18,910
+and say, hey, I want my gold now, for whatever reason.
+
+74
+00:03:18,910 --> 00:03:20,228
+Maybe I'm leaving town.
+
+75
+00:03:20,228 --> 00:03:22,510
+Maybe I don't trust the bank anymore.
+
+76
+00:03:22,510 --> 00:03:23,627
+For whatever reason,
+
+77
+00:03:23,627 --> 00:03:26,294
+maybe they just want to make some jewelry.
+
+78
+00:03:26,294 --> 00:03:28,959
+For whatever reason, that person wants their gold back.
+
+79
+00:03:28,959 --> 00:03:30,260
+These are demand accounts.
+
+80
+00:03:30,260 --> 00:03:31,694
+These checking accounts are demand accounts
+
+81
+00:03:31,694 --> 00:03:33,544
+and these notes are things that
+
+82
+00:03:33,544 --> 00:03:37,044
+can be exchanged for gold at any point in time
+
+83
+00:03:37,044 --> 00:03:38,710
+And we talked a little bit about this earlier
+
+84
+00:03:38,710 --> 00:03:42,627
+when we started the whole banking discussion,
+
+85
+00:03:42,627 --> 00:03:45,859
+but you have to leave aside a little bit of gold
+
+86
+00:03:45,859 --> 00:03:50,726
+just in case someone wants their gold back.
+
+87
+00:03:50,726 --> 00:03:52,743
+So this amount of the gold that
+
+88
+00:03:52,743 --> 00:03:56,344
+you have to leave aside as a reserve,
+
+89
+00:03:56,344 --> 00:04:00,077
+relative to the total amount of demands you have on that gold,
+
+90
+00:04:00,077 --> 00:04:03,810
+that's the reserve ratio.
+
+91
+00:04:03,810 --> 00:04:06,994
+And in this situation, this world that we've created,
+
+92
+00:04:06,994 --> 00:04:12,860
+The reserve store value is gold.
+
+93
+00:04:12,860 --> 00:04:15,793
+Later on we're going to get ourselves off of this gold system
+
+94
+00:04:15,793 --> 00:04:20,210
+and then that reserve store of value
+
+95
+00:04:20,210 --> 00:04:21,811
+is actually going to turn into cash,
+
+96
+00:04:21,811 --> 00:04:22,926
+but for right now and
+
+97
+00:04:22,926 --> 00:04:24,978
+I think it's easier actually to conceptualize gold.
+
+98
+00:04:24,978 --> 00:04:26,695
+Let's stick with gold.
+
+99
+00:04:26,695 --> 00:04:32,543
+The reserve ratio for this bank is the amount of gold assets
+
+100
+00:04:32,543 --> 00:04:35,194
+you won't see this formal definition anywhere
+
+101
+00:04:35,194 --> 00:04:39,127
+because most people are off the gold standard right now
+
+102
+00:04:39,127 --> 00:04:45,460
+but it's the amount of gold assets divided by total
+
+103
+00:04:45,460 --> 00:04:47,360
+I don't want to say total liabilities
+
+104
+00:04:47,360 --> 00:04:49,660
+because the bank could take out loans
+
+105
+00:04:49,660 --> 00:04:51,044
+that aren't demand loans.
+
+106
+00:04:51,044 --> 00:04:54,160
+Everything on the liabilities right now is on demand loans,
+
+107
+00:04:54,160 --> 00:04:56,509
+which means whoever has that liability can come back
+
+108
+00:04:56,509 --> 00:04:58,209
+and exchange it for gold at any moment in time,
+
+109
+00:04:58,209 --> 00:05:01,776
+but the bank could've taken just a regular loan
+
+110
+00:05:01,776 --> 00:05:03,827
+And a regular loan might not be on demand.
+
+111
+00:05:03,827 --> 00:05:06,577
+A regular loan might be a loan that
+
+112
+00:05:06,577 --> 00:05:08,027
+the bank doesn't have to pay back for 10 years,
+
+113
+00:05:08,027 --> 00:05:10,278
+in which case there's no reason why the bank
+
+114
+00:05:10,278 --> 00:05:13,243
+would have to set aside some gold to pay that back.
+
+115
+00:05:13,243 --> 00:05:16,460
+So let's make our definition not total liabilities,
+
+116
+00:05:16,460 --> 00:05:29,160
+but total demand liabilities.
+
+117
+00:05:29,160 --> 00:05:33,659
+So what would be total demand liabilities?
+
+118
+00:05:33,659 --> 00:05:38,394
+That would be total bank notes in this case
+
+119
+00:05:38,394 --> 00:05:41,427
+and bank notes are also something we'll later leave
+
+120
+00:05:41,427 --> 00:05:44,227
+a world where every bank is issuing bank notes,
+
+121
+00:05:44,227 --> 00:05:46,977
+but I just wanted to give you that kind of historical
+context,
+
+122
+00:05:46,977 --> 00:05:48,978
+how bank notes even started off.
+
+123
+00:05:48,978 --> 00:05:52,576
+Total bank notes and demand accounts,
+
+124
+00:05:52,576 --> 00:05:58,510
+demand or checking accounts.
+
+125
+00:05:58,510 --> 00:06:01,909
+So let's see what it is for this bank that we have here.
+
+126
+00:06:01,909 --> 00:06:05,194
+So our total gold assets are 500
+
+127
+00:06:05,194 --> 00:06:07,593
+and what's our total demand accounts?
+
+128
+00:06:07,593 --> 00:06:10,210
+100 plus 100 plus 100
+
+129
+00:06:10,210 --> 00:06:14,694
+-	100, 200, 300, 400 - 600 -
+
+130
+00:06:14,694 --> 00:06:20,493
+and I think this is another 100 here - 700.
+
+131
+00:06:20,493 --> 00:06:26,311
+The total demand liabilities, I just figured out, was 700
+
+132
+00:06:26,311 --> 00:06:32,543
+and the gold assets in this bank are 500.
+
+133
+00:06:32,543 --> 00:06:34,394
+So right now the reserve ratio of this bank
+
+134
+00:06:34,394 --> 00:06:43,212
+is pretty high - 5/7. So I don't know what 5/7 is.
+
+135
+00:06:43,212 --> 00:06:47,529
+If I'm doing my mental math right, it's about 62% -
+
+136
+00:06:47,529 --> 00:06:54,275
+7 goes into 50 - no, no, 7 goes into 50, 7 times
+
+137
+00:06:54,275 --> 00:06:59,209
+- it's like 71%. Right. 7 times 7 is 49-- 71%.
+
+138
+00:06:59,209 --> 00:07:01,159
+So that's its reserve ratio.
+
+139
+00:07:01,159 --> 00:07:05,241
+And what keeps banks from just keep issuing more assets
+
+140
+00:07:05,241 --> 00:07:07,724
+and debts to expand its balance sheet
+
+141
+00:07:07,724 --> 00:07:09,888
+is a reserve ratio requirement.
+
+142
+00:07:09,888 --> 00:07:11,323
+So right now in the United States –
+
+143
+00:07:11,323 --> 00:07:12,490
+although we're not on the gold standard,
+
+144
+00:07:12,490 --> 00:07:14,490
+but you could imagine it in this world
+
+145
+00:07:14,490 --> 00:07:19,340
+our bank regulators might say that your reserve ratio
+
+146
+00:07:19,340 --> 00:07:21,505
+on demand accounts, so the amount of gold
+
+147
+00:07:21,505 --> 00:07:24,723
+you have to set aside for checking accounts
+
+148
+00:07:24,723 --> 00:07:27,023
+- so reserve requirement, we'll call it.
+
+149
+00:07:27,023 --> 00:07:29,639
+Let me change colors just to ease the monotony.
+
+150
+00:07:29,639 --> 00:07:32,889
+The reserve requirement
+
+151
+00:07:32,889 --> 00:07:35,123
+They might say the reserve requirement is equal to -
+
+152
+00:07:35,123 --> 00:07:36,440
+let's say they want to be safe.
+
+153
+00:07:36,440 --> 00:07:39,473
+Let's say they want to make it 20%.
+
+154
+00:07:39,473 --> 00:07:40,791
+In the U.S. right now, it's 10%,
+
+155
+00:07:40,791 --> 00:07:44,740
+although the reserve commodity isn't gold anymore.
+
+156
+00:07:44,740 --> 00:07:47,140
+Let's say your reserve requirement is 20%.
+
+157
+00:07:47,140 --> 00:07:51,740
+That means as long as - at any given moment in time,
+
+158
+00:07:51,740 --> 00:07:55,656
+more than 20% of these people
+
+159
+00:07:55,656 --> 00:07:57,173
+don't demand their money back,
+
+160
+00:07:57,173 --> 00:07:59,306
+the bank's going to have liquidity.
+
+161
+00:07:59,306 --> 00:08:03,340
+The bank is going to be able to fulfill its promise.
+
+162
+00:08:03,340 --> 00:08:05,305
+Because all of these people think at any given moment
+
+163
+00:08:05,305 --> 00:08:07,140
+They can go to the bank and get their gold.
+
+164
+00:08:07,140 --> 00:08:09,556
+In order for this system to work,
+
+165
+00:08:09,556 --> 00:08:10,856
+there has to be confidence
+
+166
+00:08:10,856 --> 00:08:12,589
+and in order for there to be confidence,
+
+167
+00:08:12,589 --> 00:08:14,156
+the bank has to be good for it
+
+168
+00:08:14,156 --> 00:08:16,124
+every time someone asks for their money.
+
+169
+00:08:16,124 --> 00:08:19,439
+So the bank has to stay liquidate
+
+170
+00:08:19,439 --> 00:08:21,255
+So essentially this reserve ratio is
+
+171
+00:08:21,255 --> 00:08:23,889
+what the regulators think that a bank needs to maintain,
+
+172
+00:08:23,889 --> 00:08:25,874
+in order to maintain, be liquid
+
+173
+00:08:25,874 --> 00:08:30,640
+Our bank as it is right now, it has a reserve ratio of 71%.
+
+174
+00:08:30,640 --> 00:08:34,124
+So as long as no more than 71% of these people
+
+175
+00:08:34,124 --> 00:08:36,690
+some of these loans, they might be out for a year or two.
+
+176
+00:08:36,690 --> 00:08:38,206
+So as long as -
+
+177
+00:08:38,206 --> 00:08:39,840
+- in that year or two that these loans are out -
+
+178
+00:08:39,840 --> 00:08:46,105
+as long as no more than 71% of these people don't come asking for their gold
+
+179
+00:08:46,105 --> 00:08:47,540
+we should be OK.
+
+180
+00:08:47,540 --> 00:08:51,272
+If all of a sudden for whatever weird reason, I don't know,
+
+181
+00:08:51,272 --> 00:08:55,772
+80% of these people who have demand deposits or
+
+182
+00:08:55,772 --> 00:08:58,206
+bank notes come and want to switch their money for gold,
+
+183
+00:08:58,206 --> 00:09:01,105
+this bank is going to run out of gold
+
+184
+00:09:01,105 --> 00:09:02,324
+and that's a bank run.
+
+185
+00:09:02,324 --> 00:09:06,172
+And there's a couple of reasons why that's really bad.
+
+186
+00:09:06,172 --> 00:09:09,789
+One is, all of a sudden these demand deposit accounts
+
+187
+00:09:09,789 --> 00:09:12,356
+all of a sudden don't seem to be that great
+
+188
+00:09:12,356 --> 00:09:14,588
+because you're not really getting your gold on
+demand
+
+189
+00:09:14,588 --> 00:09:17,506
+because more people are asking for gold than there is gold.
+
+190
+00:09:17,506 --> 00:09:19,306
+And the other problem is, all of a sudden,
+
+191
+00:09:19,306 --> 00:09:21,090
+everyone will lose confidence in the system
+
+192
+00:09:21,090 --> 00:09:22,472
+and everyone's going to think,
+
+193
+00:09:22,472 --> 00:09:25,340
+oh boy, these banks that have these nice vault-looking buidlings
+
+194
+00:09:25,340 --> 00:09:27,673
+maybe they're not as safe as I thought.
+
+195
+00:09:27,673 --> 00:09:30,755
+So everyone is going to start pulling their money out.
+
+196
+00:09:30,755 --> 00:09:32,291
+And that's called a bank run.
+
+197
+00:09:32,291 --> 00:09:33,289
+So in this example, if I assume,
+
+198
+00:09:33,289 --> 00:09:36,105
+that this loan is really worth 300 gold pieces
+
+199
+00:09:36,105 --> 00:09:37,855
+and it's really going to be paid back
+
+200
+00:09:37,855 --> 00:09:40,555
+and this loan right here is really worth 100 gold pieces
+
+201
+00:09:40,555 --> 00:09:42,206
+and it really will be paid back,
+
+202
+00:09:42,206 --> 00:09:44,705
+this bank is solvent.
+
+203
+00:09:44,705 --> 00:09:47,656
+It has more assets than it does liabilities.
+
+204
+00:09:47,656 --> 00:09:49,723
+So if it has enough time,
+
+205
+00:09:49,723 --> 00:09:53,156
+it will be able to pay back all of its liabilities.
+
+206
+00:09:53,156 --> 00:09:55,672
+But if all of these people, all of a sudden, come in and
+
+207
+00:09:55,672 --> 00:10:01,657
+want not just 500 gold pieces, if they want 600 gold pieces,
+
+208
+00:10:01,657 --> 00:10:03,356
+right, they're owed actually 700 - so if they want 600 gold pieces
+
+209
+00:10:03,356 --> 00:10:05,505
+all of a sudden
+
+210
+00:10:05,505 --> 00:10:07,657
+everyone's going to lose confidence in the system
+
+211
+00:10:07,657 --> 00:10:10,506
+These people probably - if they're not able to get that,
+
+212
+00:10:10,506 --> 00:10:11,589
+they're probably going to want all their money back
+
+213
+00:10:11,589 --> 00:10:14,689
+so then all of these liabilities are going to come due.
+
+214
+00:10:14,689 --> 00:10:17,991
+And then maybe the bank is going to have to try to sell its assets
+
+215
+00:10:17,991 --> 00:10:20,106
+these loans to someone else
+
+216
+00:10:20,106 --> 00:10:21,173
+or maybe try to collect from someone,
+
+217
+00:10:21,173 --> 00:10:25,112
+but as you can imagine, it's a whole... big mess and
+
+218
+00:10:25,112 --> 00:10:26,879
+the whole system which is dependent on confidence
+
+219
+00:10:26,879 --> 00:10:29,142
+will just start to crumble.
+
+220
+00:10:29,142 --> 00:10:32,809
+But anyway, the initial question is, what is the limit to how much
+
+221
+00:10:32,809 --> 00:10:36,041
+you can expand the asset and the liability side of the balance sheet
+
+222
+00:10:36,041 --> 00:10:38,559
+just by creating these loans and these deposit accounts?
+
+223
+00:10:38,559 --> 00:10:42,576
+And that limit is driven by the reserve ratio,
+
+224
+00:10:42,576 --> 00:10:45,109
+whatever the regulators set.
+
+225
+00:10:45,109 --> 00:10:48,900
+Anyway, I'll see you in the next video.

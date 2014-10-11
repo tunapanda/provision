@@ -1,0 +1,1384 @@
+1
+00:00:00,000 --> 00:00:00,530
+   
+
+2
+00:00:00,530 --> 00:00:04,180
+In the last video, we started
+with a linear transformation
+
+3
+00:00:04,180 --> 00:00:08,520
+S, that was a mapping between
+the set x, that was a subset
+
+4
+00:00:08,520 --> 00:00:10,510
+of Rn to the set y.
+
+5
+00:00:10,510 --> 00:00:12,390
+And then we had another
+transformation that was a
+
+6
+00:00:12,390 --> 00:00:15,540
+mapping from the set
+y to the set z.
+
+7
+00:00:15,540 --> 00:00:18,060
+And we asked ourselves,
+given these two linear
+
+8
+00:00:18,060 --> 00:00:20,900
+transformations, could
+we construct a linear
+
+9
+00:00:20,900 --> 00:00:26,320
+transformation that goes all
+the way from x to z?
+
+10
+00:00:26,320 --> 00:00:27,780
+What we did was we made
+a definition.
+
+11
+00:00:27,780 --> 00:00:30,820
+We said let's create something
+called the
+
+12
+00:00:30,820 --> 00:00:33,290
+composition of T with S.
+
+13
+00:00:33,290 --> 00:00:37,180
+What that is, is first you apply
+S to some vector in X to
+
+14
+00:00:37,180 --> 00:00:38,535
+get some vector in Y.
+
+15
+00:00:38,535 --> 00:00:40,990
+And that's your vector
+right there.
+
+16
+00:00:40,990 --> 00:00:44,090
+And then you apply T to
+that, to get to z.
+
+17
+00:00:44,090 --> 00:00:45,720
+And so we defined it that way.
+
+18
+00:00:45,720 --> 00:00:48,420
+And our next question was, was
+that a linear transformation?
+
+19
+00:00:48,420 --> 00:00:49,890
+We show that it was.
+
+20
+00:00:49,890 --> 00:00:52,010
+It met the two requirements
+for them.
+
+21
+00:00:52,010 --> 00:00:54,620
+And because it is a linear
+transformation, I left off in
+
+22
+00:00:54,620 --> 00:00:57,440
+the last video saying that
+it should be able to be
+
+23
+00:00:57,440 --> 00:01:00,870
+represented by some matrix
+vector product.
+
+24
+00:01:00,870 --> 00:01:03,440
+Where this will have to
+be an l by n matrix.
+
+25
+00:01:03,440 --> 00:01:06,690
+Because it's a mapping from an n
+dimensional space, which was
+
+26
+00:01:06,690 --> 00:01:12,300
+x-- it was a subset of Rn--
+to an l dimensional space.
+
+27
+00:01:12,300 --> 00:01:16,860
+Because z is a subset of Rl Now
+in this video, let's try
+
+28
+00:01:16,860 --> 00:01:20,340
+to actually construct
+this matrix.
+
+29
+00:01:20,340 --> 00:01:24,130
+So at the beginning of the last
+video, I told you that T
+
+30
+00:01:24,130 --> 00:01:28,050
+of x could be written as some
+matrix product, B times x.
+
+31
+00:01:28,050 --> 00:01:32,170
+Let me write that and rewrite
+it down here.
+
+32
+00:01:32,170 --> 00:01:36,090
+So I told you that the linear
+transformation T applied to
+
+33
+00:01:36,090 --> 00:01:39,900
+some vector x, could be written
+as the matrix vector
+
+34
+00:01:39,900 --> 00:01:43,410
+product, B times a vector x.
+
+35
+00:01:43,410 --> 00:01:49,540
+And since it was a mapping from
+an m dimensional space to
+
+36
+00:01:49,540 --> 00:01:53,170
+an l dimensional space, we know
+this is going to be in l
+
+37
+00:01:53,170 --> 00:01:58,800
+by m matrix.
+
+38
+00:01:58,800 --> 00:02:04,000
+Now similarly, I told you that
+the transformation S can also
+
+39
+00:02:04,000 --> 00:02:06,780
+be written as a matrix
+vector product.
+
+40
+00:02:06,780 --> 00:02:09,729
+Where we can say A is its
+matrix representation
+
+41
+00:02:09,729 --> 00:02:11,160
+times a vector x.
+
+42
+00:02:11,160 --> 00:02:18,060
+And since S was a mapping from
+an n dimensional space to an m
+
+43
+00:02:18,060 --> 00:02:21,950
+dimensional space, this will
+be an m by n matrix.
+
+44
+00:02:21,950 --> 00:02:25,780
+   
+
+45
+00:02:25,780 --> 00:02:32,600
+Now by definition, what was the
+composition of T with S?
+
+46
+00:02:32,600 --> 00:02:33,460
+What is this?
+
+47
+00:02:33,460 --> 00:02:36,680
+By definition, we said that this
+is equal to-- you first
+
+48
+00:02:36,680 --> 00:02:40,590
+apply the linear transformation
+S to x.
+
+49
+00:02:40,590 --> 00:02:42,890
+And I'll arbitrarily
+switch colors.
+
+50
+00:02:42,890 --> 00:02:46,000
+So you first apply the
+transformation S to x.
+
+51
+00:02:46,000 --> 00:02:50,400
+And that essentially gets you
+a vector right there.
+
+52
+00:02:50,400 --> 00:02:52,560
+This is just a vector in Rm.
+
+53
+00:02:52,560 --> 00:02:56,360
+Or it's really a vector in y,
+which is a subset of Rm.
+
+54
+00:02:56,360 --> 00:02:58,600
+And then you apply the
+transformation T to that
+
+55
+00:02:58,600 --> 00:03:00,460
+vector to get you into z.
+
+56
+00:03:00,460 --> 00:03:07,170
+   
+
+57
+00:03:07,170 --> 00:03:10,340
+Given this we can use our matrix
+representations to
+
+58
+00:03:10,340 --> 00:03:13,620
+replace this kind of
+transformation representation.
+
+59
+00:03:13,620 --> 00:03:14,830
+Although they're really
+the same thing.
+
+60
+00:03:14,830 --> 00:03:18,110
+What is a transformation
+of S applied to x?
+
+61
+00:03:18,110 --> 00:03:25,830
+Well this right here is just
+A times x, where this
+
+62
+00:03:25,830 --> 00:03:29,530
+is an m by n matrix.
+
+63
+00:03:29,530 --> 00:03:31,800
+So we can say that this is equal
+to the transformation
+
+64
+00:03:31,800 --> 00:03:35,480
+applied to A times x.
+
+65
+00:03:35,480 --> 00:03:40,080
+Now, what is the T
+transformation applied
+
+66
+00:03:40,080 --> 00:03:41,410
+to any vector x?
+
+67
+00:03:41,410 --> 00:03:44,740
+Well that's the matrix B
+times your vector x.
+
+68
+00:03:44,740 --> 00:03:49,960
+So this thing right here is
+going to be equal to B times
+
+69
+00:03:49,960 --> 00:03:51,040
+whatever I put in there.
+
+70
+00:03:51,040 --> 00:03:58,790
+So the matrix B times the matrix
+A times the vector x
+
+71
+00:03:58,790 --> 00:03:59,710
+right there.
+
+72
+00:03:59,710 --> 00:04:04,010
+This is what our composition
+transformation is.
+
+73
+00:04:04,010 --> 00:04:08,440
+The composition of T with S
+applied to the vector x.
+
+74
+00:04:08,440 --> 00:04:12,730
+Which takes us from the set x
+all the way to the set z is
+
+75
+00:04:12,730 --> 00:04:16,140
+this, if we use the matrix
+forms of the two
+
+76
+00:04:16,140 --> 00:04:17,700
+transformations.
+
+77
+00:04:17,700 --> 00:04:23,850
+Now at the end of last video I
+said I wanted to find just
+
+78
+00:04:23,850 --> 00:04:28,500
+some matrix that if I were to
+multiply times this vector,
+
+79
+00:04:28,500 --> 00:04:30,260
+that is equivalent to
+this transformation.
+
+80
+00:04:30,260 --> 00:04:32,800
+And I know that I can
+find this matrix.
+
+81
+00:04:32,800 --> 00:04:36,100
+I know that this exists because
+this is a linear
+
+82
+00:04:36,100 --> 00:04:37,440
+transformation.
+
+83
+00:04:37,440 --> 00:04:38,910
+So how can we do that?
+
+84
+00:04:38,910 --> 00:04:42,180
+Well, we just do what we've
+always done in the past. We
+
+85
+00:04:42,180 --> 00:04:45,040
+start with the identity matrix,
+and we apply the
+
+86
+00:04:45,040 --> 00:04:48,370
+transformation to every column
+of the identity matrix.
+
+87
+00:04:48,370 --> 00:04:51,980
+And then you end up with your
+matrix representation of the
+
+88
+00:04:51,980 --> 00:04:53,530
+transformation itself.
+
+89
+00:04:53,530 --> 00:04:55,200
+So first of all, how
+big is the identity
+
+90
+00:04:55,200 --> 00:04:56,750
+matrix going to be?
+
+91
+00:04:56,750 --> 00:04:59,600
+Well, these guys that we're
+inputting into our
+
+92
+00:04:59,600 --> 00:05:03,500
+transformation, they are subsets
+of x, or they're
+
+93
+00:05:03,500 --> 00:05:05,960
+members of x, which is
+an n dimensional
+
+94
+00:05:05,960 --> 00:05:07,410
+space, a subset of Rn.
+
+95
+00:05:07,410 --> 00:05:13,920
+   
+
+96
+00:05:13,920 --> 00:05:18,460
+So all we do to figure out C
+is we start off with the
+
+97
+00:05:18,460 --> 00:05:19,710
+identity matrix.
+
+98
+00:05:19,710 --> 00:05:21,880
+   
+
+99
+00:05:21,880 --> 00:05:24,610
+The n dimensional identity
+matrix, because
+
+100
+00:05:24,610 --> 00:05:27,110
+our domain is Rn.
+
+101
+00:05:27,110 --> 00:05:28,705
+And of course we know what
+that looks like.
+
+102
+00:05:28,705 --> 00:05:31,340
+   
+
+103
+00:05:31,340 --> 00:05:34,600
+We have 1, 0 all the way down.
+
+104
+00:05:34,600 --> 00:05:37,880
+It's going to be an n by n
+matrix, and then 0, 1 all the
+
+105
+00:05:37,880 --> 00:05:39,540
+way down 0's.
+
+106
+00:05:39,540 --> 00:05:42,410
+These 0's right here, and then
+you have 1's go all the way
+
+107
+00:05:42,410 --> 00:05:46,430
+down the columns and everything
+else is 0.
+
+108
+00:05:46,430 --> 00:05:48,680
+We've seen this multiple times
+that's what your identity
+
+109
+00:05:48,680 --> 00:05:51,970
+matrix looks like, just 1's down
+the column from the top
+
+110
+00:05:51,970 --> 00:05:53,700
+left to the bottom right.
+
+111
+00:05:53,700 --> 00:05:59,340
+Now to figure out C, the matrix
+representation of our
+
+112
+00:05:59,340 --> 00:06:03,060
+transformation, all we do is we
+apply the transformation to
+
+113
+00:06:03,060 --> 00:06:04,950
+each of these columns.
+
+114
+00:06:04,950 --> 00:06:12,580
+So we can write that our matrix
+C is equal to the
+
+115
+00:06:12,580 --> 00:06:14,900
+transformation applied
+to this first column.
+
+116
+00:06:14,900 --> 00:06:15,615
+What is the transformation?
+
+117
+00:06:15,615 --> 00:06:23,150
+It is the matrix B times the
+matrix A times whatever you're
+
+118
+00:06:23,150 --> 00:06:24,450
+taking the transformation of.
+
+119
+00:06:24,450 --> 00:06:26,190
+In this case we're taking the
+transformation of that.
+
+120
+00:06:26,190 --> 00:06:30,850
+We're taking the transformation
+of 1, 0, 0 all
+
+121
+00:06:30,850 --> 00:06:31,380
+the way down.
+
+122
+00:06:31,380 --> 00:06:34,100
+There's 1 followed by
+a bunch of 0's.
+
+123
+00:06:34,100 --> 00:06:36,350
+That's going to be our
+first column of C.
+
+124
+00:06:36,350 --> 00:06:42,370
+Our second column of C is going
+to be B times A times
+
+125
+00:06:42,370 --> 00:06:45,300
+the second column of our
+identity matrix.
+
+126
+00:06:45,300 --> 00:06:47,650
+And, of course, you remember
+these are each the standard
+
+127
+00:06:47,650 --> 00:06:49,980
+basis vectors for Rn.
+
+128
+00:06:49,980 --> 00:06:57,220
+   
+
+129
+00:06:57,220 --> 00:07:00,740
+So this is going to be times
+E2, which is a 0, 1,
+
+130
+00:07:00,740 --> 00:07:04,290
+0 all the way down.
+
+131
+00:07:04,290 --> 00:07:06,560
+And then we're going to keep
+doing that until we do get to
+
+132
+00:07:06,560 --> 00:07:13,700
+the last column, which is B
+times A times a bunch of 0's
+
+133
+00:07:13,700 --> 00:07:15,680
+all the way down
+until get a 1.
+
+134
+00:07:15,680 --> 00:07:18,970
+The nth term is just
+a 1 right there.
+
+135
+00:07:18,970 --> 00:07:22,110
+Now what is this going
+to be equal to?
+
+136
+00:07:22,110 --> 00:07:24,540
+It looks fairly complicated
+right now.
+
+137
+00:07:24,540 --> 00:07:27,970
+But all you have to do is make
+the realization-- and we've
+
+138
+00:07:27,970 --> 00:07:29,500
+seen this multiple times.
+
+139
+00:07:29,500 --> 00:07:33,490
+If we write our vector A or we
+write our matrix A as just a
+
+140
+00:07:33,490 --> 00:07:34,690
+bunch of column vectors.
+
+141
+00:07:34,690 --> 00:07:40,610
+So this is a column vector A1,
+A2, all the way to An.
+
+142
+00:07:40,610 --> 00:07:43,150
+   
+
+143
+00:07:43,150 --> 00:07:45,413
+We already learned that this
+was and n by m matrix.
+
+144
+00:07:45,413 --> 00:07:48,690
+   
+
+145
+00:07:48,690 --> 00:07:56,670
+Then what is the vector A times,
+for example, x1, x2 to
+
+146
+00:07:56,670 --> 00:07:59,140
+all the way down to xn.
+
+147
+00:07:59,140 --> 00:08:00,800
+We've seen this multiple
+times.
+
+148
+00:08:00,800 --> 00:08:12,390
+This is the equivalent to x1
+times A1 plus x2 times A2, all
+
+149
+00:08:12,390 --> 00:08:16,210
+the way to plus xn times An.
+
+150
+00:08:16,210 --> 00:08:17,460
+We've seen this multiple
+times.
+
+151
+00:08:17,460 --> 00:08:20,290
+It's a linear combination of
+these column vectors where the
+
+152
+00:08:20,290 --> 00:08:23,000
+waiting factors are the terms
+in our vector that we're
+
+153
+00:08:23,000 --> 00:08:24,470
+taking the product of.
+
+154
+00:08:24,470 --> 00:08:27,620
+So given that, what is this
+guy going to reduce to?
+
+155
+00:08:27,620 --> 00:08:31,410
+This is going to be A1 times
+this first entry right here,
+
+156
+00:08:31,410 --> 00:08:36,100
+times x1, plus A2 times a second
+entry, plus A3 times a
+
+157
+00:08:36,100 --> 00:08:36,559
+third entry.
+
+158
+00:08:36,559 --> 00:08:37,900
+But all these other
+entries are 0.
+
+159
+00:08:37,900 --> 00:08:40,189
+The x2's all the way
+to the xn are 0's.
+
+160
+00:08:40,189 --> 00:08:43,789
+So you're only going to end
+up with 1 times the first
+
+161
+00:08:43,789 --> 00:08:45,590
+column here in A.
+
+162
+00:08:45,590 --> 00:08:48,680
+So this will reduce to--
+let me write this.
+
+163
+00:08:48,680 --> 00:08:56,820
+So the first column is going
+to be B times-- now A times
+
+164
+00:08:56,820 --> 00:09:01,780
+this E1 vector, I guess we could
+call it, right there is
+
+165
+00:09:01,780 --> 00:09:05,720
+just going to be 1 times the
+first column in A plus 0 times
+
+166
+00:09:05,720 --> 00:09:08,430
+the second column in A plus
+0 times the third column.
+
+167
+00:09:08,430 --> 00:09:11,420
+So it's just 1 times the
+first column in A.
+
+168
+00:09:11,420 --> 00:09:15,240
+So it's just A1.
+
+169
+00:09:15,240 --> 00:09:16,300
+That simple.
+
+170
+00:09:16,300 --> 00:09:18,610
+Now what is this one going
+to be equal to?
+
+171
+00:09:18,610 --> 00:09:23,740
+It's going to be 0 times the
+first column in A, plus 1
+
+172
+00:09:23,740 --> 00:09:27,660
+times a second column in A, plus
+0 times a third column in
+
+173
+00:09:27,660 --> 00:09:28,180
+A, and the rest are
+going to be 0's.
+
+174
+00:09:28,180 --> 00:09:31,250
+So it's just going to be 1 times
+the second column in A.
+
+175
+00:09:31,250 --> 00:09:34,410
+So the second column in our
+transformation matrix is just
+
+176
+00:09:34,410 --> 00:09:37,850
+going to be B times A2.
+
+177
+00:09:37,850 --> 00:09:40,230
+And I think you get
+the idea here.
+
+178
+00:09:40,230 --> 00:09:42,830
+The next one is going to be B
+times A3 and all the way until
+
+179
+00:09:42,830 --> 00:09:46,660
+you get B times An.
+
+180
+00:09:46,660 --> 00:09:50,870
+   
+
+181
+00:09:50,870 --> 00:09:52,670
+So that's how you would
+solve for your
+
+182
+00:09:52,670 --> 00:09:53,800
+transformation matrix.
+
+183
+00:09:53,800 --> 00:09:55,050
+Remember what we were
+trying to do.
+
+184
+00:09:55,050 --> 00:09:59,100
+We were trying to find some--
+let me write down and
+
+185
+00:09:59,100 --> 00:10:02,140
+summarize everything that
+we've done so far.
+
+186
+00:10:02,140 --> 00:10:09,170
+We had a mapping S, that was
+a mapping from x to y.
+
+187
+00:10:09,170 --> 00:10:13,490
+But x was a subset of Rn.
+
+188
+00:10:13,490 --> 00:10:17,370
+Y was a subset of Rm.
+
+189
+00:10:17,370 --> 00:10:21,110
+And so we said that this linear
+transformation could be
+
+190
+00:10:21,110 --> 00:10:27,760
+represented as some matrix A
+where A is an m by n matrix
+
+191
+00:10:27,760 --> 00:10:29,750
+times a vector x.
+
+192
+00:10:29,750 --> 00:10:33,700
+Then I showed you another
+transformation, we already
+
+193
+00:10:33,700 --> 00:10:39,320
+called it T, which was a
+mapping from y to z.
+
+194
+00:10:39,320 --> 00:10:40,570
+z is a subset of Rl.
+
+195
+00:10:40,570 --> 00:10:44,030
+   
+
+196
+00:10:44,030 --> 00:10:47,490
+And of course, the
+transformation T applied to
+
+197
+00:10:47,490 --> 00:10:53,430
+some vector in y, can be
+represented as some matrix B
+
+198
+00:10:53,430 --> 00:10:57,450
+times that vector.
+
+199
+00:10:57,450 --> 00:10:58,740
+I shouldn't have drawn
+parentheses there,
+
+200
+00:10:58,740 --> 00:10:59,430
+but you get the idea.
+
+201
+00:10:59,430 --> 00:11:03,870
+And this, since it's a mapping
+from a subset of our Rm to Rl,
+
+202
+00:11:03,870 --> 00:11:07,850
+this will be an l by m matrix.
+
+203
+00:11:07,850 --> 00:11:12,220
+And then we said, look, if
+we actually just take the
+
+204
+00:11:12,220 --> 00:11:20,750
+composition of T with S,
+of some vector in x,
+
+205
+00:11:20,750 --> 00:11:23,180
+this reduced to B.
+
+206
+00:11:23,180 --> 00:11:25,790
+So first we applied the
+S transformation.
+
+207
+00:11:25,790 --> 00:11:29,060
+We multiplied the matrix
+A times x.
+
+208
+00:11:29,060 --> 00:11:33,810
+   
+
+209
+00:11:33,810 --> 00:11:36,800
+And then we applied the T
+transformation to this.
+
+210
+00:11:36,800 --> 00:11:38,910
+So we just multiplied
+B times that.
+
+211
+00:11:38,910 --> 00:11:42,200
+   
+
+212
+00:11:42,200 --> 00:11:45,100
+Now we know this is a linear
+transformation, which means it
+
+213
+00:11:45,100 --> 00:11:47,450
+can be represented as a
+matrix vector product.
+
+214
+00:11:47,450 --> 00:11:50,840
+And we just figured out what the
+matrix vector product is.
+
+215
+00:11:50,840 --> 00:12:00,210
+So this thing is going to be
+equal to C times x, which is
+
+216
+00:12:00,210 --> 00:12:03,400
+equal to this thing right there,
+which is equal to that
+
+217
+00:12:03,400 --> 00:12:04,040
+thing right there.
+
+218
+00:12:04,040 --> 00:12:16,280
+Which is equal to-- let me write
+it this way-- B, A1,
+
+219
+00:12:16,280 --> 00:12:20,020
+where A1 is the first column
+vector in our matrix A.
+
+220
+00:12:20,020 --> 00:12:23,030
+And then the second column
+here is going to be B.
+
+221
+00:12:23,030 --> 00:12:26,990
+And then we have A2, where
+this is the second column
+
+222
+00:12:26,990 --> 00:12:27,970
+vector in A.
+
+223
+00:12:27,970 --> 00:12:42,140
+And you can keep going all the
+way until you have B times An
+
+224
+00:12:42,140 --> 00:12:43,770
+times x, of course.
+
+225
+00:12:43,770 --> 00:12:51,670
+   
+
+226
+00:12:51,670 --> 00:12:52,980
+Now this is fair enough.
+
+227
+00:12:52,980 --> 00:12:56,470
+We can always do this if you
+give me some matrix.
+
+228
+00:12:56,470 --> 00:13:00,350
+Remember this is an
+l by m matrix.
+
+229
+00:13:00,350 --> 00:13:05,370
+And you give me another matrix
+right here that is an m by n
+
+230
+00:13:05,370 --> 00:13:08,650
+matrix, I can always do this.
+
+231
+00:13:08,650 --> 00:13:11,250
+And how do I know I can
+I always do that?
+
+232
+00:13:11,250 --> 00:13:16,000
+Because each of these
+A's are going to
+
+233
+00:13:16,000 --> 00:13:17,900
+have m entries, right?
+
+234
+00:13:17,900 --> 00:13:22,580
+They're going to be Ai.
+
+235
+00:13:22,580 --> 00:13:25,150
+All of them are going to
+be members of our Rm.
+
+236
+00:13:25,150 --> 00:13:26,490
+So this is well-defined.
+
+237
+00:13:26,490 --> 00:13:28,080
+This has m columns.
+
+238
+00:13:28,080 --> 00:13:29,360
+This has m entries.
+
+239
+00:13:29,360 --> 00:13:32,820
+So each of these matrix vector
+products are well-defined.
+
+240
+00:13:32,820 --> 00:13:36,480
+Now, this is an interesting
+thing, because we were able to
+
+241
+00:13:36,480 --> 00:13:39,620
+figure out the actual matrix
+representation of this
+
+242
+00:13:39,620 --> 00:13:42,350
+composition transformation.
+
+243
+00:13:42,350 --> 00:13:43,970
+Let's extend it a little
+bit further.
+
+244
+00:13:43,970 --> 00:13:47,630
+Wouldn't it be nice if this
+were the same thing as the
+
+245
+00:13:47,630 --> 00:13:49,820
+matrices B times A.
+
+246
+00:13:49,820 --> 00:13:58,860
+   
+
+247
+00:13:58,860 --> 00:14:00,740
+All of that times x.
+
+248
+00:14:00,740 --> 00:14:04,050
+   
+
+249
+00:14:04,050 --> 00:14:06,500
+Wouldn't it be nice if these
+were the same thing?
+
+250
+00:14:06,500 --> 00:14:10,010
+Because then we could say that
+the composition of T with S of
+
+251
+00:14:10,010 --> 00:14:14,490
+x is equal to the matrix
+representation of B times a
+
+252
+00:14:14,490 --> 00:14:18,580
+matrix representation of S.
+
+253
+00:14:18,580 --> 00:14:20,270
+And you take the product
+of those two.
+
+254
+00:14:20,270 --> 00:14:22,690
+And that will create a new
+matrix representation which
+
+255
+00:14:22,690 --> 00:14:24,135
+you can call C.
+
+256
+00:14:24,135 --> 00:14:26,600
+That you can then multiply
+times x.
+
+257
+00:14:26,600 --> 00:14:29,480
+So you won't have to do it
+individually every time, or do
+
+258
+00:14:29,480 --> 00:14:30,360
+it this way.
+
+259
+00:14:30,360 --> 00:14:33,870
+And I guess the truth of the
+matter is there is nothing to
+
+260
+00:14:33,870 --> 00:14:38,330
+stop us from defining this
+to be equal to B times A.
+
+261
+00:14:38,330 --> 00:14:42,080
+We have not defined what a
+matrix times a matrix is yet.
+
+262
+00:14:42,080 --> 00:14:43,290
+So we might as well.
+
+263
+00:14:43,290 --> 00:14:45,500
+This is a good enough motivation
+for us to define it
+
+264
+00:14:45,500 --> 00:14:46,530
+in this way.
+
+265
+00:14:46,530 --> 00:14:48,010
+So let's throw in
+this definition.
+
+266
+00:14:48,010 --> 00:14:52,360
+   
+
+267
+00:14:52,360 --> 00:14:54,510
+So if we have some matrix B.
+
+268
+00:14:54,510 --> 00:14:59,010
+   
+
+269
+00:14:59,010 --> 00:15:04,980
+B is an l by m matrix.
+
+270
+00:15:04,980 --> 00:15:08,630
+And then we have some other
+matrix A-- and I'll actually
+
+271
+00:15:08,630 --> 00:15:11,090
+show what A looks like, where
+these are its column vectors.
+
+272
+00:15:11,090 --> 00:15:16,600
+A1, A2, all the way to An.
+
+273
+00:15:16,600 --> 00:15:18,500
+We're going to define
+the product.
+
+274
+00:15:18,500 --> 00:15:19,750
+So this is a definition.
+
+275
+00:15:19,750 --> 00:15:22,730
+   
+
+276
+00:15:22,730 --> 00:15:28,880
+We're going to define the
+product BA as being equal to
+
+277
+00:15:28,880 --> 00:15:33,360
+the matrix B times each of
+the column vectors of A.
+
+278
+00:15:33,360 --> 00:15:36,080
+So it's B times A1.
+
+279
+00:15:36,080 --> 00:15:37,410
+That's going to be
+its first column.
+
+280
+00:15:37,410 --> 00:15:40,220
+This is going to
+be B times A2.
+
+281
+00:15:40,220 --> 00:15:44,320
+All the way to B times An.
+
+282
+00:15:44,320 --> 00:15:46,750
+And you've seen this before in
+algebra two, but the reason
+
+283
+00:15:46,750 --> 00:15:50,740
+why I went through almost two
+videos to get to here, is to
+
+284
+00:15:50,740 --> 00:15:56,480
+show you the motivation for
+why matrix products are
+
+285
+00:15:56,480 --> 00:15:57,670
+defined this way.
+
+286
+00:15:57,670 --> 00:16:00,270
+Because it makes the notion
+of compositions of
+
+287
+00:16:00,270 --> 00:16:01,900
+transformations kind
+of natural.
+
+288
+00:16:01,900 --> 00:16:05,740
+If you take the composition of
+one linear transformation with
+
+289
+00:16:05,740 --> 00:16:10,050
+another, the resulting
+transformation matrix is just
+
+290
+00:16:10,050 --> 00:16:14,000
+the product, as we've just
+defined it, of their two
+
+291
+00:16:14,000 --> 00:16:16,250
+transformation matrices.
+
+292
+00:16:16,250 --> 00:16:19,850
+For those of you who might not
+have a lot of experience
+
+293
+00:16:19,850 --> 00:16:22,590
+taking products of matrices, and
+who think this is fairly
+
+294
+00:16:22,590 --> 00:16:25,240
+abstract to look at, in the next
+video I'll actually do a
+
+295
+00:16:25,240 --> 00:16:27,270
+bunch of examples and show you
+that this definition is
+
+296
+00:16:27,270 --> 00:16:29,560
+actually fairly straightforward.
+
+297
+00:16:29,560 --> 00:16:29,933
+

@@ -1,0 +1,299 @@
+1
+00:00:00,000 --> 00:00:04,016
+Solve this system. And once again, we have three equations
+
+2
+00:00:04,057 --> 00:00:07,080
+with three unknowns, so this is essentially trying to find out where
+
+3
+00:00:07,121 --> 00:00:10,925
+three different planes would intersect in three dimensions.
+
+4
+00:00:10,952 --> 00:00:15,526
+And to do this, if you want to do by elimination, if we want to eliminate variables
+
+5
+00:00:15,553 --> 00:00:19,520
+it looks like -- well, it looks like we have a negative z here we have
+
+6
+00:00:19,547 --> 00:00:21,660
+a plus 2z we have a 5z over here.
+
+7
+00:00:21,687 --> 00:00:26,418
+If we were to scale up this third equation by positive 2,
+
+8
+00:00:26,432 --> 00:00:29,071
+then you'd have a negative 2z here and would cancel out
+
+9
+00:00:29,125 --> 00:00:33,154
+with this 2z there, and if you were to scale it up by 5, you'd
+
+10
+00:00:33,222 --> 00:00:36,840
+have a negative 5z here and that can cancel out with that 5z over there.
+
+11
+00:00:36,907 --> 00:00:40,375
+So let's try to cancel out; let's try to eliminate the z's first.
+
+12
+00:00:40,442 --> 00:00:42,313
+So let me start with this equation up here;
+
+13
+00:00:42,367 --> 00:00:45,915
+I'll just rewrite it, so we have -- I'll draw an arrow over here --
+
+14
+00:00:45,996 --> 00:00:56,373
+we have x + 2y + 5z is equal to -17, and then to cancel out or to eliminate the z's,
+
+15
+00:00:56,426 --> 00:00:58,501
+I'll multiply this equation here times 5.
+
+16
+00:00:58,541 --> 00:01:04,057
+So I'm going to multiply this equation times 5. So we have to multiply both sides by 5.
+
+17
+00:01:04,123 --> 00:01:14,319
+So 3x times 5 is 15x, y times 5 is plus 5y, and then -z times 5 is -5z --
+
+18
+00:01:14,360 --> 00:01:19,295
+that's the whole point why we're multiplying by 5 -- is equal to 3 times 5
+
+19
+00:01:19,335 --> 00:01:24,002
+which is equal to 15. And so if we add these two equations,
+
+20
+00:01:24,069 --> 00:01:35,063
+we get x plus 15x is 16x, 2y plus 5y is 7y, and 5z minus 5z or plus negative 5z --
+
+21
+00:01:35,063 --> 00:01:38,714
+those are going to cancel out -- and that is going to be equal to
+
+22
+00:01:38,767 --> 00:01:42,474
+negative 17 plus 15 is negative 2.
+
+23
+00:01:42,514 --> 00:01:46,608
+So we're able to use the constraints in that equation and that equation
+
+24
+00:01:46,648 --> 00:01:49,214
+and now we have the equation with just x and y.
+
+25
+00:01:49,254 --> 00:01:52,250
+So let's try to do the same thing -- let's try to eliminate the z's --
+
+26
+00:01:52,289 --> 00:01:55,534
+but now use this equation and this equation.
+
+27
+00:01:55,615 --> 00:01:57,880
+So this equation -- let me just rewrite it over here --
+
+28
+00:01:57,906 --> 00:02:05,412
+we have 2x minus 3y plus 2z is equal to negative 16 and I just rewrote it.
+
+29
+00:02:05,480 --> 00:02:10,616
+And now, so that this 2z gets eliminated, let's multiply this equation times 2.
+
+30
+00:02:10,669 --> 00:02:17,397
+So let's multiply it times 2 so we'll have a negative 2z here to eliminate with the positive 2z.
+
+31
+00:02:17,450 --> 00:02:28,150
+So 2 times 3x is 6x, 2 times y is plus 2y, and 2 times negative z is negative 2z
+
+32
+00:02:28,150 --> 00:02:34,204
+is equal to 2 times 3 is equal to 6. And now we can add these two equations.
+
+33
+00:02:34,258 --> 00:02:43,236
+2x plus 6x is 8x, negative 3y plus 2y is negative y, and then these two guys get cancel out,
+
+34
+00:02:43,249 --> 00:02:50,547
+and then that is equal to negative 16 plus 6 is negative -- is negative 10.
+
+35
+00:02:50,587 --> 00:02:54,677
+So now we have two equations with two unknowns; we eliminated the z's.
+
+36
+00:02:54,704 --> 00:02:57,219
+And, let's see, if we want to eliminate again,
+
+37
+00:02:57,312 --> 00:03:02,695
+we have a negative y over here, we have a positive 7y, we could have eliminated the y's
+
+38
+00:03:02,695 --> 00:03:06,928
+if we multiply this times 7, and add the two equations. So let's do that.
+
+39
+00:03:06,982 --> 00:03:23,225
+So let's multiply this times 7. 7 times 8 is 56, so it's 56x minus 7y is equal to
+
+40
+00:03:23,297 --> 00:03:31,314
+7 times negative 10 is equal to negative 70, and now we can add these two equations.
+
+41
+00:03:31,368 --> 00:03:40,026
+I'm now trying to eliminate the y's. So we have 16x plus 56x, that is 72x.
+
+42
+00:03:40,133 --> 00:03:48,802
+So we have 72x, these guys eliminate, equal to negative 72.
+
+43
+00:03:48,910 --> 00:03:57,503
+Negative 2 plus negative 70. Divide both sides by 72, and we get x is equal to negative 1.
+
+44
+00:03:57,503 --> 00:04:01,000
+And now we just have to substitute back to figure out what y and z are equal to.
+
+45
+00:04:01,000 --> 00:04:04,293
+So let's go back to this equation right over here,
+
+46
+00:04:04,293 --> 00:04:07,666
+we have 8x minus y is equal to negative 10.
+
+47
+00:04:07,666 --> 00:04:12,766
+If x is equal to negative 1, that means 8 times negative 1 or negative 8
+
+48
+00:04:12,766 --> 00:04:20,698
+minus y is equal to negative 10. We can add 8 to both sides, and so we have
+
+49
+00:04:20,764 --> 00:04:26,325
+negative y is equal to negative 2. Or multiplying both sides by negative 1,
+
+50
+00:04:26,325 --> 00:04:33,166
+y is equal to 2. Let me square that off. So x is equal to negative 1, y is equal to 2,
+
+51
+00:04:33,246 --> 00:04:37,371
+we now just have to worry about z, and we can go back to any of these up here.
+
+52
+00:04:37,371 --> 00:04:40,906
+So let's just use -- I'll just use the last numbers just because they seem lower --
+
+53
+00:04:40,906 --> 00:04:45,041
+so if we substitute back into the last equation right over here,
+
+54
+00:04:45,041 --> 00:04:55,381
+we have 3 times x, which is 3 times negative 1, plus y, which is 2, minus z is equal to 3.
+
+55
+00:04:55,381 --> 00:04:59,973
+So negative 3 plus 2 minus z is equal to 3.
+
+56
+00:04:59,973 --> 00:05:11,119
+And this is negative 1 minus z is equal to 3, and then add one to both sides,
+
+57
+00:05:11,119 --> 00:05:18,268
+we get -- these cancel out -- negative z is equal to 4, multiplying both sides by negative 1,
+
+58
+00:05:18,268 --> 00:05:23,622
+you get z is equal to negative 4.
+
+59
+00:05:23,809 --> 00:05:27,299
+So we're done. Let's verify that these solutions or this solution of
+
+60
+00:05:27,299 --> 00:05:31,533
+x is negative 1, y is equal to 2, z is equal to negative 4 actually satisfies
+
+61
+00:05:31,533 --> 00:05:34,702
+all three of these constraints. So let's substitute into the first one.
+
+62
+00:05:34,702 --> 00:05:44,032
+So we have x + 2y + 5z. So that is x is negative 1 plus 2 times y, so plus 4,
+
+63
+00:05:44,032 --> 00:05:49,040
+plus 5z, so minus 20 has to be equal to negative 17.
+
+64
+00:05:49,040 --> 00:05:54,594
+And this is negative, this right here is positive 3 minus 20 is indeed equal to negative 17.
+
+65
+00:05:54,594 --> 00:06:01,631
+So it satisfies the first constraint. So the second one, 2 times x, 2 times negative 1, that's negative 2,
+
+66
+00:06:01,631 --> 00:06:10,700
+minus 3 times y, that's minus 6, plus 2 times z, z is equal to negative 4,
+
+67
+00:06:10,700 --> 00:06:15,162
+so that's 2 times negative 4 is negative 8. That needs to be equal to negative 16.
+
+68
+00:06:15,162 --> 00:06:19,628
+Negative 2 minus negative 8 is -- sorry -- negative 2 minus negative 6 is negative 8,
+
+69
+00:06:19,628 --> 00:06:24,124
+subtract another 8, you get negative 16. So it meets the second constraint.
+
+70
+00:06:24,124 --> 00:06:30,815
+And then finally, let's look at the last constraint. We have 3 times x,
+
+71
+00:06:30,815 --> 00:06:39,440
+so negative 3 plus y, so plus 2, minus z, so minus negative 4 is the same thing as plus 4,
+
+72
+00:06:39,440 --> 00:06:46,361
+that needs to be equal to 3. So negative 3 plus 2 is negative 1, plus 4 is indeed equal to 3.
+
+73
+00:06:46,361 --> 00:06:51,977
+So we found our point of intersection in three dimensions, at these 3 planes.
+
+74
+00:06:52,093 --> 00:06:56,917
+x is negative 1, z is negative 4, y is 2, and we're able to verify it that it does
+
+75
+00:06:56,962 --> 00:06:59,933
+indeed meet all of the constraints.

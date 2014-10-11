@@ -1,0 +1,347 @@
+1
+00:00:00,687 --> 00:00:04,480
+let's say that company abcd is some type of pharmaceutical company
+
+2
+00:00:04,480 --> 00:00:06,482
+that has a drug trial coming out
+
+3
+00:00:06,482 --> 00:00:08,216
+and you're convinced that
+
+4
+00:00:08,216 --> 00:00:09,450
+it's trading at 50 dollars a share
+
+5
+00:00:09,450 --> 00:00:11,294
+but you're convinced that if the drug gets approved
+
+6
+00:00:11,294 --> 00:00:14,200
+that the company's stock is going to skyrocket
+
+7
+00:00:14,200 --> 00:00:15,621
+and you're also convinced that the company
+
+8
+00:00:15,621 --> 00:00:20,134
+if the drug gets rejected that the stock price
+
+9
+00:00:20,134 --> 00:00:22,715
+is going to tank to maybe 5 or 10 dollars
+
+10
+00:00:22,715 --> 00:00:24,696
+so if you want to make money
+
+11
+00:00:24,696 --> 00:00:26,278
+off of that beleif
+
+12
+00:00:26,278 --> 00:00:27,464
+and I'm not necessarily reccommending
+
+13
+00:00:27,464 --> 00:00:28,549
+that you do it
+
+14
+00:00:28,549 --> 00:00:31,300
+it's always tricker in reality than it sounds on paper
+
+15
+00:00:31,300 --> 00:00:36,482
+but one way that you could would be to buy the call option and the put option
+
+16
+00:00:36,482 --> 00:00:37,613
+on that stock
+
+17
+00:00:37,613 --> 00:00:39,348
+the put option is going to make you money if
+
+18
+00:00:39,348 --> 00:00:40,515
+the stock tanks
+
+19
+00:00:40,515 --> 00:00:42,203
+and then the call option is going to make money
+
+20
+00:00:42,203 --> 00:00:43,745
+if the stock becomes, if the drug gets
+
+21
+00:00:43,745 --> 00:00:46,536
+approved and the stock skyrockets
+
+22
+00:00:46,536 --> 00:00:49,418
+so let's actually draw the payoff diagram
+
+23
+00:00:49,418 --> 00:00:51,529
+so if the stock goes down
+
+24
+00:00:51,529 --> 00:00:52,653
+if the stock goes down
+
+25
+00:00:52,653 --> 00:00:53,934
+let's say it goes down to zero
+
+26
+00:00:53,934 --> 00:00:55,299
+you sould exercise the put option
+
+27
+00:00:55,299 --> 00:00:57,645
+you could buy the stock for 0,
+
+28
+00:00:57,645 --> 00:00:59,218
+excercise the put option
+
+29
+00:00:59,218 --> 00:01:01,065
+and sell it for 50 dollars
+
+30
+00:01:01,065 --> 00:01:03,987
+this is the right to sell the stock for 50 dollars
+
+31
+00:01:03,987 --> 00:01:09,228
+and of course we're talking about the value of the combination at expiration
+
+32
+00:01:09,228 --> 00:01:12,793
+so if the stock is worth zero at experation
+
+33
+00:01:12,793 --> 00:01:14,897
+then the put is worth 50
+
+34
+00:01:14,897 --> 00:01:16,471
+the call option is clearly worthless
+
+35
+00:01:16,471 --> 00:01:19,203
+you wouldn't exercise the call option if the stock is worth zero
+
+36
+00:01:19,203 --> 00:01:22,961
+you wouldn't want to buy something for 50 dollars that's worth zero
+
+37
+00:01:22,961 --> 00:01:25,496
+so from the stock being worth zero
+
+38
+00:01:25,496 --> 00:01:27,937
+all the way up to the stock being worth 50
+
+39
+00:01:27,937 --> 00:01:31,499
+you would want to exercise the put option
+
+40
+00:01:31,499 --> 00:01:35,116
+but the value of the put option is going to become lower and lower and lower
+
+41
+00:01:35,116 --> 00:01:38,866
+and anything above 50 you wouldn't exercise the put option at all
+
+42
+00:01:38,866 --> 00:01:42,382
+if you get above 50, you would want to exercise your call option
+
+43
+00:01:42,382 --> 00:01:46,152
+if the stock is worth 60 dollars at expiration, then your call option is worth 10 dollars
+
+44
+00:01:46,152 --> 00:01:49,899
+because you have the right to buy something at 50
+
+45
+00:01:49,899 --> 00:01:52,681
+which you can sell for 60
+
+46
+00:01:52,681 --> 00:01:55,364
+so then you have the value of your call option
+
+47
+00:01:55,364 --> 00:01:56,362
+going up
+
+48
+00:01:56,362 --> 00:01:58,879
+so you can see a situation here when you think about the value
+
+49
+00:01:58,879 --> 00:02:02,270
+of this bundle of the call plus the put option
+
+50
+00:02:02,270 --> 00:02:07,378
+that it's not much value if the value of the stock doesn't change
+
+51
+00:02:07,378 --> 00:02:09,908
+from 50, your options are worthless
+
+52
+00:02:09,908 --> 00:02:11,381
+but you have a major movement
+
+53
+00:02:11,381 --> 00:02:13,333
+either to the upside or the downside,
+
+54
+00:02:13,333 --> 00:02:16,046
+then this straddle it's called
+
+55
+00:02:16,046 --> 00:02:18,838
+when you buy, when you go
+
+56
+00:02:18,838 --> 00:02:22,133
+long a call and long a put
+
+57
+00:02:22,133 --> 00:02:24,319
+this is called a long straddle
+
+58
+00:02:24,319 --> 00:02:26,515
+you benefit from a major price movement
+
+59
+00:02:26,515 --> 00:02:28,814
+when you think about it from the profit or loss point of view
+
+60
+00:02:28,814 --> 00:02:30,482
+you just shift it down from the
+
+61
+00:02:30,482 --> 00:02:32,536
+amount that you paid for the two options
+
+62
+00:02:32,536 --> 00:02:36,764
+in this case we paid 20 dollars for both options
+
+63
+00:02:36,764 --> 00:02:39,303
+so in this case where we exercise the put
+
+64
+00:02:39,303 --> 00:02:41,213
+instead of making 50 dollars
+
+65
+00:02:41,213 --> 00:02:45,019
+we have to net it for the 20 dollars we paid for the options
+
+66
+00:02:45,021 --> 00:02:46,583
+so we would only make 30 dollars
+
+67
+00:02:46,583 --> 00:02:49,496
+and at the point where we're not exercising either option
+
+68
+00:02:49,496 --> 00:02:54,047
+because they're both essentially worthless
+
+69
+00:02:54,047 --> 00:02:56,035
+there's no reason to exercise them
+
+70
+00:02:56,035 --> 00:02:58,814
+then essentially we have just lost 20 dollars
+
+71
+00:02:58,814 --> 00:03:02,168
+for both options so we will be down over here
+
+72
+00:03:02,168 --> 00:03:06,587
+and then anything above 50 dollars will start to make money
+
+73
+00:03:06,587 --> 00:03:09,197
+so let me draw the option diagram over here
+
+74
+00:03:09,197 --> 00:03:13,467
+it will look like this
+
+75
+00:03:13,467 --> 00:03:15,633
+the payoff diagram
+
+76
+00:03:15,633 --> 00:03:19,251
+it will look just like this
+
+77
+00:03:19,251 --> 00:03:22,605
+so when you actually factor in how much you paid for the options
+
+78
+00:03:22,605 --> 00:03:26,722
+you now see that you only would make money with this straddle
+
+79
+00:03:26,722 --> 00:03:28,939
+if the underlying stock price
+
+80
+00:03:28,939 --> 00:03:32,188
+myabe after the results of the trial
+
+81
+00:03:32,188 --> 00:03:35,465
+hopefully they get released before the maturity of the options
+
+82
+00:03:35,465 --> 00:03:42,687
+if the stock goes in this area
+
+83
+00:03:42,687 --> 00:03:44,988
+if the stock goes below 30
+
+84
+00:03:44,988 --> 00:03:46,821
+or if the stock goes above 70
+
+85
+00:03:46,821 --> 00:03:48,105
+but if it has one of those major movements,
+
+86
+00:03:48,105 --> 00:03:49,232
+then this position, this straddle
+
+87
+00:03:49,232 --> 00:03:52,022
+this long straddle will make you money

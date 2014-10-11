@@ -1,0 +1,467 @@
+1
+00:00:00,580 --> 00:00:05,290
+We're all used to the traditional operators like addition and subtraction
+
+2
+00:00:05,290 --> 00:00:10,333
+and multiplication and division, and we've seen there's multiple ways to represent this
+
+3
+00:00:10,333 --> 00:00:14,327
+but what we are going to do in this video is a little bit of fun.
+
+4
+00:00:14,327 --> 00:00:17,007
+We are actually going to define our own operators.
+
+5
+00:00:17,007 --> 00:00:19,853
+And what's neat about this it kind of shows how broad
+
+6
+00:00:19,903 --> 00:00:22,175
+mathematics can be. And in a more practical sense it is something
+
+7
+00:00:22,175 --> 00:00:24,600
+that you actually might see on some standardized test.
+
+8
+00:00:24,600 --> 00:00:26,773
+And the reason why they do that is so that you can appreciate
+
+9
+00:00:26,773 --> 00:00:29,234
+that these are not the only operators out there, plus
+
+10
+00:00:29,234 --> 00:00:32,113
+exponentiation and all those, that in mathematics you can define whole
+
+11
+00:00:32,113 --> 00:00:38,661
+new set of operators. Let's just do that. So let me just define x diamond
+
+12
+00:00:38,661 --> 00:00:42,841
+x diamond y and I'm going to define that as
+
+13
+00:00:42,841 --> 00:00:47,531
+I'm just gonna define that as 5x minus y. So you
+
+14
+00:00:47,531 --> 00:00:49,435
+could view this kind of defining a function
+
+15
+00:00:49,435 --> 00:00:51,989
+but we are defining it using an operator
+
+16
+00:00:51,989 --> 00:00:55,333
+so if i have x diamond y by definition we've defined
+
+17
+00:00:55,333 --> 00:00:58,596
+this operator, that means that's going to be equal to 5x minus y.
+
+18
+00:00:58,596 --> 00:01:03,733
+So given that definition, what would-what would
+
+19
+00:01:03,733 --> 00:01:08,104
+7 diamond 11 be?
+
+20
+00:01:08,104 --> 00:01:11,308
+Well, you just go to the definition. 7 diamond 11
+
+21
+00:01:11,308 --> 00:01:14,652
+for instead of a x we have 7, so it's going to be
+
+22
+00:01:14,652 --> 00:01:21,667
+5 times 7. Just let me do 5 times 7 minus, and instead
+
+23
+00:01:22,804 --> 00:01:23,940
+of a y, we have an 11.
+
+24
+00:01:23,940 --> 00:01:27,655
+So one way to think about it is every--in our definition
+
+25
+00:01:27,655 --> 00:01:28,933
+every place you saw a x you can replace with 7
+
+26
+00:01:28,933 --> 00:01:31,324
+and every place you saw y, you replace with 11.
+
+27
+00:01:31,324 --> 00:01:36,850
+So you have minus 11 over here. So this is the 7
+
+28
+00:01:36,850 --> 00:01:39,312
+This 7 is this 7
+
+29
+00:01:39,312 --> 00:01:44,977
+and this 11--this 11 is this 11 right over here.
+
+30
+00:01:44,977 --> 00:01:48,182
+And then we just evaluate that. So 5 times 7 is 35,
+
+31
+00:01:48,182 --> 00:01:53,847
+So this is equal to 35, minus 11, which is equal to 24
+
+32
+00:01:53,847 --> 00:02:00,163
+So 7 star--or not, this isn't a star--7 diamond 11 is equal to 24.
+
+33
+00:02:00,163 --> 00:02:01,835
+We can define other things.
+
+34
+00:02:01,835 --> 00:02:05,690
+We can define something crazy like--let me define
+
+35
+00:02:05,690 --> 00:02:08,848
+a--well I mentioned a star, let me use a star
+
+36
+00:02:08,848 --> 00:02:12,656
+a star-- a -- write it this way
+
+37
+00:02:12,656 --> 00:02:19,250
+a star b--let's say that is the same thing as-- I don't know
+
+38
+00:02:19,250 --> 00:02:24,733
+a over a plus b. So it's the same idea
+
+39
+00:02:24,733 --> 00:02:29,002
+What would,
+
+40
+00:02:29,002 --> 00:02:32,996
+5 star --5 star 6 be?
+
+41
+00:02:32,996 --> 00:02:35,690
+Well you go back to the definition. By definition
+
+42
+00:02:35,690 --> 00:02:38,337
+every place you see a you would now replace with 5
+
+43
+00:02:38,337 --> 00:02:40,938
+every time you'd see b, you'd now replace with 6
+
+44
+00:02:40,938 --> 00:02:47,253
+this is going to be equal to 5 over 5 plus 6
+
+45
+00:02:47,253 --> 00:02:48,647
+a plus b
+
+46
+00:02:48,647 --> 00:02:50,643
+a is 5, b is 6
+
+47
+00:02:50,643 --> 00:02:53,012
+over 5 plus 6
+
+48
+00:02:53,012 --> 00:02:55,009
+so this would be 5/11
+
+49
+00:02:55,009 --> 00:02:57,656
+5/11. And then you can compound them.
+
+50
+00:02:57,656 --> 00:03:01,000
+We haven't defined and order of operations for these particular
+
+51
+00:03:01,000 --> 00:03:02,733
+operations we just have defined.
+
+52
+00:03:02,733 --> 00:03:04,900
+So we are going to be careful to use parentheses
+
+53
+00:03:04,900 --> 00:03:07,687
+when we do, when we put some of these together.
+
+54
+00:03:07,687 --> 00:03:10,334
+But you could do something like, something interesting
+
+55
+00:03:10,334 --> 00:03:21,990
+like -1 diamond--negative 1 diamond 0 star--0 star 5
+
+56
+00:03:21,990 --> 00:03:25,845
+and once again we just focus on parentheses, because
+
+57
+00:03:25,845 --> 00:03:27,981
+that is the only thing that is telling us what to start on first
+
+58
+00:03:27,981 --> 00:03:29,653
+because we haven't, we haven't figured out
+
+59
+00:03:29,653 --> 00:03:32,161
+we haven't defined whether diamond takes precedence over
+
+60
+00:03:32,161 --> 00:03:34,251
+star or star takes precedence over diamond.
+
+61
+00:03:34,251 --> 00:03:37,501
+The way we have that thing saying hey, you do multiplication before you do addition
+
+62
+00:03:37,501 --> 00:03:38,667
+we haven't defined it for those operations.
+
+63
+00:03:38,667 --> 00:03:40,984
+But that's what parentheses help us do.
+
+64
+00:03:40,984 --> 00:03:43,585
+So we want to evaluate the parentheses first.
+
+65
+00:03:43,585 --> 00:03:49,669
+0 star 5, that is 0, because so now this you can zero as the a
+
+66
+00:03:49,669 --> 00:03:51,991
+and the 5 as the b
+
+67
+00:03:51,991 --> 00:03:58,724
+this is going to be 0 over 0 plus 5. Over 0 plus 5.
+
+68
+00:03:58,724 --> 00:04:04,067
+which is just going to be 0. So this is just goes to 0.
+
+69
+00:04:04,067 --> 00:04:08,067
+So this whole expression simplifies to negative 1 diamond
+
+70
+00:04:08,067 --> 00:04:10,000
+this diamond right over here
+
+71
+00:04:10,000 --> 00:04:14,421
+diamond 0. And now we go to the definition of the
+
+72
+00:04:14,421 --> 00:04:18,043
+diamond operator. Well that's five times first, the first number
+
+73
+00:04:18,043 --> 00:04:21,666
+in our operator. The first term we are giving the operator
+
+74
+00:04:21,666 --> 00:04:23,059
+I guess you can think of it that way.
+
+75
+00:04:23,059 --> 00:04:28,167
+So 5 times that, so that will be 5 times negative 1
+
+76
+00:04:28,167 --> 00:04:29,328
+x is negative 1
+
+77
+00:04:29,328 --> 00:04:33,972
+minus y. Well y here is the zero. Minus 0
+
+78
+00:04:33,972 --> 00:04:39,406
+So 5 times negative 1. 5 times negative 1 is negative 5
+
+79
+00:04:39,406 --> 00:04:44,235
+And you will see and the idea is just to make you feel comfortable
+
+80
+00:04:44,235 --> 00:04:47,393
+defining new operators like this, and not feel being daunted
+
+81
+00:04:47,393 --> 00:04:48,833
+if you all of a sudden see a diamond. And they are
+
+82
+00:04:48,833 --> 00:04:49,994
+defined the diamond for you
+
+83
+00:04:49,994 --> 00:04:53,059
+and you are like you never saw a diamond. They are actually defining it for you
+
+84
+00:04:53,059 --> 00:04:54,406
+So you shouldn't say I never saw a diamond.
+
+85
+00:04:54,406 --> 00:04:56,403
+You'll just say, oh well they have defined diamond for me
+
+86
+00:04:56,403 --> 00:04:59,746
+this is how I use that operator. And sometimes you'll see even wackier things.
+
+87
+00:04:59,746 --> 00:05:05,969
+You'll see things like, let me draw
+
+88
+00:05:05,969 --> 00:05:11,496
+So they'll define. So this is, I don't know if you'd even consider this as an operator.
+
+89
+00:05:11,496 --> 00:05:15,907
+By definiton, if somebody writes a symbol like this
+
+90
+00:05:15,907 --> 00:05:20,412
+and they put an a b c--let me write this way
+
+91
+00:05:20,412 --> 00:05:25,242
+a, b, c, d. They'll say this is the same thing as
+
+92
+00:05:25,242 --> 00:05:29,067
+ad minus b, all of that over c.
+
+93
+00:05:29,067 --> 00:05:31,418
+And once again, this is just a definition.
+
+94
+00:05:31,418 --> 00:05:35,067
+They have this weird symbolic way of representing these variables
+
+95
+00:05:35,067 --> 00:05:39,133
+but they are just defining how (do) you evaluate this crazy expression.
+
+96
+00:05:39,133 --> 00:05:44,979
+And so if someone were to give you, say evaluate this diamond
+
+97
+00:05:44,979 --> 00:05:49,391
+evaluate this diamond--let me evaluate the diamond
+
+98
+00:05:49,391 --> 00:05:54,267
+so evaluate the diamond where in my little sections of the diamond I have a
+
+99
+00:05:54,267 --> 00:06:01,651
+negative 1, a five, a three and a two. And we would just use the definition of how we evaluate the diamond.
+
+100
+00:06:01,651 --> 00:06:05,412
+And we'd say every time we see an a, we say that's negative 1
+
+101
+00:06:05,412 --> 00:06:13,168
+so we have negative 1 times d, well d. Well d is whatever is in the bottom right section of this
+
+102
+00:06:13,168 --> 00:06:16,419
+diamond or this kite. So d is going to be 2. Let me write this this way.
+
+103
+00:06:16,419 --> 00:06:17,069
+This is a.
+
+104
+00:06:17,069 --> 00:06:18,400
+This is b.
+
+105
+00:06:18,400 --> 00:06:19,716
+This is c.
+
+106
+00:06:19,716 --> 00:06:21,574
+and this is d.
+
+107
+00:06:21,574 --> 00:06:23,570
+So this is going to be negative 1
+
+108
+00:06:23,570 --> 00:06:27,053
+times 2, minus b
+
+109
+00:06:27,053 --> 00:06:28,075
+Well b is 5
+
+110
+00:06:28,075 --> 00:06:29,400
+minus five
+
+111
+00:06:29,400 --> 00:06:31,047
+all of that over c,
+
+112
+00:06:31,047 --> 00:06:32,394
+which is 3.
+
+113
+00:06:32,394 --> 00:06:34,298
+So this is going to be equal to negative 2
+
+114
+00:06:34,298 --> 00:06:40,242
+minus 5. So that is negative 7. Negative 7 over 3.
+
+115
+00:06:40,242 --> 00:06:43,261
+And you can go crazy like this. And it might be a fun thing actually
+
+116
+00:06:43,261 --> 00:06:44,400
+if you have some spare time.
+
+117
+00:06:44,400 --> 99:59:59,999
+Define your own operators and see how creative you can be with those operators.

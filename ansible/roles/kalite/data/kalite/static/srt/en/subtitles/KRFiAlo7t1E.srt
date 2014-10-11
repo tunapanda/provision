@@ -1,0 +1,491 @@
+1
+00:00:00,244 --> 00:00:03,835
+What I want to do in this video is to familiarize ourselves
+
+2
+00:00:03,835 --> 00:00:06,507
+with the notion of a sequence.
+
+3
+00:00:06,507 --> 00:00:09,050
+And all sequences is an ordered list of numbers.
+
+4
+00:00:09,050 --> 00:00:11,727
+So for example, I could have a finite sequence
+
+5
+00:00:11,727 --> 00:00:14,919
+that means I don't have an infinite number of numbers in it.
+
+6
+00:00:14,919 --> 00:00:18,831
+Where, let's say I start at one and I keep adding three, so one plus three is four
+
+7
+00:00:18,831 --> 00:00:22,036
+four plus three is seven, seven plus three is ten.
+
+8
+00:00:22,036 --> 00:00:25,569
+And let's say I only have these four terms over here
+
+9
+00:00:25,569 --> 00:00:29,503
+so this one we would call a finite sequence.
+
+10
+00:00:29,503 --> 00:00:30,968
+I could also have an infinite sequence
+
+11
+00:00:30,968 --> 00:00:32,969
+so, an example of an infinite sequence
+
+12
+00:00:32,969 --> 00:00:37,836
+let's say, we start at three and we keep adding four
+
+13
+00:00:37,836 --> 00:00:43,176
+so, go to three, to seven, to eleven, fifteen.
+
+14
+00:00:43,176 --> 00:00:44,970
+And you don't always have to add the same thing
+
+15
+00:00:44,970 --> 00:00:46,569
+we'll explore fancier sequences
+
+16
+00:00:46,569 --> 00:00:48,643
+one, the sequences where you keep adding the same amount
+
+17
+00:00:48,643 --> 00:00:50,164
+we call these arithmetic sequences
+
+18
+00:00:50,164 --> 00:00:54,236
+which we will also, explore in more of a detail.
+
+19
+00:00:54,236 --> 00:00:57,434
+But to show that this is infinite, to show that we keep this pattern going
+
+20
+00:00:57,434 --> 00:00:59,978
+on and on and on, I'll put three dots.
+
+21
+00:00:59,978 --> 00:01:03,171
+This just means we're going to keep going on and on and on so we could call this
+
+22
+00:01:03,171 --> 00:01:07,354
+an infinite sequence.
+
+23
+00:01:07,354 --> 00:01:11,433
+Now, there's a bunch of different notations that seem fancy for denoting sequences
+
+24
+00:01:11,433 --> 00:01:14,245
+but this is all they refer to, but I want to make us comfortable
+
+25
+00:01:14,245 --> 00:01:19,387
+with how we can denote sequences and also how we can define them.
+
+26
+00:01:19,387 --> 00:01:21,970
+So we could say, that this right over here
+
+27
+00:01:21,970 --> 00:01:28,328
+is the sequence, a sub k, for k is going
+
+28
+00:01:28,328 --> 00:01:33,898
+from one to four, is equal to this right over here.
+
+29
+00:01:33,898 --> 00:01:38,034
+So when we look at it this way, we can look at each of these as a terms in the sequence
+
+30
+00:01:38,034 --> 00:01:40,501
+and this right over here would be the first term
+
+31
+00:01:40,501 --> 00:01:43,236
+we would call that a sub one, this right over here
+
+32
+00:01:43,236 --> 00:01:47,102
+would be the second term, we call it a sub two, I think you get the picture.
+
+33
+00:01:47,102 --> 00:01:51,170
+a sub three, this right over here is a sub four.
+
+34
+00:01:51,170 --> 00:01:54,775
+So this just says all of the a sub k's from k equals one
+
+35
+00:01:54,775 --> 00:01:57,852
+from our first term all the way to the fourth term.
+
+36
+00:01:57,852 --> 00:02:02,842
+Now I could also define it by not, explicitly writing the sequence
+
+37
+00:02:02,842 --> 00:02:06,386
+like this, I could essentially do it using, defining our sequence
+
+38
+00:02:06,386 --> 00:02:09,637
+as explicitly using a kind of a function notation or something close
+
+39
+00:02:09,637 --> 00:02:11,221
+to function notation.
+
+40
+00:02:11,221 --> 00:02:18,169
+So the same exact sequence, I could define it as a sub k
+
+41
+00:02:18,169 --> 00:02:21,518
+from k equals one to four
+
+42
+00:02:21,518 --> 00:02:24,683
+with, instead of explicitly writing the numbers here.
+
+43
+00:02:24,683 --> 00:02:29,500
+I could say a sub k, is equal to some function of k.
+
+44
+00:02:29,500 --> 00:02:32,707
+So let's see what happens, when k is one we get one
+
+45
+00:02:32,707 --> 00:02:39,702
+when k is two, we get four, when k is three, we get seven
+
+46
+00:02:39,702 --> 00:02:43,211
+so see when k is three we added three twice
+
+47
+00:02:43,211 --> 00:02:44,779
+let me make it clear.
+
+48
+00:02:44,779 --> 00:02:49,703
+So this was plus three, this right over here was a plus three
+
+49
+00:02:49,703 --> 00:02:52,440
+this right over here, is a plus three.
+
+50
+00:02:52,440 --> 00:02:56,903
+So whatever k is, we started at one and we added three
+
+51
+00:02:56,903 --> 00:02:59,236
+one less than the k term times.
+
+52
+00:02:59,236 --> 00:03:01,070
+So we could say that this is going to be
+
+53
+00:03:01,070 --> 00:03:13,235
+equal to one, plus k minus one times three
+
+54
+00:03:13,235 --> 00:03:15,902
+or maybe I should write three time k minus one, same thing.
+
+55
+00:03:15,902 --> 00:03:19,652
+Three times k, minus one.
+
+56
+00:03:19,652 --> 00:03:22,262
+And you can verify that this works
+
+57
+00:03:22,262 --> 00:03:24,609
+so you can verify that this works.
+
+58
+00:03:24,609 --> 00:03:31,101
+If k is equal to one, you're gonna get one minus one is zero
+
+59
+00:03:31,101 --> 00:03:34,651
+and so, a sub one is going to be one, if k is equal to two
+
+60
+00:03:34,651 --> 00:03:37,101
+you're going to have one plus three which is four.
+
+61
+00:03:37,101 --> 00:03:41,106
+If k is equal to three, you get three times two plus one is seven
+
+62
+00:03:41,106 --> 00:03:42,302
+so it works out.
+
+63
+00:03:42,302 --> 00:03:48,232
+So this is one way to explicitly define our sequence with kind of this function notation.
+
+64
+00:03:48,232 --> 00:03:50,903
+I want to make it clear, I have essentially defined a function here.
+
+65
+00:03:50,903 --> 00:03:53,145
+If I wanted more traditional function notation
+
+66
+00:03:53,145 --> 00:03:57,897
+I could've written a of k, or k is the term that I care about
+
+67
+00:03:57,897 --> 00:04:02,567
+a of k is equal to one plus three times k minus one.
+
+68
+00:04:02,567 --> 00:04:04,969
+This is essentially a function where an allowable input
+
+69
+00:04:04,969 --> 00:04:08,969
+the domain is restricted to positive integers.
+
+70
+00:04:08,969 --> 00:04:12,235
+Now, how would I denote this business right over here.
+
+71
+00:04:12,235 --> 00:04:17,113
+Well, I could say this is equal to, and people tend to use a
+
+72
+00:04:17,113 --> 00:04:20,170
+but I could use the notation b sub k or anything else
+
+73
+00:04:20,170 --> 00:04:21,635
+but I'll do a again.
+
+74
+00:04:21,635 --> 00:04:26,034
+A sub k, and here we're going from our first term
+
+75
+00:04:26,034 --> 00:04:32,637
+so this is a sub one, this is a sub two, all the way to infinity.
+
+76
+00:04:32,637 --> 00:04:37,062
+Or we could define if we wanted to define an explicitly as a function
+
+77
+00:04:37,062 --> 00:04:43,833
+we could write the sequence as a sub k, where k starts at the first term
+
+78
+00:04:43,833 --> 00:04:53,775
+and goes to infinity, with a sub k is equaling, so we're starting at three
+
+79
+00:04:53,775 --> 00:04:58,768
+and we are adding four, one less time for the second term
+
+80
+00:04:58,768 --> 00:05:02,109
+we added four once, for the third term we add four twice
+
+81
+00:05:02,109 --> 00:05:05,607
+for the fourth term we add four three times.
+
+82
+00:05:05,607 --> 00:05:09,433
+So we're adding four one less than the term that we're at.
+
+83
+00:05:09,433 --> 00:05:15,840
+So it's going to be plus four times four times k minus one
+
+84
+00:05:15,840 --> 00:05:20,437
+four times k minus one, so this another way of defining
+
+85
+00:05:20,437 --> 00:05:22,592
+this infinite sequence.
+
+86
+00:05:22,592 --> 00:05:26,670
+Now, in both of these cases I defined it as an explicit function
+
+87
+00:05:26,670 --> 00:05:28,827
+so this right over here is explicit.
+
+88
+00:05:34,243 --> 00:05:36,569
+This is an explicit function.
+
+89
+00:05:36,569 --> 00:05:40,304
+And so you might say well what's another way of defining these functions.
+
+90
+00:05:40,304 --> 00:05:43,981
+Well we can also define it, especially with something like this
+
+91
+00:05:43,981 --> 00:05:46,991
+Like an arithmetic sequence we can also define it recursively.
+
+92
+00:05:46,991 --> 00:05:51,037
+And I want to be clear, not every sequence can be defined as either an explicit function
+
+93
+00:05:51,037 --> 00:05:52,902
+like this or, as a recursive function
+
+94
+00:05:52,902 --> 00:05:55,665
+but many can, including this which is an arithmetic sequence
+
+95
+00:05:55,665 --> 00:05:58,976
+where we keep adding the same quantity over and over again.
+
+96
+00:05:58,976 --> 00:06:03,753
+So how would we do that, well we could also another way of defining this first sequence
+
+97
+00:06:03,753 --> 00:06:10,469
+we could say a sub k, starting at k equals one, and going to four
+
+98
+00:06:10,469 --> 00:06:14,512
+with and when you define things recursively, when you define a sequence recursively
+
+99
+00:06:14,512 --> 00:06:21,084
+you want to define what your first term is with a sub one, equaling one.
+
+100
+00:06:21,084 --> 00:06:25,369
+And then you can define every other term in the terms of the term before it
+
+101
+00:06:25,369 --> 00:06:30,210
+and so we could write a of k plus, or let me write it this way
+
+102
+00:06:30,210 --> 00:06:37,667
+a sub k is equal to the previous term
+
+103
+00:06:37,667 --> 00:06:41,569
+so this is a sub k minus one, so the given term is equal to the previous term
+
+104
+00:06:41,569 --> 00:06:48,433
+let me make it clear, this is the previous term, plus the previous term plus
+
+105
+00:06:48,433 --> 00:06:52,909
+in this case we're adding three every time.
+
+106
+00:06:52,909 --> 00:06:56,141
+Now how does this make sense, well we're defining what a sub one is
+
+107
+00:06:56,141 --> 00:06:58,503
+and if someone says, well what happens when k equals two
+
+108
+00:06:58,503 --> 00:07:01,911
+well they're saying well it's going to be a sub two minus one
+
+109
+00:07:01,911 --> 00:07:04,167
+so it's going to be a sub one plus three.
+
+110
+00:07:04,167 --> 00:07:09,108
+Well we know a sub one is one, so it's going to be one plus three, which is four.
+
+111
+00:07:09,108 --> 00:07:12,376
+Well what about a sub three, well it's going to be a sub two plus three
+
+112
+00:07:12,376 --> 00:07:15,225
+a sub two we just calculate it as four, you add three it's going to be seven.
+
+113
+00:07:15,225 --> 00:07:18,843
+This is essentially what we mentally did when I first wrote out the sequence
+
+114
+00:07:18,843 --> 00:07:25,769
+when I said hey I'm just going to start with one, and I'm just going to add three for every successive term.
+
+115
+00:07:25,769 --> 00:07:27,690
+So how would we do this one
+
+116
+00:07:27,690 --> 00:07:33,970
+well once again, we could write this as a sub k, starting at k at the first term
+
+117
+00:07:33,970 --> 00:07:40,504
+going to infinity with our first term, a sub one is going to be three now
+
+118
+00:07:40,504 --> 00:07:50,976
+and every successive term a sub k, is going to be the previous term, a sub k minus one plus four.
+
+119
+00:07:50,976 --> 00:07:54,192
+And once again you start at three, and then if you want the second term
+
+120
+00:07:54,192 --> 00:07:56,777
+it's going to be the first term plus four, it's going to be three plus four
+
+121
+00:07:56,777 --> 00:08:06,294
+you get to seven and you keep adding four, so both of these, this right over here is a recursive definition.
+
+122
+00:08:06,294 --> 00:08:12,237
+We started with kind of a base case, and then every term is defined in terms of the terms before it
+
+123
+00:08:12,237 --> 00:08:16,237
+or in terms of the function itself, but the function for a different term.

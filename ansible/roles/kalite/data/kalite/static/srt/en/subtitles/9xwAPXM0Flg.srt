@@ -1,0 +1,395 @@
+1
+00:00:00,070 --> 00:00:01,810
+Problem 13.
+
+2
+00:00:01,810 --> 00:00:05,460
+These eight cards are placed face down and shuffled.
+
+3
+00:00:05,460 --> 00:00:06,800
+So these are the eight cards.
+
+4
+00:00:06,800 --> 00:00:10,430
+If Beatrice turns over only one card,
+
+5
+00:00:10,430 --> 00:00:13,300
+what is the probability that she will get a card
+
+6
+00:00:13,300 --> 00:00:16,870
+with a number less than four?
+
+7
+00:00:16,870 --> 00:00:20,200
+So all of these cards right here are potential outcomes.
+
+8
+00:00:20,200 --> 00:00:21,720
+She's going to flip them all over.
+
+9
+00:00:21,720 --> 00:00:24,030
+And then she wants to know the probability that
+
+10
+00:00:24,030 --> 00:00:25,800
+she gets a card less than four.
+
+11
+00:00:25,800 --> 00:00:27,990
+So what are the cards that satisfy that?
+
+12
+00:00:27,990 --> 00:00:32,530
+Well, there's three cards that are less than four.
+
+13
+00:00:32,530 --> 00:00:34,980
+They didn't say less than or equal to four.
+
+14
+00:00:34,980 --> 00:00:39,820
+So it could be that card, that card, or that card.
+
+15
+00:00:39,820 --> 00:00:41,630
+Those are the cards that she can pick,
+
+16
+00:00:41,630 --> 00:00:43,280
+out of the eight cards,
+
+17
+00:00:43,280 --> 00:00:45,300
+that would satisfy this constraint.
+
+18
+00:00:45,300 --> 00:00:46,990
+Or those would be the three outcomes,
+
+19
+00:00:46,990 --> 00:00:49,840
+out of the eight possible outcomes,
+
+20
+00:00:49,840 --> 00:00:51,940
+that would satisfy these conditions.
+
+21
+00:00:51,940 --> 00:00:55,550
+So the probability is just three cards
+
+22
+00:00:55,550 --> 00:00:58,050
+that satisfy your condition
+
+23
+00:00:58,050 --> 00:01:00,720
+divided by the total number of outcomes.
+
+24
+00:01:00,720 --> 00:01:03,310
+So the probability of her picking a card
+
+25
+00:01:03,310 --> 00:01:05,110
+that is less than four--
+
+26
+00:01:05,110 --> 00:01:07,250
+there's three cards that are less than four
+
+27
+00:01:07,250 --> 00:01:08,730
+out of eight cards.
+
+28
+00:01:08,730 --> 00:01:11,430
+The probability is 3/8.
+
+29
+00:01:11,430 --> 00:01:13,530
+And that is choice B.
+
+30
+00:01:13,530 --> 00:01:16,430
+Always nice when our answer is actually there.
+
+31
+00:01:16,430 --> 00:01:17,550
+OK.
+
+32
+00:01:17,550 --> 00:01:19,790
+Problem-- what's the next problem?
+
+33
+00:01:19,790 --> 00:01:22,210
+Problem 14.
+
+34
+00:01:22,210 --> 00:01:26,070
+The Smithburg town library wanted to see
+
+35
+00:01:26,070 --> 00:01:29,360
+what types of books were borrowed most often.
+
+36
+00:01:29,360 --> 00:01:30,530
+All right, there we go.
+
+37
+00:01:30,530 --> 00:01:32,180
+They drew a little pie diagram.
+
+38
+00:01:32,180 --> 00:01:37,580
+According to the circle graph shown above--
+
+39
+00:01:37,580 --> 00:01:40,160
+OK, let's see which of these statements are true.
+
+40
+00:01:40,160 --> 00:01:41,660
+The first statement says,
+
+41
+00:01:41,660 --> 00:01:44,900
+"more Children's books were borrowed than Romance
+
+42
+00:01:44,900 --> 00:01:46,880
+and Science Fiction combined."
+
+43
+00:01:46,880 --> 00:01:47,900
+Let's see if that's true.
+
+44
+00:01:47,900 --> 00:01:50,140
+Children's is 26%,
+
+45
+00:01:50,140 --> 00:01:53,530
+and then Romance and Science Fiction combined.
+
+46
+00:01:53,530 --> 00:01:58,880
+Romance is 13, and Science Fiction is 18.
+
+47
+00:01:58,880 --> 00:02:04,520
+So what's 13 plus 18?
+
+48
+00:02:04,520 --> 00:02:07,200
+3 plus 8 is 11.
+
+49
+00:02:07,200 --> 00:02:10,810
+And then we have 1 plus 1 plus 1.
+
+50
+00:02:10,810 --> 00:02:13,020
+And so then we get 31.
+
+51
+00:02:13,020 --> 00:02:16,620
+So if you take Romance and Science Fiction combined,
+
+52
+00:02:16,620 --> 00:02:20,050
+that's 31% of the books,
+
+53
+00:02:20,050 --> 00:02:22,700
+while the Children's books were only 26%.
+
+54
+00:02:22,700 --> 00:02:24,980
+So that is definitely not correct.
+
+55
+00:02:24,980 --> 00:02:28,950
+More than half of the books borrowed were Children's,
+
+56
+00:02:28,950 --> 00:02:31,500
+Mysteries, and Art combined.
+
+57
+00:02:31,500 --> 00:02:34,230
+So more than half would mean it has to be more than 50%.
+
+58
+00:02:34,230 --> 00:02:36,940
+So they think Children's, Mysteries, and Art combined.
+
+59
+00:02:36,940 --> 00:02:38,090
+So let's see what that gets.
+
+60
+00:02:38,090 --> 00:02:40,720
+Children's-- I'll do it in a different color.
+
+61
+00:02:40,720 --> 00:02:45,030
+Children's, Mysteries, and Art.
+
+62
+00:02:45,030 --> 00:02:48,850
+So Children's and Mysteries, if you add those together,
+
+63
+00:02:48,850 --> 00:02:54,420
+26 plus 20, that gives you 46%.
+
+64
+00:02:54,420 --> 00:02:57,050
+And then you add another 4% to that.
+
+65
+00:02:57,050 --> 00:02:58,530
+We're combining with Art.
+
+66
+00:02:58,530 --> 00:03:00,380
+That gets us to 50%.
+
+67
+00:03:00,380 --> 00:03:03,960
+So exactly half the books borrowed were Children's,
+
+68
+00:03:03,960 --> 00:03:05,270
+Mysteries, and Art.
+
+69
+00:03:05,270 --> 00:03:07,050
+But they're saying more than half.
+
+70
+00:03:07,050 --> 00:03:08,570
+This is exactly half.
+
+71
+00:03:08,570 --> 00:03:10,860
+So this doesn't seem right either.
+
+72
+00:03:10,860 --> 00:03:12,580
+If they said half or more,
+
+73
+00:03:12,580 --> 00:03:14,270
+then we would have picked this choice.
+
+74
+00:03:14,270 --> 00:03:17,550
+But they said definitely more than 50%, so that can't be it.
+
+75
+00:03:17,550 --> 00:03:20,230
+Although it's kind of a tricky one, because it's exactly 50%
+
+76
+00:03:20,230 --> 00:03:24,690
+C, more Mysteries were borrowed than Art
+
+77
+00:03:24,690 --> 00:03:26,770
+and Science Fiction combined.
+
+78
+00:03:26,770 --> 00:03:32,850
+Mysteries was 20%, and then Art
+
+79
+00:03:32,850 --> 00:03:36,220
+and Science Fiction combined is 4 plus 18.
+
+80
+00:03:36,220 --> 00:03:40,230
+If you combine these two, you get 4 plus 18 is 22%.
+
+81
+00:03:40,230 --> 00:03:43,220
+So the Mysteries are definitely not more than
+
+82
+00:03:43,220 --> 00:03:45,120
+the Art and Science Fiction combined.
+
+83
+00:03:45,120 --> 00:03:48,780
+So that's not the correct answer.
+
+84
+00:03:48,780 --> 00:03:51,530
+And then finally, more than half of the books--
+
+85
+00:03:51,530 --> 00:03:53,320
+this is probably going to be our answer,
+
+86
+00:03:53,320 --> 00:03:55,720
+if we haven't made any silly mistakes.
+
+87
+00:03:55,720 --> 00:03:59,370
+This says more than half of the books borrowed were Romance,
+
+88
+00:03:59,370 --> 00:04:01,880
+Mysteries, and Science Fiction combined.
+
+89
+00:04:01,880 --> 00:04:03,080
+Let's see that.
+
+90
+00:04:03,080 --> 00:04:10,610
+Romance, Mysteries, and Science Fiction.
+
+91
+00:04:10,610 --> 00:04:14,370
+We already know Romance plus Science Fiction,
+
+92
+00:04:14,370 --> 00:04:18,540
+that was 13 plus 18, which we already figured out was 31%.
+
+93
+00:04:18,540 --> 00:04:21,250
+These two could combine at 31%,
+
+94
+00:04:21,250 --> 00:04:23,810
+and then you add that 31% to the Mysteries.
+
+95
+00:04:23,810 --> 00:04:25,580
+So it becomes 51%.
+
+96
+00:04:25,580 --> 00:04:26,900
+So that's right.
+
+97
+00:04:26,900 --> 00:04:30,690
+This is 51% of the books borrowed.
+
+98
+00:04:30,690 --> 00:04:33,580
+So that's definitely more than half of the books,
+
+99
+00:04:33,580 --> 00:04:37,600
+so the correct choice here is D.

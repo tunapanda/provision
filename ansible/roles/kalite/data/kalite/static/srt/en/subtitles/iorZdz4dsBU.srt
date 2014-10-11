@@ -1,0 +1,547 @@
+1
+00:00:00,453 --> 00:00:01,887
+Now that we have a decent understanding of
+
+2
+00:00:01,887 --> 00:00:05,095
+how to figure out many significant figures that we are dealing with
+
+3
+00:00:05,095 --> 00:00:07,862
+lets take a situation where,
+
+4
+00:00:07,862 --> 00:00:11,881
+significant figures will or might become relevant.
+
+5
+00:00:11,881 --> 00:00:14,482
+So let's say that I have a carpet here
+
+6
+00:00:14,482 --> 00:00:21,100
+and I'm using a may be a meter stick to measure the carpet to nearest centimeter.
+
+7
+00:00:21,100 --> 00:00:28,726
+And so I get the carpet as on to the the nearest centimeter I get to be 1.69 meters.
+
+8
+00:00:28,726 --> 00:00:32,623
+So this is 9, obiviously this is to the nearest centimeter.
+
+9
+00:00:32,623 --> 00:00:37,555
+This 9 hundredths of a meter as the same thing as 9 centimeters.
+
+10
+00:00:37,555 --> 00:00:44,738
+And let's say I'm able to measure the width here as 2.09 meters.
+
+11
+00:00:44,738 --> 00:00:47,457
+I use the same meter stick and you were to ask me:
+
+12
+00:00:47,457 --> 00:00:50,951
+"Sal, what is the area of your carpet?"
+
+13
+00:00:50,951 --> 00:00:53,380
+So - you know - just to the straight up calculation:
+
+14
+00:00:53,380 --> 00:00:56,219
+the area is going to be the length times the width,
+
+15
+00:00:56,219 --> 00:01:03,799
+so it would be 1.69 meters times 2.09 meters.
+
+16
+00:01:03,799 --> 00:01:07,681
+We could do this by hand, but let me just get the calculator out
+
+17
+00:01:07,681 --> 00:01:11,470
+to make things move along a little bit faster.
+
+18
+00:01:11,470 --> 00:01:21,354
+And so we have 1.69 times 2.09 and they gives us 3.5321.
+
+19
+00:01:21,354 --> 00:01:26,964
+Let me write that down 3.5321.
+
+20
+00:01:26,964 --> 00:01:32,881
+So let me write this in a new color. So this gives us 3.5321,
+
+21
+00:01:32,881 --> 00:01:37,548
+and we have a meters times a meters which gives us meters squared or square meters.
+
+22
+00:01:37,548 --> 00:01:39,861
+I might very proudly to tell you that
+
+23
+00:01:39,861 --> 00:01:44,581
+"Hey the area is 3.5321 square meters.
+
+24
+00:01:44,581 --> 00:01:49,160
+And the problem here is that it when I give you this thing
+
+25
+00:01:49,160 --> 00:01:51,744
+that has all of these numbers behind the decimal point
+
+26
+00:01:51,744 --> 00:01:53,833
+and all of these are significant figures
+
+27
+00:01:53,833 --> 00:01:58,828
+that implies that I had a really precise way of measuring the area.
+
+28
+00:01:58,828 --> 00:02:03,979
+But in reality I only was able to measure the area to the nearest centimeter.
+
+29
+00:02:03,979 --> 00:02:06,289
+So the way we would do this we don't...
+
+30
+00:02:06,289 --> 00:02:10,215
+so I don't make it look like my measurement is more precise than it really is.
+
+31
+00:02:10,215 --> 00:02:13,258
+So this calculation is derived from my measurements.
+
+32
+00:02:13,258 --> 00:02:20,023
+I make sure that it has no more significant figures then either of the numbers that I multiplied.
+
+33
+00:02:20,023 --> 00:02:25,651
+So in this situation I have 3 significant figures here,
+
+34
+00:02:25,651 --> 00:02:31,276
+and over here I have 3 significant figures.
+
+35
+00:02:31,276 --> 00:02:36,315
+And so in general you multiply or devide the significant figures in your product
+
+36
+00:02:36,315 --> 00:02:50,215
+or the divisor, divident, the quotient , the quotient!
+
+37
+00:02:50,215 --> 00:02:57,120
+The numbers, the significant figures in your product or your quotient can not be any more than
+
+38
+00:02:57,120 --> 00:02:58,467
+the least number of significant digits,
+
+39
+00:02:58,467 --> 00:03:01,067
+or whatever you are using to come up with that product quotient.
+
+40
+00:03:01,067 --> 00:03:04,297
+So over here both of these have 3 significant figures.
+
+41
+00:03:04,297 --> 00:03:08,605
+So I can only have 3 significant figures in my product.
+
+42
+00:03:08,605 --> 00:03:12,697
+If one of these had 3 significant figures and this have 2 significant figures,
+
+43
+00:03:12,697 --> 00:03:15,459
+I can have only have 2 significant figures in my product.
+
+44
+00:03:15,459 --> 00:03:18,308
+So in order to be kind of legit here,
+
+45
+00:03:18,308 --> 00:03:21,302
+I have to round this to 3 significant figures.
+
+46
+00:03:21,302 --> 00:03:23,506
+I have to round it to 3 significant figures,
+
+47
+00:03:23,506 --> 00:03:27,436
+I need to round it to the nearest hundredth here
+
+48
+00:03:27,436 --> 00:03:30,969
+and so this 2 will round down, so we got
+
+49
+00:03:30,969 --> 00:03:38,705
+this gets us to 3.53 meters squared.
+
+50
+00:03:38,705 --> 00:03:41,044
+Now we're cool with the significant figures.
+
+51
+00:03:41,044 --> 00:03:44,500
+Let's do another situation with division!
+
+52
+00:03:44,500 --> 00:03:45,574
+Let's say that I'm...
+
+53
+00:03:45,574 --> 00:03:48,767
+Let's say that I'm laying tiles down in my bathroom,
+
+54
+00:03:48,767 --> 00:03:50,569
+and so the diagram will look very similar,
+
+55
+00:03:50,569 --> 00:03:55,505
+and I measure... I measure the...
+
+56
+00:03:55,505 --> 00:04:00,636
+I measure the width of my bathroom to be,
+
+57
+00:04:00,636 --> 00:04:09,108
+let's say it is 10.1 feet now. 10.1 feet.
+
+58
+00:04:09,108 --> 00:04:11,544
+And this is the precision that I'm able to measure.
+
+59
+00:04:11,544 --> 00:04:14,302
+So I'm able to measure the 10th of a foot.
+
+60
+00:04:14,302 --> 00:04:19,700
+And let's say that the length of my floor is ...
+
+61
+00:04:19,700 --> 00:04:26,103
+The length of my floor - I just make up a number - is 12 point...
+
+62
+00:04:26,103 --> 00:04:30,038
+And for whatever reason I was able to measure this with slightly higher precision
+
+63
+00:04:30,038 --> 00:04:34,701
+So 12.07 feet. And let's say...
+
+64
+00:04:34,701 --> 00:04:39,237
+Let's say that I have tiles... I have tiles.
+
+65
+00:04:39,237 --> 00:04:46,836
+And the tile has an area, so someone else measure for me, it has an area of...
+
+66
+00:04:46,836 --> 00:04:54,970
+Let's say that the area of this tile is 1.07 feet squared.
+
+67
+00:04:54,970 --> 00:05:02,872
+What I want to do is to figure out how many tiles can fit on this bathroom floor.
+
+68
+00:05:02,872 --> 00:05:07,452
+So what I would do I would figure out the area of this bathroom floor,
+
+69
+00:05:07,452 --> 00:05:10,242
+and then divide by the area of the tiles.
+
+70
+00:05:10,242 --> 00:05:14,454
+So the area of the bathroom floor, so floor area...
+
+71
+00:05:14,454 --> 00:05:25,569
+Floor area is going to be equal to 10.1 feet times 12.07 feet,
+
+72
+00:05:25,569 --> 00:05:31,836
+so that will give us, let's calculate it.
+
+73
+00:05:31,836 --> 00:05:42,406
+It is 10.1 times 12.07 feet, it gives a 121.907.
+
+74
+00:05:42,406 --> 00:05:46,372
+So this equal to - let's scroll over a little bit to the right -
+
+75
+00:05:46,372 --> 00:05:49,380
+this is equal to - a little bit more over the right -
+
+76
+00:05:49,380 --> 00:05:56,549
+this is equal to 121.907 feet squared, or squared feet.
+
+77
+00:05:56,549 --> 00:05:59,132
+Now, we are not done with our calculation,
+
+78
+00:05:59,132 --> 00:06:00,714
+but there might be a temptation right here,
+
+79
+00:06:00,714 --> 00:06:03,308
+say look, I have 4 significant figures here,
+
+80
+00:06:03,308 --> 00:06:05,628
+I have 3 significant figures over here,
+
+81
+00:06:05,628 --> 00:06:07,569
+there would be a temptation to say,
+
+82
+00:06:07,569 --> 00:06:10,833
+"Look, my area should not have more then 3 significant figures."
+
+83
+00:06:10,833 --> 00:06:14,903
+And that temptation would be OK, if this is all you are looking for.
+
+84
+00:06:14,903 --> 00:06:18,464
+If the final answer you are looking for was the area of the floor.
+
+85
+00:06:18,464 --> 00:06:20,842
+But we are not done with our calculation,
+
+86
+00:06:20,842 --> 00:06:25,381
+we want to figure out how many of these tiles will fit into this area.
+
+87
+00:06:25,381 --> 00:06:27,214
+So the general rule of thumb,
+
+88
+00:06:27,214 --> 00:06:29,235
+because you don't want to loose information,
+
+89
+00:06:29,235 --> 00:06:31,434
+the general thumb is:
+
+90
+00:06:31,434 --> 00:06:35,378
+don't round the significant figures until you are done with the calculation.
+
+91
+00:06:35,378 --> 00:06:39,698
+Especially if you are just doing a bunch of multiplying and dividing
+
+92
+00:06:39,698 --> 00:06:41,842
+because otherwise if you round here,
+
+93
+00:06:41,842 --> 00:06:45,636
+you actually will introduce more error into your calculation than you'd want to.
+
+94
+00:06:45,636 --> 00:06:47,988
+So what you do is you keep it as kind of a full number.
+
+95
+00:06:47,988 --> 00:06:51,287
+Now you do the division. So let's do the division.
+
+96
+00:06:51,287 --> 00:06:56,253
+So the tiles per floor... tiles per floor.
+
+97
+00:06:56,253 --> 00:07:00,789
+I guess we could say my bathroom or tiles in the bathroom,
+
+98
+00:07:00,789 --> 00:07:06,406
+tiles fitting in bathroom, on the floor of this bathroom.
+
+99
+00:07:06,406 --> 00:07:12,502
+It would be the area of the bathroom, so 121.907 feet squared,
+
+100
+00:07:12,502 --> 00:07:14,435
+divided by the area of the tile,
+
+101
+00:07:14,435 --> 00:07:19,002
+divided by 1.07 feet squared.
+
+102
+00:07:19,002 --> 00:07:21,307
+And ones again, let me get the calculator out.
+
+103
+00:07:21,307 --> 00:07:29,767
+So we have 121.907 divided by 1.07,
+
+104
+00:07:29,767 --> 00:07:32,701
+and you get this crazy thing with all of these digits,
+
+105
+00:07:32,701 --> 00:07:34,497
+but this is going to be our final answer,
+
+106
+00:07:34,497 --> 00:07:36,899
+so here we do care about significant figures.
+
+107
+00:07:36,899 --> 00:07:38,835
+So tiles fitting in the bathroom,
+
+108
+00:07:38,835 --> 00:07:41,010
+we get something that is actually just keeps going,
+
+109
+00:07:41,010 --> 00:07:43,090
+so it's... Let me write this in a new color.
+
+110
+00:07:43,090 --> 00:07:52,175
+We got 113.931775701 - and actually it just keeps going - feet squared.
+
+111
+00:07:52,175 --> 00:07:53,567
+And this is the final answer.
+
+112
+00:07:53,567 --> 00:07:57,100
+We cared about how many tiles will fit onto this bathroom floor,
+
+113
+00:07:57,100 --> 00:07:59,508
+now the significant figures come into play.
+
+114
+00:07:59,508 --> 00:08:01,342
+And the way to think about this:
+
+115
+00:08:01,342 --> 00:08:06,837
+I have 4 significant figures over here, I have 2 significant figures here,
+
+116
+00:08:06,837 --> 00:08:09,300
+I have 3 significant figures over here,
+
+117
+00:08:09,300 --> 00:08:13,166
+and since we did just a bunch of multiplying and dividing, in general...
+
+118
+00:08:13,166 --> 00:08:17,258
+Since we did a bunch of multiplying and dividing we have to have the minimum,
+
+119
+00:08:17,258 --> 00:08:20,774
+whatever is the minimum significant figures of the things we computed with,
+
+120
+00:08:20,774 --> 00:08:23,923
+that's how many significant figures we can have in our final answer.
+
+121
+00:08:23,923 --> 00:08:28,434
+We'll make this clear: this has 2 significant figures, but this is 3: the 1, the 0 and the 1.
+
+122
+00:08:28,434 --> 00:08:32,170
+So our final answer can only the 3 significant figures.
+
+123
+00:08:32,170 --> 00:08:34,034
+3 significant figures.
+
+124
+00:08:34,034 --> 00:08:40,844
+So we need to round to the nearest foot. The next digit over is a 9, so we need to round up.
+
+125
+00:08:40,844 --> 00:08:42,422
+So we are going to round up.
+
+126
+00:08:42,422 --> 00:08:48,767
+So this would get us to 114. Actually this units aren't squared feet, this is in tiles.
+
+127
+00:08:48,767 --> 00:08:56,432
+This is feet divided by feet, and so this is going to be 114, 114 tiles.
+
+128
+00:08:56,432 --> 00:08:59,031
+Obviously it is not going to be exactly 114 tiles,
+
+129
+00:08:59,031 --> 00:09:03,172
+but based on the precision of the measurements we have done,
+
+130
+00:09:03,172 --> 00:09:05,031
+we can say 114 tiles.
+
+131
+00:09:05,031 --> 00:09:09,305
+Now what I have just showed you right here what we multiply and divide measurements
+
+132
+00:09:09,305 --> 00:09:11,367
+that has a certain number of significant figures.
+
+133
+00:09:11,367 --> 00:09:15,434
+The general rule of thumb is whatever the minimum number of significant figures
+
+134
+00:09:15,434 --> 00:09:18,502
+in any of the numbers calculated, that is how many significant figures...
+
+135
+00:09:18,502 --> 00:09:21,505
+that is the least number is the number of significant figure
+
+136
+00:09:21,505 --> 00:09:23,767
+in your final quotient or product or answer.
+
+137
+00:09:23,767 --> 00:09:29,921
+When you do addition and subtraction, it's a little bit different and we will cover that in the next video.

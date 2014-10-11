@@ -1,0 +1,251 @@
+1
+00:00:00,743 --> 00:00:03,887
+Find the probability of pulling a yellow marble from a bag
+
+2
+00:00:03,887 --> 00:00:06,870
+with 3 yellow, 2 red, 2 green,
+
+3
+00:00:06,870 --> 00:00:09,852
+and 1 blue (I'm assuming) marble.
+
+4
+00:00:09,852 --> 00:00:12,700
+The probability (I'll just say 'P' for probability)
+
+5
+00:00:12,700 --> 00:00:17,484
+The probability of picking a yellow marble.
+
+6
+00:00:17,484 --> 00:00:20,666
+So this is sometimes the event in question right over here,
+
+7
+00:00:20,666 --> 00:00:21,806
+picking the yellow marble.
+
+8
+00:00:21,806 --> 00:00:24,303
+I'll even write down the word, 'picking'.
+
+9
+00:00:24,303 --> 00:00:25,566
+And when you say probability,
+
+10
+00:00:25,566 --> 00:00:27,801
+it's really just a way of measuring the likelihood
+
+11
+00:00:27,801 --> 00:00:29,518
+that something's going to happen.
+
+12
+00:00:29,518 --> 00:00:31,835
+And the way were going to think about it is,
+
+13
+00:00:31,835 --> 00:00:35,149
+how many of the outcomes from this trial,
+
+14
+00:00:35,149 --> 00:00:37,349
+from this picking a marble out of the bag,
+
+15
+00:00:37,349 --> 00:00:40,917
+how many meet our constraints, satisfy this event?
+
+16
+00:00:40,917 --> 00:00:43,950
+And how many possible outcomes are there?
+
+17
+00:00:43,950 --> 00:00:46,482
+So let me write the possible outcomes right over here,
+
+18
+00:00:46,482 --> 00:00:52,083
+so possible outcomes.
+
+19
+00:00:52,083 --> 00:00:54,833
+And you'll see it's actually a very straight forward idea.
+
+20
+00:00:54,833 --> 00:00:56,503
+But I'll just make sure we understand
+
+21
+00:00:56,503 --> 00:00:58,831
+all the words that people might say.
+
+22
+00:00:58,831 --> 00:01:01,186
+So the set of all the possible outcomes:
+
+23
+00:01:01,186 --> 00:01:02,537
+Well, there's three yellow marbles.
+
+24
+00:01:02,537 --> 00:01:03,908
+So I could pick that yellow marble,
+
+25
+00:01:03,908 --> 00:01:08,568
+that yellow marble or that yellow marble.
+
+26
+00:01:08,568 --> 00:01:10,470
+These are clearly all yellow.
+
+27
+00:01:10,470 --> 00:01:12,260
+There's two red marbles in the bag.
+
+28
+00:01:12,260 --> 00:01:16,747
+So I could pick that red marble, or that red marble.
+
+29
+00:01:16,747 --> 00:01:19,578
+There's two green marbles in the bag.
+
+30
+00:01:19,578 --> 00:01:23,217
+So I could pick that green marble, or that green marble.
+
+31
+00:01:23,217 --> 00:01:25,949
+And then there's one blue marble in the bag.
+
+32
+00:01:25,949 --> 00:01:27,890
+There's one blue marble.
+
+33
+00:01:27,890 --> 00:01:30,506
+So this is all the possible outcomes
+
+34
+00:01:30,506 --> 00:01:31,831
+and sometimes this is referred to
+
+35
+00:01:31,831 --> 00:01:34,817
+as the sample space.
+
+36
+00:01:34,817 --> 00:01:37,249
+sample...the set of all the possible outcomes,
+
+37
+00:01:37,249 --> 00:01:39,195
+fancy word for just a simple idea.
+
+38
+00:01:39,195 --> 00:01:42,251
+When I pick something out of the bag
+
+39
+00:01:42,251 --> 00:01:44,565
+and that picking out of the bag is called a trial.
+
+40
+00:01:44,565 --> 00:01:46,693
+There's eight possible things that I can do.
+
+41
+00:01:46,693 --> 00:01:49,663
+So when I think of the probability of picking a yellow marble,
+
+42
+00:01:49,663 --> 00:01:52,830
+I want to think about, well what are all the possibilities?
+
+43
+00:01:52,830 --> 00:01:56,978
+Well, there's eight possibilities for my trial.
+
+44
+00:01:56,978 --> 00:02:02,208
+So the number of possible outcomes,
+
+45
+00:02:02,208 --> 00:02:04,735
+you could view it as the size of the sample space,
+
+46
+00:02:04,735 --> 00:02:06,496
+number of possible outcomes.
+
+47
+00:02:06,496 --> 00:02:07,756
+And it's as simple as saying,
+
+48
+00:02:07,756 --> 00:02:09,614
+look I have eight marbles.
+
+49
+00:02:09,614 --> 00:02:11,928
+And you say how many of those marbles meet my constraint,
+
+50
+00:02:11,928 --> 00:02:14,543
+that satisfy this event here?
+
+51
+00:02:14,543 --> 00:02:17,794
+Well, there's three marbles that satisfy my event.
+
+52
+00:02:17,794 --> 00:02:22,613
+There's three outcomes that will allow this event to occur.
+
+53
+00:02:22,613 --> 00:02:24,044
+I guess this is one way to say it.
+
+54
+00:02:24,044 --> 00:02:25,711
+So there're three right over here.
+
+55
+00:02:25,711 --> 00:02:33,473
+So number that satisfy the event,
+
+56
+00:02:33,473 --> 00:02:35,288
+or the constraint right over here.
+
+57
+00:02:35,288 --> 00:02:38,078
+So very simple ideas, but many times the words
+
+58
+00:02:38,078 --> 00:02:40,420
+make them more complicated than they need to.
+
+59
+00:02:40,420 --> 00:02:43,127
+If I say what is the probability of picking a yellow marble,
+
+60
+00:02:43,127 --> 00:02:46,195
+well how many different types of marbles can I pick?
+
+61
+00:02:46,195 --> 00:02:48,576
+Well there's eight different marbles I could pick
+
+62
+00:02:48,576 --> 00:02:50,732
+And then how many are yellow?
+
+63
+00:02:50,732 --> 00:02:55,479
+Well, there's three of them that are actually yellow.

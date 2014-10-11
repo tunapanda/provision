@@ -1,0 +1,743 @@
+1
+00:00:00,060 --> 00:00:03,650
+Before moving on, I want to address problem 180 again.
+
+2
+00:00:03,650 --> 00:00:05,320
+Because we got it right in the last video,
+
+3
+00:00:05,320 --> 00:00:06,450
+but then as soon as I finished the video,
+
+4
+00:00:06,450 --> 00:00:08,890
+I realized there was a much, much simpler way of doing that.
+
+5
+00:00:08,890 --> 00:00:11,660
+They said in a nationwide poll, n people were interviewed.
+
+6
+00:00:11,660 --> 00:00:16,400
+1/4 of them answered yes to question one.
+
+7
+00:00:16,400 --> 00:00:19,420
+And of those, 1/3 answered yes to question two.
+
+8
+00:00:19,420 --> 00:00:21,300
+So then you have another 1/3.
+
+9
+00:00:21,300 --> 00:00:24,830
+So what fraction of the entire population said yes to both?
+
+10
+00:00:24,830 --> 00:00:27,100
+Well, it would be 1/4 of--
+
+11
+00:00:27,100 --> 00:00:34,040
+or 1/3 of 1/4 which is equal to 1/12.
+
+12
+00:00:34,040 --> 00:00:36,640
+1/12 of the population said yes to both.
+
+13
+00:00:36,640 --> 00:00:39,330
+Or you could say 1/12 of n said yes to both.
+
+14
+00:00:39,330 --> 00:00:43,530
+And they ask us which of the following expressions
+
+15
+00:00:43,530 --> 00:00:44,780
+represents the number of people interviewed
+
+16
+00:00:44,780 --> 00:00:46,670
+who did not answer yes to both?
+
+17
+00:00:46,870 --> 00:00:48,000
+So it's everybody else.
+
+18
+00:00:48,000 --> 00:00:49,770
+These are the people who said yes to both.
+
+19
+00:00:49,770 --> 00:00:51,930
+So essentially you just subtract that from 1.
+
+20
+00:00:51,930 --> 00:00:58,170
+So 1 minus 1/12 is equal to 12/12 minus 1/12,
+
+21
+00:00:58,170 --> 00:01:00,510
+which is equal to 11/12 of the population
+
+22
+00:01:00,510 --> 00:01:02,000
+did not say yes to both.
+
+23
+00:01:02,000 --> 00:01:04,630
+And so 11/12 and then the population is n,
+
+24
+00:01:04,630 --> 00:01:05,960
+so it's 11n over 12.
+
+25
+00:01:05,960 --> 00:01:09,020
+And that's how we got choice E.
+
+26
+00:01:09,020 --> 00:01:10,790
+Problem 181.
+
+27
+00:01:12,040 --> 00:01:15,330
+The ratio of two quantities is 3:4.
+
+28
+00:01:15,330 --> 00:01:21,440
+So, let's say one is x, one is y, and it equals 3:4.
+
+29
+00:01:21,480 --> 00:01:24,490
+If each of the quantities is increased by 5,
+
+30
+00:01:24,490 --> 00:01:26,130
+what is the ratio of these new quantities?
+
+31
+00:01:26,130 --> 00:01:33,060
+x plus 5 to y plus 5.
+
+32
+00:01:33,060 --> 00:01:36,550
+Well, it really depends on what multiple these
+
+33
+00:01:36,550 --> 00:01:38,210
+are of 3 and 4.
+
+34
+00:01:40,050 --> 00:01:42,940
+Well, I already have a sense that it's choice E.
+
+35
+00:01:42,940 --> 00:01:45,020
+It cannot be determined from the information given.
+
+36
+00:01:45,320 --> 00:01:46,450
+And let's prove it.
+
+37
+00:01:46,650 --> 00:01:48,760
+I'm going to show you two different x's and y's,
+
+38
+00:01:48,760 --> 00:01:50,040
+and when you add 5 to both
+
+39
+00:01:50,040 --> 00:01:51,540
+you're going to get a completely different answer.
+
+40
+00:01:51,540 --> 00:01:53,940
+So you cannot determine it from the information.
+
+41
+00:01:53,940 --> 00:01:56,800
+So they snuck in a data sufficiency question into the
+
+42
+00:01:56,800 --> 00:01:57,720
+problem solving.
+
+43
+00:01:57,720 --> 00:02:00,310
+So, x could be 3.
+
+44
+00:02:00,310 --> 00:02:02,920
+If x is equal to 3 and y is equal to 4,
+
+45
+00:02:02,920 --> 00:02:05,640
+that definitely satisfies this condition.
+
+46
+00:02:05,640 --> 00:02:11,460
+Or we could have x is equal to 6 and y is equal to 8. Right?
+
+47
+00:02:11,460 --> 00:02:14,020
+That also satisfies the 3 to 4 ratio.
+
+48
+00:02:14,020 --> 00:02:16,580
+What happens when we add 5 to both of these?
+
+49
+00:02:16,780 --> 00:02:22,010
+x plus 5 would be equal to 8.
+
+50
+00:02:22,010 --> 00:02:26,720
+And y plus 5 would be equal to 9.
+
+51
+00:02:26,720 --> 00:02:29,020
+So, the new ratio becomes 8:9.
+
+52
+00:02:29,320 --> 00:02:30,540
+What about this case?
+
+53
+00:02:30,540 --> 00:02:36,040
+You would have x plus 5 is equal to 6 plus 5, which is 11.
+
+54
+00:02:36,040 --> 00:02:42,890
+And then y plus 5 is equal to 8 plus 5, which is 13.
+
+55
+00:02:42,890 --> 00:02:46,000
+And 8/9 is a very different fraction than 11/13.
+
+56
+00:02:46,000 --> 00:02:48,010
+It's not like you can reduce one into the other.
+
+57
+00:02:48,010 --> 00:02:51,120
+So I can find an x and a y to satisfy this,
+
+58
+00:02:51,120 --> 00:02:52,610
+but when I add 5 to the top and bottom
+
+59
+00:02:52,610 --> 00:02:53,650
+I get two different answers.
+
+60
+00:02:53,650 --> 00:02:56,040
+So you cannot determine this with the information given.
+
+61
+00:02:56,340 --> 00:02:57,980
+So the choice is E.
+
+62
+00:02:57,980 --> 00:02:59,050
+Sneaky data sufficiency problem.
+
+63
+00:03:02,210 --> 00:03:07,010
+182.
+
+64
+00:03:07,010 --> 00:03:11,830
+If the average arithmetic mean of x and y is 60--
+
+65
+00:03:12,830 --> 00:03:18,030
+so essentially you're saying x plus y over 2 is equal to 60.
+
+66
+00:03:18,030 --> 00:03:20,000
+The average of them is 60.
+
+67
+00:03:20,000 --> 00:03:22,400
+And the average of y and z is 80.
+
+68
+00:03:22,400 --> 00:03:28,010
+So, y plus z over 2 is equal to 80.
+
+69
+00:03:28,010 --> 00:03:34,000
+What is the value of z minus x?
+
+70
+00:03:34,300 --> 00:03:35,420
+So let's see if we can do that.
+
+71
+00:03:35,420 --> 00:03:36,970
+So let's rewrite this.
+
+72
+00:03:36,970 --> 00:03:41,010
+Let's solve for x in terms of y.
+
+73
+00:03:41,710 --> 00:03:43,020
+I'll do it in a different color.
+
+74
+00:03:43,020 --> 00:03:48,150
+We get x plus y is equal to 120.
+
+75
+00:03:48,150 --> 00:03:49,890
+Just multiplied both sides by 2.
+
+76
+00:03:49,890 --> 00:03:53,050
+You get x is equal to 120 minus y.
+
+77
+00:03:53,050 --> 00:03:55,760
+Now let's solve for z in terms of y here.
+
+78
+00:03:55,760 --> 00:04:01,060
+Multiply both sides by 2, you get y plus z is equal to 160.
+
+79
+00:04:01,560 --> 00:04:06,070
+z is equal to 160 minus y.
+
+80
+00:04:06,070 --> 00:04:08,540
+So what's z minus x?
+
+81
+00:04:08,540 --> 00:04:19,090
+So z is 160 minus y, minus x, 120 minus y.
+
+82
+00:04:19,690 --> 00:04:27,010
+So that is equal to 160 minus y, minus 120 plus y.
+
+83
+00:04:27,010 --> 00:04:29,310
+And it's good that the y's are canceling out.
+
+84
+00:04:29,310 --> 00:04:30,680
+Whenever they give you something like this,
+
+85
+00:04:31,710 --> 00:04:35,290
+it's usually a safe guess that if you just go forth
+
+86
+00:04:35,290 --> 00:04:37,960
+with the algebra that nice things will happen like this.
+
+87
+00:04:37,960 --> 00:04:41,760
+So these y's cancel out and we're left with 160 minus 120
+
+88
+00:04:41,860 --> 00:04:44,000
+which is 40.
+
+89
+00:04:44,000 --> 00:04:47,280
+And that is choice B.
+
+90
+00:04:50,570 --> 00:04:53,830
+Problem 183.
+
+91
+00:04:56,590 --> 00:05:00,180
+If 1/2 of the air in a tank is removed
+
+92
+00:05:00,180 --> 00:05:03,520
+with each stroke of a vacuum pump--
+
+93
+00:05:03,950 --> 00:05:10,530
+so we have 1/2 tank per stroke.
+
+94
+00:05:10,930 --> 00:05:13,610
+I'm guessing this is going to be a rate of change.
+
+95
+00:05:13,750 --> 00:05:17,000
+What fraction of the original amount of air has been removed
+
+96
+00:05:17,000 --> 00:05:18,190
+after four strokes?
+
+97
+00:05:18,190 --> 00:05:19,200
+Oh no. This is interesting.
+
+98
+00:05:19,200 --> 00:05:21,390
+OK. So, after one stroke,
+
+99
+00:05:21,390 --> 00:05:24,530
+what fraction of the original amount of air has been removed?
+
+100
+00:05:24,530 --> 00:05:26,340
+Let's just figure out how much has been left.
+
+101
+00:05:28,210 --> 00:05:29,200
+We could do both actually.
+
+102
+00:05:29,200 --> 00:05:31,320
+Left and then removed.
+
+103
+00:05:33,890 --> 00:05:35,920
+So, after one stroke--
+
+104
+00:05:36,120 --> 00:05:39,410
+1/2 of the air in the tank is removed with each stroke.
+
+105
+00:05:39,410 --> 00:05:40,250
+So after one stroke,
+
+106
+00:05:40,250 --> 00:05:43,050
+you have 1/2 left and you have 1/2 removed.
+
+107
+00:05:43,050 --> 00:05:47,730
+But, after two strokes, it takes out half of the air. Right.
+
+108
+00:05:47,730 --> 00:05:50,080
+So it takes out 1/2 of this half.
+
+109
+00:05:50,380 --> 00:05:54,420
+So if you take out 1/2 of this half you have 1/4 left over.
+
+110
+00:05:54,420 --> 00:05:58,470
+And you've also removed another 1/4. Right?
+
+111
+00:05:58,470 --> 00:06:01,020
+Because these add up to what was left before.
+
+112
+00:06:01,420 --> 00:06:02,720
+After three strokes,
+
+113
+00:06:04,190 --> 00:06:07,830
+you take out 1/2 of this. So you have 1/8 left over.
+
+114
+00:06:08,200 --> 00:06:11,010
+And you took out another 1/8.
+
+115
+00:06:11,010 --> 00:06:13,220
+And then after four strokes,
+
+116
+00:06:13,220 --> 00:06:16,560
+you have 1/16 of the air left over.
+
+117
+00:06:16,560 --> 00:06:17,570
+Actually I didn't even have to do this column.
+
+118
+00:06:17,570 --> 00:06:20,070
+After four strokes you have 1/16 of the original air.
+
+119
+00:06:20,570 --> 00:06:21,850
+But they want to know
+
+120
+00:06:21,850 --> 00:06:24,220
+what fraction of the original amount of air has been removed.
+
+121
+00:06:24,220 --> 00:06:26,000
+So this is what you have left.
+
+122
+00:06:26,000 --> 00:06:28,320
+So what's been removed is 1 minus this.
+
+123
+00:06:28,320 --> 00:06:29,880
+So, 1 minus 1/16.
+
+124
+00:06:29,980 --> 00:06:34,000
+Well, that's 16 over 16 minus 1 over 16.
+
+125
+00:06:34,000 --> 00:06:36,340
+Which is equal to 15 over 16.
+
+126
+00:06:36,340 --> 00:06:37,260
+Choice A.
+
+127
+00:06:37,260 --> 00:06:39,000
+I didn't even have to worry about that column.
+
+128
+00:06:41,790 --> 00:06:44,530
+Problem 184.
+
+129
+00:06:48,000 --> 00:06:55,260
+If the 2 digit integers M and N are positive
+
+130
+00:06:55,620 --> 00:06:58,900
+and have the same digits, but in reverse order,
+
+131
+00:06:58,900 --> 00:07:04,000
+which of the following cannot be the sum of M and N?
+
+132
+00:07:04,000 --> 00:07:05,880
+All right, same digits in reverse order.
+
+133
+00:07:05,880 --> 00:07:08,040
+So M could be AB.
+
+134
+00:07:08,340 --> 00:07:12,030
+And N could be BA.
+
+135
+00:07:12,230 --> 00:07:13,660
+So which cannot be the sum?
+
+136
+00:07:13,960 --> 00:07:14,980
+I'm just experimenting.
+
+137
+00:07:14,980 --> 00:07:20,540
+Let's see you if you add AB and BA.
+
+138
+00:07:21,970 --> 00:07:27,740
+So, if B plus A-- I guess there's two assumptions.
+
+139
+00:07:27,740 --> 00:07:30,000
+If B plus A is less 10, let's do this one.
+
+140
+00:07:30,000 --> 00:07:33,390
+B plus A is less than 10.
+
+141
+00:07:33,390 --> 00:07:37,080
+Then you would have-- this digit would be B plus A.
+
+142
+00:07:37,880 --> 00:07:41,040
+And then this digit over here would also be B plus A.
+
+143
+00:07:44,420 --> 00:07:48,370
+So, definitely choices D and E work.
+
+144
+00:07:48,470 --> 00:07:50,560
+So we're left with choices A, B, and C.
+
+145
+00:07:50,560 --> 00:07:52,980
+Because none of these fit this paradigm
+
+146
+00:07:52,980 --> 00:07:54,370
+where we have the same digit twice.
+
+147
+00:07:54,370 --> 00:07:59,000
+So, all of those assume that B plus A is greater than 10.
+
+148
+00:07:59,000 --> 00:08:03,030
+So, if B plus A is greater than 10, then what happens?
+
+149
+00:08:03,030 --> 00:08:05,000
+A plus B.
+
+150
+00:08:05,000 --> 00:08:07,090
+B plus A.
+
+151
+00:08:07,990 --> 00:08:10,400
+So let's think about it a little bit.
+
+152
+00:08:11,150 --> 00:08:24,020
+If B plus A, you'll have the ones digit from B plus A.
+
+153
+00:08:24,020 --> 00:08:26,030
+And then you'll have a 1 up here.
+
+154
+00:08:26,030 --> 00:08:28,470
+You add 1 plus A plus B.
+
+155
+00:08:28,470 --> 00:08:34,020
+So, you'd have B plus A plus 1.
+
+156
+00:08:34,220 --> 00:08:37,510
+And so this will be a two-digit number.
+
+157
+00:08:38,000 --> 00:08:40,530
+And if you think about it--
+
+158
+00:08:40,530 --> 00:08:43,690
+if we do the three digits of the number,
+
+159
+00:08:46,290 --> 00:08:50,050
+this is going to be the ones digit from B plus A right?
+
+160
+00:08:50,350 --> 00:08:54,680
+This is going to be the ones digit from B plus A plus 1.
+
+161
+00:08:54,680 --> 00:08:57,990
+So this number is going to be one more than this number.
+
+162
+00:08:57,990 --> 00:08:58,960
+That's an interesting problem.
+
+163
+00:08:59,870 --> 00:09:01,800
+This one has to be one more than that one.
+
+164
+00:09:02,200 --> 00:09:05,520
+And so both B and C satisfy that, right.
+
+165
+00:09:05,520 --> 00:09:07,040
+165.
+
+166
+00:09:07,040 --> 00:09:09,430
+6 is one more than 5.
+
+167
+00:09:09,430 --> 00:09:10,360
+And it should work out.
+
+168
+00:09:10,360 --> 00:09:12,480
+We should be able to figure out a B and an A
+
+169
+00:09:12,480 --> 00:09:14,000
+that satisfy that.
+
+170
+00:09:14,000 --> 00:09:16,190
+And then C also satisfies that.
+
+171
+00:09:16,190 --> 00:09:16,920
+121.
+
+172
+00:09:16,920 --> 00:09:18,440
+2 is one more than 1.
+
+173
+00:09:18,440 --> 00:09:19,540
+I want to make sure you understand that
+
+174
+00:09:19,540 --> 00:09:21,090
+because it's actually pretty interesting.
+
+175
+00:09:21,490 --> 00:09:23,550
+Deductive reasoning, A is the answer.
+
+176
+00:09:23,990 --> 00:09:25,240
+But if you think about it,
+
+177
+00:09:25,540 --> 00:09:28,000
+we're assuming B plus A is greater than 0.
+
+178
+00:09:28,300 --> 00:09:30,790
+So, here, you'd have the ones digit of B plus A
+
+179
+00:09:30,790 --> 00:09:32,010
+and you'd carry a 1.
+
+180
+00:09:32,010 --> 00:09:35,080
+Now when you add A plus B and that 1,
+
+181
+00:09:35,080 --> 00:09:37,020
+the ones digit is going to be 1 greater.
+
+182
+00:09:37,020 --> 00:09:39,530
+This is going to be the ones digit of B plus A plus 1.
+
+183
+00:09:39,530 --> 00:09:42,000
+And that's why I'm saying that the tens digit
+
+184
+00:09:42,000 --> 00:09:44,420
+has to be 1 greater than the ones.
+
+185
+00:09:44,420 --> 00:09:45,840
+That was an interesting problem.
+
+186
+00:09:45,840 --> 00:09:48,020
+Anyway, see you in the next video.

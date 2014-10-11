@@ -1,0 +1,219 @@
+1
+00:00:01,579 --> 00:00:07,726
+When we perform calculations with a pen and paper we often need to save intermediate results.
+
+2
+00:00:07,726 --> 00:00:10,755
+And we may do this with, say, scrap paper.
+
+3
+00:00:10,755 --> 00:00:15,348
+And in this case the paper is acting as a form of external memory.
+
+4
+00:00:15,348 --> 00:00:20,661
+And memory no matter the form takes up physical space.
+
+5
+00:00:20,661 --> 00:00:26,245
+Computers contain memory, we can think of it as the scrap paper for the computer.
+
+6
+00:00:26,245 --> 00:00:31,109
+And, say, when you construct an array to store values in your program,
+
+7
+00:00:31,109 --> 00:00:33,713
+you require memory.
+
+8
+00:00:35,237 --> 00:00:41,828
+And, at the lowest level, computers read and store all instructions as a string of numbers.
+
+9
+00:00:41,828 --> 00:00:44,872
+But, how do you store numbers in a machine?
+
+10
+00:00:44,872 --> 00:00:48,334
+This was a very difficult problem originaly.
+
+11
+00:00:48,334 --> 00:00:52,505
+Especially when you need computers to hold their memory
+
+12
+00:00:52,505 --> 00:00:55,258
+after the access to power is lost.
+
+13
+00:00:55,258 --> 00:00:58,252
+This is known as 'non - volatile' memory.
+
+14
+00:00:58,406 --> 00:01:00,643
+The easiest difference for a machine to detect
+
+15
+00:01:00,643 --> 00:01:03,516
+is simply a presence versus an absence of something.
+
+16
+00:01:03,516 --> 00:01:06,269
+And this is how old punch cards would work.
+
+17
+00:01:06,269 --> 00:01:09,105
+Along the top we have some data
+
+18
+00:01:09,105 --> 00:01:18,208
+and the vertical coloumns contain a series of punched holes which represent each character.
+
+19
+00:01:20,408 --> 00:01:24,287
+So, computers really have 2 fingers - base 2:
+
+20
+00:01:24,287 --> 00:01:29,588
+same as a light switch being 'on' for 1, and 'off' for 0.
+
+21
+00:01:29,588 --> 00:01:36,133
+This is the smallest amount of information - a single difference, which we call a 'bit'.
+
+22
+00:01:36,549 --> 00:01:42,055
+But bits are powerful for storage because their amount of unique states grows exponentially
+
+23
+00:01:42,055 --> 00:01:44,057
+as we add bits together.
+
+24
+00:01:44,057 --> 00:01:49,152
+Remember: one light switch is one bit and it can store 2 states.
+
+25
+00:01:49,152 --> 00:01:54,566
+But 2 light switches can store 4 unique states.
+
+26
+00:01:56,028 --> 00:02:02,818
+And 8 light switches or 8 bits can store 256 unique states.
+
+27
+00:02:03,618 --> 00:02:12,485
+And, 'space' is measured in bits, but the physical size of a bit depends on your method of storage.
+
+28
+00:02:12,762 --> 00:02:18,174
+So how do computers store zero's and one's internally?
+
+29
+00:02:18,174 --> 00:02:24,289
+"Modern data processing systems like these use thousands of magnetic cores"
+
+30
+00:02:24,289 --> 00:02:27,722
+"What are magnetic cores?"
+
+31
+00:02:28,184 --> 00:02:32,826
+"They are tiny rings of nikel alloys or other magnetic materials."
+
+32
+00:02:32,980 --> 00:02:39,155
+"They have replaced vaccum tubes for many important functions in data processing systems".
+
+33
+00:02:39,155 --> 00:02:46,305
+And it allowed computers to store bits as clockwise versus counter-clockwise magnetization directions.
+
+34
+00:02:46,536 --> 00:02:50,601
+Because that each core could be magnetized in 2 different ways,
+
+35
+00:02:50,601 --> 00:02:56,319
+depending which direction the current was applied.
+
+36
+00:03:07,890 --> 00:03:16,982
+"Because a bit can be represented by any bi-stable device, and the magnetic core is a bi-stable device"
+
+37
+00:03:17,228 --> 00:03:26,534
+Later on, this was done using thin film magnetic disks where we can think of each bit as a tiny magnetic cell
+
+38
+00:03:26,534 --> 00:03:30,165
+which can be charged to store either a 1 or a 0.
+
+39
+00:03:30,196 --> 00:03:37,253
+so, long story short, the size of a bit has been rapidly shrinking since the days of punch cards.
+
+40
+00:03:37,253 --> 00:03:44,719
+A hard drive in a modern computer can be thought of as billions of tiny magnetic cells.
+
+41
+00:03:44,719 --> 00:03:50,016
+Now, you may wonder, how small can these little magnetic cells be?
+
+42
+00:03:50,016 --> 00:03:55,944
+And current research at IBM is pushing this to the atomic level -
+
+43
+00:03:56,329 --> 00:04:02,958
+where they have showed 12 iron atoms can work together as a stable magnetic unit.
+
+44
+00:04:02,958 --> 00:04:07,828
+where they are able to store a 1 or a 0, depending how they are oriented.
+
+45
+00:04:08,213 --> 00:04:17,291
+This is approaching a theoretical limit where we would hold a single bit on a single atom!
+
+46
+00:04:22,261 --> 00:04:29,728
+And interestingly, IBM estimates that we can put around one quadrillion(10^15) bits of information
+
+47
+00:04:29,728 --> 00:04:34,393
+in a hand held device, the size of an Ipod, with atomic storage.
+
+48
+00:04:34,393 --> 00:04:39,820
+And, let's call this a 'super drive', it doesn't even exists yet, as a hypothetical example:
+
+49
+00:04:39,820 --> 00:04:47,724
+A small hand held super drive using atomic storage would hold one thoushand tera bits.
+
+50
+00:04:48,324 --> 00:04:52,321
+which is one thousand trillion switches.
+
+51
+00:04:55,397 --> 00:05:01,512
+Or, more commonly known as one 125 tera bytes in the palm of your hand.
+
+52
+00:05:02,051 --> 00:05:05,306
+Or, to use an example everyone can understand:
+
+53
+00:05:05,306 --> 00:05:14,066
+125 tera bytes is the same as having a 1250 killometer long bookshelve in the palm of your hand.
+
+54
+00:05:14,559 --> 00:05:17,562
+And this is what the future of memory looks like.
+
+55
+00:05:17,562 --> 00:05:23,160
+Or we ever be able to store a bit on something smaller than an atom?

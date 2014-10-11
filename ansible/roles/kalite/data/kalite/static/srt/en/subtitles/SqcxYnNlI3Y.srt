@@ -1,0 +1,1552 @@
+1
+00:00:00,000 --> 00:00:00,490
+   
+
+2
+00:00:00,490 --> 00:00:02,430
+In the last video we learned a
+little bit about what the
+
+3
+00:00:02,430 --> 00:00:06,030
+expected value of random
+variable is, and we saw that it
+
+4
+00:00:06,030 --> 00:00:09,660
+was really just the population
+mean-- the same thing.
+
+5
+00:00:09,660 --> 00:00:12,600
+But with a random variable,
+since the population is
+
+6
+00:00:12,600 --> 00:00:14,880
+infinite, you can't take
+up all of the terms and
+
+7
+00:00:14,880 --> 00:00:16,140
+then average them out.
+
+8
+00:00:16,140 --> 00:00:18,620
+What you have to do is say OK,
+each of these terms occur with
+
+9
+00:00:18,620 --> 00:00:21,280
+some frequency or with some
+probability, and you kind of
+
+10
+00:00:21,280 --> 00:00:23,100
+just take a probability
+weighted sum.
+
+11
+00:00:23,100 --> 00:00:25,180
+Which we saw in the last video
+was the exact same thing as
+
+12
+00:00:25,180 --> 00:00:27,420
+adding everything together and
+dividing by the number of
+
+13
+00:00:27,420 --> 00:00:30,460
+numbers, except that that
+method worked with an infinite
+
+14
+00:00:30,460 --> 00:00:32,850
+number of an infinite
+population what the
+
+15
+00:00:32,850 --> 00:00:33,510
+random variable is.
+
+16
+00:00:33,510 --> 00:00:37,230
+Because you can just keep on
+performing the experiment that
+
+17
+00:00:37,230 --> 00:00:38,980
+generates the random variable.
+
+18
+00:00:38,980 --> 00:00:41,400
+And then, we actually
+calculated the expected value
+
+19
+00:00:41,400 --> 00:00:46,580
+for the particular binomial
+distributions that we studied,
+
+20
+00:00:46,580 --> 00:00:50,040
+especially the one with the
+flipping of the coin.
+
+21
+00:00:50,040 --> 00:00:53,840
+In this video we'll find a
+general formula for the mean,
+
+22
+00:00:53,840 --> 00:00:57,200
+or actually, for the expected
+value of a binomial
+
+23
+00:00:57,200 --> 00:00:57,830
+distribution.
+
+24
+00:00:57,830 --> 00:01:05,750
+So if we say that the random
+variable, x, is equal to the
+
+25
+00:01:05,750 --> 00:01:09,795
+number of-- we could
+call it successes.
+
+26
+00:01:09,795 --> 00:01:12,550
+   
+
+27
+00:01:12,550 --> 00:01:30,430
+The number of successes with
+probability p after n trials.
+
+28
+00:01:30,430 --> 00:01:31,770
+So I'm being a little
+bit generally here.
+
+29
+00:01:31,770 --> 00:01:37,060
+I mean I could have said the
+number of successful heads,
+
+30
+00:01:37,060 --> 00:01:39,940
+which have a probability
+of 0.5 after 10 flips.
+
+31
+00:01:39,940 --> 00:01:41,420
+That's the same thing is this,
+I'm just being a little
+
+32
+00:01:41,420 --> 00:01:42,990
+bit more general here.
+
+33
+00:01:42,990 --> 00:01:44,300
+And now, we'll actually
+figure out what the
+
+34
+00:01:44,300 --> 00:01:47,500
+expected value of this is.
+
+35
+00:01:47,500 --> 00:01:50,850
+And we saw if you actually
+figured out the probability
+
+36
+00:01:50,850 --> 00:01:52,970
+distribution for this random
+variable you get that nice
+
+37
+00:01:52,970 --> 00:01:55,070
+binomial distribution that
+looks a little bit
+
+38
+00:01:55,070 --> 00:01:55,840
+like a bell curve.
+
+39
+00:01:55,840 --> 00:01:58,360
+And we'll study more
+about bell curves later.
+
+40
+00:01:58,360 --> 00:02:00,580
+And before I actually
+show it to you I'll
+
+41
+00:02:00,580 --> 00:02:01,980
+give you the answer.
+
+42
+00:02:01,980 --> 00:02:03,470
+Because the answer, to
+some degree, is actually
+
+43
+00:02:03,470 --> 00:02:05,850
+pretty intuitive.
+
+44
+00:02:05,850 --> 00:02:12,730
+The expected value of this
+random variable is n times
+
+45
+00:02:12,730 --> 00:02:15,810
+p, or sometimes people
+will write p times n.
+
+46
+00:02:15,810 --> 00:02:17,920
+Let me make that a little
+bit more tangible for you.
+
+47
+00:02:17,920 --> 00:02:21,600
+So if I said that x is-- let me
+do it in a different color.
+
+48
+00:02:21,600 --> 00:02:31,510
+Let's see, x is equal to the
+number of baskets I make.
+
+49
+00:02:31,510 --> 00:02:34,430
+Where I'm talking about
+basketball, not basket weaving.
+
+50
+00:02:34,430 --> 00:02:43,350
+Number of baskets I make after
+10 shots where I have the
+
+51
+00:02:43,350 --> 00:02:48,270
+probability of me making any 1
+shot is-- I don't know-- 40%.
+
+52
+00:02:48,270 --> 00:02:52,010
+We know that the expected
+number of baskets I
+
+53
+00:02:52,010 --> 00:02:53,550
+make after 10 shots.
+
+54
+00:02:53,550 --> 00:02:57,120
+So we know that the expected
+number of baskets I make after
+
+55
+00:02:57,120 --> 00:03:00,770
+10 shots, where each of my
+shots is 40%-- all I have to do
+
+56
+00:03:00,770 --> 00:03:03,410
+is multiply the probability
+times the number of
+
+57
+00:03:03,410 --> 00:03:04,720
+baskets I'm taking.
+
+58
+00:03:04,720 --> 00:03:09,390
+So I multiply probability times
+the number of baskets or the
+
+59
+00:03:09,390 --> 00:03:12,740
+number of shots I'm taking,
+which should be equal to 4.
+
+60
+00:03:12,740 --> 00:03:14,940
+So I know I said-- and you
+really shouldn't necessarily
+
+61
+00:03:14,940 --> 00:03:18,310
+strictly view expected value as
+the number of shots you should
+
+62
+00:03:18,310 --> 00:03:20,630
+expect to make because
+sometimes probability
+
+63
+00:03:20,630 --> 00:03:22,770
+distributions can
+be kind of weird.
+
+64
+00:03:22,770 --> 00:03:24,490
+But in the binomial
+distribution you can kind
+
+65
+00:03:24,490 --> 00:03:25,290
+of view it that way.
+
+66
+00:03:25,290 --> 00:03:28,200
+That this is the number of
+shots you would expect to make.
+
+67
+00:03:28,200 --> 00:03:31,090
+Or you can kind of view it
+as the most likely outcome.
+
+68
+00:03:31,090 --> 00:03:35,340
+That if you have a 40% shot
+percentage, and you takes 10
+
+69
+00:03:35,340 --> 00:03:38,320
+shots, the most likely outcome
+is that you'll make 4 shots.
+
+70
+00:03:38,320 --> 00:03:41,080
+You still might make 6 shots or
+3 shots, but this is going to
+
+71
+00:03:41,080 --> 00:03:42,650
+be the most likely outcome.
+
+72
+00:03:42,650 --> 00:03:44,790
+and in my head, the way I think
+about, the way it makes
+
+73
+00:03:44,790 --> 00:03:49,260
+intuitive sense is that every
+time you shoot you have a 40%
+
+74
+00:03:49,260 --> 00:03:51,280
+chance of making the shot.
+
+75
+00:03:51,280 --> 00:03:55,120
+So you could say that you
+always make 40% of a shot.
+
+76
+00:03:55,120 --> 00:03:58,390
+And if you take 10 shots you're
+going to make 4 whole shots.
+
+77
+00:03:58,390 --> 00:04:00,420
+So that's one way to think
+about it and why this might
+
+78
+00:04:00,420 --> 00:04:02,190
+make a little intuitive sense.
+
+79
+00:04:02,190 --> 00:04:05,170
+But now, let's prove it to
+ourselves that this is really
+
+80
+00:04:05,170 --> 00:04:10,110
+true for any a random variable
+that's described by a
+
+81
+00:04:10,110 --> 00:04:12,170
+binomial distribution.
+
+82
+00:04:12,170 --> 00:04:15,270
+So in a binomial distribution
+what is the probability-- so if
+
+83
+00:04:15,270 --> 00:04:20,110
+I say, what is the probability
+that X is equal to k?
+
+84
+00:04:20,110 --> 00:04:21,770
+And I know it just gets a
+little complicated sometimes.
+
+85
+00:04:21,770 --> 00:04:24,010
+But I'm just saying, what's
+the probability say in
+
+86
+00:04:24,010 --> 00:04:25,440
+this basketball analogy.
+
+87
+00:04:25,440 --> 00:04:29,600
+Would be you know, what's the
+probability that I make--
+
+88
+00:04:29,600 --> 00:04:31,850
+k could be 3 shots or
+something like that.
+
+89
+00:04:31,850 --> 00:04:32,880
+So that's what we're
+talking about.
+
+90
+00:04:32,880 --> 00:04:37,350
+And that we learned was, if
+we're taking n shots we're
+
+91
+00:04:37,350 --> 00:04:39,720
+going to choose k of them.
+
+92
+00:04:39,720 --> 00:04:42,740
+And we did that several times
+in the last couple of videos.
+
+93
+00:04:42,740 --> 00:04:45,940
+And then we multiply that times
+the probability of any one of
+
+94
+00:04:45,940 --> 00:04:47,610
+those particular occurrences.
+
+95
+00:04:47,610 --> 00:04:52,100
+So if I'm making k shots, it'll
+be the probability of me making
+
+96
+00:04:52,100 --> 00:04:56,610
+any one shot, Which is
+p to the kth power.
+
+97
+00:04:56,610 --> 00:04:57,950
+p times itself k times.
+
+98
+00:04:57,950 --> 00:05:00,360
+That's the probability
+of me making k shots.
+
+99
+00:05:00,360 --> 00:05:02,800
+And then the rest of the
+shots I have to miss.
+
+100
+00:05:02,800 --> 00:05:06,360
+So the probability of
+a miss is 1 minus p.
+
+101
+00:05:06,360 --> 00:05:08,180
+And then how many shots?
+
+102
+00:05:08,180 --> 00:05:11,450
+If I've made k shots, the rest
+of the shots I have to miss.
+
+103
+00:05:11,450 --> 00:05:14,780
+So I'm going to miss
+n minus k shots.
+
+104
+00:05:14,780 --> 00:05:18,240
+So in any binomial distribution
+this is a probability
+
+105
+00:05:18,240 --> 00:05:22,160
+that you get k successes.
+
+106
+00:05:22,160 --> 00:05:24,380
+Now we know that the expected
+value, the way you calculate an
+
+107
+00:05:24,380 --> 00:05:27,020
+expected value of a random
+variable is you just take the
+
+108
+00:05:27,020 --> 00:05:29,710
+probability weighted sum.
+
+109
+00:05:29,710 --> 00:05:33,160
+I don't want to confuse you
+too much and if you main take
+
+110
+00:05:33,160 --> 00:05:35,960
+away from this video is just
+this, that's good enough.
+
+111
+00:05:35,960 --> 00:05:36,990
+You should feel good.
+
+112
+00:05:36,990 --> 00:05:38,890
+Now it'll get a little
+technical, but it'll hopefully
+
+113
+00:05:38,890 --> 00:05:40,630
+make you a little bit more
+comfortable with sigma and
+
+114
+00:05:40,630 --> 00:05:41,680
+sum notation as well.
+
+115
+00:05:41,680 --> 00:05:43,570
+It'll make you a little
+bit more comfortable with
+
+116
+00:05:43,570 --> 00:05:46,250
+binomial coefficients
+and things like that.
+
+117
+00:05:46,250 --> 00:05:48,140
+But just going back, the
+expected value is a a
+
+118
+00:05:48,140 --> 00:05:50,130
+probability weighted
+sum of each of these.
+
+119
+00:05:50,130 --> 00:05:51,700
+So what you want to do is you
+want to take the probability
+
+120
+00:05:51,700 --> 00:05:56,300
+that X is equal to k, times
+k, and then add that up for
+
+121
+00:05:56,300 --> 00:05:57,580
+each of the possible k's.
+
+122
+00:05:57,580 --> 00:05:58,860
+So how would I write that?
+
+123
+00:05:58,860 --> 00:06:04,600
+So the expected value of X, the
+expected value of our random
+
+124
+00:06:04,600 --> 00:06:07,560
+variable that's being described
+as binomial distribution--
+
+125
+00:06:07,560 --> 00:06:08,340
+it's equal to the sum.
+
+126
+00:06:08,340 --> 00:06:10,910
+   
+
+127
+00:06:10,910 --> 00:06:13,750
+And we're going to sum all of
+the values that k can take on.
+
+128
+00:06:13,750 --> 00:06:18,480
+So k can start at 0-- in the
+basketball version, I make no
+
+129
+00:06:18,480 --> 00:06:23,160
+shots-- all the way to n,
+which means I make n shots.
+
+130
+00:06:23,160 --> 00:06:27,350
+And for each of them you want
+to multiply k, so the outcome,
+
+131
+00:06:27,350 --> 00:06:29,390
+so I made k shots, times the
+probability that
+
+132
+00:06:29,390 --> 00:06:30,030
+I make k shots.
+
+133
+00:06:30,030 --> 00:06:32,700
+Well, what was the probability
+that I make k shots?
+
+134
+00:06:32,700 --> 00:06:34,460
+That was this right here.
+
+135
+00:06:34,460 --> 00:06:41,730
+So it'd be k times n choose
+k times p to the k times 1
+
+136
+00:06:41,730 --> 00:06:44,730
+minus p to the n minus k.
+
+137
+00:06:44,730 --> 00:06:48,370
+And now we're just going
+to do some algebra, some
+
+138
+00:06:48,370 --> 00:06:50,750
+sigma algebra I guess
+you could call it.
+
+139
+00:06:50,750 --> 00:06:53,380
+So the first simplification
+we can make is we're summing
+
+140
+00:06:53,380 --> 00:06:54,710
+from k equals 0 to n.
+
+141
+00:06:54,710 --> 00:06:57,240
+So the first term here is going
+to have a k equals 0 here.
+
+142
+00:06:57,240 --> 00:07:00,230
+This is going to be 0
+in the first term.
+
+143
+00:07:00,230 --> 00:07:03,350
+So this first term is 0, then
+this whole thing is going to be
+
+144
+00:07:03,350 --> 00:07:07,170
+0, and the k equals 0 term
+won't contribute to the sum
+
+145
+00:07:07,170 --> 00:07:09,910
+because this whole
+thing will be 0.
+
+146
+00:07:09,910 --> 00:07:12,800
+Let me that write because I
+think it's-- so this sum could
+
+147
+00:07:12,800 --> 00:07:20,450
+be written as 0 times n choose
+0 times p to the 0 times 1
+
+148
+00:07:20,450 --> 00:07:23,580
+minus p to the n minus 0.
+
+149
+00:07:23,580 --> 00:07:28,600
+Plus 1 times n choose 1 times
+p to the 1 times 1 minus
+
+150
+00:07:28,600 --> 00:07:30,710
+p to the n minus 1.
+
+151
+00:07:30,710 --> 00:07:33,150
+And then you keep adding,
+all the way until you
+
+152
+00:07:33,150 --> 00:07:34,810
+get to k is equal to n.
+
+153
+00:07:34,810 --> 00:07:39,430
+So it'd be n times n choose
+n times p to the n, times
+
+154
+00:07:39,430 --> 00:07:42,250
+1 minus p, n minus n.
+
+155
+00:07:42,250 --> 00:07:44,650
+This is just another way of
+writing this sum up here.
+
+156
+00:07:44,650 --> 00:07:47,690
+And what I just said is the
+first term, which is this term,
+
+157
+00:07:47,690 --> 00:07:49,920
+is going to be equal to 0
+because k is equal to 0.
+
+158
+00:07:49,920 --> 00:07:52,090
+0 times any thing is 0.
+
+159
+00:07:52,090 --> 00:07:55,540
+So we can ignore that term and
+we can rewrite this sum as
+
+160
+00:07:55,540 --> 00:07:58,230
+essentially this
+sum right here.
+
+161
+00:07:58,230 --> 00:08:02,020
+   
+
+162
+00:08:02,020 --> 00:08:03,660
+And so if we were to do that
+we're essentially just
+
+163
+00:08:03,660 --> 00:08:04,820
+rewrite this thing up here.
+
+164
+00:08:04,820 --> 00:08:08,730
+So the expected value
+of our random variable
+
+165
+00:08:08,730 --> 00:08:10,890
+is equal to the sum.
+
+166
+00:08:10,890 --> 00:08:12,540
+And we don't have to go
+from k equal 0, we could
+
+167
+00:08:12,540 --> 00:08:14,450
+start at k equal 1 now.
+
+168
+00:08:14,450 --> 00:08:20,130
+From k equals 1 to n of the
+same thing. k times n choose
+
+169
+00:08:20,130 --> 00:08:28,230
+k times p to the k, times
+1 minus p, n minus k.
+
+170
+00:08:28,230 --> 00:08:30,490
+Let's see what we
+can do from here.
+
+171
+00:08:30,490 --> 00:08:32,600
+All we did so far is we got rid
+of that first term because
+
+172
+00:08:32,600 --> 00:08:35,410
+that's kind of the trick we'll
+use to simplify this eventually
+
+173
+00:08:35,410 --> 00:08:38,150
+to the result that
+we want to have.
+
+174
+00:08:38,150 --> 00:08:40,420
+So let's write out the binomial
+coefficient and see if we
+
+175
+00:08:40,420 --> 00:08:41,780
+can do something there.
+
+176
+00:08:41,780 --> 00:08:43,480
+Oh, look at this.
+
+177
+00:08:43,480 --> 00:08:45,330
+My iPod wants to sync.
+
+178
+00:08:45,330 --> 00:08:47,120
+Let me get rid of that.
+
+179
+00:08:47,120 --> 00:08:50,030
+All right, so then,
+where was I?
+
+180
+00:08:50,030 --> 00:08:52,250
+OK, so then this is equal to--
+I'm just going to write out
+
+181
+00:08:52,250 --> 00:08:53,520
+the binomial coefficient.
+
+182
+00:08:53,520 --> 00:08:55,960
+k equals 1 to n.
+
+183
+00:08:55,960 --> 00:09:03,750
+k times-- this right here is
+n factorial over k factorial
+
+184
+00:09:03,750 --> 00:09:07,610
+over n minus k factorial.
+
+185
+00:09:07,610 --> 00:09:13,970
+Times p to the k times 1
+minus p to the n minus k.
+
+186
+00:09:13,970 --> 00:09:16,370
+And here we can make a little
+bit of a simplification
+
+187
+00:09:16,370 --> 00:09:21,100
+because what's k
+divided by k factorial?
+
+188
+00:09:21,100 --> 00:09:24,870
+Maybe I could rewrite it a
+different way. k factorial is k
+
+189
+00:09:24,870 --> 00:09:29,530
+times k minus 1 times k minus
+2, and so forth, all the
+
+190
+00:09:29,530 --> 00:09:31,010
+way until you get to 1.
+
+191
+00:09:31,010 --> 00:09:33,180
+This is k factorial.
+
+192
+00:09:33,180 --> 00:09:40,270
+So k factorial could be written
+as k times k minus 1 factorial.
+
+193
+00:09:40,270 --> 00:09:43,300
+It's k times, and then the
+number 1 smaller then k times
+
+194
+00:09:43,300 --> 00:09:45,330
+all the numbers below it.
+
+195
+00:09:45,330 --> 00:09:46,000
+So let me rewrite.
+
+196
+00:09:46,000 --> 00:09:52,640
+So this could be rewritten as
+k times k minus 1 factorial.
+
+197
+00:09:52,640 --> 00:09:54,880
+And the whole reason why I
+did that is so I can cancel
+
+198
+00:09:54,880 --> 00:09:57,100
+this k out with that k.
+
+199
+00:09:57,100 --> 00:10:00,540
+So if I cancel that out I
+think this warrants rewriting
+
+200
+00:10:00,540 --> 00:10:01,490
+the whole thing again.
+
+201
+00:10:01,490 --> 00:10:05,900
+So now, I guess you could argue
+simplified it to, it equals the
+
+202
+00:10:05,900 --> 00:10:15,250
+sum from k is equal to 1 to n
+of n factorial over k
+
+203
+00:10:15,250 --> 00:10:17,920
+minus 1 factorial.
+
+204
+00:10:17,920 --> 00:10:25,400
+Times n minus k factorial times
+p to the k times 1 minus
+
+205
+00:10:25,400 --> 00:10:28,560
+p to the n minus k.
+
+206
+00:10:28,560 --> 00:10:30,350
+And let's do another
+simplification.
+
+207
+00:10:30,350 --> 00:10:32,270
+Now, what I want to do and
+we kind of know where
+
+208
+00:10:32,270 --> 00:10:34,140
+we're heading, right?
+
+209
+00:10:34,140 --> 00:10:36,540
+This should simplify
+to n times p.
+
+210
+00:10:36,540 --> 00:10:39,320
+So let's see if we can factor
+out an n times p and then let's
+
+211
+00:10:39,320 --> 00:10:40,930
+see if we can turn everything
+else into a 1, and then
+
+212
+00:10:40,930 --> 00:10:42,230
+we would be done.
+
+213
+00:10:42,230 --> 00:10:45,640
+So we could rewrite n factorial
+using the same trick up here.
+
+214
+00:10:45,640 --> 00:10:51,210
+n factorial can be rewritten as
+n times n minus 1 factorial
+
+215
+00:10:51,210 --> 00:10:52,710
+by the same logic.
+
+216
+00:10:52,710 --> 00:10:58,450
+And then p to they k could
+be rewritten as p times
+
+217
+00:10:58,450 --> 00:11:01,610
+p to the k minus 1.
+
+218
+00:11:01,610 --> 00:11:05,680
+And then we can factor out this
+n and this p and we'll get it's
+
+219
+00:11:05,680 --> 00:11:12,190
+equal to np times the sum from
+k is equal to 1 to
+
+220
+00:11:12,190 --> 00:11:14,470
+n of-- let's see.
+
+221
+00:11:14,470 --> 00:11:16,360
+We factored that n and p out.
+
+222
+00:11:16,360 --> 00:11:23,910
+n minus 1 factorial over k
+minus one factorial times
+
+223
+00:11:23,910 --> 00:11:28,210
+n minus k factorial.
+
+224
+00:11:28,210 --> 00:11:32,140
+Times p to the k minus 1.
+
+225
+00:11:32,140 --> 00:11:33,160
+That's not in the denominator.
+
+226
+00:11:33,160 --> 00:11:40,150
+This is just a regular-- times
+1 minus p to the n minus k.
+
+227
+00:11:40,150 --> 00:11:40,900
+And we're close.
+
+228
+00:11:40,900 --> 00:11:43,500
+Remember, we want the result
+that the expected value of our
+
+229
+00:11:43,500 --> 00:11:45,930
+variable, and that's what
+we were doing before.
+
+230
+00:11:45,930 --> 00:11:50,550
+That this should
+be equal to this.
+
+231
+00:11:50,550 --> 00:11:53,090
+So we'll be done if we can
+just show that this whole
+
+232
+00:11:53,090 --> 00:11:54,295
+thing here equals 1.
+
+233
+00:11:54,295 --> 00:11:57,970
+And to do that I'll make a
+simplifying substitution.
+
+234
+00:11:57,970 --> 00:12:01,380
+Let me make the substitution--
+I don't know-- let's say that
+
+235
+00:12:01,380 --> 00:12:05,990
+a is equal to k minus 1.
+
+236
+00:12:05,990 --> 00:12:10,710
+And that b is equal
+to n minus 1.
+
+237
+00:12:10,710 --> 00:12:14,270
+And then what would
+n minus k equal to?
+
+238
+00:12:14,270 --> 00:12:14,580
+Let's see.
+
+239
+00:12:14,580 --> 00:12:18,920
+If a is equal to k minus 1
+then a plus 1 is equal to k.
+
+240
+00:12:18,920 --> 00:12:22,890
+And then here, b plus 1 is
+equal to n, so then n minus
+
+241
+00:12:22,890 --> 00:12:28,320
+k would be equal to this,
+a plus 1 minus this.
+
+242
+00:12:28,320 --> 00:12:32,850
+Minus b minus 1, these
+would cancel out.
+
+243
+00:12:32,850 --> 00:12:34,720
+Which would equal a minus b.
+
+244
+00:12:34,720 --> 00:12:36,340
+And let's see if we
+can simplify this.
+
+245
+00:12:36,340 --> 00:12:44,020
+So this whole sum will then
+turn into np times the sum
+
+246
+00:12:44,020 --> 00:12:48,510
+from-- OK, when k is equal to
+1, that's the same thing--
+
+247
+00:12:48,510 --> 00:12:50,760
+when k is equal to 1,
+what is a equal to?
+
+248
+00:12:50,760 --> 00:12:53,350
+a is equal to 0.
+
+249
+00:12:53,350 --> 00:13:02,230
+From a equal to 0 to-- now
+when k is equal to n,
+
+250
+00:13:02,230 --> 00:13:03,890
+what will a be equal to?
+
+251
+00:13:03,890 --> 00:13:07,350
+If this is equal to n,
+if k is n, then a is
+
+252
+00:13:07,350 --> 00:13:09,830
+equal to n minus 1.
+
+253
+00:13:09,830 --> 00:13:13,110
+So we have a equal to a
+to a equals n minus 1.
+
+254
+00:13:13,110 --> 00:13:15,760
+But n minus 1 is the
+same thing as b.
+
+255
+00:13:15,760 --> 00:13:17,870
+So we could rewrite
+the sum there.
+
+256
+00:13:17,870 --> 00:13:19,120
+That's always a
+little confusing.
+
+257
+00:13:19,120 --> 00:13:21,140
+You might want to pause and
+think about that a little bit.
+
+258
+00:13:21,140 --> 00:13:23,210
+But I realize I'm already
+over time, so I'll just
+
+259
+00:13:23,210 --> 00:13:24,970
+keep moving forward.
+
+260
+00:13:24,970 --> 00:13:28,280
+And then we had b is
+equal to n minus 1.
+
+261
+00:13:28,280 --> 00:13:33,280
+So that'll be b factorial
+over k minus 1 , we made
+
+262
+00:13:33,280 --> 00:13:34,910
+the definition that
+that's equal to a.
+
+263
+00:13:34,910 --> 00:13:37,060
+So that's a factorial.
+
+264
+00:13:37,060 --> 00:13:47,030
+And then over here, n
+minus k should be a--
+
+265
+00:13:47,030 --> 00:13:47,560
+oh, you know what?
+
+266
+00:13:47,560 --> 00:13:50,750
+I reversed this. n minus
+ok should be b minus a.
+
+267
+00:13:50,750 --> 00:13:54,280
+n minus k-- right.
+
+268
+00:13:54,280 --> 00:13:59,490
+n is b plus 1, so it's b
+plus 1 minus a plus 1.
+
+269
+00:13:59,490 --> 00:14:01,550
+Minus a, minus 1.
+
+270
+00:14:01,550 --> 00:14:03,760
+So the 1's cancel out
+and you get b minus a.
+
+271
+00:14:03,760 --> 00:14:09,730
+So the n minus k will become
+b minus a factorial.
+
+272
+00:14:09,730 --> 00:14:14,580
+And then p to the k minus 1--
+k minus 1 is p to the a.
+
+273
+00:14:14,580 --> 00:14:19,230
+And then times 1 minus
+p to the n minus k.
+
+274
+00:14:19,230 --> 00:14:20,815
+We already showed that
+n minus k is the same
+
+275
+00:14:20,815 --> 00:14:23,510
+things as b minus a.
+
+276
+00:14:23,510 --> 00:14:28,080
+And then here, and we're
+pretty much done now-- this
+
+277
+00:14:28,080 --> 00:14:31,760
+right here, what is this?
+
+278
+00:14:31,760 --> 00:14:34,500
+This is the probability
+of-- well, let me rewrite
+
+279
+00:14:34,500 --> 00:14:35,320
+it a simpler way.
+
+280
+00:14:35,320 --> 00:14:42,510
+This is equal to np times the
+sum from a is equal to 0 to b.
+
+281
+00:14:42,510 --> 00:14:43,080
+What is this?
+
+282
+00:14:43,080 --> 00:14:44,816
+This is b choose a.
+
+283
+00:14:44,816 --> 00:14:48,120
+I have b things and I want to
+choose a things from them, how
+
+284
+00:14:48,120 --> 00:14:52,580
+many different ways can I--
+times p to the a times 1
+
+285
+00:14:52,580 --> 00:14:56,220
+minus p to the b minus a.
+
+286
+00:14:56,220 --> 00:14:59,380
+What is this thing here?
+
+287
+00:14:59,380 --> 00:15:01,520
+This is you're taking every
+term of the binomial
+
+288
+00:15:01,520 --> 00:15:02,110
+distribution.
+
+289
+00:15:02,110 --> 00:15:04,280
+So you're saying, what
+is the probability
+
+290
+00:15:04,280 --> 00:15:05,840
+when a is equal to 0?
+
+291
+00:15:05,840 --> 00:15:08,990
+This is the probability for
+each of the a's, right?
+
+292
+00:15:08,990 --> 00:15:12,750
+And you're summing up over all
+of the a's you can achieve.
+
+293
+00:15:12,750 --> 00:15:17,360
+So if I were to draw a quick
+dirty distribution like this,
+
+294
+00:15:17,360 --> 00:15:19,700
+if a is equal to 0 you have
+a certain probability.
+
+295
+00:15:19,700 --> 00:15:22,280
+Then a certain probability for
+a equals 1. and then another
+
+296
+00:15:22,280 --> 00:15:23,490
+probability, and
+it goes higher.
+
+297
+00:15:23,490 --> 00:15:27,820
+Then it's like a bell curve,
+something like that.
+
+298
+00:15:27,820 --> 00:15:31,550
+This term right here
+is each of these.
+
+299
+00:15:31,550 --> 00:15:33,610
+Each of these boxes you
+could say represents
+
+300
+00:15:33,610 --> 00:15:34,740
+one of these terms.
+
+301
+00:15:34,740 --> 00:15:36,460
+When a equals 0 it's this term.
+
+302
+00:15:36,460 --> 00:15:38,240
+When a equals 1 it's this term.
+
+303
+00:15:38,240 --> 00:15:41,580
+When a equals 2 it's this
+term, all the way to b terms.
+
+304
+00:15:41,580 --> 00:15:44,320
+But we're summing them
+up, so we're summing all
+
+305
+00:15:44,320 --> 00:15:45,860
+of the probabilities.
+
+306
+00:15:45,860 --> 00:15:49,670
+We're summing over all
+of the values that our
+
+307
+00:15:49,670 --> 00:15:51,240
+random variable can take.
+
+308
+00:15:51,240 --> 00:15:54,600
+So if we solved all the
+probabilities that a random
+
+309
+00:15:54,600 --> 00:15:58,040
+variable can take, or we're
+summing over all of the values,
+
+310
+00:15:58,040 --> 00:16:01,170
+this is going to sum up to 1.
+
+311
+00:16:01,170 --> 00:16:04,420
+This is like saying that this
+is the probability of heads
+
+312
+00:16:04,420 --> 00:16:05,810
+plus the probability of tails.
+
+313
+00:16:05,810 --> 00:16:08,630
+Or you could say in the
+flipping of a coin analogy,
+
+314
+00:16:08,630 --> 00:16:11,210
+this is the probability that I
+have one heads plus the
+
+315
+00:16:11,210 --> 00:16:13,210
+probability I have 2 heads,
+plus the probability I have 3
+
+316
+00:16:13,210 --> 00:16:15,465
+heads, plus the probability I
+have 4 heads, all the way to
+
+317
+00:16:15,465 --> 00:16:16,660
+the probability I have b heads.
+
+318
+00:16:16,660 --> 00:16:19,690
+So it's pretty much every
+circumstance that can occur.
+
+319
+00:16:19,690 --> 00:16:22,640
+So this is the sum over
+the entire probability
+
+320
+00:16:22,640 --> 00:16:27,840
+distribution, and so that
+is going to be equal to 1.
+
+321
+00:16:27,840 --> 00:16:32,680
+And so, we're left with
+the expected value of our
+
+322
+00:16:32,680 --> 00:16:36,500
+random variable, X, is
+equal to n times p.
+
+323
+00:16:36,500 --> 00:16:39,390
+Where n is the number of trials
+and p is the probability
+
+324
+00:16:39,390 --> 00:16:40,830
+of success on each trial.
+
+325
+00:16:40,830 --> 00:16:43,745
+And this is true only for
+binomial distributions.
+
+326
+00:16:43,745 --> 00:16:45,700
+It isn't true for any
+random variable, X.
+
+327
+00:16:45,700 --> 00:16:48,540
+Only true for random variable,
+X, whose probability
+
+328
+00:16:48,540 --> 00:16:51,230
+distribution is the
+binomial distribution.
+
+329
+00:16:51,230 --> 00:16:52,770
+Anyway, I'm all out of time.
+
+330
+00:16:52,770 --> 00:16:54,910
+I'll see you in the next video.
+
+331
+00:16:54,910 --> 00:16:55,000
+

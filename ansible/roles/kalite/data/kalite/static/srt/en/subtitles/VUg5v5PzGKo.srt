@@ -1,0 +1,880 @@
+1
+00:00:00,000 --> 00:00:00,560
+   
+
+2
+00:00:00,560 --> 00:00:01,390
+Welcome back.
+
+3
+00:00:01,390 --> 00:00:03,165
+We're on problem number 7.
+
+4
+00:00:03,165 --> 00:00:06,320
+   
+
+5
+00:00:06,320 --> 00:00:10,110
+If a and b are positive
+integers, and a squared minus
+
+6
+00:00:10,110 --> 00:00:17,575
+b squared is equal to 7,
+what is the value of a?
+
+7
+00:00:17,575 --> 00:00:27,450
+   
+
+8
+00:00:27,450 --> 00:00:30,060
+So there's a couple of ways that
+I would think about this.
+
+9
+00:00:30,060 --> 00:00:32,470
+You could say-- well, this
+is actually the way I
+
+10
+00:00:32,470 --> 00:00:33,450
+would think about it.
+
+11
+00:00:33,450 --> 00:00:35,700
+Whenever I see something squared
+minus something, I
+
+12
+00:00:35,700 --> 00:00:37,510
+immediately just want to factor
+it, and we'll see where
+
+13
+00:00:37,510 --> 00:00:38,910
+that gets us.
+
+14
+00:00:38,910 --> 00:00:45,370
+You get that a plus b times
+a minus b is equal to 7.
+
+15
+00:00:45,370 --> 00:00:48,280
+And we know that a and b
+are positive integers.
+
+16
+00:00:48,280 --> 00:00:52,280
+   
+
+17
+00:00:52,280 --> 00:00:54,470
+Well, we know this is going to
+be a positive integer, right?
+
+18
+00:00:54,470 --> 00:00:55,870
+You add two positive integers,
+you definitely
+
+19
+00:00:55,870 --> 00:00:57,340
+get a positive integer.
+
+20
+00:00:57,340 --> 00:00:58,610
+And then we also know that
+this is going to
+
+21
+00:00:58,610 --> 00:01:00,080
+be a positive integer.
+
+22
+00:01:00,080 --> 00:01:01,180
+How do I know that?
+
+23
+00:01:01,180 --> 00:01:04,200
+Well, when I multiply a
+positive integer times
+
+24
+00:01:04,200 --> 00:01:06,310
+something and I get another
+positive integer or I get
+
+25
+00:01:06,310 --> 00:01:08,430
+another positive number,
+I know that whatever I
+
+26
+00:01:08,430 --> 00:01:10,110
+multiplied by is positive,
+right?
+
+27
+00:01:10,110 --> 00:01:13,370
+Because a positive times
+a positive is positive.
+
+28
+00:01:13,370 --> 00:01:14,120
+So what does this say?
+
+29
+00:01:14,120 --> 00:01:17,080
+So these are both positive
+integers, and when I multiply
+
+30
+00:01:17,080 --> 00:01:19,250
+them, I get 7.
+
+31
+00:01:19,250 --> 00:01:20,740
+So what could they be?
+
+32
+00:01:20,740 --> 00:01:23,260
+Well, what numbers when you
+multiply it can be 7?
+
+33
+00:01:23,260 --> 00:01:25,230
+Well, there's only
+two choices.
+
+34
+00:01:25,230 --> 00:01:28,230
+1 times 7 because 7 is prime.
+
+35
+00:01:28,230 --> 00:01:31,750
+7 has no other factors
+other than 1 and 7.
+
+36
+00:01:31,750 --> 00:01:35,080
+So which one's going to be 7 and
+which one's going to be 1?
+
+37
+00:01:35,080 --> 00:01:38,730
+Well, the larger one's
+going to be 7.
+
+38
+00:01:38,730 --> 00:01:41,230
+And the smaller one's
+going to be 1.
+
+39
+00:01:41,230 --> 00:01:42,300
+So you could eyeball this.
+
+40
+00:01:42,300 --> 00:01:43,950
+You could say, well, what two
+numbers when I add them
+
+41
+00:01:43,950 --> 00:01:48,130
+together is 7 and when I
+subtract them, I get 1?
+
+42
+00:01:48,130 --> 00:01:52,145
+And you can say, well, what
+if a is 4 and b is 3?
+
+43
+00:01:52,145 --> 00:01:53,620
+And that works.
+
+44
+00:01:53,620 --> 00:01:55,380
+4 plus 3 is 7.
+
+45
+00:01:55,380 --> 00:01:57,220
+4 minus 3 is 1.
+
+46
+00:01:57,220 --> 00:02:00,480
+And if that didn't just dawn
+on you all of a sudden, you
+
+47
+00:02:00,480 --> 00:02:02,490
+could do a system
+of equations.
+
+48
+00:02:02,490 --> 00:02:05,290
+a plus b is equal to 7.
+
+49
+00:02:05,290 --> 00:02:09,690
+a minus b is equal to 1.
+
+50
+00:02:09,690 --> 00:02:10,740
+Add these two equations.
+
+51
+00:02:10,740 --> 00:02:12,550
+You get 2a.
+
+52
+00:02:12,550 --> 00:02:14,370
+The b's cancel out.
+
+53
+00:02:14,370 --> 00:02:16,510
+Plus 0 is equal to 8.
+
+54
+00:02:16,510 --> 00:02:17,940
+7 plus 1 is 8.
+
+55
+00:02:17,940 --> 00:02:19,360
+a is equal to 4.
+
+56
+00:02:19,360 --> 00:02:22,100
+Then you can substitute back
+in or just play around with
+
+57
+00:02:22,100 --> 00:02:25,150
+the numbers, and you get
+b is equal to 3.
+
+58
+00:02:25,150 --> 00:02:28,530
+So that is choice-- oh, they
+want to just know what a is.
+
+59
+00:02:28,530 --> 00:02:31,010
+So a is 4, which is choice B.
+
+60
+00:02:31,010 --> 00:02:35,330
+   
+
+61
+00:02:35,330 --> 00:02:36,580
+Next problem.
+
+62
+00:02:36,580 --> 00:02:41,490
+   
+
+63
+00:02:41,490 --> 00:02:42,986
+You have a number line here.
+
+64
+00:02:42,986 --> 00:02:44,700
+Let me draw it nice and big.
+
+65
+00:02:44,700 --> 00:02:46,940
+I don't know how much
+space I'll need.
+
+66
+00:02:46,940 --> 00:02:53,280
+   
+
+67
+00:02:53,280 --> 00:02:54,560
+Have 0 in the middle.
+
+68
+00:02:54,560 --> 00:02:59,100
+   
+
+69
+00:02:59,100 --> 00:03:03,890
+Negative 1, 1.
+
+70
+00:03:03,890 --> 00:03:13,820
+Let me draw these points
+now: t, u, v, and w.
+
+71
+00:03:13,820 --> 00:03:22,560
+   
+
+72
+00:03:22,560 --> 00:03:28,085
+And then you have
+x and y here.
+
+73
+00:03:28,085 --> 00:03:30,830
+   
+
+74
+00:03:30,830 --> 00:03:32,080
+And then you have z.
+
+75
+00:03:32,080 --> 00:03:36,050
+   
+
+76
+00:03:36,050 --> 00:03:39,360
+On the number line above,
+which of the following
+
+77
+00:03:39,360 --> 00:03:44,130
+corresponds to the absolute
+value of u minus v?
+
+78
+00:03:44,130 --> 00:03:45,860
+And this is just an
+approximation problem.
+
+79
+00:03:45,860 --> 00:03:48,500
+You might get intimidated, like,
+how do I figure out u?
+
+80
+00:03:48,500 --> 00:03:49,440
+How do I figure out v?
+
+81
+00:03:49,440 --> 00:03:51,020
+Well, the answer is you
+just kind of guess.
+
+82
+00:03:51,020 --> 00:03:51,800
+Well, you don't guess.
+
+83
+00:03:51,800 --> 00:03:53,220
+You approximate.
+
+84
+00:03:53,220 --> 00:03:53,840
+So let's see.
+
+85
+00:03:53,840 --> 00:03:55,570
+What does u look like?
+
+86
+00:03:55,570 --> 00:03:57,570
+u looks like-- I don't know.
+
+87
+00:03:57,570 --> 00:04:02,250
+If you're eyeballing it, it
+looks like minus 0.8, if I
+
+88
+00:04:02,250 --> 00:04:02,960
+were to eyeball it.
+
+89
+00:04:02,960 --> 00:04:03,670
+Maybe a little more?
+
+90
+00:04:03,670 --> 00:04:05,820
+Minus 0.85?
+
+91
+00:04:05,820 --> 00:04:07,420
+Because it's almost
+at negative 1, but
+
+92
+00:04:07,420 --> 00:04:08,240
+not all the way there.
+
+93
+00:04:08,240 --> 00:04:11,870
+I don't think it's 9/10 there.
+
+94
+00:04:11,870 --> 00:04:13,470
+Yeah, I would say minus 0.85.
+
+95
+00:04:13,470 --> 00:04:14,690
+I'm just eyeballing it.
+
+96
+00:04:14,690 --> 00:04:18,459
+So let's just say u is
+equal to minus 0.85.
+
+97
+00:04:18,459 --> 00:04:19,380
+And what's v?
+
+98
+00:04:19,380 --> 00:04:23,840
+v looks about 2/3
+on the way to u.
+
+99
+00:04:23,840 --> 00:04:28,310
+So let's say v is equal
+to minus 0.6.
+
+100
+00:04:28,310 --> 00:04:32,530
+Once again I'm just-- let's
+say minus 0.66.
+
+101
+00:04:32,530 --> 00:04:34,970
+I'm just approximating
+once again.
+
+102
+00:04:34,970 --> 00:04:35,970
+So it's minus, right?
+
+103
+00:04:35,970 --> 00:04:37,430
+And they're both negative
+numbers, and they're both
+
+104
+00:04:37,430 --> 00:04:38,980
+almost at 1.
+
+105
+00:04:38,980 --> 00:04:41,020
+So what is the absolute
+value of u minus v?
+
+106
+00:04:41,020 --> 00:04:46,700
+Well, that's the absolute value
+of minus 0.85 minus v.
+
+107
+00:04:46,700 --> 00:04:51,790
+So minus minus 0.66.
+
+108
+00:04:51,790 --> 00:04:54,570
+So the minus minus
+becomes a plus.
+
+109
+00:04:54,570 --> 00:04:57,970
+So what's minus 0.85
+plus 0.66?
+
+110
+00:04:57,970 --> 00:05:03,300
+Well, that's roughly
+minus 0.19.
+
+111
+00:05:03,300 --> 00:05:04,960
+And if I'm taking the absolute
+value of that,
+
+112
+00:05:04,960 --> 00:05:08,200
+that becomes 0.19.
+
+113
+00:05:08,200 --> 00:05:12,360
+0.19, roughly 1/5, and there's
+no other number around.
+
+114
+00:05:12,360 --> 00:05:14,220
+Roughly 1/5 is around here, and
+there's no other number
+
+115
+00:05:14,220 --> 00:05:18,310
+there even remotely close,
+so that's going to be x.
+
+116
+00:05:18,310 --> 00:05:20,800
+And another way you could have
+thought about that, if you
+
+117
+00:05:20,800 --> 00:05:22,490
+didn't want to approximate,
+use numbers.
+
+118
+00:05:22,490 --> 00:05:23,900
+I do that just to make sure.
+
+119
+00:05:23,900 --> 00:05:27,010
+The absolute value, when you
+subtract two numbers and you
+
+120
+00:05:27,010 --> 00:05:28,320
+take the absolute value, you're
+essentially saying,
+
+121
+00:05:28,320 --> 00:05:29,710
+well, what's the distance
+between the two?
+
+122
+00:05:29,710 --> 00:05:30,990
+What's the positive distance?
+
+123
+00:05:30,990 --> 00:05:32,610
+I don't care whether one's
+larger or one's
+
+124
+00:05:32,610 --> 00:05:33,700
+less than the other.
+
+125
+00:05:33,700 --> 00:05:36,250
+So you're essentially saying
+what's this distance, this
+
+126
+00:05:36,250 --> 00:05:41,510
+distance here that's equal to
+this, to this expression?
+
+127
+00:05:41,510 --> 00:05:43,670
+So that distance, that
+positive distance, is
+
+128
+00:05:43,670 --> 00:05:47,250
+approximately equal to x, even
+in my not-exact drawing.
+
+129
+00:05:47,250 --> 00:05:50,740
+And if you look at how they drew
+it-- actually, even in
+
+130
+00:05:50,740 --> 00:05:52,130
+the way they drew it.
+
+131
+00:05:52,130 --> 00:05:53,220
+Oh, sorry!
+
+132
+00:05:53,220 --> 00:05:56,070
+They did u minus w.
+
+133
+00:05:56,070 --> 00:05:58,130
+So then it actually makes even
+more sense, because w
+
+134
+00:05:58,130 --> 00:05:59,380
+is more like 0.5.
+
+135
+00:05:59,380 --> 00:06:01,970
+   
+
+136
+00:06:01,970 --> 00:06:03,140
+I misread the problem.
+
+137
+00:06:03,140 --> 00:06:06,640
+This w is equal to
+more like 0.5.
+
+138
+00:06:06,640 --> 00:06:12,800
+So the absolute value of u minus
+w is going to be equal
+
+139
+00:06:12,800 --> 00:06:17,730
+to the absolute value of 0.85--
+sorry, w is minus 0.5.
+
+140
+00:06:17,730 --> 00:06:24,700
+It's in the negative domain,
+so minus 0.85 minus 0.5, so
+
+141
+00:06:24,700 --> 00:06:27,230
+that equals minus 0.35.
+
+142
+00:06:27,230 --> 00:06:30,380
+Absolute value is equal to 0.35,
+still is equal to x.
+
+143
+00:06:30,380 --> 00:06:31,560
+And they did that.
+
+144
+00:06:31,560 --> 00:06:34,550
+I was just approximating
+that x still works.
+
+145
+00:06:34,550 --> 00:06:37,180
+But according to the drawing,
+it makes even more sense
+
+146
+00:06:37,180 --> 00:06:39,570
+because we're actually talking
+about this distance.
+
+147
+00:06:39,570 --> 00:06:41,090
+Sorry, to w.
+
+148
+00:06:41,090 --> 00:06:43,820
+Let me do it in a different
+better color.
+
+149
+00:06:43,820 --> 00:06:46,240
+This is what u-- not this.
+
+150
+00:06:46,240 --> 00:06:48,260
+This is what this represents.
+
+151
+00:06:48,260 --> 00:06:52,620
+The absolute value of u minus
+w represents this distance.
+
+152
+00:06:52,620 --> 00:06:57,250
+And that distance is the
+same as the value of x.
+
+153
+00:06:57,250 --> 00:06:59,082
+And it really makes sense if you
+just look at the distance
+
+154
+00:06:59,082 --> 00:07:01,230
+between u and w in the book.
+
+155
+00:07:01,230 --> 00:07:02,670
+It's almost exact.
+
+156
+00:07:02,670 --> 00:07:05,960
+This actually looks like
+it was drawn to scale.
+
+157
+00:07:05,960 --> 00:07:06,780
+Next problem.
+
+158
+00:07:06,780 --> 00:07:08,160
+And that's choice
+C either way.
+
+159
+00:07:08,160 --> 00:07:10,080
+Even when I did it wrong
+the first way.
+
+160
+00:07:10,080 --> 00:07:12,830
+I didn't do it wrong,
+I misread.
+
+161
+00:07:12,830 --> 00:07:15,040
+To give myself a little
+bit of credit.
+
+162
+00:07:15,040 --> 00:07:16,160
+Problem number 9.
+
+163
+00:07:16,160 --> 00:07:17,840
+Although you won't get much
+credit if you misread
+
+164
+00:07:17,840 --> 00:07:20,280
+when you take it.
+
+165
+00:07:20,280 --> 00:07:24,200
+A number n is increased by 5.
+
+166
+00:07:24,200 --> 00:07:27,210
+I write these out as I read
+them, is increased by 5, and
+
+167
+00:07:27,210 --> 00:07:29,130
+the result is multiplied by 5.
+
+168
+00:07:29,130 --> 00:07:33,860
+   
+
+169
+00:07:33,860 --> 00:07:38,070
+This result is decreased by 5.
+
+170
+00:07:38,070 --> 00:07:40,455
+Finally, that result
+is divided by 5.
+
+171
+00:07:40,455 --> 00:07:43,140
+   
+
+172
+00:07:43,140 --> 00:07:45,020
+The whole result is
+divided by 5.
+
+173
+00:07:45,020 --> 00:07:48,220
+In terms of n, what is
+the final result?
+
+174
+00:07:48,220 --> 00:07:50,850
+Well, what can we do here?
+
+175
+00:07:50,850 --> 00:07:54,180
+We can divide the numerator
+and denominator by 5.
+
+176
+00:07:54,180 --> 00:07:56,470
+So this 5 will cancel out with
+this and this, right?
+
+177
+00:07:56,470 --> 00:07:57,670
+Because you distribute.
+
+178
+00:07:57,670 --> 00:08:04,160
+So you're left with n plus
+5 times 1, right?
+
+179
+00:08:04,160 --> 00:08:06,170
+Because this just becomes
+a 1, this becomes a 1,
+
+180
+00:08:06,170 --> 00:08:08,240
+this become a 1.
+
+181
+00:08:08,240 --> 00:08:11,850
+n plus 5 times 1-- I won't
+write the 1, because it
+
+182
+00:08:11,850 --> 00:08:13,730
+doesn't matter anymore--
+minus 1.
+
+183
+00:08:13,730 --> 00:08:15,064
+All of that over 1.
+
+184
+00:08:15,064 --> 00:08:17,480
+So we could just ignore that.
+
+185
+00:08:17,480 --> 00:08:20,030
+So it's n plus 5 minus 1.
+
+186
+00:08:20,030 --> 00:08:22,410
+Well, it's n plus 4.
+
+187
+00:08:22,410 --> 00:08:23,810
+Just get rid of the
+parentheses.
+
+188
+00:08:23,810 --> 00:08:25,980
+Plus 5 minus 1 is n plus 4.
+
+189
+00:08:25,980 --> 00:08:29,530
+And so that's choice D.
+
+190
+00:08:29,530 --> 00:08:32,669
+Let's see if I have space
+to do the next problem.
+
+191
+00:08:32,669 --> 00:08:35,990
+Or time, actually,
+more than space.
+
+192
+00:08:35,990 --> 00:08:38,840
+I will actually wait to do it
+in the next video, just so I
+
+193
+00:08:38,840 --> 00:08:40,570
+don't rush things, which
+I tend to do.
+
+194
+00:08:40,570 --> 00:08:42,090
+See you soon.
+
+195
+00:08:42,090 --> 00:08:42,333
+

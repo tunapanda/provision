@@ -1,0 +1,755 @@
+1
+00:00:00,633 --> 00:00:04,774
+We now know that if we have two triangles and all of their corresponding sides
+
+2
+00:00:04,774 --> 00:00:11,800
+are the same, so by side-side-side, the corresponding sides, all three of the corresponding sides have the same length,
+
+3
+00:00:11,800 --> 00:00:16,253
+we know that those triangles are congruent. What I want to do in this video
+
+4
+00:00:16,253 --> 00:00:20,379
+is explore if there are other properties that we can find between the triangles
+
+5
+00:00:20,379 --> 00:00:24,535
+that can help us feel pretty good that those two triangles would be congruent.
+
+6
+00:00:24,535 --> 00:00:28,295
+So side-side-side works, what about angle-angle-angle?
+
+7
+00:00:28,295 --> 00:00:31,589
+So let me do that over here, what about angle-angle-angle?
+
+8
+00:00:31,589 --> 00:00:35,622
+So what I'm saying is, let's say I have a triangle like this
+
+9
+00:00:35,622 --> 00:00:43,976
+and I have a triangle like that, and if we know that this angle is congruent to that angle,
+
+10
+00:00:43,976 --> 00:00:48,793
+if this angle is congruent to that angle, which means that their measures are equal.
+
+11
+00:00:48,793 --> 00:00:59,424
+Or/and that angle is congruent to that angle, can we say that these are two congruent triangles?
+
+12
+00:00:59,424 --> 00:01:03,029
+At first case, it looks like maybe it is, at least the way I drew it here.
+
+13
+00:01:03,029 --> 00:01:07,483
+But when you think about it, you can have the exact same corresponding angles
+
+14
+00:01:07,483 --> 00:01:10,471
+having the same measure or being congruent.
+
+15
+00:01:10,471 --> 00:01:14,632
+But you can actually scale one of these triangles up and down and still have that property.
+
+16
+00:01:14,632 --> 00:01:21,932
+For example, if I had this triangle right over here, it looks similar,
+
+17
+00:01:21,932 --> 00:01:25,078
+and I'm using that in just the everyday language sense,
+
+18
+00:01:25,078 --> 00:01:31,423
+it has the same shape as these triangles right over here, and it has the same angles
+
+19
+00:01:31,423 --> 00:01:36,117
+that angle is congruent to that angle, this angle down here is congruent
+
+20
+00:01:36,117 --> 00:01:41,263
+to this angle over here, and this angle over here is congruent to this angle over here.
+
+21
+00:01:41,263 --> 00:01:45,601
+So all of the angles in all three of these triangles are the same. The corresponding angles
+
+22
+00:01:45,601 --> 00:01:51,789
+have the same measure. But clearly, clearly this triangle right over here is not the same.
+
+23
+00:01:51,789 --> 00:01:56,652
+It is not congruent to the other two. The sides have a very different length.
+
+24
+00:01:56,652 --> 00:02:00,352
+This side is much shorter than this side right over here, this side is
+
+25
+00:02:00,352 --> 00:02:04,271
+much shorter than this side over there, and this side is much shorter over here.
+
+26
+00:02:04,271 --> 00:02:10,945
+So with just angle-angle-angle, you can not say that a triangle has a same size and shape.
+
+27
+00:02:10,945 --> 00:02:13,768
+It does have the same shape, but not the same size.
+
+28
+00:02:13,768 --> 00:02:20,168
+So this does not imply congruency. So angle-angle-angle does not
+
+29
+00:02:20,168 --> 00:02:23,620
+imply congruency. What is does imply, and we haven't talked about this yet,
+
+30
+00:02:23,620 --> 00:02:29,341
+is that these are similar triangles. So angle-angle-angle implies similar.
+
+31
+00:02:29,341 --> 00:02:32,156
+Let me write it over here, it implies similar triangles.
+
+32
+00:02:32,156 --> 00:02:35,370
+And similar, you probably are used to the word in just everyday language,
+
+33
+00:02:35,370 --> 00:02:38,978
+but similar has a very specific meaning in geometry.
+
+34
+00:02:38,978 --> 00:02:44,161
+And similar things have the same shape but not necessarily the same size.
+
+35
+00:02:44,161 --> 00:02:49,517
+So anything that is congruent, because it has the same size and shape, is also similar.
+
+36
+00:02:49,517 --> 00:02:56,083
+But not everything that is similar is also congruent. So for example, this triangle is similar,
+
+37
+00:02:56,083 --> 00:03:00,546
+all of these triangles are similar to each other, but they aren't all congruent.
+
+38
+00:03:00,546 --> 00:03:04,048
+These two are congruent if their sides are the same. I didn't make that assumption, but if we
+
+39
+00:03:04,048 --> 00:03:07,207
+know that their sides are the same, then we can say that they are congruent.
+
+40
+00:03:07,207 --> 00:03:11,939
+But neither of these are congruent to this one right over here because this is clearly much larger.
+
+41
+00:03:11,939 --> 00:03:13,933
+It has the same shape, but a different size.
+
+42
+00:03:13,933 --> 00:03:17,865
+So we can't have an AAA (angle-angle-angle) postulate, or an AAA axiom
+
+43
+00:03:17,865 --> 00:03:24,208
+to get to congruency. What about side-angle-side? Let's try this out.
+
+44
+00:03:24,208 --> 00:03:29,665
+Side-angle-side (SAS), so let's start out with one triangle right over here.
+
+45
+00:03:29,665 --> 00:03:34,505
+Let's start off with a triangle that looks like this, I have my blue side, I have my pink side,
+
+46
+00:03:34,505 --> 00:03:41,133
+and I have my magenta side. And let's say that I have another triangle that has
+
+47
+00:03:41,133 --> 00:03:45,661
+this [triangle's] blue side, it has the same side the same length as that blue side.
+
+48
+00:03:45,661 --> 00:03:49,664
+So let me draw it like that, it has the same length as that blue side,
+
+49
+00:03:49,664 --> 00:03:54,468
+so that length and that length are going to be the same. It has a congruent angle
+
+50
+00:03:54,468 --> 00:04:00,328
+right after that. So this angle and the next angle for this triangle are going
+
+51
+00:04:00,328 --> 00:04:07,032
+to have the same measure, or they are going to be congruent. Then the next side is going to have
+
+52
+00:04:07,032 --> 00:04:12,381
+the same length as this one over here. So that's going to be the same length as this over here.
+
+53
+00:04:12,381 --> 00:04:14,020
+So it's going to be the same length.
+
+54
+00:04:14,020 --> 00:04:21,229
+And we don't know, and because we only know that... two of the corresponding sides have the same length
+
+55
+00:04:21,229 --> 00:04:25,855
+then the angle between them, and this is important, the angle between the two corresponding sides
+
+56
+00:04:25,855 --> 00:04:32,295
+are also of the same measure, we can do anything we want with this last side on this one.
+
+57
+00:04:32,295 --> 00:04:35,234
+We can essentially, it's going to have to start right over here.
+
+58
+00:04:35,234 --> 00:04:40,142
+We can start it from this point, and we can pivot it to form any triangle we want.
+
+59
+00:04:40,142 --> 00:04:43,967
+But we can see, the only way we can form a triangle is if we bring the side all the way over here
+
+60
+00:04:43,967 --> 00:04:46,331
+and close this right over there.
+
+61
+00:04:46,331 --> 00:04:51,329
+And so we can see just logically that if we have, for two triangles
+
+62
+00:04:51,329 --> 00:04:55,885
+they have one side, that has the length the same, the next side has the length the same
+
+63
+00:04:55,885 --> 00:05:01,338
+and the angle in between them, so this angle, let me do that in the same color.
+
+64
+00:05:01,338 --> 00:05:06,301
+This angle in between them, this is the angle, this A is this angle and that angle.
+
+65
+00:05:06,301 --> 00:05:13,264
+It's the angle in between them. This first side is in blue, and this second side right over here is in pink.
+
+66
+00:05:13,294 --> 00:05:15,116
+I know it's already written in pink.
+
+67
+00:05:15,116 --> 00:05:20,190
+So we can see that if two sides are the same length, two corresponding sides are the same length
+
+68
+00:05:20,190 --> 00:05:23,727
+and the corresponding angle between them, they have to be congruent.
+
+69
+00:05:23,727 --> 00:05:26,234
+There's no other place to put this third side.
+
+70
+00:05:26,234 --> 00:05:33,969
+So SAS, and sometimes it's once again called a postulate, an axiom, or if it's proven sometimes it's called a theorem.
+
+71
+00:05:33,969 --> 00:05:38,534
+This does imply that the two triangles are congruent.
+
+72
+00:05:38,534 --> 00:05:45,190
+So we will give ourselves this tool in our toolkit. We had the SSS postulate, now we have the SAS postulate.
+
+73
+00:05:45,190 --> 00:05:48,369
+Two sides are equal and the angle in between them, for two triangles
+
+74
+00:05:48,369 --> 00:05:55,000
+corresponding sides and angles, then we can say that it is definitely, these are congruent triangles.
+
+75
+00:05:55,000 --> 00:05:58,879
+Now what about, now I'm just going to try to go through all of the different combinations here.
+
+76
+00:05:58,879 --> 00:06:03,254
+What if I have something, what if I have angle-side-angle?
+
+77
+00:06:03,254 --> 00:06:09,157
+So let me try that. So what happens if I have angle-side-angle?
+
+78
+00:06:09,157 --> 00:06:12,348
+So let's go back to this one right over here.
+
+79
+00:06:12,348 --> 00:06:15,430
+Actually let me just redraw a new one for each of these cases.
+
+80
+00:06:15,430 --> 00:06:20,220
+So angle-side-angle, so I'll draw a triangle here.
+
+81
+00:06:20,220 --> 00:06:26,124
+So I have this triangle, so this would be maybe the side, that would be the side.
+
+82
+00:06:26,124 --> 00:06:29,057
+Let me draw the whole triangle, actually, first.
+
+83
+00:06:29,057 --> 00:06:33,768
+Let me draw one side over here, and then let me draw one side over there
+
+84
+00:06:33,768 --> 00:06:39,209
+and that this angle right over here, I'll call it, I'll do it in orange
+
+85
+00:06:39,209 --> 00:06:43,600
+and this angle over here, I will do it in yellow.
+
+86
+00:06:43,600 --> 00:06:49,530
+So if I have another triangle that has one side having equal measure
+
+87
+00:06:49,530 --> 00:06:51,284
+so I'll use it as this blue side right over here.
+
+88
+00:06:51,284 --> 00:06:58,268
+So it has one side that has equal measure. And the two angles on either side of that side, or either end of that side
+
+89
+00:06:58,268 --> 00:07:02,085
+are the same, will this triangle necessarily be congruent?
+
+90
+00:07:02,085 --> 00:07:04,265
+We're just going to try to reason it out. These aren't formal proofs.
+
+91
+00:07:04,265 --> 00:07:07,237
+We're really just trying to set up, what are reasonable postulates,
+
+92
+00:07:07,237 --> 00:07:13,229
+or what are reasonable assumptions we can have as we, in our toolkit as we try to prove other things.
+
+93
+00:07:13,229 --> 00:07:17,565
+So, that angle, let's call it that angle right over there, is going to be,
+
+94
+00:07:17,565 --> 00:07:19,500
+it's going to have the same measure in this triangle.
+
+95
+00:07:19,500 --> 00:07:25,705
+And this angle right over here in yellow is going to have the same measure on this triangle right over here.
+
+96
+00:07:25,705 --> 00:07:29,976
+So regardless, so I'm not in any way constraining the sides over here.
+
+97
+00:07:29,976 --> 00:07:33,427
+So this side, this side right over here could have any length.
+
+98
+00:07:33,427 --> 00:07:37,169
+It could have any length, but it has to form this angle with it.
+
+99
+00:07:37,169 --> 00:07:40,653
+So it could have any length and it can just go as far as it wants to go
+
+100
+00:07:40,653 --> 00:07:43,389
+and in no way have we constrained what the length of that is.
+
+101
+00:07:43,389 --> 00:07:46,537
+Actually let me mark this off too, so this is the same as this.
+
+102
+00:07:46,537 --> 00:07:49,495
+So that side can be anything, we haven't constrained it at all.
+
+103
+00:07:49,495 --> 00:07:54,368
+And once again this side could be anything, we haven't constrained it at all
+
+104
+00:07:54,368 --> 00:07:58,220
+but we know it has to go at this angle. So it has to go at that angle.
+
+105
+00:07:58,220 --> 00:08:01,301
+Well once again, there's only one triangle that can be formed this way.
+
+106
+00:08:01,301 --> 00:08:04,912
+We can say all day that this length can be as long as we want or as short as we want,
+
+107
+00:08:04,912 --> 00:08:07,528
+and this one can be as long as we want or as short as we want.
+
+108
+00:08:07,528 --> 00:08:10,969
+But the only way that they can actually touch each other and form a triangle
+
+109
+00:08:10,969 --> 00:08:16,501
+and have these two angles is if, is if they are the exact same length as these,
+
+110
+00:08:16,501 --> 00:08:18,833
+as these two sides right over here.
+
+111
+00:08:18,833 --> 00:08:22,892
+So these two, this side will actually have to be the same as that side
+
+112
+00:08:22,892 --> 00:08:24,484
+and this will have to be the same as that side.
+
+113
+00:08:24,484 --> 00:08:28,281
+Once again, this isn't a proof, I'd call it more of a reasoning through it
+
+114
+00:08:28,281 --> 00:08:35,795
+or investigation, really just to establish what are reasonable baselines or axioms or assumptions or postulates that we can have.
+
+115
+00:08:35,795 --> 00:08:41,028
+So for my purposes, I think ASA does show us that two triangles,
+
+116
+00:08:41,028 --> 00:08:44,447
+two triangles are congruent.
+
+117
+00:08:44,447 --> 00:08:50,595
+Now let's try another one, let's try angle-angle-side. Let's try angle-angle-side.
+
+118
+00:08:50,595 --> 00:08:52,072
+And you know in some geometry classes,
+
+119
+00:08:52,072 --> 00:08:55,083
+and maybe if you have to go through an exam quickly you might memorize,
+
+120
+00:08:55,083 --> 00:08:58,010
+okay side-side-side implies congruency, that's kind of logical.
+
+121
+00:08:58,010 --> 00:09:01,431
+And side-angle-side implies congruency, and so on and so forth.
+
+122
+00:09:01,431 --> 00:09:04,486
+I'm not a fan of memorizing it. It might be good for time pressure.
+
+123
+00:09:04,486 --> 00:09:07,187
+It is good to sometimes even just go through this logic.
+
+124
+00:09:07,187 --> 00:09:09,367
+If you're like, wait, does angle-angle-angle work?
+
+125
+00:09:09,367 --> 00:09:11,971
+Well no, I can find this case that breaks down angle-angle-angle.
+
+126
+00:09:11,971 --> 00:09:17,468
+Will these work? Just try to verify for yourself, do they make logical sense why they would imply congruency?
+
+127
+00:09:17,468 --> 00:09:24,034
+Now let's try angle-angle-side. Let's try angle-angle-side.
+
+128
+00:09:24,034 --> 00:09:27,654
+So once again, let's say, let's have a triangle over here.
+
+129
+00:09:27,654 --> 00:09:30,957
+It has some side, so this one's going to be a little bit more interesting.
+
+130
+00:09:30,957 --> 00:09:33,820
+So it has some side, that's the side right over there.
+
+131
+00:09:33,820 --> 00:09:38,718
+And then it has two angles, so let me draw the other sides of this triangle.
+
+132
+00:09:38,718 --> 00:09:41,873
+I'll draw one in magenta and then one in green.
+
+133
+00:09:41,873 --> 00:09:45,418
+And it has, there's two angles, and then the side.
+
+134
+00:09:45,418 --> 00:09:49,510
+So let's see, you have this angle, you have that angle right over there.
+
+135
+00:09:49,510 --> 00:09:52,162
+Actually I didn't have to put the double, since that's the first angle that I'm,
+
+136
+00:09:52,162 --> 00:09:55,018
+so that angle, which we'll refer to as that first A.
+
+137
+00:09:55,018 --> 00:09:59,954
+Then we have this angle, which is that second A.
+
+138
+00:09:59,954 --> 00:10:02,750
+So if I know, if I know that there's another,
+
+139
+00:10:02,750 --> 00:10:08,275
+that there's another triangle that has one side having the same length.
+
+140
+00:10:08,275 --> 00:10:11,550
+Let me draw it like that, it has one side having the same length.
+
+141
+00:10:11,550 --> 00:10:15,585
+It has one angle on that side that has the same measure.
+
+142
+00:10:15,585 --> 00:10:18,224
+So it has a measure like that.
+
+143
+00:10:18,224 --> 00:10:22,339
+And so this, this side right over here could be of any length.
+
+144
+00:10:22,339 --> 00:10:25,883
+This side over here could be of any length, we aren't constraining what the length of that side is.
+
+145
+00:10:25,883 --> 00:10:32,116
+But whatever the angle is on the other side of that side is going to be the same as this green angle right over here.
+
+146
+00:10:32,116 --> 00:10:36,204
+So, for example, it could be like that, and then we could have the green side go like that.
+
+147
+00:10:36,204 --> 00:10:39,582
+It could be like that and have the green side go like that.
+
+148
+00:10:39,582 --> 00:10:42,257
+And if we have, so the only thing we're assuming
+
+149
+00:10:42,257 --> 00:10:46,489
+the only thing we're assuming is that this is the same length as this
+
+150
+00:10:46,489 --> 00:10:49,290
+and that this angle has the same measure as that angle
+
+151
+00:10:49,290 --> 00:10:51,587
+and that this measure is the same measure as that angle.
+
+152
+00:10:51,587 --> 00:10:53,966
+And this magenta line can be of any length
+
+153
+00:10:53,966 --> 00:10:57,875
+and this green line can be of any length, we in no way have constrained that.
+
+154
+00:10:57,875 --> 00:11:01,387
+But how - can we form any triangle that is not congruent to this?
+
+155
+00:11:01,387 --> 00:11:05,615
+Because the bottom line is, this green line is going to have to touch this one right over there
+
+156
+00:11:05,615 --> 00:11:09,400
+and the only way it's going to touch that one right over there is if it starts,
+
+157
+00:11:09,400 --> 00:11:13,048
+is if it starts right over here. Starts right over here.
+
+158
+00:11:13,048 --> 00:11:16,334
+Because we're constraining this angle right over here, we're constraining that angle.
+
+159
+00:11:16,334 --> 00:11:22,149
+And so it looks like angle-angle-side does indeed imply congruency.
+
+160
+00:11:22,149 --> 00:11:25,992
+So that does imply congruency.
+
+161
+00:11:25,992 --> 00:11:30,708
+So let's just do one more, just to kind of try out all of the different situations.
+
+162
+00:11:30,708 --> 00:11:34,405
+What if we have, and I'm running out of a little bit of real estate right over here at the bottom.
+
+163
+00:11:34,405 --> 00:11:38,760
+What if we tried out side-side-angle?
+
+164
+00:11:38,760 --> 00:11:46,562
+So once again, draw a triangle. It has one side there, it has another side there
+
+165
+00:11:46,562 --> 00:11:49,619
+and then, I'm not gonna do those hash marks just yet.
+
+166
+00:11:49,619 --> 00:11:54,558
+So one side, then another side, and then another side.
+
+167
+00:11:54,558 --> 00:11:56,856
+And it, what happens if we know that there's another triangle
+
+168
+00:11:56,856 --> 00:12:00,414
+that has two of the sides the same and then the angle after it?
+
+169
+00:12:00,414 --> 00:12:03,932
+So for example, it would have that side, just like that
+
+170
+00:12:03,932 --> 00:12:07,882
+and then it has another side, but we're not constraining the angle.
+
+171
+00:12:07,882 --> 00:12:11,866
+We aren't constraining, we aren't constraining this angle right over here.
+
+172
+00:12:11,866 --> 00:12:14,068
+But we're constraining the length of that side.
+
+173
+00:12:14,068 --> 00:12:16,752
+So let me color-code it. So that blue side is that first side.
+
+174
+00:12:16,752 --> 00:12:20,822
+Then we have this magenta side right over there.
+
+175
+00:12:20,822 --> 00:12:24,053
+So this is going to be the same length as this right over here.
+
+176
+00:12:24,053 --> 00:12:27,216
+But let me make it at a different angle to see if I can disprove it.
+
+177
+00:12:27,216 --> 00:12:30,172
+So let's say it looks like that. Or actually, let me make it even
+
+178
+00:12:30,172 --> 00:12:33,460
+let me make it even more interesting. Let me try to make it,
+
+179
+00:12:33,460 --> 00:12:39,611
+Let me try to make it like that.
+
+180
+00:12:39,611 --> 00:12:43,500
+So it's a very different angle, but now it has to have the same angle out here.
+
+181
+00:12:43,500 --> 00:12:47,411
+It has to have that same angle out here, so it has to be roughly that angle.
+
+182
+00:12:47,411 --> 00:12:52,620
+So actually it looks like we can draw a triangle that is not congruent that has the same,
+
+183
+00:12:52,620 --> 00:12:55,695
+two sides being the same length and then an angle that's different.
+
+184
+00:12:55,695 --> 00:13:00,153
+For example, this is pretty much that. I made this angle smaller than this angle.
+
+185
+00:13:00,153 --> 00:13:05,120
+These two sides are the same. This angle is the same now, but what the byproduct of that
+
+186
+00:13:05,120 --> 00:13:08,990
+is that this green side is going to be shorter on this triangle right over here.
+
+187
+00:13:08,990 --> 00:13:15,903
+So these aren't, you don't necessarily have congruent triangles with side-side-angle.
+
+188
+00:13:15,903 --> 00:13:22,444
+So this is, this is not necessarily congruent.
+
+189
+00:13:22,444 --> 00:13:26,444
+Or similar, it gives us neither congruency nor similarity.

@@ -1,0 +1,527 @@
+1
+00:00:00,720 --> 00:00:07,639
+For any real number x, let [x] denote the largest integer less than or equal to x,
+
+2
+00:00:07,639 --> 00:00:10,472
+often known as the greatest integer function.
+
+3
+00:00:10,472 --> 00:00:16,138
+Let f be a real valued function defined, on the interval -10 to 10, including the boundaries,
+
+4
+00:00:16,138 --> 00:00:24,311
+by f(x) = x - [x], if the greatest integer of x ([x]) is odd and
+
+5
+00:00:24,311 --> 00:00:29,791
+1 + [x] - x if the greatest integer of x is even.
+
+6
+00:00:29,791 --> 00:00:38,383
+Then the value of pi squared over 10 times the definite integral from -10 to 10 of f(x) cos(pi*x) dx is...?
+
+7
+00:00:38,383 --> 00:00:42,794
+So before we even try to attempt to evaluate this integral, let's see if we can at least visualize
+
+8
+00:00:42,794 --> 00:00:48,460
+this function f(x) right over here. So let's do our best to visualize it.
+
+9
+00:00:48,460 --> 00:00:59,467
+So let me draw my x- axis, and let me draw my y- axis. So let me draw my y- axis.
+
+10
+00:00:59,467 --> 00:01:03,321
+And then let's think about what this function will look like.
+
+11
+00:01:03,321 --> 00:01:10,800
+So this is x = 0, this is x = 0 , this is x = 1, x = 2,
+
+12
+00:01:10,800 --> 00:01:17,810
+x = 3, ... we could go down to negative 1, negative 2, we could just keep going if we like;
+
+13
+00:01:17,810 --> 00:01:22,267
+hopefully we'll see some type of pattern, because it seems to change from odd to even.
+
+14
+00:01:22,267 --> 00:01:29,792
+So between zero and one, what is the absolute, Oh! Sorry. What is the greatest integer of x?
+
+15
+00:01:29,792 --> 00:01:35,364
+So between zero and one, so let me just write over here - so between zero and one,
+
+16
+00:01:35,364 --> 00:01:39,126
+until you get to one, so may be I should do this,
+
+17
+00:01:39,126 --> 00:01:46,974
+from including zero, until one, the greatest integer of x, the greatest integer of x, is equal to zero.
+
+18
+00:01:46,974 --> 00:01:52,965
+If I am at point five, the greatest integer of 0.5 ([0.5]) is equal to zero.
+
+19
+00:01:52,965 --> 00:02:02,114
+As I go from one to two, as I go from one to two, the greatest, this [x] is equal to 1, it's the greatest
+
+20
+00:02:02,114 --> 00:02:07,129
+integer..., from like 1.5 the greatest integer is one. If I am at 1.9, the greatest integer is one!
+
+21
+00:02:07,129 --> 00:02:14,792
+And then, if I go to above, from between two and three, so If I go between two and three,
+
+22
+00:02:14,792 --> 00:02:21,108
+then the greatest integer is going to be two. If I am at 2.5, the greatest integer is going to be two.
+
+23
+00:02:21,108 --> 00:02:24,962
+So with that let's at least try to draw this function over these intervals.
+
+24
+00:02:24,962 --> 00:02:31,371
+So between 0 and 1, the greatest integer is 0. Zero - we can consider (it) to be even.
+
+25
+00:02:31,371 --> 00:02:36,804
+Zero is even, especially for alternating - 1 is odd, 2 is even, 3 is odd.
+
+26
+00:02:36,804 --> 00:02:42,145
+So 0 is even, so we will look at this circumstance right over here, if [x] is even.
+
+27
+00:02:42,145 --> 00:02:48,786
+And then over this time frame, or over this part of the x- axis, the greatest integer of x is just zero,
+
+28
+00:02:48,786 --> 00:02:57,981
+So the equation in, or the line, or the function is just going to be 1 - x over this interval, because [x] = 0.
+
+29
+00:02:57,981 --> 00:03:06,805
+So 1 - x will look like this. If this is 1, 1 - x just goes down like that. That's what it looks like
+
+30
+00:03:06,805 --> 00:03:12,470
+from 0 to 1. Now think about what happens as we go from 1 to 2.
+
+31
+00:03:12,470 --> 00:03:18,368
+As we go from 1 to 2, or not including 2, but including 1 all the way up to 2, not including it
+
+32
+00:03:18,368 --> 00:03:24,963
+the greatest integer is 1. Or the greatest integer, [x], is odd.
+
+33
+00:03:24,963 --> 00:03:30,117
+So we use this case. And over here, we're going to have x - [x].
+
+34
+00:03:30,117 --> 00:03:37,316
+Over this interval, [x] = 1. So its going to be the graph of x - 1.
+
+35
+00:03:37,316 --> 00:03:43,533
+So x - 1 at (x = ) 1 is going to be 0, and at (x = ) 2, it's going to be 1 again.
+
+36
+00:03:43,533 --> 00:03:50,458
+So it's going to be this. It's going to look just like that. So this right here is x - 1 and this over
+
+37
+00:03:50,458 --> 00:03:55,148
+here essentially was 1 - x. And we could keep doing it. As we go from 2 to 3,
+
+38
+00:03:55,148 --> 00:04:04,111
+[x] = 2, we would look at this case. So we are going to have 1 + 2, so we're going to have 3
+
+39
+00:04:04,111 --> 00:04:10,799
+We're going to have 3 here, minus x. So when we start over here, when x = 2, or a little bit above that,
+
+40
+00:04:10,799 --> 00:04:14,978
+we're going to have 3 - 2, we're going to go to 1, it's going to be right at 1
+
+41
+00:04:14,978 --> 00:04:20,133
+And then, as x = 3, 3 - 3 = 0; It's going to oscillate back down like this.
+
+42
+00:04:20,133 --> 00:04:23,802
+So I think we have an appreciation for what this graph is going to look like.
+
+43
+00:04:23,802 --> 00:04:29,142
+It's keep, it's going to keep going up and down like this - with a slope of negative 1and positive 1,
+
+44
+00:04:29,142 --> 00:04:34,297
+then negative 1 then positive 1; It's just going to keep doing that over and over again,
+
+45
+00:04:34,297 --> 00:04:38,802
+You could keep trying that with other intervals, but it's pretty clear that this is the pattern.
+
+46
+00:04:38,802 --> 00:04:45,768
+Now, what is, what we want to do is to evaluate the integral from 10 to -10 of this function times cos(pi*x)
+
+47
+00:04:45,768 --> 00:04:51,294
+So let's think about cos(pi*x) - think about whether that also is periodic, and of course it is
+
+48
+00:04:51,294 --> 00:04:57,146
+And then if we can simplify this integral,so we don't have to evaluate it over, OVER this entire
+
+49
+00:04:57,146 --> 00:05:01,790
+period over here. May be we can simplify it into an simpler integral.
+
+50
+00:05:01,790 --> 00:05:10,800
+So cos(pi*x), cos(0) = 0. Cosine... sorry cos(0) = 1. No one could get that wrong!
+
+51
+00:05:10,800 --> 00:05:22,641
+That's cos(pi*0) = cos(0), so that's 1. Cos(pi) = -1, so when x = 1, this becomes cos(pi), so then the
+
+52
+00:05:22,641 --> 00:05:31,200
+value of the function is -1, it will be over here, and then cos(2*pi (two times pi)) is then 1 again,
+
+53
+00:05:31,200 --> 00:05:37,781
+So it will look like this. I mean, this of course will be, this is at one-half, when you put it over
+
+54
+00:05:37,781 --> 00:05:48,648
+here, it will become pi/2 , cos(pi/2) = 0, zero. So it will look like this. It will look, let me draw it as neatly as possible...
+
+55
+00:05:48,648 --> 00:05:53,867
+So it will look like this. cosine, and then it will keep doing that! And then it will go like this...
+
+56
+00:05:53,867 --> 00:06:01,790
+So it is also periodic. So if we wanted to figure out, if we wanted to figure out, the, the integral
+
+57
+00:06:01,790 --> 00:06:08,292
+of the product of these two periodic functions, from all the way from -10 to 10, can we simplify that,
+
+58
+00:06:08,292 --> 00:06:14,700
+and it looks like it would just be, cause we have this interval, Let's look at this interval over here
+
+59
+00:06:14,700 --> 00:06:23,106
+Let's look at just from 0 to 1. So just from 0 to 1, we are going to take this function, and take the
+
+60
+00:06:23,106 --> 00:06:31,465
+product of this cosine times, essentially, (1-x), and then find the area under that curve, whatever it might be...
+
+61
+00:06:31,465 --> 00:06:39,639
+Then when we go from 1 to 2, when we take the product of this and (x-1), it is actually going to be the
+
+62
+00:06:39,639 --> 00:06:47,719
+same area. Because these two, going from 0 to 1, going from 0 to 1, and going from 1 to 2, it's completely
+
+63
+00:06:47,719 --> 00:06:52,642
+symmetric - you could flip it over, you could flip it over this line of symmetry, and both functions
+
+64
+00:06:52,642 --> 00:06:58,467
+are completely, are completely, symmetric, so you are going to have the same area when you take their product.
+
+65
+00:06:58,467 --> 00:07:04,112
+So what we see is, every interval, over every interval, when you go from 2 to 3, is going to be...
+
+66
+00:07:04,112 --> 00:07:07,456
+First of all, it's clearly going, the integral from 2 to 3 is clearly the same thing as the integral
+
+67
+00:07:07,456 --> 00:07:13,122
+from 0 to 1, both functions look identical over that integral, over that interval.
+
+68
+00:07:13,122 --> 00:07:18,787
+But it will also be the same as going from 1 to 2. Because it's completely symmetric, when you, when you take
+
+69
+00:07:18,787 --> 00:07:23,478
+the product of the functions, that function will be completely symmetric around this axis. So the integral
+
+70
+00:07:23,478 --> 00:07:29,533
+from here to here will be the same as the integral from there to there. So with that said, we can rewrite
+
+71
+00:07:29,533 --> 00:07:38,533
+this thing over here, So we want to evaluate pi squared over 10 times the integral from -10 to 10 of
+
+72
+00:07:38,533 --> 00:07:47,766
+f(x) cos(pi*x), using the logic we just talked about, this is going to be the same thing as being equal
+
+73
+00:07:47,766 --> 00:07:57,379
+to pi squared over 10, pi squared over 10, times the integral, well, times the integral, of, from 0 to 1
+
+74
+00:07:57,379 --> 00:08:04,809
+but 20 times that. Because we have 20 integers between -10 and 10. We have 20 intervals of length 1.
+
+75
+00:08:04,809 --> 00:08:16,698
+So times 20, times the integral, times the integral, from 0 to 1, of f(x), of f(x) cos(pi*x) dx. Forgot
+
+76
+00:08:16,698 --> 00:08:21,296
+to write, forgot to write the dx over there. I want to make sure you understand, cause this is really
+
+77
+00:08:21,296 --> 00:08:25,800
+the hard part of the problem - just realizing that the integral over this interval is just one-twentieth
+
+78
+00:08:25,800 --> 00:08:30,769
+of the whole thing, because over every interval from 0 to 1, it's going to be the, the integral is going
+
+79
+00:08:30,769 --> 00:08:34,810
+to evaluate to the same thing as going from 1 to 2, which will be the same thing as going from 2 to 3,
+
+80
+00:08:34,810 --> 00:08:39,639
+or going from -2 to -1, So in stead of doing the whole interval from negative to the 10, we are just
+
+81
+00:08:39,639 --> 00:08:46,466
+doing 20 times the interval from 0 to 1. From -10 to 10, you actually have 20, you, you, there's a difference
+
+82
+00:08:46,466 --> 00:08:50,971
+of 20 here, so we are multiplying by 20. And this simplifies it a good bit. First of all, this part over
+
+83
+00:08:50,971 --> 00:08:57,797
+here simplifies to 20/10 = 2. So it's 2 pi squared, so it becomes 2 pi squared - that's just this part
+
+84
+00:08:57,797 --> 00:09:05,135
+over here, times the integral from 0 to 1, now from 0 to 1, what is f(x)? We just figured it out. From
+
+85
+00:09:05,135 --> 00:09:18,649
+0 to 1, f(x) is just (1-x). f(x) is just (1-x) from 0 to 1, times cos(pi<i>x), cos(pi</i>x), dx. And now we
+
+86
+00:09:18,649 --> 00:09:25,200
+just have to evaluate this integral right over here. So let's do that. So (1-x) times cos(pi*x) is the
+
+87
+00:09:25,200 --> 00:09:36,807
+same thing as cos(pi<i>x) - x cos(pi</i>x). Now, this right here, taking the anti-deri... Let's take the,
+
+88
+00:09:36,807 --> 00:09:42,147
+we're going to take the, well let's just focus on taking the anti-deri, This is pretty easy, but let's
+
+89
+00:09:42,147 --> 00:09:48,463
+try to do this one, cause it seems a little bit more complicated. So let's take the anti-derivative of
+
+90
+00:09:48,463 --> 00:09:56,312
+x cos(pi*x) dx and what should jump in your mind is that well yeah, this isn't that simple, but if I
+
+91
+00:09:56,312 --> 00:10:00,770
+were already able to take the derivative of x, that would simplify, it's very easy to take the anti derivative
+
+92
+00:10:00,770 --> 00:10:07,132
+of cos(pi*x) without making it more complicated. So may be integration by parts. And remember, integration
+
+93
+00:10:07,132 --> 00:10:20,785
+by parts tells us that the integral, I'll write it up here, the integral of u dv = uv minus the integral of v du
+
+94
+00:10:20,785 --> 00:10:25,151
+And we'll apply that here. But there's, I have done many many videos where I prove this and show examples
+
+95
+00:10:25,151 --> 00:10:31,699
+of exactly what that means. But let's apply it right over here. And in general, we are going to take the
+
+96
+00:10:31,699 --> 00:10:36,714
+derivative of whatever the u thing is. We want u to be something that's simpler when I take the derivative.
+
+97
+00:10:36,714 --> 00:10:41,126
+And then we are going to take the anti derivative of dv - so we want something that does not become more
+
+98
+00:10:41,126 --> 00:10:46,467
+complicated when I take the anti derivative. So the thing that becomes simpler when I take its derivative
+
+99
+00:10:46,467 --> 00:10:59,470
+is x. So if I said u = x, then clearly, du = just dx, or you say du/dx = 1, so du = dx, and then dv,
+
+100
+00:10:59,470 --> 00:11:08,479
+then dv is going to the the rest of this, this whole thing over here is going to be dv. dv = (is equal
+
+101
+00:11:08,479 --> 00:11:18,975
+to) cos(pi*x) dx and so v, which is be the anti derivative of this, with respect to x, v is going to
+
+102
+00:11:18,975 --> 00:11:28,448
+be equal to 1/pi, 1/pi sin(pi*x). Right? If I took the derivative here, derivative of the inside, you
+
+103
+00:11:28,448 --> 00:11:34,718
+get a pi, times 1/pi, cancels out, derivative of sin(pi<i>x) becomes cos(pi</i>x). So that's our u, that's
+
+104
+00:11:34,718 --> 00:11:44,052
+our v, so this is going to be equal to, this is going to be equal to u times v, so it's equal to x,
+
+105
+00:11:44,052 --> 00:11:58,800
+this x, times this, so x/pi sin(pi*x) minus, minus, the integral, minus the integral of v, which is 1/pi
+
+106
+00:11:58,800 --> 00:12:09,362
+sin(pi<i>x) du. du is just dx. dx. And this is pretty straightforward. The anti derivative of sin(pi</i>x),
+
+107
+00:12:09,362 --> 00:12:17,117
+is 1/pi, or negative 1/pi cos(pi*x). And you could take the derivative if you don't believe me. You could
+
+108
+00:12:17,117 --> 00:12:21,297
+do, use substitution, but hopefully, you can start to do these things in your head. Especially if you
+
+109
+00:12:21,297 --> 00:12:25,477
+are going to take IIT joint entrance exam. So this whole expression is going to be, this part over here is
+
+110
+00:12:25,477 --> 00:12:38,387
+going to be x over pi sin(pi*x), and this over here is going to be, well you have the anti derivative
+
+111
+00:12:38,387 --> 00:12:48,200
+of sin(pi<i>x), 1/pi, negative 1/pi cos(pi</i>x), the negatives cancel out. So you have plus, and then you the 1/pi times 1/pi,
+
+112
+00:12:48,200 --> 00:12:57,200
+1/(pi squared) cos(pi<i>x). That's the anti derivative right there. You can verify. Derivative of cos(pi</i>x)
+
+113
+00:12:57,200 --> 00:13:03,975
+is going to be negative pi sin(pi*x), one pi will cancel out - here you get the negative sign, and you
+
+114
+00:13:03,975 --> 00:13:09,362
+have the sin(pi*x). So this is the anti derivative of that. And so if we want the anti derivative of
+
+115
+00:13:09,362 --> 00:13:18,790
+this whole thing right over here, this is, this is what we care about, from 0 to 1 dx. the anti derivative
+
+116
+00:13:18,790 --> 00:13:26,731
+of cos(pi*x), pretty straightforward. We have actually already done it right over here. It is 1/pi, 1/pi
+
+117
+00:13:26,731 --> 00:13:34,115
+sin(pi<i>x), that's this first term, and the anti derivative of x cos(pi</i>x) is this thing over here, but
+
+118
+00:13:34,115 --> 00:13:45,725
+we are subtracting it, so we will put a negative sign out front. So minus, x/pi sin(pi*x) minus 1/(pi squared)
+
+119
+00:13:45,725 --> 00:13:53,867
+cosine, of cosine, of pi*x, and of course we took the anti derivative, but it's a definite integral,
+
+120
+00:13:53,867 --> 00:13:59,471
+we need to evaluate it from 0 to 1, 0 to 1, and we don't want to figure out, forget, that 2 pi squared
+
+121
+00:13:59,471 --> 00:14:07,800
+out front, that 2 pi squared out front. So let's evaluate this. So the first thing we're going to have
+
+122
+00:14:07,800 --> 00:14:21,867
+1/pi sin(1<i>pi), sin(1</i>pi) = 0. So it's 0 minus 1/pi times sin(1*pi) again, that's again 0! Minus 1/(pi squared)
+
+123
+00:14:21,867 --> 00:14:30,772
+cos(pi), cosine of, or cos(1*pi), cos(pi) = negative 1, negative 1 times negative 1/(pi squared) is plus
+
+124
+00:14:30,772 --> 00:14:41,964
+1/(pi squared). So we have evaluated at 1. And from that we want to subtract it evaluated at 0. sin(0) = 0
+
+125
+00:14:41,964 --> 00:14:48,133
+Minus, this is clearly zero because you have a zero out front, minus zero, and then you have minus
+
+126
+00:14:48,133 --> 00:15:00,122
+cos(0), cos(0) is 1, so then you have a minus 1/(pi squared), 1/(pi squared), and so this term we could
+
+127
+00:15:00,122 --> 00:15:05,137
+just say this is a negative, these don't matter, negative, positive, positive, and we're just left with
+
+128
+00:15:05,137 --> 00:15:15,632
+a 1/(pi squared) plus 1/(pi squared) which is equal to, which is equal to, 2/(pi squared). That's what
+
+129
+00:15:15,632 --> 00:15:22,800
+this part evaluates to. It's 2/(pi squared), we can't forget, we can't forget, that we're going to multiply
+
+130
+00:15:22,800 --> 00:15:27,800
+this whole thing times 2 pi squared. So we're going to multiply the whole thing times two pi squared.
+
+131
+00:15:27,800 --> 00:15:32,444
+That's this thing out front here. And so the pi squared cancels out the pi squared, we're left with two
+
+132
+00:15:32,444 --> 99:59:59,999
+times two, which is equal to 4. And we're done. This thing that looked pretty complicated just evaluates out to 4!

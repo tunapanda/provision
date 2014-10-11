@@ -1,0 +1,322 @@
+1
+00:00:00,310 --> 00:00:04,644
+What we're now going to think about is 
+finding the differences between sets.
+
+2
+00:00:04,644 --> 00:00:08,236
+The first way that we will denote this is we'll start with set A
+
+3
+00:00:08,236 --> 00:00:12,952
+I've already defined set A here
+
+4
+00:00:12,952 --> 00:00:16,846
+and in both cases I have defined the sets with numbers.
+
+5
+00:00:16,846 --> 00:00:22,298
+Instead of having numbers as being the objects in the sets I could have had farm animals or famous presidents
+
+6
+00:00:22,298 --> 00:00:25,099
+but numbers will hopefully keep things fairly simple
+
+7
+00:00:25,099 --> 00:00:27,032
+so I'm going to start with set A
+
+8
+00:00:27,032 --> 00:00:32,593
+and from set A I'm going to subtract set B.
+
+9
+00:00:32,593 --> 00:00:35,566
+This is one way of thinking about the 
+difference between set A and set B.
+
+10
+00:00:35,566 --> 00:00:38,592
+When I've written it this way, this essentially says,
+
+11
+00:00:38,592 --> 00:00:45,767
+"Give me the set of all of the objects that are in A with the things that are in B taken out of that set."
+
+12
+00:00:45,767 --> 00:00:47,365
+So let's think about what that means.
+
+13
+00:00:47,365 --> 00:00:50,698
+So what's in set A with the things that are in B taken out?
+
+14
+00:00:50,698 --> 00:01:00,008
+That means, let's take set A and take out the 17, 19, and 6
+
+15
+00:01:00,008 --> 00:01:04,926
+so we're going to be left with the 5, 3,
+
+16
+00:01:04,926 --> 00:01:12,433
+we're not going to have the 17 because we subtracted out set B, so take out anything that is in set B.
+
+17
+00:01:12,433 --> 00:01:17,433
+You get the 5, 3, 12 (12 is not in set B so we can keep that in there)
+
+18
+00:01:17,433 --> 00:01:22,298
+and then the 19 is in set B so we're going to take out the 19 as well.
+
+19
+00:01:22,298 --> 00:01:29,366
+So this right over here, you could view it as set B subtracted from set A.
+
+20
+00:01:29,366 --> 00:01:31,675
+One way of thinking about it, as we just said
+
+21
+00:01:31,675 --> 00:01:37,175
+these are all of the elements that 
+are in set A that are not in set B.
+
+22
+00:01:37,175 --> 00:01:39,098
+Another way you could think about it is
+
+23
+00:01:39,098 --> 00:01:43,503
+these are all of the elements that are 
+not in set B but also in set A.
+
+24
+00:01:43,503 --> 00:01:44,925
+Let me make this clear.
+
+25
+00:01:44,925 --> 00:01:54,435
+You could view this as B subtracted from A
+
+26
+00:01:54,435 --> 00:02:15,177
+or you could view this as the 
+"relative complement of set B in A".
+
+27
+00:02:15,177 --> 00:02:17,702
+We're going to talk a lot more 
+about complements in the future
+
+28
+00:02:17,702 --> 00:02:20,757
+but the complement is the things that are not in B.
+
+29
+00:02:20,757 --> 00:02:31,101
+This is saying, "What are all of the things 
+not in B but are in A?"
+
+30
+00:02:31,101 --> 00:02:34,031
+If you said all of the things that aren't in B
+
+31
+00:02:34,031 --> 00:02:38,836
+then you're thinking about all of the numbers in the whole universe that aren't 17, 19, or 6
+
+32
+00:02:38,836 --> 00:02:41,692
+and actually you can even think broader, not even just thinking about numbers.
+
+33
+00:02:41,692 --> 00:02:47,525
+The colour orange is not in set B so that would
+be in the absolute complement of B.
+
+34
+00:02:47,525 --> 00:02:50,941
+I don't see a zebra here in set B 
+so that would be its complement.
+
+35
+00:02:50,941 --> 00:02:55,109
+But we're saying, what are all of the things 
+that are not in B but are in A?
+
+36
+00:02:55,109 --> 00:02:58,899
+That would be the numbers 5, 3, and 12.
+
+37
+00:02:58,899 --> 00:03:03,634
+When we visualize this as B subtracted 
+from A you might be saying
+
+38
+00:03:03,634 --> 00:03:11,910
+"I can imagine you took the 17 and 19 out, but what about taking the 6 out? Shouldn't you have taken the six out?"
+
+39
+00:03:11,910 --> 00:03:14,993
+In traditional subtraction maybe we might have ended up with a negative number or something.
+
+40
+00:03:14,993 --> 00:03:20,409
+When you subtract a set, if the set you're subtracting from does not have that element
+
+41
+00:03:20,409 --> 00:03:23,096
+then taking that element out of it doesn't change it.
+
+42
+00:03:23,096 --> 00:03:28,828
+If I start with set A and take all the 6's out of set A, it doesn't change it since there was no 6 to begin with.
+
+43
+00:03:28,828 --> 00:03:32,496
+I can take all the zebras out of set A - it will not change it.
+
+44
+00:03:32,496 --> 00:03:38,035
+Another way to denote the relative complement of set B in A
+
+45
+00:03:38,035 --> 00:03:40,164
+or B subtracted from A
+
+46
+00:03:40,164 --> 00:03:43,096
+is the notation I'm about to write.
+
+47
+00:03:43,096 --> 00:03:43,969
+We could have written it this way:
+
+48
+00:03:43,969 --> 00:03:52,305
+A, and this little figure right here that 
+looks eerily like a division sign
+
+49
+00:03:52,305 --> 00:03:57,170
+but this also means "the difference between set A and B".
+
+50
+00:03:57,170 --> 00:04:03,237
+When we write it this way, we're talking about all of the things in set A that are not in set B
+
+51
+00:04:03,237 --> 00:04:06,473
+or the things in set B taken out of set A
+
+52
+00:04:06,473 --> 00:04:09,837
+or the relative complement of B in A.
+
+53
+00:04:09,837 --> 00:04:13,056
+Let's think about things the other way around.
+
+54
+00:04:13,056 --> 00:04:27,708
+What would B slash A, or B minus A be?
+
+55
+00:04:27,708 --> 00:04:37,882
+We could also write it as B - A.
+
+56
+00:04:37,882 --> 00:04:41,785
+What would this be equal to?
+
+57
+00:04:41,785 --> 00:04:48,451
+We could view this as all of the things in B with 
+all of the things in A taken out of it
+
+58
+00:04:48,451 --> 00:04:54,681
+or the complement of A that happens to be in B.
+
+59
+00:04:54,681 --> 00:04:58,369
+Let's think of it as the set B with all 
+the things in A taken out of it.
+
+60
+00:04:58,369 --> 00:05:01,949
+If we start with set B, we have a 17.
+
+61
+00:05:01,949 --> 00:05:05,282
+But a 17 is in set A, so we have to take the 17 out.
+
+62
+00:05:05,282 --> 00:05:09,034
+Then we have a 19, but there's a 19 in set A 
+so we have to take the 19 out.
+
+63
+00:05:09,034 --> 00:05:14,831
+Then we have a 6 but we don't have to take 
+a 6 out of B because a 6 is not in set A
+
+64
+00:05:14,831 --> 00:05:17,696
+so we're left with just the 6.
+
+65
+00:05:17,696 --> 00:05:23,232
+So this would the set with the single element in it, set 6.
+
+66
+00:05:23,232 --> 00:05:25,464
+Let me ask another question.
+
+67
+00:05:25,464 --> 00:05:34,009
+What would the relative complement of A in A be?
+
+68
+00:05:35,035 --> 00:05:39,114
+This is the same thing as A minus A 
+and this is literally saying
+
+69
+00:05:39,114 --> 00:05:44,280
+let's take set A and take all of the things in set A out of it.
+
+70
+00:05:44,280 --> 00:05:48,969
+I start with a 5 but there's a 5 in set A so I take the 5 out.
+
+71
+00:05:48,969 --> 00:05:51,636
+There's a 3 but there's a 3 in set A 
+so I have to take the 3 out.
+
+72
+00:05:51,636 --> 00:05:58,302
+I'm going to take all of these things out, so I'm 
+just going to be left with the empty set.
+
+73
+00:05:58,302 --> 00:06:02,099
+The empty set, often called the null set.
+
+74
+00:06:02,099 --> 00:06:05,335
+Sometimes the notation for that will look like this.
+
+75
+00:06:05,335 --> 00:06:08,585
+The null set, the empty set.
+
+76
+00:06:08,585 --> 00:06:12,585
+There's a set that has absolutely no objects in it.

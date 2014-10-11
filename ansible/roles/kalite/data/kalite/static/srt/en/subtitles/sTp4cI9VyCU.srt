@@ -1,0 +1,331 @@
+1
+00:00:01,009 --> 00:00:05,992
+In the last video, I told you that we would figure out the final velocity of when this thing lands.
+
+2
+00:00:05,992 --> 00:00:09,164
+So, lets do that. I forgot to do that in the last video.
+
+3
+00:00:09,164 --> 00:00:13,775
+So, lets figure out the final velocity, the vertical and horizontal components of that final velocity,
+
+4
+00:00:13,775 --> 00:00:16,971
+and then we can reconstruct the total final velocity.
+
+5
+00:00:16,971 --> 00:00:22,670
+So the horizontal component is easy, because we already know that
+
+6
+00:00:22,670 --> 00:00:26,541
+the horizontal component of the velocity is this value over here.
+
+7
+00:00:26,541 --> 00:00:29,526
+This 30 cos of 80 degreees, and that is not going to change at any point in time.
+
+8
+00:00:29,526 --> 00:00:35,825
+So this is going to be the horizontal component of the projectile's velocity, when it lands.
+
+9
+00:00:35,825 --> 00:00:39,825
+but what we need to do is figure out the vertical component of its velocity.
+
+10
+00:00:39,825 --> 00:00:42,742
+But one thing we did figure out in the last video;
+
+11
+00:00:42,742 --> 00:00:47,310
+We figured out what the time in the air is going to be.
+
+12
+00:00:47,310 --> 00:00:52,275
+And we know a way of figuring out our final velocity from the initial velocity,
+
+13
+00:00:52,275 --> 00:00:54,720
+given our time in the air.
+
+14
+00:00:54,720 --> 00:00:58,100
+We know that a change in velocity
+
+15
+00:00:58,130 --> 00:01:01,526
+(only dealing with the vertical component, not the horizontal,
+
+16
+00:01:01,526 --> 00:01:10,892
+because the horizontal velocity is not going to change, as we have assumed that air resistance is negligible)
+
+17
+00:01:10,892 --> 00:01:19,982
+We know that the change in velocity, or the vertical component of the change in velocity,
+
+18
+00:01:19,982 --> 00:01:27,174
+is equal to the vertical component of the acceleration
+
+19
+00:01:28,220 --> 00:01:30,274
+multiplied by time.
+
+20
+00:01:30,274 --> 00:01:34,213
+Now we know what the change in time is...
+
+21
+00:01:35,474 --> 00:01:41,003
+And what is our, change in velocity?
+
+22
+00:01:41,003 --> 00:01:47,469
+It is our final vertical velocity, minus our initial vertical velocity.
+
+23
+00:01:47,469 --> 00:01:51,205
+And we know what our initial vertical velocity is, we solved for it...
+
+24
+00:01:51,205 --> 00:02:00,719
+We figured out that our initial vertical velocity was 29.54m/s, thats 30 sin 80 degrees.
+
+25
+00:02:01,535 --> 00:02:08,301
+So this is going to be minus 29.54 meters per second (m/s) is equal to...
+
+26
+00:02:08,301 --> 00:02:19,421
+our acceleration in the vertical direction, as it is accelerating us downward, negative 9.8 m/s squared
+
+27
+00:02:19,421 --> 00:02:24,914
+and our time in the air is 5.67 seconds, so times 5.67 seconds.
+
+28
+00:02:25,075 --> 00:02:30,892
+And so we can solve for the vertical component of our final velocity.
+
+29
+00:02:30,892 --> 00:02:36,093
+Once again, this is the vertical component, not the total one.
+
+30
+00:02:36,093 --> 00:02:38,742
+I wrote vertical up here so you know this is the vertical component.
+
+31
+00:02:38,742 --> 00:02:42,960
+So lets solve for this: if you add 29.54 to both sides,
+
+32
+00:02:42,960 --> 00:02:49,609
+you get the vertical component of your final velocity,
+
+33
+00:02:49,609 --> 00:02:52,310
+It is not marked up here properly.
+
+34
+00:02:52,310 --> 00:03:04,309
+Vertical component of final velocity is equal to 29.54m/s minus 9.8 meters per seconds squared
+
+35
+00:03:04,309 --> 00:03:10,542
+times 5.67 seconds, and the seconds cancel out with one of the seconds.
+
+36
+00:03:10,542 --> 00:03:13,593
+so everything is meters per second.
+
+37
+00:03:13,593 --> 00:03:15,308
+And so ill bring the calculator out again.
+
+38
+00:03:15,308 --> 00:03:27,059
+we have 29.54 minus 9.8, times 5.67.
+
+39
+00:03:27,059 --> 00:03:36,076
+So we get, our change, our final velocity is -26.03 ill say.
+
+40
+00:03:36,076 --> 00:03:41,593
+So this is, negative 26.03 m/s.
+
+41
+00:03:41,593 --> 00:03:46,076
+You might say, oh wait Sal! What does this negative 26.03 m/s mean?
+
+42
+00:03:46,076 --> 00:03:49,064
+Remember, when were dealing in the vertical dimension...
+
+43
+00:03:49,064 --> 00:03:53,416
+Positive means up, and negative means down.
+
+44
+00:03:53,416 --> 00:04:00,557
+So it means that we are going 26.03 m/s downwards, right when we land.
+
+45
+00:04:00,557 --> 00:04:06,942
+So what is our total velocity when we fall back to that landing?
+
+46
+00:04:06,942 --> 00:04:18,176
+The vertical component of our velocity is negative 29.03 in the downward direction.
+
+47
+00:04:18,176 --> 00:04:23,992
+And the horizontal component of our velocity, we know, hadn't changed the entire time.
+
+48
+00:04:23,992 --> 00:04:28,209
+That we figured it out, was 30 cosine of 80 degrees.
+
+49
+00:04:28,209 --> 00:04:33,926
+Here is 30 cosine of 80 degrees. Ill get the calculator out to caluclate it.
+
+50
+00:04:33,926 --> 00:04:40,492
+30 cosine of 80 degrees, which is equal to 5.21.
+
+51
+00:04:40,492 --> 00:04:46,742
+So this is 5.21 m/s, and these are both in meters per second.
+
+52
+00:04:46,742 --> 00:04:48,965
+So what is the total velocity?
+
+53
+00:04:48,965 --> 00:04:54,263
+Well I can do the heads to tails, and i can shift this guy over.
+
+54
+00:04:54,263 --> 00:05:00,260
+So that it's tail is at the head of the blue vector. So, it would look like that.
+
+55
+00:05:00,260 --> 00:05:06,367
+The length of this, the magnitude of our vertical component is 29.03.
+
+56
+00:05:06,367 --> 00:05:09,333
+And then we can just use the pythagorean theorem
+
+57
+00:05:09,333 --> 00:05:13,753
+to figure out the magnitute of the total velocity upon impact.
+
+58
+00:05:13,753 --> 00:05:17,410
+For the length of that, we can just use the pythagorean theorem!
+
+59
+00:05:17,533 --> 00:05:22,879
+So the magnitude of our total velocity, that's this length right here,
+
+60
+00:05:22,987 --> 00:05:29,441
+or our total final velocity, is going to be equal to
+
+61
+00:05:29,441 --> 00:05:37,258
+(let me write it this way), this is just straight from the pythagorean theorem.
+
+62
+00:05:37,258 --> 00:05:44,708
+(The square root of) 5.21 squared, plus 29.03 squared.
+
+63
+00:05:47,677 --> 00:05:50,450
+And we get it as being,
+
+64
+00:05:50,450 --> 00:06:03,899
+the square root of 5.21 squared plus 29.03 squared....
+
+65
+00:06:03,899 --> 00:06:12,883
+gives us, 29.49 m/s.
+
+66
+00:06:12,883 --> 00:06:17,817
+That is the magnitude of our final velocity, but we also need to figure out its direction.
+
+67
+00:06:17,817 --> 00:06:24,126
+So we need to figure out this angle, and now we are talking about an angle below the horizontal.
+
+68
+00:06:24,126 --> 00:06:28,264
+Or if you wanted to view it in pure terms, it would be a negative angle.
+
+69
+00:06:28,264 --> 00:06:33,028
+It is an angle below the horizontal. So what is this angle right over here?
+
+70
+00:06:33,028 --> 00:06:36,666
+If we view it as a positive angle in the traditional trigonometric way...
+
+71
+00:06:36,666 --> 00:06:39,730
+We could use any of the trig functions.
+
+72
+00:06:39,730 --> 00:06:43,296
+Let's use tangent, we could say that the tangent of the angle...
+
+73
+00:06:43,296 --> 00:06:46,762
+is equal to the opposite over the adjacent.
+
+74
+00:06:46,762 --> 00:06:49,846
+29.03 over 5.21
+
+75
+00:06:49,846 --> 00:06:55,428
+Or, that theta is equal to the inverse tangent, or the arc tangent
+
+76
+00:06:55,428 --> 00:07:03,430
+of 29.03 over 5.21, and that gives us...
+
+77
+00:07:03,430 --> 00:07:13,699
+the inverse tangent of 29.03 divided by 5.21 and we get...
+
+78
+00:07:13,699 --> 00:07:25,835
+79.8 degrees. But it is going to be 79.8 degrees south, or, below the horizontal.
+
+79
+00:07:26,419 --> 00:07:33,238
+Or you could view this as an angle of negative 79.8 degrees above the horizontal.
+
+80
+00:07:33,238 --> 00:07:35,584
+Either one of those work.
+
+81
+00:07:35,692 --> 00:07:39,254
+What is neat about this, is that we have our final velocity vector.
+
+82
+00:07:39,254 --> 00:07:42,504
+The entire vector, and we know what that vector is.
+
+83
+00:07:42,504 --> 00:07:52,560
+It is, 29.49 meters per second, at 79.8 degrees below the horizontal!

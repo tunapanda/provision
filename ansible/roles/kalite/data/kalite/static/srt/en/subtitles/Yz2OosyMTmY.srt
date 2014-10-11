@@ -1,0 +1,559 @@
+1
+00:00:00,000 --> 00:00:00,000
+   
+
+2
+00:00:00,000 --> 00:00:03,560
+Well the whole premise of the
+last series of videos was
+
+3
+00:00:03,560 --> 00:00:06,610
+really just trying to get at
+trying to figure out whether
+
+4
+00:00:06,610 --> 00:00:10,080
+some transformation T-- let's
+have some transformation that
+
+5
+00:00:10,080 --> 00:00:17,040
+is a mapping from, let's say
+it's a mapping from Rn to Rm,
+
+6
+00:00:17,040 --> 00:00:19,100
+--the whole question is,
+is T invertible.
+
+7
+00:00:19,100 --> 00:00:26,790
+   
+
+8
+00:00:26,790 --> 00:00:29,110
+And we showed several videos
+ago that a function, and a
+
+9
+00:00:29,110 --> 00:00:31,900
+transformation is really just a
+function, that a function is
+
+10
+00:00:31,900 --> 00:00:34,400
+invertible if it meets
+two conditions.
+
+11
+00:00:34,400 --> 00:00:36,740
+So invertible.
+
+12
+00:00:36,740 --> 00:00:38,840
+So I don't have to keep writing
+the word over again.
+
+13
+00:00:38,840 --> 00:00:40,010
+You have to have
+two conditions.
+
+14
+00:00:40,010 --> 00:00:43,980
+It has to be onto or essentially
+it has to map to
+
+15
+00:00:43,980 --> 00:00:48,210
+every member of your codomain
+and it also has to be
+
+16
+00:00:48,210 --> 00:00:50,540
+one-to-one.
+
+17
+00:00:50,540 --> 00:00:53,060
+Another way of saying one-to-one
+is that every
+
+18
+00:00:53,060 --> 00:00:56,960
+member of your codomain is
+mapped to by at most one
+
+19
+00:00:56,960 --> 00:00:58,700
+member of your domain.
+
+20
+00:00:58,700 --> 00:01:01,060
+And we did several videos where
+we thought well if we
+
+21
+00:01:01,060 --> 00:01:04,599
+had a transformation, a linear
+transformation, that's defined
+
+22
+00:01:04,599 --> 00:01:11,140
+by a matrix, A, where this would
+be an m-by-n matrix, we
+
+23
+00:01:11,140 --> 00:01:19,150
+said that this is going to be
+met if the rank-- This is only
+
+24
+00:01:19,150 --> 00:01:24,740
+met if the rank of A is equal to
+the number of rows in your
+
+25
+00:01:24,740 --> 00:01:27,710
+transformation matrix
+is equal to m.
+
+26
+00:01:27,710 --> 00:01:31,100
+And in the last video I just
+showed that this is only true
+
+27
+00:01:31,100 --> 00:01:34,360
+if every one of your column
+vectors are linearly
+
+28
+00:01:34,360 --> 00:01:37,200
+independent or that they all
+are basis vectors for your
+
+29
+00:01:37,200 --> 00:01:43,720
+column space or that the rank
+of your matrix it has to be
+
+30
+00:01:43,720 --> 00:01:45,320
+equal to n.
+
+31
+00:01:45,320 --> 00:01:48,600
+Now in order for something to
+be invertible, in order for
+
+32
+00:01:48,600 --> 00:01:51,290
+the transformation to be
+invertible, both of these
+
+33
+00:01:51,290 --> 00:01:52,350
+things have to be true.
+
+34
+00:01:52,350 --> 00:01:55,440
+Your rank of A has to be equal
+to m and your rank of A has to
+
+35
+00:01:55,440 --> 00:01:56,490
+be equal to n.
+
+36
+00:01:56,490 --> 00:01:58,050
+So in order to be invertible,
+a couple of
+
+37
+00:01:58,050 --> 00:01:59,890
+things have to happen.
+
+38
+00:01:59,890 --> 00:02:04,340
+In order to be invertible your
+rank of your transformation
+
+39
+00:02:04,340 --> 00:02:07,660
+matrix has to be equal to m,
+which has to be equal to n.
+
+40
+00:02:07,660 --> 00:02:10,340
+So m has to be equal to n.
+
+41
+00:02:10,340 --> 00:02:11,610
+So we have an interesting
+condition.
+
+42
+00:02:11,610 --> 00:02:13,145
+You have to have a
+square matrix.
+
+43
+00:02:13,145 --> 00:02:17,180
+   
+
+44
+00:02:17,180 --> 00:02:20,790
+Your matrix has to be n-by-n.
+
+45
+00:02:20,790 --> 00:02:22,030
+That's what this implies.
+
+46
+00:02:22,030 --> 00:02:24,930
+If both of these are true, then
+m has to be equal n and
+
+47
+00:02:24,930 --> 00:02:26,480
+you're dealing with
+a square matrix.
+
+48
+00:02:26,480 --> 00:02:29,650
+Even more, you're dealing with
+the square matrix where every
+
+49
+00:02:29,650 --> 00:02:31,760
+one of the columns are
+linearly independent,
+
+50
+00:02:31,760 --> 00:02:34,660
+so this is our A.
+
+51
+00:02:34,660 --> 00:02:35,750
+A looks like this.
+
+52
+00:02:35,750 --> 00:02:41,200
+A1, A2, all the way to An.
+
+53
+00:02:41,200 --> 00:02:44,140
+Since the rank of A is equal to
+n, and this is of course an
+
+54
+00:02:44,140 --> 00:02:45,280
+n-by-n matrix.
+
+55
+00:02:45,280 --> 00:02:50,240
+We just said that this has to
+be the case because its rank
+
+56
+00:02:50,240 --> 00:02:52,470
+has to be equal to m, which is
+the number of rows, and its
+
+57
+00:02:52,470 --> 00:02:53,870
+rank has to be equal to n,
+which is the number of
+
+58
+00:02:53,870 --> 00:02:56,780
+columns, so the rows and columns
+have to be the same.
+
+59
+00:02:56,780 --> 00:02:59,010
+But the fact that your rank
+is equal to the number of
+
+60
+00:02:59,010 --> 00:03:03,250
+columns, that means that all
+of your column vectors are
+
+61
+00:03:03,250 --> 00:03:06,300
+bases for your column space, or
+that if you put them into
+
+62
+00:03:06,300 --> 00:03:14,500
+reduced row echelon form, what
+are you going to get?
+
+63
+00:03:14,500 --> 00:03:17,130
+Well all of these guys are basis
+vectors so they're all
+
+64
+00:03:17,130 --> 00:03:20,780
+going to be associated with
+pivot vectors or they're all
+
+65
+00:03:20,780 --> 00:03:22,500
+going to be associated
+with pivot columns.
+
+66
+00:03:22,500 --> 00:03:26,570
+So this is going to be 1, 0,
+bunch of 0's, and then you're
+
+67
+00:03:26,570 --> 00:03:29,180
+going to have a 0, 1, a bunch
+of 0's like this.
+
+68
+00:03:29,180 --> 00:03:40,690
+They're all going to be
+associated with pivot columns
+
+69
+00:03:40,690 --> 00:03:43,610
+when you go into reduced
+row echelon form.
+
+70
+00:03:43,610 --> 00:03:45,090
+So all of them are
+pivot columns.
+
+71
+00:03:45,090 --> 00:03:46,890
+It's an n-by-n matrix.
+
+72
+00:03:46,890 --> 00:03:49,470
+So what is an n-by-n
+matrix where every
+
+73
+00:03:49,470 --> 00:03:51,570
+column is a pivot column?
+
+74
+00:03:51,570 --> 00:03:53,120
+What is an n-by-n matrix?
+
+75
+00:03:53,120 --> 00:03:54,870
+Let me write this.
+
+76
+00:03:54,870 --> 00:03:55,970
+So you have an n.
+
+77
+00:03:55,970 --> 00:04:02,710
+So the reduced row echelon form
+of A has to be equal to
+
+78
+00:04:02,710 --> 00:04:15,350
+an n-by-n matrix, cause A is
+n-by-n, where every column is
+
+79
+00:04:15,350 --> 00:04:17,510
+a linearly independent
+pivot column.
+
+80
+00:04:17,510 --> 00:04:20,870
+And I mean by definition of
+reduced row echelon form you
+
+81
+00:04:20,870 --> 00:04:23,570
+can't have the same pivot
+column twice where every
+
+82
+00:04:23,570 --> 00:04:28,460
+column is a linearly independent
+pivot column.
+
+83
+00:04:28,460 --> 00:04:30,450
+It's a little bit redundant, but
+I think you get the idea.
+
+84
+00:04:30,450 --> 00:04:33,550
+So what is an n-by-n matrix
+where every column is a
+
+85
+00:04:33,550 --> 00:04:35,560
+linearly independent
+pivot column?
+
+86
+00:04:35,560 --> 00:04:42,960
+Well that is just a matrix that
+has 1's down the diagonal
+
+87
+00:04:42,960 --> 00:04:44,215
+and everything else is a 0.
+
+88
+00:04:44,215 --> 00:04:46,890
+   
+
+89
+00:04:46,890 --> 00:04:50,940
+Or, you've seen this matrix
+before, this is just an n-by-n
+
+90
+00:04:50,940 --> 00:04:56,410
+identity matrix or the identity
+matrix on n or on Rn.
+
+91
+00:04:56,410 --> 00:04:58,965
+So if you multiply this matrix
+times any member of Rn, you're
+
+92
+00:04:58,965 --> 00:05:01,350
+just going to get that
+matrix again.
+
+93
+00:05:01,350 --> 00:05:02,740
+But this is interesting.
+
+94
+00:05:02,740 --> 00:05:06,440
+We now have a pretty usable
+condition for invertibility.
+
+95
+00:05:06,440 --> 00:05:12,360
+We can say that the
+transformation T that is a
+
+96
+00:05:12,360 --> 00:05:17,800
+mapping from Rn to-- well it
+has to map to the same
+
+97
+00:05:17,800 --> 00:05:21,300
+dimension space so
+from Rn to Rn.
+
+98
+00:05:21,300 --> 00:05:27,720
+It's equal to some square matrix
+n-by-n, it has to be an
+
+99
+00:05:27,720 --> 00:05:31,030
+n-by-n matrix, times our
+vectors in our domain.
+
+100
+00:05:31,030 --> 00:05:41,690
+And it's only going to be
+invertible if the reduced row
+
+101
+00:05:41,690 --> 00:05:47,550
+echelon form of our
+transformation matrix is equal
+
+102
+00:05:47,550 --> 00:05:50,620
+to the identity matrix on n.
+
+103
+00:05:50,620 --> 00:05:54,590
+I mean I could have written an
+m here and I could've said
+
+104
+00:05:54,590 --> 00:05:58,160
+this is an m-by-n matrix, but
+the only way that this is
+
+105
+00:05:58,160 --> 00:06:01,700
+going to be true is if
+this is also an n and
+
+106
+00:06:01,700 --> 00:06:02,670
+this is also an m.
+
+107
+00:06:02,670 --> 00:06:03,900
+But maybe I could leave
+them there.
+
+108
+00:06:03,900 --> 00:06:06,080
+Let me leave those
+m's there because
+
+109
+00:06:06,080 --> 00:06:07,700
+that's the big takeaway.
+
+110
+00:06:07,700 --> 00:06:11,990
+The big takeaway is that in
+order for the transformation
+
+111
+00:06:11,990 --> 00:06:16,330
+matrix to be invertible, the
+only way it's invertible is if
+
+112
+00:06:16,330 --> 00:06:20,640
+the reduced row echelon form of
+our transformation matrix
+
+113
+00:06:20,640 --> 00:06:23,870
+is equal to an n-by-n
+identity matrix.
+
+114
+00:06:23,870 --> 00:06:27,410
+The identity matrix is always
+going to be n-by-n.
+
+115
+00:06:27,410 --> 00:06:28,510
+So that's a big takeaway.
+
+116
+00:06:28,510 --> 00:06:31,880
+Now we'll use that in the future
+to actually solve for
+
+117
+00:06:31,880 --> 00:06:34,620
+transformations or solve for
+inverses of transformations.
+
+118
+00:06:34,620 --> 00:06:36,127
+

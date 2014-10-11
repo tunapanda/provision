@@ -1,0 +1,889 @@
+1
+00:00:01,600 --> 00:00:06,795
+In the last video we talked a
+little bit about, at least potentially, starting
+a cupcake factory.
+
+2
+00:00:06,820 --> 00:00:09,800
+But this is a major investment
+that I'm thinking about making,
+
+3
+00:00:09,800 --> 00:00:12,950
+so at minimum, I made
+a spreadsheet here in Excel
+
+4
+00:00:12,950 --> 00:00:21,163
+and it's available at
+khanacademy.org/downloads/cupcakes.xls.
+
+5
+00:00:21,163 --> 00:00:23,710
+If you just click slash here,
+you'll see everything in the download directory,
+
+6
+00:00:23,710 --> 00:00:26,365
+but I'm
+going to start putting more stuff there.
+
+7
+00:00:26,365 --> 00:00:27,860
+So I encourage you
+to play with it.
+
+8
+00:00:27,860 --> 00:00:30,760
+But this is essentially-- it'll
+do all the math for us
+
+9
+00:00:30,760 --> 00:00:35,225
+that we did in the
+last video, --the investment in the factory.
+
+10
+00:00:35,225 --> 00:00:39,128
+Let's say in the real world,
+once I actually got bids from contractors and things
+like that,
+
+11
+00:00:39,128 --> 00:00:41,459
+it ends up costing $1.1 million.
+
+12
+00:00:41,470 --> 00:00:44,450
+The annual capacity is a million
+cupcakes per year.
+
+13
+00:00:44,450 --> 00:00:48,075
+The cost per cupcake is-- let's
+say, I don't know, input costs went up for
+whatever reason.
+
+14
+00:00:48,075 --> 00:00:52,466
+Now that I have a computer doing
+the math for me, I can deal with a little bit
+funnier numbers.
+
+15
+00:00:52,466 --> 00:00:54,680
+So let's say it's $1.05.
+
+16
+00:00:54,680 --> 00:00:58,740
+The price charged per
+cupcake is $2.
+
+17
+00:00:58,740 --> 00:01:00,820
+Well, actually, it can
+be anything, right?
+
+18
+00:01:00,820 --> 00:01:04,762
+And so this is going to
+be an input field and right now it says $2.
+
+19
+00:01:04,762 --> 00:01:08,915
+Let's say this is what
+we assume is how many cupcakes we sell. In this scenario,
+
+20
+00:01:08,915 --> 00:01:13,649
+this is the
+income statement, at least as far as we get to the operating
+income line.
+
+21
+00:01:13,649 --> 00:01:18,090
+And so it calculates that you
+have $2 million of revenue.
+
+22
+00:01:18,090 --> 00:01:19,570
+Notice what happens
+when I change it.
+
+23
+00:01:19,570 --> 00:01:26,052
+If I sell my cupcakes for a
+$1.50 per cupcake, then I only have $1.5 million.
+
+24
+00:01:26,052 --> 00:01:28,760
+So it actually computes what
+we need it to compute.
+
+25
+00:01:28,760 --> 00:01:30,340
+It computes the cost
+of goods sold.
+
+26
+00:01:30,340 --> 00:01:33,040
+If I change the number of
+cupcakes, let's see,
+
+27
+00:01:33,040 --> 00:01:40,150
+if instead of a million, I sell 500,000, it calculates everything accordingly.
+
+28
+00:01:40,150 --> 00:01:43,040
+And in all these scenarios it
+tells me my operating income.
+
+29
+00:01:43,040 --> 00:01:46,857
+And if you go a little bit
+lower, it tells me capacity utilization.
+
+30
+00:01:46,880 --> 00:01:50,725
+That's just how many cupcakes I
+sold, divided by how many I could make.
+
+31
+00:01:50,725 --> 00:01:53,914
+So it's 50% utilization and
+then,
+
+32
+00:01:53,914 --> 00:02:01,267
+my return on asset is my operating income divided by my
+initial investment, right?
+
+33
+00:02:01,267 --> 00:02:05,300
+So this is 275,000 divided by
+1.1, it was a minus 25.
+
+34
+00:02:05,300 --> 00:02:07,610
+So this is actually
+a bad outcome.
+
+35
+00:02:07,610 --> 00:02:10,919
+So in the last one, I touched on
+a little bit that
+
+36
+00:02:10,919 --> 00:02:17,234
+the real lever that I, as the owner
+of my cupcake factory, can change is price.
+
+37
+00:02:17,234 --> 00:02:21,245
+And then, obviously, if I charge
+a lower price more people are going to want to
+buy my cupcakes
+
+38
+00:02:21,245 --> 00:02:23,453
+and if I charge a higher price,
+fewer people.
+
+39
+00:02:23,453 --> 00:02:27,522
+Although, there are some things
+that when you charge a higher price people think it
+must be better
+
+40
+00:02:27,522 --> 00:02:31,230
+so maybe they want it, or they want to show
+off to their friends,
+
+41
+00:02:31,230 --> 00:02:34,410
+and look at this expensive cupcake that
+I eat, and it's kind of a status symbol.
+
+42
+00:02:34,410 --> 00:02:38,383
+But for the most part
+the lower the price, the more you sell.
+
+43
+00:02:38,383 --> 00:02:42,724
+And now we can actually figure
+out under what combinations am I going to make certain
+amounts of money.
+
+44
+00:02:42,724 --> 00:02:47,493
+So if I charge $1.50 per cupcake
+and I'm only able to sell 500,000 cupcakes,
+
+45
+00:02:47,493 --> 00:02:51,234
+I'm going
+to take a loss per year of $275,000.
+
+46
+00:02:51,240 --> 00:02:57,100
+If I sell them for $1.75 and
+if I sell, I don't know, 700,000 cupcakes,
+
+47
+00:02:57,100 --> 00:03:00,570
+I'm almost
+at break-even.
+
+48
+00:03:00,570 --> 00:03:02,850
+So, let's see, you
+have to do $1.85.
+
+49
+00:03:02,850 --> 00:03:04,790
+Here in this situation,
+I actually make money.
+
+50
+00:03:04,790 --> 00:03:07,410
+I have a 5% return on asset.
+
+51
+00:03:07,410 --> 00:03:11,668
+And, just so you know, this is
+a major investment that I'm making, $1.1 million.
+
+52
+00:03:11,670 --> 00:03:15,308
+I actually want to make sure
+I understand all of the scenarios of price and sales.
+
+53
+00:03:15,330 --> 00:03:19,224
+So what I did is actually
+used Excel to do a sensitivity study.
+
+54
+00:03:19,224 --> 00:03:26,683
+So what I did here is I put all
+of the-- let me just go to that part of the spreadsheet.
+
+55
+00:03:26,683 --> 00:03:29,751
+And I encourage you to play
+with this, because it's interesting.
+
+56
+00:03:29,751 --> 00:03:33,798
+It shows you that even in a
+fairly simple business, you can do a lot of analysis.
+
+57
+00:03:33,798 --> 00:03:37,000
+And, if you're in high school
+or in middle school, this could actually be a fun--
+
+58
+00:03:37,000 --> 00:03:40,137
+I don't know if they allow this type of thing for science
+projects.
+
+59
+00:03:40,140 --> 00:03:44,145
+But go to a local business and
+kind of analyze the business in a hundred different ways.
+
+60
+00:03:44,150 --> 00:03:46,270
+And actually, if you watch the
+probability videos,
+
+61
+00:03:46,270 --> 00:03:49,399
+I do all those things on Poisson processes and things
+like that.
+
+62
+00:03:49,400 --> 00:03:51,720
+You can analyze the business and
+do Excel spreadsheets and
+
+63
+00:03:51,720 --> 00:03:54,520
+you'll probably end up winning
+soon the state science fair.
+
+64
+00:03:54,520 --> 00:03:56,740
+Call it a math project or
+engineering project.
+
+65
+00:03:56,740 --> 00:04:00,561
+But anyway, here I want
+to figure out what is my return on asset?
+
+66
+00:04:00,561 --> 00:04:06,172
+So essentially my operating
+profit divided by my initial investment,
+
+67
+00:04:06,172 --> 00:04:10,013
+depending on the
+different prices I might charge and the different
+quantities.
+
+68
+00:04:10,030 --> 00:04:19,532
+And here it's kind of hard to
+visualize, so I graphed it as a three dimensional surface. 3D.
+
+69
+00:04:19,560 --> 00:04:28,931
+So as you see here, if I charge
+$2.80 and I only sell 300,000, then this is my return
+on asset right here.
+
+70
+00:04:28,950 --> 00:04:32,070
+This curve is actually the
+zero curve, right?
+
+71
+00:04:32,070 --> 00:04:33,900
+So this is actually my
+break-even right here.
+
+72
+00:04:33,900 --> 00:04:38,360
+So any point along this curve
+right here I'm at break-even.
+
+73
+00:04:38,360 --> 00:04:45,542
+So if I'm at $2.80 per cupcake
+and I only sell 300,000, I'm at break-even.
+
+74
+00:04:45,550 --> 00:04:47,240
+Let's see, what is
+this right here?
+
+75
+00:04:47,240 --> 00:04:55,855
+If I sell $1.60 per cupcake and
+if I sell 900,000, then I'm also at break-even.
+
+76
+00:04:55,870 --> 00:04:59,487
+So this is my break-even
+curve. This is what I want to avoid.
+
+77
+00:04:59,490 --> 00:05:05,850
+Everything here is in the
+negative, right, according to the legend, minus 50% to
+zero percent return.
+
+78
+00:05:05,870 --> 00:05:10,697
+So here I'm losing money and I
+would color it in if I wasn't in Excel mode.
+
+79
+00:05:10,700 --> 00:05:15,505
+If I charge $1.60 per cupcake
+and I only sell 400,000 cupcakes,
+
+80
+00:05:15,505 --> 00:05:17,038
+I'm going to have
+a negative return.
+
+81
+00:05:17,038 --> 00:05:19,692
+And we can figure it
+out in that little worksheet I just did.
+
+82
+00:05:19,700 --> 00:05:24,026
+But anyway this is fun to look
+at and I encourage you to play with it.
+
+83
+00:05:24,040 --> 00:05:27,264
+And it actually shows you that
+it's a fairly interesting and sophisticated thing,
+
+84
+00:05:27,264 --> 00:05:29,248
+that
+you have these two variables that change.
+
+85
+00:05:29,248 --> 00:05:32,430
+And this is about as simple
+as a business can get.
+
+86
+00:05:32,430 --> 00:05:34,420
+You can only imagine what
+happens when you start varying the other parameters,
+
+87
+00:05:34,420 --> 00:05:36,500
+but these
+are the two big ones.
+
+88
+00:05:36,500 --> 00:05:43,362
+So let's say, when I come out
+the gate, I want everyone in town to taste my cupcakes.
+
+89
+00:05:43,380 --> 00:05:48,842
+Because I think, once they taste
+it, they'll realize that they're delicious.
+
+90
+00:05:48,842 --> 00:05:51,800
+And by the way, I've also
+learned from the cigarette companies
+
+91
+00:05:51,800 --> 00:05:56,574
+and I put nicotine
+in my cupcake, so I think people will become
+addicted to it.
+
+92
+00:05:56,574 --> 00:05:59,258
+So what I do is, I want
+to charge a relatively low price for it.
+
+93
+00:05:59,258 --> 00:06:04,130
+Let's say I do come out the gate
+at, I don't know, $1.75.
+
+94
+00:06:04,130 --> 00:06:06,470
+And that's a very cheap
+price for cupcakes.
+
+95
+00:06:06,470 --> 00:06:09,586
+There's actually no cupcake
+producers in this town right now.
+
+96
+00:06:09,586 --> 00:06:14,974
+So I just sell out. I just sell out of cupcakes.
+
+97
+00:06:14,974 --> 00:06:19,196
+And so I'm making $200,000
+per year, that's an 18% return on asset.
+
+98
+00:06:19,196 --> 00:06:21,800
+And a lot of people would be
+happy with that.
+
+99
+00:06:21,800 --> 00:06:26,418
+but I'm like, hey, I'm leaving money on the
+table because I'm selling out of my cupcakes.
+
+100
+00:06:26,440 --> 00:06:30,280
+So what happens if I raise
+my price a little bit?
+
+101
+00:06:30,280 --> 00:06:33,412
+I'm fully utilized, right? I have 100% utilization.
+
+102
+00:06:33,430 --> 00:06:37,650
+So it makes sense for me to
+see if there's any-- maybe
+
+103
+00:06:37,650 --> 00:06:41,608
+there's some people who want
+cupcakes, who can't get them because I can't produce
+that many.
+
+104
+00:06:41,608 --> 00:06:43,520
+So let me raise my price
+a little bit.
+
+105
+00:06:43,520 --> 00:06:47,580
+Let me say I raise
+it to $1.85.
+
+106
+00:06:47,580 --> 00:06:51,838
+At $1.85 it still turns out
+that I'm selling a million cupcakes in a year.
+
+107
+00:06:51,850 --> 00:06:54,502
+Now, I was right. I was leaving money
+on the table.
+
+108
+00:06:54,502 --> 00:06:58,395
+Now I'm making $300,000
+a year. This seems like a good idea.
+
+109
+00:06:58,395 --> 00:07:00,730
+I want to see how much people
+are willing to pay.
+
+110
+00:07:00,730 --> 00:07:03,750
+So, let's say, I raise
+the price to $2.
+
+111
+00:07:03,750 --> 00:07:07,119
+But, in that scenario, $2, it
+starts to get a little pricey for people.
+
+112
+00:07:07,119 --> 00:07:10,250
+It's just kind of a little
+sticker shock. Maybe I should have
+done $1.99.
+
+113
+00:07:10,255 --> 00:07:15,907
+And so I don't sell a million. I sell 950,000.
+
+114
+00:07:15,930 --> 00:07:18,580
+There's maybe 50,000
+people in the margin who said,
+
+115
+00:07:18,580 --> 00:07:23,662
+hey, you know, I'd buy it at
+$1.85 but I'm not willing to buy it at $2.
+
+116
+00:07:23,662 --> 00:07:26,012
+But this still works
+out, right? I'm still making more money.
+
+117
+00:07:26,012 --> 00:07:28,550
+Even though I'm selling fewer
+cupcakes,
+
+118
+00:07:28,550 --> 00:07:33,700
+because I'm charging so much more per cupcake, and
+I'm making a 37% return.
+
+119
+00:07:33,700 --> 00:07:35,360
+Let's say I keep figuring
+this out.
+
+120
+00:07:35,360 --> 00:07:39,941
+And let's say I figured out
+the optimal point is me charging $3 per cupcake.
+
+121
+00:07:39,950 --> 00:07:47,091
+And at $3 per cupcake,
+I'm able to sell you 750,000 cupcakes.
+
+122
+00:07:47,110 --> 00:07:52,185
+And I make $962,000 a year
+and I have a huge return on asset, 88%.
+
+123
+00:07:52,185 --> 00:07:56,984
+Imagine a business or some
+investment where you get 88% of your money every year.
+
+124
+00:07:56,990 --> 00:08:05,562
+So that's all good and I'm
+driving a Bentley and I have the biggest house on a hill
+in town and all of that.
+
+125
+00:08:05,600 --> 00:08:08,907
+But other people say,
+hey, all Sal's doing is making cupcakes.
+
+126
+00:08:08,910 --> 00:08:13,271
+I can make cupcakes too
+and I have some money to build a factory.
+
+127
+00:08:13,271 --> 00:08:17,335
+This is a better return on
+investment than the stock market or anything else
+that I know of.
+
+128
+00:08:17,350 --> 00:08:24,950
+So I'm also going to get into
+the cupcake factory business.
+
+129
+00:08:24,950 --> 00:08:32,062
+And so, here, this is the
+second worksheet in this spreadsheet.
+
+130
+00:08:32,090 --> 00:08:38,804
+So let's say, I was
+at $1.1 million. I don't know if you
+can see this.
+
+131
+00:08:38,804 --> 00:08:45,136
+Maybe I should zoom
+in a little bit. There you go.
+
+132
+00:08:45,166 --> 00:08:50,602
+So this is the same thing. So I said $3 and, 750,000
+cupcakes and
+
+133
+00:08:50,602 --> 00:08:53,350
+my cost was a $1.05.
+
+134
+00:08:53,350 --> 00:08:55,370
+So I was making $962,000.
+
+135
+00:08:55,370 --> 00:09:00,697
+But then Imran-- and just if
+you're curious why I wasn't recording videos for the last
+two weeks,
+
+136
+00:09:00,700 --> 00:09:04,350
+actually Imran is the name of my son and he came
+into the world two weeks ago,
+
+137
+00:09:04,350 --> 00:09:08,824
+and so, I think it makes
+sense to name a cupcake store after him.
+
+138
+00:09:08,824 --> 00:09:13,441
+But let's say he comes in, and
+he's like, I'm tired of getting an allowance
+from dad;
+
+139
+00:09:13,460 --> 00:09:16,080
+I also want to produce cupcakes.
+
+140
+00:09:16,080 --> 00:09:20,800
+And he actually has more money
+because his grandma gave him more money
+
+141
+00:09:20,800 --> 00:09:24,550
+because she likes
+him more than her son.
+
+142
+00:09:24,550 --> 00:09:27,560
+And so he has $1.5 million to
+invest because he's like, wow,
+
+143
+00:09:27,560 --> 00:09:31,555
+this is such a good investment,
+let me put more money into it. $1.5 million.
+
+144
+00:09:31,570 --> 00:09:36,182
+He builds a factory that
+can produce two million cupcakes a year.
+
+145
+00:09:36,182 --> 00:09:41,604
+And also, it's a more efficient
+factory, so it actually uses a little less
+electricity,
+
+146
+00:09:41,604 --> 00:09:47,422
+and wastes less cream and frosting, and, I
+guess, nicotine as well.
+
+147
+00:09:47,430 --> 00:09:51,660
+So the cost per cupcake
+is less.
+
+148
+00:09:51,660 --> 00:09:59,398
+And he decides to undercut his
+father, so he charges $2.90 per cupcake.
+
+149
+00:09:59,398 --> 00:10:03,210
+And when he charges $2.90 per--
+everyone just kind of runs to him,
+
+150
+00:10:03,210 --> 00:10:05,550
+because his
+cupcakes are just as good.
+
+151
+00:10:05,550 --> 00:10:06,890
+There really wasn't
+much of a barrier.
+
+152
+00:10:06,890 --> 00:10:13,250
+So, let's say, he sells
+500,000 cupcakes.
+
+153
+00:10:13,250 --> 00:10:19,190
+Then I'm only selling
+250,000 at $3.
+
+154
+00:10:19,190 --> 00:10:21,510
+There's just some people
+who like my cupcakes.
+
+155
+00:10:21,510 --> 00:10:27,049
+So I'm pretty much almost
+break-even and I say, well, these are my die-hard fans.
+
+156
+00:10:27,060 --> 00:10:29,300
+And so, to benefit them-- these
+guys aren't going to go anywhere else.
+
+157
+00:10:29,300 --> 00:10:31,150
+I'm going to
+raise my prices a little bit.
+
+158
+00:10:31,150 --> 00:10:34,180
+Just because I know that
+these guys like me.
+
+159
+00:10:34,180 --> 00:10:36,560
+At least in that situation,
+I'm cutting a profit.
+
+160
+00:10:36,560 --> 00:10:39,494
+But then I say, well, you know,
+this isn't a good state of affairs.
+
+161
+00:10:39,494 --> 00:10:40,800
+He took all my business.
+
+162
+00:10:40,800 --> 00:10:44,221
+I actually want you to notice
+something right here, what happened immediately.
+
+163
+00:10:44,240 --> 00:10:47,620
+I was making an 88% percent
+return on my money, right?
+
+164
+00:10:47,620 --> 00:10:56,335
+And just when this Imran comes
+in, and he enters into the space, all of a sudden,
+what is the return?
+
+165
+00:10:56,335 --> 00:10:58,732
+He's only running at
+25% utilization.
+
+166
+00:10:58,732 --> 00:11:02,530
+But his return on asset has gone
+down to 20.
+
+167
+00:11:02,530 --> 00:11:06,481
+and, because he's at that utilization,
+his return on asset has gone down to 20%.
+
+168
+00:11:06,481 --> 00:11:09,400
+And then my return on asset
+has gone down to 1%.
+
+169
+00:11:09,400 --> 00:11:10,890
+So there's a general
+theme here.
+
+170
+00:11:10,890 --> 00:11:16,502
+When someone is doing really
+well and getting a really great return, it attracts
+competition.
+
+171
+00:11:16,510 --> 00:11:19,250
+It attracts capacity, right?
+
+172
+00:11:19,250 --> 00:11:25,332
+And if there's enough demand to
+satiate that new capacity, maybe they will get
+a better return.
+
+173
+00:11:25,332 --> 00:11:30,818
+But in general, over time, if
+there's a very favorable return, more and more will enter the market.
+
+174
+00:11:30,818 --> 00:11:32,370
+Actually I've run out of
+time in the studio.
+
+175
+00:11:32,370 --> 00:11:35,451
+In the next video, I'll talk
+about more scenarios with competition.
+
+176
+00:11:35,451 --> 00:11:36,700
+See you soon

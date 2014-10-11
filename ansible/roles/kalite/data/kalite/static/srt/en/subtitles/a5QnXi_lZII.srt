@@ -1,0 +1,599 @@
+1
+00:00:00,550 --> 00:00:05,410
+Let's do a slightly more complicated 2D projectile motion problem now
+
+2
+00:00:05,680 --> 00:00:15,000
+So in this situation I am going to launch the projectile off of a platform
+
+3
+00:00:15,220 --> 00:00:20,370
+And then it is going to land on another platform
+
+4
+00:00:39,900 --> 00:00:50,880
+It's coming out of the cannon. Let me do it this way just to make it 100% clear
+
+5
+00:00:53,740 --> 00:00:58,840
+So this angle right over here is 53 degrees
+
+6
+00:00:59,080 --> 00:01:10,360
+And we are going to come out the muzzle of the cannon with a velocity of 90 m/s
+
+7
+00:01:10,830 --> 00:01:15,630
+Just to give ourselves a sense of how high it's being launched from
+
+8
+00:01:15,940 --> 00:01:25,850
+From the muzzle of the cannon down to here, so this height right over here is 25 meters
+
+9
+00:01:26,670 --> 00:01:34,620
+and let's say that this height right over here is 9 m
+
+10
+00:01:34,650 --> 00:01:37,960
+And so we are essentially launching this from a height of 25 meters
+
+11
+00:01:37,960 --> 00:01:42,090
+I know in the last video even though I drew the cannon like this
+
+12
+00:01:42,090 --> 00:01:45,180
+we assumed that it was being launched it from a altitude of 0
+
+13
+00:01:45,180 --> 00:01:47,860
+and then landing back at an altitude of 0
+
+14
+00:01:47,870 --> 00:01:51,870
+Here we are assuming we're launching it from an altitude of 25 meters
+
+15
+00:01:51,870 --> 00:01:54,280
+That's when it's leaving the muzzle
+
+16
+00:01:54,300 --> 00:01:57,060
+and it's gonna start decelerating at least in the vertical direction
+
+17
+00:01:57,060 --> 00:01:58,660
+as soon as it leaves the muzzle
+
+18
+00:01:59,360 --> 00:02:03,040
+and then we're assuming it's not gonna land back at the same altitude
+
+19
+00:02:03,040 --> 00:02:05,440
+It's gonna land at a different altitude
+
+20
+00:02:05,460 --> 00:02:07,790
+So how do we think about this problem?
+
+21
+00:02:07,810 --> 00:02:10,010
+So the first thing you always wanna do
+
+22
+00:02:10,010 --> 00:02:14,420
+is divide your velocity vector into its horizontal and vertical components
+
+23
+00:02:14,710 --> 00:02:18,390
+You use the vertical component to figure out how long it will stay in the air
+
+24
+00:02:18,490 --> 00:02:20,700
+And then you use the horizontal component to figure out
+
+25
+00:02:20,700 --> 00:02:23,430
+given how long it's in the air, how far does it travel?
+
+26
+00:02:23,650 --> 00:02:27,290
+And once again, we're gonna assume the air resistance is negligible
+
+27
+00:02:27,990 --> 00:02:30,790
+So just based on what we did in the last video
+
+28
+00:02:30,790 --> 00:02:34,480
+I'll go through all of these steps in this one as well
+
+29
+00:02:34,820 --> 00:02:38,880
+If we draw our vector
+
+30
+00:02:38,900 --> 00:02:41,030
+the length here is going to be 90
+
+31
+00:02:41,510 --> 00:02:46,060
+The angle over here--this is our velocity vector--the angle over here between
+
+32
+00:02:49,400 --> 00:02:54,060
+And let me draw the horizontal component. It would look like this
+
+33
+00:02:54,230 --> 00:03:05,720
+And the vertical component would look like this
+
+34
+00:03:06,190 --> 00:03:11,030
+And so the vertical component of the vector, what would be the side right over here?
+
+35
+00:03:11,030 --> 00:03:14,480
+Well, this is the opposite side
+
+36
+00:03:14,480 --> 00:03:20,340
+We know from basic trigonometry sine of an angle is opposite over the hypotenuse
+
+37
+00:03:29,850 --> 00:03:44,560
+is equal to the magnitude of the vertical velocity--
+
+38
+00:03:44,570 --> 00:03:48,780
+I write that subscript Y, for the Y direction. That's the vertical direction
+
+39
+00:03:48,800 --> 00:03:54,450
+Over the length of the hypotenuse, over the magnitude of our original vector
+
+40
+00:03:54,810 --> 00:04:00,790
+Or if we multiply both sides by 90
+
+41
+00:04:01,170 --> 00:04:03,630
+we get that the magnitude of that side
+
+42
+00:04:14,290 --> 00:04:18,110
+Now if we want to do the horizontal component
+
+43
+00:04:18,120 --> 00:04:20,630
+the horizontal side is adjacent to this
+
+44
+00:04:20,630 --> 00:04:27,210
+Soh-cah-toa, cos is adjacent over hypotenuse
+
+45
+00:04:27,230 --> 00:04:34,480
+So the horizontal component of our velocity, I'll say x direction
+
+46
+00:04:35,170 --> 00:04:39,500
+over the hypotenuse, over 90
+
+47
+00:04:46,030 --> 00:04:51,040
+Cosine is adjacent over hypotenuse. Adjacent that's this length over 90
+
+48
+00:04:51,280 --> 00:04:57,560
+Multiply both sides by 90, you get that the horizontal component
+
+49
+00:05:07,840 --> 00:05:11,860
+Now how do we figure out how long the thing takes in the air?
+
+50
+00:05:11,860 --> 00:05:16,340
+We'll use the vertical component for that
+
+51
+00:05:16,360 --> 00:05:20,180
+Especially since we're dealing with different levels, we can't use that
+
+52
+00:05:20,240 --> 00:05:23,970
+more basic reasoning that, "Hey, whatever velocity we start off at
+
+53
+00:05:23,970 --> 00:05:28,530
+it's gonna be the same magnitude of velocity but the opposite direction
+
+54
+00:05:28,530 --> 00:05:30,870
+because we're not going to the same elevation
+
+55
+00:05:30,900 --> 00:05:36,670
+What we could do is we can use the formula that we derived in the previous video
+
+56
+00:05:37,050 --> 00:05:41,100
+that the displacement--let me just copy and paste this a little bit lower
+
+57
+00:05:42,340 --> 00:05:46,980
+Copy it and paste it. I'll get it right over here
+
+58
+00:05:47,360 --> 00:05:49,190
+So we can use this
+
+59
+00:05:49,220 --> 00:05:52,690
+We know that the displacement is equal to the initial velocity
+
+60
+00:05:52,750 --> 00:05:55,430
+and we're dealing with the vertical direction right here, times the change in time
+
+61
+00:05:55,430 --> 00:05:59,140
+plus the acceleration times the change in time squared divided by two
+
+62
+00:05:59,430 --> 00:06:02,220
+So how do we use this to figure out how long we're in the air?
+
+63
+00:06:02,240 --> 00:06:09,200
+So what is the displacement if we're starting at 25 m high and we're going to 9 m high?
+
+64
+00:06:09,700 --> 00:06:21,100
+So over the course, while this thing is traveling it will be displaced downwards 16 m
+
+65
+00:06:21,330 --> 00:06:23,260
+Or another way to think about it is
+
+66
+00:06:23,280 --> 00:06:34,210
+our displacement in the vertical direction is going to be equal to -16 m
+
+67
+00:06:34,450 --> 00:06:37,550
+Right? Because 25-9 is 16
+
+68
+00:06:38,090 --> 00:06:44,540
+And so we can put that into the formula we derive in the previous video. We get
+
+69
+00:06:44,920 --> 00:06:53,900
+-16 -- I won't write the units here for the sake of space and simplicity--
+
+70
+00:06:54,210 --> 00:07:02,040
+is equal to the initial velocity--we're dealing with just the vertical dimension here
+
+71
+00:07:02,170 --> 00:07:06,130
+Remember, it's negative because our displacement is going to be downwards
+
+72
+00:07:06,260 --> 00:07:08,000
+We're losing altitude
+
+73
+00:07:26,460 --> 00:07:31,310
+Times our change in time
+
+74
+00:07:31,330 --> 00:07:37,070
+[plus] the acceleration due to the force of gravity for objects in free fall
+
+75
+00:07:37,070 --> 00:07:39,900
+It's -9.8 m/s squared
+
+76
+00:07:40,210 --> 00:07:49,760
+but we're dividing that by two. So we have -4.9 m/s^2
+
+77
+00:07:49,760 --> 00:07:56,330
+times delta t squared, times our change in time squared
+
+78
+00:07:56,510 --> 00:08:00,410
+So how do we solve something like this? You can't just factor out a t and solve it
+
+79
+00:08:00,410 --> 00:08:03,740
+You might recognize that this is a quadratic equation right over here
+
+80
+00:08:03,750 --> 00:08:05,900
+The way you solve quadratic equations is
+
+81
+00:08:06,030 --> 00:08:09,800
+you get everything on one side of this equation and then
+
+82
+00:08:10,070 --> 00:08:14,710
+you either factor it out, or more likely in the situation, you will use the quadratic formula
+
+83
+00:08:14,710 --> 00:08:19,050
+which we proved in other videos, hopefully, giving you the intuition for it
+
+84
+00:08:19,360 --> 00:08:26,170
+to actually solve for the times where your displacement in the vertical direction is -16 m
+
+85
+00:08:26,370 --> 00:08:31,650
+I will get 2 solutions here, and one solution will be a negative change in time
+
+86
+00:08:31,710 --> 00:08:35,250
+There some time in the past, you're also at -16 m
+
+87
+00:08:35,350 --> 00:08:37,320
+That's nonsensical for this problem
+
+88
+00:08:37,320 --> 00:08:40,270
+So we want to take the positive value here
+
+89
+00:08:40,300 --> 00:08:46,090
+So let's put all of this on one side of the equation
+
+90
+00:08:46,090 --> 00:08:50,550
+Let's add 16 to both sides
+
+91
+00:08:50,660 --> 00:08:53,970
+On the left-hand side you get a zero
+
+92
+00:08:54,140 --> 00:08:58,240
+Zero is equal to--I'll write it in the traditional way that we're used to seeing
+
+93
+00:08:58,240 --> 00:09:06,270
+I'll write the highest degree term first. So -4.9 times delta t squared
+
+94
+00:09:25,300 --> 00:09:32,100
+and then +16
+
+95
+00:09:32,120 --> 00:09:35,160
+All of this is equal to zero
+
+96
+00:09:35,360 --> 00:09:39,150
+And this once against is just the quadratic equation. We can find its roots
+
+97
+00:09:39,190 --> 00:09:44,490
+and the roots will be in terms of delta t. We can solve for delta t using the quadratic formula
+
+98
+00:09:44,880 --> 00:09:48,760
+So we get delta t--
+
+99
+00:09:48,760 --> 00:09:53,460
+if this is very unfamiliar to you, review the videos on Khan Academy algebra playlist
+
+100
+00:09:53,540 --> 00:09:57,040
+on the quadratic formula. If you don't know where it came from, it also proved it for you
+
+101
+00:09:57,070 --> 00:10:02,630
+So it's equal to negative b--b is this right here, the coefficient on the delta t
+
+102
+00:10:07,930 --> 00:10:13,200
+I'll write the quadratic formula for those of you who can't remember it
+
+103
+00:10:13,210 --> 00:10:18,740
+So I'm going to solve Ax^2+Bx+C=0
+
+104
+00:10:18,920 --> 00:10:21,680
+The roots over here is going to be -B
+
+105
+00:10:31,930 --> 00:10:35,830
+These are going to be the X values that satisfy this equation up here
+
+106
+00:10:36,170 --> 00:10:43,440
+So that's what I'm doing over here. This is the B value, negative B plus or minus--
+
+107
+00:10:43,460 --> 00:10:47,330
+It turns out we only care about the plus one, because that's gonna give us the positive value
+
+108
+00:10:52,660 --> 00:10:55,930
+B squared, so it's this quantity squared
+
+109
+00:11:02,080 --> 00:11:23,300
+-4 times A which is -4.9, times C which is 16
+
+110
+00:11:23,610 --> 00:11:30,300
+This radical all the way over here. All that over 2A
+
+111
+00:11:30,320 --> 00:11:37,480
+A is -4.9, so 2A is -9.8
+
+112
+00:11:37,750 --> 00:11:41,820
+So now we can get the calculator out to figure out our change in time
+
+113
+00:11:41,830 --> 00:11:43,920
+I'm just gonna focus on the positive version of it
+
+114
+00:11:43,940 --> 00:11:46,140
+I'll leave it up to you to find the negative version and see if
+
+115
+00:11:46,140 --> 00:11:48,280
+that'll give you a negative value for change in time
+
+116
+00:11:48,500 --> 00:11:53,190
+And that's nonsensical. So we only care about the positive change in time where we get to
+
+117
+00:11:53,190 --> 00:11:57,610
+a placement of -16 meters
+
+118
+00:11:58,120 --> 00:11:59,470
+Let's get the calculator out
+
+119
+00:12:00,320 --> 00:12:04,360
+So we get--let me do this carefully. We have
+
+120
+00:12:25,230 --> 00:12:37,390
+these two negatives cancel out. So it's plus 4 times positive 4.9 times 16
+
+121
+00:12:37,400 --> 00:12:40,590
+and that closes off our entire radical
+
+122
+00:12:40,600 --> 00:12:44,970
+And so this will give me the numerator up here
+
+123
+00:12:44,990 --> 00:12:52,320
+And I want to divide that by -9.8
+
+124
+00:12:53,480 --> 00:12:55,620
+Oh, I just realized that I made a mistake
+
+125
+00:12:55,640 --> 00:13:00,000
+I said that the positive version would give you the positive time
+
+126
+00:13:00,000 --> 00:13:04,350
+but now we realize that is wrong because when I took the positive version up here
+
+127
+00:13:04,570 --> 00:13:10,780
+I get a positive 2.14 for the numerator, but then we divide it by -9.8
+
+128
+00:13:10,800 --> 00:13:14,030
+we'll get a negative value. So that's not gonna be the time we care about
+
+129
+00:13:14,030 --> 00:13:16,960
+So we care about the time where this is a negative value
+
+130
+00:13:16,980 --> 00:13:21,180
+So let me reenter that. Let me do the negative value
+
+131
+00:13:22,120 --> 00:13:23,910
+Let me go back a little bit
+
+132
+00:13:24,610 --> 00:13:32,740
+And then let me replace this with a -
+
+133
+00:13:32,760 --> 00:13:35,230
+So we look at the negative value, because I want the positive time
+
+134
+00:13:35,500 --> 00:13:40,870
+And so now my numerator here is a negative value. So this is actual what we care about
+
+135
+00:13:40,950 --> 00:13:49,000
+The numerator is a negative value, you divide it by -9.8
+
+136
+00:13:49,290 --> 00:13:54,830
+and you get--I'll just round--14.89 seconds
+
+137
+00:13:55,490 --> 00:14:01,420
+So delta t the positive version is equal to 14.89 second
+
+138
+00:14:01,800 --> 00:14:06,570
+So my initial comment about wanting to using the positive version was wrong
+
+139
+00:14:06,580 --> 00:14:09,500
+because we have a negative denominator, so you want the numerator to be
+
+140
+00:14:09,560 --> 00:14:14,060
+negative, and only the numerator is negative, will the whole expression be positive
+
+141
+00:14:14,390 --> 00:14:17,950
+So we've got this positive time of 14.89 second
+
+142
+00:14:17,970 --> 00:14:24,480
+Let me solve for the horizontal displacement, although this is running long
+
+143
+00:14:24,790 --> 00:14:31,330
+So the amount of time that we're in the air is 14.89 seconds
+
+144
+00:14:31,640 --> 00:14:36,110
+So if I were to ask you the horizontal displacement
+
+145
+00:14:36,220 --> 00:14:38,750
+it's going to be the amount of time we're in the air
+
+146
+00:14:38,750 --> 00:14:41,760
+times your constant horizontal velocity
+
+147
+00:14:42,000 --> 00:14:44,990
+We already figured it out, our constant horizontal velocity
+
+148
+00:14:44,990 --> 00:14:51,430
+So if you want to figure out how far along the x-axis we get displaced
+
+149
+00:14:51,430 --> 00:14:57,800
+we just take this time times--that just means our previous answer--
+
+150
+00:15:03,940 --> 00:15:10,920
+and that gives us 806 m. So this displacement right over here is 806 m

@@ -1,0 +1,171 @@
+1
+00:00:00,000 --> 00:00:07,136
+Find the probability of rolling doubles on two six-sided dice numbered from 1 to 6.
+
+2
+00:00:07,136 --> 00:00:12,807
+So when they're talking about rolling doubles they're just saying if I roll the two dice I get the same number on the top of both.
+
+3
+00:00:12,807 --> 00:00:15,598
+So for example, a 1 and a 1; that's doubles.
+
+4
+00:00:15,598 --> 00:00:22,136
+Two and a two, that is doubles. A three and a three, a four and a four, a five and a five, a six and a six.
+
+5
+00:00:22,136 --> 00:00:32,355
+All of those are instances of doubles. So the event in question is rolling doubles on two six-sided dice numbered from 1 to 6.
+
+6
+00:00:32,355 --> 00:00:38,872
+So let's think about all of the possible outcomes. Or another way to think about it, let's think about the sample space here.
+
+7
+00:00:38,872 --> 00:00:47,541
+So what can we roll on the first die? So let me write this as die number 1. What are the possible rolls?
+
+8
+00:00:47,541 --> 00:00:51,536
+Well they're numbered from 1 to 6: it's a six sided die.
+
+9
+00:00:51,536 --> 00:00:57,536
+So I can get a one, a two, a three, a four, a five, or a six.
+
+10
+00:00:57,536 --> 00:01:02,610
+Now let's think about the second die. So die number 2.
+
+11
+00:01:02,610 --> 00:01:11,108
+Well exact same thing. I can get a one, a two, a three, a four, a five, or a six.
+
+12
+00:01:11,108 --> 00:01:17,139
+Now, given these possible outcomes for each of the die, we can now think of the outcomes for both die.
+
+13
+00:01:17,139 --> 00:01:27,204
+So for example, in this, in this... (Let me draw a grid here just to make it a little bit neater. Draw a line there, and then a line right over there...)
+
+14
+00:01:27,204 --> 00:01:33,203
+Let me draw actually, several of these just so we can really just do this a little bit clearer.
+
+15
+00:01:33,203 --> 00:01:39,537
+Let me draw a full grid. All right.
+
+16
+00:01:39,537 --> 00:01:41,939
+And then the vertical lines.
+
+17
+00:01:41,939 --> 00:01:47,736
+Only a few more left. There we go.
+
+18
+00:01:47,736 --> 00:01:53,473
+Now, all this top row, these are the outcomes where I roll a one on the first die.
+
+19
+00:01:53,473 --> 00:01:59,335
+So I roll a one on the first die. These are all of those outcomes.
+
+20
+00:01:59,335 --> 00:02:02,735
+And this would be a one on the second die, but I'll fill that in later.
+
+21
+00:02:02,735 --> 00:02:07,411
+These are all the outcomes where I roll a two on the first die.
+
+22
+00:02:07,411 --> 00:02:13,030
+This is where I roll a three on the first die.
+
+23
+00:02:13,030 --> 00:02:19,540
+Four... I think you get the idea (on the first die). And then a five on the first die...
+
+24
+00:02:19,540 --> 00:02:27,472
+Then this last row is all the outcomes where I roll a six on the first die.
+
+25
+00:02:27,472 --> 00:02:34,279
+Now, we can go through the columns, and this first column is where we roll a one on the second die.
+
+26
+00:02:34,279 --> 00:02:44,469
+This is where we roll a two on the second die.
+
+27
+00:02:44,469 --> 00:02:51,691
+Here's where we roll a three on the second die.
+
+28
+00:02:51,691 --> 00:03:01,072
+Here's where we have a four.
+
+29
+00:03:01,072 --> 00:03:08,536
+And then here's where we roll a five on the second die.
+
+30
+00:03:08,536 --> 00:03:18,714
+(Filling this in... Whoops..) This last column is where we roll a six on the second die.
+
+31
+00:03:18,915 --> 00:03:29,530
+Now every one of these represents a possible outcome. This outcome is where we roll a one on the first die and a one on the second die.
+
+32
+00:03:29,530 --> 00:03:36,726
+This outcome is where we roll a three on the first die and a two on the second die. This outcome is where we roll a four on the first die and a five on the second die.
+
+33
+00:03:36,726 --> 00:03:42,583
+And you can see here there are thirty-six possible outcomes: Six times six possible outcomes.
+
+34
+00:03:42,583 --> 00:03:55,327
+Now with this out of the way, how many of these outcomes satisfy our criteria... Satisfy the criteria of rolling doubles on two six-sided die?
+
+35
+00:03:55,327 --> 00:04:01,139
+How many of these outcomes are essentially described by our event?
+
+36
+00:04:01,139 --> 00:04:12,560
+Well, we see them right here. Doubles, that's rolling a one and a one, a two and a two, a three and a three, a four and a four, a five and a five, and a six and a six.
+
+37
+00:04:12,560 --> 00:04:23,661
+So we have one, two, three, four, five, six events that satisfy this event (or the outcomes that are consistent with this event)...
+
+38
+00:04:23,661 --> 00:04:32,327
+Now given that, let's answer our question. What is the probability of rolling doubles on two six-sided die numbered from 1 to 6?
+
+39
+00:04:32,327 --> 00:04:41,889
+Well the probability is going to be equal to the number of outcomes that satisfy our criteria, or the number of outcomes for this event.
+
+40
+00:04:41,889 --> 00:04:53,661
+... Which are six (we just figured that out) over the total number of outcomes... Over the size of our sample space.
+
+41
+00:04:53,661 --> 00:04:56,803
+So this right over here, we have thirty-six total outcomes.
+
+42
+00:04:56,803 --> 00:05:06,391
+So we have thirty-six outcomes, and if you simplify this, six over thirty-six is the same thing as 1/6.
+
+43
+00:05:06,391 --> 99:59:59,999
+So the probability of rolling doubles on two six-sided die numbered from 1 to 6 is 1/6.

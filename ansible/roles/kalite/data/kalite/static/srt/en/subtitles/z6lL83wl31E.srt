@@ -1,0 +1,263 @@
+1
+00:00:00,395 --> 00:00:04,613
+You don't need numbers or fancy equations to prove the Pythagorean Theorem, all you need is a piece of
+
+2
+00:00:04,613 --> 00:00:09,404
+paper. There is a ton of ways to prove it, and people are inventing new ones all the time, but I am
+
+3
+00:00:09,404 --> 00:00:14,234
+going to show you my favorite. Only instead of looking at diagrams, we're gonna fold it. First, you
+
+4
+00:00:14,234 --> 00:00:17,903
+need a square, which you can probably obtain from a rectangle if you ask nicely.
+
+5
+00:00:17,903 --> 00:00:22,502
+Step one, fold your square in half one way, then the other way, then across the diagonal.
+
+6
+00:00:22,502 --> 00:00:27,330
+No need to make these creases sharp, we're just taking advantage of the symetries of the square for the
+
+7
+00:00:27,330 --> 00:00:28,853
+next step. But, be precise.
+
+8
+00:00:28,853 --> 00:00:34,482
+Step 2: Make a crease along this triangle, parallel to the side of the triangle that has the edges of
+
+9
+00:00:34,482 --> 00:00:38,986
+the paper. You can make it anywhere you want. This is where you are choosing how long and pointy, or
+
+10
+00:00:38,986 --> 00:00:42,663
+short and fat, your right triangle is going to be, because this is a general proof.
+
+11
+00:00:42,663 --> 00:00:45,906
+Now when you unwrap it, you'll have a square centered in your square.
+
+12
+00:00:45,906 --> 00:00:50,736
+Extend those creases and make them sharp, and now we've got we've got four lines all the same distance
+
+13
+00:00:50,736 --> 00:00:56,076
+from the edges, which will allow us to make a bunch of right triangles that are all exactly the same.
+
+14
+00:00:56,076 --> 00:00:58,915
+Step three: fold from this point to this one.
+
+15
+00:00:58,915 --> 00:01:01,756
+Basically taking a diagonal of this rectangle.
+
+16
+00:01:01,756 --> 00:01:03,900
+Now we've got our first right triangle.
+
+17
+00:01:03,900 --> 00:01:06,804
+Which has the same shape and area as this one.
+
+18
+00:01:06,804 --> 00:01:11,288
+Let's call the sides: "A little leg", "a big leg", and "hypothenus".
+
+19
+00:01:11,288 --> 00:01:14,329
+Rotate ninety degrees, and fold back another triangle,
+
+20
+00:01:14,329 --> 00:01:15,906
+which of course is just like the first.
+
+21
+00:01:15,906 --> 00:01:17,645
+Repeat on the following two sides.
+
+22
+00:01:17,645 --> 00:01:22,500
+The original paper minus those four triangles, gives us a lovely square.
+
+23
+00:01:22,500 --> 00:01:24,079
+How much paper is this ?
+
+24
+00:01:24,079 --> 00:01:27,739
+Well, the length of a side is the hypotenus of one of these triangles.
+
+25
+00:01:27,739 --> 00:01:30,813
+So the area is the hypotenus squared.
+
+26
+00:01:30,813 --> 00:01:35,901
+Step four: unfold, and this time let's choose a different four triangles to fold back.
+
+27
+00:01:35,901 --> 00:01:40,148
+Rip along one little leg, and fold back these two triangles.
+
+28
+00:01:40,148 --> 00:01:42,655
+Then you can fold back another two over here.
+
+29
+00:01:42,655 --> 00:01:47,132
+The area of the unfolded paper, minus four triangles, must be the same,
+
+30
+00:01:47,132 --> 00:01:50,046
+no matter which four triangles you remove.
+
+31
+00:01:50,046 --> 00:01:51,990
+So let's see what we've got.
+
+32
+00:01:51,990 --> 00:01:54,492
+We can divide this into two squares,
+
+33
+00:01:54,492 --> 00:01:57,032
+This one has sides the length of the little leg of the triangle.
+
+34
+00:01:57,032 --> 00:01:59,238
+And this one has sides as long as the big leg.
+
+35
+00:01:59,238 --> 00:02:03,483
+So the area of both together, is little leg squared, plus big leg squared.
+
+36
+00:02:03,483 --> 00:02:07,083
+Which has to be equal to this area, which is hypotenus squared.
+
+37
+00:02:07,083 --> 00:02:09,637
+If you called the sides of your triangle something more abstract,
+
+38
+00:02:09,637 --> 00:02:12,331
+like: a, b, and c, you'd of course have
+
+39
+00:02:12,331 --> 00:02:13,517
+a squared plus b squared equals c squared
+
+40
+00:02:13,517 --> 00:02:14,921
+So quick review:
+
+41
+00:02:14,921 --> 00:02:16,859
+Step 0: Aquire a paper square.
+
+42
+00:02:16,859 --> 00:02:19,907
+OK, Step One: Fold it in half three times.
+
+43
+00:02:19,907 --> 00:02:23,151
+Step 2: Fold parallel to the edges anywhere you choose
+
+44
+00:02:23,151 --> 00:02:24,152
+and extend the crease.
+
+45
+00:02:24,152 --> 00:02:28,306
+Step Three: Fold back four right triangles around the square
+
+46
+00:02:28,306 --> 00:02:32,160
+and admire the area hypothenus squared that is left over.
+
+47
+00:02:32,160 --> 00:02:35,422
+Step Four: unfold and rip along a short side
+
+48
+00:02:35,422 --> 00:02:38,197
+to fold back another four right triangles
+
+49
+00:02:38,197 --> 00:02:42,331
+and admire the area one leg squared plus the other leg squared
+
+50
+00:02:42,331 --> 00:02:42,831
+that is left.
+
+51
+00:02:42,831 --> 00:02:44,381
+And that is all there is to it!
+
+52
+00:02:44,381 --> 00:02:45,999
+Of course, mathematicians are rebels
+
+53
+00:02:45,999 --> 00:02:47,523
+and never believe anything anyone tells them
+
+54
+00:02:47,523 --> 00:02:49,160
+unless they can prove it for themselves.
+
+55
+00:02:49,160 --> 00:02:52,408
+So be sure to not believe me when I tell you things like:
+
+56
+00:02:52,408 --> 00:02:53,178
+This is a square.
+
+57
+00:02:53,178 --> 00:02:55,659
+Think of a few ways you could convince yourself
+
+58
+00:02:55,659 --> 00:02:57,888
+that no matter what the triangles on the outside look like,
+
+59
+00:02:57,888 --> 00:03:00,131
+this will always be a square, and not some kind of a rombus
+
+60
+00:03:00,131 --> 00:03:02,103
+or parallelogram or dolphin or something.
+
+61
+00:03:02,103 --> 00:03:03,908
+Or, you know, maybe it is a dolphin,
+
+62
+00:03:03,908 --> 00:03:05,880
+in which case you should define what a dolphin is
+
+63
+00:03:05,880 --> 00:03:07,891
+and then show that this fits that definition.
+
+64
+00:03:07,891 --> 00:03:10,566
+Also, these edges look like they line up together.
+
+65
+00:03:10,566 --> 00:03:11,902
+Do they always do that?
+
+66
+00:03:11,902 --> 99:59:59,999
+Is it exact?

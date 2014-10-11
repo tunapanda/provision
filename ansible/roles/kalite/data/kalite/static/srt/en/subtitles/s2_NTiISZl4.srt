@@ -1,0 +1,888 @@
+1
+00:00:00,000 --> 00:00:00,500
+   
+
+2
+00:00:00,500 --> 00:00:04,280
+In the last couple of videos
+we've been slowly moving
+
+3
+00:00:04,280 --> 00:00:07,580
+towards our goal of figuring
+out the surface area
+
+4
+00:00:07,580 --> 00:00:09,210
+of this torus.
+
+5
+00:00:09,210 --> 00:00:11,880
+And we did it by evaluating a
+surface integral, and in order
+
+6
+00:00:11,880 --> 00:00:14,300
+to evaluate a surface integral
+we had to take the
+
+7
+00:00:14,300 --> 00:00:17,530
+parameterization-- take its
+partial with respect to s and
+
+8
+00:00:17,530 --> 00:00:18,830
+with respect to t.
+
+9
+00:00:18,830 --> 00:00:20,590
+We did that in the first video.
+
+10
+00:00:20,590 --> 00:00:22,410
+Then we had to take
+its cross product.
+
+11
+00:00:22,410 --> 00:00:24,080
+We did that in the
+second video.
+
+12
+00:00:24,080 --> 00:00:29,050
+Now, we're ready to take the
+magnitude of the cross product.
+
+13
+00:00:29,050 --> 00:00:31,650
+And then we can evaluate it
+inside of a double integral and
+
+14
+00:00:31,650 --> 00:00:35,120
+we will have solved or we would
+have computed an actual surface
+
+15
+00:00:35,120 --> 00:00:37,610
+integral-- something you see
+very few times in your
+
+16
+00:00:37,610 --> 00:00:38,370
+education career.
+
+17
+00:00:38,370 --> 00:00:40,570
+So this is kind of exciting.
+
+18
+00:00:40,570 --> 00:00:43,420
+So this was the cross
+product right here.
+
+19
+00:00:43,420 --> 00:00:46,200
+Now, let's take the
+magnitude of this thing.
+
+20
+00:00:46,200 --> 00:00:49,710
+And you might remember, the
+magnitude of any vector is kind
+
+21
+00:00:49,710 --> 00:00:50,980
+of a Pythagorean theorem.
+
+22
+00:00:50,980 --> 00:00:53,380
+And in this case it's going
+to be kind of the distance
+
+23
+00:00:53,380 --> 00:00:56,400
+formula to the Pythagorean
+theorem n 3 dimensions.
+
+24
+00:00:56,400 --> 00:01:01,760
+So the magnitude-- this is
+equal to, just as a reminder,
+
+25
+00:01:01,760 --> 00:01:03,180
+is equal to this right here.
+
+26
+00:01:03,180 --> 00:01:08,320
+It's equal to the partial of
+r with respect to s cross
+
+27
+00:01:08,320 --> 00:01:11,250
+with the partial of
+r with respect to t.
+
+28
+00:01:11,250 --> 00:01:13,550
+Let me copy it and paste it.
+
+29
+00:01:13,550 --> 00:01:15,980
+That is equal to
+that right there.
+
+30
+00:01:15,980 --> 00:01:17,890
+Put an equal sign.
+
+31
+00:01:17,890 --> 00:01:19,690
+These two quantities are equal.
+
+32
+00:01:19,690 --> 00:01:22,260
+Now we want to figure
+out the magnitude.
+
+33
+00:01:22,260 --> 00:01:29,860
+So if we want to take the
+magnitude of this thing, that's
+
+34
+00:01:29,860 --> 00:01:32,450
+going to be equal to-- well,
+this is just a scalar that's
+
+35
+00:01:32,450 --> 00:01:33,570
+multiply everything.
+
+36
+00:01:33,570 --> 00:01:36,040
+So let's just write
+the scalar out there.
+
+37
+00:01:36,040 --> 00:01:42,540
+So b plus a cosine of s
+times the magnitude of
+
+38
+00:01:42,540 --> 00:01:44,310
+this thing right here.
+
+39
+00:01:44,310 --> 00:01:49,950
+And the magnitude of this thing
+right here is going to be the
+
+40
+00:01:49,950 --> 00:01:53,280
+sum, of-- you can imagine,
+it's the square root of this
+
+41
+00:01:53,280 --> 00:01:55,510
+thing dotted with itself.
+
+42
+00:01:55,510 --> 00:01:58,500
+Or you could say it's the sum
+of the squares of each of
+
+43
+00:01:58,500 --> 00:02:01,030
+these terms to the 1/2 power.
+
+44
+00:02:01,030 --> 00:02:03,800
+So let me write it like that.
+
+45
+00:02:03,800 --> 00:02:06,330
+Let me write the sum
+of the squares.
+
+46
+00:02:06,330 --> 00:02:14,160
+So if you square this you get
+a squared cosine squared
+
+47
+00:02:14,160 --> 00:02:17,540
+of s, sine squared of t.
+
+48
+00:02:17,540 --> 00:02:19,170
+That's that term.
+
+49
+00:02:19,170 --> 00:02:20,700
+Plus-- let me color code it.
+
+50
+00:02:20,700 --> 00:02:23,530
+That's that term.
+
+51
+00:02:23,530 --> 00:02:24,930
+I'll do the magenta.
+
+52
+00:02:24,930 --> 00:02:27,200
+Plus that term squared.
+
+53
+00:02:27,200 --> 00:02:36,230
+Plus a squared cosine squared
+of s, cosine squared of t.
+
+54
+00:02:36,230 --> 00:02:37,500
+That's that term.
+
+55
+00:02:37,500 --> 00:02:40,580
+And then finally-- I'll
+do another color--
+
+56
+00:02:40,580 --> 00:02:41,450
+this term squared.
+
+57
+00:02:41,450 --> 00:02:47,900
+So plus a squared
+sine squared of s.
+
+58
+00:02:47,900 --> 00:02:52,480
+And it's going to be all of
+this business to the 1/2 power.
+
+59
+00:02:52,480 --> 00:02:57,210
+This right here is the same
+thing as the magnitude
+
+60
+00:02:57,210 --> 00:02:58,310
+of this right here.
+
+61
+00:02:58,310 --> 00:03:01,170
+This is just a scalar
+that's multiplying by
+
+62
+00:03:01,170 --> 00:03:02,140
+both of these terms.
+
+63
+00:03:02,140 --> 00:03:04,590
+So let's see if we can do
+anything interesting here.
+
+64
+00:03:04,590 --> 00:03:06,080
+If this can be
+simplified in any way.
+
+65
+00:03:06,080 --> 00:03:08,590
+We have a squared
+cosine squared of s.
+
+66
+00:03:08,590 --> 00:03:11,830
+We have an a squared cosine
+squared of s here, so let's
+
+67
+00:03:11,830 --> 00:03:15,360
+factor that out from both
+of these terms and
+
+68
+00:03:15,360 --> 00:03:17,280
+see what happens.
+
+69
+00:03:17,280 --> 00:03:19,220
+I'm just going to rewrite
+this second part.
+
+70
+00:03:19,220 --> 00:03:23,950
+So this is going to be a
+squared cosine squared of s
+
+71
+00:03:23,950 --> 00:03:34,100
+times sine squared of t-- put
+a parentheses-- plus cosine--
+
+72
+00:03:34,100 --> 00:03:37,790
+oh, I want to do it in that
+magenta color, not orange.
+
+73
+00:03:37,790 --> 00:03:40,970
+Plus cosine squared of t.
+
+74
+00:03:40,970 --> 00:03:44,900
+   
+
+75
+00:03:44,900 --> 00:03:50,330
+And then you're going to
+have this plus a squared
+
+76
+00:03:50,330 --> 00:03:52,590
+sine squared of s.
+
+77
+00:03:52,590 --> 00:03:59,810
+And of course, all of that
+is to the 1/2 power.
+
+78
+00:03:59,810 --> 00:04:00,790
+Now what is this?
+
+79
+00:04:00,790 --> 00:04:03,840
+Well, we have sine squared of
+t plus cosine squared of t.
+
+80
+00:04:03,840 --> 00:04:04,180
+That's nice.
+
+81
+00:04:04,180 --> 00:04:08,320
+That's equal to 1, the most
+basic of trig identities.
+
+82
+00:04:08,320 --> 00:04:14,170
+So this expression right here
+simplifies to a squared cosine
+
+83
+00:04:14,170 --> 00:04:21,340
+squared of s plus this
+over here: a squared
+
+84
+00:04:21,340 --> 00:04:23,780
+sine squared of s.
+
+85
+00:04:23,780 --> 00:04:26,450
+And all of that to
+the 1/2 power.
+
+86
+00:04:26,450 --> 00:04:28,250
+You might immediately
+recognize you can factor
+
+87
+00:04:28,250 --> 00:04:29,570
+out an a squared.
+
+88
+00:04:29,570 --> 00:04:34,160
+This is equal to a squared
+times cosine squared of s
+
+89
+00:04:34,160 --> 00:04:40,880
+plus sine squared of s.
+
+90
+00:04:40,880 --> 00:04:43,660
+And all of that to
+the 1/2 power.
+
+91
+00:04:43,660 --> 00:04:45,340
+I'm just focusing on
+this term right here.
+
+92
+00:04:45,340 --> 00:04:46,810
+I'll write this in a second.
+
+93
+00:04:46,810 --> 00:04:49,520
+But once again, cosine squared
+plus sine squared of anything
+
+94
+00:04:49,520 --> 00:04:51,940
+is going to be equal 1 as long
+as it's the same anything
+
+95
+00:04:51,940 --> 00:04:52,930
+it's equal to 1.
+
+96
+00:04:52,930 --> 00:04:56,080
+So this term is a squared
+to the 1/2 power.
+
+97
+00:04:56,080 --> 00:04:58,850
+Or the square root of a
+squared, which is just
+
+98
+00:04:58,850 --> 00:05:00,380
+going to be equal to a.
+
+99
+00:05:00,380 --> 00:05:04,220
+So all of this-- all that crazy
+business right here just
+
+100
+00:05:04,220 --> 00:05:08,340
+simplifies, all of that
+just simplifies to a.
+
+101
+00:05:08,340 --> 00:05:12,580
+So this cross product here
+simplifies to this times
+
+102
+00:05:12,580 --> 00:05:16,260
+a, which is a pretty neat
+and clean simplification.
+
+103
+00:05:16,260 --> 00:05:17,395
+So let me rewrite this.
+
+104
+00:05:17,395 --> 00:05:21,090
+   
+
+105
+00:05:21,090 --> 00:05:30,040
+That simplifies, it
+simplifies to a times that.
+
+106
+00:05:30,040 --> 00:05:33,100
+And what's that? a
+times b, so it's ab.
+
+107
+00:05:33,100 --> 00:05:36,520
+ab plus a squared cosine of s.
+
+108
+00:05:36,520 --> 00:05:40,550
+   
+
+109
+00:05:40,550 --> 00:05:43,020
+So already, we've gotten pretty
+far and it's nice when you do
+
+110
+00:05:43,020 --> 00:05:45,230
+something so beastly and
+eventually it gets to
+
+111
+00:05:45,230 --> 00:05:48,590
+something reasonably simple.
+
+112
+00:05:48,590 --> 00:05:51,850
+And just to review what we had
+to do, what our mission was
+
+113
+00:05:51,850 --> 00:05:55,710
+several videos ago, is we want
+to evaluate what this thing is
+
+114
+00:05:55,710 --> 00:06:00,110
+over the region from s-- over
+the region over with the
+
+115
+00:06:00,110 --> 00:06:01,090
+surface is defined.
+
+116
+00:06:01,090 --> 00:06:06,460
+So s going from 0 to 2 pi
+and t going from 0 to 2 pi.
+
+117
+00:06:06,460 --> 00:06:07,890
+Over this region.
+
+118
+00:06:07,890 --> 00:06:10,860
+So we want to integrate
+this over that region.
+
+119
+00:06:10,860 --> 00:06:16,720
+So that region we're going
+to vary s from 0 to 2 pi.
+
+120
+00:06:16,720 --> 00:06:18,130
+So ds.
+
+121
+00:06:18,130 --> 00:06:23,870
+And then we're going to vary
+t from 0 to 2 pi-- dt.
+
+122
+00:06:23,870 --> 00:06:25,460
+And this is what
+we're evaluating.
+
+123
+00:06:25,460 --> 00:06:28,370
+We're evaluating the magnitude
+of the cross product of these
+
+124
+00:06:28,370 --> 00:06:32,060
+two partial derivatives of our
+original parameterization.
+
+125
+00:06:32,060 --> 00:06:33,920
+So this is what we
+can put in there.
+
+126
+00:06:33,920 --> 00:06:36,010
+Things are getting simple all
+of a sudden, or simpler.
+
+127
+00:06:36,010 --> 00:06:41,180
+ab plus a squared cosine of s.
+
+128
+00:06:41,180 --> 00:06:43,080
+And what is this equal to?
+
+129
+00:06:43,080 --> 00:06:47,430
+So this is going to be equal
+to-- well, we just take
+
+130
+00:06:47,430 --> 00:06:51,610
+antiderivative of the
+inside with respect to s.
+
+131
+00:06:51,610 --> 00:06:53,800
+So the antiderivative--
+so let me do the outside
+
+132
+00:06:53,800 --> 00:06:54,830
+of our integral.
+
+133
+00:06:54,830 --> 00:06:56,690
+So we're still going to have
+to deal with the 0 to 2
+
+134
+00:06:56,690 --> 00:07:00,590
+pi and our dt right here.
+
+135
+00:07:00,590 --> 00:07:03,900
+But the antiderivative with
+respect to s right here is
+
+136
+00:07:03,900 --> 00:07:06,630
+going to be-- ab is just a
+constant, so it's going to
+
+137
+00:07:06,630 --> 00:07:11,920
+be abs plus-- what's the
+antiderivative of cosine of s?
+
+138
+00:07:11,920 --> 00:07:12,840
+It's sine of s.
+
+139
+00:07:12,840 --> 00:07:17,540
+So plus a squared sine of s.
+
+140
+00:07:17,540 --> 00:07:21,860
+And we're going to evaluate
+it from 0 to 2 pi.
+
+141
+00:07:21,860 --> 00:07:24,270
+And what is this going
+to be equal to?
+
+142
+00:07:24,270 --> 00:07:27,900
+Let's put our boundaries out
+again or the t integral that
+
+143
+00:07:27,900 --> 00:07:33,800
+we're going to have to do in
+a second-- 0 the 2 pi d t.
+
+144
+00:07:33,800 --> 00:07:37,480
+When you put 2 pi here you're
+going to get ab times
+
+145
+00:07:37,480 --> 00:07:39,240
+2 pi or 2 pi ab.
+
+146
+00:07:39,240 --> 00:07:45,840
+So you're going to have 2 pi ab
+plus a squared sine of 2 pi.
+
+147
+00:07:45,840 --> 00:07:48,670
+Sine of 2 pi is 0, so there's
+not going to be any term there.
+
+148
+00:07:48,670 --> 00:07:54,750
+And then minus 0 times
+ab, which is 0.
+
+149
+00:07:54,750 --> 00:07:57,220
+And then you're going to
+have minus a squared sine
+
+150
+00:07:57,220 --> 00:07:58,620
+of 0, which is also 0.
+
+151
+00:07:58,620 --> 00:08:00,300
+So all of the other
+terms are all 0's.
+
+152
+00:08:00,300 --> 00:08:03,140
+So that's what we're left with
+it, it simplified nicely.
+
+153
+00:08:03,140 --> 00:08:05,140
+So now we just have to take
+the antiderivative of
+
+154
+00:08:05,140 --> 00:08:08,710
+this with respect to t.
+
+155
+00:08:08,710 --> 00:08:11,620
+And this is a constant in t, so
+this is going to be equal to--
+
+156
+00:08:11,620 --> 00:08:17,750
+take the antiderivative with
+respect to t-- 2 pi abt and we
+
+157
+00:08:17,750 --> 00:08:21,950
+need to evaluate that from 0 to
+2 pi, which is equal to--
+
+158
+00:08:21,950 --> 00:08:23,570
+so we put 2 pi in there.
+
+159
+00:08:23,570 --> 00:08:27,340
+You have a 2 pi for t, it'll
+be a 2 pi times 2 pi ab.
+
+160
+00:08:27,340 --> 00:08:33,250
+Or we should say, 2 pi
+squared times ab minus
+
+161
+00:08:33,250 --> 00:08:34,400
+0 times this thing.
+
+162
+00:08:34,400 --> 00:08:35,880
+Well, that's just going to
+be 0, so we don't even
+
+163
+00:08:35,880 --> 00:08:37,230
+have to write it down.
+
+164
+00:08:37,230 --> 00:08:37,860
+So we're done.
+
+165
+00:08:37,860 --> 00:08:40,640
+This is the surface
+area of the torus.
+
+166
+00:08:40,640 --> 00:08:41,410
+This is exciting.
+
+167
+00:08:41,410 --> 00:08:43,100
+It just kind of snuck up on us.
+
+168
+00:08:43,100 --> 00:08:49,680
+This is equal to 4 pi squared
+ab, which is kind of a neat
+
+169
+00:08:49,680 --> 00:08:51,750
+formula because it's
+very neat and clean.
+
+170
+00:08:51,750 --> 00:08:53,730
+You know, it has a 2 pi,
+which is kind of the
+
+171
+00:08:53,730 --> 00:08:55,720
+diameter of a circle.
+
+172
+00:08:55,720 --> 00:08:57,860
+We're squaring it, which kind
+of makes sense because we're
+
+173
+00:08:57,860 --> 00:09:03,630
+taking the product of-- you can
+kind of imagine the product
+
+174
+00:09:03,630 --> 00:09:04,700
+of these 2 circles.
+
+175
+00:09:04,700 --> 00:09:07,150
+I'm speaking in very abstract,
+general terms, but that
+
+176
+00:09:07,150 --> 00:09:08,380
+kind of feels good.
+
+177
+00:09:08,380 --> 00:09:09,910
+And then we're taking just
+the product of those
+
+178
+00:09:09,910 --> 00:09:11,340
+two radiuses, remember.
+
+179
+00:09:11,340 --> 00:09:14,310
+Let me just copy this
+thing down here.
+
+180
+00:09:14,310 --> 00:09:17,160
+Actually, let me copy this
+thing because this is our new--
+
+181
+00:09:17,160 --> 00:09:19,570
+this is our exciting result.
+
+182
+00:09:19,570 --> 00:09:20,710
+Let me copy this.
+
+183
+00:09:20,710 --> 00:09:23,110
+So copy.
+
+184
+00:09:23,110 --> 00:09:27,350
+So all of this work that we
+did simplified to this,
+
+185
+00:09:27,350 --> 00:09:30,460
+which is exciting.
+
+186
+00:09:30,460 --> 00:09:33,990
+We now know that if you have a
+torus where the radius of the
+
+187
+00:09:33,990 --> 00:09:40,440
+cross section is a, and the
+radius from the center of
+
+188
+00:09:40,440 --> 00:09:44,130
+the torus to the middle of
+the cross sections is b.
+
+189
+00:09:44,130 --> 00:09:47,820
+That the surface area of that
+torus is going to be 4 pi
+
+190
+00:09:47,820 --> 00:09:50,380
+squared times a times b.
+
+191
+00:09:50,380 --> 00:09:53,690
+Which I think is a
+pretty neat outcome.
+
+192
+00:09:53,690 --> 00:09:53,933
+

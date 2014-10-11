@@ -1,0 +1,1518 @@
+1
+00:00:00,000 --> 00:00:00,490
+   
+
+2
+00:00:00,490 --> 00:00:03,810
+We hopefully now have a
+respectable working knowledge
+
+3
+00:00:03,810 --> 00:00:06,850
+of the sampling distribution
+of the sample mean.
+
+4
+00:00:06,850 --> 00:00:08,870
+And what I want to do in this
+video is explore a little bit
+
+5
+00:00:08,870 --> 00:00:12,640
+more on how that distribution
+changes as we change
+
+6
+00:00:12,640 --> 00:00:14,920
+our sample size n.
+
+7
+00:00:14,920 --> 00:00:16,130
+I'll write n down right here.
+
+8
+00:00:16,130 --> 00:00:17,290
+Our sample size n.
+
+9
+00:00:17,290 --> 00:00:20,090
+So just as a bit of review, we
+saw before we can just start
+
+10
+00:00:20,090 --> 00:00:22,480
+off with any crazy
+distribution, maybe it looks
+
+11
+00:00:22,480 --> 00:00:23,815
+something like this.
+
+12
+00:00:23,815 --> 00:00:26,230
+I'll do a discrete
+distribution.
+
+13
+00:00:26,230 --> 00:00:27,930
+Really to model anything
+at some point you have
+
+14
+00:00:27,930 --> 00:00:29,000
+to make it discreet.
+
+15
+00:00:29,000 --> 00:00:30,885
+It could be a very granular
+discrete distribution.
+
+16
+00:00:30,885 --> 00:00:33,380
+But let's say it's something
+crazy that looks like this.
+
+17
+00:00:33,380 --> 00:00:36,670
+This is clearly not a
+normal distribution.
+
+18
+00:00:36,670 --> 00:00:39,110
+But we saw in the first video
+if you take, let's say,
+
+19
+00:00:39,110 --> 00:00:40,870
+sample sizes of 4.
+
+20
+00:00:40,870 --> 00:00:43,880
+So if you took 4 numbers from
+this distribution, 4 random
+
+21
+00:00:43,880 --> 00:00:47,140
+numbers where let's say this
+is the probably of a 1,
+
+22
+00:00:47,140 --> 00:00:51,880
+2, 3, 4, 5, 6, 7, 8, 9.
+
+23
+00:00:51,880 --> 00:00:55,200
+If you took 4 numbers at a time
+and averaged them-- let me do
+
+24
+00:00:55,200 --> 00:00:59,580
+that here-- if you took 4
+numbers at a time, let's say we
+
+25
+00:00:59,580 --> 00:01:01,760
+used this distribution to
+generate 4 random
+
+26
+00:01:01,760 --> 00:01:02,500
+numbers, right?
+
+27
+00:01:02,500 --> 00:01:03,930
+We're very likely to get a 9.
+
+28
+00:01:03,930 --> 00:01:05,680
+We're definitely not going
+to get any 7's or 8's.
+
+29
+00:01:05,680 --> 00:01:07,480
+We're definitely not
+going to get a 4.
+
+30
+00:01:07,480 --> 00:01:08,470
+We might get a 1 or 2.
+
+31
+00:01:08,470 --> 00:01:09,750
+3 is also very likely.
+
+32
+00:01:09,750 --> 00:01:10,780
+Five is very likely.
+
+33
+00:01:10,780 --> 00:01:13,690
+So we use this function
+to essentially generate
+
+34
+00:01:13,690 --> 00:01:14,810
+random numbers for us.
+
+35
+00:01:14,810 --> 00:01:17,890
+And we take samples of 4 and
+then we average them up.
+
+36
+00:01:17,890 --> 00:01:20,680
+So let's say our first average
+is, I don't know, let's say
+
+37
+00:01:20,680 --> 00:01:25,985
+it's a 9, it's a 5, it's
+another 9, and then it's a 1.
+
+38
+00:01:25,985 --> 00:01:26,640
+So what is that?
+
+39
+00:01:26,640 --> 00:01:28,010
+That's 14 plus 10.
+
+40
+00:01:28,010 --> 00:01:29,460
+24 divided by 4.
+
+41
+00:01:29,460 --> 00:01:33,380
+The average for this first
+trial, for this first sample of
+
+42
+00:01:33,380 --> 00:01:35,400
+4, is going to be 6, right?
+
+43
+00:01:35,400 --> 00:01:37,140
+They add up to 24 divided by 4.
+
+44
+00:01:37,140 --> 00:01:38,450
+So we would plot it right here.
+
+45
+00:01:38,450 --> 00:01:40,890
+Our average was 6 that time.
+
+46
+00:01:40,890 --> 00:01:41,356
+Just like that.
+
+47
+00:01:41,356 --> 00:01:42,820
+And we'll just keep doing it.
+
+48
+00:01:42,820 --> 00:01:45,900
+And we've seen in the past that
+if you just keep doing this,
+
+49
+00:01:45,900 --> 00:01:47,860
+this is going to start
+looking something like
+
+50
+00:01:47,860 --> 00:01:48,910
+a normal distribution.
+
+51
+00:01:48,910 --> 00:01:51,160
+So maybe we'd do it again,
+the average is 6 again.
+
+52
+00:01:51,160 --> 00:01:53,220
+Maybe we do it again,
+the average is 5.
+
+53
+00:01:53,220 --> 00:01:54,660
+We do it again,
+the average is 7.
+
+54
+00:01:54,660 --> 00:01:56,500
+We do it again,
+the average is 6.
+
+55
+00:01:56,500 --> 00:01:59,720
+And then if you just do this a
+ton, a ton of times, your
+
+56
+00:01:59,720 --> 00:02:01,900
+distribution might look
+something that looks very much
+
+57
+00:02:01,900 --> 00:02:02,930
+like a normal distribution.
+
+58
+00:02:02,930 --> 00:02:04,180
+So these boxes are
+really small.
+
+59
+00:02:04,180 --> 00:02:06,760
+So we just do a bunch of these
+trials, at some point it
+
+60
+00:02:06,760 --> 00:02:09,240
+might look a lot like
+a normal distribution.
+
+61
+00:02:09,240 --> 00:02:11,170
+Obviously there are
+some average values.
+
+62
+00:02:11,170 --> 00:02:13,360
+It won't be a perfect normal
+distribution because you can
+
+63
+00:02:13,360 --> 00:02:17,110
+never get anything less than
+a 0, or anything less than
+
+64
+00:02:17,110 --> 00:02:18,590
+a 1, really as an average.
+
+65
+00:02:18,590 --> 00:02:20,010
+You can't get 0 as an average.
+
+66
+00:02:20,010 --> 00:02:21,440
+And you can't get
+anything more than 9.
+
+67
+00:02:21,440 --> 00:02:24,170
+So it's not going to have
+infinitely long tails but at
+
+68
+00:02:24,170 --> 00:02:26,480
+least for the middle part of it
+a normal distribution might
+
+69
+00:02:26,480 --> 00:02:28,090
+be a good approximation.
+
+70
+00:02:28,090 --> 00:02:30,340
+In this video what I want
+to think about is what
+
+71
+00:02:30,340 --> 00:02:34,410
+happens as we change n.
+
+72
+00:02:34,410 --> 00:02:37,030
+So in this case n was 4.
+
+73
+00:02:37,030 --> 00:02:38,950
+n is our sample size.
+
+74
+00:02:38,950 --> 00:02:41,290
+Every time we do a trial we
+took 4 and we took their
+
+75
+00:02:41,290 --> 00:02:42,700
+average and we plotted it.
+
+76
+00:02:42,700 --> 00:02:44,470
+We could have had n equal 10.
+
+77
+00:02:44,470 --> 00:02:48,915
+We could have taken 10 samples
+from this from this population,
+
+78
+00:02:48,915 --> 00:02:52,540
+you could say, or from this
+random variable, average them,
+
+79
+00:02:52,540 --> 00:02:54,000
+and then plotted them here.
+
+80
+00:02:54,000 --> 00:02:55,910
+And in the last video
+we ran the simulation.
+
+81
+00:02:55,910 --> 00:02:58,090
+I'm going to go back to
+that simulation a second.
+
+82
+00:02:58,090 --> 00:02:59,800
+We saw a couple of things.
+
+83
+00:02:59,800 --> 00:03:01,700
+And I'll show it to you
+at a little bit more
+
+84
+00:03:01,700 --> 00:03:03,420
+depth this time.
+
+85
+00:03:03,420 --> 00:03:06,360
+When n is pretty small, it
+doesn't approach a normal
+
+86
+00:03:06,360 --> 00:03:07,950
+distribution that well.
+
+87
+00:03:07,950 --> 00:03:11,170
+So when n is small-- I mean,
+let's take the extreme case.
+
+88
+00:03:11,170 --> 00:03:14,060
+What happens when
+n is equal to 1?
+
+89
+00:03:14,060 --> 00:03:17,800
+That literally just means I
+take 1 instance of this random
+
+90
+00:03:17,800 --> 00:03:18,630
+variable and average it.
+
+91
+00:03:18,630 --> 00:03:20,410
+Well it's just going
+to be that thing.
+
+92
+00:03:20,410 --> 00:03:22,520
+So if I just take a bunch of
+trials from the thing and
+
+93
+00:03:22,520 --> 00:03:24,540
+plot it over time, what's
+it going to look like?
+
+94
+00:03:24,540 --> 00:03:25,710
+Well it's definitely not
+going to look like a
+
+95
+00:03:25,710 --> 00:03:26,460
+normal distribution.
+
+96
+00:03:26,460 --> 00:03:28,050
+It's going to look-- you're
+going to have a couple
+
+97
+00:03:28,050 --> 00:03:29,970
+of 1's, you're going to
+have a couple of 2's.
+
+98
+00:03:29,970 --> 00:03:32,490
+You're going to have
+more 3's like that.
+
+99
+00:03:32,490 --> 00:03:33,750
+You're going to have no 4's.
+
+100
+00:03:33,750 --> 00:03:35,630
+You're going to have
+a bunch of 5's.
+
+101
+00:03:35,630 --> 00:03:37,330
+You're going to have some
+6's that'll look like that.
+
+102
+00:03:37,330 --> 00:03:39,380
+And you're going to
+have a bunch of 9's.
+
+103
+00:03:39,380 --> 00:03:41,730
+So there your sampling
+distribution of the sample mean
+
+104
+00:03:41,730 --> 00:03:43,890
+for an n of 1 is going to
+look-- I don't care how many
+
+105
+00:03:43,890 --> 00:03:46,300
+trials you do, it's not going
+to look like a normal
+
+106
+00:03:46,300 --> 00:03:46,950
+distribution.
+
+107
+00:03:46,950 --> 00:03:49,740
+So the central limit theorem,
+although I said you do a bunch
+
+108
+00:03:49,740 --> 00:03:50,900
+of trials, it'll look like a
+normal distribution,
+
+109
+00:03:50,900 --> 00:03:52,900
+it definitely doesn't
+work for n equal 1.
+
+110
+00:03:52,900 --> 00:03:55,460
+As n gets larger though
+it starts to make sense.
+
+111
+00:03:55,460 --> 00:03:59,030
+That let's see if we've got n
+equals 2--- and I'm all just
+
+112
+00:03:59,030 --> 00:04:00,700
+doing this in my head, I
+don't know what the actual
+
+113
+00:04:00,700 --> 00:04:03,520
+distributions would look like--
+but then, it's still would be
+
+114
+00:04:03,520 --> 00:04:06,370
+difficult for it to become an
+exact normal distribution.
+
+115
+00:04:06,370 --> 00:04:08,280
+But then you can get more
+instance-- that you could get
+
+116
+00:04:08,280 --> 00:04:10,610
+more-- you know, you might get
+things from all of the above.
+
+117
+00:04:10,610 --> 00:04:12,670
+But you can only get two
+in each of your baskets
+
+118
+00:04:12,670 --> 00:04:13,490
+that your averaging.
+
+119
+00:04:13,490 --> 00:04:15,140
+You're only going to
+get 2 numbers, right?
+
+120
+00:04:15,140 --> 00:04:15,250
+So?
+
+121
+00:04:15,250 --> 00:04:17,800
+You're never going to for
+example, you're never going to
+
+122
+00:04:17,800 --> 00:04:22,640
+get 7.5 in your sampling
+distribution of the sample mean
+
+123
+00:04:22,640 --> 00:04:25,170
+for n is equal to 2 because
+it's impossible to get a 7 and
+
+124
+00:04:25,170 --> 00:04:26,660
+it's impossible to get an 8.
+
+125
+00:04:26,660 --> 00:04:30,680
+So you're never going to get
+7.5 as-- so maybe when you plot
+
+126
+00:04:30,680 --> 00:04:35,125
+it, maybe it looks like this.
+
+127
+00:04:35,125 --> 00:04:38,020
+But there will be a gap at 7.5
+because that's impossible
+
+128
+00:04:38,020 --> 00:04:40,780
+and maybe it looks
+something like that.
+
+129
+00:04:40,780 --> 00:04:42,750
+So it's still won't be
+a normal distribution
+
+130
+00:04:42,750 --> 00:04:44,230
+when n is equal to 2.
+
+131
+00:04:44,230 --> 00:04:46,480
+So there's a couple of
+interesting things here.
+
+132
+00:04:46,480 --> 00:04:48,550
+So one thing-- and I didn't
+mention this the first time
+
+133
+00:04:48,550 --> 00:04:50,160
+because I really wanted you to
+get the gut sense what the
+
+134
+00:04:50,160 --> 00:04:54,170
+central limit theorem is-- the
+central limit theorem says as n
+
+135
+00:04:54,170 --> 00:04:57,320
+approaches-- really as it
+approaches infinity then is
+
+136
+00:04:57,320 --> 00:04:59,075
+when you get the real
+normal distribution.
+
+137
+00:04:59,075 --> 00:05:02,200
+   
+
+138
+00:05:02,200 --> 00:05:04,870
+But in kind of every day
+practice, you don't have to get
+
+139
+00:05:04,870 --> 00:05:06,320
+that much beyond n equals two.
+
+140
+00:05:06,320 --> 00:05:09,220
+If you get to n equals 10 or n
+equals 15, you're getting very
+
+141
+00:05:09,220 --> 00:05:10,400
+close to a normal distribution.
+
+142
+00:05:10,400 --> 00:05:15,240
+So this converges to a normal
+distribution very quickly.
+
+143
+00:05:15,240 --> 00:05:16,880
+Now the other thing is
+you obviously wants
+
+144
+00:05:16,880 --> 00:05:17,840
+many, many trials.
+
+145
+00:05:17,840 --> 00:05:20,220
+So this is your sample size.
+
+146
+00:05:20,220 --> 00:05:21,360
+That is your sample size.
+
+147
+00:05:21,360 --> 00:05:23,570
+That's the size of
+each of your baskets.
+
+148
+00:05:23,570 --> 00:05:25,700
+In the very first video
+I did on this, I took
+
+149
+00:05:25,700 --> 00:05:27,180
+a sample size of 4.
+
+150
+00:05:27,180 --> 00:05:30,310
+And in the simulation I did
+in the last video, we did
+
+151
+00:05:30,310 --> 00:05:32,620
+sample sizes of 4 and
+10 and whatever else.
+
+152
+00:05:32,620 --> 00:05:33,572
+This is a sample size of one.
+
+153
+00:05:33,572 --> 00:05:34,900
+So that's our sample size.
+
+154
+00:05:34,900 --> 00:05:39,250
+So as that approaches infinity
+your actual sampling
+
+155
+00:05:39,250 --> 00:05:44,140
+distribution of the sample of
+the sample mean will approach a
+
+156
+00:05:44,140 --> 00:05:46,080
+normal distribution.
+
+157
+00:05:46,080 --> 00:05:49,150
+Now in order to actually see
+that normal distribution and
+
+158
+00:05:49,150 --> 00:05:51,520
+actually to prove it to
+yourself, you would have to do
+
+159
+00:05:51,520 --> 00:05:54,590
+this many, many-- remember the
+normal distribution happens,
+
+160
+00:05:54,590 --> 00:05:57,560
+this is essentially the
+population or this is
+
+161
+00:05:57,560 --> 00:05:58,440
+the random variable.
+
+162
+00:05:58,440 --> 00:06:00,350
+That tells you all of
+the possibilities.
+
+163
+00:06:00,350 --> 00:06:02,770
+In real life, we seldom know
+all the possibilities.
+
+164
+00:06:02,770 --> 00:06:07,060
+In fact in real life, we seldom
+know the pure probability
+
+165
+00:06:07,060 --> 00:06:07,820
+generating function.
+
+166
+00:06:07,820 --> 00:06:09,320
+Only if we're writing
+it or if we're writing
+
+167
+00:06:09,320 --> 00:06:10,290
+a computer program.
+
+168
+00:06:10,290 --> 00:06:12,530
+Normally we're doing
+samples and we're
+
+169
+00:06:12,530 --> 00:06:13,660
+trying estimate things.
+
+170
+00:06:13,660 --> 00:06:17,490
+So normally there's some random
+variable and then maybe we'll
+
+171
+00:06:17,490 --> 00:06:20,880
+do a bunch of-- we'd take it a
+bunch of samples, we'd take
+
+172
+00:06:20,880 --> 00:06:22,460
+their means and we'd plot them
+and we're going to get some
+
+173
+00:06:22,460 --> 00:06:23,740
+type of normal distribution.
+
+174
+00:06:23,740 --> 00:06:26,210
+Let's say we take samples of
+100 and we average them.
+
+175
+00:06:26,210 --> 00:06:28,160
+We're going to get some
+normal distribution.
+
+176
+00:06:28,160 --> 00:06:32,640
+And in theory, as we take those
+averages hundreds or thousands
+
+177
+00:06:32,640 --> 00:06:37,230
+of times, our data set it's
+going to more closely
+
+178
+00:06:37,230 --> 00:06:44,260
+approximate that pure
+sampling distribution
+
+179
+00:06:44,260 --> 00:06:49,100
+of the sample mean.
+
+180
+00:06:49,100 --> 00:06:51,410
+This thing is a
+real distribution.
+
+181
+00:06:51,410 --> 00:06:54,770
+It's a real distribution
+with a real mean.
+
+182
+00:06:54,770 --> 00:06:56,415
+It has a pure mean.
+
+183
+00:06:56,415 --> 00:07:04,410
+So the mean of the sampling
+distribution of the sample
+
+184
+00:07:04,410 --> 00:07:06,210
+mean, we'll write it like that.
+
+185
+00:07:06,210 --> 00:07:10,200
+Notice I didn't write it is
+just the x with-- what this is,
+
+186
+00:07:10,200 --> 00:07:14,540
+this is actually saying that
+this is a real population mean,
+
+187
+00:07:14,540 --> 00:07:16,960
+this is a real random
+variable mean.
+
+188
+00:07:16,960 --> 00:07:19,640
+If you look at every
+possibility of all of the
+
+189
+00:07:19,640 --> 00:07:22,410
+samples that you can take from
+your original distribution,
+
+190
+00:07:22,410 --> 00:07:25,980
+from some other random original
+distribution, and you took all
+
+191
+00:07:25,980 --> 00:07:28,940
+of the possibilities of
+let's see sample size.
+
+192
+00:07:28,940 --> 00:07:29,970
+Let's see were dealing
+with the world where
+
+193
+00:07:29,970 --> 00:07:31,550
+a sample size is 10.
+
+194
+00:07:31,550 --> 00:07:34,160
+If you took all of the
+combinations of 10 samples from
+
+195
+00:07:34,160 --> 00:07:38,320
+some original distribution and
+you averaged them out, this
+
+196
+00:07:38,320 --> 00:07:39,700
+would describe that function.
+
+197
+00:07:39,700 --> 00:07:42,140
+Of course in reality, if you
+don't know the original
+
+198
+00:07:42,140 --> 00:07:45,150
+distribution, you can't take an
+infinite samples from it so you
+
+199
+00:07:45,150 --> 00:07:46,340
+won't know every combination.
+
+200
+00:07:46,340 --> 00:07:52,840
+But if you did it with 1,000--
+if you did the trial 1,000
+
+201
+00:07:52,840 --> 00:07:55,320
+times-- so 1,000 times you took
+10 samples from some
+
+202
+00:07:55,320 --> 00:07:57,960
+distribution and took 1,000
+averages and then plotted
+
+203
+00:07:57,960 --> 00:08:01,680
+them, you're going
+to get pretty close.
+
+204
+00:08:01,680 --> 00:08:04,600
+Now the next thing I want to
+touch on is what happens as
+
+205
+00:08:04,600 --> 00:08:07,830
+n-- we know as n approaches
+infinity it becomes more of a
+
+206
+00:08:07,830 --> 00:08:11,170
+normal distribution, but as I
+said already, n equals 10 is
+
+207
+00:08:11,170 --> 00:08:13,295
+pretty good and n equals
+20 is even better.
+
+208
+00:08:13,295 --> 00:08:15,860
+But we saw something in the
+last video that at least I
+
+209
+00:08:15,860 --> 00:08:17,660
+find pretty interesting.
+
+210
+00:08:17,660 --> 00:08:20,390
+Let's say we start with this
+crazy distribution up here.
+
+211
+00:08:20,390 --> 00:08:21,710
+It really doesn't matter
+what distribution
+
+212
+00:08:21,710 --> 00:08:22,770
+we're starting with.
+
+213
+00:08:22,770 --> 00:08:29,440
+We saw in the simulation that
+when n is equal to 5, our graph
+
+214
+00:08:29,440 --> 00:08:32,905
+after we try-- we take samples
+of 5, average them and we do
+
+215
+00:08:32,905 --> 00:08:36,550
+it 10,000 times-- our graph
+look something like this.
+
+216
+00:08:36,550 --> 00:08:38,270
+It's kind of wide like that.
+
+217
+00:08:38,270 --> 00:08:42,820
+And then when we did n is equal
+to 10 our graph looked a little
+
+218
+00:08:42,820 --> 00:08:45,040
+bit-- it was actually a
+little bit squeezed in like
+
+219
+00:08:45,040 --> 00:08:46,610
+that a little bit more.
+
+220
+00:08:46,610 --> 00:08:49,980
+So not only was it more
+normal-- that's what the
+
+221
+00:08:49,980 --> 00:08:52,310
+central limit theorem tells us
+because we're taking larger
+
+222
+00:08:52,310 --> 00:08:56,340
+sample sizes-- but it had a
+smaller standard deviation or a
+
+223
+00:08:56,340 --> 00:08:57,650
+smaller variance, right?
+
+224
+00:08:57,650 --> 00:09:00,420
+The mean is going to be the
+same either case but when our
+
+225
+00:09:00,420 --> 00:09:03,780
+sample size was larger our
+standard deviation
+
+226
+00:09:03,780 --> 00:09:04,710
+became smaller.
+
+227
+00:09:04,710 --> 00:09:07,120
+In fact, our standard deviation
+became smaller than our
+
+228
+00:09:07,120 --> 00:09:11,590
+original population
+distribution-- or original
+
+229
+00:09:11,590 --> 00:09:12,720
+probability density function.
+
+230
+00:09:12,720 --> 00:09:14,505
+Let me show you that
+with a simulation.
+
+231
+00:09:14,505 --> 00:09:16,580
+So let me clear everything.
+
+232
+00:09:16,580 --> 00:09:18,730
+And this simulation is as good
+as any, so the first thing I
+
+233
+00:09:18,730 --> 00:09:20,750
+want to show-- or this
+distribution is as good as
+
+234
+00:09:20,750 --> 00:09:23,190
+any-- the first thing I want to
+show you is that n of 2
+
+235
+00:09:23,190 --> 00:09:24,910
+is really not that good.
+
+236
+00:09:24,910 --> 00:09:29,340
+So let's compare an n of 2
+to let's say an n of 16.
+
+237
+00:09:29,340 --> 00:09:32,810
+So when you compare an
+n of 2 to an n of 16,
+
+238
+00:09:32,810 --> 00:09:33,730
+let's do it once.
+
+239
+00:09:33,730 --> 00:09:35,490
+So you get 1, 2 trials,
+you average them.
+
+240
+00:09:35,490 --> 00:09:38,320
+And then it's going to do 16
+and then it's going to plot it
+
+241
+00:09:38,320 --> 00:09:40,530
+down here and average there.
+
+242
+00:09:40,530 --> 00:09:43,640
+Let's do that 10,000 times.
+
+243
+00:09:43,640 --> 00:09:46,520
+So notice, when you took an n
+of 2, even though we did it
+
+244
+00:09:46,520 --> 00:09:49,990
+10,000 times, this is not
+approaching a normal
+
+245
+00:09:49,990 --> 00:09:50,630
+distribution.
+
+246
+00:09:50,630 --> 00:09:53,230
+You can actually see it in the
+skew and kurtosis numbers.
+
+247
+00:09:53,230 --> 00:09:56,120
+It has a rightward positive
+skew which means it has a
+
+248
+00:09:56,120 --> 00:09:57,990
+longer tail to the right
+than to the left.
+
+249
+00:09:57,990 --> 00:10:00,860
+And then it has a negative
+kurtosis which means that it's
+
+250
+00:10:00,860 --> 00:10:06,000
+a little bit-- it has shorter
+tales and smaller peaks than a
+
+251
+00:10:06,000 --> 00:10:08,270
+standard normal distribution.
+
+252
+00:10:08,270 --> 00:10:11,000
+Now when n is equal to
+16 you do the same.
+
+253
+00:10:11,000 --> 00:10:14,930
+So every time we took 16
+samples from this distribution
+
+254
+00:10:14,930 --> 00:10:17,650
+function up here and averaged
+them-- and each of these dots
+
+255
+00:10:17,650 --> 00:10:22,050
+represent an average and we did
+it 10,001 times-- and notice
+
+256
+00:10:22,050 --> 00:10:24,110
+the mean is the same in both
+places but here all of a
+
+257
+00:10:24,110 --> 00:10:27,630
+sudden, our kurtosis is much
+smaller and our skew
+
+258
+00:10:27,630 --> 00:10:28,230
+is much smaller.
+
+259
+00:10:28,230 --> 00:10:32,080
+So we are more normal in
+this into situation.
+
+260
+00:10:32,080 --> 00:10:34,000
+But even a more interesting
+thing is our standard
+
+261
+00:10:34,000 --> 00:10:35,480
+deviation is smaller, right?
+
+262
+00:10:35,480 --> 00:10:37,300
+This is more squeezed
+in than that is.
+
+263
+00:10:37,300 --> 00:10:39,980
+And it's definitely more
+squeezed in then our
+
+264
+00:10:39,980 --> 00:10:41,700
+original distribution.
+
+265
+00:10:41,700 --> 00:10:45,400
+Now let me do it with 2-- let
+me clear everything again.
+
+266
+00:10:45,400 --> 00:10:49,270
+I like this distribution
+because it's a very
+
+267
+00:10:49,270 --> 00:10:50,780
+non-normal distribution.
+
+268
+00:10:50,780 --> 00:10:53,180
+It looks like a bimodal
+distribution of some kind.
+
+269
+00:10:53,180 --> 00:10:56,080
+And let's take a scenario
+where I take an n of--
+
+270
+00:10:56,080 --> 00:10:56,990
+let's take two good n's.
+
+271
+00:10:56,990 --> 00:10:59,895
+Let's take an n of 16-- that's
+a nice healthy n-- and let's
+
+272
+00:10:59,895 --> 00:11:02,180
+take an n of 25 and let's
+compare them a little bit.
+
+273
+00:11:02,180 --> 00:11:04,760
+   
+
+274
+00:11:04,760 --> 00:11:08,720
+So if we-- I'll do one trial
+animated just because
+
+275
+00:11:08,720 --> 00:11:09,630
+it's always nice to see.
+
+276
+00:11:09,630 --> 00:11:12,010
+So first it's going to do 16
+of these trials and average
+
+277
+00:11:12,010 --> 00:11:13,180
+them and there we go.
+
+278
+00:11:13,180 --> 00:11:16,680
+And then it's going to do 25 of
+these trials and then average
+
+279
+00:11:16,680 --> 00:11:19,270
+them and then there we go.
+
+280
+00:11:19,270 --> 00:11:21,550
+Now let's do that-- what I
+just did animated-- let's
+
+281
+00:11:21,550 --> 00:11:24,590
+do it 10,000 times.
+
+282
+00:11:24,590 --> 00:11:26,270
+Miracles of computers.
+
+283
+00:11:26,270 --> 00:11:28,360
+Now notice something:
+this is 10,000 times.
+
+284
+00:11:28,360 --> 00:11:30,480
+These are both pretty
+good approximations of
+
+285
+00:11:30,480 --> 00:11:31,860
+normal distributions.
+
+286
+00:11:31,860 --> 00:11:34,660
+The n is equal to
+25 is more normal.
+
+287
+00:11:34,660 --> 00:11:38,180
+It has less skew-- slightly
+less skew than n is equal 16.
+
+288
+00:11:38,180 --> 00:11:43,180
+It has slightly kurtosis which
+means it's closer to being
+
+289
+00:11:43,180 --> 00:11:45,610
+a normal distribution
+than n is equal to 16.
+
+290
+00:11:45,610 --> 00:11:47,230
+But even more interesting,
+it's more squeezed in.
+
+291
+00:11:47,230 --> 00:11:49,210
+It has a lower
+standard deviation.
+
+292
+00:11:49,210 --> 00:11:53,120
+The standard deviation here
+is 2.1 and the standard
+
+293
+00:11:53,120 --> 00:11:56,120
+deviation here is 2.64.
+
+294
+00:11:56,120 --> 00:11:59,300
+So that's another-- I mean I
+kind of touched on that in
+
+295
+00:11:59,300 --> 00:12:01,630
+the last video-- and it
+kind of makes sense.
+
+296
+00:12:01,630 --> 00:12:04,350
+For every sample you do for
+your average, the more you
+
+297
+00:12:04,350 --> 00:12:07,030
+put into that sample, the
+less standard deviation.
+
+298
+00:12:07,030 --> 00:12:08,440
+Think of the extreme case.
+
+299
+00:12:08,440 --> 00:12:11,270
+If instead of taking 16 samples
+from our distribution every
+
+300
+00:12:11,270 --> 00:12:14,440
+time or instead of taking 25,
+if I were to take 1,000,000
+
+301
+00:12:14,440 --> 00:12:21,720
+samples from this distribution
+every time that sample mean is
+
+302
+00:12:21,720 --> 00:12:24,180
+always going to be pretty
+darn close to my mean.
+
+303
+00:12:24,180 --> 00:12:27,010
+If I take 1,000,000 samples of
+everything, if I essentially
+
+304
+00:12:27,010 --> 00:12:30,130
+try to estimate a mean by
+taking 1,000,000 samples, I'm
+
+305
+00:12:30,130 --> 00:12:31,860
+going to get a pretty good
+estimate of that mean.
+
+306
+00:12:31,860 --> 00:12:35,260
+The probability that a
+million numbers are all
+
+307
+00:12:35,260 --> 00:12:36,770
+out here is very low.
+
+308
+00:12:36,770 --> 00:12:41,760
+So if n is 1,000,000 of course
+all of my sample means when I
+
+309
+00:12:41,760 --> 00:12:44,650
+average them are all going to
+be really tightly focused
+
+310
+00:12:44,650 --> 00:12:47,130
+around the mean itself.
+
+311
+00:12:47,130 --> 00:12:50,660
+So hopefully that kind of
+makes sense to you as well.
+
+312
+00:12:50,660 --> 00:12:53,930
+If it doesn't just think about
+it or even use this tool and
+
+313
+00:12:53,930 --> 00:12:56,430
+experiment with it just so you
+can trust that is
+
+314
+00:12:56,430 --> 00:12:57,315
+really the case.
+
+315
+00:12:57,315 --> 00:13:00,380
+And it actually turns out that
+there's a very clean formula
+
+316
+00:13:00,380 --> 00:13:03,730
+that relates to standard
+deviation of the original
+
+317
+00:13:03,730 --> 00:13:07,060
+probability distribution
+function to the standard
+
+318
+00:13:07,060 --> 00:13:09,110
+deviation of the sampling
+distribution of
+
+319
+00:13:09,110 --> 00:13:10,140
+the sample mean.
+
+320
+00:13:10,140 --> 00:13:13,680
+And as you can imagine it is a
+function of your sample size,
+
+321
+00:13:13,680 --> 00:13:16,230
+of how many samples you
+take out in every basket
+
+322
+00:13:16,230 --> 00:13:17,110
+before you average them.
+
+323
+00:13:17,110 --> 00:13:18,300
+And I'll go over that
+in the next video.
+
+324
+00:13:18,300 --> 00:13:19,833
+

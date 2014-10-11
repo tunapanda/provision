@@ -1,0 +1,267 @@
+1
+00:00:01,111 --> 00:00:04,381
+Let's draw ourselves a triangle.
+
+2
+00:00:04,381 --> 00:00:15,528
+Let's say this (blue) side has lenght 6, this (pink) side has lenght 10 and this (green) side has lenght x
+
+3
+00:00:15,528 --> 00:00:22,200
+And what I'm going to think about is how large or how small x can be
+
+4
+00:00:22,200 --> 00:00:24,895
+How large or how small can this (green) side be.
+
+5
+00:00:24,895 --> 00:00:29,002
+The first question is "How small can it get?"
+
+6
+00:00:29,002 --> 00:00:37,642
+Well, if we want to make this small we would just have to look at this (green) angle here and make it smaller
+
+7
+00:00:37,642 --> 00:00:40,952
+So let's try to make this angle as small as possible.
+
+8
+00:00:40,952 --> 00:00:55,647
+So we have our side of lenght 10, and I'm going to make this angle really really small, approaching 0
+
+9
+00:00:55,647 --> 00:01:00,096
+If that angle becomes 0 we end up with a degenerate triangle
+
+10
+00:01:00,096 --> 00:01:03,798
+Essentially it becomes one-dimensional, we lose our 2-dimensionality
+
+11
+00:01:03,798 --> 00:01:09,891
+But as we approach 0 this side starts to coincide or get closer and closer to the 10 side.
+
+12
+00:01:09,891 --> 00:01:15,351
+And you could imagine the case where it actually coincides with it and you actually get the degenerate
+
+13
+00:01:15,351 --> 00:01:19,582
+So if we want this point here (on the 10 side) to get as close as possible to that point over there (on the 6 side)
+
+14
+00:01:19,582 --> 00:01:22,714
+-essentially minimizing your distance x-
+
+15
+00:01:22,714 --> 00:01:27,298
+the closest way is that you make the angle all the way equal to 0
+
+16
+00:01:27,298 --> 00:01:34,691
+Let me draw a progression. Now the angle is getting smaller, this (blue) side is lenght 6
+
+17
+00:01:34,691 --> 00:01:36,937
+x is getting smaller
+
+18
+00:01:36,937 --> 00:01:45,504
+so we keep making that angle smaller and smaller all the way until we get a degenerage triangle
+
+19
+00:01:45,504 --> 00:01:53,314
+So you have the (pink) side of lenght 10. Now the angle that we care about is essentially 0
+
+20
+00:01:53,314 --> 00:01:57,399
+This (blue) side is lenght 6
+
+21
+00:01:57,399 --> 00:02:01,494
+And so what is the distance between this point and this point? That distance is lenght x
+
+22
+00:02:01,494 --> 00:02:06,633
+So in the degenerate case, this (green) length right over here is x
+
+23
+00:02:06,633 --> 00:02:10,101
+and we know that 6 + x is going to equal 10
+
+24
+00:02:10,101 --> 00:02:15,311
+So in this degenerate case x will equal 4
+
+25
+00:02:15,311 --> 00:02:21,229
+So if you want this to be a real triangle, at x = 4 you've gotten these points as close as possible
+
+26
+00:02:21,229 --> 00:02:23,548
+It's degenerated into a line segment.
+
+27
+00:02:23,548 --> 00:02:28,510
+If you want this to be a triangle x has to be greater than 4
+
+28
+00:02:28,510 --> 00:02:30,886
+Now let's think about it the other way.
+
+29
+00:02:30,886 --> 00:02:33,465
+How large can x be?
+
+30
+00:02:33,465 --> 00:02:37,659
+To think about larger and larger x's we need to make this (green) angle bigger
+
+31
+00:02:37,659 --> 00:02:40,099
+So let's try to do that.
+
+32
+00:02:40,099 --> 00:02:47,413
+Let's draw the 10 side again. This is my 10 side
+
+33
+00:02:47,413 --> 00:02:49,496
+and we make that angle bigger and bigger.
+
+34
+00:02:49,496 --> 00:02:54,016
+So now let me take the 6 side and put it like that.
+
+35
+00:02:54,016 --> 00:02:59,162
+So now our angle is getting bigger and bigger. It's approaching 180 degrees.
+
+36
+00:02:59,162 --> 00:03:05,533
+At 180 degrees our triangle once again will be turned into a line segment, becoming a degenerate triangle.
+
+37
+00:03:05,533 --> 00:03:09,384
+Let me draw the side of lenght x.
+
+38
+00:03:09,384 --> 00:03:12,134
+So we are trying to maximize the distance between that point (on the 10 side) and that point (on the 6 side).
+
+39
+00:03:12,134 --> 00:03:14,016
+This is the side of lenght x
+
+40
+00:03:14,016 --> 00:03:16,021
+Let's go all the way to the degenerate case.
+
+41
+00:03:16,021 --> 00:03:18,570
+At the degerate case, at 180 degrees,
+
+42
+00:03:18,570 --> 00:03:24,373
+the side of lenght 6 forms a straight line with the side of lenght 10.
+
+43
+00:03:24,373 --> 00:03:29,596
+And this is how you can get this point and that point as far appart as possible.
+
+44
+00:03:29,596 --> 00:03:33,082
+In this situation, what is the distance between that point (on the 6 side) and that point (on the 10 side)?
+
+45
+00:03:33,082 --> 00:03:36,767
+which is the distance that's going to be our x
+
+46
+00:03:36,767 --> 00:03:40,848
+In this situation x is going to be 6 + 10 = 16
+
+47
+00:03:40,848 --> 00:03:43,096
+If x is 16 we have a degenerate triangle.
+
+48
+00:03:43,096 --> 00:03:51,557
+If we don't want a degenerate triangle, then x is going to have to be less than 16
+
+49
+00:03:51,557 --> 00:03:58,777
+Now the whole principle that we are working on right over here is called the Triangle Inequality Theorem.
+
+50
+00:03:58,777 --> 00:04:00,762
+It's a pretty basic idea.
+
+51
+00:04:00,762 --> 00:04:08,621
+Any one side of a triangle has to be less than the sum of the other two sides.
+
+52
+00:04:08,621 --> 00:04:23,161
+So the lenght of a side has to be less than the sum of the lenghts of the other two sides.
+
+53
+00:04:23,161 --> 00:04:26,779
+If you're willing to deal with degenerate triangles,
+
+54
+00:04:26,779 --> 00:04:31,248
+where you essentially form a line segment, lose all your dimensionality and turn to a 1-dimesional figure,
+
+55
+00:04:31,248 --> 00:04:34,234
+then you could say "less than or equal"
+
+56
+00:04:34,234 --> 00:04:37,132
+but we're just going to stick with non-degerate triangles.
+
+57
+00:04:37,132 --> 00:04:41,179
+So the lenght of a side has to be less than the sum of the lenghts of the other two sides
+
+58
+00:04:41,179 --> 00:04:45,615
+And just using this principle we could have come up with the same exact conclusion
+
+59
+00:04:45,615 --> 00:05:03,759
+You could say "Well, look: x is one of the sides and it has to be less than 6 + 10 or x has to be less than 16"
+
+60
+00:05:03,759 --> 00:05:07,535
+The exact same result we got by visualizing it like this
+
+61
+00:05:07,535 --> 00:05:10,695
+If you want to say how "How small can x be?" you could say:
+
+62
+00:05:10,695 --> 00:05:26,997
+"Well, 10 has to be less than 6 + x, the sum of the lenghts of the other two sides"
+
+63
+00:05:26,997 --> 00:05:37,415
+If you subtract 6 from both sides right over here, you get 4 < x, or x > 4.
+
+64
+00:05:37,415 --> 00:05:41,425
+So this is, in some level, kind of a basic idea.
+
+65
+00:05:41,425 --> 00:05:44,049
+But it's something that you'll see definitely in geometry
+
+66
+00:05:44,049 --> 00:05:47,514
+and then you'll go far into other types of mathematics and you'll see other versions
+
+67
+00:05:47,514 --> 00:05:51,514
+of what's essentially this Triangle Inequality Theorem

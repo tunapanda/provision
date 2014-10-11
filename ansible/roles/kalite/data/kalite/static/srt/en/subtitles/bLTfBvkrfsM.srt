@@ -1,0 +1,231 @@
+1
+00:00:00,273 --> 00:00:05,370
+We're asked, "What is the greatest common divisor of 20 and 40?"
+
+2
+00:00:05,370 --> 00:00:11,483
+Another way to say this is, "gcd(20, 40) = ?"
+
+3
+00:00:11,483 --> 00:00:15,672
+And "greatest common divisor" sounds like a very fancy term, but it's really just saying:
+
+4
+00:00:15,672 --> 00:00:22,625
+What is the largest number that is divisible into both 20 and 40?
+
+5
+00:00:22,625 --> 00:00:28,503
+Well, this seems like a pretty straightforward situation, because 20 is actually divisible into 40
+
+6
+00:00:28,503 --> 00:00:33,774
+Or another way to say it is that 40 can be divided by 20 without a remainder
+
+7
+00:00:33,774 --> 00:00:40,941
+So the largest number that is, I guess you could say, a factor of both 20 and 40 is actually 20
+
+8
+00:00:40,941 --> 00:00:45,860
+20 = 20 &times; 1, and 40 = 20 &times; 2
+
+9
+00:00:45,860 --> 00:00:50,190
+So in this situation, we don't even have to break out our paper, we can just write 20
+
+10
+00:00:50,190 --> 00:00:52,172
+Let's do a couple more of these
+
+11
+00:00:52,802 --> 00:01:00,503
+We're asked, "What is the greatest common divisor of 10 and 7?" Let's now break out our paper for this
+
+12
+00:01:00,503 --> 00:01:06,367
+So, our greatest common divisor of 10 and 7, so let me write that down, so we have 10
+
+13
+00:01:06,367 --> 00:01:15,026
+We want to think about, what is our GCD of 10 and 7
+
+14
+00:01:15,026 --> 00:01:17,867
+And there's two ways that you can approach this
+
+15
+00:01:17,867 --> 00:01:24,237
+One way, you can literally list all of the factors—not prime factors, just regular factors—of each of these numbers
+
+16
+00:01:24,237 --> 00:01:28,238
+And figure out which one is greater—or wait, what is the largest factor of both
+
+17
+00:01:28,238 --> 00:01:34,022
+So, for example, you could say, well, I got a 10
+
+18
+00:01:34,022 --> 00:01:47,032
+And 10 can be expressed as 1 &times; 10 or 2 &times; 5
+
+19
+00:01:47,032 --> 00:01:54,354
+1, 2, 5, and 10, these are all factors of 10. These are all, we could say, <i>divisors</i> of 10
+
+20
+00:01:54,354 --> 00:01:57,420
+And sometimes this is called "greatest common factor"
+
+21
+00:01:57,420 --> 00:02:04,449
+7, what are all of its factors? Well, 7's prime, it only has two factors: 1 and itself
+
+22
+00:02:04,449 --> 00:02:11,201
+So what is the greatest common factor? Well there's only one common factor here: 1
+
+23
+00:02:11,201 --> 00:02:13,303
+1 is the only common factor
+
+24
+00:02:13,303 --> 00:02:24,339
+So the greatest common factor of 10 and 7, or the greatest common divisor, is going to be equal to 1
+
+25
+00:02:24,339 --> 00:02:27,257
+So let's write that down: 1
+
+26
+00:02:27,257 --> 00:02:29,032
+Let's do one more
+
+27
+00:02:29,032 --> 00:02:34,971
+What is the greatest common divisor of 21 and 30? And that's just another way of saying that
+
+28
+00:02:34,971 --> 00:02:39,032
+So, 21 and 30 are the two numbers that we care about
+
+29
+00:02:39,032 --> 00:02:52,748
+So we wanna figure out the greatest common divisor, and I could have written "greatest common factor," of 21 and 30
+
+30
+00:02:52,748 --> 00:02:56,620
+Once again, there's two ways of doing this
+
+31
+00:02:56,620 --> 00:03:01,571
+There's the way I did the last time where I literally list all of the factors. Let me do that way really fast
+
+32
+00:03:01,571 --> 00:03:12,762
+If I say 21, what are all of the factors? Well, it's 1 and 21, and 3 and 7, and I think I've got all of them
+
+33
+00:03:12,762 --> 00:03:25,454
+And 30 can be written as 1 and 30, 2 and 15, and 3
+
+34
+00:03:25,454 --> 00:03:29,013
+Actually, I'm gonna run out of room, let me write it this way, so, get a little more space
+
+35
+00:03:29,013 --> 00:03:45,970
+1 and 30, 2 and 15, 3 and 10, and 5 and 6. So here are all of the factors of 30
+
+36
+00:03:45,970 --> 00:03:54,320
+And now, what are the common factors? Well, 1 is a common factor. 3 is also a common factor
+
+37
+00:03:54,320 --> 00:04:04,437
+But what is the <i>greatest</i> common factor, or the greatest common divisor? Well, it is going to be 3. So we can write 3 here
+
+38
+00:04:04,437 --> 00:04:10,462
+Now, I keep talking about another technique, let me show you the other technique, and that involves the prime factorization
+
+39
+00:04:10,462 --> 00:04:17,308
+If you say the prime factorization of 21, well, let's see, it's divisible by 3, it is 3 &times; 7
+
+40
+00:04:17,308 --> 00:04:29,318
+And the prime factorization of 30 is equal to, let's see, it's 3 &times; 10, and 10 is 2 &times; 5
+
+41
+00:04:29,318 --> 00:04:36,634
+So, what are the <i>most</i> factors that we could take from both 21 and 30 to make the largest possible numbers?
+
+42
+00:04:36,634 --> 00:04:45,103
+When you look at the prime factorization, the only thing that's common right over here is a 3
+
+43
+00:04:45,103 --> 00:04:54,111
+And so we would say that the greatest common factor, or the greatest common divisor, of 21 and 30 is 3
+
+44
+00:04:54,111 --> 00:04:58,999
+If you saw <i>nothing</i> in common right over here, then you would say the greatest common divisor is 1
+
+45
+00:04:58,999 --> 00:05:03,730
+Let me give you another interesting example, just so that we can get a sense of things
+
+46
+00:05:03,730 --> 00:05:22,276
+Let's say that these two numbers were not 21 and 30, but let's say we care about the greatest common divisor, not of 21, but let's say of 105 and 30
+
+47
+00:05:22,276 --> 00:05:25,302
+So if we did the prime factorization method, it might become a little clearer now
+
+48
+00:05:25,302 --> 00:05:29,571
+Actually figuring out, "Hey, what are all the factors of 105" might be a little bit of a pain
+
+49
+00:05:29,571 --> 00:05:42,402
+But if you do a prime factorization, you'd say, well, let's see, 105 is divisible by 5, definitely, so it's 5 &times; 21, and 21 is 3 &times; 7
+
+50
+00:05:42,402 --> 00:05:51,469
+So the prime factorization of 105 is equal to, if I write them in increasing order, 3 &times; 5 &times; 7
+
+51
+00:05:51,469 --> 00:06:00,534
+The prime factorization of 30, we already figured out, is equal to 2 &times; 3 &times; 5
+
+52
+00:06:00,534 --> 00:06:04,951
+So what's the most number of prime factors that they have in common?
+
+53
+00:06:04,951 --> 00:06:11,201
+Well, these two both have a 3 and they both have a 5
+
+54
+00:06:11,201 --> 00:06:15,283
+So the greatest common factor, or greatest common divisor, is going to be a product of these two
+
+55
+00:06:15,283 --> 00:06:23,534
+In this situation, the GCD of 105 and 30 is 3 &times; 5 = 15
+
+56
+00:06:23,534 --> 00:06:31,024
+So you can do it either way. You can just list out the traditional divisors or factors until you figure out which of those is common and is the greatest
+
+57
+00:06:31,024 --> 00:06:39,867
+Or you can break it down into its core constituencies, its prime factors, and then figure out what is the largest set of common prime factors
+
+58
+00:06:39,867 --> 00:06:43,867
+And the product of those is going to be your greatest common factor. It's the largest number that is divisible into both numbers

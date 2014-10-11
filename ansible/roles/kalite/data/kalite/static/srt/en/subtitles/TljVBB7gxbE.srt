@@ -1,0 +1,59 @@
+1
+99:59:59,999 --> 99:59:59,999
+Where we left off in the last video, we had somewhat ...
+
+2
+99:59:59,999 --> 99:59:59,999
+simplified our polynomial P of X.
+
+3
+99:59:59,999 --> 99:59:59,999
+from the way that it was originialy described in the problem.
+
+4
+99:59:59,999 --> 99:59:59,999
+But it still doesn't seem like were any closer to finding
+
+5
+99:59:59,999 --> 99:59:59,999
+the roots. At least we were able to reduce the degree from a fourty-seventh degree polynomial to a
+
+6
+99:59:59,999 --> 99:59:59,999
+product of a first degree and a twenty third degree polynomial,
+
+7
+99:59:59,999 --> 99:59:59,999
+but it still doesn't seem like we're any closer to finding the roots, especially the root that matter.
+
+8
+99:59:59,999 --> 99:59:59,999
+And here we're going to have a little bit of an Ah-ha moment here.
+
+9
+99:59:59,999 --> 99:59:59,999
+That this part in blue, which is really just a sum of all of the degrees of X from
+
+10
+99:59:59,999 --> 99:59:59,999
+X to the zero all the way to X to the twenty three.
+
+11
+99:59:59,999 --> 99:59:59,999
+This is, if you view the common ratio was X, as a finit geometric series.
+
+12
+99:59:59,999 --> 99:59:59,999
+And, I have done it in other videos, there is a way to find the sum of a finit geometric series.
+
+13
+99:59:59,999 --> 99:59:59,999
+And we'll use a similar technique right here, to simplify this a little bit, to help us find the roots.
+
+14
+99:59:59,999 --> 99:59:59,999
+So let's just call this whole thing S.
+
+15
+99:59:59,999 --> 99:59:59,999
+S is equal to X to the 23 plus X to the 22 plus all the way down to X plus 1.

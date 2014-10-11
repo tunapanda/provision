@@ -1,0 +1,543 @@
+1
+00:00:00,080 --> 00:00:02,540
+Welcome back. We're doing problem number ten.
+
+2
+00:00:02,540 --> 00:00:05,020
+And I just drew the figure. They said a right,
+
+3
+00:00:05,020 --> 00:00:12,820
+circular cylinder with radius 5 and height 4 has volume v.
+
+4
+00:00:12,820 --> 00:00:14,550
+So what's the volume of this?
+
+5
+00:00:15,090 --> 00:00:16,930
+The volume of the cylinder-they give you the formula actually
+
+6
+00:00:16,930 --> 00:00:18,380
+but it's just the area of the base,
+
+7
+00:00:18,380 --> 00:00:20,880
+or the area of the top of the cylinder times its height.
+
+8
+00:00:20,880 --> 00:00:24,970
+So it's pi r squared, where the radius is 5,
+
+9
+00:00:24,970 --> 00:00:30,970
+so that's pi times 25--5 squared-- times the height, times 4.
+
+10
+00:00:30,970 --> 00:00:35,500
+So v is equal to 100 pi. Fair enough.
+
+11
+00:00:35,500 --> 00:00:39,870
+Then they say, in terms of v, what is the volume of
+
+12
+00:00:39,870 --> 00:00:44,020
+a right circular cylinder with radius 5 and height 8?
+
+13
+00:00:44,020 --> 00:00:46,200
+Oh, you see I didn't even have to do all this
+
+14
+00:00:46,200 --> 00:00:51,220
+because now this new cylinder is just like this cylinder,
+
+15
+00:00:51,220 --> 00:00:54,340
+right? But instead of having height 4 it has height 8.
+
+16
+00:00:55,280 --> 00:00:57,560
+See I didn't have to know that formula, oh my god.
+
+17
+00:00:59,470 --> 00:01:01,370
+I wanted to draw the ellipse.
+
+18
+00:01:03,160 --> 00:01:05,940
+So this new cylinder looks something like this,
+
+19
+00:01:05,940 --> 00:01:07,840
+although I'm not drawing it really to scale,
+
+20
+00:01:07,840 --> 00:01:08,970
+but I think you get the point.
+
+21
+00:01:10,390 --> 00:01:12,180
+The new cylinder you can kind of just--
+
+22
+00:01:15,320 --> 00:01:19,000
+then new cylinder has height 8.
+
+23
+00:01:19,000 --> 00:01:21,420
+So what, the new cylinder is twice the size of
+
+24
+00:01:21,420 --> 00:01:22,920
+the previous cylinder, right?
+
+25
+00:01:22,920 --> 00:01:25,520
+The previous cylinder had height 4, radius 5.
+
+26
+00:01:25,520 --> 00:01:27,940
+This new cylinder has radius 5, height 8.
+
+27
+00:01:27,940 --> 00:01:31,860
+So the new cylinder is going to be twice the volume, right?
+
+28
+00:01:31,860 --> 00:01:35,470
+The volume for this is v, so the volume for the new one is--
+
+29
+00:01:35,470 --> 00:01:37,460
+it's twice as high so it's going to have twice the volume--
+
+30
+00:01:37,620 --> 00:01:42,480
+so 2v.So it's answer B.You didn't even have to know all this.
+
+31
+00:01:42,480 --> 00:01:44,250
+See you can go on the wrong track very quickly.
+
+32
+00:01:44,690 --> 00:01:45,920
+Although if you did it that way,
+
+33
+00:01:45,920 --> 00:01:49,540
+you would get the right answer. Problem number eleven.
+
+34
+00:01:54,090 --> 00:02:02,890
+If k, n and r are integers, let k be defined--
+
+35
+00:02:03,440 --> 00:02:13,930
+let k diamond, n, r-- be defined to be true only if--
+
+36
+00:02:13,930 --> 00:02:27,260
+so k diamond is true if n is less than k,which is less than r
+
+37
+00:02:28,500 --> 00:02:38,810
+Then they tell us that minus 2 diamond n, 0 is true.
+
+38
+00:02:40,420 --> 00:02:43,190
+Which of the following could be a possible value of n?
+
+39
+00:02:43,190 --> 00:02:47,150
+So let's just translate this into this world, right?
+
+40
+00:02:47,150 --> 00:02:51,550
+So this is true. Minus 2 diamond n, 0 is true.
+
+41
+00:02:51,550 --> 00:02:54,290
+So that means that we just pattern match, right?
+
+42
+00:02:54,290 --> 00:03:03,950
+K is minus 2, n is n, and r is 0. So our n is just n.
+
+43
+00:03:03,950 --> 00:03:06,740
+So that means n is less than k.
+
+44
+00:03:07,580 --> 00:03:14,000
+K is minus 2, which is less than our r. Our r is 0.
+
+45
+00:03:14,530 --> 00:03:18,660
+So n is less than minus 2, which is less than 0.
+
+46
+00:03:18,660 --> 00:03:20,260
+I mean obviously minus 2 is less than 0.
+
+47
+00:03:20,750 --> 00:03:24,440
+So which of the following could be a possible value of n?
+
+48
+00:03:24,440 --> 00:03:25,630
+So they give us three choices.
+
+49
+00:03:25,630 --> 00:03:32,730
+I is minus 3, II is minus 1 and then III is positive 3.
+
+50
+00:03:33,420 --> 00:03:36,270
+Well , which of these numbers is less than negative 2?
+
+51
+00:03:37,250 --> 00:03:40,100
+Positive 3 isn't. Negative 1 is greater than negative 2,
+
+52
+00:03:40,100 --> 00:03:41,610
+so all we're left with is choice I.
+
+53
+00:03:41,610 --> 00:03:46,100
+Not too hard of a problem right? A.It just looks complicated.
+
+54
+00:03:48,300 --> 00:03:53,740
+Image. Invert colors. Problem twelve.
+
+55
+00:03:56,800 --> 00:03:59,690
+If 20% of x is equal to 80% of y--
+
+56
+00:03:59,690 --> 00:04:02,000
+so immediately my brain converts that to decimals.
+
+57
+00:04:02,000 --> 00:04:09,180
+So 0.20x is equal to 0.80y.
+
+58
+00:04:10,150 --> 00:04:14,080
+Which of the following expresses y in terms of x?
+
+59
+00:04:14,080 --> 00:04:17,180
+So we want y in terms of x, so let's solve for y.
+
+60
+00:04:17,180 --> 00:04:18,870
+We divide both sides by 0.80.
+
+61
+00:04:18,870 --> 00:04:27,300
+So y is equal to 0.20 divided by 0.80 times x. Right?
+
+62
+00:04:27,300 --> 00:04:29,530
+I switched them around too, right?
+
+63
+00:04:29,530 --> 00:04:31,900
+I switched the two sides, but I divided both sides by 0.8,
+
+64
+00:04:31,900 --> 00:04:36,770
+that's all I did. So y is equal to-- what's 0.2 over 0.8?
+
+65
+00:04:36,770 --> 00:04:40,790
+Well that's the same thing as 2 over 8, or 0.25x.
+
+66
+00:04:41,600 --> 00:04:53,460
+Or, y is 25% of x. And that is choice B. Next problem.
+
+67
+00:04:56,810 --> 00:05:01,060
+It's a very cold day today. My feet are cold.
+
+68
+00:05:01,060 --> 00:05:04,510
+I should go do a run, run a hill or something.
+
+69
+00:05:04,510 --> 00:05:06,110
+All right. Problem number thirteen.
+
+70
+00:05:08,840 --> 00:05:13,350
+If x, y and z-- this seems familiar, anyway- if x, y and z
+
+71
+00:05:13,350 --> 00:05:21,440
+are positive integers such that the value of x plus y is even
+
+72
+00:05:23,340 --> 00:05:31,920
+and the value of x plus y squared plus x plus z is odd,
+
+73
+00:05:32,690 --> 00:05:34,450
+which is the following is true?
+
+74
+00:05:35,770 --> 00:05:37,060
+And they give a bunch of choices.
+
+75
+00:05:38,880 --> 00:05:41,030
+So this is actually quite interesting.
+
+76
+00:05:41,030 --> 00:05:47,060
+So let's see what we can say. Can we say that x is odd?
+
+77
+00:05:49,000 --> 00:05:54,810
+That's choice A, x is odd. If x plus y is even,
+
+78
+00:05:56,560 --> 00:05:59,870
+then x plus y squared will also be even, right?
+
+79
+00:05:59,870 --> 00:06:04,890
+x plus y squared is also going to be even. So this is even.
+
+80
+00:06:07,900 --> 00:06:13,090
+But if this is even and then this whole thing is odd,
+
+81
+00:06:14,940 --> 00:06:18,570
+the only way you can add something to an even number
+
+82
+00:06:18,570 --> 00:06:21,330
+and get an odd number is if the thing you added was odd.
+
+83
+00:06:22,100 --> 00:06:25,250
+And you can think about that. So x plus z is odd.
+
+84
+00:06:26,750 --> 00:06:30,280
+So we essentially know two things. x plus y is even.
+
+85
+00:06:31,250 --> 00:06:35,960
+And we also know that x plus z is odd, right?
+
+86
+00:06:35,960 --> 00:06:38,000
+And how did we figure out x plus z is odd?
+
+87
+00:06:38,000 --> 00:06:39,590
+Because we know x plus y is even,
+
+88
+00:06:39,590 --> 00:06:41,320
+x plus y squared must be even,
+
+89
+00:06:41,320 --> 00:06:44,910
+and the only way to add something to something
+
+90
+00:06:44,910 --> 00:06:46,310
+that's even and get an odd number is
+
+91
+00:06:46,310 --> 00:06:50,590
+if that thing you add is odd.So we know that x plus z is odd.
+
+92
+00:06:51,660 --> 00:06:55,510
+This is interesting. So we know x plus y is even.
+
+93
+00:06:55,510 --> 00:07:00,140
+x plus z is odd. So do we know for sure that x is odd?
+
+94
+00:07:00,840 --> 00:07:05,470
+Well no. x could be even. x could be 2, y could be 2.
+
+95
+00:07:05,470 --> 00:07:08,930
+And x could be 2 and z could be 1.
+
+96
+00:07:08,930 --> 00:07:11,340
+So we don't know that x is odd.
+
+97
+00:07:11,340 --> 00:07:15,940
+And then choice B says x is even. Well, not necessarily.
+
+98
+00:07:15,940 --> 00:07:21,790
+x could be odd. x could be 1, y could be 1, x could be 1 here
+
+99
+00:07:21,790 --> 00:07:25,440
+and z could be 2. So that all works.
+
+100
+00:07:25,440 --> 00:07:26,940
+So choice B doesn't work either.
+
+101
+00:07:27,760 --> 00:07:29,870
+Now choices C and D look interesting.
+
+102
+00:07:29,870 --> 00:07:36,590
+If z is even then x is odd. That is true.
+
+103
+00:07:36,590 --> 00:07:39,510
+Because if we add these two numbers and we get an odd number
+
+104
+00:07:39,510 --> 00:07:43,840
+and we know that z is even, if this number is even,
+
+105
+00:07:43,840 --> 00:07:45,910
+then this number has to be odd.
+
+106
+00:07:45,910 --> 00:07:47,550
+And you can try it out with numbers
+
+107
+00:07:47,550 --> 00:07:51,160
+if you don't believe me. So C is true.
+
+108
+00:07:51,160 --> 00:07:53,110
+And we could go through the other ones
+
+109
+00:07:53,110 --> 00:07:56,710
+but you only have to pick one so C is definitely true.
+
+110
+00:07:56,710 --> 00:08:01,490
+If z is even then x is definitely odd.
+
+111
+00:08:01,490 --> 00:08:03,880
+Because the only way to add something to an even number
+
+112
+00:08:03,880 --> 00:08:07,030
+and get an odd number is if you add it to an odd number.
+
+113
+00:08:08,200 --> 00:08:11,280
+Let's do problem number fourteen if I have time.
+
+114
+00:08:15,700 --> 00:08:21,110
+Problem fourteen. 0 is less than x which is less than 1.
+
+115
+00:08:21,710 --> 00:08:24,030
+Which of the following statements must be true?
+
+116
+00:08:24,030 --> 00:08:31,260
+Statement I is, x squared is greater than x cubed.
+
+117
+00:08:31,260 --> 00:08:36,170
+Statement II is x is greater than x/2.
+
+118
+00:08:36,950 --> 00:08:43,570
+Statement III says that x is greater than x to the third.
+
+119
+00:08:44,110 --> 00:08:45,810
+So x is pretty much a fraction.
+
+120
+00:08:45,810 --> 00:08:49,170
+It's a positive fraction less than one.
+
+121
+00:08:49,170 --> 00:08:52,320
+And you know what, let's just try out a number.
+
+122
+00:08:52,320 --> 00:08:54,330
+Let's just try out x is equal to 1/2
+
+123
+00:08:54,330 --> 00:08:55,970
+and that'll simplify things.
+
+124
+00:08:55,970 --> 00:08:59,030
+Because really all the fractions between 0 and 1
+
+125
+00:08:59,030 --> 00:09:01,350
+have the same properties when you take the exponents.
+
+126
+00:09:01,350 --> 00:09:04,510
+So let's see, is this true? 1/2 squared is 1/4.
+
+127
+00:09:04,510 --> 00:09:09,760
+1/4 is greater than 1/8. Well yeah, sure, that's true.
+
+128
+00:09:09,760 --> 00:09:17,060
+Is 1/2 greater than 1/4? Right? 1/2 divided by 2 is 1/4.
+
+129
+00:09:17,060 --> 00:09:19,700
+Well sure, that's true.
+
+130
+00:09:21,010 --> 00:09:25,410
+And finally is 1/2 greater than 1/2 to the third?
+
+131
+00:09:27,330 --> 00:09:29,010
+Sure. 1/2 to the third is 1/8.
+
+132
+00:09:29,010 --> 00:09:32,350
+So 1/2 is definitely greater than 1/2 to the third, right?
+
+133
+00:09:32,350 --> 00:09:33,190
+And they're all positive numbers
+
+134
+00:09:33,190 --> 00:09:37,430
+so all three of them are true. So it's choice E.
+
+135
+00:09:38,560 --> 00:09:41,060
+And that's all the time I have in this video.
+
+136
+00:09:41,060 --> 00:09:44,590
+I will do problem number fifteen in the next video. See you

@@ -1,0 +1,343 @@
+1
+00:00:01,311 --> 00:00:04,098
+In a previous video we have already shown that if we have some circles
+
+2
+00:00:04,098 --> 00:00:05,733
+centered oh right over here
+
+3
+00:00:05,733 --> 00:00:11,785
+and if "OD" is a raidus, and it's a radius that bisects chord "AC"
+
+4
+00:00:11,785 --> 00:00:13,582
+So bisects means that it kind of splits it into two
+
+5
+00:00:13,582 --> 00:00:15,847
+Then "AB" = "BC"
+
+6
+00:00:15,847 --> 00:00:19,448
+We've proved in a previous video that "OD" will be perpendicular to "AC"
+
+7
+00:00:19,448 --> 00:00:25,080
+So we have proven that we can assume that it's perpendicular
+
+8
+00:00:25,080 --> 00:00:33,213
+And the video that you might want to view is "For radius is perpendicular to chord
+
+9
+00:00:33,213 --> 00:00:35,599
+You will hopefully find the proof of that.
+
+10
+00:00:35,599 --> 00:00:37,681
+What I want to do in this video is go the other way.
+
+11
+00:00:37,681 --> 00:00:42,477
+If we know that "OD" is a radius that is perpendicular to chord "AC"
+
+12
+00:00:42,477 --> 00:00:46,099
+what I want to do with this video is proe that it's bisecting
+
+13
+00:00:46,099 --> 00:00:48,975
+So we are not assuming that it's bisecting in this video over here.
+
+14
+00:00:48,975 --> 00:00:50,528
+We are just assuming that it's perpendicular
+
+15
+00:00:50,528 --> 00:00:52,524
+So essentially we are going to go the other way.
+
+16
+00:00:52,524 --> 00:00:55,999
+So here we start with the fact that it bisected and we established that they were perpendicular
+
+17
+00:00:55,999 --> 00:01:00,478
+That was in the previous video. Now we are going to start with the assumption that they are perpendicular
+
+18
+00:01:00,478 --> 00:01:03,818
+and then prove that they bisect
+
+19
+00:01:03,818 --> 00:01:06,492
+And just like what we did in the previous proof we will set up some triangles here
+
+20
+00:01:06,492 --> 00:01:08,378
+since we know a lot about triangles now.
+
+21
+00:01:08,378 --> 00:01:11,331
+And we will set up the triangles by drawing two more radii
+
+22
+00:01:11,331 --> 00:01:16,185
+Radius "OC" and radius "OA"
+
+23
+00:01:16,185 --> 00:01:21,176
+and that's useful for us because we know that they are both radii for the same circle
+
+24
+00:01:21,176 --> 00:01:24,404
+So they have the same length as the radii don't change in a circle
+
+25
+00:01:24,404 --> 00:01:29,209
+and you may already see where this is going because triangle "O"
+
+26
+00:01:29,209 --> 00:01:32,123
+and let me label this point here, let me call it "M"
+
+27
+00:01:32,123 --> 00:01:34,150
+because we are hoping that it ends up being the midpoint
+
+28
+00:01:34,150 --> 00:01:37,741
+of "AC". Triangle "AMO" is a right triangle
+
+29
+00:01:37,741 --> 00:01:40,873
+This is its hypotenuese. "AO" is it's hypoteneuse
+
+30
+00:01:40,873 --> 00:01:45,200
+triangle "OMC" is a right triangle and this is it's hypotenuese right there
+
+31
+00:01:45,200 --> 00:01:50,634
+We already showed that its hypoteneuses have the same length and both of these right triangles
+
+32
+00:01:50,634 --> 00:01:54,964
+share segment or side "OM"
+
+33
+00:01:54,964 --> 00:01:59,052
+So "OM" is clearly equal to itself
+
+34
+00:01:59,052 --> 00:02:03,049
+and in a previous video, not the same video where we explained this thing
+
+35
+00:02:03,049 --> 00:02:09,102
+In a previous video (I think) it's called "More on why SSA is not a postulate"
+
+36
+00:02:09,102 --> 00:02:15,955
+We say that SSA is not a postulate, not a congruency postulate
+
+37
+00:02:15,955 --> 00:02:26,536
+but we did establish in tha video that "RSH" is a congruency postulate
+
+38
+00:02:26,536 --> 00:02:32,551
+and "RSH" tells us that if we have a right triangle thats where they "R" comes from
+
+39
+00:02:32,551 --> 00:02:36,345
+If we have a right triangle and we have one of the sides (which ihappens to be congruent)
+
+40
+00:02:36,345 --> 00:02:41,108
+and our hypotenuese is congruent. Then we have two congruent triangles
+
+41
+00:02:41,108 --> 00:02:43,584
+And if you look at this right over here.
+
+42
+00:02:43,584 --> 00:02:46,985
+We have two right triangles. "AMO" is a right triangle "CMO" is a right triangle
+
+43
+00:02:46,985 --> 00:02:52,365
+they have one leg that is congruent right over here. "MO" and then both of their hypotenueses are congruent
+
+44
+00:02:52,365 --> 00:03:04,918
+to each other. So by "RSH" we know that triangle "AMO" is congruent to triangle "CMO"
+
+45
+00:03:04,918 --> 00:03:12,152
+by "RSH", by the "Rsh" postulate
+
+46
+00:03:12,152 --> 00:03:16,466
+And so we know that if they are congruent then their corresponding sides have to be congruent
+
+47
+00:03:16,466 --> 00:03:28,317
+So based on that we then know that "AM" is a correspinding side to "MC"
+
+48
+00:03:28,317 --> 00:03:35,202
+So we know that "AM" must be equal to "MC" because they are correspinding sides
+
+49
+00:03:35,202 --> 00:03:43,505
+of congruency. This implies that those are equal and if those are equal then we know that "OD" is
+
+50
+00:03:43,505 --> 00:03:47,667
+Bisecting "AC" so we have established what we can do
+
+51
+00:03:47,667 --> 00:03:53,042
+Anothe way that we can prove it without "RSH" is just straight up with the pythagoran theorem
+
+52
+00:03:53,042 --> 00:04:01,028
+We know already from these two radii that I have set up over here that "OA"
+
+53
+00:04:01,028 --> 00:04:11,389
+is equal to "OC" and we also know that "OM" is literally equal to itself
+
+54
+00:04:11,389 --> 00:04:21,909
+and we also knwo from the Pythagoream Theorem that "AM" squared
+
+55
+00:04:21,909 --> 00:04:32,502
+plus "OM" squared is equal to "OA" squared
+
+56
+00:04:32,502 --> 00:04:42,070
+the squares of the length of the two legs squared summed up is equal to the length of the hypotenuese
+
+57
+00:04:42,070 --> 00:04:47,325
+So we know that for the left triangle right over here
+
+58
+00:04:47,325 --> 00:04:51,385
+"AMO" and we can set up the same relationship for "CMO"
+
+59
+00:04:51,385 --> 00:05:07,949
+We know in "CMO" "CM" squared plus "OM" squared is equal to "OC" squared
+
+60
+00:05:07,949 --> 00:05:13,686
+Now we know a few things
+
+61
+00:05:13,686 --> 00:05:16,424
+We know that "OA" is equal to "OC"
+
+62
+00:05:16,424 --> 00:05:20,716
+So for example right over here we have "OA" squared we could replace this with "OC"
+
+63
+00:05:20,716 --> 00:05:28,482
+and then you can already see where this is going
+
+64
+00:05:28,482 --> 00:05:31,537
+You can see that "CM" and "AM" are the same and if you want to do it a little more formally
+
+65
+00:05:31,537 --> 00:05:35,743
+you can subtract "OM" squared from both sides of this equation andn you will get
+
+66
+00:05:35,743 --> 00:05:41,191
+"AM" squared is equal to "OC" squared)
+
+67
+00:05:41,191 --> 00:05:43,687
+(I've replaced this with "OC" squared
+
+68
+00:05:43,687 --> 00:05:47,880
+Minus "OM" squared on the left hand side right over here
+
+69
+00:05:47,880 --> 00:05:51,085
+and then on the right hand side
+
+70
+00:05:51,085 --> 00:06:01,854
+As we subtract "OM" squared from both sides we have "CM" squared is equal to "OC" squared minus "OM"
+
+71
+00:06:01,854 --> 00:06:06,034
+squared and then we can take the pricipal root of both sides of this because we really care about the
+
+72
+00:06:06,034 --> 00:06:08,301
+positive root ( we do not want to have negative distances.
+
+73
+00:06:08,301 --> 00:06:12,030
+So if you take the pricipal root of both sides this becomes "AM" is equal to the principle root of that
+
+74
+00:06:12,030 --> 00:06:16,149
+and we also get that "CM" is equal to the principle root of that
+
+75
+00:06:16,149 --> 00:06:20,457
+Well these two quantities are the same so "AM" must be equal
+
+76
+00:06:20,457 --> 00:06:24,641
+to "CM"
+
+77
+00:06:24,641 --> 00:06:26,879
+They are both equal to this quantity right here
+
+78
+00:06:26,879 --> 00:06:29,182
+and so "CM" might be a bisector
+
+79
+00:06:29,182 --> 00:06:30,779
+and this is really common sense
+
+80
+00:06:30,779 --> 00:06:37,181
+If you know that two sides of two different right triangles are going to be congruent to each other you
+
+81
+00:06:37,181 --> 00:06:41,593
+can always use th pythagorean theorem to get the third side and then
+
+82
+00:06:41,593 --> 00:06:47,894
+the third side is uniquely constrained by the lengths of the other two sides
+
+83
+00:06:47,894 --> 00:06:50,165
+because it is a right triangle
+
+84
+00:06:50,165 --> 00:06:52,477
+and so these are all ways of getting to the same thing
+
+85
+00:06:52,477 --> 00:06:54,635
+But now we can feel pretty good about the fact that if
+
+86
+00:06:54,635 --> 99:59:59,999
+"OD" is perpendicular here it's definately going to bisect this chord

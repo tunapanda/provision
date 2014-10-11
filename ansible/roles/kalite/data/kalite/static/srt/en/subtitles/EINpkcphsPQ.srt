@@ -1,0 +1,284 @@
+1
+00:00:00,501 --> 00:00:04,501
+What we're doing in this video is study a proof of the Pythagorean theorem,
+
+2
+00:00:04,501 --> 00:00:13,433
+that was first discovered,as far as we know by James Garfield in 1876.
+
+3
+00:00:13,433 --> 00:00:17,703
+What's exciting about this is that he was not a professional mathematician.
+
+4
+00:00:17,703 --> 00:00:22,033
+You might know James Garfield as the twentieth president of the United States.
+
+5
+00:00:22,033 --> 00:00:28,971
+He was elected president in 1880, and then he became president in 1881.
+
+6
+00:00:28,971 --> 00:00:34,101
+And he did this proof while he was a sitting member of the United States House of Representatives.
+
+7
+00:00:34,101 --> 00:00:38,837
+What's exciting about that is is it shows that Abraham Lincoln was not the only US politician
+
+8
+00:00:38,837 --> 00:00:46,713
+or the only US president who was into geometry. And what Garfield realised is that we can construct a right triangle-
+
+9
+00:00:46,713 --> 00:01:01,503
+Let's say this side over here is length 'b'(blue) and this side is length 'a'(red),
+
+10
+00:01:01,503 --> 00:01:09,837
+and let's say this side, the hypotenuse of my right triangle, has length 'c'.
+
+11
+00:01:09,837 --> 00:01:15,233
+And let me make it clear -- it is a right triangle. He essentially flipped and rotated this triangle
+
+12
+00:01:15,233 --> 00:01:18,708
+to construct another one that is congruent to the first one.
+
+13
+00:01:18,708 --> 00:01:22,102
+So let me construct that. So we're going to have length 'b.'
+
+14
+00:01:22,102 --> 00:01:26,834
+And it's colinear with length 'a', It's along the same line as length 'a.'
+
+15
+00:01:26,834 --> 00:01:28,709
+They don't overlap with each other.
+
+16
+00:01:28,709 --> 00:01:42,421
+So this is a side of length 'b.'
+And then you have your side of length 'a'
+
+17
+00:01:42,421 --> 00:01:56,302
+at a right angle. And then you have your side of length 'c.'
+
+18
+00:01:56,302 --> 00:02:00,632
+So the first thing we need to think about is, &quot;What's the angle between these two sides?&quot;
+
+19
+00:02:00,632 --> 00:02:07,034
+What's this mystery angle going to be?
+
+20
+00:02:07,034 --> 00:02:09,441
+Well, it looks like something, but let's see if we can prove
+
+21
+00:02:09,441 --> 00:02:12,353
+to ourselves it really is what we think it looks like.
+
+22
+00:02:12,353 --> 00:02:17,702
+If we look at this original triangle, and we call this angle 'theta,'
+
+23
+00:02:17,702 --> 00:02:22,848
+what's this angle over here, the angle that's between the sides of length a and c.
+
+24
+00:02:22,848 --> 00:02:26,501
+what's the measure of this angle going to be?
+
+25
+00:02:26,501 --> 00:02:33,497
+Well, theta plus this angle has to add up to 90, because when you add those two together, they add up to the 90.
+
+26
+00:02:33,497 --> 00:02:36,842
+So 90 and 90 you get 180 degrees for the interior angles of this triangle.
+
+27
+00:02:36,842 --> 00:02:42,367
+So if these two angles together is 90, then this angle is '90 minus theta'.
+
+28
+00:02:42,367 --> 00:02:46,915
+Well if this angle up here is congruent -- (And we've constructed it so it is congruent.) the angle corresponding to theta is also going to be theta,
+
+29
+00:02:46,915 --> 00:02:53,079
+And this angle right over here is also going to be 90 - theta.
+
+30
+00:02:53,079 --> 00:02:57,100
+So given that this is theta and this is 90 - theta, what is our angle going to be?
+
+31
+00:02:57,100 --> 00:03:01,437
+Well they all, collectively, add up to 180 degrees.
+
+32
+00:03:01,437 --> 00:03:10,033
+So you have theta + (90-theta) + our mystery angle is going to be equal to 180 degrees.
+
+33
+00:03:10,033 --> 00:03:16,508
+The thetas cancel out (theta - theta), and you have 90 + our mystery angle is a 180 degrees,
+
+34
+00:03:16,508 --> 00:03:21,034
+We subtract 90 from both sides.) - and you are left with
+
+35
+00:03:21,034 --> 00:03:25,376
+your mystery angle equalling 90 degrees.
+
+36
+00:03:25,376 --> 00:03:27,332
+So that all worked out well.
+
+37
+00:03:27,332 --> 00:03:37,777
+So let me make that clear. That's going to be useful for us.
+
+38
+00:03:37,777 --> 00:03:43,498
+So now we can say definitively that this is 90 degrees. This is a right angle.
+
+39
+00:03:43,498 --> 00:03:49,501
+Now what we are going to do, is we are going to construct a trapezoid.
+
+40
+00:03:49,501 --> 00:03:53,704
+This side 'a' is parallel to side 'b' down here the way its been constructed
+
+41
+00:03:53,704 --> 00:03:57,912
+and this is just one side right over here, this goes straight up
+
+42
+00:03:57,912 --> 00:04:05,709
+and now let's just connect these two sides right over there.
+
+43
+00:04:05,709 --> 00:04:10,914
+So there's a couple of ways to think about the area of this trapezoid.
+
+44
+00:04:10,914 --> 00:04:15,569
+One is we can just think of it as a trapezoid and come up with its area,
+
+45
+00:04:15,569 --> 00:04:20,034
+And then we could think about it as the sum of the areas of its components.
+
+46
+00:04:20,034 --> 00:04:24,178
+So let's just first think of it as trapezoid.
+
+47
+00:04:24,178 --> 00:04:26,902
+So, what do we know about the area of the trapezoid?
+
+48
+00:04:26,902 --> 00:04:44,112
+The area of a trapezoid,is gonna be the height of the trapezoid, which is (a+b) times, the way I think of it, the mean or average of the top and the bottom.
+
+49
+00:04:44,112 --> 00:04:59,776
+So, ar(trapezoid) = (a+b) x 1/2(a+b)
+
+50
+00:04:59,776 --> 00:05:10,531
+In the intuition there you are taking the height times the average of the bottom and the top, gives you the area of the trapezoid.
+
+51
+00:05:10,531 --> 00:05:15,114
+Now, how can we also figure out the area with its component parts?
+
+52
+00:05:15,114 --> 00:05:21,872
+So as far as we do the correct things, we should come up with the same result.
+
+53
+00:05:21,872 --> 00:05:24,370
+so how else can we come up with this area?
+
+54
+00:05:24,370 --> 00:05:29,968
+Well, we could say it's the area of the two right triangles.
+
+55
+00:05:29,968 --> 00:05:34,637
+The area of each of them is one half of a times b.
+
+56
+00:05:34,637 --> 00:05:42,905
+But there's two of them, Let me do that say in blue colour,
+
+57
+00:05:42,905 --> 00:05:46,976
+But there's two of these right triangles, so let's multiply them by two.
+
+58
+00:05:46,976 --> 00:05:54,970
+So 2 times half ab, that takes into consideration this bottom right triangle, and this top one.
+
+59
+00:05:54,970 --> 00:06:01,288
+and what's the area of this large one, that I'll colour in green
+
+60
+00:06:01,288 --> 00:06:08,041
+Well that's pretty straightforward, it's just one half c times c.
+
+61
+00:06:08,041 --> 00:06:14,301
+So, plus one half c times c, which is one half c square.
+
+62
+00:06:14,301 --> 00:06:20,982
+Now , let's simplify this thing and see what we come up with and you might guess where all of this is going.
+
+63
+00:06:20,982 --> 00:06:41,394
+So, we can rearrange this. So this one half times (a+b) squared is going to be equal to two times one half,
+
+64
+00:06:41,394 --> 00:06:52,886
+well that's just going to be one, so its gonna be equal to a times b plus one half c squared.
+
+65
+00:06:52,886 --> 00:06:58,118
+I don't like these one halves lying around, so let's multiply both sides, this equation, by 2.
+
+66
+00:06:58,133 --> 00:07:02,271
+I'm just gonna multiply both sides by two.
+
+67
+00:07:02,271 --> 00:07:11,437
+So, on the left hand side, I'm just left with (a+b) squared,
+
+68
+00:07:11,437 --> 00:07:27,237
+and on the right hand side, I'm left with 2ab and then two times one half c squared, i.e., plus c squared.
+
+69
+00:07:27,237 --> 00:07:32,237
+What happens if you multiply out (a+b) times (a+b)? We get (a+b) squared.
+
+70
+00:07:32,237 --> 00:08:04,646
+That is a sq. + 2ab+ b sq. = 2ab + c sq.
+
+71
+00:08:04,646 --> 00:08:08,646
+Subtracting 2ab from both sides, we are left with, a sq. + b sq. = c sq. i.e. the Pythagorean theorem.

@@ -1,0 +1,1015 @@
+1
+00:00:00,400 --> 00:00:01,933
+what i want to do first is just
+
+2
+00:00:01,933 --> 00:00:04,899
+show you what the angle bisector theorem is
+
+3
+00:00:04,899 --> 00:00:06,140
+and then we'll actually
+
+4
+00:00:06,140 --> 00:00:07,667
+prove it for ourselves
+
+5
+00:00:07,667 --> 00:00:11,169
+so i just have an arbitrary triangle right over here
+
+6
+00:00:11,169 --> 00:00:12,562
+triangle A, B, C
+
+7
+00:00:12,562 --> 00:00:14,002
+and what im going to do is im going to
+
+8
+00:00:14,002 --> 00:00:15,906
+draw an angle bisector
+
+9
+00:00:15,906 --> 00:00:18,667
+for this angle up here we could have done it with any
+
+10
+00:00:18,667 --> 00:00:20,596
+of the three angles but i'll just do this one
+
+11
+00:00:20,596 --> 00:00:22,268
+it'll make our proof a little bit easier
+
+12
+00:00:22,268 --> 00:00:25,533
+so im just gonna bisect this angle, angle ABC
+
+13
+00:00:25,533 --> 00:00:29,652
+so lets just say that that's the angle bisector of angle ABC
+
+14
+00:00:29,652 --> 00:00:34,760
+And so this angle right over here is equal to this angle right over here
+
+15
+00:00:34,760 --> 00:00:37,268
+And let me call this point down here
+
+16
+00:00:37,268 --> 00:00:39,047
+let me call it point D
+
+17
+00:00:39,047 --> 00:00:46,159
+the angle bisector theorem
+
+18
+00:00:46,159 --> 00:00:50,941
+tells us that the ratio between the size that aren't this bisector
+
+19
+00:00:50,941 --> 00:00:54,436
+so when i put this angle bisector here it created two smaller triangles
+
+20
+00:00:54,436 --> 00:00:55,937
+out of that large one
+
+21
+00:00:55,937 --> 00:00:58,909
+the angle bisector theorem tells us that the ratios between the other
+
+22
+00:00:58,909 --> 00:01:02,346
+sides of these two triangles that we now created
+
+23
+00:01:02,346 --> 00:01:04,250
+are going to be the same
+
+24
+00:01:04,250 --> 00:01:10,204
+so it tells us that the ratio of AB
+
+25
+00:01:10,204 --> 00:01:19,530
+to AD is going to be equal to the ratio of BC to - you could say
+
+26
+00:01:19,530 --> 00:01:25,877
+to CD,so the ratio of - i'll color code it - the ratio of -
+
+27
+00:01:25,877 --> 00:01:32,385
+that, which is this, to this, to this
+
+28
+00:01:32,385 --> 00:01:33,775
+is going to be equal
+
+29
+00:01:33,775 --> 00:01:39,597
+to the ratio of this -which is that- to this
+
+30
+00:01:39,597 --> 00:01:40,541
+right over here
+
+31
+00:01:40,541 --> 00:01:42,165
+to CD - which is that over here
+
+32
+00:01:42,165 --> 00:01:44,329
+so it kind of - once you see the ratio of that to that
+
+33
+00:01:44,329 --> 00:01:45,767
+is going to be the same as the ratio of that to that
+
+34
+00:01:45,767 --> 00:01:47,346
+so that's kind of a cool result
+
+35
+00:01:47,346 --> 00:01:49,436
+but you cant just accept it on -on- faith
+
+36
+00:01:49,436 --> 00:01:50,922
+because its a cool result!
+
+37
+00:01:50,922 --> 00:01:52,591
+you want to prove it to ourselves
+
+38
+00:01:52,591 --> 00:01:54,699
+and so you could imagine right over here
+
+39
+00:01:54,699 --> 00:01:56,077
+we have some ratio set up
+
+40
+00:01:56,077 --> 00:01:58,584
+so we're gonna prove it using similar triangles
+
+41
+00:01:58,584 --> 00:02:00,163
+and unfortunate for us
+
+42
+00:02:00,163 --> 00:02:02,253
+these two triangles right here -
+
+43
+00:02:02,253 --> 00:02:03,600
+aren't necessarily similar!
+
+44
+00:02:03,600 --> 00:02:04,854
+we cant really
+
+45
+00:02:04,854 --> 00:02:06,282
+we know that these two angles
+
+46
+00:02:06,282 --> 00:02:07,236
+are congruent to each other
+
+47
+00:02:07,236 --> 00:02:08,525
+but we dont know whether this angle
+
+48
+00:02:08,525 --> 00:02:09,468
+is equal to that angle
+
+49
+00:02:09,468 --> 00:02:09,968
+or that
+
+50
+00:02:09,968 --> 00:02:12,167
+we dont know we cant make any statements like that
+
+51
+00:02:12,167 --> 00:02:14,623
+so in order to actually set up this type of a statement
+
+52
+00:02:14,623 --> 00:02:15,647
+we'll have to construct
+
+53
+00:02:15,647 --> 00:02:17,253
+maybe another triangle!
+
+54
+00:02:17,253 --> 00:02:19,067
+that will be similar to one of these
+
+55
+00:02:19,067 --> 00:02:19,933
+right over here
+
+56
+00:02:19,933 --> 00:02:23,587
+and one way to do it-
+
+57
+00:02:23,587 --> 00:02:24,776
+-would be-
+
+58
+00:02:24,776 --> 00:02:26,773
+to draw another line
+
+59
+00:02:26,773 --> 00:02:28,259
+and this is a bit of
+
+60
+00:02:28,259 --> 00:02:30,349
+this proof wasn't obvious to me the first time
+
+61
+00:02:30,349 --> 00:02:31,324
+that i thought about it
+
+62
+00:02:31,324 --> 00:02:32,933
+so dont worry if its not obvious to you
+
+63
+00:02:32,933 --> 00:02:34,900
+is that what happens is if we can
+
+64
+00:02:34,900 --> 00:02:38,126
+continue this bisector - this angle bisector
+
+65
+00:02:38,126 --> 00:02:39,128
+right over here
+
+66
+00:02:39,128 --> 00:02:40,292
+so lets just continue it
+
+67
+00:02:40,292 --> 00:02:41,622
+it just keeps going
+
+68
+00:02:41,622 --> 00:02:42,954
+on and on and on
+
+69
+00:02:42,954 --> 00:02:45,318
+and lets also maybe we can construct a similar
+
+70
+00:02:45,318 --> 00:02:47,327
+triangle to this triangle over here
+
+71
+00:02:47,327 --> 00:02:49,175
+if we draw a line that's parallel
+
+72
+00:02:49,175 --> 00:02:51,764
+to AB down here
+
+73
+00:02:51,764 --> 00:02:53,031
+so lets try to do that
+
+74
+00:02:53,031 --> 00:02:53,867
+So i'm just gonna say
+
+75
+00:02:53,867 --> 00:02:55,282
+well you know - you could always find
+
+76
+00:02:55,282 --> 00:02:58,585
+if C is not on AB you can always find a point
+
+77
+00:02:58,585 --> 00:03:00,955
+that goes through or a line that goes through C
+
+78
+00:03:00,955 --> 00:03:02,129
+that is parallel
+
+79
+00:03:02,129 --> 00:03:03,353
+to AB
+
+80
+00:03:03,353 --> 00:03:04,717
+so lets just -by definition- lets just
+
+81
+00:03:04,717 --> 00:03:07,434
+create another line right over here
+
+82
+00:03:07,434 --> 00:03:09,410
+and lets say lets call this point
+
+83
+00:03:09,410 --> 00:03:10,817
+right over here F
+
+84
+00:03:10,817 --> 00:03:13,631
+and lets just pick this line in such a way
+
+85
+00:03:13,631 --> 00:03:16,718
+that FC is parallel to AB
+
+86
+00:03:16,718 --> 00:03:20,212
+so this is parallel to that
+
+87
+00:03:20,212 --> 00:03:24,717
+- right over there so FC is parallel to AB
+
+88
+00:03:24,717 --> 00:03:25,957
+and we can just construct it that way
+
+89
+00:03:25,957 --> 00:03:27,898
+and now we have some interesting
+
+90
+00:03:27,898 --> 00:03:29,518
+things and we did it that way so that we can make
+
+91
+00:03:29,518 --> 00:03:32,271
+these two triangles would be similar to each other
+
+92
+00:03:32,271 --> 00:03:34,501
+so lets see that - lets see what happens
+
+93
+00:03:34,501 --> 00:03:35,941
+so before we even think about similarity
+
+94
+00:03:35,941 --> 00:03:37,705
+lets think about some of the angles
+
+95
+00:03:37,705 --> 00:03:40,339
+or what we know about some of the angles here
+
+96
+00:03:40,339 --> 00:03:43,895
+we know that we have alternate interior angles
+
+97
+00:03:43,895 --> 00:03:45,770
+so just think about these two parallel lines
+
+98
+00:03:45,770 --> 00:03:48,589
+so i can imagine that AB keeps going like that
+
+99
+00:03:48,589 --> 00:03:50,660
+FC keeps going like that
+
+100
+00:03:50,660 --> 00:03:53,641
+and line BD right here is a transversal
+
+101
+00:03:53,641 --> 00:03:56,924
+then whatever this angle is
+
+102
+00:03:56,924 --> 00:03:58,741
+this angle is going to be as well
+
+103
+00:03:58,741 --> 00:04:00,801
+for alternate interior angles
+
+104
+00:04:00,801 --> 00:04:01,646
+which we've talked a lot about
+
+105
+00:04:01,646 --> 00:04:04,224
+when we first talked about angles with transverals
+
+106
+00:04:04,224 --> 00:04:05,103
+and all of that
+
+107
+00:04:05,103 --> 00:04:06,621
+so these two angles are going to be
+
+108
+00:04:06,621 --> 00:04:07,676
+the same
+
+109
+00:04:07,676 --> 00:04:09,185
+but this angle and this angle are also going to be
+
+110
+00:04:09,185 --> 00:04:10,041
+the same
+
+111
+00:04:10,041 --> 00:04:11,210
+because this angle and that angle
+
+112
+00:04:11,210 --> 00:04:11,805
+are the same
+
+113
+00:04:11,805 --> 00:04:14,595
+this is a bisector and because this is a bisector
+
+114
+00:04:14,595 --> 00:04:16,870
+we know that angle ABD is the same
+
+115
+00:04:16,870 --> 00:04:18,649
+as angle DBC
+
+116
+00:04:18,649 --> 00:04:20,831
+so whatever this angle is - that angle is
+
+117
+00:04:20,831 --> 00:04:22,425
+and so is this angle
+
+118
+00:04:22,425 --> 00:04:23,742
+and that gives us kind of
+
+119
+00:04:23,742 --> 00:04:25,522
+an interesting result
+
+120
+00:04:25,522 --> 00:04:26,837
+because here we have
+
+121
+00:04:26,837 --> 00:04:30,954
+a situation where if we look at this larger triangle
+
+122
+00:04:30,954 --> 00:04:34,839
+BFC - we have two base angles that are the same
+
+123
+00:04:34,839 --> 00:04:37,000
+which means this must be an isosceles triangle
+
+124
+00:04:37,000 --> 00:04:43,180
+so BC - must be the same as FC
+
+125
+00:04:43,180 --> 00:04:44,840
+so that was kinda cool
+
+126
+00:04:44,840 --> 00:04:46,388
+we just used the transversal
+
+127
+00:04:46,388 --> 00:04:47,798
+and the alternate interior angles
+
+128
+00:04:47,798 --> 00:04:49,207
+to show that these are isosceles
+
+129
+00:04:49,207 --> 00:04:51,437
+and that BC and FC are the same thing
+
+130
+00:04:51,437 --> 00:04:52,815
+and that could be useful
+
+131
+00:04:52,815 --> 00:04:54,254
+because we know that
+
+132
+00:04:54,254 --> 00:04:57,179
+we want to - we have a feeling
+
+133
+00:04:57,179 --> 00:04:59,236
+that this triangle and this triangle
+
+134
+00:04:59,236 --> 00:05:00,214
+are going to be similar
+
+135
+00:05:00,214 --> 00:05:01,451
+we haven't proven it yet
+
+136
+00:05:01,451 --> 00:05:02,693
+but how will that help us get something
+
+137
+00:05:02,693 --> 00:05:04,268
+about BC up here?
+
+138
+00:05:04,268 --> 00:05:06,434
+but we just showed that BC and FC
+
+139
+00:05:06,434 --> 00:05:07,705
+are the same thing
+
+140
+00:05:07,705 --> 00:05:09,609
+so this is going to be the same thing
+
+141
+00:05:09,609 --> 00:05:11,141
+as what we wanna prove it
+
+142
+00:05:11,141 --> 00:05:12,704
+and if we can prove that FC - the ratio
+
+143
+00:05:12,704 --> 00:05:14,284
+of AB to AD is the same thing
+
+144
+00:05:14,284 --> 00:05:17,867
+as the ratio of FC to CD were gonna be there
+
+145
+00:05:17,867 --> 00:05:21,258
+because BC - we just showed - is equal to
+
+146
+00:05:21,258 --> 00:05:21,988
+FC
+
+147
+00:05:21,988 --> 00:05:24,066
+but lets not start with the theorem
+
+148
+00:05:24,066 --> 00:05:25,459
+let's actually get to the theorem
+
+149
+00:05:25,459 --> 00:05:27,007
+so FC is parallel to AB
+
+150
+00:05:27,007 --> 00:05:31,035
+able to set up these - this one - isosceles triangle
+
+151
+00:05:31,035 --> 00:05:32,364
+show these sides are congruent
+
+152
+00:05:32,364 --> 00:05:34,175
+now lets look at some of the other angles
+
+153
+00:05:34,175 --> 00:05:35,986
+here - and then we'll make ourselves
+
+154
+00:05:35,986 --> 00:05:37,338
+feel good about it
+
+155
+00:05:37,338 --> 00:05:38,405
+but we have this -
+
+156
+00:05:38,405 --> 00:05:39,748
+- if we look at triangle ABD
+
+157
+00:05:39,748 --> 00:05:41,360
+so this triangle right over here
+
+158
+00:05:41,360 --> 00:05:43,168
+and triangle FDC
+
+159
+00:05:43,168 --> 00:05:44,098
+we already established
+
+160
+00:05:44,098 --> 00:05:45,350
+that they have one
+
+161
+00:05:45,350 --> 00:05:46,082
+set of angles
+
+162
+00:05:46,082 --> 00:05:47,162
+that are the same
+
+163
+00:05:47,162 --> 00:05:48,276
+and then they also both
+
+164
+00:05:48,276 --> 00:05:50,090
+- ABD has this angle
+
+165
+00:05:50,090 --> 00:05:50,848
+right over here
+
+166
+00:05:50,848 --> 00:05:51,701
+which is going to be
+
+167
+00:05:51,701 --> 00:05:52,598
+which is a vertical angle
+
+168
+00:05:52,598 --> 00:05:53,141
+with this one
+
+169
+00:05:53,141 --> 00:05:53,855
+over here
+
+170
+00:05:53,855 --> 00:05:54,998
+so they're congruent
+
+171
+00:05:54,998 --> 00:05:55,910
+and we know if two
+
+172
+00:05:55,910 --> 00:05:57,024
+tringles have two angles
+
+173
+00:05:57,024 --> 00:05:58,401
+that are the same
+
+174
+00:05:58,401 --> 00:05:59,317
+- actually the third ones going
+
+175
+00:05:59,317 --> 00:06:00,340
+to be the same one as well
+
+176
+00:06:00,340 --> 00:06:01,078
+or you could say by the
+
+177
+00:06:01,078 --> 00:06:03,230
+angle - angle similarity postulate
+
+178
+00:06:03,230 --> 00:06:05,462
+these two triangles are similar
+
+179
+00:06:05,462 --> 00:06:07,300
+so let me right that down
+
+180
+00:06:07,300 --> 00:06:09,298
+you wanna make sure you get the corresponding sides right
+
+181
+00:06:09,298 --> 00:06:11,267
+we now know by angle - angle
+
+182
+00:06:11,267 --> 00:06:12,587
+and im gonna start at the green angle
+
+183
+00:06:12,587 --> 00:06:16,122
+that triangle B - and then the blue angle
+
+184
+00:06:16,122 --> 00:06:21,262
+BDA is similar to triangle
+
+185
+00:06:21,262 --> 00:06:24,267
+so once again lets start with the green angle -
+
+186
+00:06:24,267 --> 00:06:30,887
+- F then go to the blue angle FDC
+
+187
+00:06:30,887 --> 00:06:32,971
+and here we want to eventually get to the
+
+188
+00:06:32,971 --> 00:06:33,991
+angle bisector theorem
+
+189
+00:06:33,991 --> 00:06:35,846
+so we wanna look at the ratio between
+
+190
+00:06:35,846 --> 00:06:40,913
+AB and AD - similar triangles - either you could find
+
+191
+00:06:40,913 --> 00:06:42,769
+the ratio between corresponding sides
+
+192
+00:06:42,769 --> 00:06:43,944
+are going to be the same
+
+193
+00:06:43,944 --> 00:06:45,600
+on similar triangles
+
+194
+00:06:45,600 --> 00:06:47,255
+or you could find the ratio between
+
+195
+00:06:47,255 --> 00:06:49,577
+two sides of a similar triangle
+
+196
+00:06:49,577 --> 00:06:51,016
+and compare them to the ratio of the same
+
+197
+00:06:51,016 --> 00:06:54,174
+two corresponding sides on the other similar triangle
+
+198
+00:06:54,174 --> 00:06:55,428
+and they should be the same
+
+199
+00:06:55,428 --> 00:06:56,452
+so by similar triangles we know that
+
+200
+00:06:56,452 --> 00:06:57,936
+the ratio of AB
+
+201
+00:06:57,936 --> 00:07:01,343
+and this by the way - was by
+
+202
+00:07:01,343 --> 00:07:03,452
+angle - angle similarity
+
+203
+00:07:03,452 --> 00:07:04,858
+wanna right that down
+
+204
+00:07:04,858 --> 00:07:05,572
+so now that we know
+
+205
+00:07:05,572 --> 00:07:06,316
+that they're similar
+
+206
+00:07:06,316 --> 00:07:11,755
+we know that the ratio of AB to AD
+
+207
+00:07:11,755 --> 00:07:13,139
+is going to be equal to
+
+208
+00:07:13,139 --> 00:07:14,021
+and we could even look here
+
+209
+00:07:14,021 --> 00:07:14,795
+for the corresponding sides
+
+210
+00:07:14,795 --> 00:07:16,255
+the ratio of AB
+
+211
+00:07:16,255 --> 00:07:17,754
+the corresponding side is
+
+212
+00:07:17,754 --> 00:07:19,252
+gonna be CF
+
+213
+00:07:19,252 --> 00:07:21,477
+its going to equal CF
+
+214
+00:07:21,477 --> 00:07:25,103
+over AD - AD is the same thing
+
+215
+00:07:25,103 --> 00:07:27,935
+as CD - over CD
+
+216
+00:07:27,935 --> 00:07:29,146
+and so we know that the ratio of
+
+217
+00:07:29,146 --> 00:07:32,571
+AB over AD is equal to CF over CD
+
+218
+00:07:32,571 --> 00:07:34,517
+but we just proved to ourselves
+
+219
+00:07:34,517 --> 00:07:35,972
+because this is an isosceles triangle
+
+220
+00:07:35,972 --> 00:07:38,716
+that CF is the same thing as BC
+
+221
+00:07:38,716 --> 00:07:39,918
+right over here
+
+222
+00:07:39,918 --> 00:07:42,694
+so CF is the same thing as BC
+
+223
+00:07:42,694 --> 00:07:43,761
+and then we're done!
+
+224
+00:07:43,761 --> 00:07:45,477
+we just proven AB over AD
+
+225
+00:07:45,477 --> 00:07:47,689
+is equal to BC over CD
+
+226
+00:07:47,689 --> 00:07:49,052
+so there's kinda two things
+
+227
+00:07:49,052 --> 00:07:50,396
+we have to do here
+
+228
+00:07:50,396 --> 00:07:52,921
+- one - construct this other triangle
+
+229
+00:07:52,921 --> 00:07:54,604
+that allowed us
+
+230
+00:07:54,604 --> 00:07:56,172
+assuming this was parallel
+
+231
+00:07:56,172 --> 00:07:57,790
+that gave us two things
+
+232
+00:07:57,790 --> 00:07:59,624
+that gave us another angle
+
+233
+00:07:59,624 --> 00:08:01,126
+to show that they're similar
+
+234
+00:08:01,126 --> 00:08:01,761
+and also
+
+235
+00:08:01,761 --> 00:08:02,690
+allowed us to establish
+
+236
+00:08:02,690 --> 00:08:05,318
+- sorry - I have a - something stuck in my throat -
+
+237
+00:08:10,933 --> 00:08:11,623
+so we're able to
+
+238
+00:08:11,623 --> 00:08:13,261
+using - constructing this triangle here
+
+239
+00:08:13,261 --> 00:08:14,809
+we're able to both show its a similar
+
+240
+00:08:14,809 --> 00:08:16,575
+and to construct this larger
+
+241
+00:08:16,575 --> 00:08:17,940
+isosceles triangle to show
+
+242
+00:08:17,940 --> 00:08:19,117
+look if we can find the ratio between
+
+243
+00:08:19,117 --> 00:08:20,370
+two sides of this triangle
+
+244
+00:08:20,370 --> 00:08:20,991
+and this one
+
+245
+00:08:20,991 --> 00:08:22,122
+then that's going to be the ratio
+
+246
+00:08:22,122 --> 00:08:23,709
+of this - if we can find
+
+247
+00:08:23,709 --> 00:08:24,943
+the ratio of this side to this side
+
+248
+00:08:24,943 --> 00:08:26,138
+its the same as the ratio
+
+249
+00:08:26,138 --> 00:08:27,379
+of this side to this side
+
+250
+00:08:27,379 --> 00:08:28,725
+that's analogues to showing
+
+251
+00:08:28,725 --> 00:08:30,400
+that the ratio of this side to this side
+
+252
+00:08:30,400 --> 00:08:31,072
+is the same
+
+253
+00:08:31,072 --> 00:08:32,370
+as BC to CD
+
+254
+00:08:32,370 --> 99:59:59,999
+and we are done.

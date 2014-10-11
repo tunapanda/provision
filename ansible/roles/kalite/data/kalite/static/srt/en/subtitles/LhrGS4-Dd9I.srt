@@ -1,0 +1,543 @@
+1
+00:00:00,610 --> 00:00:04,350
+What we're going to prove in this video is a couple of fairly
+
+2
+00:00:04,360 --> 00:00:07,440
+straight forward parallelogram related proofs
+
+3
+00:00:07,450 --> 00:00:08,750
+And this first one we're gonna say,
+
+4
+00:00:08,760 --> 00:00:10,870
+"Hey, if we have this parallelogram ABCD,
+
+5
+00:00:10,880 --> 00:00:13,970
+let's prove that the opposite sides have the same length "
+
+6
+00:00:13,980 --> 00:00:19,570
+So, prove that AB is equal to DC and that AD is equal to BC
+
+7
+00:00:19,580 --> 00:00:21,760
+So, let me draw a diagonal here
+
+8
+00:00:21,770 --> 00:00:24,160
+So, I'm gonna draw a diagonal
+
+9
+00:00:24,590 --> 00:00:27,580
+And this diagonal, depending on how you view it is intersecting
+
+10
+00:00:27,590 --> 00:00:31,010
+two sets of parallel lines so you can also consider it
+
+11
+00:00:31,020 --> 00:00:32,340
+to be a transversal
+
+12
+00:00:32,350 --> 00:00:34,170
+Actually let me draw a little bit neater than that
+
+13
+00:00:34,180 --> 00:00:35,390
+I can do a better job
+
+14
+00:00:35,760 --> 00:00:37,960
+So, nope that's not any better
+
+15
+00:00:38,450 --> 00:00:40,840
+That is about as good as I can do
+
+16
+00:00:41,120 --> 00:00:44,970
+So, if we look, view DB, this diagonal DB, we can view it
+
+17
+00:00:44,980 --> 00:00:48,880
+as a transversal for the parallel lines AB and DC
+
+18
+00:00:48,890 --> 00:00:54,340
+And if you view it that way, you can pick out that angle ABD
+
+19
+00:00:54,350 --> 00:00:55,600
+is going to be congruent
+
+20
+00:00:55,610 --> 00:00:58,430
+So, angle ABD, that's that angle right there is going to be
+
+21
+00:00:58,440 --> 00:01:03,400
+congruent to angle BDC because they are alternate interior angles
+
+22
+00:01:03,410 --> 00:01:05,320
+You have a transversal, parallel lines
+
+23
+00:01:05,330 --> 00:01:10,640
+So, we know that angle ABD is going to be congruent
+
+24
+00:01:10,650 --> 00:01:13,620
+to angle BDC
+
+25
+00:01:15,950 --> 00:01:19,730
+Now you can also view this diagonal DB, you can view
+
+26
+00:01:19,740 --> 00:01:22,430
+this as a transversal of these two parallel lines,
+
+27
+00:01:22,440 --> 00:01:27,360
+of the other two pair of parallel lines, AD and BC
+
+28
+00:01:27,370 --> 00:01:31,260
+And if you look at it that way you'll immediately see that angle
+
+29
+00:01:31,270 --> 00:01:40,520
+DBC, right over here, angle DBC is going to be congruent to angle
+
+30
+00:01:40,530 --> 00:01:49,650
+ADB for the exact same reason, they are alternate interior angles
+
+31
+00:01:49,660 --> 00:01:52,860
+of a transversal intersecting these two parallel lines
+
+32
+00:01:53,190 --> 00:01:54,260
+So, I could write this
+
+33
+00:01:54,270 --> 00:02:03,080
+This is alternate interior angles are congruent when you have
+
+34
+00:02:03,090 --> 00:02:06,410
+a transversal intersecting two parallel lines
+
+35
+00:02:06,720 --> 00:02:09,630
+And we also see that both of these triangles,
+
+36
+00:02:09,640 --> 00:02:16,120
+triangle ADB and triangle CDB both share the side over here
+
+37
+00:02:16,130 --> 00:02:18,020
+It's obviously equal to itself
+
+38
+00:02:18,030 --> 00:02:20,030
+Now, why is this useful
+
+39
+00:02:20,040 --> 00:02:23,250
+Well, you might realize that we've just shown that both of these
+
+40
+00:02:23,260 --> 00:02:26,780
+triangles, they have this pink angle and they have this side
+
+41
+00:02:26,790 --> 00:02:28,860
+in common and then they have the green angle
+
+42
+00:02:28,870 --> 00:02:32,510
+Pink angle, side in common and then the green angle
+
+43
+00:02:32,520 --> 00:02:35,830
+So, we've just shown by angle-side-angle that these
+
+44
+00:02:35,840 --> 00:02:37,910
+two triangles are congruent
+
+45
+00:02:37,920 --> 00:02:39,450
+So, let me write this down
+
+46
+00:02:39,460 --> 00:02:44,160
+We have shown that triangle -- I'll go from non-labeled to pink
+
+47
+00:02:50,040 --> 00:03:00,240
+non-labeled to pink to green -- CBD and this comes out of
+
+48
+00:03:00,450 --> 00:03:03,160
+angle-side-angle congruency
+
+49
+00:03:03,410 --> 00:03:09,340
+So, this is from angle-side-angle congruency
+
+50
+00:03:09,350 --> 00:03:10,940
+Well, what does that do for us
+
+51
+00:03:10,950 --> 00:03:14,790
+Well, if two triangles are congruent then all of the corresponding
+
+52
+00:03:14,800 --> 00:03:17,960
+features of the two triangles are going to be congruent
+
+53
+00:03:17,970 --> 00:03:24,280
+In particular, side DC corresponds to side BA --
+
+54
+00:03:24,290 --> 00:03:27,940
+side DC on this bottom triangle corresponds to side BA
+
+55
+00:03:27,950 --> 00:03:28,950
+on the top triangle
+
+56
+00:03:28,960 --> 00:03:31,040
+So, they need to be congruent
+
+57
+00:03:31,050 --> 00:03:32,420
+So, DC
+
+58
+00:03:32,430 --> 00:03:39,070
+So, we get DC is going to be equal to BA and that's
+
+59
+00:03:39,080 --> 00:03:46,990
+because they are corresponding sides of congruent triangles
+
+60
+00:03:47,000 --> 00:03:51,300
+So, this is going to be equal to that and by that exact same logic,
+
+61
+00:03:51,310 --> 00:03:54,920
+AD corresponds to CB
+
+62
+00:03:58,440 --> 00:04:02,730
+AD is equal to CB and for the exact same reason:
+
+63
+00:04:02,740 --> 00:04:05,140
+corresponding sides of congruent triangles
+
+64
+00:04:05,150 --> 00:04:06,270
+And then we're done!
+
+65
+00:04:06,590 --> 00:04:09,670
+We've proven that opposite sides are congruent
+
+66
+00:04:09,680 --> 00:04:11,340
+Now, let's go the other way
+
+67
+00:04:13,240 --> 00:04:16,410
+Let's say that we have some type of a quadrilateral
+
+68
+00:04:16,420 --> 00:04:18,890
+and we know that the opposite sides are congruent,
+
+69
+00:04:18,900 --> 00:04:22,130
+can we prove to ourselves that this is a parallelogram
+
+70
+00:04:22,140 --> 00:04:24,530
+Well, it's kind of the same proof in reverse
+
+71
+00:04:24,540 --> 00:04:26,740
+So, let's draw a diagonal here,
+
+72
+00:04:26,750 --> 00:04:28,870
+since we know a lot about triangles
+
+73
+00:04:28,880 --> 00:04:30,700
+So, let me draw
+
+74
+00:04:31,630 --> 00:04:33,120
+There we go
+
+75
+00:04:34,020 --> 00:04:35,650
+That's the hardest part, let's see
+
+76
+00:04:35,660 --> 00:04:37,830
+Draw at a -- that's pretty good
+
+77
+00:04:37,840 --> 00:04:38,590
+Alright
+
+78
+00:04:38,600 --> 00:04:42,420
+So, we obviously know that CB is going to be equal to itself
+
+79
+00:04:42,430 --> 00:04:44,080
+So, I'll draw it like that
+
+80
+00:04:44,090 --> 00:04:46,860
+We obviously 'cause that's the same line
+
+81
+00:04:46,870 --> 00:04:48,460
+And then we have something interesting
+
+82
+00:04:48,470 --> 00:04:53,110
+We've split this quadrilateral to two triangles: triangle ACB
+
+83
+00:04:53,120 --> 00:04:56,410
+and triangle DBC
+
+84
+00:04:56,420 --> 00:05:00,530
+And notice, they have all three sides of these two triangles
+
+85
+00:05:00,540 --> 00:05:01,750
+are equal to each other
+
+86
+00:05:01,760 --> 00:05:04,890
+So, we know that by side-side-side that they are congruent
+
+87
+00:05:04,900 --> 00:05:11,790
+So, we know that triangle, I'm gonna start at A and I'm going
+
+88
+00:05:11,800 --> 00:05:21,650
+to the one half side, so, ACB is congruent to triangle DBC
+
+89
+00:05:24,000 --> 00:05:30,550
+and this is by side-side-side congruency
+
+90
+00:05:30,560 --> 00:05:32,320
+Well, what does that do for us
+
+91
+00:05:32,330 --> 00:05:34,720
+Well, it tells us all the corresponding angles
+
+92
+00:05:34,730 --> 00:05:36,130
+are going to be congruent
+
+93
+00:05:36,350 --> 00:05:42,150
+So, for example, ABC, angle ABC is going to be
+
+94
+00:05:49,250 --> 00:05:52,860
+you can see ABC -- is going to be congruent to DCB,
+
+95
+00:05:54,490 --> 00:06:02,600
+angle DCB and you can say by you can say corresponding angles
+
+96
+00:06:02,610 --> 00:06:06,790
+congruent of congruent triangles
+
+97
+00:06:06,800 --> 00:06:08,980
+I'm just using some short hand here to save some time
+
+98
+00:06:08,990 --> 00:06:12,280
+So, ABC is going to be congruent to DCB
+
+99
+00:06:12,290 --> 00:06:15,180
+So, these two angles are going to be congruent
+
+100
+00:06:15,190 --> 00:06:18,230
+Well, this is interesting because here you have a long line
+
+101
+00:06:18,240 --> 00:06:23,030
+and it's intersecting AB and CD and we clearly see that these
+
+102
+00:06:23,040 --> 00:06:26,770
+things that could be alternate angles, alternate interior angles,
+
+103
+00:06:26,780 --> 00:06:27,760
+are congruent
+
+104
+00:06:27,770 --> 00:06:30,840
+And because we have these congruent alternate interior angles
+
+105
+00:06:30,850 --> 00:06:33,950
+we know that AB must be parallel to CD
+
+106
+00:06:33,960 --> 00:06:36,830
+So, this must be parallel to that
+
+107
+00:06:36,840 --> 00:06:47,490
+So, we know that AB is parallel to CD by alternate interior angles
+
+108
+00:06:47,500 --> 00:06:51,530
+of transversal intersecting parallel lines
+
+109
+00:06:51,540 --> 00:06:53,870
+Now, we can use that exact same logic
+
+110
+00:06:57,020 --> 00:07:04,590
+angle ACB is congruent to angle DBC
+
+111
+00:07:09,390 --> 00:07:12,890
+and we know that by corresponding
+
+112
+00:07:14,040 --> 00:07:18,630
+angles congruent of congruent triangles
+
+113
+00:07:18,640 --> 00:07:22,320
+So, we're just saying that this angle is equal to that angle
+
+114
+00:07:22,330 --> 00:07:25,480
+Well, once again these could be alternate interior angles,
+
+115
+00:07:25,490 --> 00:07:27,460
+they look like they could be, this is a transversal
+
+116
+00:07:27,470 --> 00:07:29,960
+and here's two lines here which we're not sure they're parallel
+
+117
+00:07:29,970 --> 00:07:33,110
+but because the alternate interior angles are congruent
+
+118
+00:07:33,120 --> 00:07:34,700
+we know that they are parallel
+
+119
+00:07:34,710 --> 00:07:36,960
+So, this is parallel to that
+
+120
+00:07:36,970 --> 00:07:44,510
+So, we know that AC is parallel to BD by alternate interior angles
+
+121
+00:07:48,630 --> 00:07:49,550
+And we're done!
+
+122
+00:07:49,560 --> 00:07:51,430
+So, what we've done is interesting
+
+123
+00:07:51,440 --> 00:07:55,630
+We've shown if you have a parallelogram, opposite sides are,
+
+124
+00:07:55,640 --> 00:07:57,440
+opposite sides have the same length
+
+125
+00:07:57,450 --> 00:08:00,130
+And if opposite sides have the same length then you have
+
+126
+00:08:00,140 --> 00:08:01,160
+a parallelogram
+
+127
+00:08:01,170 --> 00:08:03,540
+And so, we've actually proven it in both directions
+
+128
+00:08:03,550 --> 00:08:04,730
+And so we can actually make what you call
+
+129
+00:08:04,740 --> 00:08:06,880
+an if-and-only-if statement
+
+130
+00:08:06,890 --> 00:08:11,720
+You can say, "If opposite sides are parallel of a quadrilateral "
+
+131
+00:08:11,730 --> 00:08:15,750
+Or you could say, "Opposite sides of quadrilateral are parallel
+
+132
+00:08:15,760 --> 00:08:18,780
+if and only if their lengths are equal "
+
+133
+00:08:18,790 --> 00:08:20,050
+And you can say "if and only if"
+
+134
+00:08:20,060 --> 00:08:23,100
+So, if they are parallel then you can say their lengths are equal
+
+135
+00:08:23,110 --> 00:08:26,680
+and only if their lengths are equal are they're parallel
+
+136
+00:08:26,690 --> 00:08:29,010
+We've prove it in both directions

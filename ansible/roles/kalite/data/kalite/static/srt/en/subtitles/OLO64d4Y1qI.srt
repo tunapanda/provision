@@ -1,0 +1,323 @@
+1
+00:00:00,833 --> 00:00:02,881
+We are faced with a fairly daunting looking
+
+2
+00:00:02,881 --> 00:00:07,832
+indefinite integral of pi over x natural log of x dx.
+
+3
+00:00:07,832 --> 00:00:11,380
+Now what could we do to address this?
+
+4
+00:00:11,380 --> 00:00:13,700
+Is u-substitution a possibility here?
+
+5
+00:00:13,700 --> 00:00:18,810
+Well, for u substitution, we want to look for an expression and its derivative.
+
+6
+00:00:18,810 --> 00:00:25,776
+Well, what happens if we set u equal to the natural log of x?
+
+7
+00:00:25,776 --> 00:00:29,445
+Now what would "d u" be equal to in that scenario?
+
+8
+00:00:29,445 --> 00:00:32,967
+"du" is going to be the derivative of the natural log of x with respect to x
+
+9
+00:00:32,967 --> 00:00:37,767
+which is just 1 over x d x.
+
+10
+00:00:37,767 --> 00:00:44,833
+This is an equivalent statement to saying that d u d x is equal to one over x.
+
+11
+00:00:44,833 --> 00:00:50,157
+So do we see the one over x anywhere in this original expression?
+
+12
+00:00:50,157 --> 00:00:51,300
+Well, it's kind of hiding
+
+13
+00:00:51,300 --> 00:00:52,200
+it's not so obvious, but this x in the denominator is essentially
+
+14
+00:00:52,200 --> 00:00:57,167
+one over x and that's being multiplied by dx.
+
+15
+00:00:57,167 --> 00:01:00,500
+Let me rewrite this original expression to make a little bit more sense.
+
+16
+00:01:00,500 --> 00:01:02,138
+So the first thing I'm gonna do, is I'm gonna take
+
+17
+00:01:02,138 --> 00:01:04,233
+the pi - I should do that in a different color
+
+18
+00:01:04,233 --> 00:01:06,411
+since I've already used...
+
+19
+00:01:06,411 --> 00:01:08,547
+let me take the pi and just take it out front.
+
+20
+00:01:08,547 --> 00:01:11,633
+Imma just take the pi right in front of the integral.
+
+21
+00:01:11,633 --> 00:01:13,795
+And so this is gonna become the integral of -
+
+22
+00:01:13,795 --> 00:01:16,967
+and let me write the one over the natural log of x first.
+
+23
+00:01:16,967 --> 00:01:18,950
+one over the natural log of x
+
+24
+00:01:18,950 --> 00:01:21,550
+times one over x
+
+25
+00:01:21,550 --> 00:01:23,454
+dx
+
+26
+00:01:23,454 --> 00:01:24,300
+Now it becomes a little bit clearer.
+
+27
+00:01:24,300 --> 00:01:29,167
+These are completely equivalent statements.
+
+28
+00:01:29,167 --> 00:01:30,967
+But this makes it clear that yes,
+
+29
+00:01:30,967 --> 00:01:33,700
+u substitution will work over here.
+
+30
+00:01:33,700 --> 00:01:36,922
+We set our u equal to natural log of x.
+
+31
+00:01:36,922 --> 00:01:39,337
+Then our d u is one over x d x.
+
+32
+00:01:39,337 --> 00:01:41,473
+One over x d x.
+
+33
+00:01:41,473 --> 00:01:44,633
+Our d u is one over x d x.
+
+34
+00:01:44,633 --> 00:01:46,535
+Let's rewrite this integral.
+
+35
+00:01:46,535 --> 00:01:47,603
+It's going to be equal to
+
+36
+00:01:47,603 --> 00:01:52,386
+pi times the indefinite integral of
+
+37
+00:01:52,386 --> 00:01:54,567
+one over u
+
+38
+00:01:54,567 --> 00:01:57,402
+natural log of x is u
+
+39
+00:01:57,402 --> 00:01:59,445
+we set that equal to natural log of x
+
+40
+00:01:59,445 --> 00:02:02,046
+times du
+
+41
+00:02:02,046 --> 00:02:04,972
+times du
+
+42
+00:02:04,972 --> 00:02:06,179
+Now this becomes pretty straightforward.
+
+43
+00:02:06,179 --> 00:02:08,594
+What is the antiderivative of all this business?
+
+44
+00:02:08,594 --> 00:02:09,801
+And we've done very
+
+45
+00:02:09,801 --> 00:02:11,798
+similar things like this multiple times already.
+
+46
+00:02:11,798 --> 00:02:13,470
+This is going to be equal to
+
+47
+00:02:13,470 --> 00:02:15,606
+pi
+
+48
+00:02:15,606 --> 00:02:17,700
+times the natural log
+
+49
+00:02:17,700 --> 00:02:21,551
+the natural log of the absolute value
+
+50
+00:02:21,551 --> 00:02:23,455
+of u
+
+51
+00:02:23,455 --> 00:02:26,380
+so that we can handle even negative values of u
+
+52
+00:02:26,380 --> 00:02:28,284
+the natural log of the absolute value of u
+
+53
+00:02:28,284 --> 00:02:30,189
+plus c
+
+54
+00:02:30,189 --> 00:02:32,139
+ok, so we have a constant factor out here.
+
+55
+00:02:32,139 --> 00:02:33,857
+plus c
+
+56
+00:02:33,857 --> 00:02:36,876
+And we're almost done, we just have to un-substitute for the u.
+
+57
+00:02:36,876 --> 00:02:38,700
+U is equal to natural log of x.
+
+58
+00:02:38,700 --> 00:02:40,900
+So we end up with this kind of neat looking expression.
+
+59
+00:02:40,900 --> 00:02:43,888
+The anti of this entire indefinite integral, we have simplified
+
+60
+00:02:43,888 --> 00:02:44,967
+we have evaluated it
+
+61
+00:02:44,967 --> 00:02:46,833
+and it is now equal to pi
+
+62
+00:02:46,833 --> 00:02:50,033
+times the natural log
+
+63
+00:02:50,033 --> 00:02:53,100
+of the absolute value of u
+
+64
+00:02:53,100 --> 00:02:56,148
+but u is just the natural log of x
+
+65
+00:02:56,148 --> 00:02:57,727
+the natural log of x
+
+66
+00:02:57,727 --> 00:03:02,046
+and then we have this plus c
+
+67
+00:03:02,046 --> 00:03:03,033
+right over here.
+
+68
+00:03:03,033 --> 00:03:04,967
+And we could've assumed that from the get-go
+
+69
+00:03:04,967 --> 00:03:06,633
+this original expression
+
+70
+00:03:06,633 --> 00:03:10,100
+was only defined for positive values of x
+
+71
+00:03:10,100 --> 00:03:11,938
+because you have to take the natural log here
+
+72
+00:03:11,938 --> 00:03:13,053
+and there wasn't a absolute value.
+
+73
+00:03:13,053 --> 00:03:17,233
+So we can leave this as just a natural log of x
+
+74
+00:03:17,233 --> 00:03:19,700
+But this also works for the situations now
+
+75
+00:03:19,700 --> 00:03:21,737
+cause we're taking the absolute value of that
+
+76
+00:03:21,737 --> 00:03:25,033
+where the ln of x might have been a negative number.
+
+77
+00:03:25,033 --> 00:03:26,613
+for example if it was a natural log of
+
+78
+00:03:26,613 --> 00:03:31,396
+.5 or who knows whoever it might be.
+
+79
+00:03:31,396 --> 00:03:33,100
+But we are all done.
+
+80
+00:03:33,100 --> 00:03:34,900
+We have simplified what seemed
+
+81
+00:03:34,900 --> 00:03:38,900
+like a kind of daunting expression.

@@ -1,0 +1,675 @@
+1
+00:00:01,858 --> 00:00:03,700
+We'll now learn about what is arguably the most useful concept in finance
+
+2
+00:00:04,923 --> 00:00:06,800
+and that is called the present value.
+
+3
+00:00:09,200 --> 00:00:10,681
+And if you know the present value
+
+4
+00:00:10,681 --> 00:00:12,446
+then it's very easy to understand
+
+5
+00:00:12,446 --> 00:00:15,418
+the net present value and the discounted cash flow
+
+6
+00:00:15,418 --> 00:00:16,858
+and the internal rate of return
+
+7
+00:00:16,858 --> 00:00:18,344
+and we'll eventually learn all of those things.
+
+8
+00:00:18,344 --> 00:00:20,700
+But the present value, what does that mean?
+
+9
+00:00:22,523 --> 00:00:25,031
+Present value.
+
+10
+00:00:25,031 --> 00:00:29,443
+So let's do a little exercise.
+
+11
+00:00:29,443 --> 00:00:32,508
+I could pay you a hundred dollars today.
+
+12
+00:00:32,508 --> 00:00:37,216
+So let's say today
+
+13
+00:00:37,216 --> 00:00:42,000
+I could pay you one hundred dollars.
+
+14
+00:00:42,000 --> 00:00:50,480
+Or (and it's up to you) in one year, I will pay you
+
+15
+00:00:50,480 --> 00:00:58,607
+I don't know, let's say in a year I agree to pay you $110.
+
+16
+00:00:58,607 --> 00:01:00,800
+And my question to you
+
+17
+00:01:00,800 --> 00:01:02,700
+and this is a fundamental question of finance
+
+18
+00:01:02,700 --> 00:01:04,366
+everything will build upon this
+
+19
+00:01:04,366 --> 00:01:06,800
+is which one would you prefer?
+
+20
+00:01:06,800 --> 00:01:08,000
+and this is guaranteed.
+
+21
+00:01:08,000 --> 00:01:10,200
+I guarantee you, I'm either going to pay you $100 today
+
+22
+00:01:10,200 --> 00:01:14,211
+and there's no risk, even if I get hit by a truck or whatever.
+
+23
+00:01:14,211 --> 00:01:16,500
+This is going to happen, if the Earth exists, I will pay you $110 in one year.
+
+24
+00:01:21,100 --> 00:01:24,149
+It is guaranteed, so there's no risk here.
+
+25
+00:01:24,149 --> 00:01:25,400
+So it's just a notion of
+
+26
+00:01:25,400 --> 00:01:28,375
+You're definitely gonna get $100 today, in your hand
+
+27
+00:01:28,375 --> 00:01:34,300
+or you're definitely gonna get $110 one year from now.
+
+28
+00:01:34,300 --> 00:01:35,500
+So how do you compare the two?
+
+29
+00:01:35,500 --> 00:01:38,200
+And this is where present value comes in.
+
+30
+00:01:38,200 --> 00:01:39,900
+What if there were a way
+
+31
+00:01:39,900 --> 00:01:41,982
+to say, well what is $110
+
+32
+00:01:41,982 --> 00:01:45,047
+a guaranteed $110 in the future?
+
+33
+00:01:45,047 --> 00:01:46,200
+What if there were a way to say
+
+34
+00:01:46,200 --> 00:01:49,200
+How much is that worth today?
+
+35
+00:01:49,200 --> 00:01:52,200
+How much is that worth in today's terms?
+
+36
+00:01:52,200 --> 00:01:54,700
+So let's do a little thought experiment.
+
+37
+00:01:54,700 --> 00:01:57,447
+Let's say that you could put money
+
+38
+00:01:57,447 --> 00:02:00,558
+in some, let's say you could money in the bank.
+
+39
+00:02:00,558 --> 00:02:02,600
+And these days, banks are kind a risky.
+
+40
+00:02:02,600 --> 00:02:05,400
+But let's say you could put it in the safest bank in the world.
+
+41
+00:02:05,400 --> 00:02:09,614
+Let's say you could put it in government treasuries
+
+42
+00:02:09,614 --> 00:02:11,400
+which are considered risk free
+
+43
+00:02:11,400 --> 00:02:15,047
+because the US government, the treasury
+
+44
+00:02:15,047 --> 00:02:17,800
+can always indirectly print more money.
+
+45
+00:02:17,800 --> 00:02:19,877
+We'll one day do a whole thing on the money supply.
+
+46
+00:02:19,877 --> 00:02:21,270
+But at the end of the day
+
+47
+00:02:21,270 --> 00:02:22,700
+the US government has the rights on the printing press, etc.
+
+48
+00:02:25,500 --> 00:02:26,889
+It's more complicated than that, but for these purposes, we assume
+
+49
+00:02:28,200 --> 00:02:29,815
+that the US treasury, which essentially is
+
+50
+00:02:29,815 --> 00:02:31,905
+you lending money to the US government
+
+51
+00:02:32,857 --> 00:02:33,809
+that it's risk free.
+
+52
+00:02:33,809 --> 00:02:35,388
+So let's say that
+
+53
+00:02:35,388 --> 00:02:36,400
+you could lend money
+
+54
+00:02:36,400 --> 00:02:39,800
+Let's say today, I could give you $100
+
+55
+00:02:39,800 --> 00:02:41,286
+and that you could invest it
+
+56
+00:02:41,286 --> 00:02:45,400
+at 5% risk free.
+
+57
+00:02:45,400 --> 00:02:49,366
+So you could invest it 5% risk free.
+
+58
+00:02:49,366 --> 00:02:52,200
+And then a year from now, how much would that be worth?
+
+59
+00:02:52,200 --> 00:02:53,780
+In a year.
+
+60
+00:02:53,780 --> 00:02:57,531
+That would be worth $105 in one year.
+
+61
+00:02:57,623 --> 00:03:03,271
+Actually let me write $110 over here.
+
+62
+00:03:03,379 --> 00:03:05,654
+So this is a good way of thinking about it.
+
+63
+00:03:05,654 --> 00:03:09,300
+You're like, okay. Instead of taking the money
+
+64
+00:03:09,300 --> 00:03:11,300
+from Sal a year from now
+
+65
+00:03:11,300 --> 00:03:13,097
+and getting $110 dollars,
+
+66
+00:03:13,097 --> 00:03:16,348
+If I were to take $100 today and put it in something risk free
+
+67
+00:03:16,348 --> 00:03:18,902
+in a year I would have $105.
+
+68
+00:03:18,902 --> 00:03:22,900
+So assuming I don't have to spend the money today
+
+69
+00:03:22,900 --> 00:03:26,900
+This is a better situation to be in. Right?
+
+70
+00:03:26,900 --> 00:03:28,200
+If I take the money today and risk-free
+
+71
+00:03:28,200 --> 00:03:29,908
+invest it at 5%, I'm gonna end up at
+
+72
+00:03:29,908 --> 00:03:32,100
+$105 in a year.
+
+73
+00:03:32,100 --> 00:03:33,800
+Instead, if you just tell me
+
+74
+00:03:33,800 --> 00:03:36,271
+Sal, just give me the money in a year and give me $110
+
+75
+00:03:36,271 --> 00:03:39,939
+you're gonna end up with more money in a year.
+
+76
+00:03:39,939 --> 00:03:42,122
+You're gonna end up with $110.
+
+77
+00:03:42,122 --> 00:03:44,300
+And that is actually the right way to think about it.
+
+78
+00:03:44,300 --> 00:03:48,400
+And remember, everything is risk-free.
+
+79
+00:03:48,400 --> 00:03:50,600
+Once you introduce risk,
+
+80
+00:03:50,600 --> 00:03:53,593
+And we have to start introducing different interest rates and
+
+81
+00:03:53,593 --> 00:03:56,008
+probabilities, and we'll get to that eventually.
+
+82
+00:03:56,008 --> 00:04:00,744
+But I want to just give the purest example right now.
+
+83
+00:04:00,744 --> 00:04:02,509
+So already you've made the decision.
+
+84
+00:04:02,509 --> 00:04:05,249
+We still don't know what present value is.
+
+85
+00:04:05,249 --> 00:04:06,503
+So to some degree
+
+86
+00:04:06,503 --> 00:04:07,600
+when you took this $100 and you
+
+87
+00:04:07,600 --> 00:04:09,600
+said, well if I lend it to the government
+
+88
+00:04:09,600 --> 00:04:11,519
+or if I lend it to some risk-free bank at 5%
+
+89
+00:04:11,519 --> 00:04:14,351
+in a year they'll give me $105
+
+90
+00:04:14,351 --> 00:04:18,577
+This $105 is a way of saying, what is the one-year value of $100 today?
+
+91
+00:04:24,847 --> 00:04:25,729
+So what if we wanted to go in the other direction?
+
+92
+00:04:27,680 --> 00:04:29,119
+If we have a certain amount of money
+
+93
+00:04:29,119 --> 00:04:31,100
+and we want to figure out today's value
+
+94
+00:04:31,100 --> 00:04:33,020
+what could we do?
+
+95
+00:04:33,020 --> 00:04:35,200
+Well to go from here to here, what did we do?
+
+96
+00:04:35,200 --> 00:04:39,500
+We essentially took $100
+
+97
+00:04:39,500 --> 00:04:44,300
+and we multiplied by 1+5%.
+
+98
+00:04:44,300 --> 00:04:47,742
+So that's 1,05
+
+99
+00:04:47,742 --> 00:04:49,367
+So to go the other way,
+
+100
+00:04:49,367 --> 00:04:50,900
+to say how much money
+
+101
+00:04:50,900 --> 00:04:53,200
+if I were to grow it by 5%
+
+102
+00:04:53,200 --> 00:04:57,700
+would end up being $110, we'll just divide by 1,05
+
+103
+00:05:01,900 --> 00:05:04,900
+And then we will get the present value
+
+104
+00:05:04,900 --> 00:05:06,503
+And the notation is PV
+
+105
+00:05:06,503 --> 00:05:12,308
+We'll get the present value of $110 a year from now.
+
+106
+00:05:12,308 --> 00:05:20,600
+So $110 year from now.
+
+107
+00:05:20,600 --> 00:05:22,900
+So the present value of $110 in 2009
+
+108
+00:05:30,400 --> 00:05:31,906
+It's currently 2008
+
+109
+00:05:31,906 --> 00:05:33,800
+I don't know what year you're watching this video in.
+
+110
+00:05:33,800 --> 00:05:37,300
+Hopefully people will be watching this in the next millenia.
+
+111
+00:05:37,300 --> 00:05:40,776
+But the present value of $110 in 2009
+
+112
+00:05:40,776 --> 00:05:47,928
+— assuming right now is 2008— a year from now, is equal to $110
+
+113
+00:05:47,928 --> 00:05:53,117
+divided by 1,05.
+
+114
+00:05:53,132 --> 00:05:57,283
+Which is equal to— let's take out this calculator
+
+115
+00:05:57,283 --> 00:06:02,859
+which is probably overkill for this problem— let me clear everything.
+
+116
+00:06:02,859 --> 00:06:12,355
+OK, so I want to do 110 divided by 1,05
+
+117
+00:06:12,355 --> 00:06:16,906
+is equal to 104 (let's just round) ,76.
+
+118
+00:06:16,906 --> 00:06:24,894
+So it equals $104,76.
+
+119
+00:06:24,894 --> 00:06:28,656
+So the present value of $110 a year from now
+
+120
+00:06:28,656 --> 00:06:33,400
+if we assume that we could invest money risk-free at 5%— if we would get it today—
+
+121
+00:06:33,400 --> 00:06:39,500
+the present value of that is— let me do it in a different color, just to fight the monotony—
+
+122
+00:06:39,500 --> 00:06:47,092
+the present value is equal to $104,76.
+
+123
+00:06:47,092 --> 00:06:50,300
+Another way to kind of just talk about this is to get
+
+124
+00:06:50,300 --> 00:06:56,845
+the present value of $110 a year from now, we discount the value by a discount rate.
+
+125
+00:06:56,845 --> 00:07:00,400
+And the discount rate is this.
+
+126
+00:07:00,400 --> 00:07:02,800
+Here we grew the money by— you could say—
+
+127
+00:07:02,800 --> 00:07:07,993
+our yield, a 5% yield, or our interest.
+
+128
+00:07:07,993 --> 00:07:10,916
+Here we're discounting the money 'cause we're backwards in time—
+
+129
+00:07:10,916 --> 00:07:13,099
+we're going from a year out to the present.
+
+130
+00:07:13,099 --> 00:07:18,021
+And so this is our yield. To compound the amount of money we invest
+
+131
+00:07:18,021 --> 00:07:22,400
+we multiply the amount we invest times 1 plus the yield.
+
+132
+00:07:22,400 --> 00:07:24,801
+Then to discount money in the future to the present,
+
+133
+00:07:24,801 --> 00:07:30,276
+we divide it by 1 plus the discount rate— so this is
+
+134
+00:07:30,276 --> 00:07:37,300
+a 5% discount rate.
+
+135
+00:07:37,300 --> 00:07:39,337
+To get its present value.
+
+136
+00:07:39,337 --> 00:07:41,300
+So what does this tell us?
+
+137
+00:07:41,300 --> 00:07:46,860
+This tells us if someone is willing to pay $110— assuming this 5%, remember
+
+138
+00:07:46,860 --> 00:07:52,108
+this is a critical assumption— this tells us that if I tell you
+
+139
+00:07:52,108 --> 00:07:56,427
+I'm willing to pay you $110 a year from now
+
+140
+00:07:56,427 --> 00:07:58,703
+and you can get 5%, so you can kind of say
+
+141
+00:07:58,703 --> 00:08:02,000
+that 5% is your discount rate, risk-free.
+
+142
+00:08:02,000 --> 00:08:06,179
+Then you should be willing to take today's money if
+
+143
+00:08:06,179 --> 00:08:09,616
+today I'm willing to give you more than the present value.
+
+144
+00:08:09,616 --> 00:08:14,910
+So, if this compares in— let me clear all of this,
+
+145
+00:08:14,910 --> 00:08:17,100
+let me just scroll down— so let's say
+
+146
+00:08:17,100 --> 00:08:24,400
+that one year— so today, one year—
+
+147
+00:08:24,400 --> 00:08:31,164
+so we figured out that $110 a year from now, its
+
+148
+00:08:31,164 --> 00:08:40,127
+present value is equal to— so the present value of $110—
+
+149
+00:08:40,127 --> 00:08:45,607
+is equal to $104,76.
+
+150
+00:08:45,607 --> 00:08:50,855
+So— and that's 'cause I used a 5% discount rate (and that's the key assumption)—
+
+151
+00:08:50,855 --> 00:08:53,700
+what this tells you is— this is a dollar sign, I know it's hard to read—
+
+152
+00:08:53,700 --> 00:08:58,517
+what this tells you is, is that if your choice was between
+
+153
+00:08:58,517 --> 00:09:03,765
+$110 a year from now and $100 today,
+
+154
+00:09:03,765 --> 00:09:08,800
+you should take the $110 a year from now.
+
+155
+00:09:08,800 --> 00:09:09,756
+Why is that?
+
+156
+00:09:09,756 --> 00:09:13,749
+Because its present value is worth more than $100.
+
+157
+00:09:13,749 --> 00:09:17,372
+However, if I were to offer you $110 a year from now or
+
+158
+00:09:17,372 --> 00:09:26,000
+$105 today, this— the $105 today— would be the better choice,
+
+159
+00:09:26,000 --> 00:09:29,214
+because its present value— right, $105 today
+
+160
+00:09:29,214 --> 00:09:31,954
+you don't have to discount it, it's today— its present value
+
+161
+00:09:31,954 --> 00:09:33,022
+is itself.
+
+162
+00:09:33,022 --> 00:09:38,700
+$105 today is worth more than the present value of $110, which
+
+163
+00:09:40,340 --> 00:09:41,981
+is $104.76.
+
+164
+00:09:41,981 --> 00:09:49,545
+Another way to think about it is, I could take this $105 to the bank,
+
+165
+00:09:49,545 --> 00:09:53,781
+get 5% on it, and then I would have— what would
+
+166
+00:09:53,781 --> 00:10:04,601
+I end up with?— I would end up with 105 times 1,05, it's equal to $110,25.
+
+167
+00:10:04,601 --> 00:10:08,753
+So a year from now, I'd be better off by a quarter.
+
+168
+00:10:08,753 --> 00:10:11,614
+And I'd have the joy of being able to touch my money for a year,
+
+169
+00:10:11,614 --> 00:10:16,585
+which is hard to quantify, so we leave it out of the equation.

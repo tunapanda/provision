@@ -1,0 +1,793 @@
+1
+00:00:01,050 --> 00:00:03,900
+Welcome to the presentation
+on finding sums of integers.
+
+2
+00:00:03,900 --> 00:00:06,670
+You're probably wondering why
+are we doing this within
+
+3
+00:00:06,670 --> 00:00:08,150
+the context of averages.
+
+4
+00:00:08,150 --> 00:00:10,240
+Well, if you think about it,
+all an average is is you take
+
+5
+00:00:10,240 --> 00:00:13,030
+a sum of a bunch of numbers
+and then you divide by the
+
+6
+00:00:13,030 --> 00:00:14,930
+number of numbers you have.
+
+7
+00:00:14,930 --> 00:00:16,770
+What we're going to do here is
+do a couple of algebra problems
+
+8
+00:00:16,770 --> 00:00:19,230
+that involve just the sum parts
+first, and actually they can
+
+9
+00:00:19,230 --> 00:00:22,570
+carry over into average
+problems as well.
+
+10
+00:00:22,570 --> 00:00:25,360
+Let's get started
+with a problem.
+
+11
+00:00:25,360 --> 00:00:32,800
+Let's say I told you that I had
+the sum of five consecutive
+
+12
+00:00:32,800 --> 00:00:48,580
+integers is equal to 200.
+
+13
+00:00:48,580 --> 00:00:56,005
+What is the smallest -- I
+apologize for my handwriting
+
+14
+00:00:56,005 --> 00:01:03,300
+-- what is the smallest
+of the five integers?
+
+15
+00:01:03,300 --> 00:01:06,750
+Well there's a couple of ways
+to do this, but I guess the
+
+16
+00:01:06,750 --> 00:01:09,760
+most straightforward way is
+just to do it algebraically,
+
+17
+00:01:09,760 --> 00:01:11,080
+I would say.
+
+18
+00:01:11,080 --> 00:01:15,315
+So let's say that x is the
+smallest of the integers,
+
+19
+00:01:15,315 --> 00:01:17,650
+right, so x is actually
+what we're going to want to figure out.
+
+20
+00:01:17,650 --> 00:01:24,804
+Well if x is the smallest, what
+are the other four going to be?
+
+21
+00:01:24,810 --> 00:01:26,090
+We have a total of five.
+
+22
+00:01:26,090 --> 00:01:27,580
+Well, they're consecutive.
+
+23
+00:01:27,580 --> 00:01:29,620
+Consecutive just means that
+they follow each other,
+
+24
+00:01:29,620 --> 00:01:32,100
+like 5, 6, 7, 8, 9, 10.
+
+25
+00:01:32,100 --> 00:01:34,040
+All of those are consecutive
+integers, right?
+
+26
+00:01:34,040 --> 00:01:36,140
+And if you remember, integers
+are just whole numbers, so it
+
+27
+00:01:36,140 --> 00:01:38,110
+can't be a fraction
+or a decimal.
+
+28
+00:01:38,110 --> 00:01:41,420
+So if x is the smallest, so
+then the next integer is
+
+29
+00:01:41,420 --> 00:01:44,260
+going to be x plus 1.
+
+30
+00:01:44,260 --> 00:01:47,360
+And the one after that's
+going to be x plus 2.
+
+31
+00:01:47,360 --> 00:01:50,400
+And the one after that's
+going to be x plus 3.
+
+32
+00:01:50,400 --> 00:01:54,050
+And the one after that's
+going to be x plus 4, right?
+
+33
+00:01:54,050 --> 00:01:56,150
+It might seem confusing I'm
+writing all of these x's.
+
+34
+00:01:56,150 --> 00:01:59,920
+But if you think about it, if x
+was 5, then this would be 6,
+
+35
+00:01:59,920 --> 00:02:03,030
+this would be 7, this would
+be 8, and this would be 9.
+
+36
+00:02:03,030 --> 00:02:05,150
+And that's all I'm
+writing here, right?
+
+37
+00:02:05,150 --> 00:02:07,960
+So these would be, assuming
+that x is the smallest of the
+
+38
+00:02:07,960 --> 00:02:15,350
+integers, the five integers
+would be x, x+1, x+2, x+3, and x+4.
+
+39
+00:02:15,350 --> 00:02:19,907
+And we know that the sum
+of these five consecutive integers is 200.
+
+40
+00:02:19,957 --> 00:02:27,112
+What is the sum of these
+five, I guess we could say, numbers or expressions?
+
+41
+00:02:27,112 --> 00:02:30,670
+Well let's see, we have
+five x's -- 1, 2, 3, 4, 5.
+
+42
+00:02:30,670 --> 00:02:36,662
+So x plus x plus x plus x
+plus x is equal to just 5x.
+
+43
+00:02:36,662 --> 00:02:38,920
+Or you could just
+say 5 times x.
+
+44
+00:02:38,920 --> 00:02:42,540
+And then that's plus 1
+plus 2 is 3, 3 plus 3
+
+45
+00:02:42,540 --> 00:02:45,600
+is 6, 6 plus 4 is 10.
+
+46
+00:02:45,600 --> 00:02:48,490
+So the sum of these five
+integers is going to be 5x plus
+
+47
+00:02:48,490 --> 00:02:51,520
+10, and all I did is add up the
+x's and added up the constants.
+
+48
+00:02:51,520 --> 00:02:56,450
+And we know that that
+is going to equal 200.
+
+49
+00:02:56,450 --> 00:02:58,330
+Now this is just a level
+two linear equation.
+
+50
+00:02:58,330 --> 00:03:00,440
+We can just solve for x.
+
+51
+00:03:00,440 --> 00:03:08,050
+So we get 5x is equal to 190
+-- I just subtracted 10 from both sides, right?
+
+52
+00:03:08,050 --> 00:03:15,090
+And then x is equal to --
+let me divide 5 into 190.
+
+53
+00:03:15,090 --> 00:03:19,870
+5 goes into 19 three
+times, 3 times 5 is 15.
+
+54
+00:03:19,870 --> 00:03:23,160
+9 minus 5 is 4,
+bring down the 0.
+
+55
+00:03:23,160 --> 00:03:25,500
+5 goes into 40, eight times.
+
+56
+00:03:25,500 --> 00:03:26,940
+So x is equal to 38.
+
+57
+00:03:26,940 --> 00:03:32,054
+Pretty straightforward
+problem, don't you think?
+
+58
+00:03:32,054 --> 00:03:38,775
+Now what if I were to ask you
+what is the average of the five consecutive numbers?
+
+59
+00:03:38,775 --> 00:03:41,020
+Well now, there's two
+ways of doing this.
+
+60
+00:03:41,020 --> 00:03:43,250
+Now that we already know that x
+is 38, we know that the other
+
+61
+00:03:43,250 --> 00:03:52,130
+numbers are going to be -- well
+this is 38, 39, 40, 41, 42.
+
+62
+00:03:52,130 --> 00:03:53,960
+Well we could just average
+these four numbers.
+
+63
+00:03:53,960 --> 00:03:57,900
+You could just say 38 plus
+39 plus 40 plus 41 plus 42.
+
+64
+00:03:57,900 --> 00:03:59,360
+And well we already know
+what those -- I don't
+
+65
+00:03:59,360 --> 00:04:00,060
+even have to do the math.
+
+66
+00:04:00,060 --> 00:04:03,320
+You already know that they
+average up, they sum up to 200
+
+67
+00:04:03,320 --> 00:04:06,860
+and then we divide the sum by
+5, because there are 5 numbers.
+
+68
+00:04:06,860 --> 00:04:09,310
+So the average is 40.
+
+69
+00:04:09,310 --> 00:04:16,488
+There are a couple ways you
+could think about that.
+
+70
+00:04:16,490 --> 00:04:19,420
+One, you see 40's just a middle
+number so that makes sense.
+
+71
+00:04:19,420 --> 00:04:22,230
+And the only time we can really
+say it's the middle number
+
+72
+00:04:22,230 --> 00:04:25,800
+is when the numbers are
+distributed evenly around 40.
+
+73
+00:04:25,800 --> 00:04:27,620
+If we had a number that was
+much smaller than 40 or
+
+74
+00:04:27,620 --> 00:04:29,747
+something, you couldn't
+just necessarily pick the middle number.
+
+75
+00:04:29,747 --> 00:04:32,090
+But in this case these are
+consecutive and makes sense.
+
+76
+00:04:32,090 --> 00:04:34,230
+Another way we could have done
+this problem, if you were, say,
+
+77
+00:04:34,230 --> 00:04:37,840
+taking the SAT and they were to
+ask you the sum of five
+
+78
+00:04:37,840 --> 00:04:41,500
+numbers is 200, what's the
+average of the numbers?
+
+79
+00:04:41,500 --> 00:04:43,800
+Well you say, well, all I have
+to do is divide that 200
+
+80
+00:04:43,800 --> 00:04:46,270
+by 5 and I'll get 40.
+
+81
+00:04:46,270 --> 00:04:47,700
+Let's do another problem
+and I'll make it a
+
+82
+00:04:47,700 --> 00:04:50,070
+little bit harder.
+
+83
+00:04:50,070 --> 00:05:08,540
+Let's say the sum of seven odd
+numbers, and let me make up a
+
+84
+00:05:08,540 --> 00:05:12,060
+good -- I hope this one works,
+I'm going to try to do it in
+
+85
+00:05:12,060 --> 00:05:27,535
+my head -- is 217, what
+is the largest number?
+
+86
+00:05:27,535 --> 00:05:35,627
+I shouldn't say number
+-- seven odd integers.
+
+87
+00:05:35,640 --> 00:05:38,210
+Actually it becomes a much
+harder problem if it was just
+
+88
+00:05:38,210 --> 00:05:40,840
+seven odd -- well actually, the
+only thing that could be odd
+
+89
+00:05:40,840 --> 00:05:42,900
+are integers anyway, so you
+could almost assume it.
+
+90
+00:05:42,900 --> 00:05:45,400
+But the sum of seven
+odd integers is 217.
+
+91
+00:05:45,400 --> 00:05:50,160
+What is the largest
+of the integers?
+
+92
+00:05:50,160 --> 00:05:53,200
+As you can tell I'm
+doing this on the fly.
+
+93
+00:05:53,200 --> 00:05:55,750
+Actually my wife just diagnosed
+me with, she thinks I
+
+94
+00:05:55,750 --> 00:05:57,030
+have benign vertigo.
+
+95
+00:05:57,030 --> 00:05:59,490
+I got very dizzy this morning
+when I went to work, so you
+
+96
+00:05:59,490 --> 00:06:00,850
+have to forgive me
+for that as well.
+
+97
+00:06:00,850 --> 00:06:03,010
+That's impairing me even more.
+
+98
+00:06:03,010 --> 00:06:05,080
+So let's do this problem.
+
+99
+00:06:05,080 --> 00:06:11,339
+Let's say that x
+is the largest.
+
+100
+00:06:11,339 --> 00:06:14,449
+Then what would the
+number right below x be?
+
+101
+00:06:14,449 --> 00:06:16,550
+Would it be x minus 1?
+
+102
+00:06:16,550 --> 00:06:19,990
+Well, if x is an odd
+number, x minus 1 would
+
+103
+00:06:19,990 --> 00:06:21,750
+be an even number.
+
+104
+00:06:21,750 --> 00:06:26,850
+So in order to get the number
+right below it, we have to
+
+105
+00:06:26,850 --> 00:06:30,290
+do x minus 2 to get
+another odd number.
+
+106
+00:06:30,290 --> 00:06:32,630
+My apologies -- it should
+say the sum of seven
+
+107
+00:06:32,630 --> 00:06:34,170
+consecutive odd.
+
+108
+00:06:34,170 --> 00:06:36,160
+I don't know if
+you assumed that.
+
+109
+00:06:36,160 --> 00:06:39,130
+I'm trying my best
+today to confuse you.
+
+110
+00:06:39,130 --> 00:06:43,840
+The sum of seven consecutive
+odd integers is 217.
+
+111
+00:06:43,840 --> 00:06:46,530
+What is the largest
+of the integers?
+
+112
+00:06:46,530 --> 00:06:49,420
+So if x is the largest, then to
+next smallest one would be x
+
+113
+00:06:49,420 --> 00:06:53,030
+minus 2, right, because it's
+consecutive odd numbers,
+
+114
+00:06:53,030 --> 00:06:54,250
+not just consecutive.
+
+115
+00:06:54,250 --> 00:06:58,020
+So consecutive odd numbers are
+like 1, 3, 5, 7 -- you're
+
+116
+00:06:58,020 --> 00:06:59,050
+skipping the evens, right?
+
+117
+00:06:59,050 --> 00:07:01,470
+So that's why you're going up
+or down by two, depending
+
+118
+00:07:01,470 --> 00:07:02,740
+how you view it.
+
+119
+00:07:02,740 --> 00:07:05,345
+So the next one down would be
+x minus 2, then we'll have x
+
+120
+00:07:05,345 --> 00:07:13,450
+minus 4, x minus 6, x minus
+8, x minus 10, x minus 12.
+
+121
+00:07:13,450 --> 00:07:14,060
+I think that's it.
+
+122
+00:07:14,060 --> 00:07:16,700
+One, two, three, four,
+five, six, seven, right.
+
+123
+00:07:16,700 --> 00:07:18,060
+Those are seven numbers.
+
+124
+00:07:18,060 --> 00:07:19,300
+They're separated by two.
+
+125
+00:07:19,300 --> 00:07:21,990
+X is the largest
+of them, right?
+
+126
+00:07:21,990 --> 00:07:24,210
+We can assume that they're
+odd because apparently
+
+127
+00:07:24,210 --> 00:07:26,310
+the problem will work
+out so that they're odd.
+
+128
+00:07:26,310 --> 00:07:28,320
+So what is the sum of
+these seven numbers?
+
+129
+00:07:28,320 --> 00:07:31,850
+Well the seven x's
+just add up to 7x.
+
+130
+00:07:31,850 --> 00:07:38,630
+And then let's see, 2 and 4 is
+6, 6 and 6 is 12, 12 and 8 is
+
+131
+00:07:38,630 --> 00:07:43,330
+20, 20 and 10 is 30,
+30 and 12 is 32.
+
+132
+00:07:43,330 --> 00:07:51,840
+So 7x minus 32 is equal to 217.
+
+133
+00:07:51,840 --> 00:07:53,520
+We just solved for x.
+
+134
+00:07:53,520 --> 00:07:58,310
+7x is equal to -- let's see,
+if we add 32 to both sides
+
+135
+00:07:58,310 --> 00:08:04,380
+of this equation we get 249.
+
+136
+00:08:04,380 --> 00:08:10,020
+Let's see, 7 goes into
+249 -- is that right?
+
+137
+00:08:10,070 --> 00:08:13,737
+Right.
+
+138
+00:08:13,750 --> 00:08:17,685
+So 7 goes into 249 -- did I
+do this addition properly?
+
+139
+00:08:17,685 --> 00:08:19,070
+I want to make sure.
+
+140
+00:08:19,070 --> 00:08:28,770
+2 plus 4 is 6, 6 plus 6 is 12,
+12 plus 8 is 20, 20 plus 10
+
+141
+00:08:28,770 --> 00:08:32,820
+is 30, 30 plus 12 is 42.
+
+142
+00:08:32,820 --> 00:08:34,210
+Oh, here you go.
+
+143
+00:08:34,210 --> 00:08:37,320
+See, my mathematical spider
+sense could tell that something
+
+144
+00:08:37,320 --> 00:08:39,090
+was fishy about this.
+
+145
+00:08:39,090 --> 00:08:41,470
+So that's 7x minus 42.
+
+146
+00:08:41,470 --> 00:08:46,870
+So if we add 42 to both sides
+it's 7x is equal to 259.
+
+147
+00:08:46,870 --> 00:08:49,900
+See how brave I am, I do
+this thing in real time.
+
+148
+00:08:49,900 --> 00:08:50,680
+259.
+
+149
+00:08:50,680 --> 00:08:55,530
+So 7 goes into 259 -- let's
+see, 7 goes into 25 three
+
+150
+00:08:55,530 --> 00:09:01,900
+times, 3 times 7 is 21, 49 --
+it goes into it 37 times.
+
+151
+00:09:01,900 --> 00:09:06,530
+So we get x is equal
+to 37 and we're done.
+
+152
+00:09:06,530 --> 00:09:09,630
+So just to review because I
+think had a lot of errors in
+
+153
+00:09:09,630 --> 00:09:11,460
+this problem when
+I presented it.
+
+154
+00:09:11,460 --> 00:09:16,907
+The question was the sum
+of seven consecutive odd integers is 217.
+
+155
+00:09:16,907 --> 00:09:18,830
+What is the largest
+of the integers?
+
+156
+00:09:18,830 --> 00:09:21,390
+I said x is the largest, and
+then if x is the largest, the
+
+157
+00:09:21,390 --> 00:09:23,650
+next smaller one
+will x minus 2.
+
+158
+00:09:23,650 --> 00:09:25,140
+Because we're not saying
+just consecutive integers,
+
+159
+00:09:25,140 --> 00:09:28,010
+we're saying consecutive
+odd integers, right?
+
+160
+00:09:28,010 --> 00:09:32,320
+So if x is 37, which is what we
+solved for, then x minus 2 is
+
+161
+00:09:32,320 --> 00:09:38,490
+35, this is 33, this is 31,
+this is 29, this is
+
+162
+00:09:38,490 --> 00:09:41,490
+27, this is 25.
+
+163
+00:09:41,490 --> 00:09:46,050
+And then we just added up all
+the x's and I'll add up all
+
+164
+00:09:46,050 --> 00:09:48,910
+the constants and said,
+well they add up to 217.
+
+165
+00:09:48,910 --> 00:09:50,600
+And then we just solved for x.
+
+166
+00:09:50,600 --> 00:09:53,460
+I think you're now ready to
+try some of these problems.
+
+167
+00:09:53,460 --> 00:09:54,940
+Have fun.

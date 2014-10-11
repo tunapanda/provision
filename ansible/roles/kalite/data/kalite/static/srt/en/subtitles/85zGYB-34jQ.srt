@@ -1,0 +1,1008 @@
+1
+00:00:00,710 --> 00:00:03,020
+So far, we've used integrals
+to figure out the
+
+2
+00:00:03,020 --> 00:00:03,950
+area under a curve.
+
+3
+00:00:03,950 --> 00:00:06,320
+And let's just review a little
+bit of the intuition, although
+
+4
+00:00:06,320 --> 00:00:08,830
+this should hopefully be second
+nature to you at this point.
+
+5
+00:00:08,830 --> 00:00:12,720
+If it's not, you might want
+to review the definite
+
+6
+00:00:12,720 --> 00:00:15,360
+integration videos.
+
+7
+00:00:15,360 --> 00:00:18,280
+But if I have some function--
+this is the xy plane, that's
+
+8
+00:00:18,280 --> 00:00:22,300
+the x-axis, that's the y-axis--
+and I have some function.
+
+9
+00:00:22,300 --> 00:00:26,430
+Let's call that, you know,
+this is y is equal to
+
+10
+00:00:26,430 --> 00:00:27,660
+some function of x.
+
+11
+00:00:27,660 --> 00:00:29,750
+Give me an x and
+I'll give you a y.
+
+12
+00:00:29,750 --> 00:00:33,740
+If I wanted to figure out the
+area under this curve, between,
+
+13
+00:00:33,740 --> 00:00:40,910
+let's say, x is equal to
+a and x is equal to b.
+
+14
+00:00:40,910 --> 00:00:42,980
+So this is the area I
+want to figure out.
+
+15
+00:00:42,980 --> 00:00:46,870
+17
+00:00:46,87 --> 00:00:50,87
+What I do is, I split it up
+into a bunch of columns
+
+16
+00:00:50,870 --> 00:00:52,890
+or a bunch of rectangles.
+
+17
+00:00:52,890 --> 00:00:56,510
+Where-- let me draw one of
+those rectangles-- where you
+
+18
+00:00:56,510 --> 00:00:58,610
+could view-- and there's
+different ways to do this,
+
+19
+00:00:58,610 --> 00:01:00,330
+but this is just a review.
+
+20
+00:01:00,330 --> 00:01:04,080
+Where you could review-- that's
+maybe 1 of the rectangles.
+
+21
+00:01:04,080 --> 00:01:05,720
+Well, the area of the
+rectangle is just base
+
+22
+00:01:05,720 --> 00:01:07,530
+times height, right?
+
+23
+00:01:07,530 --> 00:01:09,360
+Well, we're going to make these
+rectangles really skinny and
+
+24
+00:01:09,360 --> 00:01:11,100
+just sum up an infinite
+number of them.
+
+25
+00:01:11,100 --> 00:01:12,340
+So we want to make them
+infinitely small.
+
+26
+00:01:12,340 --> 00:01:17,060
+But let's just call the
+base of this rectangle dx.
+
+27
+00:01:17,060 --> 00:01:19,590
+And then the height of this
+rectangle is going to be
+
+28
+00:01:19,590 --> 00:01:21,620
+f of x, at that point.
+
+29
+00:01:21,620 --> 00:01:24,545
+It's going to be f of-- if this
+is x0, or whatever, you can
+
+30
+00:01:24,545 --> 00:01:25,690
+just call it f of x, right?
+
+31
+00:01:25,690 --> 00:01:28,170
+That's the height
+of that rectangle.
+
+32
+00:01:28,170 --> 00:01:30,470
+And if we wanted to take
+the sum of all of these
+
+33
+00:01:30,470 --> 00:01:31,090
+rectangles-- right?
+
+34
+00:01:31,090 --> 00:01:32,210
+There's just going to
+be a bunch of them.
+
+35
+00:01:32,210 --> 00:01:34,160
+One there, one there.
+
+36
+00:01:34,160 --> 00:01:36,910
+Then we'll get the area, and if
+we have infinite number of
+
+37
+00:01:36,910 --> 00:01:38,860
+these rectangles, and they're
+infinitely skinny, we
+
+38
+00:01:38,860 --> 00:01:40,840
+have exactly the area
+under that curve.
+
+39
+00:01:40,840 --> 00:01:43,160
+That's the intuition behind
+the definite integral.
+
+40
+00:01:43,160 --> 00:01:47,140
+And the way we write that--
+it's the definite integral.
+
+41
+00:01:47,140 --> 00:01:50,300
+We're going to take the sums of
+these rectangles, from x is
+
+42
+00:01:50,300 --> 00:01:53,490
+equal to a, to x is equal to b.
+
+43
+00:01:53,490 --> 00:01:57,120
+And the sum, or the areas that
+we're summing up, are going to
+
+44
+00:01:57,120 --> 00:02:00,770
+be-- the height is f of x,
+and the width is d of x.
+
+45
+00:02:00,770 --> 00:02:04,580
+It's going to be f
+of x times d of x.
+
+46
+00:02:04,580 --> 00:02:06,970
+This is equal to the
+area under the curve.
+
+47
+00:02:06,970 --> 00:02:09,630
+f of x, y is equal to f
+of x, from x is equal to
+
+48
+00:02:09,630 --> 00:02:11,040
+a to x is equal to b.
+
+49
+00:02:11,040 --> 00:02:12,440
+And that's just a
+little bit of review.
+
+50
+00:02:12,440 --> 00:02:14,720
+But hopefully, you'll now
+see the parallel of how we
+
+51
+00:02:14,720 --> 00:02:19,250
+extend this to taking the
+volume under a surface.
+
+52
+00:02:19,250 --> 00:02:20,670
+So first of all,
+what is a surface?
+
+53
+00:02:20,670 --> 00:02:23,130
+Well, if we're thinking
+in three dimensions, a
+
+54
+00:02:23,130 --> 00:02:27,540
+surface is going to be
+a function of x and y.
+
+55
+00:02:27,540 --> 00:02:31,060
+So we can write a surface as,
+instead of y is a function
+
+56
+00:02:31,060 --> 00:02:32,930
+of f and x-- I'm sorry.
+
+57
+00:02:32,930 --> 00:02:36,060
+Instead of saying that y is a
+function of x, we can write a
+
+58
+00:02:36,060 --> 00:02:42,810
+surface as z is equal to
+a function of x and y.
+
+59
+00:02:42,810 --> 00:02:45,270
+So you can kind of view
+it as the domain.
+
+60
+00:02:45,270 --> 00:02:45,460
+Right?
+
+61
+00:02:45,460 --> 00:02:48,030
+The domain is all of the set
+of valid things that you
+
+62
+00:02:48,030 --> 00:02:49,200
+can input into a function.
+
+63
+00:02:49,200 --> 00:02:52,690
+So now, before, our domain was
+just-- at least, you know, for
+
+64
+00:02:52,690 --> 00:02:57,070
+most of what we dealt with--
+was just the x-axis, or kind of
+
+65
+00:02:57,070 --> 00:02:59,640
+the real number line
+in the x direction.
+
+66
+00:02:59,640 --> 00:03:02,580
+Now our domain is the xy plane.
+
+67
+00:03:02,580 --> 00:03:06,040
+We can give any x and any y--
+and we'll just deal with the
+
+68
+00:03:06,040 --> 00:03:07,740
+reals right now, I don't
+want to get too technical.
+
+69
+00:03:07,740 --> 00:03:10,480
+And then it'll pop out another
+number, and if we wanted to
+
+70
+00:03:10,480 --> 00:03:11,950
+graph it, it'll be our height.
+
+71
+00:03:11,950 --> 00:03:13,970
+And so that could be the
+height of a surface.
+
+72
+00:03:13,970 --> 00:03:15,960
+So let me just show you what
+a surface looks like, in
+
+73
+00:03:15,960 --> 00:03:16,800
+case you don't remember.
+
+74
+00:03:16,800 --> 00:03:20,360
+And we'll actually figure out
+the volume under this surface.
+
+75
+00:03:20,360 --> 00:03:22,080
+So this is a surface.
+
+76
+00:03:22,080 --> 00:03:24,140
+I'll tell you its function
+in a second, but it's
+
+77
+00:03:24,140 --> 00:03:25,370
+pretty neat to look at.
+
+78
+00:03:25,370 --> 00:03:26,400
+But as you can see,
+it's a server.
+
+79
+00:03:26,400 --> 00:03:30,760
+It's like a piece of
+paper that's bent.
+
+80
+00:03:30,760 --> 00:03:33,870
+Let's see, let me rotate it
+to its traditional form.
+
+81
+00:03:33,870 --> 00:03:37,485
+So this is the x direction,
+this is the y direction.
+
+82
+00:03:37,485 --> 00:03:43,120
+And the height is a function of
+where we are in the xy plane.
+
+83
+00:03:43,120 --> 00:03:45,880
+So how do we figure out
+the volume under a
+
+84
+00:03:45,880 --> 00:03:48,970
+surface like this?
+
+85
+00:03:48,970 --> 00:03:50,540
+How do we figure
+out the volume?
+
+86
+00:03:50,540 --> 00:03:53,810
+It seems like a bit of a
+stretch, given what we've
+
+87
+00:03:53,810 --> 00:03:55,500
+learned from this.
+
+88
+00:03:55,500 --> 00:03:58,300
+But what if-- and I'm just
+going to draw an abstract
+
+89
+00:03:58,300 --> 00:04:02,186
+surface here-- let
+me draw some axis.
+
+90
+00:04:02,186 --> 00:04:03,730
+Let's see, that's my x-axis.
+
+91
+00:04:03,730 --> 00:04:06,390
+94
+00:04:06,39 --> 00:04:09,072
+That's my y-axis.
+
+92
+00:04:09,072 --> 00:04:11,650
+That's my z-axis.
+
+93
+00:04:11,650 --> 00:04:14,970
+I don't practice these videos
+ahead of time, so I'm often
+
+94
+00:04:14,970 --> 00:04:17,590
+wondering what I'm
+about to draw.
+
+95
+00:04:17,590 --> 00:04:17,960
+OK.
+
+96
+00:04:17,960 --> 00:04:22,420
+So that's x, that's
+y, and that's z.
+
+97
+00:04:22,420 --> 00:04:23,990
+And let's say I
+have some surface.
+
+98
+00:04:23,990 --> 00:04:27,350
+I'll just draw something.
+
+99
+00:04:30,330 --> 00:04:33,380
+I don't know what it is.
+
+100
+00:04:33,380 --> 00:04:35,050
+Some surface.
+
+101
+00:04:35,050 --> 00:04:36,090
+This is our surface.
+
+102
+00:04:36,090 --> 00:04:38,300
+z is a function of x and y.
+
+103
+00:04:38,300 --> 00:04:41,470
+So, for example, you give me a
+coordinate in the xy plane.
+
+104
+00:04:41,470 --> 00:04:44,360
+Say, here, I'll put it into
+the function and it'll
+
+105
+00:04:44,360 --> 00:04:45,630
+give us a z value now.
+
+106
+00:04:45,630 --> 00:04:47,290
+And I'll plot it there
+and it'll be a point
+
+107
+00:04:47,290 --> 00:04:48,440
+on the surface.
+
+108
+00:04:48,440 --> 00:04:50,250
+So what we want to figure
+out is the volume
+
+109
+00:04:50,250 --> 00:04:50,990
+under the surface.
+
+110
+00:04:50,990 --> 00:04:52,670
+And we have to specify
+bounds, right?
+
+111
+00:04:52,670 --> 00:04:56,330
+From here, we said x is equal
+to a, to x is equal to b.
+
+112
+00:04:56,330 --> 00:04:59,030
+So let's make a square
+bound first, because this
+
+113
+00:04:59,030 --> 00:05:00,610
+keeps it a lot simpler.
+
+114
+00:05:00,610 --> 00:05:05,150
+So let's say that the domain or
+the region-- not the domain--
+
+115
+00:05:05,150 --> 00:05:09,770
+the region of-- the x and y
+region of this part of the
+
+116
+00:05:15,650 --> 00:05:19,800
+the surface, the shadow
+would be right there.
+
+117
+00:05:19,800 --> 00:05:24,530
+Let me try my best to
+draw this neatly.
+
+118
+00:05:24,530 --> 00:05:26,110
+So this is what we're
+going to try to figure
+
+119
+00:05:26,110 --> 00:05:27,240
+out the volume of.
+
+120
+00:05:27,240 --> 00:05:30,490
+And let's say-- so, if we
+wanted to draw it in the xy
+
+121
+00:05:34,210 --> 00:05:36,950
+plane, like you can kind of
+view the projection of the
+
+122
+00:05:36,950 --> 00:05:38,980
+surface of the xy plane,
+or the shadow of the
+
+123
+00:05:38,980 --> 00:05:40,240
+surface of the xy plane.
+
+124
+00:05:40,240 --> 00:05:41,450
+What are the bounds?
+
+125
+00:05:41,450 --> 00:05:44,470
+You can almost view-- what are
+the bounds of the domain?
+
+126
+00:05:44,470 --> 00:05:47,650
+Well, let's say that this
+point-- let's say that this
+
+127
+00:05:47,650 --> 00:05:51,340
+right here, that's 0,
+0 in the xy plane.
+
+128
+00:05:51,340 --> 00:05:54,470
+Let's say that this is y is
+equal to-- I don't know,
+
+129
+00:05:54,470 --> 00:05:57,780
+that's y is equal to a.
+
+130
+00:05:57,780 --> 00:05:59,010
+That's this line right here.
+
+131
+00:05:59,010 --> 00:06:00,370
+Y is equal to a.
+
+132
+00:06:00,370 --> 00:06:04,940
+And let's say that this line
+right here is x is equal to b.
+
+133
+00:06:04,940 --> 00:06:05,910
+Hope you get that, right?
+
+134
+00:06:05,910 --> 00:06:07,230
+This is the xy plane.
+
+135
+00:06:07,230 --> 00:06:10,080
+If we have a constant x, it
+would be a line like that.
+
+136
+00:06:10,080 --> 00:06:11,740
+A constant y, a line like that.
+
+137
+00:06:11,740 --> 00:06:13,370
+And then we have the
+area in between it.
+
+138
+00:06:13,370 --> 00:06:17,080
+So how do we figure out
+the volume under this?
+
+139
+00:06:17,080 --> 00:06:23,130
+Well, if I just wanted to
+figure out the area of--
+
+140
+00:06:23,130 --> 00:06:24,310
+let's just say, this sliver.
+
+141
+00:06:24,310 --> 00:06:26,560
+Let's say we had a--
+well, actually let
+
+142
+00:06:26,560 --> 00:06:26,950
+me go the other way.
+
+143
+00:06:26,950 --> 00:06:28,570
+Let's say we had a constant y.
+
+144
+00:06:28,570 --> 00:06:32,060
+So let's say I had some sliver.
+
+145
+00:06:32,060 --> 00:06:33,100
+I don't want to confuse you.
+
+146
+00:06:33,100 --> 00:06:36,980
+Let's say that I had
+some constant y.
+
+147
+00:06:36,980 --> 00:06:39,020
+I just want to give
+you the intuition.
+
+148
+00:06:39,020 --> 00:06:39,810
+You know, let's say.
+
+149
+00:06:39,810 --> 00:06:40,620
+I don't know what that is.
+
+150
+00:06:40,620 --> 00:06:42,665
+It's an arbitrary y.
+
+151
+00:06:42,665 --> 00:06:47,820
+But for some constant y, what
+if I could just figure out the
+
+152
+00:06:47,820 --> 00:06:50,810
+area under the curve there?
+
+153
+00:06:50,810 --> 00:06:54,130
+How would I figure out just
+the area under that curve?
+
+154
+00:06:58,600 --> 00:07:01,210
+It'll be a function of
+which y I pick, right?
+
+155
+00:07:01,210 --> 00:07:03,050
+Because if I pick a y here,
+it'll be a different area.
+
+156
+00:07:03,050 --> 00:07:05,280
+If I pick a y there, it'll
+be a different area.
+
+157
+00:07:05,280 --> 00:07:07,790
+But I could view this now
+as a very similar problem
+
+158
+00:07:07,790 --> 00:07:09,560
+to this one up here.
+
+159
+00:07:09,560 --> 00:07:12,265
+I could have my dx's-- let
+me pick a vibrant color
+
+160
+00:07:12,265 --> 00:07:13,530
+so you can see it.
+
+161
+00:07:13,530 --> 00:07:14,930
+Let's say that's dx, right?
+
+162
+00:07:14,930 --> 00:07:16,760
+That's a change in x.
+
+163
+00:07:16,760 --> 00:07:27,940
+And then the height is going
+to be a function of the x
+
+164
+00:07:27,940 --> 00:07:33,440
+I have and the y I picked.
+
+165
+00:07:36,660 --> 00:07:42,990
+So what would be the area
+of this sheet of paper?
+
+166
+00:07:42,990 --> 00:07:45,100
+It's kind of a constant y.
+
+167
+00:07:45,100 --> 00:07:48,390
+It's part of-- it's a sheet
+of paper within this volume,
+
+168
+00:07:48,390 --> 00:07:49,990
+you can kind of view it.
+
+169
+00:07:49,990 --> 00:07:53,750
+Well, it would be-- we said
+the height of each of these
+
+170
+00:07:53,750 --> 00:07:59,030
+rectangles is f of xy, right?
+
+171
+00:07:59,030 --> 00:07:59,515
+That's the height.
+
+172
+00:07:59,515 --> 00:08:03,270
+It depends which x and
+y we pick down here.
+
+173
+00:08:08,830 --> 00:08:12,120
+And then if we integrated it,
+from x is equal to 0, which was
+
+174
+00:08:12,120 --> 00:08:14,530
+back here, all the way to x
+is equal to b, what
+
+175
+00:08:14,530 --> 00:08:16,006
+would it look like?
+
+176
+00:08:16,006 --> 00:08:20,600
+It would look like that.
+x is going from 0 to b.
+
+177
+00:08:20,600 --> 00:08:21,120
+Fair enough.
+
+178
+00:08:21,120 --> 00:08:26,220
+And this would actually
+give us a function of y.
+
+179
+00:08:26,220 --> 00:08:30,290
+This would give us an
+expression so that I would know
+
+180
+00:08:30,290 --> 00:08:35,670
+the area of this kind of sliver
+of the volume, for any
+
+181
+00:08:35,670 --> 00:08:36,690
+given value of y.
+
+182
+00:08:36,690 --> 00:08:39,300
+If you give me a y, I can tell
+you the area of the sliver
+
+183
+00:08:39,300 --> 00:08:42,680
+that corresponds to that y.
+
+184
+00:08:42,680 --> 00:08:43,720
+Now what could I do?
+
+185
+00:08:43,720 --> 00:08:47,110
+If I know the area of any given
+sliver, what if I multiply the
+
+186
+00:08:47,110 --> 00:08:51,680
+area of that sliver times dy?
+
+187
+00:08:51,680 --> 00:08:52,660
+This is a dy.
+
+188
+00:08:52,660 --> 00:08:54,650
+Let me do it in a
+vibrant color.
+
+189
+00:08:54,650 --> 00:08:59,180
+So dy, a very small
+change in y.
+
+190
+00:08:59,180 --> 00:09:02,430
+If I multiplied this area
+times a small dy, then
+
+191
+00:09:02,430 --> 00:09:06,970
+all of a sudden I have
+a sliver of volume.
+
+192
+00:09:06,970 --> 00:09:09,840
+Hopefully that
+makes some sense.
+
+193
+00:09:09,840 --> 00:09:12,970
+I'm making that-- that little
+cut that I took the area of--
+
+194
+00:09:12,970 --> 00:09:14,800
+by making it three dimensional.
+
+195
+00:09:14,800 --> 00:09:17,490
+So what would be the
+volume of that sliver?
+
+196
+00:09:17,490 --> 00:09:20,820
+The volume of that sliver will
+be this function of y times dy,
+
+197
+00:09:20,820 --> 00:09:23,280
+or this whole thing times dy.
+
+198
+00:09:23,280 --> 00:09:31,910
+So it would be the integral
+from 0 to b of f of xy dx.
+
+199
+00:09:31,910 --> 00:09:34,670
+That gives us the area
+of this blue sheet.
+
+200
+00:09:34,670 --> 00:09:39,130
+Now if I multiply this
+whole thing times dy,
+
+201
+00:09:39,130 --> 00:09:40,710
+I get this volume.
+
+202
+00:09:40,710 --> 00:09:42,150
+It gets some depth.
+
+203
+00:09:42,150 --> 00:09:44,150
+This little area that I'm
+shading right here gets
+
+204
+00:09:44,150 --> 00:09:46,010
+depth of that sheet.
+
+205
+00:09:46,010 --> 00:09:51,650
+Now if I added all of those
+sheets that now have depth, if
+
+206
+00:09:51,650 --> 00:09:55,130
+I took the infinite sum-- so if
+I took the integral of this
+
+207
+00:09:55,130 --> 00:10:04,120
+from my lower y bound-- from 0
+to my upper y bound, a, then--
+
+208
+00:10:04,120 --> 00:10:08,860
+at least based on our intuition
+here-- maybe I will have
+
+209
+00:10:08,860 --> 00:10:12,110
+figured out the volume
+under this surface.
+
+210
+00:10:12,110 --> 00:10:13,690
+But anyway, I didn't
+want to confuse you.
+
+211
+00:10:13,690 --> 00:10:15,670
+But that's the intuition of
+what we're going to do.
+
+212
+00:10:15,670 --> 00:10:18,140
+And I think you're going to
+find out that actually
+
+213
+00:10:18,140 --> 00:10:20,840
+calculating the volumes are
+pretty straightforward,
+
+214
+00:10:20,840 --> 00:10:23,660
+especially when you have
+fixed x and y bounds.
+
+215
+00:10:23,660 --> 00:10:26,510
+And that's what we're going
+to do in the next video.
+
+216
+00:10:26,510 --> 00:10:28,012
+See you soon.

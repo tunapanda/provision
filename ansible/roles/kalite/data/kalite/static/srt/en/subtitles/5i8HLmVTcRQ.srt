@@ -1,0 +1,235 @@
+1
+00:00:00,415 --> 00:00:04,466
+Let's review our intuition of what a limit even is.
+
+2
+00:00:04,466 --> 00:00:06,604
+So, let me draw some axes here.
+
+3
+00:00:06,604 --> 00:00:12,549
+Let's say this is my y axis, so try to draw my vertical line
+
+4
+00:00:12,549 --> 00:00:16,952
+That right over there is my y axis
+
+5
+00:00:16,952 --> 00:00:18,800
+and let's say this is my x axis.
+
+6
+00:00:18,800 --> 00:00:21,606
+I'll focus on the first quadrant, although I don't have to...
+
+7
+00:00:21,606 --> 00:00:27,117
+Let's say this right over here is my x axis and let me draw a function.
+
+8
+00:00:27,117 --> 00:00:30,120
+So let's say my function looks something like that.
+
+9
+00:00:30,120 --> 00:00:36,180
+It could look like anything suitable, so this is y is equal to f of x
+
+10
+00:00:36,180 --> 00:00:38,914
+and just for the sake of conceptual understanding
+
+11
+00:00:38,914 --> 00:00:40,419
+I'm going to say it's not defined at a point.
+
+12
+00:00:40,419 --> 00:00:42,871
+I didn't have to do this, you could find the limit as X approaches a point
+
+13
+00:00:42,871 --> 00:00:44,690
+where the function actually is defined,
+
+14
+00:00:44,690 --> 00:00:47,365
+but it becomes that much more interesting, at least for me
+
+15
+00:00:47,365 --> 00:00:49,449
+where you start to understand where a limit might be relevant
+
+16
+00:00:49,449 --> 00:00:51,889
+when a function is not defined at some point.
+
+17
+00:00:51,889 --> 00:00:54,208
+So, the way I've drawn it this function is not defined
+
+18
+00:00:54,418 --> 00:00:56,961
+when x is equal to c
+
+19
+00:01:03,067 --> 00:01:05,297
+Now, the way that we've though about a limit is,
+
+20
+00:01:05,297 --> 00:01:09,381
+what does f(x) approach as x approaches c?
+
+21
+00:01:09,381 --> 00:01:10,814
+So, let's think about that a little bit.
+
+22
+00:01:10,814 --> 00:01:15,175
+When x is a reasonable bit lower than c,
+
+23
+00:01:15,175 --> 00:01:19,915
+f(x) for our function that we just drew is right over here
+
+24
+00:01:19,915 --> 00:01:22,697
+y is equal to f(x)
+
+25
+00:01:22,697 --> 00:01:32,092
+when x gets a little bit closer, then our f(x) is right over there
+
+26
+00:01:32,092 --> 00:01:35,757
+when x gets even closer; It's really almost at c but not quite c
+
+27
+00:01:35,757 --> 00:01:38,995
+then our f(x) is right over here
+
+28
+00:01:38,995 --> 00:01:40,342
+and the way we see it,
+
+29
+00:01:40,342 --> 00:01:54,410
+we see that our f(x) seems to be that as x gets closer to c it looks like our f(x) is getting closer to some value.
+
+30
+00:01:54,410 --> 00:01:58,249
+right over there, I'll even draw it with a more solid line.
+
+31
+00:01:58,249 --> 00:01:59,446
+and that was only the case
+
+32
+00:01:59,446 --> 00:02:01,845
+when x was getting closer to c from the left,
+
+33
+00:02:01,845 --> 00:02:04,295
+from values less than c.
+
+34
+00:02:04,295 --> 00:02:07,844
+But what happens when we get closer and closer to c
+
+35
+00:02:07,844 --> 00:02:09,893
+from values of x that are larger than c,
+
+36
+00:02:09,893 --> 00:02:14,008
+well when x is over here, f(x) is over here.
+
+37
+00:02:14,008 --> 00:02:16,130
+That's what f(x) is
+
+38
+00:02:16,130 --> 00:02:21,309
+when x is over there, x gets a little bit closer to c
+
+39
+00:02:21,309 --> 00:02:23,940
+our f(x) is right over there,
+
+40
+00:02:23,940 --> 00:02:28,341
+when x is just very slightly larger than c,
+
+41
+00:02:28,341 --> 00:02:31,993
+then our f(x) is right over there
+
+42
+00:02:31,993 --> 00:02:34,447
+and you see once again it seems to be approaching
+
+43
+00:02:34,447 --> 00:02:39,363
+that same value
+
+44
+00:02:39,363 --> 00:02:44,259
+and we call that value, the value f(x) seems to be approaching as x approaches c,
+
+45
+00:02:44,259 --> 00:02:45,872
+we call that value L, or the limit
+
+46
+00:02:45,872 --> 00:02:51,511
+and we'd call the limit, we don't have to call it L all the time.
+
+47
+00:02:51,511 --> 00:02:55,564
+and the way that we would write that mathematically is,
+
+48
+00:02:55,564 --> 00:03:08,496
+the limit of f(x) as x approaches c is equal to L
+
+49
+00:03:08,496 --> 00:03:11,007
+and this is a fine conceptual understanding of limits
+
+50
+00:03:11,007 --> 00:03:12,599
+and it really will take you very far,
+
+51
+00:03:12,599 --> 00:03:15,142
+and you are ready to progress and start taking a lot of limits.
+
+52
+00:03:15,142 --> 00:03:20,258
+But this isn't a very mathematically rigourous definition of limits.
+
+53
+00:03:20,258 --> 00:03:21,926
+This sets us up for the intuition,
+
+54
+00:03:21,926 --> 00:03:24,498
+in the next few videos we will introduce
+
+55
+00:03:24,498 --> 00:03:27,278
+a mathematically rigourous definition of limits.
+
+56
+00:03:27,278 --> 00:03:29,008
+That will allow us to do things.
+
+57
+00:03:29,008 --> 00:03:32,093
+Like prove that the limit as x approaches c
+
+58
+00:03:32,093 --> 00:03:32,939
+truly,
+
+59
+00:03:32,939 --> 00:03:35,333
+is equal to L.

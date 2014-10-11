@@ -1,0 +1,635 @@
+1
+00:00:00,000 --> 00:00:05,660
+We're on problem 154
+
+2
+00:00:05,660 --> 00:00:07,700
+They ask us, is x negative?
+
+3
+00:00:07,700 --> 00:00:11,410
+So the question is x less than 0
+
+4
+00:00:11,410 --> 00:00:15,150
+Statement number 1 tells us-- let's see, they say x to the
+
+5
+00:00:15,150 --> 00:00:20,770
+third times 1 minus x squared is less than 0
+
+6
+00:00:20,770 --> 00:00:21,680
+Now let's simplify it
+
+7
+00:00:21,680 --> 00:00:28,100
+Let's see, x to the third minus x to the fifth is less than 0
+
+8
+00:00:28,100 --> 00:00:30,590
+We could add x to the fifth to both sides
+
+9
+00:00:30,590 --> 00:00:33,390
+x to the third is less than x to the fifth
+
+10
+00:00:33,390 --> 00:00:35,800
+Let's divide both sides by x squared
+
+11
+00:00:35,800 --> 00:00:37,940
+That won't change the inequality since x squared is
+
+12
+00:00:37,940 --> 00:00:39,180
+definitely going to be positive
+
+13
+00:00:39,180 --> 00:00:42,090
+Any integer squared, even if it's negative, is a positive
+
+14
+00:00:42,090 --> 00:00:43,630
+So you divide both sides by x squared
+
+15
+00:00:43,630 --> 00:00:48,600
+you get x is less than x to the third
+
+16
+00:00:48,600 --> 00:00:50,900
+Now let's see, does this answer that question?
+
+17
+00:00:50,900 --> 00:00:53,800
+Let's see what x's would satisfy this condition
+
+18
+00:00:53,800 --> 00:01:02,340
+So we can already say that x cannot be equal to 0, right?
+
+19
+00:01:02,340 --> 00:01:04,010
+Anything where this would have been an
+
+20
+00:01:04,010 --> 00:01:04,800
+inequality doesn't work
+
+21
+00:01:04,800 --> 00:01:07,970
+So x can't be equal 0, it can't be able to 1
+
+22
+00:01:07,970 --> 00:01:09,560
+because 1 is equal 1 to the third
+
+23
+00:01:09,560 --> 00:01:11,350
+and it can't be equal to negative 1
+
+24
+00:01:11,350 --> 00:01:14,150
+So we know that immediately
+
+25
+00:01:14,150 --> 00:01:16,850
+We know that for regular positive numbers
+
+26
+00:01:16,850 --> 00:01:20,760
+for numbers greater than 1
+
+27
+00:01:20,760 --> 00:01:22,500
+taking it to the third power is always
+
+28
+00:01:22,500 --> 00:01:24,160
+going to be greater than the number itself
+
+29
+00:01:24,160 --> 00:01:26,360
+If you took 2 to the third power, that's greater than 2
+
+30
+00:01:26,360 --> 00:01:28,390
+3 to the third power is greater than 3
+
+31
+00:01:28,390 --> 00:01:31,760
+1.5 to the third power is greater than 1.5
+
+32
+00:01:31,760 --> 00:01:35,090
+So we know that this statement right here implies
+
+33
+00:01:35,090 --> 00:01:37,900
+that x is greater than 1
+
+34
+00:01:37,900 --> 00:01:41,790
+Now let's see, is there a situation
+
+35
+00:01:41,790 --> 00:01:42,980
+where x can be negative?
+
+36
+00:01:42,980 --> 00:01:44,350
+Well, let's see
+
+37
+00:01:44,350 --> 00:01:50,650
+First off, x is between 0 and 1
+
+38
+00:01:50,650 --> 00:01:54,320
+1/2 is not less than 1/8
+
+39
+00:01:54,320 --> 00:01:55,720
+So it doesn't work between 0 and 1
+
+40
+00:01:55,720 --> 00:02:04,140
+But what if x were between negative 1 and 0?
+
+41
+00:02:04,140 --> 00:02:05,550
+Let's try an example
+
+42
+00:02:05,550 --> 00:02:10,110
+Negative 1/2 is less than negative 1/8
+
+43
+00:02:10,110 --> 00:02:11,430
+It's more negative
+
+44
+00:02:11,430 --> 00:02:17,070
+Negative 1/2 is less than negative 1/8, right?
+
+45
+00:02:17,070 --> 00:02:19,200
+You could try that with any fraction
+
+46
+00:02:19,200 --> 00:02:20,800
+Because when you take it to the third power
+
+47
+00:02:20,800 --> 00:02:21,830
+it becomes a smaller fraction
+
+48
+00:02:21,830 --> 00:02:24,480
+but it becomes a smaller negative fraction
+
+49
+00:02:24,480 --> 00:02:27,840
+So x will be less than it, because it's more negative
+
+50
+00:02:27,840 --> 00:02:31,450
+So this is true
+
+51
+00:02:31,450 --> 00:02:35,620
+If this is true, then x is either greater than 1
+
+52
+00:02:35,620 --> 00:02:38,160
+or it's between negative 1 and 0
+
+53
+00:02:38,160 --> 00:02:41,390
+Let's see, does it work if x is less than negative 1
+
+54
+00:02:41,390 --> 00:02:45,340
+Negative 2, is negative 2 less than negative 8?
+
+55
+00:02:45,340 --> 00:02:46,470
+Nope
+
+56
+00:02:46,470 --> 00:02:47,100
+Right
+
+57
+00:02:47,100 --> 00:02:49,920
+So these are the only ranges where it works
+
+58
+00:02:49,920 --> 00:02:53,050
+This statement implies this
+
+59
+00:02:53,050 --> 00:02:55,120
+But this still isn't enough information to tell us
+
+60
+00:02:55,120 --> 00:02:57,120
+whether x is less than 0
+
+61
+00:02:57,120 --> 00:02:58,590
+x could be greater than 1
+
+62
+00:02:58,590 --> 00:03:01,430
+which is definitely greater than 0, or x could be less than 0
+
+63
+00:03:01,430 --> 00:03:03,530
+So we don't know yet just from statement 1
+
+64
+00:03:03,530 --> 00:03:12,500
+Statement 2 tells us x squared minus 1 is less than 0
+
+65
+00:03:12,500 --> 00:03:13,880
+So add 1 to both sides
+
+66
+00:03:13,880 --> 00:03:17,710
+that tells us that x squared is less than 1
+
+67
+00:03:17,710 --> 00:03:21,670
+So when could something squared be less than 1?
+
+68
+00:03:21,670 --> 00:03:23,350
+Well, it's going to have to be between
+
+69
+00:03:23,350 --> 00:03:28,320
+negative 1 and 1, right?
+
+70
+00:03:28,320 --> 00:03:30,170
+It's essentially going to have be a positive
+
+71
+00:03:30,170 --> 00:03:32,350
+or a negative fraction less than 1
+
+72
+00:03:32,350 --> 00:03:33,900
+That's the only way that when you square it
+
+73
+00:03:33,900 --> 00:03:36,610
+you get a number less than 1
+
+74
+00:03:37,530 --> 00:03:39,430
+you're definitely going to get a number greater than 1
+
+75
+00:03:39,430 --> 00:03:41,510
+and it's going to be positive either way
+
+76
+00:03:41,510 --> 00:03:46,000
+If it's 1, it's going to be 1, and then 0 is in our range
+
+77
+00:03:46,000 --> 00:03:47,590
+So statement 2 tells us this
+
+78
+00:03:47,590 --> 00:03:49,870
+but it includes both positive and negative numbers
+
+79
+00:03:49,870 --> 00:03:53,420
+So it doesn't answer our question whether x is less than 0
+
+80
+00:03:53,420 --> 00:03:56,190
+But if we use both statements combined
+
+81
+00:03:56,190 --> 00:03:58,120
+what is the intersection?
+
+82
+00:03:58,120 --> 00:04:00,690
+What is the overlap of this and this?
+
+83
+00:04:00,690 --> 00:04:04,130
+Well, if x has to be between negative 1 and 1
+
+84
+00:04:04,130 --> 00:04:08,030
+and it has to be one of these
+
+85
+00:04:08,030 --> 00:04:11,820
+the only one that it overlaps with is this one
+
+86
+00:04:11,820 --> 00:04:13,920
+You cannot have x being greater
+
+87
+00:04:13,920 --> 00:04:17,200
+than 1 and x being in this range
+
+88
+00:04:17,200 --> 00:04:20,370
+You can have x being in this range and x being in this range
+
+89
+00:04:20,370 --> 00:04:22,070
+since this is a subset of this
+
+90
+00:04:22,070 --> 00:04:25,640
+So this is actually the more restrictive
+
+91
+00:04:25,640 --> 00:04:27,070
+And so since we go to that
+
+92
+00:04:27,070 --> 00:04:30,320
+that actually tells us that x has to be negative
+
+93
+00:04:30,320 --> 00:04:32,930
+So both statements combined are sufficient
+
+94
+00:04:32,930 --> 00:04:36,130
+to answer this question, but individually they're not
+
+95
+00:04:36,130 --> 00:04:41,540
+The last question, 155
+
+96
+00:04:41,540 --> 00:04:43,460
+Marsha's bucket can hold a maximum of
+
+97
+00:04:43,460 --> 00:04:45,340
+how many liters of water?
+
+98
+00:04:45,340 --> 00:04:50,420
+So we want to know the capacity of her bucket
+
+99
+00:04:50,420 --> 00:04:52,360
+Statement number 1 says
+
+100
+00:04:52,360 --> 00:04:54,800
+the bucket currently contains 9 liters of water
+
+101
+00:04:54,800 --> 00:04:55,700
+That's useless
+
+102
+00:04:55,700 --> 00:04:57,670
+We don't know how-- that could be the bucket
+
+103
+00:04:57,670 --> 00:04:58,910
+9 liters could be that
+
+104
+00:04:58,910 --> 00:05:01,810
+Or maybe 9 liters is the full capacity
+
+105
+00:05:01,810 --> 00:05:04,630
+That tells us nothing about what the capacity
+
+106
+00:05:04,630 --> 00:05:06,860
+of the bucket is
+
+107
+00:05:06,860 --> 00:05:08,450
+If I told you I had a bite of the sandwich
+
+108
+00:05:08,450 --> 00:05:10,310
+that tells you nothing as far as
+
+109
+00:05:10,310 --> 00:05:11,980
+how large of a sandwich I can eat
+
+110
+00:05:11,980 --> 00:05:14,550
+So statement 1 doesn't seem that useful
+
+111
+00:05:14,550 --> 00:05:20,360
+Statement 2, if 3 liters of water are added to the bucket
+
+112
+00:05:20,360 --> 00:05:22,500
+when it is 1/2 full of water
+
+113
+00:05:22,500 --> 00:05:26,850
+So 1/2 times the capacity, right?
+
+114
+00:05:26,850 --> 00:05:30,420
+When it's 1/2 full of water, you add 3 liters
+
+115
+00:05:30,420 --> 00:05:32,730
+So if 3 liters of water are added to the bucket
+
+116
+00:05:32,730 --> 00:05:34,730
+when it is 1/2 full of water
+
+117
+00:05:34,730 --> 00:05:41,670
+the amount of water in the bucket will increase by 1/3
+
+118
+00:05:41,670 --> 00:05:52,280
+To increase something by 1/3, that is like multiplying it
+
+119
+00:05:52,280 --> 00:05:57,790
+by 1 1/3 That's 1 1/3 times the capacity
+
+120
+00:05:57,790 --> 00:06:00,930
+That's what they're saying
+
+121
+00:06:00,930 --> 00:06:03,850
+The amount of water in the bucket will increase by 1
+
+122
+00:06:03,850 --> 00:06:07,790
+Sorry
+
+123
+00:06:07,790 --> 00:06:10,560
+You're going to have 1 1/3 times what you started off with
+
+124
+00:06:10,560 --> 00:06:15,000
+which was half your capacity
+
+125
+00:06:15,000 --> 00:06:15,930
+That make sense?
+
+126
+00:06:15,930 --> 00:06:18,450
+We say we're starting with 1/2 of our capacity
+
+127
+00:06:18,450 --> 00:06:22,960
+and we're adding 3 liters
+
+128
+00:06:22,960 --> 00:06:25,480
+They're saying that that will increase the amount
+
+129
+00:06:25,480 --> 00:06:28,240
+we have by 1 1/3
+
+130
+00:06:28,240 --> 00:06:28,960
+Let me write that
+
+131
+00:06:28,960 --> 00:06:35,460
+Let's say we start with x, and we're adding 3 liters
+
+132
+00:06:35,460 --> 00:06:39,970
+They're saying that will equal 1 1/3 or 4/3 times x, right?
+
+133
+00:06:39,970 --> 00:06:43,780
+This shows that x is increasing by 1/3
+
+134
+00:06:43,780 --> 00:06:47,710
+You could view this as 1 plus 1/3 times x
+
+135
+00:06:47,710 --> 00:06:50,050
+This is an increase of 1/3
+
+136
+00:06:50,050 --> 00:06:53,830
+They tell us that our starting point is 1/2 of capacity
+
+137
+00:06:53,830 --> 00:06:57,090
+So that's where I get the 1/2 c-- that's our starting point--
+
+138
+00:06:57,090 --> 00:07:01,030
+plus 3 is equal to 4/3 times the starting point
+
+139
+00:07:01,030 --> 00:07:04,550
+or where we're adding water to, 1/2 times c
+
+140
+00:07:04,550 --> 00:07:06,330
+We could easily solve for c here
+
+141
+00:07:06,330 --> 00:07:09,450
+So you get a 2, this cancels out
+
+142
+00:07:09,450 --> 00:07:17,090
+Then you get 1/2 c plus 3 is equal to 2/3 c
+
+143
+00:07:17,090 --> 00:07:20,700
+Let's see, we could subtract 1/2 c from both sides
+
+144
+00:07:20,700 --> 00:07:26,450
+and you get 3 is equal to 2/3 minus 1/2 c
+
+145
+00:07:26,450 --> 00:07:29,320
+Then you can just do that fraction
+
+146
+00:07:29,320 --> 00:07:33,820
+and you get c is equal to 3 over-- well, what is this?
+
+147
+00:07:33,820 --> 00:07:41,380
+1/2-- so if you do it over a 6, 4 minus 3, so this is 1/6
+
+148
+00:07:41,380 --> 00:07:43,520
+So this turns into 1/6
+
+149
+00:07:43,520 --> 00:07:47,740
+So c is equal to 18
+
+150
+00:07:47,740 --> 00:07:48,520
+Wait a minute
+
+151
+00:07:48,520 --> 00:07:49,350
+You didn't have to do all that
+
+152
+00:07:49,350 --> 00:07:51,210
+You should have just realized that as soon as you can write
+
+153
+00:07:51,210 --> 00:07:52,850
+this algebraic equation down
+
+154
+00:07:52,850 --> 00:07:54,560
+it's a linear equation with one unknown
+
+155
+00:07:54,560 --> 00:07:57,000
+and that one unknown is what we're trying to solve for
+
+156
+00:07:57,000 --> 00:07:59,410
+you have enough information to solve the problem
+
+157
+00:07:59,410 --> 00:08:04,810
+So statement 2, alone, is sufficient to solve this problem
+
+158
+00:08:04,810 --> 00:08:06,610
+We're all done with data sufficiency
+
+159
+00:08:06,610 --> 00:08:09,000
+See you all in the next section

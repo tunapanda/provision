@@ -1,0 +1,63 @@
+1
+00:00:00,921 --> 00:00:04,464
+were now in the home stretch we just have to evaluate the curl of
+
+2
+00:00:04,464 --> 00:00:07,705
+F and then this dot product then we have to evaluate this double integral
+
+3
+00:00:07,705 --> 00:00:16,167
+so the curl of F is going to be equal to- i just remember it as the determinant
+
+4
+00:00:16,167 --> 00:00:25,581
+I J K components, and really you can imagine its the del operator crossed with the actual vector
+
+5
+00:00:30,058 --> 00:00:35,852
+partial with the respect to x- partial with the respect to y
+
+6
+00:00:35,852 --> 00:00:47,467
+partial with the respect to Z and then our vector field it is just equal to negative Y squared is our I component
+
+7
+00:00:47,467 --> 00:00:55,965
+X is our J component and Z squared is our K component and so this is going to be equal to
+
+8
+00:00:55,965 --> 00:01:05,635
+I is going to be equal to I times the partial of Z squared with respect to Y
+
+9
+00:01:05,635 --> 00:01:12,962
+Well there is the Z squared is just a constant with respect to Y so the partial of Z squared with respect to Y is just going to be 0
+
+10
+00:01:12,962 --> 00:01:22,755
+Minus the partial of X with respect to Z. Once again this is just a constant when you think in terms of Z so thats just going to be 0
+
+11
+00:01:22,755 --> 00:01:33,286
+nice simplification. Then were going to have minus J- put a negative infront of the J- so we will have
+
+12
+00:01:33,286 --> 00:01:42,767
+The partial of Z squared with respect to X- well thats Zero again and then minus the partial of negative Y squared
+
+13
+00:01:42,767 --> 00:01:50,462
+with respect to Z. Well thats Zero again. and then finally we have our K component
+
+14
+00:01:50,462 --> 00:02:00,368
+So plus K- and K were gonna have the parital of X with respect to X well that actually gives us a value
+
+15
+00:02:00,368 --> 00:02:07,632
+that's just going to be 1 minus the partial of negative Y squared with respect to Y
+
+16
+00:02:07,632 --> 00:02:17,713
+so the partial of negative Y squared with respect to Y is negative 2Y and were subtracting that so its going to be plus 2Y

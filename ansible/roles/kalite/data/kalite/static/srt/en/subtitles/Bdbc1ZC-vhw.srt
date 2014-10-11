@@ -1,0 +1,263 @@
+1
+00:00:01,159 --> 00:00:05,671
+This right here is a picture of Fibonacci.
+
+2
+00:00:05,671 --> 00:00:08,933
+One of the most famous mathematicians of all time
+
+3
+00:00:08,933 --> 00:00:11,533
+And he was a mathematicians in medieval Italy
+
+4
+00:00:11,533 --> 00:00:14,133
+And he is most famous for the Fibonacci numbers
+
+5
+00:00:14,133 --> 00:00:19,348
+Fibonacci numbers
+
+6
+00:00:19,610 --> 00:00:24,533
+And he didn't discover them, they acturally discovered several centuries before mid India
+
+7
+00:00:24,533 --> 00:00:27,267
+But he popularized them, especially in the west
+
+8
+00:00:27,267 --> 00:00:29,800
+And Fibonacci numbers are super simple
+
+9
+00:00:29,800 --> 00:00:33,200
+The first two are defined as 0 and 1
+
+10
+00:00:33,200 --> 00:00:36,800
+And every number after that is the sum of the previous two
+
+11
+00:00:36,800 --> 00:00:40,467
+So what I'm constructing right here is really a Fibonacci sequence of numbers
+
+12
+00:00:40,467 --> 00:00:44,667
+So the next number in the sequence is gonna be 0 + 1, which is 1.
+
+13
+00:00:44,667 --> 00:00:48,533
+Then the next number after that is going to be 1 + 1, which is 2
+
+14
+00:00:48,533 --> 00:00:51,133
+And the next number after that, 1 + 2 is 3
+
+15
+00:00:51,133 --> 00:00:53,333
+2 + 3 is 5
+
+16
+00:00:53,333 --> 00:00:55,667
+3 + 5 is 8
+
+17
+00:00:55,667 --> 00:00:57,800
+5 + 8 is 13
+
+18
+00:00:57,800 --> 00:01:00,800
+8 + 13 is 21
+
+19
+00:01:00,800 --> 00:01:06,267
+13 + 21 is 34
+
+20
+00:01:06,267 --> 00:01:09,533
+And the Fibonacci numbers, you know especial once you start getting into number theory
+
+21
+00:01:09,533 --> 00:01:11,800
+Tons of fancinating things about them
+
+22
+00:01:11,800 --> 00:01:13,800
+Probably the coolest thing about them
+
+23
+00:01:13,800 --> 00:01:16,933
+is as you add more and more terms through the Fibonacci sequence
+
+24
+00:01:16,933 --> 00:01:20,867
+And you take the last two terms that you generated
+
+25
+00:01:20,867 --> 00:01:24,600
+You'll see there's no really last two terms you can keep going on forever
+
+26
+00:01:24,600 --> 00:01:26,800
+get arbitrarily large Fibonacci numbers
+
+27
+00:01:26,800 --> 00:01:29,067
+Say we take these last two terms over here
+
+28
+00:01:29,067 --> 00:01:32,667
+21, 34, we take the ratio of these two
+
+29
+00:01:32,667 --> 00:01:42,292
+21 over 34, this is going to be pretty close to the golden ratio
+
+30
+00:01:42,292 --> 00:01:47,333
+and I encourage you to look up the golden ratio on wikipedia and Internet
+
+31
+00:01:47,333 --> 00:01:51,000
+you will find all sorts of fascinating mystical things about the golden ratio
+
+32
+00:01:51,000 --> 00:01:54,179
+What's cool about the Fibonacci numbers or Fibonacci sequences
+
+33
+00:01:54,179 --> 00:01:56,308
+This gives you approximation of the golden ratio
+
+34
+00:01:56,308 --> 00:02:01,000
+We get a better even a better approximation if you add another terms for a sequence
+
+35
+00:02:01,000 --> 00:02:04,533
+So the next term over here 21 + 34 is 55
+
+36
+00:02:04,533 --> 00:02:10,133
+So the ratio of 34 than 55 is even closer
+
+37
+00:02:10,133 --> 00:02:14,333
+even closer to the golden ratio
+
+38
+00:02:14,333 --> 00:02:18,533
+So one way if you want to compute a really good approximation for the golden ratio
+
+39
+00:02:18,533 --> 00:02:24,867
+You can really just get super high Fibonacci numbers just adding the previous 2 terms to get the next one
+
+40
+00:02:24,867 --> 00:02:30,533
+and you will get a pretty good approximation we take ratio of the last two terms
+
+41
+00:02:30,533 --> 00:02:32,933
+Now that was the Fibonacci numbers are about
+
+42
+00:02:32,933 --> 00:02:35,933
+Now I wanna pose a challenge to you
+
+43
+00:02:35,933 --> 00:02:40,933
+I want you to write, since we already done some examples using factorials
+
+44
+00:02:40,933 --> 00:02:47,133
+I want you to write an implementation of a function that generate the nth term in the Fibonacci sequence
+
+45
+00:02:47,133 --> 00:02:52,713
+So the function will be like this, so this will be the Fibonacci sequence
+
+46
+00:02:52,713 --> 00:02:56,902
+So if I call your function (let me make it lower case)
+
+47
+00:02:56,902 --> 00:02:58,671
+Let me just give you some examples
+
+48
+00:02:58,671 --> 00:03:02,133
+If I take your function and I call fibonacci
+
+49
+00:03:02,133 --> 00:03:05,000
+you can really implement this in any language you want
+
+50
+00:03:05,000 --> 00:03:07,267
+or we've been dealing in python and like be simples to do it on python
+
+51
+00:03:07,267 --> 00:03:14,533
+If I call fibonacci of 1, what I want this to be is the 1st term
+
+52
+00:03:14,533 --> 00:03:18,236
+and just to make things clear, you should always clarify this especially in computer science
+
+53
+00:03:18,236 --> 00:03:21,579
+because that always clear what the 1st term is
+
+54
+00:03:21,579 --> 00:03:23,087
+and I'm going to make it clear right now
+
+55
+00:03:23,087 --> 00:03:25,369
+the 1st term is not gonna be this one over here
+
+56
+00:03:25,369 --> 00:03:29,867
+I wanna make this one over here, I'm gonna call this the zeroth term
+
+57
+00:03:29,867 --> 00:03:33,779
+That's the zeroth term and that is going to be the 1st term
+
+58
+00:03:33,779 --> 00:03:37,800
+This is going to be the 2nd term, 3rd term, 4th term so on and so forth
+
+59
+00:03:37,800 --> 00:03:41,887
+And so fibonacci of 1, the 1st term will be this right over here
+
+60
+00:03:41,887 --> 00:03:43,662
+It will, it should return one
+
+61
+00:03:43,662 --> 00:03:49,667
+Fibonacci of 0, so, should return 0
+
+62
+00:03:49,667 --> 00:03:56,600
+Fibonacci of 3 should return, 0, 1, 2, 3, it should return 2
+
+63
+00:03:56,600 --> 00:04:01,067
+Fibonacci...
+
+64
+00:04:01,067 --> 00:04:07,113
+Fibonacci of 5 should return, 0, 1, 2, 3, 4, 5, it should actually return 5
+
+65
+00:04:07,113 --> 00:04:10,733
+What I want you to do is to write a function so we could put any argument over here
+
+66
+00:04:10,733 --> 00:04:14,267
+and return that term of the Fibonacci sequence

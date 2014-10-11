@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:08,364
+Part c: Find the value of the sixth derivative of f evaluated at zero.
+
+2
+00:00:08,364 --> 00:00:13,995
+You can imagine if you just tried to find the sixth derivative of f - that would take you forever.
+
+3
+00:00:13,995 --> 00:00:17,267
+And then to evaluate it at zero because it is x squared here
+
+4
+00:00:17,267 --> 00:00:20,677
+and you'd have keep doing the product rule over and over, the chain rule and all the rest.
+
+5
+00:00:20,677 --> 00:00:22,923
+It would become very, very, very messy.
+
+6
+00:00:22,923 --> 00:00:24,333
+But we have a big clue here!
+
+7
+00:00:24,333 --> 00:00:30,190
+The fact that they made us find the first four terms of the Taylor series of f about x equals zero
+
+8
+00:00:30,190 --> 00:00:35,375
+tells us that there might be a simpler way to do this as opposed to just taking the sixth derivative
+
+9
+00:00:35,375 --> 00:00:37,059
+of this and evaluating it at zero.
+
+10
+00:00:37,059 --> 00:00:42,513
+And the simplest way to do this is to just go back - in the last problem we were able to come up with the
+
+11
+00:00:42,513 --> 00:00:47,129
+first 4 non-zero terms of the Taylor series of f,
+
+12
+00:00:47,129 --> 00:00:53,333
+and if you look at your definition of the Taylor series right here,
+
+13
+00:00:53,333 --> 00:00:58,385
+(and we go in depth of this in another Khan Academy video where we talk about why this makes sense),
+
+14
+00:00:58,385 --> 00:01:05,267
+you see that each degree term of the Taylor series, its coefficient is that derivative,
+
+15
+00:01:05,267 --> 00:01:10,102
+(and this Taylor series is centered around zero and that's what we care about in terms of this problem),
+
+16
+00:01:10,102 --> 00:01:21,467
+we see the coefficient is that derivative evaluated at zero divided by that degree's factorial.
+
+17
+00:01:21,467 --> 00:01:27,379
+So the second degree term is the second derivative of f evaluated at zero divided by 2 factorial.
+
+18
+00:01:27,395 --> 00:01:36,421
+The fourth degree term is the fourth derivative of f evaluated at zero divided by 4 factorial.
+
+19
+00:01:36,421 --> 00:01:41,354
+So the sixth degree term...
+
+20
+00:01:41,354 --> 00:01:44,744
+Let's remind ourselves what we're even trying to figure out.
+
+21
+00:01:44,744 --> 00:01:49,200
+So they want us to figure out the sixth derivative of f evaluated at zero,
+
+22
+00:01:49,200 --> 00:01:51,067
+that's what they want us to figure out.
+
+23
+00:01:51,067 --> 00:01:59,867
+Well, if you think about the Taylor series centered at zero, or at zero, or approximated around zero,
+
+24
+00:01:59,867 --> 00:02:03,292
+the sixth degree term in the Taylor series approximation of f
+
+25
+00:02:03,292 --> 00:02:15,892
+is going to be the sixth derivative of f evaluated at zero times x to the sixth over 6 factorial.
+
+26
+00:02:15,892 --> 00:02:26,862
+This is going to be the sixth degree term in Taylor approximation...
+
+27
+00:02:26,862 --> 00:02:29,333
+in Taylor series.
+
+28
+00:02:29,333 --> 00:02:30,560
+And we have that term sitting right over here!
+
+29
+00:02:30,560 --> 00:02:33,719
+This is the sixth degree term. We figured it out in the last problem!
+
+30
+00:02:33,719 --> 00:02:37,159
+This right here is the sixth degree term.
+
+31
+00:02:37,174 --> 00:02:38,685
+So we have x to the sixth over here
+
+32
+00:02:38,685 --> 00:02:39,939
+x to the sixth over here.
+
+33
+00:02:39,939 --> 00:02:41,425
+You have 6 factorial over here
+
+34
+00:02:41,425 --> 00:02:43,097
+6 factorial over here.
+
+35
+00:02:43,097 --> 00:02:52,339
+So this -121 must be the sixth derivative of f evaluated at zero.
+
+36
+00:02:52,339 --> 00:02:53,800
+So that's our answer.
+
+37
+00:02:53,800 --> 00:02:57,887
+This is equal to -121 and we're done.

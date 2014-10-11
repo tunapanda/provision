@@ -1,0 +1,671 @@
+1
+00:00:00,800 --> 00:00:04,530
+cryptographic hash functions are basically fundamental building blocks
+
+2
+00:00:04,530 --> 00:00:08,220
+that are used within many cryptographic algorithms &amp; protocols
+
+3
+00:00:08,220 --> 00:00:10,720
+we have a number of very important applications
+
+4
+00:00:10,720 --> 00:00:14,170
+in the context of information security as a whole
+
+5
+00:00:14,470 --> 00:00:19,910
+now, some of the more common algorithms in this category, that are known as cryptographic hash functions, include
+
+6
+00:00:19,910 --> 00:00:22,770
+things like MD5, &amp; also
+
+7
+00:00:22,770 --> 00:00:26,080
+it has some predecessors like MD4 &amp; others
+
+8
+00:00:26,080 --> 00:00:28,280
+as well as algorithms like
+
+9
+00:00:28,280 --> 00:00:32,240
+like SHA-256, and actually SHA-256 is
+
+10
+00:00:32,240 --> 00:00:36,930
+preceded by others algorithms like SHA-1 and so on
+
+11
+00:00:36,930 --> 00:00:40,280
+and also there are some algorithms that maybe you
+
+12
+00:00:40,280 --> 00:00:46,040
+heard of, maybe they're a bit lesser known, but things like RIPEMD, and BLAKE, and Skein, and others
+
+13
+00:00:46,040 --> 00:00:49,000
+now cryptographic hash functions are basically
+
+14
+00:00:49,000 --> 00:00:52,340
+used as critical building blocks in many applications
+
+15
+00:00:52,340 --> 00:00:55,630
+and really, the first motivating application, the first
+
+16
+00:00:55,630 --> 00:01:00,300
+historical application of these type of hash functions, was in the context of
+
+17
+00:01:00,300 --> 00:01:05,640
+was known as a digital signature. And digital signature is used in so many different
+
+18
+00:01:05,640 --> 00:01:07,860
+cryptographic applications such as
+
+19
+00:01:07,860 --> 00:01:11,510
+the cornerstone of many e-commerce protocols
+
+20
+00:01:11,510 --> 00:01:15,380
+they're used in doing things like Bitcoin generation &amp; so on
+
+21
+00:01:15,380 --> 00:01:20,500
+cryptographic hash functions are also used in things like message authentication protocols
+
+22
+00:01:20,500 --> 00:01:24,340
+in pseudo random number generation &amp; password security
+
+23
+00:01:24,340 --> 00:01:26,420
+even encryption to some degree
+
+24
+00:01:26,420 --> 00:01:27,840
+and in fact
+
+25
+00:01:27,840 --> 00:01:30,830
+aside from their use in digital signatures
+
+26
+00:01:30,830 --> 00:01:35,410
+these hash functions are also used in other places in the Bitcoin protocol as well
+
+27
+00:01:35,410 --> 00:01:41,000
+so 1st of all, let me talk about what a cryptographic hash function is, &amp; of course
+
+28
+00:01:41,000 --> 00:01:44,410
+as the implies, the 1st thing is, it's a hash function
+
+29
+00:01:44,410 --> 00:01:47,660
+and by hash function, I basically mean that it will
+
+30
+00:01:47,660 --> 00:01:51,690
+take input. It's a mathematical function, a transformation if you will
+
+31
+00:01:51,690 --> 00:01:56,780
+that takes a particular input, &amp; we call these inputs "messages"
+
+32
+00:01:56,780 --> 00:01:59,600
+and message can be of arbitrary length
+
+33
+00:01:59,600 --> 00:02:03,400
+and the hash function basically applies a mathematical
+
+34
+00:02:03,400 --> 00:02:07,730
+transformation, maybe a set of mathematical transformations to this input
+
+35
+00:02:07,730 --> 00:02:12,640
+to produce a single output. We typically call this output a digest, although
+
+36
+00:02:12,640 --> 00:02:16,490
+sometimes you will see the output referred to as a tag,
+
+37
+00:02:16,490 --> 00:02:18,210
+or as a hash, or
+
+38
+00:02:18,210 --> 00:02:20,950
+as a fingerprint, but digest is one of the most
+
+39
+00:02:20,950 --> 00:02:23,680
+common norm &amp; in fact MD5
+
+40
+00:02:23,680 --> 00:02:25,430
+which was one of the
+
+41
+00:02:25,430 --> 00:02:29,000
+one of the earlier hash functions stands for "Message Digest 5"
+
+42
+00:02:29,000 --> 00:02:32,270
+and MD4 is "Message Digest 4" &amp; so on &amp; so forth
+
+43
+00:02:33,270 --> 00:02:37,630
+now, the message, just as I mentioned briefly, can be of arbitrary size, they can be
+
+44
+00:02:37,630 --> 00:02:40,110
+as long as you want, or as short as you want
+
+45
+00:02:40,110 --> 00:02:41,870
+but the output, the
+
+46
+00:02:41,870 --> 00:02:46,870
+the size of the digest / tag, is going to be fixed in length, for example
+
+47
+00:02:46,870 --> 00:02:49,020
+in the context of a hash function like
+
+48
+00:02:49,020 --> 00:02:52,750
+let's say SHA-256, the digest will actually be exactly
+
+49
+00:02:52,750 --> 00:02:55,910
+the 256 bits in length
+
+50
+00:02:55,910 --> 00:02:57,910
+so it's gonna have a fixed length output
+
+51
+00:02:57,910 --> 00:03:00,590
+but an arbitrary length input
+
+52
+00:03:01,620 --> 00:03:03,130
+and the other thing I wanna point out about
+
+53
+00:03:03,130 --> 00:03:09,010
+these cryptographic hash functions, is that the function is a deterministic function, &amp; by that I mean that the
+
+54
+00:03:09,540 --> 00:03:13,440
+output will always be the same for a given input. So if you have
+
+55
+00:03:13,440 --> 00:03:18,140
+a given input, you're gonna see the exact same output. You won't have a situation in which a given input will have
+
+56
+00:03:18,140 --> 00:03:20,860
+two different possible outputs. It's going to be consistent.
+
+57
+00:03:21,710 --> 00:03:23,290
+now, traditional
+
+58
+00:03:23,290 --> 00:03:26,720
+traditional hash functions have been used in computer science
+
+59
+00:03:26,720 --> 00:03:29,270
+for quite some time, and they're used in many
+
+60
+00:03:29,270 --> 00:03:34,490
+computing applications. For example, you may have heard of something like a hash function used to form a hash table
+
+61
+00:03:34,730 --> 00:03:38,900
+but the kind of hash functions that are used in hash tables
+
+62
+00:03:38,900 --> 00:03:40,320
+and I wanna stress this,
+
+63
+00:03:40,320 --> 00:03:44,640
+they aren't necessarily the same as cryptographic hash functions
+
+64
+00:03:44,640 --> 00:03:49,270
+the qualifier cryptographic here is very, very important. And usually,
+
+65
+00:03:49,270 --> 00:03:52,270
+means / implies that: that hash function
+
+66
+00:03:52,270 --> 00:03:54,510
+has to have a certain set of
+
+67
+00:03:54,510 --> 00:03:56,600
+critical design goals &amp; maybe some
+
+68
+00:03:56,600 --> 00:03:58,320
+particular properties in mind
+
+69
+00:03:58,320 --> 00:04:00,170
+that make it suitable for use
+
+70
+00:04:00,170 --> 00:04:04,500
+in applications that use cryptography / cryptographic application areas, where
+
+71
+00:04:04,500 --> 00:04:06,660
+perhaps security / privacy
+
+72
+00:04:06,660 --> 00:04:10,080
+or confidentiality / authentication is a serious concern
+
+73
+00:04:11,350 --> 00:04:14,830
+so first &amp; foremost in describing somebody's property is that
+
+74
+00:04:14,830 --> 00:04:17,130
+and maybe this almost goes without saying
+
+75
+00:04:17,130 --> 00:04:20,990
+one of the first properties you want in a cryptographic hash function is that it should be
+
+76
+00:04:20,990 --> 00:04:22,990
+computationally
+
+77
+00:04:22,990 --> 00:04:27,400
+computationally efficient. By that I mean that it shouldn't take a lot of time
+
+78
+00:04:27,400 --> 00:04:31,640
+the compute the output from a given input. If you're
+
+79
+00:04:31,640 --> 00:04:37,220
+If you're given a message &amp; you wanna apply this set of transformations to that message to get a digest
+
+80
+00:04:37,220 --> 00:04:43,950
+that set of transformations should not take a long time to implement. On a computer it should be very fast / relatively fast
+
+81
+00:04:43,950 --> 00:04:48,620
+and it almost goes without saying but I think it's important to stress &amp; point it out, because I've seen
+
+82
+00:04:48,620 --> 00:04:53,420
+people come up with grossly inefficient hash functions sometimes &amp; those would not be considered
+
+83
+00:04:53,420 --> 00:04:56,560
+suitable in the context of typical
+
+84
+00:04:56,560 --> 00:05:00,090
+cryptographic hash functions that are used for cryptographic applications.
+
+85
+00:05:01,000 --> 00:05:06,440
+and the second property you typically need, especially in the context of digital signing
+
+86
+00:05:06,440 --> 00:05:08,870
+is that you want it to be the case that
+
+87
+00:05:08,870 --> 00:05:14,540
+it's hard to find 2 inputs that actually map to the same input. I mean 2 distinct inputs
+
+88
+00:05:14,540 --> 00:05:17,840
+whose corresponding digest is identical
+
+89
+00:05:17,840 --> 00:05:20,680
+and this property is typically referred to as
+
+90
+00:05:20,680 --> 00:05:22,150
+collision
+
+91
+00:05:22,150 --> 00:05:23,940
+collision resistance
+
+92
+00:05:23,940 --> 00:05:28,910
+That means it's hard to find a colliding pair of inputs
+
+93
+00:05:28,910 --> 00:05:34,400
+In another words, if we have 2 inputs, let's say you have some message M1 &amp; M2
+
+94
+00:05:34,400 --> 00:05:38,210
+their output under the application of the hash function
+
+95
+00:05:38,210 --> 00:05:42,400
+should not be the same. You will never have the same
+
+96
+00:05:42,400 --> 00:05:46,210
+you won't ever have the case that the output of M1 &amp; M2
+
+97
+00:05:46,210 --> 00:05:51,390
+under an application of the hash function is the same. It should never be the same. It should always be different.
+
+98
+00:05:52,220 --> 00:05:55,440
+Now, I should take a step back &amp; point out that
+
+99
+00:05:55,440 --> 00:05:57,790
+of course, in practice
+
+100
+00:05:57,790 --> 00:06:01,150
+given that messages can be of arbitrary size, and
+
+101
+00:06:01,150 --> 00:06:04,850
+given that the output is a fixed size
+
+102
+00:06:04,850 --> 00:06:09,670
+it's not mathematically possible to guarantee that the
+
+103
+00:06:09,670 --> 00:06:12,980
+output will always be different for 2 distinct messages
+
+104
+00:06:12,980 --> 00:06:18,440
+But what you typically want is not that the output are neccessarily different, but that it's hard to find
+
+105
+00:06:18,440 --> 00:06:21,340
+2 distinct messages that produce the same output
+
+106
+00:06:21,340 --> 00:06:26,720
+We know that they exist, by the virtue of the fact that messages can be hashed in only a finite
+
+107
+00:06:26,720 --> 00:06:30,880
+small number (or relatively a small number compared to the number of messages)
+
+108
+00:06:30,880 --> 00:06:34,040
+a small number of possible digest values
+
+109
+00:06:34,040 --> 00:06:36,590
+but aside from that consideration
+
+110
+00:06:36,590 --> 00:06:40,680
+it should be hard, it should take a long time, &amp; by long I mean
+
+111
+00:06:40,680 --> 00:06:46,770
+an astronomically long time to find 2 distinct messages that would result in the same output
+
+112
+00:06:46,770 --> 00:06:49,430
+under the application of the hash function
+
+113
+00:06:51,100 --> 00:06:54,280
+Now, the 3rd thing I wanna point out, is that in many cases
+
+114
+00:06:54,280 --> 00:06:59,640
+you might want also, in the context of hash functions, for the hash function to be able to hide
+
+115
+00:06:59,640 --> 00:07:02,410
+information about the inputs. In other word,
+
+116
+00:07:02,410 --> 00:07:06,030
+given the output
+
+117
+00:07:06,030 --> 00:07:10,590
+it should be hard to glean anything useful about the input
+
+118
+00:07:12,010 --> 00:07:15,530
+anything, any relevant detail &amp; I don't just mean the whole input
+
+119
+00:07:15,530 --> 00:07:19,440
+but maybe even something as simple as "was the input an even number / odd number"?
+
+120
+00:07:19,440 --> 00:07:24,490
+That should be the kind of thing that should be hard to infer when you see the output
+
+121
+00:07:24,490 --> 00:07:26,680
+even something as simple as the
+
+122
+00:07:27,480 --> 00:07:29,630
+the evenness or the oddness of the input
+
+123
+00:07:30,550 --> 00:07:33,070
+Now, 4th property I wanna point out
+
+124
+00:07:33,070 --> 00:07:35,440
+is that you typically want the output to be
+
+125
+00:07:36,150 --> 00:07:39,720
+well distributed. In other words, the
+
+126
+00:07:39,720 --> 00:07:42,330
+the output should look
+
+127
+00:07:42,330 --> 00:07:47,750
+should look random. In other words, it should look like a set of coin flips took place, not in a
+
+128
+00:07:47,750 --> 00:07:49,320
+a predictable way
+
+129
+00:07:49,320 --> 00:07:52,860
+in which, the output was created
+
+130
+00:07:53,630 --> 00:08:01,930
+And really, what that means is that (&amp; you can think about it, maybe more conceptually, as) it's almost as if you flipped a bunch of coins to get the output. It should look that random.
+
+131
+00:08:02,900 --> 00:08:09,820
+So what you can really think cryptographic hash functions as, is perhaps maybe the mathematical equivalent / analog
+
+132
+00:08:09,820 --> 00:08:13,400
+of a meat grinder. So it can take inputs &amp; apply these
+
+133
+00:08:13,400 --> 00:08:15,770
+these mathematical transformations to them
+
+134
+00:08:15,770 --> 00:08:18,030
+such that the output looks
+
+135
+00:08:18,030 --> 00:08:23,160
+for all intents &amp; purposes, completely random &amp; unrelated to the original input
+
+136
+00:08:24,020 --> 00:08:26,970
+Now, I do wanna make a few quick remarks about these
+
+137
+00:08:26,970 --> 00:08:30,630
+particular properties. And first of all, they are interrelated
+
+138
+00:08:30,630 --> 00:08:32,520
+for example, if you have
+
+139
+00:08:32,520 --> 00:08:34,140
+a situation where the outputs
+
+140
+00:08:34,140 --> 00:08:37,580
+let's say really appear to bear no relationship to the input
+
+141
+00:08:37,580 --> 00:08:39,380
+&amp; the output also
+
+142
+00:08:39,380 --> 00:08:41,980
+looks random, then that'll in fact give you
+
+143
+00:08:41,980 --> 00:08:44,600
+to a large degree, a lot of the collision resistance properties
+
+144
+00:08:44,600 --> 00:08:49,850
+because just the fact that you can't predict the output &amp; the fact that it hides all this information
+
+145
+00:08:49,850 --> 00:08:52,360
+implies it's gonna be hard to find
+
+146
+00:08:52,360 --> 00:08:55,730
+two inputs that are distinct that map to the same output
+
+147
+00:08:55,730 --> 00:08:58,730
+And so, sometimes you get one property in exchange for the others,
+
+148
+00:08:58,730 --> 00:09:02,470
+Now the 2nd thing I wanna point out, is that, typically these properties
+
+149
+00:09:02,470 --> 00:09:05,760
+in practice, or maybe even in the underlying mathematics
+
+150
+00:09:05,760 --> 00:09:07,930
+are things that you hope for
+
+151
+00:09:07,930 --> 00:09:13,940
+but you can't always guarantee that they'll always hold. Maybe it's entirely possible that
+
+152
+00:09:13,940 --> 00:09:18,470
+you could design a hash function that you think is completely collision resistant
+
+153
+00:09:18,470 --> 00:09:23,410
+but someone might come along, a year from now, &amp; come up with a more clever way of refining
+
+154
+00:09:23,410 --> 00:09:26,590
+a collision. Maybe they'll find a clever shortcut that doesn't involve
+
+155
+00:09:26,590 --> 00:09:28,990
+doing a brute force search of any sort
+
+156
+00:09:28,990 --> 00:09:31,280
+And it turns out that cryptographers
+
+157
+00:09:31,280 --> 00:09:34,250
+for better or worse, currently do not have
+
+158
+00:09:34,250 --> 00:09:38,870
+any mathematical techniques, they haven't developed techniques for being able to work around
+
+159
+00:09:38,870 --> 00:09:40,450
+some of these limitations
+
+160
+00:09:40,450 --> 00:09:43,790
+And so we often do take it, on face value
+
+161
+00:09:43,790 --> 00:09:47,360
+that these schemes are secure, based on how long they've been around
+
+162
+00:09:48,170 --> 00:09:54,170
+Now I also wanna point out, the last thing I wanna point out, is that this treatment that I've given is not meant to be mathematically rigorous
+
+163
+00:09:54,170 --> 00:09:56,640
+by any stretch of the imagination. There are
+
+164
+00:09:56,640 --> 00:09:59,560
+far more precise ways to describe
+
+165
+00:09:59,560 --> 00:10:01,160
+these underlying properties
+
+166
+00:10:01,160 --> 00:10:03,440
+But my hope is that
+
+167
+00:10:03,440 --> 00:10:06,010
+this video gives you, maybe a bit of flavor
+
+168
+00:10:06,010 --> 00:10:13,420
+for what is required of a cryptographic hash function, without getting bogged down in some of the mathematical minutiae &amp; formalism.

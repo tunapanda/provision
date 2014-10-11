@@ -1,0 +1,771 @@
+1
+00:00:00,000 --> 00:00:02,260
+Welcome back. We're now on problem number 11.
+
+2
+00:00:02,260 --> 00:00:10,060
+Let's see, at the top they write z, w, y, x.
+
+3
+00:00:10,060 --> 00:00:12,980
+And they say, the sequence above may be changed in
+
+4
+00:00:12,990 --> 00:00:14,480
+either of two ways:
+
+5
+00:00:14,480 --> 00:00:17,770
+either two adjacent letters may be interchanged,
+
+6
+00:00:17,770 --> 00:00:20,360
+or the entire sequence may be reversed.
+
+7
+00:00:20,360 --> 00:00:21,920
+So either I could switch w and y,
+
+8
+00:00:21,920 --> 00:00:24,060
+or I could just switch the order.
+
+9
+00:00:24,060 --> 00:00:27,770
+What is the least number of changes needed to put
+
+10
+00:00:27,770 --> 00:00:34,020
+the numbers into alphabetical order from left to right?
+
+11
+00:00:34,020 --> 00:00:36,620
+So, what is alphabetical order from left to right?
+
+12
+00:00:36,620 --> 00:00:37,320
+Let's do our goal,
+
+13
+00:00:37,320 --> 00:00:41,010
+because it's been a while since I've sung my alphabet.
+
+14
+00:00:41,010 --> 00:00:48,370
+So it's w, x, y, z, this is our goal, right?
+
+15
+00:00:48,370 --> 00:00:50,040
+So let's see what we can do.
+
+16
+00:00:50,040 --> 00:00:53,030
+w, x, y, z,
+
+17
+00:00:53,030 --> 00:00:56,430
+So we need to get w at the opposite end from--
+
+18
+00:00:56,430 --> 00:01:00,640
+So let's see, if I could switch these two,
+
+19
+00:01:00,640 --> 00:01:07,080
+then I would get z, w, x, y.
+
+20
+00:01:07,080 --> 00:01:12,050
+No, no, no, no, no, I want to get the w at the opposite end.
+
+21
+00:01:12,050 --> 00:01:18,000
+So what we want to do is switch w and y, right?
+
+22
+00:01:18,000 --> 00:01:21,070
+And we would get z, y, w, x.
+
+23
+00:01:21,070 --> 00:01:24,000
+Then you could switch x and w.
+
+24
+00:01:24,000 --> 00:01:27,020
+You would get z, y, x, w.
+
+25
+00:01:27,020 --> 00:01:29,220
+And then the other option we can do is just reverse,
+
+26
+00:01:29,220 --> 00:01:31,040
+and then we can reverse.
+
+27
+00:01:31,040 --> 00:01:36,030
+And when we reverse it, we get w, x, y, z.
+
+28
+00:01:36,030 --> 00:01:37,330
+And that's our goal.
+
+29
+00:01:37,330 --> 00:01:44,000
+So that took us one step, two steps, three steps.
+
+30
+00:01:44,000 --> 00:01:45,010
+So that's choice B.
+
+31
+00:01:45,010 --> 00:01:46,050
+I'm not sure if that's the right answer.
+
+32
+00:01:46,050 --> 00:01:49,010
+Let's see if I can do it in two steps.
+
+33
+00:01:49,010 --> 00:01:50,370
+Let's see, if I reversed it--
+
+34
+00:01:50,370 --> 00:01:54,030
+well reversing doesn't really help you.
+
+35
+00:01:54,030 --> 00:01:56,570
+The bottom line is you have to,
+
+36
+00:01:56,570 --> 00:01:59,370
+before you reverse w, x, y, z--
+
+37
+00:01:59,370 --> 00:02:02,370
+I mean, to move the z all the way over to the other end,
+
+38
+00:02:02,370 --> 00:02:05,000
+no, you want to just reverse.
+
+39
+00:02:05,000 --> 00:02:07,090
+If you reverse this, and you reverse this, and you switch,
+
+40
+00:02:07,090 --> 00:02:10,020
+I think that's the fastest possible way.
+
+41
+00:02:14,040 --> 00:02:16,140
+No matter what you do,
+
+42
+00:02:16,140 --> 00:02:20,090
+you have to move the w two steps away from the z.
+
+43
+00:02:20,090 --> 00:02:23,020
+You have to do that, right?
+
+44
+00:02:23,020 --> 00:02:25,350
+Because the w is on the opposite end from the z,
+
+45
+00:02:25,350 --> 00:02:27,070
+so you have to move the w twice.
+
+46
+00:02:27,070 --> 00:02:30,000
+That's going to take you at least two steps.
+
+47
+00:02:30,000 --> 00:02:34,050
+And then you've got to switch the order.
+
+48
+00:02:34,050 --> 00:02:35,880
+That's the third step.
+
+49
+00:02:38,010 --> 00:02:41,040
+And it would be even worse if you didn't switch the order
+
+50
+00:02:41,040 --> 00:02:44,080
+and wanted to move the z.
+
+51
+00:02:44,080 --> 00:02:47,730
+The other option is you could just flip the z and the w,
+
+52
+00:02:47,730 --> 00:02:55,000
+and you would get w, z, y, x.
+
+53
+00:02:55,000 --> 00:02:59,020
+And then you could switch-- no, that's going to take you--
+
+54
+00:02:59,020 --> 00:03:04,030
+you could switch the x and the y and you'd get w, z, x, y.
+
+55
+00:03:04,030 --> 00:03:05,800
+Now that's going to take you three or four steps,
+
+56
+00:03:05,800 --> 00:03:08,090
+so I'm pretty sure we got the right answer.
+
+57
+00:03:08,090 --> 00:03:12,060
+Write me a little note if I didn't.
+
+58
+00:03:12,060 --> 00:03:14,060
+Next problem.
+
+59
+00:03:14,060 --> 00:03:15,990
+The bottom line with that one, you have to realize
+
+60
+00:03:15,990 --> 00:03:19,460
+you have to move the w at least three away from the z,
+
+61
+00:03:19,460 --> 00:03:21,630
+and then you've got to reverse it.
+
+62
+00:03:21,630 --> 00:03:23,050
+So it's going to take you at least three steps.
+
+63
+00:03:23,050 --> 00:03:25,000
+Problem number 12.
+
+64
+00:03:25,000 --> 00:03:27,050
+I hope I'm right on that one.
+
+65
+00:03:27,050 --> 00:03:28,980
+How many cubicle blocks,
+
+66
+00:03:28,980 --> 00:03:31,770
+each with edges of length 4 centimeters,
+
+67
+00:03:31,770 --> 00:03:34,040
+are needed to fill a rectangular box that
+
+68
+00:03:34,040 --> 00:03:41,010
+has inside dimensions-- So each of my initial blocks--
+
+69
+00:03:41,010 --> 00:03:46,030
+I'll draw my cube as best as I can-- are 4 by 4 by 4.
+
+70
+00:03:46,030 --> 00:03:48,460
+And that is how many cubic centimeters?
+
+71
+00:03:48,460 --> 00:03:49,070
+These are centimeters, right?
+
+72
+00:03:49,070 --> 00:03:53,050
+So 16 times 4 equals 64 centimeters cubed,
+
+73
+00:03:53,050 --> 00:03:55,090
+or 64 cubic centimeters.
+
+74
+00:03:55,090 --> 00:04:03,800
+And we want to fill a box that has inside dimensions--
+
+75
+00:04:03,800 --> 00:04:12,070
+this is my big box, let's see-- 20 by 24 by 32.
+
+76
+00:04:12,070 --> 00:04:16,050
+So there's a couple of ways you could do this.
+
+77
+00:04:16,050 --> 00:04:18,420
+You don't even have to do this first step I did.
+
+78
+00:04:18,420 --> 00:04:19,920
+You could just say well, how many of these small boxes
+
+79
+00:04:19,920 --> 00:04:21,520
+are going to fit in this direction?
+
+80
+00:04:21,520 --> 00:04:22,380
+How many are in this direction,
+
+81
+00:04:22,380 --> 00:04:24,460
+and how many in this direction, and then multiply.
+
+82
+00:04:24,460 --> 00:04:26,030
+And that's actually the fast way to do it.
+
+83
+00:04:26,030 --> 00:04:29,120
+So instead of drawing it that way you could--
+
+84
+00:04:29,120 --> 00:04:30,780
+let me redraw that big box--
+
+85
+00:04:30,780 --> 00:04:33,770
+but instead of giving it in centimeters, let me give it in
+
+86
+00:04:33,770 --> 00:04:37,000
+how many of these boxes are going to go in this direction.
+
+87
+00:04:37,000 --> 00:04:38,990
+So it's going to be, these are 4 centimeters each
+
+88
+00:04:38,990 --> 00:04:41,490
+and the base is 20, so it's going to be 20 divided by 4.
+
+89
+00:04:41,490 --> 00:04:44,000
+It's going to be 5 in this direction.
+
+90
+00:04:44,000 --> 00:04:46,570
+It's going to be 6 in this direction, 24 divided by 4.
+
+91
+00:04:46,570 --> 00:04:48,060
+It's going to be 8 in this direction.
+
+92
+00:04:48,060 --> 00:04:50,740
+So then you can just multiply,
+
+93
+00:04:50,740 --> 00:04:56,060
+5 times 6 is 30, times 8 is 240 of the boxes.
+
+94
+00:04:56,060 --> 00:04:57,350
+The other way to do it is
+
+95
+00:04:57,350 --> 00:05:00,060
+you could have multiplied 20 times 24 times 32.
+
+96
+00:05:00,060 --> 00:05:05,020
+You could have said this equals 20 times 24 times 32,
+
+97
+00:05:05,020 --> 00:05:09,000
+and then divided by 64.
+
+98
+00:05:09,000 --> 00:05:11,270
+That would have been the other way of doing it,
+
+99
+00:05:11,270 --> 00:05:13,060
+and then it would have just required more math.
+
+100
+00:05:13,060 --> 00:05:16,760
+And hopefully that comes out to the same thing as 240,
+
+101
+00:05:16,760 --> 00:05:18,060
+and that's choice D.
+
+102
+00:05:22,010 --> 00:05:24,730
+If you ever find yourself on the SAT doing something
+
+103
+00:05:24,730 --> 00:05:26,660
+that's really hairy or taking a lot of time,
+
+104
+00:05:26,660 --> 00:05:28,530
+you're not necessarily doing it wrong,
+
+105
+00:05:28,530 --> 00:05:30,680
+but there's probably a faster way to do it.
+
+106
+00:05:30,680 --> 00:05:32,360
+Because they want you to be able to
+
+107
+00:05:32,360 --> 00:05:35,090
+do these questions in less than 30 seconds.
+
+108
+00:05:35,090 --> 00:05:39,030
+I think you have time to do them in a little over a minute.
+
+109
+00:05:39,030 --> 00:05:45,080
+Thirteen, if 0 is less than n which is less than 1,
+
+110
+00:05:45,080 --> 00:05:48,670
+which of the following gives the correct ordering of
+
+111
+00:05:48,680 --> 00:05:54,050
+square root of n, n, and n squared?
+
+112
+00:05:54,050 --> 00:05:55,690
+Do you know what the easiest thing to do
+
+113
+00:05:55,690 --> 00:05:57,020
+when they give you a problem like this is?
+
+114
+00:05:57,020 --> 00:06:00,020
+Just try out a number.
+
+115
+00:06:00,020 --> 00:06:01,530
+Well do you know what a good number is here,
+
+116
+00:06:01,530 --> 00:06:02,480
+because we're going to have to take the square root of it?
+
+117
+00:06:02,480 --> 00:06:03,910
+Let's take n equals 1/4,
+
+118
+00:06:03,910 --> 00:06:07,000
+because it's easy to take the square root of 1/4.
+
+119
+00:06:07,000 --> 00:06:09,090
+So if n is equal to 1/4, then what are these values?
+
+120
+00:06:09,090 --> 00:06:14,030
+Square root of n is equal to 1/2, right?
+
+121
+00:06:14,030 --> 00:06:16,110
+It actually equals plus or minus 1/2,
+
+122
+00:06:16,110 --> 00:06:19,010
+but they probably mean the positive 1/2.
+
+123
+00:06:19,010 --> 00:06:22,050
+n is 1/4, right?
+
+124
+00:06:22,050 --> 00:06:24,030
+And what's n squared?
+
+125
+00:06:24,030 --> 00:06:28,060
+n squared is 1/16.
+
+126
+00:06:28,060 --> 00:06:30,800
+I'm assuming that they mean the positive square root
+
+127
+00:06:30,810 --> 00:06:33,000
+when they write it like that.
+
+128
+00:06:33,000 --> 00:06:37,040
+So what's the order of these?
+
+129
+00:06:37,040 --> 00:06:39,890
+They want to do it from the smallest to the biggest,
+
+130
+00:06:39,890 --> 00:06:42,060
+so the smallest is n squared.
+
+131
+00:06:42,060 --> 00:06:47,000
+Then the next biggest is square root of n.
+
+132
+00:06:47,000 --> 00:06:48,060
+No sorry, then the next one is n.
+
+133
+00:06:48,060 --> 00:06:50,090
+And then the next one is square root of n.
+
+134
+00:06:50,090 --> 00:06:56,000
+And that is choice E.
+
+135
+00:06:56,000 --> 00:06:57,490
+And another way to think about it is,
+
+136
+00:06:57,490 --> 00:06:58,990
+when you have a fraction--
+
+137
+00:06:58,990 --> 00:07:00,500
+and essentially that's what they're saying,
+
+138
+00:07:00,500 --> 00:07:01,480
+that you have a fraction less than one,
+
+139
+00:07:01,480 --> 00:07:02,970
+or you have a decimal point--
+
+140
+00:07:02,970 --> 00:07:06,020
+it becomes bigger when you take the square root,
+
+141
+00:07:06,020 --> 00:07:09,040
+and it becomes smaller when you square it.
+
+142
+00:07:09,040 --> 00:07:10,090
+That's the realization.
+
+143
+00:07:10,090 --> 00:07:13,290
+So the squaring is going to be smaller than the number
+
+144
+00:07:13,290 --> 00:07:15,090
+which is smaller than the square root.
+
+145
+00:07:15,090 --> 00:07:20,000
+That's the underlying theme when a number is between 0 and 1
+
+146
+00:07:20,000 --> 00:07:22,020
+But if you didn't want to think too abstractly about it,
+
+147
+00:07:22,020 --> 00:07:24,090
+just try out a number that works.
+
+148
+00:07:24,090 --> 00:07:34,070
+Let's see, next problem, problem number 14.
+
+149
+00:07:34,070 --> 00:07:37,030
+OK, so this is going to involve some drawing.
+
+150
+00:07:37,030 --> 00:07:40,030
+Let me see if I can draw this pretty fast.
+
+151
+00:07:40,030 --> 00:07:44,040
+So that's my y-axis. That's my x-axis.
+
+152
+00:07:44,040 --> 00:07:46,690
+Then there's a bunch of lines. There's a, b, c.
+
+153
+00:07:46,690 --> 00:07:51,080
+OK, so they all intersect at 3.
+
+154
+00:07:51,080 --> 00:08:03,050
+And then these are 1, 2, 3, 4, 5, and 6.
+
+155
+00:08:03,050 --> 00:08:05,090
+And let me draw out all the lines.
+
+156
+00:08:05,090 --> 00:08:10,010
+So the first line goes something like this, it goes there.
+
+157
+00:08:10,010 --> 00:08:10,610
+Then all the other ones--
+
+158
+00:08:10,610 --> 00:08:15,030
+and let's see, the next one goes to 3.
+
+159
+00:08:15,030 --> 00:08:18,080
+The next one goes to 4.
+
+160
+00:08:18,080 --> 00:08:21,010
+The next one goes to 5.
+
+161
+00:08:21,010 --> 00:08:22,480
+They all go to y equals 3.
+
+162
+00:08:22,480 --> 00:08:28,050
+And the last one goes to 6.
+
+163
+00:08:28,050 --> 00:08:29,060
+OK.
+
+164
+00:08:29,060 --> 00:08:30,600
+And they're saying in the figure above,
+
+165
+00:08:30,600 --> 00:08:35,000
+what is the median of the slopes of all of those lines,
+
+166
+00:08:35,000 --> 00:08:38,070
+oa, ob, oc, right?
+
+167
+00:08:38,070 --> 00:08:44,000
+They write A, B, C, D, E.
+
+168
+00:08:44,000 --> 00:08:45,010
+What is the median?
+
+169
+00:08:45,010 --> 00:08:46,040
+So this isn't the average.
+
+170
+00:08:46,040 --> 00:08:47,080
+Median is easier.
+
+171
+00:08:47,080 --> 00:08:51,030
+Median is just what's the middle slope, right?
+
+172
+00:08:51,030 --> 00:08:54,060
+So we could say well this-- let me just switch colors--
+
+173
+00:08:54,060 --> 00:08:56,060
+line A has the highest slope.
+
+174
+00:08:56,060 --> 00:08:58,000
+Line B is a little bit lower.
+
+175
+00:08:58,000 --> 00:08:59,020
+Line C is a little bit lower.
+
+176
+00:08:59,020 --> 00:09:03,040
+The slope is getting a little bit lower as we go out, right?
+
+177
+00:09:03,040 --> 00:09:05,000
+And you could figure that out by rise over run.
+
+178
+00:09:05,000 --> 00:09:06,310
+The rise is the same in every case,
+
+179
+00:09:06,310 --> 00:09:09,030
+and the run just gets bigger and bigger, right?
+
+180
+00:09:09,030 --> 00:09:11,070
+The change in x gets bigger and bigger.
+
+181
+00:09:11,070 --> 00:09:13,060
+So this has the highest slope.
+
+182
+00:09:13,060 --> 00:09:15,090
+This has the lowest slope.
+
+183
+00:09:15,090 --> 00:09:18,040
+And this has the middle slope, C.
+
+184
+00:09:18,040 --> 00:09:20,000
+Pretty easy.
+
+185
+00:09:20,000 --> 00:09:21,680
+Oh, the median of the slope.
+
+186
+00:09:21,680 --> 00:09:22,490
+So they want you to figure it out.
+
+187
+00:09:22,490 --> 00:09:25,030
+So what is the slope of 3, of this one?
+
+188
+00:09:25,030 --> 00:09:35,080
+So it's change in y is 3 over change in x, which is 4.
+
+189
+00:09:35,080 --> 00:09:39,080
+So it's 3/4, so that's choice C.
+
+190
+00:09:39,080 --> 00:09:41,620
+If you got this wrong, maybe by accident you took
+
+191
+00:09:41,620 --> 00:09:43,440
+the mean, or the average,
+
+192
+00:09:43,450 --> 00:09:46,030
+which would probably have wasted a lot of time as well.
+
+193
+00:09:46,030 --> 00:09:48,070
+I'll see you in the next video.

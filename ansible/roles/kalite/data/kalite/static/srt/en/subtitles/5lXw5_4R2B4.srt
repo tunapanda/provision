@@ -1,0 +1,135 @@
+1
+00:00:02,472 --> 00:00:03,893
+Let's say that you've got a blood vessel
+
+2
+00:00:03,893 --> 00:00:08,090
+here, and it's a longish blood vessel
+
+3
+00:00:08,090 --> 00:00:12,226
+and we'll give it a resistance of eight, and it has three branches
+
+4
+00:00:12,226 --> 00:00:15,956
+say two big ones, and a tiny one in the middle
+
+5
+00:00:15,956 --> 00:00:19,441
+and this goes straight across, and this has a resistance
+
+6
+00:00:19,441 --> 00:00:22,910
+of ten, and these biggish ones, they
+
+7
+00:00:22,910 --> 00:00:29,404
+have resistance of say, half that, so they're about
+
+8
+00:00:29,404 --> 00:00:36,838
+five, and on this side, they all come together again
+
+9
+00:00:36,838 --> 00:00:41,122
+and enter a short vessel, this has a resistance of three
+
+10
+00:00:41,122 --> 00:00:47,167
+so my question to you is what is the total resistance of blood going in here
+
+11
+00:00:47,167 --> 00:00:53,912
+and out here? So, again, it's going to have to go through this eight bit, and then it has three choices here
+
+12
+00:00:53,912 --> 00:01:01,826
+here, here or here, but eventually they all come together again into that three bit, and then exit out the other side
+
+13
+00:01:01,826 --> 00:01:08,922
+So, what is the total resistance, so what is Rt resistance, that's the question, and
+
+14
+00:01:08,922 --> 00:01:13,326
+what I'm going to do is to divide this into two parts: part one
+
+15
+00:01:13,326 --> 00:01:19,235
+i'm going to figure out in part one, what the resistance is for this part, right in here
+
+16
+00:01:19,235 --> 00:01:26,106
+so I can do that using an equation I introduced in the last video, which was you can basically take
+
+17
+00:01:26,106 --> 00:01:41,139
+Rt, which is the total resistance for that yellow box, equals one over, one over five plus one over ten plus one over five
+
+18
+00:01:41,139 --> 00:01:46,057
+and i can look at that and tell you that the common denominator is going to be ten
+
+19
+00:01:46,057 --> 00:01:52,591
+Right? For all three, and in the numerator, we got two, one and two.
+
+20
+00:01:52,591 --> 00:01:58,237
+So, putting it all together, I got one over..., what is that, five over ten.
+
+21
+00:01:58,237 --> 00:02:03,610
+And that equals, ten over five, which equals two
+
+22
+00:02:03,641 --> 00:02:10,087
+So that tells me that the resistance in this middle, yellow box is two
+
+23
+00:02:10,087 --> 00:02:15,261
+and that makes sense with our rule, because we said that when things are in parallel, the total resistance
+
+24
+00:02:15,261 --> 00:02:22,743
+is going to be less than any components, and in fact two is less than five, ten and five, right?
+
+25
+00:02:22,743 --> 00:02:25,704
+It's less than any of those numbers individually.
+
+26
+00:02:25,704 --> 00:02:30,781
+So, we've got now in part two, we have three things in series, right?
+
+27
+00:02:30,827 --> 00:02:43,693
+We basically have something like this, we have eight, and we have two, and we have three.
+
+28
+00:02:43,693 --> 00:02:48,041
+So, we've got basically three things in the series, and so we simply add those up
+
+29
+00:02:48,041 --> 00:02:54,808
+and i'm going to say Rt now equals eight plus two plus three
+
+30
+00:02:54,808 --> 00:03:01,561
+And so Rt equals thirteen, so if I wanted to know what is my total Rt, my total resistance
+
+31
+00:03:01,561 --> 00:03:07,843
+I would say it is thirteen, so that's the answer to this problem
+
+32
+00:03:07,843 --> 00:03:13,200
+And, what I wanted to get you thinking about is total resistance for the body, the human body
+
+33
+00:03:13,200 --> 00:03:18,337
+, which has obviously more than just a few vessels, unlike I have in this diagram here
+
+34
+00:03:18,399 --> 00:03:22,399
+LIterally, thousands and thousands of vessels

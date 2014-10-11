@@ -1,0 +1,383 @@
+1
+00:00:04,420 --> 00:00:07,221
+Imagine we are living in prehistoric times.
+
+2
+00:00:07,221 --> 00:00:09,468
+Now, consider the following:
+
+3
+00:00:09,468 --> 00:00:12,721
+How did we keep track of time without a clock?
+
+4
+00:00:12,721 --> 00:00:15,315
+All clocks are based on some repetitive pattern
+
+5
+00:00:15,315 --> 00:00:18,890
+which divides the flow of time into equal segments.
+
+6
+00:00:18,890 --> 00:00:20,688
+To find these repetitive patterns,
+
+7
+00:00:20,688 --> 00:00:22,918
+we look towards the heavens.
+
+8
+00:00:22,918 --> 00:00:24,902
+The sun rising and falling each day
+
+9
+00:00:24,902 --> 00:00:26,184
+is the most obvious [pattern].
+
+10
+00:00:26,184 --> 00:00:28,760
+However, to keep track of longer periods of time,
+
+11
+00:00:28,760 --> 00:00:30,811
+we looked for longer cycles.
+
+12
+00:00:30,811 --> 00:00:32,512
+For this, we looked to the moon,
+
+13
+00:00:32,512 --> 00:00:33,853
+which seemed to gradually grow
+
+14
+00:00:33,853 --> 00:00:36,578
+and shrink over many days.
+
+15
+00:00:36,578 --> 00:00:37,894
+When we count the number of days
+
+16
+00:00:37,894 --> 00:00:38,978
+between full moons,
+
+17
+00:00:38,978 --> 00:00:40,910
+we arrive at the number 29.
+
+18
+00:00:40,910 --> 00:00:42,833
+This is the origin of a month.
+
+19
+00:00:42,833 --> 00:00:45,873
+However, if we try to divide 29 into equal pieces,
+
+20
+00:00:45,873 --> 00:00:49,227
+we run into a problem: it is impossible.
+
+21
+00:00:49,227 --> 00:00:51,676
+The only way to divide 29 into equal pieces
+
+22
+00:00:51,676 --> 00:00:54,819
+is to break it back down into [29] single units.
+
+23
+00:00:54,819 --> 00:00:57,102
+29 is a 'prime number.'
+
+24
+00:00:57,102 --> 00:00:59,061
+Think of it as unbreakable.
+
+25
+00:00:59,061 --> 00:01:00,879
+If a number can be broken down into
+
+26
+00:01:00,879 --> 00:01:02,814
+equal pieces greater than one,
+
+27
+00:01:02,814 --> 00:01:04,621
+we call it a 'composite number.'
+
+28
+00:01:04,621 --> 00:01:06,608
+Now if we are curious, we may wonder,
+
+29
+00:01:06,608 --> 00:01:08,450
+"How many prime numbers are there?
+
+30
+00:01:08,450 --> 00:01:10,398
+– and how big do they get?"
+
+31
+00:01:10,398 --> 00:01:13,744
+Let's start by dividing all numbers into two categories.
+
+32
+00:01:13,744 --> 00:01:15,611
+We list the primes on the left
+
+33
+00:01:15,611 --> 00:01:17,648
+and the composites on the right.
+
+34
+00:01:17,648 --> 00:01:20,379
+At first, they seem to dance back and forth.
+
+35
+00:01:20,379 --> 00:01:23,017
+There is no obvious pattern here.
+
+36
+00:01:23,017 --> 00:01:24,439
+So let's use a modern technique
+
+37
+00:01:24,439 --> 00:01:26,077
+to see the big picture.
+
+38
+00:01:26,077 --> 00:01:29,047
+The trick is to use a "Ulam spiral."
+
+39
+00:01:29,047 --> 00:01:32,011
+First, we list all possible numbers in order
+
+40
+00:01:32,011 --> 00:01:34,043
+in a growing spiral.
+
+41
+00:01:34,043 --> 00:01:37,164
+Then, we color all the prime numbers blue.
+
+42
+00:01:37,164 --> 00:01:41,290
+Finally, we zoom out to see millions of numbers.
+
+43
+00:01:41,290 --> 00:01:42,860
+This is the pattern of primes
+
+44
+00:01:42,860 --> 00:01:45,365
+which goes on and on, forever.
+
+45
+00:01:45,365 --> 00:01:47,967
+Incredibly, the entire structure of this pattern
+
+46
+00:01:47,967 --> 00:01:50,314
+is still unsolved today.
+
+47
+00:01:50,314 --> 00:01:51,843
+We are onto something.
+
+48
+00:01:51,843 --> 00:01:52,987
+So, let's fast forward to
+
+49
+00:01:52,987 --> 00:01:55,526
+around 300 BC, in ancient Greece.
+
+50
+00:01:55,526 --> 00:01:58,183
+A philosopher known as Euclid of Alexandria
+
+51
+00:01:58,183 --> 00:01:59,411
+understood that all numbers
+
+52
+00:01:59,411 --> 00:02:02,607
+could be split into these two distinct categories.
+
+53
+00:02:02,607 --> 00:02:04,896
+He began by realizing that any number
+
+54
+00:02:04,896 --> 00:02:07,078
+can be divided down – over and over –
+
+55
+00:02:07,078 --> 00:02:10,599
+until you reach a group of smallest equal numbers.
+
+56
+00:02:10,599 --> 00:02:12,921
+And by definition, these smallest numbers
+
+57
+00:02:12,921 --> 00:02:15,760
+are always prime numbers.
+
+58
+00:02:15,760 --> 00:02:17,148
+So, he knew that all numbers are
+
+59
+00:02:17,148 --> 00:02:20,542
+somehow built out of smaller primes.
+
+60
+00:02:20,542 --> 00:02:23,317
+To be clear, imagine the universe of all numbers –
+
+61
+00:02:23,317 --> 00:02:25,674
+and ignore the primes.
+
+62
+00:02:25,674 --> 00:02:28,037
+Now, pick any composite number,
+
+63
+00:02:28,037 --> 00:02:30,518
+and break it down,
+
+64
+00:02:30,518 --> 00:02:33,354
+and you are always left with prime numbers.
+
+65
+00:02:33,354 --> 00:02:34,774
+So, Euclid knew that every number
+
+66
+00:02:34,774 --> 00:02:37,675
+could be expressed using a group of smaller primes.
+
+67
+00:02:37,675 --> 00:02:40,221
+Think of these as building blocks.
+
+68
+00:02:40,221 --> 00:02:41,996
+No matter what number you choose,
+
+69
+00:02:41,996 --> 00:02:46,157
+it can always be built with an addition of smaller primes.
+
+70
+00:02:46,157 --> 00:02:48,032
+This is the root of his discovery,
+
+71
+00:02:48,032 --> 00:02:50,759
+known as the 'Fundamental Theorem of Arithmetic' –
+
+72
+00:02:50,759 --> 00:02:52,013
+as follows:
+
+73
+00:02:52,013 --> 00:02:53,934
+Take any number – say 30 –
+
+74
+00:02:53,934 --> 00:02:55,501
+and find all the prime numbers
+
+75
+00:02:55,501 --> 00:02:57,233
+it [can be divided into] equally.
+
+76
+00:02:57,233 --> 00:02:59,763
+This we know as 'factorization.'
+
+77
+00:02:59,763 --> 00:03:01,624
+This will give us the prime factors.
+
+78
+00:03:01,624 --> 00:03:05,811
+In this case 2, 3, and 5 are the prime factors of 30.
+
+79
+00:03:05,811 --> 00:03:07,906
+Euclid realized that you could then multiply
+
+80
+00:03:07,906 --> 00:03:10,714
+these prime factors a specific number of times
+
+81
+00:03:10,714 --> 00:03:12,739
+to build the original number.
+
+82
+00:03:12,739 --> 00:03:13,780
+In this case, you simply
+
+83
+00:03:13,780 --> 00:03:16,178
+multiply each factor once to build 30.
+
+84
+00:03:16,178 --> 00:03:20,158
+2 × 3 × 5 is the prime factorization of 30.
+
+85
+00:03:20,158 --> 00:03:23,153
+Think of it as a special key or combination.
+
+86
+00:03:23,153 --> 00:03:24,887
+There is no other way to build 30,
+
+87
+00:03:24,887 --> 00:03:27,110
+using some other groups of prime numbers
+
+88
+00:03:27,110 --> 00:03:28,792
+multiplied together.
+
+89
+00:03:28,792 --> 00:03:31,276
+So every possible number has one –
+
+90
+00:03:31,276 --> 00:03:34,046
+and only one – prime factorization.
+
+91
+00:03:34,046 --> 00:03:36,299
+A good analogy is to imagine each number
+
+92
+00:03:36,299 --> 00:03:38,017
+as a different lock.
+
+93
+00:03:38,033 --> 00:03:39,722
+The unique key for each lock
+
+94
+00:03:39,722 --> 00:03:42,054
+would be its prime factorization.
+
+95
+00:03:42,054 --> 00:03:43,937
+No two locks share a key.
+
+96
+00:03:43,937 --> 00:03:47,889
+No two numbers share a prime factorization.

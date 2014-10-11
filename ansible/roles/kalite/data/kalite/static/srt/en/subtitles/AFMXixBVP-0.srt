@@ -1,0 +1,335 @@
+1
+99:59:59,999 --> 99:59:59,999
+Let's say we've got the function f(x) is equal to e to the x,
+
+2
+99:59:59,999 --> 99:59:59,999
+just to get a sense of what that looks like
+
+3
+99:59:59,999 --> 99:59:59,999
+we do a rough drawing of f(x) is equal to e to the x.
+
+4
+99:59:59,999 --> 99:59:59,999
+It would look something like this. It would look something
+
+5
+99:59:59,999 --> 99:59:59,999
+like that. So that is e to the x, and what I want to do is approximate f(x) is equal to e to the x
+
+6
+99:59:59,999 --> 99:59:59,999
+using a taylor series approximation or taylor series expansion, and I want to do it
+
+7
+99:59:59,999 --> 99:59:59,999
+not around is equal to 0, I want to do it around x is equal to
+
+8
+99:59:59,999 --> 99:59:59,999
+3, just to pick another arbitrary value, so we're going to do it around x is
+
+9
+99:59:59,999 --> 99:59:59,999
+equal to 3, this is x is equal to 3, this right there, that is f of 3
+
+10
+99:59:59,999 --> 99:59:59,999
+, f of 3 is e to the third power. So this is e to the third power
+
+11
+99:59:59,999 --> 99:59:59,999
+over there. So when we take the taylor series expansion, if we have a
+
+12
+99:59:59,999 --> 99:59:59,999
+zero degree polynomial approximating it, the best we can do is have a constant
+
+13
+99:59:59,999 --> 99:59:59,999
+function going straight through e to the third. If we do a first order approximation
+
+14
+99:59:59,999 --> 99:59:59,999
+so we have a first degree term, then it will be the tangent line
+
+15
+99:59:59,999 --> 99:59:59,999
+. As we add more and more degrees to it, we should hopefully
+
+16
+99:59:59,999 --> 99:59:59,999
+be able to, kind of contour or converge with
+
+17
+99:59:59,999 --> 99:59:59,999
+the curve better and better and better. In the future we'll talk more about
+
+18
+99:59:59,999 --> 99:59:59,999
+how we can test for convergences, and how well are we converging, and all
+
+19
+99:59:59,999 --> 99:59:59,999
+that type of thing. But with that said, let's just apply the formula
+
+20
+99:59:59,999 --> 99:59:59,999
+, then hopefully we'll have the intuition for in the last video. So the
+
+21
+99:59:59,999 --> 99:59:59,999
+taylor series expansion for f(x) is equal to e to the x will be the
+
+22
+99:59:59,999 --> 99:59:59,999
+polynomial. So what is f of c. Well if x is equal to 3, we're saying
+
+23
+99:59:59,999 --> 99:59:59,999
+that c is 3 in this situation. So if c is 3, f of 3 is e to the third power
+
+24
+99:59:59,999 --> 99:59:59,999
+. So that is e to the third power plus, what's f prime of c? Well,
+
+25
+99:59:59,999 --> 99:59:59,999
+f prime of x is also going to be e to the x. You take the derivative of
+
+26
+99:59:59,999 --> 99:59:59,999
+e to the x to get e to the x. That's one of the supercool things
+
+27
+99:59:59,999 --> 99:59:59,999
+about e to the x. So thjis is also f prime of x, gfrankly this is also the sma e as
+
+28
+99:59:59,999 --> 99:59:59,999
+f, the nth derivative of x. You can just keep taking the derivative
+
+29
+99:59:59,999 --> 99:59:59,999
+of this and you'll get e to the x. So f prime of x is e to the x
+
+30
+99:59:59,999 --> 99:59:59,999
+, you evaluate that at 3, you get e to the third power again, times
+
+31
+99:59:59,999 --> 99:59:59,999
+x minus 3, c is 3, plus the second derivative of our function, we
+
+32
+99:59:59,999 --> 99:59:59,999
+it's still e to the x, evaluate that at 3, you get e to the third power
+
+33
+99:59:59,999 --> 99:59:59,999
+over 2 factorial times x minus 3 to the 2nd power, we can keep
+
+34
+99:59:59,999 --> 99:59:59,999
+going. The third derivative is still ex, evaluate that at 3, c is three in this
+
+35
+99:59:59,999 --> 99:59:59,999
+situation so you get e to the third power over 3 factorial times x minus
+
+36
+99:59:59,999 --> 99:59:59,999
+3 to the third power, and we can keep going with this, but I think you get
+
+37
+99:59:59,999 --> 99:59:59,999
+the general idea. But what's even more interestin than just kind of going through
+
+38
+99:59:59,999 --> 99:59:59,999
+the mechanics of finding the expansion is seeing how it
+
+39
+99:59:59,999 --> 99:59:59,999
+how as we add more and more terms it approximates e to the x
+
+40
+99:59:59,999 --> 99:59:59,999
+better and better and better, and our approximation gets further away from
+
+41
+99:59:59,999 --> 99:59:59,999
+x is equal to 3. A nd to to dthat I used wolfram alpha
+
+42
+99:59:59,999 --> 99:59:59,999
+available at wolframalpha.com/.And I think I tpyed in taylor series expansion
+
+43
+99:59:59,999 --> 99:59:59,999
+e to the x ad xis equals 3, and it knew what i wanted, and just gave
+
+44
+99:59:59,999 --> 99:59:59,999
+me all of this business right over here. And you can see that's its the exact same thing that we have
+
+45
+99:59:59,999 --> 99:59:59,999
+over here e to the third and e to third times times x-3 plus 1/2. They actually
+
+46
+99:59:59,999 --> 99:59:59,999
+expanded out the factorial, instead of 3 factorial they wrote 6 over here,
+
+47
+99:59:59,999 --> 99:59:59,999
+and they did a bunch of terms over here. But whats even more interesting is
+
+48
+99:59:59,999 --> 99:59:59,999
+that they actually graph each of these polynomials qwith more and more terms
+
+49
+99:59:59,999 --> 99:59:59,999
+So in orange we have e to the x, we have fi s equal to e to the x, and then they
+
+50
+99:59:59,999 --> 99:59:59,999
+#tell us, order and approximation shown wuth n dots, so the
+
+51
+99:59:59,999 --> 99:59:59,999
+order 1 approximation, so that should be the suituatioin where we have
+
+52
+99:59:59,999 --> 99:59:59,999
+a first degree polynomial, so literaally a first degree polynomial would be these
+
+53
+99:59:59,999 --> 99:59:59,999
+three temrs right over here. Cause this is a zeroth degree,, this is a first degree
+
+54
+99:59:59,999 --> 99:59:59,999
+we just hvae x to the first power involved her. That will be, if we just
+
+55
+99:59:59,999 --> 99:59:59,999
+qwere to plot this, if this was our polynomial that is plotted nwith
+
+56
+99:59:59,999 --> 99:59:59,999
+one dot, and that is this one right over here is one dot, and they plotted, they
+
+57
+99:59:59,999 --> 99:59:59,999
+plotted right over here and we can
+
+58
+99:59:59,999 --> 99:59:59,999
+can see that it's just a tangent line at , x is equal to 3, that
+
+59
+99:59:59,999 --> 99:59:59,999
+is x is equal to 3 right over there. So this is the tangent line. If
+
+60
+99:59:59,999 --> 99:59:59,999
+we add a term, now we're getting to a second degree polynomial
+
+61
+99:59:59,999 --> 99:59:59,999
+cause we're adding an x squared, and if you expand this out you'll
+
+62
+99:59:59,999 --> 99:59:59,999
+have a x squared term and you'll have another x term, but the degree
+
+63
+99:59:59,999 --> 99:59:59,999
+of the polynomial will now be a second degree. So let's look for 2 dots
+
+64
+99:59:59,999 --> 99:59:59,999
+So that's this one right over here. So let's see, 2 dots coming in
+
+65
+99:59:59,999 --> 99:59:59,999
+see you'll not notice one but two dots, so you have 2 dots and it comes in
+
+66
+99:59:59,999 --> 99:59:59,999
+and this is a parabola, this is a second degree polynomial, and then it
+
+67
+99:59:59,999 --> 99:59:59,999
+comes back like this. But notice, it does a better job, especially around x equals 3
+
+68
+99:59:59,999 --> 99:59:59,999
+of approximating e to the x. It stays with the curve a little bit longer
+
+69
+99:59:59,999 --> 99:59:59,999
+. You add another term, let me do this in another colour, a colour
+
+70
+99:59:59,999 --> 99:59:59,999
+that I have not used, you add another term. Now you hvae a third degree polynomial
+
+71
+99:59:59,999 --> 99:59:59,999
+. If you have all of these combined, if this is your polynomial, and you
+
+72
+99:59:59,999 --> 99:59:59,999
+were to graph that, and so let's look for the 3 dots right over here
+
+73
+99:59:59,999 --> 99:59:59,999
+. So 1, 2, 3, so it's this curve, third degree polynomial is this curve
+
+74
+99:59:59,999 --> 99:59:59,999
+right over here. And notice it starts contouring e to the x a little bit
+
+75
+99:59:59,999 --> 99:59:59,999
+sooner than the second degree version, and it stays with it a little bit
+
+76
+99:59:59,999 --> 99:59:59,999
+longer. It stays with it a little bit longer, and so you have it just
+
+77
+99:59:59,999 --> 99:59:59,999
+like that. You add another term to it, you add the fourth degree term
+
+78
+99:59:59,999 --> 99:59:59,999
+to it, so now we have all of this plus all of this. All this is
+
+79
+99:59:59,999 --> 99:59:59,999
+your polynomial now you have this cool curve right over here. Notice, if you add
+
+80
+99:59:59,999 --> 99:59:59,999
+a term, it's getting better and better at approximating e to the x
+
+81
+99:59:59,999 --> 99:59:59,999
+furht er and further away fromx is equal ro 3. And if you add anbother
+
+82
+99:59:59,999 --> 99:59:59,999
+term, you get this term, this one up here. But hopefully that
+
+83
+99:59:59,999 --> 99:59:59,999
+satisfies you that we are getting closer and closer the more terms
+
+84
+99:59:59,999 --> 99:59:59,999
+we add, so you can imagine it's a pretty darn good approximation

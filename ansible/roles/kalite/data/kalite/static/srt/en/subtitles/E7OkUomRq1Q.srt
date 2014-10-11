@@ -1,0 +1,419 @@
+1
+99:59:59,999 --> 99:59:59,999
+Let omega be the complex number,
+
+2
+99:59:59,999 --> 99:59:59,999
+Cosine of 2 pie over 3 + i Sin of 2 pie over 3
+
+3
+99:59:59,999 --> 99:59:59,999
+Then the number of distinct complex numbers,
+
+4
+99:59:59,999 --> 99:59:59,999
+z satisfying with this determinant equaling zero
+
+5
+99:59:59,999 --> 99:59:59,999
+so lets have the 3 by 3 determinant equaling zero,
+
+6
+99:59:59,999 --> 99:59:59,999
+so lets just evaluate this determinant and see if we
+
+7
+99:59:59,999 --> 99:59:59,999
+can solve for z or figure out how many
+
+8
+99:59:59,999 --> 99:59:59,999
+complex number z we get satisfying this with
+
+9
+99:59:59,999 --> 99:59:59,999
+esentially an equation, so lets evaluate the determinant
+
+10
+99:59:59,999 --> 99:59:59,999
+so if we start with this term up here
+
+11
+99:59:59,999 --> 99:59:59,999
+it's going to be this term times the determinant
+
+12
+99:59:59,999 --> 99:59:59,999
+of the sub 2 by 2 matrix, so it's going to be z + 1,
+
+13
+99:59:59,999 --> 99:59:59,999
+z+1 times z + omega squared, times z + omega,
+
+14
+99:59:59,999 --> 99:59:59,999
+minus 1, so this is the determinant of the sub,
+
+15
+99:59:59,999 --> 99:59:59,999
+of the sub 2 by 2 matrix right over here, the sub
+
+16
+99:59:59,999 --> 99:59:59,999
+2 by 2 derterminant and this is z + 1 and then we're
+
+17
+99:59:59,999 --> 99:59:59,999
+going to, we have to swap signs, we go here,
+
+18
+99:59:59,999 --> 99:59:59,999
+we want to put a negative sign out front,
+
+19
+99:59:59,999 --> 99:59:59,999
+we have a kind of checker-board pattern when you
+
+20
+99:59:59,999 --> 99:59:59,999
+evaluate the determinants, so minus omega times,
+
+21
+99:59:59,999 --> 99:59:59,999
+you black out that row, that column, so omega
+
+22
+99:59:59,999 --> 99:59:59,999
+the sub determinant is omega times z + omega,
+
+23
+99:59:59,999 --> 99:59:59,999
+let me just multiply that out right now, so that's
+
+24
+99:59:59,999 --> 99:59:59,999
+z omega + omega squared, minus omega squared times 1,
+
+25
+99:59:59,999 --> 99:59:59,999
+so minues omega squared, so thats pretty,
+
+26
+99:59:59,999 --> 99:59:59,999
+we already got something that simplifies a little bit.
+
+27
+99:59:59,999 --> 99:59:59,999
+And then we have to worry about this omega squared,
+
+28
+99:59:59,999 --> 99:59:59,999
+so it's going to be plus omega squared times,
+
+29
+99:59:59,999 --> 99:59:59,999
+omgea times 1, omega times 1 is omega,
+
+30
+99:59:59,999 --> 99:59:59,999
+minus omega squared times z + omega,
+
+31
+99:59:59,999 --> 99:59:59,999
+so minues omega squared z, omega squared z,
+
+32
+99:59:59,999 --> 99:59:59,999
+minus omega to the 4th.
+
+33
+99:59:59,999 --> 99:59:59,999
+And remember this whole expression needs to be equal to zero,
+
+34
+99:59:59,999 --> 99:59:59,999
+this whole thing needs to be equal to zero,
+
+35
+99:59:59,999 --> 99:59:59,999
+now lets see if we can, lets see if we can simplify this thing
+
+36
+99:59:59,999 --> 99:59:59,999
+a little bit, so let me first multiply these two guys in here,
+
+37
+99:59:59,999 --> 99:59:59,999
+so z times z is z squared, z times omega is z omega,
+
+38
+99:59:59,999 --> 99:59:59,999
+omega squared times z is omega squared z,
+
+39
+99:59:59,999 --> 99:59:59,999
+and then omega squared times omega is omega
+
+40
+99:59:59,999 --> 99:59:59,999
+to the third power.
+
+41
+99:59:59,999 --> 99:59:59,999
+Then we have this minus 1,
+
+42
+99:59:59,999 --> 99:59:59,999
+then all of that is going to be
+
+43
+99:59:59,999 --> 99:59:59,999
+multiplied by z + 1, let me just continue with these
+
+44
+99:59:59,999 --> 99:59:59,999
+blue parts since we're already focused here.
+
+45
+99:59:59,999 --> 99:59:59,999
+So this is going to be z times all of this,
+
+46
+99:59:59,999 --> 99:59:59,999
+so it's going to the third power, plus z squared omega,
+
+47
+99:59:59,999 --> 99:59:59,999
+plus omega squared z squared plus omega to the third z,
+
+48
+99:59:59,999 --> 99:59:59,999
+minus z, I just multiplied z times all of this,
+
+49
+99:59:59,999 --> 99:59:59,999
+and then plus 1 times all of this,
+
+50
+99:59:59,999 --> 99:59:59,999
+so plus this thing again, z squared plus z omega,
+
+51
+99:59:59,999 --> 99:59:59,999
+plus omega squared z, plus omega to the third,
+
+52
+99:59:59,999 --> 99:59:59,999
+minus, minus 1, and then let's simplify this over here,
+
+53
+99:59:59,999 --> 99:59:59,999
+so in the green, these canceled out,
+
+54
+99:59:59,999 --> 99:59:59,999
+so we're just left with, I'll do this in the green,
+
+55
+99:59:59,999 --> 99:59:59,999
+negative omega times z omega, so it's minus z omega squared,
+
+56
+99:59:59,999 --> 99:59:59,999
+omega, and then over here in magenta,
+
+57
+99:59:59,999 --> 99:59:59,999
+here in magenta we have plus, plus omega to the third power,
+
+58
+99:59:59,999 --> 99:59:59,999
+omega to the third power, minus omega to the third z,
+
+59
+99:59:59,999 --> 99:59:59,999
+right, oh let me be careful, that would be omega,
+
+60
+99:59:59,999 --> 99:59:59,999
+omega to the 4th, omega square times omega squared is
+
+61
+99:59:59,999 --> 99:59:59,999
+omega to the 4th, omega to the4th z, and then
+
+62
+99:59:59,999 --> 99:59:59,999
+omega squared times omega to the 4th is omega to the 6th,
+
+63
+99:59:59,999 --> 99:59:59,999
+and we have a negative sign, so negative omega to the 6th,
+
+64
+99:59:59,999 --> 99:59:59,999
+and of course this whole thing needs to be equal to zero.
+
+65
+99:59:59,999 --> 99:59:59,999
+Now there's probably, let's see if we can simpliy this,
+
+66
+99:59:59,999 --> 99:59:59,999
+so let's just group the terms, the different powers of z,
+
+67
+99:59:59,999 --> 99:59:59,999
+so we have a z to the 3rd, a z to the 3rd,
+
+68
+99:59:59,999 --> 99:59:59,999
+z to the 3rd, and that is the only z to the 3rd we have,
+
+69
+99:59:59,999 --> 99:59:59,999
+and then let's group, let's group the z squared terms,
+
+70
+99:59:59,999 --> 99:59:59,999
+this is a z squared term, this is a z squared term,
+
+71
+99:59:59,999 --> 99:59:59,999
+that's a z squared term, and then we don't have any more
+
+72
+99:59:59,999 --> 99:59:59,999
+z squared terms, and so the co-efficients,
+
+73
+99:59:59,999 --> 99:59:59,999
+this is going to be the same thing as omega squared,
+
+74
+99:59:59,999 --> 99:59:59,999
+that's this one right over here, plus omega,
+
+75
+99:59:59,999 --> 99:59:59,999
+plus omega, plus 1, plus 1, times, times z squared,
+
+76
+99:59:59,999 --> 99:59:59,999
+so we've taken care of everything that I've underlined
+
+77
+99:59:59,999 --> 99:59:59,999
+in pink over here, now let's worry about the z terms,
+
+78
+99:59:59,999 --> 99:59:59,999
+the z terms, I'll do it in this color, so this is a z term,
+
+79
+99:59:59,999 --> 99:59:59,999
+we're just multiplting times z, this is a z term,
+
+80
+99:59:59,999 --> 99:59:59,999
+this is a z, term, that is also a z term, and then
+
+81
+99:59:59,999 --> 99:59:59,999
+do we have any other z terms, well this is a z term
+
+82
+99:59:59,999 --> 99:59:59,999
+right over here, and in fact, these two cancel out,
+
+83
+99:59:59,999 --> 99:59:59,999
+you have negative z omega squared, positive
+
+84
+99:59:59,999 --> 99:59:59,999
+z omega squared, so this and this cancel out,
+
+85
+99:59:59,999 --> 99:59:59,999
+and so our only z terms are these 3 over here,
+
+86
+99:59:59,999 --> 99:59:59,999
+so we have plus omega to the 3rd, and then we have
+
+87
+99:59:59,999 --> 99:59:59,999
+plus omega to the third, oh wait, this color is too close,
+
+88
+99:59:59,999 --> 99:59:59,999
+plus omega to the 3rd, and our next z is minus 1,
+
+89
+99:59:59,999 --> 99:59:59,999
+but we actually have this omega over here,
+
+90
+99:59:59,999 --> 99:59:59,999
+so plus omega - 1, I was getting confused,
+
+91
+99:59:59,999 --> 99:59:59,999
+because this white is so close to this pink,
+
+92
+99:59:59,999 --> 99:59:59,999
+so it's omega to the 3rd, omega to the 3rd,
+
+93
+99:59:59,999 --> 99:59:59,999
+minus 1 + omega, times z, and then.
+
+94
+99:59:59,999 --> 99:59:59,999
+Oh! We can't forget this, we have this term
+
+95
+99:59:59,999 --> 99:59:59,999
+over here, we have omega to the 4th times z,
+
+96
+99:59:59,999 --> 99:59:59,999
+omega to the 4th times z, so we have minus 1,
+
+97
+99:59:59,999 --> 99:59:59,999
+right, omega to the 3rd z, then we have minus 1 z
+
+98
+99:59:59,999 --> 99:59:59,999
+then we have, then we have plus omega z, and then
+
+99
+99:59:59,999 --> 99:59:59,999
+we have negative omega to the 4th z,
+
+100
+99:59:59,999 --> 99:59:59,999
+so I'll just put it out here, I'm not doing in the
+
+101
+99:59:59,999 --> 99:59:59,999
+nice descending power order, but I don't want to
+
+102
+99:59:59,999 --> 99:59:59,999
+have to re-write all of this.
+
+103
+99:59:59,999 --> 99:59:59,999
+So we took care of all the z terms, and then what
+
+104
+99:59:59,999 --> 99:59:59,999
+we have left is what we can kind of call the
+
+105
+99:59:59,999 --> 99:59:59,999
+cost of terms from the z point of view,

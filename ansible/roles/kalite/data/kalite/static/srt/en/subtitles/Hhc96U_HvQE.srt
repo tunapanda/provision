@@ -1,0 +1,1028 @@
+1
+00:00:00,760 --> 00:00:03,430
+We know that if we have some
+linear transformation, that
+
+2
+00:00:03,430 --> 00:00:08,240
+the transformation from x to y
+-- and these are just sets,
+
+3
+00:00:08,240 --> 00:00:13,170
+sets of vectors, and T is a
+linear transformation from y
+
+4
+00:00:13,170 --> 00:00:18,850
+to z-- that we can construct a
+composition of s with T that
+
+5
+00:00:18,850 --> 00:00:23,360
+is a linear transformation
+from x all the way to z.
+
+6
+00:00:23,360 --> 00:00:25,440
+We saw this several
+videos ago.
+
+7
+00:00:25,440 --> 00:00:28,860
+And the definition of our linear
+transformation, or the
+
+8
+00:00:28,860 --> 00:00:30,930
+composition of our linear
+transformation.
+
+9
+00:00:30,930 --> 00:00:36,040
+So the composition of s with t,
+applied to someone vector x
+
+10
+00:00:36,040 --> 00:00:45,980
+in our set x, our domain,
+is equal to s of t of x.
+
+11
+00:00:45,980 --> 00:00:47,340
+This was our definition.
+
+12
+00:00:47,340 --> 00:00:52,770
+And then we went on and we said,
+look, if s of x can be
+
+13
+00:00:52,770 --> 00:00:59,770
+represented as the matrix
+multiplication a x, the matrix
+
+14
+00:00:59,770 --> 00:01:05,280
+vector product, and if T of x
+can be represented -- or the
+
+15
+00:01:05,280 --> 00:01:07,850
+transformation T can be
+represented-- as the product
+
+16
+00:01:07,850 --> 00:01:12,690
+of the matrix b with x, we saw
+that this thing right here --
+
+17
+00:01:12,690 --> 00:01:14,820
+which is of course, if we just
+write this way, this is equal
+
+18
+00:01:14,820 --> 00:01:21,220
+to a times T times x, which is
+just b x -- we saw in multiple
+
+19
+00:01:21,220 --> 00:01:24,580
+videos now that this is
+equivalent to, by our
+
+20
+00:01:24,580 --> 00:01:30,030
+definition of matrix products,
+the matrix a b -- right?
+
+21
+00:01:30,030 --> 00:01:32,130
+When you take the product of
+two matrices you just get
+
+22
+00:01:32,130 --> 00:01:36,210
+another matrix -- the
+product a b times x.
+
+23
+00:01:36,210 --> 00:01:39,760
+So you take essentially the
+first linear transformation in
+
+24
+00:01:39,760 --> 00:01:43,200
+your composition, its matrix,
+which was a, and you take the
+
+25
+00:01:43,200 --> 00:01:44,880
+product with the second one.
+
+26
+00:01:44,880 --> 00:01:47,230
+Fair enough, all of this
+is review so far.
+
+27
+00:01:47,230 --> 00:01:50,440
+Let's take three linear
+transformations.
+
+28
+00:01:50,440 --> 00:01:53,710
+Let's say that I have the linear
+transformation h, and
+
+29
+00:01:53,710 --> 00:01:56,900
+when I apply that to a vector
+x, it's equivalent to
+
+30
+00:01:56,900 --> 00:02:00,220
+multiplying my vector
+x by the matrix a.
+
+31
+00:02:00,220 --> 00:02:05,490
+Let's say I have the linear
+transformation g.
+
+32
+00:02:05,490 --> 00:02:08,400
+When I applied that to a vector
+x, it's equivalent to
+
+33
+00:02:08,400 --> 00:02:12,250
+multiplying that vectrix -- that
+vector, there should be a
+
+34
+00:02:12,250 --> 00:02:15,320
+new concept called a vetrix --
+it's equivalent to multiplying
+
+35
+00:02:15,320 --> 00:02:18,170
+that vector times
+the matrix b.
+
+36
+00:02:18,170 --> 00:02:23,410
+And then I have a final linear
+transformation f.
+
+37
+00:02:23,410 --> 00:02:26,380
+When it's applied to some vector
+x, it's equivalent to
+
+38
+00:02:26,380 --> 00:02:32,280
+multiplying that vector
+x times the matrix z.
+
+39
+00:02:32,280 --> 00:02:35,810
+Now what I'm curious about is
+what happens when I take the
+
+40
+00:02:35,810 --> 00:02:43,570
+composition of h with g, and
+then I take the composition of
+
+41
+00:02:43,570 --> 00:02:50,070
+that with f -- these are all
+linear transformations -- and
+
+42
+00:02:50,070 --> 00:02:52,350
+then I apply that to
+some vector x.
+
+43
+00:02:57,520 --> 00:03:01,070
+Which is necessarily going to be
+in the domain of this guy.
+
+44
+00:03:01,070 --> 00:03:03,800
+I haven't actually drawn out
+their domain and co-domain
+
+45
+00:03:03,800 --> 00:03:06,020
+definitions, but I think
+you get the idea.
+
+46
+00:03:06,020 --> 00:03:09,290
+So let's explore what this
+is a little bit.
+
+47
+00:03:09,290 --> 00:03:12,610
+Well by the definition of
+what a -- let's go back.
+
+48
+00:03:12,610 --> 00:03:15,320
+By this definition right here
+of what composition even
+
+49
+00:03:15,320 --> 00:03:19,270
+means, we can just apply that
+to this right here.
+
+50
+00:03:19,270 --> 00:03:25,240
+So we could just imagine this as
+being our s, and then this
+
+51
+00:03:25,240 --> 00:03:27,520
+is our T right there.
+
+52
+00:03:27,520 --> 00:03:29,280
+Then what is this going
+to be equal to?
+
+53
+00:03:29,280 --> 00:03:31,640
+If we just do a straight up
+pattern match right there,
+
+54
+00:03:31,640 --> 00:03:35,530
+this is going to be equal to
+s, the transformation s,
+
+55
+00:03:35,530 --> 00:03:38,620
+applied to the transformation
+f, applied to x.
+
+56
+00:03:38,620 --> 00:03:40,830
+So s is h of g.
+
+57
+00:03:40,830 --> 00:03:46,750
+So it is h -- or I should say h
+of g -- the composition of h
+
+58
+00:03:46,750 --> 00:03:51,180
+with g, that is our s.
+
+59
+00:03:51,180 --> 00:03:58,300
+And then I apply that
+to f applied to x.
+
+60
+00:03:58,300 --> 00:03:59,360
+f is our t.
+
+61
+00:03:59,360 --> 00:04:04,470
+I apply that to f applied
+to x, just like that.
+
+62
+00:04:04,470 --> 00:04:08,740
+Now what is this equal to?
+
+63
+00:04:08,740 --> 00:04:12,225
+Now we can imagine that
+this is our x.
+
+64
+00:04:12,225 --> 00:04:14,670
+If we just pattern match,
+according to this definition,
+
+65
+00:04:14,670 --> 00:04:19,480
+that this and this guy right
+here, that this is our t, and
+
+66
+00:04:19,480 --> 00:04:23,160
+that this is our s.
+
+67
+00:04:23,160 --> 00:04:24,790
+And so if we just pattern
+match here,
+
+68
+00:04:24,790 --> 00:04:26,040
+this is equal to what?
+
+69
+00:04:26,040 --> 00:04:29,430
+This is just straight from the
+definition of a composition.
+
+70
+00:04:29,430 --> 00:04:35,720
+So it's equal to s of -- s is
+our h -- so h of t, which in
+
+71
+00:04:35,720 --> 00:04:39,010
+this case is g, g
+applied to x.
+
+72
+00:04:39,010 --> 00:04:42,200
+But instead of an x, we have
+this vector here, which was
+
+73
+00:04:42,200 --> 00:04:44,650
+the transformation
+f applied to x.
+
+74
+00:04:44,650 --> 00:04:47,960
+So g of f of x.
+
+75
+00:04:47,960 --> 00:04:48,980
+That's what this is equal to.
+
+76
+00:04:48,980 --> 00:04:52,550
+The composition of h with
+g, and the composition
+
+77
+00:04:52,550 --> 00:04:57,710
+competition of f with h, the
+composition of h and g, all of
+
+78
+00:04:57,710 --> 00:05:02,370
+that applied to x is equal
+to h of g of f of x.
+
+79
+00:05:02,370 --> 00:05:06,310
+Now what is this equal to?
+
+80
+00:05:06,310 --> 00:05:09,700
+Well this is equal to -- I'll
+do it right here -- this is
+
+81
+00:05:09,700 --> 00:05:18,210
+equal to h, the transformation
+h, applied to -- what is this
+
+82
+00:05:18,210 --> 00:05:18,530
+term right here?
+
+83
+00:05:18,530 --> 00:05:20,570
+I'll do it in pink.
+
+84
+00:05:20,570 --> 00:05:22,080
+What is this?
+
+85
+00:05:22,080 --> 00:05:25,100
+That is the composition of
+g and f applied to x.
+
+86
+00:05:25,100 --> 00:05:28,620
+You can just replace s with g,
+and f with T, and you'll get
+
+87
+00:05:28,620 --> 00:05:29,920
+that right there.
+
+88
+00:05:29,920 --> 00:05:36,160
+So this is just equal to the
+composition of g with f
+
+89
+00:05:36,160 --> 00:05:39,110
+applied to x.
+
+90
+00:05:39,110 --> 00:05:41,420
+That's all that is.
+
+91
+00:05:41,420 --> 00:05:46,190
+Now, what is this equal
+to right there?
+
+92
+00:05:46,190 --> 00:05:48,280
+And it's probably confusing
+to see two parentheses in
+
+93
+00:05:48,280 --> 00:05:49,730
+different colors, but
+you get the idea.
+
+94
+00:05:49,730 --> 00:05:51,300
+What is this equal to?
+
+95
+00:05:51,300 --> 00:05:53,270
+Well, just go back to your
+definition of the composition
+
+96
+00:05:53,270 --> 00:05:56,760
+-- I just want to make it very
+clear what we're doing.
+
+97
+00:05:56,760 --> 00:06:00,500
+This is, if you imagine this
+being your T and then this
+
+98
+00:06:00,500 --> 00:06:03,700
+being your s, this is just the
+composition of s with T,
+
+99
+00:06:03,700 --> 00:06:05,270
+applied to x.
+
+100
+00:06:05,270 --> 00:06:08,730
+So this is just equal to --
+I'll write it this way.
+
+101
+00:06:08,730 --> 00:06:11,530
+This is equal to -- I shouldn't
+write s's -- this is
+
+102
+00:06:11,530 --> 00:06:18,820
+a composition of h with the
+composition of g and f.
+
+103
+00:06:18,820 --> 00:06:21,210
+And then all of that
+applied to x.
+
+104
+00:06:21,210 --> 00:06:23,190
+Now why did I do all of this?
+
+105
+00:06:23,190 --> 00:06:26,330
+Well one, to show you that the
+composition is associative.
+
+106
+00:06:26,330 --> 00:06:28,710
+I went all the way here and then
+I went all the way back.
+
+107
+00:06:28,710 --> 00:06:30,880
+And essentially it doesn't
+matter where you put the
+
+108
+00:06:30,880 --> 00:06:31,490
+parentheses.
+
+109
+00:06:31,490 --> 00:06:37,130
+The composition of h with g with
+f, is equivalent to the
+
+110
+00:06:37,130 --> 00:06:40,050
+composition of h with the
+composition of g and f.
+
+111
+00:06:40,050 --> 00:06:43,020
+That these two things are
+equivalent, and essentially
+
+112
+00:06:43,020 --> 00:06:45,800
+these two things, you can
+just re-write them.
+
+113
+00:06:45,800 --> 00:06:49,210
+The parentheses are essentially
+unnecessary.
+
+114
+00:06:49,210 --> 00:06:53,020
+You can write this as a
+composition of h with g with
+
+115
+00:06:53,020 --> 00:06:57,070
+f, all of that applied to x.
+
+116
+00:06:57,070 --> 00:07:02,400
+Now, I took the time to say
+that each of these linear
+
+117
+00:07:02,400 --> 00:07:04,520
+transformations I can
+represent as matrix
+
+118
+00:07:04,520 --> 00:07:05,250
+multiplications.
+
+119
+00:07:05,250 --> 00:07:06,930
+Why did I do that?
+
+120
+00:07:06,930 --> 00:07:09,860
+Well we saw before, that any
+composition, when you take the
+
+121
+00:07:09,860 --> 00:07:14,220
+composition of s with T, the
+matrix version of this
+
+122
+00:07:14,220 --> 00:07:17,900
+transformation of this
+composition is going to be
+
+123
+00:07:17,900 --> 00:07:21,520
+equal to the product -- by our
+definition of matrix matrix
+
+124
+00:07:21,520 --> 00:07:26,480
+products -- the product of the
+s's transformation matrix and
+
+125
+00:07:26,480 --> 00:07:28,690
+T's transformation matrix.
+
+126
+00:07:28,690 --> 00:07:32,010
+So what are these going
+to be equal to?
+
+127
+00:07:32,010 --> 00:07:34,810
+So this one right here --
+if you think of this
+
+128
+00:07:34,810 --> 00:07:38,260
+transformation right here, this
+statement right here, its
+
+129
+00:07:38,260 --> 00:07:40,540
+matrix version of it--
+so let me write that.
+
+130
+00:07:40,540 --> 00:07:49,930
+A matrix version of the
+composition of h with g, and
+
+131
+00:07:49,930 --> 00:07:57,300
+then the composition of that
+with f, applied to x, is going
+
+132
+00:07:57,300 --> 00:08:03,930
+to be equal to -- and we've
+seen this before -- the
+
+133
+00:08:03,930 --> 00:08:05,510
+product of these matrices.
+
+134
+00:08:05,510 --> 00:08:10,500
+So this composition, its matrix
+is going to be a b.
+
+135
+00:08:10,500 --> 00:08:12,620
+h and g, their matrices
+are a and b.
+
+136
+00:08:12,620 --> 00:08:19,220
+So it's going to be a b -- and
+I'll do it in parentheses.
+
+137
+00:08:19,220 --> 00:08:22,380
+And then you take that matrix,
+and you take the product -- so
+
+138
+00:08:22,380 --> 00:08:26,420
+this guy's matrix representation
+is a b, right?
+
+139
+00:08:26,420 --> 00:08:28,840
+And this guy's matrix
+representation is c.
+
+140
+00:08:28,840 --> 00:08:31,690
+So the matrix representation
+of this whole thing is this
+
+141
+00:08:31,690 --> 00:08:34,480
+guy, taking the product of a b,
+and then taking the product
+
+142
+00:08:34,480 --> 00:08:36,380
+of that with c.
+
+143
+00:08:36,380 --> 00:08:37,640
+So a b.
+
+144
+00:08:37,640 --> 00:08:38,929
+and then c.
+
+145
+00:08:38,929 --> 00:08:42,179
+And then if you look at this
+guy right here -- and of
+
+146
+00:08:42,179 --> 00:08:46,110
+course all of that times a
+vector x, all of that time
+
+147
+00:08:46,110 --> 00:08:48,430
+some vector x, right there.
+
+148
+00:08:48,430 --> 00:08:49,860
+That's the vector x.
+
+149
+00:08:49,860 --> 00:08:52,730
+Now let's look at this
+one right here.
+
+150
+00:08:52,730 --> 00:08:59,220
+If we take the composition of
+h with the composition of g
+
+151
+00:08:59,220 --> 00:09:04,550
+and f, and apply all of that to
+some vector x, what is that
+
+152
+00:09:04,550 --> 00:09:05,750
+equivalent to?
+
+153
+00:09:05,750 --> 00:09:10,180
+Well this composition right
+here, the matrix version of
+
+154
+00:09:10,180 --> 00:09:13,170
+it, I guess we can say, is going
+to be the product b c.
+
+155
+00:09:13,170 --> 00:09:15,012
+And we're going to
+apply that to x.
+
+156
+00:09:15,012 --> 00:09:18,340
+So we're going to have
+the product b c.
+
+157
+00:09:18,340 --> 00:09:20,770
+And then we're going to take the
+product of that with this
+
+158
+00:09:20,770 --> 00:09:24,980
+guy's matrix representation,
+which is a.
+
+159
+00:09:24,980 --> 00:09:26,530
+And we've shown this before.
+
+160
+00:09:26,530 --> 00:09:30,020
+We never showed it with
+three, but it extends.
+
+161
+00:09:30,020 --> 00:09:32,430
+I kind of showed it extends, so
+you can just keep applying
+
+162
+00:09:32,430 --> 00:09:33,420
+the definition.
+
+163
+00:09:33,420 --> 00:09:36,290
+You can keep applying this
+property right here, and so
+
+164
+00:09:36,290 --> 00:09:37,900
+it'll just naturally extend.
+
+165
+00:09:37,900 --> 00:09:39,160
+Because every time, we're
+just taking the
+
+166
+00:09:39,160 --> 00:09:40,630
+composition of two things.
+
+167
+00:09:40,630 --> 00:09:42,030
+Even though it looks like we're
+taking the composition
+
+168
+00:09:42,030 --> 00:09:44,160
+of three, we're taking the
+composition of two things
+
+169
+00:09:44,160 --> 00:09:45,150
+first here.
+
+170
+00:09:45,150 --> 00:09:47,640
+And then we get its matrix
+representation.
+
+171
+00:09:47,640 --> 00:09:49,310
+And then we take the composition
+of that with this
+
+172
+00:09:49,310 --> 00:09:50,240
+other thing.
+
+173
+00:09:50,240 --> 00:09:53,850
+So the matrix representation of
+the entire composition is
+
+174
+00:09:53,850 --> 00:09:57,640
+going to be this matrix
+times this matrix.
+
+175
+00:09:57,640 --> 00:09:58,820
+Which I did here.
+
+176
+00:09:58,820 --> 00:10:04,240
+Similarly, here we take first
+the composition of these two
+
+177
+00:10:04,240 --> 00:10:07,430
+linear transformations, and
+their matrix representation
+
+178
+00:10:07,430 --> 00:10:08,900
+will be that right there.
+
+179
+00:10:08,900 --> 00:10:12,550
+And then we take the composition
+of that with that.
+
+180
+00:10:12,550 --> 00:10:16,120
+So its entire matrix
+representation is going to be
+
+181
+00:10:16,120 --> 00:10:18,390
+guy's matrix times this
+guy's matrix.
+
+182
+00:10:18,390 --> 00:10:20,220
+So a times b c.
+
+183
+00:10:20,220 --> 00:10:23,530
+And of course, all of that
+applied to the vector x.
+
+184
+00:10:23,530 --> 00:10:26,990
+Now, in this video I've showed
+you that these two things are
+
+185
+00:10:26,990 --> 00:10:27,840
+equivalent.
+
+186
+00:10:27,840 --> 00:10:31,800
+If anything, the parentheses
+are completely unnecessary.
+
+187
+00:10:31,800 --> 00:10:32,920
+And I showed you that there.
+
+188
+00:10:32,920 --> 00:10:37,420
+They both essentially boil
+down to h of g of f of x.
+
+189
+00:10:37,420 --> 00:10:39,410
+So these two things
+are equivalent.
+
+190
+00:10:39,410 --> 00:10:42,620
+So we could say, essentially,
+that these two things over
+
+191
+00:10:42,620 --> 00:10:44,520
+here are equivalent.
+
+192
+00:10:44,520 --> 00:10:49,390
+Or that AB, the product AB,
+and then taking the product of
+
+193
+00:10:49,390 --> 00:10:53,290
+that matrix with the matrix C,
+is equivalent to taking the
+
+194
+00:10:53,290 --> 00:10:58,040
+product A with the matrix BC.
+
+195
+00:10:58,040 --> 00:11:00,290
+Which is just another
+product matrix.
+
+196
+00:11:00,290 --> 00:11:02,590
+Or another way of saying it is
+that these parentheses don't
+
+197
+00:11:02,590 --> 00:11:07,030
+matter, that all of these
+is just equal to ABC.
+
+198
+00:11:07,030 --> 00:11:11,430
+Or -- I mean, this is just a
+statement that matrix products
+
+199
+00:11:11,430 --> 00:11:13,315
+exhibit the associative
+property.
+
+200
+00:11:18,350 --> 00:11:21,040
+It doesn't matter where you
+put the parentheses.
+
+201
+00:11:21,040 --> 00:11:23,080
+And you know, sometimes it's
+confusing me, the word
+
+202
+00:11:23,080 --> 00:11:23,680
+associative.
+
+203
+00:11:23,680 --> 00:11:25,840
+It just means it doesn't matter
+where you put the
+
+204
+00:11:25,840 --> 00:11:26,780
+parentheses.
+
+205
+00:11:26,780 --> 00:11:30,040
+Matrix products do not exhibit
+the commutative property.
+
+206
+00:11:30,040 --> 00:11:32,140
+We saw that in the last video.
+
+207
+00:11:32,140 --> 00:11:37,050
+In general, we cannot make
+the statement that AB
+
+208
+00:11:37,050 --> 00:11:39,280
+is equal to BA.
+
+209
+00:11:39,280 --> 00:11:41,020
+We cannot do that.
+
+210
+00:11:41,020 --> 00:11:43,550
+And in fact in the last video
+-- I think it was the last
+
+211
+00:11:43,550 --> 00:11:46,720
+video -- I showed you that if AB is defined, sometimes BA
+
+212
+00:11:46,720 --> 00:11:47,660
+is not even defined.
+
+213
+00:11:47,660 --> 00:11:50,030
+Or if b a is defined, sometimes
+a b isn't defined.
+
+214
+00:11:50,030 --> 00:11:51,820
+So it's not commutative.
+
+215
+00:11:51,820 --> 00:11:53,630
+It is associative, though.
+
+216
+00:11:53,630 --> 00:11:57,050
+In the next video, I'll see if
+matrix products are actually
+
+217
+00:11:57,050 --> 00:11:58,300
+distributive.

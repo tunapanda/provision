@@ -1,0 +1,667 @@
+1
+00:00:00,000 --> 00:00:02,520
+what I'm gonna do in this video is talk about what
+
+2
+00:00:02,520 --> 00:00:05,020
+a Bitcoin is in more general term &amp; what
+
+3
+00:00:05,020 --> 00:00:08,150
+differentiating characteristics they have compared
+
+4
+00:00:08,150 --> 00:00:09,560
+to other approaches
+
+5
+00:00:09,560 --> 00:00:12,660
+so for starters, Bitcoin is just an electronic
+
+6
+00:00:12,660 --> 00:00:15,090
+payment system
+
+7
+00:00:15,090 --> 00:00:18,790
+by electronic payment system, I mean it's just a vehicle of conduit by which
+
+8
+00:00:18,790 --> 00:00:20,790
+2 parties can transact
+
+9
+00:00:20,790 --> 00:00:21,840
+over the internet
+
+10
+00:00:21,840 --> 00:00:23,920
+I'll call these parties Alice &amp; Bob
+
+11
+00:00:23,920 --> 00:00:26,030
+&amp; let's say Alice, for whatever reason,
+
+12
+00:00:26,030 --> 00:00:27,340
+wants to give money to Bob
+
+13
+00:00:27,860 --> 00:00:28,570
+over the internet
+
+14
+00:00:28,570 --> 00:00:30,570
+this maybe because she owes Bob money,
+
+15
+00:00:30,570 --> 00:00:33,800
+or maybe Bob is a merchant &amp; Alice is buying something from Bob
+
+16
+00:00:33,800 --> 00:00:35,800
+or maybe Bob is
+
+17
+00:00:35,800 --> 00:00:38,820
+a not-for-profit &amp; Alice makes a donation to Bob
+
+18
+00:00:38,820 --> 00:00:41,490
+so there can be many reasons why Alice is trying to pay Bob
+
+19
+00:00:41,930 --> 00:00:43,050
+over the internet
+
+20
+00:00:43,210 --> 00:00:44,510
+in some capacity
+
+21
+00:00:44,510 --> 00:00:46,790
+now if Bob is willing to accept
+
+22
+00:00:46,790 --> 00:00:49,570
+Bitcoins, which are a form of electronic payment
+
+23
+00:00:49,570 --> 00:00:52,520
+then Alice can go ahead &amp; send Bob
+
+24
+00:00:52,520 --> 00:00:54,920
+some value in Bitcoins, &amp; really,
+
+25
+00:00:54,920 --> 00:00:57,570
+a Bitcoin transaction between Alice &amp; Bob
+
+26
+00:00:57,570 --> 00:01:00,040
+amounts to a specially constructed
+
+27
+00:01:00,040 --> 00:01:04,160
+sequence of numbers, that Alice will basically send over to Bob
+
+28
+00:01:04,160 --> 00:01:06,800
+and, this will be done entirely over the internet
+
+29
+00:01:06,800 --> 00:01:09,540
+these numbers will have certain mathematical properties
+
+30
+00:01:09,540 --> 00:01:12,900
+that make it hard for some to really defraud the system, or to
+
+31
+00:01:12,900 --> 00:01:16,730
+conduct some type of nefarious action on the system
+
+32
+00:01:16,730 --> 00:01:20,670
+&amp; the way that Alice is actually going to conduct this transaction in practice is,
+
+33
+00:01:20,670 --> 00:01:25,230
+either by, installing a special piece of software, which we call a Bitcoin client,
+
+34
+00:01:25,230 --> 00:01:26,930
+or she can
+
+35
+00:01:26,930 --> 00:01:30,520
+work with a third party service, that can handle these mechanics for her
+
+36
+00:01:30,520 --> 00:01:35,110
+but either case (either the client / the service) is gonna generate these numbers for Alice
+
+37
+00:01:35,110 --> 00:01:39,800
+&amp; the flip side, Bob will also typically either have a piece of software installed
+
+38
+00:01:39,800 --> 00:01:41,800
+or he'll use a third party service
+
+39
+00:01:41,800 --> 00:01:46,230
+that will take these numbers &amp; allow him to do something else with those numbers, for example
+
+40
+00:01:46,790 --> 00:01:51,330
+Bob can, in turn, buy something on his own with those numbers, or he can trade those numbers in for
+
+41
+00:01:51,330 --> 00:01:53,470
+for real money &amp; so on &amp; so forth
+
+42
+00:01:54,410 --> 00:01:54,990
+alright
+
+43
+00:01:54,990 --> 00:01:58,060
+now 1 of the 1st questions you might have
+
+44
+00:01:58,060 --> 00:02:00,060
+&amp; I kind of alluded this earlier
+
+45
+00:02:00,060 --> 00:02:04,150
+is: "Why would Bob even want to accept Bitcoin in the 1st place?"
+
+46
+00:02:04,150 --> 00:02:07,020
+after all, a Bitcoin is just a bunch of numbers.
+
+47
+00:02:07,020 --> 00:02:10,640
+What intrinsic value would it conceivably have?
+
+48
+00:02:10,640 --> 00:02:11,640
+&amp; it turns out
+
+49
+00:02:11,640 --> 00:02:13,150
+quite surprisingly
+
+50
+00:02:13,150 --> 00:02:16,830
+Bitcoins actually have real world value, there are
+
+51
+00:02:16,830 --> 00:02:21,090
+more &amp; more merchants popping up each day who accept Bitcoin for transactions
+
+52
+00:02:21,090 --> 00:02:25,660
+&amp; there are also, Bitcoin exchanges, places where you can go &amp; exchange
+
+53
+00:02:25,660 --> 00:02:27,860
+Bitcoin for more mainstream currencies
+
+54
+00:02:27,860 --> 00:02:29,460
+some of these exchanges include
+
+55
+00:02:29,460 --> 00:02:32,780
+the major one is called "Mt. Gox"
+
+56
+00:02:32,780 --> 00:02:39,050
+&amp; in Mt. Gox, you can exchange your Bitcoin for Euro, Yen, Dollar, &amp; so on &amp; so forth
+
+57
+00:02:39,050 --> 00:02:44,610
+now the current price, the current value of Bitcoin in US Dollar as of this video is
+
+58
+00:02:44,610 --> 00:02:48,400
+approximately $100 per Bitcoin
+
+59
+00:02:48,400 --> 00:02:51,360
+that number is fluctuating, this is a new currency
+
+60
+00:02:51,360 --> 00:02:55,220
+&amp; there's gonna be some fluctuations, but as people understand the currency better
+
+61
+00:02:55,220 --> 00:02:57,570
+the hope is that fluctuation will decrease
+
+62
+00:02:57,570 --> 00:03:00,600
+but I think ultimately, the thing to keep in mind is that
+
+63
+00:03:00,600 --> 00:03:05,930
+the value of a Bitcoin is going to be derived from the faith that you have
+
+64
+00:03:05,930 --> 00:03:09,630
+&amp; the value of what you can procure with that Bitcoin. It's just like
+
+65
+00:03:09,630 --> 00:03:13,350
+you would for a Dollar, Euro, or Yen. The faith that you have
+
+66
+00:03:13,350 --> 00:03:16,410
+in that currency's value is how you value that currency
+
+67
+00:03:17,780 --> 00:03:22,450
+now another you might have is: "Why do people even bother with Bitcoin in the 1st place?"
+
+68
+00:03:22,450 --> 00:03:24,970
+I mean, aren't there other more standards ways?
+
+69
+00:03:24,970 --> 00:03:26,970
+Why couldn't Alice &amp; Bob use Paypal?
+
+70
+00:03:26,970 --> 00:03:29,240
+Why couldn't they use a credit card number to transact?
+
+71
+00:03:29,240 --> 00:03:32,570
+Why couldn't Alice just send Bob an electronic check?
+
+72
+00:03:32,570 --> 00:03:37,740
+Why not use one of these other approaches that are more well understood, more mainstream,
+
+73
+00:03:37,740 --> 00:03:41,810
+that are more established. Why would you possibly want to mess with a good thing?
+
+74
+00:03:41,810 --> 00:03:46,330
+So it turns out there are a few properties of Bitcoin that are worth noting, for starters,
+
+75
+00:03:46,330 --> 00:03:47,690
+there's privacy
+
+76
+00:03:47,690 --> 00:03:52,220
+it turns out, within the Bitcoin ecosystem, within the Bitcoin network
+
+77
+00:03:52,220 --> 00:03:57,140
+people can transact without divulging who they are in the real world
+
+78
+00:03:57,140 --> 00:04:00,680
+from the perspective of Bitcoin, Alice's identity is gonna be a sequence of numbers
+
+79
+00:04:00,680 --> 00:04:03,940
+&amp; that sequence of numbers, is effectively gonna function
+
+80
+00:04:03,940 --> 00:04:06,310
+like a pseudonym for Alice
+
+81
+00:04:06,310 --> 00:04:10,100
+&amp; that sequence of numbers has nothing to do with her real world identity
+
+82
+00:04:10,100 --> 00:04:12,330
+nobody knows this is Alice transacting
+
+83
+00:04:12,330 --> 00:04:15,160
+all they need to worry about is the pseudonym within the system
+
+84
+00:04:15,160 --> 00:04:20,070
+&amp; this is kind of, but not quite, like what you'd get if you bought something using cash
+
+85
+00:04:21,120 --> 00:04:22,900
+when you buy something using cash,
+
+86
+00:04:22,900 --> 00:04:28,720
+then you don't have to provide any details / proof regarding who you're in the real world
+
+87
+00:04:28,720 --> 00:04:30,720
+&amp; that's different from let's say,
+
+88
+00:04:30,720 --> 00:04:33,110
+using a credit card, where
+
+89
+00:04:33,110 --> 00:04:35,790
+you have to provide your name, billing address, &amp; so on
+
+90
+00:04:35,790 --> 00:04:38,480
+or let's say providing an electronic check
+
+91
+00:04:38,480 --> 00:04:42,260
+where you need to tie that electronic check typically to your bank account details
+
+92
+00:04:42,260 --> 00:04:45,690
+okay, now I do wanna also mention here that
+
+93
+00:04:45,690 --> 00:04:48,080
+sometimes when you have a
+
+94
+00:04:48,080 --> 00:04:50,940
+cash ??? or transaction that uses cash
+
+95
+00:04:50,940 --> 00:04:55,270
+there is now the possibility that people might try to use this transaction for
+
+96
+00:04:55,270 --> 00:04:58,100
+malicious purposes to buy illicit goods & services
+
+97
+00:04:58,100 --> 00:05:02,440
+that definitely is a risk that occurs when you provide anonimity &amp; privacy
+
+98
+00:05:02,440 --> 00:05:05,500
+but there are certainly legitimate reasons why somebody might
+
+99
+00:05:05,500 --> 00:05:09,110
+wanna conduct a transaction privately &amp; not have the whole world
+
+100
+00:05:09,110 --> 00:05:11,110
+know what they're transacting
+
+101
+00:05:11,110 --> 00:05:13,810
+another property of Bitcoin is that it's open
+
+102
+00:05:13,810 --> 00:05:17,320
+literally, anyone can get involved
+
+103
+00:05:17,320 --> 00:05:21,100
+anyone who has Internet connection can make a Bitcoin transaction
+
+104
+00:05:21,100 --> 00:05:25,810
+&amp; all you need to do to get started, is download this special Bitcoin client
+
+105
+00:05:25,810 --> 00:05:29,140
+&amp; the Bitcoin client, or for that matter, you can use
+
+106
+00:05:29,140 --> 00:05:33,900
+a service like Mt. Gox, which will effectively do the same work as a client for you
+
+107
+00:05:33,900 --> 00:05:35,490
+but the short of it is that,
+
+108
+00:05:35,490 --> 00:05:40,030
+anyone who has a Bitcoin client or who owns an account with an exchange like Mt. Gox,
+
+109
+00:05:40,030 --> 00:05:42,320
+can engage in Bitcoin transactions
+
+110
+00:05:42,320 --> 00:05:46,600
+that transaction, the details of it, the mechanics of it, will be transparent to the user
+
+111
+00:05:46,600 --> 00:05:47,760
+all the user has to worry about
+
+112
+00:05:47,760 --> 00:05:50,880
+All Alice needs to worry about is how much money she has
+
+113
+00:05:50,880 --> 00:05:52,880
+&amp; whether she can get that money to Bob
+
+114
+00:05:52,880 --> 00:05:58,420
+the actual software underneath will take all the underlying mechanics of making that transaction work
+
+115
+00:05:58,420 --> 00:06:03,120
+now this is different when you think about traditional currency, like a Dollar
+
+116
+00:06:03,120 --> 00:06:04,880
+if I wanna transact something online
+
+117
+00:06:04,880 --> 00:06:07,900
+typically I need a bank account, credit card
+
+118
+00:06:07,900 --> 00:06:09,550
+&amp; so on &amp; so forth
+
+119
+00:06:09,550 --> 00:06:16,880
+we often take it for granted, but there are people out there who may not have access to credit card, bank account, for example
+
+120
+00:06:16,880 --> 00:06:19,890
+in United States alone, it turns out (I just looked this up)
+
+121
+00:06:19,890 --> 00:06:23,140
+the number of households without a bank account
+
+122
+00:06:23,140 --> 00:06:29,420
+is somewhere north of 8%. It's pretty high, a lot of people out there who wouldn't be able to conduct
+
+123
+00:06:29,420 --> 00:06:31,090
+a traditional internet transaction
+
+124
+00:06:31,090 --> 00:06:34,370
+but who can conduct a transaction using Bitcoin
+
+125
+00:06:34,370 --> 00:06:38,080
+by they way, there are people using Bitcoin all over the world, literally
+
+126
+00:06:38,080 --> 00:06:40,080
+it doesn't matter where you are
+
+127
+00:06:40,080 --> 00:06:44,690
+in the world, as long as you have internet connection, you can start transacting Bitcoins
+
+128
+00:06:44,690 --> 00:06:48,860
+Now another property of Bitcoin worth mentioning is that it's decentralized
+
+129
+00:06:48,860 --> 00:06:54,340
+there's no bank / centralized entity that can really control
+
+130
+00:06:54,340 --> 00:06:59,820
+what's happening in the Bitcoin ecosystem, it's all done in this kind of ad-hoc fashion
+
+131
+00:06:59,820 --> 00:07:01,820
+&amp; what that means is that,
+
+132
+00:07:01,820 --> 00:07:06,000
+when you do a transaction, when Alice transacts with Bob over the internet,
+
+133
+00:07:06,000 --> 00:07:09,080
+that transaction is ??? with third party. There's no
+
+134
+00:07:09,080 --> 00:07:12,630
+there's no bank that gets in the way of that transaction
+
+135
+00:07:12,630 --> 00:07:16,170
+&amp; that can have certain benefits as well, for example, that means
+
+136
+00:07:16,170 --> 00:07:21,160
+no one entity can directly control the money supply of Bitcoin &amp; so on
+
+137
+00:07:21,160 --> 00:07:24,480
+that also means that no one entity can
+
+138
+00:07:24,480 --> 00:07:26,930
+let's say, seize your assets, for that matter
+
+139
+00:07:26,930 --> 00:07:29,820
+no one entity can reverse a transaction
+
+140
+00:07:29,820 --> 00:07:31,820
+which is definitely desirable for some merchants
+
+141
+00:07:31,820 --> 00:07:37,050
+Some merchants might not be able to conduct business online, because of fraud concerns
+
+142
+00:07:37,050 --> 00:07:41,690
+&amp; if you have a system where the transactions can't be charged back easily,
+
+143
+00:07:41,690 --> 00:07:44,110
+then, from the merchant's perspective,
+
+144
+00:07:44,110 --> 00:07:46,570
+they may be able to inhibit fraud &amp; thereby,
+
+145
+00:07:46,570 --> 00:07:49,380
+that might enable their business entirely online
+
+146
+00:07:49,380 --> 00:07:54,020
+now I wanna point out this last property of decentralization
+
+147
+00:07:54,020 --> 00:07:58,100
+definitely causes concerns among some people about Bitcoin.
+
+148
+00:07:58,100 --> 00:08:02,260
+After all, when you think about it, a central authority like a bank
+
+149
+00:08:02,260 --> 00:08:06,900
+does a perform an important function in the context of traditional currency, for example,
+
+150
+00:08:06,900 --> 00:08:09,220
+banks might validate currency, they might
+
+151
+00:08:09,220 --> 00:08:11,490
+validate transactions against fraud
+
+152
+00:08:11,490 --> 00:08:16,740
+now in Bitcoin, this validation is basically done in a decentralized way
+
+153
+00:08:16,740 --> 00:08:20,510
+by the other party, the other nodes in the Bitcoin network
+
+154
+00:08:20,510 --> 00:08:26,000
+another goal of the remaining videos in this series, is to walk through the underlying mechanics
+
+155
+00:08:26,000 --> 00:08:27,900
+of Bitcoin transactions &amp;
+
+156
+00:08:27,900 --> 00:08:31,270
+really how they're validated, even though the system is decentralized
+
+157
+00:08:31,330 --> 00:08:35,010
+and there are some pretty amazing techniques that are used
+
+158
+00:08:35,010 --> 00:08:36,520
+to make all this work
+
+159
+00:08:36,520 --> 00:08:41,490
+I suspect at this point, you may have tons of questions about Bitcoin, &amp; that's entirely to be expected
+
+160
+00:08:41,490 --> 00:08:45,680
+Bitcoin is a very complex protocol, it has many moving parts
+
+161
+00:08:45,680 --> 00:08:48,660
+&amp; I think it's pretty cool, when you can understand something this complex
+
+162
+00:08:48,660 --> 00:08:52,260
+&amp; wrap your head around some thing as sophisticated as Bitcoin
+
+163
+00:08:52,260 --> 00:08:55,160
+it's important to get exposed to all the parts first
+
+164
+00:08:55,160 --> 00:08:58,300
+so that you can ultimately, get a flavor of how they fit together
+
+165
+00:08:58,300 --> 00:09:00,650
+&amp; hopefully the other videos in this series,
+
+166
+00:09:00,650 --> 00:09:03,320
+will help you to understand, these different parts
+
+167
+00:09:03,320 --> 00:09:06,930
+&amp; along the way, address many other questions that you might have

@@ -1,0 +1,520 @@
+1
+00:00:00,505 --> 00:00:05,072
+We are asked to graph y is equal to log base 5 of x
+
+2
+00:00:05,072 --> 00:00:07,237
+and just to remind us what this is saying,
+
+3
+00:00:07,237 --> 00:00:13,171
+this is saying that y is equal to the power that I have to raise 5 to, to get to x.
+
+4
+00:00:13,171 --> 00:00:17,036
+Or if i would write this logarithmic equation as an exponential equation
+
+5
+00:00:17,036 --> 00:00:18,772
+5 is my base
+
+6
+00:00:18,772 --> 00:00:23,323
+y is the exponent that i have to raise my base to,
+
+7
+00:00:23,323 --> 00:00:27,990
+and then x is what i get when I raise 5 to the yth power.
+
+8
+00:00:27,990 --> 00:00:30,769
+So anther way of writing this equation would be
+
+9
+00:00:30,769 --> 00:00:40,437
+5 to the yth power is going to be equal to x.
+
+10
+00:00:40,437 --> 00:00:42,571
+These are the same thing.
+
+11
+00:00:42,571 --> 00:00:48,323
+Here we have y as a function of x, here we have x as a function of y.
+
+12
+00:00:48,323 --> 00:00:50,838
+But they're really saying the exact same thing:
+
+13
+00:00:50,838 --> 00:00:53,504
+"Raise 5 to the yth power to get x".
+
+14
+00:00:53,504 --> 00:00:55,490
+But when you put this as a logarithm, you are saying:
+
+15
+00:00:55,490 --> 00:00:57,771
+"To what power do I have to raise 5 to, to get x?
+
+16
+00:00:57,771 --> 00:00:58,970
+Well, I have to raise it to y."
+
+17
+00:00:58,970 --> 00:01:03,437
+Here, what do I get when I raise 5 to the yth power? 
+I get x.
+
+18
+00:01:03,437 --> 00:01:04,704
+Now that that is out of the way,
+
+19
+00:01:04,704 --> 00:01:07,105
+let's make ourselves a little table
+
+20
+00:01:07,105 --> 00:01:08,705
+that we can use to plot some points,
+
+21
+00:01:08,705 --> 00:01:11,171
+and we can connect the dots to see what this curve looks like.
+
+22
+00:01:11,171 --> 00:01:13,571
+So let me pick some Xs and some Ys.
+
+23
+00:01:13,571 --> 00:01:20,238
+And in general we want to pick some numbers
+
+24
+00:01:20,238 --> 00:01:22,657
+that give us some nice, round answers.
+
+25
+00:01:22,657 --> 00:01:25,571
+Some nice, fairly simple numbers for us to deal with
+
+26
+00:01:25,571 --> 00:01:27,172
+so we don't have to get a calculator.
+
+27
+00:01:27,172 --> 00:01:30,103
+And so in general, you want to pick x values,
+
+28
+00:01:30,103 --> 00:01:35,105
+you want to pick x values where the power that you have to raise 5 to to get that x value
+
+29
+00:01:35,105 --> 00:01:37,906
+is a pretty straightforward power.
+
+30
+00:01:37,906 --> 00:01:41,038
+Or another way to think about it is, you could just think about the different y values
+
+31
+00:01:41,038 --> 00:01:44,323
+that you want to raise 5 to the power of
+
+32
+00:01:44,323 --> 00:01:45,989
+and then you can get you x values.
+
+33
+00:01:45,989 --> 00:01:51,838
+So we could actually think about this one to come up with our actual x values.
+
+34
+00:01:51,838 --> 00:01:55,738
+But we want to be clear that when we express it like this,
+
+35
+00:01:55,738 --> 00:02:00,072
+the independent variable is x and the dependent variable is y.
+
+36
+00:02:00,072 --> 00:02:09,102
+We might just look at this one to pick some nice x's that give us nice, clean answers for y.
+
+37
+00:02:09,102 --> 00:02:12,504
+So what happens, here I'm actually going to fill out the y first
+
+38
+00:02:12,504 --> 00:02:14,570
+Just so that we get nice, clean x's.
+
+39
+00:02:14,570 --> 00:02:19,702
+So let's say that we are going to raise 5 to the --I'm going to pick some new colours--
+
+40
+00:02:19,702 --> 00:02:25,906
+to the negative 2 power, -- and let me do some other colours --
+
+41
+00:02:25,906 --> 00:02:33,102
+negative 1, zero, 1, and I'll do one more, and then 2.
+
+42
+00:02:33,102 --> 00:02:36,638
+So once again, this is a little nontraditional
+
+43
+00:02:36,638 --> 00:02:38,503
+where I'm filling in the dependent variable first,
+
+44
+00:02:38,503 --> 00:02:40,703
+but the way that we have written it over here, ......
+
+45
+00:02:40,703 --> 00:02:46,407
+it's easy to to find out what the independent variable must be for this logarithmic function.
+
+46
+00:02:46,407 --> 00:02:50,073
+So, what x gives me the y of negative 2?
+
+47
+00:02:50,073 --> 00:02:54,989
+What does x have to be for y to be equal to -2?
+
+48
+00:02:54,989 --> 00:02:59,040
+Well, 5 to the negative 2 power is going to be equal to x,
+
+49
+00:02:59,040 --> 00:03:06,657
+so 5 to the negative 2, is 1 over 25, so we get 1/25.
+
+50
+00:03:06,657 --> 00:03:08,740
+So another way, if we go back to this earlier one,
+
+51
+00:03:08,740 --> 00:03:12,906
+if we say log, base 5, of 1/25.
+
+52
+00:03:12,906 --> 00:03:16,171
+What power do I have to raise 5 to to get 1/25?
+
+53
+00:03:16,171 --> 00:03:18,991
+Well, I have to raise it to the negative 2 power.
+
+54
+00:03:18,991 --> 00:03:23,408
+Or you could say 5 to the negative 2 is equal to 1/25.
+
+55
+00:03:23,408 --> 00:03:26,990
+These are saying the exact same thing.
+
+56
+00:03:26,990 --> 00:03:28,570
+Now, let's do another one.
+
+57
+00:03:28,570 --> 00:03:32,371
+What happens when I raise 5 to the negative 1 power?
+
+58
+00:03:32,371 --> 00:03:36,823
+Well, I get one fifth. For this original one over there,
+
+59
+00:03:36,823 --> 00:03:43,638
+we are just saying that log base 5 of 1/5, you want to be careful
+
+60
+00:03:43,638 --> 00:03:47,906
+this is saying: "what power do I have to raise 5 to, in order to get 1/5?"
+
+61
+00:03:47,906 --> 00:03:50,837
+Well, I have to raise it to the negative 1 power.
+
+62
+00:03:50,837 --> 00:03:55,504
+Here, what happens when I take 5 tot the 0 power? I get 1.
+
+63
+00:03:55,504 --> 00:04:02,406
+And so this relationship is saying the same thing as log, base 5, of 1,
+
+64
+00:04:02,406 --> 00:04:05,171
+what power do I have to raise 5 to to get 1?
+
+65
+00:04:05,171 --> 00:04:08,572
+Wel, I've just got to raise it to the 0 power.
+
+66
+00:04:08,572 --> 00:04:13,437
+Let's... what happens when I raise 5 tot the first power?
+
+67
+00:04:13,437 --> 00:04:14,969
+Well, I get 5.
+
+68
+00:04:14,969 --> 00:04:20,104
+So if you go over here, that is just saying, what power do I have to raise 5 to to get 5?
+
+69
+00:04:20,104 --> 00:04:23,171
+Well, I have to just raise it to the 1st power.
+
+70
+00:04:23,171 --> 00:04:27,656
+And then finally, if I take 5 squared, I get 25.
+
+71
+00:04:27,656 --> 00:04:31,837
+So if you look at it from the logarithm point of view, you say
+
+72
+00:04:31,837 --> 00:04:35,489
+what power do I have to raise 5 to to get to 25?
+
+73
+00:04:35,489 --> 00:04:38,239
+Well, I have to raise it to the second power.
+
+74
+00:04:38,239 --> 00:04:43,238
+So, I kind of took the inverse of the logarithmic function. I wrote it as an exponential function.
+
+75
+00:04:43,238 --> 00:04:45,771
+I switched the dependent and independent variables.
+
+76
+00:04:45,771 --> 00:04:51,406
+So I could pick, or derive, nice clean x's that would give me nice, clean y's.
+
+77
+00:04:51,406 --> 00:04:53,072
+Now, with that out of the way, but I do want you to remind,
+
+78
+00:04:53,072 --> 00:04:57,573
+I could have just picked random numbers over here,
+
+79
+00:04:57,573 --> 00:05:01,322
+but then I probably would have gotten less clean numbers over here, so I would have had to use a calculator.
+
+80
+00:05:01,322 --> 00:05:05,572
+The only reason why I did it this way, is so I get nice clean results that I can plot by hand
+
+81
+00:05:05,572 --> 00:05:08,302
+So let's actually graph it.
+
+82
+00:05:08,302 --> 00:05:13,103
+So the y's go between -2 and 2,
+
+83
+00:05:13,103 --> 00:05:18,038
+the x's go from 1/25 all the way to 25
+
+84
+00:05:18,038 --> 00:05:20,823
+So let's graph it.
+
+85
+00:05:20,823 --> 00:05:29,837
+So that is my y-axis, and this is my x-axis.
+
+86
+00:05:29,837 --> 00:05:35,073
+So I'll drw it like that, that is my x-axis and then the y's
+
+87
+00:05:35,073 --> 00:05:41,656
+start at zero and then you get to positive 1, positive 2,
+
+88
+00:05:41,656 --> 00:05:49,438
+and then you have -1, -2 and then on the x-axis it is all positive
+
+89
+00:05:49,438 --> 00:05:54,770
+and I'll let you think about whether the domain here is, well we can think about it,
+
+90
+00:05:54,770 --> 00:06:02,504
+Is a logarithmic function defined for an x that is not positive?
+
+91
+00:06:02,504 --> 00:06:07,503
+Is there any power that I could raise 5 to so that I would get 0?
+
+92
+00:06:07,503 --> 00:06:12,906
+No. You could raise 5 to an infinitely negative power to get a very very small number
+
+93
+00:06:12,906 --> 00:06:15,073
+that approaches 0, but you can never get-
+
+94
+00:06:15,073 --> 00:06:18,102
+there is no power that you can raise 5 to to get 0.
+
+95
+00:06:18,102 --> 00:06:21,504
+So x cannot be 0. There is no power that you can raise 5 to
+
+96
+00:06:21,504 --> 00:06:25,704
+to get a negative number. So x can also not be a negative number.
+
+97
+00:06:25,704 --> 00:06:27,740
+So the domain of the function right over here-
+
+98
+00:06:27,740 --> 00:06:30,237
+and this is relevant becausewe want to think about what we are graphing -
+
+99
+00:06:30,237 --> 00:06:33,238
+The domain here is x has to be greater than 0.
+
+100
+00:06:33,238 --> 00:06:35,771
+Let me write that down.
+
+101
+00:06:35,771 --> 00:06:39,837
+The domain here is that x has to be greater than 0.
+
+102
+00:06:39,837 --> 00:06:44,989
+So we are only going to be able to graph this function in the positive x-axis.
+
+103
+00:06:44,989 --> 00:06:47,836
+So with that out of the way, x gets as large as 25,
+
+104
+00:06:47,836 --> 00:06:55,705
+so let me put those points here, so that's 5, 10, 15, 20
+
+105
+00:06:55,705 --> 00:06:57,770
+and 25.
+
+106
+00:06:57,770 --> 00:06:58,990
+And then let's plot these.
+
+107
+00:06:58,990 --> 00:07:02,656
+... and is blue and x is 1.25 and y is -2.
+
+108
+00:07:02,656 --> 00:07:06,490
+When x is 1/25, is it going to be really close to there, then y is negative 2.
+
+109
+00:07:06,490 --> 00:07:08,770
+So that's going to be right over there.
+
+110
+00:07:08,770 --> 00:07:17,437
+Not quite at the y-axis, 1/25 .. of the y-axis, but pretty close.
+
+111
+00:07:17,437 --> 00:07:22,824
+So that right over there is 1/25 comma -2 right over there.
+
+112
+00:07:22,824 --> 00:07:26,906
+Then when x is 1/5, which is slihtly further to the right,
+
+113
+00:07:26,906 --> 00:07:29,907
+1/5 with y = -2. So right over there.
+
+114
+00:07:29,907 --> 00:07:36,838
+This is 1/5, -1. And then when x is 1, y is 0.
+
+115
+00:07:36,838 --> 00:07:46,236
+So 1 might be there, so this is the point (1,0).
+
+116
+00:07:46,236 --> 00:07:50,504
+And then when x is 5, y is 1.
+
+117
+00:07:50,504 --> 00:07:56,572
+I;ve covered it over here, y is 1.
+
+118
+00:07:56,572 --> 00:07:59,171
+So that's the point (5,1).
+
+119
+00:07:59,171 --> 00:08:01,837
+And then finally when xis 25, y is 2.
+
+120
+00:08:01,837 --> 00:08:12,969
+So this is (25,2). And then I can graph the function.
+
+121
+00:08:12,969 --> 00:08:16,907
+And I'll do it in the colour pink.
+
+122
+00:08:16,907 --> 00:08:24,823
+So as x get's super super super small, y goes to negative infinity.
+
+123
+00:08:24,823 --> 00:08:36,704
+So what power hve you have to rais e5 to to get point .0001
+
+124
+00:08:36,704 --> 00:08:38,657
+That has to be a very negative power.
+
+125
+00:08:38,657 --> 00:08:42,906
+So we get very negative as we approach 0,
+
+126
+00:08:42,906 --> 00:08:46,438
+and then it kind of moves up like that.
+
+127
+00:08:46,438 --> 00:08:51,239
+And then starts to curve to the right like that.
+
+128
+00:08:51,239 --> 00:08:58,906
+And this thing right over here is going to keep going down at an ever steeper rate
+
+129
+00:08:58,906 --> 00:09:04,503
+and it's never going to quite touch the y-axis.
+
+130
+00:09:04,503 --> 99:59:59,999
+It is going to get closer and closer to the y-axis but it is never going to quite touch it.

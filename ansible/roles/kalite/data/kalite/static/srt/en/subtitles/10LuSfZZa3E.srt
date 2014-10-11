@@ -1,0 +1,483 @@
+1
+00:00:00,500 --> 00:00:03,900
+Let's do a slightly more involved Snell's Law example
+
+2
+00:00:03,920 --> 00:00:08,220
+I have this person over here sitting at the edge of this pool
+
+3
+00:00:08,440 --> 00:00:11,440
+And they have a little laser pointer in their hand
+
+4
+00:00:11,440 --> 00:00:18,760
+and they shine their laser pointer 1.7 m above the surface of the pool
+
+5
+00:00:18,910 --> 00:00:24,380
+And they shine it, so it travels 8.1 m to touch the surface of the water
+
+6
+00:00:24,530 --> 00:00:27,660
+And then the light gets refracted inwards
+
+7
+00:00:27,660 --> 00:00:30,610
+It's going into a slower medium. If you think about the car analogy
+
+8
+00:00:30,640 --> 00:00:34,530
+the outside tires get to stay outside a little bit longer so they move faster
+
+9
+00:00:34,630 --> 00:00:36,510
+So it gets refracted inwards and then it hits
+
+10
+00:00:36,520 --> 00:00:40,090
+the bottom of the pool at some point right over here
+
+11
+00:00:40,130 --> 00:00:42,920
+and pool they tell us is 3 m deep
+
+12
+00:00:42,940 --> 00:00:49,970
+What I want to figure out is how far away does this point hit?
+
+13
+00:00:49,970 --> 00:00:56,640
+So what is this distance right over here?
+
+14
+00:00:56,660 --> 00:01:03,940
+To figure that out, I need to figure out what this distance is, right over here
+
+15
+00:01:03,960 --> 00:01:08,110
+and then figure out what that distance is and then add them up
+
+16
+00:01:08,140 --> 00:01:13,920
+I can figure out this part, this part right until we hit the surface of the water
+
+17
+00:01:13,940 --> 00:01:16,770
+and then figure out this incremental distance just like that
+
+18
+00:01:17,050 --> 00:01:22,340
+And hopefully a little bit of trigonometry and maybe Snell's Law will be able to get there
+
+19
+00:01:22,400 --> 00:01:26,100
+So let's start with the simplest thing. Let's just figure out this distance
+
+20
+00:01:26,580 --> 00:01:29,350
+And it looks like it will pay off later on as well
+
+21
+00:01:29,350 --> 00:01:33,970
+So let's figure out this distance right over here along the water
+
+22
+00:01:34,400 --> 00:01:38,970
+the surface of the water to where the laser point actually starts touching the water
+
+23
+00:01:39,560 --> 00:01:42,260
+And this is a straight up Pythagorean Theorem problem
+
+24
+00:01:42,620 --> 00:01:44,860
+This is a right angle
+
+25
+00:01:44,860 --> 00:01:50,970
+This is the hypotenuse over here. So this distance, let's call it x
+
+26
+00:01:51,190 --> 00:01:56,000
+X^2 +1.7 m ^2 = 8.1 ^2
+
+27
+00:01:56,020 --> 00:01:57,670
+just a straight up Pythagorean Theorem
+
+28
+00:01:57,670 --> 00:02:03,860
+X^2 +1.7 m ^2 = 8.1 ^2
+
+29
+00:02:04,140 --> 00:02:07,000
+Subtract 1.7 squared from both sides
+
+30
+00:02:07,000 --> 00:02:13,010
+we get X squared is equal to 8.1 squared -1.7 squared
+
+31
+00:02:13,320 --> 00:02:16,700
+If you want to solve for x, x = the positive square root of this
+
+32
+00:02:16,700 --> 00:02:18,760
+because we only care about positive distances
+
+33
+00:02:19,260 --> 00:02:27,410
+X is going to be equal to the principal root of 8.1 squared -1.7 squared
+
+34
+00:02:27,410 --> 00:02:31,140
+Let's get our calculator out for that, so x is going to be equal to
+
+35
+00:02:31,850 --> 00:02:42,630
+the square root of 8.1 squared -1.7 squared
+
+36
+00:02:42,640 --> 00:02:49,530
+And I get 7.92
+
+37
+00:02:50,050 --> 00:03:02,390
+So x is about 7.92. That is x
+
+38
+00:03:02,390 --> 00:03:05,880
+Now to figure out this incremental distance right over here
+
+39
+00:03:06,070 --> 00:03:10,920
+add that to this x and then we know this entire distance. Let's see how we can think about it
+
+40
+00:03:10,950 --> 00:03:17,740
+Let's think about what the incident angle is and what the angle of refraction
+
+41
+00:03:17,740 --> 00:03:21,740
+I'll drop the perpendicular to the interface or to the surface
+
+42
+00:03:22,070 --> 00:03:29,770
+So our incident angle is this angle right over here
+
+43
+00:03:30,520 --> 00:03:34,420
+And remember Snell's Law, we care about the sine of this angle
+
+44
+00:03:34,420 --> 00:03:36,410
+actually let me just write down what we care about
+
+45
+00:03:36,440 --> 00:03:39,500
+So we know this is our incident angle
+
+46
+00:03:40,000 --> 00:03:43,150
+This is our angle of refraction
+
+47
+00:03:43,390 --> 00:03:48,450
+We know that the index of refraction for this medium here--this is air--
+
+48
+00:03:48,450 --> 00:03:50,950
+the index of refraction for air
+
+49
+00:03:51,570 --> 00:03:59,890
+times the sine of theta 1--this is just Snell's Law--times our incident angle right here
+
+50
+00:04:00,150 --> 00:04:08,380
+is going to be equal to the index of refraction for the water
+
+51
+00:04:08,400 --> 00:04:16,470
+times the sine of theta 2, times the sine of our fraction angle
+
+52
+00:04:16,780 --> 00:04:21,970
+Now we know we can figure out these n's from this table here
+
+53
+00:04:22,000 --> 00:04:26,290
+I actually got this problem from ck12.org flexbook as well as the image for the problem
+
+54
+00:04:27,130 --> 00:04:29,690
+And so if you want to solve for theta 2
+
+55
+00:04:29,710 --> 00:04:32,560
+or if we know theta 2, we can then solve for this
+
+56
+00:04:32,560 --> 00:04:34,330
+We'll do that with a little bit of trigonometry
+
+57
+00:04:34,330 --> 00:04:41,220
+If we know the sine of theta 2, we'll be able to solve for this
+
+58
+00:04:41,250 --> 00:04:46,220
+Either way. Actually I'll solve for this angle. If we know this angle
+
+59
+00:04:46,220 --> 00:04:51,130
+then we're able to use a little bit of trigonometry to figure out this distance over here
+
+60
+00:04:51,350 --> 00:04:57,890
+So to solve for that angle, we have to figure out what the sine of theta 1 is
+
+61
+00:04:58,060 --> 00:05:00,540
+Let's put in all of the values
+
+62
+00:05:00,730 --> 00:05:11,670
+Our index of refraction of air 1.00029
+
+63
+00:05:11,810 --> 00:05:17,000
+times sin theta. Maybe you'll say, how to do that? We don't even know what that angle is
+
+64
+00:05:17,130 --> 00:05:23,430
+But remember this is basic trigonometry, soh cah toa
+
+65
+00:05:23,430 --> 00:05:25,660
+Sine is opposite over hypotenuse
+
+66
+00:05:25,660 --> 00:05:32,950
+If you have this angle here, let's make this part of a right triangle
+
+67
+00:05:32,960 --> 00:05:40,070
+opposite over hypotenuse is the ratio of this side to the hypotenuse
+
+68
+00:05:40,070 --> 00:05:46,720
+This distance over here is the same as x, which is 7.92
+
+69
+00:05:47,060 --> 00:05:52,830
+So the sine of theta 1 is going to be the opposite of the angle over the hypotenuse
+
+70
+00:05:52,830 --> 00:05:55,450
+That comes from the definition of sine
+
+71
+00:05:55,760 --> 00:06:01,830
+We don't have to know what theta 1 is
+
+72
+00:06:01,850 --> 00:06:13,940
+It's going to be 7.92/8.1
+
+73
+00:06:13,960 --> 00:06:32,380
+And that's going to be equal to the index of refraction of water which is 1.33
+
+74
+00:06:32,440 --> 00:06:35,880
+times sine of theta 2
+
+75
+00:06:35,880 --> 00:06:41,470
+If we want to solve for theta 2, we just divide both sides of this equation by 1.33
+
+76
+00:06:41,790 --> 00:07:06,000
+So if we divide both sides by 1.33, we get 1.00029 times 7.92/8.1 divided by 1.33
+
+77
+00:07:06,030 --> 00:07:12,970
+That is going to be equal to this sine of theta 2
+
+78
+00:07:13,010 --> 00:07:19,590
+So let's do that with the calculator
+
+79
+00:07:19,610 --> 00:07:25,830
+So we have 1.00029 times 7.92--
+
+80
+00:07:26,320 --> 00:07:35,250
+I can say second answer here. This is the exact value, not even rounding
+
+81
+00:07:35,520 --> 00:07:43,970
+and then divide it by 1.33 and 8.1
+
+82
+00:07:44,220 --> 00:07:51,920
+And we get that and that's going to be equal to the sine of theta 2
+
+83
+00:07:51,940 --> 00:08:00,750
+So let me write this down. So we have 0.735 is equal to the sine of theta 2
+
+84
+00:08:00,900 --> 00:08:04,910
+Now we could take the inverse sine of both sides of this equation to solve for theta 2
+
+85
+00:08:04,910 --> 00:08:09,200
+Theta 2 is equal to the inverse sine of this value
+
+86
+00:08:10,160 --> 00:08:15,770
+So I take the inverse sine of our last answer
+
+87
+00:08:22,700 --> 00:08:34,440
+So this is 47.34 degrees. So we're able to figure out what theta 2 is. 47.34 degrees.
+
+88
+00:08:34,460 --> 00:08:38,120
+So now we'll just have to use a little bit of trigonometry to actually figure out
+
+89
+00:08:38,120 --> 00:08:40,660
+to actually figure out this distance over here
+
+90
+00:08:40,880 --> 00:08:44,150
+So we know this angle
+
+91
+00:08:44,340 --> 00:08:49,300
+we want to figure its opposite side; we want to figure out the opposite side to that angle
+
+92
+00:08:49,380 --> 00:08:52,950
+And we know the adjacent side, which is 3
+
+93
+00:08:52,950 --> 00:08:55,990
+So what trig identity deals with opposite and adjacent?
+
+94
+00:08:56,000 --> 00:09:00,260
+Tangent, toa. Tangent is opposite over adjacent
+
+95
+00:09:08,850 --> 00:09:14,490
+is going to be equal to this opposite side over here--I'll call that y--
+
+96
+00:09:14,760 --> 00:09:20,110
+It's going to equal y over our adjacent side and that's just 3 m
+
+97
+00:09:20,330 --> 00:09:26,080
+To solve for y, we multiply both sides of this equation by 3
+
+98
+00:09:26,250 --> 00:09:34,090
+You get three times the tangent of 47.34 degrees is equal to y
+
+99
+00:09:34,750 --> 00:09:36,440
+Let's get the calculator out
+
+100
+00:09:36,730 --> 00:09:43,150
+So 3 times the tangent of that 47.34 degrees. I'll use the exact answer
+
+101
+00:09:43,810 --> 00:09:48,470
+3 times the tangent of that is 3.255
+
+102
+00:09:48,470 --> 00:09:58,480
+So this distance right here y is equal to 3.255 m
+
+103
+00:09:58,500 --> 00:10:01,610
+Now our question was what is this total distance
+
+104
+00:10:02,100 --> 00:10:07,100
+So it's going to be this distance X plus Y, plus the 3.255
+
+105
+00:10:07,100 --> 00:10:09,460
+X was 7.92
+
+106
+00:10:09,770 --> 00:10:19,280
+I'll round here. So it's literally going to be 7.92 + our answer just now
+
+107
+00:10:19,300 --> 00:10:28,680
+So we get about 11.18 meters
+
+108
+00:10:28,990 --> 00:10:35,020
+So this right here is the distance that we want to figure out
+
+109
+00:10:35,020 --> 00:10:42,240
+the point on the bottom of pool where the actual laser pointer hit
+
+110
+00:10:42,250 --> 00:10:54,560
+the surface of the pool will be approximately 11.18 m from this edge
+
+111
+00:10:54,560 --> 00:10:58,080
+Anyway, hopefully you found it useful. It's a little bit more involved
+
+112
+00:10:58,080 --> 00:11:00,680
+But really the hard part was just in the trigonometry
+
+113
+00:11:00,680 --> 00:11:02,980
+recognizing that you didn't have to know this angle
+
+114
+00:11:03,030 --> 00:11:05,800
+because you have all the information for the sine of that angle
+
+115
+00:11:05,800 --> 00:11:07,500
+You can actually figure out that angle now
+
+116
+00:11:07,520 --> 00:11:10,340
+Now that you know it's sine, you can figure out the inverse sine of that
+
+117
+00:11:10,340 --> 00:11:13,290
+But that's not even necessary. We know the sine of the angle
+
+118
+00:11:13,320 --> 00:11:14,940
+using basic trigonometry
+
+119
+00:11:14,970 --> 00:11:18,790
+we can use that and Snell's Law to figure out this angle right here
+
+120
+00:11:18,870 --> 00:11:21,390
+And once you know this angle, use a little bit more trigonometry to
+
+121
+00:11:21,390 --> 00:11:23,760
+figure out this incremental distance

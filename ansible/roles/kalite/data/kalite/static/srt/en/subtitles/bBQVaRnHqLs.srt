@@ -1,0 +1,955 @@
+1
+00:00:00,333 --> 00:00:02,018
+We here at the Khan Academy
+
+2
+00:00:02,018 --> 00:00:04,720
+are working on some type of a software project,
+
+3
+00:00:04,720 --> 00:00:06,438
+and we need to think about,
+
+4
+00:00:06,438 --> 00:00:09,670
+What's the optimal number of programmers we should hire?
+
+5
+00:00:09,670 --> 00:00:11,903
+And we think about how much productivity
+
+6
+00:00:11,903 --> 00:00:16,311
+we're getting per programmer when we are working on this software project
+
+7
+00:00:16,311 --> 00:00:18,661
+And so what I've done over here, this is a spreadsheet
+
+8
+00:00:18,661 --> 00:00:19,962
+So I'm not gonna be able to write
+
+9
+00:00:19,962 --> 00:00:21,142
+I'm only able to type
+
+10
+00:00:21,142 --> 00:00:23,310
+This is Microsoft Excel right over here
+
+11
+00:00:23,310 --> 00:00:26,193
+In this column I have the different numbers of programmers
+
+12
+00:00:26,193 --> 00:00:28,311
+And then let's say based on other studies
+
+13
+00:00:28,311 --> 00:00:30,610
+or industry studies or past experience
+
+14
+00:00:30,610 --> 00:00:33,605
+this tells us how many lines of programming code
+
+15
+00:00:33,605 --> 00:00:34,829
+we can get per month
+
+16
+00:00:34,829 --> 00:00:37,944
+And obviously lines of code isn't maybe the best way to measure things
+
+17
+00:00:37,944 --> 00:00:39,795
+because someone can write good lines
+
+18
+00:00:39,795 --> 00:00:41,274
+or bad lines of code
+
+19
+00:00:41,274 --> 00:00:42,909
+But let's just say this is one way of measuring
+
+20
+00:00:42,909 --> 00:00:45,896
+productivity for software engineers
+
+21
+00:00:45,896 --> 00:00:47,326
+So the first thing I wanna think about is
+
+22
+00:00:47,326 --> 00:00:48,957
+What are my fixed costs?
+
+23
+00:00:48,957 --> 00:00:50,164
+What am I going to spend
+
+24
+00:00:50,164 --> 00:00:53,564
+no matter how many software engineers I hire for this project
+
+25
+00:00:53,564 --> 00:00:56,963
+And for the sake of this video, my fixed costs will be
+
+26
+00:00:56,963 --> 00:00:59,479
+the office space, and the electricity
+
+27
+00:00:59,479 --> 00:01:00,983
+And let's assume I just have a
+
+28
+00:01:00,983 --> 00:01:04,429
+a huge, an office that can accommodate any number of the programmers
+
+29
+00:01:04,429 --> 00:01:06,500
+So that's a fixed cost, that's not going to change
+
+30
+00:01:06,500 --> 00:01:09,598
+Depending on the number of programmers that I have
+
+31
+00:01:09,598 --> 00:01:12,590
+And then the other fixed cost, let's just say I have a project manager for this project
+
+32
+00:01:12,590 --> 00:01:14,088
+That I'm going to pay her salary
+
+33
+00:01:14,088 --> 00:01:19,710
+to essentially help spec out what this software should actually do
+
+34
+00:01:19,710 --> 00:01:22,324
+So her salary, let's just say $10,000 a month
+
+35
+00:01:22,324 --> 00:01:25,961
+and then another $5,000 a month in office space for everybody
+
+36
+00:01:25,961 --> 00:01:29,570
+So it's gonna come out to $15,000 a month
+
+37
+00:01:29,570 --> 00:01:33,903
+And that's not gonna change regardless of however many programmers I have
+
+38
+00:01:33,903 --> 00:01:35,347
+So I'm gonna go in Excel
+
+39
+00:01:35,347 --> 00:01:37,372
+I'm gonna go to this little bottom right right over here
+
+40
+00:01:37,372 --> 00:01:39,075
+I'm gonna drag that down
+
+41
+00:01:39,075 --> 00:01:41,878
+And so it's gonna be fifteen thousand dollars in fixed costs
+
+42
+00:01:41,878 --> 00:01:44,628
+No matter how many programmers I end up hiring
+
+43
+00:01:44,628 --> 00:01:47,172
+Now the variable costs, let's assume
+
+44
+00:01:47,172 --> 00:01:49,968
+That the full, sometimes people
+
+45
+00:01:49,968 --> 00:01:54,318
+Let's just say that the full compensation for a programmer is $10,000 a month
+
+46
+00:01:54,318 --> 00:01:57,623
+So if you include the cost of their salary,
+
+47
+00:01:57,623 --> 00:01:59,747
+if you include the cost of their health insurance,
+
+48
+00:01:59,747 --> 00:02:04,291
+you include, you know, the extra goodies that they will eat from the company kitchen,
+
+49
+00:02:04,291 --> 00:02:05,590
+whatever it might be,
+
+50
+00:02:05,590 --> 00:02:07,447
+so it's going to be $10,000 a month
+
+51
+00:02:07,447 --> 00:02:10,509
+So my variable, my total variable costs
+
+52
+00:02:10,509 --> 00:02:12,996
+are going to be $10,000 times the number of programmers
+
+53
+00:02:12,996 --> 00:02:17,042
+So here I'm gonna write equals
+
+54
+00:02:17,042 --> 00:02:19,861
+and I'm gonna write, it's gonna be $10,000 per programmer
+
+55
+00:02:19,861 --> 00:02:24,615
+times, that little snowflake, I just pressed shift 8 to get that snowflake
+
+56
+00:02:24,615 --> 00:02:28,584
+times, and I can say times whatever is in that cell
+
+57
+00:02:28,584 --> 00:02:31,314
+so you see it's cell D7
+
+58
+00:02:31,314 --> 00:02:36,621
+Actually, let me scroll this over so you can actually see the cells
+
+59
+00:02:36,621 --> 00:02:39,986
+so actually cell D7, let me press enter
+
+60
+00:02:39,986 --> 00:02:41,049
+so that cell
+
+61
+00:02:41,049 --> 00:02:44,083
+is ten thousand dollars times D7
+
+62
+00:02:44,083 --> 00:02:45,498
+which is this one right over here
+
+63
+00:02:45,498 --> 00:02:47,983
+and I just selected that and I can press enter
+
+64
+00:02:47,983 --> 00:02:49,645
+and right now, that's nothing
+
+65
+00:02:49,645 --> 00:02:53,963
+Let me scroll over so you can see everything a little bit better
+
+66
+00:02:53,963 --> 00:02:59,000
+Scroll a little bit to the, there you go I'm having trouble
+
+67
+00:02:59,000 --> 00:03:00,228
+Ok, there you go
+
+68
+00:03:00,228 --> 00:03:02,915
+Now, what are going to be my total costs?
+
+69
+00:03:02,915 --> 00:03:06,359
+My total costs are my fixed costs plus my variable costs
+
+70
+00:03:06,359 --> 00:03:08,727
+So that's going to be equal to
+
+71
+00:03:08,727 --> 00:03:11,918
+And I'm just using my arrow keys right now
+
+72
+00:03:11,918 --> 00:03:18,854
+It's going to be equal to F7, that's cell F7
+
+73
+00:03:18,854 --> 00:03:22,020
+plus this one, plus my variable costs
+
+74
+00:03:22,020 --> 00:03:25,404
+My total costs are my fixed costs plus my variable costs
+
+75
+00:03:25,404 --> 00:03:27,723
+and so it's fifteen thousand dollars
+
+76
+00:03:27,723 --> 00:03:30,394
+And actually, I can make this true for every row over here
+
+77
+00:03:30,394 --> 00:03:32,926
+This is one of the really useful things about a spreadsheet
+
+78
+00:03:32,926 --> 00:03:40,727
+is, I define this cell as being $10,000 times whatever this cell is
+
+79
+00:03:40,727 --> 00:03:41,791
+right over here
+
+80
+00:03:41,791 --> 00:03:43,309
+So what I can just do is
+
+81
+00:03:43,309 --> 00:03:47,277
+I can just scroll, drag that all the way down
+
+82
+00:03:47,277 --> 00:03:50,422
+And for every one of these, it's going to take $10,000
+
+83
+00:03:50,422 --> 00:03:54,325
+times the cell that's essentially 3 to its left
+
+84
+00:03:54,325 --> 00:03:56,557
+This will be 10,000 times D8
+
+85
+00:03:56,557 --> 00:03:58,820
+This will be 10,000 times D9
+
+86
+00:03:58,820 --> 00:04:00,618
+or, then it will just look at that
+
+87
+00:04:00,618 --> 00:04:03,990
+So we can see right there, 10,000 times D9
+
+88
+00:04:03,990 --> 00:04:07,522
+You could click on there, you can actually see what the formula is
+
+89
+00:04:07,522 --> 00:04:08,825
+10,000 times D9
+
+90
+00:04:08,825 --> 00:04:12,534
+So by dragging that I was able to get the right formula all the way down
+
+91
+00:04:12,534 --> 00:04:16,241
+Now the total costs for every row here is going to be
+
+92
+00:04:16,241 --> 00:04:19,037
+2 to the left, plus 1 to the left
+
+93
+00:04:19,037 --> 00:04:22,876
+and so if I drag that down, it'll do that for every row over here
+
+94
+00:04:22,876 --> 00:04:25,805
+So now this is 25, is the 15 plus the 10
+
+95
+00:04:25,805 --> 00:04:28,386
+105 is the 15 plus 90,000
+
+96
+00:04:28,386 --> 00:04:31,871
+our total costs are fixed costs plus variable costs
+
+97
+00:04:31,871 --> 00:04:34,965
+Now let's think about the average fixed costs
+
+98
+00:04:34,965 --> 00:04:37,637
+and the average fixed costs, we're gonna think about it in fixed costs
+
+99
+00:04:37,637 --> 00:04:40,518
+per line of code produced
+
+100
+00:04:40,518 --> 00:04:46,018
+and over here line of code produced is 0, so we're gonna divide by 0 which is undefined
+
+101
+00:04:46,018 --> 00:04:48,811
+So we can leave that blank, but we can fill this one in
+
+102
+00:04:48,811 --> 00:04:52,354
+So our total fixed costs, this is going to be our total fixed costs
+
+103
+00:04:52,354 --> 00:04:55,980
+which is cell F8, I just use the arrow keys to select F8
+
+104
+00:04:55,980 --> 00:05:01,487
+divided by, our total lines of code per month
+
+105
+00:05:01,487 --> 00:05:05,866
+So divided by our total lines of code per month
+
+106
+00:05:05,866 --> 00:05:11,405
+and so, that gives me $3.75 in fixed costs per line of code
+
+107
+00:05:11,405 --> 00:05:14,685
+and then I can scroll, I can do the same thing that I've been doing before
+
+108
+00:05:14,685 --> 00:05:16,434
+I can drag this down
+
+109
+00:05:16,434 --> 00:05:19,757
+and then we see what the fixed cost is at any given point
+
+110
+00:05:19,757 --> 00:05:24,696
+if iItake the fixed cost $15,000 divided by the lines of code I get $1.38
+
+111
+00:05:24,696 --> 00:05:26,600
+and this actually makes sense because
+
+112
+00:05:26,600 --> 00:05:31,255
+the more programmers I add onto this project the more lines of code I get
+
+113
+00:05:31,255 --> 00:05:33,222
+I'm using the same fixed costs
+
+114
+00:05:33,222 --> 00:05:34,891
+I'm using the same project manager
+
+115
+00:05:34,891 --> 00:05:36,772
+I'm using the same office space
+
+116
+00:05:36,772 --> 00:05:39,092
+so the cost of that project manager and that office space
+
+117
+00:05:39,092 --> 00:05:42,555
+gets spread out amongst, or, along more and more code
+
+118
+00:05:42,555 --> 00:05:46,635
+So the cost, the fixed cost per line of code goes down
+
+119
+00:05:46,635 --> 00:05:48,673
+as we add more and more programmers
+
+120
+00:05:48,673 --> 00:05:52,877
+Now, what is the average variable cost?
+
+121
+00:05:52,877 --> 00:05:55,289
+So once again, the variable cost is going to be
+
+122
+00:05:55,289 --> 00:05:59,125
+whatever the variable cost is, per lines of code per month
+
+123
+00:05:59,125 --> 00:06:04,288
+So when we're talking about average, we're talking about the average cost per line of code
+
+124
+00:06:04,288 --> 00:06:06,407
+So this is, per line of code, per
+
+125
+00:06:06,407 --> 00:06:07,898
+let me write it over here
+
+126
+00:06:07,898 --> 00:06:16,945
+per line of code, and I'm gonna say, per month
+
+127
+00:06:16,945 --> 00:06:19,835
+Actually I wanted that to spread out more but the way I've set it up, I'll just scroll down
+
+128
+00:06:19,835 --> 00:06:22,419
+Woops! I'm even having issues here.
+
+129
+00:06:22,419 --> 00:06:27,185
+Alright, well! These are all per line, average lines of code per month
+
+130
+00:06:27,185 --> 00:06:30,500
+And so let's think about what happens with our variable costs
+
+131
+00:06:30,500 --> 00:06:33,364
+So I'm also gonna start here because I don't wanna divide by 0
+
+132
+00:06:33,364 --> 00:06:37,633
+So in this month, our total variable costs were $10,000
+
+133
+00:06:37,633 --> 00:06:42,167
+And our total lines of code are going to be $4,000
+
+134
+00:06:42,167 --> 00:06:44,464
+G8 divided by E8
+
+135
+00:06:44,464 --> 00:06:48,601
+So, average variable cost per line of code is $2.50
+
+136
+00:06:48,601 --> 00:06:52,662
+And then what happens, so let's do that for every row over here
+
+137
+00:06:52,662 --> 00:06:55,304
+So when we do it for every row, something interesting happens
+
+138
+00:06:55,304 --> 00:06:56,714
+Our average fixed cost went down
+
+139
+00:06:56,714 --> 00:07:00,144
+Because we're taking the saame cost and spreading it out among more code
+
+140
+00:07:00,144 --> 00:07:02,998
+But our average variable costs went up
+
+141
+00:07:02,998 --> 00:07:04,519
+As we added more programmers,
+
+142
+00:07:04,519 --> 00:07:07,251
+per line of code it actually cost us a little bit more
+
+143
+00:07:07,251 --> 00:07:08,951
+on average, per line of code
+
+144
+00:07:08,951 --> 00:07:11,167
+And that's actually if you look here,
+
+145
+00:07:11,167 --> 00:07:15,229
+as we add the incremental lines of code we get per programmer is actually going down
+
+146
+00:07:15,229 --> 00:07:19,236
+That first programmer by themselves, she can write 4,000 lines of code
+
+147
+00:07:19,236 --> 00:07:22,720
+But then, that second programmer is only, you're not getting to 8,000
+
+148
+00:07:22,720 --> 00:07:25,829
+You're getting to 3,000 and probably they have to co-ordinate with each other
+
+149
+00:07:25,829 --> 00:07:27,476
+They have to plan a little bit more
+
+150
+00:07:27,476 --> 00:07:29,042
+It's not all in one person's head
+
+151
+00:07:29,042 --> 00:07:31,258
+Then, when you add the third one
+
+152
+00:07:31,258 --> 00:07:34,698
+You're not even adding 3,000 lines of code, you're only adding 2,000 lines of code
+
+153
+00:07:34,698 --> 00:07:37,861
+And this is actually a real phenomenon, that actually happens in companies
+
+154
+00:07:37,861 --> 00:07:41,103
+The more people you add on to a project,
+
+155
+00:07:41,103 --> 00:07:42,593
+obviously maybe they can do more work,
+
+156
+00:07:42,593 --> 00:07:44,089
+there's going to be more co-ordination,
+
+157
+00:07:44,089 --> 00:07:46,023
+there's going to be more meetings, there's going to be more interruption
+
+158
+00:07:46,023 --> 00:07:49,284
+And so each person's individual productivity,
+
+159
+00:07:49,284 --> 00:07:50,998
+is going to go down
+
+160
+00:07:50,998 --> 00:07:54,547
+And this isn't to say that the third coder is somehow worse than the first coder
+
+161
+00:07:54,547 --> 00:07:55,964
+All of their, on average,
+
+162
+00:07:55,964 --> 00:08:00,313
+all of them are only going to produce 3,000 codes, 3,000 lines of code per month,
+
+163
+00:08:00,313 --> 00:08:03,352
+when maybe indivually they could have each produced 4,000 lines of code
+
+164
+00:08:03,352 --> 00:08:06,114
+but they have to spend some of their energies co-ordinating
+
+165
+00:08:06,114 --> 00:08:11,955
+And so that's why our average variable costs, per line of code is going up
+
+166
+00:08:11,955 --> 00:08:14,395
+As we add more and more people it's getting us incrementally,
+
+167
+00:08:14,395 --> 00:08:17,318
+it's getting more and more expensive on average,
+
+168
+00:08:17,318 --> 00:08:19,198
+to write that line of code
+
+169
+00:08:19,198 --> 00:08:21,934
+And as we look at average total cost, that's going to be,
+
+170
+00:08:21,934 --> 00:08:24,917
+once again, this is per line of code,
+
+171
+00:08:24,917 --> 00:08:32,647
+is gonna be our total cost H8, divided by the total lines of code per month
+
+172
+00:08:32,647 --> 00:08:35,971
+So, if we just hire one engineer,
+
+173
+00:08:35,971 --> 00:08:40,879
+we're going to have $6.25 spent per line of code
+
+174
+00:08:40,879 --> 00:08:42,485
+And that's because a lot is spent on,
+
+175
+00:08:42,485 --> 00:08:44,649
+and these are, this is actually just the sum of these two right here
+
+176
+00:08:44,649 --> 00:08:50,202
+And then, let me make that, set that formula for every row
+
+177
+00:08:50,202 --> 00:08:51,898
+And so, we see something interesting
+
+178
+00:08:51,898 --> 00:08:55,166
+When we start to hire a few engineers,
+
+179
+00:08:55,166 --> 00:08:57,163
+we are able to spread out our fixed costs,
+
+180
+00:08:57,163 --> 00:09:00,431
+even though our average variable costs per line of code are going up,
+
+181
+00:09:00,431 --> 00:09:02,324
+our fixed costs are going down
+
+182
+00:09:02,324 --> 00:09:08,100
+So, we're getting a little bit of a benefit for spreading our fixed cost per line of code
+
+183
+00:09:08,100 --> 00:09:09,815
+But then it starts to get expensive again,
+
+184
+00:09:09,815 --> 00:09:11,128
+because as we said,
+
+185
+00:09:11,128 --> 00:09:13,113
+the more people you have working on the project,
+
+186
+00:09:13,113 --> 00:09:15,327
+you're going to have to spend more time co-ordinating with each other,
+
+187
+00:09:15,327 --> 00:09:17,692
+and maybe even undoing each other's work,
+
+188
+00:09:17,692 --> 00:09:22,504
+or even redoing each other's work as opposed to just writing those actual software
+
+189
+00:09:22,504 --> 00:09:24,856
+And now let's think about the marginal cost
+
+190
+00:09:24,856 --> 00:09:27,029
+The marginal cost, the best way to think about it is,
+
+191
+00:09:27,029 --> 00:09:31,918
+what is the incremental cost of that next set of line of code?
+
+192
+00:09:31,918 --> 00:09:33,572
+So one way to think about it,
+
+193
+00:09:33,572 --> 00:09:35,644
+so this is going to be how much more you're spending,
+
+194
+00:09:35,644 --> 00:09:38,495
+divided by how much more code you're getting
+
+195
+00:09:38,495 --> 00:09:39,836
+So how much more, so for example, how much more,
+
+196
+00:09:39,836 --> 00:09:45,099
+And this is going to be once again per line of code
+
+197
+00:09:45,099 --> 00:09:46,697
+So once again, so we're getting,
+
+198
+00:09:46,697 --> 00:09:50,034
+we're spending, when we go from 0 programmers to 1 programmer,
+
+199
+00:09:50,034 --> 00:09:54,649
+we're going from $15,000 of total cost to $25,000 of total cost
+
+200
+00:09:54,649 --> 00:10:00,766
+So we're going from $15,000 to $25,000
+
+201
+00:10:00,766 --> 00:10:04,565
+that means we're increasing our expenditure by $25,000 minus $15,000
+
+202
+00:10:04,565 --> 00:10:06,912
+And so that's why I'm doing H8 minus H7
+
+203
+00:10:06,912 --> 00:10:10,030
+So that's how much more we're spending in expenditures,
+
+204
+00:10:10,030 --> 00:10:11,997
+and then how much more code are we getting?
+
+205
+00:10:11,997 --> 00:10:17,763
+Well, we're getting 4,000 minus 0 lines of code
+
+206
+00:10:17,763 --> 00:10:19,933
+And the reason why I'm doing the formula this way,
+
+207
+00:10:19,933 --> 00:10:22,315
+is so that when we drag it down on all the rows,
+
+208
+00:10:22,315 --> 00:10:23,919
+the formula will be right
+
+209
+00:10:23,919 --> 00:10:27,435
+So, because it is relatively taking the right cells into account
+
+210
+00:10:27,435 --> 00:10:29,271
+And the reason why I'm saying this it's average,
+
+211
+00:10:29,271 --> 00:10:30,411
+'cause this is saying,
+
+212
+00:10:30,411 --> 00:10:34,478
+What's the incremental cost for this first 4,000 lines of code?
+
+213
+00:10:34,478 --> 00:10:38,379
+And then we can go from there, maybe we can drag it down
+
+214
+00:10:38,379 --> 00:10:41,048
+And now this is the incremental cost of code,
+
+215
+00:10:41,048 --> 00:10:43,461
+for the next 3,000 lines of code
+
+216
+00:10:43,461 --> 00:10:45,084
+And once again, it got a little bit more expensive,
+
+217
+00:10:45,084 --> 00:10:48,867
+because, we're getting a little bit less efficient because we're adding more people
+
+218
+00:10:48,867 --> 00:10:51,618
+And there's something very interesting that happens here,
+
+219
+00:10:51,618 --> 00:10:54,662
+you might have noticed it in these numbers right here
+
+220
+00:10:54,662 --> 00:10:56,183
+We actually get a negative marginal cost,
+
+221
+00:10:56,183 --> 00:10:58,618
+this isn't meaning that when we add more lines of code
+
+222
+00:10:58,618 --> 00:10:59,620
+Somehow we're getting money,
+
+223
+00:10:59,620 --> 00:11:01,700
+it's actually saying that as we spend more money,
+
+224
+00:11:01,700 --> 00:11:04,513
+we're actually killing lines of code
+
+225
+00:11:04,513 --> 00:11:08,150
+Because at some point, if you have too many people on this one project team,
+
+226
+00:11:08,150 --> 00:11:10,383
+they actually start killing each other's productivity
+
+227
+00:11:10,383 --> 00:11:12,346
+And you can even see it right here in the numbers
+
+228
+00:11:12,346 --> 00:11:16,247
+When we had 7 people we were able to write 11,400 lines of code,
+
+229
+00:11:16,247 --> 00:11:18,168
+but then the 8th person, because of co-ordination,
+
+230
+00:11:18,168 --> 00:11:19,815
+it's not that this 8th person is incompetent,
+
+231
+00:11:19,815 --> 00:11:21,683
+it just, when you have 8 people in the team,
+
+232
+00:11:21,683 --> 00:11:23,313
+everyone's productivity goes down
+
+233
+00:11:23,313 --> 00:11:26,712
+So that you're only able to produce 11,200 lines of code
+
+234
+00:11:26,712 --> 00:11:28,733
+And that's why you have this negative marginal cost
+
+235
+00:11:28,733 --> 00:11:30,952
+Now when you get to 8 people, all of a sudden,
+
+236
+00:11:30,952 --> 00:11:36,333
+by spending more dollars, you're actually destroying some of what you're actually trying to produce
+
+237
+00:11:36,333 --> 00:11:39,463
+So what I wanted to do here is just to really get you behind numbers,
+
+238
+00:11:39,463 --> 00:11:42,276
+and really maybe give you a little sense of how you can actually do this with a spreadsheet,
+
+239
+00:11:42,276 --> 00:11:46,276
+and get you thinking a little bit about how a firm's cost structure might actually work

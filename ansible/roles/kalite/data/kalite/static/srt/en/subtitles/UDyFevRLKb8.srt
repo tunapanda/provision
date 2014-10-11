@@ -1,0 +1,374 @@
+1
+00:00:00,000 --> 00:00:01,260
+   
+
+2
+00:00:01,260 --> 00:00:05,820
+We are on problem 17.
+
+3
+00:00:05,820 --> 00:00:08,290
+Alice and Corinne stand
+back-to-back.
+
+4
+00:00:08,290 --> 00:00:11,620
+They each take 10 steps in
+opposite directions away from
+
+5
+00:00:11,620 --> 00:00:13,060
+each other and stop.
+
+6
+00:00:13,060 --> 00:00:15,740
+Alison turns around walks
+towards Corinne and reaches
+
+7
+00:00:15,740 --> 00:00:17,090
+her in 17 steps.
+
+8
+00:00:17,090 --> 00:00:19,720
+OK, so this is interesting.
+
+9
+00:00:19,720 --> 00:00:23,300
+So they're back-to-back.
+
+10
+00:00:23,300 --> 00:00:24,775
+Let's say Alice goes this way.
+
+11
+00:00:24,775 --> 00:00:27,130
+And let's say A is
+for Alice steps.
+
+12
+00:00:27,130 --> 00:00:33,740
+So 10 Alice steps, we don't know
+how long Alice steps are.
+
+13
+00:00:33,740 --> 00:00:38,540
+And then Corinne had gone this
+way and taken 10 Corinne
+
+14
+00:00:38,540 --> 00:00:39,520
+steps, right?
+
+15
+00:00:39,520 --> 00:00:41,930
+C is, I don't know how long she
+takes per step, two feet?
+
+16
+00:00:41,930 --> 00:00:42,970
+Who knows?
+
+17
+00:00:42,970 --> 00:00:45,850
+But C is the distance of Corinne
+steps in my little
+
+18
+00:00:45,850 --> 00:00:47,410
+world right here.
+
+19
+00:00:47,410 --> 00:00:49,700
+OK, so they took ten steps in
+opposite directions from each
+
+20
+00:00:49,700 --> 00:00:50,240
+other and stopped.
+
+21
+00:00:50,240 --> 00:00:52,730
+Alison turns around and walks
+towards Corinne and reaches
+
+22
+00:00:52,730 --> 00:00:53,990
+her in 17 steps.
+
+23
+00:00:53,990 --> 00:00:56,030
+So this is where Corinne
+is now, right?
+
+24
+00:00:56,030 --> 00:01:07,380
+So this whole distance here
+is 17 Alice steps.
+
+25
+00:01:07,380 --> 00:01:11,010
+The length of one of Alice steps
+is how many times the
+
+26
+00:01:11,010 --> 00:01:12,920
+length of one of Corinne's
+steps?
+
+27
+00:01:12,920 --> 00:01:15,580
+And they say, all of Alice's
+steps are the same length, and
+
+28
+00:01:15,580 --> 00:01:17,990
+all of Corinne's steps
+are the same length.
+
+29
+00:01:17,990 --> 00:01:19,390
+Well we know a couple
+of things.
+
+30
+00:01:19,390 --> 00:01:22,680
+We know to get to here
+would have been 10
+
+31
+00:01:22,680 --> 00:01:23,920
+Alice steps, right?
+
+32
+00:01:23,920 --> 00:01:26,790
+This would have been
+10 Alice steps.
+
+33
+00:01:26,790 --> 00:01:30,370
+So essentially, in the same
+distance that Corinne took 10
+
+34
+00:01:30,370 --> 00:01:32,090
+steps, Alice took what?
+
+35
+00:01:32,090 --> 00:01:34,330
+She took 7 steps, right?
+
+36
+00:01:34,330 --> 00:01:36,500
+She took 10 to get to the
+middle, and then 7 more to get
+
+37
+00:01:36,500 --> 00:01:37,476
+to where Corinne is.
+
+38
+00:01:37,476 --> 00:01:39,870
+So this is 7 Alice steps.
+
+39
+00:01:39,870 --> 00:01:44,470
+So 7 times Alice step length is
+equal to 10 times Corinne
+
+40
+00:01:44,470 --> 00:01:45,830
+step length, right?
+
+41
+00:01:45,830 --> 00:01:47,610
+I'm just saying 7a
+is equal to 10c.
+
+42
+00:01:47,610 --> 00:01:48,740
+And what do we want to know?
+
+43
+00:01:48,740 --> 00:01:52,280
+We want to know the length of
+one of Alice's steps is how
+
+44
+00:01:52,280 --> 00:01:53,840
+many times the length of
+one of Corinne's steps?
+
+45
+00:01:53,840 --> 00:01:54,770
+So we want to solve for a.
+
+46
+00:01:54,770 --> 00:01:57,786
+So Alice's step is equal to--
+divide both sides by 7-- is
+
+47
+00:01:57,786 --> 00:02:01,520
+equal to 10/7 times
+a Corinne step.
+
+48
+00:02:01,520 --> 00:02:04,460
+And that's our answer, 10/7.
+
+49
+00:02:04,460 --> 00:02:13,230
+Next problem, problem 18.
+
+50
+00:02:13,230 --> 00:02:20,390
+Let the function f be defined
+by f of x is equal to x
+
+51
+00:02:20,390 --> 00:02:24,950
+squared plus 18.
+
+52
+00:02:24,950 --> 00:02:33,710
+If m is a positive number such
+that f of 2m is equal to 2 f
+
+53
+00:02:33,710 --> 00:02:37,960
+of m, what is the value of m?
+
+54
+00:02:37,960 --> 00:02:39,360
+A lot of people get intimidated
+by these function
+
+55
+00:02:39,360 --> 00:02:40,780
+problems, but in some ways
+they're kind of the most
+
+56
+00:02:40,780 --> 00:02:42,490
+straightforward problems.
+You just have to sit
+
+57
+00:02:42,490 --> 00:02:43,670
+and evaluate them.
+
+58
+00:02:43,670 --> 00:02:45,250
+So what's f of 2m?
+
+59
+00:02:45,250 --> 00:02:47,670
+So everywhere we see
+an x, we put a 2m.
+
+60
+00:02:47,670 --> 00:02:53,730
+So it's 2m squared
+plus 18, right?
+
+61
+00:02:53,730 --> 00:02:55,115
+Wherever I saw an
+x, I put a 2m.
+
+62
+00:02:55,115 --> 00:02:58,475
+And that equals 2
+times f of m.
+
+63
+00:02:58,475 --> 00:03:00,200
+So wherever I see an
+x, I put an m.
+
+64
+00:03:00,200 --> 00:03:05,360
+So that's m squared plus 18.
+
+65
+00:03:05,360 --> 00:03:06,870
+Now I just simplify.
+
+66
+00:03:06,870 --> 00:03:14,510
+2m squared, that's equal to 4m
+squared plus 18 is equal to 2m
+
+67
+00:03:14,510 --> 00:03:16,680
+squared plus 36.
+
+68
+00:03:16,680 --> 00:03:18,760
+I just distributed the 2.
+
+69
+00:03:18,760 --> 00:03:22,100
+So you subtract 2m squared from
+both sides, you get 2m
+
+70
+00:03:22,100 --> 00:03:24,870
+squared plus 18 is
+equal to 36.
+
+71
+00:03:24,870 --> 00:03:27,060
+I subtracted this
+from both sides.
+
+72
+00:03:27,060 --> 00:03:29,590
+Subtract 18 from both
+sides, you get 2m
+
+73
+00:03:29,590 --> 00:03:32,090
+squared is equal to 18.
+
+74
+00:03:32,090 --> 00:03:38,110
+Divide both sides by 2, you get
+m squared is equal to 9.
+
+75
+00:03:38,110 --> 00:03:43,180
+And then you get m is equal
+to-- if you just did this
+
+76
+00:03:43,180 --> 00:03:44,850
+straight off, you'd get
+plus or minus 3.
+
+77
+00:03:44,850 --> 00:03:46,920
+But they tell us that m is a
+positive number, so we know
+
+78
+00:03:46,920 --> 00:03:48,780
+that m is equal to 3.
+
+79
+00:03:48,780 --> 00:03:50,162
+And we are done.
+
+80
+00:03:50,162 --> 00:03:51,280
+And that's it.
+
+81
+00:03:51,280 --> 00:03:54,440
+I'll see you in the
+next section.
+
+82
+00:03:54,440 --> 00:03:54,800
+

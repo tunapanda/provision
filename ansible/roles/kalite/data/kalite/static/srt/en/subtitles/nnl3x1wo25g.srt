@@ -1,0 +1,315 @@
+1
+00:00:00,720 --> 00:00:03,867
+Let's say you think very highly of company ABCD,
+
+2
+00:00:03,867 --> 00:00:06,548
+and you're convinced that the stock price will go up
+
+3
+00:00:06,548 --> 00:00:11,000
+from its current trading price of $50 per share.
+
+4
+00:00:13,600 --> 00:00:15,267
+You could do two things:
+
+5
+00:00:15,267 --> 00:00:18,576
+you could either just buy the stock for $50
+
+6
+00:00:18,576 --> 00:00:20,333
+and hope that the price goes up,
+
+7
+00:00:20,333 --> 00:00:22,407
+or — and I made this price up —
+
+8
+00:00:22,407 --> 00:00:24,149
+you could go to an options exchange and,
+
+9
+00:00:24,149 --> 00:00:25,867
+for the price of $5,
+
+10
+00:00:25,867 --> 00:00:30,133
+you could buy the option to buy this stock
+
+11
+00:00:30,133 --> 00:00:32,740
+over the next month. It expires in one month.
+
+12
+00:00:32,740 --> 00:00:34,067
+Usually it'll be a specific date,
+
+13
+00:00:34,067 --> 00:00:34,644
+but I'm just saying,
+
+14
+00:00:34,644 --> 00:00:37,152
+one month from the date you buy the option,
+
+15
+00:00:37,152 --> 00:00:39,467
+and it gives you the option to buy the stock
+
+16
+00:00:39,467 --> 00:00:41,908
+for $60 a share.
+
+17
+00:00:41,908 --> 00:00:44,667
+And the type of option I've just described is called
+
+18
+00:00:44,667 --> 00:00:46,068
+an American option.
+
+19
+00:00:46,068 --> 00:00:49,157
+And it can be compared to a European option.
+
+20
+00:00:49,157 --> 00:00:52,933
+An American option allows you to exercise the option
+
+21
+00:00:52,933 --> 00:00:55,496
+— to actually buy the stock — any time
+
+22
+00:00:55,496 --> 00:00:57,067
+from the time you have the option
+
+23
+00:00:57,067 --> 00:00:58,733
+until the expiration.
+
+24
+00:00:58,733 --> 00:01:01,867
+On a European option, you only have the option,
+
+25
+00:01:01,867 --> 00:01:04,933
+you can only exercise it on the expiration.
+
+26
+00:01:04,933 --> 00:01:07,825
+But we'll just focus on the American.
+
+27
+00:01:07,825 --> 00:01:09,333
+Now let's think about the different outcomes
+
+28
+00:01:09,333 --> 00:01:11,333
+depending on what the stock does.
+
+29
+00:01:11,333 --> 00:01:14,165
+So let's say the stock actually does do what you think it does.
+
+30
+00:01:14,165 --> 00:01:16,600
+Let's say it goes up and then it goes down.
+
+31
+00:01:16,600 --> 00:01:20,467
+Let's say that you're really good at calling stock price tops.
+
+32
+00:01:20,467 --> 00:01:23,867
+And then right over here, let's take the two scenarios.
+
+33
+00:01:23,867 --> 00:01:26,467
+Let's take the scenario where you bought the stock
+
+34
+00:01:26,467 --> 00:01:27,818
+and then you sell the stock.
+
+35
+00:01:27,818 --> 00:01:29,867
+So you bought at $50, and then over here
+
+36
+00:01:29,867 --> 00:01:32,267
+right at the top, you're just a perfect market caller,
+
+37
+00:01:32,267 --> 00:01:35,533
+you're able to sell the stock at $80.
+
+38
+00:01:35,533 --> 00:01:38,867
+So let's just think about the different profit scenarios.
+
+39
+00:01:38,867 --> 00:01:42,733
+So here we have an end price of $80 per share.
+
+40
+00:01:42,733 --> 00:01:46,400
+If you had bought the stock for $50 and now sold it at $80,
+
+41
+00:01:46,400 --> 00:01:51,667
+you will have a profit of $30.
+
+42
+00:01:51,667 --> 00:01:54,067
+Now let's think about if, instead of buying the stock,
+
+43
+00:01:54,067 --> 00:01:57,133
+you bought the option today.
+
+44
+00:01:57,133 --> 00:01:58,491
+So if you bought the option,
+
+45
+00:01:58,491 --> 00:02:00,581
+same thing, when the stock goes up to here,
+
+46
+00:02:00,581 --> 00:02:02,600
+you'll say, "Oh, I think that's the top for the stock,
+
+47
+00:02:02,600 --> 00:02:05,333
+let me exercise my option.
+
+48
+00:02:05,333 --> 00:02:07,067
+So I'm going to exercise my option
+
+49
+00:02:07,067 --> 00:02:10,533
+which gives me the right to buy the stock at $60 a share."
+
+50
+00:02:10,533 --> 00:02:12,563
+So you're going to buy it at $60 a share,
+
+51
+00:02:12,563 --> 00:02:13,667
+right over here,
+
+52
+00:02:13,667 --> 00:02:16,467
+and you can immediately sell it for $80 a share.
+
+53
+00:02:16,467 --> 00:02:20,000
+So you could make $20 on that transaction,
+
+54
+00:02:20,000 --> 00:02:23,067
+but, of course, you paid $5 for the option itself.
+
+55
+00:02:23,067 --> 00:02:26,800
+So you make $20 on the difference between $80 and $60,
+
+56
+00:02:26,800 --> 00:02:27,933
+but you had to pay $5.
+
+57
+00:02:27,933 --> 00:02:32,067
+So you have a $15 profit.
+
+58
+00:02:32,067 --> 00:02:33,333
+So there it says, hey, look,
+
+59
+00:02:33,333 --> 00:02:35,867
+maybe I was better off buying the stock!
+
+60
+00:02:35,867 --> 00:02:36,733
+And even there I'd say, look,
+
+61
+00:02:36,733 --> 00:02:41,333
+to buy the stock you had to put $50 of capital at risk.
+
+62
+00:02:41,333 --> 00:02:44,815
+To buy the option, you only had to put $5 of capital at risk.
+
+63
+00:02:44,815 --> 00:02:47,333
+And to see that, imagine the negative scenario,
+
+64
+00:02:47,333 --> 00:02:48,832
+where instead of the stock doing that,
+
+65
+00:02:48,832 --> 00:02:53,600
+let's say the stock just completely plummets after you buy.
+
+66
+00:02:53,600 --> 00:02:55,867
+And it goes all the way down to $20.
+
+67
+00:02:55,867 --> 00:02:57,400
+Now in the situation with the stock,
+
+68
+00:02:57,400 --> 00:02:59,600
+let's say right over there you've just had enough.
+
+69
+00:02:59,600 --> 00:03:01,800
+You say, "I just want to sell the stock."
+
+70
+00:03:01,800 --> 00:03:05,467
+So this is an end price of $20.
+
+71
+00:03:05,467 --> 00:03:08,244
+In that situation, you bought for $50, sell for $20,
+
+72
+00:03:08,244 --> 00:03:10,867
+you will lose $30.
+
+73
+00:03:10,867 --> 00:03:14,267
+But in the option scenario, this entire time that it was plummeting,
+
+74
+00:03:14,267 --> 00:03:17,067
+you'll say, "I just won't exercise the option."
+
+75
+00:03:17,067 --> 00:03:18,933
+The option is "out of the money."
+
+76
+00:03:18,933 --> 00:03:21,200
+It makes no sense for me to exercise it.
+
+77
+00:03:21,200 --> 00:03:23,067
+So you just won't exercise the option.
+
+78
+00:03:23,067 --> 00:03:26,600
+So you'll only lose the price that you paid for the option.
+
+79
+00:03:26,600 --> 00:03:31,533
+You'll only lose your $5.

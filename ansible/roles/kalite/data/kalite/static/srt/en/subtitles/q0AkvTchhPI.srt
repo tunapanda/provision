@@ -1,0 +1,695 @@
+1
+00:00:00,850 --> 00:00:03,390
+We're on problem 205.
+
+2
+00:00:06,490 --> 00:00:07,590
+In the table above,
+
+3
+00:00:07,630 --> 00:00:11,210
+what is the number of green marbles in jar R? OK.
+
+4
+00:00:11,700 --> 00:00:21,250
+Let's see, they give us a table, they have jars P, Q, and R.
+
+5
+00:00:21,430 --> 00:00:31,540
+They say number of red, is x, y, and x.
+
+6
+00:00:31,920 --> 00:00:41,640
+And they tell us the number of green is y, z, and z.
+
+7
+00:00:41,700 --> 00:00:52,410
+And then they tell us the total is 80, 120, and 160.
+
+8
+00:00:52,510 --> 00:00:54,030
+And they say, in the table above,
+
+9
+00:00:54,190 --> 00:00:57,800
+what is the number of green marbles in jars?
+
+10
+00:00:57,830 --> 00:01:00,350
+So we need to solve for z.
+
+11
+00:01:02,970 --> 00:01:07,010
+So what we have here is three variables and
+
+12
+00:01:07,010 --> 00:01:09,640
+we have three unknowns. We actually have three equations
+
+13
+00:01:09,640 --> 00:01:13,550
+because we know that the red plus the green is equal to
+
+14
+00:01:13,610 --> 00:01:16,000
+the total for any one of the jars.
+
+15
+00:01:16,370 --> 00:01:22,530
+y plus z is equal to 120 and x plus z is equal to 160.
+
+16
+00:01:23,350 --> 00:01:26,370
+So let's just try to solve this equation.
+
+17
+00:01:26,500 --> 00:01:29,940
+So let's try to get everything-- I don't know,
+
+18
+00:01:29,940 --> 00:01:31,620
+what do we want to cancel out first?
+
+19
+00:01:32,500 --> 00:01:35,160
+What happens if we subtract that equation from this one?
+
+20
+00:01:35,160 --> 00:01:42,060
+Let me write that one over.So that's x plus y is equal to 80.
+
+21
+00:01:42,060 --> 00:01:45,020
+I just rewrote that column down here.
+
+22
+00:01:45,020 --> 00:01:49,210
+Now, if we were to subtract this from that--
+
+23
+00:01:49,260 --> 00:01:50,490
+let's just well multiply it by negative 1.
+
+24
+00:01:50,510 --> 00:01:54,550
+So, minus x, minus y, minus 80. And now let's just add them.
+
+25
+00:01:54,680 --> 00:02:01,380
+We get 0 plus z minus y, so we get z minus y is equal to--
+
+26
+00:02:01,460 --> 00:02:04,900
+what's 160 minus 80? Well that's just 80.
+
+27
+00:02:06,020 --> 00:02:08,690
+And now, this is interesting, we have z minus y equals 80,
+
+28
+00:02:08,730 --> 00:02:12,080
+and z plus y is equal to 120. So I think we're pretty close.
+
+29
+00:02:12,090 --> 00:02:12,710
+Let's write that.
+
+30
+00:02:12,730 --> 00:02:16,010
+So we could write this equation-- I'll write it in yellow.
+
+31
+00:02:16,010 --> 00:02:21,460
+z plus y-- I just switched the order-- is equal to 120.
+
+32
+00:02:23,060 --> 00:02:24,060
+But, in the back of my mind, I'm like,
+
+33
+00:02:24,060 --> 00:02:25,390
+well, I have to do is figure out these.
+
+34
+00:02:25,480 --> 00:02:28,090
+If I can figure out these as fast as possible,all the better.
+
+35
+00:02:29,230 --> 00:02:35,680
+Add these two equations. 2z plus 0 is equal to 240.
+
+36
+00:02:36,170 --> 00:02:39,000
+z is equal to 120.
+
+37
+00:02:39,000 --> 00:02:45,000
+And that's the number of green marbles in jar R. 120.
+
+38
+00:02:45,000 --> 00:02:47,670
+And that is not one of the choices.
+
+39
+00:02:49,610 --> 00:02:51,050
+Where did I make a mistake?
+
+40
+00:02:51,050 --> 00:02:53,490
+I often make a mistake right near the end.
+
+41
+00:02:53,570 --> 00:02:57,020
+Let's see. x plus z.
+
+42
+00:02:57,020 --> 00:03:00,020
+Let me see. X plus y is equal to 80.
+
+43
+00:03:00,020 --> 00:03:05,130
+y plus z is equal to 120. x plus z is equal to 160.
+
+44
+00:03:07,020 --> 00:03:10,950
+Now, I took this equation-- no, I took this one and
+
+45
+00:03:10,950 --> 00:03:12,930
+I multiplied it by negative 1 and put it here.
+
+46
+00:03:12,930 --> 00:03:17,010
+Minus x,minus y,is equal to minus 80. Then I added these two.
+
+47
+00:03:17,010 --> 00:03:21,000
+So the x's cancel out and you're left with z minus y is
+
+48
+00:03:21,000 --> 00:03:22,420
+equal to 80.
+
+49
+00:03:26,730 --> 00:03:31,110
+And then, this equation says y plus z is equal to 120--
+
+50
+00:03:31,110 --> 00:03:35,030
+oh, I see my mistake. You see, I made it right at the end.
+
+51
+00:03:35,030 --> 00:03:39,050
+z minus y is equal to 80. z plus y is equal to 120.
+
+52
+00:03:39,050 --> 00:03:45,460
+80 plus 120 is not 240. 80 plus 120 is 200.
+
+53
+00:03:45,690 --> 00:03:49,050
+So 2z is equal to 200. z is equal to 100.
+
+54
+00:03:49,500 --> 00:03:54,610
+Boneheaded mistake. So the answer is 100. D.
+
+55
+00:03:55,840 --> 00:04:01,010
+Next question. Question 206.
+
+56
+00:04:01,010 --> 00:04:05,200
+In the circle above, PQ-- let me draw the circle above.
+
+57
+00:04:07,000 --> 00:04:08,670
+This is the circle above.
+
+58
+00:04:08,670 --> 00:04:11,000
+Let's see, in the circle above, PQ-- OK
+
+59
+00:04:11,000 --> 00:04:14,030
+they then draw diameter. Let me draw diameter as well.
+
+60
+00:04:14,030 --> 00:04:16,400
+Because I want to be accurate.
+
+61
+00:04:17,270 --> 00:04:24,100
+So that's diameter and they labelled this as O and R.
+
+62
+00:04:24,760 --> 00:04:27,240
+And they say PQ-- so they have this other line up here that
+
+63
+00:04:27,240 --> 00:04:31,600
+this is parallel to the diameter. So let me draw it up here.
+
+64
+00:04:33,060 --> 00:04:36,070
+Maybe it looks something like this. That's parallel.
+
+65
+00:04:37,420 --> 00:04:40,300
+And they call this point P and this point Q.
+
+66
+00:04:40,300 --> 00:04:43,890
+And then they have another line they say is a 35 degree angle
+
+67
+00:04:44,090 --> 00:04:45,360
+Let me see if I can draw that.
+
+68
+00:04:46,060 --> 00:04:48,880
+You have a line that goes from here to here.
+
+69
+00:04:50,000 --> 00:04:53,780
+And they tell us that this angle right here is 35 degrees.
+
+70
+00:04:56,010 --> 00:05:00,470
+In the circle above, PQ is parallel to diameter OR.
+
+71
+00:05:02,960 --> 00:05:12,060
+And OR has length 18. What is the length of minor arc PQ?
+
+72
+00:05:12,060 --> 00:05:19,750
+Fascinating. So, they want to know what this is.
+
+73
+00:05:21,000 --> 00:05:23,960
+So, we can figure out the circumference of this circle.
+
+74
+00:05:24,160 --> 00:05:25,440
+The circumference, we know its diameter.
+
+75
+00:05:25,440 --> 00:05:28,150
+It's just going to be the diameter times pi.
+
+76
+00:05:28,450 --> 00:05:31,070
+So, we already know that the circumference of the circle is
+
+77
+00:05:31,070 --> 00:05:34,190
+18 pi or 2 times the radius times pi. But same thing.
+
+78
+00:05:35,000 --> 00:05:37,610
+Now, in order to figure out this arc length,
+
+79
+00:05:38,210 --> 00:05:39,600
+what would be useful--
+
+80
+00:05:39,600 --> 00:05:41,230
+and I don't know yet if I can figure it out,
+
+81
+00:05:41,230 --> 00:05:45,030
+is if we could figure out this angle right here.
+
+82
+00:05:45,030 --> 00:05:49,070
+If we could figure out this angle right here, we'd be done.
+
+83
+00:05:49,070 --> 00:05:54,000
+We could easily figure it out because that
+
+84
+00:05:54,000 --> 00:05:55,570
+angle as a proportion of 360
+
+85
+00:05:55,570 --> 00:05:58,860
+would be the same relative proportion of the total radius.
+
+86
+00:05:59,200 --> 00:06:02,380
+So let's see if we can figure out what that angle is.
+
+87
+00:06:02,720 --> 00:06:05,010
+Just given the information they've given us.
+
+88
+00:06:05,370 --> 00:06:09,860
+This angle here's is going to be 35 degrees.
+
+89
+00:06:10,350 --> 00:06:11,320
+And how did I know that?
+
+90
+00:06:11,360 --> 00:06:13,670
+Well, those are those are opposite inside angles.
+
+91
+00:06:16,000 --> 00:06:16,900
+Let me see.
+
+92
+00:06:16,990 --> 00:06:20,580
+What matters is-- let me think about it a little bit.
+
+93
+00:06:26,000 --> 00:06:28,620
+And this is on the circle. Oh, well this is interesting.
+
+94
+00:06:32,380 --> 00:06:34,370
+We should use the information. This is a circle.
+
+95
+00:06:34,370 --> 00:06:37,090
+So, what is the length of that right there?
+
+96
+00:06:37,090 --> 00:06:43,530
+Well, if the diameter is 18 then the radius is 9, right?
+
+97
+00:06:43,570 --> 00:06:48,080
+If that length is 9, than this length is also going to be 9.
+
+98
+00:06:48,710 --> 00:06:52,000
+And if that length is 9-- oh this is interesting.
+
+99
+00:06:52,000 --> 00:06:54,640
+This length is 9, this length is also 9.
+
+100
+00:06:57,750 --> 00:06:58,680
+That length also has to be 9.
+
+101
+00:06:58,680 --> 00:07:02,050
+They're both radiuses of the circle which tells us that this,
+
+102
+00:07:02,050 --> 00:07:05,030
+right here, is kind of an isosceles triangle on its side.
+
+103
+00:07:05,530 --> 00:07:06,600
+It looks like that.
+
+104
+00:07:09,190 --> 00:07:11,120
+Where these sides are equal. They're both equal to 9.
+
+105
+00:07:11,450 --> 00:07:15,370
+So, if this is a 35 degree angle, then this, right here,
+
+106
+00:07:15,370 --> 00:07:18,450
+has to be a 35 degree angle as well.I know you can read it.
+
+107
+00:07:18,520 --> 00:07:24,000
+Because the base angles of an isosceles triangle are equal.
+
+108
+00:07:24,200 --> 00:07:26,730
+I could redraw it like this. This is an interesting problem.
+
+109
+00:07:29,380 --> 00:07:31,330
+So, if we know that length is equal to that length,
+
+110
+00:07:31,330 --> 00:07:33,190
+we know that angle is equal to that angle.
+
+111
+00:07:34,190 --> 00:07:37,090
+So, then we know that this angle right here
+
+112
+00:07:37,090 --> 00:07:40,750
+has also got to be equal to 35.
+
+113
+00:07:44,240 --> 00:07:46,940
+This is useful because if this angle is 35
+
+114
+00:07:46,940 --> 00:07:50,000
+and this angle is 35, what is this entire angle?
+
+115
+00:07:50,000 --> 00:07:52,010
+What is that entire angle?
+
+116
+00:07:52,010 --> 00:07:54,080
+Well that entire angle-- let me draw it up here.
+
+117
+00:07:54,080 --> 00:07:59,010
+So that's the PQ side. So, this is also 35.
+
+118
+00:07:59,010 --> 00:08:04,080
+So this entire angle right here is 70. 35 plus 35.
+
+119
+00:08:04,580 --> 00:08:06,060
+I should have drawn this a lot bigger.
+
+120
+00:08:06,510 --> 00:08:09,310
+So,this right here is 70 degrees. And how do I figure it out?
+
+121
+00:08:09,310 --> 00:08:12,850
+I figure out this 35 because this is an isosceles triangle.
+
+122
+00:08:12,850 --> 00:08:15,040
+And I figured out that this is 35.
+
+123
+00:08:15,040 --> 00:08:20,050
+I figured out that this is right here is 35 because it's an
+
+124
+00:08:20,050 --> 00:08:22,790
+opposite angle from a transversal between two parallel lines.
+
+125
+00:08:23,010 --> 00:08:26,970
+Because that line is parallel to that line.
+
+126
+00:08:28,410 --> 00:08:32,000
+So, that was all pretty useful.
+
+127
+00:08:32,000 --> 00:08:36,660
+Now, what if there was only a way to figure out
+
+128
+00:08:36,660 --> 00:08:37,700
+what this angle was?
+
+129
+00:08:37,700 --> 00:08:39,920
+Because if we know this angle and this angle,
+
+130
+00:08:40,000 --> 00:08:42,080
+then we know for sure this angle.
+
+131
+00:08:42,660 --> 00:08:45,040
+Well, I'm going to use the same argument.
+
+132
+00:08:45,650 --> 00:08:50,030
+This line right here, this is a radius of the triangle.
+
+133
+00:08:50,570 --> 00:08:53,970
+So this side right here is also 9. That side.
+
+134
+00:08:54,500 --> 00:08:58,070
+so, if we know that this side is equal to this side--
+
+135
+00:08:58,340 --> 00:09:00,440
+let me draw the triangle that I'm talking about now,
+
+136
+00:09:00,590 --> 00:09:02,040
+because I think this is an important problem.
+
+137
+00:09:02,040 --> 00:09:04,540
+So, I'm trying to figure out the value of
+
+138
+00:09:04,540 --> 00:09:06,000
+this upside down triangle.
+
+139
+00:09:07,020 --> 00:09:09,020
+And I'll label it so you know what I'm talking about.
+
+140
+00:09:09,020 --> 00:09:13,650
+So,this is P.This is Q. And this is the center of the circle.
+
+141
+00:09:15,290 --> 00:09:18,130
+And we know that the side is 9, this side is 9.
+
+142
+00:09:18,440 --> 00:09:21,100
+And we just figured out that this angle right here is 70.
+
+143
+00:09:22,000 --> 00:09:25,080
+This was 35 plus another 35.
+
+144
+00:09:25,080 --> 00:09:27,630
+Once again, another isosceles triangle.
+
+145
+00:09:27,870 --> 00:09:29,430
+If this side is equal to that side,
+
+146
+00:09:29,440 --> 00:09:31,020
+that this angle is equal to this angle.
+
+147
+00:09:31,020 --> 00:09:34,040
+So, this angle also has to be equal to 70.
+
+148
+00:09:34,040 --> 00:09:37,430
+And now,if we know two angles of a triangle,we know the third
+
+149
+00:09:37,500 --> 00:09:39,200
+This has to be-- [PHONE RINGING] I'm on a roll.
+
+150
+00:09:39,200 --> 00:09:43,210
+I'm not going to answer the phone. Oh I think it's my wife.
+
+151
+00:09:44,330 --> 00:09:46,080
+I'm going to call her back right after this.
+
+152
+00:09:46,080 --> 00:09:49,130
+So what was I doing? I lost my train of thought.
+
+153
+00:09:49,370 --> 00:09:50,100
+I was on a roll.
+
+154
+00:09:50,160 --> 00:09:53,380
+If this angle is 70 degrees, this angle is 70 degrees,
+
+155
+00:09:53,530 --> 00:09:55,180
+then this angle has to be what?
+
+156
+00:09:55,290 --> 00:10:01,450
+70 plus 70 plus x is equal to 180 degrees.
+
+157
+00:10:01,800 --> 00:10:08,690
+140 plus x is equal to 40 degrees. Sorry, is equal to 180.
+
+158
+00:10:08,840 --> 00:10:13,260
+My brain was skipping ahead. x is equal to 40 degrees. OK.
+
+159
+00:10:13,360 --> 00:10:16,260
+So that angle is 40 degrees which is the same thing as
+
+160
+00:10:16,260 --> 00:10:17,030
+that angle.
+
+161
+00:10:17,300 --> 00:10:19,530
+So the length of-- so let's go back to the problem.
+
+162
+00:10:19,530 --> 00:10:21,450
+We have to figure out what this arc length is.
+
+163
+00:10:22,570 --> 00:10:30,250
+So,this angle,which is 40 over all the degrees in the circle,
+
+164
+00:10:30,340 --> 00:10:34,330
+over 360, is going to be equal to this arc length--
+
+165
+00:10:34,400 --> 00:10:35,490
+let's just call it x--
+
+166
+00:10:36,060 --> 00:10:39,570
+over the circumference of the whole circle. And we know that
+
+167
+00:10:39,570 --> 00:10:42,860
+the circumference of the full circle is 18 pi.
+
+168
+00:10:45,100 --> 00:10:47,000
+Let's see if we can simplify this.
+
+169
+00:10:47,000 --> 00:10:52,070
+40 goes into 360-- that's 1/9. So to this becomes 1 over 9.
+
+170
+00:10:54,770 --> 00:10:59,120
+Then we could cross multiply and get 9x is equal to 18 pi.
+
+171
+00:10:59,670 --> 00:11:06,000
+x is equal to, 18 pi divided by 9, is equal to 2 pi.
+
+172
+00:11:06,000 --> 00:11:09,380
+And, luckily, that's one of the choices. It's choice A.
+
+173
+00:11:09,460 --> 00:11:10,880
+See you in the next video.
+
+174
+00:11:10,920 --> 00:11:12,090
+I now have to call my wife.

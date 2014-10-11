@@ -1,0 +1,1040 @@
+1
+00:00:00,650 --> 00:00:02,917
+I realize I made a slight error in the last video,
+
+2
+00:00:02,917 --> 00:00:06,790
+when I talk about the population and the sample mean.
+
+3
+00:00:06,790 --> 00:00:09,170
+So I will rewrite the equations.
+
+4
+00:00:09,170 --> 00:00:11,540
+I realize I made a slight notational error,
+
+5
+00:00:11,540 --> 00:00:12,700
+and it might have confused you a little bit.
+
+6
+00:00:12,700 --> 00:00:14,870
+So just to review a little bit, it never hurts.
+
+7
+00:00:14,870 --> 00:00:18,947
+The mean of a population-- once again, that's mu--
+
+8
+00:00:18,947 --> 00:00:21,443
+the mean of a population is equal to,
+
+9
+00:00:21,443 --> 00:00:23,945
+you take the sum of each of the data points.
+
+10
+00:00:23,945 --> 00:00:28,080
+So you take the sum-- that's what that big sigma is for--
+
+11
+00:00:28,080 --> 00:00:29,720
+of each of the data points.
+
+12
+00:00:29,720 --> 00:00:30,880
+So X sub i.
+
+13
+00:00:30,880 --> 00:00:33,880
+I had written X sub n before, and if you review the last video,
+
+14
+00:00:33,880 --> 00:00:35,750
+you can see why it might be a little confusing.
+
+15
+00:00:35,750 --> 00:00:38,500
+And you start with the first data point.
+
+16
+00:00:38,500 --> 00:00:41,090
+So i is equal to 1.
+
+17
+00:00:41,090 --> 00:00:42,430
+You start with the first data point,
+
+18
+00:00:42,430 --> 00:00:46,105
+and you take the sum all the way to the Nth data point,
+
+19
+00:00:46,105 --> 00:00:47,854
+where we have a big capital N,
+
+20
+00:00:47,854 --> 00:00:51,250
+where N is the total number of elements in the population.
+
+21
+00:00:51,250 --> 00:00:53,690
+And then you divide that by N.
+
+22
+00:00:53,690 --> 00:00:58,560
+So that's another way of writing X sub 1, plus X sub 2,
+
+23
+00:00:58,560 --> 00:01:01,150
+plus, and you just keep adding, bum bum bum,
+
+24
+00:01:01,150 --> 00:01:05,745
+however many there are. X sub N, and then you divide that by N.
+
+25
+00:01:05,745 --> 00:01:07,930
+And I think that's what you're familiar with
+
+26
+00:01:07,930 --> 00:01:10,000
+as just the arithmetic mean, or the average.
+
+27
+00:01:10,000 --> 00:01:11,501
+You just add up all the elements
+
+28
+00:01:11,501 --> 00:01:13,400
+and you divide by the total number of elements there are.
+
+29
+00:01:13,400 --> 00:01:15,390
+That's just a fancy way of writing that.
+
+30
+00:01:15,390 --> 00:01:18,620
+And then the sample mean is essentially the same thing,
+
+31
+00:01:18,620 --> 00:01:20,330
+although you use slightly different notation.
+
+32
+00:01:20,330 --> 00:01:25,430
+The sample mean is written as x with a line over it,
+
+33
+00:01:25,430 --> 00:01:31,970
+and that's equal to, once again, the sum of the elements in the sample.
+
+34
+00:01:31,970 --> 00:01:34,770
+And then you have just a slight notational difference.
+
+35
+00:01:34,770 --> 00:01:36,753
+You start at the first element in the sample
+
+36
+00:01:36,753 --> 00:01:39,203
+and you go to the number of elements in the sample.
+
+37
+00:01:39,203 --> 00:01:41,820
+And that's why they use that lowercase n.
+
+38
+00:01:41,820 --> 00:01:44,740
+There are big N elements in the whole population,
+
+39
+00:01:44,740 --> 00:01:46,401
+and if you took some subset of that--
+
+40
+00:01:46,401 --> 00:01:51,280
+we're assuming that small n is less than or equal to big N--
+
+41
+00:01:51,280 --> 00:01:55,850
+and you divide that by the total number of elements in the sample.
+
+42
+00:01:55,850 --> 00:02:00,391
+So once again, this would be x1 plus x2 plus dun dun dun,
+
+43
+00:02:00,391 --> 00:02:05,230
+plus x lowercase n divided by lowercase n.
+
+44
+00:02:05,230 --> 00:02:07,200
+These are essentially the same thing.
+
+45
+00:02:07,200 --> 00:02:09,391
+If your sample was the entire population,
+
+46
+00:02:09,391 --> 00:02:10,972
+then these n's would be equal to each other,
+
+47
+00:02:10,972 --> 00:02:12,790
+and these numbers would be equal to each other.
+
+48
+00:02:12,790 --> 00:02:14,433
+But just the notational difference,
+
+49
+00:02:14,433 --> 00:02:16,780
+if you ever see this, you know you're dealing with a sample.
+
+50
+00:02:16,780 --> 00:02:19,070
+Here you know you're dealing with the entire population.
+
+51
+00:02:19,070 --> 00:02:21,080
+And similarly, big N, entire population,
+
+52
+00:02:21,080 --> 00:02:22,932
+small n, the sample.
+
+53
+00:02:22,932 --> 00:02:24,450
+Fair enough.
+
+54
+00:02:24,450 --> 00:02:27,120
+I think we're now ready to learn a little bit about
+
+55
+00:02:27,120 --> 00:02:29,220
+measures of dispersion.
+
+56
+00:02:29,220 --> 00:02:31,710
+So the mean and the mode and the median that
+
+57
+00:02:31,710 --> 00:02:34,166
+we covered in the first video in this playlist,
+
+58
+00:02:34,166 --> 00:02:38,781
+were all ways of measuring the central tendency
+of a data set,
+
+59
+00:02:38,781 --> 00:02:40,508
+or kind of picking a number that is
+
+60
+00:02:40,508 --> 00:02:43,090
+most representative of all the numbers.
+
+61
+00:02:43,090 --> 00:02:44,280
+But we lose a lot of information.
+
+62
+00:02:44,280 --> 00:02:46,360
+We don't know whether all of the numbers in the data set
+
+63
+00:02:46,360 --> 00:02:48,402
+are close to that number, close to the mean,
+
+64
+00:02:48,402 --> 00:02:50,310
+or maybe they're all really far away from the mean.
+
+65
+00:02:50,310 --> 00:02:57,351
+And that's why we want to come up with measures of dispersion.
+
+66
+00:02:57,390 --> 00:02:59,450
+And let me show you what I mean.
+
+67
+00:02:59,450 --> 00:03:01,766
+So let's say I have one set,
+
+68
+00:03:01,766 --> 00:03:09,650
+and let's say it is a 2, a 2, a 3, and a 3.
+
+69
+00:03:09,650 --> 00:03:10,860
+Let's say this is a population.
+
+70
+00:03:10,860 --> 00:03:13,988
+Let's just deal with population means
+
+71
+00:03:13,988 --> 00:03:15,620
+and population dispersions for now.
+
+72
+00:03:15,620 --> 00:03:17,520
+So what's the mean here?
+
+73
+00:03:17,520 --> 00:03:23,027
+The mean here is going to be 2 plus 2 plus 3 plus 3,
+
+74
+00:03:23,027 --> 00:03:26,190
+all of that over 4.
+
+75
+00:03:26,190 --> 00:03:27,540
+And what is that?
+
+76
+00:03:27,540 --> 00:03:29,800
+That's equal to 2 and 1/2 right?
+
+77
+00:03:29,800 --> 00:03:33,040
+4 plus 6 divided by 4, right?
+
+78
+00:03:33,040 --> 00:03:35,660
+That's equal to 2.5.
+
+79
+00:03:35,660 --> 00:03:38,530
+Fair enough.
+
+80
+00:03:38,530 --> 00:03:39,540
+Now what if we had this?
+
+81
+00:03:39,540 --> 00:03:49,210
+What if we had the numbers, I don't know, 0, 0, and 5, and 5.
+
+82
+00:03:49,210 --> 00:03:50,310
+So these are the numbers in the set.
+
+83
+00:03:50,310 --> 00:03:51,604
+I'll put commas
+
+84
+00:03:51,604 --> 00:03:54,020
+just so you know these are separate numbers.
+
+85
+00:03:54,020 --> 00:03:55,700
+What's that mean here?
+
+86
+00:03:55,700 --> 00:03:59,920
+Well the mean here-- and let's say this is the population.
+
+87
+00:03:59,920 --> 00:04:01,870
+This isn't a sample, this is the entire population.
+
+88
+00:04:01,870 --> 00:04:04,480
+And you'll see why I'm making that distinction later.
+
+89
+00:04:04,480 --> 00:04:08,700
+So it'll be 0 plus 0 plus 5 plus 5.
+
+90
+00:04:08,700 --> 00:04:12,970
+Well that's 10, divided by 4 is equal to 2.5.
+
+91
+00:04:12,970 --> 00:04:16,960
+So the arithmetic mean of both of these populations
+
+92
+00:04:16,960 --> 00:04:18,020
+are the same number.
+
+93
+00:04:18,020 --> 00:04:21,280
+They're both 2.5.
+
+94
+00:04:21,280 --> 00:04:24,370
+But you'll see that these sets are different.
+
+95
+00:04:24,370 --> 00:04:28,100
+Here all of the numbers are pretty close to 2.5, right?
+
+96
+00:04:28,100 --> 00:04:32,490
+While here, sure their mean, their arithmetic mean is 2.5,
+
+97
+00:04:32,490 --> 00:04:34,660
+but they're further away from 2.5.
+
+98
+00:04:34,660 --> 00:04:38,292
+Or the distances of each of these numbers,
+
+99
+00:04:38,292 --> 00:04:41,291
+each of the data, each of the numbers in the set,
+
+100
+00:04:41,291 --> 00:04:43,780
+their distance from the mean is further.
+
+101
+00:04:43,780 --> 00:04:45,970
+So you can kind of view them that they're more dispersed,
+
+102
+00:04:45,970 --> 00:04:47,390
+they're further away from the mean.
+
+103
+00:04:47,390 --> 00:04:49,791
+Or another way you can think of it is the mean,
+
+104
+00:04:49,791 --> 00:04:52,434
+although it does measure central tendency,
+
+105
+00:04:52,434 --> 00:04:55,480
+it's not quite as indicative of all the numbers.
+
+106
+00:04:55,480 --> 00:04:58,740
+The numbers are much further away from the mean on average.
+
+107
+00:04:58,740 --> 00:05:00,230
+So how do you measure that?
+
+108
+00:05:00,230 --> 00:05:02,840
+Well, you measure that with the variance.
+
+109
+00:05:02,840 --> 00:05:06,058
+And this is something I've found,
+
+110
+00:05:06,058 --> 00:05:08,190
+it seems complicated when you first look at it.
+
+111
+00:05:08,190 --> 00:05:11,870
+And most statistics textbooks use fairly complex notation.
+
+112
+00:05:11,870 --> 00:05:15,500
+But the idea is almost as straightforward as
+
+113
+00:05:15,500 --> 00:05:17,490
+the arithmetic mean.
+
+114
+00:05:17,490 --> 00:05:19,830
+So what they'll do is they'll write the variance,
+
+115
+00:05:19,830 --> 00:05:22,490
+and they'll write it as this letter sigma, this Greek letter--
+
+116
+00:05:22,490 --> 00:05:23,610
+I wrote the top part too long.
+
+117
+00:05:23,610 --> 00:05:25,480
+Let me actually undo that.
+
+118
+00:05:25,480 --> 00:05:27,535
+I don't want you to spend the rest of your life
+
+119
+00:05:27,535 --> 00:05:29,000
+writing it with a big top part.
+
+120
+00:05:29,000 --> 00:05:31,180
+They write it as sigma squared.
+
+121
+00:05:31,180 --> 00:05:34,070
+And we'll talk in a few seconds about why it's written as--
+
+122
+00:05:34,070 --> 00:05:36,060
+you know, why don't they just write v for variance?
+
+123
+00:05:36,060 --> 00:05:38,160
+Why do they write this weird letter squared?
+
+124
+00:05:38,160 --> 00:05:40,570
+I'll talk about that in a second.
+
+125
+00:05:40,570 --> 00:05:43,680
+But the variance of a population is defined--
+
+126
+00:05:43,680 --> 00:05:46,550
+and once again, these are just human derived constructs,
+
+127
+00:05:46,550 --> 00:05:49,340
+to kind of get our minds around data.
+
+128
+00:05:49,340 --> 00:05:52,260
+Being able to describe a set of data without having to list all the numbers,
+
+129
+00:05:52,260 --> 00:05:55,220
+and being able to kind of understand
+
+130
+00:05:55,220 --> 00:05:58,210
+what that data might represent, what can represent that data.
+
+131
+00:05:58,210 --> 00:06:04,046
+So what you do is, you take the sum,
+
+132
+00:06:04,046 --> 00:06:08,320
+and you start with all of the points in the population.
+
+133
+00:06:08,320 --> 00:06:10,647
+But instead of taking the sum of the points,
+
+134
+00:06:10,647 --> 00:06:17,650
+you take each point, X sub i, and you subtract from that--
+
+135
+00:06:17,650 --> 00:06:19,230
+and actually it doesn't matter if you subtract from that
+
+136
+00:06:19,230 --> 00:06:23,310
+or subtract that from-- the mean, the population mean.
+
+137
+00:06:23,310 --> 00:06:25,530
+And then you square it.
+
+138
+00:06:25,530 --> 00:06:26,330
+So what is this?
+
+139
+00:06:26,330 --> 00:06:30,520
+This is the distance between each number and the mean.
+
+140
+00:06:30,520 --> 00:06:32,360
+And when you square it, it becomes a positive number.
+
+141
+00:06:32,360 --> 00:06:36,203
+So you can kind of view it as just the squared absolute distance
+
+142
+00:06:36,203 --> 00:06:38,818
+between each number and the mean of that set.
+
+143
+00:06:38,818 --> 00:06:41,410
+And then you take the average of all of those,
+
+144
+00:06:41,410 --> 00:06:43,880
+and you divide that by N.
+
+145
+00:06:43,880 --> 00:06:46,320
+That might seem like a very complicated notion,
+
+146
+00:06:46,320 --> 00:06:49,490
+but let's calculate it for these two data sets.
+
+147
+00:06:49,490 --> 00:06:51,670
+So here, let me rewrite that first data set.
+
+148
+00:06:51,670 --> 00:06:56,137
+It's 2, 2, 3, and 3.
+
+149
+00:06:56,137 --> 00:06:59,740
+So...what is...actually let me write it this way.
+
+150
+00:06:59,740 --> 00:07:03,830
+This will help explain it for you a little bit better.
+
+151
+00:07:03,830 --> 00:07:11,710
+So if I wrote i-- i1, i2, i3, i4.
+
+152
+00:07:11,710 --> 00:07:13,370
+That's i.
+
+153
+00:07:13,370 --> 00:07:16,340
+Then X sub i.
+
+154
+00:07:16,340 --> 00:07:19,650
+It's kind of arbitrary, it's just saying the first term,
+
+155
+00:07:19,650 --> 00:07:20,690
+the second term, the third term.
+
+156
+00:07:20,690 --> 00:07:22,940
+I could have had this in any order; it doesn't matter.
+
+157
+00:07:22,940 --> 00:07:24,750
+Maybe this was the first term and this was the second
+
+158
+00:07:24,750 --> 00:07:25,580
+and this was the third.
+
+159
+00:07:25,580 --> 00:07:26,560
+It doesn't matter, because we're just going to
+
+160
+00:07:26,560 --> 00:07:28,020
+add them all up and then divide them.
+
+161
+00:07:28,020 --> 00:07:29,670
+So it doesn't matter what order we do it.
+
+162
+00:07:29,670 --> 00:07:36,010
+But anyway, X sub 1 is equal to 2.
+
+163
+00:07:36,010 --> 00:07:39,440
+X sub 2 is equal to 2.
+
+164
+00:07:39,440 --> 00:07:41,160
+X sub 3 is equal to 3.
+
+165
+00:07:41,160 --> 00:07:45,070
+I'll stop writing this equal thing. X sub 4 is equal to 4.
+
+166
+00:07:45,070 --> 00:07:47,220
+What's the mean?
+
+167
+00:07:47,220 --> 00:07:48,630
+Well, we figured out the mean up here.
+
+168
+00:07:48,630 --> 00:07:52,550
+We just took these numbers and added them and divided by 4.
+
+169
+00:07:52,550 --> 00:07:59,647
+The mean is 2.5.
+
+170
+00:07:59,650 --> 00:08:05,620
+So what is X sub i minus the mean?
+
+171
+00:08:05,620 --> 00:08:07,360
+We're slowly building up to this equation.
+
+172
+00:08:07,360 --> 00:08:11,650
+What is X sub i minus the mean?
+
+173
+00:08:11,650 --> 00:08:15,410
+Well, 2 minus 2.5, that's minus 0.5.
+
+174
+00:08:15,410 --> 00:08:19,360
+2 minus 2.5, that's once again minus 0.5.
+
+175
+00:08:19,360 --> 00:08:22,380
+3 minus 2.5, that's 0.5.
+
+176
+00:08:22,380 --> 00:08:25,270
+3 minus 2.5, that's 0.5.
+
+177
+00:08:25,270 --> 00:08:26,770
+Fair enough.
+
+178
+00:08:26,770 --> 00:08:29,100
+Now, this equation, they want us to square this.
+
+179
+00:08:29,100 --> 00:08:34,540
+So X sub i minus the mean squared.
+
+180
+00:08:34,540 --> 00:08:37,250
+And there's several other properties we'll talk about later,
+
+181
+00:08:37,250 --> 00:08:40,360
+but the most important thing that the squaring does--
+
+182
+00:08:40,360 --> 00:08:42,830
+and the absolute value could have done it as well--
+
+183
+00:08:42,830 --> 00:08:44,630
+but the squaring makes all of these positive.
+
+184
+00:08:44,630 --> 00:08:49,570
+So minus 0.5 squared is positive 0.25.
+
+185
+00:08:49,570 --> 00:08:51,910
+This is positive 0.25.
+
+186
+00:08:51,910 --> 00:08:54,720
+Plus 0.5 squared is also positive 0.25.
+
+187
+00:08:54,720 --> 00:08:59,420
+And this is positive 0.25.
+
+188
+00:08:59,420 --> 00:09:05,803
+So if we wanted to know the sum, from i is equal to 1 to 4,
+
+189
+00:09:05,803 --> 00:09:10,920
+of X sub i minus the mean, which is 2.5, squared.
+
+190
+00:09:10,920 --> 00:09:13,620
+This is equal to the sum of all of these numbers.
+
+191
+00:09:13,620 --> 00:09:15,890
+This is just saying sum all of these.
+
+192
+00:09:15,890 --> 00:09:17,800
+So sum all of these-- 0.25.
+
+193
+00:09:17,800 --> 00:09:19,740
+So that's equal to 1.
+
+194
+00:09:19,740 --> 00:09:21,250
+But this isn't the variance yet.
+
+195
+00:09:21,250 --> 00:09:23,860
+The variance is this thing--
+
+196
+00:09:23,860 --> 00:09:25,090
+let's look at the original formula--
+
+197
+00:09:25,090 --> 00:09:26,483
+The variance is this thing
+
+198
+00:09:26,483 --> 00:09:29,550
+divided by the total number of numbers you have.
+
+199
+00:09:29,550 --> 00:09:31,000
+So you take this.
+
+200
+00:09:31,000 --> 00:09:34,402
+So the variance is equal to this thing
+
+201
+00:09:34,402 --> 00:09:37,710
+divided by the total number of numbers, which is 4,
+
+202
+00:09:37,710 --> 00:09:40,140
+which is equal to 0.25.
+
+203
+00:09:40,140 --> 00:09:43,997
+And you see, here the distance from every number
+
+204
+00:09:43,997 --> 00:09:48,030
+the distance from every number to the mean squared was 0.25.
+
+205
+00:09:48,030 --> 00:09:49,671
+So the average of all of these--
+
+206
+00:09:49,671 --> 00:09:54,130
+which is essentially what the variance is--
+
+207
+00:09:54,130 --> 00:09:54,975
+the average was also 0.25.
+
+208
+00:09:54,975 --> 00:09:55,820
+And I'll do another example where these are different.
+
+209
+00:09:55,820 --> 00:09:56,970
+The other example in this video, actually,
+
+210
+00:09:56,970 --> 00:09:57,850
+they're not different.
+
+211
+00:09:57,850 --> 00:10:01,740
+But you see here, the average squared distance from the mean
+
+212
+00:10:01,740 --> 00:10:05,200
+in that first data set is 0.25.
+
+213
+00:10:05,200 --> 00:10:09,100
+And here what's the average squared distance from the mean?
+
+214
+00:10:09,100 --> 00:10:10,420
+So let's see.
+
+215
+00:10:10,420 --> 00:10:12,560
+This is how far from the mean.
+
+216
+00:10:12,560 --> 00:10:17,990
+So let's say X sub i,
+
+217
+00:10:17,990 --> 00:10:23,210
+and then X sub i minus the mean, for this population.
+
+218
+00:10:23,210 --> 00:10:27,600
+So X sub i, there's 0, there's a 0, there's a 5, and a 5.
+
+219
+00:10:27,600 --> 00:10:29,760
+This is the first term, X sub 1.
+
+220
+00:10:29,760 --> 00:10:35,140
+X sub 1, this is X sub 2, and so forth.
+
+221
+00:10:35,140 --> 00:10:37,620
+And then each of these numbers minus μ
+
+222
+00:10:37,620 --> 00:10:39,690
+0 minus μ ...that's minus 2.5.
+
+223
+00:10:39,690 --> 00:10:43,490
+0 minus 2.5-- this could be 2.5, right?
+
+224
+00:10:43,490 --> 00:10:44,620
+That's the mean.
+
+225
+00:10:44,620 --> 00:10:51,330
+It's minus 2.5, 5 minus 2.5 is 2.5, 5 minus 2.5 is 2.5.
+
+226
+00:10:51,330 --> 00:10:56,430
+Now if you took X sub i minus the mean squared,
+
+227
+00:10:56,430 --> 00:10:58,530
+2.5 squared is what?
+
+228
+00:10:58,530 --> 00:11:00,240
+6.25, and it becomes positive.
+
+229
+00:11:00,240 --> 00:11:02,130
+So 6.25.
+
+230
+00:11:02,130 --> 00:11:05,240
+That's the same thing, 6.25.
+
+231
+00:11:05,240 --> 00:11:06,210
+That's already positive.
+
+232
+00:11:06,210 --> 00:11:10,390
+So 6.25, 6.25.
+
+233
+00:11:10,390 --> 00:11:14,090
+And so the variance is the sum of all of these
+
+234
+00:11:14,090 --> 00:11:16,960
+divided by the total number of numbers there are.
+
+235
+00:11:16,960 --> 00:11:18,170
+So we take the sum of all of them.
+
+236
+00:11:18,170 --> 00:11:19,210
+So it's just the average of these.
+
+237
+00:11:19,210 --> 00:11:21,070
+And that's pretty easy to calculate.
+
+238
+00:11:21,070 --> 00:11:22,575
+If you add all of these up and divide by 4,
+
+239
+00:11:22,575 --> 00:11:24,620
+you're just going to get 6.25.
+
+240
+00:11:24,620 --> 00:11:28,260
+So the variance of this population is 6.25.
+
+241
+00:11:28,260 --> 00:11:29,080
+So there you have it.
+
+242
+00:11:29,080 --> 00:11:32,580
+You have two data sets where their means are the same,
+
+243
+00:11:32,580 --> 00:11:38,295
+but the variance of this data set is equal to, we figured out it was 0.25,
+
+244
+00:11:38,295 --> 00:11:44,872
+while the variance of this data set is equal to 6.25.
+
+245
+00:11:44,872 --> 00:11:48,350
+And it's hard right now to have an intuition of
+
+246
+00:11:48,350 --> 00:11:49,310
+how does the 6 relate to the 0.25.
+
+247
+00:11:49,310 --> 00:11:51,578
+But you know that this is a larger number,
+
+248
+00:11:51,578 --> 00:11:54,980
+this is a much larger number than this is,
+
+249
+00:11:54,980 --> 00:11:58,182
+which tells you just kind of an intuitive feel that
+
+250
+00:11:58,182 --> 00:12:00,314
+the numbers in this set are, on average,
+
+251
+00:12:00,314 --> 00:12:04,420
+much further away from the mean than the numbers in this data set.
+
+252
+00:12:04,420 --> 00:12:05,650
+Anyway, I'm out of time.
+
+253
+00:12:05,650 --> 00:12:06,490
+I'll see you in the next video.
+
+254
+00:12:06,490 --> 00:12:09,930
+And we'll talk a little bit about this, and we'll move into
+
+255
+00:12:09,930 --> 00:12:11,990
+the standard deviation, and then what happens
+
+256
+00:12:11,990 --> 00:12:14,550
+if you take these of a sample instead of a population.
+
+257
+00:12:14,550 --> 00:12:16,900
+Everything we're doing here, we're taking the mean
+
+258
+00:12:16,900 --> 00:12:18,890
+and the variance of every number in the data set.
+
+259
+00:12:18,890 --> 00:12:20,110
+Later we'll do it for the sample.
+
+260
+00:12:20,110 --> 00:12:23,212
+See you soon.

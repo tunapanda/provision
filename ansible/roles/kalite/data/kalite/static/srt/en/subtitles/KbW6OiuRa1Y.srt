@@ -1,0 +1,415 @@
+1
+00:00:00,570 --> 00:00:06,059
+In the last video we thought about how we would allocate our five dollars between chocolate bars and fruit.
+
+2
+00:00:06,059 --> 00:00:10,578
+And the way we did it was very rational: we thought about how much bang we would get for each buck.
+
+3
+00:00:10,578 --> 00:00:14,503
+And we saw starting off with our first dollar we got a lot of bang for our buck.
+
+4
+00:00:14,503 --> 00:00:20,007
+And this is just another way of saying bang for the buck: marginal utility per price.
+
+5
+00:00:20,007 --> 00:00:24,905
+So we got a lot of utility per price starting off with that first chocolate bar, a little less for that next chocolate bar,
+
+6
+00:00:24,905 --> 00:00:28,055
+but still more than we would get for a pound of fruit.
+
+7
+00:00:28,055 --> 00:00:37,436
+Then more for the next chocolate bar. And then, and only then, did we start buying some fruit, some pounds of fruit.
+
+8
+00:00:37,436 --> 00:00:41,463
+What I want to do in this video is generalize it. I want to think about maybe a more continuous case
+
+9
+00:00:41,463 --> 00:00:45,180
+where we can buy very, very small increments of each of the products.
+
+10
+00:00:45,180 --> 00:00:48,060
+It doesn't have to be in chunks, like chocolate bars.
+
+11
+00:00:48,060 --> 00:00:56,327
+And what I'm going to do is plot the marginal utility per price, which is really bang for your buck, on the vertical axis.
+
+12
+00:00:56,327 --> 00:00:59,508
+This right over here, on this axis.
+
+13
+00:00:59,508 --> 00:01:02,169
+This is the marginal utility per price.
+
+14
+00:01:02,169 --> 00:01:06,996
+And let's say it also goes from zero to 100. So that would be 50.
+
+15
+00:01:06,996 --> 00:01:09,413
+And the numbers don't actually matter so much here.
+
+16
+00:01:09,413 --> 00:01:18,842
+And then this will be dollars spent... dollars spent, or your buck.
+
+17
+00:01:18,842 --> 00:01:21,374
+So this is bang for your buck, and this is your buck.
+
+18
+00:01:21,374 --> 00:01:29,632
+This is one, two, three, four, five and six. Now we're going to do two arbitrary products.
+
+19
+00:01:29,632 --> 00:01:33,997
+So let's say one product looks something like this. And once again you have diminishing utility
+
+20
+00:01:33,997 --> 00:01:38,257
+as you get more and more of that product. In the case of fruit, the more pounds of fruit you get
+
+21
+00:01:38,257 --> 00:01:45,502
+the more tired you get of fruit, the less fruit you need or the less you want fruit for that next incremental pound.
+
+22
+00:01:45,502 --> 00:01:49,776
+It could be anything; this is true of most things.
+
+23
+00:01:49,776 --> 00:01:52,910
+So this is Product A. It could be a service as well.
+
+24
+00:01:52,910 --> 00:01:55,444
+So Product A. Let's write it this way.
+
+25
+00:01:55,444 --> 00:02:02,758
+So this is the marginal utility for A per price of A.
+
+26
+00:02:02,758 --> 00:02:05,441
+Now let me get another product right over here.
+
+27
+00:02:05,441 --> 00:02:15,413
+So let's say my other product would look something like this. So this is my marginal utility for Product B per price of B.
+
+28
+00:02:15,413 --> 00:02:17,712
+So it's really saying Bang for the Buck.
+
+29
+00:02:17,712 --> 00:02:22,835
+So just to start off -- and I won't even constrain how much money we have.
+
+30
+00:02:22,835 --> 00:02:25,445
+I just want to think about how we would spend that money.
+
+31
+00:02:25,445 --> 00:02:29,836
+So if I were to spend -- if I had a penny, where would I spend that penny?
+
+32
+00:02:29,836 --> 00:02:32,914
+And I'm assuming I can buy these in super-small chunks,
+
+33
+00:02:32,914 --> 00:02:36,181
+as small as maybe the penny or even fractions of a penny.
+
+34
+00:02:36,181 --> 00:02:41,376
+So if I just had a penny, and I think about 'where am I getting the best bang for my buck for that penny?'
+
+35
+00:02:41,376 --> 00:02:43,503
+I'm clearly getting it with Product A.
+
+36
+00:02:43,503 --> 00:02:47,251
+So I would spend that penny on Product A and I would get this much bang for my buck.
+
+37
+00:02:47,251 --> 00:02:52,778
+Which would be this entire part, this entire part right over here.
+
+38
+00:02:52,778 --> 00:02:56,995
+Let me color it in. So first I'll spend it right on A.
+
+39
+00:02:56,995 --> 00:03:00,827
+Let me do it in a color that's more likely to be seen, this blue color.
+
+40
+00:03:00,827 --> 00:03:04,256
+So I'll spend it on A. In fact, where would I spend my first dollar?
+
+41
+00:03:04,256 --> 00:03:07,367
+Well, for the whole first dollar I'm getting a better bang for my buck on A.
+
+42
+00:03:07,367 --> 00:03:14,336
+So my first dollar, I'll spend on A. And the total utility I'll get is actually going to be the area under this curve.
+
+43
+00:03:14,336 --> 00:03:18,848
+It's going to be this whole area: it's going to be dollars times marginal utility price.
+
+44
+00:03:18,848 --> 00:03:22,775
+That would obviously give you the area of this rectangle right over here.
+
+45
+00:03:22,775 --> 00:03:27,665
+The reason why it wouldn't be the area of this larger rectangle - it would just be the area under the curve -
+
+46
+00:03:27,665 --> 00:03:33,772
+is you're not getting the 100 marginal utility per price for the entire dollar.
+
+47
+00:03:33,772 --> 00:03:36,080
+It's going down the entire time.
+
+48
+00:03:36,080 --> 00:03:40,376
+And so your actual total marginal utility is just the area under this.
+
+49
+00:03:40,376 --> 00:03:43,666
+And if you take calculus you'll get a better appreciation for that.
+
+50
+00:03:43,666 --> 00:03:47,585
+But let's just think about once again where our dollar is going to be spent.
+
+51
+00:03:47,585 --> 00:03:53,776
+Actually, even after we already spent a dollar our next penny we'd still want to spend on Product A
+
+52
+00:03:53,776 --> 00:03:56,169
+because we're still getting more bang for the buck.
+
+53
+00:03:56,169 --> 00:04:01,337
+We're still getting more bang for the buck all the way till right around there.
+
+54
+00:04:01,337 --> 00:04:05,447
+Now something interesting is happening. So we've spent about two dollars.
+
+55
+00:04:05,447 --> 00:04:09,083
+We spent our first two dollars all on Product A because we're getting more bang for our buck,
+
+56
+00:04:09,083 --> 00:04:14,341
+even though that bang was diminishing every penny or fraction of a penny that we spent.
+
+57
+00:04:14,341 --> 00:04:18,104
+But now, where will we spend our next penny?
+
+58
+00:04:18,104 --> 00:04:20,787
+Well, we could spend it on Product A again.
+
+59
+00:04:20,787 --> 00:04:25,511
+But look. We can get about the same marginal utility spending in on Product B.
+
+60
+00:04:25,511 --> 00:04:28,772
+So we can jump right over there and spend it on Product B.
+
+61
+00:04:28,772 --> 00:04:31,120
+Now where could we spend our next dollar?
+
+62
+00:04:31,120 --> 00:04:36,774
+Well, we get about the same marginal utility whether we spend it on a little bit more of Product B or a little bit more of Product A.
+
+63
+00:04:36,774 --> 00:04:39,763
+So we could do either. If we spend a little bit too much on Product A
+
+64
+00:04:39,763 --> 00:04:43,707
+then we could have gotten more marginal utility spending on Product B.
+
+65
+00:04:43,707 --> 00:04:49,449
+So what we would do is, once we've gotten to this threshold right about here
+
+66
+00:04:49,449 --> 00:04:52,592
+we actually are going to spend every incremental fraction of a penny
+
+67
+00:04:52,592 --> 00:04:55,839
+we're actually going to want a split between Product A and Product B.
+
+68
+00:04:55,839 --> 00:05:01,584
+If we spend too much on one and we go down this curve we could've gotten higher utility on this one.
+
+69
+00:05:01,584 --> 00:05:06,257
+If we spent too much on this one we could get higher utility spending on this one right over here.
+
+70
+00:05:06,257 --> 00:05:08,924
+So there's a very interesting phenomenon here.
+
+71
+00:05:08,924 --> 00:05:11,923
+Assuming that we eventually spent enough that we buy some of both --
+
+72
+00:05:11,923 --> 00:05:17,831
+obviously we started just buying Product A because it had higher utility, at least for those first few dollars.
+
+73
+00:05:17,831 --> 00:05:22,372
+But assuming that we end up buying some mix of the two, which we do end up spending
+
+74
+00:05:22,372 --> 00:05:31,036
+if we spend more than $2, there's an interesting thing: the marginal utility for a project -- the marginal utility for B
+
+75
+00:05:31,036 --> 00:05:34,913
+or the marginal utility for price for B that I spent on that last little increment
+
+76
+00:05:34,913 --> 00:05:40,772
+is going to be the same as the marginal utility per price for that last increment of A.
+
+77
+00:05:40,772 --> 00:05:46,980
+So if B was, I don't know, if it was fruit and let's say A was chocolate
+
+78
+00:05:46,980 --> 00:05:49,420
+but we could buy it in very, very small increments
+
+79
+00:05:49,420 --> 00:05:54,108
+we're saying for that last fraction of a pound of fruit
+
+80
+00:05:54,108 --> 00:05:57,858
+you're spending or getting the same marginal utility per price
+
+81
+00:05:57,858 --> 00:06:02,980
+as you're getting for that last fraction of a bar or fraction of a pound of chocolate.
+
+82
+00:06:02,980 --> 00:06:07,606
+So there's a general principle, and it really just comes from this very straightforward thing:
+
+83
+00:06:07,606 --> 00:06:11,447
+that as soon as you can get better marginal utility on the other one you start spending there.
+
+84
+00:06:11,447 --> 00:06:15,345
+But then they start to look equal and you would keep dividing your money between the two.
+
+85
+00:06:15,345 --> 00:06:19,305
+So the general principal: if you're allocating money between two goods
+
+86
+00:06:19,305 --> 00:06:24,712
+for that last increment - not across the board, just that last increment (that's why the word marginal is so important) -
+
+87
+00:06:24,712 --> 00:06:28,173
+for that last ounce of chocolate vs. that very last ounce of fruit
+
+88
+00:06:28,173 --> 00:06:35,976
+the marginal utility per price for that last increment of one good
+
+89
+00:06:35,976 --> 00:06:44,265
+would be the same as the marginal utility per price of the second good.
+
+90
+00:06:44,265 --> 00:06:46,709
+Now I really want to emphasize what this is saying.
+
+91
+00:06:46,709 --> 00:06:51,108
+This is not saying that the marginal utililties per price of the two goods are the same.
+
+92
+00:06:51,108 --> 00:06:53,675
+And not even that one is better than the other.
+
+93
+00:06:53,675 --> 00:06:57,438
+This is just saying as you spend money - let's say you spend enough money to buy both -
+
+94
+00:06:57,438 --> 00:07:02,016
+at some point you're going to get to a threshold where you're neutral between the two,
+
+95
+00:07:02,016 --> 00:07:09,008
+where the marginal utility per price is the same for an incremental of B vs. an incremental of A.
+
+96
+00:07:09,008 --> 00:07:14,182
+And at that point you're just going to keep switching between the two products.
+
+97
+00:07:14,182 --> 00:07:17,004
+Because obviously if you focus too much on this right over here --
+
+98
+00:07:17,004 --> 00:07:24,040
+let's say you focus, at that point you switch and just start buying a bunch of Product B over here.
+
+99
+00:07:24,040 --> 00:07:26,443
+Well, that didn't make sense because you were buying Product B
+
+100
+00:07:26,443 --> 00:07:30,428
+when you could have gotten higher marginal utility buying some of product A.
+
+101
+00:07:30,428 --> 00:07:33,586
+And that's the same reason why you didn't just keep going down A,
+
+102
+00:07:33,586 --> 00:07:36,767
+because you could've gotten higher marginal utility over here.
+
+103
+00:07:36,767 --> 00:07:38,774
+This is closer to, I don't know, 75
+
+104
+00:07:38,774 --> 00:07:42,000
+while you're only getting 70 right over here.

@@ -1,0 +1,527 @@
+1
+00:00:00,395 --> 00:00:05,224
+What i want to do with this video is step through the program that we wrote in the previous video
+
+2
+00:00:05,224 --> 00:00:09,667
+to really understand what's happening line-by-line
+
+3
+00:00:09,667 --> 00:00:12,533
+you get a little bit of an intuitive understanding for for-loops and variables
+
+4
+00:00:12,533 --> 00:00:14,067
+and we're going to do it for a specific example
+
+5
+00:00:14,067 --> 00:00:17,600
+we're going to do an example where the user inputs
+
+6
+00:00:17,600 --> 00:00:21,738
+so when the user's prompted to input a number the user will input the number "3"
+
+7
+00:00:21,738 --> 00:00:26,425
+we're just going to assume that and i've picked a low number so that we don't have to keep looping through
+
+8
+00:00:26,425 --> 00:00:29,071
+this forever so this video can be of a reasonable length
+
+9
+00:00:29,071 --> 00:00:34,226
+so right when that happens when the user inputs the number "3" it assigns the variable number
+
+10
+00:00:34,226 --> 00:00:38,406
+to be equal to "3" and there's 2 ways that you can think about this
+
+11
+00:00:38,406 --> 00:00:42,818
+i tend do when i do in any programming language when i think of a variable
+
+12
+00:00:42,818 --> 00:00:48,483
+i tend to view it as a bucket so i have a bucket called number
+
+13
+00:00:48,483 --> 00:00:52,407
+and in that bucket, when the user inputs a "3", if the user inputs a "3"
+
+14
+00:00:52,407 --> 00:00:54,975
+i'm sticking a "3" in that bucket
+
+15
+00:00:54,975 --> 00:01:00,933
+Python is a little bit different than some languages and the more correct way
+
+16
+00:01:00,933 --> 00:01:05,155
+and they're both kind of intuitive, if you think about it, a viewing a variable
+
+17
+00:01:05,155 --> 00:01:11,733
+in Python is to think of the variable as referring to the 3
+
+18
+00:01:11,733 --> 00:01:16,400
+and i say that, because in Python, if you change a variable's
+
+19
+00:01:16,400 --> 00:01:19,575
+ĺet's say right under this we wrote numbers equal to 2
+
+20
+00:01:19,575 --> 00:01:21,897
+but we didn't do that, but if we said numbers equal to 2, what Python
+
+21
+00:01:21,897 --> 00:01:29,492
+does is it actually leaves that 3 there in memory and then it would then point to the number 2
+
+22
+00:01:29,492 --> 00:01:33,662
+instead, it wouldn't obliterate the 3 and just put a 2 there
+
+23
+00:01:33,662 --> 00:01:35,838
+the 3 still exists, and that's important when we
+
+24
+00:01:35,869 --> 00:01:41,569
+start doing more complex or nuanced things with more fancy data types
+
+25
+00:01:41,569 --> 00:01:45,915
+but let's rewind all of this, for the sake of this program you can view it either way
+
+26
+00:01:45,923 --> 00:01:50,400
+a bucket with a 3 in it or you can view it as a label that is referring to
+
+27
+00:01:50,504 --> 00:01:52,600
+a 3 someplace in the computer's memory
+
+28
+00:01:53,815 --> 00:01:56,309
+now, the next thing that happens is that we have another variable
+
+29
+00:01:56,309 --> 00:02:00,667
+called product, and we assign product to be equal to 1
+
+30
+00:02:00,667 --> 00:02:03,019
+so i'm gonna do the same two representations
+
+31
+00:02:03,019 --> 00:02:07,338
+so we've set up another bucket here called product
+
+32
+00:02:07,338 --> 00:02:11,200
+and we're putting 1 in that bucket
+
+33
+00:02:11,200 --> 00:02:17,533
+or you could say that product is a variable, it's a label that is referring to
+
+34
+00:02:17,533 --> 00:02:22,867
+a 1, and then we get to our for-loop, and this is probably the confusing part
+
+35
+00:02:22,867 --> 00:02:25,600
+so we have "for i in range(number)", and number in this case
+
+36
+00:02:25,600 --> 00:02:31,467
+so literally the interper say "what's the number" , well in this case the number is 3
+
+37
+00:02:31,467 --> 00:02:34,933
+so this is going to be evaluated as range of 3
+
+38
+00:02:34,933 --> 00:02:38,969
+this is going to be evaluated as "range of 3"
+
+39
+00:02:38,985 --> 00:02:41,948
+in our particular example
+
+40
+00:02:41,948 --> 00:02:44,887
+and once again, how did the interpret know that? it said range of number
+
+41
+00:02:44,887 --> 00:02:48,600
+number's a variable, look up number variable, okay, 3 sitting in it
+
+42
+00:02:48,600 --> 00:02:50,533
+so i'm going to put a 3 right in there
+
+43
+00:02:50,533 --> 00:02:53,685
+or look up the number variable, the number variable is pointing to the number 3
+
+44
+00:02:53,685 --> 00:02:56,467
+so i'm just going to put a 3 here and take a range of 3
+
+45
+00:02:56,467 --> 00:02:59,800
+and we saw in the last video, that if you evaluate just range of 3
+
+46
+00:02:59,800 --> 00:03:08,467
+range of 3 is equal to a sequence of numbers 0,1,2, so it creates
+
+47
+00:03:08,467 --> 00:03:12,610
+a sequence of 3 numbers, starting at 0, up to that number -1
+
+48
+00:03:12,610 --> 00:03:17,133
+and what the for-loop does, is every time we go through the for-loop
+
+49
+00:03:17,133 --> 00:03:21,533
+it executes this code, that's inside the for-loop
+
+50
+00:03:21,533 --> 00:03:23,733
+and we know it's inside the for-loop, because we indented it
+
+51
+00:03:23,733 --> 00:03:29,667
+and the most used convention in Python is that you don't use the tab,
+
+52
+00:03:29,667 --> 00:03:32,857
+you press space 4 times, and that tells the interpreter
+
+53
+00:03:32,857 --> 00:03:37,200
+anything at this level in indention happened every time we go to the for-loop
+
+54
+00:03:37,200 --> 00:03:42,200
+and when we start the for-loop, the i-variable is going to start at 0
+
+55
+00:03:42,200 --> 00:03:46,133
+so the first time we go to the for-loop, i is going to be the first element
+
+56
+00:03:46,133 --> 00:03:49,436
+in this sequence, then when we go to the for-loop again
+
+57
+00:03:49,436 --> 00:03:52,333
+i is going to be the second element of the sequence
+
+58
+00:03:52,333 --> 00:03:55,775
+and then when we go to the for-loop again, i is going to be the third element
+
+59
+00:03:55,775 --> 00:03:59,667
+in the sequence, and then we go to the for-loop, and it will
+
+60
+00:03:59,667 --> 00:04:02,133
+try to assign i to another element in the sequence
+
+61
+00:04:02,133 --> 00:04:04,692
+and say "hey, wait, there are no more element in the sequence"
+
+62
+00:04:04,692 --> 00:04:07,067
+and then it will break out of the for-loop, and then continue on
+
+63
+00:04:07,067 --> 00:04:08,867
+with the rest of the program
+
+64
+00:04:08,867 --> 00:04:12,200
+so given that, let's think about what happens for the particular
+
+65
+00:04:12,200 --> 00:04:15,133
+example, where the user inputed a 3
+
+66
+00:04:15,133 --> 00:04:18,508
+so range of number is going to evaluate
+
+67
+00:04:18,508 --> 00:04:23,077
+as 0,1,2
+
+68
+00:04:27,123 --> 00:04:31,638
+so it's going to be 0,1,2
+
+69
+00:04:31,733 --> 00:04:35,195
+and the first time into the loop, i, so i'm going to use this
+
+70
+00:04:35,195 --> 00:04:39,054
+convention right over here, the first time through the loop, i is going to
+
+71
+00:04:39,054 --> 00:04:41,185
+refer to the 0
+
+72
+00:04:41,185 --> 00:04:44,467
+or if we use this convention over here, the first time, as we go through
+
+73
+00:04:44,467 --> 00:04:47,267
+the loop i, could be viewed as a bucket, that is going to be
+
+74
+00:04:47,267 --> 00:04:49,553
+assigned to the first element of the range of 3
+
+75
+00:04:49,553 --> 00:04:51,400
+the first element of the sequence
+
+76
+00:04:51,400 --> 00:04:53,733
+it is going to be 0
+
+77
+00:04:53,733 --> 00:04:55,600
+and then we execute what's in the loop
+
+78
+00:04:55,600 --> 00:05:01,667
+we assign, we reassign product to be something new right over here
+
+79
+00:05:01,667 --> 00:05:04,467
+and what is this something new? the first time we go through the for-loop
+
+80
+00:05:04,467 --> 00:05:15,559
+i is 0, 0+1 is 1, so the first time through the loop, this is going to be 1
+
+81
+00:05:15,559 --> 00:05:24,667
+product is 1, this is the first time we go through the loop, let me do it in the same color
+
+82
+00:05:24,667 --> 00:05:33,400
+so i is 0+1, so we get 1, 1x1 is 1, so product will be assigned to be 1
+
+83
+00:05:33,400 --> 00:05:36,800
+so product will be reassigned to be 1
+
+84
+00:05:36,800 --> 00:05:38,933
+which really isn't going to change anything, because it's already 1
+
+85
+00:05:38,933 --> 00:05:42,333
+so it was 1 before we multiplied it by 1 and reassigned it to be 1
+
+86
+00:05:42,333 --> 00:05:46,302
+so i could cross out 1, it's not going to be 1 again, but i'll just leave it as 1
+
+87
+00:05:46,302 --> 00:05:49,133
+or we can just say it's going to be reassigned to be 1, so
+
+88
+00:05:49,133 --> 00:05:51,968
+nothing really has changed that first time through the loop
+
+89
+00:05:51,968 --> 00:05:54,133
+but now interesting things are going to happen
+
+90
+00:05:54,133 --> 00:05:59,631
+so now we'll go back to the beginning of the loop, and now "i" will be the next element
+
+91
+00:05:59,631 --> 00:06:08,267
+in the loop, so now "i", it will be reassigned to be the next element in the loop
+
+92
+00:06:08,267 --> 00:06:16,667
+so now "i" will be 1, that's what the for-loop does, it makes "i" each of the items in the
+
+93
+00:06:16,667 --> 00:06:20,296
+sequence in order, going through them, and now we execute it again
+
+94
+00:06:20,296 --> 00:06:23,400
+now we go look at product times "i" + 1
+
+95
+00:06:23,400 --> 00:06:33,513
+product is still 1, "i" is now 1, so 1+1 is now going to be 2
+
+96
+00:06:33,605 --> 00:06:37,467
+so 1 times 2 is going to be our new product
+
+97
+00:06:37,467 --> 00:06:41,333
+so the new product, it was 1, for now we're multiplying it by 2 and
+
+98
+00:06:41,333 --> 00:06:48,000
+assigning it again to product so the new product is now going to be 2
+
+99
+00:06:48,000 --> 00:06:50,067
+so the product variable is now 2
+
+100
+00:06:50,067 --> 00:06:52,867
+and then now we try to loop again
+
+101
+00:06:52,867 --> 00:06:56,733
+and now this time, "i" will be the next element
+
+102
+00:06:56,733 --> 00:07:05,518
+"i" is going to be the next element in the sequence
+
+103
+00:07:05,671 --> 00:07:09,801
+right over here, or we could say that "i" is going to be reassigned
+
+104
+00:07:09,801 --> 00:07:14,267
+to 2, the next element in the sequence, and we try to evaluate it again
+
+105
+00:07:14,267 --> 00:07:21,267
+so now, we go into the for-loop, product is now 2, "i" is now 2
+
+106
+00:07:21,267 --> 00:07:26,067
+2+1 is 3, so this whole expression over here is 3, so we have
+
+107
+00:07:26,067 --> 00:07:32,667
+2, product is now 2 times "i" + 1, "i" is 2, so "i"+1 is 3
+
+108
+00:07:32,667 --> 00:07:37,133
+so you have 2 times 3 is now going to be 6
+
+109
+00:07:37,133 --> 00:07:49,299
+so the new product times "i" + 1 is now 6, so this is now going to be 6
+
+110
+00:07:49,299 --> 00:07:53,867
+and now we try to execute the for-loop again, and the for-loop is going to say
+
+111
+00:07:53,867 --> 00:07:59,733
+"hey, let me reassign "i" to be the next item in the sequence"
+
+112
+00:07:59,733 --> 00:08:03,000
+it tries to find the next item in the sequence, but it says
+
+113
+00:08:03,000 --> 00:08:09,133
+"wait, there is no next item in the sequence" so we're done executing our for-loop
+
+114
+00:08:09,133 --> 00:08:14,200
+so there's nothing left in our sequence, we're done with our for-loop
+
+115
+00:08:14,200 --> 00:08:18,000
+now we break out of it, and we go to the next line in the program
+
+116
+00:08:18,000 --> 00:08:21,333
+so the next line in the program is literally just "print the product"
+
+117
+00:08:21,333 --> 00:08:24,467
+and at this point, we just want to output the product
+
+118
+00:08:24,467 --> 00:08:28,133
+and the variable product is now 6
+
+119
+00:08:28,133 --> 00:08:30,667
+the variable product is now 6
+
+120
+00:08:30,667 --> 00:08:32,733
+actually, one thing i should have done this entire time
+
+121
+00:08:32,733 --> 00:08:37,933
+is, i was sticking with the bucket representation, but the product here is
+
+122
+00:08:37,933 --> 00:08:41,867
+starting to referring to 1, it got reassigned to 1, but then it got assigned
+
+123
+00:08:41,867 --> 00:08:46,800
+to 2, so then this reference went to 2, and then it got reassigned to to 6
+
+124
+00:08:46,800 --> 00:08:52,133
+then it got reassigned to 6, so if i were to be consistent with this
+
+125
+00:08:52,133 --> 00:08:55,333
+representation over here, every time product is referring to another number,
+
+126
+00:08:55,333 --> 00:08:58,889
+or it can be viewed as a bucket, for the sake of this program, where
+
+127
+00:08:58,889 --> 00:09:03,138
+it keeps getting reassigned, and what's cool about this, is when we're done
+
+128
+00:09:03,138 --> 00:09:06,600
+with this for-loop, the number that's sitting in the bucket product, the variable
+
+129
+00:09:06,600 --> 00:09:09,667
+product, or you could say, the number that the variable product
+
+130
+00:09:09,667 --> 00:09:13,889
+is referring to, is the factorial of the number that the person inputed
+
+131
+00:09:13,889 --> 00:09:18,467
+it's the factorial of 3, and if you remember, 3, the symbol for factorial
+
+132
+00:09:18,467 --> 99:59:59,999
+is an exclamation mark, is equal to 3 times 2 times 1

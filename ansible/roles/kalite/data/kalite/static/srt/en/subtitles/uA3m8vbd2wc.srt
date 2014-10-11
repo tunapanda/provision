@@ -1,0 +1,643 @@
+1
+00:00:00,920 --> 00:00:03,984
+This is another problem that Kortaggio sent me,
+
+2
+00:00:03,984 --> 00:00:05,190
+and I like these problems a lot
+
+3
+00:00:05,190 --> 00:00:08,146
+because they seem fairly simple on the surface,
+
+4
+00:00:08,146 --> 00:00:10,010
+and actually the solutions are pretty simple.
+
+5
+00:00:10,010 --> 00:00:13,300
+But just the nature of the lack of information they give,
+
+6
+00:00:13,300 --> 00:00:16,314
+it becomes kind of hard to even get started with these problems.
+
+7
+00:00:16,314 --> 00:00:18,820
+And I'll be frank, this problem, I kind of stumbled
+
+8
+00:00:18,820 --> 00:00:22,101
+around with it for a couple of minutes until I finally realized
+
+9
+00:00:22,101 --> 00:00:25,210
+what they were asking for or how to solve for it.
+
+10
+00:00:25,210 --> 00:00:27,491
+So in this problem, we have Bev,
+
+11
+00:00:27,491 --> 00:00:31,000
+and she takes a train home at 4 o'clock.
+
+12
+00:00:31,000 --> 00:00:33,760
+She arrives at the station at 6 o'clock.
+
+13
+00:00:33,760 --> 00:00:36,132
+Every day, driving at the same rate,
+
+14
+00:00:36,132 --> 00:00:38,630
+her husband meets her at the station.
+
+15
+00:00:38,630 --> 00:00:39,450
+Fair enough.
+
+16
+00:00:39,450 --> 00:00:43,840
+One day, she takes the train an hour early and arrives at 5:00.
+
+17
+00:00:43,840 --> 00:00:50,716
+Her husband leaves home to meet her at the same usual time.
+
+18
+00:00:50,716 --> 00:00:53,860
+Husband leaves home to meet her at the usual time.
+
+19
+00:00:53,860 --> 00:00:56,180
+So maybe an interesting thing is to think about
+
+20
+00:00:56,180 --> 00:00:58,810
+when does the husband normally leave?
+
+21
+00:00:58,810 --> 00:01:01,300
+So let's say that this is a normal scenario.
+
+22
+00:01:01,300 --> 00:01:02,700
+I'll do that in green.
+
+23
+00:01:02,700 --> 00:01:06,000
+At 6 o'clock, she arrives.
+
+24
+00:01:06,000 --> 00:01:06,530
+We got there.
+
+25
+00:01:06,530 --> 00:01:08,130
+She arrives at the station at 6 o'clock.
+
+26
+00:01:08,130 --> 00:01:10,730
+I don't know if this 4 o'clock is useful yet.
+
+27
+00:01:10,730 --> 00:01:14,530
+And the husband, he gets there right when she gets there.
+
+28
+00:01:14,530 --> 00:01:18,776
+So he traveled-- he gets there, and I don't know if I'm--
+
+29
+00:01:18,776 --> 00:01:22,400
+maybe I should draw a more--
+
+30
+00:01:22,400 --> 00:01:23,537
+well, let me just draw it this way.
+
+31
+00:01:23,537 --> 00:01:27,150
+I think this is how my brain kind of handles it.
+
+32
+00:01:27,150 --> 00:01:30,960
+So he gets there.
+
+33
+00:01:30,960 --> 00:01:32,760
+And when did he have to leave?
+
+34
+00:01:32,760 --> 00:01:33,610
+What was his time?
+
+35
+00:01:33,610 --> 00:01:36,960
+So let's say it takes him t minutes to get there,
+
+36
+00:01:36,960 --> 00:01:38,750
+whatever t is given in.
+
+37
+00:01:38,750 --> 00:01:40,267
+So if he gets there at 6 o'clock,
+
+38
+00:01:40,267 --> 00:01:43,260
+that means he left at 6 o'clock minus t.
+
+39
+00:01:43,260 --> 00:01:45,400
+If t is 30 minutes, it would be 5:30.
+
+40
+00:01:45,400 --> 00:01:49,000
+If t is one hour, it would be 5 o'clock.
+
+41
+00:01:49,000 --> 00:01:58,600
+So leaves at 6 o'clock minus t.
+
+42
+00:01:58,600 --> 00:02:00,970
+And t, whatever units t happens to be.
+
+43
+00:02:00,970 --> 00:02:02,450
+Then he picks her up, and what does he do?
+
+44
+00:02:02,450 --> 00:02:05,150
+He goes back home, right?
+
+45
+00:02:05,150 --> 00:02:06,910
+He goes back home.
+
+46
+00:02:06,910 --> 00:02:10,250
+Let me do that with a-- I'll do that with a skinnier line.
+
+47
+00:02:10,250 --> 00:02:13,936
+He goes back home, same distance.
+
+48
+00:02:13,936 --> 00:02:16,890
+We assume that the car just turns around immediately,
+
+49
+00:02:16,890 --> 00:02:18,530
+and that there's no time devoted to picking her up.
+
+50
+00:02:18,530 --> 00:02:21,960
+She just kind of jumps on the car as he spins around.
+
+51
+00:02:21,960 --> 00:02:24,520
+So it should take him the same amount of time, right, t.
+
+52
+00:02:24,520 --> 00:02:25,890
+So when does he arrive back at home?
+
+53
+00:02:25,890 --> 00:02:28,940
+So if it took him-- he left t minutes before 6 o'clock and
+
+54
+00:02:28,940 --> 00:02:31,020
+got there, so when does he get back?
+
+55
+00:02:31,020 --> 00:02:32,720
+Well, it's going to take him t minutes to get back,
+
+56
+00:02:32,720 --> 00:02:39,020
+so he's going to arrive at 6 o'clock plus t.
+
+57
+00:02:39,020 --> 00:02:40,670
+And so what was the total amount of time
+
+58
+00:02:40,670 --> 00:02:41,280
+that he traveled?
+
+59
+00:02:41,280 --> 00:02:43,650
+And this is almost superficially easy.
+
+60
+00:02:43,650 --> 00:02:47,420
+Well, if you-- 6 o'clock plus t minus 6 o'clock minus t,
+
+61
+00:02:47,420 --> 00:02:49,180
+the difference in time is just 2t.
+
+62
+00:02:49,180 --> 00:02:52,830
+He traveled a distance of-- or a total time of 2t minutes,
+
+63
+00:02:52,830 --> 00:02:54,120
+and that's almost obvious.
+
+64
+00:02:54,120 --> 00:02:56,310
+If it takes him t minutes to go and t minutes to come back,
+
+65
+00:02:56,310 --> 00:02:58,130
+he traveled t minutes.
+
+66
+00:02:58,130 --> 00:02:59,240
+Fair enough.
+
+67
+00:02:59,240 --> 00:03:01,370
+Now, what happened on this day?
+
+68
+00:03:01,370 --> 00:03:04,420
+It says that he leaves-- her husband leaves home
+
+69
+00:03:04,420 --> 00:03:05,790
+to meet her at the usual time.
+
+70
+00:03:05,790 --> 00:03:09,810
+So once again, he is going to leave-- he leaves--
+
+71
+00:03:09,810 --> 00:03:11,520
+I'll do this in red.
+
+72
+00:03:11,520 --> 00:03:22,780
+He leaves at 6 o'clock minus t, right?
+
+73
+00:03:22,780 --> 00:03:25,147
+And then, she arrived early.
+
+74
+00:03:25,147 --> 00:03:26,622
+So she's going to be walking back.
+
+75
+00:03:26,622 --> 00:03:28,510
+So there's going to be some smaller time
+
+76
+00:03:28,510 --> 00:03:30,250
+than it takes him to reach her.
+
+77
+00:03:30,250 --> 00:03:33,530
+So let's just leave that unlabeled right now.
+
+78
+00:03:33,530 --> 00:03:35,254
+So if I have a line here--
+
+79
+00:03:35,254 --> 00:03:37,204
+so he's going to travel a shorter distance,
+
+80
+00:03:37,204 --> 00:03:39,350
+and, of course, it's going to take him less time
+
+81
+00:03:39,350 --> 00:03:41,150
+because she started walking.
+
+82
+00:03:41,150 --> 00:03:44,440
+That's what the problem tells us, right?
+
+83
+00:03:44,440 --> 00:03:47,420
+Today she arrives at 5 o'clock, and she begins to walk home.
+
+84
+00:03:47,420 --> 00:03:48,995
+So she's going to make some distance up
+
+85
+00:03:48,995 --> 00:03:51,650
+so he's not going to have to travel quite as far.
+
+86
+00:03:51,650 --> 00:03:54,810
+And then whatever time that was,
+
+87
+00:03:54,810 --> 00:03:57,710
+he goes back the other way.
+
+88
+00:03:57,710 --> 00:04:01,360
+It's going to be the same amount of time.
+
+89
+00:04:01,360 --> 00:04:03,670
+It's the same amount of time.
+
+90
+00:04:03,670 --> 00:04:06,130
+And what does it tell us?
+
+91
+00:04:06,130 --> 00:04:07,735
+He meets her on the way,
+
+92
+00:04:07,735 --> 00:04:09,870
+and then they arrive home 20 minutes early.
+
+93
+00:04:09,870 --> 00:04:13,910
+So normally, they arrive at 6 o'clock plus t, right?
+
+94
+00:04:13,910 --> 00:04:14,820
+That's normal.
+
+95
+00:04:14,820 --> 00:04:17,800
+So today, they're going to arrive 20 minutes early.
+
+96
+00:04:17,800 --> 00:04:23,930
+So they're going to arrive at, you could say, 6 o'clock
+
+97
+00:04:23,930 --> 00:04:27,830
+plus t-- that's just that-- minus 20 minutes, right?
+
+98
+00:04:27,830 --> 00:04:29,690
+They're going to arrive 20 minutes early.
+
+99
+00:04:29,690 --> 00:04:31,059
+So what's the total amount of time
+
+100
+00:04:31,059 --> 00:04:33,220
+that he would have traveled on that day?
+
+101
+00:04:33,220 --> 00:04:35,110
+The total amount of time?
+
+102
+00:04:35,110 --> 00:04:39,480
+Well, he essentially travels 20 minutes less than
+
+103
+00:04:39,480 --> 00:04:40,480
+he does on a normal day, right?
+
+104
+00:04:40,480 --> 00:04:42,630
+He leaves at the same time and he gets there 20 minutes early.
+
+105
+00:04:42,630 --> 00:04:47,234
+And if you take the difference between 6+t-20 and 6-t,
+
+106
+00:04:47,234 --> 00:04:50,490
+you're going to get 2t-20.
+
+107
+00:04:50,490 --> 00:04:51,501
+And that's almost--
+
+108
+00:04:51,501 --> 00:04:53,750
+I probably didn't even have to draw all of this.
+
+109
+00:04:53,750 --> 00:04:55,545
+You could just say, well, you know, on a regular day,
+
+110
+00:04:55,545 --> 00:04:57,990
+it takes them two-- if t is the amount of time,
+
+111
+00:04:57,990 --> 00:04:59,564
+it normally takes him to go to the station,
+
+112
+00:04:59,564 --> 00:05:03,080
+on a normal day, he travels 2t minutes.
+
+113
+00:05:03,080 --> 00:05:06,140
+Today, he leaves at the same time, gets 20 minutes early,
+
+114
+00:05:06,140 --> 00:05:09,870
+so he travels 2t minus 20 minutes.
+
+115
+00:05:09,870 --> 00:05:10,950
+Fair enough.
+
+116
+00:05:10,950 --> 00:05:12,110
+Now, what does that tell us?
+
+117
+00:05:12,110 --> 00:05:14,630
+Well, how long did it take him to get to her?
+
+118
+00:05:14,630 --> 00:05:17,200
+How long did this take her?
+
+119
+00:05:17,200 --> 00:05:20,410
+Well, to go to pick her up takes the same amount of time
+
+120
+00:05:20,410 --> 00:05:23,620
+as to come back, so he must have taken half of this time to go
+
+121
+00:05:23,620 --> 00:05:25,940
+and half of this time to come back.
+
+122
+00:05:25,940 --> 00:05:29,650
+So it must have been t minus 10 to go,
+
+123
+00:05:29,650 --> 00:05:32,340
+and then t minus 10 to come back.
+
+124
+00:05:32,340 --> 00:05:35,800
+So it took him 10 minutes less to reach her this time.
+
+125
+00:05:35,800 --> 00:05:37,630
+So what time does he pick her up?
+
+126
+00:05:37,630 --> 00:05:39,570
+And this is the key.
+
+127
+00:05:39,570 --> 00:05:43,090
+So normally, when it takes him t minutes,
+
+128
+00:05:43,090 --> 00:05:44,820
+he gets there at 6 o'clock.
+
+129
+00:05:44,820 --> 00:05:48,040
+This time she started walking because she got there early,
+
+130
+00:05:48,040 --> 00:05:49,590
+and he gets there 10 minutes--
+
+131
+00:05:49,590 --> 00:05:51,851
+he reaches her 10 minutes earlier than
+
+132
+00:05:51,851 --> 00:05:54,910
+he normally would have reached her, right? t minus 10.
+
+133
+00:05:54,910 --> 00:05:57,020
+Normally, he reaches her at 6 o'clock.
+
+134
+00:05:57,020 --> 00:05:59,340
+Today he reaches her 10 minutes earlier.
+
+135
+00:05:59,340 --> 00:06:05,740
+So he reaches her at 5:50.
+
+136
+00:06:05,740 --> 00:06:10,750
+Now, the question is, how many minutes did Bev walk?
+
+137
+00:06:10,750 --> 00:06:13,500
+How many minutes did Bev walk?
+
+138
+00:06:13,500 --> 00:06:17,340
+Remember, she arrived an hour early and arrives at 5 o'clock,
+
+139
+00:06:17,340 --> 00:06:19,550
+and then she starts walking.
+
+140
+00:06:19,550 --> 00:06:24,250
+She arrives at 5:00, 5 o'clock, and just starts walking.
+
+141
+00:06:24,250 --> 00:06:25,330
+And when does he pick her up?
+
+142
+00:06:25,330 --> 00:06:26,950
+He picks her up at 5:50.
+
+143
+00:06:26,950 --> 00:06:30,540
+So she walked for 50 minutes.
+
+144
+00:06:30,540 --> 00:06:31,900
+That's a neat problem.
+
+145
+00:06:31,900 --> 00:06:34,246
+Because on some level, it's very easy,
+
+146
+00:06:34,246 --> 00:06:35,463
+but on a lot of other levels,
+
+147
+00:06:35,463 --> 00:06:39,110
+they give you all of this other information that's not necessary.
+
+148
+00:06:39,110 --> 00:06:40,870
+For example, you don't have to know that
+
+149
+00:06:40,870 --> 00:06:43,287
+she leaves at 4 o'clock. That's actually probably
+
+150
+00:06:43,287 --> 00:06:45,670
+the most unnecessary piece of information.
+
+151
+00:06:45,670 --> 00:06:47,480
+But everything else is kind of left abstract.
+
+152
+00:06:47,480 --> 00:06:48,472
+But even though you can--
+
+153
+00:06:48,472 --> 00:06:50,030
+they're not giving a lot of details.
+
+154
+00:06:50,030 --> 00:06:52,780
+You can actually figure out how far she walked
+
+155
+00:06:52,780 --> 00:06:54,697
+without knowing how fast she walks,
+
+156
+00:06:54,697 --> 00:06:56,560
+or how fast her husband drives,
+
+157
+00:06:56,560 --> 00:06:58,640
+or how far they are from the train station,
+
+158
+00:06:58,640 --> 00:07:00,670
+or how far the house is from the train station, or any of that.
+
+159
+00:07:00,670 --> 00:07:02,970
+You're still able to figure out how far she walked.
+
+160
+00:07:02,970 --> 00:07:04,620
+Anyway, neat problem.
+
+161
+00:07:04,620 --> 00:07:07,172
+Thanks again to Kortaggio.

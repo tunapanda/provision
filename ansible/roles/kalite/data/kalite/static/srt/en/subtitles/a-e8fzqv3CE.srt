@@ -1,0 +1,283 @@
+1
+00:00:00,000 --> 00:00:02,977
+While I'm working on some more ambitious projects, I wanted to quickly comment
+
+2
+00:00:02,977 --> 00:00:05,657
+on a couple 'mathy' things that have been floathing around the internet
+
+3
+00:00:05,673 --> 00:00:07,173
+just so you know I'm still alive.
+
+4
+00:00:07,173 --> 00:00:10,511
+So there's this video that's been floathing around about how to multiply visually like this:
+
+5
+00:00:10,542 --> 00:00:14,823
+Pick two numbers, let's say: 12 times 31...and then you draw these lines:
+
+6
+00:00:14,823 --> 00:00:18,813
+one, two...three, one. Then you start counting the intersections.
+
+7
+00:00:18,936 --> 00:00:22,616
+One, two, three on the left. One, two, three, four, five, six, seven in the middle.
+
+8
+00:00:22,616 --> 00:00:23,746
+One, two on the right.
+
+9
+00:00:23,746 --> 00:00:26,731
+Put them together: three-seven-two. There's your answer. Magic, right?
+
+10
+00:00:26,731 --> 00:00:29,554
+But one of the delightful things about mathematics is that
+
+11
+00:00:29,600 --> 00:00:31,438
+there's often more than one way to solve a problem
+
+12
+00:00:31,438 --> 00:00:33,446
+and sometimes these methods look entirely different
+
+13
+00:00:33,461 --> 00:00:36,693
+but because they do the same thing they must be connected somehow
+
+14
+00:00:36,693 --> 00:00:39,253
+and in this case, there're not so different at all.
+
+15
+00:00:39,269 --> 00:00:41,574
+Let me demonstrate this visual method again.
+
+16
+00:00:41,574 --> 00:00:44,104
+This time let's do 97 times 86.
+
+17
+00:00:44,104 --> 00:00:49,121
+So we draw our nine lines and seven lines times eight lines and six lines.
+
+18
+00:00:49,121 --> 00:00:51,304
+Now all we have to do is count the intersections.
+
+19
+00:00:51,304 --> 00:00:54,975
+One, two, three, four, five, six, seven, eight, nine, ten... Okay wait!
+
+20
+00:00:54,991 --> 00:00:55,583
+This is boring!
+
+21
+00:00:55,598 --> 00:00:57,175
+How about instead of counting all the dots
+
+22
+00:00:57,175 --> 00:00:59,075
+we just figure out how many intersections there are.
+
+23
+00:00:59,075 --> 00:01:01,614
+Let's see: there's seven going one way and six going the other.
+
+24
+00:01:01,614 --> 00:01:04,639
+Hey, that's just six times seven which is...Huh!
+
+25
+00:01:04,639 --> 00:01:09,442
+Forget everything I ever said about learning a certain amount of memorization in mathematics being useful
+
+26
+00:01:09,442 --> 00:01:11,326
+at least at an elementary school level,
+
+27
+00:01:11,326 --> 00:01:14,011
+because apparently I've been faking my way through being a mathematician
+
+28
+00:01:14,011 --> 00:01:16,271
+without having memorized six times seven
+
+29
+00:01:16,271 --> 00:01:19,380
+and now I'm going to have to figure out five times seven
+
+30
+00:01:19,395 --> 00:01:25,717
+which is... [mumbling] ...so that's 35 and then add the sixth 7 to get 42.
+
+31
+00:01:25,778 --> 00:01:27,324
+Wow! I really should have known that one.
+
+32
+00:01:27,324 --> 00:01:31,691
+Okay, but the point is that this method breaks down the 'two digit' multiplication problem
+
+33
+00:01:31,691 --> 00:01:34,139
+into four 'one digit' multiplication problems
+
+34
+00:01:34,139 --> 00:01:37,097
+and if you do have your multiplication table memorized
+
+35
+00:01:37,097 --> 00:01:39,479
+you can easily figure out the answers.
+
+36
+00:01:39,479 --> 00:01:43,163
+And just like these three numbers became the ones, tens, and hundreds place
+
+37
+00:01:43,163 --> 00:01:46,907
+of the answer, these do to. Ones. Tens. Hundreds.
+
+38
+00:01:46,923 --> 00:01:48,761
+You add them all up and: voilá!
+
+39
+00:01:48,792 --> 00:01:52,199
+Which is exactly the same kind of breaking down into single digit multiplication
+
+40
+00:01:52,229 --> 00:01:54,722
+and adding that you do doing the old boring method.
+
+41
+00:01:54,722 --> 00:01:57,064
+The whole point is just to multiply every pair of digits,
+
+42
+00:01:57,064 --> 00:01:59,087
+make sure you've got the proper number of zeros on the end,
+
+43
+00:01:59,102 --> 00:02:02,512
+and add them all up. But of course seeing what you're actually doing is
+
+44
+00:02:02,558 --> 00:02:05,837
+multiplying every possible pair is not something your teachers want you to realize
+
+45
+00:02:05,837 --> 00:02:07,891
+or else you might remember the 'every combinations' concept
+
+46
+00:02:07,891 --> 00:02:10,889
+when you get to multiplying binomials and it might make it too easy.
+
+47
+00:02:10,889 --> 00:02:15,966
+In the end, all of these methods of multiplication distract from what multiplication really is.
+
+48
+00:02:15,966 --> 00:02:18,158
+Which for 12 times 31, is this.
+
+49
+00:02:18,173 --> 00:02:21,268
+All the rest is just breaking it down into well organized chunks
+
+50
+00:02:21,268 --> 00:02:25,692
+Saying, well: 10 times 30 is this. 10 times 1 is this. 30 times 2 is that.
+
+51
+00:02:25,692 --> 00:02:29,121
+And 2 times 1 is that. Add them all up, and you get the total area.
+
+52
+00:02:29,121 --> 00:02:31,674
+Don't let notation get in the way of your understanding.
+
+53
+00:02:31,690 --> 00:02:33,513
+Speaking of notation...
+
+54
+00:02:33,513 --> 00:02:37,054
+This infuriating bit of nonsense has been circulating around recently.
+
+55
+00:02:37,054 --> 00:02:39,352
+And that there has been so much discussion of it is a sign
+
+56
+00:02:39,367 --> 00:02:41,913
+that we've been trained to care about notation way too much.
+
+57
+00:02:41,913 --> 00:02:44,441
+Do you multiply here first? Or divide here first?
+
+58
+00:02:44,441 --> 00:02:47,739
+The answer is that: This is a badly formed sentence.
+
+59
+00:02:47,739 --> 00:02:51,056
+It's like saying: "I would like some juice or water with ice."
+
+60
+00:02:51,056 --> 00:02:54,233
+Do you mean you'd like either juice with no ice? Or water with ice?
+
+61
+00:02:54,233 --> 00:02:57,362
+Or do you mean that you'd like either juice with ice or water with ice?
+
+62
+00:02:57,362 --> 00:03:00,433
+You can make claims about conventions of what's right or wrong
+
+63
+00:03:00,449 --> 00:03:02,472
+but really the burden is on the author of the sentence
+
+64
+00:03:02,472 --> 00:03:04,387
+to put in some commas and make things clear.
+
+65
+00:03:04,402 --> 00:03:06,581
+Mathematicians do this by adding parentheses
+
+66
+00:03:06,597 --> 00:03:08,481
+and avoiding this divided by sign.
+
+67
+00:03:08,512 --> 00:03:11,479
+Math is not marks on a page.
+
+68
+00:03:11,602 --> 00:03:13,656
+The mathematics is in what those marks represent.
+
+69
+00:03:13,656 --> 00:03:16,444
+You can make up any rules you want about stuff
+
+70
+00:03:16,444 --> 00:03:17,975
+as long as you're consistent with them.
+
+71
+00:03:17,991 --> 99:59:59,999
+The end.

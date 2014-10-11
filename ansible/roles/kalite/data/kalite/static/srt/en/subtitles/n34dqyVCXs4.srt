@@ -1,0 +1,207 @@
+1
+00:00:00,979 --> 00:00:05,928
+f(x) = 9 - x squared
+
+2
+00:00:05,928 --> 00:00:09,062
+and g(x) = 5 times x squared
+
+3
+00:00:09,062 --> 00:00:11,891
+plus 2x plus 1
+
+4
+00:00:11,891 --> 00:00:15,293
+and then they say find (f + g)(x)
+
+5
+00:00:15,293 --> 00:00:16,911
+and this looks a little bit bizzare
+
+6
+00:00:16,911 --> 00:00:18,264
+what kind of notation is this
+
+7
+00:00:18,264 --> 00:00:20,060
+and that's really the core of this problem
+
+8
+00:00:20,060 --> 00:00:21,972
+is just to realize that when someone writes
+
+9
+00:00:21,972 --> 00:00:24,988
+(f +g) in parentheses of x
+
+10
+00:00:24,988 --> 00:00:33,441
+is just notation for, this is the same thing as
+
+11
+00:00:33,441 --> 00:00:37,839
+f(x) + g(x)
+
+12
+00:00:37,839 --> 00:00:42,089
+you can view (f + g) as a new function
+
+13
+00:00:42,089 --> 00:00:44,039
+that's created by adding the other twp function
+
+14
+00:00:44,039 --> 00:00:46,680
+when you view it like this
+
+15
+00:00:46,680 --> 00:00:48,806
+then you really just have to add these two functions
+
+16
+00:00:48,806 --> 00:00:52,605
+so f(x) given the definition
+
+17
+00:00:52,605 --> 00:00:57,220
+is 9 - x squared
+
+18
+00:00:57,220 --> 00:01:00,688
+and g(x) given the defintition
+
+19
+00:01:00,688 --> 00:01:03,278
+right over here
+
+20
+00:01:03,278 --> 00:01:07,829
+'is 5 times x squared plus 2x plus 1
+
+21
+00:01:07,829 --> 00:01:10,045
+so when you add f(x) to g(x)
+
+22
+00:01:10,045 --> 00:01:11,222
+this is going to be equal to
+
+23
+00:01:11,222 --> 00:01:14,029
+and I'm just re-writing this over here
+
+24
+00:01:14,029 --> 00:01:17,120
+the f(x) part is 9 - x squared
+
+25
+00:01:17,120 --> 00:01:19,211
+and then you have the plus
+
+26
+00:01:19,211 --> 00:01:21,323
+in yellow
+
+27
+00:01:21,323 --> 00:01:23,575
+plus the g(x) part
+
+28
+00:01:23,575 --> 00:01:25,788
+which is 5 times x squared
+
+29
+00:01:25,788 --> 00:01:28,624
+plus 2x plus 1
+
+30
+00:01:28,624 --> 00:01:30,794
+and now we can simplify this a little bit
+
+31
+00:01:30,794 --> 00:01:34,645
+let me just get rid of the parentheses
+
+32
+00:01:34,645 --> 00:01:37,113
+so this is equal to
+
+33
+00:01:37,113 --> 00:01:40,410
+9 minus x squared plus
+
+34
+00:01:40,410 --> 00:01:43,906
+since this is positive we don't have to worry about the parenthese
+
+35
+00:01:43,906 --> 00:01:50,494
+so plus 5 x squared plus 2x plus 1
+
+36
+00:01:50,494 --> 00:01:52,558
+and then we have two x squared terms
+
+37
+00:01:52,558 --> 00:01:56,005
+we have 5 x squared and then we have negative x squared
+
+38
+00:01:56,005 --> 00:01:59,644
+so 5 x squared minus x sqaured is 4 x squared
+
+39
+00:01:59,644 --> 00:02:02,397
+so you get 4 x squared when you combine these two terms
+
+40
+00:02:02,397 --> 00:02:04,861
+and you only have one 1st degree term
+
+41
+00:02:04,861 --> 00:02:05,879
+2x there
+
+42
+00:02:05,879 --> 00:02:07,661
+so plus 2x
+
+43
+00:02:07,661 --> 00:02:10,411
+and then you have two constant terms
+
+44
+00:02:10,411 --> 00:02:12,729
+or zero degree terms
+
+45
+00:02:12,729 --> 00:02:14,680
+you have the 9 and youhave the 1
+
+46
+00:02:14,680 --> 00:02:17,461
+so 9 plus 1 gets us to ten
+
+47
+00:02:17,461 --> 00:02:19,026
+so we're done
+
+48
+00:02:19,026 --> 00:02:21,776
+(f + g)(x)
+
+49
+00:02:21,776 --> 00:02:23,228
+is equal to
+
+50
+00:02:23,228 --> 00:02:25,722
+4 x sqaured plus 2x plus 10
+
+51
+00:02:25,722 --> 00:02:27,565
+notice this is a new function
+
+52
+00:02:27,565 --> 00:02:30,087
+that is created by summing the function definitons

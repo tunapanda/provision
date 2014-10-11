@@ -1,0 +1,423 @@
+1
+00:00:00,122 --> 00:00:04,184
+In the last video we took the Maclaurin Series of Cosine of x
+
+2
+00:00:04,184 --> 00:00:06,738
+we approximated it using this polynomial
+
+3
+00:00:06,738 --> 00:00:08,334
+and we saw this pretty interesting pattern.
+
+4
+00:00:08,334 --> 00:00:10,782
+Let's see if we can find a similar pattern if we try
+
+5
+00:00:10,782 --> 00:00:14,384
+to approximate sine of x using a Maclaurin series.
+
+6
+00:00:14,384 --> 00:00:17,293
+And once again a Maclaurin series is really the same thing
+
+7
+00:00:17,293 --> 00:00:21,595
+as Taylor Series where we are centering our approximation
+
+8
+00:00:21,595 --> 00:00:27,108
+around x is equal to 0 .so this is a special case of a Taylor Series
+
+9
+00:00:27,108 --> 00:00:32,762
+so let's take f of x in this sitiuation to be equal to sine of x
+
+10
+00:00:32,808 --> 00:00:37,877
+f of x is now equal to sine of x and lets's do the same thing
+
+11
+00:00:37,877 --> 00:00:40,256
+that we did with cosine of x . Let's just take the different
+
+12
+00:00:40,256 --> 00:00:44,754
+derivatives of sine of x really fast. so if you have the first
+
+13
+00:00:44,754 --> 00:00:50,348
+derivative of sine of x is just cosine of x . The second derivative
+
+14
+00:00:50,348 --> 00:00:56,441
+of sine of x is derivative of cos x which is negative sine of x
+
+15
+00:00:56,441 --> 00:00:59,302
+the third derivative is going to be the derivative of this
+
+16
+00:00:59,302 --> 00:01:01,098
+so I will just write 3 in parentheses there in stead of doing
+
+17
+00:01:01,098 --> 00:01:04,231
+all the prime prime prime. so the third derivative is
+
+18
+00:01:04,231 --> 00:01:09,021
+derivative of this which is negative cosine of x . the fourth
+
+19
+00:01:09,021 --> 00:01:12,975
+derivative the fourth derivative is the derivative of this
+
+20
+00:01:12,975 --> 00:01:17,467
+which is positive sine of x again. so you see just like cosine of x
+
+21
+00:01:17,467 --> 00:01:20,436
+it kind of cycles after you take the derivative enough time.
+
+22
+00:01:20,436 --> 00:01:23,252
+and we care in order to the Maclaurin series we care
+
+23
+00:01:23,252 --> 00:01:29,169
+about evaluating the function and each of these derivatives at x is equal to 0 .
+
+24
+00:01:29,169 --> 00:01:32,215
+so let's do that. so for this let me do this in a different
+
+25
+00:01:32,215 --> 00:01:37,800
+color not that same blue. so i'll do it in this purple color.
+
+26
+00:01:37,800 --> 00:01:40,329
+so f that's hard to see I think. so let's do this in the
+
+27
+00:01:40,329 --> 00:01:47,733
+other blue color. so f of 0 in this situation is 0 and f the
+
+28
+00:01:47,733 --> 00:01:51,938
+first derivative evaluated at 0 is 1. cosine of 0 is 1
+
+29
+00:01:52,846 --> 00:01:59,267
+negative sine of 0 is going to be 0. so f prime prime
+
+30
+00:01:59,267 --> 00:02:01,652
+the second derivative evaluated at 0 is 0.
+
+31
+00:02:01,652 --> 00:02:06,944
+the third derivative evaluated at 0 is negative 1.
+
+32
+00:02:06,944 --> 00:02:10,800
+cosine of 0 is 1 you have a negative out there it is
+
+33
+00:02:10,800 --> 00:02:15,421
+negative 1 and the fourth derivative evaluated at 0 is
+
+34
+00:02:15,421 --> 00:02:19,733
+going to be 0 again. we could keep going once again seems like
+
+35
+00:02:19,733 --> 00:02:22,169
+there is a pattern 0 1 -1 0 then you are going to go back
+
+36
+00:02:22,169 --> 00:02:27,000
+to positive 1 so on and so forth . so let's find it's
+
+37
+00:02:27,000 --> 00:02:30,001
+polynomial representation using Maclaurin Series.
+
+38
+00:02:30,001 --> 00:02:33,995
+just a reminder this one up here this was approximately
+
+39
+00:02:33,995 --> 00:02:36,148
+cosine of x and you will get closer and closer
+
+40
+00:02:36,148 --> 00:02:38,615
+to cosine of x I am not rigorously showing you how close
+
+41
+00:02:38,615 --> 00:02:41,843
+and that is definitely the exactly the same thing as cosine of x
+
+42
+00:02:41,843 --> 00:02:43,441
+but you get closer and closer and closer to cosine of x
+
+43
+00:02:43,441 --> 00:02:46,046
+as you keep adding terms here and if you to infinity
+
+44
+00:02:46,046 --> 00:02:49,179
+you are going to be pretty much at cosine of x
+
+45
+00:02:49,179 --> 00:02:52,435
+now let's do the same thing for sine of x . so i'll pick
+
+46
+00:02:52,435 --> 00:02:56,518
+a new color. this green should be nice. so this is
+
+47
+00:02:56,518 --> 00:02:58,827
+our new p of x. so this is approximately going to be
+
+48
+00:02:58,827 --> 00:03:02,067
+sine of x as we add more and more terms
+
+49
+00:03:02,067 --> 00:03:07,133
+and so the first term here f of 0 that's just going to be 0
+
+50
+00:03:07,133 --> 00:03:10,467
+so we are not even going to need to include that. the next term
+
+51
+00:03:10,467 --> 00:03:15,333
+is going to f prime 0 which is 1 times x . so it's going to be x
+
+52
+00:03:15,841 --> 00:03:19,901
+then the next term is f prime the second derivative at 0
+
+53
+00:03:19,901 --> 00:03:23,436
+which we see here is 0. let me scroll down a little bit
+
+54
+00:03:23,436 --> 00:03:27,133
+it is 0 so we won't have the second term
+
+55
+00:03:27,133 --> 00:03:30,862
+this third term right here the third derivative of sine of x
+
+56
+00:03:30,862 --> 00:03:34,831
+evaluated at 0 is negative 1 so we are now going to have
+
+57
+00:03:34,831 --> 00:03:40,333
+a negative 1 . let me scroll down so you can see this
+
+58
+00:03:40,333 --> 00:03:44,877
+negative 1 this is negative 1 in this case times x the third
+
+59
+00:03:44,877 --> 00:03:50,836
+over 3 factorial. so negative x the third over 3 factorial
+
+60
+00:03:50,836 --> 00:03:54,446
+and then the next term is going to be 0 because that's
+
+61
+00:03:54,446 --> 00:03:57,748
+the fourth derivative . that's the fourth derivative evaluated
+
+62
+00:03:57,748 --> 00:04:01,892
+at 0 is the next coefficient. we see that that's going to be 0
+
+63
+00:04:01,892 --> 00:04:04,712
+so it's going to drop off and what you are going to see here
+
+64
+00:04:04,712 --> 00:04:06,823
+and actually maybe I haven't done enough pep terms
+
+65
+00:04:06,823 --> 00:04:08,917
+for you. for you to feel good about this let me do
+
+66
+00:04:08,963 --> 00:04:13,379
+one more term right over here just so it becomes clear
+
+67
+00:04:13,379 --> 00:04:17,067
+f of fifth derivative of x is going to be cosine of x
+
+68
+00:04:17,067 --> 00:04:20,249
+again. the fifth derivative let me do that in the same color
+
+69
+00:04:20,249 --> 00:04:23,200
+just so that it's consistent. the fifth derivative
+
+70
+00:04:23,492 --> 00:04:28,608
+the fifth derivative evaluated at 0 is going to be 1
+
+71
+00:04:29,685 --> 00:04:34,148
+so the fourth derivatives evaluated at 0 is 0. then you
+
+72
+00:04:34,148 --> 00:04:38,133
+go to the fifth derivative evaluated at 0 is going to be
+
+73
+00:04:38,133 --> 00:04:41,923
+positive 1 and if I kept doing this it would be positive 1 times
+
+74
+00:04:41,923 --> 00:04:47,184
+I would have to write 1 as a coefficient times x to the fifth
+
+75
+00:04:47,184 --> 00:04:49,867
+over 5 factorial so there is something interesting going
+
+76
+00:04:49,867 --> 00:04:54,475
+on here and for cosine of x I had 1 essentially 1 times
+
+77
+00:04:54,475 --> 00:04:58,890
+x to the zero then I don't have x to the first power
+
+78
+00:04:58,890 --> 00:05:01,349
+I don't have x to the odd powers actually then I just
+
+79
+00:05:01,349 --> 00:05:04,089
+have x to all the even powers and whatever power it is
+
+80
+00:05:04,089 --> 00:05:07,339
+I am dividing it by that factorial and then the sign
+
+81
+00:05:07,339 --> 00:05:10,590
+keeps switching and this is ,I shouldn't say this is an
+
+82
+00:05:10,590 --> 00:05:13,562
+even power because 0 really isn't , well I guess you
+
+83
+00:05:13,562 --> 00:05:16,333
+can view it as an even number cuz it.. I won't go into
+
+84
+00:05:16,333 --> 00:05:21,733
+all of that but it's essentially 0 2 4 6 so on and so forth
+
+85
+00:05:21,733 --> 00:05:25,451
+so this is interesting specially when you compare to
+
+86
+00:05:25,451 --> 00:05:28,619
+this . this is all of the odd powers this is x to the first
+
+87
+00:05:28,619 --> 00:05:31,387
+over 1 factorial I didn't write it here there's x to
+
+88
+00:05:31,387 --> 00:05:34,385
+the third over 3 factorial plus x to the fifth over
+
+89
+00:05:34,385 --> 00:05:36,831
+5 factorial. ya zero would be an even number . anyway
+
+90
+00:05:36,831 --> 00:05:40,033
+I don't.almost. my brain is in a different place right now
+
+91
+00:05:40,033 --> 00:05:42,866
+and you could keep going if we kept this process up
+
+92
+00:05:42,866 --> 00:05:45,672
+you would then keep switching signs x to the seventh
+
+93
+00:05:45,672 --> 00:05:49,460
+over 7 factorial plus x to the ninth over 9 factorial
+
+94
+00:05:49,460 --> 00:05:51,067
+so there is something interesting here you once
+
+95
+00:05:51,067 --> 00:05:56,400
+again see this kind of complimentary nature between
+
+96
+00:05:56,400 --> 00:05:59,467
+sine and cosine here. you see almost this..they kind of
+
+97
+00:05:59,467 --> 00:06:01,395
+they are filling each other's gaps over here cosine of x
+
+98
+00:06:01,395 --> 00:06:05,714
+is all of the even powers of x divided by that power's factorial
+
+99
+00:06:05,714 --> 00:06:09,133
+sine of x when you take it's polynomial representation
+
+100
+00:06:09,133 --> 00:06:12,867
+is all of the odd powers of x divided by it's factorial
+
+101
+00:06:12,867 --> 00:06:17,195
+and you switch signs. In the next video I'll do e to the x
+
+102
+00:06:17,195 --> 00:06:20,477
+and what's really fascinating is that e to the x starts
+
+103
+00:06:20,477 --> 00:06:24,430
+to look like a little bit of a combination here. but not quite
+
+104
+00:06:24,430 --> 00:06:27,462
+and you really do get the combination when you involve
+
+105
+00:06:27,462 --> 00:06:30,333
+imaginary numbers and that's when it starts to get
+
+106
+00:06:30,333 --> 99:59:59,999
+really really mind-blowing.

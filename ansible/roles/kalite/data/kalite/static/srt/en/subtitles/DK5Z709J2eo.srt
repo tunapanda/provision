@@ -1,0 +1,599 @@
+1
+00:00:00,467 --> 00:00:01,982
+So you're me, and you're in math class yet again
+
+2
+00:00:01,982 --> 00:00:04,104
+because they make you go, like, every single day.
+
+3
+00:00:04,104 --> 00:00:05,105
+And you're learning about, I don't know,
+
+4
+00:00:05,105 --> 00:00:06,803
+the sums of infinite series.
+
+5
+00:00:06,803 --> 00:00:08,008
+That's a high school topic, right?
+
+6
+00:00:08,008 --> 00:00:09,943
+Which is odd, because it's a cool topic,
+
+7
+00:00:09,943 --> 00:00:11,945
+but they somehow manage to ruin it anyway.
+
+8
+00:00:11,945 --> 00:00:15,415
+So I guess that's why they allow infinite series in the curriculum.
+
+9
+00:00:15,415 --> 00:00:17,569
+So, in a quite understandable need for distraction,
+
+10
+00:00:17,569 --> 00:00:18,882
+you're doodling and thinking more about
+
+11
+00:00:18,882 --> 00:00:20,650
+what the plural of "series" should be
+
+12
+00:00:20,650 --> 00:00:22,325
+than about the topic at hand.
+
+13
+00:00:22,325 --> 00:00:24,743
+"Serieses," "seriese," "seriesen," and "serii?"
+
+14
+00:00:24,743 --> 00:00:27,144
+Or is it that the singular should be changed?
+
+15
+00:00:27,144 --> 00:00:28,813
+One "serie," or "serus," or "serum?"
+
+16
+00:00:28,813 --> 00:00:31,501
+It's like the singular of "sheep" should be "shoop."
+
+17
+00:00:31,501 --> 00:00:33,393
+But the whole concept of things like
+
+18
+00:00:33,393 --> 00:00:36,573
+1/2 +1/4 +1/8 +1/16 and so on, approaching one,
+
+19
+00:00:36,573 --> 00:00:38,941
+is useful if you wanna draw a line of elephants
+
+20
+00:00:38,941 --> 00:00:41,024
+each holding the tail of the next one:
+
+21
+00:00:41,024 --> 00:00:42,223
+normal elephant, young elephant,
+
+22
+00:00:42,223 --> 00:00:44,621
+baby elephant, dog-sized elephant, puppy-sized elephant...
+
+23
+00:00:44,621 --> 00:00:46,556
+All the way down to Mr. Tusks and beyond.
+
+24
+00:00:46,556 --> 00:00:48,602
+Which is at least a <i>tiny</i> bit awesome,
+
+25
+00:00:48,602 --> 00:00:50,204
+because you can get an infinite number of elephants in a line
+
+26
+00:00:50,204 --> 00:00:51,405
+and still have it fit across a single notebook page.
+
+27
+00:00:51,405 --> 00:00:53,607
+But there's questions like,
+
+28
+00:00:53,607 --> 00:00:55,175
+"What if you started with a camel, which,
+
+29
+00:00:55,175 --> 00:00:56,308
+being smaller than an elephant,
+
+30
+00:00:56,308 --> 00:00:58,178
+only goes across a third of the page?"
+
+31
+00:00:58,178 --> 00:00:59,633
+How big should the next camel be
+
+32
+00:00:59,633 --> 00:01:01,948
+in order to properly approach the end of the page?
+
+33
+00:01:01,948 --> 00:01:03,502
+Certainly you could calculate an answer to this question,
+
+34
+00:01:03,502 --> 00:01:05,003
+and it's cool that that's possible,
+
+35
+00:01:05,003 --> 00:01:06,805
+but I'm not really interested in doing calculations,
+
+36
+00:01:06,805 --> 00:01:08,306
+so we'll come back to camels.
+
+37
+00:01:08,306 --> 00:01:09,307
+Here's a fractal.
+
+38
+00:01:09,307 --> 00:01:10,542
+You start with these circles,
+
+39
+00:01:10,542 --> 00:01:11,443
+in a circle,
+
+40
+00:01:11,443 --> 00:01:12,878
+and then keep drawing the biggest circle
+
+41
+00:01:12,878 --> 00:01:14,212
+that fits in the space in-between.
+
+42
+00:01:14,212 --> 00:01:16,882
+This is called an "Apollonian Gasket."
+
+43
+00:01:16,882 --> 00:01:18,774
+And you can choose a different starting set of circles,
+
+44
+00:01:18,774 --> 00:01:20,002
+and it still works nicely.
+
+45
+00:01:20,002 --> 00:01:21,537
+It's well known in some circles
+
+46
+00:01:21,537 --> 00:01:22,805
+because it has some very interesting properties
+
+47
+00:01:22,805 --> 00:01:24,776
+involving the relative curvature of circles
+
+48
+00:01:24,776 --> 00:01:25,608
+which is neat and all,
+
+49
+00:01:25,608 --> 00:01:26,876
+but it also looks cool
+
+50
+00:01:26,876 --> 00:01:28,863
+and suggests an awesome doodle game.
+
+51
+00:01:28,863 --> 00:01:29,699
+Step one:
+
+52
+00:01:29,699 --> 00:01:31,114
+draw ANY shape.
+
+53
+00:01:31,114 --> 00:01:32,299
+Step two:
+
+54
+00:01:32,299 --> 00:01:33,968
+draw the BIGGEST circle you can within this shape.
+
+55
+00:01:33,968 --> 00:01:35,318
+Step three:
+
+56
+00:01:35,318 --> 00:01:36,637
+draw the biggest circle you can
+
+57
+00:01:36,637 --> 00:01:37,638
+within the space left.
+
+58
+00:01:37,638 --> 00:01:38,806
+Step four:
+
+59
+00:01:38,806 --> 00:01:39,962
+see Step three.
+
+60
+00:01:39,962 --> 00:01:42,350
+As long as there is space left after the first circle,
+
+61
+00:01:42,350 --> 00:01:43,736
+meaning don't start with a circle,
+
+62
+00:01:43,736 --> 00:01:46,042
+this method turns any shape into a fractal.
+
+63
+00:01:46,042 --> 00:01:46,928
+You can do this with triangles,
+
+64
+00:01:46,928 --> 00:01:49,077
+you can do this with stars, and don't forget to embellish!
+
+65
+00:01:49,077 --> 00:01:51,193
+You can do this with elephants, or snakes,
+
+66
+00:01:51,193 --> 00:01:52,810
+or profile one of your friends.
+
+67
+00:01:52,810 --> 00:01:54,272
+I choose Abraham Lincoln!
+
+68
+00:01:54,272 --> 00:01:55,473
+Awesome.
+
+69
+00:01:55,473 --> 00:01:57,407
+Okay, but what about other shapes besides circles?
+
+70
+00:01:57,407 --> 00:01:59,274
+For example, equilateral triangles
+
+71
+00:01:59,274 --> 00:02:01,021
+say, filling this other triangle, which works
+
+72
+00:02:01,021 --> 00:02:03,194
+because the filler triangles are in opposite orientation
+
+73
+00:02:03,194 --> 00:02:05,291
+to the outside triangle (and orientation matters).
+
+74
+00:02:05,291 --> 00:02:07,507
+This yields our friend, "Sierpinski's Triangle,"
+
+75
+00:02:07,507 --> 00:02:09,931
+which, by the way, you can also make out of Abraham Lincoln.
+
+76
+00:02:09,931 --> 00:02:12,489
+But triangles seem to work beautifully in this case.
+
+77
+00:02:12,489 --> 00:02:13,605
+But that's a special case,
+
+78
+00:02:13,605 --> 00:02:14,614
+and the problem with triangles is that
+
+79
+00:02:14,614 --> 00:02:16,220
+they don't always fit snugly.
+
+80
+00:02:16,220 --> 00:02:17,584
+For example, with this blobby shape,
+
+81
+00:02:17,584 --> 00:02:20,374
+the biggest equillateral triangle has a lonely hanging corner.
+
+82
+00:02:20,374 --> 00:02:21,302
+And <i>sure</i>, you don't have to let that
+
+83
+00:02:21,302 --> 00:02:22,788
+stop you in this fun doodle game,
+
+84
+00:02:22,788 --> 00:02:25,277
+but I think it lacks some of the beauty of the circle game.
+
+85
+00:02:25,277 --> 00:02:27,648
+Or, what if you could change the orientation of the triangle
+
+86
+00:02:27,648 --> 00:02:29,214
+to get the biggest possible one?
+
+87
+00:02:29,214 --> 00:02:30,807
+What if you didn't have to keep it equillateral?
+
+88
+00:02:30,807 --> 00:02:32,013
+Well, for polygonal shapes,
+
+89
+00:02:32,013 --> 00:02:33,829
+the game runs out pretty quickly, so that's no good.
+
+90
+00:02:33,848 --> 00:02:35,000
+But for curvy, complicated shapes,
+
+91
+00:02:35,000 --> 00:02:36,832
+the process itself becomes difficult.
+
+92
+00:02:36,832 --> 00:02:38,569
+How do you find the biggest triangle?
+
+93
+00:02:38,569 --> 00:02:40,842
+It's not always obvious which triangle has more area
+
+94
+00:02:40,842 --> 00:02:43,273
+especially when your starting shape is not very well defined.
+
+95
+00:02:43,273 --> 00:02:44,700
+This is an interesting sort of question,
+
+96
+00:02:44,700 --> 00:02:45,830
+because there IS a correct answer,
+
+97
+00:02:45,830 --> 00:02:47,414
+but if you're going to write a computer program
+
+98
+00:02:47,414 --> 00:02:48,881
+that fills a given shape with another shape,
+
+99
+00:02:48,881 --> 00:02:51,497
+following even the <i>simpler</i> version of the rules,
+
+100
+00:02:51,497 --> 00:02:53,997
+you might need to learn some computational geometry.
+
+101
+00:02:53,997 --> 00:02:54,926
+I'm certain that you could move beyond
+
+102
+00:02:54,926 --> 00:02:57,073
+triangles, to squares, or even elephants,
+
+103
+00:02:57,073 --> 00:02:58,493
+but the circle is great because
+
+104
+00:02:58,493 --> 00:03:01,064
+it's just so fantastically <i>round</i>.
+
+105
+00:03:01,064 --> 00:03:03,183
+Oh, just a quick little side doodle challenge:
+
+106
+00:03:03,183 --> 00:03:04,948
+A circle can be defined by three points,
+
+107
+00:03:04,948 --> 00:03:06,588
+so draw three arbitrary points, and then
+
+108
+00:03:06,588 --> 00:03:08,474
+try to find the circle that they belong to.
+
+109
+00:03:08,474 --> 00:03:10,601
+So, one of the things that intrigues me about the circle game
+
+110
+00:03:10,601 --> 00:03:12,793
+is that whenever you have one of these sorts of "corners,"
+
+111
+00:03:12,793 --> 00:03:13,948
+you know there's going to be
+
+112
+00:03:13,948 --> 00:03:16,010
+an infinite number of circles heading down into it.
+
+113
+00:03:16,010 --> 00:03:17,812
+Thing is, for every one of those infinite circles,
+
+114
+00:03:17,812 --> 00:03:19,714
+you create a few more little corners
+
+115
+00:03:19,714 --> 00:03:21,900
+that are gonna need an infinite number of circles,
+
+116
+00:03:21,900 --> 00:03:23,602
+and for every one of those and so on.
+
+117
+00:03:23,602 --> 00:03:27,027
+You just get an incredible number of circles breeding more circles,
+
+118
+00:03:27,027 --> 00:03:30,094
+and you can see just how dense infinity can be.
+
+119
+00:03:30,094 --> 00:03:32,102
+Though, the astounding thing is that this kind of infinity
+
+120
+00:03:32,102 --> 00:03:34,800
+is still the smallest countable kind of infinity, and
+
+121
+00:03:34,800 --> 00:03:38,819
+there are kinds of infinity that are just mind-bogglingly infinite-er.
+
+122
+00:03:38,819 --> 00:03:40,770
+But wait, here's an interesting thing:
+
+123
+00:03:40,770 --> 00:03:42,706
+if you call *this distance* "One Arbitrary Length Unit,"
+
+124
+00:03:42,706 --> 00:03:45,208
+then *this distance* plus <i>this,</i> dot dot dot...
+
+125
+00:03:45,208 --> 00:03:48,092
+is an infinite series that approaches ONE.
+
+126
+00:03:48,092 --> 00:03:51,555
+And this is another, different, series that still approaches one.
+
+127
+00:03:51,555 --> 00:03:53,333
+And here's another, and another,
+
+128
+00:03:53,333 --> 00:03:55,974
+and as long as the outside shape is well defined,
+
+129
+00:03:55,974 --> 00:03:57,238
+so will the series be.
+
+130
+00:03:57,238 --> 00:03:58,740
+But if you want the "simple" kind of series
+
+131
+00:03:58,740 --> 00:04:00,141
+where each circle's diameter is
+
+132
+00:04:00,141 --> 00:04:02,411
+a certain percentage of the one before it,
+
+133
+00:04:02,411 --> 00:04:04,316
+you get straight lines. Which makes sense
+
+134
+00:04:04,316 --> 00:04:06,552
+if you know how the slope of the straight line is defined.
+
+135
+00:04:06,552 --> 00:04:08,497
+This is good, because it suggests a WONDERFUL,
+
+136
+00:04:08,497 --> 00:04:11,449
+mathematical, and doodle-able way to solve our camel problem
+
+137
+00:04:11,449 --> 00:04:13,005
+with no calculations necessary.
+
+138
+00:04:13,005 --> 00:04:14,874
+If instead of camels, we had circles,
+
+139
+00:04:14,874 --> 00:04:17,419
+we could make the right infinite series just by drawing an angle
+
+140
+00:04:17,419 --> 00:04:20,073
+that ends where the page does, and filling it up.
+
+141
+00:04:20,073 --> 00:04:22,337
+Replace circles with camels, and voila!
+
+142
+00:04:22,337 --> 00:04:23,666
+Infinite Saharan caravan,
+
+143
+00:04:23,666 --> 00:04:25,346
+fading into the distance,
+
+144
+00:04:25,346 --> 00:04:27,170
+no numbers necessary!
+
+145
+00:04:27,170 --> 00:04:28,905
+Well, I have an infinite amount of
+
+146
+00:04:28,905 --> 00:04:31,330
+information I'd like to share with you in this last sentence.
+
+147
+00:04:31,330 --> 00:04:32,692
+Maybe it'll still fit in the next five seconds
+
+148
+00:04:32,692 --> 00:04:33,844
+if I say the next phrase twice as fast,
+
+149
+00:04:33,844 --> 00:04:34,678
+(and the next phrase twice as fast as that)
+
+150
+00:04:34,678 --> 00:04:35,955
+(and the next... *high pitched garble*)

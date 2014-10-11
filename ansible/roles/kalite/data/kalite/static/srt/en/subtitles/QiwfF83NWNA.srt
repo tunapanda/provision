@@ -1,0 +1,244 @@
+1
+00:00:00,372 --> 00:00:09,400
+Now that we've seen that as we take i to higher and higher powers it cycles between 1, i, negative 1, negative i, then
+
+2
+00:00:09,400 --> 00:00:15,067
+back to 1, i, negative 1 and negative i. I wanna see if we can tackle some -- I guess you could call them
+
+3
+00:00:15,067 --> 00:00:19,133
+trickier problems -- and you right see them in this surface and they are also a kind of fun to do them
+
+4
+00:00:19,133 --> 00:00:24,381
+and realise that you can use this the fact that I the powers of I cycle through these values you can use this
+
+5
+00:00:24,381 --> 00:00:31,718
+to really, on the back of an envelop, take arbitrarily high powers of i. So let's try, just for fun,
+
+6
+00:00:31,718 --> 00:00:40,078
+let's see what i to one hundredth power is and the realisation 
+here is that 100 is a mutiple of 4, so you could
+
+7
+00:00:40,078 --> 00:00:48,267
+say this is the same thing as i to the, i to the 4 times 25th power and this is the same thing,
+
+8
+00:00:48,267 --> 00:00:56,400
+just from our exponent properties i to the 4th power raised to the 25th power, right, if you have
+
+9
+00:00:56,400 --> 00:00:59,600
+something raised on an exponent and that is raised to an exponent that's the same
+
+10
+00:00:59,600 --> 00:01:04,900
+thing as multiplying the two exponents and we know that i to the 4th, that's pretty
+
+11
+00:01:04,900 --> 00:01:10,733
+straightforward; i to the 4th is just 1, i to the 4th is 1 so this is 1 so this is equal to
+
+12
+00:01:10,733 --> 00:01:17,021
+the 1 to the 25th power which is just equal to, just equal to 1. So once again we use
+
+13
+00:01:17,021 --> 00:01:21,200
+this kind of cycling ability of i when it takes its powers to figure out very high
+
+14
+00:01:21,200 --> 00:01:27,267
+exponent of i. Now let's say we try something a little bit stranger, lets try i to the,
+
+15
+00:01:27,267 --> 00:01:33,600
+let's try it i to the five hundred and first power. Now in this situation 501 is not a
+
+16
+00:01:33,600 --> 00:01:37,826
+multiple of 4 so you can't just do that simply but what you could do is you could write
+
+17
+00:01:37,826 --> 00:01:41,262
+this is a product of two numbers; one that is a multiple, one that is i to a multiple
+
+18
+00:01:41,262 --> 00:01:49,482
+of 4th power and then one that isn't, also you could rewrite this: 500 is, is a multiple of
+
+19
+00:01:49,482 --> 00:01:52,667
+4, so you could write this is i to the five hundredth power, i to the five hundredth
+
+20
+00:01:52,667 --> 00:01:59,333
+power, times i to the first power, right? you have same base, when you multiply
+
+21
+00:01:59,333 --> 00:02:03,693
+them you can add exponents, so this is i to the five hundred and first power. And we
+
+22
+00:02:03,693 --> 00:02:07,933
+know that this is the same thing as i to ... i to five hundred power is the same thing as i to
+
+23
+00:02:07,933 --> 00:02:15,156
+the fourth power four times what? Four times one hundred and twenty-five is 500, so
+
+24
+00:02:15,156 --> 00:02:19,413
+that's this part right over here: i to the 500 is the same thing as i to the 4th to the
+
+25
+00:02:19,413 --> 00:02:27,168
+125th power and then that times i to the first power, times i to the first. Well i to the
+
+26
+00:02:27,168 --> 00:02:33,275
+4th is 1, 1 to the 125th power is just going to be 1, this whole thing is 1 and so we
+
+27
+00:02:33,275 --> 00:02:39,962
+are just left with, we are just left with i to the first, so this is going to be equal to i. So
+
+28
+00:02:39,962 --> 00:02:43,600
+it seems really daunting problem, something that you have to sit and do all day
+
+29
+00:02:43,600 --> 00:02:48,667
+but you can use the cycling result; i to the 500 is just going to be 1 and so i to the
+
+30
+00:02:48,667 --> 00:02:54,405
+501 is just going to be i just times that. So i to any multiple of 4 -- let me write this
+
+31
+00:02:54,405 --> 00:03:01,867
+generally -- so if you have i to any multiple of 4, so this right over here is, well we'll just
+
+32
+00:03:01,867 --> 00:03:06,201
+restrict k to be non negative right now; k is greater or equal to zero
+
+33
+00:03:06,201 --> 00:03:13,067
+so if we have i to any mutiple of 4 right over here we are going to get, we are going to get
+
+34
+00:03:13,067 --> 00:03:19,133
+1 because this is the same thing as i to the fourth power to the kth power and
+
+35
+00:03:19,133 --> 00:03:24,733
+that is the same thing as 1 to the kth power which is clearly equal to 1 and if we have
+
+36
+00:03:24,733 --> 00:03:30,333
+anything else, if we have i to the fourth k plus 1 power or plus 2 power we can then just
+
+37
+00:03:30,333 --> 00:03:34,333
+do this technique right over here. So let's try with a few more problems, just to
+
+38
+00:03:34,333 --> 00:03:39,638
+make it clear that you can really really arbitrarily crazy things. So let's take i to the
+
+39
+00:03:39,638 --> 00:03:46,975
+seven thousand three hundred and twenty-first power. Now we just have to figure out
+
+40
+00:03:46,975 --> 00:03:55,102
+-- this is going to be some multiple of 4 plus something else, so to do that, well you
+
+41
+00:03:55,102 --> 00:04:00,867
+could just do that by sight 7320 is dividable by 4, you can verify that by hand and then you have one left
+
+42
+00:04:00,867 --> 00:04:10,474
+over also this is going to be i to the 7320 times i to the first power, this is a multiple
+
+43
+00:04:10,474 --> 00:04:15,467
+of 4 this right here is just a multiple of 4, I know that because any 100 is a multiple of
+
+44
+00:04:15,467 --> 00:04:20,272
+4, any 1000 is a multiple of 4 and any 100 is a multiple of 4 and the 20 is a multiple of
+
+45
+00:04:20,272 --> 00:04:31,418
+4 and so this right over here simplified to 1... sorry, that's not ??? to the ith power either the first power, 7321 is 7320 plus
+
+46
+00:04:31,418 --> 00:04:41,078
+1 and so this part right over here is going to simplify 1 and its going to be left
+
+47
+00:04:41,078 --> 00:04:48,533
+with i to the first power or just i. Let's do another one. i to the, i to the ninety, ninety,
+
+48
+00:04:48,533 --> 00:04:55,799
+ninety, let me try something interesting, i to the ninety-ninth, i to the ninety-ninth power.
+
+49
+00:04:55,799 --> 00:05:05,459
+So once again, what's the highest multiple of 4 that is less than 99? It is 96, it is 96,
+
+50
+00:05:05,459 --> 00:05:12,067
+so this is same thing as the i to the 96th power times i to the 3th power, right? If you
+
+51
+00:05:12,067 --> 00:05:17,765
+multiply these same base, add the exponent, you'll get i to the 99th power, i to the
+
+52
+00:05:17,765 --> 00:05:23,431
+96th power, so this is a multiple of 4, this is i to the 4th and then that to the 16th
+
+53
+00:05:23,431 --> 00:05:28,467
+power, so that's just 1 in the 16, so this is just 1 and then you'll just lift with i to the
+
+54
+00:05:28,467 --> 00:05:35,412
+third power and you could either remember that i to the 3th power is equal to... you
+
+55
+00:05:35,412 --> 00:05:39,333
+could remember its equal to negative i or if you forget that you could just say look
+
+56
+00:05:39,333 --> 00:05:46,140
+this is just samething as i squared times i, this is equal to i squared times i, i
+
+57
+00:05:46,140 --> 00:05:51,800
+squared by definition is equal to negative 1 so you have negative 1 times i, is equal
+
+58
+00:05:51,800 --> 00:05:59,886
+to i, is equal to negative i. Let me do one more, just for, just for the fun of it. Let's take i
+
+59
+00:05:59,886 --> 00:06:07,549
+to the 38th power. Well once again this is equal to the i to the 36th times i squared, I'm
+
+60
+00:06:07,549 --> 00:06:13,467
+doing i to the 36th power just largest multiple 4 that goes into 38 what's left over is 2
+
+61
+00:06:13,467 --> 00:06:19,809
+this simplifies to 1 and I'm just left with i squared which is equal to negative 1.

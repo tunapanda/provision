@@ -1,0 +1,155 @@
+1
+00:00:04,357 --> 00:00:05,866
+Consider the following:
+
+2
+00:00:05,866 --> 00:00:08,407
+Imagine two rooms,
+
+3
+00:00:08,407 --> 00:00:12,977
+inside each room is a switch
+
+4
+00:00:12,977 --> 00:00:15,743
+In one room there is a man who flips his switch
+
+5
+00:00:15,743 --> 00:00:17,337
+according to a coin flip.
+
+6
+00:00:17,337 --> 00:00:19,728
+If it's heads, that signals that the switch is on --
+
+7
+00:00:19,728 --> 00:00:21,980
+And if it's tails, the switch is off.
+
+8
+00:00:21,980 --> 00:00:24,942
+In the other room, a woman switches her lights
+
+9
+00:00:24,942 --> 00:00:26,608
+based on a blind guess.
+
+10
+00:00:26,608 --> 00:00:30,030
+She tries to simulate randomness without a coin.
+
+11
+00:00:30,030 --> 00:00:31,934
+Then we start the clock
+
+12
+00:00:31,934 --> 00:00:39,704
+and they make their switches in unison.
+
+13
+00:00:39,704 --> 00:00:41,357
+Can you determine which light bulb
+
+14
+00:00:45,176 --> 00:00:48,996
+is being switched by a coin flip?
+
+15
+00:00:48,996 --> 00:00:50,592
+The answer is Yes.
+
+16
+00:00:50,592 --> 00:00:59,746
+But how?
+
+17
+00:00:59,746 --> 00:01:02,646
+And the trick is to think about properties of the sequence
+
+18
+00:01:02,646 --> 00:01:05,782
+rather than looking for any specific pattern.
+
+19
+00:01:05,782 --> 00:01:07,840
+For example, first we may try
+
+20
+00:01:07,840 --> 00:01:10,112
+to count the number of 1's and 0's
+
+21
+00:01:10,112 --> 00:01:11,321
+which occur in each sequence.
+
+22
+00:01:11,321 --> 00:01:13,336
+This is close, but not enough
+
+23
+00:01:13,336 --> 00:01:16,406
+since they were both seen fairly even.
+
+24
+00:01:16,406 --> 00:01:19,816
+The answer is to count sequences of numbers
+
+25
+00:01:19,816 --> 00:01:22,974
+such as runs of three consecutive switches
+
+26
+00:01:22,974 --> 00:01:25,657
+A true random sequence would be equally likely
+
+27
+00:01:25,657 --> 00:01:28,714
+to contain every sequence of any length
+
+28
+00:01:28,714 --> 00:01:32,050
+This is called the frequency stability property
+
+29
+00:01:32,050 --> 00:01:35,053
+and its demonstrated by this uniform graph.
+
+30
+00:01:35,053 --> 00:01:38,009
+The forgery is now obvious.
+
+31
+00:01:38,009 --> 00:01:40,446
+Humans favour certain sequences when they make guesses
+
+32
+00:01:40,446 --> 00:01:43,553
+resulting in uneven pattern, such as we see here.
+
+33
+00:01:43,553 --> 00:01:45,125
+One reason this happens
+
+34
+00:01:45,125 --> 00:01:47,061
+is that we make mistake thinking that
+
+35
+00:01:47,061 --> 00:01:49,320
+certain outcomes are less random than others.
+
+36
+00:01:49,320 --> 00:01:53,725
+But realize, there is no such thing as a lucky number.
+
+37
+00:01:53,725 --> 00:01:56,742
+There is no such thing as a lucky sequence.
+
+38
+00:01:56,742 --> 00:02:00,938
+If we flip a coin 10 times, it is equaly likely to come up
+
+39
+00:02:00,938 --> 00:02:08,098
+all heads, all tails, or any other sequence you can think of.

@@ -1,0 +1,25 @@
+---
+- name: Adding alias to /etc/hosts
+  lineinfile: dest=/etc/hosts line="127.0.0.1 ka-lite"
+
+- name: Creating init script
+  template:
+      src="kalite-init.j2"
+      dest="/etc/init.d/kalite"
+      mode=0755
+
+- name: Checking mount status of {{ role_data_dir }}
+  shell: mount | grep {{ role_data_dir }}
+  register: is_mounted
+  ignore_errors: True
+
+- name: Creating data dir {{ role_data_dir }}
+  file: path={{ role_data_dir }} state=directory force=no
+  when: is_mounted|failed
+
+- name: Mounting {{ role_data_dir }}
+  command: mount --bind /vagrant/ansible/roles/kalite/data {{ role_data_dir }}
+  when: is_mounted|failed
+
+- name: Starting kalite
+  service: name=kalite state=restarted

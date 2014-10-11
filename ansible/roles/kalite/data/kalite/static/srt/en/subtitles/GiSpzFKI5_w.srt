@@ -1,0 +1,444 @@
+1
+00:00:00,000 --> 00:00:00,660
+   
+
+2
+00:00:00,660 --> 00:00:04,750
+We're asked to simplify 8 plus
+5 times 4 minus, and then in
+
+3
+00:00:04,750 --> 00:00:09,010
+parentheses, 6 plus 10
+divided by 2 plus 44.
+
+4
+00:00:09,010 --> 00:00:12,120
+Whenever you see some type of
+crazy expression like this
+
+5
+00:00:12,120 --> 00:00:15,360
+where you have parentheses and
+addition and subtraction and
+
+6
+00:00:15,360 --> 00:00:17,760
+division, you always want
+to keep the order of
+
+7
+00:00:17,760 --> 00:00:19,000
+operations in mind.
+
+8
+00:00:19,000 --> 00:00:20,970
+Let me write them
+down over here.
+
+9
+00:00:20,970 --> 00:00:23,420
+So when you're doing order of
+operations, or really when
+
+10
+00:00:23,420 --> 00:00:24,820
+you're evaluating any
+expression, you should have
+
+11
+00:00:24,820 --> 00:00:29,520
+this in the front of your brain
+that the top priority
+
+12
+00:00:29,520 --> 00:00:30,770
+goes to parentheses.
+
+13
+00:00:30,770 --> 00:00:37,850
+   
+
+14
+00:00:37,850 --> 00:00:40,060
+And those are these little
+brackets over here, or however
+
+15
+00:00:40,060 --> 00:00:40,670
+you want to call them.
+
+16
+00:00:40,670 --> 00:00:42,320
+Those are the parentheses
+right there.
+
+17
+00:00:42,320 --> 00:00:44,030
+That gets top priority.
+
+18
+00:00:44,030 --> 00:00:46,120
+Then after that, you want to
+worry about exponents.
+
+19
+00:00:46,120 --> 00:00:48,240
+There are no exponents in this
+expression, but I'll just
+
+20
+00:00:48,240 --> 00:00:52,150
+write it down just for future
+reference: exponents.
+
+21
+00:00:52,150 --> 00:00:55,000
+One way I like to think about it
+is parentheses always takes
+
+22
+00:00:55,000 --> 00:00:58,730
+top priority, but then after
+that, we go in descending
+
+23
+00:00:58,730 --> 00:01:01,610
+order, or I guess we should
+say in-- well, yeah, in
+
+24
+00:01:01,610 --> 00:01:05,400
+descending order of how fast
+that computation is.
+
+25
+00:01:05,400 --> 00:01:07,520
+When I say fast, how
+fast it grows.
+
+26
+00:01:07,520 --> 00:01:09,800
+When I take something to an
+exponent, when I'm taking
+
+27
+00:01:09,800 --> 00:01:13,270
+something to a power, it grows
+really fast. Then it grows a
+
+28
+00:01:13,270 --> 00:01:15,730
+little bit slower or shrinks
+a little bit slower if I
+
+29
+00:01:15,730 --> 00:01:17,760
+multiply or divide,
+so that comes
+
+30
+00:01:17,760 --> 00:01:21,800
+next: multiply or divide.
+
+31
+00:01:21,800 --> 00:01:24,910
+Multiplication and division
+comes next, and then last of
+
+32
+00:01:24,910 --> 00:01:27,550
+all comes addition
+and subtraction.
+
+33
+00:01:27,550 --> 00:01:29,950
+So these are kind of the
+slowest operations.
+
+34
+00:01:29,950 --> 00:01:31,450
+This is a little bit faster.
+
+35
+00:01:31,450 --> 00:01:33,610
+This is the fastest operation.
+
+36
+00:01:33,610 --> 00:01:35,290
+And then the parentheses,
+just no matter
+
+37
+00:01:35,290 --> 00:01:36,980
+what, always take priority.
+
+38
+00:01:36,980 --> 00:01:38,180
+So let's apply it over here.
+
+39
+00:01:38,180 --> 00:01:40,290
+Let me rewrite this
+whole expression.
+
+40
+00:01:40,290 --> 00:01:47,960
+So it's 8 plus 5 times 4 minus,
+in parentheses, 6 plus
+
+41
+00:01:47,960 --> 00:01:53,150
+10 divided by 2 plus 44.
+
+42
+00:01:53,150 --> 00:01:55,730
+So we're going to want to do the
+parentheses first. We have
+
+43
+00:01:55,730 --> 00:02:00,050
+parentheses there and there.
+
+44
+00:02:00,050 --> 00:02:02,170
+Now this parentheses is pretty
+straightforward.
+
+45
+00:02:02,170 --> 00:02:05,120
+Well, inside the parentheses
+is already evaluated, so we
+
+46
+00:02:05,120 --> 00:02:08,009
+could really just view
+this as 5 times 4.
+
+47
+00:02:08,009 --> 00:02:11,000
+So let's just evaluate that
+right from the get go.
+
+48
+00:02:11,000 --> 00:02:14,935
+So this is going to result in
+8 plus-- and really, when
+
+49
+00:02:14,935 --> 00:02:16,650
+you're evaluating the
+parentheses, if your evaluate
+
+50
+00:02:16,650 --> 00:02:18,980
+this parentheses, you literally
+just get 5, and you
+
+51
+00:02:18,980 --> 00:02:21,070
+evaluate that parentheses, you
+literally just get 4, and then
+
+52
+00:02:21,070 --> 00:02:22,930
+they're next to each other,
+so you multiply them.
+
+53
+00:02:22,930 --> 00:02:28,170
+So 5 times 4 is 20 minus--
+let me stay
+
+54
+00:02:28,170 --> 00:02:29,960
+consistent with the colors.
+
+55
+00:02:29,960 --> 00:02:34,290
+Now let me write the next
+parenthesis right there, and
+
+56
+00:02:34,290 --> 00:02:38,050
+then inside of it, we'd evaluate
+this first. Let me
+
+57
+00:02:38,050 --> 00:02:40,080
+close the parenthesis
+right there.
+
+58
+00:02:40,080 --> 00:02:43,280
+And then we have plus 44.
+
+59
+00:02:43,280 --> 00:02:46,250
+So what is this thing right here
+evaluate to, this thing
+
+60
+00:02:46,250 --> 00:02:47,800
+inside the parentheses?
+
+61
+00:02:47,800 --> 00:02:49,170
+Well, you might be tempted
+to say, well, let me
+
+62
+00:02:49,170 --> 00:02:50,160
+just go left to right.
+
+63
+00:02:50,160 --> 00:02:53,770
+6 plus 10 is 16 and then
+divide by 2 and
+
+64
+00:02:53,770 --> 00:02:54,780
+you would get 8.
+
+65
+00:02:54,780 --> 00:02:57,080
+But remember: order
+of operations.
+
+66
+00:02:57,080 --> 00:03:01,760
+Division takes priority over
+addition, so you actually want
+
+67
+00:03:01,760 --> 00:03:04,850
+to do the division first, and
+we could actually write it
+
+68
+00:03:04,850 --> 00:03:05,790
+here like this.
+
+69
+00:03:05,790 --> 00:03:07,960
+You could imagine putting
+some more parentheses.
+
+70
+00:03:07,960 --> 00:03:09,790
+Let me do it in that
+same purple.
+
+71
+00:03:09,790 --> 00:03:13,200
+You could imagine putting some
+more parentheses right here to
+
+72
+00:03:13,200 --> 00:03:16,110
+really emphasize the fact that
+you're going to do the
+
+73
+00:03:16,110 --> 00:03:17,760
+division first.
+
+74
+00:03:17,760 --> 00:03:24,740
+So 10 divided by 2 is 5, so this
+will result in 6, plus 10
+
+75
+00:03:24,740 --> 00:03:27,560
+divided by 2, is 5.
+
+76
+00:03:27,560 --> 00:03:28,730
+6 plus 5.
+
+77
+00:03:28,730 --> 00:03:32,230
+Well, we still have to evaluate
+this parentheses, so
+
+78
+00:03:32,230 --> 00:03:34,600
+this results-- what's
+6 plus 5?
+
+79
+00:03:34,600 --> 00:03:36,050
+Well, that's 11.
+
+80
+00:03:36,050 --> 00:03:38,630
+So we're left with
+the 20-- let me
+
+81
+00:03:38,630 --> 00:03:39,630
+write it all down again.
+
+82
+00:03:39,630 --> 00:03:44,050
+We're left with 8 plus
+20 minus 6 plus 5,
+
+83
+00:03:44,050 --> 00:03:47,000
+which is 11, plus 44.
+
+84
+00:03:47,000 --> 00:03:50,820
+And now that we have everything
+at this level of
+
+85
+00:03:50,820 --> 00:03:53,580
+operations, we can just
+go left to right.
+
+86
+00:03:53,580 --> 00:03:58,770
+So 8 plus 20 is 28, so you
+can view this as 28
+
+87
+00:03:58,770 --> 00:04:01,890
+minus 11 plus 44.
+
+88
+00:04:01,890 --> 00:04:06,030
+28 minus 11-- 28 minus 10
+would be 18, so this
+
+89
+00:04:06,030 --> 00:04:07,386
+is going to be 17.
+
+90
+00:04:07,386 --> 00:04:10,630
+It's going to be 17 plus 44.
+
+91
+00:04:10,630 --> 00:04:16,209
+And then 17 plus 44-- I'll
+scroll down a little bit.
+
+92
+00:04:16,209 --> 00:04:21,160
+7 plus 44 would be 51, so
+this is going to be 61.
+
+93
+00:04:21,160 --> 00:04:24,940
+So this is going to
+be equal to 61.
+
+94
+00:04:24,940 --> 00:04:26,460
+And we're done!
+
+95
+00:04:26,460 --> 00:04:26,599
+

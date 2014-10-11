@@ -1,0 +1,247 @@
+1
+00:00:10,677 --> 00:00:13,661
+...and they tell us that p is greater than 7r.
+
+2
+00:00:13,661 --> 00:00:17,128
+So, let's first think about the area of a rectangle
+
+3
+00:00:17,128 --> 00:00:19,698
+with length p and width 2r.
+
+4
+00:00:19,698 --> 00:00:23,079
+So, this is our rectangle right here...
+
+5
+00:00:23,079 --> 00:00:28,390
+it has a length of p and it has a width of 2r.
+
+6
+00:00:28,390 --> 00:00:30,423
+So, what's its area? Well it's just going to be
+
+7
+00:00:30,423 --> 00:00:34,300
+the length times the width. So, the area here
+
+8
+00:00:34,300 --> 00:00:40,520
+is going to be p... or maybe I should say 2rp.
+
+9
+00:00:40,520 --> 00:00:43,356
+This is the length times the width, or the width times the length.
+
+10
+00:00:43,356 --> 00:00:45,669
+So, the area is equal to 2rp for the rectangle.
+
+11
+00:00:45,669 --> 00:00:48,213
+Now. We also want to find the difference between
+
+12
+00:00:48,213 --> 00:00:50,433
+this area and the area of a circle.
+
+13
+00:00:50,433 --> 00:00:53,064
+The area of a circle with diameter 4r.
+
+14
+00:00:53,064 --> 00:00:55,372
+So, what's the area of the circle going to be?
+
+15
+00:00:55,372 --> 00:00:57,770
+So, let me draw our circle over here...
+
+16
+00:00:57,786 --> 00:01:04,845
+So, our circle looks like that. It's diameter is 4r.
+
+17
+00:01:04,845 --> 00:01:06,945
+How do we figure out the area of a circle?
+
+18
+00:01:06,945 --> 00:01:14,837
+The area is equal to pi(r) squared for a circle, where r is the radius.
+
+19
+00:01:14,837 --> 00:01:17,213
+They gave us the diameter. The radius is half of that.
+
+20
+00:01:17,213 --> 00:01:21,264
+So, the radius here is going to be half this distance or 2r.
+
+21
+00:01:21,264 --> 00:01:29,219
+So, the area of our circle is going to be pi times 2r squared.
+
+22
+00:01:29,219 --> 00:01:31,463
+This is the radius right there, so we're squaring the entire radius.
+
+23
+00:01:31,463 --> 00:01:37,144
+So, this is going to be equal to pi times 4 times r2, I'm just squaring each of these terms.
+
+24
+00:01:37,144 --> 00:01:47,670
+Or, if we were to change the order, the area of the circle is equal to 4(pi)r2.
+
+25
+00:01:47,670 --> 00:01:49,631
+And we want to find the difference.
+
+26
+00:01:49,631 --> 00:01:53,630
+So, to find the difference, it's helpful, just so we don't end up with a negative number...
+
+27
+00:01:53,630 --> 00:01:55,813
+to figure out which of these two is larger.
+
+28
+00:01:55,813 --> 00:02:01,354
+So, they're telling us that p is greater than 7r.
+
+29
+00:02:01,354 --> 00:02:05,679
+So, let's think about this. If p is greater than 7r...
+
+30
+00:02:05,679 --> 00:02:08,448
+then 2... let me write it this way...
+
+31
+00:02:08,448 --> 00:02:13,739
+We know that p is greater than 7r, so if we were to multiply
+
+32
+00:02:13,739 --> 00:02:17,282
+both sides of this equation by 2r, and 2r is positive...
+
+33
+00:02:17,282 --> 00:02:20,193
+we're dealing with positive distances - positive lengths
+
+34
+00:02:20,193 --> 00:02:24,784
+So, if we multiply both sides of this equation by 2r, it shouldn't change the equation.
+
+35
+00:02:24,784 --> 00:02:29,521
+So, multiply that by 2r, and then multiply this by 2r.
+
+36
+00:02:29,521 --> 00:02:41,053
+Then our equation becomes 2r(p) is greater than 14 r squared.
+
+37
+00:02:41,053 --> 00:02:44,402
+Now why is this interesting? Actually, why did I multiply this by 2r?
+
+38
+00:02:44,402 --> 00:02:47,677
+Well that's so that this becomes the same as the area of the rectangle.
+
+39
+00:02:47,677 --> 00:02:55,867
+So, this is the area of the rectangle, and what's 14 r squared?
+
+40
+00:02:55,867 --> 00:03:02,306
+Well, 4 times pi is going to get us something less than 14.
+
+41
+00:03:02,306 --> 00:03:09,335
+This is less than 14, so this is 4 pi is less than 14.
+
+42
+00:03:09,335 --> 00:03:23,829
+14 is ... let me put it this way... 4 times 3.5 is equal to 14, right?
+
+43
+00:03:23,829 --> 00:03:30,140
+So, 4 times pi, which is less than 3.5, is going to be less than 14.
+
+44
+00:03:30,140 --> 00:03:35,125
+So, we know that this over here is larger than this quantity over here...
+
+45
+00:03:35,125 --> 00:03:39,398
+it's larger than 4(pi)r squared. And so we know that
+
+46
+00:03:39,398 --> 00:03:43,762
+this rectangle has a larger area than the circle.
+
+47
+00:03:43,762 --> 00:03:46,440
+So, we can just subtract the circle's area from
+
+48
+00:03:46,440 --> 00:03:48,310
+the rectangle's area to find the difference.
+
+49
+00:03:48,310 --> 00:03:50,898
+So, the difference is going to be the area of the rectangle
+
+50
+00:03:50,898 --> 00:03:55,099
+which we already figured out as 2r(p)
+
+51
+00:03:55,099 --> 00:03:58,545
+...and we're going to subtract from that the area of the circle.
+
+52
+00:03:58,545 --> 00:04:05,976
+The area of the circle is 4(pi)r squared.
+
+53
+00:04:05,976 --> 00:04:08,839
+So, hopefully that made sense...
+
+54
+00:04:08,839 --> 00:04:12,516
+One point I want to clarify, I gave the equation
+
+55
+00:04:12,516 --> 00:04:16,417
+of a circle - the area of a circle - to be (pi)r squared.
+
+56
+00:04:16,417 --> 00:04:18,578
+And then we said that the radius is actually
+
+57
+00:04:18,578 --> 00:04:22,469
+2r in this case, so, I substituted 2r for r.
+
+58
+00:04:22,469 --> 00:04:23,523
+Hopefully, that doesn't confuse you.
+
+59
+00:04:23,523 --> 00:04:26,453
+This r is the general term for any radius.
+
+60
+00:04:26,453 --> 00:04:30,699
+They later told us that the actual radius is 2 times some letter r.
+
+61
+00:04:30,699 --> 00:04:33,267
+So, I substitute that into the formula.
+
+62
+00:04:33,267 --> 99:59:59,999
+Anyway, hopefully you found that useful.

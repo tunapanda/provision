@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:02,169
+Now this is our solution.
+
+2
+00:00:02,169 --> 00:00:06,365
+First, Alice and Bob agree publicly on a prime modulist
+
+3
+00:00:06,365 --> 00:00:07,948
+and a generator.
+
+4
+00:00:07,948 --> 00:00:10,696
+In this case, 17 and 3.
+
+5
+00:00:10,696 --> 00:00:17,011
+Then, Alice selects a private random number, say 15, and calculates:
+
+6
+00:00:17,011 --> 00:00:22,802
+3 to the power 15 mod 17, and sends this result
+
+7
+00:00:22,802 --> 00:00:24,821
+publicly to Bob.
+
+8
+00:00:24,821 --> 00:00:31,524
+Then Bob selects his private random number, say 13, and calculates:
+
+9
+00:00:31,524 --> 00:00:36,600
+3 to the power 13 mod 17, and sends this result
+
+10
+00:00:36,600 --> 00:00:38,489
+publicly to Alice.
+
+11
+00:00:38,489 --> 00:00:40,887
+And now the hard of the trick.
+
+12
+00:00:40,887 --> 00:00:43,857
+Alice takes Bob's public result and rasies
+
+13
+00:00:43,857 --> 00:00:46,873
+it to the power of her private number
+
+14
+00:00:46,873 --> 00:00:51,457
+to obtain the shared secret which in this case is 10.
+
+15
+00:00:51,457 --> 00:00:54,813
+Bob takes Alice's public result and rasies
+
+16
+00:00:54,813 --> 00:00:58,029
+it to the power of his private number, resulting
+
+17
+00:00:58,029 --> 00:01:00,568
+in the same shared secret.
+
+18
+00:01:00,568 --> 00:01:05,626
+Notice they did the same calculation, though it might not look like it at first.
+
+19
+00:01:05,626 --> 00:01:14,009
+Consider Alice. The 12 she received from Bob was calculated as 3 to the power 13 mod 17.
+
+20
+00:01:14,009 --> 00:01:21,079
+So her calculation was the same as 3 to the power 13, to the power 15 mod 17.
+
+21
+00:01:21,079 --> 00:01:29,862
+Now consider Bob. The 6 he received from Alice was calculated as 3 to the power 15 mod 17.
+
+22
+00:01:29,862 --> 00:01:35,169
+So his calculation was the same as 3 to the power 15, to the power 13.
+
+23
+00:01:35,169 --> 00:01:39,308
+Notice they did the same calculation with the exponents in a different order.
+
+24
+00:01:39,308 --> 00:01:42,619
+When you flip the exponent the result doesn't change.
+
+25
+00:01:42,619 --> 00:01:47,629
+So they both calculated 3 raised to the power of their private numbers.

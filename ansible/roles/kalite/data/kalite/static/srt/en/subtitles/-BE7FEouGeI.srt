@@ -1,0 +1,563 @@
+1
+00:00:00,441 --> 00:00:07,018
+So we can make sure we really understand what's happening in this little iterative fibonacci fuction
+
+2
+00:00:07,018 --> 00:00:09,533
+I am going to step through it with a particular example
+
+3
+00:00:09,533 --> 00:00:13,000
+So we are going to assume that this function is called with the argument 5.
+
+4
+00:00:13,000 --> 00:00:15,600
+So we want the 5th term in the fibonacci sequance.
+
+5
+00:00:15,600 --> 00:00:18,933
+Starting at where indexing thing starting at 0.
+
+6
+00:00:18,933 --> 00:00:23,133
+So the 0th term will be the... really... sometimes you would imagine the 1st term to be.
+
+7
+00:00:23,133 --> 00:00:24,533
+Will start with the 0th term.
+
+8
+00:00:24,533 --> 00:00:31,800
+So we're assuming that fibonacci of 5 is called.
+
+9
+00:00:31,800 --> 00:00:35,600
+So we want the 5th term. Starting at the 0th term, so we want 5th one.
+
+10
+00:00:35,600 --> 00:00:41,933
+And so when we go into this program terms starts... is defined as this list right here.
+
+11
+00:00:41,933 --> 00:00:44,200
+That has just 2 elements: 0 and 1.
+
+12
+00:00:44,200 --> 00:00:48,600
+So what I've done here is: I'm going really to focus what happens in this loop
+
+13
+00:00:48,600 --> 00:00:52,533
+so as we enter into this loop the first time that we entered to this loop
+
+14
+00:00:52,533 --> 00:00:58,667
+terms is refering to a list that has just 0 and 1 in it.
+
+15
+00:00:58,667 --> 00:01:04,533
+And we did that because by definition those are the first two terms of the fibonacci sequence
+
+16
+00:01:04,533 --> 00:01:11,467
+and then also entering into in the loop we defined i as beeing equal to... i as beeing equal to 2
+
+17
+00:01:11,467 --> 00:01:16,533
+and we do that because we've already defined the 0th term and the 1st term
+
+18
+00:01:16,533 --> 00:01:20,667
+and so now we want to as we enter the loop... start... we want to add...
+
+19
+00:01:20,667 --> 00:01:25,133
+we want to add the second term as we go into the loop
+
+20
+00:01:25,133 --> 00:01:28,333
+and then we say while i is less than or equal to n.
+
+21
+00:01:28,333 --> 00:01:31,133
+Well we already know that n is 5.
+
+22
+00:01:31,133 --> 00:01:36,533
+So in the scope of this function while we are running it, the variable n is 5.
+
+23
+00:01:36,533 --> 00:01:42,933
+And so clearly i is still less than or equal to 5 so we will run this code right over here
+
+24
+00:01:42,933 --> 00:01:46,733
+and we are appending to terms so we are going to append something.
+
+25
+00:01:46,733 --> 00:01:49,667
+So entering into this clause is what i in terms would look like.
+
+26
+00:01:49,667 --> 00:01:54,533
+But looks like we are going to append something to terms so terms is going to look like...
+
+27
+00:01:54,533 --> 00:01:58,933
+Terms is going to be 0 and 1 and there we are going to add something...
+
+28
+00:01:58,933 --> 00:02:01,600
+We are going to add something right over here to terms
+
+29
+00:02:01,600 --> 00:02:03,600
+and what is that thing we are going to add?
+
+30
+00:02:03,600 --> 00:02:06,467
+We are going to add whatever this bussiness over here is.
+
+31
+00:02:06,467 --> 00:02:10,133
+It seems complicated, but when you break it down it doesn't look too bad.
+
+32
+00:02:10,133 --> 00:02:12,600
+In this situation what is i minus 1?
+
+33
+00:02:12,600 --> 00:02:20,267
+Well i is 2 so in this situation i minus 1 is going to be 1 and i minus 2 is going to be 0
+
+34
+00:02:20,267 --> 00:02:21,933
+as we go trough this interation.
+
+35
+00:02:21,933 --> 00:02:27,800
+So terms... the first term in terms... the first terms is the 0th term.
+
+36
+00:02:27,800 --> 00:02:29,200
+This is the first term.
+
+37
+00:02:29,200 --> 00:02:32,133
+So the first term in terms is literally a 1.
+
+38
+00:02:32,133 --> 00:02:36,867
+So this whole thing is 1 and the 0th term in terms.
+
+39
+00:02:36,867 --> 00:02:41,000
+Remember, terms... the 0th term in terms.
+
+40
+00:02:41,000 --> 00:02:42,667
+Acctually I should write this way.
+
+41
+00:02:42,667 --> 00:02:46,467
+0th term in the... the list is called terms.
+
+42
+00:02:46,467 --> 00:02:51,800
+0th term in terms. This is what term looks like right now and it's going to be 0.
+
+43
+00:02:51,800 --> 00:02:54,600
+So this whole thing is going to be 0 as well.
+
+44
+00:02:54,600 --> 00:02:59,000
+So it's 1 plus 0 which is 1 and that's what we are appending to terms.
+
+45
+00:02:59,000 --> 00:03:04,867
+So we are going to append a 1 over here and then we say i is equal to i plus 1.
+
+46
+00:03:04,867 --> 00:03:10,933
+Well i is now equal to 2 so you are going to add 2 plus 1 is 3 and that's going to be the new value.
+
+47
+00:03:10,933 --> 00:03:13,533
+The new value for i.
+
+48
+00:03:13,533 --> 00:03:18,133
+And then we go back. We loop back up to the beginning of the while loop
+
+49
+00:03:18,133 --> 00:03:20,333
+and we say while i is less than or equal to n.
+
+50
+00:03:20,333 --> 00:03:25,600
+Well now i is a little bit closer to n. It's 3 now, but it's still less than or equal to 5.
+
+51
+00:03:25,600 --> 00:03:27,533
+So now evaluate this again.
+
+52
+00:03:27,533 --> 00:03:29,200
+Once again entering into the loop.
+
+53
+00:03:29,200 --> 00:03:33,533
+Terms now looks like this: 0, 1, 1.
+
+54
+00:03:33,533 --> 00:03:36,000
+i looks like this, 3.
+
+55
+00:03:36,000 --> 00:03:38,333
+It's really what the same values we had exiting the loop
+
+56
+00:03:38,333 --> 00:03:40,867
+and now we evaluate right over here.
+
+57
+00:03:40,867 --> 00:03:42,333
+We are going to add something to terms.
+
+58
+00:03:42,333 --> 00:03:46,600
+So terms right now: 0, 1, 1 we are going to add something to it.
+
+59
+00:03:46,600 --> 00:03:47,800
+What is that something?
+
+60
+00:03:47,800 --> 00:03:51,933
+It's going to be the i minus 1 term of terms.
+
+61
+00:03:51,933 --> 00:03:53,800
+So what's the i?
+
+62
+00:03:53,800 --> 00:03:57,400
+I over here is 3. 3 minus 1 is 2.
+
+63
+00:03:57,400 --> 00:03:59,400
+So this right over here is now going to be 2.
+
+64
+00:03:59,400 --> 00:04:07,467
+So it's going to be the second indexed term in terms so this is the 0th, the 1st the 2nd.
+
+65
+00:04:07,467 --> 00:04:12,133
+So this over here is going to evaluate to 1 plus i minus 2.
+
+66
+00:04:12,133 --> 00:04:19,267
+Well i is now 3. 3 minus 2 is 1. So plus the first term in terms.
+
+67
+00:04:19,267 --> 00:04:25,867
+So this is the 0th term in the 1st term so this is also going to be a 1 over here.
+
+68
+00:04:25,867 --> 00:04:31,123
+So it's going to be 1 plus 1 or 2.
+
+69
+00:04:31,123 --> 00:04:33,733
+So we are going to append a 2 to terms.
+
+70
+00:04:33,733 --> 00:04:36,333
+So that's what this does over here and then we take whatever i was
+
+71
+00:04:36,333 --> 00:04:43,533
+which is i in this iteration is 3. We are going to add 1 to it and redefine i to be that.
+
+72
+00:04:43,533 --> 00:04:46,733
+So 3 plus 1 is 4 and that's the new i.
+
+73
+00:04:46,733 --> 00:04:51,267
+Then we go again to the beginning of the loop while i is less than or equal to n.
+
+74
+00:04:51,267 --> 00:04:54,467
+While i is now 4, n is always, still 5.
+
+75
+00:04:54,467 --> 00:04:57,467
+4 is less than or equal to 5 so we run this again
+
+76
+00:04:57,467 --> 00:05:00,933
+and once again we need to figure out what terms of i minus 1 are.
+
+77
+00:05:00,933 --> 00:05:04,267
+Let me write it over here. This is getting kinda messy.
+
+78
+00:05:04,267 --> 00:05:07,933
+Maybe i should clear this up. Cuz i wanna you to be able to read it clearly.
+
+79
+00:05:07,933 --> 00:05:10,200
+So let me clear this.
+
+80
+00:05:10,200 --> 00:05:11,733
+So now in this loop.
+
+81
+00:05:11,733 --> 00:05:15,667
+Let's just think about what... so now... Let me write it over here.
+
+82
+00:05:15,667 --> 00:05:18,133
+Entering the loop, now i is equal to 4.
+
+83
+00:05:18,133 --> 00:05:20,000
+I'm going to do that in the same orange colour.
+
+84
+00:05:20,000 --> 00:05:24,067
+Entering into the loop i is equal to 4 and the terms...
+
+85
+00:05:24,067 --> 00:05:31,179
+Terms has now been... It now has 4 elements in this: 0, 1, 1 and 2.
+
+86
+00:05:31,179 --> 00:05:34,600
+And now 4 is still less than or equal to 5 so we do this
+
+87
+00:05:34,600 --> 00:05:36,933
+and we have to figure out what terms of i minus 1 is.
+
+88
+00:05:36,933 --> 00:05:40,533
+Well now i minus 1 is 3. Right?
+
+89
+00:05:40,533 --> 00:05:44,533
+4 minus 1 is 3 so terms of... well the 3rd elem...
+
+90
+00:05:44,533 --> 00:05:49,600
+not terms of. I should say the 3rd element in terms is: 0, 1, 2, 3.
+
+91
+00:05:49,600 --> 00:05:51,800
+So it's going to be this whole thing.
+
+92
+00:05:51,800 --> 00:05:53,933
+It's going to be this 2 right over here.
+
+93
+00:05:53,933 --> 00:05:56,467
+So we are going to take that 2. I know you can read that.
+
+94
+00:05:56,467 --> 00:05:58,533
+We are going to take this 2...
+
+95
+00:05:58,533 --> 00:06:04,000
+This 2 and we are going to add it to terms, the i minus 2th terms.
+
+96
+00:06:04,000 --> 00:06:11,600
+I is 4. 4 minus 2 is 2. The 2nd term in terms is 0, 1, 2.
+
+97
+00:06:11,600 --> 00:06:13,723
+It's a 1.
+
+98
+00:06:13,723 --> 00:06:15,733
+It's this one right over here.
+
+99
+00:06:15,733 --> 00:06:20,467
+So we are adding this 2 plus this 1 to now get 3 and we are taking...
+
+100
+00:06:20,467 --> 00:06:24,533
+So this whole thing... when you added 3 and we are appending it to terms.
+
+101
+00:06:24,533 --> 00:06:35,046
+So terms was: 0, 1, 1, 2, but now we are appending a 3 to the end of it
+
+102
+00:06:35,046 --> 00:06:37,400
+and then we are saying i is equal to i plus 1.
+
+103
+00:06:37,400 --> 00:06:41,067
+I was 4. 4 plus 1 is 5 so that is what i is equal to now.
+
+104
+00:06:41,067 --> 00:06:42,400
+It's equal to 5.
+
+105
+00:06:42,400 --> 00:06:44,067
+Then we go to the beginning of the loop.
+
+106
+00:06:44,067 --> 00:06:48,667
+I is now going to be equal to 5. Terms.
+
+107
+00:06:48,667 --> 00:06:51,333
+Let me write that in the same colour for consistency.
+
+108
+00:06:51,333 --> 00:07:01,667
+Terms are now: 0, 1, 1, 2 and 3 and then we say while i is less than or equal to n.
+
+109
+00:07:01,667 --> 00:07:04,467
+N is 5. Well 5 is still less than or equal to 5.
+
+110
+00:07:04,467 --> 00:07:09,800
+It's equal to 5 so this still is true so we'll execute this clause
+
+111
+00:07:09,800 --> 00:07:12,333
+and now we have to figure out...
+
+112
+00:07:12,333 --> 00:07:17,098
+Let me clear this out again.
+
+113
+00:07:17,098 --> 00:07:23,067
+Now we have to figure out what is terms of i... what is the i minus 1'th term in terms.
+
+114
+00:07:23,067 --> 00:07:28,467
+So now i is 5. so it's 5 minus 1. So it's the 4th term in terms.
+
+115
+00:07:28,467 --> 00:07:36,215
+So 0, 1, 2, 3, 4. So it is this term right over here. It is the 3.
+
+116
+00:07:36,215 --> 00:07:43,133
+So this over here is 3 now and then we have... and then we have to think about...
+
+117
+00:07:43,133 --> 00:07:44,467
+Let me do this in another colour.
+
+118
+00:07:44,467 --> 00:07:54,400
+Then we have i minus 2. I is 5 now. 5 minus 2 is 3. the 3rd term in terms: 0, 1, 2, 3 is this over here.
+
+119
+00:07:54,400 --> 00:07:56,933
+So this over here is 2.
+
+120
+00:07:56,933 --> 00:08:01,667
+So you evaluate this. You'll notice, we are just adding the last 2 terms that we had so far.
+
+121
+00:08:01,667 --> 00:08:03,800
+This is how we build our fibonacci sequance
+
+122
+00:08:03,800 --> 00:08:08,800
+and so 3 plus 2 is 5 so we are going to append a 5 to the end of terms.
+
+123
+00:08:08,800 --> 00:08:17,467
+So terms is going to be: 0, 1, 1, 2, 3 and then we are going to append...
+
+124
+00:08:17,467 --> 00:08:21,800
+We are going to append a 5 to it and then we say i is equal to i plus 1.
+
+125
+00:08:21,800 --> 00:08:25,621
+So i is equal to 5 plus 1 or 6. I is equal to 6 now.
+
+126
+00:08:25,621 --> 00:08:27,246
+When we go to the beginning of the loop and it says
+
+127
+00:08:27,246 --> 00:08:29,400
+while i is less than or equal to n.
+
+128
+00:08:29,400 --> 00:08:39,010
+Well now i is 6 and n is... has been 5. 6 is not less than or equal to 5 so this is false.
+
+129
+00:08:39,010 --> 00:08:42,867
+So we do not... We break out of the loop and we go to...
+
+130
+00:08:42,867 --> 00:08:48,518
+I guess we stopped running it and then we go to return...
+
+131
+00:08:48,518 --> 00:08:53,400
+return the nth term in terms. So remember. N was 5.
+
+132
+00:08:53,400 --> 00:08:55,652
+So what's the 5th term. If we started 0.
+
+133
+00:08:55,652 --> 00:09:01,200
+So this is the 0th term, 1st term, 2nd term, 3rd term, 4th term, 5th term.
+
+134
+00:09:01,200 --> 00:09:02,800
+And we are done.
+
+135
+00:09:02,800 --> 00:09:06,667
+And hopefully that gives you and understanding of why this works and also a little bit of the logic
+
+136
+00:09:06,667 --> 00:09:07,933
+of how we wrote it.
+
+137
+00:09:07,933 --> 00:09:11,400
+It's literally building up the fibonacci sequence so the way you would expect to.
+
+138
+00:09:11,400 --> 00:09:19,133
+It started with the first 2 terms by definition and then each time we went to the loop
+
+139
+00:09:19,133 --> 00:09:25,867
+and added another term it said hey, the new term is going to be the sum of the last term right now
+
+140
+00:09:25,867 --> 00:09:30,267
+and the second to last term and add them together and that will be the new term
+
+141
+00:09:30,267 --> 99:59:59,999
+and you keep doing that until you have essentially... until you have added that nth term.

@@ -1,0 +1,319 @@
+1
+00:00:02,522 --> 00:00:03,960
+We know how to take derivatives of
+
+2
+00:00:03,960 --> 00:00:07,440
+functions. If I apply the derivative operator to
+
+3
+00:00:07,440 --> 00:00:12,635
+X^2, I get 2X.
+
+4
+00:00:12,635 --> 00:00:15,630
+Now if I also apply the derivative operator to
+
+5
+00:00:15,630 --> 00:00:20,036
+X^2+1, I also get 2X.
+
+6
+00:00:20,036 --> 00:00:23,943
+If I apply the derivative operator to X^2
+
+7
+00:00:23,943 --> 00:00:27,235
+X^2+pi, I also get 2X. The derivative of X^2
+
+8
+00:00:27,235 --> 00:00:31,714
+is 2X, the derivative with respect to X of pi of a constant
+
+9
+00:00:31,714 --> 00:00:34,249
+is just 0. The derivative with respect to X of 1
+
+10
+00:00:34,249 --> 00:00:36,281
+is just a constant, is just 0.
+
+11
+00:00:36,281 --> 00:00:39,082
+So once again, this is just going to be equal to 2X.
+
+12
+00:00:39,082 --> 00:00:43,187
+In general, the derivative with respect to x of X^2
+
+13
+00:00:43,187 --> 00:00:47,309
+plus any constant, any constant, is going to be
+
+14
+00:00:47,309 --> 00:00:50,569
+equal to 2X. The derivative of X^2 with respect to X is 2X
+
+15
+00:00:50,569 --> 00:00:54,838
+Derivative of a constant with respect to X, a constant does not change
+
+16
+00:00:54,838 --> 00:00:57,277
+with respect to X, so it's just equal
+
+17
+00:00:57,277 --> 00:01:00,901
+to 0. So you have, you take the derivative, you apply the derivative operator
+
+18
+00:01:00,901 --> 00:01:04,391
+to any of these expressions, and you get 2X.
+
+19
+00:01:04,391 --> 00:01:08,974
+Now let's go the other way around. Let's think about the antiderivative.
+
+20
+00:01:08,974 --> 00:01:13,254
+Anti-derivative. And one way of
+
+21
+00:01:13,254 --> 00:01:14,782
+thinking about it, it's the, it's the,
+
+22
+00:01:14,782 --> 00:01:18,294
+we're doing the opposite of the derivative operator.
+
+23
+00:01:18,294 --> 00:01:20,174
+The derivative operator, you get an expression,
+
+24
+00:01:20,174 --> 00:01:21,785
+and you find find this derivative.
+
+25
+00:01:21,785 --> 00:01:24,861
+Now what we want to do, is, given some expression,
+
+26
+00:01:24,861 --> 00:01:25,810
+we want to find
+
+27
+00:01:25,810 --> 00:01:28,260
+what it could be the derivative of.
+
+28
+00:01:28,260 --> 00:01:30,045
+What it could be the derivative of.
+
+29
+00:01:30,045 --> 00:01:32,357
+So if someone were to tell you,
+
+30
+00:01:32,357 --> 00:01:33,980
+were to give you 2X.
+
+31
+00:01:33,980 --> 00:01:36,213
+If someone were to say, 2X
+
+32
+00:01:36,213 --> 00:01:41,132
+So if someone were to ask you: what is
+
+33
+00:01:41,132 --> 00:01:44,901
+what is 2X
+
+34
+00:01:44,901 --> 00:01:49,432
+the derivative - derivative -
+
+35
+00:01:49,432 --> 00:01:53,072
+of? They're essentially asking you for
+
+36
+00:01:53,072 --> 00:01:55,464
+the antiderivative!
+
+37
+00:01:55,464 --> 00:01:57,302
+And so you could say: well, 2X is
+
+38
+00:01:57,302 --> 00:01:59,518
+the derivative of X^2.
+
+39
+00:01:59,518 --> 00:02:01,624
+2X is the derivative of X^2.
+
+40
+00:02:01,624 --> 00:02:05,020
+But you could say: 2X is the derivative of X^2 plus 1.
+
+41
+00:02:05,020 --> 00:02:08,014
+You could also say that 2X is the derivative of X^2 plus pi.
+
+42
+00:02:08,014 --> 00:02:09,612
+I think you get the general idea.
+
+43
+00:02:09,612 --> 00:02:11,934
+So if you wanted to write it in the most general sense.
+
+44
+00:02:11,934 --> 00:02:12,991
+you would write:
+
+45
+00:02:12,991 --> 00:02:14,433
+that 2X is the derivative of X^2
+
+46
+00:02:14,433 --> 00:02:18,301
+plus some constant.
+
+47
+00:02:18,301 --> 00:02:19,368
+So this is what you would consider
+
+48
+00:02:19,368 --> 00:02:22,511
+the antiderivative of 2X.
+
+49
+00:02:22,511 --> 00:02:25,072
+Now that's all nice, but this is kind of
+
+50
+00:02:25,072 --> 00:02:27,279
+clumsy to have to write the sentence like this
+
+51
+00:02:27,279 --> 00:02:29,523
+so lets come up with some kind of notation
+
+52
+00:02:29,523 --> 00:02:30,969
+for the antiderivative.
+
+53
+00:02:30,969 --> 00:02:33,100
+And the convention here is to use
+
+54
+00:02:33,100 --> 00:02:35,412
+kind of a strange-looking notation.
+
+55
+00:02:35,412 --> 00:02:38,012
+Is to use a
+
+56
+00:02:38,012 --> 00:02:40,142
+a big, elongated, S-looking thing like that
+
+57
+00:02:40,142 --> 00:02:43,844
+and the dx around the function
+
+58
+00:02:43,844 --> 00:02:45,406
+you're trying to take the antiderivative
+
+59
+00:02:45,406 --> 00:02:49,085
+of. So in this case, it would look something like this.
+
+60
+00:02:49,085 --> 00:02:49,844
+This is just
+
+61
+00:02:49,844 --> 00:02:51,076
+saying: this is equal to the antiderivative of 2x.
+
+62
+00:02:51,076 --> 00:02:56,371
+And the antiderivative of 2X, we have already seen,
+
+63
+00:02:56,371 --> 00:03:01,304
+is X^2, is X^2 plus C.
+
+64
+00:03:01,304 --> 00:03:03,216
+Now, you might be saying:
+
+65
+00:03:03,216 --> 00:03:04,689
+Why do we use this type
+
+66
+00:03:04,689 --> 00:03:07,170
+of crazy notation?
+
+67
+00:03:07,170 --> 00:03:08,519
+It will become more obvious when we
+
+68
+00:03:08,519 --> 00:03:10,901
+study the definitive integral, and areas under curves,
+
+69
+00:03:10,901 --> 00:03:12,363
+and taking sums of
+
+70
+00:03:12,363 --> 00:03:16,185
+rectangles, in order to approximate the area of the curve.
+
+71
+00:03:16,185 --> 00:03:19,500
+Here, it really should just be viewed as a notation for
+
+72
+00:03:19,500 --> 00:03:21,839
+antiderivatives.
+
+73
+00:03:21,839 --> 00:03:24,701
+And, this notation right over here,
+
+74
+00:03:24,701 --> 00:03:26,160
+this whole expression, is called:
+
+75
+00:03:26,160 --> 00:03:28,644
+the indefinite integral.
+
+76
+00:03:28,644 --> 00:03:31,810
+The indefinite...indefinite...
+
+77
+00:03:31,810 --> 00:03:36,825
+indefinite integral of 2X
+
+78
+00:03:36,825 --> 00:03:37,845
+which is another way of just saying:
+
+79
+00:03:37,845 --> 00:03:40,300
+the antiderivative of
+
+80
+00:03:40,300 --> 00:03:42,300
+2X.

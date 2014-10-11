@@ -1,0 +1,235 @@
+1
+00:00:00,813 --> 00:00:04,203
+Lets think a little bit about how margin works for futures contract.
+
+2
+00:00:04,203 --> 00:00:10,733
+So lets say that the terms of the contract are a 1,000 pounds of apples for delivery on November 15th.
+
+3
+00:00:10,733 --> 00:00:14,067
+And we're assuming that this is some date in the future.
+
+4
+00:00:14,067 --> 00:00:17,667
+And right now on the futures exchange the market delivery price,
+
+5
+00:00:17,667 --> 00:00:24,733
+so the price in which the apples will change hand in the future is 200 dollars.
+
+6
+00:00:24,733 --> 00:00:29,400
+And I've written here what the exchange specifies for the initial and maintenance margin
+
+7
+00:00:29,400 --> 00:00:31,400
+and we'll talk about that more in a second
+
+8
+00:00:31,400 --> 00:00:35,333
+but this essencially means that both the buyer and the seller for, the initial margin,
+
+9
+00:00:35,333 --> 00:00:39,600
+have to put up 20 dollars, sometimes it will be specified as an absolute dollar amount, like
+
+10
+00:00:39,600 --> 00:00:42,533
+I've just done, sometimes it might just be a percentage of the actual
+
+11
+00:00:42,533 --> 00:00:50,267
+delivery price. So they both have to put up $20, and this guy has agreed to buy a thousand pounds of apples
+
+12
+00:00:50,267 --> 00:00:52,267
+from this guy on
+
+13
+00:00:52,267 --> 00:00:55,400
+november 15th for 200 dollars.
+
+14
+00:00:55,400 --> 00:00:57,333
+So its essencially 20 cents a pound.
+
+15
+00:00:57,333 --> 00:01:01,867
+Now lets say that a day goes by and the next day - these guys have this contract - this price right here
+
+16
+00:01:01,867 --> 00:01:04,400
+is fixed in their minds.
+
+17
+00:01:04,400 --> 00:01:08,667
+But lets say the next day the same contract between 2 other parties, between
+
+18
+00:01:08,667 --> 00:01:13,067
+2 other parties, the same contract, trades with the delivery price of
+
+19
+00:01:13,067 --> 00:01:17,000
+$190. Now all of a sudden this
+
+20
+00:01:17,000 --> 00:01:23,133
+guy over here feels silly! He's like: "man im agreeing to buy something for $200 dollars in the future,
+
+21
+00:01:23,133 --> 00:01:27,400
+which some other dude, all of a sudden, has agreen to buy for $190 dollars".
+
+22
+00:01:27,400 --> 00:01:30,133
+This guy over here feels really smart, he agreed
+
+23
+00:01:30,133 --> 00:01:34,533
+to sell something for $200 the day before, and now people are selling it
+
+24
+00:01:34,533 --> 00:01:38,067
+for a $190, so hes kind of $10 better than the people
+
+25
+00:01:38,067 --> 00:01:40,733
+participating in the futures market today.
+
+26
+00:01:40,733 --> 00:01:45,067
+The way mark to market works with futures contracts
+
+27
+00:01:45,067 --> 00:01:48,667
+is that the exchange says "well, you know what? I'm afraid that this guy,
+
+28
+00:01:48,667 --> 00:01:51,400
+if things keep moving against him, he's not even going to want
+
+29
+00:01:51,400 --> 00:01:55,667
+to put up the money to buy at $200 dollars
+
+30
+00:01:55,667 --> 00:01:57,667
+if he can buy at the market for $190 dollars
+
+31
+00:01:57,667 --> 00:02:03,267
+or something lower, so I'm going to reset their futures contract
+
+32
+00:02:03,267 --> 00:02:06,467
+to a delivery price of $190".
+
+33
+00:02:06,467 --> 00:02:11,200
+But, to make things fair, this guy is gonna be $10 in the hole.
+
+34
+00:02:11,200 --> 00:02:15,133
+He's getting a $10 deal, if I take the delivery price from $200 to $190 dollars
+
+35
+00:02:15,133 --> 00:02:18,667
+I need to take $10 from this guy, because he's getting a $10 dollars better deal.
+
+36
+00:02:18,667 --> 00:02:26,267
+So from his margin account I take it from 20 dollars to $10 dollars
+
+37
+00:02:26,267 --> 00:02:29,000
+and then I place the $10 in this guy's margin account.
+
+38
+00:02:29,000 --> 00:02:33,000
+If he's going to get a $10 less of a good price on the delivery date
+
+39
+00:02:33,000 --> 00:02:37,133
+then let me give him the $10 dollars right now, so his margin account will go
+
+40
+00:02:37,133 --> 00:02:40,333
+to $30 dollars, now if this number was
+
+41
+00:02:40,333 --> 00:02:43,399
+$18, $17, $16 or $15
+
+42
+00:02:43,399 --> 00:02:45,210
+this guy wouldn't have to do anything.
+
+43
+00:02:45,210 --> 00:02:47,393
+But right here he has triggered his maintenance
+
+44
+00:02:47,393 --> 00:02:49,808
+margin, and actually, he's right at our maintenance margin.
+
+45
+00:02:49,808 --> 00:02:51,526
+So lets say that he goes, that the next
+
+46
+00:02:51,526 --> 00:02:53,894
+day this happens a little bit more, he goes down to
+
+47
+00:02:53,894 --> 00:02:56,866
+$185 and we have to do the process again:
+
+48
+00:02:56,866 --> 00:03:00,303
+This guy losses $5, he goes down to $5.
+
+49
+00:03:00,303 --> 00:03:02,718
+This guy will be given $5,
+
+50
+00:03:02,718 --> 00:03:04,065
+so he goes to $35 dollars
+
+51
+00:03:04,065 --> 00:03:11,449
+in order for him to essentially reset the futures price, he's been given another $5.
+
+52
+00:03:11,449 --> 00:03:15,442
+Now this guy has only $5 in his margin account
+
+53
+00:03:15,442 --> 00:03:18,067
+and the maintenance margin is $10,
+
+54
+00:03:18,067 --> 00:03:21,067
+so it triggers a margin call, and this guy is got to
+
+55
+00:03:21,067 --> 00:03:25,333
+find some place to put another $15 dollars in his margin call.
+
+56
+00:03:25,333 --> 00:03:28,400
+Every time you get below the maintenance margin, it triggers
+
+57
+00:03:28,400 --> 00:03:33,933
+a margin call and you have to refill your margin account to the initial margin. So he has to add
+
+58
+00:03:33,933 --> 00:03:35,267
+$15
+
+59
+00:03:35,267 --> 99:59:59,999
+so he gets back to $20.

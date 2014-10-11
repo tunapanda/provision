@@ -1,0 +1,371 @@
+1
+99:59:59,999 --> 99:59:59,999
+We're on Part B.
+
+2
+99:59:59,999 --> 99:59:59,999
+Write the first four nonzero terms of the Taylor series for cosine of x about x equals 0.
+
+3
+99:59:59,999 --> 99:59:59,999
+Use this series and the series for sin of x squared
+
+4
+99:59:59,999 --> 99:59:59,999
+found in Part A to write the first four nonzero terms
+
+5
+99:59:59,999 --> 99:59:59,999
+of the Taylor series for f
+
+6
+99:59:59,999 --> 99:59:59,999
+(so for this f right over here)
+
+7
+99:59:59,999 --> 99:59:59,999
+about x = 0.
+
+8
+99:59:59,999 --> 99:59:59,999
+So let's just do the first part
+
+9
+99:59:59,999 --> 99:59:59,999
+let's first find the first four nonzero terms
+
+10
+99:59:59,999 --> 99:59:59,999
+of the Taylor series for cosine of x
+
+11
+99:59:59,999 --> 99:59:59,999
+about x equals 0.
+
+12
+99:59:59,999 --> 99:59:59,999
+So let's just say—we'll put our kind of
+
+13
+99:59:59,999 --> 99:59:59,999
+formula for the Taylor series up here
+
+14
+99:59:59,999 --> 99:59:59,999
+around x is equal to 0.
+
+15
+99:59:59,999 --> 99:59:59,999
+So we're centering it around x equals 0 right over here.
+
+16
+99:59:59,999 --> 99:59:59,999
+And so if we say h of x is equal to
+
+17
+99:59:59,999 --> 99:59:59,999
+cosine of x, then h of 0 is going to be
+
+18
+99:59:59,999 --> 99:59:59,999
+equal to cosine of 0, which is equal to 1.
+
+19
+99:59:59,999 --> 99:59:59,999
+And then if you have h prime of x,
+
+20
+99:59:59,999 --> 99:59:59,999
+that's going to be equal to negative sine of x.
+
+21
+99:59:59,999 --> 99:59:59,999
+And you could look of here:
+
+22
+99:59:59,999 --> 99:59:59,999
+this is essentially h of x and this is going
+
+23
+99:59:59,999 --> 99:59:59,999
+to be h prime of x.
+
+24
+99:59:59,999 --> 99:59:59,999
+So it's essentially just one step ahead
+
+25
+99:59:59,999 --> 99:59:59,999
+of where we were with g of x.
+
+26
+99:59:59,999 --> 99:59:59,999
+We'll just redo it over here
+
+27
+99:59:59,999 --> 99:59:59,999
+just so it's clear.
+
+28
+99:59:59,999 --> 99:59:59,999
+So the first derivative at 0 is
+
+29
+99:59:59,999 --> 99:59:59,999
+negative sine of 0, which is just 0.
+
+30
+99:59:59,999 --> 99:59:59,999
+And then you have the second derivative—
+
+31
+99:59:59,999 --> 99:59:59,999
+second derivative of h of x.
+
+32
+99:59:59,999 --> 99:59:59,999
+So derivative of sine of x is cosine of x,
+
+33
+99:59:59,999 --> 99:59:59,999
+but we have that negative out front
+
+34
+99:59:59,999 --> 99:59:59,999
+so it's negative cosine of x.
+
+35
+99:59:59,999 --> 99:59:59,999
+So h prime prime of 0 is going to be
+
+36
+99:59:59,999 --> 99:59:59,999
+equal to—cosine of 0 is 1. You have that
+
+37
+99:59:59,999 --> 99:59:59,999
+negative out front so it's -1.
+
+38
+99:59:59,999 --> 99:59:59,999
+And then you have the third derivative
+
+39
+99:59:59,999 --> 99:59:59,999
+of h is equal to derivative of negative cosine of x
+
+40
+99:59:59,999 --> 99:59:59,999
+is positive sine of x.
+
+41
+99:59:59,999 --> 99:59:59,999
+So the third derivative at 0 is going to be
+
+42
+99:59:59,999 --> 99:59:59,999
+equal to 0. And then, this is also,
+
+43
+99:59:59,999 --> 99:59:59,999
+and then you take the derivative of this,
+
+44
+99:59:59,999 --> 99:59:59,999
+you're going to get cosine of x again.
+
+45
+99:59:59,999 --> 99:59:59,999
+So then the cycle starts again.
+
+46
+99:59:59,999 --> 99:59:59,999
+So I could write, this is also equal to
+
+47
+99:59:59,999 --> 99:59:59,999
+the fourth derivative at 0.
+
+48
+99:59:59,999 --> 99:59:59,999
+Right, let me just make it clear what I'm saying.
+
+49
+99:59:59,999 --> 99:59:59,999
+If I take the derivative of this, I get cosine of x.
+
+50
+99:59:59,999 --> 99:59:59,999
+The fourth derivative of h is cosine of x again.
+
+51
+99:59:59,999 --> 99:59:59,999
+So the fourth derivative at 0 is going to be
+
+52
+99:59:59,999 --> 99:59:59,999
+the same thing as the function evaluated
+
+53
+99:59:59,999 --> 99:59:59,999
+at 0 which is 1.
+
+54
+99:59:59,999 --> 99:59:59,999
+And so the fifth derivative at 0
+
+55
+99:59:59,999 --> 99:59:59,999
+is going to be 0.
+
+56
+99:59:59,999 --> 99:59:59,999
+The sixth derivative at 0 is going to be -1.
+
+57
+99:59:59,999 --> 99:59:59,999
+And then the seventh derivative at 0
+
+58
+99:59:59,999 --> 99:59:59,999
+is going to be 0.
+
+59
+99:59:59,999 --> 99:59:59,999
+So that's enough now. I think we have—
+
+60
+99:59:59,999 --> 99:59:59,999
+we definitely have four nonzero terms.
+
+61
+99:59:59,999 --> 99:59:59,999
+We have this term—let me pick a nice color here.
+
+62
+99:59:59,999 --> 99:59:59,999
+We have this term, because we have a 1 coefficient.
+
+63
+99:59:59,999 --> 99:59:59,999
+This is going to be a 0 because we have a 0 coefficient.
+
+64
+99:59:59,999 --> 99:59:59,999
+This is a nonzero term. Then this is a nonzero term,
+
+65
+99:59:59,999 --> 99:59:59,999
+because we have the 1 again.
+
+66
+99:59:59,999 --> 99:59:59,999
+And then this is a nonzero term, because
+
+67
+99:59:59,999 --> 99:59:59,999
+we have the -1. So we could say,
+
+68
+99:59:59,999 --> 99:59:59,999
+cosine of x is approximately equal to—
+
+69
+99:59:59,999 --> 99:59:59,999
+because we're just approximating it
+
+70
+99:59:59,999 --> 99:59:59,999
+with the first four nonzero terms.
+
+71
+99:59:59,999 --> 99:59:59,999
+So, f of 0 is 1.
+
+72
+99:59:59,999 --> 99:59:59,999
+So that's this term right over here.
+
+73
+99:59:59,999 --> 99:59:59,999
+Instead of f of x we're calling it h of x right here
+
+74
+99:59:59,999 --> 99:59:59,999
+so that we don't get confused with
+
+75
+99:59:59,999 --> 99:59:59,999
+the original f defined in the problem
+
+76
+99:59:59,999 --> 99:59:59,999
+that we're going to work on in the second part of—
+
+77
+99:59:59,999 --> 99:59:59,999
+this section of the problem.
+
+78
+99:59:59,999 --> 99:59:59,999
+So cosine of x is equal to 1,
+
+79
+99:59:59,999 --> 99:59:59,999
+f prime of 0, or h prime of 0 is 0, so there's no term there.
+
+80
+99:59:59,999 --> 99:59:59,999
+Then f prime prime of 0—second derivative—it's -1.
+
+81
+99:59:59,999 --> 99:59:59,999
+So it's negative x squared over two factorial.
+
+82
+99:59:59,999 --> 99:59:59,999
+And then you get another 0 for the third degree term.
+
+83
+99:59:59,999 --> 99:59:59,999
+Then you get a 1 for the fourth degree term.
+
+84
+99:59:59,999 --> 99:59:59,999
+So plus 1—and we don't have to write the 1,
+
+85
+99:59:59,999 --> 99:59:59,999
+it's implicitly there. Plus 1 times x to the fourth
+
+86
+99:59:59,999 --> 99:59:59,999
+over four factorial. And then, the next
+
+87
+99:59:59,999 --> 99:59:59,999
+nonzero term is this -1 over here.
+
+88
+99:59:59,999 --> 99:59:59,999
+So -1, we can just write minus,
+
+89
+99:59:59,999 --> 99:59:59,999
+and that's a sixth degree term.
+
+90
+99:59:59,999 --> 99:59:59,999
+So x to the sixth over six factorial.
+
+91
+99:59:59,999 --> 99:59:59,999
+And we're done. Those are the first four
+
+92
+99:59:59,999 --> 99:59:59,999
+nonzero terms of cosine of x.
+
+93
+99:59:59,999 --> 99:59:59,999
+Now let's do the second part of the problem.

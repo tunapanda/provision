@@ -1,0 +1,599 @@
+1
+00:00:00,350 --> 00:00:03,382
+I'm going to do a couple of lattice multiplication examples in this video,
+
+2
+00:00:03,382 --> 00:00:06,687
+and in the next one we'll try to understand why it worked.
+
+3
+00:00:06,687 --> 00:00:14,705
+Let's say we're trying to multiply twenty-seven times forty-eight.
+
+4
+00:00:14,705 --> 00:00:18,772
+What you do is you write down your twenty-seven.
+
+5
+00:00:18,772 --> 00:00:20,481
+The two and the seven are going to get separate columns
+
+6
+00:00:20,481 --> 00:00:24,101
+and you write your forty-eight down the right-hand side,
+
+7
+00:00:24,101 --> 00:00:25,345
+and then you draw a lattice.
+
+8
+00:00:25,345 --> 00:00:28,340
+This is why it's called lattice multiplication.
+
+9
+00:00:28,340 --> 00:00:31,064
+So the two is going to get its own column.
+
+10
+00:00:31,064 --> 00:00:32,996
+The seven is going to get its own column.
+
+11
+00:00:32,996 --> 00:00:34,881
+The four is going to get its own row,
+
+12
+00:00:34,881 --> 00:00:37,807
+and the eight is going to get its own row.
+
+13
+00:00:37,807 --> 00:00:39,845
+Now the fun thing about lattice multiplication
+
+14
+00:00:39,845 --> 00:00:42,712
+is you get to do all of your multiplication at one time,
+
+15
+00:00:42,712 --> 00:00:44,930
+and then you can finish up the problem with all your addition.
+
+16
+00:00:44,930 --> 00:00:47,921
+You don't have to keep switching gears by carrying and all of that.
+
+17
+00:00:47,930 --> 00:00:48,805
+Although there is carrying,
+
+18
+00:00:48,805 --> 00:00:51,260
+but it's all while you're doing the addition step.
+
+19
+00:00:51,260 --> 00:00:52,510
+So we're almost done with our lattice.
+
+20
+00:00:52,510 --> 00:00:53,800
+We actually have to draw these diagonals here.
+
+21
+00:00:53,800 --> 00:00:57,322
+We'll understand in the next video why these diagonals even work.
+
+22
+00:00:57,322 --> 00:00:58,550
+Just like that.
+
+23
+00:00:58,550 --> 00:01:00,310
+And now we're ready to multiply.
+
+24
+00:01:00,310 --> 00:01:02,440
+Seven times four is twenty-eight.
+
+25
+00:01:02,440 --> 00:01:05,230
+Seven times four is equal to twenty-eight.
+
+26
+00:01:05,230 --> 00:01:08,310
+So you write down a two and an eight just like that.
+
+27
+00:01:08,310 --> 00:01:12,580
+Two times four is equal to eight.
+
+28
+00:01:12,580 --> 00:01:17,380
+So you write down a zero, eight, just like that.
+
+29
+00:01:17,380 --> 00:01:19,690
+Then you have seven times eight.
+
+30
+00:01:19,690 --> 00:01:24,154
+Seven times eight is equal to fifty-six.
+
+31
+00:01:24,154 --> 00:01:27,240
+So we write down a five and a six.
+
+32
+00:01:27,240 --> 00:01:32,490
+And then finally, two times eight is equal to sixteen.
+
+33
+00:01:32,490 --> 00:01:35,800
+You write down a one and a six, just like that.
+
+34
+00:01:35,800 --> 00:01:37,750
+And we're done with all of our multiplying.
+
+35
+00:01:37,750 --> 00:01:39,532
+Now we're ready to add.
+
+36
+00:01:39,532 --> 00:01:43,448
+So what you do is you go down these diagonals that I drew here.
+
+37
+00:01:43,448 --> 00:01:48,161
+So this first diagonal, which is really the ones diagonal, you just have a six sitting here.
+
+38
+00:01:48,161 --> 00:01:50,500
+So you write a six just like that.
+
+39
+00:01:50,500 --> 00:01:52,140
+Then we move over to the next diagonal.
+
+40
+00:01:52,140 --> 00:01:54,600
+This diagonal with the six, five, and eight in it.
+
+41
+00:01:54,600 --> 00:01:56,360
+That's our tens diagonal.
+
+42
+00:01:56,360 --> 00:01:59,960
+So eight plus five is thirteen.
+
+43
+00:01:59,960 --> 00:02:03,600
+Thirteen plus six is nineteen.
+
+44
+00:02:03,600 --> 00:02:06,695
+So you write your nine right here in the tens place,
+
+45
+00:02:06,695 --> 00:02:11,408
+and now you carry the one in nineteen up there into the hundreds place,
+
+46
+00:02:11,408 --> 00:02:13,900
+because this isn't just nineteen, it's actually one hundred ninety.
+
+47
+00:02:13,900 --> 00:02:15,850
+It's nineteen tens.
+
+48
+00:02:15,850 --> 00:02:17,580
+Anyway, you carry your one.
+
+49
+00:02:17,580 --> 00:02:19,510
+You have one plus two is three.
+
+50
+00:02:19,510 --> 00:02:21,780
+Three plus eight is eleven.
+
+51
+00:02:21,780 --> 00:02:25,620
+Eleven plus one is twelve.
+
+52
+00:02:25,620 --> 00:02:28,868
+You write the two in your hundreds place
+
+53
+00:02:28,868 --> 00:02:32,020
+and you carry the one into your thousands place.
+
+54
+00:02:32,020 --> 00:02:33,806
+One plus zero is one,
+
+55
+00:02:33,806 --> 00:02:37,210
+so you just have a one in your thousands place, just like that.
+
+56
+00:02:37,210 --> 00:02:38,440
+And you get our answer.
+
+57
+00:02:38,440 --> 00:02:48,557
+Twenty-seven times forty-eight is equal to one thousand two hundred ninety-six.
+
+58
+00:02:48,557 --> 00:02:49,725
+Let's do a harder problem.
+
+59
+00:02:49,725 --> 00:02:56,156
+One that requires more digits, just to show that this will work for any problem.
+
+60
+00:02:56,160 --> 00:03:02,868
+Let's say we had five thousand four hundred seventy-nine times--
+
+61
+00:03:02,868 --> 00:03:04,197
+let's do a three-digit number--
+
+62
+00:03:04,197 --> 00:03:09,650
+Times seven hundred eighty-seven.
+
+63
+00:03:09,650 --> 00:03:12,548
+So just like we did in the last time, we make four columns.
+
+64
+00:03:12,548 --> 00:03:15,603
+One for the five, the four, the seven, and the nine.
+
+65
+00:03:15,603 --> 00:03:22,140
+We'll have five thousand four hundred seventy-nine
+
+66
+00:03:22,140 --> 00:03:24,132
+and then times seven hundred eighty-seven.
+
+67
+00:03:24,132 --> 00:03:26,555
+So they each get their own row.
+
+68
+00:03:26,555 --> 00:03:30,780
+Seven hundred eighty-seven.
+
+69
+00:03:30,780 --> 00:03:31,560
+Looks like that.
+
+70
+00:03:31,560 --> 00:03:34,060
+Then we have to draw our lattice.
+
+71
+00:03:34,060 --> 00:03:36,790
+Draw the lattice.
+
+72
+00:03:36,790 --> 00:03:40,050
+Each of these guys get their own column.
+
+73
+00:03:40,050 --> 00:03:44,830
+Draw the columns just like that.
+
+74
+00:03:44,830 --> 00:03:47,714
+And then each one of these characters get their own row.
+
+75
+00:03:47,714 --> 00:03:50,931
+One row for the seven.
+
+76
+00:03:50,931 --> 00:03:53,757
+One row for the eight.
+
+77
+00:03:53,757 --> 00:03:56,255
+One row for this other seven.
+
+78
+00:03:56,255 --> 00:03:58,900
+Then we have to draw the diagonals.
+
+79
+00:03:58,900 --> 00:03:59,470
+Draw it like that.
+
+80
+00:03:59,470 --> 00:04:03,828
+One diagonal, two diagonals,
+
+81
+00:04:03,828 --> 00:04:08,015
+three diagonals, four diagonals.
+
+82
+00:04:08,015 --> 00:04:09,024
+I think you get the idea.
+
+83
+00:04:09,024 --> 00:04:12,740
+And then we have just one, two more diagonals.
+
+84
+00:04:12,740 --> 00:04:15,110
+We're ready to multiply now.
+
+85
+00:04:15,110 --> 00:04:16,790
+So it's nine times seven.
+
+86
+00:04:16,790 --> 00:04:17,970
+I won't do it on the side here.
+
+87
+00:04:17,970 --> 00:04:19,240
+We know our times tables.
+
+88
+00:04:19,240 --> 00:04:21,860
+Nine times seven is sixty-three.
+
+89
+00:04:21,860 --> 00:04:25,640
+Seven times seven is forty-nine.
+
+90
+00:04:25,640 --> 00:04:29,560
+Four times seven is twenty-eight.
+
+91
+00:04:29,560 --> 00:04:33,470
+Five times seven is thirty-five.
+
+92
+00:04:33,470 --> 00:04:35,600
+Let me switch colors arbitrarily.
+
+93
+00:04:35,600 --> 00:04:39,350
+Nine times eight is seventy-two.
+
+94
+00:04:39,350 --> 00:04:43,210
+Seven times eight is fifty-six.
+
+95
+00:04:43,210 --> 00:04:46,970
+Four times eight is thirty-two.
+
+96
+00:04:46,970 --> 00:04:49,850
+Five times eight is forty.
+
+97
+00:04:49,850 --> 00:04:51,850
+I'll switch colors again.
+
+98
+00:04:51,850 --> 00:04:54,750
+Nine times seven-- we saw that before.
+
+99
+00:04:54,750 --> 00:04:57,050
+It's sixty-three.
+
+100
+00:04:57,050 --> 00:05:00,950
+Seven times seven is forty-nine.
+
+101
+00:05:00,950 --> 00:05:04,290
+Four times seven is twenty-eight.
+
+102
+00:05:04,290 --> 00:05:07,320
+And then five times seven is thirty-five.
+
+103
+00:05:07,320 --> 00:05:08,940
+We're done with all of our multiplying.
+
+104
+00:05:08,940 --> 00:05:12,210
+Now we can switch our brains into addition mode.
+
+105
+00:05:12,210 --> 00:05:16,860
+Let me find a nice suitable color for addition.
+
+106
+00:05:16,860 --> 00:05:19,270
+Maybe a pink will do for addition.
+
+107
+00:05:19,270 --> 00:05:20,520
+So we start at our ones place.
+
+108
+00:05:20,520 --> 00:05:23,005
+Just have a three there, so you write the three in your ones place.
+
+109
+00:05:23,005 --> 00:05:24,730
+You go to the tens place.
+
+110
+00:05:24,730 --> 00:05:26,830
+Two plus six is eight.
+
+111
+00:05:26,830 --> 00:05:29,620
+Eight plus nine is seventeen.
+
+112
+00:05:29,620 --> 00:05:34,072
+Write the seven in the tens place, carry the one into the hundreds place.
+
+113
+00:05:34,072 --> 00:05:35,692
+I wrote a one really small here.
+
+114
+00:05:35,692 --> 00:05:38,240
+One plus three is four.
+
+115
+00:05:38,240 --> 00:05:40,930
+Four plus seven is eleven.
+
+116
+00:05:40,930 --> 00:05:44,060
+Eleven plus six is seventeen.
+
+117
+00:05:44,060 --> 00:05:46,590
+Seventeen plus four is twenty-one.
+
+118
+00:05:46,590 --> 00:05:50,480
+Twenty-one plus eight is twenty-nine.
+
+119
+00:05:50,480 --> 00:05:54,780
+Write the nine in the hundreds place and carry the two.
+
+120
+00:05:54,780 --> 00:05:56,690
+Two plus six is eight.
+
+121
+00:05:56,690 --> 00:05:58,688
+Eight plus nine is seventeen.
+
+122
+00:05:58,688 --> 00:06:02,290
+Seventeen plus five is twenty-two.
+
+123
+00:06:02,290 --> 00:06:05,700
+Twenty-two plus two is twenty-four.
+
+124
+00:06:05,700 --> 00:06:08,060
+Twenty-four plus two is twenty-six.
+
+125
+00:06:08,060 --> 00:06:13,101
+Twenty-six plus five is thirty-one.
+
+126
+00:06:13,101 --> 00:06:14,908
+Carry the three.
+
+127
+00:06:14,920 --> 00:06:16,460
+Three plus four is seven.
+
+128
+00:06:16,460 --> 00:06:19,160
+Seven plus eight is fifteen.
+
+129
+00:06:19,160 --> 00:06:21,930
+Fifteen plus three is eighteen.
+
+130
+00:06:21,930 --> 00:06:23,730
+Eighteen plus zero is eighteen.
+
+131
+00:06:23,730 --> 00:06:25,950
+Eighteen plus three is twenty-one.
+
+132
+00:06:25,950 --> 00:06:28,110
+Write the one, carry the two.
+
+133
+00:06:28,110 --> 00:06:29,520
+Two plus two is four.
+
+134
+00:06:29,520 --> 00:06:31,110
+Four plus five is nine.
+
+135
+00:06:31,110 --> 00:06:33,270
+Nine plus four is thirteen.
+
+136
+00:06:33,270 --> 00:06:35,872
+Write the three, carry the one.
+
+137
+00:06:35,872 --> 00:06:38,450
+One plus three is four.
+
+138
+00:06:38,450 --> 00:06:39,430
+And we're done!
+
+139
+00:06:39,430 --> 00:06:40,570
+It's that easy.
+
+140
+00:06:40,570 --> 00:06:42,370
+Well, there's two advantages here.
+
+141
+00:06:42,370 --> 00:06:45,350
+One is, we got to do all of our multiplication at once.
+
+142
+00:06:45,350 --> 00:06:47,090
+And then we got to do all of our addition at once.
+
+143
+00:06:47,090 --> 00:06:49,370
+The other advantage is it's kind of neat and clean.
+
+144
+00:06:49,370 --> 00:06:53,175
+When you just do it the traditional way with carrying and number places,
+
+145
+00:06:53,175 --> 00:06:54,610
+it takes up a lot of space.
+
+146
+00:06:54,610 --> 00:06:58,081
+But notice, we did our whole problem in a nice, neat and clean area like that
+
+147
+00:06:58,081 --> 00:06:59,130
+and we got our answer.
+
+148
+00:06:59,130 --> 00:07:09,900
+Our answer is four million three hundred eleven thousand nine hundred seventy-three.
+
+149
+00:07:09,900 --> 00:07:10,870
+There you go.
+
+150
+00:07:10,870 --> 00:07:14,768
+Now in the next video, we are going to try to understand why this worked.

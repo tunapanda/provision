@@ -1,0 +1,623 @@
+1
+00:00:00,990 --> 00:00:05,890
+We're on problem 73.
+
+2
+00:00:05,890 --> 00:00:09,700
+How much did a certain telephone call cost? All right.
+
+3
+00:00:09,700 --> 00:00:11,380
+Well, we know nothing so far. Statement one.
+
+4
+00:00:11,380 --> 00:00:15,030
+The call lasted 53 minutes.
+
+5
+00:00:15,630 --> 00:00:18,120
+Well, unless they tell us how much it costs per minute,
+
+6
+00:00:18,120 --> 00:00:20,060
+that still doesn't tell us how much the call costs.
+
+7
+00:00:20,960 --> 00:00:25,790
+Statement two tells us the cost for the first 3 minutes
+
+8
+00:00:25,790 --> 00:00:31,790
+was 5 times the cost for each additional minute.
+
+9
+00:00:40,860 --> 00:00:42,000
+But that still doesn't help us.
+
+10
+00:00:42,200 --> 00:00:45,620
+The cost for the first 3 minutes might have been $0.05 a
+
+11
+00:00:45,620 --> 00:00:49,080
+minute,and then we might have been $0.01 a minute after that.
+
+12
+00:00:49,980 --> 00:00:54,670
+Or it could have been $0.10 a minute,and then--or let me make
+
+13
+00:00:54,670 --> 00:00:59,070
+it a multiple of 3--$0.12 a minute,and then $0.04 after that.
+
+14
+00:00:59,970 --> 00:01:02,010
+Both of these satisfy that statement. And actually,
+
+15
+00:01:02,010 --> 00:01:04,240
+if I have to be honest, this statement is slightly ambiguous.
+
+16
+00:01:04,240 --> 00:01:07,690
+Because they're saying the cost for the first 3 minutes.
+
+17
+00:01:07,690 --> 00:01:09,830
+Do they mean that the total cost for the first 3 minutes
+
+18
+00:01:09,830 --> 00:01:11,920
+was 5 times each additional minute?
+
+19
+00:01:12,080 --> 00:01:15,870
+Or was it the cost per minute of the first 3 minutes was 5
+
+20
+00:01:15,870 --> 00:01:16,870
+times additional minutes?
+
+21
+00:01:16,870 --> 00:01:19,710
+Well, either way, both statements combined don't help us,
+
+22
+00:01:19,710 --> 00:01:22,120
+because we're not able to figure out the cost per minute,
+
+23
+00:01:23,130 --> 00:01:27,050
+so that we could apply it to this. So they are both useless.
+
+24
+00:01:29,050 --> 00:01:36,800
+74. In a certain office, 50% of the employees are
+
+25
+00:01:36,800 --> 00:01:41,520
+college graduates. So let's say 50% college. I'll call it C.
+
+26
+00:01:44,000 --> 00:01:47,920
+Or I could say 50% of the employees are college graduate,
+
+27
+00:01:47,920 --> 00:01:53,950
+right? 60% of the employees are over 40 years old.
+
+28
+00:01:54,510 --> 00:01:59,710
+So it says 60% of the employees equal,
+
+29
+00:02:00,480 --> 00:02:06,020
+we'll call it O for over 40.
+
+30
+00:02:06,020 --> 00:02:09,010
+I don't know where this is going, I'm just making up numbers.
+
+31
+00:02:09,010 --> 00:02:14,030
+And it said if 30% of those over 40 have Master's degrees,
+
+32
+00:02:14,030 --> 00:02:20,260
+how many of the employees over 40 have Master's degrees? OK.
+
+33
+00:02:20,260 --> 00:02:30,020
+So 30% of the over 40 have Master's degrees.
+
+34
+00:02:30,020 --> 00:02:32,470
+I don't know, I'm just trying to make up some notation.
+
+35
+00:02:32,470 --> 00:02:35,100
+How many of the employees over 40 have Master's degrees?
+
+36
+00:02:35,100 --> 00:02:37,020
+So we're actually trying to come up with this number.
+
+37
+00:02:37,020 --> 00:02:40,030
+So if we knew how many employees over 40 there were,
+
+38
+00:02:40,030 --> 00:02:43,230
+we would be set, because we'd just multiply 30% times that.
+
+39
+00:02:43,230 --> 00:02:45,870
+If we knew how many employees there were,we would be all set,
+
+40
+00:02:45,870 --> 00:02:47,510
+because we could figure out the number over 40 and
+
+41
+00:02:47,510 --> 00:02:49,000
+then multiply 30% times that.
+
+42
+00:02:49,000 --> 00:02:52,020
+So let's see what they give us. Statement one.
+
+43
+00:02:52,520 --> 00:02:55,310
+Exactly 100 of the employees are college graduates.
+
+44
+00:02:58,510 --> 00:03:01,430
+So essentially, C is equal to 100, right?
+
+45
+00:03:05,930 --> 00:03:07,580
+And they told us that 50% of the employees
+
+46
+00:03:07,580 --> 00:03:08,740
+are college graduates.
+
+47
+00:03:08,740 --> 00:03:11,020
+So that means how many total employees are there?
+
+48
+00:03:11,320 --> 00:03:18,020
+That means that there are 200 employees. 100 is 50% of 200.
+
+49
+00:03:18,320 --> 00:03:20,360
+So that told us there are 200 employees.
+
+50
+00:03:20,360 --> 00:03:22,080
+If there are 200 employees,
+
+51
+00:03:22,090 --> 00:03:27,470
+how many employees over 40 are there? Well, that's O, right?
+
+52
+00:03:27,470 --> 00:03:31,790
+O for over 40. Well, that's just 60% of 200. That's 120.
+
+53
+00:03:32,530 --> 00:03:34,760
+And then how many over 40 with Master's degrees?
+
+54
+00:03:34,760 --> 00:03:35,830
+Let's call that OMD.
+
+55
+00:03:38,840 --> 00:03:42,190
+How many of these are there? Over 40 with Master's degrees.
+
+56
+00:03:42,190 --> 00:03:46,010
+Well, that's 30% of over 40, so that's 30%-- this is an O--
+
+57
+00:03:46,010 --> 00:03:50,340
+this is 30% of this, which is equal to-- so over 40 with
+
+58
+00:03:50,340 --> 00:03:54,550
+Master's degrees is equal to 36. And we would be done.
+
+59
+00:03:54,550 --> 00:03:57,070
+So statement one alone is sufficient.
+
+60
+00:03:57,570 --> 00:04:01,660
+I should call it over 40 instead of a 0.
+
+61
+00:04:01,660 --> 00:04:04,720
+Don't want to get confused. Over 40 with Mater's degrees.
+
+62
+00:04:05,070 --> 00:04:11,000
+So statement two. Of the employees 40 years old or less,
+
+63
+00:04:11,000 --> 00:04:14,640
+25% have Master's degrees.
+
+64
+00:04:15,670 --> 00:04:19,020
+So that doesn't tell us anything, really.
+
+65
+00:04:19,020 --> 00:04:22,530
+It doesn't tell us how many employees there are over 40,
+
+66
+00:04:22,530 --> 00:04:23,880
+which was one of the things
+
+67
+00:04:23,880 --> 00:04:25,020
+that we realized we have to figure out.
+
+68
+00:04:25,020 --> 00:04:29,390
+It doesn't help us figure out how many total employees there
+
+69
+00:04:29,390 --> 00:04:31,310
+are, so we really can't do this type of logic.
+
+70
+00:04:31,310 --> 00:04:33,070
+So it seems fairly useless.
+
+71
+00:04:33,870 --> 00:04:38,440
+So yeah, employees 40 years old or less. 25% of-- no.
+
+72
+00:04:38,440 --> 00:04:41,020
+This is a useless piece of information.
+
+73
+00:04:41,020 --> 00:04:43,820
+So the answer is--what is that? I always forget. A.
+
+74
+00:04:43,820 --> 00:04:53,080
+Statement alone is sufficient and statement 2 is useless. 75.
+
+75
+00:04:54,080 --> 00:04:58,900
+They ask is rst equal to 1?
+
+76
+00:05:01,000 --> 00:05:08,010
+Statement one tells us that rs is equal to 1.
+
+77
+00:05:08,010 --> 00:05:10,200
+This by itself doesn't help us, right?
+
+78
+00:05:10,200 --> 00:05:13,680
+If rs is equal to 1, the only way that this whole thing is
+
+79
+00:05:13,680 --> 00:05:16,620
+going to be equal to 1 is if t is also equal 1.
+
+80
+00:05:17,420 --> 00:05:20,370
+But we don't know that, so-- I mean, t could be equal to 10.
+
+81
+00:05:20,370 --> 00:05:22,760
+So statement one alone doesn't help us.
+
+82
+00:05:22,960 --> 00:05:29,030
+Statement two tells us,st is equal to 1.
+
+83
+00:05:29,030 --> 00:05:31,860
+Well, I can show that even if we have both of these
+
+84
+00:05:31,860 --> 00:05:33,750
+statements, that we still can't prove this.
+
+85
+00:05:34,080 --> 00:05:37,360
+For example, I can come up with a scenario that meets
+
+86
+00:05:37,360 --> 00:05:39,640
+both statements where this is true.
+
+87
+00:05:39,640 --> 00:05:43,240
+Because I can say what if r is equal to 1, s is equal to 1,
+
+88
+00:05:43,340 --> 00:05:45,060
+and t is equal to 1?
+
+89
+00:05:46,060 --> 00:05:49,740
+Then we can make both of these statements true.
+
+90
+00:05:49,740 --> 00:05:53,780
+So then, definitely, rst is equal to 1.
+
+91
+00:05:53,780 --> 00:05:57,060
+But let me see if I can construct something where this
+
+92
+00:05:57,060 --> 00:06:04,000
+doesn't hold up. So what if r is equal to 6.
+
+93
+00:06:04,500 --> 00:06:10,080
+s is equal to 1/6, and then t is equal to 6.
+
+94
+00:06:10,880 --> 00:06:14,640
+So then r times s would still be equal to 1, right?
+
+95
+00:06:15,090 --> 00:06:18,540
+s times t would still be equal to 1. But what is rst now?
+
+96
+00:06:19,090 --> 00:06:22,380
+It's 6 times 1/6, times 6, which is equal to 6.
+
+97
+00:06:22,380 --> 00:06:27,170
+So I can satisfy both of these, but still end up not
+
+98
+00:06:27,170 --> 00:06:29,390
+knowing whether it equals 1 or something different.
+
+99
+00:06:29,390 --> 00:06:30,390
+I just picked this arbitrarily.
+
+100
+00:06:30,390 --> 00:06:32,470
+You can actually kind of pick an arbitrary number here and
+
+101
+00:06:32,470 --> 00:06:36,980
+set this up. So anyway, this is E. I think that's E, right?
+
+102
+00:06:36,980 --> 00:06:40,000
+Both statements combined are useless. Right.
+
+103
+00:06:40,000 --> 00:06:43,440
+They're not sufficient. Next problem.
+
+104
+00:06:47,950 --> 00:06:50,430
+Turn the page. It's problem 76.
+
+105
+00:06:51,070 --> 00:06:53,240
+And they've drawn a nice pie chart for us,
+
+106
+00:06:53,240 --> 00:06:55,100
+which I'll reproduce.
+
+107
+00:06:57,590 --> 00:07:02,010
+76. Total expenses for the 5 divisions of company h.
+
+108
+00:07:02,010 --> 00:07:03,870
+Let me draw this pie chart.
+
+109
+00:07:08,170 --> 00:07:10,160
+OK. And then they have a bunch of-- let's see,
+
+110
+00:07:10,160 --> 00:07:11,850
+how many pies are there? There are 5 pies.
+
+111
+00:07:11,850 --> 00:07:15,790
+I'll try to draw it the way they do it. So that's one.
+
+112
+00:07:21,530 --> 00:07:22,060
+Two.
+
+113
+00:07:26,050 --> 00:07:29,000
+Three. And they have one more. There we go.
+
+114
+00:07:29,000 --> 00:07:31,000
+So that looks pretty close to what they've drawn.
+
+115
+00:07:31,890 --> 00:07:40,030
+And then they write, this is Q, R, S, T, and P.
+
+116
+00:07:40,030 --> 00:07:44,820
+O is the center. They call this angle, x. Fair enough.
+
+117
+00:07:44,820 --> 00:07:47,200
+So this is the total expenses for the 5 divisions.
+
+118
+00:07:47,200 --> 00:07:49,560
+So each of these are divisions for company h.
+
+119
+00:07:49,830 --> 00:07:54,800
+76. The figure above represents a circle graph of company h's
+
+120
+00:07:54,800 --> 00:07:57,260
+totally expenses broken down by the expenses for each of
+
+121
+00:07:57,260 --> 00:07:58,170
+it's 5 divisions.
+
+122
+00:07:58,870 --> 00:08:02,100
+If O is the center of the circle-- fair enough,
+
+123
+00:08:02,100 --> 00:08:04,240
+so this is the center, although I didn't draw it quite at the
+
+124
+00:08:04,240 --> 00:08:07,830
+center-- if O is the center of the circle, and if company h's
+
+125
+00:08:07,830 --> 00:08:12,250
+total expenses are $5.4 million, what are the expenses
+
+126
+00:08:12,250 --> 00:08:13,240
+for division R?
+
+127
+00:08:13,240 --> 00:08:15,000
+So the whole thing is $5.4 million.
+
+128
+00:08:15,700 --> 00:08:19,740
+So the whole pie is $5.4 million.
+
+129
+00:08:19,740 --> 00:08:22,490
+And we need to figure out what R is equal to.
+
+130
+00:08:26,080 --> 00:08:28,430
+So the whole expenses are 360 degrees.
+
+131
+00:08:28,430 --> 00:08:32,510
+So whatever fraction x is of 360 degrees, that's going to
+
+132
+00:08:32,510 --> 00:08:35,020
+be the fraction that R is of the total expenses.
+
+133
+00:08:35,430 --> 00:08:36,950
+So let's see if they give us that.
+
+134
+00:08:36,950 --> 00:08:42,770
+If we can figure out what angle x is. One, x is equal to 94.
+
+135
+00:08:42,770 --> 00:08:43,560
+Well, we're done.
+
+136
+00:08:44,000 --> 00:08:48,020
+Because x over the total degrees in the circle--
+
+137
+00:08:48,020 --> 00:08:54,140
+so 94 over 360 degrees-- that's going to be equal to the
+
+138
+00:08:54,140 --> 00:08:58,620
+expenses of division R divided by the total expenses,
+
+139
+00:08:58,620 --> 00:09:03,460
+$5.4 million. And this is a trivial equation to solve.
+
+140
+00:09:03,460 --> 00:09:06,030
+So one alone is sufficient.
+
+141
+00:09:06,530 --> 00:09:09,010
+Let's see what they give us for statement number two.
+
+142
+00:09:09,510 --> 00:09:13,170
+The total expenses for divisions S and T are twice
+
+143
+00:09:13,170 --> 00:09:16,010
+as much as the expenses for division R.
+
+144
+00:09:16,010 --> 00:09:23,300
+So they're saying that this right here is twice as much as
+
+145
+00:09:23,300 --> 00:09:27,070
+what we're trying to figure out. It's this right here.
+
+146
+00:09:27,370 --> 00:09:30,650
+Well, that doesn't help us much, because P and Q could be
+
+147
+00:09:30,650 --> 00:09:32,230
+arbitrarily small or large.
+
+148
+00:09:33,630 --> 00:09:37,560
+These two combined could be $2 and this could be $1, right?
+
+149
+00:09:37,560 --> 00:09:38,190
+In which case,
+
+150
+00:09:38,190 --> 00:09:40,410
+P and Q are the bulk of the expenses for the company.
+
+151
+00:09:40,410 --> 00:09:45,100
+Or maybe these two are $4 and R is $2,which are all possible.
+
+152
+00:09:45,100 --> 00:09:48,530
+And these would represent the rest of the-- whatever.
+
+153
+00:09:48,530 --> 00:09:52,660
+It gets you to $5.4 million. So statement two is useless.
+
+154
+00:09:52,660 --> 00:09:55,490
+So statement one alone is sufficient and statement two
+
+155
+00:09:55,490 --> 00:09:56,510
+does us no good.
+
+156
+00:09:56,510 --> 00:09:59,090
+And I'm out of time. I'll see you in the next video.

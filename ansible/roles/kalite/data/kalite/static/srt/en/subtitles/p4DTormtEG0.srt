@@ -1,0 +1,827 @@
+1
+00:00:01,138 --> 00:00:05,828
+This right here is a picture of an Airbus A380 aircraft,
+
+2
+00:00:05,828 --> 00:00:07,129
+and I was curious
+
+3
+00:00:07,129 --> 00:00:11,262
+How long would it take this aircraft to take-off?
+
+4
+00:00:11,262 --> 00:00:18,135
+And I looked up its take-off velocity,
+
+5
+00:00:18,135 --> 00:00:23,986
+and the specs I got were 280 km/h.
+
+6
+00:00:23,986 --> 00:00:25,426
+And to make this a velocity,
+
+7
+00:00:25,426 --> 00:00:27,423
+we have to specify a direction as well,
+
+8
+00:00:27,423 --> 00:00:28,909
+not just a magnitude.
+
+9
+00:00:28,909 --> 00:00:31,974
+So the direction is in the direction of the runway.
+
+10
+00:00:31,974 --> 00:00:34,807
+So that would be the positive direction.
+
+11
+00:00:34,807 --> 00:00:37,314
+So when we're talking about acceleration,
+
+12
+00:00:37,314 --> 00:00:40,101
+we're going to assume it's in this direction,
+
+13
+00:00:40,101 --> 00:00:43,000
+the direction of going down the runway.
+
+14
+00:00:43,000 --> 00:00:44,977
+And I also looked up its specs,
+
+15
+00:00:44,977 --> 00:00:46,835
+and this I'm simplifying a little bit,
+
+16
+00:00:46,835 --> 00:00:48,414
+because it's not going to have a purely
+
+17
+00:00:48,414 --> 00:00:49,528
+constant acceleration.
+
+18
+00:00:49,528 --> 00:00:50,226
+But let's just say:
+
+19
+00:00:50,226 --> 00:00:51,757
+from the moment that the pilot says,
+
+20
+00:00:51,757 --> 00:00:54,172
+"We're taking off" to when it actually takes off,
+
+21
+00:00:54,172 --> 00:00:55,890
+it has a constant acceleration.
+
+22
+00:00:55,890 --> 00:00:59,652
+Its engines are able to provide a constant acceleration.
+
+23
+00:00:59,652 --> 00:01:09,888
+Acceleration of 1.0 m/s per second
+
+24
+00:01:09,919 --> 00:01:11,480
+So after every second,
+
+25
+00:01:11,480 --> 00:01:13,585
+it can go one m/s faster
+
+26
+00:01:13,585 --> 00:01:14,671
+than it was going
+
+27
+00:01:14,671 --> 00:01:16,170
+at the beginning of that second.
+
+28
+00:01:16,170 --> 00:01:17,764
+Or, another way to write this is
+
+29
+00:01:17,764 --> 00:01:27,032
+1.0 m/s per second,
+
+30
+00:01:27,032 --> 00:01:28,631
+which can also be written as:
+
+31
+00:01:28,631 --> 00:01:31,248
+1.0 m/s^2
+
+32
+00:01:31,248 --> 00:01:33,226
+I find this a little bit more intuitive,
+
+33
+00:01:33,226 --> 00:01:35,133
+a little bit neater to write.
+
+34
+00:01:35,133 --> 00:01:36,340
+So let's figure this out.
+
+35
+00:01:36,340 --> 00:01:37,315
+So the first thing
+
+36
+00:01:37,315 --> 00:01:38,787
+that we're trying to answer is:
+
+37
+00:01:38,787 --> 00:01:47,303
+How long does take-off last?
+
+38
+00:01:47,303 --> 00:01:50,412
+That is the question we will try to answer.
+
+39
+00:01:50,412 --> 00:01:51,185
+And to answer this,
+
+40
+00:01:51,185 --> 00:01:52,547
+at least my brain,
+
+41
+00:01:52,547 --> 00:01:54,406
+wants to at least get the units right.
+
+42
+00:01:54,406 --> 00:01:55,072
+So over here,
+
+43
+00:01:55,072 --> 00:01:56,047
+we have our acceleration
+
+44
+00:01:56,047 --> 00:01:58,059
+in terms of meters and seconds,
+
+45
+00:01:58,059 --> 00:01:59,327
+or seconds squared.
+
+46
+00:01:59,327 --> 00:01:59,886
+And over here,
+
+47
+00:01:59,886 --> 00:02:00,813
+we have our take-off velocity
+
+48
+00:02:00,813 --> 00:02:04,333
+in terms of kilometers and hours.
+
+49
+00:02:04,333 --> 00:02:05,179
+So let's just convert
+
+50
+00:02:05,179 --> 00:02:07,254
+this take-off velocity into m/s,
+
+51
+00:02:07,254 --> 00:02:08,244
+and then it might simplify
+
+52
+00:02:08,244 --> 00:02:10,473
+answering this question.
+
+53
+00:02:10,473 --> 00:02:15,056
+So if we have 280 km/h,
+
+54
+00:02:15,056 --> 00:02:18,200
+how do we convert that to m/s?
+
+55
+00:02:18,200 --> 00:02:21,589
+So let's convert it to km/s first.
+
+56
+00:02:21,589 --> 00:02:24,019
+So we want to get rid of this 'hour'.
+
+57
+00:02:24,019 --> 00:02:25,381
+And the best way to do that:
+
+58
+00:02:25,381 --> 00:02:26,048
+if we have an 'hour'
+
+59
+00:02:26,048 --> 00:02:27,130
+in the denominator,
+
+60
+00:02:27,130 --> 00:02:28,477
+we want an 'hour' in the numerator,
+
+61
+00:02:28,477 --> 00:02:31,650
+and we want a 'second' in the denominator.
+
+62
+00:02:31,650 --> 00:02:34,947
+And so, what do we multiply this by?
+
+63
+00:02:34,947 --> 00:02:35,815
+Or what do we put in front of
+
+64
+00:02:35,815 --> 00:02:37,115
+the 'hours' and 'seconds'?
+
+65
+00:02:37,115 --> 00:02:41,309
+So in 1 hour there are 3600 seconds.
+
+66
+00:02:41,309 --> 00:02:42,563
+60 seconds in a minute,
+
+67
+00:02:42,563 --> 00:02:44,978
+60 minutes in an hour
+
+68
+00:02:44,978 --> 00:02:46,976
+And so 1 of the larger unit
+
+69
+00:02:46,976 --> 00:02:50,318
+is equal to 3600 of the smaller unit.
+
+70
+00:02:50,318 --> 00:02:52,425
+And so we can multiply by that,
+
+71
+00:02:52,425 --> 00:02:53,786
+And if we do that,
+
+72
+00:02:53,786 --> 00:02:55,088
+The 'hours' will cancel out.
+
+73
+00:02:55,088 --> 00:02:57,331
+And we'll get 280 divided by 3600
+
+74
+00:02:57,331 --> 00:02:59,128
+kilometers per second.
+
+75
+00:02:59,128 --> 00:03:00,400
+But I want to do all my math at once,
+
+76
+00:03:00,400 --> 00:03:02,579
+so let's also do the conversion from
+
+77
+00:03:02,579 --> 00:03:04,638
+kilometers to meters.
+
+78
+00:03:04,638 --> 00:03:05,877
+So once again,
+
+79
+00:03:05,877 --> 00:03:08,741
+we have kilometers in the numerator,
+
+80
+00:03:08,741 --> 00:03:11,133
+so we want kilometers in the denominator now.
+
+81
+00:03:11,133 --> 00:03:12,238
+So it cancels out.
+
+82
+00:03:12,238 --> 00:03:14,235
+And we want meters in the numerator.
+
+83
+00:03:14,235 --> 00:03:15,953
+And what's the smaller unit?
+
+84
+00:03:15,953 --> 00:03:18,600
+It's meters, and we have 1,000 meters
+
+85
+00:03:18,600 --> 00:03:20,969
+for every 1 kilometer.
+
+86
+00:03:20,969 --> 00:03:22,394
+And when you multiply this out,
+
+87
+00:03:22,394 --> 00:03:23,941
+the kilometers are going to cancel out,
+
+88
+00:03:23,941 --> 00:03:25,333
+and you're going to be left with
+
+89
+00:03:25,333 --> 00:03:41,530
+280 times 1,000 all over 3600,
+
+90
+00:03:41,530 --> 00:03:44,003
+And the units we have left are:
+
+91
+00:03:44,003 --> 00:03:52,907
+meters per second.
+
+92
+00:03:52,907 --> 00:03:56,010
+So let's get my trusty TI-85 out
+
+93
+00:03:56,010 --> 00:03:58,014
+and actually calculate this.
+
+94
+00:03:58,014 --> 00:04:01,450
+So we have 280 * 1,000,
+
+95
+00:04:01,450 --> 00:04:02,875
+which is obviously 280,000,
+
+96
+00:04:02,875 --> 00:04:06,964
+but let me just divide that by 3600.
+
+97
+00:04:06,964 --> 00:04:10,894
+And it gives me 77.7 repeating.
+
+98
+00:04:10,894 --> 00:04:13,634
+And it looks like I had 2 significant digits
+
+99
+00:04:13,634 --> 00:04:15,259
+in each of these original things,
+
+100
+00:04:15,259 --> 00:04:17,069
+I had 1.0 over here,
+
+101
+00:04:17,069 --> 00:04:18,557
+not 100% clear how many
+
+102
+00:04:18,587 --> 00:04:20,272
+significant digits I have over here.
+
+103
+00:04:20,272 --> 00:04:22,067
+Was the spec rounded
+
+104
+00:04:22,067 --> 00:04:23,988
+to the nearest 10 kilometers,
+
+105
+00:04:23,988 --> 00:04:26,715
+or was it exactly 280 km/h?
+
+106
+00:04:26,992 --> 00:04:27,796
+Just to be safe,
+
+107
+00:04:27,796 --> 00:04:28,772
+I'll assume that it's rounded
+
+108
+00:04:28,772 --> 00:04:30,067
+to the nearest 10 kilometers,
+
+109
+00:04:30,067 --> 00:04:32,379
+so we only have 2 significant digits here.
+
+110
+00:04:32,379 --> 00:04:33,972
+So we should only have 2 significant digits
+
+111
+00:04:33,972 --> 00:04:34,901
+in our answer,
+
+112
+00:04:34,901 --> 00:04:40,625
+so we're gonna round this to 78 m/s.
+
+113
+00:04:41,610 --> 00:04:48,728
+So this is going to be 78 m/s,
+
+114
+00:04:48,867 --> 00:04:50,319
+which is pretty fast!
+
+115
+00:04:50,627 --> 00:04:52,316
+For this thing to take off,
+
+116
+00:04:52,316 --> 00:04:53,616
+every second that goes by,
+
+117
+00:04:53,616 --> 00:04:55,985
+it has to travel 78 meters,
+
+118
+00:04:57,200 --> 00:04:59,979
+roughly 3/4 the length of a football field
+
+119
+00:04:59,979 --> 00:05:01,668
+in every second.
+
+120
+00:05:01,884 --> 00:05:03,148
+But that's not what we're trying to answer,
+
+121
+00:05:03,148 --> 00:05:04,361
+we're trying to say how long
+
+122
+00:05:04,361 --> 00:05:05,956
+will take-off last?
+
+123
+00:05:05,956 --> 00:05:07,922
+Well we could just do this in our head,
+
+124
+00:05:07,922 --> 00:05:09,685
+if you think about it.
+
+125
+00:05:09,685 --> 00:05:12,989
+The acceleration is 1 m/s per second,
+
+126
+00:05:12,989 --> 00:05:13,771
+which tells us:
+
+127
+00:05:13,771 --> 00:05:15,304
+after every second,
+
+128
+00:05:15,304 --> 00:05:17,301
+it's going 1 m/s faster.
+
+129
+00:05:17,301 --> 00:05:20,273
+So, if you start at a velocity of 0,
+
+130
+00:05:20,273 --> 00:05:21,791
+and then after 1 second,
+
+131
+00:05:21,791 --> 00:05:22,966
+it will be going 1 m/s.
+
+132
+00:05:22,966 --> 00:05:23,757
+After 2 seconds,
+
+133
+00:05:23,757 --> 00:05:25,011
+it will be going 2 m/s.
+
+134
+00:05:25,011 --> 00:05:25,847
+After 3 seconds,
+
+135
+00:05:25,847 --> 00:05:27,318
+it will be going 3 m/s.
+
+136
+00:05:27,610 --> 00:05:30,908
+So how long will it get to 78 m/s?
+
+137
+00:05:30,908 --> 00:05:33,015
+Well, it will take 78 seconds.
+
+138
+00:05:33,400 --> 00:05:38,199
+It'll take 78 seconds, or roughly
+
+139
+00:05:38,199 --> 00:05:40,739
+a minute and 18 seconds.
+
+140
+00:05:40,985 --> 00:05:42,375
+And just to verify this
+
+141
+00:05:42,405 --> 00:05:44,831
+with our definition of acceleration,
+
+142
+00:05:44,831 --> 00:05:45,471
+so to speak,
+
+143
+00:05:45,471 --> 00:05:47,272
+just remember acceleration,
+
+144
+00:05:47,272 --> 00:05:48,373
+which is a vector quantity,
+
+145
+00:05:48,373 --> 00:05:48,993
+and all the directions
+
+146
+00:05:48,993 --> 00:05:49,845
+we're talking about now
+
+147
+00:05:49,845 --> 00:05:51,097
+are in the direction of
+
+148
+00:05:51,097 --> 00:05:53,395
+this direction of the runway.
+
+149
+00:05:53,395 --> 00:05:56,898
+The acceleration is equal to
+
+150
+00:05:56,898 --> 00:06:04,889
+change in velocity over change in time.
+
+151
+00:06:04,889 --> 00:06:05,971
+And we're trying to solve for:
+
+152
+00:06:05,971 --> 00:06:07,147
+how much time does it take,
+
+153
+00:06:07,147 --> 00:06:08,544
+or the change in time.
+
+154
+00:06:08,682 --> 00:06:09,484
+So let's do that.
+
+155
+00:06:09,484 --> 00:06:10,892
+So let's multiply both sides by
+
+156
+00:06:10,892 --> 00:06:12,256
+change in time.
+
+157
+00:06:12,518 --> 00:06:17,860
+You get Δt * acceleration
+
+158
+00:06:17,891 --> 00:06:19,919
+is equal to
+
+159
+00:06:19,919 --> 00:06:24,408
+change in velocity.
+
+160
+00:06:24,408 --> 00:06:25,600
+And to solve for change in time,
+
+161
+00:06:25,600 --> 00:06:31,745
+divide both sides by the acceleration,
+
+162
+00:06:31,745 --> 00:06:33,756
+you get change in time.
+
+163
+00:06:33,756 --> 00:06:35,320
+I could go down here,
+
+164
+00:06:35,320 --> 00:06:36,327
+but I just want to use all this
+
+165
+00:06:36,327 --> 00:06:37,520
+real-estate I have over here.
+
+166
+00:06:37,520 --> 00:06:38,744
+I have change in time
+
+167
+00:06:38,744 --> 00:06:40,150
+is equal to
+
+168
+00:06:40,150 --> 00:06:43,961
+change in velocity
+
+169
+00:06:44,007 --> 00:06:48,041
+divided by acceleration.
+
+170
+00:06:48,041 --> 00:06:49,159
+And in this situation,
+
+171
+00:06:49,159 --> 00:06:51,667
+what is our change in velocity?
+
+172
+00:06:51,667 --> 00:06:53,942
+Well, we're starting off with the velocity,
+
+173
+00:06:53,942 --> 00:06:54,953
+or we're assuming we're starting off
+
+174
+00:06:54,953 --> 00:06:57,733
+with the velocity of 0 m/s,
+
+175
+00:06:57,733 --> 00:07:01,112
+and we're getting up to 78 m/s,
+
+176
+00:07:01,112 --> 00:07:02,667
+so our change in velocity is
+
+177
+00:07:02,667 --> 00:07:08,458
+the 78 m/s.
+
+178
+00:07:09,458 --> 00:07:10,158
+So this is equal,
+
+179
+00:07:10,158 --> 00:07:11,112
+in our situation.
+
+180
+00:07:11,112 --> 00:07:14,719
+78 m/s is our change in velocity.
+
+181
+00:07:14,719 --> 00:07:15,955
+I'm taking the final velocity,
+
+182
+00:07:15,955 --> 00:07:17,301
+78 m/s,
+
+183
+00:07:17,301 --> 00:07:18,602
+and subtracting from that
+
+184
+00:07:18,602 --> 00:07:19,408
+the initial velocity,
+
+185
+00:07:19,408 --> 00:07:20,400
+which is 0 m/s,
+
+186
+00:07:20,400 --> 00:07:21,899
+and you just get this
+
+187
+00:07:21,899 --> 00:07:23,733
+divided by the acceleration,
+
+188
+00:07:23,733 --> 00:07:29,353
+divided by 1 m/s per second,
+
+189
+00:07:29,353 --> 00:07:31,512
+or 1 m/s^2.
+
+190
+00:07:31,512 --> 00:07:33,309
+So the numbers part is pretty easy.
+
+191
+00:07:33,309 --> 00:07:35,320
+You have 78 divided by 1,
+
+192
+00:07:35,320 --> 00:07:36,992
+which is just 78,
+
+193
+00:07:36,992 --> 00:07:38,199
+and then the units, you have:
+
+194
+00:07:38,199 --> 00:07:39,267
+meters per second,
+
+195
+00:07:40,452 --> 00:07:42,611
+and then if you divide by m/s^2,
+
+196
+00:07:42,611 --> 00:07:44,608
+that's the same thing as multiplying by
+
+197
+00:07:44,608 --> 00:07:46,499
+seconds squared per meter.
+
+198
+00:07:46,499 --> 00:07:47,225
+Right?
+
+199
+00:07:47,225 --> 00:07:49,890
+Dividing by something is the same thing
+
+200
+00:07:49,890 --> 00:07:51,886
+as multiplying by its reciprocal,
+
+201
+00:07:51,886 --> 00:07:54,246
+and you can do the same thing with units.
+
+202
+00:07:54,246 --> 00:07:55,336
+And then we see
+
+203
+00:07:55,336 --> 00:07:57,240
+the meters cancel out,
+
+204
+00:07:57,240 --> 00:07:59,330
+and then sec^2 divided by seconds
+
+205
+00:07:59,330 --> 00:08:00,570
+you're just left with seconds.
+
+206
+00:08:00,570 --> 00:08:04,425
+So once again, we get 78 seconds.
+
+207
+00:08:04,425 --> 99:59:59,999
+A little over a minute for this thing to take off.

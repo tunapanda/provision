@@ -1,0 +1,127 @@
+1
+00:00:01,667 --> 00:00:06,918
+Solve and eliminate any extraneous solutions. What they mean by extraneous solutions are:
+
+2
+00:00:06,918 --> 00:00:12,733
+in the course of solving this rational equation right here we might get some solutions that if we actually
+
+3
+00:00:12,733 --> 00:00:19,200
+put it in the original problem would give us undefined expressions and so those solutions
+
+4
+00:00:19,200 --> 00:00:22,867
+are extraneous solutions, they actually don't apply, so you want to throw them out.
+
+5
+00:00:22,867 --> 00:00:28,400
+So let's look at this equation. We have x^2 over x+2 = 4 over x + 2
+
+6
+00:00:28,400 --> 00:00:33,667
+So right from the get go, we don't know if this is necessarily going to be a solution to this equation
+
+7
+00:00:33,667 --> 00:00:38,000
+but we know just looking at this that if x is equal to -2, then this denominator
+
+8
+00:00:38,000 --> 00:00:42,267
+and this denominator are going to be zero and if you're dividing by zero it will be undefined.
+
+9
+00:00:42,267 --> 00:00:48,667
+So right from the get go we can exclude x = -2, so x cannot be equal to -2 because that
+
+10
+00:00:48,667 --> 00:00:52,400
+would make either of these expressions undefined on either side of the equation.
+
+11
+00:00:52,400 --> 00:00:58,467
+So with that out of the way, let's try to solve it. So the first step, let's try to get the x out of
+
+12
+00:00:58,467 --> 00:01:02,400
+the denominator so let's multiply both sides by x+2.
+
+13
+00:01:02,400 --> 00:01:11,467
+x+2 divided by x+2 is 1 and we can assume x+2 isn't zero, so it will be defined
+
+14
+00:01:11,467 --> 00:01:17,333
+x+2 divided by x+2 is just 1 so our equation has simplified to
+
+15
+00:01:17,333 --> 00:01:26,123
+x^2 = 4
+
+16
+00:01:26,338 --> 00:01:31,667
+So, subtract 4 from both sides. Do it in the proper quadratic equation form.
+
+17
+00:01:31,667 --> 00:01:33,995
+So, x^2 - 4 = 0
+
+18
+00:01:34,041 --> 00:01:37,898
+I just subtracted 4 from both sides over here
+
+19
+00:01:37,898 --> 00:01:40,800
+and so you can factor this because this is a difference of squares, so you get
+
+20
+00:01:40,800 --> 00:01:50,867
+(x+2) * (x-2) = 0 and if the product of two things is zero then that means that either one or
+
+21
+00:01:50,867 --> 00:01:52,867
+both of them is equal to zero
+
+22
+00:01:52,867 --> 00:02:01,200
+So this tells us that x+2 = 0 or x-2 = 0
+
+23
+00:02:01,200 --> 00:02:08,067
+If you subtract 2 from both sides of this equation right here you get x = -2 and if you add
+
+24
+00:02:08,067 --> 00:02:13,867
+2 to both sides of this equation here you get x = 2
+
+25
+00:02:13,867 --> 00:02:18,133
+and we're saying that either of these would make this last expression zero.
+
+26
+00:02:18,133 --> 00:02:26,467
+Now, we know that we would exclude one of them. We know that x cannot be equal to -2. So x = -2 is an
+
+27
+00:02:26,467 --> 00:02:36,133
+extraneous solution. It is a solution for this, once we got rid of the natural expressions,
+
+28
+00:02:36,133 --> 00:02:39,467
+but it's not a solution for this original problem up here
+
+29
+00:02:39,467 --> 00:02:43,400
+because it would make the expressions undefined, it would cause you to divide by zero.
+
+30
+00:02:43,400 --> 00:02:49,667
+So, the only solution here is x=2 and you can check it yourself.
+
+31
+00:02:49,667 --> 00:02:59,067
+If you do 2^2 you get 4 over 2+2 is 4 and that should be equal to 4 over 2+2
+
+32
+00:02:59,067 --> 99:59:59,999
+which it definitely is: 1 is equal to 1.

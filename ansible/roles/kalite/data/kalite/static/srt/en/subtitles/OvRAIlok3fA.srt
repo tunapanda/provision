@@ -1,0 +1,912 @@
+1
+00:00:00,851 --> 00:00:02,305
+We're on problem --
+
+2
+00:00:02,305 --> 00:00:06,911
+(Where are we?) -- problem 232.
+
+3
+00:00:06,911 --> 00:00:07,842
+Only a few left.
+
+4
+00:00:07,842 --> 00:00:22,501
+If 1/x - 1/( x + 1) is equal to 1/( x + 4),
+
+5
+00:00:22,501 --> 00:00:26,046
+then x could be which of the following?
+
+6
+00:00:26,046 --> 00:00:28,102
+And you might have a temptation to just invert both sides.
+
+7
+00:00:28,102 --> 00:00:29,525
+But you can't do that just yet.
+
+8
+00:00:29,525 --> 00:00:30,637
+Because if you took the inverse of this,
+
+9
+00:00:30,637 --> 00:00:32,870
+it's not like you just get x - (x + 1).
+
+10
+00:00:32,870 --> 00:00:35,541
+You actually have to subtract -- or you could say add --
+
+11
+00:00:35,541 --> 00:00:37,616
+these two fractions together. So let's do that.
+
+12
+00:00:37,616 --> 00:00:39,476
+So if we simplify this left-hand side,
+
+13
+00:00:39,476 --> 00:00:43,781
+a common denominator would be x × (x + 1).
+
+14
+00:00:44,581 --> 00:00:47,207
+And then the numerator would be -- let's see--
+
+15
+00:00:47,207 --> 00:00:51,214
+1/x is the same thing as x + 1 over this thing.
+
+16
+00:00:51,214 --> 00:00:53,251
+Right? Because that cancels out, and you get 1/x.
+
+17
+00:00:53,251 --> 00:00:56,024
+-- minus 1/(x+1).
+
+18
+00:00:56,024 --> 00:00:59,011
+That's the same thing as x/x(x + 1).
+
+19
+00:00:59,011 --> 00:01:02,227
+The x's would cancel out, [so] you get 1/(x + 1).
+
+20
+00:01:02,227 --> 00:01:06,018
+So [on] this left-hand side, the x's cancel out,
+
+21
+00:01:06,018 --> 00:01:09,057
+and you get 1 over--
+
+22
+00:01:09,057 --> 00:01:13,012
+(Well, we could just make that x squared + x. Right?)
+
+23
+00:01:13,012 --> 00:01:14,451
+So now, this simplifies to--
+
+24
+00:01:14,451 --> 00:01:16,039
+The left-hand side is 1/ x squared + x.
+
+25
+00:01:16,039 --> 00:01:20,602
+And the right-hand side is1/(x + 4).
+
+26
+00:01:20,602 --> 00:01:22,176
+And now we could invert both sides,
+
+27
+00:01:22,176 --> 00:01:23,883
+or just set the denominators equal to each other.
+
+28
+00:01:23,883 --> 00:01:25,962
+But let's just invert both. They're the same thing, actually.
+
+29
+00:01:25,962 --> 00:01:28,485
+So if you take the inverse of both sides, you get--
+
+30
+00:01:28,485 --> 00:01:30,381
+(And I'll switch colors, just randomly.)
+
+31
+00:01:30,381 --> 00:01:36,007
+-- x squared + x is equal to x + 4.
+
+32
+00:01:36,007 --> 00:01:38,029
+Let's subtract x from both sides.
+
+33
+00:01:38,029 --> 00:01:41,026
+You get x squared is equal to 4.
+
+34
+00:01:41,026 --> 00:01:45,031
+So, x is equal to +/-2.
+
+35
+00:01:45,031 --> 00:01:46,496
+And they say, "... then x could be ..."
+
+36
+00:01:46,496 --> 00:01:47,962
+Well, choice C is -2.
+
+37
+00:01:47,962 --> 00:01:51,026
+So that's one of the values that x could be.
+
+38
+00:01:51,026 --> 00:01:56,006
+Next question: [PROBLEM] 233.
+
+39
+00:01:56,006 --> 00:02:04,048
+All right, they have
+
+40
+00:02:04,048 --> 00:02:11,012
+(1/2 to the -3 power) × (1/4 to the -2 power) × (1/16 to the -1 [power]).
+
+41
+00:02:11,012 --> 00:02:13,075
+The first thing I do when I see negative exponents --
+
+42
+00:02:13,075 --> 00:02:16,025
+just so they don't confuse me -- is that I just
+
+43
+00:02:16,025 --> 00:02:17,034
+invert all of the numbers.
+
+44
+00:02:17,034 --> 00:02:18,090
+So this is the same thing.
+
+45
+00:02:18,090 --> 00:02:22,096
+This is the exact same thing as equal to--
+
+46
+00:02:22,096 --> 00:02:25,071
+this is the same thing as 2 to the third power, right?
+
+47
+00:02:25,071 --> 00:02:27,083
+When you take something to a negative exponent, that's the
+
+48
+00:02:27,083 --> 00:02:30,068
+same thing as the inverse of that thing to the positive
+
+49
+00:02:30,068 --> 00:02:32,083
+exponent, so this is 2 to the third power.
+
+50
+00:02:32,083 --> 00:02:39,019
+This is × 4 squared × 16.
+
+51
+00:02:39,019 --> 00:02:46,050
+And so 2 to the third is 8 × 16 × 16, right?
+
+52
+00:02:46,050 --> 00:02:50,083
+That's 8 × 256.
+
+53
+00:02:50,083 --> 00:02:52,025
+And then-- oh, wait.
+
+54
+00:02:52,025 --> 00:02:54,050
+I'm going down the wrong path,
+
+55
+00:02:54,050 --> 00:02:55,087
+because they have it in a completely different format.
+
+56
+00:02:55,087 --> 00:02:58,043
+So actually, maybe I should look at the choices before I
+
+57
+00:02:58,043 --> 00:03:02,030
+continue these problems. So let me rewrite it.
+
+58
+00:03:02,030 --> 00:03:06,009
+So they all have it as -- you know, 1/2 to some power, 1/8
+
+59
+00:03:06,009 --> 00:03:07,049
+to some power, so let me rewrite this.
+
+60
+00:03:07,049 --> 00:03:09,040
+I went down the wrong road.
+
+61
+00:03:09,040 --> 00:03:11,075
+So let's write all of these as powers of 1/2.
+
+62
+00:03:11,075 --> 00:03:13,080
+So 1/2 to the minus 1/3, fine.
+
+63
+00:03:13,080 --> 00:03:17,015
+That's still 1/2 to the minus 1/3.
+
+64
+00:03:17,015 --> 00:03:18,093
+1/4, what is that?
+
+65
+00:03:18,093 --> 00:03:23,062
+1/4 is the same thing as 1/2 squared.
+
+66
+00:03:23,062 --> 00:03:26,011
+We're raising that to the minus 2.
+
+67
+00:03:26,011 --> 00:03:31,025
+And then 1/16, that's the same thing as 1/2 to the third
+
+68
+00:03:31,025 --> 00:03:33,020
+power is 1/8, so it's to the fourth power.
+
+69
+00:03:33,020 --> 00:03:35,041
+We're taking that to the negative 1.
+
+70
+00:03:35,041 --> 00:03:38,033
+And then this is-- we'll just use what we know about
+
+71
+00:03:38,033 --> 00:03:41,033
+exponent rules, and we've proven this in other Khan
+
+72
+00:03:41,033 --> 00:03:42,096
+Academy videos.
+
+73
+00:03:42,096 --> 00:03:45,036
+1/2 squared to the minus 2.
+
+74
+00:03:45,036 --> 00:03:48,022
+You can just multiply these exponents, so that's equal to
+
+75
+00:03:48,022 --> 00:03:51,065
+1/2 to the minus 4.
+
+76
+00:03:51,065 --> 00:03:56,018
+And then 1/2 to the 4 to the minus 1, you multiply them and
+
+77
+00:03:56,018 --> 00:03:58,018
+that's equal to minus 4.
+
+78
+00:03:58,018 --> 00:04:00,080
+And now we have the same base, and we're multiplying them, so
+
+79
+00:04:00,080 --> 00:04:02,000
+we can just add the exponents.
+
+80
+00:04:02,000 --> 00:04:09,041
+This is equal to 1/2 to the minus 3 plus minus 4, minus 7,
+
+81
+00:04:09,041 --> 00:04:11,052
+minus 4, is equal to minus 11.
+
+82
+00:04:11,052 --> 00:04:17,031
+So it's 1/2 to the negative 11th power, which is choice B.
+
+83
+00:04:17,031 --> 00:04:18,031
+That was a good lesson there.
+
+84
+00:04:18,031 --> 00:04:20,054
+Look at your choices before you go down some path because
+
+85
+00:04:20,054 --> 00:04:22,027
+I was actually going to evaluate this thing, which
+
+86
+00:04:22,027 --> 00:04:24,099
+would have taken a little bit of extra time.
+
+87
+00:04:24,099 --> 00:04:30,000
+PROBLEM 234.
+
+88
+00:04:30,000 --> 00:04:33,080
+In a certain game, a large container is filled with red,
+
+89
+00:04:33,080 --> 00:04:40,031
+yellow, green-- so let's see, there's red, yellow, green,
+
+90
+00:04:40,031 --> 00:04:43,098
+and blue beads, worth respectively-- so respectively
+
+91
+00:04:43,098 --> 00:04:46,019
+means the same order; we said the colors are in the same
+
+92
+00:04:46,019 --> 00:04:52,044
+order that they're worth -- so worth respectively 7, 5, 3,
+
+93
+00:04:52,044 --> 00:04:54,083
+and 2 points each.
+
+94
+00:04:54,083 --> 00:04:58,029
+OK, a number of beads are then removed from the container.
+
+95
+00:04:58,029 --> 00:05:03,045
+If the product of the point of values of the removed beads is
+
+96
+00:05:03,045 --> 00:05:10,000
+147,000, how many red beads were removed?
+
+97
+00:05:10,000 --> 00:05:10,085
+So this is interesting.
+
+98
+00:05:10,085 --> 00:05:13,031
+So there's something that hopefully will jump out at you
+
+99
+00:05:13,031 --> 00:05:14,080
+about these numbers.
+
+100
+00:05:14,080 --> 00:05:17,023
+They're all prime numbers, right?
+
+101
+00:05:17,023 --> 00:05:19,038
+So if you look at any number, you can tell how many of a
+
+102
+00:05:19,038 --> 00:05:21,079
+certain prime number there is in that number by just doing a
+
+103
+00:05:21,079 --> 00:05:23,031
+prime factorization.
+
+104
+00:05:23,031 --> 00:05:28,031
+So let's do that for 147,000.
+
+105
+00:05:28,031 --> 00:05:30,056
+And you'd be surprised how quickly a
+
+106
+00:05:30,056 --> 00:05:32,007
+number can get smaller.
+
+107
+00:05:32,007 --> 00:05:33,032
+So let's see.
+
+108
+00:05:33,032 --> 00:05:37,018
+How many times-- let's see, does 3 go 147?
+
+109
+00:05:37,018 --> 00:05:38,080
+I think we've done this before.
+
+110
+00:05:38,080 --> 00:05:41,005
+Sure, 3 times -- let me just do it up here.
+
+111
+00:05:41,005 --> 00:05:47,020
+3 goes into 147 4, 12, 27, 49 times.
+
+112
+00:05:47,020 --> 00:05:51,041
+So you get a 3 and you get a 49, right?
+
+113
+00:05:51,041 --> 00:05:53,070
+49,000, I should say.
+
+114
+00:05:53,070 --> 00:05:59,037
+You could do a 7 and a 7,000.
+
+115
+00:05:59,037 --> 00:06:07,037
+And then you can get another 7, and you can get a 1,000.
+
+116
+00:06:07,037 --> 00:06:09,051
+And then you could do 2 a bunch of times.
+
+117
+00:06:09,051 --> 00:06:14,012
+So you get a 2, you get a -- well, the main thing, just so
+
+118
+00:06:14,012 --> 00:06:16,049
+we don't waste time is they want to know--
+
+119
+00:06:16,049 --> 00:06:17,052
+(What color do they want to know?)
+
+120
+00:06:17,052 --> 00:06:22,066
+They want to know how many red beads were removed, right?
+
+121
+00:06:22,066 --> 00:06:24,091
+So, red corresponds to 7.
+
+122
+00:06:24,091 --> 00:06:26,006
+So all the beads, you multiply them
+
+123
+00:06:26,006 --> 00:06:28,024
+together and you get 147,000.
+
+124
+00:06:28,024 --> 00:06:31,043
+So we've essentially factored out all the 7's that we can
+
+125
+00:06:31,043 --> 00:06:33,052
+fit into 147,000.
+
+126
+00:06:33,052 --> 00:06:36,044
+7 does not go into 1,000 at all.
+
+127
+00:06:36,044 --> 00:06:37,087
+7 is not a factor.
+
+128
+00:06:37,087 --> 00:06:39,012
+So we've already solved our problem.
+
+129
+00:06:39,012 --> 00:06:43,069
+There are exactly two 7 prime factors in 147,000.
+
+130
+00:06:43,069 --> 00:06:44,076
+You could keep going with this.
+
+131
+00:06:44,076 --> 00:06:46,041
+You know, you get a 2.
+
+132
+00:06:46,041 --> 00:06:47,081
+2 × 500.
+
+133
+00:06:47,081 --> 00:06:48,081
+You get another 2.
+
+134
+00:06:48,081 --> 00:06:49,099
+2 × 250.
+
+135
+00:06:49,099 --> 00:06:51,062
+There's a bunch of 2's in here.
+
+136
+00:06:51,062 --> 00:06:54,000
+And then you'd probably get-- I don't know what else you're
+
+137
+00:06:54,000 --> 00:06:54,037
+going to get.
+
+138
+00:06:54,037 --> 00:06:56,048
+You'd probably get a couple of 5's in here, and
+
+139
+00:06:56,048 --> 00:06:57,027
+then you'd be done.
+
+140
+00:06:57,027 --> 00:06:58,031
+But these are all the 7's.
+
+141
+00:06:58,031 --> 00:07:01,055
+There are two 7's in 147,000.
+
+142
+00:07:01,055 --> 00:07:04,063
+Two 7 prime factors, so there would be 2 red beads.
+
+143
+00:07:04,063 --> 00:07:06,061
+And that is choice D.
+
+144
+00:07:09,086 --> 00:07:13,031
+PROBLEM 235.
+
+145
+00:07:13,031 --> 00:07:14,075
+([Let's] switch colors.)
+
+146
+00:07:14,075 --> 00:07:17,080
+[PROBLEM] 235.
+
+147
+00:07:17,080 --> 00:07:25,018
+If 2/(1 + 2/y) = 1,
+
+148
+00:07:25,018 --> 00:07:27,075
+then what does y equal?
+
+149
+00:07:27,075 --> 00:07:29,045
+Let's take the inverse
+of both (sides of the equation).
+
+150
+00:07:29,045 --> 00:07:32,080
+Let's multiply both sides of the equation times 1 + 2/y.
+
+151
+00:07:32,080 --> 00:07:38,033
+And so we get 2 = 1 + 2/y.
+
+152
+00:07:40,029 --> 00:07:42,025
+And let's multiply both sides of the equation by y.
+
+153
+00:07:42,025 --> 00:07:45,024
+So you get 2y--
+
+154
+00:07:45,024 --> 00:07:47,274
+And actually, you could probably already eyeball this.
+
+155
+00:07:47,274 --> 00:07:48,128
+Actually there's an easier way.
+
+156
+00:07:48,128 --> 00:07:49,066
+Let's subtract 1 from both sides.
+
+157
+00:07:49,066 --> 00:07:52,033
+You get 1 is equal to 2/y.
+
+158
+00:07:52,033 --> 00:07:56,092
+Multiply both sides by y, and you get y = 2.
+
+159
+00:07:56,092 --> 00:07:59,030
+And that is choice D.
+
+160
+00:07:59,030 --> 00:08:01,039
+And you could've actually eyeballed it, because, say,
+
+161
+00:08:01,039 --> 00:08:04,047
+1 + 1 = 2, so this has to be 1.
+
+162
+00:08:04,047 --> 00:08:05,058
+So how am I going to make that a 1?
+
+163
+00:08:05,058 --> 00:08:07,038
+That equals 2, but sometimes it's easier just to
+
+164
+00:08:07,038 --> 00:08:09,012
+mechanically go through the algebra, because sometimes,
+
+165
+00:08:09,012 --> 00:08:10,047
+you can't eyeball it, and it's good to
+
+166
+00:08:10,047 --> 00:08:14,061
+just keep moving forward.
+
+167
+00:08:14,061 --> 00:08:19,012
+PROBLEM 236.
+
+168
+00:08:19,012 --> 00:08:27,010
+If a, b, and c are consecutive positive integers, and a is
+
+169
+00:08:27,010 --> 00:08:31,020
+less than b, which is less than c, which of the following
+
+170
+00:08:31,020 --> 00:08:32,053
+must be true?
+
+171
+00:08:32,053 --> 00:08:38,051
+Consecutive positive, so, you know, we could say that b
+
+172
+00:08:38,051 --> 00:08:42,053
+would be equal to a + 1, and c would be equal to a +
+
+173
+00:08:42,053 --> 00:08:46,034
+2 or b + 1.
+
+174
+00:08:46,034 --> 00:08:47,074
+And, of course, a is equal to a.
+
+175
+00:08:47,074 --> 00:08:49,011
+I don't know if that helps, I just felt like
+
+176
+00:08:49,011 --> 00:08:51,022
+writing that down.
+
+177
+00:08:51,022 --> 00:08:54,072
+So in statement 1, they say c minus a is equal to 2.
+
+178
+00:08:54,072 --> 00:08:56,004
+Sure.
+
+179
+00:08:56,004 --> 00:08:58,046
+They're consecutive positive integers, so c is going to be
+
+180
+00:08:58,046 --> 00:08:59,067
+2 more than a.
+
+181
+00:08:59,067 --> 00:09:01,003
+So this is right.
+
+182
+00:09:01,003 --> 00:09:04,000
+Statement 2, they tell us abc is even.
+
+183
+00:09:08,065 --> 00:09:09,063
+Well, instead of going into some algebraic thing where I
+
+184
+00:09:09,063 --> 00:09:11,038
+represent even and odd integers and all of that,
+
+185
+00:09:11,038 --> 00:09:14,059
+let's just try it with two cases, one where a is odd and
+
+186
+00:09:14,059 --> 00:09:15,082
+one where a is even.
+
+187
+00:09:15,082 --> 00:09:17,024
+So let's say a is even.
+
+188
+00:09:17,024 --> 00:09:22,016
+So the numbers would be 2--
+
+189
+00:09:22,016 --> 00:09:24,007
+sorry, would be 2 × 3 × 4, right?
+
+190
+00:09:24,007 --> 00:09:26,047
+So then we would get 8.
+
+191
+00:09:26,047 --> 00:09:27,025
+Well, you know what?
+
+192
+00:09:27,025 --> 00:09:30,050
+This has to be even because one of these numbers are going
+
+193
+00:09:30,050 --> 00:09:32,029
+to be even, right?
+
+194
+00:09:32,029 --> 00:09:34,050
+And so if you're divisible, and by definition, if one of
+
+195
+00:09:34,050 --> 00:09:36,049
+these numbers are even, it's divisible by 2.
+
+196
+00:09:36,049 --> 00:09:38,084
+So the whole thing, when you multiply it together, it's got
+
+197
+00:09:38,084 --> 00:09:40,052
+to be divisible by 2, right?
+
+198
+00:09:40,052 --> 00:09:42,083
+Either a and c are even, in which case this whole thing
+
+199
+00:09:42,083 --> 00:09:46,017
+has to be even, or b is even, in which case this whole thing
+
+200
+00:09:46,017 --> 00:09:46,075
+is even, right?
+
+201
+00:09:46,075 --> 00:09:50,037
+If you multiply a string of numbers and at least one of
+
+202
+00:09:50,037 --> 00:09:53,012
+them is even, then that whole number [the product] is going to be even,
+
+203
+00:09:53,012 --> 00:09:55,026
+because [a product] that's even is a factor of that whole
+
+204
+00:09:55,026 --> 00:09:56,034
+string of numbers.
+
+205
+00:09:56,034 --> 00:09:58,069
+But anyway, you could try it with 2, 3, 4, or you could try
+
+206
+00:09:58,069 --> 00:10:00,055
+it with 3, 4, 5.
+
+207
+00:10:00,055 --> 00:10:02,047
+Either way, you're going to get an even number.
+
+208
+00:10:02,047 --> 00:10:04,084
+So this is also right.
+
+209
+00:10:04,084 --> 00:10:16,915
+Statement 3: (a+b+c)/3 is an integer.
+
+210
+00:10:16,915 --> 00:10:18,967
+Well, let's think about it.
+
+211
+00:10:18,967 --> 00:10:20,052
+I don't know.
+
+212
+00:10:20,052 --> 00:10:25,050
+Let's say if we were to take a + b + c.
+
+213
+00:10:25,050 --> 00:10:27,094
+I don't know, even if we were to take-- let's see, 3 + 4 plus---
+
+214
+00:10:27,094 --> 00:10:29,050
+No, that works.
+
+215
+00:10:29,050 --> 00:10:31,084
+2 + 3-- No, that works.
+
+216
+00:10:31,084 --> 00:10:36,053
+Let's write it as-- So this is a + a + 1, right?
+
+217
+00:10:36,053 --> 00:10:42,070
+([Because] b is a + 1.) -- plus a + 2 over 3, right?
+
+218
+00:10:42,070 --> 00:10:50,073
+And so this is equal to (3a+3)/3.
+
+219
+00:10:50,073 --> 00:10:52,038
+([Because] b is just a + 1; c is a + 2.)
+
+220
+00:10:52,038 --> 00:10:53,042
+You add them all together.
+
+221
+00:10:53,042 --> 00:10:55,036
+Sure enough, you could divide the top and the
+
+222
+00:10:55,036 --> 00:11:01,062
+bottom by 3 and you get a + 1.
+
+223
+00:11:01,062 --> 00:11:04,050
+So yeah. Statement 3 is also correct.
+
+224
+00:11:04,050 --> 00:11:07,004
+This is always going to evaluate to a + 1, which is
+
+225
+00:11:07,004 --> 00:11:07,088
+an integer.
+
+226
+00:11:07,088 --> 00:11:11,069
+So all three are true. So that is choice E.
+
+227
+00:11:11,069 --> 00:11:13,039
+And I'm all out of time.
+
+228
+00:11:13,039 --> 00:11:15,041
+See you in the next video.

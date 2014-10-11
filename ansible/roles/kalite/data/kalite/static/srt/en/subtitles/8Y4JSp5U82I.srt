@@ -1,0 +1,1127 @@
+1
+00:00:00,000 --> 00:00:00,920
+   
+
+2
+00:00:00,920 --> 00:00:02,860
+We've learned a little
+bit about gravity.
+
+3
+00:00:02,860 --> 00:00:05,120
+We've learned a little bit
+about electrostatic.
+
+4
+00:00:05,120 --> 00:00:09,280
+So, time to learn about
+a new fundamental
+
+5
+00:00:09,280 --> 00:00:10,300
+force of the universe.
+
+6
+00:00:10,300 --> 00:00:13,180
+And this one is probably second
+most familiar to us,
+
+7
+00:00:13,180 --> 00:00:13,890
+next to gravity.
+
+8
+00:00:13,890 --> 00:00:15,140
+And that's magnetism.
+
+9
+00:00:15,140 --> 00:00:17,310
+   
+
+10
+00:00:17,310 --> 00:00:18,240
+Where does the word come from?
+
+11
+00:00:18,240 --> 00:00:21,810
+Well, I think several
+civilizations-- I'm no
+
+12
+00:00:21,810 --> 00:00:29,810
+historian-- found these
+lodestones, these objects that
+
+13
+00:00:29,810 --> 00:00:33,260
+would attract other objects
+like it, other magnets.
+
+14
+00:00:33,260 --> 00:00:37,720
+Or would even attract metallic
+objects like iron.
+
+15
+00:00:37,720 --> 00:00:39,260
+Ferrous objects.
+
+16
+00:00:39,260 --> 00:00:41,320
+And they're called lodestones.
+
+17
+00:00:41,320 --> 00:00:43,150
+That's, I guess, the Western
+term for it.
+
+18
+00:00:43,150 --> 00:00:45,800
+And the reason why they're
+called magnets is because
+
+19
+00:00:45,800 --> 00:00:50,590
+they're named after lodestones
+that were found near the Greek
+
+20
+00:00:50,590 --> 00:00:51,840
+province of Magnesia.
+
+21
+00:00:51,840 --> 00:00:56,800
+   
+
+22
+00:00:56,800 --> 00:00:58,330
+And I actually think the people
+who lived there were
+
+23
+00:00:58,330 --> 00:01:00,160
+called Magnetes.
+
+24
+00:01:00,160 --> 00:01:03,790
+But anyway, you could Wikipedia
+that and learn more
+
+25
+00:01:03,790 --> 00:01:05,459
+about it than I know.
+
+26
+00:01:05,459 --> 00:01:08,090
+But anyway let's focus
+on what magnetism is.
+
+27
+00:01:08,090 --> 00:01:12,010
+And I think most of us have at
+least a working knowledge of
+
+28
+00:01:12,010 --> 00:01:15,490
+what it is; we've all played
+with magnets and we've dealt
+
+29
+00:01:15,490 --> 00:01:16,470
+with compasses.
+
+30
+00:01:16,470 --> 00:01:20,910
+But I'll tell you this right
+now, what it really is, is
+
+31
+00:01:20,910 --> 00:01:22,250
+pretty deep.
+
+32
+00:01:22,250 --> 00:01:25,740
+And I think it's fairly-- I
+don't think anyone has-- we
+
+33
+00:01:25,740 --> 00:01:28,940
+can mathematically understand
+it and manipulate it and see
+
+34
+00:01:28,940 --> 00:01:31,410
+how it relates to electricity.
+
+35
+00:01:31,410 --> 00:01:33,890
+We actually will show you the
+electrostatic force and the
+
+36
+00:01:33,890 --> 00:01:37,480
+magnetic force are actually the
+same thing, just viewed
+
+37
+00:01:37,480 --> 00:01:39,090
+from different frames
+of reference.
+
+38
+00:01:39,090 --> 00:01:40,420
+I know that all of
+that sounds very
+
+39
+00:01:40,420 --> 00:01:41,560
+complicated and all of that.
+
+40
+00:01:41,560 --> 00:01:45,370
+But in our classical Newtonian
+world we treat them as two
+
+41
+00:01:45,370 --> 00:01:46,040
+different forces.
+
+42
+00:01:46,040 --> 00:01:48,830
+But what I'm saying is although
+we're kind of used to
+
+43
+00:01:48,830 --> 00:01:52,480
+a magnet just like we're used to
+gravity, just like gravity
+
+44
+00:01:52,480 --> 00:01:54,620
+is also fairly mysterious when
+you really think about what it
+
+45
+00:01:54,620 --> 00:01:56,530
+is, so is magnetism.
+
+46
+00:01:56,530 --> 00:01:59,290
+So with that said, let's at
+least try to get some working
+
+47
+00:01:59,290 --> 00:02:02,550
+knowledge of how we can
+deal with magnetism.
+
+48
+00:02:02,550 --> 00:02:07,650
+So we're all familiar
+with a magnet.
+
+49
+00:02:07,650 --> 00:02:10,610
+I didn't want it to be yellow.
+
+50
+00:02:10,610 --> 00:02:12,060
+I could make the boundary
+yellow.
+
+51
+00:02:12,060 --> 00:02:16,100
+No, I didn't want it to
+be like that either.
+
+52
+00:02:16,100 --> 00:02:21,360
+So if this is a magnet,
+we know that a magnet
+
+53
+00:02:21,360 --> 00:02:24,120
+always has two poles.
+
+54
+00:02:24,120 --> 00:02:28,330
+It has a north pole
+and a south pole.
+
+55
+00:02:28,330 --> 00:02:30,450
+And these were just labeled
+by convention.
+
+56
+00:02:30,450 --> 00:02:33,630
+Because when people first
+discovered these lodestones,
+
+57
+00:02:33,630 --> 00:02:37,300
+or they took a lodestone and
+they magnetized a needle with
+
+58
+00:02:37,300 --> 00:02:40,190
+that lodestone, and then that
+needle they put on a cork in a
+
+59
+00:02:40,190 --> 00:02:44,840
+bucket of water, and that needle
+would point to the
+
+60
+00:02:44,840 --> 00:02:46,000
+Earth's north pole.
+
+61
+00:02:46,000 --> 00:02:48,250
+They said, oh, well the side of
+the needle that is pointing
+
+62
+00:02:48,250 --> 00:02:50,820
+to the Earth's north, let's
+call that the north pole.
+
+63
+00:02:50,820 --> 00:02:52,860
+And the point of the needle
+that's pointing to the south
+
+64
+00:02:52,860 --> 00:02:57,300
+pole-- sorry, the point of the
+needle that's pointing to the
+
+65
+00:02:57,300 --> 00:02:59,210
+Earth's geographic
+south, we'll call
+
+66
+00:02:59,210 --> 00:03:00,230
+that the south pole.
+
+67
+00:03:00,230 --> 00:03:03,050
+Or another way to put it,
+if we have a magnet, the
+
+68
+00:03:03,050 --> 00:03:05,790
+direction of the magnet or the
+side of the magnet that
+
+69
+00:03:05,790 --> 00:03:07,980
+orients itself-- if it's allowed
+to orient freely
+
+70
+00:03:07,980 --> 00:03:11,330
+without friction-- towards our
+geographic north, we call that
+
+71
+00:03:11,330 --> 00:03:12,280
+the north pole.
+
+72
+00:03:12,280 --> 00:03:14,820
+And the other side is
+the south pole.
+
+73
+00:03:14,820 --> 00:03:23,710
+And this is actually a little
+bit-- obviously we call the
+
+74
+00:03:23,710 --> 00:03:26,930
+top of the Earth
+the north pole.
+
+75
+00:03:26,930 --> 00:03:30,600
+You know, this is
+the north pole.
+
+76
+00:03:30,600 --> 00:03:34,530
+And we call this
+the south pole.
+
+77
+00:03:34,530 --> 00:03:38,840
+And there's another notion
+of magnetic north.
+
+78
+00:03:38,840 --> 00:03:42,380
+And that's where-- I guess, you
+could kind of say-- that
+
+79
+00:03:42,380 --> 00:03:47,270
+is where a compass, the
+north point of a
+
+80
+00:03:47,270 --> 00:03:48,690
+compass, will point to.
+
+81
+00:03:48,690 --> 00:03:51,730
+And actually, magnetic north
+moves around because we have
+
+82
+00:03:51,730 --> 00:03:54,150
+all of this moving fluid
+inside of the earth.
+
+83
+00:03:54,150 --> 00:03:55,215
+And a bunch of other
+interactions.
+
+84
+00:03:55,215 --> 00:03:56,690
+It's a very complex
+interaction.
+
+85
+00:03:56,690 --> 00:04:01,130
+But magnetic north is actually
+roughly in northern Canada.
+
+86
+00:04:01,130 --> 00:04:04,240
+So magnetic north
+might be here.
+
+87
+00:04:04,240 --> 00:04:05,510
+So that might be
+magnetic north.
+
+88
+00:04:05,510 --> 00:04:07,420
+And magnetic south, I don't know
+exactly where that is.
+
+89
+00:04:07,420 --> 00:04:09,340
+But it can kind of move
+around a little bit.
+
+90
+00:04:09,340 --> 00:04:10,360
+It's not in the same place.
+
+91
+00:04:10,360 --> 00:04:14,860
+So it's a little bit off the
+axis of the geographic north
+
+92
+00:04:14,860 --> 00:04:16,180
+pole and the south pole.
+
+93
+00:04:16,180 --> 00:04:19,540
+And this is another slightly
+confusing thing.
+
+94
+00:04:19,540 --> 00:04:23,720
+Magnetic north is the geographic
+location, where the
+
+95
+00:04:23,720 --> 00:04:26,970
+north pole of a magnet
+will point to.
+
+96
+00:04:26,970 --> 00:04:31,730
+But that would actually be the
+south pole, if you viewed the
+
+97
+00:04:31,730 --> 00:04:32,980
+Earth as a magnet.
+
+98
+00:04:32,980 --> 00:04:35,240
+   
+
+99
+00:04:35,240 --> 00:04:38,800
+So if the Earth was a big
+magnet, you would actually
+
+100
+00:04:38,800 --> 00:04:40,820
+view that as a south
+pole of the magnet.
+
+101
+00:04:40,820 --> 00:04:43,780
+And the geographic
+south pole is the
+
+102
+00:04:43,780 --> 00:04:44,640
+north pole of the magnet.
+
+103
+00:04:44,640 --> 00:04:46,390
+You could read more about that
+on Wikipedia, I know it's a
+
+104
+00:04:46,390 --> 00:04:47,390
+little bit confusing.
+
+105
+00:04:47,390 --> 00:04:49,520
+But in general, when most
+people refer to magnetic
+
+106
+00:04:49,520 --> 00:04:51,920
+north, or the north pole,
+they're talking about the
+
+107
+00:04:51,920 --> 00:04:53,930
+geographic north area.
+
+108
+00:04:53,930 --> 00:04:56,940
+And the south pole is the
+geographic south area.
+
+109
+00:04:56,940 --> 00:05:00,170
+But the reason why I make this
+distinction is because we know
+
+110
+00:05:00,170 --> 00:05:03,520
+when we deal with magnets,
+just like electricity, or
+
+111
+00:05:03,520 --> 00:05:06,590
+electrostatics-- but I'll show
+a key difference very
+
+112
+00:05:06,590 --> 00:05:10,760
+shortly-- is that opposite
+poles attract.
+
+113
+00:05:10,760 --> 00:05:14,770
+So if this side of my magnet is
+attracted to Earth's north
+
+114
+00:05:14,770 --> 00:05:19,730
+pole then Earth's north pole--
+or Earth's magnetic north--
+
+115
+00:05:19,730 --> 00:05:22,690
+actually must be the south
+pole of that magnet.
+
+116
+00:05:22,690 --> 00:05:23,370
+And vice versa.
+
+117
+00:05:23,370 --> 00:05:26,110
+The south pole of my magnet here
+is going to be attracted
+
+118
+00:05:26,110 --> 00:05:28,090
+to Earth's magnetic south.
+
+119
+00:05:28,090 --> 00:05:29,770
+Which is actually the
+north pole of the
+
+120
+00:05:29,770 --> 00:05:31,660
+magnet we call Earth.
+
+121
+00:05:31,660 --> 00:05:34,220
+Anyway, I'll take Earth out of
+the equation because it gets a
+
+122
+00:05:34,220 --> 00:05:35,070
+little bit confusing.
+
+123
+00:05:35,070 --> 00:05:37,650
+And we'll just stick to bars
+because that tends to be a
+
+124
+00:05:37,650 --> 00:05:40,930
+little bit more consistent.
+
+125
+00:05:40,930 --> 00:05:44,220
+Let me erase this.
+
+126
+00:05:44,220 --> 00:05:45,500
+There you go.
+
+127
+00:05:45,500 --> 00:05:46,750
+I'll erase my Magnesia.
+
+128
+00:05:46,750 --> 00:05:49,680
+   
+
+129
+00:05:49,680 --> 00:05:52,200
+I wonder if the element
+magnesium was first discovered
+
+130
+00:05:52,200 --> 00:05:53,370
+in Magnesia, as well.
+
+131
+00:05:53,370 --> 00:05:55,870
+Probably.
+
+132
+00:05:55,870 --> 00:05:57,200
+And I actually looked
+up Milk of
+
+133
+00:05:57,200 --> 00:05:58,920
+Magnesia, which is a laxative.
+
+134
+00:05:58,920 --> 00:06:02,780
+And it was not discovered
+in Magnesia, but it has
+
+135
+00:06:02,780 --> 00:06:04,780
+magnesium in it.
+
+136
+00:06:04,780 --> 00:06:08,060
+So I guess its roots could be
+in Magnesia if magnesium was
+
+137
+00:06:08,060 --> 00:06:09,410
+discovered in Magnesia.
+
+138
+00:06:09,410 --> 00:06:11,530
+Anyway, enough about Magnesia.
+
+139
+00:06:11,530 --> 00:06:13,870
+Back to the magnets.
+
+140
+00:06:13,870 --> 00:06:18,350
+So if this is a magnet, and let
+me draw another magnet.
+
+141
+00:06:18,350 --> 00:06:20,700
+Actually, let me erase
+all of this.
+
+142
+00:06:20,700 --> 00:06:23,990
+   
+
+143
+00:06:23,990 --> 00:06:24,935
+All right.
+
+144
+00:06:24,935 --> 00:06:26,730
+So let me draw two
+more magnets.
+
+145
+00:06:26,730 --> 00:06:32,840
+   
+
+146
+00:06:32,840 --> 00:06:36,700
+We know from experimentation
+when we were all kids, this is
+
+147
+00:06:36,700 --> 00:06:38,810
+the north pole, this
+is the south pole.
+
+148
+00:06:38,810 --> 00:06:43,210
+That the north pole is going to
+be attracted to the south
+
+149
+00:06:43,210 --> 00:06:45,700
+pole of another magnet.
+
+150
+00:06:45,700 --> 00:06:48,490
+And that if I were to flip this
+magnet around, it would
+
+151
+00:06:48,490 --> 00:06:52,480
+actually repel north-- two north
+facing magnets would
+
+152
+00:06:52,480 --> 00:06:54,330
+repel each other.
+
+153
+00:06:54,330 --> 00:06:56,930
+And so we have this notion,
+just like we had in
+
+154
+00:06:56,930 --> 00:07:01,120
+electrostatics, that a magnet
+generates a field.
+
+155
+00:07:01,120 --> 00:07:05,520
+It generates these vectors
+around it, that if you put
+
+156
+00:07:05,520 --> 00:07:09,840
+something in that field that can
+be affected by it, it'll
+
+157
+00:07:09,840 --> 00:07:15,630
+be some net force
+acting on it.
+
+158
+00:07:15,630 --> 00:07:17,850
+So actually, before I go into
+magnetic field, I actually
+
+159
+00:07:17,850 --> 00:07:24,030
+want to make one huge
+distinction between magnetism
+
+160
+00:07:24,030 --> 00:07:25,360
+and electrostatics.
+
+161
+00:07:25,360 --> 00:07:30,140
+Magnetism always comes in
+the form of a dipole.
+
+162
+00:07:30,140 --> 00:07:30,910
+What does a dipole mean?
+
+163
+00:07:30,910 --> 00:07:32,700
+It means that we
+have two poles.
+
+164
+00:07:32,700 --> 00:07:34,520
+A north and a south.
+
+165
+00:07:34,520 --> 00:07:40,430
+In electrostatics, you
+do have two charges.
+
+166
+00:07:40,430 --> 00:07:43,480
+You have a positive charge
+and a negative charge.
+
+167
+00:07:43,480 --> 00:07:44,630
+So you do have two charges.
+
+168
+00:07:44,630 --> 00:07:46,530
+But they could be
+by themselves.
+
+169
+00:07:46,530 --> 00:07:48,230
+You could just have a proton.
+
+170
+00:07:48,230 --> 00:07:49,600
+You don't have to have
+an electron there
+
+171
+00:07:49,600 --> 00:07:50,490
+right next to it.
+
+172
+00:07:50,490 --> 00:07:54,620
+You could just have a proton and
+it would create a positive
+
+173
+00:07:54,620 --> 00:07:56,140
+electrostatic field.
+
+174
+00:07:56,140 --> 00:07:57,950
+And our field lines are
+what a positive point
+
+175
+00:07:57,950 --> 00:07:59,000
+charge would do.
+
+176
+00:07:59,000 --> 00:08:00,260
+And it would be repelled.
+
+177
+00:08:00,260 --> 00:08:05,340
+So you don't always have to have
+a negative charge there.
+
+178
+00:08:05,340 --> 00:08:07,250
+Similarly you could just
+have an electron.
+
+179
+00:08:07,250 --> 00:08:08,690
+And you don't have to
+have a proton there.
+
+180
+00:08:08,690 --> 00:08:10,460
+So you could have monopoles.
+
+181
+00:08:10,460 --> 00:08:12,740
+These are called monopoles, when
+you just have one charge
+
+182
+00:08:12,740 --> 00:08:14,770
+when you're talking about
+electrostatics.
+
+183
+00:08:14,770 --> 00:08:17,420
+But with magnetism you
+always have a dipole.
+
+184
+00:08:17,420 --> 00:08:20,200
+If I were to take this magnet,
+this one right here, and if I
+
+185
+00:08:20,200 --> 00:08:28,510
+were to cut it in half, somehow
+miraculously each of
+
+186
+00:08:28,510 --> 00:08:30,150
+those halves of that
+magnet will turn
+
+187
+00:08:30,150 --> 00:08:31,560
+into two more magnets.
+
+188
+00:08:31,560 --> 00:08:34,260
+Where this will be the south,
+this'll be the north, this'll
+
+189
+00:08:34,260 --> 00:08:36,679
+be the south, this will
+be the north.
+
+190
+00:08:36,679 --> 00:08:41,200
+And actually, theoretically,
+I've read-- my own abilities
+
+191
+00:08:41,200 --> 00:08:44,110
+don't go this far-- there could
+be such a thing as a
+
+192
+00:08:44,110 --> 00:08:46,200
+magnetic monopole, although
+it has not been
+
+193
+00:08:46,200 --> 00:08:48,320
+observed yet in nature.
+
+194
+00:08:48,320 --> 00:08:51,130
+So everything we've seen in
+nature has been a dipole.
+
+195
+00:08:51,130 --> 00:08:54,260
+So you could just keep cutting
+this up, all the way down to
+
+196
+00:08:54,260 --> 00:08:56,000
+if it's just one
+electron left.
+
+197
+00:08:56,000 --> 00:08:59,230
+And it actually turns out that
+even one electron is still a
+
+198
+00:08:59,230 --> 00:09:00,400
+magnetic dipole.
+
+199
+00:09:00,400 --> 00:09:04,400
+It still is generating, it still
+has a north pole and a
+
+200
+00:09:04,400 --> 00:09:05,310
+south pole.
+
+201
+00:09:05,310 --> 00:09:08,830
+And actually it turns out, all
+magnets, the magnetic field is
+
+202
+00:09:08,830 --> 00:09:12,380
+actually generated by the
+electrons within it.
+
+203
+00:09:12,380 --> 00:09:14,710
+By the spin of electrons and
+that-- you know, when we talk
+
+204
+00:09:14,710 --> 00:09:16,970
+about electron spin we
+imagine some little
+
+205
+00:09:16,970 --> 00:09:18,430
+ball of charge spinning.
+
+206
+00:09:18,430 --> 00:09:20,910
+But electrons are-- you
+know, it's hard to--
+
+207
+00:09:20,910 --> 00:09:21,900
+they do have mass.
+
+208
+00:09:21,900 --> 00:09:23,590
+But it starts to get
+fuzzy whether they
+
+209
+00:09:23,590 --> 00:09:24,720
+are energy or mass.
+
+210
+00:09:24,720 --> 00:09:26,990
+And then how does a ball
+of energy spin?
+
+211
+00:09:26,990 --> 00:09:27,510
+Et cetera, et cetera.
+
+212
+00:09:27,510 --> 00:09:31,900
+So it gets very almost
+metaphysical.
+
+213
+00:09:31,900 --> 00:09:33,220
+So I don't want to go
+too far into it.
+
+214
+00:09:33,220 --> 00:09:35,710
+And frankly, I don't think you
+really can get an intuition.
+
+215
+00:09:35,710 --> 00:09:38,080
+It is almost-- it is a
+realm that we don't
+
+216
+00:09:38,080 --> 00:09:39,790
+normally operate in.
+
+217
+00:09:39,790 --> 00:09:43,340
+But even these large magnets
+you deal with, the magnetic
+
+218
+00:09:43,340 --> 00:09:47,120
+field is generated by the
+electron spins inside of it
+
+219
+00:09:47,120 --> 00:09:51,040
+and by the actual magnetic
+fields generated by the
+
+220
+00:09:51,040 --> 00:09:53,620
+electron motion around
+the protons.
+
+221
+00:09:53,620 --> 00:09:56,350
+Well, I hope I'm not
+overwhelming you.
+
+222
+00:09:56,350 --> 00:09:58,370
+And you might say, well, how
+come sometimes a metal bar can
+
+223
+00:09:58,370 --> 00:10:00,700
+be magnetized and sometimes
+it won't be?
+
+224
+00:10:00,700 --> 00:10:02,940
+Well, when all of the electrons
+are doing random
+
+225
+00:10:02,940 --> 00:10:06,220
+different things in a metal bar,
+then it's not magnetized.
+
+226
+00:10:06,220 --> 00:10:10,590
+Because the magnetic spins, or
+the magnetism created by the
+
+227
+00:10:10,590 --> 00:10:11,920
+electrons are all canceling
+each other out,
+
+228
+00:10:11,920 --> 00:10:12,790
+because it's random.
+
+229
+00:10:12,790 --> 00:10:16,100
+But if you align the spins of
+the electrons, and if you
+
+230
+00:10:16,100 --> 00:10:20,130
+align their rotations, then you
+will have a magnetically
+
+231
+00:10:20,130 --> 00:10:21,060
+charged bar.
+
+232
+00:10:21,060 --> 00:10:23,620
+But anyway, I'm past the
+ten-minute mark, but hopefully
+
+233
+00:10:23,620 --> 00:10:26,140
+that gives you a little bit
+of a working knowledge of
+
+234
+00:10:26,140 --> 00:10:27,190
+what a magnet is.
+
+235
+00:10:27,190 --> 00:10:31,170
+And in the next video, I will
+show what the effect is.
+
+236
+00:10:31,170 --> 00:10:34,490
+Well, one, I'll explain how we
+think about a magnetic field.
+
+237
+00:10:34,490 --> 00:10:36,100
+And then what the effect
+of a magnetic
+
+238
+00:10:36,100 --> 00:10:38,870
+field is on an electron.
+
+239
+00:10:38,870 --> 00:10:41,140
+Or not an electron, on
+a moving charge.
+
+240
+00:10:41,140 --> 00:10:43,010
+See you in the next video.
+
+241
+00:10:43,010 --> 00:10:43,400
+

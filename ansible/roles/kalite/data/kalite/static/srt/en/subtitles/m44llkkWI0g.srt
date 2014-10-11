@@ -1,0 +1,679 @@
+1
+00:00:00,080 --> 00:00:04,190
+Problem 100. They draw this graph,
+
+2
+00:00:04,190 --> 00:00:08,210
+which I guess I should also draw. So they draw it pretty big.
+
+3
+00:00:08,210 --> 00:00:10,030
+So I'll draw it pretty big as well.
+
+4
+00:00:12,320 --> 00:00:15,420
+They have a line that goes from the center to there,
+
+5
+00:00:15,420 --> 00:00:20,080
+it's a pie graph. Then they call that category like that,
+
+6
+00:00:20,080 --> 00:00:23,530
+and another category that looks something like that,
+
+7
+00:00:23,530 --> 00:00:25,690
+and then they have a final category
+
+8
+00:00:25,690 --> 00:00:27,250
+that looks something like that.
+
+9
+00:00:28,630 --> 00:00:37,540
+They say that this is the highway trust fund,which is 72%.
+
+10
+00:00:37,540 --> 00:00:41,230
+They say x% is a tire tax.
+
+11
+00:00:44,330 --> 00:00:47,920
+This is 12%,which is a gas tax.
+
+12
+00:00:49,950 --> 00:00:56,210
+Then you have x plus 4%,which is a tax on trucks.
+
+13
+00:00:57,510 --> 00:01:01,780
+According to the graph above,what percent of the funds for
+
+14
+00:01:01,780 --> 00:01:04,880
+highway maintenance-- oh,and this title says sources of funds
+
+15
+00:01:04,880 --> 00:01:07,290
+for highway maintenance. So that's what this whole thing is.
+
+16
+00:01:07,290 --> 00:01:11,060
+According to the graph above,what percent of the funds for
+
+17
+00:01:11,060 --> 00:01:14,080
+highway maintenance came from the tax on tires?
+
+18
+00:01:15,390 --> 00:01:18,120
+So we need to solve for x. So let's think about it.
+
+19
+00:01:18,120 --> 00:01:26,860
+x plus 12 plus x plus 4,that's this,plus 72 have to
+
+20
+00:01:26,860 --> 00:01:33,850
+equal 100%. We have two x's,get those out of the way,
+
+21
+00:01:34,640 --> 00:01:39,560
+and then what is this equal to? 12 plus 4 is 16.
+
+22
+00:01:41,830 --> 00:01:45,580
+16 plus 72-- let me write that down.
+
+23
+00:01:45,580 --> 00:01:49,510
+I always make careless mistakes. That's 16. 16 plus 72 is 88.
+
+24
+00:01:49,510 --> 00:01:56,980
+2x plus 88 is equal to 100. Then you have 2x is equal to,
+
+25
+00:01:56,980 --> 00:02:00,640
+subtract 88 from both sides,12. x is equal to 6.
+
+26
+00:02:00,640 --> 00:02:03,110
+That's exactly what we're looking for,the tire tax.
+
+27
+00:02:03,110 --> 00:02:06,230
+So that's 6%. That's choice B.
+
+28
+00:02:09,080 --> 00:02:13,800
+Drawing it was harder than solving it. Problem 101.
+
+29
+00:02:15,370 --> 00:02:19,880
+A poll reveals that the average arithmetic mean income
+
+30
+00:02:19,880 --> 00:02:23,540
+of 10 households is $25,000.
+
+31
+00:02:24,420 --> 00:02:28,890
+So we could say,average of 10 is equal to 25K.
+
+32
+00:02:30,190 --> 00:02:34,470
+If 6 of the households have income of $30,000 each,
+
+33
+00:02:34,470 --> 00:02:38,060
+what is the average of the other 4 households?
+
+34
+00:02:38,060 --> 00:02:43,620
+So if we were to average all of them,we could say it would be
+
+35
+00:02:43,620 --> 00:02:48,580
+6 times the households that are 30,000,so 6 times 30K,
+
+36
+00:02:48,580 --> 00:02:53,090
+plus 4 times the average of the other 4.
+
+37
+00:02:53,090 --> 00:02:55,550
+So let's say that's what we're trying to solve for,
+
+38
+00:02:55,550 --> 00:02:57,790
+4 times the average of the other 4 households.
+
+39
+00:02:57,790 --> 00:03:00,120
+This would be the sum of all of the households.
+
+40
+00:03:00,120 --> 00:03:03,610
+If we were to divide that by 10,we're going to get
+
+41
+00:03:03,610 --> 00:03:06,070
+the total average of all 10,which is 25.
+
+42
+00:03:06,070 --> 00:03:09,760
+Hopefully that makes sense. You have 6 households making 30K,
+
+43
+00:03:09,760 --> 00:03:12,700
+so the sum of those households is going to be 6 times 30.
+
+44
+00:03:13,470 --> 00:03:16,660
+Then the sum of the other 4 households is going to be 4
+
+45
+00:03:16,660 --> 00:03:17,960
+times their average.
+
+46
+00:03:17,960 --> 00:03:20,540
+That's what they're asking us for,what is the average income?
+
+47
+00:03:20,540 --> 00:03:25,600
+If you take the sum of all the households,all 10,
+
+48
+00:03:25,600 --> 00:03:27,200
+you divide it by 10,you get their average.
+
+49
+00:03:27,200 --> 00:03:31,200
+So you get 6 times 30-- I don't want to make this
+
+50
+00:03:31,200 --> 00:03:32,610
+look like a variable,that's 30,000.
+
+51
+00:03:32,610 --> 00:03:33,740
+We know we're dealing in thousands.
+
+52
+00:03:34,080 --> 00:03:40,020
+So 6 times 30 is 180 plus 4x is equal to 10 times 25,
+
+53
+00:03:40,020 --> 00:03:48,560
+is equal to 250. 4x is equal to,what's 250 minus 180?
+
+54
+00:03:48,560 --> 00:03:50,970
+That's 50,and you have another 20,it's equal to 70.
+
+55
+00:03:52,080 --> 00:03:57,230
+Then you have x is equal to,let's see,4 goes into 70,
+
+56
+00:03:57,230 --> 00:04:02,570
+1 30,goes into it 7,7 times 4 is 28.
+
+57
+00:04:02,570 --> 00:04:06,270
+Goes into 20 5 times,and the decimal.
+
+58
+00:04:06,270 --> 00:04:12,070
+So 17.5,and we're dealing with thousands,so $17,500.
+
+59
+00:04:12,070 --> 00:04:17,070
+That's choice C. Problem 102.
+
+60
+00:04:20,520 --> 00:04:31,270
+If T is equal to 5/9 times K minus 32,
+
+61
+00:04:31,270 --> 00:04:37,080
+and T is equal to 290,then what is K equal to?
+
+62
+00:04:37,080 --> 00:04:39,160
+This is kind of one of those speed problems.
+
+63
+00:04:39,680 --> 00:04:46,500
+So we have 290 is equal to 5/9 times K minus 32.
+
+64
+00:04:47,450 --> 00:04:52,850
+So multiply both sides by 9/5,you get 9/5 times 290
+
+65
+00:04:52,850 --> 00:04:58,630
+is equal to K minus 32. So what's 290 divided by 5?
+
+66
+00:04:58,630 --> 00:05:07,090
+5 goes into 29 5 times,25,40,58 times.
+
+67
+00:05:07,090 --> 00:05:12,520
+So it's 9 times 58 is equal to K minus 32.
+
+68
+00:05:12,520 --> 00:05:26,390
+58 times 9,8 times 9 is 72.5 times 9 is 45 plus 7 is 52. 522.
+
+69
+00:05:26,390 --> 00:05:30,640
+So 522 is equal to K minus 32.
+
+70
+00:05:32,200 --> 00:05:42,860
+So K is equal to 522 plus 32,which is equal to 554,
+
+71
+00:05:43,890 --> 00:05:45,780
+Which is choice D. After doing all that math,
+
+72
+00:05:46,740 --> 00:05:48,390
+I was afraid that I'd made a careless mistake.
+
+73
+00:05:48,390 --> 00:05:51,490
+But it's reassuring to see that 554 is one of the choices.
+
+74
+00:05:51,490 --> 00:06:00,170
+Problem 103. The water from one outlet flowing
+
+75
+00:06:00,170 --> 00:06:04,780
+at a constant rate can fill a swimming pool in 9 hours.
+
+76
+00:06:04,780 --> 00:06:10,810
+So you could say 1 pool per 9 hours from 1 outlet.
+
+77
+00:06:11,660 --> 00:06:14,460
+The water from a second outlet flowing at a constant rate
+
+78
+00:06:14,460 --> 00:06:16,130
+can fill the same pool in 5 hours.
+
+79
+00:06:16,130 --> 00:06:21,920
+So 1 pool in 5 hours,that's the second one.
+
+80
+00:06:21,920 --> 00:06:25,760
+If both outlets are used at the same time,approximately
+
+81
+00:06:25,760 --> 00:06:29,290
+what is the number of hours required to fill the pool?
+
+82
+00:06:29,290 --> 00:06:34,240
+So essentially,we can just add their two rates.
+
+83
+00:06:34,920 --> 00:06:42,040
+This one does 1/9 pool per hour,plus 1/5 pool per hour.
+
+84
+00:06:42,040 --> 00:06:45,560
+I just rewrote those two. So what's 1/9 plus 1/5?
+
+85
+00:06:45,560 --> 00:06:47,320
+Let's find a common denominator.
+
+86
+00:06:47,320 --> 00:06:51,020
+45 I think is the first common denominator.
+
+87
+00:06:51,020 --> 00:06:55,840
+1/9 is 5 over 45. 1/5 is 9 over 45.
+
+88
+00:06:55,840 --> 00:07:04,270
+So together,they fill 5 plus 9 is 14/45 pool per hour.
+
+89
+00:07:06,290 --> 00:07:10,020
+If you want to fill exactly 1 pool,
+
+90
+00:07:10,570 --> 00:07:14,050
+so it's just like production is equal to rate times time.
+
+91
+00:07:14,050 --> 00:07:16,570
+So now your production is,you want to fill 1 pool,
+
+92
+00:07:16,570 --> 00:07:21,930
+and you can fill it at 14 over 45 pools per hour,
+
+93
+00:07:23,800 --> 00:07:24,830
+what is the time?
+
+94
+00:07:24,830 --> 00:07:30,400
+Well the time is going to be equal to 1/1 pool divided by
+
+95
+00:07:30,400 --> 00:07:39,740
+14/45 pools per hour,which is equal to,45/14--
+
+96
+00:07:39,740 --> 00:07:42,590
+1 over a fraction is just the inverse of that fraction--
+
+97
+00:07:42,590 --> 00:07:50,170
+so 45/14 hours. How many times does 14 going into 45?
+
+98
+00:07:50,170 --> 00:07:59,350
+14 goes into 45,is it 3 times? 3 times 14 is 12,is 42.
+
+99
+00:07:59,350 --> 00:08:00,560
+Then you have another 30.
+
+100
+00:08:03,040 --> 00:08:05,580
+Well,I already see one of the choices,3 point something.
+
+101
+00:08:05,580 --> 00:08:10,410
+But 14 goes into 30 2 times. 2 times 14 is 28.
+
+102
+00:08:10,410 --> 00:08:13,500
+Let's see if one of our choices is already-- yes,
+
+103
+00:08:13,500 --> 00:08:15,220
+choice D is already close enough to what we did.
+
+104
+00:08:15,220 --> 00:08:18,330
+We don't have to do any more math. So we get 3.2 hours.
+
+105
+00:08:18,330 --> 00:08:22,310
+If we'd kept dividing,we'd get 3.21. That's choice D.
+
+106
+00:08:22,310 --> 00:08:24,390
+It's just a little confusing.
+
+107
+00:08:24,390 --> 00:08:27,030
+The important thing is to always get it in terms of rate.
+
+108
+00:08:27,030 --> 00:08:29,900
+Add the rate,and just remember distance is equal to
+
+109
+00:08:29,900 --> 00:08:32,370
+rate times time,or production is equal to rate times time.
+
+110
+00:08:32,370 --> 00:08:35,110
+Don't let all these fractions daunt you too much.
+
+111
+00:08:36,260 --> 00:08:41,550
+Next problem. I'm almost out of space. Problem 104.
+
+112
+00:08:42,580 --> 00:08:48,310
+Diana bought a stereo for $530,which was the retail price,
+
+113
+00:08:48,310 --> 00:08:54,070
+plus a 6% sales tax.So that is equal to 1.06 times the retail
+
+114
+00:08:54,070 --> 00:08:56,260
+6% percent more than the retail.
+
+115
+00:08:56,260 --> 00:08:59,470
+How much could she have saved if she had bought the stereo
+
+116
+00:08:59,470 --> 00:09:01,970
+at the same retail price in a neighboring state,
+
+117
+00:09:01,970 --> 00:09:06,320
+where she would have paid a sales tax of 5%?
+
+118
+00:09:08,130 --> 00:09:10,260
+So essentially we want to figure out
+
+119
+00:09:12,150 --> 00:09:13,980
+how much she would've saved.
+
+120
+00:09:14,910 --> 00:09:19,050
+So let's figure out what the retail price was.
+
+121
+00:09:19,050 --> 00:09:24,410
+So retail is equal to 530 divided by 1.06.
+
+122
+00:09:24,410 --> 00:09:32,440
+1.06 goes into 530,it's a decimal,add two 0's,
+
+123
+00:09:32,440 --> 00:09:34,990
+shift the decimal over to the right twice.
+
+124
+00:09:36,250 --> 00:09:44,620
+106 goes into it 5 times,right? 106 goes into 530 5 times.
+
+125
+00:09:45,590 --> 00:09:57,910
+5 times 106,it's 530. OK,so the math here was simple.
+
+126
+00:09:57,910 --> 00:10:01,750
+so you have two 0's. So the retail price is $500.
+
+127
+00:10:06,710 --> 00:10:10,230
+So she paid $30 in tax,fair enough.
+
+128
+00:10:10,230 --> 00:10:14,690
+If she went to the neighboring state and paid 5%,
+
+129
+00:10:14,690 --> 00:10:16,860
+how much would she have paid in taxes?
+
+130
+00:10:16,860 --> 00:10:24,440
+So times 0.05,5 times 5,well 5 times 500 is 2,500,
+
+131
+00:10:24,440 --> 00:10:26,920
+plus two decimals,so it's $25 in tax.
+
+132
+00:10:26,920 --> 00:10:30,100
+So in the neighboring state,she would've paid $25 in taxes.
+
+133
+00:10:30,100 --> 00:10:34,140
+She paid $30 in taxes. So she would have saved $5.
+
+134
+00:10:34,140 --> 00:10:37,370
+So the choice is D.
+
+135
+00:10:40,410 --> 00:10:43,340
+Let's just try to fit one more problem in here,
+
+136
+00:10:43,340 --> 00:10:44,590
+just so we finish this page.
+
+137
+00:10:46,450 --> 00:10:49,550
+They say,if a square mirror has a 20 inch diagonal,
+
+138
+00:10:49,550 --> 00:10:52,710
+what was the approximate perimeter of the mirror in inches?
+
+139
+00:10:52,710 --> 00:10:54,440
+Let's try to do that.
+
+140
+00:10:57,280 --> 00:10:58,160
+That's not what I want to do.
+
+141
+00:11:00,190 --> 00:11:03,630
+I have a square mirror,it has a diagonal.
+
+142
+00:11:07,750 --> 00:11:10,730
+That diagonal,they're telling us,is 20 inches.
+
+143
+00:11:10,730 --> 00:11:13,500
+It's a square,so all the sides are the same.
+
+144
+00:11:15,230 --> 00:11:16,510
+They want to know its perimeter.
+
+145
+00:11:16,510 --> 00:11:18,910
+So they want to know essentially what 4x is equal to
+
+146
+00:11:18,910 --> 00:11:22,390
+if we add up all the sides. So what is x?
+
+147
+00:11:22,390 --> 00:11:25,600
+Well we just use Pythagorean theorem. This is a right angle.
+
+148
+00:11:25,600 --> 00:11:30,840
+So we know that x squared plus x squared is equal to
+
+149
+00:11:30,840 --> 00:11:34,390
+20 squared,is equal to the hypotenuse squared,is equal to 400
+
+150
+00:11:34,390 --> 00:11:40,030
+2x squared is equal to 400. x squared is equal to 200.
+
+151
+00:11:41,090 --> 00:11:45,070
+x is equal to the square root of 200.
+
+152
+00:11:45,070 --> 00:11:46,730
+They want to know the perimeter.
+
+153
+00:11:46,730 --> 00:11:48,160
+Well,it's going to be 4 times that.
+
+154
+00:11:48,160 --> 00:11:51,130
+So the perimeter is going to be equal to 4 times
+
+155
+00:11:51,130 --> 00:11:54,190
+the square root of 200.
+
+156
+00:11:54,190 --> 00:11:57,060
+Now this becomes an approximation problem.
+
+157
+00:11:57,060 --> 00:11:58,260
+So let's think about that.
+
+158
+00:11:58,260 --> 00:12:08,370
+The square root of 200 is about 15. 15 times 15 is 225.
+
+159
+00:12:09,890 --> 00:12:12,860
+Yeah,I think 15 would be a pretty good approximation.
+
+160
+00:12:12,860 --> 00:12:17,650
+14 would also work. 14,when you square it,is 196.
+
+161
+00:12:17,650 --> 00:12:27,000
+14 times 14,4 times 14 is 56. Then you have 140.
+
+162
+00:12:27,000 --> 00:12:30,380
+So 14 is about as close as you're going to get to 200.
+
+163
+00:12:31,030 --> 00:12:32,920
+It's going to be someplace between 14 and 15.
+
+164
+00:12:33,720 --> 00:12:43,610
+So 14 times 4 is 40. So 4 times 4 is 16,it's 56.
+
+165
+00:12:43,610 --> 00:12:46,270
+So it's going to be something higher than 56.
+
+166
+00:12:46,270 --> 00:12:49,900
+If we pick 14,it's 56. If we pick 15,it's 60.
+
+167
+00:12:49,900 --> 00:12:52,950
+So someplace between 56 and 60 is going to be the perimeter
+
+168
+00:12:52,950 --> 00:12:55,970
+of that mirror. So it's one of the choices B,60.
+
+169
+00:12:55,970 --> 00:12:59,020
+So that's going to be the closest one. So I'd go with B.
+
+170
+00:12:59,020 --> 00:13:01,060
+I'll see you in the next video.

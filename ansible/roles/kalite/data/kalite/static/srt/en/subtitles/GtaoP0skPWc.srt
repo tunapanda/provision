@@ -1,0 +1,819 @@
+1
+00:00:00,000 --> 00:00:00,650
+   
+
+2
+00:00:00,650 --> 00:00:04,500
+Well now you've learned what I
+think is quite possibly one of
+
+3
+00:00:04,500 --> 00:00:07,010
+the most useful concepts in
+life, and you might already be
+
+4
+00:00:07,010 --> 00:00:11,920
+familiar with it, but if you're
+not this will hopefully keep
+
+5
+00:00:11,920 --> 00:00:16,330
+you from one day filing
+for bankruptcy.
+
+6
+00:00:16,330 --> 00:00:20,830
+So anyway, I will talk about
+interest, and then simple
+
+7
+00:00:20,830 --> 00:00:21,865
+versus compound interest.
+
+8
+00:00:21,865 --> 00:00:23,770
+So what's interest?
+
+9
+00:00:23,770 --> 00:00:24,840
+We all have heard of it.
+
+10
+00:00:24,840 --> 00:00:29,030
+Interest rates, or interest
+on your mortgage, or how
+
+11
+00:00:29,030 --> 00:00:31,240
+much interest do I owe
+on my credit card.
+
+12
+00:00:31,240 --> 00:00:34,140
+So interest-- I don't know what
+the actual formal definition,
+
+13
+00:00:34,140 --> 00:00:35,610
+maybe I should look it up
+on Wikipedia-- but it's
+
+14
+00:00:35,610 --> 00:00:37,850
+essentially rent on money.
+
+15
+00:00:37,850 --> 00:00:41,350
+So it's money that you pay
+in order to keep money
+
+16
+00:00:41,350 --> 00:00:42,520
+for some period of time.
+
+17
+00:00:42,520 --> 00:00:45,420
+That's probably not the most
+obvious definition, but
+
+18
+00:00:45,420 --> 00:00:46,920
+let me put it this way.
+
+19
+00:00:46,920 --> 00:00:52,640
+Let's say that I want to
+borrow $100 from you.
+
+20
+00:00:52,640 --> 00:00:54,760
+So this is now.
+
+21
+00:00:54,760 --> 00:00:59,120
+And let's say that this
+is one year from now.
+
+22
+00:00:59,120 --> 00:01:00,080
+One year.
+
+23
+00:01:00,080 --> 00:01:04,830
+And this is you,
+and this is me.
+
+24
+00:01:04,830 --> 00:01:07,580
+So now you give me $100.
+
+25
+00:01:07,580 --> 00:01:09,915
+And then I have the $100
+and a year goes by,
+
+26
+00:01:09,915 --> 00:01:12,570
+and I have $100 here.
+
+27
+00:01:12,570 --> 00:01:15,980
+And if I were to just give you
+that $100 back, you would
+
+28
+00:01:15,980 --> 00:01:17,510
+have collected no rent.
+
+29
+00:01:17,510 --> 00:01:19,470
+You would have just
+got your money back.
+
+30
+00:01:19,470 --> 00:01:20,880
+You would have
+collected no interest.
+
+31
+00:01:20,880 --> 00:01:24,470
+But if you said, Sal I'm
+willing to give you $100 now if
+
+32
+00:01:24,470 --> 00:01:30,860
+you give me $110 a year later.
+
+33
+00:01:30,860 --> 00:01:34,620
+So in this situation, how
+much did I pay you to keep
+
+34
+00:01:34,620 --> 00:01:36,620
+that $100 for a year?
+
+35
+00:01:36,620 --> 00:01:38,200
+Well I'm paying you
+$10 more, right?
+
+36
+00:01:38,200 --> 00:01:45,610
+I'm returning the $100, and
+I'm returning another $10.
+
+37
+00:01:45,610 --> 00:01:51,510
+And so this extra $10 that I'm
+returning to you is essentially
+
+38
+00:01:51,510 --> 00:01:54,570
+the fee that I paid to be able
+to keep that money and do
+
+39
+00:01:54,570 --> 00:01:56,790
+whatever I wanted with that
+money, and maybe save
+
+40
+00:01:56,790 --> 00:01:59,630
+it, maybe invest it, do
+whatever for a year.
+
+41
+00:01:59,630 --> 00:02:02,200
+And that $10 is
+essentially the interest.
+
+42
+00:02:02,200 --> 00:02:05,530
+And a way that it's often
+calculated is a percentage
+
+43
+00:02:05,530 --> 00:02:07,850
+of the original amount
+that I borrowed.
+
+44
+00:02:07,850 --> 00:02:11,140
+And the original amount that I
+borrowed in fancy banker or
+
+45
+00:02:11,140 --> 00:02:12,980
+finance terminology is
+just called principal.
+
+46
+00:02:12,980 --> 00:02:19,200
+   
+
+47
+00:02:19,200 --> 00:02:23,630
+So in this case the rent on the
+money or the interest was $10.
+
+48
+00:02:23,630 --> 00:02:27,920
+And if I wanted to do it as a
+percentage, I would say 10 over
+
+49
+00:02:27,920 --> 00:02:34,240
+the principal-- over 100--
+which is equal to 10%.
+
+50
+00:02:34,240 --> 00:02:39,480
+So you might have said, hey Sal
+I'm willing to lend you $100 if
+
+51
+00:02:39,480 --> 00:02:41,420
+you pay me 10% interest on it.
+
+52
+00:02:41,420 --> 00:02:44,770
+So 10% of $100 was $10, so
+after a year I pay you
+
+53
+00:02:44,770 --> 00:02:46,810
+$100, plus the 10%.
+
+54
+00:02:46,810 --> 00:02:47,560
+And likewise.
+
+55
+00:02:47,560 --> 00:02:51,220
+So for any amount of money, say
+you're willing to lend me any
+
+56
+00:02:51,220 --> 00:02:53,540
+amount of money for
+a 10% interest.
+
+57
+00:02:53,540 --> 00:02:58,680
+Well then if you were to lend
+me $1,000, then the interest
+
+58
+00:02:58,680 --> 00:03:00,950
+would be 10% of that,
+which would be $100.
+
+59
+00:03:00,950 --> 00:03:11,020
+So then after a year I would
+owe you $1,000 plus 10% times
+
+60
+00:03:11,020 --> 00:03:14,555
+$1,000, and that's
+equal to $1,100.
+
+61
+00:03:14,555 --> 00:03:17,780
+All right, I just added
+a zero to everything.
+
+62
+00:03:17,780 --> 00:03:20,090
+In this case $100 would
+be the interest, but
+
+63
+00:03:20,090 --> 00:03:22,130
+it would still be 10%.
+
+64
+00:03:22,130 --> 00:03:25,170
+So let me now make a
+distinction between simple
+
+65
+00:03:25,170 --> 00:03:27,000
+interest and compound interest.
+
+66
+00:03:27,000 --> 00:03:30,430
+   
+
+67
+00:03:30,430 --> 00:03:33,220
+So we just did a fairly simple
+example where you lent money
+
+68
+00:03:33,220 --> 00:03:36,540
+for me for a year at
+10% percent, right?
+
+69
+00:03:36,540 --> 00:03:42,280
+So let's say that someone were
+to say that my interest rate
+
+70
+00:03:42,280 --> 00:03:43,930
+that they charge-- or the
+interest rate they charge to
+
+71
+00:03:43,930 --> 00:03:51,000
+other people-- is-- well 10% is
+a good number-- 10% per year.
+
+72
+00:03:51,000 --> 00:03:55,700
+And let's say the principal
+that I'm going to borrow
+
+73
+00:03:55,700 --> 00:04:01,900
+from this person is $100.
+
+74
+00:04:01,900 --> 00:04:03,980
+So my question to you-- and
+maybe you want to pause it
+
+75
+00:04:03,980 --> 00:04:18,570
+after I pose it-- is how
+much do I owe in 10 years?
+
+76
+00:04:18,570 --> 00:04:21,140
+How much do I owe in 10 years?
+
+77
+00:04:21,140 --> 00:04:23,080
+So there's really two ways
+of thinking about it.
+
+78
+00:04:23,080 --> 00:04:30,350
+You could say, OK in years at
+times zero-- like if I just
+
+79
+00:04:30,350 --> 00:04:32,430
+borrowed the money, I just
+paid it back immediately,
+
+80
+00:04:32,430 --> 00:04:33,730
+it'd be $100, right?
+
+81
+00:04:33,730 --> 00:04:35,210
+I'm not going to do that,
+I'm going to keep it
+
+82
+00:04:35,210 --> 00:04:36,570
+for at least a year.
+
+83
+00:04:36,570 --> 00:04:40,270
+So after a year, just based on
+the example that we just did, I
+
+84
+00:04:40,270 --> 00:04:48,870
+could add 10% of that amount to
+the $100, and I would
+
+85
+00:04:48,870 --> 00:04:51,050
+then owe $110.
+
+86
+00:04:51,050 --> 00:04:55,420
+And then after two years, I
+could add another 10% of the
+
+87
+00:04:55,420 --> 00:04:57,800
+original principal, right?
+
+88
+00:04:57,800 --> 00:04:59,610
+So every year I'm
+just adding $10.
+
+89
+00:04:59,610 --> 00:05:03,775
+So in this case it would be
+$120, and in year three,
+
+90
+00:05:03,775 --> 00:05:05,310
+I would owe $130.
+
+91
+00:05:05,310 --> 00:05:09,770
+Essentially my rent per year to
+borrow this $100 is $10, right?
+
+92
+00:05:09,770 --> 00:05:12,580
+Because I'm always taking
+10% of the original amount.
+
+93
+00:05:12,580 --> 00:05:17,090
+And after 10 years-- because
+each year I would have had to
+
+94
+00:05:17,090 --> 00:05:20,120
+pay an extra $10 in interest--
+after 10 years I
+
+95
+00:05:20,120 --> 00:05:22,630
+would owe $200.
+
+96
+00:05:22,630 --> 00:05:23,200
+Right?
+
+97
+00:05:23,200 --> 00:05:33,520
+And that $200 is equal to $100
+of principal, plus $100 of
+
+98
+00:05:33,520 --> 00:05:36,580
+interest, because I paid
+$10 a year of interest.
+
+99
+00:05:36,580 --> 00:05:39,260
+And this notion which I just
+did here, this is actually
+
+100
+00:05:39,260 --> 00:05:43,020
+called simple interest.
+
+101
+00:05:43,020 --> 00:05:45,260
+Which is essentially you take
+the original amount you
+
+102
+00:05:45,260 --> 00:05:48,840
+borrowed, the interest rate,
+the amount, the fee that you
+
+103
+00:05:48,840 --> 00:05:51,140
+pay every year is the interest
+rate times that original
+
+104
+00:05:51,140 --> 00:05:53,090
+amount, and you just
+incrementally pay
+
+105
+00:05:53,090 --> 00:05:54,380
+that every year.
+
+106
+00:05:54,380 --> 00:05:55,980
+But if you think about it,
+you're actually paying a
+
+107
+00:05:55,980 --> 00:05:58,390
+smaller and smaller percentage
+of what you owe going
+
+108
+00:05:58,390 --> 00:05:59,170
+into that year.
+
+109
+00:05:59,170 --> 00:06:00,950
+And maybe when I show
+you compound interest
+
+110
+00:06:00,950 --> 00:06:01,690
+that will make sense.
+
+111
+00:06:01,690 --> 00:06:05,530
+So this is one way to interpret
+10% interest a year.
+
+112
+00:06:05,530 --> 00:06:10,960
+Another way to interpret it is,
+OK, so in year zero it's $100
+
+113
+00:06:10,960 --> 00:06:13,840
+that you're borrowing, or if
+they handed the money, you say
+
+114
+00:06:13,840 --> 00:06:15,230
+oh no, no, I don't want it and
+you just paid it back,
+
+115
+00:06:15,230 --> 00:06:16,550
+you'd owe $100.
+
+116
+00:06:16,550 --> 00:06:21,630
+After a year, you would
+essentially pay the
+
+117
+00:06:21,630 --> 00:06:27,450
+$100 plus 10% of $100,
+right, which is $110.
+
+118
+00:06:27,450 --> 00:06:32,830
+So that's $100,
+plus 10% of $100.
+
+119
+00:06:32,830 --> 00:06:35,180
+Let me switch colors,
+because it's monotonous.
+
+120
+00:06:35,180 --> 00:06:36,970
+Right, but I think this
+make sense to you.
+
+121
+00:06:36,970 --> 00:06:39,030
+And this is where simple
+and compound interest
+
+122
+00:06:39,030 --> 00:06:40,220
+starts to diverge.
+
+123
+00:06:40,220 --> 00:06:42,930
+In the last situation we
+just kept adding 10%
+
+124
+00:06:42,930 --> 00:06:44,480
+of the original $100.
+
+125
+00:06:44,480 --> 00:06:49,310
+In compound interest now,
+we don't take 10% of
+
+126
+00:06:49,310 --> 00:06:50,310
+the original amount.
+
+127
+00:06:50,310 --> 00:06:52,310
+We now take 10% of this amount.
+
+128
+00:06:52,310 --> 00:06:56,340
+   
+
+129
+00:06:56,340 --> 00:07:02,440
+So now we're going
+to take $110.
+
+130
+00:07:02,440 --> 00:07:05,470
+You can almost view it
+as our new principal.
+
+131
+00:07:05,470 --> 00:07:06,840
+This is how much we offer
+a year, and then we
+
+132
+00:07:06,840 --> 00:07:09,110
+would reborrow it.
+
+133
+00:07:09,110 --> 00:07:19,810
+So now we're going to owe
+$110 plus 10% times 110.
+
+134
+00:07:19,810 --> 00:07:23,220
+You could actually undistribute
+the 110 out, and that's
+
+135
+00:07:23,220 --> 00:07:32,950
+equal to 110 times 110.
+
+136
+00:07:32,950 --> 00:07:34,440
+Actually 110 times 1.1.
+
+137
+00:07:34,440 --> 00:07:39,730
+   
+
+138
+00:07:39,730 --> 00:07:41,280
+And actually I could
+rewrite it this way too.
+
+139
+00:07:41,280 --> 00:07:45,850
+I could rewrite it as
+100 times 1.1 squared,
+
+140
+00:07:45,850 --> 00:07:49,920
+and that equals $121.
+
+141
+00:07:49,920 --> 00:07:52,790
+And then in year two, this is
+my new principal-- this is
+
+142
+00:07:52,790 --> 00:07:55,110
+$121-- this is my
+new principal.
+
+143
+00:07:55,110 --> 00:07:57,990
+And now I have to in year
+three-- so this is year two.
+
+144
+00:07:57,990 --> 00:08:01,710
+I'm taking more space,
+so this is year two.
+
+145
+00:08:01,710 --> 00:08:06,450
+And now in year three, I'm
+going to have to pay the $121
+
+146
+00:08:06,450 --> 00:08:14,820
+that I owed at the end of year
+two, plus 10% times the amount
+
+147
+00:08:14,820 --> 00:08:20,450
+of money I owed going
+into the year, $121.
+
+148
+00:08:20,450 --> 00:08:22,950
+And so that's the same thing--
+we could put parentheses around
+
+149
+00:08:22,950 --> 00:08:29,270
+here-- so that's the same thing
+as 1 times 121 plus 0.1 times
+
+150
+00:08:29,270 --> 00:08:35,650
+121, so that's the same
+thing as 1.1 times 121.
+
+151
+00:08:35,650 --> 00:08:38,800
+Or another way of viewing it,
+that's equal to our original
+
+152
+00:08:38,800 --> 00:08:44,180
+principal times 1.1
+to the third power.
+
+153
+00:08:44,180 --> 00:08:46,060
+And if you keep doing this--
+and I encourage you do it,
+
+154
+00:08:46,060 --> 00:08:48,660
+because it'll really give you a
+hands-on sense-- at the end of
+
+155
+00:08:48,660 --> 00:08:52,030
+10 years, we will owe-- or you,
+I forgot who's borrowing from
+
+156
+00:08:52,030 --> 00:08:57,962
+whom-- $100 times 1.1
+to the 10th power.
+
+157
+00:08:57,962 --> 00:08:59,050
+And what does that equal?
+
+158
+00:08:59,050 --> 00:09:01,320
+Let me get my spreadsheet out.
+
+159
+00:09:01,320 --> 00:09:02,690
+Let me just pick a random cell.
+
+160
+00:09:02,690 --> 00:09:10,980
+So plus 100 times 1.1
+to the 10th power.
+
+161
+00:09:10,980 --> 00:09:14,160
+So $259 and some change.
+
+162
+00:09:14,160 --> 00:09:19,890
+   
+
+163
+00:09:19,890 --> 00:09:22,730
+So it might seem like a very
+subtle distinction, but it ends
+
+164
+00:09:22,730 --> 00:09:24,580
+up being a very big difference.
+
+165
+00:09:24,580 --> 00:09:30,610
+When I compounded it 10% for
+10 years using compound
+
+166
+00:09:30,610 --> 00:09:33,100
+interest, I owe $259.
+
+167
+00:09:33,100 --> 00:09:37,290
+When I did it using simple
+interest, I only owe $200.
+
+168
+00:09:37,290 --> 00:09:40,770
+So that $59 was kind of the
+increment of how much more
+
+169
+00:09:40,770 --> 00:09:43,360
+compound interest cost me.
+
+170
+00:09:43,360 --> 00:09:45,610
+I'm about to run out of time,
+so I'll do a couple more
+
+171
+00:09:45,610 --> 00:09:47,560
+examples in the next video,
+just you really get a deep
+
+172
+00:09:47,560 --> 00:09:50,460
+understanding of how to do
+compound interest, how the
+
+173
+00:09:50,460 --> 00:09:53,680
+exponents work, and what
+really is the difference.
+
+174
+00:09:53,680 --> 00:09:54,060
+I'll see you in the next video.
+
+175
+00:09:54,060 --> 00:09:55,530
+

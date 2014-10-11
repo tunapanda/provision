@@ -1,0 +1,235 @@
+1
+00:00:01,467 --> 00:00:03,600
+in the last video we proved that
+
+2
+00:00:03,600 --> 00:00:07,133
+the sum of all of the positive integers, up to and including n
+
+3
+00:00:07,133 --> 00:00:12,067
+can be expressed as n(n+1)/2
+
+4
+00:00:12,067 --> 00:00:14,944
+and we proved that by induction
+
+5
+00:00:14,944 --> 00:00:17,800
+what I want to do in this video is show you that there is actually a simpler proof of that
+
+6
+00:00:17,800 --> 00:00:19,667
+but it's not by induction
+
+7
+00:00:19,667 --> 00:00:22,867
+so it wouldn't be included in that video, but I'll show you that it exists.
+
+8
+00:00:22,867 --> 00:00:25,467
+just so that you know that induction isn't the only way to prove it
+
+9
+00:00:25,467 --> 00:00:27,800
+so we defined that fuction s(n)
+
+10
+00:00:27,800 --> 00:00:35,067
+as the sum of all of the positive integers up to n including n
+
+11
+00:00:35,067 --> 00:00:37,467
+so this is equal to by definition
+
+12
+00:00:37,467 --> 00:00:45,467
+1+ 2+ 3 all the way to + (n-1) + n
+
+13
+00:00:45,467 --> 00:00:48,200
+so it's all the integers up to and including n
+
+14
+00:00:48,200 --> 00:00:50,067
+this is how we're defining it
+
+15
+00:00:50,067 --> 00:00:52,000
+well we can re-write it again
+
+16
+00:00:53,508 --> 00:00:56,485
+we can say that the sum S(n); we can write the same thing
+
+17
+00:00:56,485 --> 00:00:58,000
+but we can write it differently order
+
+18
+00:00:58,000 --> 00:01:05,000
+we can say that this is the same thing as n +( n -1 )+( n - 2 )
+
+19
+00:01:05,000 --> 00:01:11,200
+plus all the way down to + 2 + 1
+
+20
+00:01:11,200 --> 00:01:13,000
+well what does this do for us
+
+21
+00:01:13,000 --> 00:01:15,333
+we can actually add these two rows
+
+22
+00:01:15,333 --> 00:01:21,533
+if we add S(n) + S(n) we're going to get 2 times the sum
+
+23
+00:01:21,533 --> 00:01:23,467
+so we're just adding on the left
+
+24
+00:01:23,467 --> 00:01:25,800
+and then we can add on the right
+
+25
+00:01:25,800 --> 00:01:27,867
+so we're really just doing this sum twice
+
+26
+00:01:27,867 --> 00:01:30,067
+and what's interesting is how we're going to add it
+
+27
+00:01:30,067 --> 00:01:33,667
+we're going to add this term to this term; this term to this term
+
+28
+00:01:33,667 --> 00:01:35,782
+we're just trying to add these two things
+
+29
+00:01:35,782 --> 00:01:37,333
+we can pick any way we want to add them
+
+30
+00:01:37,333 --> 00:01:44,267
+(1 + n) is going to be( n + 1)
+
+31
+00:01:44,267 --> 00:01:49,800
+and then we're going to add 2 +( n - 1)
+
+32
+00:01:49,800 --> 00:01:52,200
+so what's that?
+
+33
+00:01:52,200 --> 00:01:54,200
+Let me write that over here
+
+34
+00:01:54,200 --> 00:01:56,133
+2 +( n - 1)
+
+35
+00:01:56,133 --> 00:01:58,067
+is the same things as 2 + n - 1,
+
+36
+00:01:58,067 --> 00:02:00,400
+which is the same thing as n + 1
+
+37
+00:02:00,400 --> 00:02:05,400
+so this is also going to be n+1
+
+38
+00:02:05,400 --> 00:02:10,267
+and this term over here, 3 + n - 2
+
+39
+00:02:10,267 --> 00:02:13,133
+or n - 2 +3
+
+40
+00:02:13,133 --> 00:02:15,733
+that again is going to be n +1
+
+41
+00:02:15,733 --> 00:02:19,200
+and you're going to do that for every term until you get over here
+
+42
+00:02:19,200 --> 00:02:26,267
+n -1 +2; that's also going to be n+1
+
+43
+00:02:26,267 --> 00:02:32,985
+and then finally you have n+1 right over here
+
+44
+00:02:32,985 --> 00:02:36,179
+so what's this whole sum going to be
+
+45
+00:02:36,195 --> 00:02:39,056
+well how many of these n + 1's do we have?
+
+46
+00:02:39,056 --> 00:02:40,892
+well we have n of them
+
+47
+00:02:40,892 --> 00:02:43,179
+for every term in each of these sums
+
+48
+00:02:43,195 --> 00:02:46,995
+So there's 1, 2,3 count all of the way to n
+
+49
+00:02:47,056 --> 00:02:51,748
+So you have n of these n+1's
+
+50
+00:02:51,856 --> 00:02:54,467
+so if you add something to its self n times
+
+51
+00:02:55,482 --> 00:02:58,385
+So you really have, this is exactly equivalent to
+
+52
+00:02:58,385 --> 00:03:02,067
+n times (n+1)
+
+53
+00:03:02,067 --> 00:03:07,800
+so two times the sum of all of the positive integers
+
+54
+00:03:07,800 --> 00:03:11,800
+up to an including in is going to be equal to n(n+1)
+
+55
+00:03:11,800 --> 00:03:17,667
+so if you divide both sides by 2 we get an expression for the sum
+
+56
+00:03:17,667 --> 00:03:21,733
+so the sum of the integers is going to be equal to
+
+57
+00:03:21,733 --> 00:03:26,067
+n(n+1) over 2
+
+58
+00:03:26,067 --> 00:03:29,733
+so here's a proof where we didn't have to use induction
+
+59
+00:03:29,733 --> 99:59:59,999
+it's really a pure algebraic proof

@@ -1,0 +1,556 @@
+1
+00:00:00,238 --> 00:00:05,610
+We have the question: Devon is going to make 3 shelves for her father.
+
+2
+00:00:05,610 --> 00:00:09,424
+She has a piece of lumber that is 12 feet long.
+
+3
+00:00:09,424 --> 00:00:13,841
+She wants the top shelf to be half a foot shorter than the middle shelf.middle shelf.
+
+4
+00:00:13,841 --> 00:00:15,669
+So let me do this in different colors.
+
+5
+00:00:15,669 --> 00:00:23,343
+She wants the top shelf to be half a foot shorter than the middle shelf,
+
+6
+00:00:23,343 --> 00:00:25,707
+let's just read the whole thing first,
+
+7
+00:00:25,707 --> 00:00:31,152
+and the bottom shelf to be half a foot
+shorter than twice the length of the top shelf.
+
+8
+00:00:31,152 --> 00:00:34,326
+Let me do that in a different color. I'll do that in blue.
+
+9
+00:00:34,326 --> 00:00:43,111
+(Sal repeats) The bottom shelf to be half a foot shorter than twice the length of the top shelf.
+
+10
+00:00:43,111 --> 00:00:49,442
+How long will each shelf be if she uses the entire 12 feet of wood?
+
+11
+00:00:49,442 --> 00:00:52,504
+So let's define some variables
+for our different shelves,
+
+12
+00:00:52,504 --> 00:00:54,235
+because that's what we
+have to figure out.
+
+13
+00:00:54,235 --> 00:00:56,827
+We have the top shelf,
+the middle shelf, and the bottom shelf.
+
+14
+00:00:56,827 --> 00:01:08,169
+So let's say that t is equal to
+length of top shelf-- t for top-- of top shelf.
+
+15
+00:01:08,169 --> 00:01:17,476
+Let's make m equal the length
+of the middle shelf.
+
+16
+00:01:17,476 --> 00:01:21,741
+m for middle.
+
+17
+00:01:21,741 --> 00:01:29,991
+And then let's make b equal to
+the length of the bottom shelf
+
+18
+00:01:29,991 --> 00:01:33,175
+b for bottom. Bottom shelf.
+
+19
+00:01:33,175 --> 00:01:36,773
+So let's see what these
+different statements tell us.
+
+20
+00:01:36,773 --> 00:01:39,045
+So this first statement, she
+says she wants the top shelf--
+
+21
+00:01:39,045 --> 00:01:40,826
+and I'll do it in that same
+color--
+
+22
+00:01:40,826 --> 00:01:44,245
+she wants the top shelf to be 1/2 a foot shorter
+than the middle shelf.
+
+23
+00:01:44,245 --> 00:01:49,430
+So she wants the length of the
+top shelf to be--
+
+24
+00:01:49,430 --> 00:01:57,239
+so this is equal to 1/2 a foot shorter
+than the middle shelf.
+
+25
+00:01:57,239 --> 00:01:59,300
+So, if we're doing everything in
+feet,
+
+26
+00:01:59,300 --> 00:02:05,246
+it's going to be the length of the middle
+shelf in feet minus 1/2, minus 1/2 feet.
+
+27
+00:02:05,246 --> 00:02:08,414
+So that's what that sentence
+in orange is telling us.
+
+28
+00:02:08,414 --> 00:02:13,107
+The top shelf needs to be 1/2 a
+foot shorter than the length of the middle shelf.
+
+29
+00:02:13,107 --> 00:02:16,123
+Now, what does the next
+statement tell us?
+
+30
+00:02:16,123 --> 00:02:18,109
+And the bottom shelf to be--
+
+31
+00:02:18,109 --> 00:02:21,878
+so the bottom shelf needs to be equal to 1/2 a foot shorter than--
+
+32
+00:02:21,878 --> 00:02:30,095
+so it's 1/2 a foot shorter than twice the length
+of the top shelf.
+
+33
+00:02:30,095 --> 00:02:34,563
+So it's 1/2 a foot shorter
+than twice the length of the top shelf.
+
+34
+00:02:34,563 --> 00:02:40,073
+These are the two statements
+interpreted in equal equation form.
+
+35
+00:02:40,073 --> 00:02:46,706
+The top shelf's length has to be
+equal to the middle shelf's length minus 1/2.
+
+36
+00:02:46,706 --> 00:02:48,206
+It's 1/2 foot shorter than
+the middle shelf.
+
+37
+00:02:48,206 --> 00:02:53,377
+And the bottom shelf needs to
+be 1/2 a foot shorter than twice the length of
+the top shelf.
+
+38
+00:02:53,377 --> 00:02:55,539
+And so how do we solve this?
+
+39
+00:02:55,539 --> 00:02:57,904
+Well, you can't just solve
+it just with these two constraints,
+
+40
+00:02:57,904 --> 00:03:01,263
+but they gave us more information.
+
+41
+00:03:01,263 --> 00:03:07,358
+They tell us how long will each
+shelf be if she uses the entire 12 feet of wood?
+
+42
+00:03:07,358 --> 00:03:11,078
+So the length of all of
+the shelves have to add up to 12 feet.
+
+43
+00:03:11,078 --> 00:03:12,867
+She's using all of it.
+
+44
+00:03:12,867 --> 00:03:20,552
+So t plus m, plus b needs
+to be equal to 12 feet.
+
+45
+00:03:20,552 --> 00:03:22,947
+That's the length
+of each of them.
+
+46
+00:03:22,947 --> 00:03:25,067
+She's using all 12
+feet of the wood.
+
+47
+00:03:25,067 --> 00:03:27,847
+So the lengths have
+to add to 12.
+
+48
+00:03:27,847 --> 00:03:29,881
+So what can we do here?
+
+49
+00:03:29,881 --> 00:03:32,702
+Well, we can get everything here
+in terms of one variable,
+
+50
+00:03:32,702 --> 00:03:35,404
+maybe we'll do it in terms of
+m, and then substitute.
+
+51
+00:03:35,404 --> 00:03:37,932
+So we already have
+t in terms of m.
+
+52
+00:03:37,932 --> 00:03:45,700
+We could, everywhere we see
+a t, we could substitute
+
+53
+00:03:45,700 --> 00:03:46,165
+with m minus 1/2.
+
+54
+00:03:46,165 --> 00:03:47,749
+But here we have b
+in terms of t.
+
+55
+00:03:47,749 --> 00:03:50,083
+So how can we put this
+in terms of m?
+
+56
+00:03:50,083 --> 00:03:53,022
+Well, we know that t is
+equal to m minus 1/2.
+
+57
+00:03:53,022 --> 00:03:57,234
+So let's take, everywhere we see
+a "t", let's substitute it with this thing right here.
+
+58
+00:03:57,234 --> 00:04:00,337
+That is what t is equal to.
+
+59
+00:04:00,337 --> 00:04:03,172
+So we can rewrite this blue
+equation as, the length of the
+
+60
+00:04:03,172 --> 00:04:07,683
+bottom shelf is 2 times the
+length of the top shelf, t,
+
+61
+00:04:07,683 --> 00:04:16,013
+but we know that t is equal
+to m minus 1/2.
+
+62
+00:04:16,013 --> 00:04:18,699
+And if we wanted to simplify
+that a little bit,
+
+63
+00:04:18,699 --> 00:04:23,230
+this would be that the bottom shelf is
+equal to--
+
+64
+00:04:23,230 --> 00:04:26,831
+let's distribute the 2-- 2 times m is 2m.
+
+65
+00:04:26,831 --> 00:04:30,554
+2 times negative 1/2 is negative 1.
+
+66
+00:04:30,554 --> 00:04:32,790
+And then minus another 1/2.
+
+67
+00:04:32,790 --> 00:04:34,935
+Or, we could rewrite this as"
+
+68
+00:04:34,935 --> 00:04:40,331
+b is equal to 2 times the middle shelf minus 3/2.
+
+69
+00:04:40,331 --> 00:04:41,784
+Right?
+
+70
+00:04:41,784 --> 00:04:46,956
+1/2 is 2/2 minus another
+1/2 is negative 3/2, just like that.
+
+71
+00:04:46,956 --> 00:04:51,215
+So now we have everything in
+terms of m, and we can substitute back here.
+
+72
+00:04:51,215 --> 00:04:56,717
+So the top shelf-- instead of
+putting a t there, we could put m minus 1/2.
+
+73
+00:04:56,717 --> 00:05:03,737
+So we put m minus 1/2, plus
+the length of the middle shelf,
+
+74
+00:05:03,737 --> 00:05:05,990
+plus the length of the bottom shelf.
+
+75
+00:05:05,990 --> 00:05:10,900
+Well, we already put
+that in terms of m.
+
+76
+00:05:10,900 --> 00:05:12,262
+That's what we just did.
+
+77
+00:05:12,262 --> 00:05:14,422
+This is the length of the bottom
+shelf in terms of m.
+
+78
+00:05:14,422 --> 00:05:18,287
+So instead of writing b there,
+we could write 2m minus 3/2.
+
+79
+00:05:18,287 --> 00:05:23,017
+Plus 2m minus 3/2, and
+that is equal to 12.
+
+80
+00:05:23,017 --> 00:05:27,787
+All we did is substitute
+for t.
+
+81
+00:05:27,787 --> 00:05:31,384
+We wrote t in terms of m, and
+we wrote b in terms of m.
+
+82
+00:05:31,384 --> 00:05:35,612
+Now let's combine the m terms
+and the constant terms.
+
+83
+00:05:35,612 --> 00:05:39,253
+So if we have one m here, we
+have another m there,
+
+84
+00:05:39,253 --> 00:05:40,710
+and then we have a 2m there.
+
+85
+00:05:40,710 --> 00:05:42,319
+They're all positive.
+
+86
+00:05:42,319 --> 00:05:44,955
+So 1 plus 1, plus 2 is 4m.
+
+87
+00:05:45,002 --> 00:05:46,734
+So we have 4m.
+
+88
+00:05:46,734 --> 00:05:49,462
+And then what do our constant
+terms tell us?
+
+89
+00:05:49,462 --> 00:05:54,924
+We have a negative 1/2, and then
+we have a negative 3/2.
+
+90
+00:05:54,924 --> 00:06:00,610
+So negative 1/2 minus 3/2,
+that is negative 4/2 or negative 2.
+
+91
+00:06:00,610 --> 00:06:02,862
+So we have 4m minus 2.
+
+92
+00:06:02,862 --> 00:06:06,712
+And, of course, we still
+have that equals 12.
+
+93
+00:06:06,712 --> 00:06:10,080
+Now, we want to isolate just the
+m variable on one side of the equation.
+
+94
+00:06:10,080 --> 00:06:14,691
+So let's add 2 to both sides
+to get rid of this 2 on the left-hand side.
+
+95
+00:06:14,691 --> 00:06:18,789
+So if we add 2 to both sides
+of this equation, the
+
+96
+00:06:18,789 --> 00:06:29,556
+left-hand side, we're just
+left with 4m-- these guys cancel out-- is equal to 14.
+
+97
+00:06:29,556 --> 00:06:36,697
+Now, divide both sides by 4, we
+get m is equal to 14 over
+
+98
+00:06:36,697 --> 00:06:42,952
+4, or we could call that 7/2
+feet, because we're doing everything in feet.
+
+99
+00:06:42,952 --> 00:06:44,765
+So we solved for m,
+
+100
+00:06:44,765 --> 00:06:50,156
+but now we still have to solve for t and b.
+
+101
+00:06:50,156 --> 00:06:50,889
+So let's do that.
+
+102
+00:06:50,889 --> 00:06:51,907
+Let's solve for t.
+
+103
+00:06:51,907 --> 00:06:53,689
+t is equal to m minus 1/2.
+
+104
+00:06:53,689 --> 00:06:58,956
+So it's equal to-- our m is 7/2
+minus 1/2,
+
+105
+00:06:58,956 --> 00:07:01,904
+which is equal to 6/2, or 3 feet.
+
+106
+00:07:01,904 --> 00:07:06,285
+Everything is in feet,
+so that's how we know it's feet there.
+
+107
+00:07:06,285 --> 00:07:08,358
+So that's the top
+shelf is 3 feet.
+
+108
+00:07:08,358 --> 00:07:15,002
+The middle shelf is 7/2 feet,
+which is the same thing as 3 and 1/2 feet.
+
+109
+00:07:15,002 --> 00:07:19,665
+And then the bottom shelf
+is 2 times the top shelf, minus 1/2.
+
+110
+00:07:19,665 --> 00:07:22,133
+So what's that going
+to be equal to?
+
+111
+00:07:22,133 --> 00:07:24,949
+That's going to be equal to 2
+times 3 feet--
+
+112
+00:07:24,949 --> 00:07:33,118
+that's what the length of the top shelf is--
+minus 1/2, which is equal to 6 minus 1/2, or 5 and 1/2 feet.
+
+113
+00:07:33,118 --> 00:07:37,236
+And we're done.
+
+114
+00:07:37,236 --> 00:07:40,440
+And you can verify that these
+definitely do add up to 12.
+
+115
+00:07:40,440 --> 00:07:46,236
+5 and 1/2 plus 3 and 1/2 is 9,
+plus 3 is 12 feet, and it meets all of the other
+constraints.
+
+116
+00:07:46,236 --> 00:07:50,608
+The top shelf is 1/2 a foot
+shorter than the middle shelf,
+
+117
+00:07:50,608 --> 00:07:55,575
+and the bottom shelf is 1/2
+a foot shorter than 2 times the top shelf.
+
+118
+00:07:55,575 --> 00:07:57,187
+And we are done.
+
+119
+00:07:57,187 --> 00:08:01,020
+We know the lengths of
+the shelves that Devon needs to make.

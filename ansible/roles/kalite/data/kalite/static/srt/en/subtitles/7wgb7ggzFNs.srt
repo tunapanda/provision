@@ -1,0 +1,1375 @@
+1
+00:00:00,000 --> 00:00:00,330
+   
+
+2
+00:00:00,330 --> 00:00:03,660
+In the last video, we got an
+overview of electrotonic
+
+3
+00:00:03,660 --> 00:00:06,780
+potentials and action potentials
+and how they
+
+4
+00:00:06,780 --> 00:00:11,160
+essentially can transmit
+potential differences through
+
+5
+00:00:11,160 --> 00:00:14,950
+a cell or how they can
+move a potential
+
+6
+00:00:14,950 --> 00:00:15,850
+difference through a cell.
+
+7
+00:00:15,850 --> 00:00:18,910
+And just as a bit of review,
+electrotonic is if you have
+
+8
+00:00:18,910 --> 00:00:21,310
+some type of charge disruption--
+let's say a
+
+9
+00:00:21,310 --> 00:00:26,180
+sodium gate opens and a bunch of
+positive ions flow in, that
+
+10
+00:00:26,180 --> 00:00:28,810
+very quickly is going to
+make things nearby
+
+11
+00:00:28,810 --> 00:00:30,130
+more positive, right?
+
+12
+00:00:30,130 --> 00:00:32,259
+It's very quickly because the
+positive charges are going to
+
+13
+00:00:32,259 --> 00:00:35,330
+move away from their
+positive brethren.
+
+14
+00:00:35,330 --> 00:00:37,940
+Positives and positives
+repel each other.
+
+15
+00:00:37,940 --> 00:00:40,830
+And so if we go some point
+further off in the cell--
+
+16
+00:00:40,830 --> 00:00:42,490
+let's say we were looking at
+that point right here-- the
+
+17
+00:00:42,490 --> 00:00:44,890
+positive charges-- if there's
+a positive charge here, it's
+
+18
+00:00:44,890 --> 00:00:46,590
+going to want to move
+in that direction.
+
+19
+00:00:46,590 --> 00:00:47,876
+If you have a positive charge
+here, it's going to move in
+
+20
+00:00:47,876 --> 00:00:48,360
+this direction.
+
+21
+00:00:48,360 --> 00:00:51,230
+So it's going to become more
+positive very quickly.
+
+22
+00:00:51,230 --> 00:00:53,760
+So that's what we talk about
+electrotonic potential.
+
+23
+00:00:53,760 --> 00:00:56,260
+And the benefit is, it happens
+very, very quickly.
+
+24
+00:00:56,260 --> 00:00:57,960
+If we're looking at this
+point, as soon as these
+
+25
+00:00:57,960 --> 00:01:01,350
+positive charges move in, a
+positive charge here that's
+
+26
+00:01:01,350 --> 00:01:04,200
+right there is going to want to
+move there and a positive
+
+27
+00:01:04,200 --> 00:01:06,550
+charge that's here is going to
+want to move to the right, but
+
+28
+00:01:06,550 --> 00:01:10,010
+not as quickly because the the
+effect gets diffused, right?
+
+29
+00:01:10,010 --> 00:01:12,560
+The impact on this charge is
+less than this charge because
+
+30
+00:01:12,560 --> 00:01:13,460
+it's further away.
+
+31
+00:01:13,460 --> 00:01:15,830
+And we could think more, we
+could run computer simulations
+
+32
+00:01:15,830 --> 00:01:17,090
+about it, but I think you
+get the general idea.
+
+33
+00:01:17,090 --> 00:01:18,480
+Positive things flow in.
+
+34
+00:01:18,480 --> 00:01:20,390
+Other positive things
+want to move away.
+
+35
+00:01:20,390 --> 00:01:23,590
+That makes any point that's some
+distance away from that
+
+36
+00:01:23,590 --> 00:01:27,370
+disruption a little bit more
+positive so it'll affect its
+
+37
+00:01:27,370 --> 00:01:29,010
+voltage almost immediately.
+
+38
+00:01:29,010 --> 00:01:31,150
+So it's very fast, but
+the problem is it
+
+39
+00:01:31,150 --> 00:01:32,260
+dissipates with distance.
+
+40
+00:01:32,260 --> 00:01:34,300
+If we go really far from that--
+if we went all the way
+
+41
+00:01:34,300 --> 00:01:37,340
+down here, this guy would have
+almost no impact from what's
+
+42
+00:01:37,340 --> 00:01:40,100
+happening at this opening
+of this sodium gate.
+
+43
+00:01:40,100 --> 00:01:41,480
+So that's its negative.
+
+44
+00:01:41,480 --> 00:01:43,880
+On the other hand, on the other
+side of the spectrum, we
+
+45
+00:01:43,880 --> 00:01:45,640
+looked at action potentials.
+
+46
+00:01:45,640 --> 00:01:47,330
+Action potentials
+are all about--
+
+47
+00:01:47,330 --> 00:01:48,650
+you have some stimulus.
+
+48
+00:01:48,650 --> 00:01:52,810
+In general, it's getting a
+little bit of a positive
+
+49
+00:01:52,810 --> 00:01:55,540
+charge near a sodium gate.
+
+50
+00:01:55,540 --> 00:01:59,310
+So normally, we're resting
+at minus 70 millvolts.
+
+51
+00:01:59,310 --> 00:02:01,590
+Maybe you have a little bit of
+a positive charge come, maybe
+
+52
+00:02:01,590 --> 00:02:05,520
+through some type of
+electrotonic interaction, but
+
+53
+00:02:05,520 --> 00:02:06,240
+that's not enough.
+
+54
+00:02:06,240 --> 00:02:09,770
+But maybe another one comes by
+and it gets you to minus 55
+
+55
+00:02:09,770 --> 00:02:13,500
+millvolts and then the gate
+opens, sodium floods in, we
+
+56
+00:02:13,500 --> 00:02:16,590
+become much more positive.
+
+57
+00:02:16,590 --> 00:02:17,840
+Then the sodium gates close.
+
+58
+00:02:17,840 --> 00:02:19,840
+Potassium gates open.
+
+59
+00:02:19,840 --> 00:02:21,820
+The potassium wants to flow out
+of the cell because we're
+
+60
+00:02:21,820 --> 00:02:24,930
+positive in the cell now and
+there's a lot of potassium on
+
+61
+00:02:24,930 --> 00:02:27,400
+the inside because of the
+sodium potassium pumps.
+
+62
+00:02:27,400 --> 00:02:28,760
+So then we go back
+to negative.
+
+63
+00:02:28,760 --> 00:02:30,470
+We actually overshoot.
+
+64
+00:02:30,470 --> 00:02:32,050
+And just in case you want to
+know, at this point, we're
+
+65
+00:02:32,050 --> 00:02:33,630
+kind of in this refractory
+period.
+
+66
+00:02:33,630 --> 00:02:36,860
+And the original gate that just
+opened and closed-- it's
+
+67
+00:02:36,860 --> 00:02:38,600
+deactivated for a short
+period of time.
+
+68
+00:02:38,600 --> 00:02:40,540
+So there's some period of time
+that another stimulus won't be
+
+69
+00:02:40,540 --> 00:02:42,995
+able to do it, but then our
+sodium potassium pumps can get
+
+70
+00:02:42,995 --> 00:02:43,790
+us back to normal.
+
+71
+00:02:43,790 --> 00:02:47,370
+But the whole time that that
+was happening, as the gate
+
+72
+00:02:47,370 --> 00:02:50,540
+that was to the left got all
+charged up, as the sodium
+
+73
+00:02:50,540 --> 00:02:53,540
+started flowing in, it's
+obviously going to make it a
+
+74
+00:02:53,540 --> 00:02:56,290
+little bit more positive to the
+gate that's directly to
+
+75
+00:02:56,290 --> 00:02:57,160
+the right of it.
+
+76
+00:02:57,160 --> 00:02:59,080
+So the gate that's to the right
+of it, its charge is
+
+77
+00:02:59,080 --> 00:03:02,990
+going to go slightly up and
+then bam, it hits its
+
+78
+00:03:02,990 --> 00:03:04,280
+threshold for firing.
+
+79
+00:03:04,280 --> 00:03:07,490
+So then that sodium gate opens
+and the same thing happens a
+
+80
+00:03:07,490 --> 00:03:08,590
+little bit further
+to the right.
+
+81
+00:03:08,590 --> 00:03:10,130
+And I could keep doing that,
+maybe even a little bit
+
+82
+00:03:10,130 --> 00:03:11,120
+further to right.
+
+83
+00:03:11,120 --> 00:03:13,790
+A gate's potential might look
+something like that and that's
+
+84
+00:03:13,790 --> 00:03:14,550
+how it travels.
+
+85
+00:03:14,550 --> 00:03:16,810
+Now the benefit of this is that
+the signal never loses
+
+86
+00:03:16,810 --> 00:03:17,950
+strength, right?
+
+87
+00:03:17,950 --> 00:03:20,030
+We can just keep going down
+the cell like this.
+
+88
+00:03:20,030 --> 00:03:22,870
+We could do that for millions
+of miles if we had to.
+
+89
+00:03:22,870 --> 00:03:26,620
+The negative is that it's slower
+than electrotonic in
+
+90
+00:03:26,620 --> 00:03:30,120
+that you have to open and close
+these gates and it also
+
+91
+00:03:30,120 --> 00:03:33,690
+requires energy because you're
+always having to re-balance
+
+92
+00:03:33,690 --> 00:03:35,920
+the charge potential between
+the inside and the
+
+93
+00:03:35,920 --> 00:03:36,800
+outside of the cell.
+
+94
+00:03:36,800 --> 00:03:40,400
+So we need to think about, how
+could a cell use both of these
+
+95
+00:03:40,400 --> 00:03:45,380
+things to optimize those
+tradeoffs between signal
+
+96
+00:03:45,380 --> 00:03:47,320
+dissipation and speed?
+
+97
+00:03:47,320 --> 00:03:50,120
+And this is exactly what
+the neuron does do.
+
+98
+00:03:50,120 --> 00:03:50,930
+So let's go back.
+
+99
+00:03:50,930 --> 00:03:53,470
+Now we're ready to close the
+loop and actually talk about
+
+100
+00:03:53,470 --> 00:03:54,400
+the neuron.
+
+101
+00:03:54,400 --> 00:03:56,670
+So when I talked about a neuron
+getting excited on the
+
+102
+00:03:56,670 --> 00:04:00,320
+dendrite-- if I zoom in on a
+dendrite-- let's say this is a
+
+103
+00:04:00,320 --> 00:04:04,340
+dendrite's membrane
+right here.
+
+104
+00:04:04,340 --> 00:04:06,450
+Let me zoom in on a dendrite.
+
+105
+00:04:06,450 --> 00:04:08,720
+So that's the dendrite
+right there.
+
+106
+00:04:08,720 --> 00:04:10,860
+Let's say that this
+is a drawing of
+
+107
+00:04:10,860 --> 00:04:12,070
+that point right there.
+
+108
+00:04:12,070 --> 00:04:15,100
+When I say stimulated, what's
+happening is, some channel is
+
+109
+00:04:15,100 --> 00:04:17,709
+being triggered, some gate
+is being opened.
+
+110
+00:04:17,709 --> 00:04:22,770
+And so let's say that this is
+a sodium channel and it
+
+111
+00:04:22,770 --> 00:04:25,430
+stimulates-- the stimulus, it
+could be-- like in our action
+
+112
+00:04:25,430 --> 00:04:27,800
+potential-- it could
+be voltage gated.
+
+113
+00:04:27,800 --> 00:04:29,810
+A higher voltage might
+cause it to happen.
+
+114
+00:04:29,810 --> 00:04:33,310
+It might be some chemical
+stimulus from some other
+
+115
+00:04:33,310 --> 00:04:34,850
+terminal end of some
+other axon.
+
+116
+00:04:34,850 --> 00:04:35,595
+It could be pressure.
+
+117
+00:04:35,595 --> 00:04:37,100
+It could be, who knows?
+
+118
+00:04:37,100 --> 00:04:39,340
+It could be some molecule that
+stimulates it, but something
+
+119
+00:04:39,340 --> 00:04:42,490
+is making a gate open and maybe
+it's a sodium gate and
+
+120
+00:04:42,490 --> 00:04:45,350
+so positive charge is going
+to flood in here.
+
+121
+00:04:45,350 --> 00:04:49,770
+Positive charge is going
+to flow into the cell.
+
+122
+00:04:49,770 --> 00:04:50,900
+We know why it does that.
+
+123
+00:04:50,900 --> 00:04:52,430
+There's a lot of sodium
+on the outside.
+
+124
+00:04:52,430 --> 00:04:54,260
+That's what the sodium
+potassium pump does.
+
+125
+00:04:54,260 --> 00:04:56,660
+So positive charge flows
+into the cell.
+
+126
+00:04:56,660 --> 00:04:58,890
+So immediately, it's going
+to have some impact.
+
+127
+00:04:58,890 --> 00:05:01,570
+If we measure the voltage here,
+immediately the positive
+
+128
+00:05:01,570 --> 00:05:04,310
+charge here is going to want
+to travel away and so this
+
+129
+00:05:04,310 --> 00:05:06,400
+point is going to become a
+little bit more positive.
+
+130
+00:05:06,400 --> 00:05:08,870
+If we look at this point, it's
+going to become a little bit
+
+131
+00:05:08,870 --> 00:05:11,880
+more positive, but it's so far
+away from the original
+
+132
+00:05:11,880 --> 00:05:17,070
+reaction that maybe it doesn't
+become as positive because the
+
+133
+00:05:17,070 --> 00:05:19,670
+ions are becoming dissipated
+as we go through the cell.
+
+134
+00:05:19,670 --> 00:05:23,240
+So as we go right here
+to our axon hillock,
+
+135
+00:05:23,240 --> 00:05:25,640
+we have more gates.
+
+136
+00:05:25,640 --> 00:05:27,520
+Let's say that that's
+a sodium gate.
+
+137
+00:05:27,520 --> 00:05:29,950
+Let's say that this is
+a potassium gate.
+
+138
+00:05:29,950 --> 00:05:32,720
+Let's say that we have
+another sodium gate.
+
+139
+00:05:32,720 --> 00:05:33,940
+Doesn't have to be configured
+this way.
+
+140
+00:05:33,940 --> 00:05:36,870
+We have another potassium
+gate right there.
+
+141
+00:05:36,870 --> 00:05:40,070
+Now if we just had one event
+here, we're so far away from
+
+142
+00:05:40,070 --> 00:05:43,470
+that event that maybe if we
+measured the potential at that
+
+143
+00:05:43,470 --> 00:05:45,860
+point, at the axon hillock--
+remember, that's the little
+
+144
+00:05:45,860 --> 00:05:49,430
+bulge that turns
+into the axon.
+
+145
+00:05:49,430 --> 00:05:52,380
+Let's do that same chart that
+I had before, where we have
+
+146
+00:05:52,380 --> 00:05:54,150
+membrane potential.
+
+147
+00:05:54,150 --> 00:05:56,380
+So potential across
+the membrane.
+
+148
+00:05:56,380 --> 00:05:58,120
+And then we have time.
+
+149
+00:05:58,120 --> 00:06:00,190
+So if we look at this point--
+let's say we're looking at
+
+150
+00:06:00,190 --> 00:06:03,350
+this point right here, that
+point and we're comparing it
+
+151
+00:06:03,350 --> 00:06:05,120
+to the outside of
+the membrane.
+
+152
+00:06:05,120 --> 00:06:08,540
+So it's starting at minus
+70 millivolts.
+
+153
+00:06:08,540 --> 00:06:09,620
+That's its resting.
+
+154
+00:06:09,620 --> 00:06:11,930
+And let's say that some event
+happened out here and
+
+155
+00:06:11,930 --> 00:06:14,920
+electrotonically it's going to
+increase the potential a
+
+156
+00:06:14,920 --> 00:06:16,810
+little bit because positive
+charge is going to make its
+
+157
+00:06:16,810 --> 00:06:18,300
+way and they're all going
+to push each other.
+
+158
+00:06:18,300 --> 00:06:20,070
+They're all going to get away
+from each other and this one's
+
+159
+00:06:20,070 --> 00:06:22,000
+going to become slightly
+positive.
+
+160
+00:06:22,000 --> 00:06:24,620
+But let's say it only goes to
+minus 65, nothing happens.
+
+161
+00:06:24,620 --> 00:06:30,730
+Then your sodium potassium
+pumps come into effect so
+
+162
+00:06:30,730 --> 00:06:31,850
+nothing really happened.
+
+163
+00:06:31,850 --> 00:06:35,300
+It didn't trigger the neuron,
+but let's say that gets
+
+164
+00:06:35,300 --> 00:06:37,350
+stimulated again and let's say
+there's a couple more that get
+
+165
+00:06:37,350 --> 00:06:40,570
+stimulated and their combined
+effects-- because all of them
+
+166
+00:06:40,570 --> 00:06:43,870
+are flooding with positive
+ions now-- their combined
+
+167
+00:06:43,870 --> 00:06:47,420
+effects are enough to get this
+point to the threshold.
+
+168
+00:06:47,420 --> 00:06:52,150
+So they're enough to get
+this point to minus 55.
+
+169
+00:06:52,150 --> 00:06:53,900
+And we know what's going
+to happen here.
+
+170
+00:06:53,900 --> 00:06:58,910
+As soon as this sodium gate gets
+to minus 55, it's going
+
+171
+00:06:58,910 --> 00:07:00,230
+to open up.
+
+172
+00:07:00,230 --> 00:07:02,770
+It's going to open up and sodium
+is going to flood in.
+
+173
+00:07:02,770 --> 00:07:05,730
+Sodium is going to flood in
+until we get to positive 40.
+
+174
+00:07:05,730 --> 00:07:07,260
+then it's going to close.
+
+175
+00:07:07,260 --> 00:07:11,580
+Then the potassium gate's going
+to open and get us back
+
+176
+00:07:11,580 --> 00:07:13,040
+to where we were before.
+
+177
+00:07:13,040 --> 00:07:15,250
+We're going to overshoot a
+little bit and then our sodium
+
+178
+00:07:15,250 --> 00:07:17,520
+potassium pump's going to get
+back to where we wanted.
+
+179
+00:07:17,520 --> 00:07:22,350
+That's going to happen there,
+but as the sodium is floating
+
+180
+00:07:22,350 --> 00:07:25,500
+in into that first gate, this
+guy's going to become positive
+
+181
+00:07:25,500 --> 00:07:28,620
+here and then this gate, this
+sodium gate, is going to
+
+182
+00:07:28,620 --> 00:07:29,340
+become triggered.
+
+183
+00:07:29,340 --> 00:07:31,470
+And this is that action
+potential idea.
+
+184
+00:07:31,470 --> 00:07:34,540
+Now, we could just keep going
+our action potential all the
+
+185
+00:07:34,540 --> 00:07:39,210
+way down the axon because we
+said the benefit of the
+
+186
+00:07:39,210 --> 00:07:42,110
+electrotonic is that it goes
+fast, but doesn't cover a lot
+
+187
+00:07:42,110 --> 00:07:42,540
+of distance.
+
+188
+00:07:42,540 --> 00:07:46,860
+This is a relatively short
+distance, while the axon is
+
+189
+00:07:46,860 --> 00:07:47,570
+super-long.
+
+190
+00:07:47,570 --> 00:07:50,670
+So you might say, OK, I see,
+electrotonic from the dendrite
+
+191
+00:07:50,670 --> 00:07:55,310
+to the axon hillock-- and then
+we use action potential all
+
+192
+00:07:55,310 --> 00:07:58,140
+the way down the axon.
+
+193
+00:07:58,140 --> 00:07:59,390
+That would be reasonable because
+we're not going to
+
+194
+00:07:59,390 --> 00:08:00,450
+lose our signal strength.
+
+195
+00:08:00,450 --> 00:08:03,120
+We would keep having that
+domino, that chain reaction
+
+196
+00:08:03,120 --> 00:08:05,410
+going all the way until we get
+to our terminal end, but the
+
+197
+00:08:05,410 --> 00:08:06,570
+problem there is, it's slow.
+
+198
+00:08:06,570 --> 00:08:10,250
+I mean, if this is a five foot
+long axon, I don't want to
+
+199
+00:08:10,250 --> 00:08:11,230
+have a slow signal.
+
+200
+00:08:11,230 --> 00:08:13,530
+If someone just bit me, I
+want to move my hand.
+
+201
+00:08:13,530 --> 00:08:15,570
+If I just touched a stove, I
+want to move my hand quickly.
+
+202
+00:08:15,570 --> 00:08:18,040
+I don't want all that signal
+to take so much time, all
+
+203
+00:08:18,040 --> 00:08:20,580
+these gates to open and close
+along the whole four or five
+
+204
+00:08:20,580 --> 00:08:22,970
+feet-- of if I'm a dinosaur,
+move my arm.
+
+205
+00:08:22,970 --> 00:08:24,770
+It needs to happen quickly.
+
+206
+00:08:24,770 --> 00:08:26,495
+So what happens is that
+there's a combination.
+
+207
+00:08:26,495 --> 00:08:31,900
+   
+
+208
+00:08:31,900 --> 00:08:34,350
+You get your signal and this
+amplifies the signal.
+
+209
+00:08:34,350 --> 00:08:36,200
+The signal is very
+weak here, right?
+
+210
+00:08:36,200 --> 00:08:39,140
+It only got us to minus 55,
+but then when that first
+
+211
+00:08:39,140 --> 00:08:43,080
+sodium gate opens, it creates a
+huge positive potential that
+
+212
+00:08:43,080 --> 00:08:43,965
+opens the next gate.
+
+213
+00:08:43,965 --> 00:08:46,640
+So we have a huge positive
+potential here.
+
+214
+00:08:46,640 --> 00:08:50,300
+Now the axons have these
+huge spaces where
+
+215
+00:08:50,300 --> 00:08:51,370
+they're covered up.
+
+216
+00:08:51,370 --> 00:08:53,590
+They're covered up by these
+Schwann cells or by these
+
+217
+00:08:53,590 --> 00:08:54,740
+myelin sheaths.
+
+218
+00:08:54,740 --> 00:08:57,090
+So even if there are
+gates underneath
+
+219
+00:08:57,090 --> 00:08:58,500
+them, they're useless.
+
+220
+00:08:58,500 --> 00:09:04,460
+They can't interface with
+the outside sodiums and
+
+221
+00:09:04,460 --> 00:09:07,990
+potassiums. So over this
+distance of the axon, you
+
+222
+00:09:07,990 --> 00:09:10,860
+cannot have a straight-up
+action potential.
+
+223
+00:09:10,860 --> 00:09:13,270
+What happened is, your action
+potential here, it made
+
+224
+00:09:13,270 --> 00:09:16,510
+everything a lot more positive
+than it would have been had
+
+225
+00:09:16,510 --> 00:09:19,480
+there not been that opening of
+the gate and now you can have
+
+226
+00:09:19,480 --> 00:09:21,690
+an electrotonic effect again.
+
+227
+00:09:21,690 --> 00:09:23,490
+So you kind of boosted
+your signal.
+
+228
+00:09:23,490 --> 00:09:26,590
+So now this might
+get to plus 40.
+
+229
+00:09:26,590 --> 00:09:31,170
+Maybe over here we only get to
+minus 50, but minus 50, once
+
+230
+00:09:31,170 --> 00:09:36,940
+again is enough to trigger a
+sodium gate, which then makes
+
+231
+00:09:36,940 --> 00:09:40,540
+everything really
+positive again.
+
+232
+00:09:40,540 --> 00:09:42,260
+It boosts the signal.
+
+233
+00:09:42,260 --> 00:09:44,940
+It makes everything positive
+again, then your potassium
+
+234
+00:09:44,940 --> 00:09:47,570
+gates, everything, comes
+out of the cell again.
+
+235
+00:09:47,570 --> 00:09:49,320
+So everything gets back
+to normal, but
+
+236
+00:09:49,320 --> 00:09:50,260
+it boosted the signal.
+
+237
+00:09:50,260 --> 00:09:54,630
+Now electrotonically, this
+is super positive.
+
+238
+00:09:54,630 --> 00:09:57,610
+Now the electrotonic effect,
+if we go some distance down
+
+239
+00:09:57,610 --> 00:10:00,280
+the axon, this'll be less
+positive, but it'll be just
+
+240
+00:10:00,280 --> 00:10:03,170
+enough to trigger another
+action potential.
+
+241
+00:10:03,170 --> 00:10:04,760
+And then that happens again.
+
+242
+00:10:04,760 --> 00:10:07,490
+So we have this combination
+of action potentials with
+
+243
+00:10:07,490 --> 00:10:08,380
+electrotonics.
+
+244
+00:10:08,380 --> 00:10:11,920
+So electrotonic-- this is very
+fast. This is a fast
+
+245
+00:10:11,920 --> 00:10:12,350
+interaction.
+
+246
+00:10:12,350 --> 00:10:15,440
+It happens immediately,
+but it dissipates
+
+247
+00:10:15,440 --> 00:10:16,360
+as it covers distance.
+
+248
+00:10:16,360 --> 00:10:19,200
+So we can't have these nodes
+of Ranvier being super far
+
+249
+00:10:19,200 --> 00:10:20,060
+from each other.
+
+250
+00:10:20,060 --> 00:10:23,910
+They have to be just far enough
+so that when one action
+
+251
+00:10:23,910 --> 00:10:26,430
+potential happens, that
+it's still enough to
+
+252
+00:10:26,430 --> 00:10:27,520
+trigger the next one.
+
+253
+00:10:27,520 --> 00:10:30,440
+It's not going to boost its
+potential to plus 40, but as
+
+254
+00:10:30,440 --> 00:10:34,530
+long as it boosts it to minus
+55, we're still going to
+
+255
+00:10:34,530 --> 00:10:36,970
+produce a signal to
+keep moving on.
+
+256
+00:10:36,970 --> 00:10:39,640
+So this is a really good
+tradeoff because we get fast,
+
+257
+00:10:39,640 --> 00:10:41,460
+slow, but it boosts
+the signal.
+
+258
+00:10:41,460 --> 00:10:45,190
+Fast signal dies down, but it's
+enough to essentially
+
+259
+00:10:45,190 --> 00:10:47,640
+trigger this guy and then
+it boosts the signal.
+
+260
+00:10:47,640 --> 00:10:50,240
+It's slow, but then we
+travel fast again.
+
+261
+00:10:50,240 --> 00:10:53,350
+Signal dies, boosts the signal
+slow, and we keep traveling
+
+262
+00:10:53,350 --> 00:10:55,670
+that way down the axon.
+
+263
+00:10:55,670 --> 00:10:58,830
+And this is actually called
+a saltatory conduction.
+
+264
+00:10:58,830 --> 00:11:00,270
+Let me write this down.
+
+265
+00:11:00,270 --> 00:11:05,600
+   
+
+266
+00:11:05,600 --> 00:11:07,710
+Saltatory conduction, which
+I think comes from
+
+267
+00:11:07,710 --> 00:11:10,100
+the Latin for hopping.
+
+268
+00:11:10,100 --> 00:11:12,170
+I remember when I first learned
+this in biology class,
+
+269
+00:11:12,170 --> 00:11:13,800
+they kind of talked about it.
+
+270
+00:11:13,800 --> 00:11:16,170
+Somehow putting the myelin
+sheath there just magically
+
+271
+00:11:16,170 --> 00:11:20,180
+made it happen faster and these
+things just hop from one
+
+272
+00:11:20,180 --> 00:11:21,950
+action potential reaction
+to another, but
+
+273
+00:11:21,950 --> 00:11:23,210
+that's not what's happening.
+
+274
+00:11:23,210 --> 00:11:25,900
+You're boosting the signal here
+with an action potential.
+
+275
+00:11:25,900 --> 00:11:29,020
+When these gates open, it
+becomes super positive.
+
+276
+00:11:29,020 --> 00:11:31,770
+When it becomes super positive
+here-- from a maybe not so
+
+277
+00:11:31,770 --> 00:11:35,460
+positive trigger becomes super
+positive, that allows this
+
+278
+00:11:35,460 --> 00:11:37,780
+point to become reasonably
+positive, enough to trigger
+
+279
+00:11:37,780 --> 00:11:39,030
+the next reaction.
+
+280
+00:11:39,030 --> 00:11:41,050
+When that triggers, then it
+becomes super positive, makes
+
+281
+00:11:41,050 --> 00:11:43,420
+this reasonably positive
+or less negative, it
+
+282
+00:11:43,420 --> 00:11:44,400
+triggers the next one.
+
+283
+00:11:44,400 --> 00:11:47,600
+So it's a combination of action
+potentials that boosts
+
+284
+00:11:47,600 --> 00:11:48,300
+the signal.
+
+285
+00:11:48,300 --> 00:11:52,270
+And electrotonic effects that
+move the signal, that gives us
+
+286
+00:11:52,270 --> 00:11:54,540
+this saltatory conduction.
+
+287
+00:11:54,540 --> 00:11:57,650
+So that's actually how neurons
+are able to make that tradeoff
+
+288
+00:11:57,650 --> 00:12:01,310
+between traveling huge
+distances, but not losing
+
+289
+00:12:01,310 --> 00:12:02,910
+their signal.
+
+290
+00:12:02,910 --> 00:12:03,155
+

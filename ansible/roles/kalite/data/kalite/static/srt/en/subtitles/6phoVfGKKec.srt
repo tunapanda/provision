@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:11,639
+Express 0.0000000003457 in scientific notation
+
+2
+00:00:11,669 --> 00:00:17,921
+So let's just remind ourselves what it means to be in scientific notation
+
+3
+00:00:17,952 --> 00:00:22,399
+Scientific notation will be some number times some power of 10
+
+4
+00:00:22,415 --> 00:00:24,703
+Where this number right here is going to be
+
+5
+00:00:24,703 --> 00:00:26,969
+Let me write it this way
+
+6
+00:00:26,969 --> 00:00:30,038
+It's going to be greater than or equal to 1, and it's going to be less than 10
+
+7
+00:00:30,038 --> 00:00:34,435
+So over here, what we want to put here is that leading number is going to be
+
+8
+00:00:34,435 --> 00:00:37,635
+And in general you're going to look for the first non-zero digit
+
+9
+00:00:37,635 --> 00:00:40,174
+And this is the number that you're going to want to start off with
+
+10
+00:00:40,174 --> 00:00:43,237
+This is the only number you're going to want to put ahead of
+
+11
+00:00:43,237 --> 00:00:45,131
+– or I guess to the left of –
+
+12
+00:00:45,131 --> 00:00:46,113
+Of the decimal point
+
+13
+00:00:46,113 --> 00:00:48,213
+So we could write 3.457
+
+14
+00:00:48,213 --> 00:00:52,546
+3.457
+
+15
+00:00:52,546 --> 00:00:56,247
+And it's going to be multiplied by 10 to something
+
+16
+00:00:56,247 --> 00:00:59,048
+Now let's think about what we're going to have to multiply it by
+
+17
+00:00:59,048 --> 00:01:03,381
+To go from 3.457 to this very, very small number
+
+18
+00:01:03,381 --> 00:01:07,719
+I mean we have had to move the decimal from 3.457 to get to this
+
+19
+00:01:07,719 --> 00:01:10,045
+You have to move the decimal to the left a bunch
+
+20
+00:01:10,045 --> 00:01:12,635
+You have to add a bunch of 0's to the left of the 3
+
+21
+00:01:12,635 --> 00:01:16,971
+You have to keep moving the decimal over to the left
+
+22
+00:01:16,971 --> 00:01:21,768
+To do that, we're essentially making the number much, much, much smaller
+
+23
+00:01:21,768 --> 00:01:25,637
+So we are not going to multiply it with a positive exponent of 10
+
+24
+00:01:25,637 --> 00:01:28,637
+We are going to multiply it times a negative exponent of 10
+
+25
+00:01:28,637 --> 00:01:33,381
+that the equivalent is you kind of dividing by a positive exponent of 10
+
+26
+00:01:33,381 --> 00:01:35,465
+the best way to think about it
+
+27
+00:01:35,465 --> 00:01:39,303
+When you move your exponent one to the left
+
+28
+00:01:39,303 --> 00:01:47,301
+You dividing by 10 which is equivalent to multiply by 10 to the negative 1 power
+
+29
+00:01:47,301 --> 00:01:49,568
+Let me give you an example here
+
+30
+00:01:49,568 --> 00:01:54,303
+So if I have 1 times 10 is clearly just equal to 10
+
+31
+00:01:54,303 --> 00:01:57,053
+1 times 10 to the negative 1
+
+32
+00:01:57,053 --> 00:02:02,169
+That's equal to 1 times 1/10 which is equal to 1/10
+
+33
+00:02:02,169 --> 00:02:09,547
+1 times---which is equal to 0--I skip the step right there
+
+34
+00:02:09,547 --> 00:02:12,303
+Let me add 1 times 10 to the 0
+
+35
+00:02:12,303 --> 00:02:13,706
+So we have something natural
+
+36
+00:02:13,706 --> 00:02:14,967
+So this is 1 times to the first
+
+37
+00:02:14,967 --> 00:02:19,112
+1 times to the 0 is equal to 1 times 1 which is equal to 1
+
+38
+00:02:19,112 --> 00:02:28,056
+1 times 10 to the negative 1 is equal to 1/10 which is equal to 0.1
+
+39
+00:02:28,056 --> 00:02:32,244
+If I do 1 times 10 to the negative 2
+
+40
+00:02:32,244 --> 00:02:36,571
+10 to the negative 2 is 1/10 squared or 1/100
+
+41
+00:02:36,571 --> 00:02:41,303
+so this is going to be 1/100 which is 0.01
+
+42
+00:02:41,303 --> 00:02:43,057
+What happened here?
+
+43
+00:02:43,057 --> 00:02:44,639
+When I read it to the negative power
+
+44
+00:02:44,639 --> 00:02:46,137
+I read it to the negative 1 power
+
+45
+00:02:46,137 --> 00:02:50,303
+I essentially move the decimal from the right of the one to the left of the one
+
+46
+00:02:50,303 --> 00:02:52,389
+I move from there to there
+
+47
+00:02:52,389 --> 00:02:55,641
+When I get to -2, I move the 2 over the left
+
+48
+00:02:55,641 --> 00:03:02,466
+So how many times we are going to move it over to the left to get this number right over here
+
+49
+00:03:02,466 --> 00:03:06,568
+So we essentially, so let's think about how many zeros we have
+
+50
+00:03:06,568 --> 00:03:09,307
+So we have to move it 1 times to get in front of the 3
+
+51
+00:03:09,307 --> 00:03:13,167
+and then we have to move it that means more times to get all of the zeros
+
+52
+00:03:13,167 --> 00:03:14,903
+in there
+
+53
+00:03:14,903 --> 00:03:17,501
+so we have to move it 1 time to get the 3
+
+54
+00:03:17,501 --> 00:03:18,903
+So we start here
+
+55
+00:03:18,903 --> 00:03:27,300
+We are going to move 1,2,3,4,5,6,7,8,9,10..10 times
+
+56
+00:03:27,300 --> 00:03:33,306
+So this is going to be 3.457 times 10 to the negative 10 power
+
+57
+00:03:33,306 --> 00:03:34,300
+Let me just rewrite it
+
+58
+00:03:34,300 --> 00:03:39,503
+So 3.457 times 10 to the negative 10 power
+
+59
+00:03:39,503 --> 00:03:43,900
+So in general, what you want to do is you want to find the first non zero number here
+
+60
+00:03:43,900 --> 00:03:46,902
+Remember, you want a number here that between 1 and 10
+
+61
+00:03:46,902 --> 00:03:49,371
+and it could be equal to 1 but it has to be less than 10
+
+62
+00:03:49,371 --> 00:03:53,054
+3.457 definitely fits that bill
+
+63
+00:03:53,054 --> 00:03:54,900
+It's between 1 and 10
+
+64
+00:03:54,900 --> 00:03:59,810
+And then you just want to count the leading zero between the decimal of that number and
+
+65
+00:03:59,810 --> 00:04:05,391
+and include the number because that tells you how many times you have to shift the decimal over to actually get this number
+
+66
+00:04:05,391 --> 00:04:06,058
+up here
+
+67
+00:04:06,058 --> 00:04:11,300
+So we have to shift this decimal 10 times to the left to get this thing up here
