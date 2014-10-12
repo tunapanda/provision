@@ -31,6 +31,5 @@
   args:
     chdir: "{{ kalite__data_dir }}"
     creates: "/etc/init.d/kalite"
+  notify: restart kalite
 
-- name: Starting kalite
-  service: name=kalite state=restarted
