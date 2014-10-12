@@ -1,0 +1,3 @@
+---
+- name: restart kalite
+  service: name=kalite state=restarted
