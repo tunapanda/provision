@@ -26,3 +26,12 @@ The idea is to do an automated provision a VM using [ansible](ansible.com) and [
 
 If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka `*repo_dir*/data/build` on the host system).
 
+
+## How do I add a module to it?
+A "module" is an ansible role that deploys a particular service or configuration
+
+1. Create a new [ansible role](http://docs.ansible.com/playbooks_roles.html#roles) directory in `ansible/roles/`
+  * Be sure to make any [variables](http://docs.ansible.com/playbooks_variables.html) defined in your role's `vars/` directory follow the format `ROLE_NAME__VAR_NAME` (note the two underscores in the middle)
+  * Be sure to include a `ROLE_NAME__enabled` variable.
+2. Add a line to `ansible/roles.yml`, following the format used for other roles in that file.
+  * *DO NOT* make your role execute unconditionally. Always use a `__enabled` variable!
