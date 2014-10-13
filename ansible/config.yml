@@ -1,25 +1,3 @@
 ---
-data_dir: "/usr/local/tunapanda"
-vagrant_share: "/vagrant"
-apache_dir: "/etc/apache2/"
-users:
-    enabled:  true
-    num_students: 20
-    force_student_pw_change: false
-apt_basic:
-    enabled:   true
-apt_localrepo:
-    enabled: false
-desktop:
-    enabled:   true
-    use_gnome2: true
-    custom_artwork: false
-kalite:
-    enabled: true
-wikipedia:
-    enabled:   true
-    data:         false
-build_env:
-    enabled:   true
-    remastersys_root: "{{ vagrant_share }}/data/build/remastersys"
-    auto_iso:  false
+# You can override any of the variabes defined in 
+# roles/*/vars/main.yml here.

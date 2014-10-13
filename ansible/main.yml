@@ -1,22 +1,14 @@
 ---
 - hosts: all
-  vars_files: 
+  vars:
+    data_dir: "/usr/local/tunapanda"
+    vagrant_share: "/vagrant"
+    apache_dir: "/etc/apache2/"
+  vars_files:
     - config.yml
   tasks:
     - shell: "echo Provisioned on $(date) > {{ data_dir }}/provisioning.txt"
-  roles:
-    - { role: external_data_drive, when: external_data_drive.enabled }
-    - { role: users, when: users.enabled }
-    - { role: apt_basic, when: apt_basic.enabled }
-    - { role: apt_localrepo, when: apt_localrepo.enabled }
-    - { role: desktop, when: desktop.enabled }
-    - { role: kalite, when: kalite.enabled }
-    - { role: wikipedia, when: wikipedia.enabled }
-    
-    # Always run this one last, since it will build the ISO
-    # if build_env.auto_iso is enabled in config.yml
-    - { role: build_env, when: build_env.enabled }
-    
   handlers:
     - name: restart apache
       service: name=apache2 state=restarted
+  include: roles.yml

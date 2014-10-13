@@ -11,9 +11,9 @@
     owner: root
     mode: 0744
 
-- name: Creating mountpoint {{ external_data_drive.mountpoint }}
+- name: Creating mountpoint {{ external_data_drive__mountpoint }}
   file:
-    path: "{{ external_data_drive.mountpoint }}"
+    path: "{{ external_data_drive__mountpoint }}"
     state: directory
 
 - name: Adding udev rule

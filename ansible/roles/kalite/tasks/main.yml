@@ -2,29 +2,29 @@
 - name: Adding alias to /etc/hosts
   lineinfile: dest=/etc/hosts line="127.0.0.1 kalite"
 
-- name: Checking mount status of {{ role_data_dir }}
-  shell: mount | grep {{ role_data_dir }}
+- name: Checking mount status of {{ kalite__data_dir }}
+  shell: mount | grep {{ kalite__data_dir }}
   register: is_mounted
   ignore_errors: True
 
-- name: Creating data dir {{ role_data_dir }}
-  file: path={{ role_data_dir }} state=directory force=no
+- name: Creating data dir {{ kalite__data_dir }}
+  file: path={{ kalite__data_dir }} state=directory force=no
   when: is_mounted|failed
 
-- name: Mounting {{ role_data_dir }}
-  command: mount --bind /vagrant/ansible/roles/kalite/data {{ role_data_dir }}
+- name: Mounting {{ kalite__data_dir }}
+  command: mount --bind /vagrant/ansible/roles/kalite/data {{ kalite__data_dir }}
   when: is_mounted|failed
 
 - name: Setting up kalite
   command: kalite/manage.py setup -u teacher -p Tunapanda2 -o kalite -d "Tunapanda classroom server" -n
   args:
-    chdir: "{{ role_data_dir }}"
-    creates: "{{ role_data_dir }}/kalite/database/data.sqlite"
+    chdir: "{{ kalite__data_dir }}"
+    creates: "{{ kalite__data_dir }}/kalite/database/data.sqlite"
 
 - name: Installing kalite init script
   command: scripts/runatboot.sh
   args:
-    chdir: "{{ role_data_dir }}"
+    chdir: "{{ kalite__data_dir }}"
     creates: "/etc/init.d/kalite"
 
 - name: Starting kalite

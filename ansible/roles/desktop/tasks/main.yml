@@ -3,10 +3,10 @@
   apt: name=edubuntu-desktop state=present
 - name: Gnome fallback desktop should be used instead of Unity
   apt: name=gnome-session-fallback state=present
-  when: desktop.use_gnome2
+  when: desktop__use_gnome2
 - name: Set gnome fallback as default environment
   command: /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
-  when: desktop.use_gnome2
+  when: desktop__use_gnome2
   
 - include: artwork.yaml
-  when: desktop.custom_artwork
+  when: desktop__custom_artwork
