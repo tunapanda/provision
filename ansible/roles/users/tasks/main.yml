@@ -4,10 +4,10 @@
 
 # Student accounts (password 'changeme')
 - user: name={{ item }} shell=/bin/bash password='$6$rounds=100000$1NOGcsJFKk8qXjLZ$JYXYslwfXejJbrAu2apTVvcjRXtdKveICJgw3UxAMaGlxx.1SrH5QAiQgzkL9wDuFTBfdUq9YWL6S3ew8zhzw/'
-  with_sequence: start=1 end={{ users.num_students }} format=student%02d
-  when: users.num_students > 0
+  with_sequence: start=1 end={{ users__num_students }} format=student%02d
+  when: users__num_students > 0
 - command: chage -d0 {{ item }}
-  with_sequence: start=1 end={{ users.num_students }} format=student%02d
-  when: users.num_students > 0
-  when: users.force_student_pw_change
+  with_sequence: start=1 end={{ users__num_students }} format=student%02d
+  when: users__num_students > 0
+  when: users__force_student_pw_change
 

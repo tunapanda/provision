@@ -1,2 +1,0 @@
-build_dir: "{{ data_dir }}/build"
-pkg_build_dir: "{{ build_dir }}/packages_src"

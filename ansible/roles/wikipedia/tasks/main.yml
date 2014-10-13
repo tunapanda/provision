@@ -23,20 +23,20 @@
 
 - name: Linking Apache config
   file: 
-    src:   "{{ apache_dir }}/sites-available/tunapanda-wikipedia" 
+    src:  "{{ apache_dir }}/sites-available/tunapanda-wikipedia" 
     path: "{{ apache_dir }}/sites-enabled/tunapanda-wikipedia"
     state: link
   notify:
     - restart apache
     
-- name: Creating data dir {{ role_data_dir }}
-  file: path={{ role_data_dir }} state=directory
+- name: Creating data dir {{ wikipedia__data_dir }}
+  file: path={{ wikipedia__data_dir }} state=directory
 
-- name: Checking mount status of {{ role_data_dir }}
-  shell: mount | grep {{ role_data_dir }}
+- name: Checking mount status of {{ wikipedia__data_dir }}
+  shell: mount | grep {{ wikipedia__data_dir }}
   register: is_mounted
   ignore_errors: True
   
-- name: Mounting {{ role_data_dir }}
-  command: mount --bind /vagrant/ansible/roles/wikipedia/data {{ role_data_dir }}
+- name: Mounting {{ wikipedia__data_dir }}
+  command: mount --bind {{ vagrant_share }}/ansible/roles/wikipedia/data {{ wikipedia__data_dir }}
   when: is_mounted|failed
