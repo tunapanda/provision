@@ -20,12 +20,12 @@
   args:
     chdir: "{{ kalite__data_dir }}"
     creates: "{{ kalite__data_dir }}/kalite/database/data.sqlite"
+  notify: restart kalite
 
 - name: Installing kalite init script
   command: scripts/runatboot.sh
   args:
     chdir: "{{ kalite__data_dir }}"
     creates: "/etc/init.d/kalite"
+  notify: restart kalite
 
-- name: Starting kalite
-  service: name=kalite state=restarted
