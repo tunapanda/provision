@@ -3,4 +3,4 @@
   apt: update_cache=yes cache_valid_time=10
 - name: Upgrade packages
   apt: upgrade=yes
-#- include: repo.yml
+  when: apt_basic__upgrade_packages
