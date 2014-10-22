@@ -3,7 +3,7 @@
   vars:
     data_dir: "/usr/local/tunapanda"
     vagrant_share: "/vagrant"
-    apache_dir: "/etc/apache2/"
+    apache_dir: "/etc/apache2"
   vars_files:
     - config.yml
   tasks:
