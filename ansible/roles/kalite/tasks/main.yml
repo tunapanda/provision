@@ -1,4 +1,9 @@
 ---
+- name: Installing dependencies
+  apt: name={{ item }} state=installed
+  with_items:
+    sqlite3
+
 - name: Adding alias to /etc/hosts
   lineinfile: dest=/etc/hosts line="127.0.0.1 kalite"
 
@@ -26,6 +31,5 @@
   args:
     chdir: "{{ kalite__data_dir }}"
     creates: "/etc/init.d/kalite"
+  notify: restart kalite
 
-- name: Starting kalite
-  service: name=kalite state=restarted
