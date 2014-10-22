@@ -7,6 +7,8 @@
 - name: Set gnome fallback as default environment
   command: /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
   when: desktop__use_gnome2
+- name: Start GUI
+  service: name=lightdm state=started
   
 - include: artwork.yaml
   when: desktop__custom_artwork
