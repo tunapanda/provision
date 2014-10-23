@@ -21,9 +21,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provider :aws do |aws, override|
-    aws.access_key_id = ""
-    aws.secret_access_key = ""
-    aws.keypair_name = "vagrant"
+    aws.access_key_id = ENV['AWS_KEY']
+    aws.secret_access_key = ENV['AWS_SECRET']
+    aws.keypair_name = ENV['AWS_KEYNAME']
+    override.ssh.private_key_path = ENV['AWS_KEYPATH']
 
 
     # http://cloud-images.ubuntu.com/locator/ec2/
@@ -38,12 +39,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     aws.region = "us-east-1"
     aws.instance_type = "m3.medium"
 
-    aws.security_groups = ["Widely open"]
+    aws.security_groups = ["Widely open"] # you have to add this security group on the selected region
     aws.tags = {
       'Name' => 'x2go',
     }
     override.ssh.username = "ubuntu"
-    override.ssh.private_key_path = "/home/ali/Downloads/vagrant.pem"
     override.vm.box = "dummy"
     override.vm.box_url = "https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box"
   end
