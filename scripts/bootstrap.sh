@@ -1,7 +1,11 @@
 #!/bin/bash
 
-BASEDIR=/usr/local/tunapanda
-pushd $BASEDIR &> /dev/null
+PROVREPO=https://github.com/usernamenumber/provision 
+
+pushd `dirname $0` > /dev/null
+BASEDIR=`pwd`
+SCRIPTNAME="$(basename $0)"
+SCRIPTFULLNAME="${BASEDIR}/${SCRIPTNAME}"
 
 function die() {
 	echo ""
@@ -39,6 +43,36 @@ function is_installed() {
 }
 
 has_internet || note "No net connection found. Some actions will be skipped..." 
+
+is_installed git || apt-get install -y git
+if [ ! -e $BASEDIR/provisioning ]
+then
+	step "Getting provisioning data"
+	has_internet || die "Provisioning not installend, and no Internet connection found. Can't do anything"
+	git clone $PROVREPO $BASEDIR/provisioning
+else
+	step "Updating existing provisioning data"
+	if ! has_internet
+	then 
+		note "No Internet connection, skipping update of provisioning data"
+	else
+		pushd $BASEDIR/provisioning
+		git pull	
+		popd
+	fi
+fi 
+
+if [ ! -L $0 ]
+	note "Swapping this script for the version in the provisioning repo. The script will now restart."
+	ln -sf provisioning/scripts/$SCRIPTNAME $0
+	exec $0
+fi
+
+if ! grep "$SCRIPTFULLNAME" /etc/rc.local
+then
+	step "Setting this script to run at boot"
+	echo "[ -f $SCRIPTFULLNAME ] && $SCRIPTFULLNAME" >> /etc/rc.local
+fi
 
 if dpkg -l language-pack-en-base &> /dev/null
 then
@@ -90,29 +124,6 @@ step "Loading SSH keys"
 eval `ssh-agent -s`
 ssh-add ~/.ssh/provisioning
 ssh -o StrictHostKeyChecking=no localhost echo 'User key works, host key added!'
-
-if [ ! -e $BASEDIR/provisioning ]
-then
-	step "Getting provisioning data"
-	has_internet || die "Provisioning not installend, and no Internet connection found. Can't do anything"
-	git clone https://github.com/tunapanda/provision $BASEDIR/provisioning
-else
-	step "Updating existing provisioning data"
-	if ! has_internet
-	then 
-		note "No Internet connection, skipping update of provisioning data"
-	else
-		pushd $BASEDIR/provisioning
-		git pull	
-		popd
-	fi
-fi 
-
-if [ ! -L $0 ]
-	note "Swapping this script for the version in the provisioning repo. The script will now restart."
-	ln -sf $BASEDIR/provisioning/scripts/setup.sh $0
-	exec $0
-fi
 
 [ ! -d $BASEDIR/provisioning ] && die 'Looks like we were unable to check out the provisioning data. Nothing to do now!'
 
