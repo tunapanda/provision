@@ -55,12 +55,24 @@ function has_internet() {
 	return $HAS_INTERNET
 }
 
-
 function is_installed() {
 	[ $# -eq 0 ] && return 2
 	which $1 &> /dev/null
 	return $?
 }
+
+#if [ $1 == '--list' ] 
+#then
+#    echo "YRX"
+#    exit
+#else if [ $1 == "--host" ] 
+#then
+#    echo "%@W" 
+#else
+#    echo "3"
+#fi
+#
+#exit 
 
 has_internet || note "No net connection found. Some actions will be skipped..." 
 
@@ -69,9 +81,9 @@ then
     note "No Internet connection. Skipping update of provisioning data"
 else
     step "Updating provisioning data"
-    pushd $REPODIR
+    pushd $REPODIR > /dev/null
     git pull
-    popd
+    popd > /dev/null
 fi
 
 if $ATBOOT && ! grep $SCRIPTFULLNAME /etc/rc.local &>/dev/null 
@@ -93,6 +105,7 @@ then
 			echo "[ -f $SCRIPTFULLNAME ] && $SCRIPTFULLNAME"  
 		fi
 	)  > /etc/rc.local
+fi
 
 if dpkg -l language-pack-en-base &> /dev/null
 then
@@ -145,11 +158,10 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/provisioning
 ssh -o StrictHostKeyChecking=no localhost echo 'User key works, host key added!'
 
-[ ! -d $BASEDIR/provisioning ] && die 'Looks like we were unable to check out the provisioning data. Nothing to do now!'
-
-step "Testing Ansible"
+step "Running Ansible"
+pwd
 export ANSIBLE_HOST_KEY_CHECKING=False
-ansible local -m ping
+ansible-playbook -i $SCRIPTDIR/bootstrap_inventory.py $REPODIR/ansible/main.yml
 
 echo ""
 echo '*** ALL DONE! ***'

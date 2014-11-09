@@ -1,0 +1,4 @@
+---
+shell: "echo cubievar in cubie: {{cubievar}} >> /tmp/test"
+shell: "echo globalvar in cubie: {{globalvar}} >> /tmp/test"
+#shell: "echo commonvar in cubie: {{commonvar}} >> /tmp/test"
