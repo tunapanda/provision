@@ -1,0 +1,28 @@
+#!/usr/bin/python
+"""
+Test if the machine is online with as little external dependency as possible.
+
+Ping is not reliable since sometimes icmp is just blocked. host/dig/gethostip seem to actually be less commonly installed on some distros (particularly ones designed for the cubietruck) than Python.
+
+The techniques here are mostly taken from two stackexchange posts:
+    http://stackoverflow.com/questions/2575760/python-lookup-hostname-from-ip-with-1-second-timeout
+    http://stackoverflow.com/questions/492519/timeout-on-a-python-function-call
+"""
+import signal, socket, sys
+
+# Name to try resolving
+LOOKUP_HOSTNAME="www.google.com"
+# Max number of seconds to wait for it to resolve
+TIMEOUT_SECS=5
+
+# Apparently this method isn't always implemented?
+# ...ugh. Doesn't seem to be working anyway.
+try:
+    socket.setdefaulttimeout(TIMEOUT_SECS)
+except:
+    pass
+
+try:
+    socket.gethostbyname(LOOKUP_HOSTNAME)
+except socket.gaierror:
+    sys.exit(1)
