@@ -1,6 +1,8 @@
 ---
 # Teacher account (password 'Tunapanda2')
-- user: name=teacher groups=admin shell=/bin/bash password='$6$rounds=100000$n/tP8Zo.SDVWsI2V$W.tfpo74.ZzmdO1Uv6cXvqn.v31YgheQT1ACbwWXRot2p2HJ8AXk/voPpphHEXymMohwKpf6PFihEdc7uKgsR/'
+- user: name=teacher shell=/bin/bash password='$6$rounds=100000$n/tP8Zo.SDVWsI2V$W.tfpo74.ZzmdO1Uv6cXvqn.v31YgheQT1ACbwWXRot2p2HJ8AXk/voPpphHEXymMohwKpf6PFihEdc7uKgsR/'
+- name: configure sudoers
+  lineinfile: dest=/etc/sudoers backup=yes state=present regexp='^%UBUNTU' insertafter="^# %wheel" line='%UBUNTU ALL=(ALL) ALL'
 
 # Student accounts (password 'changeme')
 - user: name={{ item }} shell=/bin/bash password='$6$rounds=100000$1NOGcsJFKk8qXjLZ$JYXYslwfXejJbrAu2apTVvcjRXtdKveICJgw3UxAMaGlxx.1SrH5QAiQgzkL9wDuFTBfdUq9YWL6S3ew8zhzw/'

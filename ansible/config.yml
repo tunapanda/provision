@@ -1,3 +1,8 @@
 ---
+#globalvar: GLOBAL
+data_dir: "/usr/local/tunapanda"
+vagrant_share: "/vagrant"
+apache_dir: "/etc/apache2"
+
 # You can override any of the variabes defined in 
 # roles/*/vars/main.yml here.

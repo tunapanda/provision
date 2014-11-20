@@ -10,5 +10,5 @@
 - name: Start GUI
   service: name=lightdm state=started
   
-- include: artwork.yaml
+- include: artwork.yml
   when: desktop__custom_artwork

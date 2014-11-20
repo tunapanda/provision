@@ -1,14 +1,11 @@
 ---
 - hosts: all
-  vars:
-    data_dir: "/usr/local/tunapanda"
-    vagrant_share: "/vagrant"
-    apache_dir: "/etc/apache2"
   vars_files:
     - config.yml
   tasks:
     - shell: "echo Provisioned on $(date) > {{ data_dir }}/provisioning.txt"
   roles:
+    - { role: common }
     - { role: external_data_drive, when: external_data_drive__enabled }
     - { role: users, when: users__enabled }
     - { role: apt_basic, when: apt_basic__enabled }
@@ -21,3 +18,9 @@
   handlers:
     - name: restart apache
       service: name=apache2 state=restarted
+
+- hosts: cubietruck
+  vars_files:
+    - config.yml
+  roles:
+    - { role: cubietruck }
