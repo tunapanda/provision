@@ -3,6 +3,14 @@
 data_dir: "/usr/local/tunapanda"
 vagrant_share: "/vagrant"
 apache_dir: "/etc/apache2"
+apache_docroot: "/var/www"
+
+# Quick hack. These will be replaced with something
+# more flexible
+wired_ip: 192.168.2.3
+wired_netmask: 255.255.255.0
+wireless_ip: 10.2.2.1
+wireless_netmask: 255.255.255.0
 
 # You can override any of the variabes defined in 
 # roles/*/vars/main.yml here.
