@@ -21,8 +21,10 @@ def disable_all_roles():
 # Naively assume that any ARM machine
 # counts as a Cubietruck for provisioning
 if "arm" in platform.machine():
+    enabled_roles = ["kalite","wikipedia"]
     disable_all_roles()
-    options["users__enabled"] = True
+    for role in enabled_roles:
+        options[role + "__enabled"] = True
     options["invvar"] = "INV"
     groups.append("cubietruck")
 
