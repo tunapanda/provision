@@ -4,6 +4,7 @@
 - name: configure sudoers
   lineinfile: dest=/etc/sudoers backup=yes state=present regexp='^%UBUNTU' insertafter="^# %wheel" line='%UBUNTU ALL=(ALL) ALL'
 
+## TODO: Only do this if user doesn't exist!!
 # Student accounts (password 'changeme')
 - user: name={{ item }} shell=/bin/bash password='$6$rounds=100000$1NOGcsJFKk8qXjLZ$JYXYslwfXejJbrAu2apTVvcjRXtdKveICJgw3UxAMaGlxx.1SrH5QAiQgzkL9wDuFTBfdUq9YWL6S3ew8zhzw/'
   with_sequence: start=1 end={{ users__num_students }} format=student%02d
