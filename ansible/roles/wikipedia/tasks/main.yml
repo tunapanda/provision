@@ -13,7 +13,10 @@
     - speling
 
 - name: Add wikipedia aliases to /etc/hosts
-  lineinfile: dest=/etc/hosts line="127.0.0.1 wikipedia www.wikipedia.org en.wikipedia.org wikipedia.org"
+  lineinfile: 
+    dest=/etc/hosts 
+    line="127.0.0.1 wikipedia www.wikipedia.org en.wikipedia.org wikipedia.org"
+    regexp="^[^#].*wikipedia.org.*"
 #- name: Install tunapanda-wikipedia
 #  apt: name=tunapanda-wikipedia state=latest update_cache=yes force=yes
 - name: Creating Apache config
@@ -28,6 +31,12 @@
     state: link
   notify:
     - restart apache
+
+- name: Linking Apache document root
+  file: 
+    src:  "{{ wikipedia__data_dir }}" 
+    path: "{{ apache_docroot }}/wikipedia"
+    state: link
     
 - name: Creating data dir {{ wikipedia__data_dir }}
   file: path={{ wikipedia__data_dir }} state=directory
@@ -37,6 +46,6 @@
   register: is_mounted
   ignore_errors: True
   
-- name: Mounting {{ wikipedia__data_dir }}
-  command: mount --bind {{ vagrant_share }}/ansible/roles/wikipedia/data {{ wikipedia__data_dir }}
-  when: is_mounted|failed
+#- name: Mounting {{ wikipedia__data_dir }}
+#  command: mount --bind {{ vagrant_share }}/ansible/roles/wikipedia/data {{ wikipedia__data_dir }}
+#  when: is_mounted|failed
