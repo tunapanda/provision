@@ -23,5 +23,14 @@
 - hosts: cubietruck
   vars_files:
     - config.yml
+    - config.cubietruck.yml
   roles:
     - { role: cubietruck }
+
+- hosts: wap
+  vars_files:
+    - config.yml
+    - config.wap.yml
+  roles:
+    - { role: wap }
+    - { role: debops.dhcpd }

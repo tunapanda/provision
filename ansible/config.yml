@@ -12,5 +12,7 @@ wired_netmask: 255.255.255.0
 wireless_ip: 10.2.2.1
 wireless_netmask: 255.255.255.0
 
+wap_interface: wlan1
+
 # You can override any of the variabes defined in 
 # roles/*/vars/main.yml here.
