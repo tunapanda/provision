@@ -11,6 +11,7 @@
     - { role: apt_basic, when: apt_basic__enabled }
     - { role: apt_localrepo, when: apt_localrepo__enabled }
     - { role: desktop, when: desktop__enabled }
+    - { role: wap, when: wap__enabled }
     - { role: kalite, when: kalite__enabled }
     - { role: wikipedia, when: wikipedia__enabled }
     # Always run this one last, since it will build the ISO
@@ -22,5 +23,14 @@
 - hosts: cubietruck
   vars_files:
     - config.yml
+    - config.cubietruck.yml
   roles:
     - { role: cubietruck }
+
+- hosts: wap
+  vars_files:
+    - config.yml
+    - config.wap.yml
+  roles:
+    - { role: wap }
+    - { role: debops.dhcpd }

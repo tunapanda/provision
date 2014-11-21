@@ -1,0 +1,6 @@
+---
+wap__enabled: true
+wap__data_static_ip: "192.168.2.3"
+wap__data_wlan: "wlan1"
+wap__data_ssid: "x2go"
+wap__data_domain: "x2go.org"

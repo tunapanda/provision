@@ -1,0 +1,54 @@
+---
+# Need to load module bcmdhd. Edit /etc/modules to include bcmdhd
+# TODO: This does not actually reload the module with the desired arguments
+# There must be a reliable way that doesn't require a reboot. Investigate.
+- lineinfile:
+    dest=/etc/modules
+    line="bcmdhd op_mode=2"
+    regexp="^bcmdhd"
+
+# Install the package "hostapd"
+- apt: name=hostapd state=present
+
+# Install the package "isc-dhcp-server"
+- apt: name=isc-dhcp-server state=present
+
+- name: hostapd configuration
+  template:
+      src="hostapd-conf.j2"
+      dest=/etc/hostapd.conf
+      backup=yes
+
+- name: set hostapd to use config file
+  lineinfile: 
+      dest=/etc/default/hostapd
+      regexp="^DAEMON_CONF=.*"
+      line="DAEMON_CONF=/etc/hostapd.conf"
+  notify: restart hostapd
+
+
+# Setup network interface
+#- lineinfile: dest=/etc/network/interfaces insertafter="^iface lo inet loopback" line="dns-nameservers 8.8.8.8"
+#- replace: dest=/etc/network/interfaces regexp='inet dhcp$' replace='inet static' backup=no
+#- lineinfile: dest=/etc/network/interfaces insertafter="^iface eth0 inet static" line="address {{ wap__data_static_ip }}"
+#- lineinfile: dest=/etc/network/interfaces insertafter="^address {{ wired_ip }}" line="netmask {{ wired_netmask }}"
+#- lineinfile: dest=/etc/network/interfaces insertafter="^netmask 255.255.255.0" line="gateway 192.168.1.1"
+#- lineinfile: dest=/etc/network/interfaces insertafter=EOF line="up echo 1 > /proc/sys/net/ipv4/ip_forward"
+#- lineinfile: dest=/etc/network/interfaces insertafter=EOF line="iface {{ wap__data_wlan }} inet static"
+#- lineinfile: dest=/etc/network/interfaces insertafter="^iface {{ wap__data_wlan }} inet static" line="address 10.0.0.1"
+#- lineinfile: dest=/etc/network/interfaces insertafter="^address 10.0.0.1" line="netmask 255.255.255.0"
+
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^max-lease-time 7200;" line="option subnet-mask 255.255.255.0;"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^option subnet-mask 255.255.255.0;" line="option broadcast-address 10.0.0.255;"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^option broadcast-address 10.0.0.255;" line="option routers 10.0.0.1;"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^option routers 10.0.0.1;" line="option domain-name-servers {{ wap__data_static_ip }}, 8.8.8.8;"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^option domain-name-servers {{ wap__data_static_ip }}, 8.8.8.8;" line="option domain-name \"{{ wap__data_domain }}\";"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^option domain-name \"{{ wap__data_domain }}\";" line="subnet 10.0.0.0 netmask 255.255.255.0 {"
+#- lineinfile: dest=/etc/dhcp/dhcpd.conf insertafter="^subnet 10.0.0.0 netmask 255.255.255.0 {" line="range 10.0.0.10 10.0.0.100; }"
+## activate {{ wap__data_wlan }}, hostapd and isc-dhcp-server
+#- lineinfile: dest=/etc/rc.local insertbefore="^exit 0" line="/sbin/ifconfig {{ wap__data_wlan }} 10.0.0.1 netmask 255.255.255.0 up"
+#- lineinfile: dest=/etc/rc.local insertafter="^/sbin/ifconfig {{ wap__data_wlan }} 10.0.0.1 netmask 255.255.255.0 up" line="/usr/sbin/hostapd /etc/hostapd/hostapd.conf -B"
+#- lineinfile: dest=/etc/rc.local insertafter="^/usr/sbin/hostapd /etc/hostapd/hostapd.conf -B" line="/etc/init.d/isc-dhcp-server start"
+
+#- name: restart machine
+#  command: shutdown -r now "Ansible updates triggered"
