@@ -7,6 +7,8 @@
 - name: Adding alias to /etc/hosts
   lineinfile: dest=/etc/hosts line="127.0.0.1 kalite"
 
+# This need to only happen if /ansible exists
+# can't use it in all cases, e.g. bootstrapping
 - name: Checking mount status of {{ kalite__data_dir }}
   shell: mount | grep {{ kalite__data_dir }}
   register: is_mounted
@@ -16,9 +18,15 @@
   file: path={{ kalite__data_dir }} state=directory force=no
   when: is_mounted|failed
 
-- name: Mounting {{ kalite__data_dir }}
-  command: mount --bind /vagrant/ansible/roles/kalite/data {{ kalite__data_dir }}
-  when: is_mounted|failed
+#- name: Mounting {{ kalite__data_dir }}
+#  command: mount --bind data {{ kalite__data_dir }}
+#  when: is_mounted|failed 
+
+- name: Getting kalite code
+  git: repo={{ kalite__git_source }} dest={{ kalite__data_dir }}
+
+- name: Set kalite user
+  file: path={{ kalite__data_dir }} owner={{ kalite__user }} recurse=true
 
 - name: Setting up kalite
   command: kalite/manage.py setup -u teacher -p Tunapanda2 -o kalite -d "Tunapanda classroom server" -n

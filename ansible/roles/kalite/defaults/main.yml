@@ -1,3 +1,5 @@
 ---
 kalite__enabled: true
 kalite__data_dir: "{{ data_dir }}/data/ka-lite"
+kalite__user: teacher
+kalite__git_source: https://github.com/tunapanda/ka-lite
