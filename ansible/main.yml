@@ -33,4 +33,3 @@
     - config.wap.yml
   roles:
     - { role: wap }
-    - { role: debops.dhcpd }
