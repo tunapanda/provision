@@ -32,5 +32,7 @@
     - config.yml
     - config.wap.yml
   roles:
-    - { role: wap }
-    - { role: debops.dhcpd }
+    #- { role: debops.dhcpd }
+    - { role: portal }
+    #- { role: kalite }
+   # - { role: bind }

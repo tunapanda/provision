@@ -1,0 +1,3 @@
+---
+dhcpd__config_file: "/etc/dhcpd.conf"
+dhcpd__service_name: "isc-dhcp-server"

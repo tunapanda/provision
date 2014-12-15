@@ -87,7 +87,7 @@ then
 else
     step "Updating provisioning data"
     pushd $REPODIR > /dev/null
-    git pull
+    git pull --no-edit
     popd > /dev/null
 fi
 
@@ -145,11 +145,11 @@ fi
 
 is_installed ansible || die "Looks like we were unable to install ansible. Maybe a networking problem?"
 
-if has_internet
-then
-	step "Getting required ansible roles"
-	ansible-galaxy install debops.dhcpd
-fi
+#if has_internet
+#then
+#	step "Getting required ansible roles"
+#	ansible-galaxy install debops.dhcpd
+#fi
 	
 if [ ! -f ~/.ssh/provisioning ]
 then

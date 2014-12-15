@@ -1,0 +1,26 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          iptables
+# Required-Start:    $local_fs $remote_fs $network $syslog 
+# Required-Stop:     $local_fs $remote_fs $network $syslog 
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# X-Interactive:     true
+# Short-Description: Load/unload iptables firewall rules
+### END INIT INFO
+
+
+case $1 in
+	start)
+		log_daemon_msg "Loading iptables rules" "iptables"
+		{{ iptables__load_script }}
+	;;
+	stop)
+		log_daemon_msg "Clearing iptables rules" "iptables"
+		{{ iptables__clear_script }}
+	;;
+	reload | restart)
+                log_daemon_msg "Reloading iptables rules"
+		{{ iptables__load_script }}
+	;;
+esac

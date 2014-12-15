@@ -4,6 +4,7 @@ data_dir: "/usr/local/tunapanda"
 vagrant_share: "/vagrant"
 apache_dir: "/etc/apache2"
 apache_docroot: "/var/www"
+apache_user: "www-data"
 
 # Quick hack. These will be replaced with something
 # more flexible

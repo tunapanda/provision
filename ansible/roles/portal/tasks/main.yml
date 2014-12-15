@@ -1,0 +1,36 @@
+---
+- name: Installing captive portal dependencies
+  apt:
+    name="{{ item }}"
+    state=installed
+  with_items:
+     - conntrack
+     - psmisc
+
+- name: Adding sudo rules for captive portal
+  template:
+    src="portal_sudo.j2"
+    dest="/etc/sudoers.d/portal"
+
+- name: Linking portal content
+  file: 
+    path="{{ apache_docroot }}/portal/main" 
+    src="{{ data_dir }}/provision/ansible/roles/portal/web"
+    state=link
+
+- name: Installing rmtrack script
+  copy:
+    src=rmtrack
+    dest="/usr/bin/"
+
+- name: Installing captive portal login page
+  template:
+    src="auth.php.j2"
+    dest="{{ apache_docroot }}/portal/auth.php"
+
+- name: Setting up captive portal iptables rules
+  template:
+    src=firewall_rules.j2
+    dest="{{ iptables__rules_dir }}/captive_portal"
+  notify:
+    - reload iptables

@@ -2,16 +2,19 @@
 # Need to load module bcmdhd. Edit /etc/modules to include bcmdhd
 # TODO: This does not actually reload the module with the desired arguments
 # There must be a reliable way that doesn't require a reboot. Investigate.
-- lineinfile:
+
+- name: Loading wifi module with WAP mode enabled
+  lineinfile:
     dest=/etc/modules
     line="bcmdhd op_mode=2"
     regexp="^bcmdhd"
-
-# Install the package "hostapd"
-- apt: name=hostapd state=present
-
-# Install the package "isc-dhcp-server"
-- apt: name=isc-dhcp-server state=present
+    
+- name: Installing hostapd dependencies
+  apt: 
+    name={{ item }} 
+    state=installed
+  with_items:
+    - hostapd
 
 - name: hostapd configuration
   template:

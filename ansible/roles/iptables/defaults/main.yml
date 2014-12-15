@@ -1,0 +1,5 @@
+---
+iptables__base_dir: "{{ data_dir }}/data/iptables"
+iptables__rules_dir: "{{ iptables__base_dir }}/rules.d"
+iptables__load_script: "{{ iptables__base_dir }}/load.sh"
+iptables__clear_script: "{{ iptables__base_dir }}/clear.sh"

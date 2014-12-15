@@ -1,0 +1,8 @@
+# robotstxt.org/
+# robots.txt generated at http://www.mcanerin.com
+Sitemap: http://fspa.demo.omardo.com/sitemap.xml
+
+User-agent: *
+Disallow: /mail-sent.html
+Disallow: /mail-error.html
+Disallow: /mail.php
