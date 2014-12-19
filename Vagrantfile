@@ -20,6 +20,34 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.gui = true
   end
 
+  config.vm.provider :aws do |aws, override|
+    aws.access_key_id = ENV['AWS_KEY']
+    aws.secret_access_key = ENV['AWS_SECRET']
+    aws.keypair_name = ENV['AWS_KEYNAME']
+    override.ssh.private_key_path = ENV['AWS_KEYPATH']
+
+
+    # http://cloud-images.ubuntu.com/locator/ec2/
+    aws.ami = "ami-ecda6c84" # ubuntu 12.04 64
+
+    # This one is a 2 years old experiment so it might not be so good
+    # http://cloud.ubuntu.com/2012/05/ready-to-try-arm-on-the-cloud-try-it-on-amazon-ec2/
+    # aws.ami = "ami-aef328c7" # ubuntu 12.04 arm image
+
+
+
+    aws.region = "us-east-1"
+    aws.instance_type = "m3.medium"
+
+    aws.security_groups = ["Widely open"] # you have to add this security group on the selected region
+    aws.tags = {
+      'Name' => 'x2go',
+    }
+    override.ssh.username = "ubuntu"
+    override.vm.box = "dummy"
+    override.vm.box_url = "https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box"
+  end
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
