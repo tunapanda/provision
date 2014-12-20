@@ -9,3 +9,5 @@ data/provisioning.txt
 data/packages/*
 !data/packages/README.md
 /.idea
+env.sh
+*.pem
