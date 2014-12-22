@@ -2,3 +2,13 @@
 #- shell: "echo testvar in common: {{testvar}} >> /tmp/test"
 - shell: "echo globalvar in common: {{globalvar}} >> /tmp/test"
 #- shell: "echo cubievar in common: {{cubievar}} >> /tmp/test"
+
+- name: Creating {{ data_dir }}
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - "{{ base_dir }}"
+    # TODO: replace when data_dir is set properly
+    - "{{ base_dir }}/data"
+    - "{{ bin_dir }}"

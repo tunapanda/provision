@@ -1,0 +1,3 @@
+---
+# Don't bother unless included as a dependency
+pip__enabled: false

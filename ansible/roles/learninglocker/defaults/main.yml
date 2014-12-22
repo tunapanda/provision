@@ -1,0 +1,7 @@
+---
+learninglocker__enabled: true
+learninglocker__baseurl: "{{ baseurl }}/learninglocker"
+learninglocker__basepath: "{{ apache_docroot }}/learninglocker"
+learninglocker__git:     "https://github.com/LearningLocker/learninglocker"
+# Release tag from https://github.com/LearningLocker/learninglocker/releases
+learninglocker__version: "v1.1.2"

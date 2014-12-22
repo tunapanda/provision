@@ -1,0 +1,3 @@
+---
+composer__enabled: true
+composer__cmd: "{{ bin_dir }}/composer.phar"

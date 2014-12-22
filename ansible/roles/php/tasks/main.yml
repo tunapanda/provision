@@ -1,0 +1,12 @@
+---
+- name: Update the apt cache unless it was just updated
+  apt: update_cache=yes cache_valid_time=10
+- name: Upgrade packages
+  apt: upgrade=yes
+  when: apt_basic__upgrade_packages
+  
+- name: Installing PHP
+  apt: name={{ item }} state=latest
+  with_items:
+    - php5
+
