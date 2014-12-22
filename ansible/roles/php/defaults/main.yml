@@ -1,0 +1,3 @@
+---
+# Don't install unless pulled in as a default
+php__enabled: false

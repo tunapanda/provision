@@ -1,0 +1,7 @@
+---
+- name: "Installing prerequisites"
+  apt: name="git" state="latest"
+
+- name: "Getting source"
+  pip: 
+    name="{{swag__repo}}"

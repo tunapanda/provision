@@ -1,0 +1,9 @@
+---
+- name: "Installing composer"
+  shell: "php -r \"readfile('https://getcomposer.org/installer');\" | php -- --install-dir={{bin_dir}} creates={{ composer__cmd }}"
+  
+- name: "Creating symlink in /usr/local/bin"
+  file: 
+    state=link
+    src="{{ composer__cmd }}"
+    dest="/usr/local/bin/composer"

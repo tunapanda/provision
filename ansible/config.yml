@@ -1,9 +1,14 @@
 ---
 #globalvar: GLOBAL
+base_dir: "/usr/local/tunapanda"
+bin_dir:  "{{base_dir}}/bin"
+# TODO: change this to point to the data subdir, 
+#       update references to it
 data_dir: "/usr/local/tunapanda"
 vagrant_share: "/vagrant"
 apache_dir: "/etc/apache2"
-apache_docroot: "/var/www"
+apache_docroot: "/var/www/html"
+apache_urlroot: "http://localhost"
 
 # Quick hack. These will be replaced with something
 # more flexible
@@ -16,3 +21,15 @@ wap_interface: wlan1
 
 # You can override any of the variabes defined in 
 # roles/*/vars/main.yml here.
+apt_basic__enabled: false
+apt_localrepo__enabled: false
+build_iso__enabled: false
+common__enabled: false
+cubietruck__enabled: false
+desktop__enabled: false
+external_data_drive__enabled: false
+kalite__enabled: false
+users__enabled: false
+wap__enabled: false
+wifi_ap__enabled: false
+wikipedia__enabled: false

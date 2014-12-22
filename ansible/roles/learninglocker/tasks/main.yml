@@ -1,0 +1,30 @@
+---
+- name: Installing dependencies (apt)
+  apt: name={{ item }} state=latest
+  with_items:
+    - php5
+    - mcrypt
+    - php5-mcrypt
+    - npm
+    - git
+  
+- name: "Activating mcrypt PHP extension"
+  command: "php5enmod mcrypt"
+  
+- name: Installing dependencies (npm)  
+  npm: name={{ item }} global=true state=latest
+  with_items:
+    - bower
+    
+- name: Getting LearningLocker sources
+  git: 
+    repo="{{ learninglocker__git }}"
+    dest="{{ learninglocker__basepath }}"
+    version="{{ learninglocker__version }}"
+    recursive=true
+    accept_hostkey=true
+  
+- name: Installing dependencies (composer)
+  composer: working_dir={{ learninglocker__basepath }}
+#  shell: "{{ composer__cmd }} install && date > composer_finished chdir={{ learninglocker__basepath }} creates={{ learninglocker__basepath }}/composer_finished"
+    
