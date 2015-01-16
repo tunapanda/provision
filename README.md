@@ -35,4 +35,4 @@ A "module" is an ansible role that deploys a particular service or configuration
   * Be sure to make any [variables](http://docs.ansible.com/playbooks_variables.html) defined in your role's `vars/` directory follow the format `MODULE_NAME__VAR_NAME` (note the two underscores in the middle)
   * Be sure to include a `MODULE_NAME__enabled` variable.
 2. Add a line to `ansible/main.yml`, following the format used for other roles in that file.
-  * *DO NOT* make your role execute unconditionally. Always use a `__enabled` variable!
+  * *DO NOT* make your role execute unconditionally. Always use a `__enabled` variable!  
