@@ -10,12 +10,34 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   config.vm.box = "hashicorp/precise64"
-  #config.vm.provision "shell", path: "script.sh"
-  config.vm.provision "ansible" do |ansible|
-    ansible.verbose = "vvvv"
-    ansible.playbook = "ansible/main.yml"
-    ansible.sudo = true
-  end
+  config.vm.synced_folder ".", "/usr/local/tunapanda/provision"
+
+  # These environment vars can be used to alter the behavior of
+  # the bootstrapping script.
+$script = <<SCRIPT
+export PROVISION_BASE_DIR="#{ENV['PROVISION_BASE_DIR']}"
+export PROVISION_CORE_REPO="#{ENV['PROVISION_CORE_REPO']}"
+export PROVISION_CORE_DIR="#{ENV['PROVISION_CORE_DIR']}"
+export PROVISION_CORE_PLAYBOOK="#{ENV['PROVISION_CORE_PLAYBOOK']}"
+export PROVISION_CORE_INVENTORY="#{ENV['PROVISION_CORE_INVENTORY']}"
+export PROVISION_CORE_VERSION="#{ENV['PROVISION_CORE_VERSION']}"
+export PROVISION_BOOTSTRAP_DIR="#{ENV['PROVISION_BOOTSTRAP_DIR']}"
+export PROVISION_BOOTSTRAP_PLAYBOOK="#{ENV['PROVISION_BOOTSTRAP_PLAYBOOK']}"
+export PROVISION_BOOTSTRAP_INVENTORY="#{ENV['PROVISION_BOOTSTRAP_INVENTORY']}"
+export PROVISION_BOOTSTRAP_FALLBACK_URL="#{ENV['PROVISION_BOOTSTRAP_FALLBACK_URL']}"
+/usr/local/tunapanda/provision/scripts/bootstrap.sh
+SCRIPT
+
+  config.vm.provision "shell", inline: $script, keep_color: true
+  #config.vm.provision "shell", path: "scripts/bootstrap.sh", keep_color: true
+
+### Uncomment this block for the old vagrant-based ansible 
+#  config.vm.provision "ansible" do |ansible|
+#    ansible.verbose = "vvvv"
+#    ansible.playbook = "playbooks/main.yml"
+#    ansible.sudo = true
+#  end
+
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
   end
@@ -33,8 +55,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # This one is a 2 years old experiment so it might not be so good
     # http://cloud.ubuntu.com/2012/05/ready-to-try-arm-on-the-cloud-try-it-on-amazon-ec2/
     # aws.ami = "ami-aef328c7" # ubuntu 12.04 arm image
-
-
 
     aws.region = "us-east-1"
     aws.instance_type = "m3.medium"
@@ -60,7 +80,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  # config.vm.network "private_network", ip: "192.168.33.10"
+  config.vm.network "private_network", ip: "192.168.33.10"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -69,7 +89,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
-  # config.ssh.forward_agent = true
+  config.ssh.forward_agent = true
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is

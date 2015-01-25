@@ -1,5 +1,0 @@
-#Rule for the detection of MY USB Stick
-#Adapted from http://ubuntuforums.org/showthread.php?t=1273548
-ACTION!="add", GOTO="mystick_add_end"
-KERNEL=="sd?1", ENV{ID_FS_LABEL}=="{{ external_data_drive__disklabel }}", RUN+="{{ data_dir }}/bin/mount_external_drive"
-LABEL="mystick_add_end"

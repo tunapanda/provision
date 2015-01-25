@@ -1,0 +1,32 @@
+---
+# Need to load module bcmdhd. Edit /etc/modules to include bcmdhd
+# TODO: This does not actually reload the module with the desired arguments
+# There must be a reliable way that doesn't require a reboot. Investigate.
+
+# Install the package "hostapd"
+- apt: name=hostapd state=present
+
+- name: hostapd configuration
+  template:
+      src="hostapd-conf.j2"
+      dest=/etc/hostapd.conf
+      backup=yes
+
+- name: set hostapd to use config file
+  lineinfile: 
+      dest=/etc/default/hostapd
+      regexp="^DAEMON_CONF=.*"
+      line="DAEMON_CONF=/etc/hostapd.conf"
+  notify: restart hostapd
+
+- name: IP masquerading
+  template:
+      src="firewall/masquerade.j2"
+      dest="{{ iptables__rules_dir }}/masquerade.conf"
+      backup=yes
+  notify: reload iptables
+
+- name: Hostapd should be running
+  service: 
+    name=hostapd
+    state=started

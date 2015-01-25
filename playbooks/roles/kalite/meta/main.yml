@@ -1,0 +1,8 @@
+---
+dependencies:
+  - { role: users }
+  - role: portal_subsite
+    portal__subsites:
+      - name: "kalite"
+        urlpath: "{{ kalite__urlpath }}"
+        port: "{{ kalite__port }}"

@@ -1,4 +1,0 @@
----
-external_data_drive__enabled: true
-external_data_drive__disklabel: "TUNAPANDA_DATA"
-external_data_drive__mountpoint: "{{ data_dir }}/data_ext"

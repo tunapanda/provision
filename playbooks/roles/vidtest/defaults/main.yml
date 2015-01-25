@@ -1,0 +1,5 @@
+---
+    vidtest__enabled: false
+    vidtest__docroot: "{{ provision__base_dir }}/provision/playbooks/roles/vidtest/data/site"
+    vidtest__urlpath: "/vidtest"
+    vidtest__port: 8901

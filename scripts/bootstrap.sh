@@ -1,30 +1,6 @@
 #!/bin/bash
 
-# Configs
-ATBOOT=false
-
-# Get the absolute path of this script
-cd `dirname $0` > /dev/null
-SCRIPTDIR=$(pwd)
-SCRIPTNAME="$(basename $0)"
-SCRIPTFULLNAME="${SCRIPTDIR}/${SCRIPTNAME}"
-
-# Work backward from the script's location to find
-# the git repository root
-REPODIR=$SCRIPTDIR
-while [ ! -d "$REPODIR/.git" ] ; 
-do
-        REPODIR="$REPODIR/.." 
-done
-# Get a nicer looking path with all the '/..'s
-cd $REPODIR
-REPODIR=$(pwd)
-
-# Base dir is assumed to be the parent of the git repo
-cd ..
-BASEDIR=$(pwd)
-
-# Fatal errors
+## Basic I/O functions
 function die() {
 	echo ""
 	echo "FATAL ERROR: $1" >&2
@@ -32,28 +8,45 @@ function die() {
 	exit 1
 }
 
-# Notifications and warnings
 function note() {
 	echo ""
 	echo "NOTICE: $1" >&2
 	echo ""
 }
 
-# Action messages
 function step() {
 	echo ""
 	echo "== $1"
 }
 
+## Configs
+# All of these can be overridden by setting them as environment vars
+PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-true}
+PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/usr/local/tunapanda"}
+## TODO: Change usernamenumber URLs back to tunapanda
+PROVISION_CORE_REPO=${PROVISION_CORE_REPO:-"http://github.com/usernamenumber/provision"}
+PROVISION_CORE_DIR=${PROVISION_CORE_DIR:-"${PROVISION_BASE_DIR}/provision"}
+PROVISION_CORE_INVENTORY=${PROVISION_CORE_INVENTORY:-"${PROVISION_CORE_DIR}/scripts/inventory.py"}
+PROVISION_CORE_VERSION="${PROVISION_CORE_VERSION:-}" # default to current branch or master if no repo
+PROVISION_CORE_PLAYBOOK=${PROVISION_CORE_PLAYBOOK:-"${PROVISION_CORE_DIR}/playbooks/main.yml"}
+
+CUSTOM_PLAYBOOK=${PROVISION_CORE_DIR}/custom.yml 
+if [ -f $CUSTOM_PLAYBOOK ]
+then
+    note "Using custom playbook $CUSTOM_PLAYBOOK"
+    PROVISION_CORE_PLAYBOOK=$CUSTOM_PLAYBOOK
+fi
+
+## Other support functions
 function has_internet() {
 	if [ -z "$HAS_INTERNET" ]
 	then
 		step "Checking internet access" 
-        if [ -f $SCRIPTDIR/has_internet ] 
+        if [ -f $PROVISION_CORE_DIR/scripts/has_internet ] 
         then
-            $SCRIPTDIR/has_internet
+            $PROVISION_CORE_DIR/scripts/has_internet
         else
-		    ping -c1 -t5 www.google.com &> /dev/null
+		    ping -c1 -w5 www.google.com #&> /dev/null
         fi
 		HAS_INTERNET=$?
 	fi
@@ -66,114 +59,170 @@ function is_installed() {
 	return $?
 }
 
-#if [ $1 == '--list' ] 
-#then
-#    echo "YRX"
-#    exit
-#else if [ $1 == "--host" ] 
-#then
-#    echo "%@W" 
-#else
-#    echo "3"
-#fi
-#
-#exit 
-
-has_internet || note "No net connection found. Some actions will be skipped..." 
-
-if ! has_internet
-then 
-    note "No Internet connection. Skipping update of provisioning data"
-else
-    step "Updating provisioning data"
-    pushd $REPODIR > /dev/null
-    git pull
-    popd > /dev/null
-fi
-
-if $ATBOOT && ! grep $SCRIPTFULLNAME /etc/rc.local &>/dev/null 
-then
-	step "Setting the script to run at boot time"
-	# This gets messy because Debian Wheezy's rc.local
-	# has an explicit call to 'exit 0' at the end, so
-	# we can't just append in that case
-	( 
-		if tail -n1 /etc/rc.local | grep '^exit 0'
-		then
-			head -n -1 /etc/rc.local
-			echo ""
-			echo "[ -f $SCRIPTFULLNAME ] && $SCRIPTFULLNAME" 
-			echo "exit 0"
-		else 
-			cat /etc/rc.local
-			echo ""
-			echo "[ -f $SCRIPTFULLNAME ] && $SCRIPTFULLNAME"  
-		fi
-	)  > /etc/rc.local
-fi
-
-if dpkg -l language-pack-en-base &> /dev/null
-then
-	step "Installing missing language pack"
-	has_internet && apt-get install -y language-pack-en-base
-fi
-
-if ! is_installed ansible
-then
-	step "Getting Ansible"
-	has_internet || die "Ansible not installed and no Internet connection found. Can't do anything."
-
-	if [ ! -f /etc/apt/sources.list.d/wheezy-backports.list ] 
+function get_url() {
+	if is_installed curl
 	then
-		step "Configuring backports repo"
-		cat > /etc/apt/sources.list.d/wheezy-backports.list <<EOF
-deb http://ftp.debian.org/debian/ wheezy-backports main contrib non-free
-deb-src http://ftp.debian.org/debian/ wheezy-backports main contrib non-free
-EOF
-		apt-get update
+		curl -o - "$1" 
+	elif is_installed wget
+	then
+		wget -O - "$1"
+	elif is_installed elinks
+	then
+		elinks -dump "$1"
+	else
+		die "Cannot retrieve urls. Please install curl, wget, or elinks"
 	fi
+}
 
-	step "Installing Ansible package"
-	apt-get install -y ansible
-
-	step "Setting up a basic Ansible hosts inventory"
-	cat >> /etc/ansible/hosts <<EOF
-[local]
-127.0.0.1
-EOF
-fi
-
-is_installed ansible || die "Looks like we were unable to install ansible. Maybe a networking problem?"
-
-if has_internet
+if [ $EUID -ne 0 ]
 then
-	step "Getting required ansible roles"
-	ansible-galaxy install debops.dhcpd
+	die 'Must be run as root!'
 fi
-	
-if [ ! -f ~/.ssh/provisioning ]
+
+# Update packages if the haven't been updated in the last 12 hours
+if has_internet && [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
+then
+	step "Updating package list"
+	apt-get update
+fi
+
+if ! is_installed git
+then
+	has_internet || die "git is required, but we can't install it without a net connection"	
+	step "Installing git"
+	apt-get install -y git
+fi
+
+if ! is_installed pip 
+then
+	has_internet || die "Pip is required, but we can't install it without a net connection"	
+	step "Installing pip dependencies"
+	apt-get install -y python-dev 
+	step "Getting pip"
+	get_url 'https://bootstrap.pypa.io/get-pip.py' | python
+	is_installed pip || die "Can't install pip. See: https://pip.pypa.io/en/latest/installing.html"
+fi
+
+if ! is_installed sshd 
+then
+	step "Installing ssh server"
+	has_internet || die "An ssh server is required, but we can't install it without a net connection"	
+	apt-get install -y openssh-server 
+	is_installed sshd || die "Something when wrong installing the ssh server. Cannot continue."
+fi
+
+if ! is_installed ansible 
+then
+	step "Installing Ansible"
+	has_internet || die "Ansible is required, but we can't install it without a net connection"	
+	apt-get install -y python-dev
+fi
+pip install --upgrade 'ansible>=1.6'
+is_installed ansible || die "Something went wrong installing ansible. Cannot continue."
+
+if [ ! -f /root/.ssh/provisioning ]
 then
 	step "Generating SSH keys for provisioning"
 
 	# Fun fact: apparently you can't generate a new passwordless key, but you can make
 	# it passwordless after creating it.
 	# Note the 'from=127.0.0.1' in authorized_keys2. This key can only be used locally!
-	ssh-keygen -f ~/.ssh/provisioning -N 1234567890 -q
-	ssh-keygen -f ~/.ssh/provisioning -p -P 1234567890 -N '' -q
+	ssh-keygen -f /root/.ssh/provisioning -N 1234567890 -q
+	ssh-keygen -f /root/.ssh/provisioning -p -P 1234567890 -N '' -q
 	echo $(cat ~/.ssh/provisioning.pub) from=127.0.0.1 >> ~/.ssh/authorized_keys2
-	chmod go-rwx ~/.ssh/authorized_keys2
+	chmod go-rwx /root/.ssh/authorized_keys2
 fi
 
 step "Loading SSH keys"
 eval `ssh-agent -s`
-ssh-add ~/.ssh/provisioning
-ssh -o StrictHostKeyChecking=no localhost echo 'User key works, host key added!'
+ssh-add /root/.ssh/provisioning
+ssh-add -l
+ssh -i /root/.ssh/provisioning -o StrictHostKeyChecking=no localhost echo 'User key works, host key added!'
 
-step "Running Ansible"
-pwd
+if [ -z "$PROVISION_CORE_VERSION" ]
+then
+    # If the repo has been checked out, use the current branch
+    if [ -d ${PROVISION_CORE_DIR}/.git ]
+    then
+        pushd $PROVISION_CORE_DIR > /dev/null
+        PROVISION_CORE_VERSION=$(basename $(git symbolic-ref HEAD))
+        popd > /dev/null
+    else
+        PROVISION_CORE_VERSION="master"
+    fi
+fi
+
+PROVISION_BOOTSTRAP_DIR="${PROVISION_BOOTSTRAP_DIR:-$PROVISION_CORE_DIR}"
+PROVISION_BOOTSTRAP_PLAYBOOK="${PROVISION_BOOTSTRAP_PLAYBOOK:=playbooks/bootstrap.yml}"
+PROVISION_BOOTSTRAP_FALLBACK_URL="${PROVISION_BOOTSTRAP_FALLBACK_URL:-https://raw.githubusercontent.com/usernamenumber/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap.yml}"
+PROVISION_BOOTSTRAP_INVENTORY=$PROVISION_CORE_INVENTORY
+# Can't find repo. Probably a fresh install, so download the bootstrap playbook
+if [ ! -e "$PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK" ]
+then
+	has_internet || die "Can't find bootstrap playbook, but no net access, so can't retrieve it either"
+	RAND=$RANDOM
+	PROVISION_BOOTSTRAP_DIR="/tmp"
+	PROVISION_BOOTSTRAP_PLAYBOOK="${RAND}bootstrap.yml"
+	PROVISION_BOOTSTRAP_INVENTORY="${RAND}inventory.ini"
+	step "Provisioning repo not found. Downloading fallback playbook for bootstrapping."
+	get_url $PROVISION_BOOTSTRAP_FALLBACK_URL > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK
+	# TODO: Fix this quick and dirty hack
+	get_url https://raw.githubusercontent.com/usernamenumber/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap_git.yml > bootstrap_git.yml || die "could not get bootstrap_git.yml"
+	cat > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_INVENTORY <<EOF
+[localhost]
+127.0.0.1
+EOF
+    cat > $PROVISION_BOOTSTRAP_DIR/ansible.cfg <<EOF
+[defaults]
+host_key_checking=False
+EOF
+fi
+
 export ANSIBLE_HOST_KEY_CHECKING=False
-ansible-playbook -vvv -i $SCRIPTDIR/bootstrap_inventory.py $REPODIR/ansible/main.yml
+# Cheap way to ensure that github's host key is known. Otherwise, even with the setting above,
+# ansible may stall if it tries to update a repo with an ssh url
+ssh -o StrictHostKeyChecking=no git@github.com 'true' &> /dev/null
+
+if $PROVISION_AUTO_UPDATE && has_internet 
+then
+    step "Running bootstrap playbook"
+    pushd ${PROVISION_BOOTSTRAP_DIR} > /dev/null
+    ansible-playbook -vvvv \
+        -i $PROVISION_BOOTSTRAP_INVENTORY \
+        -e "provision_ver=$PROVISION_CORE_VERSION provision_repo=$PROVISION_CORE_REPO provision_dir=$PROVISION_CORE_DIR" \
+        $PROVISION_BOOTSTRAP_PLAYBOOK || die "Could not run bootstrap playbook"
+    popd > /dev/null
+else 
+    note "No Internet, so skipping playbook updates"
+fi
+
+step "Generating roles.yml"
+pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
+cat > roles.yml <<EOF
+---
+### AUTO-GENERATED (changes will be lost) ###
+- hosts: all
+  handlers:
+    - name: reload nginx
+      service: name=nginx state=reloaded
+    
+  roles:
+EOF
+  for r in $(find roles/ -maxdepth 1 -mindepth 1 -type d -not -name provision_base)
+  do
+      f=$(basename $r);
+      echo "    - { role: $f, when: ${f}__enabled is defined and ${f}__enabled }" >> roles.yml
+  done
+popd > /dev/null
+
+step "Running core playbook, ${PROVISION_CORE_PLAYBOOK}"
+pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
+ansible-playbook -vvv \
+    -i $PROVISION_CORE_INVENTORY \
+    $PROVISION_CORE_PLAYBOOK || die "Could not run core playbook"
+popd > /dev/null
 
 echo ""
 echo '*** ALL DONE! ***'
 echo ""
+

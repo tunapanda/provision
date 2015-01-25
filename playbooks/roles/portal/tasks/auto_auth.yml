@@ -1,0 +1,23 @@
+---
+- name: Adding sudo rules for portal
+  template:
+    src="portal_sudo.j2"
+    dest="/etc/sudoers.d/portal"
+
+- name: Setting up captive portal iptables rules
+  template:
+    src="firewall/captive_portal.j2"
+    dest="{{ iptables__rules_dir }}/captive_portal"
+  notify:
+    - reload iptables
+
+- name: Installing portal login page
+  template:
+    src="site/auto_auth.php.j2"
+    dest="{{ portal__docroot }}/auth.php"
+
+- name: Creating portal users list 
+  file:
+    path="{{ portal__users }}"
+    state="touch"
+    owner="{{ apache_user }}" # TODO: replace with variable

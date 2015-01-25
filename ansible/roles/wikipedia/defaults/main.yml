@@ -1,3 +1,0 @@
----
-wikipedia__enabled: true
-wikipedia__data_dir: "{{ data_dir }}/data/wikipedia"
