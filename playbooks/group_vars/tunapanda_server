@@ -7,6 +7,9 @@
 ##
 
 # Network setup
+ifupdown_internal_interface: eth0
+portal__auth: "auto"
+portal__redirect: "{{ ansible_eth0 }}"
 ifupdown: True
 ifupdown_ignore_networkmanager: True
 ifupdown_interfaces: 
@@ -15,8 +18,6 @@ ifupdown_interfaces:
       options: | 
         address "10.0.0.1"
         netmask "255.0.0.0"
-
-portal__auth: "auto"
 
 # Enabled roles
 portal__enabled: true
