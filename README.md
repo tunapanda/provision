@@ -9,7 +9,7 @@ The idea is to do an automated provision a VM using [ansible](http://ansible.com
  * Virtualbox
  * Ansible
 2. Clone this repo
-3. (optional) Modify `ansible/config.yml` to enable and disable modules (see below) by setting `MODULE_NAME__enabled`
+3. (optional) Modify `playbooks/config.yml` to enable and disable modules (see below) by setting `MODULE_NAME__enabled`
   * Please **DO NOT** commit changes to this file. You can prevent git from commiting your changes by running `git update-index --assume-unchanged config.yml` (yes, we need to implement a better way to deal with this)
   * You can also use this file to override any other setting in `roles/*/vars/main.yml`
 3. In the repo dir, run `vagrant up`
@@ -31,8 +31,9 @@ If all goes well, a new ISO image will be created in `/vagrant/data/build` (aka 
 ## How do I add a module to it?
 A "module" is an ansible role that deploys a particular service or configuration
 
-1. Create a new [ansible role](http://docs.ansible.com/playbooks_roles.html#roles) directory in `ansible/roles/`
+1. Create a new [ansible role](http://docs.ansible.com/playbooks_roles.html#roles) directory in `playbooks/roles/`
   * Be sure to make any [variables](http://docs.ansible.com/playbooks_variables.html) defined in your role's `vars/` directory follow the format `MODULE_NAME__VAR_NAME` (note the two underscores in the middle)
   * Be sure to include a `MODULE_NAME__enabled` variable.
-2. Add a line to `ansible/main.yml`, following the format used for other roles in that file.
+2. Add a line to `playbooks/main.yml`, following the format used for other roles in that file.
   * *DO NOT* make your role execute unconditionally. Always use a `__enabled` variable!
+(test change)

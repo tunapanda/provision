@@ -1,0 +1,21 @@
+---
+portal__enabled: false
+portal__port: 80
+portal__title: "x2go - Education in a box"
+portal__description: "<p>x2go is a collection of free learning materials hosted in a standalone box without requiring internet.</p>"
+portal__base: "{{ provision__data_dir }}/portal"
+portal__docroot: "{{ portal__base }}/site"
+portal__site_content: "{{ provision__base_dir }}/provision/playbooks/roles/portal/data/site"
+portal__redirects: "{{ portal__base }}/subsites.d"
+portal__users: "{{ portal__base }}/authorized_clients"
+portal__capture_chain: "captive"
+# TODO figure out a way to get IP from ifupdown_external_interface
+portal__redirect: "{{ ansible_wlan0 }}" 
+portal__auth: "none"
+portal__auth_agreement_text: |
+    <p>By clicking this button, you agree to not be a jerk on the Internet.<br>
+    In exchange, you'll be given access to the Internet (when it's available)!<br>
+    Even without Internet access, you can access any of the sites and resources linked below.<br>
+    Please do not be a jerk on those sites either. Enjoy!</p>
+portal__auth_agreement_buttontext: "Ok, I won't be a jerk"
+

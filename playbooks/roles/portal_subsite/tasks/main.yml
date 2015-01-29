@@ -1,0 +1,10 @@
+---
+- shell: echo "{{ portal__subsites }}" | tee /tmp/subsites
+    
+- name: Deploy subsite redirect instructions
+  template:
+    src=nginx_portal_redirect.j2
+    dest={{ portal__redirects }}/{{ item.name }}
+    owner=root group={{ common_web_user }} mode=0640
+  with_items: portal__subsites
+  notify: reload nginx

@@ -1,0 +1,19 @@
+---
+- name: Adding sudo rules for portal
+  template:
+    src=portal_sudo.j2
+    dest=/etc/sudoers.d/portal
+
+- name: Setting up captive portal iptables rules
+  template:
+    src=firewall/captive_portal.j2
+    dest={{ iptables__rules_dir }}/captive_portal.conf
+  notify:
+    - reload iptables
+
+- name: Creating portal users list 
+  file:
+    path={{ portal__users }}
+    state=touch
+    mode=644
+    owner={{ apache_user }} 

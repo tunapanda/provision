@@ -1,3 +1,8 @@
-[submodule "data/build/packages_src"]
-	path = data/build/packages_src
-	url = git@github.com:tunapanda/packages
+[submodule "playbooks/roles/debops.ifupdown"]
+	path = playbooks/roles/debops.ifupdown
+	url = https://github.com/debops/ansible-ifupdown
+	branch = master
+[submodule "playbooks/roles/bind"]
+	path = playbooks/roles/bind
+	url = https://github.com/tunapanda/ansible-role-bind
+    	branch = master

@@ -4,8 +4,13 @@
 *.swp
 *~
 *.pyc
-ansible/roles/kalite/data/*
+playbooks/roles/kalite/data/*
 data/provisioning.txt
 data/packages/*
 !data/packages/README.md
 /.idea
+force_groups
+provisioning.txt
+playbooks/localconfig.yml
+playbooks/roles.yml
+ext/*

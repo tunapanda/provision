@@ -1,0 +1,3 @@
+{{ apache_user }} ALL = NOPASSWD: /sbin/iptables -I {{ portal__capture_chain }} 1 -t mangle -m mac --mac-source ??\:??\:??\:??\:??\:?? -j RETURN
+{{ apache_user }} ALL = NOPASSWD: /sbin/iptables -D {{ portal__capture_chain }} -t mangle -m mac --mac-source ??\:??\:??\:??\:??\:?? -j RETURN
+{{ apache_user }}  ALL = NOPASSWD: /usr/bin/rmtrack [0-9]*.[0-9]*.[0-9]*.[0-9]*

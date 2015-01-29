@@ -1,0 +1,30 @@
+---
+# This playbook requires the following variables to be set on the command line (ansible-playbook -e...)
+# Normally this is done from scripts/bootstrap.sh
+# - provision_repo
+# - provision_dir
+# - provision_ver
+- hosts: all
+  tasks:
+  - name: "install dependencies"
+    apt: 
+      name={{ item }}
+      state=installed
+    with_items:
+      - git
+
+  - name: "Cloning/updating core repo"
+    include: "bootstrap_git.yml"
+    vars:
+      dir: "{{ provision_dir }}"
+      repo: "{{ provision_repo }}"
+      ver: "{{ provision_ver }}"
+
+  - name: "provision at boot"
+    lineinfile:
+      dest="/etc/rc.local"
+      state="present"
+      regexp={{ provision_dir }}
+      insertbefore="^exit"
+      line="[ -x '{{ provision_dir }}/scripts/bootstrap.sh' ] && {{ provision_dir }}/scripts/bootstrap.sh"
+
