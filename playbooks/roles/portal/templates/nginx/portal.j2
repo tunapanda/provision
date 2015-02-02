@@ -10,8 +10,9 @@ server {
 
   location / {
           # First attempt to serve request as file, then
-          # as directory, then fall back to displaying a 404.
-          try_files $uri $uri/ /index.php /index.html;
+          # as directory, then fall back to internally
+          # redirecting to the portal's home page.
+          try_files $uri $uri/ /index.php;
           # Uncomment to enable naxsi on this location
           # include /etc/nginx/naxsi.rules
   }
