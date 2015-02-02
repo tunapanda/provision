@@ -1,12 +1,26 @@
 server {
   listen {{ portal__port|default("80") }} default;
   root {{ portal__docroot }};
+
+  index index.php;
+
+  server_name ~^(?<orig_host>.+)$;
+
+  location / {
+          return 301 http://$server_addr/index.php?orig_url=$host$request_uri$arg_PARAMETER;
+  }
+}
+
+server {
+  listen {{ portal__port|default("80") }};
+  root {{ portal__docroot }};
   include "{{ portal__redirects }}/*";
 
   index index.html index.htm index.php;
 
   # Make site accessible from http://localhost/
-  server_name localhost;
+  # Unfortunately, $server_addr is not working here
+  server_name localhost $hostname {{ portal__redirect.ipv4.address }};
 
   location / {
           # First attempt to serve request as file, then
