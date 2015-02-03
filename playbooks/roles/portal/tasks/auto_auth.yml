@@ -3,6 +3,7 @@
   template:
     src="portal_sudo.j2"
     dest="/etc/sudoers.d/portal"
+    mode=440
 
 - name: Setting up captive portal iptables rules
   template:
