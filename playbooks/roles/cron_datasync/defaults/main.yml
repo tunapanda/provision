@@ -1,0 +1,15 @@
+---
+cron_datasync__enabled: false
+
+# Start hour: 0-23
+cron_datasync__start_hour: "0"
+
+# Start minute: 0-59
+cron_datasync__start_minute: "10"
+
+# Start on day of week: 0-7
+# 0 or 7 is Sun, or use names. Use the first three letters of the particular day or month (case doesn't matter).
+cron_datasync__start_day_of_week: "Sun"
+
+cron_datasync__base_dir: "{{ provision__base_dir }}/data/cron_datasync"
+cron_datasync__sync_scripts_dir: "{{ cron_datasync__base_dir }}/syncscripts.d"

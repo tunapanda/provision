@@ -1,0 +1,15 @@
+---
+- name: Create cron_datasync scripts.d dir
+  file:
+    state=directory
+    dest="{{ cron_datasync__sync_scripts_dir }}"
+    mode="0755"
+
+- name: Add scheduled run to crontab
+  lineinfile:
+    dest=/etc/crontab
+    line="{{ cron_datasync__start_minute }} {{ cron_datasync__start_hour }}
+         * * {{ cron_datasync__start_day_of_week }}    root
+         cd / && run-parts --report {{ cron_datasync__sync_scripts_dir }} ""# cron_datasync"
+    regexp='^.*# cron_datasync$'
+    state=present
