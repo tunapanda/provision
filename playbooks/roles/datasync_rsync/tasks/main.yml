@@ -1,0 +1,20 @@
+---
+- name: Install rsync
+  apt: name=rsync state=present
+
+- name: Create data folders
+  file:
+    path={{ item.local_dir }}
+    owner={{ item.owner }}
+    group={{ item.group }}
+    mode={{ item.permissions }}
+    state=directory
+    recurse=yes
+  with_items: datasync_rsync__data_dirs
+
+- name: Install sync scripts
+  template:
+    src=syncscript.sh.j2
+    dest={{ datasync_rsync__sync_scripts_dir }}/{{ item.name }}
+    owner=root group=root mode=0554
+  with_items: datasync_rsync__data_dirs
