@@ -5,11 +5,10 @@
     dest="{{ cron_datasync__sync_scripts_dir }}"
     mode="0755"
 
-- name: Add scheduled run to crontab
-  lineinfile:
-    dest=/etc/crontab
-    line="{{ cron_datasync__start_minute }} {{ cron_datasync__start_hour }}
-         * * {{ cron_datasync__start_day_of_week }}    root
-         cd / && run-parts --report {{ cron_datasync__sync_scripts_dir }} ""# cron_datasync"
-    regexp='^.*# cron_datasync$'
-    state=present
+- name: Add scheduled run to cron.d
+  template:
+    src=cron_datasync.j2
+    dest=/etc/cron.d/cron_datasync
+    owner=root
+    group=root
+    mode=0644
