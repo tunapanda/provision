@@ -2,9 +2,9 @@
 dependencies:
   - role: portal_subsite
     portal__subsites:
-      - name: "edx_lms" 
+      - name: "edx_lms"
         urlpath: "{{ edx__lms_urlpath }}"
         port: "{{ edx__lms_port }}"
-      - name: "edx_cms" 
+      - name: "edx_cms"
         urlpath: "{{ edx__cms_urlpath }}"
         port: "{{ edx__cms_port }}"

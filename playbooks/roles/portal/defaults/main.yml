@@ -1,5 +1,4 @@
 ---
-portal__enabled: false
 portal__port: 80
 portal__title: "x2go - Education in a box"
 portal__description: "<p>x2go is a collection of free learning materials hosted in a standalone box without requiring internet.</p>"
@@ -10,7 +9,7 @@ portal__redirects: "{{ portal__base }}/subsites.d"
 portal__users: "{{ portal__base }}/authorized_clients"
 portal__capture_chain: "captive"
 # TODO figure out a way to get IP from ifupdown_external_interface
-portal__redirect: "{{ ansible_wlan0 }}" 
+portal__redirect: "{{ ansible_wlan0 }}"
 portal__auth: "none"
 portal__auth_agreement_text: |
     <p>By clicking this button, you agree to not be a jerk on the Internet.<br>

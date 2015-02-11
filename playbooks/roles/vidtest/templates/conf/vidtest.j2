@@ -21,7 +21,7 @@ server {
 	listen 80;
 	listen [::]:80 default_server ipv6only=on;
 
-	root /usr/local/tunapanda/data/vidtest;
+	root {{ provision__base_dir }}/data/vidtest;
 	index index.html index.htm;
 
 	# Make site accessible from http://localhost/
@@ -44,7 +44,7 @@ server {
 	}
 
 	location ~ /video/.*(\..*) {
-		alias /usr/local/tunapanda/data/vidtest/test$1;
+		alias {{ provision__base_dir }}/data/vidtest/test$1;
 	}
 
 	location ~ \.php$ {

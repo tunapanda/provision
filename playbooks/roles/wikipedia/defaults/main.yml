@@ -1,4 +1,3 @@
 ---
 apache_user: "www-data"
-wikipedia__enabled: false
 wikipedia__provision__base_dir: "{{ provision__base_dir }}/data/wikipedia"

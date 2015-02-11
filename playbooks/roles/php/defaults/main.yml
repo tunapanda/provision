@@ -1,5 +1,4 @@
 ---
 # Don't install unless pulled in as a default
-php__enabled: false
 php__fpm_url: "127.0.0.1:9000"
 

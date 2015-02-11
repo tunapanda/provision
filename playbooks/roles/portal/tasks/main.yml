@@ -16,7 +16,7 @@
     state=stopped
   ignore_errors: yes
 
-- name: Enable Nginx 
+- name: Enable Nginx
   service:
     name=nginx
     state=started
@@ -35,18 +35,18 @@
 # TODO: This is an ugly hack. There's probably a better way.
 - name: Changing default edx lms port
   lineinfile:
-    dest=/edx/app/nginx/sites-available/lms 
-    regexp='^(\s*)listen' 
-    backrefs=yes 
+    dest=/edx/app/nginx/sites-available/lms
+    regexp='^(\s*)listen'
+    backrefs=yes
     line='\1listen {{ EDXAPP_LMS_NGINX_PORT }} default;'
     state=present
   when: edx__pre_installed is defined and edx__pre_installed
 
 - name: Create site content dirs
-  file: 
+  file:
     path={{ item }}
     state=directory
-    owner=root group={{ common_web_user }} mode=775 
+    owner=root group={{ common_web_user }} mode=775
   with_items:
     - "{{ portal__redirects }}"
 

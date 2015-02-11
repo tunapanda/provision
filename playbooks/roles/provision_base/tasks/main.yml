@@ -1,6 +1,6 @@
 ---
 - name: "Installing basic packages"
-  apt: 
-    name="{{ item }}" 
+  apt:
+    name="{{ item }}"
     state="present"
   with_items: provision__default_packages

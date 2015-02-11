@@ -1,6 +1,13 @@
 ---
-provision_base__enabled: true
-provision__base_dir: "/usr/local/tunapanda"
+# TODO: split-off some of these into other roles
+provision__base_dir: "/opt/tunapanda"
+provision__data_dir: "{{ provision__base_dir }}/data"
+provision__ext_dir: "{{ provision__base_dir }}/provision/ext"
+provision__default_packages: [ git, vim, screen ]
+provision__sites_available_dir: "/etc/nginx/sites-available"
+provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
+
 apache_user: "www-data"
 apache_dir: "/etc/apache2"
 apache_docroot: "/var/www"
+common_web_user: "www-data"

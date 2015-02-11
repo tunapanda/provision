@@ -13,7 +13,7 @@
       backup=yes
 
 - name: set hostapd to use config file
-  lineinfile: 
+  lineinfile:
       dest=/etc/default/hostapd
       regexp="^DAEMON_CONF=.*"
       line="DAEMON_CONF=/etc/hostapd.conf"
@@ -27,6 +27,6 @@
   notify: reload iptables
 
 - name: Hostapd should be running
-  service: 
+  service:
     name=hostapd
     state=started

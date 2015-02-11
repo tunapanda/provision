@@ -1,6 +1,6 @@
 ---
 - shell: echo "{{ portal__subsites }}" | tee /tmp/subsites
-    
+
 - name: Deploy subsite redirect instructions
   template:
     src=nginx_portal_redirect.j2

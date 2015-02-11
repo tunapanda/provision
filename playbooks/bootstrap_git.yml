@@ -1,7 +1,7 @@
 ---
 # Get info on the repo dir
 - stat:
-    path={{ dir }} 
+    path={{ dir }}
     follow=yes
   register: d
 
@@ -9,10 +9,10 @@
 # local changes.
 #- name: "Updating repository repo in {{dir}}"
 ## Ansible's git module seems to "update" to the specified branch
-## in a way that loses local commits if they haven't yet been 
-## pushed to the branch specified by {{ ver }}. 
+## in a way that loses local commits if they haven't yet been
+## pushed to the branch specified by {{ ver }}.
 # TODO: Find a safe way to automatically pull down updates
-#  git: 
+#  git:
 #    ssh_opts="-o StrictHostKeyChecking=no"
 #    repo={{ repo }}
 #    dest={{ dir }}
@@ -21,14 +21,14 @@
 #    recursive=yes
 #  ignore_errors: yes
 #  when: d.stat.exists == True
-  
+
 # If directory does not exist, clone it
 - name: "Cloning repository repo in {{dir}}"
-  git: 
+  git:
     ssh_opts="-o StrictHostKeyChecking=no"
     repo={{ repo }}
     dest={{ dir }}
     version={{ ver }}
     recursive=yes
   when: d.stat.exists == False
-  
+

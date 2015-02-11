@@ -1,7 +1,7 @@
 ---
 - name: Ensuring that Apache is installed
-  apt: 
-    name=apache2 
+  apt:
+    name=apache2
     state=latest
     update_cache=yes
     cache_valid_time=600
@@ -13,8 +13,8 @@
     - speling
 
 - name: Add wikipedia aliases to /etc/hosts
-  lineinfile: 
-    dest=/etc/hosts 
+  lineinfile:
+    dest=/etc/hosts
     line="127.0.0.1 wikipedia www.wikipedia.org en.wikipedia.org wikipedia.org"
     regexp="^[^#].*wikipedia.org.*"
 #- name: Install tunapanda-wikipedia
@@ -25,8 +25,8 @@
       dest="{{ apache_dir }}/sites-available/tunapanda-wikipedia"
 
 - name: Linking Apache config
-  file: 
-    src:  "{{ apache_dir }}/sites-available/tunapanda-wikipedia" 
+  file:
+    src:  "{{ apache_dir }}/sites-available/tunapanda-wikipedia"
     path: "{{ apache_dir }}/sites-enabled/tunapanda-wikipedia"
     state: link
   notify:
@@ -44,11 +44,11 @@
     dest="{{ wikipedia__provision__base_dir }}/notfound.html"
 
 - name: Linking Apache document root
-  file: 
-    src:  "{{ wikipedia__provision__base_dir }}" 
+  file:
+    src:  "{{ wikipedia__provision__base_dir }}"
     path: "{{ apache_docroot }}/wikipedia"
     state: link
-    
+
 - name: Creating data dir {{ wikipedia__provision__base_dir }}
   file: path={{ wikipedia__provision__base_dir }} state=directory
 
@@ -56,7 +56,7 @@
   shell: mount | grep {{ wikipedia__provision__base_dir }}
   register: is_mounted
   ignore_errors: True
-  
+
 #- name: Mounting {{ wikipedia__provision__base_dir }}
 #  command: mount --bind {{ vagrant_share }}/playbooks/roles/wikipedia/data {{ wikipedia__provision__base_dir }}
 #  when: is_mounted|failed

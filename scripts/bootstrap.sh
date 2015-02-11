@@ -22,7 +22,7 @@ function step() {
 ## Configs
 # All of these can be overridden by setting them as environment vars
 PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-true}
-PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/usr/local/tunapanda"}
+PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/opt/tunapanda"}
 ## TODO: Change usernamenumber URLs back to tunapanda
 PROVISION_CORE_REPO=${PROVISION_CORE_REPO:-"http://github.com/usernamenumber/provision"}
 PROVISION_CORE_DIR=${PROVISION_CORE_DIR:-"${PROVISION_BASE_DIR}/provision"}

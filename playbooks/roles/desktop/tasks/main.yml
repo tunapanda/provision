@@ -9,6 +9,6 @@
   when: desktop__use_gnome2
 - name: Start GUI
   service: name=lightdm state=started
-  
+
 - include: artwork.yml
   when: desktop__custom_artwork

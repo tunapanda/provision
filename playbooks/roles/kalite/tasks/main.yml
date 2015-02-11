@@ -21,7 +21,7 @@
 
 #- name: Mounting {{ kalite__provision__base_dir }}
 #  command: mount --bind data {{ kalite__provision__base_dir }}
-#  when: is_mounted|failed 
+#  when: is_mounted|failed
 
 - name: Getting kalite code
   git: repo={{ kalite__git_source }} dest={{ kalite__provision__base_dir }}

@@ -1,12 +1,12 @@
 ---
 - name: Install dhcpd
   apt:
-    name=isc-dhcp-server 
+    name=isc-dhcp-server
     state=latest
 
 - name: Create dhcpd config
-  template: 
+  template:
     src=dhcpd.conf.j2
     dest=/etc/dhcp/dhcpd.conf
   notify: restart dhcpd
-  
+

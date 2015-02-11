@@ -1,5 +1,4 @@
 ---
-iptables__enabled: false
 iptables__cmd: "/sbin/iptables"
 iptables__base_dir: "{{ provision__base_dir }}/data/iptables"
 iptables__rules_dir: "{{ iptables__base_dir }}/rules.d"

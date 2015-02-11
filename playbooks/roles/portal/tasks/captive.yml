@@ -11,9 +11,9 @@
   notify:
     - reload iptables
 
-- name: Creating portal users list 
+- name: Creating portal users list
   file:
     path={{ portal__users }}
     state=touch
     mode=644
-    owner={{ apache_user }} 
+    owner={{ apache_user }}

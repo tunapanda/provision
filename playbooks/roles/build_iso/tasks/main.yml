@@ -1,11 +1,11 @@
 ---
 - name: Install Casper
-  apt: 
-    name=casper 
+  apt:
+    name=casper
     state=latest
     update_cache=yes
     cache_valid_time=600
-    
+
 - name: "Build ISO (this will take a while!)"
   command: "{{ build_iso__remastersys_root }}/bin/remastersys backup"
   sudo: yes

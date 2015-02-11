@@ -16,7 +16,7 @@
     src="site/auto_auth.php.j2"
     dest="{{ portal__docroot }}/auth.php"
 
-- name: Creating portal users list 
+- name: Creating portal users list
   file:
     path="{{ portal__users }}"
     state="touch"

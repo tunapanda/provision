@@ -1,4 +1,3 @@
 ---
-external_data_drive__enabled: false
 external_data_drive__disklabel: "TUNAPANDA_DATA"
 external_data_drive__mountpoint: "{{ provision__base_dir }}/data"

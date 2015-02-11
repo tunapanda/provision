@@ -1,5 +1,4 @@
 ---
-kalite__enabled: false
 kalite__provision__base_dir: "{{ provision__base_dir }}/data/ka-lite"
 kalite__user: teacher
 kalite__git_source: https://github.com/tunapanda/ka-lite

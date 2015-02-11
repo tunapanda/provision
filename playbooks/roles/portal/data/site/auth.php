@@ -28,7 +28,7 @@ function validate_auth_form() {
 $arp = "/usr/sbin/arp";
 
 // The following file is used to keep track of users
-$users_fn = "/usr/local/tunapanda/data/captive_portal/users";
+$users_fn = "/opt/tunapanda/data/captive_portal/users";
 
 // Attempt to get the client mac address
 $mac = shell_exec("$arp -a ".$_SERVER['REMOTE_ADDR']);

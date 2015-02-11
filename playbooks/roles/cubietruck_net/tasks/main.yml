@@ -1,0 +1,10 @@
+---
+- name: Configure wlan driver
+  lineinfile:
+    dest=/etc/modules
+    line="bcmdhd op_mode=2"
+    regexp="^bcmdhd"
+
+- name: Load wlan driver
+  command: modprobe bcmdhd
+  ignore_errors: yes

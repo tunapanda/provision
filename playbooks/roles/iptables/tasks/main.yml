@@ -17,7 +17,7 @@
     dest="{{ iptables__base_dir }}/rules.d"
     mode="0755"
 
-- name: Set up iptables 
+- name: Set up iptables
   template:
     src={{ item }}
     dest="{{ iptables__base_dir }}/"
