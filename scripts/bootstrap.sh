@@ -120,25 +120,6 @@ fi
 pip install --upgrade 'ansible>=1.6'
 is_installed ansible || die "Something went wrong installing ansible. Cannot continue."
 
-if [ ! -f /root/.ssh/provisioning ]
-then
-	step "Generating SSH keys for provisioning"
-
-	# Fun fact: apparently you can't generate a new passwordless key, but you can make
-	# it passwordless after creating it.
-	# Note the 'from=127.0.0.1' in authorized_keys2. This key can only be used locally!
-	ssh-keygen -f /root/.ssh/provisioning -N 1234567890 -q
-	ssh-keygen -f /root/.ssh/provisioning -p -P 1234567890 -N '' -q
-	echo $(cat ~/.ssh/provisioning.pub) from=127.0.0.1 >> ~/.ssh/authorized_keys2
-	chmod go-rwx /root/.ssh/authorized_keys2
-fi
-
-step "Loading SSH keys"
-eval `ssh-agent -s`
-ssh-add /root/.ssh/provisioning
-ssh-add -l
-ssh -i /root/.ssh/provisioning -o StrictHostKeyChecking=no localhost echo 'User key works, host key added!'
-
 if [ -z "$PROVISION_CORE_VERSION" ]
 then
     # If the repo has been checked out, use the current branch
@@ -188,6 +169,7 @@ then
     step "Running bootstrap playbook"
     pushd ${PROVISION_BOOTSTRAP_DIR} > /dev/null
     ansible-playbook -vvvv \
+	-c local \
         -i $PROVISION_BOOTSTRAP_INVENTORY \
         -e "provision_ver=$PROVISION_CORE_VERSION provision_repo=$PROVISION_CORE_REPO provision_dir=$PROVISION_CORE_DIR" \
         $PROVISION_BOOTSTRAP_PLAYBOOK || die "Could not run bootstrap playbook"
@@ -218,6 +200,7 @@ popd > /dev/null
 step "Running core playbook, ${PROVISION_CORE_PLAYBOOK}"
 pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
 ansible-playbook -vvv \
+    -c local \
     -i $PROVISION_CORE_INVENTORY \
     $PROVISION_CORE_PLAYBOOK || die "Could not run core playbook"
 popd > /dev/null
