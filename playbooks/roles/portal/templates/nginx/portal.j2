@@ -1,14 +1,6 @@
 server {
   listen {{ portal__port|default("80") }} default;
-  root {{ portal__docroot }};
-
-  index index.php;
-
-  server_name ~^(?<orig_host>.+)$;
-
-  location / {
-          return 301 http://$server_addr/index.php?orig_url=$host$request_uri$arg_PARAMETER;
-  }
+  return 302 http://{{ portal__redirect.ipv4.address }}/index.php?orig_url=$scheme://$host$request_uri;
 }
 
 server {
