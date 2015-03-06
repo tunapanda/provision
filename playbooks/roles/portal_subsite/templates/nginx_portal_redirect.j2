@@ -12,5 +12,8 @@ location {{ item.urlpath }} {
         {% else %}
             alias {{ item.docroot }};
         {% endif %}
+	{% endif %}
+    {% if item.extra is defined %}
+        {{ item.extra }}
     {% endif %}
 }
