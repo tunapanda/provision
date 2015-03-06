@@ -5,4 +5,7 @@ location {{ item.urlpath }} {
 	{% else %}
 		alias {{ item.docroot }};
 	{% endif %}
+    {% if item.extra is defined %}
+        {{ item.extra }}
+    {% endif %}
 }

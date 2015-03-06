@@ -1,9 +1,25 @@
 <html>
+<head>
+</head>
 <body>
-	<video autoplay=1 controls=1>
-		<source src="test.webm" type="video/webm">
-		<source src="test.mp4" type="video/mp4">
-		<source src="test.3gp" type="video/mp4">
-	</video>
+    <p>This video can be used to stress-test the server by connecting as many clients as possible to it at once. The filename incorporates a random number each time the page is loaded, so browsers shouldn't cache it. 
+    <video id="vid" controls=1 loop=1></video>
 </body>
+<script language=javascript>
+    var v = document.getElementById("vid");
+    var r = Math.floor(Math.random() * 100);
+    var s1 = document.createElement("source");
+    s1.setAttribute("src", "rand"+r+"test.webm");
+    s1.setAttribute("type", "video/webm");
+    v.appendChild(s1);
+    var s2 = document.createElement("source");
+    s2.setAttribute("src", "rand"+r+"test.mp4");
+    s2.setAttribute("type", "video/mp4");
+    v.appendChild(s2);
+    var s3 = document.createElement("source");
+    s3.setAttribute("src", "rand"+r+"test.3gp");
+    s3.setAttribute("type", "video/mp4");
+    v.appendChild(s3);
+    v.play()
+</script>
 </html>
