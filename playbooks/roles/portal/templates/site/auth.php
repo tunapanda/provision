@@ -79,6 +79,10 @@ abstract class auth_base {
             if ( file_exists($this->records_fn) ) {
                 foreach (file($this->records_fn) as $line) {
                     $parts = explode("\t",$line);
+                    // Skip empty/malformed lines
+                    if (sizeof($parts) == 1) {
+                        continue;
+                    }
                     $mac = $parts[3];
                     $records_by_mac[$mac] = $line;
                 }
