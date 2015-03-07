@@ -1,8 +1,16 @@
 location {{ item.urlpath }} {
 	{% if item.port is defined %}
 		rewrite {{ item.urlpath }}$ {{ item.urlpath }}/;
-		rewrite {{ item.urlpath }}/(.*)$ http://$server_addr:{{ item.port }}/$1;
+        {% if item.preserve_urlpath is defined and item.preserve_urlpath %}
+            rewrite ({{ item.urlpath }}/.*)$ http://$server_addr:{{ item.port }}/$1;
+        {% else %}
+            rewrite {{ item.urlpath }}/(.*)$ http://$server_addr:{{ item.port }}/$1;
+        {% endif %}
 	{% else %}
-		alias {{ item.docroot }};
-	{% endif %}
+        {% if item.preserve_urlpath is defined and item.preserve_urlpath %}
+            root {{ item.docroot }};
+        {% else %}
+            alias {{ item.docroot }};
+        {% endif %}
+    {% endif %}
 }
