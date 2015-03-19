@@ -4,7 +4,7 @@
 	ServerAlias wikipedia.org
 	ServerAlias wikipedia
 	RewriteEngine on
-	RewriteRule ^/wiki(.)(.*)$ /wp/$1/$1$2.htm [PT]
+	RewriteRule ^/wiki/(.)(.*)$ /wp/$1/$1$2.htm [PT]
 	CheckSpelling on
 	Options -Indexes
 	DirectoryIndex index.php index.html /notfound.html

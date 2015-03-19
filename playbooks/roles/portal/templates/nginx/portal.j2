@@ -1,17 +1,24 @@
 server {
   listen {{ portal__port|default("80") }} default;
+  return 302 http://{{ portal__redirect.ipv4.address }}/index.php?orig_url=$scheme://$host$request_uri;
+}
+
+server {
+  listen {{ portal__port|default("80") }};
   root {{ portal__docroot }};
   include "{{ portal__redirects }}/*";
 
   index index.html index.htm index.php;
 
   # Make site accessible from http://localhost/
-  server_name localhost;
+  # Unfortunately, $server_addr is not working here
+  server_name localhost $hostname {{ portal__redirect.ipv4.address }};
 
   location / {
           # First attempt to serve request as file, then
-          # as directory, then fall back to displaying a 404.
-          try_files $uri $uri/ /index.php /index.html;
+          # as directory, then fall back to internally
+          # redirecting to the portal's home page.
+          try_files $uri $uri/ /index.php;
           # Uncomment to enable naxsi on this location
           # include /etc/nginx/naxsi.rules
   }
