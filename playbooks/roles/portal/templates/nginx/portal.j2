@@ -8,20 +8,11 @@ server {
   root {{ portal__docroot }};
   include "{{ portal__redirects }}/*";
 
-  index index.html index.htm index.php;
+  index index_meta.php index.php index.html index.htm;
 
   # Make site accessible from http://localhost/
   # Unfortunately, $server_addr is not working here
-  server_name localhost $hostname {{ portal__redirect.ipv4.address }};
-
-  location / {
-          # First attempt to serve request as file, then
-          # as directory, then fall back to internally
-          # redirecting to the portal's home page.
-          try_files $uri $uri/ /index.php;
-          # Uncomment to enable naxsi on this location
-          # include /etc/nginx/naxsi.rules
-  }
+  server_name localhost $hostname {{ ansible_all_ipv4_addresses|join(' ') }};
 
   location ~ \.php$ {
          fastcgi_split_path_info ^(.+\.php)(/.+)$;
@@ -31,5 +22,12 @@ server {
          fastcgi_pass {{ php__fpm_url|default('127.0.0.1:9000') }};
          fastcgi_index index.php;
          include fastcgi_params;
+  }
+
+  location / {
+	# First attempt to serve request as file, then
+	# as directory, then fall back to internally
+	# redirecting to the portal's home page.
+	try_files $uri $uri/ /index.php;
   }
 }
