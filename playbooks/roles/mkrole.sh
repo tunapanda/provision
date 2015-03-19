@@ -11,6 +11,6 @@ do
 	for d in tasks defaults meta
 	do 
 		mkdir -p $r/$d
-		(echo "---" ; echo "") >> $p/$d/main.yml
+		(echo "---" ; echo "") >> $r/$d/main.yml
 	done
 done
