@@ -5,4 +5,4 @@ dependencies:
       - name: "videotest" 
         docroot: "{{ vidtest__docroot }}"
         urlpath: "{{ vidtest__urlpath }}"
-        #port: "{{ vidtest__port }}"
+        extra:   "{{ vidtest__extra }}"
