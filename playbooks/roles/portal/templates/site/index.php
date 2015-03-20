@@ -1,9 +1,13 @@
 {% include 'auth.php' %}
+{% include 'rachel_modlist.php' %}
 <!DOCTYPE html><html lang=en>
 <head>
   <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content="">
   <meta http-equiv="cache-control" content="no-cache">
   <link href="styles/eb66b09d.main-ltr.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="common.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  {% include 'rachel_js.html' %}
   <title>{{ portal__title }}</title>
   <style>
   {% include 'auth_styles.css' %}
@@ -16,8 +20,8 @@
 	<div class=row>
 		<div class=col-lg-12>
 			<div class=intro-text>
-				<span class=name>x2go</span> 
-				<span class=skills>{{ portal__title }}</span>
+				<span class=name>{{ portal__title }}</span> 
+				<span class=skills>{{ portal__subtitle }}</span>
 				<hr class=star-light>
 			</div>	
 		</div>
@@ -39,31 +43,33 @@
 <div class=container>
 	<div class=row>
 		<div class=col-lg-12>
-			<h2>Sites</h2>
+            <h2>Sites</h2>
+            <h3>Portal powered by Project RACHEL</h3>
 			<hr class=star-primary>
 		</div>
 	</div>
+    <div class="row haut cf">
+        <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="local-frameset.html">LOCAL CONTENT</a></li>
+        </ul>
+        <form action="rsphider/search.php">
+          <div>
+          <input id="main-search" name="query_t" value="" size="50" autocomplete="off">
+          <input type="submit" value="Search RACHEL">
+          <input type="hidden" name="search" value="1">
+          </div>
+        </form>
+    </div>
     <div class=row>
-        <!--
-        <div class="col-sm-4 portfolio-item">
-            <a href="/wikipedia" class=portfolio-link>
-                <img src=images/logos/54e2a1b5.wikipedia.png class=img-responsive alt="">
-            </a>
-            <p class="intro">Wikipedia intro</p>
-        </div>
-        -->
-        <div class="col-sm-4 portfolio-item">
-            <a href="/edx" class=portfolio-link>
-                <img src=images/logos/6718b4ba.openedx.png class=img-responsive alt="">
-            </a>
-            <p class="intro">Take courses provided by top universities and other learning institutions. You can also create your own courses with <a href="/edxcms">edX Studio</a></p>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-            <a href="/kalite" class=portfolio-link>
-                <img src=images/logos/8c9907b6.kalite.png class=img-responsive alt="">
-            </a>
-            <p class="intro">Take courses on basic subjects provided by Khan Academy Lite</p>
-        </div>
+<?php
+        foreach (rachel_get_modlist() as $mod) {
+            print '<div class="col-sm-4 portfolio-item">';
+            rachel_print_mod_fragment($mod);
+            print '</div>';
+        } 
+?>
     </div>
 </div>
 </section>
@@ -88,6 +94,7 @@
 	</a>
 </div>
 
-<script src="scripts/fd628491.script.js"></script>
+<script language="javascript">
+</script>
 </body>
 </html>
