@@ -29,10 +29,15 @@
 
 
 ## Main Portal Pages ##
-- name: Check out Project Rachel portal
-  git: >
-    repo=https://github.com/tunapanda/rachel-content
-    dest={{ portal__site_content }}
+- name: Create portal directories
+  file:
+    path={{ item }}
+    state=directory
+    owner={{ provision__admin_user }} group={{ common_web_user }} mode=775 
+    recurse=true
+  with_items:
+    - "{{ portal__site_content }}"
+    - "{{ portal__redirects }}"
 
 - name: Link docroot to role site data (if needed)
   file:
@@ -41,27 +46,10 @@
     state=link
   when: portal__docroot != portal__site_content
 
-- name: Install a host-specific landing page
+- name: Install portal host-specific landing page
   template:
     src=site/index.php
     dest={{ portal__docroot }}/index_meta.php
-
-- name: Configure git to ignore the landing page
-  lineinfile:
-    dest={{ portal__docroot }}/.git/info/exclude
-    line=index_meta.php
-    state=present
-    insertafter=EOF
-
-- name: Set portal dir permissions
-  file: 
-    path={{ item }}
-    state=directory
-    owner=root group={{ common_web_user }} mode=775 
-    recurse=true
-  with_items:
-    - "{{ portal__site_content }}"
-    - "{{ portal__redirects }}"
 
 
 ## Nginx Setup ##
@@ -69,13 +57,15 @@
   template:
     src=nginx/portal.j2
     dest={{ portal__base }}/portal.conf
-    owner=root group={{ common_web_user }} mode=0640
+    owner={{ provision__admin_user }} 
+    group={{ common_web_user }} 
+    mode=0640
 
 - name: Activate site config
   file:
     src={{ portal__base }}/portal.conf
     dest={{ provision__sites_enabled_dir }}/portal
-    state=link owner=root group=root
+    state=link 
   notify: reload nginx
 
 - name: Remove nginx default page

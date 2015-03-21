@@ -13,8 +13,25 @@
     - reload iptables
 
 - name: Creating portal users list 
-  file:
+  file: >
     path={{ portal__users }}
     state=touch
     mode=644
     owner={{ apache_user }} 
+    
+- name: Create portal auth module
+  file: >
+    dest={{ portal__modules }}/internet
+    state=directory
+    owner={{ provision__admin_user }}
+    group={{ common_web_user }}
+    mode=0770
+    recurse=true
+    
+- name: Add portal auth module index page
+  template: >
+    src=site/auth.php
+    dest={{ portal__modules }}/internet/index.htmlf
+    owner={{ provision__admin_user }}
+    group={{ common_web_user }}
+    mode=0640

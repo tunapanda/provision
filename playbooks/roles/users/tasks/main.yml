@@ -1,6 +1,6 @@
 ---
 # Teacher account (password 'Tunapanda2')
-- user: name=teacher shell=/bin/bash password='$6$rounds=100000$n/tP8Zo.SDVWsI2V$W.tfpo74.ZzmdO1Uv6cXvqn.v31YgheQT1ACbwWXRot2p2HJ8AXk/voPpphHEXymMohwKpf6PFihEdc7uKgsR/'
+- user: name={{ provision__admin_user }} shell=/bin/bash password='$6$rounds=100000$n/tP8Zo.SDVWsI2V$W.tfpo74.ZzmdO1Uv6cXvqn.v31YgheQT1ACbwWXRot2p2HJ8AXk/voPpphHEXymMohwKpf6PFihEdc7uKgsR/'
 - name: configure sudoers
   lineinfile: dest=/etc/sudoers backup=yes state=present regexp='^%UBUNTU' insertafter="^# %wheel" line='%UBUNTU ALL=(ALL) ALL'
 

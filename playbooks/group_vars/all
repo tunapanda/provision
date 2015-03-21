@@ -8,6 +8,7 @@ provision__ext_dir: "{{ provision__base_dir }}/provision/ext"
 provision__default_packages: [ git, vim, screen, sysstat ] 
 provision__sites_available_dir: "/etc/nginx/sites-available"
 provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
+provision__admin_user: "teacher"
 
 # TODO: split these off into roles?
 apache_dir: "/etc/apache2"

@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  background-color: #ddd;
+}
+
+body > div {
+	max-width: 956px;
+	margin: auto;
+}
+
+p {
+	margin-bottom: 10px;	
+}
+
+.inner {
+  padding: 30px;
+  padding-top: 15px;
+  background-color: #eee;
+  margin: 10px;
+  border: thin solid black;
+  border-radius: 10px;
+}
+
+#content {
+	width: inherit;	
+}
+
+#content form {
+	float:none;	
+}
+
+.heading {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.heading form {
+	float: none;   
+}
+.heading h1 {
+	font-size: 200%;
+	font-family: sans-serif;
+}
+.heading h2 {
+	color: chocolate;
+	font-style: italic;
+	font-size: 80%;
+}
+.auth {
+    border-left: medium solid darkred;
+    padding-left: 20px;
+    border-right: medium solid darkred;
+    padding-right: 20px;
+}
+.auth p {
+    font-style: italic;
+}
+.auth input {
+    color: black;
+}
+.auth .notification {
+    font-size: 90%;
+    font-style: italic;
+	background-color: lightblue;
+}
+.auth .authorized {
+    font-size: 90%;
+    font-style: italic;
+	background-color: lightblue;
+	border-color: darkgreen;
+}
+.about {
+	margin-top: 10px;
+	font-size: 105%;
+}

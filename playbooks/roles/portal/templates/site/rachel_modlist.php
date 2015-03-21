@@ -1,4 +1,8 @@
 <?php
+/*
+* Modular content portal adapted from worldpossible.org's Project RACHEL:
+*	https://github.com/needlestack/rachel-content
+*/
 
 function rachel_sort_bypos($a, $b) {
     return $a['position'] - $b['position'];
