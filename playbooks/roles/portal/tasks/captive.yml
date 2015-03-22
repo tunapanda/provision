@@ -21,7 +21,7 @@
     
 - name: Create portal auth module
   file: >
-    dest={{ portal__modules }}/internet
+    dest={{ portal__modules_dir }}/internet
     state=directory
     owner={{ provision__admin_user }}
     group={{ common_web_user }}
@@ -31,7 +31,7 @@
 - name: Add portal auth module index page
   template: >
     src=site/auth.php
-    dest={{ portal__modules }}/internet/index.htmlf
+    dest={{ portal__modules_dir }}/internet/index.htmlf
     owner={{ provision__admin_user }}
     group={{ common_web_user }}
     mode=0640

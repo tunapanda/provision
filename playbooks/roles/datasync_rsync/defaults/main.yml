@@ -3,6 +3,11 @@ datasync_rsync__enabled: false
 
 datasync_rsync__sync_scripts_dir: "{{ cron_datasync__sync_scripts_dir }}"
 
+datasync_rsync__dir_defaults:
+    owner: "{{ provision__admin_user }}"
+    group: "{{ common_web_user }}"
+    permissions: "a=rX"
+
 # item.permissions: The permissions the local folder will be set to after each sync.
 # item.owner & item.group: The user and group the local folder's permissions
 #    will be set to after each sync.

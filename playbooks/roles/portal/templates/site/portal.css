@@ -73,3 +73,11 @@ p {
 	margin-top: 10px;
 	font-size: 105%;
 }
+
+.warning {
+	font-size: 80%;
+	color: red;
+	font-style: italic;	
+	margin-bottom: 0;
+	padding-bottom: 0;
+}

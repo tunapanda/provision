@@ -5,9 +5,9 @@
 - name: Create data folders
   file:
     path={{ item.local_dir }}
-    owner={{ item.owner }}
-    group={{ item.group }}
-    mode={{ item.permissions }}
+    owner={{ item.owner|default(datasync_rsync__dir_defaults.owner) }}
+    group={{ item.group|default(datasync_rsync__dir_defaults.group) }}
+    mode={{ item.permissions|default(datasync_rsync__dir_defaults.permissions) }}
     state=directory
     recurse=yes
   with_items: datasync_rsync__data_dirs
@@ -18,3 +18,5 @@
     dest={{ datasync_rsync__sync_scripts_dir }}/{{ item.name }}
     owner=root group=root mode=0554
   with_items: datasync_rsync__data_dirs
+  notify: datasync_now
+  

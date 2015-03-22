@@ -25,21 +25,33 @@ function rachel_get_modlist($moddir="modules") {
                 $frag = "index.htmlf";
                 $content = file_get_contents("$dir/$frag");
                 preg_match("/<!-- *position *\: *(\d+) *-->/", $content, $match);
-                array_push($modules, array(
+                $mod_data = array(
                     'file' => $file,
                     'dir'  => $dir, // this is used by the include to know it's directory
                     'frag' => "$dir/$frag", // this is what is actually included
                     'position' => $match[1]
-                ));
-            } else {
+                );
+				if (file_exists("$moddir/$file/sync_in_progress")) {
+					$mod_data['syncing'] = true;	
+				} else {
+					$mod_data['syncing'] = false;
+				}
+				array_push($modules, $mod_data);
+			} 
+            /* Ignore invalid module dirs 
+            * If we ever change our minds about this,
+            * We'll need to define nofrag.php
+            *
+            else {
                 # there was no index fragment, so...
-                array_push($modules, array(
+                $mod_data = array(
                     'file' => $file, // this is the name of the module
                     'dir'  => $dir, // this is the module's directory
                     'frag' => "nofrag.php", // we include a special fragment
                     'position' => 9999
-                ));
-            }
+                );
+            } 
+            */
         }
     }
     closedir($handle);
@@ -50,6 +62,9 @@ function rachel_get_modlist($moddir="modules") {
 function rachel_print_mod_fragment($mod) {
     $file = $mod['file']; // only matters for modules without a fragment
     $dir  = $mod['dir'];
+    if ($mod['syncing']) {
+    	print "<div class='warning'>{$mod['dir']} appears to be syncing new content. This module may not work properly until the sync has completed.</div>";
+    }
     include $mod['frag'];
 }
 ?>

@@ -145,7 +145,9 @@ class auth_agreement extends auth_base {
         // Update the auth record's timestamp, but don't print any messages
         $this->authorize();
 ?>		
-		{{ portal__auth_agreement_complete }}
+ 		<div class="auth agreement">
+ 		{{ portal__auth_agreement_complete }}
+		</div>
 <?php
     }
     public function do_unknown() {
@@ -162,7 +164,6 @@ class auth_agreement extends auth_base {
       <div class='auth notification'>
 	  <h3>You do not have access to the Internet (yet)</h3>
       {{ portal__auth_agreement_text }}
-      </div>
       <form method='POST' action="">
 <?php
       if ( isset($_REQUEST['orig_url']) ) {
@@ -172,6 +173,7 @@ class auth_agreement extends auth_base {
 	  <input type="hidden" name="agreed" value=1>
 	  <input type='submit' name='submit' value="{{ portal__auth_agreement_buttontext }}">
 	  </form>
+      </div>
 <?php
         }
     }

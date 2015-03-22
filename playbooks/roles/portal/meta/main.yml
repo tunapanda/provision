@@ -3,3 +3,6 @@ dependencies:
   - bind
   - php 
   - iptables 
+  - role: datasync_rsync
+    datasync_rsync__data_dirs: "{{ portal__rsync_modules }}"
+        
