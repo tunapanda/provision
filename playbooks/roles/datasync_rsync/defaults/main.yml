@@ -1,0 +1,26 @@
+---
+datasync_rsync__enabled: false
+
+datasync_rsync__sync_scripts_dir: "{{ cron_datasync__sync_scripts_dir }}"
+
+# item.permissions: The permissions the local folder will be set to after each sync.
+# item.owner & item.group: The user and group the local folder's permissions
+#    will be set to after each sync.
+datasync_rsync__data_dirs: []
+    #[{
+    #name: "test1",
+    #owner: "www-data",
+    #group: "www-data",
+    #permissions: "a=rX",
+    #remote_host: "10.0.10.5",
+    #remote_dir: "test-test",
+    #local_dir: "{{ provision__base_dir }}/data/testdata1"
+    #},{
+    #name: "test2",
+    #owner: "www-data",
+    #group: "www-data",
+    #permissions: "a=rwX",
+    #remote_host: "rsync.ourserver.com",
+    #remote_dir: "test-test2",
+    #local_dir: "{{ provision__base_dir }}/data/testdata2"
+    #}]
