@@ -10,6 +10,10 @@ provision__sites_available_dir: "/etc/nginx/sites-available"
 provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
 provision__admin_user: "teacher"
 
+# Default location for rsync'ing portal modules
+provision__rachel_mirror_host: "geekdome.net"
+provision__rachel_mirror_name: "x2go_modules"
+
 # TODO: split these off into roles?
 apache_dir: "/etc/apache2"
 apache_docroot: "/var/www"
