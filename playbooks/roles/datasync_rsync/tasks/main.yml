@@ -9,7 +9,6 @@
     group={{ item.group|default(datasync_rsync__dir_defaults.group) }}
     mode={{ item.permissions|default(datasync_rsync__dir_defaults.permissions) }}
     state=directory
-    recurse=yes
   with_items: datasync_rsync__data_dirs
 
 - name: Install sync scripts
