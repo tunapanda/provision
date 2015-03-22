@@ -49,7 +49,7 @@
 - name: Install portal host-specific landing page
   template:
     src=site/index.php
-    dest={{ portal__docroot }}/index_meta.php
+    dest={{ portal__docroot }}/index.php
 
 
 ## Nginx Setup ##
