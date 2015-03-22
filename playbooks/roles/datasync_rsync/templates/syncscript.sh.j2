@@ -5,7 +5,7 @@ date >> {{ item.local_dir }}/sync_in_progress
 
 rsync -rltH -yz -q --delete-delay --delay-updates --partial \
     --partial-dir=.rsync-partial -f 'R .rsync-partial/' \
-    rsync://{{ item.remote_host }}/{{ item.remote_dir }}/ \
+    {{ item.remote_host }}::{{ item.remote_dir }} \
     {{ item.local_dir }}
 
 chown -R \
