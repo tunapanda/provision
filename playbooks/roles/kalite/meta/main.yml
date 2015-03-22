@@ -6,3 +6,9 @@ dependencies:
       - name: "kalite"
         urlpath: "{{ kalite__urlpath }}"
         port: "{{ kalite__port }}"
+  - role: datasync_rsync
+    datasync_rsync__data_dirs: 
+      - name: "kalite"
+        remote_host: "{{ provision__rachel_mirror_host }}"
+        remote_dir: "{{ provision__rachel_mirror_name }}/kalite"
+        local_dir: "{{ portal__modules_dir }}"
