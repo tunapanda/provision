@@ -63,7 +63,7 @@ function rachel_print_mod_fragment($mod) {
     $file = $mod['file']; // only matters for modules without a fragment
     $dir  = $mod['dir'];
     if ($mod['syncing']) {
-    	print "<div class='warning'>{$mod['dir']} appears to be syncing new content. This module may not work properly until the sync has completed.</div>";
+    	print "<div class='warning'>{$mod['file']} appears to be syncing new content. This module may not work properly until the sync has completed.</div>";
     }
     include $mod['frag'];
 }
