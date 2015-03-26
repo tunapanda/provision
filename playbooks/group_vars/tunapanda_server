@@ -23,4 +23,5 @@ ifupdown_interfaces:
 portal__enabled: true
 #vidtest__enabled: true
 #kalite__enabled: true
+portal__auth: "agreement"
 

@@ -144,24 +144,27 @@ class auth_agreement extends auth_base {
     public function do_authorized() {
         // Update the auth record's timestamp, but don't print any messages
         $this->authorize();
+?>		
+ 		<div class="auth agreement">
+ 		{{ portal__auth_agreement_complete }}
+		</div>
+<?php
     }
     public function do_unknown() {
         if ( isset ($_POST['agreed']) ) {
             // Create a new auth record
-            $this->authorize();
-            print "<div class='auth'><div class='notification'>";
-            print "<p>Great! We trust you. Happy learning!!</p>";
+            $this->do_authorized();
             if ( isset($_REQUEST['orig_url']) ) {
                 print "<p><strong><a href='{$_REQUEST['orig_url']}'>Click here to continue to your original destination!</a></strong></p>";
             }
-            print "<p>Don't forget to bookmark this page so you can access it easily in the future</p>";
-            print "</div></div>";
+            print "<p>Don't forget to bookmark this page so you can access it easily in the future!</p>";
+            print "</div>";
         } else {
 ?>
-      <div class='auth'>
-      <form method='POST' action="http://<?php print $_SERVER['SERVER_ADDR']?>">
+      <div class='auth notification'>
 	  <h3>You do not have access to the Internet (yet)</h3>
-        {{ portal__auth_agreement_text }}
+      {{ portal__auth_agreement_text }}
+      <form method='POST' action="">
 <?php
       if ( isset($_REQUEST['orig_url']) ) {
         print "<input type='hidden' name='orig_url' value='{$_REQUEST['orig_url']}'>";
@@ -176,3 +179,7 @@ class auth_agreement extends auth_base {
     }
 }
 ?>
+<!-- position: 0 -->
+<div class="indexmodule">
+	<?php do_auth("{{ portal__auth }}"); ?>
+</div>

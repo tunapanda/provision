@@ -1,0 +1,9 @@
+---
+# Start sync in the background
+- name: datasync_now
+  shell: cut -d' ' -f7- /etc/cron.d/cron_datasync | bash
+  sudo: true
+  async: 1000
+  poll: 0
+  #ignore_errors: true
+  when: cron_datasync__auto_sync is defined and cron_datasync__auto_sync
