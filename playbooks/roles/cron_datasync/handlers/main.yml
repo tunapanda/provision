@@ -1,9 +1,11 @@
 ---
+## NOTE: this is currently broken due to an ansible bug:
+##       https://github.com/ansible/ansible/issues/8684
 # Start sync in the background
 - name: datasync_now
-  shell: cut -d' ' -f7- /etc/cron.d/cron_datasync | bash
+  shell: "cut -d' ' -f7- /etc/cron.d/cron_datasync | tee | bash"
   sudo: true
   async: 1000
   poll: 0
-  #ignore_errors: true
+  ignore_errors: true
   when: cron_datasync__auto_sync is defined and cron_datasync__auto_sync
