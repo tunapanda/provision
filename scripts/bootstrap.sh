@@ -115,9 +115,9 @@ if ! is_installed ansible
 then
 	step "Installing Ansible"
 	has_internet || die "Ansible is required, but we can't install it without a net connection"	
-	apt-get install -y python-dev
+	apt-get install -y python-dev && 
+	pip install --upgrade 'ansible>=1.6'
 fi
-pip install --upgrade 'ansible>=1.6'
 is_installed ansible || die "Something went wrong installing ansible. Cannot continue."
 
 if [ -z "$PROVISION_CORE_VERSION" ]
@@ -199,9 +199,11 @@ popd > /dev/null
 
 step "Running core playbook, ${PROVISION_CORE_PLAYBOOK}"
 pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
+has_internet && HAS_INTERNET_STR="true" || HAS_INTERNET_STR="false"
 ansible-playbook -vvv \
     -c local \
     -i $PROVISION_CORE_INVENTORY \
+    -e "has_internet=$HAS_INTERNET_STR" \
     $PROVISION_CORE_PLAYBOOK || die "Could not run core playbook"
 popd > /dev/null
 
