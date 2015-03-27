@@ -28,6 +28,7 @@ echo ""
 
 cat <<EOF | bash -x &> $D/diag.log
 echo "Started at $(date)" > $D/times
+uptime &> $D/uptime
 ps aufx &> $D/ps
 fdisk -l &> $D/fdisk
 df -h &> $D/df
@@ -36,6 +37,11 @@ find $T -ls &> $D/tp_files
 dmesg &> $D/dmesg
 mkdir $D/logs
 cp -a /var/log/{syslog,auth,*php*,nginx} $D/logs
+mkdir $D/etc
+cp -a /etc/ssh/ $D/etc/
+cp -a /etc/passwd /etc/group $D/etc/
+cp -a /etc/nginx $D/etc/
+ls -ld /edx &> $D/edx_root
 for F in provisioning.txt provision/localconfig.yml provision/playbooks/ansible.log; \
 do \
     [ -e $T/$F ] && cp $T/$F $D ; \
