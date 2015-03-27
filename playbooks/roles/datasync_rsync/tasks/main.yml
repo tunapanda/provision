@@ -17,11 +17,12 @@
     dest={{ datasync_rsync__sync_scripts_dir }}/{{ item.name }}
     owner=root group=root mode=0554
   with_items: datasync_rsync__data_dirs
-  notify: datasync_now
 
 - name: Run sync scripts
   shell: "{{ datasync_rsync__sync_scripts_dir }}/{{ item.name }}&"
   with_items: datasync_rsync__data_dirs
   ignore_errors: true
-  when: cron_datasync__auto_sync is defined and cron_datasync__auto_sync
+  when: >
+    (item.auto_sync is defined and item.auto_sync) or
+    (item.auto_sync is not defined and cron_datasync__auto_sync)
   

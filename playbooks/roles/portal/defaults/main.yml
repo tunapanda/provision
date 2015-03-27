@@ -41,6 +41,7 @@ portal__auth_agreement_complete: |
 
 # Modules 
 portal__modules_dir: "{{ portal__site_content }}/modules"
+portal__modules_auto_sync: true
 # This does a background rsync of all rachel project modules
 # < ~ 1G (everything but Wikipedia and KAlite, which get their
 # own roles). 

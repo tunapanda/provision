@@ -7,4 +7,5 @@ dependencies:
         remote_host: "{{ provision__rachel_mirror_host }}"
         remote_dir: "{{ provision__rachel_mirror_name }}/wikipedia_for_schools/"
         local_dir: "{{ portal__modules_dir }}/wikipedia_for_schools"
+        auto_sync: "{{ wikipedia_for_schools__auto_sync }}"
         
