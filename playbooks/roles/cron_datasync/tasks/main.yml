@@ -1,0 +1,16 @@
+---
+- name: Create cron_datasync scripts.d dir
+  file:
+    state=directory
+    dest="{{ cron_datasync__sync_scripts_dir }}"
+    mode="0755"
+
+- name: Add scheduled run to cron.d
+  cron: name="cron_datasync"
+        weekday="{{ cron_datasync__start_day_of_week }}"
+        minute="{{ cron_datasync__start_minute }}"
+        hour="{{ cron_datasync__start_hour }}"
+        user="root"
+        job="cd / && run-parts --report {{ cron_datasync__sync_scripts_dir }}"
+        cron_file="cron_datasync"
+        state=present

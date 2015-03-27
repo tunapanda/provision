@@ -21,6 +21,8 @@ ifupdown_interfaces:
 
 # Enabled roles
 portal__enabled: true
-#vidtest__enabled: true
-#kalite__enabled: true
+vidtest__enabled: true
+kalite__enabled: true
+wikipedia_for_schools__enabled: true
+portal__auth: "agreement"
 
