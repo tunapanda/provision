@@ -36,7 +36,7 @@ dpkg -l &> $D/packages
 find $T -ls &> $D/tp_files
 dmesg &> $D/dmesg
 mkdir $D/logs
-cp -a /var/log/{syslog,auth,*php*,nginx} $D/logs
+cp -a /var/log/{syslog,auth.log,*php*,nginx} $D/logs
 mkdir $D/etc
 cp -a /etc/ssh/ $D/etc/
 cp -a /etc/passwd /etc/group $D/etc/
