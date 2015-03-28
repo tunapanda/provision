@@ -1,0 +1,28 @@
+---
+- name: Install MySQL Python support
+  apt:
+    name=python-mysqldb
+    state=installed
+
+- name: Create rsphider database
+  mysql_db:
+    name={{ sphider__db_name }}
+    state=present
+
+- name: Create rsphider db user
+  mysql_user:
+    'name={{ sphider__db_user }}
+    password={{ sphider__db_pass }}
+    state=present
+    priv={{ sphider__db_name }}.*:ALL'
+
+- name: Configure sphider
+  lineinfile: >
+    dest='{{ sphider__root }}/settings/database.php'
+    regexp='^\${{ item.var }}.*'
+    line='${{ item.var }} = "{{ item.val }}";'
+  with_items:
+    - var: "mysql_user1"
+      val: "{{ sphider__db_user }}"
+    - var: "mysql_password1"
+      val: "{{ sphider__db_pass }}"
