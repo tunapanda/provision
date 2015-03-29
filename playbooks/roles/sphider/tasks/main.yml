@@ -1,8 +1,22 @@
 ---
-- name: Install MySQL Python support
+## Sphider Setup ##
+- name: Clone sphider repo
+  git: >
+    repo=https://github.com/tunapanda/rsphider
+    dest={{ sphider__root }}
+
+- name: Install MySQL packages
   apt:
-    name=python-mysqldb
+    name={{ item }}
     state=installed
+  with_items:
+    - python-mysqldb
+    - mysql-server
+    
+- name: Start MySQL server
+  service:
+    name=mysql
+    state=started
 
 - name: Create rsphider database
   mysql_db:
@@ -26,3 +40,4 @@
       val: "{{ sphider__db_user }}"
     - var: "mysql_password1"
       val: "{{ sphider__db_pass }}"
+      

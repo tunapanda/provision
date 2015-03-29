@@ -3,6 +3,7 @@ dependencies:
   - bind
   - php 
   - iptables 
+  - sphider
   - role: datasync_rsync
     cron_datasync__auto_sync: "{{ portal__modules_auto_sync }}"
     datasync_rsync__data_dirs: "{{ portal__rsync_modules }}"

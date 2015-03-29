@@ -33,22 +33,17 @@
   file:
     path={{ item }}
     state=directory
-    owner={{ provision__admin_user }} group={{ common_web_user }} mode=4775
+    owner={{ provision__admin_user }} group={{ common_web_user }} mode=775 
+    recurse=true
   with_items:
-    - "{{ portal__site_content }}"
+    - "{{ portal__docroot }}"
     - "{{ portal__redirects }}"
-
-- name: Link docroot to role site data (if needed)
-  file:
-    path={{ portal__docroot }}
-    src={{ portal__site_content }}
-    state=link
-  when: portal__docroot != portal__site_content
 
 - name: Install portal host-specific landing page
   template:
     src=site/index.php
     dest={{ portal__docroot }}/index.php
+    
 
 ## Nginx Setup ##
 - name: Deploy site config

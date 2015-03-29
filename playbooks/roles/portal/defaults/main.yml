@@ -1,5 +1,6 @@
 ---
 portal__enabled: false
+portal__use_sphider: true
 portal__port: 80
 portal__title: "x2go"
 portal__subtitle: "Education in a box"
@@ -19,7 +20,6 @@ portal__description: |
   </p>
 portal__base: "{{ provision__data_dir }}/portal"
 portal__docroot: "{{ portal__base }}/site"
-portal__site_content: "{{ portal__docroot }}"
 portal__redirects: "{{ portal__base }}/subsites.d"
 portal__users: "{{ portal__base }}/authorized_clients"
 portal__capture_chain: "captive"
@@ -40,7 +40,7 @@ portal__auth_agreement_complete: |
   <p><strong>Happy learning!</strong></p>
 
 # Modules 
-portal__modules_dir: "{{ portal__site_content }}/modules"
+portal__modules_dir: "{{ provision__data_dir }}/portal_modules"
 portal__modules_auto_sync: true
 # This does a background rsync of all rachel project modules
 # < ~ 1G (everything but Wikipedia and KAlite, which get their

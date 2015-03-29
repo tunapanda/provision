@@ -1,5 +1,13 @@
 ---
-- shell: echo "{{ portal__subsites }}" | tee /tmp/subsites
+- name: Create portal directories
+  file:
+    path={{ item }}
+    state=directory
+    owner={{ provision__admin_user }} group={{ common_web_user }} mode=775 
+    recurse=true
+  with_items:
+    - "{{ portal__docroot }}"
+    - "{{ portal__redirects }}"
     
 - name: Deploy subsite redirect instructions
   template:
