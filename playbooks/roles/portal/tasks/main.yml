@@ -44,7 +44,21 @@
     src=site/index.php
     dest={{ portal__docroot }}/index.php
     
+- name: Symlink modules dir
+  file:
+    path={{ portal__docroot }}/modules
+    src={{ portal__modules_dir }}
+    state=link
+  when: portal__modules_dir != "{{ portal__docroot }}/modules"
 
+- name: Symlink sphider dir
+  file:
+    path={{ portal__docroot }}/rsphider
+    src={{ sphider__root }}
+    state=link
+  when: >
+    portal__use_sphider 
+    and sphider__root != "{{ portal__docroot }}/rsphider"
 ## Nginx Setup ##
 - name: Deploy site config
   template:

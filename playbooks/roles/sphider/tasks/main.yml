@@ -1,9 +1,26 @@
 ---
 ## Sphider Setup ##
+# Since we're going to make local changes, don't auto-update
+# TODO: maybe add lines to .git/info/exclude to ignore files
+# we plan to change?
 - name: Clone sphider repo
   git: >
     repo=https://github.com/tunapanda/rsphider
     dest={{ sphider__root }}
+    update=no
+    
+- name: Set dir permissions
+  file:
+     path={{ sphider__root }}/{{ item }}
+     owner={{ provision__admin_user }}
+     group={{ common_web_user }}
+     mode=4775
+     recurse=true
+     state=directory
+  with_items:
+     - admin
+     - settings
+     - include/IDS/tmp
 
 - name: Install MySQL packages
   apt:
@@ -12,6 +29,7 @@
   with_items:
     - python-mysqldb
     - mysql-server
+    - php5-mysql
     
 - name: Start MySQL server
   service:
