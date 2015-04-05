@@ -1,0 +1,20 @@
+---
+- name: Install Postfix
+  apt: 
+    name={{ item }}
+    state=installed
+  with_items:
+    - postfix
+    - dovecot-imapd
+    - dovecot-postfix
+
+- name: Set postfix hostname
+  lineinfile:
+    dest=/etc/postfix/main.cf
+    regex=^myhostname
+    line=myhostname = {{ provision__host_name }}
+
+- name: Restart postfix
+  service:
+    name=postfix
+    state=restarted
