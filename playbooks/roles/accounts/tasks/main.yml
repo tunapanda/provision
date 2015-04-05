@@ -1,0 +1,29 @@
+---
+- name: Check out account-management app
+  git: > 
+    repo={{ accounts__repo }}
+    dest={{ provision__data_dir }}/django
+    update=no
+
+- name: Install incron
+  apt: name=incron state=installed
+
+- name: Deploy handoff incon job
+  template: > 
+    src=handoff-users-incron
+    dest=/etc/incron.d/handoff-users
+
+- name: Ensure that handoff dir exists
+  file: > 
+    path={{ item }}
+    state=directory 
+  with_items:
+    - "{{ handoff__base }}/bin"
+    - "{{ handoff__base }}/state/users"
+
+- name: Deploy handoff script
+  template: > 
+    src=handoff-users-script
+    dest={{ handoff__base }}/bin/users
+
+

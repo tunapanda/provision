@@ -1,0 +1,4 @@
+---
+accounts__repo: https://github.com/usernamenumber/x2go_django
+handoff__base: "{{ provision__data_dir }}/handoff"
+

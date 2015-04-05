@@ -1,0 +1,63 @@
+#!/usr/bin/python
+import json
+import os.path
+import sys
+from subprocess import call
+
+def log(msg):
+  call(["logger", "-t", "handoff/users", msg])
+
+def user_from_file(fn):
+  try:
+  	s = json.load(open(fn,"r"))
+  except:
+  	log("Could not parse %s as JSON" % fn)
+	sys.exit()
+  return s
+
+def update_user(u):
+  log("CREATING %s with pw %s" % (u['username'],u['password']))
+  username = u['username']
+  password = u['password']
+  shell = u.get("shell","/bin/false")
+  fname = u.get("first_name","")
+  lname = u.get("last_name","")
+  comment = "tunapanda web user %s %s" % (fname,lname)
+  cmd = [
+	'useradd',
+	'--create-home',
+	'--password', password,
+	'--shell', shell,
+	'--comment', comment,
+	username,
+  ]
+  log("CREATING user %s" % username)
+  call(cmd)
+
+def remove_user(u):
+  username = u['username']
+  cmd = ['userdel', "-r", username]
+  log("DELETING user %s" % username)
+  call(cmd)
+
+if __name__ == "__main__":
+  fn=sys.argv[1]
+  flags=set(sys.argv[2].split(","))
+  
+  if not os.path.isfile(fn):
+#    log("Ignoring non-file %s" % fn)
+    sys.exit()
+  
+  update_flags = ["IN_MODIFY","IN_MOVED_TO"]
+  remove_flags = ["IN_DELETE","IN_MOVED_FROM"]
+  
+  if flags.intersection(update_flags):
+    u = user_from_file(fn)
+    update_user(u)
+  elif flags.intersection(remove_flags):
+    u = user_from_file(fn)
+    remove_user(u)
+  else:
+    print "UNKNOWN FLAGS %s for %s" % (flags,fn)
+  
+  

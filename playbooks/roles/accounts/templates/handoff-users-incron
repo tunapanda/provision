@@ -1,0 +1,1 @@
+{{ handoff__base }}/state/users IN_MODIFY,IN_DELETE,IN_MOVE_FROM,IN_MOVE_TO {{ handoff__base }}/bin/users $@/$# $% 
