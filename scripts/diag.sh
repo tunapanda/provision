@@ -34,6 +34,7 @@ fdisk -l &> $D/fdisk
 df -h &> $D/df
 dpkg -l &> $D/packages
 find $T -ls &> $D/tp_files
+blkid &> $D/blkid
 dmesg &> $D/dmesg
 mkdir $D/logs
 cp -a /var/log/{syslog,auth,*php*,nginx} $D/logs
