@@ -1,0 +1,20 @@
+---
+- name: Install dnsmasq
+  apt: 
+    name=dnsmasq
+    state=installed
+
+- name: Disable other dns servers
+  service:
+    name={{ item }}
+    state=stopped
+    enabled=false
+  with_items:
+    - bind9
+  ignore_errors: true
+
+- name: Deploy base config
+  template:
+    src=00-main.conf
+    dest={{ dnsmasq__dir }}
+  notify: reload dnsmasq

@@ -1,0 +1,6 @@
+---
+dnsmasq__hostname: "{{ provision__fqdn }}"
+# If this is ever set to anything else, the playbook tasks
+# will also need to create the dir and set config-dir in
+# /etc/dnsmasq.conf
+dnsmasq__dir: /etc/dnsmasq.d
