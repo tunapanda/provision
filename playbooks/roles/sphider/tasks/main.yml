@@ -9,7 +9,12 @@
     dest={{ sphider__root }}
     update=no
     
-- name: Set dir permissions
+- name: Set base perms on docroot
+  file:
+    dest="{{sphider__root}}"
+    owner={{ provision__admin_user }} group={{ common_web_user }} mode=775
+    
+- name: Set special perms on docroot subdirectories
   file:
      path={{ sphider__root }}/{{ item }}
      owner={{ provision__admin_user }}
@@ -40,6 +45,7 @@
   mysql_db:
     name={{ sphider__db_name }}
     state=present
+  register: db_create
 
 - name: Create rsphider db user
   mysql_user:
@@ -48,14 +54,32 @@
     state=present
     priv={{ sphider__db_name }}.*:ALL'
 
-- name: Configure sphider
+- name: Configure rsphider
   lineinfile: >
     dest='{{ sphider__root }}/settings/database.php'
     regexp='^\${{ item.var }}.*'
     line='${{ item.var }} = "{{ item.val }}";'
+    backrefs=true
   with_items:
     - var: "mysql_user1"
       val: "{{ sphider__db_user }}"
     - var: "mysql_password1"
       val: "{{ sphider__db_pass }}"
+  
+# TODO: This will blow away an existing db. 
+# The "when" statement here *should* make it only
+# run the first time the db is created, but
+# it could use more testing.
+- name: Populate rsphider database
+  shell: >
+    echo "" | 
+    php5 -R 'include("install_tables.php");' 
+    -B 'parse_str($argv[1], $_GET);' 'f=1&db_num=0'
+  args:
+    chdir: "{{ sphider__root }}/admin/"
+  when: db_create.changed
+
+
+  
+
       

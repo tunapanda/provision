@@ -2,6 +2,5 @@
 dependencies:
   - role: portal_subsite
     portal__subsites:
-      - name: "portal_sphider"
-        urlpath: "{{ sphider__urlpath }}"
+      - name: "sphider"
         docroot: "{{ sphider__root }}"
