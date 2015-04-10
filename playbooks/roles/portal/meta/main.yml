@@ -1,6 +1,7 @@
 ---
 dependencies:
-  - bind
+  - dns_server
+  - web_server
   - php 
   - iptables 
   - role: sphider

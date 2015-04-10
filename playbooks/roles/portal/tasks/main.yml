@@ -1,33 +1,4 @@
 ---
-## Basic Service Setup ##
-- name: Installing portal dependencies
-  apt:
-    name={{ item }}
-    state=installed
-  with_items:
-     - nginx
-     - php5
-     - php5-fpm
-     - conntrack
-     - psmisc
-
-- name: Disable Apache
-  service:
-    name=apache2
-    state=stopped
-  ignore_errors: yes
-
-- name: Enable Nginx 
-  service:
-    name=nginx
-    state=started
-
-- name: PHP FPM should be running
-  service:
-    name=php5-fpm
-    state=started
-
-
 ## Main Portal Pages ##
 - name: Create portal directories
   file:
@@ -37,7 +8,6 @@
     recurse=true
   with_items:
     - "{{ portal__docroot }}"
-    - "{{ portal__redirects }}"
 
 - name: Install portal host-specific landing page
   template:
@@ -59,39 +29,11 @@
   when: >
     portal__use_sphider 
     and sphider__root != "{{ portal__docroot }}/rsphider"
-## Nginx Setup ##
-- name: Deploy site config
-  template:
-    src=nginx/portal.j2
-    dest={{ portal__base }}/portal.conf
-    owner={{ provision__admin_user }} 
-    group={{ common_web_user }} 
-    mode=0640
-
-- name: Activate site config
-  file:
-    src={{ portal__base }}/portal.conf
-    dest={{ provision__sites_enabled_dir }}/portal
-    state=link 
-  notify: reload nginx
-
-- name: Remove nginx default page
-  file:
-    path={{ provision__sites_enabled_dir }}/default
-    state=absent
-  notify: reload nginx
-
-- include: edx.yml
-  when: edx__pre_installed is defined and edx__pre_installed
-
+       
+- include: nginx.yml
+  when: web_server__service=="nginx"
 
 ## Portal and Captive Auth Support Files ##
-- name: Installing rmtrack script
-  copy:
-    src=rmtrack
-    dest=/usr/bin/
-    mode=0755
-
 - include: captive.yml
   when: portal__auth is defined and portal__auth != "none"
   notify: reload iptables

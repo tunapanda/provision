@@ -1,4 +1,10 @@
 ---
+- name: Installing rmtrack script
+  copy:
+    src=rmtrack
+    dest=/usr/bin/
+    mode=0755
+    
 - name: Adding sudo rules for portal
   template:
     src=portal_sudo.j2
