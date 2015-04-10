@@ -2,7 +2,3 @@
 	path = playbooks/roles/debops.ifupdown
 	url = https://github.com/debops/ansible-ifupdown
 	branch = master
-[submodule "playbooks/roles/bind"]
-	path = playbooks/roles/bind
-	url = https://github.com/tunapanda/ansible-role-bind
-    	branch = master
