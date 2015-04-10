@@ -4,8 +4,7 @@ dependencies:
   - role: portal_subsite
     portal__subsites:
       - name: "kalite"
-        urlpath: "{{ kalite__urlpath }}"
-        port: "{{ kalite__port }}"
+        forward_url: "http://127.0.0.1:{{ kalite__port }}"
   - role: datasync_rsync
     datasync_rsync__data_dirs: 
       - name: "kalite"
