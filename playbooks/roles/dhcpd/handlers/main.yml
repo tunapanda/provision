@@ -1,3 +1,0 @@
----
-- name: restart dhcpd
-  service: name={{ dhcpd__service_name }} state=restarted
