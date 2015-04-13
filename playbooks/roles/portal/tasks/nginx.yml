@@ -1,0 +1,16 @@
+---
+## Nginx Setup ##
+- name: Deploy site config
+  template:
+    src=nginx/portal.j2
+    dest={{ web_server__sites_dir }}/portal.conf
+    owner={{ provision__admin_user }} 
+    group={{ common_web_user }} 
+    mode=0640
+  notify: reload web server
+
+- name: Remove nginx default page
+  file:
+    path={{ provision__sites_enabled_dir }}/default
+    state=absent
+  notify: reload web server

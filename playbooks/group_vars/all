@@ -4,10 +4,28 @@
 ##
 provision__base_dir: "/usr/local/tunapanda"
 provision__data_dir: "{{ provision__base_dir }}/data"
+provision__scripts_dir: "{{ provision__base_dir }}/scripts"
 provision__ext_dir: "{{ provision__base_dir }}/provision/ext"
-provision__default_packages: [ git, vim, screen, sysstat ] 
+provision__default_packages: [ git, vim, tmux, byobu, elinks, strace, sysstat ] 
 provision__sites_available_dir: "/etc/nginx/sites-available"
 provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
+provision__admin_user: "teacher"
+
+provision__site: "testsite"
+provision__domain: "tunapanda.org"
+provision__fqdn: "{{ provision__site }}.{{ provision__domain }}"
+
+# The "ansible_" in these values is essential. Don't remove it!
+provision__external_interface: "{{ ansible_eth1 }}"
+provision__internal_interface: "{{ ansible_eth0 }}"
+
+# TODO: make this dynamic
+# It gets passed by the bootstratp script
+has_internet: true
+
+# Default location for rsync'ing portal modules
+provision__rachel_mirror_host: "geekdome.net"
+provision__rachel_mirror_name: "x2go_modules"
 
 # TODO: split these off into roles?
 apache_dir: "/etc/apache2"
@@ -16,8 +34,8 @@ apache_user: "www-data"
 iptables__cmd: "/sbin/iptables"
 
 # Overrides for other roles
-ifupdown_external_interface: "eth1"
-ifupdown_internal_interface: "eth0"
+ifupdown_external_interface: "{{ provision__external_interface.device }}"
+ifupdown_internal_interface: "{{ provision__internal_interface.device }}"
 nginx_sites_available_dir: "{{ provision__sites_available_dir }}"
 nginx_sites_enabled_dir: "{{ provision__sites_enabled_dir }}"
 common_web_user: "www-data"

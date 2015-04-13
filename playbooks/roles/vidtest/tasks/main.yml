@@ -1,0 +1,11 @@
+---
+- name: check out vidtest site
+  git:
+    repo="{{vidtest__repo}}"
+    dest="{{vidtest__docroot}}"
+    update=false
+    
+- name: set perms on vidtest site
+  file:
+    dest="{{vidtest__docroot}}"
+    owner={{ provision__admin_user }} group={{ common_web_user }} mode=775

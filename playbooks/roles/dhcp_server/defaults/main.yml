@@ -1,0 +1,5 @@
+---
+dhcp_server__service: dnsmasq
+dhcp_server__start: 10.1.2.10
+dhcp_server__end: 10.1.2.200
+dhcp_server__lease_length: 2h 

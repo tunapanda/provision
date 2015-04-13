@@ -1,0 +1,6 @@
+---
+# This is just to accommodate setting up 
+# vhosts. Consider moving vhost setup to 
+# the portal_subsite role?
+allow_duplicates: yes
+

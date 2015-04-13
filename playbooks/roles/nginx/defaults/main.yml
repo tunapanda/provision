@@ -1,0 +1,8 @@
+---
+nginx__enabled: false
+nginx__port: "{{ web_server__port|default(80) }}"
+nginx__conf_dir: "/etc/nginx/conf.d"
+nginx__sites_dir: "/etc/nginx/sites-enabled"
+web_server__conf_dir: "{{ nginx__conf_dir }}"
+web_server__sites_dir: "{{ nginx__sites_dir }}"
+

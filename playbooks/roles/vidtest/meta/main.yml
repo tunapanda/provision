@@ -2,7 +2,7 @@
 dependencies:
   - role: portal_subsite
     portal__subsites:
-      - name: "videotest" 
+      - name: "vidtest" 
         docroot: "{{ vidtest__docroot }}"
-        urlpath: "{{ vidtest__urlpath }}"
-        extra:   "{{ vidtest__extra }}"
+        extra:   
+          nginx: "rewrite /rand[0-9]+(.*)$ /$1;"

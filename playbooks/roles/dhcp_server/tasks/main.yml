@@ -1,0 +1,3 @@
+---
+- include: dnsmasq.yml
+  when: dhcp_server__service="dnsmasq"

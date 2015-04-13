@@ -1,5 +1,12 @@
 ---
 dependencies:
-  - bind
+  - dns_server
+  - web_server
   - php 
   - iptables 
+  - role: sphider
+    when: portal__use_sphider
+  - role: datasync_rsync
+    cron_datasync__auto_sync: "{{ portal__modules_auto_sync }}"
+    datasync_rsync__data_dirs: "{{ portal__rsync_modules }}"
+        
