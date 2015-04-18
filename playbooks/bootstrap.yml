@@ -6,20 +6,39 @@
 # - provision_ver
 - hosts: all
   tasks:
-  - name: "install dependencies"
-    apt: 
-      name={{ item }}
-      state=installed
-    with_items:
-      - git
-
-  - name: "Cloning/updating core repo"
-    include: "bootstrap_git.yml"
-    vars:
-      dir: "{{ provision_dir }}"
-      repo: "{{ provision_repo }}"
-      ver: "{{ provision_ver }}"
-
+  # Get info on the repo dir
+  - stat:
+      path={{ provision_dir }} 
+      follow=yes
+    register: d
+  
+  # If provision_directory exists, update but fail gracefully if there are
+  # local changes.
+  #- name: "Updating provision_repository provision_repo in {{provision_dir}}"
+  ## Ansible's git module seems to "update" to the specified branch
+  ## in a way that loses local commits if they haven't yet been 
+  ## pushed to the branch specified by {{ provision_ver }}. 
+  # TODO: Find a safe way to automatically pull down updates
+  #  git: 
+  #    ssh_opts="-o StrictHostKeyChecking=no"
+  #    provision_repo={{ provision_repo }}
+  #    dest={{ provision_dir }}
+  #    update=yes
+  #    force=no
+  #    recursive=yes
+  #  ignore_errors: yes
+  #  when: d.stat.exists == True
+    
+  # If provision_directory does not exist, clone it
+  - name: "Cloning provision_repository provision_repo in {{provision_dir}}"
+    git: 
+      ssh_opts="-o StrictHostKeyChecking=no"
+      provision_repo={{ provision_repo }}
+      dest={{ provision_dir }}
+      provision_version={{ provision_ver }}
+      recursive=yes
+    when: d.stat.exists == False
+  
   - name: "provision at boot"
     lineinfile:
       dest="/etc/rc.local"

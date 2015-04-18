@@ -8,7 +8,7 @@
 - name: Setting up captive portal iptables rules
   template:
     src="firewall/captive_portal.j2"
-    dest="{{ iptables__rules_dir }}/captive_portal"
+    dest="{{ iptables__rules_dir }}/000-captive_portal"
   notify:
     - reload iptables
 

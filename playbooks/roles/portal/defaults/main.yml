@@ -23,7 +23,7 @@ portal__docroot: "{{ portal__base }}/site"
 portal__redirects: "{{ portal__base }}/subsites.d"
 portal__users: "{{ portal__base }}/authorized_clients"
 portal__capture_chain: "captive"
-# TODO figure out a way to get IP from ifupdown_external_interface
+# TODO figure out a way to get IP from provision__external_interface.device
 portal__redirect: "{{ provision__internal_interface }}" 
 portal__auth: "none"
 portal__auth_agreement_text: |

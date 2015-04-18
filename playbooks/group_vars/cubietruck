@@ -3,31 +3,30 @@
 ## This file contains settings for a standalone ARM device that
 ## serves as a wireless access point and has edX pre-installed
 ##
-ifupdown: True
-ifupdown_ignore_networkmanager: True
-ifupdown_external_interface: "eth0"
-ifupdown_internal_interface: "wlan0"
-ifupdown_interfaces: 
-    - iface: "{{ ifupdown_external_interface  }}"
-      inet: "dhcp"
-    - iface: "{{ ifupdown_internal_interface }}"
-      inet: "static"
-      options: | 
-        address 10.0.0.1
-        netmask 255.0.0.0
+# The "ansible_" in these values is essential. Don't remove it!
+provision__internal_interface: "{{ ansible_wlan0 }}"
+provision__external_interface: "{{ ansible_eth0 }}"
 
+# Override the default network config
+network__interface_configs:
+  - name: "internal"
+    device: "{{ provision__internal_interface.device }}"
+    address: "10.0.0.1"
+  - name: "external"
+    device: "{{ provision__external_interface.device }}"
+    address: "dhcp"
+
+# Deploy a WAP portal
 wap__enabled: true
 portal__enabled: true
+portal__auth: "agreement"
+php__fpm_url: "unix:/var/run/php5-fpm.sock"
 vidtest__enabled: true
 edx_portal__enabled: true
-kalite__enabled: true
 wikipedia_for_schools__enabled: true
 
-# Tell playbooks to assume edx is pre-installed
-# this changes what our options are for 
-# (re-)configuring it.
-edx__pre_installed: true
-provision__sites_available_dir: "/edx/app/nginx/sites-available/"
-provision__sites_enabled_dir: "/edx/app/nginx/sites-enabled/"
-php__fpm_url: "unix:/var/run/php5-fpm.sock"
-portal__auth: "agreement"
+# Using RACHEL version of kalite for now, but may want
+# to go back to this since it is a more interactive version
+kalite__enabled: true
+kalite__use_rachel_content: true
+

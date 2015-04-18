@@ -14,7 +14,7 @@
 - name: Setting up captive portal iptables rules
   template:
     src=firewall/captive_portal.j2
-    dest={{ iptables__rules_dir }}/captive_portal.conf
+    dest={{ iptables__rules_dir }}/000-captive_portal.conf
   notify:
     - reload iptables
 

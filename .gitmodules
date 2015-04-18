@@ -1,4 +1,0 @@
-[submodule "playbooks/roles/debops.ifupdown"]
-	path = playbooks/roles/debops.ifupdown
-	url = https://github.com/debops/ansible-ifupdown
-	branch = master

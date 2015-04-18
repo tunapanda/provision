@@ -14,11 +14,6 @@
     enabled=false
   ignore_errors: yes
      
-- name: PHP FPM should be running
-  service:
-    name=php5-fpm
-    state=started
-    
 - name: Configure nginx
   template:
     src=nginx.conf
@@ -32,3 +27,12 @@
     owner=root group={{ common_web_user }} mode=0640
   with_items: web_server__vhosts
   notify: reload web server
+
+- name: Start nginx and related services
+  service:
+    name={{ item }}
+    state=started
+  with_items:
+    - php5-fpm
+    - nginx
+    

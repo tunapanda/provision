@@ -12,12 +12,11 @@ portal__auth: "auto"
 portal__redirect: "{{ ansible_eth0 }}"
 ifupdown: True
 ifupdown_ignore_networkmanager: True
-ifupdown_interfaces: 
-    - iface: "{{ ifupdown_internal_interface }}"
-      inet: 'static'
-      options: | 
-        address "10.0.0.1"
-        netmask "255.0.0.0"
+# Override the default network config
+network__interface_configs:
+  - name: "internal"
+    device: "{{ provision__internal_interface.device }}"
+    address: "10.0.0.1"
 
 # Enabled roles
 portal__enabled: true

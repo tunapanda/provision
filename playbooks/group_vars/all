@@ -34,11 +34,6 @@ apache_user: "www-data"
 iptables__cmd: "/sbin/iptables"
 
 # Overrides for other roles
-ifupdown_external_interface: "{{ provision__external_interface.device }}"
-ifupdown_internal_interface: "{{ provision__internal_interface.device }}"
 nginx_sites_available_dir: "{{ provision__sites_available_dir }}"
 nginx_sites_enabled_dir: "{{ provision__sites_enabled_dir }}"
 common_web_user: "www-data"
-EDXAPP_LMS_NGINX_PORT: '81'
-
-

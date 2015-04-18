@@ -35,6 +35,7 @@
     - python-mysqldb
     - mysql-server
     - php5-mysql
+    - php5-cli
     
 - name: Start MySQL server
   service:
@@ -66,10 +67,6 @@
     - var: "mysql_password1"
       val: "{{ sphider__db_pass }}"
   
-# TODO: This will blow away an existing db. 
-# The "when" statement here *should* make it only
-# run the first time the db is created, but
-# it could use more testing.
 - name: Populate rsphider database
   shell: >
     echo "" | 

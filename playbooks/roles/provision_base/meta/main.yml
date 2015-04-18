@@ -1,6 +1,6 @@
 ---
 dependencies:
   - { role: external_data_drive }
-  - { role: debops.ifupdown }
+  - { role: networking }
   - { role: iptables }
   - { role: users }
