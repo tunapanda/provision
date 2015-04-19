@@ -8,9 +8,12 @@ portal__description: |
   <p><strong>x2go</strong> is a collection of free learning materials hosted in a standalone box without requiring internet. </p>
   <p>It is developed by an international team, with representatives of <em>The Tunapanda Institute</em>, <em>The Queen Rania Foundation</em>, and <em>edX</em>. This portal page is based on work done by World Possible for Project RACHEL.
   </p>
-  <p>As long as you are connected to the "x2go" wireless access point, you should be able to reach this page by going to
+  <p>As long as you are connected to the "{{wap__data_ssid}}" wireless access point, you should be able to reach this page by going to
   <?php 
-    if (isset($_SERVER['SERVER_ADDR'])) { 
+    $hostname_from_ansible = {{ "'"+provision__fqdn+"'" if provision__fqdn is defined else "false" }};
+    if ($hostname_from_ansible) {
+      $a = $hostname_from_ansible;
+    } else if (isset($_SERVER['SERVER_ADDR'])) { 
       $a = $_SERVER['SERVER_ADDR'];
     } else {
       $a = print gethostbyname(gethostname()); 

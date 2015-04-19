@@ -4,7 +4,7 @@
     name={{item}}
     state=installed
   with_items:
-    - nginx
+    - nginx-extras
     - php5-fpm
 
 - name: Disable Apache

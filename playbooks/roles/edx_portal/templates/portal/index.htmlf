@@ -1,0 +1,6 @@
+<!-- position: 1 -->
+<div class="indexmodule">
+<img src="<?php echo $dir ?>/edx-logo.png" alt="Open edX logo">
+<h2><a href="http://edx.{{provision__fqdn}}">Open edX</a></h2>
+Open edX is an innovative platform used to host online courses developed by some of the best learning institutions in the world. Since the platform is free and open-source, you can also use <a href="http://studio.{{provision__fqdn}}">Open edX Studio</a> to develop courses youself!
+</div>

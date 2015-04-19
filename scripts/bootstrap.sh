@@ -21,7 +21,7 @@ function step() {
 
 ## Configs
 # All of these can be overridden by setting them as environment vars
-PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-true}
+PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-false}
 PROVISION_AUTO_UPGRADE_PACKAGES=${PROVISION_AUTO_UPGRADE_PACKAGES:-false}
 PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/usr/local/tunapanda"}
 ## TODO: Change usernamenumber URLs back to tunapanda
