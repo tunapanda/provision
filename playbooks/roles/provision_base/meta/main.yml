@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - { role: external_data_drive }
-  - { role: networking }
-  - { role: iptables }
-  - { role: users }
+  - external_data_drive
+  - networking
+  - iptables
+  - users
