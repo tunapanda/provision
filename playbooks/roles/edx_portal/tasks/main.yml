@@ -14,7 +14,8 @@
 - name: ...and give LMS a hostname to answer to (CMS has one by default)
   lineinfile: >
     insertafter='^\s+listen .*$'
-    line='server_name edx.{{ provision__fqdn }}'
+    regexp='^server_name.*$'
+    line='server_name edx.*;'
     dest=/edx/app/nginx/sites-enabled/lms
     state=present
     
