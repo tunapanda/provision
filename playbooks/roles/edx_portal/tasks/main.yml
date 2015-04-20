@@ -19,6 +19,12 @@
     dest=/edx/app/nginx/sites-enabled/lms
     state=present
     
+## edX nginx configs
+- name: Configure nginx to load edx sites
+  template: >
+    src=nginx/edx.conf
+    dest=/etc/nginx/sites-enabled/
+
 ## edX x2go portal module
 - name: Copy portal module content into place
   copy: >
