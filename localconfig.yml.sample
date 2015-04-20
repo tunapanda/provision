@@ -13,12 +13,40 @@ groups: [ default ]
 #     cat playbooks/roles/*/defaults/main.yml
 #
 # ...but don't forget that these values may also be overridden for
-# your group(s), as described in the playbooks/group_vars/ files. 
+# your group(s), as described in the playbooks/group_vars/ files.
 #
 # Overides defined here take precedence over values specified anywhere
 # else.
 #
 vars:
-  var1: "val1"
-  var2: "val2"
-  var3: "val3"
+  ## SITE AND INSTANCE NAMES
+  # The following two settings are the only ones you should always
+  # customize before deployment. They define a unique DNS domain, usable
+  # only by clients that use this server for DHCP, that is used to offer
+  # services from this device. They should be customized for your
+  # Deployment.
+  #
+  # After provisioning, this device will be accessible to anything that
+  # uses it as a dhcp server at the following name (see below for details
+  # on the site and instance settings):
+  #
+  #   $provision__site.$provision__instance.x2go.co
+  #
+  # And services will be available at names like
+  #
+  #  edx.$provision__site.$provision__instance.x2go.co
+  #
+  # Set the site name to a short, one-word description of your organization
+  # or location. Any devices you might want to be able to share information
+  # some day (once we've implemented that feature!) should use the same
+  # site name.
+  # For example, Tunapanda Institute might use "ti" (shorter is better
+  # in case someone has to type the url manually!
+  provision__site: "testsite"
+  # Set this to a short, one-word description of the location within
+  # the deployment site where this device will be set up.
+  # This allows instances deployed in the same site to have
+  # distinct names within the same domain.
+  # If you're not sure what to use here, just use something like
+  # "room256", or "node1".
+  provision__instance: "testnode"
