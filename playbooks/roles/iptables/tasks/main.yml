@@ -33,5 +33,5 @@
 - name: Load iptables automatically
   service:
     name=iptables
-    state=started
+    enabled=true
 
