@@ -40,7 +40,7 @@ vars:
   # or location. Any devices you might want to be able to share information
   # some day (once we've implemented that feature!) should use the same
   # site name.
-  # For example, Tunapanda Institute might use "ti" (shorter is better
+  # For example, Tunapanda Institute might use "ti". Shorter is better
   # in case someone has to type the url manually!
   provision__site: "testsite"
   # Set this to a short, one-word description of the location within
