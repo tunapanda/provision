@@ -39,11 +39,3 @@
       recursive=yes
     when: d.stat.exists == False
   
-  - name: "provision at boot"
-    lineinfile:
-      dest="/etc/rc.local"
-      state="present"
-      regexp={{ provision_dir }}
-      insertbefore="^exit"
-      line="[ -x '{{ provision_dir }}/scripts/bootstrap.sh' ] && {{ provision_dir }}/scripts/bootstrap.sh"
-
