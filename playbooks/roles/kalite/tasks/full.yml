@@ -1,0 +1,35 @@
+---
+- name: Installing dependencies (apt)
+  apt: name={{ item }} state=installed
+  with_items:
+    - sqlite3
+    - git
+
+- name: Installing dependencies (pip)
+  pip: name=Django state=present
+
+- name: Creating data dir {{ kalite__root }}
+  file: path={{ kalite__root }} state=directory force=no
+
+- name: Getting kalite code
+  git: repo={{ kalite__git_source }} dest={{ kalite__root }}
+
+- name: kalite user should own kalit data dir
+  file: path={{ kalite__root }} owner={{ kalite__user }} recurse=true
+
+- name: Setting up kalite
+  command: kalite/manage.py setup -u teacher -p Tunapanda2 -o kalite -d "Tunapanda classroom server" -n
+  args:
+    chdir: "{{ kalite__root }}"
+    creates: "{{ kalite__root }}/kalite/database/data.sqlite"
+  sudo: yes
+  sudo_user: "{{  kalite__user }}"
+  notify: restart kalite
+
+- name: Installing kalite init script
+  command: scripts/runatboot.sh
+  args:
+    chdir: "{{ kalite__root }}"
+    creates: "/etc/init.d/kalite"
+  notify: restart kalite
+

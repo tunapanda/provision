@@ -1,7 +1,7 @@
 # Enable Internet connection sharing
 IPTABLES=${IPTABLES:-{{ iptables__cmd }}}
 echo "1" > /proc/sys/net/ipv4/ip_forward
-$IPTABLES -I INPUT -i {{ ifupdown_external_interface }} -m state --state ESTABLISHED,RELATED -j ACCEPT
+$IPTABLES -I INPUT -i {{ provision__external_interface.device }} -m state --state ESTABLISHED,RELATED -j ACCEPT
 $IPTABLES -t nat -N masq
 $IPTABLES -t nat -A masq -j MASQUERADE
-$IPTABLES -t nat -A POSTROUTING -o {{ ifupdown_external_interface }} -j masq
+$IPTABLES -t nat -A POSTROUTING -o {{ provision__external_interface.device }} -j masq

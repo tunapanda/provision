@@ -4,3 +4,7 @@
     name="{{ item }}" 
     state="present"
   with_items: provision__default_packages
+
+- name: "Set hostname"
+  shell: "echo '{{ provision__fqdn }}' > /etc/hostname ; hostname {{ provision__fqdn }}"
+  when: provision__fqdn is defined 

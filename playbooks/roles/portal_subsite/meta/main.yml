@@ -1,4 +1,5 @@
 ---
 allow_duplicates: yes
 dependencies:
-  - portal
+  - role: web_server
+    web_server__vhosts: "{{ portal__subsites }}"

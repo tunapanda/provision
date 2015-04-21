@@ -1,4 +1,10 @@
 ---
+- name: Installing rmtrack script
+  copy:
+    src=rmtrack
+    dest=/usr/bin/
+    mode=0755
+    
 - name: Adding sudo rules for portal
   template:
     src=portal_sudo.j2
@@ -8,13 +14,30 @@
 - name: Setting up captive portal iptables rules
   template:
     src=firewall/captive_portal.j2
-    dest={{ iptables__rules_dir }}/captive_portal.conf
+    dest={{ iptables__rules_dir }}/000-captive_portal.conf
   notify:
     - reload iptables
 
 - name: Creating portal users list 
-  file:
+  file: >
     path={{ portal__users }}
     state=touch
     mode=644
     owner={{ apache_user }} 
+    
+- name: Create portal auth module
+  file: >
+    dest={{ portal__modules_dir }}/internet
+    state=directory
+    owner={{ provision__admin_user }}
+    group={{ common_web_user }}
+    mode=0770
+    recurse=true
+    
+- name: Add portal auth module index page
+  template: >
+    src=site/auth.php
+    dest={{ portal__modules_dir }}/internet/index.htmlf
+    owner={{ provision__admin_user }}
+    group={{ common_web_user }}
+    mode=0640

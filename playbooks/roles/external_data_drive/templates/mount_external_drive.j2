@@ -1,4 +1,10 @@
 #!/bin/bash
 
+if mount | grep ' on {{ external_data_drive__mountpoint }} ' 
+then
+	echo "Drive already mounted on {{ external_data_drive__mountpoint }}"
+	exit 0
+fi
+
 logger -t tunapanda 'mounting external data drive to {{ external_data_drive__mountpoint }}'
 mount LABEL={{ external_data_drive__disklabel }} {{ external_data_drive__mountpoint }}

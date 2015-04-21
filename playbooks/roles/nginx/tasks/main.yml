@@ -1,0 +1,38 @@
+---
+- name: Install nginx
+  apt:
+    name={{item}}
+    state=installed
+  with_items:
+    - nginx-extras
+    - php5-fpm
+
+- name: Disable Apache
+  service:
+    name=apache2
+    state=stopped
+    enabled=false
+  ignore_errors: yes
+     
+- name: Configure nginx
+  template:
+    src=nginx.conf
+    dest=/etc/nginx/nginx.conf
+  notify: reload web server
+  
+- name: Deploy vhosts
+  template: 
+    src=vhost.conf
+    dest={{ web_server__sites_dir }}/{{ item.name }}.conf
+    owner=root group={{ common_web_user }} mode=0640
+  with_items: web_server__vhosts
+  notify: reload web server
+
+- name: Start nginx and related services
+  service:
+    name={{ item }}
+    state=started
+  with_items:
+    - php5-fpm
+    - nginx
+    

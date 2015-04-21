@@ -1,8 +1,31 @@
 ---
 dependencies:
-  - { role: users }
+  # Simple install: rsync down the non-interactive RACHEL version 
+  - role: datasync_rsync
+    datasync_rsync__data_dirs: 
+      - name: "kalite"
+        remote_host: "{{ provision__rachel_mirror_host }}"
+        remote_dir: "{{ provision__rachel_mirror_name }}/kaos-en/"
+        local_dir: "{{ portal__modules_dir }}/kalite/"
+    when: kalite__use_rachel_content
   - role: portal_subsite
     portal__subsites:
       - name: "kalite"
-        urlpath: "{{ kalite__urlpath }}"
-        port: "{{ kalite__port }}"
+        docroot: "{{ portal__modules_dir }}/kalite"
+    when: kalite__use_rachel_content
+
+  # Full install, using the more interactive ka-lite Django app
+  # and a simple link from the portal to there. 
+  - role: datasync_rsync
+    datasync_rsync__data_dirs: 
+      - name: "kalite"
+        remote_host: "{{ provision__rachel_mirror_host }}"
+        remote_dir: "{{ provision__rachel_mirror_name }}/kalite/"
+        local_dir: "{{ portal__modules_dir }}/kalite/"
+    when: not kalite__use_rachel_content
+  - role: portal_subsite
+    portal__subsites:
+      - name: "kalite"
+        forward_url: "http://127.0.0.1:{{ kalite__port }}"
+    when: not kalite__use_rachel_content
+

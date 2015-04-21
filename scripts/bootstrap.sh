@@ -21,7 +21,8 @@ function step() {
 
 ## Configs
 # All of these can be overridden by setting them as environment vars
-PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-true}
+PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-false}
+PROVISION_AUTO_UPGRADE_PACKAGES=${PROVISION_AUTO_UPGRADE_PACKAGES:-false}
 PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/usr/local/tunapanda"}
 ## TODO: Change usernamenumber URLs back to tunapanda
 PROVISION_CORE_REPO=${PROVISION_CORE_REPO:-"http://github.com/usernamenumber/provision"}
@@ -42,13 +43,21 @@ function has_internet() {
 	if [ -z "$HAS_INTERNET" ]
 	then
 		step "Checking internet access" 
-        if [ -f $PROVISION_CORE_DIR/scripts/has_internet ] 
-        then
-            $PROVISION_CORE_DIR/scripts/has_internet
-        else
-		    ping -c1 -w5 www.google.com #&> /dev/null
-        fi
+		if [ -f $PROVISION_CORE_DIR/scripts/has_internet ] 
+		then
+		    $PROVISION_CORE_DIR/scripts/has_internet
+		else
+			    ping -c1 -w5 www.google.com #&> /dev/null
+		fi
 		HAS_INTERNET=$?
+		if [ $HAS_INTERNET -eq 0 ] 
+		 then 
+			note 'Internet access detected. Great!'
+			HAS_INTERNET_STR=true
+		else 
+			note "No Internet access detected. Some steps will be skipped, and first-time setup may fail."
+			HAS_INTERNET_STR=false
+		fi
 	fi
 	return $HAS_INTERNET
 }
@@ -79,13 +88,22 @@ then
 	die 'Must be run as root!'
 fi
 
-# Update packages if the haven't been updated in the last 12 hours
-if has_internet && [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
-then
-	step "Updating package list"
-	apt-get update
+if $PROVISION_AUTO_UPGRADE_PACKAGES && has_internet 
+then 
+	# Update packages if the haven't been updated in the last 12 hours
+	if [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
+	then
+		step "Updating package list"
+		apt-get update
+	fi
+
+	step "Upgrading packages"
+	apt-get upgrade -y
+else
+	note "No internet access or auto-update disabled. Skipping package updates."
 fi
 
+step "Checking dependencies..."
 if ! is_installed git
 then
 	has_internet || die "git is required, but we can't install it without a net connection"	
@@ -115,9 +133,9 @@ if ! is_installed ansible
 then
 	step "Installing Ansible"
 	has_internet || die "Ansible is required, but we can't install it without a net connection"	
-	apt-get install -y python-dev
+	apt-get install -y python-dev && 
+	pip install --upgrade 'ansible>=1.6'
 fi
-pip install --upgrade 'ansible>=1.6'
 is_installed ansible || die "Something went wrong installing ansible. Cannot continue."
 
 if [ -z "$PROVISION_CORE_VERSION" ]
@@ -140,26 +158,20 @@ PROVISION_BOOTSTRAP_INVENTORY=$PROVISION_CORE_INVENTORY
 # Can't find repo. Probably a fresh install, so download the bootstrap playbook
 if [ ! -e "$PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK" ]
 then
+	step "Bootstrapping playbook not found. Performing first-time setup..."
 	has_internet || die "Can't find bootstrap playbook, but no net access, so can't retrieve it either"
 	RAND=$RANDOM
 	PROVISION_BOOTSTRAP_DIR="/tmp"
 	PROVISION_BOOTSTRAP_PLAYBOOK="${RAND}bootstrap.yml"
 	PROVISION_BOOTSTRAP_INVENTORY="${RAND}inventory.ini"
-	step "Provisioning repo not found. Downloading fallback playbook for bootstrapping."
 	get_url $PROVISION_BOOTSTRAP_FALLBACK_URL > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK
-	# TODO: Fix this quick and dirty hack
-	get_url https://raw.githubusercontent.com/usernamenumber/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap_git.yml > bootstrap_git.yml || die "could not get bootstrap_git.yml"
 	cat > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_INVENTORY <<EOF
 [localhost]
 127.0.0.1
 EOF
-    cat > $PROVISION_BOOTSTRAP_DIR/ansible.cfg <<EOF
-[defaults]
-host_key_checking=False
-EOF
 fi
 
-export ANSIBLE_HOST_KEY_CHECKING=False
+export ANSIBLE_HOST_KEY_CHECKING=false
 # Cheap way to ensure that github's host key is known. Otherwise, even with the setting above,
 # ansible may stall if it tries to update a repo with an ssh url
 ssh -o StrictHostKeyChecking=no git@github.com 'true' &> /dev/null
@@ -175,7 +187,7 @@ then
         $PROVISION_BOOTSTRAP_PLAYBOOK || die "Could not run bootstrap playbook"
     popd > /dev/null
 else 
-    note "No Internet, so skipping playbook updates"
+    note "No Internet, or PROVISION_AUTO_UPDATE=false, so skipping playbook updates"
 fi
 
 step "Generating roles.yml"
@@ -202,6 +214,7 @@ pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
 ansible-playbook -vvv \
     -c local \
     -i $PROVISION_CORE_INVENTORY \
+    -e "has_internet=$HAS_INTERNET_STR" \
     $PROVISION_CORE_PLAYBOOK || die "Could not run core playbook"
 popd > /dev/null
 

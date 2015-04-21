@@ -1,0 +1,3 @@
+---
+- include: dnsmasq.yml
+  when: dns_server__service=="dnsmasq"

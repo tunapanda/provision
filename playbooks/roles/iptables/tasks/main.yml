@@ -4,12 +4,11 @@
 # http://wiki.gema-soft.de/doku.php?id=it-administration:tools:ansible:ferm
 #
 - name: Ensure iptables is installed (debian)
-  apt: pkg=iptables
-  when: ansible_os_family == 'Debian'
-
-- name: Ensure iptables is installed (redhat)
-  yum: pkg=iptables
-  when: ansible_os_family == 'RedHat'
+  apt: pkg={{ item }} state=installed
+  with_items:
+    - iptables
+    - conntrack
+    - psmisc
 
 - name: Create iptables rules dir
   file:
@@ -28,6 +27,11 @@
   notify:
     - reload iptables
 
-- name: Autoload the rules
+- name: Set up iptables init script
   template: src=iptables_init_script.j2 dest=/etc/init.d/iptables owner=root group=root mode=751
+
+- name: Load iptables automatically
+  service:
+    name=iptables
+    enabled=true
 
