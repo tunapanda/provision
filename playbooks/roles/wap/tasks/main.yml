@@ -33,3 +33,4 @@
   service: 
     name=hostapd
     state=started
+    enabled=true
