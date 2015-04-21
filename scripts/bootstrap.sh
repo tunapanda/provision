@@ -88,7 +88,7 @@ then
 	die 'Must be run as root!'
 fi
 
-if $PROVISION_AUTO_UPDATE && has_internet 
+if $PROVISION_AUTO_UPGRADE_PACKAGES && has_internet 
 then 
 	# Update packages if the haven't been updated in the last 12 hours
 	if [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
@@ -97,12 +97,8 @@ then
 		apt-get update
 	fi
 
-	# Upgrade everything is auto upgrade is enabled
-	if $PROVISION_AUTO_UPGRADE_PACKAGES 
-	then
-		step "Upgrading packages"
-		apt-get upgrade -y
-	fi
+	step "Upgrading packages"
+	apt-get upgrade -y
 else
 	note "No internet access or auto-update disabled. Skipping package updates."
 fi
