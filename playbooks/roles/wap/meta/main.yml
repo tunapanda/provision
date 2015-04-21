@@ -1,5 +1,5 @@
 ---
 dependencies:
-- role: dns_server
-- role: dhcp_server
-- role: iptables
+- networking
+- dhcp_server
+- iptables
