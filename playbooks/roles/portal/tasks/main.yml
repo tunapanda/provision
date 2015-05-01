@@ -37,3 +37,10 @@
 - include: captive.yml
   when: portal__auth is defined and portal__auth != "none"
   notify: reload iptables
+
+
+### HACK ALERT: These shouldn't be necessary, but it looks like
+### several `notify` statements in the roles aren't being 
+### executed as expected, so for now we'll just force restarting
+### TODO: Figure out what's really going on...
+- shell: for s in nginx dnsmasq iptables; do service $s restart || true ; done
