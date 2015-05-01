@@ -5,7 +5,7 @@
   include: roles.yml
 
 - hosts: tunapanda_server
-  includes: roles.yml
+  include: roles.yml
 
 - hosts: cubietruck
   include: roles.yml
