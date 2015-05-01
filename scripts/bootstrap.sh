@@ -31,7 +31,7 @@ PROVISION_CORE_INVENTORY=${PROVISION_CORE_INVENTORY:-"${PROVISION_CORE_DIR}/scri
 PROVISION_CORE_VERSION="${PROVISION_CORE_VERSION:-}" # default to current branch or master if no repo
 PROVISION_CORE_PLAYBOOK=${PROVISION_CORE_PLAYBOOK:-"${PROVISION_CORE_DIR}/playbooks/main.yml"}
 
-CUSTOM_PLAYBOOK=${PROVISION_CORE_DIR}/custom.yml 
+CUSTOM_PLAYBOOK=${PROVISION_CORE_DIR}/playbooks/custom.yml 
 if [ -f $CUSTOM_PLAYBOOK ]
 then
     note "Using custom playbook $CUSTOM_PLAYBOOK"
@@ -88,7 +88,7 @@ then
 	die 'Must be run as root!'
 fi
 
-if $PROVISION_AUTO_UPGRADE_PACKAGES && has_internet 
+if has_internet 
 then 
 	# Update packages if the haven't been updated in the last 12 hours
 	if [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
@@ -96,7 +96,10 @@ then
 		step "Updating package list"
 		apt-get update
 	fi
+fi
 
+if $PROVISION_AUTO_UPGRADE_PACKAGES && has_internet 
+then
 	step "Upgrading packages"
 	apt-get upgrade -y
 else
