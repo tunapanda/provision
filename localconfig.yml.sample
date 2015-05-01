@@ -1,11 +1,14 @@
 ---
 # If you know what you are doing, you can customize which roles are deployed 
-# by creating a copy of this file called `localconfig.yml` and selecting
-# your own groups below. 
+# by creating a copy of this file called `localconfig.yml` and customizing 
+# groups and variables below. 
 # 
 # Each file in `playbooks/group_vars` represents an available group.
-# Separate multiple groups with commas.
-groups: [ default ] 
+# Default vars for all groups are in `playbooks/group_vars/all`.
+#
+# If you change this setting, you should *REPLACE* the word `default`.
+# Do not use a setting like `[ default, cubietruck ]`
+groups: [ default ]  
 
 # You can also fine-tune settings here. You can get a list of
 # available settings and their default values by running:
@@ -50,3 +53,8 @@ vars:
   # If you're not sure what to use here, just use something like
   # "room256", or "node1".
   provision__instance: "testnode"
+
+  # You can also enable/disable any role defined in `playbooks/roles`
+  # By setting `$ROLENAME__enabled: ` to `true` or `false`.
+  #
+  # portal__enabled: true 

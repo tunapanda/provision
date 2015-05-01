@@ -1,4 +1,13 @@
 ---
 - include: common_pre.yml
-- include: roles.yml
+
+- hosts: default
+  include: roles.yml
+
+- hosts: tunapanda_server
+  includes: roles.yml
+
+- hosts: cubietruck
+  include: roles.yml
+
 - include: common_post.yml
