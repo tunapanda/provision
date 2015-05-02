@@ -11,7 +11,8 @@ data/packages/*
 /.idea
 force_groups
 provisioning.txt
-playbooks/localconfig.yml
+playbooks/ansible.log
+playbooks/custom*.yml
 playbooks/*test.yml
 playbooks/roles.yml
 ext/*
