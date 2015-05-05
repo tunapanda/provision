@@ -4,7 +4,7 @@ Vagrant + Ansible config for provisioning a virtual machine.
 The idea is to do an automated provision a physical machine or a VM using [ansible](http://ansible.com) and [vagrant](http://www.vagrantup.com). The provisioned system can then optionally be used to generate a bootable ISO using a customized version of the sadly now quasi-defunct [remastersys](https://en.wikipedia.org/wiki/Remastersys).
 
 ## How do I use it?
-The very basics (test VM with default config):
+To provision a test VM with a default-ish config:
 
 1. Install [Vagrant](http://vagrantup.com)
 2. Clone this repo
@@ -15,6 +15,9 @@ The very basics (test VM with default config):
   5. Read the comments in that file and make whatever changes seem appropriate
 4. Provision!
   1. `vagrant up`
+5. Investigate!
+  6. Visit the server with your web browser (the final step of the provisioning process should print the server's IP address(es)). 
+  2. The provisioning process starts several background jobs that continue downloading content even after it "completes", so not all content will be there the first time you access the site.
   
 See the [Setup](https://github.com/tunapanda/provision/wiki/Setup) wiki page for more.
 
