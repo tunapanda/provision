@@ -8,6 +8,8 @@ learninglocker__group: "{{common_web_user}}"
 learninglocker__db_user: learninglocker
 learninglocker__db_pass: learninglocker
 learninglocker__active_db: learninglocker
+learninglocker__xapi_user: "caae95f54d6545c76fc289f02a3c1d51c455f7e6"
+learninglocker__xapi_pass: "40cb0287f95189298729f6ccc36f6277840604ad"
 learninglocker__users:
   - name: "{{provision__admin_user}}"
     role: "super"
