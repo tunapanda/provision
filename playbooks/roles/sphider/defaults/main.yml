@@ -1,5 +1,4 @@
 ---
-sphider__enabled: false
 sphider__root: "{{ provision__data_dir }}/rsphider"
 sphider__urlpath: "/rsphider"
 sphider__db_name: "sphider_plus"

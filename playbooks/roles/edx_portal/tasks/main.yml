@@ -24,6 +24,7 @@
   template: >
     src=nginx/edx.conf
     dest=/etc/nginx/sites-enabled/
+  notify: restart web server
 
 ## edX x2go portal module
 - name: Copy portal module content into place

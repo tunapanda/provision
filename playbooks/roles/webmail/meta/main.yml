@@ -1,0 +1,8 @@
+---
+dependencies:
+  - web_server_vhosts
+   #- bind:
+     
+#  - { role: 'git+http://github.com/resmo/ansible-role-bind,,bind_gh' }
+ #- { role: 'git+http://git.example.com/repos/role-foo,v1.1,foo' }
+

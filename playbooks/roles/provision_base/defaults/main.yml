@@ -1,5 +1,4 @@
 ---
-provision_base__enabled: true
 provision__base_dir: "/usr/local/tunapanda"
 apache_user: "www-data"
 apache_dir: "/etc/apache2"

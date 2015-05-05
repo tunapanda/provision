@@ -1,12 +1,16 @@
 # {{ ansible_managed }}
 {% for i in network__interface_configs %}
-{{ "# " + i.name if i.name is defined }}
-auto {{ i.device }}
+{% if i != "False" %} {# Ignore disabled interfaces #}
+auto {{ i.stat.device }}
   {% if i.address is not defined or i.address == "dhcp" %}
-	iface {{ i.device }} inet dhcp
+	iface {{ i.stat.device }} inet dhcp
   {% else %}
-	iface {{ i.device }} inet static
+	iface {{ i.stat.device }} inet static
         address {{ i.address }}
   {% endif %}
+  {% if i.extra is defined and i.extra.debian is defined %}
+  		{{ i.extra.debian }}
+  {% endif %}
 
+{% endif %}
 {% endfor %}

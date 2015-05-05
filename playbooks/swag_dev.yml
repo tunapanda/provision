@@ -1,0 +1,17 @@
+---
+- hosts: all
+  roles:
+    - users
+    - swagportal
+    
+  # Temporary workaround for bugs in how
+  # handlers and dependencies interact in
+  # ansible.
+  post_tasks:
+    - service:
+        name={{item}}
+        state=restarted
+      with_items:
+        - nginx
+    
+- include: util_print_stats.yml

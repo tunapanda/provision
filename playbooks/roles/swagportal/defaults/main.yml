@@ -1,0 +1,4 @@
+---
+swagportal__owner: "{{provision__admin_user}}"
+swagportal__group: "{{common_web_user}}"
+swagportal__root: "{{provision__data_dir}}/swagportal"

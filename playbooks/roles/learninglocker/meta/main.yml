@@ -1,0 +1,19 @@
+---
+dependencies:
+  - mail_server
+  - role: web_server_vhosts
+    web_server__vhosts:
+      - name: learninglocker
+        docroot: "{{learninglocker__root}}/public"
+        extra:
+          nginx: |
+            location / {
+              try_files $uri $uri/ /index.php?$query_string;
+            }
+            if (!-d $request_filename) {
+                rewrite ^/(.+)/$ /$1 ;
+            }
+            location ~* \.(?:ico|css|js|jpe?g|JPG|png|svg|woff)$ {
+              expires 365d;
+            }
+          

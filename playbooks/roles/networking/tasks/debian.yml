@@ -1,4 +1,5 @@
 ---
+- debug: var=network__interface_configs
 - name: deploy network interfaces config
   template:
     src=debian/interfaces

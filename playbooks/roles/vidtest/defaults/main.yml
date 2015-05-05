@@ -1,4 +1,3 @@
 ---
-vidtest__enabled: false
 vidtest__docroot: "{{ provision__data_dir }}/vidtest"
 vidtest__repo: "https://github.com/tunapanda/videotest"

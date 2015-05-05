@@ -10,7 +10,7 @@
     src=portal_sudo.j2
     dest=/etc/sudoers.d/portal
     mode=440
-
+- debug: var=portal__
 - name: Setting up captive portal iptables rules
   template:
     src=firewall/captive_portal.j2

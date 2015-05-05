@@ -1,6 +1,6 @@
 server {
   listen {{ portal__port|default("80") }} default;
-  return 302 http://{{ portal__redirect.ipv4.address }}/index.php?orig_url=$scheme://$host$request_uri;
+  return 302 http://{{ provision__internal_interface.stat.ipv4.address }}/index.php?orig_url=$scheme://$host$request_uri;
 }
 
 server {
@@ -19,7 +19,7 @@ server {
          # NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
   
          # With php5-fpm:
-         fastcgi_pass {{ php__fpm_url|default('127.0.0.1:9000') }};
+         fastcgi_pass {{ php__fpm_url }};
          fastcgi_index index.php;
          include fastcgi_params;
   }

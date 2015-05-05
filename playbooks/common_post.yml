@@ -1,6 +1,0 @@
----
-
-- name: Closing timestamp
-  hosts: all
-  tasks:
-    - shell: echo "Last provisioning completed $(date)" >> {{ provision__base_dir }}/provisioning.txt

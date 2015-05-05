@@ -1,3 +1,2 @@
 ---
-dns_server__enabled: false
 dns_server__service: "dnsmasq"

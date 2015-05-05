@@ -1,5 +1,4 @@
 ---
-portal__enabled: false
 portal__use_sphider: true
 portal__port: 80
 portal__title: "x2go"
@@ -26,9 +25,7 @@ portal__docroot: "{{ portal__base }}/site"
 portal__redirects: "{{ portal__base }}/subsites.d"
 portal__users: "{{ portal__base }}/authorized_clients"
 portal__capture_chain: "captive"
-# TODO figure out a way to get IP from provision__external_interface.device
-portal__redirect: "{{ provision__internal_interface }}" 
-portal__auth: "none"
+portal__auth: "agreement"
 portal__auth_agreement_text: |
   <p>By clicking this button, you agree to not be a jerk on the Internet.<br>
   In exchange, you'll be given access to the Internet (when it's available)!</p>

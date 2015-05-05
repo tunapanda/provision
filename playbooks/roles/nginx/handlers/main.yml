@@ -1,3 +1,6 @@
 ---
 - name: reload web server
   service: name=nginx state=reloaded
+  
+- name: restart web server
+  service: name=nginx state=restarted

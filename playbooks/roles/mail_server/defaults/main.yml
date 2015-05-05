@@ -1,0 +1,3 @@
+---
+mail_server__enabled: false
+mail_server__service: "postfix"

@@ -1,0 +1,16 @@
+---
+learninglocker__enabled: false
+learninglocker__debug: true
+learninglocker__root: "{{provision__data_dir}}/learninglocker"
+learninglocker__repo: "https://github.com/LearningLocker/learninglocker"
+learninglocker__owner: "{{provision__admin_user}}"
+learninglocker__group: "{{common_web_user}}"
+learninglocker__db_user: learninglocker
+learninglocker__db_pass: learninglocker
+learninglocker__active_db: learninglocker
+learninglocker__users:
+  - name: "{{provision__admin_user}}"
+    role: "super"
+    password: "Tunapanda2"
+  #- name: student1
+  #  password: "4321"

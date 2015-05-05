@@ -1,6 +1,4 @@
 ---
-cron_datasync__enabled: false
-
 # Start hour: 0-23
 cron_datasync__start_hour: "0"
 

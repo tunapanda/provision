@@ -1,6 +1,4 @@
 ---
-datasync_rsync__enabled: false
-
 datasync_rsync__sync_scripts_dir: "{{ cron_datasync__sync_scripts_dir }}"
 
 datasync_rsync__dir_defaults:

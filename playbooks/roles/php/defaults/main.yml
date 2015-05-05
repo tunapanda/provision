@@ -1,5 +1,3 @@
 ---
-# Don't install unless pulled in as a default
-php__enabled: false
-php__fpm_url: "127.0.0.1:9000"
-
+# Some distros may use "127.0.0.1:9000" by default
+php__fpm_url: "unix:/var/run/php5-fpm.sock"

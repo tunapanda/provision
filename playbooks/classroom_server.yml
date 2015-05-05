@@ -1,0 +1,23 @@
+---
+##
+## Config for a classroom server that provides "online"
+## content locally in a disconnected classroom. 
+##
+
+# Base server config
+- include: common/base.yml
+
+# Content portal config
+- include: common/portal.yml
+
+# Optional wireless access point functionality
+# (disabled by default)
+- hosts: all
+  roles:
+    - role: wap
+      when: wap__enabled is defined and wap__enabled
+
+# Print the server's IP
+- include: util_print_stats.yml
+    
+

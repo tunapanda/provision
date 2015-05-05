@@ -1,0 +1,23 @@
+---
+- name: Create swagportal repo
+  file:
+    path={{swagportal__root}}
+    owner={{swagportal__owner}}
+    group={{swagportal__group}}
+    mode=2775
+    state=directory
+
+- name: Clone swagportal repo
+  sudo: yes
+  sudo_user: "{{swagportal__owner}}"
+  git:
+    repo=https://github.com/tunapanda/swagportal
+    recursive=true
+    dest={{swagportal__root}}
+    
+- name: Deploy swagportal config
+  template:
+    src="config.php"
+    dest="{{swagportal__root}}/config.ini"
+    owner="{{swagportal__owner}}"
+    group="{{swagportal__group}}"

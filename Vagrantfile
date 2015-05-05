@@ -9,12 +9,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "ubuntu/trusty64"
   config.vm.synced_folder ".", "/usr/local/tunapanda/provision"
+  config.vm.hostname = /"msg": "(.*?)"/.match(`cd #{File.dirname(__FILE__)} ; ansible-playbook -i scripts/provision.py playbooks/util_get_hostname.yml -c local`)[1]
 
   # These environment vars can be used to alter the behavior of
   # the bootstrapping script.
 $script = <<SCRIPT
+export PROVISION_DEFAULT_PLATFORM="vm"
 export PROVISION_BASE_DIR="#{ENV['PROVISION_BASE_DIR']}"
 export PROVISION_CORE_REPO="#{ENV['PROVISION_CORE_REPO']}"
 export PROVISION_CORE_DIR="#{ENV['PROVISION_CORE_DIR']}"
@@ -80,7 +82,7 @@ SCRIPT
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.33.20"
+  config.vm.network "private_network", type: "dhcp"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on

@@ -1,0 +1,34 @@
+---
+#- debug: var={{web_server__vhosts}}
+#- name: Remove nginx default server config (a new default vhost has been provided)
+#  file:
+#    name="{{web_server__sites_dir}}/default"
+#    state=absent
+#  when: web_server__vhosts|selectattr("default")|list|length > 0
+
+- name: Deploy vhosts
+  template: 
+    src=vhost.conf
+    dest={{ web_server__sites_dir }}/{{ item.name }}.conf
+    owner=root group={{ common_web_user }} mode=0644
+  with_items: web_server__vhosts
+  notify: restart web server
+  
+- name: Remove old nginx default vhost
+  file:
+    name={{ web_server__sites_dir }}/default
+    state=absent
+  when: >
+    web_server__default_vhost is defined
+  notify: restart web server
+  
+- name: Redirect to new default vhost
+  template:
+    src=vhost_default_redirect.conf
+    dest={{ web_server__sites_dir }}/default.conf
+    owner=root group={{ common_web_user }} mode=0644
+  with_items: web_server__vhosts
+  when: >
+    web_server__default_vhost is defined
+    and web_server__default_vhost == item.name
+  notify: restart web server

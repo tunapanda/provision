@@ -1,0 +1,25 @@
+---
+##
+## Config for a standalone ARM device that serves as
+## a wireless access point and has edX pre-installed
+##
+
+# Let Ansible handle the network config and sudo user...
+network__interface_configs: []
+provision__admin_user: "vagrant"
+user__reset_admin_password: false
+
+# ...but we stil need to say which interface is which
+provision__internal_interface: 
+  stat: "{{ ansible_eth1 }}"
+  
+# Don't run a DHCP server by default
+# TODO: It should be possible to have vagrant create
+# a virtual network where DHCP can be safely run for
+# other VMs
+dhcp_server__enabled: false
+
+# Incorporate "vm" into the hostname
+provision__instance: vm
+      
+ 

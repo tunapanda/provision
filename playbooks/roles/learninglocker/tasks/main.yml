@@ -1,0 +1,104 @@
+---
+- name: Install dependencies (apt)
+  apt:
+    name={{item}} state=installed
+  with_items:
+    - mongodb
+    - php5-mongo
+    - python-pymongo
+    - curl 
+    - php5
+    - mcrypt
+    - php5-mcrypt
+    - php5-cli
+    - npm
+    - nodejs-legacy
+    - git
+    
+- name: Enable mcrypt
+  command: php5enmod mcrypt
+  register: mcrypt_step
+  
+# Service module doesn't like fpm for some reason
+- name: Reload PHP5-fpm
+  command: service php5-fpm restart
+  when: mcrypt_step.changed
+    
+- name: Install Bower
+  npm: name=bower global=true
+  
+- name: Check for Composer
+  stat: path=/usr/local/bin/composer
+  register: composer_exe
+
+- name: Install composer
+  shell: "curl -sS https://getcomposer.org/installer | php && mv composer.phar composer"
+  args:
+    chdir: /usr/local/bin
+  when: composer_exe.stat.exists == false
+  
+- name: Create database user
+  mongodb_user: 
+    database="{{learninglocker__active_db}}"
+    name="{{learninglocker__db_user}}"
+    password="{{learninglocker__db_pass}}"
+    
+    
+- name: Create learninglocker repo
+  file:
+    path={{learninglocker__root}}
+    owner={{learninglocker__owner}}
+    group={{learninglocker__group}}
+    mode=2775
+    state=directory
+    
+- name: Clone learninglocker repo
+  sudo: yes
+  sudo_user: "{{learninglocker__owner}}"
+  git:
+    repo={{learninglocker__repo}}
+    dest={{learninglocker__root}}
+    update=no
+    
+- name: Set perms on storage dir
+  file:
+    path={{learninglocker__root}}/app/storage
+    mode=775
+    recurse=true
+    
+- name: Install dependencies (composer)
+  composer:
+    working_dir={{learninglocker__root}}
+  
+- name: Configure debug output
+  lineinfile: >
+    dest={{learninglocker__root}}/app/config/local/app.php
+    regexp="(^\s*['\"]debug['\"]\s+=>\s+)\w+(.*)"
+    backrefs=true
+    line="\1{{learninglocker__debug|string()}}\2"
+    state=present
+    
+- name: Deploy db config
+  template:
+    src=database.php
+    dest={{learninglocker__root}}/app/config/local/database.php
+  register: db_setup
+    
+- name: Perform DB migrations
+  command: php artisan migrate
+  args:
+    chdir: "{{learninglocker__root}}"
+  when: db_setup.changed
+  
+#- name: Create LL users
+#  shell: >
+#    php -r "print 'db.users.update( 
+#    {\"name\" : \"{{item.name}}\"}, 
+#    {\"name\" : \"{{item.name}}\",
+#    \"email\" : \"{{item.email|default(item.name+"@"+provision__fqdn)}}\",
+#    \"verified\" : \"yes\", 
+#    \"role\" : \"{{item.role|default("observer")}}\", \"password\" : \"'.password_hash(\"{{item.password}}\",PASSWORD_DEFAULT).'\"},
+#    {\"upsert\":true})';" 
+#    | mongo {{learninglocker__active_db}}
+#  with_items: learninglocker__users
+  

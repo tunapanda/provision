@@ -10,7 +10,7 @@ $IPTABLES -N {{ portal__capture_chain }} -t mangle
 # At the prerouting NAT stage this will DNAT them to the local
 # webserver for them to signup if they aren't authorised
 # Packets for unauthorised users are marked for dropping later
-$IPTABLES -t mangle -A PREROUTING -i {{ provision__internal_interface.device }} -j {{ portal__capture_chain }}
+$IPTABLES -t mangle -A PREROUTING -i {{ provision__internal_interface.stat.device }} -j {{ portal__capture_chain }}
 
 ###### INTERNET CHAIN ##########
 # Allow authorised clients in, redirect all others to login webserver
@@ -24,8 +24,10 @@ awk 'BEGIN { FS="\t"; } { system("$IPTABLES -t mangle -A {{ portal__capture_chai
 $IPTABLES -t mangle -A {{ portal__capture_chain }} -j MARK --set-mark 99
 ################################
 
-# Redirects web requests from Unauthorised users to logon Web Page
-$IPTABLES -t nat -A PREROUTING -i {{ provision__internal_interface.device }} -m mark --mark 99 -j DNAT --to-destination {{ portal__redirect.ipv4.address }}
+# Redirect web requests from Unauthorised users to logon Web Page.
+# An exception is made for DHCP broadcasts, which redirection seems to break.
+$IPTABLES -t nat -A PREROUTING -i {{ provision__internal_interface.stat.device }} -m mark --mark 99 -p udp --dport 67 -j ACCEPT
+$IPTABLES -t nat -A PREROUTING -i {{ provision__internal_interface.stat.device }} -m mark --mark 99 -j DNAT --to-destination {{ provision__internal_interface.stat.ipv4.address }}
 
 # Allow localhost
 $IPTABLES -t filter -I INPUT -i lo -j ACCEPT
@@ -33,7 +35,7 @@ $IPTABLES -t filter -I INPUT -i lo -j ACCEPT
 # Now that we've got to the forward filter, drop all packets
 # marked 99 - these are unknown users. We can't drop them earlier
 # as there's no filter table
-$IPTABLES -t filter -A FORWARD -i {{ provision__internal_interface.device }} -m mark --mark 99 -j DROP
+$IPTABLES -t filter -A FORWARD -i {{ provision__internal_interface.stat.device }} -m mark --mark 99 -j DROP
 
 # Do the same for the INPUT chain to stop people accessing the web through Squid
 $IPTABLES -t filter -A INPUT -p tcp --dport 22 -j ACCEPT

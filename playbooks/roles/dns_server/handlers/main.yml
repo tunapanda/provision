@@ -1,0 +1,5 @@
+---
+- name: restart dns server
+  service:
+    name=dnsmasq
+    state=restarted

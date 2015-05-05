@@ -6,7 +6,7 @@ provision__base_dir: "/usr/local/tunapanda"
 provision__data_dir: "{{ provision__base_dir }}/data"
 provision__scripts_dir: "{{ provision__base_dir }}/scripts"
 provision__ext_dir: "{{ provision__base_dir }}/provision/ext"
-provision__default_packages: [ git, vim, tmux, byobu, elinks, strace, sysstat, tcpdump, man ] 
+provision__default_packages: [ git, vim, tmux, byobu, elinks, strace, sysstat, tcpdump, man, mutt ] 
 provision__sites_available_dir: "/etc/nginx/sites-available"
 provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
 provision__admin_user: "teacher"
@@ -16,9 +16,15 @@ provision__site: "testsite"
 provision__domain: "x2go.co"
 provision__fqdn: "{{ provision__instance }}.{{ provision__site }}.{{ provision__domain }}"
 
-# The "ansible_" in these values is essential. Don't remove it!
-provision__external_interface: "{{ ansible_eth1 }}"
-provision__internal_interface: "{{ ansible_eth0 }}"
+# If your server has a secondary ethernet device for an internet
+# connection, define `external_interface` versions of these
+# settings in your localconfig.yml
+# See the cubietruck config file for an example.
+# Note: The "ansible_" prefixes are essential!
+provision__internal_interface: 
+  stat: "{{ ansible_eth0 }}"
+  address: "10.0.0.1"
+provision__external_interface: false
 
 # TODO: make this dynamic
 # It gets passed by the bootstratp script
@@ -39,3 +45,7 @@ wap__data_ssid: x2go
 nginx_sites_available_dir: "{{ provision__sites_available_dir }}"
 nginx_sites_enabled_dir: "{{ provision__sites_enabled_dir }}"
 common_web_user: "www-data"
+
+# Disable edX integration by default
+# TODO: Set this dynamically based on whether or not /edx exists
+edx_portal__enabled: false
