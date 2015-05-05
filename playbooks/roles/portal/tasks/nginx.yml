@@ -1,6 +1,11 @@
 ---
 ## Nginx Setup ##
-- name: Deploy site config
+- name: Remove existing default vhost
+  file:
+    path={{ web_server__conf_dir }}/default
+    state=absent
+
+- name: Deploy site config as default vhost
   template:
     src=nginx/portal.j2
     dest={{ web_server__sites_dir }}/portal.conf
