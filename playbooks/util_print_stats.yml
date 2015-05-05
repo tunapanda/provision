@@ -1,5 +1,15 @@
 ---
 - hosts: all
+  vars:
+    statusmsg: |
+      
+      ****************  READ ME  ****************
+      Provisioning completed successfully! Here is some information about the system:
+        Hostname: {{ provision__fqdn }}
+        IP Addresses: {{ ansible_all_ipv4_addresses }}
+      *******************************************
+      
   tasks:
-    - debug: >
-        msg="IP Addresses: {{ ansible_all_ipv4_addresses }}"
+    # Ugly and kludgey, but Ansible doesn't currently support 
+    # real multi-line debug output. :(
+    - debug: var=statusmsg.split('\n')

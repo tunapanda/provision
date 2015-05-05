@@ -1,17 +1,40 @@
 ---
-- hosts: all
+- name: Swag Portal Setup 
+  hosts: all     
+  
+  # Server roles to deploy
   roles:
     - users
     - swagportal
     
-  # Temporary workaround for bugs in how
-  # handlers and dependencies interact in
-  # ansible.
   post_tasks:
+    # Temporary workaround for bugs in how
+    # handlers and dependencies interact in
+    # ansible.
     - service:
         name={{item}}
         state=restarted
       with_items:
         - nginx
+
+# Ending status message
+# Ugly and kludgey, but the best Ansible can do for now. :(
+- name: Next steps...
+  hosts: all
+  gather_facts: no
+  
+  # Status message to print at the end.
+  vars:
+    statusmsg: |
+      
+      ****************  READ ME  ****************
+      Provisioning completed successfully! Here is some information about the system:
+        Hostname: {{ provision__fqdn }}
+        IP Addresses: {{ ansible_all_ipv4_addresses }}
+      If you are not using this machine for DNS, add the following to your /etc/hosts file:
+        {{ansible_eth1.ipv4.address}} {{provision__fqdn}} swagportal.{{provision__fqdn}} learninglocker.{{provision__fqdn}}
+      *******************************************
+    statusmsg_parsed: "{{statusmsg}}"
     
-- include: util_print_stats.yml
+  tasks:        
+    - debug: var=statusmsg_parsed.split('\n')
