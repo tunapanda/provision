@@ -15,9 +15,11 @@ To provision a test VM with a default-ish config:
   5. Read the comments in that file and make whatever changes seem appropriate
 4. Provision!
   1. `vagrant up`
+  2. When provisioning completes, follow the instructions printed at the end to a line to your `/etc/hosts` file (Windows users will have to figure out how to do this themselves, or just use the server's IP)
 5. Investigate!
-  6. Visit the server with your web browser (the final step of the provisioning process should print the server's IP address(es)). 
-  2. The provisioning process starts several background jobs that continue downloading content even after it "completes", so not all content will be there the first time you access the site.
+  6. Visit the server with your web browser, but note the following:
+    * The search boxes on the portal page don't (yet) work out of the box. See post-provisioning instructions in the setup doc, linked below. 
+    * The provisioning process starts several background jobs that continue downloading content even after it "completes", so not all content will be there the first time you access the site.
   
 See the [Setup](https://github.com/tunapanda/provision/wiki/Setup) wiki page for more.
 
