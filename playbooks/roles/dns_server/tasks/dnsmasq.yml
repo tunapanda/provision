@@ -3,11 +3,15 @@
   template:
     src=dnsmasq/01-dns.conf
     dest={{ dnsmasq__dir }}/01-dns.conf
-  notify: restart dns server
     
 - name: set up /etc/hosts entry
   lineinfile: 
     dest="/etc/hosts"
-    regexp="^\d+\.\d+\.\d+\.\d+\s+{{provision__fqdn}}$"
+    regexp="^\d+\.\d+\.\d+\.\d+\s+{{provision__fqdn}}"
     line="{{ provision__internal_interface.stat.ipv4.address }} {{ provision__fqdn }}"
     state=present
+    
+- name: Force restart of dnsmasq
+  service:
+    name=dnsmasq
+    state=restarted

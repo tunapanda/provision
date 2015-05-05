@@ -17,4 +17,11 @@
   template:
     src=00-main.conf
     dest={{ dnsmasq__dir }}
-  notify: reload dnsmasq
+    
+- name: Enable dnsmasq
+  service:
+    name=dnsmasq
+    state=started
+    enabled=yes
+  
+  
