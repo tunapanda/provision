@@ -25,7 +25,7 @@
 - name: Redirect to new default vhost
   template:
     src=vhost_default_redirect.conf
-    dest={{ web_server__sites_dir }}/default.conf
+    dest={{ web_server__sites_dir }}/default
     owner=root group={{ common_web_user }} mode=0644
   with_items: web_server__vhosts
   when: >
