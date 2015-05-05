@@ -6,10 +6,15 @@ The idea is to do an automated provision a physical machine or a VM using [ansib
 ## How do I use it?
 See the [Setup document](https://github.com/tunapanda/provision/wiki/Setup)
 
-## How do I add a module to it?
-A "module" is an ansible role that deploys a particular service or configuration
+## How do I add to it?
+### Adding a new role
+A "role" is a collection of Ansible settings and instructions that deploy a particular service or configuration
 
 1. Create a new [ansible role](http://docs.ansible.com/playbooks_roles.html#roles) directory in `playbooks/roles/`
   * Be sure to make any [variables](http://docs.ansible.com/playbooks_variables.html) defined in your role's `defaults/` directory follow the format `MODULE_NAME__VAR_NAME` (*note the two underscores in the middle*)
-  * Be sure to include a `MODULE_NAME__enabled` variable, set to `false`.
-2. Test your module by creating a `localconfig.yml` (use `localconfig.yml.sample` as a template), and adding `MODULE_NAME__enabled: true` to the vars section. 
+  * Don't forget to define [dependencies](http://docs.ansible.com/playbooks_roles.html#role-dependencies) if your role has them.
+2. Test your role:
+  3. Create a `localconfig.yml` file (use `localconfig.yml.defaults` as a template)
+  4. Set `profile` to `dynamic`
+  5. In the `vars` section, add `YOU_ROLE_NAME__enabled: true` to the vars section
+  6. Follow the setup instructions linked above to provision a fresh VM
