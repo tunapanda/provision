@@ -78,12 +78,17 @@ dynamic_playbook_skip_roles = [
 # the extension. It's used for defining a custom group, and some other
 # things.
 def get_profile():        
-    # See if we are given a profile in config
-    profile = config.get("profile")
-    
-    # Strip the enstension, if present
-    if profile.endswith(".yml"):
-        profile = profile[:-4]
+    # If custom.yml exists, ignore everything else.
+    if os.path.exists(os.path.join(playbook_dir,"custom.yml")):
+        profile = "custom"
+        
+    # Otherwise, use the profile from config
+    else:
+        profile = config.get("profile")
+        
+        # Strip the enstension, if present
+        if profile.endswith(".yml"):
+            profile = profile[:-4]
         
     return profile
     
@@ -139,23 +144,18 @@ def get_playbooks():
             playbooks.append(platform_playbook)
     
     # Now for the required profile-specific playbook...
-    # If custom.yml exists, just use it.
-    if os.path.exists(os.path.join(playbook_dir,"custom.yml")):
-        profile_playbook = "custom.yml"
+    # note: profile is "custom" if playbooks/custom.yml exists
+    profile  = get_profile() 
+    profile_playbook = profile + ".yml"
+    
+    # If the profile is "dynamic", create a dynamic playbook
+    if profile_playbook == "dynamic.yml":
+        plays = get_dynamic_plays()
+        open(os.path.join(playbook_dir,profile_playbook),"w").write(plays)
         
-    # Otherwise, use what we're given in the settings
-    else:   
-        profile  = get_profile()
-        profile_playbook = profile + ".yml"
-        
-        # If the profile is "dynamic", create a dynamic playbook
-        if profile_playbook == "dynamic.yml":
-            plays = get_dynamic_plays()
-            open(os.path.join(playbook_dir,profile_playbook),"w").write(plays)
-            
-        # Confirm that the playbook actually exists
-        if not os.path.exists(os.path.join(playbook_dir,profile_playbook)):
-            die("Could not find or create %s/%s" % (playbook_dir,profile_playbook))
+    # Confirm that the playbook actually exists
+    if not os.path.exists(os.path.join(playbook_dir,profile_playbook)):
+        die("Could not find or create %s/%s" % (playbook_dir,profile_playbook))
             
     playbooks.append(profile_playbook)
             
