@@ -28,12 +28,6 @@
     </div>
 </div>
 
-{# 
-    TODO: see if we can adapt the sphider search 
-    engine the RACHEL uses.
-    http://www.sphider-plus.eu/index.php?f=14#14_2
-    https://github.com/needlestack/rachel-content/
-#}
 {% if portal__use_sphider is defined and portal__use_sphider|bool %}
 <div class="searchbar">
     <form action="rsphider/search.php">
