@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   config.vm.box = "ubuntu/trusty64"
-  config.vm.synced_folder ".", "/usr/local/tunapanda/provision"
+  config.vm.synced_folder ".", "/usr/local/tunapanda/provision", group: "www-data", mount_options: ["dmode=775","fmode=774"]
   config.vm.hostname = /"msg": "(.*?)"/.match(`cd #{File.dirname(__FILE__)} ; ansible-playbook -i scripts/provision.py playbooks/util_get_hostname.yml -c local`)[1]
 
   # These environment vars can be used to alter the behavior of

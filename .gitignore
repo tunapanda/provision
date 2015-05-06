@@ -20,3 +20,4 @@ playbooks/roles.yml
 playbooks/default.yml
 ext/*
 playbooks/dynamic.yml
+vm_data
