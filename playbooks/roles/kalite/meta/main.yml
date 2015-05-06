@@ -7,6 +7,7 @@ dependencies:
         remote_host: "{{ provision__rachel_mirror_host }}"
         remote_dir: "{{ provision__rachel_mirror_name }}/kaos-en/"
         local_dir: "{{ portal__modules_dir }}/kalite/"
+        auto_sync: "{{ kalite__auto_sync }}"
     when: kalite__use_rachel_content
   - role: portal_subsite
     portal__subsites:
@@ -22,6 +23,7 @@ dependencies:
         remote_host: "{{ provision__rachel_mirror_host }}"
         remote_dir: "{{ provision__rachel_mirror_name }}/kalite/"
         local_dir: "{{ portal__modules_dir }}/kalite/"
+        auto_sync: "{{ kalite__auto_sync }}"
     when: not kalite__use_rachel_content
   - role: portal_subsite
     portal__subsites:

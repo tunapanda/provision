@@ -10,3 +10,7 @@ kalite__user: teacher
 kalite__git_source: https://github.com/tunapanda/ka-lite
 kalite__urlpath: "/kalite"
 kalite__port: 8008
+
+# Automatically start downloading content based on what the
+# portal is configured to do. 
+kalite__auto_sync: "{{ portal__modules_auto_sync|default(true) }}"
