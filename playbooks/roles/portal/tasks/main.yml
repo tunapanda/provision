@@ -35,7 +35,7 @@
 
 ## Portal and Captive Auth Support Files ##
 - include: captive.yml
-  when: portal__auth is defined and portal__auth != "none"
+  when: portal__auth is defined and portal__auth|bool != "none"
   notify: reload iptables
 
 

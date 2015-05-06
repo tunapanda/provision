@@ -5,7 +5,7 @@
     - role: portal
       when: > 
         portal__enabled is not defined 
-        or portal__enabled
+        or portal__enabled|bool
         
     # Kahn Academy Lite and Wikipedia take up a lot of space.
     # To disable, add these vars to localconfig.yml:
@@ -14,12 +14,12 @@
     - role: wikipedia_for_schools
       when: > 
         wikipedia_for_schools__enabled is not defined
-        or wikipedia_for_schools__enabled
+        or wikipedia_for_schools__enabled|bool
     - role: kalite
       kalite__use_rachel_content: true # Videos only, no LMS
       when: >
         kalite__enabled is not defined 
-        or kalite__enabled
+        or kalite__enabled|bool
         
     # This only helps if edX is pre-installed in /edx
     # Note that unlike other roles, this one must be
@@ -28,4 +28,4 @@
     - role: edx_portal
       when: >
         edx_portal__enabled is defined
-        and edx_portal__enabled
+        and edx_portal__enabled|bool

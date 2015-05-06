@@ -4,7 +4,7 @@
 <head>
     <title>{{ portal__title }}</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    {% if portal__use_sphider is defined and portal__use_sphider %}
+    {% if portal__use_sphider is defined and portal__use_sphider|bool %}
         {% include 'sphider_js.html' %}
     {% endif %}
     <style>
@@ -14,7 +14,7 @@
 </head>
 
 
-{% if portal__use_sphider is defined and portal__use_sphider %}
+{% if portal__use_sphider is defined and portal__use_sphider|bool %}
     <body onload="$('#main-search').focus();">
 {% else %}
     <body>
@@ -34,7 +34,7 @@
     http://www.sphider-plus.eu/index.php?f=14#14_2
     https://github.com/needlestack/rachel-content/
 #}
-{% if portal__use_sphider is defined and portal__use_sphider %}
+{% if portal__use_sphider is defined and portal__use_sphider|bool %}
 <div class="searchbar">
     <form action="rsphider/search.php">
       <div>

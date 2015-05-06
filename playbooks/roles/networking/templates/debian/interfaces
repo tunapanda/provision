@@ -8,7 +8,7 @@ auto {{ i.stat.device }}
 	iface {{ i.stat.device }} inet static
         address {{ i.address }}
   {% endif %}
-  {% if i.extra is defined and i.extra.debian is defined %}
+  {% if i.extra is defined and i.extra.debian|bool is defined %}
   		{{ i.extra.debian }}
   {% endif %}
 
