@@ -163,9 +163,21 @@ def get_playbooks():
 
 # Host vars to output in --host mode and pass to playbook
 def get_vars():
+    # The `vars:` sections from localconfig.yml and localconfig.yml.defaults
     vars = config.get("vars",{})
     if vars is None:
         vars = {}
+
+    # Let playbooks know what platform and profile we're using, too.
+    platform = get_platform()
+    if platform is not None:
+        if platform.startswith("platform_"):
+            platform = platform[9:]
+        vars["platform"] = platform
+    profile = get_profile()
+    if profile is not None:
+        vars["profile"] = profile
+
     return vars
 
 # Dynamically build a playbook that runs any enabled role
