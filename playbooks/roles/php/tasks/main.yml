@@ -3,16 +3,6 @@
   apt: name={{ item }} state=installed
   with_items:
     - php5
-    - php5-fpm  # php fastcgi gateway
-
-# For some reason the service module
-# doesn't seem to work reliably here
-# TODO: investigate.
-- name: Start php5-fpm
-  command: "service php5-fpm start"
-  ignore_errors: true
-
-- name: Enable php5-fpm 
-  service:
-    name=php5-fpm
-    enabled=true
+    
+- include: fpm.yml
+  when: php__fpm_url is defined

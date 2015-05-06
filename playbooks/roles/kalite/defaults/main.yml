@@ -1,16 +1,16 @@
 ---
-kalite__root: "{{ provision__data_dir }}/data/ka-lite"
+kalite__root: "{{ provision__data_dir }}/ka-lite"
+
+# Automatically start downloading content
+kalite__auto_sync: "{{ portal__modules_auto_sync|default(true) }}"
 
 # Download videos only, no LMS
 # Set this to false to download the full ka-lite LMS
 kalite__use_rachel_content: true 
 
 # Nothing below here matters if use_rachel_content is set
-kalite__user: teacher
+kalite__user: "{{provision__admin_user}}"
 kalite__git_source: https://github.com/tunapanda/ka-lite
 kalite__urlpath: "/kalite"
 kalite__port: 8008
 
-# Automatically start downloading content based on what the
-# portal is configured to do. 
-kalite__auto_sync: "{{ portal__modules_auto_sync|default(true) }}"

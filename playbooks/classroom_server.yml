@@ -19,5 +19,8 @@
 
 # Print the server's IP
 - include: util_print_stats.yml
+  vars:
+    extra_hostnames: >
+      kalite.{{provision__fqdn}}
     
 

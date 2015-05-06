@@ -5,8 +5,4 @@ dependencies:
     web_server__vhosts:
       - name: swagportal
         docroot: "{{swagportal__root}}"
-        extra:
-          nginx: |
-            location / {
-              try_files $uri $uri/ /index.php?$query_string;
-            }
+        alt_404: "/index.php?$query_string"

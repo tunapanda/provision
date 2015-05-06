@@ -1,0 +1,3 @@
+---
+- name: restart fpm
+  command: service php5-fpm restart

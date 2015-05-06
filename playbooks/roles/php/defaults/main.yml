@@ -1,3 +1,6 @@
 ---
+php__display_errors: true
 # Some distros may use "127.0.0.1:9000" by default
+# PHP-fpm is only installed if this is defined.
 php__fpm_url: "unix:/var/run/php5-fpm.sock"
+php__fpm_config_file: "/etc/php5/fpm/pool.d/www.conf"
