@@ -17,7 +17,7 @@
     
 - name: Deploy swagportal config
   template:
-    src="config.php"
+    src="config.ini"
     dest="{{swagportal__root}}/config.ini"
     owner="{{swagportal__owner}}"
     group="{{swagportal__group}}"

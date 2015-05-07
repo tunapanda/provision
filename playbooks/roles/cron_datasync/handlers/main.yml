@@ -8,4 +8,4 @@
   async: 1000
   poll: 0
   ignore_errors: true
-  when: cron_datasync__auto_sync is defined and cron_datasync__auto_sync
+  when: cron_datasync__auto_sync is defined and cron_datasync__auto_sync|bool

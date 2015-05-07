@@ -23,6 +23,6 @@
   with_items: datasync_rsync__data_dirs
   ignore_errors: true
   when: >
-    (item.auto_sync is defined and item.auto_sync) or
-    (item.auto_sync is not defined and cron_datasync__auto_sync)
+    (item.auto_sync is defined and item.auto_sync|bool) or
+    (item.auto_sync is not defined and cron_datasync__auto_sync|bool)
   

@@ -7,12 +7,13 @@ dependencies:
         remote_host: "{{ provision__rachel_mirror_host }}"
         remote_dir: "{{ provision__rachel_mirror_name }}/kaos-en/"
         local_dir: "{{ portal__modules_dir }}/kalite/"
-    when: kalite__use_rachel_content
+        auto_sync: "{{ kalite__auto_sync }}"
+    when: kalite__use_rachel_content|bool
   - role: portal_subsite
     portal__subsites:
       - name: "kalite"
         docroot: "{{ portal__modules_dir }}/kalite"
-    when: kalite__use_rachel_content
+    when: kalite__use_rachel_content|bool
 
   # Full install, using the more interactive ka-lite Django app
   # and a simple link from the portal to there. 
@@ -22,10 +23,11 @@ dependencies:
         remote_host: "{{ provision__rachel_mirror_host }}"
         remote_dir: "{{ provision__rachel_mirror_name }}/kalite/"
         local_dir: "{{ portal__modules_dir }}/kalite/"
-    when: not kalite__use_rachel_content
+        auto_sync: "{{ kalite__auto_sync }}"
+    when: not kalite__use_rachel_content|bool
   - role: portal_subsite
     portal__subsites:
       - name: "kalite"
         forward_url: "http://127.0.0.1:{{ kalite__port }}"
-    when: not kalite__use_rachel_content
+    when: not kalite__use_rachel_content|bool
 

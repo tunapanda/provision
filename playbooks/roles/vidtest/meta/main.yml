@@ -1,7 +1,7 @@
 ---
 dependencies:
-  - role: portal_subsite
-    portal__subsites:
+  - role: web_server_vhosts
+    web_server__vhosts:
       - name: "vidtest" 
         docroot: "{{ vidtest__docroot }}"
         extra:   

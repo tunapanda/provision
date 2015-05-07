@@ -1,0 +1,24 @@
+---
+##
+## This playbook implements just about everything, so we can see
+## if anything breaks
+##
+
+# Base server config
+- include: common/base.yml
+
+# Content portal config
+- include: common/portal.yml
+
+# Learninglocker and swag portal
+- include: swag_dev.yml
+
+# Print the server's IP
+- include: util_print_stats.yml
+  vars:
+    extra_hostnames: >
+      kalite.{{provision__fqdn}}
+      learninglocker.{{provision__fqdn}}
+      swagportal.{{provision__fqdn}}
+    
+
