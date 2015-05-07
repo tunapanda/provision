@@ -1,21 +1,104 @@
 ---
-portal__enabled: false
+portal__use_sphider: true
 portal__port: 80
-portal__title: "x2go - Education in a box"
-portal__description: "<p>x2go is a collection of free learning materials hosted in a standalone box without requiring internet.</p>"
+portal__title: "x2go"
+portal__subtitle: "Education in a box"
+portal__description: |
+  <p><strong>x2go</strong> is a collection of free learning materials hosted in a standalone box without requiring internet. </p>
+  <p>It is developed by an international team, with representatives of <em>The Tunapanda Institute</em>, <em>The Queen Rania Foundation</em>, and <em>edX</em>. This portal page is based on work done by World Possible for Project RACHEL.
+  </p>
+  <p>As long as you are connected to the "{{wap__data_ssid}}" wireless access point, you should be able to reach this page by going to
+  <?php 
+    $hostname_from_ansible = {{ "'"+provision__fqdn+"'" if provision__fqdn is defined else "false" }};
+    if ($hostname_from_ansible) {
+      $a = $hostname_from_ansible;
+    } else if (isset($_SERVER['SERVER_ADDR'])) { 
+      $a = $_SERVER['SERVER_ADDR'];
+    } else {
+      $a = print gethostbyname(gethostname()); 
+    }
+    print "<a href='http://$a'>$a</a>";
+  ?>
+  </p>
 portal__base: "{{ provision__data_dir }}/portal"
 portal__docroot: "{{ portal__base }}/site"
-portal__site_content: "{{ provision__base_dir }}/provision/playbooks/roles/portal/data/site"
 portal__redirects: "{{ portal__base }}/subsites.d"
 portal__users: "{{ portal__base }}/authorized_clients"
 portal__capture_chain: "captive"
-# TODO figure out a way to get IP from ifupdown_external_interface
-portal__redirect: "{{ ansible_wlan0 }}" 
-portal__auth: "none"
+portal__auth: "agreement"
 portal__auth_agreement_text: |
-    <p>By clicking this button, you agree to not be a jerk on the Internet.<br>
-    In exchange, you'll be given access to the Internet (when it's available)!<br>
-    Even without Internet access, you can access any of the sites and resources linked below.<br>
-    Please do not be a jerk on those sites either. Enjoy!</p>
+  <p>By clicking this button, you agree to not be a jerk on the Internet.<br>
+  In exchange, you'll be given access to the Internet (when it's available)!</p>
+  <p>Even without Internet access, you can access any of the sites and resources linked below.<br />
+  (please do not be a jerk on those sites either) </p>
+  <p><strong>Happy learning!</strong></p>
 portal__auth_agreement_buttontext: "Ok, I won't be a jerk"
+portal__auth_agreement_complete: |
+  <p>You can use this portal to access the Internet if an Internet connection is available.<p>
+  <p>Even if Internet access is not available, all of the content listed below is hosted locally and should be accessible!</p>
+  <iframe src="http://duckduckgo.com/search.html?prefill=Internet Search" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+  <p><strong>Happy learning!</strong></p>
 
+# Modules 
+portal__modules_dir: "{{ provision__data_dir }}/portal_modules"
+portal__modules_auto_sync: true
+# This does a background rsync of all rachel project modules
+# < ~ 1G (everything but Wikipedia and KAlite, which get their
+# own roles). 
+#
+# Complete list of modules at:
+#    http://dev.worldpossible.org/mods/
+portal__rsync_modules:
+  - name: "ebooks-en"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/ebooks-en/"
+    local_dir: "{{ portal__modules_dir }}/ebooks-en/"
+  - name: "math_expression"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/math_expression/"
+    local_dir: "{{ portal__modules_dir }}/math_expression/"
+  - name: "hesperian_health"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/hesperian_health/"
+    local_dir: "{{ portal__modules_dir }}/hesperian_health/"
+  - name: "scratch"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/scratch/"
+    local_dir: "{{ portal__modules_dir }}/scratch/"
+  - name: "asst_medical"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/asst_medical/"
+    local_dir: "{{ portal__modules_dir }}/asst_medical/"
+  - name: "powertyping"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/powertyping/"
+    local_dir: "{{ portal__modules_dir }}/powertyping/"
+  - name: "musictheory"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/musictheory/"
+    local_dir: "{{ portal__modules_dir }}/musictheory/"
+  - name: "practical_action"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/practical_action/"
+    local_dir: "{{ portal__modules_dir }}/practical_action/"
+  - name: "understanding_algebra"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/understanding_algebra/"
+    local_dir: "{{ portal__modules_dir }}/understanding_algebra/"
+  - name: "medline_plus"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/medline_plus/"
+    local_dir: "{{ portal__modules_dir }}/medline_plus/"
+  - name: "infonet"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/infonet/"
+    local_dir: "{{ portal__modules_dir }}/infonet/"
+  - name: "iicba"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/iicba/"
+    local_dir: "{{ portal__modules_dir }}/iicba/"
+  - name: "olpc"
+    remote_host: "{{ provision__rachel_mirror_host }}"
+    remote_dir: "{{ provision__rachel_mirror_name }}/olpc/"
+    local_dir: "{{ portal__modules_dir }}/olpc/"
+  

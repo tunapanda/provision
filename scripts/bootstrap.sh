@@ -1,5 +1,8 @@
 #!/bin/bash
 
+VERBOSITY="-v"
+#VERBOSITY="-vvv"
+
 ## Basic I/O functions
 function die() {
 	echo ""
@@ -21,34 +24,39 @@ function step() {
 
 ## Configs
 # All of these can be overridden by setting them as environment vars
-PROVISION_AUTO_UPDATE=${PROVISION_AUTO_UPDATE:-true}
+PROVISION_AUTO_UPDATE_REPO=${PROVISION_AUTO_UPDATE_REPO:-false}
+PROVISION_AUTO_UPGRADE_PACKAGES=${PROVISION_AUTO_UPGRADE_PACKAGES:-false}
 PROVISION_BASE_DIR=${PROVISION_BASE_DIR:-"/usr/local/tunapanda"}
-## TODO: Change usernamenumber URLs back to tunapanda
-PROVISION_CORE_REPO=${PROVISION_CORE_REPO:-"http://github.com/usernamenumber/provision"}
+PROVISION_CORE_REPO=${PROVISION_CORE_REPO:-"http://github.com/tunapanda/provision"}
 PROVISION_CORE_DIR=${PROVISION_CORE_DIR:-"${PROVISION_BASE_DIR}/provision"}
-PROVISION_CORE_INVENTORY=${PROVISION_CORE_INVENTORY:-"${PROVISION_CORE_DIR}/scripts/inventory.py"}
 PROVISION_CORE_VERSION="${PROVISION_CORE_VERSION:-}" # default to current branch or master if no repo
-PROVISION_CORE_PLAYBOOK=${PROVISION_CORE_PLAYBOOK:-"${PROVISION_CORE_DIR}/playbooks/main.yml"}
-
-CUSTOM_PLAYBOOK=${PROVISION_CORE_DIR}/custom.yml 
-if [ -f $CUSTOM_PLAYBOOK ]
-then
-    note "Using custom playbook $CUSTOM_PLAYBOOK"
-    PROVISION_CORE_PLAYBOOK=$CUSTOM_PLAYBOOK
-fi
+PROVISION_CORE_SCRIPT=${PROVISION_CORE_INVENTORY:-"${PROVISION_CORE_DIR}/scripts/provision.py"}
+# The Bootstrap playbook is used for first-time setup of the provisioning system
+PROVISION_BOOTSTRAP_DIR="${PROVISION_BOOTSTRAP_DIR:-$PROVISION_CORE_DIR}"
+PROVISION_BOOTSTRAP_PLAYBOOK="${PROVISION_BOOTSTRAP_PLAYBOOK:=playbooks/bootstrap.yml}"
+PROVISION_BOOTSTRAP_FALLBACK_URL="${PROVISION_BOOTSTRAP_FALLBACK_URL:-https://raw.githubusercontent.com/tunapanda/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap.yml}"
+PROVISION_BOOTSTRAP_INVENTORY=$PROVISION_CORE_INVENTORY
 
 ## Other support functions
 function has_internet() {
 	if [ -z "$HAS_INTERNET" ]
 	then
 		step "Checking internet access" 
-        if [ -f $PROVISION_CORE_DIR/scripts/has_internet ] 
-        then
-            $PROVISION_CORE_DIR/scripts/has_internet
-        else
-		    ping -c1 -w5 www.google.com #&> /dev/null
-        fi
+		if [ -f $PROVISION_CORE_DIR/scripts/has_internet ] 
+		then
+		    $PROVISION_CORE_DIR/scripts/has_internet
+		else
+			    ping -c1 -w5 www.google.com #&> /dev/null
+		fi
 		HAS_INTERNET=$?
+		if [ $HAS_INTERNET -eq 0 ] 
+		 then 
+			note 'Internet access detected. Great!'
+			HAS_INTERNET_STR=true
+		else 
+			note "No Internet access detected. Some steps will be skipped, and first-time setup may fail."
+			HAS_INTERNET_STR=false
+		fi
 	fi
 	return $HAS_INTERNET
 }
@@ -79,13 +87,25 @@ then
 	die 'Must be run as root!'
 fi
 
-# Update packages if the haven't been updated in the last 12 hours
-if has_internet && [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
-then
-	step "Updating package list"
-	apt-get update
+if has_internet 
+then 
+	# Update packages if the haven't been updated in the last 12 hours
+	if [ $[ $(date +%s) - $(date -r /var/lib/apt/lists/ +%s) ] -gt $[ 60 * 60 * 12 ] ] 
+	then
+		step "Updating package list"
+		apt-get update
+	fi
+else
+    note 'No Internet connection detected. Updates will be skipped, and first-time deployment will fail!'
 fi
 
+if $PROVISION_AUTO_UPGRADE_PACKAGES && has_internet 
+then
+	step "Upgrading packages"
+	apt-get upgrade -y
+fi
+
+step "Checking dependencies..."
 if ! is_installed git
 then
 	has_internet || die "git is required, but we can't install it without a net connection"	
@@ -115,9 +135,9 @@ if ! is_installed ansible
 then
 	step "Installing Ansible"
 	has_internet || die "Ansible is required, but we can't install it without a net connection"	
-	apt-get install -y python-dev
+	apt-get install -y python-dev && 
+	pip install --upgrade 'ansible>=1.6'
 fi
-pip install --upgrade 'ansible>=1.6'
 is_installed ansible || die "Something went wrong installing ansible. Cannot continue."
 
 if [ -z "$PROVISION_CORE_VERSION" ]
@@ -133,79 +153,52 @@ then
     fi
 fi
 
-PROVISION_BOOTSTRAP_DIR="${PROVISION_BOOTSTRAP_DIR:-$PROVISION_CORE_DIR}"
-PROVISION_BOOTSTRAP_PLAYBOOK="${PROVISION_BOOTSTRAP_PLAYBOOK:=playbooks/bootstrap.yml}"
-PROVISION_BOOTSTRAP_FALLBACK_URL="${PROVISION_BOOTSTRAP_FALLBACK_URL:-https://raw.githubusercontent.com/usernamenumber/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap.yml}"
-PROVISION_BOOTSTRAP_INVENTORY=$PROVISION_CORE_INVENTORY
 # Can't find repo. Probably a fresh install, so download the bootstrap playbook
 if [ ! -e "$PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK" ]
 then
+	step "Bootstrapping playbook not found. Performing first-time setup..."
 	has_internet || die "Can't find bootstrap playbook, but no net access, so can't retrieve it either"
 	RAND=$RANDOM
 	PROVISION_BOOTSTRAP_DIR="/tmp"
 	PROVISION_BOOTSTRAP_PLAYBOOK="${RAND}bootstrap.yml"
 	PROVISION_BOOTSTRAP_INVENTORY="${RAND}inventory.ini"
-	step "Provisioning repo not found. Downloading fallback playbook for bootstrapping."
 	get_url $PROVISION_BOOTSTRAP_FALLBACK_URL > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_PLAYBOOK
-	# TODO: Fix this quick and dirty hack
-	get_url https://raw.githubusercontent.com/usernamenumber/provision/${PROVISION_CORE_VERSION}/playbooks/bootstrap_git.yml > bootstrap_git.yml || die "could not get bootstrap_git.yml"
 	cat > $PROVISION_BOOTSTRAP_DIR/$PROVISION_BOOTSTRAP_INVENTORY <<EOF
 [localhost]
 127.0.0.1
 EOF
-    cat > $PROVISION_BOOTSTRAP_DIR/ansible.cfg <<EOF
-[defaults]
-host_key_checking=False
-EOF
 fi
 
-export ANSIBLE_HOST_KEY_CHECKING=False
+## Removing this, because it breaks offline compatability, and it shouldn't be
+## needed. Leaving commented for now as a TODO reminder.
 # Cheap way to ensure that github's host key is known. Otherwise, even with the setting above,
 # ansible may stall if it tries to update a repo with an ssh url
-ssh -o StrictHostKeyChecking=no git@github.com 'true' &> /dev/null
+#ssh -o StrictHostKeyChecking=no git@github.com 'true' &> /dev/null
+export ANSIBLE_HOST_KEY_CHECKING=false
 
-if $PROVISION_AUTO_UPDATE && has_internet 
+# If auto-update is enabled, this will pull the latest from github
+# ** potentially overwriting local changes!! **
+if $PROVISION_AUTO_UPDATE_REPO && has_internet 
 then
     step "Running bootstrap playbook"
     pushd ${PROVISION_BOOTSTRAP_DIR} > /dev/null
-    ansible-playbook -vvvv \
+    ansible-playbook $VERBOSITY \
 	-c local \
         -i $PROVISION_BOOTSTRAP_INVENTORY \
         -e "provision_ver=$PROVISION_CORE_VERSION provision_repo=$PROVISION_CORE_REPO provision_dir=$PROVISION_CORE_DIR" \
         $PROVISION_BOOTSTRAP_PLAYBOOK || die "Could not run bootstrap playbook"
     popd > /dev/null
-else 
-    note "No Internet, so skipping playbook updates"
 fi
 
-step "Generating roles.yml"
-pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
-cat > roles.yml <<EOF
----
-### AUTO-GENERATED (changes will be lost) ###
-- hosts: all
-  handlers:
-    - name: reload nginx
-      service: name=nginx state=reloaded
-    
-  roles:
-EOF
-  for r in $(find roles/ -maxdepth 1 -mindepth 1 -type d -not -name provision_base)
-  do
-      f=$(basename $r);
-      echo "    - { role: $f, when: ${f}__enabled is defined and ${f}__enabled }" >> roles.yml
-  done
-popd > /dev/null
-
-step "Running core playbook, ${PROVISION_CORE_PLAYBOOK}"
-pushd ${PROVISION_CORE_DIR}/playbooks > /dev/null
-ansible-playbook -vvv \
-    -c local \
-    -i $PROVISION_CORE_INVENTORY \
-    $PROVISION_CORE_PLAYBOOK || die "Could not run core playbook"
-popd > /dev/null
-
-echo ""
-echo '*** ALL DONE! ***'
-echo ""
+step 'Ready to start provisioning!'
+if ${PROVISION_CORE_DIR}/scripts/provision.py
+then
+	echo ""
+	echo '*** ALL DONE! ***'
+	echo ""
+else
+	echo ""
+	echo '!!! PROVISIONING FAILED !!!'
+	echo ""
+fi
 

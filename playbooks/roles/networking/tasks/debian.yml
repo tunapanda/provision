@@ -1,0 +1,9 @@
+---
+- debug: var=network__interface_configs
+- name: deploy network interfaces config
+  template:
+    src=debian/interfaces
+    dest=/etc/network/interfaces
+    backup=yes
+  when: network__interface_configs|length != 0
+  notify: restart networking (debian)

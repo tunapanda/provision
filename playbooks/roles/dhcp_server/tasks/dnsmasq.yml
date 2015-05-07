@@ -1,0 +1,14 @@
+---
+- name: Disable isc-dhcp
+  service:
+    name={{ item }}
+    state=stopped
+    enabled=false
+  with_items:
+    - isc-dhcp-server
+  ignore_errors: true
+
+- name: Deploy base config
+  template:
+    src=dnsmasq/01-dhcp.conf
+    dest={{ dnsmasq__dir }}/01-dhcp.conf

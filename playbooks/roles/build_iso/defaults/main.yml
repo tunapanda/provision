@@ -1,3 +1,2 @@
 ---
-build_iso__enabled:   false
 build_iso__remastersys_root: "{{ vagrant_share }}/data/build/remastersys"

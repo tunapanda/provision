@@ -1,0 +1,8 @@
+---
+provision__instance: "dev"
+provision__site: "swag"
+provision__domain: "tunapanda.org"
+
+# This must match the vhost created by
+# the `swag` role.
+web_server__default_vhost: "swagportal"

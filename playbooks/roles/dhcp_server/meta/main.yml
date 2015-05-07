@@ -1,0 +1,7 @@
+---
+dependencies:
+  - iptables
+  - role: dnsmasq
+    when: dhcp_server__service=="dnsmasq"
+
+

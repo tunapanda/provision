@@ -1,0 +1,31 @@
+- name: Content portal setup
+  hosts: all  
+  roles:
+    # Provide a web portal and default content.
+    - role: portal
+      when: > 
+        portal__enabled is not defined 
+        or portal__enabled
+        
+    # Kahn Academy Lite and Wikipedia take up a lot of space.
+    # To disable, add these vars to localconfig.yml:
+    #   wikipedia_for_schools__enabled: false
+    #   kalite__enabled: false
+    - role: wikipedia_for_schools
+      when: > 
+        wikipedia_for_schools__enabled is not defined
+        or wikipedia_for_schools__enabled
+    - role: kalite
+      kalite__use_rachel_content: true # Videos only, no LMS
+      when: >
+        kalite__enabled is not defined 
+        or kalite__enabled
+        
+    # This only helps if edX is pre-installed in /edx
+    # Note that unlike other roles, this one must be
+    # explicitly turned on, not just not turned off. 
+    # TODO: write a custom fact that checks for /edx
+    - role: edx_portal
+      when: >
+        edx_portal__enabled is defined
+        and edx_portal__enabled

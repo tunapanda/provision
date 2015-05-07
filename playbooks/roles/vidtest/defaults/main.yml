@@ -1,5 +1,3 @@
 ---
-vidtest__enabled: false
-vidtest__docroot: "{{ provision__base_dir }}/provision/playbooks/roles/vidtest/data/site"
-vidtest__urlpath: "/vidtest"
-vidtest__extra:   "    rewrite {{ vidtest__urlpath }}/rand[0-9]+(.*)$ {{ vidtest__urlpath }}/$1;"
+vidtest__docroot: "{{ provision__data_dir }}/vidtest"
+vidtest__repo: "https://github.com/tunapanda/videotest"

@@ -1,6 +1,4 @@
 ---
-# TODO: Config dovecot and postix to only listen on localhost
-- include: postfix.yml
 - name: Install roundcube
   apt: >
     name={{item}}
@@ -16,10 +14,10 @@
     state=absent
 
 - name: Configure roundcube
-  lineinfile: "
+  lineinfile: >
     dest=/etc/roundcube/main.inc.php
-    regex=^\$rcmail_config\['{{ item.setting }}
-    line=$rcmail_config['{{ item.setting }}'] = {{ item.value }};"
+    regexp="^\$rcmail_config\[\'{{ item.setting }}"
+    line="$rcmail_config['{{ item.setting }}'] = {{ item.value }}";
   with_items:
     - setting: default_host
       value: 127.0.0.1

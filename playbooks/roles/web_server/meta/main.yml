@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: nginx
+    when:  web_server__service is not defined or web_server__service=="nginx"

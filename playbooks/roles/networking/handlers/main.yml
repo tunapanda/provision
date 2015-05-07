@@ -1,0 +1,3 @@
+---
+- name: restart networking (debian)
+  shell: "ifdown -a ; ifup -a"

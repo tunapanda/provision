@@ -1,0 +1,39 @@
+<!--[if IE]><script type="text/javascript" src="css3-multi-column.min.js"></script><![endif]-->
+
+    <!-- live search suggestions -->
+    <script type="text/javascript" src="rsphider/include/jQuery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="rsphider/include/jQuery/jquery-ui-1.10.2.custom.js"></script>
+    <link rel="stylesheet" href="rsphider/templates/Sphider-plus/jquery-ui-1.10.2.custom.css" type="text/css">
+    <script type="text/javascript">
+    $(function() {
+        $( "#main-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=0&category=0&db=0&prefix=0",
+            minLength: 1        });
+    });
+    $(function() {
+        $( "#wiki-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=3&category=3&db=0&prefix=0",
+            minLength: 1        });
+    });
+    $(function() {
+        $( "#hesp-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=1&category=1&db=0&prefix=0",
+            minLength: 1        });
+    });
+    $(function() {
+        $( "#medl-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=2&category=2&db=0&prefix=0",
+            minLength: 1        });
+    });
+    $(function() {
+        $( "#infonet-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=2&category=5&db=0&prefix=0",
+            minLength: 1        });
+    });
+    $(function() {
+        $( "#practical-search" ).autocomplete({
+            source: "rsphider/include/suggest.php?media_only=0&type=and&catid=2&category=6&db=0&prefix=0",
+            minLength: 1        });
+    });
+    </script>
+    <!--/live search suggestions -->

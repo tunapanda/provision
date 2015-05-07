@@ -1,0 +1,25 @@
+---
+- name: Swag Portal Setup 
+  hosts: all    
+  
+  # Server roles to deploy
+  roles:
+    - users
+    - swagportal
+    
+  post_tasks:
+    # Temporary workaround for bugs in how
+    # handlers and dependencies interact in
+    # ansible.
+    - service:
+        name={{item}}
+        state=restarted
+      with_items:
+        - nginx
+
+# Ending status message
+- include: util_print_stats.yml
+  vars:
+    extra_hostnames: >
+      swagportal.{{provision__fqdn}} 
+      learninglocker.{{provision__fqdn}}

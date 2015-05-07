@@ -1,0 +1,39 @@
+---
+## edX nginx config
+- name: Set edX to use non-default vhosts on default ports 
+  lineinfile: >
+    dest={{ item }}
+    regexp='^(\s+)listen .*$'
+    line='\1listen 80;'
+    backrefs=true
+    state=present
+  with_items:
+    - /edx/app/nginx/sites-enabled/lms
+    - /edx/app/nginx/sites-enabled/cms
+
+- name: ...and give LMS a hostname to answer to (CMS has one by default)
+  lineinfile: >
+    insertafter='^\s+listen .*$'
+    regexp='^server_name.*$'
+    line='server_name edx.*;'
+    dest=/edx/app/nginx/sites-enabled/lms
+    state=present
+    
+## edX nginx configs
+- name: Configure nginx to load edx sites
+  template: >
+    src=nginx/edx.conf
+    dest=/etc/nginx/sites-enabled/
+  notify: restart web server
+
+## edX x2go portal module
+- name: Copy portal module content into place
+  copy: >
+    src=portal/edx
+    dest={{portal__modules_dir}}
+
+- name: Generate portal module index fragment
+  template: >
+    src=portal/index.htmlf
+    dest={{portal__modules_dir}}/edx/
+

@@ -1,0 +1,8 @@
+---
+allow_duplicates: yes
+dependencies:
+  - dns_server
+  - web_server  # sets some default vars
+  - role: nginx_vhosts
+    when: web_server__service is not defined or  web_server__service=="nginx"
+

@@ -1,7 +1,7 @@
 ---
 dependencies:
-   #- bind:
-     
-#  - { role: 'git+http://github.com/resmo/ansible-role-bind,,bind_gh' }
- #- { role: 'git+http://git.example.com/repos/role-foo,v1.1,foo' }
-
+  - mail_server
+## TODO: Add appropriate vhost details.
+## See roles like kalite and learninglocker as examples
+#  - web_server_vhosts
+  

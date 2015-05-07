@@ -1,0 +1,10 @@
+---
+## 
+## Config for just the base setup, plus acting as a
+## wireless access point. 
+## 
+
+- include: common/base.yml
+- hosts: all
+  roles:
+    - wap

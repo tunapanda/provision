@@ -1,0 +1,10 @@
+---
+- include: dnsmasq.yml
+  when: dhcp_server__service=="dnsmasq"
+
+- name: Setting up iptables rules for dhcp
+  template:
+    src=firewall/iptables-dhcp.j2
+    dest={{ iptables__rules_dir }}/100-dhcp.conf
+  notify:
+    - reload iptables

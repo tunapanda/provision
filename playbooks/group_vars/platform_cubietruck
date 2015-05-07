@@ -1,0 +1,30 @@
+---
+##
+## Config for a standalone ARM device that serves as
+## a wireless access point and has edX pre-installed
+##
+
+# Override the default net configuration
+# Note: The "ansible_" prefixes are essential!
+provision__internal_interface: 
+  stat: "{{ ansible_wlan0 }}"
+  address: "10.0.0.1"
+provision__external_interface:
+  stat: "{{ ansible_eth0 }}"
+  address: "dhcp"
+
+# Require a simple "don't be a jerk" 
+# agreement before providing net access.
+portal__auth: "agreement"
+
+# Integrate with edX
+edx_portal__enabled: true
+
+# If ka-lite is included, download videos only, no LMS
+kalite__use_rachel_content: true 
+
+# This shouldn't be needed, since our base image
+# for the cubietruck has WAP already set up.
+wap__enabled: true
+      
+      

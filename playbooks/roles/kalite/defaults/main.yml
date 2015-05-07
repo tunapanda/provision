@@ -1,6 +1,11 @@
 ---
-kalite__enabled: false
-kalite__provision__base_dir: "{{ provision__base_dir }}/data/ka-lite"
+kalite__root: "{{ provision__data_dir }}/data/ka-lite"
+
+# Download videos only, no LMS
+# Set this to false to download the full ka-lite LMS
+kalite__use_rachel_content: true 
+
+# Nothing below here matters if use_rachel_content is set
 kalite__user: teacher
 kalite__git_source: https://github.com/tunapanda/ka-lite
 kalite__urlpath: "/kalite"

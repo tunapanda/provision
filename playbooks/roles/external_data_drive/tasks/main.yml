@@ -20,3 +20,7 @@
   template:
     src: "data_drive.rules.j2"
     dest: "/etc/udev/rules.d/data_drive.rules"
+
+- name: Attempting to mount data drive
+  command: "{{ provision__base_dir }}/bin/mount_external_drive"
+  ignore_errors: true

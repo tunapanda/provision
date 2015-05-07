@@ -1,14 +1,4 @@
 ---
 dependencies:
-  - role: portal_subsite
-    portal__subsites:
-      - name: "edx_lms" 
-        urlpath: "{{ edx__lms_urlpath }}"
-        port: "{{ edx__lms_port }}"
-      - name: "edx_cms" 
-        urlpath: "{{ edx__cms_urlpath }}"
-        port: "{{ edx__cms_port }}"
-      - name: "edx_xqueue" 
-        urlpath: "{{ edx__xqueue_urlpath }}"
-        preserve_urlpath: true
-        port: "{{ edx__xqueue_port }}"
+  - nginx
+  - portal

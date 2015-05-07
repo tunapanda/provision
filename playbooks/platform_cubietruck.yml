@@ -1,0 +1,28 @@
+---
+##
+## Config for a standalone ARM device that serves as
+## a wireless access point and has edX pre-installed
+##
+## See group_vars/cubietruck and group_vars/all for settings
+
+- name: Cubietruck-specific setup 
+  hosts: all    
+  tasks:
+    - name: Configure wlan driver
+      lineinfile:
+        dest=/etc/modules
+        line="bcmdhd op_mode=2"
+        regexp="^bcmdhd"
+    
+    - name: Load wlan driver
+      command: modprobe bcmdhd
+      ignore_errors: yes 
+      register: wlan_driver
+      
+    - name: restart hostapd
+      service:
+        name=hostapd
+        state=restarted
+      when: wlan_driver.changed
+      
+      

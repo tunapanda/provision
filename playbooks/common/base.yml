@@ -1,0 +1,30 @@
+---
+- name: Basic setup 
+  hosts: all
+  pre_tasks:
+    - name: "Installing basic packages"
+      apt: 
+        name="{{ item }}" 
+        state="present"
+      with_items: provision__default_packages
+    
+    - name: "Setting hostname"
+      shell: "echo '{{ provision__fqdn }}' > /etc/hostname ; hostname {{ provision__fqdn }}"
+      when: provision__fqdn is defined 
+  roles:
+    # Configure the system to mount an external drive for storing
+    # site data if a drive with a label matching the
+    # external_data_drive__disklabel setting.
+    # See roles/external_data_drive/defaults/main.yml for settings.
+    - external_data_drive
+    
+    # Set up basic networking.
+    # See provision__*_interfaces in group_vars/* for settings.
+    - networking
+    
+    # Create users
+    # See roles/external_data_drive/defaults/main.yml and 
+    # provision__admin_user in group_vars/* for settings.
+    - users
+  
+    

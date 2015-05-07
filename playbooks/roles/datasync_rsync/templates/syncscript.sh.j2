@@ -1,0 +1,22 @@
+#!/bin/sh
+logger -t provision_datasync 'Beginning rsync of {{ item.name }}'
+
+date >> {{ item.local_dir }}/sync_in_progress
+
+rsync -rltH -yz -q --delete-delay --delay-updates --partial \
+    --partial-dir=.rsync-partial -f 'R .rsync-partial/' \
+    {{ item.remote_host }}::{{ item.remote_dir }} \
+    {{ item.local_dir }}
+
+chown -R \
+{{ item.owner|default(datasync_rsync__dir_defaults.owner) }}:\
+{{ item.group|default(datasync_rsync__dir_defaults.group) }} \
+{{ item.local_dir }}
+
+chmod -R \
+{{ item.permissions|default(datasync_rsync__dir_defaults.permissions) }} \
+{{ item.local_dir }}
+
+rm -f {{ item.local_dir }}/sync_in_progress
+
+logger -t provision_datasync 'Completed rsync of {{ item.name }}'

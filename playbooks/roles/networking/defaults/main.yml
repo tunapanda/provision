@@ -1,0 +1,4 @@
+---
+network__interface_configs:
+  - "{{ provision__internal_interface }}"
+  - "{{ provision__external_interface }}"

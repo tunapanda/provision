@@ -1,0 +1,2 @@
+IPTABLES=${IPTABLES:-/sbin/iptables}
+$IPTABLES  -I INPUT -i {{ provision__internal_interface.stat.device }} -p udp --dport 67:68 --sport 67:68 -j ACCEPT

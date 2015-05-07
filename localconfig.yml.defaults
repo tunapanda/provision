@@ -1,0 +1,122 @@
+---
+#### OVERVIEW ####
+# You can customize your deployment by making a copy of this file called
+# localconfig.yml and customizing the settings in it.
+#
+# In many cases, you will only want to change the site and instance
+# names in the vars section. 
+#
+# This provisioning system is basically a front-end to Ansible. 
+# If you want to learn more about how things work, start with our
+# setup doc if you haven't already read it:
+#   https://github.com/tunapanda/provision/wiki/Setup
+#
+# And then read the Ansible docs if you want more:
+#   http://docs.ansible.com
+  
+#### DEBUG ####
+# Amount of debug output to print.
+# Set to 0 (normal) - 3 (lots)
+#
+debug: 0
+
+#### PLATFORM ####
+# Platform describes the hardware to which you will be deploying.
+#
+# You can manually set it to anything represented by one of the 
+# `playbooks/group_vars/platform_NAME` files, like `cubietruck` or `vm`,
+# but the provisioning script will set this automatically if you are
+# it is run on a cubietruck or by Vagrant, so you can usually leave it
+# set to "auto".
+#
+platform: auto
+
+#### PROFILE ####
+# A profile defines collections of server roles that are frequently 
+# installed together. 
+#
+# You can set this to the name of any represented by one of the
+# `playbooks/NAME.yml` files (only use the `NAME` part in the setting). 
+# If the profile has special default settings, they will be stored in 
+# `playbooks/group_vars/NAME`, with global defaults in 
+# playbooks/group_vars/all`. These can be overridden in the `vars` 
+# section below.
+# 
+# If you set this to "dynamic", the provisioning script
+# will automatically (re-)generate `playbooks/dynamic.yml`, which 
+# applies any server role enabled in the vars section below.
+#
+profile: classroom_server
+
+#### ANSIBLE VARS ####
+# You can fine-tune settings here. 
+# Most sever roles have settings defined in:
+#
+#     playbooks/roles/*/defaults/main.yml
+#
+# These can be overidden by the global defaults defined in:
+#
+#     playbooks/group_vars/all
+#
+# ...which in turn can be overriden by profile or platform 
+# settings in the other file in group_vars/.
+# 
+# The commented values below represent global defaults for
+# some (but far from all) of these settings.
+#
+# If you uncomment and customize a setting here, it will override
+# everything else.
+#
+vars:
+  ## SITE AND INSTANCE NAMES ##
+  # The following two settings are the only ones you should always
+  # customize before deployment. They define a unique DNS domain, usable
+  # only by clients that use this server for DHCP, that is used to offer
+  # services from this device. They should be customized for your
+  # Deployment.
+  #
+  # After provisioning, this device will be accessible to anything that
+  # uses it as a dhcp server at the following name (see below for details
+  # on the site and instance settings):
+  #
+  #   $provision__site.$provision__instance.x2go.co
+  #
+  # And services will be available at names like
+  #
+  #  edx.$provision__site.$provision__instance.x2go.co
+  #
+  # Uncomment and set the site name to a short, one-word description of 
+  # your organization or location. Any devices you might want to be 
+  # able to share information
+  # some day (once we've implemented that feature!) should use the same
+  # site name.
+  # For example, Tunapanda Institute might use "ti". Shorter is better
+  # in case someone has to type the url manually!
+  #
+  #provision__site: "testsite"
+  
+  # Uncomment and set this to a short, one-word description of the 
+  # location within the deployment site where this device will be
+  # set up. This allows instances deployed in the same site to have
+  # distinct names within the same domain.
+  #
+  #provision__instance: "testinstance"
+
+  # The domain should be the domain of your organization, or
+  # you can feel free to use ours. :)
+  #
+  #provision__domain: "x2go.co"
+
+  ## SERVER ROLES ##
+  # You can also enable/disable any role defined in `playbooks/roles`
+  # By setting `$ROLENAME__enabled: ` to `true` or `false`.
+  #
+  # For example, to deploy the x2go web portal, you would set:
+  #portal__enabled: true
+  #
+  # Remember that each role has lots of configurable settings
+  # that you can also override here. For example, to see the 
+  # available settings for the portal, look in:
+  #
+  #     playbooks/roles/portal/defaults/main.yml
+  #

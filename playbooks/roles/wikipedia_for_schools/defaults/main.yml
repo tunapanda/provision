@@ -1,0 +1,2 @@
+---
+wikipedia_for_schools__auto_sync: "{{ portal__modules_auto_sync|default(true) }}"

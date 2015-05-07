@@ -1,0 +1,36 @@
+---
+- name: Install nginx
+  apt:
+    name={{item}}
+    state=installed
+  with_items:
+    - nginx-extras
+
+- name: Disable Apache
+  service:
+    name=apache2
+    state=stopped
+    enabled=false
+  ignore_errors: yes
+     
+- name: Configure nginx
+  template:
+    src=nginx.conf
+    dest=/etc/nginx/nginx.conf
+  notify: restart web server
+  
+- name: Create config dirs
+  file: 
+    name={{item}}
+    state=directory
+    owner={{common_web_user}} 
+  with_items:
+    - nginx__conf_dir
+    - nginx__sites_dir
+
+- name: Start nginx
+  service:
+    name=nginx
+    state=started
+    enabled=true
+    

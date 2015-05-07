@@ -4,7 +4,10 @@
 # There must be a reliable way that doesn't require a reboot. Investigate.
 
 # Install the package "hostapd"
-- apt: name=hostapd state=present
+- apt: name={{ item }} state=present
+  with_items:
+    - libnl1
+    - hostapd
 
 - name: hostapd configuration
   template:
@@ -22,7 +25,7 @@
 - name: IP masquerading
   template:
       src="firewall/masquerade.j2"
-      dest="{{ iptables__rules_dir }}/masquerade.conf"
+      dest="{{ iptables__rules_dir }}/800-masquerade.conf"
       backup=yes
   notify: reload iptables
 
@@ -30,3 +33,4 @@
   service: 
     name=hostapd
     state=started
+    enabled=true

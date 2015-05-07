@@ -1,0 +1,4 @@
+---
+web_server__service: nginx
+web_server__http_port: 80
+web_server__vhosts: []

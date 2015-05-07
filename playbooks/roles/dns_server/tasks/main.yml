@@ -1,0 +1,6 @@
+---
+- include: dnsmasq.yml
+  when: dns_server__service=="dnsmasq"
+  
+- name: test DNS lookup
+  command: host archive.ubuntu.com

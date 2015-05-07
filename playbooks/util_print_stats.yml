@@ -1,0 +1,21 @@
+---
+- hosts: all
+  vars:
+    statusmsg: |
+      
+      ****************  READ ME  ****************
+        Provisioning completed successfully!
+            Hostname: {{ provision__fqdn }}
+            IP Addresses: {{ ansible_all_ipv4_addresses }}
+                                                                         
+        If you are not using this machine for DNS, add the following
+        line to your /etc/hosts file:
+                                                                         
+            {{ansible_eth1.ipv4.address}} {{provision__fqdn}} {{extra_hostnames|default("")}}
+                                                                         
+        (you may need to add other hostnames depending on which services you deploy)
+      *******************************************
+    statusmsg_parsed: "{{statusmsg}}"
+    
+  tasks:        
+    - debug: var=statusmsg_parsed.split('\n')
