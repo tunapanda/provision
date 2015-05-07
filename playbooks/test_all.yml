@@ -9,10 +9,6 @@
 
 # Content portal config
 - include: common/portal.yml
-  vars:
-    wikipedia_for_schools__enabled: true
-    kalite__enabled: true
-    kalite__use_rachel_content: false
 
 # Learninglocker and swag portal
 - include: swag_dev.yml
