@@ -1,0 +1,74 @@
+---
+- name: Install packages needed by edx
+    hosts: all
+    vars:
+        edx__prereqs:
+            - gunicorn
+    tasks:
+        - apt:
+            name={{item}}
+            state=installed
+          with_items: edx__prereqs
+
+- name: Deploy edX roles
+    hosts: all
+    vars:
+        edx__enabled: false
+        edx__repo: "https://github.com/edx/configuration/"
+        edx__version: "aspen.1"
+        edx__base_dir: "{{ provision__data_dir }}/edx"
+        edx__provision_dir: "{{ provision__ext_dir }}/edx"
+
+        # Overrides for edX settings
+        COMMON_BASE_DIR: "{{ edx__base_dir }}"
+        COMMON_APP_DIR: "{{ COMMON_BASE_DIR }}/sites"
+        COMMON_DATA_DIR: "{{ COMMON_BASE_DIR }}/data"
+        COMMON_ENABLE_BASIC_AUTH: True
+        COMMON_HTPASSWD_PASS: x2go
+        COMMON_HTPASSWD_USER: x2go
+        COMMON_LOG_DIR: "{{ COMMON_DATA_DIR }}/log"
+        common_web_group: www-data
+        common_web_user: www-data
+
+        EDXAPP_LMS_NGINX_PORT: '8099'
+        EDX_ANSIBLE_DUMP_VARS: true
+        CERTS_DOWNLOAD_URL: 'http://{{ provision__primary_iface.ipv4.address }}:18090'
+        CERTS_VERIFY_URL: 'http://{{ provision__primary_iface.ipv4.address }}:18090'
+
+        # used for releases
+        edx_platform_version: "{{ edx__version }}"
+        ora2_version: "{{ edx__version }}"
+        certs_version: "{{ edx__version }}"
+        forum_version: "{{ edx__version }}"
+        xqueue_version: "{{ edx__version }}"
+
+        # From edx/nginx
+        nginx_config_dir: "/edx/app/nginx"
+        nginx_sites_available_dir: "{{ nginx_config_dir }}/sites-available"
+        nginx_sites_enabled_dir: "{{ nginx_config_dir }}/sites-enabled"
+
+    roles:
+      - common
+      - role: nginx
+        nginx_sites:
+        - cms
+        - lms
+        - forum
+        - xqueue
+        - certs
+        - lms
+        - cms
+      - edxlocal
+      - mongo
+      - { role: 'edxapp', celery_worker: True }
+      - edxapp
+      - demo
+      - { role: 'rabbitmq', rabbitmq_ip: '127.0.0.1' }
+      - oraclejdk
+      - elasticsearch
+      - forum
+      - { role: "xqueue", update_users: True }
+      - certs
+      - role: analytics-api
+        when: ANALYTICS_API_GIT_IDENTITY
+
