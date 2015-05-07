@@ -1,0 +1,10 @@
+---
+### 
+### Example custom.yml for testing the accounts and/or webmail roles
+###
+- hosts: all
+  roles:
+    - accounts
+    #- webmail
+
+- include: util_print_stats.yml
