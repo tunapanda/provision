@@ -13,12 +13,18 @@
   template:
     src=site/index.php
     dest={{ portal__docroot }}/index.php
+
+- name: Install default index fragment
+  template:
+    src=site/nofrag.php
+    dest={{ portal__docroot }}/nofrag.php
     
 - name: Symlink modules dir
   file:
     path={{ portal__docroot }}/modules
     src={{ portal__modules_dir }}
     state=link
+    force=yes
   when: portal__modules_dir != "{{ portal__docroot }}/modules"
 
 - name: Symlink sphider dir
@@ -35,7 +41,7 @@
 
 ## Portal and Captive Auth Support Files ##
 - include: captive.yml
-  when: portal__auth is defined and portal__auth != "none"
+  when: portal__auth is defined and portal__auth|bool != "none"
   notify: reload iptables
 
 

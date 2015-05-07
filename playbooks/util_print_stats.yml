@@ -16,6 +16,19 @@
         (you may need to add other hostnames depending on which services you deploy)
       *******************************************
     statusmsg_parsed: "{{statusmsg}}"
-    
-  tasks:        
+ 
+  tasks:      
     - debug: var=statusmsg_parsed.split('\n')
+    
+## Not working, but maybe an idea worth pursuing...
+#    - name: Gather hostsnames
+#      register: hostnames
+#      shell:>
+#        for w in $(
+#          ( grep -h server_name /etc/nginx/sites-enabled/*; 
+#            cat /etc/hosts ) |
+#          grep -v '#') ; 
+#        do echo $w; done |
+#          grep '^[[:alnum:]]\+' |
+#          grep -v 'localhost\|server_name\|^ip6\|^localhost\|[^[:alpha:]]$'
+#    - debug: "msg=GOT: {{hostames.stdout_lines|join(' ')}}"

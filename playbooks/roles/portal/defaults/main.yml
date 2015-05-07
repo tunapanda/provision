@@ -38,6 +38,11 @@ portal__auth_agreement_complete: |
   <p>Even if Internet access is not available, all of the content listed below is hosted locally and should be accessible!</p>
   <iframe src="http://duckduckgo.com/search.html?prefill=Internet Search" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
   <p><strong>Happy learning!</strong></p>
+    
+portal__nofrag_text: |
+  <div class="indexmodule"><h2><?php echo basename($dir) ?></h2>
+    <em>Nothing to display (yet)!</em></div>
+  
 
 # Modules 
 portal__modules_dir: "{{ provision__data_dir }}/portal_modules"

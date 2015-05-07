@@ -18,9 +18,10 @@ function rachel_get_modlist($moddir="modules") {
     $modules = array();
     while ($file = readdir($handle)) {
         if (preg_match("/^\./", $file)) continue; // skip hidden
-        if (is_dir("$moddir/$file")) { // look in dirs
+        if (is_dir("$moddir/$file")) { 
+        	// look in dirs
             $dir = "$moddir/$file";
-            if (file_exists("$moddir/$file/index.htmlf")) { // check for index fragment
+            if (file_exists("$dir/index.htmlf")) { // check for index fragment
                 $count++;
                 $frag = "index.htmlf";
                 $content = file_get_contents("$dir/$frag");
@@ -31,17 +32,7 @@ function rachel_get_modlist($moddir="modules") {
                     'frag' => "$dir/$frag", // this is what is actually included
                     'position' => $match[1]
                 );
-				if (file_exists("$moddir/$file/sync_in_progress")) {
-					$mod_data['syncing'] = true;	
-				} else {
-					$mod_data['syncing'] = false;
-				}
-				array_push($modules, $mod_data);
 			} 
-            /* Ignore invalid module dirs 
-            * If we ever change our minds about this,
-            * We'll need to define nofrag.php
-            *
             else {
                 # there was no index fragment, so...
                 $mod_data = array(
@@ -51,7 +42,13 @@ function rachel_get_modlist($moddir="modules") {
                     'position' => 9999
                 );
             } 
-            */
+			if (file_exists("$dir/sync_in_progress")) {
+				$mod_data['syncing'] = true;	
+				$mod_data['position'] = 8888;	
+			} else {
+				$mod_data['syncing'] = false;
+			}
+			array_push($modules, $mod_data);
         }
     }
     closedir($handle);
@@ -65,6 +62,7 @@ function rachel_print_mod_fragment($mod) {
     if ($mod['syncing']) {
     	print "<div class='warning'>{$mod['file']} appears to be syncing new content. This module may not work properly until the sync has completed.</div>";
     }
+    print "<pre>"; print_r($mod,true); print "</pre>";
     include $mod['frag'];
 }
 ?>

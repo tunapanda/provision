@@ -15,9 +15,12 @@
 - hosts: all
   roles:
     - role: wap
-      when: wap__enabled is defined and wap__enabled
+      when: wap__enabled is defined and wap__enabled|bool
 
 # Print the server's IP
 - include: util_print_stats.yml
+  vars:
+    extra_hostnames: >
+      kalite.{{provision__fqdn}}
     
 

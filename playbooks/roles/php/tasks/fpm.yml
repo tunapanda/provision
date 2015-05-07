@@ -1,0 +1,23 @@
+---
+- name: Installing PHP-FPM
+  apt: name={{ item }} state=installed
+  with_items:
+    - php5-fpm  # php fastcgi gateway
+
+- name: Configuring PHP-FPM
+  template:
+    src=fpm.conf
+    dest={{php__fpm_config_file}}
+  notify: restart fpm
+
+# For some reason the service module
+# doesn't seem to work reliably here
+# TODO: investigate.
+- name: Start php5-fpm
+  command: "service php5-fpm start"
+  ignore_errors: true
+
+- name: Enable php5-fpm 
+  service:
+    name=php5-fpm
+    enabled=true
