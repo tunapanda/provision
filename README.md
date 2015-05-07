@@ -15,7 +15,7 @@ See the [Setup](https://github.com/tunapanda/provision/wiki/Setup) wiki page for
   5. Read the comments in that file and make whatever changes seem appropriate
 4. Provision!
   1. `vagrant up`
-  2. When provisioning completes, follow the instructions printed at the end to a line to your `/etc/hosts` file (Windows users will have to figure out how to do this themselves, or just use the server's IP)
+  2. When provisioning completes, follow the instructions printed at the end to add a line to your `/etc/hosts` file (Windows users will have to figure out how to do this themselves, or just use the server's IP)
 5. Investigate!
   6. Visit the server with your web browser, but note the following:
     * The search boxes on the portal page don't (yet) work without some manual configuration. See post-provisioning instructions in the setup doc, linked below. 
