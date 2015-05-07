@@ -24,6 +24,7 @@
     path={{ portal__docroot }}/modules
     src={{ portal__modules_dir }}
     state=link
+    force=yes
   when: portal__modules_dir != "{{ portal__docroot }}/modules"
 
 - name: Symlink sphider dir
