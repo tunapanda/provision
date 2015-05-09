@@ -1,0 +1,7 @@
+{ "_id" : { "$oid" : "554c9ffa27987122598b456e" }, "migration" : "2014_09_30_094446_add_statements", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4570" }, "migration" : "2015_02_13_100706_statement_id_index", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4571" }, "migration" : "2015_02_25_154357_document_sha", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4572" }, "migration" : "2015_03_26_164005_statement_ref_array", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4573" }, "migration" : "2015_03_31_130813_attachment_rename", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4575" }, "migration" : "2015_04_27_091532_add_xapi_scopes", "batch" : 1 }
+{ "_id" : { "$oid" : "554c9ffa27987122598b4576" }, "migration" : "2015_04_30_104958_sync_oauth_clients", "batch" : 1 }

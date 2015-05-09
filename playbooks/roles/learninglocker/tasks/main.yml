@@ -82,13 +82,25 @@
   template:
     src=database.php
     dest={{learninglocker__root}}/app/config/local/database.php
-  register: db_setup
+  register: db_setup    
     
 - name: Perform DB migrations
   command: php artisan migrate
   args:
     chdir: "{{learninglocker__root}}"
   when: db_setup.changed
+  
+- name: Populate database tables
+  template: >
+    validate="mongoimport -d {{learninglocker__active_db}} -c {{item}} --upsert --file %s"
+    src="collections/{{item}}.json"
+    dest="/dev/null"
+  with_items:
+    - migrations
+    - oauth_scopes
+    - site
+    - user_tokens
+    - users
   
 #- name: Create LL users
 #  shell: >

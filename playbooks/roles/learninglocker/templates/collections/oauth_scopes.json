@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "554c9ffa27987122598b4574" }, "default_scope" : "all", "supported_scopes" : [ "statements/write", "statements/read/mine", "statements/read", "state", "define", "profile", "all/read", "all" ] }

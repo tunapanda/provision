@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "554d79222798710b758b4567" }, "name" : "{{provision__admin_user}}", "email" : "{{provision__admin_user}}@{{provision__fqdn}}", "verified" : "yes", "role" : "super", "password" : "$2y$10$PM0b4p.8axovt0aun2geC.pL02N3aLAXWmgB7oWFPt278YbkV34AK", "updated_at" : { "$date" : 1431140642275 }, "created_at" : { "$date" : 1431140642275 } }

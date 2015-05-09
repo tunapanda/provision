@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "554d79222798710b758b4568" }, "name" : "", "description" : "", "email" : "EMAIL@HOST.TLD", "lang" : "en-US", "create_lrs" : [ "super" ], "registration" : "Closed", "restrict" : "None", "domain" : "", "super" : [ { "user" : "554d79222798710b758b4567" } ], "updated_at" : { "$date" : 1431140642281 }, "created_at" : { "$date" : 1431140642281 } }
