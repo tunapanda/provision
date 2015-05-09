@@ -14,14 +14,29 @@
     repo=https://github.com/tunapanda/swagportal
     recursive=true
     dest={{swagportal__root}}
-    
+
 - name: Deploy swagportal config
   template:
     src="config.ini"
     dest="{{swagportal__root}}/config.ini"
     owner="{{swagportal__owner}}"
     group="{{swagportal__group}}"
-    
+
+- apt: name={{item}}
+  with_items:
+    - libpam0g-dev
+    - php5-dev
+    - php-pear
+
+- command: >
+    pecl install pam
+    creates=/usr/lib/php5/20121212/pam.so
+
+- lineinfile:
+    dest: /etc/php5/fpm/php.ini
+    line: extension=pam.so
+  notify: restart fpm
+
 # TODO: Figure out a better way. Probably something
 # other than PAM, unfortunately. 
 - name: Open shadow access (TEMPORARY hack)
