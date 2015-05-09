@@ -21,3 +21,11 @@
     dest="{{swagportal__root}}/config.ini"
     owner="{{swagportal__owner}}"
     group="{{swagportal__group}}"
+    
+# TODO: Figure out a better way. Probably something
+# other than PAM, unfortunately. 
+- name: Open shadow access (TEMPORARY hack)
+  file:
+    path=/etc/shadow
+    group={{common_web_user}}
+    mode=640
