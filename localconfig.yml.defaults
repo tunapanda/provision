@@ -48,6 +48,9 @@ platform: auto
 #
 profile: classroom_server
 
+# Use this profile for swag development. Also see provision__data_dir below.
+# profile: swag_dev
+
 #### ANSIBLE VARS ####
 # You can fine-tune settings here. 
 # Most sever roles have settings defined in:
@@ -120,3 +123,6 @@ vars:
   #
   #     playbooks/roles/portal/defaults/main.yml
   #
+
+  # Will make checked out modules accesible to the host.
+  #provision__data_dir: "{{provision__base_dir}}/provision/modules"
