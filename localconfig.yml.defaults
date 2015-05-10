@@ -14,11 +14,13 @@
 # And then read the Ansible docs if you want more:
 #   http://docs.ansible.com
   
+
 #### DEBUG ####
 # Amount of debug output to print.
 # Set to 0 (normal) - 3 (lots)
 #
 debug: 0
+
 
 #### PLATFORM ####
 # Platform describes the hardware to which you will be deploying.
@@ -31,22 +33,34 @@ debug: 0
 #
 platform: auto
 
+
 #### PROFILE ####
 # A profile defines collections of server roles that are frequently 
 # installed together. 
 #
-# You can set this to the name of any represented by one of the
+# You can set this to any name represented by one of the
 # `playbooks/NAME.yml` files (only use the `NAME` part in the setting). 
 # If the profile has special default settings, they will be stored in 
 # `playbooks/group_vars/NAME`, with global defaults in 
 # playbooks/group_vars/all`. These can be overridden in the `vars` 
 # section below.
-# 
-# If you set this to "dynamic", the provisioning script
-# will automatically (re-)generate `playbooks/dynamic.yml`, which 
-# applies any server role enabled in the vars section below.
+#
+# Common values include:
+#   "classroom_server" = a web server with a portal page that provides
+#   access to lots of educational content. If you want this to include
+#   larger resources like offline versions of wikipedia and khan
+#   academy lite, set wikipedia__enabled and/or kalite__enabled
+#   in the vars section below.
+#
+#   "swag_dev" = A dev environment for the Swag learning management
+#   tool, including the Learning Locker LRS. Also see provision__data_dir
+#   in the vars section.
+#
+#   "dynamic" = automatically (re-)generate `playbooks/dynamic.yml`,
+#   which applies any server role enabled in the vars section below.
 #
 profile: classroom_server
+
 
 #### ANSIBLE VARS ####
 # You can fine-tune settings here. 
@@ -120,3 +134,11 @@ vars:
   #
   #     playbooks/roles/portal/defaults/main.yml
   #
+
+  ## MODULES DIRECTORY ##
+  # Uncomment this to  make checked out modules accesible to the host
+  # when deploying to a virtual machine. Normally, content goes to a
+  # directory on the VM's filesystem. Note that this may cause problems
+  # if you are using software that is picky about excessively open
+  # permissions!
+  #provision__data_dir: "{{provision__base_dir}}/provision/modules"
