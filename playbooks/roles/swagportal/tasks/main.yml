@@ -27,7 +27,8 @@
     - libpam0g-dev
     - php5-dev
     - php-pear
-    
+    - php5-curl
+
 - command: pecl list pam
   ignore_errors: true
   register: check_pam
