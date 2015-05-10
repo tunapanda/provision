@@ -27,10 +27,14 @@
     - libpam0g-dev
     - php5-dev
     - php-pear
+    
+- command: pecl list pam
+  ignore_errors: true
+  register: check_pam
 
 - command: >
     pecl install pam
-    creates=/usr/lib/php5/20121212/pam.so
+  when: check_pam.rc != 0
 
 - lineinfile:
     dest: /etc/php5/fpm/php.ini
