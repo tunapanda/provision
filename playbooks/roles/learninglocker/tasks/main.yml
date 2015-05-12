@@ -101,6 +101,7 @@
     - site
     - user_tokens
     - users
+    - lrs
   
 #- name: Create LL users
 #  shell: >

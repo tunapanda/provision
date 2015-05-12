@@ -2,3 +2,6 @@
 swagportal__owner: "{{provision__admin_user}}"
 swagportal__group: "{{common_web_user}}"
 swagportal__root: "{{provision__data_dir}}/swagportal"
+swagportal__use_facebook_auth: true
+swagportal__facebook_app: 362540247284438
+swagportal__facebook_secret: cde68e6e6e60be5e798f9f36b2d6b3b8
