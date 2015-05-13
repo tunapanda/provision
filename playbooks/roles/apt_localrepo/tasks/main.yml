@@ -17,6 +17,6 @@
 - name: Populate local repo
   shell: '[ "$(ls -tr | tail -n1)" = "Packages.gz" ] || (dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz) chdir={{ provision__base_dir }}/packages'
 - name: Add local repo to apt sources
-  apt_repository: repo="deb file:/usr/local/tunapanda/packages ./" state=present
+  apt_repository: repo="deb file:{{apt_localrepo__packages_dir}} ./" state=present
 - name: Update the apt cache unless it was just updated
   apt: update_cache=yes cache_valid_time=10

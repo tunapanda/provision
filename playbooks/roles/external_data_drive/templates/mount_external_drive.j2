@@ -6,5 +6,5 @@ then
 	exit 0
 fi
 
-logger -t tunapanda 'mounting external data drive to {{ external_data_drive__mountpoint }}'
+logger -t provision 'mounting external data drive to {{ external_data_drive__mountpoint }}'
 mount LABEL={{ external_data_drive__disklabel }} {{ external_data_drive__mountpoint }}

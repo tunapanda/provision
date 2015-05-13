@@ -1,2 +1,3 @@
 ---
 # TODO: Probably going to deprecate this role...
+apt_localrepo__packages_dir: "{{provision__data_dir}}/apt_repo"
