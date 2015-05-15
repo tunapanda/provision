@@ -4,22 +4,31 @@
 ## a wireless access point and has edX pre-installed
 ##
 
-# Let Ansible handle the network config and sudo user...
-provision__admin_user: "vagrant"
+# Leave the network config and admin user alone
+network__interface_configs: []
+provision__admin_user: "ubuntu"
 user__reset_admin_password: false
 
-# eth1 is the private network with host system
+# ...but we stil need to say which interface is which
 provision__internal_interface: 
   stat: "{{ ansible_eth1 }}"
   
 # Don't run a DHCP server by default
-# TODO: It should be possible to have vagrant create
-# a virtual network where DHCP can be safely run for
-# other VMs
 dhcp_server__enabled: false
 
 # Default hostname will be $instance.vm.$domain
-provision__site: vm
+provision__site: aws
 
 # Make content accessible from the host machine
 provision__data_dir: "{{provision__base_dir}}/provision/modules"
+
+# Require a simple "don't be a jerk" 
+# agreement before providing net access.
+portal__auth: "agreement"
+
+# Integrate with edX
+edx_portal__enabled: true
+
+# If ka-lite is included, download videos only, no LMS
+kalite__use_rachel_content: true 
+

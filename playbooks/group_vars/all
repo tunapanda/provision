@@ -16,15 +16,12 @@ provision__site: "testsite"
 provision__domain: "x2go.co"
 provision__fqdn: "{{ provision__instance }}.{{ provision__site }}.{{ provision__domain }}"
 
-# If your server has a secondary ethernet device for an internet
-# connection, define `external_interface` versions of these
-# settings in your localconfig.yml
-# See the cubietruck config file for an example.
-# Note: The "ansible_" prefixes are essential!
+# By default we don't modify any network configs
+network__interface_configs: []
+
+# ...but we do need to tell things what interface to use
 provision__internal_interface: 
   stat: "{{ ansible_eth0 }}"
-  address: "10.0.0.1"
-provision__external_interface: false
 
 # TODO: make this dynamic
 # It gets passed by the bootstratp script

@@ -135,6 +135,33 @@ vars:
   #     playbooks/roles/portal/defaults/main.yml
   #
 
+  ## NETWORKING ##
+  # By default the provisioning system assumes that `eth0` is your 
+  # internal interface (the one connected to the local network) 
+  # and does not otherwise touch your network config. You can change
+  # what the internal interface is, and/or configure an external interface
+  # (the one connected to the Internet, if you are provisioning a
+  # gateway machine), and/or change the IP address assigned to either.
+  # See the templates in the `networking` role for details.
+  #
+  # For example, to make eth1 the internal interface, assigned a static IP, 
+  # and eth0 the external interface using DHCP, you would do the following...
+  #
+  #provision__internal_interface: 
+  #  stat: "{{ ansible_eth1 }}"
+  #  address: "10.0.0.1"  # drop this if you don't want to change the address
+  #provision__external_interface:
+  #  stat: "{{ ansible_eth0 }}"
+  #  address: "dhcp"
+  #
+  ## The settings above just identify internal/external interfaces for
+  ## services that need to know about them. This tells provisioning to
+  ## actually take over their configuration.
+  #network__interface_configs:
+  #  - provision__internal_interface
+  #  - provision__external_interface
+  #
+
   ## MODULES DIRECTORY ##
   # Uncomment this to  make checked out modules accesible to the host
   # when deploying to a virtual machine. Normally, content goes to a
