@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars:
+    test: FOO
+    other: BAR
+  tasks:
+    - debug: var={{item}}
+      with_items: get_vars
+    - debug: var=provision__base_dir

@@ -18,7 +18,7 @@
         - nginx
 
 # Ending status message
-- include: util_print_stats.yml
+- include: util/print_stats.yml
   vars:
     extra_hostnames: >
       swagportal.{{provision__fqdn}} 
