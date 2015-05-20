@@ -1,0 +1,8 @@
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/Tunapanda-Wallpaper1.png'
+picture-options='scaled'
+primary-color='a6b8fb'
+secondary-color='a6b8fb'
+
+[com.canonical.unity-greeter]
+background = '/usr/share/backgrounds/Tunapanda-Wallaper1.png'

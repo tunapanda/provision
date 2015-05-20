@@ -1,0 +1,10 @@
+---
+- name: Install LXDE Desktop
+  apt:
+    name={{item}}
+    state=present
+  with_items:
+    - xinit
+    - desktop-base
+    - lxde
+    - lxdm

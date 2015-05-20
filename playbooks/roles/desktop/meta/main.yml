@@ -2,6 +2,8 @@
 dependencies:
   - role: desktop_gnome
     when: desktop__type == "gnome" 
-  - role: desktop_lubuntu
-    when: desktop__type == "lubuntu"
+  - role: desktop_lxde
+    when: desktop__type == "lxde"
+  - role: desktop_xfce
+    when: desktop__type == "xfce"
 

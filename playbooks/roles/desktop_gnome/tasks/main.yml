@@ -1,0 +1,15 @@
+---
+- name: Gnome must be installed (this will take a while if it is not...)
+  apt: name=edubuntu-desktop state=present
+- name: Gnome fallback desktop should be used instead of Unity
+  apt: name=gnome-session-fallback state=present
+  when: desktop__use_gnome2
+- name: Set gnome fallback as default environment
+  command: /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
+  when: desktop__use_gnome2
+- name: Start GUI
+  service: name=lightdm state=started
+  
+- include: artwork.yml
+  when: desktop__custom_artwork
+
