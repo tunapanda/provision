@@ -25,4 +25,9 @@
         state=restarted
       when: wlan_driver.changed
       
-      
+    - name: Deploy cubietruck sysctl tweaks
+      template: >
+        src=templates/cubietruck/sysctl.conf
+        dest=/etc/sysctl.d/20-cubietruck.conf
+        validate="sysctl -p %s"
+
