@@ -16,6 +16,10 @@ provision__site: "testsite"
 provision__domain: "x2go.co"
 provision__fqdn: "{{ provision__instance }}.{{ provision__site }}.{{ provision__domain }}"
 
+# Can be overriden to anything matched by a `desktop_*` role
+# `false` means CLI only
+provision__desktop: false
+
 # If your server has a secondary ethernet device for an internet
 # connection, define `external_interface` versions of these
 # settings in your localconfig.yml

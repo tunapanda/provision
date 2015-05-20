@@ -1,0 +1,8 @@
+---
+- name: Install Lubuntu Desktop
+  apt:
+    name={{item}}
+    state=installed
+  with_items:
+    - lubuntu-desktop
+    - lubuntu-default-session
