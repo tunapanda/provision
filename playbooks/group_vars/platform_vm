@@ -23,4 +23,4 @@ dhcp_server__enabled: false
 provision__site: vm
 
 # Make content accessible from the host machine
-provision__data_dir: "{{provision__base_dir}}/provision/vm_data"
+provision__data_dir: "{{provision__base_dir}}/provision/modules"

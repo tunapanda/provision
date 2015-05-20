@@ -93,11 +93,11 @@ vars:
   # uses it as a dhcp server at the following name (see below for details
   # on the site and instance settings):
   #
-  #   $provision__site.$provision__instance.x2go.co
+  #   $provision__instance.$provision__site.$provision__domain
   #
   # And services will be available at names like
   #
-  #  edx.$provision__site.$provision__instance.x2go.co
+  #  edx.$provision__instance.$provision__site.$provision__domain
   #
   # Uncomment and set the site name to a short, one-word description of 
   # your organization or location. Any devices you might want to be 
@@ -110,9 +110,9 @@ vars:
   #provision__site: "testsite"
   
   # Uncomment and set this to a short, one-word description of the 
-  # location within the deployment site where this device will be
-  # set up. This allows instances deployed in the same site to have
-  # distinct names within the same domain.
+  # purpose or more specific location within the deployment site 
+  # where this device will be set up. This allows services deployed 
+  # at multiple locations in the same site to have distinct hostnames.
   #
   #provision__instance: "testinstance"
 
@@ -135,10 +135,16 @@ vars:
   #     playbooks/roles/portal/defaults/main.yml
   #
 
-  ## MODULES DIRECTORY ##
-  # Uncomment this to  make checked out modules accesible to the host
-  # when deploying to a virtual machine. Normally, content goes to a
-  # directory on the VM's filesystem. Note that this may cause problems
-  # if you are using software that is picky about excessively open
-  # permissions!
-  #provision__data_dir: "{{provision__base_dir}}/provision/modules"
+  ## MODULES DIRECTORY (probably only relevant for VMs) ##
+  # By default, VM deployments store most of the important content
+  # in the `modules`  subdirectory of wherever you cloned this repo.
+  # In other words, content is stored on the host system and shared
+  # back to the VM. This makes it easier to work on code or other
+  # changes without having to open a shell on the VM. However,
+  # all files are shared with write privileges to get around limitations
+  # in how the shared filesystem handles permissions, which may cause
+  # some software to misbehave. Uncomment the line below to store
+  # content in the default location (/usr/local/tunapand/data), 
+  # which is on the VM's local filesystem.
+  #
+  #provision__data_dir: "{{provision__base_dir}}/modules"

@@ -3,7 +3,7 @@
 ## Ths file contains defaults used by all configurations
 ##
 provision__base_dir: "/usr/local/tunapanda"
-provision__data_dir: "{{ provision__base_dir }}/data"
+provision__data_dir: "{{ provision__base_dir }}/modules"
 provision__scripts_dir: "{{ provision__base_dir }}/scripts"
 provision__ext_dir: "{{ provision__base_dir }}/provision/ext"
 provision__default_packages: [ git, vim, tmux, byobu, elinks, strace, sysstat, tcpdump, man, mutt ] 
