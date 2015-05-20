@@ -7,7 +7,6 @@
 # Let Ansible handle the network config and sudo user...
 network__interface_configs: []
 provision__admin_user: "vagrant"
-user__reset_admin_password: false
 
 # ...but we stil need to say which interface is which
 provision__internal_interface: 
