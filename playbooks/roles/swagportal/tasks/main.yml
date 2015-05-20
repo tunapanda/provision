@@ -14,6 +14,7 @@
     repo=https://github.com/tunapanda/swagportal
     recursive=true
     dest={{swagportal__root}}
+    update=false
 
 - name: Deploy swagportal config
   template:
