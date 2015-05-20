@@ -1,0 +1,11 @@
+---
+- name: Install ktouch
+  apt:
+    name=ktouch
+    state=present
+
+- name: Install ktouch reporter
+  npm:
+    name=ktouchxapi
+    state=present
+    global=true
