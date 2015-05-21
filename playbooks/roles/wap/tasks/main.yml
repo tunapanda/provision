@@ -3,8 +3,14 @@
 # TODO: This does not actually reload the module with the desired arguments
 # There must be a reliable way that doesn't require a reboot. Investigate.
 
-# Install the package "hostapd"
-- apt: name={{ item }} state=present
+- name: This configuration requires two interface configs
+  assert:
+    that:
+      - "provision__internal_interface is defined and provision__internal_interface"
+      - "provision__external_interface is defined and provision__external_interface"
+
+- name: Install hostapd
+  apt: name={{ item }} state=present
   with_items:
     - libnl1
     - hostapd
