@@ -1,4 +1,6 @@
 ---
+users__admin_user: "{{ provision__admin_user|default('root') }}"
 users__num_students: 20
 users__force_student_pw_change: false
 user__reset_admin_password: true
+users__sudo_require_password: false
