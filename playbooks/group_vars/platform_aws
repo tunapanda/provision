@@ -7,7 +7,6 @@
 # Leave the network config and admin user alone
 network__interface_configs: []
 provision__admin_user: "ubuntu"
-user__reset_admin_password: false
 
 # ...but we stil need to say which interface is which
 provision__internal_interface: 
