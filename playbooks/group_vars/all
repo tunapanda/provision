@@ -22,6 +22,7 @@ network__interface_configs: []
 # ...but we do need to tell things what interface to use
 provision__internal_interface: 
   stat: "{{ ansible_eth0 }}"
+provision__external_interface: "False"
 
 # TODO: make this dynamic
 # It gets passed by the bootstratp script

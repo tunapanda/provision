@@ -11,6 +11,8 @@ user__reset_admin_password: false
 # eth1 is the private network with host system
 provision__internal_interface: 
   stat: "{{ ansible_eth1 }}"
+provision__external_interface:
+  stat: "{{ ansible_eth0 }}"
   
 # Don't run a DHCP server by default
 # TODO: It should be possible to have vagrant create
