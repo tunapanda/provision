@@ -6,6 +6,7 @@
   roles:
     - users
     - swagportal
+    - swag_ktouch
     
   post_tasks:
     # Temporary workaround for bugs in how

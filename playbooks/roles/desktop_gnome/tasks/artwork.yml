@@ -4,7 +4,7 @@
     src=fs/ 
     dest=/
     rsync_path="sudo rsync"
-  
+
 - name: Configuring users to use custom artwork by default
   script: scripts/artwork-post-install.sh 
     creates=/tmp/COMPLETED_artwork-post-install

@@ -1,0 +1,9 @@
+---
+dependencies:
+  - role: desktop_gnome
+    when: desktop__type == "gnome" 
+  - role: desktop_lxde
+    when: desktop__type == "lxde"
+  - role: desktop_xfce
+    when: desktop__type == "xfce"
+

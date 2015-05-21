@@ -12,3 +12,4 @@
   
 - include: artwork.yml
   when: desktop__custom_artwork
+

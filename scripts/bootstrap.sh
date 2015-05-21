@@ -70,7 +70,7 @@ function is_installed() {
 function get_url() {
 	if is_installed curl
 	then
-		curl -o - "$1" 
+		curl -k -o - "$1" 
 	elif is_installed wget
 	then
 		wget -O - "$1"

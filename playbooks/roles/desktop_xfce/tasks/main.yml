@@ -1,0 +1,10 @@
+---
+- name: Install XFCE Desktop
+  apt:
+    name={{item}}
+    state=present
+  with_items:
+    - xinit
+    - desktop-base
+    - xfdesktop4
+    - xfce4-session

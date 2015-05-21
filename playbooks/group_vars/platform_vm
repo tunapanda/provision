@@ -6,7 +6,6 @@
 
 # Let Ansible handle the network config and sudo user...
 provision__admin_user: "vagrant"
-user__reset_admin_password: false
 
 # eth1 is the private network with host system
 provision__internal_interface: 
