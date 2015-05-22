@@ -1,7 +1,6 @@
 ---
-provision__instance: "dev"
-provision__site: "swag"
-provision__domain: "tunapanda.org"
+provision__instance: "swag"
+provision__domain: "testing.tunapanda.org"
 
 # This must match the vhost created by
 # the `swag` role.

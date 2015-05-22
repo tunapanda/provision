@@ -90,36 +90,31 @@ vars:
   # Deployment.
   #
   # After provisioning, this device will be accessible to anything that
-  # uses it as a dhcp server at the following name (see below for details
-  # on the site and instance settings):
+  # uses it as a dhcp server at the following name (read on for details):
   #
-  #   $provision__instance.$provision__site.$provision__domain
+  #   $provision__instance.$provision__domain
   #
   # And services will be available at names like
   #
-  #  edx.$provision__instance.$provision__site.$provision__domain
+  #  edx.$provision__instance.$provision__domain
+
+  # Uncomment and set the instance name to a short, one-word description of 
+  # your organization or location. For example, Tunapanda Institute might use "ti". 
+  # Shorter is better in case someone has to type the url manually!
   #
-  # Uncomment and set the site name to a short, one-word description of 
-  # your organization or location. Any devices you might want to be 
-  # able to share information
-  # some day (once we've implemented that feature!) should use the same
-  # site name.
-  # For example, Tunapanda Institute might use "ti". Shorter is better
-  # in case someone has to type the url manually!
+  # If you have multiple instances within the same site or organization,
+  # consider using instance names like "room1.mysite", "room2.mysite", etc.
   #
-  #provision__site: "testsite"
-  
-  # Uncomment and set this to a short, one-word description of the 
-  # purpose or more specific location within the deployment site 
-  # where this device will be set up. This allows services deployed 
-  # at multiple locations in the same site to have distinct hostnames.
+  # If unset, the default value will be derived from the platform
+  # and/or profile settings above. When provisioning completes, it will print
+  # a message with the hostname.
   #
-  #provision__instance: "testinstance"
+  #provision__instance: "mysite"
 
   # The domain should be the domain of your organization, or
-  # you can feel free to use ours. :)
+  # you can use the "t" (as in "test") subdomain of x2go.co.
   #
-  #provision__domain: "x2go.co"
+  #provision__domain: "t.x2go.co"
 
   ## NETWORKING ##
   # By default the provisioning system assumes that `eth0` is your 

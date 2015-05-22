@@ -11,10 +11,9 @@ provision__sites_available_dir: "/etc/nginx/sites-available"
 provision__sites_enabled_dir: "/etc/nginx/sites-enabled"
 provision__admin_user: "teacher"
 
-provision__instance: "testnode"
-provision__site: "testsite"
-provision__domain: "x2go.co"
-provision__fqdn: "{{ provision__instance }}.{{ provision__site }}.{{ provision__domain }}"
+provision__instance: "{{ profile|default('mysite') }}"
+provision__domain: "t.x2go.co"
+provision__fqdn: "{{ provision__instance }}.{{ provision__domain }}"
 
 # By default we don't modify any network configs
 network__interface_configs: []

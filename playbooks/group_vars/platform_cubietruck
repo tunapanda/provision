@@ -4,9 +4,6 @@
 ## a wireless access point and has edX pre-installed
 ##
 
-# Default hostname will be $instance.cubie.$domain
-provision__site: cubie
-
 # Override the default net configuration
 # Note: The "ansible_" prefixes are essential!
 provision__internal_interface: 

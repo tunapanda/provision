@@ -1,5 +1,5 @@
 ---
-provision__site: testing
+provision__instance: everything
 wikipedia_for_schools__enabled: true
 kalite__enabled: true
 kalite__use_rachel_content: false
