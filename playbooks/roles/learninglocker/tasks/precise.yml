@@ -1,0 +1,31 @@
+---
+- name: Set up PPA for updated versions of Node and PHP
+  apt_repository: repo="{{item}}" state="present"
+  with_items:
+    - "ppa:chris-lea/node.js"
+    - "ppa:ondrej/php5"
+
+- name: Install updated versions of Node and PHP
+  apt: name="{{item}}" state="latest"
+  with_items:
+    - nodejs
+    - php5
+
+- name: Install pecl
+  apt: name={{item}}
+  with_items:
+    - libpam0g-dev
+    - php5-dev
+    - php-pear
+    - php5-curl
+
+- command: pecl list mongo
+  ignore_errors: true
+  register: check_mongo
+
+- name: Install PHP mongo support
+  command: pecl install mongo
+  when: check_mongo.rc != 0
+
+- name: Enable PHP mongo support
+  command: php5enmod mongo

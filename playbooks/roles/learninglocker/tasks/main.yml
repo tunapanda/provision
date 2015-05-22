@@ -1,24 +1,35 @@
 ---
-- name: Install dependencies (apt)
+# Some dependencies vary between versions of Ubuntu
+- include: trusty.yml
+  when: "ansible_distribution_version|float() >= 14" 
+
+- include: precise.yml
+  when: "ansible_distribution_version|float() < 14" 
+
+- name: Install common dependencies
   apt:
     name={{item}} state=installed
   with_items:
     - mongodb
-    - php5-mongo
     - python-pymongo
     - curl 
     - php5
     - mcrypt
     - php5-mcrypt
     - php5-cli
-    - npm
-    - nodejs-legacy
     - git
-    
+
+# Do this separately from other packages because actions
+# later on depend on the result...
+- name: Install mcrypt
+  apt:
+    name=mcrypt
+    state=installed
+  register: mcrypt_step
+     
 - name: Enable mcrypt
   command: php5enmod mcrypt
-  register: mcrypt_step
-  
+
 # Service module doesn't like fpm for some reason
 - name: Reload PHP5-fpm
   command: service php5-fpm restart
