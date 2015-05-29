@@ -26,5 +26,5 @@ logger -t provision_datasync 'Completed rsync of {{ item.name }}'
 # not run until after the syncs are finished.
 logger -t provision_datasync 'Beginning indexing of {{ item.name }}'
 cd {{provision__data_dir}}/rsphider/admin
-php spider.php -r -u http://{{provision__fqdn}}/modules/$(basename {{item.local_dir}})
+php spider.php -r -d 0 -u http://{{provision__fqdn}}/modules/$(basename {{item.local_dir}})/
 logger -t provision_datasync 'Completed indexing of {{ item.name }}'
