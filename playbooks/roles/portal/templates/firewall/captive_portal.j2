@@ -41,6 +41,8 @@ $IPTABLES -t filter -A FORWARD -i {{ provision__internal_interface.stat.device }
 $IPTABLES -t filter -A INPUT -p tcp --dport 22 -j ACCEPT
 $IPTABLES -t filter -A INPUT -p tcp --dport 80 -j ACCEPT
 $IPTABLES -t filter -A INPUT -p tcp --dport 443 -j ACCEPT
+$IPTABLES -t filter -A INPUT -p tcp --sport 53 -j ACCEPT
+$IPTABLES -t filter -A INPUT -p udp --sport 53 -j ACCEPT
 $IPTABLES -t filter -A INPUT -p tcp --dport 53 -j ACCEPT
 $IPTABLES -t filter -A INPUT -p udp --dport 53 -j ACCEPT
 $IPTABLES -t filter -A INPUT -m mark --mark 99 -j DROP
