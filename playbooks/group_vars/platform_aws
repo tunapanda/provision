@@ -6,11 +6,10 @@
 
 # Leave the network config and admin user alone
 network__interface_configs: []
-provision__admin_user: "ubuntu"
 
 # ...but we stil need to say which interface is which
 provision__internal_interface: 
-  stat: "{{ ansible_eth1 }}"
+  stat: "{{ ansible_eth0 }}"
   
 # Don't run a DHCP server by default
 dhcp_server__enabled: false
