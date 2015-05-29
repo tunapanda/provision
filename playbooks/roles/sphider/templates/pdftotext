@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## TODO: rsphider provides several converters. 
+## It may be necessary to add some logic to select
+## the right one one a per-architecture basis.
+{{sphider__root}}/converter/pdftotext64.script $1 $2 $3

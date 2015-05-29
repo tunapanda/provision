@@ -19,15 +19,18 @@
      path={{ sphider__root }}/{{ item }}
      owner={{ provision__admin_user }}
      group={{ common_web_user }}
-     mode=4775
+     mode=2775
      recurse=true
      state=directory
   with_items:
      - admin
      - settings
      - include/IDS/tmp
+     - include/thumbs
+     - include/textcache
+     - include/mediacache
 
-- name: Install MySQL packages
+- name: Install Required packages
   apt:
     name={{ item }}
     state=installed
@@ -36,6 +39,7 @@
     - mysql-server
     - php5-mysql
     - php5-cli
+    - php5-gd
     
 - name: Start MySQL server
   service:
@@ -66,6 +70,12 @@
       val: "{{ sphider__db_user }}"
     - var: "mysql_password1"
       val: "{{ sphider__db_pass }}"
+
+- name: Install pdf converter script
+  template:
+    src=pdftotext
+    dest={{sphider__root}}/converter/pdftotext
+    mode=774
   
 - name: Populate rsphider database
   shell: >
