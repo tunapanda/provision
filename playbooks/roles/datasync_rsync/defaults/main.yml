@@ -17,7 +17,7 @@ datasync_rsync__data_dirs: []
     #permissions: "a=rX",
     #remote_host: "10.0.10.5",
     #remote_dir: "test-test",
-    #local_dir: "{{ provision__base_dir }}/data/testdata1"
+    #local_dir: "{{ provision__data_dir }}/testdata1"
     #},{
     #name: "test2",
     #owner: "www-data",
@@ -25,5 +25,5 @@ datasync_rsync__data_dirs: []
     #permissions: "a=rwX",
     #remote_host: "rsync.ourserver.com",
     #remote_dir: "test-test2",
-    #local_dir: "{{ provision__base_dir }}/data/testdata2"
+    #local_dir: "{{ provision__data_dir }}/testdata2"
     #}]
