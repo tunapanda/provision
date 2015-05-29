@@ -9,7 +9,7 @@ cron_datasync__start_minute: "10"
 # 0 or 7 is Sun, or use names. Use the first three letters of the particular day or month (case doesn't matter).
 cron_datasync__start_day_of_week: "Sun"
 
-cron_datasync__base_dir: "{{ provision__base_dir }}/data/cron_datasync"
+cron_datasync__base_dir: "{{ provision__data_dir }}/cron_datasync"
 cron_datasync__sync_scripts_dir: "{{ cron_datasync__base_dir }}/syncscripts.d"
 
 # If enabled, start syncing in the background without waiting for cron
