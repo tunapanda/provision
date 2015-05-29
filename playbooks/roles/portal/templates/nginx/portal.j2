@@ -14,6 +14,10 @@ server {
   # Unfortunately, $server_addr is not working here
   server_name localhost $hostname {{provision__fqdn}} {{ ansible_all_ipv4_addresses|join(' ') }};
 
+  location /robots.txt {
+    return 404;
+  }
+
   location ~ \.php$ {
          fastcgi_split_path_info ^(.+\.php)(/.+)$;
          # NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
