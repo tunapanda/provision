@@ -26,7 +26,7 @@ network__interface_configs: []
 # Note: The "ansible_" prefixes are essential!
 provision__internal_interface: 
   stat: "{{ ansible_eth0 }}"
-provision__external_interface: "False"
+provision__external_interface: False
 
 # Can be overriden to anything matched by a `desktop_*` role
 # `false` means CLI only
