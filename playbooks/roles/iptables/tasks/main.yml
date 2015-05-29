@@ -13,8 +13,13 @@
 - name: Create iptables rules dir
   file:
     state=directory
-    dest="{{ iptables__base_dir }}/rules.d"
+    dest={{ iptables__rules_dir }}
     mode="0755"
+
+- name: Deploy default rules
+  template:
+    src="base_rules.conf"
+    dest="{{iptables__rules_dir}}/000-base.conf"
 
 - name: Set up iptables 
   template:
