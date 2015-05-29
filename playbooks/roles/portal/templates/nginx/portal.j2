@@ -1,6 +1,6 @@
 server {
   listen {{ portal__port|default("80") }} default;
-  return 302 http://{{ provision__internal_interface.stat.ipv4.address }}/index.php?orig_url=$scheme://$host$request_uri;
+  return 302 http://{{ portal__default_host }}/index.php?orig_url=$scheme://$host$request_uri;
 }
 
 server {
@@ -12,7 +12,7 @@ server {
 
   # Make site accessible from http://localhost/
   # Unfortunately, $server_addr is not working here
-  server_name localhost $hostname {{ ansible_all_ipv4_addresses|join(' ') }};
+  server_name localhost $hostname {{provision__fqdn}} {{ ansible_all_ipv4_addresses|join(' ') }};
 
   location ~ \.php$ {
          fastcgi_split_path_info ^(.+\.php)(/.+)$;

@@ -3,6 +3,7 @@ portal__use_sphider: true
 portal__port: 80
 portal__title: "x2go"
 portal__subtitle: "Education in a box"
+portal__default_host: "{{ provision__fqdn }}"
 portal__description: |
   <p><strong>x2go</strong> is a collection of free learning materials hosted in a standalone box without requiring internet. </p>
   <p>It is developed by an international team, with representatives of <em>The Tunapanda Institute</em>, <em>The Queen Rania Foundation</em>, and <em>edX</em>. This portal page is based on work done by World Possible for Project RACHEL.
