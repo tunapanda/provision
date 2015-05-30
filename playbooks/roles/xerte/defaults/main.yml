@@ -1,0 +1,99 @@
+---
+xerte__root: "{{provision__data_dir|default('/var/www')}}/xerte"
+xerte__repo: "https://github.com/thexerteproject/xerteonlinetoolkits/"
+xerte__web_user: "{{common_web_user|default('www-data')}}"
+xerte__version: "develop"
+xerte__db_host: "localhost"
+xerte__db_name: "xerte"
+xerte__db_user: "xerte"
+xerte__db_pass: "xerte" # override me!
+xerte__db_prefix: ""
+xerte__admin_username: "admin"
+xerte__admin_password: "xerte" # override me!
+
+xerte__site_url: "http://{{'xerte.'+provision__fqdn if provision__fqdn is defined else 'localhost'}}/"
+xerte__site_title: "Welcome to Xerte Online Toolkits"
+xerte__site_name: "Xerte Online Toolkits"
+xerte__site_logo: "website_code/images/xerteLogo.jpg"
+xerte__organisational_logo: "website_code/images/UofNLogo.jpg"
+xerte__welcome_message: "Welcome to Xerte online toolkits"
+xerte__site_text: "Welcome to the toolkits front page, developed by the Apereo Foundation"
+xerte__news_text: |
+  <p class=\"news_title\">Other resources</p><p 
+  class=\"news_story\"><a href=\"\">Site 1</a></p><p 
+  class=\"news_story\"><a href=\"\">Site 2</a></p><p 
+  class=\"news_story\"><a href=\"\">Site 3</a></p>
+xerte__copyright: "Copyright Apereo Foundation 2015"
+xerte__demonstration_page: "modules/xerte/training/toolkits.htm"
+xerte__password: |
+  </p><p><input type=\"image\" src=\"website_code/images/Bttn_LoginOff.gif\" onmouseover=\"this.src='website_code/images/Bttn_LoginOn.gif'\" onmousedown=\"this.src='website_code/images/Bttn_LoginClick.gif'\" onmouseout=\"this.src='website_code/images/Bttn_LoginOff.gif'\" /></p>
+xerte__pod_one: |
+  <p class=\"news_title\">Resources</p><p class=\"demo\"><a href=\"http://www.xerte.org.uk\">Community Resources</a><br />The Xerte user community website.</p><p class=\"demo\"><a href=\"http://www.nottingham.ac.uk/toolkits/play_560\">Learning Object Demo</a><br />A comprehensive demo of all the page templates.</p>
+xerte__pod_two: |
+  <p class=\"news_title\">Want to share some thoughts?</p><p class=\"general\">If you have any questions, requests for help, ideas for new projects or problems to report, then please get in touch.</p><p class=\"general\">Please use our <a href=\"feedback/\" style=\"color:#000\">Feedback Form</a></p>
+xerte__peer_form_string: |
+  <html><body><center><p><form method=\"post\" action=\"\"><p>Password <input type=\"password\" size=\"20\" maxlength=\"36\" name=\"password\" /></p><p><input type=\"image\" src=\"website_code/images/Bttn_LoginOff.gif\" onmouseover=\"this.src='website_code/images/Bttn_LoginOn.gif'\" onmousedown=\"this.src='website_code/images/Bttn_LoginClick.gif'\" onmouseout=\"this.src='website_code/images/Bttn_LoginOff.gif'\" /></p>
+xerte__form_string: |
+  <html><body><center><p><form method=\"post\" action=\"\"><p>Username <input type=\"text\" size=\"20\" maxlength=\"12\" name=\"login\" /></p><p>Password <input type=\"password\" size=\"20\" maxlength=\"36\" name=\"password\" /></p><p><input type=\"image\" src=\"website_code/images/Bttn_LoginOff.gif\" onmouseover=\"this.src='website_code/images/Bttn_LoginOn.gif'\" onmousedown=\"this.src='website_code/images/Bttn_LoginClick.gif'\" onmouseout=\"this.src='website_code/images/Bttn_LoginOff.gif'\" /></p>
+xerte__apache: "false"
+xerte__site_session_name: "XERTE_TOOLKITS"
+xerte__integration_config_path: ""
+xerte__mimetypes: >      
+  text/xml,
+  application/msword,
+  application/x-shockwave-flash,
+  image/jpeg,
+  image/pjpeg,
+  image/png,
+  image/gif,
+  image/x-png,
+  audio/mpeg,
+  application/vnd.ms-excel,
+  application/pdf,
+  application/vnd.ms-powerpoint,
+  video/x-ms-wmv,
+  text/html,
+  video/mp4,
+  video/avi,
+  audio/wav,
+  text/plain,
+  video/quicktime,
+  application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,
+  application/vnd.openxmlformats-officedocument.wordprocessingml.document,
+  application/vnd.openxmlformats-officedocument.presentationml.presentation
+xerte__rss_title: "Xerte Online Toolkits RSS Feed"
+xerte__synd_publisher: "Put your institution's name here"
+xerte__synd_rights: "Licensed under a Creative Commons Attribution - NonCommercial-ShareAlike 2.0 Licence - see http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"
+xerte__synd_license: "Licensed under a Creative Commons Attribution - NonCommercial-ShareAlike 2.0 Licence - see http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"
+xerte__module_path: "modules/"
+xerte__website_code_path: "website_code/"
+xerte__users_file_area_short: "USER-FILES/"
+xerte__php_library_path: "website_code/php/"
+xerte__root_file_path: "{{xerte__root}}"
+xerte__import_path: "{{xerte__root_file_path}}/import/"
+xerte__play_edit_preview_query: |
+  select {{xerte__db_prefix}}originaltemplatesdetails.template_name, {{xerte__db_prefix}}logindetails.username, {{xerte__db_prefix}}originaltemplatesdetails.template_framework, {{xerte__db_prefix}}templaterights.user_id, {{xerte__db_prefix}}templaterights.folder, {{xerte__db_prefix}}templaterights.template_id, {{xerte__db_prefix}}templatedetails.access_to_whom from {{xerte__db_prefix}}originaltemplatesdetails, {{xerte__db_prefix}}templaterights, {{xerte__db_prefix}}templatedetails, {{xerte__db_prefix}}logindetails where {{xerte__db_prefix}}templatedetails.template_type_id = {{xerte__db_prefix}}originaltemplatesdetails.template_type_id and {{xerte__db_prefix}}templatedetails.creator_id = {{xerte__db_prefix}}logindetails.login_id and {{xerte__db_prefix}}templaterights.template_id = {{xerte__db_prefix}}templatedetails.template_id and {{xerte__db_prefix}}templaterights.template_id=\"TEMPLATE_ID_TO_REPLACE\" and role=\"creator\"
+xerte__error_log_path: "error_logs/"
+xerte__email_error_list: ""
+xerte__error_log_message: "false"
+xerte__error_email_message: "false"
+xerte__max_error_size: "10"
+xerte__ldap_host: ""
+xerte__ldap_port: ""
+xerte__bind_pwd: ""
+xerte__basedn: ""
+xerte__bind_dn: ""
+xerte__LDAP_preference: "sAMAccountName"
+xerte__LDAP_filter: "cn="
+xerte__password: |
+  </p><p><input type=\"image\" src=\"website_code/images/Bttn_LoginOff.gif\" onmouseover=\"this.src='website_code/images/Bttn_LoginOn.gif'\" onmousedown=\"this.src='website_code/images/Bttn_LoginClick.gif'\" onmouseout=\"this.src='website_code/images/Bttn_LoginOff.gif'\" /></p>
+xerte__flash_save_path: "modules/xerte/engine/save.php"
+xerte__flash_upload_path: "upload.php?path="
+xerte__flash_preview_check_path: "modules/xerte/engine/file_exists.php"
+xerte__flash_flv_skin: "modules/xerte/engine/tools/SteelOverAll.swf"
+xerte__site_email_account: ""
+xerte__headers: ""
+xerte__email_to_add_to_username: ""
+xerte__feedback_list: ""
+xerte__proxy1: ""
+xerte__port1: ""

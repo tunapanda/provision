@@ -1,0 +1,88 @@
+---
+- name: Install dependencies and helpers
+  apt:
+    name={{item}}
+    state=present
+  with_items:
+    - python-mysqldb # for Ansible's mysql module
+    - libav-tools
+    - libavcodec-extra-54
+    - mysql-server
+    - php5-mysql
+
+- name: Clone repository
+  git: >
+    repo={{xerte__repo}}
+    version={{xerte__version}}
+    dest={{xerte__root}}
+    update=false
+    
+- name: Set directory permissions
+  file: >
+    path={{item}}
+    state=directory
+    owner={{xerte__web_user}}
+    mode=2775
+  with_items:
+    - "{{xerte__root+'/'+xerte__users_file_area_short}}"
+    - "{{xerte__root+'/'+xerte__error_log_path}}"
+    - "{{xerte__root+'/'+xerte__import_path}}"
+    
+- name: Start MySQL server
+  service:
+    name=mysql
+    state=started
+      
+- name: Generate base SQL dump
+  template:
+    src=basic.sql
+    dest=/tmp/xerte-basic.sql
+  register: base_sql
+
+- name: Create database
+  mysql_db:
+    name={{ xerte__db_name }}
+    state=present
+  register: db_create
+
+- name: Load base SQL
+  mysql_db:
+    name={{ xerte__db_name }}
+    state=import
+    target=/tmp/xerte-basic.sql
+  when: db_create.changed or base_sql.changed
+      
+- name: Generate site settings SQL dump
+  template:
+    src=site_settings.sql
+    dest=/tmp/xerte-site_settings.sql
+  register: site_settings_sql
+
+- name: Load site settings SQL
+  mysql_db:
+    name={{ xerte__db_name }}
+    state=import
+    target=/tmp/xerte-site_settings.sql
+  when: db_create.changed or site_settings_sql.changed
+
+- name: Create db user
+  mysql_user: >
+    name={{ xerte__db_user }}
+    password={{ xerte__db_pass }}
+    state=present
+    priv={{ xerte__db_name }}.*:ALL
+
+- name: Generate db config
+  template:
+    src=database.php
+    dest={{xerte__root}}/database.php
+    owner={{xerte__web_user}}
+    
+## TODO 
+### Defaults for these seem to be ok on Trusty
+# Turn on sessions
+#   http://uk2.php.net/manual/en/session.installation.php
+# LDAP setup
+# Set SMTP in php.ini
+# zlib?
+###
