@@ -1,7 +1,7 @@
 ## What is it?
 Vagrant + Ansible config for provisioning a virtual machine.
 
-The idea is to do an automated provision a physical machine or a VM using [ansible](http://ansible.com) and [vagrant](http://www.vagrantup.com). The provisioned system can then optionally be used to generate a bootable ISO using a customized version of the sadly now quasi-defunct [remastersys](https://en.wikipedia.org/wiki/Remastersys).
+The idea is to do an automated provision a physical machine or a VM using [ansible](http://ansible.com) and [vagrant](http://www.vagrantup.com). 
 
 ## How do I use it?
 See the [Setup](https://github.com/tunapanda/provision/wiki/Setup) wiki page for details, but here's a quick-start guide to creating a VM with a default config plus some optional customization:
