@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VERBOSITY="-v"
-#VERBOSITY="-vvv"
+#VERBOSITY="-v"
+VERBOSITY="-vvv"
 
 ## Basic I/O functions
 function die() {

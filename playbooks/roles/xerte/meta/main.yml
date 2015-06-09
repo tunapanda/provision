@@ -1,0 +1,6 @@
+---
+dependencies:
+  - role: web_server_vhosts
+    web_server__vhosts:
+      - name: xerte
+        docroot: "{{xerte__root}}"
