@@ -94,8 +94,13 @@ abstract class auth_base {
 
     public function auth_record_exists() {
         $mac = $this->get_mac();
-        $records = $this->get_records();
-        return array_key_exists($mac,$records);
+	if ($mac) {
+          $records = $this->get_records();
+          return array_key_exists($mac,$records);
+        } else {
+          // fail if no MAC can be found
+          return false;
+        }
     }
 
     public function authorize() {
