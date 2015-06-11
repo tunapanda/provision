@@ -1,0 +1,9 @@
+---
+dependencies:
+  - learninglocker
+  - role: web_server_vhosts
+    web_server__vhosts:
+      - name: swagember
+        is_static_site: true
+        docroot: "{{swag_ember__root}}/dist"
+        alt_404: "/index.html"
