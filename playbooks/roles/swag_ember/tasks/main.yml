@@ -23,27 +23,8 @@
     owner="{{swag_ember__owner}}"
     group="{{swag_ember__group}}"
 
-- name: Create a swap file
-  sudo: yes
-  command: fallocate -l 1G /swapfile
-  ignore_errors: true
-
-- name: Swap permission
-  sudo: yes
-  file:
-    path=/swapfile
-    mode=0600
-    state=file
-
-- name: make Swap
-  sudo: yes
-  command: mkswap /swapfile
-  ignore_errors: true
-
-- name: Enable Swap
-  sudo: yes
-  command: swapon /swapfile
-  ignore_errors: true
+- name: Create swap
+  command: "{{provision__base_dir}}/provision/scripts/create_swapfile.sh"
 
 - name: Install Bower
   sudo: true
@@ -54,12 +35,14 @@
   command: npm install -g ember-cli
 
 - name: Install npm dependancies
-  npm: 
-    path="{{swag_ember__root}}"
+  command: npm install
+  args: 
+    chdir: "{{swag_ember__root}}"
 
 - name: Install bower dependancies
-  bower: 
-    path="{{swag_ember__root}}"
+  command: bower install --allow-root
+  args: 
+    chdir: "{{swag_ember__root}}"
 
 - command: ember build --prod
   args:
