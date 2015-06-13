@@ -11,7 +11,7 @@
         If you are not using this machine for DNS, add the following
         line to your /etc/hosts file:
                                                                          
-            {{ansible_eth1.ipv4.address}} {{provision__fqdn}} {{extra_hostnames|default("")}}
+            {{provision__internal_interface.stat.ipv4.address}} {{provision__fqdn}} {{extra_hostnames|default("")}}
                                                                          
         (you may need to add other hostnames depending on which services you deploy)
       *******************************************
