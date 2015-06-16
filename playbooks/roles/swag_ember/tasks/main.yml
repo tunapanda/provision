@@ -1,0 +1,49 @@
+---
+- name: Create swag_ember repo
+  file:
+    path={{swag_ember__root}}
+    owner={{swag_ember__owner}}
+    group={{swag_ember__group}}
+    mode=2775
+    state=directory
+
+- name: Clone swag_ember repo
+  sudo: yes
+  sudo_user: "{{swag_ember__owner}}"
+  git:
+    repo=https://github.com/tunapanda/swag-ember
+    recursive=true
+    dest={{swag_ember__root}}
+    update=false
+
+- name: Deploy swag_ember config
+  template:
+    src="environment.js"
+    dest="{{swag_ember__root}}/config/environment.js"
+    owner="{{swag_ember__owner}}"
+    group="{{swag_ember__group}}"
+
+- name: Create swap
+  command: "{{provision__base_dir}}/provision/scripts/create_swapfile.sh"
+
+- name: Install Bower
+  sudo: true
+  command: npm install -g bower
+
+- name: Install Ember CLI
+  sudo: true
+  command: npm install -g ember-cli
+
+- name: Install npm dependancies
+  command: npm install
+  args: 
+    chdir: "{{swag_ember__root}}"
+
+- name: Install bower dependancies
+  command: bower install --allow-root
+  args: 
+    chdir: "{{swag_ember__root}}"
+
+- command: ember build --prod
+  args:
+    chdir: "{{swag_ember__root}}"

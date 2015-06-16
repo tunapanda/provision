@@ -1,0 +1,4 @@
+---
+swag_ember__owner: "{{provision__admin_user}}"
+swag_ember__group: "{{common_web_user}}"
+swag_ember__root: "{{provision__data_dir}}/swag_ember"
