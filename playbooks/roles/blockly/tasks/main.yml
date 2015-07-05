@@ -1,0 +1,28 @@
+---
+- apt: name=unzip state=installed
+- file: path="{{provision__data_dir}}/blockly" state="directory" owner="{{common_web_user}}"
+#- git: >
+#    repo="https://github.com/google/closure-library"
+#    dest="{{provision__data_dir}}/blockly/closure-library"
+#    update=no
+- git: >
+    repo="https://github.com/google/blockly"
+    dest="{{provision__data_dir}}/blockly/blockly"
+    update=no
+- git: >
+    repo="https://github.com/usernamenumber/blockly-editor"
+    dest="{{provision__data_dir}}/blockly/blockly/editor"
+    update=no
+- command: "wget https://github.com/google/blockly-games/raw/offline/generated/blockly-games-en.zip -O /tmp/blockly-games-en.zip"
+- unarchive: >
+    src="/tmp/blockly-games-en.zip"
+    dest="{{provision__data_dir}}/blockly/blockly/"
+    copy="no"
+    creates="{{provision__data_dir}}/blockly/blockly/blockly-games/index.html"
+- file: >
+    path="{{provision__data_dir}}/blockly/blockly/games"
+    src="{{provision__data_dir}}/blockly/blockly/blockly-games"
+    state="link"
+- template: >
+    src="index.html"
+    dest="{{provision__data_dir}}/blockly/blockly"
