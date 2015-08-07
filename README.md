@@ -8,7 +8,7 @@ See the [Setup](https://github.com/tunapanda/provision/wiki/Setup) wiki page for
 
 1. Install [Vagrant](http://vagrantup.com)
 2. Clone this repo
-  2. `git clone https://github.com/tunapanda/provision/`
+  2. `git clone https://github.com/tunapanda/provision.git`
   2. `cd provision`
 3. (optional) Customize the config
   4. `cp localconfig.yml.defaults localconfig.yml`
