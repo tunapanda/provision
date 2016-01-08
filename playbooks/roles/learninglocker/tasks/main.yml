@@ -84,23 +84,22 @@
     dest={{learninglocker__root}}/app/config/local/database.php
   register: db_setup    
     
+- name: Populate database tables
+  shell: mongorestore -d {{learninglocker__active_db}} {{provision__base_dir}}/provision/playbooks/roles/learninglocker/templates/backup/learninglocker/
+
+- name: Copy field update script
+  template:
+    src=restore.js
+    dest={{provision__base_dir}}/provision/scripts/update_ll_fields.js
+
+- name: update LL fields
+  shell: mongo {{provision__base_dir}}/provision/scripts/update_ll_fields.js
+
 - name: Perform DB migrations
   command: php artisan migrate
   args:
     chdir: "{{learninglocker__root}}"
   when: db_setup.changed
-  
-- name: Populate database tables
-  template: >
-    validate="mongoimport -d {{learninglocker__active_db}} -c {{item}} --upsert --file %s"
-    src="collections/{{item}}.json"
-    dest="/dev/null"
-  with_items:
-    - migrations
-    - oauth_scopes
-    - site
-    - user_tokens
-    - users
   
 #- name: Create LL users
 #  shell: >
