@@ -14,7 +14,7 @@
 # doesn't seem to work reliably here
 # TODO: investigate.
 - name: Start php5-fpm
-  command: "service php5-fpm start"
+  service: name=php5-fpm state=started
   ignore_errors: true
 
 - name: Enable php5-fpm 

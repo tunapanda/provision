@@ -1,17 +1,8 @@
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.system.users", "name" : "_id_" }
 { "v" : 1, "key" : { "user" : 1, "userSource" : 1 }, "unique" : true, "ns" : "learninglocker.system.users", "name" : "user_1_userSource_1" }
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.migrations", "name" : "_id_" }
-{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.statements", "name" : "_id_" }
-{ "v" : 1, "key" : { "lrs._id" : 1 }, "ns" : "learninglocker.statements", "name" : "lrs__id_1" }
-{ "v" : 1, "key" : { "lrs._id" : 1, "statement.object.id" : 1 }, "ns" : "learninglocker.statements", "name" : "lrs__id_1_statement_object_id_1" }
-{ "v" : 1, "key" : { "lrs._id" : 1, "statement.verb.id" : 1 }, "ns" : "learninglocker.statements", "name" : "lrs__id_1_statement_verb_id_1" }
-{ "v" : 1, "key" : { "lrs._id" : 1, "statement.actor.mbox" : 1 }, "ns" : "learninglocker.statements", "name" : "lrs__id_1_statement_actor_mbox_1" }
-{ "v" : 1, "key" : { "lrs._id" : 1, "timestamp" : 1 }, "ns" : "learninglocker.statements", "name" : "lrs__id_1_timestamp_1" }
-{ "v" : 1, "key" : { "statement.stored" : 1 }, "ns" : "learninglocker.statements", "name" : "statement_stored_1" }
-{ "v" : 1, "key" : { "statement.stored" : 1, "lrs._id" : 1 }, "ns" : "learninglocker.statements", "name" : "statement_stored_1_lrs__id_1" }
-{ "v" : 1, "key" : { "statement.id" : 1, "lrs._id" : 1 }, "ns" : "learninglocker.statements", "name" : "statement_id_1_lrs__id_1" }
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.oauth_scopes", "name" : "_id_" }
-{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.users", "name" : "_id_" }
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.site", "name" : "_id_" }
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.user_tokens", "name" : "_id_" }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.users", "name" : "_id_" }
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "learninglocker.lrs", "name" : "_id_" }
